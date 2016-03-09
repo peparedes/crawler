@@ -15,7 +15,7 @@ password = 'bid35460'#'smallcat1003'#
 
 def crawl ():
 	# read name-id file
-	f = open(r'../data/name2id', 'r')
+	f = open(r'./data/name2id', 'r')
 	nameid = map(lambda line: line.rstrip('\n').split('|').pop(1), f.readlines())
 	nameid = map(lambda line: line.rstrip('\n').split('|').pop(1), f.readlines())
 	i = 0
@@ -175,7 +175,7 @@ def lj_getevents(target_user, index, beforedate):
 	f.write(content.decode("utf-8"))
 	f.close()
 	#print(content
-	f = open("../data/events/%010d/%s_%010d.xml" % (index,target_user,index), 'w+')
+	f = open("./data/events/%010d/%s_%010d.xml" % (index,target_user,index), 'w+')
 	retval = genNewXmlForElement(f, content, "events", "user", target_user, "eventtime")
 	f.close()
 #	while pp.poll() == None:
@@ -200,7 +200,7 @@ namecrawltime = {};
 iters = 0;
 while 1:
 	# load the latest name2id file
-	for dirname, dirnames, filenames in os.walk('../data/names/'):
+	for dirname, dirnames, filenames in os.walk('./data/names/'):
 		#filenames.sort();
 		nameid_file =  os.path.join(dirname, filenames[len(filenames)-1])
 		print(nameid_file)
@@ -235,15 +235,15 @@ while 1:
 	index = int(items[1]); # global iteration read from file system
 
 	# data directory
-	if not os.path.exists("../data/events/%010d/" % (index)):
-    		os.makedirs("../data/events/%010d/" % (index))
+	if not os.path.exists("./data/events/%010d/" % (index)):
+    		os.makedirs("./data/events/%010d/" % (index))
 
 	userind = 1
 	for key in namedict.keys():
 		print("crawling [%d]" % (userind),)
 		print(key, namedict[key],)
 
-		outpath = "../data/events/%010d/%s_%010d.xml" % (index,key,index)
+		outpath = "./data/events/%010d/%s_%010d.xml" % (index,key,index)
 		# getevents if there's more the crawl
 		# TODO: if the file exists, do nothing
 		if  namecrawltime[key] != "done" and not os.path.exists(outpath):
