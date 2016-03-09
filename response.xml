@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><fault><value><struct><member><name>faultString</name><value><string>Client error:  Selected journal no longer exists.: You can't post to deleted/suspended journal/community</string></value></member><member><name>faultCode</name><value><int>307</int></value></member></struct></value></fault></methodResponse>
