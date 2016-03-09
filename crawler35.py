@@ -15,7 +15,7 @@ password = 'bid35460'#'smallcat1003'#
 
 def crawl ():
 	# read name-id file
-	f = open(r'../data/name2id', 'r')
+	f = open(r'./data/name2id', 'r')
 	nameid = map(lambda line: line.rstrip('\n').split('|').pop(1), f.readlines())
 	nameid = map(lambda line: line.rstrip('\n').split('|').pop(1), f.readlines())
 	i = 0
@@ -57,9 +57,9 @@ def unflat(xmldoc,f, elementname, tag, tagval, isroot, rettag):
 		pairs = child.children.children
 		if isroot:
 			print("<%s>" % (elementname), file=f)
-			#f.write("<%s>" % (elementname))
+				#f.write("<%s>" % (elementname))
 			print("<%s>%s</%s>" % (tag, tagval, tag), file=f)
-			#f.write("<%s>" % (elementname))
+				#f.write("<%s>" % (elementname))
 			count = count + 1
 
 		while pairs is not None:
@@ -102,24 +102,26 @@ def unflat(xmldoc,f, elementname, tag, tagval, isroot, rettag):
 
 
 def genNewXmlForElement(f, xml, element, tag, tagval, rettag):
-	doc = etree.parse(xml)#libxml2.parseDoc(xml)
-	root = doc.root[0] #root = doc.children.children.children.children.children
+	doc = etree.XML(xml)#libxml2.parseDoc(xml)
+	root = doc[0] #children.children.children.children.children
 
-	#print(root
-	child = root.children
-	while child is not None:
-		if child.children.content != element:
+	print("----------------------------------")
+	print(root)
+	print("----------------------------------")
+	#child = root[i]#.children
+	#while child is not None:
+	for child in root:
+		if child[0].text != element: #.children.content != element:
 	#		child = child.next
 			node = child
-			node.unlinkNode()
-			node.freeNode()
+			node.remove(child[0])#unlinkNode()
+			#node.freeNode()
 		#else:
 			#node = new_node("uid")
 			#node.content = "test"
 			#child.addChild(node)
 
-
-		child = child.next
+		#child = root[i]#child.next
 	#print(root
 
 	#print(>>f, root
@@ -127,13 +129,19 @@ def genNewXmlForElement(f, xml, element, tag, tagval, rettag):
 	# unflat jason like xml: root
 
 	print("<posts>", file=f)
-	child = root.children.children
-	child = child.next
-	try:
-		child = child.children.children.children
-		retval = unflat(child, f, "post", tag, tagval, 1, rettag)
-	except:
-		retval = ""
+	child = root[0]#.children.children
+	child = child.getnext()
+	child = child[0]
+	retval = unflat(child, f, "post", tag, tagval, 1, rettag)
+	# try:
+	# 	child = child[0]#.children.children.children
+	# 	print(child)
+	# 	print("__________________________________________________")
+	# 	print("_________________WHERE IS THE CODE GOING_______________________")
+	# 	print("__________________________________________________")
+	# 	retval = unflat(child, f, "post", tag, tagval, 1, rettag)
+	# except:
+	# 	retval = ""
 
 	print("</posts>", file=f)
 
@@ -175,7 +183,7 @@ def lj_getevents(target_user, index, beforedate):
 	f.write(content.decode("utf-8"))
 	f.close()
 	#print(content
-	f = open("../data/events/%010d/%s_%010d.xml" % (index,target_user,index), 'w+')
+	f = open("./data/events/%010d/%s_%010d.xml" % (index,target_user,index), 'w+')
 	retval = genNewXmlForElement(f, content, "events", "user", target_user, "eventtime")
 	f.close()
 #	while pp.poll() == None:
@@ -200,7 +208,7 @@ namecrawltime = {};
 iters = 0;
 while 1:
 	# load the latest name2id file
-	for dirname, dirnames, filenames in os.walk('../data/names/'):
+	for dirname, dirnames, filenames in os.walk('./data/names/'):
 		#filenames.sort();
 		nameid_file =  os.path.join(dirname, filenames[len(filenames)-1])
 		print(nameid_file)
@@ -235,15 +243,15 @@ while 1:
 	index = int(items[1]); # global iteration read from file system
 
 	# data directory
-	if not os.path.exists("../data/events/%010d/" % (index)):
-    		os.makedirs("../data/events/%010d/" % (index))
+	if not os.path.exists("./data/events/%010d/" % (index)):
+    		os.makedirs("./data/events/%010d/" % (index))
 
 	userind = 1
 	for key in namedict.keys():
 		print("crawling [%d]" % (userind),)
 		print(key, namedict[key],)
 
-		outpath = "../data/events/%010d/%s_%010d.xml" % (index,key,index)
+		outpath = "./data/events/%010d/%s_%010d.xml" % (index,key,index)
 		# getevents if there's more the crawl
 		# TODO: if the file exists, do nothing
 		if  namecrawltime[key] != "done" and not os.path.exists(outpath):
