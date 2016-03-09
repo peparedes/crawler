@@ -1,0 +1,6 @@
+d:\Users\kenghao\Documents\project\livejournal\data\events\0000000000>java -cp C
+:\Users\kenghao\Downloads\recordloader.jar;C:\Users\kenghao\Downloads\xpp3-1.1.4
+.jar;C:\Users\kenghao\Downloads\lib\marklogic-xcc-5.0.2.jar -DID_NAME=#AUTO -DCO
+NNECTION_STRING=xcc://kenghao:small103.8u7ij@localhost:9000 com.marklogic.ps.Rec
+ordLoader *.xml
+

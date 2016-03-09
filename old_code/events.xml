@@ -1,0 +1,43 @@
+<events>
+<event>
+<user>kenghao</user>
+<itemid>2</itemid>
+<subject>second</subject>
+<event>second post to live journal</event>
+<ditemid>740</ditemid>
+<eventtime>2012-01-16 21:31:00</eventtime>
+<props>
+<current_moodid>90</current_moodid>
+<personifi_tags>nterms:yes</personifi_tags>
+<interface>web</interface>
+<give_features>1</give_features>
+<used_rte>1</used_rte>
+</props>
+<logtime>2012-01-17 05:31:29</logtime>
+<anum>228</anum>
+<url>http://kenghao.livejournal.com/740.html</url>
+<event_timestamp>1326749460</event_timestamp>
+<reply_count>0</reply_count>
+</event>
+<event>
+<user>kenghao</user>
+<itemid>1</itemid>
+<subject>first</subject>
+<event>trying livejournal</event>
+<ditemid>293</ditemid>
+<eventtime>2012-01-13 16:24:00</eventtime>
+<props>
+<current_moodid>68</current_moodid>
+<commentalter>1326778175</commentalter>
+<personifi_tags>nterms:yes</personifi_tags>
+<interface>web</interface>
+<give_features>1</give_features>
+<used_rte>1</used_rte>
+</props>
+<logtime>2012-01-14 00:24:04</logtime>
+<anum>37</anum>
+<url>http://kenghao.livejournal.com/293.html</url>
+<event_timestamp>1326471840</event_timestamp>
+<reply_count>1</reply_count>
+</event>
+</events>

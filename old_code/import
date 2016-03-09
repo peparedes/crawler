@@ -1,0 +1,5 @@
+C:\Users\kenghao\Downloads>java -cp xpp3-1.1.4c.jar;recordloader.jar;lib\marklog
+ic-xcc-5.0.2.jar -DID_NAME=PMID -DCONNECTION_STRING=xcc://kenghao:small103.8u7ij
+@localhost:9000 com.marklogic.ps.RecordLoader D:\Users\kenghao\Documents\project
+\livejournal\code\out.xml
+
