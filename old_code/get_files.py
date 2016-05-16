@@ -1,5 +1,5 @@
 # script that downloads all as many files as possible from live journal 
-# and stores them in a folder
+# and stores them in a folder named downloads
 from os import popen
 import time
 import os
@@ -40,9 +40,18 @@ def lj_getevents(target_user, index, beforedate):
     curl = 'curl -d "'+xml+'" http://www.livejournal.com/interface/xmlrpc'
     pp = subprocess.Popen(shlex.split(curl),stdout=subprocess.PIPE)
     content = pp.communicate()[0]
-    f = open("../downloads/" + target_user + ".xml", 'wb')
-    f.write(content)
-    f.close()
+    print(len(content))
+    # Checks that the downloaded file is not an error message
+    if len(content) > 371:
+	    f = open("../downloads/" + target_user + ".xml", 'wb')
+	    f.write(content)
+	    f.close()
+	
+	# * files with the error message that the posting limit has been 
+	# * exceeded are 371 bytes long
+	# * The program sleeps for an hour after it gets such a file
+    elif len(content) == 371:
+         sleep(3600)
     docName =  str(target_user)
     return docName
 
@@ -63,6 +72,7 @@ userind = 1
 for key in namedict.keys():
 	print (key, namedict[key])
 
+	#puts all the files it downloads in the downloads folder
 	outpath = "./downloads"
 	
 	# start a fresh crawl
