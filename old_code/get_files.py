@@ -74,7 +74,6 @@ for key in namedict.keys():
 
 	#puts all the files it downloads in the downloads folder
 	outpath = "./downloads"
-	
 	# start a fresh crawl
 	f = open(outpath, "a")	
 	tic = time.clock()	
