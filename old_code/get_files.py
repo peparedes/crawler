@@ -42,7 +42,7 @@ def lj_getevents(target_user, index, beforedate):
     content = pp.communicate()[0]
     print(len(content))
     # Checks that the downloaded file is not an error message
-    if len(content) > 371:
+    if len(content) > 404:
 	    f = open("../downloads/" + target_user + ".xml", 'wb')
 	    f.write(content)
 	    f.close()
