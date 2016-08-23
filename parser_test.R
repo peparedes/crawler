@@ -12,7 +12,7 @@ library(dplyr)
 
 #Open a raw file from those downloaded so far
 fileUrl<- "downloads/ghost-luc.xml"
-doc = xmlParse(file)
+doc = xmlParse(fileUrl)
 #Get all the contents of name and value tags that are contained in a member tag
 #that exist in the doc
 values = getNodeSet(doc, "//member/value")
