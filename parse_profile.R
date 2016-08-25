@@ -1,6 +1,6 @@
 # Parse One profile to get
 
-"user ID --> 
+"user ID --> alphabetical order as data is processed
 mood ID --> current_moodid
 post ID --> itemid
 post Date --> eventtime
@@ -9,10 +9,6 @@ post content (the text itself) --> event"
 library(dplyr)
 library(XML)
 
-#before running the script, you need to set your directory to be the one
-#inside the crawler. For my computer this command is:
-
-setwd("Desktop/crawler")
 fileUrl<- "downloads/0-s-a-r-a-0.xml"
 doc = xmlParse(fileUrl)
 
@@ -44,6 +40,15 @@ for (i in 1:length(x)) {
     temp_df<-x[[i]]
     x[[i]]<-filter(temp_df, names=="eventtime" | names=="current_moodid"
                    | names=="itemid" | names=="event")
+    colnames(x[[i]])<-c("names", "values")
 }
 
 x <- x[2:length(x)]
+file_list <- list.files("downloads")
+sorted_file_list<-sort(file_list)
+
+userid <-match(substring(fileUrl, 11), sorted_file_list)
+
+for (i in 1:length(x)) {
+    x[[i]]<-rbind(x[[i]], data.frame(names="userid", values=userid))
+}
