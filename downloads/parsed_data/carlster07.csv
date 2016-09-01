@@ -1,0 +1,1044 @@
+"names","values"
+"itemid","243"
+"event","SSBoYXZlbid0IGJsb2dnZWQgaW4gb3ZlciBhIHllYXIsIGJ1dCBhZnRlciByZWFkaW5nIHdpbGxpYW0gYmVja2V0dCdzIGJsb2csIGkndmUgYmVlbiBpbnNwaXJlZCA6KQ0KUkVDQVAgQklUQ0hFUzoNCk1hdHQgUGFwYWRvcG91bG9zIGlzIGEgd29uZGVyZnVsIHBlcnNvbi4gSSBoZWFydCBoaW0uDQpJIGhhdmUgdHdvIGJlYXV0aWZ1bCBuZXcgbmllY2VzLCBFbW1hIChKZW5ueSdzIGJhYnksIG15IEdPREREQVVHSFRFUikgYW5kIFBlbmVsb3BlIChORUxMLCBDaHJpcycgYmFieSkgYW5kIEkgZ2V0IHRvIG1lZXQgTmVsbCB0b21vcnJvdyBmb3IgdGhlIGZpcnN0IHRpbWUgOikNCk1pY2hpZ2FuIGlzIGdyZWF0LiBXaG8nZCBoYXZlIHRob3VnaHQgSSdkIGJlIHNvIGV4Y2l0ZWQgZm9yIGZvb3RiYWxsPyBJIGdvIGJhY2sgdG8gbXkgaHVnZSBob3VzZSB3aXRoIDggcm9vbWllcyBpbiAxMCBkYXlzLiBJIHdvcmtlZCBhdCBCZXJ0J3MsIGJ1dCBub3cgSSBkb24ndC4gSSBkbyBtaXNzIERhdmlkIGFuZCBBZGFtIHRob3VnaC4uLi4NClBpbmNrbmV5IGlzIGJvcmluZy4gVHlsZXIgdG90YWxsZWQgMiBjYXJzIGxhc3Qgd2ludGVyIChvbmUgd2Fzbid0IGhpcyBmYXVsdCkgc28gSSB1c3VzYWxseSBoYXZlIHRvIGFzayBmb3IgYSByaWRlIHBsYWNlcy4gSGVsbG8gMTB0aCBncmFkZSENCkxhc3Qgd2VlayB3YXMgdGhlIHdlZWsgb2YgYXdrd2FyZCBleC9ob29rdXAgZW5jb3VudGVyczoNCi4uLkpvc2ggYWxtb3N0IGRlc3Ryb3llZCBteSBjYXIgQUdBSU4gKGFjY2lkZW50YWxseSwgYnV0IGFmdGVyIDMgd2hvbGUgeWVhcnMgdy8gbm8gY29udGFjdD8gaG9seSBjcmFwIHRhbGsgYWJvdXQgYSBiYWQgdHJlbmQhKQ0KLi4uUmFuIGludG8gYXdrd2FyZCBjb25jZXJ0IE1hdHQgYXQgSm91cm5leXMNCi4uLlNraXBwZWQgRGF2aWQncyBwZWFjZWZlc3Qgc28gSSB3b3VsZG4ndCBtYWtlIE1ZIG1hdHQgdW5jb21mb3J0YWJsZQ0KLi4uTmljayBXaWxsaWFtcyBhdCBIb2xseSdzIHBhcnR5LCBiZWluZyBzdXBlciBpbmRlY2lzaXZlIGFib3V0IGhvb2tpbmcgdXAgd2l0aCBtZSBvciBKTmV0IChoZSBjaG9zZSBKbmV0IG9idmlvdXNseSBidXQgaGUgZGlkbid0IHNraXAgb3V0IG9uIEFOWSBzb3J0IG9mIGF3a3dhcmRuZXNzKQ0KLi4uRGF2aWQgaGF2aW5nIGEgc2VpenVyZT8gV2hhdD8NCi4uLkNvcmV5IGlzIGxlYXZpbmcgZm9yIHNjaG9vbCB3aGljaCBpIGd1ZXNzIGlzIGdvb2QgYmVjYXVzZSBpIHdvbid0IGhhdmUgdG8gZGVhbCB3aXRoIGhpcyBhd2t3YXJkIHNvYnJpZXR5IGF0IHdvcmsgKFpVS0VZISEgbm8gbW9yZSBEUSkNCkkgYW0gb2JzZXNzZWQgd2l0aCBUd2lsaWdodCBib29rcy4gQW5kIHRoZSBMb3N0IEJveXMuIEkgbG9zdCB0aGUgb2JzZXNzaW9uIGZvciBhIHdoaWxlLCBidXQgQnJlYWtpbmcgRGF3biBicm91Z2h0IGl0IGFsbCBiYWNrLg0KSSdtIGFsc28gc2xpZ2h0bHkgb2JzZXNzZWQgd2l0aCBJa2VhIGFuZCBQYW5lcmEuIEknbSBhIHl1cHBpZSBmb3Igc3VyZS4NCg0KDQoNCkJVVCBBTllXQVlTISEgSSdtIHZlcnkgZXhjaXRlZCBmb3Igc2Nob29sIGJlY2F1c2UgSSBnZXQgdG8gdGFrZSBjcmVhdGl2ZSB3cml0aW5nLCBhbmQgaG9wZWZ1bGx5IGl0IHdpbGwganVpY2Ugc29tZSBjcmVhdGl2aXR5IG91dCBvZiBtZS4gSSBhbHNvIGdldCB0byB0YWtlIG11c2ljb2xvZ3kuLi5TV0VFVCEgSGlzdG9yeSBzb3VuZHMgZnVuIGFsc28sIGJ1dCBTcGFuaXNoIGlzIGludGltaWRhdGluZyBhbmQgQ29tbXVuaWNhdGlvbnMgaXMgcXVlc3Rpb25hYmxlLg0KT2ggaWYgb25seSBJIGhhZCBnb2Fscy4gT3IgdGFsZW50cy4gRWl0aGVyIHdvdWxkIGJlIHJlYWxseSBoZWxwZnVsIHRvIHRoZSBsaWZlIHJpZ2h0IG5vdyBpZiBpIGRvbid0IHdhbnQgdG8gd2FpdCB0YWJsZXMgZm9yZXZlci4gSSBuZWVkIHNvbWV0aGluZyB0aGF0J3MgZ29pbmcgdG8gY2FwdGl2YXRlIG15IGludGVyZXN0cy4uLmRvIGkgZXZlbiBoYXZlIGludGVyZXN0cz8gDQoNClRvZGF5IG15IGJvc3MgYXNrZWQgZXZlcnlvbmUgaWYgdGhleSB3YW50ZWQgYSBkcmluayBvbiBoaW0uLi5hbmQgaSBjb3VsZG4ndCBhY2NlcHQgYmVjYXVzZSBpJ20gb25seSAxOSA6KA0KSSdtIHdpc2hpbmcgSSB3YXMgb2xkZXIgbm93LCBidXQgSSBrbm93IHRoYXQgb25jZSBpIGhpdCB0aGF0IHBvaW50LCBJJ2xsIGRvIGFueXRoaW5nIHRvIHR1cm4gYmFjay4gSSBndWVzcyBJIHNob3VsZG4ndCBiZSBpbiBzdWNoIGEgaHVycnkgdG8gZ3JvdyB1cCwgYnV0IGkganVzdCBjYW4ndCB3YWl0IHRvIHNlZSB3aGF0IGhhcHBlbnMgbmV4dC4gSWYgbXkgbGlmZSBpcyBldmVyIG11bmRhbmUsIEkgdGhpbmsgSSdsbCBzdWZmb2NhdGUsIGJ1dCBmb3Igbm93LCBpdCdzIGtlZXBpbmcgcHJldHR5IGV4Y2l0aW5nLiBaTFQgaXMgbm8gTGFndW5hIGJlYWNoLCBidXQgaXQgY291bGQgYmUuIA0KDQpJIG5lZWQgYSBDZWRhciBQb2ludCBUcmlwLg0KDQpPSCBOTyBteSBjb21wdXRlcidzIGFib3V0IHRvIGRpZSEgSSBsZWF2ZSB3aXRoIGEgcGFydGluZyBwb2VtIGZvdW5kIGluIE1yLiBCZWNrZXR0J3MgYmxvZyB0aGF0IHN1bXMgdXAgaG93IEkgZmVlbCBhYm91dCBFVkVSWVRISU5HISENCg0KDQpBIFBPRVTigJlTIEFEVklDRSAoQnkgZS5lLiBDdW1taW5ncykgDQpBIHJlYWwgaHVtYW4gaXMgc29tZWJvZHkgd2hvIGZlZWxzIGFuZCB3aG8gZXhwcmVzc2VzIGhpcyBvciBoZXIgZmVlbGluZ3MuIFRoaXMgbWF5IHNvdW5kIGVhc3kuIEl0IGlzbuKAmXQuIA0KQSBsb3Qgb2YgcGVvcGxlIHRoaW5rIG9yIGJlbGlldmUgb3Iga25vdyB3aGF0IHRoZXkgZmVlbOKAlC1idXQgdGhhdOKAmXMgdGhpbmtpbmcgb3IgYmVsaWV2aW5nIG9yIGtub3dpbmc6IG5vdCBmZWVsaW5nLiBBbmQgYmVpbmcgcmVhbCBpcyBmZWVsaW5n4oCULW5vdCBqdXN0IGtub3dpbmcgb3IgYmVsaWV2aW5nIG9yIHRoaW5raW5nLiANCkFsbW9zdCBhbnlib2R5IGNhbiBsZWFybiB0byB0aGluayBvciBiZWxpZXZlIG9yIGtub3csIGJ1dCBpdOKAmXMgdmVyeSBkaWZmaWN1bHQgdG8gbGVhcm4gdG8gZmVlbC4gV2h5PyBCZWNhdXNlIHdoZW5ldmVyIHlvdSB0aGluayBvciB5b3UgYmVsaWV2ZSBvciB5b3Uga25vdywgeW914oCZcmUgYSBsb3Qgb2Ygb3RoZXIgcGVvcGxlOiBidXQgdGhlIG1vbWVudCB5b3UgZmVlbCwgeW914oCZcmUgbm9ib2R5IC0gYnV0IC0geW91cnNlbGYuIA0KVG8gYmUgbm9ib2R5IC0gYnV0IC15b3Vyc2VsZuKAlCBpbiBhIHdvcmxkIHdoaWNoIGlzIGRvaW5nIGl0cyBiZXN0LCBuaWdodCBhbmQgZGF5LCB0byBtYWtlIHlvdSBldmVyeWJvZHkgZWxzZeKAlG1lYW5zIHRvIGZpZ2h0IHRoZSBoYXJkZXN0IGJhdHRsZSB3aGljaCBhbnkgaHVtYW4gYmVpbmcgY2FuIGZpZ2h0OyBhbmQgbmV2ZXIgc3RvcCBmaWdodGluZy4gDQpBcyBmb3IgY29tbXVuaWNhdGluZyBub2JvZHktYnV0LXlvdXJzZWxmIHRvIG90aGVycywgdGhhdCBtZWFucyB3b3JraW5nIGp1c3QgYSBsaXR0bGUgaGFyZGVyIHRoYW4gYW55Ym9keSB3aG8gaXNu4oCZdCByZWFsIGNhbiBwb3NzaWJseSBpbWFnaW5lLiBXaHk/IA0KQmVjYXVzZSBub3RoaW5nIGlzIHF1aXRlIGFzIGVhc3kgYXMganVzdCBiZWluZyBqdXN0IGxpa2Ugc29tZWJvZHkgZWxzZS4gV2UgYWxsIG9mIHVzIGRvIGV4YWN0bHkgdGhpcyBuZWFybHkgYWxsIG9mIHRoZSB0aW1l4oCUYW5kIHdoZW5ldmVyIHdlIGRvIGl0LCB3ZSBhcmUgbm90IHJlYWwuIA0KSWYsIGF0IHRoZSBlbmQgb2YgeW91ciBmaXJzdCB0ZW4gb3IgZmlmdGVlbiB5ZWFycyBvZiBmaWdodGluZyBhbmQgd29ya2luZyBhbmQgZmVlbGluZywgeW91IGZpbmQgeW914oCZdmUgbG92ZWQganVzdCBvbmNlIHdpdGggYSBub2JvZHktYnV0LXlvdXJzZWxmIGhlYXJ0LCB5b3XigJ1sbCBiZSB2ZXJ5IGx1Y2t5IGluZGVlZC4gDQpBbmQgc28gbXkgYWR2aWNlIHRvIGFsbCB5b3VuZyBwZW9wbGUgd2hvIHdpc2ggdG8gYmVjb21lIHJlYWwgaXM6IGRvIHNvbWV0aGluZyBlYXN5LCBsaWtlIGRyZWFtaW5nIG9mIGZyZWVkb23igJR1bmxlc3MgeW914oCZcmUgcmVhZHkgdG8gY29tbWl0IHlvdXJzZWxmIHRvIGZlZWwgYW5kIHdvcmsgYW5kIGZpZ2h0IHRpbGwgeW91IGRpZS4NCg0KDQpPSCBTTyBXSVNFDQpVbnRpbCBUb21vcnJvdyBvciBOZXh0IFllYXINCg0KTE9WRQ=="
+"eventtime","2008-08-15 02:52:00"
+"url","http://carlster07.livejournal.com/62323.html"
+"userid","2539"
+"itemid","240"
+"event","is fucking sweet.
+
+I love detroit. where else could i get a black eye at a pop-punk concert, then dance on stage with theAudition all in the same night?
+granted, i still have a huge black eye on the day of my grad party, but who cares? i had fun.
+
+oh concerting.
+
+off to my grad party!
+
+LOVE"
+"eventtime","2007-06-23 13:29:00"
+"current_moodid","59"
+"url","http://carlster07.livejournal.com/61552.html"
+"userid","2539"
+"itemid","239"
+"event","I am absolutely in love with the Academy Is...
+
+I mean duh. everybody knows that. 10 shows...good lord...it's even more for JNet. borderline crazy? haha not at all...
+
+I felt it should be publicly stated though. They're amazing.
+Again, duh. 
+
+
+That's all...LOVE"
+"eventtime","2007-05-30 02:35:00"
+"current_moodid","120"
+"url","http://carlster07.livejournal.com/61297.html"
+"userid","2539"
+"itemid","237"
+"event","Dress: Bright Blue, sexy back
+Hair: Blonde, Curly, and fabulous (by Jenna of course)
+Shoes: Sliver
+Jewelry: IN THE PROCESS!
+Corsage: AMAZING (orchids!)
+Date: none...he was an asshole, so now i'm rockin stag
+
+WHO'S EXCITED!?! yea me.
+
+ahh school is ending so quickly...
+
+This Week: Prom on Friday, so we have a half day                    =4.5 days
+Next Week: Full Week...lots to do                                   =5 days
+Week After: MATHLETES AT CEDAR POINT and SENIOR SKIP DAY            =3 days
+LAST WEEK: Exams (3 full days and 2 sort of half days)              =4 days
+
+TOTAL DAYS LEFT OF HIGH SCHOOL EVER: 16.5!!!
+HOLY SHIT
+
+wow the sun is really making me excited...i'm off to do homework OUTSIDE because it's freakin amazing out...
+
+LOVE"
+"eventtime","2007-04-29 16:29:00"
+"current_moodid","59"
+"url","http://carlster07.livejournal.com/60739.html"
+"userid","2539"
+"itemid","236"
+"event","SO, YOUR LIFE IS NOW A MOVIE. WHAT WOULD THE SOUNDTRACK BE?
+So, here's how it works:
+1. Open your library (iTunes, Winamp, Media Player, iPod, etc)
+2. Put it on shuffle
+3. Press play
+4. For every question, type the song that's playing
+5. When you go to a new question, press the next button
+6. Don't lie and try to pretend you're cool...
+
+
+Opening credits: ""Weekend Warriors"" -A Change of Pace
+
+Waking up: ""Wrong Way"" -Sublime
+
+First Day of school: ""Don't Wanna Hurt You"" -The Sounds
+
+Falling in love: ""New Hope"" -Blink 182
+
+First time Song: ""Heart Attack"" -Sum 41
+
+Fight Song: ""So-So Gigolo"" -Cursive
+
+Breaking up: ""On Top"" -The Killers
+
+Prom: ""A Goodnight's Sleep"" -The Starting Line
+
+Life: ""Cable Car"" -The Fray
+
+Mental Breakdown: ""Stop"" -Plain White T's
+
+Driving: ""We Will Rock You"" -Queen
+
+Flashback: ""The First Drop"" -Rise Against
+
+Getting Back together: ""Boombox Generation"" -MCS
+
+Wedding: Incubus- ""This Ride"" -The Starting Line 
+
+Birth of a child: ""The Wicked End"" -Avenged Sevenfold
+
+Final Battle: ""Autography"" -The Starting Line (MORE...holy shit we can tell what my shuffle likes...)
+
+Death scene: ""Please Don't Do This"" -PWT's
+
+Funeral song: ""Shut up"" -Black Eyed Peas
+
+End credits: ""Down and Out"" -TAI"
+"eventtime","2007-03-19 20:13:00"
+"url","http://carlster07.livejournal.com/60533.html"
+"userid","2539"
+"itemid","235"
+"event","I am in a very bad mood.
+You know that book, Alexander and the Terrible, Horrible, No Good, Very Bad Day? yea that was today. (actually yesterday, because it's 1:25 am...but whatever)
+I think I'm getting sick.
+Work Sucks.
+I can't get an oil change until tuesday (and i'm 2000 miles past due).
+I hate school. HATE IT!!
+
+It's great because i find most people i spend most of my time with incredibly annoying.
+
+WOOOO
+i'm going to bed."
+"eventtime","2007-03-11 01:25:00"
+"url","http://carlster07.livejournal.com/60249.html"
+"userid","2539"
+"itemid","234"
+"event","soooo i'd just like to publicly state that i don't really give a shit anymore about school. i want to get my ass outta high school, and that's really all.
+ALSO: Anberlin is amazing.
+
+cool entry i know.
+
+peace out"
+"eventtime","2007-03-04 19:01:00"
+"current_moodid","104"
+"url","http://carlster07.livejournal.com/60154.html"
+"userid","2539"
+"itemid","233"
+"event","SOOOO this is gay...
+I really, really, REAALLLLY want to see the academy is...when they come in may. And i need to be on the floor, but to buy presale tix, i have to buy the effing fall out boy cd first. MEH.
+
+I got a tattoo
+David got a sweet one
+
+
+There's been no school because it's too cold! yesss!
+
+I'm off to work out. MUAH
+
+LOVE"
+"eventtime","2007-02-06 09:37:00"
+"current_moodid","99"
+"url","http://carlster07.livejournal.com/59666.html"
+"userid","2539"
+"itemid","231"
+"event","I just got the worst haircut EVER. It's too short and it's ugly and it doesn't do anything. UGH i'm pissed. AND the best part about it is that i have the worst dye job ever on top of that, so now i'm just a girl with ugly, ugly hair. All i tried to do was dye it a nice brown and get a trim, but instead i get hair that's about an inch above my shoulders, too long to be cute and too short to do anything, and it's currently a golden reddish color, because the brown decided to not show up. COOL
+
+New Year's Eve turned out good, because i got off babysitting at 10:30, then went to Olivia's, but i'm too pissed to even reminisce on my good times. 
+And I'm missing Dave's Show. 
+And shopping didn't make me feel any better. 
+And my dad ate all the tortellini.
+And my hair is still ugly.
+
+
+I'm out, dinner time, then SCHOOL IN THE MORNING. MEEHHHH
+
+LOVE"
+"eventtime","2007-01-02 20:50:00"
+"current_moodid","24"
+"url","http://carlster07.livejournal.com/59273.html"
+"userid","2539"
+"itemid","230"
+"event","I am so ridiculously bored. 
+I'm babysitting on New Year's Eve, which is okay because i am making a shitload of money and that's good, BUT somehow i picked up an extra kid, and they were scared because they don't live here, and then they passed out on the couch. And then when her mom called she said not to move her, so now i'm stuck with no TV, no noise, no nothing. Only the stinking computer, and my sparkling apple cider, which is half gone already. 
+
+Also: Yesterday i basically embarrassed myself at Nick's because i got sick and threw up on his carpet at his going away party. SWEET. I didn't even drink anything. I can drink like a tank and not have a hangover, but when i have a migrane, WATCH OUT! i may puke on you.
+
+I'm working a lot this week, which means lots of dinero on my paycheck.
+I got tickets to see Anberlin. YAAAAAAAAAAAAAAAAAAAAAAAAY i love them. 
+I'm also going to get tickets to see Cartel and Cobra Starship and Boys Like Girls, but they don't go on sale to the public for another two weeks, and i'm too lazy to get a credit card and buy them presale. 
+Winterfest is on my 18th birthday, and i'm going to skip it and go clubbing with Dave, because winterfest is lame. 
+
+I'll probably post later. LOVE"
+"eventtime","2006-12-31 22:45:00"
+"url","http://carlster07.livejournal.com/59080.html"
+"userid","2539"
+"itemid","229"
+"event","Youtube is addicting. Especially the shoes video and the muffin video. oh geez.
+
+Yesterday we saw The Pursuit of Happyness, and it made me want to cry and it was super cute. Yea that's right...super flippin' cute.
+
+Christmas is tomorrow! YAAAY!
+So we went to mass tonight and there are these two girls who go to my church who sing well, but they have to sing louder and longer than everyone else to show it off. and at first i was like, whatever, they're good singers, but now it's really bugging me, because they do it only for attention. Ok, so you can sing...do you really have to rub it in everyone else's face?
+
+I'm excited because I'm going to buy tickets to go see Anberlin (yaaaay i love them) and the tour with Cartel, Boys Like Girls, and Cobra Starship (all of whom i love as well). YAAAY another concert season...
+But i'm pissed because i can't go see Dave play because I'm not quite 18. BOOOOO!! i'll be 18 just a measly 25 days later...but no. I can't go. SUCKY!
+
+
+ALRIGHTY i'm off...Santa will be here soon and he'll be needing cookies...LOVE"
+"eventtime","2006-12-24 22:50:00"
+"url","http://carlster07.livejournal.com/58726.html"
+"userid","2539"
+"itemid","228"
+"event","Yearbook party was fun! lots of random questioning and catch phrase and more good clean fun. Then we drove home behind Christine at an average of 23mph (the speed limit was 55mph). EWWW then Wes almost died because he passed us both.
+ALSO yesterday was a pretty sweet concert. TheAudition is always amazing, even when the crowd is completely bitchy (well get to that in a sec) and they play acoustic when they really didn't have to play at all. And the first band was crazy. Like, I've never seen a crowd more pumped for the first band. The lead singer jumped off the 12 foot speaker and crowd surfed. I've never seen ANYONE do that, let alone the first band. SO check out Madena Lake (sorry if that's spelled wrong or something). BUT THERE WAS ONLY ONE THING a lot of people in the crowd were really really ridiculous. For the record, I was sick and throwing up chicken nuggets (gross...sorry) and there were girls saying that I ""couldn't handle it."" (that's crap...thanks). and there was this kid who got all up in my face and another in a bandana who thought he was badass and another girl who blatantly pushed me in the back be cause i got in front of her. Whatever...concert drama is stupid. And it must have been good because i'm sore...HA whatever
+
+Peanut Butter Jelly time will be forever stuck in my head.
+
+Tomorrow starts Secret Santa Season...yeaaa! I better not get screwed over...
+
+Tomorrow is also the 2nd concert of the 6 day concert season...Murder by Death. Also seeing the Format, AAR, MCS, and Boys Like Girls on Monday.  YAAAAAY.
+
+The commercial with the Asian guy singing/rapping in the bathroom gets me every time. So does Tourette's guy. I know it's horrible and i'm sorry but it's hilarious.
+
+OK im gonna go watch South Park now...LOVE"
+"eventtime","2006-12-13 22:56:00"
+"current_moodid","44"
+"url","http://carlster07.livejournal.com/58499.html"
+"userid","2539"
+"itemid","227"
+"event","This is going to be a very emo post. I'm not usually emo, but that's the best word that's coming to mind right now.
+
+So David and I have been very off and on over the past week or two, and I kept thinking about if i made a good desicion and if he was going to be alright and all that post-breakup madness, and I'm happy to say i made a good choice not to be with him, but that conclusion came with a whole hell of a lot of bullshit that hit me deep. I've been made fun of and I've been laughed at and all that cruel shit, but I haven't been this hurt by anything like that since middle school. Ugh. 
+
+I'm happy the truth came out, and I'm happy it's final, I'm just sad at the way it happened. I wish it wasn't so messy.
+
+Kay I'm done. I'll post happier things sometime soon.
+
+
+LOVE"
+"eventtime","2006-12-03 01:26:00"
+"current_moodid","9"
+"url","http://carlster07.livejournal.com/58191.html"
+"userid","2539"
+"itemid","226"
+"event","Currently it is Friday a little past midnight, and i got home about 10 minutes ago. But we beat Pioneer, which definitley rocks. Except now we play Howell on Saturday, which definitly does not rock.
+Yesterday was a fun concert (a tad brutal...fun nonetheless) and then me and David fought and are on a ""break."" Again. Super fucking duper.
+
+In other news: 
+Tom is no longer in TAI! AHHHHHH
+Sweet concerts in December
+Thanksgiving break is only 3 school days away...mmmm potatoes
+I have solitaire on my iPod. I love that game.
+
+It's late, It's short, but i like it like that, and that's just how I roll. :)
+
+LOVE"
+"eventtime","2006-11-17 01:12:00"
+"current_moodid","49"
+"url","http://carlster07.livejournal.com/58084.html"
+"userid","2539"
+"itemid","225"
+"event","I am so fucking sick of my life right now. 
+Basketball is completely ridiculous
+School is basically the reason for any of my acne
+I haven't gotten into college yet and i'm nervous, because everyone else has.
+
+Basically, what all of my frustration comes down to is people making excuses all of the time. They don't want to do something, so they put it on other people. it's annoying as shit. i'm also kind of pissed at the fact that i am constantly fighting something. can't the world just be stress-free?
+
+At least it's warm.
+
+Off to sleep then senior night...woooo.
+
+Love"
+"eventtime","2006-11-09 16:56:00"
+"current_moodid","110"
+"url","http://carlster07.livejournal.com/57826.html"
+"userid","2539"
+"itemid","224"
+"event","Ahhh the drama...
+So in Applied economics, our company name was BAMF (business associates of marketing and finance...not the other thing you dirty thinkers...) and I kind of didn't think anyone was going to take us seriously, but whatever, i never really remember voting on the name. But anyways, it died. It didn't just get shot down, it got stomped on and spit on and it's legs broken with a sledgehammer. I'm in complete and utter shock (sarcasm). I mean if they don't accept BOOTY shirts, what makes anyone think they're going to accept THAT?! now we're all going to get competely bitched out by Mr. drabek, because he got bitched out for something he didn't even do, and something he thought had been approved, but actually hadn't. Thats not fair to him, or anyone for that matter.
+
+I'm also having a serious problem with certain types of people also. I hate when people dress compeltely insane or do stupid shit or listen to a certain type of music because it's different, not because they like it, and then they look down on you because you're all ""sheep,"" but really, they're sheep because they're following what they think is different for the sole purpose of looking like they have more class than you. I also hate when people namedrop, especially music. I also hate when people you thought were friends are actually stupid and bitchy. I hate when my boyfriend is sarcastic, and when all of my friends are sick and not at school. I hate when basketball practice is frusterating, and i hate my ankle. (WHEW...that was a load off).
+
+
+Well that was fun! Other exciting things in mi vida:
+
+DAVID GOT A RED CARD because he PUNCHED A KID IN THE STOMACH!! haha who even saw that coming? oh i love that kid
+ANBERLIN is on SUNDAY!!!
+Lots of babysitting this weekend = lots of babysitting MONEY this weekend...and lots of time with my 2 fav. girls!
+Tomorrow is Thursday...and i am a tad excited, because that's almost friday, and david has a game that he can't play in
+JNet is home this weekend!
+Homecoming was badass...i wore striped tights!
+Yesterday, Dee and Lindsey ran into each other. funniest basketball moment we've had so far...
+
+Alrighty...more later when i feel like it.
+
+LOVE LOVE LOVE (and maybe a little less drama please!)"
+"eventtime","2006-10-11 20:53:00"
+"current_moodid","110"
+"url","http://carlster07.livejournal.com/57584.html"
+"userid","2539"
+"itemid","223"
+"event","So i'm a tad mad. ha that rhymed. i'm not at fucking arby's with the rest of my team because they decided to leave without me, but they told me they ""looked everywhere"" and called me and shit. Wow. i was in the training room the WHOLE FUCKING TIME. it's not like i'm going to wait outside for you in 50 degree weather with flip flops and a t-shirt on. show a little effort.
+
+I think i put too much into the hope that people are trustworthy and will do the right thing, and I  open myself up a little too much, and its a huge letdown when they do something wrong to me. I give a lot, and don't get it back. all the fucking time.
+
+I would say i'm gonna be positive now, but i'm just not having a good day. so i guess i'll just stop bitching and end it there. 
+
+much Love"
+"eventtime","2006-09-19 15:22:00"
+"current_moodid","25"
+"url","http://carlster07.livejournal.com/57119.html"
+"userid","2539"
+"itemid","222"
+"event","Fuckin' A Cotton! I thought when we got to senior year we WEREN'T supposed to be gossipy bitches. i guess i was wrong. MY BAD YO! 
+Basketball is genuinely starting to piss me off...actually it's been pissing me off for a while but whatever. gah. i fucking hate drama. and i hate fake people. and i ESPECIALLY hate fake people who claim to hate all the drama but are actually the catalyst to the whole fucking thing and spread completely ridiculous untrue rumors.
+
+
+
+THINGS TO BE EXCITED ABOUT:
+Yearbook is going to kick some serious ass
+Applied Economics...even though bobby is indecisive in his running status and i can't win with him in it
+Mathletes shirts
+Concerts w/ jnet!
+Tomorrow is friday!
+
+
+I think i must leave it at that...gotta go in 15 to bee-bawl. whoopie...(ahem *SARCASTIC*)
+
+Love and hugs and stuff"
+"eventtime","2006-09-14 16:22:00"
+"current_moodid","114"
+"url","http://carlster07.livejournal.com/56886.html"
+"userid","2539"
+"itemid","221"
+"event","It's currently labor day. That means that there shouldn't be practice...BUT NO! there definitley is. meh...it's not like i can play anyways...but i went shopping!!!! :)
+
+List of amazing things aquired at the briarwood mall:
+1. Cute Hoodie with stripey hood
+2. Happy Cloud/Sad cloud shirt
+3. Warhol-esque Shoe Shirt
+4. Jeans
+5. Underwear
+6. Stud earrings (for the 2nd holes)
+ANNND MY FAVORITE THING...
+7. A pretty starfish necklace :)
+
+
+
+In other news:
+
+My foot is the size of a grapefruit
+TAI is completely mainstream...and i can't help but be mad
+I have a cold
+School is Wednesday
+AAAAAAAAND that's really all...
+
+
+Love much"
+"eventtime","2006-09-04 15:15:00"
+"current_moodid","31"
+"url","http://carlster07.livejournal.com/56787.html"
+"userid","2539"
+"itemid","220"
+"event","I sprained my ankle badly. The crutches are back. Who's excited?!?!
+
+that's all...
+
+
+LOVE"
+"eventtime","2006-09-02 09:27:00"
+"current_moodid","3"
+"url","http://carlster07.livejournal.com/56575.html"
+"userid","2539"
+"itemid","219"
+"event","I love David. :)
+
+2006-2007 SENIORS BABY!! Ewww I'm being sarcastic right now...
+
+Here it is biatches...
+
+1-Dynamics-Mrs. Burkholder
+1-Govt.-Hahnenburg
+2-Applied Econ.-Drabek
+2-Humanities-Zolenski
+3-Yearbook-Mrs. Burkholder
+4-Spanish V-Rita
+5-AP Calc-Walton
+6-Anatomy-McNally
+
+comments
+
+WE WON TONITE!! beat dexter...superduper!
+
+LOVE"
+"eventtime","2006-08-29 23:41:00"
+"current_moodid","52"
+"url","http://carlster07.livejournal.com/56125.html"
+"userid","2539"
+"itemid","218"
+"event","Girls Nights at Colettes are sweet...basketball in the morning though, not so much.
+
+I'm a big fan of not doing what i should be doing...and otherwise writing pointless bits of my life in my livejournal.
+
+I am incredibly excited because:
+1. I thought the day was going to be shitty, but as of now...it's been wonderful
+2. I don't have to babysit :)
+3. I got a 283 dollar check. I am completley shocked but very excited
+4. I am planning when to go see Snakes on a Plane...YESSSSSS 
+
+
+So school needs to get it's ass in gear. i mean summer is basically over for me, so what's the point in prolonging it. Everyone's going to college too...:( not fun. 
+
+
+Alrighty...i'm out, i have to leave in 20 minutes and i haven't done anything. 
+
+muah LOVE"
+"eventtime","2006-08-19 14:22:00"
+"current_moodid","36"
+"url","http://carlster07.livejournal.com/55825.html"
+"userid","2539"
+"itemid","217"
+"event","i seriously think i want to just pass out and die
+
+every muscle in my body hurts.
+my foot bone hurts
+i cannot move
+
+fuck two-a-days. in the ass. 
+
+no LOVE for now"
+"eventtime","2006-08-18 18:03:00"
+"url","http://carlster07.livejournal.com/55785.html"
+"userid","2539"
+"itemid","216"
+"event","In doing college essays, i've learned that i have not one unique or exciting bone in my body.
+
+I'm supposed to unload the dishwasher, but i don't want to. SOOOOO yea. 
+
+I may go nap...mmmm. Then basketball...whoopie! 
+
+Orientation is in exactly 2 weeks.
+School is in 3 weeks and one day. 
+gah.
+
+Alright, vent over. 
+
+LOVE"
+"eventtime","2006-08-15 14:38:00"
+"current_moodid","84"
+"url","http://carlster07.livejournal.com/55543.html"
+"userid","2539"
+"itemid","215"
+"event","as of now i am sweaty and disgusting. mmmm...
+
+So warped was pretty sweet...i mean it was a hundred thousand degrees...but whatev.
+But what was even sweeter than warped? Seeing the AUDITION front and center two days later. oman they are just too good.
+
+SOME QUICK THINGS:
+Basketball continues to kick my ass
+I still cannot find my fricken shoes
+I have four massive spider bites on my leg. they look sick and hurt really bad
+Tyler takes longer showers than girls
+David is gone for 5 days. meh.
+college applications are long and sucky. double meh
+
+
+alrighty...i'm off to read good books, call people, and enjoy this lovely, rainy day.
+
+Love"
+"eventtime","2006-08-03 10:03:00"
+"current_moodid","92"
+"url","http://carlster07.livejournal.com/55045.html"
+"userid","2539"
+"itemid","214"
+"event","i am so ridiculously sore right now. and hungry, but mainly sore. basketball is kicking my ass.
+BUT TOMORROW I'M CHOPPING MY HAIR AGAIN!! YAAAAY! then Saturday is WARPED!! oman i'm excited. it's gonna be pretty sweet.
+
+I'm also incredibly excited because TGI Fridays has now made their delicious queso dip into a frozen dinner. mmmm...the genius...
+
+
+Well that was really all...quick little blurb on life.
+
+
+
+LOVE mucho"
+"eventtime","2006-07-27 17:55:00"
+"current_moodid","68"
+"url","http://carlster07.livejournal.com/54903.html"
+"userid","2539"
+"itemid","213"
+"event","And I just had to make an all JNet entry (since i am at her house...and she's basically sweet)
+
+Reasons Why JNet is Sweet:
+1 She's digging Box wine out of her closet
+2 She likes pretty good music
+3 Her Cats are cute
+4 She has Ice Cube Trays shaped like stars
+5 We are preparing to play MARIO PARTY
+6 We're watching She's The Man after
+
+There's more...but mario is calling to us...
+
+
+LOVE"
+"eventtime","2006-07-25 21:56:00"
+"current_moodid","59"
+"url","http://carlster07.livejournal.com/54767.html"
+"userid","2539"
+"itemid","212"
+"event","Currently I'm babysitting, and letting the boys watch cartoons they probably shouldn't be watching, but whatever. 
+I've lived next door to them and for 2 years have not noticed that they have a trampoline...sweet jesus what i've been missing.
+
+I've spent the past hour online looking at livejournals of lesbians who just so happen to also be obsessed with knitting.
+
+AND OH MY GOD DAVID GOT A TATTOO!!!!! AND HE DIDN'T TELL ME ABOUT IT!!! he was just over last night and i look at his arm and there it is! i freaked out for like 10 minutes because i was so freaking excited. it says ""alive"" in icelandic and it's pretty sweet. But the best part of it is is that now i can walk up to him and be all ""SWEET TAT MAAAAN"" yea i'm stoked.
+Then i was trying to convince my parents to let me get my nose pierced before i turned 18...that was probably the biggest waste of time. 
+
+And my car is being ridiculous. All of a sudden it decided to throw a shit fit and have everything go shitty at once.
+I've spent 185 bucks on two new (nice) tires, but now my oil is leaking, and the crack in the windshield is rapidly expanding. MEH.
+
+Things That Are Making Me Happy:
+1. David
+2. The possibility of Clerks II with Katie and JNet tonight
+3. The Mackin' Cheese on the Stove at the moment
+4. I Got Paid Today, and it was more than i expected.
+5. I'm also getting paid for babysitting twice today
+6. I found more concerts i want to go to...yesss...
+7. To be materialistic...new clothes
+
+Things that are making me unhappy:
+1. Drama
+2. The mere thought of conditioning the rest of the week at 7 a.m.
+3. The Paycheck i got (mentioned above) was only 48 bucks. ha.
+4. The Keene's are taking over my life
+5. I'm a tad broke
+6. I have no idea what i want to do with my life and the idea of that is making me crazy...i mean you see all these kids who are my age or younger and they're successful doing what they love to do...whether it's make music or movies or golf or whatever, and hell, i don't have that kind of talent, or drive, or passion. It sucks.
+7. The whole trend of everyone trying to be original, but actually they're all the same. Rarely do i see someone wearing what they want because that's what they like and want to wear. You'll always have your scenesters say they're doing it, but seriously, they all look the same to me. And they all give me (and Jnet when she comes) the same looks that we don't fit when we go to shows in Howell and stuff. GAH! that's what i say to that.
+
+haha sorry i have a lot of pent up anger. Maybe i should get into boxing or something...
+
+I guess i should leave now, since i've been randomly adding to this post for about 45 minutes between Mac making and eating and watching children and stuff.
+
+On a final note: Jay and Silent Bob are sexy, and i am staging a protest against anime. Sorry David.
+
+LOVE"
+"eventtime","2006-07-24 12:46:00"
+"current_moodid","113"
+"url","http://carlster07.livejournal.com/54320.html"
+"userid","2539"
+"itemid","211"
+"event","Another Year, another Nationals. Same FT. Wayne, Different Coach, and a whole hell of a lot more drama.
+Actually, there was a whole hell of a lot of drama. Egos clashed, Leaders who thought they were never wrong, that sort of shit.
+A tiny bit of violence broke out, and we ended up holding hands and running across the lawn of the hotel because of it. and doing a LOT of push ups. meh.
+I did go shopping...it was great. And i like a lot of the girls on the team. I think when you're with the same people for 4 days straight they tend to get on your nerves a tad. 
+It was sweet, but i'm glad to be home.
+
+
+Then i went to Olivia's to see Dan and Boot and the whole crew...it was tons of fun. we watched Chapelle's Show and Miss Universe and it was sweet. WOOOO 
+
+Now David is coming over!! But two a days are coming this week, so if i freak out on someone, it's not your fault. For the Record
+
+LOVE"
+"eventtime","2006-07-23 22:51:00"
+"current_moodid","68"
+"url","http://carlster07.livejournal.com/54187.html"
+"userid","2539"
+"itemid","210"
+"event","Yesterday's wedding was fun...except when i had to leave early. Booo!
+
+I'm kind of pissed because i didn't get any work hours at all this week...i only took 3 full days off and 2 partial days (like i can't work 4-6 or something) and i didn't get ANY. meh.
+
+I also got an unexpected myspace message from some psycho kid...AHHHHH!
+
+Go see pirates of the caribbean...i hated the ending and i am going to see the next one for sure.
+
+And tomorrow....CEDAR POINT!!! FOR TWO DAYS!!!!! YAAAAAAAAAAAAAAAAAAAAAAAAAAAY i'm so completely excited. :) x infinity!
+
+
+Anyways...not in a typing mood at the moment...
+much LOVE"
+"eventtime","2006-07-09 20:40:00"
+"current_moodid","59"
+"url","http://carlster07.livejournal.com/53861.html"
+"userid","2539"
+"itemid","209"
+"event","wooo summer. It's been fun so far...but i am definitley looking forward to some sweet concerts and birthdays and Cedar Point...oh baby.
+
+and yesterday i met the 5 potential coaches for this year's varsity team (if you haven't gotten the memo, Reason is coaching the boys) and there's a few i'd like.
+
+I also got my senior pics back...there's a few i really like.
+
+Spring Break Next Year: CABO!!!
+
+
+Tomorrow should be sweet...extra hours at work then show con JNet y David. 
+Actually, summer should just be sweet in general...more later :)
+
+summer LOVE"
+"eventtime","2006-06-29 21:06:00"
+"current_moodid","57"
+"url","http://carlster07.livejournal.com/53638.html"
+"userid","2539"
+"itemid","208"
+"event","I am incredibly annoyed at the moment. Yearbook is not chill anymore. There is namedropping, arguements, annoying voices, and the whole ""i'm smarter than you"" vibe.
+Gah. I miss the seniors. 
+
+Ok well i need to study for espanol. wooo.
+
+much LOVE"
+"eventtime","2006-06-13 08:28:00"
+"current_moodid","104"
+"url","http://carlster07.livejournal.com/53382.html"
+"userid","2539"
+"itemid","207"
+"event","Last full day of school!
+I got a sweet lightning necklace yesterday...on my dinner date w/David. :)
+
+Alright...working on the page...
+
+LOVE"
+"eventtime","2006-06-09 10:09:00"
+"current_moodid","68"
+"url","http://carlster07.livejournal.com/53062.html"
+"userid","2539"
+"itemid","206"
+"event","Say it with me...Forest, Bridge, Circus!
+I swear to god. how can anyone handle the map and his repeatitive nature.
+
+Currently i'm babysitting, and i am being driven insane by Dora the explorer. They've said forest bridge circus 2999 times in the last 12 seconds. 
+
+So we have about 14 days left of school (2 for the seniors...but that isn't me so yea) and i am about to kill someone. probably mr. ray first, then mrs. zolenski. not because they're not cool...there is so much freaking work.
+
+but monday is memorial day :)
+and friday i'm going on the boat :D
+and saturday i'm going to the movies with david :D yay!
+
+and i'm actually really excited for 3rd and 4th hours tomorrow...even though we have tests 5th and 6th hour. boo tests. one is on alcohol and cigarettes though...i should be alright at that. 
+
+Again. Forest Bridge Circus. i'm just gonna kill dora...
+
+hmm i think i'll run tomorrow. not today because of spanish video. woooo.
+
+i'm in desperate need of summer. now. i'm off to murder the map.
+LOVE LOVE LOVE"
+"eventtime","2006-05-24 16:50:00"
+"current_moodid","122"
+"url","http://carlster07.livejournal.com/52787.html"
+"userid","2539"
+"itemid","205"
+"event","Blah it's cold! I think it's affecting everyone becaus we did nothing today...which i'm not complaining about by any means...
+And we got into a conversation about beavers after school
+and david has officially gone insane of his massive thursday love
+and victor thinks he's hot. oh victor
+and i have a huge pimple...mmmm 
+but most of all...this weekend is going to be freaking sweet.
+and monday i get to get yearbooks to sort. and i am so excited. and i may get to go ride horses on monday and play ddr on wednesday. ha that's so random.
+
+ok well i have to print shit.
+just thought i'd update
+
+much LOVE homie"
+"eventtime","2006-05-12 15:14:00"
+"current_moodid","125"
+"url","http://carlster07.livejournal.com/52671.html"
+"userid","2539"
+"itemid","204"
+"event","i am super duper excited. like ohmygawd. haha i'm so weird
+
+Jnet, Lindsay, and Trina are coming over shortly. :)
+This should be fun...
+
+And although some new people at work do not know what the fuck is going on, it was ok.
+Especially when david comes in unexpectedly...:) x infinity.
+
+I'm going to go and do something...i don't really know what yet though...probably jump around or something.
+I just can't sit here!
+
+LOVE LOVE LOVE 
+It's beautiful outside"
+"eventtime","2006-05-06 19:12:00"
+"current_moodid","70"
+"url","http://carlster07.livejournal.com/52241.html"
+"userid","2539"
+"itemid","203"
+"event","I'm stuck in a glass case of emotion. Seriously. haha
+
+About 10 minutes ago i was really pissed because i left my super expensive comfy bball pants at the gym and i can't get them til monday if i can even get them back.
+I was also a little mad that today was sort of pointless at times. And that i probably bombed another fricken Calc test. Calculus is death.
+I am also incredibly stressed out over stupid shit and i can't help it. I just am. Like next year is going to be hard, i need to take days off, my library books are overdue, and i can't even figure out what's going on tomorrow let alone in the long run. I should stop worrying, and let it come as it is...but that's not how i roll.
+I miss david A LOT. 
+I am out of shape. I need to get back IN shape. I don't feel pretty because of my lack of workout and poor eating habits. I feel fat. ugh.
+I cannot handle the same old shitty routine much longer...we need a countdown to summer.
+The Bajillion projects that are due in the coming weeks.
+I'm poor. I do not have enough money to do anything.
+
+Oh well...stop complaining. I'm fortunate, just sad. Some hours were fun today though...yearbook ad's editor next year and Spainsh fiesta de pizza. mmm! and walking around w/ boot. wooo booty. 
+
+
+Anyways...i'm gonna go do something productive. Or just fuck around online. I dunno
+
+LOVE"
+"eventtime","2006-05-05 15:48:00"
+"current_moodid","25"
+"url","http://carlster07.livejournal.com/52181.html"
+"userid","2539"
+"itemid","202"
+"event","The stress is just continuing to pile on! I am in desperate need of a weekend, but it's only Wednesday. And my mommy is leaving me tomorrow, and i'm staying with JNet, the Howards, JNet again, then Rachael Hesch is staying the night (which is a little weird...).
+
+I wish DQ food was good for you. Hell i wish all junk food wasn't, well, junk. Then i wouldn't have to worry about being healthy and stuff.
+
+Oh Yea, and i'm quitting track. There's no point in me being there if i can't run. I'm sure as hell not going to manage. And even if i can run by the end of the season, i won't be up with everyone else
+
+OH PHONE it's David (YAY)
+
+LOVE"
+"eventtime","2006-05-03 15:02:00"
+"current_moodid","92"
+"url","http://carlster07.livejournal.com/51954.html"
+"userid","2539"
+"itemid","201"
+"event","SO i drove all the way out to Brighton for my doctors appt. and they're like OHHHH Carly...you're sceduled TOMORROW...our bad! yea sweet. but then i got a teddy bear latte thingy and it made it all better.
+
+i'm tired. it's thursday. and in the next two weeks we have about a bajillion projects. Chemistry Day, Yearbook Page, Spanish Village, Spanish Video Project, Spanish Artist Project, Spanish Salsa Making Project, Health Pamphlet, and a little later, Transcendentalism thing. What's that like, 8 projects? SUCKY!!!
+
+So I'm really bored. I wish i lived somewhere that I could walk around. I also wish i had a little bit of cash so i could go shopping and drown my bad day in my materialism.
+
+
+LOVE and stuff"
+"eventtime","2006-04-27 16:02:00"
+"current_moodid","110"
+"url","http://carlster07.livejournal.com/51525.html"
+"userid","2539"
+"itemid","200"
+"event","Spring Break is much too short. It's already Thursday. That means that after today there are only 3 more days until school. I haven't started my unit project for english. I don't remember calculus. I haven't started anything for Chemistry Day. And my foot is still fractured. 
+
+But i'm also incredibly excited because...
+1. I will have a job very, very soon
+2. Sweet Concert Saturday
+3. I might get to walk normal next week
+4. Hanging out w/ Toe-Knee...wooo!
+5. I've been to 4 bonfires this week...and it's probably going to be 5 tonight...
+
+I'm thinkin' i may go to foggy bottom or stonehouse with my mother's money to get something. mmmm...caffination. i think i'm addicted...especially to beaner's teddy bears. oman. i may drive to beaners.
+
+ummm...i think i'm going to go brush my teeth or something. my life's not too interesting...so i run out of things to type. oh well. 
+
+Hope your 4-20 is full of love and happiness.
+
+Love"
+"eventtime","2006-04-20 12:41:00"
+"current_moodid","68"
+"url","http://carlster07.livejournal.com/51425.html"
+"userid","2539"
+"itemid","199"
+"event","ha i think i'm going crazy. I'm not having a good day, but i'm so incredibly giddy.
+1. I need crutches for 2 more weeks. BOOO
+2. No more Chicago for break. :(
+3. Doug's funeral tomorrow.
+4. I was jumping around (on one foot) when i was unloading the dishwasher to the Killers and Coheed and i accidentally smashed a plate. WHOOOPS!
+5. I have to retake a math quiz. GRRR.
+6. David is sick. Pobre David.
+7. Both my internet and my printer are broken (I'm at murphs) and i need them both.
+
+but i'm so flippin happy right now for some strange reason. Maybe it's the book i'm reading (Invisible Monsters...incredibly twisted) or the music or the fact that i only have one more day of school or the fact that i stopped at beaners on the way home and got a delcious teddy bear, then the guy holding the door for me almost got blown away. ha i had to giggle.
+
+OK...well i'm not even at my house, so i'm peacin' out...homie. ha...had to say it.
+
+much LOVE...spread some"
+"eventtime","2006-04-12 18:33:00"
+"current_moodid","120"
+"url","http://carlster07.livejournal.com/50986.html"
+"userid","2539"
+"itemid","198"
+"event","Wow. So on Sunday, I found out that Doug had gotten killed the night before. Doug was awesome. I am still in a state of shock. I don't think it's completely real. 
+Yesterday was long. Lots of emotion.
+Today was long. I was supposed to have a track meet-but i didn't go. I'm going to the viewing today, and i don't know what i'm going to do or how i'm personally going to handle it. All I can think is holy shit...
+
+Well I guess I'm leaving. I don't know what else to say right now that hasn't been said. 
+
+Love"
+"eventtime","2006-04-11 17:33:00"
+"current_moodid","25"
+"url","http://carlster07.livejournal.com/50863.html"
+"userid","2539"
+"itemid","197"
+"event","So track was cancelled today, not like i can run anyways because of my stress fracture. Crutches blow...seriously when little kids are like ""omg this is so fun i want crutches!!"" i want to yell at them. So yea i'm just bored and if i'm not online i'll probably eat a lot...so here's a little quiz thing to hold me over until dinner.
+
+LOVE
+
+
+
+
+
+A - Available?: Nope!
+A - Age: 17
+A - Annoyance: Concert Whores and people who are desperate for attention, and sleeping in socks
+
+B - Best Friend?: JNet and Dan
+B - Bar: well I can't drink, but we went to Alvin's in Detroit and it was pretty Bar-y
+B - Birthday?: January 27
+
+C - Crush: David...
+C - Car: 96 Honda Accord
+C - Cat: Nala kitty!
+
+D - Dead Pets Name: Yogi Bear
+D - Dog: see above...i need another dog
+
+E - Easiest person to talk to: David
+E - Eggs: Fried Egg Sadwiches
+
+F - Favorite color?: Blues
+F - Food?: Italian
+F - Foreign Slang: Pretty Much any of the sweet Vocab Del Dia
+
+G - Gummy Bears or Worms: Sour Worms
+G - God: I go to church...
+G - Good Times: Summer!
+
+H - Hair Color: Blonde-ish
+H - Height: 5'8""
+H - Happy: Basically
+
+I - Ice Cream: omg where do i even start...
+I - Instrument: umm the Kazoo
+I - Idol: I don't really know...Billy Idol? jk jk...but i don't really have too many
+
+J - Jewelery: I don't really wear that much, but i have a pretty silver bracelet i love
+J - Job: DQ when it opens
+J - Jokes: CHUCK NORRIS
+
+K - Kids: Mostly cute
+K - Karate: hiii-YAH i wish i knew karate
+K - Kung Fu: ""I know Kung-Fu"" sounds sweeter than ""I know Karate""
+
+L - Longest Car Ride: 25 hours to Florida
+L - Longest Relationship: 8 months
+L - Life Is: like a box of chocolates
+
+M - Milk Flavor: Chocolate...especially in the Busch's glass bottle
+M - Movie Last Watched: Troy
+
+N - Number of Siblings: 3
+N - Northern or Southern: Northern
+N - Name: Carly
+
+O - One Wish: That I will find happiness and content in the future (whew!)
+O - One Phobia: That someday i'll just be in a freak accident
+O - Otter Pop: ?
+
+P - Parents, are they married or divorced: Married.
+P - Part of your appearence you like best: I've been told i have nice eyes
+P - Part of your Personality you like best: How incredibly weird i can be
+
+Q - Quick or Slow?: Mostly Quick
+Q - Quality Dairy Store: haha sure...
+Q - Question your descisions often?: not really...i can't change it most of the time
+
+R - Reason to smile: It's almost spring break
+R - Reality TV Show: LAGUNA BEACK
+R - Right or Left: Right biatches
+
+S - Song Last Heard: Dance in my Blood-Men Women and Children
+S - Season: Summer
+S - Sex: well i'm a girl, but sex is cool too i guess
+
+T - Time you woke up: 6:30
+T - Time Now: 3:52
+T - Time for bed: Usually about 11
+
+U - Unknown Fact about me: I can clap with one hand
+U - Unicorns: Are amazing and they remind me of Dave's shirt and Katie's History book
+U - You are?: happy i'm at the U's...
+
+V - Vegetable you hate: All but potatos and carrots
+V -Vegetable you love:  ^
+V - View on Politics: They make me crazy...
+
+W- Worst Habits: Biting my nails...
+W- Where are you going to travel next: Chicago
+W- Where you live: Pinckney, MI (technically Hamburg/Whitmore Lake...but yea)
+
+X - X-Rays: Suck...they always mean ""umm you definitley need a cast"" or ""you have a stress fracture""
+X - X-Rated: PORN yea sweet
+X - X-bf/gf's: Crazy
+
+Y - Year you were born: 1989.
+Y - Year it is now: 2006.
+Y - Yellow: Coldplay song/nice color/the sun!
+
+Z - Zoo Animal: The Albino Alligator at the Detroit Zoo, Tigers, Penguins, Giraffes, Hippos...
+Z - Zodiac: Aquarius
+Z - Zoolander?: i LOVE that movie...i quote it often"
+"eventtime","2006-04-05 15:38:00"
+"current_moodid","92"
+"url","http://carlster07.livejournal.com/50563.html"
+"userid","2539"
+"itemid","196"
+"event","My mother is ridiculous. She calls me and tells me to get off her ass when i've only been somewhat close to her for about a half mile because she went from 60 to 40 in about 2 seconds. Then she yells at me for being on the phone when i'm driving, and she was the one who called me. 
+
+My foot has a fucking stress fracture. It hurts like a fucking bitch. Crutches hurt way worse. I hate being so bored and not being able to carry shit and not even being able to shoot around.  
+I love not being able to be in shape without swimming. 
+I love how I've seen David twice in the past 10 days. 
+I love how some people just continue to get to me, even if it's pointless.
+I love homework. And having a million tests in one week.
+I love when I go to a sweet concert and see sweet people and sweet bands and i have to stay on the balcony. I can really enjoy the fucking show because I've been standing on one foot for about 3 hours straight, and not on the main floor where i'd really like to go but can't because my crutches would get in the way.
+
+Anyone catching my sarcasm?
+
+
+I'm going to get some food because my mother doesn't believe in feeding me.
+
+
+and to end on a good note...Love"
+"eventtime","2006-04-04 22:08:00"
+"current_moodid","3"
+"url","http://carlster07.livejournal.com/50273.html"
+"userid","2539"
+"itemid","195"
+"event","Oh man...it's finally April! March is really the worst month for me because it seems to take the longest...but it's finally over!
+It's also very early in the morning, and my foot is broken, but we're going bra shopping (too much info...sorry) and everytime i say that it makes me think of Zoolander. I'M NOT YOUR BRA!! hahaha i love that movie.
+
+Yesterday we saw Failure to Launch and it was cute. Then to Angela's for a little party for her bday. And me and JNet are seeing Grease tonight...sweeet.
+
+Oh wow two little kids just electric scootered down my street...that was a little random. haha yesterday before school the little kids next door were up at like, 5. I'm not even kidding. they were outside playing while i was getting in my car to go to school. I want that kind of motivation!
+
+
+I'm SUPER excited because i may be going to Chicago the last part of Spring Break with a whole bunch of other people who would otherwise be stuck in Pinckney. i'm so effing excited, and i'm hoping we can pull this shit off...
+
+OOO we're leaving!
+LOVE and such"
+"eventtime","2006-04-01 10:24:00"
+"current_moodid","126"
+"url","http://carlster07.livejournal.com/50162.html"
+"userid","2539"
+"itemid","194"
+"event","I.
+Am.
+So.
+Ridiculously.
+Bored.
+
+I cannot look at myspace anymore. I cannot look at any more purevolume. If i eat something else (i.e. more of the Howard's cookie dough) i will throw it up. Sorry for the graphic nature of that, but it's true.
+Currently i'm babysitting, and when Belle wanted ""uppie"" she forgot to mention she had ketchup all over her. Now my badass white Blasters shirt is red. Serves me right for wearing white babysitting, but since when do Belle and Lexi want uppie?
+Shit. Now i'm talking in baby talk.
+
+Yesterday was amazing. We saw the 2nd Academy Is.../Panic!/Hellogoodbye show at Clutch, and it was pretty sweet. There was one guy, though, who thought he was much, much smaller than he actually was, and kept crowd-surfing. Over. and over. AND OVER. it was bugging me...especially when he kicked me in the head. NICE! Ha and during the Academy Is i was standing next to this kid in a wool jacket and it kept rubbing on my arm and it was weird.
+HELLOGOODBYE PLAYED WELCOME TO THE RECORD which was sweet...because that song makes me happy. And they were even better than they were at The Intersection.
+Panic! was pretty sweet too...I think their set seemed longer in Grand Rapids though, because when they were done playing i was kind of surprised. But Panic is always sweet. I'm not complaining.
+It was one of the better Academy Shows I've seen. William=love (not because of looks either...) and I loved The Fever. Definitley went a little crazy. 
+What's shocking is i spent NO MONEY ON MERCH. I know. My mother almost died of shock. She's still recovering. Not too many pics showed up though...i think i had to get closer. oh well. 
+Then Arby's. mmmm. 
+Then Family Guy. double mmm.
+WHAT A SWEET NIGHT!
+
+I think i'm gonna go do my Poe work...
+    BUT SPEAKING OF POE!! We watched this movie to start the Poe unit off and I found out that he married his 13 year-old cousin. Sweet Poe. So Mrs. Zolenski asked us what we thought, and being myself, i said that i thought it was a little weird that he did that. I mean I know that it was a long time ago and I really think he's a genius, but it's weird to me because i couldn't imagine what they'd do together, let alone the whole incest thing. So the aide, who thinks she knows everything about everything says in her most annoying voice ""HE DIDN'T DO IT BECAUSE HE LOVED HER, HE DID IT BECAUSE HE WANTED TO PROTECT THEM...blah blah blah..."" Ok. Sweet...I don't care. HE MARRIED HIS COUSIN. THAT'S ALL I SAID. i don't need input. and i said that, then she gave me a dirty look. HA i love it.
+
+MEAPS suck. My knees suck. And my dad is leaving for a month. SUCKY
+
+I know the whole last part of that was a little bit of a downer, but i'm kind of in a bad mood. I can smell the ketchup on my shirt and it's gross.
+
+Off to American Lit-it up...and in a few hours (when i'm done) i can say ""I Lit it up!"" HAHAHA i'm such a dork...and i really like it.
+
+
+much LOVE homies"
+"eventtime","2006-03-25 20:37:00"
+"current_moodid","95"
+"url","http://carlster07.livejournal.com/49733.html"
+"userid","2539"
+"itemid","193"
+"event","Currently, I'm at Dan's house typing on his computer while he talks to his mommy, who is an incredibly cute lady if you ask me...
+I'm in a really weird mood because i just gave blood and i'm woozy.
+Now we're going to Adam's house! WOO!
+Howell Battle of the Bands was way, way, wayyyy better than ours. Monte is sweet. So is Boss Ross and Pistol Whip Kelly and Harvey Dent.
+AND listening to cool new music (i.e. Brett Scott Symphany Orchestra) in the car with my sick speakers....sick in a bad way
+Then i am not looking forward to basketball. BOOO
+
+Ok anyways...we're leaving. This was short...weird
+
+LOVE
+
+
+
+
+P.S FROM DAN:
+Dear Readers,
+ Carly keeps talking about a picture of Scott and a kid we called Ching Chong.   P.S.S. I picked the mood, and song. Please post comments...
+                                          One Love, Daniel"
+"eventtime","2006-03-17 14:50:00"
+"current_moodid","66"
+"url","http://carlster07.livejournal.com/49420.html"
+"userid","2539"
+"itemid","192"
+"event","I'm getting extremely frusterated with people at the moment.
+NUMBER ONE:
+   Tyler is completely retarded. He got caught drinking WAYYYY too much, and now he's in some deep shit. I feel bad because some of his 'friends' are assholes and tried to put all of the blame on him, but still, he shouldn't have been drinking to thie point that he was drinking to. It was kind of funny though, because I got home from the Monte show (which was sweet) at one in the morning and he's there on the kitchen floor, passed out/sleeping. It was a little weird.
+
+NUMBER TWO:
+   I'm getting pissed because I feel like I can't trust some people, and I hate it, because they aren't acting the same to me, and then i act different to them and it's a vicious cycle. I mean i realize that people change, but it's a little sudden. And i hate it when they change for the people who left them. I dunno...i'm just confused.
+
+NUMBER THREE:
+   Mrs. LaChance, Mr. Ray, Mrs. Alm, Mrs. Zolenski...why so much homework?
+
+AND MOST OF ALL:
+   My fucking gay basketball coach. He specifically told us that if we came to practice and always worked hard, we would earn playing time. I played zero minutes in the first game yesterday. Z.E.R.O. Geo and Mim didn't play either. It's a bit of a waste of my time and money...it's not like i'm paying $500 dollars to sit on a bench right? And it's not like I suck either. I'm sorry i'm not a good shooter when there's three minutes left in the game and you throw me in expecting me to be hot in a gym that has the windows open. Good Call. Even at practice, I am always a sub. It's completely ridiculous.
+
+
+Anyways...Enought Whining. Off to homework it up...lata.
+
+LOVE"
+"eventtime","2006-03-06 15:13:00"
+"current_moodid","2"
+"url","http://carlster07.livejournal.com/49234.html"
+"userid","2539"
+"itemid","191"
+"event","O.M.G. I have the biggest deadleg of my life at this very moment. Sweet. It feels amazing. I was also elbowed in the face and my lip is cut. OWIE!! Basketball blows. But we won 2 of 3...which isn't bad, and we beat those goddamn Pacers. wooo...
+
+Babysitting is cool too. Like yesterday, for instance. One kid threw up on me, one kid had an accident and is scared of her cat, and one kid wouldn't stop crying, leaving only one perfectly happy, healthy little kid. It was worth it though...60 bucks in one day is okie dokie for me!
+
+ALSO:
+YAY David is coming over and i haven't seen him (well...) in a while.
+DOUBLE YAY! umm last night was pretty sweet(...aside from the cop scare and the mud on my shoes...but whatever) Jeanette made one of the funniest random comments ever to a cat, and i actually got to sleep in a bed with covers. When does that happen?
+
+Right now the lotion i have on my face is kind of burning...that's not a good sign i don't think.
+
+OH david in the driveway...yessss....
+
+that's all for now really...
+LOVE"
+"eventtime","2006-02-18 21:40:00"
+"current_moodid","27"
+"url","http://carlster07.livejournal.com/49092.html"
+"userid","2539"
+"itemid","190"
+"event","Happy Valentine's Day. Wow i'm not typing well today...it took me like a half hour just to get THIS down.
+
+I definitley do not want to eat another piece of candy or brownie for at least a week...because seriously i'm so full! Anyone who hates Valentine's Day because it's too ""commercial"" is just angry at the world. What other holiday celebrates love and urges everyone to bring candy and treats to school? I mean halloween is great too...but that was a while ago! They can't be angry at that! Now you could if perhaps you have a thing where you don't like candy (weird...) or sugar (again...)AND you don't have a valentine,i can see your frustration. but i've never met anyone like that. 
+It's ok to totally be secretly jealous of all the girls that get like, a million roses at the office, and remember that i love you.
+i just can't afford all the roses.
+Besides, who wants roses anyways? A few are sweet every once and a while, but they die! I like my 2, but a dozen? what? that's like, 30 bucks too! You could buy a badass soft blanket and a CD for that much...
+I'm also a huge fan of Power Ranger valentines too...
+
+haha i think i've over-analyzed valentines day enough.
+
+LOVE LOVE LOVE"
+"eventtime","2006-02-14 18:31:00"
+"current_moodid","86"
+"url","http://carlster07.livejournal.com/48654.html"
+"userid","2539"

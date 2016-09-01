@@ -1,0 +1,2134 @@
+"names","values"
+"itemid","443"
+"event","U28gaXQncyBiZWVuIGZvcmV2ZXIgc2luY2UgSSd2ZSBwb3N0ZWQsIGJ1dCBJIHdhbnRlZCB0byBwdXQgdGhpcyBvdXQgdGhlcmUgdG8gYW55b25lIHdobyBzdGlsbCByZWFkcyB0aGlzLiBJIHdvdWxkIGVuY291cmFnZSB5b3UgdG8gcmVhZCB0aHJvdWdoIHRoZSBhcnRpY2xlIGFuZCB0aGVuIGxvb2sgYXQgdGhlIGNhcnRvb24gdGhhdCBpcyBiZWxvdyB0aGF0IGFjY29tcGFuaWVkIHRoZSBhcnRpY2xlIG9uIE1vbmRheSwgRGVjZW1iZXIgMy4NCg0KPGI+IE1jTnV0dHkgU2VjdXJpdHk8L2I+DQo8aT5Cb25kLCBKYW1lcyBCb25kLg0KDQpPbmUgb2YgdGhlIG1vc3QgaGlnaC10ZWNoIGhlcm9lcyBldmVyIHRvIGdyYWNlIHRoZSBiaWcgc2NyZWVuLCAwMDcgaGFkIGhvbWluZyBiZWFjb25zLCB1bmRlcndhdGVyIGpldCBwYWNrcyBhbmQgcG9sYXJpemluZyBzdW5nbGFzc2VzLiBOb3csIGl0IHNlZW1zIHRoYXQgSVUgaXMgZG9pbmcgaXRzIGJlc3QgdG8gY29weSB0aGlzIHN1cGVyLXNweeKAmXMgdG95cyBieSBpbnN0YWxsaW5nIHNvbWUgYmFkYXNzIGdhZGdldHJ5IGluIG9uZSBvZiBpdHMgcmVzaWRlbmNlIGhhbGxzLiANCg0KQXQgaXRzIHVwY29taW5nIG1lZXRpbmcsIHRoZSBib2FyZCBvZiB0cnVzdGVlcyB3aWxsIGRpc2N1c3MgcHV0dGluZyBhICQxLjUgbWlsbGlvbiwgc3RhdGUtb2YtdGhlLWFydCBjYXJkIGFjY2VzcyBzeXN0ZW0gaW4gTWNOdXR0IFF1YWQuIFRoZSBwcm9qZWN0IHdvdWxkIGJhc2ljYWxseSB0dXJuIE1jTnV0dCBpbnRvIGEgZm9ydHJlc3MsIHdoZXJlIHN0dWRlbnRzIHdvdWxkIGhhdmUgdG8gc3dpcGUgdGhlaXIgSUQgY2FyZHMgdG8gZ2V0IGludG8gY2VydGFpbiBwYXJ0cyBvZiB0aGUgYnVpbGRpbmcuIEluIGFkZGl0aW9uLCB0aGUgcGxhbiBjYWxscyBmb3IgdGhlIGluc3RhbGxhdGlvbiBvZiBzZWN1cml0eSBjYW1lcmFzIGluIOKAnHN0cmF0ZWdpYyBhcmVhcy7igJ0gU291bmRzIGtvc2hlciwgcmlnaHQ/DQoNCkJ1dCB3YWl0ISBUaGlzIGlzIE1jTnV0dCB3ZeKAmXJlIHRhbGtpbmcgYWJvdXQuIFllcywgdGhlIGRvcm0gZG9lcyBoYXZlIHRoZSBoaWdoZXN0IGFycmVzdCByYXRlIG9uIGNhbXB1cywgYnV0IGd1ZXNzIHdob+KAmXMgZ2V0dGluZyBhcnJlc3RlZD8gTW9zdCBvZiB0aGUgdGltZSwgaXTigJlzIG5vdCBvdXRzaWRlcnMgd2hvIGhhdmUgYnJlYWNoZWQgdGhlIHByZW1pc2VzIHRoYXQgYXJlIGdldHRpbmcgaW4gdHJvdWJsZSDigJMgaXTigJlzIHRoZSByZXNpZGVudHMgdGhlbXNlbHZlcy4gU28gd2h5IGFyZSB3ZSB0cnlpbmcgdG8ga2VlcCBwZW9wbGUgb3V0Pw0KDQpXaGlsZSB3ZeKAmXJlIGFsbCBmb3IgdGhlIHdob2xlIHNlY3VyaXR5IHRoaW5nLCB3ZSB0aGluayB0aGUgJDEuNSBtaWxsaW9uIGdvaW5nIGludG8gdGhpcyBwcm9qZWN0IGNvdWxkIGJlIG11Y2ggYmV0dGVyIHNwZW50LiBJZiB0aGUgdHJ1c3RlZXMgd2FudCB0byB0YXJnZXQgTWNOdXR0LCB0aGF04oCZcyBmaW5lIOKAkyBpdCBpcyBJVeKAmXMgdmVyc2lvbiBvZiBTb2RvbSBhbmQgR29tb3JyYWgsIGFmdGVyIGFsbCwgb2J2aW91c2x5IGJleW9uZCB0aGUgcmVhY2ggb2YgdGhlIGxhdy4gQnV0IG1heWJlIGluc3RlYWQgb2YgdGlnaHRlbmluZyB0aGUgYnVpbGRpbmfigJlzIHBoeXNpY2FsIHNlY3VyaXR5LCB0aGV5IHNob3VsZCBvZmZlciBzZWxmLWRlZmVuc2UgY2xhc3NlcyB0byB0aGUgcXVhZOKAmXMgZmVtYWxlIHJlc2lkZW50cywgd2hvIHNlZW0gdG8gZ2V0IHJhcGVkIHdpdGggYXN0b3VuZGluZyBmcmVxdWVuY3ksIGFzIGNvbXBhcmVkIHRvIHRoZSBvdGhlciBkb3Jtcy4gT3IgbWF5YmUgdGhleSBzaG91bGQgZG8gc29tZXRoaW5nIHRvIHN0ZW0gdGhlIGhpZ2ggaW5jaWRlbmNlIG9mIGRydWcgcG9zc2Vzc2lvbiwgd2hpY2ggYWxzbyBzZWVtcyB0byBiZSBtb3JlIG9mIGEgcHJvYmxlbSB0aGFuIGZlbmRpbmcgb2ZmIHVud2VsY29tZSB2aXNpdG9ycyB0byB0aGUgZG9ybS4gDQoNCkVpdGhlciB3YXksIGtleSBjYXJkcyBhcmUgcHJvYmFibHkgbm90IGdvaW5nIHRvIGRvIGEgd2hvbGUgbG90IHRvIGltcHJvdmUgTWNOdXR04oCZcyBzZWN1cml0eSBzaXR1YXRpb24uIEZvciBleGFtcGxlLCBhcyBmYXIgYXMgcm9iYmVyaWVzIGdvLCBzdHVkZW50cyB3aWxsIHN0aWxsIGJlIGNhcmVsZXNzIHdpdGggdGhlaXIgdmFsdWFibGVzIGFuZCBzdGlsbCBsZWF2ZSB0aGVpciBkb29ycyBwcm9wcGVkIG9wZW4gdG8gcnVuIHRvIHRoZSBiYXRocm9vbSBpbiBvcmRlciB0byBhdm9pZCB0aGUgaGFzc2xlIG9mIGhhdmluZyB0byB1bmxvY2sgdGhlaXIgZG9vcnMgYWdhaW4uIA0KDQpCZXNpZGVzLCB3aGF0IGFib3V0IHRoZSByZXN0IG9mIHRoZSBVbml2ZXJzaXR5PyBXaGF0IGFib3V0IHRoZSBsYWNrIG9mIGJsdWUgbGlnaHRzIGluIGNlcnRhaW4gcGFydGljdWxhcmx5IHNrZXRjaHkgYXJlYXMgb2YgY2FtcHVzPyBXaGF0IGFib3V0IHRoZSBjdXQtdGhyb2F0IGRyaXZpbmcgdGFjdGljcyBvZiBtYW55IHZlaGljbGVzIHRoYXQgc3BlZWQgdGhyb3VnaCBjYW1wdXMgYW5kIHRocmVhdGVuIHRvIGxldmVsIHN0dWRlbnQgcGVkZXN0cmlhbnMgZXZlcnkgdGltZSB0aGV5IGF0dGVtcHQgdG8gY3Jvc3MgdGhlIHN0cmVldD8gQXJlbuKAmXQgdGhlcmUgaXNzdWVzIG1vcmUgcHJlc3Npbmcgb24gY2FtcHVzIHRoYW4gZG9vciBsb2Nrcz8NCg0KTG9ja2luZyBkb3duIGEgYnVpbGRpbmcgdGhhdCBpcyBwbGFndWVkIGJ5IHByb2JsZW1zIG9uIHRoZSBpbnNpZGUganVzdCBkb2VzbuKAmXQgc2VlbSB2ZXJ5IHByYWN0aWNhbCwgbm9yIGRvZXMgaXQgc2VlbSBsaWtlIGEgZ29vZCB1c2Ugb2Ygb3VyIHR1aXRpb24gZG9sbGFycy4gSWYgdGhlIFVuaXZlcnNpdHkgYXNwaXJlcyB0byBiZSB0aGUgSW5zcGVjdG9yIEdhZGdldCBvZiB0aGUgQmlnIFRlbiwgdGhhdOKAmXMgZmluZS4gV2XigJlyZSBhbHJlYWR5IHdpcmVkIG91dCB0aGUgd2F6b28gYXMgZmFyIGFzIHRlY2ggc2VydmljZXMgZ28sIGJ1dCBob25lc3RseSwgb2xkLWZhc2hpb25lZCBrZXlzIGFyZSBmaW5lIGZvciB1cyBhdCB0aGUgbW9tZW50LiBJbiB0aGUgbWVhbnRpbWUsIHdlIGNvdWxkIGFsd2F5cyBwdXQgdGhhdCAkMS41IG1pbGxpb24gdG93YXJkIHNvbWV0aGluZyB0aGF04oCZcyByZWFsbHkgbmVjZXNzYXJ5LCBzdWNoIGFzIGEgNTAwLXNxdWFyZS1pbmNoLCBoaWdoIGRlZmluaXRpb24gcGxhc21hIHNjcmVlbiBmb3IgdGhlIElEUyBuZXdzcm9vbS4gTm93IHRoYXQgdGVjaG5vbG9neSBpcyB3b3J0aCB0aGUgaW52ZXN0bWVudCE8L2k+DQoNCjxsai1jdXQgdGV4dD0iTG9vayBhdCB5b3VyIG93biByaXNrIj4NCjxpbWcgc3JjPSJodHRwczovL29uY291cnNlLml1LmVkdS9hY2Nlc3MvY29udGVudC91c2VyL2pyaXZlaXJlL0ZpbGVtYW5hZ2VyX1B1YmxpY19GaWxlcy9jYXJ0b29uLmpwZyI+IDwvbGotY3V0Pg=="
+"eventtime","2007-12-05 17:06:00"
+"current_moodid","24"
+"url","http://drums4me.livejournal.com/113641.html"
+"userid","4264"
+"itemid","442"
+"event","(<a href=""http://pyesetz.furtopia.org/meme-3col-DeathNote.html"">Click here</a> to post your own answers for this meme.)<br/><br/><table style=""background-color: white"" border=1 cellspacing=0 cellpadding=6>
+<col width=""33%"">
+<col width=""33%"">
+<col width=""33%"">
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I miss somebody right now.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I don't watch much <b>TV</b> these days.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I own lots of <b>books</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I wear <b>glasses</b> or contact lenses.</span></u></span>&nbsp; <small><i>(Both... but mostly contacts)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I love to play <b>video games</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I've tried <b>marijuana</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I've watched <b>porn</b> movies.</span></u></span>&nbsp; <small><i>(McNutt RA Porn and Pizza nights... don't ask.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have been the <b>psycho-ex</b> in a past relationship.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I believe <b>honesty</b> is usually the best policy.</span></u></span></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I <b>curse</b> sometimes.</span></u></span>&nbsp; <small><i>(sometimes?)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have changed a lot mentally over the last year.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I carry my <b>knife</b>/razor everywhere with me.</td>
+</tr>
+</table><lj-cut text=""it goes on..."">* * * * *<table style=""background-color: white"" border=1 cellspacing=0 cellpadding=6>
+<col width=""33%"">
+<col width=""33%"">
+<col width=""33%"">
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have broken someone's <b>bones</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have a secret that I am <b>ashamed</b> to reveal.</span></u></span>&nbsp; <small><i>(Who doesn't?)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I hate the <b>rain</b>.&nbsp; <small><i>(I actually kind of like rain... when it's warm... and not coming in my window, even with it closed...)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm <b>paranoid</b> at times.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I would get <b>plastic surgery</b> if it were 100% safe, free of cost, and scar-free.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I need/<b>want money</b> right now.</span></u></span>&nbsp; <small><i>(who doesn't?)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I love <b>sushi</b>.&nbsp; <small><i>(BLEH.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I talk really, really fast.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have fresh <b>breath</b> in the morning.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have long <b>hair</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have <b>lost money</b> in Las Vegas.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have at least one <b>sibling</b>.</span></u></span>&nbsp; <small><i>(::waves to Eli::)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I was born in a <b>country</b> outside of the U.S.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have worn <b>fake hair</b>/fingernails/eyelashes in the past.</span></u></span>&nbsp; <small><i>(I wore a 'fro for a program once...)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I couldn't survive without <b>Caller I.D.</b></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I like the way that I look.</span></u></span>&nbsp; <small><i>(most of the time.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have <b>lied</b> to a good friend in the last 6 months.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am usually <b>pessimistic</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have a lot of <b>mood swings</b>.</span></u></span>&nbsp; <small><i>(guilty... but I'm working on that.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I think <b>prostitution</b> should be legalized.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I <b>slept</b> with a <b>roommate</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have a <b>hidden talent</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm <b>always hyper</b> no matter how much sugar I have.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have a lot of <b>friends</b>.</span></u></span></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have pecked someone of the <b>same sex</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I enjoy talking on the <b>phone</b>. </span></u></span></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I practically live in <b>sweatpants</b> or PJ pants.</span></u></span>&nbsp; <small><i>(during the winter...)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I love to shop and/or <b>window shop</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm obsessed with my Xanga or <b>Livejournal</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm completely embarrassed to be seen with my <b>mother</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have a <b>mobile phone</b>.</span></u></span>&nbsp; <small><i>(yep.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have passed out <b>drunk</b> in the past 6 months.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I've rejected someone before.</span></u></span>&nbsp; <small><i>(Yeah... I've done that. And then felt really bad.)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I currently <b>like/love</b> someone.</span></u></span>&nbsp; <small><i>(:-))</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have no idea what I want to do for the rest of my life.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I want to have <b>children</b> in the future.</span></u></span>&nbsp; <small><i>(two or three!)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have changed a <b>diaper</b> before.</span></u></span>&nbsp; <small><i>(Not the best at it... but it stays on.)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I've called the cops on a friend before.</span></u></span>&nbsp; <small><i>(Kind of the cops... I've had to call an ambulance for some residents who I considered friends in the past. The cops always show up too.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm not <b>allergic</b> to anything.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have a lot to learn.</span></u></span>&nbsp; <small><i>(Always learning...)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I am shy around the opposite sex.</span></u></span>&nbsp; <small><i>(Sometimes... but mostly not.)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I'm online 24/7, even as an away message.</span></u></span>&nbsp; <small><i>(Pretty much...)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have at least 5 <b>away messages</b> saved.</span></u></span>&nbsp; <small><i>(Yep.)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black""> I have tried <b>alcohol</b> or <b>drugs</b> before.</span></u></span>&nbsp; <small><i>(Drinkin' a beer right now...)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have made a move on a <b>friend's significant other</b> or crush in the past.&nbsp; <small><i>(Nope... Been on the other side of that, though... twice.)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I own the <b>""South Park""</b> movie.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have avoided assignments at work/school to be on Xanga or <b>Livejournal</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I enjoy some <b>country music</b>.</span></u></span>&nbsp; <small><i>(Garth Brooks is amazing.)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I would die for my best <b>friends</b>.</span></u></span>&nbsp; <small><i>(Yup.)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I'm <b>obsessive</b>, and often a <b>perfectionist</b>.</span></u></span>&nbsp; <small><i>(yes.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have used my <b>sexuality</b> to advance my career.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I think <b>Halloween</b> is awesome because you get free candy.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have <b>dated</b> a close <b>friend's ex</b>.&nbsp; <small><i>(Nope.)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I am <b>happy</b> at this moment.</span></u></span>&nbsp; <small><i>(I am.)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm obsessed with <b>guys</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> <b>Democrat</b>.&nbsp; <small><i>(I don't go by party lines... I go by the issue.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> <b>Republican</b>.&nbsp; <small><i>(See the prior.)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> <b>I don't even know what I am</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am <b>punk</b> rockish.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I go for older guys/girls, not younger.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I study for <b>tests</b> most of the time.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I tie my <b>shoelaces</b> differently from anyone I've ever met.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I can work on a <b>car</b>.</span></u></span>&nbsp; <small><i>(Depending on the problem... I can be good.)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I love my <b>job(s)</b>.</span></u></span>&nbsp; <small><i>(I know... I have issues...)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I am comfortable with who I am right now.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have more than just my <b>ears pierced</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I walk <b>barefoot</b> wherever I can.</span></u></span>&nbsp; <small><i>(Hey, I'm from Kentucky...)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have <b>jumped</b> off a <b>bridge</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I love sea <b>turtles</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I spend ridiculous amounts of money on <b>makeup</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I plan on achieving a <b>major goal</b>/dream.</span></u></span>&nbsp; <small><i>(getting a Master's Degree.)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I am proficient on a <b>musical instrument</b>.</span></u></span>&nbsp; <small><i>(Los tambores)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I hate <b>office jobs</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I went to college out of state.</span></u></span>&nbsp; <small><i>(Just out of state by one state.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am <b>adopted</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am a <b>pyro</b>. &nbsp; <small><i>(sometimes...)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have thrown up from crying too much.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have been intentionally hurt by people that I loved.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I fall for the worst people.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I adore <b>bright colours</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I usually like covers better than originals. </span></u></span>&nbsp; <small><i>(sometimes.)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I hate chain theme restaurants like <b>Applebees</b> and <b>TGIFridays</b>.&nbsp; <small><i>(no... I love them!)</i></small></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I can pick up things with my toes.</span></u></span>&nbsp; <small><i>(depending on how big...)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I can't <b>whistle</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have ridden/owned a <b>horse</b>.&nbsp; <small><i>(ridden... don't own.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I still have every <b>journal</b> I've ever written in.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I talk in my sleep.</span></u></span>&nbsp; <small><i>(hahaha... Tricia says I do this. I had a conversation about doing the mail once...)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I've often thought that I was born in the wrong <b>century</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I try to forget things by drowning them out with loads of distractions.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I wear a <b>toe ring</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have a <b>tattoo</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I can't stand at LEAST one person that I work with.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I am a <b>caffeine</b> junkie.</span></u></span>&nbsp; <small><i>(Gotta have my caffine)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am completely <b>tree-huggy spiritual</b>, and I'm not ashamed at all.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> If I knew I would get away with it, I would commit at least one <b>murder</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I will <b>collect</b> anything, and the more nonsensical, the better.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I enjoy a nice glass of <b>wine</b> with dinner.</span></u></span>&nbsp; <small><i>(yeah.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm an <b>artist</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am <b>ambidextrous</b>.&nbsp; <small><i>(Not really... but I can write my name with both hands at the same time, writing backwards with my left hand.)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I sleep with so many <b>stuffed animals</b>, I can hardly fit on my bed.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> If it weren't for having to see other people naked, I'd live in a <b>nudist colony</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have terrible <b>teeth</b>.&nbsp; <small><i>(had terrible teeth... the braces fixed that.)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I hate my <b>toes</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I did this meme even though I wasn't tagged by the person who took it before me.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have more <b>friends</b> on the internet than in real life.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have lived in either three different <b>states or countries</b>.</span></u></span>&nbsp; <small><i>(Texas, Kentucky, Indiana)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am extremely <b>flexible</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I love <b>hugs</b> more than <b>kisses</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I want to own my <b>own business</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I <b>smoke</b>.&nbsp; <small><i>(Gross.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I spend way too much time on the <b>computer</b> than on anything else.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> Nobody has ever said I'm <b>normal</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">Sad movies, games, and the like can cause a trickle of <b>tears</b> every now and then.</span></u></span>&nbsp; <small><i>(yeah... I admit it...)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am proficient in the use of many types of <b>firearms</b> and combat weapons.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I like the way women look in stylized men's suits.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I don't like it when people are <b>unpleased</b> or seem unpleased with me.</span></u></span>&nbsp; <small><i>(hate it. hate it. hate it.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have been described as a <b>dreamer</b> or likely to have my head up in the clouds.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have played <b>strip poker</b> with someone else before.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have had emotional problems for which I have sought professional help.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I believe in <b>ghosts</b> and the paranormal.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I can't stand being <b>alone</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have at least one <b>obsession</b> at any given time.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I <b>weigh</b> myself, pee/poo, and then weigh myself again.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I consistently spend way too much <b>money</b> on obsessions-of-the-moment.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm a judgmental <b>asshole</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm a HUGE <b>drama-queen</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have travelled on more than one <b>continent</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I sometimes wish my father would just disappear.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I need people to tell me I'm good at something in order to feel that I am.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am a <b>Libertarian</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I can speak more than one <b>language</b>.</span></u></span>&nbsp; <small><i>(puedo hablar espanol)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I can fall asleep even if the whole room is as noisy as it can be.&nbsp; <small><i>(No.... silent and dark.y)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I would rather <b>read</b> than watch TV.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I like reading <b>fact</b> more than fiction.</span></u></span>&nbsp; <small><i>(yeah...)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have pulled an all-nighter on an assignment I was given a month to do.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I have no <b>piercings</b>.</span></u></span>&nbsp; <small><i>(I feel like they'd hurt. a lot.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have spent the night in a <b>train station</b> or other public place.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have been so upset over my physical <b>gender</b> that I cried.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I once spent Christmas completely alone because there was a miscommunication on which parent was supposed to have me that night.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> There have been times when I have wondered <b>""Why was I born?""</b> and may/may not have cried over it.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I like most <b>animals</b> better than most people.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I own a collection of retro <b>games consoles</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> The thought of physical exercise makes me shiver.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have hit someone with a <b>dead fish</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am compulsively <b>honest</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I was born with a <b>congenital birth defect</b> that has never been repaired.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have <b>danced topless</b> in front of dozens of complete strangers.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have gone from wishing I was a girl to revelling in being a boy to feeling like a girl again in the span of five minutes, and not cared a whit for my actual <b>sex</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am unashamedly <b>bisexual</b>, and have different motivations for my desires for different genders.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I sometimes won't sleep a whole night or eat a whole day because I forget to.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I find it impossible to get to sleep without some kind of music on.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I dislike <b>milk</b>.&nbsp; <small><i>(I love milk...)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I <b>obsessively wash</b> my hands.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I always <b>carry</b> something significant around with me.</span></u></span>&nbsp; <small><i>(every day. haven't taken it off since it was given to me.)</i></small></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> Sometimes I'd rather wear a <b>wig</b> in day-to-day life than use my own hair.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I've pushed myself to become more <b>self-aware</b> and thereby more aware of others.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> Even though I live on my own I still cry sometimes because I miss my <b>mother</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I hand wrote all the <b>HTML</b> tags in this document.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I've liked something which a majority of people claimed was either bad or <b>weird</b>.</span></u></span>&nbsp; <small><i>(Country music...)</i></small></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have been <b>clinically dead</b> for a brief period of time.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> Instead of feeling sympathy/<b>empathy</b> with people and their problems, I simply become annoyed.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I participate/have participated in <b>auto drag races</b> and won.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I do not 'get' most <b>comedy acts</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I don't think <b>strippers</b> are money-greedy or slutty for dancing.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I don't like to <b>chew gum</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am obsessed with history/historical things and can't wait for someone to build a <b>time machine</b> so I can be the first to use it.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I can never remember for the life of me where I <b>parked the car</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I had the <b>TEEN ANGST</b> thing going for at least 2-3 years.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I wish people would be more <b>empathic and honest</b> with each other.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I play <b>Dungeons and Dragons</b> weekly.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I love to <b>sing</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I want to live in my <b>mother's basement</b> when I grow up.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have a custom-built <b>computer</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I want to create a certain someone's <b>babies</b>, even though there's a 0% possiblity of ever achieving it.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I would be in a relationship with one of my <b>pets</b> if they were human.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I've gone <b>skinny-dipping</b>.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I've performed in three <b>plays</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I enjoy <b>burritos</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm <b>Irish</b> and loving it.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I have a thing for <b>redheads</b>.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I am a <b>twin</b>!</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> Most of the times, I'd rather do something intellectual instead of doing something generically 'fun'.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">Once I set out to finish something, I always stay at it until it is completed before I move on to something else.</span></u></span></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I wish there were a way to erase past mistakes.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I <b>sleep</b> more than 12 hours a day.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I wish I could be <b>prouder</b> of what I've accomplished, but it's never enough.</span></u></span></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I need more time to myself.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I wish I was more <b>open-minded</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I hope that I go really prematurely grey.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I <b>download</b> songs from the internet.</span></u></span></td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I've just reenacted chapter 58 of <b>Death Note</b> with my best friend.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I say <b>random</b> things to freak people out.</td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I'm still a little mad about the ending of <b>Death Note</b>.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I love playing <b>Truth or Dare</b>.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I love listening to <b>slow music</b>, but I hate singing to it.</span></u></span></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> Music helps me remember that I am not alone.</td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">Playing my favorite <b>sport</b> makes me temporarily forget my problems.</span></u></span></td>
+  <td style=""color:black; background-color:white""><span style=""color:red""><b style=""font-family: Arial Unicode MS"">&#x2713;</b> <u><span style=""color:black"">I think this <b>survey</b> is particularly long.</span></u></span></td>
+</tr>
+<tr valign=top>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I prefer my <b>LJ friends</b> to my real-life ones.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I can only hate someone that I love.</td>
+  <td style=""color:black; background-color:white"">  <b style=""color:blue"">&#xd7;</b> I've ordered an extra two shots of espresso to an Americano at <b>Starbucks</b>.</td>
+</tr>
+</table></lj-cut>"
+"eventtime","2006-07-21 23:37:00"
+"url","http://drums4me.livejournal.com/113398.html"
+"userid","4264"
+"itemid","441"
+"event","A is for age]:
+Ventitres (23)
+
+[B is for beer of choice]:
+Heineken
+
+[C is for career]:
+Res Life. 
+
+[D is for your dog's name]:
+Um... no dog right now... but there was Tammy. And Tricia's dogs have semi-become my dogs, at least according to her dad, so they are Bailey and Brandi
+
+[E is for essential item you use/wear everyday]:
+Contacts/Glasses
+
+[F is for favorite song at the moment]:
+Kings in Castles
+
+[G is for favorite game]:
+Sorry!
+
+[H is for Hometown]:
+Louisville, KY
+
+[I is for favorite Internet site]:
+Sigh... Facebook.
+
+[J is for favorite flavor of juice]:
+Grape
+
+[K is for kids]:
+None at the moment. 
+
+[L is for last person you hugged?]:
+Tricia
+
+[M is for marriage]:
+Someday...
+
+[N is for name of your crush]:
+Crush? Just Tricia.
+
+[O is for overnight hospital stays]:
+I don't think I ever did.
+
+[P is for phobias]:
+I hate cockroaches.
+
+[Q is for quote]:
+When we accept tough jobs as a challenge to our ability and wade into them with joy and enthusiasm, miracles can happen.
+- Arland Gilbert
+
+[R is for biggest regret]:
+Breaking a friendship <---- ditto
+
+[S is for status]:
+Taken. 
+
+[T is for time you wake up]:
+Usually up by 8... wow... that's changed from a year ago. 
+
+[U is for underwear]:
+Yes. 
+
+[V is for vegetable you love]:
+Corn
+
+[W is for worst habit]:
+Popping my knuckles 
+
+[X is for x-rays you've had]:
+Teeth and arm 
+
+[Y is for yummy food you make]:
+Spaghetti
+
+[Z is for zodiac sign]:
+Libra.
+
+
+1) Single, Taken, or Crushing?
+Taken
+
+2) Are you happy with where you are?
+Yes.
+
+3) When you meet the right person, do you fall fast?
+I fall fast
+
+4) Have you ever had your heart broken?
+Yes.
+
+5) Do you believe that there are certain circumstances where cheating is ok?
+Absolutely not.
+
+6) Have you talked about marriage with another person?
+Yeah
+
+7) Do you want children?
+Eventually. 
+
+8) How many?
+I don't think I'd want more than two or three.
+
+9) Would you consider adoption?
+Sure.
+
+10) If somebody liked you right now, what do you think is a cool way to let you know?
+Um... well, they'd probably know me well enough to know that I was with someone, so they probably wouldn't let me know.
+
+11) Do you enjoy playing hard to get?
+No. 
+
+12) Be honest, do you play the ""game"" when you are dating?
+I try my best not to
+
+13) Do you believe love at first sight exists?
+Nope. 
+
+14) Are you romantic?
+Yeah
+
+15) Do you believe that you can change someone?
+Possibly, but I try not to change people. 
+
+16) If you could get married anywhere, money not an object, where would it be?
+The beach.
+
+17) Do you have feelings for someone right now?
+Yes.
+
+18) Have you ever wished you could've had someone but you couldn't?
+Sure
+
+19) Have you ever broken a heart?
+Yes. 
+
+20) What would you say about your last ex?
+We were spectacularly bad at dating, but I'm really really happy we're friends again. <-- ditto."
+"eventtime","2006-07-16 22:17:00"
+"url","http://drums4me.livejournal.com/112998.html"
+"userid","4264"
+"itemid","440"
+"event","So yes, it's been FOREVER since I've updated. A lot has happened this summer... and a lot is still going to happen before it's all over. We are 4/5 done with soccer camps, a little under a month away from GS training, almost exactly a month away from RA training, I got to be 100% in charge of the building for two weeks, our manager and assistant manager have left and been replaced with two new people to the building, Tasha is leaving on Sunday to move to Washington, D.C. to work at Georgetown, the domino moving effect is going to start up on Friday, I ""nagged"" long enough and finally got the approval to paint my apartment for next year, lots of lazy Saturdays and Sundays at the lake with Tricia, leaving in a week and half to go to Grand Haven, Michigan with Tricia for four days, staying at a Bed and Breakfast right on the beach and then will spend the rest of the week at the lake.
+
+Soccer camps: For the most part, have been great. I've convinced Renee (the head coaches' wife) that I do actually know what I'm doing and have proven myself to her several times by providing easy check ins... seriously, some of the easiest I've ever done and that's with 650 campers coming in. It's not like it's a small camp. She even bought us a cake the other day to thank us for all of our hard work. I had lunch with Sara today and she almost fell out of her chair when I told her about the cake. Apparently, that did not happen last year.
+
+New Managers: Molly from McNutt is our new ARM and Tiana (formerly a GS at Foster, then worked at Iowa State and Ball State) is our new RM. I think things will be just fine with both of them. Molly has the HAs on board already... just from wanting to know all about them and interacting with them a lot. Also, her office is right there next to the desk, so she definitely sees them more. Tiana is a 180 from Sara... but I think in a good way. I think. She's very... um... in your face. If she doesn't agree with something, she'll let you know right away. I think she's going to be great for Briscoe and will really snap our staff into shape... but I can't wait to see the first time she and Ian have a disagreement. I'd love to be a fly on the wall... or even just in the room making commentary.
+
+Being in charge: It was a lot of fun, and a whole ton of responsibility. Great experience, but I'm glad Molly and Tiana are here now to take back over so I can get back to relaxing a little this summer. I was doing everything from walkthoughs of all the buildings with Bob and Marge to show damages, to sending out the damage billing, to approving people for overtime, doing the time cards and attending the professional staff meetings to keep everyone informed of what was going on in Briscoe. 
+
+Painting: This was a HUGE victory on my part. Back in April, I told Sara I wanted to paint the apartment next year and she said it would be fine. I got the samples, picked my color and thought it was all decided. Then I was told it might not happen over the summer because of other projects. I asked if I could just do it like Tasha did and two of the grads at Forest did and was told no. So, I decided to fight this. I found a document that said GSs could paint and presented it to Molly, who said she supported me and talked with Interior Design. They still said no. So I met with Marge, made my proposal, she loved it and supported it and talked to Interior Design on my behalf... and they still said no. So I actually e-mailed the head of Interior Design to set up an appointment to go talk with her. I figured, if other people had been allowed to do it, why shouldn't I? So I didn't hear back from her, but this morning, had an e-mail from <i>her</i> boss saying they had talked and decided that because I had such a ""unfortnuate living arrangement this past year"" and that they ""knew me and knew I'd do a good job"" that they would give me an exception and let me paint. The living room and hallway is going to be ""Relaxed Khacki"" and the kitchen is going to be ""Poinsettia"" (basically, tan and red). Painting starts next Tuesday. Anyone want to help? :-) I'll buy you food at Wright.
+
+Moving: Slowly but surely packing up. My room looks like a tornado hit it right now, but it's coming along. I can't actually start moving until Monday, but I'm helping Jamila move to Chicago all afternoon on Friday and all day Saturday, then have a check in and the Softball Game on Sunday, so I won't have a lot of time over the weekend. I hope to have everything boxed up by tomorrow night and then move it all on Monday, which leaves the big stuff that the EO staff has already said they'd help me move. One thing I've learned... if you're good to the EO staff, they'll be very very good to you.
+
+Michigan: Tricia and I decided that we both would need a vacation at the end of summer, before her job kicked in and before my training started, so we decided to go to Michigan. Not exactly sure why we picked Michigan, other than the fact that neither one of us had ever been there and wanted to experience it together. We are staying at a Bed and Breakfast right on the beach in Grand Haven. It's called the <a href=""http://www.bbonline.com/mi/lookingglass"">The Looking Glass Inn</a> and we're both really excited about the trip coming up soon. It will be the perfect way to relax before training starts up that next week.
+
+There's been other events, but those are the highlights of my summer experiences. I'm kind of ready for the school year to start back up, but only to see everyone again. Not necessarily to take the classes or have the homework/papers. But, that's life.
+
+Have a good one! Back to packing..."
+"eventtime","2006-07-12 21:10:00"
+"url","http://drums4me.livejournal.com/112828.html"
+"userid","4264"
+"itemid","439"
+"event","My office window faces Assembly Hall and there's a tree right outside where two birds have built a nest and I'm assuming there are eggs in there. Every once in a while, one of the birds will fly up to it and the other one will leave. And then the original bird comes back and the other one leaves. They're trading off shifts keeping the eggs warm. It's really fun to watch. Tasha and I sit up here most of the afternoon and watch all the birds. It will be really cool when the eggs hatch. One of the birds is up there now and is just looking around like he/she has nothing better to do than keep the eggs warm..."
+"eventtime","2006-06-15 14:17:00"
+"current_moodid","89"
+"url","http://drums4me.livejournal.com/112592.html"
+"userid","4264"
+"itemid","437"
+"event","[x] I know how to make a pot of coffee
+[x] I can do my own laundry
+[x] i can cook for myself
+[x] I do my chores after being told once
+[] I always do my homework/work
+[x] I actually enjoy intellectual conversations
+[] I think politics are exciting
+[] My parents and grand-parents have better things to say than my peers
+
+total: 5
+
+[x] I show up for school/work every day unless I'm sick
+[x] I always carry a pen in my pocket/purse
+[] I've never gotten a ticket
+[x] I watch talk shows and point out the incredibility of it all
+[x] I know what incredibility means without looking it up
+[] I drink black coffee
+
+total: 4
+
+[x] I know how to run the dish washer..and/or do the dishes
+[x] I can count in more than one language
+[x] When I say I'm going to do something, I do it.
+[ ] I mow the lawn
+[x] I wash my car
+[x] I can make adults laugh..without being stupid
+
+total: 5
+
+[] I remember to water my plants
+[X] I study when I have to
+[X] I pay attention at school/work
+[x] I remember to feed my pets.
+[x] I'm generally organized
+[x] I know the meaning of capital punishment
+
+total: 5
+
+[x] i can spell experience without looking it up
+[x] I clean up my own messes
+[ ] The first thing I do when I wake up is get coffee
+[x] I can go to the store without getting something I don't need
+[ ] I understand jokes the first time they are said
+[x] I listen to my elders
+[x] I understand the fact that the world always screws someone over
+[x] I can type fast, because I type every day
+
+total: 6
+
+[x] My choice in clothing is acceptable in an office or something like that
+[x] I can watch politics and laugh
+[x] I have realized that the weather forecast changes every hour
+[x] I can look at someone hot and not think of sex
+[ ] I have realized that no one will take you seriously unless you are over the age of 25 and have a job
+[x] I can read a book and actually finish it
+[x] People have said that I act older than I am
+[x] I can be sent on an errand and not get side tracked
+
+Total: 7
+
+Overall total: 32
+
+So I don't know what that number means, but it's higher than Courtney! :-)"
+"eventtime","2006-06-01 13:33:00"
+"url","http://drums4me.livejournal.com/111965.html"
+"userid","4264"
+"itemid","436"
+"event","Taking a quick break from my paper to comment about a music video that is actually on Launch right now... it's called ""The Ding Dong Song"" and it sounds like some kind of techno and I can't believe it's actually allowed to be broadcast on here! Seriously, this kind of stuff still exists? I think it borders on soft-core porn. If you want a good laugh, especially at the very end, go check it out. It's by Gunther and the Sunshine."
+"eventtime","2006-05-30 17:38:00"
+"current_moodid","122"
+"url","http://drums4me.livejournal.com/111869.html"
+"userid","4264"
+"itemid","435"
+"event","+ The first HESA Summer potluck was tonight. It was really good. Ate WAY too much food, though. 
+
++ Jorg asked me to drive with him to Oregon. He said he didn't want to do the drive alone and would fly me back from Oregon. It's right in the middle of our crazy camp time... so I don't know if I can go or not... but talk about an opportunity. Getting to hang out with someone who is pretty much my mentor for three days on a cross-country drive. 
+
++ The summer crew rocks... except for the one who locked himself out tonight... twice. ::rolls eyes::
+
+- My radio and some other items were stolen out of the bathroom this afternoon. I'm annoyed beyond words right now. I know this is going to sound horrible, but it's just one more reminder that I'm the one who got screwed over with the ""apartment"" this summer and I'm still getting screwed over because I don't get to move until mid-July. Yes, I get to move. I get to share the big apartment with Britt and have a kitchen and bathroom... I know... I'm lucky... but I'm still pissed that my radio got stolen."
+"eventtime","2006-05-11 21:49:00"
+"current_moodid","3"
+"url","http://drums4me.livejournal.com/111590.html"
+"userid","4264"
+"itemid","434"
+"event","I found out today that I will officially be moving into the Center Building apartment for next year! I'll have a roommate (Britt), but he and I get along great and I'll still have my own bedroom. We'll share the living room, the kitchen and the bathroom, but I don't care. I won't be sharing a bathroom with 25 freshmen <s>men</s> boys and it will be quiet. This apartment has a balcony as well which will be a very nice place for the hammock that I'm planning on getting. 
+
+Needless to say, after a year of living up here on the 10th floor, I'm really excited. And I don't know the new person who's coming in which makes it even better because I won't feel as bad about where she'll be living (my room now)."
+"eventtime","2006-04-23 19:24:00"
+"current_moodid","98"
+"url","http://drums4me.livejournal.com/111286.html"
+"userid","4264"
+"itemid","433"
+"event","<lj-cut>
+1. What does your Livejournal name mean?
+Um... I like drums. 
+
+2. Elaborate on your default photo?
+Combination of Super Mario Bros. things...
+
+3. Make up a question.
+Why is my stomach hurting right now?
+
+4. What's your current relationship status?
+Dating
+
+5. What EXACTLY are you wearing right now?
+Bluejeans, t-shirt (I've been getting weird looks all day because it says, ""Can I kiss you?"" on the front... but then when you look on the back, it reveals that it's a shirt about respect and not just assumming you can do anything without permission.
+
+6. What is your current problem?
+No motivation to finish this paper...
+
+7. What do you love most?
+Warm (not hot), sunny days
+
+8. What makes you most happy?
+Being with people I love. 
+
+9. Are you musically inclined?
+Drums, yeah. Everything else... um. no. 
+
+10. If you could go back in time, and change something, what would you change?
+Nothing. Everything that's happened has brought me to where I am, and it's really not a bad place to be. (Keeping this answer!) <---- ditto (again)
+
+11. If you MUST be an animal for ONE day, what would you be?
+Cat 
+
+12. Ever have a near death experience?
+I don't think so... 
+
+13. Name an obvious quality you have.
+I overanalyze things... a lot. 
+
+14. What's the name of the song that's stuck in your head right now?
+Magic Carpetride (after reading this)
+
+15. Who did you cut and paste this from?
+Melissa
+
+16. Name someone with the same birthday as you.
+My uncle
+
+17. Have you ever vandalized someone's private property?
+TPing... but other than that, no.
+
+18. Have you ever been in a fight?
+Physical, no. 
+
+19. Have you ever sung in front of a large audience?
+Does Chorus in 4th grade count?
+
+20. What is the first thing you notice about the opposite/same sex?
+Opposite: eyes, hair. Same: whether or not they're wearing a hat that is not tilted to one side.
+
+21. What do you usually order from Starbucks?
+Mocha or Hot Apple Cider
+
+24. Has anyone ever said you looked like a celebrity?
+Someone told me I looked like someone on that new Inventor show... no clue, though. 
+
+25. Do you still watch kiddy movies or TV shows?
+not usually... but if it's on, i'll watch.
+
+26. Did you have braces?
+Yes...
+
+27. Are you comfortable with your height?
+Yeah.
+
+28. What is the most romantic thing someone has ever done for you?
+I personally thought taking me to Disney World was right up there. 
+
+29. Do you speak any other languages?
+Spanish
+
+30. Do you have a crush on someone on your livejournal?
+Not so much. 
+
+[[SINCE THE BEGINNING OF THIS YEAR-2006]]
+
+1. HAVE YOU HAD A GF/BF? does dating count?
+
+2. HAVE YOU HAD YOUR BIRTHDAY? No.
+
+3. GOTTEN DRUNK? Not drunk... 
+
+4. GOTTEN HIGH? Nope.
+
+5. SMOKED A CIG? No.
+
+6. CRIED? Yes.
+
+7. HAD SOMEONE CLOSE TO YOU PASS AWAY? No.
+
+8. PULLED AN ALL NIGHTER? Almost, but no.
+
+9. DRANK STARBUCKS? Yep 
+
+10. WENT SHOPPING? Yeah. 
+
+11. BEEN CAMPING? Nope. 
+
+12. BEEN TO THE BEACH? No :-(
+
+13. BEEN OUT OF THE COUNTRY? Nope. 
+
+14. VISITED A FAMILY MEMBER? My parents...
+
+15. GONE SNOWBOARDING? Nope. 
+
+[[IN THE PAST MONTH]]
+
+1. HAVE YOU HAD SEX? No.
+
+2. KISSED SOMEONE? Yes. 
+
+3. SLEPT IN A FRIENDS BED? No
+
+4. SNUCK SOMEONE OVER? Kind of... but probably not 
+
+5. SNUCK OUT OF YOUR OWN HOUSE? hahaha... no.
+
+6. BEEN DRUNK? No
+
+7. LIED? Probably. 
+
+8. GOTTEN A CAR? Um... well, my mom and I traded cars for a bit... so I guess I ""got"" her car...
+
+9. WENT OVER YOUR CELL PHONE BILL? No.
+
+10. BEEN CALLED A WHORE? haha. no. 
+
+11. DROVE SOMEWHERE? Yep
+
+12. BEEN AWAY FROM HOME FOR OVER 2 NIGHTS? Not yet... at the end of the month, though!
+
+13. SEEN AN OLD FRIEND? Yeah
+
+[[IN THE PAST WEEK]]
+
+1. BOUGHT SOMETHING? Food.
+
+2. CHOKED? No.
+
+3. WATCHED TV FOR OVER 3 HOURS STRAIGHT? No.
+
+4. BEEN TO THE THE MOVIE THEATER? No
+
+5. BEEN TO A PARTY? Yes
+
+6. GONE SKYDIVING? Noo. 
+
+7. BEEN TO THE BEACH? No. 
+
+
+[[LASTS]]
+
+1. THING YOU BOUGHT? Food. 
+
+2. PERSON YOU HUGGED? Tricia
+
+3. PERSON YOU TALKED TO? In person, Ian. On the phone, Tricia 
+
+4. PERSON TO CALL YOU? Tricia
+
+7. LAST THING YOU SAID TO SOMEONE? ""Thanks""
+
+8. LAST TIME YOU BRUSHED YOUR TEETH? This morning.
+
+9. LAST TIME YOU TOOK A BATH? Hahaha... I wouldn't go near the bathtubs in Briscoe with a 10-foot pole wearing a biohazard suit (or whatever those orange suits they wear in <u>Outbreak</u> are.)
+
+10. WHEN WAS THE LAST TIME YOU CRIED? My eyes watered up tonight, actually.
+
+11. LAST TIME YOU FELT STUPID? Oh, about 10 minutes ago, probably.
+
+12. LAST TIME YOU WALKED OVER 1 MILE? Relay for Life... 50 miles... definitely fractured both feet. I suck.
+
+
+1. DO YOU SNORE? Not that I've been told.
+
+2. ARE YOU A LOVER OR A FIGHTER? Love. 
+
+3. WHAT'S YOUR WORST FEAR? Honestly, opening up.
+
+4. AS A KID, WERE YOU A LEGO MANIAC? No.
+
+5. WHAT DO YOU THINK OF ""REALITY"" TV? I like the Summer Big Brother Parties
+
+6. DO YOU CHEW ON YOUR STRAWS? Yeah. 
+
+7. WERE YOU A CUTE BABY? You tell me...
+
+<img src=""http://portfolio.iu.edu/jriveire/jon.jpg"">
+
+8. IS THE SINGLE LIFE FOR YOU? I was just fine with it and had just convinced myself to get through the next year and I'd find someone in my post-grad school days...  
+
+9. WHAT COLOR IS YOUR KEYBOARD? Black
+
+10. DO YOU SING IN THE SHOWER? Sometimes. 
+
+11. HAVE YOU EVER BUNGEE JUMPED? No way.
+
+12. ANY SECRET TALENTS? Not really. 
+
+13. WHAT'S YOUR IDEAL VACATION SPOT? Costa Rica
+
+14. IS JAY LENO FUNNY? I don't think so.
+
+15. CAN YOU SWIM? Yeah!
+
+16. HAVE YOU SEEN THE MOVIE ""DONNIE DARKO""? Yes. Sigh. There's two hours I'll never get back. 
+
+17. DO YOU GIVE A DAMN ABOUT THE OZONE? Ehh. I should. 
+
+18. HOW MANY LICKS DOES IT TAKE TO GET TO THE CENTER OF A TOOTSIE POP? Not a clue.
+
+19. CAN YOU SING THE ALPHABET BACKWARDS? If I think about it, yes.
+
+20. HAVE YOU EVER BEEN ON AN AIRPLANE? yeah
+
+22. DO YOU PREFER ELECTRIC OR MANUAL PENCIL SHARPENERS? I'm more of a pen person, but if I have to, electric 
+
+23. WHAT'S YOUR STAND ON HUNTING? Not really a fan.
+
+24. IS MARRIAGE IN YOUR FUTURE? Hopefully 
+
+25. DO YOU LIKE YOUR HANDWRITING? Yes, it's getting sloppier, though. 
+
+28. IS TUPAC STILL ALIVE? no 
+
+29. DO YOU CRY AT THE WEDDINGS? No 
+
+30. HOW DO YOU LIKE YOUR EGGS? Scrambled.  
+
+31. ARE BLONDES DUMB? Most are not. Just the ones who try to be dumb <i>because</i> they're blonde.
+
+32. WHERE DOES THE OTHER SOCK END UP? no clue.
+
+33. WHAT TIME IS IT? 10:16pm
+
+34. DO YOU HAVE A NICKNAME? Riv 
+
+35. IS MCDONALD'S DISGUSTING? Nooo.
+
+36. WHEN WAS THE LAST TIME YOU WERE IN A CAR? Today
+
+37. DO YOU PREFER BATHS OR SHOWERS? Showers.
+
+38. IS SANTA CLAUS REAL? Yes. 
+
+39. DO YOU LIKE TO HAVE YOUR NECK KISSED? hahaha... um. yes. 
+
+40. ARE YOU AFRAID OF THE DARK? Not really. 
+
+41. WHAT ARE YOU ADDICTED TO? Grey's, sleep
+
+42. CRUNCHY OR CREAMY PEANUT BUTTER? Creamy.
+
+43. CAN YOU CRACK YOUR NECK? Yeah
+
+44. HAVE YOU EVER RIDDEN IN AN AMBULANCE? No... been in one, but never ridden. 
+
+45. HOW MANY TIMES HAVE YOU BRUSHED YOUR TEETH TODAY? Once.
+
+46. IS DRUG FREE THE WAY TO BE? Yes.
+
+47. ARE YOU A HEAVY SLEEPER? No. Not at all.
+
+48. WHAT COLOR ARE YOUR EYES? Hazel blueish greenish
+
+49. HOW LOUD DO U SNEEEZE? Usually not loud... people usually actually end up making fun of me.
+
+50. DO YOU LIKE YOUR LIFE? Oh yeah. 
+
+51. WHO'S BETTER: STONE COLD OR THE ROCK? Neither.
+
+52. ARE YOU PSYCHIC? No, but I can sometimes read minds apparently.
+
+53. HAVE YOU READ ""CATCHER IN THE RYE""? Ooh yeah thats good. 
+
+54. DO YOU PLAY ANY INSTRUMENTS? Used to play the drums. 
+
+55. HAVE U EVER STOLEN MONEY? No. 
+
+56. CAN YOU SNOWBOARD? No. 
+
+57. DO YOU LIKE CAMPING? Depends
+
+59. DO YOU BELIEVE IN MAGIC? Most of the time.
+
+60. ARE DOGS A MAN'S BEST FRIEND? Or cats named Tickles.
+
+62. CAN YOU DO THE MOONWALK? No.
+
+63. DO YOU MAKE A LOT OF MISTAKES? who doesn't?
+
+64. IS IT COLD OUTSIDE TODAY? Nah. 65. 
+
+65. WHAT WAS THE LAST THING YOU ATE? Pizza at the Comedy Show 
+
+66. DO YOU WEAR NAIL POLISH? No
+
+67. HAVE YOU EVER BEEN KISSED? Yes. 
+
+68. WHAT'S THE MOST ANNOYING TV COMMERCIAL? That stupid Caveman commercial for Geico.
+
+69. DO YOU SHOP AT AMERICAN EAGLE? Sometimes.
+
+</lj-cut>"
+"eventtime","2006-04-20 21:58:00"
+"current_moodid","31"
+"url","http://drums4me.livejournal.com/111089.html"
+"userid","4264"
+"itemid","432"
+"event","Hi,
+
+  So I'm being a witness at a hearing commission today (the stage of a judicial conference where you have appealed the first decision and are now moving on to a formal hearing) for a guy from the 11th floor of Briscoe. Basically, he was really drunk, really pissed off that he was getting busted and took a swing at one of my RAs. He met with a BQ Judicial Officer who gave him a Reprimand and Warning, sanctioned him to an Anger Management Seminar and asked him to write a letter of apology to the RA he tried to punch. I personally think that was light, but whatever. I went to the first conference as well as a witness and his reasoning was that he was too drunk to even remember that night. Class act, I tell you.
+
+  His reason for wanting an appeal: ""The other guys on my floor who were more sober than I was told me that I didn't try to punch an RA.""
+
+Okay, let's start with the ""<i>more sober</i>"" bit... um... hi, I was completely sober and saw the whole thing. Two, remember that these are probably some of the same guys who ratted you out for smoking pot. How much do you really want to trust them. And finally, do you have any idea how easy you were getting off with a reprimand and a warning? I wouldn't have thought twice about probation and probably would have considered expulsion from housing for trying to punch a staff member. 
+
+While I don't really have a problem coming to the one today to make sure he doesn't get away with anything, I'm also severely annoyed because it's cutting into my day. Should be interesting, though.
+
+Toodles."
+"eventtime","2006-04-18 11:21:00"
+"current_moodid","126"
+"url","http://drums4me.livejournal.com/110675.html"
+"userid","4264"
+"itemid","431"
+"event","I'm alive, I promise. Incredibly busy. Will try to update in a few days, but just wanted to let you all know that I'm alive."
+"eventtime","2006-04-13 00:23:00"
+"current_moodid","58"
+"url","http://drums4me.livejournal.com/110411.html"
+"userid","4264"
+"itemid","430"
+"event","Hi Everyone,
+
+  Just wanted to let you all know that tomorrow night (Saturday), I will be participating in <i>Relay for Life</i>. I start walking at 7pm and walk every other hour (for the whole hour) until 10am the next morning. That being said, please feel free to call to entertain me. If you happen to find yourself up at 3 or 4am, wanting to drunk dial someone, you have my permission :)
+
+Just letting y'all know."
+"eventtime","2006-04-01 03:27:00"
+"current_moodid","64"
+"url","http://drums4me.livejournal.com/110332.html"
+"userid","4264"
+"itemid","429"
+"event","<lj-cut text=""Abrieviated Survey before the corrective action meeting with one of my RAs... joy..."">
+
+80 Questions I Guarantee You've Never Answered 
+[[Before The Media]]
+
+Do you watch the Gilmore Girls?
+No. 
+
+Do you listen to Christian rock?
+I have one song, I think, on a CD. I don't purposely <i>not</i> listen to it... but between CDs and my programmed stations, it's not a regular. 
+
+Have you ever seen or enjoyed watching the O.C?
+No.
+
+Do you have one or more Britney Spears C.D.?
+No. Don't one even one.
+
+Do you regularly watch the news?
+Yeah, in the morning when I'm getting ready.
+
+Which radio stations are your favorites?
+B'town: 99.5, B97, 92.3
+Ville: 102.3, 99.7 
+
+Are you a Lost fanatic?
+Uhh. no.
+
+[[Be honest]]
+
+Do you have a song by Ozzy Osbourne in your library?
+Sigh, yes. Dreamer.
+
+Alanis Morissette?
+nope. 
+
+Do you watch Family Guy regularly?
+Not regularly... if it's on, I'll watch.
+
+The Simpsons?
+nope.
+
+King of the Hill?
+nope.
+
+[[Admit it]]
+
+Do you read trashy romance novels often?
+Nope.
+
+Do you really work out every day?
+As in going to the FWC, no. The walk up the Fee Ln. hill and then running all over Briscoe is a pretty good workout, though.
+
+Have you ever eaten chocolate in bed?
+I don't think so.
+
+Have you ever eaten an entire pint, or more, ice cream?
+Pint? No.
+
+Have you ever spent an entire day in bed without being sick?
+Tempted, but no.
+
+Have you ever eaten nothing but junk food for a week straight?
+No. 
+
+Do you shower every single morning, no exceptions?
+Every day, yes. It doesn't always qualify as morning based on the night before or why I'm getting up.
+
+Have you ever gone to school/work only 15 minutes after you got up?
+yes. suckage.
+
+Do you ever forget to give an xmas/birthday present & instead keep it for yourself?
+Nope. Not that I remember, anyway.
+
+Do you sing obnoxiously in the car when you're driving alone?
+Oh yes. 
+
+Do you sing obnoxiously in the shower when no one's home?
+Oh yes. I'm sure everyone in Bloomington heard me over spring break when I was the only one in Briscoe.
+
+Do you go nights without brushing your teeth?
+Eww...
+
+Have you ever watched a little kid's show when you were over 12?
+Oh yeah.
+
+Have you ever looked forward to go to school?
+Yes. I actually quite enjoy classes. 
+
+[[The Questions You Love: Completely and Utterly Pointless Ones]]
+
+Do you eat all the servings in the food groups on a daily basis?
+no, I don't think so.
+
+Are you ever a freak about cleanliness or organization?
+Me? Organization freak? No... I only have two file cabinets full of every paper I've ever written, every form I've ever received from my RAs, etc.
+
+Cleanliness? I get told that my room is freakishly clean, but that only happens when other people are coming over.
+
+Have you ever been to South America or Africa?
+No, but that'd definitely be on the ""places to go in the future"" list.
+
+Have you ever owned a Klutz book or kit?
+I don't think so. 
+
+Do you know how to knit?
+No. I can cross-stitch, though... gotta love Sra. Kelley's Sweatshop 101...
+
+Do you own an iPod with a patterened cover?
+nope. No iPod.
+
+Write song lyrics yourself and put them in your profile?
+no
+
+Keep a diary or journal (online or on paper)?
+Just this. 
+
+Do you own a striped sweater?
+Big stripes, but yes. 
+
+Do you take a bubble baths?
+I wouldn't come within 10 feet of the Briscoe bathtubs in a biohazard suit...
+
+In your closet, what is the dominant color?
+Probably a mix of gray and/or red. 
+
+[[Usual This or That]]
+
+Baskin Robbins or Coldstone?
+Coldstone!
+
+Sees or Godiva?
+Godiva. 
+
+Physics or chemistry?
+Um... well, if i have to choose, I'd say physics.
+
+Earphones or headphones?
+Headphones. 
+
+Chocolate brown or teal?
+I guess chocolate brown. Not a big fan of either. 
+
+Earrings or ring?
+Earrings. 
+
+Commitment or casual dating?
+Commitment. I tend to get too attached for causal dating. 
+
+Harry Potter or Lord of the Rings?
+POTTER. 
+
+Fly or road trips?
+Road trip. Hands down road trip. Honestly not a big fan of flying.
+
+Starbucks or Petes?
+Starbucks
+
+Athletics or academics?
+academics.. although I enjoy watching/playing sports. 
+
+[[Wave of Random Questions]]
+
+What year do(did) you graduate high school?
+2001
+
+Have you memorized the rejection hotline, just in case?
+um, the what?
+
+Have you ever eaten at a food court?
+Oh yeah. Considering Wright and Foster have them... at least once a week."
+"eventtime","2006-03-30 13:43:00"
+"current_moodid","120"
+"url","http://drums4me.livejournal.com/110027.html"
+"userid","4264"
+"itemid","427"
+"event","YOU...
+Relationship Status: um... not really sure... I guess I'd say dating... maybe (hopefully) a little more.
+Shoe size: 14. 
+Parents still together?: Yes
+Siblings: Yup, Eli. 
+Pets: No. Well, unless you count the freshmen... 
+
+FAVORITES...
+Color: Blue. 
+Number: lucky 13 
+Animal: I'm definitely a cat person, but dogs are cool too. 
+Book: Probably ""Waiting for Snow in Havana"". 
+Flower: I'd have to say simple roses
+
+DO YOU...
+Twirl your hair? it's not long enough. 
+Have tattoos? no
+Cheat on tests? No. 
+Like roller coasters? As long as they don't spin me... loops are fine, though. 
+
+OPINIONS...
+Wish you could live somewhere else? I think my desire to live somewhere warmer stems from the fact that it snowed yesterday and it's Spring. But, I think I could probably live anywhere. 
+Write in cursive or print? Generally cursive. 
+Own a cell phone? Yes
+Current clothing: jeans, t-shirt
+Current hair: getting too long again. Pay day is in a week and it's on my ""Things to do when I have some money again"" list.
+Current thing I ought to be doing: Revising my C565 paper. 
+Current CD in stereo: The Disney CD that I bought a few summers ago. 
+Last movie you saw in theatres: Walk the Line
+Last movie you rented: Rented? Um... Tasha and Elyssa made me watch Finding Neverland from the MMM. 
+Last thing you ate: a Thin Mint cookie 
+Do you hate yourself?: um... no.
+
+
+ARE YOU...
+A daydreamer: yup
+Sarcastic: Me? NO. NEVER.
+Shy: Generally no. Maybe a little introverted depending on the situation, but not shy.
+Talkative: Yeah, I am my mom's child. 
+
+WOULD YOU RATHER..,
+Get your nose or lip pierced? um... if I <i>had</i> to, I'd say nose... mainly because I think it'd be really weird to kiss someone wiht a pierced lip and wouldn't want to be ""that guy."" 
+
+UNIQUE...
+Nervous habits: cracking knuckles. 
+Are you double jointed? nope
+Can you roll your tongue? Yes
+Can you raise one eyebrow? yes. 
+Can you cross your eyes? I don't think so.
+Do you make your bed daily? not usually, unless people are coming over. So I guess I should go make it...
+
+IN THE LAST MONTH HAVE YOU...
+Bought something: um. yeah. 
+Gotten sick: not really ::knocks on wood::
+Sang: I sang to the radio/CD all the way back to Briscoe last night.
+Felt stupid: yeah, generally on a daily basis
+Missed someone: yes.
+Gotten your hair cut: no, I need to, though.
+Watched cartoons: If you count flipping around and seeing Family Guy. 
+Lied: no.
+
+LAST PERSON THAT...
+Slept in your bed: Well, me last night... but other than me, I have no idea.
+Saw you cry: probably Elyssa... but she may not know it. She was the only one around when I found out that Tickles died.
+Saw a movie with you: Tricia
+
+HAVE YOU EVER...
+Been to California: Yeah
+Been to Canada: Nope.
+Wished you were the opposite sex: I don't think so."
+"eventtime","2006-03-26 14:19:00"
+"current_moodid","91"
+"url","http://drums4me.livejournal.com/109563.html"
+"userid","4264"
+"itemid","425"
+"event","Hi,
+
+ So we just had a staff meeting that could quite possibly trump any meeting I had at McNutt... that includes the one where we all went around and talked about our favorite memory of the year (at the end of second year) and my very last one last year.
+
+We (the GSs) decided a few weeks ago that our staff needed a morale booster. So, we e-mailed our managers and told them that we wanted to be in charge of the last hour of large staff this week and that we were up to something and not telling them what we were doing.
+
+We wrote letters home to all of our RAs (and our CUEs) parents and asked them to write us a letter telling us why we were lucky to have their son/daughter on our staff. Within about a week, we started getting letters back. Some were short and sweet and to the point and others were poems, or top 10 lists, etc.
+
+So tonight, all the agenda said for the last hour was, ""Surprise from the GSs."" Earlier in the day, we made cupcakes for them and decorated the conference room with balloons and streamers. We set up the cupcakes, one at each chair and put one candle in them. Just before they got to the room, we lit the candles (shh... candles in residence halls...) and turned off the lights. When we opened the door, they all walked in and just by that, they were so surprised. At that point, they thought that we had just gotten them food, and honestly, they'd probably be happy with that.
+
+But we weren't going for ""happy."" We wanted more than that.
+
+So we started singing ""Happy Un-Birthday To You..."" and told them that this was an ""Un-Birthday"" party and, just like with any party, we had cards for them that we were going to read aloud. They seemed surprised, but I think expected that we had just written out a card for each of them. So, I start reading, ""Dear Supervisors, you are lucky to have our daughter, Nicole on your staff because..."" and they all did a double-take. It was amazing. ""Wait, did he say daughter?"" ""Who wrote that?"" ""These are from our parents?"" were just some of the questions going around. So each of the GSs read letters from their own staff member's parents so that every staff member got to hear what his or her parents wrote to us. Several people turned bright red. Some cried. Most just smiled and tried not to make eye contact with anyone else.
+
+So we read through everyone's letters and caela goes, ""Wow, this was awesome! Let's thank the GSs for putting this all together for us..."" and starts to clap. And we respond, ""Wait a minute. We're not done yet.""
+
+Elyssa opens another letter and starts to read, ""Dear Briscoe GSs, you are lucky to have my wife, caela as your assistant manager because..."" and the look on caela's face was priceless. I really don't think she had ever thought that we had called her husband to ask him to do the same. Then Tasha followed with Sara's letter from her husband and Sara had to take her glasses off and keep dabbing at her eyes the whole time. It was so great. There was just this real sense of happiness in the room that hasn't been there in the large staff setting for a few weeks.
+
+Just the morale booster we needed and I have a feeling this event will be remembered for a long time."
+"eventtime","2006-03-02 01:01:00"
+"current_moodid","15"
+"url","http://drums4me.livejournal.com/109055.html"
+"userid","4264"
+"itemid","423"
+"event","Hey!
+
+ Did anyone happen to tape Gray's Anatomy tonight? I had a group project to work on and missed it. I've heard it was a really good episode.
+
+Thanks!"
+"eventtime","2006-02-20 01:12:00"
+"current_moodid","43"
+"url","http://drums4me.livejournal.com/108311.html"
+"userid","4264"
+"itemid","422"
+"event","Yo.
+
+ Nothing overly special today except that people seemed to be in overall good moods. It was a pretty good day...
+
+First, I kept getting complimented by the secretaries at Ethics for my notification forms being so complete. It's nice to get complimented by Dean Freeman for these things... but when the secretaries compliment you, you know you've done a good job.
+
+Then, no one argued with anyone else at LT. Probably for the first time. AND... Sara and caela gave us all Valentine's presents... I got a $10 gift card to La Charreada. Who wants to go?!? They talked with our staffs to find out what we really liked and I guess my staff told them I liked La Cha. Good call.
+
+Then, my professor let us out 20 minutes early from class and the Un-Valentine's Day party, while scarcely attended, was a lot of fun. Shelley, Tim, Ruder, Britt made up the guest list, but a few RAs stopped in for a bit and a few residents who were actually waiting for their j-board hearing came in to see what was in Elyssa's apartment. 
+
+So yeah, eventhough there were no real ""Valentine-ey"" plans, it was still a good day and my bank account isn't hurting."
+"eventtime","2006-02-15 00:45:00"
+"current_moodid","31"
+"url","http://drums4me.livejournal.com/108110.html"
+"userid","4264"
+"itemid","421"
+"event","<table width=350 align=center border=0 cellspacing=0 cellpadding=2><tr><td bgcolor=""#EEEEEE"" align=center><font face=""Georgia, Times New Roman, Times, serif"" style='color:black; font-size: 14pt;'><b>Your Candy Heart Says ""First Kiss""</b></font></td></tr><tr><td bgcolor=""#FFFFFF""><center><img src=""http://images.blogthings.com/whatdoesyourcandyheartsayquiz/first-kiss.jpg"" height=""100"" width=""100""></center><font color=""#000000"">
+You're a true romantic who brings an innocent hope to each new relationship.
+You see the good in every person you date, and you relish each step of falling in love.
+
+Your ideal Valentine's Day date: a romantic dinner that you cook for your sweetie.
+
+Your flirting style: friendly and sweet
+
+What turns you off: cynics who don't believe in romance
+
+Why you're hot: you always keep the romance alive</font></td></tr></table><div align=""center""><a href=""http://www.blogthings.com/whatdoesyourcandyheartsayquiz/"">What Does Your Candy Heart Say?</a></div>"
+"eventtime","2006-02-10 17:13:00"
+"current_moodid","14"
+"url","http://drums4me.livejournal.com/107942.html"
+"userid","4264"
+"itemid","420"
+"event","Have You Ever: 
+(Y) Climbed a tree. 
+(Y) Danced in the rain. 
+(Y) Made out with best friend. 
+(Y) Ate something really horrible-looking. (<i>Lengua de Vaca in Costa Rica</i>)
+(N) Been trash-canned. 
+(N) Fallen in love with someone of the same sex. 
+(Y) Hugged a tree. 
+(N) Streaked. 
+(N) Watched a meteor shower. 
+(Y) Fallen in front of a ton of people 
+(Y) Been in a play. 
+(Y) Written a really good story. 
+(N) Ate a bug. 
+(N) Been in love with someone way older than you. 
+(N) Kissed someone of the same sex. 
+(Y) Played an instrument in a performance. (<i>Rock on Drumline</i>)
+(N) Skipped school 
+(Y) Written someone a nasty letter. 
+(Y) Cried over someone you loved. 
+(Y) Cried over someone you didn't even know. 
+(Y) Gone swimming in your clothes. 
+(N) Been pantsed. 
+(N) Taken a class you knew you'd fail. 
+(N) Accidentally sat in gum on the curb. 
+(N) Kissed a frog. 
+(Y) Been to summer camp. 
+(Y) Had a best friend. 
+(N) Wanted to kill someone. 
+(N) Seen a dead person. 
+(Y) Played Ding Dong Ditch. (<i>A.K.A. Ring and Run</i>)
+(Y) Gone skinny dipping 
+(Y) Pretended to be someone else. 
+(N) Met a celebrity. 
+(Y) Killed something. 
+(Y) Stayed up all night. 
+(Y) Played Strip Poker. 
+(Y) Seen the Rocky Horror Picture show. (<i>Not at a theater... but I've seen it</i>)
+(Y) Toilet papered someone's house. (<i>not recently...</i>)
+(Y) Cried in public. 
+(Y) Clicked on a pop-up. 
+(N) Read a really bad book even though it's really bad 
+(Y) Thought you had a mental problem. 
+(Y) Cussed someone out. 
+(Y) Freaked out because you thought things were changing too fast. 
+(N) Had a movie marathon 
+(Y) Been in love. 
+(Y) Worn make-up. 
+(Y) Scratched a chalk board. (<i>accidently... I hate that noise</i>)
+(Y) Cheated on a school assignment/test. 
+(N) Punched someone. 
+(N) Wanted to die. 
+(Y) Had milk come out of your nose because you were laughing so hard. 
+(Y) Hated yourself. 
+(Y) Been obsessed with something. 
+(Y) Ran the mile. (<i>Best time so far: 8 minutes, 10 seconds</I>)
+(N) Ran with scissors and actually hurt yourself or someone else. 
+(Y) Listened to a CD straight through without skipping any songs. 
+(Y) Used a calculator. 
+(N) Been to Canada. 
+(N) Ran away from home. 
+(Y) Tried to find the words but they didn't come out right. 
+(Y) Thought about what it would be like to be the opposite sex. 
+(Y) Sat in the middle of the street. 
+(Y) Written a song. 
+(Y) Gotten annoyed because people can't differentiate among ""their"" ""there"" and ""they're"". (<i>I hate that</i>)
+(N) Been bitten by a snake. 
+(Y) Gone on a road trip. 
+(Y) Wished you could fly 
+(N) Had a near death experience. 
+(Y) Talked to yourself on AIM. 
+(N) Shaved your head. 
+(N) Spun until you were immensely dizzy. 
+(Y) Been ice skating. 
+(Y) Gotten stuck inside an elevator. (<i>A few times... I've learned how to use the emergency call button very well by now</i>)
+(N) Been paintballing"
+"eventtime","2006-02-05 15:48:00"
+"url","http://drums4me.livejournal.com/107676.html"
+"userid","4264"
+"itemid","419"
+"event","Today is just one of those days...
+
+I woke up early to go to Ethics to start charging my cases, only to find that I haven't been added to the network yet, so I don't actually have access to the necessary files. 
+
+I came back to Briscoe to make a reservation for the Paoli trip, only to find out that I'd have to pay in full to make the reservation and I have $145 in my bank account right now.
+
+I'm this close ::holds up fingers:: to chewing out a few people on my small staff for making things complicated this week and being overly demanding. 
+
+One of the desk people lost my DD pass. I loaned it out to a friend (fully registered and legal for their car) and when they returned it, someone either threw it away or it got put in the wrong mailbox. Our OSA is working on it, but the response from parking is that it's my fault and I shouldn't be loaning it out in the first place (eventhough their website says it's allowed...) and that I'm going to have to pay another $95 for a replacement.
+
+I have class in 20 minutes, tons of stuff to prepare for the Outreach meeting tonight, small staff tonight and a paper due tomorrow.
+
+I just want to get back in bed and start over tomorrow."
+"eventtime","2006-01-24 15:37:00"
+"current_moodid","28"
+"url","http://drums4me.livejournal.com/107271.html"
+"userid","4264"
+"itemid","418"
+"event","<lj-cut text=""rambling"">
+Things are weird. I really need to be sleeping right now and trying to get myself back on some kind of normal sleep schedule, but I have way too much on my mind right now and I need to get this stuff out before I try to go to sleep or I'll just lay in bed and think about it. This really is a bunch of rambling, so if you don't have time, skip on to the next entry on your friends' page.
+
+I've been wondering a lot recently what it would have been like to actually accept NC State over IU. And I wonder if I've screwed myself over in terms of not getting a lot of the holistic experience. Granted, I'd consider myself pretty much an expert on RPS and the GS model (and knowledgable on the RC model) but IU is all I know. It wasn't surprising (not to sound full of myself here) that I got ""exceeds expectations"" on three out of six parts of my evaluation. I know the job so well and I put so much effort into it that there's no way I couldn't know it so well. But IU's housing system is one of ""yesterday."" It's not the way that most colleges do things and I worry that I won't have a firm enough understanding of a coordinator position to actually convince someone to give me a job. This light turned on when I found out I wasn't given a position in housing at NC State (one of the reasons I turned them down) which has a very different system for housing but it's starting to flash a lot more frequently. 
+
+I also feel like things are different in general. I don't know exactly what I expected either. I mean, I've made some great friends that I know I'll never forget, but with just a very few exceptions, most of my friends from undergrad have completely dropped off the face of the earth. And I wonder if the same thing will happen in a year and a half. There are lots of good things about me staying here... I really don't think Melissa and I would be friends right now if I had left. I wouldn't have met all these new people. I would have had to learn an all new city/culture (but I don't know that it's a good thing that I didn't...) and I would have been much further away from home. I just feel like things have changed. I'm not big on change. At all. (Yes, I realize that statement completely defeats my thoughts about going somewhere else). I see people who, last year, I told myself I knew I'd be friends with them forever no matter how far apart we are and now, we barely speak and when we do, there's all kinds of weird silences. I'm sure all of this will pass but at least for right now, for the first time in five and a half years, I'm not happy at IU. I don't want to transfer and I certainly don't want to just go start working because I'd consider that quitting and I didn't work my ass off last semester to get a 3.81 just to call it quits. But this is making me wonder if I should have taken some time off between undergrad and grad to try something new and meet new people and not be so reliant on my friends from undergrad to keep me going, just to get blown off at times. This has been a very eye opening experience for me.
+
+Another reason I'm not as happy here is there are times I don't feel like anything has changed. I'm still getting woken up at 4am by stupid drunk residents and have to go tell them to shut up. I live in a glorified dorm room when the other supervisors have huge apartments (yes, I know how spoiled that sounds). I have to put on sandals and walk down the hallway to go to the bathroom and come across vomit in the stalls. I'm tired of that. I want my own bathroom. I want to be able to make cookies without having to use someone else's oven. I want my home to really feel like home. (And by home, I mean where I am now). All of these things were issues I had when I was an RA. I don't feel like I've moved on from that. I know I've said that I don't really care where I live next year because it's more about the job than where I live, but that's mainly me trying to not rock the boat. But maybe some boat rocking needs to happen. I haven't expressed hardly any of this frustration to my supervisors and maybe that needs to happen before I sign my contract for next year.
+
+I think some of this stems from some not-so-good decision making over the past year and a half that keeps getting thrown right back into my face. There are so many things I'd do differently if I could go back to January 2005. Or even August 2004. Yes, all the way back to August. Things that no matter how hard I try, I can't ever seem to get over. And if I were somewhere else, not being constantly reminded of my mistakes, I might be happier. During the day, I'm fine. It's at night when my mind starts racing. Those ""what ifs"" pop into my head. There's this whole world out there that I haven't explored (except for Costa Rica) where no one knows who I am. If I could afford it, I'd spend the summer in my car going to all kinds of different places. Trying new things. Meeting new people. I don't think I can even afford to go somewhere fun for Spring Break and I'm certainly not asking my parents for money. There are enough issues there already.
+
+I know I need to do something. Make some kind of change because this sure isn't working out like I had planned. And I'm not sure if simply rearranging my room will be enough this time. And now that I've listened to the Graham Colton CD twice through, I should probably go to bed. 
+</lj-cut>"
+"eventtime","2006-01-16 02:12:00"
+"current_moodid","73"
+"url","http://drums4me.livejournal.com/107229.html"
+"userid","4264"
+"itemid","417"
+"event","Finally updating a bit... 
+Training went really well. The feedback I got from my staff was very positive. Hopefully the other staffs agreed. I really want them to be as critical as possible because I'll be planning fall training next year and will want their honest input. Obviously, things like, ""I want only an hour a day"" won't happen... but you never know.
+
+New Years was amazing. Still haven't gotten the pictures back. I have 10 or so pictures left to take on my camera that I'm saving for Monday's festivities in Briscoe. I will post them when I get them back.
+
+Classes...
+I still haven't had my Law class because my prof cancelled the first class. I've heard this is a very typical of him so I'm a little nervous about that. It's only an 8-weeks class, so I'm worried about being able to be prepared for the midterm and final.
+My ""C"" class is alright. I think my class (out of the two sections) is definitely the ""fun"" group. The other class has fun people in it too, but just not as many. For half of the class, it's the 20 of us and then the other half of the time, the other class comes down to our classroom for a ""tag-team"" approach. I don't like that at all. I've gotten used to the small classes, so to have 50 people crammed into the classroom in Forest is not fun. Overall, it sounds like it's going to be kind of boring, but I think I'm going to learn a lot.
+My Diversity class is awesome. There are two sections for that one as well. Tasha is in the other section. I thought it'd be like the ""C"" class, but apparently we have different schedules. Also, our first paper is 10 pages where the other class' is 5. I don't mind, though. It's an interesting topic. Also, she let us out an hour and a half early on the first day. And it's not like she just didn't feel like teaching. We covered everything we needed to cover and she let us go. Apparently, the other class was going to end 5 minutes early and the prof made them stay for another 5 minutes and talk to each other.
+
+Today was a very relaxing day... slept in, worked out, drove Courtney over to Collins for her RAAC meeting, went to dinner, went to Happy Hour at Jungle Room with some HESA peeps and now I'm going to be staying in the building to help Tasha tonight. An outside group is using Briscoe tonight to host a party and the last time this group was here, it was crazy. I was a little disappointed becuase I wanted to go out with Allie, Debbie and Nick, but, as I look out the window and see how nasty it is outside tonight, I'm probably better off right here.
+
+Tomorrow, I'll probably start working on homework and I think I'm going out to Bears for a little bit. Not sure who all's coming, but it should still be fun. Then Sunday is Potluck Sunday Night TV at Abby and Lindsay's. Should be fun."
+"eventtime","2006-01-13 21:36:00"
+"current_moodid","33"
+"url","http://drums4me.livejournal.com/106849.html"
+"userid","4264"
+"itemid","416"
+"event","1). What time do you get up? Depends on the day. Generally by 10 at the latest. (except for this past break when I averaged 1:30pm).
+
+2.) If you could eat lunch with one person, who would it be? Not sure if I could choose just one. Maybe Wiese... y'know... just to make sure my ego doesn't get too big each day. 
+
+3.) Gold/silver? Silver. 
+
+4). What was the last film you saw? Technically, Pulp Fiction. I don't have a clue as to what happened, though. 
+
+5). What is/are your favorite TV show(s)? ER, Get Smart
+
+6). What did you have for breakfast? Definitely skipped breakfast to take care of the burst hot water pipe.
+
+7). Who would you hate to be stuck in a room with? Probably not anyone... except maybe one person.
+
+8). What is your middle name? Timothy
+
+9). Beach, City or Country? Beach. Definitely beach.
+
+10.) Favorite ice cream? Mint Chocolate Chip
+
+11). Salted, Plain or butter popcorn? Kettle corn.
+
+12). Favorite color? Blue. 
+
+13). What kind of car do you drive? Grand Prix
+
+14). Favorite sandwich? Peanutbutter or Turkey/Cheese
+
+16). What characteristic do you despise? lack of confidence, being fake.
+
+17). Favorite flowers? Yellow Roses
+
+18). Where would you go on vacation? Costa Rican beach. 
+
+19). What color is your bathroom? 60's blue
+
+20). Favorite brand of clothing? if it's comfortable, I like it. 
+
+21). Where would you retire? Somewhere warm
+
+22). Favorite day of the week? Probably any day on the weekend.
+
+23). What did you do for your last birthday? went to class, Tasha and Elyssa threw a party for me, sat on Tasha's porch with Tasha and Juan for 3 hours after the party.
+
+24). Where were you born? San Antonio, TX
+
+25). Favorite sport to watch? Football is growing on me. 
+
+28). Which detergent do you use? Tide
+
+29). Coke or Pepsi? Coke. 
+
+30). Are you a morning person or a night owl? I don't know. I used to be more of a morning person, but this job has kind of forced me to become a night owl. Or, at least be semi-coherent with the 3am phone calls.
+
+31). What is your shoe size? 14
+
+32). Do you have any pets? 
+
+33). What is your favorite season? Late Spring (April-May)
+
+34). What time is it? 11:26pm
+
+35). Nicknames? Riv
+
+36). Number of candles on your last birthday cake? 23.
+
+37). Kids? Hopefully, but not for a few years
+
+38). Hair color? Brown
+
+39). Piercing? none
+
+40). Eyes? Blue
+
+41). How much do you love? love what?
+
+43). Your current residence? The Penthouse ""Apartment"" in Briscoe
+
+44). Favorite Food? I like barbeque. 
+
+45). Been to Africa? Nope.
+
+46). Been toilet papering? yeah.
+
+47). Have you ever been in love? yes. 
+
+48). Been in a car accident? yeah. Never caused one, though. ::knocks on wood::
+
+49). Croutons or bacon bits? both
+
+50). Favorite saying or phrase? Elyssa's ""I feel like ____"" is rubbing off on me.
+
+51). Favorite restaurant? Los Aztecas at home, here PF Changs
+
+52). Favorite nonalcoholic drink? Cherry Coke
+
+53.) How many times did you fail your drivers test? None. I got a 99% on it. Stupid 3-point turns...
+
+54.) From whom did you get your last e-mail? more than likely, it was from caela.
+
+55.) Do you sing in the shower? haha, yeah.
+
+56). Which store would you choose to max out your credit card? Best Buy
+
+57.) What do you do most when you are bored? Talk to people 
+
+58.) Bedtime? I try to be in bed by 1 during the week. On the weekends, it's much more likely to be 2:30-3am before I get in bed. 
+
+59.) Glass half empty or half full? Half Full.
+
+60.) If you could live anywhere in the world where would it be? I wouldn't mind ending up back here in the States, but I think I'd like to live (as in... for a few or more years) in Costa Rica or Spain or somewhere like that.
+
+61.) What CD is in your CD player right now? McNutt 2004-2005 DVD"
+"eventtime","2006-01-02 23:15:00"
+"current_moodid","49"
+"url","http://drums4me.livejournal.com/106618.html"
+"userid","4264"
+"itemid","415"
+"event","Pictures coming in a bit... but it was a very fun/relaxing New Year's in Millbrook. Some of the highlights...
+
+* Not getting lost
+* Not getting slapped by Emma (Abi's 1 and a half year old German Shepherd)
+* Sending one of the cats flying acros the room simply by throwing a pen in the air.
+* Playing with a talking Deer
+* Watching Pulp Fiction
+* Playing Courtney's drinking game where everytime they dropped the ""F-bomb"" during Pulp Fiction, we had to take a drink.
+* Getting <b>really</b> tipsy/kinda drunk from said drinking game
+* Setting off fireworks in Abi's back yard
+* Having ashes rain on us from the airial fireworks
+* Watching I Love the 80s for 84, 87 and 88
+* Watching the ball drop for New York.
+* Watching the New Year's celebration for Chicago
+* Not having the keys locked in the car on the way back.
+* Not having the car break down on the way back
+* Spending about 9-10 hours in the car with Wiese catching up/letting her get caught up on her insults :-D
+* Fun (hopefully) pictures
+* Games of Uno
+* Lots of lounging around
+
+Now, I'm back at Briscoe where my room is really hot... about to enjoy a pizza and a beer or two and hit the sack. Tomorrow's activities involve getting new printer ink, hanging up a few signs and seeing some friends. All in all, a very relaxing break and one of the best in a long time."
+"eventtime","2006-01-01 22:37:00"
+"current_moodid","83"
+"url","http://drums4me.livejournal.com/106331.html"
+"userid","4264"
+"itemid","414"
+"event","I'm in a much better mood today. I got a lot of things that I ::gasps:: actually needed, like jeans and new shirts. No sense in going into all of that now, but I just wanted to post a quote that my mom said last night on the way to church...
+
+""Humm... all I have is a ten. It's alright to put a ten in and take a five back out of the collection plate, right?""
+
+The first thing that came to my mind was Jeff Foxworthy's ""You Might Be a Redneck If..."" where one of the things is if you've ever made change in the offering plate. It gave me a really good laugh."
+"eventtime","2005-12-25 15:58:00"
+"current_moodid","87"
+"url","http://drums4me.livejournal.com/106052.html"
+"userid","4264"
+"itemid","412"
+"event","Yo.
+ I find it very strange that it's raining right now. This time last year, we were being unindated with snow. Not that I mind being able to get my car (or, at least, a car) out of the driveway without almost spinning off down the ""mini-cliff"" on the side of the driveway and into the gutter. I'm definitely caught up on my sleep and now I need to work to get my sleep schedule back to normal. No more of this 3am-1pm thing. It will surely come back to haunt me right around January 3rd.
+
+I didn't mean to stay up so late last night, but I got into an interesting debate with my mom about the fact that in New Hampshire, the Bishop of the Episcopal Church is openly gay. 
+
+<a href=""http://www.cnn.com/2003/US/08/05/bishop/"">Story here</a>
+
+I was definitely impressed with my skills to debate and not to resort to the ""one-line zingers"" that left no room for conversation. After an hour or so, we decided just to call it quits for the night and go to bed... and even though my mom's opinion on this issue differs from mine, I was still happy we had the chance to debate on the issue and she was at least open to what I had to say. I also think it's completely alright that we ended the discussion still disagreeing with each other, but now she knows my position on this issue which helps explain why I have becomed disillusioned with my church's response (my specific church here in Louisville... not the Episcopal Church as a whole) to this issue. 
+
+As I was debating this issue with her, I realized that I will probably be debating a varient of the same issue for the rest of my professional career in Student Affairs. And, it was reinforcing that I was able to stay calm the whole time and counter her arguements in a way that showed that I still had respect for her, but just disagreed with her opinion.
+
+Anyways, off I go to put the cards under the Christmas tree."
+"eventtime","2005-12-24 15:56:00"
+"current_moodid","54"
+"url","http://drums4me.livejournal.com/105608.html"
+"userid","4264"
+"itemid","411"
+"event","Hi,
+
+  Break has been very uneventful so far... and I'm just fine with that. The majority of the days have been spent either running a few errands or just sitting around the house. I think my mom is beginning to get a little worried because I'm not out doing things, but really, after this semester, I'm just fine sitting by myself in the quiet without 50 freshmen running all around of my phone ringing every 10 minutes. I enjoy quiet. Yes, I'll probably get tired of it, but by then, it'll be almost time to head up to Abi's for New Years. 
+
+Side note: this new Facebook thing where you can say how you know people... I started doing a little bit of that yesterday and wondered if the people could actually see what I wrote about them. For example, if I, say, work with someone and had some kind of a ""relationship"" with them, would they be able to see that I said that? I thought probably no, but decided not to chance it just yet. And, it's a good thing because I had 9 ""more info"" requests today when I signed in where I could see what people had written about me. I found that interesting and thought I should warn others...
+
+Louisville peeps, if you're around, give me a call. It'd be nice to see people I haven't seen in a while. Adios!"
+"eventtime","2005-12-22 15:18:00"
+"current_moodid","53"
+"url","http://drums4me.livejournal.com/105258.html"
+"userid","4264"
+"itemid","410"
+"event","<lj-cut text=""The 2005 month game"">
+
+<B>January</b>
+Started the year off at Abi's in Millbrook... lots of beer and wine... some drunken madness and a cell phone call or two. Got back and survived all of my women on my floor being accepted into their sororities, submitted my applications to IU and NC State.
+
+<b>February</b>
+Many late nights, a non-date Valentine's date, finding out Puccini's isn't all that it's cracked up to be, went to IU's Outreach program, met a ton of people, back-to-back-to-back interviews all day.
+
+<b>March</b>
+Went to NC State's outreach program, found out I was accepted to both IU and NC State. Chose IU. Given position as Graduate Supervisor, went on Spring Break, got really really drunk in my room with Courtney as a result of how things on Spring Break went, cleaned up after a friend, found out that I got placed in Briscoe.
+
+<b>April</b>
+Kind of a blur.. met my new boss at Briscoe, found out I would <i>not</i> be living in the big apartment, Thunder and all the drama associated with that, Kentucky Kingdom trip #1, found out I could work in McNutt over the summer.
+
+<b>May</b>
+Graduated! Moved to my 5th room in McNutt, starting working as the Phone Room Supervisor at the Auditorium, went to Courtney's house for Mother's Day.
+
+<b>June</b>
+Went to Megan's for the weekend and we went to Holiday World (my first time) then came back and went to Kentucky Kingdom again with the Summer Crew. Had lots of game nights, cooked a lot, grilled out some, started practicing for the softball game, kept working at the Auditorium. Big Brother 6 nights
+
+<b>July</b>
+Got really really sick over 4th of July weekend, took a few days off work to get better, check ins/outs, went to my first Santana concert with Amy, went to my first Opera.
+
+<b>August</b>
+Moved to Briscoe, started GS training, got really really overwhelmed with it all, found out my cat was dying, helped lead RA training, took duty during Welcome Week (never again...), had a small breakdown after being on duty during Welcome Week, started classes, really met people in my cohort, started hanging out with new friends.
+
+<b>September</b>
+Surprised my mom for her birthday, wasn't on duty all month, gave my first Grad school presentation, got my apartment finally all put together how I wanted it, went to a few football games, got really sick again, more papers and presentations.
+
+<b>October</b>
+Went to Indy for Megan's 21st and stayed at her house that night, on duty between her birthday and mine, my 23rd birthday which included several individual celebrations (including having Bob have our entire class sing to me), birthday party at Tasha's, more papers, presentations, a mid-term, started a mini-relationship, took Allie out for her 23rd birthday.
+
+<b>November</b>
+Went to Indy for the night with Allie, Debbie, Melissa, Ryan, Carolynn, Tim and Lilly; closed a new building (for me) for the first time, went home for just two days for Thanksgiving, came back early to finish work, went to Light up Bloomington, got a whole lot of work done in 48 hours, turned in final projects.
+
+<b>December</b>
+RA evals, my own evaluation, final exams, closed Briscoe, continued to hang out with new friends, but also made a much better effort to see old friends (need to continue that), Tickles died, home for winter break, argued with my mom about the validity of the excuse, 'just wanting to see what it was like' for cigarette smoking, played Car bingo with the dealership, had thermostat wars with my dad, lots of good food.
+
+<b>Still to come...</b>
+Christmas, more relaxing, lots of sleeping, trip to UK, going back up to Abi's for New Year's.
+</lj-cut>
+
+So yeah, overall, not a bad year. Hopefully a <i>lot</i> less drama in 2006."
+"eventtime","2005-12-19 18:27:00"
+"current_moodid","60"
+"url","http://drums4me.livejournal.com/104960.html"
+"userid","4264"
+"itemid","409"
+"event","10/1/1992 - 12/7/2005
+
+<img src=""http://portfolio.iu.edu/jriveire/Center_Desk_stuff/Tickles.jpg"">
+
+<img src=""http://portfolio.iu.edu/jriveire/tickles.JPG"">"
+"eventtime","2005-12-16 20:18:00"
+"current_moodid","113"
+"url","http://drums4me.livejournal.com/104802.html"
+"userid","4264"
+"itemid","408"
+"event","U28sIG15IG1hbmFnZXJzIGRlY2lkZWQgdG8gc2VuZCBtZSBteSBldmFsdWF0aW9uIHZpYSBlLW1haWwgYmVmb3JlIGFjdHVhbGx5IHNpdHRpbmcgZG93biB3aXRoIG1lIHRvbW9ycm93IHRvIGdvIG92ZXIgaXQuIEkgdGhvdWdodCB0aGlzIHdhcyB3ZWlyZCBhdCBmaXJzdCBhbmQgd2FzIHNrZXB0aWNhbCB0byByZWFkIGl0LCBidXQgSSdtIGdsYWQgSSBkaWQuIFRoZXJlIHdhcyBzb21lIHZlcnkgZ29vZCBjb25zdHJ1Y3RpdmUgZmVlZGJhY2sgYW5kIG92ZXJhbGwsIHRoZXkgdGhpbmsgSSdtIGRvaW5nIGEgZ3JlYXQgam9iIQ0KDQo8bGotY3V0IHRleHQ9ImJyYWdnaW5nIHJpZ2h0cy4uLiBzZXJpb3VzbHksIHRoaXMgaXMganVzdCBmb3IgbWUgdG8gZ28gYmFjayBhbmQgbG9vayBhdCB3aGVuIEknbSBoYXZpbmcgYSBiYWQgZGF5Li4uIj4NCg0KQ29tbWVudHMgbWFkZSBieSBSQXMgb24gbXkgc21hbGwgc3RhZmYgYW5kIHRoZW4gdGhlIG90aGVyIFJBcyBpbiBCcmlzY29lLi4uDQoNCjxiPjxpPlBsZWFzZSBjb21tZW50IG9uIHlvdXIgT05FLU9OLU9ORSBUSU1FIHdpdGggeW91ciBHcmFkdWF0ZSBTdXBlcnZpc29yLjwvYj48L2k+DQoNCkl0IGlzIGV4dHJlbWVseSBiZW5lZmljaWFsLiAgSSB1c3VhbGx5IGdldCBhIGxvdCBvZmYgbXkgY2hlc3QuDQpJdCBpcyBhIHNwbGVuZGlkIHRpbWUuDQpXZSBoYXZlIGEgZ3JlYXQgdGltZSwgdGFsayBwZXJzb25hbGx5IGFuZCBhYm91dCBidXNpbmVzcy4gIEkgYWx3YXlzIGZlZWwgY29tZm9ydGFibGUgYXJvdW5kIGhpbS4NCkkgcmVhbGx5IGVuam95IG91ciAxOjFzLiAgV2UgYWx3YXlzIGRvIHNvbWV0aGluZyBmdW4gYW5kIGl04oCZcyBwYWlubGVzcyB0YWxraW5nIHRvIGhpbSBmb3IgYW4gaG91ci4gIEkgbGlrZSB0YWxraW5nIHRvIGhpbS4NCkpvbiBhbmQgSSBhbHdheXMgYWRkcmVzcyB3aGF0IG5lZWRzIHRvIGJlIGRpc2N1c3NlZCwgdGhlbiB3ZSB0YWxrIGFib3V0IG91ciBwZXJzb25hbCBwcm9ibGVtcyBhbmQgZ29hbHMuICBKb24gaXMgbGlrZSBhIGZyaWVuZCBtb3JlIHRoYW4gYSBHUy4NCg0KDQo8Yj48aT5QbGVhc2UgY29tbWVudCBvbiBTTUFMTCBTVEFGRiBNRUVUSU5HUyBydW4gYnkgeW91ciBHcmFkdWF0ZSBTdXBlcnZpc29yLjwvYj48L2k+DQoNCkpvbiBpcyBhbHdheXMgb3JnYW5pemVkIGFuZCBhbHdheXMgaGFuZGxlcyBoaXMgYnVzaW5lc3MuICBXaGVuIHdlIGhhdmUgbWVldGluZ3MgaGUgaXMgbm90IHVwdGlnaHQgb3IgbWVhbi4gIEhlIGFsd2F5cyBqb2tlcyBhcm91bmQgd2l0aCB1cy4NClRoZXkgYXJlIGZ1biBhbmQgeXVtbXkhIEkgbGlrZSBpdCB0aGF0IGhlIGNvb2tzIGZvciB1cyBhIGxvdC4NClRoZXkgYXJlIGludGVyZXN0aW5nIGFuZCB0byB0aGUgcG9pbnQuICBIZSBhbnN3ZXJzIGFueSBxdWVzdGlvbnMgd2UgaGF2ZS4NCkhlIGlzIGFsd2F5cyBwcmVwYXJlZC4gIFNvbWUgbWVldGluZ3MgYXJlIGNyZWF0aXZlLCBhbmQgSSBsaWtlIGhvdyBoZSBtaXhlcyBpdCB1cC4NCkZ1biEgIFdlIGFsd2F5cyB0YWxrIGFib3V0IHdoYXQgd2XigJlyZSBzdXBwb3NlZCB0byB0YWxrIGFib3V0IGFuZCBzdGlsbCB3ZSBsYXVnaCBhbmQgZW5qb3kgaGFuZ2luZyBvdXQuICBJIGhlYXJ0IHNtYWxsIHN0YWZmIG1lZXRpbmdzIQ0KIA0KDQo8Yj48aT5BZGRpdGlvbmFsIENvbW1lbnRzPC9iPjwvaT4NCg0KTXIuIERlcGVuZGFibGUuICBNeSDigJxnbyB0b+KAnSBndXkuDQpIZSBpcyBhbWF6aW5nLCBoZSBrbm93cyB0aGUgam9iIGxpa2UgdGhlIGJhY2sgb2YgaGlzIGhhbmQuDQpJIGhlYXJ0IEpvbiDigJMgd2F5IHVuZGVyc3RhbmRpbmcsIG9wZW4sIGFuZCBjb29sLg0KR3JlYXQgam9iISAgVmVyeSBwcm9mZXNzaW9uYWwhICBBbHdheXMgaGVscGZ1bCENClZlcnkgYWN0aXZlICYgaGFwcHkNCkhlIHRha2VzIGNhcmUgb2YgYnVzaW5lc3MsIGhlIGdpdmVzIHlvdSB1cGRhdGVzLg0KQWx3YXlzIGhhcHB5LCByZWxheGVkLCB3aWxsaW5nIHRvIGhlbHAuICBLZXlib2FyZCB3YXMgYSBiaWcgaW1wcm92ZW1lbnQuDQpWZXJ5IGhlbHBmdWwsIHRyaWVzIHRvIGJlIHRoZXJlIHdoZW4gbmVlZGVkLCBkZXBlbmRhYmxlLCB1bmRlcnN0YW5kaW5nDQpHcmVhdCBHUywgdmVyeSBmcmllbmRseSwgcmVhc29uYWJsZSwgZ2VudWluZWx5IGNvbmNlcm5lZCB3aXRoIHN0dWRlbnQvc3RhZmYgYWZmYWlycw0KSSBhcHByZWNpYXRlIEpvbuKAmXMgZGVkaWNhdGlvbiB0byBCcmlzY29lICYgdGhlIG90aGVyIFJBcyBldmVuIHdoZW4gaGUgaXMgbm90IG9uIGR1dHkgSm9u4oCZcyBwcmVzZW5jZSBpcyBhbHdheXMgZmVsdC4gIEhlIGF0dGVuZHMgZGlzY29zIHJlZ3VsYXJseSBhbmQgaGlzIHN1cHBvcnQgaXMgZW5jb3VyYWdpbmcuIEhpcyBwcm9hY3RpdmUgYmVoYXZpb3IgaGFzIG1hZGUgbnVtZXJvdXMgaW1wcm92ZW1lbnRzIHRvIGFuIGluZWZmaWNpZW50IGNlbnRlciBkZXNrLg0KSm9uIGlzIGEgZ3JlYXQgR1MgYW5kIHNlZW1zIHRvIGJlIHZlcnkgdW5kZXJzdGFuZGluZyBhbmQgc3VwcG9ydGl2ZS4NCkkgZmVlbCBKb24gaXMgdmVyeSBkZXBlbmRhYmxlLCByZWxpYWJsZSwgYW5kIGdyZWF0IGF0IG1ha2luZyBjcml0aWNhbCBxdWljayBkZWNpc2lvbnMuICBIZSBpcyBhbHdheXMgYXZhaWxhYmxlIHdoZW4gaGUgaXMgb24gZHV0eSBhbmQgZXZlbiBvZmYgZHV0eSBpZiBhbiBSQSBoYXMgYSBxdWVzdGlvbiBvciBuZWVkcyBhc3Npc3RhbmNlLg0KSGUgaXMgZ3JlYXQuICBBbHdheXMgdGhlcmUgdG8gaGVscCBhbmQgcHV0cyBpbiBleHRyYSB3b3JrIGFuZCBlZmZvcnQuICBIZSB0cmllcyB0byBtYWtlIG91ciBqb2JzIGFzIFJBcyBlYXNpZXIgYW5kIGxlc3Mgc3RyZXNzZnVsLg0KVmVyeSBleHBlcmllbmNlZC4gIElmIGFueW9uZSBoYXMgYSBxdWVzdGlvbiwgdGhleSBrbm93IEpvbiBoYXMgdGhlIGFuc3dlci4gIFZlcnkgcGVyc29uYWJsZSBhbmQgcmVhbGx5IGEgZ29vZCBndXkuDQpKb24gaXMgYSBncmVhdCBHUy4NCkpvbiBpcyBkb2luZyBhIGZhYiBqb2INCkdyZWF0IGpvYiwgZmFidWxvdXMgR1MuDQpTd2VsbCBqb2IuICBLZWVwIGl0IHVwLiAgWW91IGhhdmUgYmVlbiBhIHJlYWxseSBncmVhdCBoZWxwIHRvIG1lIHRoaXMgeWVhciwgYW5kIEkgcmVhbGx5IGFwcHJlY2lhdGUgaXQhDQpKb24gaXMgZ3JlYXQhICBJIHdvdWxkbuKAmXQgdHJhZGUgaGltIGZvciBhbnlvbmUuICBIZSBpcyB0aGUgYmVzdCBHUyBJIGNvdWxkIGV2ZXIgaG9wZSB0byBoYXZlLg0KSm9uIGhhcyBiZWVuIHZlcnkgaGVscGZ1bCB3aXRoIGRlYWxpbmcgd2l0aCBwcm9ibGVtcyBvbiBteSBmbG9vci4gIEhlIGlzIHN1cHBvcnRpdmUgb2YgbWUgYW5kIGlzIGdvb2Qgd2l0aCB0aGUgcmVzaWRlbnRzLg0KR3JlYXQgcGVyc29uLCBhbmQgYSBiZXR0ZXIgR1MuIFJlYWwsIG1heWJlIGJlY2F1c2UgaGUgaGFzIGJlZW4gdGhyb3VnaCBSQSBsaWZlLiAgS25vd3MgdGhlIGludHJpY2FjaWVzIG9mIHRoZSBqb2IgYW5kIGl04oCZcyBub3QgYXMgZWFzeSBhcyBpdCBzZWVtcy4gIEl0IHJlZmxlY3RzIGluIGhpcyBhdHRpdHVkZSBhbmQgZGVhbGluZ3Mgd2l0aCBSQXMuDQoNCjwvbGotY3V0Pg=="
+"eventtime","2005-12-15 02:58:00"
+"current_moodid","34"
+"url","http://drums4me.livejournal.com/104629.html"
+"userid","4264"
+"itemid","407"
+"event","- Our hourly desk worker did not show up (again) today so, since I was/am the GS on call, I had to come back and work her shift for her... for free. She apparently decided she was going to quit without telling anyone and said she wasn't coming in today when the previous hourly called to see where she was. All I'm going to say is that she had better not come to me for a recommendation.
+
++ Sara came in and said she would sit at the desk and do the ""administrative"" stuff if I would help the residents when they came up. I hapily accepted her offer.
+
+++ (yes, this deserves two) Abi called me today! I almost didn't answer my phone because I didn't recognize the number from a pay phone in Missouri, but I'm so glad I decided to answer. It was so nice to hear her voice and talk, even if it was just for about 10 minutes. I'm so excited to be going to see her for New Years (not that I wasn't excited before) but now I just kind of miss her even more because I had gotten used to not talking with her and just writing back and forth. But that's alright. I'm going to see her in three weeks!
+
+<lj-cut text=""Survey 1"">
+1) Was 2005 a good year for you?
+Overall, yes.
+
+2) What was your favorite moment of the year?
+Probably the summer in general 
+
+3) What was your least favorite moment of the year?
+I'd have to say the very beginning of school... for multiple reasons.
+
+4) Where were you when 2005 began?
+Millbrook, Illinois
+
+5) Who were you with?
+Abi, Jenny, Britt, Nate, Sayaka, Jory and Jordo
+
+6) Where will you be when 2005 ends?
+in Millbrook! 
+
+7) Who will you be with when 2005 ends?
+Abi, Courtney, Bailey, Jordo, Jory, Shelley 
+
+8) Did you keep your new years resolution of 2005?
+Um... well, my goal was to get in better shape, which I'm still working on, but considering I haven't <i>gained</i> weight, I'd say sure.
+
+9) Do you have a new years resolution for 2006?
+Not yet.
+
+10) Did you fall in love in 2005?
+Nope.
+
+11) If yes, with who?
+N/A 
+
+12) If yes, do they know?
+N/A
+
+14) Do you regret it?
+N/A
+
+15) Did you breakup with anyone in 2005?
+No. 
+
+16) Did you make any new friends in 2005?
+Yes. Lots of 'em.
+
+17) Who are your favorite new friends?
+Elyssa, Tasha, Ian, Borzie, Allie, Nick, Gerard
+
+18) What was your favorite month of 2005?
+July.
+
+19) Did you travel outside of the US in 2005?
+No.
+
+20) How many different states did you travel to in 2005?
+okay... went to Kentucky, Illinois, North Carolina.. so 3.
+
+21) Did you lose anybody close to you in 2005?
+Not in a literal way.
+
+22) Did you miss anybody in the past year?
+All the time.
+
+23) What was your favorite movie that you saw in 2005?
+I'll go with Crash. I didn't see a lot of movies, but that one I liked a lot.
+
+
+26) How many concerts did you see in 2005?
+1... Santana and Los Lonely Boys
+
+27) Did you have a favorite concert in 2005?
+Above
+
+28) Did you drink a lot of alcohol in 2005?
+Not a lot... 
+
+29) Did you do a lot of drugs in 2005?
+No.
+
+30) How many people did you sleep with in 2005?
+No comment. 
+
+31) Did you do anything you are ashamed of this year?
+Yes
+
+33) What was the worst lie someone told you in 2005?
+not going there.
+
+34) Did you treat somebody badly in 2005?
+Never intentionally. 
+
+35) Did somebody treat you badly in 2005?
+Yes
+
+36) How much money did you spend in 2005?
+too much 
+
+37) What was your proudest moment of 2005?
+Finding out I was accepted to IU for grad school
+
+38) What was your most embarrassing moment of 2005?
+""It's not her midnight yet...""
+
+39) If you could go back in time to any moment of 2005 and change something, what would it be?
+No comment.
+
+40) What are your plans for 2006?
+Keep at it with school and work and just have some fun.
+</lj-cut>
+
+<lj-cut text=""Survey 2 - First sentence from each month in 2005"">
+<b>January:</b> So I have just completed my last RA training as an RA... ever. (1/7/05)
+<b>February:</b> Ok... really... Just you and me this time. :-) (2/3/05)
+<b>March:</b> I attribute my high score to my high school English teacher... man was she a ::insert derogatory word of choice here:: but she definitely taught me how to use English. (3/2/05)
+<b>April:</b> So I IMed Courtney and she and I went on a hike out at Lake Griffy for about an hour and a half. (4/5/05)
+<b>May:</b> I just got my pictures back from the Thunder/Six Flags expedition last weekend and the RA banquet and wanted to share my favorites (5/1/05)
+<b>June:</b> Two theme parks in 3 days, getting lost, really good food, almost getting sick, lots of puppies, weird movies, driving a tank (okay... just a Suburban) and an overall wonderful three and a half days. (6/7/05)
+<b>July:</b> So it's official... I have strep throat. (7/5/05)
+<b>August:</b> I know it's been forever, but we've entered this ""Jon is hardly ever going to have any free-time at all during training"" phase that has been oh-so-fun for the past three years. (8/7/05)
+<b>September:</b> A posting of <i>Cold</i> by Crossfade. (9/4/05)
+<b>October:</b> Another hint that I need to be sleeping... I thought as I was writing out the title for this post, ""Humm... I'm not writing in APA Style."" (10/7/05)
+<b>November:</b> I made the horrible assumption that I could get the whole thing done last night because I was on duty and had to be in the building anyway, so I might as well wait until then. (11/5/05)
+<b>December:</b> For the first time this semster, I'm actually happy I'm taking Y520 right now. (12/3/05)
+</lj-cut>"
+"eventtime","2005-12-11 17:58:00"
+"current_moodid","31"
+"url","http://drums4me.livejournal.com/104209.html"
+"userid","4264"
+"itemid","406"
+"event","Just had a <i>really</i> good judicial. I ended up giving the kid the website to apply to be an RA. Anyways...
+
+<lj-cut text=""Survey!"">
+
+FOUR JOBS YOU'VE HAD IN YOUR LIFE:
+1. Lifeguard
+2. Resident Assistant
+3. Intern at WBAL-TV (NBC) in Baltimore
+4. Graduate Supervisor
+
+FOUR MOVIES YOU COULD WATCH OVER AND OVER:
+1. A Beautiful Mind
+2. The American President
+3. Airforce One
+4. Crash (and I guarantee my eyes will still water up everytime during the ""gun"" scene.
+
+FOUR CITIES YOU'VE LIVED IN:
+1. San Antonio, TX
+2. Corpus Cristi, TX
+3. Houston, TX
+4. Louisville/Prospect, KY
+
+FOUR TV SHOWS YOU LOVE TO WATCH:
+1. ER
+2. I've become a fan of Law and Order
+3. ...and I don't really faithfully watch anything else. No time.
+4.  
+
+FOUR PLACES YOU'VE BEEN ON VACATION:
+1. Destin, FL
+2. Lake Tahoe, UT
+3. San Fransisco, CA
+4. Boothbay Harbor, ME
+
+FOUR WEBSITES YOU VISIT DAILY:
+1. Facebook (I know...)
+2. Livejournal
+3. IUB Libraries (how sad is that... no offense Abby).
+4. Oncourse
+
+FOUR OF YOUR ALL-TIME FAVORITE RESTAURANTS:
+1. Demaris Barbeque in Houston
+2. Ruth's Chris
+3. Los Aztecas in Louisville
+4. James Coney Island in Houston
+
+FOUR OF YOUR FAVORITE FOODS:
+1. Spaghetti (<b>WITH</b> cinnamon)...
+2. my dad's eggs
+3. Steak... all kinds.
+4. Brisket
+
+FOUR SCHOOLS YOU'VE ATTENDED:
+1. Indiana University 
+2. duPont Manual High School, The Magnet High School
+3. Kammerer Middle School
+4. Wilchester Elementary
+
+FOUR PLACES I'D RATHER BE RIGHT NOW:
+1. outside playing in the snow.
+2. in my bed... not sleeping, just relaxing or spooning my pillow
+3. hanging out with friends
+4. at home, relaxing, seeing friends, sleeping, playing with the cat, being with family, Christmas dinner, Midnight Christmas Eve service.
+</lj-cut>"
+"eventtime","2005-12-10 13:31:00"
+"current_moodid","116"
+"url","http://drums4me.livejournal.com/103995.html"
+"userid","4264"
+"itemid","405"
+"event","Dear Briscoe Resident,
+
+Hi. When I schedule a judicial meeting with you, around your schedule, during my Hell week and you don't show up, you don't have the right to complain about being checklisted and demand an immeidiate hearing. It doesn't work that way. 
+
+-Jon"
+"eventtime","2005-12-07 14:45:00"
+"current_moodid","3"
+"url","http://drums4me.livejournal.com/103742.html"
+"userid","4264"
+"itemid","404"
+"event","<table width=500 style='border:1px solid black; background-color:white; color:black;'><tr><td><img src='http://triggur.org/dearsanta/santa.gif'><font size=6>Dear Santa...</font><br><br><b>Dear Santa,</b><br><br>This year I've been busy!<br><br>Last month I broke <lj user=""abbydarling"">'s X-Box <font size=-3 color=gray>(-12 points)</font>.  Last Saturday I bought porn for <lj user=""Samami""> <font size=-3 color=gray>(10 points)</font>.  Last Sunday I made out in an elevator with <lj user=""ddawg311"">  <font size=-3 color=gray>(-6 points)</font>.  In October I pulled <lj user=""crumbledcookie9"">'s hair <font size=-3 color=gray>(-5 points)</font>.  In November I bought porn for <lj user=""laurbethm""> <font size=-3 color=gray>(-10 points)</font>.  <br><br>Overall, I've been <b>naughty</b> <font size=-3 color=gray>(-23 points)</font>.  For Christmas I deserve <b>a lump of coal</b>!<br><br><blockquote>Sincerely,<br>drums4me</blockquote></td></tr></table><br><form action='http://triggur.org/dearsanta/'>Write your letter to Santa!  Enter your LJ username:<input type=text name=uname size=20><input type=submit value='Write Santa!'></form>"
+"eventtime","2005-12-06 23:48:00"
+"current_moodid","15"
+"url","http://drums4me.livejournal.com/103478.html"
+"userid","4264"
+"itemid","403"
+"event","<P><U>Tonight<BR></U>PM meeting with Fiona<BR>Training meeting with Hallie<BR>Office Hours<BR>FAR Group meeting</P>
+<P><U>Tuesday<BR></U>FAR presentation - 45 minutes<BR>LT<BR>Dinner at Sandy's with Mins, B-bell and Shelley<BR><BR><U>Wednesday<BR></U>Duty<BR>Contract Meeting with Pam Freeman<BR>Office Hours<BR>U559 Project<BR>2 judicials<BR>PM meeting with Steve<BR>Large Staff<BR><BR><U>Thursday<BR></U>Duty<BR>Y520<BR>Y520 make up midterm (I didn't do bad at all, but he's giving us the chance to raise an entire letter grade if we show improvement)<BR>PM meeting with Sarah<BR>U559 presentation/paper due<BR><BR><U>Friday<BR></U>Duty<BR>HR inservice with LT<BR>PM Meeting with Danilo<BR>Judicial<BR>GS Inservice<BR>Party at Abby and Lindsay's<BR><BR><U>Saturday</U><BR>Duty<BR>Open desk at 10<BR>Study for Y520<BR>Theory final paper<BR>End of year staff party at caela's house<BR><BR><U>Sunday<BR></U>Duty<BR>Open desk at 10<BR>Study for Y520<BR>IUSPA Journal editors' meeting<BR>Theory paper<BR><BR><U>Monday</U><BR>Duty<BR>Theory Paper due<BR>1:1 with Sara<BR>Study for Y520<BR><BR><U>Tuesday</U><BR>Give pager/walkie to Ian<BR>Study for Y520<BR>Y520 Final - 7:15-9:15<BR>9:15-?? - OUT with the HESA kids. Taking the night off. Not sure where I'll&nbsp; land...<BR><BR>Then, I'm done!</P>"
+"eventtime","2005-12-05 17:47:00"
+"current_moodid","91"
+"url","http://drums4me.livejournal.com/103248.html"
+"userid","4264"
+"itemid","402"
+"event","For the first time this semster, I'm actually happy I'm taking Y520 right now. I'm working on the ""Create your own theory project"" for my Theory class and I actually have to design a research instrument and justify its use and go step by step, describing its design. So, because of what I've leraned in Y520, I know that a qualitative, transformitive survey is the best bet. And, to back it up, there's a whole 80 pages in my Y520 text book about how to create sound qualitative transformitive surveys! Granted, a third of my paper will be cited from Mertens, but I don't care. You can't argue with sound, documented research. Bam! ::slaps book on cover::"
+"eventtime","2005-12-03 16:08:00"
+"current_moodid","91"
+"url","http://drums4me.livejournal.com/103124.html"
+"userid","4264"
+"itemid","401"
+"event","The nice older lady who used to work at The Panda Palace (if you weren't in Bloomington four years ago, you will have no idea what I'm talking about...) now works at the Foster Food Court.
+
+I was there last night and thought she looked familiar and then I thanked her for swipping my card and she said, ""You're welcome"" just in the same tone that she always did when she'd wait on us at her restaurant. I didn't put it together until I had left the check-out line, but I wanted to ask what happened. That was a good place.
+
+Just thought those who know what I'm talking about would like to know. I was always afraid that the place went out of business because she had died or something."
+"eventtime","2005-11-30 15:21:00"
+"current_moodid","8"
+"url","http://drums4me.livejournal.com/102825.html"
+"userid","4264"
+"itemid","400"
+"event","Weird dreams last night centered around death. I've been told this means that there are changes going on in my life right now... which is very true... but still, I don't like sad dreams. Especially when I had the expectation of having a dream about a recent conversation."
+"eventtime","2005-11-28 13:59:00"
+"current_moodid","38"
+"url","http://drums4me.livejournal.com/102533.html"
+"userid","4264"
+"itemid","399"
+"event","Today has been a wonderful day full of sleeping in, Dad's breakfast (seriously, if you haven't tried this, you don't know what you're missing), lots and lots of football and movies, Performance Management Assessments (alright, not the highlight of the day, but at least I'm getting them done now), and bonding with the cat over lots of petting and hooking up the IV. I'll be heading back to B'town tomorrow to get a jump start on the tons of work that awaits me, but I'm not thinking about any of that tonight. The only thing I'm thinking of right now is how good the kitchen smells and how I can't wait to crash on the couch in a food coma. So, while I'm waiting for dinner...
+
+I'm thankful for...
+ - my family who has been so incredibly supportive of my career choice and just of me throughout my life.
+ - my friends who have been so great. I am truly blessed (or lucky, for those of you who aren't into 'blessings') that I have so many good friends. To the ones I haven't seen recently, we need to work on that. :-)
+ - my health. Yes, I've definitely had some strange illnesses over the past year, but all in all, it could have been so much worse.
+ - my job. I mean, yeah, sometimes it kind of sucks when the floor is loud or when I get woken up at 4am to go sit in the hall for two hours waiting with my RAs while IUPD gets a search warrant, but all in all, I'm going to graduate school for (almost) free. I get to live and eat for free and I've made some amazing friends this year and, just knowing that I can make an impact on my staff members by supporting them, listening to them cry and vent at 2am, sitting in the hallway with them at 4am, etc. makes it all worth while
+ - my co-workers at Briscoe. It amazes me how different we are and that we get along so well despite those differences. I think we all complement each other so well and I can only hope that the LT next year is this close.
+ - my former co-workers at McNutt. Especially the other members of the ""Fab 5."" We're about to lose another one to another city, but I have no doubt we'll stay in touch. Who would have thought that when we started RA class in March of 2002 that we'd be so close now. I love it.
+ - And there are so many other things I am thankful for this Thanksgiving. To those who know me best, I hope you know how important you all are to me.
+ 
+Happy Thanksgiving! It's off to the dinner table for me!"
+"eventtime","2005-11-24 19:59:00"
+"current_moodid","131"
+"url","http://drums4me.livejournal.com/102148.html"
+"userid","4264"
+"itemid","398"
+"event","I have so much to do that I really shouldn't be taking the time to write in this right now, but I'd go crazy if I didn't have some kind of a break. Here's a run down of what I have to do when I get back from break...
+
+U544 - FAR project - 45 minute presentation and 10-15 page paper on the Office of Student Ethics
+U548 - Create my own Theory Project - 10 minute presentation and 10 page paper
+U548 - My Personal Development - No Presentation (!), but a 15-20 page paper.
+Y520 - Research Project on Freshmen Roommate Surveys - 15-20 page paper and no presentation (!)
+U559 - 5-7 minute presentation and 3-5 page paper on PTO presence (live in) on other campuses compared to IU.
+
+So, overall... an hour's worth of presentations and up to 70 pages to write in two weeks. Nice.
+
+I really shouldn't even be going home because we only have dial-up there which means there's no way I can do any research. I'm contemplating trying to come back here on Friday afternoon so I can have all day Saturday and Sunday to do work in peace, but I feel that would cause considerable drama. My car is scheduled to be repaired on Friday and it'll take all day and my mom doesn't want me to bring either of their cars back here (swap until Christmas) because they've both been having issues but they refuse to get them checked out. So yeah, I have no idea what I'm going to do or how I'm going to get all of this stuff done in time."
+"eventtime","2005-11-21 19:04:00"
+"current_moodid","28"
+"url","http://drums4me.livejournal.com/101936.html"
+"userid","4264"
+"itemid","397"
+"event","So this song I'm listening to right now is one of the best covers I've ever heard. It's Ray J's cover of Clocks by Coldplay. First of all, that song is just awesome to begin with and the cover is amazing. I don't know if it's downloadable or not, but if not, if you go to <a href=""www.launch.com"">www.launch.com</a>, it's on the first page as one of the new music videos. There's just a whole lot at the end that describes my frame of mind right now. I think I'm just ready for the break.
+
+It's so different when you're a GS. Yes, I have the two nights off per month and three nights off once a semester, but I have a really hard time actually taking the time off. I know that Elyssa, Tasha and Ian are perfectly capable of taking care of the building, but there have been so many times when my RA staff has really needed me and wouldn't feel comfortable calling anyone else. Yes, I know I've kind of set myself up for them to depend on me and it's going to be somewhat of a shock next semester when I'm working so much at the Office of Student Ethics (by the way, I got my practicum there!) but I my #1 priority of being a GS is being there to support my RAs. That's why I hated the RC Model so much last year at McNutt. I actually talked about tonight with Shelley, Mins and Britt... the RCs did a good job of supervising, but were absolutely horrible at supporting. When it came to making sure B-boards were done, weeklys were turned in, programming forms were turned in, it was fine. But I wouldn't dare call at 2am, especially if my RC wasn't on duty because I'd be setting myself up to get yelled at for waking him up when he wasn't on call. And, yes, there have been times when I have become frustrated (mainly from lack of sleep) but when I'd stop and sit down for a minute and realize <i>why</i> I lost sleep, and how my RAs come to my room crying and usually leave laughing and smiling, it's totally worth it.
+
+Wow... I don't really know where all that came from. I guess I'm just really looking forward to being home and hopefully getting to hang out with friends from home. It's definitely a challenge to have so many different groups of friends who really don't have a whole lot in common with each other) and I'm looking forward to seeing the old familiar faces.
+
+<lj-cut text=""Picture from the IU/PurDON'T Game..."">
+
+IUSPA kids (plus Elyssa, our honorary member) at the Game.
+<img src=""http://portfolio.iu.edu/jriveire/football_game.JPG"">"
+"eventtime","2005-11-20 21:05:00"
+"current_moodid","92"
+"url","http://drums4me.livejournal.com/101798.html"
+"userid","4264"
+"itemid","396"
+"event","PGxqLWN1dCB0ZXh0PSJTdG9sZW4gZnJvbSBMRU0iPg0KDQoxMCBGaXJzdHMNCkZpcnN0IGJlc3QgZnJpZW5kOiBKYXNvbiBGdWVybWFubg0KRmlyc3Qgc2NyZWVuIG5hbWU6IE96YXJrOTYNCkZpcnN0IHJlYWwga2lzczogaHVtbS4uLiBDYXJvbGluZSwgSSBndWVzcy4gDQpGaXJzdCBwZXQ6IFRhbW15IHRoZSBwb29kbGUNCkZpcnN0IGNydXNoOiB1bS4uLiBjcmFwLi4uIHVtLi4uIE1lcmVkaXRoIHNvbWV0aGluZy4uLiBJIHRvdGFsbHkgZG9uJ3QgcmVtZW1iZXIgaGVyIGxhc3QgbmFtZS4NCkZpcnN0IG11c2ljIENEOiBoYWhhaGEuLi4gUmF5IFByaWNlIChmcm9tIG15IGRhZCkNCkZpcnN0IGNhcjogMTk5OCBKZWVwIENoZXJva2VlIFNwb3J0Lg0KRmlyc3QgUkVBTCBsb3ZlOiBnb2luZyBvdXQgb24gYSBsaW1iIGhlcmUuLi4gTWVsaXNzYS4gSSBkb24ndCB0aGluayBJIHdhcyByZWFsbHkgdGhhdCBtYXR1cmUgaW4gaGlnaCBzY2hvb2wgdG8gcmVhbGx5IGtub3cgbG92ZS4NCkZpcnN0IHBpZXJjaW5nOiBub25lDQoNCjkgTGFzdHMNCkxhc3QgY2lnYXJldHRlOiBuZXZhaC4NCkxhc3QgZm9vZCB5b3UgYXRlOiAiU291bCBGb29kIERpbm5lciIgYXQgRm9yZXN0DQpMYXN0IGNhciByaWRlOiBob21lIGZyb20gRm9yZXN0IHdpdGggQm9yc3oNCkxhc3QgbW92aWU6IEtpbGwgQmlsbCBWb2wuIDIgKERWRCkgYW5kIGhvbmVzdGx5LCBJIHRoaW5rIENyYXNoIGluIHRoZSBtb3ZpZSB0aGVhdGVyLg0KTGFzdCBwaG9uZSBjYWxsOiB0byBFbHlzc2EgdG8gc2VlIGlmIHNoZSB3YW50ZWQgdG8gZ28gdG8gdGhlIEhFU0Egc29jaWFsIG5pZ2h0Lg0KTGFzdCBDRCBQbGF5ZWQ6IGEgbWl4IGluIG15IGNhcg0KTGFzdCBidWJibGUgYmF0aDogQnJpc2NvZSBiYXRoIHR1YnMgYXJlIHNjYXJ5Lg0KTGFzdCB0aW1lIHlvdSBjcmllZDogaXQncyBiZWVuIGEgd2hpbGUuLi4gSSBndWVzcyBsYXN0IE9jdG9iZXI/DQpMYXN0IHRpbWUgeW91IGxhdWdoZWQ6IG15IDE6MSB3aXRoIGNhZWxhLg0KDQo4IEhhdmUgWW91IEV2ZXINCjEuIEhhdmUgeW91IGV2ZXIgZGF0ZWQgb25lIG9mIHlvdXIgYmVzdCBmcmllbmRzOiB5ZXMgDQoyLiBIYXZlIHlvdSBldmVyIGJlZW4gYXJyZXN0ZWQ6IG5vDQozLiBIYXZlIHlvdSBldmVyIHNraW5ueSBkaXBwZWQ6IHllcw0KNC4gSGF2ZSB5b3UgZXZlciBiZWVuIG9uIFRWOiBZZWFoISBJIHdhcyBvbiBFU1BOIHdoZW4gb3VyIGhpZ2ggc2Nob29sIGJhbmQgcGVyZm9ybWVkIGF0IHRoZSBMaWJlcnR5IEJvd2wgaW4gTWVtcGhpcy4NCjYuIEhhdmUgeW91IGV2ZXIgYmVlbiBjaGVhdGVkIG9uOiBJIGJlbGlldmUgc28sIG5vdCBjZXJ0YWluLg0KNy4gSGF2ZSB5b3UgZXZlciBjaGVhdGVkIG9uIHNvbWVvbmU6IE5vLg0KOC4gSGF2ZSB5b3UgZXZlciBiZWVuIG91dCBvZiB0aGUgY291bnRyeTogWXVwLi4uIFZpdmEgQ29zdGEgUmljYSENCg0KNyBUaGluZ3MgWW91J3JlIFdlYXJpbmcNCjEuIGhvb2RlZCBzd2VhdHNoaXJ0DQoyLiBibHVlIGplYW5zDQozLiBncmF5IHNvY2tzDQo0LiBteSBEaXNjbyBCcmlzY29lIHNoaXJ0IHVuZGVyIHRoZSBzd2VhdHNoaXJ0DQo1LiB0ZW5uaXMgc2hvZXMNCjYuIHNub3dmbGFrZSBib3hlcnMgKHNlZW1lZCBhcHByb3ByaWF0ZSkNCjcuIA0KDQo2IFRoaW5ncyB5b3XigJl2ZSBkb25lIFRvZGF5DQoxLiB3ZW50IHRvIGNsYXNzLCB0d2ljZS4NCjIuIDE6MSB3aXRoIGNhZWxhDQozLiBGQVIgZ3JvdXAgbWVldGluZw0KNC4gZGlubmVyIGF0IEZvcmVzdCB3aXRoIEJvcnN6IGFuZCBSeWFuDQo1LiBsZWZ0IGEgbm90ZSBvbiBteSBSQSdzIGRvb3IgKHRoZSBvbmUgdGhhdCBpcyBvbiBteSBmbG9vcikgdG8gY29tZSB0YWxrIHRvIG1lIHNvIEkgY291bGQgY2hlZXIgaGVyIHVwIGEgYml0Lg0KNi4gYmVlbiBzdG9vZCB1cCBieSB0aGUgVG9ybmFkbyBHaXJscyBvZiBBNi4gSGkgSi1ib2FyZCENCg0KNSBGYXZvcml0ZSBUaGluZ3MgSW4gTm8gUGFydGljdWxhciBPcmRlcg0KMS4gc3Bvb25pbmcNCjIuIGNocmlzdG1hcyBtdXNpYw0KMy4gaGFuZ2luZyBvdXQgYW5kIGxhdWdoaW5nIHdpdGggZnJpZW5kcw0KNC4gZ29vZCBzbWVsbHMNCjUuIHRoZSBmZWVsaW5nIG9mIGdldHRpbmcgaW50byBiZWQgd2hlbiB5b3UncmUgYnV6emluZw0KDQoNCjQgUGVvcGxlIFlvdSBDYW4gVGVsbCBBbnl0aGluZyBUbw0KMS4gV2llc2UNCjIuIA0KMy4gDQo0LiANCg0KMyBDaG9pY2VzDQoxLiBCbGFjayBvciBXaGl0ZTogSSdtIGdvaW5nIHRvIGdvIHdpdGggYmxhY2sgb24gdGhpcyBvbmUuDQoyLiBIb3Qgb3IgQ29sZDogY29sZC4uLi4geW91IGNhbiBhbHdheXMgcHV0IG9uIG1vcmUgY2xvdGhlcywgYnV0IHRoZXJlJ3Mgb25seSBzbyBtdWNoIHlvdSBjYW4gdGFrZSBvZmYgPC0tIHdlbGwgc2FpZCwgTEVNLiBNeSB0aG91Z2h0cyBleGFjdGx5Lg0KMy4gQ2hvY29sYXRlIG9yIFZhbmlsbGE6IENob2NvbGF0ZQ0KDQoyIFRoaW5ncyBZb3UgV2FudCBUbyBEbyBCZWZvcmUgWW91IERpZQ0KMS4gc3RhcnQgbXkgb3duIGZhbWlseQ0KMi4gc2t5ZGl2ZS4gUmFuZG9tLCB5ZXMuLiBhbmQgeW91J2QgcHJvYmFibHkgaGF2ZSB0byBwcnkgbXkgaGFuZHMgb2ZmIG9mIHRoZSBwbGFuZSwgYnV0IGl0J3MgZ290dGEgYmUgc3VjaCBhIGh1Z2UgcnVzaA0KDQoxIFRoaW5nIFlvdSBSZWdyZXQNCjEuIEEgZmV3IGRpZmZlcmVudCB0aGluZ3MsIGJ1dCB0aGVyZSdzIG5vIHVzZSBpbiBkd2VsbGluZyBiYWNrIGludG8gdGhvc2UuDQo8L2xqLWN1dD4="
+"eventtime","2005-11-17 20:22:00"
+"current_moodid","23"
+"url","http://drums4me.livejournal.com/101378.html"
+"userid","4264"
+"itemid","395"
+"event","Lots of things annoyed me severely today... and to top it all off, I didn't end up getting the Orientation practicum. I knew as soon as I saw the e-mail that had a subject line of ""Thank you for your interest."" Seriously people... way to be obvious. And there was the offer to ""help out now and then"" and I know I should be mature about this and take whatever I could get, but really, I'm going to be just fine in either Admissions or Student Ethics where I do 10 hours a week and not be insanely busy over next semester and the summer. I do feel like e-mailing back though and saying they can't use my idea for training that I gave them (that they both gasped and got really excited about and wrote down). But, that'd be immature. Humm...
+
+After this little ""educational chat"" with the Tornado Girls from A6, it's out to the Alley Bar for me."
+"eventtime","2005-11-17 19:54:00"
+"current_moodid","28"
+"url","http://drums4me.livejournal.com/101203.html"
+"userid","4264"
+"itemid","394"
+"event","<marquee><font size=""5""><b>IT'S SNOWING!! ::slams a door::</b></font></marquee>"
+"eventtime","2005-11-16 14:34:00"
+"url","http://drums4me.livejournal.com/100991.html"
+"userid","4264"
+"itemid","393"
+"event","Starting off a few weeks ago, we have the <lj-cut text=""Kings Island Trip"">
+
+Just before the bus broke down on I-74. They all blamed me and the flash for causing the bus to freak out...
+<img src=""http://portfolio.iu.edu/jriveire/Kingsisland1.jpg"">
+
+Um... I'm going to need you to move 30 feet away from the bus door if you're going to smoke...
+<img src=""http://portfolio.iu.edu/jriveire/Kingsisland2.jpg"">
+
+Once we got on the new bus, the reintroduction to heat made several people, including Sarah, one of my RAs very tired.
+<img src=""http://portfolio.iu.edu/jriveire/Kingsisland3.jpg"">
+
+But, once we got there and I worked my magic compromise, everyone was up and ready to go!
+<img src=""http://portfolio.iu.edu/jriveire/Kingsisland4.jpg"">
+
+""Hell No."" That was my response when they wanted me to go on this ride with them.
+<img src=""http://portfolio.iu.edu/jriveire/Kingsisland5.jpg"">
+
+And finally... Gucker Low Love.
+<img src=""http://portfolio.iu.edu/jriveire/Kingsisland6.jpg"">
+
+</lj-cut>
+And next, we have the <lj-cut text=""HESA trip to Indy on Friday night"">
+
+Starting off the night, we have Allie and Debbie giving a short preview of what was to come...
+<img src=""http://portfolio.iu.edu/jriveire/indy1.jpg"">
+
+Reinforcing gender stereotypes... the women in the kitchen preparing breakfast for the next day.
+<img src=""http://portfolio.iu.edu/jriveire/indy2.jpg"">
+
+Sex on the Beach bucket #1 with Melissa, Debbie and Allie
+<img src=""http://portfolio.iu.edu/jriveire/indy3.jpg"">
+
+Bucket #1 is done. A quick pause to pose before going back to dancing. Debbie, Allie, Tim, Lilly and Carolynn.
+<img src=""http://portfolio.iu.edu/jriveire/indy4.jpg"">
+
+""All you fine ladies get yourselves up here right now!"" A direct quote from the piano player and Debbie, Melissa and Lilly just had to head on up.
+<img src=""http://portfolio.iu.edu/jriveire/indy5.jpg"">
+
+""Anyone who has just celebrated or is celebrating a birthday, get up here now!"" Another direct quote from the piano player. We had to push Carolynn up there, but once she got up there, it was just like the table all over again!
+<img src=""http://portfolio.iu.edu/jriveire/indy6.jpg"">
+
+Sex on the Beach Bucket #2 with Allie, Debbie and Tim
+<img src=""http://portfolio.iu.edu/jriveire/indy7.jpg"">
+
+The last dance of the night! Allie, Debbie and Carolynn
+<img src=""http://portfolio.iu.edu/jriveire/indy8.jpg"">
+</lj-cut>
+
+And finally, <lj-cut text=""The damage done by some jackass"">
+Check out that cracked tail light and the nice little dent around the corner...
+<img src=""http://portfolio.iu.edu/jriveire/car.jpg"">"
+"eventtime","2005-11-13 19:10:00"
+"current_moodid","82"
+"url","http://drums4me.livejournal.com/100811.html"
+"userid","4264"
+"itemid","392"
+"event","Dear Briscoe Residents,
+  Thank you for keeping me on my toes this year and not letting me get bored with the same incidents over and over. I mean, I've never had the opportunity to explain why it's not a good idea to send smoke signals from the breezeway and how terrifying it was for me to look down and see smoke and flames coming out from the roof. 
+Love,
+ Jon"
+"eventtime","2005-11-13 02:09:00"
+"current_moodid","44"
+"url","http://drums4me.livejournal.com/100540.html"
+"userid","4264"
+"itemid","391"
+"event","Just one of each...
+
++ I got an interview with the Office of Orientation for the summer!!! This doesn't mean I have the practicum, but it's the first step and interviews weren't granted to everyone, so I still see it as an accomplishment.
+
+- My car got hit today. While I was in 801 (which is also the police station... how ironic...) and whoever did it took off. I've filed a police report and the insurance lady is coming out tomorrow to look at it. There's not too much damage... the passenger side light is cracked and won't work anymore and there's a decent scratch both on the rear bumper under the tail-light and the left pannel just around the side from the tail light."
+"eventtime","2005-11-09 18:18:00"
+"current_moodid","113"
+"url","http://drums4me.livejournal.com/100117.html"
+"userid","4264"
+"itemid","390"
+"event","Haha, I just tried to open ""My Scrapbook"" just to see what it was all about and the entire computer screen turned red and said that I didn't have access to that part because of my account status. I just thought it was funny.
+
+Anyways, an update about the rest of the GLACUHO fun...
+
+Like I said in the last entry about GLACUHO, I got in bed around 10:45 and fell right asleep. And then, of course... 2am fire alarm. So, Monday morning rolls around and I go to class like the good grad. student that I am, come back to Briscoe, keep working on my midterm, have a 1:1 with Laura and, since it was her last one, I told her we could do whatever she wanted so we walked around outside for a while and found a park kind of behind the Alumni center that neither of us had been to, so we went there.
+
+Then it was back for dinner at Briscoe and office hours. I was determined to finish my midterm in office hours, but that didn't happen between a meeting with two residents who are fighting with each other about quiet hours and some hard-core roommate conflicts on Fiona's floor. I ended up staying in the office until around 12:15, but I got it done. :-)
+
+The next morning, Elyssa and I went to pick up the Suburban at 801, then it was back to pick up Carolynn and Tasha and we were off to Indy (via Starbucks in Martinsville). We got there and I went to the first session which was about maintaining balance during grad school and I found all kinds of cool resources, including the Mission Statement thing that I talked about last night. After that first session, the four of us went to lunch at a restaurant in downtown Indy and then it was back for three more sessions. The first two weren't all that interesting, but the last one was all about being inclusive of transgendered students in the residence halls and how so many people just don't think about it.
+
+For example, for those of you who work in any kind of customer service position... when someone comes up to you and asks, ""Where is the bathroom?"" do you point them in the general direction of the bathroom<b>s</b> or do you point them in the direction of the bathroom of the gender that you believe, based on their apperance that they identify as?
+
+So yeah, that was a really enlightening session. Especially with Briscoe going through renovation soon and the fact that the GSs this year basically get to have the say in what we want Briscoe to look like. 
+
+After that session was dinner (Steak and mashed potatos...mmm...) which was wonderful. During her speech, Sara even gave a shout-out to Briscoe, at which, of course Elyssa and I had to yell ""DISCO BRISCOE!!"" and clap. 
+
+Then it was back to Bloomington with Elyssa and Carolynn where we all got a chance to bond over different issues in our centers and other issues.
+
+Now, office hours are almost done, then it's over to 801 to pick up the projector for the presentation tonight during large staff, then to the bank to cash a few checks and then back here to clean my room for the ""Wacky Staff"" meeting after large staff. Tomorrow and Friday are days full of meetings and then it's up to Indy for the night with the HESA crew!! :-)"
+"eventtime","2005-11-09 14:28:00"
+"current_moodid","11"
+"url","http://drums4me.livejournal.com/100061.html"
+"userid","4264"
+"itemid","389"
+"event","Update on GLACUHO coming tomorrow, but for now I just wanted to show off something I learned today at the conference. It's a website that asks you questions and then helps you create your very own Mission Statement for yourself. It's really cool. <a href=""http://www.franklincovey.com/missionbuilder"">Check it out.</a>
+
+And... if you're interested, <lj-cut text=""Here's my personal mission statement."">
+
+I will - apreciate the diversity that is all around me and take every opportunity to be accepting of others
+I will - honor the values my mother has instilled in me.
+I will - be as patient as my father
+I will - represent my family proudly
+I will - be true to my life goals, no matter how hard they may be to achieve.
+I will - honor friendships and realize that friendship can be one of the most power feelings in the world.
+I will - love unconditionally
+I will - strive to do something at least once a day that makes me happy.
+I will - encourage others to look past outer apperance to see the beauty that lies within.
+I will - stay committed to myself and my values.
+I will - take time to enjoy the good things in life, the things that make me happy.
+I will - not let the prejudices of the world corrode my opinions of others.
+I will - appreciate the uniquenesses that make me different from anyone else.
+I will - perservere until the task has been completed. I will not throw in the towel.
+
+</lj-cut>
+
+I think I'm going to have my small staff do this together during Winter Training... there's an option for a ""professional"" statement that I'm going to have them do for the goals and values that our small staff will have. They will have to work on this together to come up with these answers. I'm already really excited about winter training. How sad is that?
+
+K, now it's time for bed. Good night."
+"eventtime","2005-11-08 23:49:00"
+"current_moodid","14"
+"url","http://drums4me.livejournal.com/99774.html"
+"userid","4264"

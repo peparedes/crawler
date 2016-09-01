@@ -1,0 +1,656 @@
+"names","values"
+"itemid","767"
+"event","PHA+VGhpcyBpcyB0aGUgTmV3IFRvLURvIExpc3QuIEknbSBnb2luZyB0byB0cnkgYW5kIGFjdGl2ZWx5IHdvcmsgb24gYWNjb21wbGlzaGluZyB0aGUgdGhpbmdzIEkgY2FuIG9uIHRoaXMgbGlzdCwgYW5kIHRoZW4gYWRkIHRoZW0gdG8gdGhlIGxpc3Qgb2YgdGhpbmdzIEkgaGF2ZSBkb25lLiBJIHRoaW5rIEkndmUgbWFuYWdlZCB0byBkbyBhIGxvdCBpbiBjb2xsZWdlLiBJIGhhdmUgYSBsb25nIHdheSB0byBnbyB0aG91Z2gsIGluIHNvIG1hbnkgd2F5cy4gVG9tb3Jyb3cgSSdtIGdvaW5nIHRvIHRyeSBhbmQgcHV0IHRoZSByZXN0IGluIG9yZGVyLiZuYnNwO1N1YmplY3QgdG8gQ2hhbmdlLi4uPGJyIC8+PGJyIC8+Jm5ic3A7PC9wPjx1bCBzdHlsZT0iTUFSR0lOLVRPUDogMGluOyBNQVJHSU4tQk9UVE9NOiAwaW47IE1BUkdJTi1MRUZUOiAwLjAyOWluOyBESVJFQ1RJT046IGx0cjsgdW5pY29kZS1iaWRpOiBlbWJlZCI+PHAgc3R5bGU9IkZPTlQtV0VJR0hUOiBib2xkOyBGT05ULVNJWkU6IDEycHQ7IE1BUkdJTjogMGluOyBGT05ULUZBTUlMWTogVmVyZGFuYTsgVEVYVC1ERUNPUkFUSU9OOiB1bmRlcmxpbmUiPlRoaW5ncyB0byBkbyBiZWZvcmUgSSBkaWU8L3A+PHAgc3R5bGU9IkZPTlQtU0laRTogOXB0OyBNQVJHSU46IDBpbjsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPiZuYnNwOzwvcD48b2wgc3R5bGU9Ik1BUkdJTi1UT1A6IDBpbjsgRk9OVC1TSVpFOiAxMnB0OyBNQVJHSU4tQk9UVE9NOiAwaW47IE1BUkdJTi1MRUZUOiAwLjM3NWluOyBESVJFQ1RJT046IGx0cjsgRk9OVC1GQU1JTFk6ICZxdW90O1RpbWVzIE5ldyBSb21hbiZxdW90OzsgdW5pY29kZS1iaWRpOiBlbWJlZCIgdHlwZT0iMSI+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjEiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkNsaW1iIGEgTW91bnRhaW48L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMiI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+R28gU2t5LURpdmluZzwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSIzIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5HbyBTY3ViYSBEaXZpbmc8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNCI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+QmVjb21lIGEgUmVnaXN0ZXJlZCBQc3ljaG9sb2dpc3Q8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNSI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+R2V0IG15IE1hc3RlcnM8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNiI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+TGVhcm4gaG93IHRvIHBsYXkgYW4gaW5zdHJ1bWVudDwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSI3Ij48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5IYW5nIGdsaWRlPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjgiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkdvIERpdmluZyBUaHJvdWdoIGEgQ29yYWwgUmVlZiAoMTAtMTUgWWVhcnMgUmVtYWluaW5nKTwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSI5Ij48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5HbyBEaXZpbmcgdGhyb3VnaCBhIFNoaXAgV3JlY2s8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMTAiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkZqb3JkcyBpbiBOb3J3YXk8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMTEiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlJpZGUgYSBNb3RvcmN5Y2xlPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjEyIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj4mbmJzcDtMZWFybiBvbmUgRGFuY2UgU3R5bGU8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMTMiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkxlYXJuIHRvIEZlbmNlPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjE0Ij48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj4mbmJzcDtIb2xkIEJyZWF0aGUgZm9yIFRocmVlIG1pbnV0ZXM8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMTUiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkZseSBhIHBsYW5lIG9yIGhlbGljb3B0ZXIuPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjE2Ij48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj4mbmJzcDtMZWFybiBhIGZvcmVpZ24gbGFuZ3VhZ2U8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMTciPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlN3aW0gd2l0aCBhIGRvbHBoaW48L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMTgiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkdvIG9uIGFuIGFsbCBvdXQgcm9hZCBUcmlwPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjE5Ij48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5SdW4gd2l0aCB0aGUgQnVsbHM8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMjAiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkdhbWJsZSBpbiBWZWdhczwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSIyMSI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+VGhyZWUgV29yZHM7IE1pbGUgSGlnaCBDbHViPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjIyIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5EcmluayBhbiBlbnRpcmUga2VnIGJ5IG15c2VsZiAobm8gdGltZSBsaW1pdCk8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMjMiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkhpa2UgdGhyb3VnaCBhIGp1bmdsZSAoQW1hem9uKTwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSIyNCI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+TGVhcm4gdG8gZHJpdmUgYSBzdGljazwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSIyNSI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+Jm5ic3A7U2VlIHJlbnQgb24gQnJvYWR3YXk8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMjYiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlNlZSB0aGUgU2V2ZW4gV29uZGVycywgYW55IG9mIHRoZSBzZXRzPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjI3Ij48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5QZXQgYSBQb2xhciBCZWFyPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjI4Ij48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5CZSBhYmxlIHRvIHRocm93IGNhcmRzIHRocm91Z2ggZnJ1aXQmbmJzcDs8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMjkiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkdvIGhvcnNlIGJhY2sgcmlkaW5nPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjMwIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5MZWFybiBhIG1hcnRpYWwgYXJ0cyBzdHlsZTwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSIzMSI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+Q2xpbWIgYSBSZWR3b29kPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjMyIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5DdXQgZG93biBhIHRyeSBieSBteXNlbGYsIHRoZW4gdXNlIGFsbCBvZiBpdCBmb3IgZmlyZXdvb2QgPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjMzIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5Xcml0ZSBUaGUgU3Rvcnk8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iMzQiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkNvbXBsZXRlJm5ic3A7QmFtYmkgV2Fsazwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSIzNSI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+VGFrZSBwYXJ0IGluIGEgcGFpbnRiYWxsIGdhbWUgd2l0aCBvdmVyIDEwMDAgcGVvcGxlIGluIGl0PC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjM2Ij48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5EZXNpZ24gYSBwZXJzb25hbCBjcmVzdDwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSIzNyI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+R29uZG9sYSB0aGUgd2F0ZXJ3YXlzIG9mIFZlbmljZTwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSIzOCI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+U3RlYWwgdGhlIEdvdGhlbmJ1cmcgRmxhZzwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSIzOSI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+TmlhZ3JhIEZhbGxzPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjQwIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5UYWogTWFoYWwgPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjQxIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5IYWdpYSBTb3BoaWEgPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjQyIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5FeHBsb3JlIExvbmRvbjwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSI0MyI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+UGljayB1cCBhbmQgZ28gYWJyb2FkIGZvciBTZXJ2aWNlIGZvciBBIHllYXIgKzwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSI0NCI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+RXhwbG9yZSBTcGFpbiwgQmFyY2Vsb25hLCBNYWRyaWQsIFNlZ292aWE8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNDUiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkdvIHRvIEF1c3RyYWxpYSwgc2VlIGEga2FuZ2Fyb28gaW4gdGhlIHdpbGQ8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNDYiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkFtc3RlcmRhbeKApmFuZCBsZWF2ZSB0aGUgcmVzdCB1cCB0byBjaGFuY2U8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNDciPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlN0YXkgYSBOaWdodCBvbiBhIEdyZWVrIElzbGFuZDwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSI0OCI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+VGhlcm1vcHlsYWUsIHdoZXJlIHRoZSAzMDAgc3Rvb2Q8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNDkiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlRoZSBSdWlucyBvZiBBdGhlbnM8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNTAiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlRyYXZlbCBpbiBzb21lIGluY29udmVuaWVudCB3YXkgdG8gc2VlIHRoZSBweXJhbWlkcyA8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNTEiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkxlYXJuIGhvdyB0byB0aHJvdyBrbml2ZXM8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNTIiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkRpdmUgZm9yIFBlYXJscyA8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNTMiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPk1hcmF0aG9uIGluIHVuZGVyIDQ6MzAuMDA8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNTQiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkxpdmVycG9vbCBIb21lIEdhbWUgYXQgQW5maWVsZCA8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNTUiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkJhcmNlbG9uYSBIb21lIEdhbWU8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNTYiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlRyYXZlbCB0byBXb3JsZCBDdXAsIHdhdGNoIHNldmVyYWwgZ2FtZXM8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNTciPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPkJpa2UgYWxvbmcgdGhlIEdyZWF0IFdhbGw8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNTgiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlN1cnZpdmUgdG8gc2VlIHRoZSBlbmQgb2YgTG9zdDwvc3Bhbj48L2xpPjxsaSBzdHlsZT0iTUFSR0lOLVRPUDogMHB4OyBNQVJHSU4tQk9UVE9NOiAwcHg7IFZFUlRJQ0FMLUFMSUdOOiBtaWRkbGUiIHZhbHVlPSI1OSI+PHNwYW4gc3R5bGU9IkZPTlQtU0laRTogOXB0OyBGT05ULUZBTUlMWTogVmVyZGFuYSI+QmVjb21lIGEgZ2VuZXJhbCBpbiBIYWxvIDM8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNjAiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlBlcmZlY3Rpb24sIFJ1bm5pbmcgUmlvdCwgUmFtcGFnZSwgWm9tYmllIE1lZGFscy48L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNjEiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlJvbWU8L3NwYW4+PC9saT48bGkgc3R5bGU9Ik1BUkdJTi1UT1A6IDBweDsgTUFSR0lOLUJPVFRPTTogMHB4OyBWRVJUSUNBTC1BTElHTjogbWlkZGxlIiB2YWx1ZT0iNjIiPjxzcGFuIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPlBhcmlzPC9zcGFuPjwvbGk+PGxpIHN0eWxlPSJNQVJHSU4tVE9QOiAwcHg7IE1BUkdJTi1CT1RUT006IDBweDsgVkVSVElDQUwtQUxJR046IG1pZGRsZSIgdmFsdWU9IjYzIj48c3BhbiBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj5TZWUgdGhlIFdvcmxkIGZyb20gdGhlIHRvcCBvZiB0aGUgRWlmZmVsIFRvd2VyPC9zcGFuPjwvbGk+PC9vbD48cCBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IE1BUkdJTjogMGluIDBpbiAwaW4gMC4zNzVpbjsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPiZuYnNwOzwvcD48cCBzdHlsZT0iRk9OVC1TSVpFOiAxMXB0OyBNQVJHSU46IDBpbiAwaW4gMGluIDAuMzc1aW47IEZPTlQtRkFNSUxZOiBDYWxpYnJpIj4mbmJzcDs8L3A+PHAgc3R5bGU9IkZPTlQtU0laRTogOXB0OyBNQVJHSU46IDBpbiAwaW4gMGluIDAuMzc1aW47IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj48Zm9udCBzaXplPSI0Ij5VbHRpbWF0ZSBMaXN0PC9mb250PjwvcD48cCBzdHlsZT0iRk9OVC1TSVpFOiA5cHQ7IE1BUkdJTjogMGluIDBpbiAwaW4gMC4zNzVpbjsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPjxmb250IHNpemU9IjMiPjEuKSBJcm9ubWFuICgyIE1pbGUgU3dpbSwgMTAwIHNvbWV0aGluZyBiaWtlLCBtYXJhdGhvbik8L2ZvbnQ+PC9wPjxwIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgTUFSR0lOOiAwaW4gMGluIDBpbiAwLjM3NWluOyBGT05ULUZBTUlMWTogVmVyZGFuYSI+PGZvbnQgc2l6ZT0iMyI+Mi4pIEJlY29tZSBhIFNvY2NlciBIb29saWdhbjwvZm9udD48L3A+PHAgc3R5bGU9IkZPTlQtU0laRTogOXB0OyBNQVJHSU46IDBpbiAwaW4gMGluIDAuMzc1aW47IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj48Zm9udCBzaXplPSIzIj4zLikgRXZlcmVzdDwvZm9udD48L3A+PHAgc3R5bGU9IkZPTlQtU0laRTogOXB0OyBNQVJHSU46IDBpbiAwaW4gMGluIDAuMzc1aW47IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj48Zm9udCBzaXplPSIzIj40LikgTGl2ZSB0byBzZWUgdGhlIGVuZCBvZiBMb3N0LCBoYWhhLjwvZm9udD48L3A+PHAgc3R5bGU9IkZPTlQtU0laRTogOXB0OyBNQVJHSU46IDBpbiAwaW4gMGluIDAuMzc1aW47IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj48Zm9udCBzaXplPSIzIj41LikgUHVibGlzaCB0aGUgU3RvcnksJm5ic3A7YWxsIG9mIGl0LiAmbmJzcDs8L2ZvbnQ+Jm5ic3A7PC9wPjxwIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgTUFSR0lOOiAwaW4gMGluIDBpbiAwLjM3NWluOyBGT05ULUZBTUlMWTogVmVyZGFuYSI+Jm5ic3A7PC9wPjxwIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgTUFSR0lOOiAwaW4gMGluIDBpbiAwLjM3NWluOyBGT05ULUZBTUlMWTogVmVyZGFuYSI+Jm5ic3A7PC9wPjxwIHN0eWxlPSJGT05ULVNJWkU6IDlwdDsgTUFSR0lOOiAwaW47IEZPTlQtRkFNSUxZOiBWZXJkYW5hIj4mbmJzcDs8L3A+PHAgc3R5bGU9IkZPTlQtU0laRTogOXB0OyBNQVJHSU46IDBpbjsgRk9OVC1GQU1JTFk6IFZlcmRhbmEiPiZuYnNwOzwvcD48L3VsPjxwPjxiciAvPjxiciAvPjwvcD4="
+"eventtime","2008-05-06 03:00:00"
+"current_moodid","113"
+"url","http://captainmorgan77.livejournal.com/196477.html"
+"userid","2510"
+"itemid","766"
+"event","<p>So after sort of finishing the physics I needed to get done for tuesday (with stellar answers like ""hot as balls"" in response to being asked to describe in a meaningful manner how hot the sun is) and finishing my Celtic reflection paper (with stories of an irish dancing sister, two brawls with IRA members in Ireland, and plans for a tatoo I never intend on getting) I feel a little better.&nbsp;<br /><br />But there still lies two major (10 page) research papers. Two Finals and a report for my internship. Considering how hard I""ve been working to get things done, this just looks exhausting. I don't know if it's just the graduating thing, or the stress of 50% of my grades depending on how I do over the course of two weeks while still trying to be a decent boyfriend, friend, son, and sane. I've done ok, but I know thats not really close to good, or where I should be right now. I am really really afraid of this mentality coming back. The last thing in the world that I want right now is being back on medicine.&nbsp;<br /><br />I did finally get my acceptance letter from UofL now. Not that I needed to be concerned, it is UofL. But that is set now, so I can do whatever I need to do for that. I got invited to the awards ceremony for school, for what I don't know.&nbsp;Besides running, working and class (if I go), those are the only obligations I have this week. Hopefully that means I'll have enough time for the projects and a date or two.&nbsp;<br /><br />Next wednesday, 9 people will be coming to crash my house in celebration for Derby. I have a final the day after, lol! It should be a lot of fun, and I'm really looking forward to seeing them for the first time in a year. That, I think more than anything is what is carrying me through these last two papers and finals.&nbsp;<br /><br />I always feel like there is something else I meant to write about. But now I can't remember what it was supposed to be. I don't have any deep insights. I just want to get lots of sleep, curled under my blankets, and not to have a headache for a bit. That would be fantastic. :-)<br /><br />5.5 days until the marathon, and 10 until people come. I'm so glad that I'm getting to graduate!<br /><br /></p>"
+"eventtime","2008-04-20 19:47:00"
+"current_moodid","14"
+"url","http://captainmorgan77.livejournal.com/196196.html"
+"userid","2510"
+"itemid","765"
+"event","1.) I have the cutest little sister ever 
+
+2.) I absolutely HATE these papers 
+
+3.) I might have just written the worst one all semester, worth 20% of my grade.&nbsp; 
+
+4.) I downloaded pacman for my ipod, very exciting! 
+
+sister is distracting me, I'm not doing any more work on papers today.
+
+PS. 5.) Oh and I guess I splet through an earthquake today, haha. One more for the to-do list complete."
+"eventtime","2008-04-18 13:28:00"
+"url","http://captainmorgan77.livejournal.com/195947.html"
+"userid","2510"
+"itemid","764"
+"event","<p>Once again the Captains Crew stormed forward with another Most Spirited Award at Bellarmine's Relay for Life, making it three consecutive wins. There is already talk about creating a Crew Clan of sorts. Vi ska se....<br /><br />anyhow, so now that Guatemala is done (minus awesome meetings on wednesday night)&nbsp;with and Relay is finished and I have a final list o school assignments, I can almost give a sign of relief that I'm about done. It's so close I can feel it dancing just outside of my fingertips. To graduate and be done with this silliness. My decisions of what to do change weekly, but regardless, I should have a nice summer of making money and enjoying myself. Much looking forward to it!!<br /><br />Nothing else new in my book. About to start way early on homework to make the rest of this month easy (and because there is no longer a 360 here)<br /><br />Hooray Spring might actually be here!!!</p>"
+"eventtime","2008-04-06 13:03:00"
+"current_moodid","21"
+"url","http://captainmorgan77.livejournal.com/195597.html"
+"userid","2510"
+"itemid","763"
+"event","PHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAxMHB0Ij48Zm9udCBmYWNlPSJDYWxpYnJpIiBzaXplPSIzIj5PcGVuaW5nIHRoZSBOb3RlYm9vay4gPGJyIC8+PC9mb250Pjxmb250IGZhY2U9IkNhbGlicmkiPjxmb250IHNpemU9IjMiPjxiciAvPi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tPC9mb250PjwvZm9udD48L3A+PHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAxMHB0Ij48Zm9udCBzaXplPSIzIj4iSSdtIG5vdCBzdXBwb3NlZCB0byBiZSBoZXJlLiI8YnIgLz48YnIgLz7igJxPZiBjb3Vyc2UgeW91IGFyZSwgeW91IGFyZSBoZXJlLCBhbmQgdGhlcmVmb3JlIHlvdSBhcmUgc3VwcG9zZWQgdG8gYmUgaGVyZS7igJ08L2ZvbnQ+PC9wPjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMTBwdCI+PGZvbnQgc2l6ZT0iMyI+R3lkYXIgc3RyYWluZWQgaGlzIGV5ZXMgaW4gY29uY2VudHJhdGlvbi4gSGUgY291bGRu4oCZdCByZW1lbWJlciB3aHkgaGUgd2FzbuKAmXQgc3VwcG9zZWQgdG8gYmUgaGVyZSwgb3Igd2hhdCB3YXMgd3JvbmcsIGJ1dCBzb21ldGhpbmcgY2VydGFpbmx5IHdhc27igJl0IHJpZ2h0LiBIZSBnYXZlIG91dCBhIHNpZ24sIHN0aWxsIHRyeWluZyB0byByZW1lbWJlciB3aGF0IHdhcyBtaXNzaW5nIGZyb20gaGlzIGhlYWQuPGJyIC8+PC9mb250Pjxmb250IHNpemU9IjMiPjxiciAvPuKAnFlvdSBhcmUgaGVyZTsgdGhlcmVmb3JlIHlvdSBhcmUgc3VwcG9zZWQgdG8gYmUgaGVyZS7igJ08L2ZvbnQ+PC9wPjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMTBwdCI+PGZvbnQgZmFjZT0iQ2FsaWJyaSIgc2l6ZT0iMyI+R3lkYXIgZ2F2ZSB1cCB0cnlpbmcgdG8gdGhpbmsgb2Ygd2h5IGhlIGRpZG7igJl0IGJlbG9uZyBpbiB0aGlzIHN0cmFuZ2UgcGxhY2UsIGJ1dCB0aGUgZmVlbGluZyByZW1haW5lZC4gPC9mb250PjwvcD48cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDEwcHQiPjxmb250IGZhY2U9IkNhbGlicmkiIHNpemU9IjMiPuKAnFRoZSBmaXJzdCB0aGluZyB5b3UgbmVlZCB0byBsZWFybiBoZXJlIGlzIHRoYXQgd2hlcmV2ZXIgeW91IGFyZSwgdGhhdOKAmXMgd2hlcmUgeW91IG5lZWQgdG8gYmUu4oCdPC9mb250PjwvcD48cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDEwcHQiPjxmb250IGZhY2U9IkNhbGlicmkiIHNpemU9IjMiPuKAnE9r4oCm4oCdR3lkYXIgc3RpbGwgd2FzbuKAmXQgc3VyZSB3aHkgaGUgd2FzbuKAmXQgc3VwcG9zZWQgdG8gYmUgaGVyZSwgYnV0IHNpbmNlIHRoZXJlIHdhcyBubyByZWFzb24gZm9ydGhjb21pbmcsIGhlIGRlY2lkZWQgdGhlIGJlc3QgY291cnNlIG9mIGFjdGlvbiB3YXMgdG8gZm9sbG93LiA8L2ZvbnQ+PC9wPjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMTBwdCI+PGZvbnQgZmFjZT0iQ2FsaWJyaSIgc2l6ZT0iMyI+4oCcSXTigJlzIHRpbWUgdG8gZ28u4oCdIFRoZSBnaXJs4oCZcyBzcGVlY2ggd2FzIHZlcnkgZGlyZWN0LCBhbG1vc3QgY29tbWFuZGluZy4gPC9mb250PjwvcD48cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDEwcHQiPjxmb250IGZhY2U9IkNhbGlicmkiIHNpemU9IjMiPkd5ZGFyIGdhdmUgdGhlIHNhbWUgbG9vayBvZiBjb25jZW50cmF0aW9uIGFzIGJlZm9yZS4gSGUgY291bGRu4oCZdCByZW1lbWJlciB3aGVyZSBoZSB3YXMgc3VwcG9zZWQgdG8gYmUgZ29pbmcsIG9yIHdoeS4gSW4gZmFjdCBub3cgdGhhdCBoZSB0aG91Z2h0IGFib3V0IGl0LCBoZSBjb3VsZG7igJl0IHJlbWVtYmVyIGFueXRoaW5nIG9mIHdoYXQgaGUgd2FzIHN1cHBvc2VkIHRvIGJlLjxzcGFuIHN0eWxlPSJtc28tc3BhY2VydW46IHllcyI+Jm5ic3A7IDwvc3Bhbj5IZSB3YXMgc3VyZSB0aGF0IHRoaXMgd2FzIG5vcm1hbGx5IGEgcG9pbnQgb2YgbGFyZ2UgY29uY2VybiwgYnV0IGZvciB0aGUgbGlmZSBvZiBoaW0sIGhlIGNvdWxkbuKAmXQgZmluZCBpdCBpbiBoaW1zZWxmIHRvIGJlIGNvbmNlcm5lZC4gPC9mb250PjwvcD48cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDEwcHQiPjxmb250IGZhY2U9IkNhbGlicmkiIHNpemU9IjMiPlRoZSBnaXJsIGJlZ2FuIHRvIHdhbGsgZG93biB0aGUgcGF0aCBpbiB0aGUgd29vZHMuIFNoZSBuZXZlciB0dXJuZWQgdG8gY2hlY2sgYW5kIHNlZSBpZiBoZSBmb2xsb3dlZCwgYnV0IEd5ZGFyIGZvbGxvd2VkIGhlciB0cmFpbC4gSGUgd2FzbuKAmXQgc3VyZSB3aGVyZSBoZSB3YXMgZ29pbmcgb3Igd2hhdCBoZSB3YXMgZG9pbmcsIGJ1dCBoZSBrbmV3IHRoYXQgdGhlIHBhdGggd291bGQgcmV2ZWFsIGl0c2VsZiBpbiBpdHMgb3duIHRpbWUuIDwvZm9udD48L3A+"
+"eventtime","2008-04-01 11:14:00"
+"url","http://captainmorgan77.livejournal.com/195572.html"
+"userid","2510"
+"itemid","762"
+"event","It's incredible how absolutely shitty I feel right now. Either a ghost is grabbing the hell out of my kidneys and squeeznig very very hard, or I'm being gutted. I really think running is out of the question today. Dammit.
+
+Looks like a nap day. Amazing how that dissapoints me....:-("
+"eventtime","2008-03-25 08:45:00"
+"url","http://captainmorgan77.livejournal.com/195131.html"
+"userid","2510"
+"itemid","761"
+"event","These were the nights that Gydar had come to dislike the most growing up. It was the time of twilight, when color was meant to streak across the sky, decorate it with flavors and feelings that could inspire even the most jaded of those who still sought the horizon. Tonight was grey, and no trace of the falling sun could be seen from his post on the hill. His Pack had settled the&nbsp;clearing behind him, and as per usual at the end of any days ride, he had pushed ahead to tell them of what might come. Some had questioned him, when the habit was still new in their eyes, but after a time it had become as much routine as any the group managed to uphold, and he was quite certain they would worry if he stayed with them when the days journey was done.&nbsp;
+
+Tonight felt wrong. Somewhere along the way he had felt a jolt pass through him. The energy had been unexplainable, but it left a lasting impression. It was like the sound of a thunderclap when one was unaware of it coming, or the flash of lightning across an otherwise unmolested sky. Something about it had jumped his nerves in a way that if not completely reminded him of going to battle, it&nbsp;at least put the edge&nbsp;to it's anticipation. Something felt wrong, yet he couldn't put a finger on where it might be.&nbsp;
+
+The others had passed through their day untouched, as far as he could tell. Twice Spectra had looked across the plains at a sight that no others eyes could see. He asked, thinking that she had felt the feeling, heard the thunder, but she simply smiled and commented nothing. Had she truely felt something, or was it so disconserting, so...alone that one assumed that the feeling or the sound was&nbsp;created from the mind. Gydar was tired of those feelings, the wondering if his conscious, his experience was something that only he could truely grasp and&nbsp;feel. It made&nbsp;things seem so&nbsp;artifical and distant at times.&nbsp;
+
+The camp moved behind him in it's normal form, but even staring at them, he could see their was a change.&nbsp;Blake spun Thea around for no obvious reason, but she only put one arm around him to return a hug. Spectra was starring across the the plains as if her heart or head were lost in another world yet again.&nbsp;Some of the others though seemed&nbsp;unaware that any such thing could of passed.&nbsp;
+
+Gydar&nbsp;returned his gaze to the plains before them. What was perhaps the worst was that there was no follow up to the feeling that had come. No secondary vibration, no crash&nbsp;of sound nor whisper of it's passing. It was a simple feeling that came in a moment, and was lost to time as if the wind slipped through and took it away. He was trapped once again with the feeling that&nbsp;what he experienced was fabricated from his own mind trying to&nbsp;find a niche in memory.&nbsp;
+
+Gydar tilted his head back ever so slightly and took as deep a breathe as his body would allow. Perhaps the change was finally catching up with him, making him part of it's own. Even if his family was far away at times, there were people here, present to him that loved him. They did not need him, and he loved that, but they did love him, and it was ok. He took a few unsteady steps back to the Pack. Blake raised his eyes from the stew he was working on and gave a light smile. Gydar returned it, hoping that his mood was indiscernable. Perhaps it was that there wasn't a twilight. Perhaps not seeing the change that the sky under took&nbsp;was a tole&nbsp;on his own desire to make change. He wasn't certain of much as he began to pitch his tent, but he was quite certain that whatever it was would be gone by first mornings light. He was hoping the clouds would be as well, and perhaps tomorrow's sunrise could clear away the shadows of tonight.&nbsp;
+
+------------------------------------------------------------------------------------------
+
+I just ifnished watching the end of Stranger than Fiction.
+
+I have no idea what this piece of writing means. I think it's really just one of the most seemless reflections of feelings that I've had in a while, but I can't seem to connect where all the dots are yet. It just sort of came to life and I felt very very compelled to write it.&nbsp;
+
+Hopefully I get a new car tomorrow night, and this bloody weather realizes that it's spring.&nbsp;"
+"eventtime","2008-03-23 22:45:00"
+"current_moodid","6"
+"url","http://captainmorgan77.livejournal.com/194845.html"
+"userid","2510"
+"itemid","760"
+"event","<p>Reading The time travelers wife makes me feel like I lose my grip on time. It also makes me think a lot about past mistakes, decisions, and where I'm going from here. I like the book, not always crazy about the feelings.&nbsp;<br /><br />I feel like I've been a lot heavier lately. Filled up with something and just pulled downward. I think it's responsible for the reason I've been so out of sync with myself lately. I'm hoping that I'm finally getting rid of that feeling, but part of it is lingering there and I just can't get my finger on it. I had some really deep thoughts on my bike ride home about life and where I'm going and my attitude. The only thing I remember is that I decided I want to have a better attitude, and in turn hopefully bring a better me to whatever I encounter. I'll write more as I think about it.&nbsp;<br /><br />I hope we keep this weather, the rain has been pissing me off. Today was wonderful to go riding in.&nbsp;<br /><br />I almost held the same kid twice this week. Almost being the important part. I'm quite certain he hates me, and I've gotten rather fond of that hatred. I think it really won't be long before I drop him. Tomorrow is looking doubtful as I get to make easter baskets. I do love the mindless work every so often, I think it's good for my sanity.&nbsp;<br /><br />So I'm looking for a new car....I'm also thinking about leaving the country, maybe helping children and wondering what the fuck I'm supposed to be doing with my life right now. I'm quite done with school, but I figure I'll go through the motions for cheap kicks.&nbsp;<br /><br />I'm losing my grip on being impressed with halo. It happened when I came back, and it's sad. I don't write (only in my head), i don't play video games or have ay hobbies reall because of how busy I've been. I just read. For right now that is enough, but when summer comes I'm going to need to figure out a way to keep myself entertained.&nbsp;<br /><br />I'm ramblingnow because I forgot all the deep and enlightening things. Sorry, maybe more later.&nbsp;<br /><br />***Life won't wait, live it now</p>"
+"eventtime","2008-03-20 22:43:00"
+"current_moodid","63"
+"url","http://captainmorgan77.livejournal.com/194643.html"
+"userid","2510"
+"itemid","759"
+"event","I don't know what my deal has been lately.&nbsp;
+
+Since I've been back I haven't been able to keep myself on a consistent level of functioning for more than a day or two. Last week I was just a slobbering mess of a person. I've been completely out of focus with a fucked up function. I feel like I'm walking around with some type of negative magnetic force that just disrupts whatever I come into contact with. I'm terribly behind on work, I keep pushing off seeing friends to get work done, I""ve been sick or feeling sick twice since I've been back&nbsp;and now I""ve gone and killed my car. I'm not really terribly upset, just sort of confused. I don't know what I'm doing wrong. I just feel completely and wholey not myself right now, it's rather disconserting. &nbsp;
+
+On a positive note I""ve been all over getting things done today which has been great. It seems school never tires giving me late notice to do things that will eventually be a huge inconvience. I now have two big presentations to do for teachers and people. Brooklawn and Brown Scholars. I'll be lucky if Brown Scholars actually lets me do it considering how late I'm about to turn in material. Meh, they can get over it. They started with 35 my freshman year and now I'm sure we have about 7 left that will graduate with it.&nbsp;
+
+Furthermore, I feel like I've been completely and totally helpless in terms of taking care of myself. I always find people making exceptions for me, helping me out, going out of their way so things will work for me. Why do I suck at this? I really just feel like I'm terrible&nbsp;at doing things for myself and making them work. I always seem to need someone to help me. This is something I really don't like about myself. I don't want to be helpless. It just kind of sucks.&nbsp;
+
+What makes it worse is that I know I should not be bitching about my blessed existance. I should be insanely thankful, and I am. I just wish I could figure out what is making me feel so out of sorts lately. It just doesn't make sense."
+"eventtime","2008-03-17 20:38:00"
+"current_moodid","6"
+"url","http://captainmorgan77.livejournal.com/194369.html"
+"userid","2510"
+"itemid","757"
+"event","I write this with the knowledge that I might sound like a self possessed, arrogant, presumtous fool...but hey, everyone gets one...or seven here or there, right? 
+
+It's pretty pointless getting on here and trying to explain what happened while we were there. I can make all the facebook albums it takes to show the children that we played with, the living conditions that these people live in, or minute amount of work that we did trying to help the people in Zacapa have the oppurtunity for better life. I know this sounds bitter, but I remember all too well what it felt like coming from Sweden, not being able to express the things I experienced and falling back instead of the crazy stories from going out and getting plastered because that at least could be understood by the common college student. We didn't do any drinking on this trip. We got to swim a little in the pool at the hotel in the afternoons, we got to goof off, dance and have some fun, but it really doesn't paint a picture of what we were doing in a way that can be related too.&nbsp;
+
+But I'll try...
+
+Every day we got up at 630-700ish for breakfast, which would be over by 8. We would hop on the buses shortly afterwards and ride 45 minutes to our sit and start to work. During the morning the kids were in class (if the teachers were able to keep them there when they knew the ""gringos"" had arrived.) During those 5 days on the worksite, we built one puzzle piece mural, a boxed in play area for the kids, several wooden cut outs for decorations, laid out 4-15 tall, 15 foot across tracks of walls between the rooms, painted some down at the school, built 2-3 bookshelves, a few cribs, and maybe even more that I can't remember. We would finish around 4-5 and head back, and have about 2 hours of free time (most people used this to sleep out of exhaustion from 7-8 hours of exposure to 90-100 degree heat and humity. We spent part of one day at a hospital,(two girls helped deliver a baby c-section, how fucking cool is that? it made me want to be a doctor so I could do stuff like that!)&nbsp;another serving food at a garbage dump where people lived and a nutrion center for children that were malnorioused. (spelling?).&nbsp; Anyhow, we spent most of the time on site working and then a little free, good meals and lots of processing as a group where we were. on the site we were in two major work groups, one inside putting things together and another outside playing with the kids so they wouldn't sneak in and start playing around the power tools. I split my time between the two, not doing a lot after the jigsaw wasn't needed anymore.&nbsp;
+
+Julie, Gabi, Manuel, Carlito, Darlene, Carlos, Axel, Jessica, Wendy, and so many others. I will never forget their smiling faces, the looks in their eyes when we gave them little treats or just took the time to pick them up and spin them around.&nbsp;Chingar mi, chingar mi still rings in my head as I think about them swarming around and speaking in the longforgotten spanish they know is beyond incomprehensible to me. 
+
+So I went down and did some work, whats the big deal right? I realized that there is a good chance that I won't get into Grad school at this point and I've quite easily made my peace with that. I'm planning on taking next year off and looking for work in the humanitarian department. I'm going to fill out my Peace Corps Application this week and if things work with them, I very well do that type of work. I plan on learning Spanish any way I can in the next few months to secure a place in Central America or the Carribean. But these are just things I'm throwing out now. It's where I think I might end up. I want to be able to apply, get into and have finances convered for Grad school for International Development. I want to be able work with the giant organizations to make a change. Who knows where I would go from there.&nbsp;
+
+Right now these are just dreams, ideas keeping me afloat after 10 days of losing my heart in Guatemala. I can't not do something after seeing these people. I don't know if this is going to be for me, or if it will work, but right now it's looking like the path that is closest to my heart, and thats what I've been chasing after all along.&nbsp;
+
+Thanks for reading, and sorry if I'm not all myself. Like I said, I left my heart down there with the people, with the children and I hope to find a way to go back down and continue making a difference."
+"eventtime","2008-03-11 11:30:00"
+"current_moodid","14"
+"url","http://captainmorgan77.livejournal.com/193976.html"
+"userid","2510"
+"itemid","756"
+"event","<ul><li>Rebate</li><li>Grad Letter</li><li>Physics </li><li><strike>Celtic Paper</strike></li><li><strike>Email Dr Henson about Meetings</strike></li><li><strike>Proposal for Senior Project</strike></li><li><strike>Reminder for Tax Form from Mary</strike></li><li>Pack</li><li><strike>Piano</strike></li><li><strike>Organize</strike></li><li><strike>Email Boys about Meeting Time</strike></li><li>Transcript </li><li><strike>New&nbsp;Playlist for Running</strike></li></ul><p>Most of that stuff I knocked out or set into motion tonight. I've set myself up for Thursday well, now time for a break, a run in the morning and back into the thick of things for my last 48 hours in the city. Whoot for planning!<br /></p>"
+"eventtime","2008-02-26 23:03:00"
+"url","http://captainmorgan77.livejournal.com/193574.html"
+"userid","2510"
+"itemid","755"
+"event","It's nights like tonight that make me wonder if I need to go back onto Lexapro. I don't understand how I can flip out with such incredible grace without running my car off the road. Tonight I actually hit the medium(no worries it was one of those little one foot ones, no car damage), which didn't do much to calm my nerves.&nbsp;
+
+By the time I finally got home home I was exhausted with being angry and sad. Not as in bored, but physically exhausted with trying to maintain a state of anger or sadness as a means of supporting/pushing myself forward. I haven't decided if reaching that point is a good or bad thing.&nbsp;
+
+I still wish I could muster the courage to just write an email and ask for a time. I have the courage to drive my car through a bloody blizzard while not being able to see the striped lines, while I am sick, but I'm too scared to sit down and let someone reflect the person I show them back at me. Again, not really sure how to feel, but I'm banking on sad for this one.&nbsp;
+
+I fucking hate classes with descriptions that don't match the content. ""exploring the universe"" (in my mind) does not translate too lets figure out every aspect of the physics behind how the universe was created so that we can use the stars merely as references and examples for the mathmatical problems that will be presented on quizes and exams. Forgive me for thinking we might fucking explore a little bit as we went over these things. I guess as usual I misunderstood the information that was presented to me. I suppose it was just me putting my expectations of things on the language that was presented because it was what I wanted to hear. One of these days that'll get me killed. 
+
+Fuck midterms, I'm so done with these classes."
+"eventtime","2008-02-25 23:42:00"
+"url","http://captainmorgan77.livejournal.com/193409.html"
+"userid","2510"
+"itemid","754"
+"event","&nbsp;Not only is this class a complete and total waste of my time. It cuts out on my sleep.&nbsp;
+
+I learn nothing, I will probably fail the midterm, no one in the class understands this guy. He just punches through the math and assumes we understand. I fucking hate teachers like this. I thought this was going to have something to do with the solar system, not be entirely physics. I wouldn't have taken a class in physics. I almost failed it in high school. But no, it's all we focus on for the fucking class and every so often use a star as an example.&nbsp;
+
+2 months and a week and I'm done with college and the dumb useless classes. It's almost a shame I took all the cool classes in the middle and have to take the rest of the random crap now.&nbsp;
+
+I'm bringing mojitos to this midterm next week. I have no patience for this shit.&nbsp;"
+"eventtime","2008-02-21 09:03:00"
+"url","http://captainmorgan77.livejournal.com/193215.html"
+"userid","2510"
+"itemid","753"
+"event","&nbsp;10 days!&nbsp;
+
+I had stuff I wanted to write about, but I need to pay attention in class.&nbsp;
+
+""Bigger is better"" ---what the slide currently says as I look up...I think we are talking about telescopes."
+"eventtime","2008-02-19 08:39:00"
+"url","http://captainmorgan77.livejournal.com/192973.html"
+"userid","2510"
+"itemid","751"
+"event","I'm fairly certain that a number of things are crashing down&nbsp;around me. This would be a concern could I be on some form of routine right now, but everything seems to exist in static. I don't like this and I don't think it works well for me. However I can't shake the feeling that I'm letting people down every day. I just can't be everywhere at the&nbsp;same time. I can't raise my money for Guatemala, I can't spend&nbsp;enough time with the people I care about and I certainly don't&nbsp;see my&nbsp;family enough for living in their&nbsp;house.&nbsp;
+
+I came to class 45 minutes late. I was up all night checking on Dan, because I was his DD for&nbsp;the night, and Devin and Corey got him completely shitfaced. I felt terrible for&nbsp;him and I'm really glad I was there to keep an eye on him. I wasn't overly worried though. I let him sleep in the bathroom of the suite for a while because I knew he would be ok. I'm getting better at this. I can't begin to say how happy I am about that.&nbsp;
+
+But I'm still struggling and I feel like I""m running out of energy. I&nbsp;need all of these things going on in my life to end. When summer comes I need to&nbsp;NOT have projects, to not have obligations because right now I don't have time to breathe and doing one thing inevitably means having a bad time because I'm not doing something else with someone else. It leaves me unsatisfied more and more and it seems that my mind won't let anything slide without going a little crazy.&nbsp;
+
+Part of me just wants to be away from this goddam town. I don't want to worry about any of it anymore, but I don't think it's in the cards. Too much of me wants to be here.&nbsp;&nbsp;
+
+I don't fucking understand any of what this guy is talking about. Fuck it all, I'm so done with this."
+"eventtime","2008-02-14 09:15:00"
+"url","http://captainmorgan77.livejournal.com/192348.html"
+"userid","2510"
+"itemid","750"
+"event","Went t class and one of the girls bought me a fuze for no reason then I never had one before. Class was simple, got a muffian and didn't have to pay for it right away because i had misplaced my wallet. Got to play a few rounds of halo at home. Other class was easy. Went to work, got some free food. Activity went great. Basketball was fine, had dinner with jaana and we SPOKE SWEDISH!!!!! It was incredible, we almost had a complete fulblown conversation. We both realized we needed a little work. Played games with the guys until late. It was a pretty swell day overall. Oh! and no outing on saturday, horray!&nbsp;
+
+In other news, I have letters to write as I""m still down 270 for Guatemala. But everything looks do-able now!
+
+Running this morning, 4.5, puts me over the 60 mark in training"
+"eventtime","2008-02-08 11:24:00"
+"current_moodid","125"
+"url","http://captainmorgan77.livejournal.com/192021.html"
+"userid","2510"
+"itemid","749"
+"event","This gives a perfect understanding to all of what swedish is.....just in case you were lost when I speak it.&nbsp;<br /><br /><a href=""http://uncyclopedia.org/wiki/Swedish"">http://uncyclopedia.org/wiki/Swedish</a><br /><br />it took so much for me not to laugh out loud during class&nbsp;"
+"eventtime","2008-02-07 09:01:00"
+"url","http://captainmorgan77.livejournal.com/191821.html"
+"userid","2510"
+"itemid","748"
+"event","I'm not able to start this until now, about 10 till 9 so I don't have as much time to write. Prof is up there talking about light and such and for the most part I have been paying attention and trying to get everything done. Oh and the rain is falling again, which makes me feel so good... I wonder if dan is going to want to go running....
+
+I'm pretty sure our country is utterly fucked. We've become so absorbed with our self possessed individualism that I fear it will come crashing down in short time. All people care about is personal recognition, being appreciated, desired, understood and given the personal attention that ""they deserve"" because being consciously aware means you are something of worth. This drives me fucking crazy, when people want recognition for simply being alive, not for doing something with their lives. I see it a lot in kids, not even at work but when I take them out places. Kids that don't care what they are doing, how they are acting or what their actions do to other people. ""If it's not hurting me then whats the big deal"". In fact I feel like once our kids at work reach a certain level they have a higher respect for this kind of stuff. Mainly because they REALLY know about pain and what it feels like, where so many others of us don't but think our middle or upper class lives have shown us some divine truth through the terrible struggles that come from living in such privledge. I do this too, which is why I get so incredibly angry when I'm in a bad mood. I get mad that I can't find happiness but have such a blessed life. I think about the people I'm going to see in Guatemala and I know now that my life is soooo much better off in terms of food, education, housing, and god forbib, even governmental support. Yet we bitch and complain and make a scene about our lives like it's something important in the grander scheme of things in the universe. People really need to fucking get over themselves. Seriously.
+
+I'm thinking about the Peace Corp again. I don't know how serious about it I am but I plan on filling out the rest of the application and trying to see what I would be able to do. If I got placement somewhere in Central America or the Carribean I think I would be happy with it. Part of me really wants to go while part of me is petrified.&nbsp;
+
+The rain stopped, but I did get to hear some thunder. Things seem almost to be organized to a T right now. I go through bi-polar stages of feeling organzied and feeling like the world is spinning out of control. I really don't like it. Most of it comes from people wanting me to do things though. The problem lies in me wanting to do them, but not always having time. I have too much experience of pissing people off to always say no. I feel like hal the time I have to say no I'm making someone mad. The most relaxing moments I have are when I can take all of an hour just playing halo without my phone going off, without being bothered or pestered and just let kill things. Why I find this thereputic, I don't know. Probably because it's the only thing I do for me now. Other then making the game for the boys, only because it stimulates my creativity and makes me think about the story that isn't on paper, and hasn't had time to be born there yet.&nbsp;
+
+I might take the next class to try and write something on there, or maybe do my Peace Corp app, or finish whatever is needed for the UofL app., or make the bracelets for my friends, or.....there was something else, but I""ve forgotten it now. Maybe I'll actually pay attention....what a thought!"
+"eventtime","2008-02-05 08:48:00"
+"current_moodid","5"
+"url","http://captainmorgan77.livejournal.com/191737.html"
+"userid","2510"
+"itemid","746"
+"event","Just wanted to tell whoever is reading that I ran 7 miles today at 13.20 pace. Before today I couldn't run more than 3 straight. Whooo hooo to breaking thresholds!!! 
+
+Be proud!&nbsp;
+
+PS- I'm finally thinking that I can pull everything off I'm setting to do this semester!!"
+"eventtime","2008-01-30 13:55:00"
+"current_moodid","41"
+"url","http://captainmorgan77.livejournal.com/191050.html"
+"userid","2510"
+"itemid","745"
+"event","<br /><br /><div class=""ljcut"" text=""More Physics ramblings"">Type your cut contents here.&nbsp;<br />So I just finished the book blankets and got really depressed as a result. It is a graphic novel mostly about innoncence and finding our way with people by stumbling around in the dark. Anyhow it bothered me because I felt like i was looking back on a portrait of myself and realizing how little I appreciated having someone there for me when I really needed it. I think I've been scared for a long time and every time this has manifested itself in me, I'm shielded away from it. I feel like I've undervalued the people closest to me over time. I really don't like this.&nbsp;<br /><br />Life is a gigantic jumbled mess. Even in the midst of doing all the things I've gotten myself hooked into, I feel as if I'm not getting anywhere. I always have to be on a schedule, I never have free time for me. I just follow the courses of action that decide where I'm supposed to be and why. I really don't like this. I need a break where people aren't expecting something from me. Where friends don't want to hang out every night, where homework is not constantly catching up with me, or I'm slipping on my obligations to get work finished up for Guatemala or Relay. I need a few days away at the Abbey. I need to be isolated and reminded of who I am without the hundreds of strands of existance that are tied to me.&nbsp;<br /><br />I also have been getting mad at myself for not doing the things that I want to do. I don't have time to write the way I want to. I started too the other day and I erased it all because the form of it was terrible. I just felt so disconnected. Likewise, I can still have some basic conversation in swedish, but it's been difficult and I need to keep practicing, something I haven't had time for so far. I stopped running for almost a week and a half, and I haven't done anything to prepare myself for piano tomorrow. I really wish I could just get all of this shit together.&nbsp;<br /><br />I don't know where this came from, maybe a book or something, but yesterday I really had the urge to know how to stop caring. To be evil, not to have to feel anymore. I just want to be able to be completely selfish and not give&nbsp;a damn about what I am doing or how it affects the world around me. I've only dissasociated myself from everything twice. The idea of evil goes too far, but I think of it as just being selfish without feeling guilty about it. Freshman year and Sweden. The only two times I broke lose from things, was horribly self destructive and managed to survive somehow knowing a lot more about myself then I would have liked at times.&nbsp;<br /><br />In a few months I graduate. I don't know what the purpose or meaning for my life is. I'm not sure anyone does. It bothers me to an extent, but I am putting in an application at UofL, so I will have something to do with the the area of science that I'm interested in. I suppose that is something. I just wish I had something I could believe in that was pushing me. I feel rather listless right now and it's not very flattering.&nbsp;<br /><br />I miss my international friends. I hope May gets here soon so I get to see them...I really might cry when I see them. I need to get my tatoo when I have my tax return.&nbsp;<br /><br />I'm out of energy to keep writing. Hope all is well<br /></div>"
+"eventtime","2008-01-29 08:14:00"
+"current_moodid","76"
+"url","http://captainmorgan77.livejournal.com/190868.html"
+"userid","2510"
+"itemid","744"
+"event","<br /><div class=""ljcut"" text=""A lot of empty ramblings made while bored in class"">I really don't know why I am having so much trouble right now. It almost makes me feel guilty that I've spent the last 25 minutes in class facebook stalking, reading livejournal, writing, or completely spacing off. The fact that I was five minutes late because I got coffee and a bear claw wasn't a factor in things either, he hadn't even started yet. I guess this is my reward for a lot of shit semesters and undue stress. It's like photography senior year of high school but easier. Just another 100 level class that the teacher puts everything online for me. Wow do I feel lazy now for picking this class. But no, certainly not guilty. Almost, but not quite. <br /><br />I wonder if he would notice if I had headphones in...It's sort of a thing....WOW! I just asked a question about the northern lights. Woot there is my contribution today for class, he seemed excited that I asked. <br /><br />The universe is somewhere around 14 billion years old. I don't think I can put into a comprehensible scale how incredibly small we are when presented against the rest of the universe. It kind of makes life seem pretty petty, makes all those problems and complaints with people and things seem pretty dumb... <br /><br />Somewhere along the way recently I developed a temper. I don't know if it's because I work with a bunch of angry guys ready to kill me and I have to be assertive, if I'm bitter that I left part of my family in Sweden, or because life in general has found new and more creative ways to piss me off. I can't decide if I like it yet, but it's not the same it used to be. I'm sharper, but I feel like my edge is more jagged. It's almost like when I cut, I aim to hurt more, instead of trying to sugercoat or be soft on people. I feel like I've gotten my point across more. <br /><br />I suck at articulating things. This pisses me off. Apparently I have a tendency to develop a personal meaning to words or sayings that others do not share. When I present it, and it's taken the wrong way, chaos insues. This blows, and I've decided that I don't like to try and articulate feelings because it will either be misunderstood or walked over forcibly to make me wrong. I don't want to argue with people, I don't want to fight, I just want them to fucking understand where I'm coming from without asserting their own meaning and feelings to trivialize my own. <br /><br />If I don't find the discipline to write sometime soon, for like 4 hours, I might go crazy. <br /><br />I have only been drunk twice I think so far this entire year. It's pretty exciting. I've only been hungover once, and it's only caused me to screw up one day of projects. I'm 4 months away from graduating and being done with college. Do I know if I want to do this work for the rest of my life? Do I know if this is the right path. Nope, and I don't care. If I change later in life, I'll find it in myself to change my path and do what i need too. I've almost&nbsp;finished college, most of the classes were pointless and gave me nothing of true worth, but it made me work for it. I've had to wake up early countless times, I've maintained a 3.0 and I've done a lot of stuff. People recognize that. They know as well as I that most of this stuff will never get used, but they recognize the committment I've made to an ""idea"" and they respect that because of a piece of paper. Does that bother me anymore? no. I've gotten used to the fact, and I don't care. I deserve their respect because I've earned it with something pointless. I hate to say it but that's life. You can earn a lot of respect by not doing anything but the bare minimal. If you can't give even that, don't expect to get recognition. I know some people don't agree with that, but unless they set out to change the system and suceed, their opinion really doesn't matter. They are just fighting against something they don't want to do in order to maintain a position they don't have the dedication to do anything about. Honestly I think that's worse then going along with it because you know it will get you somewhere in the end. Either fight and fail gloriously, or keep your values and do what it takes me make it count. <br /><br />I've lost a sense of nobility. I still have my .....asked another question sorry. I have to feel like I'm doing something productive. it's a flaw. The next word was innocence, but I think romantic edge might be it too. I don't know why, but Ive lost my faith in it all. I'm reading a book on the american coup in Guatemala, and I just can't figure out how we can fight the people in power, how we can change such a vast and limitlessly powerful system. It makes me feel weak. People ask why we don't teach the people to work or farm down there. We can't. The system won't give them land or loan them money to help them. one little girl was going to die because her family couldn't afford to pay 2.75 to catch a bus to the nearest hospital. I spent $4 on breakfast this morning. how fucked up is that? Most people don't realize, most people don't care. But hey, even if it's not a huge lasting impression, we are building a health facility and school and that is the beginning of the change. Some people make the work charitable organizations do look petty because it's not some monsterous effort to change the world or bring about this awesome change. People like that piss me off because they sit and critisize what they do while they sit on their ass and pretend to be more self-rightoues, more knowledgable and worldly because they can verbally undermine the efforts of people who are doing what they can to make a difference. It's not much but at least it's something. <br /><br />I don't think I'm strong enough to work for the Peace Corp. I get excited looking at it, but then I think about what it would really mean. Being gone for two years, being away from everything (in many ways would be a plus). I think of the good, but think about what I have to miss, what I have to give up and I get scared. I wish I was strong enough to know and not just put off the application in fear of what the oppurtunity could mean. I need to do three of those this weekend. I have the feeling I might end up somewhere random, just on the rare chance on being away from everything. I just typed most of this sentence and the last while looking at the board. I can even feel mistakes and fix them without looking. I'm getting too good at this. haha. <br /><br />Long cons are amazing. They used one on Guatemala in the 50's to get the government overthrown. It was put on by the United Fruit Company. Not all the people were really evil, they were just ignorant of what was going on. They thought that the country was overrun with communist, because thats what they were afraid of. ""Play on fear and everyone becomes your fool"". Its part of the 1st rule. I wish I had the cunning and dark heart to play on this. Maybe I do and haven't realized it yet. Most people aren't bad, they are just ignorant and afraid. Is that bad? Of course it is, but how can combat ignorance without having to spend all day and night researching, or going to the sceen of everything, or throwing a rebellion. Which would be put down by the same people who think that the new ideas are fearful and don't know anything. Where do we draw the line to say who is the fool and who is worse because they think they are wise? <br /><br />I think I'm done for now. Class is over, time for 2 hour lab. Hooray. Note the dripping sarcasm, please. Peace<br /><br /></div><br />&nbsp;"
+"eventtime","2008-01-24 08:23:00"
+"current_moodid","34"
+"url","http://captainmorgan77.livejournal.com/190551.html"
+"userid","2510"
+"itemid","743"
+"event","I never knew that getting so much done could make me feel so tired. This semester I found something I was lacking before, a cause. Actually I found two, but lets not get too caught up in that. In a month in a half I'm going to Guatemala, and a month after that Bellarmine is having the annual Relay for Life. Needless to say I've put a lot on my plate when you look at working 25 a week, having three classes, piano lessons, and trying to write and learn a foriegn language (the latter two are suffering, but hopefully not for long). 
+
+So I guess the reason I decided to put an entry in here is because I need to know what I'm doing. I'm in my last semester of undergrad (fingers crossed) and I already have a game plan for next year. I plan on making this a great semester and I plan on making my life different. I had a growing phase over the break and when it happened, I feel like I lost some of the innocence that was keeping me rooted in place. I'm growing more and more now. I feel more like an adult than I ever thought possible and it doesn't bother me anymore. I feel like I need this. 
+
+Furthermore, I feel like I need to be here. Between Relay and Brooklawn, I know I can get a lot accomplished. I already talked to ACS (American Cancer Society) and if things don't work out for me here with psychology, I'm going to put something in to work with them. 
+
+But somethings have happened that made me notice a change I don't feel quite as secure in. I feel like part of me has stopped feeling as accutely. Watching V for Vendetta and Rent really don't do anything for me. Fighting for freedom? Noble and great yeah, but we are no V's, I feel limited thinking about it, no matter how badass it is. Rent...no day but today? Why does it make me feel like some empty sound is echoing through me? It bothers me that something has changed in me, and I feel like I can't get that passion back. Is this what growing up is? Not knowing what or how to feel or what things mean to you anymore? It's almost like the knowledge that everything is relative and there because we want or need it to be has torn something apart in me. I don't like it. Yet I still persist in finding causes, something to do or something to fight for. 
+
+I think thats why I'm like Jack in Lost. There are times where I make things happen, know what to do , know what to say to people to make it better and dive into it without thought or abandon, but that's the double edge sword. When that zeal gets misplaced, all that energy can get channeled into something that doesn't make sense, that once reflected on isn't as great idea as it seemed in the heat of the moment. Before, I've always needed something to fight for, as the girls were so fond of saying, I needed to be a hero. I'm well past being a hero, not like that. Those feelings broke in me. How can we come to terms with who we are if we don't have anything to gauge them from? Who am I? Who am I in the grander scheme of what is going on? What do I make of the power that I have, either given or taken? What will I do with it? The question of ""What am I SUPPOSED to do with it"" is no longer relavent to me.   
+
+Questions, Questions, Questions. I'm not really confused. In fact I've never felt more in control of what I'm doing. The answers to the questons above helped me define who I am and what I'm doing. Because of them I feel determined and focused, stronger, ready to make things the way I want them to be without being anyone's ""welcome mat"" anymore. I'm done letting people do what they want with me because I won't stand up to it. If this is in my control, then it's going to be on my terms, all of it. I'm glad to see that I've come to realize this two weeks after I started living it. 
+
+I may be a wreck, but at least I crash into what I'm aiming for."
+"eventtime","2008-01-14 21:29:00"
+"current_moodid","45"
+"url","http://captainmorgan77.livejournal.com/190273.html"
+"userid","2510"
+"itemid","742"
+"event","So in recent news I got an iPod nano. I think I might be in love. 
+
+This year was an overblown growing up experience. I feel like i was pushed all over the place, forxced to take positions and give them up just as readily, adapt quicker than I ever believed, and somehow make things work under the worst of curcimstances. In anothwer note, my spelling hasn't improved at all. In fact it might have gotten worse. 
+
+I'm going out to the bars for news years tonight. It will be interesting. I'm expecting it to be a bit congested and crazy, add the effects of alcohol ad who knows what will happen. I predict all of us getting fed up with standing/getting bumped/slobered over and whatnot and leaving early. This is not to say I don't want to go. I feel like this is another thing everyone should do once, even if it ends terribly, just to say that it was done. I did another one of those things recently, but I really can't recall what it was now. I feel like it was somewhat important too. hmmmmm, I'll figure it out later. 
+
+I'm really just killing time now because I don't have much else to do. I was pissed off for over an hour earlier today when I couldn't get our wireless router to work. I'm quite certain that the internet is messed up in the house now, and nothing I could do would fix it. So now we have nothing. I can't imagine Scott, Mom or Kevin being happy about that. hmmmm I'll call dad later. 
+
+And Itunes is working, thank God I managed to get SOMETHING electronic to work today :-) :-) :-)"
+"eventtime","2007-12-31 17:36:00"
+"current_moodid","65"
+"url","http://captainmorgan77.livejournal.com/189972.html"
+"userid","2510"
+"itemid","741"
+"event","Story time. 
+
+Gydar slipped away into darkness. Sometimes sleep had been a blessing, last night it had proven to be so, but now he was returning to a place he had once let go. Lights, without warning swam around him and he was standing before a large black door. He felt something, almost pain in his left arm, and he didn't need to look down to see know what was waiting for him on the other side. It had finally returned, the only one he had yet to bury. Was it time? His left arm, decorated with black spirals and designs went to the hilt of his sword. He had grown so much in such a short period of time, but he was so tired now, so so tired. 
+
+The great wooden doors opened as if my an invisable hand and he forced himself to step forward boldly, if he was to fall, it would be gloriously, not like some coward in the corner of a cell. Striding forward into the the arena he lifted his blade from his belt and with great pain held it before him in his left hand. It was waiting for him. Without age or sex, the demon stood ready as it had years and times before, for the dance. Gydar's face remained impassive, he would not give the monster the satisfactiion of knowing he was scarred to death. Slowly, he removed the blade from the scabbard, twilit colors flooded the dim arena in a pale light. When it touched the demon, it fell back in suprise. 
+
+""You are a fool O'Murkin."" The voice was a hiss, like a snake trying to speak and the demons body semed to mimic it's nature as it swayed back and forth. 
+
+""I'm well aware, but I am no coward. You will kill me now, or you will fail. I will not live a poisened life in your shadow."" As if in the answer, the blackness, the darkness on his arms flared into pain, reminding him of the cost he was to pay. 
+
+The demon slithered forward, a twisted smile creeping upon it's face. ""You will fall again. You have never had the strength to break my hold, and now is still not yet that day.""
+
+Gydar gave a bitter smile. He was well past a place of caring what happened to him. He lauched himself forward as twilight sang and the dance was begun.
+
+""We will see""
+
+I don't know how I feel yet about brining back stories into things. I guess since I update this so little anyway it doesn't matter. I think I'm going to start doing this again just for writing practice with the real story tiself. Not that anyone cares to read that, but hey, in the end it's for me I suppose. I just feel like it would be a shame not to give so much energy and imagination true life through coherant writing. 
+
+I worked for 13 hours yesterday. I came home and slept for a solid 10 and 1/2 hours without waking. I think it might have been the best sleep of my life. 
+
+I really wish someone could cover my shift tomorrow, but it looks like I have to see the nutcracker. Yeah it does sound fun, until you factor in the 1-2 dozen children that have behavioral problems that I will be with and the fact that it's three hours long give or take and every extra minute it takes me is one more I don't get to see my dad and visit for christmas. So quite frustrating really, but hey, that seems to be life, right? 
+
+I feel bad because I haven't seen many people lately, but I'm not terribly upset because I feel like I really need a break from life. Part of the reason I'm glad to go see dad is because Owensboro is almost completely cut off from life here. I might just turn my phone off while I'm there. I just need a break from everything, and when I'm at work and get more than a dozen text messages and calls to hang out, but can't turn off the phone since work needs to call me if problems arise too, I get upset. Maybe I can salvage something out of this break. At least, thats what I'm hoping. 
+
+The bad thing about sleeping in is that I don't have a whole lot of time to get things done before work. As it is I'll be there until 8-9 again tonight, but hey, I do need the money. 
+
+I probably won't make another entry before, so Merry Christmas and Happy New Year!"
+"eventtime","2007-12-21 12:17:00"
+"current_moodid","92"
+"url","http://captainmorgan77.livejournal.com/189713.html"
+"userid","2510"
+"itemid","740"
+"event","I feel like I'm losing my mind right now. It's the same old crap. I don't like school, I don't know what I am going to do next year, and even worse I don't know what i WANT to do. Well I do, but I don't know how to go about writing crap and sustaining myself with activism. 
+
+I don't know why I'm so depressive right now, I guess I'm just one a short leash and thinking too much about all these stupid fucking assignments that are due on monday and tuesday. Serisouly teachers, you aren't the only clever ones who think you can get some extra grading in over the holidays. How about you manage your fucking time a little better so we don't have to fuck our own schedules and turn in shit. At the least, don't pretend to be dissapointed in us, both parties know you probbaly give less a damn than we do. 
+
+Wow I'm bitter. Maybe it will help me study, haha. At least I'm going to guatemala now, but even that feels weird, and I haven't quite figured out why. 
+
+If I can stop sabotaging myself, I'm going to run a marathon in April. Wish me luck
+
+3 and 1/2 days until SOA, yaysa!"
+"eventtime","2007-11-13 19:50:00"
+"url","http://captainmorgan77.livejournal.com/189615.html"
+"userid","2510"
+"itemid","738"
+"event","I am determined to make these dreams come to pass."
+"eventtime","2007-11-07 14:33:00"
+"url","http://captainmorgan77.livejournal.com/189022.html"
+"userid","2510"
+"itemid","737"
+"event","I came to a heavy conclusion while I was abroad. Actually, it was more of common sense, but it was profound enough to me for me to re-think what I was going to do. I decided that if I want something, I mean really want something, I will be willing to do whatever it takes to get it done. When you REALLY want something, you get it, because that's all there is. 
+
+This is the problem, I don't know what I want. For next year at least. I just dont know. So how can I work towards something that isn't there yet? hmmmm.....
+
+But to be a total geek, it is national write a novel month or something. So I think I'm going to try and get on that, or just get it started if nothing else. We will see..."
+"eventtime","2007-11-01 13:50:00"
+"url","http://captainmorgan77.livejournal.com/188800.html"
+"userid","2510"
+"itemid","736"
+"event","We have all been sucked and pulled into a gigantic game that has no meaning or purpose. Unlike real games, there is no overseeer, there is no all knowing being watching our every move. It's just what it is, a game. The scores don't matter, we really don't even matter beyond ourselves, but we still play it for someone else, as if to claim our lives aren't worth being lived as they are. 
+
+I would say it is good that I'm learning this now. Had I learned it any earlier, I don't think I would have been on this track to finish school.....:-) But in saying that, I show how much of the problem I really have become. Regardless, I'm ready to be done, I don't feel like I'm being taught anything about real life. Theories and ideas and bullshit. We need the next philosophical age to be here now. Otherwsie, I fear for what humanity could become.  
+
+So what now...
+
+Ender'a Game is a horribly negative influence to helping me fit into a box. I'm glad I had the free time and an awesome girlfriend to get me into it."
+"eventtime","2007-10-08 15:58:00"
+"url","http://captainmorgan77.livejournal.com/188425.html"
+"userid","2510"
+"itemid","734"
+"event","Light up, light up, as if you have a choice. 
+
+I love music. It makes me feel.......things i can't explain. It sends me far away, and even if it borders on grief or sadness, it makes me smile and feel right again. 
+
+There really is so little point to doing this work right now. So close, so close to.......
+
+The difference between a disaster and an adventure is how you describe it. 
+
+There is only us, there is only this, forget regret or life is yours to miss. 
+
+until I fall away, I won't keep you waiting long. 
+
+until next time...."
+"eventtime","2007-09-30 18:47:00"
+"current_moodid","64"
+"url","http://captainmorgan77.livejournal.com/188113.html"
+"userid","2510"
+"itemid","733"
+"event","I think I was supposed to get mono right now. 
+
+When I got back, I really didn't give myself any time to process anything, the having left for sweden, coming back, the changes I felt and went through, I just pushed through it out of habit. I think I might have been afraid to look at things with the change. Trying to adapt myself and my surrondings to new ways of feeling and seeing things. I guess it's why I never got mono before. It needed to be now. 
+
+Not that I've had a great deal of time to reflect. I've been so f-ing exhausted by just walking upstairs, and going to class yesterday sucked the life out of me. I think when someone really doesn't want to deal with a situation, they truely can find a million ways of getting around it. Explains why I haven't written anything lately either. hmm.....
+
+I need to make sure I don't sail right back into auto-pilot, there are too many things I have been missing or messing up because I was too busy getting from point a to point c.
+
+Things might get difficult soon, but I supposed I should be thankful, if they weren't difficult, I'd get way too bored"
+"eventtime","2007-08-30 20:36:00"
+"current_moodid","30"
+"url","http://captainmorgan77.livejournal.com/187655.html"
+"userid","2510"
+"itemid","732"
+"event","Fuck Mono. that is all
+
+excpet that when he told me I started laughing, went to school, then to work, to clear everything up, and still had to go to physicals tonight, because bellarmine has its head so far up it's ass it can't plan for shit, nor be understanding. 
+
+But I have the week off, and don't feel the mono is sucking my entire energy supply away mentality so I tihnk I will finally get to play catch up on everything life. Ha, we will see how that goes. 
+
+Time to play with the new baby, which is my laptop."
+"eventtime","2007-08-27 18:54:00"
+"current_moodid","82"
+"url","http://captainmorgan77.livejournal.com/187637.html"
+"userid","2510"
+"itemid","731"
+"event","I had my last day of lessons yesterday, for some reason, I thought this was important. Probably because I'm happy they are done
+
+School starts in 3 weeks. I have 9 books for two classes, yay!
+
+Grad school, internship, GRE, 16 hours, a life....... I'm a little uncertain when and where all of this is going to take place. 
+
+Harry Potter was fantastically awesome. 
+
+I started a chapter today on Bryce. It is rather difficult. In fact, writing for me in general is pretty tough. I don't feel like my words can suffice to give justice to everything I wish it could be. But this is the farthest I have ever gone with something like this......vi ska se. 
+
+Jag bara skriv lite svenska. Jag missa det."
+"eventtime","2007-08-03 22:45:00"
+"current_moodid","65"
+"url","http://captainmorgan77.livejournal.com/187239.html"
+"userid","2510"
+"itemid","729"
+"event","Right now, I feel exhausted. 
+
+Somewhere between the reverse culture shock. The missing knowing what is going on too an almost disturbing levels with the drama and everyday occurances of a dozen very special international people. Starting to work full time. Moving everything to the basement where I am taking over. My phone not being silent for more than 20 minutes on average (when I was used to not getting a call for days, because we had messenger). MESSENGER NOT WORKING AND BEING PISSED ABOUT IT. David not being back (you whore). 
+
+I am worn out, stretched, and still very much adjusting to this new (yes....new) life. I don't want to revert to things before, and I don't think I have. But I'm starting to realize why we have been put under the shackles so well, without even knowing about it. We never have time to think, and thats a beautifully deceptive system that works gloriously. 
+
+So I suppose I'm going to take my own advice, given to my favorite german girl names sarah. ""Life isn't any fun if you behave all the time."" 
+
+Time to Start 
+Now it Begins
+
+until I fucking win it.
+
+PS- Yay for how writing and venting a touch reminds me of what I need to do and who I need to be. Thanks for reading."
+"eventtime","2007-07-01 20:58:00"
+"current_moodid","14"
+"url","http://captainmorgan77.livejournal.com/186844.html"
+"userid","2510"
+"itemid","728"
+"event","Things that make me happy
+
+~Earl Gray Tea. Sometimes with honey, other times with milk and sugar
+~Facebook messages (you know who you are)
+~Thinking that I get to sail for the first time tomorrow
+~Coming home in aproximately....127 hours, more or less
+~The people waiting for me at home, both family and friends
+~Zombie movies
+~Feeling a little different, but indescribly so
+~Sunsets
+~Family that doesn't know me well letting me stay with them for a week
+~Beautiful views
+~Still sucking at Swedish
+~Writing a random journal entry after who knows how many months away
+~Did I mention coming home to see people?"
+"eventtime","2007-06-20 22:37:00"
+"current_moodid","58"
+"url","http://captainmorgan77.livejournal.com/186545.html"
+"userid","2510"
+"itemid","726"
+"event","I'm very confused why we have all of these habits. Why we have all of these preconceptions of ehy things should be.
+
+Why do we follow traditions because we are told they are right? 
+
+I wrote a lot pf pages of random shit tonight, I hope that by morning it makes some sort of sense. 
+
+Tom. is rugby, I', honestly hoping I get the shit kicked out of me. Not because I want pity or I want to be admired. Just because I just want to feel something very very painful. I think you find a lof of your true self with your in the worse pain you can imagine. 
+
+I need tow rite more. Tonights stuff is shit, I won't lie, but it's something. 
+
+Vaxjo, Sweden is incredible. This will probably be the last entry on here. This is my whats the word......closure. I hope at least. 
+
+Peace out playas, check facebok to find real updates of life, or email me."
+"eventtime","2007-01-28 20:01:00"
+"url","http://captainmorgan77.livejournal.com/186026.html"
+"userid","2510"
+"itemid","725"
+"event","for those how have read this journal for a while you know that sometimes I just need to spew whatever crap is on my mind onto something in the form of word vomit. Last night was the monthly or every other weekly sickness being spent. 
+
+I finished Interview with the Vampire last night and turned around and bought the movie and watched it with laura today. I enjoyed both quite a bit. I'm moving onto to Lestat here soon, but I got both of my social justice like books in the mail, so I might start into "" A People's History"" for a bit too. 
+
+Also on the reading list leading up to the sendoff are; Lestat, Queen of the Damned, Pandora, Blood and Gold, the Tale of the Body Thief (all Anne Rice), One Shot, one Kill (about snipers), A people's history, And the Bully of Bentonville. (anti-Walmart)
+
+I don't know in what order I will read, how much I will finish before I go, or what I will take with me. But I plan on starting to shread through them tonight.
+
+I should probably also study this crazy foreign language I've been trying to learn for all of this time. It might help. 
+
+13 days as of 15 minutes ago. Lots and little to get in order, and after the mess of last nights thoughts I think I'm starting to let myself get excited about this whole thing again...
+
+until I win it"
+"eventtime","2007-01-03 19:57:00"
+"current_moodid","44"
+"url","http://captainmorgan77.livejournal.com/185806.html"
+"userid","2510"
+"itemid","723"
+"event","So where to begin the updates. 
+
+I don't really know what 2006 taught me. Well, I know it did teach me things, but.....idk, I'm to tired to think about it right now.
+
+Project only needs one more coat of polish to it. Laura saw it, she really liked it, whoot for another project well done. 
+
+I only have 15 more days in the states. fucked up. I've already had to say goodbye to both my sisters and my dad. Steph leaves tom. I think it gets more real when you have to tell people goodbye and know you won't see them for 6 months. 
+
+I finished the book The Vampire Armand. I liked it a very great deal, and I found a number of parallels between us. I'l start Interview here later tonight
+
+I really need to clean and organzie. This could take all night and all day tomorrow. 
+
+I think my last news years was like this too. The day not feeling all that great. Either feeling like the year before wasn't all that grand (but it was good, it had severe ups and downs) and being more then a little intimidated about what is to come. 
+
+For now, I just need alone time, just me time, b/c for the last fews days I've barely if at all been alone and it's really starting to get to me."
+"eventtime","2007-01-01 18:23:00"
+"current_moodid","92"
+"url","http://captainmorgan77.livejournal.com/185137.html"
+"userid","2510"
+"itemid","722"
+"event","Almost done with the project. Only have about three more stages of things to do on it. sand, stain, and again. 
+
+I got a handful of tfun things for myself today. Green Street (amazing!), the 15 minute battery charger. and a new razor and some head be gone pills.
+
+Soon to be cleaning the massive and ugy upstairs and maybe a movie, and another day gone....
+
+off to the vampire armand, such a good book. I've never had so much fun reading the 4th or 6th books first in a series before, haha."
+"eventtime","2006-12-29 17:17:00"
+"url","http://captainmorgan77.livejournal.com/184946.html"
+"userid","2510"
+"itemid","721"
+"event","I don't know what time I'm gonig to go to sleep, probably not very soon. :-P
+
+2 96 250
+
+I've spent almost the entire day on the project. It's kind of ugly, I won't lie, but it's looking better then it was earlier today when I thought about quitting (I wouldn't have of course, I go until it breaks or until it's somewhat presentable). 
+
+I have a lot of clean up work and sanding to do. I might not get to stain until tom. night which would not be cool. I want it to be done by tom. night. I want it to be presentable, so it can be....
+
+I haven't showered either, I am completely lost in work mode (accept to update and see if I missed anything)
+
+Alright, I'm going back to it. I'll try to make it look pretty. Or nice enough that when it's seen it may inspire a tear or two.....:-) one can hope..."
+"eventtime","2006-12-28 00:28:00"
+"current_moodid","31"
+"url","http://captainmorgan77.livejournal.com/184797.html"
+"userid","2510"
+"itemid","720"
+"event","Big Accomplishments
+
+All shopping done except for Lucy and Laura
+Loan work complete
+Starting putting stuff together
+got a laptop- YAY
+ordered my social justice books
+Started to butcher Swedish (ok, not going to continue this, I'm done, from now on, it's me perfecting my pronounciation)
+Have more books then I could read on the break lined up- good
+Drunken Sheeran Family xmas eve tonight
+oh, and got a kickass family history chart from uncle
+
+and plowing on
+
+until I win it
+
+PS- AND HAPPY CHRISTMAS TO ALL!"
+"eventtime","2006-12-24 13:39:00"
+"url","http://captainmorgan77.livejournal.com/184526.html"
+"userid","2510"
+"itemid","719"
+"event","I need to write a thing for my brother
+
+I saw steve irwin on tv today and was sad
+
+I finished Demian and it was one of the best books EVER!
+
+I get not only to have chirstmas with dad tom, but I also get to meet a Swede!
+
+and we are off. The to-do list isn't getting any shorter, I keep adding things, btu at least I'll be keeping myself busy.
+
+I'm trying to be socially conscious. It so different, and rarely easy. 
+
+25 days and counting
+
+Until I win it."
+"eventtime","2006-12-22 23:48:00"
+"current_moodid","91"
+"url","http://captainmorgan77.livejournal.com/184179.html"
+"userid","2510"
+"itemid","718"
+"event","Piano- A
+World Religions- A-
+Brown Scholars- B
+Mem and Cog- B-
+German B-
+Research C
+
+Not bad, but definetly not good. Grad school may be harder then it looks unless I wow the swedes into taking me. Research for second semester might help. So will teaching myself a foriegn language. 
+
+26 days and counting. I remember when I was beyond the 50's. so weird. 
+
+Cleaned the upstairs, well it's not clean, but it's better organized, tom. Iw ill get around to putting thing in proper order, going through my men's health to write down usefull advice, and maybe even swim, who knows.
+
+For now, adventure time. I like this break....
+
+Oh yes----- I think this is the first time in my life someone has gotten me flowers. Yes, flowers, I got four dozen today, one for every day that laura and I have known each other. It was really sweet. it was because I was having a rough day a few back, and was easily one of the nicest things soemone has done for me in months. I will be VERY happy when she comes back here from home :-)"
+"eventtime","2006-12-21 20:12:00"
+"current_moodid","65"
+"url","http://captainmorgan77.livejournal.com/183821.html"
+"userid","2510"
+"itemid","717"
+"event","Wow, I made a to-do list that has over 25 things on it that need to be done before I go. MANY of whihc probably should be done before the year ends. This sucks.
+
+I think I'm going to make today a HUGE study abroad day, try and knock out EVERYTHING that involves going away. This is a tall order. Like 10 of my things from the list are just in this section and more seem to be added everytime I try to complete one. 
+
+Suit, I can't forget a suit. See, every time I think about that list it's like 3 more get added. Time for some sub-list it seems. 
+
+OK, i""m good, just frazzled, and I leave in what...? 29 days? Holy hell, I leave the country in 29 days. Thats soooo Swete-ish. haha. oh i'm such a dork."
+"eventtime","2006-12-18 12:02:00"
+"current_moodid","91"
+"url","http://captainmorgan77.livejournal.com/183656.html"
+"userid","2510"
+"itemid","716"
+"event","So whats the worst that can happen....
+
+I can't change my grades, and finally I am free from the responsibility of what is schoolwork and all the attachments that come with it!
+My bestest friends are back in town, and some friends of their as well, and I love them all. 
+I am with my family, and even though we don't always get along we do love each other.
+I finally get to focus JUST on what I want to, which includes my story, studying swedish, relaxing and sleeping more!!!
+Work will just be work, and it might not even be that bad either!
+Get all the money I've lined myself up for.
+Yes, I know this sounds bad, but shopping, and being able to go to a bookstore and just chill for hours...
+And when I'm tired of doing this. Tom. at this time tonight in a month, I will be on a plane to Sweden. How fucking sweet is that???
+
+and reading.....lots and lots of reading. 
+I feel like I grew more in the last month then I have in the last three years. I know this isn't all nessesarily true, but I know I changed mroe drastically. No you won't see huge changes. It's subtle, but it's beautiful. I'm starting seeing myself new and different, in a more powerful fashion. I can feel the change flowing in my blood, and I know these nexts months, these next years are going to become the times that define me as a person. 
+
+I have resolved that I will start to Consume my life, instead of allowing it to consume me!
+
+LT4
+No Day But Today
+Freedom Forever
+
+God it's good to be alive."
+"eventtime","2006-12-15 23:48:00"
+"current_moodid","98"
+"url","http://captainmorgan77.livejournal.com/183398.html"
+"userid","2510"
+"itemid","715"
+"event","It's amazing that in life, there are things that can break you in two one day, and give you eneough hope to keep on pushing the very next.
+
+went home for a bit, things are cooler. I think mom felt bad about our fight. She knows me better then anyone, and I think she saw how hard I repressed that so I could do my work and not be a mess. We just talked about everyday things. Lucy even let me ready 13 pages of curious George to her before she completely lost interest and picked two new books to read. hahaha
+
+So I'm taking the wheel again. I may have fucked up german something fierce, but I have a chance with two more finals. Memory and Cognition on Wednesday at noon, and Research Methods on Thursday. Thank God the other two finals are cake. 
+
+So here we go, I'm not saying that in any way I'll pwn these two, but I'll give them everything I can and try to take a much smarter approach as compared to past exams. 
+
+When the blessed break finally comes, and I'm done being hungover. I'm going to give myself some serious me time and try my damnedest to figure myself out enough to get a grip. I have a lot of critical questions for myself and I know I need to answer those before I run away. 
+
+Oh and I was asked if I wanted to participate in research in the spring that will be attempted to be entered into a psychological journal. I'm honestly really flucking scared. Now you know why I'm so intent on getting my shit together, haha. 
+
+and here we go again....until I win it... 
+
+....until I win it."
+"eventtime","2006-12-11 23:56:00"
+"current_moodid","45"
+"url","http://captainmorgan77.livejournal.com/183053.html"
+"userid","2510"
+"itemid","714"
+"event","German= Kicked my Ass.
+
+Probably the most brutal final I've taken since Junior year Math (I got a 45% on that final by the way).
+
+That hurt, now it's time to play, catch up on everything else so those grades will balance out this one.
+
+Cognition and Research- Fuck you both, here I come"
+"eventtime","2006-12-11 13:15:00"
+"url","http://captainmorgan77.livejournal.com/182892.html"
+"userid","2510"
+"itemid","713"
+"event","SO I got my plane ticket today. happiness
+
+in other news.&nbsp;in order to have something cool happen, something horrible must follow. So of course, just as I finish with the plane ticket, I get bitched at my mom about not spending time with the family. We haven't had a fight since last year at this time. impressive.&nbsp;
+
+There is yet another reason I want to get away. It's all fucking expectations and this belief that I have to do everything and nothing is every fucking good enough. I'm so sick of being here and I already haven't moved back home.&nbsp;
+
+SO fuck life, I'm upset I have a stupid fucking in-service later tonight and I haven't started studying for my german final which is tom.&nbsp;
+
+God dammit, why can't things just go nicely for a week. Please."
+"eventtime","2006-12-10 16:19:00"
+"current_moodid","129"
+"url","http://captainmorgan77.livejournal.com/182670.html"
+"userid","2510"
+"itemid","712"
+"event","<p>not a whole lot to report, about to run headlong into finals.&nbsp;<br /><br />I'm going to write a very angry note on facebook, which will get a powerful response, but do absoltely nothing.&nbsp;<br /><br />In the meantime, I thin I'm going to finish picking up here, or take a shower and then go home.&nbsp;<br /><br />And a certain lady on here will be so proud. I'm reading about vampires, and I must say that Anne Rice writes with a flawless and restless grace that cannot be parrelled. I started a bit far (or just randomally) in the series of books b/c I just needed something to read and it was there. but wow. very impressive.<br /><br />Tom. Starts several days of hardcore and very serious study.....hahaha. No no it will, but it might take some time to see how well I take it, and even more to see how I do on the exams.&nbsp;<br /><br />The story has been taking shape in my head again, some serious plot changes and details came to life, I should probably write those down eh?<br /><br />and I've been having very weird dreams lately. Mostly they just involve me chilling out with a friend or two for a long time. but sometimes they get this weird plot lines with corrupt priest (sin city perhaps?) and people sneaking on other's houses and setting up cardboard people on the roof and turning on lights to freak people out. (I thought this was hysterical, especially when Mike Myers as Austin Powers was outside mine).&nbsp;<br /><br />until I win it. </p>"
+"eventtime","2006-12-09 15:43:00"
+"current_moodid","64"
+"url","http://captainmorgan77.livejournal.com/182442.html"
+"userid","2510"
+"itemid","711"
+"event","<p>First I defeated Dan as he brought in his attack,<br /><br />and then I beat the sober Aaron&nbsp;Hume as he came forth,<br /><br />then I beat the black ninja as he fought with amazing skill<br /><br />then I seduced the sex molly with unpresedented charm<br /><br />and lastly I bested Franklyn even with the power of the Jamacian Bitch Slap (wich hurts a great deal).<br /><br />Lastly, with liitle aid to fall upon, The Mightly Jason stepped on my throat.&nbsp;<br /><br />But I haunted Stve's ass for all eterninty.&nbsp;<br /><br />I love eign drunk with my boys!!!</p>"
+"eventtime","2006-12-08 04:15:00"
+"url","http://captainmorgan77.livejournal.com/182110.html"
+"userid","2510"
+"itemid","709"
+"event","<p>Nothing like some nice George K. Irishness to make a good irishman fell better.<br /><br />Hugging a really cute girl helps to :-)<br /><br />and Molly's Jams<br /><br />and being able to sulk for long enough to feel better, without disturbance<br /><br />and life, thats worth being happy for.&nbsp;<br /><br />+my amazingly fantasmic friend amanda who rocks my face way off. </p>"
+"eventtime","2006-12-07 23:59:00"
+"url","http://captainmorgan77.livejournal.com/181540.html"
+"userid","2510"

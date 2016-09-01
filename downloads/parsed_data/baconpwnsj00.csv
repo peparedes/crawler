@@ -1,0 +1,521 @@
+"names","values"
+"itemid","53"
+"event","MDEuIEkgaGF2ZSBuZXZlciBraXNzZWQgc29tZW9uZSBvZiB0aGUgc2FtZSBzZXggb24gdGhlIGxpcHMuPEJSPjxTVFJPTkc+MDIuIEkgc2VlIGEgdGhlcmFwaXN0LjwvU1RST05HPjxCUj4wMy4gSSdtIHRoZSB5b3VuZ2VzdCBjaGlsZC48QlI+PFNUUk9ORz4wNC4gSSBhbSBkcmF3biB0byB0aGluZ3MgYXNzb2NpYXRlZCB3aXRoIHNhZG5lc3MuPC9TVFJPTkc+PEJSPjA1LiBJIGhhdmUgZ2F1Z2VkIGVhcnJpbmdzLjxCUj4wNi4gSSB3ZWFyIGJsYWNrIGV5ZWxpbmVyIGV2ZXJ5IGRheS48QlI+PFNUUk9ORz4wNy4gSSBhbSBleHRyZW1lbHkgaW5mbHVlbmNlZCBieSBraW5kbmVzcy48L1NUUk9ORz48QlI+PFNUUk9ORz4wOC4gSSBsb3ZlIHRvIHdyaXRlLjwvU1RST05HPjxCUj48U1RST05HPjxGT05UIHNpemU9ND4wOS4gSSBjYW4ndCBsaXZlIHdpdGhvdXQgbGlwZ2xvc3MuPC9GT05UPjxCUj4xMC4gSSdtIHByb2JhYmx5IGVtb3Rpb25hbGx5IHNjYXJyZWQuPC9TVFJPTkc+IDxCUj4xMS4gSSBsaXZlZCBpbiBUYWhvZS4mbmJzcDsgPEJSPjxTVFJPTkc+MTIuIEkgc3BlbmQgbW9uZXkgSSBoYXZlLiA8QlI+MTMuIEnigJlsbCBiZSBpbiBjb2xsZWdlL3VuaXZlcnNpdHkgZm9yIG92ZXIgNCB5ZWFycy48L1NUUk9ORz48QlI+MTQuIEkgbG92ZSBkZXNpZ25lciBoYW5kYmFncy48QlI+MTUuIEkndmUgaGFkIGEgY29uY3Vzc2lvbiBiZWZvcmUuPEJSPjE2LiBJJ20gbm90IGdvb2Qgd2l0aCBjb25mcm9udGF0aW9uLiA8QlI+PFNUUk9ORz4xNy4gSSBsb3ZlZCB0aGUgQmFja3N0cmVldCBCb3lzICZhbXA7IE5TWU5DPEJSPjE4LiBJIGhhdmUgbW9yZSB0aGFuIGEgY291cGxlIGhvcnJpYmxlIG1lbW9yaWVzLjwvU1RST05HPiA8QlI+MTkuIEknbSBhZGRpY3RlZCB0byBEZWdyYXNzaS4gPEJSPjIwLiBJJ3ZlIHRyaWVkIHdyaXRpbmcgcG9ldHJ5IGJlZm9yZS4gPEJSPjIxLiBNeSBmaXJzdCBraXNzIHdhcyB1bmV4cGVjdGVkLiA8QlI+MjIuIEknbSBub3QgYSBmYW4gb2YgcmFwLiAtIG5vdCB0b2RheSdzIHJhcC48QlI+PFNUUk9ORz4yMy4gSSBsb3ZlIHRha2luZyBwaWN0dXJlcy4gPEJSPjxGT05UIHNpemU9NT4yNC4gSSBoYXRlIGdpcmxzIHdobyBhcmUgZmFrZS4gPEJSPjwvRk9OVD4yNS4gSSBjYW4gYmUgbWVhbiB3aGVuIEkgd2FudCB0by4gPEJSPjI2LiBXaGVuIEkgYWxsb3cgbXlzZWxmIHRvIGdldCBjbG9zZSB0byBwZW9wbGUsIEkgZ2V0IGF0dGFjaGVkLjwvU1RST05HPjxCUj4yNy4gSSBhbSBub3Qgc3RyYWlnaHQuJm5ic3A7IDxCUj4yOC4gSSBoYXZlIHdheSB0b28gbWFueSBwYWlycyBvZiBzaG9lcy4gPEJSPjI5LiBJIHdhcyBpbnRvIEhvdCBXaGVlbHMgYXMgYSBjaGlsZC4gPEJSPjxTVFJPTkc+MzAuIEkgZHJlc3MgaG93IEkgZmVlbCB0aGF0IGRheS48QlI+MzEuIE15IHJvb20gaXMgcGFpbnRlZCBhIGNvbG9yIG90aGVyIHRoYW4gd2hpdGUuIDxCUj48L1NUUk9ORz4zMi4gSSBjcnkgdmVyeSBlYXNpbHkuPEJSPjMzLiBJJ20gYWx3YXlzIGVhcmx5LjxCUj48U1RST05HPjM0LiBJIGJhcmVseSBldmVyIHN0dWR5IGZvciB0ZXN0cy4gPEJSPjxGT05UIHNpemU9ND4zNS4gTXkgYmlydGhkYXkgaXMgbXkgZmF2b3JpdGUgaG9saWRheS48L0ZPTlQ+PEJSPjM2LiBJIGhhdmUgdG9vIG1hbnkgY2xvdGhlcyBmb3IgbXkgY2xvc2V0L2RyZXNzZXIuPC9TVFJPTkc+PEJSPjM3LiBJIGFtIGEgbW9ybmluZyBwZXJzb24uPEJSPjxTVFJPTkc+MzguIEkgd2lzaCBJIHdlcmUgc21hcnRlci4gPEJSPjwvU1RST05HPjM5LiBJIGJlbGlldmUgdGhhdCBpdCBpcyB3cm9uZyB0byBiZSBnYXkuPEJSPjxTVFJPTkc+NDAuIEkgdGhpbmsgdGhhdCBpdOKAmXMgcGVyZmVjdGx5IG9rYXkgdG8gYmUgZ2F5LiA8QlI+NDEuIE5vIG9uZSByZWFsbHkga25vd3MgbWUuPC9TVFJPTkc+IDxCUj40Mi4gSSBkb24ndCBoYXZlIG1hbnkgYmFkIGhhaXIgZGF5cy48QlI+PFNUUk9ORz40My4gSSBzb21ldGltZXMgZmlnaHQgd2l0aCBteSBwYXJlbnRzLjxCUj40NC4gSSBhbSBwYXNzaW9uYXRlIGFib3V0IG15IGludGVyZXN0cy48QlI+NDUuIEkgaGF2ZSBoYWQgdGhlIGNoaWNrZW4gcG94LjwvU1RST05HPjxCUj48U1RST05HPjxGT05UIHNpemU9ND40Ni4gSSdtIGEgaG9wZWxlc3Mgcm9tYW50aWMuPC9GT05UPjwvU1RST05HPjxCUj48U1RST05HPjQ3LiBJIGZlZWwgZW1wdHkgc29tZXRpbWVzLjxCUj40OC4gSSBhbS93YXMgbW9zdCBsaWtlbHkgY2xpbmljYWxseSBkZXByZXNzZWQgYXQgYSBwb2ludCBpbiBteSBsaWZlLjwvU1RST05HPjxCUj40OS4gSSBhbSBubyBsb25nZXIgZGVwcmVzc2VkLjxCUj41MC4gSSBhbSB2ZXJ5IG91dGdvaW5nLjxCUj41MS4gQ2hyaXN0bWFzIGlzIG15IGZhdm9yaXRlIGhvbGlkYXkuPEJSPjxTVFJPTkc+PEZPTlQgc2l6ZT00PjUyLiBJIGNhbiBiZSB2ZXJ5IGluc2VjdXJlLjwvRk9OVD48L1NUUk9ORz48QlI+NTMuIEkgZG9uJ3Qgbm90aWNlIGl0LCBidXQgSSdtIHRvbGQgSSdtIHZlcnkgc29mdHNwb2tlbi48QlI+PFNUUk9ORz41NC4gSSBoYXRlIGlnbm9yYW50IHBlb3BsZS48L1NUUk9ORz4gPEJSPjU1LiBJIGxvdmUgdGhlIGNvbG9yIHllbGxvdy4gPEJSPjU2LiBJIGxvdmUgZ3V5cyB0aGF0IHBsYXkgdGhlIGd1aXRhci4gPEJSPjU3LiBJIHN0YXRlIHRoZSBvYnZpb3VzLiA8QlI+NTguIEknbSBhIGhhcHB5IHBlcnNvbi48QlI+NTkuIEkgaGF2ZSBhYnNvbHV0ZWx5IG5vIHNlbGYtY29uZmlkZW5jZS4gPEJSPjxTVFJPTkc+NjAuIEkndmUgY29udGVtcGxhdGVkIHN1aWNpZGUuPC9TVFJPTkc+IDxCUj42MS4gSSBoYXRlIGNsZWFuaW5nIG15IHJvb20uPEJSPjxTVFJPTkc+NjIuIEkgdGVuZCB0byBnZXQgamVhbG91cy48L1NUUk9ORz4gPEJSPjYzLiBJIGxvdmUgdG8gcGxheSB2aWRlbyBnYW1lcy48QlI+PFNUUk9ORz42NC4gSSBsb3ZlIEpvaG4gTWF5ZXIuIDxCUj42NS4gSSBnZXQgbW9yZSB1cHNldCB3aGVuIEkgc2VlIGFuIGFuaW1hbCBodXJ0IHRoYW4gYSBwZXJzb24uPC9TVFJPTkc+PEJSPjY2LiBJJ20gYSB2ZWdldGFyaWFuL3ZlZ2FuL2Rvbid0IGVhdCBiZWVmLiA8QlI+NjcuIEkndmUgaGFkIGEgY3J1c2ggb24gYSB0ZWFjaGVyIGJlZm9yZS4gPEJSPjxTVFJPTkc+NjguIEkgYW0gdG9vIGZvcmdpdmluZy48L1NUUk9ORz48QlI+NzAuIEkgaGF2ZSBhIGdvb2Qgc2Vuc2Ugb2YgZGlyZWN0aW9uLiA8QlI+NzEuIEkndmUgbmV2ZXIgaGFkIGEgYm95ZnJpZW5kL2dpcmxmcmllbmQgYmVmb3JlLiA8QlI+NzIuIEkndmUgcGxheWVkIGEgbXVzaWNhbCBpbnN0cnVtZW50IGZvciBtb3JlIHRoYW4gNSB5ZWFycy48QlI+PFNUUk9ORz43My4gSSBjYW4gZnVuY3Rpb24gcGVyZmVjdGx5IHdlbGwgd2l0aG91dCBhIGdpcmxmcmllbmQvYm95ZnJpZW5kLiA8QlI+PEZPTlQgc2l6ZT01Pjc0LiBJIGxvdmUga2lzc2VzIG9uIHRoZSBmb3JlaGVhZC48L0ZPTlQ+IDxCUj43NS4gSSBsb3ZlIHRoZSBjb2xvciBibHVlLjxCUj43Ni4gSSBkb24ndCBzZXcuIDxCUj48Rk9OVCBzaXplPTU+NzcuIEkgYW0gbm90IGFkZGljdGVkIHRvIGRydWdzLjwvRk9OVD48QlI+NzguIEkgd2VhciBjb250YWN0czxCUj43OS4gSSBoYXRlIGl0IHdoZW4gcGVvcGxlIHNheSB0aGV5IGhhdGUgQnVzaCBqdXN0IGJlY2F1c2UgaGUgaXMgYSBtb3Jvbi48L1NUUk9ORz4gPEJSPjgwLiBJIGhhdGUgQnVzaC4gPEJSPjxTVFJPTkc+ODEuIEkgZG9uJ3QgdGFrZSBjcml0aWNpc20gd2VsbC4gPEJSPjgyLiBDb25mb3JtaXR5IGlzIHN0dXBpZC4gPEJSPjwvU1RST05HPjgzLiBDaHJpcyBDYXJyYWJiYSBpcyBvbmUgb2YgdGhlIHNleGllc3QgbWVuIGFsaXZlLjxCUj44NC4gQ2hyaXMgQ2FycmFiYmEgc2hvdWxkIGRpZS48QlI+ODUuIEkgbG92ZSBteSBmYW1pbHkuPEJSPjxTVFJPTkc+ODYuIEkgZG9uJ3QgbWluZCBnZXR0aW5nIHNob3RzLjxCUj48Rk9OVCBzaXplPTQ+ODcuIEkgYW0gYSBwZXJmZWN0aW9uaXN0IHdoZW4gaXQgY29tZXMgdG8gY2VydGFpbiB0aGluZ3MuPC9GT05UPjwvU1RST05HPjxCUj44OC4gSSBhbHdheXMgd2FudGVkIHRvIGxlYXJuIHRvIHBsYXkgdGhlIGRydW1zLjxCUj48U1RST05HPjg5LiBJIGNhbiBiZSB0b28gaGFyZCBvbiBteXNlbGYuPC9TVFJPTkc+IDxCUj48U1RST05HPjxGT05UIHNpemU9NT45MC4gSSdtIHByb2JhYmx5IGdvaW5nIHRvIGhhdmUgcHJlbWFyaXRhbCBzZXguPC9GT05UPjwvU1RST05HPiA8QlI+OTEuIEkgZG9uJ3QgbGlrZSBteSBub3NlLiA8QlI+OTIuIEkgYW0gdmVyeSByZWxpZ2lvdXMuPEJSPjkzLiBJIHN0aWxsIGFjdCBsaWtlIGEgbGl0dGxlIGtpZC4gPEJSPjxTVFJPTkc+PEZPTlQgc2l6ZT01Pjk0LiBJIGFtIHJpZGljdWxvdXNseSBpbmRlY2lzaXZlLjwvRk9OVD4gPEJSPjk1LiBJIGJlbGlldmUgaW4gYSBoaWdoZXIgcG93ZXIgb3Igc29tZSBmb3JtIG9mIGFuIGFmdGVybGlmZS4gPEJSPjk2LiBJIGxvdmUgbXVzaWMuIDxCUj45Ny4gSSBoYXZlIHByb2JsZW1zIGxldHRpbmcgZ28gb2YgcGVvcGxlLjwvU1RST05HPjxCUj45OC4gSmVzc2UgTGFjZXkgd3JpdGVzIHNvbWUgb2YgdGhlIG1vc3QgYW1hemluZyBseXJpY3MgZXZlci4gPEJSPjk5LiBJIGRvbid0IHJlYWxseSBsaWtlIGljZSBjcmVhbS4mbmJzcDsgPEJSPjEwMC4gSSBhbSBpbiBsb3ZlLg=="
+"eventtime","2005-07-22 03:10:00"
+"url","http://baconpwnsj00.livejournal.com/13705.html"
+"userid","1305"
+"itemid","52"
+"event","what color pants are you wearing: blue pj pants 
+
+what song are you listening to: Ryan Cabrera: Reasons
+
+what taste is in your mouth: Sprite
+
+whats the weather like?: Rainy
+
+Do You . . 
+
+get motion sickness?: yea
+
+have a bad habit?: procrastination
+
+get along with your parents?: eh, no
+
+boyfriend/girlfriend: nah
+
+have a current crush: yea
+
+have a big regret: of course
+
+Favorite . . . 
+
+
+tv show: Everwood  Ephram <3
+
+conditioner: Brilliant Brunette
+
+book: There's a lot.. Ordinary People, maybe?
+
+non alchohol drink: Water
+
+alchohol drink: i don't drink
+
+things to do on the weekend: sleep in, hang out with friends
+
+Have You Ever . . .
+
+
+broken the law: speeding
+
+ran away from home: someday
+
+snuck out of the house: nah, im a good kid
+
+gone skinny dipping: nope
+
+made a prank phone call: lol sure
+
+tipped over a portapotty: HAHAHA no
+
+use your parents credit card: no
+
+skipped school before: sure
+
+fell asleep in the shower/bath: no
+
+been in a school play: nah
+
+had a boyfriend/girlfriend: yup 
+
+have a hard time getting over someone: yeah
+
+been hurt?: of course
+
+gone out with someone you only knew for 3 days: no way
+
+Random . . . 
+
+
+have a job: yea..Allegheny Plastics
+
+your cd player has what in it right now: Papa Roach
+
+if you were a crayon, what color would you be?: aquamarine
+
+what makes you happy?: hmm..  palm trees
+
+the next CD you're going to buy: Incubus
+
+
+When/What Was the Last . . . 
+
+you got a real letter: yesterday, RMU 
+
+got an email: today
+
+thing you purchased: dont remember
+
+Tv program you watched : Survivor
+
+movie you saw in the theaters: Hitch
+
+kissed: some idiot
+
+hugged: Joel
+
+song heard: Simply Because: Rooney
+
+place you were [ besides home ]: Bladerunners
+
+phonecall: Dan
+
+you were depressed: hmm
+
+you were in the hospital: to see Faith
+
+
+When/What Comes to Mind When You Hear . . . 
+
+
+car: mistubishi
+
+murder: bad
+
+cape: cod
+
+penis: i laugh
+
+cell: phone
+
+shoe: pac-sun
+
+fun: friends
+
+crush: lol
+
+music: i wish you were here"
+"eventtime","2005-04-02 15:35:00"
+"url","http://baconpwnsj00.livejournal.com/13432.html"
+"userid","1305"
+"itemid","51"
+"event","(1) The singular most boring question: what is your name? Megan Ann Metz
+(2) Are you happy with it? yes
+(3) Are you named after anyone? my middle name after my mom
+(4) Are you ready for a long survey? yes
+(5) Your screen name? Meggied51
+(6) Would you name a child of yours after you? no
+(7) Then what would you name your children? Chloe and Dylan
+(8)If you were born a member of the opposite sex, what would your name be? Micheal
+(9) If you could switch names with a friend, who would that be? Nicolette Sarah
+(10) Are there any mispronunciations/typos that people do with your name constantly? Meghan
+(11) Would you drop your last name if you became famous? no
+
+BASICS
+(12) Your gender: Female
+(13) Straight/gay/bi? Straight
+(14) Single? Yes
+(15) Want to be? nope
+(16) Your birth date? 03-30-87
+(17) Your age? 18
+(18) Age you act? it depends
+(19) Age you wish you were? 25
+(20) Your height? 5'1""
+(21) The color of your eyes? brown/green
+(22) Happy with it? sure
+(23) The color of your hair? brown 
+(24) Happy with it? yea
+(25) Left/right/ambidextrous? right
+(26) Your living arrangement? Mom, Dad, Heather, Andy, Katie
+(27) Your family? annoying
+(28) Have any pets? dog-Buddy
+(29) What's your job? clean offices
+(30) Piercings? ears, one cartilage 
+(31) Tattoos? not yet ; )
+(32) Obsessions? books
+(33) Addictions? internet
+(35) Do you speak another language? Spanish
+(36) Have a favorite quote? Someday : )
+(37) Do you have a web page? this livejournal?
+
+DEEP THOUGHTS
+(38) Do you live in the moment? i guess so
+(39) Do you consider yourself tolerant of others? yea, mostly
+(40) Do you have any secrets? of course
+(41) Do you yourself? ?
+(42) Do you like your handwriting? no
+(43) Do you have any bad habits? yes
+(44) What is the compliment you get most from people? good listener
+(45) If a movie was made about your life, what would it be called? 
+(46) What's your biggest fear? being alone
+47) Can you sing? sure, but not good
+(49) Are you a loner? eh
+(50) What are your number 1 priorities in life? being happy
+(51) If you were another person, would you be friends with you? yea
+(52) Are you a daredevil? sometimes hehe
+(53) Is there anything you fear or about yourself? lonelyness
+(54) Are you passive or aggressive? passive
+(55) Have you got a journal? yea
+(56) What is your greatest strength and weakness? strength: who knows weakness: too emotional
+(57) If you could change one thing about yourself, what would it be? hmm..
+(58) There are three wells, love, beauty and creativity. You can only drink out of one. Which one would you drink of? love
+(59) How do you vent? to my friends 
+(60) Do you think you are emotionally strong? no 
+(61) Is there anything you regret doing/not doing in life? yea dating assholes
+(62) Do you think life has been good so far? eh, sometimes
+(63) What is the most important lesson you've learned from life? Dont rely on other people to be happy
+(64) What do you like the most about your body? chest
+(65) And least? my butt lol
+(66) Do you think you are good looking? on a good day
+(67) Are you confident? ditto
+(68) What is the fictional character you're most like? Calvin Jarrett
+(69) Do people know how you feel? if i tell them
+(70) Are you perceived wrongly? usually
+
+DO YOU...
+
+(71) Smoke? no
+(73) Read the newspaper? yea
+(74) Pray? not no
+(76) Talk to strangers who IM you? no
+(77) Sleep with a dirty stuffed ghost? ?? no
+(78) Take walks in the rain? i like to run in the rain
+(79) Talk to people even though you them? ?
+(80) Drive? yep
+(81) Like to drive fast? hehe
+
+WOULD OR HAVE YOU EVER...
+
+(82) Liked your voice? yes
+(83) Hurt yourself? on purpose? yea..
+(84) Been out of the country? yes
+(85) Eaten something that made other people sick? yes 
+(86) Had sex? no
+(87) Been unfaithful? no 
+(88) Been in love? yes
+(90) Gone skinny dipping? LOL
+(91) Had a medical emergency? yea
+(92) Had a surgery? yes
+(93) Ran away from home? not yet
+(94) Played strip poker? no
+(95) Gotten beaten up? no
+(96) Beaten someone up? no
+(97) Been picked on? yes
+(98) Been on stage? yes
+(99) Been dancing? yes
+(100) Slept outdoors? yes 
+(101) Thought about suicide? yes
+(102) Pulled an all-nighter? yes
+(103) If yes, what is your record? about 7am 
+(104) Gone one day without food? yea
+(105) Talked on the phone all night? not ALL night
+(106) Slept together with the opposite sex without actually having sex first? yes 
+(107) Slept all day? yes
+(108) Killed someone? no
+(109) Made out with a stranger? no 
+(110) Had sex with a stranger? no
+(111) Thought you're going crazy? yes 
+(112) Kissed the same sex? on the cheek
+(113) Done anything unusual with the same sex? no
+(114) Been betrayed? yes
+(115) Had a dream that came true? yes
+(116) Broken the law? yes
+(117) Met a famous person? yes
+(118) Peed your pants? rofl
+(119) Pooped your pants? ROFL no
+(120) Have you ever killed an animal by accident? yea
+(121) On purpose? yea
+(131) Told a secret you swore you wouldn't tell? yes
+(132) Stolen anything? no
+(133) Been on radio/TV? yes
+(134) Been in a mosh-pit? yea
+(135) Had a nervous breakdown? yea
+(136) Considered religious vacation? umm.. sure
+(137) Been criticized about your sexual performance? no 
+138) Bungee jumped? no
+(139) Had a dream that kept coming back? yes 
+
+CLOTHES
+
+(140) Shoe brand? roxy
+(141) Brand of clothing? whatever i think looks cute
+(142) Cologne/perfume? curve <3
+(143) What are you normally wearing to school/work? jeans and a t-shirt
+(144) How about parties? a little dressier
+(145) Wear hats? yea sometimes
+(146) Judge other people by their clothing? yea
+(147) Wear make-up? yep
+(148) Favorite place to shop? pac-sun
+(149) Favorite article of clothing? jeans
+(150) Are you trendy? no
+(151) Would you rather wear a uniform to school? maybe 
+
+BELIEFS
+
+(152) Believe in life on other planets? no
+(153) Miracles? yes
+(154) Astrology? no
+(155) Magic? no
+(156) God? yes
+(157) Satan? yes to an extent
+(158) Santa? no
+(159) Ghosts? no
+(160) Luck? yea
+(161) Love at first sight? yes
+(162) Yin and Yang (that good can't exist without the bad)? yes
+(163) Witches? no
+(164) Easter bunny? no
+(165) Believe it is possible to remain faithful forever? yes 
+(166) Believe there's a pot of gold at the end of the rainbow? no 
+(167) Do you wish on stars? i just like to look at them : )
+
+DEEP THEOLOGICAL QUESTIONS
+
+(168) Do you believe in the traditional view of Heaven and Hell? no
+(169) Do you think God has a gender? no 
+(170) Do you think that science counteracts religion? no
+(171) Do you believe in organized religion? no
+(172) Where do you think we go when we die? depends on what kind of person you are
+
+AMIGOS
+
+(173) Do you have any gay/lesbian friends? not that i know of
+(174) How many friends do you have? cant count
+(175) Who's the one person that knows most about you? no one
+(176) What's the best advice that anyone has ever given to you? go with what YOU think is right
+(177) Your favorite inside joke? wow.. i dont have a favorite
+(178) Thing you're picked on most about? jumping to conclusions
+(179) Who's your longest known friend? Annie
+(180) Newest? Amanda V.
+(181) Shyest? i think im the shyest
+(182 Funniest? Nikki
+(183) Sweetest? Justin
+(184) Coolest? everyone : )
+(185) Weirdest? Joel
+(187) Ditziest? Me
+(188) Friend you miss being close to the most? Krista
+(189) Last person you talked to online? Joel
+(190) Who do you talk to most online? Justin/Nikki
+(191) Who are you on the phone with most? Nikki
+(191) Who do you trust most? Joel
+(193) Who listens to your problems? Joel 
+(194) Who do you fight most with? i dont keep track
+(195) Who's the nicest? Justin
+(196) Who's the most outgoing? Dan
+(197) Who's the best singer? lol i dont think any
+(198) Who's on your shit-list? Argh
+(199) Have you ever thought of having sex with a friend? lol
+(200) Who's your second family? The Holcombs/Moyers
+(201) Do you always feel understood? no
+(202) Who's the loudest friend? dont know
+(203) Do you trust others easily? no
+(204) Who do you have the most in common with? Joel
+(205) Name one person who's arms you feel safe in? hmm..
+(206) Do your friends know you? some
+(207) Friend that lives farthest away? Kim 
+
+LOVE
+
+(208) Did you get frightened or uncomfortable seeing that as a section title? no
+(209) Do you remember your first love? yes
+(210) Still love him/her? hell no
+(211) Do you consider love a mistake? no 
+(212) What do you find romantic? flowers, kisses, chocolate covered strawberries
+(213) Turn-on? hahah
+(214) Turn-off? negativity
+(215) First kiss? Lucas
+(216) If someone you had no interest in dating expressed interest in dating you, how would you feel? Bad :/
+(217) Do you prefer knowing someone before dating them or going ""blind""? being close to someone first
+(218) Have you ever wished it was more ""socially acceptable"" for a girl to ask a guy out? i dont think it makes a difference
+(219) Have you ever been romantically attracted to someone of the same sex? no
+(220) Do you think the opposite sex finds you good looking? lol i dont know, ask them
+(221) What is best thing about the opposite sex? hmm.. lots of things.. abs hehe oh and personality too
+(222) What is the worst thing about the opposite sex? thinking they are better than everyone else
+(226) What's the best present someone gave you? my dog
+(227) Are you in love? nope
+(228) Have you ever cheated on someone? no 
+(229) What would you do if you were walking down the street and saw some hot guy/girl standing on the sidewalk? lol wtf...umm.. smile?
+
+THE BATTLE OF THE OPPOSITE SEX
+
+(230) Have you ever wished you could experience being the other gender? haha yea, just once
+(231) If you did experience that for one day, what would you do? umm.. i guess id be a guy
+(234) What do you understand least about the opposite sex? feelings
+(235) Honestly, what do you notice first in the opposite sex? height, hair
+
+POSSESSIONS
+
+(236) What is your favorite possession? books : D
+(237) What physical, tangible possession do you want most? more books
+(238) How badly do you want it? lol enough
+(239) Have you ever seen The Exorcist? no
+(240) How long did it take for you to understand why the last question is in this section? hmm still working on it
+
+WHO WAS THE LAST PERSON...
+
+(241) That haunted you? no one real
+(242) You wanted to kill? Asshole
+(243) That you laughed at? my brother
+(244) That laughed at you? my brother
+(245) That turned you on? hahah
+(246) You went shopping with? Katie
+(247) That broke your heart? Grumble Grumble
+(248) That disappointed you? A lot of people
+(249) That asked you out? dont remember
+(250) That made you cry? Nikki
+(251) That brightened up your day? Joel
+(252) That you thought about? myself
+(253 You saw a movie with? Gary and Terry
+(254) You talked to on the phone? Dan
+(256) You saw? My brother
+(295) You lost? Nikki
+(257) You went head over heels for? oh come on
+(258) You thought was completely N-U-T-S? hmm.. me
+(259) You wanted to be? someone else, far away
+(260) You told to fuck off? Nikki : x
+261) You trusted? Joel
+(262) You turned down? hmm..
+
+WHEN WAS THE LAST TIME YOU
+
+(263) Smiled? Yesterday
+(264) Laughed? Yesterday
+(265) Cried? Today
+(266) Bought something? Nerd's rope
+(267) Danced? Last night
+(268) Were sarcastic? lol like ten minutes ago
+(269) Kissed someone? aaaaargh
+(270) Talked to an ex? yesterday
+(271) Watched your fave movie? ooh A Little Princess.. a dew days ago
+(272) Had a nightmare? last night
+(273) Talked on the phone? Yesterday
+(274) Listened to the radio? this morning
+(275) Watched TV? this morning
+(276) Went out? last night
+(277) Helped someone? um.. yesterday?
+(278) Were mean? not today
+(279) Sang? today
+(280) Saw a movie? thursday?
+(281) Said ""I love you""? not recently
+(282) Missed someone? #@$#%
+(283) Fought with a family member? yesterday little sister
+(284) Fought with a friend? now
+(285) Had a serious conversation? today
+(286) Smoked weed? EVERY FUCKING DAY
+(287) Got drunk?    ''        ''
+(288) Had sex? never
+
+A LAST TIME
+
+(289) Last book you read: Gossip Girls rofl
+(290) Last movie you saw: A Little Princess
+(291) Last song you heard: listening to Better than Ezra: A Lifetime
+(292) Last thing you had to drink: Sprite
+(293) Last time you showered: this morning
+(294) Last thing you ate: hot roast beef sandwich my brother made me <3
+(295) Last CD you bought: Incubus?
+(296) Last thing you bought: nerds rope
+
+RIGHT THIS MOMENT...
+
+(297) What are you going to do? read Fahrenheit 451
+(298) Will it be with your significant other? no 
+(299) Or some random person? no
+(300) What are you wearing right now? comfy pants..t-shirt.. my american eagle jacket
+(301) Body-part you're touching right now? my legs are crossed
+(302) What are you worried about right now? everything
+(303) What book are you reading? Fahrenheit 451
+(304) What's on your mouse pad? its blue
+(305) Use 5 words to describe how you're feeling? tired, lonely, disappointed, annoyed, depressed 
+(306) Are you bored? yes
+(307) Are you tired? yes
+(308) Are you talking to anyone online? no
+(309) Are you talking to anyone on the phone? no
+(310) Are you lonely or content? lonely
+(311) Are you listening to music? yes
+
+NUMBERS
+
+(312) Do you laugh when you hear the number 69? on the inside 
+(313) Were you lying about your answer to the previous question? no
+(314) Do you actually know your social security number? yes
+(315) Do you actually know your IP address? no
+(316) Do you know what an IP address is? yes
+(317) Do you know the four-character extension on your zip-code? no
+(318) Have you ever thought there were too many numbers floating around in our lives? yes
+(319) Does your head hurt when you think of infinity, imaginary numbers, irrational numbers? yes
+(320) What do you think of pi? pre-calculus
+(321) Have you got a fave number? 28
+(322) How many rings before you take the phone? i dont wait a certain number..
+(323) Do you type with your fingers on the right keys? nah
+(324) How many CD's do you have? a lot, mostly burned ones
+
+COMPUTERS
+
+(325) Mac or PC? pc
+(326) How much do you actually care about the inner workings of your computer as long as it works? not a lot
+(327) Do you ever begin preferring IMs to other forms of conversations? no
+(328) Do you find you're different talking more through IMs than face-to-face or telephone? not really
+(329) Have you ever ended bid on something on eBay and regretted it later? no
+(330) How much time do you spend online each week? too much
+(331) Is the Internet one of the modern things you could never live without? yes
+(332) Do you even receive snail mail letters anymore? no
+(333) Send any? no
+(334) What's your fave smiley? ; )
+(335) If you could meet anyone in the world, living or not, who would it be? hmm thats a good question
+(336) Who is your idol? dont have one
+(337) What band has the funniest name? Jump, Little Children"
+"eventtime","2005-04-02 13:45:00"
+"url","http://baconpwnsj00.livejournal.com/13233.html"
+"userid","1305"
+"itemid","50"
+"event","MDEuIEkgaGF2ZSBuZXZlciBraXNzZWQgc29tZW9uZSBvZiB0aGUgc2FtZSBzZXggb24gdGhlIGxpcHMuPEJSPjAyLiBJIHNlZSBhIHRoZXJhcGlzdC48QlI+MDMuIEknbSB0aGUgeW91bmdlc3QgY2hpbGQuPEJSPjxTVFJPTkc+MDQuIEkgYW0gZHJhd24gdG8gdGhpbmdzIGFzc29jaWF0ZWQgd2l0aCBzYWRuZXNzLjwvU1RST05HPjxCUj4wNS4gSSBoYXZlIGdhdWdlZCBlYXJyaW5ncy48QlI+MDYuIEkgd2VhciBibGFjayBleWVsaW5lciBldmVyeSBkYXkuPEJSPjxTVFJPTkc+MDcuIEkgYW0gZXh0cmVtZWx5IGluZmx1ZW5jZWQgYnkga2luZG5lc3MuPC9TVFJPTkc+PEJSPjxTVFJPTkc+MDguIEkgbG92ZSB0byB3cml0ZS48L1NUUk9ORz48QlI+PFNUUk9ORz4wOS4gSSBjYW4ndCBsaXZlIHdpdGhvdXQgbGlwZ2xvc3MuPEJSPjEwLiBJJ20gcHJvYmFibHkgZW1vdGlvbmFsbHkgc2NhcnJlZC48L1NUUk9ORz4gPEJSPjExLiBJIGxpdmVkIGluIFRhaG9lLiZuYnNwOyA8QlI+PFNUUk9ORz4xMi4gSSBzcGVuZCBtb25leSBJIGhhdmUuIDxCUj4xMy4gSeKAmWxsIGJlIGluIGNvbGxlZ2UvdW5pdmVyc2l0eSBmb3Igb3ZlciA0IHllYXJzLjwvU1RST05HPjxCUj4xNC4gSSBsb3ZlIGRlc2lnbmVyIGhhbmRiYWdzLjxCUj4xNS4gSSd2ZSBoYWQgYSBjb25jdXNzaW9uIGJlZm9yZS48QlI+MTYuIEknbSBub3QgZ29vZCB3aXRoIGNvbmZyb250YXRpb24uIDxCUj48U1RST05HPjE3LiBJIGxvdmVkIHRoZSBCYWNrc3RyZWV0IEJveXMgJmFtcDsgTlNZTkM8QlI+MTguIEkgaGF2ZSBtb3JlIHRoYW4gYSBjb3VwbGUgaG9ycmlibGUgbWVtb3JpZXMuPC9TVFJPTkc+IDxCUj4xOS4gSSdtIGFkZGljdGVkIHRvIERlZ3Jhc3NpLiA8QlI+MjAuIEkndmUgdHJpZWQgd3JpdGluZyBwb2V0cnkgYmVmb3JlLiA8QlI+MjEuIE15IGZpcnN0IGtpc3Mgd2FzIHVuZXhwZWN0ZWQuIDxCUj4yMi4gSSdtIG5vdCBhIGZhbiBvZiByYXAuIC0gbm90IHRvZGF5J3MgcmFwLjxCUj48U1RST05HPjIzLiBJIGxvdmUgdGFraW5nIHBpY3R1cmVzLiA8QlI+MjQuIEkgaGF0ZSBnaXJscyB3aG8gYXJlIGZha2UuIDxCUj4yNS4gSSBjYW4gYmUgbWVhbiB3aGVuIEkgd2FudCB0by4gPEJSPjI2LiBXaGVuIEkgYWxsb3cgbXlzZWxmIHRvIGdldCBjbG9zZSB0byBwZW9wbGUsIEkgZ2V0IGF0dGFjaGVkLjwvU1RST05HPjxCUj4yNy4gSSBhbSBub3Qgc3RyYWlnaHQuJm5ic3A7IDxCUj4yOC4gSSBoYXZlIHdheSB0b28gbWFueSBwYWlycyBvZiBzaG9lcy4gPEJSPjI5LiBJIHdhcyBpbnRvIEhvdCBXaGVlbHMgYXMgYSBjaGlsZC4gPEJSPjxTVFJPTkc+MzAuIEkgZHJlc3MgaG93IEkgZmVlbCB0aGF0IGRheS48QlI+MzEuIE15IHJvb20gaXMgcGFpbnRlZCBhIGNvbG9yIG90aGVyIHRoYW4gd2hpdGUuIDxCUj4zMi4gSSBjcnkgdmVyeSBlYXNpbHkuPC9TVFJPTkc+PEJSPjMzLiBJJ20gYWx3YXlzIGVhcmx5LjxCUj48U1RST05HPjM0LiBJIGJhcmVseSBldmVyIHN0dWR5IGZvciB0ZXN0cy4gPEJSPjM1LiBNeSBiaXJ0aGRheSBpcyBteSBmYXZvcml0ZSBob2xpZGF5LjxCUj4zNi4gSSBoYXZlIHRvbyBtYW55IGNsb3RoZXMgZm9yIG15IGNsb3NldC9kcmVzc2VyLjwvU1RST05HPjxCUj4zNy4gSSBhbSBhIG1vcm5pbmcgcGVyc29uLjxCUj48U1RST05HPjM4LiBJIHdpc2ggSSB3ZXJlIHNtYXJ0ZXIuIDxCUj4zOS4gSSBiZWxpZXZlIHRoYXQgaXQgaXMgd3JvbmcgdG8gYmUgZ2F5LjwvU1RST05HPjxCUj40MC4gSSB0aGluayB0aGF0IGl04oCZcyBwZXJmZWN0bHkgb2theSB0byBiZSBnYXkuIDxCUj48U1RST05HPjQxLiBObyBvbmUgcmVhbGx5IGtub3dzIG1lLjwvU1RST05HPiA8QlI+NDIuIEkgZG9uJ3QgaGF2ZSBtYW55IGJhZCBoYWlyIGRheXMuPEJSPjxTVFJPTkc+NDMuIEkgc29tZXRpbWVzIGZpZ2h0IHdpdGggbXkgcGFyZW50cy48QlI+NDQuIEkgYW0gcGFzc2lvbmF0ZSBhYm91dCBteSBpbnRlcmVzdHMuPEJSPjQ1LiBJIGhhdmUgaGFkIHRoZSBjaGlja2VuIHBveC48L1NUUk9ORz48QlI+NDYuIEknbSBhIGhvcGVsZXNzIHJvbWFudGljLjxCUj48U1RST05HPjQ3LiBJIGZlZWwgZW1wdHkgc29tZXRpbWVzLjxCUj40OC4gSSBhbS93YXMgbW9zdCBsaWtlbHkgY2xpbmljYWxseSBkZXByZXNzZWQgYXQgYSBwb2ludCBpbiBteSBsaWZlLjwvU1RST05HPjxCUj40OS4gSSBhbSBubyBsb25nZXIgZGVwcmVzc2VkLjxCUj41MC4gSSBhbSB2ZXJ5IG91dGdvaW5nLjxCUj41MS4gQ2hyaXN0bWFzIGlzIG15IGZhdm9yaXRlIGhvbGlkYXkuPEJSPjxTVFJPTkc+NTIuIEkgY2FuIGJlIHZlcnkgaW5zZWN1cmUuPC9TVFJPTkc+PEJSPjUzLiBJIGRvbid0IG5vdGljZSBpdCwgYnV0IEknbSB0b2xkIEknbSB2ZXJ5IHNvZnRzcG9rZW4uPEJSPjxTVFJPTkc+NTQuIEkgaGF0ZSBpZ25vcmFudCBwZW9wbGUuPC9TVFJPTkc+IDxCUj41NS4gSSBsb3ZlIHRoZSBjb2xvciB5ZWxsb3cuIDxCUj41Ni4gSSBsb3ZlIGd1eXMgdGhhdCBwbGF5IHRoZSBndWl0YXIuIDxCUj41Ny4gSSBzdGF0ZSB0aGUgb2J2aW91cy4gPEJSPjU4LiBJJ20gYSBoYXBweSBwZXJzb24uPEJSPjU5LiBJIGhhdmUgYWJzb2x1dGVseSBubyBzZWxmLWNvbmZpZGVuY2UuIDxCUj48U1RST05HPjYwLiBJJ3ZlIGNvbnRlbXBsYXRlZCBzdWljaWRlLjwvU1RST05HPiA8QlI+NjEuIEkgaGF0ZSBjbGVhbmluZyBteSByb29tLjxCUj48U1RST05HPjYyLiBJIHRlbmQgdG8gZ2V0IGplYWxvdXMuPC9TVFJPTkc+IDxCUj42My4gSSBsb3ZlIHRvIHBsYXkgdmlkZW8gZ2FtZXMuPEJSPjxTVFJPTkc+NjQuIEkgbG92ZSBKb2huIE1heWVyLiA8QlI+NjUuIEkgZ2V0IG1vcmUgdXBzZXQgd2hlbiBJIHNlZSBhbiBhbmltYWwgaHVydCB0aGFuIGEgcGVyc29uLjwvU1RST05HPjxCUj42Ni4gSSdtIGEgdmVnZXRhcmlhbi92ZWdhbi9kb24ndCBlYXQgYmVlZi4gPEJSPjY3LiBJJ3ZlIGhhZCBhIGNydXNoIG9uIGEgdGVhY2hlciBiZWZvcmUuIDxCUj48U1RST05HPjY4LiBJIGFtIHRvbyBmb3JnaXZpbmcuPC9TVFJPTkc+PEJSPjcwLiBJIGhhdmUgYSBnb29kIHNlbnNlIG9mIGRpcmVjdGlvbi4gPEJSPjcxLiBJJ3ZlIG5ldmVyIGhhZCBhIGJveWZyaWVuZC9naXJsZnJpZW5kIGJlZm9yZS4gPEJSPjcyLiBJJ3ZlIHBsYXllZCBhIG11c2ljYWwgaW5zdHJ1bWVudCBmb3IgbW9yZSB0aGFuIDUgeWVhcnMuPEJSPjxTVFJPTkc+NzMuIEkgY2FuIGZ1bmN0aW9uIHBlcmZlY3RseSB3ZWxsIHdpdGhvdXQgYSBnaXJsZnJpZW5kL2JveWZyaWVuZC4gPEJSPjc0LiBJIGxvdmUga2lzc2VzIG9uIHRoZSBmb3JlaGVhZC4gPEJSPjc1LiBJIGxvdmUgdGhlIGNvbG9yIGJsdWUuPEJSPjc2LiBJIGRvbid0IHNldy4gPEJSPjc3LiBJIGFtIG5vdCBhZGRpY3RlZCB0byBkcnVncy48QlI+NzguIEkgd2VhciBjb250YWN0czxCUj43OS4gSSBoYXRlIGl0IHdoZW4gcGVvcGxlIHNheSB0aGV5IGhhdGUgQnVzaCBqdXN0IGJlY2F1c2UgaGUgaXMgYSBtb3Jvbi48L1NUUk9ORz4gPEJSPjgwLiBJIGhhdGUgQnVzaC4gPEJSPjxTVFJPTkc+ODEuIEkgZG9uJ3QgdGFrZSBjcml0aWNpc20gd2VsbC4gPEJSPjgyLiBDb25mb3JtaXR5IGlzIHN0dXBpZC4gPEJSPjwvU1RST05HPjgzLiBDaHJpcyBDYXJyYWJiYSBpcyBvbmUgb2YgdGhlIHNleGllc3QgbWVuIGFsaXZlLjxCUj44NC4gQ2hyaXMgQ2FycmFiYmEgc2hvdWxkIGRpZS48QlI+ODUuIEkgbG92ZSBteSBmYW1pbHkuPEJSPjxTVFJPTkc+ODYuIEkgZG9uJ3QgbWluZCBnZXR0aW5nIHNob3RzLjxCUj44Ny4gSSBhbSBhIHBlcmZlY3Rpb25pc3Qgd2hlbiBpdCBjb21lcyB0byBjZXJ0YWluIHRoaW5ncy48L1NUUk9ORz48QlI+ODguIEkgYWx3YXlzIHdhbnRlZCB0byBsZWFybiB0byBwbGF5IHRoZSBkcnVtcy48QlI+PFNUUk9ORz44OS4gSSBjYW4gYmUgdG9vIGhhcmQgb24gbXlzZWxmLjwvU1RST05HPiA8QlI+OTAuIEknbSBwcm9iYWJseSBnb2luZyB0byBoYXZlIHByZW1hcml0YWwgc2V4LiA8QlI+OTEuIEkgZG9uJ3QgbGlrZSBteSBub3NlLiA8QlI+OTIuIEkgYW0gdmVyeSByZWxpZ2lvdXMuPEJSPjkzLiBJIHN0aWxsIGFjdCBsaWtlIGEgbGl0dGxlIGtpZC4gPEJSPjxTVFJPTkc+OTQuIEkgYW0gcmlkaWN1bG91c2x5IGluZGVjaXNpdmUuIDxCUj45NS4gSSBiZWxpZXZlIGluIGEgaGlnaGVyIHBvd2VyIG9yIHNvbWUgZm9ybSBvZiBhbiBhZnRlcmxpZmUuIDxCUj45Ni4gSSBsb3ZlIG11c2ljLiA8QlI+OTcuIEkgaGF2ZSBwcm9ibGVtcyBsZXR0aW5nIGdvIG9mIHBlb3BsZS48L1NUUk9ORz48QlI+OTguIEplc3NlIExhY2V5IHdyaXRlcyBzb21lIG9mIHRoZSBtb3N0IGFtYXppbmcgbHlyaWNzIGV2ZXIuIDxCUj45OS4gSSBkb24ndCByZWFsbHkgbGlrZSBpY2UgY3JlYW0uJm5ic3A7IDxCUj4xMDAuIEkgYW0gaW4gbG92ZS4="
+"eventtime","2005-04-02 12:56:00"
+"url","http://baconpwnsj00.livejournal.com/12837.html"
+"userid","1305"
+"itemid","44"
+"event","<P>Yay for boys who::: </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; buy you flowers for no reason<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; want you to be happy no matter what<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<STRONG>hold both hands</STRONG><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; you can fall asleep on<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; you feel safe with<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; protect you from snakes</P>"
+"eventtime","2005-02-02 21:22:00"
+"current_moodid","4"
+"url","http://baconpwnsj00.livejournal.com/11279.html"
+"userid","1305"

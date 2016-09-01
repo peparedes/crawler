@@ -1,0 +1,991 @@
+"names","values"
+"itemid","39"
+"event","V291bGQgeW91IGRvIG1ldGggaWYgaXQgd2FzIGxlZ2FsaXplZD8NCk5vDQoNCkFib3J0aW9uOiBmb3Igb3IgYWdhaW5zdD8NCk5vdCBGT1IgYWJvcnRpb24sIGJ1dCBmb3IgcHJpdmFjeS4gSSBjYW4gc2VlIGJvdGggc2lkZXMgb2YgdGhlIGlzc3VlLCBidXQgSSBkb24ndCBzZWUgaXQgYXMgYW55IG9mIG15IGJ1c2luZXNzLCBzbyBpdCdzIG5vdCBzb21ldGhpbmcgSSBzcGVuZCBhIGxvdCBvZiB0aW1lIHRoaW5raW5nIGFib3V0LiBJdCdzIG5vdCBteSBwbGFjZSB0byB0ZWxsIHdvbWVuIHdoYXQgdG8gZG8uDQoNCldvdWxkIHlvdXIgY291bnRyeSBmYWxsIHdpdGggYSB3b21hbiBwcmVzaWRlbnQ/DQpPbmx5IGlmIGhlciBuYW1lcyBpcyBTYXJhaCBQYWxpbi4NCg0KRG8geW91IHN1cHBvcnQgdGhlIGRlYXRoIHBlbmFsdHk/DQpObywgdG9vIG1hbnkgZXhhbXBsZXMgb2YgaW5ub2NlbnRzIGJlaW5nIGZhbHNlbHkgaW1wcmlzb25lZCwgbm90IHdvcnRoIGV4ZWN1dGluZyBhbiBpbm5vY2VudCBwZXJzb24uDQoNCkRvIHlvdSB3aXNoIG1hcmlqdWFuYSB3b3VsZCBiZSBsZWdhbGl6ZWQgYWxyZWFkeT8NClllcywgZG9uJ3Qgc21va2UgaXQgbXlzZWxmLCBidXQgdGhlIHdhciBvbiBkcnVncyAobWFyaWp1YW5hIHBhcnRpY3VsYXJseSkgaXMgYSBmYWlsdXJlLg0KDQpBcmUgeW91IGZvciBvciBhZ2FpbnN0IHByZW1hcml0YWwgc2V4Pw0KSSdtIG5vdCBGT1IgcHJlbWFyaXRhbCBzZXggYW55bW9yZSB0aGFuIEknbSBBR0FJTlNUIHByZW1hcml0YWwgc2V4LCBpZiB5b3UncmUgc2FmZSB0aGVuIGdvIGZvciBpdCwgb25jZSBhZ2FpbiBub25lIG9mIG15IGJ1c2luZXNzLg0KDQpEbyB5b3UgYmVsaWV2ZSBpbiBHb2Q/DQpBdCB0aGlzIG1vbWVudCBub3Qgc3VyZSB3aGF0IEkgYmVsaWV2ZSBpbiwgbm90IHRoZSBDaHJpc3RpYW4gR29kLCBidXQgc29tZSBzb3J0IG9mIG15c3RpYyByZXZlbGF0aW9uIGV4cHJlc3NlZCB0aHJvdWdoIG5hdHVyZSwgYSBjb3NtaWMgbXlzdGVyeS4gQW5uaWUgRGlsbGFyZCdzICJQaWxncmltIGF0IFRpbmtlciBDcmVlayIgZXhwcmVzc2VzIG15IGN1cnJlbnQgYmVsaWVmcyB3ZWxsLiBCdXQgSSBkb24ndCBiZWxpZXZlIGluIGFuIG9sZCBtYW4gaW4gYSB0aHJvbmUuDQoNCkRvIHlvdSB0aGluayBzYW1lIHNleCBtYXJyaWFnZSBzaG91bGQgYmUgbGVnYWxpemVkPw0KWWVzLCBzdHJvbmdseS4NCg0KRG8geW91IHRoaW5rIGl04oCZcyB3cm9uZyB0aGF0IHNvIG1hbnkgaWxsZWdhbCBIaXNwYW5pY3MgYXJlIG1vdmluZyB0byB0aGUgVVNBPw0KTm8sIG5vdCBpbiBhbGwgY2FzZXMuDQoNCkEgMTIgeWVhciBvbGQgZ2lybCBoYXMgYSBiYWJ5Li4uIHNob3VsZCBzaGUga2VlcCBpdD8NCkhvbmVzdGx5LCBhIDEyLXllYXItb2xkIGhhcyBubyBidXNpbmVzcyB3aXRoIGEgY2hpbGQsIG9idmlvdXNseSBJIGhhdmUgbm8gc2F5IGluIHRoZSBtYXR0ZXIsIGJ1dCBpZiBJIHdhcyBoZXIgcGFyZW50IEknZCBlbmNvdXJhZ2UgaGVyIHRvIGFib3J0Lg0KDQpTaG91bGQgdGhlIGFsY29ob2wgYWdlIGJlIGxvd2VyZWQgdG8gMTg/DQpObywgMTkuIFdvbid0IGhhdmUgaGlnaCBzY2hvb2wgc2VuaW9ycyBidXlpbmcgYWxjb2hvbCBmb3IgZnJlc2htZW4uDQoNClNob3VsZCB0aGUgd2FyIGluIElyYXEgYmUgY2FsbGVkIG9mZj8NClRpbWV0YWJsZSBmb3Igd2l0aGRyYXdhbC4NCg0KQXNzaXN0ZWQgc3VpY2lkZSBpcyBpbGxlZ2FsLi4uIGRvIHlvdSBhZ3JlZT8NCk5vLg0KDQpEbyB5b3UgYmVsaWV2ZSBpbiBzcGFua2luZyB5b3VyIGNoaWxkcmVuPw0KTm8uDQoNCldvdWxkIHlvdSBidXJuIGFuIEFtZXJpY2FuIGZsYWcgZm9yIGEgbWlsbGlvbiBkb2xsYXJzPw0KVW0sIHllcywgcHJvYmFibHkgdG8gYmUgaG9uZXN0LiANCg0KQSBtb3RoZXIgaXMgZGVjbGFyZWQgaW5ub2NlbnQgYWZ0ZXIgbXVyZGVyaW5nIGhlciA1IGNoaWxkcmVuIGluIGEgdGVtcG9yYXJ5IGluc2FuaXR5IGNhc2UuLi4gZG8geW91IGFncmVlPw0KSGFyZCB0byBzYXkgdGhpcyBpcyBhIHN0dXBpZCBxdWVzdGlvbi4NCg0KQXJlIHlvdSBhZnJhaWQgb3RoZXJzIHdpbGwganVkZ2UgeW91IGZvciByZWFkaW5nIHNvbWUgb2YgeW91ciBhbnN3ZXJzPw0KSGFoYSBubywgbm9ib2R5IHdpbGwgZXZlbiByZWFkIHRoaXMu"
+"eventtime","2008-09-18 22:52:00"
+"url","http://corporealframe.livejournal.com/9994.html"
+"userid","3130"
+"itemid","38"
+"event","Fleet Foxes - White Winter Hymnal
+
+http://www.youtube.com/watch?v=KCzIw4W7fdQ"
+"eventtime","2008-07-07 11:29:00"
+"url","http://corporealframe.livejournal.com/9749.html"
+"userid","3130"
+"itemid","37"
+"event","""She had very few clothes on
+And big indiscreet trees
+Threw their leaves against the panes
+Slyly, very close.
+
+Sitting in my big chair,
+Half naked, she clasped her hands.
+Her small feet so delicate, so delicate,
+Trembled with pleasure on the floor.
+
+--The color of wax, I watched
+A small nervous ray of light
+Flutter in her smile
+And on her breast--a fly on the rose-bush.
+
+--I kissed her delicate ankles.
+Abruptly she laughed. It was soft
+And it spread out in clear trills,
+A lovely crystal laughter.
+
+Her small feet under the petticoat
+Escaped. ""Please stop!""
+--When the first boldness was permitted,
+The laugh pretended to punish!
+
+--Poor things trembling under my lips,
+I softly kissed her eyes:
+--She threw her sentimental head
+Backward: ""Oh! that's too much!...
+
+""Sir, I have something to say to you...""
+--What was left I put on her breast
+In a kiss, which made her laugh
+With a kind laugh that was willing...
+
+--She had very few clothes on
+And big indiscreet trees
+Threw their leaves against the panes
+Slyly, very close, very close."""
+"eventtime","2008-06-24 20:13:00"
+"url","http://corporealframe.livejournal.com/9643.html"
+"userid","3130"
+"itemid","36"
+"event","SWYgT2JhbWEgcmVhZHMgbXkgam91cm5hbCAod2hpY2ggaGUgbW9zdCBjZXJ0YWlubHkgZG9lcyksIEknZCByZWNvbW1lbmQgaW5jb3Jwb3JhdGluZyB0aGlzIFdoaXRtYW4gcG9lbSBhbmQgdGhpcyBWaXJnaW5pYSBXb29sZiBwYXNzYWdlIGludG8gb25lIG9yIHNldmVyYWwgb2YgaGlzIHNwZWVjaGVzLiBIZSBjYW4gdGhhbmsgbWUgbGF0ZXIuDQoNCiJPbmUgc29uZywgQW1lcmljYSwgYmVmb3JlIEkgZ28sIA0KSeKAmWQgc2luZywgb+KAmWVyIGFsbCB0aGUgcmVzdCwgd2l0aCB0cnVtcGV0IHNvdW5kLCANCkZvciB0aGVl4oCUdGhlIEZ1dHVyZS4gDQogIA0KSeKAmWQgc293IGEgc2VlZCBmb3IgdGhlZSBvZiBlbmRsZXNzIE5hdGlvbmFsaXR5OyANCknigJlkIGZhc2hpb24gdGh5IEVuc2VtYmxlLCBpbmNsdWRpbmcgQm9keSBhbmQgU291bDsNCknigJlkIHNob3csIGF3YXkgYWhlYWQsIHRoeSByZWFsIFVuaW9uLCBhbmQgaG93IGl0IG1heSBiZSBhY2NvbXBsaXNo4oCZZC4gDQogIA0KKFRoZSBwYXRocyB0byB0aGUgSG91c2UgSSBzZWVrIHRvIG1ha2UsIA0KQnV0IGxlYXZlIHRvIHRob3NlIHRvIGNvbWUsIHRoZSBIb3VzZSBpdHNlbGYuKSANCiAgDQpCZWxpZWYgSSBzaW5n4oCUYW5kIFByZXBhcmF0aW9uOyANCkFzIExpZmUgYW5kIE5hdHVyZSBhcmUgbm90IGdyZWF0IHdpdGggcmVmZXJlbmNlIHRvIHRoZSBQcmVzZW50IG9ubHksDQpCdXQgZ3JlYXRlciBzdGlsbCBmcm9tIHdoYXQgaXMgeWV0IHRvIGNvbWUsIA0KT3V0IG9mIHRoYXQgZm9ybXVsYSBmb3IgVGhlZSBJIHNpbmcuIg0KDQp+V2FsdCBXaGl0bWFuDQoNCiJXZSBhcmUgbm90IHNsYXZlcyBib3VuZCB0byBzdWZmZXIgaW5jZXNzYW50bHkgdW5yZWNvcmRlZCBwZXR0eSBibG93cyBvbiBvdXIgYmVudCBiYWNrcy4gV2UgYXJlIG5vdCBzaGVlcCBlaXRoZXIsIGZvbGxvd2luZyBhIG1hc3Rlci4gV2UgYXJlIGNyZWF0b3JzLiBXZSB0b28gaGF2ZSBtYWRlIHNvbWV0aGluZyB0aGF0IHdpbGwgam9pbiB0aGUgaW5udW1lcmFibGUgY29uZ3JlZ2F0aW9ucyBvZiBwYXN0IHRpbWUuIFdlIHRvbywgYXMgd2UgcHV0IG9uIG91ciBoYXRzIGFuZCBwdXNoIG9wZW4gdGhlIGRvb3IsIHN0cmlkZSBub3QgaW50byBjaGFvcywgYnV0IGludG8gYSB3b3JsZCB0aGF0IG91ciBvd24gZm9yY2UgY2FuIHN1Ymp1Z2F0ZSBhbmQgbWFrZSBwYXJ0IG9mIHRoZSBpbGx1bWluZWQgYW5kIGV2ZXJsYXN0aW5nIHJvYWQuIg0KflZpcmdpbmlhIFdvb2xm"
+"eventtime","2008-06-04 01:56:00"
+"url","http://corporealframe.livejournal.com/9327.html"
+"userid","3130"
+"itemid","35"
+"event","""Oh, I'm sailin' away my own true love,
+I'm sailin' away in the morning.
+Is there something I can send you from across the sea,
+From the place that I'll be landing?""
+
+No, there's nothin' you can send me, my own true love,
+There's nothin' I'm wishing to be ownin'.
+Just to carry yourself back to me unspoiled,
+From across that lonesome ocean.
+
+""Oh, but I just thought you might want something fine
+Made of silver or of golden,
+Either from the mountains of Madrid
+Or from the coast of Barcelona.""
+
+But if I had the stars from the darkest night
+And the diamonds from the deepest ocean,
+I'd forsake them all for your sweet kiss,
+For that's all I'm wishin' to be ownin'.
+
+""But I might be gone a long, long time
+And it's only that I'm askin',
+Is there something I can send you to remember me by,
+To make your time more easy passin'.""
+
+Oh, how can, how can you ask me again,
+It only brings me sorrow.
+The same thing I would want today,
+I would want again tomorrow.
+
+I got a letter on a lonesome day,
+It was from her ship a-sailin',
+Saying I don't know when I'll be comin' back again,
+It depends on how I'm a-feelin'.
+
+Well, if you, my love, must think that-a-way,
+I'm sure your mind is roamin'.
+I'm sure your thoughts are not with me,
+But with the country to where you're goin'.
+
+So take heed, take heed of the western winds,
+Take heed of the stormy weather.
+And yes, there's something you can send back to me,
+Spanish boots of Spanish leather."
+"eventtime","2008-05-11 00:44:00"
+"url","http://corporealframe.livejournal.com/9077.html"
+"userid","3130"
+"itemid","34"
+"event","I think this lyric is particularly beautiful...it is the first in Hart Crane's long poem ""The Bridge,"" published in 1933. 
+
+
+How many dawns, chill from his rippling rest
+The seagull's wing shall dip and pivot him,
+Shedding white rings of tumult, building high
+Over the chained bay waters Liberty--
+
+Then, with inviolate curve, forsake our eyes
+As apparational as sails that cross
+Some page of figures to be filed away;
+--Till elevators drop us from our day...
+
+I think of cinemas, panoramic sleights
+With multitudes bent toward some flashing scene
+Never disclosed, but hastened to again,
+Foretold to others eyes on the same screen;
+
+And Thee, across the harbor, silver-paced
+As though the sun took step of thee, yet left
+Some motion ever unspent in thy stride,--
+Implicitly thy freedom staying thee!
+
+Out of subway scuttle, cell or loft
+A bedlamite speeds to thy parapets,
+Tilting there momently, shrill shirt ballooning,
+A jest falls from the speechless caravan.
+
+Down Wall, from girder into streen noon leaks,
+A rip-tooth of the sky's acetylene;
+All afternoon the cloud-flown derricks turn...
+Thy cables breathe the North Atlantic still.
+
+And obscure as that heaven of the Jews,
+Thy guerdon...Accolade thou dost bestow
+Of anonymity time cannot raise:
+Vibrant reprieve and pardon thou dost show.
+
+O harp and altar, of the fury fused,
+(How could mere toil align thy choiring strings!)
+Teriffic threshold of the prophet's pledge,
+Prayer of pariah, and the lover's cry,--
+
+Again the traffic lights that skim thy swift
+Unfractioned idiom, immaculate sigh of stars,
+Beading thy path -- condense eternity:
+And we have seen night lifted in thine arms.
+
+Under thy shadow by the piers I waited;
+Only in darkness is thy shadow clear.
+The city's fiery parcels all undone,
+Already snow submerges an iron year...
+
+O Sleepless as the river under thee,
+Vaulting the sea, the prairies' dreaming sod,
+Unto us lowliest sometimes sweep, descend
+And of the curveship lend a myth to God.
+
+~Hart Crane"
+"eventtime","2008-05-05 23:46:00"
+"url","http://corporealframe.livejournal.com/8872.html"
+"userid","3130"
+"itemid","33"
+"event","""The time will come 
+when, with elation 
+you will greet yourself arriving 
+at your own door, in your own mirror 
+and each will smile at the other's welcome, 
+
+and say, sit here. Eat. 
+You will love again the stranger who was your self.
+Give wine. Give bread. Give back your heart 
+to itself, to the stranger who has loved you 
+
+all your life, whom you ignored 
+for another, who knows you by heart. 
+Take down the love letters from the bookshelf, 
+
+the photographs, the desperate notes, 
+peel your own image from the mirror. 
+Sit. Feast on your life."" 
+~Derek Walcott"
+"eventtime","2008-03-25 11:52:00"
+"url","http://corporealframe.livejournal.com/8696.html"
+"userid","3130"
+"itemid","32"
+"event","""Pursuit"" by H.D.
+
+What do I care
+that the stream is trampled,
+the sand on the stream-bank
+still holds the print of your foot:
+the heel is cut deep.
+I see another mark
+on the grass ridge of the bank--
+it points toward the wood-path.
+I have lost the third
+in the packed earth.
+
+But here
+a wild-hyacinth stalk is snapped:
+the purple buds--half ripe--
+show deep purple
+where your heel pressed.
+
+A patch of flowering grass,
+low, trailing--
+you brushed this:
+the green stems show yellow-green
+where you lifted--turned the earth-side
+to the light:
+this and a dead leaf-spine,
+split across,
+show where you passsed.
+
+You were swift, swift!
+here the forest ledge slopes--
+rain has furrowed the roots.
+Your hand caught at this;
+the root snapped under your weight.
+
+I can almost follow the note
+where it touched this slender tree
+and the next answered--
+and the next.
+
+And you climbed yet further!
+you stopped by the dwarf-cornel--
+whirled on your heels,
+doubled on your track.
+
+This is clear--
+you fell on the downward slope,
+you dragged a bruised thigh--you limped--
+you clutched this larch.
+
+Did you head, bent back,
+search further--
+clear through the green leaf-moss
+of the larch branches?
+
+Did you clutch, 
+stammer with short reath and gasp:
+wood-daemons grant life--
+give life--I am almost lost.
+
+For some wood-daemon
+has lightened your steps.
+I can find no trace of you
+in the larch-cones of the underbrush."
+"eventtime","2008-03-01 12:46:00"
+"url","http://corporealframe.livejournal.com/8407.html"
+"userid","3130"
+"itemid","31"
+"event","I have said that the soul is not more than the body, 
+And I have said that the body is not more than the soul, 
+And nothing, not God, is greater to one than one's self is, 
+And whoever walks a furlong without sympathy walks to his own 
+funeral drest in his shroud, 
+And I or you pocketless of a dime may purchase the pick of the 
+earth, 
+And to glance with an eye or show a bean in its pod confounds the 
+learning of all times, 
+And there is no trade or employment but the young man following it 
+may become a hero, 
+And there is no object so soft but it makes a hub for the wheel'd 
+universe, 
+And I say to any man or woman, Let your soul stand cool and composed 
+before a million universes. 
+
+And I say to mankind, Be not curious about God, 
+For I who am curious about each am not curious about God, 
+(No array of terms can say how much I am at peace about God and 
+about death.) 
+
+I hear and behold God in every object, yet understand God not in the 
+least, 
+Nor do I understand who there can be more wonderful than myself. 
+
+Why should I wish to see God better than this day? 
+I see something of God each hour of the twenty-four, and each moment 
+then, 
+In the faces of men and women I see God, and in my own face in the 
+glass, 
+I find letters from God dropt in the street, and every one is sign'd 
+by God's name, 
+And I leave them where they are, for I know that wheresoe'er I go, 
+Others will punctually come for ever and ever.
+
+~Whitman
+Song of Myself"
+"eventtime","2008-02-23 00:13:00"
+"url","http://corporealframe.livejournal.com/7999.html"
+"userid","3130"
+"itemid","30"
+"event","It's time for my biannual LJ entry. Last time I was furious, this time I'm impossibly excited for my upcoming 21st birthday. Being that it is technically August 22nd, I will be turning 21 TOMORROW. Yes, on Thursday August 23rd, Nathan Strobel will be 21.
+
+Eva and I were strolling through the beer section in Giant today picking out preferred beverages, discussing possible liquors fit for purchase, and purchasing mixers for said liquors, and despite this very tangible activity, I'm still in utter awe of the fact that I'm going to be a full legal adult.
+
+In a way I find it rather depressing that this is my last milestone birthday before I turn 30, have a full-time job, and start joking about how I haven't aged a day since 28. But whaddya gonna do. I'm rather torn on this growing up thing. I'd like to have a (large) house with Eva, two dogs, two cats, two kids, and a Mercedes. I'd also like it if my parents gave me money all the time with no strings attached so I can just sit around and read teen dating message boards all day. Unfortunately, that's not likely to happen.
+
+In the spirit of preparing for this inevitability, I've gotten a job at the Free Lance-Star which is stressful, confusing, and anxiety-producing but ultimately fulfilling, I believe. Open the sports page and look at all the scores, box scores, and short summaries of high school volleyball matches that no one ever looks at. That's me. It's an entry level job now (albeit a pretty goddam hard and actually pretty important one) so that I can actually get something decent after graduation. At the beginning I was incredibly anxious and dour about the whole ordeal, but I've come to terms with it and even if I don't love it, I think it will fit into a routine and will ultimately be quite beneficial. So whatever.
+
+Just a few days ago I wanted to quit and just keep the mindless desk aid job at school that I applied for last year, but Eva was able to talk some sense into me, and now I'm glad she did because I'm starting to feel more comfortable with it.
+
+Anyways, I hope everyone has a fantastic school year, good day."
+"eventtime","2007-08-22 02:18:00"
+"url","http://corporealframe.livejournal.com/7753.html"
+"userid","3130"
+"itemid","29"
+"event","I know this is shocking to those of you on my friends list (all 3 of you) but I'm actually updating my lj. I just need a place to vent.
+
+I would just like to say that I HATE my neighbor. HATE HATE HATE my neighbor. I hate him with the white hot intensity of 1000 burning suns. I hope he chokes on broken glass and/or suffers an aortic dissection, preferably at the same time. I am not exaggerating. Those of you who know me are aware that I'm a pretty (VERY) laidback guy. Not much shakes me. Suffice it to say that I AM shaken tonight, very much so.
+
+I won't go into detail, because the offense comes across as being far less egregious than it actually is. The situation is greater than the sum of its parts.
+
+I loathe almost every aspect of living in a dorm. It is the absolute antithesis of my personality. I could live at home, but all said, that would suck almost as much as living on campus. This hall was bearable before HE moved in, but now I spend practically every evening grinning and bearing it until I can force myself to sleep. I need more Xanax, seriously.
+
+Next year Ricky, Eric, and I are moving ONE ROOM (from 414 to 413) because this is the only hall on campus with male triples. I hope to God that my neighbor isn't homesteading. Seriously, everyone pray for me. It would be slightly better because we wouldn't be directly next door to him, but the thought of living within 20 feet of him again next year makes me ill.
+
+Why do I attract people like this? Bad luck? Am I being punished? I don't know. All I want is quiet. Last year I was stuck with a raging alcoholic for a roommate who had his friends over to drink 40s literally every single night. And I lived with that all year, no complaints! I even got an alcohol citation and had to go to the JRB because he and his friends got caught drinking! Jesus Christ. 
+
+I could deal with him. Honestly, once I got used to the whole routine, I could just put on my headphones and drown them out. Even he is kind of a loser (read: huge loser) I still feel that my old roommate was a genuinely nice guy; just a serious alcoholic/pothead. He wasn't a sociopath like my current neighbor is. This kid is literally the typecast serial killer. It is frightening.
+
+I forgot to mention why he is even here. He got kicked out of his former school for walking down the street in nothing but a thong carrying a bong. Yes, seriously.
+
+But Christ, what I wouldn't give to spend some QUIET TIME with Eva on say a Friday night, and go to sleep without having to turn on a fan in an attempt to drown out the horde of drunks alternately blasting drinking songs and screaming.
+
+I fantasize constantly about having a nice little place with Eva where I can do all of the above and actually, like, read a book in some semblance of peace and maybe fall asleep before 3am every night. I also want a dog.
+
+Why is it that a dorm atmosphere is 100% antithetical to learning anything? It makes no sense to me. What happened to the best and the brightest? A majority of the people that live in this dorm seem to be just as stupid as many of the stupid rednecks I thought I left behind in high school. At least they KNEW they were dumb.
+
+I don't mean to sound like an asshole (yes I do, what the hell am I talking about) but I am so fucking sick of so many people on this campus. I am sick to death of the stupid douchebags whose interests on facebook are ""beer, parties, and shit like dat"", whose favorite music is ""anything that gets me pumped, yea boi!"" and whose favorite books are ""yea i dont read much"". Seriously, how the hell did these people get into college. When I was in high school I thought college was like, you know, smart people doing smart things. Don't get me wrong, there are more than enough extremely intelligent and cultured people on this campus that I greatly admire, but they ARE vastly outnumbered.
+
+I guess I've just become quite disenfranchised with the whole song and dance. Most people don't go to college to learn, they go to college 1) because there is lots of alcohol and 2) because their parents are willing to pay 20,000+ dollars for a piece of paper.
+
+This started as a diatribe against my neighbor and ended as a diatribe against stupid people. I don't consider them the same. The kid next door to me is in a class by himself. At least the people I mentioned above have SOME redeeming value, and most of them are actually nice enough people. They just piss me off and I'm especially pissed off right now because it is almost 3am and I should have been asleep two hours ago. But the neighbor is absolute scum. I can't come up with strong enough epithets to describe my hatred for him.
+
+That is all, goodnight."
+"eventtime","2007-04-10 02:13:00"
+"url","http://corporealframe.livejournal.com/7600.html"
+"userid","3130"
+"itemid","28"
+"event","R.I.P. John Lennon (October 9, 1940-December 8 1980)
+
+""Turn off your mind, relax and float down stream,
+It is not dying, it is not dying
+Lay down all thoughts, surrender to the void,
+It is shining, it is shining.
+That you may see the meaning of within
+It is being, it is being
+Love is all and love is everyone
+It is knowing, it is knowing
+That ignorance and hate may mourn the dead
+It is believing, it is believing
+But listen to the colour of your dreams
+It is not living, it is not living
+Or play the game ""Existence"" to the end
+Of the beginning, of the beginning.""
+
+
+I attribute much of my musical growth to the Beatles, John in particular...The impression that his songs made on my teenage ears will never be forgotten. ""1"" blew my mind, and shortly after I bought it, I went out and got every Beatles album I could get my hands on. The summer between sophomore and junior year of high school, I would sit in my room and listen to the White Album all the way through on a nightly basis...every chord is permanently ingrained in my consciousness. The album contains my favorite musical moment by a country mile; Ringo's pained scream of ""I got blisters on my fingers!"" at the end of Helter Skelter. If that ain't fucking hardcore, I don't know what is. It was like they made the album just for me. Revolution 9 would creep the living hell out of me...""number 9, number 9, number 9."" Then they'd lull me to sleep with Good Night. It was like a shot of espresso followed by a glass of chamomile tea. I wish I could go back to those days when I could be truly passionate about a CD or a band for months on end without itching to move onto something different. The Beatles just WERE to me...no influences, no arguments, nobody better, cooler, louder, more dynamic, or better live...they were just the fucking Beatles, and that was more than enough. I mean, I was so passionate about the Beatles, I wrote my application essay to UMW about how they affected my life.
+
+My high school years without the companionship of Help!, Nowhere Man, Yer Blues, I Am The Walrus, Happiness is a Warm Gun, Revolution 9, In My Life, Tomorrow Never Knows, Julia, et al are unthinkable. So thank you for the music, John. I know you don't believe in Heaven, but maybe I'll see you on an alternate plane of existence someday.
+
+By the way, I am fully aware that this is one day late. I just forgot to do it yesterday, because as you know, I don't exactly update my LJ faithfully."
+"eventtime","2006-12-10 00:29:00"
+"url","http://corporealframe.livejournal.com/7251.html"
+"userid","3130"
+"itemid","27"
+"event","I bought a Cannibal Corpse album today. I guess I'm going to hell, even though its pretty fucking awesome."
+"eventtime","2006-08-14 19:53:00"
+"url","http://corporealframe.livejournal.com/6948.html"
+"userid","3130"
+"itemid","26"
+"event","So this summer has been really boring. I'm sick of teaching tennis to little kids, especially at UMW. Its ok with the city. I've taken a liking to some CDs I'd neglected in the past. That's basically been my mission this summer. I have mixed feelings about going back to school, because I know I'll be ready to be home again after like a week. Whatever. The most exciting times this summer have been when I visted Eva/Eva visited me. Otherwise its been just blah. I like kids though. Don't get me wrong."
+"eventtime","2006-08-08 12:28:00"
+"current_moodid","92"
+"url","http://corporealframe.livejournal.com/6848.html"
+"userid","3130"
+"itemid","25"
+"event","Yeah I know no one cares, but I saw Sonic Youth live last night and it was pretty cool. They played way too much new stuff, but whatever. No Teen Age Riot, but they did do Shaking Hell for a 2nd encore. Thurston was funny, he talked about what they had for breakfast. Kim kicked ass. That's about it."
+"eventtime","2006-06-16 14:19:00"
+"url","http://corporealframe.livejournal.com/6524.html"
+"userid","3130"
+"itemid","24"
+"event","Put your iPod/iTunes/pandora.com on shuffle and ask the following questions, then hit next.
+No cheating.
+
+1. What do you think of me, iPod?
+Add It Up - Violent Femmes
+
+2. Will I have a happy life?
+Lonesome Day - Muddy Waters :(
+
+3. What do my friends really think of me?
+Another One Bites The Dust - Queen
+
+4. Do people secretly lust after me?
+Cold Lampin' With Flavor - Public Enemy
+
+5. What does my boy/girlfriend think of me?
+Is This Love? - Clap Your Hands Say Yeah!
+
+6. How can I make myself happy?
+No Life Singed Her - Pavement
+
+7. What should I do with my life?
+The Rooster Moans - Iron & Wine
+
+8. Why must life be so full of pain?
+Elevation - Television
+
+9. How can I maximize my pleasure during sex?
+Jordan's 1st Choice - Against Me!
+
+10. Will I ever have children?
+Shallow - Porcupine Tree
+
+11. Will I die happy?
+Land Locked Blues - Bright Eyes
+
+12. Can you give me some good advice?
+On A Holiday - Brian Wilson
+
+13. Do you know where your children are?
+Untitled - The Cure
+
+14. What do you think happiness is?
+In God's Country - U2
+
+15. What is the meaning of life?
+Don't Know Yet - Husker Du
+
+16. What is going to happen to me tomorrow?
+Seagull - Shout Out Louds
+
+17. One secret I would never tell?
+Eleanor Rigby - The Beatles"
+"eventtime","2006-03-23 22:22:00"
+"url","http://corporealframe.livejournal.com/6362.html"
+"userid","3130"
+"itemid","23"
+"event","List of things I love:
+1) Guys who talk to their girlfriends on the phone while they're SITTING ON THE TOILET TAKING A SHIT.
+
+A million awesome points for anyone who can identify the subject."
+"eventtime","2006-02-27 00:17:00"
+"url","http://corporealframe.livejournal.com/6044.html"
+"userid","3130"
+"itemid","22"
+"event","Ask me a question about each of the following:
+
+- Friends
+- Sex
+- Music
+- Drugs
+- Love
+- Livejournal
+
+No matter how rude, sexual, or confidential. Then post this in your journal and see what questions you get asked!"
+"eventtime","2006-02-24 01:33:00"
+"url","http://corporealframe.livejournal.com/5719.html"
+"userid","3130"
+"itemid","21"
+"event","I steal my roommates cokes and hope he doesn't notice."
+"eventtime","2006-02-20 23:50:00"
+"url","http://corporealframe.livejournal.com/5406.html"
+"userid","3130"
+"itemid","20"
+"event","I'm a convicted criminal! Watch out! I might try to take the battery out of your smoke alarm! I have to write a 1500 page paper and do 10 hours of community service because I tried to take the battery out of my smoke alarm which was beeping very loudly every 30 seconds. Oh well."
+"eventtime","2006-01-18 15:00:00"
+"current_moodid","38"
+"url","http://corporealframe.livejournal.com/5325.html"
+"userid","3130"
+"itemid","19"
+"event","<!-- BEGIN bunnyhero labs pet code -->
+<a href=""http://bunnyherolabs.com/adopt/showpet.php?b=bWM9aGVkZ2Vob2cuc3dmJmNscj0weDY0YjhjMSZjbj1kaW1tdSBib3JnaXImYW49a2l0dHk=""><img src=""http://petimage.bunnyherolabs.com/adopt/petimage/bWM9aGVkZ2Vob2cuc3dmJmNscj0weDY0YjhjMSZjbj1kaW1tdSBib3JnaXImYW49a2l0dHk=.png"" width=""250"" height=""300"" border=""0"" alt=""my pet!""></a>
+<!-- END bunnyhero labs pet code -->"
+"eventtime","2006-01-03 21:20:00"
+"url","http://corporealframe.livejournal.com/5086.html"
+"userid","3130"
+"itemid","18"
+"event","ahahhfklhdsjkl Eva i'm sorry for calling you at 3 am! i miss you omg!"
+"eventtime","2005-12-27 03:49:00"
+"url","http://corporealframe.livejournal.com/4631.html"
+"userid","3130"
+"itemid","17"
+"event","haha, ok Alyssa...I don't want to get into a pissfest about our musical tastes. I just felt like I needed to defend one of my favorite bands. I was just engaging in some friendly jousting with that thing on AIM anyway. But since I have a bit of time, I might as well refute a few of your points.
+
+Who is saying that I rely on some ""ambiguous musical hierarchy"" to make myself look cooler? I like the music I like because its good music and it appeals to me. So be it if it makes me look cool. I do take pride in my CD collection because I've put a lot of time, thought, and money into it. I don't flaunt my musical tastes unless provoked. If I thought my music made me look cool, I would drive with my windows down...which I don't. I would also own a bunch of band t-shirts...which I don't. I'm happy to keep my music to myself, but when somebody attacks my music, its on.
+
+I would have to disagree with your point that being well established does not result in some sort of clout. Going by this logic, Eminem would be on the same level as Bach or Mozart, and I think most people would agree that's not the case. If a band can stand the test of time, they're obviously still subject to the taste of the individual, but I think they do deserve a certain degree of respect for their longevity. If they can stay respected and in the public eye for that long, it obviously says something about their level of accomplishment. And its not like I ""only"" listen to older bands because they're somehow ""better"" just because they're old. Many of my favorite bands are newer bands, hell, even more recent than Linkin Park. Its just that I think Linkin Park sucks because they're commercial corporate drivel with no redeeming artistic value. There has to be a distinction between something created for the sake of the music and something created for the sake of fattening someone's wallet. Bands like Linkin Park, Good Charlotte, et al fall squarely into the latter category.
+
+Snobbery is taking one stance in public and another in private. If I pretended to be a big Pixies, Sonic Youth, Velvet Underground etc. fan but just wore their t-shirts and never listened to the music, then not only would I be a poser, I would also be a snob. I never try to shove my tastes down someone's throat, I just make fun of them behind their back and snicker to myself when someone espouses how ""hardcore"" Slipknot is to me. I come across as a music snob because I probably am, but I'm not a bad snob. I just take pride in the music I listen to. Is that really so bad? I put serious effort into augmenting my music collection with fresh and exciting things to listen to, so I definitely feel like I'm more qualified to speak upon music than someone who just listens to what they hear on the radio. People are too quick to dismiss a strong, educated opinion as snobbery. Perhaps its personal insecurity. If my toilet is broken, I'm not going to try and fix it myself, I'm going to call the bloody plumber, and I'm not going to call him a toilet snob because he knows more about them than I do. If I have a friend who doesn't seek out music as passionately as I do, I'd be doing him a favor by introducing him to some new bands. Music is a matter of personal preference, but your personal preference is more respectable if you actually put some effort into cultivating a knowledge of the craft.
+
+OK that's it, hope I made myself clear. :)"
+"eventtime","2005-12-12 21:18:00"
+"url","http://corporealframe.livejournal.com/4598.html"
+"userid","3130"
+"itemid","16"
+"event","Sonic Youth's new album ""Sonic Life"" is going to be the greatest album ever, and don't tell me otherwise. I won't listen."
+"eventtime","2005-12-09 00:26:00"
+"url","http://corporealframe.livejournal.com/4117.html"
+"userid","3130"
+"itemid","15"
+"event","Snow would be better if it snowed when it was warm outside. I hate being cold and wet more than anything in the world. But the snow is nice. I really hope classes are cancelled tomorrow, even though I only have one class. I have to do my batrillion page philosophy journal and start on my english paper. I want this semester to end so I can go home and sleep forever.
+
+Eva is fantastically fantastic! ;)"
+"eventtime","2005-12-06 00:53:00"
+"current_moodid","101"
+"url","http://corporealframe.livejournal.com/3854.html"
+"userid","3130"
+"itemid","14"
+"event","Um, break has been OK. Mostly I've just sat around and downloaded bad songs and watched football. Went to high school football game tonight, a ton of people from last year were there. It was bitch ass cold but I was fine because I was wearing thermal underwear. I'm still wearing it and I look like an old man. Thanksgiving was pretty average, except for my fat conman uncle.
+
+I almost died on Wednesday when I took Eva to the train station, it was so cold and I wasn't wearing a jacket because I'm a dumbass."
+"eventtime","2005-11-26 01:57:00"
+"current_moodid","60"
+"url","http://corporealframe.livejournal.com/3635.html"
+"userid","3130"
+"itemid","13"
+"event","I'm sitting here waiting for my roommate to leave for thanksgiving...his stuff is on his bed packed up but I have no idea where he is. His dad was supposed to pick him up at 8. He needs to leave now.
+
+OK aside from that, my stupid smoke detector was beeping all day. The battery was low, and the old one was totally jammed. So Ricky had to come down here with a knife and cut it out, then we had to put the new one in. Its quite an accomplishment, because we're two of the least practical people you'll ever meet. Go us."
+"eventtime","2005-11-21 20:46:00"
+"url","http://corporealframe.livejournal.com/3510.html"
+"userid","3130"
+"itemid","12"
+"event","<lj-cut text=""thing eva made me do"">
+Basics
+
+What is your name? Nathan
+Spell your name backwards. Nahtan
+Date of birth: 8/23/86
+Male or female? Male
+Astrological sign: Virgo
+Nicknames: Don't have any
+Height: 5'10
+Hair color: Brown
+Eye color: Brown
+Where were you born? Fredericksburg, VA
+Where do you reside now? Fredericksburg, VA
+Age: 19
+Pets: 1 dog
+Number of candles you blew out on your last birthday cake? umm...maybe like 5?
+Piercings? Nope
+Tattoos? None
+Shoe size: 11
+Righty or lefty? Righty
+Wearing: Jeans and no shirt...I'm hot
+Hearing: Mike's TV
+Feeling: Pretty damn good
+Eating/drinking: Nothing at the moment
+
+Love Life
+
+Have you ever been in love? It depends on your definition
+How many people have you told i love you: 0
+How many people have you been in love with? See #1
+How many people have you kissed? 3, but one of them was when i was like 6
+Have you ever kissed someone of the same sex? Never
+What do you look for in a boy/girl? Somebody similar to me
+What's the first thing you notice about the opposite sex? Eyes
+Do you have a gf/bf? Yeah
+Do you believe in love at first sight? Of course
+Do you remember your first love? Indeed
+Who is the first person you kissed? This girl Rachel when we were like 6.
+Do you believe in soul mates? Yes
+If so do you believe you'll ever find yours? I suppose its possible
+
+Family Stuff
+
+How many siblings do you have? 1 brother
+What are your parents names? Brian and Jenny
+What are your siblings names? Noah
+How many siblings does your mother have? a sister
+How many siblings does your father have? a brother
+Where are your parents from? Hornell, NY and Fredericksburg, VA
+Is your family close? Very.
+Does your family get together for holidays? Just Thanksgiving
+Do you have a drunk uncle? My uncle used to be an alcoholic until his daughter got killed by a drunk driver.
+Any medical problems run through your family? none I know of.
+Are your parents divorced? Nope.
+Do you have step parents? Nope.
+Did some of your family come to America from another country? Not recently.
+
+Favorites
+
+Favorite Colors: Pink and black
+Food: Big Mac
+Song: Van Morrison - Sweet Thing
+School subject: English, especially 11th grade because I had the greatest teacher ever.
+Commercial: The local ones about road rage and river safety that have really bad animation.
+Radio station: 106.7 WJFK
+Pair of shoes: I would say my flip-flops but lately they've been killing my feet, so clogs.
+Cartoon: Doug
+Actor: Curtis Jackson
+Actress: Audrey Hepburn
+Potato chip: Salt and Vinegar
+Drink: Coke
+Holiday: Easter
+Perfume/cologne: Um...none
+Pizza topping: Pepperoni
+Jello flavor: Banana
+Lunch meat: Ham
+Board game: Chutes and Ladders
+Video game: Madden
+Website: Extremeskins.com
+Number: 27
+Cereal: Captain Crunch
+Comedian: Lenny Bruce
+Dessert: Cheesecake
+Disney character: umm...Mickey Mouse
+Clothing store: American Eagle
+Teacher: Mr. Perry...greatest teacher evarrr
+Childhood toy: Rabbie!
+Carnival game/ride: I hate carnivals
+Candy bar: Butterfinger
+Magazine: The New Yorker
+Salad dressing: Italian
+Season: Spring
+Sport to watch: Football
+Person to talk to online: Eva
+What do you normally sleep in? Boxers
+Do you listen to music while trying to fall asleep? INever, because I pay too much attention to the music.
+Do you sleep with stuffed animals? Rabbie
+Do you sleep in any unusual positions? Um, I don't think so.
+Do you snore? Never
+How about drool? haha...sometimes
+
+This or that
+
+Coke/Pepsi: Coke...Pepsi sucks
+Doughnuts/bagels: Doughnuts
+Day/night: Night.
+Heaven/hell: Who the hell (haha) would choose hell.
+Coffee/tea: Tea
+Hamburgers/hotdogs: Hot Dogs
+Rap/rock: Rock
+Britney/Christina: Britney...she came first
+Swiss cheese/american cheese: American
+Real World/Road Rules: Real World
+Chicken/beef: Beef
+Cars/trucks: Cars
+Austin Powers/James Bond: James Bond
+Popcorn/pretzels: Popcorn
+Back rub/foot massage: Back rub
+Picture frames/photo albums: Albums
+Pens/pencils: Pens
+
+What Is Your Opinion Of The Following
+
+Eminem: Horrible and annoying
+Virgins: Virgins are awesome
+God: I wish I knew if he existed
+The Osbournes: Awful
+J.Lo: I want to kill her
+Religion: Confused
+Valentine's Day: Its a nice concept
+Christina Aguilera's comeback: Christina Aguilera had a comeback?
+Homosexuals: I have no problem with them.
+Abortion: I'm pro-life
+Murder: 187 on an undercover cop
+Death: See above
+Obesity: Fat people annoy me
+Pre-marital sex: Depends on the person and situation.
+Terrorism: I am a terrorist.
+Fortune tellers: I love them.
+Threesomes: Cheap
+Prostitution: Taxi Driver is a good movie
+Country music: I like very little
+George W. Bush: Satan
+Cloning: Creepy
+
+Have You Ever....
+
+Mooned anyone? No
+Been on a diet? Yes
+Been to a foreign country? Yes
+Broken a bone? Never
+Swallowed a tooth/cap/filling? I think so
+Sworn at a teacher? Never
+Gotten in a fight? Never physical
+Dated a teacher? There was a really hot teacher when I was in 10th grade, but I never dated her.
+Laughed so hard you peed your pants? Unfortunately no
+Thought about killing your enemy? haha, what enemy?
+Gone skinny dipping? I wish
+Told a little white lie? Um yeah.
+Told a secret you swore not to tell? Sort of
+Misused a swear word and it sounded absolutely stupid? All the time.
+Been in a mosh pit? Yes
+Been to a concert? A few
+Dated one of your best friends? I don't think so
+Liked someone so much it makes you cry? Geez, that makes me sound really emo...but yeah
+Decieved somebody close to you? Probably
+Broken the law? A few times
+Been on an airplane?  Never
+Gotten to ride on a firetruck? No
+Come close to dying? Yes
+Cheated on a gf/bf? No
+Had an eating disorder? No, despite perceptions
+Felt like you didn't belong? Several occasions
+Felt like the 3rd wheel? Oh yeah.
+Smoked? Never
+Done drugs? Nothing illegal.
+Had your tonsils removed? Still have them
+Gone to camp? Tennis camp
+Written a love letter? No
+Gone out of your way to be with the one you love? Sort of, not really
+Written a love poem? Many
+Kissed in the rain? Unfortunately no
+Slow danced with someone? A girl and Ricky the other night.
+Stolen a kiss? No
+Asked a friend for relationship advice? Occasionally
+Won a trophy? For soccer when I was like 6.
+Thrown up in public? More than once unfortunately
+Bowled a perfect game? haha I suck at bowling
+Attempted suicide? No.
+
+Childhood Stuff
+
+Did you play with Barbies? I pulled their heads off
+Did you own Treasure Trolls? No
+Did you watch Beverly Hills 90210? No.
+Did you play Simon? No
+Did you wet the bed? No.
+Did you believe there were monsters in your closet or under your bed? I still do
+Did you wear the underwear with the days of the week on them? Months of the year
+Were you shy? Very
+Were you spoiled? Until my brother was born
+Were you abused? No.
+Did you go to the circus? Once or twice
+Did you go to the zoo? Yeah.
+Were you in a car accident? Never
+Did you build snowmen? a few
+Did you cry when you scraped your knee? Never, I was tough
+Did you think slinkies were cool? Hell yeah
+Did you think the Ninja Turtles really lived in the sewer? Yeah i thought they were real
+Were you afraid of the dark? I still am
+Did you have slumber parties? A few
+Did you believe in the Easter Bunny, Santa Claus, and the Tooth Fairy? Yeah till I was like 10.
+
+Randomness
+
+Do you believe in aliens? No
+Name 3 things that are next to your computer: Wu-Tang CD case, a bunch of soda cans, and my phone
+Do you have any hidden talents? I'm awesome
+Do you wish MTV would play music videos? I wish MTV would die
+If you were to star in a movie, what kind of movie would it be? Screwball comedy
+What's the scariest movie you've ever seen? Requiem For A Dream, even thought its not horror
+What is the best movie you've seen in the theater or rented recently? Born Into Brothels
+What is the dumbest movie you've ever seen? Open Water
+Do you drive? I drive a minivan
+What is your dream car? A minivan
+Do you think you're good looking? I'm super hot
+Do others think you are good looking? Duh
+Would you ever sky dive? Never
+Are you afraid of roller coasters? Yes they terrify me
+Do you like chocolate? Its ok, but overrated
+How many U.S. states have you been to? Hmm...up and down the east coast
+Ever wished on a shooting star? Once or twice
+Best Halloween costume you ever wore? Vampire
+What is your weakness? Cuddling
+Name something you can't get enough of: Cuddling
+Describe yourself in 3 adjectives: Cool, awesome, and super
+How many kids do you want to have? 2
+How do you release stress? Things like this
+Are you a trendy person? Not especially
+Are you an artistic person? Poetry
+Are you a realistic person? More idealistic
+Do you un-tie your shoes every time you take them off? I don't tie my shoes period
+Are you a strong person? Hell yeah
+Who is the last person to IM you? luckeva
+Do you hate chain e-mails? They suck
+Are you a deep sleeper? Yeah I don't wake up for anything
+Are you a good story teller? If I'm writing, not telling
+What do you believe is your best quality? Kindness and sincerity
+What is your greatest accomplishment? Being me
+Do you have your own credit card? Deibt card
+Let's say you win the lotto. What do you do with all that money? Spend it on a washing machine 
+Do you have a check book? Indeed
+Do you tan easily? Yes I do
+What color is your hair naturally? Brow
+How many fillings do you have? Like 4 or 5
+How many cavities did you have at your last dentist visit? Zero
+Worst feeling in the world? Kicked in the balls
+Best feeling in the world? Cuddling
+Is the glass half empty or half full? Half full
+Do you catch yourself using online terms in your real life? A few times
+What do you think people think of you? He rocks my world
+Are you a likeable person? Very much so
+What is the best way to be proposed to? While cuddling
+what's your favorite phrase? ""I rip it hardcore like porno flick bitches""
+
+
+</lj-cut>"
+"eventtime","2005-11-16 00:39:00"
+"url","http://corporealframe.livejournal.com/3296.html"
+"userid","3130"
+"itemid","11"
+"event","Alyssa, I will own you in our eating contest."
+"eventtime","2005-11-15 23:06:00"
+"url","http://corporealframe.livejournal.com/2995.html"
+"userid","3130"
+"itemid","10"
+"event","OK, true story time. This just happened like 30 minutes ago.
+
+As Eva knows, Ricky and I go to McDonalds every night. Tonight Jon joined us. We were walking back down College Ave, and we hear a voice behind us say ""hey guys, can I talk to you for a second."" We turn around to see a black man with a band-aid on his head wearing a black sweatshirt and black sweatpants. We walk with him all the way down the street while he feeds us his cock and bull story. Suppoosedly he is a business owner from Woodbridge. He was travelling with his wife, and they got into a fight. She kicked him out and took the kids with her. He somehow ended up on College Ave and needed 17 dollars for a cab fare.
+
+So we stop in front of Seaco and Jon tells him to wait while we walk to the ATM to get him money. We did not want him coming with us, because he could've busted out a knife and robbed us of all our money. But he demands to come because he thinks we'll just leave and not get him the money.
+
+So we say he can come, but he has to stand across the street when we get to the bank. He agrees. But about halfway there Ricky realizes he has 16 bucks. I have 1 dollar. We give him the 17 bucks and he toddles off into the darkness. But prior to this, he gives me his cell phone number and tells me to call him around 10 so he can ""swing by tomorrow"".
+
+We figured he was a crackhead/panhandler, but that was an awesome story that he came up with. I have to give him his props. We were just scared that he was going to rob us. Seriously that guy is awesome. I hope he's enjoying his crack."
+"eventtime","2005-11-15 23:04:00"
+"url","http://corporealframe.livejournal.com/2685.html"
+"userid","3130"
+"itemid","9"
+"event","OK, Eva, Ricky, and I got back from UVa today. Overall it was pretty fun. All the stereotypes are true, however. A vast majority of the people we encountered were snobbish assholes. I was especially annoyed by the people in my friend Ben's suite, where we stayed. They just gave off an asshole vibe, especially the RA who had an irritating southern accent and talked to the TV when he watched football highlights. He was really proud that he sent an email to ESPN about UVa football not getting enough respect. He can't be too stupid, he goes to UVa, but he didn't strike me as particuarly bright. He's the RA of the suite, and he didn't even make the slightest effort to speak to us. Eva and I were sitting literally 6 feet away from him for more than an hour and he didn't even look at us. Then he went to his room later and made asshole comments about us that I could clearly hear. All the others seemed OK, just mildly irritating. Definitely not people I would hang out with.
+
+I had a good time though, it was nice to see my UVa friends. The game we went to on Saturday was pretty cool, except for the fact that like half the students dress to the nines for a fucking football game. I mean, come on, get real. I will be rooting for Va Tech next week.
+
+This whole thing makes me sound really angry...I didn't dislike UVa that much, it was fun. Especially Friday night when we went to some dude's apartment and Ricky got really drunk playing beer pong. The walk back was hilarious because this guy Andy we were with could barely stand up he was so drunk.
+
+The couches were super uncomfortable. That is all."
+"eventtime","2005-11-14 00:27:00"
+"url","http://corporealframe.livejournal.com/2452.html"
+"userid","3130"
+"itemid","8"
+"event","OK, here is my 2nd semester schedule if anyone cares:
+
+Music History - Great Masterworks 11:00 - 11:50 MWF
+Psych 100 -General Psychology 12:00 - 12:50 MWF
+History 121 - Western Civ I 1:00 - 1:50 MWF
+Math 200 - Statistics 7:30 - 8:45 MW
+English 295 - Intro to Literary Studies 3:30 - 4:45 TR"
+"eventtime","2005-11-09 20:29:00"
+"url","http://corporealframe.livejournal.com/2298.html"
+"userid","3130"
+"itemid","7"
+"event","I don't listen to Zen Arcade enough. This CD is amazing. It should be required listening for every Fall Out Boy fan. Husker Du doesn't get enough credit along with the likes of The Pixies or Sonic Youth. This CD is every bit as good as Doolittle in my estimation. 
+
+OK enough of that. Today was actually pretty interesting...I skipped english because we were supposed to have read a novel by today and I haven't even started it. Go me. So I went to lunch with Eva and the Seaco lady took our cards and didn't give them back, so we had to walk back to Seaco and pick them up. 
+
+I voted for govenor with really no info on anything, but I got a sweet sticker that I'll be wearing tomorrow. I hung out with the family a little bit, took a walk with the mother and went to Carl's with the mother and brother. UVa is gonna be awesome, you can take that to the bank.
+
+ALYSSA NEEDS TO IM RICKY."
+"eventtime","2005-11-08 20:51:00"
+"current_moodid","17"
+"url","http://corporealframe.livejournal.com/1808.html"
+"userid","3130"
+"itemid","6"
+"event","1. Give me a nickname and explain why you picked it.
+2. Am I lovable?
+3. How long have you known me?
+4. When and how did we first meet?
+5. What was your first impression?
+6. Do you still think that way about me now?
+7. What do you think my weakness is?
+8. Do you think I'll get married?
+9. What makes me happy?
+10. What makes me sad?
+11. What reminds you of me?
+12. If you could give me anything what would it be?
+13. How well do you know me?
+14. When's the last time you saw me?
+15. Ever wanted to tell me something but couldn't?
+16. Do you think I could kill someone?
+17. Describe me in one word.
+18. Do you think our friendship is getting stronger/weaker/or staying the same?
+19. Do you feel that you could talk to me about anything and I would listen?
+20. Are you going to put this on your lj and see what I say about you?"
+"eventtime","2005-11-07 23:42:00"
+"url","http://corporealframe.livejournal.com/1603.html"
+"userid","3130"
+"itemid","5"
+"event","<lj-cut text=quiz>Here's a great idea. Repost this and fill it out yourself. But, at the very end, put your own question and answer it. Something serious too. But don't be afraid to ask a goofy question. Like question 3. Nothing weirder than that. Now. Let's see how far this gets.
+
+1.) When showering, do you start the water and then get in or get in and start the water? Turn it on first and then stand back scared.
+
+2.) Do you read the labels on your shampoo bottle? Why would I do that?
+
+3.) Do you moan in the shower like the people on the herbal Essences commercial? haha, no.
+
+4.) Have you ever showered with someone of the opposite sex? Sadly no
+
+5.) Have you ever been forced to shower with one of your siblings? I don't think so, we're 7 years apart, so that would be kind of creepy.
+
+6.) Have you ever brushed your teeth in the shower? No never, its way too much trouble to bring your toothbrush into the shower.
+
+7.) Have you ever dropped your soap on your foot? Yeah I can't hold soap.
+
+8.) How old do you look? Um, probably about 19 years old.
+
+9.) How old do you act? Um, probably about 19 years old.
+
+10.) What's the last song you sang? Nuthin But A G Thang
+
+11.) Have you recently become a member of anything? I don't think so
+
+12)What are your plans for the weekend? Going to UVa...it's gonna be awesome. ;)
+
+13.) Do you kiss with your eyes open or closed? closed 
+
+14.) What's the sexiest thing about Condoleeza Rice? Ass
+
+15.) Does anything on your body itch right now? Everything now that you mentioned it, asshole.
+
+16.) Who's the sexiest famous woman alive? Condoleeza Rice
+
+17.) Who's the sexiest famous MAN alive? Mike Stroud
+
+18) Does every family have a crazy uncle or is it just mine? Yeah my uncle is a hillbilly from West Virginia.
+
+19). Have you ever smuggled something into America? I wish.
+
+20). Does playing the guitar make a girl/guy more attractive? Not at all.
+
+21). Do you live in a city with a good sports team? Fredericksburg Meadows Farm Baseball Club biatch! Masaponax Panthers football!
+
+22). Have you ever finished off the popcorn and ate the junk from the bottom of the bag? What junk? I like salt.
+
+23). Have you ever had sex in a tent? haha no
+
+24). What about in a boat? nope
+
+25). Have you ever dated a Goth? No, and I don't plan on it.
+
+26.) Would you rather receive amazing oral sex or have amazing sex? amazing sex
+
+27.) Can you fix your own car? Hell no
+
+28.) Would you kill George W. Bush yourself if you were GUARANTEED to get away with it? No...because then Dick Cheney would be president.
+
+29.) Should guys wear pink? Yes, pink is awesome.
+
+30.) Do you dance to techno music? Maybe in the right atmosphere.
+
+31.) Who loves orange soda? Kel
+
+32.) Whats the best scary movie you have seen lately? Saw II
+
+33.) Do you think its fair for parents to judge a girl's boyfriend by his myspace (or a guy's parents to judge a girl)?: Why the hell would a parent be on myspace?
+
+34.) Do you enjoy food? Not much, McDonalds rocks though.
+
+35.) Are you straight-edge? No, I don't like them very much either...do your thing but don't beat me over the head with it.
+
+36.) What is your favorite alcoholic beverage? Jagermeister and Miller Lite
+
+37.) If you could have sex anywhere you wanted, where would you do it? A desk
+
+38.) are you part of a scene (punk, goth, emo, indie, ect): I'm just cool.
+
+39.) What is your flower? Rose </lj-cut>"
+"eventtime","2005-11-07 20:39:00"
+"url","http://corporealframe.livejournal.com/1372.html"
+"userid","3130"
+"itemid","4"
+"event","OK, I'm super tired, hence the mood. I'm too tired to actually get ready for bed so I'm just sitting here.  I barely got any sleep last night which I didn't mind at all. :) I suck at pool, there is a jealous succubus in Virginia Hall...that's about it, I have to go to bed."
+"eventtime","2005-11-06 01:45:00"
+"current_moodid","124"
+"url","http://corporealframe.livejournal.com/1233.html"
+"userid","3130"
+"itemid","3"
+"event","I'm listening to ""I'll Never Break Your Heart"" by the Backstreet Boys right now because Eva inspired me to download it. I'm just hoping my roommate doesn't walk in and hear it. He's already walked in on me listening to The Spice Girls. Thankfully he doesn't know that I have a Jesse McCartney song. Yeah I rock. Today was pretty cool, I skipped english and slept in. Math sucked as usual, then I went to the mall with Eva and got new jeans because my old ones are literally falling apart. I actually like aimlessly riding The Fred. The people are entertaining. We had to ride the Mayfield bus back and some big black lady that sounded like my 12th grade english teacher hit Eva in the back of the head. That was weird. OK, that's it. Alyssa, I want to read your paper."
+"eventtime","2005-11-03 19:59:00"
+"url","http://corporealframe.livejournal.com/779.html"
+"userid","3130"
+"itemid","2"
+"event","OK, so I'm sitting in my room right now listening to my roommate and his friends conversation. It reeks of weed in here. They're watching a movie and drinking 40s. Today was pretty average. I went to a screening of The Sting with Jon and Ricky because Jon had to see it for his film class. It was a pretty good movie, but I fell asleep for like 30 minutes. I'm skipping english tomorrow because I just really don't feel like going. Go me! Then I'm going to the mall with Eva to get jeans, because I desperately need them. These are literally falling off my legs. Its pathetic. And I'm pretty pumped that Alyssa is writing a paper about our DC trip. I hope she doesn't make me look like too much of a girl. OK, bye."
+"eventtime","2005-11-02 21:11:00"
+"url","http://corporealframe.livejournal.com/623.html"
+"userid","3130"
+"itemid","1"
+"event","I got this thing because Alyssa sent me a facebook message telling me to do it. Um, now I'm gonna get addicted to this like I'm addicted to facebook. I really don't know what to put on here, because nobody wants to hear about my feelings. Somebody left a colored turkey on my computer tonight...I found it after I got back from McDonalds with Ricky. There was some mexican filling out a job application there. OK, this is completely random, but I have nothing else to say. Go me. Yeah, now I'm editing this again because I'm bored. I can still taste the Big Mac. I hate the McDonalds aftertaste. My roommate slept in the common area last night. Why? I do not know. I wish I was in the Wu-Tang Clan. I need to clean my room. It is a mess. OK that's it."
+"eventtime","2005-11-01 22:49:00"
+"current_moodid","58"
+"url","http://corporealframe.livejournal.com/481.html"
+"userid","3130"

@@ -1,0 +1,367 @@
+"names","values"
+"itemid","2673"
+"event","SSBoYXZlIG1ldCB0aGVtIGF0IGNsb3NlIG9mIGRheSAgIA0KQ29taW5nIHdpdGggdml2aWQgZmFjZXMNCkZyb20gY291bnRlciBvciBkZXNrIGFtb25nIGdyZXkgICANCkVpZ2h0ZWVudGgtY2VudHVyeSBob3VzZXMuDQpJIGhhdmUgcGFzc2VkIHdpdGggYSBub2Qgb2YgdGhlIGhlYWQgICANCk9yIHBvbGl0ZSBtZWFuaW5nbGVzcyB3b3JkcywgICANCk9yIGhhdmUgbGluZ2VyZWQgYXdoaWxlIGFuZCBzYWlkICAgDQpQb2xpdGUgbWVhbmluZ2xlc3Mgd29yZHMsDQpBbmQgdGhvdWdodCBiZWZvcmUgSSBoYWQgZG9uZSAgIA0KT2YgYSBtb2NraW5nIHRhbGUgb3IgYSBnaWJlICAgDQpUbyBwbGVhc2UgYSBjb21wYW5pb24NCkFyb3VuZCB0aGUgZmlyZSBhdCB0aGUgY2x1YiwgICANCkJlaW5nIGNlcnRhaW4gdGhhdCB0aGV5IGFuZCBJICAgDQpCdXQgbGl2ZWQgd2hlcmUgbW90bGV5IGlzIHdvcm46ICAgDQpBbGwgY2hhbmdlZCwgY2hhbmdlZCB1dHRlcmx5OiAgIA0KQSB0ZXJyaWJsZSBiZWF1dHkgaXMgYm9ybi4NCg0KVGhhdCB3b21hbidzIGRheXMgd2VyZSBzcGVudCAgIA0KSW4gaWdub3JhbnQgZ29vZC13aWxsLA0KSGVyIG5pZ2h0cyBpbiBhcmd1bWVudA0KVW50aWwgaGVyIHZvaWNlIGdyZXcgc2hyaWxsLg0KV2hhdCB2b2ljZSBtb3JlIHN3ZWV0IHRoYW4gaGVycyAgIA0KV2hlbiwgeW91bmcgYW5kIGJlYXV0aWZ1bCwgICANClNoZSByb2RlIHRvIGhhcnJpZXJzPw0KVGhpcyBtYW4gaGFkIGtlcHQgYSBzY2hvb2wgICANCkFuZCByb2RlIG91ciB3aW5nw6hkIGhvcnNlOyAgIA0KVGhpcyBvdGhlciBoaXMgaGVscGVyIGFuZCBmcmllbmQgICANCldhcyBjb21pbmcgaW50byBoaXMgZm9yY2U7DQpIZSBtaWdodCBoYXZlIHdvbiBmYW1lIGluIHRoZSBlbmQsICAgDQpTbyBzZW5zaXRpdmUgaGlzIG5hdHVyZSBzZWVtZWQsICAgDQpTbyBkYXJpbmcgYW5kIHN3ZWV0IGhpcyB0aG91Z2h0Lg0KVGhpcyBvdGhlciBtYW4gSSBoYWQgZHJlYW1lZA0KQSBkcnVua2VuLCB2YWluZ2xvcmlvdXMgbG91dC4NCkhlIGhhZCBkb25lIG1vc3QgYml0dGVyIHdyb25nDQpUbyBzb21lIHdobyBhcmUgbmVhciBteSBoZWFydCwgICANCllldCBJIG51bWJlciBoaW0gaW4gdGhlIHNvbmc7DQpIZSwgdG9vLCBoYXMgcmVzaWduZWQgaGlzIHBhcnQNCkluIHRoZSBjYXN1YWwgY29tZWR5Ow0KSGUsIHRvbywgaGFzIGJlZW4gY2hhbmdlZCBpbiBoaXMgdHVybiwgICANClRyYW5zZm9ybWVkIHV0dGVybHk6DQpBIHRlcnJpYmxlIGJlYXV0eSBpcyBib3JuLg0KDQpIZWFydHMgd2l0aCBvbmUgcHVycG9zZSBhbG9uZSAgIA0KVGhyb3VnaCBzdW1tZXIgYW5kIHdpbnRlciBzZWVtICAgDQpFbmNoYW50ZWQgdG8gYSBzdG9uZQ0KVG8gdHJvdWJsZSB0aGUgbGl2aW5nIHN0cmVhbS4NClRoZSBob3JzZSB0aGF0IGNvbWVzIGZyb20gdGhlIHJvYWQsICAgDQpUaGUgcmlkZXIsIHRoZSBiaXJkcyB0aGF0IHJhbmdlICAgDQpGcm9tIGNsb3VkIHRvIHR1bWJsaW5nIGNsb3VkLCAgIA0KTWludXRlIGJ5IG1pbnV0ZSB0aGV5IGNoYW5nZTsgICANCkEgc2hhZG93IG9mIGNsb3VkIG9uIHRoZSBzdHJlYW0gICANCkNoYW5nZXMgbWludXRlIGJ5IG1pbnV0ZTsgICANCkEgaG9yc2UtaG9vZiBzbGlkZXMgb24gdGhlIGJyaW0sICAgDQpBbmQgYSBob3JzZSBwbGFzaGVzIHdpdGhpbiBpdDsgICANClRoZSBsb25nLWxlZ2dlZCBtb29yLWhlbnMgZGl2ZSwgICANCkFuZCBoZW5zIHRvIG1vb3ItY29ja3MgY2FsbDsgICANCk1pbnV0ZSBieSBtaW51dGUgdGhleSBsaXZlOiAgIA0KVGhlIHN0b25lJ3MgaW4gdGhlIG1pZHN0IG9mIGFsbC4NCg0KVG9vIGxvbmcgYSBzYWNyaWZpY2UNCkNhbiBtYWtlIGEgc3RvbmUgb2YgdGhlIGhlYXJ0LiAgIA0KTyB3aGVuIG1heSBpdCBzdWZmaWNlPw0KVGhhdCBpcyBIZWF2ZW4ncyBwYXJ0LCBvdXIgcGFydCAgIA0KVG8gbXVybXVyIG5hbWUgdXBvbiBuYW1lLCAgIA0KQXMgYSBtb3RoZXIgbmFtZXMgaGVyIGNoaWxkICAgDQpXaGVuIHNsZWVwIGF0IGxhc3QgaGFzIGNvbWUgICANCk9uIGxpbWJzIHRoYXQgaGFkIHJ1biB3aWxkLiAgIA0KV2hhdCBpcyBpdCBidXQgbmlnaHRmYWxsPw0KTm8sIG5vLCBub3QgbmlnaHQgYnV0IGRlYXRoOyAgIA0KV2FzIGl0IG5lZWRsZXNzIGRlYXRoIGFmdGVyIGFsbD8NCkZvciBFbmdsYW5kIG1heSBrZWVwIGZhaXRoICAgDQpGb3IgYWxsIHRoYXQgaXMgZG9uZSBhbmQgc2FpZC4gICANCldlIGtub3cgdGhlaXIgZHJlYW07IGVub3VnaA0KVG8ga25vdyB0aGV5IGRyZWFtZWQgYW5kIGFyZSBkZWFkOyAgIA0KQW5kIHdoYXQgaWYgZXhjZXNzIG9mIGxvdmUgICANCkJld2lsZGVyZWQgdGhlbSB0aWxsIHRoZXkgZGllZD8gICANCkkgd3JpdGUgaXQgb3V0IGluIGEgdmVyc2XigJQNCk1hY0RvbmFnaCBhbmQgTWFjQnJpZGUgICANCkFuZCBDb25ub2xseSBhbmQgUGVhcnNlDQpOb3cgYW5kIGluIHRpbWUgdG8gYmUsDQpXaGVyZXZlciBncmVlbiBpcyB3b3JuLA0KQXJlIGNoYW5nZWQsIGNoYW5nZWQgdXR0ZXJseTogICANCkEgdGVycmlibGUgYmVhdXR5IGlzIGJvcm4uDQoNCg0KCQktLSBXLkIuIFllYXRz"
+"eventtime","2016-03-28 22:21:00"
+"url","http://crunchywitch.livejournal.com/684385.html"
+"userid","3309"
+"itemid","2619"
+"event","U28gdGhlIHNob3J0ZXN0IGRheSBjYW1lLCBhbmQgdGhlIHllYXIgZGllZCwNCkFuZCBldmVyeXdoZXJlIGRvd24gdGhlIGNlbnR1cmllcyBvZiB0aGUgc25vdy13aGl0ZSB3b3JsZA0KQ2FtZSBwZW9wbGUgc2luZ2luZywgZGFuY2luZywNClRvIGRyaXZlIHRoZSBkYXJrIGF3YXkuDQpUaGV5IGxpZ2h0ZWQgY2FuZGxlcyBpbiB0aGUgd2ludGVyIHRyZWVzOw0KVGhleSBodW5nIHRoZWlyIGhvbWVzIHdpdGggZXZlcmdyZWVuOw0KVGhleSBidXJuZWQgYmVzZWVjaGluZyBmaXJlcyBhbGwgbmlnaHQgbG9uZw0KVG8ga2VlcCB0aGUgeWVhciBhbGl2ZSwNCkFuZCB3aGVuIHRoZSBuZXcgeWVhcidzIHN1bnNoaW5lIGJsYXplZCBhd2FrZQ0KVGhleSBzaG91dGVkLCByZXZlbGluZy4NClRocm91Z2ggYWxsIHRoZSBmcm9zdHkgYWdlcyB5b3UgY2FuIGhlYXIgdGhlbQ0KRWNob2luZyBiZWhpbmQgdXMg4oCUIExpc3RlbiEhDQpBbGwgdGhlIGxvbmcgZWNob2VzIHNpbmcgdGhlIHNhbWUgZGVsaWdodCwNClRoaXMgc2hvcnRlc3QgZGF5LA0KQXMgcHJvbWlzZSB3YWtlbnMgaW4gdGhlIHNsZWVwaW5nIGxhbmQ6DQpUaGV5IGNhcm9sLCBmZWFzdCwgZ2l2ZSB0aGFua3MsDQpBbmQgZGVhcmx5IGxvdmUgdGhlaXIgZnJpZW5kcywNCkFuZCBob3BlIGZvciBwZWFjZS4NCkFuZCBzbyBkbyB3ZSwgaGVyZSwgbm93LA0KVGhpcyB5ZWFyIGFuZCBldmVyeSB5ZWFyLg0KV2VsY29tZSBZdWxlIQ0KICAgICAgICAtLVN1c2FuIENvb3Blcg=="
+"eventtime","2015-12-21 10:25:00"
+"url","http://crunchywitch.livejournal.com/670661.html"
+"userid","3309"
+"itemid","2541"
+"event","Has anyone else noticed an LJ problem?  All the posts from my friends-list have disappeared but the most recent.  They've been gone for over a week.<br>
+It's not a display issue at <i>my</i> end: they're gone on both my tablet and my laptop."
+"eventtime","2015-08-25 15:31:00"
+"url","http://crunchywitch.livejournal.com/650686.html"
+"userid","3309"
+"itemid","2437"
+"event","Happy Star Wars Day."
+"eventtime","2015-05-04 07:55:00"
+"url","http://crunchywitch.livejournal.com/623974.html"
+"userid","3309"
+"itemid","2385"
+"event","<a href=""http://www.thestar.com/entertainment/2015/02/27/leonard-nimoy-of-star-trek-fame-dies-at-age-83.html"">He was 83</a>, and I - like many other fans - am saddened at his death."
+"eventtime","2015-02-27 13:38:00"
+"url","http://crunchywitch.livejournal.com/610688.html"
+"userid","3309"
+"itemid","2340"
+"event","Amazon (both Canadian & American sites) are offering the kindle version of <i>TheVery Best of Charles de Lint</I> free, today and tomorrow.  If you're somehow unfamiliar with the name, deLint is one of the originators of the urban fantasy genre, and his Newford stories are some of the best examples of the genre even now.  (And if you like the free anthology, there are lots of other short stories available singly at the moment, but I'd suggest<i> Memory and Dream</i>, a novel about magic and danger and art.)
+
+And if you don't have an e-reader, you can download the desktop version for your computer, and if you do have an e-reader but not a Kindle, the author says that the file is DRM-free and can be converted to other formats."
+"eventtime","2015-01-23 08:55:00"
+"url","http://crunchywitch.livejournal.com/599047.html"
+"userid","3309"
+"itemid","2305"
+"event","And the rites are in time what the home is in space.... 
+Thus I walk from fete to fete, 
+From anniversary to anniversary, 
+From grape harvest to grape harvest, 
+As I walked, yet a child, 
+From the Council Chamber to the chamber of rest . . . 
+In the depths of my father's palace, 
+Where every footstep has a meaning.
+                 -- Antoine de Saint Exupery"
+"eventtime","2014-12-25 22:08:00"
+"url","http://crunchywitch.livejournal.com/590226.html"
+"userid","3309"
+"itemid","2301"
+"event","<a href=""http://www.bbc.co.uk/programmes/b04knthd"">It's up.  Here's episode 1.</a>"
+"eventtime","2014-12-22 19:58:00"
+"url","http://crunchywitch.livejournal.com/589197.html"
+"userid","3309"
+"itemid","2300"
+"event","So the shortest day came, and the year died,
+And everywhere down the centuries of the snow-white world
+Came people singing, dancing,
+To drive the dark away.
+They lighted candles in the winter trees;
+They hung their homes with evergreen;
+They burned beseeching fires all night long
+To keep the year alive,
+And when the new year's sunshine blazed awake
+They shouted, reveling.
+Through all the frosty ages you can hear them
+Echoing behind us - Listen!!
+All the long echoes sing the same delight,
+This shortest day,
+As promise wakens in the sleeping land:
+They carol, feast, give thanks,
+And dearly love their friends,
+And hope for peace.
+And so do we, here, now,
+This year and every year.
+Welcome Yule!!
+               -- Susan Cooper"
+"eventtime","2014-12-21 22:35:00"
+"url","http://crunchywitch.livejournal.com/588948.html"
+"userid","3309"
+"itemid","2293"
+"event","Which is to say that BBC&#39;s new radio drama, <i>Good Omens</i>, <a href=""http://www.bbc.co.uk/programmes/b04knthd"">begins broadcasting on the 22nd of December</a>.
+
+Say it with me: Alleluia."
+"eventtime","2014-12-12 10:19:00"
+"url","http://crunchywitch.livejournal.com/587049.html"
+"userid","3309"
+"itemid","2264"
+"event","&quot;Is it gonna haunt me?&nbsp; Yeah.&nbsp; That&#39;s why God created the shot glass...&quot;"
+"eventtime","2014-10-19 23:25:00"
+"url","http://crunchywitch.livejournal.com/579828.html"
+"userid","3309"
+"itemid","2208"
+"event","You inspire me with your bravery in each new move, with your dedication to social justice (and your charm in theorizing it!), and your persistence in working towards a life that is healthy and joyful.&nbsp; I hope you are feted appropriately today!"
+"eventtime","2014-05-26 20:29:00"
+"url","http://crunchywitch.livejournal.com/565416.html"
+"userid","3309"
+"itemid","2170"
+"event","I&#39;m honestly not sure whether you use this or check it at all, kelly_joy, but if you do:
+
+
+<span style=""font-size:1.8em;"">HAPPY BIRTHDAY!!</span>
+
+
+
+I wish you all sorts of joyous happenings this year.&nbsp;"
+"eventtime","2014-02-02 09:40:00"
+"current_moodid","87"
+"url","http://crunchywitch.livejournal.com/555568.html"
+"userid","3309"
+"itemid","2160"
+"event","&nbsp; &nbsp;  <lj-cut text=""It would be pretty out there if one didn't have to go out in it.  Haven't yet worked out how of the day's plans I'll be cancelling."">Ice storm in Toronto last night.&nbsp; Power went out just before midnight, and came back at 7:45 this morning.&nbsp; My mother&#39;s place, just down the road (but across a major street), never lost power at all.&nbsp; I am thankful that this little place heats back up quite quickly.
+&nbsp; &nbsp; &nbsp; It had been mild but very rainy most of yesterday - not a day for being out much, so I curled up in warm PJs &amp; invited my mom over, and we watched the O&#39;Toole/Hepburn version of <i>The Lion in Winter</i>. &nbsp; Felt quite decadent in my cozy new basement, eating goodies and reveling in Katherine Hepburn&#39;s delivery of brilliant lines.&nbsp; (Incidentally, Hepburn at 62 was pretty much the only actor in the film playing her own age; Peter O&#39;Toole was 37 when he played England&#39;s 50-year-old Henry II, Anthony Hopkins was five years younger than the man playing his father, and Timothy Dalton at 23 was playing the 17-year-old King Phillip of France.)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Christmas prep is really and truly done: my wrapping&#39;s been finished for days, the part of the Christmas Day meal that can be made ahead got done on Friday, and my sister has decreed that we are not allowed to even think about adding things to her kids stocking.&nbsp; (I scaled back with the kids: I often find myself going overboard because I keep seeing little things they&#39;d enjoy, and this year found myself returning a couple of things last week.&nbsp; Beans is getting a card game, and Little Wisdom The Book of Why, and then they&#39;ll share a small cardboard castle that they put together and colour/decorate themselves.&nbsp; That&#39;s plenty.&nbsp; The nephews in BC and the niece near Guelph all got books by Neil Gaiman.) It was <i>really </i>not an evening for the Solstice Parade in Kensington Market: still raining, and the temperature dropping rapidly.&nbsp; I cooked some Manitoulin rainbow trout, egg noodles, and belgian endive, and watched the third of my seasonal DVDs: Sting&#39;s <i>A Winter&#39;s Night</i>, recorded in Durham Cathedral.
+&nbsp; &nbsp; &nbsp; Today is full of social visits: sunday brunch with my mom and sister-et-al, afternoon out on the Danforth at a colleague&#39;s place, and then my friend J coming to my place for post-Solstice treats and wine.&nbsp; But the trees are covered in ice, the lights are still flickering occasionally, and the roads are treacherous.&nbsp; J &amp; I both travel by public transit, which may be wonky today.&nbsp; Will have to see how it progresses.
+&nbsp; &nbsp; &nbsp; Tomorrow was supposed to be a trip to Hamilton to take my 98-year-old grandmother out for holiday lunch, but she called yesterday to cancel, even before the weather got bad.&nbsp; She has a chest infection, and is on antibiotics, so feels lousy and intends to stay in.&nbsp; She&#39;s quite frail this year - finally, I suppose, but it&#39;s odd to see: tires easily, worries about her memory, has shaky hands, and isn&#39;t as steady on her feet as she was at 97.&nbsp; She&#39;s the last of my grandparents - the last of that generation among my extended family and most of my friends, too.
+&nbsp; &nbsp; &nbsp; Tomorrow evening is supposed to be the rescheduled get-together with my friend H, who&#39;s in Ontario for the holidays with her and her husband&#39;s families.&nbsp; We had planned for this past Friday, but the weather forecast was lousy and they didn&#39;t want to drive in from Burlington.&nbsp; It ended up being damp, but mild, whereas tomorrow is now looking to be much worse for traveling.&nbsp; So that may not happen either.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lots of plans up in the air, and that&#39;s just fine. If I see people, it will be great; if not, we&#39;ll chat on the phone and I will snuggle down in my cozy little home. </lj-cut>"
+"eventtime","2013-12-22 09:44:00"
+"url","http://crunchywitch.livejournal.com/552978.html"
+"userid","3309"
+"itemid","2159"
+"event","<span class=""userContent"" data-ft=""{&quot;tn&quot;:&quot;K&quot;}""> &nbsp;&nbsp; &nbsp; The floors are swept, the bathrooms are clean, and there are new sheets on the bed. Johnny Cunningham &amp; Aine Minogue &quot;...Warm the Winter&#39;s Night&quot;, reaching through time and also through the kitchen stereo. Pomegranate seeds shine a deep dark red. The tree lights are bright, and there are new candles in all the sconces. Midwinter is tomorrow.
+
+&nbsp; &nbsp; &nbsp; Welcome, Yule.</span>"
+"eventtime","2013-12-20 19:52:00"
+"url","http://crunchywitch.livejournal.com/552852.html"
+"userid","3309"
+"itemid","2150"
+"event","<lj-embed id=""8""/>"
+"eventtime","2013-11-14 12:18:00"
+"current_moodid","98"
+"url","http://crunchywitch.livejournal.com/550598.html"
+"userid","3309"
+"itemid","2140"
+"event","Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IEhhdmUgaGFkIHR3byBvZiB0aGVzZSBlbWFpbHMgcmVjZW50bHkuJm5ic3A7IFBlb3BsZSB3aG8gYXJlIHNlbmRpbmcgb3V0IG1hbnVzY3JpcHRzIHRvIGEgZG96ZW4gam91cm5hbHMgbWlnaHQgdGFrZSBhIGZldyBtaW51dGVzIGJlZm9yZSB0aGV5IHJlYWxpemVkIHRoYXQgdGhpcyBpc24mIzM5O3Qgb25lIHRoZXkgc3VibWl0dGVkIHRvLiZuYnNwOyBGb3IgbmV3IGdyYWQgc3R1ZGVudHMgd2hvIG1pZ2h0IG5vdCBrbm93IGhvdyB0aGUgc3lzdGVtIHdvcmtzIChvciB3aG8gaGF2ZSBsaXZlZCBpbiBwbGFjZXMgd2hlcmUgaXQgaXMgbm90IHVudXN1YWwgdG8gcGF5IGZvciB5b3VyIGNyZWRlbnRpYWxzIGluIHN1Y2ggd2F5cyksIHRoaXMgY291bGQgYmUgcmVhbGx5IHByb2JsZW1hdGljLiZuYnNwOyBFaXRoZXIgd2F5LCBnaXZlbiB0aGUgcHJlc3N1cmUgdG8gcHVibGlzaCwgaXQmIzM5O3MgYSBtZWFuIGFuZCBodXJ0ZnVsIHRoaW5nIHRvIHN0YXJ0IG91dCB0aGlua2luZyB0aGF0IHNvbWVvbmUgcmVhbGx5IHdhbnRzIHRvIHB1Ymxpc2ggc29tZXRoaW5nIHlvdSB3cm90ZSwgYW5kIHRoZW4gdG8gcmVhbGl6ZSB0aGF0IGl0JiMzOTtzIGEgc2NhbS4gDQoNCiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyBJIGhhZG4mIzM5O3Qgc3VibWl0dGVkIHRoZSBwYXBlciB0aGV5IG1lbnRpb24uJm5ic3A7IEFueXdoZXJlLiZuYnNwOyBCdXQgYSBmZXcgeWVhcnMgYWdvIEkgd2FzIGNvbnRhY3RlZCBieSBhbiBhY2FkZW1pYyBwdWJsaXNoZXIgd2hvIHNhdyBteSBwYXBlciB0aXRsZSBpbiBhIGNvbmZlcmVuY2UgbGlzdGluZywgYW5kIGFza2VkIG1lIHRvIGNvbWUgdGFsayB0byBoaW0gYWZ0ZXIgdGhlIHByZXNlbnRhdGlvbi4mbmJzcDsgKEhlIHNhaWQsIGFmdGVyIEkgaGFkIGRlc2NyaWJlZCB0aGUgbGFyZ2VyIHByb2plY3QsICZxdW90O1dlIHdhbnQgdGhhdC4mbmJzcDsgQ29udGFjdCBtZSB3aGVuIHRoZSB0aGVzaXMgaXMgZG9uZS4mcXVvdDspIFNvIEkgYW0gYWxyZWFkeSBhd2FyZSB0aGF0IHNvbWUgcHVibGlzaGVycyBnbyBsb29raW5nIHRocm91Z2ggY29uZmVyZW5jZSBtYXRlcmlhbHMgZm9yIHByb3NwZWN0aXZlIHdvcmsuJm5ic3A7IEV2ZW4gc28sIHRoaXMgZmVsdCB3cm9uZyAtIGFuZCB0aGUgZ3JhbW1hdGljYWwgcHJvYmxlbSBpbiB0aGUgZmlyc3QgcGFyYWdyYXBoIG1hZGUgaXQgPGk+d3JvbmdlcjwvaT4uJm5ic3A7Jm5ic3A7IDopJm5ic3A7IFRoZXkmIzM5O3JlIGNsZXZlciwgdGhvdWdoOiBpdCBpc24mIzM5O3QgdW50aWwgcmlnaHQgbmVhciB0aGUgYm90dG9tIHRoYXQgaXQgbWFrZXMgY2xlYXIgdGhhdCB0aGUgYXJ0aWNsZSA8aT53cml0ZXIgPC9pPnBheXMgdGhlIGpvdXJuYWwgdG8gYmUgcHVibGlzaGVkLg0KDQo8bGotY3V0IHRleHQ9IkRldGFpbHMgb2YgdGhlIFNwYW0iPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkRlYXIgW0NydW5jaHl3aXRjaF0sJm5ic3A7IDwvc3Bhbj4NCiANCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPlRoaXMgaXMgYSBqb3VybmFsIGVudGl0bGVkIDxiPjxpPkpvdXJuYWwgb2YgTGl0ZXJhdHVyZSBhbmQgQXJ0IFN0dWRpZXMgPC9pPihJU1NOIDIxNTktNTgzNik8L2I+PC9zcGFuPiBwdWJsaXNoZWQgYWNyb3NzIHRoZSBVbml0ZWQgU3RhdGVzIGJ5IERhdmlkIFB1Ymxpc2hpbmcgQ29tcGFueSwgRUwgTU9OVEUsIENBLCBVU0EuIFdlIGFyZSBnbGFkIHRvIGtub3cgeW91IGhhdmUgc3VibWl0dGVkIGFuIGFic3RyYWN0IG5hbWVkOjxiPjx1PiBbUGFwZXIgSSBHYXZlXSA8L3U+PC9iPmF0IDxiPltDb25mZXJlbmNlIEkgQXR0ZW5kZWRdIDIwMTIuIDwvYj5XZSBhcmUgdmVyeSBpbnRlcmVzdGVkIGluIHlvdXIgcmVzZWFyY2ggYW5kIHdvdWxkIGxpa2UgdG8gcHVibGlzaCB5b3VyIDxzcGFuIHN0eWxlPSJiYWNrZ3JvdW5kOnllbGxvdzsiPm5ldzwvc3Bhbj4gcGFwZXIgaW4gb3VyIGpvdXJuYWwuIElmIHlvdSBoYXZlIHRoZSBpZGVhIG9mIG1ha2luZyBvdXIgam91cm5hbCBhcyBhIHZlaGljbGUgZm9yIHlvdXIgcmVzZWFyY2ggaW50ZXJlc3RzLCBwbGVhc2Ugc2VuZCB1cyB0aGUgPHNwYW4gc3R5bGU9ImJhY2tncm91bmQ6eWVsbG93OyI+RW5nbGlzaCBlbGVjdHJvbmljIHZlcnNpb248L3NwYW4+IG9mIHlvdXIgPHNwYW4gc3R5bGU9ImJhY2tncm91bmQ6eWVsbG93OyI+cGFwZXI8L3NwYW4+IGluIE1TIHdvcmQgZm9ybWF0Lg0KIA0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+QWxsIHlvdXIgb3JpZ2luYWwgYW5kIHVucHVibGlzaGVkIHBhcGVycyBhbmQgYm9va3MgYXJlIHdlbGNvbWUuPC9zcGFuPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+QXMgYW4gQW1lcmljYW4gYWNhZGVtaWMgcHVibGlzaGluZyBncm91cCwgd2Ugd2FudCB0byBpbnZpdGUgc29tZSBwZW9wbGUgdG8gYmUgb3VyIHJldmlld2VycyBhbmQgZWRpdG9yaWFsIGJvYXJkIG1lbWJlcnMuIElmIHlvdSBhcmUgaW50ZXJlc3RlZCBpbiBvdXIgam91cm5hbCwgUGxlYXNlIHNlbmQgdXMgeW91ciBDVi48L3NwYW4+DQogDQo8c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij5Gb3IgbW9yZSBpbmZvcm1hdGlvbiwgPC9zcGFuPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPnBsZWFzZSB2aXNpdCBvdXIgd2Vic2l0ZSBkaXJlY3RseTogPGEgaHJlZj0iaHR0cDovL3d3dy5kYXZpZHB1Ymxpc2hpbmcub3JnL2pvdXJuYWxzX2luZm8uYXNwP2pJZD0xNTg3Ij5odHRwOi8vd3d3LmRhdmlkcHVibGlzaGluZy5vcmcvam91cm5hbHNfaW5mby5hc3A/aklkPTE1ODc8L2E+IDwvc3Bhbj4NCiANCjxiPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTguMHB0OyI+RGVzY3JpcHRpb248L3NwYW4+PC9zcGFuPjwvYj4NCjxiPjxpPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkpvdXJuYWwgb2YgTGl0ZXJhdHVyZSBhbmQgQXJ0IFN0dWRpZXMgPC9zcGFuPjwvaT48L2I+PHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+aXMgYW4gaW50ZXJuYXRpb25hbCBhY2FkZW1pYyBqb3VybmFsIChwcmludCBhbmQgb25saW5lKSwgcHVibGlzaGVkIG1vbnRobHkgYnkgRGF2aWQgUHVibGlzaGluZyBDb21wYW55LCBVU0EsIHdoaWNoIHdhcyBmb3VuZGVkIGluIDIwMTEsIGFuZCBpcyBzdHJpdmluZyB0byBwcm92aWRlIHRoZSBiZXN0IHBsYXRmb3JtIGZvciBhcnRpc3RzIGFuZCBzY2hvbGFycyB3b3JsZHdpZGUgdG8gZXhjaGFuZ2UgdGhlaXIgbGF0ZXN0IGZpbmRpbmdzIGFuZCByZXN1bHRzLiBPdXIgam91cm5hbCBpcyBhbiBFbmdsaXNoIHZlcnNpb24gYW5kIHlvdXIgY29udHJpYnV0aW9ucyB0byBvdXIgam91cm5hbCB3b3VsZCBiZSB2ZXJ5IG11Y2ggd2VsY29tZSE8L3NwYW4+DQogDQo8Yj48c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij48c3BhbiBzdHlsZT0iZm9udC1zaXplOjE4LjBwdDsiPkN1cnJlbnQgY29sdW1ucyBpbnZvbHZlOjwvc3Bhbj48L3NwYW4+PC9iPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+TGl0ZXJhdHVyZSBzdHVkaWVzLCBhcnQgdGhlb3J5LCBjdWx0dXJlIGFuZCBoaXN0b3J5IG9mIGFydHMsIGFwcHJlY2lhdGlvbiBvZiBhcnRzLCBldGMuLjwvc3Bhbj4NCiANCjxiPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTguMHB0OyI+UmVub3duZWQgZGF0YWJhc2VzOjwvc3Bhbj48L3NwYW4+PC9iPg0KPGI+PGk+PHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+Sm91cm5hbCBvZiBMaXRlcmF0dXJlIGFuZCBBcnQgU3R1ZGllczwvc3Bhbj48L2k+PC9iPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPiBpcyByZXRyaWV2ZWQgYnkgc29tZSByZW5vd25lZCBkYXRhYmFzZXM6Ojwvc3Bhbj4NCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTptcyBtaW5jaG87Ij7imIU8L3NwYW4+PC9zcGFuPiA8c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij5EYXRhYmFzZSBvZiBFQlNDTywgTWFzc2FjaHVzZXR0cywgVVNBIChIdW1hbml0aWVzIEFic3RyYWN0cyAoSC5XLiBXaWxzb24pKTwvc3Bhbj4NCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTptcyBtaW5jaG87Ij7imIU8L3NwYW4+PC9zcGFuPiA8c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij5MTEJBIERhdGFiYXNlIG9mIENTQTwvc3Bhbj4NCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTptcyBtaW5jaG87Ij7imIU8L3NwYW4+PC9zcGFuPiA8c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij5Vbml2ZXJzZSBEaWdpdGFsIExpYnJhcnkgUy9CLCBQcm9xdWVzdDwvc3Bhbj4NCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTptcyBtaW5jaG87Ij7imIU8L3NwYW4+PC9zcGFuPiA8c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij5Qcm9xdWVzdCwgVVNBPC9zcGFuPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5Om1zIG1pbmNobzsiPuKYhTwvc3Bhbj48L3NwYW4+IDxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkNoaW5lc2UgRGF0YWJhc2Ugb2YgQ0VQUywgQW1lcmljYW4gRmVkZXJhbCBDb21wdXRlciBMaWJyYXJ5IGNlbnRlciAoT0NMQyksIFVTQTwvc3Bhbj4NCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTptcyBtaW5jaG87Ij7imIU8L3NwYW4+PC9zcGFuPiA8c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij5DaGluZXNlIFNjaWVudGlmaWMgSm91cm5hbHMgRGF0YWJhc2UsIFZJUCBDb3Jwb3JhdGlvbiwgQ2hvbmdxaW5nLCBQLlIuIENoaW5hPC9zcGFuPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5Om1zIG1pbmNobzsiPuKYhTwvc3Bhbj48L3NwYW4+IDxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPlVscmljaCZyc3F1bztzIFBlcmlvZGljYWxzIERpcmVjb3J5PC9zcGFuPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5Om1zIG1pbmNobzsiPuKYhTwvc3Bhbj48L3NwYW4+IDxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPlN1bW1vbiBTZXJpYWxzIFNvbHV0aW9uczwvc3Bhbj4NCiANCjxiPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTguMHB0OyI+SW5mb3JtYXRpb24gZm9yIGF1dGhvcihzKSA8L3NwYW4+PC9zcGFuPjwvYj4NCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjEuIFRoZSBtYW51c2NyaXB0IHNob3VsZCBiZSBvcmlnaW5hbCwgYW5kIGhhcyBub3QgYmVlbiBwdWJsaXNoZWQgcHJldmlvdXNseS4gUGxlYXNlIGRvIG5vdCBzdWJtaXQgbWF0ZXJpYWwgdGhhdCBpcyBjdXJyZW50bHkgYmVpbmcgY29uc2lkZXJlZCBieSBhbm90aGVyIGpvdXJuYWwuPC9zcGFuPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+Mi4gTWFudXNjcmlwdHMgbWF5IGJlIDMwMDAtODAwMCB3b3JkcyBvciBsb25nZXIgaWYgYXBwcm92ZWQgYnkgdGhlIGVkaXRvciwgaW5jbHVkaW5nIGFuIGFic3RyYWN0LCB0ZXh0cywgdGFibGVzLCBmb290bm90ZXMsIGFwcGVuZGl4ZXMsIGFuZCByZWZlcmVuY2VzLiBUaGUgdGl0bGUgc2hvdWxkIG5vdCBleGNlZWQgMTUgd29yZHMsIGFuZCBhYnN0cmFjdCBzaG91bGQgbm90IGV4Y2VlZCA0MDAgd29yZHMuIDMtOCBrZXl3b3JkcyBvciBrZXkgcGhyYXNlcyBhcmUgcmVxdWlyZWQuPC9zcGFuPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+My4gVGhlIG1hbnVzY3JpcHQgc2hvdWxkIGJlIGluIE1TIFdvcmQgZm9ybWF0LCBzdWJtaXR0ZWQgYXMgYW4gZW1haWwgYXR0YWNobWVudCB0byBvdXIgZW1haWwgYWRkcmVzcy48L3NwYW4+DQo8c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij40LiBBdXRob3Iocykgb2YgdGhlIGFydGljbGVzIGJlaW5nIGFjY2VwdGVkIGFyZSByZXF1aXJlZCB0byBzaWduIHVwIHRoZSBUcmFuc2ZlciBvZiBDb3B5cmlnaHQgQWdyZWVtZW50IGZvcm0uPC9zcGFuPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+NS4gVGhlIGF1dGhvcihzKSB3aWxsIHJlY2VpdmUgMiBjb3BpZXMgb2YgdGhlIGlzc3VlIG9mIG91ciBqb3VybmFsIGNvbnRhaW5pbmcgaGlzL2hlciAodGhlaXIpIGFydGljbGUocykuPC9zcGFuPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+Ni4gSXQgaXMgbm90IG91ciBwb2xpY3kgdG8gcGF5IGF1dGhvcnMuIEluc3RlYWQsIHRoZSBhdXRob3JzIHNob3VsZCBwYXkgJDUwIHBlciBwYWdlLiZuYnNwOyA8L3NwYW4+DQogDQo8Yj48c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij48c3BhbiBzdHlsZT0iZm9udC1zaXplOjE4LjBwdDsiPlBlZXIgcmV2aWV3IHBvbGljeSA8L3NwYW4+PC9zcGFuPjwvYj4NCiANCjxiPjxpPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkxpdGVyYXR1cmUgYW5kIEFydCBTdHVkaWVzPC9zcGFuPjwvaT48L2I+PHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+IGlzIHBlZXIgcmV2aWV3IGpvdXJuYWwuIEFsbCByZXNlYXJjaCBhcnRpY2xlcyBpbiB0aGlzIGpvdXJuYWwgdW5kZXJnbyByaWdvcm91cyBwZWVyIHJldmlldywgYmFzZWQgb24gaW5pdGlhbCBlZGl0b3Igc2NyZWVuaW5nIGFuZCByZWZlcmVlaW5nIGJ5IGF0IGxlYXN0IHR3byBhbm9ueW1vdXMgcmVmZXJlZXMuIDwvc3Bhbj4NCiANCjxiPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTguMHB0OyI+RWRpdG9yaWFsIHByb2NlZHVyZXM8L3NwYW4+PC9zcGFuPjwvYj4NCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkFsbCBwYXBlcnMgY29uc2lkZXJlZCBhcHByb3ByaWF0ZSBmb3IgdGhpcyBqb3VybmFsIGFyZSByZXZpZXdlZCBhbm9ueW1vdXNseSBieSBhdCBsZWFzdCB0d28gb3V0c2lkZSByZXZpZXdlcnMuIFRoZSByZXZpZXcgcHJvY2VzcyB1c3VhbGx5IHRha2VzIG9uZSB0byB0d28gbW9udGhzLiBQYXBlcnMgYXJlIGFjY2VwdGVkIGZvciBwdWJsaWNhdGlvbiBzdWJqZWN0IHRvIG5vIHN1YnN0YW50aXZlLCBzdHlsaXN0aWMgZWRpdGluZy4gVGhlIGVkaXRvciByZXNlcnZlcyB0aGUgcmlnaHQgdG8gbWFrZSBhbnkgbmVjZXNzYXJ5IGNoYW5nZXMgaW4gdGhlIHBhcGVycywgb3IgcmVxdWVzdCB0aGUgYXV0aG9yIHRvIGRvIHNvLCBvciByZWplY3QgdGhlIHBhcGVyIHN1Ym1pdHRlZC4gQSBjb3B5IG9mIHRoZSBlZGl0ZWQgcGFwZXIgYWxvbmcgd2l0aCB0aGUgZmlyc3QgcHJvb2ZzIHdpbGwgYmUgc2VudCB0byB0aGUgYXV0aG9yIGZvciBwcm9vZnJlYWRpbmcuIFRoZXkgc2hvdWxkIGJlIGNvcnJlY3RlZCBhbmQgcmV0dXJuZWQgdG8gdGhlIEVkaXRvciB3aXRoaW4gc2V2ZW4gZGF5cy4gT25jZSB0aGUgZmluYWwgdmVyc2lvbiBvZiB0aGUgcGFwZXIgaGFzIGJlZW4gYWNjZXB0ZWQsIGF1dGhvcnMgYXJlIHJlcXVlc3RlZCBub3QgdG8gbWFrZSBmdXJ0aGVyIGNoYW5nZXMgdG8gdGhlIHRleHQuIDwvc3Bhbj4NCiANCjxiPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTguMHB0OyI+U3VibWlzc2lvbjwvc3Bhbj48L3NwYW4+PC9iPjxiPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTguMHB0OyI+IG9mIG1hbnVzY3JpcHQgPC9zcGFuPjwvc3Bhbj48L2I+DQo8c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij5BbGwgbWFudXNjcmlwdHMgc3VibWl0dGVkIHdpbGwgYmUgY29uc2lkZXJlZCBmb3IgcHVibGljYXRpb24uIFBsZWFzZSB2aXNpdCBvdXIgd2Vic2l0ZSBhdCA8L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OnNpbXN1bjsiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZGF2aWRwdWJsaXNoaW5nLmNvbS8iIHRhcmdldD0iX2JsYW5rIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6dGltZXMgbmV3IHJvbWFuLHNlcmlmOyI+d3d3LmRhdmlkcHVibGlzaGluZy5jb208L3NwYW4+PC9hPjwvc3Bhbj48L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+IGZvciBvdXIgYXV0b21hdGljIHBhcGVyIHN1Ym1pc3Npb24gc3lzdGVtcyBvciBzZW5kIGFuIGVtYWlsIGF0dGFjaG1lbnQgdG86IDwvc3Bhbj48c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6c2ltc3VuOyI+PGEgaHJlZj0ibWFpbHRvOmFydC5saXRlcmF0dXJlJTIwQHlhaG9vLmNvbSIgdGFyZ2V0PSJfYmxhbmsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTp0aW1lcyBuZXcgcm9tYW4sc2VyaWY7Ij5hcnQubGl0ZXJhdHVyZUB5YWhvby5jb208L3NwYW4+PC9hPjwvc3Bhbj48L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+LCA8L3NwYW4+PHU+PHNwYW4gc3R5bGU9ImNvbG9yOmJsdWU7Ij5saXRlcmF0dXJlLmFydDwvc3Bhbj48L3U+PHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OnNpbXN1bjsiPjxhIGhyZWY9Im1haWx0bzpwaGlsb3N0dWR5QGdtYWlsLmNvbSIgdGFyZ2V0PSJfYmxhbmsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTp0aW1lcyBuZXcgcm9tYW4sc2VyaWY7Ij5AZGF2aWRwdWJsaXNoaW5nLm9yZzwvc3Bhbj48L2E+PC9zcGFuPjwvc3Bhbj48c3BhbiBzdHlsZT0iY29sb3I6YmxhY2s7Ij4uPC9zcGFuPg0KIA0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+QmVzdCBSZWdhcmRzITwvc3Bhbj4NCiANCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkZhd24mbmJzcDtILjwvc3Bhbj4NCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkVkaXRvcmlhbCBPZmZpY2U8L3NwYW4+DQoNCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkpvdXJuYWwgb2YgTGl0ZXJhdHVyZSBhbmQgQXJ0IFN0dWRpZXMgKElTU04gMjE1OS01ODM2KSBEYXZpZCBQdWJsaXNoaW5nIENvbXBhbnkNCjk0NjAgVEVMU1RBUiBBVkUgU1VJVEUgNSxFTCBNT05URSxDQSA5MTcxMyxVU0ENCldlYnNpdGU6IDwvc3Bhbj48c3BhbiBzdHlsZT0iY29sb3I6Ymx1ZTsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpzaW1zdW47Ij48YSBocmVmPSJodHRwOi8vd3d3LmRhdmlkcHVibGlzaGluZy5jb20vIiB0YXJnZXQ9Il9ibGFuayI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OnRpbWVzIG5ldyByb21hbixzZXJpZjsiPmh0dHA6Ly93d3cuZGF2aWRwdWJsaXNoaW5nLmNvbTwvc3Bhbj48L2E+PC9zcGFuPjwvc3Bhbj4NCjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkUtbWFpbDogPC9zcGFuPjxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTpzaW1zdW47Ij48YSBocmVmPSJtYWlsdG86bGl0ZXJhdHVyZS5hcnRAZGF2aWRwdWJsaXNoaW5nLm9yZyIgdGFyZ2V0PSJfYmxhbmsiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTp0aW1lcyBuZXcgcm9tYW4sc2VyaWY7Ij5saXRlcmF0dXJlLmFydEBkYXZpZHB1Ymxpc2hpbmcub3JnPC9zcGFuPjwvYT48L3NwYW4+LCA8YSBocmVmPSJtYWlsdG86YXJ0LmxpdGVyYXR1cmUlMjBAeWFob28uY29tIiB0YXJnZXQ9Il9ibGFuayI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OnRpbWVzIG5ldyByb21hbixzZXJpZjsiPmFydC5saXRlcmF0dXJlQHlhaG9vLmNvbTwvc3Bhbj48L2E+PC9zcGFuPg0KPHNwYW4gc3R5bGU9ImNvbG9yOmJsYWNrOyI+VGVsOiA8YSBocmVmPSJ0ZWw6MS0zMjMtOTg0NzUyNiIgdGFyZ2V0PSJfYmxhbmsiPjEtMzIzLTk4NDc1MjY8L2E+LCA8YSBocmVmPSJ0ZWw6MS0zMjMtNDEwMTA4MiIgdGFyZ2V0PSJfYmxhbmsiPjEtMzIzLTQxMDEwODI8L2E+OyA8L3NwYW4+IDxzcGFuIHN0eWxlPSJjb2xvcjpibGFjazsiPkZheDogPGEgaHJlZj0idGVsOjEtMzIzLTk4NDczNzQiIHRhcmdldD0iX2JsYW5rIj4xLTMyMy05ODQ3Mzc0PC9hPjsgPGEgaHJlZj0idGVsOjEtMzIzLTkwODA0NTciIHRhcmdldD0iX2JsYW5rIj4xLTMyMy05MDgwNDU3PC9hPjwvc3Bhbj48L2xqLWN1dD4="
+"eventtime","2013-10-02 16:04:00"
+"url","http://crunchywitch.livejournal.com/547861.html"
+"userid","3309"
+"itemid","2125"
+"event","....which we totally weren&#39;t, I am going to see Eddie Izzard in November.&nbsp;"
+"eventtime","2013-08-13 12:15:00"
+"current_moodid","98"
+"url","http://crunchywitch.livejournal.com/544026.html"
+"userid","3309"
+"itemid","2122"
+"event","So true, in fact, for me, that I occasionally consider keeping write-on-wipe-off pens in the bathtub so that I can write notes on the tiles...
+
+<a href=""http:// http://www.phdcomics.com/comics.php?f=1617"" target=""_blank"">http:// http://www.phdcomics.com/comics.php?f=1617</a>"
+"eventtime","2013-08-10 12:08:00"
+"current_moodid","44"
+"url","http://crunchywitch.livejournal.com/543459.html"
+"userid","3309"
+"itemid","2098"
+"event","<ol>
+<li>Season 2 of <a href=""http://www.imdb.com/title/tt1870479/?ref_=ttep_ep_tt"" target=""_blank""><i>Newsroom </i></a><strike>started this past Saturday</strike>.&nbsp; <i>Edit</i>: starts <i>July </i>14th...</li>
+<li>The first day of the Oxford Renaissance Festival went off well, I thought, even barring the really slow food lines (and the running out of turkey legs) and the too-high admission cost of $25.</li>
+<li>The pilot episode for <a href=""http://www.imdb.com/title/tt2364582/"" target=""_blank""><i>Agents of S.H.I.E.L.D</i></a> is scheduled for September 24th: gotta say I&#39;m looking forward to that one, too.</li>
+<li>Next up: the new <a href=""http://www.imdb.com/title/tt0770828/?ref_=sr_1"" target=""_blank"">Superman</a>.&nbsp; I&#39;m hearing good things, but want to wait until the big crowds have passed.</li>
+</ol>"
+"eventtime","2013-06-17 12:00:00"
+"url","http://crunchywitch.livejournal.com/537236.html"
+"userid","3309"
+"itemid","2097"
+"event","<ol>
+<li><i>Much Ado About Nothing</i> is <i>Othello</i>, with a happier ending.&nbsp; It&#39;s not really a nice story: jealousy, deceit, girls ending up dead for things they didn&#39;t do.&nbsp; I&#39;ve been saying this for years.&nbsp; (Possibly here in LJ, even.)</li>
+<li>I like the play anyway.&nbsp; Probably unsurprisingly, I loved Branagh&#39;s <a href=""http://www.imdb.com/title/tt0107616/?ref_=sr_2"" target=""_blank"">1993 film</a> version.</li>
+<li>Joss Whedon, Amy Acker, Alexis Denisof, Nathan Fillion, Tom Lenke, Clark Gregg, Reed Diamond, and Sean Maher: WHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.</li>
+</ol>  &nbsp; For my money, the new <a href=""http://www.imdb.com/title/tt2094064/?ref_=sr_1"" target=""_blank"">film</a> works: using a contemporary setting and Shakespeare&#39;s script (with one word changed), it&#39;s well-paced and well-acted, and uses many of Whedon&#39;s standard directorial moves (such as following a very dark moment quickly with humour; mostly visual in this case).&nbsp;&nbsp; The Whedon fan in me was happy to see Fred &amp; Wesley finally get a happy ending, and the Shakespeare fan was pleased to only rarely catch myself comparing it to Branagh&#39;s movie.&nbsp; The Watch is lovely understated, Agent Coulson is grand as Don Pedro, and Sean Maher does a nice job with the stiff character of Don John. 
+&nbsp; &nbsp;"
+"eventtime","2013-06-17 11:42:00"
+"current_moodid","109"
+"url","http://crunchywitch.livejournal.com/536842.html"
+"userid","3309"
+"itemid","2082"
+"event","&nbsp; &nbsp; &nbsp;&nbsp; I wish you a day full of joy, and a year full of lovingly tended seeds, coming to fruition."
+"eventtime","2013-05-26 22:30:00"
+"url","http://crunchywitch.livejournal.com/533012.html"
+"userid","3309"
+"itemid","2080"
+"event","<lj user=""feministyogini"" />, I think you&#39;ll enjoy this.
+
+<lj-embed id=""7""/>"
+"eventtime","2013-05-14 23:01:00"
+"url","http://crunchywitch.livejournal.com/532637.html"
+"userid","3309"
+"itemid","2072"
+"event","I was, in fact, &quot;up long before the day&quot; today, though I didn&#39;t make it to High Park to dance in the summer. &nbsp;But it&#39;s certainly been a gorgeous day for those who danced! &nbsp;Warm, sunny, full of birdsong and flowers: I turned the heat off a couple of days back, and today every window in my house is open. &nbsp;It would be a perfect patio-&amp;-cider afternoon, but I&#39;m babysitting this evening, so being good.
+
+Wishing you all a lovely Beltane."
+"eventtime","2013-05-01 17:13:00"
+"url","http://crunchywitch.livejournal.com/530662.html"
+"userid","3309"
+"itemid","2057"
+"event","&nbsp; &nbsp; Two very good days, actually.&nbsp; Took my mom to the airport yesterday morning: she&#39;s spending the next ten days with my sister &amp; company in the Caymans.&nbsp; Same place we were last year: I&#39;m a little sorry not to be going with them, but the thing I&#39;ll miss most is the bio-luminescent lagoon near the back door.&nbsp; That was super cool.
+&nbsp; &nbsp; Had brunch after class with <lj user=""littlehoudini"" /> yesterday, and then spent the rest of the day being virtuously productive.&nbsp; Today was similar: a nice long skype conversation with <lj user=""amadanbeag"" />, and between then and now I&#39;ve been working, and working well.&nbsp; It was a day for accomplishing things that had been hanging over my head.&nbsp; More than I knew, apparently, because the little outbreak of eczema I&#39;ve been dealing with for a couple of months cleared up in the middle of the afternoon. 
+&nbsp; &nbsp; And now it&#39;s the weekend, and<i> I have no plans</i>, and I am glorying in that.&nbsp; I&#39;m going to burrow in: not call people, not get together, not grade papers or work on the conference paper for Orlando.&nbsp; There&#39;s time for all of that - there really is; I&#39;m not just avoiding - but for a day or two I want to cook nice meals and have long baths and read for pleasure.
+&nbsp; &nbsp; See you all on the other side of Sunday."
+"eventtime","2013-03-01 18:47:00"
+"current_moodid","64"
+"url","http://crunchywitch.livejournal.com/526834.html"
+"userid","3309"
+"itemid","2048"
+"event","I teach from 8:30 to 9:30 Thursdays: I may have mentioned that it takes me longeer to get to and from school than I spend in the class. 
+   The weather change in Toronto overnight - a temperature drop from nearly 18 at the height yesterday to minus 9 at the moment, combined with white-out blizzard coditions on the roads (I'm riding home on the bus right now, at less than haf speed because the driver can't see and we're fishtailing slighty at stops) - meant the campus is deserted this morning.  Like, silent and empty, even in the main areas. 
+My tutorial was full.  I think 20 of 22 students were there. Nice."
+"eventtime","2013-01-31 10:19:00"
+"url","http://crunchywitch.livejournal.com/524373.html"
+"userid","3309"
+"itemid","2047"
+"event","John Schneider (ex-Bo Duke,Dukes of Hazzard) played Jonathan Kent in <i>Smallville</i>. In an S1 episode, he&#39;s driving in his truck, listening to the Dukes of Hazzard theme song on the radio. Which means that when he guested on <i>Leverage</i>, and the character&#39;s cell-phone ring tone was the theme song for the General Lee, you get two references for the price of one...
+Love it.<p>
+<span style=""font-size: x-small;""><i>Posted via <a href=""http://m.livejournal.com/link"">m.livejournal.com</a>.</i></span></p>"
+"eventtime","2013-01-26 22:38:00"
+"url","http://crunchywitch.livejournal.com/524149.html"
+"userid","3309"
+"itemid","2046"
+"event","&nbsp; &nbsp; I&#39;ve just started watching <i>Smallville </i>- yes, I know, don&#39;t start.&nbsp; Ten seasons is lots to play with, and I like that.&nbsp; On the other hand, I keep wanting to yell at the characters to just pick up a fucking phone and call or text people when they need something or aren&#39;t going to be there.&nbsp; And then I remember: this is supposed to be small-town Kansas, and more importantly, it&#39;s 2002.&nbsp;
+&nbsp; &nbsp; People just didn&#39;t text all that much...
+&nbsp; &nbsp; I&#39;m used to it in shows I watched at the time: I can&#39;t imagine Buffy texting.&nbsp; But starting something that&#39;s new to me, and I feel as if they should have the tech.&nbsp; (Especially because it&#39;s 1989 when the Kents find Clark and his spaceship, but the high-school first season is just listed as &quot;today&quot;...)"
+"eventtime","2013-01-25 23:00:00"
+"url","http://crunchywitch.livejournal.com/523785.html"
+"userid","3309"
+"itemid","2044"
+"event","&nbsp; &nbsp; I use To-Do lists a lot.&nbsp; I love scratching things off, but the list gets longer and the number of scratches is small compared to whatever needs doing in a day.&nbsp; I need to get back to &quot;attempting a reasonable number&quot; of tasks, rather than &quot;never getting it all done&quot;.&nbsp; &nbsp; Plus, at some point something happens that needs to go near the top of the list, but there isn&#39;t room, and then do you re-write or draw arrows or use numbers to indicate priority...?&nbsp; (No: I&#39;m not really asking advice.&nbsp; Just noting my own particular weirdness.)
+&nbsp; &nbsp; Today, I wrote out the things I needed to get done today onto individual post-it notes.&nbsp; Four - and then one extra, so five - items.&nbsp; I stuck the notes on my fridge.&nbsp; And I kept seeing them, as I went back and forth, as I did other things.&nbsp; And over the afternoon, four of the five tasks got done and notes got taken off the fridge.&nbsp; Maybe the fifth tonight?&nbsp; Probably not, but it&#39;ll be there looking at me while I make tea in the morning, and I think that will be useful.
+&nbsp; &nbsp; I don&#39;t like things stuck to my fridge, see. And I <i>do </i>like scrunching up paper and putting it in the recycling.&nbsp;
+
+&nbsp; &nbsp; We&#39;ll see whether this works for more than a day...&nbsp; But I have hopes.&nbsp; I may keep a Master-list of To-Dos somewhere, that can get longer and longer and doesn&#39;t have to be in order, and then choose the X number of tasks to post on the fridge on a day.&nbsp;
+&nbsp; &nbsp; Aren&#39;t you glad you asked?&nbsp;
+&nbsp; &nbsp; Wait.&nbsp; You didn&#39;t.&nbsp; Hm.&nbsp; Aren&#39;t you glad I ramble...?"
+"eventtime","2013-01-24 20:39:00"
+"current_moodid","26"
+"url","http://crunchywitch.livejournal.com/523386.html"
+"userid","3309"
+"itemid","2037"
+"event","Today, of course, is Women&#39;s Remembrance Day in Canada, marking the date of the Montreal Massacre.&nbsp;
+
+It&#39;s also the Fox&#39;s birthday.&nbsp; I understand he&#39;s flying back from Spain tomorrow or the next day.&nbsp; Looking forward to seeing him.&nbsp; Still so much fondness there.
+
+The painting at my mom&#39;s place took many days, but not long ones: we did a coat on the walls, or a layer of trim, and then we&#39;d gift-shop or do some other non-house thing.&nbsp; It&#39;s been a good week.&nbsp; Today, we moved all of her stored furniture from my garage into her basement, which was heavy work, but she and I are good together with stuff like that, and it went well.&nbsp; Plus, the room looks great.&nbsp; It was such an ugly place before - both actively damp and poorly laid-out - and now it looks so fabulous that it&#39;s hard to remember.&nbsp; She has enough room to sleep all the guests she could want, as well as serious scrapping and storage space.&nbsp; She&#39;s really happy.&nbsp; And I&#39;m happy to have contributed to getting it ready, given how much work she put into my house."
+"eventtime","2012-12-06 20:29:00"
+"url","http://crunchywitch.livejournal.com/521721.html"
+"userid","3309"
+"itemid","2036"
+"event","&nbsp; &nbsp; My 4th-year students are on break until January, and I have only trickle-in revisions to grade for them, to which I may or may not get around for a while.&nbsp; My 2nd-years wrote their exams on Wednesday: I graded with one of our TAs that evening, and Thursday morning with my co-prof, and am DONE grading them until January as well.
+&nbsp; Today, I&#39;m painting at my mom&#39;s place: she&#39;s had her basement renovated by the same contractor who did much of my place, and while it was a very slow process, it&#39;s done and it looks great.&nbsp; She and I will paint walls and ceilings and trim, and then move furniture, over the next week.
+&nbsp; &nbsp; Other than that, this week for me is the time to finish up shopping for gifts.&nbsp; I&#39;m about half-done, but because I have a list, I often think more is actually paid for than is accurate...&nbsp; I&#39;ll probably start getting out decorations at my place next week."
+"eventtime","2012-12-01 13:22:00"
+"url","http://crunchywitch.livejournal.com/521422.html"
+"userid","3309"
+"itemid","2033"
+"event","&nbsp; I saw the new <i>Alex Cross</i> a few weeks ago.&nbsp; I like movies with action and explosions, and I needed distracting.&nbsp; It was fine, I thought, but two weeks later it hasn&#39;t really stuck with me.&nbsp; Last night, I saw <i>Skyfall</i>.&nbsp; Which will definitely stick: as I told<lj user=""amadanbeag"" />earlier today, this movie is really fun.&nbsp; It is, of course, an extended fight-and-chase scene, but it&#39;s well-paced and well-scripted and well-acted.&nbsp; There are a bunch of post-modern nods to classic Bond tropes that had the audience in surprised laughter (the bit near the end where he finally loses his cool is marvelously shot-&amp;-scored), and though there&#39;s a bit that is so like a bit in the Avengers that I thought they&#39;d borrowed the set, the &quot;Bond girls&quot; had such small parts as to make them barely there, the supporting cast (Dame Judi Dench, Ralph Fiennes, Naomie Harris &amp; Ben Wishaw) was uniformly grand.&nbsp; And Javier Bardem&#39;s Silva is officially my favourite Bond villain, like, ever.&nbsp; He&#39;s evil, he&#39;s twisted, he&#39;s sometimes funny, and his opening scene is keyed perfectly.&nbsp; That scene will, in fact, stick with me all by itself.
+&nbsp; There&#39;s also an argument to be made that this is a post-911 Bond.&nbsp; Sure, America&#39;s ten years from those attacks, and Bond is technically British, but in one way, the entire film is just a set-up for M&#39;s speech at Westminster.&nbsp; You&#39;ll see what I mean, I think, when you see it.
+&nbsp; Go see it."
+"eventtime","2012-11-21 18:32:00"
+"url","http://crunchywitch.livejournal.com/520688.html"
+"userid","3309"
+"itemid","2031"
+"event","Torchwood 5 is on hold - like ""ten or twenty years"", says Russell T Davies. And John Barrowman just joined Arrow - I haven't seen those episodes yet, but I think I'm going to like the show after all.  At the third one, it suddenly gets some quite good writing and starts playing with its potential. From ""Batman lite"" (though with killing) to something with a bit of bite.
+
+And yes, I watch 'cause I'm a nerd.  But because I can't just shut my cultural-studies-brain off, I'm also watching to see what this show - about a rich, white-boy vigilante cleaning up his town by taking out the people preying on the poor - is doing politically.  Unsurprisingly problematic, it's nonetheless got some neat moments of self-reflective awareness."
+"eventtime","2012-11-11 20:47:00"
+"current_moodid","56"
+"url","http://crunchywitch.livejournal.com/520077.html"
+"userid","3309"
+"itemid","2027"
+"event","I am coming to love RSA-Animate: smart people talk about interesting things, and someone draws the talk.&nbsp;<br />Here&#39;s a fun example: Daniel Pink&#39;s talk about <a href=""http://www.thersa.org/events/rsaanimate/animate/rsa-animate-drive"">what drives us at work</a>."
+"eventtime","2012-10-18 19:07:00"
+"url","http://crunchywitch.livejournal.com/518949.html"
+"userid","3309"
+"itemid","2022"
+"event","&nbsp; &nbsp; The contractor who did much of the renovating of my house has a standing Wednesday night lesson at my house: we read simple things, talk about work and houses and sports, and practice his writing.&nbsp; I don&#39;t charge him for it, and sometimes in return he does small things that still need work at my house.&nbsp; (By small, I mean that take about twenty minutes to half an hour.&nbsp; Our lessons last between one-and-a-half and two hours.)&nbsp; Some weeks I have to cancel, and some weeks he can&#39;t make it.&nbsp; We used to say that he would be here between six and six-thirty - and once I had said, a couple of times, &quot;CALL me if you&#39;re going to be late, BEFORE you&#39;re late!&quot;, we agreed that a) 6:30 was better and b) that he would in fact call if he was later than 6:30.<br />&nbsp; &nbsp; Last week, he didn&#39;t show up.&nbsp; And he didn&#39;t call.&nbsp; At all, ever, in the week after the missed lesson.&nbsp; I found out later that he was working on my mother&#39;s basement that night - he&#39;s renovating her place at the moment - found it out from my mom, along with the fact that he&#39;d said to her that he needed to <i>call </i>me.&nbsp; But didn&#39;t get around to it, apparently.<br />&nbsp; &nbsp; That was bad, and I&#39;d been debating what to do or say when I heard from or saw him next.&nbsp; Because, you know, I schedule my week around doing this, and I stay home and wait until he gets here.&nbsp; And it adds to a long teaching day, and it takes time and energy and preparation.&nbsp; So it&#39;s not okay with me that he doesn&#39;t show up.&nbsp; At the same time, while I believe it&#39;s important to set and stick to boundaries, I also think it matters to forgive mistakes and to be flexible, up to a point.<br />&nbsp; &nbsp; It&#39;s Wednesday.&nbsp; It&#39;s ten past seven.&nbsp; He&#39;s not here, and he hasn&#39;t called.&nbsp; Which makes it quite easy to figure out what to do next: I will do no more ESL work with this man.<br />&nbsp; &nbsp; On the upside, I have Wednesday evenings available again.&nbsp;<br />&nbsp; &nbsp;<br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;"
+"eventtime","2012-10-03 19:15:00"
+"current_moodid","112"
+"url","http://crunchywitch.livejournal.com/517826.html"
+"userid","3309"
+"itemid","2019"
+"event","&nbsp; &nbsp; I should, of course, have noted that last Thursday&#39;s event at Atlantis, which I described yesterday in some detail, was courtesy of&nbsp;<lj user=""littlehoudini"" /> being too busy to go, and putting me and J on the guest list in his place.&nbsp; I plead being ridiculously tired as an excuse for my rudeness, hereby apologize, and offer my thanks, <lj user=""littlehoudini"" />!&nbsp;"
+"eventtime","2012-10-01 16:51:00"
+"current_moodid","78"
+"url","http://crunchywitch.livejournal.com/516925.html"
+"userid","3309"
+"itemid","2017"
+"event","&nbsp;&nbsp; The International Conference for the Fantastic in the Arts has Neil Gaiman and Kij Johnson as the guests for 2013.&nbsp; The theme is &quot;Fantastic Adaptations, Transformations, and Audiences&quot;.
+&nbsp; &nbsp; So, can I get a proposal together to talk about renfaires in a way that will fit...?&nbsp; Damn, I love academic conferences."
+"eventtime","2012-09-26 21:44:00"
+"current_moodid","118"
+"url","http://crunchywitch.livejournal.com/516549.html"
+"userid","3309"
+"itemid","2015"
+"event","&nbsp; &nbsp; &nbsp; As I noted to my sister, perhaps I&#39;m not publicly queer enough, because I didn&#39;t get <a href=""http://www.ottawacitizen.com/life/Recipients+Kenney+missive+rights+wondering+government+knows/7290682/story.html"">this mailing</a> from our current conservative majority...<br />&nbsp;&nbsp;&nbsp;&nbsp; Perhaps unsurprisingly, the bit that worries me most is the line near the bottom about gathering the contact information (for an earlier, similarly-targeted mailing) from publicly available sources and <i>by word of mouth</i>..."
+"eventtime","2012-09-24 14:56:00"
+"current_moodid","1"
+"url","http://crunchywitch.livejournal.com/516049.html"
+"userid","3309"
+"itemid","2014"
+"event","...who is also one of my best friends, a person I admire and love and am so very happy to know:<br /><br />Happy Birthday, <lj user=""amadanbeag"" />.&nbsp; May the coming year bring you laughter, joy, professional success, domestic happiness, stability and health amongst your extended family, great reading material, satisfying challenges, and lots of time spent cheerfully with friends.&nbsp; Oh, and may Obama be re-elected."
+"eventtime","2012-09-24 11:28:00"
+"current_moodid","15"
+"url","http://crunchywitch.livejournal.com/515833.html"
+"userid","3309"
+"itemid","2013"
+"event","&nbsp;&nbsp;&nbsp; The West Wing cast (well, lots of &#39;em) <a href=""http://youtu.be/v52FLMOPSig"">got together to stump</a> for a Michigan Supreme Court nominee.&nbsp; The Judge&#39;s sister is the woman who plays Kate - the blonde woman talking to Will at the start."
+"eventtime","2012-09-20 15:24:00"
+"current_moodid","44"
+"url","http://crunchywitch.livejournal.com/515431.html"
+"userid","3309"
+"itemid","2010"
+"event","&nbsp;&nbsp; Cross-posted with facebook, and yanked from the <a href=""http://shitmystudentswrite.tumblr.com/"">Shit My Students Write</a> tumblr*: &quot;I would also like to add that the term illiterate is mean and hateful. People cannot help that they don&rsquo;t have a father!&quot;<br /><br />* In the interests of fairness, and because it made me snork tea out my nose, I point you also to <a href=""http://smpsays.wordpress.com/"">Shit My Professor Says</a>: &ldquo;So I know we&rsquo;re learning lots of stuff about the Puritans and stuff, but all you really need to know for this class is that the Nazis are bad and don&rsquo;t buy on credit.&rdquo;&nbsp;<br /><br /><br /><br /><br /><br /><br />"
+"eventtime","2012-09-12 17:19:00"
+"current_moodid","44"
+"url","http://crunchywitch.livejournal.com/514595.html"
+"userid","3309"
+"itemid","2005"
+"event","Seriously, ridiculously WANT.&nbsp; It&#39;s absurd.<br /><br />A <a href=""http://www.thinkgeek.com/product/ee4a/?cpg=46052230&amp;msg_id=46052230&amp;et_rid=774354453&amp;linkid=46052230_feature1_ee4a"">sonic screwdriver remote control</a>."
+"eventtime","2012-09-06 16:33:00"
+"url","http://crunchywitch.livejournal.com/513301.html"
+"userid","3309"
+"itemid","2003"
+"event","&nbsp; Today is an up-and-down day.&nbsp; Much of what I&#39;m trying to accomplish - what really needs to get done before I leave for the faires tomorrow morning - is fighting me: school websites that aren&#39;t working, stuff like that.&nbsp; I&#39;m trying to get that done before I go upstairs and pack for the trip because I could spend the whole evening packing instead of doing this.&nbsp; But every bit longer it takes me (I&#39;m writing now while waiting for something to come back online...) the more tempted I am to chuck it all in, because I hate packing at the last minute, because I always forget something important (like shoes) when I do that....&nbsp; As well, I&#39;ve had to cancel plans to visit the Michigan faire in September because it conflicts with some substitute teaching I&#39;d promised to do.<br />&nbsp; On the other hand, I had breakfast with&nbsp;<lj user=""littlehoudini"" /> and his lady, and then lunch with my mom.&nbsp; And although I&#39;ve been inside working on this gorgeous day, I&#39;ve been working in my sunroom, which is warm and light-filled and happy-making - and my Gordie loves to nap beside me while I work, both of us stretched out on the fainting couch.&nbsp; And I do get a four-day-long weekend.&nbsp;<br />&nbsp;&nbsp;Other things that are making me happy today:<ul><li>the prospect of a long bath tonight when the chores (school, packing, laundry) are done.</li><li>the prospect of seeing new performances, fun friends, and people I love over the weekend at two different renfaires.</li><li>tomorrow&#39;s road-trip: I really like travelling with my mom, and hanging out with my youngest sister and her mom at faires.&nbsp;</li><li><a href=""http://www.richardshindell.com/index.php?page=bio"">Richard Shindell</a>.&nbsp; I&#39;m listening to his music a lot lately.&nbsp; His &quot;Ballad of Mary Magdalene&quot; is better when Dar Williams sings it, not because she&#39;s female but because she has such a throaty sound, but his version is quite good as well - how can you resist lines like &quot;I had my work, when I was in my prime, but I gave it all up for love: it was his career or mine...&quot;; &quot;Are You Happy Now&quot; is bleak and funny at the same time; &quot;A Summer Wind, A Cotton Dress&quot; is a lovely expression of occasional longing for a might-have-been; and &quot;Nora&quot; is simply gorgeous - and just for bonus points, it references Abelard and Heloise.</li><li>one of my favourite restaurants is in Baltimore: L.P. Steamer&#39;s.&nbsp; It&#39;s nothing fancy to look at, but the staff are really nice people, the crabs are super-tasty, and the prices are great. (How privileged am I, to have a favourite restaurant in another country...&nbsp; I used to have a favourite place in Ireland as well, and in P.E.I, though both are now gone.)</li></ul>Looks like the school stuff is up and running, so back to it I go.&nbsp; I wish you all a fun long weekend.<br />"
+"eventtime","2012-08-30 17:56:00"
+"current_moodid","15"
+"url","http://crunchywitch.livejournal.com/512866.html"
+"userid","3309"
+"itemid","1997"
+"event","&nbsp;&nbsp; My salt-cravings are so bad today that I&#39;m seriously considering installing a <a href=""http://www.bitlessbridle.co.uk/shop/images/himalayan-salt-lick.jpg"">salt-lick</a>..."
+"eventtime","2012-08-15 17:39:00"
+"current_moodid","91"
+"url","http://crunchywitch.livejournal.com/511446.html"
+"userid","3309"
+"itemid","1993"
+"event","&nbsp;&nbsp; A French (as in, in France) renfaire was <a href=""http://www.uproxx.com/gammasquad/2012/08/ren-faire-held-up-with-swords-by-guys-in-plate-armor-no-seriously/"">robbed at sword-point</a> by <a href=""http://io9.com/5930602/gang-of-unruly-knights-robs-renaissance-faire"">people in armour</a>.&nbsp; (I link to the second article mostly for the photo, but also to remind myself of how faires are often represented and talked about...)<br /><br /><br />"
+"eventtime","2012-08-02 17:55:00"
+"current_moodid","44"
+"url","http://crunchywitch.livejournal.com/510376.html"
+"userid","3309"
+"itemid","1992"
+"event","<lj-embed id=""6""/>"
+"eventtime","2012-08-02 12:16:00"
+"current_moodid","41"
+"url","http://crunchywitch.livejournal.com/510188.html"
+"userid","3309"
+"itemid","1990"
+"event","<p style=""text-indent:36.0pt;""><span style=""font-size:12.0pt;"">Highlights of a birthday weekend at the Sterling faire include: the adorable niece and nephew, Princess Messyface and Sir Midget Knight; the surprise presence of more sisters, brothers-in-law, and moms than expected; woodchuck cider; </span><span style=""font-size:12.0pt;"">Her Majesty, her ladies (including the Spanish Infanta), and her &quot;pretty boys&quot; (Drake &amp; Raleigh); introducing people to the poetry of Arthur Greenleaf Holmes; a court astrologer doubling as clergy; nuns, spanish swordsmen (and their daughter), torystellers (and family), musicians; red velvet cake (twice), pickles (twice), and meat on a stick; the return of the executioner; the new, fun, and discomfiting bedlamites;</span> Eddie Izzard references; <span style=""font-size:12.0pt;"">cheerful friends, talented artisans &amp; performers - and funny/creepy/marvelous characters, of course, but more than that the gracious generosity of the people behind the art/performance/characters, who gave a few (or many) minutes of their time to chat backstory or inspiration or motivation with the nosy/fascinated folklorist.</span></p><p style=""text-indent:36.0pt;""><span style=""font-size:12.0pt;"">Drove home to Toronto late Sunday night, taught class Monday, headed back down to Oswego Tuesday. Can I just point out once again that I have a really good life?</span></p>"
+"eventtime","2012-07-26 20:54:00"
+"current_moodid","44"
+"url","http://crunchywitch.livejournal.com/509455.html"
+"userid","3309"
+"itemid","1989"
+"event","&nbsp; &nbsp; I say this not so that you are all reminded to shower me with love tomorrow (don&#39;t even go there, littlehoudini...) It&#39;s interesting to be looking at the age as a number: hard to believe that I&#39;ve been alive forty years, you know?&nbsp; As milestones go, many people are, I think, more ambivalent (if not downright unhappy) about turning forty than I am.<br />&nbsp; &nbsp;<br />&nbsp;&nbsp;&nbsp; I like birthdays.&nbsp; I&#39;m excited about it.&nbsp; Thirty was great.<br />&nbsp;&nbsp;&nbsp;&nbsp;Forty&#39;s kinda gonna rock.<br /><br />&nbsp; &nbsp; Today I gave the final lecture for my part of the shared summer course: there&#39;s tutorials still to hold, but the other prof has the remaining lectures (well, we&#39;re sharing the final class, where we&#39;re going to dissect <i>The Hunger Games</i> - which is going to be really fun).&nbsp; Better yet, because he owes me two days&#39; coverage, I finished the lecture today and will not be back on campus until next Monday: he&#39;s taking my tutorial this Wednesday and next.<br />&nbsp;<br />&nbsp; &nbsp; Tonight I&#39;m out for pre-birthday oysters.&nbsp; Afterwards, there will be a bubbly bath with LUSH bombs and champagne.&nbsp; (Possibly some <a href=""http://www.imdb.com/title/tt1103987/"">Leverage</a> whilst there: I&#39;m kinda addicted, and it amuses me to watch telly in the tub.)&nbsp; Tomorrow is a day for wandering the city in the sunshine, likely having lunch with J - how lovely to have no lectures to write and no papers to grade - followed by dinner at my sister&#39;s place with the family.&nbsp; There will, I expect, be cupcakes.&nbsp; I am very fond of cupcakes.<br /><br />&nbsp; I wish you all a very merry unbirthday - or rather, happy my-birthday to you!<br />"
+"eventtime","2012-07-16 19:03:00"
+"current_moodid","15"
+"url","http://crunchywitch.livejournal.com/509437.html"
+"userid","3309"
+"itemid","1987"
+"event","Neil Gaiman is releasing a Sandman prequel.
+
+http://www.uproxx.com/gammasquad/2012/07/neil-gaiman-sandman-prequel/"
+"eventtime","2012-07-13 13:52:00"
+"current_moodid","41"
+"url","http://crunchywitch.livejournal.com/508868.html"
+"userid","3309"
+"itemid","1985"
+"event","&nbsp; Two weeks ago - three? - I noted that it was unlikely that I&#39;d be a prof for courses this fall.&nbsp; Enough TA work, so meh, but being the prof has perks.<br />&nbsp; And now I&#39;m directing two classes, including a 4th year course on Fantasy &amp; Children&#39;s Culture.&nbsp; New to me, but it will be fun.<br /><br />&nbsp; Life continues to be busy with house and family and friends and work - and the weekends of the summer are now FULL.&nbsp; That&#39;s par for the course for summer weekends, though.&nbsp; During the week, some time has been enjoyably spent with a man who makes me smile, the summer class is two-thirds over, and the English lessons with my contractor are going well. So is most of September booked, and much of October. That&#39;s less usual, but it&#39;s all fun things including at least one more faire (maybe two, if I can squeeze in Michigan), a visit with a far-away lover, and a trip to New Orleans with my friend (and fellow fairy tale scholar) J!<br /><br />&nbsp; I moved my tv up into the living room while the basement is unusable.&nbsp; Still haven&#39;t watched anything on it.&nbsp; I&#39;m watching <i>Leverage </i>on my laptop, and can now attach it to the telly, I think.&nbsp; <i>Leverage </i>is fun for the explanation of classic cons, and the guest-star-watching is non-stop.&nbsp; Mark Sheppard (whom I love), D.B. Sweeny, Anthony De Longis.&nbsp; Jonathon Frakes has directed a few episodes, and guested on one; Wil Wheaton&#39;s been on (and they made a Kobayashi Maru joke, for the Star Trek geeks) and so has Brent Spiner.&nbsp; It&#39;s a fun ensemble cast - Timothy Hutton, Christian Kane (from <i>Angel</i>), Gina Bellman (who was great as Jekyll&#39;s wife in the BBC series), Beth Riesgraf as a socially awkward and seriously strange thief, and Aldis Hodge as the computer hacker.&nbsp; And nearly four seasons to go.&nbsp; Happy making.<br /><br />&nbsp; Got to be up early in the morning, so I&#39;m heading for bed now.&nbsp; G&#39;night, y&#39;all.&nbsp; Be well."
+"eventtime","2012-07-10 21:50:00"
+"current_moodid","49"
+"url","http://crunchywitch.livejournal.com/508368.html"
+"userid","3309"

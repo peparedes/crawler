@@ -1,0 +1,305 @@
+"names","values"
+"itemid","24"
+"event","PHA+V2VsbCBhIGxvdCBoYXMgaGFwcGVuZWQgc2luY2UgSSBsYXN0IHBvc3RlZCBvbiBoZXJlLiBOb3QgdGhhdCBhbnlvbmUgcHJvYmFibHkgcmVhZHMgdGhpcyBhbnl3YXlzIGhhaGEuIFRoZXJlZm9yZSBJbGwgZG8gaXQgcHVyZWx5IGZvciBteSBvd24gYW11c2VtZW50LiBJJ20gYSBkYWQgbm93LiBJIGhhdmUgdHdvIHNvbnMsIEFuZHJldyBhbmQgRmlubGV5LiBBbmRyZXcncyB0d28gRmlubGV5IGlzIDYgbW9udGhzLiBBbmR5IGlzbid0IGJpb2xvZ2ljYWxseSBtaW5lIGJ1dCB0aGVuIGFnYWluIHNpbmNlIHdoZW4gZGlkIEROQSByZWFsbHkgZGV0ZXJtaW5lIGZhbWlseT8gSGUncyBteSBsaWwgbWFuLCBzbWFydCwgZnVubnksIG1vb2R5IChzaG9ja2luZ2x5IGxpa2UgbXlzZWxmKS4gRmlubGV5IGlzIHRoZSBxdWlldCBvbmUuLi51bmxlc3MgeW91IHBpc3MgaGltIG9mZi4gSGUncyBjdXR0aW5nIHRlZXRoIGFuZCByb2xsaW5nIG92ZXIuIEhlIGxvdmVzIHRvIGJlIG91dHNpZGUuIElmIGhlJ3MgZnVzc3kgYWxsIHlvdSBoYXZlIHRvIGRvIGlzIHRha2UgaGltIG91dHNpZGUgYW5kIGhlJ3MgYmVjb21lcyBxdWl0ZSBjb250ZW50LiBIZSBoYWQgYSBoZWFkIGZ1bGwgb2YgdGhpY2sgZGFyayBoYWlyIHdoZW4gaGUgd2FzIGJvcm4gYnV0IHRoZSBvbGRlciBoZSBnZXRzIHRoZSBtb3JlIGhhaXIgaGUgbG9zZXMgOikgSXRzIG1vcmUgb2YgYSByZWRkaXNoIGJyb3duIG5vdy4gQmx1ZSBleWVzIGxpa2UgaGlzIG1vbW15LiBEaW1wbGVzIHRoYXQgd291bGQgYnJlYWsgeW91ciBoZWFydC4gQW5keSBpcyB0YWxraW5nIGdpYmJlciBjaGFiYmVyIGxpa2UgY3JhenksIHN1cnByaXNpbmdseSBlbm91Z2ggSSB1bmRlcnN0YW5kIGV2ZXJ5IHdvcmQuIEhlIGxpa2VzIHRvIHNjcmliYmxlIHdpdGggY3JheW9ucyBhbmQgYnVpbGQgd2l0aCBibG9ja3MuIEJsb25kZSBoYWlyLCBibHVlIGV5ZXMuIEhlJ3MgZ29pbmcgdG8gYmUgYSBsYWRpZXMgbWFuIEkgY2FuIGFscmVhZHkgdGVsbCwgKmNvdWdocyoganVzdCBsaWtlIG1lISBSZXNpc3QgdGhlIHVyZ2UgdG8gbGF1Z2ggYXQgdGhhdCEmbmJzcDs8YnIgLz48YnIgLz5JdHMgYW1hemluZyBob3cgaGF2aW5nIGtpZHMgY2hhbmdlcyBub3Qgb25seSB5b3VyIGxpZmUgYnV0IHRoZXkgd2F5IHlvdSBsb29rIGF0IHRoZSB3b3JsZC4gVGhlIGhhcHBpbmVzcyB0aGV5IGJyaW5nIGludG8geW91ciBsaWZlIGlzIGxpa2Ugbm90aGluZyBlbHNlIGl2ZSBldmVyIGV4cGVyaWVuY2VkLiBJdHMgc2NhcnkgYW5kIGluY3JlZGlibGUgYW5kIHBoZW5vbWVuYWwgYWxsIGluIG9uZS4gSXQncyBtYWRlIG1lIGZlZWwgb2xkZXIgdGhhbiBJIHByb2JhYmx5IHNob3VsZCBsb2wuIFRvIGtub3cgdGhhdCB5b3UgaGF2ZSB0d28gaHVtYW4gYmVpbmdzIHRoYXQgZGVwZW5kIG9uIHlvdSBmb3IgZXZlcnkgc2luZ2xlIHRoaW5nIGJyaW5ncyByZXNwb25zaWJpbGl0eSB0byBhIHdob2xlIG5ldyBsZXZlbC4gQnV0IGl0cyB3aGF0IG1ha2VzIGdldHRpbmcgdXAgZXZlcnkgbW9ybmluZyB0aGUgYmVzdCB0aGluZyBpbiB0aGUgdW5pdmVyc2UuIEkgd29yayBhIGxvdCwgY29sbGVnZSBpcyBzdGlsbCBhIHByaW9yaXR5IHRvIG1lIGJ1dCBJbGwgaGF2ZSB0byBiZSBob25lc3QgaXRzIG5vdCBhdCB0aGUgdG9wIG9mIG15IGxpc3QuIEkndmUgZ290IGEgaG91c2UsIGJhbmsgbG9hbnMsIHN0dWRlbnQgbG9hbnMsIGJpbGxzLCBhbmQgY2FyIHBheW1lbnRzIGJ1dCBJIG1hbmFnZSB0byBtYWtlIGl0IHdvcmssIGV2ZW4gdGhvdWdoIGl0IG1lYW5zIHNsZWVwIGlzIG5vdCByZWFsbHkgYSBmYWN0b3IgdGhlc2UgZGF5cy4gSSBsaXZlIG9uIGEgbGFrZSBpbiBteSBtb20ncyBvbGQgaG91c2UgdGhlIHZpZXcgaXMgaW5jcmVkaWJsZSBpbiB0aGUgbW9ybmluZ3MuIFRoZSBtb3NxdWl0b2VzIGFyZSBoZWxsLiBUb25zIG9mIG5laWdoYm9ycyB0aG91Z2guIE15IGhvdXNlIGlzbuKAmXQgYmlnIGJ1dCBpdHMgY29tZm9ydGFibGUuIEkgc3RpbGwgZHJpdmUgbXkgZm9yZC4gQW5vdGhlciBiaWcgdGhpbmcgaXMgSSBnb3QgbWFycmllZCBsYXN0IEp1bmUsIHVuZm9ydHVuYXRlbHkgaXRzIG5vdCB0dXJuaW5nIG91dCBob3cgSSBoYWQgcGxhbm5lZC4gQnV0IG15IGtpZHMgYXJlIGxvdmVkIGFuZCBiZWNhdXNlIHRoZWlyIG1vdGhlciBicm91Z2h0IHRoZW0gaW50byBteSB3b3JsZCBzaGUgYWx3YXlzIHdpbGwgaGF2ZSBteSBsb3ZlIGFuZCBkZWVwZXN0IGdyYXRpdHVkZSBubyBtYXR0ZXIgd2hhdCBoYXBwZW5zLjxiciAvPjxiciAvPkhtbSB3ZWxsIHRoZSBvbmx5IG90aGVyIHRoaW5nIEkgY2FuIHRoaW5rIHRvIHRhbGsgYWJvdXQgaXMgbXkgb25saW5lIGJ1ZGRpZXMgd2hvIGdyYW50ZWQgaGFsZiBvZiB0aGVtIGhhdGUgbWUuIENocmlzc3ksIE1lbCwgTWF4LCBDb3VydCwgSmVzcywgTmlra2ktLS1JIGRvbnQga25vdyBpZiBhbnkgb2YgeW91IHdpbGwgc2VlIHRoaXMgKHdlbGwgYWN0dWFsbHkgSSBrbm93IGNvdXJ0IGFuZCBtYXggd2lsbCkgQnV0IEkga25vdyB0aGVyZSBhcmVudCBlbm91Z2ggd29yZHMgdG8gY29tcGVuc2F0ZSBmb3IgZXZlcnl0aGluZyBJIGhhdmUgcHV0IHlvdSB0aHJvdWdoLiBJdmUgd3JvbmdlZCBlYWNoIG9uZSBvZiB5b3UgbW9yZSB0aGFuIEkgd2lzaCB0byBhZG1pdCwgSSBqdXN0IGhvcGUgdGhhdCBhdCBvbmUgcG9pbnQgb3IgYW5vdGhlciBJIHdpbGwgZ2V0IHRoZSBvcHBvcnR1bml0eSB0byB0YWxrIHRvIGVhY2ggb2YgeW91IG9uZSBvbiBvbmUsIGFuZCBhcG9sb2dpemUgdG8geW91IGFsbC4gSSdtIG5vdCBsb29raW5nIGZvciBmb3JnaXZlbmVzcyBwdXJlbHkgYmVjYXVzZSBJIGtub3cgSSBkb27igJl0IGRlc2VydmUgaXQuIEkgZnVsbHkgYWNrbm93bGVkZ2UgdGhhdCBteSBhY3Rpb25zIGhhdmUgbGVkIG1lIHRvIHRoaXMgcG9pbnQgYW5kIHlvdXIgYW5nZXIgd2l0aCBtZSBpcyBqdXN0aWZpZWQgYW5kIG1vcmUgdGhhbiB1bmRlcnN0YW5kYWJsZS4gUG9zc2libHkgdGhlIHVsdGltYXRlIHB1bmlzaG1lbnQgZm9yIGV2ZXJ5dGhpbmcgSSd2ZSBkb25lIGlzIG5ldmVyIGdldHRpbmcgZm9yZ2l2ZW5lc3MsIGFuZCBJIGtub3cgdGhhdCB0aGUgd29yc3Qgb2YgaXQgaXMgdGhhdCBJ4oCZdmUgbG9zdCB5b3VyIGZyaWVuZHNoaXBzLi4uc29tZXRoaW5nIHRoYXQgSSd2ZSBlYXJuZWQgdGhlIHJpZ2h0IHRvIGVuZHVyZSBmb3IgYWxsIHRpbWUuIEFzIGJhZGx5IGFzIEkgd2FudCB0aG9zZSBmcmllbmRzaGlwcyBiYWNrLCBJdmUgYWNjZXB0ZWQgdGhhdCB0aGlzIGlzIHdoYXQgSSBkZXNlcnZlLiBJdHMgaGVhcnRicmVha2luZywgYW5kIGRldmFzdGF0aW5nIHRvIG1lIGJlY2F1c2UgSSByZWFsbHkgaGF2ZSB0byBsZXQgeW91IGFsbCBrbm93IHdoZW4gd2Ugd2VyZSBmcmllbmRzLCB3aGVuIEkgd2FzIHRoYXQgMTUgeWVhciBvbGQgcHVuayBsaWZlIHdhcyBzbyBzaGl0dHkgYXQgaG9tZSBmb3IgbWUgYW5kIGJlaW5nIGFibGUgdG8gZ2V0IG9ubGluZSBhbmQgaGF2ZSBncm91cCBjaGF0cyBhbmQgUlAncyB3aXRoIHlvdSBndXlzLCBsYXVnaGluZyB3aXRoIHlvdSBndXlzLCBpdCB3YXMgc3VjaCBhIGdvb2QgZXNjYXBlIGZvciBtZS4gVG8gYmUgYWJsZSB0byBmb3JnZXQgaG93IGJhZCB0aGluZ3Mgd2VyZSBmb3IgZXZlbiBhIGZldyBob3VycyBtZWFudCBtb3JlIHRoYW4gSSBjYW4gcmVhbGx5IGV4cGxhaW4uIEkgY291bGQgYmUgbXlzZWxmICh3aGljaCB5ZXMgSSBrbm93IHdhcyBzdWNoIGEgcGFpbiBpbiB0aGUgYXNzIGEgbG90IG9mIHRoZSB0aW1lKSBidXQgdGhlIGdvb2QgdGltZXMsIGxpa2UgbGlzdGVuaW5nIHRvIGNocmlzc3kgYW5kIG5pa2tpIHNpbmdpbmcgb3IgY2FsbGluZyBuaWtraSBjaGlwbXVuaywgZ29vZmluZyBvZiB3aXRoIG1heCwgYmVpbmcgY3JlYXRpdmUgYW5kIGNvbGxhYm9yYXRpbmcgaW4gUlAncyB0aG9zZSB0aGluZ3Mgd2VyZSB0aGUgYmVzdC4gQW5kIHNhZGx5IGVub3VnaCBJIGNvdWxkIG9ubHkgaG9wZSB0aGF0IG1heWJlIHlvdSBhbGwgY291bGQgdGhpbmsgb2YgYXQgbGVhc3Qgb25lIHRpbWUgb3IgYW5vdGhlciB3aGVuIEkgbWFkZSBlYWNoIG9mIHlvdSBsYXVnaC4uLmV2ZW4gaWYgaXQgd2FzIG9ubHkgb25jZSBhbW9uZ3N0IHRoZSBtYW55IHRpbWVzIG9mIGFuZ3J5IG1lbW9yaWVzLiBJIGNhcmVkIGFuZCBzdGlsbCBkbyBhYm91dCBlYWNoIGFuZCBldmVyeSBvbmUgb2YgeW91IGp1c3QgYmVjYXVzZSB5b3VyIHdobyB5b3UgYXJlLiBJIGp1c3Qgd2lzaCBJIGtuZXcgYmFjayB0aGFuIGhvdyB0byBzaG93IGl0LiBJdHMgaGFyZCB0byBzaG93IHBlb3BsZSB5b3UgY2FyZSBhYm91dCB0aGVtIHdoZW4geW91IGdyb3cgdXAgaW4gYSBob3VzZSB3aXRoIHNvbWVvbmUgdGhhdCBoYXRlcyBldmVyeSBib25lIGluIHlvdXIgYm9keS4gWW91IGNhbnQgbGVhcm4gaG93IHRvIGNhcmUgYWJvdXQgb3RoZXIgcGVvcGxlIGlmIHlvdSBkb27igJl0IGhhdmUgYW55b25lIHRvIHRlYWNoIHlvdS4gU29tZXRoaW5nIEkgd2lsbCBuZXZlciBsZXQgbXkgY2hpbGRyZW4gZXhwZXJpZW5jZS4gTm93IHRoYXQgSSBoYXZlIG15IG93biBraWRzIEkgcmVhbGl6ZSB3aHkgaXRzIHNvIGltcG9ydGFudCB0byB0ZWxsIHRoZW0gaG93IG11Y2ggeW91IGxvdmUgdGhlbSBldmVyeSBkYXksIHR3aWNlIGEgZGF5IHRocmVlIHRpbWVzIGEgZGF5LiBIb3cgaW1wb3J0YW50IGh1Z3MgYXJlLCBxdWFsaXR5IHRpbWUuIEJlY2F1c2UgdGhlbiB3aGVuIHRoZXkgYXJlIHR1cm5pbmcgaW50byB5b3VuZyBhZHVsdHMgdGhleSB3aWxsIGtub3cgaG93IHRvIHNob3cgcGVvcGxlIHRoZXkgY2FyZS4mbmJzcDs8YnIgLz48YnIgLz5XZWxsJm5ic3A7SSBndWVzcyB0aGF04oCZcyBhbGwuIEkgZG9u4oCZdCB0aGluayBJIHdpbGwgdGFrZSBhbm90aGVyIGxvbmcgaGlhdHVzIGZyb20gdGhpcyBqb3VybmFsIGZvciBhd2hpbGUsIEnigJl2ZSBncm93biBxdWl0ZSBmb25kIG9mIGl0IDopIHBsdXMgSSBnZXQgcmVhbGx5IGJvcmVkIHNvbWV0aW1lcyBhbmQgaXQgZ2l2ZXMgbWUgc29tZXRoaW5nIHRvIGRvLiBQLlMgZXhjdXNlIG15IHBvb3IgbWlzc3BlbGxpbmcgSW0gdG9vIGxhenkgdG8gdXNlIHNwZWxsIGNoZWNrIGFuZCBJbSB0byBzdHVwaWQgdG8gdHlwZSB3aXRob3V0IGl0IGxvbC48L3A+"
+"eventtime","2007-06-22 22:30:00"
+"url","http://agent-51-2005.livejournal.com/6219.html"
+"userid","326"
+"itemid","22"
+"event","I left my room for maybe 45 minutes only to come back to casey on my damn computer. It's starting to bother me now. 
+
+Other than that today has been just wonderful. The weather was warm and my car is on E, why? No money. Well none that I can really spend. I still never have been paid back, but at least they have the rent this time. My eye hasn't gotten any better. I have an appointment tomorrow to get that checked out again. 
+
+This town could really be cursed, possibly on a hell mouth maybe? I don't know bad things happen to me when I'm here. 
+
+My dad is a moron, but everybody knows that. I've been in a rotten mood all day which is possibly why I did what I did. Yeah well he comes back home on Saturday, which means I'll have to leave the country just after I see his reaction when he see's his car. Which means I'll just wait in my car with the video camera capture the look on his face and slam on the gas and go before he reaches the end of the driveway. No I don't know If I will really have to leave town, but I do the stupidest things sometimes. In a way I suppose I do ask for it. Excuse my language but he is going to shit bricks when he opens the garage.  At the time it really seemed like a great idea...to be honest it still does. haha. Oh jeez...this is going to be a long weekend. But back to why good ole pappy is a moron, what idiot leaves his garage door unlocked when he goes to ohio for whatever the hell he goes there for? MY DAD! lol I really think I could be possibly having a nervous breakdown. What with all the fricken crap I've had to put up with lately, I do believe my brain has gone into overload. That's the only way I can explain the tribute to Tom Green in my father's garage."
+"eventtime","2005-03-25 02:00:00"
+"current_moodid","96"
+"url","http://agent-51-2005.livejournal.com/5804.html"
+"userid","326"
+"itemid","21"
+"event","In my room. Door locked. Roomates? suck. Dad? sucks. Everything? Sucks...I think I've kind of made my point."
+"eventtime","2005-03-19 22:26:00"
+"current_moodid","1"
+"url","http://agent-51-2005.livejournal.com/5488.html"
+"userid","326"
+"itemid","20"
+"event","I woke up a couple hours ago, and for some reason even after thirteen hours of sleep I'm still really tired. Yeah that's really all I wanted to say.
+
+
+ETA: Somebody ate my club sandwhich...Which was pretty much the only thing in the house. Look's as though I'm going to have to ask dad for some money...Rent is due on monday. This is great."
+"eventtime","2005-03-12 20:23:00"
+"current_moodid","14"
+"url","http://agent-51-2005.livejournal.com/5182.html"
+"userid","326"
+"itemid","19"
+"event","Just keeps getting more and more interesting by the minute. Never a dull moment, considering it's tendency to bury me with crap more and more as each day passes by. 
+
+I can't drive. Well, I can but not very well. Definitely not safely. I've known this from the minute I left the house and drove home. I went to work but other than that I've tried to stay home. Today I went to get milk...I almost hit two guys crossing at a corner. My stomach gets sick just thinking about it. I just went home and have stayed here ever since. I still cant lay or lean against anything with my back. I nearly want to pass out every time the shower hits it. I think the most annoying thing though is that I keep running into things...end tables, furniture, corners of doorways. 
+
+Case called, the jerkoff went to Chicago with four other people. He was polite enough to tell me not to worry about my credit card they only spent $500 dollars, including the hotel room. But made sure to let me know he would pay it all back. With what job? 
+
+How am I supposed to pay this at the end of the month without a job when he doesn't have the money? That little sh*t...<i>*Counts To Ten*</i> Now what will happen is I will have to go to my mom and Jerry for the money. And I can just see the looks on their faces. Once again I will turn out the irresponsible one. Is it just me or can I just not win here? 
+
+I suppose I could always try asking dear old dad for the money, I could just see how that would go...
+
+Casey will be home tomorrow. How wonderful...He's even bringing Amanda. It just keeps getting worse and worse. 
+
+I want to go away to somewhere small and quiet. Quiet...gee what's that like again? I'm going to go to sleep well...I'm going to try to. I've been having trouble sleeping."
+"eventtime","2005-03-10 01:45:00"
+"current_moodid","84"
+"url","http://agent-51-2005.livejournal.com/4919.html"
+"userid","326"
+"itemid","18"
+"event","and full of hell. I don't think I was meaning to make that rhyme. Oh well. Let me let you in on what the past 24 hours has been like...Yesturday at this time I woke up to my credit card being MIA. Who do you think I would go to about that? Case? Yep. Sure enough the jerk was absolutely no where to be found. MY CREDIT CARD...If I wanted to be an ass I could have called the cops and reported it stolen. But no...why? Because you don't do that to friends. Although you don't steal your FRIENDS credit card either. I just prayed he didn't spend too much and continued on with my crap day. 
+
+I went to my dad's house. (I'm a idiot) 
+
+Fast forward through details nobody wants to hear.
+
+Stop...right at the part where I'm half blind with tiny chunks of glass lodged in my eye. It's not like I could see out of either eye that well anyway but now I can only see out of one? I know I need to go to the hospital and have a doctor look at it I just hadn't got around to it...I'm not really in the greatest condition to go and talk to doctors. I went to work and about 15 minutes into work I barely had clocked in and set my stuff down the boss calls me in and asked what happened and I knew it...I knew he was going to fire me. He fed me a bunch of liability b.s. and said he'd give a good reference. 
+
+So I'm sitting here trying to do everything I can to just not flip out at how everything falls apart into crap within seconds and the fates, gods or whatever you might call it can just kick me back down to nothing.  
+
+I don't even know if Case brought my card back I stayed in my room last night and left early this morning I haven't seen anyone which is a good thing. Too many questions and unwanted opinions for me to handle. Staying in my room alone sounds a ton more appealing.
+
+**ETA: I might of went crazy with the language, sorry."
+"eventtime","2005-03-07 15:01:00"
+"url","http://agent-51-2005.livejournal.com/4709.html"
+"userid","326"
+"itemid","17"
+"event","It's a little bit mortifying because well just seeing one Conan O'Brien is scary enough, funny yes he is I'll admit it but still I'm pretty sure he's an alien. Which would explain a lot really. Either way his shows good. I'm feeling a little odd tonight. However that could be the NyQuil talking. I've caught the flu again. Gee I wonder how the heck that would happen? Could it be because I spend my days by an open garage door going inside and outside constantly in freezing weather? It's okay when I catch phnemonia at least I wont have to go to work anymore. 
+
+I can't sleep, even pizza taste's bad. My chest and back ache from coughing and my head hurts constantly. Oh the sneezing fits aren't fun either, I sneezed ten times earlier. I don't know why I'm even online. Nobody is home but me and I'm bored, thought maybe I would talk to some people I haven't talked to in awhile but that doesn't really seem to be going on...I should probably see as to why that is. 
+
+I have to go see my dad tomorrow, he has the keys to my truck (which is currently without a engine, and sitting in the field behind his house.) I bought from Drew's mom a few years back, never actually got it running ever. 
+
+But it has sentimental value...seems like a good project for the summer. 
+
+Yeah i'm sick so whatever normal tolerance I have to the crap my dad likes to pull when I go see him has dissipated into nothing. Hopefully he wont be a jerk cause I really can't deal with it. I can hope and be optimistic right? Yeah...probably not."
+"eventtime","2005-03-05 01:08:00"
+"current_moodid","7"
+"url","http://agent-51-2005.livejournal.com/4469.html"
+"userid","326"
+"itemid","16"
+"event","Really I'd like to know. My brain does not want to shut off. Being upset doesn't help. At least when I was in florida I wasn't mad all of the time...............I just want to go the hell to sleep...and I can't."
+"eventtime","2005-02-24 02:51:00"
+"current_moodid","2"
+"url","http://agent-51-2005.livejournal.com/4322.html"
+"userid","326"
+"itemid","15"
+"event","Infact four other people along with me pleaded for him not to cook. Although this is Casey we are talking about, when does he ever really listen? 
+
+Fast forward an hour later and there is smoke throughout the house. Why can't people just listen sometimes? Ah...forget it. lol. 
+
+Main point of this is that I just worked all day and then came back here and had to clean up this mess. They just left everything there and went out to eat, at least the turned off the oven. My head hurts. Not to mention my arm, but thats been hurting for days. I just was hoping it would stop hurting eventually, but that doesn't seem to be the case. 
+
+Forget it, I've changed my mind I am going to bed. I really don't know what I was thinking..."
+"eventtime","2005-02-22 23:14:00"
+"current_moodid","1"
+"url","http://agent-51-2005.livejournal.com/4016.html"
+"userid","326"
+"itemid","14"
+"event","Today has not been all that great really. I wanted to stay online and chat but honestly I feel like someone sucked all the energy right out of me. Kind of a lack of emotional energy for withstanding basic conversation and maintaining a cheery positive disposition when it comes to talking with people tonight.
+
+ I have not really updated this thing due to this massive creativity kick that I've been on. It comes and goes so when it's around I try to make the most of it. I wrote a new song. It's not done or anything, it doesn't even have lyrics but after locking myself in my room for hours on end it's what I ended up with. Locking myself in my room, weird I know. Except it's easier to focus on what I'm doing then. I actually unpacked a good majority of my things as well. Yet my room still is a war zone. I dont have anywhere to put my guitars, or my bass. There really isn't enough room to put them on the display stands. Case suggested I hang them on the wall, but I always think they are going to fall and bust into pieces. I worry too much. My drum kit takes up most of the room though lol. I'm just willing to sacrifice 90% of my room minus my bed and a small trail I made to get to the door, to my instruments. As for the rest of my stuff well I'll just shove it in the closet. 
+
+I went to visit my dad...I really don't know why I do it but I did. I guess I just want to think maybe it will be different this time. 
+
+It wasn't."
+"eventtime","2005-02-17 22:38:00"
+"current_moodid","25"
+"url","http://agent-51-2005.livejournal.com/3714.html"
+"userid","326"
+"itemid","13"
+"event","I got stung by a bee. Twice. It's 32 degrees out. So where the heck a bee came from I don't know but man did it hurt. It went down my coat while I was taking old tires out to the bins. I never get stung. I go out of my way to avoid getting stung...It's why winter is my favorite time of the year, sort of. Because it's bee free. To get stung by a bee not just once but twice...in winter. It's a bit nuts. I got stung on the back so I it hurts to lay down or sit against anything. 
+
+In other news...The plan is a go for operation: Move is a go. Case's mom is already packing, I guess the idea of a lovely 4 bedroom house with a two car garage is very appealing to her. Bad news, Graham is moving in. Not Mikey though, I would probably hurt him if I had to live with him. Mikey sheds... Seriously if you look at him real quickly he looks like a Sheep dog. I remember when he and Danny use to have a place. The bathroom sink and tub were full of hair...it was disgusting, even to me. (The guy who keeps two month old chinese take out under his bed.) 
+
+Reagan is who I'm looking at to move in. Mom's done kicked her out because she was dating a 30 year old married man. Reagan...not my mom. Rea refuses to stop seeing him. She's 18 now my mom can't exactly stop her. Jerry can't either for that matter. Rea stole his car last year and he gave up after that. Case want's Jo to move in really because she's pregnant. I told him no. Her parent won't kick her out she has a warm safe place to live. He won't drop it though. Look she got herself into that situation and it's not my fault the father of the kid is MIA or whatever. Honestly I wonder if she even knows who the father is. Either way she is not moving in. 
+
+Not to stay on this subject much longer because it just upsets me, but she told me it's between two guys. One being Jamie and the other she wouldn't say. It's not Kieth the Thief, I know that which means there's only one other person who it could be...I may not want much to do with Jo but I do still know her and yeah she's a flirt and all the guys know her she's only seriously been with 4 guys Two of which moved years ago. Bottom line...I have this sick feeling in my gut it's Casey. He's taken her to every doctors appointment...He sits there talking to her belly constantly. I'm not stupid. Neither of them will admit it. She still says it's most likely Jamie's and He says he's just trying to be a supportive friend. 
+
+Do I have idiot written across my forehead or something, wait don't answer that. LoL Enough... No more on that.
+
+I haven't been online the past few days. What with the superbowl and the sims...Speaking of which, Saturday I was under the assumption most of the day that it was Sunday. Hey what can I say I work all week on the weekends my brain shuts down. The whole day I was pumped due to the Superbowl. An hour before the pre-show was supposedly suppose to start I made this monster of a sub sand which. All the goods, tomatoes, cheese, lettuce...The whole bit. I sit down with the sand which and pepsi in hand meanwhile I'm wondering where everyone is because they are all late for the party. I turn it to fox and what do I see? Nothing...No superbowl pre show...I could of cried. First I thought ""WHAT THE HELL?!"" Then Casey and his girlfriend walk in the door. I told him Fox was in screwed up because the nothing was on. And then I asked him where everyone else was and they both started laughing at me. I'm completely serious the entire time by the way so I figure they are stoned and I'm the sane one. Casey redirected my attention the the calendar...which said Saturday. Not Sunday. Man did I feel like a fool. 
+
+Finally when I was able to get online I caught up on LJ and my email. 
+
+Court? The one time I go a few days without showing up online and I get back and now your without internet. I feel bad that I didn't at least get to say bye. So if you see this, Bye lol...Come back soon because Case might really drive me to the point of insanity. Plus I'm going to miss you and even though Casey thinks your still completely pissed at him and he almost seems afraid to get online I'm sure he will miss you too. But not as much as me :D Email me if you can, let me know how things are going."
+"eventtime","2005-02-08 14:55:00"
+"current_moodid","7"
+"url","http://agent-51-2005.livejournal.com/3580.html"
+"userid","326"
+"itemid","12"
+"event","I saw this in Court's LJ. These things crack me up lol. No idea why I sit here and fill out a long list of questions, I don't really have anything better to do. :) The State of the Union Address is on every local channel. Luckily there's cable lol. 
+<TABLE cellSpacing=0 cellPadding=5 width=600 border=0>
+<TBODY>
+<TR>
+<TD><IMG src=""http://images.quizfarm.com/1106644474angel.jpg""></TD>
+<TD>You scored as <B>Angel</B>. You are Angel! You're the hero. You may have done some things in your past that you're not proud of, but you've proven yourself to be a true champion in your quest for redemption.<BR><BR>
+<TABLE cellSpacing=0 cellPadding=0 width=300 border=0>
+<TBODY>
+<TR>
+<TD>
+<P><FONT face=Arial size=1>Angel</FONT></P></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=94 bgColor=#dddddd border=1>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD><FONT face=Arial size=1>94%</FONT></TD></TR>
+<TR>
+<TD>
+<P><FONT face=Arial size=1>Wesley</FONT></P></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=94 bgColor=#dddddd border=1>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD><FONT face=Arial size=1>94%</FONT></TD></TR>
+<TR>
+<TD>
+<P><FONT face=Arial size=1>Doyle</FONT></P></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=69 bgColor=#dddddd border=1>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD><FONT face=Arial size=1>69%</FONT></TD></TR>
+<TR>
+<TD>
+<P><FONT face=Arial size=1>Connor</FONT></P></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=63 bgColor=#dddddd border=1>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD><FONT face=Arial size=1>63%</FONT></TD></TR>
+<TR>
+<TD>
+<P><FONT face=Arial size=1>Fred</FONT></P></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=56 bgColor=#dddddd border=1>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD><FONT face=Arial size=1>56%</FONT></TD></TR>
+<TR>
+<TD>
+<P><FONT face=Arial size=1>Gunn</FONT></P></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=56 bgColor=#dddddd border=1>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD><FONT face=Arial size=1>56%</FONT></TD></TR>
+<TR>
+<TD>
+<P><FONT face=Arial size=1>Cordelia</FONT></P></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=31 bgColor=#dddddd border=1>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD><FONT face=Arial size=1>31%</FONT></TD></TR>
+<TR>
+<TD>
+<P><FONT face=Arial size=1>Lorne</FONT></P></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=19 bgColor=#dddddd border=1>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD><FONT face=Arial size=1>19%</FONT></TD></TR></TD></TR></TBODY></TABLE><BR><A href=""http://quizfarm.com/test.php?q_id=3597"">Which Angel Character Are You?</A><BR><FONT face=Arial size=1>created with <A href=""http://quizfarm.com/"">QuizFarm.com</A></FONT></TR></TBODY></TABLE>"
+"eventtime","2005-02-02 21:06:00"
+"current_moodid","44"
+"url","http://agent-51-2005.livejournal.com/3143.html"
+"userid","326"
+"itemid","11"
+"event","<P>I was at work from 8-5. Upon walking in the door, not even getting the chance to take my shoes off the boss called. Tyler needed help tearing out carpet. Left, went there and worked till about 10:30pm when I walked out of the door. I haven't ate since breakfast but honestly I'm too tired to to eat. The chewing...it's a tiring process. I'm going to sleep. I have to work tomorrow...lol. What a wonderful world right? I do have Wednesday off though which means tomorrow if I am not dead with from exhaustion I will be online for a while. I keep yawning and it's starting to bother me. To sleep I go. Goodnight. </P>"
+"eventtime","2005-02-01 00:42:00"
+"current_moodid","31"
+"url","http://agent-51-2005.livejournal.com/3035.html"
+"userid","326"
+"itemid","10"
+"event","Ouch, who invented that word? Really because it doesn't do it's definition justice. Ouch doesn't cover the freakishly large and painful, nasty purple colored bruise which is making my head want to burst. Ouch doesn't really cover the feeling of biting into to your already busted open lip while eating Fruity Pebbles. No ouch just is not going to work as a description of how crappy I feel. Why do I let myself get into these things, HEY CONSCIENCE!!! Are you in that big hallow brain of mine? Apparently not. 
+
+This is the point where somebody should probably tell me to stop talking to myself...lol. Hamburger Helper, the magical cure for anything :) That's what I am going to go do now. Food..."
+"eventtime","2005-01-29 17:52:00"
+"current_moodid","7"
+"url","http://agent-51-2005.livejournal.com/2813.html"
+"userid","326"
+"itemid","9"
+"event","I am cold, terribly cold. I can not feel my nose. It was below zero most of the day and he had me by the garage door again. No one seems to be home which is kind of nice actually. I have a nice hot cup of coffee to warm up with and I might sleep for an hour or so. I can't feel my ears either now that I'm starting to think about it. <EM>*yawns*</EM> Sleepy, but I will return later :)"
+"eventtime","2005-01-28 17:10:00"
+"current_moodid","84"
+"url","http://agent-51-2005.livejournal.com/2363.html"
+"userid","326"
+"itemid","8"
+"event","But you alway's know when that awful commercialized holiday is coming. Valentine's day. It's still weeks away but if you walk into WalMart your swallowed into a vast ocean of red pink and white. Hearts, Chocolate candy, and teddy bears. Turn on the television and every other commercial has something to do with jewelry, gifts. I really feel sick. Is it just me? 
+
+Well I'm sure it's no secret my mood is less than cheerful. I've just had a long day I suppose. Sometimes you get these days where no matter what you do you can't please anyone. Everything just turns out a mess. Everyone seems to be acting slightly weird today. Like I said it could just be me. I think I might try my new amp out that I bought today."
+"eventtime","2005-01-27 22:45:00"
+"current_moodid","95"
+"url","http://agent-51-2005.livejournal.com/2292.html"
+"userid","326"
+"itemid","7"
+"event","It's nice to sleep in and stay up late once in awhile. Considering I woke up about an hour ago. Although I am not too sure on how I'm supposed to go to sleep in a few hours and actually be able to sleep the entire night and wake up very early in the morning. We just called pizza hut, sleeping makes you hungry. Now it's time for part three, (part 1:sleep, part 2:pizza, part 3: video games.)
+
+ Looks as though i'll be playing X-men solo, Casey has to go have dinner with his tyrant of a g/f. She doesn't like me and thinks I'm mean. LOL. Good. More pizza for me. :D"
+"eventtime","2005-01-23 18:56:00"
+"current_moodid","64"
+"url","http://agent-51-2005.livejournal.com/2004.html"
+"userid","326"
+"itemid","6"
+"event","<P>Casey and his army of pelicans and seals are standing on the front lines ready for battle, armed with snow shovels,plows, and the kryptonite of all snow everwhere. Sidewalk salt. AHAHAHAHA. The snow is out of control. All of it is very deep, so deep infact when walking down the porch steps your feet are consumed with it. In going to back out of the driveway I found myself stuck. The snow was so deep I couldnt back out. That was quite unacceptable though when a man is trying to go get his morning sausage mcmuffin,hashbrown, and orange juice, nothing should stand in his way. What should a person in this situation do you might ask. Simple, furiously shovel two long lines for the tires and back out like a mad man. After that the morning did not proceed the way one would hope. This town is most likely the worst place to be in the world during winter. The roads become deathtraps and your one crazy fool to try driving in the night. Once I had my food I came straight home, and I have been here ever since. CJ almost took his golf club to the computer last night. He sure was pissed haha. I think he probably sat there for four hours trying to get the hunk of junk to start. Finally he got it up and running today but was dragged off to go shopping in BC. He is what they call, WHIPPED. LOL. At one point though he started rambling about what was so great about hobbits mixed with some very foul words about that one guy from Lost. Not really sure what that was about, honestly I don't really think I want to know. I got in a little trouble, *<EM>snickers*</EM>&nbsp; Someone...Someone (Who knows who it could be really.) might have possibly dared a very stoned Casey into sticking his tounge on a metal flag pole down at the highschool&nbsp; last night. Originally it was supposed to be just donuts in the parking lot. That place is the best place to do donuts. Then the grand idea struck me like a smack in the face. I'm terrible aren't I? :D. Well it didn't turn out well, at least for him. For everyone else it was actually pretty funny.&nbsp;All I can say is that he panicked, badly. And well... that isn't the best thing to do when your tounge is frozen to a pole. We called in reinforcements when it got messy. Eventually the bleeding stopped, mostly. I did however get a rather nasty lecture from jo. </P>
+<P>X-Men Legends is calling my name now, must go. Bye :)</P>"
+"eventtime","2005-01-22 16:20:00"
+"current_moodid","44"
+"url","http://agent-51-2005.livejournal.com/1661.html"
+"userid","326"
+"itemid","5"
+"event","It's been a long day. I've finally achieved that thing they call warmth. Haha, I drank three cups of hot chocolate and sat by the heater. A hot shower helps also. The garage door was open most of the day which made the place like a freezer. 
+
+The weekend was busy. I went out of town and to the mall. Also I spent a good chunk of my tax money. Picked out a computer, now I just need to go get it. That draws up time issues, I never seem to have time anymore. I bought some new clothes, mostly shirts and jeans. I did get a really awesome Blink-182 shirt though, and I finally got a coat for winter. A big purchase I made was the mp3 player, I've needed one for awhile. 
+
+The feud has passed as well. Too busy spending money to fight LOL. A bunch of us went to this big music warehouse type place. There's a bass there that I really want but it's four hundred dollars. At one point though I did have to threaten to stop the car and pull over because both Graham and Casey were high and pretending their straws were light sabers, followed by a full blown ""Jedi"" Battle in the backseat. I swear one of them kicked me in the head during that. Amanda went with us...I don't like Amanda, there is no nice way to put it except that her voice is equivalant to nails on a chalk board. She also was very rude and kept changing the radio station to some pop channel. Try sitting in a car with a 17 year old teenie bopper singing some song by that girl from the Parent Trap, plus Obi-Wan and Dork Vader in the back dueling it out with MacDonalds straws. (Did I forget to mention the straws were filled with soda at the time?) My poor car, my poor poor car. Amanda made us stop four times cause miss princess has a bladder the size of a acorn, but she's Casey's...well I guess you could call her his girlfriend. No wait, his girlfriend THIS week. Seriously that kid goes through the girls here just about as quickly as he goes through a bag of pot. 
+
+Also in case you happen to see this Court, my apologies for not showing at 10 last night. Case's computer seems to spaz out every time I try to get online to talk to you. Funny huh? LOL. 
+
+Now I'm done. I think i've typed enough. :)"
+"eventtime","2005-01-18 18:58:00"
+"current_moodid","14"
+"url","http://agent-51-2005.livejournal.com/1504.html"
+"userid","326"
+"itemid","4"
+"event","I woke up this morning to my ear hurting. Which made me think that the 20 minutes I stood outside while it was raining/snowing yesturday was a very stupid thing to do. My throat is scratchy and the only thing that sounds appealing to eat is soup. I dont really like soup. I might be the only person in this town that hates chicken noodle soup. My head aches, this just wasn't something that I wanted to happen right now. Tons of parties tonight to celebrate four day weekends. I will be here instead, trying to rip my ear off. It's an intense throbbing in the ear that shoots through the rest of my head, not fun. 
+
+Regarding the civil war within these walls of this house? I think we both are just going to drop it. I'm not planning on fighting about it anymore and hopefully he isn't either. 
+
+Now I think I will go crawl back on the couch and watch t.v."
+"eventtime","2005-01-14 16:12:00"
+"current_moodid","82"
+"url","http://agent-51-2005.livejournal.com/1218.html"
+"userid","326"
+"itemid","2"
+"event","Considering it's only 1pm. Went in to talk with Tyler's dad. (Who called this morning at 8:30 asking if I wanted to come in for a interview.) I went into panic mode this morning, I must have ate and showered and left the house within 20 minutes. He told me I could have the job, but I wouldn't be able to start till Tuesday. He's going on vacation or something. Which works, I can enjoy my weekend and relax without worrying about a job. I think he hired me cause I've done this job at two other shops. He also commented on how well Tyler said I did when we worked construction a few summers back. 
+
+He mentioned that Tyler and he were remodeling the house on Omena Lake, so that Tyler and his buddies could move in, and he asked if I wanted some extra work. YAY! lol just kidding. Heck if we can get that house up and sutible for living Tyler is going to need roomates. With me needing a place to live this could work out well. 
+
+In other news, (I feel like a news anchor or something.) 
+Casey Harris is a...well it wouldn't be polite for me to say what he is. (Not really caring that he can see this.) best friends cant live together. It just cant happen. I think if I stay here any longer we might beat the bloody pulp out of one another. Not really but man would I like to. Last night his mom told me I could stay as long as I needed until I get some cash saved for a place. That is fantastic, because I was wondering what I was going to do Friday when Casey goes into one of his fits and kicks me out. Really I should have taken a picture when he heard his mom talking, the kid looked like he might have a heart attack. Which eventually led to him taking off and walking all the way out to Jo's to spend the night. I think he must've thought that it would piss me off. Yeah. Real heartbroken here. Boohoo. LOL. That ship has sailed and was lost at sea. Jo and I are friends thats it, that will be it unless every other woman on the planet disappears and even then, I might just become a priest or whatever. 
+
+I told Case, ""If you really have beef with me lets settle it the right way, We can go pay $20 and go to the fight night at the boxing club (that place is wild) and get in the ring and duke it out like gentlemen. Boxing gloves and all. He didn't ever answer but he knows I've had a membership ever since it opened. Granted I was gone for two years, I'm not really sure if I remember too much but I'm almost positive I can still hold my own. Really if whatever his problem is can only be settled through fighting at least lets do it with a ref and make it safe. (I've become such a softy. What happened to out in the parking lot at four o'clock! BE THERE!) Once again I don't know why he's mad at me, I should be the one mad at him actually. I'm just going to keep my mouth shut try not to make things worse. Still I'm really in an excellent mood and not planning on letting anyone ruin it. (man I hope I didn't just jinx myself.) I think I need a nap now. First though I want a picture for my journal too. Everybody has Icons and such except poor me. Hmm...I wonder who I know that makes icons and such. Hmm this is a hard one. Who could that person be?"
+"eventtime","2005-01-13 12:52:00"
+"current_moodid","15"
+"url","http://agent-51-2005.livejournal.com/668.html"
+"userid","326"
+"itemid","1"
+"event","Currently playing video games. I think I can smell Macaroni and Cheese. That sounds good. Casey and I thought it would be really fun to spray the back yard with water from a hose and turn the inches of snow into ice. But the valve outside is frozen, dont fret though...We might try hooking it to the valve in the basement and out the window. First the animals need to eat though. 
+
+  My stomach is making strange noises. It's funny. Yeah I'm bad at these type of things."
+"eventtime","2005-01-10 16:45:00"
+"current_moodid","125"
+"url","http://agent-51-2005.livejournal.com/363.html"
+"userid","326"

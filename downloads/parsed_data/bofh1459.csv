@@ -1,0 +1,603 @@
+"names","values"
+"itemid","163"
+"event","So I grabbed a copy of Antares' Auto-Tune VFX in order to make an """"operatic"""" version of <a href=""http://myimmortalrehost.webs.com/"">My Immortal</a> as a result of a silly idea I had while chatting on IRC. Turns out... the Auto-Tune VST has DRM inbuilt, and it's the iLok USB-key type DRM. This DRM system loads two drivers, iLokDrvr.sys, which does low-level communication with the USB dongle, and TPkd.sys, which is the main driver for the rootk^H^H^H^H^Hcopy protection system here. Now, all I wanted was the 10-day trial, but it turns out that no, you need to install the relevant drivers for that as well. Now, given that I'm about as reluctant to install drivers for a DRM/Copy Protection scheme on my main computer as I am to try to restrain a cat which recently had an enforced bath, I first take a look at the current cracks for the damn thing. They all load an emulator for the iLok dongle, which...isn't hard, that thing's pathetically easy to emulate and they change device keys so infrequently that you only really have to check about once a year to see if there are any programs with which your crack no longer function, but this now means I'm loading <i>three</i> kernel-mode drivers, and they're <i>all</i> from sketchy sources, security-wise. So I decide to poke around in Auto-Tune EFX.dll...
+
+...5 minutes later I have unlinked the iLok DRM system from it completely. Turns out all I had to do this was NOP over a single conditional JMP and a single call to Kernel32.ExitProcess, as well as changing 3 conditional JMPs to unconditional JMPs. There are probably more things I'd need to change for everything to be fully functional, but so far every feature I've wanted to use out of Auto-Tune is present, available, and does not seem to mind this crack at all, hilariously enough.
+
+This really is hilariously dumb. iLok, while not exactly StarForce 3.4/3.6, is decently complex as copy-protection software, and is actually quite expensive for a site license if you want to redistribute it with your software as its means of copy protection. While the copy protection software itsself is implemented somewhat decent, the actual means of calling it is hilariously stupid and lends itsself to being bypassed by simple conditional JMP changes to unconditional JMP or NOP. Come on, don't these people learn the ancient JMP-CMP bypass method of cracking every single shitty copy protection algo ever? It's stupidly popular and stupidly easy and floating all over the internet still. Seems like Antares needs to read said PDF in question sometime.
+
+This is the copy-protection code equivalent of putting the most expensive, complex, difficult-to-pick Medeco lock on your door...which is made of corrugated cardboard. The lock sure as hell isn't going to get opened, but good luck preventing the thieves from breaking into the room by other means, which, you have to admit, in this case, are <b>painfully obvious.</b>
+
+God, can we please just scrap copy protection already? It doesn't work and will never work, just give it up. And if you're not going to give it up, then at least give us INTERESTING copy protection schemes to crack, instead of this bullshit that I can reverse quite literally in under 15 minutes. Seriously. What the hell, guize. This is just idiotic, on multiple levels. Fix it. Seriously."
+"eventtime","2010-01-09 08:38:00"
+"url","http://bofh1459.livejournal.com/41959.html"
+"userid","1997"
+"itemid","162"
+"event","So I finally decided to do a frequency sweep test of my laptop speakers and fed them the following:
+
+<img src=""http://img75.imageshack.us/img75/2038/input.jpg"" />
+
+I got the following back out:
+
+
+<img src=""http://img190.imageshack.us/img190/5369/output.jpg"" />
+
+Jesus Christ, this redefines awful. Hope you don't want to hear ANY FREQUENCIES BELOW 125Hz AT ALL. Or, for that matter, want Middle C to be approximately half the amplitude of A440 because the next bit of the frequency response curve functions almost exactly like a single-order highpass filter with a center frequency of approximately 500Hz.
+
+Also, I love the random peak at 60Hz because, of course, you can't have computers music without ground loop.
+
+Holy shit.
+
+I am still laughing. This may very well be worse than Bose(R) Acoustimass(TM) HorribleAffrontToAudio(TM).
+
+Side Note: I checked in the source, audacity's ""Hanning Window"" is actually a Hann Window. Remind me to rename this and then yell at the audacity devs about this. Also yes I know audacity is horrible, I was lazy and in a hurry at the time."
+"eventtime","2009-09-01 03:21:00"
+"url","http://bofh1459.livejournal.com/41605.html"
+"userid","1997"
+"itemid","161"
+"event","Today I was forcibly updated to FF3. Cool. Time to see if any of the horrid memory management bugs have been resolved yet. But no, this is actually *not* a rant on how FF devs are completely unable to write a memory management algo. No, it's about the new FF url searchbar.<br /><br />Anyway, the new URL searchbar has two features:<br />- Can search for title as well as url (mildly annoying, though I can see it being useful sometimes... takes 5 seconds to disable in about:config).<br />- The new &quot;RichResults&quot; viewformat.<br /><br />The latter is hateful. It is ugly, takes up too much bloody space, displaying less URLs than it could in the same amount of space, and gives me useless extraneous information (I do not CARE about what is in the webpage title tags. It is quite often 100% useless and irrelevant). The real issue is this:<br />https://bugzilla.mozilla.org/show_bug.cgi?id=407836<br />There used to be an option in about:config, browser.urlbar.richResults, which you could set to false to disable this new and shitty toolbar. This was removed, for some idiotic reason, as per that &quot;bug&quot;. FF devs' rationale is, if you want the old url searchbar format, you could <em>use an extension.</em><br /><br />No, fuck you, I am not using an extension to do shit that MY&nbsp;BROWSER&nbsp;IS&nbsp;ALREADY&nbsp;CAPABLE&nbsp;OF&nbsp;DOING&nbsp;RIGHT&nbsp;NOW. So instead I decompressed browser.jar, opened up browser.xul in a text editor, and changed:<br />&lt;panel type=&quot;autocomplete-richlistbox&quot; chromedir=&quot;&amp;locale.dir;&quot; id=&quot;PopupAutoCompleteRichResult&quot; noautofocus=&quot;true&quot; hidden=&quot;true&quot;/&gt;<br />to<br />&lt;panel type=&quot;autocomplete-richlistbox&quot; chromedir=&quot;&amp;locale.dir;&quot; id=&quot;PopupAutoComplete&quot; noautofocus=&quot;true&quot; hidden=&quot;true&quot;/&gt;<br /><br />Problem solved, I get the old FF2-style (i.e. SENSIBLE) url searchbar now. Now what completely BOGGLES&nbsp;THE&nbsp;MIND&nbsp;is why the FF devs decided to remove the configuration setting in about:config that let me do this without having to edit browser.xul. It's not like about:config needs the space, or doesn't already have eleventy billion OTHER configuration settings that are more useless and less likely to be modified by anyone, nor is it likely that the five-or-so lines of code that supported that option caused massive memory leaks or high CPU useage while idle (which, I see, is still an issue).<br /><br />Basically Firefox is horrible and this is why I&nbsp;use Opera almost always.<br /><br />Oh, I almost forgot, why is the default for max url results TWELVE? I&nbsp;had to manually set it to 999999 in about:config as well. What the shit, Firefox."
+"eventtime","2009-08-05 11:54:00"
+"url","http://bofh1459.livejournal.com/41352.html"
+"userid","1997"
+"itemid","160"
+"event","05:22 &lt;@tgies&gt; 4:2:0 subsample chroma every day"
+"eventtime","2009-07-01 05:23:00"
+"url","http://bofh1459.livejournal.com/41015.html"
+"userid","1997"
+"itemid","159"
+"event","SSByZWFsbHkgbGlrZSB0aGlzIHNvbmcuIEl0J3MgY2FsbGVkICJMYSBSb25kZSBMdW5haXJlIiBhbmQgaXQncyBieSBPcmlnYSAoT2wnZ2EgWWFrb3ZsZXZuYSksIHlvdSBjYW4gbGlzdGVuIHRvIGl0IDxhIGhyZWY9Imh0dHA6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1oeDdYTl84YkxLRSZmbXQ9MTgiPmhlcmUuPC9hPg0KDQpMeXJpY3MgYXJlIGFzIGZvbGxvd3M6DQoNCtCe0YIg0YPQu9GL0LHQutC4INC+0LTQuNC9INGI0LDQsyDQtNC+INGC0L7RgdC60LguLi4NCk90IHVseWJraSBvZGluIHNoYWcgZG8gdG9za2kuLi4NCkZyb20gdGhlIHNtaWxlIHRoZXJlIGlzIG9ubHkgb25lIHN0ZXAgdG8gZGVzcGFpci4uLg0KDQoNCg0K0JvQtdC70LXRj9C70LAg0LvRg9C90LAg0LvRg9C90L3Ri9C5INGB0LLQtdGCDQpMZWxlamFsYSBsdW5hIGx1bm55aiBzdmV0DQpUaGUgbW9vbiB3YXMgY2hlcmlzaGluZyB0aGUgbW9vbmxpZ2h0DQoNCtCh0LLQvtC40YUg0YHQstC10YfQtdC5INGF0YDQsNC90Y8g0YLQtdC/0LvQvg0KU3ZvaWtoIHN2ZWNoZWoga2hyYW5qYSB0ZXBsbw0KVGFraW5nIGNhcmUgb2YgdGhlIHdhcm10aCBvZiBpdHMgY2FuZGxlcw0KDQrQkiDQstC+0LTQvtCy0L7RgNC+0YLQtSDQstC+0LQg0LzQsNC70LXQvdGM0LrQuNC5INGA0YPRh9C10LkNClYgdm9kb3Zvcm90ZSB2b2QgbWFsZW4na2lqIHJ1Y2hlag0KSW4gdGhlIHdoaXJscG9vbCB0aGUgd2F0ZXIgb2YgYSBzbWFsbCBzdHJlYW0NCg0K0JHRi9C7INC+0YIg0LvRg9C90Ysg0YLQsNC6INC00LDQu9C10LrQvg0KQnlsIG90IGx1bnkgdGFrIGRhbGVrbw0KV2FzIGZyb20gdGhlIG1vb24gc28gZmFyIGF3YXkNCg0KDQoNCtCQ0YUsINGN0YLQviDQstC10YfQvdCw0Y8g0LTRgNCw0LzQsCwNCkFoLCBldGEgdmVjaG5hamEgZHJhbWEsDQpBaCwgdGhpcyBpcyBldGVybmFsIGRyYW1hLA0KDQrQlNGA0YPQsyDQvtGCINC00YDRg9Cz0LAg0L7QvdC4LCDQutCw0Log0Lgg0LzRiywg0LTQsNC70LXQutC4DQpEcnVnIG90IGRydWdhIG9uaSwga2FrIGkgbXksIGRhbGVraQ0KVGhleSwgbGlrZSB1cywgYXJlIGRpc3RhbnQgZnJvbSBlYWNoIG90aGVyLi4uDQoNCtCQ0YUsINGN0YLQviDQstC10YfQvdCw0Y8g0LTRgNCw0LzQsCwNCkFoLCBldGEgdmVjaG5hamEgZHJhbWEsDQpBaCwgdGhpcyBpcyBldGVybmFsIGRyYW1hLA0KDQrQntGCINGD0LvRi9Cx0LrQuCDQvtC00LjQvSDRiNCw0LMg0LTQviDRgtC+0YHQutC4Li4uDQpPdCB1bHlia2kgb2RpbiBzaGFnIGRvIHRvc2tpLi4uDQpGcm9tIHRoZSBzbWlsZSBpdCdzIG9ubHkgb25lIHN0ZXAgdG8gZGVzcGFpci4uLg0KDQrQntGCINGD0LvRi9Cx0LrQuCDQvtC00LjQvSDRiNCw0LMg0LTQviDRgtC+0YHQutC4Li4uDQpPdCB1bHlia2kgb2RpbiBzaGFnIGRvIHRvc2tpLi4uDQpGcm9tIHRoZSBzbWlsZSBpdCdzIG9ubHkgb25lIHN0ZXAgdG8gZGVzcGFpci4uLg0KDQoNCg0K0JvQsNGB0LrQsNC70Lgg0LvQuNC70LjRjiDQstC+0LTRiyDQv9GA0YPQtNCwDQpMYXNrYWxpIGxpbGlqdSB2b2R5IHBydWRhDQpXYXRlcnMgaW4gYSBwb25kIGNoZXJpc2hlZCBhIGxpbHkNCg0K0J7QsdC10YnQsNGPINC/0L7QutC+0Lkg0L3QsCDRgdC/0L7QutC+0LnQvdC+0Lwg0LTQvdC1DQpPYmVzaCdhamEgcG9rb2ogbmEgc3Bva29qbm9tIGRuZQ0KUHJvbWlzaW5nIGhlciByZXN0IG9uIGEgY2FsbSBkYXkuDQoNCtCd0L4g0LvRjtCx0L7QstGMINGB0LLQvtGOINC+0YLQtNCw0LvQsCDRgNGD0YfRjNGODQpObyBsanVib3YnIHN2b2p1IG90ZGFsYSBydWNoJ2p1DQpCdXQgaGVyIGxvdmUgc2hlIGdhdmUgdG8gdGhlIHN0cmVhbQ0KDQrQmCDRgdC10LHRjyDQvtCx0YDQtdC60LvQsCDQvdCwINGB0YLRgNCw0LTQsNC90LjRjyDQuCDRgdC80LXRgNGC0YwNCkkgc2ViamEgb2JyZWthbGEgbmEgc3RyYWRhbmlqYSBpIHNtZXJ0Jw0KQW5kIGRvb21lZCBpdHNzZWxmIHRvIHN1ZmZlcmluZyBhbmQgZGVhdGguDQoNCg0KDQrQkNGFLCDRjdGC0L4g0LLQtdGH0L3QsNGPINC00YDQsNC80LAsDQpBaCwgZXRvIHZlY2huYWphIGRyYW1hLA0KQWgsIHRoaXMgaXMgZXRlcm5hbCBkcmFtYSwNCg0K0JTRgNGD0LMg0L7RgiDQtNGA0YPQs9CwINC+0L3QuCwg0LrQsNC6INC4INC80YssINC00LDQu9C10LrQuA0KRHJ1ZyBvdCBkcnVnYSBvbmksIGthayBpIG15LCBkYWxla2kNClRoZXksIGxpa2UgdXMsIGFyZSBkaXN0YW50IGZyb20gZWFjaCBvdGhlcg0KDQrQkNGFLCDRjdGC0L4g0LLQtdGH0L3QsNGPINC00YDQsNC80LAsDQpBaCwgZXRvIHZlY2huYWphIGRyYW1hLA0KQWgsIHRoaXMgaXMgZXRlcm5hbCBkcmFtYSwNCg0K0J7RgiDRg9C70YvQsdC60Lgg0L7QtNC40L0g0YjQsNCzINC00L4g0YLQvtGB0LrQuC4uLg0KT3QgdWx5YmtpIG9kaW4gc2hhZyBkbyB0b3NraS4uLg0KRnJvbSB0aGUgc21pbGUgaXQncyBvbmx5IG9uZSBzdGVwIHRvIGRlc3BhaXIuLi4NCg0KDQoNCtCe0YIg0YPQu9GL0LHQutC4INC+0LTQuNC9INGI0LDQsyDQtNC+INGC0L7RgdC60LguLi4NCk90IHVseWJraSBvZGluIHNoYWcgZG8gdG9za2kuLi4NCkZyb20gdGhlIHNtaWxlIGl0J3Mgb25seSBvbmUgc3RlcCB0byBkZXNwYWlyLi4u"
+"eventtime","2009-06-20 21:44:00"
+"url","http://bofh1459.livejournal.com/40775.html"
+"userid","1997"
+"itemid","158"
+"event","So a couple days ago a friend of mine had his forum exploited and a fairly complicated PHP-based trojan got uploaded onto it. I&nbsp;still have not finished disassembly of it, partly due to having too little time and partly due to the fact that it's actually surprisingly complex and well-written, and also stupidly obfuscated in annoying ways (all the variables are what appear to be RC4 hashes, for instance. Makes reading painful until you do a search-and-replace). 
+
+Anyway, a couple minutes of googling around reveals that the exploit vector is the attachment upload/avatar upload code. A bit of poking around the codebase of SMF&nbsp;shows that at a key point it is possible to get your custom code included in the rest of the forum codebase.
+
+So eventually shit hit the fan and there's an automated bot going around and infecting all SMF-based forums. So SMF&nbsp;is forced to release a fix. This is quite easily the most pathetic attempt at a fix for a security hole that I have ever seen in my entire life. There are two parts to it, the first is a file with the following contents in it: 
+&lt;Files *&gt; 
+IOrder Deny,Allow 
+IDeny from all 
+IAllow from localhost 
+&lt;/Files&gt; 
+RemoveHandler .php .php3 .phtml .cgi .fcgi .pl .fpl .shtml 
+
+Yes, that's right, their idea of a fix is a fucking .htaccess file you drop in your /attachments/ dir that removes a couple protocol handlers and then sets the executable flag on everything in the dir to off. This completely does not fix the exploit at all, as you could just, ya know, upload a file with an executable extension not listed above (say python or ruby or even a fucking dll file) and it'll still get through, not to mention the fact that this underlying bug still exists in the code means you can just use this wonderous concept called XSS. Which we've known about since uh...early 2000? If not earlier. 
+
+The other part of the fix is a minor change to ManageAttachments.php which adds a file hash, the ability to store hashes of files and a line that denys uploading of that one file which is being used to infect forums automatically by means of some bot which typically uses the nick &quot;Krisbarteo&quot;. 
+
+Now, the nice thing about hashes is you can change a single byte in the file, say, for instance, one of the VARIABLE&nbsp;NAMES, and this bypasses this pathetic attempt at a blocked upload trivially. 
+
+So in short, this isn't even remotely close to a patch. It does not fix the security hole at all, it's still there and still exploitable. The attempts it tries to mitigate it are pitiful at best and just downright awful at worst. 
+
+Let's see if I can get the guys at SMF&nbsp;to win a Pwnie Award for this year for &quot;Worst Vendor Response to a Security Problem&quot;. Seriously. What the fuck, guys?!?"
+"eventtime","2009-05-23 00:21:00"
+"url","http://bofh1459.livejournal.com/40450.html"
+"userid","1997"
+"itemid","157"
+"event","<lj-template name=""qotd"" id=""834"" />"
+"eventtime","2009-03-30 00:33:00"
+"url","http://bofh1459.livejournal.com/40313.html"
+"userid","1997"
+"itemid","156"
+"event","<a href=""http://24.57.70.27/ARUSSIAN.PDF"">This paper pretty much perfectly describes my thoughts on the North American mathematics education system</a>"
+"eventtime","2008-12-02 01:18:00"
+"url","http://bofh1459.livejournal.com/40022.html"
+"userid","1997"
+"itemid","154"
+"event","Dear whoever is doing scheduling at my university:
+
+Fuck you.
+
+This semester I had so many course conflicts I settled on 4 courses instead of the usual 5 because holy fuck everything I wanted to take conflicted with something I was already taking.
+
+Looking at next semester's schedule, the only way I can take all the courses I want to take involves <i>taking 2 courses which have completely overlapping classes</i>. Yes, the only way I will be able to take a normal amount of classes is by missing all the lectures for one class.
+
+And the class I wanted to sit in also conflicts with a class I want to take. These are classes that people would want to take in the same year, such as Intro to ODEs/Intro to Combinatorics and Measure Theory/Intro to General Relativity."
+"eventtime","2008-09-27 00:08:00"
+"url","http://bofh1459.livejournal.com/39481.html"
+"userid","1997"
+"itemid","153"
+"event","I&nbsp;UNDERSTAND&nbsp;DIFFERENTIAL&nbsp;FORMS.
+
+I&nbsp;AM HAPPY.
+
+LIFE&nbsp;IS&nbsp;GOOD."
+"eventtime","2008-09-25 04:44:00"
+"url","http://bofh1459.livejournal.com/39183.html"
+"userid","1997"
+"itemid","152"
+"event","This is what I've been listening to lately.
+
+<b>ZUN/Team Shanghai Alice/Touhou Project</b>
+Necrofantasia - <a href=""http://24.57.70.27/ljmusicpost/Necrofantasia.mp3"">MP3</a> <a href=""http://www.youtube.com/watch?v=195XntreoMc"">Youtube video</a> (mp3 is from Magical Astronomy, video has the original from Perfect Cherry Blossom)
+Magical Astronomy - <a href=""http://24.57.70.27/ljmusicpost/MagicalAstronomy.mp3"">MP3</a>
+Phantom Ensemble - <a href=""http://24.57.70.27/ljmusicpost/Th07_09.mp3"">MP3</a> <a href=""http://www.youtube.com/watch?v=M9wHYiicY5I"">Youtube video</a> 
+History of the Moon - <a href=""http://24.57.70.27/ljmusicpost/Th08_14.mp3"">MP3</a> <a href=""http://www.youtube.com/watch?v=TAy3nlATLkk"">Youtube video</a> 
+Magic Shop of Raspberry - <a href=""http://24.57.70.27/ljmusicpost/Th04_27.mp3"">MP3</a> <a href=""http://24.57.70.27/ljmusicpost/Th04_27.M"">PMD</a>
+
+By now, if you're a friend of mine, you've probably heard me talking about touhou project. A lot. It's this incredibly awesome series of 2D shooters with really awesome characters and storyline. And also, really excellent music. And to make it even more awesome, everything from the game programming to the music is all made by one person, ZUN.
+
+The trumpet patch you hear is something called ""Romantic Trumpet"", it exists on one of the Edirol synths. It is basically trumpet with high vibrato and resonance. Magical Astronomy is especially great as he mixes sample-based synths with FM synthesis. Also Necrofantasia is the demo song for music.
+
+<b>Jeroen Tel</b>
+Ice Age - <a href=""http://24.57.70.27/ljmusicpost/Ice_Age.mp3"">MP3</a> <a href=""http://24.57.70.27/ljmusicpost/Ice_age.sid"">SID</a>
+Jeroen Tel is probably one of the most prominent musicians in the demoscene, dating back to the C64 era. Most of his work was done on the SID6581, the sound chip in the Commodore 64 which was at the time cutting-edge technology (despite only having 3 voices) and which had a very distinctive sound. Later, he moved to sample-based synthesis.
+
+<b>Yellow Magic Orchestra</b>
+Rydeen - <a href=""http://24.57.70.27/ljmusicpost/Rydeen.mp3"">MP3</a> <a href=""http://www.youtube.com/watch?v=sk6o4GWFIV8"">Youtube video</a> <a href=""http://www.youtube.com/watch?v=vGO9cixj_0g"">Super Locomotive!</a>
+
+I suggest first listening to Rydeen on crappy earphones from the youtube vidya. Then switching to the mp3, and a good pair of speakers. It's like getting two songs for the price of one! Rydeen is incredibly complex, incredibly clever and amazingly good-sounding. Welcome to the band that was one of the biggest influences on Japanese vidya gaem music. At times they're almost as synthpoppy as Kraftwerk and at other times they rival classical music in terms of sheer depth and complexity.
+
+Their vidyas also contain lots of silly analog vidya effects :D
+
+<b>Jean Michel Jarre</b>
+Oxygene II - <a href=""http://24.57.70.27/ljmusicpost/OxygeneII.mp3"">MP3</a> <a href=""http://www.youtube.com/watch?v=Ek5u5jl7Ads"">Youtube video</a>
+
+A Frenchman, and one of the pioneers of electronic music. His music is vaguely ""avant-garde"" in style, and he is well-known for using a lot of instruments and effects. In Oxygene one of the really prominent aspects is theremin not being used for effects, but rather for large parts of the main melody.
+
+<b>Johann Sebastian Bach</b>
+Prelude and Fugue in E Major (BWV854) - <a href=""http://www.youtube.com/watch?v=wZ_PJvAYlX4"">Youtube video</a>
+
+Ah yes, who can forget good old ""Four-Voice"" Johann? Bach was pretty much the original chiptune composer and, to be honest, a musical genius.
+
+Basically anything from The Well-Tempered Clavier/The Art of Fugue is perfect. Also, if anyone has a good recording (preferably the Glenn Gould version above) of the fugue I linked above, please send me it, thanks.
+
+Also, <a href=""http://24.57.70.27/ljmusicpost/ancestral_recall_by_mhp.mp3"">Ancestral Recall</a> from the Assembly 2008 music compo is also amazing."
+"eventtime","2008-08-05 22:23:00"
+"url","http://bofh1459.livejournal.com/38979.html"
+"userid","1997"
+"itemid","151"
+"event","Yukari: Take me away to Gensokyo. Please."
+"eventtime","2008-07-26 14:28:00"
+"url","http://bofh1459.livejournal.com/38726.html"
+"userid","1997"
+"itemid","149"
+"event","HOLY SHIT
+
+RUSSIA WON EUROVISION 2008!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"eventtime","2008-05-24 18:12:00"
+"url","http://bofh1459.livejournal.com/38252.html"
+"userid","1997"
+"itemid","148"
+"event","<img src=""http://joesacher.com/wp-content/images/posts/CapacitorProblemSm.jpg"" alt=""SHITTY CHINESE ELECTRONICS""></img>"
+"eventtime","2008-05-20 18:38:00"
+"url","http://bofh1459.livejournal.com/38139.html"
+"userid","1997"
+"itemid","147"
+"event","PGxqLWN1dD4NCltTZWFzb24gNyBvcGVuaW5nIHNlcXVlbmNlLiBDdXQgdG8gdGhlIGludGVyaW9yIG9mIHRoZSBTb0wsIHNob3dpbmcgTWlrZQ0KYXNsZWVwLiBIZSBpcyB0d2lzdGluZyBhbmQgdHVybmluZywgc2luY2Ugc29tZSBzb3VuZCBpcyBib3RoZXJpbmcgaGltLg0KRmluYWxseSwgaGUgZ2V0cyB1cCB0byBpbnZlc3RpZ2F0ZSB0aGUgc291cmNlIG9mIHRoZSBzb3VuZC4gSXQgaXMgY29taW5nDQpmcm9tIHRoZSB0aGVhdGVyISBNaWtlIGVudGVycyB0aGUgdGhlYXRlciB0byBzZWUgaXQgcnVubmluZywgd2l0aCBDcm93DQpzaXR0aW5nIGFsb25lIGluc2lkZS5dDQoNCk1JS0U6IENyb3csIHdoYXQgYXJlIHlvdSBkb2luZyBpbiB0aGUgdGhlYXRlciB0aGlzIGVhcmx5IG9uIGEgc2F0dXJkYXk/DQpDUk9XOiBIZXksIGJvdHMgbmVlZCBubyBzbGVlcCENCk1JS0U6IFllYWgsIGJ1dCBvcmdvcyBkby4NCkNST1c6IEFueXdheSwgdGhlIE1hZHMgaGF2ZSBnb3R0ZW4gYSBjb250cmFjdCB3aXRoIEphcGFuIHRvIHNob3cgYW5pbWUgYXMgd2VsbC4NCk1JS0U6IERvbid0IHJlbWluZCBtZS4gSSdtIHN0aWxsIHJlY292ZXJpbmcgZnJvbSB0aGUgNEtJRFMgZHVicyBvZiBPbmUgUGllY2UuDQpDUk9XOiBZZWFoLCBJIG1lYW4gdGhhbmtzIHRvIDRLSURTIHRoYXQncyBvbmx5IG9uZSBwaWVjZSBvZiBPbmUgUGllY2UsIGJ1dCBzb21lIG9mIHRoZSBzdHVmZiB0aGV5J3ZlIGJlZW4gYWlyaW5nIGlzIHByZXR0eSBnb29kDQpNSUtFOiBDcm93LiBZb3UgbGlrZSBhbmltZT8NCkNST1c6IEhleSwgTWlrZSEgU29tZSBvZiB0aGVtIGFyZSBhY3R1YWxseSBxdWl0ZSBpbnRlcmVzdGluZyBhbmQgdGhvdWdodGZ1bC4gSSBtZWFuIHRoZXJlJ3MgdGhpcyBvbmUgc2VyaWVzLCBpdCB3YXMgY2FsbGVkIHNvbWV0aGluZyByZWxpZ2lvdXMsIEV2YW5nZWxpemF0aW9uIG9yIHNvbWV0aGluZz8gQW55d2F5IGl0J3MgcmVhbGx5IGRlZXAuDQpNSUtFOiBTdXJlLCBpZiB5b3UgdGhpbmsgaHVtYW5zIGFyZSBtYWRlIG9mIG9yYW5nZSBqdWljZS4NCg0KW0EgeWVsbG93IGxpZ2h0IHR1cm5zIG9uIGluc2lkZSB0aGUgdGhlYXRlci5dDQoNCk1JS0U6IFRoZSBoZWxsLi4uIFdoYXQgY291bGQgV2Fra28gYW5kIERvdCBiZSB3YW50aW5nIGF0IHRoaXMgdGltZSBvZiBkYXk/DQoNCltEZWVwIDEzLCBwcm9qZWN0ZWQgb24gdGhlIHRoZWF0ZXIgc2NyZWVuXQ0KDQpQRUFSTDogQ2xheXRvbiEgQ0xBWVRPTiENCkRSLiBGOiBbb2ZmIHNjcmVlbl0gSW4gYSBtaW51dGUsIG1vdGhlciENClBFQVJMOiBDbGF5dG9uLCBpZiB5b3UgcGxhbiB0byBkZXN0cm95IHRoZSB3aWxscyBvZiB5b3VyIHRlc3Qgc3ViamVjdHMgYnkNCiAgICAgICB3YWtpbmcgdGhlbSB1cCBlYXJseSBpbiB0aGUgbW9ybmluZywgeW91IHNob3VsZG4ndCBiZSB3YXRjaGluZyAiVGhlDQogICAgICAgTGl0dGxlIE1lcm1haWQgLSB0aGUgc2VyaWVzIiB3aGVuIHlvdSBjYWxsIHRoZW0hDQpEUi4gRjogW29mZiBzY3JlZW5dIEl0J3Mgc29vbiBvdmVyIQ0KUEVBUkw6IFtzaWdoc10gSGUgY2FuIGJlIHN1Y2ggYSBjaGlsZCBhdCB0aW1lcy4gSWYgeW91IHdhbnQgc29tZXRoaW5nIGRvbmUNCiAgICAgICBwcm9wZXJseS4uLg0KDQpbU29MXQ0KDQpbTGlnaHRzLCBidXp6ZXJzLCBnZW5lcmFsIG1heWhlbS5dDQoNClRPTTogTk9PTyEgSSdWRSBHT1QgQU5JTUUgU0lHTiENCg0KDQpOaW5lIExpdmVzDQoNCk1JS0U6IFllYWgsIGFuZCB0aGlzIHNob3cgaXMgZ29pbmcgdG8ga2lsbCBhbGwgb2YgdGhlbS4NCg0KTXkgbGluZSBvZiB0aG91Z2h0IGlzIGJlY29taW5nIGNsZWFyLg0KDQpDUk9XOiBJdCBpc24ndCBtYWtpbmcgdGhpcyBkaWFsb2d1ZSBhbnkgY2xlYXJlci4uLg0KDQpJIHVuZGVyc3RhbmQgbXkgb3duIGNvbWJhdCBzdHJlbmd0aC4NCk1hdGVyaWFsIHByb2plY3Rpb24gdGhyb3VnaCB0aGUgcmVlbmFjdG1lbnQgb2YgY3JlYXRpb24gaWRlb2xvZ3ksIGJhc2UgY29yZSwgcHJvZHVjdGlvbiB0ZWNobmlxdWUsIHBvc3Nlc3Npb24gZXhwZXJpZW5jZSwgYWNjdW11bGF0aW9uIG9mIHllYXJzOw0KQWN0dWFsaXphdGlvbiBvZiBpbm5lciB3b3JsZCB0aHJvdWdoIHRoZW9yeSBvZiB0aGF1bWF0dXJneS93b3JsZCBlZ2c7IHRoZSByZWZsaXBwaW5nIG9mIHRoZSBkaWFncmFtIG9mIHRoZSB3b3JsZCBpbnNjcmliZWQgb24gdGhlIHNvdWw7IGEgUmVhbGl0eSBNYXJibGUuDQoNCk1JS0U6IFdlbGwsIEkgY2FuIHRlbGwgeW91IHdoZXJlIHRoZSBwcm9kdWN0aW9uIHRlY2huaXF1ZSB3YXMgdXNlZCB3ZWxsLCBhbmQgaXQgY2VydGFpbmx5IHdhc24ndCBoZXJlLi4uDQpDUk9XOiBBdCB0aGUgcmF0ZSB0aGlzIHBsb3QgaXMgZ29pbmcsIHRoZSBhY2N1bXVsYXRpb24gb2YgeWVhcnMgd2lsbCBraWxsIHVzIGFsbA0KDQpQYXNzaW5nIG9mIGNvbWJhdCB0ZWNobmlxdWUsIGV4cGVyaWVuY2UsIGJvZHkgc3RyZW5ndGhlbmluZyBhY2N1bXVsYXRlZCBieSBBcmNoZXIuDQoNClRPTTogSXNuJ3QgdGhhdCBpbGxlZ2FsPw0KDQpDb3JyZWN0aW9uLCBlcnJvciBpbiBwcm9jZXNzaW5nIG9mIGJvZHkgc3RyZW5ndGhlbmluZy4gRGVhdGggZnJvbSBzbGFzaGluZyB3b3VuZHMgaXMgc2FtZSBhcyBwcmlvci4NCg0KQ1JPVzogV2hhdCBhYm91dCBkZWF0aCBmcm9tIGJhZCBhbmltZT8gSXMgdGhhdCB0aGUgc2FtZSBhcyBhZnRlcj8NCk1JS0U6IENyb3chDQoNClJlYWxpdHkgTWFyYmxlIC0gVW5saW1pdGVkIEJsYWRlIFdvcmtzOyBkZXBsb3ltZW50IGltcG9zc2libGUuDQoNCk1JS0U6IEkgdGhpbmsgbXkgRW5nbGlzaCBwYXJzZXIganVzdCBjb21taXRlZCBzdWljaWRlDQoNCkFyY2hlcidzIHdvcmxkIGFuZCBteSB3b3JsZCBhcmUgZGlmZmVyZW50LiBSZWVuYWN0bWVudCBpcyBub3QgcG9zc2libGUuDQoNCk1JS0U6IFRoYW5rIGdvZCwgb3RoZXJ3aXNlIGV2ZXJ5b25lIHdvdWxkIHRhbGsgbGlrZSB0aGlzLiBBbmQgdGhlbiB3ZSdkIGFsbCBkaWUgZnJvbSB0aGUgaG9ycm9yLg0KDQpSZXBsaWNhdGlvbiBjYW4gb25seSBiZSBmcm9tIHdoYXQgRW1peWEgU2hpcm91IGRpcmVjdGx5IGxlYXJuZWQgb3IgdGhlIE5vYmxlIFBoYW50YXNtcyB0aGF0IEFyY2hlciByZWNvcmRlZC4NCldoZW4gdGFraW5nIE5vYmxlIFBoYW50YXNtcyBmcm9tIGxlZnQgYXJtLCBleHRyYWN0IGFuZCByZXBsaWNhdGUgZnJvbSAiVW5saW1pdGVkIEJsYWRlIFdvcmtzIiB0aGUgbW9zdCBhcHByb3ByaWF0ZSBOb2JsZSBQaGFudGFzbSBmb3IgdXNhZ2Ugb2JqZWN0aXZlLg0KDQpDUk9XOiBXaHkgY2FuJ3QgSSBtYWtlIGEgTm9ibGUgUGhhbnRhc20gZnJvbSBteSByaWdodCBhcm0/IFRoYXQncyBkaXNjcmltaW5hdGlvbiENCk1JS0U6IEkgdGhpbmsgaXQnZCBiZSBiZXN0IHRvIG5vdCBwaXNzIG9mZiBhIGNvbXBhbnkgbmFtZWQgIlVubGltaXRlZCBCbGFkZSBXb3JrcyIuIEkgbWVhbiB0aGF0IGNvdWxkIGJlIHBhaW5mdWwuDQoNCkNhdXRpb24uDQoNCkNST1c6IEJhZCB3cml0aW5nIQ0KDQpUcmFjaW5nIGlzIGEgdHdvLWVkZ2VkIHN3b3JkLg0KDQpUT006IEFzIG9wcG9zZWQgdG8gdGhpcyBzY3JpcHQsIHdoaWNoIGlzIG1vcmUgbGlrZSBhIGNsdWINCg0KRXhlY3V0aW9uIHdpbGwgbGVhZCB0by4uLg0KDQpNSUtFOiBEZWF0aCBieSBhbmltZSBkaWFsb2d1ZT8NCg0KIi4uLi4uLiINCg0KQ1JPVzogV293IHRoYXQgd2FzIGluc2lnaHRmdWwhDQpNSUtFOiBJIGNhbid0IGJlbGlldmUgaXQuIFRoaXMgc3RvcnkgaXNuJ3QgZXZlbiAqaW50ZXJuYWxseSBjb25zaXN0ZW50KiENCkNST1c6IE1heWJlIHRoZXkncmUgdHJ5aW5nIHRvIGJlYXQgdGhlIEhpZ2hsYW5kZXIgZnJhbmNoaXNlIGZvciAiZ3JlYXRlc3QgYW1vdW50IG9mIGZ1dHVyZSByZXRjb25zPyINCk1JS0U6IENyb3chDQoNCkkgc3RvcCBicmVhdGhpbmcgYW5kIGZvcmNlIGFsbCBtYWdpYyBlbmVyZ3kgaW50byB0aGUgbGVmdCBhcm0uDQoNCk1JS0U6IFdoaWxlIHlvdSdyZSBhdCBpdCwgc3RvcCBicmVhdGhpbmcgbG9uZyBlbm91Z2ggc28geW91J2xsIHN0b3AgdGFsa2luZw0KDQpJIG9ubHkgbmVlZCB0byBncmFzcCB0aGUgYXJtYW1lbnRzIEkgY2FuIHVzZS4NCg0KVE9NOiBJc24ndCB5b3VyIGxlZnQgYXJtIHlvdXIgYXJtYW1lbnQ/DQpNSUtFOiBJIHRvbGQgeW91LCBubyBjb25zaXN0ZW5jeS4NCg0KSSBhbHJlYWR5IHVuZGVyc3Rvb2QgdGhlIGRhbmdlcnMgb2YgdGhpcy4NCg0KTUlLRTogTm8geW91IGhhdmVuJ3QsIEkgbWVhbiB5b3Ugc3RpbGwgd3JvdGUgaXQgd2l0aG91dCByZWFsaXNpbmcgdGhlIHBhaW4gaXQgd291bGQgYnJpbmcgb3RoZXIgcGVvcGxlLg0KDQpJIGhhdmUgdG8gbW92ZSBmb3J3YXJkLg0KDQpDUk9XOiAqQkVFUCogKkJFRVAqIE1hZ2ljYWxseSBlbmhhbmNlZCBzdXBlci1kdWRlIGNvbWluZyB0aHJvdWdoIQ0KTUlLRTogQ3JvdyENCkNST1c6IFdoYXQ/DQoNCmkgaGF2ZSB0byBnbyBiZXlvbmQgdGhhdCB3aW5kIGFuZCBkZWZlYXQgbXlzZWxmLg0KDQpDUk9XOiBEb24ndCB3aW5kcyBraW5kIG9mLi4ubW92ZT8gQW5kIGFyZW4ndCB0aGV5IGluY29ycG9yZWFsPw0KTUlLRTogSSBjYW4gc2VlIGhlIGZhaWxlZCBhdCBkZWZlYXRpbmcgaGltc2VsZiwgaXQncyBub3QgdGhlIGVuZCBvZiB0aGlzIGhvcnJpYmxlIHNjcmlwdCB5ZXQuDQoNCiJUcmFjZSwgb24iDQoNCkNST1c6ICJDb2hlcmVuY3ksIG9mZiINCg0KRm9jdXMuDQpQZXJjZWl2ZSBoaXMgZ3JlYXQgc3dvcmQgdG8gcGVyZmVjdGlvbi4NCk9wZW4geW91ciBsZWZ0IGhhbmQgYW5kIGdyaXAgdGhlIGltYWdpbmVkIGhhbmRsZS4NCkl0cyBhc3Ryb25vbWljYWwgd2VpZ2h0Lg0KDQpNSUtFOiBPaCwgc28gaGlzIHN3b3JkIGlzIGFuIGFzdGVyb2lkPyBUaGlzIGp1c3QgbWFuYWdlZCB0byBtYWtlICpsZXNzKiBzZW5zZQ0KQ1JPVzogTmFoLCBpdCdzIHByb2JhYmx5IGp1c3QgbWFkZSBvZiBuZXV0cm9uIHN0YXJzLg0KDQpFbWl5YSBTaGlyb3UgY2FuIG5vdCBoYW5kbGUgdGhhdCBncmVhdCBzd29yZC4NCg0KQ1JPVzogVGhpcyBpcyBzb3VuZGluZyBtb3JlIGFuZCBtb3JlIGxpa2UgWmVuIGFuZCB0aGUgYXJ0IG9mIFN3b3JkZmlnaHRpbmcgYnkgdGhlIG1vbWVudC4NCg0KQnV0Li4uLmRlZmluYXRlIHJlcGxpY2F0aW9uIG9mIHRoZSBtb25zdHJvdXMgc3RyZW5ndGggb2YgdGhlIGVuZW15IGlzIHBvc3NpYmxlIHdpdGggdGhpcyBsZWZ0IGFybS4NCg0KQ1JPVzogQVJNOiBDT1BZIFNUUkVOR1RIDQpNSUtFOiBXYXNuJ3QgdGhpcyBzdG9sZW4gZnJvbSBXaWxkIEFSTXM/DQoNCiIuLi4uLi4uLi5hIg0KDQpDUk9XOiAiQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUEiDQpNSUtFOiAiVGhlIGFuaW1lIGdvdCB0byBoaW0iDQoNCkkgYnJva2UuDQoNCk1JS0U6IFNvIGRpZCB3ZS4NCg0KVGhlIGNyYWNraW5nIHNvdW5kIG9mIGEgcGFydCBvZiBteSBicmFpbiBydXB0dXJpbmcuDQpCb25lIHNoYXR0ZXJlZCBmcm9tIHRoZSBwcmVzc3VyZSBvZiB0aGUgZmxvd2luZyBtYWdpYyBlbmVyZ3kuIFVuc2lnaHRseSBsaWtlIHRoZSBza2luIG9mIGFuIGFwcGxlLg0KDQpDUk9XOiBTbyBoaXMgYm9keSBpcyBtYWRlIG9mIGZydWl0Pw0KTUlLRTogSXNuJ3QgaGF2aW5nIHlvdXIgYnJhaW4gc3BsaXQgaW4gdHdvIGdlbmVyYWxseSBmYXRhbD8NCg0KIkxldCdzIGdvLiINCg0KTUlLRTogV2hhYT8gSGUncyBhbGl2ZT8NCg0KSSBkb24ndCBuZWVkIHRvIHdvcnJ5Lg0KVGhlIGJyb2tlbiBwYXJ0cyB3aWxsIGJlIG1hZGUgdXAgYnkgLg0KTXkgbWluZCB3aWxsIGJlIGRpcmVjdGVkIHRvIG9ubHkgaGlzIGFic29sdXRlIGRlYXRoLg0KDQpNSUtFOiBXYXNuJ3QgaGlzIG1pbmQganVzdCAicnVwdHVyZWQiPw0KQ1JPVzogSXQgd2FzIGhlYWxlZCBieSB0aGUgbWFnaWNhbCBlbmVyZ3kgZnJvbSBoaXMgbGVmdCBhcm0uDQoNCg0KIl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fXyEiDQoNCg0KQ1JPVzogSXQncyB0aGUgYXR0YWNrIG9mIHRoZSBnaWFudCBhbmltZSBzbWlsZXkhIFJ1biENCg0KSGUgZm91bmQgbWUuDQpDb252ZXJnaW5nIGtpbGxpbmcgaW50ZW50aW9uLg0KDQpDUk9XOiBJc24ndCB0aGF0IGRpdmVyZ2VudCBieSB0aGUgcmF0aW8gdGVzdD8NCg0KRGVlbWluZyB0aGlzIHNwZWxsIHVzYWdlIGFzIGEgdGFyZ2V0LCB0aGUgYmxhY2sgZ2lhbnQgbW92ZXMgaGlzIGV5ZXMuDQoNCkNST1c6IE9oLCBzbyBhbiBldmVudCBpcyBhIHBoeXNpY2FsIGVudGl0eSBub3c/IFRoaXMgbWFkZSBldmVuIGxlc3Mgc2Vuc2UuDQpNSUtFOiBBbmltZS4NCg0KTGlrZSBhIGRhcmsgc3Rhci4NCg0KTUlLRTogV2h5IGlzIGV2ZXJ5dGhpbmcgaW4gdGhpcyBkYW1uIGFuaW1lIHNvIGJpZz8gDQoNClRoZSBnaWFudCB3aGlsZSBzY3JlYW1pbmcgaGlzIGRlYXRoIHRocm9lcywgcmFuIHRvIHN0cmlrZSBhdCBoaXMgZW5lbXkuDQoNCkNST1c6IEJ1dCB3YXMgaXQgdGhlIGdpYW50IHdobyByYW4sIG9yIHdoaWxlIHNjcmVhbWluZyBoaXMgZGVhdGggdGhyb2VzPw0KDQotQmVyc2Vya2VyLg0KDQpNSUtFOiBJcyB0aGF0IHRoZSBhdXRob3I/DQoNCk1hZGRlbmVkLCB0aGUgZ2lhbnQgaGFkbid0IGNoYW5nZWQgc2luY2UgdGhlbi4NCg0KTUlLRTogV2Fzbid0IGhlICpqdXN0KiBkZXBpY3RlZCBhcyBydW5uaW5nPw0KDQpIaXMgbWluZCB3YXMgc3RpbGwgaW4gaGlzIGZpZ2h0IHdpdGggU2FiZXIuDQpVbmFibGUgdG8gc2VlLCB1bmFibGUgdG8gcmVnYWluIGhpcyBjYWxtLCBhbmQgaGlzIGJvZHkgZGVjYXlpbmcgZnJvbSBhIHNlY29uZCBkZWF0aCwgaGUgd2FzIHN0aWxsIGZpZ2h0aW5nIHRvIHByb3RlY3QgSWx5YS4NCg0KQ1JPVzogVGhhdCBzZW50ZW5jZS4uLiBpdCBtYWRlIG5vIHNlbnNlISAqc29icyoNCg0KX19fX19fX19fX19fX18sIG9uZSBzZWNvbmQuDQoNCkNST1c6IEl0J3MgdGhlIGF0dGFjayBvZiB0aGUgZ2lhbnQgZXllbGVzcyBhbmltZSBzbWlsZXkhIFJ1biENCg0KIi4uLi4uLi4uLi4iDQoNCk1JS0U6IE15IHRob3VnaHRzIGV4YWN0bHkuDQoNClRoZSBydXNoaW5nIGdpYW50IHdpbGwgbm90IGJlIHN0b3BwZWQgYnkgb25lIGJsb3cuIEEgbm9ybWFsIHByb2plY3Rpb24gd29uJ3QgYWZmZWN0IGhpbS4NCg0KQ1JPVzogQnV0IHdpbGwgYW4gYXN0cmFsIG9uZT8NCk1JS0U6IFRoaXMgZW50aXJlIHN0b3J5IGlzIG9uZSBnaWFudCBhc3N0cmFsIHByb2plY3Rpb24uDQoNCkEgdHJhY2Ugd29uJ3QgZG8gdGhlIGpvYi4NCg0KQ1JPVzogQnV0IHdpbGwgYSB0cmFuc3Bvc2U/DQoNCklmIGl0IGlzbid0IGEgcHJvamVjdGlvbiB0aGF0IHB1c2hlcyBpdHMgbGltaXRzLCB0aGF0IGdpYW50IHdvbid0IGJlIGRlZmVhdGVkLg0KDQpDUk9XOiBXZWxsIG9mIGNvdXJzZSBoZSB3b24ndCBiZSwgdGhlIGJhc2lzIGlzbid0IG9ydGhvbm9ybWFsIQ0KDQpUaGVyZWZvcmUsDQoNCkNST1c6IFVzZSB0aGUgR3JhbS1TY2htaWR0IHByb2Nlc3MhDQoNCiJUcmlnZ2VyIG9mZiINCg0KRGl2aWRlIG15IG1pbmQgaW4gOS4NCg0KTUlLRTogV2FpdCwgc28gaGUgZ290IGhpcyBicmFpbiBzcGxhdHRlcmVkLCB0aGVuIHB1dCBiYWNrIHRvZ2V0aGVyLCBub3cgaGUncyBjaG9wcGluZyBpdCB1cCBpbnRvIDkgcGllY2VzPw0KDQpNb2JpbGl6ZSBhbGwgMjcgY2lyY3VpdHMgc2xlZXBpbmcgd2l0aGluIHRoZSBib2R5IGFuZCBzdHJpa2UgaGltIGRvd24gaW4gb25lIGJsb3cuDQoNCkNST1c6IEhleSBJIHJlc2VudCB0aGF0LCBJIGhhdmUgKjI5KiBjaXJjdWl0cyBpbiBteSBib2R5Lg0KDQouLi4uLi4uLCAyIHNlY29uZHMuDQoNCkxvb21pbmcgYmVmb3JlIG1lLiBUaGUgZ3JlYXQgc3dvcmQgYmVpbmcgc3d1bmcuDQoNClRoZSBlbmVyZ3kgb2YgbXkgc3Bpcml0IHdpbmRpbmcgaW50byBhIHRvcnJlbnQuDQoNCkNST1c6IFRoZXBpcmF0ZWJheSENCg0KQXR0YWNrIGVhY2ggZ2FpbmVkIHN0ZXAgd2l0aCBvbmUgc3RlcC4NCg0KTUlLRTogTm93ICpteSogRW5nbGlzaCBwYXJzZXIganVzdCBjb21taXR0ZWQgc3VpY2lkZS4NCg0KVXBwZXIgYXJtLCBjb2xsYXIgYm9uZSwgd2luZCBwaXBlLCBza3VsbCBjYXAsIHNvbGFyIHBsZXh1cywgcmlicywgZ3JvaW4sIHRoaWdocywNClRhcmdldCB0aG9zZSA4IHBvaW50cywNCg0KTUlLRTogVGhpcyBpcyByZWFkaW5nIHJlbWFya2FibHkgbGlrZSBhIGJhZCBmYW50YXN5IHN0b3J5IHJpZ2h0IG5vdw0KQ1JPVzogTXJpZmshDQpNSUtFOiBTaHV0IHVwLg0KDQoiU2V0IC0gTmluZSBMaXZlcyBCbGFkZSBXb3JrcyINCg0KQ1JPVzogU28gdGhlIGJsYWRlIHdvcmtzIGZvciBuaW5lIGxpdmVzLCBvciBtYXliZSBpdCdzIG9uZSBvZiB0aG9zZSBzZW50aWVudCBibGFkZXMgZnJvbSBNZWxuaWJvbsOpIGFuZCBpdCBoYXMgbmluZSBsaXZlcywgd2hhdD8NCg0KT3ZlcmNvbWUgdGhlIHNwZWVkIG9mIHRoZSBzb3VuZCBvZiB0aGUgZGVzY2VuZGluZyBzd29yZCB3aXRoIHRoZSBzcGVlZCBvZiBnb2RzLi4uIQ0KDQpNSUtFOiBUaGlzIG1hbiBjYW4gc3dpbmcgYXQgdGhlIHNwZWVkIG9mIHNvdW5kPw0KQ1JPVzogT2YgY291cnNlIGhlIGNhbiwgaGUncyB0aGUgc2l6ZSBvZiBhIHN0YXIsIGRvbid0IHlvdSByZW1lbWJlcj8NCk1JS0U6IE9oIHllYWguDQoNCiIuLi4uLi4uLi4uLi4uLi4uLi4uLi4uIg0KDQpNSUtFOiBNeSB0aG91Z2h0cyBleGFjdGx5Lg0KDQpCdXQgaGUgd291bGRuJ3QgZmFsbCBkb3duLg0KU3RydWNrIHRocm91Z2hvdXQgdGhlIGJvZHkgYnkgaGlzIG93biBzd29yZCwgQmVyc2Vya2VyIHdhcyBzdGlsbCBpbnRhY3QuDQoNCiJIYS4uLi4uLi4uYWguLi4uLi4uISEhISINCg0KQ1JPVzogIkFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWgiDQoNCkkgbW92ZSBmb3J3YXJkLg0KSW4gbXkgbGVmdCBoYW5kIGlzIHRoZSBzd29yZCBvZiB0aGUgZ2lhbnQuDQoNCkNST1c6IFNvIHRoZSBzd29yZCB3ZW50IGZyb20gdGhlIGdpYW50J3MgaGFuZCwgdG8gc3RyaWtpbmcgdGhlIGdpYW50IGFsbCBvdmVyIHRoZSBib2R5IGJ5IGl0c3NlbGYsIHRvIG1hZ2ljYWxseSB0ZWxlcG9ydGluZyBpdHNzZWxmIGludG8gaGlzIGxlZnQgaGFuZD8NCk1JS0U6IENyb3csIGl0IGRvZXNuJ3QgaGF2ZSB0byBtYWtlIHNlbnNlLiBJdCdzIGFuaW1lLCByZW1lbWJlcj8NCg0KSSdtIGZhc3RlciB0aGFuIGhpbS4NCkhhdmluZyBsb3N0IDgwJSBvZiBoaXMgYm9keSwgSSBjYW4gZmluaXNoIEJlcnNlcmtlciBvZmYgZmFzdGVyIHRoYW4gaGUgY2FuIGtpbGwgbWUuIA0KDQpDUk9XOiBXYWl0LCBzbyBoZSdzIHN0aWxsIGFsaXZlIGRlc3BpdGUgbm90IGhhdmluZyBhIHRvcnNvPyBPciBhIGJyYWluPw0KTUlLRTogT2YgY291cnNlIGhlIGhhcyBubyBicmFpbiwgaG93IHRoZSBoZWxsIGVsc2UgZG8geW91IHRoaW5rIHRoaXMgc3Rvcnkgd2FzIHdyaXR0ZW4/DQoNCkkgcmFpc2VkIHRoZSBncmVhdCBzd29yZCB1cCB0byB0aGUgY2hlc3QgYW5kIHN0cnVjayBmb3dhcmQgbGlrZSBpdCB3YXMgYSBzcGVhci4NCg0KQ1JPVzogQmJiYnV0IHRoYXQncyBtb3JlIHRoYW4gMjAlIG9mIHlvdXIgYm9keSENCk1JS0U6IEFuaW1lLCBzZW5zZSBubyBtYWtlLCByZW1lbWJlcj8NCg0KIi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiEhIg0KDQpNSUtFOiBNeSB0aG91Z2h0cyBleGFjdGx5Lg0KDQpCdXQsIEkgbG9zdC4NCg0KQ1JPVzogSGF2aW5nIGxvc3QgODAlIG9mIHlvdXIgYm9keSB3aWxsIGRvIHRoYXQgdG8geW91Lg0KDQpJIHdhcyByZWNrbGVzcy4NCkkgbWFkZSBmdWxsIHVzZSBvZiB0aGF0IGFsbW9zdCBpbGxlZ2FsIHByaXZpbGVkZ2Ugd2l0aG91dCBzaGFtZSBhbmQgSSBzdGlsbCBsb3N0Lg0KQmVyc2Vya2VyJ3MgYmxvdyBpcyBjb21pbmcgYXQgbWUuDQpIZSBzd2luZ3MgaXQgZG93biB0b2dldGhlciB3aXRoIHRoZSBmb3JjZSBvZiB0aGUgZ2FsZS4NCg0KTUlLRTogTWF5YmUgdGhpcyBtZWFucyB0aGlzIGRpYWxvZ3VlIGlzIGVuZGluZyBzb29uLg0KQ1JPVzogRGlhbG9ndWUsIG1vcmUgbGlrZSBpbnRlcm5hbCBtb25vbG9ndWUuDQpNSUtFOiBTbyBoZSdzIGludGVybmFsLW1vbm9sb2d1aW5nPyBObyB3b25kZXIgaGUgbG9zdCwgaGUgaXNuJ3QgcGF5aW5nIGF0dGVudGlvbiB0byB3aGF0J3MgaGFwcGVuaW5nIGFyb3VuZCBoaW0uDQoNCiIuLi4uLi4uLi4iDQoNCk1JS0U6IE15IHRob3VnaHRzIGV4YWN0bHkuDQoNCkkgdHdpc3QgbXkgYm9keS4NCg0KQ1JPVzogT3IgYXQgbGVhc3QgdGhlIDIwJSBvZiBpdCB0aGF0J3MgbGVmdC4NCg0KSSBleHBlbmQgYWxsIHBvd2VyIHRvIGV2YXNpb24uDQpJIG5vdGljZWQgaXQgZWFybHkgZW5vdWdoLg0KVGhhdCdzIHdoeSBJIGNhbiBkb2RnZSBpdCBqdXN0IGJhcmVseS4NClRoZSBzdHJpa2Ugb2YgQmVyc2Vya2VyIHdpbGwgb25seSBza2ltIHBhc3QgbXkgdGVtcGxlcy4NCg0KQ1JPVzogU28gaG93IG11Y2ggb2YgaGlzIGJvZHkgZG9lcyBoZSBoYXZlPyENCg0KQnV0IEkgd2lsbCBkaWUgZnJvbSB0aGF0IGltbWVkaWF0ZWx5Lg0KDQpNSUtFOiBUaGFuayBnb2QsIHRoZW4gdGhpcyBtb25vbG9ndWUgd2lsbCBiZSBvdmVyLg0KDQpKdXN0IGZyb20gdGhlIHBvaW50IG9mIGhpcyBncmVhdCBzd29yZCBza2ltbWluZyBhZ2FpbnN0IG1lIGJ5IHNldmVyYWwgbWlsaW1ldGVycywgSSB3aWxsIGRpZS4NCkEgZGlyZWN0IGhpdCBmcm9tIGl0IHdvdWxkIHN0YW5kIGEgY2hhbmNlIGFnYWluc3Qga2lsbGluZyB0aGUgZ3JvdW5kLg0KDQpNSUtFOiBUaGUgZ3JvdW5kIGlzIGFsaXZlIG5vdz8gV2hvIGtuZXc/DQoNCkEgc2tpbSBvZiB0aGF0IHdvdWxkIHRha2Ugb2ZmIG15IGhlYWQgbGlrZSBpdCB3YXMgdG91ZnUuDQoNCkNST1c6IFRvdSBmdT8gSXMgdGhhdCBhbnl0aGluZyBsaWtlIGt1bmcgZnU/DQpNSUtFOiBJIHRoaW5rIGl0J3MgbW9yZSBsaWtlIGTDqWphIGZ1LCBhY3R1YWxseS4NCg0KVGhlIGdyZWF0IHN3b3JkIGlzIGNvbWluZyBhdCBtZS4NCkF0IHRoZSBtb21lbnQgbXkgaGVhZCB3aWxsIGJlIGJsb3duIG9mZiwgbXkgdmlzaW9uIGZyb3plLg0KDQpNSUtFOiBJc24ndCB0aGlzIGFsbCB0YWtpbmcgcGxhY2UgaW4gdGhlIHNwYWNlIG9mIGxpa2UgYSBzaW5nbGUgc2Vjb25kPw0KQ1JPVzogRW1peWEgU2hpcm91LCBtb25vbG9ndWluZyBhdCB0aGUgc3BlZWQgb2Ygc291bmQhDQoNCi4uLi5CdXQuDQpUaGUgZ3JlYXQgc3dvcmQgdGhhdCBoYWQgYmVlbiBkcmF3biBvdXQgYXQgc3VjaCBtZW5hY2luZyBzcGVlZHMsDQpXYXMgc3RvcHBlZCB3aXRoIG1lbmFjaW5nIGltbWVkaWFjeS4NCg0KQ1JPVzogQi1iLWItYnV0IHdoYXQgYWJvdXQgY29uc2VydmF0aW9uIG9mIGVuZXJneT8gQW5kIGluZXJ0aWE/DQpNSUtFOiBJdCdzIGFuaW1lLCBpdCBkb2Vzbid0IGhhdmUgdG8gbWFrZSBzZW5zZS4NCg0KIi4uLi4uLi4uRWg/Ig0KDQpNSUtFOiBZZWFoLCB0aGF0J3Mgd2hhdCB3ZSd2ZSBhbGwgYmVlbiB0aGlua2luZy4NCg0KVGhlIGRlYXRoIHN0cmlrZSBkaWRuJ3QgaGl0IG1lLg0KDQpNSUtFOiBVbmZvcnR1bmF0ZWx5Lg0KDQoiLi4uLi4uLi4uLiINCg0KTUlLRTogTXkgdGhvdWdodHMgZXhhY3RseS4NCg0KVGhlIGJsYWNrIGdpYW50IGxvb2tlZCBhaGVhZC4NCk5vdCBhdCBtZSB3aG8gd2FzIHJpZ2h0IGJ5IGhpbS4NClRob3NlIHJlYXNvbmxlc3MgZXllcyBsb29rZWQgYXQgdGhlIHdoaXRlIGdpcmwgaGFkIGVtZXJnZWQgZnJvbSB0aGUgZGVwcmVzc2lvbi4gDQoNCkNST1c6IFRoZSBncmVhdCBkZXByZXNzaW9uPw0KDQpJIHBpZXJjZWQgdGhyb3VnaCBoaW0uDQpXaXRob3V0IGhlc2l0YXRpb24sIHdpdGhvdXQgZW1vdGlvbiwgSSBzdHJ1Y2sgdGhlIGdyZWF0IHN3b3JkIGludG8gQmVyc2Vya2VyJ3MgaGVhcnQuDQoNClRoZXJlIHdhcyBubyBjb3VudGVyIGF0dGFjay4NClRoZSBnaWFudCB1c2VkIHVwIGhpcyBmaW5hbCBsaWZlIGFuZCB0aGlzIHRpbWUgcmV0dXJuZWQgdG8gZHVzdC4NCg0KTUlLRTogV2FpdCwgdGhlIHZlcnkgdGltZSB0dXJuZWQgdG8gZHVzdD8NCkNST1c6IFRoaXMgbW9ub2xvZ3VlIGlzIGFsbW9zdCBlbmRpbmcsIHRoYXQgbXVzdCBiZSB3aHkhDQpNSUtFOiBUaGFuayBnb2QuDQoNCi4uLkF0IHRoYXQgdmVyeSBpbnN0YW50Lg0KSGlzIGRpc2FwcGVhcmluZyByZWQgZXllcywgd2hpbGUgbG9va2luZyBhdCB0aGUgZ2lybCwgdG9sZCBtZSB0byBwcm90ZWN0IGhlci4NCg0KTUlLRTogRmluYWxseSEgVGhlIGVuZC4NCkNST1c6IFNvIGxldCBtZSBnZXQgdGhpcyBzdHJhaWdodCwgdGhpcyBpcyBhYm91dCAxNSBzZWNvbmRzIG9mIGEgc3dvcmRmaWdodD8NCk1JS0U6IExvb2tzIHRvIGJlLCB5ZWFoLg0KQ1JPVzogV293LiBObyB3b25kZXIgaGUgYWxtb3N0IGRpZWQsIGhlIHNwZW50IHNvIG11Y2ggdGltZSBtb25vbG9ndWluZy4NCk1JS0U6IEl0IG11c3QgaGF2ZSBiZWVuIGludGVybmFsLCBJIG1lYW4gaWYgaGUgd2FzIGFjdHVhbGx5IHRhbGtpbmcgbGlrZSB0aGF0IGhlIG1pZ2h0IGhhdmUgYm9yZWQgdGhlIGdpYW50IHRvIGRlYXRoIGJlZm9yZSBoZSBhbG1vc3Qga2lsbGVkIGhpbS4NCkNST1c6IFNvIGFsbCB0aGlzIG92ZXIgc29tZSBnaXJsPyBUaGF0IGFwcGVhcnMgYXQgdGhlIGxhc3Qgc2Vjb25kPw0KTUlLRTogVGhpcyB3YXMgb25seSAxNSBzZWNvbmRzIG9mIHBsb3QgcG9pbnQuIFRob3VnaCBJIGhhdmUgdG8gYWRtaXQgYmVpbmcgc2F2ZWQgYnkgYSBkaXN0cmVzc2VkIGRhbXNlbCBpcyBraW5kIG9mIGZ1bm55Lg0KQ1JPVzogSSB3b25kZXIgd2h5IHRoZSBnaWFudCdzIGV5ZXMgZGlzYXBwZWFyZWQuIEkgbWVhbiwgZGlkbid0IHRpbWUgdHVybiB0byBkdXN0Pw0KTUlLRTogVGhhdCdzIHZpb2xhdGluZyBzb21ldGhpbmcgaW4gcGh5c2ljcywgSSdtIGp1c3Qgbm90IHN1cmUgd2hhdC4NCg0KW1RoZXkgbGVhdmUgdGhlIHRoZWF0ZXIuXQ0KPC9sai1jdXQ+"
+"eventtime","2008-05-14 20:35:00"
+"url","http://bofh1459.livejournal.com/37841.html"
+"userid","1997"
+"itemid","146"
+"event","VGhlIEhhdXNkb3JmZiBtZWFzdXJlICg8Yj5zZWUgSGF1c2RvcmZmIGRpbWVuc2lvbjwvYj4pIGlzIGEgZ2VuZXJhbGl6YXRpb24gb2YgdGhlIExlYmVzZ3VlIG1lYXN1cmUgdGhhdCBpcyB1c2VmdWwgZm9yIG1lYXN1cmluZyB0aGUgc3Vic2V0cyBvZiBSbiBvZiBsb3dlciBkaW1lbnNpb25zIHRoYW4gbiwgbGlrZSBzdWJtYW5pZm9sZHMsIGZvciBleGFtcGxlLCBzdXJmYWNlcyBvciBjdXJ2ZXMgaW4gUsKzIGFuZCBmcmFjdGFsIHNldHMuIDxiPlRoZSBIYXVzZG9yZmYgbWVhc3VyZSBpcyBub3QgdG8gYmUgY29uZnVzZWQgd2l0aCB0aGUgbm90aW9uIG9mIEhhdXNkb3JmZiBkaW1lbnNpb24uPC9iPg0KDQpUcnkgYW5kIGd1ZXNzIHdoYXQgaXMgd3Jvbmcgd2l0aCB0aGUgYWJvdmUgc2VudGVuY2Uu"
+"eventtime","2008-05-13 02:03:00"
+"url","http://bofh1459.livejournal.com/37572.html"
+"userid","1997"
+"itemid","145"
+"event","""Huh why does everything seem lowpassed""
+
+""...Oh, because it is. Fuck""
+
+Thanks to some stray ground loop hum the tweeter element on one of my speakers is now fried.
+
+fff anyone know good replacements for the tweeter element of a Smaller Advent?"
+"eventtime","2008-05-11 15:19:00"
+"url","http://bofh1459.livejournal.com/37293.html"
+"userid","1997"
+"itemid","144"
+"event","05:36 < poopkid> FireKing: Error: ""watashi"" is not a valid japanese word."
+"eventtime","2008-04-27 05:37:00"
+"url","http://bofh1459.livejournal.com/37058.html"
+"userid","1997"
+"itemid","142"
+"event","02:45 < tgies> LAOAL HELP GUYS CARS ARE SORT OF HILARIOUS I MEAN THAT IS JUST A COUPLE OF COUCHES IN A BOX WHICH MOVES FORWARD BY BLOWING UP REALLY FAST"
+"eventtime","2008-02-24 02:48:00"
+"url","http://bofh1459.livejournal.com/36354.html"
+"userid","1997"
+"itemid","141"
+"event","Ah, reading week. A time to relax and to get caught up in all of your classes. Basically I've been needing this for a bit now, not so much for the relaxing part, but to actually have enough time to make sure I know everything in depth for midterms.
+
+So far this semester has been going much better in almost every way than the last one. All of my courses are fascinating and the assignments are actually marked sanely. Well, for the most part at least.
+
+Measure Theory is actually quite fascinating. For something that is essentially a giant hack, it's surprisingly elegant and is usually immensely useful for determining conditions. For instance, a function is Riemann-integrable iff all of its discontinuities make up a set of measure zero. Similarly, a monotonic function is differentiable everywhere but on a set of measure zero. Both of these statements are intuitively obvious, but the proofs for them are actually quite challenging and require some clever tricks.
+
+So yeah, I spent Valentine's Day and Cheap Chocolate Day (otherwise known as the day after valentine's day) doing measure theory. It was immensely fun, and it kind of reflects my feelings towards romance lately. I don't like it, but I don't hate it either. It's more of a willful obliviousness to it all. I used to think of it as perhaps a nice idea, but seeing what it does to people, I'm not sure I really want a romantic relationship really. Other than the fact that I simply do not have any time lately, the idea just doesn't appeal to me at all. I much prefer friendship.
+
+I mean I personally find pretty much the entire point of it quite silly by now. Especially romance movies, and even worse, romantic comedies. Now, I occasionally like stories of this genre, for instance Pride and Prejudice is actually decent and you find yourself actually managing to identify with some of the characters, but pretty much all romance movies are just so pathetically formulaic that there is little point to seeing any of them.
+
+For the record, the same can be said about action movies. I watched Die Hard 4 earlier today. What the christ. What the devil. The entire plotline is essentially random badass cop movie meets Hackers, with all the predictability of both. Seriously, I could easily guess what was happening 5 minutes into the movie, despite never actually seeing it before or reading any form of spoilers. It was rather pathetic actually, it's as if the movie industry can't think of anything new so it's running the same old tired garbage by us again and again.
+
+So in the realm of *good* movies/TV, Read or Die is awesome. Pretty much prior to this I have held the standpoint that All Anime Sucks More Or Less Universally, due to seeing a bunch of it and noting it all sucked (though occasionally watching Death Note for the colliding Xanatos Roulettes). This show changed my mind. The script is actually not crappily written, the plot makes sense, for the most part, and it's not animated at 4FPS.
+
+Also, in the realm of things-from-Japan-that-aren't-actually-awful, I've become insanely addicted to Touhou games, specifically Perfect Cherry Blossom. It's probably due to them having surprisingly good music, but I've basically played Perfect Cherry Blossom all weekend (and also if I close my eyes, I start seeing bullet patterns). Also the music itsself is good enough that I'm making a SID version of Phantom Ensemble (I mean there are 3 distinct instruments in the Ensemble... the SID6581 has 3 voices, I mean it's ideal) as soon as I finish defining the instruments in GoatTracker.
+
+So in my bad habit of planning out my next year of studies, next semester in 2A I plan to take:
+- MATH245, MATH247 - LinAlg2, Calc3
+- PMATH351, PMATH352 - Real Analysis, Complex Analysis
+- AMATH250, ECE241 - Intro to DiffEqs, Circuit Analysis
+and in 2B:
+- PMATH354 - Real Analysis 2 (aka Measure Theory and Fourier Analysis)
+- PMATH451 - Measure and Integration
+- ECE342 - Signals and Systems
+- ECE318 - Communication Systems
+- PMATH365 - Introductory Differential Geometry
+
+I am also pondering double majoring PMath/AMath, though I am not sure if I actually want to take all the required AMath courses (diffeqs are fine, but I suck at vector calc and I really, really, really hate computation), so that's still up in the air.
+
+So that ends it for this update. I'll probably start posting semi-regularly from now on, mainly due to actually managing time better so I have both time and will to update lj beyond say a 2-line post."
+"eventtime","2008-02-18 00:42:00"
+"url","http://bofh1459.livejournal.com/36323.html"
+"userid","1997"
+"itemid","140"
+"event","MAH THETAN LEVEL: ITS OVER 9000"
+"eventtime","2008-01-30 23:45:00"
+"url","http://bofh1459.livejournal.com/35923.html"
+"userid","1997"
+"itemid","139"
+"event","03:40 <@slugbug_> the worst band member is Magnet Lunchpersons
+03:40 <@slugbug_> Seriously that guy is just irritating
+03:40 <@tgies> ALAOLAAOLAOAL
+03:40 <@tgies> WHAT THE HELL?
+03:41 <@slugbug_> Yeah see I told you
+03:41 <@tgies> YOU CAN'T HAVE A GUY CALLI'M DRAWING THE LINE.
+03:41 <@tgies> What does that jerk even PLAY
+03:41 <@slugbug_> The tape hiss
+03:41 <@tgies> Oh
+03:41 <@tgies> He would."
+"eventtime","2008-01-13 03:43:00"
+"url","http://bofh1459.livejournal.com/35602.html"
+"userid","1997"
+"itemid","138"
+"event","PGxqLWN1dCB0ZXh0PSJZZXQgYW5vdGhlciBsYW1lIHN1cnZleSI+DQoxLiBXaGF0IGRpZCB5b3UgZG8gaW4gMjAwNyB0aGF0IHlvdSdkIG5ldmVyIGRvbmUgYmVmb3JlPw0KV2VudCB0byB1bml2ZXJzaXR5Lg0KDQoyLiBEaWQgeW91IGtlZXAgeW91ciBuZXcgeWVhcnMnIHJlc29sdXRpb25zLCBhbmQgd2lsbCB5b3UgbWFrZSBtb3JlIGZvciBuZXh0IHllYXI/DQpJIGRvbid0IGV2ZXIgbWFrZSBuZXcgeWVhcnMnIHJlc29sdXRpb25zLg0KDQozLiBEaWQgYW55b25lIGNsb3NlIHRvIHlvdSBnaXZlIGJpcnRoPw0KTm8sIHRoYW5rIGdvZC4NCg0KNC4gRGlkIGFueW9uZSBjbG9zZSB0byB5b3UgZGllPw0KTm8uDQoNCjUuIFdoYXQgY291bnRyaWVzIGRpZCB5b3UgdmlzaXQ/DQpVbmZvcnR1bmF0ZWx5LCBkaWQgbm90IGdvIGFueXdoZXJlLg0KDQo3LiBXaGF0IGRhdGUgZnJvbSAyMDA3IHdpbGwgcmVtYWluIGV0Y2hlZCB1cG9uIHlvdXIgbWVtb3J5LCBhbmQgd2h5Pw0KSSBkb24ndCBrbm93LiBJdCdzIGFsbCBiZWVuIGEgYmx1cg0KDQo4LiBXaGF0IHdhcyB5b3VyIGJpZ2dlc3QgYWNoaWV2ZW1lbnQgb2YgdGhlIHllYXI/DQpQcm92aW5nIHRoZSBCYWlyZSBDYXRlZ29yeSBUaGVvcmVtLg0KDQo5LiBXaGF0IHdhcyB5b3VyIGJpZ2dlc3QgZmFpbHVyZT8NCjgzJSBpbiBNQVRIIDE0NSAoQ2xhc3NpY2FsIEFsZ2VicmEpLg0KDQoodGhlIDc3JSBpbiBFQ0UgMjIzIGRvZXNuJ3QgY291bnQgYXMgSSB0aGluayB0aGUgbWFya2VyIGZ1Y2tlZCB1cCBpbiB0aGF0IGNhc2UuIHRoZXJlIGlzICpubyB3YXkqIEkgZ290IHRoYXQgbG93IG9uIHRoZSBmaW5hbCkNCg0KMTAuIERpZCB5b3Ugc3VmZmVyIGlsbG5lc3Mgb3IgaW5qdXJ5Pw0KTm8NCg0KMTEuIFdoYXQgd2FzIHRoZSBiZXN0IHRoaW5nIHlvdSBib3VnaHQ/DQpQcmluY2lwbGVzIG9mIE1hdGhlbWF0aWNhbCBBbmFseXNpcywgV2FsdGVyIFJ1ZGluDQoNCjEyLiBXaG9zZSBiZWhhdmlvciBtZXJpdGVkIGNlbGVicmF0aW9uPw0KQSBsb3Qgb2YgcGVvcGxlJ3MuDQoNCjEzLiBXaG9zZSBiZWhhdmlvciBtYWRlIHlvdSBhcHBhbGxlZCBhbmQgZGVwcmVzc2VkPw0KQSBsb3Qgb2YgcGVvcGxlJ3MuDQoNCjE0LiBXaGVyZSBkaWQgbW9zdCBvZiB5b3VyIG1vbmV5IGdvPw0KQm9va3MuDQoNCjE1LiBXaGF0IGRpZCB5b3UgZ2V0IHJlYWxseSwgcmVhbGx5LCByZWFsbHkgZXhjaXRlZCBhYm91dD8NCk1hdGggPjpEDQoNCjE2LiBXaGF0IHNvbmcgd2lsbCBhbHdheXMgcmVtaW5kIHlvdSBvZiAyMDA3Pw0KQW55dGhpbmcgYnkgTmlnaHR3aXNoIG9yINCu0LvQuNGPINCh0LDQstC40YfQtdCy0LAuDQoNCjE3LiBDb21wYXJlZCB0byB0aGlzIHRpbWUgbGFzdCB5ZWFyLCBhcmUgeW91Og0KaS4gaGFwcGllciBvciBzYWRkZXI/IEhhcHBpZXIuDQppaS4gdGhpbm5lciBvciBmYXR0ZXI/IFRoZSBzYW1lLg0KaWlpLiByaWNoZXIgb3IgcG9vcmVyPyBUaGUgc2FtZS4NCg0KMTguIFdoYXQgZG8geW91IHdpc2ggeW91J2QgZG9uZSBtb3JlIG9mPw0KTWF0aC4NCg0KMTkuV2hhdCBkbyB5b3Ugd2lzaCB5b3UnZCBkb25lIGxlc3Mgb2Y/DQpCZWluZyBsYXp5Lg0KDQoyMC4gSG93IHdpbGwgeW91IGJlIHNwZW5kaW5nIENocmlzdG1hcz8NCkF0IGhvbWUuDQoNCjIyLiBEaWQgeW91IGZhbGwgaW4gbG92ZSBpbiAyMDA3Pw0KSSBkb24ndCBrbm93LiBJdCdzIGNvbXBsaWNhdGVkLg0KDQoyMy4gSG93IG1hbnkgb25lLW5pZ2h0IHN0YW5kcz8NCk5vbmUuDQoNCihob3dldmVyLCB0aGlzIGRvZXMgbm90IGFwcGx5IHRvIG9uZSBuaWdodHN0YW5kcyAod2hpY2ggYXJlIHZlcnkgZGlmZmVyZW50IGZyb20gb25lLW5pZ2h0IHN0YW5kcykuIGFuIGludGVybmV0IHRvICB3aG9ldmVyIGdldHMgdGhpcyByZWZlcmVuY2UpDQoNCjI0LiBXaGF0IHdhcyB5b3VyIGZhdm9yaXRlIFRWIHByb2dyYW0/DQpEb2N0b3IgV2hvLCDQmtCS0J0NCg0KMjUuIERvIHlvdSBoYXRlIGFueW9uZSBub3cgdGhhdCB5b3UgZGlkbid0IGhhdGUgdGhpcyB0aW1lIGxhc3QgeWVhcj8NCk5vZXAuDQoNCjI2LiBXaGF0IHdhcyB0aGUgYmVzdCBib29rIHlvdSByZWFkPw0KVGhlIGJlc3QgYm9vayBJIHJlYWQgdGhpcyB5ZWFyPyBBIExPVCBvZiB0aGluZ3MuLi4gYW55dGhpbmcgYnkgU2VyZ2VpIEx1ayd5YW5lbmtvLCBNYWtzIEZyYWkgb3IgV2FsdGVyIFJ1ZGluIHByZXR0eSBtdWNoLg0KDQoyNy4gV2hhdCB3YXMgeW91ciBncmVhdGVzdCBtdXNpY2FsIGRpc2NvdmVyeT8NCk5pZ2h0d2lzaC4NCg0KMjguIFdoYXQgZGlkIHlvdSB3YW50IGFuZCBnZXQ/DQpWYXJpb3VzIGJvb2tzLg0KDQoyOS4gV2hhdCBkaWQgeW91IHdhbnQgYW5kIG5vdCBnZXQ/DQpTYWRseSwgb25lIG9mIHRoZW0gZGlkIG5vdCBoYXBwZW4gdG8gYmUgdGhlIE5lY3JvdGVsaWNvbW5pY29uLg0KDQozMC4gV2hhdCB3YXMgeW91ciBmYXZvcml0ZSBmaWxtIG9mIHRoaXMgeWVhcj8NClRoZSBHb2xkZW4gQ29tcGFzcy4NCg0KMzEuIFdoYXQgZGlkIHlvdSBkbyBvbiB5b3VyIGJpcnRoZGF5LCBhbmQgaG93IG9sZCB3ZXJlIHlvdT8NCkkgZG9uJ3QgY2VsZWJyYXRlIG15IGJpcnRoZGF5LiBMb2x6Lg0KDQozMi5XaGF0IG9uZSB0aGluZyB3b3VsZCBoYXZlIG1hZGUgeW91ciB5ZWFyIGltbWVhc3VyYWJseSBtb3JlIHNhdGlzZnlpbmc/DQpNb3JlIGFkdmVudHVyZXMhISBHQUghDQoNCjMzLiBIb3cgd291bGQgeW91IGRlc2NyaWJlIHlvdXIgcGVyc29uYWwgZmFzaGlvbiBjb25jZXB0IGluIDIwMDc/DQpQbGFpbi4NCg0KMzQuIFdoYXQga2VwdCB5b3Ugc2FuZT8NCk1hdGgsIG9mIGNvdXJzZQ0KDQozNS4gV2hpY2ggY2VsZWJyaXR5L3B1YmxpYyBmaWd1cmUgZGlkIHlvdSBmYW5jeSB0aGUgbW9zdD8NCk5vbmUsIHJlYWxseS4NCg0KMzYuIFdoYXQgcG9saXRpY2FsIGlzc3VlIHN0aXJyZWQgeW91IHRoZSBtb3N0Pw0KSSdtIGFwb2xpdGljYWwuDQoNCjM3LiBXaG8gZGlkIHlvdSBtaXNzPw0KQW5uYS4NCg0KMzguIFdobyB3YXMgdGhlIGJlc3QgbmV3IHBlcnNvbiB5b3UgbWV0Pw0KSWFuLCBFZGdhciwgSmFtZXMsIE1hdGV1c3omVGVyZXphIChJbXBvc3NpYmxlIHRvIHBpY2sgb25lKQ0KDQozOS4gVGVsbCB1cyBhIHZhbHVhYmxlIGxpZmUgbGVzc29uIHlvdSBsZWFybmVkIGluIDIwMDcuDQpEb24ndCBiZSBsYXp5IG9yIGNvbGxlaWogd2lsbCBlYXQgeW91IGZvciBsdW5jaC4NCg0KNDAuIFF1b3RlIGEgc29uZyBseXJpYyB0aGF0IHN1bXMgdXAgeW91ciB5ZWFyLg0KIldpc2ggdXBvbiBhIHN0YXINCkJlbGlldmUgaW4gd2lsbA0KVGhlIHJlYWxtIG9mIHRoZSBraW5nIG9mIGZhbnRhc3kNClRoZSBtYXN0ZXIgb2YgdGhlIHRhbGUtbGlrZSBsb3JlDQpUaGUgd2F5IHRvIGtpbmdkb20gSSBhZG9yZQ0KV2hlcmUgdGhlIHdhcnJpb3IncyBoZWFydCBpcyBwdXJlDQpXaGVyZSB0aGUgc3RvcmllcyB3aWxsIGNvbWUgdHJ1ZSI="
+"eventtime","2008-01-01 10:30:00"
+"url","http://bofh1459.livejournal.com/35390.html"
+"userid","1997"
+"itemid","137"
+"event","Above me there is quiet
+The sky is full of rain
+Rain passes through me
+But there is no more pain.
+
+Underneath the cold whisper of stars
+We have burned the final bridge
+And everything fell into the abyss
+I will be free - from good and bad
+My soul was on the blade of a knife
+
+I could be with you,
+I could forget about everything,
+I could love you
+But this is only a game
+In the noise of the wind
+I will forget your voice
+And of this earthly love,
+That burned us to dust
+And I went insane,
+In my soul there is no longer place for you!
+
+I am free, like a bird in the skies!
+I am free, I forgot what is fear!
+I am free - equal with the wild wind!
+I am free right now, not only in my dreams!
+
+Above me there is quiet
+The sky is full of fire
+The light passes through me
+And I am free again!
+
+I am free of love
+Of rumours and of hostility
+From predetermined fate!
+And from earthly matters
+From good and from bad
+In my soul there is no longer place for you!"
+"eventtime","2007-12-26 01:10:00"
+"url","http://bofh1459.livejournal.com/35180.html"
+"userid","1997"
+"itemid","136"
+"event","You're fighting a blade a-spinning	
+
+This robot consists chiefly of a large circular sawblade, gyroscopic stabilizers, and wheels. Presumably, the main design goal was ""We want something that will violently cut other things in half, and we don't care how ridiculous it looks.""
+
+Best monster description ever."
+"eventtime","2007-12-23 18:49:00"
+"url","http://bofh1459.livejournal.com/34961.html"
+"userid","1997"
+"itemid","135"
+"event","So, on page 84:
+
+""It proves convenient to use a compact notation D for the differential operator d/dt. Thus: dy/dt = Dy(t), d^2y/dt^2 = D^2y(t). Moreover, the differential operator is the inverse of the integral operator, so we can use the operator 1/D to represent integration: int [t,-inf] y(x) dx = 1/Dy(t)""
+
+Then, SEVEN PAGES LATER:
+""Use of operator 1/D for integration generates some subtle mathematical difficulties because the operators D and 1/D do not commute...use of Cramer's rule in solving simultaneous integro-differential equations will always result in cancellation of operators 1/D and D, even when this is not appropriate. To eliminate this problem, the integral operation in system equations should be avoided so that the resulting equations are differential rather than integro-differential.""
+
+Or, y'know, you could just not <i>not abuse notation</i>. Just a thought."
+"eventtime","2007-12-21 07:01:00"
+"url","http://bofh1459.livejournal.com/34643.html"
+"userid","1997"
+"itemid","133"
+"event","0J3QtSDQt9GA0Y8g0LLRgdC1LdGC0LDQutC4INC40YHRgtC40L3QvdGL0LUg0YDQvtC80LDQvdGC0LjQutC4INC4INGB0LLQvtCx0L7QtNC+0LvRjtCx0YbRiyDQuNC30LHRgNCw0LvQuCDRgdCy0L7QuNC8INCy0YDQtdC80LXQvdC10Lwg0J3QvtGH0YwuICDQndC+0YfRjCwg0LAg0LLQvtCy0YHQtSDQvdC1INC00LXQvdGMLCDQutC+0LPQtNCwINCy0YHRjyDQs9GA0Y/Qt9GMINC4INCy0LXRgdGMINC80YPRgdC+0YAg0L3QsNGB0YLRi9GA0L3QviDQu9C10LfRg9GCINCyINCz0LvQsNC30LAsINC60L7Qs9C00LAg0LLQuNC00L3QviAtLSDQutCw0LrQuNC1INC90LDRiNC4INCz0L7RgNC+0LTQsCDQvdC10L/RgNC40LPQu9GP0LTQvdGL0LUg0LggINC30LDRhdC70LDQvNC70LXQvdC90YvQtSwgINC60L7Qs9C00LAg0L3QsCAg0YPQu9C40YbQsNGFINC/0L7Qu9C90L4g0LHQtdGB0YLQvtC70LrQvtCy0YvRhSDQu9GO0LTQtdC5LCAg0LAg0L3QsCDQtNC+0YDQvtCz0LDRhSAtLSAg0L/QvtC70L3QviDRgdC80YDQsNC00L3Ri9GFINC80LDRiNC40L0uINCU0LXQvdGMIC0tINCy0YDQtdC80Y8g0YPQtyDQuCDRhtC10L/QtdC5LCDQvtCx0Y/Qt9Cw0L3QvdC+0YHRgtC10Lkg0Lgg0L/RgNCw0LLQuNC7LCDQsCDQndC+0YfRjCAtLSDQstGA0LXQvNGPINCh0LLQvtCx0L7QtNGLLiAtLSDQktC40YLQsNC70LjQuSDQodC10YDQs9C10LXQstC40Ycg0KDQvtCz0L7Qt9CwLCDQlNC90LXQstC90L7QuSDQlNC+0LfQvtGA"
+"eventtime","2007-12-18 04:39:00"
+"url","http://bofh1459.livejournal.com/34162.html"
+"userid","1997"
+"itemid","132"
+"event","So, pretty much all of my hard exams are over now. Just one more to go and it's CS so I'm not too worried. I know I did fairly well on most of my exams. 
+
+ECE 223 was a fun example in how a lot of cramming *can* be quite useful, I pretty much covered the last month of the course in a day and I actually understand the material pretty well. Then again, how hard can flip-flop state tables and implication tables possibly be? (The answer seems to be: not very. Despite this, a lot of people in that class had trouble in that course and my mark is apparently one of the highest in the class, which I find is kind of amusing considering I'm taking it a year early, not to mention I'm not even IN EE). 
+MATH 147 was a fun example in how studying too little is a bad thing, I didn't study most of the proofs a lot and therefore had to pretty much re-derive all of them on the exam. While they're all not hard (the proof for Sequence = Cauchy => Sequence = Convergent is about 3 lines and a trivial application of triangle inequality and the Bolzano-Weierstrass Theorem), it took up way too much time and therefore I left one question blank and screwed up another. I probably lost around 12 marks total from this and am expecting around 10 bonus marks on the exam so therefore I am not too worried, but still, I would very much like a 100% in that course. 
+MATH145 was actually quite fun, I did an ECE223-style cram session and discovered that Abstract Algebra *can* be kind of fun (doing RSA encryption by hand can still go die in a fire, though). I'm very pissed off at myself though because I messed up a question, it was a polynomial of degree 7 and you had to find its roots, you had z^3 = -3 or z^4 = 2. For the first you needed to use De Moivre + the complex roots formula to find them which I did, correctly. For the second it was sufficient to say: ""By inspection, z = {+- sqrt(2), +- i*sqrt(2)}"". I forgot to write this line. Gaaaaaaaargh.  I really hope I don'tb lose too many marks for that, I really need a high mark on the exam to get a decent mark in the course (where decent is defined as >85%)
+
+Next Semester I am taking:
+MATH 146 - Linear Algebra 1 (Advanced)
+MATH 148 - Calculus 2 (Advanced)
+PMATH 346 - Group Theory
+STAT 240 - Statistics (Advanced)
+ECE 222 - Computer Architecture and Design
+
+What royally sucks about next semester is that I have 8:30 classes... every day of the week. Even more annoyingly, my 8:30 class on T,Th is ECE 222, which lasts 50 minutes and incidentally happens to be my *only* class (though I have ECE 222 Lab on T around 1:30 and on Th I'm sitting in on a Russian Literature course on Aleksandr Grin which begins around the same time).
+
+However, I am making sure to attend all classes next semester, I've found this is very helpful marks-wise. Granted, the single most helpful thing to do marks-wise is to do all the assignments, even if they are optional and most importantly, read the textbook and your notes.
+
+I kind of went on a book-buying spree. Amazingly I only spent $100, and that's including shipping. I got: Principles of Mathematical Analysis by Rudin, Introductory Complex Analysis by Nevanlinna&Paatero, Introductory Harmonic Analysis by Katznelson, Signals&Systems by Lathi, Discrete-Time Signal Processing by Oppenheim&Schafer and Probability Theory by Rozanov. All of these will be used at some time by a course that I wish to take, and yes I am fully aware that some are too complicated for me to understand right now (Harmonic Analysis by Katznelson comes to mind). In any order, it's time to get some reading done. That's quite likely how I am going to spend half of my winter break, with the other half a mix between Warcraft 3 and Alpha Centauri.
+
+Interestingly enough, my mathematical interests shifted after me coming here. Well, to be more precise, they just became better-defined. Before coming here I used to be very interested in number theory and Riemann-Zeta, possibly due to that being better-known and possibly due to primes being kind of interesting. However I've found I don't like number theory all that much and I'm actually somewhat bad at algebra.
+
+On the other hand, I've found I am really awesome at Real and especially Fourier Analysis. I also find Functional Analysis and Calculus of Variations fascinating even though I probably only understand about 1% of them right now, if that (Analysis is a very linear aspect of mathematics. Very little can be proved directly from First Principles and some parts of it are not understandable without knowing a lot of theory beforehand. This is kind of in opposite to Algebra and epsecially Combinatorics, where half of the stuff can be proven from First Principles. Which is probably why you see a lot of Algebra and Combinatorics on math contests, and usually almost no Analysis. Meh.)
+
+I've also found I'm not strictly a Pure Mathematician, I definetly like Classical Harmonic Analysis but I also like messing around with FIR filters and crap (which are an application of Fourier Analysis, incidentally). Basically my idea of what I was going to take kind of changed greatly, and now I'm very much into Classical Harmonic Analysis. Which is, incidentally, what I will probably be doing research in. For the rest of my life :P It's really awesome though, and in fact downright intuitive at times.
+
+At other times... well, Analysis can be fun. Take for example, the Cantor set. You have the real number line and it has cardinality c. Now take the interval [0,1]. It is dense in R and its cardinality is also c. Now remove the middle third of the interval, and then 2 middle thirds of what is remaining, and then 4 middle thirds of what is remaining, etc. You now have a set with a lot of elements missing. Note that [0,1] has measure 1. Now your set that you just got has measure 0 and is also nowhere dense. But here comes the fun part: Its cardinality is still... you guessed it, the same as the cardinality of the reals!
+
+This follows directly from the notion of uncountable infinity, and most notably that given an arbitrary rational r, there is no ""nearest"" irrational i such that the interval (r, i) is empty. (Among other things, this allows stuff like the Baire Category Theorem to work)"
+"eventtime","2007-12-15 18:30:00"
+"url","http://bofh1459.livejournal.com/33862.html"
+"userid","1997"
+"itemid","131"
+"event","So while doing last-minute studying for Putnam I just realised I've had the song ""End of all Hope"" on a loop for the past couple hours.
+
+That sounds about accurate. Gaaaaaaaaaaaaaaaaaaargh, I am so horrendously unprepared. My goal is to get at least 10 but I highly highly doubt that will happen this year (incidentally, the Putnam does require more than just 1st-year university mathematics. Also, it's contest-type math, which means that you have to know a bunch of theorems that typically are not taught, such as the Arithmetic Mean Geometric Mean Inequality (this is not to say AM-GM is not useful, in fact it is almost as useful as the triangle inequality (and the right-angle triangle inequality :P), just that it is uncommonly seen in standard math courses until you run into a proof that uses it) and of which I am certainly behind on.
+
+I spent all of last night trying to figure out how to solve basic ODEs. That was fun, ODEs are definetly cool (but the most awesome thing ever is transforms)
+
+I've come to the conclusion that I want to do research in harmonic (tgies: think Fourier-style) analysis."
+"eventtime","2007-12-02 15:29:00"
+"url","http://bofh1459.livejournal.com/33621.html"
+"userid","1997"
+"itemid","130"
+"event","Complex Analysis is THE COOLEST THING EVER."
+"eventtime","2007-11-19 22:53:00"
+"url","http://bofh1459.livejournal.com/33282.html"
+"userid","1997"
+"itemid","129"
+"event","ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff.
+
+Modelsim doesn't actually work very well. For instance, take the following line of vhdl code:
+
+with key(2 downto 0) SELECT
+       R <= ""0000000"" & (('0' & B) + ('0' & sw(7 downto 0))) WHEN ""001"",
+                        ""00000000"" & B WHEN others;
+
+ledr(0) <= R(8);
+
+Now, this basically causes ledr(0) to light up whenever an overflow error occurs. Basically, if you add 2^8 - 1 + 2^8 - 1, you get an overflow if the register you are storing it in is 8 bits in size. Now, if we make it a 9-bit register, then 2^8 - 1 + 2^8 - 1 = 2^9 - 2, which basically means that bit 9 of the register is 1. So far, everything is fine. Compile that code, program it onto the FPGA demoboard... it works wonderfully. Now load up Modelsim. Now the fun begins.
+
+Modelsim isn't a very good tester or debugger. In fact I'm trying to find a case when it is helpful/required and better alternatives (ex, the builtin Quartus debugger) weren't more useful, and am (quite unsurprisingly) not having much luck.
+
+At first, Modelsim claimed that ledr(0) will never light and that R(8) == 0 for all points in the interval [0, maxtime]. Then it claimed ledr(0) *will* light on an overflow once the overflow is latched, even though on the FPGA it lights up the second the overflow occurs. Even more amusingly, the overflow condition never seems to go away once it is set.
+
+Even more oddly, R(8) STILL is 0 for all points in [0, maxtime]. By this logic, ledr(0) should never light. But apparently Modelsim claims it does. Just that it never resets even if an overflow condition IS NO LONGER OCCURING.
+
+On a more fun note, the calc midterm went by wonderfully and I am pretty sure I got at least 100%. It turns out one of my proofs that I thought was wrong was actually more than likely correct, which is always nice to know. Also I am starting to really like proving continuity and I kind of want to take Real before I can or at least sit in on a few classes. Speaking of sitting in on classes, I have a crypto assignment due Friday that I haven't really started yet. I love this week so far, I have had assignments due every day of this week except Monday.
+
+In other news, I seem to have picked up an addiction to Hatris."
+"eventtime","2007-11-15 03:22:00"
+"url","http://bofh1459.livejournal.com/33113.html"
+"userid","1997"
+"itemid","128"
+"event","PGxqLWN1dCB0ZXh0PSJtb3JlIHF1aXp6ZXMiPg0KU29tZSBkdW1iIG5hdGlvbmFsIHN0ZXJlb3R5cGVzIHRoaW5naWU6DQoNCkJSSVRJU0gNCltYXSBZb3UgZHJpbmsgYSBsb3Qgb2YgdGVhLg0KWyBdIFlvdSBrbm93IHdoYXQgYSBicm9sbHkgaXMuDQpbIF0gRGVhbCBvciBObyBEZWFsIGhhcyB0YWtlbiBvdmVyIHlvdXIgbGlmZS4NClsgXSBZb3Ugd2FudGVkIEJlbiB0byB3aW4gWCBGYWN0b3IuDQpbWF0gWW91IHVzZSB0aGUgd29yZCDigJxidWdnZXLigJ1vciB0aGUgcGhyYXNlIOKAnGJsb29keSBoZWxsLuKAnSANClsgXSBGaXNoIGFuZCBDaGlwcyBhcmUgeXVtbXkuDQpbIF0gWW91IGNhbiBlYXQgYSBGdWxsIEVuZ2xpc2ggQnJlYWtmYXN0Lg0KWyBdIFlvdSBkaXNsaWtlIGVtb3MgYWxtb3N0IGFzIG11Y2ggYXMgeW91IGRpc2xpa2UgY2hhdnMuDQpbWF0gSXTigJlzIGZvb3RiYWxs4oCmLiBub3Qgc29jY2VyLg0KVE9UQUw9IDMvOSA9IDMzJQ0KDQoNCkFVU1RSQUxJQU4NClsgXSBZb3Ugd2VhciBmbGlwIGZsb3BzIGFsbCB5ZWFyLg0KWyBdIFlvdSBjYWxsIGZsaXAtZmxvcHMgdGhvbmdzIG5vdCBmbGlwLWZsb3BzLg0KWyBdIFlvdSBrbm93IGEgQmFyYmllIGlzIG5vdCBhIGRvbGwuDQpbIF0gWW91IGxvdmUgdGhlIGJlYWNoLg0KWyBdIFNvbWV0aW1lcyB5b3Ugc3dlYXIgd2l0aG91dCByZWFsaXppbmcuDQpbIF0gWW91J3JlIGEgc3BvcnRzIGZhbmF0aWMuDQpbIF0gWW91IGFyZSB0YW5uZWQuDQpbIF0gWW91J3JlIGEgYml0IG9mIGEgYm9nYW4uDQpbIF0gWW91IGhhdmUgYW4gQXVzdHJhbGlhbiBhY2NlbnQgc29tZXRpbWVzLg0KVE9UQUw9IDAvOSA9IDAlDQoNCg0KSVRBTElBTg0KWyBdIFRoZSBTb3ByYW5vcyBpcyBhIGdyZWF0IHNob3cuDQpbIF0gWW91ciBsYXN0IG5hbWUgZW5kcyBpbiBhIHZvd2VsLg0KWyBdIFlvdXIgZ3JhbmRtb3RoZXIgbWFrZXMgaGVyIG93biBzYXVjZS4NClsgXSBZb3Uga25vdyBob3cgYSByZWFsIG1lYXRiYWxsIHRhc3Rlcy4NClsgXSBZb3Uga25vdyBhIGxvdCBvZiBJdGFsaWFuIHNvbmdzLg0KW1hdIFlvdSBoYXZlIGRhcmsgaGFpciBhbmQgZGFyayBleWUgY29sb3IuDQpbIF0gWW91IHNwZWFrIHNvbWUgSXRhbGlhbi4NClsgXSBZb3UgYXJlIHVuZGVyIDUnMTAnJy4NClsgXSBTcGFnaGV0dGkgaXMgdGhlIGJlc3QgZm9vZCBpbiB0aGUgd29ybGQuDQpbIF0gWW91IHRhbGsgd2l0aCB5b3VyIGhhbmRzLg0KVG90YWwgMS8xMCA9IDEwJQ0KDQoNCkhJU1BBTklDDQpbIF0gWW91IHNheSDigJxtZW1iZXLigJ0gaW5zdGVhZCBvZiDigJxyZW1lbWJlcuKAnS4NClsgXSBZb3Ugc3BlYWsgU3BhbmlzaC4NClsgXSBZb3UgbG92ZSB0YWNvcy4NClsgXSBZb3UgdHlwZSB3aXRoIGNhcGl0YWwgYW5kIHNtYWxsIGxldHRlcnM6IExpS2UgVGhJcyENClsgXSBZb3UgYXJlIGRhcmsgc2tpbm5lZC4NClsgXSBZb3Uga25vdyB3aGF0IGEgQm9kZWdhIGlzLg0KW1hdIFlvdSB0YWxrIGZhc3QuIChvZiBjb3Vyc2UgSSBkby4gSSdtIGEgbWF0aCBzdHVkZW50KQ0KWyBdIFlvdSBoYXZlIGhhZCBoaWdobGlnaHRzIG9yIGNvbG91cmVkIHlvdXIgaGFpci4NCltYXSBZb3UgaGF2ZSBkYXJrIGhhaXIgYW5kIGRhcmsgZXllIGNvbG9yLg0KVE9UQUw9IDIvOSA9IDIyJQ0KDQoNClJVU1NJQU4NClsgXSBZb3Ugc2F5IHZpbGxhaW4gYXM6IFZlZS1sb24uIChvY2Nhc2lvbmFsbHksIGJ1dCBub3QgdHlwaWNhbGx5KQ0KWyBdIFlvdSBhcmUgc2hvcnQgdGVtcGVyZWQuICh3aXRoIG5vcm1hbCBwZW9wbGUsIG5vLiB3aXRoIGlkaW90cywgSEVMTCBZRVMpDQpbWF0gWW91IGtub3cgb2Ygc29tZWJvZHkgbmFtZWQgQm9yaXMvTmF0YXNoYS9OYXRhbGlhDQpbWF0gWW91IGhhdmUgd2hpdGUgc2tpbi4NCltYXSBDb2xkIHdlYXRoZXIvc25vdyBpcyB0aGUgYmVzdC4gDQpbWF0gWW91IGRvbid0IGdldCBjb2xkIGVhc2lseS4gDQpbIF0gVm9ka2EgaXMgdGhlIGJlc3QuIA0KW1hdIFlvdSBnZXQgaW50byBjb250ZXN0cyBvZnRlbi4NCltYXSBZb3UgY2FuIHNwZWFrIFJ1c3NpYW4uIA0KW1hdIFlvdSBjYW4gZWFzaWx5IG1ha2UgZG8gd2l0aCB0aGUgY29sZCB3ZWF0aGVyLg0KVE9UQUw9IDcvMTAgPSA3MCUNCg0KDQpQT0xJU0gNClsgXSBZb3VyIHBhcmVudHMgbGV0IHlvdSBkcmluay4NClsgXSBZb3Uga25vdyB3aGF0IGEgcGl6ZGEgaXMuDQpbWF0gWW91IGxvdmUgUGllcm9naS4gDQpbIF0gUGVvcGxlIGFsd2F5cyBhc2sgdG8gc2VlIHlvdXIg4oCca2llbGJhc2HigJ0gY2hlY2tpbmcgaWYgeW91ciBQb2xpc2guDQpbIF0gUGVvcGxlIHJhbmRvbWx5IGNhbGwgeW91IHRoZWlyIGJlc3QgZnJpZW5kLg0KW1hdIFlvdSBoYXZlIG1hZGUva25vdyB3aGF0IHBpc2Fua2kgYXJlLg0KW1hdIFlvdSBsYXVnaGVkIHdoZW4gUG9sYW5kIGJlYXQgdGhlIFVTQSBpbiB0aGUgMjAwMiBXb3JsZCBDdXAuIA0KVE9UQUw9IDMvNyA9IDQzJSANCg0KDQpJUklTSA0KWyBdIFlvdSB0aGluayBiZWVyIGlzIHRoZSBiZXN0Lg0KWyBdIFlvdSBoYXZlIGEgYmFkIHRlbXBlci4NClsgXSBZb3VyIGxhc3QgbmFtZSBzdGFydHMgd2l0aCBhIE1jLCBNdXJwaCwgb3IgTycuDQpbIF0gWW91IGhhdmUgYmx1ZSBvciBncmVlbiBleWVzLiAoSSB3aXNoLikNCltYXSBZb3UgbGlrZSB0aGUgY29sb3IgZ3JlZW4uDQpbIF0gWW91IGhhdmUgYmVlbiB0byBhIFN0LiBQYXRyaWNr4oCZcyBEYXkgcGFydHkuDQpbIF0gWW91IGhhdmUgZmFtaWx5IGZyb20gSXJlbGFuZC4NClRPVEFMPSAxLzcgPSAxNCUNCg0KDQpCTEFDSw0KWyBdIFlvdSBzYXkgbmlnZ2EvbnVra2EgY2FzdWFsbHkuDQpbIF0gWW91IGhhdmUgbmFwcHkgaGFpci4NClsgXSBZb3UgbGlrZSByYXAgbXVzaWMuDQpbIF0gWW91IHRhbGsgd2l0aCBzbGFuZy4NClsgXSBZb3Uga25vdyBob3cgdG8gc2hvb3QgYSBndW4uDQpbIF0gWW91IGxpa2UgY2hpY2tlbi4NClsgXSBZb3UgbGlrZSB3YXRlcm1lbG9uLg0KWyBdIFlvdSBjYW4g4oCYc2luZ+KAmSBnb3NwZWwgbXVzaWMuDQpbIF0gWW91ciBwYXJlbnRzIHNhaWQgdGhleSBmb3VuZCB5b3UgaW4gdGhlIGp1bmdsZSBpbiBBZnJpY2EuDQpUT1RBTD0gMC85ID0gMCUNCg0KDQpHRVJNQU4NClsgXSBZb3UgbGlrZSBicmVhZC4NCltYXSBZb3UgdGhpbmsgQW1lcmljYW4gY2hvY29sYXRlIHdvdWxkIGJlIGJldHRlciB3aXRoIGxlc3Mgc3VnYXIuDQpbIF0gWW91IGRyaW5rIHlvdXIgc29kYSB3aXRob3V0IGljZS4NClsgXSBZb3UgU3BlYWsgR2VybWFuLg0KW1hdIFlvdSBrbm93IHdoYXQgU2Nobml0emVsIGlzLg0KW1hdIFlvdXIgZmFtaWx5IGlzIENhdGhvbGljIG9yIEx1dGhlcmFuLg0KWyBdIFlvdSBoYXRlIGl0IHdoZW4gc3R1cGlkIHBlb3BsZSBjYWxsIHlvdSBhIE5hemkuDQpbIF0gWW91IHdlbnQgdG8gS2luZGVyZ2FydGVuL1ByZS1zY2hvb2wuDQpbWF0gWW914oCZcmUgb3ZlciA1JyAxMCIuDQpUT1RBTD0gNC85ID0gNDQlDQoNCg0KQ0FOQURJQU4NClsgXSBZb3UgbGlrZS9wbGF5L3BsYXllZCBob2NrZXkuDQpbIF0gWW91IHNheSDigJxlaOKAnSBvZnRlbi4gKG5vdyAibWVoIiwgdGhhdCdzIGFub3RoZXIgc3RvcnkuLi4pDQpbWF0gWW91IGRvbid0IGJlbGlldmUgd2FyIGlzIHRoZSBhbnN3ZXIuDQpbIF0gWW91IGtub3cgd2hhdCBwb3V0aW5lIGlzLg0KWyBdIFlvdSBzcGVhayBzb21lIEZyZW5jaC4NClsgXSBZb3UgbG92ZSBUaW0gSG9ydG9uJ3MuIChUaW0gSG9ydG9ucyBjb2ZmZWUgaXMgbmFzdHkgc2x1ZGdlLCBhYm91dCBhcyBkaXNndXN0aW5nIGFzIE5lc2NhZsOpLiBJIGRyaW5rIGJvdGggYW55d2F5Li4uIGJlY2F1c2UgY2FmZmVpbmUhKQ0KWyBdIEF0IG9uZSBwb2ludCwgeW91IGxpdmVkIGluIGEgY2FiaW4uDQpbIF0gWW91IHdhdGNoL3dhdGNoZWQgRGVncmFzc2kuDQpUT1RBTD0gMS84ID0gMTMlDQoNCg0KRlJFTkNIDQpbIF0gWW91IGxpa2UgRnJlbmNoIHRvYXN0DQpbIF0gWW91IGxvdmUgd2luZQ0KWyBdIFlvdSBzcGVhayBhIGxpdHRsZSBvciBhcmUgZmx1ZW50IGluIGZyZW5jaA0KWyBdIFlvdSBoYXZlIGVhdGVuIGEgc25haWwNClsgXSBZb3UgbGlrZSBmYXNoaW9uDQpbWF0gWW91IGhhdmUgYmVlbiB0byBGcmFuY2UNClsgXSBZb3UgYXJlIGVpdGhlciBhIENhdGhvbGljLCBhIE11c2xpbSwgYSBQcm90ZXN0YW50IG9yIGEgSmV3DQpUT1RBTD0gMS83ID0gMTQlDQoNCg0KQU1FUklDQU4NClsgXSBZb3UgaGF0ZSBmb3JlaWduZXJzDQpbIF0gWW91IGhhdGUgbm9uLUNocmlzdGlhbnMNClsgXSBZb3XigJl2ZSBiZWVuIHRvIG1vcmUgdGhhbiA1IHN0YXRlcyANClsgXSBZb3XigJlyZSBsYXp5DQpbIF0gWW91IGFyZSBub3QgY3VsdHVyZWQNClsgXSBZb3UgaGF0ZSBhYm9ydGlvbg0KWyBdIEJ1dCBsb3ZlIHRoZSBkZWF0aCBwZW5hbHR5DQpbIF0gWW91IGRvbuKAmXQgcmVhZA0KWyBdIFlvdSBzaG9wIGF0IHdhbG1hcnQNClRPVEFMPSAwLzkgPSAwJSAoVEhBTksgR09EKQ0KDQoNClNXRURJU0gNClsgXSBZb3UgZ28gc2VyaW91c2x5IHNlbnRpbWVudGFsIHdoZW4gZW50ZXJpbmcgYW4gSUtFQSBzdG9yZQ0KW1hdIFlvdSBzZWNyZXRseSBsb3ZlIHRoZSBFdXJvdmlzaW9uIFNvbmcgQ29udGVzdCB0byBwaWVjZXMgKHNlY3JldGx5PyBtb3JlIGxpa2Ugb3Blbmx5IDpQKQ0KWyBdIFlvdSBoYXZlIHNlcmlvdXMgZGlmZmljdWx0aWVzIGNyb3NzaW5nIHRoZSBzdHJlZXQgd2hlbiB0aGVyZSBpcyBhIHJlZCBsaWdodA0KWyBdIE1ha2luZyBmdW4gb2YgTm9yd2F5IGlzIGEgbmF0aW9uYWwgaW5zdGl0dXRpb24sIGFuZCB2aXNlIHZlcnNhIChMT0wpDQpbIF0gWW91IHdvdWxkIG5ldmVyIHVzZSBwdWJsaWMgdHJhbnNwb3J0YXRpb24gd2l0aG91dCBhIHZhbGlkIHRpY2tldA0KWyBdIFlvdSBmZWVsIGJhZCBpZiB5b3XigJlyZSBub3Qgb3V0c2lkZSBvbiBhIHN1bm55IGRheQ0KW1hdIFlvdSBzcGxpdCB0aGUgY2hlY2sgYnkgdGhlIGV4YWN0IHBlbm55IGFmdGVyIGVhdGluZyBhdCBhIHJlc3RhdXJhbnQNClRPVEFMPSAyLzcgPSAyOSUNCg0KDQpUVVJLSVNIDQpbIF0gWW91IGZpZ2h0IG92ZXIgd2hvIHBheXMgdGhlIGRpbm5lciBiaWxsLg0KWyBdIFlvdSBhbHdheXMgc2F5ICJvcGVuIHRoZSBsaWdodCIgaW5zdGVhZCBvZiAidHVybiB0aGUgbGlnaHQgb24iDQpbIF0gWW91IGxvdmUga2ViYWJzIGFuZCBlYXRpbmchISEgKGRyb29scy4uLiBrZWJhYnMuLi4gZHJvb2xzKQ0KWyBdIFlvdSBjYWxsIGFuIG9sZGVyIHBlcnNvbiB5b3UndmUgbmV2ZXIgbWV0IGJlZm9yZSAidW5jbGUiLCBhdW50IiBvciAiYnJvdGhlciINClsgXSBJbnN0ZWFkIG9mIGNvb2tpbmcgYSBtZWFsIGZvciA0IHlvdSBjb29rIGZvciAxMCANClsgXSBZb3Uga25vdyBCb3JhdCBpcyByZWFsbHkgaW1pdGF0aW5nIFR1cmtzDQpbIF0gWW91IGFsd2F5cyB0cnkgbW92aW5nIG91dCBvZiBob21lIGJ1dCBhbHdheXMgZW5kIHVwIHJldHVybmluZw0KWyBdIFdvbWVuIGluIHlvdXIgZmFtaWx5IGxpa2UgdG8gZ29zc2lwIHdoaWxlIGVhdGluZyBzdW5mbG93ZXIgc2VlZHMNClRPVEFMPSAwLzggPSAwJQ0KDQoNCllVR08NClsgXSBZb3UgaGF2ZSAxNyBjb25zb25hbnRzIGFuZCAyIHZvd2VscyBpbiB5b3VyIGxhc3QgbmFtZSAoTE9MKQ0KWyBdIFlvdSBoYWQvaGF2ZSBhIHBldCBuYW1lZCBNaXNoa28gKCJNaXNoa2EiLCBjbG9zZSBlbm91Z2gpDQpbWF0gWW91ciBwYXJlbnRzIGNhbid0IHByb25vdW5jZSAiVGh1cnNkYXkiDQpbIF0gWW91ciBkYWQgY2FycmllcyBhcm91bmQgZW5vdWdoIG1vbmV5IHRvIGJ1eSBhIGNhcg0KWyBdIFlvdXIgMTUgeWVhciBvbGQgc2lzdGVyIGNhbiBvdXQtZHJpbmsgYW55IEFtZXJpa2FuYWMNClsgXSBZb3UgaGF2ZSBhIEtvc292a2EgRGV2b2prYSBnb2JsZW4gaGFuZ2luZyBvbiB5b3VyIHdhbGwNClsgXSBZb3UgaGVhciBiaXJkcyBjaGlycGluZyBhbmQgc2VlIHRoZSBzdW4gcmlzZSBldmVyeSB0aW1lIHlvdSBjb21lIGhvbWUgZnJvbSB0aGUgYmFyLg0KWyBdIFlvdSBlYXQgY2FubmVkIHBlcHBlcnMgYW5kIGFqdmFyIHdpdGggZXZlcnkgbWVhbA0KVE9UQUw9IDEvOCA9IDEzJQ0KDQoNCkNISU5FU0UNClsgXSBZb3VyIGRhZCBvd25zIGF0IGxlYXN0IG9uZSBiaXJkDQpbWF0gWW91IGFyZSBnb29kIGF0IG1hdGgNCltYXSBZb3UgbGF1Z2ggc29tZXRpbWVzIGNvdmVyaW5nIHlvdXIgbW91dGgNClsgXSBZb3UgY2FsbCBodXJyaWNhbmVzIHR5cGhvb25zDQpbIF0gWW91IGtub3cgd2hhdCBNSiBtZWFucw0KW1hdIFlvdXIgcGFyZW50cyBhcmUgbmV2ZXIgc2F0aXNmaWVkIHdpdGggeW91ciBncmFkZXMNClsgXSBZb3UncmUgYWx3YXlzIGxhdGUNClsgXSBZb3Ugbm90aWNlIHRoZSBtYWluIHRvcGljIGF0IGZhbWlseSBnZXQtdG9nZXRoZXJzIGlzIGZvb2QNCltYXSBZb3UgdXNlIGdyb2NlcnkgYmFncyB0byBob2xkIGdhcmJhZ2UNClRPVEFMPSA0LzkgPSA0NCUNCg0KDQpLT1JFQU4NClsgXSBZb3UgaGF2ZSBzbGFudGVkIGV5ZXMNCltYXSBZb3UgbGlrZSByaWNlDQpbIF0gWW91IGhhdmUgdGVlbnktdGlueSBmZWV0DQpbIF0gWW91IGdvIHRvIEJhdWxrbw0KWyBdIFlvdSBib3cgYXQgaW5hbmltYXRlIG9iamVjdHMNClsgXSBZb3UgZW5qb3kgc2x1cnBpbmcgeW91ciBub29kbGVzIGFzIGxvdWRseSBhcyB5b3UgY2FuDQpbIF0gWW91J2QgcmF0aGVyIHNpdCBvbiB0aGUgZmxvb3IgdGhhbiBpbiBhIGNoYWlyDQpUT1RBTD0gMS83ID0gMTQlDQoNCg0KSkFQQU5FU0UNClsgXSBZb3UgaGF2ZSBhIG5la2tvIGNhdCBpbiB5b3VyIGhvdXNlIGZvciBnb29kIGx1Y2sNClsgXSBZb3Uga25vdyB0aGUgc3Rvcnkgb2YgTW9tb3Rhcm8NClsgXSBZb3VyIGdyYW5kbWEgbWFkZSB0aGUgYmVzdCBzdXNoaSBpbiB0b3duDQpbIF0gWW91IGhhdmUgYSBwZXQgbmFtZWQgQ2hpYmkgb3IgU2hpcm8gKEkgbmFtZWQgaXQgIk1pc2hrYSIpDQpbIF0gV2hlbiB2aXNpdGluZyBmcmllbmRzLCB5b3UgZ2l2ZSBvciByZWNlaXZlIGEgYmFnIG9mIGZydWl0cyBvciB2ZWdldGFibGVzDQpbIF0gWW91IGhhdmUgcmVsYXRpdmVzIHdobyBsaXZlIGluIEhhd2FpaQ0KWyBdIFlvdSBsb3ZlIHRvIHBsYXkgdmlkZW8gZ2FtZXMNClRPVEFMPSAwLzcgPSAwJQ0KPC9sai1jdXQ+"
+"eventtime","2007-11-06 12:51:00"
+"url","http://bofh1459.livejournal.com/32937.html"
+"userid","1997"
+"itemid","127"
+"event","0K8g0L/QvtCz0LvQvtGJ0LXQvSDQsiDQvNC40YDQtSDQtNC+0LfQvtGA0L7Qsi4uLtC+0L/Rj9GC0Yw="
+"eventtime","2007-11-04 10:34:00"
+"url","http://bofh1459.livejournal.com/32599.html"
+"userid","1997"
+"itemid","126"
+"event","So I rather amusingly messed up /etc/pam.d/login and nearly got a heart attack when I typed my username in on a tty to login and am about to type my password when I notice I'M ALREADY LOGGED IN.
+
+Oddly enough, I found this scarier than the Stephen King books I read yesterday."
+"eventtime","2007-11-02 01:10:00"
+"url","http://bofh1459.livejournal.com/32508.html"
+"userid","1997"
+"itemid","125"
+"event","""So Index Calculus is basically forming a bunch of congruences mod p and then taking discrete logs of everything in sight"" -- My CO 485 prof.
+
+That class is made of incredible amounts of awesome and win."
+"eventtime","2007-10-31 14:59:00"
+"url","http://bofh1459.livejournal.com/32113.html"
+"userid","1997"
+"itemid","124"
+"event","Heaven is defined as rewriting a Markov Modelling engine to get better and funnier quotes from an AI bot fed really awful scifi books as trainingfiles, while listening to Nightwish, loudly.
+
+Wish upon a star, believe in will, the realm of the king of fantasy..."
+"eventtime","2007-10-28 00:13:00"
+"url","http://bofh1459.livejournal.com/31821.html"
+"userid","1997"
+"itemid","123"
+"event","This rather amusing post about ghosts was on /., which kind of shows how absurd the idea is:
+(It's a response to a post claiming that a spot that is consistently colder than the surrounding area is proof of ghosts)
+<i>Fascinating. If that was me I wouldn't be trying to photograph them. I'd be trying to run a heat engine off them. You've got an object here that's going to be consistently cooler than ambient temperatures? That's a perpetual motion machine right there.</i>
+
+It's really incredible how many people fail at basic physics when they promote random supernatural concepts. I mean ghosts are a nice idea and all that, but the energy for them has to come from somewhere...
+
+Midterms are over. Owned my calc, got owned by alg (which I'm *still* kicking myself for, as it was a trivial exam) and I have no clue about the remainder.
+
+I made an amusing mistake on my Digital Circuits midterm. Basically, we had to do a 4-bit magnitude comparator for A=B where A,B are 4-bit integers using adders and logic gates.
+
+So basically to compare 2 bits, all you need to do is basically A = xy + x'y', where A is 1 if x and y are equal and 0 if they are not. This, incidentally, is the sum part of an adder. This is how I did it:
+
+A = xy + (xy + x'y')
+
+Basically, I used one extra AND and one extra OR gate per bit! So there are 8 gates in my circuit that were doing absolutely nothing. I really hope I don't lose any marks for that.
+
+Nevertheless, it was still amusing.
+
+I miss Anna."
+"eventtime","2007-10-27 01:43:00"
+"url","http://bofh1459.livejournal.com/31513.html"
+"userid","1997"
+"itemid","122"
+"event","SGF2aW5nIDIgZGlmZmVyZW50IHZlcnNpb25zIG9mIHRoZSBLZXJiZXJvcyBsaWJzIChwcm9wZXIgYW5kIG9uZXMgdGhhdCBjYW1lIHdpdGggTmV0QlNEKSBhbmQgaGF2aW5nIEtlcmJlcm9zIGxpbmtlZCBhY3Jvc3Mgb25lIHNldCBhbmQgc3NoZCBsaW5rZWQgYWNyb3NzIHRoZSBvdGhlciBzZXQgbGVhZHMgdG8gaW50ZXJlc3RpbmcgcHJvYmxlbXMuDQoNCkxpa2UsICJoasOkbHAgSSdtIGxvY2tlZCBvdXQgb2YgbXkgcm91dGVyIiBraW5kIG9mIHByb2JsZW1zLg0KDQpBcmdoLg0KDQpPbiBhbm90aGVyIG5vdGUsIEkgaGFzIHRoZSBlbnRpcmUgRmluYWwgRmFudGFzeSA3IHNvdW5kdHJhY2suLi4gaW4gbW9kL3htL2l0IGZvcm1hdCEgQWhoIHllcywgSSBsb3ZlIHRoZSBGRiBtdXNpYywgaXQncyBtYWRlIG9mIGF3ZXNvbWUgYW5kIHdpbiwgZXNwZWNpYWxseSB0aGUgZWFybHkgc3R1ZmYgZm9yIFNORVMgYXMgd2VsbCBhcyBhcm91bmQgdGhlIEZGNi1GRjcgdGltZS4="
+"eventtime","2007-10-13 13:15:00"
+"url","http://bofh1459.livejournal.com/31481.html"
+"userid","1997"
+"itemid","121"
+"event","Hm. When your asm code starts stretching over 5000 lines, it is highly advisable to rewrite it in a higher-level language.
+
+This is a really interesting program though. Especially trying to fake all of the quirks of the SID filter is proving to be a challenge. For instance if you are trying to combine waveforms, this does not really work. Sometimes it results in unusual complex waveforms like Sawtooth AND Triangle and sometimes in barely-audible waveforms that are equally unusual, like Sin AND Sawtooth. Basically I hope I'll be able to get my hand on an oscilloscope after midterms to properly analyse this.
+
+Midterms are here! Also some of the assignments from alg tend to be much harder than I was expecting, resulting in allnighters. I got it mostly done but got stuck on the bonus around 6am and didn't manage to get it, it's prove lim sum of reciprocals of primes up to n/log log n, n->(inf) = 1
+
+I have a midterm from that class on Monday. Yays. The advanced math classes here are several levels of awesome."
+"eventtime","2007-10-13 11:39:00"
+"url","http://bofh1459.livejournal.com/31090.html"
+"userid","1997"
+"itemid","120"
+"event","So what happens is you launch firefox on a craptop with 128Mb of RAM because slashdot's firehose thingie doesn't work with Opera's JS interpreter.
+
+Then you run out of RAM *and* swap (500Mb of it, that box has a small harddrive) after opening 4 (Four) tabs.
+
+Then you try again with Opera and somehow can open a session with 80 tabs fine, lots of swapping but it still doesn't consume all memory.
+
+Jesus CHRIST what the HELL guys."
+"eventtime","2007-10-06 10:03:00"
+"url","http://bofh1459.livejournal.com/30786.html"
+"userid","1997"
+"itemid","119"
+"event","It's not the end
+Not the kingdom come
+It is the journey that matters, the distant wanderer
+Call of the wild
+In me forever and ever and ever forever
+Wanderlust.
+
+In the end, the path to any accomplishment matters as much as that accomplishment itsself.
+
+So even if you spend your entire life on a proof for some theorem, and wind up only coming up with ways to show that this is Not The Way, your life is not wasted.
+
+Anything you discover is useful.
+
+Right now, I am eternally thankful I'm a Pure Math major. I've never loved my courses so much, ever before."
+"eventtime","2007-09-30 05:58:00"
+"url","http://bofh1459.livejournal.com/30690.html"
+"userid","1997"
+"itemid","118"
+"event","Oh dear christ. I'm just randomly looking around at new laptops right now out of boredom primarily (I've yet to replace my 300mhz pile of junk that somehow magically runs everything from Haskell to DVD playback to vmware, somewhat decently) and I'm wondering something.
+
+Why the HELL is it so hard to get a laptop these days with a standard, NON-widescreen display?
+
+Am I the only one that doesn't get what is so great about widescreen? It's bigger, but does it really give you more productive screen space? Your eyes aren't really designed for horizontal scrolling. There's a reason 4:3 aspectratio on standard-def was so popular, because it's basically what your eyes are suited to.
+
+I've tried reading stuff on a widescreen monitor once at my usual config (6pt font, single space) and it gave me a headache. It really isn't helpful for development, or for reading, or anything.
+
+I mean if all you're using your laptop for is playing movies then sure. Though I'm still not convinced widescreen def is much better than standard. Maybe my eyes are just weird, but I LIKE watching movies in standard aspect ratio. Again, the issue with horizontal scrolling and whatnot.
+
+But really. Watching movies is what, maybe 1-2% of what you do on a laptop, not even. For all the other stuff, widescreen doesn't help, it does exactly the inverse.
+
+So dear christ, let me find a laptop that's 14.1"" or so, standard def. Just let ONE such model exist somewhere, I am certain people will want to buy it."
+"eventtime","2007-09-29 07:37:00"
+"url","http://bofh1459.livejournal.com/30323.html"
+"userid","1997"
+"itemid","117"
+"event","Today's Helpful Public Service Note:
+
+Tim Hortons """"coffee"""" is nasty.
+
+Very
+
+                                                                                                                                            Nasty"
+"eventtime","2007-09-22 21:19:00"
+"url","http://bofh1459.livejournal.com/30174.html"
+"userid","1997"
+"itemid","116"
+"event","PGxqLWN1dCBuYW1lPSJyYW5kb20gZHVtYiBxdWl6IHRoaW5naWUiPg0KMS4gV2hlcmUgaXMgdGhlIGxhc3QgcGxhY2UgeW91IGhlbGQgaGFuZHM/DQpXYXRlcmxvbywgSSB0aGluay4gTGFzdCB5ZWFyLCBoYWhhLiBJIGxpa2UgaG9sZGluZyBoYW5kcyBidXQgb24gdGhlIG90aGVyIGhhbmQgSSBsaWtlIHRvIGV4cGxhaW4gc3R1ZmYgYSBsb3Qgd2hpbGUgd2Fsa2luZyB3aXRoIHBlb3BsZSBzaW5jZSBJIGdlbmVyYWxseSBsaWtlIHRhbGtpbmcgYWJvdXQgSWRlYXMgYW5kIFByb2Nlc3NlcyBzbyBJIHJhcmVseSB3aW5kIHVwIGRvaW5nIHNvLg0KDQoyLiBJZiB5b3Ugd2VyZSBkcmFmdGVkIGludG8gYSB3YXIsIHdvdWxkIHlvdSBzdXJ2aXZlPw0KUG9zc2libHkuIERlcGVuZHMgb24gd2hlcmUgSSBhbSBkcmFmdGVkIHRvLg0KDQpJIGhhdGUgd2FycyB0aG91Z2ggYW5kIGFtIGJhc2ljYWxseSBjb21wbGV0ZWx5IGEgcGFjaWZpY3Qgc28gcmVhbGx5LCBwcm9iYWJseSBub3QuDQoNCjMuIERvIHlvdSBzbGVlcCB3aXRoIHRoZSBUViBvbj8NCkkgdXNlZCB0byBiZSBhYmxlIHRvIHNsZWVwIHdpdGggbXkgbXAzIHBsYXllciBvbiwgYnV0IHJpZ2h0IG5vdyBJIGNhbid0LiBJIGRvbid0IHdhdGNoIFRWLCBzbyBubyB0byB0aGlzIHF1ZXN0aW9uLg0KDQo0LiBIYXZlIHlvdSBldmVyIGRyYW5rIG1pbGsgc3RyYWlnaHQgb3V0IG9mIHRoZSBjYXJ0b24/DQpJIGRvbid0IGRyaW5rIG1pbGsuDQoNCjUuIEhhdmUgeW91IGV2ZXIgd29uIGEgc3BlbGxpbmcgYmVlPw0KTm9lcC4gQWxzbyBJIGZpbmQgdGhlIGlkZWEgb2YgYSBzcGVsbGluZyBiZWUgcXVpdGUgaGlsYXJpb3VzLiAoc2VyaW91c2x5IGxlYXJuIGxpa2UgUnVzc2lhbiwgdmVyeSBsaXR0bGUgc3BlbGxpbmcgaXJyZWd1bGFyaXR5IHRoZXJlKQ0KDQo2LiBXaGF0IGlzIHlvdXIgbG9uZ2VzdCBmaWdodCB3aXRoIG9uZSBvZiB5b3VyIGZyaWVuZHM/DQpBbGwgb2YgbXkgImZpZ2h0cyIgbGFzdCA8NW1pbnMgYW5kIHVzdWFsbHkgYXJpc2Ugb3V0IG9mIGEgbWlzdW5kZXJzdGFuZGluZywgb3Igc29tZW9uZSBhY2NpZGVudGFsbHkgcmVhZGluZyBpbiB2aXRyaW9sIGludG8gbXkgdXN1YWwgdHlwZSBvZiBkaXJlY3Qgc3RhdGVtZW50cy4gU28gSSBkb24ndCByZWFsbHkgaGF2ZSBmaWdodHMuIFRoYW5rIGdvZC4NCg0KNy4gQXJlIHlvdSBhIGZhc3QgdHlwZXI/DQo4MFdQTSA+OkQNCg0KOC4gQXJlIHlvdSBhZnJhaWQgb2YgdGhlIGRhcms/DQpOby4NCg0KOS4gRG8geW91IGxpa2Ugc29tZW9uZSByaWdodCBub3c/DQpJIGN1cnJlbnRseSBoYXZlIGEgaHVnZSBjcnVzaCBvbiBzb21lb25lLCBidXQgSSBoaWdobHkgZG91YnQgc2hlIGNhcmVzIChzdXJwcmlzZSBzdXJwcmlzZSwgdGhpcyBoYXBwZW5zIHRvIG1lIGEgbG90KQ0KDQoxMi4gRG8geW91IGtub2NrIG9uIHdvb2Q/DQpOby4gSSBtZWFuLCB3dGY/DQoNCjEzLiBBcmUgeW91IGRyaW5raW5nIGFueXRoaW5nIHJpZ2h0IG5vdz8NCk5vZXAuDQoNCjE0LiBEbyB5b3UgdGhpbmsgeW914oCZcmUgc21hcnQ/DQpOb2VwLg0KDQoxNS4gSGF2ZSB5b3UgZXZlciBlYXRlbiBhIGJ1Zz8NCkFjY2lkZW50YWxseT8gWWVhaC4gT24gcHVycG9zZT8gRXcgbm8uDQoNCjE2LiBEbyB5b3UgbWlzcyBzb21lb25lIHJpZ2h0IG5vdz8NCktpbmQgb2YuDQoNCjE3LiBXaGF0IGRvIHlvdSB3YW50IGZvciBDaHJpc3RtYXM/DQpJJ20gbm90IFNVUkUuIEFzIGZhciBhcyBtYXRlcmlhbCBzdHVmZiBnb2VzIEkgdGhpbmsgSSBoYXZlIGV2ZXJ5dGhpbmcgSSBuZWVkIDpTIFJpZ2h0IG5vdyBJIGtpbmQgb2Ygd2FudCBDb25jZXB0dWFsIHN0dWZmIChib29rcywgbWF0aCB0aGVvcmVtcykgYW5kIEkgY2FuIGdldCB0aG9zZSBlYXNpbHkgZm9yIGZyZWUgYXQgYW55IHRpbWUuDQoNCjE5LiBEbyB5b3UgdGFsayBpbiB5b3VyIHNsZWVwPw0KTm8gY2x1ZSwgYnV0IG5vYm9keSBoYXMgdG9sZCBtZSB0aGF0IEkgZG8sIHNvIEkgd2lsbCBhbnN3ZXIgbm8uDQoNCjIwLiBEbyB5b3UgcmVtZW1iZXIgeW91ciAxc3QgY3J1c2g/DQpQZXJmZWN0bHkuDQoNCjIxLiBIYXZlIHlvdSBldmVyIGZsb3duIGEga2l0ZT8NClllcA0KDQoyMy4gRG8geW91IGNvbnNpZGVyIHlvdXJzZWxmIHN1Y2Nlc3NmdWw/DQpJIGhhdmVuJ3QgZGVjaWRlZCB5ZXQuIExldCdzIHNlZSB3aGF0IG15IDFBIGFuZCAxQiBhdmVyYWdlcyBhcmUgaW4gQXByaWwgYW5kIHRoZW4gSSdsbCBkZWNpZGUuDQoNCjI0LiBIb3cgbWFueSBwZW9wbGUgYXJlIG9uIHlvdXIgY29udGFjdCBsaXN0IG9mIHlvdXIgY2VsbCBwaG9uZT8NCk5vbmUuIEkgZG9uJ3QgdXNlIGFkZHJlc3MgYm9va3MsIGp1c3QgbWVtb3JpemUgbnVtYmVycy4NCg0KMjUuIEhhdmUgeW91IGV2ZXIgYXNrZWQgZm9yIGEgaG9yc2U/DQp3dGY/IE5vDQoNCjI2LiBQbGFucyBmb3IgdG9tb3Jyb3c/DQpEaWdpdGFsIENpcmN1aXRzLCBBbmNpZW50IEdyZWVrLCBDUywgZG9pbmcgcmVtYWlucyBvZiBjYWxjIGgvdywgdGhlbiBDU0MgdW50aWwgM0FNIG9yIHdoZW5ldmVyIEJhcnRsZXkgbGVhdmVzLCBhcyB1c3VhbC4NCg0KMjcuIFdoYXQgZGlkIHlvdSBkbyB0aGlzIHBhc3Qgd2Vla2VuZA0KU2F0dXJkYXk6IFdlbnQgdG8gbW92aWVzIGFuZCBodW5nIG91dCB3aXRoIHNvbWUgZnJpZW5kcw0KU3VuZGF5OiBDU0MtcmVsYXRlZCBzdHVmZiwgYXMgd2VsbCBhcyB0aGUgY2FsYyBhc3NpZ25tZW50DQoNCjI4LiBNaXNzIGJlaW5nIGF0IHNjaG9vbCByaWdodCBub3c/DQpJIGFtIGluIGxvdmUgd2l0aCB0aGlzIHBsYWNlIGFuZCBJIHdpc2ggdG8gYmUgYXQgc2Nob29sIGZvcmV2ZXIgOikNCg0KMjkuIFdoZW7igJlzIHRoZSBsYXN0IHRpbWUgeW91IHRvbGQgc29tZW9uZSB5b3UgbG92ZWQgdGhlbT8NCkEgd2hpbGUgYWdvLg0KDQozMC4gRG8geW91IHdhbnQgdG8gYmUgc2luZ2xlPw0KSSBkb24ndCB3YW50IHRvIGJlLiBQcm9ibGVtIGlzLCBmaW5kaW5nIHNvbWVvbmUgSSB0cnVseSBsaWtlIGFuZCBhbGwgdGhhdCBpcyBzbyBoYXJkIHRoYXQgbGF0ZWx5IEkgd29uZGVyIGlmIEkgd2lsbCBiZS4NCg0KMzIuIFdob+KAmXMgeW91ciBoZXJvPw0KTmlrb2xhIFRlc2xhDQoNCjMzLiBIYXZlIHlvdSBldmVyIGJlZW4gc3VzcGVuZGVkIG9yIGV4cGVsbGVkIGZyb20gc2Nob29sPw0KTm8uDQoNCjM0LiBXaGF0IGFyZSB5b3UgbG9va2luZyBmb3J3YXJkIHRvPw0KU21hbGwgQyBtYXRoIGNvbnRlc3QgdGhpcyBTYXR1cmRheS4NCg0KMzUuIElmIHlvdSBjb3VsZCBiZSBzdHJhbmRlZCB3aXRoIG9uZSBwZXJzb24gZm9yIDI0IGhvdXJzLCB3aG8gd291bGQgaXQgYmU/DQpIbS4gQWN0dWFsbHkgSSBjb3VsZCBwaWNrIGEgYnVuY2ggb2YgcGVvcGxlIGZvciB0aGF0LiBCYXNpY2FsbHkgYW55b25lIHRoYXQgSSdkIGxpa2UgdG8gdGFsayB0byB3aXRob3V0IGRpc3RyYWN0aW9ucy4gQW5kIGJlbGlldmUgbWUsIEkgQ0FOIHRhbGsgbm9uc3RvcCBmb3IgMjQgaG91cnMuIEkndmUgZG9uZSA4IGhvdXJzIHR3aWNlIHNvIGZhci4NCg0KMzguIENhbiB5b3UgaGFuZGxlIHRoZSB0cnV0aD8NCkkgZG9uJ3QgdG9sZXJhdGUgbGllcyBub3Igd2lsbCBJIGV2ZXIgZmlndXJlIG91dCB3aHkgcGVvcGxlIHByZWZlciB0aGVtIHRvIHRoZSB0cnV0aC4uLnBlcnNvbmFsbHksIGp1c3QgZ2l2ZSBtZSB0aGUgZGFtbiB0cnV0aC4gSSBtZWFuIGFscmlnaHQgaXQgbWlnaHQgbm90IGJlIHdoYXQgSSB3YW50LCBidXQgaXQncyBub3QgZmFrZS4gTG9naWMgMTAxLCBwZW9wbGUuDQoNCjM5LiBEbyB5b3UgbGlrZSBncmVlbiBlZ2dzIGFuZCBoYW0/DQpOZXZlciB0cmllZCBpdC4NCg0KNDAuIFdoYXQgMyB0aGluZ3MgZG8geW91IGFsd2F5cyBicmluZyB3aXRoIHlvdSB0byBwbGFjZXM/DQpLZXlzLCBtcDMgcGxheWVyLCBXYXRjYXJkLg0KDQo0NC4gV2hhdOKAmXMgeW91ciBkZWVwZXN0IHNlY3JldD8NCkhtLiBMZXQncyBhbmFseXNlIHRoaXMgcXVlc3Rpb24uIEFzc3VtaW5nIHRoYXQgSSBoYXZlIGEgZGVlcCBzZWNyZXQsIHRoaXMgcXVpeiB3YW50cyBtZSB0byBzdGF0ZSBpdCBvbiBzb21ldGhpbmcgdGhhdCBpcyByZWFkYWJsZSB0byBvdGhlciBwZW9wbGUuIEJ1dCBieSBkZWZpbml0aW9uIGEgc2VjcmV0IGlzIHNvbWV0aGluZyB0aGF0IHlvdSBkbyBub3QgdGVsbCB0byBvdGhlciBwZW9wbGUsIG90aGVyd2lzZSBpdCBjZWFzZXMgdG8gYmUgYSBzZWNyZXQuIEVyZ28gYW55IGFuc3dlciB0byB0aGlzIHF1ZXN0aW9uIHdpbGwgZWl0aGVyIHJlc3VsdCBpbiB5b3UgbWFraW5nIHlvdXIgZ3JlYXRlc3Qgc2VjcmV0LCBzZWNyZXQgbm8gbG9uZ2VyLCBvciBpdCB3aWxsIHJlc3VsdCBpbiBzb21lb25lIHN0YXRpbmcgc29tZXRoaW5nIHNlY3JldCB5ZXQgcmVhbGx5IGluY29uc2VxdWVudGlhbC4NCg0KRm9yIHJlZmVyZW5jZSwgSSBkbyBoYXZlIGEgZGVlcCBzZWNyZXQuIEl0J3Mgbm90aGluZyBiYWQsIGp1c3QgcmFuZG9tIGxvdmUtcmVsYXRlZCBub25zZW5zZS4NCg0KNDUuIEhvdyBvZnRlbiBkbyB5b3UgdGFsayBvbiB0aGUgcGhvbmU/DQpSYXJlbHkuIEkgaGF0ZSBwaG9uZXMuDQoNCjQ2LiBEbyB5b3UgYmVsaWV2ZSBpbiBsb3ZlPw0KWWVzLg0KDQo0Ny4gSXMgdGhlcmUgc29tZXRoaW5nIHlvdSB3YW50IHRoYXQgeW91IGNhbuKAmXQgaGF2ZT8NClllcy4NCg0KNDguIEZvdXIgdGhpbmdzIGFib3V0IHRoZSBwcmVmZXJyZWQgc2V4IHRoYXQgeW91IGZpcnN0IG5vdGljZT8NClVtLCBubyBjbHVlLiBJIGRvbid0IHJlYWxseSBwYXkgdGhhdCBtdWNoIGF0dGVudGlvbiB0byBhcHBlYXJhbmNlLCBiYXNpY2FsbHkgSSBqdXN0IHN0YXJ0IHRhbGtpbmcgdG8gdGhlbSBpbW1lZGlhdGVseS4gUGVyc29uYWxpdHksIG1haW5seS4gRXllcyB0b28uIEJleW9uZCB0aGF0LCBubyBjbHVlLg0KDQo0OS4gV2hlbiB3YXMgeW91ciBsYXN0IHRpbWUgeW91IGNyaWVkPw0KSmFudWFyeQ0KDQo1MC4gV2hvIGRpZCB5b3UgbGFzdCBodWc/DQpOYWRpYQ0KDQo1MS4gRG8geW91IGdldCBhbG9uZyB3aXRoIHlvdXIgZmFtaWx5Pw0KWWVzIGFuZCBuby4NCg0KNTIuIFdoZXJlIGlzIHlvdXIgcGhvbmU/DQpNeSBob21lIHBob25lIGlzIGluIG15IGRvcm0gcm9vbS4gTXkgY2VsbHBob25lIGlzIGFzIHdlbGwsIG93aW5nIHRvIGZhY3QgdGhhdCBJIGJhc2ljYWxseSBuZXZlciB1c2UgaXQNCg0KNTMuIFdoYXQgd2FzIHRoZSBsYXN0IHRoaW5nIHlvdSBhdGU/DQpXb25rYSBTd2VldHRhcnRzDQoNCjU0LiBGYXZvcml0ZSBjb2xvcj8NCtCh0LjQvdC40LkNCg0KNTUuIExhc3QgbW92aWUgeW91IHNhdz8NClN0YXJkdXN0LiBJdCdzIHF1aXRlIGdvb2QsIGFjdHVhbGx5Lg0KDQo1Ni4gV2hhdCBzb25nIGFyZSB5b3UgbGlzdGVuaW5nIHRvPw0KREogUHJvamVjdCAtIEx1bWVhIFRhDQoNCjU3LiBXaGF0IGRvIHlvdSB3YW50Pw0KVG8gZmluaXNoIG15IG1hdGggYXNzaWdubWVudCwgdG8ga25vdyBSb21hbmlhbiwgYSBsb3Qgb2YgdGhpbmdzLCBoYWhhLg0KDQo1OC4gRmF2b3JpdGUgY2FyPw0KTm8gY2x1ZS4gSSBkb24ndCByZWFsbHkgbGlrZSBjYXJzLg0KDQo1OS4gRmF2b3JpdGUgVFYgc2hvdz8NCkRPQ1RPUiBXSE8uIEl0IGlzIG1hZGUgb2YgQVdFU09NRSBhbmQgUFVSRSBXSU4NCg0KNjAuIFdobyB3YXMgdGhlIGxhc3QgcGVyc29uIHlvdSB0YWxrZWQgdG8gb24gdGhlIHBob25lPw0KTWloYWVsYS1UZXJlemENCjwvbGotY3V0Pg=="
+"eventtime","2007-09-19 15:20:00"
+"url","http://bofh1459.livejournal.com/29762.html"
+"userid","1997"
+"itemid","115"
+"event","Today's observation:
+
+Given a non-shitty amp and speakers, 1 watt per channel (RMS)
+
+IS VERY LOUD.
+
+Guys seriously get non-shitty audio gear then you won't need to use like 1kW amps."
+"eventtime","2007-09-14 23:25:00"
+"url","http://bofh1459.livejournal.com/29676.html"
+"userid","1997"
+"itemid","112"
+"event","POEM ASC 'ELK CLONER:'
+     DFB $8D,$8D 
+     ASC '   THE PROGRAM WITH A PERSONALITY'
+     DFB $8D,$8D,$8D 
+     ASC 'IT WILL GET ON ALL YOUR DISKS'
+     DFB $8D
+     ASC 'IT WILL INFILTRATE YOUR CHIPS'
+     DFB $8D
+     ASC 'YES IT'
+     DFB $A7
+     ASC 'S CLONER!'
+     DFB $8D,$8D
+     ASC 'IT WILL STICK TO YOU LIKE GLUE'
+     DFB $8D
+     ASC 'IT WILL MODIFY RAM TOO'
+     DFB $8D
+     ASC 'SEND IN THE CLONER!'
+     DFB $8D,$8D,$8D,$8D,$0"
+"eventtime","2007-09-02 00:08:00"
+"url","http://bofh1459.livejournal.com/28847.html"
+"userid","1997"
+"itemid","109"
+"event","ebay message exchange:
+
+Me:
+Hello, do you know the nature of the problem? 
+Basically, feeding in audio at a decent volume into the input causes neither any output at the speaker jacks nor a readout on the VU meter? 
+Or does something show on the VU meter but no audio at the speaker jacks again? 
+Thanks
+
+Him:
+I DON'T KNOW HOW TO READ AT THE SPEAKER JACKS BUT THERE IS NOTHING SHOWING ON THE VU METER. HOW WOULD I CHECK THE JACKS? P.D.
+
+What the Christ. Also, note the response in ALL CAPS.
+
+I cannot believe he seriously asked that question (this is a power amp, high-quality for $10 because it's apparently ""broken"" and I want to find out just how broken it is so I can see if I can repair it). I mean really, you check if audio is coming out of speaker jacks <i>by connecting a fucking speaker to them.</i> It's really not hard!"
+"eventtime","2007-08-31 00:20:00"
+"url","http://bofh1459.livejournal.com/27971.html"
+"userid","1997"
+"itemid","108"
+"event","Linux is great I mean you wonder why the MPU-401 on your soundcard is Not and then you discover functions like this:
+
+static int au_midi_ioctl(struct inode *inode, struct file *file, unsigned int cmd, unsigned long arg) {       
+        /* fixme */
+        return SUCCESS;
+}"
+"eventtime","2007-08-28 17:36:00"
+"url","http://bofh1459.livejournal.com/27764.html"
+"userid","1997"
+"itemid","106"
+"event","PGxqLWN1dCB0ZXh0PSJBIGxpc3Qgb2YgRWxlY3Ryb25pY3MgYW5kIEJvb2tzIHRoYXQgSSBhbSBicmluZ2luZyBhbG9uZyB0byB1bml2ZXJzaXR5LiBUaGlzIG1vc3QgbGlrZWx5IGRvZXMgbm90IGNvbmNlcm4geW91IHNvIGlnbm9yZSBpdCI+DQpDb25maXJtZWQgKGNvbXB1dGVycyk6DQotIDFHSHogUDMgKHRoaXMgY29tcHV0ZXIpIHRoYXQgSSB1c2UgZm9yIEJhc2ljYWxseSBFdmVyeXRoaW5nICh0aG91Z2ggSSBtaWdodCB1cGdyYWRlIGl0IHRvIGEgczkzOSBBdGhsb242NCBmaXJzdC4gc3RpbGwgZG9uJ3Qgc2VlIGEgbmVlZCB0aG91Z2ggOi8pDQotIDI1TUh6IHNwYXJjc3RhdGlvbiBJUEMgKG50cCBzZXJ2KQ0KLSB0aGUgY3JhcHRvcCAoRGVsbCBJbnNwaXJvbiAzNTAwKQ0KLSBZYW1haGEgRkItMDENCi0gUGFyYWxsZWwgUG9ydCBTSUQ2NTgxIGludGVyZmFjZQ0KLSBLZW53b29kIFBvd2VyIEFtcCArIDIgU3BlYWtlcnMNCi0gQ2FzaW8gTVQtMTAwDQotIExhc2VyIFByaW50ZXINCi0gU3dpdGNoDQotIExDRCBNb25pdG9yLCBrZXlib2FyZCwgbW91c2UNCi0gVGVzbGEgR2xvYmUNCi0gSmFjb2IncyBMYWRkZXINCi0gUElDIFByb2dyYW1tZXIgKEpETSksIEVFUFJPTSBQcm9ncmFtbWVyIChXaWxsZW0pDQotIFNvbGRlcmluZyBpcm9uICsgbWlzYyBwYXJ0cw0KLSBDYWJsZXMvd2lyZXMgb2YgdmFyaW91cyBzb3J0DQotIERYLTM5NSBTaG9ydHdhdmUgUmFkaW8NCi0gTVAzIFBsYXllciAoRHVoKQ0KDQpDb25maXJtZWQgKGJvb2tzKToNCi0gQ2FsY3VsdXM6IE1pY2hhZWwgU3BpdmFrIChEdWgpDQotIEF0aGVuYXplOiBNYXVyaWNlIEJhbG1lL0dpbGJlcnQgTGF3YWxsDQotIDxhIGhyZWY9Imh0dHA6Ly93d3cuaHRkcC5vcmciPlByaW50ZWQtb2ZmIGNvcHkgb2YgSFREUDogTWF0dGhpYXMgRmVsbGVpc2VuIGV0IGFsPC9hPg0KLSBNdWx0aXZhcmlhYmxlIENhbGN1bHVzOiBKYW1lcyBIdXJsZXkNCi0gVGhlIFJpZW1hbm4gWmV0YSBGdW5jdGlvbjogRWR3YXJkcw0KLSBEaXN0cmlidXRlZCBTeXN0ZW1zIC0gQ29uY2VwdHMgYW5kIERlc2lnbjogR2VvcmdlIENvdWxvdXJpcyBldCBhbA0KLSBPcGVyYXRpbmcgU3lzdGVtczogU3RhbGxpbmdzDQotIEludGVsIHg4NiBhcmNoaXRlY3R1cmUrYXNzZW1ibGVyIG1hbnVhbHMNCi0gREVDIEFscGhhIGFyY2hpdGVjdHVyZSthc3NlbWJsZXIgbWFudWFsDQotIEVsZWN0cm9uaWMgRGV2aWNlczogSm9obiBIZW5kZXJzb24NCi0gQ2lyY3VpdCBBbmFseXNpczogUm9iZXJ0IEJveWxlc3RhZA0KLSBIdW5nYXJpYW48LT5FbmdsaXNoIERpY3Rpb25hcnk6IE1hZ2F5IFRhbcOhcyDDqXMgS2lzcyBMw6FzemzDsw0KLSBFZ3JpIENzaWxsYWdvazogR8OhcmRvbnlpIEfDqXphDQotIEEgTMOhdGhhdGF0bGFuIEVtYmVyOiBHw6FyZG9ueWkgR8OpemENCi0g0J/QvtC90LXQtNC10LvRjNC90LjQuiDQvdCw0YfQuNC90LDQtdGC0YHRjyDQsiDQodGD0LHQsdC+0YLRgzog0JHRgNCw0YLRjNGPINCh0YLRgNGD0LPQsNGG0LrQuNC1DQotINCf0LjQutC90LjQuiDQvdCwINCe0LHQvtGH0LjQvdC1OiDQkdGA0LDRgtGM0Y8g0KHRgtGA0YPQs9Cw0YbQutC40LUNCi0g0JvQsNCx0LjRgNC40L3RgiDQntGC0YDQsNC20LXQvdC40Lkg0Lgg0KTQsNC70YzRiNC40LLRi9C1INCX0LXRgNC60LDQu9CwOiDQodC10YDQs9C10Lkg0JvRg9C60YzRj9C90LXQvdC60L4NCi0g0JvQsNCx0LjRgNC40L3Rgjog0JzQsNC60YHQuNC8INCk0YDQsNC5DQouLi5IbSwgbWF5YmUgSSBzaG91bGQgc3RhcnQgUnVzc2lhbiBzY2lmaSBsaWJyYXJ5PyApKSkNCg0KVW5jb25maXJtZWQgKGNvbXB1dGVycyk6DQotIEFscGhhU2VydmVyIENTMjANCi0gQWxwaGFTdGF0aW9uIDIwMCA0LzE2Ng0KDQpVbmNvbmZpcm1lZCAoYm9va3MpOg0KLSBFbmdsaXNoIHNjaWZpLCBBbm5lIG9mIEdyZWVuIEdhYmxlcywgQWdhdGhhIENocmlzdGllLCBiYXNpY2FsbHkgc3R1ZmYgSSBjYW4gcGljayB1cCBhdCBEUCBlYXNpbHkuIEkgbWlnaHQgYnJpbmcgYWxvbmcgb25lIG9yIHR3byBvZiB0aGVzZQ0KPC9sai1jdXQ+"
+"eventtime","2007-08-26 02:46:00"
+"url","http://bofh1459.livejournal.com/27235.html"
+"userid","1997"
+"itemid","105"
+"event","<img src=""http://molniya.ath.cx/audacity.jpg"">
+
+guys can we please stop compressing dynamic range so much that the song clips during its entire duration?!
+
+actually just stop compressing please, I like my dynamic range."
+"eventtime","2007-08-23 23:57:00"
+"url","http://bofh1459.livejournal.com/26949.html"
+"userid","1997"

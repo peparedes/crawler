@@ -1,0 +1,703 @@
+"names","values"
+"itemid","849"
+"event","SeKAmXZlIGJlZW4gdGhpbmtpbmcgYSBsb3QgYWJvdXQgcGhpbG9zb3BoaWNhbC9kZXRhaWxlZCBxdWVzdGlvbnMgcmVjZW50bHksIG1haW5seSBiZWNhdXNlIEkgYW0gbW9zdGx5IGNhdWdodCB1cCBhdCB3b3JrLCBhbmQganVzdCBiZWNhdXNlIHNvbWV0aW1lcyBpdCBpcyB0aW1lIHRvIGRvIHRoYXQuICANCg0KT25lIHRoaW5nIHRoYXQgY2FtZSB1cCByZWNlbnRseSB0aGF0IEnigJl2ZSBiZWVuIHRoaW5raW5nIGFib3V0IGlzIGEgZGlzY3Vzc2lvbiBhYm91dCBmcmllbmRzLCBhbmQgc29jaWFsaXppbmcgYW5kIHN1Y2guICBTb21lIG9mIHRoZSBwZW9wbGUgaW4gdGhlIGRpc2N1c3Npb24gd2VyZSBxdWl0ZSBzdXJwcmlzZWQgd2hlbiBJIHNhaWQgdGhhdCBJIGRpZG7igJl0IGZlZWwgbGlrZSBJIG5lZWQgbW9yZSBmcmllbmRzLiAgV2hpY2ggaXMgYWN0dWFsbHkgYSBwcmV0dHkgaW5mbGFtbWF0b3J5IHN0YXRlbWVudCBvbiBteSBwYXJ0LCBidXQgYWN0dWFsbHkgc29tZXRoaW5nIEkgZG8gYmVsaWV2ZS4gIFdoYXQgSSBkaWQgbm90IHNheSBhbmQgbWlnaHQgaGF2ZSBiZWVuIHBlcmhhcHMgdXNlZnVsIHRvIGFkZCwgaXMgdGhhdCBJIGNhbiBzZWUgbmVlZGluZyBtb3JlIGFjcXVhaW50YW5jZXMgKHdyb25nIHdvcmQsIGJ1dCBjbG9zZWlzaCkgYW5kL29yIHN0cmVuZ3RoZW5pbmcgdGhlIGF0dGFjaG1lbnRzIEkgYWxyZWFkeSBoYXZlIHRvIHBlb3BsZSBpbiB0aGF0IGNhdGVnb3J5Lg0KDQo8bGotY3V0Pg0KDQpSaWdodCBub3cgSeKAmWQgZXN0aW1hdGUgdGhhdCBiZXR3ZWVuIHdvcmssIG15IGluIHBlcnNvbiBzb2NpYWwgbGlmZSwgYW5kIHRocm91Z2ggdGhlIGNvbm5lY3Rpb25zIG1hZGUgaW5kaXJlY3RseSAoaGVyZSwgZmFjZWJvb2ssIGV0YykgSSBpbnRlcmFjdCB3aXRoIGFuZCB0aGluayBhYm91dCBwcm9iYWJseSA3NS0xMDAgZGlmZmVyZW50IHBlb3BsZSBldmVyeSB3ZWVrLiAgVGhhdCBudW1iZXIgZ29lcyB1cCBvdmVyIHRoZSBjb3Vyc2Ugb2YgdGhlIG1vbnRoIHRvIG1heWJlIDE1MC0yNTAgcGVvcGxlIHRoYXQgSSBpbnRlcmFjdCB3aXRoIGluIGEgd2F5IHRoYXQgcmVxdWlyZXMgbWUgdG8gc3RvcmUgbG9uZy10ZXJtIGRhdGEgYWJvdXQgdGhlbSwgYm90aCBpbiB0ZXJtcyBvZiBmYWN0cywgcGVyc29uYWxpdHkgdHJhaXRzLCBhbmQgbG9uZy10ZXJtIGdvYWxzLiAgDQoNCk9mIHRob3NlIHBlb3BsZSwgSSBmZWVsIGxpa2UgSSBhbSBjYXBhYmxlIG9mIHJlbWVtYmVyaW5nIHZlcnkgZGVlcCBkZXRhaWwgb24gYSBmZXcgb2YgdGhlbSAxLTQsIHRoaW5ncyBsaWtlIGZhdm9yaXRlIGZvb2RzLCBkaXNsaWtlZCBmb29kcywgZmFtaWx5IGhpc3RvcnksIGxvbmcgdGVybXMgZ29hbHMsIGFuZCB0b3BpY3Mgb2YgZGlzY3Vzc2lvbiBhbmQgcGVyc29uYWwgaW50ZXJlc3QgZm9yIG1hbnkgaW50ZXJhY3Rpb25zIGluIHRoZSBwYXN0LiAgU28gSSBmZWVsIGxpa2UgSSBjYW4gcmVtZW1iZXIgZGV0YWlsZWQgaW5mb3JtYXRpb24gb24gNCBwZW9wbGUgKGJlc3QgZnJpZW5kL3MsIGJveSBmcmllbmQvcywgZXRjKS4gIFRoZXNlIGFyZSB0aGUgcGVvcGxlIHRoYXQgSSB0YWxrIHdpdGggdGhlIG1vc3Qgbm93LCBhbmQgd2l0aGluIHJlY2VudCBtZW1vcnkuDQoNClRoZW4gdGhlcmUgaXMgYW5vdGhlciBncm91cCBvZiBtYXliZSAxNS0yNSB3aGVyZSBJIGNhbiByZW1lbWJlciBzb21lIGdvb2QgZGV0YWlsOyBtYXliZSBzb21lIHNuYXRjaGVzIG9mIHRoZWlyIGRlc2NyaXB0aW9uIG9mIGxpZmUgaGlzdG9yeSwgc29tZSBvZiB3aGF0IGlzIGN1cnJlbnQgZm9yIHRoZW0gbm93ICh0aGUgYmlnIDItNSB0aGluZ3MgZ29vZCBhbmQgYmFkKSwgdGhlIHRoaW5ncyB0aGF0IG1ha2UgdXAgb3VyIHJlbGF0aW9uc2hpcCBpbiB0aGUgcmVjZW50IHByZXNlbnQgKHdlZWtzKS4gIFRoZXNlIGFyZSBwZW9wbGUgZnJvbSB0aGUgZmlyc3QgZ3JvdXAgd2hvIEkgaGF2ZW7igJl0IHNlZW4gYXMgbXVjaCBvZiBpbiBhd2hpbGUgb3Igd2XigJl2ZSBoYWQgc29tZSBkZWVwIGNvbnZlcnNhdGlvbnMgcmVjZW50bHksIG9yIEkgaGF2ZSBsb3RzIG9mIHJlZ3VsYXIgZXhwb3N1cmUuICBUaGVzZSBwZW9wbGUgdXN1YWxseSBpbmNsdWRlIG15IGhvdXNlbWF0ZXMgKG5vdCBpbmNsdWRlZCBhYm92ZSksIHNvbWUgb2YgbXkgY293b3JrZXJzLCBteSByb29tbWF0ZXMsIGV0Yy4NCg0KVGhlbiB0aGVyZSBhcmUgcGVvcGxlIHRvIHdob20gSeKAmXZlIGhhZCBhIGxvdCBvZiBleHBvc3VyZSBvciB2ZXJ5IHJlY2VudCBleHBvc3VyZSwgb3IgYm90aCwgd2hvIGVpdGhlciBkdWUgdG8gZGVwdGggb2YgaW50ZXJhY3Rpb24sIG9yIG15IGludGVyZXN0IGxldmVsIChJIG9ubHkgc2VlIHRoZW0gYnJpZWZseSBhdCB3b3JrKSwgZXRjLCBJIGtub3cgYnV0IGNhbuKAmXQgc3RvcmUgZGV0YWlsIG9uIHZlcnkgd2VsbC4gIEkga25vdyB0aGF0IHRoZXNlIHBlb3BsZSBpbiBtYW55IGNhc2VzIGhhdmUgdGhpbmdzIHRvIHNheSwgaW50ZXJlc3RpbmcgaWRlYXMsIHJlYWwgZmVlbGluZ3MsIGV0Yy4gIEludGVsbGVjdHVhbGx5IHRoZXkgYXJlIHJlYWwgcGVvcGxlLCBidXQgSSBjYW7igJl0IHN0b3JlIHVzZWZ1bCBkYXRhLiAgDQoNClRoaXMgbGFzdCBncm91cCBpcyB0aGUgb25lIEkgaGF2ZSB0aGUgbW9zdCBjaGFsbGVuZ2VzIGludGVyYWN0aW5nIHdpdGggYmVjYXVzZSBvdmVydGltZSBpdCBzZWVtcyBsaWtlIEnigJl2ZSBzdG9yZWQgdGhpcyBjYXJpY2F0dXJlIG9mIGhvdyB0aGV5IGFyZS4gIFNvbWV0aW1lcyB0aGF0IG1vZGVsIGlzIG9rYXksIGVpdGhlciBiZWNhdXNlIGl0cyBqdXN0IGEgd2VsbCBtYWRlIG1vZGVsLCBvciBiZWNhdXNlIGl0cyBiZWVuIHJlY2VudGx5IHVwZGF0ZWQgd2l0aCB1c2VmdWwgYW5kIGN1cnJlbnQgZGF0YS4gIFNvbWV0aW1lcyB0aGUgbW9kZWwgaXMgbm90IHNvIGdvb2QsIGVpdGhlciBiZWNhdXNlIHRoZXkgd2FzIGFuIGludGVyYWN0aW9uIG9yIG1vbWVudCB0aGF0IGlzIG1vcmUgbWVtb3JhYmxlICh1c3VhbGx5IGJlaW5nIG1lIGl0cyBiYWQpIGFuZCB3YXMgc3Ryb25nIGVub3VnaCB0byBiZSBpbWJlZGRlZCBpbiB0aGF0IG1vZGVsLCBldmVuIGF0IHRoZSBleHBlbnNlIG9mIG90aGVyIGRhdGEuDQoNClJlY2VudGx5IEkgd2FzIGNhbGxlZCB1cG9uIHRvIHJlbWVtYmVyIHdoeSBJIGhhZCBhIGxlc3MgdGhlbiBwZXJmZWN0IHBvc2l0aXZlIG1vZGVsIGZvciBzb21lb25lLCBhbmQgZXZlbnR1YWxseSBJIGRlY2lkZWQgdGhhdCB0aGUgcG9zaXRpdmUgaW4gbXkgbWVtb3J5IGJhbmtzIG92ZXIgcm9kZSB0aGUgbmVnYXRpdmUgYXNwZWN0cyB0aGF0IGNvbWUgd2l0aCBwZW9wbGUgYmVpbmcgcGVvcGxlLiAgQnV0IHRoZSB3aG9sZSBwcm9jZXNzIHRvb2sgdGVuIG1pbnV0ZXMuICBBbmQgZGF5cyBsYXRlciBJIGNhbiBzdGlsbCByZW1lbWJlciB0aGUgZmluYWwgZGVjaXNpb24sIGJ1dCB0aGUgbW9yZSBuZWdhdGl2ZSBtb2RlbCBpcyBhbHJlYWR5IHN0YXJ0aW5nIHRvIGJlY29tZSBtb3JlIHBvd2VyZnVsLiAgU28gdGhlbiBJ4oCZbGwgaGF2ZSB0byBkbyBhbGwgdGhhdCB0aGlua2luZyBhbGwgb3ZlciBhZ2Fpbi4NCg0KSSBoYWQgYSBkaWZmZXJlbnQgd2VpcmQgcGVyc29uIG1lbW9yeSBob2xlIHRoZSBvdGhlciBkYXkuICBTb21lb25lIHRoYXQgSSB3b3JrIHdpdGggdmVyeSBjbG9zZWx5LCBhbmQgZm9yIGEgbG9uZyB0aW1lIGluIGFub3RoZXIgb2ZmaWNlLCBoYXMgYmVlbiBvdXQgb2YgdGhlIG9mZmljZSB1bmV4cGVjdGVkbHkgZm9yIHRoZSBsYXN0IG1vbnRoLiAgSSB3YXMgZGlzY3Vzc2luZyBoZXIgYWJzZW5jZSB3aXRoIHNvbWUgY293b3JrZXJzIHdoZW4gc2hlIHdhbGtlZCBpbi4gIEV2ZW4gdGhvdWdoIHdlIGhhZCBsaXRlcmFsbHkganVzdCBiZWVuIGRpc2N1c3NpbmcgaG93IG11Y2ggd2UgbWlzc2VkIGhhdmluZyBoZXIgYXJvdW5kLCBJIGRpZCBub3QgcmVjb2duaXplIGhlci4gIE9uY2UgSSBkaWQgcmVjb2duaXplIGhlciBpdCB0b29rIG1lIGFub3RoZXIgZmV3IHNlY29uZHMgdG8gcmVib290IHdoeSBzaGUgd2FzIHRhbGtpbmcgYWJvdXQgYmVpbmcgYmFjayBpbiB0aGUgb2ZmaWNlLiAgSW4gdGhlIHBlcmlvZCBvZiBsaWtlIDI1IHNlY29uZHMgSSBsb3N0IHRoZSBjb25uZWN0aW9uIGJldHdlZW4gdGhlIHR3byB0aGluZ3MuDQoNClRoZXJlIGFyZSBvdGhlciBleGFtcGxlcywgYnV0IGl0IHNlZW1zIHRvIG1lIGxpa2UgdGhlcmUgaXMgdGhpcyBjYXAgb24gbXkgYWJpbGl0eSB0byByZW1lbWJlciBwZW9wbGUgYW5kIGNvbm5lY3QgdGhlbSB0byB0aGUgdGhpbmdzIHRoYXQgcmVsYXRlIHRvIHRoZW0uICBJIGNhbiByZW1lbWJlciB3aGF0IFphYyBhbmQgSSBhdGUgYXQgb3VyIGFubml2ZXJzYXJ5IGRpbm5lciB0aHJlZSB5ZWFycyBhZ28gYW5kIG5vIGFtb3VudCBvZiB0aW1lIG9yIGlycmVsZXZhbmNlIHdpbGwgY2hhbmdlIHRoYXQsIGJ1dCBJIG9mdGVuIHJlcGxhY2Ugb3V0IGJhc2ljIGZhY3RzIGFib3V0IHRhbGtpbmcgdG8gc29tZW9uZSBpbiB0aGUgbW9yZSByZWNlbnQgcGFzdCB3aXRoIHNvbWUgbmV3IGNvbnZlcnNhdGlvbiwgYW5kIHRoZW4gaXQgZG9lc27igJl0IGdldCBzdG9yZWQgaW50byBsb25nLXRlcm0gb3IgYWNjZXNzaWJsZSBtZW1vcnkgZm9yIGF3aGlsZS4gIE1heWJlIHRoYXQgaXMganVzdCBlbW90aW9uYWwgaW52ZXN0bWVudD8gIA0KDQpJdCBjYW4gZmVlbCBsaWtlIEkgaGF2ZSB0aGUgY2hvaWNlIG9mIG92ZXJ3cml0aW5nIHNvbWUgcmFuZG9tIHJlY2VudCBtZW1vcnkgb2Ygc2F5LCBhIGNvbnZlcnNhdGlvbiB3aXRoIExvbyBhYm91dCB3aGF0IGhlciBhdmFpbGFiaWxpdHkgaXMgKHJlbWVtYmVyaW5nIHBlb3BsZeKAmXMgc2NoZWR1bGVzIGlzIG5vdCB1c3VhbGx5IGEgcHJvYmxlbSkgd2l0aCBzb21lb25lIGVsc2XigJlzIHJhbmRvbSBjb252ZXJzYXRpb24gYWJvdXQgdG9hc3Qgb3IgbXkgY29uY2VybuKAmXMgZm9yIHNvbWVvbmXigJlzIGhhcHBpbmVzcy4gIFZhcmlvdXMgdGhpbmdzLiAgDQoNCklmIEkgdGFsayB0byBhbGwgb2YgbXkgYWNxdWFpbnRhbmNlcyBtb3JlLCBJIGZlZWwgbGlrZSBJIGxvc2UgZGF0YSBzcG90cyBmb3IgdGhlIHBlb3BsZSB3aG8gYXJlIOKAnGNsb3NlcuKAnS4gIFdoYXQgSSB2YWx1ZSBtb3N0IGluIHNwZW5kaW5nIG15IHRpbWUgaXMgYSBtb3JlIGRlZXAgaW50ZXJhY3Rpb24gdGhlbiBtYW55IGludGVyYWN0aW9ucyBvZiBtZWRpdW0gc3Vic3RhbmNlLCBzbyBjdXJyZW50bHkgSSBoYXZlIGdlbmVyYWxseSBjaG9zZW4gbm90IHRvIHNheSBzcGVuZCBvbmUgbmlnaHQgYSB3ZWVrIHdpdGggYWxsIG9mIHRoZSBwZW9wbGUgSSBkb27igJl0IGtub3cgYXMgd2VsbCBpbmRpdmlkdWFsbHkgaW5zdGVhZCBvZiBzcGVuZGluZyBvbmUgbmlnaHQgYSB3ZWVrIHdpdGggTG9vLiAgSXRzIGFuIGludGVyZXN0aW5nIGNvbnVuZHJ1bSwgYmVjYXVzZSBzb21lIG9mIHRob3NlIHBlb3BsZSBpbiB0aGUgbGVhc3Qga25vd24gY2F0ZWdvcnkgd291bGQgcHJvYmFibHkgYmUgYXdlc29tZSBhZGRpdGlvbnMgdG8gdGhlIGZpcnN0IG9yIHRoZSBzZWNvbmQsIHNvIEkgZG9u4oCZdCB3YW50IHRvIG5ldmVyIHRhbGsgdG8gdGhlbSwgYW5kIHRvIGRlbGV0ZSBhbGwgcmVsZXZhbnQgZGF0YSB0byB0aGVtIGVpdGhlci4gIA0KDQpJIGFsc28gZmVlbCBsaWtlIHNwZW5kaW5nIHRpbWUgd2l0aCBvbmx5IHRob3NlIHRvcCBzbG90cyB0ZW5kcyB0byBjcmVhdGUgbGVzcyBvcHRpbWFsIHNpdHVhdGlvbnMgdG9vLiAgT25seSBpbnRlcmFjdGluZyB3aXRoIHBlb3BsZSB3aG8gYXJlIGxpa2UgbWUsIHBlb3BsZSB3aG9zZSBvcGluaW9ucyBzaGFwZSBtaW5lLCBJIGNhbiBzZWUgd291bGQgbGVhZCB0byBhbiBpbnN1bGFyaXR5IG9mIHRob3VnaHQgYW5kIGFjdGlvbiB0aGF0IG1pZ2h0IG50IGJlIGdvb2QsIGhhc2hpbmcgb3V0IHRoZSBzYW1lIG9sZCBpZGVhcyBsaWtlIGFuIG9sZCBwZXJzb24uICBTb21lIG9mIHRob3NlIHNsb3RzIG1heSBiZSBmaWxsZWQgYnkgcGVvcGxlIHdpdGggd2hvbSBJIGhhdmUgbGVzcyBpbiBjb21tb24gdGhlbiBJIHVzZWQgdG9vLCBvciBwZW9wbGUgd2hvIGFyZSBub3QgYXJvdW5kIGFzIG11Y2gsIHdobyBpdCBtYXkgYmUgYmVuZWZpY2lhbCB0byByZW5ldyBhIHJlbGF0aW9uc2hpcCB3aXRoIGZyb20gYW4gZWFybGllciBwb2ludCBiZWNhdXNlIHRoZXkgd2lsbCBoYXZlIGNoYW5nZWQgc28gbXVjaCBhbnl3YXkuICBUaGVyZSBtYXkgYmUgYWNxdWFpbnRhbmNlcyB3aG8gd291bGQgYmUgZXZlbiBiZXR0ZXIgZnJpZW5kcyBpZiBvbmx5IEkgY291bGQgcmVtZW1iZXIgZW5vdWdoIGFib3V0IHRoZW0gZnJvbSBzaXR1YXRpb24gdG8gc2l0dWF0aW9uLiAgU29tZSBvZiB0aGVtIEkgd2FudCB0byBrZWVwIGZvciBhd2hpbGUgbG9uZ2VyIGV2ZW4gaWYgSSBkb27igJl0IHNlZSB0aGVtIGFzIG11Y2guDQoNClNvIEkgZG9u4oCZdCBrbm93LiAgTWF5YmUgdGhlcmUgYXJlIG1uZW1vbmljcyB0byBoZWxwIGNvbnRyb2wgd2hvIHlvdSBrZWVwIChkb27igJl0IGxvc2UpLCBvciBtb3N0IHBlb3BsZSBqdXN0IHdhdGNoIHdoaWNoIHN0YXRzIGFyZSBjaGFuZ2luZyBhbmQgdGhlbiBtb3ZlIHRvIGludGVudGlvbmFsbHkgcmVpbmZvcmNlIHRob3NlIHRoZXnigJl2ZSBmbGFnZ2VkIGFzIGJlaW5nIGltcG9ydGFudCBlbm91Z2ggdG8ga2VlcC4gIE1heWJlIG90aGVyIHBlb3BsZSBoYXZlIG1vcmUgc2xvdHMuICBNYXliZSBvdGhlciBwZW9wbGUgYXJlIGxlc3Mgd29ycmllZCBhYm91dCBjb250cm9sbGluZyB0aGVpciBzaXR1YXRpb24uDQoNCjwvbGotY3V0Pg0KSeKAmXZlIGJlZW4gdGhpbmtpbmcgYSBsb3QgYWJvdXQgcGhpbG9zb3BoaWNhbC9kZXRhaWxlZCBxdWVzdGlvbnMgcmVjZW50bHksIG1haW5seSBiZWNhdXNlIEkgYW0gbW9zdGx5IGNhdWdodCB1cCBhdCB3b3JrLCBhbmQganVzdCBiZWNhdXNlIHNvbWV0aW1lcyBpdCBpcyB0aW1lIHRvIGRvIHRoYXQuICANCg0KT25lIHRoaW5nIHRoYXQgY2FtZSB1cCByZWNlbnRseSB0aGF0IEnigJl2ZSBiZWVuIHRoaW5raW5nIGFib3V0IGlzIGEgZGlzY3Vzc2lvbiBhYm91dCBmcmllbmRzLCBhbmQgc29jaWFsaXppbmcgYW5kIHN1Y2guICBTb21lIG9mIHRoZSBwZW9wbGUgaW4gdGhlIGRpc2N1c3Npb24gd2VyZSBxdWl0ZSBzdXJwcmlzZWQgd2hlbiBJIHNhaWQgdGhhdCBJIGRpZG7igJl0IGZlZWwgbGlrZSBJIG5lZWQgbW9yZSBmcmllbmRzLiAgV2hpY2ggaXMgYWN0dWFsbHkgYSBwcmV0dHkgaW5mbGFtbWF0b3J5IHN0YXRlbWVudCBvbiBteSBwYXJ0LCBidXQgYWN0dWFsbHkgc29tZXRoaW5nIEkgZG8gYmVsaWV2ZS4gIFdoYXQgSSBkaWQgbm90IHNheSBhbmQgbWlnaHQgaGF2ZSBiZWVuIHBlcmhhcHMgdXNlZnVsIHRvIGFkZCwgaXMgdGhhdCBJIGNhbiBzZWUgbmVlZGluZyBtb3JlIGFjcXVhaW50YW5jZXMgKHdyb25nIHdvcmQsIGJ1dCBjbG9zZWlzaCkgYW5kL29yIHN0cmVuZ3RoZW5pbmcgdGhlIGF0dGFjaG1lbnRzIEkgYWxyZWFkeSBoYXZlIHRvIHBlb3BsZSBpbiB0aGF0IGNhdGVnb3J5Lg0KDQo8bGotY3V0Pg0KDQpSaWdodCBub3cgSeKAmWQgZXN0aW1hdGUgdGhhdCBiZXR3ZWVuIHdvcmssIG15IGluIHBlcnNvbiBzb2NpYWwgbGlmZSwgYW5kIHRocm91Z2ggdGhlIGNvbm5lY3Rpb25zIG1hZGUgaW5kaXJlY3RseSAoaGVyZSwgZmFjZWJvb2ssIGV0YykgSSBpbnRlcmFjdCB3aXRoIGFuZCB0aGluayBhYm91dCBwcm9iYWJseSA3NS0xMDAgZGlmZmVyZW50IHBlb3BsZSBldmVyeSB3ZWVrLiAgVGhhdCBudW1iZXIgZ29lcyB1cCBvdmVyIHRoZSBjb3Vyc2Ugb2YgdGhlIG1vbnRoIHRvIG1heWJlIDE1MC0yNTAgcGVvcGxlIHRoYXQgSSBpbnRlcmFjdCB3aXRoIGluIGEgd2F5IHRoYXQgcmVxdWlyZXMgbWUgdG8gc3RvcmUgbG9uZy10ZXJtIGRhdGEgYWJvdXQgdGhlbSwgYm90aCBpbiB0ZXJtcyBvZiBmYWN0cywgcGVyc29uYWxpdHkgdHJhaXRzLCBhbmQgbG9uZy10ZXJtIGdvYWxzLiAgDQoNCk9mIHRob3NlIHBlb3BsZSwgSSBmZWVsIGxpa2UgSSBhbSBjYXBhYmxlIG9mIHJlbWVtYmVyaW5nIHZlcnkgZGVlcCBkZXRhaWwgb24gYSBmZXcgb2YgdGhlbSAxLTQsIHRoaW5ncyBsaWtlIGZhdm9yaXRlIGZvb2RzLCBkaXNsaWtlZCBmb29kcywgZmFtaWx5IGhpc3RvcnksIGxvbmcgdGVybXMgZ29hbHMsIGFuZCB0b3BpY3Mgb2YgZGlzY3Vzc2lvbiBhbmQgcGVyc29uYWwgaW50ZXJlc3QgZm9yIG1hbnkgaW50ZXJhY3Rpb25zIGluIHRoZSBwYXN0LiAgU28gSSBmZWVsIGxpa2UgSSBjYW4gcmVtZW1iZXIgZGV0YWlsZWQgaW5mb3JtYXRpb24gb24gNCBwZW9wbGUgKGJlc3QgZnJpZW5kL3MsIGJveSBmcmllbmQvcywgZXRjKS4gIFRoZXNlIGFyZSB0aGUgcGVvcGxlIHRoYXQgSSB0YWxrIHdpdGggdGhlIG1vc3Qgbm93LCBhbmQgd2l0aGluIHJlY2VudCBtZW1vcnkuDQoNClRoZW4gdGhlcmUgaXMgYW5vdGhlciBncm91cCBvZiBtYXliZSAxNS0yNSB3aGVyZSBJIGNhbiByZW1lbWJlciBzb21lIGdvb2QgZGV0YWlsOyBtYXliZSBzb21lIHNuYXRjaGVzIG9mIHRoZWlyIGRlc2NyaXB0aW9uIG9mIGxpZmUgaGlzdG9yeSwgc29tZSBvZiB3aGF0IGlzIGN1cnJlbnQgZm9yIHRoZW0gbm93ICh0aGUgYmlnIDItNSB0aGluZ3MgZ29vZCBhbmQgYmFkKSwgdGhlIHRoaW5ncyB0aGF0IG1ha2UgdXAgb3VyIHJlbGF0aW9uc2hpcCBpbiB0aGUgcmVjZW50IHByZXNlbnQgKHdlZWtzKS4gIFRoZXNlIGFyZSBwZW9wbGUgZnJvbSB0aGUgZmlyc3QgZ3JvdXAgd2hvIEkgaGF2ZW7igJl0IHNlZW4gYXMgbXVjaCBvZiBpbiBhd2hpbGUgb3Igd2XigJl2ZSBoYWQgc29tZSBkZWVwIGNvbnZlcnNhdGlvbnMgcmVjZW50bHksIG9yIEkgaGF2ZSBsb3RzIG9mIHJlZ3VsYXIgZXhwb3N1cmUuICBUaGVzZSBwZW9wbGUgdXN1YWxseSBpbmNsdWRlIG15IGhvdXNlbWF0ZXMgKG5vdCBpbmNsdWRlZCBhYm92ZSksIHNvbWUgb2YgbXkgY293b3JrZXJzLCBteSByb29tbWF0ZXMsIGV0Yy4NCg0KVGhlbiB0aGVyZSBhcmUgcGVvcGxlIHRvIHdob20gSeKAmXZlIGhhZCBhIGxvdCBvZiBleHBvc3VyZSBvciB2ZXJ5IHJlY2VudCBleHBvc3VyZSwgb3IgYm90aCwgd2hvIGVpdGhlciBkdWUgdG8gZGVwdGggb2YgaW50ZXJhY3Rpb24sIG9yIG15IGludGVyZXN0IGxldmVsIChJIG9ubHkgc2VlIHRoZW0gYnJpZWZseSBhdCB3b3JrKSwgZXRjLCBJIGtub3cgYnV0IGNhbuKAmXQgc3RvcmUgZGV0YWlsIG9uIHZlcnkgd2VsbC4gIEkga25vdyB0aGF0IHRoZXNlIHBlb3BsZSBpbiBtYW55IGNhc2VzIGhhdmUgdGhpbmdzIHRvIHNheSwgaW50ZXJlc3RpbmcgaWRlYXMsIHJlYWwgZmVlbGluZ3MsIGV0Yy4gIEludGVsbGVjdHVhbGx5IHRoZXkgYXJlIHJlYWwgcGVvcGxlLCBidXQgSSBjYW7igJl0IHN0b3JlIHVzZWZ1bCBkYXRhLiAgDQoNClRoaXMgbGFzdCBncm91cCBpcyB0aGUgb25lIEkgaGF2ZSB0aGUgbW9zdCBjaGFsbGVuZ2VzIGludGVyYWN0aW5nIHdpdGggYmVjYXVzZSBvdmVydGltZSBpdCBzZWVtcyBsaWtlIEnigJl2ZSBzdG9yZWQgdGhpcyBjYXJpY2F0dXJlIG9mIGhvdyB0aGV5IGFyZS4gIFNvbWV0aW1lcyB0aGF0IG1vZGVsIGlzIG9rYXksIGVpdGhlciBiZWNhdXNlIGl0cyBqdXN0IGEgd2VsbCBtYWRlIG1vZGVsLCBvciBiZWNhdXNlIGl0cyBiZWVuIHJlY2VudGx5IHVwZGF0ZWQgd2l0aCB1c2VmdWwgYW5kIGN1cnJlbnQgZGF0YS4gIFNvbWV0aW1lcyB0aGUgbW9kZWwgaXMgbm90IHNvIGdvb2QsIGVpdGhlciBiZWNhdXNlIHRoZXkgd2FzIGFuIGludGVyYWN0aW9uIG9yIG1vbWVudCB0aGF0IGlzIG1vcmUgbWVtb3JhYmxlICh1c3VhbGx5IGJlaW5nIG1lIGl0cyBiYWQpIGFuZCB3YXMgc3Ryb25nIGVub3VnaCB0byBiZSBpbWJlZGRlZCBpbiB0aGF0IG1vZGVsLCBldmVuIGF0IHRoZSBleHBlbnNlIG9mIG90aGVyIGRhdGEuDQoNClJlY2VudGx5IEkgd2FzIGNhbGxlZCB1cG9uIHRvIHJlbWVtYmVyIHdoeSBJIGhhZCBhIGxlc3MgdGhlbiBwZXJmZWN0IHBvc2l0aXZlIG1vZGVsIGZvciBzb21lb25lLCBhbmQgZXZlbnR1YWxseSBJIGRlY2lkZWQgdGhhdCB0aGUgcG9zaXRpdmUgaW4gbXkgbWVtb3J5IGJhbmtzIG92ZXIgcm9kZSB0aGUgbmVnYXRpdmUgYXNwZWN0cyB0aGF0IGNvbWUgd2l0aCBwZW9wbGUgYmVpbmcgcGVvcGxlLiAgQnV0IHRoZSB3aG9sZSBwcm9jZXNzIHRvb2sgdGVuIG1pbnV0ZXMuICBBbmQgZGF5cyBsYXRlciBJIGNhbiBzdGlsbCByZW1lbWJlciB0aGUgZmluYWwgZGVjaXNpb24sIGJ1dCB0aGUgbW9yZSBuZWdhdGl2ZSBtb2RlbCBpcyBhbHJlYWR5IHN0YXJ0aW5nIHRvIGJlY29tZSBtb3JlIHBvd2VyZnVsLiAgU28gdGhlbiBJ4oCZbGwgaGF2ZSB0byBkbyBhbGwgdGhhdCB0aGlua2luZyBhbGwgb3ZlciBhZ2Fpbi4NCg0KSSBoYWQgYSBkaWZmZXJlbnQgd2VpcmQgcGVyc29uIG1lbW9yeSBob2xlIHRoZSBvdGhlciBkYXkuICBTb21lb25lIHRoYXQgSSB3b3JrIHdpdGggdmVyeSBjbG9zZWx5LCBhbmQgZm9yIGEgbG9uZyB0aW1lIGluIGFub3RoZXIgb2ZmaWNlLCBoYXMgYmVlbiBvdXQgb2YgdGhlIG9mZmljZSB1bmV4cGVjdGVkbHkgZm9yIHRoZSBsYXN0IG1vbnRoLiAgSSB3YXMgZGlzY3Vzc2luZyBoZXIgYWJzZW5jZSB3aXRoIHNvbWUgY293b3JrZXJzIHdoZW4gc2hlIHdhbGtlZCBpbi4gIEV2ZW4gdGhvdWdoIHdlIGhhZCBsaXRlcmFsbHkganVzdCBiZWVuIGRpc2N1c3NpbmcgaG93IG11Y2ggd2UgbWlzc2VkIGhhdmluZyBoZXIgYXJvdW5kLCBJIGRpZCBub3QgcmVjb2duaXplIGhlci4gIE9uY2UgSSBkaWQgcmVjb2duaXplIGhlciBpdCB0b29rIG1lIGFub3RoZXIgZmV3IHNlY29uZHMgdG8gcmVib290IHdoeSBzaGUgd2FzIHRhbGtpbmcgYWJvdXQgYmVpbmcgYmFjayBpbiB0aGUgb2ZmaWNlLiAgSW4gdGhlIHBlcmlvZCBvZiBsaWtlIDI1IHNlY29uZHMgSSBsb3N0IHRoZSBjb25uZWN0aW9uIGJldHdlZW4gdGhlIHR3byB0aGluZ3MuDQoNClRoZXJlIGFyZSBvdGhlciBleGFtcGxlcywgYnV0IGl0IHNlZW1zIHRvIG1lIGxpa2UgdGhlcmUgaXMgdGhpcyBjYXAgb24gbXkgYWJpbGl0eSB0byByZW1lbWJlciBwZW9wbGUgYW5kIGNvbm5lY3QgdGhlbSB0byB0aGUgdGhpbmdzIHRoYXQgcmVsYXRlIHRvIHRoZW0uICBJIGNhbiByZW1lbWJlciB3aGF0IFphYyBhbmQgSSBhdGUgYXQgb3VyIGFubml2ZXJzYXJ5IGRpbm5lciB0aHJlZSB5ZWFycyBhZ28gYW5kIG5vIGFtb3VudCBvZiB0aW1lIG9yIGlycmVsZXZhbmNlIHdpbGwgY2hhbmdlIHRoYXQsIGJ1dCBJIG9mdGVuIHJlcGxhY2Ugb3V0IGJhc2ljIGZhY3RzIGFib3V0IHRhbGtpbmcgdG8gc29tZW9uZSBpbiB0aGUgbW9yZSByZWNlbnQgcGFzdCB3aXRoIHNvbWUgbmV3IGNvbnZlcnNhdGlvbiwgYW5kIHRoZW4gaXQgZG9lc27igJl0IGdldCBzdG9yZWQgaW50byBsb25nLXRlcm0gb3IgYWNjZXNzaWJsZSBtZW1vcnkgZm9yIGF3aGlsZS4gIE1heWJlIHRoYXQgaXMganVzdCBlbW90aW9uYWwgaW52ZXN0bWVudD8gIA0KDQpJdCBjYW4gZmVlbCBsaWtlIEkgaGF2ZSB0aGUgY2hvaWNlIG9mIG92ZXJ3cml0aW5nIHNvbWUgcmFuZG9tIHJlY2VudCBtZW1vcnkgb2Ygc2F5LCBhIGNvbnZlcnNhdGlvbiB3aXRoIExvbyBhYm91dCB3aGF0IGhlciBhdmFpbGFiaWxpdHkgaXMgKHJlbWVtYmVyaW5nIHBlb3BsZeKAmXMgc2NoZWR1bGVzIGlzIG5vdCB1c3VhbGx5IGEgcHJvYmxlbSkgd2l0aCBzb21lb25lIGVsc2XigJlzIHJhbmRvbSBjb252ZXJzYXRpb24gYWJvdXQgdG9hc3Qgb3IgbXkgY29uY2VybuKAmXMgZm9yIHNvbWVvbmXigJlzIGhhcHBpbmVzcy4gIFZhcmlvdXMgdGhpbmdzLiAgDQoNCklmIEkgdGFsayB0byBhbGwgb2YgbXkgYWNxdWFpbnRhbmNlcyBtb3JlLCBJIGZlZWwgbGlrZSBJIGxvc2UgZGF0YSBzcG90cyBmb3IgdGhlIHBlb3BsZSB3aG8gYXJlIOKAnGNsb3NlcuKAnS4gIFdoYXQgSSB2YWx1ZSBtb3N0IGluIHNwZW5kaW5nIG15IHRpbWUgaXMgYSBtb3JlIGRlZXAgaW50ZXJhY3Rpb24gdGhlbiBtYW55IGludGVyYWN0aW9ucyBvZiBtZWRpdW0gc3Vic3RhbmNlLCBzbyBjdXJyZW50bHkgSSBoYXZlIGdlbmVyYWxseSBjaG9zZW4gbm90IHRvIHNheSBzcGVuZCBvbmUgbmlnaHQgYSB3ZWVrIHdpdGggYWxsIG9mIHRoZSBwZW9wbGUgSSBkb27igJl0IGtub3cgYXMgd2VsbCBpbmRpdmlkdWFsbHkgaW5zdGVhZCBvZiBzcGVuZGluZyBvbmUgbmlnaHQgYSB3ZWVrIHdpdGggTG9vLiAgSXRzIGFuIGludGVyZXN0aW5nIGNvbnVuZHJ1bSwgYmVjYXVzZSBzb21lIG9mIHRob3NlIHBlb3BsZSBpbiB0aGUgbGVhc3Qga25vd24gY2F0ZWdvcnkgd291bGQgcHJvYmFibHkgYmUgYXdlc29tZSBhZGRpdGlvbnMgdG8gdGhlIGZpcnN0IG9yIHRoZSBzZWNvbmQsIHNvIEkgZG9u4oCZdCB3YW50IHRvIG5ldmVyIHRhbGsgdG8gdGhlbSwgYW5kIHRvIGRlbGV0ZSBhbGwgcmVsZXZhbnQgZGF0YSB0byB0aGVtIGVpdGhlci4gIA0KDQpJIGFsc28gZmVlbCBsaWtlIHNwZW5kaW5nIHRpbWUgd2l0aCBvbmx5IHRob3NlIHRvcCBzbG90cyB0ZW5kcyB0byBjcmVhdGUgbGVzcyBvcHRpbWFsIHNpdHVhdGlvbnMgdG9vLiAgT25seSBpbnRlcmFjdGluZyB3aXRoIHBlb3BsZSB3aG8gYXJlIGxpa2UgbWUsIHBlb3BsZSB3aG9zZSBvcGluaW9ucyBzaGFwZSBtaW5lLCBJIGNhbiBzZWUgd291bGQgbGVhZCB0byBhbiBpbnN1bGFyaXR5IG9mIHRob3VnaHQgYW5kIGFjdGlvbiB0aGF0IG1pZ2h0IG50IGJlIGdvb2QsIGhhc2hpbmcgb3V0IHRoZSBzYW1lIG9sZCBpZGVhcyBsaWtlIGFuIG9sZCBwZXJzb24uICBTb21lIG9mIHRob3NlIHNsb3RzIG1heSBiZSBmaWxsZWQgYnkgcGVvcGxlIHdpdGggd2hvbSBJIGhhdmUgbGVzcyBpbiBjb21tb24gdGhlbiBJIHVzZWQgdG9vLCBvciBwZW9wbGUgd2hvIGFyZSBub3QgYXJvdW5kIGFzIG11Y2gsIHdobyBpdCBtYXkgYmUgYmVuZWZpY2lhbCB0byByZW5ldyBhIHJlbGF0aW9uc2hpcCB3aXRoIGZyb20gYW4gZWFybGllciBwb2ludCBiZWNhdXNlIHRoZXkgd2lsbCBoYXZlIGNoYW5nZWQgc28gbXVjaCBhbnl3YXkuICBUaGVyZSBtYXkgYmUgYWNxdWFpbnRhbmNlcyB3aG8gd291bGQgYmUgZXZlbiBiZXR0ZXIgZnJpZW5kcyBpZiBvbmx5IEkgY291bGQgcmVtZW1iZXIgZW5vdWdoIGFib3V0IHRoZW0gZnJvbSBzaXR1YXRpb24gdG8gc2l0dWF0aW9uLiAgU29tZSBvZiB0aGVtIEkgd2FudCB0byBrZWVwIGZvciBhd2hpbGUgbG9uZ2VyIGV2ZW4gaWYgSSBkb27igJl0IHNlZSB0aGVtIGFzIG11Y2guDQoNClNvIEkgZG9u4oCZdCBrbm93LiAgTWF5YmUgdGhlcmUgYXJlIG1uZW1vbmljcyB0byBoZWxwIGNvbnRyb2wgd2hvIHlvdSBrZWVwIChkb27igJl0IGxvc2UpLCBvciBtb3N0IHBlb3BsZSBqdXN0IHdhdGNoIHdoaWNoIHN0YXRzIGFyZSBjaGFuZ2luZyBhbmQgdGhlbiBtb3ZlIHRvIGludGVudGlvbmFsbHkgcmVpbmZvcmNlIHRob3NlIHRoZXnigJl2ZSBmbGFnZ2VkIGFzIGJlaW5nIGltcG9ydGFudCBlbm91Z2ggdG8ga2VlcC4gIE1heWJlIG90aGVyIHBlb3BsZSBoYXZlIG1vcmUgc2xvdHMuICBNYXliZSBvdGhlciBwZW9wbGUgYXJlIGxlc3Mgd29ycmllZCBhYm91dCBjb250cm9sbGluZyB0aGVpciBzaXR1YXRpb24uDQoNCjwvbGotY3V0Pg=="
+"eventtime","2010-04-21 13:48:00"
+"url","http://amphitrite27.livejournal.com/217408.html"
+"userid","647"
+"itemid","846"
+"event","Taken and Expanded from a comment in a friend's journal regarding people putting walls up or not living the way they feel they need to out of a fear of hurting others.  (Admission: of course I don't always do this now, and I certainly don't always do this or accept this with Grace).  All references to ""other people"" may be replaced by me, my best friend, most people I have ever met, and me again.
+
+The suggestion was that if people acted as they believed they needed to, in order to fulfill their own needs, with some level of concern for others (the golden rule of don't be a jackass, aka piss in someone's cheerios), that those actions would lead to a life more filled with strong relationships, and happiness.
+
+<lj-cut>I think a lot of what I have seen people do though, is create models for what bothers other people without collecting a full enough picture of data. Building good working models of your partners and best friends is very, very hard, and reacting to them based on an incorrect model can lead to quite a lot of pain too.
+
+I try to do as ***** talks about here, and I've been working to do it at ever stronger and deeper levels for five years now.  I agree that I have seen people use that construct to avoid responsibility for the fact that our actions have consequences, not only to us, but to those we love around us. To never think of others is not morally correct, but to hide too much of ourselves I think leads to greater feelings of betrayal when the truth comes out (depending on the strength of what is guarded).  I have seen ""honesty"" used as a weapon, but I have never seen truth used as a weapon.  When ""honesty"" is used to avoid our real feelings and our real fears, to avoid the little small voices in our head that say, I am afraid, I am hungry for companionship, I am not worthy, I am bad: that isn't honesty, and to use ""honesty"" in that way is not the same as representing our truths and is not the same as representing our goals and needs. 
+
+I've certainly been on the receiving end of both behaviors and the originator of both, but those people who have been willing to call me on it when I'm too careless, and who have received my comments in return with reasonable grace, I know them.  They may still surprise me in unpleasant ways, I may surprise them, but I feel confident that barring some new true life altering change in themselves or me, we won't have any relationship-endingly large surprises.  
+
+It is very hard to have the kind of relationship I have with Zac, but I feel very comfortable that he will not turn to me in his old age and decry our life as one that kept him from his dreams or needs, consistently over years or decades.  Months maybe, maybe even a year, but I am confident no more (and our lives are predicated on the assumption that ALL actions I ever take are based on the fact that once he knew, or suspected for awhile that he was unhappy he will tell me, no matter how unpleasant or inconvenient the timing and conversation).  I have promised to do the same.  I certainly think it is a hard thing to learn to do, to know when to listen to our needs, to be sure when they are needs, and not mania, drunkeness, impulse, or just an action designed to be mean.  But life is about learning, and practicing our skills to  create the maximally satisfying experience for ourselves as individuals.   </lj-cut>
+
+If we all learned how to read ourselves and know when our needs were true needs, honest needs, and learned to do the hard work ourselves to fulfill them, making specific requests when we need something from those around us to reach our goals, and keeping in ourselves love and forgiveness for ourselves and our mistakes as well as those around us, I do think that we will find mostly people who are good in the world, even when many of our goals in life conflict.
+And I feel safer knowing that without a deep need to hide who we are long term, there is significantly less likelihood of us wasting our lives not pursuing the happiness we can have separately or together.
+
+And there endeth the preaching.  Now to continue to learn to *do* it."
+"eventtime","2009-07-14 09:07:00"
+"url","http://amphitrite27.livejournal.com/216583.html"
+"userid","647"
+"itemid","842"
+"event","So I are not the deadz.  But mostly on faceboook.  Life is better, and weird, and sometimes still rough, but better.
+
+In the end I totally can't complain, but there's a whole new skill set to learn in about this crazy complicated world that we live in.
+
+Also, as of tomorrow...Zac and I are at 6 years.  As of today I've known the SLO kids for six years as well.  Wacky, I say."
+"eventtime","2009-07-03 11:20:00"
+"url","http://amphitrite27.livejournal.com/215776.html"
+"userid","647"
+"itemid","840"
+"event","Your results:<BR><B>You are <FONT SIZE=6>Will Riker</FONT></B>
+<TABLE><TR><TD><TABLE><TR><TD>Will Riker</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=90></TD><TD> 90%</TD>
+</TR><TR><TD>Spock</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=77></TD><TD> 77%</TD>
+</TR><TR><TD>Jean-Luc Picard</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=75></TD><TD> 75%</TD>
+</TR><TR><TD>James T. Kirk (Captain)</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=70></TD><TD> 70%</TD>
+</TR><TR><TD>Uhura</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=70></TD><TD> 70%</TD>
+</TR><TR><TD>Leonard McCoy (Bones)</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=65></TD><TD> 65%</TD>
+</TR><TR><TD>Chekov</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=60></TD><TD> 60%</TD>
+</TR><TR><TD>Deanna Troi</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=45></TD><TD> 45%</TD>
+</TR><TR><TD>Geordi LaForge</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=40></TD><TD> 40%</TD>
+</TR><TR><TD>An Expendable Character (Redshirt)</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=40></TD><TD> 40%</TD>
+</TR><TR><TD>Mr. Scott</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=30></TD><TD> 30%</TD>
+</TR><TR><TD>Mr. Sulu</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=30></TD><TD> 30%</TD>
+</TR><TR><TD>Beverly Crusher</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=25></TD><TD> 25%</TD>
+</TR><TR><TD>Worf</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=25></TD><TD> 25%</TD>
+</TR><TR><TD>Data</TD>
+<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=22></TD><TD> 22%</TD>
+</TR></TABLE></TD>
+<TD>At times you are self-centered<BR>  but you have many friends.<BR> You love many women, but the right<BR>  woman could get you to settle down.<BR> 
+<IMG SRC=""http://www.seabreezecomputers.com/startrek/pics/riker.jpg""></TD>
+</TR></TABLE><A HREF=""http://www.seabreezecomputers.com/startrek"">"
+"eventtime","2009-05-14 15:35:00"
+"url","http://amphitrite27.livejournal.com/215061.html"
+"userid","647"
+"itemid","838"
+"event","So if you were going to go to some Burner-esque event that wasn't Burning Man, where would you go?"
+"eventtime","2009-03-25 09:18:00"
+"url","http://amphitrite27.livejournal.com/214729.html"
+"userid","647"
+"itemid","835"
+"event","BFCT?  Yes, no.
+
+Anyone in, out, up down, around?"
+"eventtime","2009-03-16 10:58:00"
+"url","http://amphitrite27.livejournal.com/213772.html"
+"userid","647"
+"itemid","833"
+"event","In the news...
+
+Zac and I and assorted house mates watched the first two episodes of Dexter last night, and that show is messed up!
+
+I got my promotion at work, so now I get to keep my room, where summer (and this weeks temperature) typically get above 90 degrees.  So now I have to find a cooling method.  I also have to find art, so if you have an artist offering, or a photo you are willing to let me steal, I'm looking for something in purple and institutional sea foam green (weird combo I know).
+
+Or I could make something, I guess."
+"eventtime","2009-01-14 09:37:00"
+"url","http://amphitrite27.livejournal.com/213354.html"
+"userid","647"
+"itemid","829"
+"event","I always forget how many zeros are in a million....
+
+but my pile of overdue work is shrinking, so that is something!"
+"eventtime","2008-11-11 14:55:00"
+"url","http://amphitrite27.livejournal.com/212476.html"
+"userid","647"
+"itemid","828"
+"event","I'm glad I came into work yesterday, no matter how hung over I felt.  Today has been reasonably stressful, but it is nice to know that tomorrow I should be able to move and prep a lot of things that have sat for the last week while I was working on Research Corp stuff.  Also I know this is one of the worst places this desk goes too, so it is also nice to know that it'll stop.
+
+The weekend went well.  The LARP (I know) was reasonably fun.  Parts of it were very frustrating, but I got to flirt in character which is always entertaining.  Breakfast was entertainingly large, and fun.  Its always nice having friends in from out of town.  The birthday bar crawl I attended last night went well (for me).  I didn't even spend too much money.  
+
+I do need to get on top of my sleeping habits though, the insomnia has been pretty bad the last few weeks.  
+
+Tonight I'm gonna leave work a little, because I want to get some good quality rest before the rest of my week, and get my highs and lows back under control.
+
+
+Because the fun cometh."
+"eventtime","2008-11-10 14:36:00"
+"url","http://amphitrite27.livejournal.com/212108.html"
+"userid","647"
+"itemid","826"
+"event","Pt and the Docs were reasonably fun today.  I guess even though I've only been doing my PT once a day that's good enough.
+
+The doc says I can walk, but just to remember that it'll take a while for my muscles to get stronger, so I should stay aware.  
+
+My physical therapists says that running my excercises once a day is fine.  I took my straight legging from four to two (with the goal being 0), and my range of motion from 91 to 114 (with the goal being 130-140).
+
+So yipppeeee"
+"eventtime","2008-10-23 11:58:00"
+"url","http://amphitrite27.livejournal.com/211588.html"
+"userid","647"
+"itemid","824"
+"event","Did you get your voter packet?  Did you get a sample ballot?
+
+When did you register?
+
+If the answer to the first two is no, and teh anser to the second is...so long ago I don't remember, call your county clerks office.
+
+Call then right now.
+
+Because apparently the post office is too retarded to find my address, so they (the county clerk) decided that I really should not be voting and deactivated my registration.
+
+Today is the only day to fix these things, so if you didn't get your packet and you don't know why...give them a call ASAP."
+"eventtime","2008-10-20 09:17:00"
+"url","http://amphitrite27.livejournal.com/211038.html"
+"userid","647"
+"itemid","823"
+"event","But it also equals the ouch.  In effort to distract me from me sliding kneecaps, and the sensation of breaking up joint scar tissue, I've enacted Sensei's old push-up plan.  At least kind of, although instead of doing push-ups every hour, I'll be doing push-ups with my PT, twice a day.  Now I'm doing wall push-ups, because, well my legs aren't strong enough to safely hold my knees in, my kneecaps don't like to bend and be on the floor, and my arms are out of shape.
+
+We'll see how long this lasts but I'm tempted to throw in some sit ups too.  Probably in another week or so I'll also join the campus gym, so I can do some biking.  Maybe in a few weeks when I can rotate the whole 360 degrees, I'll go get my bike from Shawn's storage unit. 
+
+Nothing like pain and physical therapy to make me want to get in a shape (note not even good shape, but something).  
+
+Also if anyone has any recommendations for snazzy looking knee supports please let me know.  The therapist's recommendation was to just wrap both knees or support them for hiking and ""dancing (aka hooping and wrestling).  I did make it through most of my excercises without my kneecaps wandering about so that's nice.
+
+Anyone in SLO have a recumbent stationary bike?"
+"eventtime","2008-10-17 13:30:00"
+"url","http://amphitrite27.livejournal.com/210943.html"
+"userid","647"
+"itemid","819"
+"event","The stupid bathroom fixing monkeys still aren't done!  
+
+I dislocated my knee this weekend, and as of today I am still on crutches, and the goddamn bathroom monkeys aren't done yet.  One and a half more weeks to go.  I don't know why Cal Poly is so cheap (well I guess I do), but it will have taken them a month and a half to do accessibility upgrades.  The ""humor"" of the situation is not lost on me.  I can't walk very well, and the bathrooms that I should be able to use that are so close to my office that I can hear people use them, are out of order due to accessibility upgrades.  How about my goddamn accessibility huh?
+
+So I didn't go to work yesterday.  I couldn't face the 1 long hike to the bathroom and back.  Today I will either take the stairs (I'm getting better at that again), or I'll use my golfcart to drive to a different building which will still be faster.  So I stayed home and played Viva Pinata.
+
+I am very appreciate of all the awesomeness that Zac and my friends have provided.  I've had food cooked for me, and I've been chauffeured to and from work and doctors appts.  That part has been awesome, but the ortho better give me some sort of better locomotion method then crutches.  A wheelchair would be acceptable, a walking brace or cast, but I need my hands.  They need to do things like cook food, and craft, and help me balance.
+
+My crutching skills are already coming back, I am more capable of walking and getting up and down stairs.
+
+<b>Edit: the good news is that I am now allowed to slowly start using it again, with a follow up visit in three weeks and physical therapy to follow, to build up my muscles and tendon support to keep this from happening again (or on my left leg).  I did remember to get a disability permit though, since even with an increased ability to use the leg, I'll want to go easy on it for awhile.</b>"
+"eventtime","2008-09-11 10:35:00"
+"url","http://amphitrite27.livejournal.com/209825.html"
+"userid","647"
+"itemid","818"
+"event","In the next three months I have
+
+6 birthdays (holy shit)!
+Knott's scary farm and Magic Mountain's Maze halloween thingy?
+1 visit to the bay area?  
+I need to pick up the white dress for the LARP and/or trip to Laguna Seca
+A visit from out of country people?
+
+God that's busy, which is good....but wow."
+"eventtime","2008-08-20 10:07:00"
+"url","http://amphitrite27.livejournal.com/209587.html"
+"userid","647"
+"itemid","817"
+"event","My submit total for today is about $500,000.  The office is generally submitting things today.  Maybe we'll get some money.
+
+The last few weeks have been long, but I'm doing pretty well comparatively (I know others are having tougher months then I).
+
+I admit I'm  still a bit antsy though...I want to do something different, get out of town, pick up a hobby, something.  I need a bit more of a change in something....
+
+Zac and I are doing well, I like the living together part.  I don't want anymore work challenge...but something different, a new experience...."
+"eventtime","2008-08-14 14:08:00"
+"url","http://amphitrite27.livejournal.com/209258.html"
+"userid","647"
+"itemid","816"
+"event","Today is a slog.  The friend of mine from work passed away this morning, and I think I'm still numb.  Sometimes I'm glad that my reaction to grief, etc is often a slow slide, and a dissociation.
+
+Sometimes it seems bad though too.  But what do you say, what do you do except keep walking forward."
+"eventtime","2008-07-24 10:44:00"
+"url","http://amphitrite27.livejournal.com/209003.html"
+"userid","647"
+"itemid","813"
+"event","Zac sometimes seems to think that Laurel and I are an interesting influence on one another, but nights like last night reinforce my agreement with that position and reinforce my love of it.
+
+No one else I know would have been quite as fun to have along in that special awkward rolling with the weird ass punches way.  No one else would have looked as awkward as I felt buying 60 bottles of baby shampoo at the dollar store (we eventually bought 1,560 oz of shampoo).  No one else would have laughed as much as we demolished the shampoo section of the store, or dealt with my total inability to google map our pool-purchasing location.  And man talking to the weird lady out in the boonies, who just couldn't understand what two wholesome looking young women were going to do with a 15 foot pool that didn't involve swimming, priceless.  Loo also doesn't know what a chicken coop looks like, although we did both agree that we didn't want the rank chicken smelling carpet, but no one could have laughed about it as sweetly, while gagging!
+
+And man the look on her face when I mentioned that maybe people were looking at us weird because we've reached that certain age, you know that one with careers and adulthood where you don't giggle like hyenas in the dollar store while buying enough shampoo to cleanse an army.  OMFG, priceless.  There's things money can buy, and for everything else, there's awesome friends."
+"eventtime","2008-07-16 11:36:00"
+"url","http://amphitrite27.livejournal.com/208189.html"
+"userid","647"
+"itemid","812"
+"event","God I want to take a nap, or buy 100+ botttles of shampoo...anything but be cooped up here!!!!!!"
+"eventtime","2008-07-15 16:03:00"
+"url","http://amphitrite27.livejournal.com/207936.html"
+"userid","647"
+"itemid","810"
+"event","I haz some.  I have co-opted one of V's posts by accident, so I thought I'd write some stuff out here.
+
+<lj-cut>It is weird for me to contemplate how much has changed in the last decade of my life.  In June of 1999 as the SR peeps were organizing their first Caladan, I had just graduated from highschool.  Overall all of those years of schooling and living with my parents were pretty hard and unpleasant  for me (except for the sum total of 15 weeks I spent at nerd camp).  I don't really know why, but I certainly don't feel like I ever had a childhood, or that there is a lot of good that I pulled out of that time of my life.
+
+And then I went to Mudd, and everything changed.  Not everything I guess, I still had a lot of socialization behaviors to learn, a lot of attitudes to change, and I certainly made a number of choices that leave me cringing now, but overall, I feel like the trend of my life was towards goodness for really the first time.  
+
+I remember my first renegade party, up above lake castaic.  I remember Erik asking me if I respected him less, since he was my sponsor and all, the answer of course was no.  I remember sitting on the road with Tom and Dave and watching the night sky turn above our heads.  Sober as I was, I still did feel all of it, that tribal connection or as much as I hate to say it, PLUR.  Something about being away, in the night, in nature, and the minimum level of adversity required to get there, just clicked for me, and I started to understand socialization.  Plus Erik was wearing his silly tigger pants, and a lot of other people were wearing the shiny brightly colored stuff that I had always loved.
+
+Then Purity happened, and years of drama and growing pains.  Years of mistakes, but with that effort, that work, punctuated by trips to the desert.  For a lot of those parties I rode out with the sound crew, and I remember when Erik got the truck with the extended cab, so that at least four people could ride out with the speakers.  There were lots of evenings of long discussion that happened on the way there or on the way back.  Rob and I went out together a lot when we were dating, sometimes with Steph and Morgan, sometimes with other apartment people.  
+
+I learned a lot about personal responsibility, about the freedom to move through space and distance, about how not to treat people, about how I wanted to be treated.  And my memories of all of that are tied to the deserts of CA.  To watching stars fall, and the shadows of desert brambles as the sun rises, coming home with grit all through me, and yet feeling a little cleaner purer and stronger each time.  I still shower before bed because of desert raves, since I never wanted to fall into bed sunday midmorning covered in grit.  
+
+SR and the mudd desert people I knew introduced me to morley, and i remember taking the sex class at Pomona with morley and drew, and adding beads to my animal cookie sweatshirt in class.  Years later, after I graduated, my connection to Morley took my life in a very different direction again (5 years ago next week).  I found SLO, and my connection to them and the awesome changes that I/they/we have wrought in my/our lives are just enormous.
+
+One of my favorite parts of all of this, is that one of my good friends here in SLO...well I've totally followed her across much of CA, and much of our social groupings (although we've been in pretty different emotional/developmental places up until about a year ago).  She new my highschool friends in middle school, she knew Erik the summer before I met him when I started college, she was in SLO not long after that, and moved away right before I started hanging out here.  And its funny to follow the winding paths of people, how you can share so much, and yet not share anything at all, we still can't show that we ever were in the same place at the same time.
+
+And its all interesting, because right now, would be a really great time for me to give my past self a hell-of-a-lot more slack, so that I'm not projecting my lessons and my view of my past self onto others as much.  Instead I want to focus more on the sharing and viewing of things from my perspective here and now, which does include all that I've learned from the past, but trying to keep in mind that while I worked hard to change who I was into who I am, it isn't like there was nothing of value to who I was. </lj-cut>
+
+Or something.  Maybe if we are all very lucky I won't have an even longer mushier less-coherent even then this, after-post."
+"eventtime","2008-06-27 10:42:00"
+"url","http://amphitrite27.livejournal.com/207481.html"
+"userid","647"
+"itemid","807"
+"event","Everytime I use a compressed gas duster I think of Jax and smile."
+"eventtime","2008-06-18 15:22:00"
+"url","http://amphitrite27.livejournal.com/206630.html"
+"userid","647"
+"itemid","800"
+"event","I doubt too many people stop by here with the info I need..but senjo and others still may.
+
+I'm looking for online photos from around february 2002 through to January 2003 from the scr, linde, poop, sr, etc parties.
+
+Sadly I'm doing this so I can link photos and guess what hair I want.  With all the parties going down soon I know I want something cool, but I don't remember how to describe the haircuts that I liked.
+
+If anyone even knows where such an archive is, I'd love to know!"
+"eventtime","2008-04-29 13:34:00"
+"url","http://amphitrite27.livejournal.com/205013.html"
+"userid","647"
+"itemid","799"
+"event","Today is like slogging through fog.  I don't have enough work to get stressed about, which is both good and bad.  Good because I'm too zoned out to accomplish anything easily, and bad because without something to pull my focus in I find myself floating further and further away.  It doesn't help that my sick coworker continues to get worse.
+
+I also doesn't help that somehow I've been too glutened over the last month.  So my back hurts, my hands have been burning for weeks, my brain won't work, I'm not sleeping well, and I cry like a pregnant woman over the weirdest shit.
+
+People ask how I can deal with giving up bread and beer and pasta and eating out.  And its months like this that make it easy.  I don't miss any of this at all.  I don't miss the heavy feeling, the disassociation, the dizziness, etc.
+
+Its easy to give up gluten, but its frustrating to deal with cross contamination and harder to find sources.  Because I don't cheat anymore.  I don't pull the cheese off pizza and eat it, Zac carefully wipes his face and clothes after eating bread so that I don't get it on me, Aaron carefully worried about sharing cups.  To do so much and still get defeated by an invisible enemy is the truly frustrating part.
+
+I am constantly touched by the support my friends give me, Loo knows the rules sometimes better then I do, and carefully notifies about the status of every dish she cooks.  And I'm grateful that I can separate out the physical effects from the perceived emotional outcomes.  But blehhh.
+
+Luckily, by this time tomorrow, everything will be awesome, because there will be mooses and otters at the same time!!!!!"
+"eventtime","2008-04-25 12:27:00"
+"url","http://amphitrite27.livejournal.com/204745.html"
+"userid","647"
+"itemid","798"
+"event","Zac and the Euphoria boys have approved my move, so I'll be joining them in their din of iniquity.   That means that soon visitors to the house will get a delighful guest bedroom outfitted with my firm, pillowtop memory foam mattress, instead of our aerobed.  You'll even get a room with a door and everything.
+
+Now taking requests.
+
+Work should be busy, but isn't.  This is actually making me nervous.  Where is all the work...I know it must be here somewhere.
+
+My life is grand.  OK cupid sucks balls.  Myspace sucks balls, and I'm bored.
+
+Zac's flickr page has our Europe photos up, and there are a few really adorable pics of us.
+
+What low image usage blogs should I read on my iPhone?"
+"eventtime","2008-04-24 14:48:00"
+"url","http://amphitrite27.livejournal.com/204405.html"
+"userid","647"
+"itemid","792"
+"event","So I don't update because I suck. But maybe I'm remembering how to use a keyboard.  Almost all photos are filtered...so if you can't see them you should remind me to take care of business.  Also most of them are stolen from my photog friends (see flickr) so don't be an ass.
+
+<lj-cut text=""Pics and Foo""><br>So Loo threw a BBQ (dude....), with hooping and fun.  That was weeks ago, but a good time.  I've been drinking a LOT more recently, what with one our friends having newly minted bar tending skillz.
+
+Farmers is fun I get to run and yell alot.
+
+I burned a bunny in the desert.  That was pretty okay ;) <br><br><a href=""http://pics.livejournal.com/amphitrite27/pic/0000efkt/""><img src=""http://pics.livejournal.com/amphitrite27/pic/0000efkt/s320x240"" width=""320"" height=""228"" border='0'/></a><br><br> with the only real minor sort of problem being a possible transportation home problem.<br><br> <a href=""http://pics.livejournal.com/amphitrite27/pic/0000drct/""><img src=""http://pics.livejournal.com/amphitrite27/pic/0000drct/s320x240"" width=""320"" height=""213"" border='0'/></a> <br><br>And waiting, which I was never very good at.  But the fireworks were pretty, and the burns were good.  
+
+Last night I got plastered, more old school mudd style at a Hot Pants camping birthday party.  By which I mean, I had a good time, I think I remember everything that happened, and some major bruising.  I guess that's my sometimes local style too.  Bruises on my face hasn't happened since last broom ball at mudd though, and I am tight and sore.  Some unknown quantity <br><br><a href=""http://pics.livejournal.com/amphitrite27/pic/00009twd/""><img src=""http://pics.livejournal.com/amphitrite27/pic/00009twd/s320x240"" width=""320"" height=""212"" border='0'/></a><br> is related to hooping drunked-up, but super fun shite yo.  <br><br><a href=""http://pics.livejournal.com/amphitrite27/pic/00007hc5/""><img src=""http://pics.livejournal.com/amphitrite27/pic/00007hc5/s320x240"" width=""167"" height=""240"" border='0'/></a>
+
+</lj-cut><br>Good times.<br> <a href=""http://pics.livejournal.com/amphitrite27/pic/0000fg8q/""><img src=""http://pics.livejournal.com/amphitrite27/pic/0000fg8q/s320x240"" width=""180"" height=""240"" border='0'/></a>
+
+Then its time to move forward into the future of summer.  April has some cool in town parties.  May 5, or whatever it is, I am gonna go to LA and do the Mudd reunion thing...maybe shop. May 22 or whatever, I have LIB, which should be awesome.  I have a very clear illustration that I should be practicing the hooping more until then so I don't actually liquefy my organs.  June has a very special date and so on.
+
+And its been a year since I in any way knowingly ate wheat."
+"eventtime","2008-03-30 14:09:00"
+"url","http://amphitrite27.livejournal.com/202869.html"
+"userid","647"
+"itemid","791"
+"event","My iPhone is full of the hawtness.  I have love for it.  It has a special icanhascheezburger app, which is really all I ever needed in life.  And the texting is grand.  The calendar doesn't work with my work computer, but hopefully they'll iron that out soon.  Other then that, it mostly makes sense and can be utilized at many sobriety levels."
+"eventtime","2008-03-03 10:59:00"
+"url","http://amphitrite27.livejournal.com/202578.html"
+"userid","647"
+"itemid","789"
+"event","I am concerned that my current obsession will drive a wedge between Zac and I.  See I've found a new love, and at first I told him it would only be a week or two, but my interest grows.  I will not be ready for it to end in another week.
+
+So he will just have to do without his slow cooker.  I'm not gonna give it back yet (right now, next week, this month).  Luckily, I doubt he had major plans for it himself.  I have made deliciousness.  I left rice and milk and canned pumpkin with spices in it when I left for work yesterday and returned to find a delicious holiday food of oatmeal consistency.  How I've missed oatmeal...and pumpkin....mmmmmmmm
+
+This weekend I shall make cranberry pork loin with new potatoes, and a different rice breakfast food, and some veggies.
+
+And I will be FED!
+
+Oh and stew, I wanna make me some stew....
+
+In other news, I feel like talking like Amanda from Ugly Betty, I can hear her distinctive vocal inflections in my head!"
+"eventtime","2007-12-12 13:53:00"
+"url","http://amphitrite27.livejournal.com/202139.html"
+"userid","647"
+"itemid","787"
+"event","I'm too old and jaded.  I also hate hypochondriacs and drama queens.  This post on the celiac LJ pissed me off.
+
+http://community.livejournal.com/celiac/637814.html?view=5310070&style=mine#t5310070
+
+Why act like a victim and boycott the company.  They answered your damn question...and in fact that's my preferred answer.  I'll probably write to them and say I'll preferentially buy their stuff, since they give me what I need on each label.
+
+Why is peoples so STUPID"
+"eventtime","2007-11-26 13:26:00"
+"url","http://amphitrite27.livejournal.com/201700.html"
+"userid","647"
+"itemid","786"
+"event","Some days I'm sad about the way i interact with food now.
+
+Other days I feel honored and pleased to HAVE to eat well.
+
+Today is a great example:
+
+Delicious WF blueberry muffing, soft on the inside with a perfect crumb, and crackly on the top
+Mocha
+
+Salad
+Carrots
+Corn on the Cob
+Pork loin with homemade applesauce
+Nectarine
+
+Tomorrow promises Pizza.
+
+And last night loo and I finished her safe birthday cake...a flourless chocolate torte.
+
+Sometimes this stuff is easy!"
+"eventtime","2007-10-03 12:52:00"
+"url","http://amphitrite27.livejournal.com/201349.html"
+"userid","647"
+"itemid","785"
+"event","<div id=""testResultInfo"">
+      <h1><!--t-->Your Score<!--/t-->: <span>The Otter</span></h1>
+      <h2>Here's your results!  Your spirit animal has a Nobility ranking of 11 out of 18.</h2>
+       <div id=""testResultInfoImg""><img src=""http://is1.okcupid.com/users/760/416/7604165786462999676/mt534582548.jpg""></div> 
+      <p>
+      Your spirit animal is the otter.  Playful, curious and fun animals, they are truly the start of what can be considered a noble creature. Otters are good at figuring things out, and make great friends.  You are lucky to have one as a spirit animal.  Otters are fairly rare as spirit animals.
+
+</p><p>***Wondering how this animal was chosen for you?  These questions were carefully thought out to see how important you hold certain virtues such as: humanism, self-knowledge, rationalism, the love of freedom and other somewhat Hellenic ideals.  Some of the questions were very subtle.  Your score was then matched with an animal of corresponding nobility.  However, you shouldn't think this was a right/wrong sort of test, but more of an idealistic values test.  It's ok to not hold these values, you'll just get an animal spirit of lower stature if you do!***
+      </p>
+</div>
+
+<table cellpadding=20><tr><td><!--t-->Link: <a href='http://www.okcupid.com/tests/7396540237359991942/What-is-Your-Spirit-Animal'>The What is Your Spirit Animal Test</a> written by <a href='http://www.okcupid.com/profile?u=FindingEros'>FindingEros</a> on <a  href='http://www.okcupid.com'>OkCupid Free Online Dating</a>, home of the <a href='http://www.okcupid.com/online.dating.persona.test'>The Dating Persona Test<!--/t--></a></td></tr></table>"
+"eventtime","2007-09-21 16:46:00"
+"url","http://amphitrite27.livejournal.com/201209.html"
+"userid","647"
+"itemid","781"
+"event","SSBoYXZlbuKAmXQgdXBkYXRlZCBtdWNoIGxhdGVseSAoYWthIGF0IGFsbCksIGJlY2F1c2UgSSBuZXZlciBrbm93IHdoYXQgdG8gc2F5Lg0KDQpMaWZlIGlzIGJvdGggbXVjaCBtb3JlIHdvbmRlcmZ1bCBub3cgdGhhbiBJIHRob3VnaHQgaXQgY291bGQgYmUgYW5kIGxlc3MgdGhhbiBJIGhhZCBob3BlZC4gIFBsdXMgSeKAmXZlIGhhZCB0byBjaGFuZ2UgbXkgcGVyc3BlY3RpdmUgZXZlbiBmdXJ0aGVyIG9uIGRlYWxpbmcgd2l0aCBteSBvd24gaGVhbHRoIGFuZCBob3cgdGhhdCBzaGFwZXMgbXkgY3VycmVudCBwaHlzaWNhbCBhbmQgbWVudGFsIHNwYWNlcy4NCg0KPGxqLWN1dD5GaXJzdCwgbXkgcmVsYXRpb25zaGlwIHdpdGggWmFjIGlzIHdvbmRlcmZ1bC4gIFdlIHN0aWxsIGhhdmUgb3VyIG1vbWVudHMgb2YgZnVzc2luZXNzIGFuZCBvdXIgcHJvYmxlbXMuICBPdXIgcGxhY2VzIHdoZXJlIG91ciB3YW50cyBkb27igJl0IG1lc2ggYW5kIHdlIHN0aWxsIGhhdmVu4oCZdCBmb3VuZCB0aGUgd2F5IHRvIG11dHVhbCBoYXBwaW5lc3MuICBCdXQgd2l0aCByYXJlIGV4Y2VwdGlvbnMgdGhvc2UgaXNzdWVzIGFyZSBiZWNvbWluZyBsZXNzIGZyZXF1ZW50IGFuZCBhcmUgZWl0aGVyIGJlaW5nIHJlc29sdmVkIGZhc3RlciBvciBiZWluZyBsZWZ0IGZvciBsYXRlciAod2hlbiB3ZSBtaWdodCBiZSBiZXR0ZXIgYWJsZSB0byBmaW5kIHRoZSBvcHRpbWFsIHBhdGgpIHdpdGggbXVjaCBncmVhdGVyIGVtb3Rpb25hbCBncmFjZS4NCg0KSG91c2luZyBpcyBnb2luZyBtb3N0bHkgcXVpdGUgd2VsbCwgYWx0aG91Z2ggWmFjIGlzIGNvcnJlY3QgdGhhdCBub3cgaXMgcmVhbGx5IHRoZSB0aW1lIHRvIGN1bHRpdmF0ZSBhIGJldHRlciBob3VzaW5nIG91dGxvb2sgZm9yIG15c2VsZi4gIFdoYXQgSSBtZWFuIGJ5IHRoYXQsIGlzIGluY3JlYXNpbmcgbXkgb3duIGFiaWxpdHkgdG8gbGl2ZSBpbiBhIHJlYXNvbmFibGUgbWFubmVyLCBuZWl0aGVyIHRha2luZyB0b28gbXVjaCBvZiBhIHNlbGZpc2ggYXR0aXR1ZGUgYWJvdXQgbXkgKnBlcnNvbmFsIHNwYWNlKiBub3Igc2FjcmlmaWNpbmcgdG9vIG11Y2ggZm9yIG15IHJvb21tYXRlLiAgRm9yIGV4YW1wbGUsIGxlYXJuaW5nIGhvdyB0byBzdGF0ZSBteSBvd24gYm91bmRhcmllcyBhYm91dCBjbGVhbmxpbmVzcywgYW5kIHVzZSBvZiByZXNvdXJjZXMsIGFuZCBmZWVsaW5nIGZyZWUgdG8gdXNlIHRoZW0gYXMgYW4gZXF1YWwsIHRoZXJlYnkgbWluaW1pemluZy9lcmFkaWNhdGluZyB0aGUgcHVzaCB0byB0YWtlIGluIGNsdW1wcy4gIEkgZmlndXJlIGl0IHdpbGwgYmUgZ29vZCBmb3IgbWUhDQoNCldvcmsgY29udGludWVzLCBpdCBpcyBzdGlsbCBzb21ldGltZXMgY2hhbGxlbmdpbmcsIGFuZCBJIHdhaXQgcGF0aWVudGx5IHRvIGhlYXIgYWJvdXQgbXkgcHJvbW90aW9uIHJlcXVlc3QgKGNvdWxkIGJlIHNpeCBtb250aHMgdW50aWwgSSBoZWFyLCBzdHVwaWQgc3RhdGUpLg0KDQpBcyBmb3IgaGVhbHRoLCB0aGF0IGlzIHN0aWxsIHRoZSBzdGlja2llc3QuICBJdCBzZWVtcyBjbGVhciBub3cgdGhhdCBJIGFtIGdsdXRlbiBpbnRvbGVyYW50L3doZWF0IGFsbGVyZ2ljL2EgY2VsaWFjLCBhbHRob3VnaCB3aGljaCBvbmUgc3BlY2lmaWNhbGx5LCBpcyBtdWNoIGxlc3MgY2VydGFpbi4gIElmIEkgZG9u4oCZdCBlYXQgaXQsIGV2ZXJ5dGhpbmcgaXMgYmV0dGVyLCB0aGUgcGFpbiB0aGF0IHBsYWd1ZWQgbWUgZm9yIGFsbW9zdCBhIHllYXIgZGlzYXBwZWFycyBhbmQgbXkgYWJpbGl0eSB0byBjb250cm9sIG15IG1lbnRhbCBoZWFsdGggZHJhc3RpY2FsbHkgaW5jcmVhc2VzIGFzIGRvZXMgbXkgc2FuZSBlbmVyZ3kgKG5vdCBtYW5pYSkuICBTbyBhbGwgdGhhdCBpcyBncmVhdCEgIElmIEkgZWF0IHdoZWF0L2dsdXRlbiwgaXQgYWxsIGNvbWVzIGJhY2sgdmVyeSBxdWlja2x5Lg0KDQpUaGUgaGFyZCBwYXJ0IGZvciBtZSBpcyBub3Qga25vd2luZyBmb3Igc3VyZS4gIFRlc3RpbmcgKGJvdGggd2hlbiBJ4oCZdmUga25vd24gYWJvdXQgZ2x1dGVuIEnigJl2ZSBlYXRlbiBhbmQgd2hlbiBJIGhhdmVu4oCZdCkgaGFzIHNob3duIHRoYXQgdGhlcmUgaXMgYSBjb25uZWN0aW9uLiAgQnV0IHRoZSBkb2N0b3JzIHdpbGwgbm90L2hhdmUgbm90IHRlc3RlZCBtZSBjb3JyZWN0bHkuICBTbyBmb3Igbm93IEkgaGF2ZSBtb3N0bHkgYWJhbmRvbmVkIHRoZSBpZGVhIG9mIGdldHRpbmcgYW4gYWN0dWFsIGRpYWdub3NpcyBmcm9tIGEgcHJvZmVzc2lvbmFsLiAgVGhpcyBtYWtlcyBtZSB1bmNvbWZvcnRhYmxlLCBJIGZlZWwgYXMgaWYgSSBhbSBtYWtpbmcgdXAgc29tZXRoaW5nLCBhbmQgYSBsb3Qgb2YgbXkgZnJpZW5kcyBhY3QgYXMgaWYgbm90IGVhdGluZyB3aGVhdCBpcyBsaWtlIHRoZSBwZW9wbGUgd2hvIGFyZSBvbiBBdGtpbnMsIHRoYXQgY2hlYXRpbmcgaGFzIG5vIGNvbnNlcXVlbmNlcy4gIFlldCBpdCBjbGVhcmx5IGRvZXMsIHNvIGl0cyB2ZXJ5IGhhcmQgZm9yIG1lIHRvIHN0YXkgb24gdGhlIHdhZ29uLiAgU29tZSBwZW9wbGUsIG5vdGljZWFibHkgWmFjIGFuZCBMYXVyZWwgYW5kIEplZmYgYXJlIHZlcnkgc3VwcG9ydGl2ZSwgb3RoZXJzIG5vdCBzbyBtdWNoLiAgQW5kIEkgdW5kZXJzdGFuZCB3aHkuICBXaXRob3V0IGEgZG9jdG9y4oCZcyBkaWFnbm9zaXMgaXQgY291bGQgYWxsIGJlIHBzeWNob3NvbWF0aWMgKGFsdGhvdWdoIGFjY2lkZW50YWwgaW5nZXN0aW9uIHNvbWV3aGF0IGRpc3Byb3ZlcyB0aGlzIHRvIG1lKSwgYW5kIGl0IGlzIGEgcmFwaWRseSByaXNpbmcgZGlhZ25vc2lzIG5vdy4gIFNvIGlzIHRoYXQgaHlwZXJhY3RpdmUgaHlwb2Nob25kcmlhY3MsIG9yIGlzIGl0IHJlYWw/DQoNCklzIHRoaXMgYWxsIGp1c3QgYSBxdWVzdCBvbiBteSBwYXJ0IGZvciBzeW1wYXRoeSBvciBhdHRlbnRpb24/ICBIb3cgZG9lcyBvbmUgZ2l2ZSB1cCB3aGVhdCB3aXRob3V0IGJlaW5nIHVuYWJsZSB0byBwYXJ0aWNpcGF0ZSBpbiBncm91cCBkaW5uZXJzIG9yIHdpdGhvdXQgcmVxdWlyaW5nIHVucmVhc29uYWJsZSBlZmZvcnQgb24gdGhlIHBhcnQgb2YgdGhlIGhvc3RzPyAgSSBuZXZlciB3YW50ZWQgdG8gYmUgdGhpcyBkaWZmZXJlbnQsIGFsdGhvdWdoIHRoZSBmcmVlZG9tIGZyb20gcGFpbiBhbmQgdGhlIG11Y2ggZ3JlYXRlciBjb250cm9sIG92ZXIgbXkgbWVudGFsIHN0YXRlIGVucmFwdHVyZSBtZS48L2xqLWN1dD4="
+"eventtime","2007-07-19 11:52:00"
+"url","http://amphitrite27.livejournal.com/199977.html"
+"userid","647"
+"itemid","777"
+"event","QnVzeSwgYnVzeSwgYnVzeSwgYnVzeeKApuKApuKApi4NCg0KU2FkbHkgZW5vdWdoIEnigJltIGp1c3QgbWFuYWdpbmcgdG8gcHVsbCBvdXQgb2YgYSByZWFsbHkgd2VpcmQgcGhhc2UuICBOb3QgcXVpdGUgYSBtYW5pYyBwaGFzZSAoYXQgbGVhc3Qgbm90IG15IG5vcm1hbCByYXBpZC1jeWNsaW5nKS4gIFdvcmtpbmcgb24gc2xlZXBpbmcgbW9yZSwgYW5kIHNsZWVwaW5nIG5hdHVyYWxseSAoeW91IHRoaW5rIHRoYXQgd291bGQgaGF2ZSBiZWVuIGEgaGludCBodWg/KS4NCg0KQnV0IG1vc3RseSBsaWZlIGlzIGdvb2QuDQoNCknigJl2ZSBnb3QgYSBkZWxpZ2h0ZnVsIFphYyBpbiBteSBsaWZlLiAgQW5kIGEgd29uZGVyZnVsIG5ldyByb29taWUsIGluIGEgY3V0ZSwgb3Zlcmx5IHBpbmsgbGl0dGxlIGNvbmRvLiAgV2UgaGF2ZSBnaXJs4oCZcyBuaWdodHMgYW5kIHdhdGNoIEFtZXJpY2HigJlzIG5leHQgdG9wIG1vZGVsLiAgSSB3YW50IHRvIHNwZW5kIG1vcmUgZ29vZCBzb2NpYWwgdGltZSB3aXRoIG15IGZyaWVuZHMgdGhpcyBzdW1tZXIsIG1vcmUgZ29vZCBjb252ZXJzYXRpb25zLCBtb3JlIGZ1biwgZXRjLg0KDQpXb3JrIGlzIGZpbmFsbHkgc3RhcnRpbmcgdG8gdHVybiBhcm91bmQuICBUaGUgbmV3IGJvc3Mgc2VlbXMgbGlrZSBzaGXigJlzIGdvaW5nIHRvIHJlYWxseSBnaXZlIG91ciBvZmZpY2UgdGhlIHN1cHBvcnQgd2UgbmVlZCB0byBhY2hpZXZlLiAgV2hpY2ggYWxzbyBwcmV0dHkgZGlyZWN0bHkgd2lsbCBpbmNyZWFzZSBib3RoIG15IGR1dGllcyBhbmQgcGF5LCB3aGljaCBJIGxpa2UuICA7KQ0KDQpMb3RzYSB0aGluZ3Mgb24gdGhlIGJ1cm5lci4gIExpZ2h0ZW5pbmcgaW4gYSBCb3R0bGUsIGZhcm1lcuKAmXMsIGxvY2FsIGRpbm5lciBuaWdodHMsIGVzdHJvZ2VuIHBhcnRpZXMsIFJvY2t5LCBldGMuICBJ4oCZbSBleGNpdGVkIGFib3V0IGl0IGFsbC4NCg0KQXMgZm9yIG90aGVyIHRoaW5nc+KApi53ZWxsIEkgd2lzaCBteSBoZWFsdGggd2FzIGJldHRlci4gIFRoZSBtaWdyYWluZXMgYXJlIG1vcmUgdW5kZXIgY29udHJvbCBidXQgdGhlIGFiZG9taW5hbCBwYWluIGlzIHN0aWxsIGFyb3VuZC4gIEkganVzdCB3aXNoIEkgaGFkIGFuc3dlcnMuICBJdHMgc28gaGFyZCB0byBkbyB3aGF0IGZlZWxzIGxpa2UgdGhlIGNvcnJlY3QgdGhpbmcsIHdpdGhvdXQgYSBsb3Qgb2Ygc3VwcG9ydC4gIEFsbCB0aGUgbWVzc2luZyBhcm91bmQgd2l0aCBteSBkaWV0LCBhbmQgdGhlIGFjY29tcGFueWluZyBiYWNrIGFuZCBhYmRvbWluYWwgcGFpbiBoYXZlIGFsc28gZ2l2ZSBtZSBleGN1c2VzIHRvIGN1dCBkb3duIG9uIGV4ZXJjaXNlLCBzbyBJ4oCZbSBjcmVlcGluZyBiYWNrIHVwIHRvIG15IGNvbGxlZ2Ugd2VpZ2h0LCBhbmQgSeKAmW0gbm90IHN1cmUgd2hhdCB0byBkbyBhYm91dCB0aGF0LiAgQmVjYXVzZSBteSBiYWNrIGFuZCBzb21ldGltZXMgbXkgYWJkb21lbiBqdXN0IGh1cnQgdG9vIG11Y2ggdG8gZG8gYW55IGV4ZXJjaXNlIHdpdGhvdXQgcmVzb3J0aW5nIHRvIHBpbGxzLiAgSXRzIGhhcmQgdG8gbGl2ZSB3aXRoIHRoZSBjb25zdGFudCBhY2hlIHdpdGhvdXQgY2Vhc2UuDQoNCkJ1dCBlbm91Z2ggY29tcGxhaW5pbmcsIGxpZmUgaXMgZ29vZC4gIEkgbG92ZSBhbGwgbXkgZnJpZW5kcyB3aG8gYXJlIGhhdmluZyB0b3VnaCBnb2VzIG9mIGl0IHJpZ2h0IG5vd+KApnlvdSBrbm93IEnigJltIGhlcmUgZm9yIHnigJlhbGwuDQoNCkFsc28gaGF2ZSBhIGJsYXRhbnRseSBvYnZpb3VzIHF1aXohDQoNCjxoNT5JIGZlZWwgbG92ZWQgd2hlbi4uLjwvaDU+PGgyPlRoZSBGaXZlIExvdmUgTGFuZ3VhZ2VzPC9oMj48aDM+IE15IFByaW1hcnkgTG92ZSBMYW5ndWFnZSBpcyA8Yj5QaHlzaWNhbCBUb3VjaDwvYj48L2gzPjx0YWJsZSBib3JkZXJjb2xvcj0iIzgxOUNFMiIgd2lkdGg9IjI1MCIgYmdjb2xvcj0iI0MyQ0FFMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIzIiBib3JkZXI9IjEiPjx0aCBjb2xzcGFuPSIyIj48Yj5NeSBEZXRhaWxlZCBSZXN1bHRzOjwvYj48L3RoPjx0ciBiZ2NvbG9yPSIjRkJGQ0ZGIj48dGQ+UGh5c2ljYWwgVG91Y2g6IDwvdGQ+PHRkPjExPC90ZD48L3RyPjx0ciBiZ2NvbG9yPSIjRTVFQkZGIj48dGQ+UXVhbGl0eSBUaW1lOiA8L3RkPjx0ZD44PC90ZD48L3RyPjx0ciBiZ2NvbG9yPSIjRkJGQ0ZGIj48dGQ+QWN0cyBvZiBTZXJ2aWNlOiA8L3RkPjx0ZD41PC90ZD48L3RyPjx0ciBiZ2NvbG9yPSIjRTVFQkZGIj48dGQ+V29yZHMgb2YgQWZmaXJtYXRpb246IDwvdGQ+PHRkPjU8L3RkPjwvdHI+PHRyIGJnY29sb3I9IiNGQkZDRkYiPjx0ZD5SZWNlaXZpbmcgR2lmdHM6IDwvdGQ+PHRkPjE8L3RkPjwvdHI+PC90YWJsZT48aDM+QWJvdXQgdGhpcyBxdWl6PC9oMz48cD4gVW5oYXBwaW5lc3MgaW4gcmVsYXRpb25zaGlwcyBpcyBvZnRlbiBkdWUgdG8gdGhlIGZhY3QgdGhhdCB3ZSBzcGVhayBkaWZmZXJlbnQgbG92ZSBsYW5ndWFnZXMuICBJdCBjYW4gYmUgaGVscGZ1bCB0byBrbm93IHdoYXQgbGFuZ3VhZ2UgeW91IHNwZWFrIGFuZCB3aGF0IGxhbmd1YWdlIHRob3NlIGFyb3VuZCB5b3Ugc3BlYWsuPC9wPjxwPlRhZyAzIHBlb3BsZSBzbyB0aGV5IGNhbiBmaW5kIG91dCB3aGF0IHRoZWlyIGxvdmUgbGFuZ3VhZ2UgaXMuPC9wPjxwIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly9lZGlmaWVkLm9yZy9teXNwYWNlL2xvdmVsYW5ndWFnZSI+PGZvbnQgZmFjZT0iVHJlYnVjaGV0IE1TIiBzaXplPSIrMSI+VGFrZSB0aGUgUXVpeiE8L2ZvbnQ+PC9hPjxicj48YSBocmVmPSJodHRwOi8vd3d3LmFtYXpvbi5jb20vZ3Avc2VhcmNoP2llPVVURjgma2V5d29yZHM9Rml2ZSUyMExvdmUlMjBMYW5ndWFnZXMmdGFnPWVkaWZpZWQtMjAmaW5kZXg9YmxlbmRlZCZsaW5rQ29kZT11cjImY2FtcD0xNzg5JmNyZWF0aXZlPTkzMjUiPjxmb250IGZhY2U9IlRyZWJ1Y2hldCBNUyIgc2l6ZT0iLTIiPkNoZWNrIG91dCB0aGUgQm9vazwvZm9udD48L2E+DQo8L3A+"
+"eventtime","2007-03-22 10:20:00"
+"url","http://amphitrite27.livejournal.com/199152.html"
+"userid","647"
+"itemid","775"
+"event","What would you do with your life if you could do anything, if money, while needed wasn't the major issue?
+
+Or maybe the question is, what would I do.  How would I go about doing it, how would I know what to do?
+
+What is my actual drive?  If I have to work to fill my time and make some extra money, is there something more fulfilling to DO?
+
+One of the thinsg I've considered for years is what to do about the sex education problem I see in the schools.  What I don't know is how to figure out if the problem is that schools can't get the correct information, or if its that they won't use what is available.
+
+But I'm tired of watching people get hits by STD's, and more tired of seeing scare tactics used with things like HPV.  I want to change that, and I think in some ways it may be possible.
+
+But where to start?  Does anyone ever know where to start?  I'm bad at jumping into things, but it seems like jumping in is the only way.
+
+But I can see a need for better classes, better assemblies, better videos, better discussions of sexuality in colleges, at highschools, in middle schools...
+
+And I don't like my work, it doesn't fulfill me in any way, there's got to be more...and it seems like that more, is following a calling during your daylight hours."
+"eventtime","2006-12-13 12:59:00"
+"url","http://amphitrite27.livejournal.com/198604.html"
+"userid","647"
+"itemid","773"
+"event","If you need something funny to read, especially if you will be cooking thanksgiving this year for your friends and family....
+
+Read This:
+
+http://www.themorningnews.org/archives/how_to/how_to_cook_thanksgiving_dinner.php"
+"eventtime","2006-11-20 17:28:00"
+"url","http://amphitrite27.livejournal.com/198095.html"
+"userid","647"
+"itemid","771"
+"event","What if many of the things you used to define self, suddenly became the result of chemistry and biology?  What does that mean about self?  What if you could have changed one thing in your life that might have affected almost everything since that point?  Even if the differences aren't negative, would you still feel a little confused when you look in the mirror?
+
+All in elementary school I stood in the back (or second-to-back) row for class pictures. I was one of the tall kids, always a little rounder and a little shyer, but pretty much average in every way.  Then one year (my parents and I can't remember which one exactly, maybe 4th, 5th, 6th), I looked up and I was the short child.  Within one year I went from being tall, to  being one of the shortest people I knew.  My parents and I assumed that was just the way of things, that I was a ""late bloomer"", or that I was naturally short, but current data suggests that isn't true.   
+
+Looking at data that correlates parent height to offspring height probability, I'm not even on the chart (although my parents are above the median).
+
+Since around that time, maybe a few years later, I've had these blisters on my skin that aren't athletes foot or an infection, but that just appear and disappear.  They itch at night and they hurt during the day.  I never really talked to a doctor or dermatologist about them, they were just annoying.  Then a friend mentioned he had the same thing, and had been told it was some sort of immune response.  I've thought about that in my head for awhile.
+
+In March I started getting migraines, and then in July, I started having abdominal pain.  And then I started looking and reasearching...and there are some possible explanations.  One of which is that I've spent my life slowly poisoning myself with gluten.  The below are possible side effects of eating gluten if you are intolerant that I may have to soem extent or another: <lj-cut>
+
+Short stature
+Bone density loss or malformation (like the levoscoliosis no one mentioned I had)
+arthritis or other joint problems 
+abdominal pain
+migraines/headaches
+poop issues
+nausea
+anxiety
+depression
+autism/autistic spectrum disorders and behaviors
+brain fog
+weight gain (often in children whose bodies are attempting to grow while malnourished, might explain why i was so chubby until my miud twenties, when i lost ten pounds without trying about when my growth spurt should have stopped)
+tooth enamel loss 
+unexplained anemia
+fatigue
+an itchy skin rash, most itchy at night</lj-cut>
+
+I don't know what to do.  I know I shouldn't think too much and skew the data...but this all seems very possible to me.  Would I have been a different person if I'd eaten less gluten all my life (especially in the recent post-highschool years).  The past doesn't matter, but somehow my sense of self seems more tenuous."
+"eventtime","2006-10-12 12:09:00"
+"url","http://amphitrite27.livejournal.com/197546.html"
+"userid","647"
+"itemid","770"
+"event","So anyone who's seen me recently and isn't actually getting married has probably heard about both of my major obsessions right now. (Well maybe there are three, but one is a corollary).
+
+1.)  Hoops.  Big heavy weighted hula hoops.  As soon as my lunch talks about staying quietly inside of me, I'll probably got out and play for fifteen minutes.  The good news is that I can keep the thing up and rotating around my waist in either direction.  I also have not bruised myself yet (probably because my hoops are still lighter than the average adult hoops), although I did make a strong effort to bite my tongue off last night trying to hoop around my neck.  And I can even walk a little bit with a hoop going.   The bad news, is that I'm impatient and get easily frustrated if things don't get easier very quickly.  I need to continue trying to keep this interest going.  
+
+2.)  My CSA box.  This is week three, and I'm already noticing a few things.  I get a lot of salad now.  I'm getting faster/smarter about my monday night meal prep.  I have this complicated system, I find out on friday what items will likely be in my box.  The next day or so, I figure out what I want to make out of those items.  Sunday I hit up the grocery store.  Monday I rocket out of work at 5pm, to go pick up my box.  And then I rush home and start water boiling, the oven going, chopping, slicing, roasting.  I'm adding more fresh herbs then I've used in total before this.  I'm forcing myself to like tomatoes and some of my other dislike foods.  (I've had more summer squash over the last few weeks, than I've eaten in total before).  The first week I finished cooking at 10:30, last night I was done at 9.  This is probably in part due to the repetitive nature of seasonality, so far while the boxes aren't exactly the same, they are very similar.  So all three weeks I've mostly relied on very similar dishes, giving me a better chance to actually cook them properly, try out some modifications (some very unsuccessful), and see what there is to learn.
+
+This CSA thing has caused some other changes.  I'm back on the mostly vegetarian accidental wagon.  When you have a box of veggies as big as your torso, and you cook for your entire week on monday night, using a vegetarian cookbook, you just don't add meat.  I may try to work in more eggs, but I tend to beleive that between the mild I drink, the cheese, and the wide array of whole grains and veggies....I'm getting enough protein.  And meat is just a pain, it has to be handled carefully, cooked carefully, stored carefully, etc.  And I was never good with cooking meat anyway.  So all my meat comes from meals out, a status that I am fine with.  Since I do a lot of cooking, I've even started making my own bechemel sauces, poaching fruit, some real expansions (once again, made easier by not having to deal with meat safety).  I also have a cute little lunchbox system.  But since I eat so many veggies without a lot of stuff, I eat pretty big lunches now.  I do get home cooked lunch every day at work, and I only have to spend about ten minutes every night, packing it up.
+
+<lj-cut text=""menu"">
+Poached Asian pears (in syrup and once in wine)
+Fresh apples
+tomato soup (finally got a palatable version last night)
+lettuce all the time
+Spicy corn and tomato pasta (liked the corn, will ditch the pasta next time)
+Spinach and millet chowder
+Summer Squash and brown rice gratin
+Roasted carrots, potatos, and turnips with thyme
+tomato and herb biscuits
+Braised radishes
+Marinated radishes
+Grapes
+Cauliflower gratin with onions and tomatillos
+
+And I think that's all I've tried over the last three weeks.</lj-cut>
+
+Now I want to go U-picking some weekend.  Chill out, get more produce.  I've definitely been trying to focus on fresh veggies and whole grains that aren't wheat, and I feel pretty good (except when I crack and eat very poorly!)."
+"eventtime","2006-10-03 14:00:00"
+"url","http://amphitrite27.livejournal.com/197375.html"
+"userid","647"
+"itemid","769"
+"event","Respond to this post and I will give you the three words that I think most accurately describe you. Post this in your journal. Do it now!"
+"eventtime","2006-07-21 12:15:00"
+"url","http://amphitrite27.livejournal.com/196958.html"
+"userid","647"
+"itemid","767"
+"event","Oh my gods, thank you whoever.
+
+I slept last night, probably the best I've slept in weeks.  Oh god does life seem so much better.
+
+The cat seems better BMan seems better.  Life, life seems okay.
+
+
+God, maybe I'll found a new religion based on sleep.  Too bad the new sleep drugs taste like vomit-mold.  Probably tomorrow I'll buy something else with melatonin and valerian in it.
+
+And oh sweet jebus the dreams.  At least tehy're niceish usually and I still sleep.  Sweet sweet sleep."
+"eventtime","2006-07-18 09:17:00"
+"url","http://amphitrite27.livejournal.com/196574.html"
+"userid","647"
+"itemid","766"
+"event","Dear PTB
+
+Well between still not being able to sleep well (which also means I don't get/want to stay over at Zac's too much, why make two people miserable), and some people around me being not okay (which is sad), oh and my cat getting sick again, the boss being out leaving me to play middleman again...etc, I am noticeably less okay then I would like.
+
+I really need one of these to clear up.  I'll take sleep first.  Then pick whatever you prefer.
+
+With much hope and no some small amount of dejection,
+Trish"
+"eventtime","2006-07-17 09:47:00"
+"url","http://amphitrite27.livejournal.com/196175.html"
+"userid","647"
+"itemid","764"
+"event","I'd read a lot of personal accounts before I got my tubal (at 25), but I was still surprised by some parts of the process, so I thought I'd add one more voice to the sterilization camp.
+
+So I've been on one version of the pill or another for about eight years.  The last few years I've been taking Zovia using the Seasonale schedule (one period about every three months).  I'm also a light smoker (one a day-ish).  Started to be that I was getting strange pains in my arms and legs, and then I started getting Terrible migraines a few days into each period.  A few cycles of that and I was done.  I'd heard it was hard to get sterilized so I hadn't pressed the issue, but I was done with hormones, don't like condoms (I'm in a safish fluid bond), and wasn't willing to get an IUD.  Why futz around with a mildly to overwhelmingly painful thing multiple times, if I could just get it all done?  Don't understand children, don't like responsibility, and much of the time my SO and I act like kids anyway, so we get plenty of loud rudeness and manic spasticness without kids.
+
+<lj-cut>I was Lucky since I live in the great state of CA.  I walked in to talk to my gyn.  I had a list, and essay that included medical reasons for sterilization above other BC methods and a longer list of reasons why I didn't want/couldn't/shouldn't have children.  I didn't really need the lists at all.  It just took a sincerity of purpose and a clear understanding that this permanency was what I wanted.  That I never wanted children, especially not from my own body.  She just agreed to give me a tubal ligation.  Since she is understanding of the desire to not want children she does aggressive tubal ligation, where up to three inches of each tube are fried, not just the half inch to an inch some doctors do.  That makes it even more irreversible (which is fine), but also probably lowers the incidence of pregnancy afterwards.  My only complaint about the interaction before op was that since my gyn is so used to giving these, she didn't talk too specifically about the pre-op procedures, so I was a bit disturbed by some ""surprises"" the day of, that I hear are typical procedure.
+
+One surprise was the phonecall with the operation clinic a few days before.  Do NOT take/make this call at work.  They asked a whole bunch of prying medcal questions, probably more than thirty minutes worth.  So the night before the operation I couldn't eat after midnight, and I had to take out ALL my piercings before surgery. I was due at the med clinic by 8 am, scheduled to be on the table by 9.  My SO came by and picked me up to take me over, since he is strongly in the no kids camp too.  I was really nervous, since it seems a little scary to have a Medical Procedure as a method of BC.  I know in the long run its safer then getting pregnant or having multiple abortions, etc, but it still seemed scary.  At the check in desk they asked more prying questions.
+
+About ten minutes after I checked in I got called in to pre-op.  I don't know if I could have asked for my SO to come with me then, I kinda wish I had.  Once inside I got to change into the fun medical gown and cap.  We went over a checklist of what I was wearing as they got put into my belongings bag (I was wearing not much, why wear a bra to a clinic only to take it off, and then not want/be able to put it back on?).  I got my two medical bracelets, although they had to fix my alert bracelet since they got it wrong.  Always check your data, make sure they know your allergies, medical needs, etc, people make mistakes.  The EKG patches were attached, and I was so nervous I almost failed the blood pressure requirements, even though my blood pressure is usually low.  I found out then that I was going to be intubated and get a catheter, apparantly typical practice, but no one had told me before, and that made things seem scarier.  Then I got little circulation booties.  Then I got the IV.  This was another unpleasant surprise, because whenever I've gotten an IV before I've gotten some sort of gas, or anti-panic/pain...something.  I assumed the same would happen here, but nope, just a shot of lidocaine that didn't even take full effect before they inserted the IV.  That was unpleasant.  They started running a saline bag immediately, and it was strange and cold, and I could feel the cold liquid move up my arm, which was weird.  At this point I admit to crying, I'm a control freak, and I had none in this situation.  So they went and got my SO, and he sat and cheered me up for about twenty minutes before I went into the OR.
+
+On the way in they gave me some rad/strong sedative to keep me calm....and/or it was the actual general, because while I remember a little about the OR itself, I was out pretty fast.  So I got a laparoscopic tubal ligation.  They cut two ting incisions, one in my belly button, and one right about at the top of my pubic hair.  They also inserted some sort of equipment vaginally (possibly up through the cervix as well, I don't know).  They then pump your abdomen up with CO2, to get some space to work with their equipment.  My doctor then inserted two electrodes into each fallopian tube and ran an electric current through the tube, effectively electrocuting them closed between the electrodes.  They then closed me up with one dissolving stitch and some glue, and let me wake up.  The whole procedure took about a half hour of unconscious time.
+
+Waking up was really hard for me, and I wasn't expecting that.  I had read about the pain from the gas, and about the nausea, but I wasn't ready for cold and shock, and how strong the combination of all three would be.  I woke up on my side in the typical vomit recovery position, with all the wires and tubes hanging around (the catheter and intubation were gone though).  I can't remember which I noticed first but I was sooooo cold, and so sick, and in such weird pain.  I understand pain, sometimes I like it, I know how to breath through most pain and ride the endorphins.  But this pain was different, it was like little knives inside me, and I had more trouble then usually riding it.  I felt awfully sick, but I didn't vomit and they added something helpful to my IV that worked in about 5 minutes.  They covered me with a rad hot air circulating blanket that wramed me up very fast.  On the subject of warmth.  If they let you wear your own socks, wear winter ones, it really is COLD when you wake up.  They gave me some morphine or something for the pain to bring it down to a bearable level and brought my SO in.  
+
+After about 30-40 minutes, when I was talking coherantly and seemed able to move reasonably well under my own steam they let me leave.  Since my insurance coverage is rad (hooray for state jobs), the whole procedure cost me nothing, so I just got to walk out of the clinic.  I felt awful shakey, but it was bearable.  We got back to my place at 11, so we'd only been gone about three hours for the whole procedure.  The nausea was pretty much gone so I slowly ate some bland food and lay down on the couch.  The gas is pretty uncomfortable the first day, and if you lie down it stays localized, but anytime I stood up I got shooting level 9 pain in my shoulders.  That got better after a couple hours and/or I got bettere about taking my full dosage of painpills, and that night I actually made it out to dinner with my friends.  My throat also hurt a lot from the intubation, by the end of the night I couldn't speak well.
+
+After that first day recovery was pretty swift.  I still felt a little unsteady for a few days, the gas (and the periodic pain it caused) was present in decreasing levels for about a week.  The incisions pulled a little painfully for about a week, especially if I drove to quickly and had to make sharp turns.  There was some spotting for about a week, the first day very noticeably, after that, pretty minor stuff.  My hand still hurts a little where the IV went in after a week and a half, but all other effects are gone. I was lifting things and having sex a week after the procedure.  All in all the first day was bad, the next few days I had to be careful not to work too hard, and to supervise my friends moving, not lift.  For another five days or so I told people not to lift me or poke me in the belly, but at this point those all seem fine.  Once the glue comes out of my belly button, I'd call the whole thing done.  Its possible that I may still tire more easily, but my sleep schedule is normally erratic/useless, so that could just be unrelated.</lj-cut>
+
+So parts were hard, but not any harder as far as I can tell then getting an IUD or Essure. I'm happy with the whole experience, and for those who wat to get fixed, its not too bad, and now I'm done.  No more daily pill alarm for me!  I'll have to watch for pregnancy in case I'm one of the unlucky ones, but thats to be expected."
+"eventtime","2006-07-12 11:09:00"
+"url","http://amphitrite27.livejournal.com/195610.html"
+"userid","647"
+"itemid","765"
+"event","Also check out the wiki article on chimera's.  People, plants, and animals with multiple sets of different chromosomes in different parts of the body!
+
+http://en.wikipedia.org/wiki/Chimera_(genetics)
+
+Especially note the eww factor of fetal chromosomes moving into the mother's body and persisting for up to 27 years!!
+
+EEWWWWWWWWWWW!
+
+But very interesting science, could change a lot of our perceptions about biology and DNA, as well as the obvious issues of DNA testing."
+"eventtime","2006-07-12 11:09:00"
+"url","http://amphitrite27.livejournal.com/196089.html"
+"userid","647"
+"itemid","761"
+"event","Just so people know.  The surgery went well.  Zac has been watching me like a hawk to be sure I take care of myself...and recovery seems pretty easy.
+
+I'll post more later ;)"
+"eventtime","2006-06-30 19:01:00"
+"url","http://amphitrite27.livejournal.com/194836.html"
+"userid","647"
+"itemid","760"
+"event","Oh man I didn't plan so well.  My tubal is currently scheduled for July 18th.  Some online websites (real medical ones) state that you shouldn't be lifting for 6-8 weeks.
+
+Uhh BMan packing starts six weeks after my sugery.  I may be moving it on short notice.  I also still haven't figured out how I'm dealing with the day of and the ride home or if I think I'll want someone at home with me that day.  Knowing me I'll just power through it, but I should probably go over these things NOW, and make sure I don't need to change the date.
+
+D'oh.  So I may be going in later this month instead of next month, especially since I'm in charge of building our shower structure.  And I don't like being a burden on a group.
+
+Also I'm exhausted today.  I effectively got sleep between 10:30 and 12:30 last night and that's all.  I may have drifted off for 30 minutes here and there, but nothing totally constructive.  I think I'm gonna try drug free sleeping for the next few days, with the assumption that I have nothing exciting to do or fuss this weekend, and therefore little likelihood of inducing mania.  Maybe if I just let my body exhaust itself it'll relearn how to sleep.  A girl can dream.
+
+In wiser news, I've been working a lot on crafting and going through crafting websites.  I'm trying to re-work my clothes so that they fit better, the way my overly picky mind wants them too.  I'm also trying to *gasp* finish projects in an effort to ""Take Back the Craft Room"".  Got the pirate vest mostly finished.  Hopefully I'll find some time to dye some fabrics this weekend.  
+
+Ohh also going to either make someything of, or get rid of my fun fur (after seeing if it will survive a washing), thereby opening up some storage under my bed for ""completed costumes"".
+
+Have thought a lot of deep and interesting thoughts about life, and personal choice, and why poly/freedom to make the right choices for me is so important...but I'm tired, so maybe I'll philosophize later.  I've got a lot of work to do in case my surgery date gets moved."
+"eventtime","2006-06-09 11:42:00"
+"url","http://amphitrite27.livejournal.com/194576.html"
+"userid","647"
+"itemid","759"
+"event","Some of you may know how strongly I feel about HPV and cervical cancer, and how disaapointed I have been in the past by modern medicine's lack in ability to cure/solve/prevent the virus and its repercussions.
+
+For the last few years various companies have been woking on vaccines that would target the strains of the virus that often cause cervical cancer (or precancerous lesions).  Merck's vaccine was approved by the FDA today for use in women under age 26.  
+
+http://today.reuters.com/news/articleinvesting.aspx?type=companyNews&storyid=217746+08-Jun-2006+RTRS&WTmodLoc=InvArt-L2-CompanyNews-2
+
+This vaccine is only approved up to age 26, because older women have not shown a strong antibody response in research trials.  
+
+The vaccine under development by Glaxo-Smith-Kline looks effective for women up to age 55, and should be up for approval by the FDA soon.
+
+http://today.reuters.com/stocks/QuoteCompanyNewsArticle.aspx?view=CN&storyID=2006-06-05T135947Z_01_N05282016_RTRIDST_0_HEALTH-CANCER-VACCINE.XML&rpc=66
+
+Please tell the young women you know about these vaccines.  I think a few shots is a small price to pay for safety.  HPV transmission rates are lowered through condom use (but not eliminated), and the strains that cause cervical cancer are often ones with no visible signs of infection.  I think these vaccines are a wonderful opportunity for women to protect themselves, to take care of themselves and I strongly encourage those of us who may be soon out of Merck's age range to keep our ears open for the Glaxo-Smith's version (current trials show 100% effectiveness in older women at preventing HPV infection and lesions)."
+"eventtime","2006-06-08 11:46:00"
+"url","http://amphitrite27.livejournal.com/194404.html"
+"userid","647"
+"itemid","757"
+"event","I feel soo excited and yet so stupid.  So I have this skirt I love...its pink and purple and jaguar and PVC bondage-strappy
+
+and I LOVE it.
+
+But I don't wear it because teh straps are too long and end up bad places on the Butt.  But not anymore, because years later I have realized that I can shorten the straps and then....sew them back on!
+
+Duh.
+
+I think its time for that closet overhaul that will allow me to actually wear those things I love.  I'm just such a strange size and a perfectionist, so I need to hand-do all the tweaks.  Hoorah."
+"eventtime","2006-06-06 16:54:00"
+"url","http://amphitrite27.livejournal.com/193809.html"
+"userid","647"
+"itemid","756"
+"event","I know I've been especially cryptic recently, I've been trying to focus my fire into growth.  I think this comment I made in a poly community really covers the bases of where I've been taking my brain recently.  Also for the beginning of this journey one would have to read theicarusproject.net which I strongly recommend to anyone with swings or fire burning inside them, or those who want to understand such people around them.
+
+I notice a lot of people talking about getting ""help"". But you in your own post mention the frustration with hearing ""just be yourself, unless yourself includes X behaviors that we find inconvenient, in which case you should change who you are with medication/etc"". And I know how hard that can be. Don't listen to other people or me (unless what they say resonates with your inner truth, one you may be trying to cover up). I think allowing other people to dictate what is right and healthy for you is a path to frustration (especially if you are bipolar/depressed/etc). People who haven't been there, and even people who have, probably have not been there as You, and the roads we take into and out of ""mental illness"" are all different.
+
+I think the key is to listen to your own inner voice. Not your inner monologue, not your downward (or upward) circles of obsession, but the sometimes very quiet little voice that is you, that is true in a way that little else can be. I beleive that most people have within themselves the ability to truly know what they need and what they have the potential to become.
+
+<lj-cut>I think many Drama Queens, are so loud and dramatic in an attempt to drown out that little voice. The girl who runs into any room with big gestures and is ""queen of the world"" may be trying to drown out the little voice in her head that says she isn't worth anything. The person who walks in and talks about how the world is out to get them may be trying to cover up the voice saying ""gee when x happened today you really overreacted"". Listen to that voice. Ask it to tell you what's really going on and you may find that some of these issues melt away or that their importance more syncs with the impressions of those around you.
+
+Try focussing that wild energy (both good and bad) in new directions if the current ones aren't working for you (or people close to you). When you're down have you tried being quiet instead of loud in your sadness? I had an interesting experience last night that I really needed. I've been doing poorly for a long time now, but last night instead of trying to act over it or trying to get sympathy from someone I just went out with my friends and acted as I wanted to deep inside. I was tired and sad (like I've often been recently), but just let that feeling rest inside me quietly. And surprisingly I had a lot of people come up and give me hugs and pep talks. I got a lot more support than if I'd been really outwardly sad or trying to cover, because they felt I was more approachable. And I felt better, more real, more grounded in myself.
+
+Remember that we all have bad days with stupid annoying interaction, and that many of the daily travails are irrelevant in the long run, and getting yourself upset will only lead to more stress and pain for you, without any actual change. For things that really do matter to you, whether its a bad bus driver, or the coworker who makes your life actually miserable, do something. Changing your situation is satisfying and grounding.
+
+Or try new ways to express your happiness. The weeks I'm flying high I now try to spread that, instead of just flying by myself. I'll give a hug or support to someone who looks sad. Compliment strangers. Support another friend's accomplishments. I don't mean you should ignore your own, but remember to spread that height to others in whatever ways you can without running out. From the standpoint of getting what you want without tiring your friends, you want them to feel like your good days are their good days, and that your bad days are opportunities for them to give not responsibilities or days for them to clean up messes that are not of their causing.
+
+Also as trite as it sounds....make sure you get plenty of sleep and take your vitamins. I know I am much easier for my friends and loved ones to deal with when I'm well rested and taking the vitamins or medications that the voice (not ""voices"" but that integral piece of me) in my head knows I need. Also maybe consider looking at theicarusproject.net . They have a lot of food for thought for those who may burn brighter, that does not assume that burning brightly is always ""bad"", unless it keeps us from accomplishing social or other goals.</lj-cut>
+
+Just remember, you may like yourself bright, but many people don't like fire no matter how pretty especially in daily life. I think the best way to stay enough in society without losing my fire is to listen to my needs, to share myself without shoving the minutiae of my life at others. I throw some of my fire into crafts and projects that are just for me, so they can be dropped if I fall into a hole of depression. I try to spread my joy to those who need it. I work on trying to invite people to help with my sadness, as opposed to forcing them to deal/help/listen.
+
+I remember that while their problems may seem boring, trivial and bland to me sometimes, that to my friends these are real, important problems, and because my friends find them important, I should as well. I appreciate that they still try to help me even though they often find my problems over dramatic and too far gone. Its about accepting and loving others and myself, past understanding, past my own introspection, past everything. Sleep well, eat well, and keep the fires banked, so that they may burn all the hotter when the right moments appear. The most successful fire-y people are those who direct their fire like a laser to accomplish their goals."
+"eventtime","2006-05-26 12:31:00"
+"url","http://amphitrite27.livejournal.com/193733.html"
+"userid","647"
+"itemid","750"
+"event","Apparantly my cat is either very sick, or hooked on some poisonous substance.  At this point, we don't know what is going on, the vets have him for testing and health support.  Its hard, because its expensive (very expensive) and yet I know that I couldn't live with myself if I just let him die, or didn't try to find out how to fix the problem.  
+
+It is almost unbearable for me to think about what is going on right now.  I'm spending thousands of dollars, right now, for a cat who will never come home to stay with me.  It has become obvious that there is some problem, either with Kitto or with something he has access to at the new house.  Taking him home is selfish, and a cost I really can't afford.  
+
+So if he passes all of his health tests, either tomorrow or wednesday, I'll start looking to rehome him.  And if he doesn't, and he's sick, I might be able to rehome him with a caretaker a coworker knows, or I'll be putting him down.
+
+None of these scenarios end up with him coming home with me.  
+
+I don't get to take my little black shadow home to stay.  I don't get to hear his little voice or see his face peering through a window.  No more pets and nose kisses.  No more moments of annoyance.  No more joy at watching him play.  I'm really heartbroken.  There have been many days when the only reason I got up in the morning, was because I knew he needed to be fed, or because I knew he wanted pets.  I hope he's okay, and that my money hemmorhage ends in my beautiful kitty getting a new lease on life, in a safer home."
+"eventtime","2006-05-01 16:20:00"
+"url","http://amphitrite27.livejournal.com/192125.html"
+"userid","647"
+"itemid","745"
+"event","Hallelujah...
+
+There is something so lovely about solving a problem, if only in the very smallest nick of time!
+
+I've got an appointment with a gynecologist at 10:45 on thursday morning.  At 11 am, I'm supposed to take the pill that I don't yet have...so, everything should be fine, I wish there wouldn't be that delay, but it shouldn't be so large as to endanger my not-getting-pregnant!
+
+Phew...assuming of course that she gives me what I've been asking, which I'll push for.
+
+And boy do I feel flakey and stupid, this shouldn't have gotten so out of hand.
+
+But such is life, and soon I'll have my own glow, and I'll be happy!"
+"eventtime","2006-03-27 10:30:00"
+"url","http://amphitrite27.livejournal.com/190849.html"
+"userid","647"
+"itemid","743"
+"event","Saw V for Vendetta, which was awesome, totally worth a viewing and totally worth the discussion afterwards.  Its an interesting idea, when I'm away from the maddening corwds.  What would I do if the need to radically change the plan happened?  Would I go to the same place as others or would I set out on some other journey?
+
+Brings the whole value of tribe to mind, a value that I'm not sure I yet have for this group?  
+
+Or maybe that's my commitment-phobia speaking.
+
+Had a lot of fun the last few weekends, and I've had a great deal of crafty fuss to keep me busy at home.  Started work on some strange things to wear to BMan, so strange I'm pretty sure I'm not even going to like them, but this is the year of less-planned costumes.  Costumes and outfits roaming free, because its possible that the indefinable thing my playawear has been missing is a devil-may-care attitude about how it looks with greater focus on the feel and my interest in it.
+
+I must find more money for glowing things, with a staff in the planning and my head spinning with further development ideas, I know this could get pricey.
+
+The trip overall could get very pricey, both in effort and money.  The money I worry about, but it seems like this will be the year I grind my bank account down anyway, unless I can utilize appropriate sponsorship.  I worry more about the work.  I really really want to be a part of planning a camp, making a group project (even if its just getting all our butts out there).  But I need to work on remembering that helping plan a camp doesn't really guarantee anything.  I find it very hard to beleive that people who don't help (especially based on my guesses of who those people will be) will actually not have equal or greater access to the benefits than I.  SO something I've been trying to instill in myself in a sense of letting go.  If I put a lot of time in, and something happens at the end that keeps me from reaping benefits, I need to be able to let go and recognize that I've gotten other benefits.  Plus its always good to remember that I have a backup plan.  I've been enough times that with less than 24 hours warning I could go from staying with a camp to camping on my own.  And in some ways that would be another, different experience.  And hopefully such a silly thing wouldn't even happen.
+
+And tomorrow I have a shooting instruction planned.  It'll be interesting to see if I like it, or if I like it too much, etc."
+"eventtime","2006-03-22 10:38:00"
+"url","http://amphitrite27.livejournal.com/190340.html"
+"userid","647"
+"itemid","742"
+"event","In the midst of recent ruminations (its always kinda gross to use that word, I hope thnking isn't like chewing cudd...ewwww), I was reminded of a few things from the past.
+
+Like the oh-so-delectable strawberry days, also known as...""you want me to do homework so high on sugar I can barely see!?!""  
+
+I still remember the first one like it was yesterday.  V had those candy necklaces, and after eating pounds of strawberries dipped in chocolate we ran around the dorm shooting them at people.  I remember we got to the point where we could shoot them all the way across the courtyard.  I also remember that someone was concerned that someone else (me?) had eaten so much sugar that they might need to see a doctor.  Those were the days.
+
+And then years later we had that delicious treat again...and I can't remember who was there...E, Z, Allimason?  I don't remember anything except singing ""little bunny foo-foo"" in the dining hall for possibly hours!  HOURS!  They stopped serving us that treat soon after, quoting ""costs"", somehow I doubt that was really the problem.
+
+Or the Edison power outage days...""well we can't do any homework until the lights come back on, so lets get trashed and have tickle fights!""
+
+Or at Purity, freaking out over the bathrooms and their terrible whiteness (and the kittens).
+
+Dating Rocketboy had its moments too, running all over LA, doing going moving.
+
+Throwing candy at C O'C, tickling him, that time with the green shisha (ohh good christ).  Or that time when Flat-E came in and was jealous of us babies rolling around on the floor, hyperventilating about teletubbies.
+
+And one of my favorite moments, the Dorm President meeting where someone (northie?) stated loudly MOVE.  We all looked at him like he was a crazy person...and he said MOVE! more loudly and with more voice of command, someone moved away from the table a little, and then the whole meeting, Deans included, ducked under the table in a very paniced and disorderly fashion.  Only to find that a spider was crawling down towards the table from the ceiling.  Jesus that was a great meeting!"
+"eventtime","2006-03-17 10:08:00"
+"url","http://amphitrite27.livejournal.com/189993.html"
+"userid","647"
+"itemid","741"
+"event","Damn I think I'm in love!
+
+http://www.knockknock.biz/commerce/product_info.php?cPath=21&products_id=460
+
+Its a nice little book with cards and data graphs to fill out describing dates, dating needs, etc.  All done out in nice unattached/unromantic faux legalese.
+
+I like it even better then the rejection letter template a someone made.
+
+Holy jesus, they also make a checkbox correspondance book, with such great jems as a break-up checkbox letter
+
+http://www.knockknock.biz/cgi-bin/slideshow.pl?ID=47#
+
+I think I love them...."
+"eventtime","2006-03-17 09:22:00"
+"url","http://amphitrite27.livejournal.com/189887.html"
+"userid","647"

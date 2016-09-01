@@ -1,0 +1,675 @@
+"names","values"
+"itemid","218"
+"event","d2VsbC4uLg0KaSdtIGluIGEgcG9ldHJ5IGNsYXNzIChzZWNvbmQgc2VtZXN0ZXIgc2VuaW9yIHllYXIsIHdoYXQgd2hhdCkgYW5kIHRoaXMgaXMgdGhlIGZpcnN0IHdlZWsgdGhhdCB3ZSBoYXZlbid0IGhhZCBjb25zdHJhaW50cyBvbiB3aGF0IHdlIHdyaXRlIGFib3V0LiBzbyBoZXJlJ3Mgd2hhdCBpIGhhdmUgd3JpdHRlbiBzbyBmYXIuLi5wbGVhc2UgdGVsbCBtZSB3aGljaCBvbmUgeW91IHRoaW5rIGkgc2hvdWxkIGJyaW5nIGludG8gY2xhc3MgdG8gd29ya3Nob3AgOikNCg0KIzENCg0Kd2hlbiBtYXBzIHdlcmUgYW4gZXhwZXJpbWVudA0KdGhleSB1c2VkIHRvIHdyaXRlIOKAnHdoZXJlIHRoZXJlIGJlIGRyYWdvbnPigJ0NCmluIHRoZSBtYXJnaW5zLCB1bmZvcmVzZWVuIGNvbnRpbmVudHMgYW5kIHVuc2FpbGVkIG9jZWFucy4NCnRvZGF5IGl04oCZcyBhbGwgc3BlbGxlZCBvdXQsIGFjcm9zcyBjb2FzdHMgYW5kIGNhcGl0YWxzIGFuZCByaXZlciBkZWx0YXMuDQp5ZXQgaSBzZWUgdGhlIHNoYXJwIHBvaW50IG9mIEJhamEgQ2FsaWZvcm5pYSANCnNwaXQgaXRzZWxmIG91dCBpbnRvIHRoZSBQYWNpZmljDQphbmQgd29uZGVyLg0KDQp0aGUgc3BhY2UgZnJvbSB5b3UgdG8gbWUgaXMgZnVsbCBvZiBkcmFnb25zLg0KdW5iaWRkZW4sIGNhcnJpZWQgd2l0aCBtZSBhcyBpIHdhbGsNCnRocm91Z2hvdXQgbXkgZGF5Lg0KDQp3aGF0IGkgY2Fubm90IHNheSDigJMgdGhlIGdhcCBiZXR3ZWVuIHVzIOKAkyBob3ZlcnMsIHdpbmdlZCwgaWxsdXNpdmUuDQppIHdvdWxkIG5ldmVyIHB1dCB1cyB0b2dldGhlciBpbiBhIHBpY3R1cmUgZnJhbWUgaW4gbXkgbWluZA0KZmxvYXRpbmcgaW4gYmV0d2VlbiBkcmVhbXMNCnNvIHdoeSBpcyBpdCB0aGF0IHlvdSB1bmhpbmdlIG1lPw0KY2hhcm1pbmcNCmVhc3kNCnlvdSBoYXZlIGNsYXNzLg0KDQojMg0KDQpvbiBzb21lIGRheXMgaSBjYXJyeSB5b3Ugd2l0aCBtZSBsaWdodGx5DQpzdGVwcGluZyBiZXR3ZWVuIHB1ZGRsZXMsIGEgc21pbGUNCmZvciB0aGF0IG9sZCBtYW4gc2hvdmVsaW5nIHRoZSBwYXRoDQp3aG8ga25vd3MgbXkgbmFtZS4NCg0Kb24gc29tZSBkYXlzIHlvdXIgc21pbGUgdHVja3MgaXRzZWxmDQppbiB0aGUgd2lzcHkgaGFpcnMgYXQgdGhlIG5hcGUgb2YgbXkgbmVjaw0KZnJvbSB3aGVyZSB5b3Uga2lzc2VkIG1lDQpiZWZvcmUgeW91IGxlZnQgZm9yIHdvcmsuDQoNCnRvZGF5IHlvdSBjbHVuZyB0byBtZSBmb3IgaG91cnMNCnR1Y2tlZCBpbnNpZGUgdGhlIHBsYWlkIGNvdHRvbiBvZiBteSBzaGlydA0Kd2hpc3BlcmluZywgYSBjb25zdGFudCBkaXN0cmFjdGlvbi4NCg0KIzMNCnlvdSwgYXJlIGxvdWQuDQp5b3UgdGFsayBhIGxvdCDigJMgbW9yZSB0aGFuIG1lLCBhbmQgd2UgYm90aCBrbm93DQp0aGF04oCZcyBzYXlpbmcgc29tZXRoaW5nLg0KeW91ciB2b2ljZSByZXZlcmJlcmF0ZXMgYXJvdW5kIGNvcm5lciBoYWxsd2F5cywNCmRvZXNu4oCZdCBkYW5jZSwgYnV0IGNoYXNlcy4NCnlvdSBkb27igJl0IHdhbGsgZ3JhY2VmdWxseSwgbm8gY2FyZWZ1bCBwbGFjZW1lbnQNCm9mIHNjdWZmZWQgbGVhdGhlciBvbiB0aGUgcGF2ZW1lbnQuDQp0aGUgbGFjZXMgYXJlIHVudGllZCAodGhvdWdoIG1pbmUgYXJlIGRvdWJsZS1rbm90dGVkKQ0KYW5kIHdlIHdhbGsgZm9yIGJsb2Nrcw0KYmVmb3JlIHlvdSBub3RpY2UuDQpp4oCZZCBsaWtlIHRvIHRoaW5rIGl04oCZcyBiZWNhdXNlIHlvdSB3ZXJlIGxvb2tpbmcgYXQgbWUuDQpidXQ6DQppIHRoaW5rIHlvdeKAmXJlIHNjYXJlZCBvZiBleWUgY29udGFjdC4NCmF2b2lkaW5nIHRoZSBpbnRpbWFjeSBvZiBhIHByb2xvbmdlZCBzdGFyZSwNCnNsaW5naW5nIGEgam9rZSwgYSBzYXJjYXN0aWMgcmVtYXJrLCBhbnl0aGluZy4NCnlvdSBkb27igJl0IGludGltaWRhdGUgbWUsDQphbmQgaSB3b3VsZCBuZXZlciBwdXQgdXMgdG9nZXRoZXIgaW4gcGljdHVyZSBmcmFtZXMgaW4gbXkgbWluZA0Kc28gd2h5IGlzIGl0LCB0aGVuLA0KdGhhdCB5b3UgdW5oaW5nZSBtZT8gDQpmb3IgZXZlcnkgcXVpY2sgY29tbWVudA0KdGhlIHNsb3cgdHJhaWwgb2YgeW91ciBmaW5nZXINCmNoYXJtcyBteSBjb2xsYXJib25lDQp0aGUgYnJ1c2ggb2YgeW91ciBicmVhdGgsIGRlbGlnaHRmdWwsDQpmYW5zIHRoZSB3aXNwcyBhdCB0aGUgbmFwZSBvZiBteSBuZWNrLg0KaeKAmW0gbm90IGNvbGQsIGJ1dCBpIHNoaXZlcg0KYW5kIGZvciBvbmNlLCB3ZSBhcmUgcXVpZXQNCnRvZ2V0aGVyLg=="
+"eventtime","2011-03-02 13:26:00"
+"url","http://bluetruedream.livejournal.com/55814.html"
+"userid","1961"
+"itemid","217"
+"event","QmFraW5nDQoNClRoZXJlIGlzIHNvbWV0aGluZyBhbHRvZ2V0aGVyIFNPRlQgYW5kIFJJR0hUDQpJbiB0aGUgY29tYmluYXRpb24g4oCTIHRoZSBjZXJ0YWludHkg4oCTIG9mIGJ1dHRlciwgc3VnYXIsIGFuZCBlZ2dzLg0KDQpLbmVhZCwgcHJlc3MsIGtuZWFkLiBCcmVhayB1cCB0aGUgYnV0dGVyLCBzbWVhciBpdCB3aXRoIHlvdXIgdGh1bWIgYW5kIGZvcmVmaW5nZXINCmFuZCBmZWVsIGl0IHNsaXAgYmFjayBpbnRvIHRoZSBib3dsLg0KDQpXaGVuIHlvdSBjb21iaW5lIGluZ3JlZGllbnRzLCB0aGV5IGJha2Ugd2VsbC4NCldoZW4geW91IGZvbGxvdyB0aGUgcnVsZXM6IGNha2UsIHBpZSwgdGFydCwgY3J1bWJsZS4NCg0KU2hlIHdhcyB1c2VkIHRvIHRoYXQ6IGJha2luZywgYXQgc2VhLWxldmVsLCB3aXRoIHRoZSBzd2VsbCBvZiB0aGUgb2NlYW4NCmFuZCB0aGUgY29ycmVzcG9uZGluZyByb3VuZGVkIHRvcHMgb2YgaGVyIGN1cGNha2VzLiBCZWF1dGlmdWwuDQoNCkF0IGVpZ2h0IHRob3VzYW5kIGZlZXQsIGluc3RlYWQgb2Ygc3F1aXJyZWxzLCB0aGVyZSBhcmUgbWFybW90cy4NCkluc3RlYWQgb2Ygc2VhZ3VsbHMsIGhhd2tzLg0KDQpUaGUgcGllcyBmZWxsIGZsYXQgb24gdGhlaXIgcHJldHR5IGRpbXBsZWQgY2hlZWtzIGJlZm9yZSB0aGV5IGxlZnQgdGhlIG92ZW4uDQoNClN0b3AhIFNoZSBzYWlkLCBnbGFyaW5nIGF0IHRoZW0uIENhbuKAmXQgeW91IHNlZSBpdOKAmXMganVzdCB0aGUgc2FtZT8gDQpTaGUgcmVhY2hlZCBmb3IgdGhlIGJ1dHRlciwgcmh5dGhtaWMgcG91cmluZyBvZiBmbG91cnMgYW5kIHN1Z2Fycy4gDQpCZWdhbiBhZ2Fpbi4gDQoNCkdyYXNwaW5nIGluc3RlYWQgb2Yga25lYWRpbmcsIHRoZSBkb3VnaCBmZWxsIGFwYXJ0LCBzdGlja2luZyB0byBoZXIgY3V0aWNsZXMgYW5kIGNyZWVwaW5nIHVuZGVyIGhlciBmaW5nZXJuYWlscywgdWdseS4NCg0KU3RhbmRpbmcgaW4gaGVyIGtpdGNoZW4sIHNoZSBiZWdhbiB0byBjcnku"
+"eventtime","2010-08-10 23:39:00"
+"url","http://bluetruedream.livejournal.com/55673.html"
+"userid","1961"
+"itemid","216"
+"event","...i'm back! at least for a little while, since i won't be updating my <a href=""http://www.clairegoesabroad.blogspot.com"">study abroad blog</a> while i'm home.
+
+i wrote this on the plane last night, and i think it comes across as more angsty than it should, but whatever.
+
+What am I going to do with my life? What's too big or too small? Should I stay on the East Coast? Move to a new place? Go to law school? Become a journalist? Try to get a job with Obama 2012? Pretend my life is a real version of The West Wing? Get married? Join AmeriCorps or even Peace Corps? Travel? Live at home? Sell out to the big firms and make six figures in my mid-20s? Or go into public defense and make under $40,000 for my entire career? When will I get a kitty? How long will I have my family around? What will happen to high school and college friendships? Who knows best? Where is the door to power? How can I compete with men in the professional world, AND WIN, without becoming a cold-hearted bitch? Will I always be a romantic? How do I know if and when he's the one? What will America look like when I'm 30? Who will I lose? What will find me? When will clarity arrive, and will I know it when I see it? How can I make something important happen? Am I an adult? What does it take to change someone's mind, on a big scale? 
+
+I want to find out.
+**********************************************************************
+I'm back until Jan 7th. Call me :)"
+"eventtime","2009-12-09 09:13:00"
+"current_moodid","87"
+"url","http://bluetruedream.livejournal.com/55521.html"
+"userid","1961"
+"itemid","215"
+"event","New blog for my year abroad! Everyone should go there and become a follower by clicking on the link on the right hand side! 
+This will be the best way to hear about Oxford, if you're interested.
+
+http://clairegoesabroad.blogspot.com/
+
+xoxoxo C"
+"eventtime","2009-09-08 21:26:00"
+"url","http://bluetruedream.livejournal.com/55163.html"
+"userid","1961"
+"itemid","214"
+"event","&nbsp;<br />August 7, 2009...????????<br />When did this happen? Didn't I leave Tufts on May 7? I&nbsp;could have sworn that was three months ago. And in two months, it'll be October 7, and I will have been in England for 4 days. Whoa.<br /><br />Okay, so I've been super lame about updating my journal. Like, WHOA. But here's a little taste of what my summer was like.<br />I&nbsp;worked at a small, bi-partisan think tank in the Dupont Circle area of DC called The Constitution Project. The organization has a small staff--7 full time, plus interns--and maintains 7 active committees, made up of prominent legal thinkers and former politicians from around the country. We seek to resolve complex constitutional and legal issues through consensus solutions. And all the &quot;bi-partisan&quot; language isn't just talk: for example, the Death Penalty Committee has former prosecutors and conservative Congressmen who support capital punishment wholeheartedly, and also includes strong advocates of LWOP (life without parole) instead of the death penalty. The other committees include Sentencing, Liberty and Security, and Courts.<br /><br />I had no idea that I was going to learn so much INFORMATION&nbsp;this summer. In the first few weeks,  I&nbsp;didn't even know enough to know what questions to ask. I&nbsp;felt completely out of my league, over my head, and out of the loop. But I&nbsp;persevered, and listened a lot, and took to reading political <a href=""http://www.scotusblog.com/wp/"">web sites</a> and <a href=""http://andrewsullivan.theatlantic.com/"">blogs</a> during my lunch break, and going to events which might not have been at the top of my list...but I&nbsp;learned.<br /><br />For the first two weeks, I&nbsp;didn't get to DO&nbsp;much. Mostly researching contacts online, updating spreadsheets, reading some of our reports. I&nbsp;was just beginning to worry that my bosses didn't trust me with &quot;real&quot; assignments. Then our Senior Counsel called me into her office, and I&nbsp;got my first real writing task. A daunting one, considering the topic, and my lack of background knowledge. I&nbsp;worked on it for almost a month--crazy, especially when you consider that the overall word count is maybe 700 words--and after edits by 5 different people, it was published on DailyKos, a political blog-website. You can read it <a href=""http://www.dailykos.com/story/2009/7/16/753835/-Fear-Mongering-in-Congress"">here</a>, if you're so inclined. I&nbsp;would say that about 75% of it is my writing; 25% is my bosses'. I'm okay with that!!!<br /><br />What else? I did some cool stuff this summer. (Stuff is such a GREAT word...) I&nbsp;cooked, and baked, a LOT. If you're really nice to me I might invite you to the fancy dinner party I'm planning back in Seattle. Highlights from the summer include: carmelized cauliflower, chocolate-covered coconut macarooons, 4 kinds of banana bread, balsamic barbeque chicken, and french-style yogurt cake with lemon glaze. <br /><br />I&nbsp;also went bowling at the White House. More specifically, in the EEOB, which is NEXT to the White House. Super cool. Went on a tour of the White House. Pentagon, too. Met people who have interviewed <a href=""http://en.wikipedia.org/wiki/Khalid_Sheikh_Mohammed"">KSM</a> at Guantanamo, managed U.S. operations in Iraq, met weekly with Hillary Clinton as the State Dept's Acting IG, and Justice Brennan's sole autobiographer. <br /><br />I asked questions all summer. I&nbsp;went to the grounds of a deserted mental hospital in one of DC's worst neighborhoods to meet with a Public Defender (PD) and get insight about her career path. I&nbsp;hobnobbed at parties and accepted glasses of wine when they were offered. I&nbsp;went to a luncheon and shook hands with a man who had been on Death Row for over a decade. He was exonerated and is rebuilding his life. I&nbsp;asked all of the intelligent, motivated people I&nbsp;met what they loved about their jobs, and what they wished was different. I&nbsp;asked about law schools. I&nbsp;tried to glean what kinds of people get into what kinds of careers, and who succeeds.&nbsp;<br /><br />And after so much learning, and so much NEW--god, I feel like someone took the blinders off me and I&nbsp;can SEE--I&nbsp;think I&nbsp;know what I want. It will have to wait (duh), since for almost anything I&nbsp;think I will pursue professionally, a law degree is necessary. So, law school first. But afterwards?<br /><br />I&nbsp;want to be a public defender. I&nbsp;want to go into jails, bad neighborhoods, places where people feel like they've been forgotten. I&nbsp;have always believed so very strongly in the right enumerated by our Constitution, that every American has the right to a free and fair trial, and to a lawyer to represent them. The crisis of indigent defense is so horrible, and it doesn't get enough media attention, funding, or help. I&nbsp;want to fight for the small victories, the day-by-day battles to make sure that poor people, or black people, or women, or <em>people who have just been hurt by the world</em>, are not screwed over even further by the American judicial system. I'm so excited, and so scared. I&nbsp;want to do this almost more than anything else. And you know what?<br /><br />I&nbsp;think I&nbsp;would be good at it.&nbsp;I&nbsp;say that not over-confidently, nor cockily, but just with this sense of calmness: I&nbsp;feel like I&nbsp;SHOULD be doing this.<br /><br />But right this second, I&nbsp;SHOULD be packing. I&nbsp;get into Seattle early Sunday morning!<br />I&nbsp;can't wait. There is so much life to be had.<br /><br />"
+"eventtime","2009-08-07 10:56:00"
+"current_moodid","87"
+"url","http://bluetruedream.livejournal.com/54983.html"
+"userid","1961"
+"itemid","213"
+"event","it is stuffy and close and stale
+the smell of people&rsquo;s days, hanging around them like discarded spiderwebs
+you thought you brushed them off
+but they&rsquo;re still clinging, trailing to your sleeve.
+newspapers, rubber, cigarette smoke, sandwich bread, sweat.
+what does your day smell like?
+modesty is impractical and impossible
+in the crush of bodies
+back and forth, stop.
+don&rsquo;t try to hold upright.
+just close your eyes and sway
+let your arm brush the woman next to you
+don&rsquo;t flinch as a man bumps into you
+close your eyes.
+close them.
+picture somewhere else, picture oxygen.
+breathe.
+when you open your eyes
+everyone else will have closed theirs."
+"eventtime","2009-07-09 23:36:00"
+"current_moodid","31"
+"url","http://bluetruedream.livejournal.com/54589.html"
+"userid","1961"
+"itemid","212"
+"event","I'm in DC! (Sort of). By sort of, I&nbsp;mean Arlington, VA--the closest Virginia suburb to our nation's capital. I&nbsp;flew out of Seattle on Wednesday morning and stayed with my aunt and uncle there for a few days, as well as visited Eric in his new suite at Hopkins, and cooked dinner with him and his friends. This morning, I&nbsp;got up fairly early (considering that jet-lag kept me up pretty late) and my aunt and grandma drove me to Arlington (about an hour away). 
+
+I'm staying with old family friends of my dad's, who are incredibly welcoming. I&nbsp;have my own room with a queen bed, full closet, dresser...also my own bathroom. Not bad at all, considering most places I looked at on Craigslist offered much less AND I would have had to pay rent. This lovely family is letting me stay with them for the summer free of charge--they won't even take money for groceries!
+
+Within a few minutes of unpacking, my friend Emma (also a Tufts student and fellow American history/politics junkie) called. She and Evan (another Tufts friend) are both interning in DC this summer and were meeting this afternoon to walk through the Smithsonian. She wondered if I&nbsp;wanted to go. Did I want to go???? This to the girl who reads history books for FUN, geekily remarked that Obama's inaugural address had eerie similarities to Richard III's &quot;Now is the winter of our discontent...&quot;, who is getting ready to write an 80-100 p thesis on nothing BUT American history. Yes, I&nbsp;wanted to go. So my host dad (I&nbsp;don't know what else to call him...) very generously drove me to the Metro stop (the DC area subway) and I&nbsp;bought a SmartCard and was getting off at the Smithsonian stop in under 20 minutes. Not bad at all.
+
+And then I walked up out of the metro stop, and I&nbsp;was on the National Mall, and the Lincoln Memorial was on one end, and the Capitol, and the Washington monument, and the WW2 memorial, and the Vietnam memorial, and I could see the White House, and it was all RIGHT&nbsp;THERE. I'll be perfectly honest--I felt a little bit like you do when you first walk in the gates of Disneyland: completely overwhelmed, SO&nbsp;excited, and aware that you're now seeing in person what you've only seen before in pictures. So I&nbsp;gawked, strolled, and probably unknowingly walked through several people's snapshots before getting over to the Smithsonian Museum of American History, which was pretty fantastic. 
+
+Among other things, we saw: Judy Garland's ruby-red slippers, Lincoln's stovepipe hat, a draft of Ike's inaugural address, and the kitchen which served as Julia Child's television set. I&nbsp;was in American history-politics heaven...
+
+We left the museum and walked all over, taking tons of pictures and commenting on how crowded the Mall was. Now, I&nbsp;am going to expose my own ignorance, but I'm hoping that since I didn't know this, other people might not have either. Until about six months ago, I&nbsp;thought that the term &quot;National Mall&quot; referred to an actual SHOPPING&nbsp;mall. Hahahah. It doesn't.
+
+FInally, I said good-bye to Evan and Emma and after only a slight Metro snafu, found my way to 18th St NW, walked several blocks, and found my office building, where I&nbsp;will start work on Monday. I&nbsp;have very little idea what I'm going to be doing. All I have been told is that I'll be assisting with legal research, writing op-eds to go in the newsletter, and attending and reporting on congressional briefings. So, we'll see. 
+
+Now comes the major task for tonight. Ironing. Basically every single piece of clothing I&nbsp;need to wear to work requires an ironing. Good lord, but I&nbsp;am going to be an ironing pro by the end of the summer. Oh well. I will take the ironing in stride, as long as I&nbsp;get to walk around DC&nbsp;and see such amazing things..."
+"eventtime","2009-05-30 19:55:00"
+"current_moodid","31"
+"url","http://bluetruedream.livejournal.com/54527.html"
+"userid","1961"
+"itemid","205"
+"event","I&nbsp;guess this is kind of my week? So far, at least.
+
+I&nbsp;got into Oxford!&nbsp;I&nbsp;will be spending my junior year at Pembroke College, studying History &amp; Politics. 
+
+:)"
+"eventtime","2009-03-04 11:41:00"
+"current_moodid","91"
+"url","http://bluetruedream.livejournal.com/52676.html"
+"userid","1961"
+"itemid","204"
+"event","I had my third and final interview this morning for the Constitution Project, a bipartisan legal thinktank in Washington, D.C. At the end of the interview, the director said, &quot;I&nbsp;don't normally do this, but I&nbsp;would like to offer you the position.&quot;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+I&nbsp;will be working in DC from June 1 to around August 8th doing legal research, coordinating press events, and writing op-ed pieces! 
+I&nbsp;am so excited.
+
+http://www.constitutionproject.org/"
+"eventtime","2009-02-27 10:33:00"
+"current_moodid","15"
+"url","http://bluetruedream.livejournal.com/52404.html"
+"userid","1961"
+"itemid","203"
+"event","So, yes...I did it again, and it seems far worse (or better?) than last semester. On top of my five classes, I&nbsp;have the show, my job, tour guiding, and internship hunting. Oh yeah, and just summer planning in general.
+
+I&nbsp;just peeled an orange and now my hands smell like it, which is my biggest pet peeve...dammit. At home I always make Eli do it for me :)
+I&nbsp;miss my little brother, who isn't so little...tonight is SAAS's winter ball on the Space Needle (jealous!). He's going with a date and I&nbsp;gave him all sorts of instructions about putting her corsage on and not clashing his tie with her dress, etc etc. I&nbsp;wish I&nbsp;could be there to see him all dressed up.
+
+It's cold outside...I've been good thus far going to the gym--almost every day, and today's walk over was FRIGID. My abs will be sore tomorrow. And it's not even February yet! (Okay, fine, so it's tomorrow). 
+
+Ooh, good news. I got an interview for one of my summer internship options: The Constitution Project. It's a legal advocacy group based in D.C. that defends constitutional rights and enters a lot of amicus briefs in the Supreme Court. Yay for making the first cut...but now I have to wow them enough that they hire me (!!). It's next Friday.
+
+Everyone should watch this all the way through because it made me so happy: http://videos.komando.com/2009/01/09/elephant-sanctuary/"
+"eventtime","2009-01-31 17:19:00"
+"current_moodid","68"
+"url","http://bluetruedream.livejournal.com/52127.html"
+"userid","1961"
+"itemid","202"
+"event","Wow. So much for being a regular updater...I&nbsp;feel bad when I&nbsp;don't write for a long time, because I&nbsp;enjoy reading everyone else's entries so much and feel like I&nbsp;should reciprocate (though granted, I often have little to say...)
+
+Israel was amazing. I put up pictures on facebook, but it's hard to do the country justice. The trip confirmed a lot of what I&nbsp;already knew: I&nbsp;love traveling, beautiful landscapes, new cultures and languages, and Judaism. But I also figured some other things out; for instace--I&nbsp;want to have a Bat Mitzvah (and very well may this year...more on that in the upcoming weeks). And that I&nbsp;consider myself a Jew above all other religions, and that I&nbsp;want my children to be brought up aware of Jewish customs and history. I&nbsp;don't say, &quot;I&nbsp;want to raise my children as Jews&quot; because I&nbsp;don't think religion should be force-fed to anyone...but I&nbsp;do know that I identify very strongly with parts of Judaism and want to pass that on.
+
+The rest of break was good...since the snow was gone, Seattle seemed much more like home. Eric and I went up to his family's new cabin on Camano and spent the night, which was fun but a little eerie...imagine two people sleeping in a house with seven bedrooms. And then it was crazy packing time and back to Boston (where there was and is snow on the ground).
+
+The semester is off to a good start. I'm taking Revolutionary Russian History, Women in 20th Century America, Judicial Politics, Spanish, and From the Big Bang to Humankind. All are at least likeable, and some very likeable indeed. I&nbsp;also got the job I&nbsp;applied for (yesss) with the Office of Alumni Relations, interviewing alums...and it pays really well, which is what I&nbsp;need. AND I got into the 3Ps (student theater organization) major production, Kushner's The Illusion. I&nbsp;play a servant (The Amanuensis) whose tongue has been cut out.
+
+I&nbsp;just tried to spell tongue 5 times and failed 4 of them. I&nbsp;think I&nbsp;need to go to sleep.
+
+But first: Eric visited this weekend (since Wed) and we had lots of fun. Took him to Bartley's in Harvard for burgers and we went to some parties and the infamous Winter Bash...I'm really excited about our spring break plans, which we came up with at the end of break. We're going to fly from Boston to Kansas City and then take an Amtrak train from Kansas to Santa Fe, NM, where my uncle lives. We'll spend the week staying with him, hopefully hiking and relaxing in the nice weather, and then head back to NYC for the weekend.
+
+That's in less than 2 months...and then the semester is basically DONE. Whoa. I&nbsp;am mailing off my internship application to NPR tomorrow. Cross your fingers (and toes and eyes and everything, I&nbsp;need all the luck I&nbsp;can get) for me please..."
+"eventtime","2009-01-25 23:49:00"
+"current_moodid","49"
+"url","http://bluetruedream.livejournal.com/51802.html"
+"userid","1961"
+"itemid","201"
+"event","=lovely! In no particular order:
+
+I&nbsp;love Seattle.*
+I&nbsp;love my friends.
+I&nbsp;love my family.
+
+Now it's off to Israel until Jan 6....on New Year's Eve, I&nbsp;will be partying it up crazy with the Bedouins and their camels. Yes.
+LOOOOOOVE
+
+*Note: I&nbsp;love Seattle as it is NORMALLY. I&nbsp;do not, however, love the fact that obscene amounts of snow and the particular gradient/temperature/position of my street has made it absolutely impossible for me to drive anywhere. I walked all the way to the Ave twice, and to the Bathhouse once, along with numerous trips to UVillage. I was marooned in Magnolia. I&nbsp;was marooned in my house. Snow is pretty for several days, but when the city has only 27 snowplows and some of them are broken...well....I miss the efficiency of Boston's cleanup. ANYWAYS. I&nbsp;hope that when I&nbsp;get back...the snow will be gone! I&nbsp;guess I'm officially an adult now, wishing snow to go away...
+
+xoxoxox"
+"eventtime","2008-12-26 21:21:00"
+"current_moodid","99"
+"url","http://bluetruedream.livejournal.com/51530.html"
+"userid","1961"
+"itemid","200"
+"event","All done! YAY!
+heading home tomorrow morning at 6:30 a.m...ew haha.
+home until dec 27, then back jan 6 and home til the 13th!
+loveeeeeee"
+"eventtime","2008-12-12 17:55:00"
+"current_moodid","11"
+"url","http://bluetruedream.livejournal.com/51362.html"
+"userid","1961"
+"itemid","199"
+"event","Those of you with more years than me...
+
+Political Science and History double major?
+
+History Major with Poli Sci minor?
+
+There are so many classes I want to take, and I&nbsp;can't take them all if I'm so worried about distribution reqs plus major reqs. And I&nbsp;don't think I'm cut out for political academia...
+
+Help?"
+"eventtime","2008-11-16 23:16:00"
+"url","http://bluetruedream.livejournal.com/51140.html"
+"userid","1961"
+"itemid","198"
+"event","I&nbsp;spent from 7 pm last night until 12:30 a.m. squuezed onto the arm of an armchair in the midst of a packed room in the campus center. There were probably over 1000 people in the whole place, and about 200 or so in the area I&nbsp;was sitting. People in front of me, to the side (the only reason they weren't behind me is that the chair was against a wall...but if there had been space, they would have found it!), everywhere. My friend Emma and I&nbsp;waited anxiously, watching CNN&nbsp;and the anchors and their magic map, projecting and predicting and theorizing and suggesting and wondering and HOPING. Because even on the supposedly unpartisan John King, Soledad O'Brien, Campbell Brown, Anderson Cooper, I&nbsp;could see the joy start to sparkle in their eyes.
+
+First when Pennsylvania was called...&quot;The McCain camp worked hard for Pennsylvania...it's a big loss.&quot;
+Then with Ohio...&quot;No Republican has made it to the White House without Ohio. This is looking bleak for Senator McCain.&quot;
+Next, the battle for Virginia, and New Hampshire, and Indiana, and Florida, and Colorado, and New Mexico...
+And finally, at 11:01 Eastern Standard Time, with the closing of the polls in Washington, Oregon, and California:
+
+CNN PROJECTION: BARACK OBAMA ELECTED PRESIDENT.
+
+Shots of screaming crowds...people crying, cheering. The sounds from the television were more than drowned out by the explosion of noise from the Campus Center and really the whole campus--if I&nbsp;hadn't been screaming so loudly, I&nbsp;would have been worried that the noise was deafening. But I didn't even think of that at the time--I&nbsp;was hugging people and yelling and stuck between crying and laughing, but I couldn't take my eyes off the television screen. Those words, &quot;Barack Obama Elected President.&quot; I&nbsp;still keep checking the Internet to make sure that it's true; that I&nbsp;don't have to worry anymore about swiftboat campaigning, about the McCain camp scrounging up whatever little dirt they can in the last few weeks...
+
+The election is over. Obama will be our 44th President. But here is where it all begins.
+And for me, personally, the euphoria I&nbsp;felt last night will always me with me, a little, when I&nbsp;think about the change that is possible, about the political change that I&nbsp;can bring about.
+
+I&nbsp;can't quote the NY Times religiously; I&nbsp;don't know the history of conflicts between Syria and Jordan; don't ask me who Carter's Secretary of State was. But for all intensive purposes--I am a political junkie. I&nbsp;love it. I&nbsp;want to know everything there is to know--which won't happen, but it is an admirable goal. This isn't a new realization; I&nbsp;am a declared Poli Sci major, after all. But it is a renewed promise to myself--I&nbsp;want to DO&nbsp;things. And it's possible.
+
+Anything is possible."
+"eventtime","2008-11-06 00:01:00"
+"current_moodid","70"
+"url","http://bluetruedream.livejournal.com/50796.html"
+"userid","1961"
+"itemid","197"
+"event","why does this week suck beyond belief?
+
+this week, i had/have:
+-two papers
+-two 4 hour rehearsals
+-one night staying up until 3 am reading (for those of you who don't know my studying habits, that is unheard of)
+-tonsilitis...
+
+seriously. what the hell...i already had it! last year, in november. and now i have it AGAIN. kjhfqkhrfikhwiewhreiurhf. stupid antibiotics that interfere with other medications, with social life, with being productive.
+
+and i have TWO&nbsp;cast&nbsp; bondings this weekend that i won't be able to participate fully in...
+and THIS to do this weekend:
+
+-8 chapters dense poli sci reading (&quot;Why Americans Hate Welfare&quot;)
+-1 300 p autobiography (Doris Kearns Goodwin)
+-1 spanish composition
+-begin reading 15 chapters of Kearn's Lincoln bio (Team of Rivals)
+-Astronomy midterm on monday
+...so overwhelmed"
+"eventtime","2008-10-02 18:21:00"
+"current_moodid","28"
+"url","http://bluetruedream.livejournal.com/50466.html"
+"userid","1961"
+"itemid","196"
+"event","Q: After three wonderful dates a boy I met recently suddenly just stopped calling. This has never happened to me before and I don&rsquo;t know how to handle it. I have always been popular with boys and I know this boy liked me. Could I possibly call him? I don&rsquo;t want him to think I&rsquo;m hard up for a date, but I would like to see him again.
+A: It&rsquo;s hard to make a general rule about when a girl should or shouldn&rsquo;t call a boy. So much depends on how well they know each other. There&rsquo;s no reason why you shouldn&rsquo;t call him for some specific purpose, however. An invitation to a party, for example. If he refuses, well&mdash;you&rsquo;ll have to leave the next call up to him.
+
+
+Q: I am sixteen and in perfect health. I swim, ride, play tennis and regularly beat my beau at golf. When then&mdash;when I&rsquo;m out on a date&mdash;do I have to pretend to be so helpless I can&rsquo;t open a car door
+A: It&rsquo;s a penalty for beating your beau at golf. Actually, it is a pretense&mdash;but a nice one. It givers your escort the same protective feeling you get taking a child&rsquo;s hand to cross the street. Cater to it. 
+
+
+Q: I just don&rsquo;t have time for boys. What would you think of a sixteen year old girl who cares absolutely nothing for boys and hasn&rsquo;t the slightest intention of getting married? Is this entirely possible? Can you escape men and marriage? People think I&rsquo;m crazy but I&rsquo;m perfectly willing to have only a musical career&mdash;and its not just a passing fancy! There is only one male in my life and he&rsquo;s my music teacher. I admire him and use him as my example.
+A: Of course you can &lsquo;escape&rsquo; men and marriage. But who wants to? Few musicians we know life purely in a world of sounds and cymbals, and many women musicians have been able to fit marriage and a family into their lives. To be frank, we think you may be worried that a boy won&rsquo;t be as docile to control as a violin or piano&mdash;or that you won&rsquo;t be quite so much of a virtuoso with boys as you are with your music. Why burn your bridges before you&rsquo;ve crossed them? Boys aren&rsquo;t ogres. Instead of spending all your time with music and your music teacher, practice getting to know a few (a budding Van Cliburn perhaps?) the way you&rsquo;d practice scales and arpeggios. Then, if you change your mind about men later on, you&rsquo;ll have more &ldquo;beaux&rdquo; than a music teacher to your string!"
+"eventtime","2008-09-21 10:28:00"
+"current_moodid","28"
+"url","http://bluetruedream.livejournal.com/50385.html"
+"userid","1961"
+"itemid","195"
+"event","Hello, my very intelligent and creative friends: I&nbsp;need your help. <br />Here's the deal--I&nbsp;am in a very exciting seminar class this semester, Race and Class in American Politics. The sole assignment for the semester is a 20-30 page paper on a topic of our choice. It must be &quot;original&quot;, meaning that we are not to read other people's articles and then use them to support our arguments. Instead, utilization of primary data is required.<br /><br />Examples of acceptable sources:<br />-exit polls/electoral returns<br />-court opinions<br />-congressional testimony<br />-social/scientific studies<br />-memoirs<br />-public opinion surveys<br />-newspaper articles (past/current)<br />-gov't docs<br />-public speeches<br /><br />HERE&nbsp;is where you come in. I&nbsp;have a million different things that I&nbsp;am interested in, but I&nbsp;want more ideas, partly because the million things in my head don't really connect yet. So if you have the time,<strong> please take a second and leave me a comment with anything that comes to mind in terms of race and class in american politics/history, and let me know what you think an interesting topic might be. Please refrain from the &quot;Barack Obama&quot; route--</strong>not because I don't love him, but because writing a paper on the election/him while it's still going on would be a bad idea.<br /><br />Just so you know, here are some things bouncing around my skull--<br />-Marriage and family--how it affects voting (spouses voting same/different?)<br />-the 1950s in general (i'm taking a Girlhood in the 1950s class and it would be cool to focus on the 50s this semester)<br />-trickle down effect of Brown v Board--how viewed by diffferent groups of Americans, how other decisions related<br />-Unmarried/married women of different classe--voting records?<br />-American family dynasties and their politics on race<br /><br />Any brainstorming is appreciated! Thank you--xoxoxo<br /><br />"
+"eventtime","2008-09-09 15:09:00"
+"url","http://bluetruedream.livejournal.com/50087.html"
+"userid","1961"
+"itemid","194"
+"event","so...my year is amazing so far. not to jinx anything...but:
+
+-huuuge single
+-amazing friends who i LOVE
+-classes that are going to KICK&nbsp;MY&nbsp;ASS&nbsp;but are sooooo good
+-aaaaand last but definitely not least:
+
+I&nbsp;got into the department show, which is one of three faculty-directed mainstage shows a year! Madwoman of Chaillot--I am playing one of the Madwomen, Gabrielle. SO&nbsp;EXCITED. I&nbsp;can't believe I&nbsp;got in...
+
+already, this year is better than last. love it."
+"eventtime","2008-09-07 22:52:00"
+"current_moodid","15"
+"url","http://bluetruedream.livejournal.com/49758.html"
+"userid","1961"
+"itemid","190"
+"event","I&nbsp;had a lovely weekend. Sunshine...swimming...summer...
+Eric and I saw Wall-E at the drive-in! SO GOOD. I never thought I would become so emotionally invested in the fate of a robot. Also: my passion for the Tour has remeerged, as it does every summer. George Hincapie, how I love you...and Bob Ligget and Paul Sherwin are hilarious commentators as always (why do British accents make everything more fun?).
+
+Also, went on a double date to the zoo and saw the flamingos...I love them! They are so weird and skinny and knobby and pink.
+
+So, it looks like BE is on the ground and going...
+I have mixed feelings about it right now. It's hard not to feel left out of something new and exciting, even though I had a feeling I wouldn't be on the committee because I emailed Shana and told her I was unsure. And that's fair, because the people in charge should be 100% committed and present, and I might not always be 100%. I just hope that a ""clique"" doesn't develop in the Bathhouse, because that would make me sad beyond belief. I know that I (and others too, I think) have always thought of the Bathhouse as the place we go to in order to escape cliques. I'm not going to be an actress. I gave up on that several years ago; and some of the people on the committee still want that, and for them, I hope that this theater company is beautiful and successful and the talk of the town. It would be exciting to have been at the beginning of something great--but who knows, maybe in a couple of years, I will be involved again."
+"eventtime","2008-07-14 09:47:00"
+"current_moodid","92"
+"url","http://bluetruedream.livejournal.com/48719.html"
+"userid","1961"
+"itemid","189"
+"event","I've been thinking a lot, lately, about how I'm living&nbsp;a very psuedo-adult life. I get&nbsp;up in the morning, get dressed in my business-casual clothing, eat breakfast and read the paper to stay current on city&nbsp;governance issues, catch the bus&nbsp;downtown to City Hall, and start my workday. I work all day,&nbsp;except for that one glorious hour of lunch time (and lately, of sunshine), take the bus home,&nbsp;go to the gym, and finally get back to my house.&nbsp;When I get home after working out, I realize that there's not much of&nbsp;my&nbsp;day left. It's 7:00. Enough time to&nbsp;make&nbsp;dinner and see a friend, maybe? But I don't want to get in the car, because after being inside all day, a car sounds disgusting. I don't want to clean or do laundry, because I've already worked eight hours today. I want to see people, but I want to go to bed early, because I'm getting up at 6:45 a.m. &nbsp;It's a conundrum (what a fantastic word).
+
+I don't read the above paragraph and groan. I don't feel depressed.&nbsp;I don't hate it (although, after almost 8 weeks of interning, I am getting ready to be done for the summer and enjoy some sunshine). Lately, I've just been in&nbsp; a constant state of analysis of the people in my workplace--the ""real"" adults, who work far more hours than&nbsp;I do (50, 60, 70 hours a week), and I wonder: what do their lives look like? What do they do when they get home from the office? Do they have husbands or wives who are working just as hard&nbsp;and so those few hours from 7-bed are precious catch-up time? Or kids, even? Do they have time to see their friends, plant flowers in the garden, walk the neighborhood at dusk with the dog? Or are they out at a bar, catching up with friends and downing beers before going home for the night? Or what if they want to date--where do they find the time and effort to put themselves out there, to be cute and flirty and fun and WEAR HEELS after a ten-hour day? And if they're pursuing a Master's, a law degree, a BABY...what then? What gets cut? Time at the bar? The garden? The gym? The husband? The friends?&nbsp;
+
+The they could be me. Probably WILL be, in about four years. I think I should feel scared, but I don't."
+"eventtime","2008-07-10 10:34:00"
+"current_moodid","101"
+"url","http://bluetruedream.livejournal.com/48524.html"
+"userid","1961"
+"itemid","188"
+"event","My internship. Which. Is. Fabulous.
+Seriously, I feel so lucky to be able to be working where I work, with the people whom I work with. The Conference in Miami was awesome on so many levels (not just shaking Obama's hand, the whole thing) and I really do think that public service/politics/law is the right focus for me. Working 40 hour weeks definitely has its drawbacks, though, and I am pretty tired by Thurs/Fri. But all in all, I am thrilled with it.
+
+Inherit the Wind. Which. Was. Wonderful.
+I don't know how I thought that a summer without the Bathhouse would be ok. Becuase having done my first Alumni show, I know that this summer would not have been the same without Inherit the Wind. It was really hard feeling so unconnected to the show for the first few days after Miami, but that is what you get for trying to do too much at once and being gone for all of tech. But it turned out brilliantly, and I felt a lot more connected by the time we closed.&nbsp;
+
+The rest of the summer. Which. Is. Going. Fast.
+And I am both happy and sad about that! I mean, I have a lot to look forward to: time with Eric, friends, family...trip to CA to visit Beth, Becca, and Rals...Ashland...sunshine...Seattle...etc. BUT at the same time I am so excited for Tufts!
+
+Being in love in the sunshine makes everything beautiful :)"
+"eventtime","2008-06-30 16:07:00"
+"current_moodid","84"
+"url","http://bluetruedream.livejournal.com/48220.html"
+"userid","1961"
+"itemid","187"
+"event","May 6, 3 pm:
+as of about an hour ago, i am done with my freshman year! amazing.
+i turned in my poli sci papers yesterday and my history paper today, and had my spanish exam this morning.
+and thus the packing has commenced--i am two boxes in. but i have absolutely nothing to do and nowhere to be tomorrow, so i have plenty of time...
+
+then on thursday the college boxes people are picking up my stuff in the morning and i'm taking my printer and little table to my great-aunt's to store for the summer, and then i'm taxi-ing to the airport at 3:30, and then my plane leaves at 6:20, and then I'm home at 9:20 (i love flying BACK across time zones)...
+
+i can't believe that i'm going to be home for the whole summer. and a longer summer than i've ever had, too...this whole year has been peppered with VISITS home, and now it's back to the LIVING at home. i have mixed feelings about this. i'm excited about living at home now, but come july (or even june) i suspect that i'm going to be missing being independent. all the same, the PEOPLE of seattle are what i am looking forward to :)
+
+and there is this exciting new internship, and a possible trip down to san fran/LA in late july or early august, and the trip to miami that comes with the internship, and the bathhouse show...i can't wait.
+
+May 8, 2 pm
+Who&nbsp; knew that LJ saved old entries that you accidentally closed the browser window on? Sweet.
+So...yeah. My room is NAKED and it's weird and I don't like it. It doesn't feel like my room anymore (and in about 90 minutes, when I turn in my keys, it won't be). This morning was crazy--one minute I had these huge storage boxes in my room and then BAM the movers came in and they were gone...scary to see all your stuff disappear, but they BETTER bring it all back. Or else. Watch out, CollegeBoxes.
+
+I picked up my research paper for sex class today (""Oral Contraceptives and the Androcentric Model of Sexuality: Examining the Pill's Changing Place from the 1960s to Today"") and my professor loved it! I am so relieved, especially because there were moments where I felt like it was one big feminist rant about how the penis is not God, etc etc etc. But anyways... I am going to miss that class, especially with its book titles like, ""The Technology of Orgasm: Hysteria, the Vibrator, and Women's Sexual Satisfaction."" Good stuff. (I'm bringing that one home, if anyone is curious...)
+
+Okay. Time to TRY and force my suitcase shut (this will take some time), do a last sweep of the room, and start the goodbyes. I'm glad that I'm a little bit sad. It means I like it here; and more importantly, I love my friends.
+
+Seattle in 10 hours :)"
+"eventtime","2008-05-08 14:11:00"
+"current_moodid","41"
+"url","http://bluetruedream.livejournal.com/48024.html"
+"userid","1961"
+"itemid","186"
+"event","-write 6-8 pages on sexual subcultures throughout american history (sexuality final)
+-edit 6 page paper on parliamentary-PR system (poli sci final #1)
+-edit 6 page paper on ethnic violence/consociationalism (poli sci final #2)
+-study vocab and GRAMMAR for spanish final
+-pack my room
+
+Oh: and here is my exciting news. I have been accepted by the U.S. Conference of Mayors to serve as an intern with the Seattle Mayor's Office this summer. Tufts will be flying me to Miami for the National Conference of Mayors in late June, and I will be working full time from May 20th to July 21.
+
+5 days until Seattle!"
+"eventtime","2008-05-03 13:07:00"
+"current_moodid","91"
+"url","http://bluetruedream.livejournal.com/47648.html"
+"userid","1961"
+"itemid","185"
+"event","Life is far better than when last I wrote. Yes. I've found a group of people I really like hanging out with and they're fabulous, and so these last couple weeks have been flying by. The only bad news is that I don't know what I'm doing yet this summer--my internship apps have not worked out for me thus far...but I knew they were competitive when I applied and so I'm going to keep at it. Any suggestions, people, about places I could work/intern in Seattle?
+
+I watched an entire season of Sex and the City this weekend (season 4). Oh my god, it's so good! I've never seen it before but it's FANTASTIC. I'm addicted. And the movie comes out this summer--yessss. And I went shopping at the CambridgeSide Galleria (amazing mall FYI) and spent far too much money, but I got lots of cute things...exciting summer clothing for PRETTY weather!
+
+And now for some countdowns:
+3 days until my final scene presentation in Acting
+4 days until NYC for the weekend :)
+8 days until my research paper is due
+8 days until the classes end (but I only have 4 days of school heheh)
+17 days until I fly home for the summer ( just to be clear...that's TWO AND A HALF WEEKS)
+
+And somewhere in those two and a half weeks, I have to take a Spanish final, write two take-homes (sex class and poli sci), and pack up my entire room... yikes. I can't wait for summer!"
+"eventtime","2008-04-21 11:44:00"
+"current_moodid","91"
+"url","http://bluetruedream.livejournal.com/47447.html"
+"userid","1961"
+"itemid","184"
+"event","School...is hard.
+1) Socially. Since when have girls been so AWFUL? Okay...for a really, really long time. But in the last couple of months, some people who were once my friends regressed (or perhaps always were in...) to the Seventh Grade Stage, otherwise known as The Worst Year of Everyone's Life. It's not like I'm starting over at Square 1 in terms of making connections and friends and stuff, since I have been here for 7 months, but you know what? The people I thought were my best friends, who I spent 6 months cultivating frienships with and sharing experiences...obviously aren't people I should be friends with. They've made that very clear...and this is me talking a full month after the episode where they turned their backs on me...
+Here are the positives, which I have worked very hard to find over the last month
+-I have a single next year...
+-At least I found out NOW, instead of after years of friendship
+-I am going to meet lots of new people
+
+2) Academically ALSO hard. SO HARD. Which is of course why I am updating my LJ instead of a) studying my 6000000 poli sci flashcards with incredibly detailed theories of revolutions on them or b) writing my paper on the Lavender Scare for sex class or c) reading a Spanish novel or d) writing a Production Critique on Shining City for acting class or e) researching my semester paper for sex class, topic TBD....
+All of this. Ayyyyyy. 
+
+Here is what I am focusing on:
+I am going to be home, in 5 weeks. 5 weeks from now I will be DONE forever with this year, this awkward transitional year, and I will have a summer at home with the people I love and who love me and it will be SEATTLE and gorgeous and replenishing.
+
+Until then...I'm hanging on."
+"eventtime","2008-04-04 17:01:00"
+"current_moodid","22"
+"url","http://bluetruedream.livejournal.com/47126.html"
+"userid","1961"
+"itemid","183"
+"event","i'm happy today.<br />not that there are usually reasons to be UNhappy, but i have been more pessimistic than usual lately, and i don't like it.<br />but today: i took a spanish test that i felt (reasonably) prepared for, i had a great history of sex class where we talked all about modernization and Progressivism and Margaret Sanger and it's all just SO INTERESTING. Stemming basically from this class, I have made a major decision (har har pun intended).<br /><br />I will be double majoring in Political Science and History.<br />...gulp. I hope that this isn't a masochistic course of study, but it may be, considering I came into my freshman year with zero AP credits (I love you SAAS, but the no APs hurts sometimes...) and thus have to fulfill general requirements as well as major requirements. But I think I can do it, even if it means stretching myself thin for a couple of semesters later on. And who knows: I am still only a freshman, and I have until the end of next year to change my mind!<br /><br />Another happy reason: my dad is visiting! He took me and two friends out for Vietnamese last night, and tonight he and I are going to the BEST Italian restaurant in Boston, Strega's. It's in Little Italy and feels like a mafioso hangout. Mmmmm gnocchi. Mmmm not dining hall food!<br /><br />Another happy reason: I go home in 10 days! Which is SO soon, my god, especially considering I am going to have about 14 pages of midterms for two classes due on the 12th, the day before I leave. And part of this happy homecoming will be celebrating my 19th birthday early with my family and Eric and anyone else in Seattle who wants to. YAY birthdays, I love them.<br /><br />The only side note is <a href=""http://www.cnn.com/2008/CRIME/03/03/seattle.fire/index.html"">this</a>. Not that I care about those houses, but that's also the group that burned the Urban Horticulture Center down way back when. Scary."
+"eventtime","2008-03-03 14:56:00"
+"current_moodid","15"
+"url","http://bluetruedream.livejournal.com/46935.html"
+"userid","1961"
+"itemid","182"
+"event","QnJlYWtmYXN0DQoNCmZvciBvbmNlDQppIGFtIG5vdCBkcmVhbWluZyBvZiBoeXBvdGhldGljYWwgcGFyYWRpc2VzOg0Kd2hpdGUgc2FuZCBiZWFjaGVzLCByZWQgcm9zZXMsIGNoYW1wYWduZSBpbiBmcm9zdGVkIGdsYXNzZXMuDQpubywgaW5zdGVhZCBpIGxheSBhd2FrZSBhdCBuaWdodCwgdGhlIHBpbGxvdyBpbiB5b3VyIHBsYWNlIHVuZGVyIG15IGFybQ0KYW5kIGltYWdpbmU6DQp5b3XigJlyZSBzaXR0aW5nIGFjcm9zcyBmcm9tIG1lIGF0IHRoZSBraXRjaGVuIHRhYmxlOyBpdOKAmXMgZWFybHkuIA0KaW4geW91ciBoYW5kc+KAlGEgbXVnIG9mIHRlYSwgYSBiaXRlIG9mIHRvYXN0Lg0KeW914oCZcmUgZW5ncm9zc2VkIGluIHRoZSBwYXBlciwgZ2F6aW5nIHdpdGhvdXQgYmxpbmtpbmcNCndpdGggdGhhdCBjb25jZW50cmF0aW9uIHRoYXQgbWVhbnMgeW914oCZcmUgc29tZXBsYWNlIGVsc2UuDQp5b3XigJlyZSBzbyBmb2N1c2VkIGFuZCBpIGdyYWIgdGhlIGNoYW5jZSB0byBwaWNrIG91dCBhbGwgeW91ciBsaXR0bGUgaW1wZXJmZWN0aW9uc+KAlA0KdGhhdCBvbmUgY3VybCB0aGF0IG5ldmVyIGdvZXMgd2l0aCBhbGwgdGhlIHJlc3Q7IGl0IGFzc2VydHMgaXRzZWxmIHJpZ2h0IGluIHRoZSBjZW50ZXIgb2YgeW91ciBmb3JlaGVhZC4gaSBmaWdodCB0aGUgdXJnZSB0byBzbW9vdGggaXQgZG93buKAlHlvdeKAmXJlIHNvIHF1aWV0LCBjaGV3aW5nIHNsb3dseSwgdHVybmluZyB0aGUgcGFnZXMgb2YgdGhlIG5ld3NwYXBlciB3aXRoIGEgcGVyaW9kaWMgc2h1ZmZsZS4NCmJlc2lkZXMgdGhlIGN1cmzigJR5b3VyIGNvbGxhciBpcyBzdGlja2luZyB1cCBvbiBvbmUgc2lkZS4NCnlvdSBoYXZlIGNydW1icyBvbiB5b3VyIGxpcHMuDQppdOKAmXMgcGVyZmVjdC4NCmFuZCB0aGVuIHlvdSBjbG9zZSB0aGUgcGFwZXIgYW5kIGdsYW5jZSB1cCBhdCBtZQ0KeW914oCZdmUgY2F1Z2h0IG1lIHN0YXJpbmcNCmFuZCBvdXIgZXllcyBtZWV0OyB5b3Ugc21pbGUgYW5kIG11cm11ciBzbGVlcGlseSBzb21ldGhpbmcgdGhhdCBzb3VuZHMgc3VzcGljaW91c2x5IGxpa2UsIOKAnGdvb2QgbW9ybmluZy7igJ0NCnNvOiBubyB0cm9waWNhbCBiZWFjaGVzIG9yIGZsb3dlcnMgb3Igc2lsayBzY2FydmVzIGZvciBtZS4NCnRvZGF5IGnigJltIGxvbmdpbmcgZm9yIHRoZSBkYXktdG8tZGF5IG1hcnZlbCBvZiB5b3VyIGZhY2Ugb24gdGhlIHBpbGxvdyBuZXh0IHRvIG1pbmUNCndha2luZyB1cCBhbmQga2lzc2luZyB5b3Ugb24gdGhlIGZvcmVoZWFkIGFzIGkgcm9sbCBvdXQgb2YgYmVkIHRvIHN0YXJ0IHRoZSBkYXku"
+"eventtime","2008-03-01 22:58:00"
+"current_moodid","101"
+"url","http://bluetruedream.livejournal.com/46701.html"
+"userid","1961"
+"itemid","181"
+"event","I work (at the Tufts Telefund, for those of you who don't know) from 1:30-4:30 and 5-8 today. 6 straight hours of calling people and asking them for money--let's see how I survive. Ayyyy.
+
+This week/weekend has kind of sucked...I had a fight with my dad over something stupid (which he later apologized for), my family just left on the annual trip to Big White for skiing :( , I'm missing Vocal Ensemble, and I have too much work to do. 
+
+All of this is more than canceled out by the fact that Eric flies in on Tuesday, late afternoon. I can't wait..."
+"eventtime","2008-02-17 11:25:00"
+"current_moodid","92"
+"url","http://bluetruedream.livejournal.com/46466.html"
+"userid","1961"
+"itemid","180"
+"event","<div align=""center""><font size=""2"" face=""Comic Sans MS"">The Place I Want to Get Back  To</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">is where<br />in the  pinewoods<br />in the moments between<br />the darkness</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">and first light<br />two  deer<br />came walking down the hill<br />and when they saw me</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">they said to each other,  okay,<br />this one is okay,<br />let's see who she is<br />and why she is  sitting</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">on the ground, like  that,<br />so quiet, as if<br />asleep, or in a dream,<br />but, anyway,  harmless;</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">and so they come<br />on their  slender legs<br />and gazed upon me<br />not unlike the way</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">I go out to the dunes and  look<br />and look and look<br />into the faces of the flowers;<br />and then one of  them leaned forward</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">and nuzzled my hand, and  what can my life<br />bring me that could exceed<br />that brief moment?<br />For  twenty years</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">I have gone every day to the  same woods,<br />not waiting, exactly, just lingering.<br />Such gifts,  bestowed,<br />can't be repeated.</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">If you want to talk about  this<br />come to visit.&nbsp; I live in the house<br />near the corner, which I  have named<br /><i>Gratitude</i>.</font></div> <div>&nbsp;</div> <div align=""center""><font size=""2"" face=""Comic Sans MS"">~ Mary Oliver ~<br /></font><div align=""left""><br /><br />...amazing.<br />I wish my homework consisted of reading that kind of poetry, instead of about rather dry methods of comparative politics. Well, I have some Sex reading (US History of Sexuality) reading to liven it up a little....oh the joys of schooling.<br />Life is SO busy. But the weekend was good--wonderful brunch with Philip, Simon, Zoe, Kayla, Charlotte, Lily, Austin in Harvard; shopping; AUDRA MCDONALD in concert where she sang ""Stars and the Moon"" and ""Light in the Piazza"" and some other Jonathan Larson that I'd never heard...<br />And a very much anticipated visitor arrives a week from today :)<br />love.</div></div>"
+"eventtime","2008-02-12 20:21:00"
+"current_moodid","91"
+"url","http://bluetruedream.livejournal.com/46164.html"
+"userid","1961"
+"itemid","179"
+"event","c2V2ZW4gYS5tLuKAlHRoZSBzaGFkZXMgYXJlIHN0aWxsIGRyYXduLCB3ZSBsaWUgaW4gYmVkLg0KdGhlIGxpZ2h0IGlzIGZsaXR0aW5nIGFjcm9zcyB5b3VyIGNoZWVrcyBpbiB0aGluIGdyZXktYmx1ZSBsaW5lcy4NCndoZW4gaSB3YWtlLC0teW91ciB3YXJtdGggd2l0aGluIG15IGFybeKAmXMgbGVuZ3RoDQphbmQgdGhhdCBpcyB3aGF0IGkgd2FudCBmb3JldmVyLg0K4oCcIHlvdSBsb29rIGJlYXV0aWZ1bCBpbiB0aGlzIGxpZ2h0LOKAnSB5b3Ugd2hpc3BlciwgYW5kIGtpc3MgbXkgbmVjay4NCmkgaGF2ZSB0b28gbWFueSB0aGluZ3MgdG8gdGVsbCB5b3UsIHRvbyBtYW55IHdhbnRzIGFuZCB3aXNoZXMgdGhhdCBqdXN0IG1pZ2h0IG5vdCBjb21lIHRydWUuDQpob3cgZG8geW91IG1ha2UgcGxhbnMsIHdoZW4geW91IGRvbuKAmXQga25vdyBob3cgbWFueSBtb3JlIG1vbnRocyBvciB5ZWFycyBpdCB3aWxsIGJlPw0KaG93IGRvIHlvdSBzcXVhc2ggeW91ciBob3BlcyBhbmQga2luZGxlIHRoZW0gYXQgdGhlIHNhbWUgdGltZT8NCmnigJltIGZpbGxlZCB3aXRoIG1heWJlcywgd2l0aCBwb3NzaWJpbGl0aWVzDQpidXQgb24gdGhpcyBmZWJyYXVhcnkgbW9ybmluZywgbXkgcGxhbmUgbGVhdmVzIGluIHRocmVlIGhvdXJzDQphbmQgYWxsIEkgY2FuIHRoaW5rIGFib3V0IGlzIHRoYXQgeW91IHdpbGwgbm90IGJlIG9uIGl0Lg=="
+"eventtime","2008-02-03 21:43:00"
+"current_moodid","25"
+"url","http://bluetruedream.livejournal.com/45827.html"
+"userid","1961"
+"itemid","178"
+"event","I got home Thursday night and I leave tomorrow (Sunday) morning!
+hahahhaha my life is crazy!
+It's so weird to be home, probably because it's for such a short time and because it's so unexpected. I had it all set in my mind that I wouldn't be back in Seattle from January 15 to March 13, when I get home for break, and guess what? I'm back! It's been so lovely for these past 40 something hours to just hang out with my family and Eric and watch Lost and shower with no shoes on and eat food in the kitchen. I love home.
+And at the same time, I'm excited to go back and start work, and everything that goes along with college :)
+
+Tonight is SAAS's (and Eric's) Winter Ball. Blast from the past, here I go...
+Love!"
+"eventtime","2008-02-02 13:48:00"
+"current_moodid","99"
+"url","http://bluetruedream.livejournal.com/45669.html"
+"userid","1961"
+"itemid","177"
+"event","since i'm flying home for less than 48 hours in 2 weeks, so i can go to winter ball with eric.
+i love my daddy. and frequent flier miles. :)"
+"eventtime","2008-01-17 23:59:00"
+"current_moodid","98"
+"url","http://bluetruedream.livejournal.com/45365.html"
+"userid","1961"
+"itemid","175"
+"event","It's 2008! Happy New Year.<br /><br />Copying Kenna, I wrote the following one year ago:<br /><br /><i>It's 2007. Two days until I go back to school. Less than two months until Macbeth. Less than three until Districts for Mock Trial. Less than four until the Senior Alaska trip. Less than five months until I start my senior internship. Six months until I graduate from SAAS. Less than seven until my last show at the Bathhouse. Less than eight until I go to Boston.<br /><br /></i>Well, now it's 2008. Two weeks until I return to Boston. Three months until I come home for spring break. Five until I come home for SUMMER. Last year at this time, I was measuring weeks as time UNTIL college, and now I count weeks until I come home again. Someone&nbsp; told me recently that college is kind of a floaty period--that you spend time in two main places (if you're away from home, that is) and that part of you will always long, a bit, to be in that other place. It's weird, but I totally agree. It's unfortunate to always be pining, in a way, for something you don't have--but I guess that's life. And: there is nothing like being away to make you appreciate what you come back to. I love college; I love learning; I love my friends there; I love Boston; I love being independent. And yet--I will always call Seattle my home, and going away for college only cements my decision that I want to live in Seattle when I grow up. Whenever that is.<br /><br />Now, resolutions. I haven't really thought of mine yet, so I'm going to type some as I think of them...<br />1) Get a paying summer job and hold it for the whole summer. <br />2) Do as well in 2nd semester as I did 1st semester<br />3) Learn how to balance my emotions and compartmentalize.<br />4) Gain the ability to step back from a problem or tough situation and accept that everything will be okay in the long run.<br />Edit: 5) Keep a journal. A real, non-LJ one. I bought a Moleskin Notebook at Barnes and Nobles and will commence with this resolution...now. <br /><br />What did I do in 2007 that I never had before?<br />I graduated from high school. I was captain of a school team (Mock Trial). I saw the Northern Lights (Senior Alaska Trip). I won an award for theater (5th Avenue Musical Theater Awards--Gypsy). I fell in love. I went to college.<br />...weird. I can't write it all down.<br /><br />Happy New Year. Wear Sunscreen. Watch this: http://youtube.com/watch?v=xfq_A8nXMsQ"
+"eventtime","2008-01-01 21:00:00"
+"current_moodid","57"
+"url","http://bluetruedream.livejournal.com/44968.html"
+"userid","1961"
+"itemid","174"
+"event","<a href=""http://pics.livejournal.com/bluetruedream/pic/00001pxs/""><img src=""http://pics.livejournal.com/bluetruedream/pic/00001pxs/s320x240"" width=""320"" height=""240"" border='0'/></a>
+
+The stairs out of my dorm.
+
+
+<a href=""http://pics.livejournal.com/bluetruedream/pic/00002w7b/""><img src=""http://pics.livejournal.com/bluetruedream/pic/00002w7b/s320x240"" width=""320"" height=""240"" border='0'/></a>
+
+Me and my roomie walking to dinner.
+
+
+
+<a href=""http://pics.livejournal.com/bluetruedream/pic/0000321x/""><img src=""http://pics.livejournal.com/bluetruedream/pic/0000321x/s320x240"" width=""180"" height=""240"" border='0'/></a>
+
+
+So much snow!"
+"eventtime","2007-12-13 19:43:00"
+"current_moodid","87"
+"url","http://bluetruedream.livejournal.com/44593.html"
+"userid","1961"
+"itemid","173"
+"event","This weekend was amazing.
+On Saturday, I woke up at 7 a.m. (earliest I have yet at college) and took a bus along with 40 other Poli Sci students and professors up to New Hampshire. 
+First stop: A John McCain town hall meeting. It was fascinating, the way the place was set up. In a nursing home, with the room organized in a square. 4 sides of seats with a low platform in the middle for the candidate. There were veterans all over the place, and people wearing shirts and stickers that said, ""Veterans for McCain,"" or ""McCain 2008."" When we got there, it was standing room only, so we stood near the back door, on one side. The event's organizer got up onstage and announced that the ""Straight Talk Express"" was going to be 5 minutes late (and when the bus pulled up, yes, it DID say ""Straight Talk Express,""...oh god), so they'd show us a little video about McCain. Can you say propaganda? Yes, he's a war hero, and it's amazing what he's done, considering he can't lift his arms more than a few feet from him sides (remnants of Vietnam torture). But still, watching a 10 minute movie which slammed down our throats the fact that JOHN MCCAIN IS BRAVE AND HONORABLE AND A WAR HERO got to be a little too much. BUT, my Poli Sci professor then came over to where Austin (Field, yes, he was there too) and I were standing and whispered that he thought McCain would probably enter through the door right next to us, and we had a pretty good chance of shaking his hand. Sure enough, when the ""Straight Talk Express"" pulled up, I shook McCain's hand. Regardless of my views of his politics, pretty cool.
+
+Now, about those politics. He's a great speaker, and very compelling, but I agreed with basically none of what he said. The only comment he made that I approved of was something to do with climate change, but it was so vague that if left me wondering if he actually had a plan or not. It was so interesting to listen to the questions from the audience--New Hampshire state residents take their duty as voters in the nation's first primary VERY seriously, and have good questions. We found out later that one man who stood up and said, ""Mr. McCain (note the demotion from 'Senator' to 'Mr.'), I like you a lot, but I'm afraid I've become a single-issue voter. And I can't vote for you until I hear you make a powerful statement about the problem of those illegal immigrants and the failures at our borders. What are you going to do about that?"" was actually a plant from Mitt Romney's campaign, because the immigration issue plays much more strongly to Romney's base than McCain's.
+
+After that, we had lunch and then made our way to Derry, New Hampshire, for a John Edwards town hall meeting. The differences were already apparent when we pulled into an elementary school parking lot, rather than a nursing home. The room was organized different...instead of a ""theater in the round,"" it was a proscenium, and  there was no ""stage,"" meaning the candidate was on the same level as all audience members. The cafeteria was packed by the time we got there, lunch tables shoved up against walls, and we barely squeezed in behind the rows of chairs. Instead of veterans, there were crowds wearing ""Steelworkers for Edwards"" and ""Carpenters for Edwards"" shirts. The average age in the room was probably about 15 years younger than at the McCain event--these were middle class, middle aged people who probably had kids attending the elementary school where we were. They too took their responsibility very seriously.
+
+Now, about Edwards. There was no movie beforehand, and a very short introduction (compared to the one we got at McCain's camp). Instead, Edwards entered, among huge applause, and took his time shaking hands and clapping backs. Sadly, I was unable to reach him, but I still could see him and the excited faces of those near him. It wasn't until he reached the ""stage"" that I realized he was wearing jeans, sneakers, and a fleece, which contrasted sharply with McCain's three-piece suit. Talk about appealing to constituents. Edwards is exceedingly handsome in a Presidential way--he just radiates charm, charisma, and class...but class in terms of someone whose ""father spent 37 years in the mills in order for me to go to college."" He looks far more presidential than McCain, and far more presidential than his own image on television. And the accent, as he pointed out, helps. ""The last two democrats elected,"" he says, and points to his mouth, ""talked like this.""
+He was incredibly compelling, and I would vote for him in a second if I thought he had a chance against Obama and Clinton. His universal health care plan is so good that other candidates have mimicked it, and he supports a lot of issues which I find very important.
+
+After he finished, I joined the throng of people surrounding him (like I said, CHARISMATIC) and jockeyed for an autograph. He signed my paper, patted me on the back, smiled, and said, ""It's a pleasure to meet you."" And in that second, it felt to me like he meant it--eye contact and all. That, ladies and gentleman, is the mark of a truly great politician.
+
+So, what now?
+Well, 7 days, 2 finals, and 1 NQR (Naked Quad Run). NQR has been going on for over thirty years at Tufts. It's always the night before Reading Period in the fall exams, and hundreds of Jumbos strip and run around the quad, 20 degree temps and all. I can't wait."
+"eventtime","2007-12-10 13:57:00"
+"current_moodid","125"
+"url","http://bluetruedream.livejournal.com/44331.html"
+"userid","1961"
+"itemid","172"
+"event","Getting closer and closer...
+13 days now until I come home :)
+In between now and then I will have:
+
+1 final scene performance for Acting (London Suite by Neil Simon--I'm a Jewish mother--too much fun...)
+1 night of rambunctious partying with 3Ps
+2 finals (eek. Poli Sci and Spanish)
+6 hours back on the plane with NO HOMWORK TO DO!
+25 dining hall meals before HOME
+
+Hehe. Anyways. It's really pretty here--snow's been on the ground for several days, and as it's 22 degrees out, I don't think it's going away anytime soon. It's amazing how I am already used to the snow, and the very Un-Seattle like aspect of it: it doesn't melt overnight! Craaazay.
+
+I am so excited for break! I love school, but I love Seattle and home and friends and family and boyfriend just as much, and I have not gotten a whole lot of all three in the past few months :)
+But that is going to change starting December 17th, since I'll be back from the 17th to January 15th! :)
+I want to see everybodyyyyyy. And go to Uvillage and drink the cider at Williams and Sonoma, and drive carefully across the Montlake Bridge in the mornings as I take Eli to SAAS, and go help Steve with Mock Trial, and sit on the couch and pet my kitty, and walk into the bathroom RIGHT next to my room in the mornings, and shower without shoes on, and sleep in a double bed, and walk downstairs and open the pantry and marvel at the fact that I can cook my own food! And decorate the Christmas tree while listening to carols, and see old friends, and drive my car, and eat at Zao, and not do homework, and collect on hugs that I've missed over the past few months, and celebrate Anna's 21st birthday, and generally just enjoy how beautiful Seattle is.
+
+Now I just have to get through these next 13 days intact. Wish me luck!
+
+Love."
+"eventtime","2007-12-04 11:16:00"
+"current_moodid","59"
+"url","http://bluetruedream.livejournal.com/44257.html"
+"userid","1961"
+"itemid","171"
+"event","hi lovelies,
+i'm back in boston...back in my dorm room.
+how weird is it that i woke up in my room at HOME, in seattle, this morning?
+so weird.
+
+i had the most wonderful thanksgiving. family + friends + love + food + seattle = perfect.
+i'm exhausted, and homesick, and about to go take a shower in the bathroom which is not my own...
+
+22 days until I fly home for xmas. it better go by fast..."
+"eventtime","2007-11-25 20:59:00"
+"current_moodid","22"
+"url","http://bluetruedream.livejournal.com/43857.html"
+"userid","1961"
+"itemid","170"
+"event","I'm about to leave my dorm, catch a taxi to Boston-Logan, get on my (hopefully not delayed) plane, and COME BACK TO SEATTLE TONIGHT!!!!! Words can't express how excited I am to come home...
+
+Oh, and it snowed here this morning. My first ever pre-Thanksgiving snow :)
+It's perfect, because it snowed hard this morning but then turned to rain, so I got to have my first East Coast snow without a blizzard that would ground planes. Hopefully. :)
+
+Love!"
+"eventtime","2007-11-20 14:20:00"
+"current_moodid","41"
+"url","http://bluetruedream.livejournal.com/43587.html"
+"userid","1961"
+"itemid","169"
+"event","The Bad:
+After 24 hours of excruciating throat pain, I have been diagnosed with a bacterial infection (??!) in my throat. Health services prescribed antibiotics, and hopefully I'll be better soon. However, I wish soon meant ""now"" as I have SO MUCH WORK to do, and all I have been able to do lately is sleep. No good.
+
+The Good:
+Despite the shittiest registration time EVER, I got all the classes I wanted for next semester! Drama 12, Spanish 4, Comparative Politics, and Creative Writing: Poetry. Yay!
+AND I COME HOME IN 6 DAYS!!!!"
+"eventtime","2007-11-14 16:22:00"
+"current_moodid","82"
+"url","http://bluetruedream.livejournal.com/43419.html"
+"userid","1961"
+"itemid","168"
+"event","Exactly two weeks from now, I will be packing my bags and readying myself for the flight home to SEATTLE!!!
+I can't wait. I know it's only going to be for...five nights and four days...but I am still looking forward to it IMMENSELY. Being HOME. Seeing ELI (who I haven't seen since I left in August...I miss my little brother!) and  seeing ERIC and seeing TIA and going to SAAS...all of the above :)
+
+The past few weeks have been good. Parents' Weekend was lovely, and then Charlotte C was in town for a night and I had dinner with her, and then Eric came the next week and stayed at Tufts for a day and night before we took the Greyhound to New York for the weekend. It was so much fun; and, I got to see Charlotte and Devin! Yayyy. 
+
+My show opens this week. Oh joy. Erm...let's just say it's not the biggest artistic achievement in history.
+
+BUT I'M GOING HOME IN FOURTEEN DAYS!!!!!"
+"eventtime","2007-11-06 10:36:00"
+"current_moodid","92"
+"url","http://bluetruedream.livejournal.com/43032.html"
+"userid","1961"
+"itemid","167"
+"event","bXkgdGhyb2F0IGlzIGJsb2NrZWQNCi0taSBjYW7igJl0IHNwZWFr4oCUDQpiZWNhdXNlIGlmIGkgZG8sIHRoZW4gYWxsIHRoZSB3aGlzcGVyZWQgYWxyZWFkeS1naXZlbiBwcm9taXNlcw0Kd2lsbCBzcGlsbCBvdXQgb2YgbWUNCmFuZCBp4oCZbSBhZnJhaWQgb2YgZHJvd25pbmcgYm90aCBvZiB1cw0KaW4gYSBmbG9vZCBvZiB3b3JkcyB0aGF0IG1ha2UgbXkgY2hlc3QgaHVydC4NCmFjdXRlbHnigJRub3QgYSBkdWxsIGFjaGXigJRidXQgc2hhcnAsIGNvbmNlbnRyYXRlZA0KYW5kIGFsbCB0aGlzIHR3aW5naW5nIGRvZXMgaXMgcHVsbCBtZSBjbG9zZXIgdG8geW91Lg0KaW4gdGhlIGNpcmNsZSBvZiB5b3VyIGFybXMNCmkgZG9u4oCZdCBoYXZlIGFueSBxdWVzdGlvbnMsIHNhdmUgb25lOg0Kd2h5IGRvZXMgbGVhdmluZyB5b3UgbmV2ZXIgZ2V0IGVhc2llcj8NCndoeSBkb2VzIHRoZSByZWFzc3VyYW5jZSBvZiBtb3JlIHRpbWUsIG1vcmUgY2hhbmNlcyBmb3IgeW91ciBoYW5kIHRvIHNsaXAgdW5vYnRydXNpdmVseSBpbnRvIG1pbmUsIG1vcmUgcXVpZXQgbG9va3MgdGhhdCBjcmF2ZSBoZWF0ZWQgc2hlZXRzIGFuZCBkb3VibGUgYmVkc+KApg0Kd2h5IGRvIHRob3NlIHRydXRocyBmYWlsIHRvIHN0b3AgbWUgDQpmcm9tIHN0YW5kaW5nIGFsb25lIGluIGEgY3Jvd2Qgb2YgcGVvcGxlLCBoaWRpbmcgbXkgZmFjZQ0KYW5kIHdpbGxpbmcgbXlzZWxmIG5vdCB0byB0dXJuIGFyb3VuZCB0byBsb29rIGF0IHRoZSBzcG90IHdoZXJlIHlvdSBqdXN0IHN0b29kPw0KaSBrbm93IGFsbCBpIHdpbGwgc2VlIGFyZSBzdHJhbmdlcnMsIHVuYXdhcmUNCmdsYW5jaW5nIGF0IG15IHdldCBjaGVla3Mgd2l0aCBhbXVzZWQgbm9zdGFsZ2lhOg0K4oCcYWgsIHlvdW5nIGxvdmUu4oCdDQppZiBvbmx5IGkgY291bGQgdGVsbCB0aGVtOiB0aGVyZSBpcyBzbyBtdWNoIGFib3V0IHRoaXMgdGhhdCBpcyBub3QgeW91bmcuDQppIGRvbuKAmXQgZmVlbCB5b3VuZyB3aGVuIG91ciBnbGFuY2VzLCBzdGVhZHksIGhvbGQgb250byBlYWNoIG90aGVyLiBuby4gDQppIGZlZWwgc3RyZW5ndGhlbmVkIGJ5IHRoZSByaW5nIG9mIGdyZWVuLWJyb3duIGluIHlvdXIgZXllcw0KZW1ib2xkZW5lZCBieSB0aGUgcHJlc3N1cmUgb2YgeW91ciBzbW9vdGggcGFsbXMgYWdhaW5zdCBteSBsb3dlciBiYWNrDQplbnJhcHR1cmVkIGJ5IHRoZSBmYWN0IHRoYXQgeW91IGtpc3MgbWUgaW4gdGltZXMgc3F1YXJlDQphbmQgdGhlIG9ubHkgbGlnaHRzIGkgc2VlDQphcmUgdGhlIG9uZXMgZXhwbG9kaW5nIGJlaGluZCBteSBleWVsYXNoZXM="
+"eventtime","2007-10-22 01:13:00"
+"current_moodid","31"
+"url","http://bluetruedream.livejournal.com/42889.html"
+"userid","1961"
+"itemid","166"
+"event","in this moment, i am perfectly, serenely happy."
+"eventtime","2007-10-18 15:27:00"
+"current_moodid","125"
+"url","http://bluetruedream.livejournal.com/42584.html"
+"userid","1961"
+"itemid","165"
+"event","Hello darlings:
+
+I am procrastinating from writing a response paper for english--but I've been very productive yesterday and today so I don't feel bad :) The library really is the best place to get work done--there's something about barricading myself in a cubicle with my water bottle, laptop, chapstick, cell phone (on silent, of course!) and a few hundred pages of reading--I can just GO and not be as distracted as in my room, even though there's still AIM and Facebook and all...like, last night, I wrote almost an entire paper in 2 hours, when it probably would have taken twice that in my room. Yay Library Time!
+
+I'm so excited! I get to see my Mom in TWO DAYS wheeeee. Then Dad comes Friday, I have dinner with Charlotte and her mom on Sunday, and then Eric comes the following Thursday! So many happy visitors. All I have to do is make it past my gigantic Poli Sci midterm next Wednesday, and I'll be good :)
+
+I love it here. I love the feeling of walking around on campus and seeing the leaves start to change, and recognizing people walking up the hill to Olin (language building), and Thursday night Grey's parties, and weekend actual parties, and being young and alive and in love and in college. It's a great feeling. Zoe and I explored the city to a great extent on Saturday...we went to something like 6 different T stops, had Thai food, shopped in Harvard Square, shopped in the most Amazing Mall Ever, and then came back to Tufts for dinner. So much fun being all independent...and then I am so excited to show my parents around here, because when they last saw me I was terribly homesick and scared and not wanting them to leave at ALL, so it will be a welcome change.
+
+And can I just say there are SO MANY AMAZING opportunities in college? My poli sci professor, who, if I was twenty years older, I would have a major crush on (he has the older guy George Clooney thing), takes a group of students up to New Hampshire during the fall of presidential election season to go around and meet candidates and check out campaign headquarters and just generally soak up the atmosphere. I AM SO THERE. Poli sci is amazing--I love it--and there are SO many more classes I want to take in it! Good thing Tufts has a great department :) Let's just see if I'm saying that when I get my first paper and midterm back...eeeek.
+
+Ok...time to go flip my laundry, write that response paper, and hopefully fall asleep at a decent hour. I miss you guys--let me know how you're doing!"
+"eventtime","2007-10-09 22:17:00"
+"current_moodid","99"
+"url","http://bluetruedream.livejournal.com/42472.html"
+"userid","1961"
+"itemid","164"
+"event","I haven't written in like two weeks...wow.
+College is so fast paced! Even with time in between classes for homework and meals and naps and going to the gym, everything goes by fast! Since I last wrote, I've been to some frat parties (not as bad as expected), auditioned a lot (more on that later), worked a lot....
+
+I got cast! I'm in ""Comic Potential,"" the all-freshman show this fall. I'm so, so, so happy to have gotten in, because I wasn't expecting to (12 person cast out of more than 60 people auditioning), and for those of you who know Austin, he's in it too! I'm excited to get to know everyone and just to DO A SHOW again. Theater makes me happpppy.
+
+It's amazing how fast the month is going, even though I'm occasionally very homesick. It's so funny; it comes in waves--yesterday was terrible, and then it got better. But on the whole, I am actually really liking college :)
+My roomate and I get along great and us and two of our friends spend lots of time together and get meals together and watch Gossip Girls (ahhaahhaah) and it's beginning to feel more like home. That said...I come home for Thanksgiving in less than two months!
+
+But before then, I have SO much to look forward to! My parents will be here in three weeks for Parents' Weekend, and the Thursday after that, Eric's coming to visit! He gets in EARLY Thurs morning on a red eye from Seattle, and then we'll spend Thursday and Thursday night here, and then catch a Greyhound early Friday morning for...New  York! Wheeee! We're staying in his grandma's apartment, which is a little nervewracking, but I can't wait to come to NYC and hopefully see lots of people and spend time with him, of course. I'll be there Friday-Sun afternoon, and then it's back to Tufts.
+
+Alright. I have a couple hours before we're going out tonight, and I'm DETERMINED to finish this paper...
+Also, I can't work at all tomorrow because I'm canvassing with Tufts Democrats in New Hampshire for Obama. Wooo!
+
+I love you all and miss you like crazay...send me things! I promise I'll write back, and getting mail is always a highlight :)"
+"eventtime","2007-09-21 19:28:00"
+"current_moodid","99"
+"url","http://bluetruedream.livejournal.com/42157.html"
+"userid","1961"
+"itemid","163"
+"event","friends, romans, countrymen...
+
+i'm a lot better since my last entry. oh so glad that the hectic-ness of orientation is over, and happy to be getting to the rhythm of ""real"" college.
+
+My schedule:
+Mondays: 10:30-11:45--Intro American Politics
+
+Tuesdays: 9:30-10:20 English; 10:30-11:45--Intro to Psychology; 1:30-2:20--Spanish 3.
+
+Wednesdays: 9:30-10:20 English; 10:30-11:45--Intro American Politics
+
+Thursdays: 10:30-11:45 Intro Psych; 1:30-2:20--Spanish 3
+
+Fridays: 9:30-10:20 English; 10:30-11:45 Intro American Politics; 2:30-3:20--Spanish 3
+
+All in all, pretty good, although I would have liked less Friday classes. I am SO excited about the American Poliics class; it's the intro level Poli Sci course and makes me want to major in Poli Sci.
+
+My roomie and I are getting along really well now, so that's nice (and relieving!) We've been working out and eating together, so that's fun. I've also been into Boston several times, so that is good. Saying goodbye to my parents was really, really hard--but once it was over, it was surprisingly okay--until I was terribly, completely homesick several times in the next few days. I'm hopeful that the worst is over, even though I know that there will still be times when I want to go home more than anything. I just hope those times keep growing farther and farther apart.
+
+I'm excited to go into Boston tomorrow night! Zoe and I are going shopping around Newbury/Quincy Market so I can get shoes (YAY SHOES) and then meeting up with Anneka (wheee!) and Simon and Austin for dinner and perhaps a movie. Much fun.
+
+I miss SAAS dearly! Way more than I expected. And I am already oh so excited to come home!
+
+Send me mail! It makes my day ;) I promise I'll write back!
+LOVE."
+"eventtime","2007-09-06 22:40:00"
+"current_moodid","68"
+"url","http://bluetruedream.livejournal.com/41856.html"
+"userid","1961"
+"itemid","162"
+"event","all those people who said the hardest part about college was getting in? they're wrong...
+
+i have never been this emotionally exhausted in my life. orientation started on tues/wed and today is friday, and i have three more days before classes start. dear lord...SO MUCH is crammed into every day, and on top of that they expect us to make friends, too...how impossible is that! i feel pretty lame because i've turned down like three invitations to go to off campus parties...it's just by the time it's midnight, i want to crawl into bed, not go off campus...
+
+grrrrrrrr.
+
+and i'm homesick. i really am. i miss all of you, and i wish i was on the saas upper school retreat right now where everyone knows my name and exactly who i am. there are around 1300 people in my class and it is so scary to walk into a room and not recognize (let alone know the name of) a SINGLE person...
+
+i still can't understand that this is where i'm living for the next four years, and that my time in seattle will always be ""vacations."" that is so, so, so twisted.
+
+give me time, please, and everything will hopefully be ok."
+"eventtime","2007-08-31 11:30:00"
+"current_moodid","40"
+"url","http://bluetruedream.livejournal.com/41533.html"
+"userid","1961"
+"itemid","161"
+"event","Not going to lie, I feel panicked. Very, very panicked. My life is compressed into 4+ suitcases lying open on the floor of my bedroom--my drawers are empty--my walls have conspicuous gaps where posters were--my bathroom devoid of all the things I use every day. 
+
+How weird is this?
+
+So weird.
+
+I leave for college in 13 hours...But it's not actually college. From the 24th through the 28th, I am backpacking with other Tufts freshmen. I move in on the 29th. Holy shit.
+
+No matter what anyone says about not saying goodbye or returning to things again and again...this feels so big.
+
+love."
+"eventtime","2007-08-21 17:02:00"
+"current_moodid","25"
+"url","http://bluetruedream.livejournal.com/41380.html"
+"userid","1961"
+"itemid","160"
+"event","are any of you (besides the obvious cast members) going to be at Arabian Nights on Sunday?
+I am coming with Eric then and would love to say hello and goodbye :( to all of you!"
+"eventtime","2007-08-14 21:46:00"
+"current_moodid","68"
+"url","http://bluetruedream.livejournal.com/41033.html"
+"userid","1961"
+"itemid","159"
+"event","I don't really have anything to say. But this is such a momentous occasion (yes, it IS) that I can't NOT write about it for posterity.
+
+End of Bathhouse?? Not really, which is maybe why I don't feel sad. I feel nostalgic, and lucky, and full of six summers of oh so many memories. But sad? Maybe I will get there later, but right now, I just feel lucky, and full, and if I feel like crying it's from happiness, not sadness. I like it like that--I have gotten so much joy from this small brick building and its Shakespeare-speaking, creative-blooming, free-moving, love-giving people over the past six years, and I would not want that time to end (or...semi-end/transition) on a sad note. 
+
+Writer 1272, our senior show (2007 yeah!) went better than I could have ever dreamed. It was fun, exciting, new, and I got to act with every single person in the cast, which was exactly what I wanted. Oh, and parade around the stage in slutty clothes. yessssss. hahah. I love that show, and I can't wait to see where it goes.
+
+So many goodbyes. They started at graduation (SAAS graduation, I mean) and now they just keep coming and coming. The hardest ones aren't going to be until the end, but all of the consecutive hugs and well-wishes and ""last this's and last that's"" are definitely getting to me. I love Seattle, and I love the life that I have built for myself in Seattle, and that is a hard thing to move away from.
+
+But I will do it. In ten days. 10 days from now, I will moving to Boston."
+"eventtime","2007-08-12 01:40:00"
+"current_moodid","96"
+"url","http://bluetruedream.livejournal.com/40725.html"
+"userid","1961"

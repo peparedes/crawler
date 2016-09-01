@@ -1,0 +1,212 @@
+"names","values"
+"itemid","10"
+"event","aG1tbSBpbnRyZXN0aW5nIGRheSBpdHMgYmVlbi4uLi4uIGkgZG9udCBldmVuIGtub3cuLi4uLiBpdmUgYmVlbiB0aGlua2luIGFsb3QgbGF0ZWx5IGFuZCBpbSBhbGwgb3V0IG9mIHRob3VnaHRzIGZyb20gdGhpbmtpbi4uLiBpbSBhbGwgb3V0IG9mIGhvcGUgZmFpdGguLi4uZXZyeXRoaW5nLi4uLi4uIHdlbGwgdHVybnMgb3V0IGV2cnl0aGluZyBiZWVuIGZ1Y2tpbiB1cCA0IG1lIC4uLi4gaSBhaW50IGdvaW4gdG8gY2FsaSBiLmMgbXkgY3V6aW4gbmlra2kgY2FudCBnbyBzbzAgYW5kIG15IG1vbSB3b250IHRydXN0IG1lIG91dCB0aGVyZSBieSBteXNlbGYgdy4gb25lIG9mIG15IGZyaWVuZHMgc28wIHNjcmF0Y2ggY2FsaSA0IHRoZSBtYXJpYWggY2FycmllIGNvbmNlcnQgZnVjayBwZXVydG8gcmljbyBiLmMgbXkgZmFtaWx5IGhhZCB0byBmaW5kIHRoZXJlIGJyb3RoZXIgdGhpcyB5ZWFyIHNvMCBteSBnbW9tIGFuZCBncG9wIGFyZSBjb21laW4gdG8gcGhpbGx5IGFpbnQgdGhhdCBncmVhdC4uLi4uLi4gb25seSB0aGluZyBpIGdvdCBsZWZ0IGlzIHZlZ2FzIGF1ZyAyOXRoIHRpbGwgdGhlIHNlY29uZC4uLi4uIHRoZW4gMyBkYXlzIHRpbGwgbXkgMTh0aCB3ZW4gbXkgZGFkIGdpdmVzIG1lIHRoZSBib290Li4uLiB5YXkgaGVhciBjb21lcyB0aGUgc3RyZWV0cyBvciBteSBjdXppbiBhZGFtcy4uLi4gdGhlcmUgZ29lcyBteSBsaWZlLi4uLi4uLi4uLi4uYW5kIHRoZW4gbXkgbG92ZSBsaWZlLi4uLi4gYSBjb3VwbGUgb2Ygb3BlcnR1bml0aWVzIGJ1dCBpIGR1bm5vMCBzb21ldGhpbiBhaW50IHJpZ2h0Li4uLi4uLiBqc3QgYWludCBjbGlja2VuIGFuZCBpIGZpbmQgbXlzZWxmIG5vIGJlaW4gYWJsZSB0byBkbyBhbnl0aGluZyBiLmMgaSBmZWVsIGEgc3VkZGVuIHRoaW5nIG9mIHBhaW4gYW5kIHN0cmFpZ2h0IHVwIG5vdCB3YW50aW4gdG8gZG8gaXQuLi4uLi4gc28gaSBibG93IGl0IG9mZi4uLi4uLiBpIGRvbnQga25vdyB5IGkgZG8gaXQgaSBrbm93IHNoZSBvdXQgZG9pbiBoZXIgdGhpbmcgaSBzaG91bGQgYmUgZG9pbiB0aGUgc2FtZSBpIGpzdCBkb250IGdvdCB0aGUgaGVhcnQgdG8gZG8gaXQgaW0gZnVja2luIGxvc3QgaW4gbXkgb3duIGxpbCB3b3JkIGkgbmVlZGEgcmVhbGl0eSBjaGVjayBvciBhIGZ1Y2tpbiBzbWFjayBpbiB0aGUgZmFjZSBpIG5lZWQgdG8gYmUgd29rZWluIHVwIG9yIGtpbGxlZCBvciBzb21ldGhpbmcuLi4uLiBpIGRvbnQgZXZlbiBrbm93Li4uLi4gaXRzIGIuYyBpIHN0aWxsIGxvdmUgaGVyLi4uLi4uIHkgZG8gaT8/PyBpIGRvbnQga25vdy4uLi4uIGkgd2lzaCBpIGRpZC4uLi4uICBpIHJlYWxseSBkbyB3aXNoIGkga25ldy4uLi4uIGFuZCB5IG1lIGltIGEgZ29vZCBwZXJzb24geSBjYW50IGkganN0IGxpdmUgbXkgbGlmZSBhbmQgaGF2ZSBmdW4uLi4geSBpIGdvdHRhIGJlIGNhdWdodCB1cCBpbiBzb21lb25lIHdobyBpIGZlZWwgaGFzIG5vIGZlZWxpbmdzIHRvd2FyZHMgbWUgd2F0IHNvIGV2ZXIuLi4uLiBpIHdhbnQgdG8gZ2l2ZSB1cCBpIGpzdCBkb250IGdvdCB0aGUgaGVhcnQgdG8gYW5kIHNvbWV0aW1lcyBpIGZlZWwgbGlrZSBpIGRvbnQgd2FubmEgZ2l2ZSB1cCBhbmQga2VlcCB0aGUgaG9wZSBhbGl2ZS4uLi4gYi5jIHNoZSBzYXlzIHNoZSBsb3ZlcyBtZSBhbmQgcGVyc29uYWxseSBzb21ldGltZXMgaSBiZWxpdmUgaGVyIGFzayBtZSB3aHk/Pz8gaSBkb250IGtub3cuLi4NCg0KQWx0aG91Z2ggd2XigJl2ZSBjb21lIHRvIHRoZSBlbmQgb2YgdGhlIHJvYWQNClN0aWxsIEkgY2Fu4oCZdCBsZXQgeW91IGdvDQpJdOKAmXMgdW5uYXR1cmFsLCB5b3UgYmVsb25nIHRvIG1lLCBJIGJlbG9uZyB0byB5b3UNCkNvbWUgdG8gdGhlIGVuZCBvZiB0aGUgcm9hZA0KU3RpbGwgSSBjYW7igJl0IGxldCB5b3UgZ28NCkl04oCZcyB1bm5hdHVyYWwsIHlvdSBiZWxvbmcgdG8gbWUsIEkgYmVsb25nIHRvIHlvdQ0KDQppdHMganN0IGxpa2UgdGhhdC4uLi4NCmlnaHQgaW0gc3IgNCBib3JlaW4geWFzLi4uDQo8MyBhbHdheXMgTWFUVA=="
+"eventtime","2006-07-17 02:17:00"
+"current_moodid","85"
+"url","http://bumbel-bee-tuna.livejournal.com/2579.html"
+"userid","2303"
+"itemid","9"
+"event","yo0o0o niggassss wats upp!!!! well can u say nigga im back???? ight well tonight i finally put that <ambeR> .....out of my life and it feels like the weight has been lifted off my shoulders i aint gotta deal w. that no more...... and to be honest i dont care.... like honest to god u may not belive me i dont give a fuck.....but im done.... nigga back on the markettt get at me ladiesss
+
+fuck her
+and that bitch ass nigga will"
+"eventtime","2006-06-27 00:17:00"
+"url","http://bumbel-bee-tuna.livejournal.com/2319.html"
+"userid","2303"
+"itemid","8"
+"event","hmmm wow today waz intresting..... well i waz out and my mom gets a call from her brother my uncle hector...jackies dad...... and if u know...my mom has a brother that she never met be4...and ddint know if he waz dead or alive.... well it turns out hes alive and i have another uncle Pito and i have 6 more cuzins.....all females..... one 4 one 12 one 15 one 16 one 18 and one 22 and they dont live far from here my mom said... im meetin them soon and who knows maybe they'll be cool but u know snotty ricans that are females... thinkin the they hot shit so0 yeah this is gunna be funn..... this is gunna suck at family reunions on my mos side now.... only like 6 boiis me bein the 3rd oldest and like 18 girls all my age and older like 5 younger than 15 this sux asss wih me luckk"
+"eventtime","2006-06-20 23:16:00"
+"current_moodid","6"
+"url","http://bumbel-bee-tuna.livejournal.com/2170.html"
+"userid","2303"
+"itemid","7"
+"event","hmmmm well havent updated in a while...... well hear it is..... an update in my life....well this summer is supost to be a fuckin blasttttt im suposed to go down the sea shore like 4 times..... im goin to cali to see mariah carry 4 a week w. my cuzin nikki, im goin to peurto rico 4 like 2 weeks  and this thursday im goin to shampoo w. some friends plan to have a good time dance and shit so0 im set 4 teh sum,mer.....and any other time i aint gone im partyin at adams so0o0 FUN TIMESSS been drinkin alot lately.... not really a drinker but hay its the summer mide as well.........well recently...ive benn gettin alot of sleep...still not eatin much.....still in love w. her...dont wanna  b.c i know she dont feel the same she tells me she does but ya know, she dont even wear my ring or chain no more that shit hurt wen i seen that she dont wear it no more i dont care i guess .....AHH FEMALES....like i herd ur supost to fight 4 love....but how much and how long do u fight 4 wen u realize ur fightin a battel u cant win.......ehh i jst dont know....her party is comein up soon.... she doesnt want me there but she does??? confusein i know...i told her i wouldnt start nuttin at her party i know i wouldnt do anything to hurt her i know i woldnt and she swears to god i would its w.e tho0....i wanna go more than anything but if she doesnt want me there b.c she dont trust the words im sayin then its cool i wont be mad im use to her not trustin wat im sayin wats teh diff now....it like really sucks.....all i want her to do is tell me she dont want me there.... b.c thats wat it really is..... she realized she made a mistake in invitein both of us and now she usein the fact that i wnana kill the kid as an excuse for not wantin me there all i want is 4her to tell me she dont want me there b.c i know she doesnt..... i wont be mad after all im use to her choosein him over me anyway.....its w.e tho0 she is makein me not even wanna go really i would only be goin to see her anyway 4 the last time b.c i doubt ill see her again and i barely talk to her i only talk to her wen wills down the shore...can u say bein used??? thats the only time she calls me and i got one other fone call be4 that ...wat waz u and will fightin or somethin b.c i dont see y u would call me??? grr females.. i dont even care no more its w.e so0 anyway my recent summer activities..... well had some partys already they were fun as shit.... if u werent there u needa get there next party...they r bangin ass partysssss adam does know how to throw one.... went swimin more times this year then i did all last summer drank more alreadyy last summer i didnt drink at all.... can u belive that dont worry imma make up 4 evrything i missed last summer this summer b.c if u think about it its really my last summer vacation.......b.c next yr i wont be here ill be gone prob still be in the army or dead but ya know its all good evrything happens 4 a reason i dont even care no more.......im somewhat back to my old self not givein a fuck about evrything.... i got my stubornedness back,im single and deff never doin relationships again.....i feel like i havent been myself in a while......like come on all that emotion shit...that aint me...me cryin, OVER a FEMALE especially.... DEFF not me...w. her it waz diff but shes gone now so0 fuck it, i jst dont give a fuck no more.....i tried to fix things i tried stayin close to her and bein her friend but she push me away like she alway have done so0 its w.e not my loose, hers...........she had somethin good..and she;ll realize it sooner or later and wen she does i aint gunna be here but ill be lookin down jst watchin....b.c wen i told her to pretend i waz dead and put me otta her life and she didnt she wont have to b.c it will end up happenin anyway so0 w.e i dont care no more and honeslty i dont care no more im really startin to get use to all this shit and frankly it aint phasein me no more there only one thing i got to say KARMA- what goes around comes around..... so0 keep playin ya games holla back
+
+
+
+Hate It Or LoVe It
+>>~$~MaTt~$~>"
+"eventtime","2006-06-20 10:51:00"
+"current_moodid","2"
+"url","http://bumbel-bee-tuna.livejournal.com/1949.html"
+"userid","2303"
+"itemid","6"
+"event","Cause its all in my head
+I think about it over and over again
+And I can't keep picturing you with him
+And it hurts so bad, yeah
+Cause it's all in my head
+I think about it over and over again
+I replay it over and over again
+And I can't take it yeah I can't shake it
+Nooo
+
+I can't wait to see you
+Want to see if you still got that look in your eyes
+That one you had for me before we said our goodbyes
+And it's a shame that we got to spend our time
+Being mad about the same things
+Over and over again
+About the same things
+Over and over again
+Ohh
+But I think she's leaving
+Ooh man she's leaving
+I don't know what else to do
+(I Can't go on not loving you)
+
+Cause its all in my head
+I think about it over and over again
+And I can't keep picturing you with him
+And it hurts so bad, yeah
+Cause its all in my head
+I think about it over and over again
+I replay it over and over again yeah
+And I can't take it yeah I can't shake it
+Nooo
+
+I remember the day you left
+I remember the last breath you took right in front of me
+When i said that i would leave
+you was too damn stubborn to try to stop me or say anything
+But I see clearly now 
+And this choice I made keeps playing in my head
+Over and over again
+Playing my head
+Over and over again
+Ohh
+I think she's leaving
+Ooh man she's leaving
+I don't know what else to do
+(I Can't go on not loving you)
+
+Cause its all in my head
+I think about it over and over again
+And I can't keep picturing you with him
+And it hurts so bad, yeah
+Cause its all in my head
+I think about it over and over again
+I replay it over and over again 
+And I can't take it I can't shake it
+Nooo
+
+(Now that I've realized that I'm going down
+From all this pain you've put me through
+Everytime I close my eyes I like it down
+I can't go on not loving you)
+
+Cause its all in my head
+I think about it over and over again
+And I can't keep picturing you with him
+And it hurts so bad, yeah
+Cause its all in my head
+I think about it over and over again
+I replay it over and over again
+And I can't take it I can't shake it
+Nooo
+
+Cause its all in my head
+I think about it over and over again
+And I can't keep picturing you with him
+And it hurts so bad, yeah
+Cause its all in my head
+I think about it over and over again
+I replay it over and over again
+And I can't take it I can't shake it
+Nooo
+
+Over and Over again
+Over and Over again
+Cause it's all in my head 
+
+
+
+well last night waz the final straw and the proff she really doesnt love me she never did and never will..... and im sorry 4 wastein her time.....last night i found out she been tellin me she loves me and goin back and tellin him that she loves him...... hmmm wtf is that shit....... and im the bad guy 4 fuckin sayin somethin........ well today in school i needed a paper in side of ""our"" book and she had it so0 i had to go up and get it so0 i can get points 4 the paper so0 iwent up and she tried givein me the book and i didnt want it.... i dont wanan be reminded about all the pain she put me threw and how much shit i put up w. and how i tried to0 belive wat she told me..... and wen i finally started to belive her again...... boom this so0 fuck it.and also how i tried to get her heart...and 4 her to take me back.. fuk it fuck him and fuck her....i dont care anymore..... this si the most pain full thing ive think ive done.... and i hate it i hate her 4 it and i hate myself most of all 4 bein a dummy and belivein she loved me....but anyway she started cryin in school after that .... and like a whole bunch of people were lookin at me like i did somethin wrong..... WAT B.C I WONT SIT THERE AND BE FUCKIN PLAYED, B.C I FUCKIN AM LOVEIN A PERSON WEN SHE DOESNT LOVE ME BACK, B.C THEY FUCKIN KNOW ALL THE SHIT SHE PUT ME THREW W. THIS KID...... .....wat so0 im the fuckin bad guy 4 tryin to get out wat i feel??? no0 FUCK ALL U""Z DICKS AND BITCHES WHO DIRTY LOOKS ME NOW..... I AINT THE ONE WHO0 FUCKED UP SHE IS...................so0 fuck off...... yeah id admitt im bein an asshole/dick/and any other name u wnna call me....... but i have evryright to be one now b.c wen i waz w. amber i never disrespected her... i never hurt her intentually.... i fuckin gave it my all to chill w. her any chance i could.... i waz not a fucked up b.f only thing is i faught w. her....alot....ABOUT HIM ....but nawl this shit isnt on me she loves him but im wrong ...all im sayin is how can u go and tell someone u love them then go back and tell the REASON y u'z broke up in the 1st place u love them to0 ........ so0 fuck that untill she can tell me that i aint sayin nothin to0 her...... i have no words b.c THATS FUCKED UP u dont do that to a person u say u ""love""
+
+;'( like i said this shit is killin me but its somethin i hadda do..... she knows i love her..... i know she does...the problem is she jst dont care....great im cryin again.....i dont wanan cry no more......
+
+How do you cope when
+The one you love is with somebody else
+And there's nothing you could do about it.......
+
+
+
+
+
+I don't wanna know where your whereabouts or how you movin 
+I know when you in the house or when you cruisin 
+It's been proven, MY LOVE U ABUSEIN
+I can't understand, how a man got you choosin (yeah) 
+Undecided, I came and provided ma 
+My undivided, you came and denied it (why?) 
+Don't even try it, I know when you lyin (I know when you lyin) 
+Don't even do that, I know why you cryin (stop cryin) 
+I'm not applyin no pressure, just wanna let you know 
+That I don't wanna let you go (I don't wanna let you go) 
+And I don't wanna let you leave 
+Can't say I didn't let you breathe 
+id Give you extra cheese (c'mon), put you in  SUV'z 
+if You wanted ice id make you freeze 
+Made you hot like the West Indies (that's right) 
+Now it's time you invest in me 
+Cause if not then it's best you leave 
+Holla, yeah 
+
+
+
+
+Honey, look, I'm a monster don, I do monster things
+That's why I put your ass under my arm
+Messing with him can bring bodily harm
+And where you gonna hide in the streets when the body is gone
+If it's one thing I learned that, NEVER TRUST A FEMALE ON NO SCALE YOU JUST CONFIRMED THAT ......
+Bounce to your momma house, pack your shit
+I don't care if you crying, you'se a RUTHLESS CHICK......"
+"eventtime","2006-05-25 16:29:00"
+"current_moodid","25"
+"url","http://bumbel-bee-tuna.livejournal.com/1573.html"
+"userid","2303"
+"itemid","4"
+"event","well its official.....we r done....... i tried ........ i hope ur fuckin happy w. ur true love.......yeah ...i aint gunna fight 4 a hopeless cause i love her but im done......
+
+Matt"
+"eventtime","2006-05-21 00:19:00"
+"current_moodid","31"
+"url","http://bumbel-bee-tuna.livejournal.com/1087.html"
+"userid","2303"
+"itemid","3"
+"event",":( :( i lovee her"
+"eventtime","2006-05-20 11:51:00"
+"current_moodid","25"
+"url","http://bumbel-bee-tuna.livejournal.com/862.html"
+"userid","2303"
+"itemid","2"
+"event","yo..... last night had to have been the worst night of my life me and amber broke up ..i didnt want to ,,,,i regret doin it..... id do0 anything to build up enough courage to ask her back out i jst aint got enough heart to0...i only did it in the 1st place 4 her b.c she waznt happy......but after i broke up w. she waz tellin all this shit and makein me feel bad and bringin up how i promised i would never leave her...... but i only did it b.c i cant stand the fact of her hurtin......and right now i dont even care how i feel all im worried about is her and if she is alright....she is my baby girl and i will always love her and i broke up w. b.c i love her...... she waz doin me wrong i should have to share her feelings w. willi shouldnt have to compete w. the fact that he waz her first love so0 it waz hard to hold on to her wen all she waz doin waz bringin will back into her life...... and she told me she loved me but wen she had the chance to make things right she choose him over me and nawl i aint takein that...... if she thinks he can make her happier then by all means i hope she does....but she push me away ..y i dont know i waz a good b.f i think only thing i did waz fight w. her alot ABOUT WILL anytime i faught w. her it waz about wil only two times i can think of that waznt about will......... but 95% of our fights are about will and she could have saved us... makes me think if she wanted to even be w. me at all........like she told me she still loved me if u love someone u'd do anything for them .......once in our 5 month have i asked her for anything... to choose between me and will and she said "" i love u and wanna be w. u but i cant put will otta my life"",,,,,,, "" i dont wanna put will out""........ ""sometimes i think will is my true love""....""i love u""........those are jst some of the words that i cant stop thinkin about that jst keep playin over and over again how could she do this to me.... all i evr waz waz good to her yeah i faught w. her but she could have fuckin xed this shit and didnt.... and yea i promised i would never leave her but wtf am i suposed to do0 sit there and share her?? nawl not happenin thekid startight out told me he wazant goin nowhere unless amber herself told him to leave and i said back to him she to stubborned to leave and he waz like nalw its b.c she dont want me to leave deep down amber knows she wants me and knows were gunna be togeather....... and all im thinkin is damn hes right......like i dunno0 wat i did she said i made her unhappy like wtf did i do0 beside fight w. her about will...... now she cant even say nuttin b.c she knows she could have fixed us and she chose him over me ..... so0 i let her go0 i had to i made her unhappy and she wanted to be w. will wat am i suposed to0 do0 it waz the worst decision of my life and i know she wont see this b.c its a journal and she dont know i got one and to be honest i dont care if she reeds it like but foreal i jst dont know wat im gunna do w. out her i need her in my life...... but the only way imma get over her....not sayin i want to0 but its wat she wants.... i gotta stay away from her  i love her to0 much to see her hurt..... and i told a few perople about this and they all told me i waz fuckin stupid for still being w. her after she told me she wanted him in her life....but i jst brushed itand delt w. it..... and im an idiot 4 it...... i swore i would never get liek this over a grl i swore it and then she came like i dunno0 wat to do0 maybe its best that i left she'll be happy w. will and ill be misserable 4 a long time till i get her outta my head but its worth her bein happy .......look at me im still worryin about her more than myself and i dont even go out w. her........ u know be4 last night i use to think that the last 5 months wasnt a waste  and that they made us stronger..... and then lst night i felt like all 5 months went down the drain .....b.c i really felt like she loved me...... but i guess i waz wrong b.c if u love someone u dont do0 that....... but yeah thats how im feelin today and boiis wanan throw me a goin back into the wild bittie party to get my mind off her but i cant..... nothings gunna make me forget about her i love her way to much but ya know............ u need both perople in the relationship to try and i felt like i waz the only one tryin said that i didnt even try i jst let her go0 like she waz some any otha grl......wat she dont realize is taht i been tryin the last 3 months w. her and wne she finally figures out how she can fix it she fuckin stabs me in the back.....and says oh i cant put him out.....fuck that hes ur fuckin past get over him u needa let him the fuck go0........ he had his fuckin chance...... he blew it i wanted my chance to have amber to mysself and not have to worry about her goin out and him bein there and tryin something w. her and i could have gotten taht chance yesterday ...but now i c she never wanted me to have that chance..... im sry but thats how it is.... i love her and didnt wanan loose her but she loves him and wants him in her life so0 fuck it i had to do wat i had too0 do0..... i didnt get no sleep last night i stayed up cryin and throwin up all night  and i dont wanna be like this..... so0 please HELP!!
+
+""sometimes love isnt enough""
+
+>>~MaTT~~>"
+"eventtime","2006-05-20 10:57:00"
+"current_moodid","25"
+"url","http://bumbel-bee-tuna.livejournal.com/585.html"
+"userid","2303"
+"itemid","1"
+"event","<center>
+
+
+
+I LOVE SHANNON TODD WITH ALL THE AMOUNTS MY HEART CAN MUSTER FOR HER.
+
+SHE IS AMAZING.
+AND MADE THIS LJ FOR ME.
+SHE IS AWESOME AND I LOVE HER.
+
+
+
+
+
+
+you's all know that wasn't matt."
+"eventtime","2006-05-19 21:40:00"
+"url","http://bumbel-bee-tuna.livejournal.com/340.html"
+"userid","2303"

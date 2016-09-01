@@ -1,0 +1,643 @@
+"names","values"
+"itemid","219"
+"event","TGFzdCB3ZWVrZW5kIEthdGV5IGNhbWUgcm91bmQgdG8gc3RheS4gSSB3YXMgd2lja2VkLiBXZSBkaWRudCByZWFsbHkgZG8gbXVjaCBhdCBhbGwuIFBpY2tlZCBoZXIgdXAgIG9uIEZpcmRheSBhdCB0aGUgdHJhaW4gc3RhdGlvbiBhbmQgd2VudCBzaG9wcGluZyBmb3IgZm9vZCwgY2FtZSBiYWNrIHRvIG1pbmUgYW5kIGNoaWxsZWQuLiBtYWRlIGRpbm5lciwgd2F0Y2hlZCB0diBhbmQgcGxheWVkIGNhcmRzIHdpdGggbXkgaG91c2VtYXRlcy4gT24gU2F0dXJkYXkgd2UgYXJvc2UgYWJvdXQgbWlkZGF5IGFuZCB3ZW50IGludG8gdG93bi4uIHNob3BwZWQgYXJvdW5kIGFuZCB0aGVuIHdlbnQgdG8gQm9zY29tYmUsIGhvbWUgb2YgdGhlIGJhcmdhaW5zLiBJIGdvdCBzb21lIGplYW5zIGluIERvcm90aHkgUGVya2lucyBmb3IgwqM1Ljg1Li4gZXZlbiBJIGNhbiBhZmZvcmQgdGhhdC4gV2UgZ290IGJhY2sgdG8gbWluZSBhbmQgd2VyZSBjb21wbGV0ZWx5IGtuYWNrZXJkLCBtYWRlIGRpbm5lci4uIGdvdCBmdWNrZWQgb3V0dGEgb3VyIGZhY2VzIG9uIHZvZGthLCBwbGF5ZWQgY2FyZHMsIHdhdGNoZWQgc25ha2VzIG9uIGEgcGxhbmUgYW5kIHdlbnQgdG8gYmVkIGF0IDQuIEthdGV5IGdvdCB1cCBhYm91dCAxNW1pbnV0ZXMgbGF0ZXIgYW5kIHN0YXJ0ZWQgYmVpbmcgc2ljay4gS2F0ZXkgc3RvcHBlZCBiZWluZyBzaWNrIGF0IGFib3V0IDNwbSB0aGUgbmV4dCBkYXkgYW5kIHNwZWFudCBtb3N0IG9mIHRoZSBkYXkgaW4gYmVkLiBJIGdvdCB1cCwgc2hvd2VyZWQgYW5kIHdhdGNoZWQgdGhlIE8uQy4gV2Ugd2VyZSBnb2luZyB0byBnbyB0byBteSBtYXRlIExhdXJlbnMgaG91c2UgcGFydHkgYnV0IHdlcm50IHJlYWxseSB1cCBmb3IgaXQgc28gb25jZSBhZ2FpbiB3ZSBqdXN0IGF0ZSBhbmQgd2F0Y2hlZCBUVi4gDQpUaGUgbmV4dCBtb3JuaW5nIEkgZ290IHVwIGFuZCBoYWQgYSBzdGlua2luZyBjb2xkLCBmZWx0IHNvIHJvdWdoIHRoYXQgSSBqdXN0IHdlbnQgYmFjayB0byBzbGVlcC4gTWlzc2VkIGJvdGggbXkgc2VtaW5hcnMuIE1lIGFuZCBLYXRleSB3ZW50IGZvciBhIHdhbGsgYW5kIGhhZCBsdW5jaC4gV2UgZ290IG91ciBzdHVmZiB0b2dldGhlciBhbmQgZ290IHRoZSB0cmFpbiB0byBTb3RvbiBjYXVzZSBzaGUgd2FzIGdvaW5nIGJhY2sgdG8gV2luY2gsIGFuZCBJIHdhcyBnb2luZyB0byBzZWUgQnJhbmQgTmV3LiBJIGdvdCBvZmYgYW5kIG1ldCBFbGUgYXQgdGhlIHRyYWluIHN0YXRpb24sIHdlIHduZXQgZm9yIGRpbm5lciBpbiBXZWF0aGVyc3Bvb25zIGJlZm9yZSBzdHJvbGxpbmcgdXAgdG8gdGhlIGd1aWxkaGFsbCBpbiBvdXIgcHJhdGljYWxseSBtYXRjaGluZyBhdHRpcmUgYW5kIG1lZXRpbmcgRGFubnkuIA0KVGhlIGZpcnN0IGJhbmQgb24uICdNZVdpdGhvdXRZb3UnIHdlcmUgYSBiaXQgc2tldGNoLiBJIGd1ZXMgdGhleXJlIGFscmlnaHQsIGJ1dCByYXRoZXIgZXBpYy4gVGhlIHNlY29uZCBzdXBwb3J0IHB1bGxlZCBvdXQgc28gQnJhbmQgTmV3IGNhbWUgb24gZWFybHkgYW5kIHBsYXllZCBhbiBleHRlbmRlZCBzZXQuIFRoZXkgd2VyZSBhYnNvbHV0ZWx5IGFtYXppbmcuIFdlIHN0b29kIHF1aXRlIG5lYXIgdGhlIGJhY2sgYW5kIGFwcHJlY2lhdGVkIHRoZSB3aG9sZSB0aGluZy4gVGhlIHNldCB3YXMgYXdlc29tZSBidXQgdGhleSBkaWRudCBwbGF5IG15IGZhdm91cml0ZSBzb25nLCBndWVzcyBpdHMgYWJpdCBoYXBweSBmb3IgdGhlbS4gSSBib3VnaHQgYSBwb3N0ZXIgb3V0c2lkZSBhbmQgc2FpZCBnb29kYnllIHRvIGRhbm55IGFuZCBlbGUgYW5kIHdhbGtlZCB0byB0aGUgc3RhdGlvbiBpbiB0aGUgc2xlZXQuIEhhZCB0byB3YWl0IDQwbWlucyBmb3IgbXkgdHJhaW4gYXMgSSdkIGp1c3QgbWlzc2VkIG9uZSwgZ3JyLg0KRmFpbGVkIHRvIGdldCB1cCBhdCA5IGZvciBsZWN0dXJlcyBvbiBUdWVzZGF5IGFuZCBzdGlsbCBmZWx0IHByZXR0eSByb3VnaC4gSSBkaWQgbm90aGluZyBhbGwgZGF5IGJ1dCB3YXRjaCB0aGUgV2lja2VyIE1hbiBhbmQgcGxhbiBmb3IgbXkgbWVudG9yaW5nIHNlc3Npb25zLiBHb3QgdXAgYXQgNyBvbiB3ZWRuZXNkYXkgYW5kIGdvdCBteSBsaWZ0IHRvIGtpbmdzIHBhcmsgZm9yIG15IG1lbnRvcmluZyBzZXNzaW9uLiBPbmx5IDMgdHVybmVkIHVwIHRoaXMgd2VlaywgaXQgd2FzbnQgdGhhdCBiYWQuIEhyZCB0byBmaWxsIHRoZSB0aW1lIHRob3VnaC4gQ2FtZSBob21lIGFuZCB3ZW50IHNob3BwaW5nIHdpdGggbXkgaG91c2VtYXRlIEVtbWEgYmVmb3JlIHdhdGNoaW5nICdUaGUgSG9saWRheScgb24gdGhlIG5ldCBhbmQgc3BlYW5kaW5nIG15IGV2ZW5pZ24gd2F0Y2hpbmcgVFYgd2l0aCBFbWEgYW5kIFRvbS4NClllc3RlcmRheSAgYWN0dWFsbHkgZHJhZ2dlZCBteXNlbGYgb3V0dGEgYmVkIGFuZCB3ZW50IHRvIHVuaSwgYml0IG9mIGEgd2FzdGUgb2YgdGltZSBhcyBJIG9ubHkgaGFkIDIgaG91cnMgd29ydGgsIGJ1dCBpdCB3YXMgZmluZS4gV2Fsa2VkIGhvbWUgd2l0aCBMYXVyZW4uIFdoZW4gSSBnb3QgaW4gSSB3YXRjaGVkIHRoZSBmaXJzdCB0d28gZXBpc29kZXMgb2YgU2tpbnMsIEkgYWN0dWFsbHkgcXVpdGUgbGlrZSBpdCwgbm90IGFzIGdvb2QgYXMgSSBob3BlZCBpdCdkIGJlIHRob3VnaC4NClRvZGF5IEkgd29rZSB1cCAxNW1pbnMgYWZ0ZXIgbXkgbGFzdCBsZWN0dXJlIG9mIHRoZSBkYXkgaGFkIGZpbmlzaGVkLiBQcmV0dHkgd2FzdGVkIGFuZCBsYXp5IHdlZWssIGJ1dCBvaHdlbGwuIEkgaGFkIG9uZSBvZiB0aGUgbW9zdCBlcGljIGRyZWFtcyBldmVyIHRob3VnaCBzbyBpdHMgbm90IGFsbCBiYWQuIFNwZWFudCBhbGwgZGF5IGluIG15IFBKJ3MsIEkgd2F0Y2hlZCAnVGhlIEJ1dHRlcmZseSBFZmZlY3QnIHdoaWNoIEkgdGhvdWdodCB3YXMgd2lja2VkLCBoYWQgbXkgdGVhLCB3YXRjaGVkIHNvbWUgdHYgYW5kIHRoZW4ganVzdCBtYWRlIHNvbWUgYmlzY3VpdHMgb3V0dGEgc2hlZXIgYm9yZWRvbS4NClRvbW9ycm93IG15IHBhcmVudHMgYW5kIGJyb3RoZXIgYXJlIGNvbWluZyBvdmVyIHRvIHNlZSBtZSB3aGljaCB3aWxsIGJlIGdyZWF0LCBhbmQgbWVhbnMgZnJlZSBmb29kLCBJbSBhbHdheXMgZ2xhZCBmb3IgdGhhdC4gT24gU3VuZGF5IEltIG1lZXRpbmcgSGFubmFoIGFuZCB3ZXJlIGdvaW5nIHRvIHdhdGNoIE1hdHQgQmVycnkgZnJvbSB0aGUgbWlnaHR5IGJvb3NoIGFuZCBnYXJ0aCBtZXJlbmdoaSdzIGRhcmtwbGFjZS4gV29vcC4NCkhhdmUgYSBnb29kIHdlZWtlbmQsDQoNCng="
+"eventtime","2007-02-10 00:23:00"
+"url","http://dumb-struck.livejournal.com/56164.html"
+"userid","4305"
+"itemid","218"
+"event","Its 2007 already, bloody hell!
+
+Ive been quite busy. Was in two minds as to come back to uni or not at the beginning of the year. Alas though I am here. I'm about 82.39% sure that I am going to take a transfer onto a course at Bournemouth Arts Institute in Arts and Events Management. The thing is that I don't wanna change and think thats shit too and drop out. That'd be shite :( But ohwell, I'm sure I'll decide on it soon.
+
+Started the year off at Ele's house. It was such a good night, pretty random. Me and Christine slept on the floor in the end! The day after new years eve was Rob, Ollie, Tom and Dunc's leaving party it was really good. Ive spoken to them all since theyve been gone and theyre having a good time which is ace. On the Thursday we went to Hogshead for Seb's 20th birthday, Eve gave me a present. It was some checkered braces, I still cant believe it, whata legened! The following week was the week that we all went back to uni, it invlbed alot of hong kong express chinese food.
+
+Being back at Uni has been fine. It sucked going back to lessons but ohwell. Speant alot of time with my friend Jess which has been cool. We went to an indie rave a couple of weekends ago and last wednesday went to see Bloc Party which was immense. I also bought tickets for we are scientists as theyre playing at my SU nightclub aswell, its gunna be cool.
+
+Started mentoring last week which was fun, but hard work. I had my second session this mornign&nbsp; which was cool. My dad also came down this weekend, it was awesome but shite when he left. Kateys coming to stay this weekend though so thats something to look forward to and my train tickets just arrived for manchester! :) wooop! 
+
+Im off to look at some houses ina minute, more stress! argh!
+
+Week ahead: 176, hosue hunting, ele's bday plans, hotel bookings, katey, charity shopping, BRAND NEW (Y)
+
+Ciao for now xx"
+"eventtime","2007-01-31 13:51:00"
+"current_moodid","99"
+"url","http://dumb-struck.livejournal.com/55823.html"
+"userid","4305"
+"itemid","217"
+"event","<p>I'm Home :)</p><p>Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay.</p><p>Feels pretty darn good, can you tell? Have had a busy busy week. Last Friday I went to Southampton and stayed at Hannahs. It was Luke's 21st birthday so me Katey and Konstant went to Southampton. We all got ready at Hannahs before getting the taxi to Lukes.... drinking lots of Vodka and then going to a fab 80's club called REFLEX. I loved it. Was a really supurb night, I met some cool people too :) On Satruday me and Hannah had a lie-in then went to Pizza Hut with Boyis, Rory and Luke. Was great fun.</p><p>I did bugger all on Saturday and went out on Sunday, but iot wasnt great so I came home again. Monday morning started off with a finance test. It went reallllllly badly, I dont think Ive passed it at all, no joke :(. Oh well. I missed my lecture on Monday afternoon cause I really couoldnt be bothered. <br />Tuesday was my first day of mentor training. The course on whole was absolutely amazing. I really enjoyed it. I met a couple of people which was a real eye opened, will talk about it in the future I hope. Ive been placed at a school for girls as of January, I will see 4 girls a week for mentoring sessions, I really can't wait :)<br /></p><p>Yesterday was a bit special. I went into uni for seminars and did soem work finishing up my 4000 word consultancy report!! Then came home and started cooking our christmas dinner. There was 7 of us in the end. We had a full roast dinner, pudding, mince pies, crackers and xmas toons. It was nice. After we ate we played some heated card games lol, Jess thouroughly proved that Im not the only person that gets far into them. Had a really good evening.</p><p>Got up with 10minutes to get ready for my two lectures this morning. Only 4 people showed up to my second one. Good turn out. I came home packed and said goodbye to my house chums and then got the bus-train-bus-ferry-bus home. I had 4 bags :( (bag lady).</p><p>&nbsp;</p><p>Cant believe i've been at uni for a whole term now. Its so weird. Its been a real experience. not sure whether its been good or bad. But hey. Im home now, can't WAIT to see everyone again!!</p><p>&nbsp;</p><p>Got Bloc Party tickets, secret gig at my uni nightclub, oh yeahhhhh :)</p>"
+"eventtime","2006-12-15 23:51:00"
+"url","http://dumb-struck.livejournal.com/55628.html"
+"userid","4305"
+"itemid","216"
+"event","<p>Its yet another late Friday night and Ive speant my evenign doing nothing.</p><p>This wee has been quite strange.</p><p>On Saturday my friend Fran came round and we had pizza hut before she drove us to Eesh's for a house party. Eesh lives with 27 people... it was and okay night! Had a few drink then came home and spoke to Eve on the net for agesss!&nbsp;<br /><br />I did absolutely nothing on sunday.... as per.<br /><br />On monday i got my first finance assignment, it's pretty hard, I struggle with that lesson quite abit, eeek. I also got my grades back for my first assignment which was a poster presntation, i got a&nbsp;2:1 :) Whoop!<br /><br />On Tuesday after a hetic day at uni I came home and tidied before our friend Jess came round, myself, her and my two housemates Kat and Tom got really really fucked on vodka, beer and lemoncino. Eww. Played loads of drinking games ate garlic bread and crisp sandwhiches and went to bed pretty early since we'ed be drinking since 6!!<br /><br />I was hanging all day Wednesday, felt pretty roug. Jess left at 12 and I speant most of the day milling around. In the evening I went to see Tenacious D and the pick of destiny! It was pretty good, shit for all those non Jack Black fans I can assume but I like it, naturally :) Spoke to Eve on the phone that night.<br /><br />Yesterday I went to uni... (again) then speant most of the evening in front of the tv/ on the internet playing tetris. Sent out an e-mail to people about going out for christmas dinner which will, i hope, be awesome!! Medina quay again methinks!<br /><br />Today after uni me Kat, Emma and Laura went to Poole to go to the new primark! Ive done 85.6% of my christmas shopping... I'm fucking skint now though :( Im gunna have to get some money out of my savings to tie me over for the xmas break! The weather today was shit, made my hair go whack and I looked like Doc.Brown from back to the future. (gay). Ive had a pretty boring evening. Been lounging about freezing my arse off (my heating is broke) and watching blunder which is my new tv love :D<br /><br /><br />Weekend: meeting chantell and cremer at the train station, work at frans house, christmas lights, pub, tv.... SUNDAY (school of rock!!)<br /><br />Week ahead: Meeting Ed (?), Trip to the B.I.C, Focus group, Comedy Night, Staying at Hannahs in Southampton, Meeting Katey, Reflex!<br /><br />Apologies to anyone reading this... it's quite possibly the most boring thing ive ever written :(</p>"
+"eventtime","2006-12-02 00:13:00"
+"current_moodid","5"
+"url","http://dumb-struck.livejournal.com/55403.html"
+"userid","4305"
+"itemid","215"
+"event","PHVsPjxsaT5PbmUgaGFzIGp1c3Qgc3R1bWJsZWQgdXBvbiBteSBvbGQgYW5kIGV4dHJlbWVseSBuZWdsZWN0ZWQgTEouLi4gYWZ0ZXIgYSBjb252byB3aXRoIEV2ZSBJJ3ZlIGRlY2lkZWQgdG8gcG9zdCB0aGlzIHRvIGJyaW5nIHRoaW5ncyB1cHRvIHNwZWVkLi4uIEkgaGF2ZW50IHVwZGF0ZWQgc2luY2UgSnVuZS4uLiBQbGVhc2UgZXhwZWN0IGEgbG9uZyBsaXN0IG9mIHJhbmRvbSBzaGl0OjxiciAvPjxiciAvPjwvbGk+PGxpPk15IGxhc3QgcG9zdCB3YXMgYWJvdXQgdGhlIDxzdHJvbmc+J0JhdHRsZSBvZiB0aGUgYmFuZHMnPC9zdHJvbmc+IGF1c2l0aW9ucy4gVGhlIGZpbmFsZSB3YXMgZ3JlYXQsIFNreWxpbmUgSGVyb2VzIHdvbi4uLiBteSBmcmllbmQgRGFubnlzIGJhbmQuIFRoZXkgd2VyZSBhbGwgZXh0cmVtZWx5IGV4Y2l0ZWQuLi4gSXQgd2FzIGEgd2lja2VkIG5pZ2h0LCBJIHdhcyBzYWQgd2hlbiBpdCB3YXMgb3ZlcjwvbGk+PGxpPlNob3J0bHkgYWZ0ZXIgb3JnYW5pc2luZyBCYXR0bGUgb2YgdGhlIEJhbmRzIEkgZGVjaWRlZCB0byBjaGFuZ2UgbXkgVW5pdmVyaXR5IGFwcGxpY2F0aW9uIGZvcm0gRW5nbGlzaCBhbmQgTWVkaWEgdG8gRXZlbnRzIE1hbmFnbWVudC4uLiBTTyBJJ20gbm93IGluIDxzdHJvbmc+Qm91cm5lbW91dGggc3R1ZHlpbmcgdGhhdCBjb3VzZSBhdCBVbmk8L3N0cm9uZz4uIEkgbGl2ZSBpbiBhIHNoYXJlZCBob3VzZSB3aXRoIDQgb3RoZXJzLCB3aG8gYXJlIGFsbCBuaWNlLiBTbyB5ZWFoLCBJIHBhc3NlZCBteSBBLWxldmVscy4uLiBJIGdvdCBhbiBBLCAyIEIncyBhbmQgYW4gRS48L2xpPjxsaT5EdXJpbmcgb3VyIGV4YW0gcGVyaW9kIGl0IHdhcyB0aGUgSXNsZSBPZiBXaWdodCBGZXN0aXZhbC4uLiBGQUIgd2Vla2VuZCwgc2F3IGxvYWRzIG9mIGJhbmRzOiBDb2xkcGxheSwgRm9vIEZpZ2h0ZXJzLCBQcm9jbGFpbWVycywgUHJvZGlneSwgUGxhY2Viby4uLiBhbmQgU2t5bGluZSBIZXJvZXMhIEkgd2FzIHNvIHByb3VkISBJdCB3YXMgZ3JlYXQgdG8gc2VlIG15IGZyaWVuZHMgb3duIHRoYXQgc3RhZ2UhIDwvbGk+PGxpPkFmdGVyIGFsbCBvZiB0aGUgYS1sZXZlbCBleGFtcyBJIHdlbnQgb24gPHN0cm9uZz5Ib2xpZGF5IHRvIFNwYWluPC9zdHJvbmc+IHdpdGggRXZlLCBMYXVyYSwgQ2hyaXNpdG5lIGFuZCBKZXNzLi4uIHdlIGhhZCBhbiBBV0VTT01FIHRpbWUuLi4gc28gcmVhbGx5IHJhbmRvbSBuaWdodHMuLi4gZHJpbmtpbmcgb24gdGhlIGJlYWNoLCB0aGUgc3dlYXR5IG1hbnMgY2x1Yiwgc2tpbm55IGRpcHBpbmcgYXQgM2FtLCBzZWVpbmcgbmFrZWQgd29tZW4gbG9ja2VkIG91dHNpZGUgdGhlaXIgaG90ZWwgcm9vbXMsIGFuZCBlcGlzb2RlIHdpdGggYSB3ZWF2ZXIgZmlzaCBhbmQgYSZuYnNwOyBjaGFpbnNhdyBhbmQgbG90cyBvZiBzd2ltbWluIGFuZCB0YWxraW5nIHNoaXQgaW4gdGhlIHNlYS4gU3VuLCBzZWEgYW5kIHNpbGx5bmVzcyB0byB0aGUgbWF4ISE8L2xpPjxsaT5BZnRlciB3ZSBnb3QgYmFjayBmcm9tIGhvbGlkYXkgSSBoYWQgb25lIG9mIHRoZSBidXNpZXN0IHdlZWtzIEVWRVIuLi4gSSB3ZW50IHRvIHNlZSA8c3Ryb25nPkJpbGx5IFRhbGVudDwvc3Ryb25nPiB3aXRoIEVsZSBmb3IgbXkgQmlydGhkYXksIEkgaGFkIG15IDxzdHJvbmc+MTh0aCBiaXJ0aGRheTwvc3Ryb25nPiAod2hvb3ApLi4uIGFuZCBteSBwYXJ0eSwgYXdlc29tZSBuaWdodCEgR290IHNvbWUgZXhjZWxsZW50IGdpZnRzLi4uIG15IGZhdmVzIHdlcmUgbXkgPHN0cm9uZz5SZWQgSG90IENoaWxpIFBlcHBlcnM8L3N0cm9uZz4gdGlja2V0IGFuZCBteSBjbGlwZnJhbWUgZnJvbSBFdmUtIGV4dHJlbWVseSB0aG91Z2h0ZnVsbC4gPC9saT48bGk+SGFkIGEgcGljbmljIGZvciBteSBiaXJ0aGRheS4uLiBpbiBWZW50bm9yIChvZiBhbGwgcGxhY2VzKS4gVGhlbiB0aGUgZGF5IGFmdGVyIG1lIGFuZCBLYXRleSB3ZW50IHRvIExvbmRvbiB0byBzZWUgUkhDUCdzLCBpdCB3YXMgc29vb28gZ29vZCwgYnV0IHNvIGhvdCEhIFRoZSBkYXkgYWZ0ZXIgbXkgRGFkIGNhbWUgdG8gdGhlIElzbGFuZCB0byBzZWVlIG1lLCBoZSBtZXQgS2F0ZXkgYW5kIEV2ZSwgaXQgd2FzIGFjZSEhPC9saT48bGk+QWZ0ZXIgYWxsIHRoYXQgZnVuIEkgaGFkIHRvIHJldHVybiB0byB3b3JrLi4uIFRoZXJlIHdlcmUgc29tZSBnb29kIG5pZ2h0cyBvdXQgdGhvdWdoLiBEYW4gUmljaCBhbmQgRGF2ZXMgPHN0cm9uZz44MCdzIGRpc2NvPC9zdHJvbmc+LCBDb3dlcyB3ZWVrIDA2Li4uIGFuZCBtYW55IG5pZ2h0cyBvdXQgaW4gTmV3cG9ydDwvbGk+PGxpPlRoZSB3ZWVrIHdlIGdvdCBvdXIgQS1sZXZlbCByZXN1bHRzIHdhcyBhJm5ic3A7IGdvb2Qgb25lIGFsc28uLi4gT24gdGhlIFR1ZXNkYXkgVG9tIEJyb3duIGhhZCBhIHBhcnR5LCBpbiBoaXMgRklFTEQhIFRoZXJlIHdhcyBhIGJicSwgbGl2ZSBiYW5kcyBhbmQgYSBib3VuY3kgY2FzdGxlLiBNZSwgRXZlLCBKZXNzLCBMdWN5IGFuZCBCZW4gc3RheWVkIHVwIGFsbCBuaWdodCBwbGF5aW5nIGd1aXRhciBhbmQgc2luZ2luIHJlYWxseSBsb3VkbHkuLi4gYW5ub3lpbmcgZXZlcnlvbmUgYXNsZWVwIGluIHRoZWlyIHRlbnRzISBXZSBhbHNvIG1hZGUgYW4gaWdsb28gb3V0IG9mIGhheSBiYWxlcywgYW5kIGhhcnJhc3NlZCB0aGUgZG9ncy4gVGhhdCBtb3JuaW5nIG1lIGFuZCBKZXNzIGdvdCBhIGxpZnQgaG9tZSBhdCA2YW0sIEkgaGFkIHRvIGJhYnlzaXQgd2hpY2ggd2FzIGF3ZnVsIGR1ZSB0byBsYWNrIG9mIHNsZWVwLiBUaGF0IGV2ZW5pbmcgRXZlIGFuZCBTZWIgZ2F2ZSBtZSBhbmQgVG9tIGEgbGlmdCB0byBLYXRleXMgaG91c2UuIEl0IHdhcyBoZXIgaG91c2V3YXJtaW5nIHBhcnR5IHdoaWNoIHdhcyBhd2Vzb21lIGRlc3BpdGUgdGhlIHJhaW4uLi4gYW5vdGhlciBzbGVlcGxlc3MgbmlnaHQgZHVlIHRvIHNub3JpbmcsIHRoYW5rcyBUb20gYW5kIEplc3MgKGdycikgVGhhdCBtb3JuaW5nIHdhcyBTVVJSRUFMLi4uLiBTZWIgZ2F2ZSB1cyBhIGxpZnQgYmFjayB0byBOZXdwb3J0Li4uIHdlIHdlcmUgZHJpdmluZyB0aHJvdWdoIHRoZSBtaWRkbGUgb2Ygbm93aGVyZSBsaXN0ZW5pbmcgdG8gU2xhZGUncyAnTWVycnkgQ2hyaXN0bWFzIEV2ZXJ5b25lJyBleHRyZW1lbHkgbG91ZGx5ISBJIGdvdCB1cyBsb3N0LCBvb29wcy4gQnV0IHdlJm5ic3A7IGdvdCBiYWNrIHRvIG1pbmUgaW4gdGhlIGVuZCwgZ290IHNob3dlcmVkIGFuZCB3ZW50IHRvIHNjaG9vbC4gSXQgd2FzIG9uZSBvZiB0aGUgc2Nhcmllc3QgdGhpbmdzIGV2ZXIsIGJ1dCB3ZSBhbGwgZGlkIHJlYWxseSB3ZWxsLiBUaGF0IGFmdGVybm9vbiB3ZSB3ZW50IGJhY2sgdG8gQW15cyBhbmQgY2hpbGxlZCwgaXQgd2FzIGJyaWxsaWFudC4gV2Ugd2VyZSBhbGwgc28gdGlyZWQgdGhvdWdoIGFuZCBzbyBsZWZ0IHF1aXRlIGVhcmx5LiBUaGUgbmV4dCBuaWdodCB3ZSB3ZW50IHRvIENoaWNhZ28gUm9jaywgYnJpbGxpYW50IGRhbmNpbmcgd2l0aCBUb2J5IGFuZCBldmVyeW9uZS4gUmVhbGx5IG5pY2UgZXZlbmluZy48L2xpPjxsaT5OZXh0IHRoZXJlIDxzdHJvbmc+UkVBRElORyAwNjwvc3Ryb25nPi4uLiB3ZSBvbmx5IHdlbnQgZm9yIHRoZSBTYXR1cmRheS4uLiBidXQgaXQgd2FzIGNvb2wuIFNhdyBBbWF6aW5nIGJhbmRzOiBNdXNlLCBBcnRpYyBNb25rZXlzLCBGbG9nZ2luZyBNb2xseSwgUGxhbiBCLCBUaGUgU3RyZWV0cy4uLiB0byBuYW1lIGJ1dCBhIGZldy4gSXQgcmFpbmVkLCB3ZSB3b3JlIHBhY2stYS1tYWNzLi4uIGRyYW5rIGhvdCBjaG9jb2xhdGUsIGRhbmNlZCBsaWtlIGplbGx5ZmlzaC4uLiByYXZlZCB0byBGZWVkZXIgYW5kIHNsZXB0IHJvdWdoIG9uIHRoZSBzdHJlZXQgd2FpdGluZyBmb3IgdGhlIHRyYWluISBXZSBhbHNvIGdvdCBvZmZlcmVkIFZpYWdyYSBmb3IgwqMxMCBhbmQgc2F3IGEgcGFyYWRlIG9mIHBlb3BsZSBkYW5jaW5nIHRvIHRoZSBCZW5ueSBIaWxsIG11c2ljIHBsYXllZCBvbiB0aGUgS2F6em9vLi4uLiBHT09EIFRJTUVTPC9saT48bGk+U2VwdGVtZWJlciB0aGUgMXN0Li4uIHdlIHdlbnQgb3V0IGZvciA8c3Ryb25nPktldidzIDE5dGg8L3N0cm9uZz4uIFN0YXJ0ZWQgb2ZmIHdpdGggbWUsIEtldiwgVG9ieSBhbmQgVG9tIGp1c3Qgc2F0IGluIHRoZSBwdWIgY2hpbGxpbmcgdGhlbiBTaW5qaW4gY2FtZSBvdXQgYXMgZGlkIGFsbCB0aGUgQ2FyaXNicm9va2UgY3Jldy4gV2Ugd2VudCBvbiB0byBDaGljYWdvIFJvY2sgYW5kIGJ1bXBlZCBpbnRvIExlZSBSeWFuIGZyb20gYmx1ZSAocXVpdGUgYSBmZXcgdGltZXMpLi4uIGl0IHdhcyBhIHJlYWxseSByYW5kb20gbmlnaHQsIEkgZ290IHNvIGRydW5rLi4uIG9od2VsbC4gVm9ka2Egc3Vja3MhPC9saT48bGk+QW5vdGhlciBmZXN0aXZhbCB3YXMgdGhlIDxzdHJvbmc+QmVzdGl2YWw8L3N0cm9uZz4uIENhbiBlYXNpbHkgc2F5IGl0IHdhcyBvbmUgb2YgdGhlIGJlc3Qgd2Vla2VuZHMgb2YgbXkgbGlmZSBFVkVSLiBTcGVudCB0aGUgZW50aXJpdHkgb2YgaXQgd2l0aCBFdmUgYW5kIFNlYiwgd2UgZHJlc3NlZCBhcyBNaW1lcy4gSSBtZXQgTmFib28gZnJvbSBUaGUgTWlnaHR5IEJvb3NoLiBTYXcgdGhlIHBldCBzaG9wIGJveXMuLiBGdWNraW5nIGdyZWF0ITwvbGk+PGxpPlRoZW4gdGhlcmUgd2VyZSB0aGUgbGFzdCB0d28gbmlnaHRzIG91dCBiZWZvcmUgVW5pLi4uIFRoZSBmaXJzdCBvbmUgd2FzIG9uZSBvZiB0aGUgYmVzdCBuaWdodHMgb2YgbXkgbGlmZS4uLiBFdmVyeW9uZSB3YXMgb3V0OiBFdmUgU2ViIE1lIEthdGV5IEVsZSBKZXNzIEhhbm5haCBUb20gU2luamluIFJpY2ggVG9tIFNoYXogU29waGllIFNhZGllIEFuZHkgTHVjeSBEYW4gS29uc3RhbnQgUm9iIE9sbGllIGFuZCBvdGhlcnMgaW0gc3VyZS4uLiBzbyBncmVhdC4gRXh0cmVtZWx5IGVtbyBhdCB0aGUgZW5kLCB0ZWFycyBldmVyeXdoZXJlLCBlZWVrcy4gRGlkbnQgcnVpbiBhIHRoaW5nISBFdmUgbGVmdCBmb3IgVW5pIHRoZSBuZXh0IGRheSEgT01HLiBTZWVtcyBsaWtlIGFnZXMgYWdvIG5vdzwvbGk+PGxpPldlIGFsc28gd2VudCBvdXQgdG8gc2F5IGdvb2RieWUgdG8gS2F0ZXkgd2hpY2ggd2FzIGVxdWFsbHkgYXMgc2FkLCBidXQgYSBsaXR0bGUgbGVzcyBtYW5pYy4gVGhlbiB0aGVyZSB3YXMgdGhlIHNjaG9vbCBkaXNjbywgYSBnb29kIG5pZ2h0IGJ1dCB2ZXJ5IGRlcHJlc3NpbmcuIEFtYXppbmcgY2hhdCB3aXRoIENocmlzdGluZS48L2xpPjwvdWw+PHA+PGJyIC8+T3RoZXIgc3R1ZmY6OjwvcD48b2w+PGxpPjxzdHJvbmc+QmVhY2ggcGFydGllczwvc3Ryb25nPi4uLiBmdW4gdGltZXMsIGJicSdzIHN1biwgcGFyYWdsaWRlcnMsIHBhZGRlbGluZyBhbmQgd2VlaW5nIG9uIHRoZSBjbGlmZnMuIFRoZXJlIHdhcyBvbmUgZmFudGFzdGljIG5pZ2h0Li4uIEkgZ290IHRoZSBtb3N0IGRydW5rIEkndmUgZXZlciBiZWVuIGluIG15IGxpZmUsIGJ1dCBldmVyeW9uZSB3YXMgdGhlcmUgYW5kIHdlIGNlbGVicmF0ZWQgdGhlIGVuZCBvZiBleGFtcyBhbmQgc2FpZCBnb29kYnllIHRvIG91ciBOb3J3ZWlnZW4gZnJpZW5kIExlbmEuPC9saT48bGk+VGhlIG5pZ2h0IG9uIDxzdHJvbmc+VGVubnlzb24gZG93bjwvc3Ryb25nPiB3aXRoIEV2ZSBhbmQgU2ViLi4uIEkgaW52aXRlZCAxMCBvdGhlcnMgYnV0IG5vYm9keSBlbHNlIGNhbWUuLi4gaXQgd2FzIGZyZWV6aW5nIGJ1dCB3ZSBzYXcgZmlyZXdvcmtzIGFuZCBhdGUgdmVnZ2llIGJ1cmdlcnMgaW4gdGhlIGRhcmsuLi4gZ2V0dGluZyBrZXRjaHVwIGV2ZXJ5d2hlcmUsIGFuZCBnb3QgbG9zdCBvbiBvdXIgd2F5IGRvd24sIHRhbGtpbmcgdG9vIG11Y2ggYWJvdXQgYWxpZW5zIG1ldGhpbmtzLjwvbGk+PGxpPlRoZSBtYW55IHRyYXZlbHMgaW50byB0b3duIHRvIGVhdCBNcidUJ3M8L2xpPjxsaT5TdWRkZW4gbG92ZSBhbmQgZGlzY292ZXJ5IG9mIDxzdHJvbmc+VGhlIE1pZ2h0eSBCb29zaDwvc3Ryb25nPjwvbGk+PGxpPk1pbmUgYW5kIEV2ZSdzIGFkdmVudHVyZSB0byBMaWRsLCBhbmQgb3V0IHBpY25pYyBvbiB0aGUgYmVhY2gsIG1lIG5lYXJseSBmYWxsaW5nIGluIHRoZSBzZWEsIGFuZCBvdXIgd2FudGluZyB0byByaWRlIHRoZSBkb3R0byB0cmFpbjwvbGk+PGxpPkEgbGxhbWEgdHJlayB1cCB0aGUgZG93bnMgdG8gY2VsZWJyYXRlIG15IDE4dGggd2l0aCBteSBmYW1pbHkuLi48L2xpPjxsaT5Dcm9wcmVkeSBmb2xrIGZlc3RpdmFsIHdpdGggRGFubnksIEVsZSBhbmQgSmVzcy4gU28gZnVja2luZyByYW5kb20gYnV0IGdyZWF0IGZ1biBhdCB0aGUgc2FtZSB0aW1lLi4uIHNvbWUgZ29vZCBib25kaW5nIGFuZCBjbGFzc2ljIHF1b3Rlcy4gR2lmdHMgZnJvbSBjaGluZXNlIHBlb3BsZSBhbmQgY2hpbGRyZW4gY2FsbGVkIE1hbnUgYW5kIFNob28tU2hvby4gRFJFQURMT0NLIEhPTElEQVkgQlkgMTBDQy0gbGl2ZS4uLi4gcHVyZSBibGlzcyE8L2xpPjxsaT5Hb2luZyB0byB0aGUgcm9jayBmb3IgQmVuJ3MgMTh0aCwgd2F0Y2hpbmcgS2V2IGFuZCBCZW4gZG8ga2FyZW9rZS4uIG9oIGRlYXIhPC9saT48bGk+PHN0cm9uZz5FbGUncyBDaGlsZHJlbnMgcGFydHk8L3N0cm9uZz4uLi4gRmFjZXBhaW50aW5nLCB3ZWVlZWQsIHBlb3BsZSBiZWluZyBzaXQsIEV2ZSBmYWxsaW5nIGluIHRoZSBib29zaCwgU3F1ZWFrIHBpZ2d5IHNxdWVhay48YnIgLz48YnIgLz48YnIgLz48YnIgLz48YnIgLz48YnIgLz5TbyBub3cgYXMgSSBzYWlkIEknbSBhdCBVbmkuIFRocmVlIHdlZWtzIGxlZnQgb2YgbXkgZmlyc3Qgc2VtZXN0ZXIuIEl0cyBzbyB3ZWlyZCwgc28gbXVjaCBoYXMgY2hhbmdlZCwgYnV0IGFsb3Qgb2YgdGhpbmdzIGFyZSBzdGlsbCB0aGUgc2FtZS4gSSBkb250IGxpdmUgYXQgaG9tZSBhbnltb3JlLiBBbG90IG9mIGZyaWVuZHMgaGF2ZSBtb3ZlZCBhbHNvLCBzb21lIGhhdmUgc3RheWVkLiBJdmUgc2VlbiBhbGwgb2YgbXkgYmVzdC1mcmllbmRzIGF0IGxlYXN0IG9uY2Ugc2luY2UgY29taW5nLiBJIGZvdW5kIGl0IHJlYWxseSBoYXJkIGF0IGZpc3QuLi4gYnV0IGl0J3MgZ2V0dGluZyBiZXR0ZXIuIFRoZSBjb3Vyc2UgaXQgcXVpdGUgZ29vZCwgSSByZWFsbHkgd2FudCB0byBiZSBhbiBFdmVudHMgT3JnYW5pc2VyIGFuZCBJbSBxdWl0ZSBzdXJlIHRoaXMgY291cnNlIHdpbGwgaGVscCBtZSBnZXQgdGhlcmUuIEkndmUgbWFkZSBzb21lIG5ldyBmcmllbmRzLCB0aGV5cmUgYWxsIGFscmlnaHQuIEkgbWlzcyBteSBiZXN0IGZyaWVuZHMgYWxsIHNvIG11Y2ggdGhvdWdoLi4uIEl2ZSBzcGVudCBhIGNvdXBsZSBvZiB3ZWVrZW5kcyBpbiBTb3V0aGFtcHRvbiB3aXRoIEhhbm5haCBhbmQgQm95aXMuLi4gYW5kIEl2ZSBoYWQgYSB2aXNpdCBmcm9tIENocmlzdGluZSBhbmQgRXZlIHdoaWNoIHdhcyBpbW1lbnNlLiBCZWluZyBhd2F5IGZyb20gaG9tZSBoYXMgbWFkZSBtZSBhcHByZWNpYXRlIGhvdyBnb29kIG15IHN1bW1lciB3YXMuLi4gSSBoYXZlIHRoZSBiZXN0IGZyaWVuZHMsIEVWRVIuLi4geW91IHNob3VsZCBiZSBqZWFsb3VzITwvbGk+PC9vbD48cD5BbmQgd2VsbCwgSSB0aGluayB0aGF0cyBpdCBmb3IgdG9uaWdodCwgaXRzIDI6MTVhbSwgYW5kIHRoaXMgaXMgYWxsIHZlcnkgcmFuZG9tLi4uLiBIaWdoZHkgSG8gQ2FtcGVycy4gQW5vdGhlciB1cGRhdGUgc29vbiBwZXJoYXBzPzxiciAvPjxiciAvPkJpZyBMb3ZlLjwvcD4="
+"eventtime","2006-11-25 02:13:00"
+"current_moodid","109"
+"url","http://dumb-struck.livejournal.com/55130.html"
+"userid","4305"
+"itemid","214"
+"event","Really quick update,.
+
+After all my worrying Battle of the bands on the whole was actually a hugely successful event and is set to be on local tv and in the newspaper! The finale is a week and 2days away and I've got so much that I need to organise by then.... eeek!
+
+Ive been majorly upa dn down the past two days, Someone that I used to know died in a car crash on Monday, he was my age. I also then found out that the missing cymbal that dissapeard from the drumkit we used was stolen by someone I used to consider a freind, they did return it but I am not going to talk to them about it, or anything for that matter.
+
+On friday im going to watch Eve and Jess' drama piece :) and then on Saturday it is Ele's 18th Birthday party, I am going a slighter more 'rounder edged' version of Brody Dalle of the Distillers :) Tomorrow I have lessons all day and have to hand in my psychology. Ryan was supposed to come adn get his cymbal today but never came, boys.
+
+Hope everyone is a-okay,
+
+Chloe xxx"
+"eventtime","2006-03-01 21:38:00"
+"url","http://dumb-struck.livejournal.com/54912.html"
+"userid","4305"
+"itemid","213"
+"event","Hey Guys!
+
+I really do not have anything to talk about other than Battle of the Bands, How sad?!
+
+&nbsp;As some of you may know I (along with loads of good friends) have been organising this competition for the past couple of months. The winners will eventually get to play at this year's Isle Of Wight music festival which is&nbsp; a wicked achievement.
+
+The auditions are tomorrow and I am completely shitting my pants. All the negative thoughts havent gone yet and are starting to run me down, Im the most tired Ive been in such a long time. I hope that everything goes as planned tomorrow or I will feel so let down by myself.&nbsp;
+
+I just kinda had a bit of a dig at one of the band members over myspace for both fucking me around, wasting my time and being patronising and cocky. I feel awful about it now and wish I hadnt of written the message . I hope he takes it in the right way, he doesnt even know so he probably doesnt thin much of me.
+
+
+
+
+Oh God."
+"eventtime","2006-02-22 20:53:00"
+"current_moodid","8"
+"url","http://dumb-struck.livejournal.com/54567.html"
+"userid","4305"
+"itemid","212"
+"event","Today has been alright,
+
+Im thinking pretty negatively about school work and Battle of the Bands at the moment. Auditions for BOTB are this Thursday and any cock-up with reflect badly upon the oraganisation, namely me. I know that somethings going to go wrong. We hardly have any judges.
+
+
+Oh man.
+
+
+I think thats all for today - very short post. Hope everyone is well X"
+"eventtime","2006-02-21 15:32:00"
+"url","http://dumb-struck.livejournal.com/54392.html"
+"userid","4305"
+"itemid","211"
+"event","<p>I HATE THIS NEW RICH TEXT, IT SUCKS :(&nbsp;<br /><br />I fancy updating but cant be bothered to bore you all with it long-windedly so will list it as I dont like the bullet point thing on here:<br /><br />Katey got me and her RHCP tickets today, OMG I can't wait, it's the day after my birthday which will be a fantastic way of celebrating.<br /><br />Katey stayed on Weds, we watched too much TV and ate curry.<br /><br />Eve is on holiday and I miss her :(<br /><br />Been in hospital this week for allergy testing but they thin now that it is a skin disorder because everything came up negative.<br /><br />Have got an open day at Winchester Uni tomorrow.<br /><br />Battle of the Bands auditions are on Thursday and Friday - Holy Shit<br /><br />Not much else to say, I've done nothing in my Half-term week except Battle of the Bands stuff, e.g myspace promo. Ive not done any school work, dammit :X.&nbsp;<br /><br />I really do hate this box thing, ergh! I'm listening to the Artic Monkeys album on myspace so I can at least say Ive heard theyre album before I make my mind up on them.<br /><br /><br /><br /><br /><br /></p>
+<p><br /><br /></p>"
+"eventtime","2006-02-17 21:22:00"
+"url","http://dumb-struck.livejournal.com/54178.html"
+"userid","4305"
+"itemid","210"
+"event","<P>Well, well, well</P>
+<P>Have had yet another busy week. I didn't go out with Emma in the end last Friday. On Saturday I met Eve on the bus and we made our way to <STRONG>Chichester</STRONG>. The journey was rather amusing thans to some drunken blokes on the train, i started playing <STRONG>Sudoku,</STRONG> and now I'm hooked..... oh dear. We got to Seb's and did a bit of shopping before going to his place and watching family guy, twas cool. I felt really uncomfetable until everyone arrived and the alcohol started flowing. most of Seb's mates are really cool :)</P>
+<P>On Sunday morning I woke up at 7:00am and couldn't get back to sleep. Kayleigh Seb's flatmate made me breakfast and I watched Hollyoaks. Eve and Seb got up and we chilled before they walked me back to the train. i didnt pay to get home which was great, and then my General Studies teacher was sat at the ferry terminal so I had someone to sit and talk to on the boat back to the Island. </P>
+<P>On Sunday evening I walked to work and met Christine, she came back to mine and we had some dinner, didnt do any work though which was a bit gay, but it's fine. On Monday Eve very kindly took myslef and Chris to Sandown so we could talk in one of their Sixth Form assembeleys about Battle Of the Bands, Emily was there and so she put up the posters for me :) </P>
+<P>On Tuesday I felt abit crappy and went into school anyways, just for our lesson to be cancelled, now theres a surprise. On Wednesday morning I speant most of my time in <STRONG>TuckShop</STRONG> with Rob doing a stock take for the accountant lady because spparantly we are in really bad debt, pish. That afternoon Laura came round and we watched some quality tele before going to Katey's house for some supremely cooked <STRONG>Haggis</STRONG>, yummers. </P>
+<P>On Thursday morning I went to Ryde high-school with Amy and Jess and our new Arts faculty manager Mr.Lines to talk to the year 11's about Battle Of the bands, there was quite alot of interest. </P>
+<P>On Friday I had another one of the pointless days at school. At lunch Laura drove me and Christine into town where we met Eve and bought our Euro-millions tickets, didn't win though :( After that we went to<STRONG> Mr.T's</STRONG> for lunch before I was dropped at home. That evening Laura and Katey came round for tea. Katey went home and Jess arrived and we went to the cinema and met Shaz where we watched <STRONG>'Memoirs of A Geisha'</STRONG> was pretty good but not as good as I thought it was going to be.</P>
+<P>Yesterday i got up, tidied up and then went to work. On my way i speant the last of my wages on a new top and a headband. After work I went and met Katey from work and we came to mine and got ready, Jess came round and we drove to the boat. Jerry my stepdad gave us free tickets for the boat, get in. We met Shaz, Holly and Emma. When we got to the Guildhall we met Ben, Dave, Rich, Geoof, and Holly.M. There were so many people there from the Island, it was insane. </P>
+<P>Can't remember what the first band were called, but I dont really care. When <STRONG>Coheed &amp; Cambria</STRONG>&nbsp;came on it was insane. After the intro they went into Welcome Home, it was so good, the pit was quite tight and we ended up drifting backwards. They played all of their 'hits' really and it was so fucking good, I actually love them, their amazing musicinas. When Thrice came on me and Katy stayed near the front for a while before drifting into the gnarliest pit ever, I went down and someone really hurt my back. We stood out for the rest of the set which was quite boring but Deadbolt and 'the artist in the ambulance' were good. Afterwards I ran Katey down to her boat then met the guys. ben gave me and Jess a lift home and I had a curry before going to sleep :)</P>
+<P>Hope everyone else had a good weekend,</P>
+<P>X</P>"
+"eventtime","2006-01-29 16:53:00"
+"current_moodid","84"
+"url","http://dumb-struck.livejournal.com/53914.html"
+"userid","4305"
+"itemid","209"
+"event","<P>Hey evryone</P>
+<P>&nbsp; So it has been quite a while since i updated but these few first months of the year are going to be so busy and that. yesterday was quite a good day, after much sleep deprivation I got all of my art coursework handed in which was a big <STRONG>relief</STRONG>. </P>
+<P>&nbsp; In the afternoon I had my mock interview. Just before that some teacher confronted me about another teachers feelings about Battle Of the bands, I think i handled it really well especially considering this time last year I probably would have jsut started crying or not of had the confidence to put the event on in the first place. After discussing with everyone what happened I've decided they can stick their opinions where the sun doesnt shine because I have offered to let that person help and she pretty much told me where to go, how childish.</P>
+<P>&nbsp; I had my interview and I felt like it went really well, I didnt get any constructive criticism after it though which was a bit of a bummer but all the comments were really nice. </P>
+<P>&nbsp; Today has been fine, I didnt go to the gym with Eve as we first anticipated. I got back an essay which I did as prep for my exam on Wednesday and got the best marks in the class, woop! And I have got all arrangements for advertising at other highschools next week sorted.</P>
+<P>Im supposed to be going out in Newport with my friend emma for her 18th birthday tonight but can't get hold of her :S Then tomorrow me and Eve are going to <STRONG>Chichester</STRONG> for Seb's rather belated birthday party, i hope its fun. I may pop into Gunwarf Quays in Portsmouth on Sunday and have a look in Monsoon at dressed for the Bays Ball.</P>
+<P>I've lost <STRONG>9 pounds</STRONG> on my diet :)</P>
+<P>Have a good one, x </P>"
+"eventtime","2006-01-20 17:20:00"
+"current_moodid","126"
+"url","http://dumb-struck.livejournal.com/53651.html"
+"userid","4305"
+"itemid","208"
+"event","<P>Have been such a busy bunny just recently what with Battle of the bands, Bedouin Soundclash, Psychology retake, Art Coursework, Pizza Hut, Seeing films about gay cowboys, Gym, Dieting, celebrating birthdays and the 6th month anniversary of the fire.</P>
+<P>&nbsp;</P>
+<P>Yowza - hope to update properly soon, X</P>"
+"eventtime","2006-01-16 22:41:00"
+"current_moodid","113"
+"url","http://dumb-struck.livejournal.com/53459.html"
+"userid","4305"
+"itemid","207"
+"event","<P>So I'm guessing it's time to update my LJ.</P>
+<P>I went and stayed in Yorkshire with my family for New year, I had a really nice time, it was wonderful to meet them all and speand time away from home. I got a a bag and a locket from my auntie and cousin Sam for&nbsp;christmas which i was not expecting at all. Had such funny conversations with everyone of New Years Eve, was good to know the party was banging.</P>
+<P>I got back on monday then Tuesday I met Katey and Amy in town and we went to Senior T's for lunch, was lush :) Wednesday i went back to school which was a bit gay seeing as I have so much coursework and stuff to do aswell as my retakes in the next couple of weeks.</P>
+<P>Yesterday I had a very exciting meeting with my head teacher considering Battle of the bands. He is in company with the organisers of the Rock festival and basically they have offered us prizes. So now the event is not only going to be just a school competition but quite a pretigous and professionally run event, Im so excited about it, Amy, Chris, Luke and Danyn are all helping me out at the moment and were sorting things out so we can get the ball rolling. I have another meeting with the head on Monday, I can't wait.</P>
+<P>School today was pointless, I got up and went in and my General Studies lesson has been cancelled and Eve was going to be late. Am going to go into town later and have a&nbsp; look for some Jeans. I saw some in Next in brighton, and now taht i have to money to buy them I can't find them on the website, grr. </P>
+<P>Holly is having her 18th burthday party tonight, hope to get pleasantly merry.</P>
+<P>X</P>"
+"eventtime","2006-01-06 10:49:00"
+"current_moodid","31"
+"url","http://dumb-struck.livejournal.com/53124.html"
+"userid","4305"
+"itemid","206"
+"event","PFA+Tm90IGdvdCBhbiBhd2Z1bCBsb3QgdG8gc2F5LiB5ZXN0ZXJkYXkgd2FzIG9uZSBvZiB0aGUgYmVzdCBkYXlzIEkndmUgaGFkIGluIHF1aXRlIGEgd2hpbGUuPC9QPg0KPFA+R290IHVwIHZlcnkgZWFybHkgd2hpY2ggSSB3YXMgcHJvdWQgb2YgYW5kIGdvdCBhIGxpZnQgd2l0aCBFdmUncyBmYW1pbHkgdG8gdGhlIGZlcnJ5LiBXZSBjYXVnaHQgdGhlIGZ2ZXJyeSBvdmVyIHRvIHBvbXBleSBhbmQgdGhlbiBnb3QgdGhlIHRyYWluIHRvIEJyaWdodG9uLCBsaXN0ZW5lZCB0byA8U1RST05HPlRha2UgVGhhdCBhbmQgR3JlZW4gRGF5PC9TVFJPTkc+IG9uIHRoZSB0cmFpbiBsb2wsIGhvdyBjb29sLiBJbiBCcmlnaHRvbiB3ZSB3YWxrZWQgdGhyb3VnaCB0aGUgbGFuZXMgYW5kIGVuZGVkIHVwIG9uIHRoZSBoaWdoc3RyZWV0LCB3ZW50IGluIGxvdHMgb2YgY29vbCBzaG9wcy4gSW4gdGhpcyBvbmUgc2hvcCAnQ3VsdCcgdGhpcyByZWFsbHkgaG90IGd1eSBncmVldGVkIHVzLCBob3cgbmljZSBvZiBoaW0uPC9QPg0KPFA+SSBnb3QgYSBuZXcgcGFpciBvZiBzaG9lcywgYSBmZXcgdG9wcyBhbmQgc29tZSB0cm91c2VycywgYWxsIGluIHRoZSBzYWxlIDopIEFsc28gc3BlYW50IMKjMTAgb24gaGFpciBwcm9kdWN0cywgb29wcy4gV2UgdHJhdmVsbGVkIGJhY2sgdG8gdGhlIElzbGFuZCBhbmQgbXkgc3RlcC1kYWQgcGlja2VkIHVzIHVwLCB3aGVuIHdlIGdvdCBiYWNrIHRvIG1pbmUgd2UgdmVyeSBzcGVlZGlseSBnb3QgcmVhZHkgYW5kIFNlYiBjYW1lIHJvdW5kLiBXZSB3ZW50IHRvIE1hY2RvbmF1bGRzIGFuZCBoYWQgc2NoaXBzIGJlZm9yZSBnb2luZyB0byA8U1RST05HPkJhciBCbHV1PC9TVFJPTkc+IHdoZXJlIGl0IHdhcyBBbmR5LCBEb20gYW5kIE5pY2tzIGpvaW50IGJpcnRoZGF5IHBhcnR5LiA8L1A+DQo8UD5TbyBtYW55IHBlb3BsZSB3ZXJlIHRoZXJlIHRoYXQgaXQgd2FzIHF1aXRlIHVubmVydm5nIGF0IHRoZSBiZWdnaW5nIGJ1dCBJIHNvb24gcmVsYXhlZCBhbmQgaGFkIGEgcmVhbGx5IGdvb2QgdGltZS4gV2FzIGxvdmVseSB0byBzZWUgU29waGllIGFuZCBsb2FkcyBvZiBDYXJpc2Jyb29rZSBwZW9wbGUgSSBoYXZlbnQgc2VlbiBmb3IgYWdlcy4gRGlkIGxvdHMgYW5kIGxvdHMgb2YgZGFuY2luZyBhbmQgcmVxdWVzdGVkIHNvbWUgdHVuZXMsIGxpa2UgU25vb3AsIEpUIGFuZCBNeWxvIDopIFNvcGhpZSBnYXZlIG1lIGFuZCBBbmR5IGEgbGlmdCBob21lIGF0IG1pZG5pZ2h0IGFuZCBJIHdlbnQgcHJldHR5IG11Y2ggc3RhcmlnaHQgdG8gc2xlZXAuPC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+RG9udCB0aGluayBJJ20gZ29pbmcgdG8gYmUgdXBkYXRpbmcgdGhpcyB3ZWVrZW5kIGFzIHNlZWluZyBhcyBpdCdzIE5ldyBZZWFyIEkgYW0gdHJhdmVsbGluZyB1cHRvIDxTVFJPTkc+WW9yazwvU1RST05HPiB0b21tb3JvdyB3aXRoIG15IEZhbWlseSB0byBzdGF5IHdpdGggbXkgTW9tJ3Mgc2lzdGVycy4gSW0gcmVhbGx5IGFwcHJlaGVuc2l2ZSBhbmQgcXVpdGUgc2FkIEknbSBtaXNzaW5nIEVsZSdzIHBhcnR5IGJ1dCBhdCBsZWFzdCB0aGlzIHRpbWUgbXkgYXVudHkgbWF5IGJlIGFibGUgdG8gcmVtZW1iZXIgd2hvIEkgYW0gOlMuLi4uLi4gQW0gb2ZmIHRvIHdvcmsgbm93LDwvUD4NCjxQPkhvcGUgZXZlcnlvbmUgaGFzIGEgZ3JlYXQgTmV3IFllYXIsIFg8L1A+"
+"eventtime","2005-12-29 15:19:00"
+"current_moodid","4"
+"url","http://dumb-struck.livejournal.com/52755.html"
+"userid","4305"
+"itemid","205"
+"event","<P>Can't believe I am updating today but I realy am quite bored.</P>
+<P>Have had a good day but am feeling so incredibly rough. Got up at 6:30 and opened presents, I got lots of little bits and bobs, Perfume, a bag, a jumper, DVD's; Just general <STRONG>stuff</STRONG> really which i am all happy for recieving.</P>
+<P>As usual I've eaten too much. I made a trfle earlier ate some after we got in from Chrismas Lunch at The Quay.</P>
+<P>Am going to watch TV as soon as Dr.Who has finished,</P>
+<P>Hope you've all had a good day,</P>
+<P>X</P>"
+"eventtime","2005-12-25 19:30:00"
+"current_moodid","82"
+"url","http://dumb-struck.livejournal.com/52721.html"
+"userid","4305"
+"itemid","204"
+"event","<P>Have done nothing but work for the past few days. It didnt feel like Christmas at all until this evening really. </P>
+<P>Work was goo yesterday, speant most of my time gossiping and singing xmas carols with James. Then today Katie was back which was great, I have really missed her being there, also Benda put us on a till together so it was all good. I can't think of much else to write, katey came round quickly this evening for Hot Chocolate with Tia Lusso in it, yum yum. Errrrr, Im off to watch the goonies now, 1.5 hours to go, WOO!</P>
+<P>&nbsp;</P>
+<P><FONT size=7><STRONG>Wishing You all a Great Christmas 2005,</STRONG></FONT></P>
+<P>&nbsp;</P>
+<P>X</P>"
+"eventtime","2005-12-24 22:28:00"
+"current_moodid","106"
+"url","http://dumb-struck.livejournal.com/52405.html"
+"userid","4305"
+"itemid","203"
+"event","<P>Was so nice to have lie-in this onring, although Im now feeling really ill, damn it!</P>
+<P>On Wednesday I got two fantastic pieces of post, </P>
+<UL>
+<LI>An offer from <FONT size=4><STRONG>Bath Spa university</STRONG></FONT> for 220 points, (Yeah man!)</LI>
+<LI>A letter requesting a meeting with the head master about my plans for <STRONG><FONT size=4>'Battle of the bands'</FONT></STRONG></LI></UL>
+<P>So I was in a pretty good mood and so decided to tidy my room. Katherine came around midday and we lounged about for most of the day and then got a takeway from Pizzahut and took it back to her place and watched School Of Rock. It was cool.</P>
+<P>Yesterday I worked 9:30-6:30, it was fine though, I really enjoy working in the day, it's much nicer than my usual shift anyways. I'm doing 2:30-10:30 today which is a bit gay considering it's a friday and quite frankly I dont feel upto it, but I really do need the money so I'm going to go in anyways.</P>
+<P>After work yesterday I went to Doris Pinks and met Eve, we went back to mine and had some Munch then went to the cinema to see <STRONG><EM>King Kong</EM></STRONG>. i did think it was good, I got slightly bored in parts and found some bits quite scary, and funny, but overall i think Peter Jackson did a good job of it.</P>
+<P>This morning Eve left at 8:30 with my mum to go to work and I slept in till 9:30, got up and watched some music TV with Jack and Coral before getting a letter from <FONT size=4><STRONG>Winchester</STRONG></FONT> in the post asking me to go to their open day in Feburary and saying that my offer is in the post, WOO!</P>
+<P>So that has put me in a good frame of mind for today, Also I just remembered its:</P>
+<P>2 MORE SLEEPS TILL CHRISTMAS! </P>
+<P>:)X</P>"
+"eventtime","2005-12-23 10:57:00"
+"current_moodid","126"
+"url","http://dumb-struck.livejournal.com/52011.html"
+"userid","4305"
+"itemid","202"
+"event","<P>Its been a good couple of days, I'm still fighting the bastard that is the Christmas bug.</P>
+<P>Yesterday was our last day at school and so naturally, come lunch time we trashed the commonroom and had a party with mince pies and lots of chocolate, twas really nice. there were a few games of musical chair etc but we didnt join in, just sat on our table and talked. I'm so relieved to have my psychology coursework in for marking because it means that over the christmas period I can crack on with my Art stuff which is needed in when we go back to school in january.</P>
+<P>I had a little bit of a lie-in this morning before getting ready for everyone to come round. Everyone came round between 11:45 and 12, and as I predicted Eve was first to come and Katey was last lol. We all walked down the Quay to Brewers Fayre where we got seated at two table of four because there wer 8 of us and no 8people tables :(. After some chat we exchanged our christmas gifts, I 'm so grateful for everything that I got:</P>
+<P>Katey: Trevor Sorbie hair care<BR>Eve: Darth tater (mr potatoe head) and A book about Green Day<BR>Jess: Hair Clips and a Cross<BR>Ele: Chocolates, personalised pencils and some Girl Boxers<BR>Laura: Mittens and Bracelets</P>
+<P>Woo :) I'm feeling slightly more Christmassy now which is all good. I had gammon for dinner followed by toffee waffle, I am now so unbelievably stuffed, and it didnt cost as much as I assumed, so its smiles all round, :)</P>
+<P>I have a day free from work tomorrow in which I intend to crack on with some art, and then Its work for me, Thursday, Friday, and Saturday.</P>
+<P>X</P>
+<P>&nbsp;</P>
+<P>Ps - I got a postcard from Winchester, theyve got my application. </P>"
+"eventtime","2005-12-20 15:07:00"
+"current_moodid","93"
+"url","http://dumb-struck.livejournal.com/51762.html"
+"userid","4305"
+"itemid","201"
+"event","<P>Well now..</P>
+<P>Woke up rather late yesterday and feeling wuite worse for wear. Had to start work at 1 so I dragged myself up and out of bed. Work was fine though I had the worst headache I've had in a long while. I saw Eve and Sophie which was cool. And Seb's Dad and younger sister were in the store bag-packing for charity which I thought was really nice. </P>
+<P>I came home last night and watched 'Good Will Hunting', it's such a good film, my Nan gave it to me. It also has the one and only : Matt Damon in it, so yeah.</P>
+<P>Went to work today which was quite pointless seeing as I didnt feel up to it at all. Worked for 2hours before my boss said I could go home. I have some psychology to finish this evening... ho hum.</P>
+<P>Still awaiting a reply from Red Funnel and for uni offers, its only been 2 and a half weeks since my application went off, puh!</P>
+<P>&nbsp;</P>
+<P>Hope you've all had a good weekend, X </P>"
+"eventtime","2005-12-18 18:07:00"
+"current_moodid","82"
+"url","http://dumb-struck.livejournal.com/51643.html"
+"userid","4305"
+"itemid","200"
+"event","<P>I have just e-mailed a letter of complaint to Red Funnel telling them how Gay i think they are due to their infrquent ferries at midnight. I could so be the next Mary Whitehouse, but I think shes far too lonely. </P>
+<P>Anyhow.&nbsp;I had a good day at school although none of my 'girlfriends' (that sounds so cheerleader like) were in this monring so I hung out with the lads most of this morning and played silly games on Tom's laptop. My lesson was quite funny thismorning, I do like General Studies.&nbsp;</P>
+<P>It started raining as I left school and so Lin gave me a lift into&nbsp;town.&nbsp;I saw loads of people which was embarrasing seeing as I looked so rough. Came home and chilled before having a fight with my sister and then going to&nbsp;Katey's for a Thai Green Curry. It was really nice, cheers mate.</P>
+<P>I got home and watched Johnathan Ross and am now waiting for my step-dad to arrive home, he's buying my Isle Of Wight Festival 'early bird' tickets as we speak. </P>
+<P>I start work at 1 tomorrow and then am going to Holly's party for a while with Seb, Eva and Jesskins.</P>
+<P>Really could do with a cold pint of XXXX right now, weird.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P><lj-cut text=""Complaint""> <FONT size=2>
+<P>To whom it may concern, </P>
+<P>I am writing to you concerning problems that my peers and I have encountered recently when using your services. We appreciate that it is winter and so your ferries are not running as frequently as they may do at other times during the year, however the fact that there is neither a hi-speed or a car ferry that operates at midnight has lead us to encounter many problems when travelling to and from the Island. I am sure that I am not the only person that feels that this is an inconvenience and would just like to notify you of this problem. </P>
+<P>Many thanks.</lj-cut></P>
+<P>&nbsp;"
+"eventtime","2005-12-17 00:51:00"
+"current_moodid","103"
+"url","http://dumb-struck.livejournal.com/51376.html"
+"userid","4305"
+"itemid","199"
+"event","<P>Didnt have such a good start to the week, was being such a twat. Monday was a really shite day.</P>
+<P>On Tuesday I went to So'ton with Katey, Ele and Jess to see Trashlight. One of the support bands : Plastic Toys, were absolutely amazing but the others were crap and we never got to see Trashlight due to our travel arrangements, it totally sucked, I hate this Island sometimes, but I did get to spend some good time with Jess which was cool. </P>
+<P>Went into school yesterday and was really hyper. We had christmas lunch from the canteen which made me feel sick. Then Kev turned up whcih was cool as I havent seen him for ages, :) Picked my brother up and came home to carry on with my Psychology coursework.</P>
+<P>I speant all of time this monring doing Psychology with Christine, Rich and Poods, we got it all done, all I have to do now is my discussion and abstract which is a relief because when he hands it back to me all I'll have to do is the corections. Hung out at lunch before English which was actually quite enjoyable. After school we said goodbye to Eve before I waled into town with Laura, Amy and Ele. I left them at the Quay where I met Katie and Amber. Was really nice see them as I havent seen either of them for ages! Katie is looking so much better than she did last time I saw her. </P>
+<P>Am now looking forward to Little Britain tonight. </P>"
+"eventtime","2005-12-15 20:50:00"
+"current_moodid","90"
+"url","http://dumb-struck.livejournal.com/50980.html"
+"userid","4305"
+"itemid","198"
+"event","<P><FONT color=#000000><lj-cut text=""~Survey...""> </FONT><STRONG>1. Full Name: Chloe Hlastead<BR>2. Nicknames: Clobo, Clo-ence<BR>3. Birthday: 17/07/88<BR>4. Place of Birth: Newport, Aye Oh Wah<BR>5. Zodiac Sign: Cancer<BR>6. Male or Female: Female<BR>9. Occupation: Student / Cashier<BR>10. Residence: Newport, IOW<BR>11. Screen Name: Dumb_struck<BR></STRONG></FONT><BR><U><STRONG><FONT size=4>__Your Appearance___</FONT></STRONG></U><BR><STRONG><FONT color=#6633ff>12. Hair Colour: Dark Brown<BR>13. Hair Length: All over the place<BR>14. Eye colour: Brown<BR>15. Best feature: I don't have hairy arms<BR>16. Height: 5'8<BR>18. Glasses: Yes, but also wear contacts<BR>19. Piercing: 3<BR>20. Tattoos: 1<BR>21. Righty or Lefty: Right<BR></FONT></STRONG><BR><FONT size=4><STRONG><U>___Your 'Firsts'___</U></STRONG><BR></FONT><STRONG><FONT color=#cc33cc>22. First best friend: Bethan &nbsp;<BR>23. First Award: Can't remember<BR>24. First Sport You Joined: Ballet, hah<BR>25. First pet: A cat called Bruno<BR>26. First Real Vacation: France <BR>27. First Concert: First real concert; Velvet Revoler, although Id seen many lives acts and been to festivals previously<BR>28. First Love: Really cant remember</FONT></STRONG><BR><BR><U><STRONG><FONT size=4>___ Favourites___</FONT></STRONG></U><BR><STRONG><FONT color=#ff6600>29. Movie: The Labyrinth</FONT></STRONG><STRONG><FONT color=#ff6600><BR>30. TV Show: Never Mind The Buzzcocks<BR>31. Colour: Green<BR>32. Rapper: Snoop Doggy Dogg or Dr.Dre<BR>33. Band: Ever? ... GNR or Green Day mayber<BR>34. Song: Queen - Don't Stop Me Now ... maybe<BR>35. Best Friend: I have many<BR>36. Candy: Chocolate covered raisans<BR>37. Sport to Play: Swimming<BR>38. Restaurant: Big Up Senior T's<BR>39. Favourite brand to wear: I don't have one<BR>40. Shopping Centre: The amzingly cool one in Manchester<BR>41. School Subject: Art<BR>42. Animal: Wolf<BR>43. Book: The Lion The Witch and the Wardrobe<BR>44. Magazine: Any Music mag<BR>45. Shoes: Conversese or Doc.Martens<BR></FONT><BR><U><STRONG><FONT size=4>___Currently___</FONT></STRONG></U><BR><STRONG><FONT color=#9999ff>46. Single or Taken: Single<BR>47. Feeling: Good but tired<BR>48. Have a crush: Not really but Josh reapproached me yesterday, still unsure about that one <BR>49. Eating: Nothing<BR>50. Drinking: Water<BR>51. Typing: This<BR>52. Online: Let me think<BR>53. Listening To: The Pixies<BR>54. Thinking About: Going to the kitchen and making eggs on toast<BR>55. Waiting For: Eve and Mum to come home<BR>56. Watching: Nothing<BR>57. Wearing: Pink pather Pyjamas <BR><BR></FONT><U><FONT size=4>__________Future__________</FONT></U></STRONG><BR><STRONG><FONT color=#66cccc>58. Want Kids: Definately<BR>59. Want to get Married: To the right person maybe<BR>60. Careers in Mind: Teaching maybe<BR>61. Where do you want to live: I would love to live in: Brighton, Manchester or London<BR>62. Car: One that works </FONT></STRONG><BR><BR><U><STRONG><FONT size=4>__Which is Better in a love interest___</FONT></STRONG></U><BR><STRONG><FONT color=#cc0000>63. Hair colour: Dark<BR>64. Hair length: Any<BR>65. Eye colour: Any<BR>67. Cute or Sexy: Either<BR>68. Lips or Eyes: In working order<BR>69. Hugs or Kisses: Hugs<BR>70. Short or Tall: Tall<BR>71. Easygoing or serious: A mixture<BR>72. Romantic or Spontaneous: Spontaneous<BR>73. Fatty or Skinny: Bothered<BR>74. Sensitive or Loud: Inbetween<BR>75. Hook-up or Relationship: Either<BR>76. Sweet or Caring: Caring<BR>77. Trouble Maker or Hesitant: Niether</FONT></STRONG><BR><BR><U><STRONG><FONT size=4>___Have you ever______</FONT></STRONG></U><BR><STRONG><FONT color=#009900>78. Kissed a Stranger: Bays Ball, for some reason I think his name was Ben ? <BR>79. Had Alcohol : Many a time<BR>80. Smoked: A cigar :S <BR>81. Ran Away From Home: No<BR>82. Broken a bone: Not yet<BR>83. Got an X-ray: Quite a few<BR>85. Broken Someone's Heart: Don't think so<BR>86. Broke Up With Someone: No<BR>87. Cried When Someone Died: All the time<BR>88. Cried At School: Unfortunately<BR></FONT></STRONG><BR><FONT size=4><U><STRONG>___Do you believe in___</STRONG></U><BR></FONT><STRONG><FONT color=#ff99ff>90. Miracles: Not really<BR>91. Love At First sight: Lust at first sight maybe<BR>92. Ghosts: Yes<BR>94. Soul Mates: Yes<BR>95. Heaven: Perhaps<BR>97. Angels: Guardian ones, Yes<BR>98. Kissing on The First Date: Yes<BR>99. Love: Yes</FONT></STRONG><BR><BR><STRONG><U><FONT size=4>___Answer Truthfully___</FONT></U></STRONG><BR><STRONG><FONT color=#ffcc66>100. Is There Someone You Want but You Know You Cant have? Not to my knowledge</FONT></STRONG></P>
+<P></strong></lj-cut><BR clear=all></P>
+
+<P>Yetserday I met my friend Katherine in town after doing some much needed Christmas Shopping. We had&nbsp;a Mr.T's for lunch and then went to see The Lion The Witch and the wardrobe. I think it was fantastic, probably my favourite adaptation of it so far. In the evening we had to take my brother and my next door neighbour's children to their school disco, you can probably imagine the fun.</P>
+<P>This morning I lounged around a bit and shopped online before going to work. Work was pretty cool actually, the shift went fast, I saw Hannah, Robin and Sam whcih cheered me up, I went to French Franks and saw Katey for lunch and got my Christmas hours, which ROCK! :) I'm really happy, my boss has been nice to me for once. Bought some wrapping paper and stuff and came home.</P>
+<P>I'm now waiting for Eve and my Mother to come home from the 'Doris Pinks' Christmas Party. Me and Eve are going shopping in Southampton tommorrow, :) </P>
+<P>Good weekends everyone x</P>
+<P>And before I forget -</P>
+<P><I><FONT color=#ff00ff size=4><STRONG>
+<P><FONT size=3></FONT></P></I></FONT></STRONG>Stolen From:<lj user=""killerqueen82"" />:<BR><STRONG><EM>You reply to this post, and I'll tell you one (or maybe even several) of the reasons I like/love/adore you. Then, of course, you put this in your own journal, and spread the love. Can't say fairer than that!</FONT></EM></STRONG><BR> </P>"
+"eventtime","2005-12-10 23:26:00"
+"current_moodid","29"
+"url","http://dumb-struck.livejournal.com/50771.html"
+"userid","4305"
+"itemid","197"
+"event","<P>My ever huge mountain of school work is growing once more. </P>
+<P>On Sunday I worked until 5, afterwards me and Christine met rich and walked back to Christine's to get on with our Psychology homework. We didnt actually get an awful lot done, we endded up watching the <FONT color=#3333ff>Never Ending Story </FONT>and drinking <FONT color=#3333ff>Hot Chocolate with Baileys</FONT> in it. </P>
+<P>Yesterday I found out in Art that the hand-in date for our coursework is on Monday, so I know what I'll be doing this weekend. After a quite eventful lesson I left school with Katey and went to the Riverside Centre to give a <FONT color=#3333ff>blood donation </FONT>for the first time.</P>
+<P>I had to fill out quite a few papers about my medical and sexual history and also had to have my blood tested for Iron levels. It didnt hurt, I actually quite enjoyed it. My blood flow was really dlow and so they couldnt take enough from me for a whole donation which is a bit gay and probably due to the fact that i don't drink enough liquids.</P>
+<P>I didnt goto school today because my brother has a sickness bug and my mum's boss is off ill, I only had English today so I volunteered to look after him. This morning after we made a tent and had breakfats we watched <FONT color=#3333ff>Robots and Bodger and Bager.</FONT> Im off to work in a bit :S Darn. </P>"
+"eventtime","2005-12-06 15:31:00"
+"current_moodid","126"
+"url","http://dumb-struck.livejournal.com/50468.html"
+"userid","4305"
+"itemid","196"
+"event","<P>On Wednesday and Thursday evening I went to the Cowes high <FONT color=#009900><U>Battle Of the Bands</U> </FONT>with Chris. It was actually so good, which is the main reason I went twice. Chris and Han's band are wicked. Dboy and Grievy's new band also played. Most of the acts were really great. </P>
+<P>Yesterday night was <FONT color=#009900><U>Beccie's party</U>.</FONT> It was a fab night! Ele, Amy, Eve and Jess came round to mine and we walked into town in the puring rain to get some cash. by the time we got to the Riverside Centre me and Eve were already completely wasted. Everyone had given Eve money to buy them alcohol because the barpeople were being stingy with ID so we trecked to Somerfields. Once we got there Ele went home, Im not actually sure why, she wouldnt talk to me. </P>
+<P>Did lots of dancing with everyone. Was so good to party with diferent people. It was great seeing Jo and Sam and chatting with Natalie. Towards the end of the night <U>some bloke chucked me out</U> because I had an empty bottle of Carribean twist in my hand (didnt mean I drank it) what a TWAT! Laura and Kendal also got chucked out but they went home, Me and Eve just sneacked back in and boogied with everyone. At 11:30 we left becuase most people had gone. i think Beccie had a good time. Eve was really wasted still and I wasnt so much. I helped her get her stuff and catch the bus to meet Seb. </P>
+<P>Woke this morning with no Hangover, Yay. Have speant most of my day looking at the <FONT color=#cc33cc>75bands picture</FONT>. i'm impressed with how many I got the only ones I didnt know of were like : Jewel, Skinny Puppy and Yellow Man. </P>
+<P>Am working all day tomorrow then going to Christine's to do Psych Coursework. </P>
+<P><STRONG>Hope you all have a really good weekend,</STRONG></P>
+<P><lj-cut text=""75 bands - SPOILER""> </P>
+<P><IMG src=""http://www.sethjones.net/images/virgingamebands.jpg""></lj-cut></P>"
+"eventtime","2005-12-03 16:23:00"
+"current_moodid","15"
+"url","http://dumb-struck.livejournal.com/50430.html"
+"userid","4305"
+"itemid","195"
+"event","<UL>
+<LI>Had my haircut - 5inches off the length, a bit of a Brody Dalle</LI>
+<LI>Went to London - Didnt buy anything, didnt do much shopping</LI>
+<LI>Met bex, which was lovely, wouldve loved to have chatted more though</LI>
+<LI>Ordered Me, Katey and Jess Coheed &amp; Cambria standing tickets</LI>
+<LI>Eve stayed round on Friday</LI>
+<LI>Hopefully going to have a Scottish Dinner on Thursday with Katey, Eve and Laura</LI>
+<LI>Finally sent my University application off to the referee</LI>
+<LI>Finally got my Allergy Clinic appointment</LI></UL>
+<P>X</P>"
+"eventtime","2005-11-28 22:40:00"
+"current_moodid","3"
+"url","http://dumb-struck.livejournal.com/50109.html"
+"userid","4305"
+"itemid","194"
+"event","<P>Short, Short update, yet again.</P>
+<P><U>Wednesday -</U> <BR>Me and Eve went to <FONT color=#993399>Brighton</FONT>. It was a really cool, cold day. Walking up the pier to catch the ferry we nearly froze into an iceblock, but we surviced so its fine. Looked around North Laine before going to lunch in a veggie-indian, was lush. Looked at Sussex Uni whilst trying to blend in with everyone else and look like we went there. Bought a jacket in the shopping centre. Saw some Camp guys and then got the train home.</P>
+<P><U>Yesterday -</U><BR>Had school all day and then ALC afterwards. I was the only one available so I dragged Jess along with me, think she really liked it. We had a good chat on the way home.</P>
+<P><U>Today - <BR></U>Just got back from school. Laura gave me a lift home :). Went to the gym at 9am this morning(WTF?), the fire alarm went off when I was on the tredmill and really fucking scared me, Great One. Then hung out in tuck at break-time making stupid amounts of hot drinks, :(. Had my lesson of Genral with Rob and Jem. <BR>Going to see <FONT color=#993399>Harry Potter(!!!!) </FONT>in a minute, (AT LAST) with my friend Katherine. Then I'm buying some ingrediants for a&nbsp;curry tonight. Then Coming home, Getting my hair cut, Making and Eating the Curry with Eve, Watching <FONT color=#993399>Robots</FONT>, Going to Sleep and Getting up at 6.30am tomorrow for our trip to -</P>
+<P><FONT size=5>London :)</FONT></P>
+<P>And thats my life at the moment in a Nutshell. </P>
+<P>&nbsp;</P>"
+"eventtime","2005-11-25 11:59:00"
+"current_moodid","41"
+"url","http://dumb-struck.livejournal.com/49899.html"
+"userid","4305"
+"itemid","193"
+"event","<P>A breif update~</P>
+<P>Saturday-<BR>Went out to Freshwater to a friend of mine mom's suprise 50th birthday party. It was really nice to speand some time with just my mum and my sister, that was until Coral started talking about going upto see Dad this Christmas which is really doing my head in at the moment. Was cool to see Katherine and family again, was laso nice to have a few beverages that I didnt have to pay for. </P>
+<P>Sunday-<BR>Met Christine and walked to work. Saw Dan and Katey which was cool. After work we stood in the freezing cold dark outisde work waiting for Rich. We then went back to Christines and hung out, did a bit of psychology work and listened to Bon Jovi whilst eating SpagBol, yummers.</P>
+<P>Yesterday-<BR>Had a wee bit of a lie-in which was quite nice. The I got up and did lots of tidying and stuff. Katey came round at about 2 and we walked into town bought hampster food, cakes and her a new coat. I actually looked everywhere for one because I stayed in town a while after Katey had gone, but I still couldn't find anything thats either a) Nice or b)Fits. Grrr. I went to work in the evening, Poor Emma, she was really down. She wont be at work this week so it looks like I'm working till 5 this Sunday so I don't think I'm going to go to Shelley's party. </P>
+<P>Today we only had half a lesson of English before we had to go to the theatre to watch a presentation on Road Safety, it started a bit shite but got better, it was actually really scary/touchin/gnarly in the end. Pretty Sad. After that I had a chat with Sinjin, bless him, I'm really feeling for him at the moment, poor guy. </P>
+<P>So anyway, amongst all that sadness there is good to come, Im going to <FONT color=#3333ff size=4>Brighton</FONT> tomorrow with Eve to look at Uni's. I actually love Brighton its one of the coolest places in Britain. Plus its only<FONT color=#33cc00><STRONG> 4 more days till London</STRONG></FONT>, </P>
+<P>ciao, X </P>"
+"eventtime","2005-11-22 15:27:00"
+"current_moodid","61"
+"url","http://dumb-struck.livejournal.com/49603.html"
+"userid","4305"
+"itemid","192"
+"event","<P>Went to Chequers last night with Eve and Seb, it was really good. Got there a little over seven. Geddy ahd to re-arrange the tables to accomodate us and Emma and Rich. The food was great and everyone was happily merry even though quite a few of us werent drinking. Had 1 JD &amp; Coke followed by quite a few pints of diet coke. The food was absolutely gorgous, which is always good. Me, Eve and Seb played a game called Best and Worst of this year, was pretty random and actually very hard, I was pretty crap at it. Got home at 10, watched the osbournes and then fell asleep.</P>
+<P>Felt wonderfull to have a lie-in today. It was the first I've had in quite a while. Wanted to go to the gym today but woke up this mornign with a banging headache. Got up and dressed and went coat hunting in town which didnt have many possitive results. I think its about time I got a coat seeing as I have no coat or jacket and this winter promises to be the coldest we've had in Britain for over 50years, or something. </P>
+<P>Saw Laura in topashopa before going to work a buying two new CD's Appetite and the White Stripes new one. <FONT color=#3333ff><U>Coheed&nbsp;&amp; Cambria Vs Thrice</U></FONT> is going to Southampton Guildhall in January, i think me and Katey are going to go, Holly and Chaz said they want to come last night, so thats cool. Also going to See<FONT color=#ffcc33> </FONT><FONT color=#ffcc00>Bedouin Soundclash </FONT>and <FONT color=#663366>Trashlight Vision</FONT> soon, yay :) </P>"
+"eventtime","2005-11-19 15:53:00"
+"current_moodid","68"
+"url","http://dumb-struck.livejournal.com/49315.html"
+"userid","4305"
+"itemid","191"
+"event","<P>Things are so <FONT size=4>hetic</FONT> at the moment.</P>
+<P>This week has been so stressful, I feel like I havent stopped. I can't remember when I last updated so I won't fill you in on all of the really shit boring details of my life. Had ALC yesterday afternoon, wasn't as good as last week, the kids were a little less mental than last week but we as mentors didn't get to help an awful lot. </P>
+<P>After that me and Eve caught the bus to Kateys, not only was it ridiculously dark for 5.30pm on a Thursday afternoon but it was also blisteringly cold. Ele and Amz were on the bus. We got to Kateys and watched some TV then I helped her make the curry which was gorgeous but a bit hot for me. After Eastenders I cam home and watched Little Britain and then UK Music Hall of Fame, Missed Slash, :(. Next year I think they should induct the <FONT color=#33ff33>Clash</FONT>. Oh man, I think the Clash are the best band in the world or they come close, definately. </P>
+<P>Had a chat with Miss this morning in registration. I found school so hard jst recently and things are getting me down and stressed out, but there must be a god because we have a well needed development day this monday, Oh Yes. Me and Rob spent the morning doing our general Studies essays which were challenging. </P>
+<P>After break me, jem, jenny and ben went to the Cash and Carry, speant a little over what I thought I was going to but managed to get quite alot of stuff really; so much so that we had to do two trips. I ended up having a really cool chat with Jenny which was cool. </P>
+<P>&nbsp;</P>
+<P>Tonight I'm off to Tom and Ben's birthday shindig at Checkers. Ive never been there before but I have been informed that the food is <U>very</U> good :)</P>
+<P>&nbsp;</P>"
+"eventtime","2005-11-18 16:13:00"
+"current_moodid","28"
+"url","http://dumb-struck.livejournal.com/49146.html"
+"userid","4305"
+"itemid","190"
+"event","<P>A very breif post</P>
+<P>Worked on Saturday and Sunday.</P>
+<P>After work yesterfay I met my mum and brother at the cinema and went to see <STRONG>Wallace and Gromit</STRONG> with all of his freinds, we then went to pizza hut which was mental. </P>
+<P>Had school today,did some oil painting then had Psych with Rich and Poody. Walked home with Rich who was trying to get me to pull him down the road on his skateboard. Gay. Camehoem and made my doctors appointment finally. </P>
+<P>Went to work, the sky was purple, blue and orange when I met Emma, was well pretty.</P>
+<P>Txt Jess to ask if she wanted to go to the gym but she is seeing her nan, man I wish I had Granparrents.</P>
+<P>&nbsp;</P>
+<P>Am really looking forward to London now, Need to talk to <U>Bex</U> about that and find out some train times and stuff. </P>
+<P>X</P>
+<P>&nbsp;</P>"
+"eventtime","2005-11-14 21:29:00"
+"current_moodid","1"
+"url","http://dumb-struck.livejournal.com/48708.html"
+"userid","4305"
+"itemid","189"
+"event","<P>I feel like im somewhat letting the LJ side down, I havent properly updated for a couple of days now, omg.</P>
+<P>Yesterday was a pretty cool day. After school Hannah and Skimp came to school and saw us all. Me, Eve, Jen, Ged, Ben and Tom and some others have been asked to do this ALC mentoring for gifted year 6 children after school on thursday and yesterday was ourr first day. It was all really hetic but still really cool. I enjoyed it much more than I thought I would, even if some of the kids were a little crazy, lol. </P>
+<P>Today has been and will be equally as mad as yesterday, why is it that this time of year there is always so much going on? This morning I bummed about in the commonroom for a while with eve then went in the tuck-shop at lunch, bringing good music to the masses. Then I had my General lesson which I thought was cancelled but wasn't after all. then I had some quick lunch and met Jess for the gym. </P>
+<P>I paid for and sorted my OneCard out and then went for my induction which wasn't as nerve racking as I thought it was going to be, the bloke was actually really nice to me. After that I went to the common room, restocked the fridge, said bye to everyone and came home just in time to watch neighbours. Then came on here to do my LJ. Now I have to get my stuff ready for eve's. Walk to my brother's school to pick him up at 4:30 then come back, meet Eve walk to the bus-station and get the bus to hers. Busy Busy.</P>
+<P>Tonight I'm going to Eve's to get drunk which should be a laugh. And then I have work 1-9 tomorrow and then 10-2 on Sunday. Then after work on Sunday I'm going to the cinema/Pizza Hut for my brothers belated birthday party.</P>
+<P>hope everyone has a good weekend,</P>
+<P>X</P>
+<P>&nbsp;</P>"
+"eventtime","2005-11-11 14:58:00"
+"current_moodid","126"
+"url","http://dumb-struck.livejournal.com/48468.html"
+"userid","4305"
+"itemid","188"
+"event","Well now, I haven't really done anything fantastic, inspiring, cool or good since I last updated so this shall be very short and boring.
+
+Laura passed her test today which is wicked, I'm really happy for her. We have two new sofa's in the common roon much to our enjoyment, even if they are only temporarily there. Lunch was quite cool today. I came home at 1.30 and typed my Personal Statement for my Ucas application and then put it up, I've only got a few bits to do on there now, however its still really stressing me out. The prospect of going to Brighton is beginning to sound more appealing to me than winchester. Dammit. Ohwell, I'll decided soon enough.
+
+I have to get ready for work now, 
+Goodbike, 
+x"
+"eventtime","2005-11-08 15:33:00"
+"current_moodid","88"
+"url","http://dumb-struck.livejournal.com/48343.html"
+"userid","4305"
+"itemid","187"
+"event","<P>I'll try and updte, again... damn you LJ.</P>
+<P>Last night was preety cool, most peoaple were pretty wankered. I had a really good way, the night didnt exceed my expectation but it was still very good. Quite a few pople were downa and stuff which sucked. </P>
+<UL>
+<LI>I drank yesterday: 1 bottle of Lambrini, 2 double straight JDs, 2 double JDs and Coke, 1 pint of Lager, 1 Reef,&nbsp;5 Cola shots, 1 Southern Comfort and Lemonade</LI>
+<LI>Danced quite alot, probably the most memorable songs were All the small things and Boom Shake the room</LI>
+<LI>Went on a manic quest with Rich to find Trudy</LI>
+<LI>Went for walk and chat with Katey outside</LI>
+<LI>Went to the loos wiht Laura and thought I had lost my stole so went backa nd some bird trod on my food and bruised me.</LI>
+<LI>Ben and Jenny officially became a couple</LI>
+<LI>Saw loads of people Ive not seen for agesss.</LI>
+<LI>Swore at a police van rather loudly and some copper got out and had&nbsp;a word of seven with me</LI>
+<LI>Sat and chatted to Rob and some guy that I met at Steve's party on the bus</LI>
+<LI>Got the driver to drop us on my road and me and katey ran back to mine in the rain.</LI>
+<LI>Made friends with this girl called Kim who had the same dress as me, and a foreign girl called Elena.</LI></UL>
+<P>So all in all I had a pretty cool night, it didnt exceed my expectations but still was very cool. Didn't wake up with a hangover this morning. Me and Eve bummed about and watched Igby goes down. Katey had to go to work I hope she had a good day. Lin popped over today to get Eles jacket she left here. </P>
+<P>I intend to spend the evening in front of the Tv, I may even do some psych and art homework, maybe. </P>
+<P><lj-cut text=""The only picture I took""> I only have one photo from last night, my camera is pretty shite...</P>
+<P><IMG style=""WIDTH: 729px; HEIGHT: 329px"" height=606 src=""http://img.photobucket.com/albums/v725/dumb_struck/bays0052.jpg"" width=1286></P>
+<P>Ele, Eve, Amy, Katey, My brother Carl, Jess and Me.</P>
+<P></lj-cut></P>"
+"eventtime","2005-11-05 17:08:00"
+"current_moodid","15"
+"url","http://dumb-struck.livejournal.com/48025.html"
+"userid","4305"
+"itemid","186"
+"event","<P>Hey everyone,</P>
+<P>just a very short post declaring how excited I am about the BAYS ball tonight. I put my nails on last night and they're fab, i ove them. Had a shower and stuff this morning and Katey came round. We went into town and had a rather expensive lunch in Pizza Express. We met Ged and Jen very briefly before going to the shop at Nodehill to buy some cheap and nasty Lambrini wine which we started drinking whilst watching Neighbours. Shes just got the bus home and I'm now going to tidy the house and then run down town and draw out some money for my hairdresser before getting my hair donw and getting ready with Eve. CANT WAIT.</P>
+<P>Hope everyone has a good evening, </P>
+<P>will post some pictures sometime tomorrow, </P>
+<P>X</P>"
+"eventtime","2005-11-04 14:19:00"
+"current_moodid","41"
+"url","http://dumb-struck.livejournal.com/47628.html"
+"userid","4305"
+"itemid","185"
+"event","<P>Yesterday did not feel like halloween at all, that sucks. </P>
+<P>Had english this morning. We have been set an assignment to write two seperate journals entries by the smae person, Im swaying towards two entries from Johnny Rotten maybe one about the San Fransico gig and then maybe one about Sid's death. But im still unsure. After our lesson we sat and had a chat with miss whilst consuming an awful amount of taffy. Went to the library and did some research on Universities, I still don't knwo where I'm going to apply for. I also looked up train fares for both Brighton and London, I wish I was rich right now, :(</P>
+<P>Its Bays ball on Friday, can't wait, loads of people are going, I have to wasted. </P>
+<P>Its 3 years today that my nan died, thats so weird. </P>
+<P>After me and Eve left the library I walked home with my sister and Katey. I have to go to work this afternoon after I've finished reading, Angels and Demons :)</P>
+<P>X</P>
+<P>&nbsp;</P>"
+"eventtime","2005-11-01 12:32:00"
+"current_moodid","61"
+"url","http://dumb-struck.livejournal.com/47506.html"
+"userid","4305"
+"itemid","184"
+"event","<P><FONT size=2>Got back from holiday yesterday.</FONT></P>
+<UL>
+<LI><FONT size=2>Had a really wicked time</FONT></LI>
+<LI><FONT size=2>Didn't like Las Vegas</FONT></LI>
+<LI><FONT size=2>Saw <STRONG>The Beach Boys</STRONG></FONT></LI>
+<LI><FONT size=2>Went trick or treating in Disneys Magic Kingdom</FONT></LI>
+<LI><FONT size=2>Experience my second hurricane (wilma)</FONT></LI>
+<LI><FONT size=2>Got an ear infection and had to be seen by a doctor</FONT></LI>
+<LI><FONT size=2>Speant far too much money</FONT></LI>
+<LI><FONT size=2>Need more sleep</FONT></LI>
+<LI><FONT size=2>LOVE Manhatten</FONT></LI>
+<LI><FONT size=2>Got very very sick of American food and puked an awful lot</FONT></LI></UL>
+<P><FONT size=2>Went to Ele's last night. Best shindig ive been to in a long time, wish I had taken my camera. Couldn't drink due to the medication im on, but didnt mind. Played one of the longest and funniest games of 'Who Would You' with Eve, Seb and Geddy. Ate quite alot of Chili. Ele offered me her bed. Slept in Eles room, Seb and Eve shared the pull-out bed on the floor. Had an absolutely great time was really cool to see everyone again. I went as a pirate, jess was a Warewolf, Eve was the dead of night, Katey was a goth, Seb was Gomez, Ele was a Zombie, Geddy was a Vampire, Amy and Kev were Ganstas. </FONT></P>
+<P><FONT size=2>Sorry its so brief, I'm probably off to bed in a minute, Think everyone has gone to the cinema to see Corpse Bride for Shaz's birthday. </FONT></P>
+<P><FONT size=2>Hope everyone is well, </FONT></P>
+<P><FONT size=2>X </FONT></P>"
+"eventtime","2005-10-30 18:28:00"
+"current_moodid","61"
+"url","http://dumb-struck.livejournal.com/47239.html"
+"userid","4305"
+"itemid","183"
+"event","<P>Hey evryone, this is my last post before I go away.</P>
+<P>yesterday was a really cool day at school. At lunchtime we came to the conclusion that we had all gone mad. We took a few really weird photos lol.Art was cool. I handed some work inot miss but didnt do any in the lesson, yes i am lazy but we did play jenga and explore the dark room so not all time was wasted. There is a really creepy plaster-cast figure in the dark room, scared the shite out of me, katey and ele, sinjin thought it was quite funny.</P>
+<P>When I got home my aunty Sharon and cousin Grace came round for&nbsp;a while as did Katherine. I made some dinner for me and eve but cocked it up as usual. We sat around and watched tele all evening. Was cool to speand some time together as i've not seen an awful lot of her since we've been back at school. </P>
+<P><lj-cut text=""Photos""><BR><U>Lunch:</U></P>
+<P><IMG style=""WIDTH: 685px; HEIGHT: 527px"" height=747 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00097.jpg"" width=943></P>
+<P><IMG style=""WIDTH: 679px; HEIGHT: 673px"" height=1057 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00099.jpg"" width=1305></P>
+<P><IMG style=""WIDTH: 680px; HEIGHT: 721px"" height=1043 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00100.jpg"" width=1248></P>
+<P>Oh my what big eyes you have, ele</P>
+<P><U></U>&nbsp;</P>
+<P><U>Dark Room:</U></P>
+<P><IMG style=""WIDTH: 687px; HEIGHT: 609px"" height=756 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00104.jpg"" width=898></P>
+<P><IMG style=""WIDTH: 688px; HEIGHT: 657px"" height=808 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00105.jpg"" width=962></P>
+<P>&nbsp;</P>
+<P><U>jenga:</U></P>
+<P><IMG style=""WIDTH: 489px; HEIGHT: 836px"" height=1489 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00108.jpg"" width=1035></lj-cut></P>
+<P>Got up this morning. Went to school. Handed in my psychology, had a wicked but sleepy lesson. Forgot to hand in my personal statement. Said bye. Came home. Have to pack the last few essentials.</P>
+<P><FONT color=#ff99ff size=6>Have a good couple of weeks, </FONT></P>
+<P><FONT color=#ff99ff size=6>BYE</FONT></P>
+<P><FONT color=#ff99ff size=6>X</FONT></P>"
+"eventtime","2005-10-13 12:55:00"
+"current_moodid","41"
+"url","http://dumb-struck.livejournal.com/46971.html"
+"userid","4305"
+"itemid","182"
+"event","<P>Heres some random photos i just uploaded from my phone.</P>
+<P>Includes : reading, cute dogs, dead squirrels and random school photos</P>
+<P>&nbsp;</P>
+<P><lj-cut text=""....""> </P>
+<P><FONT size=4><STRONG>Reading Photos:</STRONG></FONT></P>
+<P><IMG style=""WIDTH: 608px; HEIGHT: 637px"" height=903 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00009.jpg"" width=659></P>
+<P>Upside Down Katey and Jess</P>
+<P><IMG style=""WIDTH: 611px; HEIGHT: 573px"" height=788 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00008.jpg"" width=754></P>
+<P>Seb and Eve</P>
+<P><IMG style=""WIDTH: 404px; HEIGHT: 915px"" height=1072 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00010.jpg"" width=659></P>
+<P>Godamn Jay form Bedouin SoundClash</P>
+<P><IMG style=""WIDTH: 417px; HEIGHT: 286px"" height=493 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00011.jpg"" width=568></P>
+<P>The Almighty : Carrot Stone henge</P>
+<P><IMG height=507 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00012.jpg"" width=538></P>
+<P>Rubbish Dave Grohl by Me and Katey</P>
+<P><IMG style=""WIDTH: 677px; HEIGHT: 924px"" height=1162 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00014.jpg"" width=1340></P>
+<P>Lucy and Sadie</P>
+<P><IMG style=""WIDTH: 682px; HEIGHT: 698px"" height=858 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00020.jpg"" width=802></P>
+<P>Eve's Feet</P>
+<P><IMG style=""WIDTH: 730px; HEIGHT: 283px"" height=994 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00021.jpg"" width=1380></P>
+<P>A stegosaurus</P>
+<P><IMG style=""WIDTH: 721px; HEIGHT: 378px"" height=716 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00022.jpg"" width=1031></P>
+<P>Mr. manson</P>
+<P><FONT size=4><STRONG>Photo's From Wales:</STRONG></FONT></P>
+<P><IMG style=""WIDTH: 666px; HEIGHT: 737px"" height=1058 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00028.jpg"" width=1305></P>
+<P>My sister - Coral</P>
+<P><IMG style=""WIDTH: 660px; HEIGHT: 626px"" height=788 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00030.jpg"" width=1019></P>
+<P>My Dad asleep</P>
+<P><IMG style=""WIDTH: 651px; HEIGHT: 770px"" height=1137 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00033.jpg"" width=1445></P>
+<P>A dead squirrel we saw on the beach</P>
+<P><IMG style=""WIDTH: 674px; HEIGHT: 656px"" height=852 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00037.jpg"" width=1076></P>
+<P>Cute dog that sat on me on the train</P>
+<P>&nbsp;</P>
+<P><STRONG><FONT size=4>School Photos:</FONT></STRONG></P>
+<P><IMG style=""WIDTH: 689px; HEIGHT: 797px"" height=1138 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00041.jpg"" width=1396></P>
+<P>Ele and Amy</P>
+<P><IMG src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00048.jpg""></P>
+<P>Me and Tom</P>
+<P><IMG src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00061.jpg""></P>
+<P>Tom Brown</P>
+<P><IMG style=""WIDTH: 689px; HEIGHT: 628px"" height=823 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00063.jpg"" width=991></P>
+<P>Sinjin</P>
+<P><IMG style=""WIDTH: 647px; HEIGHT: 599px"" height=798 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00076.jpg"" width=1086></P>
+<P>Rich</P>
+<P>&nbsp;</P>
+<P><STRONG><FONT size=4>Photos of my Dogs:</FONT></STRONG></P>
+<P><IMG style=""WIDTH: 696px; HEIGHT: 706px"" height=1092 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00083.jpg"" width=1413></P>
+<P>Spooky asleep</P>
+<P><IMG style=""WIDTH: 655px; HEIGHT: 582px"" height=733 src=""http://img.photobucket.com/albums/v725/dumb_struck/DSC00082.jpg"" width=939></P>
+<P>Toby and Mushu.</lj-cut></P>
+<P>&nbsp;</P>"
+"eventtime","2005-10-11 22:45:00"
+"current_moodid","31"
+"url","http://dumb-struck.livejournal.com/46605.html"
+"userid","4305"
+"itemid","181"
+"event","<P>So today has been quite good. Had English first thing and my teacher said that i can e-mail her my work which means that I can get it&nbsp;finished tomorrow with a bit of luck and send it then :) Had a council meeting today before lunch which was quite boring but ohwell. I assumed I was waiting for Laura and so went to the Canteen to get some lunch only to find <EM>she had gone without even speaking to me</EM>. </P>
+<P>In the end I came home at 12:15 with Amy and Toby and we sat around drinking tea, playing with the dogs and watching celebrity fashion disaters all afternoon. Toby actually loves my dogs, its quite funny. I got ready to goto to work and went into town, finally got round to spending my New Look gift voucher from Laura's parents and then got some the flipping contact lenses that I've been after for a month or so now, Bloody Specsavers. Saw Maz in French Franks, popped in for a chat, bless her. </P>
+<P>Work was cool today, I love working with Emma shes really cool. Felt a bit sorry for her today. Managed to scive off for and hour whilst testing the photobooth to see if it was working and then going into town to get a couple of keys cut for Lynda. Hee hee. I'm so glad I don't have to work until the 30th now, :) Eve is staying tomorrow, yowza. </P>
+<P><FONT size=4>1.5 days until my New York &gt; Las vegas &gt; Orlando holiday,</FONT></P>
+<P>Canny Wait, </P>
+<P>X</P>"
+"eventtime","2005-10-11 21:54:00"
+"current_moodid","101"
+"url","http://dumb-struck.livejournal.com/46571.html"
+"userid","4305"
+"itemid","180"
+"event","<P>Yesterday was a cool but tiring day. Had a good morning with Laura sat in the common room. After my General Studies lesson em and Eve walked into town as she wasnt feeling to great. We met Katherine and Eve left to get her bus. Bummed around in town saw Kev and Kieren then went into work to get some flowers. Caught the bus and said goodbye to Katherine when she got off at Golden hill Fort. </P>
+<P>Got off at the co-op bought my lunch. had lunch in the graveyard. Arranged some flowers for my Nan's and my Uncles graves. Then sat down and wrote a few paragraphs for my English Coursework due in on Tuesday, hmm. Was so knackered when I got in that I fell asleep really early. </P>
+<P>Today I got up stupidly early and me and my step-dad caught the ferry over to Southampton and drove to <U>Winchester University</U> for the Open Day there. Went inside and collected a welcome pack before bumping into Katey, Jess and her mum Michelle, which was wicked and it calmed my nerves. After a brief talk we all went on a tour, Jerry suprised me quite alot by asking a few questions to the guide. </P>
+<P>After that we walked over to the other Campus and got some infor on loads/fees/living etc. Winchester is the smallest Uni in the country, I think it'll suite me just fine :) Just got home and cleaned the bathroom and had a butter roll. Need to find the suitcases in my loft cupboard later and then I can start packing for Thursday. </P>
+<P>Had such a bad <STRONG>nightmare</STRONG> on Thursday night. I think could be the only nightmare I've ever had in a room that has a dreamcatcher. I woke up and there was a fire in my room so I ran downstairs but my brother werent in their beds, and from my sisters room I could see my family stood in the garden watching me with a blank faces as the fire spread down my staircase and up from the groundfloor of our house trapping me in my sisters room. <FONT color=#cc33cc>Lovely Jubbely</FONT>. </P>
+<P>Ohwells. I have lots of homework to do so I should probably go,. hope everyone has a good weekend, Hope Eve's feelign a bit better. </P>
+<P>X</P>"
+"eventtime","2005-10-08 16:35:00"
+"current_moodid","43"
+"url","http://dumb-struck.livejournal.com/46323.html"
+"userid","4305"
+"itemid","179"
+"event","<P><STRONG><EM><U>Rich text is back baby :)</U></EM></STRONG></P>
+<P>Finally feeling like Ive got the ball rolling at school as im now certain i'll be able to get the majority of my coursework assignments and start both my art projects before I go away, which will be this time next week :). </P>
+<P>School was okay today, although i've ben sufering from a headache frequently all morning and then again this afternoon. Its still here but has died down a little (not that it matters to much cause im off to bed after ive written this, man i love sleep).&nbsp;Sent some texts to Bex today which was cool, can't wait for November 26th now... Camden here we come. </P>
+<P>Tomorrow after my only lesson of General Studies (politics and media etc) im off to Freshwater to write my travel writting which should be interesting but most likely very very dull and boring.</P>
+<P><U>This weekend</U> = Homework, Winchester Open Day, Work, Church, Psychology coursework at Christine's house. </P>
+<P>&nbsp;</P>"
+"eventtime","2005-10-06 21:33:00"
+"current_moodid","27"
+"url","http://dumb-struck.livejournal.com/45979.html"
+"userid","4305"
+"itemid","178"
+"event","Last night was really cool. We went to Cowes quite early and it was hard to get served anywhere, saw loads and loads of random people I havent seen for ages inc Kev, Tabner, Roba dn ben which was cool. Geddy, Jenn, Chaz and Tom etc left because of the lack of getting served and so Eve, Seb, Katey, Jess, Lucy, Anna and me ended up in the Waterside which is fine by me because I love it in there :) 
+<P>The barmaid was realy cool and served us all. We played some random drinking games and celebrated Eves bday in true style. In total I had 6 singles and 1 double southern comforts and Lemondade, 2 shots and some cider. After Katey had said goodbye we got the bus with the randoms we saw earlier which was really cool. This stoned guy kept taking photos of us all, how very strange. 
+<P>Work was quite swift and very cold today. Katie got to go early. I served Steve and my mum, had a salad for lunch, I think we have Caserole for dinner so its all fine. Still ahvent spoken to my step-dad, wonder if he'll still take me to Winchester on Saturday?
+<P>I still have to :<BR>Write two analysis' for Art<BR>Charge the digi-cam for Art<BR>Go To church<BR>Sort out the travel arrangements for Saturday<BR>Complete my first draft English Coursework
+<P>This week I have to:<BR>Work, Diet, Try and meet up with Katie, Meet Rich again for Psychology and go to Winchester University's open day. 
+<P>hmm, quite possibly the longest most boring journal entry EVER, x 
+<P></P>"
+"eventtime","2005-10-02 17:47:00"
+"current_moodid","84"
+"url","http://dumb-struck.livejournal.com/45575.html"
+"userid","4305"
+"itemid","177"
+"event","As if yesterday couldv'e gotten any worse? ... It did<P>
+
+Completely forgot that I had to goto Rich's to do psychology because I was too rapped up in my own pathetic self-loathing. Got back form Rich's had a massive argument with my Step-Dad and went to bed at 8:00pm. I've also just accidently broken my parents grill, yet another thing that they can blame on me. <P>
+
+
+Luckily I have tonight to look forward to though."
+"eventtime","2005-10-01 14:08:00"
+"current_moodid","92"
+"url","http://dumb-struck.livejournal.com/45316.html"
+"userid","4305"
+"itemid","176"
+"event","<P><FONT size=1>Grr, Just recieved the dress I ordered for the 'Bays Ball' in the post and tried it on and I look so fucking stupid. What a fat fucking Lardo I am. I ahte it when people tell me that Im not fat cause I blatanlty am infact I think I could quite possibly be clinically obese, no wonder nothing ever fits me, goddamit. I really want to loose weight now before November or else I might not go. I know people say that it doesnt matter what you look like on the oustside and all that bullshit but when your my size it bloody does. Oh yeah and my boobs are too pissing big. Im sorry for ranting on here but theres nowhere else to do it.</FONT> What a fucking <STRONG>LOSER</STRONG>. </P>
+<P>Apart from that I've had a pretty good day. Got up late. Helped Eve analyze some photos for her photography project. Went to my lesson after accidently spilling juice all over Rob, oops. Cleaned the Tuck-Shop and had a natter with Jemma. Saw everyone very briefly before walking up the industrial estate with Geddy to collect something from the Royal Mail office and Collect his Youth Mover, twas rather funny, Geddy always manages to make me laugh. Came home and me and my little brother yet again reached level 22 on 'Meercat Mannor' a game on the Animal Planet channel on Sky. Yes Im sad. </P>"
+"eventtime","2005-09-30 16:54:00"
+"current_moodid","2"
+"url","http://dumb-struck.livejournal.com/45248.html"
+"userid","4305"
+"itemid","175"
+"event","<P>Oh today has been immensly boring. School work has started to kick in now and I have quite alot to do tonight, I may do some after I wathc the film that Eve bought me, 'Igby goes down' whcih I used to rave about all the time lol, Cheers mate. Katey cam eround yesterday and we made a Scottish dinner, man that tasted good (not being modest or anything). I've been quite naughty today, I had a Yorkie at lunchtime, great one. Why is dieting so hard?</P>
+<P>I had my hair cut last night :). Yet again I have nothing left to say. Need a cup of tea. </P>"
+"eventtime","2005-09-29 16:32:00"
+"current_moodid","29"
+"url","http://dumb-struck.livejournal.com/45021.html"
+"userid","4305"
+"itemid","174"
+"event","<P>Hey :)</P>
+<P>Yesterday was Eve's and Shoe's Birthday's hope they both had great days!</P>
+<P>Left school pretty early after English and bought Eve's pet fish for her Birthday. I have work this evening then a completely free day tomorrow. Katey is coming over I think. I need to get some haggis. </P>
+<P>Oh how boring I am. </P>"
+"eventtime","2005-09-27 15:03:00"
+"current_moodid","68"
+"url","http://dumb-struck.livejournal.com/44607.html"
+"userid","4305"
+"itemid","173"
+"event","<P>Got up really early this morning. My stepdad gave me a lift to the ferry and came over on the bpat with me to Southampton. He went off to do some shopping whilst I went my different way. I bought quite alot of stuff, just general <EM>stuff</EM> really. I've bought back the majority of my art materials I think, which I'm happy about. I also got some tweedish trousers in TopShop which I've wanted for ages, they were in the sale which is cool., they are slightly tight though so it gives me something to work towards when I get my gym membership and start&nbsp;my new diet this monday.</P>
+<P>Gave Katey a ring when I got in which cheered me up cause I've been in such a weird/shiity/down and anti-social mood this week. Hopefully this week will be a bit better. Little did Katey realise that the reson Im not going to winchester with her is the tour shes booked on is full, My stepdad has offered to come with me though, which may be a bit weird. I'm really glad about the trip to London this November being on a Saturday, means I can go, yay. Hope Eve and Seb are having a good weekend :)</P>
+<P>At the moment I really love : The Cure and Damien Hirst. </P>
+<P>Good Weekend wishes, x </P>"
+"eventtime","2005-09-24 21:13:00"
+"current_moodid","64"
+"url","http://dumb-struck.livejournal.com/44458.html"
+"userid","4305"
+"itemid","172"
+"event","<P>Yesterday I got up very early after a nice evening at Eves, came home got ready and went upto London with my family. We got there at midday and walked to the thatre where we were going to see Mary Poppins. My family were rather annoying, I say rather but I think thats an understatement. We went for a smoothie in 'Costa' in Soho where I saw Makosi from BigBrother, I'm pretty certain of it, thats if shes not been deported from the country already. </P>
+<P>The play was good, I fell asleep for most of the first half but what I saw of the second half was cool. After it had finished we went for lunch in one of my favourite resturants 'The Rainforest Cafe' it wasn't as god as the one in orlando but we did get free desserts because we had to wait a while for our meal :). We got the 8:05pm train back after I met a very nice man in WHSmiths, he never told me his name though. </P>
+<P>Today I went into school, lookign and feeling quite rough. Laura isn't coming to Southampton shopping with me tommorrow anymore, I am going on my own. I am also going to Winchester on my own I think. Had my general studies lesson and ran the tuck-shop at break. Eve gave me some money towards my lunch and Adam gave me a huge hug which hurt. I walked home in the rain and my old friend Katherine came round and we watched some anime. I have to do some art this weekend and pick-up my Goldsworthy book form the PostOffice. </P>
+<P>x</P>
+<P>P.S New layout"
+"eventtime","2005-09-23 19:35:00"
+"current_moodid","27"
+"url","http://dumb-struck.livejournal.com/44206.html"
+"userid","4305"
+"itemid","170"
+"event","<P>Yesterday after a huge hug with Eve, some art on the computers, fidiling with photoshop and then&nbsp;my General lesson I made my way into town and picked up my new glasses and bought Vodka and Jelly. I got Ele's at about 2and we made them and left them to set in the fridge. Katey and Radford joined us midafternoon and we sat around and watched 'Little Britain' for a while before Amy and Jess turned up.</P>
+<P>After a very nice mild chilli we decided to get dressed into our Pj's and let the festivities begin. It was such a cool&nbsp;night, I wish Eve could've come but I understand why she didnt. Hade a really long few chats with Ele's mum Lynn about how she used to know David Bowie, (Thats so Fucking Cool is all I could say) an we ate our very pokey jelly and danced to some phat tunes. </P>
+<P>I ended up crahin in Ele's bed which was comfy. Apparntly I snored quite loud so I apologise if I kept anyone up, ooops. Had some crazy dreams last night, must have been all the shite I ate yesterday and the bottle of Southern Comfort I worked my way through. </P>
+<P>I was going to go to Southamton with Ele and Lynn today but we didnt really leave the house in time so I'm not. Just met Eve in town on her lunch break and we had baguettes. Saw Sean and walked around with him before coming home. I've just looked into buying Alkaline Trio tickets for Southampton but it's on a Tuesday :( hmm they're quite expensive aswell, I'm going to give that one some thought I think. Eve is staying tonight, and I dont really have uch else to say, Happy Saturday, x</P>"
+"eventtime","2005-09-17 13:39:00"
+"current_moodid","130"
+"url","http://dumb-struck.livejournal.com/43670.html"
+"userid","4305"
+"itemid","169"
+"event","PFA+SSBoYXZlIGZpbmFsbHkgZ290IGEgd2VlIGJpdCBvZiB0aW1lIHRvIHNpdCBhbmQgdXBkYXRlIG15IGxpdmUgam91cm5hbCB3aGljaCB5ZXMgSSBkbyBrbm93IGkndmUgYmVjb21lIHZlcnkgc2xhY2sgYXQuIDwvUD4NCjxQPkhhdmUgYSBidXN5IHBhc3QgY291cGxlIG9mIGRheXMuPC9QPg0KPFA+T24gU2F0dXJkYXkgSSB3ZW50IHRvIHRoZSBCZXN0aXZhbCB3aXRoIEV2ZSwgU2ViLCBLYXRleSBhbmQgSmVzcy4gV2UgbWV0IHVwIHdpdGggQW15LCBMYXVyYSBhbmQgRWxlLiBUaGUgbmlnaHQgd2FzIGxvbmcgYW5kIHJhdGhlciBnb29kIGV2ZW4gdGhvdWdoIEkgZGlkbnQgZ2V0IHRvIHNlZSBzb3Vsd2F4LCBidXQgb2h3ZWxscy4gV2UgYWxsIGRyZXNzZWQgdXAgYXMgQ293Z2lybHMgYW5kIHNhbG9vbiBnaXJscyB3aGljaCB3YXMgY29vbC4gPC9QPg0KPFA+SSBhbSBncmFkdWFsbHkgZ2V0dGluZyB1c2VkIHRvIGdvaW5nIGJhY2sgdG8gc2Nob29sLiBJdHMgcmVhbGx5IHdlaXJkIHdpdGhvdXQgdGhlIHllYXIgdGhpcnRlZW5zIGFuZCBtb3N0IG9mIHRoZSB5ZWFyIHR3ZWx2ZXMgYXJlIHN0aWxsIGZyaWdodGVuZWQgb2YgY29taW5nIGludG8gdGhlIGNvbW1vbiByb29tIHdoaWNoIGlzIGR1bWIuIEkgZG9uJ3QgcmVhbGx5IGhhdmUgYW4gYXdmdWwgbG90IGVsc2UgdG8gc2F5IHJlYWxseS4gS2F0aWUgd2Fsa2VkIG1lIGhvbWUgZnJvbSB3b3JrIHdoaWNoIHdhcyByZWFsbHkgbmljZSwgOikuIFRoaW5ncyB3aXRoaW4gbXkgcm9vbSBhcmUgY29taW4gYWxvbmcgbmljZWx5LiBJIGJvdWdodCA0IGJvb2tzIGZvciBteSBFbmdsaXNoIENvdXJzZXdvcmsgdGhpcyB5ZWFyIG9uIEFtYXpvbjo8L1A+DQo8VUw+DQo8TEk+Tm90ZXMgZnJvbSBhIHNtYWxsIElzbGFuZCAtIEJpbGwgQnJ5c29uICg8U1RST05HPjxFTT48VT7CozAuMDEsIDFwKTwvVT48L0VNPjwvU1RST05HPjwvTEk+DQo8TEk+U3VyZmFjaW5nIE1hcmdyZXQgQXR3b29kIDxTVFJPTkc+PEVNPjxVPijCozAuMDEsIDFwKTwvVT48L0VNPjwvU1RST05HPjwvTEk+DQo8TEk+Um9hZCB0byBNYWNhcnRoeSAtIFBldGUgTWFjYXJ0aHkgPFNUUk9ORz48RU0+PFU+KMKjMC4xMCwgMTBwKTwvVT48L0VNPjwvU1RST05HPjwvTEk+DQo8TEk+Tm90ZXMgZm9ybSBhIEJpZyBDb3VudHJ5IC0gQmlsbHkgQnJ5c29uIDxTVFJPTkc+PEVNPjxVPijCozAuMDEsIDFwKTwvVT48L0VNPjwvU1RST05HPjwvTEk+PC9VTD4NCjxQPk1hcnZlbG91cy4gSSBsb3ZlIEFtYXpvbi4gQnV0IGhhdGUgUG9zdGFnZSBhbmQgcGFja2FnaW5nLiBJJ3ZlIGFsc28ganVzdCByZWFsaXNlZCBJIGdldCBwYWlkIG9uIEZyaWRheSwgc28geWF5LjwvUD4NCjxQPlg8L1A+"
+"eventtime","2005-09-13 21:18:00"
+"current_moodid","61"
+"url","http://dumb-struck.livejournal.com/43484.html"
+"userid","4305"

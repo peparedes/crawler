@@ -1,0 +1,661 @@
+"names","values"
+"itemid","127"
+"event","SSBTYWlkIE5vdGhpbmcgQXQgQWxsDQoNCg0K4oCcSGVsbG8/4oCdDQpXaGF04oCZcyBnb2luZyBvbj8NCuKAnEnigJltIHNvIHNvcnJ54oCdDQpZb3XigJlyZSBzb3JyeT8NCuKAnEhl4oCZcyBpbiB0aGVyZSByaWdodCBub3figJ0NCk5vIGhl4oCZcyBub3QNCuKAnFRoZXnigJlsbCBiZSBvdXQgc29vbiB3aXRoIG1vcmUgaW5mb3JtYXRpb27igJ0NCkkga25vdyB3aGF0IGhhcHBlbmVkIA0K4oCcSXQgc2VlbXMgaGUgY29sbGFwc2Vk4oCdDQpIZSB3YXMgYSBncm93biBtYW4NCuKAnEFuZCB5b3VyIGF1bnQgZm91bmQgaGltIG9uIHRoZSBncm91bmTigJ0NCkhl4oCZcyB0aGUgc3Ryb25nZXN0IHBlcnNvbiBpbiB0aGUgd29ybGQgYW5kIHlvdeKAmXJlIHRlbGxpbmcgbWUgaGUgZmVsbA0K4oCcSXQgc2VlbXMgaGlzIGhlYXJ0IGp1c3Qgc3RvcHBlZOKAnQ0KSGVhcnRzIGRvbid0IGp1c3Qgc3RvcA0K4oCcVGhlIGJvZHkgd2lsbCBiZSByZWxlYXNlZCB0b21vcnJvd+KAnQ0KVGhhbmtzLCBidXQgaXTigJlzIG15IGdyYW5kZmF0aGVyIG5vdCBhIGJvZHkNCuKAnEnigJltIHZlcnkgc29ycnkgYWdhaW7igJ0NCkFnYWluLCB3aHkNCg0K4oCcSG93IGFyZSB5b3U/4oCdDQpBcyBnb29kIGFzIHlvdQ0K4oCcSSBjYWxsZWQgeW91IGFzIHNvb24gYXMgSSBjb3VsZOKAnQ0KRGlkIHlvdT8NCuKAnEl0cyBvbiBNb25kYXnigJ0NCkkga25vdw0K4oCcQW5kIHRoZXJl4oCZcyBhIGx1bmNoIGFmdGVyd2FyZHPigJ0NCldobyBjYW4gY29vayBvbiBhIGRheSBsaWtlIHRoYXQ/DQrigJxJ4oCZbSBzdXJlIHlvdXIgZ3JhbmRtYSB3aWxsIG1ha2Ugc29tZSBwaWVz4oCdDQpTaGUgYWx3YXlzIGRvZXMsIEkgaG9wZSB0aGVyZeKAmXMgcmFzcGJlcnJ5DQrigJxEbyB5b3UgaGF2ZSBzb21lIGRyZXNzIHBhbnRzIHRvIHdlYXLigJ0NCk5vLCBub3QgYW55dGhpbmcgYmxhY2sgaXMgZ3JhbmRtYSBnb2luZyB0byBiZSBtYWQgdGhhdCBJ4oCZbSBub3Qgd2VhcmluZyBibGFjaz8NCuKAnFdlbGwgd2hhdGV2ZXIgeW91IGNhbiBmaW5k4oCdDQpJdHMgYnJvd24sIGlzIGJyb3duIG9rYXk/DQrigJxJ4oCZbGwgc2VuZCB5b3UgZGlyZWN0aW9uc+KAnQ0KSSBrbm93IGhvdyB0byBnZXQgdGhlcmUuDQrigJxJcyB5b3VyIGNhciBva2F5IHRvIGRyaXZlP+KAnQ0KSXTigJlsbCBtYWtlIGl0Lg0K4oCcSeKAmW0gc29ycnkgaG9uZXnigJ0NClRoYXTigJlzIHdoYXQgaGUgc2FpZA0KDQrigJxJdCB3YXMgZm9yIHRoZSBiZXN04oCdDQpXYXMgaXQ/DQrigJxJdCB3YXMgaGlzIHRpbWUgdG8gZ2/igJ0NCkkgc2F3IG5vIHRpY2tpbmcgY2xvY2sNCuKAnEhvc3RpbGl0eSB3b250IGdldCB5b3UgdGhyb3VnaCB0aGlz4oCdDQpOb3RoaW5nIHdpbGwNCuKAnEhlIGxvdmVkIHlvdeKAnQ0KSSBsb3ZlZCBoaW0NCuKAnEkgbG92ZSB5b3XigJ0NCkRvIHlvdT8NCuKAnEl0IGhhcHBlbnMgdG8gZXZlcnlvbmXigJ0NCkkgZG9lc27igJl0IGhhdmUgdG8uIE5vdCB3aGVuIGl04oCZcyBub3QgdGltZS4NCuKAnEl0IHdhcyB0aW1l4oCdDQpJIGhlYXJkIG5vIGJlbGxzDQrigJxXaGVuIGl04oCZcyB5b3VyIHRpbWUgeW914oCZbGwgdW5kZXJzdGFuZOKAnQ0KSSBob3BlIEkgZG9uJ3Qga25vdyB3aGVuIGl04oCZcyBteSB0aW1lLiANCuKAnFlvdSB3aWxs4oCdDQpJIGRvbid0IHdhbnQgdG8gZmVlbCBpdC4NCuKAnEhlIGRpZG7igJl04oCdDQpZb3UgZG9uJ3Qga25vdyB0aGF0DQrigJxJIGRv4oCdDQpIZSBmZWx0IG5vdGhpbmc/DQrigJxOb3QgbXVjaCBvZiBhbnl0aGluZ+KAnQ0KQnV0IHNvbWV0aGluZz8gDQrigJxNYXliZeKAnQ0KV2hhdCBkaWQgaGUgZmVlbD8NCuKAnEl0IGNhbuKAmXQgYmUgZGVzY3JpYmVk4oCdDQpJcyBoZSB0aGVyZT8NCuKAnFllc+KAnQ=="
+"eventtime","2006-03-31 21:08:00"
+"current_moodid","9"
+"url","http://bruisedwithlove.livejournal.com/32571.html"
+"userid","2243"
+"itemid","126"
+"event","So, week #...whatever. so here's an update:
+
+Classes-
+
+<underline> Astronomy </underline>
+just took a quiz in there that I didnt know about. Im callin a C on it. I thought itd be a hard class but it just takes a lot of your time to do it. Like, looking at the moon and shit. Its alright though, and Im getting a decent grade and meeting new people. I sit at a table with all guys. All stoners I mean. Theyre just like that denis leary sketch, they talk about the thousands of things they can turn into a bong. I just sit and laugh and they dont think Im innocent at all. We bond over tattoos, piercings and trying to find your way around Champaign while high. Again, I just sit and laugh. Theyre nice people and we usually split off into partners and my partner is really nice and wears some cool but predictable band shirts. Nice nonetheless. I have to go star observing and shit soon. Its like 20 percent of my grade. Ill wait til it warms up.
+
+<underline> Photo </underline>
+Fuck, this is what I want to do for a living. For the rest of my life I want to be a fucking photographer. And im losing faith. I know Im not good enough yet, I just need more time to practice. I need money to buy film and paper and supplies and guh. The only thing setting me back from being a photographer is money and time. hmm. Pink Floyd. I am underappreciated in photo class. I feel my work is decent and people have nothing to say about my pictures literally. I need to do something to wow them. I need to do something to wow myself. The advice Ive gotten about my problem from my mother is ""well maybe you just shouldnt be a photographer, your father was great at it, maybe you shoudldnt try to be like him"" and my fathers is ""look at the pictures ive done, a good picture looks like that, I could have made thousands of dollars being a photographer."" whatever. I just want to be one. money and time being no issue on whether I am good enough for you. despite getting no feed back from the people in my class, Ive made a pretty good friendship with some of them. Ive already known sophie and phil, but i met a hair stylist Taylor who dresses nicely and always has something funny to say. Hes nice to me sometimes which makes me happy. And then some Emo Kid Ben who probably wishes I didnt talk to him, so Ive stopped. Even though I like his music too.
+
+<underline> english </underline>
+my teacher is a stoner. I could end it there. All I do in that class is argue with him. and he never argues back, just agrees with everyone. theres this kid in the class that is straight up stupid and doesnt know how to shut his mouth and everyone hates him. he says meaningless things. Theres also a kid in my class that I sit by that I seem to get along with. Not my cup of tea though.
+
+<underline> Math </underline>
+waste of time. I cant believe I was placed in that class. fuck that.
+
+Work-
+
+I swear I tell myself Im quitting every day. but I some how get talked out of it. bribed with food and money I spose. and fear that I wont have any money. I closed the store by myself two nights ago. Big step for me. even though kristie molly and I made the store look better than it ever has been with us working, they didnt say anything. not even a ""thanks for taking my shift"" or ""hey, i can see the floor, its nice in here"" fuck that. I feel very underappreciated there too. I need to find a new job.
+
+Friends-
+
+lost all the old friends from high school. I see amandine and mat regularly. but thats it. No one fucking calls. I could be dead for all they know. Guess now that this post is out theyll be comforted to know Im not. fuck that.
+
+Relationships-
+none new. I mean, I have small likes and crushes. but nothing will come of them due to them ya know, not liking me back. or never being able to hang out due to distance and jobs and time and yeah, money. But Im kind of liking where Im at now anyway. I like the familiar strong arms that hold me. and Im more in love today than yesterday or even 20 minutes ago.
+
+Money-
+
+what money? I have none. I barely make enough to eat on a daily basis. I need money to buy film and paper. Ill starve if I could make a killer print. Im living off expired milk and stale cereal. I occasionally rake up enough money to get some Jimmy Johns once in awhile. Or to buy some nice things for people. I take my cans to cash them in for coins, and then cash in my coins for money to fill up my car to drive to school and work. 
+
+Health-
+
+<underline> mental </underline>
+deteriorating. quickly. 
+
+<underline> physical </underline>
+getting better. Im working out and due to lack of funds, eating less and healthier. fuck, I drink milk now. cant kick the soda though. but Im working on it. Im afraid of picking up habits that will hurt the above category.
+
+Prom-
+
+am I going? no group has asked me or intend on asking me. despite the big plans I think I have, none of it will happen if I go alone.
+
+thats it."
+"eventtime","2006-02-24 10:16:00"
+"current_moodid","31"
+"url","http://bruisedwithlove.livejournal.com/32300.html"
+"userid","2243"
+"itemid","125"
+"event","Thats it. I, today, will set out for the career of photographer and nothing else. Nothing. Else. Thats what I want to do. for the rest of my life. 
+
+Oh, and this is for Michael Pitt. Youre not him. Some dont let life immitate art, or anyone elses life. So change your shirt and make another movie."
+"eventtime","2006-02-02 13:54:00"
+"current_moodid","68"
+"url","http://bruisedwithlove.livejournal.com/32119.html"
+"userid","2243"
+"itemid","124"
+"event","***Ground Rules: The first player of this ""game"" starts with the topic
+""5 weird habits of yours"" and people who get tagged need to write an LJ
+entry about their 5 quirky habits as well as state this rule clearly.
+In the end, you need to choose the next 5 people to be tagged and list
+their names.***
+
+1. I have to be touching my keys when i close my car door. and constantly check back to make sure they are in my purse, pocket, etc, throughout the time i am not in my car
+
+2. I use hand sanitizer an average of 15 times an hour. I also try and wash my hands atleast once an hour
+
+3. I say Im sorry. a lot.
+
+4. i do repetative things when Im nervous or scared (i.e. play with the locks on my car, click a pen, open and close my cell phone, etc)
+
+5. I bite my bottom lip a lot
+
+i dont know who all has already done this so im not tagging anyone"
+"eventtime","2006-01-29 18:59:00"
+"current_moodid","31"
+"url","http://bruisedwithlove.livejournal.com/31869.html"
+"userid","2243"
+"itemid","123"
+"event","Dear Roland Fucking Realty,
+
+get the fuck out of my parking space or Ill slice your tires. No really. Im paying you 80 bucks a month for those. so get the fuck out. 
+
+love,
+a dissatisfied tenant. you fuck ass."
+"eventtime","2006-01-26 15:26:00"
+"current_moodid","2"
+"url","http://bruisedwithlove.livejournal.com/31711.html"
+"userid","2243"
+"itemid","122"
+"event","My mother leaves me tomorrow.
+
+My ocd has me worried, though everyone says im exagerating. But today before I noticed it, it took 5 minutes for me to lock the door. I count. non stop. what used to be ideas and thoughts and music is now one two three four five. one two three four five. its not all the time. but im afraid that with mom gone itll get worse. Im determined to over come it. 
+
+i hate commercials that play twice in a row. 
+
+Dont worry. i love you."
+"eventtime","2006-01-21 21:38:00"
+"current_moodid","46"
+"url","http://bruisedwithlove.livejournal.com/31460.html"
+"userid","2243"
+"itemid","121"
+"event","fuck how long has it been. just writing this is making me sick. Im not fond of you lj. not. fond.
+
+started college. and despite my constant if not continuous paniced rushed dizzy feeling it hasnt been too bad. I see no one that I know except Cody on Monday Wednesdays and fridays. on top of doing college work I still have to deal with high school shit that didnt get finished because the school administrators suck. ass. you think after years and years of doing this theyd get it right. now i have to come in between my classes tomorrow to have everyone and their mom sign this paper. even my mom. not to mention I have to come in for a pe final and a fucking english letter. speaking of. i need to write that paper thats 20 % of my fucking grade. fuck that ya know? 
+
+Everyone's leaving. my mom leaves in a week and a half. neal went back to school. ryan left. my father's been gone. I have an extra room. for free. if you need it. and id be willing to give it to anyone. I think I can talk Ryan Corson into staying with me. after he turns 18. i mean..its free. if not ill just...let it be empty for neal or something. 
+
+Im trying hard to not be so passive and to be more out going. 
+
+This college thing is getting tiring already. Maybe when stress goes away. I AM looking forward to photo class though. Its relaxed enough that I can finally have a lot of freedom in there. My english teacher is nice. A tired rock listening to pot smoking english teacher. My favorite. I wish I had something to show everyone who I am. Like when people see me its like ""Fuck. look at her"" and know me in a second and then maybe id have more friends and people wouldnt keep leaving. 
+
+You wanna know a fucking secret. Im missing you. And it hurts.
+
+3 days and 15 weeks to go. may 4th is my last day not including finals. fuck i cant wait til spring. I heard the song Jet Airliner today. and it reminded me of the first spring where I felt free. And where I felt happy. And it hurt because im in the middle of fucking winter where there isnt a sun to speak of and I have to wear coats and shoes and I dont even have a fucking back yard so what does it matter. Theres no grass to sink my toes into. No sun room to warm in. Fuck I want to go home."
+"eventtime","2006-01-10 17:29:00"
+"current_moodid","17"
+"url","http://bruisedwithlove.livejournal.com/30992.html"
+"userid","2243"
+"itemid","119"
+"event","I am nothing but a burden to anyone I encounter. My family reminds me every day that I am costing them hundreds because I wont move. and how they dont have enough money to buy things for themselves or for eachother and how this christmas they could only spend 20 dollars on eachother. well fuck, im trying to make it right. I bought you hundreds of dollars for christmas to make up for it. I come hundreds of miles away from my comfort zone to see you. I do things you want to do and dont complain. I wake up early. I sit through your arguments and I dont cry. so, when say I dont want to come down, dont be surprised. 
+
+I miss ryan so much and i never feel good enough."
+"eventtime","2005-12-27 11:16:00"
+"current_moodid","9"
+"url","http://bruisedwithlove.livejournal.com/30710.html"
+"userid","2243"
+"itemid","118"
+"event","sigh."
+"eventtime","2005-12-24 21:14:00"
+"current_moodid","22"
+"url","http://bruisedwithlove.livejournal.com/30214.html"
+"userid","2243"
+"itemid","117"
+"event","TO:        You
+
+FROM:      Me
+
+SUBJECT:   Forgiveness
+
+
+I just want you to know that today I have finally completely forgiven you. And will no longer hold it over your head. I understand why you did it and because of that I have forgiven it. Sorry for the wait. hope you get this by the time I wake you up. I love you. 
+
+Emily."
+"eventtime","2005-12-12 14:37:00"
+"url","http://bruisedwithlove.livejournal.com/30015.html"
+"userid","2243"
+"itemid","116"
+"event","nothing like waking up in an empty house...thats not yours.
+
+thanks."
+"eventtime","2005-12-11 08:29:00"
+"current_moodid","2"
+"url","http://bruisedwithlove.livejournal.com/29867.html"
+"userid","2243"
+"itemid","115"
+"event","there's a difference between justice and revenge. now just to remember.
+
+and i must now write a paper about it. and how hamlet was a fuck for not caring about his women. and for making his girl kill herself because he said he didnt love her. 
+
+sigh.
+
+best friend means you get what you deserve."
+"eventtime","2005-12-07 21:41:00"
+"current_moodid","55"
+"url","http://bruisedwithlove.livejournal.com/29466.html"
+"userid","2243"
+"itemid","114"
+"event","The pronoun game (the reason many teenagers become heartbroken and retreat into a long demise of their futures.)
+
+She dont think you love her the same
+she thinks you love her more
+With her tight pants and curls
+I comfort her crying eyes
+on a pillow I shared a sinful lie
+She screams to be bold
+to be blunt to be a knife
+but shes got wings on each word
+her voice vibrates off her winter lips
+and brings the air a warmth
+deep pockets with deep meaning
+Your hands pushing against her waist
+are you gonna take whats yours"
+"eventtime","2005-12-04 22:15:00"
+"current_moodid","86"
+"url","http://bruisedwithlove.livejournal.com/29272.html"
+"userid","2243"
+"itemid","113"
+"event","""the most remarkable thing about you standing in the doorway is that it's you and that you're standing in the doorway""
+
+I fucking hate how im easily guilted. And you know what happens because of it? I work on my fucking day off. My one weekend day off and I give it away because I feel sorry. fucking bitches. I worked like I was on crack today. I pulled more weight than anyone and all I get is shit and extra hours because my friends like to get blinding drunk. 
+
+I have 2/3 of my christmas shopping done. Im certain what Ive gotten for people no one will like. or care about. 
+
+fucking. a. 
+
+if you really wanted to mess me up you should have gotten to me earlier. 
+
+Id like to think that since I was 14 times have changed.
+
+I want to cut off all connections to my family. My older brother did it. And he sees them every christmas, the occasional valentines day, and thats it. and you know what? hes happy. he has no guilt in his life. He has no family obligations other than the mothers day phone call and the thank you for the nice but tastles thats the worse fucking sweater Ive ever seen its a cosby sweater a cosby sweater that my mother bought him. I want to truely live in this shit hole and cry. And not feel like I should keep it down when I punch our unstable metal door. Or when I scream because Im tired and sick of it all. Or feel bad for not buying milk or coming home with food that someone else should have bought. 
+
+How many reincarnations have there been of the band name Belle and Sebastian?
+
+Every life has a theme. and every fucking moment you live should be just like the one a year ago and the one before that and your life before this one and the one after and it will feel the same because it is a scrambled version of it. 
+
+Im. fucking content with doing nothing with my life. Nothing. Dont fucking say yeah right because I will work a fucking meaningless job for the rest of my life because I want to and dont care. nothing will change in anyones life or mine if I go to college or be an english teacher or an art teacher or a fucking writer or a fucking photographer. Nothing will change be different better worse. It wont. Matter. 
+
+she liked me she liked me she liked me or atleast I think she did.
+
+I worry about my abilities as a lover.
+
+I bat my eyes and pout my lips yet get no where with any ambition I have. 
+
+IM the one tripping over the curb in the rain. 
+
+I dont want to move again. I dont want to look at another box or packing tape or fuck. Ive lost so much shit with the move. I cant find anything Im missing. I realized I had too many clothes after I had to go out and buy more hangers. I have so many shirts that I dont give a shit about but I cant find a necklace my grandparents gave me when I was three. and it bothers me. I dont need that necklace. but Id like to be happy knowing it was in a place I could find it if I did need it. Thats my life in a nut shell. 
+
+it was contrary to the whole spirit of our relationship.
+
+Im the underappreciated. 
+
+so fuck you for saying I should go out of my way to care. fuck. you. 
+
+That sounds..
+...comforting"
+"eventtime","2005-11-26 19:33:00"
+"current_moodid","9"
+"url","http://bruisedwithlove.livejournal.com/29082.html"
+"userid","2243"
+"itemid","112"
+"event","when was the last day of my childhood? When my father left? when I turned 18? when I saw my mother cry? when I learned to drive? when you kissed me? when you touched me? when you met me? when I told someone I loved them and meant it in the most painful way? when I saw someone close to death? when I started my period? When I started wearing bigger close? When I got a credit card? When I got a job? When I paid taxes? When, Because Id like to know exactly what minute of my exhisting life I stopped being a child."
+"eventtime","2005-11-25 13:20:00"
+"current_moodid","84"
+"url","http://bruisedwithlove.livejournal.com/28770.html"
+"userid","2243"
+"itemid","111"
+"event","There is a difference between being gone and being away."
+"eventtime","2005-11-23 09:31:00"
+"url","http://bruisedwithlove.livejournal.com/28490.html"
+"userid","2243"
+"itemid","110"
+"event","So I must ask,
+
+Is it better for one to love many people evenly but minimal, or love a select few or one, more and with all your heart?
+
+My father is upset that I dont take off work everytime he comes to town, yet he couldnt come home for my birthday because he didnt want to take off work. Are either of us in the right?
+
+Im not looking forward to thanksgiving. I mean, we're eating unhomemade food for the first time. gravy out of a can and biscuits from a can and cranberry sauce from a can...well we always eat cranberry sauce out of a can cuz its good. But Im not looking forward to sitting at a table that sits 2 and up against the wall. I really just want my family to move out and leave me alone. AndI know Ill miss them when theyre gone but not as much as I am happy that theyre 9 hours away. I like my space. I dont like my mother waking me up before my alarm even though Ive woken up to my alarm every single time I set it. I dont like that I cant take a shower without my mom bothering me or watching a movie without her knocking on my door to tell me some dumbass thing that I dont even need to know about. Im selfrelient. Yes. Jim Morrison would have fallen in love with me at that moment. I believe.
+
+So we were pawned off into the computer lab because some teachers dont know how to show up for school. Im very bored. very. dispondant. Im back to feeling like sleeping. Im very sure that in another life I was a bear. a cute bear. Because I always feel like hybernating about now. 
+
+I also commonly feel like hiding anytime anything i dont like comes up. I dont want to see things I dont want to see, I dont want to feel things I dont want to feel, or remember things, or be things or do things. I get this sinking feeling, this constricting pain in my chest anytime I think about most anything.
+
+Did you know that anything can spark a memory for me? Do you know how hard that is to live with. I cant smell pizza without thinking about something that happened when I was a kid. It sucks. I was day dreaming in english and lehr said the word ""Whom"" and I thought of riding the bus in seattle and how I thought of when to use the word Whom.
+
+I really like hanging out with dillon and ryan. Its so much fun."
+"eventtime","2005-11-23 09:11:00"
+"current_moodid","10"
+"url","http://bruisedwithlove.livejournal.com/28197.html"
+"userid","2243"
+"itemid","109"
+"event","MEN IN SUITS WITH CAMERAS HOLDING LEGAL DOCUMENTS AND STOLEN PENS FROM A LOCAL BANK LINING UP ACROSS THE STREET AWAY FROM THE CRACKS IN THE SIDEWALK CIRCLING THE BUILDING LIKE LIONS ON A GAZELL AND BYSTANDERS WHO START TO GATHER AND COVER THEIR EYES TRYING NOT TO LOOK AWAY TAKE TURNS GASPING AND LYING LOUDER THAN THE TIRES UNDER THE OVER PRICED CARS WITH CHILDREN INSIDE NOSES PRESSED TO THE GLASS SMUDGING THE HARD WORK OF THE UNDER APPRECIATED AND UNDER THE TABLE PAID TO LIVE IN RUN DOWN HOUSING ON THE OTHER SIDE OF TOWN AWAY FROM THE SHOPPING MALLS AND GOVERNMENT FUNDING OR STABLE LIVING CONDITIONS AND PAYCHECKS AND FOOTING.
+
+OR
+
+ONE LINE TO MAKE YOU SYMPATHIZE WITH THE LATTER:"
+"eventtime","2005-11-21 21:40:00"
+"url","http://bruisedwithlove.livejournal.com/27962.html"
+"userid","2243"
+"itemid","108"
+"event","THE TREE BRANCHES LIKE THE LEGS OF A LOVER LONG GONE STRETCH TOWARD YOUR CRACKING WINDOW THEYRE BEGGING TO BE SAVED FROM THE MONTHS COMING THEY KNOW THEIR FATE BUT THEYVE GOT ONE OF A PHOENIX AND WE COULD ALL LEARN A LESSON FROM THEM AND IF I FEARED CHANGE LIKE YOU ID NEVER FIND MY SHOES BUT IF I HAD THE PATIENCE OF YOU I WOULDNT BE MISSING YOUR BAREFEET IVE GOT THE ENVY YOUVE GOT THE HANDS OF A CLOCK FORGIVENESS IS TRIVIAL AND YOUVE GOT YOUR TONGUE READY SO CALL ON TOMORROW FOR SECOND CHANCES BECAUSE ILL BE NEEDING MORE THAN ONE TO GET THIS RIGHT."
+"eventtime","2005-11-21 21:36:00"
+"url","http://bruisedwithlove.livejournal.com/27737.html"
+"userid","2243"
+"itemid","107"
+"event","HOW TO GAIN UNDERSTANDING WITHOUT LOSING SELF PRIDE OR HOW TO BE LOVED AND HOW TO DECEIVE WITHOUT BEING CAUGHT OT HOW NOT TO CARE AND STILL BE ATTRACTIVE TO THOSE WHO WILL FALL INTO THIS PATTERN THAT WILL BECOME LONELY HOUSEWIVES WITH CHILDREN LEARNING HOW TO SHIELD THEMSELVES WHEN ANYTHING COMES THEIR WAY BECAUSE THEIR MOTHER SUBTLY TELLS THEM HOW THEIR FATHERS GOT RAGE TO FEAR OR A GAMBLING PROBLEM OR A GIRLFRIEND 10 YRS YOUNGER IN UPSTATE NEW YORK WHOSE MOTHER TAUGHT HER HOW TO MANIPULATE THE WEALTHY BUT BE SENSATIVE ENOUGH TO STILL FEEL GUILT FOR THOSE SHE IS TAKING THE MONEY FROM SO SHE CAN BUY PILLS TO MAKE HER FEEL THE LOVE THAT THE LATTER GIVES TO THE DYING MARRIAGE ABD TGET SHARE HOPE THAT ITLL GET BETTER JUST AS SOON AS THEY BREAK SKIN."
+"eventtime","2005-11-21 21:31:00"
+"url","http://bruisedwithlove.livejournal.com/27459.html"
+"userid","2243"
+"itemid","105"
+"event","Like I have a fuckig right to get on here and complain.
+
+Dear kylie, I hope you liked what I wrote for you. I thought of you and it all came to me. I really hope you liked it. and if not. thats okay too.
+
+Im glad I get the whole weekend off. 
+
+Im glad Ive been hanging out with dillon a lot. because he keeps me from being bored. oh cookie cakes."
+"eventtime","2005-11-18 20:33:00"
+"url","http://bruisedwithlove.livejournal.com/27100.html"
+"userid","2243"
+"itemid","104"
+"event","nothin like listening to fleetwood mac on vinyl and feeling uncontrollably alone.
+
+Im afraid to call to tell you what I did
+and youre afraid to answer your phone
+I know youve got sometime between jobs 
+To make confessions
+if youre in your booth Ill meet you there
+and through the wicker grate
+Ill tell you of my night
+the roads I took and the things I felt
+and youll act anonymous
+and shake your hidden head
+I dont think apologies travel for miles
+Or make up for lost time
+So use the words I used once before
+to comfort you through the ones Im saying now
+and just hope this is all worth remembering someday."
+"eventtime","2005-11-12 16:42:00"
+"current_moodid","101"
+"url","http://bruisedwithlove.livejournal.com/26691.html"
+"userid","2243"
+"itemid","103"
+"event","And youd think Id feel better for atleast a week."
+"eventtime","2005-11-09 07:19:00"
+"current_moodid","129"
+"url","http://bruisedwithlove.livejournal.com/26464.html"
+"userid","2243"
+"itemid","102"
+"event","Why is it everytime I lose all hope in everything in my life, things start to turn around?
+My mother bought food
+Im happy
+I get paid
+People love me
+I love people again
+journey is coming to town.
+
+
+why.
+
+Today th eguy from slingshot 57 stopped me in the hall to say hi. So we talked on the stairs for a bit but I had to pee so I couldnt talk long. 
+
+Now I just need a nap and my life would be wonderful."
+"eventtime","2005-11-08 14:47:00"
+"current_moodid","64"
+"url","http://bruisedwithlove.livejournal.com/26257.html"
+"userid","2243"
+"itemid","101"
+"event","this is an email I received from my mother today:
+
+""Emily, way to go on grades. If you check your checking account on-line, you find a surprise. Yipppeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee. CELEBRATE, CELEBRATE, CELEBRATE
+
+Love you no matter what grades you get
+Love you just because you are you.
+
+MOM :} ""
+
+I must make note that, every other word was in a different color font. 
+
+My mother is hilarious.
+
+oh, and Im not going to college."
+"eventtime","2005-11-08 14:34:00"
+"current_moodid","113"
+"url","http://bruisedwithlove.livejournal.com/26009.html"
+"userid","2243"
+"itemid","100"
+"event","fuck."
+"eventtime","2005-11-06 16:36:00"
+"current_moodid","129"
+"url","http://bruisedwithlove.livejournal.com/25746.html"
+"userid","2243"
+"itemid","99"
+"event","I need you right now. and Ive lost my phone. Something isnt right. I swear Ive been lost for hours."
+"eventtime","2005-11-04 23:50:00"
+"url","http://bruisedwithlove.livejournal.com/25585.html"
+"userid","2243"
+"itemid","98"
+"event","People make fun of me because I feel everything harder stronger longer faster louder... just once I want someone to get it. to feel it too. feel that when I say something I mean it with all I got and I dont hold back. I feel it I feel it all the way. I guess thats why I come home every night with chest pains and exhaustion in my voice. ""but I think more than anything I miss your silhouette against the door frame so familiar your hands on the knob like they were on the steering wheel not more than 2 weeks ago when you were out of town with a promise."""
+"eventtime","2005-11-03 20:01:00"
+"current_moodid","30"
+"url","http://bruisedwithlove.livejournal.com/25125.html"
+"userid","2243"
+"itemid","97"
+"event","He grabbed me and said ""hold on""
+I dont think I can
+Ive walked for miles to see you
+and my hands have bribed their share of men
+I dont think I can
+
+Its the first thing Ive written in months.
+
+I think its the leak that started the flood."
+"eventtime","2005-11-01 16:58:00"
+"url","http://bruisedwithlove.livejournal.com/24966.html"
+"userid","2243"
+"itemid","96"
+"event","Someone told me yesterday that short term memory lasts for 20 seconds. and I cried."
+"eventtime","2005-10-29 17:59:00"
+"url","http://bruisedwithlove.livejournal.com/24616.html"
+"userid","2243"
+"itemid","95"
+"event","This cold weather is not gonna work for me. I have 4 blankets and jim morrison on top of me and I still am cold. I wear two pairs of socks. Im start...
+
+Yeah Im gonna end mid sentence cuz ryan is the greatest person Ive ever known. and I love him with all my chocolate filled heart. 
+
+and cuz of him im far too happy to complain about anything."
+"eventtime","2005-10-25 19:09:00"
+"current_moodid","98"
+"url","http://bruisedwithlove.livejournal.com/24413.html"
+"userid","2243"
+"itemid","94"
+"event","So...to submit or not to submit. That is the question of the moment. Should I pretend that I know how to write again and turn things in to the lit mag. or sit on them like..uh,...a duck I guess is the phrase. I feel like somewhere in the past year and a half I lost something. Like my legs or something and I have to learn to walk again or broke my hands and must learn how to write..I guess the latter is a better example. I mean, I sit down to write a paper and make it all whispy and poetic and then Im like...oh yeah...I didnt even read the book to write the paper, this nonesense about what not doesnt even have to do with the book. So I sit infront of my pile of lined paper with a doctors pen in hand and what do I get? OTHER PEOPLES WORDS. suuure, conor oberst has a nice set of words, and same with the rocket summer, fuck, even steven jenkins. But do I? no. 
+
+So again the question.
+
+Id like to think at one time I was great."
+"eventtime","2005-10-24 21:08:00"
+"current_moodid","56"
+"url","http://bruisedwithlove.livejournal.com/24162.html"
+"userid","2243"
+"itemid","93"
+"event","And you wonder if you have enough
+to make the boy you want
+love you."
+"eventtime","2005-10-20 14:27:00"
+"url","http://bruisedwithlove.livejournal.com/23898.html"
+"userid","2243"
+"itemid","92"
+"event","Last night is not something I want to relive. but I had some good pancakes.
+
+If Im breaking down and its only October where just the TOPS of the trees are changing, how am I going to get through this winter? Im very scared. 
+
+I told someone this morning I wanted to be like Brian Wilson. and be accepted for it. Im a sucker for a comfy bed.
+
+Mom: No one else has any objections emily, Just you!
+
+Yeah well mom, no one else has something to lose. 
+
+I dont care how you feel, dont tell me you love me if you dont. 
+
+I want to be held like I want to happy."
+"eventtime","2005-10-15 18:51:00"
+"current_moodid","22"
+"url","http://bruisedwithlove.livejournal.com/23760.html"
+"userid","2243"
+"itemid","91"
+"event","With her occasional heart break in her trembling hands I feel sorry for her lonely bed and the flickering street light outside her open window but with every thing moving in my body I wish I was hanging from the chipping white wood of her house to make sure she didnt cry herself to sleep but inevitability rings louder than the screeching tires of an accident down the street.
+
+I dont like feeling this way. 
+
+Treat me better."
+"eventtime","2005-10-13 21:57:00"
+"current_moodid","38"
+"url","http://bruisedwithlove.livejournal.com/23351.html"
+"userid","2243"
+"itemid","90"
+"event","men in suits with cameras and legal documents for sale.
+
+I have a feeling I will be counting down for the rest of my life. Counting down hours minutes seconds days years tracks shots drinks tears sit coms stop lights alarms brake lights power bars soda cans beer bottles cigarretts kisses fucks pairs of shoes matches pay checks bank stubs lies stories moments memories slushies..
+
+I think one day I woke up and my whole life was a memory. And I stand by it. I dont feel that it happened but its in a crease in my brain.
+
+My love is like a cuban plane flying from havanna up the florida coast to the plains made by the soviets"
+"eventtime","2005-10-13 00:32:00"
+"current_moodid","9"
+"url","http://bruisedwithlove.livejournal.com/23276.html"
+"userid","2243"
+"itemid","89"
+"event","Ive spent the last 4 or so hours trying to convince myself Im not as alone as I feel.
+
+After seeing Dillon, I really have realized that, not even in desperate occasions, I will forgive someone. even though they may have hurt me or made me want to punch them in the face. 
+
+""I'm the girl who realizes that you say things but dont always mean them...""
+
+Kissing just for practice"
+"eventtime","2005-10-10 20:35:00"
+"current_moodid","22"
+"url","http://bruisedwithlove.livejournal.com/22925.html"
+"userid","2243"
+"itemid","88"
+"event","EEEEEE. Why do you have to be someone I want to be dating?!
+
+
+<img src=""http://server2.uploadit.org/files/emptyphonelines-jennywasafriendofmine.JPG"" alt=""title or description"" />"
+"eventtime","2005-10-07 20:46:00"
+"url","http://bruisedwithlove.livejournal.com/22685.html"
+"userid","2243"
+"itemid","87"
+"event","Youre the first thing I remember loving in life and the last thing Ive cried this hard about."
+"eventtime","2005-09-27 18:09:00"
+"current_moodid","9"
+"url","http://bruisedwithlove.livejournal.com/22333.html"
+"userid","2243"
+"itemid","86"
+"event","your friendship is as fake as the girls you fuck.
+
+Im done pretending Im everyones friend when you treat me like shit.
+Its a waste of my time.
+
+so come on. lets get on a payment plan."
+"eventtime","2005-09-23 14:34:00"
+"current_moodid","31"
+"url","http://bruisedwithlove.livejournal.com/22164.html"
+"userid","2243"
+"itemid","85"
+"event","VGhlIGRvY3RvciBzYWlkIGhlIGNvdWxkbnQgZG8gYW55dGhpbmcuDQoNCkJ1dCBkb2N0b3IgaXQgaHVydHMuIEkga25vdy4gQW5kIGkgY2FudCBzbGVlcCBjdXogb2YgaXQuIEkga25vdy4gYW5kIEkgZ2V0IGNyYW1wcyBpbiBteSBsZWdzIHJlYWwgYmFkLiBJIGtub3cuIGFuZCBJIGdldCBzcGFzbXMgc28gYmFkIHRoYXQgSSBjYW50IHdhbGsgYW5kIEkgY3J5LiBJIGtub3cuIEltIHNvcnJ5LCBJIGNhbiBnaXZlIHlvdSBzb21ldGhpbmcgdG8gaGVscCB5b3Ugc2xlZXAgYW5kIHNvbWV0aGluZyB0byBnZXQgeW91IGJ5Lg0KDQpTaGXigJlzIHF1aWV0IHRvbmlnaHQNCkhlciBoYW5kcyBzaG93IHNoZeKAmXMgbm90IGZpbmUNClRoZSBsaW5lcyBzbyBwcmVkaWN0aW5nDQpQYXJ0aW5nIGFuZCBmb2xkaW5nIHdpdGggZWFjaCB5ZWFyIG9mIGhlciBsaWZlDQpJbiBoZXIgcG9ja2V0IHNoZSBoYXMgdGVuIGRvbGxhcnMNCkFuZCBhIGJyb2tlbiBoZWFydCBvbiBoZXIgY2hlc3QNClVuZGVyIGhlciBicmVhdGggc2hlIGNvbmZlc3Nlcw0KQW4gYXBvbG9neQ=="
+"eventtime","2005-09-21 20:33:00"
+"current_moodid","55"
+"url","http://bruisedwithlove.livejournal.com/21841.html"
+"userid","2243"
+"itemid","84"
+"event","Thanks for the pastries. They were yummy."
+"eventtime","2005-09-21 14:22:00"
+"url","http://bruisedwithlove.livejournal.com/21659.html"
+"userid","2243"
+"itemid","82"
+"event","I wish I was someone's Rainy Day Woman.
+
+That would be nice. 
+
+
+""Seeing her now makes me want to live."""
+"eventtime","2005-09-19 06:48:00"
+"current_moodid","67"
+"url","http://bruisedwithlove.livejournal.com/21143.html"
+"userid","2243"
+"itemid","81"
+"event","I feel nothing for you but hate.
+
+
+And you, yeah, I love you more than god could explain.
+
+""My darling emo girl, dont throw your fists at me.""
+
+A guy left his number on the back of his buy sheet today at work. it said ""You belong in omaha."" 
+
+Im in between, cutting my hair into a mohawk and going back to who I was comfortable and safe as, and growing out my hair and stiffening my polo.
+
+I have a dark room in my bathroom. Yeah, I know.
+
+Tomorrow, Im going to tell my manager I will quit if she makes me work a 9 hour day on saturday with only one other person. It basically makes me hate life."
+"eventtime","2005-09-18 00:14:00"
+"current_moodid","14"
+"url","http://bruisedwithlove.livejournal.com/20835.html"
+"userid","2243"
+"itemid","80"
+"event","Im growin out my hair, like it was when I was single it was longer than Id known you.
+
+You moved away. YOU. moved away. not me. You left ME. So dont think you can waltz back into this makeshift home and tell me how to live MY life. because if youre gonna tell me how to live then Im going to tell you to move back. Which is easier, you moving back, or me living the way I want to. these monthly visits are becoming harder and harder to deal with. Dont come home for 3 days and think you can change how things have been working around here. You guys keep telling me that this is my place, and this is my responsibility, yet you still tell me how to do things. And its not the helpful, do your laundry on saturday advice. its ""dont buy that, dont buy this"". Either get out, or deal with it.
+
+tomorrow is very busy. Not only am I working 9 hours, but I have a celebration to go to and a comedy stand up to go to. I know at the end of the night all Ill want to do is to be huggles'ed.
+
+So...I love the Desaparecidos. No really.
+
+And Ive realized that Pete Yorn could have been the current day Conor Oberst if he had just waited a little longer and retuned his guitar. I mean, he has the talent.
+
+""You know, we havent kissed in 2 months""
+'I know, and, I mean, Ive wanted to I just...'
+""How long have you wanted to?""
+'1 month and 29 days'
+
+And his parted lips were as bitter as winter
+on a day so long forgotten
+that on calendars its as blank as your face
+yeah you've got some inhibitions 
+when it comes to minding your business
+but I guarantee you're in for a surprise
+cuz in hours you'll be begging
+on your knees and you'll be crying
+my darling girl
+you're getting too far. Away.
+
+""You look up one day and you wont recognize me."""
+"eventtime","2005-09-16 22:25:00"
+"current_moodid","127"
+"url","http://bruisedwithlove.livejournal.com/20552.html"
+"userid","2243"
+"itemid","79"
+"event","My father comes into town today.
+
+So does sufjan. I'm hoping to see one or the other.
+
+So Im writing again. but Im basically convinced that I'm kidding myself. 
+
+Photography is the only time in the day I smile. the occasional lunch if there isnt food in my mouth. I really really enjoy photo. And Im getting some good photos though Im not taking many chances in making a mistake. Because until I have a dark room of my own, I dont have much access to one, so I dont have time to make a mistake. Im glad kristie and emily and kylie are in my class. 
+
+I found out I'm going to fail art. Because I just want to listen to my music, and the dumbass next to me, swearing conor oberst is the greatest man alive and despite anything I say she still says it. She doesnt know him. But neither do I. I just turn the dial on my music and draw to the beats. 
+
+""Someone I used to know.""
+
+He SMILED! eeee. why do I feel so much like a kid. Why cant I be an adult and say ""hey, I like your hair, Ya wanna go to lunch?"" gah. Ill never meet anyone new.
+
+Ive got a hunger, twisting my stomach into knots."
+"eventtime","2005-09-15 06:55:00"
+"current_moodid","10"
+"url","http://bruisedwithlove.livejournal.com/20396.html"
+"userid","2243"
+"itemid","78"
+"event","1 new message at 8:15 pm
+
+""Hello emily, this is XXXXXXX at The University of Arkansas in the agriculture department. After reviewing your test scores and a few surveys youve taken over the past year we thought maybe youd be interested in a growing field of Apperal Arts and Studies here at the university. I will be sending a packet with your father to you later this week. I hope to be hearing from you soon.""
+
+fuck."
+"eventtime","2005-09-12 20:24:00"
+"url","http://bruisedwithlove.livejournal.com/20013.html"
+"userid","2243"
+"itemid","77"
+"event","When the police come for me I'll be listening to dance. music.
+
+So there's these two pieces of tape on my monitor from 3 4th of julys ago when I taped a fly to my computer after coming home at 1130.
+
+And that was the first of really bad 4th of julys.
+
+Tim's story made me feel very alone. 
+
+A lot of people dont spend enough time trying to make other people happy. Sometimes I feel like the only one who's ever bought a random gift because I thought it was cool or cuz it was a thursday or. cuz there's 100 days until christmas. or gave someone a hug because their eyes looked really nice that day or said something really amazing. Or said I love you because maybe I really shouldnt have, but it made them smile a bit...
+
+My father is coming down on thursday. He once said the only reason he cant come down is because he doesnt like seeing how we're living. off tv dinners. off a wobbely table. on torn couches. in an uncomfortable space. with half of what we used to have. 
+
+he actually said ""because of work"" but I know the truth.
+
+In about 2 months Ill be 18.
+
+
+and probably still very unhappy."
+"eventtime","2005-09-11 10:05:00"
+"current_moodid","68"
+"url","http://bruisedwithlove.livejournal.com/19948.html"
+"userid","2243"
+"itemid","75"
+"event","Im fucking sick of how Im being treated.
+
+And hey, if youre in my car, dont fucking leave your half eaten food sittin around. I was nice enough to drive you around, I even park right next to a trash can. Please, throw your shit away."
+"eventtime","2005-09-07 20:44:00"
+"current_moodid","95"
+"url","http://bruisedwithlove.livejournal.com/19251.html"
+"userid","2243"
+"itemid","74"
+"event","<img src=""http://server3.uploadit.org/files/emptyphonelines-parkinglots.JPG"" alt=""title or description"" />
+
+I hate being sick. it makes for some good pictures though right? sigh.
+
+Im working on trying to eat something. just. the thought of food makes me sick. 
+
+So, my dad's thinking about letting some hurricane victims live in our new house because, god knows no one else is. But with dad being gone almost every weekend, we dont know. 
+
+I really want to see Sufjan Stevens in like..a week. I mean, I desperatly want to see him. Im gonna try to buy a ticket and then see if I can get in. If not...Ill just..give the ticket to someone. 
+
+I'm actually enjoying what few classes I have this year. mainly art and photo. and study hall. gives me time to catch up on english which is THE only class that involves effort. Without having an 8th hour, and having a mid day study hall break, the day goes by insanly fast...
+
+But work...work is taking my life out of me. 
+
+PUPPIES!
+
+I love you.
+
+To Be Alone With You..."
+"eventtime","2005-09-06 17:03:00"
+"current_moodid","18"
+"url","http://bruisedwithlove.livejournal.com/19029.html"
+"userid","2243"

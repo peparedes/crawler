@@ -1,0 +1,339 @@
+"names","values"
+"itemid","30"
+"event","RGVhciByZWFkZXJzOg0KDQpGb3IgZm91ciB5ZWFycywgd2XigJl2ZSBhbGwgYmVlbiB3YWl0aW5nIGZvciA8aT5QYWdhbiBQcmVnbmFuY3k8L2k+IHRvIG1ha2UgaXRzIGFwcGVhcmFuY2UuIFRocm91Z2ggYSBzZXJpZXMgb2YgZGVjaXNpb25zIGJleW9uZCBteSBjb250cm9sLCBpdCBoYXMgcmVtYWluZWQgaW4gbGltYm8uIEkgaGF2ZSByZWNlaXZlZCBtb3JlIGUtbWFpbCBhYm91dCB0aGlzIGJvb2sgdGhhbiBhbnkgb3RoZXIsIGFza2luZyB3aGVuIGl0IHdpbGwgZmluYWxseSBiZSBwdWJsaXNoZWQuIE15IHB1Ymxpc2hlciwgdG9vLCBoYXMgcmVjZWl2ZWQgY291bnRsZXNzIGUtbWFpbHMgcXVlcnlpbmcgdGhlIHN0YXR1cyBhbmQgYXZhaWxhYmlsaXR5IG9mIHRoZSB0aXRsZSwgdXJnaW5nIGl0cyByZWxlYXNlLg0KDQpEZWFyIHJlYWRlcnMg4oCTIGRlYXIsIGRlYXIgcmVhZGVycyEg4oCTIGl0IGlzIHRoYW5rcyB0byB5b3UgdGhhdCB0aGlzIGJvb2sgaXMgZmluYWxseSByZWFjaGluZyB0aGUgcHVibGljLCBhbGJlaXQgaW4gYSBzbGlnaHRseSBkaWZmZXJlbnQgZm9ybSB0aGFuIG9yaWdpbmFsbHkgaW50ZW5kZWQuDQoNCjxpPlBhZ2FuIFByZWduYW5jeTwvaT4gaXMgbm93IGF2YWlsYWJsZSBmb3IgcHVyY2hhc2UgYXMgYW4gZUJvb2sgZm9yIHRoZSBBbWF6b24gS2luZGxlIGUtcmVhZGVyLCBhbmQgd2lsbCBzb29uIGJlIGF2YWlsYWJsZSBmb3IgS29ibywgdGhlIEImTiBOb29rLCB0aGUgU29ueSBlUmVhZGVyLCBhbmQgb3RoZXIgcGxhdGZvcm1zLg0KDQpOb3QgYmVpbmcgYWJsZSB0byBzaGFyZSB0aGlzIGJvb2sgd2l0aCB5b3UgaGFzIGJlZW4gbW9yZSB0aGFuIGRpc2FwcG9pbnRpbmcgZm9yIG1lLiBJIHdyb3RlIGl0IGJlY2F1c2UgSSBrbmV3IHRoZXJlIHdhcyBhIG5lZWQgZm9yIGl0LCBoYXZpbmcgd2FudGVkIGEgYm9vayBsaWtlIGl0IG15c2VsZiBkdXJpbmcgbXkgZmlyc3QgcHJlZ25hbmN5LCBhbmQgdGhlIHNlcmllcyBvZiBjaXJjdW1zdGFuY2VzIHRoYXQgbGVkIHRvIHRoZSBwdWJsaWNhdGlvbiBiZWluZyBwdXQgb24gaG9sZCBicm9rZSBteSBoZWFydC4gTXkgZWRpdG9yLCBBbmRyZWEsIGhhcyBmb3VnaHQgbG9uZyBhbmQgaGFyZCB0byBnZXQgdGhpcyBib29rIG91dCB0byB5b3UsIGFuZCBJIGFtIG92ZXJqb3llZCB0byBmaW5hbGx5IGJlIGFibGUgdG8gdGVsbCB5b3UgdGhhdCB5ZXMsIHlvdSBjYW4gYnV5IGl0IGFuZCByZWFkIGl0LiBJIGhvcGUgaXQgaW5zcGlyZXMgeW91LCBvciBoZWxwcyB5b3UgdGhpbmsgdGhyb3VnaCBzb21lIG9mIHRoZSBzcGlyaXR1YWwgY2hhbGxlbmdlcyBhbmQgdW5jZXJ0YWludGllcyBhc3NvY2lhdGVkIHdpdGggcHJlZ25hbmN5Lg0KDQpJdCBpcyBwZXJoYXBzIGZpdHRpbmcgdGhhdCBJIHdyb3RlIHRoaXMgYm9vayB0aGUgeWVhciBhZnRlciBteSBzb24gd2FzIGJvcm4gaW4gMjAwNSwgYW5kIGl0IGlzIGZpbmFsbHkgc2VlaW5nIHRoZSBsaWdodCBvZiBkYXkganVzdCBhZnRlciBteSBkYXVnaHRlciB3YXMgYm9ybiBhIGZldyBtb250aHMgYWdvIGluIDIwMTEuIFRoZSBHb2RkZXNzIHdvcmtzIGluIG15c3RlcmlvdXMgd2F5cy4NCg0KVGhhbmsgeW91IHNvIG11Y2ggZm9yIHlvdXIgcGF0aWVuY2UsIHlvdXIgZW50aHVzaWFzbSwgeW91ciBzdXBwb3J0LCBhbmQgeW91ciBlbmNvdXJhZ2VtZW50IHJlZ2FyZGluZyB0aGlzIGJvb2sgb3ZlciB0aGUgcGFzdCBmb3VyIHllYXJzLiBJdCBoYXMgbWVhbnQgdGhlIHdvcmxkIHRvIG1lLg0KDQp+QXJpbg0KSW1ib2xjIDIwMTI="
+"eventtime","2012-02-02 14:14:00"
+"url","http://amurphyhiscock.livejournal.com/7922.html"
+"userid","650"
+"itemid","29"
+"event","Yes, yes, big gap in updates... there hasn't been much to share until now.
+
+Coming in January 2012:
+
+<img src=""http://arinmurphyhiscock.com/Welcome_files/9781440526886_2.jpg"" />
+
+Think of this as a spiritual field guide!
+
+Birds are all around us--building nests for their eggs, perching on a nearby tree branch, floating freely on a breath of wind. But do you ever feel like a bird might be trying to connect with you--or even tell you something? This book can help you figure out the special message your visitor is trying to share.
+
+Inside this lovely illustrated field guide you'll find everything you need to decipher the unique meaning behind each individual bird sighting. From physical description to folklore, each of the common bird species detailed within has a story and a unique symbolism which will help reveal the changes these mystical creatures want you to make in your life. With this enlightening volume as your inspiration, get ready to take a look at your life from a bird's eye view--one robin, crow, and hummingbird at a time!
+
+Full colour Audubon illustrations.
+
+A companion journal will also be available: <i>Birds - A Spiritual Journey: Record the Symbology and Significance of These Divine Winged Messengers</i>.
+
+
+And in more personal news, part of the reason I was MIA for a year was due to a high-risk pregnancy and birth of a new daughter! Our entire family is overjoyed to have her with us."
+"eventtime","2011-12-12 14:35:00"
+"url","http://amurphyhiscock.livejournal.com/7456.html"
+"userid","650"
+"itemid","28"
+"event","If you're in or around Montreal this weekend, check out <a href=""http://www.themagicalblend.com/yulefair2010.html"">Le Melange Magique's Yule Fair</a>! There's a great weekend of programming to discover, including workshops from authors like Ellen Dugan, Christopher Penczak, Judika Illes, Brendan Myers, Adelina St.Clair, and me, as well as a vendor's room, a Yule ritual, and a fund-raising auction for the Gaia Gathering conference taking place in Montreal in May of 2011.
+
+Ellen Dugan and I will be co-presenting a Q&A panel on Green Magic & Magical Gardening on Sunday December 5 at 11:00 AM, and I'm really looking forward to it!
+
+Yule Fair hours:
+Friday December 3rd 7 PM - 9 PM
+Saturday December 4th 10 AM - 6 PM
+Sunday December 5th 10 AM - 5 PM
+
+Location:
+Le Melange Magique
+1928 St. Catherine Street West
+Montreal, QC H3H 1M4
+514.938.1458
+
+See you at the fair!"
+"eventtime","2010-12-04 07:42:00"
+"url","http://amurphyhiscock.livejournal.com/7327.html"
+"userid","650"
+"itemid","27"
+"event","This past weekend I had the pleasure of participating in a keynote presentation and a book signing as part of Le Melange Magique's nineteenth birthday celebration.
+
+First of all: Nineteen! There aren't many independent bookstores that can say they've lasted nineteen years. I'm thrilled that the Melange has made it this far, and I'm looking forward to seeing them around for many years to come. They've been an important support in the Montreal pagan community, and a source of welcome, information, and assistance for many people throughout their spiritual journeys.
+
+The keynote presentation was done in conjunction with <a href=""http://www.adelinastclair.com/adelinastclair.com/Welcome.html"">Adelina St.Clair</a>, who recently published <i><a href=""http://www.themagicalblend.com/~magic/cgi-bin/cart.cgi/073871982X.html"">The Path of a Christian Witch</a></i>, a thoughtful and sensitive account of her struggle to balance the two spiritual influences in her life. We talked about respect, tolerance, balance, support, community as contrasted with solitary work, the challenges of finding the words to express what you believe about your spiritual practice (and then finding that they're outdated a month later because you've evolved!), and had a really great time. Instead of presenting a lecture-type address we pulled all the attendees up to sit at the front and angled our own seats to make more of a discussion-type event, and I think we all had a more interesting time that way. I really enjoy co-presenting addresses or workshops, because I find working with someone else offers a great opportunity for on-the-spot discovery and further exploration of ideas. Discussion and input from the audience is enriching, too.
+
+Adelina and I haven't seen one another in at least five years, more likely sevenish, and it was wonderful to reconnect and talk about how things had gone in our lives. We both moved within the last month, and we were highly amused to find that we'd bought houses within about a ten-minute drive of one another. We signed piles and piles of books, so if you've been waiting to buy a signed copy, contact <a href=""http://www.themagicalbled.com"">Le Melange Magique</a>; they've got autographed copies of everything now. [<b>ETA</b>: <a href=""http://melangemagique.blogspot.com/2010/09/magical-blend-19-years.html"">They've posted a couple of pictures from the event, including a lovely shot of their new cat among our piles of signed books!</a>]
+
+It looks like I'll be at the Yule Fair hosted by the Melange as well this December, along with some fabulous other author guests. No, I can't tell you who they are yet! And there's another special major appearance I'll be doing next spring, but again, I can't tell you about it until it's been formally announced. 
+
+Apart from all that, I've been very quiet. You haven't heard from me in about a year because there hasn't been much to say. I've been working as a freelance editor and trying to handle living with fibromyalgia. We bought our first house last month and have settled in nicely, although I'm still trying to get a feel for working in a new office and I have no idea where I packed the tealight candles. My son began kindergarten, and school buses are the coolest thing ever. I've done a handfasting and three baby blessings so far this year, and have another baby blessing and handfasting to do next month. In short, life is happening, and I'm flowing with it. Flowing quietly, but flowing. I hope you're all flowing, too."
+"eventtime","2010-09-14 11:15:00"
+"url","http://amurphyhiscock.livejournal.com/7085.html"
+"userid","650"
+"itemid","26"
+"event","I just got a note from my editor: The contributor's copies of <i>Out of the Broom Closet</i> went out today, which means sometime over the next two weeks we'll be holding them in our hands and marveling at how beautiful they are.
+
+The official release date is September 18, but you may be able to find copies on the shelves of your local bookstore a bit earlier. And if you can't, ask to make sure the store has ordered it. If they haven't, order one! These fifty stories cover a wide-ranging variety of experiences and provide a fascinating snapshot of people's challenges and epiphanies as they explore the world of alternative spirituality.
+
+<br /><br /><center><img width=""200"" vspace=""10"" hspace=""10"" src=""http://www.arinmurphyhiscock.com/images/BroomClosetFINAL.jpg"" alt="""" /><center><br /><br /><center><br />Publisher: Provenance Press (Sep 18 2009)<br />Paperback: 256 pages<br />ISBN-10: 1598698915<br />ISBN-13: 978-1598698916<br />$15.99 CDN, $12.95 USD</center></center></center>"
+"eventtime","2009-08-10 13:24:00"
+"url","http://amurphyhiscock.livejournal.com/6910.html"
+"userid","650"
+"itemid","25"
+"event","SSBqdXN0IGhhZCBhIGZhYnVsb3VzIHdlZWtlbmQgYXQgdGhlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGhlbWFnaWNhbGJsZW5kLmNvbS9+bWFnaWMvY2dpLWJpbi9jYXJ0LmNnaS9pbmRleC5odG1sPyI+TWVsYW5nZSBNYWdpcXVlIEJlbHRhbmUgRmFpcjwvYT4uIE9yaWdpbmFsbHkgSSB3YXMgb25seSBnb2luZyB0byBiZSBpbiB0b3duIGZvciB0aGUgU2F0dXJkYXksIGJ1dCBvdXIgb3V0LW9mLXRvd24gcGxhbnMgd2VyZSByZXNjaGVkdWxlZCBhIGZldyBkYXlzIGFnbyBhbmQgc28gIEkgd2FzIGZvcnR1bmF0ZSBlbm91Z2ggdG8gYmUgYWJsZSB0byBzdG9wIGJ5IHRoZSBGYWlyIGZvciBhIGNvdXBsZSBvZiBob3VycyBvbiB0aGUgU3VuZGF5IGFzIHdlbGwuDQoNCkkgZ2F2ZSBhIG9uZS1ob3VyIHRhbGsgYWJvdXQgaGVhcnRoY3JhZnQgYW5kIDxpPlRoZSBXYXkgb2YgdGhlIEhlZGdlIFdpdGNoPC9pPiBlYXJseSBTYXR1cmRheSBhZnRlcm5vb24sIGFuZCB0aGVuIHBhcnRpY2lwYXRlZCBpbiBhIHBhbmVsIGRpc2N1c3Npb24gd2l0aCBvdGhlciBhdXRob3JzIGFib3V0IHdyaXRpbmcgYW5kIHB1Ymxpc2hpbmcuIEl0IHdhcyBhbiBhYnNvbHV0ZSBqb3kgdG8gc2l0IG9uIHRoZSBzYW1lIHBhbmVsIGFzIDxhIGhyZWY9Imh0dHA6Ly93d3cudG9yb250b3BhZ2FuY29uZmVyZW5jZS5jb20vc3BlYWtlcnMyMDA2L1NpYW5SZWlkLmh0bSI+U2lhbiBSZWlkPC9hPiwgPGEgaHJlZj0iaHR0cDovL3d3dy5qdWRpa2FpbGxlcy5jb20vIj5KdWRpa2EgSWxsZXM8L2E+LCBhbmQgPGEgaHJlZj0iaHR0cDovL3d3dy53aWxkaWRlYXMubmV0L2NhdGhiYWQvIj5CcmVuZGFuIE15ZXJzPC9hPiwgYXMgd2VsbCBhcyBsb2NhbCBhdXRob3JzIDxhIGhyZWY9Imh0dHA6Ly93d3cudGhlbWFnaWNhbGJsZW5kLmNvbS9+bWFnaWMvY2dpLWJpbi9jYXJ0LmNnaS8xNDM1NzE3OTEwIj5HcmVnIFN0cm9sbDwvYT4gYW5kIDxhIGhyZWY9Ind3dy50YWxpeWVzaW4uY29tIj5Sb2IgU3QuIE1hcnRpbjwvYT4uIEl0IHR1cm5lZCBvdXQgdGhhdCBJ4oCZZCBtZXQgU2lhbiBwcmV2aW91cyB0byB0aGlzIGV2ZW50LCBvbmx5IG5vIG9uZSBoYWQgdG9sZCBtZSBoZXIgbGFzdCBuYW1lIGF0IHRoZSB0aW1lLiAo4oCcSG93IG1hbnkgU2lhbnMgY2FuIHRoZXJlIGJlP+KAnSBzaGUgbGF1Z2hlZCBhdCBtZS4g4oCcVGhpcyBpcyB0aGUgUGFnYW4gY29tbXVuaXR5LOKAnSBJIHNhaWQsIOKAnHRoZXJlIGNvdWxkIGJlIGFueSBudW1iZXIgb2YgdGhlbSHigJ0pIEkgbWV0IEp1ZGlrYSBJbGxlcyBmb3IgdGhlIGZpcnN0IHRpbWUgYW5kIHdlIGNsaWNrZWQgaW1tZWRpYXRlbHk7IHNoZeKAmXMgYSB3b25kZXJmdWwsIHdvbmRlcmZ1bCBodW1hbiBiZWluZywgYW5kIEkgc28gd2lzaCB3ZeKAmWQgaGFkIHRpbWUgdG8gc2l0IGRvd24gYW5kIHJlYWxseSB0YWxrIHdpdGggb25lIGFub3RoZXIuIEl0IHdhcyB0ZXJyaWZpYyB0byBzZWUgQnJlbmRhbiBNeWVycyBhZ2FpbiwgYW5kIEkgd2lzaCBJ4oCZZCBoYWQgbW9yZSB0aW1lIHRvIHNwZWFrIHdpdGggaGltLCBhcyB3ZWxsLg0KDQpBcGFydCBmcm9tIGEgY291cGxlIG9mIGluc3RhbmNlcyB3aGVyZSBtaXNjb21tdW5pY2F0aW9uIG9jY3VycmVkIGFib3V0IGNlcnRhaW4gdGhpbmdzIChJIHdhc24ndCB0b2xkIGFib3V0IGRvaW5nIHRpbWUgYXQgdGhlIHNpZ25pbmcgdGFibGUsIGFsYXMsIGFuZCBkaWRuJ3QgcmVjZWl2ZSBkZXRhaWxzIGFib3V0IHRoZSBkaW5uZXIgb3V0IG9uIFNhdHVyZGF5IG5pZ2h0IGluIHRpbWUgdG8gcGxhbikgZXZlcnl0aGluZyB3ZW50IHNtb290aGx5IGZvciBtZS4gVGhlIEZhaXIgd2FzIHZlcnkgd2VsbCBhdHRlbmRlZCwgYW5kIHRoZSBlbmVyZ3kgaW4gdGhlIGJ1aWxkaW5nIHdhcyBqdXN0IHdvbmRlcmZ1bDsgZXZlcnlvbmUgd2FzIGhhcHB5IGFuZCByZWxheGVkIGFuZCBpdCB3YXMgYSBqb3kgdG8gYmUgdGhlcmUuIEnigJltIGFsd2F5cyBtaWxkbHkgZnJlYWtlZCBhYm91dCBsYXJnZSBnYXRoZXJpbmdzIG9mIHBlb3BsZSwgYW5kIHRvIGRlYWwgd2l0aCB0aGUgbWluaW11bSBvZiBzdHJlc3MgYXNzb2NpYXRlZCB3aXRoIHRoaXMgc29ydCBvZiB0aGluZyB3YXMgYSBkZWxpZ2h0Lg0KDQpUaGFuayB5b3UgdG8gYWxsIHRoZSBsb2NhbHMgd2hvIGNhbWUgb3V0IHRvIGhlYXIgbXkgdGFsaywgYW5kIHRvIGFsbCB0aGUgdm9sdW50ZWVycyB3aG8gb3JnYW5pemVkIGFuZCBoZWxwIHJ1biB0aGUgRmFpci4gVGhhbmsgeW91IHRvIHRoZSBzdGFmZiBvZiB0aGUgTWVsYW5nZSwgdG9vLCB3aG8gc2FpbGVkIHRocm91Z2ggdGhlIHdlZWtlbmQgb2YgaGVhdnkgY2xpZW50IHRyYWZmaWMgd2l0aCBncmFjZSBhbmQgYXBsb21iLCBhbmQgdG8gZXZlcnlvbmUgd2hvIHdlbnQgb3V0IG9mIHRoZWlyIHdheSB0byBtZXRhcGhvcmljYWxseSBob2xkIG15IGhhbmQuIEFuZCBhIGh1Z2Ugc3dlZXBpbmcgY3VydHNleSB0byB0aGUgbG92ZWx5IGFuZCB0YWxlbnRlZCBSb2J5biwgdGhlIHN0b3JlIG1hbmFnZXIsIHdobyB3YXMgdGhlIGJyYWlucyBiZWhpbmQgdGhlIGVudGlyZSBvcGVyYXRpb24gYW5kIHdobyBzaG91bGQgYmUgdmVyeSBwcm91ZCBvZiB0aGUgd29uZGVyZnVsIHdlZWtlbmQu"
+"eventtime","2009-04-27 08:58:00"
+"url","http://amurphyhiscock.livejournal.com/6505.html"
+"userid","650"
+"itemid","24"
+"event","Look what the very nice postal carrier brought me this morning!
+<br>
+<br>
+<center><img src=""http://www.arinmurphyhiscock.com/images/HedgeWitchBox.jpg"" title=""Box of author's copies"" width=300 /></center>
+<br>
+<br>
+I wasn't expecting this for another month. Which means, of course, that my perception of March vs April has been forcibly collapsed from the nebulous full-month-till-book-release-date I was working with to a much more realistic view. Hurrah!
+
+This means that <i>The Way of the Hedge Witch</i> is shipping now or imminently, and should be on shelves in stores everywhere in about two weeks or so! Very exciting. Have fun spotting it in the wild!"
+"eventtime","2009-03-24 11:36:00"
+"url","http://amurphyhiscock.livejournal.com/6348.html"
+"userid","650"
+"itemid","23"
+"event","I am proud to announce that September 2009 will see the release of <i>Out of the Broom Closet</i>, a collection of first-hand stories about the challenges of publicly identifying as Neo-Pagan. Fifty contributors share how they discovered their spiritual path, the obstacles they faced, the reactions of their colleagues, family, and friends, and the ongoing challenge of staying honest with themselves and the Divine. The range of experience in this anthology will inspire and provoke reflection on the part of anyone who has had to consider the consequences of sharing their faith. I'm honoured to be the editor of this collection, and to present the stories of these courageous and blessed individuals, many of whom are publishing for the first time. Also included in this anthology are established and well-known practitioners such as <a href=""http://www.ashleenogaea.com"">Ashleen O'Gaea</a>, <a href=""http://www.wildideas.net/cathbad/"">Brendan Myers</a>, <a href=""http://www.seanet.com/~inisglas/"">Erynn Rowan Laurie</a>, and <a href=""http://www.copper-moon.com/"">Gwinevere Rain</a>. <br /><br /><center><img hspace=""10"" width=""200"" vspace=""10"" alt="""" src=""http://www.arinmurphyhiscock.com/images/BroomClosetFINAL.jpg"" /><center><br /><br /><center><br />Publisher: Provenance Press (Sep 18 2009)<br />Paperback: 256 pages<br />ISBN-10: 1598698915<br />ISBN-13: 978-1598698916<br />$15.99 CDN, $12.95 USD</center></center></center>"
+"eventtime","2009-03-19 12:11:00"
+"url","http://amurphyhiscock.livejournal.com/5978.html"
+"userid","650"
+"itemid","22"
+"event","As everyone who was not me predicted, the three-hour hearthcraft workshop I led on Saturday was a success. 
+
+I thought it had been three years since I've led a class or workshop, my brief presentation at Hamilton Pagan Pride Day 2008 aside, but I realised that it's been more like four. I felt really rusty, and quite anxious about how it would all go. I deliberately over-prepared in order to have a couple of extra modules available to switch to, depending on how the topics of discussion went. I try to do that as a rule, because every class is unique and follows different bits that interest them. In the end I didn't use any of the extra modules, because the group really focused on a few topics that took off in discussion.
+
+<a href=""http://www.avalonnaturel.com/home.php"">Avalon Naturel</a>, the meeting space in which I gave the workshop, has a wonderfully welcoming and comforting energy. I learned that the Avalon regulars are as equally comforting and welcoming. There were, to my astonishment (and, yes, initial panic) over twenty people crowded into the single room, some in chairs around the edges, some on mats on the floor. And they talked, bless them; they responded when I tossed questions and discussion topics out, for which I was heartily thankful, because nothing kills a workshop quicker than attendees who don't respond. Respond these excellent people did; I had people talking to me throughout the break and afterwards, telling me how much they'd learned, both beginners and experienced people assuring me that I was making sense to them, giving them new ways to think about things or the opportunity to share their own techniques and ideas. I loved it. 
+
+It went so well, as a matter of fact, that less than halfway through it I was already thinking about what I could give from my existing slate of workshops for them. I'd been tentatively sketching a pregnancy workshop, but one of the co-directors told me that the Avalonians tend to be of below or beyond childbearing age/mindset so there probably wouldn't be much response. But the other co-director in attendance caught me after most people had left and proposed co-leading a workshop around Harvest, which got us both very excited as it expanded and evolved into two different things. 
+
+So yes: A success, and the Avalonians are going to have a hard time getting rid of me. We have an informal agreement for me to show up one evening next month for a kaffeeklatsch type of thing once the hearthcraft book is out, so people can buy the book and I can sign them and we can all talk about lots of stuff instead of just what we can cover on one subject in three hours. (I sold every one of my previous books I'd brought except one, and signed dozens more people owned and brought along with them. Good grief.)
+
+I know I always feel better after I've given a workshop or class, which is part of what gets me through the prep and anxiety leading up to the event. Part of that post-workshop feeling is relief, part of it is the sense that I've accomplished something, and part of that is coming away with what the attendees have given to me in the form of energy and interaction and appreciation. I came away from this one feeling so much better than I'd expected to feel that I amused myself. And frankly, I just sat back and let myself enjoy it for the rest of the weekend.
+
+So thank you, Avalonians! I had a wonderful time, and your response meant so much to me. I can't wait to actually share the book with you all next month."
+"eventtime","2009-03-10 08:42:00"
+"url","http://amurphyhiscock.livejournal.com/5703.html"
+"userid","650"
+"itemid","21"
+"event","Hello, and a slightly belated Imbolc to you all!<br /><br />Spring is coming, and that means the spring books are getting ready for release. In just over two months, <em>The Way of the Hedge Witch</em> will be in bookstores! Not only that, I've recently taken on the editorship of an in-progress anthology collection of first-hand stories about people's experiences with Paganism called <em>Out of the Broom Closet</em>. That's due out in June 2009, so I suddenly have two projects being released this year and a lot of work to do in the next month.<br /><br />Earlier I&nbsp;mentioned that I did an interview with Leah R. Patterson<u>,</u> editor of the <a href=""http://www.bellaonline.com"">BellaOnline.com</a> Wellness division.  <a href=""http://www.bellaonline.com/articles/art60675.asp"">Part One of the interview has now been posted</a>, so click on over and read about our discussion of <em>The Way of the Green Witch</em>. I'll link to the second half of the interview when it's published, too.<br /><br />And finally, in my guise as mild-mannered freelance writer, I had the honour of doing a private interview with <a href=""http://www.neilgaiman.com"">Neil Gaiman</a> earlier this week, author of the Newbery Award-winning <em>The Graveyard Book</em> and well as the multiple award-winning short novel <em>Coraline</em>, the<a href=""http://www.coraline.com""> film adaptation</a> of which is being released in North America on 6 February 2009. The <a href=""http://www.fpsmagazine.com/blog/2009/02/interview-with-neil-gaiman-part-one.php"">first half of that interview</a> has been posted at Frames Per Second Magazine, a publication focusing on animation in all forms; the second half of the interview should go live tonight. I&nbsp;also did the <a href=""http://www.fpsmagazine.com/blog/2009/02/coraline.php"">fps review of Coraline</a>.<br /><br />There; you've had a surfeit of links, and a quick update concerning what I've been up to. Enjoy the ever-increasing moments of sunlight as we travel towards the vernal equinox!<br />"
+"eventtime","2009-02-05 10:46:00"
+"url","http://amurphyhiscock.livejournal.com/5471.html"
+"userid","650"
+"itemid","20"
+"event","A happy new calendar year to everyone! I still haven't gotten a newsletter out, but hey, you have the occasional update via this journal. There hasn't been much to report for the past few months. No, still no news on the Pagan Pregnancy title, but thank you all for your continued interest. I'll be doing an interview with the Wellness division of BellaOnline.com this month, so when that's posted I'll let you all know and provide the link.
+
+Yesterday I started working on the page proofs for <i>The Way of the Hedge Witch</i>, so I saw the layout for the first time. It's a pretty book; I love the interior design, and there's a nice illustration repeated at the beginning of each chapter. It's going to be the same trim size as <i>The Way of the Green Witch</i>. You'll get to see it for yourselves in April.
+
+That's not why I am here today, though! I am here in one of my rare appearances to tell you that the cover of <i>Solitary Wicca for Life</i> has been redesigned! Yes! It was a surprise to me as well, but such a lovely one to find in my in-box this morning:
+
+<center><img src=""http://www.arinmurphyhiscock.com/images/SolitaryWiccaREISSUE.jpg"" width=300 /></center>
+
+Isn't that lovely?
+
+And now, back to work on those proofs. Have a terrific day, everyone."
+"eventtime","2009-01-07 10:49:00"
+"url","http://amurphyhiscock.livejournal.com/5196.html"
+"userid","650"
+"itemid","19"
+"event","I just updated the <a href=""http://www.arinmurphyhiscock.com"">web site</a>. The <a href=""http://www.arinmurphyhiscock.com/AMHfaq.html"">FAQ</a> is finally live, the front page has been updated with news, there's a page for <a href=""http://www.arinmurphyhiscock.com/AMHhedgewitch.html"">The Way of the Hedge Witch</a> (yay!) with appropriate links added all over the place.
+
+No, there still isn't a new release date for <a href=""http://www.arinmurphyhiscock.com/AMHpaganpregnancy.html"">Pagan Pregnancy</a>. Believe me, when I know, the entire world will know!"
+"eventtime","2008-12-08 10:49:00"
+"url","http://amurphyhiscock.livejournal.com/4910.html"
+"userid","650"
+"itemid","18"
+"event","Hello all!
+
+The Hamilton Pagan Pride event was fabulous. I love all the organizers and have expressed my wish to be adopted by their community. They agreed pretty readily, so things must have gone well on their end too! Not even rain halfway through my workshop dampened the festival-goers' spirits.
+
+A huge thanks go out to everyone who attended my workshop there, too. They were amused to hear that they were the alpha group for this material (no, not even beta -- I'd never presented it to anyone but my editor before!) and were thoroughly supportive.
+
+Still no news on the pagan pregnancy book. Thank you yet again for all the support that's rolling in about it. You and I know it's needed, which is why I wrote it, after all. Publishing moves slowly, though, and works about two years in advance. As it was cut from this fall's list, it might be a while before they find a place for it. You know that I'll make a huge announcement pretty much everywhere once I know anything about it.
+
+<i>The Way of the Hedge Witch</i> is coming along nicely in the publishing process, though! The official release date is April 1, 2009, so circle the date on your calendars and pre-order, pre-order, pre-order! Pre-orders are what tell a publisher that a book has a confirmed buyer base, and are part of why the pregnancy book was cancelled.
+
+The next workshop has officially been booked! I'll be presenting a three-hour workshop on hearthcraft on March 7 2009 at the Avalon Naturel Centre in Dorval, QC. The cost is $40 per participant, and you can <a href=""http://www.avalonnaturel.com/home.php"">sign up at the Avalon web site</a>.
+
+And here's what some of you have been waiting for... the cover of the new book!
+
+<center><img src=""http://arinmurphyhiscock.com/images/HedgeWitchCover.jpg"" width=300 vspace=15 hspace=5></center>
+
+I love it.
+
+In other news, I've set up a newsletter that's supposed to be monthly but hasn't officially begun yet (something on next week's to-do list), which you can <a href=""http://groups.yahoo.com/group/AMH_newsletter/"">sign up for here</a> although it will often reiterate the information I post here on LJ, and I've finally got <a href=""http://www.facebook.com/pages/Arin-Murphy-Hiscock/23674573917"">a Facebook page</a>; stop on by if you're in the neighbourhood.
+
+Have a terrific Samhain!"
+"eventtime","2008-10-22 17:59:00"
+"url","http://amurphyhiscock.livejournal.com/4740.html"
+"userid","650"
+"itemid","17"
+"event","SSdkIGxpa2UgdG8gdGhhbmsgZXZlcnlvbmUgZm9yIHRoZSBzdXBwb3J0aXZlIGFuZCBlbmNvdXJhZ2luZyBjb21tZW50cyBhYm91dCB0aGUgcHJlZ25hbmN5IGJvb2shIEkgcHJvbWlzZSB0byBwYXNzIGFsb25nIG5ld3MgYXMgaXQgY29tZXMuIFRoaW5ncyBhcmUgc3RpbGwgb24gaG9sZCByaWdodCBub3csIGJ1dCA8aT5UaGUgV2F5IG9mIHRoZSBIZWRnZSBXaXRjaDwvaT4gaXMgd2VsbCBvbiBpdHMgd2F5IHRvIGJlaW5nIHJlbGVhc2VkIG5leHQgc3ByaW5nIQ0KDQpJJ20gY3VycmVudGx5IHByZXBhcmluZyBmb3Igb3VyIHRyaXAgdG8gSGFtaWx0b24gT04gdGhpcyB3ZWVrZW5kLCB3aGVyZSBJJ20gYSBndWVzdCBzcGVha2VyIGF0IHRoZSBQYWdhbiBQcmlkZSBGZXN0aXZhbCBhbG9uZyB3aXRoIFNlbGVuYSBGb3guIFRoZSB3b3Jrc2hvcCBJJ2xsIGJlIHByZXNlbnRpbmcgdGhlcmUgaXMgYSBiYXNpYyBvdXRsaW5lIG9mIGhlYXJ0aGNyYWZ0LCB0aGUgZm9jdXMgb2YgPGk+VGhlIFdheSBvZiB0aGUgSGVkZ2UgV2l0Y2g8L2k+LiANCjxicj4NCk9uY2UgdXBvbiBhIHRpbWUgd2hlbiBJIHByZXBhcmVkIGxlY3R1cmVzL3dvcmtzaG9wcywgaXQgd2VudCBzb21ldGhpbmcgbGlrZSB0aGlzOg0KPGJyPg0KMS4gT2ggbXkgZ29zaCEgSeKAmW0gbm90IGdvaW5nIHRvIGtub3cgd2hhdCB0byBzYXkgYXQgYWxsIQ0KDQoyLiBJIGtub3csIEnigJlsbCBvdXRsaW5lIGl0IGV4dGVuc2l2ZWx5IGluIHBvaW50IGZvcm0uDQoNCjMuIFRoYXQgY2Fu4oCZdCBwb3NzaWJseSBiZSBlbm91Z2ggdG8gZmlsbCBuaW5ldHkgbWludXRlcy4gSeKAmWxsIGFkZCBtb3JlLg0KDQo0LiBPaCBubywgd2XigJlyZSBnb2luZyBvdmVydGltZSEgSeKAmWxsIHRyeSB0byBzcXVlZXplIHRoZSBsYXN0IHRyaWxsaW9uIGJpdHMgb2YgaW5mbyBpbnRvIHRoZSBmb2xsb3dpbmcgZml2ZSBtaW51dGVzLg0KPGJyPg0KTm93IGl04oCZcyBtb3JlIGxpa2UgdGhpczoNCjxicj4NCjEuIE9oIG15IGdvc2ghIEnigJltIG5vdCBnb2luZyB0byBrbm93IHdoYXQgdG8gc2F5IGF0IGFsbCENCg0KMi4gSSBrbm93OyBJ4oCZbGwgcHV0IGhhbmR5IGJvb2sgZXh0cmFjdHMgb24gYSBjb3VwbGUgb2YgcGllY2VzIG9mIHBhcGVyLg0KDQozLiBPaCBteSBnb3NoISBUaGVyZSBhcmUgVEVOIFBJRUNFUyBPRiBQQVBFUiEgV2l0aCB3YWxsIHRvIHdhbGwgdHlwZSBvbiB0aGVtISBUaGlzIHdpbGwgbmV2ZXIgd29yayENCg0KNC4gSSB3aWxsIHJlZHVjZSBpdCB0byBwb2ludCBmb3JtLiBFdmVuIGlmIEkgdGhpbmsgSSB3b27igJl0IHJlbWVtYmVyIHdoYXQgdG8gc2F5Lg0KDQo1LiBJ4oCZbGwgYmV0IHRoaXMgd291bGQgdGFrZSBhbiBob3VyIGFuZCBhIGhhbGYgdG8gY292ZXIuIEkgc2hvdWxkIGN1dCBtb3JlIG91dC4NCg0KNi4gSSBBTSBHVVRUSU5HIE1ZIExFQ1RVUkUhIFRoaXMgd2lsbCBuZXZlciB3b3JrIQ0KDQo3LiBNYXliZSBJIHNob3VsZCBhaW0gZm9yIGEgaGFsZi1ob3VyIGxlY3R1cmUsIHRoZW4gaXQgd2lsbCBhY3R1YWxseSBmaXQgaW50byBhbiBob3VyLg0KDQo4LiBJIGNhbm5vdCBwb3NzaWJseSBjaG9vc2Ugd2hhdCB0byBsZWF2ZSBvdXQhDQoNCjkuIE9oLCBmaW5lLiBJ4oCZbGwgY3V0IHRob3NlIHRocmVlIHBhZ2VzLg0KDQoxMC4gVGhpcyB3aWxsIG5ldmVyIGZpdCBpbnRvIGFuIGhvdXIuDQoNCjExLiBJIGdpdmUgdXAuIEnigJlsbCB1c2UgdGhlc2UgdHdvIHBpZWNlcyBvZiBwYXBlciwgYW5kIHdl4oCZbGwganVzdCBnbyB3aGVyZSBpdCB0YWtlcyB1cy4NCg0KMTIuIEkgc2hvdWxkIHByb2JhYmx5IHByaW50IHRoaXMgb3V04oCmDQo8YnI+DQpOb3RlOiBJIGFtIGN1cnJlbnRseSBhcm91bmQgc3RlcCBzZXZlbiBhbmQgc3RlcCBmb3VyLiBZZXMsIGF0IHRoZSBzYW1lIHRpbWUuDQo8YnI+DQpCYWNrIGludG8gdGhlIGZyYXkhIEknbSBsb29raW5nIGZvcndhcmQgdG8gc2VlaW5nIHRob3NlIG9mIHlvdSB3aG8gd2lsbCBiZSBhdCB0aGUgUGFnYW4gUHJpZGUgRmVzdGl2YWwgaW4gSGFtaWx0b24gdGhpcyBTYXR1cmRheSBvbiBTZXB0ZW1iZXIgMTMuIDxhIGhyZWY9Imh0dHA6Ly93d3cucHBkaGFtaWx0b24ub3JnLyI+Q2hlY2sgb3V0IHRoZWlyIHdlYnNpdGUgZm9yIG1vcmUgZGV0YWlscyE8L2E+"
+"eventtime","2008-09-11 13:22:00"
+"url","http://amurphyhiscock.livejournal.com/4363.html"
+"userid","650"
+"itemid","16"
+"event","SSBoYXZlIHNvbWUgbm90LXNvLWdyZWF0IG5ld3MgZm9yIHRob3NlIG9mIHlvdSB3aG8gaGF2ZSBiZWVuIHdhaXRpbmcgYW54aW91c2x5IGZvciB0aGUgcGFnYW4gcHJlZ25hbmN5IGJvb2suDQoNCknigJl2ZSBqdXN0IGZvdW5kIG91dCB0aGF0IDxpPlBhZ2FuIFByZWduYW5jeTogQSBTcGlyaXR1YWwgSm91cm5leSBGcm9tIE1haWRlbiB0byBNb3RoZXI8L2k+IHdhcyBvbmUgb2YgdGhlIHR3byB0aXRsZXMgY3V0IGZyb20gbXkgcHVibGlzaGVy4oCZcyBmYWxsIGxpc3QsIGJlY2F1c2UgYWR2YW5jZSBzYWxlcyBhbmQgcHJlLW9yZGVycyB3ZXJlbuKAmXQgaGlnaCBlbm91Z2guIFR3byBoYWQgdG8gZ28sIGFuZCBtaW5lIHdhcyBvbmUgb2YgdGhlbS4gTXkgZWRpdG9yIGlzIHN0b3JtaW5nIG9mZmljZXMgYW5kIHRpZ2VyLXRhbWluZyBtYWduaWZpY2VudGx5LCBhbmQgaGFzIG1hbmFnZWQgdG8gZ2V0IHRoZSBzYWxlcyBhbmQgbWFya2V0aW5nIGRlcGFydG1lbnQgdG8gYWdyZWUgdG8gcHV0IGl0IG9uIGhvbGQgaW5zdGVhZC4gQXQgdGhlIG1vbWVudCB0aGUgbW9zdCBvYnZpb3VzIG9wdGlvbiBpcyB0byByZXRpdGxlIGl0LCBtYWtpbmcgaXQgbW9yZSBnZW5lcmFsIGFuZCBsZXNzIHNwZWNpZmljIHRvIGdldCBpdCBvdXQgZnJvbSB0aGUgbmljaGUteSBjb21wbGFpbnQgdGhleSBoYWQgYWJvdXQgaXQsIHdoaWNoIGluIHR1cm4gbWF5IGJvbHN0ZXIgc2FsZXMgdG8gdGhlIGJpZyBjaGFpbnMgaW4gdGhlIFVTLiBTYWxlcyBhbmQgbWFya2V0aW5nIHN1Z2dlc3RlZCBhbHRlcmluZyB0aGUgY29udGVudCBhcyB3ZWxsIGJ1dCBuZWl0aGVyIG15IGVkaXRvciBub3IgSSB0aGluayB0aGF0IG5lY2Vzc2FyeSwgYXMgaXTigJlzIGFscmVhZHkgcHJldHR5IGJyb2FkLg0KDQpJIGFtIHN0cmFuZ2VseSBzYW5ndWluZSBhYm91dCB0aGlzLiBJIHJlZ3JldCB0aGF0IGEgc29saWQgYm9vayB0aGF0IGNhbiByZWFsbHkgaGVscCBwZW9wbGUgaW4gYSBjZXJ0YWluIHBvc2l0aW9uIG1pZ2h0IG5vdCBzZWUgdGhlIGxpZ2h0IG9mIGRheSwgYnV0IGl04oCZcyBub3Qgb3ZlciB5ZXQhIElmIGNoYW5naW5nIHRoZSB0aXRsZSwgdGhlIGJhY2sgY292ZXIgY29weSwgYW5kIG1heWJlIHRoZSBpbnRyb2R1Y3Rpb24gd2lsbCBoZWxwIGdldCBpdCBvdXQgdGhlcmUsIHRoZW4gSeKAmW0gYWxsIGZvciBpdC4NCg0KU28gaWYgeW91IHdlcmUgbG9va2luZyBmb3J3YXJkIHRvIGJ1eWluZyBpdCBhdCB0aGUgZW5kIG9mIHRoZSBzdW1tZXIsIHlvdeKAmWxsIGp1c3QgaGF2ZSB0byB3YWl0IGEgbGl0dGxlIGxvbmdlciB1bnRpbCBzdWNoIHRpbWUgYXMgdGhleSBkZWNpZGUgdG8gcmVzY2hlZHVsZSB0aGUgcmVsZWFzZS4gVW5sZXNzIHNvbWV0aGluZyBtYWpvciBpcyBkb25lIGluIHRoZSBuZXh0IG1vbnRoLCBJIGNhbuKAmXQgc2VlIGFueSBjaGFuZ2VzIGJlaW5nIGFwcGxpZWQgaW4gdGltZSB0byBtYWludGFpbiB0aGUgcmVsZWFzZSBkYXRlLg0KDQpUaGVyZSBoYXMgYmVlbiBzbyBtdWNoIHBvc2l0aXZlIGZlZWRiYWNrIGZyb20gc28gbWFueSBvZiB5b3UgYWJvdXQgdGhpcyBib29rIHNpbmNlIEkgYW5ub3VuY2VkIHRoYXQgSSB3YXMgd3JpdGluZyBpdCB0aGF0IHdlJ3JlIGdvaW5nIHRvIGtlZXAgd29ya2luZyB0byBtYWtlIHN1cmUgPGk+UGFnYW4gUHJlZ25hbmN5OiBBIFNwaXJpdHVhbCBKb3VybmV5IEZyb20gTWFpZGVuIHRvIE1vdGhlcjwvaT4gZ2V0cyBwdWJsaXNoZWQgYXQgc29tZSBwb2ludC4gVGhhbmsgeW91IGFsbCBmb3IgeW91ciBzdXBwb3J0OyBpdCBtZWFucyBzbyBtdWNoLg=="
+"eventtime","2008-04-30 15:08:00"
+"url","http://amurphyhiscock.livejournal.com/4335.html"
+"userid","650"
+"itemid","15"
+"event","R2VudGxlIHJlYWRlcnMsIHRoZSBib29rIHRlbnRhdGl2ZWx5IHRpdGxlZCA8aT5UaGUgV2F5IG9mIHRoZSBIZWFydGggV2l0Y2g6IFJpdHVhbHMsIFNwZWxscywgYW5kIFByYWN0aWNlcyB0byBCbGVzcyBZb3VyIEhvbWU8L2k+IGlzIGZpbmlzaGVkIQ0KDQpFdmVyeXRoaW5nIHdhcyBwcmV0dHkgbXVjaCB0aGVyZSBhcyBvZiB5ZXN0ZXJkYXksIHNvIHRvZGF5IHdhcyBhIGRheSBvZiBjcm9zc2luZyBJcyBhbmQgZG90dGluZyBUcy4gIEFsbCBjaGFwdGVyIG51bWJlcnMgaGF2ZSBiZWVuIGNvcnJlY3RlZCwgYm90aCBpbiBjaGFwdGVyIGhlYWRpbmdzIGFuZCBpbiB0aGUgdGV4dCAoSSByZWFsaXplZCB0d28gZGF5cyBhZ28gdGhhdCB0aGVyZSB3YXMgYSBjaGFwdGVyIG1pc3NpbmcgdGhhdCBuZWVkZWQgdG8gYmUgdGhlcmUpOyBhbGwgdGhlIHByb3BlciBjb2RpbmcgYW5kIGZvcm1hdHRpbmcgaGFzIGJlZW4gaW5zZXJ0ZWQ7IEkgY2F1Z2h0IHNvbWUgdGhpbmdzIHRoYXQgSSBoYWQgdG8gaGFuZGxlIChJIHRlbmQgdG8gbGVhdmUgbm90ZXMgdG8gbXlzZWxmIGluIHRoZSB0ZXh0LCBhbmQgb25jZSBhIGNvdXBsZSBzbGlwcGVkIGJ5IG1lIGFuZCB3ZXJlIGNhdWdodCBieSBhIGNvcHllZGl0b3IgLS0gb29wcyEpOyBJIHRvb2sgc29tZSB0aGluZ3Mgb3V0LCBwb3BwZWQgb3RoZXJzIGluLCBhbmQgbWFkZSBzdXJlIG15IGJpYmxpb2dyYXBoeSBhY3R1YWxseSBsaXN0ZWQgdGhlIGJvb2tzIHRoYXQgSSBzdWdnZXN0ZWQgcGVvcGxlIHNob3VsZCByZWFkIHRocm91Z2hvdXQgdGhlIHRleHQuIFRoZSBmaW5hbCB3b3JkIGNvdW50IHN0YW5kcyBhdCA2MCwxNDEuIChUaGVyZSBhcmUgNiwzMjggd29yZHMgbGFuZ3Vpc2hpbmcgaW4gbXkgZmlsZSBvZiBkZWxldGVkIG1hdGVyaWFsLCB0byBnaXZlIHlvdSBhbiBpZGVhIG9mIHdoYXTigJlzIGNvbWUgb3V0IG9mIHRoZSBib29rIGluIHRoZSBwYXN0IGZldyBkYXlzLikNCg0KSSBqdXN0IHdyb3RlIG15IGNvdmVyIGxldHRlciwgYW5kIHNlbnQgaXQgYWxsIG9mZiB0byBteSB3b25kZXJmdWwgZWRpdG9yLiBBbmQgbm93IEkgc3VzcGVjdCBJ4oCZbGwgd2FuZGVyIGFyb3VuZCB0aGUgaG91c2UgYWltbGVzc2x5IGZvciBhIGNvdXBsZSBvZiBob3VycywgYmVjYXVzZSBJIGRvIG5vdCByZW1lbWJlciB3aGF0IExpZmUgV2l0aG91dCBCb29rIGlzIGxpa2UuDQoNClRoZSBwYXN0IGZldyBkYXlzIG9mIGFuZ3N0IGFzaWRlLCBJJ3ZlIHJlYWxseSBlbmpveWVkIHdvcmtpbmcgb24gdGhpcyBib29rLCBhbmQgSSdtIGxvb2tpbmcgZm9yd2FyZCB0byBzZWVpbmcgaG93IHRoZSBkZXNpZ24gYW5kIGxheW91dCBhbmQgY292ZXIgd3JhcCBpdCBhbGwgdXAgbmV4dCB5ZWFyIGluIHNwcmluZyAyMDA5Lg0KDQpJbiBteSBwb3N0LWJvb2sgc3VycmVhbCBzdGF0ZSBJIHRob3VnaHQgSSdkIHNob3cgeW91IHRoZSBzdGF0ZSBvZiBteSBkZXNrIG5vdyB0aGF0IGV2ZXJ5dGhpbmcncyBvdmVyLiBJdCdzIG5vIGxvbmdlciBhcyB0aWR5IGFzIDxhIGhyZWY9Imh0dHA6Ly9hbXVycGh5aGlzY29jay5saXZlam91cm5hbC5jb20vMzMyMi5odG1sIj50aGUgcGhvdG8gZXNzYXkgaW4gZWFybHkgTWFyY2ggc2hvd2VkIGl0IHRvIGJlPC9hPiENCjxicj4NCjxicj4NCjxjZW50ZXI+PGltZyBzcmM9Imh0dHA6Ly93d3cuYXJpbm11cnBoeWhpc2NvY2suY29tL2ltYWdlcy9zbUFwcmlsMjAwOC0wODUuanBnIiB3aWR0aD0zMDAgdGl0bGU9IlBvc3QtYm9vayBjaGFvcywgQXByaWwgMTggMjAwOCI+PC9jZW50ZXI+DQoNCkknbGwgY2xlYW4gaXQgdXAgaW4gYSBkYXkgb3Igc28u"
+"eventtime","2008-04-18 15:36:00"
+"url","http://amurphyhiscock.livejournal.com/4045.html"
+"userid","650"
+"itemid","14"
+"event","Hurrah! This has been an extraordinarily good mail day. Aside from a couple of goodies in the mailbox, the Fed Ex man just came and gave me the box of the newly redesigned <em>Way of the Green Witch</em>!
+
+So here you are, folks, they exist. The pattern on the green background is much less pronounced in real life; less like grass and more like a hand-rubbed finish, if that makes any sense.
+
+<center><img src=""http://www.arinmurphyhiscock.com/images/EarlyApril2008-051edit.jpg"" hspace=5 width=250 border=2 border-color=brown title=""Behold, the newly redesigned Way of the Green Witch! April 4 2008""></center>
+
+Let me know if you start seeing the new cover on store shelves. They ought to be shipping with the new cover now, of course, but it takes time to sell through existing stock."
+"eventtime","2008-04-04 15:02:00"
+"url","http://amurphyhiscock.livejournal.com/3797.html"
+"userid","650"
+"itemid","11"
+"event","Ladies and gentlemen... the new cover for <em>The Way of the Green Witch</em>:
+
+<center><img src=""http://www.arinmurphyhiscock.com/images/GreenWitchREISSUE.jpg"" width=400 border=1 border-color=brown vspace=5></center>
+
+My editor says it should start shipping under the new cover this April."
+"eventtime","2008-03-19 12:11:00"
+"url","http://amurphyhiscock.livejournal.com/2964.html"
+"userid","650"
+"itemid","13"
+"event","While work on finishing the writing of the hearthcraft book progresses towards the first deadline, work on finalizing the <i>Passages: Pagan Pregnancy</i> book is wrapping up.
+
+The final step of the book-creation process for an author is to review the page proofs or galleys. In the past I've done this with a printed set that the publisher sends to me via courier, marking it with a red pencil and couriering it back to them. This time, however, the project manager sent me a PDF file. It's exactly the same as printed set, just in electronic format. I can make notes in a text document and send it back via e-mail, or I can print out the specific pages in question, mark them up, then fax or mail them back. This is going to be an interesting exercise!
+
+But the real reason for this post is to tell you how beautiful the design of the book is. I wasn't worried about the interior design -- so far they've all been lovely -- but opening this file today was like receiving an unexpected gift. I can't wait for it to ship in July so you can see it too!
+
+The deadline for the hearthcraft book has been revised to April 11, to reflect the week I'm going to lose to the page proofs and some of the time I lost to handling the edits and rewrites of the pregnancy book in January and February. Finishing the hearthcraft book while reviewing page proofs and having both due back on the same date was a recipe for potential disaster, so I'm glad the conflict was avoided."
+"eventtime","2008-03-18 14:19:00"
+"url","http://amurphyhiscock.livejournal.com/3522.html"
+"userid","650"
+"itemid","12"
+"event","This is my office. It is currently a mess because I am writing one book to deadline, just finished the copy-edits of another, there is a sick toddler/preschooler in the house, my husband is away at rehearsals or performances most evenings until the Savoy opera he's stage managing is over, and I am trying to whack away at Gounod and Faure on the cello whenever I have a spare moment. Oh yes, and I am fighting the recently diagnosed fibromyalgia/chronic fatigue thing that makes me choose between tidying up or writing.
+
+For some reason, I thought a photo essay about the place where I spend a lot of my time might amuse you.
+
+<lj-cut text=""Photos this way!"">
+
+<center><img src=""http://www.owldaughter.org/images/smFebMarch2008-027-booksaltar.jpg"" hspace=5 width=350 border=2 border-color=brown title=""Ye Olde Offyce, March 3 2008""></center>
+
+This is the north-east wall, the one that's on the left as you walk in. Seen here is the mishmash of stuff that collects on my office shelves and on top of the books when I need them out of the way of wherever they were originally put. There are still things I took off the old vertical corner shelf that used to be where my corner desk now stands, from a couple of months ago. Candles, empty picture frames, that sort of thing.  As I'm in the middle of writing a book, there are books piled on the front of the shelves that I've borrowed from people. Closer to the window you can see my two-tier office altar, where I'm drying rose petals at the moment. The shelf under it holds all the reference books for the book I'm currently working on. Well, most. Some, anyway. I do try to keep them all in one place. The window faces east. There's another bookcase that size between the door and the one in the picture; this only shows the front half of the room.
+
+<center><img src=""http://www.owldaughter.org/images/smFebMarch2008-desk.jpg"" hspace=5 width=350 border=2 border-color=brown title=""Ye Olde Offyce, March 3 2008""></center>
+
+Next we have my new-to-me corner desk. It's not developed a lot of personality yet, as I'm trying to keep it plain and neutral for the moment, and keep it relatively clear to spread books and papers out. At the left are more reference books I'm using immediately for the current project. The walls above it are still bare from having had that vertical shelf there for so long. I still don't know what to put up. There is a cluster of witch balls hanging from the ceiling at the moment. It's hard to figure out what to hang in a corner, as the two walls meet and the display space is awfully close. Besides, to my right is...
+
+<center><img src=""http://www.owldaughter.org/images/smFebMarch2008-029-collagewall.jpg"" hspace=5 width=350 border=2 border-color=brown title=""Ye Olde Offyce, March 3 2008""></center>
+
+... the collage wall, where I have a collection of various things hung. You can only see the lower half of it. This collage is fluid, and shifts slowly as I phase things out and include new ones. In the upper left of this photo (and the right of the previous one) is a small creativity shrine that was made to be a salt box/cellar thing. (It currently has a lot of swan representations on it for serenity and insight, and usually a votive candle.) Behold also my pencil cup, various writing notebooks, the external hard drive (love!), a statue of Freyja, various foxy things, various small stuffed talismanic animals (the original Montreal NaNo psychic ferret among them!), my laptop (which doesn't usually live here, but on the bedroom bookcase), the Chicago Manual of Style and a Webster's among other reference books. What you can't see underneath it is a mess of cables, a shredder, and two fourteen-inch piles of books that I have not yet read.
+
+<center><img src=""http://www.owldaughter.org/images/smFebMarch2008-030-cello.jpg"" hspace=5 width=350 border=2 border-color=brown title=""Ye Olde Offyce, March 3 2008""></center>
+
+Turning again, we see the closet door swathed in a white sheer curtain (the door is mirrored -- shudder), the cello on the floor, the case tossed over the cello stand in the corner, and the music stand bearing the Gounod and Faure. To the right you see my filing cabinet, more books (Is it a flat surface? It's got books.), my red toolbox, a tote bag, and the carton the hard drive came in. Right at the bottom right-hand corner you can see the edge of the child gate that renders this room the only boy-free zone for the cats, as well as the little cat door we cut in it. That's the viola case leaning against the wall and the music stand.
+
+<center><img src=""http://www.owldaughter.org/images/smFebMarch2008-011-Nixie.jpg"" hspace=5 width=300 border=2 border-color=brown title=""Ye Olde Offyce, March 3 2008""></center>
+
+And finally, we have the often-present black kitten giving you the ""What? I'm allowed to be here"" look.
+
+</lj-cut>
+
+I'm never quite satisfied with my office; I always feel that it's missing something, or not quite right. It never matches what I visualise it could become. Part of that is the fact that I live in it so much that it never has the chance to rest and become something; I'm always moving things around and reorganizing. It looks and feels quite different at night as well, and when the sun is shining. I would love a comfy chair in which to curl up and read, or even better, a chaise longue! But there's no room for it.
+
+Well, there you have it: a brief snapshot of a place in my life. It will be different tomorrow, and the day after that too, of course, and once the hearthcraft book is done I'll be changing pictures and books to focus on something different yet again. And come spring, there will be flowers and boughs of buds, too."
+"eventtime","2008-03-03 20:58:00"
+"url","http://amurphyhiscock.livejournal.com/3322.html"
+"userid","650"
+"itemid","10"
+"event","I just received a message from my editor at Provenance Press. She told me that <a href=""http://www.arinmurphyhiscock.com/AMHgreenwitch.html"">The Way of the Green Witch</a> is selling steadily (hurrah!) and that they're reissuing it with a new cover!
+
+I can't tell you how thrilled I am about this. Hearing that a book is selling steadily is always good news, but to hear that the cover is being redone made my week. I am less than fond of the <i>Way of the Green Witch</i> cover; I was disappointed with it when they showed me the final version and suggested several other possibilities, including some of the very different original cover they proposed for it, but without success. The new cover is being finalised right now, and as soon as I have a picture of it I'll share it with you. I'm so excited!
+
+My editor is also pushing for a reissue of <a href=""http://www.arinmurphyhiscock.com/AMHsolitarywicca.html"">Solitary Wicca for Life</a> with a new cover. Updates as events warrant!"
+"eventtime","2008-02-01 16:18:00"
+"url","http://amurphyhiscock.livejournal.com/2659.html"
+"userid","650"
+"itemid","9"
+"event","Ladies and gentlemen, the cover of the upcoming <b>Pagan Pregnancy</b> book:
+
+<br>
+<center><img src=""http://www.arinmurphyhiscock.com/images/PaganPreg.jpg""></center>
+<br>
+
+Isn't it lovely?
+
+I hope everyone had a wonderful Solstice, and I wish you all a successful, peaceful, prosperous, and healthy 2008!"
+"eventtime","2007-12-31 15:36:00"
+"url","http://amurphyhiscock.livejournal.com/2520.html"
+"userid","650"
+"itemid","8"
+"event","A blessed Samhain to you all! And to help celebrate, I have some excellent news to share. 
+
+First: The pregnancy book has an official title, ISBN, and release date! <b>Pagan Pregnancy: A Spiritual Journey from Maiden to Mother</b> (ISBN-10 1598693972, ISBN-13 978-1598693973) is scheduled for an August 2008 release, which means it ships mid- to late-July. It's listed as available for pre-order at all major on-line bookstores, but please take the time to tell your local independent bookshop that you'd like to order a copy of it. They'll be more than happy to do so for you.
+
+Second: I've just sold a new book! It's about hearth and home magic, and the title isn't fixed yet so I'll be referring to it as the hearthcraft book. It will probably appear sometime in 2009. I'll share updates about it as they happen.
+
+Best wishes for the upcoming year: may it be prosperous, peaceful, joyful, and successful for you all!"
+"eventtime","2007-11-07 10:48:00"
+"url","http://amurphyhiscock.livejournal.com/2074.html"
+"userid","650"
+"itemid","7"
+"event","SSByZWNlaXZlZCBzb21lIHdvbmRlcmZ1bCBuZXdzIHRoaXMgbW9ybmluZy4gSXQgc2VlbXMgdGhhdCBhbGwgdGhyZWUgb2YgbXkgYm9va3MgaGF2ZSBnb25lIGludG8gc2Vjb25kIHByaW50aW5ncyBhdCBzb21lIHBvaW50IG9yIGFub3RoZXIhDQoNCkkga25ldyB0aGF0IDxpPlNvbGl0YXJ5IFdpY2NhIGZvciBMaWZlPC9pPiBoYWQgYSBzZWNvbmQgcHJpbnRpbmcgc2l4IG1vbnRocyBhZnRlciBpdCB3YXMgcHVibGlzaGVkLiBJIGV4cGVjdGVkIDxpPlBvd2VyIFNwZWxsY3JhZnQgZm9yIExpZmU8L2k+IHRvIHJlcHJpbnQgYXQgc29tZSBwb2ludCBiZWNhdXNlIGl0IHNlbGxzIHdlbGwsIGJ1dCBJIGhhZCBubyBpZGVhIHdoZW4gdGhhdCBtaWdodCBiZWNhdXNlIGl0IGhhZCB0aGUgbGFyZ2VzdCBwcmludCBydW4gb2YgdGhlIHRocmVlLiA8aT5UaGUgV2F5IG9mIHRoZSBHcmVlbiBXaXRjaDwvaT4gYm9vayBoYWQgdGhlIHNtYWxsZXN0IHByaW50IHJ1biBhcyBpdCB3YXMgYSBtb3JlIHNwZWNpYWxpemVkIHRpdGxlLCBhbmQgdG8gYmUgaG9uZXN0IEkgd2FzbuKAmXQgZXhwZWN0aW5nIGl0IHRvIHJlcHJpbnQgZm9yIGEgd2hpbGUuDQoNCldlbGwsIHRvZGF5IEkgZ290IHRoZSB0b3RhbCBzYWxlcy10by1kYXRlIGZpZ3VyZXMgZm9yIGFsbCB0aHJlZSBvZiB0aGVtLCBhbmQgYXMgc2FsZXMgb2YgPGk+UG93ZXIgU3BlbGxjcmFmdCBmb3IgTGlmZTwvaT4gYW5kIDxpPlRoZSBXYXkgb2YgdGhlIEdyZWVuIFdpdGNoPC9pPiBvdXRudW1iZXIgdGhlIHNpemUgb2YgdGhlIG9yaWdpbmFsIHByaW50IHJ1bnMsIHRoZXkgbXVzdCBwZXJmb3JjZSBoYXZlIHJlcHJpbnRlZC4gSW4gZmFjdCwgYWxsIG9mIHRoZW0gc2VlbSB0byBoYXZlIHNvbGQgYW4gYXZlcmFnZSBvZiBvbmUgYW5kIGEgaGFsZiB0aW1lcyB0aGVpciBvcmlnaW5hbCBwcmludCBydW4gc28gZmFyLiBUaGF0J3MgdmVyeSByZXNwZWN0YWJsZSBmb3IgdGhlIHBlcmlvZCBvZiB0aW1lIGZvciB3aGljaCB0aGV5J3ZlIGJlZW4gYXZhaWxhYmxlLCBhbmQgbm90ZXdvcnRoeSBmb3IgTmV3IEFnZSB0aXRsZXMuDQoNCklmIHlvdSdyZSBjdXJpb3VzLCA8aT5Qb3dlciBTcGVsbGNyYWZ0IGZvciBMaWZlPC9pPiBpcyB0aGUgbW9zdCBwb3B1bGFyIHRpdGxlLCBidXQgbm90IGJ5IGEgd2lkZSBtYXJnaW46IHRvIGRhdGUgaXQgaGFzIG9ubHkgc29sZCAxMyBtb3JlIGNvcGllcyB0aGFuIDxpPlNvbGl0YXJ5IFdpY2NhIGZvciBMaWZlPC9pPiENCg0KSXQncyB0aGFua3MgdG8gcmVhZGVycyB0aGF0IGF1dGhvcnMgcmVjZWl2ZSBleGNlbGxlbnQgbmV3cyBzdWNoIGFzIHRoaXMuIE15IGRlZXBlc3QgYXBwcmVjaWF0aW9uIGdvZXMgb3V0IHRvIGV2ZXJ5IG9uZSBvZiB5b3Ugd2hvIGhhcyBib3VnaHQgb25lIG9mIG15IGJvb2tzIG92ZXIgdGhlIHBhc3QgdHdvIHllYXJzLiBDb2xsZWN0aXZlbHksIHlvdSBtYWRlIG15IE1vbmRheSBtb3JuaW5nLiBObywgdG8gYmUgaG9uZXN0LCB5b3UgbWFkZSBteSB3aG9sZSB3ZWVrLiBQb3NzaWJseSBteSBtb250aC4NCg0KSSBjb3VsZG4ndCBrZWVwIGRvaW5nIHdoYXQgSSdtIGRvaW5nIHdpdGhvdXQgeW91LiBUaGFua3Mu"
+"eventtime","2007-08-20 11:04:00"
+"url","http://amurphyhiscock.livejournal.com/2021.html"
+"userid","650"
+"itemid","6"
+"event","The interview I recently did has been posted in the Summer issue of the <a href=""http://www.gothic-rain.com/zine.htm"">Copper Moon</a> e-zine. 
+
+Gwinevere says in her intro, <i>""As to our features, you are in for a treat! Click over to the interview page to read about Arin Murphy-Hiscock, author of SOLITARY WICCA FOR LIFE and POWER SPELLCRAFT FOR LIFE. She is totally wise to the Wiccan ways, and I loved reading her books!""</i>  What a sweetheart!
+
+Enjoy!"
+"eventtime","2007-06-04 10:29:00"
+"url","http://amurphyhiscock.livejournal.com/1542.html"
+"userid","650"
+"itemid","5"
+"event","Hi everyone!
+
+Thanks for the messages you've been leaving. It's always so wonderful to hear from people whose lives I've touched in some way. Writing can be a lonely pursuit, and somewhat odd in that you invest so much effort and energy over a specific period of time before releasing your book into the world to continue on without you, to provide every reader with the opportunity to interpret and use it in their own way.
+
+I've been pretty quiet for the past few months because there hasn't been much to tell. No word yet on a confirmed release date for the Pagan pregnancy book -- it's still a nebulous Spring 2008 at the moment -- but I do have another bit of information for you today. <lj user=""gwinevere_rain"">, <a href=""http://www.gothic-rain.com/index.htm""> the teen author of such well-received books such as <b>Confessions of a Teenage Witch</b> and <b>Spellcraft for Teens</b></a>, also runs an e-zine called <b>Copper Moon</b>, and will be posting an interview with me in the June issue as well as reviews of my first two books. Her interview questions are thought-provoking and penetrating, and they're really challenging me to put my ideals and feelings into words. You can check out the <a href=""http://www.gothic-rain.com/zine.htm"">older issues of Copper Moon here</a> to read the previous articles, reviews, and and interviews. You can also subscribe to the e-list notifying you of the next issue's publication.
+
+The spring 2007 issue of <a href=""http://wyntergreene.ca"">WynterGreene</a> recently featured an article written by me on wildcrafting, as well as an annotated bibliography of sorts created from ten of the more interesting, thought-provoking, and useful books listed in the bibliography of <b>The Way of the Green Witch</b>. The issue also featured a review of <b>The Way of the Green Witch</b>, which came as a surprise to me (the editor quite thoughtfully kept it a secret, probably so I wouldn't fret). It was very favourable and reflected what I often hear about it: it successfully addresses the modern challenges of working spiritually and magically with our urban environment with insight and awareness. As that was precisely the goal of the book, I'm always pleased when someone gets it!
+
+I'll post more news as it comes. I'll publish the link to the Copper Moon interview when it's released, and of course I'll be back to announce the official release date for the Pagan pregancy book. Until then, keep on exploring and enjoying the world around you, and connecting with the Divine in your own way."
+"eventtime","2007-05-22 17:53:00"
+"url","http://amurphyhiscock.livejournal.com/1371.html"
+"userid","650"
+"itemid","4"
+"event","I am intimately familiar with the latter scenario:
+
+<blockquote>
+I've just had a great writing week. There are few feelings more joyous than reading back over the week's work and thinking 'that's not bad at all'', as opposed to the all-too-frequent, 'it's rubbish, I've wasted a week and I'll have to re-write the lot.' And if you think that's an exaggeration or false modesty, you are very, very wrong. It's perfectly possible to put in eight hour days and have nothing to show for them but a single idea that, if reworked completely, might be passable.</blockquote>
+
+Jo Rowling, <a href=""http://www.the-leaky-cauldron.org/#article:9180"">quoted at The Leaky Cauldron</a>.
+
+Actually, taking a couple of weeks off is helping me immensely. I need this distance from the amount of writing I've done since the beginning of August."
+"eventtime","2006-12-21 13:09:00"
+"current_moodid","68"
+"url","http://amurphyhiscock.livejournal.com/1152.html"
+"userid","650"
+"itemid","3"
+"event","Well, I launched the new website yesterday -- <a href=""http://www.arinmurphyhiscock.com"">www.arinmurphyhiscock.com</a> is now live and open for use! I'd forgotten how time-consuming coding pages is. Some of it is straight copy-paste from my old site, but as the layout on the new one is different, I have to rejig some of the formatting so that it doesn't look cockeyed. Also, if I want to post the articles and reviews I have to copy and paste about eighty more pages, and the thought of that just makes me want to curl up in a ball and pull a quilt over my head. I may pick and choose what to post, which means I have to reread everything and make a judgement call.
+
+People have been asking me what I've been writing these days, and to be honest I'm taking a well-deserved break after being submerged in the pregnancy book all autumn. My toddler son has indefatigable energy and runs around all day, and apart from that it's December, which means Solstice and Christmas gatherings, baking and shopping and decorating and rehearsals and concerts. With all of that going on, I'm actually impressed at having been able to get the basics of the new web site written and uploaded.
+
+On the creative writing front, throughout November I worked on the first 75% of a YA novel rough draft, and the final 25% is brewing in my brain. I know what happens and sketched it out in a page or two, but now it needs to be expanded and actually written. That, as well as picking up the fairy tale-based novel I began earlier this year, is what I'll work on once the new calendar year begins. January will bring me copy-edits and rewrites for <i>Everything She Touches Changes</i>, too, so those will keep me busy and angst-y and tearing at my hair for a month or so.
+
+So that's what's going on at the moment. Lots of HTML and CSS, not so much with the articles or reviews or books. Life will return to something approximating normal in a few weeks."
+"eventtime","2006-12-18 12:15:00"
+"current_moodid","14"
+"url","http://amurphyhiscock.livejournal.com/957.html"
+"userid","650"
+"itemid","2"
+"event","Hi, and thanks for stopping by!
+
+Although I've kept a journal in many forms over the years, I've created this LJ to keep you up to date on what's going on with my books, and in my writing life. Feel free to friend it, although I might not friend you back, and that's nothing personal; I just don't have a lot of spare time to read a friends page six miles long!
+
+May life bless you all."
+"eventtime","2006-12-13 16:00:00"
+"url","http://amurphyhiscock.livejournal.com/766.html"
+"userid","650"

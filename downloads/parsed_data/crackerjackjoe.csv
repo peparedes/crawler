@@ -1,0 +1,992 @@
+"names","values"
+"itemid","31"
+"event","Just because it was trendy, I got the DDR pad, but being too cheap to buy DDR, I set up StepMania.  After tracking down device drivers, installing, troubleshooting, mapping keys, installing songs, finally I rested my fingers and let my son do the dancing.
+
+He found it very frustrating to see each song end with ""FAILURE!""  It reminds me of the old computer errors: ""FATAL ERROR! YOU'RE GONNA DIE WHEN YOUR BOSS SEES WHAT YOU DID TO THIS OH SO EXPENSIVE COMPUTER!  NOW READ THIS HEX AND WEEP FOR YOUR SOUL! Error 0x34FA""
+
+Also, today I learned a little about <a href=""http://www.cafepress.com/goats_all.2900824"">Blerg</a>.  It seems to be a purple monster with horns.  Or a bad day. I'm not sure yet. Google wasn't sure either. Well, blerg it, I'm just going to use it as an expletitive.
+
+Since santa brought me my digital camera, my next creative plan is to make a photographic comic book using <a href=""http://www.mycomicbookcreator.com/content.php?content.10.php"">comic book creator</a> and the Gimp.  Have I time to do this?  Well, maybe if it gets me fired...  My son's been putting together his Christmas legos and we've been taking pictures.  It wasn't too hard to do close up shots once I read the manual.  Like most lego comics artists, I'm going to have to use Gimp to add in the blood, guts and blerg.
+
+In other news, <a href=""http://cvswriters.com/submissions.php"">Melissa submitted for CVS</a>! A very good submission, too! I think all I contribute in the way of critique here is routine praise.
+
+I've been sort of writing, if you can call jumbled blogging writing. I now have, count them, 1, 2, 3, 4, 
+<a href=""http://suburbandestiny.com"">active blogs</a>.  Soon I will be more famous than <a href=""http://scobleizer.wordpress.com/"">Robert Scobble</a>! Well OK--a narrow group of geeks know who he is, and he's published a real dead tree book.
+
+So, time for a quiz to see if you were paying attention or just skimming. What does blerg mean? Hmm? Louder? I don't think that is quite right--
+
+FAILURE!"
+"eventtime","2006-01-16 21:20:00"
+"url","http://crackerjackjoe.livejournal.com/8013.html"
+"userid","3191"
+"itemid","30"
+"event","<a href=""http://www.comics.com/comics/monty/index.html"">What my cat would probably do at the library</a>."
+"eventtime","2005-11-06 13:10:00"
+"url","http://crackerjackjoe.livejournal.com/7687.html"
+"userid","3191"
+"itemid","29"
+"event","The nano win date is now about January first. OK. Back to writing.  My character needs to start an internecine struggle and so verbosely."
+"eventtime","2005-11-01 19:12:00"
+"url","http://crackerjackjoe.livejournal.com/7434.html"
+"userid","3191"
+"itemid","28"
+"event","The new strategy is write large blocks of time using an previously written outline.
+
+If I write 6800 words per day for all the weekends, I'd have a book. That has got to be something close to a 6 hour block of time. Likewise, if I wrote no weekends and wrote 2800 words a day I'd have a book--again about a 3 or 4 hour block of time. If I miss my goal about 50% of the time, I'd still win NaNo, if I hit my goal each time, I'd have a commerically viable book and I will retire rich enough to spend the rest of my days in a favela in Basilia, Brazil.
+
+The key enemies to success are:
+
+Good house keeping
+Cooking
+Working at the office
+Exercising
+Comics and BoingBoing"
+"eventtime","2005-10-29 16:44:00"
+"url","http://crackerjackjoe.livejournal.com/7372.html"
+"userid","3191"
+"itemid","27"
+"event","Dana keeps losing her keys, can't remember my name, etc.  It's a tragic disease, very heart wrenching to watch.
+
+So I spent $10 on <a href=""http://standalone.com/palmos/right_back_up/"">Right Back up</a>.  
+
+With paliative care and therapy, hopefully I won't have to euthenize Dana."
+"eventtime","2005-10-29 16:18:00"
+"url","http://crackerjackjoe.livejournal.com/7108.html"
+"userid","3191"
+"itemid","26"
+"event","Went to Starbucks Coffee on Clarendon Blvd.  I give it four stars as a place to write.  Don't forget to take your Dana and a mug for a 10c discount.
+
+If something is worth doing, it is worth overcomplicating.  I've got the Dana and a goal of finishing NaNoWriMo, so today I spent some time getting ready and complicating things....
+
+Alright, eight keys, so I've set them up like this:
+
+<b>F1- Novel outline.</b>  I never know what to write next when I'm writing prose, but I can generate ideas pretty quick if I don't actually have to describe the action and only need to list it.
+<b>F2- 1st 3rd of novel</b>
+<b>F3- 2nd 3rd of novel</b>  I can't write linearly to save me.
+<b>F4- 3rd 3rd of novel</b>
+<b>F5- Map of Dana, Map of world.</b>  I thinking of ripping off the names of streets in Clarendon for all my place name needs.
+<b>F6- Personae dramatis.</b>  Actually, this is just a list of 24 names, 1 per letter of the alphabet.  I can't tell you how many times I'm writing along and I just stop because I need a name and can't think of one.  OK, I can tell, you.  It was 14 times.
+<b>F7- Prologue, Epilogue.</b>  This isn't part of the novel, so I think this is fair game for October work.  Last novel didn't really get going until I had a reasonable vision of my two main characters.  This time around I'm having a hard time imagining the world.
+<b>F8- NaNoWriMo Manifesto.</b>  All the things I love about novels, all the things I hate about novels.  Plus my lists of story questions, lists of conflicts, etc.
+
+Now I have five things to do when the prose typing has slowed.  My theory is that if I can just keep typing something, I can get back into the groove.
+
+Last novel was extremely jumbled.  This created an editing problem.  I needed to yank the naughty bits, list the factual stuff that needed to be researched, put the story into roughly chronological order, etc. 
+
+I could have written linearly, but that is too easy.  I could have inserted each new scene into the appropriate place, but that requires stopping and searching through several thousand words for a suitable place to plug in the relevant scene.  That costs word count.
+
+My solution is to use XML tags, like:
+<code>
+< <b>scene</b> <b>time</b>=""1"" > blah, blah, blah < /<b>scene</b> >
+< <b>scene</b> <b>time</b>=""50"" > blah, blah, blah < /<b>scene</b> >
+< <b>scene</b> <b>time</b>=""25"" >< <b>pr0n</b> > blah, < <b>need_info</b> >blah< /<b>need_info</b> >, blah < /<b>pr0n</b>> blah blah blah < /<b>scene</b> >
+</code>
+
+Then, come December, I can whip out a pocket Swiss XML parser, sort the scenes by time, generate an G rated version for friends and family and an R rated version for posting on the scroupleless internet, and generate a list of sentences with shaky factual content that I need to google.
+
+Also, this year I will not use italics.  I will not use italics for foreign words because foreign depends on how much you know about a words history and how stupid you think the general population is.  I will not use italics for characters thoughts because I'm going to try to keep my characters from engaging in pointless thinking.  This year, due to a lack of suitable punctuation, my characters will be forced to make rash decisions and make rude, thoughtless comments to each other."
+"eventtime","2005-10-12 21:41:00"
+"url","http://crackerjackjoe.livejournal.com/6805.html"
+"userid","3191"
+"itemid","25"
+"event","According to newsweek and reputable blogs on the internet, my <a href=""http://www.scienceblog.com/community/older/1998/A/199800280.html"">life style</a> is killing me.  Apparently I need to head out the the smoky bars, sit around, drink <a href=""http://www.chimay.com/www/chimay/site8/en/a_abbaye/a0_frameset.htm"">Chimay</a> and swap jokes with the regulars to save my life.  Or as newsweek said, I should find a girlfriend who's bubbly nature would compensate for my sleepy awkwardness.
+
+<lj-cut>Or failing that, at least there some good events coming up on the calendar.  The <a href=""http://groups.yahoo.com/group/novastargatemeetup/"">Star Gate fan club</a> will be meeting in two weeks. It will be a drive out to Chantilly, but hey, it will be an adventure. The <a href=""http://www.uucava.org/"">local UU</a> has a pretty good looking events calendar if I can get up and go.
+
+I've given up on one of the Amenesty International letter writing groups I used to go to, the other is a schedule conflict with CVS, so I'm mixed--I probably won't make it to one of the AI meetings until December.  
+
+I think I'm going to have to wean myself off of using 'puters for a few month or two.  After you use 'puters long enough, you start to forget how live without them.  I don't know where my phone book is.  I pretty much learn of all my social events from organizations that advertise on the internet.  I'll be at the mercy of the Express and The Paper.  Or I'll relent and use their online calendars and try very hard not to be distracted by <a href=""http://www.boingboing.net/"">boingboing.net</a>.  It probably won't happen, I mean, I can't even pay my bills anymore without the internet.
+
+(Ha! Probably lost some readers there.)
+
+I should take some time to actually sit zazen.  If I'm going to sit zazen at all, I should find a <a href=""http://64.233.161.104/search?q=cache:7CMWq-4HZewJ:www.worldzen.org/potomac.html alexandria zen&hl=en&client=firefox-a"">suitable zendo</a> and sit with other people.  My favorite explanation for why I do what I do is that I am subconsciously sabotaging all my efforts to interact with humanity.  I get out of the apartment, then spend time with people mostly not talking to them.
+
+Newsweek said that if one finds it hard to think of words to say, it sickens the heart.  <a href=""http://www.seeklyrics.com/lyrics/Greenday/Basket-Case.html"">The words</a>, left with no place to escape, seep into the arterial pipes.  First the jagged z's, t's, m's and x's peirce the corenary arterial walls, like little grave markers.  The round o's and u's get tangled in the mess.  Punctuation marks fill in the last gaps and blood stops flowing.
+
+Interestingly, I'm finding out a limiting factor, aside from the fact that I'm just a scaredy cat, is food.  To maintain a steady social schedule, I need to maintain a supply line suitable for an army of one. (Make note to self, buy more MRE's at <a href=""http://www.wholefoodsmarket.com/"">Whole Foods</a>)
+
+I should give up my <a href=""http://suburbandestiny.com/wp/?p=768"">Russian fraudster penpal</a>.  While I feel rather heroic keeping a spam spewing fraud busy answering my emails, it takes time I don't have.  (However, it has been an inspirational activity, too.  If some morality impaired Russian can hack human protocols, why can't I, a much better hacker than them, hack the human social code?)
+
+Would 'uv, should 'uv, could 'uv.
+
+In other news, cat has scratched a hole in his head.  Now I'm going to have to get serious with putting anti-mite medicine in his ears.</lj-cut>"
+"eventtime","2005-09-30 19:01:00"
+"url","http://crackerjackjoe.livejournal.com/6471.html"
+"userid","3191"
+"itemid","24"
+"event","Terry Pratchett was at Olsson's Books.  In summary:
+
+Books write themselves if you've done a good job of imagining the characters.
+Don't cross writers, they know too much about forensic pathology & the like.
+His books are copyrighted in his and his spouse's name for all sorts of reasons--extends the copy right, might cut taxes, and it was only fair since his wife dealt with the fan mail, etc.
+There probably won't be a Discworld movie any time soon."
+"eventtime","2005-09-13 20:03:00"
+"url","http://crackerjackjoe.livejournal.com/6386.html"
+"userid","3191"
+"itemid","23"
+"event","Just in time for getting in the mood to write Nanowrimo.
+
+<a href=""http://www.olssons.com/cgi-cart/events.pl#5947"">Tuesday, September 13, 2005 07:00 PM
+Pratchett, Terry, will be promoting THUD!
+OLSSON'S BOOKS & MUSIC/Speaking/Signing
+2111 Wilson Blvd., Arlington, VA 22201</a>"
+"eventtime","2005-08-28 22:30:00"
+"url","http://crackerjackjoe.livejournal.com/5954.html"
+"userid","3191"
+"itemid","22"
+"event","<lj-cut>
+Hello, my name is Matthew Martin and I am a label.
+
+In particular, I'm an avoidant-personalty.  Since I don't play a psychologist on TV, lets run down the list and then do a check to see if I might be ""diagnosing"" myself wrong.  Diagnosis is a bit strong of a word--since a personality is only a disease or disorder if it bother someone.
+
+>avoids occupational activities that involve significant interpersonal contact, because of fears of criticism, disapproval, or rejection
+
+I'm a code money.  My employer keeps me in the dark and feeds me a steady diet of binary.  If I talk to co-workers, it's all business and I pretty rarely let the conversation get to far away from work.
+
+>is unwilling to get involved with people unless certain of being liked
+
+Yup. That's me.  I should know, after all, I am me.  When I do have to get involved with people, it is just really intense anxiety.  Having a limited capacity for anxiety, I'm eager to see some evidence that there is some reward for enduring the anxiety.
+
+> shows restraint within intimate relationships because of the fear of being shamed or ridiculed
+
+Even around people I've know for a long time, excluding immediate family.  I have this internal dialog that goes on where I sometimes will say only every other thing that I want to say, exactly for this sort of reason.
+
+> is preoccupied with being criticized or rejected in social situations
+
+That's me. Thin skinned and boy does it hurt getting criticized.  One cognative theory for explaining the avoidant personality is that an avoidant ""has a low tolerance for dysphoria.""  It kind of makes sense.  Using an analogy, someone trying to swim the English Channel almost certainly experience some pain, but being talented swimmers, they ignore the cold, the ache, etc.  Normal people, I suspose must be impervious or highly restant to the stings of failed interactions with others.
+
+> is inhibited in new interpersonal situations because of feelings of inadequacy
+
+That's me. I accumulate new acquaintence at a glacial pace. (Is it just me or are these DSM-IV criteria kind of repetitive?)
+
+> views self as socially inept, personally unappealing, or inferior to others
+
+Not always.  I probably think I'm smarter than you. Ironically, I really believe that if I am smarter, then that only contributes to my social ineptitude and lack of personal appeal.  This personality stuff obviously isn't an exact science.  I may be mis-diagnosing myself. In fact, I might not be a sympathetic character with what is essentially some defective programming in my brain.  It might be that I'm suffering from a the mere moral failures and existential failures (failures of resolve and choice) that one finds in perfectly normal people.
+
+> is unusually reluctant to take personal risks or to engage in any new activities because they may prove embarrassing
+
+Look, once I found out how to lj cut my entries, I started lj cutting most of my posts.  I'm tempted to not post this because I sound like I'm trolling for reassurance.  Actually, I'm building up a tolerance for pain--the longer I think about it the stronger I get.
+
+</lj-cut>"
+"eventtime","2005-05-23 16:37:00"
+"url","http://crackerjackjoe.livejournal.com/5678.html"
+"userid","3191"
+"itemid","21"
+"event","I swear I was at the store reading ""Writing with Personality,"" but Amazon doesn't seem to be listing it, or I have misremembered the title.  I'd link it if I could find it.  If I was a paranoid personality, I'd suspect a plot.  But this is a blog post, so that is the last thing anyone should expect.  The book wanted to make sure the writer could write as if they had a personality.  I'm interested in personalities because I want to make sure I write characters with distinct and believable personalities, that is, believable personality disorders.  All happy, functional personalities are alike.
+
+<lj-cut>
+As far as I'm concerned there are three ways to categorize personalities.  There are two kinds of people in the world, those who dived the world into dichotomies and those who don't.  Introvert-Extrovert is one common dichotomy, that is not in favor with me right now.  Introvert has almost become a slur, you might as well say someone has a ""loser personality.""  Let me hasten to add that I fall in the introvert category.  The best definition of introvert/extrovert is that introverts get worn out hanging out with people and extroverts get all excited by hanging out with people.
+
+Briggs Myers has too many categories.  Even if everyone does fall into 2*2*2*2 (16) categories, I can't keep them straight. I'm INTP, but when I read the descriptions, it is a lot like reading astrology, lots of stuff that could easily apply to anyone.
+
+The personality disorder literature has my current favorite classification system. All of the types have two names, one for when the personality traits are useful and functional, one name for when the personality traits cause the person or those around them misery.  Generally, the misery is either anxiety or depression.
+
+A character in a story needs a conflict.  I'll list the personality types and the obvious conflict the character is going to be faced with, given their personality (disorder) and what role one would expect them to play in a novel.
+
+Schizoid (solitary/reclusive)- These people are in a world of their own. Sometimes confused with Avoidant because schizoid's stick to themselves.  Not to be confused with schizophrenic, who are utterly bonkers.  I wouldn't expect a schizoid to get much stage time in a novel, but they would be a good candidate for a stream of consciousness novel.
+
+Schizotypal, eccentric- Weird people.  Again, not to be confused with schizophrenic.  I haven't found a positive connotation word for this type yet.  On the other hand, these are ideal for comedies. Keep at least one schizotypal character in every novel to keep the story from being too serious and to avoid trouble with the schizotypal character worker's union.
+
+Antisocial- The antisocial type believes that the world is a rough hostile place and you have to take advantage of others to survive.  They are the cartoon villains, but they don't think they are being evil. It would be better to see them as nihilists. Not to be confused with schizotypal or avoidant.  Antisocial people are willing to be very mean to other people.    When you need to write a villain, reach for an antisocial instead.
+
+Histrionic- People that want to be at the center of attention.  Seductive or macho depending on gender.  These people are heroes and celebrities.  Since histrionics want to be at the center of attention, it only make sense that they would be a MC.
+
+Narcissistic. These people suspect they are unique.  From this belief follows a lot of self centered behavior.  Again, not to be confused with anti-social types, who also can be mean sorts.  The narcissist is subject to hubris, so on paper, they are constantly creating great story conflicts by overestimating their abilities.
+
+Avoidant/Sensitive. Have a low tolerance for the psychic pain of dealing with people. Avoidants keeps away from others, but find the lifestyle lonely, unlike the schizoid, has no problem being alone.  I'm not sure that characters with this type would make good characters.
+
+Dependent- People that, well, are dependant on having others do everything.  Dependents give a writer an easy story conflict- separate them from their beloved and you'll generate several chapters.
+
+Obsessive-Compulsive/Conscientious - People who 'own truth'.   They know they are right and from this a lot of rigid, perfectionist behavior flows. These characters fulfill their personality type because they desperately need to adhere to it to be who they think they are.  Let these characters edit your book, after you've finished writing it, they are very good at it.
+
+Borderline- Volatile and uncooperative.  Psychologists don't like studying these people because they are, well, volatile and uncooperative. The borderline is famous for the love-hate relationships.  Your novel and your relationship novel is probably a lot like a relationship with a borderline.  Borderline personalities are unsympathetic, so a character that is schedule to fall from grace would be easier to write as a borderline.
+
+Paranoid, cautious- Someone who perceives threats.  It becomes a disorder when the threats aren't real or likely.  Characters in good novels really are the targets of devious plots.  The author really is out to get the poor little character.  The villain really does have plans for the hero that involve lasers and subterranean dungeons.  A character feeling a bit persecuted and cautious would be perfectly sane, give his circumstances.
+</lj-cut>"
+"eventtime","2005-05-22 20:18:00"
+"url","http://crackerjackjoe.livejournal.com/5412.html"
+"userid","3191"
+"itemid","20"
+"event","I started thinking about this while critiquing a scary shorty story.
+
+<strong>Not scary or squicky to read about.</strong>
+Thunderstorms.
+Ghosts.
+Blood & guts.
+Villians.  They make me mad.
+
+Actually having these happen to me would probably be a different story.  Next time I meet Darth Vader on a dark and rainy night, I'll let you know how it went.
+
+<strong>Very scary & squicky</strong>
+Symptom descriptions (especially knee, joint stuff)  Sometimes it is called medical student syndrome, when you read about descriptions of symptoms and you feel them youself.  Also called sympathetic symptoms.  Even a vague description of someone's knee caps being shot makes me want to sit down.
+
+Dealing with strangers is scary, but reading about just strangers isn't as big a deal as reading about someone deal with strangers in the awkward and clunky way that I'm afraid that I would.  Some comedies that rely on humiliation as a gag fail on me for that reasons.  I've read social anxiety has it's roots in the subsystem of all mammalian brains that make them skittish around others.  It makes sense because animals that are universally friendly, including friendly to predators have all been eatten, leaving only those with tendancies to social anxiety.
+
+I can tell you now that when Darth Vader takes insult to my awkward introduction and slices through my knee caps with a light saber, I will be really squicked."
+"eventtime","2005-04-28 11:30:00"
+"url","http://crackerjackjoe.livejournal.com/5370.html"
+"userid","3191"
+"itemid","19"
+"event","Wow, some HR gnome saw my current resume and absolutely zapped me.  I mean, I think I'd rather have gotten the form letter, ""While your qualifications are impressive, we don't think you are a good fit for this position, good luck in your search.""  Instead I got a 'helpful' zap.
+
+The advice that the resume was too long, was well taken, and I plan to ignore it, although I will ask head hunters in the future if they would get bent out of shape if I gave them a two or three page resume.
+
+What really bites is the advice I get a book and learn to write a resume, presupposes that I haven't read the canned advice, (keep to one page, use action verbs, don't talk about your job waiting tables if it doesn't apply, etc.)
+
+In my defense, my resume does need three pages.  When people talk about computer work, if you put skill 1, skill 2, and skill 3 on your resume, people tend to interpret that in the most narrow way possible.  How are they to know that Visual Basic for Applications and VB6 are actually virtually identical? To a HR gnome, these are vastly different positions.  Or that almost using all ANSI databases for most task require essential the same skill?  I'd write six dozen resumes tailored for each imaginable one page combination of skills, but I don't have time.  I got a job that pays real money and not hypothetical money, and that job isn't leaving me enough time to knock myself out looking for work.  By the way, HR gnome, you called me, all I did was leave my resume on monster.com for six years.
+
+What doubly bites is the advice that I reformat it, but the without exactly saying what my formatting fox paw was, it just reinforces the implication that I haven't a clue on how to write a resume and must be making it up as I go along.  Besides, doesn't everyone use rainbow blink for their digital resume? It's cool.
+
+The HR gnome, I'm sure, was just trying to be helpful. I was tempted to critique his rejection letter, but I will hold my tongue and blog instead.  I needed a suitable topic to blog about today anyhow."
+"eventtime","2005-04-06 18:45:00"
+"url","http://crackerjackjoe.livejournal.com/5069.html"
+"userid","3191"
+"itemid","18"
+"event","Aparently the knitting fad has hit the <a href=""http://www.cabinetmagazine.org/issues/16/crocheting.php"">mathematician community</a> as well."
+"eventtime","2005-04-01 14:28:00"
+"url","http://crackerjackjoe.livejournal.com/4712.html"
+"userid","3191"
+"itemid","17"
+"event","When will we unravel the memeome? Will the rice meneome be larger than the human memeome? Should couples get memetic testing before they date? Do we have opinions or merely memetic disease? If you get an idea from your cat, do you become a cat/human hybrid on the memetic level?  Is an ideology a meme's chromosome?  Genes are 90% genetic junk, molecular programming that serves no purpose, but just keeps getting copied, and copied because that's what genes do best. To keep pushing the analogy, this is a memetic basis for <a href=""http://c2.com/cgi/wiki?SturgeonsLaw"">Sturgeon's Law</a>, 90% of all sci-fi (and everything) is crap."
+"eventtime","2005-03-25 05:15:00"
+"url","http://crackerjackjoe.livejournal.com/4438.html"
+"userid","3191"
+"itemid","16"
+"event","I saw the graphic novelists at the CVS meeting and was going to ask them how they storyboard (a movie or comic books version of an outline), but I don't think there was enough time to do any justice to the topic.
+
+They did mention <a href=""http://poptown.net/22panels.JPG"">22 panels that always work</a>.  They also mentioned that you don't need to be able to draw beautiful art to make a graphic story work.  For example, <a href=""http://www.reallifecomics.com"">RealLifeComics.com</a>, he does 4 panel comics which it is obvious that he draws a character once and then uses cut and paste on the computer to reproduce it in the other 3 panels. (He is a pretty good artist, but that is beside the point) Then I thought, ""Ah, ha, 
+that would make for a good writing workshop or exercise...<lj-cut>
+
+A way to visually outline a story!
+
+Get the 22 panels, print out a bunch with lots of duplicates of each, cut them apart, then either by paperclipping taping, use them to illustrate a novel outline. Pick a frame, write a few dialog snippets and maybe a scene question, and repeat.
+
+Bizzare way #2 is to use SQL, which is a topic for another day, since it probably is only of interest to the intersection of the set of people who are amateur novelists and database programmers.
+</lj-cut>"
+"eventtime","2005-03-04 15:11:00"
+"url","http://crackerjackjoe.livejournal.com/4150.html"
+"userid","3191"
+"itemid","15"
+"event","I'm in breach of contract with myself. I've hired two lawyers to defend and prosecute myself for falling behind on my contract with myself to write 50,000 words in 30 days...
+<lj-cut>
+I've learned:
+
+I write 900 words per hour, if I have outline.  Without outline, I write something close to 0 to 900 words per hour.
+
+I can write for about 2 hours before I turn into a hyperactive 4 year old.  Scheduling 6 hour writing block isn't realistic.
+
+I can't work, take care of my apatment and life, get out to meetups and write 7 days a week.  I need a day of no writing.  Yaweh was on to something when he decread 1/7 of our lives should be spent in sloth.
+
+I can write at the office 200-300 words 1/3 of the time.
+
+Excel now says I write 28,568 words per month.  So I will need about 2 months to finish a novel.
+
+</lj-cut>"
+"eventtime","2005-02-20 11:00:00"
+"url","http://crackerjackjoe.livejournal.com/4007.html"
+"userid","3191"
+"itemid","14"
+"event","To help further the hyperlegalization of US society, here is my out of season NaNo Contract with modifications--
+
+<lj-cut>
+Modified Month-Long Novelist Contract (Ripped off from <a href=""http://www.amazon.com/exec/obidos/tg/detail/-/0811845052/qid=1108393337/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/104-6596261-8735156?v=glance&s=books&n=507846"">Jeff Baty</a>, now go buy the book. My modifications in bold)
+
+<strong>For consideration of one chocolate bar in favor of the writer upon completion.</strong>
+
+<strong>Having sworn that I have completed an outline of 40 scenes,</strong>
+
+<strong>The parties to the agreement:
+Matthew Martin (the writer, hereafter referred to as 'I')
+Matthew Martin (the client, hereafter referred to as that 'Rat bastard who wanted to write a book' or 'me') 
+
+Do so agree, </strong>
+
+That I will write a 50,000-word novel in one month's time. By invoking an absurd, month-long deadline on such an enormous undertaking, I understand that notions of ""craft,"" ""brilliance,"" and ""competency"" are to be chucked right out the window, where they will remain, ignored, until they are retrieved for the editing process. I understand that I am a talented person, capable of heroic acts of creativity, and I will give myself enough time over the course of the next month to allow my innate gifts to come to the surface, unmolested by self-doubt, self-criticism, and other acts of self-bullying.
+
+During the month ahead, I realize I will produce clunky dialogue, cliched characters, and deeply flawed plots. I agree that all of these things will be left in my rough draft, to be corrected and/or excised at a later point. I understand my right to withhold my manuscript from all readers until I deem it completed. I also acknowledge my right as author to substantially inflate both the quality of the rough draft and the rigors of the writing process should such inflation prove useful in garnering me respect and attention, or freedom from participation in onerous household chores.
+
+I acknowledge that the month-long 50,000-word deadline I set for myself is absolute and unchangeable, and that any failure to meet the deadline, or any effort on my part to move the deadline once the adventure has begun, will invite well-deserved mockery from friends and family. I also acknowledge that, upon successful completion of the stated noveling objective, I am entitled to a period of gleeful celebration and revelry, the duration and intensity of which may preclude me from participating fully in household activities for days, if not weeks, afterward.
+
+<strong>I also hereby acknowledge that I will stick to the current outline and I will put all great ideas for irrelevant scenes into a notebook for the next novel.</strong>
+
+<strong>Signed: Matthew Martin
+Date: February 12, 2005
+Novel Start Date: 8AM Valentines Day, February 14, 2005
+Novel Deadline: 12 Midnight, March 14th, 2005</strong>
+</lj-cut>"
+"eventtime","2005-02-14 09:59:00"
+"url","http://crackerjackjoe.livejournal.com/3829.html"
+"userid","3191"
+"itemid","13"
+"event","There has got to be a better way to budget for a 30 day novel other than making a goal of writing 1666 words a day.
+
+Here's my thoughts on the matter--
+<lj-cut>
+<b>I will never write 1666 words a day for 30 days.</b>  My free time follows a seven day cycle, with more time for writing on weekends than weekdays, more time for writing on MWF than T-Th.  I got custody 4 days a month.  Plus there is a holiday,  president's day.  And I gotta make it to the gym a few times a week.  Considering all this, my word budget is 2500, 1500, 2500, 1500, 2500, 5000 and 5000 words per day respectively for the first week.
+
+<b>Reality Based</b>A goal of 1666 words doesn't take into consideration how fast I can expect to type and how many hours I have available that day.  I started with my expected number of hours, a speed of 1000 words per hour
+
+<b>Padding to prevent discouragement</b>  Now on the otherhand, if I did use a simple budget of 1666 words per day, and I fell behind, by not writing or underwriting, then the daily goal goes up (missed day one, oops, now you need to write 1724 words a day!) and that is hard on motivation.  The day I was 10,000 words behind with one day left in the contest, I wrote zero words, even though I could have written 2000 with suitable motivation. Who wants to see the road getting steeper as we move along?  My budget has 5000 extra words, so I can miss a day or two without switching to a punishment word budget.
+
+<b>Scaling</b> If I go over budget, my goals should fall proportionately, but if I go under, the goals shouldn't change until my padding is used up.  This rewards overwriting, but doesn't punish underwriting as seriously, so the budget is more carrot and less stick.  I'll write the code for that as soon as I finish my novel.
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=640 style='border-collapse:collapse;table-layout:fixed;width:480pt'>th=64 span=10 style='width:48pt'>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=8 width=512 style='height:12.75pt;mso-ignore:colspan;width:384pt'>&quot;A slow writer can write 800 words per hour, a speedy one,  twice that.&quot; Jeff Baty</td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'>Hours</td>
+  <td align=right x:num>5</td>
+  <td align=right x:num>2.5</td>
+  <td align=right x:num>2</td>
+  <td align=right x:num>2.5</td>
+
+  <td align=right x:num>2</td>
+  <td align=right x:num>2.5</td>
+  <td align=right x:num>5</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'>Speed</td>
+
+  <td align=right x:num>1000</td>
+  <td align=right x:num x:fmla=""=B3"">1000</td>
+  <td align=right x:num x:fmla=""=C3"">1000</td>
+  <td align=right x:num x:fmla=""=D3"">1000</td>
+  <td align=right x:num x:fmla=""=E3"">1000</td>
+  <td align=right x:num x:fmla=""=F3"">1000</td>
+
+  <td align=right x:num x:fmla=""=G3"">1000</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'>Base Goal</td>
+  <td align=right x:num x:fmla=""=B3*B2"">5000</td>
+  <td align=right x:num x:fmla=""=C3*C2"">2500</td>
+
+  <td align=right x:num x:fmla=""=D3*D2"">2000</td>
+  <td align=right x:num x:fmla=""=E3*E2"">2500</td>
+  <td align=right x:num x:fmla=""=F3*F2"">2000</td>
+  <td align=right x:num x:fmla=""=G3*G2"">2500</td>
+  <td align=right x:num x:fmla=""=H3*H2"">5000</td>
+  <td>Word</td>
+
+  <td>Day</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl24>Sun</td>
+  <td class=xl24>Mon</td>
+  <td class=xl24>Tue</td>
+
+  <td class=xl24>Wed</td>
+  <td class=xl24>Thu</td>
+  <td class=xl24>Fri</td>
+  <td class=xl24>Sat</td>
+  <td>Count</td>
+  <td>Count</td>
+
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl24></td>
+  <td class=xl25 align=right x:num>14</td>
+  <td class=xl25 align=right x:num>15</td>
+  <td class=xl25 align=right x:num>16</td>
+
+  <td class=xl25 align=right x:num>17</td>
+  <td class=xl25 align=right x:num>18</td>
+  <td class=xl25 align=right x:num>19</td>
+  <td></td>
+  <td align=right x:num x:fmla=""=COUNT(B6:H6)"">6</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+
+  <td height=17 style='height:12.75pt'>Factor</td>
+  <td></td>
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""0.75"">75%</td>
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""0.75"">75%</td>
+
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'>Goal</td>
+  <td></td>
+
+  <td align=right x:num x:fmla=""=C7*C4"">2500</td>
+  <td align=right x:num x:fmla=""=D7*D4"">1500</td>
+  <td align=right x:num x:fmla=""=E7*E4"">2500</td>
+  <td align=right x:num x:fmla=""=F7*F4"">1500</td>
+  <td align=right x:num x:fmla=""=G7*G4"">2500</td>
+  <td align=right x:num x:fmla=""=H7*H4"">5000</td>
+
+  <td align=right x:num x:fmla=""=SUM(C8:H8)"">15500</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl25 align=right x:num x:fmla=""=H6+1"">20</td>
+  <td class=xl25 align=right x:num x:fmla=""=B9+1"">21</td>
+
+  <td class=xl25 align=right x:num x:fmla=""=C9+1"">22</td>
+  <td class=xl25 align=right x:num x:fmla=""=D9+1"">23</td>
+  <td class=xl25 align=right x:num x:fmla=""=E9+1"">24</td>
+  <td class=xl25 align=right x:num x:fmla=""=F9+1"">25</td>
+  <td class=xl25 align=right x:num x:fmla=""=G9+1"">26</td>
+  <td></td>
+
+  <td align=right x:num x:fmla=""=COUNT(B9:H9)"">7</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'>Factor</td>
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""2"">200%</td>
+  <td class=xl26 align=right x:num=""0.75"">75%</td>
+
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""0.75"">75%</td>
+  <td class=xl26 align=right x:num=""00.1"">10%</td>
+  <td class=xl26 align=right x:num=""00.1"">10%</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+
+  <td height=17 style='height:12.75pt'>Goal</td>
+  <td align=right x:num x:fmla=""=B10*B4"">5000</td>
+  <td align=right x:num x:fmla=""=C10*C4"">5000</td>
+  <td align=right x:num x:fmla=""=D10*D4"">1500</td>
+  <td align=right x:num x:fmla=""=E10*E4"">2500</td>
+  <td align=right x:num x:fmla=""=F10*F4"">1500</td>
+
+  <td align=right x:num x:fmla=""=G10*G4"">250</td>
+  <td align=right x:num x:fmla=""=H10*H4"">500</td>
+  <td align=right x:num x:fmla=""=SUM(C11:H11)"">11250</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+
+  <td class=xl25 align=right x:num x:fmla=""=H9+1"">27</td>
+  <td class=xl25 align=right x:num x:fmla=""=B12+1"">28</td>
+  <td class=xl25 align=right x:num>1</td>
+  <td class=xl25 align=right x:num x:fmla=""=D12+1"">2</td>
+  <td class=xl25 align=right x:num x:fmla=""=E12+1"">3</td>
+  <td class=xl25 align=right x:num x:fmla=""=F12+1"">4</td>
+
+  <td class=xl25 align=right x:num x:fmla=""=G12+1"">5</td>
+  <td></td>
+  <td align=right x:num x:fmla=""=COUNT(B12:H12)"">7</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 style='height:13.5pt'>Factor</td>
+  <td class=xl26 align=right x:num=""0.5"">50%</td>
+
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""0.75"">75%</td>
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""0.75"">75%</td>
+  <td class=xl26 align=right x:num=""00.1"">10%</td>
+  <td class=xl26 align=right x:num=""00.1"">10%</td>
+
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 style='height:13.5pt'>Goal</td>
+  <td align=right x:num x:fmla=""=B13*B4"">2500</td>
+  <td align=right x:num x:fmla=""=C13*C4"">2500</td>
+  <td align=right x:num x:fmla=""=D13*D4"">1500</td>
+
+  <td align=right x:num x:fmla=""=E13*E4"">2500</td>
+  <td align=right x:num x:fmla=""=F13*F4"">1500</td>
+  <td align=right x:num x:fmla=""=G13*G4"">250</td>
+  <td align=right x:num x:fmla=""=H13*H4"">500</td>
+  <td align=right x:num x:fmla=""=SUM(C14:H14)"">8750</td>
+  <td></td>
+
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl25 align=right x:num x:fmla=""=H12+1"">6</td>
+  <td class=xl25 align=right x:num x:fmla=""=B15+1"">7</td>
+  <td class=xl25 align=right x:num x:fmla=""=C15+1"">8</td>
+  <td class=xl25 align=right x:num x:fmla=""=D15+1"">9</td>
+
+  <td class=xl25 align=right x:num x:fmla=""=E15+1"">10</td>
+  <td class=xl25 align=right x:num x:fmla=""=F15+1"">11</td>
+  <td class=xl25 align=right x:num x:fmla=""=G15+1"">12</td>
+  <td></td>
+  <td align=right x:num x:fmla=""=COUNT(B15:H15)"">7</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+
+  <td height=17 style='height:12.75pt'>Factor</td>
+  <td class=xl26 align=right x:num=""0.5"">50%</td>
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""0.75"">75%</td>
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""0.75"">75%</td>
+
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'>Goal</td>
+  <td align=right x:num x:fmla=""=B16*B4"">2500</td>
+
+  <td align=right x:num x:fmla=""=C16*C4"">2500</td>
+  <td align=right x:num x:fmla=""=D16*D4"">1500</td>
+  <td align=right x:num x:fmla=""=E16*E4"">2500</td>
+  <td align=right x:num x:fmla=""=F16*F4"">1500</td>
+  <td align=right x:num x:fmla=""=G16*G4"">2500</td>
+  <td align=right x:num x:fmla=""=H16*H4"">5000</td>
+
+  <td align=right x:num x:fmla=""=SUM(C17:H17)"">15500</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl25 align=right x:num x:fmla=""=H15+1"">13</td>
+  <td class=xl25 align=right x:num x:fmla=""=B18+1"">14</td>
+
+  <td class=xl25 align=right x:num x:fmla=""=C18+1"">15</td>
+  <td colspan=4 class=xl24 style='mso-ignore:colspan'></td>
+  <td></td>
+  <td align=right x:num x:fmla=""=COUNT(B18:H18)"">3</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'>Factor</td>
+
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""1"">100%</td>
+  <td class=xl26 align=right x:num=""0.75"">75%</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'>Goal</td>
+
+  <td align=right x:num x:fmla=""=B19*B4"">5000</td>
+  <td align=right x:num x:fmla=""=C19*C4"">2500</td>
+  <td align=right x:num x:fmla=""=D19*D4"">1500</td>
+  <td colspan=4 style='mso-ignore:colspan'></td>
+  <td align=right x:num x:fmla=""=SUM(C20:H20)"">4000</td>
+  <td align=right x:num x:fmla=""=SUM(J6:J19)"">30</td>
+
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=8 style='height:12.75pt;mso-ignore:colspan'></td>
+  <td class=xl24 align=right x:num x:fmla=""=SUM(I8:I20)"">55000</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=2 style='height:12.75pt;mso-ignore:colspan'>Items modeled</td>
+
+  <td colspan=8 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=4 style='height:12.75pt;mso-ignore:colspan'>President's day holiday-- treat like weekend</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=4 style='height:12.75pt;mso-ignore:colspan'>Custody-- weekends, 10% of regular output</td>
+
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=4 style='height:12.75pt;mso-ignore:colspan'>Meetups/groups 75% of regular output</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=3 style='height:12.75pt;mso-ignore:colspan'>Speed - 62% of theoretical max</td>
+
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+</table>
+</lj-cut>"
+"eventtime","2005-02-12 22:46:00"
+"url","http://crackerjackjoe.livejournal.com/3385.html"
+"userid","3191"
+"itemid","12"
+"event","Do you write novels? Do you have fond memories of algebra class?
+
+If so read on---
+<lj-cut>
+Equation: (Goal/Typical Scene)/(1-% of dreck) = # of scenes to outline
+
+or G/W/(1-d)=S
+
+G: Novel length goal: 50,000
+
+W: Typical scene length 1500 words. This assumes that a scene is a combination of a scene and a sequel.
+
+% Cut
+Some scenes will be cut for not being relevant to the story question, some scenes will be dreck that can be safely removed.
+
+If 20% of my scenes are unfit for rewrite then
+
+Scenes to outline = (50000/1500)/(.8)
+
+So that is 41 scenes.
+
+It seems like there should be some adjusting factors for genre and the ratio of words to story time.  For example, action stories you'd expect shorter scenes.  A novel that covers just a few days or hours would probably have very long scenes, while a epic history would have tons of scenes.  These factor can't be derived without gathering data, and I'd much rather do armchair theory.
+
+Character to Scene Ratio
+The main character should get more scenes than the antagonist, who should get more scenes than the love intrest.  The exact ratios would have to be derived by gathering data from real books.
+
+How many main characters?
+A novel can have an number of minor characters who have only token participation in the scene that is equal to the goal number of words to write.  That novel would be experamental. 
+
+A novel shouldn't have more than about 4 or 5 main characters, a scene shouldn't have more than about 4 characters.  The main characters should appear in most scenes, lets say half of the MC appear in all the scenes.
+
+(Scenes * Max per scene) + (Main characters * 1/2 * Scenes )
+or
+(S * Max) - (MC * 1/2 * S )
+
+So the upper bound is 82 characters, main and minor
+
+The lower bound is just the main characters or 4.
+
+This range is too great, so I'll have to introduce a 'stick around' factor.  Minor characters have to stick around for 5 scenes on average.  So the scenes left over after the MC characters take up their space is divided by 5.
+
+((S* Max) - (MC * 1/2 * S) )/5
+
+So I need about 16 characters.
+</lj-cut>"
+"eventtime","2005-02-10 18:01:00"
+"url","http://crackerjackjoe.livejournal.com/3243.html"
+"userid","3191"
+"itemid","10"
+"event","Random Scene Structure Links
+<a href=""http://www.rsingermanson.com/html/perfect_scene.html"">Prefect Scene</a>
+This guy uses the ""scene"" and ""sequel"" jargon, too.
+
+From above link:
+<quote>
+A Scene has the following three-part pattern:
+    * Goal
+    * Conflict
+    * Disaster [This is a melodramatic jargon word for a setback]
+
+A Sequel has the following three-part pattern:
+    * Reaction
+    * Dilemma
+    * Decision
+</quote>
+
+My favorite book divides Sequel into - emotional reaction, thought, plan of action
+
+The general idea is that the Scene/Sequel structure is the basic structure and all novel writing is just variants on this theme.
+
+My favorite book talks about MC goals, but also talks about a scene question. A scene question works better for me.  
+My working definition for conflict: something or someone that wants the main character to fail.
+
+The very last scene of a novel won't necessarily have a disaster or set back.  If it doesn't, then the writer is holding open an opportunity for a sequel, which in my opinion is just a weak ending.
+
+My favorite book calls dilemma 'thinking'.  A dilemma is a choice without good solutions.  This is something of philosophical stand, but a writer controls the words, so he can choose that the character only considers a bunch of bad options.  Try not to create a delimma that ignores obvious easy, good solutions.  That just creates an unmotivated character, one of my pet peeves.
+
+Speaking of lack of motivation, at a microlevel scenes get organized with cause & effect (I've also seen motivation-reaction).  In a scene lots of visible things happen.  Readers expect things to make more sense than they do in real life, so what ever happens, it needs a cause or a motivation.  The motivation for a character is what they see or hear.  The cause for anything is the answer to: ""Why did that happen?""
+
+What Scene/Sequel analysis doesn't usually mention is exposition.  Exposition is neither scene nor sequel, it is piling on facts. Exposition seems to work best when you give the reader one factoid about the story world exactly when he needs it, and is biased towards leaving the reader in the dark about the details of how the world works.  This I think is different from giving a reader a 2 paragraph lecture in how the world works, and different from giving the reader the 'cause' from a cause & effect structure.
+
+<a href=""http://www.patriciakay.com/articles/article4.html"">Yet another article on Scene/Sequel</a>  This article is much wordier.
+<a href=""http://www.crimsonbird.com/writers/scene-structure.htm"">Review of my favorite book</a>
+<a href=""http://www.eharlequin.com/cms/learntowrite/ltwArticle.jhtml;jsessionid=M4KDY02N4FQD5LAUEAKSAOQ?pageID=040901wc01001"">Scene Structure</a> Wasn't impressed with this article.
+
+<a href=""http://64.233.161.104/search?q=cache:LEkgbcZjs2cJ:www.hotkey.net.au/~melinda1/scene.htm+scene+sequel&hl=en"">Yet another Scene/Sequel article</a>
+<a href=""http://www.csfwg.org/archive/2002-01_article-how_to_create_realistic_scenes2-scene_versus_sequel.pdf"">A pdf about scene and sequel</a>"
+"eventtime","2005-02-02 17:36:00"
+"url","http://crackerjackjoe.livejournal.com/2689.html"
+"userid","3191"
+"itemid","11"
+"event","Fuzzy Word #1: Outline.  An outline is an heirarchial list, something of the form:
+<pre>
+A
+   1 - Space station hit by meteor
+   2 - New wing of station is built, but immediatly loses power, heat is 50% of normal, etc
+   3 - Space station hit by tourism embargo
+B
+   1 - Revolutionaries take over administration building
+   2 - Fire strikes two buildings on space station
+   3 - Atmosphere scrubbers break
+C
+   1 - Election
+   2 - Mayor wins re-election
+</pre>
+
+If A means first part, B means middle part, C means end part, then the grouping is no more useful than an non-heirachial list, like:
+1 this happens
+2 that happens
+3 the next thing happens
+4 ...
+
+Fuzzy Word #2
+Plot. Things that happened.
+
+Fuzzy Word #3
+Hook. Things that got reader's attention.  Unless it is a fish hook, I wouldn't recognize one.
+
+Fuzzy Phrase #4
+Move the plot forward. What this phrase is trying to get at is, ""Does the scene help answer the story question?""  A scene moves the plot foward if you can say, ""Yes, that had to happen, becaue it was a prerequisite for the next, and the next and so on."
+"eventtime","2005-02-02 16:07:00"
+"url","http://crackerjackjoe.livejournal.com/2830.html"
+"userid","3191"
+"itemid","9"
+"event","This is one nasty virus.  Mostly all I can do is lay around in dicomfort, drugged up on Stargate SG-1 episodes."
+"eventtime","2005-01-21 09:57:00"
+"url","http://crackerjackjoe.livejournal.com/2518.html"
+"userid","3191"
+"itemid","8"
+"event","Terry Brooks says it is a good idea to outline.  In theory, with a good outline a book can be written in one draft and one rewrite.  An outline, according to Terry Brooks is not an heirarchially structured list, but like a paragraph or so for each scene.  I think. 
+
+Prepare to see me thinking out loud about outlining the structure of a novel--
+
+Hey, look I've learned how to do an lj cut!  Chop chop!
+<lj-cut>
+A scene according to Scene & Structure is:
+
+An MC with a goal, (that the MC will probably say outloud to make it obvious) ""Must--stay--awake--through---entire--35--DVD--compilation--of--Stargate---""
+an antagonist, (for the conflict)  (Cat)
+a story problem that can be answered with a yes or no (Will Matt see the entire seven season compilation of Stargate or will he give in to the corrupting influence of his cat and fall asleep?)
+a conflict (antagonists doesn't want MC to achieve goal) (Cat, wants to sleep on monitor, sets bad example, tail hangs down in front of monitor)
+The scene is described as a bunch of cause & effect, with possibly an internalization (the MC thinking about what he is doing, what's happening) in between the cause & effect.  A good scene describes moment by moment visible action.  (The cat was cold. The cat jumped onto the monitor.  The DVD player spun the 35th episode, Matt's eyes drooped.)
+ending in a setback (story is over when MC achieves goal, so a scene can't end with an unqualified resolution of MC's goal) (Matthew suceeds, but only after the delirious sleep deprived hallucination scene, the DVD malfunction scene, the power outage scene, the cat unplugging the power scene, etc)
+
+The next scene needs to be a different conflict, otherwise the story is repetitious.
+
+Scenes are connected by sequel. Sequel is a word for a transition, it follows a scene.
+
+In a sequel:
+
+The MC is emotional. (<i>Aiigh! !#$%^!  I'll get that damn cat!</i> thinks Matt.)
+The MC thinks a bit. (""All the world's a stargate episode, and all the men and women merely extras in one episode or another,"" Matthew thinks pensively.)
+The MC makes a decision to take action. (""I will watch standing up, so that I will not fall asleep."")
+
+(Good authors have many variations on the above scene/sequel pattern, lousy authors write too much effect, not enough cause, too much sequel, not enough scene.)
+
+Notice that there is no exposition at all in the novel.  That would be the 'telling' of 'show don't tell'.  Exposition is writing a newspaper article about what happened in the story.  Exposition is writing a text book about the setting.  Exposition is writing a speech for the MC.  Exposition is writing an anthropology lecture for the people in the story.
+
+Now an outline, that is summary and summary is exposition.
+
+I'm not sure what the stucture of my outline will looklike, but it isn't going to be like the outline I used for my last novel which was:
+
+A. Beginning.
+B. Middle.
+C. End.
+
+What doesn't have a beginning, middle and end?  If BME is the structure, then novels and airplanes are isomorphic and novelist should be able to build planes and well as engineers can & vica versa.
+
+Maybe an outline should be like:
+
+Scene
+--MC scene goal?
+--Story problem? (usually 'Will MC achieve scene goal?')
+--How does antagonist hinder the MC?
+--Highlights of action?
+----Cause
+----Effect
+----Cause
+----Effect
+--Set back or qualified success?
+Sequl
+--MC's emotion?
+--MC's thoughts?
+--MC's plan of action?
+Repeat 
+
+</lj-cut>"
+"eventtime","2005-01-12 22:25:00"
+"url","http://crackerjackjoe.livejournal.com/2108.html"
+"userid","3191"
+"itemid","7"
+"event","A song about the other <a href=""http://www2.b3ta.com/birmingham/"">Birmingham</a>. (Flash, medium speed connection required.)"
+"eventtime","2005-01-10 18:59:00"
+"url","http://crackerjackjoe.livejournal.com/1994.html"
+"userid","3191"
+"itemid","6"
+"event","THREE NAMES YOU GO BY:
+1. Sir
+2. Mr.
+3. Young man (although this is getting less frequent)
+
+THREE SCREEN NAMES YOU HAVE HAD:
+1. CrackerJackJoe
+2. The_areaman
+3. -Real Name-
+
+THREE THINGS YOU LIKE ABOUT YOURSELF:
+1. My superior level of evolution
+2. My cosmic perfection
+3. My radiance
+
+THREE THINGS YOU HATE ABOUT YOURSELF:
+1. Insufferable humility
+2. A tendency to understate
+3. Ridiculous modesty
+
+THREE PARTS OF YOUR HERITAGE:
+1. German
+2. Dutch
+3. Swedish
+
+THREE THINGS THAT SCARE YOU:
+1. Dealing with people, especially crazy people
+2. Public speaking
+3. Public speaking in front of crazy people
+
+THREE OF YOUR EVERYDAY ESSENTIALS:
+1. Coffee
+2. Air
+3. Email
+
+THREE THINGS YOU ARE WEARING RIGHT NOW:
+1. Tie
+2. White shirt
+3. Brown business suit
+
+THREE OF YOUR FAVORITE BANDS OR ARTISTS:
+1. Van Gogh
+2. Vermeer
+3. e. e. cummings
+
+THREE OF YOUR FAVORITE SONGS AT PRESENT:
+1. Soundtrack to 'A Beautiful Mind'
+2. All songs on XM Satellite radio station 'Lucy'
+3. Simpson's theme song, plus most other Danny Elphman songs
+
+THREE NEW THINGS YOU WANT TO TRY IN THE NEXT 12 MONTHS
+1. New and improved Crest(TM) toothpaste
+2. Red Hat Linux
+3. Palm FX2008 wrist watch
+
+THREE THINGS YOU WANT IN A RELATIONSHIP:
+1. Girlfriend
+2. A compatible personality
+3. A joint purpose
+
+TWO TRUTHS AND A LIE:
+1. 1+1=2
+2. 2+2=4
+3. 0=1
+
+THREE PHYSICAL THINGS ABOUT THE OPPOSITE SEX THAT APPEAL TO YOU:
+1. Their gender
+2. Pheromones
+3. J'ne sais quois
+
+THREE THINGS YOU JUST CAN'T DO:
+1. Think of something to write for #1
+2. Write #3
+3. 
+
+THREE OF YOUR FAVORITE HOBBIES:
+1. Playing with small electronic gadgets
+2. Writing
+3. Raising children (or is that a job?)
+
+THREE THINGS YOU WANT TO DO REALLY BADLY RIGHT NOW:
+1. Visit the loo
+2. Finish this list
+3. Go the gym
+
+THREE CAREERS YOU'RE CONSIDERING:
+1. Monk
+2. Database programmer
+3. Small business owner
+
+THREE PLACES YOU WANT TO GO ON VACATION:
+1. Somewhere without an internet connection, reliable electricity or computers
+2. Easter Island or Pitcairn Island
+3. Paris
+
+THREE KIDS' NAMES:
+1. Charlotte
+2. Arnold
+3. Edward
+
+(Odd, I'd rather my next kids were daughters, can't think of suitable names though.)
+
+THREE THINGS YOU WANT TO DO BEFORE YOU DIE:
+1. Write my will
+2. Run up massive debts, just before the collectors start to call
+3. Replace the dishwashing machine
+
+THREE PEOPLE WHO HAVE TO TAKE THIS QUIZ NOW OR DIE PAINFULLY:
+You
+You
+And you over there, yeah, I'm talking to you."
+"eventtime","2005-01-06 14:33:00"
+"url","http://crackerjackjoe.livejournal.com/1612.html"
+"userid","3191"
+"itemid","5"
+"event","Why is NaNo such a broadly successful way of getting people to write a lot?  I think it is because there are linear results to the word count part of writing a novel. Moreover, the work to do and the results are mechanically measurable.  You write 10 words, you're 10 words closer to an objective finish, as opposed to the other nonlinear tasks, such as, outlining, wordbuilding, drawing a map, plot doctoring, for which progress is shadowy and elusive.  
+
+I wouldn't say that Nano is the way to write great literature, I leave the discovery of that methodology to the universities, but for amateur writers like me, writing by the numbers is no worse than amateur painters painting by the numbers.
+
+From these fog of stuff to do on the way to a finished novel, can we isolate the parts that are linear?  Then possibly, we could design a NaNo format that not only leaves you with a helluva long document, but doesn't have such a high risk of being a train wreck.
+
+To win house rules NaNo: (That is *my house*)
+
+<b>Start & Entry Qualifications</b>
+<ol><li>You must have attempted NaNo at least once, otherwise you won't see the motivation for the changes in the rules and the sight of extra work will reduce you're odds of getting started.<li>House Rules NaNo starts any time of the year if it is thoroughly announced to friends, family, strangers on the net, etc
+<li>Fill out a variation on the contract with self as found in Jeff Baty's book, include all the measurable goals below with weekly deadlines.</ol>
+
+<b>Month 1- Prewriting NaNo</b>
+10 Story problems that the protagonist desperate cares about- Again quality doesn't count, just quantity.
+10 potential endings paired to story problem- Quality doesn't count, so if the story problem is that the MC is going bald, an obvious ending is that his hair grows back.  
+15 days of practice writing of 'check in' length or longer (500+ words) for building up endurance and establishing the habit and schedule, of the same genre as the expected target novel.
+20 Characters, including antagonist, protagonist and love interests.
+100 Scenes.
+1 Map with 20 places
++ any other countable prewriting activities that catch your fancy
+
+You don't win if you don't finish the prewriting phase.  If you decide to ditch 100% of the results of prewriting, then prewriting was just practice for generating ideas in a hurry, rather than a foundation layering process.  Personally, I plan to use all my prewriting stuff.
+
+<b>Month 2- Same as Nano, except</b>
+You lose if you fail to write 12,500 words at end of the 1st week, 25,000 words at end of week two, etc.
+
+<b>Month 3-Triage at the site of the train wreck</b>
+<ol><li>Spell check (1 evening)
+<li>Resort scenes if they got out of order in writing  (1 evening)
+<li>Reoutline book
+<li>Copy edit 12,500 words a week.  A page has been measurably copy edited if it is covered with red ink and all pages are equally covered with red ink.  This probably isn't good copyediting, but it is almost measurable.</ol>
+
+<b>The Nonlinear Stuff that Gets Skipped in House Rules NaNo</b>
+-Fill in missing scenes.
+-Rewrite scenes.
+-Plot doctoring in general.  This takes a lot of thinking and inspiration, much harder to schedule or measure.  Maybe a fixed ratio of the scenes can/should be rewritten.
+-Announce novel as done.  This also seems rather hard to measure, except by announcing that the end of the 3 months are up.
+
+'A man, a plan, a novel' is not a palindrome.  If I were making a canal in Central America, at least I'd have had a palindrome.
+
+My next novel will be about the mayor of a space station.  If it has a deep theme, it will be accidental.  Literary is too hard to write on purpose."
+"eventtime","2004-12-20 22:01:00"
+"url","http://crackerjackjoe.livejournal.com/1495.html"
+"userid","3191"
+"itemid","4"
+"event","PGEgaHJlZj0iaHR0cDovL3d3dy50aW1lc29ubGluZS5jby51ay9hcnRpY2xlLzAsLDItMTM4MjM2NiwwMC5odG1sIj5BbHpoZWltZXIncyBjbHVlIGxheSBiZXR3ZWVuIHRoZSBsaW5lczwvYT4NCg0KPGJsb2NrcXVvdGU+DQpJUklTIE1VUkRPQ0jigJlTIGxhc3Qgbm92ZWwgcmV2ZWFscyB0aGUgZmlyc3Qgc2lnbnMgb2YgQWx6aGVpbWVy4oCZcyBkaXNlYXNlLCBhY2NvcmRpbmcgdG8gbmV3IHJlc2VhcmNoLg0KDQpTY2llbnRpc3RzIGZvY3VzZWQgb24gSmFja3NvbuKAmXMgRGlsZW1tYSwgYXMgd2VsbCBhcyBoZXIgZmlyc3QgcHVibGlzaGVkIHdvcmssIFVuZGVyIHRoZSBOZXQsIDE5NTQsIGFib3V0IGEgd3JpdGVyIGluIHBvc3R3YXIgTG9uZG9uIGFuZCBoZXIgQm9va2VyIFByaXplLXdpbm5pbmcgbm92ZWwsIFRoZSBTZWEsIFRoZSBTZWEsIHdyaXR0ZW4gaW4gMTk3OCBhdCB0aGUgaGVpZ2h0IG9mIGhlciBjcmVhdGl2ZSBwb3dlcnMuIFRoZXkgcmVkdWNlZCB0aGUgdGV4dHMgaW50byB3b3JkIGxpc3RzIHNob3dpbmcgdGhlIGZyZXF1ZW5jeSBvZiBlYWNoIHdvcmQgYnkgd29yZCB0eXBlLCB0byBhc3Nlc3MgdGhlIHZvY2FidWxhcnkgdXNlZC4NCg0KVGhleSBmb3VuZCB0aGF0LCB3aGlsZSB0aGUgc3RydWN0dXJlIGFuZCBncmFtbWFyIG9mIE11cmRvY2jigJlzIHdyaXRpbmcgcmVtYWluZWQgcm91Z2hseSBjb25zaXN0ZW50IHRocm91Z2hvdXQgaGVyIGNhcmVlciwgdGhlIG51bWJlciBvZiB3b3JkIHR5cGVzIGluIEphY2tzb27igJlzIERpbGVtbWEgKDkwLDAwNCkgd2FzIGdyZWF0bHkgcmVkdWNlZCBmcm9tIHRob3NlIGluIFRoZSBTZWEsIFRoZSBTZWEgKDIwOSwwODUpLiANCjwvYmxvY2txdW90ZT4NCg0KTm93IEkndmUgZ290IG15c2VsZiBhIGdvb2QgTmFOb1dyaU1vIGV4Y3VzZS4="
+"eventtime","2004-12-01 15:21:00"
+"url","http://crackerjackjoe.livejournal.com/1217.html"
+"userid","3191"
+"itemid","3"
+"event","Not much here, my real blog is at <a href=""http://matt.suburbandestiny.com"">matt.SuburbanDestiny.com</a>.  I use livejournal mostly to read & comment the blogs of people I've met at CVS."
+"eventtime","2004-11-30 09:20:00"
+"url","http://crackerjackjoe.livejournal.com/969.html"
+"userid","3191"
+"itemid","2"
+"event","I don't have a typepad blog anymore, I do have a wordpress blog at <a href=""http://matt.suburbandestiny.com"">Suburban Destiny</a>."
+"eventtime","2004-09-07 21:11:00"
+"url","http://crackerjackjoe.livejournal.com/665.html"
+"userid","3191"
+"itemid","1"
+"event","I now have three blogs, one from blogger, one from typepad, and one from livejournal."
+"eventtime","2004-07-24 10:55:00"
+"current_moodid","61"
+"url","http://crackerjackjoe.livejournal.com/396.html"
+"userid","3191"

@@ -1,0 +1,605 @@
+"names","values"
+"itemid","431"
+"event","VGhlIFdlc3QgQXVzdHJhbGlhbiBuZXdzcGFwZXIgcmVwb3J0ZWQgaW4gaXRzIEp1bHkgOCBlZGl0aW9uIHRoYXQgQ0FOTklCQUwgQ09SUFNFJ3MgT2N0b2JlciBjb25jZXJ0IGluIFBlcnRoLCBBdXN0cmFsaWEgaGFzIHNwYXJrZWQgY2FsbHMgZm9yIHRoZSBiYW5kIHRvIGJlIGJhbm5lZCBvdmVyIGl0cyBhbGxlZ2VkIGdsb3JpZmljYXRpb24gb2YgImNoaWxkIHJhcGUsIHN1aWNpZGUsIG11cmRlciBhbmQgbmVjcm9waGlsaWEiIGluIGl0cyBseXJpY3MuIA0KDQpDb21tdW5pdHkgZ3JvdXBzIGhhdmUgam9pbmVkIHNoYWRvdyBwb2xpY2UgbWluaXN0ZXIgUm9iIEpvaG5zb24gaW4gY2FsbGluZyBmb3IgQ0FOTklCQUwgQ09SUFNFIHRvIGJlIHN0b3BwZWQgZnJvbSBhcHBlYXJpbmcgYXQgQ2x1YiBDYXBpdG9sIG9uIE9jdG9iZXIgMTAuIA0KDQpJbiB0aGUgd2FrZSBvZiB0aGUgbXVyZGVycyBvZiBCYW5qdXAgc2Nob29sZ2lybCBTb2ZpYSBSb2RyaWd1ZXotVXJydXRpYS1TaHUgYW5kIENvbGxpZSB0ZWVuYWdlciBFbGl6YSBKYW5lIERhdmlzLCB0aGUgZ3JvdXAncyBkYXJrIG1lc3NhZ2Ugd2FzIHVuYWNjZXB0YWJsZSwgdGhleSBzYWlkLiANCg0KQ0FOTklCQUwgQ09SUFNFLCB3aG8gcGxheWVkIGluIFBlcnRoIGluIDE5OTUsIGhhcyBzb25ncyBzdWNoIGFzICJEaXNtZW1iZXJlZCBhbmQgTW9sZXN0ZWQiLCBhbmQgIk5lY3JvcGVkb3BoaWxlIiwgd2hpY2ggZGV0YWlscyAidGhlIHBsZWFzdXJlIGdhaW5lZCBmcm9tIGtpbGxpbmcsIHRoZW4gcmFwaW5nLCBjaGlsZHJlbi4iIEluIHRoZSBwYXN0IDE2IHllYXJzLCB0aGUgZ3JvdXAgaGFzIHJlbGVhc2VkIDE0IGFsYnVtcywgbWFueSBvZiB3aGljaCBhcmUgYXZhaWxhYmxlIGF0IG11c2ljIHN0b3JlcyB0aHJvdWdob3V0IFBlcnRoLiANCg0KTXIuIEpvaG5zb24gc2FpZCBoZSB3YXMgZGlzZ3VzdGVkIGJ5IHRoZSBiYW5kJ3MgaGlnaGx5IGV4cGxpY2l0IHNvbmdzLiANCg0KIlRoZXkgc2hvdWxkIGJlIGJhbm5lZCBmcm9tIGFwcGVhcmluZyBoZXJlLCIgaGUgc2FpZC4gIlRoZXJlIGlzIGVub3VnaCB2aW9sZW5jZSBhbmQgeW91dGggc3VpY2lkZSBpbiBXQSBbV2VzdCBBdXN0cmFsaWFdIGFscmVhZHkgd2l0aG91dCBhbnkgZW5jb3VyYWdlbWVudCBmcm9tIGF3ZnVsIGdyb3VwcyBsaWtlIHRoaXMuIEkgZmVlbCBzaWNrIGF0IHRoZSB0aG91Z2h0IG9mIHRob3NlIGx5cmljcyBiZWluZyBzdW5nIHRvIHRoZSB5b3V0aCBvZiBXQS4iIA0KDQpBdXN0cmFsaWFuIEZhbWlseSBBc3NvY2lhdGlvbiB2aWNlLXByZXNpZGVudCBHaWxsaWFuIEdvbnphbGV6IHNhaWQgQ0FOTklCQUwgQ09SUFNFIGhhdmUgdGhlIG1vc3Qgb2ZmZW5zaXZlIGx5cmljcyBzaGUgaGFkIGV2ZXIgc2Vlbi4gDQoNCiJJIGNvdWxkIGhhcmRseSByZWFkIHRoZW0sIHRoZXkgbWFkZSBtZSB3YW50IHRvIGJlIHNpY2ssIiBzaGUgc2FpZC4gIlRoZXkgYXJlIGFic29sdXRlbHkgdmlsZSBhbmQgc2hvdWxkIG5vdCBiZSBhbGxvd2VkIGludG8gdGhlIGNvdW50cnkuIiANCg0KSW1taWdyYXRpb24gTWluaXN0ZXIgQW1hbmRhIFZhbnN0b25lIHNhaWQgdGhlIGdyb3VwIG1lbWJlcnMgaGFkIG5vdCB5ZXQgbG9kZ2VkIHZpc2EgYXBwbGljYXRpb25zIGFuZCB0aGF0LCB3aGVuIHRoZXkgZGlkLCB0aGV5IHdvdWxkIGJlIHN1YmplY3QgdG8gcmVxdWlyZW1lbnRzIHJlZ2FyZGluZyBjaGFyYWN0ZXIuIA0KDQpZb3VuZyBNZWRpYSBBdXN0cmFsaWEgcHJlc2lkZW50IEphbmUgUm9iZXJ0cyBzYWlkIHNoZSBiZWxpZXZlZCB0aGUgYmFuZCdzIG1lc3NhZ2Ugd291bGQgYmUgaGFybW5mdWwgdG8gUGVydGgncyB5b3V0aC4gDQoNCiJTb25ncyBhYm91dCBoYXZpbmcgc2V4IHdpdGggZGVhZCBjaGlsZHJlbiDigJQgaG93IGNvdWxkIGFueW9uZSB0aGluayB0aGF0IGlzIGFwcHJvcHJpYXRlPyIgc2hlIHNhaWQuIA0KDQpQb2xpY2UgQ29tbWlzaW9uZXIgS2FybCBPJyBDYWxsYWdoYW4gY29uZGVtbmVkIHRoZSBiYW5kJ3MgbHlyaWNzIGJ1dCB3b3VsZCBub3QgYnV5IGludG8gdGhlIGRlYmF0ZSBvdmVyIHRoZWlyIGNvbmNlcnQuIA0KDQoiVGhlcmUgaXMgbm8gZG91YnQgdGhhdCB0aGUgbHlyaWNzIGFyZSBkaXN0dXJiaW5nLCBidXQgd2hldGhlciB0aGUgYmFuZCBzaG91bGQgcGxheSAoaW4gUGVydGgpIG9yIG5vdCBpcyBub3QgYSBtYXR0ZXIgZm9yIHBvbGljZSwiIGhlIHNhaWQuIA0KDQpBdHRvcm5leS1HZXJuZXJhbCBKaW0gTWNHaW50eSBkaWQgbm90IGNvbW1lbnQgb24gd2hldGhlciB0aGUgZ3JvdXAgc2hvdWxkIGJlIGJhbm5lZCBmcm9tIHBsYXlpbmcgYW5kIHNhaWQgb3V0Zml0cyBsaWtlIENBTk5JQkFMIENPUlBTRSB0aHJpdmVkIG9mZiBuZWdhdGl2ZSBwdWJsaWNpdHku"
+"eventtime","2006-07-10 19:32:00"
+"url","http://blackhearted.livejournal.com/110351.html"
+"userid","1763"
+"itemid","430"
+"event","For a good time go to this link and help me become a better vampire than leith.
+
+http://world3.monstersgame.co.uk/?ac=vid&vid=38016640 
+
+
+
+yup."
+"eventtime","2006-07-06 16:54:00"
+"url","http://blackhearted.livejournal.com/110325.html"
+"userid","1763"
+"itemid","429"
+"event","<table><tr><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B0001GWAHY.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B00063UEC0.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B00022LJJM.01.MZZZZZZZ.jpg"" border=""0""></a></td><tr><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B0002IQDVU.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B0002JE91U.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B00005M1D2.01.MZZZZZZZ.jpg"" border=""0""></a></td><tr><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B00006IQHQ.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B000AMJDMO.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B0002N66FS.01.MZZZZZZZ.jpg"" border=""0""></a></td><tr><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B000A7Q1SI.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B0007Y08UQ.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B00084RLSW.01.MZZZZZZZ.jpg"" border=""0""></a></td><tr><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B0002YT7OE.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B0007IO6W8.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B000000H5Y.01.MZZZZZZZ.jpg"" border=""0""></a></td><tr><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B00008BXIV.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B000065T2N.01.MZZZZZZZ.jpg"" border=""0""></a></td><td align=""center"" valign=""middle""><a href=""http://www.hotfreelayouts.com/music.php?vid=15711055""><img src=""http://images.amazon.com/images/P/B000066T3H.01.MZZZZZZZ.jpg"" border=""0""></a></td></tr></table><a href=""http://www.hotfreelayouts.com/music.php"">Create your own Music List @ HotFreeLayouts!</a>"
+"eventtime","2006-05-04 21:10:00"
+"url","http://blackhearted.livejournal.com/110078.html"
+"userid","1763"
+"itemid","428"
+"event","<a href=""http://photobucket.com"" target=""_blank""><img src=""http://img.photobucket.com/albums/v147/blackhearted/april1_web.jpg"" border=""0"" alt=""Image hosting by Photobucket""></a>
+
+come to this if you want."
+"eventtime","2006-03-22 10:00:00"
+"url","http://blackhearted.livejournal.com/109818.html"
+"userid","1763"
+"itemid","427"
+"event","I you happen to live in Newcastle or sydney then you should come to this.
+
+and no i didnt make the flyer... it took me ages to actually realise i was on the damm thing.
+
+<a href=""http://photobucket.com"" target=""_blank""><img src=""http://img.photobucket.com/albums/v147/blackhearted/FLYER3.jpg"" border=""0"" alt=""Image hosting by Photobucket""></a>"
+"eventtime","2006-03-13 12:44:00"
+"url","http://blackhearted.livejournal.com/109313.html"
+"userid","1763"
+"itemid","426"
+"event","Little known fact about corey#1.
+
+
+I used to have a black belt in karate.
+
+Then hardcore ruined martial arts for me."
+"eventtime","2006-03-04 18:00:00"
+"url","http://blackhearted.livejournal.com/109244.html"
+"userid","1763"
+"itemid","425"
+"event","<a href=""http://photobucket.com"" target=""_blank""><img src=""http://img.photobucket.com/albums/v147/blackhearted/tdw_inab.jpg"" border=""0"" alt=""Image hosting by Photobucket""></a>"
+"eventtime","2006-02-18 15:06:00"
+"url","http://blackhearted.livejournal.com/108835.html"
+"userid","1763"
+"itemid","424"
+"event","dear live journal.
+
+
+today, on valentines day, i got engaged.
+
+it is a good day indeed!!!
+
+:)"
+"eventtime","2006-02-14 19:49:00"
+"url","http://blackhearted.livejournal.com/108750.html"
+"userid","1763"
+"itemid","423"
+"event","SUYgQU5ZT05FIEFDVFVBTExZIEdFVFMgVEhST1VHSCBBTEwgT0YgVEhJUyBUSEVOIFlPVVIgQSBDSEFNUC4uLi4uIEJVVCBHSVZFIElUIEEgR08gQkVDQVVTRSBJVCBJTlRFUkVTVElORyBTVFVGRi4NCg0KDQoNCk9uIHRoZSA4dGggb2YgTWFyY2gsIDE0MjEsIHRoZSBsYXJnZXN0IGZsZWV0IHRoZSB3b3JsZCBoYWQgZXZlciBzZWVuIHNhaWxlZCBmcm9tIGl0cyBiYXNlIGluIENoaW5hLiBUaGUgc2hpcHMsIGh1Z2UganVua3MgbmVhcmx5IGZpdmUgaHVuZHJlZCBmZWV0IGxvbmcgYW5kIGJ1aWx0IGZyb20gdGhlIGZpbmVzdCB0ZWFrLCB3ZXJlIHVuZGVyIHRoZSBjb21tYW5kIG9mIEVtcGVyb3IgWmh1IERpJ3MgbG95YWwgZXVudWNoIGFkbWlyYWxzLiBUaGVpciBtaXNzaW9uIHdhcyAndG8gcHJvY2VlZCBhbGwgdGhlIHdheSB0byB0aGUgZW5kIG9mIHRoZSBlYXJ0aCB0byBjb2xsZWN0IHRyaWJ1dGUgZnJvbSB0aGUgYmFyYmFyaWFucyBiZXlvbmQgdGhlIHNlYXMnIGFuZCB1bml0ZSB0aGUgd2hvbGUgd29ybGQgaW4gQ29uZnVjaWFuIGhhcm1vbnkuIFRoZSBqb3VybmV5IHdvdWxkIGxhc3Qgb3ZlciB0d28geWVhcnMgYW5kIGNpcmNsZSB0aGUgZ2xvYmUuIA0KDQpXaGVuIHRoZXkgcmV0dXJuZWQgWmh1IERpIGxvc3QgY29udHJvbCBhbmQgQ2hpbmEgd2FzIGJlZ2lubmluZyBpdHMgbG9uZywgc2VsZi1pbXBvc2VkIGlzb2xhdGlvbiBmcm9tIHRoZSB3b3JsZCBpdCBoYWQgc28gcmVjZW50bHkgZW1icmFjZWQuIFRoZSBncmVhdCBzaGlwcyByb3R0ZWQgYXQgdGhlaXIgbW9vcmluZ3MgYW5kIHRoZSByZWNvcmRzIG9mIHRoZWlyIGpvdXJuZXlzIHdlcmUgZGVzdHJveWVkLiBMb3N0IHdhcyB0aGUga25vd2xlZGdlIHRoYXQgQ2hpbmVzZSBzaGlwcyBoYWQgcmVhY2hlZCBBbWVyaWNhIHNldmVudHkgeWVhcnMgYmVmb3JlIENvbHVtYnVzIGFuZCBjaXJjdW1uYXZpZ2F0ZWQgdGhlIGdsb2JlIGEgY2VudHVyeSBiZWZvcmUgTWFnZWxsYW4uIFRoZXkgaGFkIGFsc28gZGlzY292ZXJlZCBBbnRhcmN0aWNhLCByZWFjaGVkIEF1c3RyYWxpYSB0aHJlZSBodW5kcmVkIGFuZCBmaWZ0eSB5ZWFycyBiZWZvcmUgQ29vayBhbmQgc29sdmVkIHRoZSBwcm9ibGVtIG9mIGxvbmdpdHVkZSB0aHJlZSBodW5kcmVkIHllYXJzIGJlZm9yZSB0aGUgRXVyb3BlYW5zLi4NCg0KSW4gdG90YWwsIHNvbWUgMzQgZGlmZmVyZW50IGxpbmVzIG9mIGV2aWRlbmNlIGhhdmUgYmVlbiBmb3VuZCB0byBzdXBwb3J0IHRoZSB0aGVvcnkgdGhhdCB0aGUgQ2hpbmVzZSBjaXJjdW1uYXZpZ2F0ZWQgYW5kIGNoYXJ0ZWQgdGhlIGdsb2JlLCBhIGNlbnR1cnkgYmVmb3JlIHRoZSBFdXJvcGVhbnMgc3Rha2VkIGNsYWltIHRvIGhhdmluZyBkb25lIHNvLiBUaGUgZXZpZGVuY2UgaXMgb3ZlcndoZWxtaW5nLCBhbmQgZW5jb21wYXNzZXMgYm90aCBwaHlzaWNhbCBlbnRpdGllcywgKHN1Y2ggYXMgc2hpcHdyZWNrcyBvZiBDaGluZXNlIGp1bmtzIGluIEFtZXJpY2EsIEF1c3RyYWxhc2lhIGFuZCBJbmRvbmVzaWEsKSBhbmQgZXhhbXBsZXMgc3VjaCBhcyB0aGUgY2FydmVkIHN0b25lcyBvZiBBZnJpY2EsIHRoZSByZW1haW5zIG9mIENoaW5lc2UgcGVvcGxlcyBpbiBTb3V0aCBBbWVyaWNhLCBhbmQgYXJ0ZWZhY3RzIHNjYXR0ZXJlZCBhbGwgb3ZlciB0aGUgd29ybGQsIGluc2NyaWJlZCB3aXRoIENoaW5lc2UgY2hhcmFjdGVycywgaW4gQ2hpbmVzZSBzdHlsZXMsIGFuZCBzb21lIHN1Y2Nlc3NmdWxseSBkYXRlZCBiYWNrIHRvIGJlZm9yZSB0aGUgYXJyaXZhbCBvZiB0aGUgRXVyb3BlYW5zLiBUaGVyZSBhbHNvIGV4aXN0cyBtb3JlIGNpcmN1bXN0YW50aWFsIGV2aWRlbmNlIHN1Y2ggYXMgdGhlIGxpbmd1aXN0aWMsIGNlcmVtb25pYWwgYW5kIHNwaXJpdHVhbCBzaW1pbGFyaXRpZXMgYmV0d2VlbiB0aGUgQ2hpbmVzZSBjdWx0dXJlIGFuZCB0aG9zZSBvZiBvdGhlciBwYXJ0cyBvZiB0aGUgd29ybGQgaW4gdGhlIGZpZnRlZW50aCBjZW50dXJ5LiBUaGUgbGluZ3Vpc3RpYyBzaW1pbGFyaXRpZXMgZm91bmQgYmV0d2VlbiBwbGFjZSBuYW1lcyBpbiBQZXJ1IGFuZCBDaGlsZSBhcmUgaGVhdmlseSBzdXBwb3J0aXZlIG9mIHRoZSBub3Rpb24gdGhhdCB0aGUgQ2hpbmVzZSBleGVydGVkIGEgaHVnZSBpbmZsdWVuY2UgdGhlcmUsIGluIHByZS1Db2x1bWJpYW4gdGltZXMuIA0KDQoxLiBETkEgdGVzdHMgc2hvdyB0aGF0IGluIHRoZSBBbWVyaWNhcyB0b2RheSB0aGVyZSBhcmUgMTggcGVvcGxlcyB3aG9zZSBmb3JlYmVhcnMgd2VyZSBzZXR0bGVycyBmcm9tIFpoZW5nIEhl4oCZcyBmbGVldHMuIFRoZXNlIHBlb3BsZSBoYXZlIGxpdmVkIHNlcGFyYXRlIGxpdmVzIHRvIG90aGVyIG5hdGl2ZSBJbmRpYW4gcGVvcGxlcyBmcm9tIHRoYXQgZGF5IHRvIHRoaXMuIE1hbnkgc3RpbGwgdW5kZXJzdGFuZCBDaGluZXNlIGFuZCBwcmFjdGlzZSBDaGluZXNlIGN1c3RvbXMuIENoaW5hIGhhZCB0aHVzIHNldHRsZWQgdGhlIEFtZXJpY2FzIGJlZm9yZSBDb2x1bWJ1cyBzZXQgc2FpbCAtIGFuZCBkb25lIHNvIG9uIGEgZ3JhbmQgc2NhbGUuDQoNCjIuIEJ5IDE0MjQgdGhlIENoaW5lc2UgaGFkIHNldCB1cCBhIHdvcmxkIHdpZGUgdHJhZGluZyBFbXBpcmUuIE5vdCBvbmx5IGRpZCB0aGUgZmlyc3QgRXVyb3BlYW4gZXhwbG9yZXJzIGhhdmUgbWFwcyAoYmFzZWQgb24gZWFybGllciBDaGluZXNlIG9uZXMpLCB3aGljaCBzaG93ZWQgdGhlbSB0aGUgd2F5IHRvIHRoZSBOZXcgV29ybGQsIGJ1dCBhbHNvIHRoZXkgZm91bmQgYW4gZXN0YWJsaXNoZWQgaW50ZXJuYXRpb25hbCB0cmFkaW5nIHN5c3RlbSB3aGVuIHRoZXkgZ290IHRoZXJlLg0KDQozLiBUaGVyZSBpcyBleHRlbnNpdmUgQ2hpbmVzZSBoZXJpdGFnZSAoZ2VuZXMpIGluIE5hdGl2ZSBBbWVyaWNhbiBJbmRpYW4gcG9wdWxhdGlvbnMgLSBmYXIgbW9yZSB0aGFuIGhhcyBoaXRoZXJ0byBiZWVuIGFjY2VwdGVkLiBTb21lIEFtZXJpY2FuIEluZGlhbiBwZW9wbGXigJlzIEROQSBpcyBzbyBjbG9zZSB0byBDaGluZXNlIHRoZXkgY291bGQgYmUgZGVlbWVkIHRvIGJlIENoaW5lc2UuDQoNCjQuIFRoZSBNYXlhIG9mIHRoZSBZdWNhdGFuIHBlbmluc3VsYXIgYXJlIENoaW5lc2UgKEROQSkgTGF0ZSBNYXlhIGFydCBvZiBZdWNhdGFuIGlzIG9mdGVuIENoaW5lc2UgYXJ0Lg0KDQo1LiBTb21lIG9mIHRoZSBJbmNhIHBlb3BsZSBvZiBQZXJ1IGFuZCBDaGlsZSBhcmUgQ2hpbmVzZSAoRE5BKSBUaGUgSW5jYSBoaWVyYXJjaHksIG5vdGFibHkgVmlyYWNvY2hhLCB3YXMgbWFkZSB1cCBvZiBaaGVuZyBIZeKAmXMgQWRtaXJhbHMuIFRoZWlyIHNlY3JldCBsYW5ndWFnZSB3YXMgUGhhc3BhLiAgRmVybmFuZG8gTGxvc2EgUG9ycmFzIGFuZCBSZXZlcmVuZCBSYW5raW5nIHdlcmUgY29ycmVjdC4gQ2hpbGUgb3Ig4oCcQ2hpLUxl4oCdIHdhcyBhIGRpcmVjdGx5IHJ1bGVkIGRlcGVuZGVuY3kgb2YgQ2hpbmEuIFRoZSDigJxHaWFudHPigJ0gb2YgUGF0YWdvbmlhIHdlcmUgTW9uZ29saWFucy4NCg0KNi4gSXQgaXMgYXJndWFibGUgdGhhdCB0aGUgQXp0ZWMgTW9udGV6dW1hIHdhcyBhIENoaW5lc2UgQWRtaXJhbCAtIHRoZSBiaXJ0aCBvZiB0aGUgQXp0ZWMgTmF0aW9uIGNvaW5jaWRlZCB3aXRoIHRoZSBBcnJpdmFsIG9mIFpoZW5nIEhl4oCZcyBmbGVldHMuIA0KDQo3LiBJbiAxNDIyIGEgaHVnZSBjb21ldCBoaXQgdGhlIGVhcnRoIGF0IDQ4IGRlZ3JlZXMgU291dGgsIDE2NiBkZWdyZWVzIEVhc3QsIGRlc3Ryb3lpbmcgQ2hpbmVzZSBGbGVldHMgYW5kIGNpdmlsaXNhdGlvbnMgYWNyb3NzIHRoZSBXb3JsZC4NCg0KOC4gWmhvdSBNYW7igJlzIEZsZWV0IHdhcyBoaXQgYnkgYSByZXN1bHRhbnQgdHN1bmFtaSwgYW5kIHdhcyBodXJsZWQgbm9ydGggdG8gTmV3IFplYWxhbmQgYW5kIG5vcnRoLXdlc3QgdG8gQXVzdHJhbGlhLiBUaGUgd3JlY2tzIG9mIDQ0IG9mIFpob3UgTWFu4oCZcyBGbGVldCBoYXZlIGJlZW4gbG9jYXRlZCBvbiBOZXcgWmVhbGFuZCwgU291dGggSXNsYW5kLg0KDQo5LiBaaG91IE1hbuKAmXMgRmxlZXQgd2FzIGNvbWluZyB0byByZXZpdmUgdGhlIENoaW5lc2Ugc2V0dGxlbWVudCBvbiBOZXcgWmVhbGFuZCwgd2hpY2ggaGFkIGJlZW4gZXN0YWJsaXNoZWQgaW4gdGhlIEhhbiBEeW5hc3R5IChjLjE1MCBCQykgDQoNCjEwLiBUaGUgQ2hpbmVzZSBoYWQgb2NjdXBpZWQgTmV3IFplYWxhbmQsIFNvdXRoIElzbGFuZCBmb3IgMjAwMCB5ZWFycyBiZWZvcmUgQ2FwdGFpbiBDb29rIGFycml2ZWQuIFRoaXMgYWNjb3VudHMgZm9yIE1hb3Jp4oCZcyBNdEROQSBiZWluZyBUYWl3YW5lc2UgDQoNCjExLiBOZXcgWmVhbGFuZCB3YXMgYSBDaGluZXNlIGNvbG9ueSBmb3VuZGVkIGZvciB0aGUgZXh0cmFjdGlvbiBvZiBnb2xkIGFuZCBtaW5lcmFscy4NCg0KMTIuIFpoZW5nIEhl4oCZcyBGbGVldCBwYXNzZWQgdGhyb3VnaCB0aGUgUmVkIFNlYSAtIE5pbGUgY2FuYWwgYW5kIHJlYWNoZWQgRXVyb3BlIC0gTWFydGluIFRhaSBhbmQgQW50b25pYSBCb3dlbi1Kb25lcy4NCg0KMTMuIFRoZSBGbGVldCwgd2hpY2ggc2V0IHNhaWwgaW4gMTQyMSwgd2FzIG9mIDEwMDAgc2hpcHMgDQoNCjE0LiBUaGUgQ2hpbmVzZSBkaXNjb3ZlcmVkIEp1cGl0ZXLigJlzIG1vb25zIDIwMDAgeWVhcnMgYmVmb3JlIEdhbGlsZW8uIFRoZXkgZGVwbG95ZWQgdGhpcyBrbm93bGVkZ2UgdG8gYmUgYWJsZSB0byBjYWxjdWxhdGUgbG9uZ2l0dWRlIDMgdGltZXMgZWFjaCBkYXkgLg0KDQoxNS4gVGhlIENoaW5lc2UgaGFkIGNvbG9uaXNlZCB0aGUgQXpvcmVzIChETkEpIGJlZm9yZSB0aGV5IHdlcmUgZGlzY292ZXJlZCBieSB0aGUgUG9ydHVndWVzZSAtIC4NCg0KMTYuVGhlIENoaW5lc2UgaGFkIGNvbG9uaXNlZCBQdWVydG8gUmljbyAoRE5BKSBzaW5jZSAxNDIxLiBUaGUgVGFpbm8gb2YgUHVlcnRvIFJpY28gd2VyZSBDaGluZXNlLg0KDQoxNy4gWmhlbmcgSGXigJlzIHBhc3NhZ2UgY2hhcnRzIG9mIFNvdXRoIGFuZCBXZXN0IEFmcmljYSwgQXVzdHJhbGlhLCB0aGUgQW50YXJjdGljIGFuZCBXZWRkZWxsIFNlYSBoYXZlIHJlY2VudGx5IGJlZW4gZm91bmQgaW4gYSBIb25nIEtvbmcgbGlicmFyeS4NCg0KMTguIFJlY2VudCBETkEgYW5hbHlzaXMgYnkgRE5BUHJpbnQgR2Vub21pY3Mg4oCTIHdlIGhhdmUgcmVzdWx0cyB3aGljaCBzaG93IHVwIHRvIDQwICUgRWFzdCBBc2lhbiBhZG1peHR1cmUgYW1vbmdzdCBOYXRpdmUgQW1lcmljYW4gSW5kaWFucy4gSG90IHNwb3RzIGluY2x1ZGUgdGhlIE1lbHVuZ2VvbnMgYW5kIE9qaWJ3YS4gDQoNCjE5LiBNZW1iZXJzIG9mIHRoZSAxNDIxIHRlYW0gZGVsaXZlcmVkIGEgc2VyaWVzIG9mIHByZXNlbnRhdGlvbnMgYXQgdGhlIExpYnJhcnkgb2YgQ29uZ3Jlc3MgSW50ZXJuYXRpb25hbCBTeW1wb3NpdW0gb24gWmhlbmcgSGUgU3R1ZGllcywgTWF5IDIwMDUuIFByZXNlbnRhdGlvbnMgY292ZXJlZCB0b3BpY3MgaW5jbHVkaW5nIGVhcmx5IENoaW5lc2Ugdm95YWdlcyB0byB0aGUgQW1lcmljYWFzIGZyb20gMjIwMCBCQywgTWFyY28gUG9sbyBhbmQgS3VibGFpIEtoYW4ncyBleHBsb3JhdGlvbiBvZiB0aGUgd29ybGQsIGFuZCB0aGUgZmluZGluZyBvZiBhbiBodWdlIENoaW5lc2UgYmFzZSBieSBQYXVsIENoaWFzc29uIGluIE5vdmEgU2NvdGlhLg0KDQoxOS4gWmhlbmcgSGUncyBtYXN0ZXIgY2hhcnQgb2YgdGhlIHdvcmxkLCAxNDE4LCBoYXMgYmVlbiBmb3VuZCBpbiBDaGluYS4NCg0KDQpUaGUgbWFqb3JpdHkgb2YgQ2hpbmVzZSByZWNvcmRzLCBkb2N1bWVudHMgYW5kIG1hcHMgcmVjb3VudGluZyB0aGUgZHJhbWF0aWMgZXZlbnRzIG9mIHRoZSAxNDIxIC0gMTQyMyB2b3lhZ2VzIHdlcmUgZGVsaWJlcmF0ZWx5IGRlc3Ryb3llZCBieSB0aGUgb2ZmaWNpYWxzIG9mIHRoZSBDaGluZXNlIGNvdXJ0LCBmb2xsb3dpbmcgYW4gYWJydXB0IGNoYW5nZSBpbiB0aGUgY291bnRyeSdzIGZvcmVpZ24gcG9saWN5LiBUaGUgdGh1bmRlciBhbmQgbGlnaHRuaW5nIHN0b3JtIHRoYXQgd2FzIHRvIHJlZHVjZSB0aGUgRW1wZXJvcidzIHBhbGFjZXMgdG8gYSBoZWFwIG9mIHNtb3VsZGVyaW5nIHJ1YmJsZSwgYXMgd2VsbCBhcyBraWxsaW5nIG9mZiBtYW55IG9mIGhpcyBsb3lhbCBzdWJqZWN0cywgd2FzIHNlZW4gYXMgYSB2ZXJ5IGJhZCBvbWVuLCBhbmQgaXQgd2FzIHRvIGNhdXNlIGFuIGV2ZXItZGVzY2VuZGluZyBzcGlyYWwgb2YgbWlzZm9ydHVuZS4gV2l0aCB0aGUgc3VjY2Vzc2lvbiBvZiBaaHUgRGkncyBzb24gdG8gdGhlIHRocm9uZSBjYW1lIHRoZSByZWplY3Rpb24gb2YgdGhlIG91dHNpZGUgd29ybGQsIHdpdGggQ2hpbmEgdHVybmluZyBpbiBvbiBoZXJzZWxmLiBBbnl0aGluZyBjb21tZW1vcmF0aW5nIHByZXZpb3VzIGV4cGFuc2lvbmlzdCBwb2xpY2llcyB3YXMgZXhwdW5nZWQgZnJvbSB0aGUgcmVjb3JkLg0KDQoNCg0KDQpUaGlzIGlzIHBpZWNlIHRha2VuIGZyb20gYSBib29rIGNhbGxlZCAxNDIxOiB0aGUgeWVhciBjaGluYSBkaXNjb3ZlcmVkIHRoZSB3b3JsZC4gDQoNCg0KQW5kIGxhc3Qgb2YgYWxsIGNvbWVzIHRoZSBiaWdnZXN0IGNvbnRyb3ZlcnN5LiBOZXcgWmVhbGFuZCBoaXN0b3JpYW5zIGhhdmUgYmVlbiB0aGUgbW9zdCBhcG9wbGVjdGljIG9mIGFsbCBhYm91dCBteSBib29rLiBBbnl0aGluZyB0aGF0IGNoYWxsZW5nZXMgTWFvcmkgbGVnZW5kIGlzIHRvIGJlIHJlc2lzdGVkIGF0IGFsbCBjb3N0cyEgQWNjZXB0ZWQgTmV3IFplYWxhbmQgaGlzdG9yeSBoYXMgaXQgdGhhdCB0aGUgZm9yZWlnbiBhbmltYWxzIGFuZCBwbGFudHMgZm91bmQgYnkgdGhlIGZpcnN0IEV1cm9wZWFucyB3ZXJlIGJyb3VnaHQgYnkgdGhlIE1hb3JpcyBpbiB0aGVpciBvcGVuIGNhbm9lcyAtIHRoYXQgaXMsIGhvcnNlcywgcGlncywgZG9ncywgcmF0cyBhbmQgYW4gYXJyYXkgb2YgcGxhbnRzIGZyb20gU291dGggQW1lcmljYSwgTm9ydGggQW1lcmljYSwgQXNpYSBhbmQgdGhlIFBhY2lmaWMuIEFjY29yZGluZyB0byBOZXcgWmVhbGFuZCBoaXN0b3JpYW5zLCB0aGUgTWFvcmlzIHRyYWRlZCBhbGwgb3ZlciB0aGUgd29ybGQuDQpBIG51bWJlciBvZiBjcml0aWNzIGhhdmUgZW1haWxlZCBtZSBhYm91dCB0aGUgc2l6ZSBvZiB0aGUgdGFua2VycyByZXF1aXJlZCBieSBaaGVuZyBIZWBzIGZsZWV0cyB0byBwcm92aWRlIHdhdGVyIGZvciBob3JzZXMsIGFyZ3VpbmcgdGhhdCB0aGUgbGltaXRpbmcgZmFjdG9yIG9uIHRoZSBudW1iZXIgb2YgaG9yc2VzIHdhcyB0aGUgbnVtYmVyIG9mIHdhdGVyIHRhbmtlcnM7IGl0IHdvdWxkIGhhdmUgYmVlbiBpbXBvc3NpYmxlIHRvIGRlc2FsaW5hdGUgYW55d2hlcmUgbmVhciBlbm91Z2ggd2F0ZXIgdG8gc2F0aXNmeSBtb3JlIHRoYW4gYSBoYW5kZnVsIG9mIGhvcnNlcyBhcyBlYWNoIG5lZWRzIGFib3V0IHRocmVlIGdhbGxvbnMgYSBkYXkuIE5vdywgYXBwbHkgdGhpcyB0byB0aGUgTWFvcmkgc2NlbmFyaW8sIHRyYXZlbGxpbmcgZnJvbSBUYWhpdGkgdG8gTmV3IFplYWxhbmQgaW4gb3BlbiBjYW5vZXMuIFRoZXkgbXVzdCBoYXZlIGJyb3VnaHQgYXQgbGVhc3QgdHdvIGhvcnNlcyB0byBicmVlZCBhcyBvbmUgcHJlZ25hbnQgbWFyZSB3b3VsZCBub3QgcHJvZHVjZSBhIGxpbmUuIEkgaGF2ZSB0YWtlbiBteSBzdWJtYXJpbmUgZnJvbSBOZXcgWmVhbGFuZCB0byBUYWhpdGk7IHRoZSBzZWFzIGFyZSBzaG9ydCBhbmQgY2hvcHB5IG1vc3Qgb2YgdGhlIHllYXIgd2hpY2ggbWFrZXMgZm9yIGEgZGlmZmljdWx0IGpvdXJuZXkgd2hpY2ggd291bGQgcHJvYmFibHkgaGF2ZSB0YWtlbiBhdCBsZWFzdCBzaXggd2Vla3MuIEhvcnNlcyBkcmluayBtb3JlIGluIGV4cG9zZWQgY29uZGl0aW9ucyBvZiBoaWdoIGh1bWlkaXR5IHN1Y2ggYXMgc3ByYXkgaW4gYW4gb3BlbiBib2F0LCBzbyB0aGUgY29uc3VtcHRpb24gaXMgbGlrZWx5IHRvIGhhdmUgYmVlbiBhdCBsZWFzdCBmaXZlIGdhbGxvbnMgYSBkYXkgcGVyIGhvcnNlLCB3aGljaCBmb3IgYSBzaXgtd2VlayBqb3VybmV5IGFtb3VudHMgdG8gNDIwIGdhbGxvbnMgb3IgYXJvdW5kIGEgdG9uIG9mIHdhdGVyIHBlciBhbmltYWwuIFRoZW4sIG9mIGNvdXJzZSwgdGhlIGFuaW1hbHMgd291bGQgaGF2ZSBuZWVkZWQgaGF5LCBhbmQgdGhhdGBzIG5vdCB0byBtZW50aW9uIGZvb2QgYW5kIHdhdGVyIGZvciB0aGUgYm9hdHNgIGNyZXdzLiBJIHN1Ym1pdCB0aGF0IGl0IHdvdWxkIGhhdmUgYmVlbiBpbXBvc3NpYmxlIGZvciBNYW9yaXMgdG8gYnJpbmcgaG9yc2VzIHRvIE5ldyBaZWFsYW5kLiBUaGUgd2lsZCBLYWltYW5hd2EgcG9uaWVzIG9mIE5vcnRoIElzbGFuZCBtdXN0IHRoZXJlZm9yZSBoYXZlIGJlZW4gYnJvdWdodCBieSBvdGhlcnMsIGVpdGhlciBFdXJvcGVhbnMgb3IgQ2hpbmVzZS4gRE5BIHRlc3RzIGFyZSBpbiBoYW5kIGZvciB0aGUgS2FpbWFuYXdhLCB0aGUgUGFzb3Mgb2YgUGVydSwgdGhlIEFzc2F0ZWFndWVzIG9mIHRoZSBpc2xhbmRzIG9mZiBWaXJnaW5pYSBhbmQgdGhlIEtpZ2VyIE11c3RhbmdzIG9mIE5vcnRoIEFtZXJpY2EuIEkgYmVsaWV2ZSB0aGVpciBjb21tb24gYW5jZXN0b3Igd2lsbCB0dXJuIG91dCB0byBiZSB0aGUgYmxvb2QgaG9yc2VzIG9mIFRhamlraXN0YW4gd2hpY2ggd2VyZSB0aGUgbW91bnRzIG9mIHRoZSBDaGluZXNlIGNhdmFscnkuIEVtcGVyb3IgWmh1IERpIGltcG9ydGVkIG1pbGxpb25zIHRvIENoaW5hIGR1cmluZyBoaXMgcmVpZ24uDQpXaGVuIHRoZSBmaXJzdCBFdXJvcGVhbnMgYXJyaXZlZCBpbiBOZXcgWmVhbGFuZCB0aGV5IGNhbWUgYWNyb3NzIGFuIGFycmF5IG9mIHBsYW50cyBmb3JlaWduIHRvIHRoZSBpc2xhbmQuIFRoZSBtb3N0IGNvbW1vbiB3YXMgQ2hlbm9wb2RpdW0gYWxidW0sIGludHJvZHVjZWQgZnJvbSBOb3J0aCBBbWVyaWNhLCB3aGVyZSBpdCBoYXMgYmVlbiB1c2VkIGJ5IG5hdGl2ZSBwZW9wbGVzIHRvIG1ha2UgY2FrZXMgc2luY2UgdGltZSBpbW1lbW9yaWFsLiBDYXB0YWluIENvb2sgZGlzY292ZXJlZCBpdCBpbiAxNzY5LiBUaGUgc2Vjb25kIGlzIG1hcnNoIGNyZXNzLCBSb3JpcHBhIHBhbHVzdHJpcywgaWRlbnRpZmllZCBieSB0aGUgRnJlbmNoIGV4cGVkaXRpb24gb2YgMTgyNi05IGFib2FyZCBMYEFzdHJvYm9sZS4gQWdhaW4sIHRoaXMgd2FzIHVzZWQgYnkgdGhlIE5hdmFqbyAtIHdobyBoYXZlIENoaW5lc2UgRE5BLCBhbmQgd2hvc2UgZWxkZXJzIHRvIHRoaXMgZGF5IHVuZGVyc3RhbmQgQ2hpbmVzZSAtIGFzIGEgcml0dWFsIGV5ZXdhc2guIE90aGVycyBpbmNsdWRlIG1haXplLCB3aGljaCBvcmlnaW5hdGVkIGluIFBlcnU7IHNjZW50ZWQgZ3Jhc3MgZnJvbSBDb2xvbWJpYTsgdGFybyBmcm9tIENoaW5hIChDYXB0YWluIENvb2spOyB5YW1zIGZyb20gdGhlIFBhY2lmaWMgKENhcHRhaW4gQ29vayk7IGFuZCBtb3N0IGNlbGVicmF0ZWQgb2YgYWxsLCB0aGUga3VtYXJhLCB0aGUgc3dlZXQgcG90YXRvLCBmcm9tIFNvdXRoIEFtZXJpY2EgKHdoZXJlIGl0IGlzIGNhbGxlZCBrdW1hciksIHdoaWNoLCBhcyBDYXB0YWluIENvb2sgcmlnaHRseSBzYWlkLCB3YXMgYSB2aXRhbGx5IGltcG9ydGFudCBmb29kIGZvciBNYW9yaSBwZW9wbGUuDQpTb21lb25lLCBlaXRoZXIgTWFvcmlzLCBQb2x5bmVzaWFucywgU291dGggQW1lcmljYW4gSW5kaWFucyBvciBDaGluZXNlLCBtdXN0IGhhdmUgYnJvdWdodCB0aGVzZSBwbGFudHMgdG8gTmV3IFplYWxhbmQuIFRoZSBjYXJyaWVycyB3ZXJlIGNsZWFybHkgbm90IEV1cm9wZWFucyBmb3IgdGhleSBmb3VuZCB0aGUgcGxhbnRzIHRoZXJlLiBUaG9yIEhleWVyZGFobCwgdG8gbXkgbWluZCBvbmUgb2YgdGhlIGdyZWF0ZXN0IGV4cGxvcmVycyBvZiBhbGwgdGltZSwgYXJndWVkIHRoYXQgaXQgd2FzIEluY2FzIHdobyBoYWQgc2FpbGVkIGZyb20gUGVydSB0byBUYWhpdGkgdGhlbiBvbndhcmRzLiBSZWdyZXR0YWJseSwgRE5BIGhhcyBzaG93biB0aGF0IGhpcyBoeXBvdGhlc2lzIGlzIGluY29ycmVjdDsgaWYgaXQgd2VyZSB0cnVlLCBJbmNhIEROQSBzaG91bGQgYmUgZm91bmQgb24gdGhlIFBhY2lmaWMgaXNsYW5kcy4gQW4gaW52ZXN0aWdhdGl2ZSB0ZWFtIG9mIENhbWJyaWRnZSBhcmNoYWVvbG9naXN0cyBsZWQgYnkgTWF0dCBIdXJsZXMgcHVibGlzaGVkIHRoZWlyIGZpbmRpbmdzIGluIHRoZSBBbWVyaWNhbiBKb3VybmFsIG9mIEh1bWFuIEdlbmV0aWNzOiBvbmx5IG9uIG9uZSBpc2xhbmQgYXJvdW5kIFRhaGl0aSwgUmFwYSwgZGlkIHRoZXkgZmluZCB0aGUgZGlzdGluY3RpdmUgRE5BIG9mIG5hdGl2ZSBTb3V0aCBBbWVyaWNhbnMsIGFuZCB0aGVzZSBSYXBhIGdlbmVzIGhhZCBjb21lIGZyb20gdGhlIGNyZXcgb2YgYSBQZXJ1dmlhbiBzaGlwIHRoYXQgc3RvcHBlZCBvZmYgYXQgdGhlIGlzbGFuZCBpbiAxODYyIHRvIGtpZG5hcCBzbGF2ZXMuDQpDb3VsZCBpdCBoYXZlIGJlZW4gTWFvcmlzIG9yIFBvbHluZXNpYW5zIHdobyB0cmF2ZWxsZWQgdG8gU291dGggQW1lcmljYSBhbmQgcmV0dXJuZWQgd2l0aCB0aGUgcGxhbnRzPyBUaGlzIHBvc3NpYmlsaXR5IGhhcyBiZWVuIGV4YW1pbmVkIGJ5IFByb2Zlc3NvciBCcnlhbiBTeWtlcyBhbmQgaGlzIHRlYW0gYXQgT3hmb3JkIFVuaXZlcnNpdHkgYW5kIHdyaXR0ZW4gdXAgaW4gQnJ5YW5gcyB3b25kZXJmdWwgYm9vayBUaGUgU2V2ZW4gRGF1Z2h0ZXJzIG9mIEV2ZS4gYElmIHdlIGZvdW5kIEROQSBtYXRjaGVzIFtvZiBQb2x5bmVzaWFuc10gaW4gQ2hpbGUgb3IgUGVydSwgb3IgZXZlbiBpbiBjb2FzdGFsIE5vcnRoIEFtZXJpY2EsYCBoZSB3cm90ZSwgYCB0aGVuIEhleWVyZGFobCB3YXMgcmlnaHQuIElmIHdlIGZvdW5kIHRoZW0gaW4gc291dGgtZWFzdCBBc2lhLCBoZSB3YXMgd3JvbmcuYCBMYXRlciwgaGUgY29uY2x1ZGVkOiBgSSBoYWQgdG8gYmUgc3VyZSB0aGF0IDI0NywgdGhlIGRlZmluaW5nIHZhcmlhbnQgb2YgUG9seW5lc2lhbiBtaXRvY2hvbmRyaWFsIEROQSwgd2FzIG5vdCBhYnVuZGFudCBpbiB0aGUgQW1lcmljYXMuIE5vLW9uZSBoYWQgZXZlciBzZWVuIGl0LiBOb3QgZXZlbiBvbmNlLiBIZXllcmRhaGwgd2FzIHdyb25nLmANClNvIHRoYXQsIGluIG15IHZpZXcsIGxlYXZlcyBvbmx5IHRoZSBDaGluZXNlIGFzIHRoZSBwb3NzaWJsZSBjYXJyaWVycyB0byBBdXN0cmFsaWEgKHNldmVudHktZm91ciBzcGVjaWVzKSBhbmQgTmV3IFplYWxhbmQgKGVpZ2h0IHNwZWNpZXMpIG9mIHRob3NlIFNvdXRoIEFtZXJpY2FuIHBsYW50cyBmb3VuZCBieSB0aGUgZmlyc3QgRXVyb3BlYW5zLiBJZiBpdCB3YXMgdGhlIENoaW5lc2UsIHRoZWlyIEROQSBzaG91bGQgYmUgZm91bmQgb24gYm90aCBzaWRlcyBvZiB0aGUgUGFjaWZpYywgaW4gdGhlIEluY2FzIGFuZCB0aGUgTWFvcmlzLiBXZSBrbm93IHRoYXRgcyB0cnVlIGZvciB0aGUgSW5jYXMsIGJ1dCBkb2VzIENoaW5lc2UgRE5BIHR1cm4gdXAgaW4gdGhlIE1hb3Jpcz8NCkZpcnN0LCBhIHNob3J0IGRpZ3Jlc3Npb24uIFRoZSBNYW9yaXMgd2VyZSBub3QgdGhlIGZpcnN0IHRvIHNldHRsZSBpbiBOZXcgWmVhbGFuZC4gQ2FyYm9uIGRhdGluZyBvZiByYXQgYm9uZXMgZm91bmQgaW4gSGF3a2VzIEJheSBvbiB0aGUgZWFzdCBjb2FzdCBvZiBOb3J0aCBJc2xhbmQgc2hvd3MgdGhlbSB0byBiZSBhdCBsZWFzdCB0d28gdGhvdXNhbmQgeWVhcnMgb2xkLiBUaGUgb2xkZXN0IE1hb3JpIHNldHRsZW1lbnQgZGF0ZXMgYmFjayB0byBBRCA4MDAuIERyLiBSaWNoYXJkIEhvbGRhd2F5LCBhIENocmlzdGNodXJjaCBwYWxhZW9udG9sb2dpc3QsIHNheXMgdGhlIHJhdHMgbXVzdCBoYXZlIGFycml2ZWQgYnkgaHVtYW4gdm95YWdlcnMgLSBpbiBzaG9ydCwgaHVtYW5zIG11c3QgaGF2ZSBhcnJpdmVkIDgwMCB5ZWFycyBiZWZvcmUgdGhlIE1hb3Jpcy4gQXMgRHIuIFJhdSBLaXJpa2lyaSwgYSBsZWFkaW5nIE1hb3JpIGFjYWRlbWljLCByZWZsZWN0ZWQsIGB0aGlzIGNvdWxkIGxlYWQgTWFvcmlzIHRvIHF1ZXN0aW9uIHRoZWlyIG93biBoaXN0b3J5LmANCkJhY2sgdG8gTWFvcmkgRE5BLiBGb3IgdGhlIHBhc3QgZmlmdHkgeWVhcnMgZGViYXRlIGhhcyByYWdlZCBvdmVyIHdoZXJlIHRoZSBNYW9yaSBjYW1lIGZyb20uIFNvbWUgc2F5IENoaW5hIChUYWl3YW4pLCBvdGhlcnMgSW5kb25lc2lhLiBFdmVudHMgaGF2ZSByZWNlbnRseSB0YWtlbiBhIHN0YXJ0bGluZyB0dXJuLiBBZGVsZSBXaGl0ZSwgZm9yIHRoZSBBQkMgdGVsZXZpc2lvbiBwcm9ncmFtbWUgQ2F0YWx5c3QgKGJyb2FkY2FzdCBvbiAyNyBNYXJjaCAyMDAzKSwgdXNlZCBtaXRvY2hvbmRyaWFsIChmZW1hbGUgbGluZSkgRE5BIHRvIHRyYWNlIE1hb3JpIG9yaWdpbnMgYmFjayBhcyBmYXIgYXMgbWFpbmxhbmQgQXNpYS4gQnV0IHdoZXJlIGluIG1haW5sYW5kIEFzaWE/IFRoZSBhbnN3ZXIgY2FtZSBmcm9tIGEgc3VycHJpc2luZyBxdWFydGVyIC0gYnkgbG9va2luZyBhdCB0aGUgZ2VuZSBmb3IgYWxjb2hvbC4gQWRlbGVgcyBzdXBlcnZpc29yLCBEci4gR2VvZmYgQ2hhbWJlcnMsIGZvdW5kIGEgbWF0Y2ggYmV0d2VlbiBvbmUgb2YgdGhlIHZhcmlhbnQgZ2VuZXMgZm9yIGFsY29ob2wgd2l0aCBwZW9wbGUgZnJvbSBUYWl3YW4sIHNvIGl0IHNlZW1lZCB0aGUgb3JpZ2luYWwgaG9tZWxhbmQgb2YgdGhlIE1hb3JpIHBlb3BsZSB3YXMgVGFpd2FuLiBPciB3YXMgaXQ/IFdoZW4gRHIuIENoYW1iZXJzYCB0ZWFtIHN0dWRpZWQgdGhlIFkgKG1hbGUpIGNocm9tb3NvbWUsIHRoZXkgZm91bmQgYSBkaWZmZXJlbnQgc3RvcnkuIFdoaWxlIHRoZSBmZW1hbGVzIGNhbWUgZnJvbSBDaGluYSwgbW9zdCBvZiB0aGUgbWVuIGNhbWUgZnJvbSBNZWxhbmVzaWEuDQpXaGF0IG1pZ2h0IGhhdmUgaGFwcGVuZWQgaXMgdGhhdCBhIHNtYWxsIG51bWJlciBvZiBNZWxhbmVzaWFucyBzZXR0bGVkIGluIE5ldyBaZWFsYW5kIGFib3V0IHR3byB0aG91c2FuZCB5ZWFycyBhZ287IGl0IHdhcyB0aGV5IHdobyBicm91Z2h0IHRoZSByYXRzIHdob3NlIGJvbmVzIGhhdmUgYmVlbiBjYXJib24gZGF0ZWQuIFpob3UgTWFuYHMgZmxlZXQgYXJyaXZlZCBmcm9tIHRoZSBBbnRhcmN0aWMgKENhbXBiZWxsIElzbGFuZCkgaW4gMTQyMi8yMy4gVGhleSBsYW5kZWQgaW4gc3Vic3RhbnRpYWwgbnVtYmVycyBpbiBTb3V0aCBJc2xhbmQgYW5kIHNvbWUgc2hpcHMgd2VyZSB3cmVja2VkIG9uIE5vcnRoIElzbGFuZCAoUnVhcHVrZSBCZWFjaCkuIFRoZSBmbGVldHMgY2FycmllZCBDaGluZXNlIFRhbmthIGNvbmN1YmluZXMuIFRoZSBNZWxhbmVzaWFucyBtdXJkZXJlZCB0aGUgQ2hpbmVzZSBtZW4gYW5kIHRvb2sgdGhlIGNvbmN1YmluZXMgYXMgdGhlaXIgd2l2ZXMuIElmIHRoaXMgd2FzIHRoZSBjYXNlLCBldmlkZW5jZSBvZiB0aGUgQ2hpbmVzZSB2aXNpdCB0byBTb3V0aCBJc2xhbmQgc2hvdWxkIGJlIHRoZXJlLiBUaGFua3MgdG8gQ2VkcmljIEJlbGwsIHRvIHdob20gSSBhbSBpbmRlYnRlZCwgdGhhdCBldmlkZW5jZSBoYXMgYmVlbiBmb3VuZC4gV2UgaGF2ZSBjYXJib24gZGF0aW5nIG9mIHdvb2QsIG1vcnRhciwgc3RvbmUgYW5kIHNsYWcgYXMgZXZpZGVuY2UgdGhhdCB0aGUgQ2hpbmVzZSBsaXZlZCBvbiBTb3V0aCBJc2xhbmQgYW5kIG1pbmVkIGhlciBtaW5lcmFscyBmb3IgZml2ZSBjZW50dXJpZXMgYmVmb3JlIENhcHRhaW4gQ29vayBgZGlzY292ZXJlZGAgTmV3IFplYWxhbmQuDQoNCndlIGFyZSwgbm93IG1vcmUgdGhhbiBldmVyLCBjb252aW5jZWQgdGhhdCBhY2NlcHRlZCBoaXN0b3J5IGhhcyBiZWVuIHR1cm5lZCB1cHNpZGUgZG93biwgbm90IG9ubHkgaW4gTmV3IFplYWxhbmQgYW5kIEF1c3RyYWxpYSBidXQgaW4gTm9ydGggYW5kIFNvdXRoIEFtZXJpY2EsIGFjcm9zcyB0aGUgUGFjaWZpYyBhbmQgaW4gdGhlIEFyY3RpYyBhbmQgQW50YXJjdGljLiBUaGUgZ3JlYXQgYnVsayBvZiB0aGUgbmV3IGV2aWRlbmNlIHRoYXQgaGFzIGVuYWJsZWQgbWUgdG8gbWFrZSBzdWNoIHN0YXJ0bGluZyBjbGFpbXMgaGFzIGNvbWUgZnJvbSByZWFkZXJzIG9mIG15IGJvb2suIEl0IGlzIHlvdSwgbm90IGhpc3RvcmlhbnMgb3IgYWNhZGVtaWNzLCB3aG8gaGF2ZSByZXdyaXR0ZW4gaGlzdG9yeS4uLg0KDQoNCmh0dHA6Ly93d3cuMTQyMS50di8="
+"eventtime","2006-01-29 20:40:00"
+"url","http://blackhearted.livejournal.com/108539.html"
+"userid","1763"
+"itemid","422"
+"event","<img src=""http://img.photobucket.com/albums/v147/blackhearted/ABC_INAB_web.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2006-01-19 18:47:00"
+"url","http://blackhearted.livejournal.com/108280.html"
+"userid","1763"
+"itemid","421"
+"event","In name and blood and ABC weapons playing all ages instore at missing link sun 29th JAN.  3pm
+
+be there or be somewhere else."
+"eventtime","2006-01-06 09:48:00"
+"url","http://blackhearted.livejournal.com/107951.html"
+"userid","1763"
+"itemid","420"
+"event","this is the strangest thing ive ever found on ebay..
+
+i dont know even how to respond to this.... i think its funny maybe
+
+
+i just dont get it..
+
+
+http://cgi.ebay.com.au/IN-NAME-AND-BLOOD-LAMINATED-FLYER-BOOKMARK-2005-6_W0QQitemZ7567521995QQcategoryZ29931QQssPageNameZWDVWQQrdZ1QQcmdZViewItem"
+"eventtime","2005-12-08 16:40:00"
+"url","http://blackhearted.livejournal.com/107574.html"
+"userid","1763"
+"itemid","419"
+"event","108.
+
+
+how good.
+
+
+seriously."
+"eventtime","2005-11-28 16:37:00"
+"url","http://blackhearted.livejournal.com/107423.html"
+"userid","1763"
+"itemid","418"
+"event","<img src=""http://i16.photobucket.com/albums/b14/diabolthumbs/Coreys%2030th/coreys30107.jpg"" alt=""Image hosted by Photobucket.com"">
+
+last night was amazing.... the best party ive ever had.
+i even learn the following things.
+
+1.the only thing better than having 2 drinks at once is having 3
+2.i am a shit dancer.
+3.i have the best GF ever and the best friends.. (well i already knew that)
+
+i just want to thank the kids that came and had a blast with me for my 30th.. u guys are the best... and for those who didnt make it.... well you missed out on a grand shin-dig.
+
+<img src=""http://i16.photobucket.com/albums/b14/diabolthumbs/Coreys%2030th/coreys30079.jpg"" alt=""Image hosted by Photobucket.com"">
+<img src=""http://i16.photobucket.com/albums/b14/diabolthumbs/Coreys%2030th/coreys30148.jpg"" alt=""Image hosted by Photobucket.com"">
+<img src=""http://i16.photobucket.com/albums/b14/diabolthumbs/Coreys%2030th/coreys30109.jpg"" alt=""Image hosted by Photobucket.com"">
+<img src=""http://i16.photobucket.com/albums/b14/diabolthumbs/Coreys%2030th/coreys30105.jpg"" alt=""Image hosted by Photobucket.com"">
+<img src=""http://i16.photobucket.com/albums/b14/diabolthumbs/Coreys%2030th/coreys30106.jpg"" alt=""Image hosted by Photobucket.com"">
+<img src=""http://i16.photobucket.com/albums/b14/diabolthumbs/Coreys%2030th/coreys30103.jpg"" alt=""Image hosted by Photobucket.com"">
+<img src=""http://i16.photobucket.com/albums/b14/diabolthumbs/Coreys%2030th/coreys30095.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-11-13 13:20:00"
+"url","http://blackhearted.livejournal.com/107104.html"
+"userid","1763"
+"itemid","417"
+"event","<img src=""http://img.photobucket.com/albums/v147/blackhearted/melbourne1.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-10-31 10:25:00"
+"url","http://blackhearted.livejournal.com/106805.html"
+"userid","1763"
+"itemid","416"
+"event","Somebody buy me the warriors game on either PS2 or x-box (i have both) for my 30th birthday..
+
+come on you know you want to.
+
+12th november at the prince alfred hotel.
+
+be there."
+"eventtime","2005-10-21 19:38:00"
+"url","http://blackhearted.livejournal.com/106663.html"
+"userid","1763"
+"itemid","413"
+"event","<img src=""http://img.photobucket.com/albums/v147/blackhearted/newflyer.jpg"" alt=""Image hosted by Photobucket.com"">
+
+
+
+
+ever notice now rohan looks like male model....."
+"eventtime","2005-09-19 23:38:00"
+"url","http://blackhearted.livejournal.com/105858.html"
+"userid","1763"
+"itemid","412"
+"event","Help finally arrives for the Katrina victims!!!
+
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/david.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-09-12 12:20:00"
+"url","http://blackhearted.livejournal.com/105531.html"
+"userid","1763"
+"itemid","411"
+"event","d2hhdCB0aGUgZnVja3MgdGhpcyBhbGwgYWJvdXQ/DQoNCjxpbWcgc3JjPSJodHRwOi8vaW1nLnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvdjE0Ny9ibGFja2hlYXJ0ZWQvamFwZ3V5LmpwZyIgYWx0PSJJbWFnZSBob3N0ZWQgYnkgUGhvdG9idWNrZXQuY29tIj4NCg0KPGltZyBzcmM9Imh0dHA6Ly9pbWcucGhvdG9idWNrZXQuY29tL2FsYnVtcy92MTQ3L2JsYWNraGVhcnRlZC9qYXBndXkyLmpwZyIgYWx0PSJJbWFnZSBob3N0ZWQgYnkgUGhvdG9idWNrZXQuY29tIj4NCg0KDQphbmQgb24gYW5vdGhlciByYW5kb20gbm90ZS4NCg0KTWVsYm91cm5lIC0gVmljdG9yaWEgTWFya2V0IC0gVmljdG9yaWEgTWFya2V0IHdhcyBNZWxib3VybmVzIGZpcnN0IGdlbmVyYWwgY2VtZXRlcnkgYW5kIHN0aWxsIGNvbnRhaW4gb3ZlciA1MCAwMDAgYm9kaWVzIGJ1cmllZCB0aGVyZSBpbmNsdWRpbmcgTWVsYm91cm5lwpJzIGZvdW5kZXIgam9obiBiYXRtYW4gd2hvIGlzIGJ1cmllZCB1bmRlciBhIHN0YXR1ZSBvZiBoaW0gaW4gdGhlIGNhciBwYXJrIGFuZCB0aGVyZSBpcyB0d28gYnVzaCByYW5nZXJzIGdob3N0cyB0aGF0IHdhbGsgYXJvdW5kIHRoZSBzdGFsbHMgaW4gdGhlIGZydWl0IHNlY3Rpb24u"
+"eventtime","2005-09-08 22:39:00"
+"url","http://blackhearted.livejournal.com/105447.html"
+"userid","1763"
+"itemid","410"
+"event","slayer
+
+
+owns
+
+
+you"
+"eventtime","2005-09-06 20:57:00"
+"url","http://blackhearted.livejournal.com/105206.html"
+"userid","1763"
+"itemid","409"
+"event","this shows a bit of a strange one but theres some good bands playing so come along.
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/hifi.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-09-06 10:32:00"
+"url","http://blackhearted.livejournal.com/104782.html"
+"userid","1763"
+"itemid","408"
+"event","Tonight due to unforeseen circumstances TAKING SIDES have had to pull out of their Melbourne leg of their Australian tout with THE DEAD WALK!, and as a result of this, IN NAME AND BLOOD will be playing in their place.
+
+so there you go."
+"eventtime","2005-09-03 10:56:00"
+"url","http://blackhearted.livejournal.com/104690.html"
+"userid","1763"
+"itemid","407"
+"event","<img src=""http://img.photobucket.com/albums/v147/blackhearted/corey/hiphop.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-08-30 19:23:00"
+"url","http://blackhearted.livejournal.com/104395.html"
+"userid","1763"
+"itemid","403"
+"event","<img src=""http://img.photobucket.com/albums/v147/blackhearted/sep2_promo.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-08-27 09:43:00"
+"url","http://blackhearted.livejournal.com/103393.html"
+"userid","1763"
+"itemid","402"
+"event","<img src=""http://img.photobucket.com/albums/v147/blackhearted/arm.jpg"" alt=""Image hosted by Photobucket.com"">
+
+
+represent."
+"eventtime","2005-08-15 11:18:00"
+"url","http://blackhearted.livejournal.com/103000.html"
+"userid","1763"
+"itemid","401"
+"event","i spent last night practicing scales to billy joel songs.
+
+and i made paula listen to one of my JUD JUD 7's
+
+reads this review for an explanation of JUD JUD for those of you who dont know.
+
+
+Jud Jud
+
+xthedemosx
+
+I don't know any other way to put it, Jud Jud are an a cappella metal band. Two guys make all of the palm mute gallops, whammy bar dive bombs and high hat count offs. They even make back masking sounds. Strangely, instead of sounding like a Beavis and Butthead joke taken too far, they pull it off with enough humor to make it funny, enough skill to make it serious. The printing of the lyrics was a nice touch (""...jud jud jah gah goy gah goy...""). Another nice touch would be the show fliers showing Jud Jud headlining for such bands as Youth of Today, Bold, Minor Threat, and Dag Nasty."
+"eventtime","2005-08-15 11:07:00"
+"url","http://blackhearted.livejournal.com/102869.html"
+"userid","1763"
+"itemid","400"
+"event","List ten songs that you are currently digging... it doesn't matter what genre they are from, whether they have words, or even if they're no good but they must be songs you're really enjoying right now. Post these instructions, the artists, and the ten songs in your blog. Then tag five other people to see what they're listening to.
+
+im with cam .. fuck songs.... heres the albums..
+
+1 . Nile - Annihilation of the wicked
+2 . Rotten sound - exit 
+3 . carcass - heartwork
+4 . Nausm - Shift
+5 . Origin - Echos of decimation
+6 . Billy joel - best of vol 1 and 2 
+7 . Suffocation - Souls To Deny
+8 . Huey Lewis and the news - Forte!
+9 . a life once lost - hunter
+10. in name and blood - bring me the horizon demos ( at least im honest )
+
+
+ i tag fucking everyone...
+especially dase."
+"eventtime","2005-08-12 17:50:00"
+"url","http://blackhearted.livejournal.com/102448.html"
+"userid","1763"
+"itemid","399"
+"event","sorry everyone but anberlin were awsome...
+even though the singer looked like rod stewart..."
+"eventtime","2005-07-24 08:36:00"
+"url","http://blackhearted.livejournal.com/102334.html"
+"userid","1763"
+"itemid","398"
+"event","has anyone else noticed how ugly the singer from anberlin is... fuck..how can that voice come out of that head....and he looks like hes about 40
+
+
+on second thoughts..
+
+how good are waffles.."
+"eventtime","2005-07-21 22:08:00"
+"current_moodid","106"
+"url","http://blackhearted.livejournal.com/102127.html"
+"userid","1763"
+"itemid","396"
+"event","i went and saw the blood brothers play tonight.
+the problem was that they were exactly what i expected them to be like,both musically and theatrically....
+
+completely predicable..
+
+oh and there was also the fact that they looked like a bunch of anorexic,epileptic muppets..
+
+
+i swear there were more girls jeans on boys than were on girls there...
+
+
+and then i came home.
+
+
+the end."
+"eventtime","2005-07-14 23:44:00"
+"url","http://blackhearted.livejournal.com/101416.html"
+"userid","1763"
+"itemid","395"
+"event","<img src=""http://img.photobucket.com/albums/v147/blackhearted/untitled3.bmp"" alt=""Image hosted by Photobucket.com"">
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/untitled2.bmp"" alt=""Image hosted by Photobucket.com"">
+
+which one should we use?"
+"eventtime","2005-06-29 23:12:00"
+"url","http://blackhearted.livejournal.com/101177.html"
+"userid","1763"
+"itemid","394"
+"event","we went to frankston today..
+
+this is what happened.
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/25June005.jpg"" alt=""Image hosted by Photobucket.com"">
+
+and then
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/25June008.jpg"" alt=""Image hosted by Photobucket.com"">
+
+and then
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/25June016.jpg"" alt=""Image hosted by Photobucket.com"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/25June015.jpg"" alt=""Image hosted by Photobucket.com"">
+
+the abanbonment are my new fav band.
+
+
+and then
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/25June038.jpg"" alt=""Image hosted by Photobucket.com"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/25June028.jpg"" alt=""Image hosted by Photobucket.com"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/25June019.jpg"" alt=""Image hosted by Photobucket.com"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/25June036.jpg"" alt=""Image hosted by Photobucket.com"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/25June020.jpg"" alt=""Image hosted by Photobucket.com"">
+
+these photos are much better than the show was.
+
+paula is cool.
+
+stay tuned for INAB promo photos down by the sea side... no really.
+i hate the beach."
+"eventtime","2005-06-26 23:48:00"
+"url","http://blackhearted.livejournal.com/101071.html"
+"userid","1763"
+"itemid","393"
+"event","how good is warrant..
+
+
+seriously."
+"eventtime","2005-06-14 22:12:00"
+"url","http://blackhearted.livejournal.com/100678.html"
+"userid","1763"
+"itemid","392"
+"event","this is all i have to say.
+
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/kip.bmp"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-06-12 13:45:00"
+"url","http://blackhearted.livejournal.com/100372.html"
+"userid","1763"
+"itemid","391"
+"event","just got back from the atreyu / unearth / norma jean tour and i have to say that those bands are made up of some the the nicest,most supportive dudes that ive ever had the pleasure of meeting, who watched us play and stole our merch at every oppertunity..
+
+hightlights included...
+
+being invited up mid set to play a part of a atreyu song on the bass....to which i politly declined.
+
+ken from unearth wanting to beat up bert from the used when they turned up at the show and took over the band room drinking all the beer and water and gernerally just behaving like rockstar arssholes.
+
+bargain bin porn dvds... bad idear kids..
+
+norma jean just being brutal every night..
+
+leaving sydney and coming home to my girl.."
+"eventtime","2005-05-13 23:25:00"
+"url","http://blackhearted.livejournal.com/100206.html"
+"userid","1763"
+"itemid","390"
+"event","paula and i went to the zoo today.... there seemed to be less animals than there were last time i was there.. maybe they died of boredom cause the animals i saw looked bored shitless.."
+"eventtime","2005-05-08 18:29:00"
+"url","http://blackhearted.livejournal.com/99870.html"
+"userid","1763"
+"itemid","389"
+"event","watch out ..
+
+
+atreyu/unearth/norma jean/in name and blood
+this weekend...
+
+
+were on 15 mins after doors on both days so if you want to catch us make sure your there nice and early.
+
+
+out."
+"eventtime","2005-05-04 20:33:00"
+"url","http://blackhearted.livejournal.com/99726.html"
+"userid","1763"
+"itemid","388"
+"event","this is me with my friend dave at the ted leo show..
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/100_0922.jpg"" alt=""Image hosted by Photobucket.com"">
+Dave was in rushmore with me back in the day  ( if anybody remembers ) and hes my mate.. ( although in this photo he kinda looks like hes been up for days doing crazy drugs )
+We dont hang out too much these days so i invited him over for dinner.
+
+oh and ted leo rocked pretty hard.....and although he could have done with a few chisel songs in the set, the cover of  ""six months in a leaky boat "" was pretty darn tops.."
+"eventtime","2005-04-30 00:19:00"
+"url","http://blackhearted.livejournal.com/99376.html"
+"userid","1763"
+"itemid","387"
+"event","deicide..
+
+cannibal corpse..
+
+carcass..
+
+
+its a different sort of mid 90""s
+
+get into it kids.
+
+
+oh and paula got her first x-box game yesterday.. im very proud of her... welcome to the family..
+
+and just so nobody forgets..
+
+HOW GOOD ARE THESE FILMS!!!!!!
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/weekend_at_bernies1.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-04-25 23:41:00"
+"url","http://blackhearted.livejournal.com/99120.html"
+"userid","1763"
+"itemid","386"
+"event","funny stuff right here....
+
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/prom.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-04-19 20:23:00"
+"url","http://blackhearted.livejournal.com/98969.html"
+"userid","1763"
+"itemid","385"
+"event","well well well what a weekend...... i never write shit like this but oh well... im bored..
+
+
+thursday night INAB at next........... it turned out far better than i though it would,lots of kids and the set went well.. in fact it was the longest set we have ever played.. 50 mins apparently.. it was nice to road test some new songs.. then piled into the tarago and drove straight to boobalaide and a good dumbing down ( errgggggggg MOSH )
+Highlights of the drive included craig halluciating from lack of sleep ( watch out for the rusted car ) and me being a really funny cunt..
+The a-town shows was the best of the 4... sold out show ( must have been an act of god or something ) and had lots of fun on stage... fingers started to bleed at this show..
+drove back to melbourne on sat........ the show at the arty was fun as they always are.... bled some more....
+By the time sunday came around we were pretty fucked so i apologize if we were less energetic than usual... i think we were a little put off by the massive stage and barrier at the show.... had fun though.. lots of kids and lots of friends there.. bled lots.. met leith at the first aid tent after the set and canceled band practice cause we couldn't hold our picks anymore...
+many thanks to cassie-jane for all the hard work she put into the weekend and many thanks to a secret death for being rad and not wearing makeup.
+
+and i missed the girl all weekend..
+
+c."
+"eventtime","2005-04-18 23:05:00"
+"url","http://blackhearted.livejournal.com/98805.html"
+"userid","1763"
+"itemid","384"
+"event","dGhpcyB3YXMgYSByZXZpZXcgZnJvbSB6aW5lICggaSB0aGluayApIGNhbGxlZCBsb2FkIG9mIG5vaXNlLi4uLi4uDQoNCmltIG5vdCBxdWl0ZSBzdXJlIHdoZXJlIGluIHRoZSB3b3JsZCBpdCBmcm9tIHRob3VnaCBidXQgbWFrZSBvZiBpdCB3aGF0IHlvdSB3aWxsDQoNCg0KQmVuIFMgcGlja2VkIHRoaXMgdXAgaW4gQXVzdHJhbGlhIGFuZCBpbiBkb2luZyBzbyBkaXNjb3ZlcmVkIGFuIGV4dHJlbWVseSBwcm9taXNpbmcgbWV0YWxsaWMgaGFyZGNvcmUgYmFuZC4gTGlrZSBhIHJpcC1yb2FyaW5nIGNvbWJvIG9mIFJlbWVtYmVyaW5nIE5ldmVyLCBBIExvbmcgV2ludGVyIGFuZCBTaGFpIEh1bHVkLCBJTkFCIHRlYXIgdGhyb3VnaCB0aGUgZWlnaHQgdHJhY2tzIG9uIGhlcmUgd2l0aCBjb25maWRlbmNlIGFuZCByYXcgbmVydmUgZW1vdGlvbi4gQWNjb3JkaW5nIHRvIHRoZSBpbmxheSB0aGUgcHJvZHVjdGlvbiB3YXMgYWN0dWFsbHkgaGFuZGxlZCBieSBUaGUgQmVyemVya2VyIGFuZCBpcyBkYW1uIG5lYXIgZmF1bHRsZXNzLCB0aGUgc29ycm93LWxhZGVuIG1pbmlhdHVyZSBlcGljcyBhbHNvIHNob3cgYW4gYXBwcmVjaWF0aW9uIGZvciB0aGUgZ3VpdGFyIG1lbG9kaWVzIG9mIElyb24gTWFpZGVuIGFuZCBlYXJseSBBdmVuZ2VkIFNldmVuZm9sZC4gU2luZ2VyIENyYWln4oCZcyBwYWluZWQgdm9jYWxzIGxlbmQgdGhlIHNvdW5kIGZ1cnRoZXIgZGVwdGggaW4gdGhlIHNoZWVyIHJhbmdlIG9mIGVtb3Rpb25zIGNvbW11bmljYXRlZCB0aHJvdWdoIHRoZSBpbmRlY2lwaGVyYWJsZSBibG9vZHkgc2NyZWFtaW5nIGZyb20gZ3VpbHQgdG8gcmVncmV0IHRvIHBsYWluIGFuZ2VyLiBNaWR3YXkgdGhyb3VnaCB0aGUgQ0QgYW4gdW50aXRsZWQgaW5zdHJ1bWVudGFsIHJlbWluZHMgbWUgb2YgS2VlbGhhdWwgaW4gaXRzIGdyYWR1YWwgYnVpbGRpbmcgb2YgbGF5ZXJzIHRvIGFuIGFsbWlnaHR5IGNhc2NhZGluZyBjbGltYXggd2hpY2ggYnJlYWtzIHVwIHRoZSBtaW5pIGFsYnVtIHRlbXBvcmFyaWx5IGJlZm9yZSBqdW1waW5nIGJhY2sgaW50byB0aGUgc2NyZWFtaW5nIG1ldGFsbGljIGZyYXkuIEJhbGFuY2luZyB0aGUgYmFja2dyb3VuZCBtZWxvZHkgb2YgdGhlIGNhdGNoeSBsZWFkcyB3aXRoIHNldmVyYWwgaGFyZC1oaXR0aW5nIHR1cmJ1bGVudCByaWZmcywgdGhlIGhhcmRjb3JlIGFuZCBtZXRhbCBpbmZsdWVuY2VzIGFyZSBibGVuZGVkIHdlbGwgYnkgdGhlIGJhbmQgdG8gY3JlYXRlIGEgaGVhdnkgeWV0IGVtb3Rpb25hbCByYWNrZXQuIA0KDQpnb29kIHN0dWZmIGd1eXM="
+"eventtime","2005-04-12 20:33:00"
+"url","http://blackhearted.livejournal.com/98402.html"
+"userid","1763"
+"itemid","383"
+"event","watch out for new In Name and Blood  ""mosh - just say NO ""  shirts coming soon.."
+"eventtime","2005-03-31 21:21:00"
+"url","http://blackhearted.livejournal.com/98084.html"
+"userid","1763"
+"itemid","382"
+"event","blah blah blah blah blah
+
+
+
+Friday 6th May
+Atreyu
+Unearth
+Norma Jean
+In Name and Blood
+Corner Hotel, Richmond, Victoria.
+18+
+
+
+Saturday 7th May
+Atreyu
+Unearth
+Norma Jean
+In Name and Blood
+Corner Hotel, Richmond, Victoria.
+Under 18's ONLY Afternoon Show.
+
+Tuesday 10th May
+Atreyu
+Unearth
+Norma Jean
+In Name and Blood
+Sydney Gaelic Theatre NSW.
+18+
+
+Wednesday 11th May
+Atreyu
+Unearth
+Norma Jean
+In Name and Blood
+Sydney Gaelic Theatre NSW.
+Theatre Licensed All Ages"
+"eventtime","2005-03-30 20:29:00"
+"url","http://blackhearted.livejournal.com/97854.html"
+"userid","1763"
+"itemid","381"
+"event","i got tattooed today..
+all i can say is ouch....
+the rest of the shading is to come as well as the colour..
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/100_0614.jpg"">
+
+whack chord.
+<img src=""http://img.photobucket.com/albums/v15/murdererfirst/coreypoy.jpg"">
+
+missing link instore
+<img src=""http://img.photobucket.com/albums/v15/murdererfirst/mlinstore.jpg"">
+
+tigers are hot
+<img src=""http://img.photobucket.com/albums/v15/murdererfirst/tigerarmy.jpg"">
+
+dillinger show
+<img src=""http://img.photobucket.com/albums/v15/murdererfirst/inab17.jpg"">"
+"eventtime","2005-03-24 22:52:00"
+"url","http://blackhearted.livejournal.com/97558.html"
+"userid","1763"
+"itemid","380"
+"event","iron lung at the pink palace last night = awsome.
+
+terror firma = not so awsome but that could have been my crappy playing..
+
+some random punk dude knocking over my amp and busting it  = completely un-awsome.
+
+sitting waiting to be picked up so i can fly to crafter fest so i can rock out with the popped collared, sideways capped ""hardcore"" population of adelaide.... isnt life grand.
+
+
+the end.
+
+p.s everyone read dases new zine = awsome."
+"eventtime","2005-03-12 07:43:00"
+"url","http://blackhearted.livejournal.com/97481.html"
+"userid","1763"
+"itemid","379"
+"event","Images from the last N.S.W shows.....   (one of which was a dress up show if you hadnt realised)
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/lieth2.jpg"">
+
+<<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/live4.jpg"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/rock.jpg"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/coreytiara.jpg"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/goodlookingpair.jpg"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/dressup1.jpg"">
+
+<img src=""http://img.photobucket.com/albums/v147/blackhearted/new%20photos/dressup9.jpg"">
+
+thank you very much"
+"eventtime","2005-02-24 19:15:00"
+"url","http://blackhearted.livejournal.com/97270.html"
+"userid","1763"
+"itemid","377"
+"event","Comment of the night (sunday night as i lay dying/shadowsfall)goes to the two awsome boofhead metal dudes who were standing behind me during parkway drives set... 
+
+and i quote.
+
+metalhead #1
+""if that cunt with shirt off and tattoos comes near me with those kicks im going to rip his fucking head off""
+
+metal head #2
+""yeah and not even that shit jesus tattoo is going to save, in fact ill kill him as well""
+
+
+long live metal.
+
+
+have you ever noticed that most true old school metal heads just look down their noses at hardcore bands that play pretend metal.......
+Its casue they know that most metal kids get into it for life and stay dedicated to metal.... even if they start listening to other things as well......where as most hardcore kids last as long as it takes to find another bandwagon to jump onto...
+
+Wanna know why metal will ALWAYS be cooler than hardcore?
+its because metal kids never think their cool and they dont want it anyway...
+where as hardcore oozes coolness.. its hip and thats what makes it really UNcool.
+
+heres to never getting a haircut...
+
+
+EDIT : I INVENTED METAL AS WELL APPARENTLY"
+"eventtime","2005-02-21 22:44:00"
+"current_moodid","6"
+"url","http://blackhearted.livejournal.com/96677.html"
+"userid","1763"
+"itemid","376"
+"event","ok ive got a bunch of YOUTH LARGE shirts that are just too damm small, even for me... some are more well worn than others... make me an offer.. cash or trade..
+
+planesmastakenforstars - skull design
+pig destroyer - painter of dead girls design
+blood brothers - old design from the first record era
+isis - old design form red sea era
+combatwoundedveteran - mop girl design
+combatwoundedvertean - pink wings design
+gameface - blue shirt with band photo design
+between the buried and me  (worn once... i have to accept thats its too small though..damm)
+floor - leaves design
+
+im sure there are some more as well but ive forgotten them."
+"eventtime","2005-02-19 09:43:00"
+"url","http://blackhearted.livejournal.com/96332.html"
+"userid","1763"
+"itemid","375"
+"event","In name and blood got the melbourne Dillinger Escape Plan support....
+
+go team us."
+"eventtime","2005-02-15 09:49:00"
+"url","http://blackhearted.livejournal.com/96098.html"
+"userid","1763"

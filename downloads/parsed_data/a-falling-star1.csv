@@ -1,0 +1,54 @@
+"names","values"
+"itemid","36"
+"event","<div align=""center""><center>
+
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""200"" style=""font-family: Comic Sans MS; background-color: rgb(224,250,252); color: #1B9EDE; font-size: 8pt; border: 2px solid #60E6F0"">
+
+<tr>
+
+<td width=""100%""><p align=""center""><script LANGUAGE=""JAVASCRIPT"">
+
+today = new Date();
+
+BigDay = new Date(""January 11, 2006"") 
+
+msPerDay = 24 * 60 * 60 * 1000 ;
+
+timeLeft = (BigDay.getTime() - today.getTime());
+
+e_daysLeft = timeLeft / msPerDay;
+
+daysLeft = Math.floor(e_daysLeft);
+
+e_hrsLeft = (e_daysLeft - daysLeft)*24;
+
+hrsLeft = Math.floor(e_hrsLeft);
+
+minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+
+document.write( ""There's ""+daysLeft+"" days, ""+hrsLeft+"" hours and ""+minsLeft+"" minutes left until im 21! "");
+
+</script> </p>
+
+<p align=""center""><img src=""images/waveani.gif"" WIDTH=""275"" HEIGHT=""22""></td>
+
+</tr>
+
+</table>
+
+</center></div><font color=""#000000"">"
+"eventtime","2005-08-20 00:08:00"
+"url","http://a-falling-star1.livejournal.com/9286.html"
+"userid","152"
+"itemid","35"
+"event","i don't understand why prostitution is illegal. 
+Selling is legal, fucking is legal.
+So why isn't it legal it sell fucking? 
+why should it be illegal to sell something that's legal to give away? 
+i can't follow the logic. 
+of all the things you can do to a person, giving them an orgasm is hardly the worst. 
+In the army they give you a medal for killing people; in civilian life you go to jail for giving them orgasms. 
+am i missing something?"
+"eventtime","2005-05-30 21:13:00"
+"url","http://a-falling-star1.livejournal.com/8981.html"
+"userid","152"

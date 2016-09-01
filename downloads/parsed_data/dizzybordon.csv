@@ -1,0 +1,551 @@
+"names","values"
+"itemid","242"
+"event","RHVubm8gd2hhdCBpdCdzIGZvci4uIHRoYXQgcGFydCBpc24ndCBpbXBvcnRhbnQgeWV0Lg0KDQo8ST4iSSBsaWtlIGd1eXMgd2hvIGxpa2UgbGF2ZW5kZXIuIFBlcmhhcHMgaXTigJlzIGEgYml0IHBlY3VsaWFyIGJ1dCBJIHJlYWxpemVkIFRheWxvciB3b3VsZCBiZWNvbWUgYSBtYXR0ZXIgb2YgaW50ZXJlc3Qgc29tZXRpbWUgYmV0d2VlbiB3YXNoaW5nIG15IGZhY2UgYW5kIGRyeWluZyBpdCB3aXRoIHRoZSBzb2Z0LCBibHVlIHRvd2VsIGh1bmcgdXAgaW4gZnJvbnQgb2YgdGhlIHRvaWxldC4gVGhlbiwgaW4gYSBtb21lbnQgb2YgcmV0cm9zcGVjdCwgSSBmb3VuZCBteXNlbGYgdHJhY2luZyB0aGUgcGF0aHdheSBvZiBzZW5zYXRpb24gdW50aWwgdGhlIGNhdXNlIG9mIHRoZSByZXZlbGF0aW9uIGJlY2FtZSBjbGVhci4NCk11c3TigJl2ZSBiZWVuIHRoZSBzaGFtcG9vLWNvbmRpdGlvbmVyIHNldCwgSSByZWNrb24uIFRoZXJlIHVwb24gdGhlIGhpZ2ggcmFjayBpbiB0aGUgc2hvd2VyIHJlc3RlZCBhIGxhdmVuZGVyLXRoZW1lZCBoYWlyIGNhcmUgZHVvIGFtaWRzdCBhIGJhdGhyb29tIHRoYXQgcmVla2VkIG9mIOKAnGR1ZGXigJ0uIFVwb24gZnVydGhlciByZWZsZWN0aW9uLCBJIHJlYWxpemVkIG15IHRhcmdldGluZyBtYXkgaGF2ZSBiZWVuIGFmZmxpY3RlZCBieSBhIHBlcnNvbmFsIHByZWZlcmVuY2UgZm9yIHRoZSBzY2VudCBhbmQgdGhhdCBJIGhhZCBzcGVudCBhbiB1bm5lY2Vzc2FyaWx5LWxvbmcgYW1vdW50IG9mIHRpbWUgaW4gdGhlIGJhdGhyb29tLg0KDQpJIHJldHVybmVkIHRoZSBiYXRocm9vbSB0byBpdHMgb3JpZ2luYWwgc3RhdGUgYmVmb3JlIGV4aXRpbmcgaW50byB0aGUgdmVyeSBzaW1wbGUsIHZlcnkgYmFjaGVsb3IgYmVkcm9vbS4gVGhlcmUgd2FzIGEgbWF0dHJlc3Mgb24gdGhlIGZsb29yLCBhIGRlc2sgd2l0aCBhIGNsb2NrIHJhZGlvLCBhbmQgc2ltcGxlIG5pZ2h0IHN0YW5kcyB0aGF0IHNlcnZlZCBvbmx5IHRvIGRpc3BlbnNlIHBvY2tldCBjaGFuZ2UgYW5kIGNvbmRvbXPigKYgb2gsIGFuZCB0byBwcm92aWRlIGEgYmFzZSBmb3IgYSBkZXNrIGxhbXAgdGhhdCB0cmllZCByYXRoZXIgcGF0aGV0aWNhbGx5IHRvIGlsbHVtaW5hdGUgdGhlIHJvb20uIFRoaXMgd2FzIGFsbCBzZWVuIGJlZm9yZSwgdGhvdWdoLCBhbmQgaGVsZCBsaXR0bGUgaW50ZXJlc3QgY29tcGFyZWQgdG8gdGhlIHJhY2tldCBmcm9tIHRoZSBsaXZpbmcgcm9vbSB0aGF0IGhhZCBiZWVuIG1vbWVudGFyaWx5IGR1bGxlZCBieSB0aGUgdGlsZWQgd2FsbHMuIE5vdyB0aGUgc2Vuc2F0aW9uIHdhcyBzaGFraW5nIHRoZSB3YWxscyBtb3JlIGNsZWFybHksIGJlY29taW5nIG1vcmUgZGVmaW5lZCB0aGUgY2xvc2VyIEkgbW92ZWQgdG8gdGhlIGNsb3NlZCBiZWRyb29tIGRvb3IuIEZvcmVtb3N0LCB0aGVyZSB3YXMgYSBwYXJ0aWN1bGFybHktdmFyaWVkIHNwZWN0cnVtIG9mIGd1bmZpcmUgc2hvb2sgdGhlIHBhcnRpdGlvbnMgYmVmb3JlIHNjcmVhbXMgYW5kIGNyYXNoZXMgdG9vayBob2xkIGFuZCBqb2luZWQgZm9yY2VzIHRvIHBlbmV0cmF0ZSB0aGUgZW50aXJlIGF0bW9zcGhlcmUgb2YgdGhlIGFwYXJ0bWVudC4gQWxsIHRoZSB3aGlsZSwgSSB3YXMgY2FsbGVkIGZvcnRoIHdpdGggY3VyaW9zaXR5LiANCkkgb3BlbmVkIHRoZSBiZWRyb29tIGRvb3Igc2xvd2x5LCBtaW5kZnVsIG9mIGFueSBza2l0dGVyaW5nIGFib3V0IG5lYXJieSwgYmVmb3JlIHN0ZXBwaW5nIG91dCB0byBpbnZlc3RpZ2F0ZSB0aGUgY29taW5nIHNwZWNpZmljcy4gVGhlIGd1bmZpcmUgZ290IGxvdWRlciBhbmQgbG91ZGVyIGFzIEkgbmVhcmVkIGJ1dCBJIG5lZWRlZCBtdWNoIG1vcmUgdGhhbiB0aGF0IHRvIHNsb3cgbWUuIEkgZ3JldyBjbG9zZXLigKYgY2xvc2VyIHN0aWxs4oCmDQoNClVudGlsLCByYXRoZXIgc3VkZGVubHksIGFuIGFicnVwdCBuZXcgc291bmQgc2hvb2sgbWUgdG8gbXkgY29yZS4gQSBmZXcgcXVpY2tseS1wYWNlZCBhbmQgZGVsaWJlcmF0ZSB0aHVkcyBhZ2FpbnN0IHRoZSBsaXZpbmcgcm9vbSB3YWxsIHRoYXQgY2FtZSBmcm9tIHRoZSBvdGhlciBzaWRlIG1heSBoYXZlIGhhZCBhbiB1bnNlZW4gY2F1c2UsIGJ1dCBpbiBubyB3YXkgd2FzIGEgbXlzdGVyeS4gSXQgd2FzIHRoZSBmYW1pbGlhciA5UE0gcmVtaW5kZXIgdGhhdCBmaXJzdC1wZXJzb24gc2hvb3RlcnMgcGxheWVkIG92ZXIgdGhlIHN1cnJvdW5kIHNvdW5kIGFubm95ZWQgY3Jhbmt5IG5laWdoYm9ycy4gVGF5bG9yIGFuZCBDYXJsc29uIHNpZ2hlZCBiZWZvcmUgcHJlc3NpbmcgYSBmZXcgYnV0dG9ucyBhbmQgcmV0dXJuaW5nIHRoZSBuaWdodOKAmXMgYWN0aXZpdGllcyBkb3duIHRvIGEgZHVsbCByb2FyLi4uLiI8L0k+"
+"eventtime","2006-05-12 06:03:00"
+"url","http://dizzybordon.livejournal.com/62103.html"
+"userid","3981"
+"itemid","241"
+"event","QW5kIHNvbWVob3csIGl04oCZcyBiZWVuIGFuIGV2ZW50ZnVsIHdlZWtlbmQuIFRoZSBwbGFuIHdlbnQgYXMgc3VjaC4gSWYgSSB3YXNu4oCZdCBnb2luZyB0byBDb2xl4oCZcyBvbiBGcmlkYXksIFdlc3RvbiBwcm9wb3NlZCBhIHRyaXAgdG8gRnJlZGVyaWNrc2J1cmcgdGhhdCB3ZeKAmXZlIG5lZWRlZCB0byBtYWtlIGZvciBzb21lIHRpbWUgbm93LiBXZWxsLCBJIHdhc27igJl0IGluIG11Y2ggb2YgYSBtb29kIHRvIHNlZSBDb2xlIGF0IHRoYXQganVuY3Rpb24sIG5vciBoYXZlIEkgYmVlbiBzaW5jZSwgc28gdGhlIHRyaXAgd2FzIG9uIHdpdGggYSBzdXJyZWFsaXN0aWMgZmVydm9yIEkgaGFkbuKAmXQga25vd24gZm9yIHF1aXRlIHNvbWUgdGltZS4gT2RkLCBtaXNwbGFjZWQgc2Vuc2F0aW9ucyB0aGF0IFdlcyBhbmQgSSBwYXNzZWQgYmFjayBhbmQgZm9ydGggZnJlZWx5LiBJdCB3b3VsZCBoYXZlIGJlZW4gd3Jvbmcgbm90IHRvIGdvLg0KDQoJVGhlbiwgb2YgY291cnNlLCBhcyB3ZSBuZWFyZWQgSSByZW1lbWJlcmVkIG1vcmUgYW5kIG1vcmUgdml2aWRseSB3aHkgaXQgd2FzIGFsd2F5cyBzbyBoYXJkIHRvIGxlYXZlLiBJdOKAmXMgbGlrZSBhIHJlY3VycmluZyBkcmVhbSB0aGF0IGJlY29tZXMgY2xvdWRlZCB3aXRoIGNvbnNjaW91c25lc3MgYnV0IGlzIHJlZGlzY292ZXJlZCB3aXRoIG5ldyBjbGFyaXR5IGV2ZXJ5IG5pZ2h0LiBUaGUgY2xvc2VyIHdlIGdldCwgdGhlIG1vcmUgdGhlIHRyZWVzIHNlZW0gdG8gbG9vayBsaWtlIGNsdXN0ZXJzIG9mIGRhbmNlcnMgYmFza2luZyBpbiB0aGUgc3VubGlnaHQsIHR3aXN0ZWQgYXJvdW5kIGVhY2ggb3RoZXIgbGlrZSBsb3ZlcnMgc2hvdWxkIGJlLiBIZSBzYXlzLCA8aT5JdOKAmXMgYSBzaGFtZSB3ZSBuZXZlciBnZXQgdGhlIHRpbWUgdG8gZG8gdGhpcy48L2k+IGFuZCBJIHRoaW5rLCA8aT5UaGVyZeKAmXMgbmV2ZXIgdGltZSBmb3IgbmV2ZXI8L2k+LiANCg0KCUZyZWRlcmlja3NidXJnIGJyb3VnaHQgdGhlIHNhbWUgd29uZGVyZnVsIHRoaW5ncyBpdCBhbHdheXMgZGlkLiBCbGlzc2Z1bGx5IHNob3J0IGN5Y2xlcyBvZiBjb25zY2lvdXNuZXNzIChmb3VyLCBmaXZlIGhvdXJzIHRvcCBiZWZvcmUgSSB0b29rIGEgbmFwIGN1cmxlZCB1cCBzb21ld2hlcmUgYW5kIGJ1cnJvd2VkIHVuZGVybmVhdGggYmxhbmtldHMpIHdlcmUgb3JnYW5pemVkIGFyb3VuZCB0ZXJyaWZpYyBleGFtcGxlcyBvZiBoaXBweS1jb3VudHJ5IGNvb2tpbuKAmS4gVGhhdOKAmXMgd2h5IHRoZXNlIG9sZGVyIGhpcHBpZXMgY2FuIHN1cnZpdmUgYWxsIHRoZSB0aGluZ3MgdGhleSBoYXZlOiB0aGV5IGVhdCBqdXN0IGFzIGNvbG9yZnVsbHkgYXMgdGhleSBoYWxsdWNpbmF0ZS4gDQoNCglXZSBzcGVudCBzb21lIHRpbWUgd2l0aCBMZWVBbm4gYW5kIFJpY2gsIHZlcnksIHZlcnkgaW50ZXJlc3Rpbmcgb2xkIGhpcHBpZXMgd2hvIHdvcmsgaW4gdGhlIG1lZGljYWwgZmllbGQuIEkgc3RheWVkIHVwIGxhdGUsIHRyaWVkIHRvIGNhdGVnb3JpemVkIHRoZSBzb3VuZHMgSSB3YXMgaGVhcmluZywgYW5kIHBsYXlpbmcgdGhlbSB0byB0aGUgQnJvYWR3YXkgb2Ygc2hhZG93cyBpbiBteSBoZWFkIHdpdGhpbiBteSBidXJyb3dlZCBjYXZlIG9mIGZsZWVjZSBjb21mb3J0LiANCg0KCU91ciBsZWF2aW5nIHdhcyBhcyBkaWZmaWN1bHQgYXMgZXZlciwgV2VzdG9u4oCZcyBncmFuZHBhcmVudHMgaGF2ZSBhZG9wdGVkIG1lIHdpdGggYSB3YXJuaW5nIHRvIHJ1biBXZXMgb2ZmIHNob3VsZCBoZSBhcnJpdmUgd2l0aG91dCBtZS4gSSBnb3QgYmFjayBpbiB0byB0b3duIGFuZCBKYWNlIHdhcyBoYW5naW5nIG91dCBhdCB0aGUgaG91c2Ugd2l0aCBNaWtlLiBXZSBhbGwgaHVuZyBhcm91bmQgZm9yIGEgYml0IGJ1dCBJIGVuZGVkIHVwIGV4YWN0bHkgd2hlcmUgSSBrbmV3IEkgd2FzIHN1cHBvc2VkIHRvLiBJdCBhbGwgd2VudCB0b2dldGhlciBzbyB3ZWxsIHRoaXMgd2Vla2VuZC4gRXZlcnl0aGluZywgcmlnaHQgb24gZG93biB0byB0aGUgZmluYWwgZGV0YWlsISBOb3QgYSBzaW5nbGUgd3JvbmcgdHVybiwgaXQgcmFpbmVkIGV2ZXJ5IG5pZ2h0LCB3YXMgYmVhdXRpZnVsIGR1cmluZyB0aGUgZGF5LCBtaW5pbWFsIHRyYWZmaWMsIHBlcmZlY3Qgcmh5dGhtLCBwZXJmZWN0IGJlYXQsIHBlcmZlY3QsIHBlcmZlY3QsIHBlcmZlY3QuIA0KDQoJQW5kIHlldCwgSSBsZWZ0IHNvbWV0aGluZyBvdXQgdGhhdCBtYXkgc2VlbSBvdXQgb2YgcGxhY2UuLiBidXQgcmVhbGx5IGlzbuKAmXQuDQoNCglFeHBvc2VkLCBleHBlY3RlZCwgYW5kIHRvdGFsbHkgcmVqZWN0ZWQuIEdvb2RuaWdodC4="
+"eventtime","2006-05-07 23:15:00"
+"url","http://dizzybordon.livejournal.com/61948.html"
+"userid","3981"
+"itemid","240"
+"event","VGhlIHN0aWNreS1ub3RlIHRoZW9yeQ0KDQpJ4oCZdmUgY29tZSB0byBiZWxpZXZlIHRoYXQgdGhlIG1pbmQgaXMgZGl2aWRlZCBpbnRvIHR3byBtYWpvciByZWdpb25zIGFuZCBodW1hbiBiZWhhdmlvciBpcyB0aGUgcmVzdWx0IG9mIGNvbXByb21pc2UgYmV0d2VlbiB0aGUgdHdvLiBGaXJzdCwgdGhlcmUgaXMgdGhlIHN1YmNvbnNjaW91cyBtaW5kIHdoaWNoIGlzIHRoZSBrZXJuZWwgb2YgYSBwZXJzb24gZmVhdHVyaW5nIHRyYWl0cyB0aGF0IGFyZSBub3QgZGV2ZWxvcGVkIGJ1dCBzZWVtIHRvIGp1c3QgYmUgbmF0dXJhbCB0byB0aGUgcGVyc29uLiBUaGVuIHRoZXJlIGlzIHRoZSBjb25zY2lvdXMgbWluZCB3aGljaCBzZXJ2ZXMgdG8gaW50ZXJwcmV0IGFuZCByZWFjdCB0byByZWFsaXR5IGFuZCB0aGUgb3RoZXIgaHVtYW5zIHRoZXJlaW4uIFdpdGggZWFjaCBpbnRlcmFjdGlvbiB0aGF0IGEgcGVyc29uIG1ha2VzIHdpdGggdGhlaXIgcmVhbGl0eSwgdGhlcmXigJlzIGEgc3RpY2t5LW5vdGUgcG9zdGVkIGluc2lkZSBvZiB0aGVpciBtaW5kIHRoYXQgZnVydGhlciBkZXZlbG9wcyBodW1hbiBiZWhhdmlvciBieSBjb250aW51b3VzbHkgZm9ybWluZyB0aGUgbWVudGFsIGNvbXByb21pc2UgYmV0d2VlbiBhIHBlcnNvbuKAmXMga2VybmVsIGFuZCB0aGVpciByZWFsaXR5LiBXb3JraW5nIHdpdGggbXkgdGhlb3J5IG9mIG1lbnRhbCBkaXZpc2lvbiwgdGhlIHByb2Nlc3MgZ29lcyBhcyBzdWNoOiANCg0KRmlyc3QgdGhlcmUgaXMgdGhlIHdvbWIsIGEgcGxhY2Ugd2hlcmUgdGhlcmUgaXMgbm8gc2Vuc2F0aW9uIG9mIGFueSByZXNwb25zaWJpbGl0aWVzLCBjYXBhYmlsaXRpZXMsIG9yIHN1cnZpdmFs4oCmIG5vIGNvbXBsZXhpdHkgYW5kLCB0aGVyZWZvcmUsIGNvbXBsZXRlbHkgY29tZm9ydGFibGUuIE5vdCBiZWNhdXNlIGl0IGlzIHdoZXJlIHdlIGFsbCBjYW1lIGZyb20gYnV0LCByYXRoZXIsIGl0IGlzIHRoZSBlcGl0b21lIG9mIHdoYXQgbm8gcGVyc29uIGludm9sdmVkIGluIHRoZSBHbG9iYWwgQ29uc2Npb3VzbmVzcyBoYXM6IHNpbXBsaWNpdHkgb2YgbGlmZS4gVGhlbiwgb25jZSB0aGUgYmFieSBpcyBib3JuLCB0aGV5IGFyZSBpbnRyb2R1Y2VkIGludG8gdGhlIHJlYWxpdHkgdGhhdCB3aWxsIHRha2UgdGhpcyBjb21wbGV0ZWQgcHJvZHVjdCBvZiBwcm9jcmVhdGlvbiBhbmQgc3VwcGx5IGFkZGl0aXZlcyB0aGF0IG1ha2UgaHVtYW5zIGFzIGNhdXN0aWMgYXMgd2UgYXJlIHRvZGF5LiBTdWRkZW5seSwgdGhlIHlvdW5nIG1pbmQgaXMgc25vd2JhbGxpbmcgZG93biBhIGhpbGwgYWNjdW11bGF0aW5nIG1vcmUgYW5kIG1vcmUgaW5mb3JtYXRpb24sIGVhY2ggZGV0YWlsIHNwbGl0dGluZyB0aGUgcGF0aHdheSB1bnRpbCBpdCBiZWNvbWVzIGhvcGVsZXNzbHkgZnJheWVkIHdpdGggY29tcGxleGl0eS4gSXQgd2lsbCBjb21lIHRvIHBhc3MgdGhhdCwgYnkgc29tZSBwb2ludCwgaXQgd2lsbCBzaW1wbHkgYmUgdG9vIGNvbXBsZXggYW5kIHRoYXQgaXMgd2hlcmUgdGhlIGNoaWxkLCBsaWtlIGFsbCBvZiB1cywgaXMgdHJ1bHkgaW5pdGlhdGVkIGludG8gdGhlIGdsb2JhbCBjb21tdW5pdHkuIFNvY2lldHkgc3RhcnRzIHdyYXBwaW5nIGVhY2ggY2hpbGQgdXAgaW4gdGhlIGJpZyBwaWN0dXJlIHVudGlsIGl04oCZcyBhbGwgdGhhdCB0aGV5IGNhbiBzZWUsIGJ1dCB0aGV5IGNhbuKAmXQgZmluZCB0aGVtc2VsdmVzLiBJdCBpcyB0ZXJyaWZ5aW5nLCBpdCBpcyB0cmF1bWF0aWMsIGJ1dCBpdCBpcyBuZWNlc3NhcnkgdG8gb3ZlcmNvbWUgdGhlIGhvcGVsZXNzbmVzcyBhbmQgYXBwcmVjaWF0ZSB0aGUgcGVyc29uYWwgdmFsdWUgb2YgbGlmZS4NCg0KVGhpcyBpcyBiZWNhdXNlIHRoYXQsIGJ5IHRoZSB0ZW5kZXIgYWdlIG9mIGZvdXIsIGl0IGlzIHNhaWQgdGhhdCB0aGUgYWN0dWFsIHBlcnNvbmFsaXR5IG9mIHRoZSBjaGlsZCBoYXMgYmVjb21lIHByZXR0eS1tdWNoIGRldmVsb3BlZC4gUGVyc29uYWxseSwgSSBkb27igJl0IGJlbGlldmUgdGhpcyB0byBiZSBhIG5hdHVyYWxseS1kZWZpbmVkIG9jY3VycmVuY2UuIEF0IHRoZSBhZ2Ugb2YgZm91ciBvciBmaXZlLCBtYW55IGNoaWxkcmVuIGFwYXJ0IG9mIHRoZSBnbG9iYWwgY29uc2Npb3VzbmVzcyB2ZW50dXJlIGZyb20gdGhlIG5lc3QgaW50byB0aGUgd29ybGQuIE5vdywgYWxsIHRoZSBzdGlja3ktbm90ZXMgY29udGFpbiBkZXRhaWxzIG9uIGhvdyB0byBpbnRlcmFjdCB3aXRoIHJlYWxpdHkgYXMgb3Bwb3NlZCB0byB0aGUgZWFybHkgeWVhcnMgb2YgaW5uZXIgZXhwb3N1cmUuIA0KDQpVcCB1bnRpbCB0aGF0IHBvaW50LCB0aGUgY2hpbGQgZW50ZXJ0YWluZWQgYW55IHF1ZXJ5IG9mIHRoZSBpbWFnaW5hdGlvbiB1dGlsaXppbmcgd2hhdGV2ZXIgYXZlbnVlcyBhdmFpbGFibGUuIFRoZSBjaGlsZCwgaW4gYSBzZW5zZSwgaXMgaXNvbGF0ZWQgYnkgdGhlIGluYWJpbGl0eSB0byB1bmRlcnN0YW5kIHRoZSBjb21wbGljYXRpbmcgZGVwdGhzIG9mIGNvbnNjaW91cyBtaW5kcyBhbmQgc29jaWV0eS4gSG93ZXZlciwgZGVzcGl0ZSB0aGUgaXNvbGF0aW9uIGZyb20gdGhlIGdsb2JhbCBjb25zY2lvdXNuZXNzLCB0aGUgY2hpbGQgaXMgZXZlbiBmdXJ0aGVyIHNldCBhc2lkZSBmcm9tIHRoZSBzdGFiaWxpdHkgb2YgbmF0dXJlIHRoYXQga2VlcHMgdGhlIGNvZGRsaW5nIG9mIG9mZnNwcmluZyB0byBhIG1pbmltdW0gd2hpbHN0IG1haW50YWluaW5nIHRoZSBzdXJ2aXZhbCBtZXRob2RzIG9mIHRoZSBzcGVjaWVzLg0KDQpUaGlzIGlzb2xhdGlvbiBpcyBjYXVzZWQgYnkgdGhlIGZhY3QgdGhhdCB0aGUgY2hpbGQsIGR1cmluZyB0aGVzZSBmaXJzdCB5ZWFycyBvZiBkZXZlbG9wbWVudCwgaXMgYW4gZW50aXR5IGNvbXBsZXRlbHkgZGVsdmVkIGluIGl0cyBpbm5lciBzZWxmIHdpdGhvdXQgdGhlIGh1bWFuLWRyaXZlbiBjb25kZW1uYXRpb24gb2Ygc2VsZmlzaG5lc3MuIEVhY2ggZGF5IGJlY29tZXMgYSBzYW5kYm94IG9yIGEgY2xlYW4gY2FudmFzIGV4aXN0aW5nIG9ubHkgdG8gYWZmb3JkIHRoZSBzdHJ1Y3R1cmUgdGhhdCBzb2NpZXR5IHdpbGwgYnVpbGQgaXRzIGNvbXBsaWNhdGluZyBkZXRhaWxzIHVwb24uIFRoZSBuYXR1cmFsIGJlaGF2aW9yYWwgdHJhaXRzIG9mIHRoZSBjaGlsZCBhcmUgdXAgZm9yIHJlbm92YXRpb24gaW4gb3JkZXIgdG8gYmVjb21lIGEgdXNlZnVsIHVuaXQgb2YgdGhlIGdsb2JhbCBjb25zY2lvdXNuZXNzLiANCg0KRnVydGhlcm1vcmUgc2luY2UgdGhlIGRldmVsb3Bpbmcgb2YgdGhlIHdhbnRzIG9mIGEgcGVyc29uIHNlZW1zIHRvIGNvbWUgYmVmb3JlIGZvcm1pbmcgdGhlaXIgY29tcHJlaGVuc2lvbiBvZiB0aGUgZHV0eSBvZiBzdXJ2aXZhbCBpbiBvdXIgc29jaWV0eSwgcGVvcGxlIGluZXZpdGFibHkgZmluZCB0aGVtc2VsdmVzIG9uIGEgZG93bndhcmQgc2xvcGUgYmVpbmcgdG9ybiBmcm9tIGNvbWZvcnQgem9uZSBhZnRlciBjb21mb3J0IHpvbmUgYWZ0ZXIgY29tZm9ydCB6b25lLiBGaXJzdCB0aGUgd29tYiwgdGhlbiBjaGlsZGhvb2QsIHRoZW4geW91dGgsIHRoZW4gaGVhbHRoIHVudGlsIHRoZXnigJl2ZSBiZWNvbWUgaW5jYXBhYmxlIGFuZCB1bmFibGUgdG8gc3Vydml2ZSBvbiB0aGVpciBvd24gbGlrZSB3aGVuIHRoZXkgd2VyZSBhIGNoaWxkLiBIb3dldmVyLCB0aGV5IHRoZW4gY2FycnkgdGhlIGNvbXBsZXhpdGllcyBvZiBsaWZlIHdpdGhvdXQgdGhlIGFiaWxpdHkgdG8gbGl2ZSBpdCBmdWxseS4gSXQgbWF5IHNvdW5kIGhlYXJ0bGVzcyBidXQgcGVyaGFwcyB0aGVyZWluIGxpZXMgYSBjb21mb3J0IGJlaGluZCB0aGUgZGVjYXkgb2YgbWVtb3JpZXMgYW5kIGNvZ25pemFuY2UsIHRoZSBhYmlsaXR5IHRvIGZvcmdldCBzb21lIG9mIHRoZSBkZXRhaWxzIHRoYXQgc28gY29tcGxpY2F0ZWQgYW5kIG1hcnJlZCB0aGUgc291bC4gICAgIA0KDQpBbmQgdGhhdCBpcyBob3cgaXQgcGxheXMgb3V0LCBvdmVyIGFuZCBvdmVyLCBldGNoaW5nIHNvbWUgb2YgdXMgaW50byB0aGUgc2t5IGFuZCBjYXN0aW5nIG1hbnkgb2YgdXMgdGhyb3VnaCB0aGUgY3JhY2tzIG9mIGEgbWFuaWZlc3RlZCByZWFsaXR5IHRoYXQgb3VyIHNwZWNpZXMgbWFpbnRhaW5zIHdpdGggaXTigJlzIG1hcmtldHBsYWNlIG9mIGlkZWFzIHBhc3NpbmcgYmV0d2VlbiBwZW9wbGUgbGlrZSBzZW5zYXRpb24gdGhyb3VnaCBzeW5hcHNlLiBTb21lIG5lcnZlIGVuZGluZ3MgYXJlIGJ1cm50IG91dCwgc29tZSB3b27igJl0IHF1aXQsIGFuZCBzb21lIGFyZSBuZXZlciBoYXJuZXNzZWQgZm9yIHRoZWlyIGZ1bGwgcG90ZW50aWFsIGJlY2F1c2UgdGhleeKAmXZlIG5vdCB0aGUgc2Vuc2Ugb2Ygc2VsZiB0byBzZWUgaXQgY2xlYXJseS4="
+"eventtime","2006-04-27 09:33:00"
+"url","http://dizzybordon.livejournal.com/61523.html"
+"userid","3981"
+"itemid","239"
+"event","SSBndWVzcyB0aGF0IHRoaXMgaXMgb25lIG9mIHRob3NlIGRheXMuLiB3aGVyZSBJ4oCZbSBib3JlZCBlbm91Z2ggdG8gYWN0dWFsbHkgdXBkYXRlIHRoaXMgdGhpbmcuLiANCg0KVGhlbiBhZ2FpbiwgaWYgSSBkb27igJl0IGF0IGxlYXN0IG1ha2UgYSBoYWxmLWFzc2VkIGF0dGVtcHQgdG8ga2VlcCB1cCB3aXRoIHRoaXMsIHRoZXJl4oCZcyBubyBwb2ludCBpbiBoYXZpbmcgaXQgYW55bW9yZeKApiB5YWRhIHlhZGEgeWFkYS4NCg0KU28gaXTigJlzIEVhc3RlciBhbmQgSeKAmW0gc3BlbmRpbmcgaXQgYXdheSBmcm9tIG15IHBhcmVudHMuIE5vdCBzdWNoIGEgYmlnIGRlYWwgb3IgYW55dGhpbmcgbmFtZWx5IGJlY2F1c2UgSSBzYWlkIHRoaXMgd291bGQgaGFwcGVuLiBUaGUgdGhpbmcgdGhhdCBnZXRzIG1lIGlzIEkgYWN0dWFsbHkgZm9sbG93ZWQgdGhyb3VnaC4gSSBzYWlkIG5vIG1vcmUgZmFtaWx5IHRyaXBzIHdpdGggbXkgbW90aGVyIGFuZCBJIG1lYW50IGl0LiANCg0KSSBob3BlIEFubmllIHJlbWVtYmVycyB3aGF0IEkgdG9sZCBoZXIgYXQgT2NlYW4gQ2l0eS4gSSBob3BlIHNoZSB0ZWxscyB0aGUgcGVvcGxlIHRoYXQgbWF0dGVyIHRvby4NCg0KRnJpZGF5IGlzIHdoYXQgSSBjb3VudCBhcyB0aHJlZSBtb250aHMgd2l0aCBDb2xlLiBPZGRlciBzdGlsbCBuYW1lbHkgYmVjYXVzZSBpdOKAmXMgYWN0dWFsbHkgZ29pbmcgcmF0aGVyIHdlbGwuIEkgYWN0dWFsbHkgZ290IHJhdGhlciBjb21mb3J0YWJsZSB3aXRoIHNob3J0IHJlbGF0aW9uc2hpcHMsIGxpa2UgZ2V0dGluZyBhIG11Y2gtbmVlZGVkIGRvc2FnZSBvZiBzb21ldGhpbmcgcHJldGVuZGluZyB0byBiZSBtZWFuaW5nZnVsLiBIZSB3YXMgbWFkIGJlY2F1c2UgSSBzYWlkLCDigJwuLndhc3RpbmcgdGltZS4u4oCdLiBHcmFudGVkIHRoYXQgaXTigJlzIGEgcmF0aGVyIG5lZ2F0aXZlIGNvbm5vdGF0aW9uIHRvIGdpdmUgdGhlIGxlbmd0aCBvZiB0aW1lIGJldHdlZW4gbm93IGFuZCBBdXN0cmFsaWEsIGJ1dCB0aGF0IGRvZXNu4oCZdCBjaGFuZ2UgaG93IEkgZmVlbCB0b2RheS4gSnVzdCBiZWNhdXNlIEkgaGF2ZSBteSB0aG91Z2h0cyB0aGF0IHdpbGwgZHJpZnQgdG8gdGhhdCBkaXN0YW50IGRhdGUgYW5kIHRoZSBvcHBvcnR1bml0aWVzIHRoYXQgYXdhaXQgZG9lc27igJl0IG1lYW4gSSBjYW7igJl0IGdldCBqdXN0IGFzIGxvc3QgaW4gdG9kYXkuLiBpbiBXZWRuZXNkYXkgbmlnaHRzLi4gaW4gZnV6enkgcGljdHVyZXMuLiBpbiB3aGF0IGNvdWxkIGJlLiANCg0KQmVjYXVzZSBpZiBpdCBjb3VsZCBnZXQgaW4gdGhlIHdheSBvZiBhbGwgdGhhdCwgdGhlbiBsaXZpbmcgZm9yIGEgZGF5IGluIHRoZSBmdXR1cmUgd291bGQgYmUgYSBob3JyaWJsZSB3YXkgdG8gZXhpc3QuDQoNCkFuZCBJIHJhdGhlciBsaWtlIG15IGV4aXN0ZW5jZS4gLi5qdXN0IGFzIHdlbGwsIGl0IHNlZW1zIGl04oCZcyBzdGFydGluZyB0byBsaWtlIG1lLg=="
+"eventtime","2006-04-16 12:47:00"
+"current_moodid","63"
+"url","http://dizzybordon.livejournal.com/61426.html"
+"userid","3981"
+"itemid","238"
+"event","U28gR29ibGluIHN0YXJ0ZWQgdGFsa2luZyBhYm91dCA8aT5wZW9wbGUgbGlrZSB1czwvaT4gYW5kLCBuZWVkbGVzcyB0byBzYXksIGhhZCBtZSBpbnRyaWd1ZWQgZm9yIHRoZSBkdXJhdGlvbi4gRm9yIGhvdyBjb3VsZCBJIG5vdCBiZSB3aXRoIHRhbGVzIG9mIGEgYnJvdGhlcmhvb2Qgb2YgbWlzY2hpZWYgbWFrZXJzIG91dCB0byB0aWNrbGUgdGhlIHVuZGVyYmVsbHkgb2Ygc29jaWV0eT8gSGXigJlzIHN1Y2ggYSB3b25kZXJmdWwgcGVuIHBhbCwgdGhlIG9ubHkgb25lIEnigJl2ZSBoYWQgdGhhdCBoYXMgYWN0dWFsbHkgbWFkZSBtZSB3YW50IHRvIGV4cGVyaWVuY2UgdGhlaXIgbGlmZS4NCg0KQ29sZSBhbmQgSSBkb27igJl0IHRhbGsgYWJvdXQgQXVzdHJhbGlhIG9yIEdvYmxpbiBhbmQsIG1heWJlLCBpdHMgYmV0dGVyIHRoYXQgd2F5LiBJbiB0aGUgc2FtZSB3YXkgdGhhdCBpdOKAmXMgYmV0dGVyIHdpdGggdXMgbm90IHRhbGtpbmcgYWJvdXQgS3Jpc3RpbmEsIENhbWVyb24sIGFuZCBXZXMuIEp1c3QgaW4gdGhlIHNhbWUgd2F5IHRoYXQgaXTigJlzIGJldHRlciB3aXRoIHVzIG5vdCB0YWxraW5nIGFib3V0IHRoaXMgYW5kIHRoYXQuLiBhbmQgeWV0Li4gIEnigJltIHN0aWxsIG15IG93biBwZXJzb24sIGJydXNoaW5nIGJ1YmJsZXMgcmF0aGVyIGZyZXF1ZW50bHksIGFuZCB3b25kZXJpbmcgYXQgdGltZSBzcGVudC4gSSB3b25kZXIgaG93IG11Y2ggS3Jpc3RpbmEgbWlzc2VzIG1lLCBhcyBzZWxmaXNoIGFzIHRoYXQgbWF5IGJlLiBJIGRvbuKAmXQgY2FyZSwgdGhvdWdoLiBJIG5lZWQgbm90IHRoaW5rIGFib3V0IGhvdyBtdWNoIEkgbWlzcyBoZXIsIGxlc3QgSSBiZSByZW1pbmRlZCBvZiBpdCBmdWxseSBhbmQgc2VudCB0byBzb21lIGRlZ3JlZSBvZiBkZXNwYWlyLiANCg0KSSBrZWVwIHNlZWluZyBob3cgdGhpbmdzIHNlZW0gdG8gY2hhbmdlIGFuZCB5ZXQgdGhleSBkb27igJl0LCBjYXRhbG9ndWluZyB0aGUgZXZlbnRzIGZvciBzb21lIHR3aXN0ZWQgZnV0dXJlIHJlZmVyZW5jZS4gV2F0Y2hpbmcgdGhlIGVuZXJneSBvZiBhIGNlcnRhaW4gcGxhY2UgZ2V0IHJlcGxhY2VkLCBkaXZpZGVkLCBhbmQgcmVkaXN0cmlidXRlZCBhbW9uZ3N0IG5ldyBwb2ludHMgb2YgcmVmZXJlbmNlIHJhdGhlciBzbW9vdGhseSwgbGlrZSBhIHByZWRhdG9yIG9yIGEgY29kZGxpbmcgbW90aGVyLiBUaG91Z2ggaXQgdHJ1bHkgbmV2ZXIgY2Vhc2VzIHRvIGFtYXplIG1lIGhvdyBlYXN5IGl0IGlzIHRvIGFwcGx5IGRpc3RpbmN0IGJlaGF2aW9yIHBhdHRlcm5zIHRvIGFsbCBicmFuY2hlcyBvZiBleGlzdGVuY2UuIFdoeSBkZWF0aCBzZWVtcyB0byBtb3ZlIHRvIHRoZSBzYW1lIGJlYXQgdGhyb3VnaCBkaWZmZXJlbnQgZm9ybXMgb2YgaXRzIGVuYWN0bWVudCwgZm9yIGluc3RhbmNlLiBBaCwgYW5vdGhlciB0YW5nZW50Lg0KDQogT2ggZGVhciwgb2ggZGVhciBJ4oCZbSBiYWJibGluZy4NCg0KSGFoYSwgd2hhdCBhIGJpZyBzdXJwcmlzZS4="
+"eventtime","2006-04-03 08:12:00"
+"url","http://dizzybordon.livejournal.com/61092.html"
+"userid","3981"
+"itemid","237"
+"event","PGNlbnRlcj48aDM+QW1iZXIgaXMgYSBnb2RkZXNzLjwvY2VudGVyPjwvaDM+DQoNClRvIHdob20sIEkgb3dlIHNvIG11Y2guDQoNCk9uZSBvZiB0aGUgZmlyc3QgdGltZXMgc2hlIGNhbWUgb3ZlciB0byBzZWUgV2VzdG9uIGFuZCBJLCBJIHRvbGQgaGVyIG9mIG15IGRyZWFtIHRvIGdvIHRvIEF1c3RyYWxpYS4gSSBzaG93ZWQgaGVyIHBpY3R1cmVzIGZyb20gR29ibGluJ3Mgc29pcmVlcywgdG9sZCBoZXIgb2YgdGhlIHdvbmRlcnMgaGXigJlkIHNob3duIG1lIHRocm91Z2ggYSBjb21wdXRlciBtb25pdG9yLCBhbmQgc2hlIGRlY2lkZWQgc2hlIHdhbnRlZCB0byBjb21lIGFsb25nLiANCg0KV2hpbGUgYmVpbmcgaW5oZXJlbnRseSBhd2Vzb21lLCB0aGlzIG9ubHkgcHJvdmVkIHRvIGJlIGEgZ29vZCBpZGVhIGJlY2F1c2UgZ29pbmcgb3V0IG9mIHRoZSBjb3VudHJ5IGFsb25lIHNpbXBseSBpc27igJl0LiBBbnl3YXksIGF0IGhlciBuZXcgam9iLCBzaGUgZ290IGFuIGludGVyZXN0aW5nIG9wcG9ydHVuaXR5LiBNYWtlIGhlciBxdW90YSBjb25zaXN0aW5nIG9mIGJ1a3UtYnVja3MgYW5kIHNoZSBnZXRzIHRocmVlIGZpcnN0LWNsYXNzIGFsbC1pbmNsdXNpdmUgaG90ZWwgYW5kIGZsaWdodCBhY2NvbW1vZGF0aW9ucyB0byBTeWRuZXksIEF1c3RyYWxpYSBmb3IgdGhyZWUgbW9udGhzLg0KDQpTbyBzaGUgd2Fsa3MgaW4gYW5kIHNheXMsIOKAnEhleSwgd2XigJlyZSBnb2luZyB0byBBdXN0cmFsaWEu4oCdDQoNCkxldOKAmXMganVzdCBzYXksIHRoYXQgdGhlIG9ubHkgcmVhc29uIEkgY291bGRu4oCZdCBiYXdsIEkgd2FzIHdheSB0b28gYnVzeSBzcXVlYWxpbmcgYW5kIGhvcHBpbmcgYWJvdXQgbGlrZSBhbiBpbmNlc3NhbnQgbW9yb24uIEJ1dCwgaGV5LCB3aG8gdGhlIGZ1Y2sgY2FyZXM/DQoNCldlIHdhbnQgdG8gYmUgdGhlcmUgZm9yIGhlciBiaXJ0aGRheS4uIHdoaWNoIG1lYW5zIHdl4oCZbGwgcHJvYmFibHkgbGVhdmUgZm9yIGFuIE9jdG9iZXItRGVjZW1iZXIgc3RpbnQuIA0KDQpJdOKAmXMgYSBiZWF1dGlmdWwgZGF54oCm"
+"eventtime","2006-03-11 11:52:00"
+"url","http://dizzybordon.livejournal.com/60832.html"
+"userid","3981"
+"itemid","236"
+"event","VGhpcyBjZXJ0YWlubHkgaGFzIGJlZW4gYSB0cmlw4oCmDQoNCknigJl2ZSBhIGxvdmUgZm9yIHNwaWRlciB3ZWJzLCBmb3IgdGhlIHNpbWlsYXIgcGF0dGVybnMgb2YgdGhvdWdodCwgZm9yIGhhdmluZyBzb21lIHBlb3BsZSB0byBkaXNjdXNzIHRoZW0gd2l0aCwgZm9yIHdyaXRpbmcgdGhlbSBkb3duLCBhbmQgZm9yIHNrZXRjaGluZyB0aGVpciBjb25uZWN0aW9ucyBob3dldmVyIEkgc2VlIGZpdC4gDQoNClRoZSBzcGlkZXIocykgaW4gQ29sZeKAmXMgcm9vbeKApiAoSSBvbmx5IGV2ZXIgc2VlIG9uZS4uIGl0IDxpPnJvdGF0ZXM8L2k+IGluIHRoZSBjb3JuZXLigKYpIEkgdGhpbmsgSSBjYW4gcmVtZW1iZXIgYSB0aW1lIHdoZW4gdGhhdCByZWQgaWxsdW1pbmF0aW9uIG1pZ2h0IGhhdmUgdW5uZXJ2ZWQgbWXigKYgb3IgSSBtYXkgYmUgaGFzdGlseSBmaWxsaW5nIGluIGdhcHMgb2YgdGltZSBJIGNhbuKAmXQgcXVpdGUgcmVtZW1iZXIuIOKApndoYXRldmVyLiANCg0KVGhhdOKAmXMgbm90IHRoZSBwb2ludC4gU3BlY2lmaWNhbGx5IGJlY2F1c2UgdGhlcmUgd2FzbuKAmXQgb25lLi4gaXQgd2FzIGp1c3Qgc29tZSBmbGVldGluZyB0aG91Z2h0LiBUaGV5IGhhcHBlbi4gQSBsb3QuDQoNCk15IEVuZ2xpc2ggY2xhc3MgaXMgZXZlci1lbnRlcnRhaW5pbmcuIFdoZW5ldmVyIEkgPGk+ZG88L2k+IGdvLCBNcnMuIEJyeWFudCBpc27igJl0IGluIHRoZXJlIGFuZCBldmVyeW9uZSBmYWxscyBpbiBqdXN0IHdoZXJlIHRoZXkgYmVsb25n4oCmIGV2ZW4gbXlzZWxmLCBzYWQgYXMgaXQgaXMuIEl0IGRvZXNu4oCZdCByZWFsbHkgYm90aGVyIG1lIHRob3VnaCwgbm90IGxpa2UgaXQgdXNlZCB0by4gV2hvIHdhbnRzIHRvIGJlIGFwYXJ0IG9mIHRoZSBjbGljaMOpPyBUaGVuIEkgdGhpbmssIOKAnDxpPkZ1Y2sgaXQuPC9pPuKAnSBUaGUgdGhpbmcgYWJvdXQgY2xpY2jDqXMgYW5kIHN0ZXJlb3R5cGVzIGlzIHRoYXQgdGhleSBnb3QgdGhhdCBzdGF0dXMgZm9yIGEgcmVhc29uLiBJIHNlcmlvdXNseSBjYW4gc2VlIHRoYXQgZW50aXJlIGNsYXNzIGluIHRoZSBhZnRlci1zY2hvb2wgc2l0Y29tIG9mIG15IG5pZ2h0bWFyZXMuIFdoYXQgd2FzIGhpbGFyaW91cyB3YXMgdGhhdCB0aGUgZGF5IHRoYXQgaXQgcmVhbGx5IGNhbWUgdG8gbGlnaHQsIEkgZmVsdCB1YmVyLWdvdGggYW5kIHdlbnQgd2l0aCB0aGUgY29yc2V0IGFuZCBzb21ldGhpbmcgcmVkLiBTb21ldGltZXMsIGl0IGZpdHMgdG9vIHdlbGwuDQoNCk5hbWUgZmFzY2luYXRpb25zOiBTeWRuaSBhbmQgSGFybGV5LiBKdXN0IG5vdGluZyBmb3IgZnV0dXJlIHJlZmVyZW5jZS4NCg0KSm9uYXRob24gaXMgb24gYSBzbGlnaHQgYm9yZGVybGluZS4gSGUgc2VlbXMgaW50ZXJlc3RpbmcsIHNvbWVvbmUgSSBjYW4gcmVsYXRlIHRvIGFuZCBoYXZlIGFtcGxlIGNvbnZlcnNhdGlvbiB3aXRoLiBObyBtYXR0ZXIgaG93IGNsZWFyIEkgbWFrZSBpdCB0aGF0IEkgaGF2ZSBubyBpbnRlbnRpb25zIG9mIGVudGVydGFpbmluZyBhbnkga2luZCBvZiByZWxhdGlvbnNoaXAgdGhhdCBtaWdodCB0aHJlYXRlbiBtaW5lIGFuZCBDb2xl4oCZcyByZWxhdGlvbnNoaXAsIEpvbmF0aG9uIHBlcnNpc3RzIG9uIHB1c2hpbmcgaXQuDQoNCkkgc2F5IOKAnC4uaGFuZyBvdXQuLuKAnS4NCkhlIHNheXMg4oCc4oCmZGF0ZeKApuKAnS4NCkkgY29ycmVjdCBoaW0uIEhlIHJlbHVjdGFudGx5IGFjcXVpZXNjZXMgYW5kIEkgcG9uZGVyIGF0IHdoYXQgaGUgbWlnaHQgYmUgYmVjb21pbmcuIA0KDQpGb3Igc3VkZGVubHksIEnigJl2ZSBub3RpY2VkIGFuIG92ZXJ3aGVsbWluZyBiYWxhbmNlLiBTZWVpbmcgdGhlIHdheSB0aGluZ3MgcGFuIG91dCwgaG93IGZhaXIgc29tZSB0aGluZ3MgcmVhbGx5IGFyZS4gWW91IGNhbiBsb29rIGF0IHRoaW5ncyBhcm91bmQgeW91IGFuZCwgc29tZXRpbWVzLCBmaW5kIGxvZ2ljIGluIG1hZG5lc3MgYW5kIHRyYWdlZHkuIEV4LiBIdW1hbnMgYXJlIHRoZSBvbmx5IGNyZWF0dXJlcyBvbiBlYXJ0aCBjYXBhYmxlIG9mIGNvbXBsZXRlbHkgbW9ycGhpbmcgdGhlIHdvcmxkIHRoYXQgc3Bhd25lZCB0aGVtLiBIb3dldmVyIHdpdGggdGhhdCBwb3dlciwgdGhlcmUgY29tZXMgdGhlIGRlc3RydWN0aW9uIG9mIHRoZSBuYXR1cmFsIGNvbnRpbnVpdHkgb2YgdGhlIGVjb3N5c3RlbS4gQmFzaWNhbGx5LCBodW1hbnMgaGF2ZSB0aGUgYWJpbGl0eSB0byB0YWtlIGl0IG9uZSBzdGVwIGZ1cnRoZXIsIGJ1dCBpdHMgb25lIHN0ZXAgZnVydGhlciB0aGFuIG91ciB3b3JsZCBjYW4gdGFrZS4gSXTigJlzIG1hdGhlbWF0aWMuIEEgcG9zaXRpdmUgcGx1cyBhIG5lZ2F0aXZlIGVxdWFscyBub3RoaW5nLiBBIGJhbGFuY2VkIGVxdWF0aW9uLiBMb2dpYy4NCg0KQmFjayB0byB0aGUgcHJldmlvdXMgcG9pbnQsIGFzIG9uZSBpZGxlIChwZXJoYXBzIHRyaXZpYWwpIGRpc3RyYWN0aW9uIGluIG15IHJvbWFudGljIHNwaGVyZSBkaXNzaXBhdGVzLCBzb21lb25lIGVsc2UgdHJpZXMgdG8gZ2V0IGluIHRoZSB3YXkuIFRoZSBwb3NpdGlvbiBpcyBmaWxsZWQgYW5kIEkgZGlkbuKAmXQga25vdyB0aGV5IHdlcmUgaGlyaW5nLg0KDQpJIGxpa2UgcmlkaW5nIG9uIHRoZSBiYWNrIG9mIG1vdG9yY3ljbGVzLiBJIGxpa2Ugd2F0Y2hpbmcgdGhlIHNreSBjaGFuZ2UgY29sb3JzLCB0aGUgd2luZHMgY2hhbmdlLCB0aGUgY2l0eXNjYXBlIGdvIGZyb20gYW4gYWxsLXRvby11cmJhbiBnaGV0dG8gdG8gd2h5LXRoZS1oZWxsLWRvLXRoZXNlLXBlb3BsZS13YXN0ZS10aGF0LW11Y2gtbW9uZXkgc3VidXJiaWEgaGVsbCBhbmQgdGhlbiB0byBIaWNrb3J5IEhvbGxvdy4uIGZvciBiYXJiZXF1ZSBhbmQgYSBzYWxhZC4uIG1vc3Qgb2YgdGhlIHRpbWUgSSBqdXN0IGdldCBhIGxvdCBvZiBzYWxhZC4uIHdpdGggbG90cyBvZiBzbGljZWQgcGlja2xlcy4gDQoNCkkgd2FudCBzYWxhZC4="
+"eventtime","2006-03-08 17:08:00"
+"url","http://dizzybordon.livejournal.com/60630.html"
+"userid","3981"
+"itemid","235"
+"event","Every so often, I think for all of us, the minor good in our life makes it easy to not stress out about the tough-as-such life around but this is a rather new sensation for myself. Though, I must say, I find it fitting that I come to speak of this sensation on Valentines day due to the fact that one part of the 'minor good' in my life is my boyfriend. 
+
+Still it comes to pass that I, one who has to analyze everything, can often be entertained by irrelevance or, at the very least, amused by this new comfort that I never knew was there. It's a pity that all this time I was looking at Cameron, becoming marred by the result of those feelings, Cole was around as if looming on some horizon I never looked to. Ah, but now that I have! Maybe it's because he lets me snap pictures of him or us when I so see fit, or maybe it's just what I see in those pictures but I really can't be sure. While Weston gave me my bubble from reality, Cole gave me my bubble from everything else and, thus far, I like it a lot.
+
+When it comes down to it, everything is temporary and everything is simultaneous and though the drudgery of school bears on until that somewhat distant date in May, my current infatuation numbs the toil to something I can bear."
+"eventtime","2006-02-14 05:40:00"
+"url","http://dizzybordon.livejournal.com/60179.html"
+"userid","3981"
+"itemid","234"
+"event","SXQgc2VlbXMgYXMgdGhvdWdoIGV2ZXJ5IHRpbWUgSSBzdGFydCBkYXRpbmcsIGV4IGJveWZyaWVuZHMgY3Jhd2wgb3V0IG9mIHRoZSB3b29kd29yayBkZXBpY3RlZCBpbiB0aGUgYmFkIGlkZWFzIG9mIHllc3RlcnllYXIsIGJ1dCBJIGNhbuKAmXQgcmVhbGx5IHNheSBJIHdhc27igJl0IHdhcm5lZC4gSeKAmW0gbGVzcyBib3RoZXJlZCBieSBpdCBub3csIGZpbmFsbHkgcmVhbGl6aW5nIHRoYXQgd2XigJlyZSBleGVzIGZvciBhIHJlYXNvbiBidXQgdGhhdCBkb2VzbuKAmXQgY29tcGxldGVseSBkdWxsIHRoZSBpbXBhY3Qgb2YgdGhlaXIgYXJyaXZhbC4gQXBwYXJlbnRseSwgeW91IHNwZW5kIHRoaXJ0eS1vbmUgeWVhcnMgb2YgeW91ciBsaWZlIHNsZWVwaW5nLCB5b3Ugc3BlbmQgc2l4IG1vbnRocyBvZiB5b3VyIGxpZmUgd2FpdGluZyBhdCByZWQgbGlnaHRzLCB5b3Ugc3BlbmQgdHdvIHdlZWtzIG9mIHlvdXIgbGlmZSBraXNzaW5nLCBhbmQgeW91IHNwZW5kIHlvdXIgZW50aXJlIGFkb2xlc2NlbmNlIGJlaW5nIHN0dXBpZC4gSXTigJlzIGdyZWF0LCBpc27igJl0IGl0Pw0KDQpJ4oCZdmUgYmVlbiByZWFkaW5nIG1vcmUgYW5kIG1vcmUgb2YgdGhlIG5ld3MgbGF0ZWx5IGFuZCwgdW5saWtlIGJlZm9yZSwgSSB0cnkgdG8gZ2V0IGEgc3RhbmRhcmQgYW1vdW50IG9mIHNldmVyYWwgZGlmZmVyZW50IHR5cGVzIG9mIG5ld3MgKGV4Y2VwdCBmb3Igc3BvcnRzKS4gSXQgcmVtaW5kcyBtZSB3aHkgYSBsb3Qgb2YgcGVvcGxlIGhhdGUgdGhlIG5ld3MgYmVjYXVzZSBtb3N0IHBlb3BsZSBsaWtlIGdvb2QgbmV3cyBhbmQgdGhlcmUgaXMgbm8gc3VjaCB0aGluZyBhcyBnb29kIG5ld3Mgd2hlbiBpdCBjb21lcyB0byDigJxUaGUgTmV3c+KAnS4gTGlrZSwgZm9yIGluc3RhbmNlLCBvZmZpY2lhbHMgaGF2ZSBiZWVuIHdvcnJpZWQgYWJvdXQgdGhlIGF2aWFuIGZsdSByZWFjaGluZyBBZnJpY2EuIEl0IGJlaW5nIGEgcGFuZGVtaWMgaW4gdGhlIGVhc3Rlcm4gcmVnaW9ucyB3YXMgYmFkIGVub3VnaCBkdWUgdG8gb3Zlci1wb3B1bGF0aW9uIGJ1dCBhdCBsZWFzdCB0aG9zZSByZWdpb25zIGFyZSB0ZWNobm9sb2dpY2FsbHkgYWR2YW5jZWQgd2l0aCBoaWdoLXF1YWxpdHkgbWVkaWNhbCBmYWNpbGl0aWVzLiBIb3dldmVyLCBub3cgdGhlcmUgYXJlIGVwaXNvZGVzIG9mIHRoZSBiaXJkIGZsdSBpbiBOaWdlcmlhIHdoZXJlIGEgcGFuZGVtaWMgY291bGQgZ28gdW5ub3RpY2VkIGZvciBhIHNpZ25pZmljYW50IHBlcmlvZCBvZiB0aW1lLiANClllYWguIFRoYXQgc3Vja3MuIEkgYWxzbyByZWFkIGFib3V0IGEgd29tYW4gd2hvIHdlbnQgaW50byB0aGUgaG9zcGl0YWwgdG8gZ2l2ZSBiaXJ0aCB0byBoZXIgc2Vjb25kIGJhYnkgYW5kIGV2ZXJ5dGhpbmcgd2VudCByYXRoZXIgc21vb3RobHkuIFNoZSB3YXMgYWJzb2x1dGVseSBmaW5lIGFmdGVyIHRoZSBiaXJ0aCBidXQgcmVtYWluZWQgaW4gdGhlIGhvc3BpdGFsIGZvciBzb21lIHJlYXNvbiBJIGRvbuKAmXQgcmVtZW1iZXIuIFNob3J0bHkgYWZ0ZXIsIHNoZSBkZXZlbG9wZWQgYSB3aG9sZSBncm9jZXJ5IGxpc3Qgb2YgdGlzc3VlIGluZmVjdGlvbnMgaW5jbHVkaW5nIGdhbmdyZW5lIGFuZCBmbGVzaC1lYXRpbmcgdmlydXNlcyB0aGF0IHJlc3VsdGVkIGluIGEgcXVhZHJ1cGxlIGFtcHV0YXRpb24uIEFzIGlmIHRoYXQgZGlkbuKAmXQgc3VjayBlbm91Z2gsIGl0IHdhcyBwcm92ZWQgc2hlIGdvdCBpdCB3aGlsZSBpbiB0aGUgaG9zcGl0YWwgYW5kIHRoZSBob3NwaXRhbCB3b27igJl0IHRlbGwgaGVyIGhvdyBzaGUgZ290IGl0LCBpbmZvcm1pbmcgaGVyIHRoYXQgc2hl4oCZZCBoYXZlIHRvIHN1ZSBmb3IgdGhlIGluZm9ybWF0aW9uLiBUaGF0IHN1Y2tzIHRvby4gQWxsIHRoaXMgYmFkIG5ld3MgYW5kIHlldCBJ4oCZbSBzdGlsbCBzbyBjb250ZW50Lg=="
+"eventtime","2006-02-10 02:48:00"
+"url","http://dizzybordon.livejournal.com/59993.html"
+"userid","3981"
+"itemid","233"
+"event","It's almost three in the morning.. I'm sitting here working on the newspaper from my house because I'm a geek and a procrastinator... I should probably have been doing this on Monday afternoon.. but I'd much rather sleep.  Anyway.. I'm in a fading good mood because Cole just left.. he came by after work and spent some time with me. It was nice.. I really wanted to see him. It's apparently starting to get around how he and I are dating.. not a big deal but we both seem to get something of a kick out of certain responses.  I wonder if he's painting.. nerf... he should be. 
+
+Seeing Mrs. Bryant yesterday about broke my heart. I had gone into first period that morning and saw the wretched condition stress had left Liz in. I'd have taken her home right then and there but I had promised several individuals that I'd do that stupid testing thing today so I told her we'd leave at lunch. Knowing that I had English, I went and saw Mrs. Bryant to let her know that I wouldn't be in class and I'd be unable to get a permit. When she found out why, she told me I should go and take care of Liz. In our conversation, she confessed a fear that caused her stress at work when it came to the students. She said she couldn't describe it but I knew what she was talking about. It's that sick, sad sensation that twists in my gut because I look at some of these people and there's nothing looking back. No opinion, no conviction, no soul. When I told her that, she looked at me like she did that day we discussed our philosophies of perception. I adore her and I can't stand to see someone with so much compassion and love get so disillusioned about children.
+
+..for someone who babbles... A LOT... I don't have much to say right now.. oh well."
+"eventtime","2006-02-07 03:01:00"
+"url","http://dizzybordon.livejournal.com/59683.html"
+"userid","3981"
+"itemid","232"
+"event","It's funny to me to note how bored I have to be before I'll update this thing..
+
+..but, truly, it's like I don't usually have the time anymore.. not enough time to foster the meager desire that I find easier to ignore. Anyway, I suppose an update is overdue.
+
+School has been somewhat uneventful, making the drain of it all the more pronounced. Now I've got two full days on through to two o'clock in the afternoon, during which I am moderately busy. I am either running around or lost in some chalkboard rhetoric that a caffeine buzz has left me with the attention span for. However busy I may be, most of it feels menial and I require more personal projects to make the day to day drudgery bearable. More focus on this odd telecast of mine and a new friendship with Ms. Bryant who calls me 'girlfriend' and hugs me when she sees me outside of class. I talk to Ms. Mac a lot more now too and in these friendships, I am more comfortable. In the end, though, nothing's <i>really</i> changed. Just how I view it has.
+
+Socially, I am rather well it seems. I still don't go out as much but, as I've said, I don't have to. People are always buzzing through this house wanting to see us. We talk, we party, we part and the day goes on. I have, however, indefinitely cutting off ReRe as a friend which will officially go into effect when I call her sometime later today. When she grows up, I want to be her best friend. Until then, I don't want to talk to her. Oh, and the current silence between Cameron and I came to a pause yesterday. In fact, he and I spoke through most of the day just 'catching up'. I'm still angry, but it will be dealt with in time and, knowing me, a decent amount of it.
+
+On the other side of the social sphere, I've stumbled into a <i>new</i> relationship. After a long period of time where we didn't really talk much, Cole said he was going to take me off of his buddy list. It bothered me but I wasn't sure why and didn't really fight him on it. Then I got a curious message and we ended up hanging out from which it just sort of just took off. It was unexpected, and still is even in it's onset. I really didn't think I could ever feel this way about him, but where the fuck is the fun in always being right?
+
+I believe the book I'm writing is healing me as it allows me to express this growing web of ideals that I'm developing. It helps my poetry and my traditional art as well, giving me new images to wield and shed this emo shell I've been wearing. It also motivates my self-education process. I get so bored with school that I assign myself little tidbits to know. I love going up to book browser and reading some of their business textbooks to further flame this odd entreprenurial spirit I've obtained. Economics class might help but isn't as of yet. I sleep through the class, do the homework late, and make perfect grades on tests.. it feels pretty irrelevant. I find the only class I'm actually learning anything in is my Algebra 2 class, where I'm with a bunch of juniors. I'm absolutely horrible at math and carry around a really advanced calculator in my purse just so I never have to think about it. It cripples me in both regular math courses and later science courses where they throw numbers at me and I get horribly fucking lost. My teacher, I can't for the life of me recall how to spell his name, has actually helped me understand concepts that my previous 2 Algebra 2 teachers couldn't get through to me. Ms. Young was nuts and Mr. Park was brilliant (but too beyond me to explain it to me) leaving my latest right in the middle where I need him. 
+
+I don't really know what else to say.. life goes on beyond the screen and my garbled tapestry."
+"eventtime","2006-01-28 13:59:00"
+"current_moodid","44"
+"url","http://dizzybordon.livejournal.com/59503.html"
+"userid","3981"
+"itemid","231"
+"event","<i><center> Thou hast found your conviction amidst a mess of mendacity, upon which you also rest yon fervor and inclusive disassociation. Saddened as thou was, thou found that no matter how much thou [had] trusted thee, it would never carry over to the one thou held so dear. 
+Perchance, thou art nothing more than a vivid apparition who hath beckoned thy disgrace to become naught else say for a soulful cutpurse, a mere poppet to haunt thee until thou mourned for yon mercy and ask of ye to stay. Standest thou there the lyingest knave for thou art a boil, a plague-sore, an embossed carbuncle.
+<I>
+Page 17"
+"eventtime","2006-01-13 08:19:00"
+"url","http://dizzybordon.livejournal.com/59271.html"
+"userid","3981"
+"itemid","230"
+"event","PEk+PENlbnRlcj4NCuKAnOKApmFuZCBpZiBvbmUgbW9yZSBkYXkgc2hvdWxkIHBhc3Mgd2hlcmV1cG9uIHlvdXIgdm9pY2UgZG90aCBub3QgYmVja29uIGludGVybmFsIGNvbmZpZGVuY2UsIEkgZmVhciBJIHNoYWxsIHN0cmlrZSB5b3UgZG93biBpbiB0aGUgYm91bmRlZCByZWFsbXMgb2YgYSB3YXItdG9ybiBtaW5kIGFuZCByYXZhZ2VkIGhlYXJ0LuKAnTwvST4NClVua25vd24sIHBhZ2UgNzIu"
+"eventtime","2006-01-05 09:24:00"
+"url","http://dizzybordon.livejournal.com/59125.html"
+"userid","3981"
+"itemid","228"
+"event","It's been a while.
+
+ I think I'm at a good place. David's quit drinking and I'm so proud of him he just doesn't even know. He's so strong but he only uses his strength against himself, and it scares me. Weston's got a new job lined up at Memorial City Mall which will be a lot of fun, I'm sure. If not, then he'll be working as an ISO coordinator for Stone & Webster which means more stress and more pay. Who knows, you know? Mike has started redecorating the house by painting the wood paneling with a shiny alluminum coat. It sounds weird but it looks awesome.. I can't wait to see what happens with it. 
+ School's pretty irritating. I decided one morning that I would end all relationships that were solely based in school unless they actually had meaning. As a result, I look for new ways to avoid other students at any opportunity. Some of it's sad because I find out how pointless some relationships are. I haven't really talked to Cameron since before Thanksgiving break and it hurts in the fact that I don't even know why. That happens a lot with him and I've always just kind of accepted it for reasons I can't even name anymore. However, some of it's funny in the sense that I'm really not as antisocial as others would have me believe. I find that, outside of school, I've always got way too much shit to do and way too many people I promised to see. 
+ My latest novel is coming along quite nicely. I'm not done with Part I yet because I keep going back and adding more but the awesome thing is that I haven't deleted anything. I found my vehicle. I found my inspiration. Hell, I think I found my own fuckin' heart beneath that mess of emo-ness. 
+
+..fuckin' emo kids all affectin' me 'n shit.."
+"eventtime","2005-12-23 09:39:00"
+"url","http://dizzybordon.livejournal.com/58489.html"
+"userid","3981"
+"itemid","226"
+"event","I need to stop ignoring the always-right messages around me.
+
+..but I never do what I need to do when I need to do it.
+..I wait until I'm about numb from the neck down..
+..and then I dig myself back out.."
+"eventtime","2005-11-16 21:47:00"
+"url","http://dizzybordon.livejournal.com/57992.html"
+"userid","3981"
+"itemid","222"
+"event","I realized what made her so different:
+
+I don't really care if she's wrong."
+"eventtime","2005-10-26 12:13:00"
+"url","http://dizzybordon.livejournal.com/57072.html"
+"userid","3981"
+"itemid","221"
+"event","<Center>
+<h2><b>
+AS OF RIGHT NOW, THIS VERY MOMENT I....
+</h2>
+...haven't read a single Harry Potter Book.
+...have been kissed in the rain.
+...haven't aged a bit.
+...want cheerios with honey.
+...am afraid of it ending.
+...really want to cuddle.
+...have dreamt about my own death.
+...won't eat sushi.
+...want a motorcycle.
+...am wearing Eucalyptus oil on my wrists.
+...haven't had a White Russian.
+...have taken shots of straight Everclear.
+...do remember what Absinthe tasted like.
+...have a novel brewin' in my psyche.
+...really, really, really want to go to Australia.
+...haven't accepted a date in months.
+...almost want ice cream.
+...miss Mitch Hedburg.
+...want to talk to Susan.
+...think I think too much."
+"eventtime","2005-10-19 18:54:00"
+"url","http://dizzybordon.livejournal.com/56754.html"
+"userid","3981"
+"itemid","220"
+"event","<center>
+<h2><i>In memory of Susan...</h2></i>
+
+<sub> October 13, 2005 </sub>"
+"eventtime","2005-10-17 09:10:00"
+"url","http://dizzybordon.livejournal.com/56514.html"
+"userid","3981"
+"itemid","219"
+"event","<i><sub>""...at the end of the day, they go home and pray about how bad they're feeling..
+...but they're so flawed...as they speak to their god, they talk straight to their ceiling.."""
+"eventtime","2005-10-08 23:16:00"
+"url","http://dizzybordon.livejournal.com/56134.html"
+"userid","3981"
+"itemid","218"
+"event","Some tin-lined voice comes over the room telling everyone to stand up and pledge so I put my hand over my heart and listen to the Inkubus Sukkubus blasting in my ears, and giggle at my little joke on the universe. Ah, entertainment."
+"eventtime","2005-10-04 10:12:00"
+"url","http://dizzybordon.livejournal.com/55942.html"
+"userid","3981"
+"itemid","217"
+"event","<div align=""center""> <table style=""color: black; background: #eeeeee""border=""0"" cellpadding=""0"" cellspacing=""2""> <tr> <td bgcolor=""#eeeeee""> <div align=""center""> Enneagram Test Results <table style=""color: black; background: #dddddd"" border=""0"" cellpadding=""0"" cellspacing=""4"" bgcolor=""#dddddd""> <tr> <td>Type 1 </td> <td>Perfectionism</td> <td width=""50""> ||||||||||||</td> <td width=""30"">42%</td> </tr> <tr> <td>Type 2</td> <td> Helpfulness</td> <td width=""50"">||||||||||||</td> <td width=""30"">50%</td> </tr> <tr> <td> Type 3</td> <td> Image Focus</td> <td width=""50""> ||||||||||||||||||</td> <td width=""30""> 74%</td> </tr> <tr> <td>Type 4</td> <td>Hypersensitivity</td> <td width=""50""> ||||||||||||||</td> <td width=""30""> 54%</td> </tr> <tr> <td> Type 5</td> <td> Detachment</td> <td width=""50""> ||||||||||||||||</td> <td width=""30""> 66%</td> </tr> <tr> <td>Type 6</td> <td>Anxiety</td> <td width=""50""> ||||||||||||</td> <td width=""30""> 50%</td> </tr> <tr> <td> Type 7</td> <td> Adventurousness</td> <td width=""50""> ||||||||||||||</td> <td width=""30""> 58%</td> </tr> <tr> <td> Type 8</td> <td>Aggressiveness</td> <td width=""50""> ||||||||||||||||||</td> <td width=""30""> 78%</td> </tr> <tr> <td> Type 9</td> <td>Calmness</td> <td width=""50"">||||||||||</td> <td width=""30""> 34%</td> </tr> </table> </div> </td> </tr> </table> <a href=""http://similarminds.com/enneagram_word.html"">Take Free Enneagram Word Test</a><br><font size=""1""><a href=""http://similarminds.com"">personality tests by similarminds.com</a></font></div>
+
+
+<div align=""center""> <table style=""color: black; background: #eeeeee"" border=""0"" cellpadding=""0"" cellspacing=""0"" > <tr> <td> <div align=""center"">Jung Ideal vs. Real Test<table border=""0"" cellpadding=""0"" cellspacing=""4"" style=""color: black; background: #dddddd"" > <tr> <td>Introversion</td> <td width=""50"">||||||||||</td> <td width=""30"">36%</td> </tr> <tr> <td></td> <td width=""50""><font color=""#808080"">||||||||||||</font></td> <td width=""30"">46%</td> </tr> <tr> <td>Extroversion</td> <td width=""50"">||||||||||||||||</td> <td width=""30"">66%</td> </tr> <tr> <td></td> <td width=""50""><font color=""#808080"">||||||||||||||||</font></td> <td width=""30"">63%</td> </tr> <tr> <td>Intuitive</td> <td width=""50"">||||||||||||||||||</td> <td width=""30"">80%</td> </tr> <tr> <td></td> <td width=""50""><font color=""#808080"">||||||||||||||||||</font></td> <td width=""30"">76%</td> </tr> <tr> <td>Sensing</td> <td width=""50"">||||||||||||||</td> <td width=""30"">60%</td> </tr> <tr> <td></td> <td width=""50""><font color=""#808080"">||||||||||</font></td> <td width=""30"">40%</td> </tr> <tr> <td>Feeling</td> <td width=""50"">||||||||||||||</td> <td width=""30"">56%</td> </tr> <tr> <td></td> <td width=""50""><font color=""#808080"">||||||||||||</font></td> <td width=""30"">46%</td> </tr> <tr> <td>Thinking</td> <td width=""50"">||||||||||||||||||</td> <td width=""30"">76%</td> </tr> <tr> <td></td> <td width=""50""><font color=""#808080"">||||||||||||||</font></td> <td width=""30"">56%</td> </tr> <tr> <td>Judging</td> <td width=""50"">||||||||||||||||</td> <td width=""30"">63%</td> </tr> <tr> <td></td> <td width=""50""><font color=""#808080"">||||||||||||</font></td> <td width=""30"">46%</td> </tr> <tr> <td>Perceiving</td> <td width=""50"">||||||||||||||||</td> <td width=""30"">63%</td> </tr> <tr> <td></td> <td width=""50""><font color=""#808080"">||||||||||||||||</font></td> <td width=""30"">63%</td> </tr> </table> <table border=""0"" cellpadding=""0"" cellspacing=""2"" width=""100%""> <tr> <td width=""100%"" bgcolor=""#dddddd""> <div align=""center""> ideal you |||||| real you <font color=""#808080"">||||||</font></div> </td> </tr> </table> ideal type - <b>ENTJ</b>, real type - <b>ENTP</b><br> </div> </td> </tr> </table> <a href=""http://similarminds.com/p_jung.html"">Take Free Jung Ideal vs. Real Test</a><br><font size=""1""><a href=""http://similarminds.com"">personality tests by similarminds.com</a></font></div>"
+"eventtime","2005-09-27 19:50:00"
+"url","http://dizzybordon.livejournal.com/55680.html"
+"userid","3981"
+"itemid","216"
+"event","It's funny how everything changes.
+
+..even funnier how it really doesn't."
+"eventtime","2005-09-14 19:16:00"
+"url","http://dizzybordon.livejournal.com/55442.html"
+"userid","3981"
+"itemid","215"
+"event","UmVhbGl0eSBzYXlzIHRoYXQgZm9yIGV2ZXJ5IHRoaW5nIHRoYXQgaGFwcGVucywgdGhlcmUgd2lsbCBiZSBqdXN0IGFzIG11Y2ggZ29vZCBhcyBiYWQgdG8gY29tZSBvdXQgb2YgaXQuIA0KDQoJCQkJCT5JIGFtIGluIGEgZ29vZCBtb29kLCBnaXZpbmcgbXlzZWxmIHNvbWUgc29ydCBvZiBkcml2ZS4NCkkgZm9yY2UgbXlzZWxmIHRvIGJlIGluIGEgZ29vZCBtb29kID4+IA0KCQkJCQk+SSBhbSBnZXR0aW5nIHNpY2sgYWdhaW4sIHdlYWsgYWdhaW4sIGFuZCBJIHdvbmRlciB3aGF04oCZcyB3cm9uZy4NCg0KTm90IGV4YWN0bHkgbWF0aCBvciBwaHlzaWNzIG9yIGFueXRoaW5nLCBidXQgaXTigJlzIGxvZ2ljYWwgYW5kIGl04oCZcyBteSB3b3JraW5nIHRoZW9yeSBvbiBrYXJtYSwgdGh1cyBmYXIgaXQgZml0cy4NCg0KSSBkb27igJl0IGtub3cgaG93IG11Y2ggbG9uZ2VyIEkgY2FuIG1ha2UgdGhpcyBsYXN0LiBJIHRoaW5rIEkgbmVlZCBhIHJlc3QuLiBEcmF3IGJhY2sgaW50byBteXNlbGYsIG15IHNoZWxsLCBteSByZWFsaXR5LiBJdCBkb2VzbuKAmXQgbWFrZSBzZW5zZSB0aGVyZSBvciBhbnl0aGluZywgYnV0IHRoZSBjb2xvcnMgYXJlIGEgYml0IG1vcmUgdml2aWQuIA0KDQouLi5hbmQgSSBjYW4gZHJhdyBvbiB0aGUgd2FsbHMgdGhlcmUuDQouLi5hbmQgSSBjYW4gZm9yZ2V0IENhbWVyb24sIEZyYW5rLCBXZXMsIGFueW9uZSB0aGVyZS4NCi4uLmFuZCBJIGNhbiBiZSBhIHNsdXQgb3IgcHJ1ZGUgdGhlcmUuDQouLi5hbmQgSSBjYW4gZmVlbCBwcmV0dHkgdGhlcmUsIGJ1dCBub3QgbmVlZCB0by4NCi4uLmFuZCBJIGNhbiBmZWVsIGEgbGl0dGxlIGJpdCBtb3JlIGxpa2UgbXlzZWxmLg0KDQrigJxJIGhhdGUgaXQgd2hlbiB5b3XigJlyZSBtYWQgYXQgbWUu4oCd"
+"eventtime","2005-09-11 19:13:00"
+"url","http://dizzybordon.livejournal.com/55123.html"
+"userid","3981"
+"itemid","214"
+"event","Sometimes, I'll be sitting in class and I'll get this distinctive taste in my mouth. Now, it's not profound or anything.. just noticeable, like a familiar sensation hidden in repressed thoughts. And then I remember and, like a brick in the face, I am knocked completely off guard. Why is it so idiosyncratic? So fucking comfortable. I even feel injected by it now and again, sitting alone and noting the sensation travel up my arm, into my spine, and directly into the core of my thoughts with alarming recognition and impact.
+
+	Every time, it hits a little harder.
+	Every time, it gets a little easier.
+	Every time, I feel a little better.
+
+And even now, I accept that it's over.
+
+Chemically affected, totally rejected, and still feeling so divine. I've been forcing myself into a wonderful mood day in, day out. If I can't hurt my mood, no one can. I play the game, I lick my wounds, and count the windows until I feel like I've got a grasp in this reality... and it makes me feel even better. 
+
+Painting's a priority, I sing when I have the time, I drag my fingers across the keys and leave the stress where it's born. <i>...can't bring it here, Won't bring it here..</i>
+
+I plan on making amends, but I won't say a word. That's the latest stipulation."
+"eventtime","2005-09-08 22:13:00"
+"url","http://dizzybordon.livejournal.com/54850.html"
+"userid","3981"
+"itemid","213"
+"event","U2l0IGluIGEgY2hhaXIgdGhhdOKAmXMgdG9vIGJpZyBmb3IgeW91IGFuZCBkYW5nbGUgeW91ciBsZWdzIG92ZXIgdGhlIHNpZGUgd2hpbGUgd2hhdGV2ZXIgc29uZyB0aGF0IG1ha2VzIHlvdSBoYXBweSBibGFzdHMgbG91ZGx5IGluIHlvdXIgZWFycy4gVHVybiBvZmYgYWxsIHRoZSBsaWdodHMgYW5kIGxldCB0aGUgcGljdHVyZXMgZmxvdyB0aHJvdWdoIHlvdXIgbWluZCBhcyBpZiBsb3ZpbmdseSB0YXR0b29lZCBvbiB5b3VyIGlubmVyIGV5ZSBsaWRzLiBFeHBlcmllbmNlIHlvdXJzZWxmLCB5b3VyIGJsYW5rcywgeW91ciBtZWFnZXIgY29udGVtcGxhdGlvbnMuIFRha2UgaG9sZCBvZiBzb21lb25l4oCZcyB3cmlzdCBhbmQgZ3JpcCBpdCwgaG9sZCBpdCwgdHdpc3QgaXQgdW50aWwgdGhleSBtYWtlIHNlbnNlIGJlY2F1c2UgbGV0dGluZyBnbyBpc27igJl0IHRoZSBlbmQsIGl04oCZcyB0aGUgYmVnaW5uaW5nIG9mIHNvbWV0aGluZyA8aT5lbHNlPC9pPiwgc29tZXRoaW5nIGZhciBtb3JlIHNwZWN0YWN1bGFyIGFuZCBmcmlnaHRlbmluZy4gVGFrZSB0aGF0IHBlcnNvbiB0byB0aGUgZGFyayB3aXRoIHlvdSwgdGFrZSB0aGVtIGluc2lkZSB5b3VyIG1pbmQuIEhhdmUgdGhlbSB3cml0ZSBkb3duIHRoZWlyIG93biBjb21tZW50cyBvbiB5b3VyIHdhbGxzLCBiZWcgZm9yIGZlZWRiYWNrLiBHaXZlIHRoZSBkZWx1c2lvbiBzdXJlIGZvb3RpbmcsIGdpdmUgaXQgbGlnaHQsIGdpdmUgaXQgbW90aXZlLiBHaXZlIGl0IHdoYXQgaXQgbmVlZHMgdG8gc3Vydml2ZSBiZWNhdXNlIHdoZW4geW914oCZcmUgYWxsIGFsb25lLCBpdOKAmWxsIGJlIGFsbCB0aGF04oCZcyBsZWZ0Lg=="
+"eventtime","2005-08-29 08:20:00"
+"url","http://dizzybordon.livejournal.com/54775.html"
+"userid","3981"
+"itemid","212"
+"event","<sub><i>
+How is it that I continue to crave for something that I don't really care for?
+How is it that I can't make myself do the only thing I want to do inside my head?
+
+How is it that I'm still here.. and not some vacant expression left upon someone's pillow?</sub></i>"
+"eventtime","2005-08-28 02:55:00"
+"url","http://dizzybordon.livejournal.com/54304.html"
+"userid","3981"
+"itemid","211"
+"event","<i>I really didn't mean to.</i>"
+"eventtime","2005-08-23 05:44:00"
+"url","http://dizzybordon.livejournal.com/54191.html"
+"userid","3981"
+"itemid","209"
+"event","<center>
+<h3>
+...it's like no one ever sees them."
+"eventtime","2005-08-18 20:12:00"
+"url","http://dizzybordon.livejournal.com/53650.html"
+"userid","3981"
+"itemid","207"
+"event","<I>""..and if you're looking to me for salvation, I'm fresh out.
+..and if you're wanting to vent your frustration, what about?
+When I look at you, I don't see what I used to see...
+if I want a better life, I'm sorry.
+Forgive me.
+You're angry.
+You shoulde be.
+I'm happy.
+I'm happy.
+<h2>I'm happy.""</h2>
+-Terra Naomi's ""I'm Happy""
+</I></Center>
+
+I'm in a good mood. I don't think I've ever had such a wonderful feeling for such a long period of time.
+
+Here, through an annoying visit to school and another near-perversion, I'm perfectly content listening to a perfectly awesome song and actually able to keep the beat in my incessent tapping. I've had time. Not too many people around, tons of time to think: to comprehend: to <b>understand</b>. 
+
+I get me. And that was the biggest puzzle of all, somehow. Everyone else is falling down around me, solved enigmas that were not really worth the time I spent (because trust me, I spent too much time). 
+
+<I>""But, Up here I am who I am,
+and if you don't like it, Fuck you man.
+I'm not a thief and a whore, 
+so please don't follow me around next time I'm shopping in your store.""</I>
+
+..anyway. 
+
+I hoped for a lot of things to end that didn't, but I can handle them and so it doesn't really matter. I got my mom for apologzing for not complimenting me... for being genuinely upset she may have hurt my feelings... I got a whole new set of problems but it ceased to freak me out. 
+
+Ah-ha, devotion. Such a nifty party trick.
+
+<I>""The world is full of pieces and soon they'll all fall down.""</I>"
+"eventtime","2005-08-11 16:00:00"
+"current_moodid","15"
+"url","http://dizzybordon.livejournal.com/53050.html"
+"userid","3981"
+"itemid","205"
+"event","I'm not sure if I could really say I saw this coming because I've no idea if I really did.
+
+Now that it doesn't hurt to speak, I find myself doing it less and less.
+
+I'm not writing as much but whenever I do, it <i>feels</i> worth it.
+
+Goblin's back from his tour in the North. Back and probably smashed. 
+
+Weston bought a 4-barrel carburetor and a new intake manifold, along with a kickdown bracket and he's working on headers too. He and Mike have officially named me the <b><i>MechMonkey</i></b> because they plan to have me crawling over the engine compartment and hooking up the harder-to-reach ports. What's odd is that I'm actually understanding everything they're saying.
+
+I finally got my information from school.. TAKs and stuff. I actually did really well in math for once.
+
+Well.. I have things to do."
+"eventtime","2005-07-31 11:25:00"
+"url","http://dizzybordon.livejournal.com/52485.html"
+"userid","3981"
+"itemid","204"
+"event","<h4><i><b>""...Is <h3>this</h3> what they're calling art these days?..""</h4></i></b>
+
+<center>
+<a href=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/Calder.gif"" target=""_blank"">
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/th_Calder.gif""></a> 
+<h5>Alexander Calder<I> ..because we all need a hero...</I>
+<a href=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/CalderMobile2.jpg"" target=""_blank"">
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/th_CalderMobile2.jpg""></a>  
+<a href=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/CalderMobile1.jpg"" target=""_blank"">
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/th_CalderMobile1.jpg""></a> 
+A couple of Calder pieces. 
+<a href=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/Vacation05I.jpg"" target=""_blank"">
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/th_Vacation05I.jpg""></a>  
+Dad said he saw a Christmas tree in there..
+<br><br>
+<a href=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/Vacation05H.jpg"" target=""_blank"">
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/th_Vacation05H.jpg""></a>
+<h5>Rodin</h5>   
+<a href=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/Vacation05D.jpg"" target=""_blank"">
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/th_Vacation05D.jpg""></a>  
+<i>""..here, kittie-kittie...""
+<a href=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/Vacation05C.jpg"" target=""_blank"">
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/th_Vacation05C.jpg""></a>  
+..also at the Law Enforcement Memorial in Washington D.C.
+<a href=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/Vacation05B.jpg"" target=""_blank"">
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/th_Vacation05B.jpg""></a>
+Get this.. <h5><b>""The Building Museum""</h5></b>
+<br><br>
+
+<sub><i>""..I don't get it.. it just never did anything for me..""
+
+</center>
+
+Hold your breath, it's all almost over."
+"eventtime","2005-07-29 15:40:00"
+"current_moodid","126"
+"url","http://dizzybordon.livejournal.com/52372.html"
+"userid","3981"
+"itemid","203"
+"event","<center>
+<I>
+<B>
+<U>
+<h1>
+""..almost entertained for a total of three and a half seconds..."""
+"eventtime","2005-07-21 15:30:00"
+"url","http://dizzybordon.livejournal.com/51969.html"
+"userid","3981"
+"itemid","202"
+"event","I thought I missed being wanted.. or cuddling.. I thought I missed interaction, dancing, forgetting the home situation... but, really, I just miss Anthony. 
+
+It was my last night in Ocean City.. I had a monster fight with my mother and was determined to have a good time at this underage dance club that was supposed to be really awesome.. I went on a bus with my two cousins and three family friends... and we all got into this club just as it was opening.  
+
+For a while, it was just Kendra (the local family friend), Annie (my female cousin, and me dancing together.. but this really cute guy started dancing behind Annie.. and then I noticed Anthony. He was just kind of hanging around the area where we were dancing.. I smiled.. he was cute, so why not? 
+
+I went back to dancing and a few minutes later, he was still there. Another smile and then he came over to me asking if I wanted to dance. He and I danced for a while, it was nice.. because I'd become so curious about him and we hadn't really said anything. He had this red cheerleading shirt on.. with a cap.. and I don't know.. something just.. clicked.
+
+Eventually, we went for drinks.. and I learned a lot more about him. The oddest fact being that he was only fifteen but by then, I didn't care about his age.. he had my full attention. We danced a lot together, went for strolls on the boardwalk, and realized it would be our only night together since I was leaving shortly after getting back from the club.
+
+He had to leave a little bit before I did, but when he started getting ready to go, he came up close and kissed me on the cheek. He said I was beautiful and an awesome chick and all I could do was thank him for the awesome last night. 
+
+I gave him beads.. we exchanged screen names down at the boardwalk.. He has my slip of paper taped to head headboard and sleeps with the beads every night. I have the shirt I wore still in the closet smelling of the foam dropped on us and him and his screen named taped to my door.  We both play it off like it's some big cosmic joke that we met and then had to be forced apart like that. ..a joke, indeed. The cruelest one around."
+"eventtime","2005-07-18 23:46:00"
+"current_moodid","60"
+"url","http://dizzybordon.livejournal.com/51747.html"
+"userid","3981"
+"itemid","201"
+"event","I've so much to say, really.. just no idea where to start. I've traveled a good distance and while I'm rather pleased with this outlook I've had the time to take on, I'm also pleased with something I had before I left: my sanctuary. <I>Quit the drugs for a bit and take a look around. Do you like what you see?</I> At times, I did. At times, I found myself so enamored by what went so quickly before my eyes that my heart could scarcely slow down. The buildings, soaked in light and history, loomed above me creating an irrational fear that they might topple down crushing me. At times, however, I found myself so disgusted that I wanted to leave and find a place where things made sense again. 
+
+In Washington D.C., the National Museum of Art was even grander and more interesting than I remember it. This time, it even housed a treasure that I hadn't found the last time: A much more extensive Alexander Calder exhibit. Calder happens to be a great artist who has captivated me since my seventh-grade art teacher spent a semester discussing him. The large mobile that I've seen before would have sated me for another few years, but the exhibit all but overwhelmed me. In the next rooms were Andy Warhol and other artists that fit into the abstract-modern-oddball artistry. My father said, ""I don't understand this stuff.. I mean, it just doesn't get me going. They call this art?"" and I just smiled and said, ""..You may not understand it, but you're looking at it pretty hard. They got your attention, didn't they?"" He just laughed and said they did. I love my dad.
+
+In Massachusetts, I find a warm and somehow depressing atmosphere. My grandmother's health is ever-deteriorating and my grandfather's will is as well. It seems as though everyone is in some sort of crisis as is the entire city which declared bankruptcy. The locals all attribute the downfall to long-term liberal control. Go figure. Anyway, my Uncle Kenny's home hit me pretty hard. Kenny is my father's older sister's husband. He has three grown girls who all are married and have kids. Kenny's first grandson, my second cousin, is going to jail after a short lifetime of offense and it breaks Kenny's heart. Aunt Faye is crazier than ever, and so are her kids who are all in some desperate situation of their own. My Uncle Freddy's condition is worsening and not just because of the Parkinson's disease. His family is driving him to the edge and no one wants to stand in the way for fear of upsetting Freddy. Uncle Donald's just a little bit fatter but no worse-off for a complete lack of change in situation. It looks like I'm going to be the only Whitney looking into a college education since my Uncle Donald who is just past middle-age and they all express such hope for me. Uncle Kenny went on for an hour about how proud he was of me and how he knew I was going to change the world. I just don't want to let anyone down.
+
+I won't let any of them down. Not Kenny. Not my grandmother. Not any of them.
+
+I'm tired.. I've been on the road for over twenty four hours and I've barely scratched the surface of what all has happened to me. 
+
+The kids are waiting for a revolution. It's not going to come. 
+
+
+...well.. not the one they're looking for."
+"eventtime","2005-07-16 05:54:00"
+"url","http://dizzybordon.livejournal.com/51542.html"
+"userid","3981"
+"itemid","200"
+"event","I'm so taken with this place...
+
+I love hearing problems and scouting through information trying to find a backwards path in the mayhem to find some clarity for someone. 
+
+These faces don't matter anymore. These people, who I love, are not going to be around forever.. so I shouldn't feel bad about what I love because I love it for a reason and that's no one else's concern unless they love me too.
+
+..this feels nice."
+"eventtime","2005-07-04 00:14:00"
+"url","http://dizzybordon.livejournal.com/51321.html"
+"userid","3981"
+"itemid","199"
+"event","Well, I'm on the part of the trip where I can access the internet so here I am. Dad, Mom, Uncle Michael, Mel, and I are about to head off to D.C. for the day and go sight-seeing. I've been here before but there are some things I didn't get to see that I'd like to. It'll be years before I can see the real Declaration of Independence because they're restoring it which takes forever. They started the day I was here the last time.. they'll finish around the time I'm going for a professorship. Haha. Oh well. 
+
+My mother's fucking crazy and I'm glad I'm not the only one who sees that. Whenever she's not in the room, dad and I will snicker as we give theories as to how the stick up her ass got to where it is today. The first actual stop where we saw family or something was at a horse ranch in Virginia, I believe. Virginia or Maryland.. anyway.. The ranch has a really big house that is going to be turned into a bed and breakfast but down the cobblestone road lives my Aunt Megan and her roommate, Alden with his dog named Buzz. Armed with a video camera, Megan took me up one of the many trails up the mountain on the property until we got to this interesting little hunting cottage that sat atop a cliff. The trek nearly killed my father.. but it was something I could do every day. It was so beautiful and there were so many animals just prancing around like we weren't even there. 
+
+Megan came with us to her brother's place in Maryland. My uncle Michael rocks and I really like his fiance', Mel. She's funny and typical Burrus so she'll fit right in with the insanity of the brood. She has two kids, both of which are at their father's for the week so I won't get to meet them. Oh well.
+
+I got a hundred bucks the day before yesterday for finishing a test. Dad says to spend it on myself but I want to buy a zoom microphone for the new video camera so when school starts again, the broadcast will have better quality... but I think I will pick up a pair of aviator sunglasses.. for some stupid reason, I've been thinking about that a lot lately.
+
+It's so weird not hanging out with Wes every day but I'm sure we'll get back into our normal routine the moment I get back. Hehe.
+
+With the help of Re Re, a cartoon idea of mine has evolved into odd sketch-episodes. We're calling the series, ""Lesbian Knows Best."" It has four main characters: ""Rhoda Downing"" who is played by Re Re. Rhoda is a germaphobic lesbian who gets more ass than what could ever be described as funny. ""Kit Doul"" is played by me and she's a grease-monkey lesbian who smokes cigars and has a vindictive streak. Then there's ""Wesley Dowell"" who is played by Wes and is best friends with Kit (go figure). He spends all day hanging out with lesbians for some reason. Then, finally, there's ""Fae  Bennings"" who is played by Kristina. She's a wicked-smart lesbian who is always underestimated but uses it to her advantage. There are, of course, other characters with minor roles so this ought to be a fun little project.
+
+I'm not sure what more to say.. I'm kind of tired and I'm having nightmares again but I feel pretty good lately. I mean, my mother drives me crazy and my father's so panzy-tastic but I'm starting to understand things in my universe that are making me feel so much better. Don't depend on anyone but yourself, for one. Because if someone else disappoints you, you have an out for aggression or sadness that will not lead to resolution.. only more sadness. Whereas if you fail yourself, you have only yourself to blame and your work is already cut out for you. Also, some people really ought to be left to the wind no matter how close they were at one point. All the great times don't necessarily compensate for the bad especially if the great times leave you baffled and the bad times leave you battered. Every person really is just like everyone else. No matter what anyone says, we all have a basic characteristic that ensure we will all pretty much end up in the same place and that characteristic of our species is called the human condition. 
+
+I'm done rambling now."
+"eventtime","2005-07-03 11:48:00"
+"current_moodid","67"
+"url","http://dizzybordon.livejournal.com/50967.html"
+"userid","3981"
+"itemid","198"
+"event","Yeah.. I'm off for the road trip tomorrow.. I'll be back in the middle of July.. 
+
+Life.. uhh..
+
+<center>
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/BuddhaBaby.jpg"" alt=""Image hosted by Photobucket.com""><br><br>
+Buddha is sweet as ever.. I just like that picture of her.
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/Mike.jpg"" alt=""Image hosted by Photobucket.com""><br><br>
+That's Mike.. During the day, he's an engineering piper who's noted as one of the best in Houston. During the night, he's a gearhead hippy who is slowly turning me into the like.
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/Jeremy.jpg"" alt=""Image hosted by Photobucket.com""><br><br>
+That's Jeremy. He's good for starting arguments he doesn't generally win.
+<img src=""http://img.photobucket.com/albums/v489/DragonChaserDizzy/Dopey.jpg"" alt=""Image hosted by Photobucket.com""><br><br>
+</center>
+Yeah, I bleached my hair again.. and let people take stupid pictures of me.."
+"eventtime","2005-06-30 11:07:00"
+"current_moodid","31"
+"url","http://dizzybordon.livejournal.com/50914.html"
+"userid","3981"
+"itemid","195"
+"event","I'm starting to wonder at the things I just accept. I look to Kim's journal and I think <I>Noble. Irrational.</I>  ..and I wonder if maybe I'm struggling so hard to become that which a long-time friend struggles against. How long have I to walk the path of conservative righteousness before I find my beliefs compromised for my need to win? My grandfather said that a winning spirit really has no place in a good politician, only a successful one and I'm sickened knowing I can't be both. 
+
+My path is not my grandfather's, but it's close. It seems as though his greatest enemy and the greatest enemy of any singular person trying to cause change in a steadfast system is the lack of anyone knowing. The information doesn't reach far and wide anymore because there's just too much going around. Maybe journalism isn't just a thing to get me through high school and college. Maybe I see the biggest picture because I'm supposed to show it to everyone else. Maybe, just maybe, I can change the faulty by telling people about it... by telling them the truth. 
+
+Not the violence, not by torching SUVs or pulling down statues. Not by sealing the records of controversial plane crashes until everyone involved at the time is beyond repercussion. Just the truth. What is, what could be, and what the biggest picture denotes about the whole situation."
+"eventtime","2005-06-23 12:49:00"
+"current_moodid","89"
+"url","http://dizzybordon.livejournal.com/50077.html"
+"userid","3981"
+"itemid","193"
+"event","<center><i><h4>""It's like all those helpful signs were facing the other way..""</center></i></h4>"
+"eventtime","2005-06-19 01:14:00"
+"url","http://dizzybordon.livejournal.com/49512.html"
+"userid","3981"
+"itemid","192"
+"event","People often have to wonder what other things have to say. The talk about getting me a psychiatrist is still talk because we're waiting on the insurance company to send us a list of psychiatrists that are on their list. This person is supposed to prescribe me pills and give me therapy and yet I'm supposed to pick them by a name and an address. What, really, does a name say about a person? What does ""Elizabeth Kathleen Whitney"" say about me?
+
+Does it say that I'm insecure emotionally? Or that I'm one to have difficulties with trust? Does it say that I'm an artist or just someone who still pretends such things are merely hobbies? Does it say how tall I am or how skinny? Does it say if I'm funny or if I try too hard? What the hell does it say about me? Nothing. It's not a glimmer into someone's personality. It's naught but the name on their culture dish, the title of a disease. So here I am with an open book and a list of names and addresses.. and I'm supposed to pick which one to infect myself with.
+
+I started writing something again though I'm not sure how long I'll be writing it when I decide it's not worth the effort and forget about it. Then I'll come back in a few months, the inspiration gone, and wonder where the rest of it is. I'm not sure what to call it, but ""The Only Thing Real"" seems to be the winner thus far. It's a fictional autobiography of my dysfunction from the view of a fictional character who is insanely like Goblin. Thus far, I think I like it.
+
+I'm tired."
+"eventtime","2005-06-15 07:09:00"
+"url","http://dizzybordon.livejournal.com/49351.html"
+"userid","3981"
+"itemid","191"
+"event","It's quiet in here. All there is that's making any noise is my computer, sounding like it's about to die any time I run something out of the ordinary. I'm finally at that point in the summer where it's utterly clear that this really can be <i>my</i> time. I don't have a job or anything really of the sort and, thus, no obligations to anyone except for my parents. It's nice feeling that.
+	I experienced something that took away every ounce of perceived strength I had. It's over but I'm not going to pretend it didn't happen. I'm sick of pretending things didn't happen and that they didn't hurt. That was always a mechanism I had.. if something upset me and I didn't want it to, I'd pretend it didn't happen. It wasn't that I'd just not think about it.. I'd really write it in my psyche so that the event never played out in the real fabric of time. 
+	I needed to relax and, thankfully, I have. Not without help of course. Wes has been nothing but wonderful in my times of need, offering me peace from the outside world and a listening ear in case I needed to vent. Cameron did a great deal too when he came over. Since I was at that point where I could relax, it made it much easier to help someone else do it too which was my main point for having Cameron over. I didn't realize that he would turn it around on me, not that I mind at all, though. 
+	My mother is taking me to a psychiatrist out of my personal request. Only problem is that I have to teach myself to stop fucking with them. I have an odd <i>need</i> to toy with these so-called doctors. My mother asked why I wanted a psychiatrist, assuming I was looking for the drugs. I told her the truth. A psychologist is only for diagnostic work and I need therapy. Not to mention, I have a bad run with psychologists. I've noticed that if I get bored and lie to a psychiatrist, they know I'm lying and try to figure out why. I still fuck with them, but it's a different story with a psychologist. They just tend to write down everything I say and take it word for word. 
+
+<center>
+<sub><I>""..so I had to decide whether or not to follow the guy but I asked about his references and he said that there was a Venutian starship that housed a cook that would answer for him..""
+""..uh.. slow down, slow down.. how do you spell ""Venutian""?""
+-shakes head-
+</sub></i> 
+</center>
+
+	I've also been writing a lot lately. I'll be in the middle of a conversation with Wes and I'll have to go write something down so I don't forget it. I'll usually post it as a private entry in here and then type it out more thoroughly for later. It's nice to be inspired.. maybe I can actually bring myself to paint soon. Who knows.
+
+""I step right off the edge, let the blood rush to my head.
+I'm goin' down to where the lucky ones have bled..
+I lift the veil up to reveal a fascination.. 
+..and if you crave it, then you know that you are injured..
+
+..and I'm holdin' on..
+..and I'm holdin' on..
+
+For what you do to me, oh baby, there's no measure!
+I've taken everything and now I want to give it!
+I left the lights on so you stumble in devotion..
+So easy! So easy! It's left unspoken..
+
+..and I'm holdin' on.."""
+"eventtime","2005-06-10 08:05:00"
+"current_moodid","15"
+"url","http://dizzybordon.livejournal.com/49116.html"
+"userid","3981"
+"itemid","187"
+"event","The sun felt nice on my skin today. I feel soft and oddly warm. 
+
+The moment's finally slowed down enough to view it with clarity, logic, and reason. 
+
+...and still left with a full plate of problems, I don't feel so overwhelmed.
+
+..thanks, man."
+"eventtime","2005-06-07 15:49:00"
+"url","http://dizzybordon.livejournal.com/48036.html"
+"userid","3981"
+"itemid","186"
+"event","No more self-help bullshit.
+No more pleas of strength.
+
+I'm sick of being my last line of defense.
+I'm sick of pretending this shit helps.
+
+I'm not going to live like I'm going to die tomorrow.
+
+I'm going to fix this shit.. or rather get help to fix it.
+
+..and this pointless dribble.. is going to have to stop."
+"eventtime","2005-06-06 16:27:00"
+"url","http://dizzybordon.livejournal.com/47717.html"
+"userid","3981"
+"itemid","185"
+"event","Kristina's mad at me and I just don't have the strength to deal with it right now. I'm just completely exhausted physically and mentally and I've spent the last day and a half with a tentative figure in my love life. I don't blame her for being upset that we haven't been able to hang out and it was because of me but I can't help feeling like this. It's gotten to where I'm glad I don't have a cell phone because I also have a place I can go to every night so no one can call or find me... so It gets to both Wes and I when she calls Wes to talk to me.. my sanctuary's pierced and his patience is tested. To add to that, she automatically assumed my motives were malicious.. something I've never been good about tolerating. Finally, she had a mutual friend bitch at me, tell me what I <i>was</i> going to do.. and how it was going to go. I hung up on him.. twice. They weren't calling my house.. they were calling my friend and pulling him away from his job so he could come give me the phone. 
+
+I don't know if it makes sense to anyone else.. so I'll try to outline the basics.. I don't like having my motives assumed malicious, I don't like being ordered around in situations that don't have my control in the first place, and I don't like making close friend feel like mere links in the chain. 
+
+It'll be a while before I move to fix this. I need to calm down and get some rest."
+"eventtime","2005-06-01 20:12:00"
+"url","http://dizzybordon.livejournal.com/47397.html"
+"userid","3981"
+"itemid","184"
+"event","<center>
+<img src=""http://img.photobucket.com/albums/v435/DizzyBordon/shorthair2.jpg"" alt=""Image hosted by Photobucket.com""><br><br> I really miss my old haircut.
+<img src=""http://img.photobucket.com/albums/v435/DizzyBordon/Shorthair.jpg"" alt=""Image hosted by Photobucket.com""><br><br>
+</center>"
+"eventtime","2005-05-31 15:40:00"
+"url","http://dizzybordon.livejournal.com/47336.html"
+"userid","3981"
+"itemid","183"
+"event","U28gSeKAmW0gaGVyZSBpbuKApiBBdXN0aW4sIEnigJltIHRvbGQuIFllcywgaXTigJlzIEF1c3Rpbi4gQW55d2F5LCBub2JvZHkgYWN0dWFsbHkgY2FyZXMgYXQgbXkgcHJlc2VudCBsb2NhdGlvbiBhbmQgSSB3b3VsZG7igJl0IGhhdmUgaXQgYW55IG90aGVyIHdheS4gSSBoYXZlIGVub3VnaCBwcm9ibGVtcyB3aXRoIGRlcGVuZGVuY3kgYWxyZWFkeSBmb3IgbWUgdG8gd2FudCBzb21lIG90aGVyIGZvcm0gYWRkZWQgdG8gdGhlIHRvcC4gDQoNCkkgdGhpbmsgSeKAmW0gYSBiYWQgaW5mbHVlbmNlLiBJ4oCZbSBzaXR0aW5nIGhlcmUgaW4gc29tZSBsaXR0bGUgYm954oCZcyByb29tIHdpdGggdHdvIGZvdXJ0ZWVuIHllYXIgb2xkIGdpcmxzLCBteSBjb3VzaW4gYW5kIGhlciBmcmllbmQsIHdobyBJIGp1c3QgZ290IGJhY2sgZnJvbSBhIHdhbGsgdG8gdGhlIHBhcmsgd2l0aC4gQXQgdGhlIHBhcmssIHdlIGFsbCB3cm90ZSBvZGQgdGhpbmdzIG9uIHRoZSBlcXVpcG1lbnQgYW5kIEkgc21va2VkIGhhbGYgYSBib3dsIHRvIGdldCBtZSByZWFkeSB0byBzbGVlcCB0b25pZ2h0LiBJIG5lZWQgc2VkYXRpdmVzLi4gSSBoYXZlIHBvdC4gT2ggd2VsbC4gTXkgY291c2luIHNheXMgSSBoYXZlbuKAmXQgaW5mbHVlbmNlZCBoZXIsIEkgcHJvYmFibHkgaGF2ZW7igJl0LiBTaGXigJlzIGEgcHJlcCBpZiBJ4oCZdmUgZXZlciBzZWVuIG9uZS4gSGVyIGZyaWVuZCBzd2VhcnMgYSBmYW1pbHkgbWVtYmVyIGlzIGEgd29yc2UgaW5mbHVlbmNlIHRoYW4gSSBldmVyIGNvdWxkIGJlLiANCg0KLi5idXQgdGhhdOKAmXMgZ290IG5vdGhpbmcgdG8gZG8gd2l0aCBtZSBub3QgYmVpbmcgYSBiYWQgaW5mbHVlbmNlLCBkb2VzIGl0Pw0KDQpZZXMsIEnigJltIGluIHNvbWV0aGluZyBvZiBhbiBvZGQgbW9vZC4gSeKAmXZlIGRvbmUgbm90aGluZyBidXQgcHJvY2VzcyBtZW50YWxseSBmb3IgdGhlIGxhc3QgZmV3IGRheXMuIE9uZSBvZiB0aG9zZSBsaXR0bGUgbXlzdGVyaWVzIHRvIG5vYm9keSBidXQgbWUgdGhhdCB3aWxsIHBsYWd1ZSBtZSB1bnRpbCBJIGdpdmUgaXQgbW90aXZlLCBubyBtYXR0ZXIgaG93IHR3aXN0ZWQgaXQgYmVjb21lcyBpbiBvcmRlciB0byBiZSBwbGF1c2libGUuIA0KDQo8c3ViPi4ua25vd2luZyBoaXMgbW90aXZlcyBjb3VsZG7igJl0IGJlIHRoYXQgcHJvZml0YWJsZSwgY291bGQgaXQ/PC9zdWI+DQoNCkkgZGlzbGlrZSBzZWNyZXRzLCBzbyBJ4oCZdmUgYmVlbiBkb2luZyBhd2F5IHdpdGggdGhlbS4NCkkgZGlzbGlrZSBib3VuZGFyaWVzLCBzbyBJ4oCZdmUgYmVlbiByZWFkaWx5IGlnbm9yaW5nIHRoZW0uDQpJIGRpc2xpa2UgcGVyc29uYWxpdGllcywgc28gSeKAmXZlIGJlZW4gcXVpZXRseSB0d2lzdGluZyB0aGVtLg0KSSBkaXNsaWtlIGZlZWxpbmcgY29udGVudCwgc28gSSBzdGlsbCBjb25zaWRlciB5b3UgYW4gb3B0aW9uLg0KDQoNCjxoMz4NCkd5YWguLiB0aGlzIGlzIHBvaW50bGVzcy48L2gzPg=="
+"eventtime","2005-05-30 13:26:00"
+"url","http://dizzybordon.livejournal.com/46906.html"
+"userid","3981"
+"itemid","182"
+"event","<center><i><h4>
+You never say a damned thing I want to hear..
+
+..and yet I listen so intently.
+</center></i></h4>"
+"eventtime","2005-05-28 00:00:00"
+"url","http://dizzybordon.livejournal.com/46682.html"
+"userid","3981"
+"itemid","181"
+"event","VGhlIHRlYWNoZXIgYXNrZWQgd2h5IEkgd2FzIGhlcmUuIEkgd2FzIHBpc3NlZCB3aGVuIEkgY291bGRu4oCZdCBhbnN3ZXIuIE9mIGNvdXJzZSwgbXkgbW90aGVyIG1hZGUgbWUgY29tZSB0byBzY2hvb2wgYnkgZHJhZ2dpbmcgbWUgYWxvbmcgYnV0Li4gSGVsbC4uIEkgY291bGQgaGF2ZSBqdXN0IGxlZnQgYXMgcXVpY2tseSBhcyBJIGNhbWUuIElmIG15IGZhdGhlciB3YXMgdGhlIGlzc3VlLCBJIGNvdWxkIGhhdmUgZ29uZSBvdmVyIHRvIFdlc3RvbuKAmXMsIHRoZW4gcGFzcyBvdXQgZm9yIGEgZmV3IG1vcmUgaG91cnMsIHdha2UgdXAsIGFuZCBwcmV0ZW5kIHRvIGJlIHByb2R1Y3RpdmUuIEkgZG9u4oCZdCBrbm93IHdoeSB0aGUgZnVjayBJ4oCZbSBoZXJlLiBJIGRvbuKAmXQga25vdyBhIGxvdCBvZiB0aGUgcmVhc29ucyBiZWhpbmQgd2h5IEkgZ28gdGhlIHBsYWNlcyBJIGdvIGFuZCBwdXQgdXAgd2l0aCB0aGUgcGVvcGxlIEkgcHV0IHVwIHdpdGguDQoNCk1heWJlIGl04oCZcyBiZWNhdXNlIEnigJltIHN0dXBpZC4gDQoNCi4ueWVhaCwgSSB0aGluayBJIGxpa2UgdGhhdC4gSnVzdCBraWRkaW5nLiANCg0KU28sIG5vdGhpbmcgcmVhbGx5IGZhc2NpbmF0aW5nIGlzIGdvaW5nIG9uLiBJ4oCZbSBoYXZpbmcgd2VpcmQgZHJlYW1zIGJ1dCBJ4oCZbSB3cml0aW5nIHRoZW0gZG93biB0byBhbmFseXplIHRoZW0uIEkgdHJ1c3QgbXkgZHJlYW1zIG1vcmUgdGhhbiBJIHRydXN0IG1vc3QgcGVvcGxlLCBzYWQgYXMgdGhhdCBpcy4NCg0KSSBtaWdodCBoYXZlIHRvIGJlYXQgSXp6eSBvdmVyIHRoZSBoZWFkIHdpdGggaGlzIG93biBoZWFydGJyZWFrLiBJZiBoZSBjb250aW51b3VzbHkgZ29lcyBiYWNrIHRvIHRoZSBzb3VyY2VzIG9mIGhpcyBwYWluLCBoZeKAmXMgZ29pbmcgdG8gd2luZCB1cCBkZWFkIGZyb20gdGhlIG5lY2sgZG93biBhbmQgYXMgYXBwZWFzaW5nIGFzIHRoYXQgbWF5IHNvdW5kIHRvIHNvbWUgb2YgbXkgZnJpZW5kcywgSSBwcm9taXNlZCBteXNlbGYgSSB3b3VsZCB0cnkgdG8gcHJldmVudCB0aGF0LiBJIGp1c3QgaGF0ZSBoYXZpbmcgdG8gYmUgdmljaW91cy4gSXTigJlzIG5vdCA8aT5yZWFsbHk8L2k+IG15IHN0eWxlLg0KDQpJ4oCZbSBhYm91dCB0byBnbyBjbGVhbiB1cCB0aGlzIGNvbXB1dGVyLi4gU28gSSBndWVzcyBJ4oCZbSBvdXQuDQoNCjxtYXJxdWVlPuKAnC4udG9vIG9sZCBmb3IgdGhpcywgSSBhbS4u4oCdPC9tYXJxdWVlPg=="
+"eventtime","2005-05-24 08:31:00"
+"url","http://dizzybordon.livejournal.com/46469.html"
+"userid","3981"
+"itemid","180"
+"event","SSBuZWVkIGluIGEgbW9vZCB0byBiZSBpbiwgYnV0IEknbSBjb25mdXNlZCBhcyB0byB3aGljaCBvbmUuIE1heWJlIGlmIEkgZ2l2ZSB3aGF0J3MgYmVlbiBnb2luZyBvbiBpbiBteSBwc3ljaGUsIHNvbWVib2R5IHJlYWRpbmcgY291bGQgZ2l2ZSBtZSBhIGNsdWUsIG9yIHJlbWFpbiBzaWxlbnQuLiBJIGRvbid0IGdpdmUgYSBkYW1uIHdoaWNoLCByZWFsbHkuIEFueXdheS4NCg0KU2Nob29sJ3Mgc3RyZXNzaW5nIG1lIG91dC4uIGV2ZW4gdGhvdWdoIGl0J3MgYWxtb3N0IG92ZXIuIERyLiBXYXRraW5zIHdlbnQgYmFjayBvbiBzb21ldGhpbmcgc2hlIHNhaWQgc28gSSBkaWRuJ3QgZ2V0IGV4ZW1wdCBmcm9tIGhlciBmaW5hbCBkZXNwaXRlIHRoZSBmYWN0IHRoYXQgSSBkaWQgdGhlIGZ1Y2tpbmcgQVAgdGVzdC4gSSBkb24ndCBrbm93LiBJIHdvcmtlZCByZWFsbHkgaGFyZCB0aGUgbGFzdCBzaXggd2Vla3MuIEkgZGlkIHRoZSBjaGFwdGVyIHRoaW5ncywgSSBkaWQgcmVhbGx5IHdlbGwgb24gYSBwcm9qZWN0LCBhbmQgSSB0YWxrZWQgdG8gaGVyLiBUaGUgbGFzdCB0ZXN0IEkgZ290IGhhZCBhbiAnQScgdXAgdG9wLCBhbmQgc2hlIHNjcmV3ZWQgbWUgb3Zlci4gV2VzIGNvbnZpbmNlZCBtZSB0bzogQSkuLmp1c3QgZ28gYW5kIHRha2UgdGhlIHRlc3QsIEknbGwgcGFzcyBpdCBhbnl3YXksIEIpLi53cml0ZSBhbiBlbWFpbCB0byBEci4gV2F0a2lucyBiZWluZyB0aGUgZ29vZCBvbCcgbWUgdGhhdCBJIHBsYW4gdG8gdXNlIGxhdGVyIGluIGxpZmUsIGFuZCBDKS4udGFsayB0byBNcnMuIEFuZGVyc29uIGFuZCBtYWtlIERyLiA8Yj5Ud2F0PC9iPmtpbnMnIGxpZmUgaGVsbC4gSSBsb3ZlIFdlcy4gRXZlcnkgcGxhbiBoZSBjb21lcyB1cCB3aXRoIHN1aXRzIG15IHNhZGlzbSBhbmQgYSBnb29kIGxpZmVzdHlsZS4gSSdsbCBiZSBzZWxsaW5nIG5ld3NwYXBlcnMgaW4gdGhlIG1vcm5pbmdzLCBidXQgSSBkb24ndCBrbm93IGhvdyB3ZWxsIHRoYXQnbGwgZ28gb2ZmLiBBbGwgSSBjYW4gZG8gaXMgdHJ5LCBhdCBsZWFzdCBJJ20gZG9pbmcgdGhhdC4NCg0KU29jaWFsbHksIEknbSBhbGwgb3ZlciB0aGUgc3BlY3RydW0uIFRoaXMgd2Vla2VuZCB3YXMgZnVuLCBhIGhlbGwgb2YgYSBsb3Qgb2YgZnVuLiBXZXMgaW52aXRlZCBtZSB0byBvbmUgb2YgdGhlIFJpdmVyIFRyaXBzIHRvIHRoZSBHdWFkYWx1cGUuIFNvLCBGcmlkYXkgYWZ0ZXJub29uIGF0IDEyOjAwLCBXZXMgcGlja2VkIG1lIHVwIGZyb20gc2Nob29sIGFuZCB0b29rIG1lIHRvIG15IGhvdXNlIHRvIGdldCBhbGwgdGhlIGp1bmsgZm9yIHRoZSB0cmlwIGJlZm9yZSB3ZSBwYWNrZWQgaXQgaW50byB0aGUgU3VidXJiYW4sIHdlbnQgdG8gaGlzIGhvdXNlLCBnb3QgaGlzIGRhZCAoTWlrZSksIGFuZCBsZWZ0LiBXZSB3ZW50IHRvIFdlcycgZ3JhbmRmYXRoZXIncyBob3VzZSB0byBwaWNrIHVwIHRoaXMgbGl0dGxlIHRyYWlsZXIgZm9yIE1pa2UgdG8gc2xlZXAgaW4sIGJlZm9yZSBmaW5hbGx5IGRyaXZpbmcgdG8gdGhlIGNhbXBzaXRlLiBBcyBpdCB0dXJuZWQgb3V0LCBldmVyeW9uZSBlbHNlIHdvdWxkIGJlIGF0IGEgbmVhcmJ5IGNhbXBzaXRlIGJ1dCBpdCB3YXMgY29vbC4gQnkgc3VuZG93biwgZXZlcnlvbmUgd2FzIHRoZXJlIGFuZCBwYXJ0eWluZy4gQnkgZXZlcnlvbmUsIEkgbWVhbiBXYXluZSwgQW5naWUsIEFsbHksIFJvYiwgSmFzb24sIGFuZCBvZiBjb3Vyc2UgV2VzLCBNaWtlLCBhbmQgSS4gSSBzaG91bGQgcHJvYmFibHkgbWVudGlvbiB0aGF0IEkgd2FzIHRoZSB5b3VuZ2VzdCBvbmUgdGhlcmUuIFRoZSBuZXh0IG9uZSB0byBXZXMgYW5kIEkgaW4gYWdlIHdhcyBoaXMgaGFsZi1zaXN0ZXIsIEFsbHkgd2hvIHdhcyBpbiBoZXIgbGF0ZSB0aGlydGllcy4gSXQgZGlkbid0IG1hdHRlciwgdGhleSB3ZXJlIGFsbCBmdWNraW5nIGF3ZXNvbWUuIEkgaGFkIHNvIG11Y2ggZnVuLg0KDQpGcmlkYXkgbmlnaHQgd2FzIGEgZnVja2luZyB0cmlwLiBJIGhhZCBuZXZlciByZWFsbHkgbWV0IGFueSBvZiB0aGVzZSBwZW9wbGUgYmVzaWRlcyBXZXMgYW5kIGhpcyBkYWQgc28gSSBkaWRuJ3QgcmVhbGx5IGtub3cgd2hhdCB0byBleHBlY3QgdGhvdWdoIEkgd2FzIHdhcm5lZC4gRXZlcnlvbmUgd2FzIGRyaW5raW5nIGFuZCB3aGlsZSBJJ20gbm90IG11Y2ggb2YgYSBkcmlua2VyLCBJIGxvdmUgYmVpbmcgYXJvdW5kIGRydW5rcy4gVGhleSBhbXVzZSBtZSwgZXNwZWNpYWxseSB0aGVzZSBndXlzLiBXYXluZSB3YXMgYSB0aGlydHktc29tZXRoaW5nIHBlcnZlcnQgd2hvIHdhcyBmdW5ueSBhcyBhbGwgaGVsbC4gSGUgZHJhbmsgYSBsb3QgYnV0IG5vdCBhcyBtdWNoIGFzIGhlIHNtb2tlZC4gQWxseSB3YXMgYSB2ZWdhbi1yb2NrZXIgbWFycmllZCB0byBhbm90aGVyIHJvY2tlciBuYW1lZCBSb2IuIEFuZ2llLCBXYXluZSdzIHdpZmUsIHdhcyBxdWlldCBhbmQgc3ViZHVlZCB1bnRpbCBzaGUga25vY2tlZCBiYWNrIGEgZmV3IGFuZCBiZWNhbWUgYSBmdWNraW5nIHRyaXAuIEphc29uLCBXZXMnIGJvc3MgYW5kIFdheW5lJ3MgY2xvc2UgZnJpZW5kLCB3YXMgcXVpZXQgYW5kIGdlZWt5IGJ1dCB0aGVuIGZ1bm55IGFzIGFsbCBoZWxsIHdoZW4gaGUgZ290IGRydW5rLiANCg0KU28sIEZyaWRheSwgZXZlcnlvbmUgd2FzIGdldHRpbmcgcGxhc3RlcmVkIGFuZCBXZXMgYW5kIEkgd2VudCB0byB0aGUgbmVhcmJ5IFN1YnVyYmFuIHRvIGxvYWQgYSBib3dsIGFuZCBzdHVmZi4gSnVzdCBjaGlsbCBvdXQgYmVmb3JlIHdlIHdlbnQgdG8gZGVhbCB3aXRoIGFsbCB0aGUgZHJ1bmtzLiBUaGVzZSBndXlzIHdobyB3ZXJlIGNhbXBpbmcgbmV4dCB0byB1cyBzdGFydGVkIHRhbGtpbmcgdG8gV2Vz4oCZIGRhZCB3aG8sIGZvciBzb21lIHJlYXNvbiwgc2FpZCBXZXMgYW5kIEkgd2VyZSBzbW9raW5nIGluIHRoZSBTdWJ1cmJhbi4gVGhlIGd1eXMgYXNrZWQgaWYgV2Vz4oCZIGRhZCBoYWQgYW55IHdlZWQgdGhleSBjb3VsZCBidXkgYnV0IFdheW5lIHNhaWQsIOKAnFByb2JhYmx5IG5vdCwgYnV0IEkga25vdyB3aG8gbWF5IeKAnSBiZWZvcmUgaGUgZHJ1bmtlbmx5IHN0dW1ibGVkIG92ZXIgdG8gdGhlIHN1YnVyYmFuLCBiYW5nZWQgb24gdGhlIHdpbmRvdywgYW5kIHNjcmVhbWVkLCDigJxTSE9XIE1FIFNPTUUgVElUVElFUyHigJ0gSGUgdGhlbiBvcGVuZWQgdGhlIGRvb3IgYW5kIHN0YXJ0ZWQgdGFsa2luZyBmb3IgdGhlIHdvdWxkLWJlIHN0b25lcnMuIFdlcyBhZ3JlZWQgdG8gc2hhcmUgc28gdGhlIGd1eXMgZ290IGluIHRoZSBzdWJ1cmJhbi4gVGhleSB3ZXJlIGJvdGggcHJlcHBpZSBoaWNrcyBidXQgSSBkaWRu4oCZdCBtaW5kIGFuZCBuZWl0aGVyIGRpZCBXZXMuIE9uZSBvZiB0aGVtIHdhcyBuYW1lZCBaYWluLCBoZSB3YXMgY3V0ZSwgc2l4dGVlbiwgYSBsaXR0bGUgdGFsbGVyIHRoYW4gbWUsIGFuZCBoaWNraXNoIGFzIGhlbGwuIFRoZSBvdGhlciBvbmXigJlzIG5hbWUgSSBmb3Jnb3QsIGJ1dCBoZSBjb3VsZG7igJl0IGhhbmRsZSBoaXMgd2VlZCB3b3J0aCBzaGl0LiBUaGV5IGZyZWFrZWQgb3V0IHdoZW4gdGhleSBoZWFyZCBXZXMgd2FzIHB1bXBpbmcgdGhlbSBzb21lIEh5ZHJvLiBGdWNraW7igJkgcG9zZXJzLi4gdGhleSBhc2tlZCB3aGF0IGl0IHdhcyBsYWNlZCB3aXRoLi4gYW5kIGlmIGl0IGhhZCBzZWVkcy4gSGFoYS4gWmFpbiBrZXB0IHRhbGtpbmcgYWJvdXQgaG93IGl0IHdhcyBzbyBjb29sIHRoYXQgaGUgd2FzIGluIGEgaGlwcHktd2Fnb24gd2l0aCBhIGZ1Y2tpbmcgdHJpcHBlZC1vdXQgaGlwcHkgKFdlcykgYW5kIGEgaG90IGhpcHB5IChNZSkuIFNvIHllYWgsIFphaW4gd2FzIHZlcnkgb2J2aW91c2x5IGRydW5rIGFuZCBoaXR0aW5nIG9uIG1lIEhBUkQuIEkgZGlkbuKAmXQgbWluZCwgdGhvdWdoLCBJIDxJPm5lZWRlZDwvaT4gdGhlIGF0dGVudGlvbi4gV2UgbWVzc2VkIGFyb3VuZCBhIGJpdCBidXQgaGlzIGhpY2sgdGVuZGVuY2llcyBnb3QgdG8gbWUuIEZvciBzb21lIHJlYXNvbiwgaGUgYXNrZWQgaWYgSSB3YXMgYSB2aXJnaW4uIEkgdG9sZCBoaW0gSSB3YXMsIGhlIGFyZ3VlZCB3aXRoIG1lIHNheWluZyB0aGF0IG15IGJlbGx5IGJ1dHRvbiByaW5nIHByb3ZlZCBJIGNvdWxkbuKAmXQgYmUgYSB2aXJnaW4uIDxpPi4ud2hhdGV2ZXIuPC9pPiBUaGUgb3RoZXIgZ3V5IHB1a2VkIGFmdGVyIG9uZSBoaXQgYnV0IFphaW4ga2VwdCBzbW9raW5nIGJlY2F1c2UgaGUgbGVhcm5lZCB3aGF0IGEgY2hhcmdlIHdhcyBhbmQga2VwdCB3YW50aW5nIHRvIGNoYXJnZSBtZS4gSSBjb3VsZCBnbyBvbiBhYm91dCB0aGUgc3R1cGlkaXR5IG9mIHRoZXNlIGd1eXMsIGJ1dCBJ4oCZbGwgcmVmcmFpbi4gVGhleSBzcGVudCBtb3N0IG9mIFNhdHVyZGF5IG1vYW5pbmcgYW5kIGdyb2FuaW5nIGluIHRoZWlyIHRlbnQgYW5kIFdlcyBsZXQgbWUga25vdyBJIGhhZCBncmFkdWF0ZWQgdG8gYWR2YW5jZWQgc21va2VyLiBIYWhhLCB3aGF0IGFuIGFjY29tcGxpc2htZW50Lg0KDQpTYXR1cmRheSB3YXMgUml2ZXIgRGF5LiBXZSB3ZW50IG9uIGEgZm91ci1ob3VyIHRyaXAgb24gdHViZXMgZG93biB0aGUgcml2ZXIgd2hpY2ggd2FzIGEgbG90IG9mIGZ1biBkZXNwaXRlIHRoZSBmYWN0IHRoYXQgdGhlIHN1biBhbmQgYmxhY2sgcnViYmVyIHR1YmVzIHdlcmUgdG9vIGhvdCBhbmQgdGhlIHdhdGVyIHdhcyB3YXkgdG9vIGZ1Y2tpbmcgY29sZC4gSSBoYWQgb25lIGJlZXIgd2hpbGUgZXZlcnlvbmUgZWxzZSBoYWQgZml2ZSBvciBzaXguIEnigJltIG5vdCBtdWNoIG9mIGEgZHJpbmtlciwgYXMgaXQgdHVybnMgb3V0LiBNb3N0IG9mIHVzIGdvdCBzdW4tYnVybmVkIGRlc3BpdGUgdGhlIHN1bmJsb2NrIHdlIGFwcGxpZWQgYW5kIGRyYWdnZWQgYWxvbmcuLiBpdCBzdWNrcyBiZWNhdXNlIHdlIGFsbCBnb3QgYnVybmVkIG9uIG9uZSBzaWRlLiBUaG9zZSB0dWJlcyB3ZXJlbuKAmXQgcmVhbGx5IGRlc2lnbmVkIHRvIGZsaXAgb250byB5b3VyIHN0b21hY2guLiBPaCB3ZWxsLiBJ4oCZbGwganVzdCB3ZWFyIHBhbnRzIGFuZCBub3JtYWwgc2hpcnRzIHVudGlsIGl0IGdvZXMgYXdheS4gVGhlIHBhaW4sIG9oLCB0aGUgcGFpbiBvZiBpdCBhbGwuDQoNCkFmdGVyIHRoZSByaXZlciwgd2UgY2xlYW5lZCB1cCBhdCB0aGUgY2FtcHNpdGUsIHRoZW4gd2VudCBvdXQgdG8gZGlubmVyLiBBdCBkaW5uZXIsIEkgd2FzIGdpdmVuIGEgbWFyZ2FyaXRhIHRoYXQgSSBkcmFuay4uIGl0IHdhcyBhIGdvb2QgbWFyZ2FyaXRhLiBXZSBhbGwgdG9hc3RlZCBhbmQgbGF1Z2hlZCBhbmQgam9rZWQgYXJvdW5kLiBJIHJlYWxseSBnb3QgYWxvbmcgd2l0aCB0aGUgZ3JvdXAsIHRoZXkgYXNrZWQgbWUgdG8gY29tZSBvbiBvdGhlciByaXZlciB0cmlwcyB3aGljaCBJIHRoaW5rIEnigJlsbCBkby4gDQoNCk1tbS4gRXZlcmNsZWFyIFdhdGVybWVsb24uLiAtZHJvb2wtLg0KDQpIYWhhLg0KDQpaYWluLCB0aGUgcHJlcHBpZSBoaWNrLCB3YXMgY3V0ZSBhbmQgd2FzIG9mZmVyaW5nIHdoYXQgSSB0aG91Z2h0IEkgd2FudGVkLi4gYnV0IEkgcmVqZWN0ZWQgaXQgd2l0aCBhIGNvbXBsZXRlbHkgc29iZXIgdGhvdWdodCBwcm9jZXNzLiBJIGRvbuKAmXQga25vdy4gSSBtaXNzIHN1Y2ggdGhpbmdzIGJ1dCBJIGRvbuKAmXQgd2FudCB0aGVtIGVpdGhlci4gV2hhdCB0aGUgaGVsbOKAmXMgbXkgcHJvYmxlbT8gSWYgSSB3YW50IGFmZmVjdGlvbiwgd2h5IGRvIEkgZGVueSBpdD8gSWYgSSB3YW50IGZyZWVkb20sIHdoeSBkb27igJl0IEkgZW1icmFjZSBpdC4gV2hlbiBaYWluIGtpc3NlZCBtZSwgaXQgZmVsdCBsaWtlIEkgd2FzIGNoZWF0aW5nLi4gdGhvdWdoIEnigJltIG5vdCB3aXRoIGFueWJvZHkuLiBub3IgaGF2ZSBJIGFueSBwbGFucyB0byBiZS4NCg0KSSBzdGlsbCB3YW50IHRvIGNyeS4NCg0KDQouLmJ1dCBJ4oCZbSBub3QgZ29pbmcgdG8u"
+"eventtime","2005-05-22 17:48:00"
+"url","http://dizzybordon.livejournal.com/46330.html"
+"userid","3981"
+"itemid","179"
+"event","Everything feels so oddly twisted and tossed about, like someone tossed some two's and three's in my binary code. Poetry? Feels pointless. My stories go to odd places which is good for it's creativity, bad because every week, I want to go to a new place. I don't get anything done. 
+
+Often, when faced with futility, I find myself walking in a different direction. If something is futile, why should I pester it? Instead, I find myself poking at the corpse of my self-confidence with a stick and learning that the cause of death was the opposite of what I thought it was without the events changing. It's like when they tell you your grandfather died from a fall down the stairs.. but they didn't say he was drunk at the time. Or when they tell you his wife was just old, but you find out she had a broken arm, stomach cancer, and her personal doctor had forgotten her name, but she was old when she died and alive when she was young, so no one ever actually lied to you. You wander around helplessly looking for someone to blame but God, as usual, isn't at his desk so you gripe some more, go home, and drown your unhappiness in your personal poison.
+
+Slipping down the side of a tunnel whose destination rests at the core of a friendship more poignant than I'd ever imagined, I find that I'm eager at the enigma. I whine at it, fearful for what it means and the exercise in futility that it tends to be at times, but that gives me no reason to quit or find solace in lack of progress. I'm looking for light so I flip on open light switches with soaking wet fingers. I'm looking for a disease, so I keep all of my wounds open... it's dangerous, it's stupid, but it's progress in one way or another. The light finally shines down at the path, I see my dazed reflection at the other end of the hall, and everything shines like new though I've seen it all before. The newest enigma, the newest trial, all frighteningly analogous to what I just washed my hands of.  This time the topic is exploitation and expenditure within the human equation, kids, so prepare to take some notes. No matter how bad you feel, someone feels worse and more often than not, it's over the same thing. Only humans can take a solitary thing and branch it out, stretch it, mutilate it, and manipulate it until it suits their cause for pity. <i><b>Girl</b>  feels used, says nothing. <b>Boy</b>  isn't supposed to know. <b>Girl</b>  is <b>Girl</b> , nothing special. <b>Boy</b>  is internal, more so than <b>Girl</b> . <b>Boy</b>  feels used, <b>Girl</b>  doesn't know. <b>Boy</b>  and <b>Girl</b>  don't talk. <b>Girl</b>  remains curious, writes letters, throws them away. <b>Boy</b>  gets yelled at by <b>Girl</b> 's best friend. Nobody's happy, least of all <b>Boy</b>  or <b>Girl</b> .</i> ..and the entire thing could've been averted had <b>Boy</b>  talked to <b>Girl</b> , or had <b>Girl</b>  bothered to ask. This trial was particularly painful, but that doesn't mean it won't happen again in the future."
+"eventtime","2005-05-18 06:16:00"
+"url","http://dizzybordon.livejournal.com/45867.html"
+"userid","3981"

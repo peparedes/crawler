@@ -1,0 +1,881 @@
+"names","values"
+"itemid","27"
+"event","V293LCBJIGFtIHN0aWxsIHNvIGFtYXplZCBhdCB0b2RheSwgbG9sLiA6fCBJdCdzIHNvIG1hZC4uLmFuZCB5ZXQgbm90LCBpbiBhIHdheS4NCldoYXQgYW0gSSB0YWxraW5nIGFib3V0PyAoSSBhY3R1YWxseSB0eXBlZCBhYm91dG9tZSB0aGVyZS4gOnwgV2hhdCB3YXMgdGhhdCBzdXBwb3NlZCB0byBtZWFuPykNCg0KV2VsbCwgSSBlbnRlcmVkIGEgUGhvdG9ncmFwaHkgY29tcGV0aXRpb24gYSBjb3VwbGUgb2Ygd2Vla3MgYWdvIChJJ3ZlIGVudGVyZWQgYSBmZXcsIGJ1dCB0aGlzIHdhcyB0aGUgdmlsbGFnZSBvbmUuKUFuZCB0aGV5IGdhdmUgb3V0IHRoZSBwcml6ZXMgdG9kYXlsLi4ud2hpY2ggSSBtaXNzZWQgYXMgSSB3YXMgYXQgd29yayBhbGwgbW9ybmluZywgc28gSSBkaWRuJ3QgZ2V0IHRvIHRoZSBkaXNwbGF5IHVudGlsIHRoZSBhZnRlcm5vb24uLi5hbmQgdGhleSBoYWQgdGhlbSBhbGwgdXAgd2l0aCB0aGUgcmF0aW5ncyBvbiBhbmQgZXZlcnl0aGluZy4gVGhlIGZpcnN0IG9uZSBvZiBtaW5lIEkgc2F3IChJIGVudGVyZWQgNCBwaWNzIGludG8gdGhyZWUgY2F0ZWdvcmllcy4uLnRoZXJlIHdlcmUgZm91ciBjYXRlZ29yaWVzIGFsdG9nZXRoZXIsKSB3YXMgb25lIEkgdG9vayBvZiBTa2lwdG9uIENhbmFsIHdpdGggbGlrZSBhIHJlZmxlY3Rpb24uLndoaWNoIEkgZGlkbid0IG9yaWdpbmFsbHkgPGk+bGlrZTwvaT4gYnV0IGRlY2lkZWQgdG8gcHV0IGluLiBJIHNhdyB0aGVyZSB3YXMgYSBsaXR0bGUgJzNyZCcgc3RpY2tlciBvbiBpdCEgDQoNClNvIEkgdGhvdWdodCwgd293IHRoYXQncyBncmVhdC4uLm5ldmVyIG1pbmQgYWJvdXQgdGhlIHJlc3QuLi50aGVuIEkgc3BvdHRlZCBteSBQb3J0cmFpdCBvZiBMaXogZG93biBhdCB0aGUgYm90dG9tLCB3aXRoIGEgYmlnICcxc3QnIG9uIGl0LCBsb2wgOnwgSSB3YXMgc29vbyBzaG9ja2VkLi4uanVzdCB0b3RhbGx5Li4uDQoNClRoZW4gdGhlIGd1eSBjYW1lIHVwLCBnYXZlIG1lIHRoZSBwcml6ZSAowqMyMCEpIGFuZCBub3QgdHdvIGJ1dCA8aT50aHJlZTwvaT4gY2VydGlmaWNhdGVzLi4udGhlbiB0b2xkIG1lIEknZCB3b24gQU5PVEhFUiBmaXJzdCBvbiBteSBkcmFnb25mbHkgcGljdHVyZS4gOnwgaSdtIGp1c3QsIEFSR0ggaXQncyBzbyBhbWF6aW5nLi4uZXNwZWNpYWxseSBzZWVpbmcgYXMgSSB3ZW50IHRocm91Z2ggdGhlIHN1bW1lciB3aXRoIHRoaXMgJ0ktY2FuJ3QtdGFrZS1waG90b3MnIHRoaW5nLg0KDQpJJ20gZ29pbmcgdG8gcHV0IHRoZSBjZXJ0aWZpY2F0ZXMgb24gdGhlIHdhbGwuLi5JJ20gc28gcGxlYXNlZC4gOkQgSSBoYXJkbHkgZXZlciB3aW4gYW55dGhpbmcgcmVhbGx5LCBsb2wgc28gSSdtIGNodWZmZWQuDQoNCkFzaWRlIGZyb20gdGhhdCwgdGhlIHN0b3J5J3MgZ29pbmcgd2VsbC4gSSdtIG5vdCBnb2luZyB0byBzYXkgYW55IG1vcmUgdGhhbiB0aGF0IGF0IHRoZSBtb21lbnQgLSBJdCdzIHRvcCBzZWNyZXQuIEJ1dCBJIHJlYWQgYW4gaW50ZXJlc3RpbmcgYm9vayB5ZXN0ZXJkYXkgY2FsbGVkIEZpcmUgUG9ueSwgd2hpY2ggd2FzIGdvb2QuIFlheSBmb3IgcmVhZGluZyEgSSdtIGxvb2tpbmcgYXQgdGVlbmJvb2tzIGFnYWluLCBJIGNhbid0IHNlZW0gdG8gZmluZCBtYW55IGFkdWx0IHNvcnQgb2Ygbm92ZWxzIHdoaWNoIGdyaXAgbWUgYW55bW9yZS4uLm5vIGhhcm0gaW4gYmVpbmcgYSBiaWcga2lkIGFueXdheS4uLmFuZCB0aGVyZSdzIHNvbWV0aGluZyBhYm91dCBDaGlsZHJlbiB3cml0ZXJzLi4uKGUuZyBQdWxsbWFuLCBSb3dsaW5nIDpEKQ0KDQpGaWlpaW5hbGx5IGdsYWQgdGhhdCBJIGhhdmUgbm8gd29yayB1bnRpbCBGcmlkYXkuIFdlZWVoISBJJ3ZlIGJlZW4gZ2V0dGluZyB1cCBhdCBpbnNhbmUgdGltZXMgb2YgdGhlIGRheSB0byBnZXQgdG8gdGhlIGNsaW5pYywgd2hpY2ggSSBsb3ZlLiBCdXQgSSBhbHNvIGxvdmUgYmVpbmcgaW4gYmVkIHdoZW4gaXQncyBjb2xkIGFuZCBlYXJseSBvdXRzaWRlLCBsb2wuIChPciB3b3VsZCB0aGF0IGJlIGVhcmx5LCBhbmQgY29sZCBvdXRzaWRlPykNCg0KQWFhbmQsIGl0J3MgZ2V0dGluZyB3aW50ZXJ5Li4ud2hpY2ggbWVhbnMgY29sZCwgYW5kIHdldCwgYW5kIG5vIG1vcmUgbG9uZyBkYXlzLCBhbmQgbW9yZSBtb25leSBzcGVuZGluZyBCVVQNCg0KSXQgYWxzbyBtZWFucyBDaHJpc3RtYXMgYW5kIChob3BlZnVsbHkpIHNub3csIGFuZCBmcm9zdCBhbmQgbGl0dGxlIGljaWNsZXMgYW5kIEJydW1iaWVzIGluIHRoZSB3aW5kIEFORCBhbWF6aW5nIHRoaW5ncyBsaWtlIHRoaXMuLi4NCg0KPGN1dD5odHRwOi8vaW1nLnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvdjQ2OS9CYWRnZXJpbmJvb3RzL1JhaW5ib3dfZ2F0ZTMuanBnPC9jdXQ+DQoNCllvdSBjb3VsZCBzZWUgdGhlIDxpPndob2xlPC9pPiByYWluYm93IGhlcmUgYnV0IG9idmlvdXNseSBJIGNvdWxkbid0IGZpdCBpdCBpbiBteSBsZW5zZSwgbG9sIQ0KDQo8Y3V0Pmh0dHA6Ly9pbWcucGhvdG9idWNrZXQuY29tL2FsYnVtcy92NDY5L0JhZGdlcmluYm9vdHMvUmFpbmJvdzEuanBnPC9jdXQ+DQoNClRoZSB0b3dlciBuZWFyIG15IHN0YWJsZXMuLi4gKEkgYWx3YXlzIHRoaW5rIG9mIFRoZSBUd28gVG93ZXJzIGJlY2F1c2UgcmVhbGx5LCB3ZSdyZSByaWdodCBiZXR3ZWVuIHRoZW0uKQ0KDQo8Y3V0Pmh0dHA6Ly9pbWcucGhvdG9idWNrZXQuY29tL2FsYnVtcy92NDY5L0JhZGdlcmluYm9vdHMvU3Vuc2V0X3Rvd2VyNC5qcGc8L2N1dD4NCg0KPGN1dD5odHRwOi8vaW1nLnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvdjQ2OS9CYWRnZXJpbmJvb3RzL1N1bnNldF8zLmpwZzwvY3V0Pg0KDQpBbmQgSSBoYXZlIGhlYXRlciBpbiBteSByb29tIHNvIEkgbmV2ZXIgaGF2ZSB0byBiZSBjb2xkIGFnYWluIGFuZCBJIGhhdmUgQUxMIG15IG11c2ljIG9uIG15IGNvbXB1dGVyIGFuZCBJIHN0aWxsIGhhdmVuJ3QgcGFpbnRlZCB0aGUgd2FsbHMgeWV0IGJ1dCB0aGF0IGRvZXNuJ3QgbWF0dGVyIGJlY2F1c2UgSSBsaWtlIGRvaW5nIGl0IGFuZCBJJ20gbm90IHVzaW5nIGNvbW1hcyBqdXN0IGJlY2F1c2UgYW5kIHlheSBJIGhhdmUgY2VydGlmaWNhdGVzIGFuZCBJIFdJTEwgYmUgZHJpdmluZyBzb29uLiBJIENhbiBhbmQgSSBXaWxsLiBBbmQgSSBtdXN0IHN0b3Agc2F5aW5nIFdlZWguDQoNCldlZWVlZWgiIQ0KDQpMb3ZlcyANClNhYmRnZXJ5YWggWHh4eHh4"
+"eventtime","2007-09-29 21:18:00"
+"current_moodid","41"
+"url","http://badgerinboots.livejournal.com/6953.html"
+"userid","1319"
+"itemid","26"
+"event","Photoooses!
+
+Danny, blesss him!
+
+<cut>http://img.photobucket.com/albums/v469/Badgerinboots/Danny_lay4.jpglj.jpg</cut>
+
+This loverly creature is Cleo...now left :(
+
+<cut>http://img.photobucket.com/albums/v469/Badgerinboots/Cleo1.jpglj.jpg</cut>
+
+Annnd some pics of Utopia being lunged...much as I dislike lunging, Jo does it very nicely :)
+
+<cut>http://img.photobucket.com/albums/v469/Badgerinboots/Jo_topsie2.jpglj.jpg</cut>
+
+<cut>http://img.photobucket.com/albums/v469/Badgerinboots/Jo_topsie3.jpgklj.jpg</cut>
+
+And Jo riding...
+
+<cut>http://img.photobucket.com/albums/v469/Badgerinboots/Jo_topsie4.jpglj.jpg</cut>
+
+Will post a proper journal at some point soon but I'm hungry...LOL
+
+Love xxxx"
+"eventtime","2007-09-18 22:01:00"
+"current_moodid","87"
+"url","http://badgerinboots.livejournal.com/6841.html"
+"userid","1319"
+"itemid","25"
+"event","Much photo posting soon I'm afraid...:P Been taking more calendar pics.
+
+Quite a nice satisfying activity amidst the general sucky-ness. Not that things are <i>really</i> sucky...just kind of, a bit sucky. Lol! I've actually entered some photos into a competition thing which doesn't close until February or something so I'll probably forget all about it...
+
+*Suddenly realises is starving* I must stop doing that. I get so involved in everything and then my stomach yells ""I'm HUNGRY!""
+
+I've felt really weird lately...just, strangely tired when I get up :| I thought it was something to do with staying up until 1am (LOL) so I had an earlyish night but I still just can't seem to get up...and when I do I still feel knackered. :S Maybe it's stress, LOL. 
+
+Picwaaaahs..
+
+
+This chap is scooby, I worked on him the other day because no-one could catch him (hence the headcollar) He's very sweet but a handful. His owner says he's been abused but, hm...he's not afraid in my opinion.
+<lj-cut> 
+
+http://img.photobucket.com/albums/v469/Badgerinboots/Photography07/Scooby2-1.jpg
+</lj-cut>
+
+Lovely Bird :) ex-racehorse
+
+<lj-cut> 
+http://img.photobucket.com/albums/v469/Badgerinboots/Photography07/Bird2-1.jpg
+</lj-cut>
+
+Shaun's horses, Star, Bertie, Roxy
+
+<lj-cut> 
+http://img.photobucket.com/albums/v469/Badgerinboots/Photography07/StarBertieRoxy.jpg
+</lj-cut>
+
+Russsstyyyy, love him. Can you see the horse silhouette in his eye? That was purely accidental, lol :|
+
+<lj-cut> 
+http://img.photobucket.com/albums/v469/Badgerinboots/Photography07/Rustyhorseye-1.jpg
+</lj-cut>
+
+Me being experimental with the burn tool, lol. Rusty and baby B 
+
+<lj-cut> http://img.photobucket.com/albums/v469/Badgerinboots/Photography07/Rusty_B_heart-1.jpg
+</lj-cut>
+
+enjoy!
+
+Badgery x"
+"eventtime","2007-09-04 17:38:00"
+"current_moodid","108"
+"url","http://badgerinboots.livejournal.com/6500.html"
+"userid","1319"
+"itemid","24"
+"event","Weeeeeeeeeeeeeeeeeeh, super geek victory dance onslaught I'm afraid.
+
+I have my own computer for the first time..like, ever. Lol....not only that but it has something like 210 GB memory so I can put ALL my photos on it and it hardly blinks. :| And it's SUPERfast. I can draw without it freezing as big as I want and EVERYTHING and it's in my room so I don't hae to <i>go</i> anywhere. The moniter's something like 29482457357837565 years old but it's nice and big for drawing which is great. :D
+
+For some reason the silly computer building man has given me a set of 5 speakers (surround sound) and only three of them work but it has bass boost so I'm happy. :) << happy face.
+
+It does mean no-one's going to see me for yonks, esp. when my sister's boyfriend turns up for 4 days (lol) 
+
+We have a puppwah!! It's <i>very</i> cheeky but we've been watching 'dog whispering' this guy called Cesar Millan, who is greeeat. :D So it's all fun...and I've been taking him for walks. LOL. he is a Papillon, soo I will admit I am very tempted to steal him, don some sunglasses and pretend to be Paris Hilton for a day...of course she has chihuahas but youknowwhatImean.
+
+He is called Coco! Erm, will enclose photo when I remember how to cut..
+
+<lj-cut text=""Ah there we go"">http://img.photobucket.com/albums/v469/Badgerinboots/cocadee.jpg</lj-cut>
+
+Omgg photoshop opens sooo fast...
+
+Ahem, yeah.
+
+I went to the library and pulled out lots of Photography books and one on writing (I have decided I AM going to write a book. :D) And possibly publish another thing I have but more on that later.
+
+Not reeally taken any more calendar photos yet but I WILL...*posts a couple so far*
+
+I know they're not super fantastic but they're not too bad ...(I think)
+
+This is Baby B, one of the minis!! So baba...
+
+<lj-cut>http://img.photobucket.com/albums/v469/Badgerinboots/B.jpg</lj-cut>
+
+Suzie, one of the dogs...
+
+<lj-cut>http://img.photobucket.com/albums/v469/Badgerinboots/Sooozie.jpg</lj-cut>
+
+Beautfil Bertie, Shaun's horse :)
+
+<lj-cut>http://img.photobucket.com/albums/v469/Badgerinboots/beautifulbertie.jpg</lj-cut>
+
+And this fair gentleman is Chivy
+
+<lj-cut>http://img.photobucket.com/albums/v469/Badgerinboots/chivs.jpg</lj-cut>
+
+New PC also means I'm going to be drawing as much as I can to try and catch up on...well, to try and produce something that I don't think is crap basically, lol.
+
+I get far too excited about these things. :P 
+
+Besides that, bedroom is getting a serious re-vamp...I have a laarvely rainbow mirror and my walls are now creamy white and, just general spaciousness! Two walls left...more stuff to sort through, then I'll start sanding the windows...why I am telling you this I do not know...
+
+Aaaaand I've framed my signed drawing of Pat...probably the only drawing I can actually look at without wanting to tear it up :|
+
+Okay, going to cut waffle now. :D Oh but here's a pic of Pat from the event in Birmingham, and the Wally instructor in an insanely blurred photo just 'cause he rocks :D
+
+Pat and super-mare Magic
+
+<lj-cut>http://img.photobucket.com/albums/v469/Badgerinboots/pat.jpg</lj-cut>
+
+
+LOL, he is SUCH a noggin but he was one of the best on the savvy team
+
+<lj-cut>http://img.photobucket.com/albums/v469/Badgerinboots/wally.jpg</lj-cut>
+
+Okay, I'm going to drag myself away from this beeeaautiful new shiny...erm. This computer now.
+
+Lol.
+
+Badgery xx"
+"eventtime","2007-08-29 21:30:00"
+"url","http://badgerinboots.livejournal.com/6358.html"
+"userid","1319"
+"itemid","23"
+"event","I've been working on a new horse...Rusty. :D He's a really special little thing...only a miniature, not quite as small as his girlfriend: Baby B. But still tiny compared to Dillon.
+
+He had a real trust issue thing, esp. with anyone going on his right hand side...it took me the first day just to get him to accept my touch without running away or looking severely uncomfortable! The second day was a bit better, though he didn't really seem <i>that</i> different...but I thought he'd made some significant changes so I just hoped my guesses were right!!
+
+The third day was amazing...he'd built up confidence so I played some more games with him...did a circle at the walk either way, worked on him moving his nose over...which was a BIG thing for him. (""Oh no, my defence mechanism!"") By the end of the session he let his owner come right up to him...let me unlatch him in the arena (he usually can't be caught) and just stood quietly while I did my helicopter thing with the carrot stick over his head. I was quite pleased. :) 
+
+He's still got a way to go - uncertain about being caught in the field as so many people have 'grabbed' him in the past, and more work on picking his feet up...but I think he's done reeally well! It's such a strange feeling...knowing that the barriers that little horse put up are - he believes, what has kept him alive around humans for so long! And when they concentrate on you like that, and you can't see anything else...just them and the communication...it's like you could be anywhere in the world.
+
+I can't explain, there's nothing like it. :) I would post a photo here but Lj is being EVIL so I cannae >:|
+
+ He is so gorgeous...little fluffy mane!!
+
+We're going down to Birmingham tomorrow to spend 2 whole days at the Parelli International Conference!! :O omgggg....I can SO not wait. It's going to be absoloutely amazing I just know it is. 
+It's crazy what else goes on around you, I think this might just be the most important thing in the world right now. :| I mean PAT. Actualy PAT. :D :D :D And the things he's been doing with his horses lately...aaarghhhhhhhh! How can you not be amazed...
+
+Aside from that I'm having a mad bedroom makeover...my whiles...? WHILES? LOL!! *Walls are becoming magnolia (I think that's what it's called...creamy colour)instead of green. Not the mural though, of course. :D I've bought an uber cool little lamp thingy that's all materialy *isert lots of other -ly words.* And I'm chucking out loooads of stuff. It's quite theraputic really. :D
+
+Yard calendar coming along slowly! Well, photos for. I had a bit of a ""I-can't-take-photos"" complex the other day because the sun kept going in and then shining on the screen so I coudln't tell if what I'd taken was too bright or not and the horses were just being BORINGLY unphotogenic and I started panicking because I have like 30something to do and I only have like, 5 photos that I really like. :| But of course it'll be FINE. And they're not as bad as some of the photos I've seen people selling online. LOL. :D *Calms self*
+
+Anywhoo, going dooooon south-er tomorrow so will blog when I get back!! WEeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeh excitement.
+
+All the good things Xxx
+
+B x"
+"eventtime","2007-08-02 13:47:00"
+"current_moodid","41"
+"url","http://badgerinboots.livejournal.com/6067.html"
+"userid","1319"
+"itemid","22"
+"event","Aaargh okay here's going to follow a mega- offload moanage which I really must do because I need to TYPE. I just feel really strange at the moment...I don't know why, it's like things are kind of uspide down...lol :|
+
+I've probably said that before. Maybe that's why the world spins round...hah, you <i>can</i> tell when it's the wrong way up...
+
+Hm, stuff just seems to be going Ka-put all at once...I broke up with my boyfriend last week which was really hard...and failed my driving test two days after that...for the THIRD TIME godammnit!!!! 
+
+There's this stupid woman at our yard who's caused loads of upset and there's been arguing which is REALLY horrid as everyone at our yard is so lovely and it's just GAH. >:| And now we've been for a ride on Dillon which was TOO much really, it went fine until we turned back and decided to go the LAST part (only about 10  metres) over the moors and mum got on Dill instead of me. He'd been fine though still very unconfident. I got on this friends horse, mum sets off up the hill...next thing I know mum's on the floor, lol.
+
+I felt really bad, like I shouldn't have put her on him and thoughts of ""Oh my god he's just dangerous we should sell him"" and are we ever going to be able to ride him out at all?? it was just ..pffffffffffffffffff. And I was a bit dissappointed at him for bucking as well although we think he spooked...thankfully mum wasn't badly hurt but, it's just NOT the best time for it to happen...
+
+To top it all the stupid woman was there when we got back and woudn't accept an apology from mum or her friend for whatever happened...ARGH. I'm just keeping my head low and getting on with it, at least she's not working there which is...whew.
+
+SIGH. I haven't felt this uppety for a while, it's like being in a bloody washing machine! Is anything simple??! 
+
+Ah well, end rant. Moaning doesn't help I guess. :| I just feel like everything that is good is suddenly a complete pain in the backside...can't help thinking, what is the point??
+Maybe I'm crazy for wanting to go to America and teach when I can't even train my own horse...or be fully confident riding out...or <i>cantering</i>...I don't know. But what else have I got? Besides photography but that's not the same.
+
+Ho hum...see how we go. Hope the world will right itself again. Or do something on its side. You can never tell.
+
+Badge x"
+"eventtime","2007-07-19 22:24:00"
+"current_moodid","129"
+"url","http://badgerinboots.livejournal.com/5742.html"
+"userid","1319"
+"itemid","21"
+"event","Aaaaaaaargh, I'm so frustared. No, not quite but something similar. It's a <i>perfect</i> day, sunny and there are new horses at the yard and I have a BRAND new lense and I can't photograph <i>ANYthing</i> because all my CF cards are full and I have over 400 photos on one and the CD drive on this PC has been broken for AGES so I can't add anything to disc, or even on laptop as it is sooo slow and the discs are too small anyway and just BLAHhsidjijdaidai/;! Oh bob, if this computer crashes :|. I'll lose a LOT of photos. *Tries very hard not to panic*
+
+I've been on here all morning trying to fix it but to no avail. I suppose we'll just have to ring computer-man again even though he didn't turn UP last time...*fumes*.
+
+Aheh, yeah rant over. :D Horse rant to follow. 
+
+The new job, whew...you know when I started working with these other horses I thought, they're going to be easy compared to Dillon. I bet they're all well behaved and stuff...and yeah, for the first few times they were, pretty much!
+
+Of course that was before they got turned out into the big grass filled green paddocks. :|
+
+There was this one horse (they'd been a bit difficult to catch anyway) and I had his normal headcollar instead of my Parelli one...and he kept moving away from me but I thought, that's not a problem...I did a bit of catching and got to him and he stood very still to let me put it on. Soo, of course I went and thought ""Oh, that was easy!"" And got over-confident leading him down...lol...
+
+We got about 4 metres from the gate and he suddenly stopped and threw his head up, I just looked at him like...""Huh...uh oh..."" then he turns tail, braces his neck, pulls the lead rope clear out of my hands (few rope burns) and galloped off up the field again. :| Very strong horse, lol.
+
+So, I trolloped back up there again, thought ""I'll damn right hold on this time"" and there he is trotting around with this rope dangling around, lol. I caught him again and got back to the bottom of the field and he does EXACTLY the same again. (Very many rope burns. :|) So I thought, ""SOD this."" Went and got Parelli halter and some gloves and went back and got him a third time. 
+
+We got to exactly the same place and he stopped. I saw him thinking about it so I just braced myself. He took off like a shot, got to the end of the rope and there was no way he was pulling THAT out of my hands. He spun round like he'd been kicked in the bum and just looked at me. 
+
+""Oh...well, that didn't work.""
+He didn't do it again. :D He's the worst one though, when he's right brained he'll like, walk right next to you and OVER you, bumping your shoulder with his and you can't get him out of your space at all, but he runs over you. It's so very not-good, lol. I tried backing him up just to get myself some safety! I managed to get him to do it but I have to use steady pressure from the halter, I tried wriggling the rope but I thought he was going to rear and I didn't want him landing on me and didn't have time to work on it seeing as he's not my horse...
+
+At least he's in a small paddock now so he's fine to catch. It's so weird, I've never not been able to back a horse up before. :| I mean I know I can do it, there'd just be a few fireworks which I can't really afford, lol! There was another who wouldn't be caught, one who bolts out of the stable...one that whinnies in your ear and swishes all the time...one that kicks so you have to pop it in another stable just while you skip out, one that bites when you're not looking...and one who recently charged someone with its ears back. LOL!
+
+Well at least I'm using my halter on them all now. The hard thing is, I know I could get any one of them and sort them out within a month...but you just can't do anything if they're not yours. The plus side is I am <i>really</i> learning. :| I mean, really. They're all sooo different. I'm sure they think I'm different too, lol...and they are all very lovely in their own way. Plus you get nice days like yesterday where they're all left-brained and wonderful and it makes it all worthwhile. 
+
+I think the thing is with Parelli horses, that you know how to get them left brained...but not only that, you train them so that when they ARE right brained you have enough control to let them 'be' right brained but be safe at the same time. So they can have a paddy at the end of the rope and you don't get trodden on, kicked or knocked over! Ah well, if I can use my halter I'm safer than with anything else...and I'm not using anything else. :| Ever. :| Again. :| Lol, well...not if I can help it.
+
+And the plus plus PLUS side? It's making Dillon look extra bloody special. ;)
+
+Okaay gonna go now because for some reason my throat is parched and I htink I mgiht just die of dehydration which won't be nice because I would very much like to get Level 1 and try out my new lense before I die.
+
+Goodbye!
+
+Badgy Xxxx"
+"eventtime","2007-05-22 13:31:00"
+"current_moodid","1"
+"url","http://badgerinboots.livejournal.com/5561.html"
+"userid","1319"
+"itemid","20"
+"event","V293ISEgSSBzb2xkIG15IGZpcnN0IHBob3RvcyB0b2RheSEgOk8gSSBtZWFuIGFjdHVhbCBwcm9wZXIgY29taXNzaW9ucyEhISBTb21lb25lIHdhbnRlZCBtZSB0byB0YWtlIHNvbWUgcGhvdG9zIG9mIHRoZWlyIGZvYWwuLi48aT5ibGVzczwvaT4gaXQsIHNvIEkuLi5kaWQhIEkgc2F0IGluIHRoZSBmaWVsZCBmb3IgYWFhZ2VzICh0b29rIG92ZXIgMTAwIHBob3RvcykgOnwgQnV0IEknbSByZWFsbHkgc29ydCBvZiBnZXR0aW5nIHRoZSBoYW5nIG9mIHRoZSBzZXR0aW5ncyBub3chDQoNCkFhYW55d2F5LCBzaGUgY2hvc2UgdHdvb28uLi5hbmQgSSBnb3QgcHJvZmVzc2lvbmFsICh3ZWxsIC1pc2gsIHRoZSBzdHVwaWQgc2hvcCBwZW9wbGUgd2VyZSB2ZXJ5IGxhY2tpbmcgaW4gYnJhaW4gcG93ZXIpIHByaW50cyBkb25lIGFuZCBldmVyeXRoaW5nISBBbmQgSSBnb3QgbW9uZXkgZm9yIHRoZW0hIDpPIEl0IHNlZW1zIGluc2FuZSByZWFsbHksIHRvIGdldCBtb25leSBmb3Igc2l0dGluZyBpbiBhIGZpZWxkIHdpdGggYSBob3JzZSwgZG9pbmcgc29tZXRoaW5nIEkgbGlrZS4uLmxvbCENCg0KSGVyZSdzIG9vb25lIHBpY3dhaCBvZiAnTWlzdHknLCBub3Qgb25lIG9mIHRoZSBhY3R1YWwgY29taXNzaW9uZWQgb25lcywgYnV0IGl0J3MgbXkgcGVyc29uYWwgZmF2b3VyaXRlLiA6KQ0KDQo8aW1nIHNyYz0iaHR0cDovL2ltZy5waG90b2J1Y2tldC5jb20vYWxidW1zL3Y0NjkvQmFkZ2VyaW5ib290cy9QaG90b2dyYXBoeTA3L01pc3R5NV93YXRlcm1hcmsuanBnIj4NCg0KKENlaW5pZSwgaG93IGRvIHlvdSBtYWtlIGN1dHM/IExvbCwgcGhvdG8gdG9vIGJpZykNCg0KSSd2ZSBqdXN0IG9yZGVyZWQgYSB0ZWxlcGhvdG8gbGVuc2UgYXMgd2VsbCA6fCBleHBlbnNpdmVuZXNzIGJ1dCB3b29vdy4uLmFuZCBJJ20gZ29pbmcgdG8gdGFrZSBhIHBob3RvIG9mIEVWRVJZIGhvcnNlIG9uIHRoZSB5YXJkIGZvciBhIGNhbGVuZGFyIDpPLCBJIGRvbid0IGtub3cgaG93IHlldC4uLmxvbCBidXQgaXQgd2lsbCBoYXBwZW4uICAoSSdsbCBoYXZlIHRvIHJlYWxseSB0cnkgbm90IHRvIHRha2UgMTAwIHBob3RvcyBmb3IgZWFjaCBob3JzZSBzZWVpbmcgYXMgdGhlcmUgd2lsbCBzb29uIGJlIDMwIDp8KQ0KDQpBbmQgeWFyZCBqb2IgaXMgZmlpaW5lLi4udGhvdWdoIGl0J3MgU08gd2VpcmQgaGFuZGxpbmcgbm9uLVBhcmVsbGkgaG9yc2VzLCBsb2wuIDp8IEkgZG9uJ3Qga25vdyBhYm91dCBnYWluaW5nIGV4cGVyaWVuY2Ugc28gbXVjaCBhcyAnbmVhci1kZWF0aC1leHBlcmllbmNlJyBidXQgb2ggd2VsbC4uLnBsdXMgaXQgdG9vayBtZSBBR0VTIHRvIGNhdGNoIG9uZSwgd2hpY2ggYm9sdGVkIG9uIG1lIHR3aWNlIGFuZCBnYXZlIG1lIHJvcGUgYnVybnMuLi51bnRpbCBpIHB1dCB0aGUgcGFyZWxsaSByb3BlIG9uIGl0IHRoYXQgaXMsIG11YWhhLiA6RCBBbmQgdGhlbiA8aT5hbm90aGVyPC9pPiBvbmUgZGVjaWRlZCB0byBub3QtYmUtY2F1Z2h0Li4uSSBrbm93IGlmIEkgY291bGQganVzdCB0YWtlIHRoZSB0aW1lIGFuZCB0cmFpbiB0aGVtIGl0IHdvdWxkIGJlIGZpbmUgYnV0IEkgaGF2ZSB0byBnbyBhbmQgZ2l2ZSB0ZWFzIGFuZCB0aGluZ3MuLi4gPjp8IGlmIHRoZSBzaWxseSBvd25lcnMgdHJhaW5lZCB0aGVtIHByb3Blcmx5Li4uYnV0IG9oIHdlbGwsIGxvbC4uLml0IG1ha2VzIERpbGxvbiBsb29rIHZlcnkgdmVyeSBnb29kIGluZGVlZC4gQXBhcnQgZnJvbSBib2x0aW5nIHRocm91Z2ggdGhhdCBnYXRlIGFuZCBiYXNoaW5nIG15IGxlZyBvbiB0aGUgZmVuY2UsIHZlcnkgcHJldHR5IGJydWlzZS4gVGhvdWdoIHRoYXQgd2FzIG15IGZhdWx0IHJlYWxseS4uYW5kIG15IGxlZyB3YXMgc3ViY29uc2lvdXNseSBwcm90ZWN0aW5nIHRoZSBzYWRkbGUsIGkgdGhpbmsuLi4NCg0KSSd2ZSBiZWVuIGZpbGluZyBoaXMgZmVldCBteXNlbGYgbm93IHRvbywgd2hhdCB3aXRoIGJlaW5nIGFiYW5kb25lZCBieSB0aGUgYmFyZWZvb3Qgc3BlY2lhbGlzdCBhbmQgdGhlIGFsdGVybmF0aXZlIGJlaW5nIGVpdGhlciBhIGZhcnJpZXIgb3IgwqM0MCBldmVyeSBzaXggd2Vla3MuIDp8IEkgdGhpbmsgdGhleSBsb29rIHByZXR0eSBnb29kIG15c2VsZi4gOkQNCg0KV2VlaCwgYXQgbGVhc3QgSSBnb3QgcGFpZCB0aGlzIHdlZWtlbmQuIEV2ZW4gaWYgQmlyZCA8aT5kaWQ8L2k+IG5lYXJseSBiYXNoIG1lIGFnYWluc3QgdGhlIHdhbGwuLi5hbmQgdHJvZCBvbiBteSBmb290LiANCkFuZCBJJ3ZlIGJlZW4gZGlnaS1kcmF3aW5nIGFnYWluLCBub3RoaW5nIGZpbmlzaGVkIHlldC4uLmFuZCBub3QgZmFzdC1saWtlIG9yIGFueXRoaW5nIGFzIGNvbXB1dGVyIGlzIHJlZWVhbGx5IHN0cmFpbmluZyBteSBleWVzIHdoYXQgd2l0aCBoYXZpbmcgdG8gY2hhbmdlIHRoZSBzY3JlZW4gc2V0dGluZ3MgdG8gbGlrZS10aW55LiA6LS8gSSBzbyBuZWVkIHRvIHNhdmUgdXAgZm9yIGEgZGVjZW50IHBob3RvLWRyYXdpbmctY29tcGF0aWJsZSBjb21wdXRlcm5lc3MuDQoNClNlbmQgb3V0IHRoZSBjaGksIGl0IHdpbGwgY29tZS4gOkQgTGVuc2Ugc29vbiA6TyB3b3dvd293b3cuLi5hbmQgZHJpdmluZyB0ZXN0IHRvbW9ycm93Li4ubG9sLi4ub2YgY291cnNlLCBpdCdzIGp1c3QgYSB0ZXN0LiA6UCANCg0KTG92ZSEgWHh4eA=="
+"eventtime","2007-05-08 20:02:00"
+"current_moodid","41"
+"url","http://badgerinboots.livejournal.com/5303.html"
+"userid","1319"
+"itemid","19"
+"event","Li4uVGhleSdyZSBjb21wbGV0ZWx5IGlycmVsZXZhbnQgYnV0IHdlJ3JlIGdsYWQgdGhleSdyZSB0aGVyZSByaWdodD8NCg0KUG9vciBvbGQgTEosIEknbSByYXRoZXIgbmVnbGVjdGluZyBpdC4gVG8gYmUgaG9uZXN0IEknbSBuZWdsZWN0aW5nIHRoZSBpbnRlcm5ldCBlbnRpcmVseSwgdGhvdWdoIEkgd291bGRuJ3QgdXNlIHRoZSB3b3JkICduZWdsZWN0aW5nJyBhcyBJIHRoaW5rIHNwZW5kaW5nIDMgaG91cnMgZXZlcnkgbmlnaHQgZm9yIDMgeWVhcnMgb24gdGhlIGNvbXB1dGVyIHdhcyBlbm91Z2ggZm9yIGEgbGlmZXRpbWUuIDp8DQoNCkkgZG9uJ3QgbWlzcyBpdCBlaXRoZXIuIDpEDQoNClNvIGhhcHB5IG5vdyBzdW1tZXIncyBoZXJlLCBJIHJvZGUgbXkgaG9yc2Ugb3V0IG9uIHRoZSByb2FkIGZvciB0aGUgZmlyc3QgdGltZSBhdCBoaXMgbmV3IHlhcmQsIGp1c3QgYSBsaXR0bGUgd2F5cyBidXQgaGUgZGlkIHJlYWxseSB3ZWxsLiBPbmx5IGEgbGl0dGxlIHNwb29raW5nLi4uYW5kIG5vdyBJJ20gbW9yZSBjb25maWRlbnQsIEkgY2FuIGp1c3QgYmUgdGhlcmUgZm9yIGhpbSBhbmQgbGV0IGhpbSBnZXQgb24gd2l0aCBpdCwgd2l0aG91dCBnZXR0aW5nIGluIHRoZSB3YXkuDQoNCkkndmUgYWxzbyBnb3QgYSBuZXcgam9iISBGaW5hbGx5IHdvcmtpbmcgd2l0aCBob3JzZXMuLkkndmUgd2FudGVkIHRvIGRvIGl0IGZvciBzbyBsb25nIEkgY2FuIGhhcmRseSBiZWxpZXZlIGl0J3MgcmVhbGx5IGhhcHBlbmluZywgbG9sISBJdCdzIG9ubHkgZXZlcnkgb3RoZXIgd2Vla2VuZCwgYnV0IGl0J3MgaGFuZGxpbmcgYXQgbGVhc3QgMTEgaG9yc2VzLi4ucGx1cyBESVlzIGlmIG5lZWRlZCB3aGljaCBtYWtlcyAyMy4gSXQncyB0aGUgZmlyc3Qgc3RlcCB0byB3aGVyZSBJIHdhbnQgdG8gYmUsIGF0IGxlYXN0IGEgc3RhcnQgYW55d3lheS4uLkknbSBzbyBjaHVmZmVkLiA6KQ0KDQpIYWQgdG8gc2VuZCBteSBjYW1lcmEgbGVuc2UgYmFjaywgdGhlcmUgd2FzIHNvbWV0aGluZyB3cm9uZyB3aXRoIHRoZSBtZWNoYW5pc20gOlMgU29vIG5vIHBpY3R1cmVzIGZvciBhIHdlZWsgOiggSXQncyBzbyBzdW5ueSBhcyB3ZWxsLCBsb2whIEdhaC4gQW5kIHNvbWVvbmUgYXQgdGhlIHlhcmQgaGFzIGEgaG9yc2Ugc29tZXdoZXJlIGVsc2Ugd2hpY2ggaGFzIGp1c3QgaGFkIGEgZm9hbCBhbmQgc2hlIHdhbnRzIG1lIHRvIGdvIGFuZCBwaG90b2dyYXBoIGl0IDpPIFdvdywgc3VtbWVyJ3MgY29taW5nIHRvbyBhbmQgdGhlIHlhcmQgd2FudHMgYSBjYWxlbmRhciBtYWtpbmcgd2l0aCBwb3J0cmFpdHMgb2YgdGhlIGhvcnNlcyBhbmQgdGhleSBtaWdodCBqdXN0IGFzayBtZSB0byBkbyBpdCEgV2hlZWVlZWVldy4NCg0KU28gbWFueSBvcHBvcnR1bml0aWVzLi4uaXQncyBqdXN0IGNyYXp5Lg0KDQpBc2lkZSBmcm9tIHRoYXQgSSBnb3QgbXkgYmVsbHlidXR0b24gcGllcmNlZCA6TyBZZWhhdywgYW5kIGhhdmUgYmVlbiB3YXRjaGluZyBmYXIgdG9vIG11Y2ggQnVmZnkuIExPTA0KDQoiSSB3ZWFyIHRoZSBjaGVlc2UsIHRoZSBjaGVlc2UgZG9lcyBub3Qgd2VhciBtZS4iDQoNCkknbSBnaXZpbmcgdXAgbXkgY2xlYW5pbmcgam9iLCBhcyBpdCdkIGNsYXNoIHdpdGggbXkgbmV3IG9uZSBraW5kIG9mLi4uYW5kIHN1bW1lcidzIGNvbWluZyBhbmQgSSBkb24ndCB3YW50IHRvIGJlIGNvb3BlZCB1cCBjbGVhbmluZyBhIGNhZsOpLiA6UA0KDQpUaGVyZSdzIGFsc28gdGhlIHBvc3NpYmlsaXR5IG9mIHRoZXJlIG1heWJlIHBvc3NpYmx5IGJlaW5nIGFub3RoZXIgaG9yc2UgdG9vIGJ1dCBpdCdzIHZlcnkgc29ydCBvZiBtYXliZSBwb3NzaWJsZSBhcyBpbiBwcm9iYWJseSBub3QgYnV0IHlvdSBrbm93LiA6UCANCg0KQ3JhenljcmF6eSB3b3JsZC4uLg0KDQpPa2F5LCBiZXR0ZXIgZ28gbm93IGFuZCBoYXZlIGEgc2hvd2VyIGFzIGFtIHdvcmtpbmcgYWxsIGRheSB0b21vcnJvdy4gUGhlZWVlZWUhDQoNCkh1Z3MgYW5kIHN0dWZmIHRvIGFsbA0KDQpCYWRnZXIgWHh4DQoNCkVESVQ6IEkganVzdCByZWFsaXNlZCBJIHNhaWQgJ1N1bW1lcidzIGNvbWluZycgdGhyZWUgdGltZXMuIDp8IEFtIEkgPGk+dGhhdDwvaT4gZXhjaXRlZCBhYm91dCBpdC4uLi4/"
+"eventtime","2007-04-19 19:42:00"
+"current_moodid","105"
+"url","http://badgerinboots.livejournal.com/5001.html"
+"userid","1319"
+"itemid","18"
+"event","V293LCBjaG9jb2xhdGUganVzdCBhcHBlYXJlZCwgZnJvbSBub3doZXJlISEgVGhhdCBkb2Vzbid0IGhhcHBlbiB2ZXJ5IG9mdGVuLi4uDQoNCkkgcmVhbGlzZWQgSSBoYXZlbid0IGpvdXJuYWwtZWQgZm9yIGFhZ2VzIDp8IFNvIEkgYmV0dGVyLiBMT0wuICpQZXRzIGpvdXJuYWwqDQoNClNPIG1hbnkgdGhpbmdzIGhhdmUgYmVlbiBoYXBwZW5pbmcgaXQncyB1bmJlbGlldmFibGUuLi53b3JrIGlzIGdvaW5nIHJlZWVhbGx5IHdlbGwsIGxvdmluZyBiZWluZyBvbiByZWNlcHRpb24gYXQgdGhlIGNsaW5pYyBhbmQgbWVldGluZyBzbyBtYW55IGRpZmZlcmVudCBwZW9wbGUuDQoNClRoZSBjbGVhbmluZyBqb2IgaXMgcXVpdGUgZnVuIHRvbywgYWxiZWl0IGhhcmQsIGxvbC4gTG90IG9mIHdvcmsgZm9yIMKjNSBhbiBob3VyIGJ1dCB0aGVuIGl0IElTIG9ubHkgY2xlYW5pbmcuLmFuZCB0aGVyZSB3YXMgdGhlIGZsb29kLiA6fCANCg0KVGhlIHVwc3RhaXJzIHdhc2hpbmcgbWFjaGluZSBsZWFrZWQgYW5kIGRlY2lkZWQgdG8gcmFpbiBvbiB0aGUgZW50aXJlIGVybS4uLmRvd25zdGFpcnMgZmxvb3IuIEl0IHNvYWtlZCByaWdodCBkb3duIHRocm91Z2ggdG8gdGhlIGNlbGxhciwgSSBraW5kIG9mIGhhZCB0byB3YWRlIHRocm91Z2ggYSBsYWtlIHRvIGdldCB0byB0aGUgcGhvbmUgd2hpY2ggd2Fzbid0IHZlcnkgZnVuLi4uTE9MLg0KDQpJIHJlYWxseSBmZWVsIGxpa2UgdGhpbmdzIGFyZSA8aT5oYXBwZW5pbmc8L2k+IG5vdyB0aG91Z2ggd2hpY2ggaXMgU08gbXVjaCBiZXR0ZXIgdGhhbiBiZWZvcmUgd2hlbiBpdCB3YXMganVzdCBzdGFnbmFudCBhbmQgYm9yaW5nIGFuZC4ud2VsbC4gOlANCg0KR29pbmcgdG8gRnJhbmNlIGFnYWluIGluIE1hcmNoLCBjYW4ndCBXQUlULiBJIGhhZCBhIGZ1bm55IGxpYmVyYXRpdmUgbW9tZW50IHllc3RlcmRheSB3aGVyZSBJIHRoaW5rLCBoYWQgdGhlcmUgYmVlbiBhbiBhaXJwb3J0IG5leHQgZG9vciBhbmQgYSBmbGlnaHQgdG8gQ29sb3JhZG8gSSB3b3VsZCBoYXZlIGJlZW4gb24gaXQgOnwNCg0KKE9mIGNvdXJzZSBpZiB0aGVyZSB3ZXJlIGFuIGFpcnBvcnQgbmV4dCBkb29yIEkgd291bGQgQU5Zd2F5IGJ1dCBzdGlsbCkNCg0KV2VlZWVoLCBHYWJieSBpcyB2ZXJ5IGJsZXNzYWJsZSBhbmQgc2V0dGxlZCBpbiB0cmVzIHdlbGwuLi5qdXN0IGEgcHJvYmxlbSBvZiBmaW5kaW5nIGhlciBzb21ld2hlcmUgdG8gc3RheSB3aGlsZSB3ZSdyZSBpbiBGcmFuY2UuIFRob3VnaCBJIHRoaW5rIHdlIG1heSBoYXZlIHNvbWV3aGVyZS4uLg0KDQpXaGF0IGVsc2UuLi5vaCB5ZXMsIE5FVyBjYW1lcmEuIFdPVyA6fEdvdCBpdCBmb3IgMTh0aC4uKHdlbnQgZm9yIGEgbWVhbCBmb3IgMTh0aCB3aGljaCB3YXMgbGFhcnZlbHkhICpGaW5kcyBwaG90byopDQoNClBob3RvOi0NCg0KPGltZyBzcmM9Imh0dHA6Ly9pbWcucGhvdG9idWNrZXQuY29tL2FsYnVtcy92NDY5L0JhZGdlcmluYm9vdHMvMTh0aF9ldmVyeW9uZV9yZWplbi5qcGciPjxicj48YnI+DQpMb3ZlbHkgcGVvcGxlISAoR3IsIHdoeSB3b24ndCBpdCBGSVQpDQoNClllcywgb25seSB0YWtlbiBhIGZlZWVldyBwaWN0dXJlcyBzbyBmYXIgYXMgaXQncyBzbyBXRVQgZXZlcnl3aGVyZS4gPjooIE1vcmUgY29taW5nIHNvb24gdGhvdWdoIDpQDQoNCk1hYXkgYmUgZ29pbmcgZG93biB0byBMb25kb24gYXQgc29tZSBwb2ludCwgd2Ugc2hhbGwgc2VlLg0KDQpPbiB0aGUgaG9yc2UgZnJvbnQgPCBiZWdpbiBwYXJlbGxpIHJhbWJsZSA+DQoNCkkndmUgQUxNT1NUIGdvdCBteSBMZXZlbCAxIDpPIEkgaGF2ZSBvbmx5IDxpPnRocmVlPC9pPiB0YXNrcyBsZWZ0LCBzbyBuZWFyIGFuZCB5ZXQgc28gZmFyLiBUaGluZyBpcyBJIGNhbiBETyB0aGVtLi4uSSBqdXN0IHJlYWxseSBuZWVkIHRvIHB1dCBpbiB0aGUgd29yayBub3cgYW5kIHByYWN0aWNlIG15IHNvY2tzIG9mZi4gSSB3aWxsIGhhdmUgaXQgYnkgQXVndXN0LCBJIHdpbGwuIDpEIFNhbWUgd2l0aCBEcml2aW5nLiBIZWguDQoNCkkganVzdCBzZW50IGFuIEFydGljbGUgdG8gdGhlIFNhdnZ5IE1hZ2F6aW5lLCB0aGV5IGhhdmUgbGlrZSBhIGZlYXR1cmUgdGhpbmcgb24gcGVvcGxlJ3MgbGV0dGVycyB3aXRoIGEgdGhlbWUuLi50aGUgdGhlbWUgZm9yIHRoZSBuZXh0IG9uZSBpcyBDb25maWRlbmNlIHNvIEkgd2VudCBhbmQgdHlwZWQgdXAgYSBsb2FkIG9mIHN0dWZmIGZyb20gbXkgaGVhZC4uLmhvcGVmdWxseSB0aGV5J2xsIHB1dCBpdCBpbi4uLndvdWxkIGJlIG5pY2UgOikNCg0KQWxsc28uLi50aGV5J3JlIGJ1aWxkaW5nIGEgbmV3IHdvcmxkIGNlbnRlci4gOk8gV29vb29vdyEgQU5ELi4uaWYgeW91IGRvbmF0ZSBhIGxpdHRsZSBtb25leSB0byBoZWxwIHRoZW0gYnVpbGQgaXQsIHlvdSBjYW4gZ2V0IGEgcGF2ZXN0b25lIHdpdGggbGlrZSBhIGRlZGljYXRpb24gaW4gdG8gYSBob3JzZS9ob3JzZW1hbi9ob3JzZXdvbWFuIGFuZCBpdCBnb2VzIGluIHRoZSBmbG9vciB3YWxrd2F5IHRoaW5nLi5saWtlIEhvbGx5d29vZC4gOkQgTE9MDQoNCkknbSBub3QgdGVsbGluZyB5b3Ugd2hvIGp1c3QgZHJldyBvdXQgc29tZSBtb25leSB0byBkb25hdGUuLi4NCg0KPC8gZW5kIGhvcnNlIHJhbWJsZT4NCg0KSSBiZWxpZXZlIHRoYXQncyBtb3N0IG9mIG15IGludHJpZ3VpbmcgbGlmZSBhcyBvZiBsYXRlLi4uOlANCg0KSSBzaGFsbCA8dT50cnk8L3U+IGFuZCBKb3VybmFsIG1vcmUgb2Z0ZW4gYnV0IEkgY2FuJ3QgcHJvbWlzZSBhbnl0aGluZy4uLg0KDQpLZWVwIGluIHRvdWNoDQoNCkJhZGdlciBYeA=="
+"eventtime","2007-01-26 15:01:00"
+"current_moodid","86"
+"url","http://badgerinboots.livejournal.com/4736.html"
+"userid","1319"
+"itemid","17"
+"event","It is erm, what day is it...Friday! The 22nd of Demember. No, December. :D
+Ernie's snoring away in the corner...(Ernie is a toy...thing which belongs to the dog. You stand on him, or throw him or something and he says ""I'm so sleepy, I need a nap!"" then sings Twinkle Twinkle and starts snoring...it's funnier if you kick him...then he yells ""I feel great!"" I think he's a masachist.)
+
+The dog's stolen Lizzie's chair, which won't go down well when Lizzie appears. Well, the fact that she's in her chair won't go down well but the dog probably will..
+
+I've actually surprised myself this month! People keep asking me ""Are you ready for Xmas?"" and for once I can reply ""Yes!"" Then they give me this weird look...
+I've got everything ready for a change! Except for the cards which I wasn't going to bother with, except I got 5 and then felt guilty so..! LOL..
+
+Oh crap, Ernie's buzzing... :|
+
+Not really THAT much to report save that I have kind of a sore throat thing which is GAH ish...and I hurt my back somehow too LOL (No I'm not moaning...I am fine :D) I thiink maybe I overdid it with the mucking out/5 hours in computer chair/cleaning with killer mop thing.
+
+(The back, not the throat.)
+
+The cat threw up all over my clothes this morning which was delightful, I guess my jeans were muddy anyway but STILL.
+
+I've spent half the afternoon writing my 'Letter of thanks'. It's this Parelli thing called the Scrapbook of Thanks that some members are putting together. Well, they already did a big one but they're making another with a Kids' section so, Naturally.. :D
+
+You put like loads of photos in and write a little letter of thanks, mine's hardly little (you know how long winded I can be *COUGH*) and you have a page each. So nice.
+
+Got tae go to work tomorrow, funfunfun (hah) I spent most of last Saturday putting greenery in the woody tree thing. Okay I'm waffling :P
+
+Went to see Happy Feet the other day, BLESS that. It was veryfunny. I was in that mood anyway but STILL. LOoooool. 
+
+Right I'm gonna go before erm, before I <i>really</i> waffle. 
+
+Might be uploading some pics or something after Xmas...willsee.
+
+Badger Xxxx"
+"eventtime","2006-12-22 14:00:00"
+"current_moodid","52"
+"url","http://badgerinboots.livejournal.com/4503.html"
+"userid","1319"
+"itemid","16"
+"event","Holy bob, where has the time/day/month/year gone??! There's xmas stuff in the shops already for the love of juniper bushes. :|
+
+I realise now that I haven't updated since I got back from France, LOL. So now I am f-o-r-c-i-n-g myself to Journal. 
+
+I've just found a strange page on myspace with someone called Betty Curse and I can't decide weather I LIKE her music...but here I am playing it, wait...that and this weird country guy. (It's bad, I've suddenly got a Country addiction. Can't help it. :| Honest.)
+
+So, here I am back from France which was fanTABulous as always, Dad spent most of the two and a half weeks on the roof (lol) fixing the chimney, no, wait, REBUILDING the chimney. (lol) But, omb we have a STOVE, and it actually works and it's SO warm. :o
+
+For those of you who've never been to the South of France in winter, don't be fooled by the myths of it being warm all year round, November is FREEZING! 
+
+Anyway, erm...what else...boyfriend of sister came today on the train which was very last minute and insane...but fun.
+
+AndandAND OMGGGGGGGG we have a DOG. :O
+
+Anyone remember me mentioning a dog walking job? Well, the lady of the said dog moved down south since...and she's got cancer the poor thing. :( 
+
+She is very not-well at all, lol and wasn't able to look after Gabby any more so she needed a new home...and of course she asked us first if we'd like her aaaaand, as they say, the rest is history.
+
+She's been here since Sunday and is getting on amaaazingly with the cats and everyone! She's sleeping on my bed, LOL which is incredibly funny as she's woken me up at 8am every morning, today by barking in my face. :| 
+
+She has these little toys too *FOW* Clifford the Big red Dog, Ernie (from Sesame Street) and Exorcist Pig. Thing is, they ALL have sound thingies. Sooo, when she gets up she brings you one...
+
+You can imagine. I had exorcist pig playing FOUR times. LOOL and Ernie...
+
+""I feel great! I feel great! I feel great!""
+
+I vividly remember saying, half asleep...
+
+""That's nice dear, but not at 3am""
+
+Gabby, or, I think her real name is Gabriel...is a 4 year old boxer and is SO well behaved. :D Picwahs coming soon.
+
+I must say that our house is once again beginning to look like 'Seven Sanctuary!' Or it will when I get The Mouse, but, that's another story.
+
+For now, here's a piccy oooof me and Liz en France. (This was October, believe it or not. It may get cold in November, but they still have SEASONS and SUN!)
+
+<br>
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Me_and_my_sis.jpg""><br><br>
+
+Annnnd...this is, me LOL and the new sunglasses. :D (I broke the last pair)
+
+These took some getting as we paid for them twice SOMEhow and had to explain in French how it happened, LOL...so, much valued and RED. (Red is my new sub-favourite colour. For those who don't know, my all time favourite is Blue. Can't beat blue. ;D)<br><br>
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Those_sunglasses.jpg"">
+<br><br>
+
+Recovering well from the operation, you can barely tell I've had stitches at all save for two small lines that look a bit like cat scratches, almost. That's keyhole surgery for you...
+
+I've been draaawing too sortof but you cannae see those (haha I'll tease) parce que they are on the laptop which I am not on but they should be appearing soonysoon.
+
+Anyhoo, I think that's all for now, I'll update you in time. :)
+
+Keep in touch,
+
+Badger Xx
+
+<a href=""http://www.myspace.com/issabadger"">Badger's MySpace</a>"
+"eventtime","2006-10-24 19:59:00"
+"current_moodid","70"
+"url","http://badgerinboots.livejournal.com/4169.html"
+"userid","1319"
+"itemid","15"
+"event","SGVsbG9vb29vISAoQVdXIHRoZXJlJ3MgYSBjYW1lbCBvbiBUVikNCg0KV2VsbCwgbWFueSBpbnRlcmVzdGluZyB0aGluZ3MgaGF2ZSBiZWVuIGhhcHBlbmluZyEgKExPTC4uLmJsZXNzIHRoaXMgcHJvZ3JhbW1lLiBBaGVtLCB3ZSdyZSB3YXRjaGluIExvbmcgV2F5IFJvdW5kLiBFd2FuIE1jR3JlZ29yd2Fzc2lzc25hbWUgYW5kIENoYXJsZXkuLi5zb21lb25lIGdvaW4gcm91bmQgdGhlIHdvcmxkIG9uIGJpa2VzLCBGT1cuIE9fbykNCg0KU29tZW9uZSBrZWVwcyBzdGVhbGluZyBteSBnJ3MuLi4NCg0KKlByb2NlZWRzIHRvIGJ1bGxldCBwb2ludCoNCg0KKCopIEhhZCBhIGxlc3NvbiB3aXRoIGFuIGV4LXBhcmVsbGkgaW5zdHJ1Y3RvciB3aGljaCB3YXMuLi5obS4gRWVoLi4uIHdlbGwgdGhleSdyZSBub3cga2luZCBvZiBBTlRJIFBhcmVsbGkgc28sIExPTCBkb24ndCB0aGluayB3ZSdsbCBiZSBkb2luZyB0aGF0IGFnYWluLg0KDQooKikgRGlsbHkgbm93IGhhcyBhIGZyaWVuZCBuYW1lIG9mIENhbHlwc28gd2hvIFdBUyBpbiB0aGUgYm90dG9tIGZpZWxkIHdpdGggU2FyYWggYW5kIFNwaWtlIGJ1dCBub3cgaXMsIHdlbGwsIHdpdGggRGlsbHkgb2J2aW91c2x5LiA6RCBIZSBpcyBiZWluIHZlcnkgYm9zc3kuLi4oZW5qb3lpbmcgaGlzIExlYWRlciBwb3NpdGlvbiBtZXRoaW5rcywgTE9MKSBidXQgYXBhcnQgZnJvbSB0aGF0IHRoZXkgYXJlIHZlcnkgZ2V0dGluZy1vbi13ZWxsLg0KDQooKikgV2UganVzdCAod2VsbC4uLkZpbnRhbikgYm91Z2h0IHRoZSB3aG9sZSBvZiBNb250eSBQeXRob24ncyBGbHlpbmcgQ2lyY3VzIG9uIERWRC4gTC1PLUwgQU5EIHdlIGJvcnJvd2VkIEZhdGhlciBUZWQgU2VyaWVzIDMgZnJvbSBSb2ItdGhlLVJvYiBzbyBpaWlpdCdzLi4uY29tZWR5IHdlZWsuIFhEDQoNCigqKSBBbmRhbmRBTkQgbW9zdCBhbWF6aW5nbHkgYW1hemluZyBvZiBhbWF6aW5nIHRoaW5zLi4uKFRISU5HR0dHR0dTKSBJIGhhdmUgYSBqb2IhIDpPIE5vdCBhIGpvYiAgam9iIGJ1dCBhIHByb3BlciBqb2IuLi5ldmVyeSBTYXR1cmRheS4gOkQ6RDpEIExPTCBkb24ndCBsYXVnaCBidXQsIGl0J3MgYSByZWNlcHRpb25pc3Qgam9iLiBOb3QganVzdCBBTlkgdGhvdWdoLi4uDQoNCkl0J3MgaW4gYW4gQWx0ZXJuYXRpdmUgcHJhY3RpY2UgcGxhY2Uga2luZCBvZiBDby1PcCB3aGVyZSBJJ3ZlIGJlZW4gZ29pbmcgZm9yIFNoaWF0c3UgYW5kIGV2ZXJ5b25lJ3MgUkVBTExZIHJlYWxseSBuaWNlLiA6RCBMT0wgdGhleSBraW5kIG9mIGludml0ZWQgbWUgaW4gZm9yIHRoZSBpbnRlcnZpZXcgYW5kIGFza2VkIG1lIHF1ZXN0aW9ucyBhbmQgb25lIHdvbWFuIGtlcHQgc29ydCBvZiBib3VuY2luZyBpbiBoZXIgc2VhdCBhbmQgdGhlbiBqdXN0IGFzIHdlIHdlcmUgZmluaXNoaW5nIHNoZSBjb3VsZG4ndCBlcm0sIGhvbGQgaW4gYW55IGxvbmdlciBhbmQgeWVsbGVkICJZT1UnVkUtR09ULVRIRS1KT0IhIiB3aGljaCB3YXMuLi5MT09PTC4gQnV0IHdvb2guIDpPIA0KDQpQbHVzLCBJIGdldCDCozUuNTAgcC9oIHdoaWNoIGlzIGFib3ZlIHRoZSBtaW5pbXVtIHdhZ2UuIFBoZWVlZWVlZWVlZSENCg0KRCdhaWxsZXVycywgbm90IG11Y2ggZWxzZSBoYXBwZW5pbmcgZXhjZXB0IHRoYXQgdGhlIEcga2V5ICdhaW50IHdvcmtpbicgYW5kIEknbSBtaXNzaW5nIHRoZSBiaWtlIHRoaW5nIHNvLCB0b29kbGVzIQ0KDQpCYWRlciBiYWRlciBCYWRHZXIgSEFILg0KDQpYeHhY"
+"eventtime","2006-08-09 20:37:00"
+"current_moodid","105"
+"url","http://badgerinboots.livejournal.com/4047.html"
+"userid","1319"
+"itemid","14"
+"event","Back from Hesfes, of course! Piccas coming as soon as I can be bothered to attack the Main computer for a long period of uploading.
+
+And, seeing as everyone else is at this...
+
+<div style=""background-color:#555; color:#eee; padding:8px 16px;border:8px #000 outset; width:60%; font-family:helvetica, sans-serif; text-align:center""><h3 style=""color:#fe0; background-color:#777; padding:8px; margin:0px"">I escaped from the Dungeon of Piskeytoes!</h3><p>I looted  the Armour of Muuuuusic, the Shield of Lulie, the Sword of Veganism, the Armour of Cooking, the Dagger of Stripey Socks and 0 gold pieces.</p><p style=""color:#fe0; background-color:#777; padding:8px"">Score: <b>0</b></p><a href=""http://thesurrealist.co.uk/dungeon?user=piskeytoes"" style=""color:#fe0;"">Explore the Dungeon of Piskeytoes</a> and try to beat this score,<br>or enter your username to generate and explore your own dungeon...<form action=""http://thesurrealist.co.uk/dungeon"" method=""get""><input type=""text"" name=""user""style=""background: #fff url(http://stat.livejournal.com/img/userinfo.gif) no-repeat scroll 0px 1px; padding-left: 18px; color: rgb(0, 0, 204); font-weight: bold;""><input type=""submit"" value=""Go""></form></div>
+
+Heheeheeeee
+
+<div style=""background-color:#555; color:#eee; padding:8px 16px;border:8px #000 outset; width:60%; font-family:helvetica, sans-serif; text-align:center""><h3 style=""color:#fe0; background-color:#777; padding:8px; margin:0px"">I escaped from the Dungeon of Badgerinboots!</h3><p>I looted  the Armour of Lotr, the Dagger of Reading, the Sword of Reading, the Armour of Horses, the Dagger of Art and 18 gold pieces.</p><p style=""color:#fe0; background-color:#777; padding:8px"">Score: <b>18</b></p><a href=""http://thesurrealist.co.uk/dungeon?user=Badgerinboots"" style=""color:#fe0;"">Explore the Dungeon of Badgerinboots</a> and try to beat this score,<br>or enter your username to generate and explore your own dungeon...<form action=""http://thesurrealist.co.uk/dungeon"" method=""get""><input type=""text"" name=""user""style=""background: #fff url(http://stat.livejournal.com/img/userinfo.gif) no-repeat scroll 0px 1px; padding-left: 18px; color: rgb(0, 0, 204); font-weight: bold;""><input type=""submit"" value=""Go""></form></div>
+
+Dilly is fine. I am fine. The weather is fine. And, I can reverse the car! \o/
+
+ttfn,
+
+Badgery XxX"
+"eventtime","2006-07-03 21:18:00"
+"current_moodid","86"
+"url","http://badgerinboots.livejournal.com/3597.html"
+"userid","1319"
+"itemid","13"
+"event","<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/LJ_title.jpg"">
+
+This has to be the most amazing week in the history of amazing weeks. (And yes, there were quite a few!)
+
+I mean it when I say I am seriously going to miss w/e LOL. (Work Experience) 
+
+For those who know not, I've been 'shadowing' a Photographer for a week. (He takes photos for the Craven Herald { www.cravenherald.co.uk ) and they are amazing! Look at Photo Sales :D)
+
+I've seen all sorts from a Blind Man who's cycling to the arctic circle with his guide dog in a sidecar he built himself, to Local Galas, to Lock Keepers and Latvian students! I think it's the most I've learnt in such a short space of time...
+
+And I'm <i>definitely</i> going to invest in a new camera now!
+
+Hopefully he's (Photographer) going to help me do a portfolio for my sister. Which will be just WOW :o Because I'm borrowing his camera! And we're doing an outside studio thing with sheets and reflective doodaas and just...wow. *Feels very lucky*
+
+*** 
+
+The horse 'aint any fatter, isn't any thinner either...yet, but 'aint fatter. 
+
+>Hyperness Overflow>
+
+We are picking up Fintan <a href=""http://sir-bobbo-the-fourth.deviantart.com"">Sir Bobbo</a> on <b>Monday</b> Yes <u>Monday</u> which is the day after Tomorrow! *OMG* :O Hopefully that's not related to the movie because I don't really want a tidal wave to hit Liverpool on that particular day.
+
+Aaaaaaaaaaaaaaaand it's HESFES in a week and it's been so HOT and just before I have a driving lesson and then we're going to see Lenn Judd horseperson with Carol and I WILL learn to ride without being bolted with (LOOL, it was a close shave that day) and it's just summer and wow.
+
+And OMB. I took photos. I actually took photos I mean PROPER ones, and now I <i>think</i> I almost know how to do them something like. LOL.
+
+Wow...that SPARROWglove. LOOOOOL. 
+
+Anyhoo, going away for the week and I'll probably take this opportunity to be anti-internet because I CAN be so, au revoir for now.
+
+Blessed be*
+
+May all pictures live forever. *Punches air*
+
+<a href=""http://silverbadger.deviantart.com"">My Piccas!</a>
+
+Badger Xxx
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/fin_lj.gif"">"
+"eventtime","2006-06-17 19:55:00"
+"current_moodid","52"
+"url","http://badgerinboots.livejournal.com/3557.html"
+"userid","1319"
+"itemid","12"
+"event","<a href=""http://www.youtube.com/watch?v=ABA-oJ6V7So"">Watch This!</a>
+
+<marquee><i>It's time to play the music. It's time to light the lights. It's time to Meet the Muppets on the muppet-show-tonight!</i></marquee>
+
+Ha ha. Haha. Ahem.
+
+\//\\//\/\/\/\/
+
+This week:
+
+A new horse has arrived at the yard, by name of Monty. He's supposed to be an appaloosa but he's OBVIOUSLY come from ireland, he has a draught head...I'm sure he's a cross. And he may possibly...maybe be going in with Dillon.
+
+Dillon, yes...is still irrevocably lame, lol. Can't get a specialist out to him as he's fully booked, so he's going to get lots of Shiatsu and most likely a vet x-ray which will not be cheap at all.
+
+I may however have kind of a job thing. (Babysitting...well not <i>really</i> as person is 12...but, I get paid!)
+
+'Part from that been taking photos.
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/Picwahs/LOL.jpg"">
+L-O-L
+
+If I had to explain, you wouldn't understand.
+
+Have just concocted a CV and sent that off to a PNH Instructor down south who will, I Hope, get at least something sorted out for me par The Future and Life. LOL.
+
+Won't give up on it, I <i>can't</i>. It's horses or nothing. Even if I have to emmigrate to a  Dude Ranch in Canada or something...
+
+HesFes (Home Educator's Seaside Festival) is almost two weeks away. It seems years since the last one, so much has happened!
+
+Ac, I'm blabbing. Then again it's just me, the computer and a keyboard so, one can't exactly help it.
+
+I keep trying to write a book and/or draw but I feel a bit like a stuffed pillow. Stuff only goes in, looks like it's full...yet you can fit MORE in and whatever goes in...won't...come...out?
+
+Okay, bad analogy.
+
+I have to conquer roundabouts, find Photography Man, visit boyfriend of sister and book in to see two people all in the next 7 days not to mention do some French, finish this drawing, think of some kind of Playday for this summer (horsewise) unpack, pack. Find stuff. Lose stuff and find it again...
+
+No, now I'm just MAKING myself sound busy, LOL!
+
+Going to go before I Hit The Desk, Vin Diesel style. (Not my fault, I'm under influence of Fintan)
+
+Adios!
+
+Badger..."
+"eventtime","2006-06-02 22:55:00"
+"current_moodid","86"
+"url","http://badgerinboots.livejournal.com/3193.html"
+"userid","1319"
+"itemid","11"
+"event","<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/LJ_title.jpg"">
+
+<b>Aloha</b>
+
+Just got back from here.
+
+<center><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/G_o_l_d_e_n_v_a_l_e_LJ.jpg""></center>
+
+Yes, Fraance. I <i>love</i> that view! 
+
+some-body once-asked-could I spare some change for gas I need to getmyselfawayfromthis plaa-ace...
+I said yep, whataconcept I could use a little fuel my-self and we could all use a little chaaaaaaaaaaange...wip a wip wip whirr
+
+Ahem. 
+
+So in France. Got up to:-
+
+&bull; Knockin' off lots of nice rendering. MuahahHAha. 
+
+&bull; Seeing the horsies nearby...
+
+&bull; Picking cherries. Yes, CHERRIES. :o 
+
+&bull; Shopping in Perigeux. La Hall has LOTS of things. :| Including........ A pirate bandana. *nods*
+
+&bull; Plus lots of other things including visiting Pascal farmer person who is BLESSABLE despite having far too many sugarlumps in his coffee.
+
+This is us sporting mad grins.
+
+<center><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Us_LOL_LJ.jpg""></center>
+
+This is us conquering teh wood.
+
+<center><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/conqueeeer_LJ.jpg""></center>
+
+This is my sister.
+
+<center><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Lizzihoh.jpg""></center>
+
+Aaand this is my dad eating an apple in the airport.
+
+<center><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Om_LJ.jpg""></center>
+
+And OMB HesFes in...less than 4 weeks :|
+
+*Mad dance*
+
+I shall now leave you with some mediocre madness.
+
+<center><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Tele.jpg""></center>
+
+Thankyou and good night!
+
+*Have I Got News For You closing Music*
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/fin_lj.gif"">"
+"eventtime","2006-05-27 21:21:00"
+"current_moodid","35"
+"url","http://badgerinboots.livejournal.com/2853.html"
+"userid","1319"
+"itemid","10"
+"event","V2FoaG9vb29vb29vISBJIGZvdW5kIGEgY29tcHV0ZXIgOm8gQ2FuIHlvdSBiZWxpZXZlIGl0PyEgwqMxIGZvciB0ZW4gbWludXRlcyENCg0KSSBjYW4ndCBnbyBvbiBEQSB0aG91Z2gsIGZpbHRlcmVkIHNpdGUuLi50aGUgbWVhbmllcyEgT2ggYm9iIEkgaGF2ZSAzIG1pbnV0ZXMgbGVmdC4gTE9PTC4NCg0KU29vbyBJJ2xsIGhhdmUgTE9Pb29vb2FkcyBvZiBEQSBtZXNzYWdlcyB3aGVuIEkgZ2V0IGJhY2sgd2hpY2ggaXMgYmFoLiBNYWlzLCBuZXZlcm1pbmQuDQoNCldlIG1ldCBsb2FkcyBvZiBGcmVuY2ggc3R1ZGVudHMsIGEgZ2lhbnQgb3JhbmdlIHdvbWFuLCBibG9uZGUgYWlyIGhvc3Rlc3MgYW5kIHNvbWUgbWFkIHBvc2ggcGVvcGxlIHdobyB3ZXJlIGdvaW5nICJDdWRkbGVjdWRkbGVjdWRkbGUhIiBGb3IgYWFhZ2VzLiA6fA0KDQoqRk9XKg0KDQpDYW4ndCB3YWl0IHRvIGdldCB0byBGcmFuY2UsIGl0J3Mga2luZCBvZiBncmV5IGhlcmUuLi5ub3QgY29sZCB0aG91Z2guIA0KDQpPb29vaCBjcmlzcHkgYmFyLi4uYmV0dGVyIGdvIGJlZm9yZSB0aW1lIHJ1bnMgb3V0Lg0KKExvbCwgbXVtJ3MgbG9va2luZyBmb3IgYSBidXJnZXIga2luZy4pDQoNCldvbmRlciBpZiB5b3UgY2FuIGdldCBpbiBtc24uLi4NCg0KKlNpZ24gY29tZXMgdXAqIA0KDQoiWU9VIEhBVkUgVFdPIE1JTlVURVMgTEVGVCEhISEhISEiDQoNCkxPT0wgSE9OZXN0bHkuIFJpZ2h0LCBnb25lLg0KDQpTZWUgeW91IGlubmF3ZWVrICh1bmxlc3MgdGhlcmUgYXJlIGN5YmVyY2FmZXMpDQoNCkFkaW9zIQ0KDQpMb3ZlIEJhZGdlciBYeHhY"
+"eventtime","2006-05-17 10:55:00"
+"url","http://badgerinboots.livejournal.com/2610.html"
+"userid","1319"
+"itemid","9"
+"event","VU5kZXIgdGhlIEpPTExZIFJvLWctZS1yLi4uDQoNCg0KPGltZyBzcmM9Imh0dHA6Ly9pbWcucGhvdG9idWNrZXQuY29tL2FsYnVtcy92NDY5L0JhZGdlcmluYm9vdHMvYmFydDEuZ2lmIj4NCg0KSSBhbSBnb2luZyB0byBGcmFuY2UgZm9yIGEgd2VlayB0b21vcnJvb293LiBGbHlpbmcgdGhlcmUhICh5YWF5LCBJIGxvdmUgZmx5aW5nLi4uKQ0KDQpJJ3ZlIGJlZW4gcmVhZGluZyB0aGUgRmFyYXdheSBUcmVlIHJlY2VudGx5IHdoaWNoIGhhcyBiZWVuIFZFUlkgZnVubnkgYXMgSSBoYXZlbid0IHJlYWQgdGhhdCBzaW5jZSBJIHdhcy4uLndlbGwsIHlvdW5nZXIuIEJsZXNzIE1vb25GYWNlLiBFeGN1c2UgdGhlIGV4cHJlc3Npb24gYnV0LCBoZSBSb2Nrcy4gPjpEDQoNCkknbSBtb3JlIGhvcGVmdWwgYWJvdXQgRGlsbG9uIG5vdyEgVG9vayBoaW0gaW4gdGhlIGFyZW5hIHllc3RlcmRheS4gW1RoZSBmbGllcyBhcmUgbGF5aW5nIG9mZiBwcmV0dHkgbXVjaCBub3cgdGhhbmtzIHRvIHRoaXMgbmV3IHN0dWZmIHdlJ3ZlIGdvdC5dIEkgcG9pbnRlZCBteSBmaW5nZXIgb3V0IHRvIHRoZSByaWdodCwgdGhpbmtpbmcgIk9oIEknbGwgcmVzdCBoaXMgbGVnIGFuZCBvbmx5IGRvIGEgY2lyY2xlIGF0IHRoZSB3YWxrLi4uIiBzbyBtdWNoIGZvciB0aGF0IHBsYW4hIEhlIHNhdyBtZSBzdGFydCB0byBwb2ludCwgc3F1ZWFsZWQsIGFuZCB0aGVuIEkganVzdCBzYXcgZHVzdC4gDQoNCk1hZCBob3JzZSEgQ2FudGVyaW5nIHJvdW5kLiBUaGFuayBnb29kbmVzcyBoZSdzIG5vdCBhY3R1YWxseSBpbiBwYWluIHdoZW4gaGUgcnVucywgaXQganVzdCBraW5kIG9mIG1ha2VzIGhpbSBtb3ZlIGF3a3dhcmRseS4gTE9MLiBJIGFza2VkIGhpcyBIUSByb3VuZCBhbmQgaGUgdHJpZWQgdG8gYXR0ZW1wdCBzb21lIGZhbmN5IG1vdmUsIGZvdW5kIGhpcyBsZWdzIGNvdWxkbid0IHF1aXRlIG1vdmUgZmFzdCBlbm91Z2gsIHNraWRkZWQgYW5kIGxvb2tlZCBhbGwgY29uZnVzZWQgYW5kIHNvcnJ5IGZvciBoaW1zZWxmLiBTaWxseSBib3kuDQoNCkkgbWFuYWdlZCB0byBnZXQgb24gYW5kIGp1c3QgcmlkZSBhIGxpdHRsZSBhdCB0aGUgd2FsaywgKGRpZG4ndCByZWFsaXNlIGhvdyBtdWNoIEknZCBtaXNzZWQgcmlkaW5nIGFjdHVhbGx5LikgVGhlIGdyZWF0IHRoaW5nIGlzLi5oZSA8aT53YW50czwvaT4gdG8gbW92ZSwgY2FudGVyIGFuZCBwbGF5Li4uc28gSSBrbm93IGhlJ3MgZGV0ZXJtaW5lZCB0byBnZXQgYmV0dGVyLg0KDQpIb3BlZnVsbHkgb3ZlciB0aGlzIHdlZWsgaGUgd29uJ3QgZ2V0IHRvbyBmYXQgYW55d2F5LiA7KQ0KDQpBbHNvIEknbSBraW5kIG9mIGFsbW9zdCBoYXZlLi4oTG9sPykgZmluaXNoZWQgYSBkcmF3aW5nIGluIGdyYXBoaXRlLCBzb21laHRpbmcgSSBoYXZlbid0IHdvcmtlZCB3aXRoIGZvciBhYWFhZ2VzLiBXaWxsIHBvcCB0aGF0IG9uIGhlcmUgc29tZXdoZXJlIHdoZW4gZG9uZS8NCipDYW4ndCB0eXBlIHRvZGF5Kg0KDQpJIHRoaW5rIHRoYXQncyBpdC4uYW55aG9vLi4ubWlnaHQgbm90IGZpbmQgYSBjeWJlcmNhZsOpIChlbiBmYWl0LCBwcm9iYWJseSBXT04nVCkgDQoNClNvLCBzZWUgeW91IGluIGEgd2VlayBvciBzbyEgKHNvIHNvLiBTby4uKQ0KDQpBdSByZXZvaXIhDQoNCkJhZGdlcnkgWHh4WA=="
+"eventtime","2006-05-16 19:38:00"
+"current_moodid","35"
+"url","http://badgerinboots.livejournal.com/2406.html"
+"userid","1319"
+"itemid","8"
+"event","LOL...:|
+
+Not sure where to start!
+
+Well. The STUPID farmer...on our yard lit his STUPID bonfire...and there was a post on with some tar or something, and him being him drove up the fields and left it. To the wind.
+Thankfully, we happened to arrive at about 4:30.
+
+Us and Bev, (other-horse owning person) were just sort of talking, and she said she'd seen the fence on fire. Sooo I started mucking out thinking 'Hah, stupid farmer's fence...' BUT.
+
+In the space of ten minutes my mum was yelling me, saying something about the horses and I thought they'd got out. (Usually happens)
+
+So I grabbed three halters, got out there to find the biggest cloud of smoke you ever saw. :| The fire was taller than the bloody telegraph posts!
+
+There was just us three then, mum rang the fire brigade (it took them got knows how long to understand where it WAS) meanwhile this billowing cloud of smoke was covering the field where these three horses were. :|:|:|
+
+We got into the field and you just couldn't SEE. The others were ready for knocking the fence down and letting the horses out that way but it'd have taken too long, the only way out was to lead them through the smoke!!
+
+I just started walking through the cloud and I could see the horses all gathered right up at the other end, panicking and trying to get through the fence.
+
+Sarah was really worked up.. (she's a lovely Parellied Saddlebred who is very very sensitive) and I managed to catch her, everyone else struggled a little, Spike (Parellied thoroughbred ex-racer) was rearing, Calypso (little old chestnut mare) didn't want to move.
+
+Most of it's just a blur, lol but there was a LOT of rearing and snorting and somehow we got those horses through the smoke and out of the gate. :|
+
+Then the fire-people came, followed by half the village. LOL. And it took them AAAGES to put it out, but the really scary thing was that <i>used</i> to be Dillon's field, and the smoke was from tyres burning. (Poisonous) So another ten minutes and the horses might not have been breathing.
+
+Eeeeeeeeeeeh *tries not to think about that*
+
+BUT we're protected, and everyone's fine and dandy! :) And I'm so glad the horses, well two of, <i>are</i> Parelli else they probably wouldn't have followed us through it!
+
+I must post photos of the remnants just because. LOL.
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/ES_LJ/The_guilty_tree.jpg""> 
+The tree where it started.
+
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/ES_LJ/ex-tyres.jpg"">
+The tyres. They just went WOOOSH! And were up in flames.
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/ES_LJ/Lol.jpg"">
+Hm. LOL.
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/ES_LJ/Poorfield2.jpg"">
+All you could see here was just black smoke. VERY scary.
+
+Aaaaanyway, apart from all that Dillon's cheerydo! Nicki (Shiatsu person owner of Spike) thinks he might have put his hip out,
+but in himself the flies are keeping off and he's very jolly which means he's not in pain and will recover!
+
+(When he's not chuckling to himself you know he's not feeling well. LOL)
+
+AND we're going to France in a week. WOOOOoooowww!
+
+Bettergo. Toodleypip!
+
+Badger Xxxxx"
+"eventtime","2006-05-09 19:36:00"
+"current_moodid","132"
+"url","http://badgerinboots.livejournal.com/2232.html"
+"userid","1319"
+"itemid","7"
+"event","<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/LJ_title.jpg"">
+
+It's grey.
+
+I hate grey.
+
+<center><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/TBB/Tongue_avvy.gif""></center>
+
+<s>Today</s> I have been:-
+
+Doing not a lot. 
+
+My horse is officially lame...we think he may have dislocated his hip. The annoying thing being that it's the fault of some evil WOMAN who drove him halfway over a wall a year ago. Because he tried to 'kill' her, apparently.
+ 
+Ha. Ha.
+
+
+Interesting the amount of people who find a problem with him when really he just doesn't take any crap.
+
+(Who does?!)
+
+Anyway, he came down the hill like a wounded solider...not looking totally lame but really stiff. He's been out all night, I think he'd hardly slept. Not to mention his swollen sheath (bloody midges).
+
+I'm really praying that this injury doesn't hold out, I need to get through these levels and I don't want another horse...
+At least it's not too serious, fingers crossed.
+
+Besides that I went to this 'fashion show' thing at the local college (my sister loves fashion) and an ex-schoolperson whom once made my life  hell turned out to be modelling. Some people just keep popping up.
+
+On a lighter note, I've been updating my site >sort of<.
+
+<center><a href=""http://www.freewebs.com/dustonthewind""><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Dust%20on%20the%20Wind/DOTW_Button.gif"" title=""Dust on the Wind""></a>
+
+Aaand my forum's still going... <a href=""http://badgery.proboards52.com"">Link</a>
+
+It's wet, it's cold, I'm bored and I miss people.
+
+Apart from that, I'm <i>fine</i>!
+
+         :D
+
+Lol... c'est la vie!
+
+Badger Xx
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/fin_lj.gif"">"
+"eventtime","2006-05-07 16:12:00"
+"current_moodid","84"
+"url","http://badgerinboots.livejournal.com/2029.html"
+"userid","1319"
+"itemid","6"
+"event","<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/LJ_title.jpg"">
+
+I'ts kind of madly sunny here, cold still but hyper. (Hyper in the sense of mad jolly summer-ness.)
+I'm cheered up now as Parelli DVDs have arrived. (That was bloody quick.)
+
+Took a few mad photos this morning, with help of ma mere. Played with Dillon at liberty...
+
+Liberty's so much more fun sometimes, you play the same games but you can muck about too...and having godknowshowmanyhundred kilos of horse cantering round you is just ...Wow.
+
+I went and missed the rearing again too. (If only I could take photos and run at the same time.) Proper stallion one this time too, pawing the air and everything.
+
+Yes, I'm obsessed I'm afraid. XD
+
+Still happily columning for <a href=""http://www.freewebs.com/dailyceinie"">The Daily Ceinie</a> which is fun.
+
+Not much else to report only that it's almost May and I'm just kind of sitting, now addicted to Skype which isn't good <i>really</i> as this is likely the last time I'll use it for aaaaages but oh WELL.
+
+<center><a href=""http://thesurrealist.co.uk/slogan.cgi?word=you""><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/ES_LJ/Slogan_lj.gif""></a></center>
+
+Advertising Slogan Generator.
+
+Warning. Also addictive.
+
+I must now apparate as I think my grey andalusian just turned 2.
+
+*POOF*
+
+<center><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/ES_LJ/black_white_LJ.jpg""></center><br><br>
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/fin_lj.gif"">"
+"eventtime","2006-04-29 13:12:00"
+"current_moodid","91"
+"url","http://badgerinboots.livejournal.com/1706.html"
+"userid","1319"
+"itemid","5"
+"event","<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/ES_LJ/misc507.gif"">
+
+I hate the system, don't you?
+
+Just got a college prospectus...(for LAST year might I add. Don't know what good that is...)and you need GCSEs for -everything- except Hair and Beauty. How is that fair?!
+
+Not to mention the courses are boring, and don't enable you to GET anywhere. There aren't any grants available and GAH. 
+Excuse me but I need to vent somewhere. :D SIGH. Just don't know what to do really. I mean apart from that everything is fine...
+
+Went to see gallery of photography person who was really good...I might just walk up to him and say ""LOOK I want to <i>do</i> this, I have enthusiasm, I'll stand on my head...I won't waste your time...just don't ask me for GCSEs PLEASE!""
+
+Maybe then I can get a week's experience or, SOMEthing.
+
+At the end of the day it's the SYSTEM that's got me stuck here so they owe me. BAH. BAhabahabahah.
+
+Aaaaanyway.
+
+Besides that, Dillon is fine and well. At least I think so. He might have to go onto antibiotics because of flies. GAH. No. No, calm. *Calms*
+
+Might not be able to go see Ray Hunt in August either. BAAAH. *Calm*
+
+Right, I'm just going to do <u>whatever</u> I can, I'm going to America or SOMEwhere that's not here and I'm not coming back  until I have to.
+
+Who needs exams, who needs school, who needs THEM?
+
+MUAHAHAHAHAHAHAHAHAHA...
+
+Popcorn, anyone?"
+"eventtime","2006-04-28 16:23:00"
+"current_moodid","47"
+"url","http://badgerinboots.livejournal.com/1431.html"
+"userid","1319"
+"itemid","4"
+"event","<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/LJ_title.jpg"">
+<br><br>
+
+<i>The truth is that there is only one terminal dignity -- love. And the story of a love is not important -- what is important is that one is capable of love. It is perhaps the only glimpse we are permitted of eternity.  -- Helen Hayes</i>
+<br><br>
+
+Today is beautiful! No I'm not being romantically literate, it just is! :D It <i>was</i> raining but now it's stopped and is lovely and sunny. AndandAND...I just drove a car. Hah! It was rather mad and I must admit I almost broke the rearview mirror... (how was I supposed to know you can't twist it up as well as to the right?!)
+
+ButbutBUT I only stalled it twice, and I didn't crash...and I am still here. And, it was fun.
+
+Yahoo!
+
+Plus we just got a letter from my Great Uncle, who has a street named after him and has written a book and lives in South Africa. Not only THAT, but together with his wife, they run an animal welfare project thingy!
+<a href=""http://www.kaps.org.za/"">Link</a>
+
+They have somanyhundred donkeys and horses, as well as cats and dogs. (Plus a pig I believe.) The most AMAZING thing is they've been wanting us, or me to go for ages. And you know I think I really will. :| If I can book a week for next year or something...
+
+This is AFRICA, they have LIONS...and...WOW. Aussi, I could help them with their horses, especially if they've been abused...I'm sure if I tried I could train them back to accepting the saddle, at least. There's so many out there that have suffered from neglect, badly fitting harnessess, cruelty. Just a week would be amazing. Not to mention the amazing photography I could get.
+
+-Watch This Space-
+
+Now I'm going to take my horse and work on these last two Level 1 tasks, we're almost there! I was so proud of him yesterday, he was walking down by my shoulder with his rope over his neck. (No hands!) If I trotted, he did, if I stopped, he stopped. WHEW. All that, and once upon a time I couldn't even <i>hold</i> him.
+
+I'm just going to voice my own opinions to this little box because they're in my head. We really have come such a long way, and I'm amazed that I'm even riding out this summer, it's so much more than I'd ever expected, even if I haven't quite got Level 1 yet.
+
+The Savvy Club's back and even BETTER than before and I'm going to drive and the sun's out and I can ride and tack up and play, and I've worked hard to get here!
+
+It'll go in my book, it will. One day.
+
+:)
+
+~Vanya Sulie
+
+Badger Xx
+<br>
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/LJ_footer.jpg"">"
+"eventtime","2006-04-25 15:34:00"
+"url","http://badgerinboots.livejournal.com/1276.html"
+"userid","1319"
+"itemid","3"
+"event","<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/LJ_title.jpg""><br><br>
+<center><img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Tail_lj.gif""></center>
+
+<marquee>Oh the sun has got his hat on, hip hip hip hooray...</marquee>
+
+LJ is now seeming more fun, myself having only just (blatantly) realised you can put PICTURES on here. Haha, what a noggin.<br>
+<br>
+I'm Home Alone for the afternoon tomorrow, people (parents and sibling) are going to Newcastle to visit boyfriend of sibling.<br>
+I don't know whether that's such a <i>good</i> thing as when I'm on my own I tend to put videos on one after the other without
+really watching any of them, and sing none stop until the cats start scowling at me.<br>
+<br><br>
+
+Mais, I have to get up preeety early for filings of hoof...then I'm helping to sort another horse out. (Billy!)<br>
+Theeeen going for a RIDE with Carol. Wahoo! <br>
+<br>
+
+Dillon got rather sweated up this morning, I didn't go but apparently no-one was out and he was careering round the field.<br>
+ I wouldn't be too worried as he needs to lose weight, if it weren't for the barbed wire.<br> (Farmers, they WON'T listen.)<br>
+And if he tried to jump out...<br>
+<br>
+Doesn't bear thinking about. <br>
+
+Besides that, I'm still 2 tasks off my Level 1 'official' pass. Or, 2 more to video then I can send the whole thing off and
+HOPE I pass.<br> Next chance I get I'll practice, the killer is the figure of eight. I can sort of just get it with the halter
+but ONE rein? Grgragadkadsdd...<br>
+<br>
+It'll come. :D<br>
+<br>
+In the meantime I've been site updating... <a href=""http://www.freewebs.com/dustonthewind"">here</a> <br>
+I might pay for a domain name...or a proper host! Student web hosting seems best, not sure.<br>
+<br>
+It's funny, I'm kind of hoping everything will hurry itself up and then wishing everything would slow down, lol! :|<br>
+<br>
+I think I need to just go sit in a field for an hour...which I will do as soon as possible.<br> (Accompanied by a sketch book and camera. 
+I'd take my flute too but Dillon'd probably eat it.)<br>
+<br>
+Alors, best go as I have just been assigned to the Daily Ceinie (<a href=""http://www.freewebs.com/dailyceinie"">Link</a>) and need to write
+a column.<br>
+<br>
+Go Well*<br>
+<br>
+Badger Xx
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Badgerinhat/LJ_footer.jpg"">"
+"eventtime","2006-04-22 19:58:00"
+"current_moodid","68"
+"url","http://badgerinboots.livejournal.com/976.html"
+"userid","1319"
+"itemid","2"
+"event","HelloOOoooOOOooo!
+
+Okay today was calm and serene, so let me tell you about YESTERDAY.
+
+We went, on a ride over the moor! (Yes, the moor)But not just any moor...Embsay Crag! Fair enough, not right over the top
+but NEARLY!
+
+This moor.
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Moor_lj.jpg"">
+
+I had to walk half the way up it because we passed some evil barking dogs which Dillon did-not-like and I almost got cantered off with. 
+Thankfully I had enough savvy to get off and mum was very kind and gave me her horse for the worst bit.
+
+VERY kind seeing as she proceeded to be dragged flying over grass, rock, ditch and through the bracken.
+
+What? My horse is well trained! Just, the moor...isn't.
+
+Came back all sweaty.
+But jollyful! 
+
+<img src=""http://img.photobucket.com/albums/v469/Badgerinboots/Dillymoor_lj.jpg"">
+
+There were these killer jets that came past so LOW you could see the pilot's teeth. (No, seriously.)
+Thankfully I wasn't riding at that point, LOL. Major adrenalin rush though.
+
+Wow, I'm still HERE. Good old Savvy.
+
+Aaaaanyway it was very LOTR-ish for the most part, not as well choreographed of course but, most fun. :D
+
+Aside from that I 'started' a painting today. I haven't actually ever FINISHED one yet. Well, not properly.
+I'm not sure whether you're supposed to mix the oils with the acrylics but what the bob. Lol!
+
+Filing day on Sunday (hooves)so that'll be gooooood.
+
+Bettergohaveashowernow and finish Spyro.
+
+(No, honest it's not mine. I BORROWED it. I'm a Tomb Raider fan)
+
+Au revoir!
+
+*Throws petals in air*
+
+Badger Xxx"
+"eventtime","2006-04-21 20:07:00"
+"current_moodid","125"
+"url","http://badgerinboots.livejournal.com/763.html"
+"userid","1319"
+"itemid","1"
+"event","Hello...I'm new to Livejournal...I don;t reeelee know what to do and I can't TYPE and where;s the full stoppppp.
+
+Right. 
+
+Hello. :D
+
+I am Badger. My real name is Sarah. But Badger is better. Today.
+I have a horse. He was hyper! Today.
+I am fine! But feel a BIT icky...today.
+Oh good grief. Today.
+(LOOL)"
+"eventtime","2006-03-14 23:04:00"
+"url","http://badgerinboots.livejournal.com/407.html"
+"userid","1319"

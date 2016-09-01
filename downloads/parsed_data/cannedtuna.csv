@@ -1,0 +1,824 @@
+"names","values"
+"itemid","389"
+"event","U3VmZmljaWVudCBSZWFzb24NCg0KDQoNCkkuIE5ld3Mgb2YgdGhlIEZ1dHVyZSBSZWFjaGVzIE1hbg0KDQpUaGUgaGlnaHdheSBpcyBzbyBsb25lbHkgaW4gaXRzIGZhbGxvcGlhbiBkYXJrLA0Kc3RyZWV0bGlnaHQgbGl0IGludG8gaW5maW5pdHkgZGFya25lc3MNCmNvbnRhaW5pbmcgYWxsIHRoZSBwb3NzaWJpbGl0aWVzIG9mIGNoYW5jZQ0KY29zbWljIGRpY2Vyb2xscyAoc2V2ZW4ncyBhIHdpbm5lciBldmVyeXRpbWUpLg0KT25jZW92ZXIgd2UgaGF2ZSBjb21lIGJlYXJpbmcgdGhlIG5ld3MsDQp3ZSB0aGUgaGVyYWxkcyBvZiBzdHJlZXRsaWdodCBpbmZpbml0eSwNCnRoZSBuZXdzIHRoYXQgY2hhbmdlIGlzIGEgbWF0dGVyIG9mIHdpbGwuDQpDb2xsZWN0IHlvdXIgd2l0cywgeW91ciB0aG91Z2h0cywgeW91ciBzdGFycy0NCmluLXRoZS1leWVzIHVwc2lkZSBkb3duIGV4aXN0ZW5jZSBkYXktYnktZGF5DQphbmQgcmVtZW1iZXIgdGhlIHBocmFzZTogIkhlIHdobyBkb2VzIHJpZ2h0LA0KZG9lcyBhbGwgcmlnaHQuIiAgQSBncmVhdCBtYW4gb25jZSB0b2xkIG1lDQp0aGF0LCB0aG91Z2ggSSBoYXZlIHlldCB0byBtZWV0IGhpbS4NCldlIGhvcGUgdGhhdCB5b3Ugd2lsbCBiZSB0aGF0IG1hbi4NCg0KDQpJSS4gQUxMIElTIFdFTEwsIEdPT0ROSUdIVCBIRVJPDQoNClNpYyAnZW0sIHRyaWNrICdlbSwgcm9sbCAnZW0gaW50byBkb3VnaC4NClR1cm4gdGhhdCB3YXRlciBpbnRvIGdvbGQgYW5kIHN0YXJ2ZQ0KdG8gZGVhdGguIFdpbGwgeW91IGVhdCB5b3VyIGNoaWxkcmVuDQp3aGVuIHRoZSBjdXBib2FyZCBpcyBiYXJlPw0KU3dhbGxvdyB0aGUgdmVub20sIHZhaW4gc3dlZXRoZWFydCwNCnN3YWxsb3cgdGhlIGNvbWUgb2YgdGhlIGNvbWUtYW5kLWdvbmUNCm1lbiB3aGVuIHRoZSBjdXBib2FyZCBpcyBiYXJlLg0KDQpTbyBnZXQgYWZ0ZXIgJ2VtLCByb2xsICdlbSBpbnRvIGRvdWdoLg0KTWFrZSBicmVhZCBmcm9tIHRoZWlyIGJvbmVzLA0KYnJlYWsgdGhlIGNsb2NrLCBwdWxsIHVwIHlvdXIgc29ja3MNCnRvIGtlZXAgeW91ciBhbmtsZXMgZHJ5IGluIHRoZSBmbG9vZC4NClJpcHBsZXMgaW4gdGhlIHdhdGVyIHRoYXQgcnVucyBkZWVwLA0KdGVsbCBtZSB3aGVyZSB0aGUgYm90dG9tIGxpZXMuDQoNCkxldCdzIGdvIHRvIHRoZSBib3R0b20sDQpsZXQncyBzZWUgdGhlIGRlYWQgbW90aGVycw0KYW5kIHRoZWlyIHBlbm5pbGVzcyBjaGlsZHJlbi4NClRoZXkncmUgYWxsIHBlbm55IGRyZWFkZnVsLA0Kc2luZ2luZyBzb25ncyBvZiBtb29uYmVhbSB0ZXJyb3IsDQpuZXZlciBsb29raW5nIHlvdSBpbiB0aGUgZXllLg0KDQpTbyBzYXZlIHVwIHlvdXIgcGVubmllcywNCnNhdmUgdXAgeW91ciBwcmlkZSwgDQpwdXQgdGhlbSBpbiBhIGphciBhbmQgbmV2ZXINCmxvb2sgaW5zaWRlIHVudGlsIHRoZSBwcmV0dHkNCmdpcmxzIGNyeSBkb3duIHRoZSBzdHJlZXQsDQp1bnRpbCB0aGV5IGZsb29kIHRoZSBzdHJlZXRzDQphbmQgZ2V0IHlvdXIgYW5rbGVzIHByZXR0eS1naXJsIHdldC4NCg0KVGhlIGNyZWVwcyBhcmUgc3RhbGtpbmcgYSBjcmF6eS10aW1lDQp3YWx0eiBpbiB0aW1lIHRvIHRoZSBib2RpZXMgZmFsbGluZy4NCiJZT1UgQVJFIEZSRUUgVE8gRE8gQVMgV0UgVEVMTCBZT1UsIg0KdGhlIHRlbGV2aXNpb24gc2NyZWFtcywgYW5kIHRoZSBtb25rZXlzDQpkbyBhcyB0aGV5IHRlbGwgdGhlbSwgdGhleSBkYW5jZQ0KdGhlIGRhbmNlIGFuZCBwdXNoIHRoZSBidXR0b25zDQp3aGVuIHRoZXkgYXJlIHRvbGQuIFRoZXkgZ2V0IHRoZSBjaGVlc2UNCndoZW4gdGhlIGtpbGxpbmcgbWFjaGluZXMgc3dpbmcgdGhlIGF4ZS4NCg0KQW5kIEJodWRkYSBhbmQgSmVzdXMgYXJlIGxhdWdoaW5nDQppbiB1bmNvbWZvcnRhYmxlIGhvcnJvciBhcyB0aGUgY2hpbGRyZW4NCmFyZSBsZWQgaW50byB0aGVpciBjYXR0bGUgc3RhbGxzLA0Kd2hpbGUgYmVoaW5kIHRoZW0gdGhlIGJvZGllcw0Kb2YgYWxsIHRoZSBtdXJkZXJlZCBwYXJlbnRzIGNvbmNlaXZlDQp0aGVpciBjaGlsZHJlbiBhbGwgb3ZlciBhZ2Fpbi4NCkJ1dCBCaHVkZGEgYW5kIEplc3VzIGFyZSB0b28gYnVzeQ0KY291bnRpbmcgdGhlIGRlYWQgdG8gYmxlc3MgdGhlIGNoaWxkcmVuLg0KDQpTbyBzaWMgJ2VtLCB0cmljayAnZW0sIHJvbGwgJ2VtIGludG8gZG91Z2guDQpSb2xsICdlbSBzbG93LCBzdHJpbmcgJ2VtIG91dCBsb25nLA0Kc3RyaW5nICdlbSBvdXQgbGlrZSBzbWFjayBhZGRpY3RzDQpsb29raW5nIGZvciB0aGVpciBuZXh0IGJpZyBmaXgNCnRoYXQgc3RyZXRjaGVzIGZyb20gdGhlIGRyYWluIHVudGlsIGRlc2lyZS4NCkFuZCBpbiBiZXR3ZWVuIHRoZSBkb3BlIGZpZW5kcyBhcmUgbGF1Z2hpbmcuDQpUaGV5J3JlIGxhdWdoaW5nIGF0IHRoZSByZWFsaXR5DQp0aGV5J3ZlIHRyYW5zY2VuZGVkLCB0aGF0IHRoZXkndmUNCmJyb2tlbiBhbmQgcmFwZWQgYW5kIGxlZnQgY3J5aW5nIGFsb25lLg0KDQpBbmQgbm93IHRoYXQgaXQncyBicm9rZW4sIHdoZXJlIGRvIHdlIHN0YW5kPw0KDQpJdCdzIHRoZSBydWlucywgaXQncyB0aGUgZGVhZCBzb2NpZXR5Lg0KSXQgaXMgZGVhZCBsaWtlIHlvdXIgaGFpcg0KYW5kIHlvdXIgcmlwcGVkLXRvLXRoZS1xdWljayBmaW5nZXJuYWlscy4NCkp1c3QgcmlwIHRoZW0gb3V0LCBqdXN0IHRlYXIgdGhlbSBvdXQNCndoaWxlIHNjcmF0Y2hpbmcgb3V0IHlvdXIgZXllcw0KaW4gYXR0ZW1wdHMgdG8gbG9vayBhd2F5IGZyb20gdGhlIG5pbmUtdG8tZml2ZQ0KcmF0cmFjZSBwb2lzb25lZCBTdGFyYnVja3MgbXVmZmlucy4NCg0KV2UgYXJlIHB1ZmYtcHVmZiBIT0xZISB0b25pZ2h0DQp3aXRoIHRoZSBtYWRuZXNzIG1hZG5lc3MgbWFkbmVzcw0Kb2YgdG9vIG1hbnkgdGVycm9yLW1vb25zLCB0b28gbWFueQ0KZGVhdGhiZWFtcyBzZXQgdXAgYnkgc3VwZXJ2aWxsYWlucw0KcmlkaW5nIG1pc3NpbGUgZGVhdGggZG93bg0KdXBvbiBvdXIgZmFpciBjaXR5IG9mIGZpbHRoDQp3aXRoIG5vIHN1cGVyaGVyb3MgdG8gc2F2ZSBpdC4NCg0KRXZlcnkgY2FyIGlzIGEgY29wIGNhciwNCmV2ZXJ5IGNhciBpcyBtaXNzaWxlIGRlYXRoDQpjYXB0YWluZWQgYnkgdGhhdCBtaXNzaW5nLWluLWFjdGlvbg0Kc3VwZXJoZXJvIHRoYXQgYW1vdW50ZWQgdG8gZXhhY3RseSBub3RoaW5nLg0KSXQncyB5b3UhIFlvdSBhcmUgdGhlIEhvbHkhIEhvbHkhIEhvbHkhDQpBbWVuIEhhbGxlbHVqYWggdGhhdCB3aWxsIHNhdmUgdGhpcyB3b3JsZCwNCnRoYXQgd2lsbCBzYXZlIG15IHdvcmxkIGZyb20gbWUuDQoNCg0KSUlJOiBVcHNpZGVkb3duIENha2UgRW1lcmdlbmN5DQoNCkVjc3Rhc3ksIGVjc3Rhc3ksIGVjc3Rhc3khDQpJdCBjb21lcyBqdXN0IGFmdGVyIHRoZSBtYWRuZXNzLA0KdGhlIGNvb2xpbmcsIHdoZW4gdGhlIEJ1ZGRoYS1yb2NrcyBmb3JtLg0KSXQgaXMgdGhlIGV4cGFuc2Ugb2Ygb3V0ZG9vcnMgaW5zaWRlLA0Kd2hlcmUgcGxhc3RpYyBmYWNlcyB0ZWxsIHlvdSB0byBjb25zdW1lDQpmb3IgdGhlbSwgZm9yIHRoZWlyIHNha2VzLCBmb3IgdGhlaXIgc291bHMsDQpidXQgbm90IGRvaW5nIGl0IGJlY2F1c2UgeW91IGtub3cgdGhhdA0KeW91J3JlIGEgZ2VuaXVzIGFsbCB0aGUgdGltZSBhbmQgc28gYXJlIHRoZXkuDQoNClRoZSBzdGFycyBvbmx5IHNwYXJrbGUgY2xvc2UgdG8gdGhlIGhvcml6b24uDQpIaWdoZXIgdXAgdGhleSBidXJuIHN0ZWFkeSwgYnVybiBjb2xkIA0KbGlrZSBtaXJyb3JlZCBCdWRkaGEtc3RvbmVzIGhhbmdpbmcNCmluIHRoZSBza3kuICBUb3VjaCB0aGVtLCBrbm93IHRoZW0sDQpzaXQgY3Jvc3NsZWdnZWQgb24gdGhlIHN0b25lcw0KYW5kIGxvb2sgYmFjayBhdCBFYXJ0aCBzbyBmYXIgYXdheS4NCg0KU3RvcCB0aGUgdm9pY2VzLiAgU3RvcCB0aGVtLCB0aGVuIGxpc3Rlbg0KZm9yIHRoZW0uICBUaGV5IGFyZSBzdGlsbCANCnlhbW1lcmluZyBoYXphZ2FkaSB6b29mdXJvby4NClRoZXkgbWFrZSBhcyBtdWNoIHNlbnNlIG5vdyANCmFzIHdoZW4geW91IGhlYXIgdGhlbS4NCktlZWthd2FsbGkgaG9vemFyb28sIGl0IGNvbnRpbnVlcy4NCg0KTm93IGlzIGFsbCB0aGF0IG1ha2VzIHNlbnNlLg0KRXZlcnkgc2Vjb25kIHBhc3NlZCBpcyBub3Qgd2FzdGVkLA0KaXQgaXMgbGl2ZWQsIGl0IGlzIGJlY29tZSwNCml0IGlzIGEgbGlmZXRpbWUgY29uZGVuc2VkIHRvIHRoZSBwb2ludA0Kb2YgYSBwZW4uICBJdCBpcyBhIHRob3VzYW5kIGRlYXRocywNCnR3byB0aG91c2FuZCBiaXJ0aHMsIGFuZCB5b3UNCndobyBoYXZlIGJlZW4gdGhlcmUgZm9yIGl0IGFsbCwNCnRvbyBidXN5IHdpdGggbGxhbmFzYXJpIG11dGF3YS4NCg0KWW91IGtub3cgd2hhdCB0aGV5IG1lYW4sDQpub3cgY2hvb3NlIHRvIGZvcmdldCBhbmQgbGVhcm4NCnRvIHdhbGsgZHVtYiBzbWlsZS1ub2RkaW5nIHRvDQp0aGUgYmFiYmxlIGJhYmJsZSB5YW1tZXIgd2UgYWxsIHNwZWFrLg0KDQpXZSB3aWxsIGRyaW5rIHN1bi1mZXJtZW50ZWQgd2luZQ0KdGhhdCB0YXN0ZXMgbGlrZSB0dXJwZW50aW5lDQpidXQgd2Ugd29uJ3QgY2FyZSBiZWNhdXNlIGl0J3MgaGVyZQ0KYW5kIGl0IG1pZ2h0IGFzIHdlbGwgYmUgcHJlY2lvdXMuDQpUaGUgc3BhY2lvdXMgbW91dGggd2lsbCBzd2FsbG93DQp0aGUgdHVycGVud2luZSBkb3duIHRvIHRoZSBndWxsZXQNCndoZXJlIHRoZSBzdG9uZXMgd2Ugc3dhbGxvd2VkDQp0byBiZWNvbWUgbW9yZSBob2x5IHdpbGwgdHJ5IHRvIG1hc2ggDQp0aGUgbGlxdWlkIGFuZCBmYWlsLiAgVGhlIHN0b25lcyANCmN1cnNlIHRhbWFraWxpIG9vbGFuaWtpIGZvb3Rhc2gsDQphbmQgd2UgdGhlbiBiZWxjaCBsb3VkbHkuDQoNCkl0J3MgZHJ5cm90dGVkIHNlYXRiZWx0cywNCml0J3MgZHJ5cm90dGVkIGZhbWUgZm91bmQgDQppbiBhIG1vbWVudCBvZiBwZWFjZQ0KYmV0d2VlbiBhIG1leGljYW4ncyB0aGlnaHMuDQpJdCdzIHRoZSB3YXkgc2hlIHRyaWVzDQp0byBwbGVhc2UgYW5kIHNlaXplIGhlciBvd24gam95LA0KYW5kIGhvdyBoZXIgcGFyZW50cyB3ZXJlIGNvbW11bmlzdHMgDQp3aGVuIHNoZSB3YXMgcyBjaGlsZC4NCg0KQXMgYSBjaGlsZCBJIHRob3VnaHQgbXkgdW5jbGUgd2FzIGZ1bm55Lg0KV2hlbiBJIGdyZXcgb2xkZXIgSSBkaXNjb3ZlcmVkIGhlIHdhcyBhIGRydW5rLA0KaGlzIGdvb2R0aW1lIHNtaWxlIGZhY3RvcnkgaGF2ZSBmdW4NCndpdGggdGhlIGNoaWxkcmVuIHdhcyBicm91Z2h0IG9uDQpvbmx5IGJ5IGFsY29ob2wuICBZZWFycyBsYXRlcg0KSSBmb2xsb3dlZCBoaXMgbGVhZC4gIEJ5IHRoZW4gaGUgaGFkIHF1aXQuDQpXZSBib3RoIGhlYXJkIHRoZSBzYW1lIHZvaWNlcy4NCg0KSXQgaXMgZm91bmQgaW4gdGhhdCBpbmZpbml0ZSBtb21lbnQNCm9mIGFic29sdXRlIGxvbmVsaW5lc3MgcHJlY2VkZWQNCmJ5IGZhbnRhc3RpYyBob3BlIGFuZCBleHBlY3RhdGlvbg0KdGhhdCBtYWtlcyB5b3Ugd2FpbCBhbmQgbWFyaw0KeW91cnNlbGYgd2l0aCBwZXJtYW5lbnQgaW5rLA0KYSBiYWRnZSBvZiBwcmlkZSBpbiBtaXNlcnkuDQpUaGVuLCB3aXRob3V0IHBsYW4gb3IgYWdlbmRhLA0Kb3IgYW55dGhpbmcgYXQgYWxsIHRvIGRvIGFuZA0Kbm8gaWRlYXMgb3IgY29udGFjdHMgb3IgbnVtYmVycw0KdG8gY2FsbCwgc2xlZXBpbmcgZml0ZnVsIGluIHRoZSBjYXINCmFzIGEgbWVhbnMgb2YgcGFzc2luZyB0aW1lDQpub3Qgd2FzdGVkLCBidXQgbGl2ZWQgdW5jb25zY2lvdXMuDQoNClVwb24gd2FraW5nLCBzZWUgdGhlIHN1cnJvdW5kaW5nIHN0b25lcw0Kbm90IHlldCBhc2NlbmRlZCB0byB0aGUgc3RhdHVzDQpvZiBCdWRkaGEuICBUaGVzZSBhcmUgdGhlIHJvY2tzDQp3ZSBzd2FsbG93ZWQgaW4gYW4gYWN0IG9mIGZpdHRpbmcNCmZvb2xpc2huZXNzLCB3ZSdyZSBmb29scyBtYWRlIHNsb3cNCmJ5IG91ciBjb29saW5nLWZyZWV6aW5nIGVjc3Rhc3kuDQoNCg0KSVYuICBBIFNpZ24gb2YgVGhpbmdzIHRvIENvbWUNCg0KRGlzcmVnYXJkIHRoZSB3aWxpbictYXdheSBkYXl0aW1lIHN0YWxrZXJzDQp1bmRlcm1pbmluZyB0aGUgZmFicmljIHNpbGsgc2hlZXRzIHVud2FzaGVkIG9mIHNvY2lldHksDQpzaGFycGVuaW5nIHRoZWlyIGRvdWJsZWJpdHRlZCBBbWVyaWNhbiBmb2xrdGFsZSBoZXJvIHdvcnNoaXANCmxvb2sgYXQgaG93IGZhciB3ZSd2ZSBmYWxsZW4gYXhlcyB1cG9uIHRoZSBmb3VuZGF0aW9ucw0KYmVpbmcgc3B1biBhbmQgc3B1biB1bnRpbCBub3RoaW5nIGlzIHN0YWJsZS4NCkRpc3JlZ2FyZCB0aGUgbWluZCBlYXRlbiBjaGlsZHJlbiBzdHVtYmxpbmcNCnVwZW5kZWQgdGhyb3VnaCBkZWFkIGV5ZXMgdGhhdCBjYW4ndCBzZWUgZm9yIHRoZW0NCmJlY2F1c2UgdGhlIHdlcmUgZWF0ZW4gb3V0IGJ5IGdvdmVybm1lbnQNCnNhbmN0aW9uZWQgcmFkaW8gd2F2ZXMsIGJ5IG9yZGVyIG9mIHRoZSDDnGJlcm1lbnNjaCBxdWkgbidlc3QgcGFzIGzDoC4NClVuZGVyc3RhbmQgdGhhdCB0aGV5IGFyZSBoYXBwaWVyIG5vdyBob3cgdGVycmlibGUgdGhlIHdvcmxkIGlzLCBpc24ndCBpdD8NCg0KVGhleSdyZSBzbWFzaGluZyBhcGFydCB0aGUgYW5ncnkgd2F0Y2h0b3dlcnMsDQp0aGF0IGJ1cm5pbmcgZXllIGluIG91dGVyc3BhY2UgdGhhdCB3YXMgcHV0IHRoZXJlDQp0byB3YXRjaCB5b3UgYW5kIHNwYW5rIHlvdSByb3R0ZW4gd2hlbmV2ZXIgeW91IGxvb2sgb3V0IG9mIGxpbmUsDQp3aGVuZXZlciB5b3UgbG9vayBhdCB0aGUgb2NlYW4gYW5kIHN0YXJ0IHRvIGNvbWUgYWxpdmUgYWdhaW4NCmNvbmZpZGVudCBpbiB0aGUgZmFjdCB0aGF0IHdobyB5b3UgYXJlIGlzIGV4YWN0bHkgcGVyZmVjdC4NCkJlaGluZCB0aGF0IHRoZSBtb29uIGlzIG9uIG91ciBzaWRlDQp0cnlpbmcgdG8gc21hc2ggYXBhcnQgdGhlIGluc3RpdHV0ZSwNCnRoZSBiZWF1dHkgb2YgZGVzdHJ1Y3Rpb24gbWFkZSBtYW5pZmVzdA0KYW5kIHdhaXRpbmcgZm9yIHVzIHRvIHNlZSBpbiB0aGUgc2t5Lg0KDQpJdCBpcyBzcG9rZW4gaW4gd2hpc3BlcnMgYXQgdGhlIGJhY2sgb2YgdGhlIHJvb20NCmhpZGluZyBpbiB0aGUgc2hhZG93cyBvZiBhIGdyb3NzbHkgaW5mbGF0ZWQgYnkgY29uc3VtZXJpc20gd2Fpc3RsaW5lLA0KbmV4dGRvb3IgbHluY2htb2JzIGFyZSBzZWVraW5nIG91dCB0aGUgdm9pY2VzIG9mIHRoZSBuZXh0IGdlbmVyYXRpb24NCnVuZGVyIHByZXNzdXJlIGZyb20gdGhlIHN1YmxpbWluYWwgbG9iZS4NClRoZXNlIGdyZWFzeS1maW5nZXJlZCBiYXN0YXJkcyBhcmUgc3ByZWFkaW5nIA0KdGhlaXIgY29udm9sdXRlZCB0cnV0aHMsIGZpbmdlcnMgaW4gZXZlcnkgc2F2b3J5DQpkZXNzZXJ0IHB1dHRpbmcgYSBkcmlwLWRyb3AgcGllY2Ugb2YgdGhlbXNlbHZlcw0KaW4gdGhlIGZhdC1mYWNlZCBiZWxseSBvZiB0aGUgbG95YWwgcHVibGljLg0KDQpUaGUgZ2xhc3MtZXllZCBzdHVkZW50cyBhcmUgYWxsIGF3YWl0aW5nIHRoZWlyIHRlYWNoZXINCndobyBoYXMgZ29uZSBvbiBzYWJiYXRpY2FsIGJlY2F1c2UgdGhlIHdvcmxkIHdhcyBzaW1wbHkgdG9vIG11Y2ggdG8gYmVhci4NCkFuZCBhbGwgYXJvdW5kIHRoZW0gYXJlIGFnZW50cyBvZiBjaGFuZ2UgcGVyZmVjdGx5IGNhbW91ZmxhZ2VkDQpyZWFkeSB0byB3aGlzcGVyIGluIHRoZWlyIGVhcnMgdGhhdCB0aGV5IGhhdmUgd2FpdGVkIGxvbmcgZW5vdWdoDQphbmQgaXNuJ3QgaXQgYWJvdXQgdGltZSB0aGF0IHRoZXkgZGlkIHNvbWV0aGluZyB3b3J0aHdoaWxlIA0Kd2l0aCB0aGVpciB0aW1lIGluc3RlYWQgb2Ygd2hhdGV2ZXIgaXQgaXMgdGhpcyBpcw0KYmVmb3JlIHRoZSBzdWJsaW1pbmFsIGxvYmUgZmluZHMgdGhlbSwgbG9ib3RvbWl6ZXMgdGhlbQ0Kd2l0aCBzaWNrbHkgc2hhcnBlbmVkIHRvb2xzIHdlbGwga2VwdCBpbiBhbGwgb2Ygb3VyIGNsb3NldHMuDQoNCkFuZCBvbmUgZGF5IGl0IHdpbGwgY29tZSBvdXQgb2YgaGlkaW5nLA0KZ3VucyBvZiBwZXJmZWN0aW9uIHV0b3BpYSBibGF6aW5nIGEgY2xlYW5zaW5nIGJyZWF0aA0KYWxtaWdodGx5IHdyYXRoIG9mIHRoZSBkb3dudHJvZGRlbiwNCnRoZSBmb3Jnb3R0ZW4gZGVhZHRoaW5ncyB0aGF0IGFwcGVhciB0byB0aGUgd29ybGQgYXMgZ2FyYmFnZSwNCmFuZCB0aG9zZSB3aG8gZW1lcmdlIHdpbGwgYnJlYXRoZSB1bndhdGNoZWQgYW5kIGFtYXppbmcsDQpvbmUgZGF5IGFuZCB0b21vcnJvdyBhbmQgZm9yZXZlci4="
+"eventtime","2006-02-07 15:33:00"
+"url","http://cannedtuna.livejournal.com/99729.html"
+"userid","2467"
+"itemid","388"
+"event","ALL IS WELL, GOODNIGHT HERO
+
+Sic 'em, trick 'em, roll 'em into dough.
+Turn that water into gold and starve
+to death. Will you eat your children
+when the cupboard is bare?
+Swallow the venom, vain sweetheart,
+swallow the come of the come-and-gone
+men when the cupboard is bare.
+
+So get after 'em, roll 'em into dough.
+Make bread from their bones,
+break the clock, pull up your socks
+to keep your ankles dry in the flood.
+Ripples in the water that runs deep,
+tell me where the bottom lies.
+
+Let's go to the bottom,
+let's see the dead mothers
+and their penniless children.
+They're all penny dreadful,
+singing songs of moonbeam terror,
+never looking you in the eye.
+
+So save up your pennies,
+save up your pride, put
+them in a jar and never
+look inside until the pretty
+girls cry down the street,
+until they flood the streets
+and get your ankles pretty-girl wet.
+
+The creeps are stalking a crazy-time
+waltz in time to the bodies falling.
+""YOU ARE FREE TO DO AS WE TELL YOU,""
+the television screams, and the monkeys
+do as they tell them, they dance
+the dance and push the buttons
+when they are told. They get the cheese
+when the killing machines swing the axe.
+
+And Bhudda and Jesus are laughing
+in uncomfortable horror as the children
+are led into their cattle stalls,
+while behind them the bodies
+of all the murdered parents conceive
+their children all over again.
+But Bhudda and Jesus are too busy
+counting the dead to bless the children.
+
+So sic 'em, trick 'em, roll 'em into dough.
+Roll 'em slow, string 'em out long,
+string 'em out like smack addicts
+looking for their next big fix
+that stretches from the drain until desire.
+And in between the dope fiends are laughing.
+They're laughing at the reality
+they've transcended, that they've
+broken and raped and left crying alone.
+
+And now that it's broken, where do we stand?
+
+It's the ruins, it's the dead society.
+It is dead like your hair
+and your ripped-to-the-quick fingernails.
+Just rip them out, just tear them out
+while scratching out your eyes
+in attempts to look away from the nine-to-five
+ratrace poisoned Starbucks muffins.
+
+We are puff-puff HOLY! tonight
+with the madness madness madness
+of too many terror-moons, too many
+deathbeamsset up by supervillains
+riding missile death down
+upon our fair city of failth
+with no superheros to save it.
+
+Every car is a cop car,
+every car is missile death
+captained by that missing-in-action
+superhero that amounted to exactly nothing.
+It's you! You are the Holy! Holy! Holy!
+Amen Hallelujah that will save this world,
+that will save my world from me."
+"eventtime","2006-01-06 00:55:00"
+"url","http://cannedtuna.livejournal.com/99516.html"
+"userid","2467"
+"itemid","387"
+"event","<lj-cut text=""Lookee here!  a poem!  "">
+
+<i>Reverent Night Hate</i>
+
+One night is all we need
+to fall in love and fine the state
+for all those stolen years of labor.
+This night, we'll stare at the swift-
+ly moving skies screaming by. 
+We'll flick lighters for a beacon
+in the darkness to be found.
+
+There is no reasoning with the sane.
+There is no reason in the way
+the lights dance across a face
+in the quiet minutes after love
+ends forever.  She wants to see
+you cry.  She wants to die
+when you don't.  There is no
+one that wants you there.
+You're a ghost if you choose.
+You're a ghost if you dare.
+
+There's a cave-like charm
+to the fluorescent lights
+on the cement ceiling.
+It's safety.  It's open-
+closed.  It's the love 
+of a tomb sealed happy
+at the sunset of yesterday.
+
+One night at a time,
+it's all that we're given.
+No amount of freedoms
+won can liberate the mind
+from the constraints of time.
+One night, buried in lyme,
+stuck, tires spinning.  
+
+We're just brain-gray
+lumps left stewing in bodies.
+Lights betray our true colors.
+In the dark we're all the same
+shade.  And when she flips
+the switch, sick of being 
+the same, look at her face,
+and see the disgust.  See 
+how she flees, how she breathes
+hard in the rain dripped night.
+See how she comes back
+tomorrow night to kick
+the dog and click her heels
+to wish you home again.
+
+She wanted more than you
+have to offer.  Her life
+is brain-gray, bruised,
+afraid to sleep.  While
+you sleep, she sings to her
+life and damns it, then dances
+to the song you sang for her
+right before she sneered
+and walked away from your tomb.
+
+It was one night, taken as given,
+then returned when it was through.
+It was scratchy, it was flawed,
+it was hell say goodbye to."
+"eventtime","2005-12-14 17:58:00"
+"url","http://cannedtuna.livejournal.com/99148.html"
+"userid","2467"
+"itemid","386"
+"event","I have not updated this in a very long time.  So now we shall.  Kind of.  
+
+This weekend was a Halloween costume party, and for the first time in years I dressed up.  As Ziggy Stardust.   Rich Uncle Skeleton (www.richuncleskeleton.com) and Yimwu and the Dirty Eyelens (www.myspace.com/yimwu) played, and fantastically at that.
+
+Other costumes featured were:
+DJ- Guy Fox
+Beth- Patience
+Gabe- Hunter S. Thompson (a la <i>Fear and Loathing</i>)
+Blaine- Sid Vicious (with Nancy played by his girlfriend, whose name I cannot remember)
+Carla- A very awesome witch costume.  I could not tell it was her at first (her husband was Darth Maul, spikes and all).
+Paul- <i>Taxi Driver</i>'s Travis Bickle... 
+and many others.
+
+<lj-cut text=""You could say my costume borders on crossdressing..."">
+<img src=""http://img.photobucket.com/albums/v110/charliec218/ziggy.jpg"" alt=""Image hosted by Photobucket.com"">
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/ziggy2.jpg"" alt=""Image hosted by Photobucket.com"">"
+"eventtime","2005-10-31 01:35:00"
+"url","http://cannedtuna.livejournal.com/99057.html"
+"userid","2467"
+"itemid","385"
+"event","Hopper's Bones
+
+It looks like that famous Hopper painting,
+the one of the dead-of-night diner,
+except the girl isn't here tonight.
+She hasn't been by in a while, in fact.
+It's just been me and the man behind the counter.
+I'm a nighthawk these nights,
+and I'm hungry for blood.
+I want to feast on the innards
+of an unsuspecting prey,
+then cackle at the stares of horror.
+
+Yeah, I'm a monster, you see,
+I have no regrets.
+It's fun,
+and little girl, you're next.
+You're having too much fun,
+too much is going right,
+and it's time for you to take a fall.
+Honey, you're going to lose it all,
+your life is going to crumble around you,
+and we'll see how happy you are then.
+When you've got nothing left,
+when your body is nothing but bones,
+babe, then you'll be a monster too.
+You're going to feed on flesh
+to fill your empty bones.
+
+Oh, and the girl from the painting,
+I know where she went.
+She's in my basement,
+and she's nothing but bones.
+I told her everything she wanted to hear,
+and took her to a place 
+where screams fall silent.
+I tied her to a chair
+until the meat sloughed from her bones.
+And she's still there in her red dress
+and her high-heeled shoes,
+but she's smiling a toothy grin.
+She won't make that mistake again.
+
+""Sweetheart, you can do no wrong,
+that is, until you talk to me.""
+I say this with the same toothy grin
+that greets me at home each morning.
+I go to church each day
+to try to earn my way back nto heaven.
+The priests say it won't work,
+but what do they know.
+I know that God loves me
+even though I use the Devil's tricks.
+
+Hopper didn't paint the skeletons in the diner,
+but they're the only ones alive.
+They're smoking brimstone cigarettes
+and smiling lipless grins.
+they were eaten alive,
+taken in their prime,
+lamenting their wasted lives,
+and I am there for them,
+dressed in black on black on bone."
+"eventtime","2005-09-29 17:38:00"
+"current_moodid","84"
+"url","http://cannedtuna.livejournal.com/98637.html"
+"userid","2467"
+"itemid","384"
+"event","It's been entirely too long since I updated.  So here we go.  I'll try to remember as much as possible, but chances are that I'll forget a lot.
+
+Went with Beth to see Against Me! at the Ottobar.  It was a great show, Beth was really impressed with their live performance.  I tried to tell her what to expect, but she didn't believe me.  Needless to say, she was a bit suprised.
+
+I am very pleased with the direction in which my writing has been going.  Don't really know what else to say, but if you're interested, I've been posting at the following link under the handle ""Chaz"".
+
+http://www.xsorbit2.com/users/poetrycoffeeshop/index.cgi
+
+The other weekend I was staying at Beth's when her sister knocked on the door around 10:00 saying that she had a visitor.  We go out there and there's what appears to be a mountain man sitting in the living room.  Turns out this was DJ, one of the guys recording Beth.  He insists that we go to breakfast, so off we go.  He was a really cool guy, and invited us to a party that night.  We got to the party that night, and it was absolute insanity.  DJ apparently gets naked when he drinks, and he would periodically disappear, then show up with one less article of clothing on.  Finally, it was time for ""Pants Off on Top of the Refrigerator Shots"", and that was about the end of it.  Beth and I left early, and apparently it just got worse from there.
+
+One thing that came out of the night was that I met Lindsay, the girlfriend of the other guy recording Beth.  Turns out she lives in Towson and is terribly bored here, and was happy to find out that we could hang out.  
+
+So I've been keeping her company for a few nights while her boyfriend is at work.  Monday we went to see Aqualung.  She insisted that we drive in so taht she didn't have to worry about leaving early to catch the Metro.  Of course, we got lost.  Blah blah blah, we eventually got there, we were able to catch the last 40 minutes of the set, which was good.  We waited outside 9:30 so that Lindsay could meet them for over an hour.  Saw some hookers walk by.  Finally met them, they were cool guys.  
+
+We left, and of course, got lost trying to get out of the city.  When we finally got out of the city, we went south to hang out at Denny's with DJ and a few other guys.  We were there until around 5:00, then headed home.
+
+I've had a headache all day.  It sucks.
+
+The semester is almost over.  Yay.  Now I need to find some sort of work for the summer.
+
+All for now."
+"eventtime","2005-05-11 22:27:00"
+"url","http://cannedtuna.livejournal.com/98551.html"
+"userid","2467"
+"itemid","379"
+"event","Ok, people have been asking for some new pictures, and in turn, I will provide the goods (happy now??).
+
+<lj-cut><img src=""http://img.photobucket.com/albums/v110/charliec218/IMG00023.jpg"" alt=""Image hosted by Photobucket.com"">
+The hat I got while I was in Ireland.  I wear it just about every day, and thus I have some mega hat hair most days.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/IMG00018.jpg"" alt=""Image hosted by Photobucket.com"">
+What my hair looks like these days.  Yes, I've grown a beard.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/IMG00019.jpg"" alt=""Image hosted by Photobucket.com"">
+My fedora from New Orleans.  And more of my beard.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/fedoragangsigns.jpg"" alt=""Image hosted by Photobucket.com"">
+A better picture of the fedora.  Apparently I am throwing gang signs while taking the picture.
+
+Ok, happy now? :P"
+"eventtime","2005-03-15 16:39:00"
+"current_moodid","64"
+"url","http://cannedtuna.livejournal.com/97072.html"
+"userid","2467"
+"itemid","377"
+"event","I've really been neglecting the old LJ lately.  Oh well.  Deal.
+
+Lots of shows coming up, and I'm glad.  I've been away from life music for far too long, and it will be good to make my return.  Tomorrow's the RSG!, who I never tire of (yes, I dangled a preposition, get over it) along with the ever entertaining Shakedowns.  Looks like Beth's going to come along.  Hope she doesn't get scared off by all the scary punks, haha.  Next week Toots and the Maytals are coming to the Recher on the 20th, and on the 28th the Dropkick Murphey's.  April promises shows by Against Me! and LTJ.  What a great time for live music, no?
+
+From my Trad and Form in Western Fiction class Professor:
+""If it weren't for fantasy, my sex life would be nowhere, would it?""
+
+Blah blah words.
+
+**edit**
+Oh, so I've decided to get my first tattoo next weekend.  I'm thinking something like this:
+http://abacus.best.vwh.net/oro/oro55.jpg
+About 2 or 3 inch diameter, and much cleaner lines in black.  Either on the left shoulder or between the shoulder blades. Thoughts, comments?"
+"eventtime","2005-03-10 22:45:00"
+"current_moodid","41"
+"url","http://cannedtuna.livejournal.com/96614.html"
+"userid","2467"
+"itemid","376"
+"event","A fire drill? Are you fucking serious?!"
+"eventtime","2005-03-10 04:34:00"
+"url","http://cannedtuna.livejournal.com/96493.html"
+"userid","2467"
+"itemid","375"
+"event","Well, it certainly has been a while, no?  Last weekend was full of snow, snow, and more snow.  This resulted in me staying home for a few extra days, heh.  I am truly a lazy bastard.
+
+My friend Bekah's husband got home from Diego Garcia (in the Philapines) on Saturday, and it was really great to see him again after six months (though surely not as nice as it was for her, if you know what I mean).  Also, Bekah gave birth to their first child today, and I can't wait to get home to see her.  I'm really glad that Randy got to be here for it.  The only sucky part is that he has to leave for another six months in just a month.  I can't imagine how hard that has to be for them.
+
+Some bad news.  I checked on the Flogging Molly show in Philly, and it turns out it's a 21+ show.  Dammit.  Also, my ""c"" button is sticking, and that is annoying.  
+
+Some good news.  Toots and the Motherfucking Maytals are playing in Towson (at the Recher, unfortunately) on March 20th!  I am so there.  Also, there is the RSG! and the goddamn motherfucking Shakedowns are playing the Black Cat on the 11th.  Be there peoples."
+"eventtime","2005-03-04 01:06:00"
+"url","http://cannedtuna.livejournal.com/96011.html"
+"userid","2467"
+"itemid","374"
+"event","Today was day two of the burnfest.  Flogging Molly, more Bouncing Souls, more of the Clash, Street Dogs, and soon Violent Femmes and The Chinkees.  Word.
+
+Tonight I braved the weather to see They Might Be Giants play at the Borders up the street.  It was a short show, only about half an hour long, but it was still good.  The crowd was mostly parents and their youngish kids, because they're promoting their new children's album.  It's really interesting to see the way that TMBG has changed their target demographic over the years, but I'm sure that they'll maintain their hardcore following no matter what.
+
+As I was leaving, I ran into Eric.  Talk about random, right?  Turns out he came down for the show because he hadn't seen them in something like 4 years.  Nice guy that he is, he gave me a ride back to the dorms, saving me a long cold walk.  I also learned that Flogging Molly is playing in Philly not too long from now, so there may be a chance to see them after all!"
+"eventtime","2005-02-25 00:20:00"
+"url","http://cannedtuna.livejournal.com/95955.html"
+"userid","2467"
+"itemid","372"
+"event","They Might Be Giants.
+
+7:00 Thursday.
+
+The Towson Borders
+
+FREE"
+"eventtime","2005-02-21 19:36:00"
+"url","http://cannedtuna.livejournal.com/95425.html"
+"userid","2467"
+"itemid","370"
+"event","Happy birthday to me!"
+"eventtime","2005-02-18 02:25:00"
+"url","http://cannedtuna.livejournal.com/94939.html"
+"userid","2467"
+"itemid","367"
+"event","haha, i was just watching conan and the dirty dozen brass band was performing and promoted their show at the funk box tomorrow night.  i completely forgot about that.  anyone interested?"
+"eventtime","2005-02-09 01:24:00"
+"url","http://cannedtuna.livejournal.com/93984.html"
+"userid","2467"
+"itemid","364"
+"event","<b>IntegR Dude5 (2:43:18 PM)</b>: this game is return of the Jedi
+<b>IntegR Dude5 (2:43:26 PM)</b>: lemme explain
+<b>kill whitey 218 (2:43:27 PM)</b>: ok
+<b>IntegR Dude5 (2:43:50 PM</b>): so the empire rises be fore the real trilogy starts
+<b>IntegR Dude5 (2:44:32 PM</b>): thats like the superbowl three years ago
+<b>IntegR Dude5 (2:44:32 PM</b>): then theres a set back in Star Wars a new hope
+<b>IntegR Dude5 (2:44:39 PM)</b>: the death star is destroyed
+<b>IntegR Dude5 (2:44:41 PM)</b>: the pats dont make the playoffs
+<b>IntegR Dude5 (2:44:58 PM)</b>: then in empire the dark side seems to gain the upper hand
+<b>IntegR Dude5 (2:45:05 PM</b>): ie last years superbowl
+<b>IntegR Dude5 (2:45:50 PM</b>): then in Jedi the dark side is riding their momentum and planning to destroy the rebels for good in one last epic battle
+<b>IntegR Dude5 (2:46:04 PM)</b>: this sean the pats ride a 21 game winning streak
+<b>IntegR Dude5 (2:46:41 PM</b>): now we come to the epic battle at the end where lando and wedge must destroy the death star and luke must fight vader
+<b>IntegR Dude5 (2:47:04 PM</b>): and we all know how that one ended
+<b>IntegR Dude5 (2:47:10 PM)</b>: this will be no different
+<b>kill whitey 218 (2:47:42 PM)</b>: that's incredible
+<b>kill whitey 218 (2:47:50 PM)</b>: you've really thought this out, haven't you?
+<b>IntegR Dude5 (2:48:05 PM</b>): actually it just came to me
+<b>IntegR Dude5 (2:48:35 PM)</b>: but not the retun of the jedi part ive been muddling that one over foe weeks
+<b>kill whitey 218 (2:48:48 PM</b>): brilliant
+<b>IntegR Dude5 (2:49:01 PM)</b>: i thought so myself
+<b>kill whitey 218 (2:49:02 PM)</b>: now i'm convinced that the superbowl is scripted
+<b>IntegR Dude5 (2:49:13 PM)</b>: oh but it isnt
+<b>IntegR Dude5 (2:49:25 PM)</b>: just destiny and the power of the force
+<b>kill whitey 218 (2:49:40 PM)</b>: haha, if you say so man"
+"eventtime","2005-02-03 14:54:00"
+"current_moodid","44"
+"url","http://cannedtuna.livejournal.com/93293.html"
+"userid","2467"
+"itemid","359"
+"event","So here I am, back in Towson.  Not much to say about that, really.  It's all the same as it's ever been.  Strangely, it seems that my suitemates have not detripled, so I get to spend another semester listening to their homoerotic rantings.  It's great, really.  Classes started today.  Social Gerontology and Shakespearian Tragedy.  Good stuff. For Shakespeare, we get to act out a scene, and that could be interesting.   More tomorrow.  I'm only signed up for 12 credits, but i'm not sure I want to add another, mainly because I'm not sure what else I'll be able to take.  Most of the classes I need are in pretty high demand.
+
+Monday:  2:00- 3:15 Social Gerontology, 3:30- 4:45 Shakespearian Tragedy
+Tuesday: 9:30- 11:00 Folklore and Lit, 12:30- 1:45 Trad and Form in Western Fiction
+Wednesday, same as Monday,
+Thursday, same as Tuesday
+Friday, nothing
+
+And there you have it.  Getting up for 9:30 classes is going to suck.  I'm a wimp."
+"eventtime","2005-01-27 00:29:00"
+"url","http://cannedtuna.livejournal.com/91912.html"
+"userid","2467"
+"itemid","358"
+"event","Big Daddy Chrome
+Scheduled Beating
+The Stabones
+Thee Lexington Arrows (ex-ABC Bombers) 
+
+Friday, 8:00, the Sidebar
+
+Who's down?"
+"eventtime","2005-01-25 20:27:00"
+"url","http://cannedtuna.livejournal.com/91863.html"
+"userid","2467"
+"itemid","357"
+"event","So on Friday, I headed up the road bound for Philly for Toasters and Pietasters.  Picked up AJ at the metro, and we both arrived at virtually the same time, so there was no waiting in the cold.  Once we got to Towson, I went by my friend's apartment to see if I could crash there, and everything was ok on that, so we hung around for a bit waiting for Julie and Tom to pick us up.  When we went back out to the car, I noticed that my muffler was hanging on the ground.  Last time I checked it was not supposed to do that.  Fuck, something else wrong with my car.
+
+Julie arrived and we got back out on the road.  Drove, drove, drove, got there, parked.  It was so fucking cold there.  And trying to find a bathroom was like some sick game of musical chairs that the shopkeepers were playing.  For some odd reason, the Troc's box office closes from 6 to 7, so we ended up having to kill half an hour in the cold.  
+
+The show was great, though there was the inevitable asshole/idiot factor, so much of the night was spent dodging idiots incapable of dancing without elbowing someone in the eye.  Throughout the night we kept coming up with new games, such as ""punch anyone with more than one article of checkerboard apparel on"" (though that would have been exhausting).  
+
+We came back and did Waffle House.  Yay for grits.  Then we dropped me off and I got over to my friend's place and basically collapsed around 3:30.  Around 5:30 or so, my friend comes in and wakes me, trying to get me to get up and party/do tequila shots with them.  I believe my exact words were ""what the FUCK are you thinking?"" and ""i fucking HATE you guys"".  A few minutes later, some guy I had never met came into the room calling my name, and I quickly told him to get the fuck out.  Needless to say, I was pissed the fuck off.  I think I ended up getting somewhere around 3, maybe 4 hours of sleep that night, and I got up early so that I could beat the impending blizzard.  So after having the breakfast of champions (coke and cigarettes, haha), I MacGuyvered my muffler back onto the car with a coat hanger and hauled ass back to the county.
+
+I ended up crashing with most of my friends last night.  St. Mary's got something like an inch or two of snow, covered in about an inch of ice.  It was slick to say the least, and I once again got a wonderful 5 hours of sleep last night.  Sleep.... is something I want very much at this point.
+
+Good times."
+"eventtime","2005-01-23 19:34:00"
+"current_moodid","95"
+"url","http://cannedtuna.livejournal.com/91605.html"
+"userid","2467"
+"itemid","356"
+"event","Well, it snowed today.  The news this morning called for a ""dusting"" but we got the biggest damn dusting of snow I've ever seen!  I'd say we easily got more than an inch (ooooh, ahhhh, right? haha).  The roads were an absolute mess.  I saw one guy try to make a turn and end up just spinning around in the middle of the street.  Lucky for him, he didn't get hit by anyone.
+
+And I finally got some sleep last night!  After having not slept well since last Thursday night, it was much appreciated.  I woke up at around 5:00 and was just so happy that I had been asleep.  I really hope that I'm done with this little bout of insomnia for a while, because it is not fun in the slightest."
+"eventtime","2005-01-19 19:05:00"
+"url","http://cannedtuna.livejournal.com/91388.html"
+"userid","2467"
+"itemid","354"
+"event","Slackers in Philly last night.  Headed up to Towson to meet up with Julie and her friends from high school.  Got there early, they were running late, so I grabbed some overpriced food from one of the places on campus.  They showed up, I tucked and rolled into the car, frantically trying not to get hit by a car (not realizing that they just as easily could have turned around, heh).  Drove up with no trouble.  I even took my turn driving into the city, and amazingly, I didn't do something insanely stupid that resulted in us getting horribly lost.  I'm proud of me.
+
+We found the place easy enough and got in line, where we waited.... and waited.... and waited some more.  There were a bunch of people in front of us playing this bizarre version of ""who stole the cookie from the cookie jar"" that made everyone want to throw things at them.  We eventually got in somewhere around an hour after the posted time, on account of the band running late (riiiiiight).  The show started, and it was very good.  There was a particular bunch of fratboy types who seemed set on being fucktards, and after a little coercion (read: pushing the fuck out of them and giving them the finger), they seemed to take a certain interest in me (or maybe they were staring because they thought I was cute).  When I asked them what their fucking problem was, it turned out that they were gigantic pussies.  I find great humor in this.
+
+Headed home, stopped at Waffle House on the way back, and Julie and I attempted to get some sleep, though to no avail.  I think that in spite of physical exhaustion, I, for one, was just a bit too mentally wired to actually sleep at the time.  Got back to Julie's for sleeping around 2:00.  Two hours of staring at the celing later, I decided that this no sleep thing was not something I was digging too much, so I meekly went to ask Julie for a sleeping pill or something.  I think I finally conked out at some point after 5:00.
+
+Up this morning and out early (well, early considering the scant amount of sleep we had both gotten that night).  Julie let me borrow <i>Shaun of the Dead</i>.  Watched it tonight with some friends, and it was absolutely.  fucking.  brilliant.  If you haven't seen it, go see it right now.  
+
+So I'm still awake, I'm becoming noctournal again, and it's fucking freezing in here."
+"eventtime","2005-01-16 03:40:00"
+"current_moodid","84"
+"url","http://cannedtuna.livejournal.com/90781.html"
+"userid","2467"
+"itemid","353"
+"event","<table width=400 align=center border=1 bordercolor=black cellspacing=0 cellpadding=2>
+<tr><td bgcolor=#66CCFF align=center>
+<font face=""Georgia, Times New Roman, Times, serif"" style='color:black; font-size: 14pt;'>
+<b>You Are a Golden Retriever Puppy</b></font></td></tr>
+<tr><td bgcolor=#FFFFFF>
+<center>
+<img src=""http://www.quizdiva.net/bt/golden-retriever-puppy.jpg"">
+</center>
+<font color=""#000000"">
+Tolerant, fun-loving, and patient.
+You are eager to please - and attached to your frisbee.
+</font></td></tr></table>
+
+<div align=""center"">
+<a href=""http://www.blogthings.com/puppyquiz/index.php"">What Breed of Puppy Are You?</a>
+</div>
+
+
+awwwwww
+
+Anyway, went to work, as I have for the rest of the week thus far, and then helped my friend move from one apartment to another.  This turned out to involve a great deal of heavy lifting, including a huge fucking dresser and a desk that must have weighed 500 pounds.  No joke.  Better yet, we got to carry it through a hallway and up narrow staircases.  Ouch.
+
+After we got back to their new place, we basically sat and I didn't move unless absolutely necessary.  Art cooked us all a great dinner (all the more tasty because it was well-earned).  Later a few guys started playing DDR and I watched in amazement.  It's strangely hypnotic.  Later they popped in the new Resident Evil game (4, I believe), and it's an absolutely beautiful game.  Creepy as hell too.  All the people walk around speaking creepy sounding spanish and throw farm implements at you.  There's also a dude with a chainsaw that refuses to die and decapitates you at every opportunity.  If you're into video games, I would check it out. [/nerd]
+
+Slackers tomorrow!  I'm psyched!"
+"eventtime","2005-01-14 02:43:00"
+"url","http://cannedtuna.livejournal.com/90437.html"
+"userid","2467"
+"itemid","352"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074685008' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Jobs for your LJ Friends by brianwarnersgrl</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Username</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='armored_username' value='cannedtuna' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>are you sure you want to know?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='are you sure you want to know?' value='no i am not' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>positive?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='positive?' value='only fools are positive' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>ok this person is a hooker:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>pootyapplewater</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>this person is a wrestler:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>libeluladalua</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>this person is in a famous band:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>dulcinea12</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>this person is the singer of that band:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>rock_the_40oz_</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>this person will be the future president in 2026:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>toilet_love</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>this person is a babymaker:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>slskarock</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>this person is a drug dealer:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>everclear135</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>this person is a stripper:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>hollus2</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>and of course we all knew they would be a nun</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>borderline_pd</span></td></tr><input type='hidden' name='un' value='brianwarnersgrl'><input type='hidden' name='meme' value='1074685008'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2005-01-12 22:07:00"
+"url","http://cannedtuna.livejournal.com/90213.html"
+"userid","2467"
+"itemid","351"
+"event","<table border='0' cellpadding='5' cellspacing='0' width='600'><tr><td><img src='http://images.quizfarm.com/1105207153rmi verbal linguistic.jpg'></td><td> You scored as <b>Verbal/Linguistic</b>. You have highly developed auditory skills, enjoy reading and writing and telling stories, and are good at getting your point across. You learn best by saying and hearing words. People like you include poets, authors, speakers, attorneys, politicians, lecturers and teachers.<br><br><table border='0' width='300' cellspacing='0' cellpadding='0'><tr><td><p><font face='Arial' size='1'>Verbal/Linguistic</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='89' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>89%</font></td></tr><tr><td><p><font face='Arial' size='1'>Musical/Rhythmic</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='61' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>61%</font></td></tr><tr><td><p><font face='Arial' size='1'>Intrapersonal</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='46' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>46%</font></td></tr><tr><td><p><font face='Arial' size='1'>Visual/Spatial</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='43' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>43%</font></td></tr><tr><td><p><font face='Arial' size='1'>Interpersonal</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='39' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>39%</font></td></tr><tr><td><p><font face='Arial' size='1'>Logical/Mathematical</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='25' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>25%</font></td></tr><tr><td><p><font face='Arial' size='1'>Bodily/Kinesthetic</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='21' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>21%</font></td></tr></td></tr></table><br><a href='http://quizfarm.com/test.php?q_id=1343'>The Rogers Indicator of Multiple Intelligences</a><br><font face='Arial' size='1'>created with <a href='http://quizfarm.com'>QuizFarm.com</a></font></table>
+
+I suppose it's good that i'm an English Major then... :P"
+"eventtime","2005-01-12 02:08:00"
+"current_moodid","31"
+"url","http://cannedtuna.livejournal.com/89875.html"
+"userid","2467"
+"itemid","350"
+"event","Ok, this amuses me to no end.  Apparently there is a company out there selling a ""Go Canadian Kit"", which is basically a travel kit for Americans who don't want to get hassled for being American when they travel abroad.  It contains a T-shirt with a maple leaf on it and a few patches and stickers and that sort of thing.  You know, everything you need to disguise your nationality.  Canadians, however, are getting upset because they don't like the idea of American assholes going around to foreign countries giving Canadians a bad name."
+"eventtime","2005-01-11 12:23:00"
+"current_moodid","44"
+"url","http://cannedtuna.livejournal.com/89832.html"
+"userid","2467"
+"itemid","349"
+"event","<a href=""http://www.rso.wmich.edu/badminton/members.html"">this just makes me smile...and laugh a little</a>"
+"eventtime","2005-01-10 10:50:00"
+"current_moodid","44"
+"url","http://cannedtuna.livejournal.com/89400.html"
+"userid","2467"
+"itemid","348"
+"event","I had a pretty good weekend.  We went up to my aunt's house in Frederick to do super late christmas stuff.  Anyway, on Saturday night I headed to DC for a show at the Warehouse.  It was a good show.  The Stabones put on a really great opening set.  Absolutely hilarious on stage.  The Ready Steady Go! put on one of the best sets I'd seen them play in a long time, and I danced enough to meet my quota for the time it's been since I last danced.  Or something.  Big Daddy Chrome was next and put on a great show.  We didn't stick around for Booboise on account of tiredness and not really feeling all that enthusiastic about them.  I got to hang out with a bunch of cool people I hadn't seen in a long while (KT had a SWORD!), which was a good thing.
+
+On the drive home I got pulled over on some crappy little back road because my mom's car has a tag light out.  The officer then proceeded to lecture me on how I was lucky to not have been looking at a gun when he walked up to the car (I had been rooting around in the glove box for the registration).  It was all very stupid, especially considering that it was about 2:00 in the morning, there were no cars on the road, and I was doing the speed limit.  Blah.
+
+On a last note, I had this weird dream last night about joining the air force and not really wanting to, then going to Los Angeles for something having to do with the Air Force.  Strange.
+
+Aaaaaaaaand that is all.
+
+
+Oh, and this (hahaha, wait, let me put up my mohawk and put on my studded leather jacket)
+
+<table border='0' cellpadding='5' cellspacing='0' width='600'><tr><td><img src='http://images.quizfarm.com/1104013925London_Punks.jpg'></td><td> You scored as <b>Punk/Rebel</b>. <br><br><table border='0' width='300' cellspacing='0' cellpadding='0'><tr><td><p><font face='Arial' size='1'>Punk/Rebel</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='69' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>69%</font></td></tr><tr><td><p><font face='Arial' size='1'>Geek</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='50' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>50%</font></td></tr><tr><td><p><font face='Arial' size='1'>Loner</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='50' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>50%</font></td></tr><tr><td><p><font face='Arial' size='1'>Drama nerd</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='44' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>44%</font></td></tr><tr><td><p><font face='Arial' size='1'>Stoner</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='25' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>25%</font></td></tr><tr><td><p><font face='Arial' size='1'>Goth</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='25' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>25%</font></td></tr><tr><td><p><font face='Arial' size='1'>Ghetto gangsta</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='19' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>19%</font></td></tr><tr><td><p><font face='Arial' size='1'>Prep/Jock/Cheerleader</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='0' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>0%</font></td></tr></td></tr></table><br><a href='http://quizfarm.com/test.php?q_id=987'>What's Your High School Stereotype?</a><br><font face='Arial' size='1'>created with <a href='http://quizfarm.com'>QuizFarm.com</a></font></table>"
+"eventtime","2005-01-09 21:47:00"
+"current_moodid","87"
+"url","http://cannedtuna.livejournal.com/89287.html"
+"userid","2467"
+"itemid","347"
+"event","heh, ok guys, i was informed by julie that the slackers show that i had previously advertised as being on the 20th is actually on the 14th.  my bad."
+"eventtime","2005-01-06 01:22:00"
+"url","http://cannedtuna.livejournal.com/88895.html"
+"userid","2467"
+"itemid","346"
+"event","ok, this is friggin awesome.
+
+On the 20th, the Slackers are playing in Philly at some Unitarian Church. If this wasn't awesome enough, the very next night the Toasters, the Pietasters, and the Players are at Trocadero.  Can we say roadtrip? Come on people!"
+"eventtime","2005-01-05 01:56:00"
+"current_moodid","41"
+"url","http://cannedtuna.livejournal.com/88620.html"
+"userid","2467"
+"itemid","345"
+"event","Me First and the Gimme Gimmes at the Black Cat this Friday.  Who's up for it?
+
+PS, opening act is something called Jericho *shrug*"
+"eventtime","2005-01-03 12:38:00"
+"url","http://cannedtuna.livejournal.com/88564.html"
+"userid","2467"
+"itemid","342"
+"event","I've been in a really weird mood for the past few days, weeks, whatever.  I can't tell if I'm angry or what, but I've been feeling really moody lately, like I just don't want to deal with people.  It could be anger, though if it is, that opens up a whole new set of questions, such as ""why am I angry?"" and the like.  
+
+I've been bored too.  And do you know what happens when I get bored?  Well sometimes I smoke, but at home that's not really an option.  So I download music.  Lately I've been on a punk jag, looking into bands I've heard of plenty, but have never actually heard anything by them.  Bad Brains, Buzzcocks, Black Flag.  Today has been a psychobilly kind of day, so we're getting Nekromantix and the Horrorpops.  I need to get around to actually burning cd's of a lot of this stuff so I can listen in my car.
+
+In my group of friends down here, I've become ""the cynical/bitter/angry one"".  This is mostly in jest,  and I perpetuate this a bit, because it's kind of fun, but it is based in fact.  I find this interesting.  I didn't used to be this way.  Hell, I can remember being a friggin' idealist just a few months ago.  It really is amazing how a person can change.
+
+I hate working."
+"eventtime","2004-12-23 13:17:00"
+"current_moodid","92"
+"url","http://cannedtuna.livejournal.com/87730.html"
+"userid","2467"
+"itemid","340"
+"event","Well, I'm home.  I decided to skip the party I was supposed to go to on friday because I really didn't feel like doing the whole raucous party thing.  So I came home early.  My parents still thought I was coming home on Saturday, so I was sneaky sneaky and went to my friend's apartement and hid there, then went home on saturday as scheduled.  Did movie night on saturday night and ended up staying there, as usual.  Fear and Loathing in Las Vegas is one crazy movie.  We started watching Amelie, but ended up going to IHOP around 1:30 or so.  Good times.
+
+I need to do Christmas shopping badly.  I hate this not having money thing.  To alleiviate this, I'm going to start working again, which is a good thing.  The downside to this is that, well, I have to start working again.  I'll be working nights now, which should be interesting.
+
+I am very tired."
+"eventtime","2004-12-20 11:21:00"
+"url","http://cannedtuna.livejournal.com/87231.html"
+"userid","2467"
+"itemid","334"
+"event","Ok.  
+
+It is December.  
+
+It is also 60 degrees outside.
+
+The fuck is that?"
+"eventtime","2004-12-08 10:34:00"
+"current_moodid","6"
+"url","http://cannedtuna.livejournal.com/85583.html"
+"userid","2467"
+"itemid","329"
+"event","Please disregard my earlier post.  There is no reason for me to clutter up people's friends page and minds with my petty, angsty bullshit.  It's not important to anyone but me, really, and I have to get through things on my own.  I apologize to anyone unfortunate enough to read that."
+"eventtime","2004-12-02 13:40:00"
+"current_moodid","40"
+"url","http://cannedtuna.livejournal.com/84283.html"
+"userid","2467"
+"itemid","327"
+"event","Ok, here's some more pictures from our trip to the Dublin Zoo.
+
+I thought that I had resized all the pictures so that they wouldn't be huge, but for some reason only some of them actually did.  I dunno.  I don't feel like fucking with it right now.
+
+<lj-cut text=""ZOO"">
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/zoo/turtle.jpg"">
+A turtle.  He's cool.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/zoo/littlebirdie.jpg"">
+This bird was just hanging out on the ground.  He was nice enough to strike a pose for me.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/zoo/lazyasslions.jpg"">
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/zoo/julievslion.jpg"">
+The lions.  The one Julie's looking at took a swipe at her when she made a kissy face at her a few moments earlier.  The others were just being lazy.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/zoo/ass.jpg"">
+This was part of the farm exhibit.  This donkey was being kind of shy, not like those attention whore goats, or that horse that tried to eat my hand.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/zoo/meercat.jpg"">
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/zoo/coldmeercats2.jpg"">
+Everyone's favorites:  Meercats!  so cute.  poor things must be so effin cold though.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/zoo/ithadtobedone.jpg"">
+They had playgrounds set up all over the place, suitable for ages 4-16, or something like that.  But let's be honest, who doesn't like to play on playgrounds?  Why should the kids have all the fun?
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/tiredjulie.jpg"">
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/bigeffinhair.jpg"">
+And here we are after, having tea and being tired, enjoying the warmth of being indoors."
+"eventtime","2004-12-01 19:31:00"
+"url","http://cannedtuna.livejournal.com/83873.html"
+"userid","2467"
+"itemid","326"
+"event","OrangeJuiceTi (7:08:00 PM): Hey remember me?
+kill whitey 218 (7:08:15 PM): uhhh... who is this?
+OrangeJuiceTi (7:08:24 PM): I'm stacey
+kill whitey 218 (7:08:37 PM): stacey who?
+OrangeJuiceTi (7:08:46 PM): no last names
+kill whitey 218 (7:08:58 PM): where would i know you from?
+OrangeJuiceTi (7:09:09 PM): washington
+kill whitey 218 (7:09:21 PM): dc?
+OrangeJuiceTi (7:09:39 PM): huh?
+kill whitey 218 (7:10:02 PM): as in washington DC?  national capital?
+OrangeJuiceTi (7:10:14 PM): how old r u?
+kill whitey 218 (7:10:17 PM): 19
+OrangeJuiceTi (7:10:30 PM): i am watching fear factor, man this show isc razy
+kill whitey 218 (7:11:13 PM): who is this? and where did you get my screenname?
+OrangeJuiceTi (7:11:43 PM): i dont mean to bother u but i foudn ure sn on my buddy list for reason
+kill whitey 218 (7:12:11 PM): it's ok, i'm just sort of wondering where i would know you from
+OrangeJuiceTi (7:12:24 PM): I live in washington you?
+kill whitey 218 (7:12:33 PM): i'm in baltimore
+OrangeJuiceTi (7:12:44 PM): i just got m ynew laptop today, i'm excited lol
+kill whitey 218 (7:12:50 PM): that's nice
+OrangeJuiceTi (7:12:58 PM): i know, thanks!
+kill whitey 218 (7:13:03 PM): are you on livejournal?
+OrangeJuiceTi (7:13:08 PM): haha, FunnyMuffin.com has really funny pictures.  have you ever been there?
+kill whitey 218 (7:13:12 PM): no
+OrangeJuiceTi (7:13:24 PM): thats too bad
+OrangeJuiceTi (7:14:32 PM): hello? i just want to talk to u for a bit
+kill whitey 218 (7:14:38 PM): ok
+OrangeJuiceTi (7:14:56 PM): it is ok
+kill whitey 218 (7:15:00 PM): about what?
+OrangeJuiceTi (7:15:15 PM): do you have a gf/bf?
+kill whitey 218 (7:15:27 PM): yes
+OrangeJuiceTi (7:16:10 PM): thatsg ood
+kill whitey 218 (7:16:15 PM): it is
+kill whitey 218 (7:16:24 PM): she's studying abroad in ireland this semester
+OrangeJuiceTi (7:16:26 PM): man, i am tired
+kill whitey 218 (7:16:41 PM): how come?
+OrangeJuiceTi (7:16:56 PM): what do u think?
+kill whitey 218 (7:17:12 PM): uhh... i don't know? what have you been doing that would tire you out?
+OrangeJuiceTi (7:17:27 PM): so, whats your point?
+kill whitey 218 (7:17:44 PM): i was just asking you why you are tired
+OrangeJuiceTi (7:17:56 PM): thats odd
+OrangeJuiceTi (7:18:06 PM): You have been talking to a computer! One of your friends is reading the whole conversation and laughing it up right now!  GET EVEN! Have the bot talk to all your friends by visiting chattingaimbot.com
+
+motherfuckers!"
+"eventtime","2004-12-01 19:20:00"
+"current_moodid","44"
+"url","http://cannedtuna.livejournal.com/83593.html"
+"userid","2467"
+"itemid","325"
+"event","So it turns out that our dorm-room thanksgiving was awesome.  Meg and Miranda came through in a big way.  Seriously, it was awesome.  The turkey was SO good.  It was really just a wonderful evening.  And Julie and I made pie... sort of.  The next day we hit the town to do the wax museum and then movies galore.  The wax museum was great.  They had everything from the great heroes of Irish culture to the Ninja Turtles.  The chamber of horrors was especially good.  Scary, but good.  After that we headed to see the Incredibles, which was very very good.  And then we met Meg for I heart Huckabees.  That was a strange movie.  I came out of it not really knowing how to feel about it.  I know it was a good movie, but I just don't know what emotion it evoked.  Kind of an..... optimistic depression?  maybe?
+
+And then for my last day in the country we headed out with plans to hit the zoo and then head over to the Guinness Storehouse, but after the zoo we were both just beat.  It's quite exhausting, walking around in the cold like that.  It was fun.
+
+We caught a few hours of sleep and then then had to get up at 2:00 in the morning to get to the airport in time.  blaaaaahhhh.  But I got on the plane ok after a reluctant goodbye.  Once I got to Dulles I found out that my luggage hadn't made it past Amsterdam.  So that sucks.  But now I'm back and must reacquaint myself with the so-called ""real world"".  Ack. 
+
+<lj-cut text=""Pictures!""><img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/fountain.jpg"">
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/ducks.jpg"">
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/juliescarf.jpg"">
+Here we are in St. Steven's Green, a picturesque park in the middle of Dublin.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/IMG00024.jpg"">
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/spire2.jpg"">
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/spire1.jpg"">
+The Spire, aka ""the Dublin Erection"".  It's quite large.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/waxgiant.jpg"">
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/waxsign.jpg"">
+A few from the inside and outside of the wax museum.
+
+<img src=""http://img.photobucket.com/albums/v110/charliec218/dublin/byebye.jpg"">
+This morning, right before I left.  <3
+
+
+More pictures later."
+"eventtime","2004-11-30 00:09:00"
+"current_moodid","14"
+"url","http://cannedtuna.livejournal.com/83336.html"
+"userid","2467"
+"itemid","320"
+"event","VGhlIHByb2JsZW0gd2l0aCBMSjogd2UgYWxsIHRoaW5rIHdlIGFyZSBzbyBjbG9zZSwgYnV0IHJlYWxseSwgd2Uga25vdyBub3RoaW5nIGFib3V0IGVhY2ggb3RoZXIuIFNvIEkgd2FudCB5b3UgdG8gYXNrIG1lIHNvbWV0aGluZyB5b3UgdGhpbmsgeW91IHNob3VsZCBrbm93IGFib3V0IG1lLiBTb21ldGhpbmcgdGhhdCBzaG91bGQgYmUgb2J2aW91cywgYnV0IHlvdSBoYXZlIG5vIGlkZWEgYWJvdXQuIEFzayBhd2F5Lg0KDQpUaGVuIHBvc3QgdGhpcyBpbiB5b3VyIExKIGFuZCBmaW5kIG91dCB3aGF0IHBlb3BsZSBkb27igJl0IGtub3cgYWJvdXQgeW91Lg=="
+"eventtime","2004-11-17 14:09:00"
+"url","http://cannedtuna.livejournal.com/82111.html"
+"userid","2467"
+"itemid","317"
+"event","Under the guise of just another day
+Events occur that forever change our lives
+Cold nights seem colder
+And every day seems longer
+This, a crime needing no guilt
+Evokes nothing but guilt in the guiltless
+And anyone who has lost cries with you
+If the city knew your story
+It would weep with you
+
+
+Shelby, I don't know what to say, really.  Our prayers are with you."
+"eventtime","2004-11-15 01:11:00"
+"current_moodid","25"
+"url","http://cannedtuna.livejournal.com/81320.html"
+"userid","2467"
+"itemid","284"
+"event","""She speaks english a whole lot better than I do.""
+-George Bush, on his wife during Third Presidential Debate
+
+AAAAAAAHAHAHAHAHA"
+"eventtime","2004-10-13 22:24:00"
+"current_moodid","44"
+"url","http://cannedtuna.livejournal.com/72835.html"
+"userid","2467"
+"itemid","272"
+"event","these hips are big hips.
+they need space to
+move around in.
+they do not fit into little
+petty places.  these hips
+are free hips.
+they don't like to be held back
+they have never been enslaved
+they go where they want to go
+they do what they want to do.
+these hips are mighty hips
+these hips are magic hips.
+i have known them to
+put a spell on a man and
+spin him like a top!
+
+<lj-cut>Yes, this is the poem I decided to memorize for my Tradition and Form in Western Poetry exam tomorrow morning.  Fitting, no? :P  It's called <i>homage to my hips</i> by Lucille Clifton.  I typed it all by memory.  Thanks to Shelby for reminding me (at 1:00 in the morning, but better late than never)"
+"eventtime","2004-10-05 01:53:00"
+"url","http://cannedtuna.livejournal.com/69670.html"
+"userid","2467"
+"itemid","271"
+"event","Not a bad weekend.  Got domestic as hell and cleaned my room.  If you haven't seen my room (which most, if not all of you haven't), this was quite an undertaking.  It still isn't immaculate, but it's a start.  It isn't easy to straighten several years worth of clutter.  I also cleaned the hell out of my bathroom.  It felt pretty good.  I also didn't smoke all weekend.  I'm proud of me.
+
+When I was downstairs just a few minutes ago, I looked down into the Glen (dining hall) and saw a guy lying there on the floor, motionless.  At first I was a bit worried that something bad might have happened, but then he got up and went back to work.  And then his coworker got up too.  Must be nice to be able to take a nap in the middle of your job.  On the floor."
+"eventtime","2004-10-04 08:04:00"
+"url","http://cannedtuna.livejournal.com/69389.html"
+"userid","2467"
+"itemid","267"
+"event","Hahahaha
+
+I didn't go to my first class today.  Turns out we had a test. 
+
+Thus I missed the test.  
+
+If I can't make this up I am screwed."
+"eventtime","2004-09-29 00:08:00"
+"url","http://cannedtuna.livejournal.com/68408.html"
+"userid","2467"
+"itemid","260"
+"event","Hey, guess what?  My internet is down! Again!  And this time, someone is going to come out to fix it.  Next tuesday.  Fuck.  Ass."
+"eventtime","2004-09-22 10:16:00"
+"url","http://cannedtuna.livejournal.com/66789.html"
+"userid","2467"
+"itemid","250"
+"event","ok, so I there's a possibility that I'll be getting a cashier's job here on campus.  It pays $8.00 an hour.  sweet."
+"eventtime","2004-09-15 13:27:00"
+"current_moodid","51"
+"url","http://cannedtuna.livejournal.com/64238.html"
+"userid","2467"
+"itemid","246"
+"event","Fuck you Towson, and fuck your stupid crappy internet."
+"eventtime","2004-09-13 00:47:00"
+"current_moodid","24"
+"url","http://cannedtuna.livejournal.com/63105.html"
+"userid","2467"
+"itemid","240"
+"event","So I just bought some cigarettes for the first time ever.  I needed to stop flipping out over... I don't know what, really.  I talked to Julie for a little bit today.  It's s only been a few days, but it feels like it's been so long since we've seen each other.  I guess, to be honest, I'm just a little scared that she won't be the same when she gets back, that I won't be good enough after she's had her horizons broadened by all this world travel.  I'm sure this is probably just me being silly and paranoid, but can you really blame me?  
+
+Fuck, I feel so lonely.
+
+And I want another cigarette. This is not good."
+"eventtime","2004-09-07 21:08:00"
+"current_moodid","22"
+"url","http://cannedtuna.livejournal.com/61574.html"
+"userid","2467"
+"itemid","238"
+"event","Today was quite the blah day.  There were no classes on account of the holiday, so it was basically one of those sit around and do nothing kind of days.  Ran some errands with Lauren out to Target.  Had fun trying to fit storage bins into my ridiculously tiny car.  Came back and didn't do a whole lot of anything.  I went to eat with people, then went for a walk to get coffee. 
+
+ It would have been nice if the walk was a little longer, but unfortunately they've built a new Starbucks closer to campus.  While I was walking over the bridge, I found myself in a moment of philosophy.  I saw the cars driving by, and I felt as if I were standing still, and not just in the physical sense.  I feel as if life is passing me by.  But that's nothing new, really.  More troubling was the sense of misplacement I've felt lately.  I don't think I really fit here at Towson.  I look around and feel very unconnected to 99% of the students here.  I have friends, and they are awesome, but the overwhelming portion of the population is just.... i don't know.  Ok, I thought I knew what I was going to say here, but yeah, my brain sucks."
+"eventtime","2004-09-07 00:24:00"
+"current_moodid","31"
+"url","http://cannedtuna.livejournal.com/60937.html"
+"userid","2467"
+"itemid","233"
+"event","Internet not working in the room for some reason.  Sucks ass, will write long, comprehensive update when it's working."
+"eventtime","2004-08-31 16:29:00"
+"url","http://cannedtuna.livejournal.com/59695.html"
+"userid","2467"
+"itemid","232"
+"event","Man, what a pain in the ass it is, getting ally stuff together the night before I leave.  I very well may have perfected the art of procrastination.   I know I'm going to forget something, and I know ther are I need to get before I go, but I will probably just go and do without.  At least this year I have a car there, crappy as it may be.  Let's hear it for mobility!  This means a means to get to shows, a way to get home, and most likely, a way to give people rides.  Ugh, so much crap to pack.  More on moving in when I actually do it."
+"eventtime","2004-08-26 20:22:00"
+"current_moodid","100"
+"url","http://cannedtuna.livejournal.com/59569.html"
+"userid","2467"
+"itemid","230"
+"event","Today has been a rough day.  The end.
+
+Streetlight Manifesto tomorrow night, assuming my car is ready by the end of the workday."
+"eventtime","2004-08-23 23:24:00"
+"current_moodid","40"
+"url","http://cannedtuna.livejournal.com/59003.html"
+"userid","2467"

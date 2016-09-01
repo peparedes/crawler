@@ -1,0 +1,875 @@
+"names","values"
+"itemid","142"
+"event","<form action='http://www.kwiz.biz/simplesurveys/do-survey.php' method='post' target='_new'><table border=1 bordercolor=#efefef cellspacing=0><tr><td valign=top align=center colspan=2><b><i>TELL ME ABOUT YOURSELF - The Survey</i></b><input type='hidden' name='question1' value='TELL+ME+ABOUT+YOURSELF+-+The+Survey'><input type='hidden' name='type1' value='2'></td></tr><tr><td valign=top align=right>Name:</td><td align=left><b>Makilicious</b><input type='hidden' name='question2' value='Name%3A'><input type='hidden' name='type2' value='1'></td></tr><tr><td valign=top align=right>Birthday:</td><td align=left><b>September 8</b><input type='hidden' name='question3' value='Birthday%3A'><input type='hidden' name='type3' value='1'></td></tr><tr><td valign=top align=right>Birthplace:</td><td align=left><b>I'm a P-I-M-P from Clinton Indy</b><input type='hidden' name='question4' value='Birthplace%3A'><input type='hidden' name='type4' value='1'></td></tr><tr><td valign=top align=right>Current Location:</td><td align=left><b>the yearbook room (I'm not on the yearbook staff)</b><input type='hidden' name='question5' value='Current+Location%3A'><input type='hidden' name='type5' value='1'></td></tr><tr><td valign=top align=right>Eye Color:</td><td align=left><b>One is Blue, The Other is Green (Yes, Mom, I am too a freak child)</b><input type='hidden' name='question6' value='Eye+Color%3A'><input type='hidden' name='type6' value='1'></td></tr><tr><td valign=top align=right>Hair Color:</td><td align=left><b>Blondie</b><input type='hidden' name='question7' value='Hair+Color%3A'><input type='hidden' name='type7' value='1'></td></tr><tr><td valign=top align=right>Height:</td><td align=left><b>5'8 and 1/2</b><input type='hidden' name='question8' value='Height%3A'><input type='hidden' name='type8' value='1'></td></tr><tr><td valign=top align=right>Right Handed or Left Handed:</td><td align=left><b>I'm right.  You're wrong.</b><input type='hidden' name='question9' value='Right+Handed+or+Left+Handed%3A'><input type='hidden' name='type9' value='1'></td></tr><tr><td valign=top align=right>Your Heritage:</td><td align=left><b>Pollock and Proud</b><input type='hidden' name='question10' value='Your+Heritage%3A'><input type='hidden' name='type10' value='1'></td></tr><tr><td valign=top align=right>The Shoes You Wore Today:</td><td align=left><b>Sparkly Kelly Green Jellies</b><input type='hidden' name='question11' value='The+Shoes+You+Wore+Today%3A'><input type='hidden' name='type11' value='1'></td></tr><tr><td valign=top align=right>Your Weakness:</td><td align=left><b>I don't openly talk about it.  Or him.</b><input type='hidden' name='question12' value='Your+Weakness%3A'><input type='hidden' name='type12' value='1'></td></tr><tr><td valign=top align=right>Your Fears:</td><td align=left><b>See above.</b><input type='hidden' name='question13' value='Your+Fears%3A'><input type='hidden' name='type13' value='1'></td></tr><tr><td valign=top align=right>Your Perfect Pizza:</td><td align=left><b>Pizza Rolls</b><input type='hidden' name='question14' value='Your+Perfect+Pizza%3A'><input type='hidden' name='type14' value='1'></td></tr><tr><td valign=top align=right>Goal You Would Like To Achieve This Year:</td><td align=left><b>Lollapalozza, bitches</b><input type='hidden' name='question15' value='Goal+You+Would+Like+To+Achieve+This+Year%3A'><input type='hidden' name='type15' value='1'></td></tr><tr><td valign=top align=right>Your Most Overused Phrase On an instant messenger:</td><td align=left><b>My computer is too lame for AIM.</b><input type='hidden' name='question16' value='Your+Most+Overused+Phrase+On+an+instant+messenger%3A'><input type='hidden' name='type16' value='1'></td></tr><tr><td valign=top align=right>Thoughts First Waking Up:</td><td align=left><b>Who's calling me?  Oh, it's the alarm, you fucktard.</b><input type='hidden' name='question17' value='Thoughts+First+Waking+Up%3A'><input type='hidden' name='type17' value='1'></td></tr><tr><td valign=top align=right>Your Best Physical Feature:</td><td align=left><b>Titties (and beer)</b><input type='hidden' name='question18' value='Your+Best+Physical+Feature%3A'><input type='hidden' name='type18' value='1'></td></tr><tr><td valign=top align=right>Your Bedtime:</td><td align=left><b>Whenever the Benadril kicks in</b><input type='hidden' name='question19' value='Your+Bedtime%3A'><input type='hidden' name='type19' value='1'></td></tr><tr><td valign=top align=right>Your Most Missed Memory:</td><td align=left><b>Aaron Cat's lovely face in the lunchroom</b><input type='hidden' name='question20' value='Your+Most+Missed+Memory%3A'><input type='hidden' name='type20' value='1'></td></tr><tr><td valign=top align=right>Pepsi or Coke:</td><td align=left><b>Pepsi...but I am nore a fan of Coke products in general</b><input type='hidden' name='question21' value='Pepsi+or+Coke%3A'><input type='hidden' name='type21' value='1'></td></tr><tr><td valign=top align=right>MacDonalds or Burger King:</td><td align=left><b>B. King gives better coupons</b><input type='hidden' name='question22' value='MacDonalds+or+Burger+King%3A'><input type='hidden' name='type22' value='1'></td></tr><tr><td valign=top align=right>Single or Group Dates:</td><td align=left><b>I don't date.</b><input type='hidden' name='question23' value='Single+or+Group+Dates%3A'><input type='hidden' name='type23' value='1'></td></tr><tr><td valign=top align=right>Lipton Ice Tea or Nestea:</td><td align=left><b>I like the tea at Taco Bell.  The rasberry stuff.  So that.</b><input type='hidden' name='question24' value='Lipton+Ice+Tea+or+Nestea%3A'><input type='hidden' name='type24' value='1'></td></tr><tr><td valign=top align=right>Chocolate or Vanilla:</td><td align=left><b>choc-o-lot!</b><input type='hidden' name='question25' value='Chocolate+or+Vanilla%3A'><input type='hidden' name='type25' value='1'></td></tr><tr><td valign=top align=right>Cappuccino or Coffee:</td><td align=left><b>Passion Fruit Tazo Tea Lemonade (sweetened)</b><input type='hidden' name='question26' value='Cappuccino+or+Coffee%3A'><input type='hidden' name='type26' value='1'></td></tr><tr><td valign=top align=right>Do you Smoke:</td><td align=left><b>Yes.  No.  Depends on the day.</b><input type='hidden' name='question27' value='Do+you+Smoke%3A'><input type='hidden' name='type27' value='1'></td></tr><tr><td valign=top align=right>Do you Swear:</td><td align=left><b>Fuck that.</b><input type='hidden' name='question28' value='Do+you+Swear%3A'><input type='hidden' name='type28' value='1'></td></tr><tr><td valign=top align=right>Do you Sing:</td><td align=left><b>I am marooned in Choir all of 6th hour every day.  I have to have a fucking art credit.</b><input type='hidden' name='question29' value='Do+you+Sing%3A'><input type='hidden' name='type29' value='1'></td></tr><tr><td valign=top align=right>Do you Shower Daily:</td><td align=left><b>To say yes would be a flat out lie.  God doesn't like liars.  Or dirty butts.  I'm fucked either way.</b><input type='hidden' name='question30' value='Do+you+Shower+Daily%3A'><input type='hidden' name='type30' value='1'></td></tr><tr><td valign=top align=right>Have you Been in Love:</td><td align=left><b>Yes, sir.</b><input type='hidden' name='question31' value='Have+you+Been+in+Love%3A'><input type='hidden' name='type31' value='1'></td></tr><tr><td valign=top align=right>Do you want to go to College:</td><td align=left><b>I will be going to college.</b><input type='hidden' name='question32' value='Do+you+want+to+go+to+College%3A'><input type='hidden' name='type32' value='1'></td></tr><tr><td valign=top align=right>Do you want to get Married:</td><td align=left><b>Maybe, baby.</b><input type='hidden' name='question33' value='Do+you+want+to+get+Married%3A'><input type='hidden' name='type33' value='1'></td></tr><tr><td valign=top align=right>Do you belive in yourself:</td><td align=left><b>Yes</b><input type='hidden' name='question34' value='Do+you+belive+in+yourself%3A'><input type='hidden' name='type34' value='1'></td></tr><tr><td valign=top align=right>Do you get Motion Sickness:</td><td align=left><b>No</b><input type='hidden' name='question35' value='Do+you+get+Motion+Sickness%3A'><input type='hidden' name='type35' value='1'></td></tr><tr><td valign=top align=right>Do you think you are Attractive:</td><td align=left><b>Yes</b><input type='hidden' name='question36' value='Do+you+think+you+are+Attractive%3A'><input type='hidden' name='type36' value='1'></td></tr><tr><td valign=top align=right>Are you a Health Freak:</td><td align=left><b>No</b><input type='hidden' name='question37' value='Are+you+a+Health+Freak%3A'><input type='hidden' name='type37' value='1'></td></tr><tr><td valign=top align=right>Do you get along with your Parents:</td><td align=left><b>Yes</b><input type='hidden' name='question38' value='Do+you+get+along+with+your+Parents%3A'><input type='hidden' name='type38' value='1'></td></tr><tr><td valign=top align=right>Do you like Thunderstorms:</td><td align=left><b>Yes</b><input type='hidden' name='question39' value='Do+you+like+Thunderstorms%3A'><input type='hidden' name='type39' value='1'></td></tr><tr><td valign=top align=right>Do you play an Instrument:</td><td align=left><b>No</b><input type='hidden' name='question40' value='Do+you+play+an+Instrument%3A'><input type='hidden' name='type40' value='1'></td></tr><tr><td valign=top align=right>In the past month have you Drank Alcohol:</td><td align=left><b>Yes</b><input type='hidden' name='question41' value='In+the+past+month+have+you+Drank+Alcohol%3A'><input type='hidden' name='type41' value='1'></td></tr><tr><td valign=top align=right>In the past month have you Smoked:</td><td align=left><b>Yes</b><input type='hidden' name='question42' value='In+the+past+month+have+you+Smoked%3A'><input type='hidden' name='type42' value='1'></td></tr><tr><td valign=top align=right>In the past month have you been on Drugs:</td><td align=left><b>Yes</b><input type='hidden' name='question43' value='In+the+past+month+have+you+been+on+Drugs%3A'><input type='hidden' name='type43' value='1'></td></tr><tr><td valign=top align=right>In the past month have you gone on a Date:</td><td align=left><b>No</b><input type='hidden' name='question44' value='In+the+past+month+have+you+gone+on+a+Date%3A'><input type='hidden' name='type44' value='1'></td></tr><tr><td valign=top align=right>In the past month have you gone to a Mall:</td><td align=left><b>I work there.</b><input type='hidden' name='question45' value='In+the+past+month+have+you+gone+to+a+Mall%3A'><input type='hidden' name='type45' value='1'></td></tr><tr><td valign=top align=right>In the past month have you eaten a box of Oreos:</td><td align=left><b>A packet...does that count.</b><input type='hidden' name='question46' value='In+the+past+month+have+you+eaten+a+box+of+Oreos%3A'><input type='hidden' name='type46' value='1'></td></tr><tr><td valign=top align=right>In the past month have you eaten Sushi:</td><td align=left><b>Give me a week...</b><input type='hidden' name='question47' value='In+the+past+month+have+you+eaten+Sushi%3A'><input type='hidden' name='type47' value='1'></td></tr><tr><td valign=top align=right>In the past month have you been on Stage:</td><td align=left><b>No...but I could have been today...I chose not to.</b><input type='hidden' name='question48' value='In+the+past+month+have+you+been+on+Stage%3A'><input type='hidden' name='type48' value='1'></td></tr><tr><td valign=top align=right>In the past month have you been Dumped:</td><td align=left><b>Yes, I think so.</b><input type='hidden' name='question49' value='In+the+past+month+have+you+been+Dumped%3A'><input type='hidden' name='type49' value='1'></td></tr><tr><td valign=top align=right>In the past month have you gone Skinny Dipping:</td><td align=left><b>It's March!</b><input type='hidden' name='question50' value='In+the+past+month+have+you+gone+Skinny+Dipping%3A'><input type='hidden' name='type50' value='1'></td></tr><tr><td valign=top align=right>In the past month have you Stolen Anything:</td><td align=left><b>No.</b><input type='hidden' name='question51' value='In+the+past+month+have+you+Stolen+Anything%3A'><input type='hidden' name='type51' value='1'></td></tr><tr><td valign=top align=right>Ever been Drunk:</td><td align=left><b>Yes, sir, a few times.  Okay...a lot times.</b><input type='hidden' name='question52' value='Ever+been+Drunk%3A'><input type='hidden' name='type52' value='1'></td></tr><tr><td valign=top align=right>Ever been called a Tease:</td><td align=left><b>I sincerely doubt it.</b><input type='hidden' name='question53' value='Ever+been+called+a+Tease%3A'><input type='hidden' name='type53' value='1'></td></tr><tr><td valign=top align=right>Ever been Beaten up:</td><td align=left><b>No, I really haven't.  I've gotten really close.</b><input type='hidden' name='question54' value='Ever+been+Beaten+up%3A'><input type='hidden' name='type54' value='1'></td></tr><tr><td valign=top align=right>Ever Shoplifted:</td><td align=left><b>No, I hate shoplifters with my whole heart.</b><input type='hidden' name='question55' value='Ever+Shoplifted%3A'><input type='hidden' name='type55' value='1'></td></tr><tr><td valign=top align=right>How do you want to Die:</td><td align=left><b>Peacefully...and after everyone else I know is allready gone.</b><input type='hidden' name='question56' value='How+do+you+want+to+Die%3A'><input type='hidden' name='type56' value='1'></td></tr><tr><td valign=top align=right>What do you want to be when you Grow Up:</td><td align=left><b>I want to write books about sex, for you to read, and find out what your are doing wrong.</b><input type='hidden' name='question57' value='What+do+you+want+to+be+when+you+Grow+Up%3A'><input type='hidden' name='type57' value='1'></td></tr><tr><td valign=top align=right>What country would you most like to Visit:</td><td align=left><b>Morrocco...is that a country?</b><input type='hidden' name='question58' value='What+country+would+you+most+like+to+Visit%3A'><input type='hidden' name='type58' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>In a Boy/Girl..</i></b><input type='hidden' name='question59' value='In+a+Boy%2FGirl..'><input type='hidden' name='type59' value='2'></td></tr><tr><td valign=top align=right>Favourite Eye Color:</td><td align=left><b>Who fucking cares?</b><input type='hidden' name='question60' value='Favourite+Eye+Color%3A'><input type='hidden' name='type60' value='1'></td></tr><tr><td valign=top align=right>Favourite Hair Color:</td><td align=left><b>Dark...I guess.</b><input type='hidden' name='question61' value='Favourite+Hair+Color%3A'><input type='hidden' name='type61' value='1'></td></tr><tr><td valign=top align=right>Short or Long Hair:</td><td align=left><b>Long can be hot.  Short can be hot.</b><input type='hidden' name='question62' value='Short+or+Long+Hair%3A'><input type='hidden' name='type62' value='1'></td></tr><tr><td valign=top align=right>Height:</td><td align=left><b>As tall or taller than my ass.</b><input type='hidden' name='question63' value='Height%3A'><input type='hidden' name='type63' value='1'></td></tr><tr><td valign=top align=right>Weight:</td><td align=left><b>Not 300 lbs.</b><input type='hidden' name='question64' value='Weight%3A'><input type='hidden' name='type64' value='1'></td></tr><tr><td valign=top align=right>Best Clothing Style:</td><td align=left><b>On my floor</b><input type='hidden' name='question65' value='Best+Clothing+Style%3A'><input type='hidden' name='type65' value='1'></td></tr><tr><td valign=top align=right>Number of Drugs I have taken:</td><td align=left><b>Me?  All legal baby.</b><input type='hidden' name='question66' value='Number+of+Drugs+I+have+taken%3A'><input type='hidden' name='type66' value='1'></td></tr><tr><td valign=top align=right>Number of CDs I own:</td><td align=left><b>Lots and lots</b><input type='hidden' name='question68' value='Number+of+CDs+I+own%3A'><input type='hidden' name='type68' value='1'></td></tr><tr><td valign=top align=right>Number of Piercings:</td><td align=left><b>One in both ears...""did it myself"" said the little red hen </b><input type='hidden' name='question69' value='Number+of+Piercings%3A'><input type='hidden' name='type69' value='1'></td></tr><tr><td valign=top align=right>Number of Tattoos:</td><td align=left><b>None...don't think I want any...</b><input type='hidden' name='question70' value='Number+of+Tattoos%3A'><input type='hidden' name='type70' value='1'></td></tr><tr><td valign=top align=right>Number of things in my Past I Regret:</td><td align=left><b>Infinite</b><input type='hidden' name='question71' value='Number+of+things+in+my+Past+I+Regret%3A'><input type='hidden' name='type71' value='1'></td></tr><tr><td colspan=2 align=center><input type='submit' value='Take This Survey'><BR><a href='http://www.kwiz.biz/simplesurveys/create-survey.php'>CREATE YOUR OWN!</a> - or - <a href='http://www.kwiz.biz/simplesurveys/paid-surveys.php'>GET PAID TO TAKE SURVEYS!</a></td></tr></form></table>"
+"eventtime","2006-03-17 17:37:00"
+"url","http://dontdreamitbit.livejournal.com/36432.html"
+"userid","4059"
+"itemid","141"
+"event","Life is beautiful.
+
+For the most part.
+
+I didn't have to be in the play today.  The newspaper looks beautiful.  I am going to my first frat party tonight.  I get to meet Brian Brown in a few hours.  I actually have money.  I am tan.  I have good grades.  The cruise is in one week.  I am graduating. I am going to motherfucking Lollapalozza with my awesome friends. I am going to the college I have always wanted to go to.  I think that I have it worked out so I won't have to quit DEB entirely.  I have my relationships aligned exactly the way I have wanted them for over a year.
+
+Can't take a good day without a bad one 
+Don't feel just to smile until I had one 
+Where did I learn? 
+I make a fuss about a little thing 
+The rhyme is losing to the riddling 
+Where's the turn? 
+I don't want a home 
+I go into habits where my habits have a habitat 
+Why did it turn? 
+
+I should be so much happier.  This is what I want.  This is the way I want things.  I want things exactly how they are, it's just about perfect.  Perfect is bad.  Perfect is scary.  Perfect sets some high standards that eventually, probably in the near future, life isn't going to be living up to.  
+
+I have such terrible anxiety about everything that I can enjoy nothing.  Things are pretty swell right now.  I am going to go live it up for as long as the ride lasts.  Hopefully it's not going back to Shitville anytime soon.  I like things right now.
+
+Thanks Jennifer, for always commenting.  I love you tons and tons."
+"eventtime","2006-03-17 17:00:00"
+"current_moodid","4"
+"url","http://dontdreamitbit.livejournal.com/36309.html"
+"userid","4059"
+"itemid","140"
+"event","I know I'm alone if I'm with or without you 
+but just being around you offers me another form of relief 
+When the lonliness leads to bad dreams 
+and the bad dreams lead me to callin' you 
+and I call you and say ""C'mere!""
+
+That's my life, in a nutshell.  Right there.  Thank you, Jenny Lewis.
+
+I am sick of it.  I am ready for a break.  I am ready for a vacation! 
+
+Actually, I am strangely happy with things.  I am twitterpated.  I knew that I would be.  I always am at this time of year.  This is my favorite time, when things start getting warmer and people start looking hotter.  It's the best.  
+
+I admit it, I love games.  I love the uncertainty of life right now.  It's so nervewracking and exciting.  I love feeling butterflies, even if I know deep down they are truly ingenuine.  They may be a little bit better when they are truly ingenuine.  Then they are dirty.  Dirty=fun.
+
+Someone else in my life is playing a new game.  I know what's up, too.  It's only a matter of time until that jig is up.  I'm ready."
+"eventtime","2006-03-14 19:52:00"
+"current_moodid","17"
+"url","http://dontdreamitbit.livejournal.com/36058.html"
+"userid","4059"
+"itemid","139"
+"event","FUCK MIKE ROUNDS!!!
+
+Fuck him in the ass and knock him up (accept for you can't, 'cus it don't make kids).  Fuck Mike Rounds.  Fuck South Dakota.  Fuck religon.  Fuck this country.
+
+I am making a donation to Planned Parenthood tomorrow.  Planned Parenthood is kicking ass right.  I urge you to go and look.  Make a donation too if you can.  This link is an open letter from Cecile Richards.  It is beautiful.
+http://www.plannedparenthood.com/pp2/portal/files/portal/proxy-1.xml
+
+I don't believe in God because of shit like this.  I don't because I don't want too.  But this is making me do something radical, even by my standards.  I am going to pray.  I am going to pray to God, the God that I have created in my head, the God who sees through this kind of shit and truly is there for the good of mankind, and I am going to pray that good sense prevails again, as it did in 1973, and our right to choose isn't taken away from us.
+
+You can't even make the case anymore about abortion in the case of rape, because we are all being raped right now.  Every single post adolescenct/pre menopausal female I know is being fucked against their will.  It makes me physically sick."
+"eventtime","2006-03-08 16:39:00"
+"current_moodid","24"
+"url","http://dontdreamitbit.livejournal.com/35799.html"
+"userid","4059"
+"itemid","138"
+"event","When I sat down on the bed next to you,you started to cry. 
+I said, maybe if I leave, you'll want me to come back home. 
+Or maybe all you mean, is ""leave me alone."" 
+At least that's what you said. 
+You're irresistible when you get mad, isn't it sad? I'm immune. 
+I thought it was cute for you to kiss my purple, black eye. 
+Even though I caught it from you, I still think we're serious... 
+... at least that's what you said. 
+-Wilco
+
+I want to write a letter to the world.
+
+I want to say that I don't deserve this.  I don't deserve the good and I don't deserve the bad.  
+
+K-I don't understand you.  I am sorry that I scared you, but...Goddamn. I don't deserve this. You are truly sicker than I'll ever begin to understand.  In time, you'll see that you don't have herpes (none of us do), but you have everything else in the world wrong with you.  Get help, you need it.  
+
+A-Why the hell do you love me?  I don't even love me.  I am not sure that I am worthy of even feeling love anymore, yet you constantly shell it out.  I don't know where it comes from and all I can do is appriciate it.  But I can't even do that. I hope that you don't change before I fix what's wrong with my head and learn to love you like you love me.  You are the true definition of a friend.  Damn...I'm so lucky to have you and I know it, yet I am still not satisfied.  What the hell else am I looking for?  I don't know why I can't be with you, all I know is that I can't.  I don't deserve you.
+
+
+I want this all to end.  I want my heart to stop breaking.  I want to start over, but I don't want to loose what I've already have.  I want it all.
+
+When did it all get so hard?  I remember when everything was beautiful and nothing hurt.
+
+I need to stop thinking and smile.  I am going to go watch The Aristocrats.  Sarah Silverman can make it all better for a few hours."
+"eventtime","2006-02-20 00:49:00"
+"current_moodid","7"
+"url","http://dontdreamitbit.livejournal.com/35404.html"
+"userid","4059"
+"itemid","137"
+"event","Fuck this day.
+
+I am so...everything.  I saw this coming, we all did, but somehow I thought maybe we were all going to make it.  We made it to second semester, we are on the home stretch.  And we lost a soldier.  
+
+Aaron Cat, I am so dissappointed.  I love you so much.  You are a fucking brother to me.  You are my kitty, and you always will be.  But you break my heart.  You break my fucking heart.  It makes me sad to think that you chose this.  You have the opportunities that we all have, but you don't choose to take them.  You choose drugs instead.  Well, fuck drugs.  Drugs won't be there for you like I have been, I promise you that.  You think they will be, but they won't.  I will do anything for you regardless, I want you to know that.  I always would have.  If you needed help, all you would have needed to do was ask.  I want to help you.  I want to see you graduate with me so badly, I will do anything in my power to help you.  I don't know if this decision is reversable, but if it is, I am begging you, come back.  Please, come back.
+
+You Don't Deserve To Be Lonely, But Those Drugs You Got Won't Make You Feel Better
+Pretty Soon It's the Only Little Part of Your Life You're Keeping Together"
+"eventtime","2006-01-18 20:53:00"
+"current_moodid","55"
+"url","http://dontdreamitbit.livejournal.com/35144.html"
+"userid","4059"
+"itemid","136"
+"event","Live from Sociology...It's Mak and Stew...
+
+So...yesterday was interesting, to say the least.  In a good way.  
+
+There was a turn of events, and now I am in a complete different mood than yesterday.  Things are looking up.  Bring on Spring!
+
+Today is the anniversary of my mother's birth.  We are going to Boston's...I am pretty damned excited if I don't say so myself.  I heart pizza.
+
+There isn't much to say accept for I am looking for a prom dress with Stewart.  And a prom date, too.
+
+This is Diane von Furstenburg.  Hillary Duff wore it once.  Fuck Hillary Duff and all.  But when it comes down to it that's stilll pretty cool.
+
+http://www.saksfifthavenue.com/main/ProductDetail_STL.jsp?PRODUCT%3C%3Eprd_id=845524446128708&FOLDER%3C%3Efolder_id=282574491208767&ASSORTMENT%3C%3East_id=1408474395222441&bmUID=1137081829712&DCLKSLOT=14
+
+This one is cheap, and it's Jovani.
+
+http://www.cbslimited.com/2006-prom-dresses/detail_prom_jovani-10434"
+"eventtime","2006-01-12 10:45:00"
+"current_moodid","41"
+"url","http://dontdreamitbit.livejournal.com/34851.html"
+"userid","4059"
+"itemid","135"
+"event","She turned away, what was she looking at? 
+She was a sour girl the day that she met me 
+Hey, what are you looking at? 
+She was a happy girl the day that she left me 
+
+Today feels like Spring.  And I am in love with Spring.  The Spring of last year may very well have been the best time of my life.  It was so promising.  I was so liberated.  I could have had whatever I wanted.  Why did I settle?  When I settled, it all ended. 
+
+I had a good opportunity last year.  So good I didn't even know it.  And it's not what you're thinking either, unless you are Aimee, and then your guess doesn't count because you already know. 
+
+This opportunity didn't even seem like an opportunity then, because I was so fixated on something to unrealistic that I couldn't bother to see anything else.  I was so stupid, but that is part of what made last Spring so great.  I was stupid enough that I got myself into such ridiculous situations that ended up being really fun while they lasted.  I was naive.  I want to be naive again.  It's a lot better than being so jaded.
+
+If I could do it all over again, I would.  I really would.  I always said that I wouldn't change a thing, but that is bullshit.  I would change a lot.
+
+Things were so much better than, but maybe things just suck now because it's cold.  When things get warmer, they get more exciting.  People get twitterpated.  I want so desperately to be twitterpated.
+
+I believe that relationships are based soley on moments.  Someone whom you can have a great moment with is someone who is worth having around.  You can know someone forever and never ever have a great moment with them.  You can meet someone for the first time and have the most fantastic moment. 
+
+I live for these moments, and I think that the reason why I haven't felt like I've even been living lately is because I haven't felt that for such a long time.  
+
+Last spring was full of those kinds of moments.  I haven't felt alive since then.  I want it back.  I want to be twitterpated.  
+
+Hey, what are you looking at? 
+She was a happy girl the day that she left me 
+The day that she left me"
+"eventtime","2006-01-11 16:53:00"
+"current_moodid","45"
+"url","http://dontdreamitbit.livejournal.com/34778.html"
+"userid","4059"
+"itemid","134"
+"event","This is not about love, 'cause I am not in love. 
+In fact, I can't stop falling out. 
+
+Thus will be my new motto for life.  Thank you, Fiona Apple, for saying everything that I wish I could.  
+
+Christmas came and brought Fiona to me.  Christmas was fucked up this year.
+
+I don't understand about diamonds and why men buy them.
+What's so impressive about a diamond...except the mining?
+
+Instead of wrapping up cheap perfume someone gave to his mom and she didn't want, a la last year, Adam decided (in collaboration with his mother)to go all the fuck out.  A year and a month after we broke up.  I love him so.  He's so odd.  I never know what to expect.  Except for tears.  This year, the tears were good tears.
+
+Christmas day saw me eating at a Chinese buffet.  Where else would a 90% Athiest group of friends spend the night of Christ's birth?  The fucking China Dragon, that's where.  Well, I guess it's really the ""China on"" because most of the letters are burnt out.
+
+We were going to go and see Wolf Creek but it was sold out.  J.Ro and I would have preferred King Kong, but we were outnumbered.  Finally, a compromise was reached in Walk the Line, which I had previously enjoyed thoroughly on Thanksgiving, but what are you gonna do?  Well, I was gonna sneak into Wolf Creek but Aaron Cat pussed out.  Pun intended.
+
+I am so glad we didn't.  In the middle of the movie, my mom called.  She knew I was at the movies, so this was odd.  She informed me that she was going to the hospital because my Grandfather's girlfriend just called and said that she believed he was in the middle of a heart attack.  Not cool.  I didn't know what to do. I cried helplessly, and Aaron did his kitty best to comfort me.  It was the sweetest thing you ever saw. John and the Cat tried to get me to leave but I insisted that we stay.  The movie was almost over and my parents called from the house, and I knew that they wouldn't get to the hospital for at least another twenty minutes.  I called when the movie ended and mom told me that his heart had stopped, but they shocked him back and he was stable again.  
+
+I remained very calm.  I always do.  I cry, but it's very quiet and to myself.  I cried a lot that day.  It was a tearful day.  Damn Oprah and her DVD.  That got me so bad earlier in the day that my headached, and now that.  However, I don't think it was Oprah that brought on the early tears.  In fact, I felt like crying the whole time my grandpa was over at our house earlier in the day.  I just had this terrible feeling.  I just knew.
+
+Life is kinda weird like that.
+
+Adam was wonderful, albeit, somewhat intoxicated.  I am not sure how I got along without him for the five months that I did.  Or why I thought I wanted to.  I guess it's just something that I had to do.  In a crisis, he is the only person I want to talk to.  He's the only one that can talk sense to me.  No matter what, he can make it all better.  For that five months, I was just settled with someone I could live with while denying myself the one person I can't live without.  That was wrong of me.
+
+So, why did I kiss him so hard late last Friday night... 
+...and keep on letting him change all my plans? 
+I'm either so sick in the head 
+I need to be bled dry to quit 
+Or, I just really used to love him 
+I...sure...hope that's it 
+
+So, yesterday, I was watching Unsolved Mysteries, when my phone rang.
+
+It was Stewart.
+
+I answered with trepidation.  To my relief, it was a male voice.
+
+""Makenzi, are ya doing anything exciting?""
+""I'm ok, who is this?""
+""Adam""
+Well, I knew it wasn't my Adam.  I only know one other Adam, and that is Aimee's Adam.  Goddamnit.
+""Oh, hi, Adam.  What's going on?""
+""Stewart wants to talk to you, will you talk to her?""
+
+I was given no choice in the matter.  So we talked it out.  We fought it out.  It is now over.  It was time.  We decided to bury the hatchet and go out.  It was a lot of fun.  Dancing at railroad crossing, knocking at the Holiday Inn, Steak-n-Shake, making fun of Andrea 'til dawn, the whole nine yards.
+
+And it doesn't seem fair that your wicked words should work in holding me down 
+No, it doesn't seem right to take information given at close range 
+For the gag...and the bind...and the ammunition round 
+
+I just needed time away from the people that live in her life.  I still hate them, but I don't hate her and it isn't fair to count her was one and the same.  She's starting to see.  They are really the same person, both of those boys.  And that is a horrible thing to be.
+
+A contemptible snob 
+He lived to put things in their place 
+He did a commendable job 
+He put himself so low 
+He can hardly even look me in the face 
+
+Wait 'til I get him back 
+
+Something really scary also happened yesterday.  Some wayward hobo wandered into my mother's salon and told her he was an alien that impregnated the Virgin Mary or some shit.  He wouldn't leave.  I wasn't there when he was was there but after I left sometime later I saw him getting out of the passenger side of an old pick-up right outside the beauty shop.  And this was in downtown Clinton.  Scared the absolute shit out of me.  Fuck crazy people.  That is what scares me more than anything else.  Except for herpes.
+
+
+Be kind to me,or treat me mean...
+...I'll make the most of it, I'm an extrordinary machine."
+"eventtime","2005-12-30 01:11:00"
+"current_moodid","61"
+"url","http://dontdreamitbit.livejournal.com/34321.html"
+"userid","4059"
+"itemid","133"
+"event","I'll Give Away This Girl Who Tried To Make You Fall In Love
+I'll Give Her To You, So Keep Her Close To You
+So You Won't Forget About How She Loved You So
+So Long Ago...Once Upon A Time
+
+I still have Christmas gifts for you.  I would give them to someone else, but no one else would want them.  I guess I will just let them sit and collect dust.
+
+Something has got to give.
+
+This must stop.
+
+You have to stop staring at me.  It's not cool.  If you've got something to say, just say it.  
+
+I've got a lot to say, but you aren't worth expending the energy to start conversation with.  I don't want to waste my time.  But I also don't want you to waste your time staring when you can be talking.  But I also don't want to waste anytime listening when I could be doing something productive.  But I don't want to waste anymore time hating you when I could forgive you and move on.  But I can't forgive you until you apologise.  I could, but I don't want to.  You deserve my hatred.  Every drop.
+
+I don't know what I want. I don't know what you want.  I thought I knew until the staring began, and now I am confused.
+
+I think that I want time to not be in your presence, and I am getting it.  That is all I want for Christmas.  Is to forget you exist for awhile.
+
+Now She Has Grown Up 
+And You Can't Take It Back
+And I Won't Ever Go Back To That
+I Will Stay True To This Belief That We've Changed For The Best Through This
+
+I am going to let you go on staring for the day, and I hope you get a good look, because you won't be seeing me anymore now for awhile.
+
+Seperate the Ones Who Know You From the Ones Who Couldn't Bother To See You For All That You Are
+
+(Yes, I have.)"
+"eventtime","2005-12-21 10:43:00"
+"current_moodid","1"
+"url","http://dontdreamitbit.livejournal.com/34078.html"
+"userid","4059"
+"itemid","132"
+"event","The Feast With Friends.  It was all I ever dreamed it could be.  And that's a fact.  I couldn't be happier right now.  It wouldn't be possible.  
+
+Emilee. I love you. Sarah. I love you.  Jennifer. I love you. Connie. I love you. Lisa. I love you.
+
+You are all the best."
+"eventtime","2005-12-04 20:01:00"
+"current_moodid","21"
+"url","http://dontdreamitbit.livejournal.com/33806.html"
+"userid","4059"
+"itemid","131"
+"event","This is all too ridiculous to even get pissed about.  I am dissappointed in both of the people involved in this but moreso, I am disappointed in myself for ever expecting more out of you.
+
+So, this is my final thought to you both:
+
+I'm fine.  I'm ok.  In fact, I've been feeling pretty damn good.  Thank you for your concern.  I am being sarcastic, because I know no actual concern was there.  So, thank you, fuck you and give me back everything you've ever had of mine so I can pretend that neither of you were ever in my life.
+
+~Oh, and Stewart, don't write me anymore notes like you always do, because I am no longer interested.~
+
+I can't wait until I can miss school and not have to worry about about all the drama that will await me when I get back.
+
+I had a bladder infection, I wasn't slitting my wrists.
+
+It takes a lot more than two self-important assholes trying to make me look bad to make themselves look better to get me down too long.  I have so much to live for I wouldn't dream of ever hurting myself.
+
+God, I am so glad they are out of my life."
+"eventtime","2005-11-30 10:18:00"
+"current_moodid","58"
+"url","http://dontdreamitbit.livejournal.com/33744.html"
+"userid","4059"
+"itemid","130"
+"event","Ok...so it's been five months and one day.  You can't judge me.  I've been busy fucking everything up...you see?
+
+So, why should you care?  There's a simple answer to this question.  You shouldn't.  I don't care that much about your crappy little existences...so I don't read these things. I don't expect you to care about mine.  I am doing this for me because it makes me feel better.  And after so much punishment I think that I deserve to feel just a little bit better sometimes.
+
+Yeah...he did fuck her.  And I am pretty sure she liked it.  A lot.  And she's going back for more tonight.  Not because she's depressed or lonely or whathaveyou.  Because she loves him.  Yeah, that's right.  She loves him.  And she always has.  It just took her a year to see it.
+
+This just sucks.  When I had him right there...he wasn't appealing at all.  Now we're living life like it's one big ugly secret.  Again.  If my whole life is going to be this ugly cyle...stop the ferris wheel, I want off.
+
+The Cycle:
+Keegan Charms Me...I Love Him...Everyone's SOOOO Happy...We're So Perfect..YAY...Keegan Hurts Me...I Excuse It...Keegan Leaves Me...Keegan Blames Me...Adam Makes Me Happy...Everyone Hates Him...I Am Happy...No One Else Is
+
+Well, fuck you all.  I am eighteen now.  I am a woman.  And I know what I want.  I might not have known when I was fifteen.  I knew for a brief time at sixteen.  When I was seventeen I fucked it all to hell, and the cycle took over once again.  But now I am eighteen.  
+
+Keegan once told me I was like a drug.  And he would know.  But for once, I believe the fat fuck has a point.  I was so happy this summer.  Really, I was.  Too happy.  It was surreal.  That wasn't him.  He's not a good person at his core. He just was too distracted by my vagina to realize that.  He is one person who really just shouldn't have sex.  He can't handle that type of emotional intimacy.  It was way too intense to last.  
+
+The sad thing is...I really believed him. I believed him, I think, because he believed himself.  I might retract the statement about him not really being a good person at his core.  Maybe he is...and he is just fighting so hard to cover it up.  He reminds me so much of Macbeth.  He's so easily influenced.  He influences himself.  He is truly the most fucked up person I have ever endurred.  He really needs help.  More help than I could give.
+
+""When A Man Shows You Who He Really Is...Believe Him.""
+This phrase has been stuck in my mind ever since this ordeal began.  I found out later that Oprah said it.  And Oprah doesn't lie.  That is a hard lesson to learn...but I think I finally learned it.
+
+Also, at the beginning of this ordeal...we were reading The Canterbury Tales in Mr. Wright's class.  When talking about The Wife of Bath in class (who Mr. Wright told me I reminded him of), he told us that she let her husbands hit her.  He then advised us, ""ladies, don't ever let a man hit you.""  I actually  remember conciously thinking, as I sat there next to Keegan, that letting a man hit you wasn't that bad.  Men can change.  I mean, I've hit men before...why can't I forgive them for hitting me?
+
+WHAT THE FUCK????  Who was I becoming anyways?  Jesus Christ, I truly hate the person I have been.  The truth of life is that double standards exist for a reason.  Men are stronger than their female counterparts.  That is why it is a million times worse for a man to hit a woman than it is for a woman to hit a man.  Taking abuse it not acceptable, whether the abuse be physical or emotional.  I took it both.
+
+The physcial occured only once.  Three years ago.  I was only fifteen years old.  I normally wouldn't be talking openly about this ordeal on the internet but I wasn't the person who brought it back into conversations at SVHS.  So people know about this, and if they already know that much I want them to know the truth.  So here it is:
+
+After Geometry class, in the A Hallway...Keegan, Jennifer and I were walking and Keegan and I had been argueing about something.  It was so trivial I can't even remember what it was.  I had my arm wrapped around his and he asked me to get off, but I didn't.  So he hauled his arm up and elbowed me in the stomach.  Hard.  Very hard.  I doubled over and tears filled my eyes.  My next hour class was gym and I was in pain all through it.  I told no one.  I talked about it was three people...Jennifer (because she was there), Adam and my mother.
+
+When we began our second go around, my mother forgave but she didn't forget.  And she made sure I didn't either.  She reminded me often that I shouldn't forget this occurence, but that didn't stop me from trying.  However, I do know that he remembers this.  We did talk about it once this summer.  No matter how many times he tries to say he doesn't, I know that much more that he does.  And every time he denies it, I start to hate him a little bit more.
+
+I love how he can take something as terrible as hitting someone and still try and use it against them.  He uses this as one more tool to make me look like the crazy one.  His favorite fucking hobby is taking situations that he caused and try to turn them around and pin them on me.  Like a pretty little broach of his shame.
+
+I thought this was the one thing that would be left alone.  The one thing that he wouldn't exploit to try and use in his favor.  But no, I was wrong.  He isn't that kind.  He really is the type of bastard that would take physical abuse and use it against someone.  This happened to me.  I was hit.  I was abused.  And I forgave it.  I let it go.  And how was I repaid???
+
+The very person that hit me sat in a room full of my peers and said that I made it up, and he wished that he could be my friend but I'm not stable enough because of issues I have with my father!
+
+Well, I have some news for him, my father never hit me.  He may have threatened a couple times but he never did.  But when I was a fifteen year old child, someone did hit me.  Keegan did.  That's right.  Keegan hit me.  Not my father.  Not Adam. But Keegan.  That's what I have issues with.  That's why I am the way I am.  Not because anything my father did.  
+
+My dad made some mistakes, but he's a human.  I can forgive that.   But he is a good man and a good father and he treated Keegan good.  He was nothing but geniuine to Keegan for five years, and how does Keegan repay my dad?  By hitting his daughter, denying it, and blaming him for what's wrong with me.
+
+When a man shows you who he really is, believe him.
+
+From now on, I will.  I didn't before.  Adam showed me just the same who he really was.  A lazy fuck-up with two cars, two phones and no ambition.  But that lazy fuck-up loves me more than anyone has ever loved anyone else, I am pretty sure.  I have done nothing but hurt him since we met.  No one has ever showed me the kind of unconditional love he gives me every day, whether I accept it or not.  And I doubt anyone ever will.  He may not be anything close to perfect.  He isn't the vice president of anything and he's not going anywhere near the same college I am going to.  But none of that matters at all.  What matters is how he makes me feel.  What matters is that he is there when no one else it and he can say what no one else can.  What matters is that I love him with everything that I have.  What matters is that he is the best thing that has ever happened to me.  What matter is that I want to live and die for him because I know that he would live and die for me.
+
+There is so much more there than a lazy fuck-up with two cars, two phones and no ambition.  I see it, even if no one else does.  And I am happy."
+"eventtime","2005-11-25 13:13:00"
+"current_moodid","64"
+"url","http://dontdreamitbit.livejournal.com/33531.html"
+"userid","4059"
+"itemid","129"
+"event","To Whom It May Concern:
+
+I have relocated to:
+
+http://www.xanga.com/home.aspx?user=makilicious
+
+Any Time Of Year, You Can Find Me Here"
+"eventtime","2005-07-24 23:18:00"
+"url","http://dontdreamitbit.livejournal.com/33056.html"
+"userid","4059"
+"itemid","128"
+"event","I'm pretty sure I quit doing this.
+
+I think I have outgrown the LJ.  For now at least.  Sorry, guys.
+
+But life is now my business.  And business is good."
+"eventtime","2005-07-03 11:22:00"
+"url","http://dontdreamitbit.livejournal.com/32958.html"
+"userid","4059"
+"itemid","127"
+"event","SSBrbm93IHRoYXQgaXQgaXMgZnJlZXppbmcgYnV0IEkgdGhpbmsgd2UgaGF2ZSB0byB3YWxrLi4uDQoNCk9oLCB3b3cuICBMaWZlIGlzIGNyYXp5LiAgU2F0dXJkYXkgbmlnaHQuICBTZWVpbmcgRW1pbGVlJ3Mgc2lzdGVyIGFzIHdlIGJvdWdodCBvdXIgb3JhbmdlIGp1aWNlLiAgV2Fsa2luZyBkb3duIHRoZSBTLUN1cnZlcy4gIEpvZSBwaWNraW5nIHVzIHVwLCB0aGUgaGl0Y2hoaWtlcnMgd2UgYXJlLiAgV2Fsa2luZyBpbiwgc2VlaW5nIEpvaG4sIHRoZSBhbmdlbC4gVGhlICJidWciIG9uIHRoZSB0b2lsZXQuIEVtaWxlZSBhbmQgU2FyYWggdW5kZXIgdGhlIHBvb2wgdGFibGUuICBUaGUgbGFwIGRhbmNlLiAgSG9sZGluZyB1cCB0aGUgd2VpZ2h0IG9mIHRocmVlIGd1eXMuICBFbWlsZWUgc2NyZWFtaW5nIG9uIHRvcCBvZiB0aGUgcG9vbCB0YWJsZS4gIFdIQVQgQVJFIFlPVSBET0lORz8gIFNUT1AgVEhBVCEgIEhlYWRpbmcgb3V0IHRvIHRoZSBNYWxpYnUuICBDYW4gSSBjb21lIHdpdGggeW91PyAgSGVhZGxpZ2h0cyBiZWhpbmQgdXMgYW5kIGEgbGlnaHRlciB0aHJvdWdoIHRoZSB3aW5kb3cuICBTYXJhaCBvbiBhbGwgZm91cnMuICBDb25uaWUgaW4gdGhlIGdyYXNzLiAgRW1pbGVlIGFuZCBtZSBzbGVlcGluZyBvbiB0aGUgcG9vbCB0YWJsZS4gIENvbm5pZSBraWNraW5nIEFhcm9uLiAgQWFyb24gZ2V0dGluZyB1c3BldC4gIEdvb2QgdGltZXMuDQoNCkkgZ3Vlc3MgeW91IG5ldmVyIHJlYWxseSBnZXQgb3ZlciB5b3VyIGZpcnN0IGxvdmUuICBBbmQgeW91IG5ldmVyIGhhZCBmcmllbmRzIGxpa2UgeW91IGRpZCB3aGVuIHlvdSB3ZXJlIHlvdW5nLiAgQW5kIEkgbG92ZSBCcmlnaHQgRXllcy4NCg0KDQpXaGVuIGV2ZXJ5dGhpbmcgZ2V0cyBsb25lbHkgSSBjYW4gYmUgbXkgb3duIGJlc3QgZnJpZW5kDQpJIGdldCBhIGNvZmZlZSBhbmQgdGhlIHBhcGVyOyBoYXZlIG15IG93biBjb252ZXJzYXRpb25zDQpXaXRoIHRoZSBzaWRld2FsayBhbmQgdGhlIHBpZ2VvbnMgYW5kIG15IHdpbmRvdyByZWZsZWN0aW9uDQpUaGUgbWFzayBJIHBvbGlzaCBpbiB0aGUgZXZlbmluZywgYnkgdGhlIG1vcm5pbmcgbG9va3MgbGlrZSBzaGl0Lg0KDQpJIGtub3cgeW91IGhhdmUgYSBoZWF2eSBoZWFydDsgSSBjYW4gZmVlbCBpdCB3aGVuIHdlIGtpc3MNClNvIG1hbnkgbWVuIG11Y2ggc3Ryb25nZXIgdGhhbiBtZSBoYXZlIHRocm93biB0aGVpciBiYWNrcyBvdXQgdHJ5aW5nIHRvIGxpZnQgaXQNCkJ1dCBtZSBJ4oCZbSBub3QgYSBnYW1ibGUgeW91IGNhbiBjb3VudCBvbiBtZSB0byBzcGxpdA0KVGhlIGxvdmUgSSBzZWxsIHlvdSBpbiB0aGUgZXZlbmluZywgYnkgdGhlIG1vcm5pbmcgd29u4oCZdCBleGlzdC4NCg0KWW914oCZcmUgbG9va2luZyBza2lubnkgbGlrZSBhIG1vZGVsIHdpdGggeW91ciBleWVzIGFsbCBwYWludGVkIGJsYWNrDQpZb3UganVzdCBrZWVwIGdvaW5nIHRvIHRoZSBiYXRocm9vbSBhbHdheXMgc2F5IHlvdeKAmWxsIGJlIHJpZ2h0IGJhY2sNCldlbGwgaXQgdGFrZXMgb25lIHRvIGtub3cgb25lLCBraWQsIEkgdGhpbmsgeW914oCZdmUgZ290IGl0IGJhZA0KQnV0IHdoYXTigJlzIHNvIGVhc3kgaW4gdGhlIGV2ZW5pbmcsIGJ5IHRoZSBtb3JuaW5nIGlzIHN1Y2ggYSBkcmFnLg0KDQpJ4oCZdmUgZ290IGEgZmxhc2sgaW5zaWRlIG15IHBvY2tldCB3ZSBjYW4gc2hhcmUgaXQgb24gdGhlIHRyYWluDQpJZiB5b3UgcHJvbWlzZSB0byBzdGF5IGNvbnNjaW91cyBJIHdpbGwgdHJ5IGFuZCBkbyB0aGUgc2FtZQ0KV2UgbWlnaHQgZGllIGZyb20gbWVkaWNhdGlvbiwgYnV0IHdlIHN1cmUga2lsbGVkIGFsbCB0aGUgcGFpbg0KQnV0IHdoYXQgd2FzIG5vcm1hbCBpbiB0aGUgZXZlbmluZywgYnkgdGhlIG1vcm5pbmcgc2VlbXMgaW5zYW5lLg0KDQpBbmQgSeKAmW0gbm90IHN1cmUgd2hhdCB0aGUgdHJvdWJsZSB3YXMgdGhhdCBzdGFydGVkIGFsbCBvZiB0aGlzDQpUaGUgcmVhc29ucyBhbGwgaGF2ZSBydW4gYXdheSBidXQgdGhlIGZlZWxpbmcgbmV2ZXIgZGlkDQpJdOKAmXMgbm90IHNvbWV0aGluZyBJIHdvdWxkIHJlY29tbWVuZCwgYnV0IGl0IGlzIG9uZSB3YXkgdG8gbGl2ZQ0KQ2F1c2Ugd2hhdCBpcyBzaW1wbGUgaW4gdGhlIG1vb25saWdodCwgYnkgdGhlIG1vcm5pbmcgbmV2ZXIgaXMNCldoYXTigJlzIHNvIHNpbXBsZSBpbiB0aGUgbW9vbmxpZ2h0LCBub3cgaXMgc28gY29tcGxpY2F0ZWQgDQpXaGF04oCZcyBzbyBzaW1wbGUgaW4gdGhlIG1vb25saWdodCwgc28gc2ltcGxlIGluIHRoZSBtb29ubGlnaHQ="
+"eventtime","2005-05-23 11:19:00"
+"current_moodid","10"
+"url","http://dontdreamitbit.livejournal.com/32676.html"
+"userid","4059"
+"itemid","126"
+"event","Ok, so me and Emilee are in the library.  Nothing much of note has happened today.  Seniors wrote obscenities on walls and windows and such.  Pretty funny. but as an overall senior prank, a little lame.  Titties and Beer was my personal favorite.
+
+I am sick of a few things as of late.  I am pretty sick of people stirring shit and using as a tool to upset them.  Yeah, that sucks pretty bad.  And I AM NOT going to stand back and take it.  There are certain things that you just don't say.  Some people can never ever be trusted.  Some people will stop at nothing to get what they want.  Some people are just plain pathetic.  This person is all three.
+
+Also, I am sick of not saying things that I want to say and letting things go that need to be said.  The worst part of that is that right this second I am in the posistion to take care of both these problems and I know that I will do nothing about it.  This isn't like me.  I usually say what I think when I think it, but when it comes to a few people in particular I just cannot do that.  I think I am saying all that I want to say with my attitude, but guessing as of the situation I am in right now, that is not the case.
+
+I hate myself a little right now."
+"eventtime","2005-05-19 11:24:00"
+"current_moodid","2"
+"url","http://dontdreamitbit.livejournal.com/32354.html"
+"userid","4059"
+"itemid","125"
+"event","""This is not goodbye,"" she said, 
+""It's just time for me to rest my head."" 
+She does not walk, she runs instead 
+Down these jagged streets and into my bed 
+-Maroon 5, ""Must Get Out""
+
+Sarah let me borrow the Maroon 5 cd for the evening and now I am in heaven.  For such a popular band they really don't suck, but this song in particular I love.  You see, at DEB, we have a song rotation that sucks sweaty dog balls and I wait impatiently to hear this song twice every time I work.  It's pretty much all I have to look foward too.
+
+""There's only so much I can do for you 
+After all of the things you've put me through"" 
+
+Oh yes, yes, yes.  How relevent is that?  That makes my heart smile.
+
+""You want to stay but you know very well I want you gone""
+
+Wow, I just looked out the window and it's dark.  It wasn't dark a few mintutes ago.  Fuck me, that's weird.
+
+I am pretty pleased with life right now. I have realised that I am not a relationship kinda girl, and that's just fucking fine.  I just want to have fun and get excited about something.  And I am so excited right now.
+
+I am going to go to bed early now, so I can start tomorrow sooner."
+"eventtime","2005-05-16 20:26:00"
+"url","http://dontdreamitbit.livejournal.com/32027.html"
+"userid","4059"
+"itemid","124"
+"event","Constance, Sarah and I just interpreted Styx's ""Come Sail Away"" for Mr. Wright's 2nd period English class.  In leotards.  On stage.  No folks, it don't get much cooler than that.
+
+Oh, yes. :)"
+"eventtime","2005-05-16 11:15:00"
+"current_moodid","21"
+"url","http://dontdreamitbit.livejournal.com/31955.html"
+"userid","4059"
+"itemid","123"
+"event","Well, well.  It has been awhile.  When big things happen in my life I always wait a little bit before I write about them.  It's my way of coping.  
+
+A brief update: My pencil pouch was returned to me/I had a decent prom night/Grant and I have made amends/Adam and I are no longer involved at all/I cut all my hair off.
+
+There is really nothing I want to say about any of those things then what I allready said.  I have established that they happened and that's all that there really is to it.
+
+The only thing I do want to elaborate on is the joy I felt on Saturday when Moody was announced as prom king.  When I heard his name my eyes filled with happy tears.  As soon as he and Angie finished their dance as king and queen I ran to him and threw my arms around him.  I was so proud.  We pressed our foreheads together and tears ran down my cheeks. I don't think people realise just how close he and I are.  He literally knows everything about me.  I am pretty sure he knows more about me then just about anyone. And I am pretty sure that I love him more than just about anyone.  It was definitely the highlight of my prom expierience.
+
+I also loooove my hair right now.  I think that you will too."
+"eventtime","2005-05-12 18:36:00"
+"current_moodid","112"
+"url","http://dontdreamitbit.livejournal.com/31597.html"
+"userid","4059"
+"itemid","122"
+"event","I have a terrible headache.  The special kind of headaches that only come from screaming at someone.  I just had a little bit of a breakdown because I realised there is no way I will make it through tomorrow without beating Adam down.  He is one of the most irritating people.  Ever.  My head aches.
+
+I forgot to talk about the glory of Jennnifer and I dancing retardly in the library today.  That was so much fun.  I really like my life a lot sometimes.
+
+I have an eye-witness testimony placing the pencil pouch in the library with me just mere moments before it was reported as missing.  It might have been stolen during said dancing.  That was in the grey area between the eye-witness account and the discovery of it's missingness.
+
+JP got mad at us today in Creative Writing and we had to listen to country music as punishment.  That might be the root of the headache.
+
+I think I am going to lie down a bit before I go to Terre Haute with Jen.  My head kills me."
+"eventtime","2005-05-06 16:46:00"
+"current_moodid","114"
+"url","http://dontdreamitbit.livejournal.com/31412.html"
+"userid","4059"
+"itemid","121"
+"event","Guess what?  My lovely, darling pencil pouch got theived!  Damn the heathens in this school!  Damn them all to hell.  Have they no human decency?!?
+
+I am currently listening to Cleaver's ""I Got Fired"" story so I can hear the truth behind the rumors.  It involves hating a certain Asian.  Hmmm...  
+
+Ok, I am now excited about Prom.  I wasn't until last night, but now I am.  Tonight, I think that we are having a pre-prom movie party for ladies only.  Maybe.
+
+Give back my pencil pouch, you filthy bastards!"
+"eventtime","2005-05-06 12:20:00"
+"current_moodid","24"
+"url","http://dontdreamitbit.livejournal.com/31036.html"
+"userid","4059"
+"itemid","120"
+"event","<form action='http://www.kwiz.biz/simplesurveys/do-survey.php' method='post' target='_new'><table border=1 bordercolor=#efefef cellspacing=0><tr><td valign=top align=center colspan=2><b><i>TELL ME ABOUT YOURSELF - The Survey</i></b><input type='hidden' name='question1' value='TELL+ME+ABOUT+YOURSELF+-+The+Survey'><input type='hidden' name='type1' value='2'></td></tr><tr><td valign=top align=right>Name:</td><td align=left><b>Makilicious</b><input type='hidden' name='question2' value='Name%3A'><input type='hidden' name='type2' value='1'></td></tr><tr><td valign=top align=right>Birthday:</td><td align=left><b>September 8th</b><input type='hidden' name='question3' value='Birthday%3A'><input type='hidden' name='type3' value='1'></td></tr><tr><td valign=top align=right>Birthplace:</td><td align=left><b>West Central Community Hospital, ut it wasn't referred to as that back then</b><input type='hidden' name='question4' value='Birthplace%3A'><input type='hidden' name='type4' value='1'></td></tr><tr><td valign=top align=right>Current Location:</td><td align=left><b>The office in my home</b><input type='hidden' name='question5' value='Current+Location%3A'><input type='hidden' name='type5' value='1'></td></tr><tr><td valign=top align=right>Eye Color:</td><td align=left><b>One blue, Te other green</b><input type='hidden' name='question6' value='Eye+Color%3A'><input type='hidden' name='type6' value='1'></td></tr><tr><td valign=top align=right>Hair Color:</td><td align=left><b>Blonde</b><input type='hidden' name='question7' value='Hair+Color%3A'><input type='hidden' name='type7' value='1'></td></tr><tr><td valign=top align=right>Height:</td><td align=left><b>5'8 1/2</b><input type='hidden' name='question8' value='Height%3A'><input type='hidden' name='type8' value='1'></td></tr><tr><td valign=top align=right>Right Handed or Left Handed:</td><td align=left><b>Righty</b><input type='hidden' name='question9' value='Right+Handed+or+Left+Handed%3A'><input type='hidden' name='type9' value='1'></td></tr><tr><td valign=top align=right>Your Heritage:</td><td align=left><b>Polish or something</b><input type='hidden' name='question10' value='Your+Heritage%3A'><input type='hidden' name='type10' value='1'></td></tr><tr><td valign=top align=right>The Shoes You Wore Today:</td><td align=left><b>Pink Jllies</b><input type='hidden' name='question11' value='The+Shoes+You+Wore+Today%3A'><input type='hidden' name='type11' value='1'></td></tr><tr><td valign=top align=right>Your Weakness:</td><td align=left><b>boys who wear sunglasses indoors and at night</b><input type='hidden' name='question12' value='Your+Weakness%3A'><input type='hidden' name='type12' value='1'></td></tr><tr><td valign=top align=right>Your Fears:</td><td align=left><b>finding the right person at the wrong time</b><input type='hidden' name='question13' value='Your+Fears%3A'><input type='hidden' name='type13' value='1'></td></tr><tr><td valign=top align=right>Your Perfect Pizza:</td><td align=left><b>Doesn't exist.</b><input type='hidden' name='question14' value='Your+Perfect+Pizza%3A'><input type='hidden' name='type14' value='1'></td></tr><tr><td valign=top align=right>Goal You Would Like To Achieve This Year:</td><td align=left><b>I need a new car.</b><input type='hidden' name='question15' value='Goal+You+Would+Like+To+Achieve+This+Year%3A'><input type='hidden' name='type15' value='1'></td></tr><tr><td valign=top align=right>Your Most Overused Phrase On an instant messenger:</td><td align=left><b>I don't have AIM anymore.</b><input type='hidden' name='question16' value='Your+Most+Overused+Phrase+On+an+instant+messenger%3A'><input type='hidden' name='type16' value='1'></td></tr><tr><td valign=top align=right>Thoughts First Waking Up:</td><td align=left><b>Goddamnit!?!</b><input type='hidden' name='question17' value='Thoughts+First+Waking+Up%3A'><input type='hidden' name='type17' value='1'></td></tr><tr><td valign=top align=right>Your Best Physical Feature:</td><td align=left><b>I am a skinny bitch.</b><input type='hidden' name='question18' value='Your+Best+Physical+Feature%3A'><input type='hidden' name='type18' value='1'></td></tr><tr><td valign=top align=right>Your Bedtime:</td><td align=left><b>Whenever I finally get to sleep...</b><input type='hidden' name='question19' value='Your+Bedtime%3A'><input type='hidden' name='type19' value='1'></td></tr><tr><td valign=top align=right>Your Most Missed Memory:</td><td align=left><b>It makes me sad to talk about it.</b><input type='hidden' name='question20' value='Your+Most+Missed+Memory%3A'><input type='hidden' name='type20' value='1'></td></tr><tr><td valign=top align=right>Pepsi or Coke:</td><td align=left><b>Pepsi, but in general I prefer Coke products</b><input type='hidden' name='question21' value='Pepsi+or+Coke%3A'><input type='hidden' name='type21' value='1'></td></tr><tr><td valign=top align=right>MacDonalds or Burger King:</td><td align=left><b>B. King, but McDonald's breakfast</b><input type='hidden' name='question22' value='MacDonalds+or+Burger+King%3A'><input type='hidden' name='type22' value='1'></td></tr><tr><td valign=top align=right>Single or Group Dates:</td><td align=left><b>I actually hate dates, if I want to go out, I'll go with my friends</b><input type='hidden' name='question23' value='Single+or+Group+Dates%3A'><input type='hidden' name='type23' value='1'></td></tr><tr><td valign=top align=right>Lipton Ice Tea or Nestea:</td><td align=left><b>Nestea</b><input type='hidden' name='question24' value='Lipton+Ice+Tea+or+Nestea%3A'><input type='hidden' name='type24' value='1'></td></tr><tr><td valign=top align=right>Chocolate or Vanilla:</td><td align=left><b>Chocolate</b><input type='hidden' name='question25' value='Chocolate+or+Vanilla%3A'><input type='hidden' name='type25' value='1'></td></tr><tr><td valign=top align=right>Cappuccino or Coffee:</td><td align=left><b>Coffee</b><input type='hidden' name='question26' value='Cappuccino+or+Coffee%3A'><input type='hidden' name='type26' value='1'></td></tr><tr><td valign=top align=right>Do you Smoke:</td><td align=left><b>No, mother.</b><input type='hidden' name='question27' value='Do+you+Smoke%3A'><input type='hidden' name='type27' value='1'></td></tr><tr><td valign=top align=right>Do you Swear:</td><td align=left><b>Fuck no.</b><input type='hidden' name='question28' value='Do+you+Swear%3A'><input type='hidden' name='type28' value='1'></td></tr><tr><td valign=top align=right>Do you Sing:</td><td align=left><b>All the time.  So much so that they put me in choir next year.</b><input type='hidden' name='question29' value='Do+you+Sing%3A'><input type='hidden' name='type29' value='1'></td></tr><tr><td valign=top align=right>Do you Shower Daily:</td><td align=left><b>I could say yes but we'd all know it was a lie</b><input type='hidden' name='question30' value='Do+you+Shower+Daily%3A'><input type='hidden' name='type30' value='1'></td></tr><tr><td valign=top align=right>Have you Been in Love:</td><td align=left><b>Twice</b><input type='hidden' name='question31' value='Have+you+Been+in+Love%3A'><input type='hidden' name='type31' value='1'></td></tr><tr><td valign=top align=right>Do you want to go to College:</td><td align=left><b>Of course</b><input type='hidden' name='question32' value='Do+you+want+to+go+to+College%3A'><input type='hidden' name='type32' value='1'></td></tr><tr><td valign=top align=right>Do you want to get Married:</td><td align=left><b>Maybe</b><input type='hidden' name='question33' value='Do+you+want+to+get+Married%3A'><input type='hidden' name='type33' value='1'></td></tr><tr><td valign=top align=right>Do you belive in yourself:</td><td align=left><b>Yes</b><input type='hidden' name='question34' value='Do+you+belive+in+yourself%3A'><input type='hidden' name='type34' value='1'></td></tr><tr><td valign=top align=right>Do you get Motion Sickness:</td><td align=left><b>No</b><input type='hidden' name='question35' value='Do+you+get+Motion+Sickness%3A'><input type='hidden' name='type35' value='1'></td></tr><tr><td valign=top align=right>Do you think you are Attractive:</td><td align=left><b>Yes</b><input type='hidden' name='question36' value='Do+you+think+you+are+Attractive%3A'><input type='hidden' name='type36' value='1'></td></tr><tr><td valign=top align=right>Are you a Health Freak:</td><td align=left><b>No</b><input type='hidden' name='question37' value='Are+you+a+Health+Freak%3A'><input type='hidden' name='type37' value='1'></td></tr><tr><td valign=top align=right>Do you get along with your Parents:</td><td align=left><b>Yes</b><input type='hidden' name='question38' value='Do+you+get+along+with+your+Parents%3A'><input type='hidden' name='type38' value='1'></td></tr><tr><td valign=top align=right>Do you like Thunderstorms:</td><td align=left><b>Yes</b><input type='hidden' name='question39' value='Do+you+like+Thunderstorms%3A'><input type='hidden' name='type39' value='1'></td></tr><tr><td valign=top align=right>Do you play an Instrument:</td><td align=left><b>No</b><input type='hidden' name='question40' value='Do+you+play+an+Instrument%3A'><input type='hidden' name='type40' value='1'></td></tr><tr><td valign=top align=right>In the past month have you Drank Alcohol:</td><td align=left><b>Yes</b><input type='hidden' name='question41' value='In+the+past+month+have+you+Drank+Alcohol%3A'><input type='hidden' name='type41' value='1'></td></tr><tr><td valign=top align=right>In the past month have you Smoked:</td><td align=left><b>Yes</b><input type='hidden' name='question42' value='In+the+past+month+have+you+Smoked%3A'><input type='hidden' name='type42' value='1'></td></tr><tr><td valign=top align=right>In the past month have you been on Drugs:</td><td align=left><b>No</b><input type='hidden' name='question43' value='In+the+past+month+have+you+been+on+Drugs%3A'><input type='hidden' name='type43' value='1'></td></tr><tr><td valign=top align=right>In the past month have you gone on a Date:</td><td align=left><b>No</b><input type='hidden' name='question44' value='In+the+past+month+have+you+gone+on+a+Date%3A'><input type='hidden' name='type44' value='1'></td></tr><tr><td valign=top align=right>In the past month have you gone to a Mall:</td><td align=left><b>I work in one.</b><input type='hidden' name='question45' value='In+the+past+month+have+you+gone+to+a+Mall%3A'><input type='hidden' name='type45' value='1'></td></tr><tr><td valign=top align=right>In the past month have you eaten a box of Oreos:</td><td align=left><b>I pack but not a box.</b><input type='hidden' name='question46' value='In+the+past+month+have+you+eaten+a+box+of+Oreos%3A'><input type='hidden' name='type46' value='1'></td></tr><tr><td valign=top align=right>In the past month have you eaten Sushi:</td><td align=left><b>It was been a little over a month...</b><input type='hidden' name='question47' value='In+the+past+month+have+you+eaten+Sushi%3A'><input type='hidden' name='type47' value='1'></td></tr><tr><td valign=top align=right>In the past month have you been on Stage:</td><td align=left><b>It has been about two months...</b><input type='hidden' name='question48' value='In+the+past+month+have+you+been+on+Stage%3A'><input type='hidden' name='type48' value='1'></td></tr><tr><td valign=top align=right>In the past month have you been Dumped:</td><td align=left><b>No</b><input type='hidden' name='question49' value='In+the+past+month+have+you+been+Dumped%3A'><input type='hidden' name='type49' value='1'></td></tr><tr><td valign=top align=right>In the past month have you gone Skinny Dipping:</td><td align=left><b>It's been cold out.</b><input type='hidden' name='question50' value='In+the+past+month+have+you+gone+Skinny+Dipping%3A'><input type='hidden' name='type50' value='1'></td></tr><tr><td valign=top align=right>In the past month have you Stolen Anything:</td><td align=left><b>No</b><input type='hidden' name='question51' value='In+the+past+month+have+you+Stolen+Anything%3A'><input type='hidden' name='type51' value='1'></td></tr><tr><td valign=top align=right>Ever been Drunk:</td><td align=left><b>Yes</b><input type='hidden' name='question52' value='Ever+been+Drunk%3A'><input type='hidden' name='type52' value='1'></td></tr><tr><td valign=top align=right>Ever been called a Tease:</td><td align=left><b>Most likely, because I have been one.</b><input type='hidden' name='question53' value='Ever+been+called+a+Tease%3A'><input type='hidden' name='type53' value='1'></td></tr><tr><td valign=top align=right>Ever been Beaten up:</td><td align=left><b>Yes, but I help my own.</b><input type='hidden' name='question54' value='Ever+been+Beaten+up%3A'><input type='hidden' name='type54' value='1'></td></tr><tr><td valign=top align=right>Ever Shoplifted:</td><td align=left><b>No</b><input type='hidden' name='question55' value='Ever+Shoplifted%3A'><input type='hidden' name='type55' value='1'></td></tr><tr><td valign=top align=right>How do you want to Die:</td><td align=left><b>Quickly and I want to be very, very old.</b><input type='hidden' name='question56' value='How+do+you+want+to+Die%3A'><input type='hidden' name='type56' value='1'></td></tr><tr><td valign=top align=right>What do you want to be when you Grow Up:</td><td align=left><b>A Gender Studies Specialist or the editor of a fashion magazine</b><input type='hidden' name='question57' value='What+do+you+want+to+be+when+you+Grow+Up%3A'><input type='hidden' name='type57' value='1'></td></tr><tr><td valign=top align=right>What country would you most like to Visit:</td><td align=left><b>Morocco</b><input type='hidden' name='question58' value='What+country+would+you+most+like+to+Visit%3A'><input type='hidden' name='type58' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>In a Boy/Girl..</i></b><input type='hidden' name='question59' value='In+a+Boy%2FGirl..'><input type='hidden' name='type59' value='2'></td></tr><tr><td valign=top align=right>Favourite Eye Color:</td><td align=left><b>Blue or Green, something that makes you stop and go, Wow!</b><input type='hidden' name='question60' value='Favourite+Eye+Color%3A'><input type='hidden' name='type60' value='1'></td></tr><tr><td valign=top align=right>Favourite Hair Color:</td><td align=left><b>Dark</b><input type='hidden' name='question61' value='Favourite+Hair+Color%3A'><input type='hidden' name='type61' value='1'></td></tr><tr><td valign=top align=right>Short or Long Hair:</td><td align=left><b>Depends on his style...</b><input type='hidden' name='question62' value='Short+or+Long+Hair%3A'><input type='hidden' name='type62' value='1'></td></tr><tr><td valign=top align=right>Height:</td><td align=left><b>Taller than me, which is tall, but I also like them just around the same height becasue they feel a little intimidated</b><input type='hidden' name='question63' value='Height%3A'><input type='hidden' name='type63' value='1'></td></tr><tr><td valign=top align=right>Weight:</td><td align=left><b>I have been with big and little...</b><input type='hidden' name='question64' value='Weight%3A'><input type='hidden' name='type64' value='1'></td></tr><tr><td valign=top align=right>Best Clothing Style:</td><td align=left><b>I like a man who looks good, and knows it.  Then I end up hating them for it.</b><input type='hidden' name='question65' value='Best+Clothing+Style%3A'><input type='hidden' name='type65' value='1'></td></tr><tr><td valign=top align=right>Number of Drugs I have taken:</td><td align=left><b>Me?  None.  Ew.</b><input type='hidden' name='question66' value='Number+of+Drugs+I+have+taken%3A'><input type='hidden' name='type66' value='1'></td></tr><tr><td valign=top align=right>Number of CDs I own:</td><td align=left><b>Lots and lots</b><input type='hidden' name='question68' value='Number+of+CDs+I+own%3A'><input type='hidden' name='type68' value='1'></td></tr><tr><td valign=top align=right>Number of Piercings:</td><td align=left><b>The ears, and I did them myself because I am cooler than you.  Just kidding, I scuk, actuallly, but I did pierce my own ears.</b><input type='hidden' name='question69' value='Number+of+Piercings%3A'><input type='hidden' name='type69' value='1'></td></tr><tr><td valign=top align=right>Number of Tattoos:</td><td align=left><b>None</b><input type='hidden' name='question70' value='Number+of+Tattoos%3A'><input type='hidden' name='type70' value='1'></td></tr><tr><td valign=top align=right>Number of things in my Past I Regret:</td><td align=left><b>I can think of one big one right now, everything else that I thought I regretted I ended up eing happy about in the end, and I hope this ends up the same.</b><input type='hidden' name='question71' value='Number+of+things+in+my+Past+I+Regret%3A'><input type='hidden' name='type71' value='1'></td></tr><tr><td colspan=2 align=center><input type='submit' value='Take This Survey'><BR><a href='http://www.kwiz.biz/simplesurveys/create-survey.php'>CREATE YOUR OWN!</a> - or - <a href='http://www.kwiz.biz/simplesurveys/paid-surveys.php'>GET PAID TO TAKE SURVEYS!</a></td></tr></form></table>"
+"eventtime","2005-05-04 20:06:00"
+"current_moodid","97"
+"url","http://dontdreamitbit.livejournal.com/30859.html"
+"userid","4059"
+"itemid","119"
+"event","There has been an orange cat wandering down my road since this morning.  Hmm, he's not a regualr around here.  I am a bit concerned for him.
+
+Mr. Wright reminded us that today is the 35th anniversary of the massacre at Kent State.  Truly a sad day in our nation's history.  Fuck Vietnam. I am so glad that I didn't live through that bullshit.  Not that the war in Iraq is any better.  Fuck war.  
+
+I am not a happy person right now.  People in this town truly cannot mind their own business.  People also can take hints.  All I want is to have a calm, drama-free prom, but no.  That would be too easy.  I wish everyone were just as concerned about their own prom as I am about mine because if they were they wouldn't care enough to fuck up mine.  Leave me the fuck alone, people.  It isn't any of your goddamned business if I happen to talk to a guy a little more often that I did before.  That does not mean that we are fucking by any means, even if he tells you that we are.  So don't go calling my current prom date and tell him that I am fucking some guy because you saw us talking in the hallway, damnit.
+
+I feel a little better now.  But I am still pissed off at people in general.  I swear it, I really don't want to involve myself with anyone in Clinton anymore.  Too much shit gets talked.
+
+Now I need to go and study for the test over The Old Man And The Sea, a.k.a. The Worst Reading Ever.  I had a lot of respect for Hemmingway until I actually read his work.  Maybe he just should have stuck to raising cats."
+"eventtime","2005-05-04 19:10:00"
+"current_moodid","8"
+"url","http://dontdreamitbit.livejournal.com/30468.html"
+"userid","4059"
+"itemid","118"
+"event","Prom is rapidly approaching.  Most would be excited.  I am not.  I have come to hate Prom and all it stands for.  And school.  I hate that too.  And life.
+
+However, last night, life took a turn for the not-so-shitty when I watched my nightly fill of The Daily Show with Jon Stewart, because it is the only thing that keeps me sane.  They showed this segment about this man by the name of Rick James who is running for office in some small Southern town.  He was bitching because all of his campaign signs were being stolen or having the ""B"" word spray painted on them.  Really very funny.  It got funnier as the man began singing ""Super Freak"".
+
+Today, my play script will be unveiled to the Creative Writing class.  I am very happy about this because I feel that it is funny, and that is odd because I ussually don't find my own writing to be funny.
+
+Did you know that a Clinton man by the name of Bill Pearman ran for president, twice.  Google him and you will see that this is a fact.  Joe told me about it today and I must admit that I thought that he was just screwing with me, but no, he was indeed correct.  This did happen."
+"eventtime","2005-05-04 11:30:00"
+"current_moodid","25"
+"url","http://dontdreamitbit.livejournal.com/30330.html"
+"userid","4059"
+"itemid","117"
+"event","Fate is a very mysterious, fickle thing.  I don't believe in Jesus, but damn do I believe in fate.  
+
+You know how, sometimes, when you have a ""thing"" with someone and it ends abruptly for some odd reason (usually, one of the two people invovled in the thing starts to feel differently towards the other) you never really get over it?  I mean, obviously, you get over it for the most part, you are still very much so a functioning member of society, but when you see them in the corner of your eye you still feel a little bit of what you once felt?  You get me.  Well, I feel like that, it might just be me.  Well early this morning I am heading to work from Sarah's house and I see someone I once had a small thing with driving up ahead of me.  This person I have not seen in years and not spoken to in months.  I have no desire to talk to him, but I wanted to get a good look at him, so I preceded to follow.  However, I quickly lost him to traffic and this is in the small town of Clinton.
+
+Alas, I forge ahead on my journey and I get to the first stop light in Terre Haute.  It just so happens that someone I had a thing with, someone I very much would like to avoid for the rest of my natural life but might like to encounter in Hell if there should happen to be one, that someone, who I had the pleasure of being in a parking lot with the night before, was at that stop light too, going merrily along to church. And I would know, because I went with him once. And so I got two good looks at him this weekend, neither of which were appriciated. 
+ 
+So, my point with all of this is that it makes no sense.  Why do we end up encountering the people we don't want to see while the ones that we do want to see quietly slip away?  Why is fate such a cunt sometimes?  Why is Minnesota hours away?  (That last one was a joke, kids.)
+
+And I digress.  Last night was the best in a string of nights.  Not a disappointment.  It's because we, as ladies, took our own iniative and got what we wanted.  Wasted.  I knew having porno music on my cell would come in handy sooner rather than later.
+
+Today, Aimee and I had adventures in oil changing in the Starbuck's parking lot today.  She was so desperate for oil that when you stuck her dipper thing down in there it came out dry.  It was a bad situation.  Accelerated by the fact that neither of us even had any idea how to get the hood up on her car.  Her mom eventually came to save the day.  We had to buy out the entire supply of motor oil at the gas station across the street but we had fun amusing the mini mart workers.
+
+Mini Mart Guy- You want a paper funnel?
+Me- We have a real funnel.  We're prepared, not scared.
+
+It was a good time.  As good as an oil change in high heels and mini skirts can be."
+"eventtime","2005-05-01 20:44:00"
+"current_moodid","134"
+"url","http://dontdreamitbit.livejournal.com/30163.html"
+"userid","4059"
+"itemid","116"
+"event","This is just a random question--inspired by Sarah and Sam, of course, but I just want to know what makes a person like someone else?  Why do we fall for the people that we do?  It seems so random sometimes.  Like, why do we see someone one way for so long and then all of the sudden, boom!  They're different to you?  And you like it.  You like it a lot.
+
+Sometimes it happens with people you just meet. You see them and you connect.  But it's really just as random was suddenly liking someone you   allready know.  What makes this person you just meet on a cruise ship or at Starbucks any different from the other people on the cruise ship or in line at Starbucks? And what makes the person you allready know any suddenly different then the person that you knew them as before you wanted so badly to fuck him or her?
+
+Are we all just twitterpated?"
+"eventtime","2005-04-29 17:12:00"
+"current_moodid","17"
+"url","http://dontdreamitbit.livejournal.com/29938.html"
+"userid","4059"
+"itemid","115"
+"event","T29vb08sIEkganVzdCBnb3QgYSBwYW5waGxldCBmcm9tIHRoZSBDb2FzdCBHdWFyZC4gU2NvcmUuIA0KDQpJIGp1c3QgZ290IGJhY2sgdGhlIG1vc3QgYXdlc29tZSBwaWN0dXJlcyBpbiB0aGUgaGlzdG9yeSBvZiBjYW1lcmEuIFRoZSBlZ2dodW50LCB0aGUgTGlsJyBGbGlwIGZpYXNjbywgVGhlICJKZXN1cyBDaHJpc3QiIGluY2lkZW50LCBhbmQgdGhlIHRhaWwtZW5kIG9mIHRoZSBjcnVpc2UuIA0KDQpUaGVyZSB3YXMgYSByZWFsbHkgYW11c2luZyBwaWN0dXJlIHRoYXQgSSBkb24ndCByZW1lbWJlciBiZWluZyB0YWtlbiBvZiBzb21lb25lIG9uIHRoZSBib2F0IHdobyBJIHRoaW5rIG1pZ2h0IGJlIG15IE1pbm5lc290YSBndXksIHllYWgsIEkgYW0gcHJldHR5IHN1cmUgaXQncyBoaW0sIHRoZSB3YXRjaCBsb29rcyBmYW1pbGlhci4gV2VsbCBJIGFtIGluIHRoZSBiYWNrZ3JvdW5kIGFuZCBJIGxvb2sgdmVyeSBkaXNoZXZlbGVkICh3aGljaCBpcyBtb3JlIHRoYW4gbGlrZWx5IGRpcmVjdGx5IHJlbGF0ZWQgdG8gbWUgbm90IHJlbWVtYmVyaW5nIHRoaXMgaGFwcGVuaW5nIHVudGlsIEkgc2F3IHRoZSBwaWN0dXJlKSBhbmQgSSBhbSBzaXR0aW5nIG5leHQgdG8gdGhpcyBvdGhlciBndXkgZnJvbSBNaW5uZXNvdGEgd2hvIHdhcyByZWFsbHkgbmljZSBhbmQgaGVscGVkIG1lIGZpbmQgbXkgY29udGFjdCB0aGF0IEkgbG9zdC4gDQoNCiJXaGVuIEkgc2FpZCBJIGxvdmVkIHlvdSwgaXQgd2FzIGJlY2F1c2UgSSBsb3ZlZCB5b3UuIFdoZW4gSSBzYWlkIEkgbmVlZGVkIHlvdSwgd2VsbCwgSSByZWFsbHkgbmVlZCB5b3UuIFllYWgsIEkgZ3Vlc3MgeW91IGh1cnQgbWUsIGZvciBvbmNlIHlvdeKAmXJlIGEgbWFuIG9mIHlvdXIgd29yZHMuIFdlbGwsIGd1ZXNzIHdoYXQg4oCTIEnigJltIGxlYXZpbmcg4oCTIEkgY2Fu4oCZdCBiZSB5b3VyIHByaXNvbmVyLiIgLVRoZSBHb29kIExpZmUgDQoNCkkgaGF2ZW4ndCBzZWVuIEFkYW0gc2luY2UgRnJpZGF5LiBJdCBpcyBub3cgV2VkbmVzZGF5LiBJIGFtIG5vdCBnaXZpbmcgdGhhdCBhIHBvc2l0aXZlIG5vciBuZWdhdGl2ZSBjb25vdGF0aW9uLCBJIGFtIGp1c3QgcmVwb3J0aW5nIHRoZSBmYWN0cy4gWW91IGNhbiBnaXZlIGl0IHRoZSBjb25vdGF0aW9uIHRoYXQgeW91IGZlZWwgaXQgZGVzZXJ2ZXMuIFRoZXJlIGlzbid0IG11Y2ggbGVmdCB0byBzYXkuIExpZmUgc3Vja3MgcmlnaHQgbm93LiBJdCBuZWVkcyBzb21lIHNwaWNlLiBQYXByaWthLCBhbnlvbmU/IA0KDQoiSSBrbm93IHlvdeKAmXJlIHNvIGFsb25lLCBidXQgaG93IG11Y2ggYWZmZWN0aW9uIGRvZXMgb25lIGd1eSByZWFsbHkgbmVlZD8iLVRoZSBHb29kIExpZmU="
+"eventtime","2005-04-27 17:57:00"
+"current_moodid","31"
+"url","http://dontdreamitbit.livejournal.com/29594.html"
+"userid","4059"
+"itemid","113"
+"event","I Feel Like This Right Now: 
+
+So I go back and forth forever 
+Oh my thoughts,they come in pairs 
+Well I will, I won't, I doubt I've done 
+I'm not surprised but I never feel quite prepared 
+
+So I will find my fears and face them 
+or I will coward like a dog 
+I will kick and scream or kneel and bleed 
+I fight like hell to hide that I'm giving up 
+-Bright Eyes
+
+I Want To Feel Like This Right Now:
+
+Yours is the first face that I saw
+I think I was blind before I met you
+Now I don't know where I am 
+I don't know where I've been
+But I know where I want to go
+
+Remember the time you drove all night
+Just to meet me in the morning
+And I thought it was strange you said everything changed
+You felt as if you had just woke up 
+And you said ""this is the first day of my life
+I'm glad I didn't die before I met you 
+But now I don't care I could go anywhere with you
+And I'd probably be happy""
+-Bright Eyes
+
+This Tuesday is the release of ""Songs For Silverman"", the new album by Ben Folds.  I am spending my lunch money on it and you should too."
+"eventtime","2005-04-24 21:29:00"
+"current_moodid","134"
+"url","http://dontdreamitbit.livejournal.com/29058.html"
+"userid","4059"
+"itemid","112"
+"event","Some days just suck.  Some days are just dull, like yesterday, or cold, like today.  But some days, some days just rock.  Thursday, for me at least, was a pretty good day.  I was just in a good mood, and I was with Jen alot, and I could tell that she was in a good mood too.  
+
+Life isn't about anything, it's all just a few moments that make everything.  On Thursday night, when Sam played ""Good Riddance"" on the guitar and we all sang along, it was one of those moments I hope to treasure in my heart when I am 85.
+
+I want to make today have one of those moments.  Who's with me?"
+"eventtime","2005-04-23 19:47:00"
+"current_moodid","5"
+"url","http://dontdreamitbit.livejournal.com/28857.html"
+"userid","4059"
+"itemid","111"
+"event","In the slow lane 
+Never change the way that I feel 
+Go home, never know, never be real 
+'Cus not one thing you said was true 
+I'm gonna find somebody new 
+Make up, break up, always the same 
+Get out, what about you and me? Say... 
+I've been hanging around you too long 
+When summer comes I'm gone!
+
+Not much has changed. Ok, I am lying. I got a new cell phone, my prom dress came in, I dyed my hair blonde and I didn't go to school yesterday cus I was sick.  I've also had P-n-T's popcorn chicked twice in the passed 48 hours.  Yum.
+
+Happy 4/20 kids.  Now put down the drugs and come get a hug."
+"eventtime","2005-04-20 19:07:00"
+"current_moodid","92"
+"url","http://dontdreamitbit.livejournal.com/28564.html"
+"userid","4059"
+"itemid","110"
+"event","Brad de-pantsed Adam in front of some Spaniards at the gas station the other day.  I wasn't there but Brad told me about it and it was really, really funny.  He is a hairy boy, and now the Little Mexico of Clinton all knows about it."
+"eventtime","2005-04-17 18:31:00"
+"url","http://dontdreamitbit.livejournal.com/28238.html"
+"userid","4059"
+"itemid","109"
+"event","This weekend was interesting, but not too interesting.  I stepped out of my comfort zone alot this weekend, but not too far out of it.  Baby steps.  Baby steps.  This weekend also isn't quite over, so I might just get farther out of it.
+
+Gavin's girlfriend Kari has a small, female version of Odie and they met today.  It was love at first sniff.  They were twitterpated with each other. 
+
+It feels as though this whole day has been a power struggle between me and my acrilic nails.  I want them gone.  They just won't budge.  Cindy wants me to get them again.  No.  Hell no.  Damn them.  Goddamn them.
+
+I am now living in fear that my wretched prom dress will not be here in time for that wretched dance.  I tried on a back up dress today, a fuschia Rampage number that Sarah bought on clearance but never wore.  Asymetrical strapped, straight down with a slit up each side and a sheer back with rhinestone detailing.  Yeah, it sounds very pretty, and it looks it on a hanger too.  But it was on clearance for a reason, my dear friends.  I must admit that I am rather twiggy, but it makes even me look like I am with child.  Plus there is just all together too much material and not enough time for alterations.  Oh, heavens to Betsy, let my prom dress arrive.
+
+I had to be around that douche-y kid from Linton last night again.  However, it seems that I am not the only one who finds him to be incredibly queer, the rest of the world feels the same.  I did have fun last night though.  We drove around the square and listened to pulsating techno beats and we saw the sights and sounds of Clinton.  For the longest time we were riding behind Connie and a carload of boys and I was totally oblivious.  Erin kept saying ""Hey, there's Connie"" but I just assumed she meant some other Connie.  Then I felt really retarded when I realised it was my best friend.  I kept trying to call people's numbers that might be in the car so I could tell them to pull over but it was unsucessful.  I am sad that I didn't get to hang out with Connie at all this weekend, and I was only with Sarah, Emilee and Jen for a small amount of time.  But we have two 4-day weeks in a row and plenty of time to make up for it.
+
+We went to eat at the Mexican restauraunt and we got a shocked ""Jesus"" reaction to our shirt skirts.  However, it would have been more effective had it not been from the mother of a girl in our grade who insists that she looks like Julia Roberts and was wearing tiny shorts that read ""Hands Off"" with handprints on the ass.  Oh yeah, she does not have the body for that.  And despite the fact that she just gave birth to a child last year, she's probably around the same age as ol' Cindy Brock.  I forgot to tell Stef that story, she would have appriciated it.
+
+Well, I think that is it for now, however I will try and keep you posted as the events of my life unfold."
+"eventtime","2005-04-17 18:04:00"
+"current_moodid","31"
+"url","http://dontdreamitbit.livejournal.com/28011.html"
+"userid","4059"
+"itemid","108"
+"event","Xanga, like the others, was superscouted today.  This one is for Xanga. (Pours liquid into the ground.)
+
+Yesterday there was a talent (or lack thereof) show at school.  True entertainment.  However, Mr. Wright, Mr Harrison, Mr. Scioldo, Steve Miller (the superintendant of schools, not the joker, smoker or midnight toker) and Nathan Shew performed ""Sweet Home Alabama"" and ""Crazy Train"" the latter of which brought down the house.  Me, Sarah, Connie, Jen, Lisa, Emilee, Cheri, Miranda, Sara, Aimee, Jill and Erin were dancing and moshing and it was rather grand.  However, the rest of the acts were, shall we say, not exactly up to par.  I must say that I thought John performed well in both of his acts too, but I could have done with out the massacre of Billy Joe Armstrong's vocals in ""When I Come Around"" or really the more aptly titled ""When I Come Ar-Ro-Ound"".  They should have just played the song and let the audience fill in the vocals.  That would have been nice.
+
+I am reading the part of Amanda Wingfield of ""The Glass Menagerie"" for Creative Writing class.  I really, really love that part.  I want so badly to act that play out.
+
+I started work at DEB yesterday.  Dull, yes, but still better than anywhere else I have ever worked.  Not much to comment on yet, but I think there will be.
+
+I am going to IU at the end of the month to tour the campus, which is all fine and good except for the small fact that I don't think that I want to go there anymore.  I still need to check it out, though.  
+
+Oh, yes, I am leaving out that I have been totally mortified.  I hear that my dear sweet drunken mother molested my ex-boyfriend at a John Mellancamp concert last night.  She ended up wearing his hat.  Ew.  
+
+Welp, that's all folks..."
+"eventtime","2005-04-12 16:33:00"
+"current_moodid","79"
+"url","http://dontdreamitbit.livejournal.com/27754.html"
+"userid","4059"
+"itemid","107"
+"event","I have the strange and sudden urge to cry tears that will not come.  I am not sure why, I just want, need, crave a catharthis and life will not give it to me.
+
+I think that I am going to give up sex for awhile.  Not just sex, but kissing, touching, all the related activities.  Just for a little bit.   Just a small, self-imposed bout of celibacy.  I had a discussion with Sarah's mom, of all people, today about how a vibrator is just so much more effective than a man in so many ways.  I think that time without sex will be good for me, and it will give me time to decipher what I really want to to about Adam.  I will know how I really feel about him without sex bringing in added emotions which might not even be authentic.  I think that sometimes emotions are just the fabricated bi-products of sex.  
+
+It just got to the point where sex with Adam just wasn't a big deal anymore.  I didn't look foward to it or prepare for it.  It wasn't even worth the effort.   I needed to realise just how great that it can be and how lucky you are to get it when you can.  If you hold off and don't take it unless it's really going to be something spectacular, you can really appriciate it, like all things in life.  Your favorite food doesn't taste so good and special if you eat it every day.  So, I am temporarily going off the market.
+
+This is the first clear decision I have made in too long.  I am proud of me."
+"eventtime","2005-04-09 15:40:00"
+"current_moodid","43"
+"url","http://dontdreamitbit.livejournal.com/27548.html"
+"userid","4059"
+"itemid","106"
+"event","So now that you finally fell.                                
+
+Just like like you said you would, down to the last detail.
+
+Well if living's such hell, here's to your dying days.
+
+You won't have to be afraid.
+
+
+I finally feel like I have back something that has been gone for far too long.  My friendships.  I just want to sob and hold all of you because this passed week has been so great.  Just being around my friends again makes me smile.  I have missed you all so much.  It feels like we've all been cured of this horrible disease.  Harmony has returned and the world is well again.  Let's not waste another day.  Let alone another week or month.  We are counting time down now.  We are lucky to be stuck here because we are all stuck here together.
+
+
+Yeah, on the cruise, I did realise how much more to the world that there was and I think I learned just how much I want out of it, but this week I learned that I can't forget the beauty of what I have right here with me.  You guys are the best friends a girl could ask for.  The people we met had alot, but they don't have this.  I wouldn't trade it for anything.  Not even for that.  Honestly.  Wow.
+
+
+
+
+You Never Had Friends Like You Did When You Were Young"
+"eventtime","2005-04-07 17:53:00"
+"current_moodid","109"
+"url","http://dontdreamitbit.livejournal.com/27282.html"
+"userid","4059"
+"itemid","104"
+"event","There is something very wrong.  Someone very dear to me is very upset with me and I can't figure out why. This hurts me.  No, really, it hurts me.  And itches, too.  And bleeds.  Oh, does it bleed.  Who is this, you ask? Who is this, that is causing so many problems? Well, it's my vagina.  Oh yeah, it's pissed.  I am giving it penicillion, that must not be what it wants.  We aren't communicating well.  And we used to be the best of friends, too.  It's been pissed off since about two weeks to the day now.
+
+(I know some of you are doing the math...) :) 
+
+I got a new job today.  The third in the tenure of this blog.  It is at DEB.  This one seems alot funner than the others.
+
+Tomorrow is inservice but not before an important Spanish test that I must pass.  If anyone wants to hang out tomorrow afternoon there is a carload going to Terre Haute, or at least at presstime there is.  We all need some time together."
+"eventtime","2005-04-06 19:39:00"
+"current_moodid","38"
+"url","http://dontdreamitbit.livejournal.com/26762.html"
+"userid","4059"
+"itemid","103"
+"event","naturally i'm worried if i do it alone 
+who really cares cuz it's your life 
+you never know, it could be great 
+take a chance cuz you might grow 
+oh... oh ohhh 
+
+What you waiting 
+what you waiting 
+what you waiting 
+what you waiting 
+what you waiting for!? 
+
+Grant told Sarah that he didn't want to date me, meaning that I was corrupting her and turning her into my own personal lapdog or something like that.  This makes me laugh.  First of all, because it's ridiculuously false, and secondly what does he think that I am doing with my life that is so scandalous?  I would like to know, because I am not aware of it. Is he afraid she's going to start sitting around her house at 9 pm,listening to Everclear and typing on her LJ?  That's pretty much the reality of my life.  And reality is sad.  
+
+But tonight, no, not tonight. Tonight I have a mission.  The first in a larger mission that I have 19 days to put together, which is all part of an even bigger mission.  And that mission unfolds in about an hour and a half.  
+
+Friday night I was given the best gift one person can give to another.  And it wasn't even intentional.  Friday night, I was given peace of mind, and Friday night I slept soundly for the first time in what felt like an infinite amount of nights.  The only thing that I fear is that I won't sleep as soundly tonight.  But I have put this off long enough and I have picked tonight.  And I'll never forgive myself if I don't try.  I have to do this, and what's more, I have to play it off like it's not even a big deal.
+
+The egg hunt was the best night of my year so far.  And there have been a few good nights latley, so that's saying something.  I never thought I'd find myself at a Lil' Flip concert, but sometimes that's the way the cookee crumbles.  We looked so friggn' great, acting like a British rock band.  However, we went to Steak-n-Shake for some sustanance, and motherfucker it was closed as hell.  The people at IHOP told us that they were too pussy to be open the night that Lil' Flip invaded Terre Haute.  I say if you can't stand the heat, don't be a bitch and close the kitchen.  SUCK IT UP.
+
+As it happens, though, I did make it to Steak-n-Shake today, but I had to go through bitter hell just to get there.  I hate my life.  Ok, I am lying, I hate a certain aspect of my life.  And that aspect is well aware of it.  I want OUT but I don't know how to get there or what I'll do once I get there.  Things are just different now.  I can't go back.  I don't want to go back.  
+
+The thing of it is, reguardless of who I met while I was away or what happened between us, I admitted to myself some things about my current relationship. I admitted that I have no desire to live with this person, marry this person, have kids with this person or spend my life with this person.  I am positive of all of this.  So it's kind of like, what's the point?  Well, reguardless of these truths, I still care about this person a whole hell of alot.  But he knows that I feel differently, even though I don't have the heart to tell him.  He knows that I am not the same girl I once was.  I know it too.  But what the hell are we gonna do about it?"
+"eventtime","2005-04-03 20:52:00"
+"current_moodid","134"
+"url","http://dontdreamitbit.livejournal.com/26404.html"
+"userid","4059"
+"itemid","102"
+"event","I know, it's been awhile, but in my absense I have created <A href=""http://www.xanga.com/makilicious/"">The Study Hall Chronicles</A>, simply because that is pretty much the only internet accessable time time I have anymore and LJs are blocked on those computers. When I am home, Vaughn tries to in some way monopolize the computer, phone line or both, if for no other reason then to prove that yes, he still hates me.&nbsp;&nbsp;&nbsp; It's more than likely a good thing that I haven't had access to LJ lately, because, in the span of one week, I've become very, very bitter. Before I left this town on vacay I was like ""Why is everyone in such a hurry to graduate??"" Then I left and came back and I was like ""Oh, yeah...that's why."" I had seemed to totally forget that there was a great big world out there and it is alot better than this. And pretty soon, I'll be given the opportunity to go out and bask in it. But not yet.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the mean time, I am stuck here. I am trying to get myself work in Terre Haute but that is just turning out to be a power struggle between Vaughn and myself. I need to make money and if I can make money and be around new people and clothes, why would I want to work at McDonald's? <STRONG>Oh, college, college, come and take me away!</STRONG> I am trying to do better in school. That will help me make strides towards college, which I am now starting to desperately crave.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At least, tomorrow I will get to expierience the rare delicassy of actually seeing my friends. I forget what that was like. I remember it was nice, but it's so far in the passed that I don't remember how it felt to actually have friends. Or dare I say, actually have fun. I haven't done that with my friends in a really long time. I really need to go back on my medicine, I think. I am so neurotic when I don't take it. At least I don't get dizzy anymore when I go any length of time without it. I think I will scour the last little bit I have left and only take them when I feel really highly strung. I wish I could go back to a time when I was pleased with my life. I am not right now. I've had a taste of a life better than mine and I want that now more than anything. I've tasted blood and I want more.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>I was standing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You were there&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Two worlds collided&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; And they could never ever tear us apart</STRONG>"
+"eventtime","2005-04-01 17:05:00"
+"current_moodid","39"
+"url","http://dontdreamitbit.livejournal.com/26306.html"
+"userid","4059"
+"itemid","100"
+"event","I am behind in my life.  Plays drain everything out of me, but it couldn't be more worth it.  In, like, 3 days Sarah and I are outtie!  I am so excited.  I will miss Adam like insanity, but I need time away.  Aaron told me that I needed to read Sarah's last post and it made me cry a little. I know how it is, I've been locked in a bathroom before crying over the same things.  I am just glad that she is seeing what we've seen now for awhile.  Her and Grant love each other deeply and I know that they will make it through their troubles unscathed.  I just hope that all of our friendships can repair too.  I hope that summer will bring us all back together like we once were. I feel for her.  She deserves time away from her life, I am glad that she is going with me.
+
+Adam and I are doing well, though there are some squables here and there.  However, I cannot say the same for me and Jimmy.  The service engine light came on AGAIN today. That always means that trouble is not too far behind.  I would bet ten dollars that when I get back from the trip it will have to be jumped, at the very least.  Cindy says when I get a new job I can trade the bastard in. Yeah, sure.  I have heard that song before.  Besides, what could I get out of it?  Who would want it? 
+
+We took down the set today.  Ok, I watched with Elizabeth and Jenny as the set was taken down.  I did make a contribution, though.  Amy and I had a bonding expirience while emptying trash into the dumpster.  We both injured our hands though, and that was kinda sad.  We had fun though.  I have declared her as my new friend.  
+
+I didn't get to talk about Job Shadowing on here, did I?  I was wrapped up in Who Dunnit?/Cruise/End-O-Grading Period insanity.  Tru-Dawg and I went to the Tribune Star newsroom to job shadow the other day.  It was a fun time.  We got to go take photographs and sit in on the hearing on this inside guy from Ghana who keeps getting more charges against him as he bites more and more law enforcment.
+
+Yesterday, there was a cast party and Jill and Wendy's.  Me + Jennifer + Karaoke + Pour Some Sugar On Me.  You do the math.  There was a Rocky viewing as well.  It was safe to assume that ass was kicked.  
+
+Well, this week appears to be even busier than the last so I doubt you'll hear from me until after Spring Break '05.  And seeing as we will be gone for something like nine days, that's gonna be awhile.  So, have fun, be safe, use condoms and always select a designated driver.  Take care of yourself, and each other."
+"eventtime","2005-03-14 20:48:00"
+"current_moodid","98"
+"url","http://dontdreamitbit.livejournal.com/25847.html"
+"userid","4059"
+"itemid","99"
+"event","I can tell this post is going to mean alot to me one day.
+
+Last night was the first of two productions of Who Dunnit?.  It was magical.  This passed week has been.  It hurts me to leave it all behind.  I just want to relive the night over again, and hopefully we will on Sunday.  For such a small town, it has bread alot of amazing people.  For every ignorant drunken redneck there is a diamond in the rough in this town, I swear to you. However, you might just allready know that.
+
+Long story short, we had a good time.
+
+God, Buddah, Allah, Christ, Whoever: Don't ever let me forget how much I truly loved this twon and the people in it, at times."
+"eventtime","2005-03-12 12:44:00"
+"current_moodid","101"
+"url","http://dontdreamitbit.livejournal.com/25444.html"
+"userid","4059"
+"itemid","98"
+"event","I am sad.  In three months, many of my good friends are graduating.  Then, in a year and three months, we are.  Then we are all splitting apart.  Off to college and we'll make new friends and not have each other.  These people that I love so much will be seen so few times, less and less each year.  Then every five years.  Then they'll have jobs and families and I will too and that will be that.  When will I see Connie or Emilee or Aaron Cat or Joe?  Never, never, never and never.  I want to cry.  I don't want it to go away so fast.  We aren't even utilizing the time that we have.  Let's spend it together now because, honestly, we are getting to where it's out last chances."
+"eventtime","2005-03-03 20:36:00"
+"current_moodid","85"
+"url","http://dontdreamitbit.livejournal.com/25275.html"
+"userid","4059"
+"itemid","97"
+"event","1. First of all, pick the number of times a week that you would like to have chocolate. (try for more than once but less than 10) 
+
+
+2. Multiply this number by 2 (Just to be bold) 
+
+
+3. Add 5. (for Sunday) 
+
+
+4. Multiply it by 50 I'll wait while you get the calculator................ 
+
+
+5. If you have already had your birthday this year add 1754.... If you haven't, add 1753 ..... 
+
+
+6. Now subtract the four digit year that you were born. 
+
+
+You should have a three digit number. 
+
+The first digit of this was your original number 
+(i.e., how many times you want to have chocolate each week). 
+
+
+The next two numbers are ........ 
+
+
+YOUR AGE! ~ ( Oh YES, it IS!!!!! ) 
+
+
+THIS IS THE ONLY YEAR IT WILL EVER WORK, SO SPREAD IT AROUND WHILE IT LASTS"
+"eventtime","2005-03-01 18:45:00"
+"current_moodid","74"
+"url","http://dontdreamitbit.livejournal.com/24949.html"
+"userid","4059"
+"itemid","96"
+"event","Why is it that the things that you trust the most are the first things that fall apart and the things that you think won't ever happen are the just around the bend?
+
+What happened to us?  ..::if it involves you, you'll know it::.."
+"eventtime","2005-03-01 16:35:00"
+"current_moodid","30"
+"url","http://dontdreamitbit.livejournal.com/24812.html"
+"userid","4059"
+"itemid","95"
+"event","Do you ever have moments?  I mean, moments that if you could freze in time, you would.  I just had a moment.  It was nothing really.. Me, Connie, Emilee, John, Aaron, Aimee and Sam were all just walking out to our cars after school in the light snow fall having conversation and watching Aaron run about retardly, but it was a good moment.  Mad props to that moment, as they would say in the hood.
+
+Aimee shared today that she, too, is expieriencing AIM problems, the same as I, and she has AOL and it won't work for that either.  Hmm..
+
+I wrote a short story in the point of view of a sucessful black man telling a tale from his childhood for creative writing which also got mad props from the creative writing crowd.  I was proud of it, even though it was just a rough draft.  JP asked me how I understood the point of view of a small black boy so well.  I am not really sure about that.
+
+I just saw an interesting headline: ""Alleged Gibson Stalker Acts As Own Lawyer"".
+
+
+Great.  I twisted this long necklace into a bracelet and now it won't come off.  F life.  Okay, I got it off.  Un-F life.
+
+My Final Thought- I am done with this snow bullshit and it needs to stop.  Now."
+"eventtime","2005-03-01 16:16:00"
+"current_moodid","104"
+"url","http://dontdreamitbit.livejournal.com/24523.html"
+"userid","4059"
+"itemid","94"
+"event","I hate aim.  papa john's.  my life.  Here's why:
+
+AIM: The obvious.
+Papa John's: I am getting virtually nothing back from my tax check, even though I made alot.  Even after I am long gone they still manage to screw me. Oh, why, oh, why did I ever take that job???
+My Life: I am deathly ill.  Cindy fired Pook, quit going to the gym and has lost her mind.  I don't get the latest math assignment.  I have no money to take on the cruise.  The pictures I just got back suck.  I managed to some how waste ten hours on my life on America's Next Top Model.
+
+On Friday I: Came home from school.  Got online to see if AIM was working.  Was dissappointed to find that it wasn't.  Went to sleep.  That was my Friday night, folks.
+
+On Saturday I: Became concious again at about 10 am.  Turned on the tv to VH1 and saw this wonderous little reality tv show called America's Next Top Model.  From that moment, I did nothing but watch that show until midnight that night.  Except for I did eat a whole pizza from Paradice by myself.  OK, not entirely so, Adam did have one slice, but I ate all the breadstix, baby.
+
+On Sunday I: Helped Cindy clean out her closet. Woo!
+
+Today, Monday, I left for the first time all weekend.  I hope to never be sick again.  I vomited today during first period.  I was giving a presentation on Frida Kahlo.  I had to run out of the room.  Most people would be humiliated, however, I have no soul, and was absolutely fine.  The nurse tried to force me home but I refused, I was not going back to this abysmal place, no.  Not without a fight.
+
+I hope everyone had a more excited last few days than I. Just alot of phlegm and Tyra Banks."
+"eventtime","2005-02-28 20:11:00"
+"current_moodid","82"
+"url","http://dontdreamitbit.livejournal.com/24239.html"
+"userid","4059"
+"itemid","93"
+"event","OK, I can no officially no longer use instant messenger.  This sucks.  I have tried all I can try, and I can sign on but cannot send or recieve ims.  This all happned after we Upgraded our internet server.  It fucking sucks.  Has this happened to anyone before?  Can anyone help me?"
+"eventtime","2005-02-25 16:12:00"
+"current_moodid","24"
+"url","http://dontdreamitbit.livejournal.com/23994.html"
+"userid","4059"
+"itemid","92"
+"event","I am so pissed!  I can sign on AIM but it won't let me im anyone or recieve ims!  I am so pissed!  I am upgrading AIM programs, if that doesn't work, well, I am not sure, but it won't be pretty!"
+"eventtime","2005-02-24 21:28:00"
+"current_moodid","12"
+"url","http://dontdreamitbit.livejournal.com/23716.html"
+"userid","4059"
+"itemid","91"
+"event","Cindy and I got into a huge to do over washing my car last night.  So I went to wash it today.  Ok, I let Adam take it to get washed today.  Either way, it got washed.  
+
+I really hate the carwash.  That's all I have to say on that matter.
+
+Adam made some what of a scene in the Dollar General parking lot today.  I'll admit it, it was fucking funny, but I wish it would not have happened because I am sure it was a topic of conversation at my former place of employment, being as the scene was directed at a coworker that Adam has a certain distaste for.  However, I cannot deny that I share that distaste, I like pretending as though said coworker is not a part of society.  Poor society.  Though I cannot deny that it was one of the funnier things I have seen happen, well, today at least.
+
+In other news, it was decided today that Flo will have theme music upon her enterance and exit.  I need something to shake my ass to.  I just adore Flo.  I think I might give up Makenzi altogether and just live life as Flo.  I can start calling Adam ""Lucky Louie"".
+
+Now it's time to read ""Of Mice and Men""."
+"eventtime","2005-02-24 19:50:00"
+"current_moodid","15"
+"url","http://dontdreamitbit.livejournal.com/23375.html"
+"userid","4059"
+"itemid","90"
+"event","it might sound silly
+for me to think childish thoughts like these
+but I'm so tired of acting tough 
+and I'm gonna do as I please 
+Let's get married 
+in a big cathedral by a priest 
+'cus if I'm the man you love the most 
+you can say ""I do"" at least 
+
+
+I really like that verse and I don't know why.  Maybe it's 'cus they aren't in the cd jacket with the rest of the song's lyrics.  
+
+Overall today was decent at best.  Cindy opened it up with a bang.  She started my car, yelled at me because it was dirty and forgot to remind me that she used her keys and not mine.  This was not realised until I got to school.  Bye, bye, first period, for I did not attend. And I was risking my life due to the fog thicker than I have ever seen in all 17 of my years.  Crossing the highway was like playing Russian Roulette with vehicles.  Where was out 2 Hour Delay?
+
+Sarah and I got into it today, while the MACs were down, but I think it was for a good reason and I think that we got alot of things cleared up, and soon enough we were laughing about Fanny Paks.  I just think that there was alot of misunderstandings on both sides of the situation.  I think that the cruise is still on.  We will just have to see.  I really hope that it is.  I just want things to be back to normal and I am sorry if I hurt her feelings.
+
+I think that I might have found a new prom dress.  I am about 99% sure this time.  Here's hoping.  Cheri Lou Hoo is supposed to be getting the scoop on limousines!  
+
+Adam has been pleasing me lately.  He got a job and we had a serious discussion last night about his plans to become a History teacher.  I love him alot."
+"eventtime","2005-02-23 19:18:00"
+"current_moodid","66"
+"url","http://dontdreamitbit.livejournal.com/23104.html"
+"userid","4059"

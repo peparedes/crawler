@@ -1,0 +1,204 @@
+"names","values"
+"itemid","14"
+"event","aHR0cDovL3d3dy5QYXVsSFJpY2hhcmQuY29tDQoNCg0KT25lIHF1ZXN0aW9uIHNlZW1zIHRvIGhhdW50IHNvIG1hbnkgb2YgdXMsIOKAnFdoYXQgaXMgbXkgcHVycG9zZT/igJ0gUXVpdGUgZnJhbmtseSBpdCBpcyB3aGF0IGluc3BpcmVzIG1hbnkgb2YgbXkgY2xpZW50cyB0byBzZWVrIG1lIG91dC4gSXQgaW5zcGlyZXMgbWFueSBhIGxvbmcgc291bGZ1bCBjb252ZXJzYXRpb24gd2l0aCBmcmllbmRzIGxhdGUgaW50byB0aGUgbmlnaHQuIEl0IGlzIHRoZSBzdWJqZWN0IG9mIHBvZXRyeSwgcGxheXMgYW5kIGJvb2tzLiBJdCBpcyB0aGUgYmVkcm9jayBvZiBtb3N0IHJlbGlnaW9ucyBhbmQgc3Bpcml0dWFsaXR5Lg0KDQpIZXJtZXRpY2lzbSwgYW5kIGl0cyBkZWFyIHNpc3RlciBBbGNoZW15LCBhcmUgYW5jaWVudCBhcnRzL3BoaWxvc29waGllcyB0aGF0IHNlZWsgdG8gYW5zd2VyIHRoaXMgc291bCBxdWVzdGlvbi4gWW91IG1heSBiZSBmYW1pbGlhciB3aXRoIHRoZSBBbGNoZW1pc3TigJlzIHF1ZXN0IHRvIHR1cm4gbGVhZCBpbnRvIGdvbGQgdGhyb3VnaCB0aGUgbXlzdGljYWwgUGhpbG9zb3BoZXLigJlzIFN0b25lLiBZZXQgYWxjaGVteSB3YXMgbmV2ZXIgbWVhbnQgdG8gYmUgYSBjaGVtaWNhbCB3YXkgdG8gd2VhbHRoLiBJdCB3YXMgYSBzb3VsIGFydCBkZXNpZ25lZCB0byB1bmxvY2sgeW91ciBkZWVwZXN0IHB1cnBvc2UsIHRyYW5zZm9ybWluZyBhbGwgdGhhdCB3YXMgZGFyaywgaGVhdnksIGluZXJ0IGluIHlvdXIgbGlmZSBhbmQgd29ybGQgaW50byBhIHB1cmUsIHJhZGlhbnQsIHZpdGFsIGZvcmNlIGZvciBiZWF1dHksIHRoZSBoaWdoZXN0IGdvb2QsIGFuZCDigJxwZXJmZWN0aW9uLuKAnQ0KDQpXaGF0IGlzIHlvdXIgcHVycG9zZSBhbmQgbXkgcHVycG9zZSBhcyBodW1hbnMgYWNjb3JkaW5nIHRvIEhlcm1ldGljaXNtIGFuZCBBbGNoZW15PyBTaW1wbHkgYW5kIHByb2ZvdW5kbHksIHdlIGFyZSBjcmVhdGVkIGJ5IHRoZSBEaXZpbmUgdG8gY29tcGxldGUgdGhlIERpdmluZSBQdXJwb3NlLiBBbmQgd2hhdCBpcyB0aGUgRGl2aW5lIFB1cnBvc2U/IFRoZSBjcmVhdGlvbiBvZiBCZWF1dHkhDQoNCk91ciBwdXJwb3NlIGlzIHRvIGNvbXBsZXRlIHRoZSBEaXZpbmUgUHVycG9zZSBvZiBtYWtpbmcgdGhpbmdzLCB0aGUgd29ybGQsIG91ciBsaXZlcyBiZWF1dGlmdWwg4oCTIHRyYW5zZm9ybWluZyBsZWFkIGludG8gZ29sZC4gUm9iZXJ0IFBsYWNlLCBhdXRob3IsIEFsY2hlbWlzdCwgYW5kIFRhcm90IGNyZWF0b3IgdGVsbHMgaGlzIGNsaWVudHMsIOKAnFlvdXIgZGVzaXJlcyBhcmUgbm90IHlvdXJzLiBUaGV5IGFyZSB0aGUgZGVzaXJlcyBvZiB0aGUgQW5pbWEgTXVuZGkgKFNwaXJpdCBvZiB0aGUgV29ybGQpIHRoYXQgeW91IGFyZSBlbWJvZGllZCB0byBjYXJyeSBvdXQu4oCdDQoNCllvdXIgZGVzaXJlIHRvIG1ha2UgdGhpbmdzIGJldHRlciBpbiB5b3VyIGxpZmUgYW5kIHdvcmxkLCB0byBjcmVhdGUgbW9tZW50cyBvZiBCZWF1dHksIEpveSwgVHJ1dGgsIExpZ2h04oCmaXMgcmVhbGx5IHRoZSBEaXZpbmUgTGlnaHQsIHRoZSBTcGlyaXQsIHRoZSBDaHJpc3QgQ29uc2Npb3VzbmVzcywgdGhlIFRyaW5pdHksIEJ1ZGRoYeKApiB3aXRoaW4gWU9VLCBjb21pbmcgdGhyb3VnaCBZT1UsIGludG8gdGhlIHdvcmxkLg0KDQpJbiBteSB3YXkgb2YgdGhpbmtpbmcsIHlvdXIgU291bCBpcyB0aGUgZmFibGVkLCBteXN0aWNhbCBQaGlsb3NvcGhlcuKAmXMgU3RvbmUuIEl0IGlzIHRoZSBtZWFucywgdGhlIGNhdGFseXN0IGZvciB0cmFuc2Zvcm1pbmcgeW91ciBsaWZlIGFuZCB0aGUgd29ybGQgYXJvdW5kIHlvdS4gRXZlcnkgYWN0IG9mIGNyZWF0aW5nIGJlYXV0eSwgbm8gbWF0dGVyIGhvdyBzbWFsbCBvciBtb21lbnRhcnkgdGhhdCBjaGFuZ2UgbWF5IGJlLCBpcyBhIGZ1cnRoZXIgY29tcGxldGlvbiBvZiB0aGUgRGl2aW5lIFB1cnBvc2Ugb2YgdHJhbnNmb3JtaW5nIHRoZSB3b3JsZCBpbnRvIEJlYXV0eSwgdGhlIGZhY2Ugb2YgdGhlIEFuaW1hIE11bmRpLiBFdmVyeSB0aW1lIHlvdSB0YWtlIHNvbWV0aGluZyBsZWFkZW4sIGhlYXZ5LCBpbmVydCBpbiB5b3VyIGxpZmUgYW5kIHRyYW5zZm9ybSBpdCB0aHJvdWdoIHNvdWxmdWwgYWN0aXZpdHkgYW5kIGNvbnNjaW91c25lc3MgaW50byB0aGUgZ29sZCBvZiBiZWF1dHnigKZjcmVhdGlvbiBpcyBvbmUgc3RlcCBjbG9zZXIgdG8gaXRzIGNvbXBsZXRpb24uDQoNCklzIHRoZSB3b3JsZCBhIG1lc3M/IEFyZSBwZW9wbGUgc3VmZmVyaW5nPyBEb2VzIHlvdXIgb3duIGxpZmUgc2VlbSBtb3JlIGxlYWQgdGhhbiBnb2xkPyBUaGF0IGlzIG5vdCBhIHJlYXNvbiB0byBkb3VidCBvciBkZXNwYWlyIG9mIHRoaXMgd29uZGVyZnVsIHBoaWxvc29waHnigJlzIHRydXRoIGFuZCBlZmZpY2FjeS4gQSB3b3JsZCB3ZWlnaGVkIGRvd24gYnkgdGhlIGxlYWQgb2YgZGVzcGFpciwgZGVhdGggYW5kIGRpc2Vhc2UgaXMgYSBzaWduIHRoYXQgY3JlYXRpb24gaXMgc3RpbGwgaW4gcHJvY2Vzc+KApnN0aWxsIHRyYW5zZm9ybWluZy4gVGhlIG1pc3NpbmcgaW5ncmVkaWVudCBpcyB0aGUgUGhpbG9zb3BoZXLigJlzIFN0b25lIG9mIHRoZSBzb3VsLWNvbnNjaW91cyBhY3Rpdml0eSBvZiB5b3UsIGFuZCBvZiBtZSwgY3JlYXRpbmcgYmVhdXR5IG9uZSBzbWFsbCBwaWVjZS9ldmVudC9wbGFjZSBhdCBhIHRpbWUuDQoNClRoZSB0YXNrIGlzIG5vdCB0byDigJxjaGFuZ2UgdGhlIHdvcmxkLuKAnSBUaGUgdGFzayBpcyB0byBjaGFuZ2Ugb25lIHZlcnkgc21hbGwgcGFydCBvZiB5b3VyIG93biB3b3JsZC4gSXMgdGhlcmUgb25lIHNtYWxsIHdheSB0aGF0IHRvZGF5IHlvdSBjYW4gY3JlYXRlIGJlYXV0eSwgc29tZXRoaW5nIHNlZW1pbmdseSBzbWFsbCBhbmQgaW5zaWduaWZpY2FudD8gSSByZW1lbWJlciB3aGVuIG15IGJlbG92ZWQgY29tcGFuaW9uLWRvZyBvZiAxNiB5ZWFycyBkaWVkIHJlY2VudGx5LiBBbiB1bmtub3duIG5laWdoYm9yLCBwZXJoYXBzIGluIGhpcyBvciBoZXIgZGFpbHkgd2FsayBwYXN0IG15IGhvdXNlLCBub3RpY2VkIHRoYXQgbXkgYWdlZCBhbmQgaW5maXJtIGRvZyB3YXMgbm8gbG9uZ2VyIHN1cnZleWluZyBoaXMgd29ybGQgZnJvbSBoaXMgYmVkIG9uIHRoZSBwb3JjaCwgYW5kIHRoYXQgaGlzIGJlZCBvbiB0aGUgcG9yY2ggaGFkIGRpc2FwcGVhcmVkLiBUaGF0IHBlcnNvbiBwbGFjZWQgYSByb3NlIGluIGEgc21hbGwgdmFzZSBuZXh0IHRvIGhpcyB3YXRlciBib3dsIG9uIHRoZSBwb3JjaCB3aXRoIGEgc2ltcGxlIG5vdGUsIOKAnEkgbWlzcyBTdHJvbmcgSGVhcnQu4oCdIFRoYXQgc2ltcGxlIGFjdCBvZiBraW5kbmVzcyBkaWQgbW9yZSB0byBjcmVhdGUgYmVhdXR5IGluIG15IHdvcmxk4oCmaGVscCBtZSB0cmFuc2Zvcm0gdGhlIGxlYWQgb2YgZ3JpZWYgaW50byB0aGUgZ29sZCBvZiBqb3kgdGhhbiBzaGUgb3IgaGUgd2lsbCBldmVyIGtub3cuDQoNClBhdXNlIGFuZCByZWZsZWN0LiBXaGVyZSBjYW4geW91IG1ha2UgdGhpbmdzIG1vcmUgYmVhdXRpZnVsIHRvZGF5PyBXaGF0IGFyZSB5b3Ugd2FpdGluZyBmb3I/IEdvIERPIElUIQ0KDQpEbyBub3Qgd29ycnkgYWJvdXQgdGhlIHNpemUgb3Igc2lnbmlmaWNhbmNlLiBUaGUgZWZmZWN0IGlzIGN1bXVsYXRpdmUsIGRvbWluby1saWtlLiBUaGUgRGl2aW5lIFB1cnBvc2Ugb2YgbWFraW5nIHRoaXMgd29ybGQgYmVhdXRpZnVsIHdpbGwgYmUgZnVydGhlcmVkLCBhbmQgeW91IHdpbGwgaGF2ZSBhY2hpZXZlZCBhbm90aGVyIG1pbGVzdG9uZSBpbiB5b3VyIHB1cnBvc2UgaW4gdGhpcyBsaWZlLg0KDQpIYXBweSBDcmVhdGluZyENCg0KaHR0cDovL3d3dy5QYXVsSFJpY2hhcmQuY29t"
+"eventtime","2009-02-23 11:18:00"
+"url","http://celtic-grizzly.livejournal.com/3768.html"
+"userid","2636"
+"itemid","13"
+"event","aHR0cDovL3d3dy5QYXVsSFJpY2hhcmQuY29tDQoNCkhvdyBvZnRlbiBoYXZlIHlvdSB3aXNoZWQgeW91IGNvdWxkIGdvIGJhY2sgYW5kIGRvIGl0IGFsbCBvdmVyIGFnYWlu4oCmb25seSDigJxnZXQgaXQgcmlnaHQgdGhpcyB0aW1l4oCdPyBSZWdyZXQgYW5kIHJlbW9yc2Ugb2Z0ZW4gdGluZ2Ugb3VyIGxpdmVzIHdpdGggc29tYmVyIGh1ZXMsIHNhcHBpbmcgdGhlIHZpYnJhbnQgY29sb3IgYW5kIGpveSBvZiBhIGxpZmUgbGl2ZWQgdG8gdGhlIGZ1bGwuIFRoZSBkZXNpcmUgdG8gcmV0dXJuIHRvIGFuIGFjdGlvbiwgdGhvdWdodCwgZGVjaXNpb24sIHdvcmRzIHNwb2tlbiBvciB1bnNwb2tlbiwgYSBqdWRnbWVudCwgb3IgYSBjaGFuY2UgdG8gcmVjb3ZlciBtaXNzZWQgb3Bwb3J0dW5pdGllcyDigJQgaXMgYSBjb21tb24gaHVtYW4gZXhwZXJpZW5jZS4gSW4gaXRzIGVzc2VuY2UgaXQgaXMgYSBsb25naW5nIGZvciByZWJpcnRoLCBhIGNoYW5jZSAgdG8gc3RhcnQgYWxsIG92ZXIgYWdhaW4gd2l0aCB0aGUgd2lzZG9tIG9mIGxpdmVkIGV4cGVyaWVuY2Ugbm93IHRvIGd1aWRlIHlvdSB0byBhIG5ldyBhbmQgYmV0dGVyIGxpZmUuDQoNCkFsbW9zdCBldmVyeSBtYWpvciByZWxpZ2lvbiBvZmZlcnMgc29tZSB0eXBlIG9mIHJlYmlydGggdGhyb3VnaCByaXR1YWwsIG1lZGl0YXRpb24sIG9yIGRpdmluZSBpbnRlcnZlbnRpb24uIEJhcHRpc20sIHJlaW5jYXJuYXRpb24sIHJlcGVudGFuY2UgYW5kIGZvcmdpdmVuZXNzIG9mdGVuIHRocm91Z2ggYW4gaW50ZXJtZWRpYXJ5IGxpa2UgYSBwcmllc3Qgb3IgcHJpZXN0ZXNzLCBzYWNyaWZpY2UgdG8gdGhlIGdvZHMgb3IgZ29kZGVzc2Vz4oCmdGhlIGxpc3QgaXMgbG9uZyBhbmQgcmljaC4gTWV0YXBob3JpY2FsbHksIG1ldGFwaHlzaWNhbGx5LCBvciBtaXJhY3Vsb3VzbHkgd2UgZXhwZXJpZW5jZSBhIHJlYmlydGggdGhyb3VnaCBhIHJldHVybiB0byBhbiBvcmlnaW5hbCB3aG9sZW5lc3MsIGEgbmV3IGNoYW5jZSwgYSBuZXcgbGlmZeKApi5yZWJpcnRoLg0KDQpPdXIgZG9taW5hbnQgcmVsaWdpb24gYW5kIG1ldGFwaG9yIG9mIHRoZSAyMXN0IGNlbnR1cnksIG5hbWVseSBTY2llbmNlLCBhbHNvIGhhcyBpdHMgb2ZmZXIgb2YgcmViaXJ0aCBhbmQgcmVuZXdhbC4gT2YgY291cnNlIHRoZXJlIGFyZSB0aGUgY29zbWV0aWMgc2hhbXMgb2YgYm90b3gsIGNyZWFtcywgYW5kIG5pcHMgYW5kIHR1Y2tzIHdoaWNoIGFyZSBhIHZhaW4gYXR0ZW1wdCBhdCBoaWRpbmcgdGhlIHRydXRoIHJhdGhlciB0aGFuIGEgZ2VudWluZSByZXR1cm4gdG8gdGhlIG9yaWdpbmFsIHdob2xlbmVzcy4gSG93ZXZlciB0aGUgc2NpZW5jZSBvZiBlbWJyeW9uaWMgc3RlbSBjZWxscyBvZmZlciB3aGF0IG1heSBzb21lIGRheSBiZSBhIGdlbnVpbmUgcmV0dXJuIHRvIG9yaWdpbmFsIHdob2xlbmVzcyB3aXRoIGEgcmVzdG9yZWQgb3JnYW4gb3IgbGltYiwgaGVhbGluZyBmcm9tIGEgZHJlYWRlZCBkaXNlYXNlLCBldGMuIFRocm91Z2ggdGhlIG1hcnZlbG91cyBjZWxscyBwcmVzZW50IGR1cmluZyBvdXIgZ2VzdGF0aW9uLCB3ZSBjYW4gdHJ1bHkgcmV0dXJuIHRvIHRoZSBvcmlnaW5hbCBzdGF0ZSBhbmQgZXhwZXJpZW5jZSBhIHJlYmlydGggb24gc29tZSBsZXZlbC4NCg0KSW4gYWxsIG9mIHRoZXNlIHNjZW5hcmlvcywgaGVhbGluZyBpcyB0aGUgY2VudHJhbCB0aGVtZS4gSGVhbGluZyBkcml2ZXMgdXMgdG8gc2VlayBvdXQgdGhlIHByaWVzdC9wcmllc3Rlc3MsIHBoeXNpY2lhbiwgbWV0YXBoeXNpY2lhbiwgcHN5Y2hvbG9naXN0LCBzaGFtYW4sIGd1cnUuIEhlYWxpbmcgaGFzIGF0IGl0cyByb290IGEgZGVzaXJlIGZvciB0aGUgY2hhbmNlIGZvciByZW5ld2VkIGdyb3d0aCwgYSBuZXcgbGlmZSwgdG8gYmUgYSBiZXR0ZXIgYW5kL29yIGRpZmZlcmVudCBwZXJzb24uIEhlYWxpbmcgaXMgdGhlIGNyeSBvZiBldmVyeSBodW1hbiBoZWFydCBhbmQgaXQgZmlsbHMgdXMgd2l0aCBob3BlIGZvciBhIGJldHRlciB0b21vcnJvdy4NCg0KQXN0cm9sb2d5IGlzIG5vIGRpZmZlcmVudC4gQXQgaXRzIHJvb3QgaXQgdG9vIG9mZmVycyB0aGUgcHJvbWlzZSBvZiBhIHJldHVybiBhbmQgcmVuZXdhbCwgYSByZWJpcnRoIC0gYSByZWJpcnRoIG5vIGxlc3MgcmVhbCB0aGFuIHRoZSByaXR1YWxzIG9mIHRoZSBwc3ljaG9sb2dpc3TigJlzIG9mZmljZSwgdGhlIHRlbXBsZSBvciBjaHVyY2gsIG9yIHRoZSBzaGFtYW7igJlzIHRyYW5jZS4gVGhlIG5hdGFsLCBvciBiaXJ0aCwgY2hhcnQgaXMgYSBzYWNyZWQgc3ltYm9sLiBJdCBjYXB0dXJlcyB0aGUgbW9tZW50IG9mIG91ciBvcmlnaW5hbCB3aG9sZW5lc3MsIG91ciBtb21lbnQgb2YgYmlydGggaW50byB0aGlzIGV4aXN0ZW5jZS4gSXQgaXMgYSBtYW5kYWxhLCBhIHNhY3JlZCBzeW1ib2wgb2Ygd2hvbGVuZXNzLCBhbiBpbWFnZSBvZiBvdXIgQ29zbWljIE5hbWUuIFRoZSBtYXJ2ZWxvdXMgb3JkZXIgYW5kIGhhcm1vbnkgb2YgdGhlIG1hY3JvY29zbSBhbmQgdGhlIHdpc2RvbSBvZiBpdHMgZGVzaWduIGFuZCBwdXJwb3NlIGFyZSByZWZsZWN0ZWQgaW4gdGhlIG1pY3JvY29zbSBvZiBvdXIgb3duIFNvdWwuIE91ciBTb3VsIGlzIGEgZGl2aW5lIGRlc2lnbiBvZiBoYXJtb255LCBvcmRlciwgd2lzZG9tLCBncmFjZSBhbmQgYmVhdXR5LiBUbyBlbnRlciBpbnRvIG91ciBiaXJ0aCBjaGFydCBpcyB0byBlbnRlciBiYWNrIGludG8gdGhlIG1vbWVudCBvZiBvdXIgYmlydGguIFRoZXJlIHdlIGNhbiBnbGltcHNlLCBwb25kZXIsIGFuZCByZWZsZWN0IG9uIG91ciBkZWVwIGRlc2lnbiBhbmQgcHVycG9zZS4gVGhlIGhhcm1vbnkgYW5kIG1hamVzdHkgb2Ygb3VyIG9yaWdpbmFsIHRlbXBsYXRlLCBmcmVlIGZyb20gYWxsIHRoZSBtaXNzdGVwcywgbWlzY3Vlcywgd3JvbmcgY2hvaWNlcywgYW5kIG1pc3Rha2VzIG9mIHRoZSBwYXN0LCBzdGFuZHMgYmVmb3JlIHVzIGludml0aW5nIHVzIHRvIHJlYmlydGguDQoNCkJ5IHRob3VnaHRmdWwgcmVmbGVjdGlvbiB1cG9uIG91ciBvcmlnaW5hbCBkZXNpZ24sIHdlIGhhdmUgYSBjaGFuY2UgdG8gcmVkaXNjb3ZlciBhbmQgcmVhbGlnbiBvdXJzZWx2ZXMgdG8gdGhhdCBkZXNpZ247IGFuZCB0aHVzIHJlYmlydGggb3Vyc2VsdmVzIGludG8gYSBuZXcgYW5kIGZ1bGxlciByZWFsaXR5IG9mIFNlbGYsIGEgcmVhbGl0eSBvZiBTZWxmIGNsb3NlciB0byB0aGUgZGVlcCB3aXNkb20gYW5kIGRpdmluZSBtYWplc3R5IG9mIG91ciBTb3Vs4oCZcyBvcmlnaW5hbCBpbnRlbnRpb24gZm9yIHVzLiBBc3Ryb2xvZ3ksIGRvbmUgd2VsbCwgd2l0aCBwcm9wZXIgcmVzcGVjdCBmb3IgdGhlIGRpdmluZSBlbmVyZ2llcyBhbmQgcGF0dGVybnMgb3VyIFNvdWwgaGFzIGNob3NlbiBmb3IgdXMgaW4gdGhpcyBsaWZlLCBjYW4gZ2l2ZSB1cyBhIG5ldyBsZWFzZSBvbiBsaWZlLCBhbmQgYSByZW5ld2VkIGhvcGUgYW5kIHBhc3Npb24gZm9yIGxpdmluZy4gSXQgaXMgYW4gZW1icnlvbmljIHN0ZW0gY2VsbCBvZiB0aGUgU291bCwgYSBtYW5kYWxhIG9mIHdob2xlbmVzcywgYSBiYXB0aXNtIGluIHRoZSBjb3NtaWMgd2F0ZXJzIG9mIGRpdmluZSBpbnRlbnRpb24sIHNhY3JlZCBoZWFsaW5nIHRoZXJhcHkuDQoNClRoZSBvcmlnaW5hbCBtZWFuaW5nIG9mIHRoZSB3b3JkIOKAnHRoZXJhcHnigJ0gZGVyaXZlcyBmcm9tIHRoZSBHcmVlayBhbmQgbWVhbnMg4oCcdGhlIHNlcnZpY2UgdGhhdCBtdXN0IGJlIHJlbmRlcmVkIHRvIHRoZSBnb2RzLuKAnSBBcyBhbiBhc3Ryb2xvZ2VyLCB3aGVuIEkgZW50ZXIgdGhlIHNhY3JlZCB0ZW1wbGUgb2YgeW91ciBiaXJ0aCBjaGFydCwgYW5kIHN0YW5kIGJlZm9yZSB0aGUgZGl2aW5lIGVuZXJnaWVzLCBpbnRlbnRpb25zIGFuZCB3aXNkb20gb2YgeW91ciBTb3VsICh3aGF0IHdlIG9uY2UgbmFtZWQgYXMgZ29kcyBhbmQgZ29kZGVzc2VzKSBJIGFtIGZpbGxlZCB3aXRoIGF3ZSBhbmQgcmV2ZXJlbmNlIGZvciB0aGUgbWFqZXN0eSBvZiB0aGUgYmVpbmcgd2hvIHNpdHMgYmVmb3JlIG1lLiBBcyBhIHByaWVzdCBvZiB0aGUgU291bCwgYW4gYW5hbSBjYXJhLCBJIHN1Ym1pdCBodW1ibHkgdG8gdGhlIHNlcnZpY2Ugb2YgdGhlIGdvZHMgYW5kIGdvZGRlc3NlcyB3aXRoaW4geW91ciBTb3VsLCB0aHVzIGhlbHBpbmcgeW91IHRvIGZpbmQgaGVhbGluZyBhbmQgcmVzdG9yYXRpb24sIGEgcmViaXJ0aCBpbnRvIG5ldyBwb3NzaWJpbGl0aWVzIGFuZCBlbXBvd2VybWVudC4NCg0KaHR0cDovL3d3dy5QYXVsSFJpY2hhcmQuY29t"
+"eventtime","2009-02-21 11:43:00"
+"url","http://celtic-grizzly.livejournal.com/3365.html"
+"userid","2636"
+"itemid","12"
+"event","SGFsbG93ZWVuIOKAlD4gSGFsbG93IEXigJllbiDigJQ+IEhhbGxvdyBFdmVuaW5nIOKAlD4gSG9seSBOaWdodA0KDQpUaGlzIHZlbmVyYWJsZSBzYWNyZWQgbmlnaHQsIGNhbGxlZCBTYW1oYWluIGluIHRoZSB0b25ndWUgb2YgbXkgQ2VsdGljIGFuY2VzdG9ycywgaGFzIGEgcmljaCBhbmQgY29udHJvdmVyc2lhbCBoaXN0b3J5LiBBcyB3aXRoIG1vc3QgYW5jaWVudCBjdWx0dXJlcywgdGhlcmUgd2FzIGEgcG93ZXJmdWwgYmVsaWVmIGluIHRoZSBjb250aW51YXRpb24gb2YgbGlmZSBhZnRlciBkZWF0aC4gV2l0aCB0aGF0IGJlbGllZiB3YXMgYW4gZXF1YWwgY2VydGFpbnR5IHRoYXQgdGhlIGRlYWQgc3RpbGwgaGFkIHRpZXMgb2YgcmVsYXRpb25zaGlwIGFuZCBjb21tdW5pY2F0aW9uIHdpdGggdXMuIFRoZSBkZWFkLCB0aGUgZGVpdGllcywgYW5kIG90aGVyIHNwaXJpdHVhbCBiZWluZ3MgY291bGQgcHJvdmlkZSB1cyAtIHRoZSDigJxsaXZpbmfigJ0gLSB3aXRoIHN1cHBvcnQsIGNvdW5zZWwsIGFuZCBibGVzc2luZ3Mgb3IgdHJvdWJsZXMuDQoNCkFtb25nIHRoZSBDZWx0cyBTYW1oYWluIHdhcyB0aGUgbmlnaHQgd2hlbiB0aGUgdmVpbCB0aGF0IHNlcGFyYXRlZCBvdXIgd29ybGQgZnJvbSB0aGUgb3RoZXIgd29ybGRzLCBpbmNsdWRpbmcgdGhlIHdvcmxkcyBvZiB0aGUgc3Bpcml0cyBhbmQgdGhlIGRlYWQsIHdhcyB0aGUgdGhpbm5lc3QuIE9uIHRoYXQgSG9seSBOaWdodCwgb3VyIGNvbW11bmljYXRpb24gd2l0aCB0aGUgYW5jZXN0b3Igc3Bpcml0cyB3YXMgaW5kZWVkIHBvd2VyZnVsbHkgcHJlc2VudCBhbmQgdmlicmFudC4gSXQgd2FzIGEgdGltZSB0byByZW1lbWJlciwgY29tbXVuZSwgbGF1Z2gsIGNyeSwgZm9yZ2l2ZSwgYmxlc3MsIGFuZCBjZWxlYnJhdGUgb3VyIGxvdmVkIG9uZXMgd2hvIGhhdmUgam91cm5leWVkIHRvIHRoZSDigJxTdW1tZXJsYW5kcy7igJ0gQW55b25lIHdobyBoYWQgZGllZCBiZXR3ZWVuIHRoZSBsYXN0IFNhbWhhaW4gYW5kIHRoaXMgb25lIHdhcyBiZWxpZXZlZCB0byBiZSBzdGlsbCB3YW5kZXJpbmcgdGhlIGVhcnRoLCBhd2FpdGluZyB0aGUgdmVpbCB0byB0aGluIGVub3VnaCB0byBjcm9zcyBvdmVyLiBTbyByZW1lbWJlcmluZyB0aGVtIGFuZCBzdXBwb3J0aW5nIHRoZW0sIHdlIGhlbHBlZCB0aGVtIHRvIGZpbmQgdGhlaXIgd2F5IGludG8gdGhlIG5leHQgd29ybGQuDQoNClNvbWV3aGVyZSBiZXR3ZWVuIHRoZSBwYWdlcyBvZiBoaXN0b3J5IHRoaXMgYXdlc29tZSBuaWdodCBiZWNhbWUgdHJhbnNmb3JtZWQgaW50byB0aGUgQ2hyaXN0aWFuIGZlYXN0cyBvZiDigJxBbGwgU291bHMgRGF54oCdICgxMC8zMSkgYW5kIOKAnEFsbCBTYWludHMgRGF54oCdICgxMS8xLikgWWV0IHRoZSBhbmNpZW50IG1lbW9yaWVzIGFuZCBkZWVwZXIgcmVhbGl0aWVzIHN0aWxsIGNsaW5nIHRvIHRoZXNlIOKAnGJhcHRpemVk4oCdIHBhZ2FuIGZlYXN0cy4gVGhlIHNvdWzigJlzIG1lbW9yeSBpcyBvbGRlciBhbmQgc3Ryb25nZXIgdGhhbiB0aGUgcGFzc2luZyB0aWRlcyBvZiBtZW4gYW5kIHdvbWVu4oCZcyByZWxpZ2lvdXMgYWZmaWxpYXRpb25zIGFuZCBmYW5jaWVzLg0KDQpUcnVlLCBtb2Rlcm4gY3VsdHVyZSBoYXMgZG9uZSBtdWNoIHRvIGVyYXNlIHRoZSBncmVhdCBzcGlyaXR1YWwgbWVhbmluZyBhbmQgbG9uZ2luZyBpbiB0aGlzIGhvbHkgbmlnaHQuIEJlYXN0aWVzLCBnaG91bGllcywgYW5kIHZhcmlvdXMgaW5jYXJuYXRpb25zIG9mIG5pZ2h0bWFyZSBhbmQgZmFpcnktdGFsZSBjaGFyYWN0ZXJzIGRhbmNlIGF0IHBhcnRpZXMsIGZlYXN0IG9uIHN3ZWV0cywgYW5kIOKAnHRyaWNrIG9yIHRyZWF0LuKAnSBUaGV5IGFyZSBidXQgcGFsZSByZW1uYW50cywgdHJ1ZSBnaG9zdHMgb2YgYSBtdWNoIHJpY2hlciwgZGVlcGVyLCBtb3JlIHBvd2VyZnVsIGNlbGVicmF0aW9uLg0KDQpZZXQgSSB3YW50IHRvIGNhbGwgdXMgYmFjayB0byBvdXIgc291bOKAmXMgZmVhc3QuIEEgdGltZSBvZiByZW1lbWJlcmluZyB0aGF0IGxpZmUgaW4gdGhpcyB3b3JsZCBpcyBidXQgb25lIGdsaW1tZXJpbmcgb2YgYSBmYXIgZ3JlYXRlciBhbmQgbXlzdGVyaW91cyByZWFsaXR5IHdlIGNhbGwgTElGRS4gSXQgaXMgYSB0aW1lIHRvIHJlbWVtYmVyIHRoYXQgb3VyIGRlYWQgYXJlIG5vdCB0cnVseSBnb25lIGZyb20gdXMuIFRoZXkgbGl2ZSBhbmQgbW92ZSBhbmQgZGFuY2UgYW5kIGhhdmUgdGhlaXIgYmVpbmcgd2l0aCBldGVybmFsIGJvbmRzIG9mIGFmZmVjdGlvbiB3aXRoIHVzLiBXZSBhcmUgYWxsIHN0aWxsIGNvbm5lY3RlZCwgYSBsaXZpbmcgY29tbXVuaW9uIG9mIHNvdWxzIHN0cmV0Y2hpbmcgZnJvbSB0aGUgZGltbWVzdCBzcGFya3Mgb2YgdGhlIGZhci1kaXN0YW50IHBhc3QgaW50byB0aGUgZXZlciBhcmNpbmcgZ2xvdyBvZiBvdXIgZnV0dXJlIGxpdmVzLg0KDQpUYWtlIGEgbW9tZW50IHRoaXMgQWxsIEhhbGxvd+KAmXMgRXZlIHRvIHJlLWNvbm5lY3QgaW4gYSBjb25zY2lvdXMgd2F5IHdpdGggYWxsIHRob3NlIHlvdSBsb3ZlIHdobyBoYXZlIHBhc3NlZCB0aHJvdWdoIHRoZSB2ZWlsIGludG8gdGhlIG90aGVyIHBsYWNlLiBDbGVhciBhIHNwb3Qgb24gYSB0YWJsZSBvciBkZXNrIGFuZCBwbGFjZSB1cG9uIGl0IHBpY3R1cmVzIG9mIHRoZW0sIGFuZC9vciBwZXJoYXBzIHNvbWUgbWVtZW50b2VzIHRoYXQgcmVtaW5kIHlvdSBvZiB0aGVtIC0gYSB0cmVhc3VyZWQgbG9ja2V0LCBhbiBvbGQgZmlzaGluZyBrbmlmZSwgYSBzbWFsbCB0b3ksIGV0Yy4gTGlnaHQgc29tZSBjYW5kbGVzIGFyb3VuZCB0aGVzZSBwaWN0dXJlcyBhbmQg4oCcc2FjcmVkIG1lbW9yeeKAnSBvYmplY3RzLiBEaW0gdGhlIGxpZ2h0cy4gU2l0IHF1aWV0bHkgZ2F6aW5nIHVwb24gdGhlbSwgcmVjYWxsaW5nIGZvbmQgYW5kIHRyZWFzdXJlZCBtZW1vcmllcy4gU2xvd2x5LCB3aGVuIHRoZSBzcGlyaXQgbW92ZXMgeW91LCBzcGVhayB0byB0aGVtLCBzaW5nIHRvIHRoZW0sIGNyeSB3aXRoIHRoZW0sIGxhdWdoIHdpdGggdGhlbeKApiBhbmQgbW9zdCBlc3BlY2lhbGx5IGZvcmdpdmUgdGhlbSBhbmQgYmxlc3MgdGhlbSwgc28gdGhhdCB0aGV5IGNhbiBjcm9zcyB0aGUgdmVpbCBrbm93aW5nIHRoYXQgcGVhY2UgYW5kIGhlYWxpbmcgYW5kIGxvdmUgYXJlIHRoZSBvbmx5IHRpZXMgdGhhdCBiaW5kIHlvdSBub3cuDQoNClRoZW4gZ28gb3V0IHRvIGRpbm5lciB3aXRoIGZyaWVuZHMsIG9yIHByZXBhcmUgYSBzcGVjaWFsIG1lYWwgYXQgdGhlIGhvdXNlIGZvciBmYW1pbHkgYW5kIGZyaWVuZHMuIE1ha2UgYSBwb2ludCBvZiBlYWNoIHBlcnNvbiBzaGFyaW5nIHNpbGx5LCBsYXVnaGFibGUsIHBvaWduYW50IGFuZCB0cmVhc3VyZWQgbWVtb3JpZXMgYXJvdW5kIHRoZSB0YWJsZSBhYm91dCB0aGVpciBwYXNzZWQgbG92ZWQgb25lKHMpLiBMZXQgZWFjaCBwZXJzb24gcmFpc2UgYSB0b2FzdCB0byDigJxkZWFyIGRlcGFydGVkX19fX19f4oCdIHdpdGggYSBkZWxpY2lvdXMgd2luZSwgbWVhZCwgb3IgZmF2b3JpdGUgbm9uLWFsY29ob2xpYyBiZXZlcmFnZSAoanVzdCBiZSBzdXJlIHRvIG1ha2UgaXQgYSBiZXZlcmFnZSB0aGF0IHlvdSB0cnVseSBlbmpveSBhbmQgcmVsaXNoLikgTWF5YmUgaWYgeW91IGFyZSBmZWVsaW5nIHJlYWxseSBhZHZlbnR1cmVzb21lIC0gYW5kIHlvdSBhcmUgYmxlc3NlZCB3aXRoIHVuZGVyc3RhbmRpbmcgZnJpZW5kcyBhbmQgZmFtaWx5IC0gc2V0IGFuIGVtcHR5IGNoYWlyIGF0IHRoZSB0YWJsZSB3aXRoIGl0cyBvd24gcGxhY2Ugc2V0dGluZyBvZiBmb29kIGFuZCBkcmluay4gVGhlbiBhcyBlYWNoIHBlcnNvbiByb3VuZCB0aGUgdGFibGUgcmVjYWxscyBzdG9yaWVzIG9mIHRoZWlyIGxvdmVkIG9uZXMgLSB5b3UgY2FuIGFkZHJlc3MgeW91ciB0b2FzdHMgYW5kIGNoZWVycyB0byB0aGUg4oCcZW1wdHnigJ0gY2hhaXIgLSB3aGljaCB3ZSBrbm93IGlzIG5vdCB0cnVseSBlbXB0eSBhdCBhbGwhIFRoZSBwb2ludCBvZiBpdCBhbGwgaXMgdG8gZmVhc3QgYW5kIGNlbGVicmF0ZSB0aGVzZSBsb3ZlZCBvbmVzIHdpdGggbXVjaCBsYXVnaHRlciwgdGVhcnMsIGFuZCBzb3VsLWZ1bGwgbWVtb3JpZXMuDQoNClRoZW4gbWF5YmUsIGp1c3QgbWF5YmUsIGluIGEgbmlnaHQgb2Yg4oCcdHJpY2sgb3IgdHJlYXRz4oCdLCB5b3Ugd2lsbCBmaW5kIEFsbCBIYWxsb3dzIEV2ZSB0byBiZSBvbmUgb2YgdGhlIG1vc3Qgc3BlY2lhbCB0cmVhdHMgb2YgdGhlIHllYXIuIEEgbW9tZW50IHdoZW4gdGhlIHZlaWwgcGFydHMgYW5kIHlvdXIgdHJlYXN1cmVkIGxvdmVkIG9uZSB0b3VjaGVzIHlvdXIgaGVhcnQgYW5kIHJlbWluZHMgeW91IHRoYXQgeW91IGFyZSBuZXZlciB0cnVseSBhbG9uZS4NCg0KSGFwcHkgZmVhc3RpbmcgYmxlc3NlZCBzb3VscyE="
+"eventtime","2007-10-30 19:33:00"
+"url","http://celtic-grizzly.livejournal.com/3297.html"
+"userid","2636"
+"itemid","11"
+"event","December 25th (in the Julian calendar) marked the feast of the Winter Solstice. Originally known as the Feast of  ""Sol Invictus""  (Latin for ""The Unconquerable Sun"")  it celebrated a deep and abiding faith that despite the darkest and longest night of the year, the light would triumph and return to its ascendency over the dark. The Winter Solstice marks one of the 4 major soli-lunar events of the year. This feast has been celebrated in almost every culture and historical period under one name or another. Yet the theme is always the same - hope and joy in the face of darkness.
+
+The title, and the thematic centrality, of the feast was too great a temptation not to ""baptize"" it in the blood of Jesus and make it a central feast for the Christian faithful. Yet if you read the Scriptures closely you realize that the Jesus story has him born in the Springtime, the lambing season, when flocks in the grazing fields were watched over carefully by shepherds to prevent the vulnerable newborns from predation. (In the winter months sheep were not out in the fields at night due to the inclement weather.) Placing Jesus' birth at lambing time also served the gospel writer Matthew's theological purpose to have Jesus imaged as the newborn ""Lamb of God"" who would later escape the ravenous wolf, King Herod, in order to ultimately give his life at the time of the sacrificing of those very lambs on the primal feast of Passover.
+
+So many of the Solstice customs and rituals have become part and parcel of the Christian celebration of Christmas. The tree with lights, holly and mistletoe, evergreen wreaths, red and green colors, gift-giving, special carols, etc. are but a small listing of the many symbols and customs appropriated from more ancient celebrations. 
+
+http://en.wikipedia.org/wiki/Sol_Invictus
+http://www.tryskelion.com/yule7.htm
+http://www.candlegrove.com/solstice.html
+http://www.religioustolerance.org/xmas_date.htm
+
+Yet in the religious intolerance that seems to crown this season, the true origins of so many of our beloved traditions get covered over, as religious demagogues lament the expropriation of Christmas by the godless masses. Foaming at the mouth about keeping ""Christ in Christmas"" they spread intolerance, misinformation, and even fear and hatred of those who choose to believe differently.  
+
+Would it not be more in keeping with the nature of this feast to realize and celebrate its utterly diverse origins, customs, and traditions - as an abiding witness to the unity of humankind? as a shining witness to  our central and common human need for a time to express our undying hope and joy, in the face of the seemingly unremitting horrors and darkness of this world (most often perpetrated and legitimated in the name of religious ""truths"")? Surely a feast that unites so many cultures, falths, and epochs can serve as the basis of our coming together in a spirit of gentle tolerance, respect, and community... rather than a ""my god is better (or more ""real"") than your god"" religious truimphalism and exclusivism.
+
+I hope for all of you... amidst the darkness of fear and the ""slaughter of the innocents"" that Christian and Islamic and Jewish ""terrorists"" spill across Iraq, Palestine, and nations around the world... a time of hope and joy BIRTHED in the unquenchable human thirst for justice, peace, dignity,  and love. 
+
+Let the Light return!"
+"eventtime","2006-12-19 16:28:00"
+"current_moodid","70"
+"url","http://celtic-grizzly.livejournal.com/3001.html"
+"userid","2636"
+"itemid","10"
+"event","My father died some time this morning. 
+
+Death is a welcome yet uninvited guest
+She bides the time of her own choosing.
+A surrender, a sigh, a severing - 
+a whispering into eternity 
+to begin again with someday newborn cry.
+Embracing the fullness of emptiness
+releasing the emptiness of fullness
+the soul waits
+surrendering into life.
+
+My vigilant grief keeps sentinel 
+its own memories awake."
+"eventtime","2006-09-18 15:21:00"
+"current_moodid","101"
+"url","http://celtic-grizzly.livejournal.com/2642.html"
+"userid","2636"
+"itemid","9"
+"event","Well I can think of no better time to RE-START my journal than on the day we celebrate our new home in Portland Oregon in an official way -- with a ""Thank You guys"" barbeque for all the friends here in Portland  that helped make our transition so smooth and pleasant. Without these wonderful men - the move here would have been so much more daunting and difficult. 
+
+Moving from Alaska is a nightmare in so many ways - and SO freakin' expensive. I know that there are probably cheaper ways to move -- but they would have involved more expense and hassles further down the road - at a time when we could least afford them. Taking the risk to move to Portland AND start our own businesses (being self-employed in other words) was a scary venture in itself. Having a great group of guys to give us encouragement and support by sharing home, hearts, and humor was a huge help!! Thanks to one and all!
+
+So... raise a glass and invoke the spirits, gods, goddesses, and the sidhe to bless and nurture our new beginnings :: new city, new friends, new business opportunities, new adventures, new hopes and dreams and a wide-open future. Carpe diem!!"
+"eventtime","2006-09-09 13:37:00"
+"current_moodid","91"
+"url","http://celtic-grizzly.livejournal.com/2555.html"
+"userid","2636"
+"itemid","8"
+"event","I have been thinking a lot lately of the nature of desire. In some ways I believe it is the primal force that underlies everything...from the ""big bang"" to the final union of all-in-all. 
+
+Yet the daily aspects of this grand passion are more perplexing and troublesome. Why do we desire what we can not have, or do not have? 
+
+Yet in the having of that particular desire, the state of desire is at most temporarily sated before it moves on to a new quest. Oscar Wilde is reputed to have said that there are 2 great tragedies in life: to not get what one desires, and the other - is to get it.
+
+Is it what keeps us evolving, or as the Buddhists' teach is it what keeps us filled with suffering. Is this desire inordinate, unyielding desire or do they refer to all desire? 
+
+Somehow I would rather the desire with its unwelcome handmaids of suffering and grief to the limitless void of ""no desire."" (Of course being only human - pain and suffering are never enjoyable and, despite some religions' attempts to euthanize it, it is rarely redemptive. Blessed be my dear departed Irish grandmother's soul!)
+
+I am the desire of the star
+for the planet in its circular embrace
+I am the desire of the wood
+for the fire's sweet immolation
+I am the desire of the song
+for the ear of its beloved
+I am the desire of the soul
+for the soul of its desire
+I am
+
+all"
+"eventtime","2005-01-13 06:00:00"
+"current_moodid","73"
+"url","http://celtic-grizzly.livejournal.com/2075.html"
+"userid","2636"
+"itemid","7"
+"event","It was 3 degrees above zero this morning. 
+Unusually cold for this time of year. 
+They predict 6-12 inches of snow tonight. 
+90 m.p.h winds. 
+
+I dream of Costa Rica non-stop now. 
+Eye-squinting days. 
+Lunar lullabys of surf. 
+Spiced scent of soil and green. 
+Floral fireworks flashing 
+in shadowed groves.
+
+Edges haunt my thoughts.
+Extremities of land
+and heart."
+"eventtime","2004-11-02 12:32:00"
+"url","http://celtic-grizzly.livejournal.com/1816.html"
+"userid","2636"
+"itemid","6"
+"event","""write, write, write something everyday"" 
+
+Every book I have ever picked up on the art and craft of writing echoes the same refrain. I see its wisdom. I understand its virtue. I appreciate its power. Yet I still struggle. 
+
+I am recalling as I face the onset of winter in this rare landscape of Alaska -- Dylan Tomas line ""rage, rage against the dying of the light."" Granted he was not talking about Alaska's annual dance with the dark. But after 10 Alaskan winters, my rage has long burned out...and I sit among the cinders and ash of resignation to nature's course. Each year the darkness digs deeper into my soul, dampening more of the fire, reducing the ember glow of hope to cold gray dust. 
+
+I am sleeping more. I have less energy to accomplish even the more simple of tasks. I lack my characteristic spark and fire and laugh. I feel depression playing  hide and seek in the corners of my heart. My body records the dwindling seconds of light each day as a man on death row crosses the dates off his calendar.
+
+It is amazing how intimately tied our bodies are to the rhythms of nature. Most places I have lived as a 20th/21st century human being -- I have been lulled into an amnesia of connection to the vibrant order of nature's intractable rhythms spiraling among my DNA. Alaska's deep seasonal darkness awakens me to my indissoluble relationship to the earth and the stars.  
+
+This is a darkness that I must not rage against, but embrace. It reminds me how alive I am...how connected I am. I am not greater than nature, superior to its forces. Subject to it just as is the smallest virus, paramecium, or largest planet or galaxy - I am a living part of its cosmic inhalation and exhalation...its breath of life. 
+
+So I sit quietly and exhale...empty myself of the past/breath and the waste it carries from my system that will serve the regeneration of the larger whole.
+
+Empty, but full, I honor the dark, the exhalation, the ending that is indecipherable from the beginning of the next inhalation.
+
+I am reminded of another quote, this one from Federico Fellini, ""There is no end. There is no beginning. There is only the infinite passion of life.""
+
+I exhale..."
+"eventtime","2004-10-20 12:40:00"
+"current_moodid","65"
+"url","http://celtic-grizzly.livejournal.com/1737.html"
+"userid","2636"
+"itemid","5"
+"event","In-Between
+
+October lassitude
+an etude in minor key
+anticipation stalls
+in squalls of rain and snow
+
+ennui
+ma belle dame
+sans merci"
+"eventtime","2004-10-19 07:38:00"
+"current_moodid","101"
+"url","http://celtic-grizzly.livejournal.com/1435.html"
+"userid","2636"
+"itemid","4"
+"event","The entropy of not writing here daily increases exponentially. The longer I am away...the more I struggle to re-start. I guess there is a syndrome that must be named, ""blogger's block.""
+
+the entropy of the moment
+exceeds the tidal pull of passion:
+feet splayed in sand
+the harder the waters rush back to the source
+the deeper you sink
+sand over
+toes now
+feet
+now ankles
+I must free myself 
+and run
+up past the tide line
+or dive
+into deep"
+"eventtime","2004-10-17 09:44:00"
+"current_moodid","31"
+"url","http://celtic-grizzly.livejournal.com/1067.html"
+"userid","2636"
+"itemid","3"
+"event","Today 11/24/03 at 9:29 AST, Anchorage Alaska, I officially registered my new business name and mailed my app for a business license. I am now the owner and Executive Director of ""Paul H. Richard Soul Focused Consulting"" -- officially self-employed and FREE at last!
+
+We are a company that focuses on facilitating personal growth and nonsectarian spiritual development for individuals and groups. Utilizing a rich diversity of ancient and modern tools and arts, our passion and goal is to help raise the level of human consciousness and wellness through the development of more soulful and spiritually empowering lives. 
+
+""evoking soul, enamoring spirit, evolving consciousness""
+
+
+~~ad majorem Mysterium Major gloriam~~"
+"eventtime","2003-11-24 09:56:00"
+"current_moodid","43"
+"url","http://celtic-grizzly.livejournal.com/927.html"
+"userid","2636"
+"itemid","2"
+"event","Well my half-awake ramblings on the wonder of a snow filled landscape met the hard cold reality of shoveling 8 inches of the heavy white shit for 3 back-breaking hours.  (I walked like Quasimodo for the rest of the day!) Satori is maintaining the wonder-filled space in the midst of the curse-filled dharma. 
+
+It strikes me that its not too different from a relationship...we awake to the wonder-laced hush of the moment and yet the grinding reality of a slip fault movement of communication tectonic plates is waiting beneath the surface. (Whoa I should stop writing this stuff when I first wake up -- talk about overwrought metaphors! Yikes!) So can I maintain the appreciative reverie and the groan of struggle in the same breath of the present moment?"
+"eventtime","2003-11-23 07:43:00"
+"current_moodid","56"
+"url","http://celtic-grizzly.livejournal.com/596.html"
+"userid","2636"
+"itemid","1"
+"event","So I have stepped into the world of blogging and live journaling. I am eager to learn.
+
+I awoke to a magical scene of a world swathed and muffled by snow. 8 inches of the stuff. It is that thick, large flake snow that falls without a wind. Every single branch of the bare trees are cocooned in white. It is that delicate moment, a breathless pause, before the weight of the snow and the warming light of the sun begins to grip and pull the lacework from tree branch and bough to earthbound drifts.
+
+Wait. Listen."
+"eventtime","2003-11-22 06:00:00"
+"current_moodid","101"
+"url","http://celtic-grizzly.livejournal.com/310.html"
+"userid","2636"

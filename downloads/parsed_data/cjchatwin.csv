@@ -1,0 +1,819 @@
+"names","values"
+"itemid","100"
+"event","SeKAmW0gbm90IHJlYWxseSBzdXJlIHdoZW4gSSByZWFsaXplZCB0aGF0IHRpbWUgZGlkbuKAmXQgbW92ZSB0aGUgc2FtZSB3YXkgZm9yIG1lIGFzIGZvciBvdGhlciBwZW9wbGUuIEl0IGp1c3QgY2FtZSB0byBtZSBuYXR1cmFsbHksIGxpa2UgcHViZXJ0eSwgYW5kIG5vdyB0aGF0IEnigJl2ZSBtYWRlIHRoYXQgYXNzb2NpYXRpb24gSSBndWVzcyBwdWJlcnR5IGlzIGFzIGdvb2QgYSBwbGFjZSB0byBzdGFydCBteSB0YWxlIGFzIGFueS4gSXQgYWxsIHN0YXJ0ZWQgd2l0aCB0aGUgZHJlYW1zLCBsaXR0bGUgc25pcHBldHMgb2YgaW50ZXJhY3Rpb25zIHdpdGggZnJpZW5kcyBhbmQgZmFtaWx5IHRoYXQgSSB0aG91Z2h0IHdlcmUgY3JlYXRlZCBvdXQgb2Ygd2hvbGUgY2xvdGggYW5kIHRoZW4gdGhleSB3b3VsZCBoYXBwZW4uIEF0IGZpcnN0IEkganVzdCBjaGFsa2VkIGl0IHVwIHRvIGTDqWrDoCB2dSBhbmQgbGVmdCBpdCBhdCB0aGF0IGJ1dCBpdCBqdXN0IGtlcHQgaGFwcGVuaW5nLiBJ4oCZZCBzdGFydCBkcmVhbWluZyBhYm91dCBsb25nZXIgaW50ZXJhY3Rpb25zIGFuZCB3aGVuIEkgd29rZSB1cCBJ4oCZZCByZW1lbWJlciB0aGVtIHBlcmZlY3RseSBhbmQgd2l0aG91dCBmYWlsIHRoZXkgd291bGQgY29tZSB0byBwYXNzLCBzb21ldGltZXMgbm90IGZvciB3ZWVrcyBvciBtb250aHMgYnV0IGFzIEkgd2VudCB0aHJvdWdoIEhpZ2ggU2Nob29sIEkgaGFkIGEgcHJldHR5IG11Y2ggY29uc3RhbnQgc2Vuc2Ugb2YgaGF2aW5nIGRvbmUgYWxsIG9mIGl0IGJlZm9yZS4NCg0KVGhpcyB3YXMgYmVmb3JlIFRoZSBBZ2VuY3kgb2J2aW91c2x5LCBiZWZvcmUgdGhlcmUgd2VyZSBwZW9wbGUgd2hvIGNvdWxkIGV4cGxhaW4gd2h5IHdlaXJkIHRoaW5ncyBoYXBwZW5lZCBhbmQgaGVscGVkIHRob3NlIG9mIHVzIGFmZmxpY3RlZCBsZWFybiB0byBjb250cm9sIGFuZCBmdWxseSB1c2Ugb3VyIGFiaWxpdGllcy4gSSBob25lc3RseSB0aG91Z2h0IEkgd2FzIGdvaW5nIGNyYXp5LCB0aGF0IEkgaGFkIGJlZW4gY3Vyc2VkIGxpa2Ugc29tZSBtb2Rlcm4tZGF5IENhc3NhbmRyYSB0byBleGlzdCBpbiBhIGNvbnN0YW50bHkgZnJ1c3RyYXRlZCBzdGF0ZSBvZiBrbm93aW5nIHRoZSBmdXR1cmUgYnV0IGhhdmluZyBubyBhYmlsaXR5IHRvIGNoYW5nZSBpdC4gQnV0IHRoZW4gSSBkcmVhbWVkIHNvbWV0aGluZyBiaWcsIG5vdCBiaWcgaW4gdGhlIGdyYW5kIHNjaGVtZSBvZiB0aGUgd29ybGQgYnV0IGNvbG9zc2FsIHRvIG1lLiBJIGRyZWFtZWQgSSB3YXMgd2Fsa2luZyBhbG9uZyB3aXRoIGEgZnJpZW5kIGFuZCB0aGV5IHdlcmUga2lsbGVkIGJ5IGFuIG91dCBvZiBjb250cm9sIGNhciB3aGlsZSB3ZSB3ZXJlIGNyb3NzaW5nIHRoZSBzdHJlZXQuIFRoYXQgZHJlYW0gaGF1bnRlZCBtZSBmb3IgbW9udGhzIHVudGlsIGZpbmFsbHkgdGhhdCBhd2Z1bCBmZWVsaW5nIG9mIGZhbWlsaWFyaXR5IGNyZXB0IG92ZXIgbWUgYXMgd2Ugd2Fsa2VkIHRvZ2V0aGVyIG9uIG91ciB3YXkgdG8gdGhlIG1hbGwuIEkgcmVmdXNlZCB0byBsZXQgaXQgaGFwcGVuIHRoZSB3YXkgSeKAmWQgc2VlbiwgSSBjb3VsZG7igJl0IGp1c3QgZG8gbm90aGluZyBvciBhY3QgbGlrZSBJIGhhZCBubyBmb3Jla25vd2xlZGdlLiBBcyB3ZSBzdGFydGVkIHRvIGNyb3NzIEkgY291bGQgc2VlIHRoZSBjYXIgY29taW5nIGFuZCBJIGdyYWJiZWQgbXkgZnJpZW5kIGFuZCBwdWxsZWQgYXMgYm90aCBiYWNrIG9udG8gdGhlIHNpZGV3YWxrLg0KDQpUaGF0IHdhcyB3aGVuIGV2ZXJ5dGhpbmcgd2VudOKApiB3ZWlyZC4gSXQgd2FzIGxpa2Ugc29tZXRoaW5nIGluIG15IGJyYWluIHdhcyBzY3JlYW1pbmcsIHN0cmV0Y2hpbmcgYmV5b25kIGFueXRoaW5nIHRoYXQgaGFkIGJlZW4gZGVtYW5kZWQgb2YgaXQgYmVmb3JlLiBJIHRhc3RlZCBjb2xvdXJzIGFuZCBzYXcgc291bmQgYXMgdGhlIHdvcmxkIHR1cm5lZCBpbnRvIGEgaG9ycmlmeWluZyBjYWNvcGhvbnkgb2Ygc2Vuc29yeSBkYXRhIEkgY291bGRu4oCZdCBob3BlIHRvIHVuZGVyc3RhbmQuIFdoZW4gaXQgY2xlYXJlZCBJIHdhcyBzcHJhd2xlZCBvbiB0aGUgc2lkZXdhbGsgd2l0aCBteSBmcmllbmQgYW54aW91c2x5IGNyb3VjaGVkIG92ZXIgbWUuIEkgZG9u4oCZdCB0aGluayBJ4oCZdmUgZXZlciBiZWVuIHNvIGhhcHB5IHRvIG1ha2Ugc29tZW9uZSB3b3JyeSBpbiBteSBsaWZlLiBFdmVyeXRoaW5nIGNoYW5nZWQgZm9yIG1lIGFmdGVyIHRoYXQsIEkgc3RhcnRlZCBrZWVwaW5nIGEgam91cm5hbCBvZiB0aGUgdGhpbmdzIEkgcmVtZW1iZXJlZCwgc2xvd2x5IGJ1aWxkaW5nIGEgcGljdHVyZSBvZiBteSBsaWZlIGFzIGl0IGhhZCBub3QgeWV0IGhhcHBlbmVkLiBQZW9wbGUgdGhvdWdodCBJIHdhcyBqdXN0IHJlYWxseSBsdWNreSB3aGVuIEkgd29uIHRoYXQgbG90dGVyeSBzdHJhaWdodCBvdXQgb2YgdW5pdmVyc2l0eSBidXQgSSBoYWQgYmVlbiBwbGF5aW5nIHRoZSBzYW1lIG51bWJlcnMgZm9yIHRocmVlIHllYXJzIGF0IHRoYXQgcG9pbnQsIHdhaXRpbmcgZm9yIHRoZSBkcmF3aW5nIHdoZW4gSSB3b3VsZCBjYXRjaCB1cCB3aXRoIG15IGZvcmVrbm93bGVkZ2UuDQpUaGF0IHdhcyB0aGUgZXZlbnQgdGhhdCBsZWQgVGhlIEFnZW5jeSB0byBmaW5kIG1lLiBUaGV5IGtlZXAgdHJhY2sgb2YgdGhpbmdzIGxpa2UgbG90dG8gd2lucyBhbmQgb3Zlcm5pZ2h0IHN1Y2Nlc3NlcyBhcyB3YXRjaCBzaWducyBmb3IgcGVvcGxlIGxpa2UgbWUuICBPbmUgb2YgdGhlaXIgYWdlbnRzIHNudWNrIGludG8gbXkgYXBhcnRtZW50IGxvb2tpbmcgZm9yIGZ1cnRoZXIgZXZpZGVuY2UgYW5kIGZvdW5kIG15IGpvdXJuYWwgYW5kIHdpdGggdGhhdCB0aGV5IGhhZCBhbGwgdGhlIGNvbmZpcm1hdGlvbiB0aGV5IG5lZWRlZCB0byBicmluZyBtZSBpbi4NCg0KTm90IHRoYXQgYW55dGhpbmcgSSBoYWQgZG9uZSB3YXMgd3Jvbmc7IHRoZXkgd2VyZSB2ZXJ5IHF1aWNrIHRvIGFzc3VyZSBtZSBvZiB0aGF0IGZhY3QuIEkgd2FzIGp1c3QgYm9ybuKApiBkaWZmZXJlbnQuIFRoZXkgd2VyZW7igJl0IG91dCB0byBkaXNzZWN0IG1lIG9yIGluc3RpdHV0aW9uYWxpemUgbWUsIHRoZXkganVzdCB3YW50ZWQgbWUgdG8gam9pbiB0aGVtLiBUaGV5IHdvdWxkIHBlcmZvcm0gdGVzdHMgYW5kIGhlbHAgbWUgaGFybmVzcyBteSBnaWZ0cyB0byB0aGUgYmVzdCBvZiBteSBhYmlsaXR5IGFuZCBpbiBleGNoYW5nZSBJIHdvdWxkIHdvcmsgZm9yIHRoZW0gaW4gaGVscGluZyBvdGhlcnMgbGlrZSBteXNlbGYuIEFsbCBpbiBhbGwgaXQgc291bmRlZCBsaWtlIGEgcHJldHR5IHN3ZWV0IGRlYWwuIA0KDQpTaWduaW5nIG9uIHdpdGggVGhlIEFnZW5jeSB3YXMgbGlrZSBub3RoaW5nIGVsc2UgSeKAmXZlIGV2ZXIgZXhwZXJpZW5jZWQ7IHN1ZGRlbmx5IEkgd2VudCBmcm9tIG5ldmVyIHRhbGtpbmcgYWJvdXQgdGhlIHRoaW5ncyBJIGRyZWFtZWQgZm9yIGZlYXIgb2Ygc291bmRpbmcgY3JhenkgdG8gaGF2aW5nIHBlb3BsZSBub3Qgb25seSB3YW50IHRvIGhlYXIgYnV0IHRoZW4gZGlzY3VzcyBpdCB3aXRoIG1lIHRyeWluZyB0byBmaW5kIGNvbW1vbmFsaXRpZXMgYW5kIHRyaWdnZXJzLiBBZnRlciBhIGZldyBtb250aHMgb2YgdGhlbSBzdHVkeWluZyBtZSBhbmQgbWFueSwgbWFueSB0cmlwcyBpbnRvIGEgQ1Qgc2Nhbm5lciBJIHdhcyB0b2xkIHRoYXQgSSB3YXNu4oCZdCBhY3R1YWxseSBkcmVhbWluZyBvZiB0aGUgZnV0dXJlLiBOb3QgcHJlY2lzZWx5LCBpbnN0ZWFkIEkgd2FzIHJlbWVtYmVyaW5nIG15IGZ1dHVyZSBpbiB0aGUgcHJlc2VudC4gSeKAmW0gc29ycnkgaXTigJlzIG5vdCByZWFsbHkgY2xlYXIgd2hlbiB5b3UgdHJ5IHRvIGV4cGxhaW4gaXQgaW4gd29yZHMuIEJ1dCB3aGF0IGl0IGJvaWxzIGRvd24gdG8gaXMgdGhhdCBhIGZ1dHVyZSB2ZXJzaW9uIG9mIG1lIHJlZmxleGl2ZWx5IHB1c2hlcyBwYXJ0IG9mIHRoZWlyIG1lbW9yaWVzIGludG8gdGhlIHBhc3QsIHdoaWNoIGFyZSB0aGVuIHByb2Nlc3NlZCBieSBteSBzbGVlcGluZyBtaW5kIGFuZCBpbmNvcnBvcmF0ZWQgaW50byBteSBwcmVzZW50IG1lbW9yeSBhcyBkcmVhbXMuIA0KDQpZZXMsIHRoYXQgbWFrZXMgbWUgYSB0aW1lIHRyYXZlbGxlcuKApiBzb3J0IG9mLg0KDQpPbmNlIHdlIGZpZ3VyZWQgdGhhdCBvdXQgdGhlIHRyYWluaW5nIHN0YXJ0ZWQsIGhlbHBpbmcgbWUgbGVhcm4gdG8gY29uc2Npb3VzbHkgY29udHJvbCB0aGUgcmVmbGV4aXZlIHN0b3JhZ2Ugb2YgbWVtb3JpZXMuIEZpcnN0IHNvIHRoYXQgSSBjb3VsZCBjb250cm9sIHdoZW4gSSB3b3VsZCByZW1lbWJlciB0aGluZ3MsIHRoZW4gdG8gc2VuZCB0aGUga25vd2xlZGdlIHRvIG15IGNvbnNjaW91cyBzZWxmIHJhdGhlciB0aGFuIG15IHVuY29uc2Npb3VzIHNlbGYgYW5kIGV2ZW50dWFsbHkgc28gSSBjb3VsZCBzZW5kIGFsbCBvZiDigJhteXNlbGbigJksIG15IGNvbnNjaW91cyBtZW1vcmllcywgdG8gYSBwYXN0IG1lIGFuZCBsZXQgdGhlIGN1cnJlbnQg4oCYbWXigJkgZXhpc3QgaW4gdGhlIHBhc3QgdG8gY2hhbmdlIHRoZSBmdXR1cmUuIERvbuKAmXQgYXNrIG1lIGhvdyBJIG1hbmFnZSB0byBhdm9pZCBhIHRpbWUgcGFyYWRveCBkb2luZyB0aGF0LCBJ4oCZbSBmdXp6eSBvbiB0aGUgc2NpZW5jZSBvZiBpdCBhbGwgYXMgaXQgaXMsIGFsbCBJIGhhdmUgdG8ga25vdyBpcyB0aGF0IGl0IHdvcmtzLg0KDQpXaGljaCBJIGd1ZXNzIGJyaW5ncyBtZSBhcm91bmQgdG8gd2h5IEkgYW0gd3JpdGluZyB0aGlzLiBJ4oCZbSBwdXR0aW5nIHRoaXMgYWxsIGRvd24gaW4gd29yZHMgc28gdGhhdCBJIGNhbiBzZW5kIHRoZSBtZW1vcnkgb2Ygd3JpdGluZyBpdCB0byB5b3UsIG15IHlvdW5nZXIgc2VsZi4gSXQgaXMgaW1wZXJhdGl2ZSB5b3UgZG8gbm90IGZhbGwgaW50byBUaGUgQWdlbmN54oCZcyBjbHV0Y2hlcy4gT25jZSB0aGV5IHVuZGVyc3Rvb2QgaG93IEkgY291bGQgZG8gd2hhdCBJIGNhbiBkbyB0aGV5IHN0YXJ0ZWQgdHJ5aW5nIHRvIHJlcHJvZHVjZSBteSBwb3dlcnMsIG91ciBwb3dlcnMsIGluIG90aGVyIHBlb3BsZS4gSXQgaXMgY2hhb3MgaW4gdGhlIHdvcmxkIG5vdzsgaW1hZ2luZSBhbiBhc3Nhc3NpbiB3aG8gY2FuIGRvIHdoYXQgd2UgZG8uIFRoZXkgd291bGQgYmUgdW5zdG9wcGFibGU7IHRoZXnigJlkIG5ldmVyIGZhaWwgYmVjYXVzZSB0aGV5IGtub3cgZXZlcnkgZGVmZW5zZSB0aGVpciB0YXJnZXQgY2FuIG11c3Rlci4gVGhhdCBpcyB0aGUgQWdlbmN54oCZcyBnb2FsLCB0byB3ZWFwb25pemUgdXMsIGFsbCBvZiB1cy4NCg0KU28gYnVybiBvdXIgam91cm5hbCB5b3VuZ2VyIG1lLCBhbmQgdXNlIHRoZSBza2lsbHMgSSBsZWFybmVkIHRvIGtlZXAgYXdheSBmcm9tIHRoZXNlIHBlb3BsZS4gVGhlIHdvcmxkIGlzbuKAmXQgcmVhZHkgZm9yIHRpbWUgdHJhdmVsLiBTdGF5IHNhZmUsIHN0YXkgc2FuZS4NCg0KR29vZGJ5ZS4="
+"eventtime","2011-11-02 00:10:00"
+"current_moodid","107"
+"url","http://cjchatwin.livejournal.com/25794.html"
+"userid","2939"
+"itemid","99"
+"event","[Preface: This started out as a quick status update on Facebook, that's all it was gonna be but by the time I'd written a mini-blog post I decided it would be better to just make a full post here. Please understand that this is basically an editorial and I'm going to be stating my opinions. If that's going to anger you then either don't read or please be respectful when you comment to bitch me out. Also, this is very much a stream of consciousness post so I apologize if I ramble or my points don't always flow clearly. I just had to get this out.]
+
+I'm not tweeting this because I try to keep my political opinions out of my twitter feed so as not to bring politics into my website but this is *my* blog and damn it I have to share somewhere (also this is gonna be WAY over 140 characters). 
+
+I've spent a big part of today trying to put into words how I've been feeling about the news coming out of Toronto during the G20 summit. I woke up this morning and upon reading the news wanted to go back to bed and not wake up again until the world was saner. The last time I was so depressed and shaken by a morning news show two planes had just been flown into a major New York landmark. In the arena of politics and world events I like to think myself fairly unflappable but today I was flapped.
+
+Today I have felt like this isn't the country I grew up in, the country I love. I feel like a stranger to this country and I haven't gone anywhere. I grew up with a sense of certainty regarding Canada. We might have problems like the rest of the world but by and large we dealt with them with words, with peaceful protests and debate. Our political system wasn't perfect but our government had a degree of transparency that I could live with and even be proud to be active in. I don't feel that anymore.
+
+When I woke up this morning I felt like a stranger, but even worse I felt grateful that I no longer live in Toronto. Since I left Toronto for Ottawa (and now Peterborough) there hasn't been a second I couldn't wait to get back to the city because I felt I belonged there. But today I sat in my tiny bedroom and I felt glad I was in Peterborough, because given where my old apartment was I could very easily have gotten arrested just by going for a walk at the wrong time. That terrifies me, especially in light of some of the accounts being made public by those who <i>were</i> detained last night.
+
+The actions of the Canadian government in order to appease the world leaders attending the G20 summit are reprehensible to me. In order to ""ensure security"" a bill was passed which gave the Toronto police force powers to arrest, detain and use force without cause. That alone chilled me to my bones, it's like a new version of the War Measures Act or the Patriot Act. It puts us dangerously close to a police state and my heart goes out to my friends attending Pride in the coming week because I'm not sure what sort of political climate the Pride events are going to be occurring in. And yes, I'm aware about the huge debacles surrounding pride but I've made my feelings about that clear in other places and I don't really want to rehash them here. Suffice to say that regardless of what pride activities you choose to go to (if any) I hope you're all safe and that you have fun.
+
+As for the rest of the events coming out of Toronto today they all stir in me mixed feelings of sadness, fear and anger, the incredible ball dropping that was the Yonge street riots especially. In light of the 1 billion+ spent on security to prevent events <i>exactly like</i> the torching of police vehicles I just can't believe how unprepared 1 billion dollar security forces are. Instead the newly empowered police used their new freedoms to arrest peaceful protestors and innocent bystanders in an attempt at containment. In all of this the media was being shoved out of the way and hurried along as if by getting them away quickly enough the reports wouldn't reflect the truth of the matter. In two days I've seen free speech and peaceful assembly both take a brutal beating and as someone who considers himself at least Journalism-adjacent that terrifies me.
+
+And now there are a bunch of thrill-seeking yahoos who feel like it's smart to antagonize a police force already obviously on edge that have, by some accounts, used unnecessary force. These yahoos are gathering at Queen and Spadina to taunt the police. I just... did we unleash an unholy mass of stupid when the pipe burst in the Gulf of Mexico? Have we struck moron? This is what I've felt has disappeared during the summit, our ability to <i>think things through</i>. I don't feel like I'm asking for a lot, just a realization most tabletop gamers grasp within their first session. In Character Actions = In Character Consequences.
+
+No side's hands are clean in this and I have spent a large portion of today feeling betrayed by my government and by my fellow Canadians. I don't know what tomorrow is going to bring for my faith in Canada or what the coming days will be like as the inevitable backlash occurs. I hope this doesn't ruin pride and I hope that cooler heads prevail in the coming days and that maybe I can get the Canada I love back.
+
+I live in hope and pray for peace."
+"eventtime","2010-06-28 00:28:00"
+"current_moodid","48"
+"url","http://cjchatwin.livejournal.com/25398.html"
+"userid","2939"
+"itemid","98"
+"event","Greetings boys and girls, been a long time since I updated this blog (mainly because I'm oh so busy over at my website <a href=""http://cinfulcritiques.com"">over here</a>. But I'm here now for some music memeage! So here's how this specific meme works.
+
+1. Reply to this post and I'll assign you a letter.
+2. List 5 songs that start with that letter.
+3. Post them to your journal (preferably with links to where people can hear them, and some kind of comment), along with these instructions.
+
+I was assigned the letter 'T' by <lj user=""MissLynx""> and was then told that 'the' doesn't count. So here's what I came up with!
+
+1. <a href=""http://www.youtube.com/watch?v=dGsRK45Chp8"">Take It Easy (Love Nothing) by Bright Eyes</a> - This is a fun sounding song that talks about two friends who have sex, the singer regretting it after it has happened.
+
+2. <a href=""http://www.youtube.com/watch?v=zXS0nEOx_20"">Taylor the Latte Boy by Kristin Chenoweth</a> - If the last song was fun this one is HILARIOUS. It's a sort-of stalker song from the perspective of a girl who falls for the hunky Starbucks barista. If you enjoyed this you should hunt down Taylor's Rebuttal.
+
+3. <a href=""http://www.youtube.com/watch?v=fjGPyawflUY"">That Lonesome Road by The King's Singers</a> - This song has been part of me since I first heard it back in my first year of high school. I'm not sure what it is about the lyrics and the interplay of the voices but I can't hear it without feeling incredibly touched.
+
+4. <a href=""http://www.youtube.com/watch?v=Ryvrnnj6U30"">To the Fairies They Draw Near by Loreena McKennitt</a> - Alright yes this song is from the Disney Tinkerbell movie, but I was snared by the absolutely stunning visuals (as you can see in the video) and now the song just fills me with the sense of renewal that spring carries.
+
+5. <a href=""http://www.youtube.com/watch?v=AZKpByV5764"">The Touch by Stan Bush</a> HaHA! I have a song that starts with 'The' and still isn't cheating! So this is the song I first thought of when <lj user=""MissLynx""> gave me the letter T. C'mon who doesn't love a cheesy 80s power ballad?
+
+(And because <lj user=Misslynx> did one and I have one more song to share)
+
+6. <a href=""http://blip.tv/file/3743541"">Textual Assault Theme by Debbie Linden, Das Binky & Plat</a> - Okay this is only... 30% shameless plug, 40% at the most. A few months ago I asked Debbie to record a quick little Reading Rainbow parody using some lyrics I'd written for one of my shows. She said sure and I left it at that. A couple of weeks ago she tells me it's done. Now what I'd been expecting was an acoustic guitar and maybe some tambourine. What I got was this less than a minute burst of awesome!
+
+So that's my turn done. Who's gonna grab a letter off me?"
+"eventtime","2010-06-19 23:39:00"
+"current_moodid","59"
+"url","http://cjchatwin.livejournal.com/25245.html"
+"userid","2939"
+"itemid","94"
+"event","This rant is brought to you by: Hardee's and KFC
+
+Whenever I start to have hope for humanity again the internet kills it quite nicely within just a few clicks of my favourite news sites.
+
+We are a culture of excess, gifted with a mindset of entitlement, greed and sloth. While Canada is still ahead of the United States for health concerns, obesity rates and life expectancy what happens to our neighbours to the south is still a worrying glimpse into a potential future. So with that preamble out of the way allow me to introduce you to the two things that have so scarred me:
+
+<lj-cut text=""Abandon All Hope Ye Who Clicks Here"">
+<b>KFC announces 'Double Down ""sandwich""'</b>
+<img src=""http://1.media.tumblr.com/tumblr_koow3381ET1qzvnxpo1_500.jpg"" />
+
+<b>Hardee's releases 'Monster Thickburger'</b>
+<img src=""http://4.bp.blogspot.com/_IA5nokOFh84/SU9cZJb6x0I/AAAAAAAACto/doC4ob92iys/s400/the+monster+thickburger.jpg"" />
+
+I'll post links to news articles about these monstrosities at the end of this post. But I'll start by saying that when I saw these I thought they were jokes, I remembered seeing an Onion video about something like the Double Down. But they're not jokes, they are real. The KFC Double Down is a 'sandwich' that is made up of two fried pieces of chicken that has bacon, two different kinds of cheese and a mayonnaise-thick chicken gravy-esque sauce called the Colonel's Sauce. There is no bun, the chicken is the bun. Now it's nowhere near the highest calorie thing available in the realm of fast food, weighing in at only 590 calories (50 more than a Big Mac)
+
+Now this in and of itself didn't kill my faith in humanity, I could see that this was a horrible attempt at cutting out the empty carbohydrates that fast food is filled with. Sure the implementation was horrible, resulting in equal fat content to a Big Mac while doubling the Cholesterol. But I could see the logic that led to this creation. No what truly killed my faith in humanity was the Hardee's Monster Burger.
+
+Hardee's actively tried to create the unhealthiest burger out there, and are now marketing it towards 'young men who work hard'. This burger consists of TWO 1/3 lb angus beef patties, four slices of bacon, three slices of cheese, a helping of mayo and rests its gargantuan laurels upon a buttered sesame seed bun. It is 1420 calories, 965 of which come from the sheer amount of <i>fat</i> in this thing.
+
+People often joke about heart attacks made manifest in a variety of foods, but in the case of the Monster Thickburger I could actually believe it's true. It has 107 g of fat with 45 of them being saturated fats, 229 mg of cholesterol and 2740 mg of sodium. Just reading about this burger has made my heart hurt.
+
+So that's it for now, I'm just gonna curl up in a corner and weep for the world.
+
+~Ciaran
+
+Hardee's Monster Thickburger Story: <a href=""http://www.msnbc.msn.com/id/6498304/ns/business-food_inc/"">Here</a>
+KFC Double Down Story: <a href=""http://www.foodgeekery.com/reviews/double-down-with-kfc/"">Here</a>"
+"eventtime","2009-10-18 11:33:00"
+"url","http://cjchatwin.livejournal.com/24173.html"
+"userid","2939"
+"itemid","93"
+"event","Heyla all,
+
+I swear I'll do an update someday (but I wouldn't hold your breath, I'd prefer you all kept breathing). But today I need help, I've started to gain a following with my critique/reviews over at http://cinfulcritiques.blogspot.com mostly by cross-posting my song lyric smackdowns at another review site that has way more viewers than me. What this has resulted in is a song suggestion for SLS that I can't find the lyrics to. I've tried to transcribe them myself but I'd appreciate any of you listening through for yourself and posting what you think the lyrics are. That way I can use majority rule on the lyrics I smackdown.
+
+The song's called Buttersauce by Minamina Goodsong, give it a listen and let me know what you think.
+
+Thankies!
+
+~Ciaran
+
+<lj-embed id=""3""/>"
+"eventtime","2009-10-18 10:10:00"
+"url","http://cjchatwin.livejournal.com/23906.html"
+"userid","2939"
+"itemid","92"
+"event","Hi Everyone!
+
+This week's Song Lyric Smackdown is up and was only one day late, my notification of it going up however leaves a little more to be desired. You can check it out <a href=""http://cinfulcritiques.blogspot.com/2009/07/second-episode-of-song-lyric-smackdown.html"">here</a>.
+
+Also, check back on Saturday for the first ever RPG Nerd!
+
+Love to you all!
+
+~Ciaran"
+"eventtime","2009-07-30 23:48:00"
+"url","http://cjchatwin.livejournal.com/23596.html"
+"userid","2939"
+"itemid","91"
+"event","Hey everyone!
+
+I've started up a critique blog/vlog to build a web presence and get my writing out there. If you'd like to check it out it's here: http://cinfulcritiques.blogspot.com/
+
+I've realized recently that if I really want to make a go of being a writer of any sort I need to get my work out there for people to see so here's my first attempt."
+"eventtime","2009-07-21 09:26:00"
+"url","http://cjchatwin.livejournal.com/23312.html"
+"userid","2939"
+"itemid","90"
+"event","Comment to this meme with the word 'words' and I will give you five words that make me think of you. Then post them in your LJ and say what they mean to you.
+
+From <lj user=alexmegami>
+
+<b>1. Fae</b>
+<i>Hmm, as I don't feel particularly elf-like or mischievous I will assume this is about my proclivities (whoo look at me bustin' out the three-dollar words). Or maybe it's really all about my love affair with Robin Goodfellow. Fae's a tricky word to pin down innit? :D</i>
+
+<b>2. Writing</b>
+<i>Writing is all I really talk about doing, so it makes total sense that it's a word Alex-type people associate with me. Of course I also pester her for opinions on stuff I've written so that's probably a reason too.</i>
+
+<b>3. Comics</b>
+<i>I am a comics nerd, and rapidly being educated in new wondrous titles thanks to Alex and Patrick. Although that WW2 manga with the personified countries is still a bit weird for my liking.</i>
+
+<b>4. Karaoke</b>
+<i>Dude! This is how we first met, and how we rocked out at my goodbye party, before failing to continue the karaoke party at that pub. Still lotsa fun has been had while screaming out the lyrics to songs I barely know. Karaoke is pretty much my favourite pub/bar/drunk activity.</i>
+
+<b>5. Ottawa</b>
+<i>This is where I live now, well, until September. It's also where I had the most fun evar (even if I seemed grumpy I had fun, promise. Super drunk times just cause introspection in Ciaran's) Pan Galactic Gargle Blasters are delicious and painful the next morning.</i>"
+"eventtime","2009-06-22 18:04:00"
+"url","http://cjchatwin.livejournal.com/23179.html"
+"userid","2939"
+"itemid","89"
+"event","I like talking about myself. I imagine you like talking about you! So here's the deal:
+
+<i>001. Leave me a comment saying, ""Interview me.""
+002. I will respond by asking you ANY five questions of a very intimate and creepily personal nature. Or not so creepy/personal.
+003. You WILL update your LJ with the answers to the questions.
+004. You will include this explanation and an offer to interview someone else in the post.
+005. When others comment asking to be interviewed, you will ask them five questions.</i>
+And the questions asked of me by <lj user=alexmegami>
+
+<b>1. What's the story you really want to tell, but have the most trouble putting on the page/into words/expressing through interpretive dance/other?</b>
+It's actually a story that I've had recurring dreams about for a few years. It's something about this kid being given phenomenal powers and going evil dictator on the world and this band of heroes defeating them. But whenever I try to write it, it sounds like a bad final fantasy plot.
+
+<b>2. What does your preferred afterlife look like?</b>
+I'm not really sure, I'd like it to be something that would make me happy but I don't know what that means.
+
+<b>3. What would you say is your most defining characteristic?</b>
+Much as I may not like to admit I think most people define me by those aspects of my personality that are stereotypically 'gay'.
+
+<b>4. What is something other people think of you that you don't see at all in yourself?</b>
+I don't think I'm at all attractive (and that the people who tell me otherwise are just being nice).
+
+<b>5. What movie instantly cheers you? Which one depresses you?</b>
+I know it's not really a movie but Eddie Izzard sketches always make me smile, and for instant depression it's Grave of the Fireflies."
+"eventtime","2009-03-28 07:53:00"
+"url","http://cjchatwin.livejournal.com/22792.html"
+"userid","2939"
+"itemid","88"
+"event","<a href=""http://www.aprilwinchell.com/wp-content/cache/supercache/www.aprilwinchell.com/2009/02/05/barack-obama-is-tired-of-your-motherfucking-shit//index.html"">I am so ridiculously amused by this</a>"
+"eventtime","2009-02-07 14:22:00"
+"url","http://cjchatwin.livejournal.com/22591.html"
+"userid","2939"
+"itemid","87"
+"event","""The first five people to respond to this post will get something made by me. It will be about or tailored to those five lucky ""victims.""
+
+This offer does have some restrictions and limitations:
+- I make no guarantees that you will like what I make!
+- What I create will be just for you.
+- It'll be done this year
+- You have no clue what it's going to be. It may be fic. It may be poetry. I may draw or paint something. I may use my crafty wiles. I may bake you something and mail it to you. Who knows? Not you, that's for sure!
+- I reserve the right to do something extremely strange.
+
+The catch? Oh, the catch is that you have to put this in your journal as well, if you expect me to do something for you!"""
+"eventtime","2009-01-19 22:29:00"
+"url","http://cjchatwin.livejournal.com/22511.html"
+"userid","2939"
+"itemid","86"
+"event","Put your MP3 player on shuffle, and write down the first line of the first twenty songs. Post the poem that results. The first line of the twenty-first is the title.
+
+In the Bleak Midwinter
+
+Love of mine, someday you will die, but I'll be close behind.
+Twas in another lifetime, full of toil and blood.
+I've got money in my pocket.
+Bones sinking like stones all that we fall for.
+She's blood flesh and bone
+I know you think that I shouldn't still love you.
+There's no need to argue anymore.
+When you try your best but you don't succeed.
+Close your eyes and I'll kiss ya.
+In the morning when you rise.
+You are the new day.
+Broken windows and empty hallways.
+Hello darkness my old friend.
+I heard that you went out last night and you looked beautiful.
+There was a time when I would go walking backwards around the world if you said you're mine.
+Wake up without a care.
+Storm is calling but I don't mind.
+Here's the day you hoped would never come.
+Whatever happened to my part?
+You're in my arms and all the world is gone.
+
+(Points to those who can name the songs)"
+"eventtime","2009-01-04 00:26:00"
+"url","http://cjchatwin.livejournal.com/22271.html"
+"userid","2939"
+"itemid","84"
+"event","I've seen <lj user=alexmegami> do a few of these now and since I just received my first order of BPAL that I made my very own self I figure I should maybe do a BPAL review so you my dear BPAL can decide if you want these scents.
+
+TRISTRAN
+<i>Dust on your trousers, mud on your boots, and stars in your eyes: redwood, tonka bean, white sandalwood, lemon peel, patchouli, rosewood, coriander, and crushed mint.</i>
+
+This starts out a little patchouli heavy on me, but that fades REALLY quickly and becomes my favourite men's scent ever. The coriander is a little faint on me and I can't detect the mint at all but I smell DELICIOUS and the scent suits me so I'm not about to complain. <b>8/10</b>
+
+FAIRY MARKET
+<i>Otherworldy golden incense, blooming wind-flowers, everlasting lavender, bluebell, a faint whiff of exotic sugared candies, and fae mist upon wet green grass. </i>
+
+This smells a bit too candy-ish ON me but I love to rub a light bulb with this oil and let the smell permeate the room, as an area scent all of those layered scents really come out and it gives the air this really exotic, mystical scent. I'm definitely buying another bottle. <b>7/10</b>
+
+KATANIYA, THE CLOCKWORK WOMAN
+<i>Gentle flowers over hot metal, shocked to life with electricity.</i>
+
+This smells faintly ozoneish on me which I suppose is the 'electricity' it's also almost cloyingly floral but also a little bit decayed with an aftersmell of watermelon of all things. As a room scent the ozone gets much thicker. This scent is pretty much a big ol' miss for me. <b>1/10</b>"
+"eventtime","2008-12-22 12:26:00"
+"url","http://cjchatwin.livejournal.com/21578.html"
+"userid","2939"
+"itemid","83"
+"event","SNOW!!!
+
+SnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnow
+SnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnowSnow
+
+
+SNOW!!!!!
+
+
+*ahem* It's snowing! Yay!"
+"eventtime","2008-11-10 11:21:00"
+"url","http://cjchatwin.livejournal.com/21366.html"
+"userid","2939"
+"itemid","81"
+"event","Heyla all, I really should update this thing more often but that's neither here no there right now.
+I'm making an order to BPAL (those new Stardust scents are just too tempting) and am just wondering if anyone else would like to hop in on this order to save on shipping? If so comment or email your order. I'm making the order this Monday so let me know folks!"
+"eventtime","2008-09-26 17:23:00"
+"url","http://cjchatwin.livejournal.com/20918.html"
+"userid","2939"
+"itemid","80"
+"event","It's over! I have OSAP, they've fixed my status and I'm single and endowed with monies!
+
+I'm just gonna collapse over here in the corner now in a burbling puddle of relief."
+"eventtime","2008-07-31 10:58:00"
+"current_moodid","42"
+"url","http://cjchatwin.livejournal.com/20569.html"
+"userid","2939"
+"itemid","79"
+"event","Okay OSAP and the Financial Assistance Office of George Brown and Especially NORM at said offices are all seriously on my shit list.
+
+I've jumped through all the hoops, I've done all the dancing and tricks they've required of me and I am STILL listed as married. This is just spite, we've reached the SPITE portion of the evening. I am seriously ready to take a large sharp object and go medieval on the collective asses at my campus. Added to the fact I've heard confirmation that for the September start date all the support staff for George Brown (including my aforementioned foes the Financial Assistance Office) are going on STRIKE.
+
+WHY DOES THE UNIVERSE HATE ME?!?!?!?!?!?!?!?!?!?!?!?!
+
+
+
+P.S. I'm sorry to anyone I've not talked to in a while, I'm trying to shield my friends from the seething rage boiling beneath the surface."
+"eventtime","2008-07-30 14:05:00"
+"current_moodid","12"
+"url","http://cjchatwin.livejournal.com/20454.html"
+"userid","2939"
+"itemid","78"
+"event","I am about to kill someone. Probably someone within the OSAP Office.
+
+As some of you know, and the rest of you are about to find out, I've had a delightful 'jump through the hoops' time trying to get my second year of college ironed out at George Brown. In January I switched my program from the 1-year Certificate to the 2-year Diploma. When that happened I was suddenly unenrolled from all of my classes, so I get my course numbers and get that ironed out. All good right?
+
+No.
+
+Moving merrily along we come to July when a fellow student in my program mentions that he got his tuition invoice and that it was due soon. What? I've gotten no such thing. So on to the school I trundle to find out what's happened. Two weeks later with the due date for payment at hand they figure it out. I had 'failed' first year because when I was transferred into the 2-year program all my first semester marks got left behind in the old 'Chatwin' file. But they get that ironed out and let me give them a deferral fee so I can pay my tuition with OSAP when the time comes. Registration is on Monday and it's all smooth sailing from here right?
+
+Again, no.
+
+See all they did when they 'figured out' what was wrong with my account was enable me to pay money. They didn't actually fix anything which meant I still wasn't eligable to register for Semester 3. So more talking to people at school, and being told to call tomorrow then calling tomorrow and enjoying the Nutcracker Suite four times in tinny mu-zak I finally, FINALLY get it all sorted and can register.
+
+The end... NOT YET!!!!
+
+See I went online today to check the status of my OSAP loan and lo and behold it's saying they need additional information from me. So I click the links that tell me what I didn't tell them and here it is folks. They need the financial information of MY SPOUSE!!!!
+
+That's right, somehow OSAP now thinks I'm married, I've rechecked my application, I ticked the 'Single, Never Married' box and yet they're sending me forms to fill out regarding my spouse. I am filled with a fiery rage that can only be quenched with the blood of the guilty!!!!! (Or this finally getting fixed with a minimum of effort. But this is a bureaucracy the blood of the guilty is more likely)
+
+*sigh* That's it, had to rant. Thanks for listening, have a cookie."
+"eventtime","2008-07-19 23:48:00"
+"current_moodid","24"
+"url","http://cjchatwin.livejournal.com/20017.html"
+"userid","2939"
+"itemid","76"
+"event","Today is my birthday. That is all.
+
+Edit to Add: As I've gotten the gift question from one of my classmates I thought I should answer it now for everyone. I'm a huge fan of presents ^_^ and if you want to get me something then my TTIW List was recently updated. http://www.thethingsiwant.com/cjchatwin/list/wishlist/"
+"eventtime","2008-06-19 18:00:00"
+"current_moodid","58"
+"url","http://cjchatwin.livejournal.com/19611.html"
+"userid","2939"
+"itemid","69"
+"event","U28gd2hpbGUgSSdtIG5vdCBkb2luZyBOYU5vIHRoaXMgeWVhciBJIGZpZ3VyZSBpdCdzIHN0aWxsIHRoZSBiZXN0IHRpbWUgb2YgeWVhciB0byBzaGFyZSBzb21ldGhpbmcgSSd2ZSB3cml0dGVuLg0KU28gaGVyZSdzIGEgY2hpbGRyZW4ncyBzdG9yeSBJIHdyb3RlIGEgd2hpbGUgYWdvLiBDcml0aXF1ZXMgYXBwcmVjaWF0ZWQuDQoNCjxsai1jdXQgdGV4dD0iSG93IEJyaWdodCBSYXZlbiBMb3N0IEhpcyBFeWUiPg0KCU1hbnkgbW9vbnMgYWdvLCBpbiB0aGUgZmlyc3QgYWdlIG9mIG1hbiwgd2hlbiBzcGlyaXRzIHdhbGtlZCB0aGUgbGFuZCwgUmF2ZW4gd2FzIHN0aWxsIHlvdW5nIGFuZCBldmVyIGN1cmlvdXMuIEhlIHdvdWxkIHRyYXZlbCB0aGUgd29ybGQgbGVhcm5pbmcgYW5kIHBsYXlpbmcgdHJpY2tzIG9uIHRob3NlIGhlIHNhdy4gSGUgbGVhcm5lZCB0aGUgc2VjcmV0cyBvZiB0aGUgQmVhciBTaGFtYW5zIHRvIHRoZSBub3J0aCwgYW5kIHRoZSBEZW1vbiBXb3JzaGlwcGVycyBpbiB0aGUgc291dGgsIGhlIGV2ZW4gbGVhcm5lZCB0aGUgbW9zdCBzZWNyZXQgc29yY2VyaWVzIG9mIHRoZSBTdW4uIEhlIHdhcyBoYXZpbmcgZ3JlYXQgZnVuIGluIHRoaXMgbmV3IHdvcmxkLCB3aXRoIHNvIG11Y2ggdG8gZXhwbG9yZS4NCg0KCUJ1dCBldmVudHVhbGx5IGhlIGhhZCBzZWVuIGl0IGFsbDsgaGUga25ldyBhbGwgdGhlIHNlY3JldHMgb2YgdGhlIGVhcnRoLCB0aGUgc2VhLCBhbmQgdGhlIHNreS4gSGUga25ldyB0aGUgbW9zdCBzZWNyZXQgbmFtZXMgY2FydmVkIG9ubHkgaW4gdGhlIGRlZXBlc3Qgb2YgcGxhY2VzLiBCdXQgaGUgd2FudGVkIHRvIGtub3cgbW9yZTsgaGUgd2FudGVkIHRvIGtub3cgd2hhdCBoYWQgaGFwcGVuZWQgYmVmb3JlIGhpbS4gU28gaGUgZmxldyBpbnRvIHRoZSBza3ksIHBhc3QgTGFkeSBTZWxlbmUgYW5kIGdpdmluZyBoaXMgaHVtYmxlc3QgcmVzcGVjdHMgdG8gdGhlIFVuY29ucXVlcmVkIFN1biwgd2hvIHdhcm1zIG91ciB3b3JsZCBhbmQgZ2l2ZXMgdXMgbGlmZS4NCg0KCUhlIGZsZXcgb3V0IHRvIHRoZSBmYXJ0aGVzdCByZWFjaGVzIG9mIHRoZSBza3ksIGFuZCBjYW1lIHRvIHRoZSBob21lIG9mIHRoZSBTdGFycy4gSGUgZmxldyB0byB0aGUgaG9tZSBvZiB0aGUgRml2ZSBNYWlkZW5zLCB0aGUgZml2ZSBncmVhdCBnb2RkZXNzZXMgd2hvIGRpY3RhdGUgdGhlIGZhdGUgb2YgdGhpcyB3b3JsZC4gV2hlbiBoZSBhcnJpdmVkIHRoZXkgd291bGQgbm90IHNlZSBoaW0sIHRoZXkgc2FpZCB0aGF0IGhpcyBkZXNpcmUgd2FzIG5vdCBzdHJvbmcgZW5vdWdoIHRvIG91dGxhc3QgdGhlaXIgcGF0aWVuY2UuIFRoaXMgd2FzLCBvZiBjb3Vyc2UsIGEgZ3JlYXQgY2hhbGxlbmdlIHRvIFJhdmVuLCBidXQgbm90IHF1aXRlIGFzIGNoYWxsZW5naW5nIGFzIGl0IGNvdWxkIGJlLg0KDQoJU28gaGUgc3RyaXBwZWQgaGltc2VsZiBvZiBoaXMgc2hpbmluZyBmZWF0aGVycyBhbmQgc3Rvb2QgbmFrZWQgYXQgdGhlIGRvb3Igb2YgdGhlIFBhbGFjZSBvZiBEZXN0aW55IGZvciBhIHllYXIgYW5kIGEgZGF5LiBBZnRlciB0aGUgeWVhciBhbmQgZGF5IGhhZCBwYXNzZWQgdGhlIHlvdW5nZXN0IE1haWRlbiwgdGhlIE1haWRlbiBvZiBKb3VybmV5cywgb3BlbmVkIHRoZSBkb29yIGFuZCByZWdhcmRlZCBoaW0gY29vbGx5LCBoZXIgZXllcyBhcyBibHVlIGFzIHRoZSBkZWVwZXN0IG9jZWFuLiAiVmVyeSB3ZWxsLCBpZiB5b3UgaW5zaXN0IG9uIHdhaXRpbmcgb3V0IHRoaXMgY2hhcmFkZSB5b3UgY2FuIGF0IGxlYXN0IHdhaXQgaW5kb29ycy4gU3RheSBpbiB0aGUgZm95ZXIsIGFuZCBmb3IgdGhlIFVuY29ucXVlcmVkIFN1bidzIHNha2UgcHV0IHlvdXIgZmVhdGhlcnMgYmFjayBvbi4gWW91IGxvb2sgbGlrZSBhIHBsdWNrZWQgY2hpY2tlbiIgYW5kIHdpdGggdGhhdCB0aGUgTWFpZGVuIHdlbnQgYmFjayB0byB0aGUgaW5uZXIgcmVjZXNzZXMgb2YgdGhlIGdyZWF0IHBhbGFjZSB0byB3aGVyZSB0aGUgRml2ZSBrZXB0IHRoZSB0YXBlc3RyeSBvZiBmYXRlLg0KDQoJJ1dlbGwnIHRob3VnaHQgUmF2ZW4gdG8gaGltc2VsZiBhcyBoZSBwdXQgaGlzIGZlYXRoZXJzIGJhY2sgb24gJ0kgaGF2ZSBtYWRlIGl0IGluc2lkZSwgSSBkbyBiZWxpZXZlIHRoZXNlIE1haWRlbnMgaGF2ZSB1bmRlcmVzdGltYXRlZCBteSBzdHViYm9ybm5lc3MnIGFuZCBzbyBoZSB3YWl0ZWQsIGVuam95aW5nIHRoZSB3YXJtdGggb2YgdGhlIGZveWVyIGFmdGVyIHN0YW5kaW5nIG91dCBpbiB0aGUgaWN5IGNoaWxsIG9mIHRoZSBzdGFyZHVzdC4gQW5kIGhlIHdhaXRlZCwgYW5kIGhlIHdhaXRlZC4gSGUgc2F3IG5vIHNlcnZhbnRzIGFuZCBubyBmb29kIG9yIGRyaW5rIHdhcyBvZmZlcmVkIGhpbSwgYnV0IHN0aWxsIGhlIHdhaXRlZC4gQW5kIHNvIGFub3RoZXIgeWVhciBhbmQgZGF5IHBhc3NlZC4NCg0KCUFmdGVyIHRoaXMgc2Vjb25kIHllYXIgYW5kIGRheSBoYWQgcGFzc2VkIFJhdmVuIGZvdW5kIGhpbXNlbGYgb25jZSBtb3JlIGluIHRoZSBwcmVzZW5jZSBvZiBvbmUgb2YgdGhlIEZpdmUgTWFpZGVucywgdGhpcyB0aW1lIGl0IHdhcyB0aGUgc2Vjb25kIGRhdWdodGVyLCBmYWlyIFZlbnVzIHRoZSBNYWlkZW4gb2YgU2VyZW5pdHkgd2l0aCBoYWlyIHRoZSBjb2xvciBvZiBzdW5zaGluZSBhbmQgZXllcyBvZiBkYWZmb2RpbHMuIFNoZSB3YXMga2luZGVyIHRoYW4gaGVyIHNpc3RlciBNZXJjdXJ5IGJ5IGZhci4gIkJyYXZlIFJhdmVuLOKAnSBzYWlkIHNoZSAiWW91IGhhdmUgd2FpdGVkIHNvIGxvbmcsIGFuZCB5ZXQgdGhlIHdhaXRpbmcgaXMgaW4gdmFpbi4gQ29tZSBoYW5kc29tZSBSYXZlbiwgYWJqdXJlIHlvdXIgcXVlc3QgYW5kIEkgc2hhbGwgdGFrZSB5b3UgdG8gYmUgbXkgaHVzYmFuZC4gRm9yIHRob3VnaCB5b3Ugc2hhbGwgbmV2ZXIgc2VlIG91ciBsb29tIHlvdSBoYXZlIGltcHJlc3NlZCBtZSBtdWNoLiIgYW5kIFZlbnVzIGxlZCBSYXZlbiB1cCB0aGUgc3RhaXJzIHRvIGEgYmVhdXRpZnVsbHkgYXBwb2ludGVkIHNpdHRpbmcgcm9vbSwgcGVyZnVtZWQgd2l0aCBqYXNtaW5lIGFuZCB3YXRlciBsaWx5IHdpdGggcmljaCBmb29kIGFuZCBmaW5lIHdpbmUgc2l0dGluZyBvbiBhIHRhYmxlLg0KDQoJUmF2ZW4sIHdobyBoYWQgYmVlbiBzdHJ1Y2sgbW9tZW50YXJpbHkgZHVtYiBieSB0aGUgYmVhdXR5IG9mIHRoZSBNYWlkZW4gb2YgU2VyZW5pdHkgcmVnYWluZWQgaGlzIHNlbnNlcyBhcyBWZW51cyBvZmZlcmVkIGhpbSBhIGdsYXNzIG9mIHRoZSBmaW5lIHdpbmUuICJNeSBMYWR5LCIgc2FpZCBoZSAiSSBhbSBodW1ibGVkIGJ5IHlvdXIgbW9zdCBncmFjaW91cyBvZmZlciwgYnV0IEkgY2FuIGFjY2VwdCBuZWl0aGVyIHlvdXIgaGFuZCBub3IgdGhlc2UgZmluZSBmb29kcy4gSSBjYW5ub3QgYWJhbmRvbiBteSBxdWVzdCwgZm9yIEkgd2FudCBub3RoaW5nIGJ1dCB0aGUga25vd2xlZGdlIHRoYXQgSSBzZWVrIg0KDQoJRmFpciBWZW51cyBncmV3IGNvbGQgYXQgUmF2ZW4ncyByZWZ1c2FsIGFuZCBzaGUgc3Rvcm1lZCBvdXQgb2YgdGhlIHJvb20sIGFuZCB3aGVuIFJhdmVuIHdlbnQgdG8gZWF0IHRoZSBmb29kIGhlIGZvdW5kIGl0IGhhZCBiZWNvbWUgdGhlIGZvdWxlc3Qgb2YgY2FycmlvbiBhbmQgdGhlIHdpbmUgYnV0IGJyYWNraXNoIHdhdGVyLiBCdXQgdG8gUmF2ZW4sIHdobyBoYWQgbm90IGVhdGVuIGZvciBzbyBsb25nIGl0IHdhcyBzdGlsbCBhIGZlYXN0LiBBbmQgc28gdGhlIHdhaXQgY29udGludWVkLg0KDQogDQoJVGhlIHdhaXQgdGhpcyB0aW1lIHdhcyBub3Qgc28gbG9uZywgaXQgd2FzIG5vdCBhIHllYXIgYW5kIGEgZGF5LCBpdCB3YXNuJ3QgZXZlbiBhIGRheS4gRm9yIHRoZSBNYWlkZW4gdG8gZmluZCBoaW0gbmV4dCBoYXMgYSBtb3N0IGZpZXJ5IHRlbXBlci4gTWVyZSBob3VycyBhZnRlciBWZW51cyBsZWZ0IE1hcnMgc3Rvcm1lZCBpbnRvIHRoZSByb29tLCBoZXIgc2hvcnQgY3JvcHBlZCBmbGFtaW5nIHJlZCBoYWlyIG5lYXJseSBicmlzdGxpbmcgd2l0aCBoZXIgZnVyeS4gIkZvb2xpc2ggY2FycmlvbiBjcm93ISBZb3UgdGhpbmsgdG8ga25vdyBvdXIgc2VjcmV0cz8gSSBzaGFsbCBjdXQgb2ZmIHlvdXIgaGVhZCBhbmQgcm9hc3QgeW91IGZvciBkaW5uZXIhIiBhbmQgd2l0aCB0aGF0IHRoZSBNYWlkZW4gb2YgV2FyIGRyZXcgaGVyIHN3b3JkIGFuZCBsdW5nZWQgYXQgUmF2ZW4uIEJ1dCBSYXZlbiB3YXMgY2xldmVyIGFuZCBoZSB0aHJldyBzb21lIG9mIHRoZSBicmFja2lzaCB3YXRlciBpbnRvIE1hcnMnIGV5ZXMuIFRoZW4gaGUgc25hdGNoZWQgdXAgdGhlIGJvZHkgb2YgYSBkZWFkIGJpcmQgdGhhdCBoZSBoYWQgbGVmdCBvdXQgb2YgcmVzcGVjdCBhbW9uZyB0aGUgb3RoZXIgY2FycmlvbiBhbmQgaXQgd2FzIHRoZSBoZWFkIG9mIHRoZSBjb3Jwc2UgdGhhdCBNYXJzJyBzd29yZCBjbG92ZSBmcm9tIGl0J3MgYm9keS4gV2hlbiBNYXJzJyBleWVzIGNsZWFyZWQgc2hlIGZvdW5kIGEgaGVhZGxlc3MgYmlyZCBhdCBoZXIgZmVldCBhbmQgbm8gb25lIGVsc2UuDQoNCglTbyBhbGwgdG9vIHBsZWFzZWQgd2l0aCBoZXJzZWxmIHNoZSBwaWNrZWQgdXAgdGhlIGJpcmQgYW5kIGJlZ2FuIHdhbGtpbmcgYXdheSwgY29tbWVudGluZyB0byBoZXJzZWxmICJQaGV3LCB0aGlzIFJhdmVuIGRvZXMgc3VyZWx5IHNtZWxsLCBidXQgaGUgd2lsbCBtYWtlIGEgZmluZSBzdXBwZXIuIiBCdXQgUmF2ZW4sIGNsZXZlciBSYXZlbiBoYWQgaGlkZGVuIGJlbmVhdGggdGhlIHRhYmxlY2xvdGggYW5kIHdhcyBub3cgZnJlZSB0byBtb3ZlIGFib3V0IHRoZSBwYWxhY2UuIEFuZCB0aGlzIGhlIGRpZCwgYW5kIHRoZXJlIHdlcmUgbWFueSBmaW5lIHdvbmRlcnMgZm9yIGhpbSB0byBzZWUsIHRoaW5ncyB0aGF0IGhlIGhhZCBuZXZlciBzZWVuIGJlZm9yZSwgYW5kIHNvLCB3aXRob3V0IG1lYW5pbmcgdG8sIFJhdmVuIHBhc3NlZCB0ZW4geWVhcnMgZXhwbG9yaW5nIHRoZSBQYWxhY2Ugb2YgRmF0ZS4gDQoNCglJdCB3YXMgcXVpdGUgYnkgYWNjaWRlbnQgdGhhdCBoZSBmb3VuZCB0aGUgbGlicmFyeTsgaGUgaGFkIGJlZW4gZm9sbG93aW5nIGNvdmVydGx5IE1lcmN1cnkgd2hvIGhlIGhhZCBzcGllZCBhcm91bmQgYSBjb3JuZXIgY2FycnlpbmcgdGhyZWFkIHRvIHNvbWV3aGVyZS4gQnV0IHdoZW4gaGUgb3BlbmVkIHRoZSBkb29yIGFuZCBwZWVyZWQgaW50byB0aGUgcm9vbSBzaGUgaGFkIGRpc2FwcGVhcmVkIGludG8gaGUgZm91bmQgbm8gc2lnbiBvZiBoZXIsIGluc3RlYWQgaGUgZm91bmQgdGhlIEZvdXJ0aCBNYWlkZW4uDQoNCglSYXZlbiBib3dlZCBsb3cgdG8gaGVyIGFzIHNoZSBsb29rZWQgdXAgZnJvbSBoZXIgYm9vayAiR3JlZXRpbmdzIHRvIHlvdSBvaCBMYWR5IEp1cGl0ZXIsIGtlZXBlciBvZiBhbGwgdGhhdCBpcyBTZWNyZXQuIiBhbmQgYXQgdGhpcyBmbG93ZXJ5IGFkZHJlc3MgSnVwaXRlcidzIGxpcCBxdWlya2VkIGluIGEgc21pbGUuICJBbmQgYSBncmVldGluZyB0byB5b3UgY29uY2VpdGVkIHBvcGluamF5IHdobyB0aGlua3MgdG9vIG11Y2ggb2YgaGlzIGxvb2tzIGFuZCB0aGlua3MgdG8ga25vdyBzZWNyZXRzIGJleW9uZCBoaW0uIFdlbGNvbWUgdG8gbXkgbGlicmFyeS4gU3VyZWx5IHlvdSBjb3VsZCBzcGVuZCB0aGUgcmVzdCBvZiB5b3VyIGxpZmUgaW4gaGVyZSwgbGVhcm5pbmcgc2VjcmV0cyB0aGF0IG5vIG9uZSBidXQgSSBrbm93LiBTZWNyZXRzIGxvbmcgbG9zdCB0byB0aW1lIGFuZCBzZWNyZXRzIHRoYXQgaGF2ZSBuZXZlciBiZWVuIGtub3duIG91dHNpZGUgdGhlc2Ugd2FsbHMuIEFianVyZSB0aHkgcXVlc3QgYW5kIEkgc2hhbGwgbGV0IHlvdSBoYXZlIGZyZWUgcmVpZ24gaW4gdGhpcyBoYWxsLCB3aGVyZSBhbGwgYnV0IHRoZSBzZWNyZXRzIHlvdSBzZWVrIGFyZSBoZWxkLiIgYW5kIGF0IHRoaXMgb2ZmZXIgUmF2ZW4gd2FzIHNvcmVseSB0ZW1wdGVkLCBmb3IgaGUga25ldyB0aGF0IGhlcmUgd2FzIGtub3dsZWRnZSBoZSB3b3VsZCBuZXZlciBoYXZlIHRoZSBjaGFuY2UgdG8gc2VlIGFnYWluLg0KDQoJQnV0IGhpcyBkZXNpcmUgdG8ga25vdyBhbGwgdGhhdCBoYWQgaGFwcGVuZWQsIGV2ZW4gdGhlIHRydXRoIG9mIHRoZSBjcmVhdGlvbiBvZiB0aGUgd29ybGQsIHdhcyB0b28gZ3JlYXQuICJJIGFtIGdyZWF0bHkgc29ycm93ZWQgb2ggTWFnbmlmaWNlbnQgSnVwaXRlciwgYnV0IHdoaWxlIEkgd291bGQgZ2l2ZSBteSB3aW5ncyB0aGVtc2VsdmVzIHRvIGJlIGdpdmVuIHN1Y2gga25vd2xlZGdlIEkgY2Fubm90IGZvcnNha2UgbXkgcXVlc3QuIiBKdXBpdGVyIG5vZGRlZCBhdCB0aGlzLCBoZXIgZmFjZSBnaXZpbmcgYXdheSB0aGUgZmFjdCB0aGF0IHNoZSBoYWQgYWxyZWFkeSBrbm93biB0aGUgYW5zd2VyICJUaGVuIEkgc2hhbGwgbm90IGtlZXAgeW91LCB0aHJvdWdoIHRoZSBkb29yIHRvIHlvdXIgbGVmdCBpcyB0aGUgd2VhdmluZyByb29tLCBhbmQgaW4gaXQgbXkgbGFzdCBzaXN0ZXIuIEl0IGlzIHRvIGhlciB5b3UgbXVzdCBtYWtlIHlvdXIgYXBwZWFsLiIgYW5kIHNvIFJhdmVuIHdlbnQgdG8gdGhlIGRvb3IsIGJ1dCB3aGVuIGhlIGxvb2tlZCBiYWNrIHRoZSBsaWJyYXJ5IHdhcyBnb25lIGFuZCBpdCB3YXMganVzdCBhIGJyb29tIGNsb3NldC4gU28gdGhyb3VnaCBoZSB3ZW50Lg0KDQoJSGUgZm91bmQgaGltc2VsZiBpbiB0aGUgc2t5IG9uY2UgbW9yZSwgb3IgYXQgbGVhc3QgdGhhdCBpcyB3aGF0IGhlIHRob3VnaHQgYXQgZmlyc3QsIGZvciBhbGwgYXJvdW5kIGhpbSB3YXMgdGhlIHNreSB0byBiZSBzZWVuLiBCdXQgYXMgaGlzIGV5ZXMgYWRqdXN0ZWQgaGUgZm91bmQgaGUgd2FzIGluIGEgd2lkZS1vcGVuIHJvb20gd2l0aCBhIGRvbWVkIGNlaWxpbmcgb2YgZ2xhc3MuIEZhciBhd2F5IGhlIGNvdWxkIG1ha2Ugb3V0IHRoZSBzcGVjayB0aGF0IHdhcyBoaXMgaG9tZSwgYW5kIGhlIGZlbHQgYSB5ZWFybmluZyBmb3IgdGhlIGZlZWwgb2Ygd2luZCBpbiBoaXMgZmVhdGhlcnMgYW5kIHN1biBvbiBoaXMgYmFjay4NCg0KCUJ1dCBoZSBzdGVlbGVkIGhpbXNlbGYgYW5kIGFwcHJvYWNoZWQgYW4gb2xkIGNyb25lIHdobyBzYXQgYXQgYSBncmVhdCBsb29tLCBhIG1hZ25pZmljZW50IHNlZ21lbnQgb2YgY29tcGxldGVkIHRhcGVzdHJ5IHBvb2xpbmcgYXJvdW5kIGhlciBmZWV0LiAiU28geW91IGhhdmUgY29tZSB0byBtZSBhdCBsYXN0IFJhdmVuLOKAnSBzYWlkIFNhdHVybiwgdGhlIE1haWRlbiBvZiBFbmRpbmdzLCBoZXIgdmlvbGV0IGNsb2FrIHJ1c3RsaW5nIGFzIHNoZSBzcG9rZS4gIkhvdyBmaXR0aW5nIHRoYXQgdGhlIGZydWl0bGVzcyBlbmQgb2YgeW91ciBxdWVzdCBjb21lcyBmcm9tIG1lLiBJIGtub3cgd2hhdCB5b3Ugd291bGQgYXNrLCBhbmQgSSBrbm93IHlvdXIgcmVhc29ucyBmb3IgZGVzaXJpbmcgaXQuIEkgd2lsbCBub3QgbGV0IHlvdSBzZWUgdGhlIHRhcGVzdHJ5LCBmb3Igbm9uZSBidXQgbXkgc2lzdGVycyBhbmQgSSBtYXkgc2VlIGl0IHVudGlsIGl0IGlzIGRvbmUuIEJ1dCBJIHdpbGwgcHJvbWlzZSB5b3UgdGhpcywgd2hlbiB3ZSBoYXZlIHNldCB0aGUgbGFzdCB0aHJlYWQgYW5kIGFsbCBvZiBmYXRlIGhhcyBiZWVuIHNwdW4gd2Ugc2hhbGwgc2hvdyBpdCB0byB5b3UgZmlyc3QuIFdpbGwgeW91IHRha2UgdGhpcyBvZmZlciBvZiBmaXJzdCBrbm93bGVkZ2UgYW5kIGdvIGhvbWU/Ig0KCUFuZCBoZXJlIFJhdmVuIGZlbHQgdGhlIGtlZW5lc3Qgb2YgdGVtcHRhdGlvbnMsIGZvciB0aGlzIHdhcyBhbG1vc3QgcGVyZmVjdCwgaGUgd291bGQgYmUgYWJsZSB0byBnbyBob21lIGFuZCB0aGVuIHdoZW4gZXZlcnl0aGluZyB3YXMgb3ZlciBoZSB3b3VsZCBzdGlsbCBiZSB0aGUgZmlyc3QgdG8ga25vdyBvdXRzaWRlIG9mIHRoZSBNYWlkZW5zIGhvdyB0aGUgd2hvbGUgb2YgbGlmZSBoYWQgcnVuLiBCdXQgaGUgd291bGQgbm90IGJlIHN3YXllZCwgZm9yIGhlIHdhcyBSYXZlbiBhbmQgaGUgaGFkIHZvd2VkIHRvIGhpbXNlbGYgaGUgd291bGQgb25seSBsZWF2ZSB3aXRoIHdoYXQgaGUgaGFkIGNvbWUgZm9yLiAiSSBhbSBzb3JyeSBTYXR1cm4sIGJ1dCBJIHdpbGwgbm90IGFjY2VwdCB5b3VyIG9mZmVyLCBhbmQgaWYgeW91IHNoYWxsIG5vdCBzaG93IG1lIHdoYXQgSSBjYW1lIHRvIGxlYXJuIHRoYW4gbmVpdGhlciBzaGFsbCBJIGxlYXZlLiBXZSBzaGFsbCBzcGVuZCBldGVybml0eSB0b2dldGhlciBNYWlkZW4gb2YgRW5kaW5ncywgYW5kIEkgc2hhbGwgZW50ZXJ0YWluIHlvdS4iIGFuZCB3aXRoIHRoYXQgaGUgYnJva2UgaW50byByYXVjb3VzIHNvbmcsIHRoZSBzb25nIHRoYXQgb25seSBhIFJhdmVuIHdobyBpcyB0cnVseSBtYWQgYXQgeW91IHdpbGwgc2luZy4gDQoNCglUaGUgbm9pc2Ugd2FzIGF3ZnVsIGFuZCBTYXR1cm4gYWxtb3N0IG1pc3NlZCB0aGUgcGxhY2VtZW50IG9mIGEgdGhyZWFkIGZyb20gaGVyIGRpc3RyYWN0aW9uLiBBbmQgc3RpbGwgdGhlIHNvbmcgd2VudCBvbiwgYW5kIFNhdHVybiBwbGFjZWQgYSBiYWJ5IHdpdGggYSB3b21hbiB3aG8gaGFkIG5vdCBrbm93biBhIG1hbidzIHRvdWNoLCBidXQgaXQgd2FzIHRvbyBsYXRlIGZvciBvbmNlIGEgdGhyZWFkIHdhcyBpbiB0aGUgbG9vbSBpdCBjb3VsZCBub3QgYmUgcmVtb3ZlZC4gQW5kIHRoZSBub2lzZSB3ZW50IG9uIGFuZCBvbiBhbmQgU2F0dXJuJ3Mgd29yayBzbG93ZWQgYW5kIHNsb3dlZCwgYW5kIHNvIHNsb3dlZCB0aGUgY29zbW9zIGZvciB0aW1lIGl0c2VsZiBpcyB3b3ZlbiBpbnRvIHRoZSBmYWJyaWMgb2YgdGhlIEdyZWF0IFRhcGVzdHJ5Lg0KDQoJRmluYWxseSBTYXR1cm4gbG93ZXJlZCBoZXIgaGFuZHMgZnJvbSB0aGUgbG9vbSBhbmQgY3JpZWQgIkVOT1VHSCEiIGFuZCBSYXZlbidzIHNvbmcgZW5kZWQuIFNhdHVybiBzdG9vZCBhbmQgbG93ZXJlZCBoZXIgaG9vZCwgYW5kIGRlc3BpdGUgdGhlIGFwcGVhcmFuY2Ugb2YgYW4gb2xkIHdvbWFuIHNoZSBoYWQgc2hvd24gd2hlbiBSYXZlbiBlbnRlcmVkLCBub3cgc2hlIHdhcyBhIGZhaXIgbWFpZGVuIG9mIGJsYWNrIGV5ZSBhbmQgdmlvbGV0IGhhaXIuICJWZXJ5IHdlbGwgUmF2ZW4sIEkgc2hhbGwgZ3JhbnQgeW91IHlvdXIgcmVxdWVzdCwgbG9vayBub3cgdXBvbiB0aGF0IHdoaWNoIGhhcyBiZWVuIHdvdmVuLCBidXQgSSB3YXJuIHlvdSBub3cuIExvb2sgbm90IGludG8gdGhlIGxvb20sIGZvciBvbmx5IGRlYXRoIGxpZXMgdGhlcmUuIiBhbmQgc2hlIHN0b29kIGFzaWRlIGFuZCBsZWZ0IHRoZSByb29tLiANCg0KIA0KCVdpdGggZWFnZXIgZ2xlZSBSYXZlbiBzYXQgaW4gaGVyIHNlYXQgYW5kIGJlZ2FuIHBvcmluZyBvdmVyIHRoZSB3b3ZlbiB0YWxlLCBsZWFybmluZyBzZWNyZXRzIHRoYXQgYXJlIG5vdCBtZWFudCBmb3IgbW9ydGFscyBzdWNoIGFzIHVzLiBVbnRpbCBmaW5hbGx5IGhlIHJlYWNoZWQgdGhlIHBvaW50IHdoZXJlIHRoZSB0YXBlc3RyeSB0b3VjaGVkIHRoZSBsb29tJ3MgdGhyZWFkcy4gVGhlbiwgaGUgZmVsdCBldmVuIGdyZWF0ZXIgY3VyaW9zaXR5IGZpbGwgaGltLCBmb3IgaWYgaGUgbGlmdGVkIGhpcyBoZWFkIGJ1dCBhIGxpdHRsZSBmdXJ0aGVyIGhlIHdvdWxkIHNlZSB0aGUgZnV0dXJlLCBhbGwgdGhhdCB3b3VsZCBjb21lIHRvIHBhc3MsIGFuZCBoZSB3YXMgYWxvbmUgYW5kIHNvIGN1cmlvdXMuIFNvIGhlIGxpZnRlZCBoaXMgaGVhZCBhbmQgc3RhcmVkIGludG8gdGhlIGhlYXJ0IG9mIHRoZSBsb29tLCBhbmQgaW4gdGhhdCBtb21lbnQgaGUga25ldyBhbGwgdGhhdCB3b3VsZCBldmVyIGNvbWUgdW50aWwgdGhlIGVuZCBvZiBkYXlzLiANCg0KCVN1ZGRlbmx5LCBoZSB3YXMgc3RydWNrIGZyb20gdGhlIHNlYXQgYW5kIGhlIGxvb2tlZCB1cCB0byBzZWUgYSBmdXJpb3VzIFNhdHVybiBzdGFuZGluZyBvdmVyIGhpbSB3aXRoIGhlciBzY3l0aGUgaW4gaGFuZC4gIkZPT0xJU0ggQklSRCwgWU9VIEhBVkUgU0VFTiBUSEFUIFdISUNIIE5PT05FIE1VU1QgU0VFISEhISEiIFNhdHVybidzIGV5ZXMgYmxhemVkIHdpdGggZnVyeSBidXQgaGVyIHZvaWNlIHdhcyBxdWlldCBhcyBzaGUgY29udGludWVkLCB0aGUgZGVhZGx5IGhpc3Mgb2YgYSB2aXBlciAiV2hhdCB5b3UgaGF2ZSBzZWVuIGNhbm5vdCBiZSBjb21wbGV0ZWx5IHJlbW92ZWQsIGZvciB0aGUga25vd2xlZGdlIG9mIHRoZSBmdXR1cmUgaXMgYSBnaWZ0IHRoYXQgY2FuIG9ubHkgYmUgdHJhZGVkIGZvciBzb21ldGhpbmcgb2YgZXF1YWwgdmFsdWUuIFNvIEkgZ2l2ZSB5b3UgdGhpcyBnaWZ0IFJhdmVuLCBJIGdpdmUgeW91IGFuZCB5b3VycyB0aGUgcG93ZXIgdG8gZHJpbmsgdGhlIGxhc3QgbWVtb3JpZXMgb2YgdGhvc2UgdGhhdCBhcmUgbWluZSwgdGhlIG9uZXMgd2hvIGFyZSBkZWFkLiBCdXQgdGhlIHByaWNlIGlzIHlvdXIgcmlnaHQgZXllLCB3aXRoIGl0IEkgdGFrZSBhbGwgdGhlIGpveSB5b3UgaGF2ZSBzZWVuLCBJIGxlYXZlIHlvdSB3aXRoIG15IGdpZnQgYW5kIHRoZSBob3Jyb3Igb2YgdGhlIGZ1dHVyZS4gTmV2ZXIgc2hhbGwgeW91IGtub3cgdGhlIHB1cmUgam95IHlvdSBmZWx0IGJlZm9yZSB5b3UgbGVmdCB0aGUgRWFydGggZm9yIG5vdyB5b3Uga25vdyBpdCdzIHRydWUgZGFya25lc3MgYW5kIGhhdmUgbG9zdCBpdCdzIGxpZ2h0LiBMaXZlIGluIGFnb255IGZvcmV2ZXJtb3JlIFJhdmVuIGFuZCBwcmF5IHdlIG5ldmVyIG1lZXQgYWdhaW4uIiBBbmQgd2l0aCB0aGF0IFNhdHVybiwgYW5kIHRoZSB3aG9sZSBwYWxhY2Ugd2FzIGdvbmUNCg0KCVJhdmVuIHdhcyBsZWZ0IGFsb25lLCBzdGFuZGluZyBpbiB0aGUgc3RhcmR1c3QsIGJsb29kIGRyaXBwaW5nIGZyb20gaGlzIHJpZ2h0IGV5ZSBzb2NrZXQsIGFuZCBhIHRlYXIgbWluZ2xlZCB3aXRoIHRoZSBibG9vZCBhcyB0aGUgZGVzcGFpciBoZSBmZWx0IHJvY2tlZCBoaW0gdG8gaGlzIGNvcmUuIEFuZCB3aGVuIHRoYXQgYmxvb2R5IHRlYXIgZmVsbCBzb21ldGhpbmcgbWFnaWNhbCBoYXBwZW5lZCwgYSBmbGFtaW5nIGJpcmQgcm9zZSBmcm9tIHRoZSBibG9vZCBhbmQgdGVhciBhbmQgZmxldyBhd2F5LCBjcnlpbmcgIkkgaGF2ZSBzZWVuIHRoYXQgd2hpY2ggd2lsbCBjb21lIGFuZCBzaGFsbCB3YXJuIG90aGVycyBvZiBpdCIgYW5kIHNvIHdhcyBib3JuIFBob2VuaXgsIGJ1dCB0aGlzIGlzIG5vdCBoaXMgc3RvcnksIHdlIGFyZSBsZWFybmluZyBvZiB3aGF0IGhhcHBlbmVkIHRvIFJhdmVuIGFuZCBzbyB3aXRoIFJhdmVuIHdlIG11c3QgbWFrZSB0aGUgbG9uZyBqb3VybmV5IGJhY2sgdG8gRWFydGgsIHdpdGggbm8gam95IGluIGhpcyBoZWFydCBhbmQgaGlzIGJyaWdodCB3aW5ncyBhcyBoZWF2eSBhcyBsZWFkLg0KIA0KCVdoZW4gaGUgZmluYWxseSBtYWRlIGl0IGJhY2sgdG8gRWFydGggaGlzIHdvdW5kIGhhZCBoZWFsZWQgYW5kIGhlIHdhcyBsZWZ0IGxvb2tpbmcgYXJvdW5kIGJsZWFrbHkgYXQgdGhlIHdvcmxkLiBUaGVuIGhlIGhlYXJkIGEgc291bmQsIGEgbWFydmVsb3VzIHNvdW5kLCBhIHNvdW5kIG9mIGpveSBhbmQgd29uZGVyLiBUaGUgc291bmQgZ2F2ZSBoaXMgd2luZ3MgbGlmZSBhZ2FpbiBhbmQgaGUgZmxldyB0byBpdHMgc291cmNlIHdpdGggZGVzcGVyYXRpb24gaW4gaGlzIHNvdWwuIEhlIGZvdW5kIHRoZSBzb3VyY2U7IGl0IHdhcyB0aGUgbGF1Z2h0ZXIgb2YgYSBjaGlsZCBwbGF5aW5nIHdpdGggaXRzIG1vdGhlci4gQW5kIFJhdmVuIHVuZGVyc3Rvb2QgdGhhdCB0aGUgY3Vyc2Ugd2FzIGEgZ2lmdCBhcyB3ZWxsLCBmb3IgaGUga25ldyBhbGwgdGhlIGV2aWxzIG9mIHRoZSB3b3JsZCBub3csIGJ1dCBoZSBjb3VsZCBkaXNjb3ZlciBhbGwgdGhlIGxpZ2h0IGFuZCBnb29kbmVzcyBhZ2FpbiBvbiBoaXMgb3duLiBFYWNoIHdvdWxkIGJlIGEgc2hpbmluZyBiZWFjb24sIGEgbmV3IGJyaWdodCB0aGluZyB0byBkaXN0cmFjdCBoaXMgcmVtYWluaW5nIGV5ZSBmcm9tIHdoYXQgaGUga25ldyB3YXMgY29taW5nLCBhbmQgdGhlIGJyaWdodCB0aGluZ3MgbWlnaHQgZXZlbiBvdXRzaGluZSB0aGUgZGFya25lc3MuIFJhdmVuIGhhZCBob3BlIGFuZCB3aXRoIGhvcGUgaGUgZmxldyBpbnRvIHRoZSBza3kuDQoNCihjKSBjamNoYXR3aW4gMjAwNzwvbGotY3V0Pg=="
+"eventtime","2007-11-17 13:32:00"
+"current_moodid","90"
+"url","http://cjchatwin.livejournal.com/17730.html"
+"userid","2939"
+"itemid","66"
+"event","Since everyone I know seems to be doing it
+1. Go to http://www.careercruising.com
+2. Put in Username: nycareers, Password: landmark.
+3. Take their ""Career Matchmaker"" questions.
+<lj-cut text=""4. Post your results"">
+
+bold = something I have past or present experience with
+italic = something I would enjoy doing
+strikethrough = something I would never consider doing.
+
+<i>1. Director of Photography</i>
+	   
+<i>2. Website Designer</i>
+	   
+<i>3. Animator</i>
+	   
+<s>4. Desktop Publisher</s>
+	   
+<i>5. Actor</i>
+	   
+<i>6. Cartoonist/Comic Illustrator</i> Artist talent would probably help here ne?
+	   
+<i>7. Director</i>
+	   
+<i>8. Film & TV Crew</I>
+	   
+<s>9. Multimedia Developer</s>
+	   
+<i>10. Computer Animator</i>
+	  
+<i>11. Casting Director</i>
+	   
+<i>12. Comedian</i> Now if only I were funny...
+	   
+<b><i>13. Musician</i></b>
+	  
+<i>14. Composer</i> I'd say I have experience but my compositions were crap.	   
+
+<s>15. Medical Illustrator</s>
+	   
+<i>16. Artist</i>
+	   
+<i>17. Graphic Designer</i>	   
+
+<b>18. Photographer</b>
+	   
+<i>19. Film Editor</i>
+
+<i>20. Dancer</i>
+	   
+<i>21. Video Game Developer</i>
+
+<i>22. Recording Engineer</i>
+	   
+<I>23. Stuntperson</i>
+	   
+<i>24. Sound Technician</i>
+	   
+<i>25. Potter</i>
+	   
+<s>26. Airport Ground Crew</s>
+	   
+<i>27. Music Teacher/Instructor</i>
+	   
+<s>28. Clergy</s>
+
+<s>29. Special Education Teacher</s>
+	   
+<s>30. Physical Education Teacher</s>
+
+<s>31. Tree Harvester</s>
+	   
+<s>32. Sports Instructor</s>
+	   
+<s>33. Road Construction and Maintenance Worker</s>
+	   
+<i>34. Agronomist</i>
+	   
+<i>35. Elementary School Teacher</i>
+	   
+<i>36. Genetic Counselor</i>
+
+<s>37. Water Treatment Plant Operator</s>
+	   
+<i>38. Teacher Assistant</i>
+	   
+<i>39. High School Teacher</i>
+	   
+<s>40. Rehabilitation Counselor</s>"
+"eventtime","2007-09-16 13:49:00"
+"url","http://cjchatwin.livejournal.com/16938.html"
+"userid","2939"
+"itemid","64"
+"event","Hey all,
+
+This is just a quick post asking if anyone would like my bed. It's a double, really comfy and the only problem I have with it is it's too big for my apartment. (As those of you who've been over can attest to) I'll be replacing it with a twin so if you'd like it let me know. I'd prefer to sell rather than give but I'll let you have the whole kit and kaboodle for a steal (considering it was close to $600 for frame, mattress, and boxspring and most of that was mattress and boxspring).
+
+So that's it from me, comment or email or phone if you'd like the bed.
+
+-Ciaran out"
+"eventtime","2007-07-13 14:50:00"
+"url","http://cjchatwin.livejournal.com/16519.html"
+"userid","2939"
+"itemid","63"
+"event","Hey folks, been a while since I posted here. Ah well, guess I haven't been in a bloggin' mood. And now having said that I'm here to pimp my new blog.
+
+The new blog isn't for lifeblogging though, it's an art blog where I'm gonna put up my photos, poetry, stories, and once (read 'If') I get the necessary equipment, music.
+
+Basically it's submitting my various and sundry attempts at creativity to the world for criticism, so obviously I'm trying to stack the deck with friends. ^_^
+
+So check it out; http://lostbardart.blogspot.com
+
+~Ciaran"
+"eventtime","2007-06-13 01:41:00"
+"url","http://cjchatwin.livejournal.com/16203.html"
+"userid","2939"
+"itemid","62"
+"event","Dear everyone who is getting this,
+
+We would love it if you can attend our Birthday Bash at Dufferin Grove
+Park this weekend on June 9, 2007.
+
+We (that is H, A and I) are having our birthdays soon, so we
+decided to combine everything and have a single early celebration.
+
+We are turning early twenties, mid twenties and early forties on June
+17, 19 and 29.
+
+So that's:
+
+Who             : H, A, and I
+
+Where           : Dufferin Grove Park, 875 Dufferin Street, South of Bloor.
+Across from the Dufferin Mall.
+
+When            : This weekend, Saturday 9th 2007 @ 3pm onward to at least 8pm.
+Show up early to help. Show up later to be around when the food is
+ready.
+
+Additional info : Likely near the playground but follow the yellow streamers
+
+Dress code      : Casual. For those of you who don't know me that well.
+This is strictly a non-networking casual gathering.
+
+Visit URL below to view a map
+
+http://maps.google.com/maps?q=875%20Dufferin%20Street%20Toronto%20Ontario&spn=0.016785%2C0.030335
+
+Drop by alone, with pets, friends, family, partners or others. They
+are more than welcome. The more the merrier! :)
+
+As are drums and music (yes I include singing / voices in this
+category). As long as they are not baby disturbing (Monkey and Peanut)
+loud.
+
+Insect repellent, should anyone need any, would be provided. We plan
+to be there early enough to snag picnic tables, but people are
+encouraged to bring picnic cloths or other things to sit on as well.
+
+It is a public park. Needless to say, alcohol is a no no. If you
+choose to brown bag it I don't
+want to know. ;)
+
+Regarding food, the guys would like me to mention that it is a potluck
+picnic, so bring stuff. However a number of you whom I've already
+spoken to know I'll be bringing food. So no worries about food
+arrangements if you are in a time / cash crunch, I'd much rather see
+you all empty handed then have you all no show. :) Please bring precooked items 
+as we didn't get a fire permit int time so may not be able to cook.
+
+Regarding food, there are so many dietary restrictions among the
+people attending ... I've lost count. My suggestion for those who
+asked. Bring what you feel like eating. No worries.
+
+I would suggest packing bell peppers (and anything else in that
+family) separately. Birthday boys, A the vegan, can have seafood
+and dairy (don't ask) and I tend to prefer my food traditional,
+nothing too exotic ... H, on the other hand, is ok with the spicy
+and exotic stuff.
+
+Hope to see you all this weekend. :)"
+"eventtime","2007-06-07 21:54:00"
+"url","http://cjchatwin.livejournal.com/16001.html"
+"userid","2939"
+"itemid","61"
+"event","Hi folks!
+
+I'm not sure how many of you fine folks are into the webcomics world but this isn't just a comics issue. It all starts with Matt Boyd, a very famous webcomic writer. Part of the duo that created Mac Hall (http://www.machall.com) which ended last year. Their newest project is Three Panel Soul (http://www.threepanelsoul.com) a realistic style slice-of-life comic that takes plot from Ian and Matt's lives.
+
+This would be where the news story comes in. These two strips tell the basic story, and if it had stopped there while it would have sucked it would have been understandable.
+<lj-cut text=Cut for images and links><a href=""http://pics.livejournal.com/cjchatwin/pic/0000eq93/""><img src=""http://pics.livejournal.com/cjchatwin/pic/0000eq93/s320x240"" width=""294"" height=""240"" border='0'/></a>
+
+<a href=""http://pics.livejournal.com/cjchatwin/pic/0000fr70/""><img src=""http://pics.livejournal.com/cjchatwin/pic/0000fr70/s320x240"" width=""320"" height=""178"" border='0'/></a>
+
+But it didn't stop there. http://www.fleen.com/archives/2007/05/03/breaking-news-3/
+This is the story that just adds that extra WTF to the whole thing.</lj-cut>
+
+On a lighter note, if you're looking for new musicians to check out and haven't heard her yet I suggest Regina Spektor (http://www.reginaspektor.com)"
+"eventtime","2007-05-04 09:34:00"
+"current_moodid","3"
+"url","http://cjchatwin.livejournal.com/15642.html"
+"userid","2939"
+"itemid","59"
+"event","Heyla dear friends, I've started a new game on RPoL.net and you're all invited. It's a Mass World of Darkness game in an alternate world setting of my own design.
+
+Check it out here.
+
+http://rpol.net/game.cgi?gi=23664&gn=Shattered+Time:+One+Sky,+One+World+(OWoD/Exalt)&date=1175542698"
+"eventtime","2007-04-02 15:41:00"
+"url","http://cjchatwin.livejournal.com/15197.html"
+"userid","2939"
+"itemid","58"
+"event","Hello ladies and germs, guess who's gainfully employed? That's right it's me! Starting tomorrow I'm working part-time at the McDonald's in the St. Clair Subway station. Whoohoo!!!!
+
+This coupled with getting into school has made me a very happy boy.
+
+See you all when I see you at various event type things.
+
+Later!
+~Ciaran"
+"eventtime","2007-04-02 09:45:00"
+"url","http://cjchatwin.livejournal.com/15047.html"
+"userid","2939"
+"itemid","57"
+"event","Yes that's right folks, I am now a student I have been accepted into George Brown's One Year General Arts and Science program, which will give me an opportunity to get back into the school swing and get a much nicer transcript to hand into universities next year.
+
+So that's my news ladies and germs, TTFN!
+
+~Ciaran"
+"eventtime","2007-03-26 16:00:00"
+"url","http://cjchatwin.livejournal.com/14674.html"
+"userid","2939"
+"itemid","56"
+"event","The sun is shining and my apartment is soooo pretty with all the direct sunlight. I feel fantastically happy! *Happy Dance*
+
+I apparently forgot how happy sunshine makes me, and best of all *deep inhale* NO ALLERGIES!!!!!
+/end joyful rant"
+"eventtime","2007-03-20 14:30:00"
+"url","http://cjchatwin.livejournal.com/14441.html"
+"userid","2939"
+"itemid","55"
+"event","So the 2007 auditions for Canadian Idol are coming up next month (April 14-15) and I was thinking about auditioning again. (For those unaware I auditioned last year, made it up to the judges and then got edited down to three seconds of 'Touch-a Touch-a Touch-a Touch Me' in a commercial.
+
+I've actually got a few questions for you folks in regards to this;
+
+a) Do you think I should do it.
+b) If I did do it would you be willing to be there for moral support? (Having done this before I'm only TOO aware how nerve-wracking it can be.)
+c) Any song suggestions?
+
+I'm really torn about doing these auditions again so any input is greatly appreciated.
+
+~Ciaran"
+"eventtime","2007-03-13 22:46:00"
+"url","http://cjchatwin.livejournal.com/14155.html"
+"userid","2939"
+"itemid","53"
+"event","Demon the Fallen tomorrow! 8pm. For those who arrive early there will be board games and DDR will be available for time killing.
+
+A more indepth post on my general well-being and life to date will follow once I'm done writing it."
+"eventtime","2007-02-07 17:29:00"
+"url","http://cjchatwin.livejournal.com/13604.html"
+"userid","2939"
+"itemid","52"
+"event","Hey Everyone (who reads my journal)!
+
+So I've been reading over the convention schedule for Anime North and it's looking like a lot of fun, but it's being held out by the airport which makes commuting kind of a chore. So here's my genius thought. Is anyone else wanting/planning to go to Anime North and would want to split the cost of a hotel room? Let me know either via comment or email (since I'll probably forget if you tell me by phone)
+
+-Ciaran"
+"eventtime","2007-01-30 10:53:00"
+"url","http://cjchatwin.livejournal.com/13352.html"
+"userid","2939"
+"itemid","47"
+"event","U3RvbGVuIGZyb20gPGxqIHVzZXI9bG9yZG1vb2tpZT4NCg0KQmFzaWNhbGx5LCB5b3UganVzdCBwdXQgeW91ciBpUG9kIChvciBvdGhlciBNUDMgcGxheWVyKSBvbiBzaHVmZmxlIGFuZCBmaWxsIGluIHRoZSBibGFua3MuDQpNeSBvd24gc3BlY2lhbCBjb21tZW50YXJ5IGlzIGluIGl0YWxpY3MuDQoNCjxsai1jdXQ+DQo8Yj5PcGVuaW5nIENyZWRpdHM6PC9iPg0KQm9oZW1pYW4gUmFwaHNvZHkgLSBRdWVlbg0KPGk+V2VsbCB0aGF0J3MganVzdCB0b28gZnJlYWtpbmcgY2xhc3NpYyBmb3Igd29yZHMuPC9pPg0KDQo8Yj5XYWtpbmcgVXA6PC9iPg0KTWlzcyBPdGlzIFJlZ3JldHMgKFNoZSdzIFVuYWJsZSB0byBMdW5jaCBUb2RheSkgLSBCZXR0ZSBNaWRsZXINCjxpPlNvIEkgd2FrZSB1cCBpbiB0aGUgbW9ybmluZyB0byBhIGphenogc3RhbmRhcmQgYWJvdXQgYSB3b21hbiB3aG8gc2hvdCBoZXIgbG92ZXIgYW5kIGdvdCBzdHJ1bmcgdXAgZm9yIGl0Li4uIENvb2whPC9pPg0KDQo8Yj5GaXJzdCBEYXkgYXQgU2Nob29sOjwvYj4NCkJlbGlldmUgLSBKb3NoIEdyb2Jhbg0KPGk+VGhpcyBzb25nJ3MgYSBiaXQgc2FwcHksICdmb2xsb3cgeW91ciBoZWFydCwgYmVsaWV2ZSBpbiB5b3Vyc2VsZicsIHNvIHZlcnkgY2xpY2jDqTwvaT4NCg0KPGI+RmFsbGluZyBpbiBMb3ZlOjwvYj4NCkknbGwgQmUgLSBFZHdpbiBNY0NhaW4NCjxpPlRoaXMgc29uZyBlc3BvdXNlcyB0aGF0IGZlZWxpbmcgb2YgaG93IHdvbmRlcmZ1bCBhIHBlcnNvbiBzZWVtcyB0byBiZSBhcyB5b3UgZmlyc3QgZmFsbCBmb3IgdGhlbS4gSG93IGFwcm9wb3MuPC9pPg0KDQo8Yj5CcmVha2luZyBVcDo8L2I+DQpCbGFtZSBpdCBvbiB0aGUgV2VhdGhlcm1hbiAtIEIqV2l0Y2hlZA0KPGk+QW5kIGl0J3MgaW1tZWRpYXRlbHkgZm9sbG93ZWQgYnkgYSBzb25nIGFib3V0IGhvdyB5b3UncmUgc3RhbmRpbmcgYWxsIGJlIHlvdXJzZWxmIGluIHJhaW55IHdlYXRoZXIgYW5kIGl0J3Mgbm90IHlvdXIgZmF1bHQgdGhhdCB0aGUgc2t5IGlzIG1hdGNoaW5nIHlvdXIgbW9vZC4gQ3JlZXB5Li4uPC9pPg0KDQo8Yj5Qcm9tOjwvYj4NCkx1bGxhYnkgLSBKb3NoIEdyb2JhbiB3aXRoIExhZHlzbWl0aCBCbGFjayBNYW1iYXpvDQo8aT5BIHNvbmcgdG8gcHV0IGEgY2hpbGQgdG8gc2xlZXAsIHRoYXQgZG9lcyBhZGVxdWF0ZWx5IGRlc2NyaWJlIGhvdyBmcmVha2luZyBCT1JJTkcgbXkgUHJvbSB3YXMuPC9pPg0KDQo8Yj5MaWZlJ3MgT2theTo8L2I+DQpEb2N0b3IgV2hvIFRoZW1lIFNvbmcNCjxpPlRoZXJlJ3MganVzdCB0b28gbWFueSB3YXlzIHRvIGdvIHdpdGggdGhpcyBvbmUuLi4uPC9pPg0KDQo8Yj5NZW50YWwgQnJlYWtkb3duOjwvYj4NCkNvd2JveSBUYWtlIE1lIEF3YXkgLSBEaXhpZSBDaGlja3MNCjxpPkhtbW0sIHdpZGUgb3BlbiBwYXN0dXJlcywgc2V4eSBjb3dib3lzLCBubyBjaXRpZXMuIFllYWggc291bmRzIGxpa2UgbXkgb3duIHBlcnNvbmFsIExhbGEtbGFuZDwvaT4NCg0KPGI+RHJpdmluZzo8L2I+DQpJIExpa2UgVG8gTW92ZSBJdCAtIENyYXp5IEZyb2cNCjxpPk9oIHRoaXMgaXMganVzdCB0b28gZnVubnkuLi48L2k+DQoNCjxiPkZsYXNoYmFjazo8L2I+DQpJdCdzIEFib3V0IFRpbWUgLSBMaWxsaXgNCjxpPlllcywgZmxhc2hiYWNrcyBhcmUgaW5kZWVkIGFib3V0IHRpbWUuPC9pPg0KDQo8Yj5HZXR0aW5nIEJhY2sgVG9nZXRoZXI6PC9iPg0KSGFuZHMgLSBKZXdlbA0KPGk+V2VsbCBhIHNvbmcgYWJvdXQgZ2xvYmFsIHRvZ2V0aGVybmVzcyBhbmQgdW5pdGluZyBhZ2FpbnN0IHNlZW1pbmdseSB1bmJlYXRhYmxlIGZvZXMuIEl0IHdvcmtzPC9pPg0KDQo8Yj5XZWRkaW5nOjwvYj4NCkludG8gdGhlIEFpcndhdmVzIC0gSmFjaydzIE1hbm5lcXVpbg0KPGk+SXQncyBhIGdvb2Qgc29uZywgYmFzaWNhbGx5IGl0J3MgYWJvdXQgcG91cmluZyB5b3VyIGJyYWluIGludG8gYSB0cmFuc21pdHRlciBzbyB0aGF0IHRoZSB3aG9sZSB3b3JsZCBjYW4ga25vdyB5b3VyIHRob3VnaHRzIGFib3V0IHRoYXQgb25lIHBlcnNvbiBpbiB5b3VyIGxpZmUuPC9pPg0KDQo8Yj5CaXJ0aCBvZiBDaGlsZDo8L2I+DQpNbyBHaGlsZSBNZWFyIChNeSBEYXJsaW5nIERlYXIpIC0gTWFyeSBCbGFjaw0KPGk+QSBzb25nIHRoYXQgd2FzIG9yaWdpbmFsbHkgY29tcG9zZWQgdG8gaG9ub3Igb25lIG9mIHRoZSBQcmluY2VzIG9mIEVuZ2xhbmQsIEkgZm9yZ2V0IHdoaWNoIG9uZSByaWdodCBub3csIGJ1dCBpdCdzIGFib3V0IGhvdyBoZSdzIHN1Y2ggYSB3b25kZXJmdWwgZ3V5LiBUaGVyZSBhcmUgd29yc2Ugc29uZ3MgdG8gZXBpdG9taXplIHRoZSBiaXJ0aCBvZiB5b3VyIGNoaWxkPC9pPg0KDQo8Yj5GaW5hbCBCYXR0bGU6PC9iPg0KRmF0ZSAtIENocm9ubyBDcm9zcw0KPGk+T29vaCBhbiBlcGljIGJhdHRsZSBiZXR3ZWVuIGZsdXRlIGFuZCB2aW9saW4uIEl0J3MgdmVyeSBteXN0aWNhbCBhbmQgd2hpbGUgc3RhcnRpbmcgb2ZmIHZlcnkgbGlnaHQgKFBlcmhhcHMgd2Fsa2luZyBhY3Jvc3MgYW4gZW1wdHkgd2luZHN3ZXB0IHBsYWluIHRvd2FyZHMgdGhlIGJhdHRsZSBsb2NhdGlvbikgaXQgYmVjb21lcyB2ZXJ5IGludGVuc2UsIGRlZmluaXRlbHkgYW4gZW5qb3lhYmxlIGZpbmFsIGJhdHRsZS48L2k+DQoNCjxiPkRlYXRoIFNjZW5lOjwvYj4NCkhpa2FyaSAtIE5vYnVvIFVlbWV0c3UNCjxpPllheSEgSSBkaWUgdG8gYSBoZWFydGJyZWFraW5nIHBpYW5vIGFuZCBvcmNoZXN0cmEgcGllY2UgdGhhdCBqdXN0IGZsb2F0cyBhbG9uZywgZ2l2aW5nIHRoaXMgZmVlbGluZyBvZiBhIHN3ZWxsaW5nIHBvd2VyIHRoYXQgZXZlbnR1YWxseSBidXJzdHMgaW50byBhIGNhc2NhZGUgb2Ygc291bmQuIEkgY2FuIHRvdGFsbHkgbGl2ZSB3aXRoIHRoYXQ8L2k+DQoNCjxiPkZ1bmVyYWwgU29uZzo8L2I+DQpGdWxsIG9mIEdyYWNlIC0gU2FyYWggTWNMYWNobGFuDQo8aT5ZdXAgdGhhdCdzIG1lLCBmdWxsIG9mIGdyYWNlIGFuZCBkaWduaXR5LCBqdXN0IGhvdyBJIHdhbnQgdG8gYmUgcmVtZW1iZXJlZC48L2k+DQoNCjxiPkVuZCBDcmVkaXRzOjwvYj4NCk5vdGhpbmcgQXQgQWxsIC0gU3lkbmV5IEZvcmVzdA0KPGk+SXQncyBhYm91dCBob3cgdGhlIGJvbmRzIG9mIGxvdmUgYW5kIGZyaWVuZHNoaXAgYWxsb3cgeW91IHRvIGhlYXIgZWFjaCBvdGhlcidzIHNvdWxzLCB0aGUgdHJ1ZSBuZWVkcyBkZWVwIGRvd24gaW5zaWRlLiBIb3cgd2hlbiB5b3UgZG9uJ3QgaGF2ZSBhbnl0aGluZyB5b3UgZG9uJ3QgaGF2ZSB0byB3b3JyeSBiZWNhdXNlIHRoYXQgb25lIHBlcnNvbiBpcyBzdGlsbCB0aGVyZSBmb3IgeW91LiBJIHRoaW5rIEknZCBsaWtlIHRoYXQgdG8gYmUgdGhlIGZpbmFsIG1lc3NhZ2Ugb2YgdGhlIG1vdmllIG9mIG15IGxpZmUuLi48L2k+DQoNCkFuZCB0aGlzIGNvbmNsdWRlcyB0aGUgbGl0dGxlIEpvdXJuYWwgdGhpbmcgSSBmZWx0IGxpa2UgZG9pbmcsIEkgaG9wZSB5b3UndmUgZW5qb3llZC4NCg0KPC9sai1jdXQ+"
+"eventtime","2007-01-10 22:48:00"
+"url","http://cjchatwin.livejournal.com/12170.html"
+"userid","2939"
+"itemid","46"
+"event","Hello all, this is just a shoutout to my Demon players, game is tomorrow at 8pm at my apartment.
+
+See you all tomorrow!
+
+-Ciaran (aka GOD)"
+"eventtime","2007-01-10 17:54:00"
+"url","http://cjchatwin.livejournal.com/11981.html"
+"userid","2939"
+"itemid","44"
+"event","1. Eat healthier, more veggies, less meat
+2. Exercise more, take up jogging again. Perhaps find a workout buddy
+3. Figure out what I want to do with my life
+4. Find a part-time job
+5. Finish all upgrades to my laptop
+6. Really focus on my Wiccan studies
+7. Go out more, ask people out to do stuff. Doing coffee is a fun way to socialize.
+8. If I get into a relationship then I want it to be a healthy relationship.
+9. Actually use the WeightWatchers account my dad bought for me.
+10. Now that I have a dining table start making meals that require me to sit at the table and enjoy rather than lounge in bed and scarf. (This will also result in less mess on my bedspread. Yay!)"
+"eventtime","2007-01-01 20:23:00"
+"url","http://cjchatwin.livejournal.com/11337.html"
+"userid","2939"
+"itemid","42"
+"event","It's SNOWING!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+That is all."
+"eventtime","2006-12-04 19:49:00"
+"url","http://cjchatwin.livejournal.com/10906.html"
+"userid","2939"
+"itemid","40"
+"event","Well as is sometimes the case with my more politically leant comics I have found out an amusing bit of news. So here I shall share both the comic and the news stories.
+
+
+<a href=""http://pics.livejournal.com/cjchatwin/pic/0000da4d/""><img src=""http://pics.livejournal.com/cjchatwin/pic/0000da4d/s320x240"" width=""190"" height=""240"" border='0'/></a>
+
+The aftermath of this story, with it's ultimate outcome can be found here.
+http://www.nytimes.com/2006/11/29/us/29wreath.html"
+"eventtime","2006-12-01 15:29:00"
+"url","http://cjchatwin.livejournal.com/10390.html"
+"userid","2939"
+"itemid","39"
+"event","I gots me a laptop!!!! *happy dance*"
+"eventtime","2006-11-29 19:17:00"
+"url","http://cjchatwin.livejournal.com/10011.html"
+"userid","2939"
+"itemid","38"
+"event","Hey hey hey.
+
+Just a reminder that the Demon game continues tomorrow night @ 7:30. So be there or be square."
+"eventtime","2006-11-29 13:38:00"
+"url","http://cjchatwin.livejournal.com/9832.html"
+"userid","2939"
+"itemid","37"
+"event","Wish me luck everyone, my Xmas present is currently up for auction on eBay, If I'm still highest bidder at 11:30 PM on Wednesday then I'm getting a new (to me) laptop for Christmas!!!!!
+
+You can check it out <a href=""http://cgi.ebay.ca/ws/eBayISAPI.dll?ViewItem&ih=004&sspagename=STRK%3AMEWA%3AIT&viewitem=&item=140056657789&rd=1&rd=1"">here.</a>
+
+It's so pretty!!!!! (insert my nerdy squeaky noises here)
+
+
+Wish me luck!"
+"eventtime","2006-11-26 14:57:00"
+"url","http://cjchatwin.livejournal.com/9658.html"
+"userid","2939"
+"itemid","35"
+"event","Just a reminder that my Demon the Fallen game starts tomorrow (Wednesday) night at 8:30 in the evening.
+My address is
+
+142 Wellesley St. E.
+Buzzer Code 29
+
+If I don't answer the buzzer it will be because when Tim reaches the Wellesley station I have to go retrieve him, since directions just seemed to confuse him, so just bunker down and I'll be back soon.
+
+Extra experience for bringing snacks and/or beverages. :D
+
+If you need to call me my numbers are;
+Cell: 416-399-4710
+Home: 416-848-6091
+
+See y'all tomorrow!
+
+Oh and side note on the whole Demon/Changeling thing since we were discussing it at the 1000 Cats meeting I've done research and this is what the Demon developer had to say on them.
+
+""I wrestled with demonic perspectives on changelings for a while, and couldn't really come up with one that worked well. The closest I got was that the Changelings were actually born during the Age of Wonder, either as by-products of mankind's ascended dreams, or as an offshoot of ascended humanity itself that managed to escape the cataclysm when the Nephilim killed the Watchers and took over. So Arcadia could either be the refuge that the original Fae escaped to, or it could be the Age of Wonders itself- who says that the barrier to Arcadia isn't physical *and* temporal? Could be kinda interesting.
+As to their powers, the Dreaming really is another metaphor for faith, when you think about it.""
+
+So since the Changelings need to harvest Glamour in much the same way Demons need to harvest Faith I'm ruling they're too similar to be patroned/enthralled. But a fair and equitable partnership isn't out of the question."
+"eventtime","2006-11-14 11:36:00"
+"url","http://cjchatwin.livejournal.com/9048.html"
+"userid","2939"
+"itemid","30"
+"event","Well this thing sure solves the whole 'get to know you' thing. This thing describes me, the good, the bad, and the ugly.
+
+<br><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-16047' style='text-decoration:none; font-weight:bold; color:black; font-size:12px; cursor:default;'><b>My Personality</b></a><br><table width=100% border=0 cellpadding=0 cellspacing=0><tr><td></td><td><div style='width:155px; height:15px;'> </div></td></tr><tr><td style='width:145px; padding-right:5px; text-align:right; border-right:1px solid rgb(150,0,0);'><div style='white-space:nowrap; overflow:hidden; font-size:12px;'>Neuroticism</div></td><td style='padding:0px;'><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-13837&a=personality-tests&x=200438xAE949B#s1' target='_blank' style='text-decoration:none; font-weight:normal; color:black;'><div style=""cursor:hand; float:left; height:18px; text-align:right; background-color:rgb(255,0,0); border-bottom:1px solid rgb(150,0,0); border-right:1px solid rgb(150,0,0); border-top:1px solid rgb(255,100,100); width:96%; filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColor=16777215, EndColor=2130706432);""><div style='float:right; color:white; padding-right:2px; margin-top:2px; font-size:10px;'>96</div></div></a></td></tr><tr><td style='width:145px; padding-right:5px; text-align:right; border-right:1px solid rgb(0,0,150);'><div style='white-space:nowrap; overflow:hidden; font-size:12px;'>Extraversion</div></td><td style='padding:0px;'><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-13837&a=personality-tests&x=200438xAE949B#s2' target='_blank' style='text-decoration:none; font-weight:normal; color:black;'><div style=""cursor:hand; float:left; height:18px; text-align:right; background-color:rgb(0,0,255); border-bottom:1px solid rgb(0,0,150); border-right:1px solid rgb(0,0,150); border-top:1px solid rgb(100,100,255); width:25%; filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColor=16777215, EndColor=2130706432);""><div style='float:right; color:white; padding-right:2px; margin-top:2px; font-size:10px;'>25</div></div></a></td></tr><tr><td style='width:145px; padding-right:5px; text-align:right; border-right:1px solid rgb(0,90,0);'><div style='white-space:nowrap; overflow:hidden; font-size:12px;'>Openness To Experience</div></td><td style='padding:0px;'><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-13837&a=personality-tests&x=200438xAE949B#s3' target='_blank' style='text-decoration:none; font-weight:normal; color:black;'><div style=""cursor:hand; float:left; height:18px; text-align:right; background-color:rgb(0,128,0); border-bottom:1px solid rgb(0,90,0); border-right:1px solid rgb(0,90,0); border-top:1px solid rgb(85,159,85); width:94%; filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColor=16777215, EndColor=2130706432);""><div style='float:right; color:white; padding-right:2px; margin-top:2px; font-size:10px;'>94</div></div></a></td></tr><tr><td style='width:145px; padding-right:5px; text-align:right; border-right:1px solid rgb(144,115,0);'><div style='white-space:nowrap; overflow:hidden; font-size:12px;'>Agreeableness</div></td><td style='padding:0px;'><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-13837&a=personality-tests&x=200438xAE949B#s4' target='_blank' style='text-decoration:none; font-weight:normal; color:black;'><div style=""cursor:hand; float:left; height:18px; text-align:right; background-color:rgb(251,212,0); border-bottom:1px solid rgb(144,115,0); border-right:1px solid rgb(144,115,0); border-top:1px solid rgb(255,241,170); width:49%; filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColor=16777215, EndColor=2130706432);""><div style='float:right; color:white; padding-right:2px; margin-top:2px; font-size:10px;'>49</div></div></a></td></tr><tr><td style='width:145px; padding-right:5px; text-align:right; border-right:1px solid rgb(80,0,80);'><div style='white-space:nowrap; overflow:hidden; font-size:12px;'>Conscientiousness</div></td><td style='padding:0px;'><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-13837&a=personality-tests&x=200438xAE949B#s5' target='_blank' style='text-decoration:none; font-weight:normal; color:black;'><div style=""cursor:hand; float:left; height:18px; text-align:right; background-color:rgb(128,0,128); border-bottom:1px solid rgb(80,0,80); border-right:1px solid rgb(80,0,80); border-top:1px solid rgb(149,99,151); width:46%; filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColor=16777215, EndColor=2130706432);""><div style='float:right; color:white; padding-right:2px; margin-top:2px; font-size:10px;'>46</div></div></a></td></tr></table><center><table width=100% border=0 cellpadding=0 cellspacing=0><tr><td><div style='width:300px; height:15px;'> </div></td></tr><tr><td><div style='width:300px; height:15px;'> </div></td></tr><tr><td align=center><nobr><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-13659&sh=y&ms=y' target='_blank' style='margin-left:5px; margin-right:5px;'>Test Yourself</a></nobr> <nobr><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-13659&sh=y&ms=y&ur=200438xAE949B' target='_blank' style='margin-left:5px; margin-right:5px;'>Compare Yourself</a></nobr> <nobr><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-13837&a=personality-tests&x=200438xAE949B' target='_blank' style='margin-left:5px; margin-right:5px;'>View Full Report</a></nobr><br><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-117150' target='_blank'>Find your soulmate / pysch twin</a><br><br><a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-21613' style='text-decoration:none; font-weight:normal; font-size:9px;'>MySpace Layouts</a>, <a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-21613' style='text-decoration:none; font-weight:normal; font-size:9px;'>MySpace</a> and <a href='http://www.pulseware.com.au/site_pi.asp?p=wpa-21613' style='text-decoration:none; font-weight:normal; font-size:9px;'>MySpace Layouts</a><font style='text-decoration:none; font-weight:normal; font-size:9px;'> by Pulseware <a href='http://www.pulseware.com.au' style='text-decoration:none; font-weight:normal; font-size:9px;'>Survey Software</a></font></td></tr></table></center><br>"
+"eventtime","2006-11-01 12:33:00"
+"current_moodid","122"
+"url","http://cjchatwin.livejournal.com/7702.html"
+"userid","2939"
+"itemid","27"
+"event","I'm a DEVIANT!!!! And by that I mean I am now on deviantART (http://ciaraninverse.deviantart.com/) So I'm just posting the link and wondering if any of y'all are on there too.
+
+I'll probably put up some of my photography and maybe knitting progress on there as well as portions of the book I'm trying to write.
+
+So... yeah that is all!
+
+-Ciaran"
+"eventtime","2006-10-24 11:41:00"
+"url","http://cjchatwin.livejournal.com/6958.html"
+"userid","2939"
+"itemid","25"
+"event","Two awesome things happened to me today and I felt the need to share. I've cut them for length.
+
+<lj-cut text=Magical>1) I had a vision, which for those of you whom I discuss such things with know has happened only like two other times in my life, unlike the creepy Deja Vu flashes I get quite regularly. It was a continuance of the dream that I had after a discussion with <lj user=MissLynx> about patron deities and my own troubles with them. The dream had me in a forest at sunset with music playing as I chased after a man in a green cloak, but what held us apart wasn't his greater speed or my lack of speed but the shields I had raised in my defense over the years. The way I interpreted said dream was that the Sun, symbolizing my former patron Apollo was now setting out of my life as I began a new chapter, and the shields that had served me so well in Alberta were now keeping me from experiencing the things I had to so I could continue to grow.
+As I walked although the music was distorted I heard a voice, it was my voice but I wasn't the one speaking, as if someone had hijacked my voice for their own purposes.
+<i>Hear my words and know them for true
+Years of shields have woven round
+Protecting as they were meant to
+But in this place and in this time
+They keep me tied and keep me bound
+Hide no more and do not flee
+For the first time in ages, I want to be me</i>
+After hearing this at our next meeting Lynx suggested some exercises I could do that would help me rein in my collection of shields. I've been working on them and today as I was meditating and practicing raising and lowering them I took them down to nothing, no shields, no barriers between me and my senses, and SMACK! I was back in the forest, right behind the man and I could hear the music perfectly and the sun had set and it was dusk. The music was sweet and clear, played on some sort of woodwind with a kind of ghostly haunting tone to it. I couldn't place the instrument but the song was this piece I've been working on for years. I've never played it for anyone before. The man was so close I could tell many more details, he had long brown hair, warm looking skin and he smelled of linen, lavender, and woodsmoke. He spoke to me then. 'The time draws near child, but I will not yet turn.'</lj-cut>
+
+<lj-cut text=Mundane>2) It SNOWED today!!!! Not alot but it made me all giddy and I sat at the window with a mug of hot chocolate watching the few flakes fall. It made me feel a little homesick since by this time there's usually been a couple of blizzards at this point. I also cleaned, which wasn't fun but makes me feel better. I've now decided that whenever I feel like I have to clean the apartment I just need to make the bed to revitalize myself (since it's the largest piece of furniture in the room once it's beautifully made the entire place looks much better, inspiring me to clean the rest).</lj-cut>
+
+So yeah that's it. I'm hoping to hang out sometime this weekend (or week) with people so comment, e-mail or phone me.
+
+Contact Info:
+e-mail: cjchatwin@gmail.com
+MSN: cjchatwin@gmail.com
+Phone: 416-848-6091
+Cell: 416-399-4710
+
+So that's all folks! Hope to see you soon!
+
+-Ciaran
+
+P.S. Please click this link, my cybervamp in this online game is woefully underfed. http://world4.monstersgame.co.uk/?ac=vid&vid=47031012 Doesn't install spyware or anything you just give me a few pints on electronic blood. :D"
+"eventtime","2006-10-15 18:49:00"
+"url","http://cjchatwin.livejournal.com/6428.html"
+"userid","2939"
+"itemid","22"
+"event","I picked this up off <lj user=MissLynx>'s LJ (sidebar: Look I'm getting the hang of tagging! Whooo!) and as I shall be receiving giftyness I must now hold up my end of the bargain so:
+
+
+<i>The first five people to respond to this post will get some form of creative work, by me, about them. I make no guarantees about quality or type (no, you do not get to decide what it is), but I assure you that I will give it good effort and that the art will be individual to you, so whether you get a mix CD, a poem, a short story, or some sort of strange doodle, yours will be the only one like it.
+
+There is a catch, of course: as with most memes, if you sign up, you have to put this in your own journal as well.</i>
+
+Given my lack of artsy ability it will most likely be mix CDs or me singing a song I think suits you. Maybe poetry...
+
+So yeah, let's see who gets original Ciaranartattempts(tm)
+
+-Ciaran"
+"eventtime","2006-10-12 23:10:00"
+"url","http://cjchatwin.livejournal.com/5704.html"
+"userid","2939"
+"itemid","20"
+"event","In case people didn't see this yet (and it has been lost in the mass that some friends pages can become) I'm reposting my Turkeyday invite
+
+---Original Entry---
+Hey everybody!
+
+I was just wondering if anyone would like to join me for a delightful dinner and movie evening this Holiday Monday? I feel a need to cook a nice dinner and do some light entertaining/hanging out. Menu TBA depending on who (if any) is available.
+
+Let me know!
+
+-Ciaran"
+"eventtime","2006-10-06 18:05:00"
+"url","http://cjchatwin.livejournal.com/5296.html"
+"userid","2939"
+"itemid","19"
+"event","Hey everybody!
+
+I was just wondering if anyone would like to join me for a delightful dinner and movie evening this Holiday Monday? I feel a need to cook a nice dinner and do some light entertaining/hanging out. Menu TBA depending on who (if any) is available.
+
+Let me know!
+
+-Ciaran"
+"eventtime","2006-10-05 23:35:00"
+"url","http://cjchatwin.livejournal.com/4975.html"
+"userid","2939"
+"itemid","18"
+"event","""Why is it that, as a culture, we are more comfortable seeing two men holding guns than holding hands?""
+- Ernest Gaines
+
+We would like to know who really believes in gay rights on LiveJournal. There is no bribe of a miracle or anything like that. If you truly believe in gay rights, then repost this and title the post as ""Gay Rights"". If you don't believe in gay rights, then just ignore this. Thanks."
+"eventtime","2006-10-05 21:43:00"
+"url","http://cjchatwin.livejournal.com/4705.html"
+"userid","2939"
+"itemid","16"
+"event","Well the party went really well, an all LJ crew of folks were in attendance. <lj user=darkarts777>, <lj user=misslynx>, <lj user=taikakettu>, and <lj user=the_moogie>
+
+Party started off slow at first, Moogie showed up around 9 we sat and chatted, talked about my life mostly. Lynx and Kettu showed up next, at which point my awesome spread was the focus of much attention. Kettu seemed to fall in love with my guacamole, which means I must remember to make it again for her as well as my Deviled Eggs (my secret to not putting sugar in them is to use balsamic vinegar which has a slightly sweet taste naturally)and last in was Darkarts. We pretty much spent the night just talking and hanging out, which I enjoyed immensely. It's nice being in a place where a party does not denote drinking to the point of stupidity and vomiting but instead discussion of books, food, music and politics. (side note: My parents are right, I'm a 40 year old twenty something)
+
+I'm going to start voice lessons with Darkarts in a couple of weeks, which I'm really looking forward to.
+
+So yeah that's everything that's new with me.
+
+Oh and <lj user=sgeimh_solais> is Thanksgiving monday going to work for you with TV delivery?"
+"eventtime","2006-10-01 19:10:00"
+"url","http://cjchatwin.livejournal.com/4166.html"
+"userid","2939"
+"itemid","14"
+"event","Hey folks!
+
+EDIT: Okay the response I'm getting via email and here is that Saturday night would work better for people, so start showing up around 8:30 and we shall have fun!
+
+so get back to me with your RSVPs!
+
+-Ciaran"
+"eventtime","2006-09-25 23:41:00"
+"url","http://cjchatwin.livejournal.com/3759.html"
+"userid","2939"
