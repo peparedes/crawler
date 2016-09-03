@@ -1,0 +1,148 @@
+"names","values"
+"itemid","5"
+"event","<i>Guess I could write another email telling you exactly what is wrong, while I have time.
+This weekend is what is wrong.
+Yeah, I can perfectly understand you wanting to go out Friday night. Just like I didn't mind you having other plans this Saturday gone. But the fact that you're going out ""to get drunk"" (your words) I don't like. The fact that you haven't been out for a while, so therefore you need to act like a fool, is what hurts.
+And then Saturday. You get a free house and you think ""house party"" first. The concept of ""us"" doesn't even come into it. You'd rather have a drunken teenage house party than spend time with me, even though you know I hate you getting drunk anyway, it's the only opportunity we're gonna have to spend time like that for a while, and that you've already been to a party the night before.
+Seems kinda selfish.
+You told me last time we talked aboutthis, tears in your eyes, that you hated seeing me upset. Well, you don't seem to like doing anything about it.
+Your whole attitude to life, ""fun"", and most importantly, <u>US</u>, sucks Natalie.
+And if it's staying like that, we're over.<i>"
+"eventtime","2005-12-05 21:37:00"
+"current_moodid","2"
+"url","http://x-chip-x.livejournal.com/1471.html"
+"userid","17023"
+"itemid","6"
+"event","I'm not one for reminiscing on the past often, but for some reason this evening I stopped and thought about all the times ""it could have been"". It was probably the Yellowcard song that came on on my iPod.
+
+Oh how I miss those times. It actually managed to choke me up, thinking about it.It may sound really bad talking about all past loves in the same journal entry, but each person was special, each person made me laugh and cry during our times together, each girl I loved, and each girl I lost.
+
+Some songs remind me of certain people. Songs that I can hardly listen to anymore, songs that can make me stop whatever I'm doing and smile because of the memories I have. No matter where I am, or who I'm with, or what I'm doing, these songs hit home. Hard.
+
+Yellowcard - Empty Apartment
+Vanessa Carlton - A Thousand Miles
+Blink 182 - Adam's Song
+Blink 182 - I Miss You
+Angel City - Do You Know
+Lonestar - Amazed
+
+I'm going to stop writing now, and sit and think of times I've had, experiences I've loved, and amazing people I'll remember forever."
+"eventtime","2005-12-04 20:45:00"
+"current_moodid","68"
+"url","http://x-chip-x.livejournal.com/1696.html"
+"userid","17023"
+"itemid","4"
+"event","Gah!
+
+So I go to set up the PA system for the French GCSE mock exams today, and all the sound equipment has been taken. And when I say all, I mean <i>all</i>.
+
+Turns out there's some Xmas Caroling being done in the mall today, and they found it necessary to take every single mixing desk, tape player and XLR cable in the whole school. I come back from my lunch at 2pm, go to the sound cupboard, only to find it totally bare. The exam starts in 15 minutes.
+
+Luckily, I managed to bodge job it by plugging a Tape-to-CD Burner straight into an amplifier with a whole load of various adapters that change my cable from Jack, to composite, to phone, and eventually to XLR. They have no EQ control on the ""tape player"" or the amplifier, but it's the best they're getting.
+
+Those carol singers had better be good.
+
+On a better note, the lunch I was on before the nightmare was good. Spent it in the garden centre cafe with Natalie having a laugh. We'll glance over the fact that I extended my lunchbreak (double the length) without authorisation.
+
+Oh, I have a tricky decision to make this afternoon/evening too. I have the choice of:
+
+(a) Going to my younger brother's and sister's Xmas fair with the family and stand about playing hook-a-duck until 7pm, or
+
+(b) Going back home to a (free) house with Natalie and ""enjoying"" the quiet.
+
+Darn, I really don't know...?!"
+"eventtime","2005-12-02 14:24:00"
+"current_moodid","5"
+"url","http://x-chip-x.livejournal.com/1244.html"
+"userid","17023"
+"itemid","3"
+"event","Surprising eh?
+
+Finally decided that it may be useful to start learning a programming code, so I popped over to w3schools.com and led my way through the ASP and ADO tutorials. Kinda fun, and productive, finally getting something on the page other than a ADODB error! Here it is, my first script in all it's glory:
+
+<i><%
+set conn=Server.CreateObject(""ADODB.Connection"")
+conn.Provider=""Microsoft.Jet.OLEDB.4.0""
+conn.Open ""d://wwwsites/support/matt/150186/150186.mdb""
+
+name=Replace(name,""'"",""''"")
+email=Replace(email,""'"",""''"")
+mobile=Replace(mobile,""'"",""''"")
+
+if name<>"""" or email<>"""" or mobile<>"""" then
+sql=""INSERT INTO 150186 (Name,Email,Mobile) VALUES ('""& Name & ""','"" & Email & ""','"" & Mobile & ""')""
+conn.Execute sql,recaffected
+end if
+
+set rs = Server.CreateObject(""ADODB.recordset"")
+rs.Open ""SELECT Name,Email,Mobile FROM 150186"", conn
+
+do until rs.EOF
+for each x in rs.Fields
+Response.Write(x.value & ""&lt;br /&gt;"")
+next
+rs.MoveNext
+Response.Write(""&lt;br /&gt;"")
+loop
+
+rs.close
+conn.close
+%></i>
+
+Oh, how I'm proud. All it does is pull information from a database that a previous form has written to, and display it on the page below the form. Has slight error-prevention though: it replaces a ' with '' so apostrophes display, and also doesn't submit data if one of the fields isn't filled in.
+
+I'm so proud! Be proud of me too, dammit!"
+"eventtime","2005-12-02 09:37:00"
+"current_moodid","59"
+"url","http://x-chip-x.livejournal.com/970.html"
+"userid","17023"
+"itemid","2"
+"event","Yeah, it ended. And it's upsetting. But I'm not gonna go and cut myself over her, or cry, or get depressed, Life is a temporary thing, and love can be too. It was definitely love, there's no denying that. But hardly anything lasts, and I'm used to it. I'm going to make the most of every opportunity I get, rather than just throw all to one side as pointless. I'm going to miss her, and I'm glad I have photos and emails. It's not scars that remind us the past is real, it's memories. We'll meet again one day, and we'll both be happy in our own lives then. If we want to be friends, and get back in each other's lifes some way, I look forward to it. If not, have a good life, stay safe, stay innocent, and I'll never forget you.
+
+*raises glass* To the future..."
+"eventtime","2005-11-30 17:01:00"
+"current_moodid","63"
+"url","http://x-chip-x.livejournal.com/543.html"
+"userid","17023"
+"itemid","1"
+"event","Whey, it's 01.42am and I've decided to go and download a huge file! Guess I have 30mins or so free to write in ma bloggie.
+
+You know, part of me knows I wont get up in the morning if I go to bed this late, and part of me knows I won't make it through tomorrow if I pull an all nighter. Decisions, decisions... it's what life's all about, isn't it?
+
+<i>8% downloaded...</i>
+
+My little rant for the day:
+
+<b>""Why Bother?""</b>
+
+Yeah, I read it. Part of me wishes I could curl up and die. All this time you've been building up my trust and security again, but now you've blown it all away. If you are something, or someone's, why not act it? What's to be ashamed of? I don't know why I go about forgiving... all you do is get let down again. And again.
+
+<i>20% downloaded...</i>
+
+Why bother trying to be happy? Your life is in a state, and the one faint glimmer of hope just turned off the lightswitch to your life. Do you even know how much I care? Oh how I wish you could care the same. I miss you already, and you haven't even gone anywhere - you're sleeping, blissfully unaware to my feelings. But blissfully aware of what you said, and how much it would hurt me to see it.
+
+<i>37% downloaded...</i>
+
+Why bother loving? If it's material, you gain nothing. If it's personal, you just end up seeing the bad in them. So much good in you, so much more we could be, yet every day I get shot in the heart. What did I do to deserve this? All I want to do is be yours. Oh, except from making you happy. I want to do that too.
+
+<i>48% downloaded...</i>
+
+Why bother writing this blog? I wanted it to be a collection of treasured memories, I could keep forever. I never wanted this to plague my mind so badly I can't think of anything else. Now you've ruined it. I hope you haven't ruined us. I'd give my life for you. Yeah, I would. And you can't even give up one thing for me. You know what it is. I want to see you. I want to talk to you. I want to know you. I want to know how you feel, why you feel it, if you feel how I do.
+
+<i>60% downloaded...</i>
+
+Why bother caring? Yeah, it's appreciated at the time, but it'll all be forgotten at a convenient moment. It'll all be thrown back in your face. Possessive. Untrusting. Let... me... breathe. Dammit, I can hear you saying those words already. Maybe I'm being harsh, or unfair, or both. If so, I'm sorry.
+
+<i>71% downloaded...</i>
+
+Sorry. That word you always want to hear. But never do. It's always an excuse, or an explanation, or an argument. Dammit, I know what I read. I know what you said. I know how I feel. Just trust me on this one; you're not always right. It's all about give and take. Love, and be loved. I love you... how many times have I heard those words? Love is more than an emotion, you know that. I know that. Yet do we say ""I love you"" because we got emotional? Or because we mean it? I can honestly say, with all my heart, I mean it. It's all I have to get me through the day. Caffiene won't do it, laughing won't do it, job satisfaction won't do it. Knowing I love something as precious as you will do it. I'm still not sure how I survived before.
+
+<i>88% downloaded...</i>
+
+I wish you could see me now. No, I wish you could see inside me now. In my heart. In my soul. And all you'll see is pictures of you. You're all I think about. I don't know what to write now. Let me know how you feel. No, let me know how you feel. Don't whisper sweet nothings to me, I need to feel it. This isn't the end. This is the beginning. This is everything you'd ever dreamed of, as long as you show me you want it. Why bother? Because I love you. That's why <i>I</i> bother.
+
+<i>100% downloaded.</i>"
+"eventtime","2005-11-29 01:42:00"
+"current_moodid","38"
+"url","http://x-chip-x.livejournal.com/392.html"
+"userid","17023"

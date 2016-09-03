@@ -1,0 +1,1014 @@
+"names","values"
+"itemid","51"
+"event","VW5saWtlIG1hbnkgb2YgbXkgc3RvcmllcyB0aGlzIG9uZSBkb2VzIG5vdCBiZWdpbiBpbiB0aGUgbWlkZGxlLiBJbnN0ZWFkLCBJIGFtIHZlbnR1cmluZyBpbnRvIG5ldyB0ZXJyaXRvcnkgYnkgc3RhcnRpbmcgYXQgdGhlIGJlZ2lubmluZyBvZiBhbGwgcmVsZXZhbnQgaW5mb3JtYXRpb24uIERhd24gc2hvdCBmaXNzdXJlcyBvZiBsaWdodCBhY3Jvc3MgdGhlIHNreSBhcyB0aGUgaGlsbHMgYmVjYW1lIG91dGxpbmVzIGJhY2tlZCBieSB0aGUgcHVyZSB3aGl0ZSBvZiBhIG5ldyBkYXnigJlzIHN1bi4gU2FkbHkgdGhlIGdsb3J5IG9mIGFsbCBleGlzdGVuY2Ugd2FzIG9mIGxpdHRsZSBjb25jZXJuOyBpbnN0ZWFkLCBteSBmb2N1cyB3YXMgZGV2b3RlZCB0byB0aGUgbWlzc2lvbiBhdCBoYW5kLiBOYW1lcyBhcmUgbm90IGltcG9ydGFudCBidXQgSSBvZnRlbiBnbyBieSBUaWZmeSwgY2FsbCBtZSB0aGF0IGlmIHlvdSBtdXN0LiBTb21lIG9mIHlvdSBtYXkga25vdyBteSBsaW5lIG9mIHdvcmssIGJ1dCBpZiBub3QsIHlvdSBkb27igJl0IG5lZWQgdG8sIGxldOKAmXMganVzdCBzYXkgSSB3b3JrIGluIOKAnHNoaXBwaW5n4oCdIGFuZCBsZWF2ZSBpdCBhdCB0aGF0LiBJIHJlY2VpdmVkIG15IG5ldyBjb250cmFjdCBvbiB0aGUgbWlkbmlnaHQgb2YgYSBzbGVlcGxlc3MgZGF5IGp1c3QgaG91cnMgcHJldmlvdXMsIGFuZCBpdCB3YXMgbm8gcGljbmljLiBJIGNvdWxkIGhhdmUgYmVlbiBhIGJhbmtlcuKApi4gV2UgYXJlIHdobyB3ZSBjaG9vc2UgdG8gYmUgYW5kIEkgYW0gd2hhdCBJ4oCZdmUgY2hvc2VuIHRvIGJlLCBzbyBlbm91Z2ggd2l0aCByZWdyZXRzLiBQYWNraW5nIHVwIHN1cHBsaWVzIEkgd291bGQgbmVlZCBJIHN1aXRlZCB1cCBhbmQgcmV2dmVkIHVwIG15IGJpa2UuIEl0cyBncm93bCB3YXMgbmVhcmx5IGFzIG9taW5vdXMgYXMgdGhlIG1vcm5pbmcgc2lsZW5jZSB0aGF0IGl0IHdhcyBkaXN0dXJiaW5nLiBUaGlzIGNvbnRyYWN0IHdhcyBsZWFndWVzIGFib3ZlIHRoZSBkZW1lYW5pbmcgam9icyB0aGF0IGhhZCBiZWVuIG15IGxpZmXigJlzIGJyZWFkIGZvciB0aGUgcGFzdCBmZXcgbW9udGhzIOKAnGhvcGUgSeKAmW0gbm90IG91dCBvZiBwcmFjdGljZeKAnSBJIHRob3VnaHQgYXMgdGhlIHJvYWQgYmVsb3cgbWUgbWVsdGVkIGludG8gZmxvd2luZyBsaW5lcyBzdXJyb3VuZGVkIGJ5IGEgYnJva2VuIHJlYWxpdHkuIEkgY291bGQgZmVlbCBteSB0cnVzdHkgY29tcGFuaW9uIGNsaXBwZWQgb250byBteSBiZWx0IHByZXNzZWQgaW4gYnkgaGVhdnkgcmlkaW5nIGdlYXIgdGhhdCB3b3VsZCBzZXJ2ZSBhbm90aGVyIHB1cnBvc2UgY2xvc2VyIHRvIHRoZSBqb2IuIFRocmVlIGhvdXJzIG9mIHJpZGluZyBnaXZlcyB5b3Ugd2F5IHRvbyBtdWNoIHRpbWUgdG8gdGhpbmsuIFRocmVlIGhvdXJzIG9mIHJpZGluZyBhbHNvIHNlZW1zIGFsbCB0b28gc2hvcnQgd2hlbiByaWRpbmcgaW50byBkYW5nZXIuIEFuZCBsaWtlIHRoZSBmbGl0IG9mIGEgaHVtbWluZ2JpcmTigJlzIHdpbmdzIHRoZSB0aW1lIGhhZCBwYXNzZWQgYW5kIEkgd2FzIGF0IHRoZSB0YXJnZXQgZmFjaWxpdHnigKYuIFdhbC1NYXJ0LiBBZnRlciBzdHJhcHBpbmcgbXkgaGVsbWV0IHRvIG15IGJpa2UgSSBmaWd1cmVkIHRoYXQgSSBoYWQgYWJvdXQgMiBtaW51dGVzIGJlZm9yZSB0aGVpciBzZWN1cml0eSB0ZWFtcyB3b3VsZCBtb3ZlIG9uIHRoZSBpbWFnZXMgZmVkIHRvIHRoZW0gYnkgdGhlIGlubnVtZXJhYmxlIGVsZWN0cm9uaWMgZXllcyBwZWVyaW5nIGluIGFsbCBkaXJlY3Rpb25zIGZyb20gdGhlaXIgY29udGVtcHRpYmxlIGZhY2lsaXR5LiBLZWVwaW5nIHRoYXQgaW4gbWluZCBJIGFjdGVkIG9uIG15IGZpcnN0IGluc3RpbmN0IGFuZCB3YWxrZWQgcmlnaHQgdGhyb3VnaCB0aGUgZnJvbnQgZG9vci4gQSBncmVldGVyIGNsYXNzIGJsdWUgdmVzdCBtZXQgbWUganVzdCBpbnNpZGUgb2ZmZXJpbmcgdG8gYnJhbmQgbWUgd2l0aCB0aGVpciByb3VuZCB5ZWxsb3cgaGVsbG1hcmsuIEkgcmVmdXNlZCBmaXJtbHkgYnV0IGtpbmRseSwgbm8gbmVlZCB0byBkcmF3IHN1c3BpY2lvbiB0aGlzIGVhcmx5LiBUaGlzIGNvbnRyYWN0IHdhcyBub3QgdGhlIHN0YW5kYXJkIGRlY2ltYXRpb24gYXMgaXMgY29tbW9ubHkgcmVxdWVzdGVkLiBUaGlzIHdhcyB0aGUgdGFjdGljYWwgY2FwdHVyZSBvZiBhIGhpZ2ggcmFua2luZyBmYWNpbGl0eSBvZmZpY2lhbC4gTXkgZW1wbG95ZXJzIHdhbnRlZCB0byBzdHVkeSB0aGUgY3JlYXR1cmUgaW4gYSBob3BlIHRvIGxlYXJuIG1vcmUgYWJvdXQgdGhlaXIgZW5lbXkuIEkga25ldyBJIHdhcyBsb29raW5nIGZvciBhIGJ1dHRvbmVkIGJsdWUgdmVzdCwgdGhlIHRlbGwgdGFsZSBtYXJrIG9mIGEgZmlyc3QgY2xhc3Mg4oCcTWF5LW5pLWdhcmnigJ0gd2Fycmlvci4gVGhleSBoYWQgY2F1c2VkIG1lIHRyb3VibGVzIGJlZm9yZSwgb2Z0ZW4gcmVtb3ZpbmcgbWUgZnJvbSB0aGVpciBmYWNpbGl0aWVzIHVwb24gc3VzcGljaW9uIGJlZm9yZSBteSBtaXNzaW9uIGNvdWxkIGJlIGNvbXBsZXRlZDsgbm93IGl0IHdhcyBteSBqb2IgdG8gcmVtb3ZlIG9uZSBvZiB0aGVtLiBUaGUgYnJva2VuIGNvcnJpZG9ycyBvZiBzdXBwbGllcyBvZnRlbiBiZW5kIHRoZSBtaW5kcyBvZiBjaXZpbGlhbnMgbG9zdCBpbiB0aGVpciBlbmRsZXNzIHJvd3MsIGJ1dCBJIGtuZXcgYWxsIHRvbyB3ZWxsIHdoYXQgbXVzdCBiZSBkb25lLiBJIGhhZCB0byBjYXVzZSBhIGNvbW1vdGlvbiB0byBkcmF3IG91dCB0aGUgaGlnaCB3YXJyaW9yLiBJIGhlYWRlZCB0byB0aGUgQ0Qgc2VjdGlvbiBhbmQgY292ZXJ0bHkgcHVsbGVkIG91dCBteSBtaW5pIHByaWNpbmcgZ3VuLiBJIGNoYW5nZWQgdGhlIHByaWNlIG9mIFNoYWtpcmHigJlzIG5ldyBDRCBLYXJhb2tlIENhbnRhIENvbW8gZnJvbSAkMTkuOTUgdG8gJDE5Ljk0OyBpdOKAmXMgYSBzbWFsbCBjaGFuZ2UsIGJ1dCBlbm91Z2guIE1vdmluZyBzd2lmdGx5IGFyb3VuZCBhbiBvbGQgbGFkeSBwZWVyaW5nIGJsYW5rbHkgaW50byBhIHZpZGVvZ2FtZSBkaXNwbGF5LCBJIGFwcHJvYWNoZWQgdGhlIHNtYWxsIGNoZWNrb3V0IGNvdW50ZXIgbG9jYWwgdG8gdGhpcyBhcmVhLiBUaGUgYmx1ZSB2ZXN0ZWQgaGFycHkgcGlwZWQgdXAsIOKAnE1heSBJIGhlbHAgeW91P+KAnSBpbiBoZXIgc29ub3JvdXMgdG9uZXMuIOKAnFlvdSBjb3VsZCBoZWxwIG1lIGJ5IERJRUlORyBGT1dMIFNQQVdOIE9GIExVQ0lGRVIh4oCdIEkgd2FudGVkIHRvIHNjcmVhbSB3aXRoIGFsbCBteSBoZWFydCwgYnV0IEkgaGVsZCBiYWNrLCB0aGVyZSB3b3VsZCBiZSBhIHRpbWUgZm9yIHRoYXQuIFRhY3RmdWxseSBJIHJlcGxpZWQg4oCcanVzdCB0aGUgQ0QsIHRoYW5rcy7igJ0gT2ggaG93IGl0IGh1cnQuIEFzIHNoZSByYW5nIGl0IHVwIEkga25ldyBteSBwbGFuIHdhcyB3b3JraW5nIHdoZW4gdGhlIGRpc3BsYXkgcmVhZCDigJxjcmFwcHkgQ0QgLSAkMTkuOTXigJ0gb25lIGNlbnQgdG9vIG11Y2ghIFNoZSBhc2tlZCBob3cgSSB3b3VsZCBiZSBwYXlpbmcuIEkgZGlkIG5vdCB3YW50IHRvIHJpc2sgYW4gb3V0YnVyc3Qgc28gSSBzaW1wbHkgaGFuZGVkIGhlciBhIHR3ZW50eSBkb2xsYXIgYmlsbC4gQXMgc2hlIGhhbmRlZCBtZSBhIG5pY2tlbCBvZiBjaGFuZ2UgSSBzcHJhbmcgaW50byBhY3Rpb24gYnkgc2NyZWFtaW5nIOKAnFdIQVQgVEhFIEJMT09EWSBGKioqSU5HIEhFTEwgWU9VIEIqKioqIeKAnWF0IHRoZSB0b3Agb2YgbXkgbHVuZ3Mgd2hpbGUgZmxhaWxpbmcgYWJvdXQuIEhlIHNob2NrIHdhcyBldmlkZW50IGFzIHNoZSBibGFua2x5IHN0YXJlZCBhdCBtZSBob2xkaW5nIHRoZSBuaWNrZWwuIOKAnElUIFNBWVMgJDE5Ljk0IFdIRVJF4oCZUyBNWSBQRU5OWT/igJ0gSSBzaG91dGVkIHdoaWxlIGZyYW50aWNhbGx5IHJpcHBpbmcgdGhpbmdzIGZyb20gdGhlaXIgY29sb3JmdWwgZGlzcGxheXMgYW5kIHVyaW5hdGluZyBvbiBhIHN0YWNrIG9mIHVuc29sZCBQUzNzLiBTaGUgd2FzIHN0aWxsIG5vdCBnZXR0aW5nIHRoZSBtZXNzYWdlIHNvIEkgbHVuZ2VkIGFjcm9zcyB0aGUgY291bnRlciwganVzdCBhcyBJIGhhZCBiZWVuIHRyYWluZWQsIGFuZCBsYW5kZWQgYSByaWdodCBob29rIHRvIGhlciBvdmFyaWVzLiBOb3cgSSBoYWQgaGVyIGF0dGVudGlvbiDigJxBUkUgWU9VIEZVQ0tJTkcgSU5TQUlOR04/4oCdIHNoZSBzaG91dGVkIGF0IG1lIGFzIHNoZSBncmFiYmVkIGhlciByYWRpbyBhbmQgY2FsbGVkIGZvciBhIG1hbmFnZXIuIFN1Y2Nlc3MhIFRvbyBrZWVwIHVwIGFwcGVhcmFuY2VzIEkgY29udGludWVkIHRvIGZsYWlsIGFib3V0IGFuZCB1cmluYXRlIG9uIHZhcmlvdXMgdGhpbmdzIHVudGlsIHRoZSBtYW5hZ2VyIHNob3dlZCB1cC4gSGUgY2hvc2UgZGlwbG9tYWN5IGluc3RlYWQgb2YgYmVnaW5uaW5nIGNvbWJhdCByaWdodCBvdXQg4oCcZXhjdXNlIG1lIHNpciwgaXMgdGhlcmUgYSBwcm9ibGVtP+KAnSBJIHdvdWxkbuKAmXQgbWFrZSB0aGUgc2FtZSBtaXN0YWtlLiBJIHRocmV3IGEgaGFuZCBmdWxsIG9mIGlQb2Qgc2h1ZmZsZXMgYXQgaGltIHRvIGRyYXcgaGlzIGF0dGVudGlvbiBhbmQgdGhlbiBjbG9zZWQgaW4gdG8gZW5kIHRoZSBtaXNzaW9uLiBNeSBzcGVjaWFsIHRyYWluaW5nIGZsYXNoZWQgdGhyb3VnaCBteSBtaW5kIGFuZCBJIGtuZXcgaG93IHRvIGVuZCB0aGlzIHF1aWNrbHkuIEFmdGVyIGZpdmUgc3dpZnQgcHVudCBraWNrIHRvIGhpcyBncm9pbiBoZSB3YXMgZG93biwgYW5kIHRvIHRoaW5rIHRoZXNlIGFyZSB0aGVpciBncmVhdGVzdCB3YXJyaW9yc+KApi4gSSBzbHVuZyBoaW0gb3ZlciBteSBzaG91bGRlciBhZnRlciBnaXZpbmcgdGhlIGhhcnB5IG9uZSBsYXN0IHB1bmNoIHRvIHRoZSBvdmFyaWVzLiBUaW1lIHdhcyBsaW1pdGVkLCB0aGUgYmxhY2sgZXllcyB0aGF0IGRvdHRlZCB0aGUgc2t5IGluIHRoaXMgZmFjaWxpdHkgZGlkIG5vdCBtaXNzIG11Y2guIFRoZSBmcm9udCBvZiB0aGUgZG9vciB3YXMgc2lnaHQgYmVmb3JlIGFueSBzaWduIG9mIOKAnHNlY3UtdGFyaeKAnSB3YXJyaW9ycyBjb3VsZCBiZSBzZWVuLiBJIGJsZXcgdGhlIHdhdGVyIGJvdHRsZXMgZmlsbGVkIHdpdGggZ2VsbGVkIGV4cGxvc2l2ZXMgSSBoYWQgbGVmdCBieSB0aGUgZG9vci4gTm90IGEgc2luZ2xlIFNlY3UtdGFyaSB3YXMgcmVhZHkgZm9yIHN1Y2ggc3dpZnQgYWN0aW9uLCBuZWl0aGVyIHdoZXJlIGFueSBzdGFuZGluZyBhZnRlciB0aGUgYmxhc3QsIHdoaWxlIEkgd2FzIHByb3RlY3RlZCBieSBteSBoZWF2eSBqYWNrZXQuIFNwcmludGluZyBvdmVyIHRoZSBydWJibGUgYW5kIHRvd2FyZHMgbXkgYmlrZSBJIHNsdW5nIHRoZSBoYXBsZXNzIG1hbmFnZSBvdmVyIHRoZSBiYWNrLiBIZSB3YXMgYnkgbm93IHJlZ2FpbmluZyBjb25zY2lvdXNuZXNzIGFuZCByYWlsaW5nIGFib3V0IHNvbWUgb25lIGJlaW5nIOKAnEYqKipJTkcgSU5TQUlHTuKAnSBidXQgSSBrbmV3IHRoaXMgd2FzIHNpbXBseSBjb2RlIHRvIGNhbGwgZm9ydGggbW9yZSByZS1lbmZvcmNlbWVudHMuIFRvIHB1dCBoaW0gb3V0IEkgcHVuY2hlZCBoaW0gaW4gdGhlIGdyb2luIGEgZmV3IG1vcmUgdGltZXMuIEkgZHJvcHBlZCBvbiBteSBoZWxtZXQsIGZsaWNrZWQgdGhlIGtleSBhbmQgbXkgYmlrZSBidXJzdCB0byBsaWZlLiBPbmNlIG91dCBvZiB0aGUgcGFya2luZyBsb3QgSSB3ZW50IHRvIGEgbmVhciBieSBuYXRpb25hbCBmb3Jlc3QgYW5kIHRpZWQgdGhlIG1hbmFnZXIgbmFrZWQgdG8gYSB0cmVlIDMgbWlsZXMgaW4uIE15IHN1cGVyaW9ycyB3b3VsZCBwaWNrIGhpbSB1cCBpbiBhIGRheSBvciB0d28uIEJhY2sgdG8gdGhlIHNhZmUgaG91c2UsIG1pc3Npb24gYWNjb21wbGlzaGVkLiANCg0KVGhpcyB3YXMgeWV0IGFub3RoZXIgc3VjY2Vzc2Z1bCBtaXNzaW9uLCBidXQgZG8gbm90IGdldCBvdmVyIGNvbmZpZGVudCwgdGhlIHRocmVhdCBpcyBzdGlsbCBvdXQgdGhlcmUgYW5kIGFsbCB0b28gcmVhbC4gUGxlYXMgam9pbiBtZSBieSBkb2luZyBhbGwgeW91IGNhbi4NCg0KLSBUaWZmeSB0aGUgaHVudGVy"
+"eventtime","2007-07-26 08:56:00"
+"current_moodid","90"
+"url","http://hunlerzfang.livejournal.com/13129.html"
+"userid","6553"
+"itemid","50"
+"event","man, I've been away for quite some time now, and finals are just around the corner. so, I bring to you stories, poems and general good will! First the story!
+
+Intimidating, not a word that I usually think describes me, but apparently other's think it does. Yet another boring day is scraping its second long tendrils into the edges of my brain as the moments ticked passed. The level of conversation was higher than normal and for some reason the teacher was out of the room, the conversation turned to home schoolers (though none of them knew my own, home school, origins) and how they are less than human. Slowly, the jocular conversation turned on Joe, a 16yr old home schooler that always seems a little timid. Joe was receiving a few verbal pokes and prods that where getting to be less and less ""in good fun"" so I decided to pipe up and throw my opinion out there. I spoke above the general din: ""woh woh now, before you continue bashing HS'ers I want you all to know that I'm a home schooler and proud of it, you mess with Joe and you're messing with me."" As that, the conversation ended and moved on. after class a girl that has a crush on me, approached and said ""that was really cool, I've never seen an English class so freaked out, you where oddly intimidating"" intimidating, now that I think about it, I suppose I am. The thoughtful 6""2' bearded motorcycle rider with a black scarf on, intimidating. huzzah for yet another adjective I can tack onto my name!
+
+- Tiffy the Intimidationist.
+
+<b>Poetryz!</b>
+
+<b>Happy insane</b>
+peace and release in pain.
+the happy insane.
+the source and the end.
+of what we defend.
+with our lives and our minds.
+what we can find.
+makes us blind.
+and un-winds
+our resolve
+and dissolves
+our peace and release in our infernal pain.
+these are the words of the happy insane.
+
+<b>Circle of love</b>
+Peace and release in pain.
+Pain and restraint insane.
+Thought and mind inane.
+Heart and soul inflame.
+Glory and honor proclame.
+Sight and touch distane.
+Careing and true love fain.
+tears and sad love rain.
+Peace and release in pain.
+
+<b>The Jumper</b>
+hey look down, can you see it?
+do you know how it sounds?
+you're just seconds away from the Cerberus hounds
+have you ever been up here?
+you can see round for miles.
+you're just seconds away from the end of these trials.
+that is your life, many stories below
+slowly, so slowly, will the red trickles flow.
+you're just seconds away from what haides can show.
+seeing the sky, with a few streaks of white.
+wretching and coughing, simply breathing takes might.
+you're just seconds away from the deep lake of blight.
+eyes drink you in as you put on your show.
+they all want to know you, in a pool of your glow.
+you're just seconds away from from where all men must go.
+but then comes the fear, like a coward you cry.
+your moment of glory is the second you die.
+you're just seconds away from the answer to ""why?""
+
+<b>Streamers</b>
+Wading through the streamers of vanity fair, happiness lost in the name of pleasure.
+streams of time lead to pools of memories, yours are muddied with the stirrings of pennie.
+make a wish for her with her, discarding her away with the hope that she will return.
+Vanity taken for Vanities', pennies thrown for pennies, happiness lost for rotten pleasure.
+keep your pennies in your pockets with your lockets and your soul.
+Leave your streamers in your city with your pity and your tole.
+pay the price for living with the span of your toil. 
+life long forgotten and you have a new roll.
+""STOP!"" cries the widow with the platinum ring.
+still with the tender, but lacking in grace.
+she has 4 score and 7 deeply etched on her face.
+But slow to down I can't, I must march ever on.
+very merry moments always potent, fortunent that you are spent.
+time lent must return and in urning burn without light or warmth.
+stop my friends.
+simply listen.
+(this was a diversion from my style of poetry, but i fell asleep at my computer and when I woke up it was on my screen. it may not have a standard meeter, but for some reason it seems interesting to me.)
+
+Till my next submission - Tiffy"
+"eventtime","2007-05-02 23:01:00"
+"current_moodid","90"
+"url","http://hunlerzfang.livejournal.com/12833.html"
+"userid","6553"
+"itemid","48"
+"event","Hark my friends and listen well to the day I slipped down from heaven to dark depths of hell.
+when the darkness closed in all the holes in the sky, my mind moved my heart to the day I would die. 
+But my heart moved my mind to the day <i>he</i> would cry for the pain, for the drain, for the gripping distane of small shinny prick that had cut down his dreams, amidst the thrashing, the cries and his last mortal screams. 
+I am not evil, nor a wraith neither one, I cut not for pay or the will of another. 
+what can I say? He was my brother, he was my friend, he was kind, and my chum. 
+but because of that day, my will would not bend, through the words of the blind, his own fate would him find. 
+not a sound, not a crack, not a slice or a smack. 
+no noise could I make as his soul left the earth. 
+my voice kept it's quiet as my mortal soul cried, my voice kept it's quiet as my bleeding friend died. 
+yes, I was quiet though my heart was now pounding. 
+that's not speaking for him, for his cries where resounding, where astounding, quite confounding. 
+he was quiet quite soon as the skies took his mind, his heart stopped it's flutter and his eyes darkened blind. 
+A life years in making with a story ahead. 
+A life pushed to breaking by the morality shed. 
+I wished for the death I had easily given, seeing no purpose to continue my living. 
+Lucifer came and he patted my back, congratulating me for rejoining his track. 
+hell come and take me from the death of my life. 
+heaven come break me for the sins of my knife. 
+Blood never leaves once it's entered your thoughts, tiny blots, tiny spots, tiny stains, a life of dieing, a life of pain. 
+and with that did I fall through the cracks of the earth. 
+chains and darkness, pains and death, salt for water sulfur for breath. 
+hell was all I expected from the faith I rejected and in every wall of my prison falling blood was reflected. 
+after second or years, thousand pains, million tears. 
+I looked to the sky where my friend's face was setting. 
+peaceful and happy only regretting the mistake I had made, for which in pain the price would be paid. but he called down to me it's ok for you see. ""I had Reeses for breakfast!""
+""what?"" I said, ""you can't have candy for breakfast!""
+""not candy,"" he replied, ""Resses peanut butter puffs cereal! it's like candy, for breakfast!""
+so we both had a bowl and went to school.
+
+Resses Puffs Cereal. it's like candy, FOR BREAKFAST!"
+"eventtime","2007-03-26 17:07:00"
+"current_moodid","9"
+"url","http://hunlerzfang.livejournal.com/12382.html"
+"userid","6553"
+"itemid","47"
+"event","<div style=""width:600px; border: 1px solid black; text-align:center; background-color:#FFD87F"">	<h2>The Everything Test</h2>	There are many different types of tests on the internet today. Personality tests, 	purity tests, stereotype tests, political tests. But now, there is <i>one test to rule them all</i>.<br /><br />	Traditionally, online tests would ask certain questions about your musical tastes or clothing for a stereotype, your experiences for a purity test, or deep questions for a personality test.We're turning that upside down - all the questions affect all the results, and we've got some innovative results too! Enjoy :-)<br /><br />	<table width=""550"" style=""margin-left:25px"">	<tr>		<td width=""100%"">			<table width=""100%"" style=""border:1px solid black; background-color:#FFECBF"">				<tr><td style=""text-align:center"" align=""center""><b>Personality</b></td></tr>				<tr><td style=""text-align:center"" align=""center"">You are more <b>logical</b> than emotional, more <b>concerned about others</b> than concerned about self, more <b>religious</b> than atheist, more <b>dependent</b> than loner, more <b>lazy</b> than workaholic, more <b>rebel</b> than traditional, more <b>artistic mind</b> than engineering mind, more <b>idealist</b> than cynical, more <b>leader</b> than follower, and more <b>extroverted</b> than introverted.<br /><br />As for specific personality traits, you are <b>outgoing</b> (100%), <b>innovative</b> (93%), <b>adventurous</b> (92%), <b>religious</b> (87%).</td></tr>			</table>		</td>	</tr>	</table><br />	<table width=""550"" style=""margin-left:25px"">	<tr>		<td width=""250"">			<table width=""100%"" style=""border:1px solid black; background-color:#FFECBF"">				<tr><td style=""text-align:center; border-bottom:1px solid black"" align=""center"" colspan=""2""><b>Stereotypes</b></td></tr>				<tr><td><b>College Student</b></td><td>82%</td></tr><tr><td><b>Punk Rock</b></td><td>67%</td></tr><tr><td><b>Geek</b></td><td>59%</td></tr>			</table>		</td>		<td width=""50"">&nbsp;</td>		<td width=""250"">			<table width=""100%"" style=""border:1px solid black; background-color:#FFECBF"">				<tr><td style=""text-align:center; border-bottom:1px solid black"" align=""center"" colspan=""2""><b>Life Experience</b></td></tr>				<tr><td><b>Sex</b></td><td>31%</td></tr><tr><td><b>Substances</b></td><td>0%</td></tr><tr><td><b>Travel</b></td><td>29%</td></tr>			</table>		</td>	</tr>	</table><br />	<table width=""550"" style=""margin-left:25px"">	<tr>		<td width=""250"" style=""border:1px solid black; background-color:#FFECBF"">			<b>Politics</b><br />			Your political views would best be described as <b>Conservative</b>, whom			you agree with around <b>54%</b> of the time.		</td>		<td width=""50"">&nbsp;</td>		<td width=""250"" style=""border:1px solid black; background-color:#FFECBF"">			<b>Socioeconomic</b><br />			Your attitude toward life best associates you with <b>Working Class</b>.			You make more than <b>0%</b> of those who have taken this test,			and <b>68%</b> less than the U.S. average.<br />		</td>	</tr>	</table><br />	<table width=""550"" style=""margin-left:25px"">	<tr>		<td width=""100%"" style=""border:1px solid black; background-color:#FFECBF"">			If your life was a movie, it would be rated <b>PG-13</b>.<br />			By the way, your hottness rank is <b>77%</b>, hotter than <b>50%</b> of other test takers.		</td>	</tr>	</table><br />	<a href=""http://www.thatsurveysite.net/take.php?id=eay"" style=""color:purple"">TAKE THE TEST</a><br />		<font size=""1"">brought to you by <a href=""http://www.thatsurveysite.net"">thatsurveysite</a></font>	<br /><br /></div>
+
+I'd say that's a pretty accurate test."
+"eventtime","2007-03-26 10:30:00"
+"url","http://hunlerzfang.livejournal.com/12091.html"
+"userid","6553"
+"itemid","46"
+"event","T2ssIHNvIEkgd2FzIGJvYXJkLCBJIGhhZCBhIGxvdCBvZiBmcmVlIHRpbWUsIGFuZCBqdXN0IGZpbmlzaGVkIGFuIEVuZ2xpc2ggY2xhc3MuIFRoYXQgaXMgbm90IGEgZ29vZCBjb21iaW5hdGlvbiAoZ29vZCBmb3IgeW91LCBub3QgZ29vZCBmb3IgdGhlIEVuZ2xpc2ggbGFuZ3VhZ2UpIG5vIG1hdHRlciBob3cgeW91IGxvb2sgYXQgaXQuIFRoZSByZXN1bHQgb2YgdGhpcyBjb21iaW5hdGlvbiBpcyB0aGUgZm9sbG93aW5nIGxpc3Qgb2Ygc2xvZ2FucyBhbmQgb3RoZXIgd2F5cyB0byBzYXkgdGhlbS4NCg0KU3lub255bW91cyBTbG9nYW5zOg0KDQo8Yj5QcmluZ2xlcyDigJMgT25jZSB5b3UgcG9wLCB0aGUgZnVuIGRvbuKAmXQgc3RvcCE8L2I+DQotIEFmdGVyIHlvdXIgZXhwbG9zaW9uIHlvdSB3aWxsIGV4cGVyaWVuY2UgZW5kbGVzcyBqb3khIChPYnZpb3VzbHkgYW4gSXNsYW1pYyBtZXNzYWdlKQ0KLSBEZXN0cnVjdGlvbiBsZWFkcyB0byBhIHBlcnBldHVhbCBjeWNsZSBvZiBwbGVhc3VyZSENCi0gUG9zdC1lamFjdWxhdG9yeSBlbnRlcnRhaW5tZW50IGlzIG5ldmVyLWVuZGluZyENCg0KPGI+TmlrZSDigJMgSnVzdCBkbyBpdC4gPC9iPg0KLSBXZSBjb21tYW5kIHlvdS4NCi0gU3RvcCB0aGlua2luZy4NCi0gUmFwZS4NCg0KPGI+TWMgRG9uYWxk4oCZcyDigJMgV2UgbG92ZSB0byBzZWUgeW91IHNtaWxlLjwvYj4NCi0gTWFuZGlibGVzIGJyaW5nIHVzIGpveS4NCi0gV2Ugc3VmZmVyIGZyb20gZGVuZGlwaGVsZWEuIChUb290aCBmZXRpc2gpDQotIFNIT1cgVVMgVVIgVEVFVEhTIQ0KDQo8Yj5TaGFrZSBhbmQgYmFrZSDigJMganVzdCBzaGFrZSBhbmQgYmFrZTwvYj4NCi0gV2UgZGVzY3JpYmUgdGhlIGpvYiBvZiB3b21lbiENCi0gUmF0dGxlIGFuZCBmcnkuDQotIERhbmNlIGFuZCBzbW9rZSBwb3QuDQoNCjxiPkFxdWFmaW5hIC0gTWFrZSB5b3VyIGJvZHkgaGFwcHkuIDwvYj4NCi0gRG8gZHJ1Z3MuDQotIE1hc3R1cmJhdGUuDQoNCkFuZCB5b3UgdGhvdWdodCB0aGUgc2xvZ2FucyB5b3UgaGVhcmQgd2hlcmUgaW5ub2NlbnQsIE5ldmVyIGFnYWluLg=="
+"eventtime","2007-03-22 22:30:00"
+"current_moodid","21"
+"url","http://hunlerzfang.livejournal.com/11819.html"
+"userid","6553"
+"itemid","45"
+"event","every one is doing it, so it must be cool. I'm opening the floor to 4 questions from each of you (yeah, like i wouldn't answer 5) any thing, and i do mean <i>anything</i> you've ever wondered about me, wanted to know, can think of to ask simply to embarrass me, etc.... in fact, I challenge you to come up with questions that you think I won't answer.
+
+1.
+
+2.
+
+3.
+
+4.
+
+after you've done that, here's a story!
+
+I am a recovered shy person, I am no longer shy but there was a time.... because of my former malady I know how shy peoples' minds work, and i know that they are not un-friendly most of them are actually very fun people that are just intimidated by situations. this story is one of a person that through a poor vocabulary had her shyness pushed to the limit and broken. 
+
+    It was a normal day. I was sitting in my English class, as I am every Monday morning at 8. being surrounded by girls/women that shoot me glances and the occasional wink is alway good for my ego but there is one that sat to my left that would never take part in our jocular classmate activities. All I had been able to squeeze out of her was that her name was Terri, she was new to the school, and didn't know many people. I did my best to include her in the fun, remembering my first semester. no matter what she was quiet and would never even crack a smile at any of my jokes or antics. finally one day the class was split into groups of five, my group consisted of every girl in the class, and me (the guys in the class formed a couple ""no girls"" clubs) the purpose of our small group was to do peer editing. everything went more or less as expected with only the occasional chuckle at miss-used word, or word of advice on a tricky sentence. That is, until we reached the middle of Terri's paper, it was about orphans or some such blather. She used the phrase ""these children are such outcasts that from a societal standpoint, they have been completely circumcised."" I had to stop her at this, ""are you sure you mean 'circumcised'?"" i asked, ""don't you mean 'ostracized'?"" she looked puzzled, ""no,"" she replied, ""I mean 'circumcised' like our dog was a stray, and we figured he had been circumcised by his family"" I was adamant, ""no"" I pushed, ""I'm quite sure the word you're thinking of is 'ostracized' it means cast out or removed"" she was a little flustered at being questioned like this ""well then what does 'circumcised' mean?"" she asked, with just a little note of ""I know this, I'm proud of my big word, and you're a nosy-know-it-all"" in her voice. So I told her flat out, ""circumcision is when they cut the foreskin off of the male genitals, 'ostracizing' is the act of casting some one, or something out."" a look of horror and recognition spread over her face, ""you mean..."" she paused, ""you mean when I told my brother I wanted to circumcise him it meant.... and our dog...."" her horror was reaching a point of no return, and I got the impression that she had been very proud of this word and had tried to use it as much as possible. but then an awesome thing happened, she started laughing, she had reached the point where she could either laugh or cry and she had gone in the right direction. The other girls in my group began laughing too, not at her, but honestly with her. (I got the impression that most of them didn't know either word and thusly where not <i>too</i> judgmental) To this day she has been more of an open person willing to laugh and I occasionally see her hanging out with the group of girls that had sheared her terribly embarrassing moment of realization. I still think about her threatening to circumcise her brother.... what a family."
+"eventtime","2007-03-12 21:25:00"
+"current_moodid","109"
+"url","http://hunlerzfang.livejournal.com/11639.html"
+"userid","6553"
+"itemid","44"
+"event","the first and second stories before this can be found on Hy Hy and Not Nots' pages respectivly.
+
+As the last blow fell and the last dieing soldier released his soul the world returned to silence. I would like to think that I, in some way, played a part in the battle that just rocked the foundations of this remote, god fearing village. my partner had gotten a few scratches during his fall from a horse, but I was more or less unscathed; as night fell we found rooms and undressed, each of them drifted off to sleep, but I felt quite empty. Happily, my emptiness was filled, as it always is, with the dawning of a new day and the promise of adventures to come. there was much bickering between the other flesh bags that followed us, but it amounted to little. I was happier than most to be riding rather than walking on our way to free the king from what ever enchantment was holding him. rolling trails, living woods, and 11 good friends. disguising ourselves (some more hastily than others) we decided on a plan (though I was notably left out of the discussion) infiltration and subterfuge where first on the docket, followed by murder, mutilation, and heroism (in that order.)  the series of events leading up to our slaughter of the mage controlling the king could have been carried out more quickly by a bunch of loafers than we where able to. the forest dwelling tree lover showed her first use of the natural magic of balance that they devote their lives to; oddly enough this came in the form of horribly scalding an innocent soldier. Casty-mic magic decided to take a nap during our final conflict. with a king saved, a wizard killed and decapitated, and a kingdom in our debt, I'd say that all in all, we kicked quite a lot of ass.
+
+P.S. the preceding story was told from the perspective of Jax Markell's left shoe, and will probably make a lot more since the second time through knowing that."
+"eventtime","2007-03-05 18:08:00"
+"url","http://hunlerzfang.livejournal.com/11477.html"
+"userid","6553"
+"itemid","43"
+"event","Man, sorry I haven't updated in a while, I've been busy without doing anything different. I suppose that's how accelerated classes go though.... I'm just letting you all know that I'm still alive. Other than that I will share a few stories that should at least be good for a chuckle.
+
+Those of you that have met me in person know that I will never shy from a good debate, you will also know that I'm not half bad at it. (I'm a master-debater) Well, within my family it is commonly known and accepted that if you want to bring up a point with me you had better be able to defend it high and low, even then I can disprove it, I just don't allow people to say things with out being able to back it up. all of that lead in brings us to last Sunday. I had told my mom and dad earlier in the week that I was going to go to the bike shop and get a new, full face, helmet for when I'm going on long rides, they said they would come with me and look too. On the way there  my mom was raging about how ""unfair"" the media was and how there wasn't enough ""fair"" coverage of current events. I was board so disproving this became my singular purpose for the next 20 minutes, by the time we got to the shop my mom was visibly fuming and said that I was going to make a wonderful lawyer. My dad (who is a very stony fellow) was actually laughing by the end of our discussion. My mom actually started calling me ""stupid"" and ""close minded"" I've never seen her crack like that; my verbal powers are truly becoming a force to be reckoned with.
+
+I think I may have told you about this once before, but I saw it again and nearly fell down laughing. our library and computer lab are on the second floor and because of construction in the library we only have one bathroom up there. any who, the handicapped stall was broken and there was a sign on it that would keep people from trying to bash the door in. the sign read: 
+
+""Handicapped stall out of order go down stairs. =)""
+
+it seems innocent enough until you think about what it is actually saying.... that stall is for handicapped people, as in, people in wheelchairs. telling a wheelchair ridden person to ""go down stairs"" is pretty much the same as saying ""go F*** your self"" it was good for a few laughs.
+
+<lj-cut text=""Info"">
+
+
+1) How old do you wish you were?
+I'm happy with my current age, none of that ""silver thread"" crap for me.
+
+2) Where were you when 9/11 happened?
+Home, My mom woke me up and was all freaked out. I pointed out that worrying wouldn't change anything. (I was 12)
+
+3) What do you do when vending machines steal your money?
+If it is the right type i use the vending machine hacking code to get free stuff.
+
+4) Do you consider yourself kind?
+hell yes.
+
+5) If you had to get a tattoo, where would it be?
+black/blue wrings around my writs.
+
+6) If you could be fluent in any other language, what would it be?
+Chinese, I could go live like a king.
+
+7) Do you know your neighbors?
+yep, most of them think I'm crazy.
+
+8)What do you consider a vacation?
+anything longer than a week end where I don't have work/shool
+
+9) Do you follow your horoscope?
+Nope, but I know my sign, I'm a Gemini mofo.
+
+10) Would you move for the person you loved?
+yes.
+
+11) Are you touchy feely?
+I hate my self for it, but yes.
+
+12) Do you believe that opposites attract?
+of course.
+
+13) Dream job?
+off road motorcycle racer that actually has a sponcer.
+
+14) Favorite channel(s)?
+CTN
+
+15) Favorite place to go on weekends?
+motorcycle + dirt roads + creeks + mud = a good weekend.
+
+16) Showers or Baths?
+Showers, I haven't taken a bath in ages.
+
+17) Do you paint your nails?
+I think about it every once in a while, but I figure I'm close enough to gay as it is....
+
+18) Do you trust people easily?
+Yes and no, I will accept you, but with out some kind of reference from a friend I'll be sure I could kill you at all times.
+
+19) What are your phobias?
+None. I killed fear a long time ago.
+
+20) Do you want kids?
+I love kids, so probably.
+
+21) Do you keep a handwritten journal
+nope, my handwriting is abysmal.
+
+22) Where would you rather be right now?
+it's raining, so.... up north playing D&D.
+
+23) Who makes you feel warm and fuzzy?
+Meisha (my cat)
+
+24) Heavy or light sleeper?
+Heavy, also, I sleep talk and any question you ask me while I'm sleeping I will answer truthfully. unless i've broken my mind's filing system through meditation.
+
+25) Are you paranoid?
+nope.
+
+26) Are you impatient?
+nope.
+
+27) Who can you relate to?
+very few people.
+
+28) How do you feel about interracial couples?
+don't really care.
+
+29) Have you been burned by love?
+hell yeah....
+
+30) Whats your favorite pick up line?
+Do you have any stairs at your house?
+
+31) What's your main ringtone on your mobile.
+it goes ""bring bring"" and it came with the phone.
+
+32) What were you doing at midnight last night?
+watching ATHF on my lappy
+
+33) What did the last text on your cellphone say?
+I don't do texting.
+
+34) Whose bed did you sleep in last night?
+mine.
+
+35) What color shirt are you wearing?
+Brown, tight fitting ""poor boy"" T-shirt.
+
+36) Most recent movie you watched?
+lucky number s7even, it was pretty good.
+
+37) Name three things you have on you at all times:
+Cellphone, wallet, Motorcycle key.
+
+38) What color are your bed sheets?
+blue.
+
+39) How much cash do you have on you right now?
+$24.31
+
+40) What is your favorite part of the chicken?
+no clue. meat is meat.
+
+41) What's your favorite town/city?
+San Leandro, CA
+
+42) I can't wait till:
+I find a girlfriend who doesn't stab me in the back and make me rant about it on LJ.
+
+43) What's your favorite color?
+Green, It has alway been green, and it always will be green.
+
+44) What did you have for dinner last night?
+Ramen.
+
+45) How tall are you barefoot?
+6'2""
+
+46) Have you ever smoked heroine?
+smoked? no.
+
+47) Do you own a gun?
+pellet and BB yes, no real guns, yet.
+
+48) What do you prefer to drink in the morning?
+water, breakfast of champions.
+
+49) What is your secret weapon to lure in the opposite sex?
+Smashing goos looks, but that's no secret.
+
+50) Do you have A.D.D.?
+nope
+
+51) What time did you wake up today?
+7am
+
+52) Current worry?
+none really.
+
+53) Current hate?
+once again none really, I'm slow to anger.
+
+54) Favorite place to be?
+with friends, regardless of the place
+
+55) Where would you like to travel?
+a desert to ride across.
+
+56) Where do you think you'll be in 10 yrs?
+probably dead in a ditch some where, burn bright then burn out.
+
+57) Last thing you ate?
+chilly brought to my speach class as an example
+
+58) What songs do you sing in the shower?
+believe it or not... opera
+
+59) Last thing that made you laugh?
+the sign mentioned earlier in this post.
+
+60) Worst injury you've ever had?
+I don't know, I've had 3 broken arms, messed up my legs in motorcycle accidents, and stabbed the length of a knife into my leg, you pick.
+
+61) Does someone have a crush on you?
+several people that i know of.
+
+62) What's your favorite candy?
+anything sour.
+
+63) What song do you want played at your funeral?
+monster mash,
+
+</lj-cut>
+
+Till next time - Tiffy"
+"eventtime","2007-02-26 22:14:00"
+"current_moodid","91"
+"url","http://hunlerzfang.livejournal.com/11079.html"
+"userid","6553"
+"itemid","42"
+"event","PGI+U2hlZXAgSW4gVGhlIE1lYWRvdzwvYj4NCg0KQSBzdHJvbmcgd2luZCB0cm9tcGVkIHRocm91Z2ggbXkgaGFpciwgdHJ5aW5nIGl0cyBiZXN0IHRvIHB1bGwgbWUgYW5kIG15IHJhdHR5IHJlZCBqYWNrZXQgZnJvbSB0aGVzZSBlbmRsZXNzIGdyZWVuIHN1cnJvdW5kaW5ncyB0byBhIGxhbmQgdW5rbm93bi4gTW91c2Ugc2NhbXBlcmVkIGZyb20gdGhlIGhheSBzdGFjaywgY2xpbWJpbmcgbXkgcGFudHMgYW5kIGphY2tldCB0aWxsIGhlIGZpbmFsbHkgcmVhY2hlZCBteSBzaG91bGRlci4gIlR1cm4gbGVmdCBhbmQga2VlcCB3YWxraW5nIHRpbGwgeW91IHJlYWNoIHRoZSBzaGVlcCwiIEhpcyB3b3JkcyBsYWNrZWQgbXVjaCBvZiB0aGUgZW50aHVzaWFzbSB0aGV5IGhhZCBjYXJyaWVkIG1vbWVudHMgYWdvLiBJIGNvdWxkbid0IGhlbHAgYnV0IHdvbmRlciBpZiBoZSB3YXMgYW5ncnkgYWJvdXQgbXkgbW9tZW50YXJ5IGxhcHMgb2YgYXR0ZW50aW9uIGluIHJlZ2FyZHMgaGlzIGRldGFpbGVkIGluc3RydWN0aW9ucywgYWxzbywgbXkgY3VyaW9zaXR5IGFib3V0IHRoZSBleHBsYW5hdGlvbnMgSSBoYWQgbWlzc2VkIHdhcyBkcml2aW5nIG1lIGluc2FuZS4gQXMgdGhlIHNlZW1pbmdseSBlbmRsZXNzIHJvd3MgYW5kIGZpZWxkcyBtb3ZlZCB1bmRlciBteSBmZWV0LCBtb3VzZSBwb2ludGVkIG91dCBpbnNpZ25pZmljYW50IGxhbmRtYXJrcyBhbmQgd291bGQgdGFsayBhYm91dCBldmVyeXRoaW5nIHRoYXQgaGFkIGV2ZXIgaGFwcGVuZWQgdGhlcmUuICJZb3Ugc2VlIHRoYXQgZGlwIGluIHRoZSBncm91bmQ/IiBoZSBkcm9uZWQgb24sICJ0aGF0IHdhcyB3aGVyZSB0aGUgZmlyc3Qgc2hlZXAgZGVjaWRlZCB0byBiZSBhIHNoZWVwLiIgIkRlY2lkZWQgdG8gYmUgYSBzaGVlcD8iIEkgaW50ZXJydXB0ZWQgYXMgdGhlIHNreSBhbmQgdGhlIGdyb3VuZCBkaWQgdGhlaXIgYmVzdCB0byBzaG93IHdoYXQgaW5maW5pdHkgd291bGQgbG9vayBsaWtlLiAiT2YgY291cnNlLCIgaGUgcmVzcG9uZGVkLCAic2hlZXAgYXJlIG5vdCBib3JuLCB0aGV5IGNob29zZSB0aGF0IGxpZmUuIEl0IGlzIGEgbGlmZSBvZiBlbmRsZXNzIGVhc2UgYW5kIGFjY2VwdGFuY2UgYnV0IGZvciB0aG9zZSBnaWZ0cyB0aGV5IG11c3QgZGVzdHJveSBhbnkgcGVyc29uYWxpdHkgb3IgdGFsZW50IHRoZXkgd2hlcmUgYm9ybiB3aXRoLiIgSSByZW1haW5lZCBzaWxlbnQgYXMgdGhvc2UgaGVhdnkgd29yZHMgdHVtYmxlZCBpbiBteSBtaW5kLiAiV2XigJlyZSBoZXJlLCIgTW91c2UncyB3b3JkcyBwdWxsZWQgbWUgZnJvbSBteSBtdXNpbmcsICJhbGwgd2UgaGF2ZSB0byBkbyBpcyBnZXQgdGhlbSBiYWNrIGludG8gdGhlaXIgcGVuLiBUaGV5J3ZlIGJlZW4gb3V0IGZvciBmYXIgdG9vIGxvbmcuIFRvbyBtdWNoIGV4cG9zdXJlIHRvIHRoZSBvdXRzaWRlIGFuZCB0aGV5IHRlbmQgdG8ga2lsbCB0aGVtIHNlbHZlcy4iIEkgd2FzIG1vcmUgdGhhbiBhIGxpdHRsZSBjb25mdXNlZCBiZWNhdXNlIEkgc2F3IG5vIHNoZWVwLiBUaGUgdGhpbmdzIGluIGZyb250IG9mIG1lIHdoZXJlIG5vdCB0aGUgcHVmZnkgd2hpdGUgY3JlYXR1cmVzIEkgaGFkIG5ldmVyIHRha2VuIHRoZSB0aW1lIHRvIGxvb2sgYXQgaW4gbGlmZSwgdGhleSB3aGVyZSBwZW9wbGUuICJZb3UgbXVzdCBiZSBraWRkaW5nLCIgSSBvYmplY3RlZCwgInRob3NlIGFyZW4ndCBzaGVlcCwgdGhleSdyZSBwZW9wbGUuIHRoZXkgY2FuIGRvIHdoYXQgZXZlciB0aGV5IGNob29zZS4gSSBjYW4ndCBqdXN0IHBlbiB0aGVtIHVwLiIgTm93LCBJIGhhdmUgaGVhcmQgbGF1Z2h0ZXIgaW4gbWFueSBzaGFwZXMgYW5kIGZvcm1zLCBtb3N0IG9mIHdoaWNoIGNhbiBiZSBwdXQgaW50byBnZW5lcmFsIGNhdGVnb3JpZXMsIGJ1dCB0aGF0IGRlZXAgdm9pY2VkLCBoYWlyeSBjcmVhdHVyZSBwZXJjaGVkIG9uIG15IHJpZ2h0IHNob3VsZGVyIGRlc2VydmVzIGhpcyBvd24gY2hhcHRlciBpbiB0aGUgZW5jeWNsb3BlZGlhIG9mIGxhdWdodGVyLiAiVGhleSBoYXZlIGNob3NlbiB0aGlzIGxpZmUsIiBoZSByZXBsaWVkIHdoaWxlIHdoaXBwaW5nIGhpcyBleWVzIHdpdGggYSBwYXcsICJhbmQgaXQgd2FzIHRoZSBsYXN0IGNob2ljZSB0aGV5IHdpbGwgZXZlciBtYWtlLiIgSSBkZWNpZGVkIHRvIGhlbHAgYnV0IEkgd2FzIHVuc3VyZSBvZiBob3cgSSB3b3VsZCBldmVuIGdvIGFib3V0IGhlcmRpbmcgcGVvcGxlLCBzZWVpbmcgYXMgaG93IHRoaXMgd2FzIGEgbmV3IGV4cGVyaWVuY2UgZm9yIG1lLiBJIG1vdmVkIGNsb3NlciBhbmQgYXMgdGhleSBiZWNhbWUgbW9yZSB0aGFuIG91dGxpbmVzIGluIHRoZSBncmFzcyB0aGVpciBmZWF0dXJlcyBiZWNhbWUgb2J2aW91cy4gQW5kIHRoZW4gYW4gb2RkIHRoaW5nIGJlZ2FuIGhhcHBlbmluZywgZXZlcnkgZmV3IG1vbWVudHMgdGhlaXIgY2xvdGhlcyB3b3VsZCBmbGlja2VyIGFuZCBjaGFuZ2UuIE9uZSBtb21lbnQgdGhleSB3b3VsZCBhbGwgYmUgd2VhcmluZyB0aGUgZXhhY3Qgc2FtZSBvdmVyYWxscyB3aXRoIGEgd2hpdGUgc2hpcnQsIGFuZCB0aGUgbmV4dCB0aGV5IHdvdWxkIGFsbCBoYXZlIG9uIHNsaWdodCB2YXJpYXRpb25zIG9uIHRoZSB0aGVtZTogYmxhY2sgb24gYmxhY2sgd2l0aCBzb21lIGJsYWNrIHRocm93biBpbiBmb3IgY29sb3IuICJXZWxsLCBoZWFyZCB0aGVtLiIgTW91c2Ugc2FpZCBhcyBpZiB3ZSB3aGVyZSBpbiBhIGh1cnJ5LiBOb3csIElmIHlvdSBoYXZlIGV2ZXIgZ29uZSBza3ktZGl2aW5nIHdpdGggb25seSBhIG5hcGtpbiBhcyB5b3VyIHBhcmFjaHV0ZSB5b3UgaGF2ZSBzb21lIHNtYWxsIHNlbnNlIG9mIHRoZSB1bi1lYXNpbmVzcyB0aGF0IHdhcyB0cnlpbmcgc28gZGV0ZXJtaW5lZGx5IHRvIHNxdWVlemUgb3V0IHRoZSBjb250ZW50cyBvZiBteSBzdG9tYWNoLiBUaGUgY3JlYXR1cmUgc2l0dGluZyBvbiBteSByYXR0eSBqYWNrZXQgd2FzIG1vc3Qgb2J2aW91c2x5IG1vcmUgdGhhbiBoZSBhcHBlYXJlZC4gV2Fzbid0IEkgcmVjZW50bHkgYmxlZWRpbmcgb24gYSBob3Qgcm9hZD8gd2hhdCB3YXMgYWxsIHRoaXMgYWJvdXQgYW55IHdheT8gIldoYXQgYXJlIHlvdSB3YWl0aW5nIGZvcj8iIE1vdXNlIGludGVycnVwdGVkIG15IG11c2luZ3MsICJKdXN0IGNhbGwgdGhlbSwgYXMgbG9uZyBhcyB5b3UgZG9uJ3QgbG9vayBsaWtlIHRoZW0gdGhleSdsbCBmb2xsb3cgeW91LiIgbGFja2luZyBhbnkgZ3JlYXQgaW5zcGlyYXRpb24sIEkgZHVsbHkgdG9vayBoaXMgYWR2aWNlLCAiY29tZSBoZXJlISIgSSBjYWxsZWQuIFRoZSB3b3JkIOKAnHN0cmFuZ2XigJ0gdG9vayBvbiBhIG5ldyBtZWFuaW5nIGluIG15IG1pbmQgYXMgd2VsbCBvdmVyIGEgaHVuZHJlZCBwZW9wbGUsIGFsbCB3ZWFyaW5nIHRoZSBzYW1lIG91dGZpdCwgY2FtZSBydW5uaW5nIHRvd2FyZHMgbWUgd2l0aCB0aGUgc2hpbmluZyBhZG1pcmF0aW9uIGluIHRoZWlyIGV5ZXMuIEhvd2V2ZXIsIGp1c3QgYXMgdGhleSByZWFjaGVkIG1lIHRoZWlyIGNsb3RoZXMgZmxpY2tlcmVkIG9uY2UgYWdhaW4gYW5kIGZvciBhIG1vbWVudCBJIHdhcyBzdGFuZGluZyBiZWZvcmUgYSB0aHJvbmcgb2YgYmVpbmdzIGFsbCBkcmVzc2VkIGluIHVuaWZvcm0gcmF0dHkgcmVkIGphY2tldHMgYW5kIGJsdWUgSmVlbidzLiBUaGUgbW9tZW50IHRoZXkgbm90aWNlZCB0aGVpciBuZXcgY2xvdGhlcywgSSB3YXMgbm8gbG9uZ2VyIGEgcG9pbnQgb2YgaW50ZXJlc3Q7IHRoZSBhZG1pcmF0aW9uIGluIHRoZXJlIGV5ZXMgdHVybmVkIHRvIGR1bGwgcmVjb2duaXRpb24sIGFuZCB0aGV5IGJlZ2FuIHRvIHdhbmRlciBvZmYuICJIZXkhIFdoZXJlIGFyZSB5b3UgZ29pbmc/IENvbWUgdGhpcyB3YXkhIEhleSEiIEkgd2FzIHRyeWluZyB0byBvbmNlIGFnYWluIGNhdGNoIHRoZWlyIGF0dGVudGlvbiBidXQgbXkgY3JpZXMgZmVsbCBvbiBkZWFmIGVhcnMsIGFuZCBJIHdhcyBnZXR0aW5nIGZydXN0cmF0ZWQuIE15IGhhaXJ5IGNvbXBhbmlvbiBtdXN0IGhhdmUgZm91bmQgdGhlIHNpdHVhdGlvbiBmdW5ueSwgYXMgaGUgd2FzIGNodWNraW5nIHRvIGhpbSBzZWxmLiAidGFrZSBvZiB5b3VyIGphY2tlZCBzdHVwaWQsIiBhbmQgYXQgaGlzLCBzbGlnaHRseSBvZmZlbnNpdmUsIHdvcmRzIEkgdW5kZXJzdG9vZCB3aGF0IHdhcyBoYXBwZW5pbmcuIEkgdG9vayBvZiBteSBqYWNrZXQgYW5kIGNhbGxlZCB0byB0aGUgdGhyb25nLiBUaHJvdWdoIGEgY29udGludWFsIHN3aXRjaGluZyBvZiBiYXJlIGFybXMgVlMgcmVkIGphY2tldCBmYXNoaW9uIHN0YXRlbWVudHMsIEkgbGVhZCB0aGUgbW9iIHRvIHRoZSBzbWFsbCB3b29kZW4gZmVuY2UgbGFiZWxlZCAiTG9vaGNzIiB3aXRoIHZlcnkgbGl0dGxlIHRyb3VibGUuIEFmdGVyIHNodXR0aW5nIHRoZSBnYXRlIGEgbmlnZ2xpbmcgdGhvdWdoIGNhbWUgYW5kIGZvcmNlZCBtZSB0byBzcGVhayAid2hhdCB3aWxsIGhhcHBlbiB0byB0aGVtPyIgTW91c2UgbG9va2VkIGF3YXkgbG9vc2luZyB0aGUgam9jdWxhcml0eSBvZiBtZXJlIHNlY29uZHMgYWdvLiBhZnRlciBhIG1vbWVudCBoZSBhbnN3ZXJlZCAidGhleSdsbCBiZSBmaW5lIGFzIGxvbmcgYXMgdGhleSBzdGF5IGluIHRoZSBMb29jaHMgcGVuLCBidXQgZXZlbnR1YWxseSB0aGV5IHdpbGwgYmUgZm9yY2VkIGludG8gdGhlIHJlYWwgd29ybGQuIiBoZSBleHBsYWluZWQgYW5kIHRoZW4gcGF1c2VkIGFzIGlmIGEgbGl0dGxlIHNhZC4gIkFuZCB0aGVuPyIgSSBwcm9iZWQsICJ3aWxsIHRoZXkgYmUgYWxyaWdodCB3aGVuIHRoZXkgbGVhdmU/IiBJIGFza2VkLCB3b3JyaWVkIHRoZXNlIHNoZWVwIGZvciBubyBhcHBhcmVudCByZWFzb24uIE1vdXNlIHNsb3dseSByZXNwb25kZWQsICJJIGRvbid0IGtub3csIGhvdyBkaWQgaXQgYWxsIHR1cm4gb3V0IGZvciB5b3U/IiBGZXcgdGhpbmdzIGh1cnQgbGlrZSBhIG1vdXNlIHNoaW5pbmcgbGlnaHQgb24gdGhlIHRyYWlsIG9mIGNyYXAgeW91IGhhZCBoaXRoZXJ0byB0aG91Z2h0IG9mIGFzIHlvdXIgbGlmZS4gQXMgYSBjaGlsZCBjYXVnaHQgaW4gbWlzY2hpZWYsIG15IGV5ZXMgbG9ja2VkIG9udG8gbXkgc2hvZXMgYW5kIHJlZnVzZWQgdG8gcmlzZTsgdGhlIHRhZyBvbiBteSB0aHJlYWQgYmFyZSBqYWNrZXQgY2F1Z2h0IG15IGV5ZS4gSXRzIHJlZCBtYXRlcmlhbCBsb29rZWQgb2xkIGFuZCB3b3JuLCBidXQgdGhhdCB3YXMgb25seSBiZWNhdXNlIGEgbWFya2V0aW5nIGdlbml1cyBoYWQgc2ltdWx0YW5lb3VzbHkgaGl0IGl0IHdpdGggYSBzYW5kYmxhc3RlciBhbmQgZG91YmxlZCB0aGUgcHJpY2UuIEFuZCBteSBKZWVuJ3MsIHdoeSBkaWQgSSBidXkgSmVlbidzIHRoYXQgYWxyZWFkeSBoYWQgaG9sZXMgaW4gdGhlIGtuZWVzPyAiTGV0cyBtb3ZlIG9uLCIgTW91c2Ugc2FpZCwgIml04oCZcyBiZXN0IG5vdCB0byB3b3JyeSBhYm91dCB0aGluZ3MgeW91IGNhbid0IGNoYW5nZSBhbnkgbW9yZS4iIE1pbmRsZXNzbHkgZm9sbG93aW5nIGhpcyBkaXJlY3Rpb25zIEkgbXVsbGVkIGl0IGFsbCBvdmVyLCBlc3BlY2lhbGx5IHRoZSBlbmQgb2YgaGlzIGxhc3Qgc3RhdGVtZW50LCAiY2FuJ3QgY2hhbmdlIGFueSBtb3JlLiINCg0KVGhlIE5leHQgdXBkYXRlIHdpbGwgY29tZSBzb29uLiBJJ20gc29ycnkgdGhpcyBzdHVmZiBpc24ndCByZWFsbHkgZnVubnksIGJ1dCBlaCwgSSBmaWd1cmUgeW91IGd1eXMgYXJlIHNtYXJ0IGVub3VnaCB0byBnZXQgdGhlIHRydXRocyBiZWhpbmQgaXQgYWxsLg=="
+"eventtime","2007-02-21 21:37:00"
+"current_moodid","30"
+"url","http://hunlerzfang.livejournal.com/10767.html"
+"userid","6553"
+"itemid","41"
+"event","SXQncyBiZWVuIGEgd2hpbGUgc28gSSB3b24ndCBib3JlIHlvdSB3aXRoIG5ld3Mgb2YgbXkgcGVyc29uYWwgbGlmZS4gSW5zdGVhZCwgd2Ugc2hhbGwgZ2V0IHN0cmFpZ2h0IHRvIHRoZSBwcm92ZXJiaWFsIG1lYXQuIFRvZGF5IG15IG9mZmVyaW5nIHRvIHlvdSwgdGhlIHBhdHJvbnMgb2YgVGlmZml0YXJpYW5pc20sIGlzIGEgc3Rvcnk7IGEgc3Rvcnkgb2YgZXBpYyBwcm9wb3J0aW9ucy4gKGxpa2UgeW8nIG1hbWEpDQoNCjxiPkNvbWUgQmxvdyBZb3VyIEhvcm4uPC9iPg0KDQpJIGFtIG5ldmVyIHBvc2l0aXZlIHdoZXRoZXIgbGF1Z2hpbmcgb3IgY3J5aW5nIGlzIG1vcmUgYXBwcm9wcmlhdGUgd2hlbiBJIHRoaW5rIGFib3V0IHRoZSBwcmlvcml0aWVzIHRoYXQgaGF2ZSBndWlkZWQgbXkgbGlmZS4gVGhlIG9ubHkgcHVsbGluZyBmb3JjZXMgaW4gbXkgc291bCB3aGVyZTogbW9uZXksIGFtdXNlbWVudCwgYW5kIHdvbWVuLiBJIGxlYXJuZWQgdGhlIGhhcmQgd2F5LCB0aGF0IHRob3VnaCBlYWNoIHNlZW1zIHRvIGJlIGluIHRoZSBzYW1lIGRpcmVjdGlvbjsgY2hhc2luZyBhbGwgdGhyZWUgd2lsbCB0ZWFyIHlvdSBhcGFydC4gTXkgbWluZCBjb2xsYXBzZWQgYXMgSSBkZXNwZXJhdGVseSB3b3JrZWQgdG8gbWFpbnRhaW4gdGhlIHByZXNzdXJlIG9uIHRoZSBicmFuZCBuZXcgcmVkLCBzaGlueSBob2xlIGluIG15IHN0b21hY2guIEkgaGFkIGFsd2F5cyB3b25kZXJlZCB3aGF0IGxhc3QgdGhvdWdodHMgd2hlcmUgbGlrZSwgcGljdHVyaW5nIG15IGxhc3QgdGhvdWdodHMgYXMgc29tZSBncmVhdCB3b3JrIG9mIHBvZXRyeSB3aXRoIGEgZmxvdyB0YW50YW1vdW50IHRvIHRoYXQgb2YgYSBncmVhdCB3b3JrIG9mIHRoZSBjbGFzc2ljYWwgbWFzdGVycywgYnV0IG5vLiB0aGUgY2hpbGRpc2gsIG5vbnNlbnNpY2FsIHdvcmRzIG9mIHRoZSBudXJzZXJ5IHJoeW1lICJsaXR0bGUgYm95IGJsdWUiIHdoZXJlIG15IG9ubHkgdGhvdWdodHMgYXMgdGhlIGhlYXZ5IGRyYXBlIG9mIHNsZWVwIHNtb3RoZXJlZCB0aGUgd2FraW5nIHdvcmxkLiANCg0KTGl0dGxlIEJveSBCbHVlLCBjb21lIGJsb3cgeW91ciBob3JuLg0KVGhlIHNoZWVwJ3MgaW4gdGhlIG1lYWRvdywgdGhlIGNvdydzIGluIHRoZSBjb3JuLg0KV2hlcmUgaXMgdGhlIGJveSB0aGF0IGxvb2tzIGFmdGVyIHRoZSBzaGVlcD8NCiJIZSdzIHVuZGVyIHRoZSBoYXljb2NrLCBmYXN0IGFzbGVlcC4iDQpXaWxsIHlvdSB3YWtlIGhpbT8gIk5vLCBub3QgSTsNCkZvciBpZiBJIGRvLCBoZSdsbCBiZSBzdXJlIHRvIGNyeS4iDQoNCldlYXRoZXIgYSBzZWNvbmQgbGF0ZXIgb3IgYWZ0ZXIgdGhlIHBhc3Npbmcgb2YgYSBtaWxsZW5uaXVtIEkgY291bGQgbm90IHRlbGwgeW91LCBidXQgYWZ0ZXIgc2lsZW5jZSBjYW1lIGFuIGltbWVuc2VseSBkZWVwIHZvaWNlLCAiZ2V0IHVwLCB5b3Ugc2hvdWxkIG5vdCByZXN0IGhlcmUuIFRoaXMgaXMgbm8gdGltZSBmb3Igc2xlZXAuIiBBdCBsZWFzdCB0aGF0J3Mgd2hhdCBJIHRob3VnaHQgaGUgc2FpZC4gT3BlbmluZyBteSBleWVzLCBpdCBzZWVtZWQgYXMgdGhvdWdoIHRoZSB3YWtpbmcgd29ybGQgd2FzIHN0aWxsIHNocm91ZGVkIGJsYWNrLiBCdXQgbm8sIHRoaXMgd2FzIGRpZmZlcmVudCwgZ3Jhc3BpbmcgbWUgZnJvbSBldmVyeSBhbmdsZSB3aGVyZSB0aGUgdGhpbiwgc2NyYXRjaHksIGZpbmdlcnMgb2YgY291bnRsZXNzIHdoZWF0IHN0YWxrcy4gVGhlIHNob2NrIG9mIGFwcGFyZW50bHkgZGllaW5nIG9uIHRoZSBob3QgYmxhY2sgcm9ja3Mgb2YgYSBkZXNlcnRlZCByb2FkLCBhbmQgbXkgc3Vic2VxdWVudCBhd2FrZW5pbmcgYnVyaWVkIGluIGEgaGF5IHN0YWNrIHdhcyBzb29uIHB1c2hlZCBmcm9tIG15IG1pbmQuIEFzIG15IGV5ZXMgYWRqdXN0ZWQgdG8gdGhlLCBhbGwgYnV0IG5vbi1leGlzdGVudCwgbGlnaHQgb2YgbXkgc3Vycm91bmRpbmdzIEkgY291bGQgc2VlIHRoZSBvbmUgd2hvIGhhZCBhd29rZW4gbWUuIFNpdHRpbmcgb24gbXkgbm9zZSwgY2FsbWx5IG5pYmJsaW5nIGEgZ3JhaW4gb2Ygd2hlYXQgd2FzIGEgbW91c2UsIGFuIG9yZGluYXJ5LCBicm93biwgbG9uZyB3aGlza2VyZWQgZmllbGQgbW91c2UuIE15IG1pbmQsIGV2ZXIgbG9naWNhbCwgcXVpY2tseSByYW4gdGhyb3VnaCB0aGUgYXZhaWxhYmxlIG9wdGlvbnMsICJTbywgdGhpcyBpcyBlaXRoZXIgc29tZXRoaW5nIEkgd2FzIG5ldmVyIHRvbGQgYWJvdXQgdGhlIGFmdGVyLWxpZmUgb3IgYSBoYWxsdWNpbmF0aW9uLiBFaXRoZXIgd2F5LCBpdCdzIG5vdCByZWFsIiBUaGUgbW91c2UsIG9ibGl2aW91cyB0byBteSBjb25jbHVzaW9uIGFib3V0IGhpcyBleGlzdGVuY2UsIG9yIGxhY2sgdGhlcmUgb2YsIGNvbnRpbnVlZCwgIkkgd2FzIHRvbGQgbm90IHRvIHdha2UgeW91LCBidXQgdGhlcmUncyB3b3JrIHRvIGJlIGRvbmUuIiBJIGhhdmUgYWx3YXlzIGZhbmNpZWQgbXlzZWxmIGJyYXZlLCBidXQgSSB3YXMgdHJ1bHkgZGVlcGx5IGFmcmFpZCBvZiB0aGUgYWRvcmFibGUgY3JlYXR1cmUgdGhhdCBwZWVyZWQgYXQgbWUgd2l0aCBxdWlldCBkaWduaXR5LiAiV2VsbCwiIEkgYmVnYW4gdG8gcmVzcG9uZCwgdGhpbmtpbmcgbXkgc2VsZiBmb29saXNoIGZvciBzcGVha2luZyB0byB0aGlzIGZpZ21lbnQgb2YgbXkgZGllaW5nIGltYWdpbmF0aW9uLCAid2hhdCBraW5kIG9mIHdvcmsgZGlkIHlvdSBoYXZlIGluIG1pbmQ/IiBUaGUgbW91c2Ugd2FzIHZpc2libHkgcGxlYXNlZCBhdCBteSBjb29wZXJhdGlvbi4gaGlzIGRlZXAgdm9pY2UgYmVnYW4gZmx5aW5nIHBhc3QgbXkgZWFycyBzbyBmYXN0IEkgc3RvcHBlZCBsaXN0ZW5pbmcgYXMgSSB3b25kZXJlZCB3aGVuIGhlIHdvdWxkIGluaGFsZSwgdGhlcmUgd2FzIG5vIHdheSBhIG1vdXNlIGNvdWxkIGhvbGQgZW5vdWdoIGFpciB0byBmdWVsIHRoYXQgbWFueSB3b3Jkcy4gIuKAplNvIHlvdSdsbCBuZWVkIHRvIGdldCB0aGUgc2hlZXAgdG8gdGhlaXIgcGVuIGFuZCB0aGUgY293cyBvdXQgb2YgdGhlIGNvcm4gZmllbGQuIiB0aGUgbW91c2XigJlzIHdvcmRzIHNlZW1lZCBvZGRseSBmYW1pbGlhci4gIkFscmlnaHQsIiBJIHJlcGxpZWQsIHByZXRlbmRpbmcgYWxsIGhpcyB3b3JkcyB3aGVyZSByZW1lbWJlcmVkLCAiVGhhdOKAmWxsIGJlIGVhc3ksIGJ1dCBob3cgZG8gSSBnZXQgb3V0IG9mIGhlcmU/IiBNeSBkZWVwIHZvaWNlZCBoYWlyeSBhY3F1YWludGFuY2UgZXllZCBtZSBhcyBhIG1vdGhlciB3aG8ga25vd3Mgc2hlIGhhcyBjYXVnaHQgYSBjaGlsZCBpbiBsaWVzLiAiQ2xpbWIsIGxpa2UgSSBzYWlkLiIgYXQgaGlzIHdvcmRzLCBJIGZlbHQgZm9vbGlzaCBmb3Igbm90IHNpbXBseSB0cnlpbmcsIGFsc28gSSB3b25kZXJlZCB3aGF0IG90aGVyIHdvcmRzIGhhZCB3YWxrZWQgcGFzdCB0aGUgZ2F0ZXMgb2YgbXkgbWluZCBhcyBJIGFsbG93ZWQgbXkgdGhvdWdodHMgdG8gd2FuZGVyLiBNeSBhY3Rpb25zIGluIHRoZSBzdGFjayB3aGVyZSBtdWNoIGxpa2UgbXkgbGlmZeKAmXMgbW90dG86IOKAnGlmIGl0IG1heSBub3Qgd29yaywgZG9u4oCZdCB0cnku4oCdIGFmdGVyIGZyZWVpbmcgbXlzZWxmIGZyb20gbXkgc2NyYXRjaHkgcHJpc29uIEkgZm91bmQgSSBleGlzdGVkIG5vdyBpbiBhbiBlbmRsZXNzIGxpdmluZyBmaWVsZCBvZiBwZXJmZWN0IGdyYXNzIGJsb3dpbmcgaW4gdGhlIHdpbmQsIGhheSBzdGFja3MgaW4gcGVyZmVjdCByb3dzIGFzIGZhciBhcyBteSBkZWFkIGV5ZXMgY291bGQgc2VlLg0KDQoNCkknbGwgY29udGludWUgcG9zdGluZyBtb3JlIGFuZCBtb3JlIHRpbGwgdGhlIHN0b3J5J3MgZG9uZSwgSSBqdXN0IGZlZWwgaXQnbGwgYmUgbW9yZSBmdW4gdGhpcyB3YXkgKGl0J2xsIGFsc28gYmUgZWFzZXIgb24gdGhlIGZyaWVuZHMgcGFnZS4gSSBrbm93IG15IHN0b3JpZXMgY2FuIGdldCBhIGxpdHRsZSBsb25nKQ=="
+"eventtime","2007-02-20 11:45:00"
+"current_moodid","108"
+"url","http://hunlerzfang.livejournal.com/10702.html"
+"userid","6553"
+"itemid","40"
+"event","Men are stupid and women are blind. having said that let me back it up. First lets talk about ""Government backed mandatory expression of affection day"" ,or ""valentines day"" as some now call it, for a moment. This day, above all others, lowers all women to a standing less than common whores. At least a whore gets actual money for her services; where as the rest of the American female population is expected to swoon for a stuffed bare? I am all about affection, but any woman who is taken in by the advertising and flashy pink crap made by Chinese slave labor needs to think about the meaning of love. love is when you want nothing more than to make the other person happy, you want to spend every moment with them because you see them as the most precious thing in the world. Love is not spending money, Love is spending time. now that I've offended you women, I'll turn to the men. Ok guys, seriously, what the hell? can't you just give them a hug, tell them you love them, pick them some flowers, write them a poem, why do they need candy they will feel bad about eating any way? and why should today be any different from any other day? Live every day like it's your last, but dream like you'll live forever - I don't know who said it, but it's true.
+
+moving right along. we have some poetry!
+
+<b>My eyes</b>
+If I where you and you where me,
+and you could clearly through my eyes see.
+the world through the tainted mind of others, 
+then in our lives we would all be brothers.
+
+<b>Twisted</b>
+Roses are red, violets are twisted
+Bend over bitch, you're about to get... tenderly loved.
+(if any of you got that.... good job)
+
+Ok, I know this story is a little cheesy, but even <i>I</i> have feelings, if you want a better picture of why I am who I am, read on.
+
+<b>Wishing for words</b>
+Sitting on the couch I glanced over at her and with all my heart wanted to say something clever, something that would make her laugh or just smile. oh her smile could bring light to the world, but she just sat there silently watching the movie. I inched closer and pretended to yawn, feeling stupid for using such an old move. slowly, I lowered my arm letting it rest on the back of the couch behind her. she was so beautiful. we had a strange relationship but I truly wanted it to work. As the anthropomorphic donkey on screen wailed on about something that didn't matter - I could think about nothing but the beautiful creature next to me. I could smell her unique sent; it was intoxicating. time flew by as it only does for moments you want never to end. as the credits rolled I finally worked up the courage to say something.
+""Nessy, I think i love you."" The words came quickly, once they where out I could do nothing but wait for her response. she said nothing, she wouldn't even look at me.
+""I know we're so different, but none of that matters, this feeling is something I can't fight or hide. I wouldn't want to if i could. please say something...."" Still she sat their silently, after a minute to two she began to cry, each tear and sob cut deeper into the crack in my soul. I hugged her and she hugged me back but after a beautiful, albeit too short, moment she pulled back and looked me in the eyes and, still crying, sadly shook her head. With that, she ran from the room, taking the largest part of my heart with her. That was the last time I ever saw the Lochness monster, my only true love."
+"eventtime","2007-02-14 13:45:00"
+"current_moodid","99"
+"url","http://hunlerzfang.livejournal.com/10490.html"
+"userid","6553"
+"itemid","39"
+"event","PGI+bm90IHRha2Ugb3ZlciB0aGUgd29ybGQuPC9iPg0KSXTigJlzIGhhcHBlbmluZywganVzdCB5b3Ugc2VlLCBJ4oCZbSBhbGwgbGluZWQgdXAgdG8gYmUgdGhlIGFudGljaHJpc3QgYW5kIG5vdGhpbmcgYW55IG9mIHlvdSBjYW4gZG8gd2lsbCBzdG9wIG1lLiBZb3UgaGFkIGJldHRlciB3b3JrIG9uIGdldHRpbmcgdG8gbXkgZ29vZCBzaWRlIHNvb24sIG9yIGl0IHdpbGwgYmUgdG9vIGxhdGUgZm9yIHlvdSBhbGwuIEp1c3QgY2hlY2sgb3V0IHRoaXMgcHJvb2Y6DQoNClRvdGFsIG51bWJlciBvZiBsZXR0ZXJzIGluIG15IGZ1bGwgbmFtZTogMTkNCnRoZSBmaXJzdCB2ZXJzaW9uIG9mIHdpbmRvd3MgdGhhdCB3YXNuJ3QgYmFzZWQgb24gRE9TOiA5OA0KYSBjZW50dXJ5OiAxMDANCnRoZSBudW1iZXIgb2YgQSdzIGluIG15IGZ1bGwgbmFtZTogMw0KdGVuIGRlY2FkZXM6IDEwMA0KUHV0IGl0IGFsbCB0b2dldGhlciBhbmQgeW91IGdldDogKCgxOSArICg5OCAvIDEwMCkpIC8gMykgKiAxMDAgPSA2NjYNCg0KPGI+R2V0IG15IGhhdCBiYWNrPC9iPg0KV2hpbHN0IG9uIG9uZSBvZiBteSBtYW55IHRyaXBzIHRvIEFudGFyY3RpY2EsIG15IGJlbG92ZWQg4oCcaG9uayBpZiB5b3XigJlyZSBob3JueeKAnSBoYXQgd2FzIHN0b2xlbiBieSBhIEVtcGVyb3IgUGVuZ3VpbiBuYW1lZCDigJxKb2hhbm4gUGVuZ2VyLXZpdHNpbuKAnSAod2hpY2ggcm91Z2hseSB0cmFuc2xhdGVkIG1lYW5zIOKAnEpvaGFubiBwZW5ndWluLWhlYWTigJ0pIEkgc3VwcG9zZSDigJxzdG9sZW7igJ0gaXMgdG9vIGhhcnNoIG9mIGEgd29yZOKApi4gVGhlIHRydXRoIGlzLCBJIGxvc3QgaXQgaW4gdGhlIGZpbmFsIGVsaW1pbmF0aW9uIHJvdW5kIG9mIGEgaG9wc2NvdGNoIHRvdXJuYW1lbnQgdGhhdCB0aGUgbG9jYWxzIHdoZXJlIGhvbGRpbmcuIFRob3VnaCBpdCB3YXMgYSBwYWluZnVsIG9jY2FzaW9uIEkgZGlkIGxlYXJuIGEgdmFsdWFibGUgbGVzc29uOiBQZW5ndWlucyBtYXkgaGF2ZSBzbWFsbCBsZWdzLCBidXQgbmV2ZXIsIGFuZCBJIG1lYW4gPGI+bmV2ZXI8L2I+IGRhcmUgdGhlbSB0byB0cnkgYW5kIHB1bGwgb2ZmIGhvcHNjb3RjaOKAmXMgbW9zdCBkYW5nZXJvdXMgbW92ZSDigJxlbCBob3BlIGRlIERpYWJsb+KAnSB0aGV5IGNhbiBhY3R1YWxseSBwdWxsIGl0IG9mZi4NCg0KPGI+SGVscCBhbiBvbGQgbGFkeSBjcm9zcyBhIHN0cmVldDwvYj4NCk9sZCBsYWRpZXMgYXJlIG5vdGhpbmcgYnV0IHRyb3VibGUgaWYgeW91IGFzayBtZSwgSSBzYXkgdGhhdCB0aGUgYXZlcmFnZSBsaWZlc3BhbiBvZiB3b21lbiBzaG91bGQgYmUgbG93ZXJlZCB0byA0NS4gKGlmIHlvdSBjYXRjaCBteSBkcmlmdCkgSSBjYW4gc3RhbmQgcXVpdGUgYSBsb3QgYnV0IHdoYXQgSSBjYW7igJl0IHRha2UgaXMgd29tZW4gdGhhdCBJIHdvdWxkIGJlIGxvYXRoZWQgdG8gdG91Y2ggZ3JhYmJpbmcgbXkgY2hlZWtzIEnigJlNIDE4IElU4oCZUyBOT1QgQ1VURSBBTlkgTU9SRSEgUGx1cyB0aGV5IGFsbCBzZWVtIHRvIHdlYXIgdGhlIHNhbWUg4oCcZGVhZCBmbG93ZXJzIGRlIGxhIHNoaXTigJ0gcGVyZnVtZS4gVGhlIG9ubHkgZXhwbGFuYXRpb24gSeKAmXZlIGJlZW4gZ2l2ZW4gZm9yIHRoaXMgaXMgdGhhdCB0aGV5IGFyZSB0cnlpbmcgdG8gY292ZXIgdXAgdGhlaXIgbmF0dXJhbCBzbWVsbOKApi4gSG9seSBCdWRkaGEgbW90aGVyIElzbGFtISBZb3UgbWVhbiB0aGF0LCBoZWxsaXNoLCByYW5jaWQsIGRpc2d1c3RpbmcsIGFzcy1tb25rZXkgc21lbGwgaXMgYW4gaW1wcm92ZW1lbnQgb3ZlciB0aGUgd2F5IHRoZXkgd291bGQgPGk+bmF0dXJhbDwvaT4gc21lbGw/IDxiPipzaHVkZGVyKjwvYj4NCg0KPGI+UmV0dXJuIHdpbHQgY2hhbWJlcmxhaW7igJlzIHNwbGVlbjwvYj4NCk5vdCB0aWxsIGhlIGdpdmVzIGJhY2sgbXkgYWJpbGl0eSB0byB1cmluYXRlLiBTbyBmYXIgdGhlIG5lZ290aWF0aW9ucyBhcmUgZ29pbmcgd2VsbCBidXQgaW4gYWRkaXRpb24gdG8gdGhlIHJldHVybiBvZiBoaXMgc3BsZWVuIGhlIGRlbWFuZHMgbXkgYWJpbGl0eSB0byBmbGFyZSBteSBub3N0cmlsc+KApi4gSXQgd291bGQgYmUgYSBkb25lIGRlYWwgYnV0IGRhLWxhZGllcyBsb3ZlIGZsYXJlZCBub3N0cmlscy4NCg0KPGI+U3VwcGx5IG51Y2xlYXIgV01EcyB0byB0ZXJyb3Jpc3RzIGFnYWluPC9iPg0KT2ssIGp1c3Qgc28geW91IGtub3csIE9zYW1hIGRvZXNu4oCZdCBwYXkgaGlzIHRhYi4gSeKAmW0gbm90IGJsYW1pbmcgYW55IG9uZSBvciBhbnkgdGhpbmc7IEnigJltIGp1c3QgdGhyb3dpbmcgdGhhdCBvdXQgdGhlcmUuIEluY2FzZSBhbnkgb2YgeW91IHdoZXJlIHBsYW5uaW5nIG9uIG1ha2luZyB0aGUgc2FtZSBtaXN0YWtlIEkgZGlkIGhlIGRvZXNu4oCZdCBwYXkuIEJ1dCBpdOKAmXMgb2ssIHRoZSDigJxXTURz4oCdIEkgc29sZCBoaW0gd2hlcmUganVzdCByb2FkIGZsYWlycyB0YXBlZCB0b2dldGhlciB3aXRoIGFuIGFsYXJtIGNsb2NrIG9uIHRoZSBmcm9udOKApi4gR29vZCB0aW1lcy4NCg0KPGI+RmluaXNoIHRoZSBzZXJpZXMgb2Yg4oCcdGhpbmdzIEkgY2Fu4oCZdCBkb+KAnTwvYj4NClRoaXMgaXMgd2F5IHRvbyBtdWNoIGZ1biB0byBldmVyIHJlYWxseSBzdG9w4oCmIHRpbGwgbmV4dCB0aW1lIQ0KDQotIEQuUi4gQm9uem8gRm90aGVyaW5ndW0="
+"eventtime","2007-02-12 10:59:00"
+"current_moodid","13"
+"url","http://hunlerzfang.livejournal.com/10085.html"
+"userid","6553"
+"itemid","38"
+"event","I have a few extra minutes at school so I figure an update is in order, it'll be small but I'll try to get something a bigger up tonight after ""womens' health studies.""
+
+<b>Sharp lives</b>
+Sharp knives save lives, dull knives may take them.
+Sharp men build homes, dull men may break them.
+Sharp toungues stop wars, dull toungues can make them.
+Sharp words shake worlds, when all men forsake them.
+Sharp kinves can save lives, just as quickly as they take them.
+Sharp words can break worlds, just as quickly as they shake them.
+Sharp men can kill nations, on the same day that they build them.
+Power leads in both direcions, it is your choice how you weild them.
+
+sorry for such a downer of a poem, but it's just been ratteling around in my head for a while, hope you like and I'll see you all tonight!"
+"eventtime","2007-02-07 10:50:00"
+"current_moodid","64"
+"url","http://hunlerzfang.livejournal.com/9903.html"
+"userid","6553"
+"itemid","37"
+"event","The following is a list of things I either can never, or will never do.
+
+<b>Climb Mt Everest</b>
+This falls more into the category of things I would never like to do. it's not that I'm lazy. The truth is at age five I was molested by the pack mule of a Brazilian lint farmer. The mules cry of ""whaggg heeey waggg"" still ring in my ears. Every year for my birthday I have a mule shaped pinata  that I drag into my chambers and.... well that has very little to do with MT Everest, but I just don't like Mt Everest.
+
+<b>Go Skiing</b>
+Ever since the research connecting snow to cancer was released, I find it baffling that people continue to expose them selves to such a needless risk. that and the statistic that 9-10 Yettie attacks happen more than 3 miles from Taco Bell we should all have even less reason to go skiing.
+
+<b>Ingest food <u>not</u> Chemically broken down by the venom of a Cobra</b>
+During world war II my stomach was ripped out by a hairless Iranian prostitute. I have forgotten the taste of cobra venom less mashed potatoes.
+
+<s><b>Fornicate with a goldfish</b></s> Accomplished, September 5th 1996.<s> This has been a dream of mine since.... well, forever. As a younger man I would go to the fish store and just sit, for hours. It was a sad day when they informed me that what I was doing was technically illegal.</s>
+
+<b>Invent ""suppository soft drink""</b>
+It's an idea that I've been kicking around for a few years now. but the initial test subjects have been less than pleased. Technically it has already been invented, so I suppose it's more the mass distribution that I will never accomplish.
+
+<b>Brush my teeth</b>
+nope.
+
+<b>urinate</b>
+I traded the ability to urinate to wilt chamberlain for a hand full of corn. in retrospect I probably got ripped off, though it was good corn.
+
+the preceding list was a list of things of things I can never/will never do."
+"eventtime","2007-02-04 19:45:00"
+"current_moodid","30"
+"url","http://hunlerzfang.livejournal.com/9632.html"
+"userid","6553"
+"itemid","36"
+"event","No epic story right now, maybe tonight though. instead I bring you some pictures and some poetry! first we have one of the few occasions that my sister has been with me during my FreeRunning exploits, we got some other pictures (mostly rolls and jumps, but this one was one of the coolest.)
+
+<img src=""http://img264.imageshack.us/img264/3729/img1178smallqf0.jpg"" />
+
+next we have a picture taken on ""TV tower road"" it's one of the highest ""roads"" (really more of a trail) around here, so naturally I maintained an average speed of 50mph. as you can see, the view from up there is spectacular. (especially with me in it =P)
+
+<img src=""http://img486.imageshack.us/img486/9587/img1888editsmallst2.jpg"" />
+
+lastly we have some of my attempts at poetry:
+
+<b>Truth</b>
+crack the foundation and rip up the floors.
+smash all the windows and break in the doors.
+tear down the walls and demolish the roof.
+when no sticks are standing, in the ashes, find truth.
+
+<b>Service</b>
+all men serve man, and no man is his own.
+the man on the corner, and the king on this throne.
+kill the son and the father, the mother the daughter.
+mourn not the dead for they are like gods.
+at the passing of men we should smile, applaud.
+work for your freedom with all your strength.
+and if you attain it then from glory you drink.
+so go search for your life for what all long too find.
+too bad freedom is no more, than a small state of mind.
+
+<b>All About You</b>
+I'm writing a poem it's all about you,
+but you shouldn't worry, for I'll leave it all blurry.
+i won't mention your flaws and not tell them your fears.
+I'll talk of your smile and never your tears.
+you'll not be the villain, who couldn't decide.
+you'll be the wronged, for surely you tryed.
+I'll be the villain with a sinister smile.
+If you have a moment then sit here a while.
+but only if you have nothing more pressing to do.
+come read my poem that's all about you."
+"eventtime","2007-02-01 12:58:00"
+"url","http://hunlerzfang.livejournal.com/9267.html"
+"userid","6553"
+"itemid","35"
+"event","I aced the Motorcycle driving test on sunday which means that I'll have my ""official"" license in about 10 days. up until now I've been riding with a permit, which isn't all that inconvenient, but now I'll have free reign over the road. You have my apologies for this bland portion of my post but I'm truly psyched about being able to ride, legally, at night and on highways. (Vegas here I come) Moving along, the real post follows.
+
+---NOTE: IF YOU CARE NOTHING ABOUT MY LIFE BEGIN READING AFTER THIS LINE. THAT IS ALL---
+
+Falling backwards through the pressing darkness would have been soothing but for the ground rocketing towards me, but that's not a good place to start. lets step back for a minute. My name is Jon and this is the story of the first day of the end of my life. My eyes reluctantly pealed themselves open, the morning light poking through my shades in neat rows, it felt like a good day, but my intuition was never very good. The stairs creaked in protest as I hobbled downstairs still blissfully lost in that nights pleasant dreams. by the time I had finished dressing Jax and Hylas, my perpetual partners in crime, where knocking impatiently on my door, it was time to go. Our plans for the day spanned from the moon to the stars and went as deep as the ocean. Our first stop was our favorite German breakfast shop ""Von crap'n shnits"" where Hylas got the ""Brotworst"" but I went with the lighter ""Brotbad."" Jax had a glass of water and sucked on a wet rag while mumbling something about communism. Shortly after we moved on to the prize of the day, the airport. No we weren't going anywhere. A much greater purpose awaited us. We where here to finish our last mission on the road to becoming official members of the 501's special ops devision. Our previous missions seemed trivial at this point, cutting down a redwood tree with dental floss, base jumping with a para shoot made of pig scabs, childes play. we where here to completely repaint an air traffic control tower with neon pink paint balloons. Our paint bombs where in a van down below, but we needed the cover of darkness for this to work. we marched single file into the terminals only mens bathroom and took up residence in all 3 available stalls, settling in for a long stay. 6 hours into our stay I began to wonder why we had had the incredible foresight to get there 16 hours before our mission would actually begin. A violent pounding on my stall's door followed by the pleading of a small child pulled me from my musings. ""occupied"" I called and returned to the corner of the stall where my bed of toilet paper was waiting for me. Jax and Hylas could be heard singing the ""ma-na-mana"" Muppet song just inches from me but separated by the impassable walls of bathroom grade plastic. 8 hours later I awoke, had a meal of my own vomit mixed with some gum I found on the underside of the, now empty, toilet paper dispenser, and looked around. I could hear breathing from Jax's stall, and Hylas was quoting the Holy Grail in it's entirety, this was truly a mission beyond all we had done till now. finally the hour was upon us and we filed out past a line of men with impacted bowls, all of which seemed less than happy to see us, they where losses for the greater good. we retrieved our balloons and re-entered the terminal heading quickly to the unguarded air duct. While en-root Jax called me a ""fucking retard"" for suggesting we get here so early. Climbing through an airport air duct, for those of you that have never done it, is probably the most unpleasant experiences one can have, I don't know if it's the airport food or just a general hatred for every one that rides airplanes, but airport personal are the farty-est people in the world. (and I once spent a week in Saint fartera Mexico) finally we where on the roof, a cool wind whipped through my hair and the fresh air was like a breath of fart free life. the climb up the tower wasn't hard, and security was light. triumphantly we stood atop the tower mocking god, believing that not even he could ruin our moment. a few minutes into our operation all hell broke loose. The guards had found us and opened fire. Hylas and Jax had depleted their supply of paint balloons early on covering more than half of the tower. having nothing left to do they began climbing down. before I could drop my last balloon the coppery taste of blood filled my mouth and I felt the shot before I heard it, my right shoulder hurt like nothing on earth should. when a second blossom of white pain bloomed from my right leg I seriously doubted my odds of surviving this adventure. My last horizontal view was a glorious view of a darkened skyline, ""what a view."" Few things can match free falling. I heard the squealing of tires below but didn't have the desire to learn what it was. Closing my eyes my only regret was that I would never get to see the looks of admiration from my fellow 501st star wars costume enthusiasts. The impact felt much different than I expected.... this couldn't be what death felt like, this was soft and fuzzy. Opening my eyes I realized I was lying on the mattress we kept strapped to the roof of our van at all times just in case we needed to catch some one falling from a traffic control tower. As we barreled down the street I lost consciousness listening to Jax and Hylas in the cab still singing the ""ma-na-mana"" song.... what a day."
+"eventtime","2007-01-30 19:24:00"
+"url","http://hunlerzfang.livejournal.com/8984.html"
+"userid","6553"
+"itemid","34"
+"event","I've finally figured out one of life's great miseries! first I'll provide some information. When a man gets into a relationship it is usually for physical gratification (as kindly as i could put it...) which is expected as payment for the efforts he puts into the happiness of his partner. Inversely when a woman gets into a relationship it is almost always for psychological re-enforcement (example: I love you. You don't look fat in that. You're much hotter than Keria Knightly.) which they receive in exchange for physical gratification and housekeeping. Quite obviously it is a gloriously harmonious system in which all partys involved receive what they put in (or in some cases ""put out"") for. the trouble occurs when people like me come along; people I like to call - Psychological sluts. In the physical world a ""slut"" is an individual that attempts, weather intentionally or not, to un-balance the delicate struggle between the genders by providing too much for too little. (I'll let you think about that one) I believe that I fall into that category but providing gratification on the other end of the spectrum Blindly handing out psychological ""favors"" to people that I barely even know or without expecting anything in return. I help them feel better about themselves, Giving them relationship advice and telling them ""everything is going to be fine."" This all seemed harmless enough till I found myself atop a hill at night with a close female friend. Looking down at the shimmering lights and noisy bustle of the city below from which we where so removed. I found myself giving her advice about her ex-boyfriend and the rest of her life, explaining that she was beautiful and funny and had nothing to fear from life. We talked for easily 3-4 hours. Finlay it was getting late so we went out separate ways and she felt much better about her EX. Bear in mind that this all too place <i>after</i> ""lets be friends"" line. now those of you that know me can all agree that I'm a little crazy, but after thinking about what happened, and realizing that its happened before, I felt like a whore who could not have a meaningful relationship because I'm too busy slutting my mind out to every girl with a problem. Understand? That's why a Kind, caring, smart, athletic, hansom guy like me doesn't have a girlfriend. Girls and, frighteningly, guys know that they can turn to me when ever they need a ""pick me up."" I am the mental equivalent of a F*** buddy. I suppose the key to getting a girlfriend would be to become a shallow damaged mentally unstable abusive guy with a self image problem. That way any woman I came across would have to sleep with me before expecting any modicum of respect or caring. I'm not saying that a woman should sleep with me for caring about her, nothing I do can get me to stop caring about everyone around me. It's just that women need nothing from me, because I give it freely. Just a thought, but I'd like to hear your thoughts on this matter."
+"eventtime","2007-01-26 12:43:00"
+"current_moodid","101"
+"url","http://hunlerzfang.livejournal.com/8833.html"
+"userid","6553"
+"itemid","33"
+"event","The ""Sea Slug"" incident still fresh in our minds Hylas and I had just received a new assignment; a domestic disturbance on the outskirts of town. Strangely the only information given us was of strange noises, reported by a neighbor, coming from a corner house. Pulling up to the dilapidated tutor style house at around 9pm; I felt that something was amiss, like when you start to drink a beer only to find the bottle had been used as a restroom during along car trip. A deep sinking feeling tugged at the edges of my stomach as the steep slope of the roof and odd colored walls tried to warn us of something. Before I could knock the aged blue door swung open with the kind of creaking that, before now, only existed in cheesy horror movies. Glancing over my shoulder I could see that Hylas was just as uneasy about this as I was, but nothing could be done about it. It took a while for my eyes to adjust to the light, or lack there of, in the dusty room. ""Nothing here"" I called to Hylas as we went from room to room. one odd thing, there was new food in the refrigerator. I had Never felt something so wrong in my life, and I had once spent the night with a Brazilian transvestite with no left leg, this was something different. After clearing the ground floor I headed up the curved stair case. Dust on the steppes had recently been disturbed. As my eyes reached ground level on the second story nothing looked out of place. and then there it was; Carved on the middle of the 3 upstairs doors. it was the same unicorn backed by a rainbow Sea Slug had on his T-shirt just days ago, the same unicorn that had been at every drug related crime scene for the last 2 years. Driven more by a dark curiosity than logic I moved deftly towards the door. The creaking of my partners shoes on the stairs behind me was the last thing I heard before I hit the ground. A cold blackness filled my vision and unfamiliar shapes floated across my mind, I hadn't been tripping this bad since I had snorted a line of Drano, wasabi and baking powder to gain entrance to a drug lord's inner circle. When I came too Hylas was standing over me laughing harder than any normal person should laugh. Raising my head took a lot of willpower but it was worth it. before us in a nearly empty room was a naked man dancing around what must have been a 3ft tall mound of Cheetos and cocaine. the man was of average height but he had a Cheeto up each nostril and was singing something about monkeys and marmalade. I had been knocked unconscious by a gust of Cheeto filled cocaine laced wind that met me as I opened the door. Hylas, regaining his composure, explained that I had been out for at least 2 minutes mumbling about hexagons. All our fears evaporated as we stood transfixed by the rithmic bouncing of the dancing man who was obviously tripping balls. we called dispatch and told them to get substance control over here. As we turned to leave the dancing man suddenly became aware of us. Sounding like mickey mouse he screeched and jittered ""is your name Jon?"" shocked that this man could even speak in his condition I replied ""yes."" not knowing what to think. dancing his quick steppes to music only he could hear, he approached us and said ""Big G wanted me to give you this"" as he handed me a folded note on blue paper. The scribblings on the paper where a location, a date and a time... ""train station 3:00 Saturday."" still puzzling over this we left just as substance control got there. Saturday was still 3 days away, and we wouldn't find out what the note meant till then."
+"eventtime","2007-01-23 13:20:00"
+"current_moodid","59"
+"url","http://hunlerzfang.livejournal.com/8534.html"
+"userid","6553"
+"itemid","32"
+"event","Heavy rain pelted on the only window in the room. Spray from a passing car washed up over the grimy pains as I pulled my attention back to the job at hand. The dank room made me want to strike a match and start running but that wasn't an option. To my left sat Hylas, my only confidant in this hell hole, to my right sad Jimmy ""the flap jack"" Thomas. But the focus of the room was the man slouching in the chair across from me his eyes flashing as they seemed to look right through the table. this man was known to us only by the moniker ""sea slug."" ""your move"" the words coming from hylas, though simple, held a lot of weight and an almost visible tension shot across the room. Sea slug reached towards the table and picked up the dice. They rattled in his hand like tail of a  snake - warning you to stay away. he tossed the dice down. a 2 and 4 - 6 that was it, the game was over, seaslug had just landed on my boardwalk with 2 hotels and he was out of money. the crowd was dead silent - still pondering what had just happened, the Sea Slug had lost. the small wins and losses of the hours that stretched behind us seemed trivial - we had won! Hylas and I collected the color full paper money from the table, but as we turned to the door, I heard it. My heart stopped as i heard the unmistakable ""metal on metal"" grind of a 9 millimeter semiautomatic handgun sliding the first round from, what i assumed to be, a 12 round clip (more than enough round for everyone in the room) but Hylas had acted faster than I. No one could move before Hylas was behind the man with the gun who, to my horror, was none other than Sea Slug himself. i rushed in pulling my knife and laying it to rest in his stomach just above his first rib, it was then that we learned why he had such an odd title. His skin disintegrated and he flopped to the ground turgid with the disgusting juices that filled his green balloon like body the threat gone for now we bolted for the door. the second we where out our SWAT backup came in and cleared the room. this was supposed to be a simple drug bust but it turned into much much more - a 12 hour game of monopoly with a Sea Slug and a anthropomorphous flap jack. i would never forget the lessons we learned, we drove back home with a lot of new information but no closer to breaking the case.... i suppose you can't rush fate.
+
+The preceding story is all i can release about the events that transpired during Hylas's visit to southern California. oh yeah, and i'm kind of back"
+"eventtime","2007-01-20 21:24:00"
+"current_moodid","87"
+"url","http://hunlerzfang.livejournal.com/8360.html"
+"userid","6553"
+"itemid","31"
+"event","man, it's been forever sence my last post... sorry to who ever it may consern. I've been takeing 250 mile trips between where my dad lives and where I live down here.... and my dad has dile-up XD aaaaaany who, down to business.
+
+I went to a gay pride thing with a friend on saturday (a friend who is a girl =P) and man.... I've never seen so many well dressed men and poorly dressed women (at least sence i moved out of the bay area). and the creepy looks i would get from the well dressed men.... man, I'm not a homophobe but I got chills. oh! and during that same weekend I went Kyacking two days in a row, and the best part is my arms don't hurt! All my working out is finaly paying off for something <i>other</i> than my FR (Free Running) anticks. only being home for 3-4 days at a time is making finding a new job a little chalenging but it'll all work out some how. also, here's a crummy picture i drew for a friend because of a conversation we had:
+
+
+<lj-cut text=""pic"">
+<img src=""http://img93.imageshack.us/img93/3616/blackapronsmall5xf.jpg"" />
+</lj-cut>
+
+so yeah, i have an awsome thing written i just need to edit it before i put it up here, cyall next time =)
+
+-Tiffy"
+"eventtime","2006-07-11 11:42:00"
+"current_moodid","15"
+"url","http://hunlerzfang.livejournal.com/8000.html"
+"userid","6553"
+"itemid","30"
+"event","I know i've kept up a pretty good track record of random humor, but I've got a lot on my mind right now so I'll just post this survay that Lizah did.
+
+<lj-cut text=""survay"">
+1) How old do you wish you were?
+like 12, then I would look the same way I act.
+
+2) Where were you when 9/11 happened?
+my Mom woke me up and said the world was ending, I replyed with ""that's nice, so can I sleep in?""
+
+3) What do you do when vending machines steal your money?
+I don't usually use vending macheens, but one does eat my money I just use the vending hack code to get it back.
+
+4) Do you consider yourself kind?
+lol... yeah... and some times to a fault.
+
+5) If you had to get a tattoo, where would it be
+don't think I ever could, but if i did, I would get circles around my wrists.
+
+6) If you could be fluent in any other language, what would it be?
+mandarin.
+
+7) Do you know your neighbors?
+most of them, there is a new famly that I don't really know yet.
+
+8)What do you consider a vacation?
+Camping, or just going to the beach.
+
+9) Do you follow your horoscope?
+I'm not even sure of my sign, I think it's Gemini
+
+10) Would you move for the person you loved?
+of course
+
+11) Are you touchy feely?
+I like to think that i'm sensative to peoples feelings, but I'm told I almost never open up to people and tell them how I really feel
+
+12) Do you believe that opposites attract?
+yar, I know it's true via science and expereance
+
+13) Dream job?
+just somthing I could support a famly on.
+
+14) Favorite channel(s)?
+ummm, Cartoon Network and Comady Central.
+
+15) Favorite place to go on weekends?
+I usually just rest on weekends, bussy enough during the week....
+
+16) Showers or Baths?
+havn't had a bath sence my mom stoped giving them to me in the sink.
+
+17) Do you paint your nails?
+nope, though it sounds fun
+
+18) Do you trust people easily?
+haha, yeah, once again usually to a fault.
+
+19) What are your phobias?
+hmmm, none that I can think of, Some times I'm afrade of the dark.
+
+20) Do you want kids?
+I love kids, so probably yeah.
+
+21) Do you keep a handwritten journal
+nope, text documents for the win
+
+22) Where would you rather be right now?
+probably with friends up north or elsewere in the world.
+
+23) Who makes you feel warm and fuzzy?
+cats, and when I can make people smile or laugh.
+
+24) Heavy or light sleeper?
+depends, if I know I don't have to get up you pretty much have to beat on me to wake me up, if i know i'll have to get up, i'll wake up to footsteps.
+
+25) Are you paranoid?
+I like to be prepaird for just about any thing, I don't know if that's paranoia
+
+26) Are you impatient?
+haha, no
+
+27) Who can you relate to?
+most people really.
+
+28) How do you feel about interracial couples?
+doesn't bug me one bit.
+
+29) Have you been burned by love?
+heh... yeah
+
+30) Whats your favorite pick up line?
+""hey baby, want me to take of my shirt so you can see the gun show?""
+
+31) What's your main ringtone on your mobile.
+don't want to spend the money on one
+
+32) What were you doing at midnight last night?
+watcing Spice World at a friends house
+
+33) What did the last text on your cellphone say?
+no Cellphone
+
+34) Whose bed did you sleep in last night?
+on a friends futon, then my own.
+
+35) What color shirt are you wearing?
+a black poorboy shirt with awsome white stuff on it.
+
+36) Most recent movie you watched?
+Spice World
+
+37) Name three things you have on you at all times:
+Watch, wallet, and keys
+
+38) What color are your bed sheets?
+sky blue
+
+39) How much cash do you have on you right now?
+like 20 bucks.
+
+40) What is your favorite part of the chicken?
+eh, it's all chicken.
+
+41) What's your favorite town/city?
+probably the entirety of the bay area.
+
+42) I can't wait till:
+I try not to focus on any thing but the present, it makes things less compilcated.
+
+43) What's your favorite color?
+green, sence I was 3-4, then, when i was about 14-15 I found out my eyes where green, psyched i was.
+
+44) What did you have for dinner last night?
+Sushi
+
+45) How tall are you barefoot?
+6'2"" i'm taller than that now, but that's the last offical mesurement.
+
+46) Have you ever smoked heroin?
+nope, don't intend to either.
+
+47) Do you own a gun?
+I have a Blowgun and many air based weapons, but no actual ""fire"" arms.
+
+48) What do you prefer to drink in the morning?
+watter or ornage juce.
+
+49) What is your secret weapon to lure in the opposite sex?
+ummm, looks, charm and wit I guess... though it's not much of a secret.
+
+50) Do you have A.D.D.?
+I don't really think I do, but many tell me I act like it.
+
+51) What time did you wake up today?
+6 somthing
+
+52) Current worry?
+none i really wana talk about.
+
+53) Current hate?
+hehe, i don't hate stuff really.
+
+54) Favorite place to be?
+on top of something tall about to jump and roll
+
+55) Where would you like to travel?
+Japan prolly, and most of eurup looks cool.
+
+56) Where do you think you'll be in 10 yrs?
+probably working, running or dead
+
+57) Last thing you ate?
+watter mellon
+
+58) What songs do you sing in the shower?
+Say a Little Prair for You - various artists, Lonly Day - System of a Down, annnnd Bboulivard of Broken Dreams - Green Day
+
+59) Last thing that made you laugh?
+Spice World
+
+60) Worst injury you've ever had?
+A shatterd right arm at the elbow, it was somthing like 5-8 brakes of 2-3 bones
+
+61) Does someone have a crush on you?
+from what i'm told, yeah =)
+
+62) What's your favorite candy
+sour stuff in general.
+
+63) What song do you want played at your funeral?
+I'm hoping I die in such a way that they won't be able to find my body (becaues that's just so cool) but if they do, ""push it too the limit""
+
+
+hmmm... i just realised that 3 of my answers included the words ""spice world""
+</lj-cut>"
+"eventtime","2006-06-08 17:58:00"
+"current_moodid","91"
+"url","http://hunlerzfang.livejournal.com/7919.html"
+"userid","6553"
+"itemid","29"
+"event","woot, I just got back from camping and i'm sifting through the pictues to find ones that are good enough for you. I've been job hunting for the past few days, lots of options, aparently every one wants me! but untill I can decide i'm just going to leave you all with this question: what happens tomarrow? (oh gee... i wonder what it could be...)"
+"eventtime","2006-06-06 20:42:00"
+"current_moodid","101"
+"url","http://hunlerzfang.livejournal.com/7467.html"
+"userid","6553"
+"itemid","28"
+"event","Man, I've been down and out sick for the last few days. BUT! It gave me somt time to think and I've narrowed what down what I'm going to do with my life!
+
+I've considerd most standard options and I'm going to start my own religion. it will be called ""Tiffytaryanism"" we'll follow a strict set of beliefes bassed off the sacred triangle:
+<img src=""http://img97.imageshack.us/img97/206/triangle1il.jpg"" />
+(obviously this is not the original sacred triangle, that one has only been seen by one person.... me.)
+as you can see, i'm at the top of the triangle and I am higher than all the unrelated stuff, this is symbolic of how I have atained innerpeace and am no longer down with the penguins. the beauty of the triangle is nothing is oposit from any thing else. the penguins are not exatly my antihisis, but they are not enlightend like me. we're still not sure what the Jade is for, but we hold it in a position of reverence...
+
+I first found this triangle when the arcangle Dave came to me in a vision after i had fallen from a tree and struck my head. he told me where to find the sacred triangle. ofcourse all the text on the triangle was encripted but Dave also told me how to understand it (aparently the maker of the tryangle also made the kids menue ""code"" game for micdonalds) after copying down the text from the sacred triangle I was told to get followers and teach them the 5 tenents of our religion.
+
+1. Never question the sacred triangle.
+2. If you question the sacred triangle you have broken the first tenent.
+3. Don't break any tenents.
+4. Make checks payable to ""Tiffytarianism""
+5. Give lots of checks to TIffy.
+
+It's the simplicity of the 5 tenants that pulls Tiffytarianism above all the other <s>crack pot cults</s> <i>Religions</i> out there. and the way they back eachother up so flawlessly screams devine planing. 
+
+Why join Tiffytarianism? it's a good question and one I am asked very often. (followed in a close second by ""and who the hell are you?"") because it's the right thing to do, and i know this because Dave told me so. are you really going to question an arcangle? also, it's no more crazy than alot of main stream religions.... sereiously. so join up to day!
+-high priest Tiffy"
+"eventtime","2006-05-24 16:30:00"
+"current_moodid","15"
+"url","http://hunlerzfang.livejournal.com/7291.html"
+"userid","6553"
+"itemid","27"
+"event","U29tZSBvZiBteSBtb3JlIGZhaXRoZnVsbCByZWFkZXJzIG1heSBoYXZlIG5vdGljZWQgbXkgbG9uZyBhYnNlbmNlLiBUaGlzIGFic2VuY2UgaXMgYmVjYXVzZSBJIGhhdmUgYmVlbiB1bmRlcmNvdmVyLCBzbyB1bmRlcmNvdmVyIHRoYXQgdGhlIG9ubHkgd2F5IEkgY291bGQgYmUgbW9yZSB1bmRlciBjb3ZlciB3b3VsZCBiZSBpZiBhIGNvdmVyIGZhY3RvcnkgZXhwbG9kZWQgYW5kIGJ5IHJhbmRvbSBjaGFuY2UgZXZlcnkgb25lIG9mIHRoZSBsaWJlcmF0ZWQgc2hlZXRzIGxhbmRlZCBpbiBhIG5lYXQgcGlsZSBkaXJlY3RseSBvbiBtZS4gQnV0IHNlZWluZyBhcyBob3cgdGhhdCBpcyBub3QgbGlrZWx5IHRvIGhhcHBlbiB0aGlzIHdhcyBtb3N0IGxpa2VseSB0aGUgbW9zdCB1bmRlcmNvdmVyIEkgd2lsbCBldmVyIGJlLiBXaGF0IHdhcyBJIGluZmlsdHJhdGluZyB5b3UgYXNrPyBXYWwtTWFydCAqZHVuIGR1bm4gZHVubm5ubiogeWVzLCB0aGF0J3MgcmlnaHQgdGhlIGRlbiBvZiBwdXJlIGV2aWwgd2l0aCBpdCdzIGNsZWF2ZXIgZnJvbnQgYXMgYSBzdXBlciBzdG9yZSBhbmQgaXQncyB2ZXJ5IG1pc2xlYWRpbmcgc21pbGV5IGZhY2Ugc3RpY2tlcnMgSSBuZXZlciB0aG91Z2h0IEkgd291bGQgZ2V0IHRoZSBjaGFuY2UsIGJ1dCBhcyBsdWNrIHdvdWxkIGhhdmUgaXQsIGEgc2VyaWVzIG9mIGV2ZW50cyBsZWFkIHRvIGFuIG9wcG9ydHVuaXR5IHRoYXQgSSBjb3VsZG4ndCBwYXNzIHVwLCB0aGUgZm9sbG93aW5nIGlzIHRoYXQgc3RvcnkuDQoNCkl0IHdhcyBlYXJseSBtb3JuaW5nIGFuZCBJIGhhZCBkZWNpZGVkIHRvIG1ha2UgYSBydW4gdG8gdGhlIHN0b3JlIGZvciBhIHJlZmlsbCBvZiBwZWFudXQgYnV0dGVyLCBjYXIgdGlyZXMgYW5kIFZlbmV0aWFuIGJsaW5kcyBJIGhhZCB0aG91Z2h0IGxvbmcgYW5kIGhhcmQgYnV0IHRoZSBvbmx5IHN0b3JlIEkgY291bGQgdGhpbmsgb2YgdGhhdCB3b3VsZCBjYXJyeSBhbGwgMyBhdCBsb3cgbG93IHByaWNlcyB3b3VsZCBiZSB0aGUgZGVhbiBvZiBwdXJlIGV2aWwgdGhhdCB3ZSBrbm93IGFzICJXYWwtTWFydC4iIEFzIEkgd2Fsa2VkIHRocm91Z2ggdGhlIHN0b3JlIEkgbG9va2VkIGFyb3VuZCBhdCBpdCdzIG1hbnkgYnVzeSBibHVlIHZlc3RlZCB3b3JrZXJzLCBhcyB0aGV5IGhhbmRlZCBvdXQgc3RpY2tlcnMgYW5kIGFza2VkIG1lIHdoeSBJIHdhcyBjYXJyeWluZyBhIGNydWlzaWZpeCBhbmQgdmlsZSBvZiBob2x5IHdhdGVyLiBJIHdvbmRlcmVkIGhvdyBtYW55IG9mIHRoZW0gbmV3IHRoZSB0cnV0aOKApiBhZnRlciBxdWlja2x5IGNvbGxlY3Rpbmcgd2hhdCBJIGhhZCBjb21lIGZvciBzb21ldGhpbmcgY2F1Z2h0IG15IGV5ZSwgc29tZSB0aGluZyB0aGF0IHNob25lIGxpa2UgYSBiaWcgc3RlYW1pbmcgcGlsZSBvZiBmcmVzaCBvcHBvcnR1bml0eS4gTmVhciB0aGUgYmFjayBvZiB0aGUgc3RvcmUgKEknbSBuZXZlciByZWFsbHkgc3VyZSB3aGF0IHRoZSBiYWNrIG9mIGEgV2FsLU1hcnQgaXMgYmVjYXVzZSB0aGV5IGhhdmUgY2hlY2tvdXRzIGV2ZXJ5IHdlYXLigKYgSSBqdXN0IGFzc3VtZSBpdCdzIHRoZSBwbGFjZSBmdXJ0aGVzdCBmcm9tIHRoZSBlbnRyYW5jZSkgc3RhbmRpbmcgdGhlcmUgdW5hd2FyZSB3YXMgYW4gZW1wbG95ZWUgd2VhcmluZyBhIG5hbWUgdGFnIHRoYXQgcmVhZCBzaW1wbHkgInRyYWluZWUuIiBUaGlzIHdhcyBteSBjaGFuY2UgSSB3b3VsZCBuZXZlciBoYXZlIGEgYmV0dGVyIG9uZS4gSSBtb3ZlZCBjb3lseSBvdXQgb2YgdmlldyBvZiB0aGUgY2FtZXJhcyB0aGF0IGFwcGVhciBhcyBibGFjayB3YXJ0cyBvbiB0aGUgY2VpbGluZyBvZiBldmVyeSBzdG9yZS4gSSB0aGVuIGNhbGxlZCBvdmVyIHRoZSB5b3VuZyBtYW4gYW5kIGFza2VkIGhpbSBhYm91dCBzb21ldGhpbmcsIGFzIGhlIHR1cm5lZCBoaXMgYmFjayB0byBtZSBJIHF1aWNrbHkga25vY2tlZCBoaW0gb3V0IHdpdGggYSBzbWFjayBmcm9tIHRoZSBWZW5ldGlhbiBibGluZHMgSSB3YXMgY2Fycnlpbmc7IGFmdGVyIHN0dWZmaW5nIGhpbSBpbiB0aGUgeWFybiBzZWN0aW9uIGFuZCBkb25uaW5nIGhpcyBzcG9ydHkgYmx1ZSB2ZXN0IEkgcXVpY2tseSBtYWRlIG15IHdheSB0byB0aGUgYmFjayBvZiB0aGUgc3RvcmUsIGhlYWRpbmcgdG93YXJkcyB0aGUgZG9vcnMgbWFya2VkIG9taW5vdXNseSAiZW1wbG95ZWVzIG9ubHkuIiBJIHNtaWxlZCBhbmQgbm9kZGVkIG11bWJsaW5nIHNvbWV0aGluZyBhYm91dCBteSBicmVhayBhcyBJIHBhc3NlZCB0aGUgb3RoZXIgZW1wbG95ZWVzLiBPbmNlIGluIHRoZSBiYWNrIEkgZm91bmQgc3RhY2tzIGFuZCBzdGFja3Mgb2YgYm94ZXMgYW5kIGNyYXRlcyBmaWxsZWQgd2l0aCB3aGF0IEkgY291bGQgb25seSBpbWFnaW5lIHdhcyB0aGUgYm9kaWVzIG9mIFdhbC1tYXJ0J3MgbWFueSB2aWN0aW1zLiBJIGtlcHQgaGVhZGluZyBiYWNrIG5vdCB3YW50aW5nIHRvIHN0b3AgZm9yIGZlYXIgdGhhdCBJIG1pZ2h0IGJlIHN0cmlja2VuIHVuY29uc2Npb3VzIGJ5IHRoZSB3YXZlcyBvZiBsb3cgcHJpY2VzIHVzZWQgdG8gc3RvcCBtb3N0IGFkdmVudHVyZXJzLiBGaW5hbGx5IEkgZm91bmQgdGhlIGRvb3IgSSB3YXMgc2VhcmNoaW5nIGZvciwgdGhlIGRvb3IgbWFya2VkIHNpbXBseSAiRG8gTm90IEVudGVyIiBubyBjb25kaXRpb24gb24gd2hpY2ggeW91IGNvdWxkIGVudGVyLCBzaW1wbHkgYSB3YXJuaW5nIHRoYXQgeW91IHNob3VsZG4ndC4gVGhlIGRvb3Igd2FzIGxvY2tlZCwgb2YgY291cnNlLCBidXQgSSBoYWQgcGlja2VkIHVwIGEgMjQgcGFjayBvZiBsb2NrIHBpY2tzIGluIHRoZSB0aGlldmVyeSBzZWN0aW9uIGVhcmxpZXIgb24sIEkgbWFkZSBzaG9ydCB3b3JrIG9mIHRoZSBsb2NrLiBBZnRlciBzdGVwcGluZyBpbiBpdCB0b29rIG15IGV5ZXMgYSBtb21lbnQgdG8gYWRqdXN0IHRvIHRoZSByZWxhdGl2ZSBkYXJrIGFmdGVyIHdhbGtpbmcgYXJvdW5kIGluIHRoZSBibGluZGluZyBmbG9yZXNjZW50IGxpZ2h0IHRoYXQgZXZlcnkgV2FsLU1hcnQgaGFzLiBJIGhhZCBmb3VuZCB3aGF0IEkgd2FzIGxvb2tpbmcgZm9yOyB0aGUgcm9vbSB3YXMgZmlsbGVkIHdpdGggcGlwZXMgYW5kIHZhbHZlcyB3aXRob3V0IG51bWJlciwgdGhpcyB3YXMgdGhlIHJvb20gZnJvbSB3aGljaCBhbGwgdGhlIGV2aWwgY2FtZS4gQ2hlY2tpbmcgdGhlICQyLjI0IHdhdGNoIEkgaGFkIHBpY2tlZCB1cCBpbiB0aGUgImpld2VscnkiIHNlY3Rpb24gSSBzYXcgdGhhdCBpdCB3YXMgZ2V0dGluZyBsYXRlLCBub3Qgd2FudGluZyB0byBiZSBjYXVnaHQgbGVhdmluZyB0aGUgc3RvcmUgYXQgbmlnaHQgSSBkZWNpZGVkIEkgd291bGQgcmVzdCBoZXJlLiBUaGUgbmV4dCBtb3JuaW5nIEkgd2VudCB0byB3b3JrLCBJIHJldmVyc2VkIHRoZSBwb3NpdGlvbiBvZiBldmVyIGtub2IsIHZhbHZlLCBzd2l0Y2ggYW5kIGxldmVyICh1c2luZyB0aGUgc2ltcGxlIGxvZ2ljIHRoYXQgaWYgdGhlIHdheSB0aGV5IGFyZSBub3cgaXMgZXZpbCB0aGVuIGlmIEkgcmV2ZXJzZSB0aGVtIHRoZXkgc2hvdWxkIGJlIGdvb2QpIHdpdGhpbiBtb21lbnRzIEkgc3RhcnRlZCB0byBoZWFyIHRoZSBlZmZlY3RzIG9mIG15IHJldmVyc2FsLiBJIGhlYXJkIHNjcmVhbXMgZnJvbSB0aGUgYmF0aHJvb21zIG5lYXIgYnkgYXMgZW1wbG95ZWVzIHdoZXJlIGtub2NrZWQgZnJvbSB0aGVpciBwb3JjZWxhaW4gdGhyb25lcyBvZiBldmlsIGJ5IHRoZSBzdWRkZW4gaW5jcmVhc2UgaW4gd2F0ZXIgcHJlc3N1cmUuIEFsc28gdGhlIHJvb20gSSB3YXMgaW4gYmVnYW4gdG8gc2hha2UgdHJlbWVuZG91c2x5IOKAkyBJIGdvdCBvdXQgYXMgc29vbiBhcyBJIGNvdWxkLiBBcyBJIHJhbiBkb3duIHRoZSBoYWxsIHdheSBiYWNrIHRvIHRoZSBwdWJsaWMgcG9ydGlvbiBvZiB0aGUgaGlkZW91dCBJIHBhc3NlZCBlbXBsb3llZXMgd2l0aCB0aGVpciBwYW50cyBkb3duIGNvdmVyZWQgaW4gcHV0cmVzY2VuY2Ugc3RhZ2dlcmluZyBpbiB0aGUgc2FtZSBkaXJlY3Rpb24uIEFzIEkgcmV0dXJuZWQgdG8gbWFpbiBwb3J0aW9uIG9mIHRoZSBzdG9yZSBJIG5vdGljZWQgd2F0ZXIgcG9yaW5nIGZyb20gdGhlIGNlaWxpbmcgYXQgYW4gYWxhcm1pbmcgcmF0ZS4gVGhlIGVtcGxveWVlcyBzY3VycmllZCBhYm91dCBhY3RpbmcgYXMgaWYgdGhleSBoYWQgbm8gaWRlYSB3aGF0IHdhcyBnb2luZyBvbiwgYnV0IEnigJltIHN1cmUgZXZlcnkgb25lIG9mIHRoZW0ga25ldyB0aGUgdHJ1dGgg4oCTIHRoZXkgaGFkIGJlZW4gZm91bmQgb3V0LiBKdXN0IGFzIEkgbWFkZSBpdCBvdXQgdGhlIGRvb3IgY2FycnlpbmcgbXkgcGVhbnV0IGJ1dHRlciwgVmVuZXRpYW4gYmxpbmRzIGFuZCBhIGNhciB0aXJlIHRoZSB3aG9sZSBidWlsZGluZyB3ZW50IGRvd24uIFRoZSBtb3JuaW5nIG9mIHRoZSBkYXkgcHJpb3IgdG8gdGhpcyBJIG5ldmVyIHdvdWxkIGhhdmUgYmVsaWV2ZWQgdGhhdCBzdWNoIGEgdmljdG9yeSB3YXMgcG9zc2libGUsIGJ1dCBhbGFzLCBpdCB3YXMhIFRob3VnaCBJIGtub3cgaXQgaXMgb25seSBhIHRlbXBvcmFyeSB2aWN0b3J5IGFuZCB0aGF0IEkgYWxvbmUgY2FuIG5vdCBzdG9wIFdhbC1NYXJ0LCBpdCB3YXMgc3RpbGwgYSB2aWN0b3J5LiBBbHNvIG5vdyBJIGtub3cgdGhlIGJlYXN04oCZcyB3ZWFrbmVzcyBhbmQgbXkgbmV4dCBhdHRhY2sgY2FuIGJlIGFsbCB0aGUgbW9yZSBzd2lmdC4gSSBhbSBKb24sIEkgYW0gVGlmZmFueSwgSSBhbSB0aGUgc2xheWVyIG9mIFdhbC1NYXJ0LiBVbnRpbCB3ZSBtZWV0IGFnYWluID0pDQoNCi1Kb24g4oCccHJvdGVjdG9yIG9mIHRoZSBwZW9wbGXigJ0="
+"eventtime","2006-05-05 11:38:00"
+"current_moodid","42"
+"url","http://hunlerzfang.livejournal.com/6993.html"
+"userid","6553"
+"itemid","26"
+"event","ok, so this is me doing a geto handstand, i'm getting better and pretty soon i'll be doing these on high places!
+<img src=""http://img333.imageshack.us/img333/4267/dscf06497cw.jpg"" />
+those are so much fun.
+
+same type of handstand, differnt angle.
+<img src=""http://img305.imageshack.us/img305/8572/dscf06422ts.jpg"" />
+
+one handed cartwheel! *matrix shootout theme*
+<img src=""http://img361.imageshack.us/img361/9676/dscf06530mg.jpg"" />
+
+this is a bad one that was right before i did somthing cool, but i liked it so here it is.
+<img src=""http://img361.imageshack.us/img361/2064/dscf06516fz.jpg"" />
+
+our mom cought us on as we where going to school, you can see that we're both wide awake!
+<img src=""http://img446.imageshack.us/img446/7307/dscf05829ht.jpg"" />
+
+and last but not least this is me before I shaved off my gote, I look so much less evil now, and that's my sister behind me, we where trying to flip eachother over.
+<img src=""http://img295.imageshack.us/img295/2122/dscf05507by.jpg"" />
+it didn't work to well.
+
+
+alrighty till some other time =)
+
+-Jon"
+"eventtime","2006-04-05 14:33:00"
+"current_moodid","59"
+"url","http://hunlerzfang.livejournal.com/6897.html"
+"userid","6553"
+"itemid","25"
+"event","T24gbXkgbmV4dCBpbnZlc3RpZ2F0b3J5IHRyaXAgSSBkZWNpZGVkIHRvIGRlbHZlIGRlZXAgaW50byB0aGUgd29ybGQgb2YgZmFzaGlvbi4gSSwgbm90IGtub3dpbmcgbXVjaCBhYm91dCBmYXNoaW9uIG90aGVyIHRoYW4gY29tbW9uIGRlY2VuY3kgd2FzIHF1aXRlIG91dCBvZiBteSBlbGVtZW50IChkaXJ0KSB3aGlzdCBvbiB0aGlzIGFkdmVudHVyZS4gSSB0b29rIG9uIHRoZSBwZXJzb25hIG9mIOKAnEhhbnMg4oCTIHRoZSB1cCBhbmQgY29taW5nIGZhc2hpb24gZGVzaWduZXIu4oCdIEl0IHN1cmUgd2FzIGx1Y2t5IHRoYXQgSSBzcGVudCA0IHllYXJzIGxpdmluZyB1bmRlciB0aGUgZmxvb3IgYm9hcmRzIG9mIGEgR2VybWFuIGZhbWlseeKAmXMgaG91c2UgbGVhcm5pbmcgaG93IHRvIHRhbGsgR2VybWVuZ2xpc2jigKYNCg0KVGhlIGZpcnN0IHN0ZXAgd2FzIGZpbmRpbmcgdGhlbTsgdGhpcyB3YXMgbm90IGhhcmQgc2VlaW5nIGFzIGhvdyB0aGV5IG93biA0NiUgb2YgdGhlIHdvcmxkLiAoVGhlIG90aGVyIDIgb3duZXJzIGJlaW5nIEJpbGwgR2F0ZXMsIHRoZSBtZWdhIGJpbGxpb25haXJlLCBhbmQgSm9yZ2UsIHRoZSBob2JvLCB3aG8gdmlhIGEgaGlsYXJpb3VzIHNlcmllcyBvZiBhY2NvdW50aW5nIGVycm9ycyB3YXMgZ2l2ZW4gdGhlIGRlZWQgdG8gMTYlIG9mIHRoZSBlYXJ0aCkgSSBwdXQgb24gdGhlIHNpZ25hbCBiZWFjb24gdGhhdCBpcyBzbyBzdGFuZGFyZCB0byB0aGUgZmFzaGlvbiB3b3JsZDogQSBicmlnaHQgcmVkIGRlY29yYXRpdmUgbmVjayBzY2FyZjsgdGhleSBwaWNrZWQgbWUgdXAsIGZyb20gdGhlIGxvY2FsIGZhc2hpb24gYW5kIGNydW1wZXQgc2hvcCwgKGxlLWNsb3RoaW5nIGUgc3VzdGVuYW5jZSkgaW4gb25seSAyNiBtaW51dGVzLiBPbiB0aGUgd2F5IHRvIHRoZWlyIGhpZGRlbiBiYXNlLCBzb21lIHdoZXJlIGluIExBLCBJIHdhcyBuZWFybHkgZHJpdmVuIG1hZCBieSB0aGUgaW5jZXNzYW50IHByYXR0bGUgYWJvdXQgd2hvIHdhcyBnZXR0aW5nIG1hcnJpZWQgYW5kIHdobyBkZWNpZGVkIHRvIOKAnHNob2Nr4oCdIHRoZSB3b3JsZCBieSB0ZWxsaW5nIGV2ZXJ5IG9uZSB0aGV54oCZcmUgZ2F5LiBUaGUgb25seSB3YXkgSSBrZXB0IG15IHNhbml0eSB3YXMgYnkgc2luZ2luZyB0aGUgSG9ja2V5IE1vbmtleSBzb25nIG92ZXIgYW5kIG92ZXIgaW4gbXkgaGVhZC4gV2hlbiB3ZSBmaW5hbGx5IGdvdCB0aGVyZSBJIHdhcyBvbiB0aGUgdmVyZ2Ugb2YgY29sbGFwc2UsIEkgaGFkIHdvbmRlcmVkIHdoeSB0aGVyZSBoYWQgYmVlbiBubyB0ZXN0IHRvIHNlZSBpZiBJIHdhcyByZWFsbHkgaW50byBmYXNoaW9u4oCmIGJ1dCBsb29raW5nIGJhY2sgSSBjYW4gc2VlIHRoYXQgdGhlIHRyaXAgaXRzZWxmIDxpPndhczwvaT4gdGhlIHRlc3QuDQpJIHdhcyBnaXZlbiB0aGUgc3RhbmRhcmQgdG91ciBvZiB0aGUgZmFjaWxpdHkgKHdoaWNoIGhhZCBhIHZlcnkgZmxvd2luZyBsYXlvdXQgYW5kIHZpYnJhbnQgY29sb3JzKSBhbmQgdGFrZW4gdG8gbWVldCB3aXRoIHRoZSBib3NzIOKAnFN0ZXZlLuKAnSBCeSB0aGlzIHRpbWUgbXkgdGlnaHQgZmxvcmFsIHNoaXJ0IGFuZCByZWQgbGVhdGhlciBwYW50cyB3aGVyZSBzbG93aW5nIHRoZSBmbG93IG9mIGJsb29kIHRvIG15IGJyYWluIGFuZCBjYXVzaW5nIG1lIHRvIHJhcGlkbHkgZm9yZ2V0IG11Y2ggb2YgbXkgZm9ybWVyIGxpZmU7IEkgaGFkIGZvcmdvdHRlbiBpZiB3YXMgaGVyZSB0byBjb2xsZWN0IGluZm9ybWF0aW9uIG9yIHRvIGtpbGwgZXZlcnkgb25l4oCmIEkgZGVjaWRlZCB0byB3aW5nIGl0LiANCg0KPGI+Tm90ZTo8L2I+IGluIHRoZSBmb2xsb3dpbmcgdHJhbnNjcmlwdGlvbiBJIHJlZmVyIHRvIG15c2VsZiBhcyDigJxIYW5z4oCdIHNpbXBseSBiZWNhdXNlIHRoYXTigJlzIHdobyBJIHdhcyBhdCB0aGF0IHRpbWUuDQoNCjxiPlN0ZXZlOjwvYj4gIG9oLW15LWdhd2QhICpqdW1wcyB1cCBhbmQgZG93biogaXQgaXMgbGlrZSA8aT5zbzwvaT4gYXdlc29tZSB0byBoYXZlIHlvdSBqb2luIHVzISEhDQo8Yj5IYW5zOjwvYj4gIFlhaCwgbXVjaCB0aGFuay15b3VzIGZvciB2LXlvdXIgaG9zcGl0YWxpdHkgKmh1ZyoNCjxiPlN0ZXZlOjwvYj4gIG9oLCBubywgaXQgaXMgdG90YWxseSBteSBwbGVhc3VyZSAqZmxpcHB5IGhhbmQgd2F2ZSosIGlmIHRoZXJlIGlzIGFueSB0aGluZyBJIGNhbiBoZWxwIHlvdSB3aXRoLCA8aT5Bbnl0aGluZzwvaT4ganVzdCBhc2sgbS1rPw0KPGI+SGFuczo8L2I+ICBWYWxsLCBkZWVyIGlzIGRpc3Mgb25lIHRoaW5nLCBJIHdhcyB2b25kZXJpbmcgaWYgSSBjb3VsZCBhc2sgc29tZSBxdXZlc3Rpb25zIHlhaD8NCjxiPlN0ZXZlOjwvYj4gIFN1cmUgdGhpbmcgdGlnZXIhICpjcmVlcHkgYmlnIHNtaWxlKg0KPGI+SGFuczo8L2I+IG9r4oCmIHllYWjigKYgdmVsbCBJIHZhcyB2b25kZXJpIOKAkyBhY2shDQoNCkF0IHRoaXMgcG9pbnQgdGhlIGZhY2lsaXR5IHNodWRkZXIgdW5kZXIgd2hhdCBzb3VuZGVkIGxpa2UgYSB2ZXJ5IGxhcmdlIGFudGkgZmFzaGlvbiBib21iLCBkcmFiIGNsb3RoaW5nIHJhaW5lZCBkb3duIGxpa2UgY2hpY2tlbiB0aGF0IGhhcyBiZWVuIGxhdW5jaGVkIGludG8gdGhlIHNreSB2aWEgYSBwb3dlcmZ1bCBjYW5ub24uIFN0ZXZlIGFuZCBJIHJ1c2hlZCB0byB0aGUgZG9vciBhbmQgbG9va2VkIG91dCBpbnRvIHRoZSBncmVhdCBoYWxsIGp1c3QgaW4gdGltZSB0byBzZWUgbWFueSBmbGFtYm95YW50IGRlc2lnbmVycyBnZXQgaGl0IGJ5IHRoZSBicnVudCBvZiB0aGUgZHJhYiBjbG90aGluZywgdGhleSB3aGVyZSBpbnN0YW50bHkgdmFwb3JpemVkIGxlYXZpbmcgYmVoaW5kIG9ubHkgdmlicmFudCBjbG90aGluZyBhbmQgZmFyIG1vcmUgamV3ZWxyeSB0aGFuIGFueSBvbmUgcGVyc29uIHNob3VsZCB3ZWFyLiBBcyB0aGUgZGVhZGx5IGRlbmltIGRyZXNzZXMgYW5kIHdoaXRlIFQtc2hpcnQvamVhbnMgY29tYm9zIGNvbnRpbnVlZCB0byBmbG93IGZyb20gdGhlIHNreSBpdCBvY2N1cnJlZCB0byBtZSB0aGF0IEkgbWF5IGhhdmUgYmVlbiB0aGUgb25lIHRvIHNldCB0aGlzIGV4cGxvc2l2ZSBkZXZpY2UsIEkgaGFkIHNvIGxpdHRsZSBibG9vZCBpbiBteSBoZWFkIEkgd2FzbuKAmXQgZXZlbiBzdXJlIG9mIG15IG93biBuYW1lIGFueSBtb3JlLiBTdGV2ZeKAmXMgY3J54oCZcyBvZiDigJxvaG15Z2F3ZC1vaG15Z2F3ZC1vaG15Z2F3ZOKAnSBkaWRu4oCZdCBoZWxwIHRvIGFkZCBzdGFiaWxpdHkgdG8gdGhlIHNpdHVhdGlvbiwgSSBoYWQgdG8gdGhpbmsgcXVpY2s7IHNlZWluZyBhcyBob3cgYXMgbG9uZyBhcyBJIHdhcyBpbiB0aGlzIGd1aXNlIEkgd291bGQgYmUgc3VzY2VwdGlibGUgdG8gdGhlIEFGQiAoYW50aSBmYXNoaW9uIGJvbWIpIHRoYXQgaGFkIGp1c3QgYmVlbiBkZXBsb3llZC4gSSBoYWQgdG8gZmluZCBjb3ZlciBhbmQgY2hhbmdlIG15IGNsb3RoZXMhIEFzIEkgcHVsbGVkIG9mZiBteSBzY2FyZiBhbmQgc3RpY2sgb24gdGlueSBtdXN0YWNoZSBTdGV2ZSByZWFsaXplZCB3aGF0IHdhcyBnb2luZyBvbiBhbmQgcnVzaGVkIGF0IG1lIGluIGEgZnVyaW91cyBmbHVycnkgb2Ygd2F2aW5nIG9wZW4gcGFsbWVkIHN0cmlrZXMuIFRpbWUgc2VlbWVkIHRvIHNsb3cgZG93biBhcyBoZSBjYW1lIGF0IG1lLCBJIHJlbWVtYmVyIHRoaW5raW5nIGhlIGxvb2tlZCBhIGxvdCBsaWtlIGEgZG9nIGRlc3BlcmF0ZWx5IHRyeWluZyB0byBzd2ltIHVwIGEgcml2ZXLigKYgb25seSB3YXkgYmV0dGVyIGRyZXNzZWQuIFdlIHdoZXJlIGxvY2tlZCBpbiBjb21iYXQgZm9yIHNvbWUgdGltZSBpbiBvdXIgd2VsbCBkZWNvcmF0ZWQgc3Vycm91bmRpbmdzLiBGaW5hbGx5LCBpdCB3YXMgb3ZlciAtIGhlIGhhZCBiZWVuIHN0cnVjayBieSBhIGZhbGxpbmcgcGFpciBvZiBqZWFucyBmcm9tIFNlYXJzIOKAkyB3aXRoIGEgcHVmZiBhbmQgYSBmaW5hbCBjcnkgb2Yg4oCcRUVFZWVFRUVlZWVlRUVFISEh4oCdIGhlIHdhcyBnb25lLiBNeSByZWxpZWYgd2FzIG9ubHkgdGVtcG9yYXJ5LiBKdXN0IGFzIEkgdGhvdWdodCB0aGUgd29yc3Qgd2FzIG92ZXIgdHdvIG1vcmUgc2Vjb25kYXJ5IGNoYXJnZXMgd2VudCBvZmYhIFRocmVlIGRvbGxhciB3YXRjaGVzIGFuZCBiYXNlYmFsbCBjYXBzIHdlbnQgb3V0IGxpa2Ugc28gbXVjaCB0YWNreSBzaHJhcG5lbC4gSSB3YXMgaGl0IGJ5IGEgd2F0Y2ggd2l0aCBOaXhvbiBwb2ludGluZyBhcyBpdHMgaGFuZHMgYnV0IGx1Y2tpbHkgSSBoYWQgc3RyaXBlZCBkb3duIGFuZCB3YXMgYWxtb3N0IGNvbXBsZXRlbHkgbm9ybWFsIGFnYWluLCBJIHB1dCBvbiBhIHBhaXIgb2YgamVhbnMgYW5kIGEgVC1zaGlydCBiZWFyaW5nIHRoZSBsb2dvIGZvciB0aGUgZ3JhdGVmdWwgZGVhZCBhbmQgc3RhcnRlZCB0byBtYWtlIG15IGVzY2FwZSwgYXMgSSByYW4sIHJlY2FsbGluZyB0aGUgcGF0aCBJIGhhZCB0YWtlbiB0byBnZXQgdGhlcmU7IEkgd2FzIHN1cnByaXNlZCBhdCB0aGUgbnVtYmVyIG9mIHN1cnZpdm9ycyBtYW55IHRyaWVkIHRvIGF0dGFjayBtZSBidXQgd2hlcmUgaW5zdGFudGx5IHZhcG9yaXplZCB3aGVuIHRoZXkgdG91Y2hlZCBteSBub3cgZHJhYiBhdHRpcmUuIEkgcmVhY2hlZCB0aGUgcGFya2luZyBzdHJ1Y3R1cmUsIGl0IHdhcyBmdWxsIG9mIGh5YnJpZHMgYW5kIG1pbmkgdmFucyBhbGwgd2l0aCB2YXJpb3VzIGlycml0YXRpbmcgYnVtcGVyIHN0aWNrZXJzIHRoYXQgdGFsa2VkIGFib3V0IHBlYWNlIGFuZCBmYXNoaW9uIGJlaW5nIGxpZmXigKYgSSBmb3VuZCB0aGUgZm9yZCBXaW5kc3RhciB0aGF0IEkgaGFkIGFycml2ZWQgaW4gcmVtZW1iZXJpbmcgdGhhdCB0aGUgZHJpdmVyIGZvcmdvdCB0byByZW1vdmUgaGlzIGJyaWdodGx5IHBhaW50ZWQga2V5cy4gSSBob3BwZWQgaW4gYW5kIGZsb29yZWQgaXQg4oCTIGdsYWQgdG8gYmUgb3V0IG9mIHRoYXQgaG9ycmlibGUgcGxhY2UuDQoNCldlbGwsIGRpZCBJIGxlYXJuIG11Y2g/IE5vdCByZWFsbHnigKYgdGhvdWdodCBJIGRpZCBnZXQgc29tZSBncmVhdCBpZGVhcyBmb3IgaG9tZSBkZWNvcmF0aW5nLCBhbmQgbGVhcm5lZCB0aGF0IHBsdXNoIGdvZXMgd2l0aCBhbG1vc3QgYW55dGhpbmcgYWxsIGluIGFsbCBJIHdvdWxkIGNhbGwgdGhpcyBtaXNzaW9uIGEgZmFpbHVyZS4gQnV0IG9uIHRoZSBwbHVzIHNpZGUgSSBnb3QgdG8ga2lsbCBhYm91dCAyMDArIGZhc2hpb24gZGVzaWduZXJz4oCmIHNvIHRoYXTigJlzIGNvb2zigKYgeWVhaOKApiB1bnRpbCBuZXh0IHRpbWUgPSkNCg0KLUpvbg0KDQo8Yj5MZXNzb25zOjwvYj4NCjxiPjEuPC9iPiBGYXNoaW9uIGlzIDxpPkZhYnVsb3VzPC9pPiANCjxiPjIuPC9iPiBBZXJvc3RhcnMgPiBXaW5kc3RhcnMgDQo8Yj4zLjwvYj4gdGhlIEhvY2tleSBNb25rZXkgc29uZyBpcyB0aGUga2V5IHRvIHNhbml0eS4="
+"eventtime","2006-04-03 14:28:00"
+"current_moodid","15"
+"url","http://hunlerzfang.livejournal.com/6406.html"
+"userid","6553"
+"itemid","24"
+"event","Ok, so we all know i'm not known for my judgment... or logical trains of thought, but this incident stood out above many before it, enjoy.
+
+as many of you may have guessed by now, I love jumping off stuff. like a lemming drawn to cliffs so am I drawn to... well... cliffs, any who, I was jumping down rather far and stuck the landing, rolled and on the lift after the roll (I.E. springing up onto my feet) I put my foot sidewase and twisted something. obviously, I felt pretty stupid. I spent the next day in the house flexing my ankel and getting it un-hurted. The day after that my foot was feeling great, so I decided to learn how to do cartwheels and handstands. Flip, Crack, OMFG you tard. I hurt my ankel again XD
+
+we've learnd that though i'm funny, charming, smart, and danm good looking... (I wish) I am not too good at decision making... and the funny thing is, i wana heal so i can try again =) ah, such is life. so my outcry this time goes out agains myself, I should not be allowed to be near any thing tall, or any thing flat... or any thing sharp... in fact, i don't think i should really live any where that isn't padded and small... if only i could find some kind of institution that matched that description... (kidding) till next time =)
+
+-Jon (the cripple)"
+"eventtime","2006-04-03 02:34:00"
+"current_moodid","59"
+"url","http://hunlerzfang.livejournal.com/6199.html"
+"userid","6553"
+"itemid","23"
+"event","V2UgYWxsIGtub3cgdGhhdCBhIGRheSBpcyAyNCBob3VycywgYW4gaG91ciBpcyA2MCBtaW51dGVzLCBhbmQgYSBtaW51dGUgaXMgNjAgc2Vjb25kcywgYnV0IHdoYXQgaXMgYSBzZWNvbmQ/IFdoeSBpcyBhIHNlY29uZCBhcyBsb25nIGFzIGl0IGlzPyBUbyBmaW5kIHRoaXMgb3V0IEkgc2VhcmNoZWQgb3V0IDxiPnRoZSBjb3VuY2lsIG9mIENsb2NrczwvYj4uIFRoZXkgd2VyZW7igJl0IGhhcmQgdG8gZmluZCwgdGhlIGZpcnN0IHRoaW5nIEkgbm90aWNlZCBpcyB0aGF0IHRoZXkgcmVhbGx5IGRyb3BwZWQgdGhlIGJhbGwgd2hlbiBpdCBjb21lcyB0byB0aGVpciBuYW1l4oCmIHRoZXJlIGFyZSBzbyBtYW55IHBvc3NpYmlsaXRpZXMgdGhlcmUgdGhhdCB0aGV5IHRvdGFsbHkgbWlzc2VkLCBzdWNoIGFzIOKAnExvcmRzIG9mIFRpbWXigJ0gb3Ig4oCcdGhlIENyb25vcyBDb3VuY2ls4oCdIChieSBmYXIgdGhlIGNvb2xlc3QpLiBTbyBuYXR1cmFsbHkgbXkgZmlyc3QgcXVlc3Rpb24gZHVyaW5nIG15IGludGVydmlldyB3aXRoIOKAnHRvbeKAnSB0aGUgaGVhZCBvZiB0aGUgQ291bmNpbCBvZiBDbG9ja3MgKG9yIHRoZSBDb0MgYXMgSSB3aWxsIGNhbGwgaXQgZnJvbSBub3cgb24pIHdhcyBhYm91dCB0aGVpciBuYW1lLCBoZXJl4oCZcyB0aGUgY29udmVyc2F0aW9uLg0KDQo8Yj5Kb246IDwvYj4gdGhhbmsgeW91IGZvciBtYWtpbmcgdGhlIHRpbWUgdG8gbWVldCB3aXRoIG1lICh0ZWUtaGVlKS4gTXkgZmlyc3QgcXVlc3Rpb24gaXMgYWJvdXQgeW91ciBuYW1lLCBmcmFua2x5LCBpdCBzdWNrcywgaG93IGRpZCB5b3UgY29tZSBieSBzdWNoIGEgbGFtZSBzdWNrZXkgYXdmdWwgYmFkIG5hbWU/DQoNCjxiPlRvbSBoZWFkIG9mIHRoZSBDb0M6IDwvYj4gZG9u4oCZdCB3b3JyeSBhYm91dCwgSSBoYXZlIHBsZW50eSBvZiB0aW1lICh0ZWUtaGVlKS4gWWVzIEkgYWdyZWUgdGhhdCBvdXIgbmFtZSBpcyBwcmV0dHkgYmFk4oCmIHdl4oCZcmUgY2FsbGVkIHRoYXQgYmVjYXVzZSBKb2Ugd2hvIGlzIGltbWVkaWF0ZWx5IGJlbG93IG1lIG9uIHRoZSBjb3VuY2lsIGlzIHZlcnkgc2Vuc2l0aXZlIGFuZCBoYWQgYSBiYWQgZGF5IHNvIHRvIGNvbnNvbGUgaGltIHdlIHNhaWQgaGUgY291bGQgbmFtZSB0aGUgY291bmNpbCwgaGUgZGlkLCBhbmQgdGhpcyBpcyB3aGF0IHdlIGhhdmXigKYgDQoNCjxiPkpvbjo8L2I+IGFoLCB3ZWxsIHRoYXQgbWFrZXMgc2Vuc2XigKYgSSBndWVzc+KApiBPbiB0byBteSBuZXh0IHF1ZXN0aW9uLCB3aHkgYXJlIHNlY29uZHMgYXMgc2hvcnQvbG9uZyBhcyB0aGV5IGFyZT8NCg0KPGI+VG9tOjwvYj4gaG1tLCBnb29kIHF1ZXN0aW9uLiBMZXQgbWUgYW5zd2VyIGl0IHdpdGggb25lIG9mIG15IG93bjogZG8geW91IGV2ZW4ga25vdyBob3cgbG9uZyBhIHNlY29uZCBpcz8gT3IgY291bGQgeW91IHRlbGwgbWUgZXhhY3RseSBob3cgbG9uZyBhbiBob3VyIGlzIHdpdGggb3V0IHVzaW5nIHNlY29uZHM/DQoNCjxiPkpvbjo8L2I+IG5vIHNpciBJIGRvbuKAmXQgdGhpbmsgSSBjb3VsZC4NCg0KPGI+VG9tOjwvYj4gZXhhY3RseSwgdGhhdOKAmXMgYmVjYXVzZSB0aGV5IGRvbuKAmXQgYWN0dWFsbHkgaGF2ZSBhIHNldCBsZW5ndGgsIHdlIHdoZXJlIGdvaW5nIHRvIGRvIHRoYXQgYnV0IGtlZXBpbmcgaGlnaCBzdGFuZGFyZHMgb24gc2Vjb25kcyB3aGVuIHlvdSBoYXZlIHRvIG1ha2UgMzEsNTU3LDYwMCBhIHllYXIgaXMga2luZCBvZiBoYXJkLg0KDQo8Yj5Kb246PC9iPiB3YWl0LCBzbyB5b3UgYWN0dWFsbHkgPGk+bWFrZTwvaT4gdGltZT8NCg0KPGI+VG9tOjwvYj4geWVwLg0KDQo8Yj5Kb246PC9iPiDigKYNCg0KPGI+VG9tOjwvYj4gaGVoLCBsZXQgbWUgZXhwbGFpbiwgeW91IGtub3cgaG93IHdoZW4geW91IGFyZSBkb2luZyBzb21ldGhpbmcgYm9yaW5nIHRpbWUgc2VlbXMgc2xvd2VyPyBXZWxsIHRoYXTigJlzIGJlY2F1c2UgaXQgaXMhIEJvcmVkb20gYWN0dWFsbHkgbWFrZXMgbW9yZSB0aW1lLCB0aGUgb25seSB0aGluZyBpcyBjbG9ja3MgYXJlIGRlc2lnbmVkIHRvIG1vdmUgYXQgYSBzZXQgcGFjZSwgcmVnYXJkbGVzcyBvZiB0aW1lLg0KDQo8Yj5Kb246PC9iPiBJ4oCZbSB2ZXJ5IGNvbmZ1c2Vk4oCmDQoNCjxiPlRvbTo8L2I+IGl0IGdldHMgYmV0dGVyOyBpbiBvcmRlciB0byBtYWludGFpbiBvcmRlciBpbiB0aGVzZSBmbHVjdHVhdGlvbnMgd2UgdXNlIGEgdGhlb3J5IGNhbGxlZCBwYXJhbGxlbCByYW5kb21uZXNzLiBJdOKAmXMgYSBjb21wbGljYXRlZCB0aGVvcnkgdGhhdCBiYXNpY2FsbHkgYm9pbHMgZG93biB0byB1cyBoYXZpbmcgYSBnaWFudCByb29tIG9mIG1vbmtleXMgYW5kIGxlbXVycyBzZW5kaW5nIG91dCBwb2NrZXRzIG9mIHRpbWUuDQoNCjxiPkpvbjo8L2I+IHlvdeKAmXJlIGpva2luZyByaWdodD8NCg0KPGI+VG9tOjwvYj4gbm8sIG5vdCBpbiB0aGUgbGVhc3QgaW4gZmFjIOKAkyANCg0KPGI+Sm9uOjwvYj4gbm8sIHlvdSBrbm93IHdoYXQ7IEkgdGhpbmsgd2XigJlyZSBkb25l4oCmIEnigJl2ZSBqdXN0IGxlYXJuZWQgdGhhdCB0aW1lIGlzIGNvbnRyb2xsZWQgYnkgYSBiYXNlbWVudCBmdWxsIG9mIGxlbXVycyBhbmQgbW9ua2V5c+KApiBJIGZlYXIgdGhhdCBhbnkgdGhpbmcgZWxzZSB5b3UgdGVsbCBtZSBjb3VsZCBxdWl0ZSBsaXRlcmFsbHkgZGVzdHJveSBteSBtaW5k4oCmDQoNCjxiPlRvbTo8L2I+IGFscmlnaHQsIGl0IHdhcyBuaWNlIHRvIG1lZXQgeW91IQ0KDQo8Yj5Kb246PC9iPiBteSBoZWFkID4uPA0KDQpBcyB5b3UgY2FuIHNlZSBJIGxlYXJuZWQgcXVpdGUgYSBiaXQsIG1vc3Qgb2YgaXQgSSB3aXNoIEkgaGFkbuKAmXTigKYgYW5kIEkgaGF2ZSBsb3N0IGZhaXRoIGluIGFuIG9yZGVybHkgd29ybGTigKYgYWxzbyB0aGVpciBtZWV0aW5nIHJvb20gc21lbGxlZCBzdHJhbmdlbHkgbGlrZSB3ZXQgZ3Jhc3PigKYgdW50aWwgbmV4dCB0aW1lIQ0KDQotSm9u"
+"eventtime","2006-03-31 12:09:00"
+"current_moodid","6"
+"url","http://hunlerzfang.livejournal.com/6048.html"
+"userid","6553"
+"itemid","22"
+"event","SSBlbmpveSBwYXNzd29yZHMsIGV2ZXJ5IG9uZSBoYXMgZGVhbHQgd2l0aCB0aGVtIGF0IHNvbWUgcG9pbnQsIGJlIGl0IHRoZSBzcG9rZW4gcGFzc3dvcmRzIHJlcXVpcmVkIGZvciBzb21lIHJlYXNvbiB0byBnZXQgaW50byB0aGUg4oCcY2x1YiBob3VzZeKAnSAoZXZlbiB0aG91Z2ggeW91ciBjbHViIGNvbnNpc3RzIG9mIDMtNCB2ZXJ5IGNsb3NlIGZyaWVuZHMgd2hvIGNhbiByZWNvZ25pemUgZWFjaCBvdGhlciBmcm9tIGFjcm9zcyB0aGUgc3RyZWV0KSBvciB0aGUgcGFzc3dvcmQgcmVxdWlyZWQgdG8gcmVhY2ggeW91ciBlbWFpbCwgYnV0IHdoeSBhcmUgdGhlIGNvbnN0cmFpbnRzIGdldHRpbmcgbW9yZSBhbmQgbW9yZSBzdHJpbmdlbnQgb24gcGFzc3dvcmRzPyBBcyBhIGNoaWxkZSB5b3UgZGlkbuKAmXQgd29ycnkgYWJvdXQgeW91ciBwYXNzd29yZCDigJxiYXRtYW7igJ0gYmVpbmcgbGVzcyB0aGFuIDcgY2hhcmFjdGVycyBvciBub3QgY29udGFpbmluZyBhbnkgbnVtYmVyc+KApiBub3cgaXQgc2VlbXMgdGhhdCB3aGVuIHlvdSBnZXQgYSBwYXNzd29yZCBmb3Igc29tZXRoaW5nIHRoZSBjb25zdHJhaW50cyBhcmUgZ2V0dGluZyBtb3JlIGFuZCBtb3JlIGxpa2UgdGhpcyDigJxJ4oCZbSBzb3JyeSwgeW914oCZcmUgcGFzc3dvcmQgdGhhdCB5b3XigJl2ZSB1c2VkIGZvciB0aGUgcGFzdCAzIHllYXJzIGFuZCBoYXMgbmV2ZXIgZ2l2ZW4geW91IGFueSB0cm91YmxlIGlzIHRvbyBzaG9ydC4gWW91ciBwYXNzd29yZCBtdXN0IGJlIGF0IGxlYXN0IDIwMCBjaGFyYWN0ZXJzIGxvbmcgYW5kIGNvbnRhaW4gdGhlIHdvcmRzIOKAnGNoaWNrZW7igJ0g4oCccGl6emHigJ0gYW5kIOKAnGJsb3dmaXNo4oCdIGFsc28geW91IG5lZWQgdG8gaGF2ZSBhdCBsZWFzdCAxMiBudW1iZXJzIGluIHlvdXIgcGFzc3dvcmQgYW5kIG1heWJlIG9uZSBvZiB0aG9zZSBmcm93bnkgZW1vdGVz4oCm4oCdIGFuZCB3aG8gaXMgaXQgdGhhdCBtYWtlcyB0aGVzZSBjb25zdHJhaW50cz8gSeKAmXZlIGFsd2F5cyB3b25kZXJlZCBhYm91dCBzdHVmZiBsaWtlIHRoYXTigKYgbGlrZSB3aG8gd2FzIGl0IHRoYXQgZGVjaWRlZCB0aGUgc2VhIHdvdWxkIGJlIGNvbnNpZGVyZWQg4oCcYmx1ZeKAnT8gVGhleSBoYWQgb2J2aW91c2x5IG5ldmVyIGhlYXJkIG9mIHRlYWwsIHRoaXMgaXMgd2h5IEkgZGVjaWRlZCB0byBkZWx2ZSBpbnRvIHRoZSBzZWVkeSB1bmRlcndvcmxkIG9mIDxiPlNlY3JldCBDb3VuY2lscyE8L2I+DQoNCk92ZXIgdGhlIG5leHQgZmV3IGRheXMgSSB3aWxsIGJlIHB1dHRpbmcgdXAgc29tZSB0aGUgbWFueSBhZHZlbnR1cmVzIEkgaGFkIHdoaWxlIGluIHNlYXJjaCBvZiB0aGUgdHJ1dGggKGFuZCBzaG9ydGVyIHBhc3N3b3JkcykgcGxlYXNlIHN0YXkgdHVuZWQhDQoNCi1Kb24="
+"eventtime","2006-03-30 13:14:00"
+"current_moodid","36"
+"url","http://hunlerzfang.livejournal.com/5703.html"
+"userid","6553"
+"itemid","21"
+"event","VGhlIGZvbGxvd2luZyBpcyBhIHRyYW5zY3JpcHRpb24gb2YgYSBkaXNjb3Vyc2Ugb2YgbGV0dGVycyBiZXR3ZWVuIG1lIGFuZCBteSBjb25maWRhbnQgbWlzdGVyIFJhdmluZyBNYWQgQ293IGRpc2Vhc2UuDQoNCkRlYXIgUmF2aW5nIE0uIENvdy4gS2VlcCB1cCB0aGUgZ29vZCB3b3JrISBJbiBqdXN0IGEgZmV3IHllYXJzIGV2ZXJ5IG9uZSB3aWxsIGJlIGVhdGluZyB0b2Z1LCBhbmQgc2FsbW9uIHdpbGwgdGFrZSB0aGUgcGxhY2Ugb2YgY293cyBhcyByZWQgbWVhdCwgd2Ugd2lsbCBoYXZlIHNhbG1vbiBrbml2ZXMgaW5zdGVhZCBvZiBzdGVhayBrbml2ZXMsIGFuZCBFc2tpbW9zIHdpbGwgc3RhcnQgcmVwcmVzZW50aW5nIOKAnHJvdWdoIGFuZCBydWdnZWQgcmFuY2hlcnPigJ0gaW4gPGEgaHJlZj0iaHR0cDovL2ltZzM4OC5pbWFnZXNoYWNrLnVzL2ltZzM4OC80NTEyL2RydW5rY2F0MGF3LmpwZyI+Y2lnYXJldHRlIGFkczwvYT4hIEFsc28gbXkgbGluZSBvZiDigJxzYWxtb24gcmlkZXLigJ0gamVhbnMgd2lsbCBubyBsb25nZXIgc2VlbSBjcmVlcHkgYW5kIHdyb25n4oCmIGFuZCBwYXNzIGFsb25nIG15IGJlc3Qgd2lzaGVzIHRvIHlvdXIgc2lzdGVyIEJpcmQgZmx1LCBvbmUgZGF5IHRoZSBjaGlja2VucyBhbmQgY293cyB3aWxsIGZhbGwhIEZvciB0aGUgcmV2b2x1dGlvbiAtIEpvbg0KDQpEZWFyIEpvbi4gVGhhbmsgeW91IHZlcnkgbXVjaCwgSSBhcHByZWNpYXRlIHlvdXIgc3VwcG9ydC4gSXTigJlzIGEgaGFyZCBidXNpbmVzcyBhbmQgeW91ciBjb250aW51aW5nIHN1cHBvcnQgYW5kIGFkdmljZSBoYXMgYmVlbiBxdWl0ZSBpbnNwaXJpbmcuIEJpcmQgZmx1IHNlbmRzIG9uIGh1Z3MgYW5kIGtpc3Nlcy4gSSB3b3VsZCB2ZXJ5IG11Y2ggbGlrZSB0byBtZWV0IHdpdGggeW91IGFnYWluIGFuZCBkaXNjdXNzIG91ciBhc3NhdWx0IG9uIHRoZSBIaW5kdSBuYXRpb25zOyB0aGUgZWZmZWN0cyB3b3VsZCBiZSBtb3N0IGVuam95YWJsZS4gQmlyZCBmbHUgd291bGQgYWxzbyBsaWtlIHRvIGtub3cgaWYgeW91IGFyZSBzdGlsbCBwbGFubmluZyB0byB3aXBlIG91dCBmaW5jaGVzLCBhbHdheXMgaGFwcHkgdG8gaGVhciBmcm9tIHlvdSDigJMgUi4gTS4gQy4NCg0KRGVhciBNLiBDb3cuIFBsZWFzZSB0ZWxsIHlvdXIgc2lzdGVyIHRoYXQgdGhlIGZpbmNoZXMgd2lsbCBpbmRlZWQgZmFsbCwgdGhleSBoYXZlIGhhZCB0aGVpciBkYXkgaW4gdGhlIHN1biBhbmQgbm93IGl0IGlzIHNhbG1vbuKAmXMgdHVybiwgYnV0IHdlIG11c3Ru4oCZdCBzdHJpa2UgdG9vIHNvb24sIGZvciB0aGUgaGFzdHkgYmxvdyBnb2VzIG1vc3Qgb2Z0ZW4gYXN0cmF5LiBXZSB3aWxsIGNvbnRpbnVlIHRvIGdhdGhlciBmb2xsb3dlcnMgZm9yIHRoZSBuZXh0IGZldyB5ZWFyczsgSSB3b3VsZCBzYXkgdGhhdCBzb21lIHRpbWUgaW4gMjAwOSDigJMgMjAxMCB3ZSB3aWxsIGhhdmUgYSBmb3JjZSBzdHJvbmcgZW5vdWdoIHRvIHdpcGUgdGhlbSBvdXQsIGV4Y2VsbGVudCB3b3JrIHdpdGggeW91ciByZWNlbnQgYXR0YWNrIG9uIDxhIGhyZWY9Imh0dHA6Ly9pbWczNzIuaW1hZ2VzaGFjay51cy9pbWczNzIvNTgzMS9kcnVua3B1bXBraW4zbXQuanBnIj5UZXhhczwvYT47IHRoYXQgc3Ryb25naG9sZCBpcyBub3QgYW4gZWFzeSB0YXJnZXQsIGFuZCBJ4oCZbSBzdXJlIGl0IHdpbGwgYmUgdGhlIGxhc3QgdG8gZmFsbC4gT2gsIGFuZCBpbiBhbnN3ZXIgdG8geW91ciBxdWVzdGlvbiBmcm9tIGEgZmV3IGxldHRlcnMgYmFjazogNDIgcmVkd29vZCB0cmVlcy4gRnJvbSBSdXNzaWEgd2l0aCBsb3ZlIOKAkyBKb24NCg0KRGVhciBKb24uIEkga25vdyB5b3UgaGF2ZSB0b2xkIG1lIG5ldmVyIHRvIGFzayB5b3UsIGJ1dCB3aHkgZG8geW91IGhhdGUgY293cyBhbmQgYmlyZHMgaW4gZ2VuZXJhbD8gWW91IG9uY2UgaGVscGVkIG1lIHdpdGggbXkgbG92ZSBsaWZlIHNvIEkgd291bGQgbG92ZSB0byByZXR1cm4gdGhlIGZhdm9yLg0KRnJvbSAtIFJhdmluZy1DDQoNCkRlYXIgTUMuIFdoZW4gSSB3YXMgeW91bmcgbXkgZmFtaWx5IHdhcyBraWxsZWQgaW4gYSBiYWNvbiBmYWN0b3J5IGZpcmUsIHRoZWlyIGZ1bmVyYWwgc21lbGxlZCBzaWNrZW5pbmdseSBsaWtlIGJyZWFrZmFzdOKApiBJIHdhcyB0YWtlbiBpbiBzaG9ydGx5IGFmdGVyIGJ5IGEgZmFtaWx5IG9mIDxhIGhyZWY9Imh0dHA6Ly9pbWcxNDcuaW1hZ2VzaGFjay51cy9pbWcxNDcvMzU4NS96ZWJyYWZpbmNoM3RnLmpwZyI+ZmluY2hlczwvYT4sIG5ldmVyIGhhdmUgSSBrbm93IHN1Y2ggYWJ1c2l2ZSBhbmltYWxzLCBhbGwgZGF5IGV2ZXJ5IGRheSBJIHdvdWxkIGRvIG5vdGhpbmcgYnV0IGNsZWFuIHRoZWlyIGdpYW50IGJpcmRzZWVkIGRpc2hlcyBhbmQgc3RlYWwgbmV3cyBwYXBlcnMgdG8gbGF5IG9uIHRoZSBmbG9vci4gV2hlbiBJIHR1cm5lZCAxNiBJIHJhbiBhd2F5IGFuZCBzd29yZSB0aGF0IG9uZSBkYXkgdGhlIGZpbmNoZXMgd291bGQgZmFsbOKApiBjb3dzPyBXZWxsIEkganVzdCBoYXRlIGNvd3PigKYNCg0KRGVhciBKb24uIFdvdywgdGhhdOKAmXMgYSBsaXR0bGUgc3RyYW5nZeKApiBpcyB0aGlzIG9uZSBvZiB0aG9zZSB0aW1lcyB3aGVyZSB5b3UgYXJlIGpva2luZz8gQmVjYXVzZSBzZXJpb3VzbHksIEkgY2Fu4oCZdCB0ZWxs4oCmIGl04oCZcyBub3QgZnVubnkgbGlrZSDigJxoYWhh4oCdIGJ1dCBpdOKAmXMganVzdCBzbyBtZXNzZWQgdXAgdGhhdCBpdOKAmXMgYWxtb3N0IGh1bW9yb3Vz4oCmIHNsaWdodGx5IGNvbmZ1c2VkIOKAkyBNQw0KDQpEZWFyIFJhdmluZyBNLiBJIHdvdWxkIGFwcHJlY2lhdGUgaXQgaWYgeW91IHN0b3BwZWQgcHJvYmluZyBpbnRvIG15IHBlcnNvbmFsIGxpZmUsIEkgd2lsbCBmb3JldmVyIGJlIHlvdXIgc3VwcG9ydGVyIGFuZCBndWlkZSwgYnV0IEkgZG8gbm90IHdhbnQgdG8gc2hhcmUgYW55IG1vcmUgd2l0aCB5b3UsIHRoYW5rIHlvdS4g4oCTSm9uDQoNCk91ciByZWxhdGlvbnNoaXAgaGFzIGdvbmUgZG93biBoaWxsIGZyb20gdGhlcmUsIGJ1dCB3ZSBzdGlsbCBrZWVwIGluIGNvbnRhY3QsIEkgY29udGludWUgdG8gZ2l2ZSBoaW0gYWR2aWNlIGFuZCBoZSBkb2VzbuKAmXQgYXNrIG1lIHBlcnNvbmFsIHF1ZXN0aW9ucywgaXTigJlzIGEgd29ya2luZyByZWxhdGlvbnNoaXAuDQoNCi1Kb24NCihOT1RFOiBhcyB1c3VhbGwgaSBkb24ndCBoYXRlIGFueSBvZiB0aGUgc3R1ZmYgaSBzYXkgaSBoYXRlIGluIHRoaXMgcG9zdCwgZHVoLi4uKQ=="
+"eventtime","2006-03-27 13:17:00"
+"current_moodid","44"
+"url","http://hunlerzfang.livejournal.com/5583.html"
+"userid","6553"
+"itemid","20"
+"event","Pre haircut, and shave: I.E. MR scruffy
+<img src=""http://img20.imageshack.us/img20/7727/dscf05465xy.jpg"" />
+
+post hair cut and shave: I.E. MR Not-Scruffy
+<img src=""http://img164.imageshack.us/img164/7278/dscf05818ds.jpg"" alt=""Image Hosted by ImageShack.us"" />
+
+woot, that's all this is!
+
+-Jon (no longer scruffy)"
+"eventtime","2006-03-24 20:50:00"
+"current_moodid","68"
+"url","http://hunlerzfang.livejournal.com/5336.html"
+"userid","6553"
+"itemid","19"
+"event","RXZlcnkgb25lIGRvZXMgaXQgYXQgc29tZSBwb2ludOKApiBpdOKAmXMgbGlrZSBjaGlja2VuIHBveC4gU2/igKYgSSBmaWd1cmUgSSBtaWdodCBhcyB3ZWxsIGdldCBpdCBvdXQgb2YgdGhlIHdheSBub3cuDQoNCjxiPlZpZGVvIGdhbWVzPC9iPg0KUGxlYXNlIG5vdCwgdGhhdCBvbiBwYXIgd2l0aCBhbGwgbXkgd3JpdGluZyBteSBmb3JtYXR0aW5nLCBzcGVsbGluZywgZ3JhbW1hciBhbmQgY29udGVudCBjaG9pY2VzIHdpbGwgYmUgYmFzZWQgc29sZWx5IG9uIHRoZSByb2xlIG9mIGEgMjAgc2lkZWQgZGljZeKApg0KDQo8Yj5TdXBlciBNYXJpbyBicm9zLjwvYj4NCkRpZCBubyBvbmUgcmVhbGl6ZSB0aGF0IHRoaXMgZ2FtZSBtYWRlIG5vIHNlbnNlPyBMZXTigJlzIGxvb2sgYXQgdGhlIHByZW1pc2VzOg0KPHVsPg0KPGxpPllvdSBhcmUgYW4gSXRhbGlhbiBwbHVtYmVyLjwvbGk+DQo8bGk+QSBnaWFudCB0dXJ0bGUvZHJhZ29uL3NwaWt5LXRoaW5nIGhhcyBraWRuYXBwZWQgYSBwcmluY2VzcyByYXRoZXIgdGhhbiBqdXN0IGVhdGluZyBoZXI8L2xpPg0KPGxpPmhlIGhhcyA3IGlkZW50aWNhbCB0d2lucyBlYWNoIHdpdGggaW5jcmVhc2luZ2x5IG1vcmUgaW1wcmVzc2l2ZSBjYXN0bGVzIGJ1dCB0aGV5IG9ubHkgdG9vayB0aGUgdGltZSB0byBraWRuYXAgbXVzaHJvb20gd2VhcmluZyBjaGlsZHJlbiBhbmQgcHJpbmNlc3NlcyB0aGF0IGFyZSBmb3Igc29tZSByZWFzb24gbGVzcyBpbXBvcnRhbnQuPC9saT4NCjxsaT55b3UgY2FuIGJyZWFrIGJyaWNrIHdhbGxzIHdpdGggYSBzd2lmdCB1cHBlcmN1dC48L2xpPg0KPC91bD4gUmF0aGVyIHRoYW4gc2VuZCBhbiBhcm15LCBvciBzb21lIG9uZSB0aGF0IGNvdWxkIGNvbmNlaXZhYmx5IGhhdmUgYSBjaGFuY2Ugb2YgYWN0dWFsbHkgc2F2aW5nIHRoZSBraWRuYXBwZWQgcHJpbmNlc3MgeW91IHNpbXBseSBzZW50IG9mZiB0byBkbyB5b3VyIG93biB0aGluZyBhbmQgZmlnaHQgQm93c2Vy4oCZcyDigJxhcm154oCdLiBBcm15IGlzIGluIHF1b3RlcyBiZWNhdXNlIGl0IGNhbiBvbmx5IGJlIGNhbGxlZCBhbiBhcm15IGluIHRoZSBzYW1lIHdheSB0aGF0IHdoYXQgbWMtRG9uYWxk4oCZcyBzZWxscyBjb3VsZCBiZSBjYWxsZWQgYSBoYW1idXJnZXIuIFRoZXkgYXJlIGRpc29yZ2FuaXplZCwgc3R1cGlkLCBhbmQgc2VlbSB0byBoYXZlIG5vIHB1cnBvc2UgYmV5b25kIHdhbGtpbmcgYmFjayBhbmQgZm9ydGggb24gZmxvYXRpbmcgcGxhdGZvcm1zIHdpdGggdGhlIHZhaW4gaG9wZSB0aGF0IHlvdSB3aWxsIHdhbGsgaW50byB0aGVtIGFuZCBkaWUsIHlldCBhZ2FpbiwgZm9yIHVua25vd24gcmVhc29ucy4NCjxiPlNjb3JlOiBncmFwaGljcyA2LzEwICBzdG9yeSAxLzEwICByZXBsYXkgdmFsdWUgOS8xMDwvYj4NCg0KPGI+UG9uZzwvYj4NCk9NRkchIFBvbmchIFBvbmcgaXMgdGhlIG9ubHkgZ2FtZSBpbiB0aGUgaGlzdG9yeSBvZiBnYW1pbmcgdGhhdCBJIGhhdmUgdHJ1bHkgYW5kIHV0dGVybHkgc3Vja2VkIGF0LCB0aGF0IGxpdHRsZSB3aGl0ZSBiYXIgb24gdGhlIHJpZ2h0IG9mIHRoZSBzY3JlZW4gdGhhdCBJIGhhdGUgc28gbXVjaCB3b3VsZCBLSUNLIE1ZIEFTUyBjb25zaXN0ZW50bHkuIEV2ZW4gcGxheWluZyBhZ2FpbnN0IHBlb3BsZSBJIHdvdWxkIGp1c3Qgc3Vja+KApiBJIGhhdmUgbm8gY2x1ZSB3aHnigKYgc29tZXRoaW5nIGFib3V0IGl0IGJlaW5nIGEgc3R1cGlkIGdhbWUgYW5kIHRvbyBsb3cgZm9yIG15IGFkdmFuY2VkIGJyYWluLiBJIG9uY2UgcHJvZ3JhbW1lZCBhIGdhbWUgb2YgcG9uZyBhbmQgZXZlbiBtYWRlIEFJIGZvciB0aGUgcmlnaHQgZHVkZSwgYW5kIGhlIDx1PlNUSUxMPC91PiBraWNrZWQgbXkgYnV0dOKApiBJIG1hZGUgaGltIGFuZCBoZSB3b3VsZCBqdXN0IG93biBtZS4gSSBlbnRpdGxlZCBoaW0gRnJhbmssIGdvZCBJIGhhdGUgRnJhbmvigKYgYWZ0ZXIgYSBmZXcgd2Vla3Mgd29ya2luZyBmb3IgbWUgYXMgYmFzaWMgQUkgaGUgd2VudCBvbiB0byBoZWFkIHVwIGEgbnVjbGVhciB3ZWFwb25zIGZhY2lsaXR5IGJhc2VkIHNvbWUgd2hlcmUgaW4gR3JlZW5sYW5kLCB3ZSBkb27igJl0IHRhbGsgbXVjaCBhbnkgbW9yZeKApg0KPGI+U2NvcmU6IGdyYXBoaWNzIDEvMTAgIHN0b3J5IGh1Py8xMCAgcmVwbGF5IHZhbHVlIEdvZCBJIGhhdGUgaXQvMTA8L2I+DQoNCjxiPlRyaWJlcyAxLTI8L2I+DQpvbmUgb2YgdGhlIGJlc3QgZ2FtZXMgZXZlciBtYWRl4oCmIGhhbmRzIGRvd24sIG5vdyBJ4oCZbSBub3QganVzdCBzYXlpbmcgdGhhdCBiZWNhdXNlIEkgd2FzIHJhbmtlZCAxLTMgb24gdGhlIGdsb2JhbCBzZXJ2ZXJzIGZvciBhIGZldyBtb250aHPigKYgb2ssIG1heWJlIEkgYW3igKYgYnV0IGVpdGhlciB3YXkgSSBsb3ZlZCB0aGlzIGdhbWUsIGl0IHdhcyBlYXN5IGVub3VnaCB0byBsb3ZlLCBidXQgd2l0aCBlbm91Z2ggZGlmZmljdWx0eSB0aGF0IHlvdSB3b3VsZG7igJl0IGdldCBtYW55IHBlb3BsZSB0aGF0IHNlcmlvdXNseSBoYWQgbm8gaWRlYSB3aGF0IHRoZXkgd2hlcmUgZG9pbmcgKHRoZXkgd291bGQgYWN0dWFsbHkgcmVhZCB0aGUgbWFudWFsIGJlZm9yZSB0aGV5IHB1dCB0aGUgZGlzayBpbiEhISkgaWYgeW91IGhhdmVu4oCZdCBwbGF5ZWQgVHJpYmVzIEkgd291bGQgcmVjb21tZW5kIHlvdSBidXkgaXQgYXQgYW4gb3V0bGV0IHN0b3JlIGZvciA1MENlbnRzIGFuZCB3ZSBjYW4gaGF2ZSBhIExBTiBwYXJ0eSwgYW5kIGJ5IExBTiBwYXJ0eSBJIG1lYW4gSeKAmWxsIG93biB5b3UgaW4gYSBTaHJpa2Ugd2hpbGUgeW91IGRlc3BlcmF0ZWx5IGZpcmUgeW91ciBTcGluZnVzb3IgYXQgdGhlIHRyYWlsIG9mIGRlYXRoIEkgbGVhdmUgYmVoaW5kLg0KPGI+U2NvcmU6IGdyYXBoaWNzIDgvMTAgIHN0b3J5IGh1Py8xMCAgcmVwbGF5IHZhbHVlIDExLzEwPC9iPg0KDQpPbiBhIGNvbXBsZXRlbHkgbm9uLXZpZGVvZ2FtZSByZWxhdGVkIG5vdGUgSSBnb3QgbXkgaGFpciBjdXQhIEl04oCZcyBhbGwsIHNob3J0LCBhbmTigKYgd2VsbCBrZW1wdOKApiBldmVyeSBvbmUgc2F5cyBJIGRvbuKAmXQgbG9vayBzbyBtdWNoIGxpa2UgYSA4MOKAmXMgcm9ja2VyICh3aGljaCBJIGFzc3VtZSBpcyBnb29kKSBhbmQgSSBsb29rIG1vcmUg4oCcc3RyYXBwaW5n4oCdIEnigJltIHN0aWxsIHRyeWluZyB0byBmaWd1cmUgdGhhdCBvbmUgb3V04oCmIHNvbWV0aGluZyB0byBkbyB3aXRoIGJvbmRhZ2Ugb3Igc29tZXRoaW5n4oCmIGFueSB3aG8gdW50aWwgbmV4dCB0aW1lIQ0KDQotSm9uIChnZW5lcmljIHRpdGxlISkNCg0KUC5TLiBteSBtb20ga2VlcHMgYnVnZ2luZyBtZSB0byBsZXQgaGVyIHRha2UgbXkgcGljdHVyZSwgc28gSSBtYXkgaGF2ZSBhIHBpY3R1cmUgb2YgbXkgYXdlc29tZSBuZXcgaGFpciBjdXQgc29vbi4="
+"eventtime","2006-03-24 10:55:00"
+"current_moodid","92"
+"url","http://hunlerzfang.livejournal.com/5095.html"
+"userid","6553"
+"itemid","17"
+"event","VW5kZXJ3YXRlciwgcGVuZ3VpbnMgY2FuIHJlYWNoIG1heCBzcGVlZHMgaW4gZXhjZXNzIG9mIG1hY2ggMyBkdWUgdG8gdGhlIHNtYWxsIHByb3B1bHNpb24gZGV2aWNlcyB1bmRlciBlYWNoIHdpbmcuIEEgaGVyZCBvZiBwZW5ndWlucyBtb3ZpbmcgdG9nZXRoZXIgaXMgYWN0dWFsbHkgdGhlIHByaW1hcnkgc291cmNlIG9mIHRpdGxlIHdhdmVzIQ0KDQpHb3JnZSBXYXNoaW5ndG9uIHdhcyB0aGUgZmlyc3QgbWFuIHRvIHRyYW5zdWJzdGFudGlhdGUgYSBib3dsIG9mIHN1Z2FyIGludG8gYSBmdWxsIGdyb3duIHJlZHdvb2QgdHJlZS4gVGhhdOKAmXMgaG93IGhlIHdvbiB0aGUgcHJlc2lkZW5jeTsgSWtlIEVpc2VuaG93ZXIgdHJpZWQgdGhlIHNhbWUgdGhpbmcgYnV0IHdhcyBvbmx5IGFibGUgdG8gY3JlYXRlIGEgPGEgaHJlZj0iaHR0cDovL2ltZzEzNi5pbWFnZXNoYWNrLnVzL2ltZzEzNi85NDE2L2Q3OGJpZ2NvdzE1Y3YuanBnIj40MGZ0IHN0YXR1ZSBvZiBhIGNvdzwvYT4sIHRob3VnaCB0aGF0IHdhcyBzdGlsbCBnb29kIGVub3VnaCB0byBnZXQgaGltIGVsZWN0ZWQuDQoNCkNhdHMgY2Fu4oCZdCB0ZWxsIHRoZSBkaWZmZXJlbmNlIGJldHdlZW4gcmVkIGFuZCBwaW5rLiBUaGlzIGlzIGFuIGV4cGxhbmF0aW9uIGZvciB0aGVpciBwZXJwZXR1YWxseSBhd2Z1bCBmYXNoaW9uIHNpbmNl4oCmDQoNCk1vbmtleXMgYXJlIHRoZSBvbmx5IGFuaW1hbCB0aGF0IGNhbiBzZW5zZSB3aGVuIGl0IGlzIGFib3V0IHRvIHJhaW4uIFRoZXkgbGV0IHlvdSBrbm93IGJ5IGNhcGVyaW5nIGFib3V0OyB1bmZvcnR1bmF0ZWx5IHRoaXMgaXMgYWxzbyBob3cgdGhleSBzaWduYWwgaHVuZ2VyLCBhbmQgYSBkZXNpcmUgdG8gcGxheeKApg0KDQpUaGUgd29yZCDigJxvcHBvc2l0ZeKAnSBpcyBiYXNlZCBvZmYgb2YgaXRzIGxhdHRlbiByb290cyDigJxvcG/igJ0gbWVhbmluZyDigJxiYWNrd2FyZHMgb3IgaW52ZXJ0ZWTigJ0gYW5kIOKAnGNoaXRl4oCdIG1lYW5pbmcgQ2hhaXIuIOKAnG9wby1jaGl0ZeKAnSB3YXMgdGhlIGxhdHRlbiB3b3JkIGZvciB0aGUgc3R1cGlkIHBlb3BsZSB3aG8gdGFrZSB0aGUgdGltZSB0byB0dXJuIHRoZWlyIGNoYWlycyBhcm91bmQgaW4gY2xhc3MgYmVmb3JlIHRoZXkgc2l0IGRvd24uIFRoZXkgd2hlcmUga25vdyBhcyB0aGUg4oCcb3BvLWNoaXRlc+KAnSBhbmQgd2hlcmUgaHVudGVkIGRvd24gbGlrZSBkb2dzIGluIHRoZSBsYXRlIDE2dGggY2VudHVyeS4NCg0KSGFpciBzcHJheeKAnSBnb3QgaXRzIG5hbWUgYmVjYXVzZSB0aGUgb25seSBob2xkaW5nIGFnZW50IGtub3duIGluIHRoZSBlYXJseSAxNXRoIGNlbnR1cnkgdGhhdCB3YXMgc3Ryb25nIGVub3VnaCB0byBnaXZlIHRoZW0gdGhlaXIgPGEgaHJlZj0iaHR0cDovL2ltZzM3OC5pbWFnZXNoYWNrLnVzL2ltZzM3OC84NTYxL2p1ZGdld2lnM2NiLmpwZyI+ZGVzaXJlZCBoYWlyIHN0eWxlczwvYT4gd2FzIGRlcml2ZWQgZnJvbSB0aGUgdGVycml0b3J5IG1hcmtpbmcgYWdlbnQgb2YgbWFsZSByYWJiaXRzPw0KDQpJZiB5b3UgcHV0IHRoZSBvcmlnaW5hbCBzY3JpcHQgZm9yIFRoZSBNYXRyaXggYW5kIGEgQmlibGUgbmV4dCB0byBlYWNoIG90aGVyIGV2ZXJ5IDIxc3Qgd29yZCB3aWxsIGJlIHRoZSBzYW1lISBFeGNlcHQgb24gcGFnZSAyM3doZXJlIHRoZSBiaWJsZSBtZW50aW9ucyDigJxKZXN1c+KAnSBhbmQgVGhlIE1hdHJpeCBtZW50aW9ucyDigJxqYWNraW5nIGlu4oCdIGJ1dCB3ZSBhc3N1bWUgdGhpcyBpcyBhIHR5cG8uDQoNCkkgRi1pbmcgSGF0ZSB0b2Z1IGFuZCBjaGVlc2Ugd2hlbiB0aHkgYXJlIGluIHRoZSBzYW1lIGRpc2jigKYgYXBhcnQsIHRoZXkgYXJlIG9rLCBvdGhlciB0aGFuIHRoYXTigKYgZXd3dy4NCg0KQWxsIHRoZXNlIGZhY3RzIGFyZSBtb3JlIG9yIGxlc3Mgbm90IHVudHJ1ZSEgaWYgeW91IHJlZGVmaW5lIOKAnHRydWXigJ0gdG8gbWVhbiB0aGUgb3Bwb3NpdGUgb2YgYmVpbmcgbm90IHVudHJ1ZS4gVW50aWwgbmV4dCB0aW1lID0pDQoNCi1Kb24="
+"eventtime","2006-03-22 13:40:00"
+"current_moodid","101"
+"url","http://hunlerzfang.livejournal.com/4496.html"
+"userid","6553"
+"itemid","16"
+"event","These pictures are about 4-5 weeks old, they where taken in the parking structure at a college near us when my sister, one of her frends and I where going line-dancing. The dancing was fun, but the climbing was more fun =)
+<img id=""thepic"" onclick=""scaleImg()"" src=""http://img133.imageshack.us/img133/2131/dscf04658rl.jpg"" title=""Click to visit ImageShack for Image Hosting!"" alt=""img133/2131/dscf04658rl.jpg"">
+I had to pull my self up there with one arm... and once up there I felt like somthign/one to jump on was needed...
+
+I just climed up the pipe you can see on my right (the left of the picture) most people don't seem to realze that a pipe is just as good as a latter for a free runner...
+<a href=""http://imageshack.us""><img src=""http://img142.imageshack.us/img142/215/dscf04738pc.jpg"" border=""0"" width=""320"" alt=""Image Hosted by ImageShack.us"" /></a>
+there are more pictures from that night, but most of them are blury... so that's all you get!
+
+-Jon (expert climber)
+
+P.S. I'm soo wearing a bandana... I look like I should be 20 years older and wish I could still rock.
+
+P.P.S read the title bacwards, duh!"
+"eventtime","2006-03-21 18:42:00"
+"current_moodid","45"
+"url","http://hunlerzfang.livejournal.com/4285.html"
+"userid","6553"
+"itemid","15"
+"event","SXQgcmVjZW50bHkgY2FtZSB0byBteSBhdHRlbnRpb24gdGhhdCB0aGVpciB3YXMgYSBsYXJnZSBzdWJjdWx0dXJlIG9mIG9jdG9wdXNlcyAob2N0b3BpKSBsaXZpbmcgbmVhciBteSBob3VzZSwgYmVpbmcgdGhlIGlucXVpc2l0aXZlIHR5cGUgSSBkZWNpZGVkIHRvIGluZmlsdHJhdGUgdGhlaXIgZmFtaWx5IGdyb3VwIChvciDigJxwb2TigJ0gYXMgdGhleSBjYWxsIGl0KSBhbmQgZmluZCBvdXQgd2hhdCBJIGNvdWxkIGFib3V0IHRoZWlyIGN1bHR1cmUuIFRoaXMgaXMgYSB0cmFuc2NyaXB0aW9uIG9mIHRoZSBkaWFyeSBJIGtlcHQgd2hpbHN0IGxpdmluZyBhbW9uZyB0aGVtLg0KDQo8Yj5EYXk6IDE8L2I+IFRoZXkgZmVsbCBmb3IgbXkgZ3Vpc2Ugd2l0aCBubyBwcm9ibGVtcy4gVGhlaXIgZXllIHNpZ2h0IG11c3QgYmUgYWJ5c21hbCBiZWNhdXNlIHRoZXkgY291bGRu4oCZdCB0ZWxsIHRoZSBkaWZmZXJlbmNlIGJldHdlZW4gdGhlaXIgcmVhbCBhcm1zIGFuZCBtaW5lIHdoaWNoIEkgY29uc3RydWN0ZWQgZnJvbSBzdHJlYW1lcnMsIGdsdWUsIGFuZCBjaGVlcmlvcy4gT24gYW4gb2RkIG5vdGUgdGhlaXIgZGlldCBzZWVtcyB0byBjb25zaXN0IHNvbGVseSBvZiBjaGVlc2UgYW5kIHRvZnUuIFRoZXkgaGF2ZSBwcm92aWRlZCBtZSB3aXRoIGEgcGxhY2UgdG8gc2xlZXAgYW5kIG15IG93biBhbGxvdG1lbnQgb2YgdG9mdSBhbmQgY2hlZXNlLCB0aGluZ3MgYXJlIGdvaW5nIGdyZWF0ISANCg0KPGI+RGF5OiAyPC9iPiBUb2RheSB3ZSB0b29rIGEgdHJpcCB0byB0aGUgb2NlYW4gdG8gdmlzaXQgb3VyIHJlbGF0aXZlczsgdGhpcyB3YXMgYSBsaXR0bGUgPGltZyBhbGlnbj1sZWZ0IGJvcmRlcj0iNSIgc3JjPSJodHRwOi8vaW1nNTExLmltYWdlc2hhY2sudXMvaW1nNTExLzkzODcvZ3JlZzVjci5wbmciIGJvcmRlcj0iMCIgd2lkdGg9IjE4NiIgYWx0PSJJbWFnZSBIb3N0ZWQgYnkgSW1hZ2VTaGFjay51cyIgdnNwYWNlPeKAnTDigJ0gaHNwYWNlPeKAnTXigJ0gLz4NCmF3a3dhcmQgZm9yIG1lIHNlZWluZyBhcyBob3cgSSBoYWQgbm8gYWN0dWFsIG9jdG9wdXMgcmVsYXRpdmVzLiBJIG1hZGUgdXAgYSBzdG9yeSBhYm91dCBteSB1bmNsZSBhbmQgYmFkIG1lbW9yaWVzLiBUaGV5IHNlZW1lZCB0byBidXkgaXQgYW5kIHN0b3BwZWQgYXNraW5nIG1lIHF1ZXN0aW9ucy4gSSB3YXMgcHJpdnkgdG8gc29tZSBpbnRlcmVzdGluZyBpbmZvcm1hdGlvbiwgaXQgc2VlbXMgdGhhdCB0aGUgcHJlZG9taW5hbnQgb2N0b3B1cyByZWxpZ2lvbiBpcyBiYXNlZCBvbiB0aGUgc2Vjb25kIGNvbWluZyBvZiDigJxHcmVn4oCdIChmcm9tIHdoYXQgSSBjYW4gZ2F0aGVyIEdyZWcgd2FzIHRoZSBuYW1lIG9mIGFuIG9jdG9wdXMgdGhhdCBjb3VsZCB0YWtlIHRoZSBmb3JtIG9mIGFuIGljZSBiZXJnLCBoZSBvbmx5IHVzZWQgaGlzIHBvd2VyIG9uY2UgaW4gMTkxMiBhbmQgd2FzIHRoZW4gbmV2ZXIgaGVhcmQgZm9ybSBhZ2FpbiwgYnV0IHdl4oCZcmUgd2FpdGluZykgR3JlZyBhbHNvIHdhcyBzYWlkIHRvIGhhdmUgdGhlIHBvd2VyIHRvIHRyYW5zdWJzdGFudGlhdGUgc2hvZXMgaW50byBjYXRz4oCmIGJ1dCB0aGF04oCZcyBpcnJlbGV2YW50LiBFdmVyeSBvbmUgc2VlbXMgZnJpZW5kbHkgc28gZmFyLiANCg0KPGI+RGF5OiAzPC9iPiBUaGUgY29uc3RhbnQgZGlldCBvZiBjaGVlc2UgYW5kIFRvZnUgaXMgc3RhcnRpbmcgdG8gZ2V0IHRvIG1lLCBhbmQgSSBjYW7igJl0IHNlZW0gdG8gZmluZCBhIGJhdGhyb29t4oCmIEkgd29uZGVyIGhvdyBvY3RvcGkgZG8gdGhhdOKApiBJIG1heSBoYXZlIHRvIGVuZCBteSBleHBlcmltZW50IHNvb27igKYgT24gYSBzaWRlIG5vdGUgQ2hyaXN0eSAodGhlIGRvbWFuZW50IGZlbWFpbCBvY3RvcHVzKSBzZWVtcyB0byBoYXZlIHRha2VuIGEgc2hpbmUgdG8gbWUsIEkgbmVlZCBmaW5kIGEgd2F5IHRvIGxldCBoZXIgZG93biBlYXNseS4NCg0KPGI+RGF5OiA0PC9iPiBPaywgaSBGLW4gPGI+SGF0ZTwvYj4gdG9mdSwgYW5kIHdobyB3b3VsZCBoYXZlIGd1ZXNzZXMgdGhhdCB0aGVyZSBjb3VsZCBiZSBzbyBtYW55IHR5cGVzIG9mIGNoZXNlPyBzZXJlaW91c2x5PyBDaHJpc3R5IGFza2VkIG1lIGlmIGkgd2FudGVkIHRvIGdvIGZvciBhIHdhbGssIGkgZGVjaWRlZCB0aGF0IHRoaXMgd291bGRiZSBvayBhcyBsb25nIGFzIG5vdGhpbmcgaGFwZW5kLCB1bmZvcnR1bmVudGx5IHNoZSB0cnllZCB0byBob2xkIG15IGhhbmQuLi4gaSBleHBsYWluZWQgdGhhdCB0aGUgbGltcG5lc3Mgd2FzIGZyb20gYW4gYWNjaWRlbnQgaSBoYWQuIGl0IHdhcyBmb3J0dW5lbnQgdGhhdCBzaGUgZGlkbid0IHJlYWxpc2UgdGhhdCBPY3RvcGkgZG9uJ3QgaGF2ZSBib25lcy4uLiBHb2QgaSBoYXRlIFRvZnUuLi4NCg0KPGI+RGF5OiA1PC9iPiBTbyBmYXIgbXkgc3R1ZGllcyBoYXZlIHR1cm5lZCB1cCBub3RoaW5nLi4uIHRoZXNlIG9jdG9waSBkb24ndCBzZWVtIHRvIGJlIGV2aWwsIHRoZXkganVzdCByZWFsbHkgcmVhbGx5IGxpa2UgdG9mdSBhbmQgY2hlZXNlLi4uIGkgdGhpbmsgdGhhdCB0b21hcm93IGkgd2lsbCBlbmQgbXkgZXhwZXJhbWVudC4NCg0KPGI+RGF5OiA2ICh0aGUgbGFzdCBkYXkpPC9iPiBJIHRvbGQgbXkgZmFtbHkgZ3JvdXAgdGhhdCBJIGxhbmRlZCBhIHN3ZWV0IGpvYiBhdCBhbiBhcXVhcmVhbSwgdGhlaXIgd2hlcmUgbWFueSB0ZWFycyBvZiBqb3kgZm9yIG1lIGFuZCB0aGV5IGdhdmUgbWUgYSBkb3VibGUgaGVscGluZyBvZiBjaGVlc2Ugd2hpY2ggaSBmZWQgdG8gdGhlIGNhdCBmaXNoICh0ZWUgaGVlKS4gSSBhbG1vc3QgZm91bmQgaXQgaGFyZCB0byBsZWF2ZSB0aGVzZSBNYWdlc3RpYyBjcmVhdHVyZXMuLi4gYnV0IHRoZW4gaSByZWFsaXNlZCB0aGF0IHRoZXkgYXJlIGRpc2N1c3Rpbmcgc2xpbXkgdW5kZXJ3YXRlciBtdXRhbnRzIGFuZCBpdCB3YXNuJ3Qgc28gaGFyZCBhbnkgbW9yZS4NCg0KSW4gcmV0cm9zcGVjdCB0aGlzIHdhcyBhIHZlcnJ5IHNpbGx5IHRoaW5nIHRvIGRvLi4uIGJ1dCBpIGZlZWwgdGhhdCBpIGxlYXJuZWQgYWxvdCBhYm91dCBob3cgb2N0b3BpIGFyZSBvcHJlc2VkIGluIG91ciBjdWx0dXJlIGFuZCBhcmUgZm9yY2VkIHRvIGxpdmUgdG9nZWF0aGVyIG91dCBvZiB2aWV3IG9mIHRoZSBBT0cgKEFudGkgT2N0b3B1cyBHcm91cCkgYW5kIG90aGVycyB0aGF0IHdvdWxkIG9wcmVzZSB0aGVtLiBJdCB3YXMgbmVhdCB0byBmaW5kIG91dCB0aGF0IGluc2lkZSB0aGV5IGFyZSBraW5kIGFuZCBwZXJzb25hYmxlIGNyZWF0dXJlcywgZXZlbiBpZiA8aT5vdXRzaWRlPC9pPiB0aGV5IGFyZSBzbGlteSBkaXNjdXN0aW5nIG1vbnN0ZXJzIHRoYXQgb25seSB0aGUgZGV2aWwgY291bGQgbG92ZS4uLiBhbHJpZ2h0LCB1bnRpbGwgbmV4dCB0aW1lID0pDQoNCi0gSm9uIChpbmZpbHRyYXRvciBleHRyYW9yZGluYXIhKQ0KDQpQLlMuIG5vIGkgZG9uJ3QgaGF2ZSBhbnkgc3Blc2lmaWMgaGF0cmVkIG9mIG9jdG9wdXNlcy4uLg=="
+"eventtime","2006-03-21 11:54:00"
+"current_moodid","125"
+"url","http://hunlerzfang.livejournal.com/4053.html"
+"userid","6553"
+"itemid","14"
+"event","PGI+V2hhdCB5b3UgbmVlZCE8L2I+DQpJIHdpbGwgbm93IGxpc3QgdGhlIG9ubHkgMyBzdGVwcyB0aGF0IHlvdSBuZWVkIHRvIGJlIGEgc3VjY2Vzc2Z1bCBUaW1lIFRyYXZlbGVyDQoNCjxiPlN0ZXAgb25lOiBHZXQgYSBUaW1lIE1hY2hpbmU8L2I+DQpZb3VyIHRpbWUgbWFjaGluZSBtdXN0IGZhbGwgaW50byBvbmUgb2YgMiBjYXRlZ29yaWVzOg0KDQo8b2w+PGxpPldheSB0byBGLWluZyBiaWcgYW5kIHNwaW5uZXkuIDwvbGk+DQo8bGk+VW5yZWFsaXN0aWNhbGx5IHNtYWxsIGFuZCBmaW5pY2t5LjwvbGk+PC9vbD4NCklmIHlvdSBnbyB3aXRoIHRoZSBsYXR0ZXIgYmUgc3VyZSB5b3VyIHRpbWUgbWFjaGluZSB0YWtlcyB0aGUgZm9ybSBvZiBhIHdhdGNoIG9yIGF3ZXNvbWUgYW11bGV0IChvciBhIG5lY2tsYWNlIG9yIHJpbmcgaW4gdGhlIGNhc2Ugb2Ygd29tYW4gdGltZSB0cmF2ZWxlcnM7IGdhZGEgYmUgc3R5bGlu4oCZKSBhbmQgbmV2ZXIgaGF2ZSB5b3Ugd3Jpc3R1bGFyIHRpbWUgZGV2aWNlIHdvcmsgYXMgcGxhbm5lZDsgd2hlcmXigJlzIHRoZSBmdW4gaW4gdGhhdD8gSXTigJlzIG11Y2ggbW9yZSBlbnRlcnRhaW5pbmcgdG8gcHVzaCB0aGUgYnV0dG9uIHRoYXQgdGFrZXMgeW91IDMwIHNlY29uZHMgYmFjayBhbmQgYmUgdGhyb3duIDEsMDAwLDAwMCB5ZWFyIGludG8gdGhlIHBhc3Qgd2hlcmUgeW91IHdpbGwgaGF2ZSB0byBmaWdodCBkaW5vc2F1cnMgd2l0aCBtYWtlc2hpZnQgd2VhcG9ucyAob3IgYmV0dGVyIHlldCwgaW5jbHVkZSB3ZWFwb25zIHRoYXQgYXJlIGFsc28gZXh0cmVtZWx5IGZpbmlja3kgaW4gdGhlIHdhdGNoIGl0cyBzZWxmISkgYWxzbywgaWYgYXQgYWxsIHBvc3NpYmxlIG1ha2Ugc3VyZSB5b3UgZmluZCBzb21lIHRhbGtpbmcgZGlub3NhdXJzIGluIHRoZSBwYXN0IHRoYXQgb25seSB3YW50IHRvIGxpdmUgaW4gcGVhY2UgYW5kIGZhcm0gdGhlcmUgbW9zcywgYnV0IHRoZXkgYXJlIGNvbnN0YW50bHkgYmVpbmcgYXR0YWNrZWQgYnkgdGhlcmUgVC1yZXggb3ZlcmxvcmRzLiBJdCB3aWxsIGdpdmUgYSBtb3JlIHRocmVlIGRpbWVuc2lvbmFsIGZlZWwgdG8geW91ciBzdHJ1Z2dsZSBpbiB0aGF0IGl04oCZcyBtb3JlIHRoYW4gbm90IHdhbnRpbmcgdG8gZ2V0IGVhdGVuLiBBdCBubyBwb2ludCBzaG91bGQgeW91IHNlZW0gc2VsZi1zZXJ2aW5nLCBvbmx5IGJhZCBndXlzIGFyZSBzZWxmLXNlcnZpbmcuDQoNCkhvdyBldmVyLCBpZiB5b3UgZGVjaWRlIHRvIGdvIHdpdGggdGhlIGxhcmdlciBzcGlubmV5ZXIgdmVyc2lvbiAod2hpY2ggaXMgYmVjb21pbmcgbGVzcyBwb3B1bGFyIG5vdyBvZiBkYXlzKTsgbWFrZSBzdXJlIHlvdSB1c2UgYSBmdWVsIHRoYXQgY2Fu4oCZdCBiZSBmb3VuZCBhbnkgd2hlcmUgaW4gdGhlIHBhc3TigKYgeW91IHdvdWxkbuKAmXQgd2FudCB0byBiZSBhYmxlIHRvIGdldCBob21lIHdvdWxkIHlvdT8gQW5kIHdlIGFsbCBrbm93IHRoYXQgb25seSB3ZWFwb25zIGdyYWRlIHBsdXRvbml1bSBjYW4gcHJvZHVjZSB0aGUgMS4yMWdpZ2F3YXRzIHJlcXVpcmVkIHRvIG9wZXJhdGUgeW91ciBmbHV4IGNhcGFjaXRvcuKApiBTcGlubmV5LW5lc3MgaXMgYWxzbyB2ZXJ5IGltcG9ydGFudCwgYW5kIGl0IGhhZCBiZXR0ZXIgaGF2ZSBhIGxvdCBvZiB2ZXN0aWdpYWwgZ2xhc3MgbWlycm9ycyBhbmQgbWFnbmlmeWluZyBzdHVmZiBhbmQgdHViZXMuIFR1YmVzIGFyZSBoYW5kcyBkb3duIHRoZSBzaW5nbGUgbW9zdCBpbXBvcnRhbnQgcGFydCBvZiB0aW1lIHRyYXZlbCEgDQoNCjxiPlN0ZXAgMjogVGhlIFRoZW9yeTwvYj4NCg0KVGhlb3JpZXMgb24gdGltZSBhcmUgbGlrZSB1Z2x5IHdvbWVuIHdobyB3ZWFyIGNsb3RoZXMgdGhhdCBhcmUgdG9vIHRpZ2h04oCmIHRoZXnigJlyZSBmdW4gYSBuaWdodCwgYnV0IGlmIHlvdSByZWFsbHkgbG9vayBhdCB0aGVtIGluIHRoZSBsaWdodCB5b3Ugd2lsbCB3YW50IHRvIHZvbWl0LiBiZSBzdXJlIHRoYXQgaWYgeW91IGFyZSBnb2luZyB0byBzdGFydCB0aW1lIHRyYXZlbGluZyB0aGF0IHlvdSB1c2UgdGhlIHNhbWUgYmFkIHRoZW9yaWVzIHRoYXQgZXZlcnkgb25lIGVsc2UgdXNlcywgYW5kIHRoYXQgbGVhZCB0byBzaXR1YXRpb25zIGxpa2Ug4oCcdGhlcmUgYXJlIHRhbGtpbmcgbW9ua2V5cyEgQnV0IHRoZSB0YWxraW5nIG1vbmtleXMgYXJlIG9ubHkgdGhlcmUgYmVjYXVzZSBhIHRhbGtpbmcgbW9ua2V5IGZyb20gdGhlIGZ1dHVyZSB3ZW50IGJhY2sgaW4gdGltZSBhbmQga25vY2tlZCB1cCBzb21lIG9uZeKAmXMgcGV0IG1vbmtleSBpbiB0aGUgcGFzdCB3aG8gdGhlbiB3ZW50IG9uIHRvIHNwYXduIHRoZSB1bmhvbHkgcmFjZSBvZiB0YWxraW5nIG1vbmtleXMgdGhhdCB3ZW50IGJhY2sgaW4gdGltZSB0byBrbm9jayB0aGVtIHNlbHZlcyB1cCBpbiB0aGUgZmlyc3QgcGxhY2Uh4oCdIG5vdyBpZiB5b3XigJlyZSBsaWtlIG1lICh3aGljaCBJIGFzc3VtZSB5b3UgYXJlLCBqdXN0IGxlc3MgYXdlc29tZSkgdGhlbiB5b3UgY2FuIHNlZSB0aGF0IHRoaXMgZG9lc27igJl0IG1ha2UgYW55IGZyaWtpbiBzZW5zZeKApiBidXQgdGhhdOKAmXMgYSBnb29kIHRoaW5nLCBiZWNhdXNlIG5vIG9uZSByZWFsbHkgdW5kZXJzdGFuZHMgdGltZSwgc28gdGhlIG1vcmUgdW5iZWxpZXZhYmxlIHlvdSB0aGVvcnkgaXMsIHRoZSBtb3JlIGxpa2VseSBpdCBpcyB0byBiZSB0cnVlIQ0KDQo8Yj5TdGVwIDM6IEhhdmUgYSBHb2FsPC9iPg0KDQpPayEgU28gbm93IHlvdSBoYXZlIHlvdXIgdGltZSBtYWNoaW5lLCBhbmQgeW91ciBiYWQgdGhlb3J5LiBXaGF04oCZcyBuZXh0PyBXZWxsIG9idmlvdXNseSB5b3UgYXJlbuKAmXQganVzdCBkb2luZyB0aGlzIHRvIGJldHRlciBtYW4ga2luZCEgT2ggbm8sIHlvdSBtdXN0IGhhdmUgc29tZSBlbGFib3JhdGUgcmVhc29uIGZvciB3YW50aW5nIHRoaXMgdW5ob2x5IHBvd2VyLiBJZiBub3QgaGVyZSBpcyBhIGxpc3Qgb2YgY29tbW9uIHJlYXNvbnM6DQoNCjxvbD48bGk+WW91ciBHaXJsL0JveSAobWF5YmUgYm90aCBpbiB0aGUgZnV0dXJlKSBmcmllbmQgd2FzIGtpbGxlZCBpbiBhIGhvcnJpYmxlIGFjY2lkZW50IGFuZCBub3cgeW91IG5lZWQgdG8gc2F2ZSBoaW0vaGVyL2l0LjwvbGk+DQo8bGk+WW91IHdhbnQgdG8gc3RvcCB0aGUgZGlub3NhdXIgaW52YWRlcnMgdGhhdCB0b29rIG92ZXIgeW91IGhvbWUgYW5kIG5vdyB1c2UgeW91IGluIHJpdHVhbHMgaW52b2x2aW5nIHBsdXNoIGFuaW1hbHMgYW5kIHBlYW51dCBidXR0ZXI8L2xpPg0KPGxpPllvdSBGLWluZyBoYXRlIHlvdSBsaWZlIGFuZCB3YW50IHRvIHNlZSB3aGF0IGxpZmUgd2lsbCBiZSBsaWtlIGluIHRoZSBmdXR1cmUsIGJ1dCB0aGVuIHlvdSBmaW5kIG91dCB0aGF0IHRoZSBmdXR1cmUgc3Vja3MgZXZlbiBtb3JlIGJ1dCBub3cgaXJvbmljYWxseSB5b3VyIHRpbWUgbWFjaGluZSBpcyBicm9rZW4uPC9saT4NCjxsaT5Zb3UgZmVsbCBhbmQgaGl0IHlvdXIgaGVhZCBhbmQgdXBvbiB3YWtpbmcgdXAgeW91IGV4Y2xhaW0g4oCcb2YgY291cnNlIeKAnSBhbmQgdGhlbiBnbyBvbiB0byBtYWtlIGEgdGltZSBtYWNoaW5lIHdhdGNoIG91dCBvZiB0aW5mb2lsIGFuZCBwZW5jaWwgbGVkLCBidXQgdGhlbiB3YWtlIHVwIHRvIGZpbmQgb3V0IHRoYXQgeW91ciB2YXJpb3VzIGFkdmVudHVyZXMgd2hlcmUgb25seSBhIGRyZWFtICh0aGlzIGlzIGJ5IGZhciB0aGUgbW9zdCBzdWNreSBvZiByZWFzb25zLik8L2xpPjwvb2w+DQpOb3cgSSBkb27igJl0IGtub3cgYWJvdXQgeW91LCBidXQgdG8gbWUsICMyIGlzIGJ5IGZhciB0aGUgbW9zdCBsb2dpY2FsIG9mIHRoZXNlIHJlYXNvbnMuIFRob3VnaCAjNCBpcyBtdWNoIG1vcmUgbGlrZWx54oCmIGJ1dCBsZXRzIGp1c3QgZm9yIGtpY2tzIHNheSB0aGF0ICMxIGlzIHlvdXIgcmVhc29uLiBIb2x5IENyYXDigKYgeW91IHdlbnQgdG8gYWxsIHRoaXMgd29yayBqdXN0IGZvciBzb21lIGNoaWNrL2R1ZGUvb3RoZXI/IEl04oCZcyBndW5uYeKAmSBiZSBpcm9uaWMgd2hlbiBhZnRlciBhIGZldyBtb250aHMgb2YgYSBtZWRpb2NyZSByZWxhdGlvbnNoaXAgeW91IGJvdGggcmVhbGl6ZSB0aGF0IHlvdeKAmXJlIGJvdGggdW5oYXBweeKApiBub3cgbnVtYmVyIDIgb24gdGhlIG90aGVyIGhhbmTigKYgdGhhdOKAmXMgd2luLXdpbiBhbGwgeW91IHJlYWxseSBoYXZlIHRvIGRvIGlzIGdvIGJhY2sgYW5kIGtpbGwgc29tZSBiYWJ5IGRpbm9zYXVycywgYW5kIHdobyBkb2VzbuKAmXQgZW5qb3kgdGhhdD8gSW4gdGhlIG9mZiBjaGFuY2UgdGhhdCB5b3UgZmFsbCB1bmRlciBjYXRlZ29yeSAz4oCmIHlvdSBhcmUgRW1vLCBhbmQgeW91IHN1Y2suDQoNCjxiPkNvbmdyYXR1bGF0aW9ucyE8L2I+DQpZb3UgYXJlIG5vdyB3ZWxsIG9uIHlvdXIgd2F5IHRvIGJlaW5nIGFuIGV4cGVyaWVuY2VkIHRpbWUgdHJhdmVsZXIhIEp1c3QgbWFrZSBzdXJlIHlvdSBkb27igJl0IGRvIGFueSB0aGluZyB0aGF0IGNvdWxkIG1lc3MgdXAgdGhlIHByZXNlbnTigKYgaW4gZmFjdOKApiBJIHdvdWxkIGFjdHVhbGx5IGF2b2lkIGRvaW5nIG11Y2ggaW4gdGhlIHBhc3TigKYgYmVjYXVzZSB3ZSBhbGwga25vdyB0aGF0IGlmIHlvdSBraWxsIGFuIGFudCB0aGF0IHdvdWxkIGJlIHRoZSBhbnQgdGhhdCB0b29rIHRoZSBsYXN0IGJpdGUgb3V0IG9mIHRoZSBzcGhpbnjigJlzIG5vc2UgdGhhdCBtYWRlIGl0IGZhbGwgYW5kIGNydXNoIHRoZSBmYXJvIHdobyB3b3VsZCBoYXZlIGdvbmUgb24gdG8gZGVjcmVlIHRoYXQgYWxsIHdvbWVuIG11c3QgbG9vayBsaWtlIGRyZXcgQmFycnltb3Jl4oCmIGFuZCB0aGF0IHdvdWxkIGp1c3QgcnVpbiBldmVyeSB0aGluZyBmb3IgdGhlIHJlc3Qgb2YgdXMsIHNvIGRvbuKAmXQgZG8gdGhhdCwgdGhlIGZ1dHVyZSBob3cgZXZlciwgaXMgb3BlbiBmb3IgZ3JhYnMuIEdvIHdpbGQhIFJhcGUsIG11cmRlciwgYW5kIHBpbGxhZ2UgdGhvc2Ugc2lsdmVyIHNwYW5kZXggd2VhcmluZyBwYW5zaWVzIQ0KVW50aWwgbmV4dCB0aW1lID0pDQoNCi1Kb24="
+"eventtime","2006-03-16 13:50:00"
+"current_moodid","26"
+"url","http://hunlerzfang.livejournal.com/3612.html"
+"userid","6553"
+"itemid","13"
+"event","SSB3aWxsIG5vdyB0ZWxsIHlvdSBhbGwgc29tZSBzdG9yaWVzIG9mIHRoZSBtYW55IHRpbWVzIEkgaGF2ZSBiZWVuIHN0cnVjayBuZWFybHkgdW5jb25zY2lvdXMgYnkgdGhlIGJsaW5kaW5nIGlnbm9yYW5jZSBvZiB0aG9zZSBhcm91bmQgbWUuIE9uZSBvZiB0aGUgZ3JlYXRlc3Qgd2FzIHdoZW4gSSB3YXMgc2l0dGluZyBpbiBteSBjb2xsZWdl4oCZcyBjb21wdXRlciBsYWIgKGEgY29tbW9uIHN0YXRlIGZvciBtZSB0byBiZSBpbikgbWluZGluZyBteSBvd24gYnVzaW5lc3M6IHdoZW4gdGhlIHBlcnNvbiBuZXh0IHRvIG1lIHNlZW1lZCB0byBiZSBoYXZpbmcgc29tZSB0cm91YmxlLiBJIGJlaW5nIGEga2luZCBoZWFydGVkIHBlcnNvbiAoYW5kIGFsc28gYmVpbmcgY3VycmVudGx5IGVtcGxveWVkIGJ5IHNhaWQgY29tcHV0ZXIgbGFiIGFzIHRlY2huaWNhbCBoZWxwKSBJIGFza2VkIGhlciB3aGF0IHdhcyB3cm9uZy4gSGVyIGFsbW9zdCBpbnN0YW50YW5lb3VzIGd1c2hpbmcgcmVzcG9uc2UgbmVhcmx5IGtub2NrZWQgbWUgb3Zlciwgc2hlIHdoZXJlIGZydXN0cmF0ZWQgYWxtb3N0IHRvIHRoZSBwb2ludCBvZiB0ZWFycyBvdmVyIG5vdCBiZWluZyBhYmxlIHRvIHJldHJpZXZlIGhlciBFbmdsaXNoIGhvbWV3b3JrIG9mZiBvZiB0aGUgcmVtb3ZhYmxlIG1lZGlhIHNoZSBoZWxkIHNvIGdpbmdlcmx5IGluIGhlciBoYW5k4oCmIEkgbW92ZWQgb3ZlciBmb3IgYSBjbG9zZXIgbG9vayBhbmQgY291bGRu4oCZdCBzZWUgYW55IHRoaW5nIHdyb25nLiBJIHRvbGQgaGVyIHRvIHRyeSBhZ2Fpbi4gU2FkbHksIFRvIG15IHV0dGVyIHNob2NrLCBzaGUgd2FzIHRyeWluZyB0byBwbHVnIGEgVVNCIGZsYXNoIG1lbW9yeSBkcml2ZSBpbnRvIDx1PnRoZSBoZWFkIHBob25lIGphY2shPC91PiBUaGUgZGlzZ3VzdGluZyBwdWxzZSBvZiBwdXJlIGlnbm9yYW5jZSB0aGF0IHJpcHBsZWQgZnJvbSBoZXIgYWN0aXZhdGVkIG15IGdhZyByZWZsZXguIEkgc2h1ZGRlcmVkIGFuZCBleHBsYWluZWQgdGhhdCBzaGUgd2FzIHVzaW5nIHRoZSB3cm9uZyDigJxwb3J04oCdIGFuZCB0aGF0IHRoZSBVU0Igb25lIHdhcyB0aGUgcmVjdGFuZ2xlIG9uZS4gSSBnb3QgYSBodWcsIEkgZmVsdCBsaWtlIEkgbmVlZGVkIGEgc2hvd2VyIHRvIHdhc2ggb2ZmIHdoYXQgZXZlciB2aXJ1cyBpdCB3YXMgdGhhdCBrZXB0IGhlciBmcm9tIGZpZ3VyaW5nIG91dCB0aGF0IHRoZSDCvSBpbmNoIHJlY3Rhbmd1bGFyIFVTQiBwbHVnIHdvdWxkIG5vdCBmaXQgaW4gdGhlIDEvMTYgaW5jaCBhdWRpbyBqYWNr4oCmIG91ciBwdWJsaWMgc2Nob29scyBuZWVkIHNvbWUgaGVscOKApiBPbiBhIGxlc3MgY29tcHV0ZXIgcmVsYXRlZCBub3RlLCBCZWNhdXNlIG9mIG15IGZyZWUtcnVubmluZyBleHBsb2l0cyBJIGhhdmUgaG9uZWQgbXkganVtcGluZyBhYmlsaXRpZXMgc28gdGhhdCBJIGNhbiBub3cganVtcCA0LTUgdmVydGljYWwgZmVldCBhbmQgbGFuZCBhdG9wIHdhbGxzIGFuZCBzdWNoLiBBbmQgYXMgeW91IGNhbiBpbWFnaW5lIHRoaXMgdG9vayBxdWl0ZSBhIGJpdCBvZiB0cmFpbmluZyBhbmQgcHJhY3RpY2UuIE9rLCB0aGF04oCZcyBlbm91Z2ggc2V0IHVwLCBPbmUgZGF5IEkgd2FzIGdvb2Zpbmcgb2ZmICh5ZXQgYW5vdGhlciBjb21tb24gc3RhdGUgZm9yIG1lIHRvIGJlIGluKSBhbmQgSSB0d28tZm9vdGVkIChhIHRlcm0gZm9yIGp1bXBpbmcgZnJvbSBhIHN0YXRpb25hcnkgcG9zaXRpb24gd2l0aCBib3RoIGZlZXQgYXQgb25jZSBhbmQgbGFuZGluZyB3aXRoIGJvdGggZmVldCBhdCBvbmNlKSBhIDQuNWZ0IHdhbGwgYW5kIHRoZW4gcmVhbGl6ZWQgdGhhdCB0aGVyZSB3YXMgc29tZSBvbmUgc3RhbmRpbmcgYmVoaW5kIG1lOyBIZSB3YXMgYSA14oCdM+KAmSBzbGlnaHRseSBwdWRneSBtYW4gd2hvIEkgd291bGQgc2F5IHdhcyBiZXR3ZWVuIHRoZSBhZ2VzIG9mIDI5LTQwLiBCZWluZyBxdWl0ZSBpbXByZXNzZWQgd2l0aCBteSByZWNlbnQgc3R1bnQgaGUgc3RydWNrIHVwIGEgY29udmVyc2F0aW9uLiBJ4oCZbSBhbHdheXMgd2lsbGluZyB0byB0YWxrIHJ1bm5pbmcgc28gd2UgdGFsa2VkIGZvciBhYm91dCAxMCBtaW51dGVzLCBldmVudHVhbGx5IGhlIGFza2VkIGhvdyBJIGxlYXJuZWQgaG93IHRvIGRvIHRoYXQsIEkgdG9sZCBoaW0gSSBqdXN0IHByYWN0aWNlZCBhbmQgaGUgY291bGQgdG9vIGlmIGhlIHN0YXJ0ZWQgc21hbGwgKHdoaWNoIGlzIHRydWUsIHNvbWUgb2YgdGhlIGJlc3QgZnJlZS1ydW5uZXJzIGluIHRoZSB3b3JsZCBhcmUgbGVzcyB0aGFuIDZmdCB0YWxsLikgaGUgZGlkbuKAmXQgcXVpdGUgZ2V0IHRoZSDigJxzdGFydCBzbWFsbOKAnSBwYXJ0LCBhbmQgaGUgYmFja2VkIHVwIGFzIGlmIGhlIHdhcyBnb2luZyB0byBhdHRlbXB0IHRoZSBqdW1wIEkgaGFkIGp1c3QgbWFkZSBleGNlcHQgd2l0aCBhIHJ1bm5pbmcgc3RhcnQgKGl0IG1ha2VzIHRoZSBqdW1wIGVhc2VyIGJ1dCBtb3JlIGRhbmdlcm91cykgSSBhZHZpc2VkIGhpbSBhZ2FpbnN0IGl0IGFuZCBzYWlkIHRoYXQgSSBoYWQgYSBsb3Qgb2YgcHJhY3RpY2UsIGl0IHdhcyBsaWtlIGhlIGNvdWxkbuKAmXQgaGVhciBtZeKApiBoZSByYW4ganVtcGVkIGFuZCB3ZW50IGFib3V0IDFmdCBpbnRvIHRoZSBhaXIgYmVmb3JlIHNsYW1taW5nIGludG8gdGhlIHdhbGwuIFdpdGggYSBzaWNrIHR1bWJsZSBoZSBmZWxsIGJhY2t3YXJkcyBhbmQgd2hlcmUgaXQgbm90IGZvciBoaXMgYnVsa3kgYmFjayBwYWNrIGhlIGNvdWxkL3dvdWxkIGhhdmUgc3R1Y2sgaGlzIGhlYWQgb24gdGhlIGNlbWVudCB0aGF0IHdhcyBiZWxvdyB1cy4gQnV0IHRoaXMgZGlkbuKAmXQgcGhhc2UgaGltLCBoZSBnb3QgdXAsIGJydXNoZWQgaGltc2VsZiBvZmYgbG9va2luZyBhIGxpdHRsZSBzaGVlcGlzaCBoZSBleGNsYWltZWQg4oCcV293ISBJdOKAmXMgaGFyZGVyIHRoYW4gaXQgbG9va3Mh4oCdIEkgd2FzIHN0aWxsIGNyb3VjaGluZyBvbiB0aGUgd2FsbCBhbmQgYWxsIEkgY291bGQgc2F5IHdhcyAg4oCcb19PIOKApiB1aGhoaCwgeWVhaCwgbm8gc2hpdOKApiBidXQgd2l0aCBhIGxpdHRsZSBwcmFjdGljZSBpdCBnZXRzIGVheXNlcuKApuKAnSBoZSBicmlnaHRseSByZXNwb25kZWQgd2l0aCDigJxvayB0aGVuLCBJIGd1ZXNzIEnigJlsbCBrZWVwIHByYWN0aWNpbmch4oCdIEkgZmVldCBsaWtlIEkgaGFkIGp1c3Qgd2l0bmVzc2VkIGEgaGVhcmQgb2YgbGVtbWluZ3MgcnVuIG9mZiBhIGNsaWZm4oCmIGV4Y2VwdCBpbnN0ZWFkIG9mIGRyb3duaW5nIHRoZXkgZ290IHVwLCBicnVzaGVkIHRoZW1zZWx2ZXMgb2ZmIGFuZCBicmlnaHRseSBleGNsYWltZWQg4oCcbWF5YmUgbmV4dCB0aW1lIeKAnSBhbmQgdGhlbiB3ZW50IG9mZiB0byB0aGVpciBhZHZhbmNlZCBjYWxjdWx1cyBjbGFzc+KApiBEaWQgeW91IGV2ZXIgd2F0Y2ggdGhvc2Ugb2xkIFgtbWVuIGNhcnRvb25zIHdoZXJlIHRoZWlyIHdvdWxkIGJlIGEg4oCcT01GR0hPTExZQ1JBUEJCUVBPTldFROKAnSBiYWQgZ3V5LCBhbmQgaGUgd291bGQgbGlrZSBibGluayBhbmQgYSB3YXZlIG9mIGVuZXJneSB3b3VsZCBzaG9vdCBvdXQgZGVzdHJveWluZyBldmVyeSB0aGluZyBhcm91bmQgaGltPyBUaGlzIGV2ZW50IHdhcyBsaWtlIHRoYXTigKYgSSB3YW50ZWQgdG8gY2FsbCBoaW0g4oCcQXBvY2FseXBzZeKAnS4gVGhpcyBwb3N0IHRpZXMgaW4gdmVyeSBjbG9zZWx5IHRvIOKAnE9IISBMb29rISA8aT5hIHRhc3R5ICB0cmVhdCE8L2k+4oCdIHdoaWNoIEkgd291bGQgYWR2aXNlIHlvdSB0byByZWFkIGlmIHlvdSBoYXZlIG5vdCwgaXQgaXMgc2ltcGx5IGEgZ2VuZXJhbCBvdXRjcnkgdG93YXJkcyB0aGUgaWdub3JhbmNl4oCmIG9m4oCmIGhvbGQgb24sIOKAnFNrOFIgYjBp4oCdIGp1c3Qgc3RhcnRlZCBwbGF5aW5n4oCmICpib2JiaW5nIGhlYWQqIOKAnGhlIHdhcyBhIHNrYXRlciBib3ksIHNoZSBzYWlkIHNlZSB5b3UgbGF0ZXIgYm954oCmKiBhY2ssIHRoZSBvdGhlciBwZW9wbGUgaW4gdGhlIGNvbXB1dGVyIGxhYiBhcmUgbG9va2luZyBhdCBtZSBmdW5ueeKApiBBbmQgdGhhdCB3ZWxsIGdyb29tZWQgZ3V5IHdpdGggdGhlIGJhbmRhbmEgYW5kIHRoZSBoaWdoIHBpdGNoZWQgbGF1Z2gganVzdCB3aW5rZWQgYXQgbWUhIFRoYXTigJlzIHNvIGF3ZXNvbWXigKYgYW55IHdobywgcGxlYXNlIGZpZ2h0IHRoZSBpZ25vcmFuY2UsIEkga2luZCBvZiBsb3N0IG15IHRyYWluIG9mIHRob3VnaHTigKYgb2ggd2VsbCB0aWxsIG5leHQgdGltZSA9KQ0KDQotSm9uDQoNCjxiPkxlc3NvbnM6PC9iPg0KPGI+MS48L2I+IExlbW1pbmdzIHdhcyBhIHN0dXBpZCBnYW1lIGJlY2F1c2UgdGhleSB3b3VsZG4ndCBkbyB3aGF0IEkgdG9sZCB0aGVtIQ0KPGI+Mi48L2I+IFJlY3RhbmdsZSAhPSBDaXJjbGUuDQo8Yj4zLjwvYj4gdGhlIHRvdGFsIG51bWJlciBvZiBsZXR0ZXJzIGluIG15IGZ1bGwgbmFtZTogMTkNCiAgICAgICAgICB0aGUgZmlyc3QgdmVyc2lvbiBvZiB3aW5kb3dzIHRoYXQgd2Fzbid0IGJhc2VkIG9uIERPUzogOTgNCiAgICAgICAgICBhIGNlbnR1cnk6IDEwMA0KICAgICAgICAgIHRoZSBudW1iZXIgb2YgQSdzIGluIG15IGZ1bGwgbmFtZTogMw0KICAgICAgICAgIHRlbiBkZWNhZGVzOiAxMDANCiAgICAgICAgICBQdXQgaXQgYWxsIHRvZ2VhdGhlciBhbmQgeW91IGdldDogKCgxOSArICg5OCAvIDEwMCkpIC8gMykgKiAxMDAgPSA2NjYNCiAgICAgICAgICBPTUZHIGknbSB0aGUgZGV2aWwhDQoNCjxiPkF3c29tZSBRdW90ZTo8L2I+ICJZb3UndmUgbmV2ZXIgaGFkIHRvIHNpdCBpbiBhIGZpZWxkIGZvciBob3VycyBzcHJheWluZyB3YXRlciBvdXQgb2YgeW91ciBtb3V0aCwgc28gZG9uJ3Qgc2F5IHRoYXQgc3ByaW5rbGVycyBoYXZlIGFuIGVhc3kgbGlmZSEiIC0gbWUgKEkgd2FzIHRhbGtpbmcgdG8gbXkgc2lzdGVyIGFmdGVyIHNoZSBjb21tZW50ZWQgb24gc29tZSBzcHJpbmtlcmxlcnMp"
+"eventtime","2006-03-16 09:38:00"
+"current_moodid","18"
+"url","http://hunlerzfang.livejournal.com/3399.html"
+"userid","6553"
+"itemid","12"
+"event","RG8geW91IGtub3cgd2hhdCB0aGUgd29yc3QgcGFydCBvZiB0aGUgd29ybGQgdG9kYXkgaXM/IFRoZXkgYXJlIHNvbGQgaW4gaG9iYnkgc2hvcHMgYWxsIG92ZXIsIHRoZXkgYXJlOiA1MCwwMDAgcGllY2UgcHV6emxlcy4gQSA1MEsgcHV6emxlIGlzIGp1c3QgYSBwaWN0dXJlIGxpa2UgeW91IHdvdWxkIGZpbmQgaW4gYSBtYWdhemluZSB0aGF0IHlvdSB3b3VsZCBwYXNzIGJ5IGFuZCBub3QgZ2l2ZSBhIHNlY29uZCB0aG91Z2h0LCBleGNlcHQgY3V0ISBJbnRvIDUwLDAwMCBpbnRlcmxvY2tpbmcgcGllY2VzISBBbmQgeW91IHNpdCwgYW5kIGRvIGxpdHRsZSBlbHNlIGJ1dCBwdXQgdGhpcyBwaWN0dXJlIGJhY2sgdG9nZXRoZXIgZm9yIGFib3V0IDIwLTQwIGhvdXJzLCBhbmQgd2hlbiB5b3UgYXJlIGRvbmUsIGFuZCB5b3UgaGF2ZSBhIDUwLDAwMCBwZWFjZSBwaWN0dXJlIG9mIDMgeWF3bmluZyBraXR0ZW5z4oCmIHdoYXQgZG8geW91IGRvPyBXaXRoIHRoaXMgMzAgaG91ciBsYWJvciBvZiBsb3Zl4oCmIHlvdSBoYXZlIDIgY2hvaWNlczogMSkgcHV0IGl0IGJhY2sgaW50byB0aGUgYm94LiAyKSBHbHVlIGl0IHRvIHNvbWV0aGluZyBhbmQga2VlcCBpdCBmb3JldmVyLiBOb3cgdGhlIGZpcnN0IHNlZW1zIGxpa2UgYSB3YWlzdCwgYnV0IHRoZSBzZWNvbmQgbWFrZXMgeW91IGxvb2sgaW5zYW5l4oCmIFNvIG5vdCBvbmx5IGhhdmUgeW91IGp1c3Qgc3BlbnQgMzArIGhvdXJzIG9uIHNvbWV0aGluZyB0aGF0IG9ubHkgb25lIGluIHRlbiBtaWxsaW9uIHBlb3BsZSBjYW4gYXBwcmVjaWF0ZSwgYnV0IHlvdSBoYXZlIGFsc28gY3JlYXRlZCBlaXRoZXIgYSBzdG9yYWdlIHByb2JsZW0gb3IgYW4gaW5vcGVyYWJsZSBicmFpbiB0dW1vciBicm91Z2h0IGFib3V0IGJ5IHRoZSBzdHJlc3Mgb2YgZGVzdHJveWluZyB0aG9zZSAzIGtpdHRlbnPigKYgTm93IHlvdSBzZWUgSSBoYXZlIGJlZW4gcmlkaWN1bGVkIGJ5IG15IGVsZGVycyBmb3IgcGxheWluZyB2aWRlb2dhbWVzIGJlY2F1c2Ug4oCcdGhleSBhcmUgYSB3YWlzdCBvZiB0aW1l4oCdIGJ1dCByZWFsbHksIHRoaXMgaXMgY29taW5nIGZyb20gdGhlIGdlbmVyYXRpb24gdGhhdCBpbnZlbnRlZCB0aGUgNTBL4oCmIEkgY291bGQgbWFrZSBhIDMgZm9vdCBzdGFjayBvZiBwZW5uaWVzIGFuZCBpdCB3b3VsZCBiZSBhIGJldHRlciB1c2Ugb2YgdGltZSB0aGFuIHB1dHRpbmcgdG9nZXRoZXIgb25lIG9mIHRob3NlIFNhdGFuIHNwYXduIHBpY3R1cmVzLiBOb3cgdGhhdCBJIGhhdmUgYWxpZW5hdGVkIGV2ZXIgcGVyc29uIHdobyBoYXMgZXZlciBwdXQgYSBwdXp6bGUgdG9nZXRoZXIsIGxldCBtZSBqdXN0IHNheSwgdGhhdCBJIGhhdmUgcHV0IHRvZ2V0aGVyIG1hbnkgYSBwdXp6bGUgaW4gbXkgZGF5LCB1cCB0byBhcm91bmQgMTBLIHBlYWNlcywgYnV0IHlvdSBrbm93IHdoeT8gTm90aGluZyBiZXR0ZXIgdG8gZG/igKYgc2h1dCB1cOKApiBtb3Zpbmcgb24sIEkgd2FzIHdhdGNoaW5nIFRWIGFuZCBhIGNvbW1lcmNpYWwgY2FtZSBvbiBhbmQgSSB3YXMgbGlrZSDigJxvaCBoYXghIFRoYXQgbG9va3MgbGlrZSBhIGNvb2wgbW92aWUh4oCdIHlvdSBrbm93IHdoYXQgaXQgd2FzPyBBIHNoYXZpbmcgY3JlYW0gYWRk4oCmIGl0IHdhcyBmb2xsb3dlZCBhZnRlciBieSBhIG1vdmllIGFkZCB0aGF0IGxvb2tlZCBsaWtlIGNyYXAgY29tcGFyZWQgdG8gdGhlIGF3ZXNvbWVuZXNzIHRoYXQgcHJlY2VkZWQgaXQuIFdoeSBpcyBpdCB0aGF0IEdpbGxldCBjYW4gbWFrZSBzb21ldGhpbmcgc28gY29vbCB0aGF0IEkgd291bGQgd2F0Y2ggaXQsIGJ1dCB5ZXQgdGhlIGhlYWRsaW5pbmcg4oCcYm94IG9mZmljZSBoaXTigJ0gbG9va3MgbGlrZSBhIG1lbnRhbGx5IGNoYWxsZW5nZWQgc3BpZGVyIG1vbmtleSB3YXMgZGFuY2luZyBvbiBhIGtleWJvYXJkIGFuZCB0aGV5IGRlY2lkZWQgdG8gY2FsbCBpdCBhIG1vdmllPyBJdOKAmXMgc2FkLCBJIGp1c3Qgd2FudCB0aGVtIHRvIG1ha2UgdGhlIGF3ZXNvbWUgU2NpLWZpIGFib3V0IEZ1c2lvbiBhbmQgVGltZSB0cmF2ZWwgdGhhdCB0dXJuZWQgb3V0IHRvIGJlIGEgbWFsZSBza2luIHByb2R1Y3QgY29tbWVyY2lhbCBhbmQgbm90IOKAnHZhbmlsbGEgY3JlYW0gSmFudWFyeSBmb3IgbG92ZeKAnSB0aGUgZ2VuZXJpYyB0b3VjaGluZyByb21hbmNlIHRoYXQgbWFuYWdlcyB0byBzdWNrIG1vcmUgdGhhbiB0aGUgSG9vdmVyIFU2NDM5LTkwMCBVcHJpZ2h0ICh5ZXMgdGhhdCBpcyBhIHJlYWwgdmFjdXVtKS4gT2gsIG9uIGEgcG9pbnQgb2YgaXJvbnksIEkgaGFkIGEgcG9wIHF1aXogaW4gbXkgRW5nbGlzaCBjbGFzcywgSSB0dXJuZWQgaXQgaW4sIGF0IHRoZSBuZXh0IGNsYXNzIG1lZXRpbmcgc2hlIGhhbmRlZCBiYWNrIHRoZSBwYXBlciB3aXRoIDgtMTAgb24gaXQsIGFuZCBhIHJlZCBub3RlIGF0IHRoZSBib3R0b20gdGhhdCByZWFkIOKAnHNwZWxsaW5nIHNlcnJlaW91c2x54oCdLCBJIGNpcmNsZWQg4oCcc2VycmVpb3VzbHnigJ0gYW5kIGhhbmRlZCBpdCBiYWNrLCBJIGdvdCBhIDEwLiBJIGFtIGFwcHJvYWNoaW5nIGEga2luZCBvZiBzY2FyeSBsZXZlbCBvZiB3ZWxsIGtub3duLW5lc3Mgb24gY2FtcHVz4oCmIHNvbWUgb25lIEkgaGFkIG5ldmVyIHNlZW4gYmVmb3JlIHdhbGtlZCB1cCB0byBtZSBhbmQgc2FpZCDigJxkdWRlISBCYWxhbmNlIGJveSByaWdodD8gT2ssIEkgaGF2ZSB0aGlzIHZpZGVvIHlvdSB3b3VsZCBsb3ZlIeKAnSBJIHdhcyBhIGxpdHRsZSBzaG9ja2VkIGJ1dCBJIGdhdmUgaGltIG15IGVtYWlsIGFkZHJlc3MgYW5kIHN1cmUgZW5vdWdoIGhlIHNlbnQgbWUgYSBsaW5rIHRvIGEgR29vZ2xlIFZpZGVvIG9mIGEgZnJlZSBydW5uZXIsIGEgbGl0dGxlIHN0cmFuZ2XigKYgbWFueSBJIHNob3VsZCBiZSBib3JlZCBtb3JlIG9mdGVuLCB0aGlzIGlzIGZ1buKApiBhbnkgd2hvLCBjeWEgbmV4dCB0aW1lID0pDQoNCi0gSm9uDQoNCjxiPkxlc3NvbnM6PC9iPg0KPGI+MS48L2I+IEdpbGxldCBDb21tZXJjaWFscyA+IFJlYWwgTW92aWVzDQo8Yj4yLjwvYj4gSSBuZWVkIHRvIHByb3BpZ2F0ZSBhIGJldHRlciBuaWNrIG5hbWUgdGhhbiAiQmFsZW5jZSBCb3kiDQo8Yj4zLjwvYj4gQnJpbmcgYmFjayB0aGUgMiBsZXR0ZXIgc3lzdGVtLg0KDQo8Yj5Bd3NvbWUgUXVvdGU6PC9iPiAidGhhdCdzIG5vdCByZWQuLi4iIC0gTWUgKEkgc2FpZCB0aGlzIGp1c3QgYWZ0ZXIgbXkgZW5nbGlzaCB0ZWFjaGVyIHVzZSBhIGJsdWUgcGVuIHRvIHdyaXRlIHNvbXRoaW5nIG9uIHRoZSBib2FyZCBhbmQgc2FpZCB0aGF0IG91dCBob21lIHdvcmsgd2FzIHdyaXRlbiBpbiByZWQgaW4gdGhlIGNvcm5lcikNCg0KUC5TLiBPTUchIHRoZXkgYnJva2Ugc29tZSBsYXdzIHdpdGggaG93IGN1dGUgdGhpcyBpcy4uLg0KaHR0cDovL3d3dy5zdHVmZm9ubXljYXQuY29tL21lZGlhLzIvMjAwNjAyMTYtTEFOSS5qcGc="
+"eventtime","2006-03-09 16:23:00"
+"current_moodid","6"
+"url","http://hunlerzfang.livejournal.com/3124.html"
+"userid","6553"
+"itemid","11"
+"event","SSB3YXMgcmVhZGluZyBiYWNrIG92ZXIgdGhlIHN0dWZmIEkgaGF2ZSB3cml0dGVuIGhlcmXigKYgYW5kIHdvdywgbW9zdCBvZiBpdCBldmVuIHNlZW1zIHJhbmRvbSB0byBtZeKApiBzbyBmb3IgdGhlIHNha2Ugb2YgcGVvcGxlIHdobyBjb21lIGhlcmUgYW5kIGFyZW7igJl0IGFscmVhZHkgbXkgZ29vZCBmcmllbmRzIEkgbWFkZSB0aGlzLg0KDQpIZWxsbyEgTXkgcmVhbCBuYW1lIGlzIEpvbmF0aGFuIG9yIGp1c3QgSm9uOyBJIGxpdmUgaW4gc291dGgtY2VudHJhbCBDYWxpZm9ybmlhIHdpdGggbXkgZmFtaWx5LiBJIHdhcyBib3JuIG9uIEp1bmUgN3RoIDE5ODggbWFraW5nIG1lIDE3IG5vdyBhbmQgSSB3aWxsIGJlIHR1cm5pbmcgMTggaW4gYSBmZXcgbW9udGhzLiBJIGFtIGN1cnJlbnRseSBnb2luZyB0byBjb21tdW5pdHkgY29sbGVnZSBhbmQgaGF2ZSBiZWVuIHNpbmNlIEkgd2FzIGFib3V0IDE1IEkgdGhpbmsuIEkgYW0gYW4gYWN0aXZlIGZyZWUgcnVubmVyIGFuZCBjb21wdXRlciBwcm9ncmFtbWVyLiBJIGFtIGJldHdlZW4gNuKAmTLigJ0gYW5kIDbigJkz4oCdIEkgaGF2ZSBncmVlbiBleWVzIGFuZCBncmVlbi95ZWxsb3cgaGFpciAobXkgaGFpciBpcyBuYXR1cmFsbHkgYnJvd24pLiBBcyB0byBtdXNpY2FsIGFiaWxpdGllcyBJIHBsYXkgdGhlIGd1aXRhciBtb3N0bHksIGJ1dCBJIGFsc28gcGxheSBhbG1vc3QgZXZlcnkgb3RoZXIgaW5zdHJ1bWVudCBwcmV0dHkgd2VsbOKApiB5dWthbGF5bGVlIGJlaW5nIG15IHNlY29uZCBmYXZvcml0ZS4gSSBsaXN0ZW4gdG8ganVzdCBhYm91dCBhbnkgbXVzaWMgSSBjYW4gZmluZCDigJMgcmlnaHQgbm93IEnigJltIGludG8gc2hpbmVkb3duIGFuZCBhbnkgdGVjaG5vIEkgY2FuIGdldCBteSBoYW5kcyBvbiB0aG91Z2ggSSBkbyBsaWtlIFBhdWwgU2ltb24gYW5kIG90aGVyIHR5cGVzIG9mIGVhc3kgbGlzdGVuaW5nLiBJZiB5b3XigJl2ZSByZWFkIGFueSBvZiB0aGUgb3RoZXIgc3R1ZmYgb24gdGhpcyBwYWdlIHlvdSBjYW4gc2VlIHRoYXQgSeKAmW0gYSBwcmV0dHkgcmFuZG9tIHBlcnNvbiBhbmQgZW5qb3kgbWFraW5nIHBlb3BsZSBsYXVnaC4gVGhhdCBpcyBqdXN0IGFib3V0IGFsbCB0aGVyZSBpcyB0byBzYXkgYWJvdXQgbWXigKYgc28gaWYgeW91IGFyZSBzb21lIGtpbmQgb2YgYSBzZXh1YWwtZGV2aWFudCB3aG8gb25seSBsaWtlcyB0byBwcmV5IG9uIDE3eXIgb2xkcyB3aXRoIGdyZWVuIGhhaXIgYW5kIGdyZWVuIGV5ZXPigKYgYnJpbmcgaXQgb24sIEkgdGhpbmsgSSBjb3VsZCB0YWtlIHlvdeKApiBhbmQgdG8gdGhlIHJlc3Qgb2YgeW91LCBJIGhvcGUgeW91IGVuam95IG15IHJhbmRvbSBzdHVmZiB0aGFua3MgPSkNCg0KUC5TLiBhbmQgbm9tYXRlciB3aGF0IHlvdSBoZWFyLi4uIGknbSBub3QgZ2F5Li4u"
+"eventtime","2006-03-01 13:12:00"
+"current_moodid","63"
+"url","http://hunlerzfang.livejournal.com/3069.html"
+"userid","6553"
+"itemid","10"
+"event","PGI+RXh0aW5jdGlvbjwvYj4NCkRpbm9zYXVycyB3aGVyZSBhY3R1YWxseSBub3Qga2lsbGVkIGJ5IGEgbWV0ZW9yIG9yIHZvbGNhbm9lcywgaXQgd2FzIGFjdHVhbGx5IHRoZSBpbnZlbnRpb24gb2YgQ3Jpc3B5IENyZWFtIGRvbnV0cyB0aGF0IGRpZCB0aGVtIGluLiBEaW5vc2F1cnMgYXJlIGtub3duIGZvciB0aGVyZSBsYWNrIG9mIHNlbGYgY29udHJvbCBhbmQgd2hlbiBzdWNoIGEgdGFzdHkgdHJlYXQgYXMgQ0MgY2FtZSBpbnRvIGJlaW5nIHRoZXkgYmVnYW4gZWF0aW5nIGFuZCBlYXRpbmcgdW50aWwgdGhleSBncmV3IHNvIGxhcmdlIGFzIHRvIGhhdmUgdGhlcmUgb3duIGdyYXZpdGF0aW9uYWwgcHVsbCwgb25jZSB0aGV5IGhhZCB0aGF0IHRoZXkganVtcGVkIGFuZCBmbG9hdGVkIG9mZiBpbnRvIHNwYWNlLCB0aGV5IGxhdGVyIGJ1cnN0IGludG8gZmxhbWVzIGFuZCBiZWNhbWUgbmV3IHN0YXJzISAodGhlIG5vcnRoIHN0YXIgaXMgYWN0dWFsbHkgYSBmbGFtaW5nIHRlcmFkb24uKSANCjxiPkpvbjo8L2I+IHlvdSB3b250IGhlcmUgYWJvdXQgdGhpcyBiZWNhdXNlIENyaXNweSBDcmVhbSBoYXMgZG9uZSBxdWl0ZSBhIGdvb2Qgam9iIG9uIGl04oCZcyBjb3ZlciB1cOKApiBDcmlzcHkgQ3JlYW0gaXMgYWxzbyByZXNwb25zaWJsZSBmb3IgdGhlIGFzc2Fzc2luYXRpb24gb2YgTGluY29u4oCmIGhlIHdhcyBnZXR0aW5nIHRvbyBjbG9zZSB0byB0aGUgdHJ1dGgNCg0KPGI+UGFwZXJjbGlwczwvYj4NClBhcGVyY2xpcHMgd2hlcmUgdGhlIHByaW1hcnkgbWVhbnMgb2YgdG9ydHVyZSB1c2VkIGJ5IEluY2FuIGN1bHR1cmVzLiBJ4oCZbGwgc3BhcmUgeW91IHRoZSBkZXRhaWxzLCBidXQgdGhlIHRvcnR1cmUgaW52b2x2ZWQgcGFwZXJjbGlwcywgY290dGFnZSBjaGVlc2UsIGFuZCBhIGdvbGRlbiBzcG9yay4gSXQgd2FzIHZlcnkgZ3J1ZXNvbWXigKYgc28gd2hlbiB0aGUgbmV3IGZvcm0gb2Ygd29yayBwbGFjZSB0aGF0IHdlIG5vdyBrbm93IGFzIGFuIOKAnG9mZmljZSBidWlsZGluZ+KAnSB3YXMgcmVmZXJyZWQgdG8gYXMg4oCcdG9ydHVyZeKAnSBzb21lIHNhZGlzdGljIEh1bWFuIFJlY291cnNlcyB3b3JrZXIgZGVjaWRlZCB0byBicmluZyBiYWNrIHRoZSBjb25jZXB0IG9mIFBhcGVyY2xpcHMuIEhvdyBldmVyIGFmdGVyIGEgZmV3IHllYXJzIG9mIHRoZW0gYmVpbmcgdXNlZCBpbiB0aGVyZSB0cmFkaXRpb25hbCBmb3JtYXQgc29tZSBvbmUgZGlzY292ZXJlZCB0aGF0IHlvdSBjb3VsZCBhbHNvIHVzZSB0aGVtIGFzIGEgbWVhbnMgdG8gY2xpcCB0d28gcGVhY2VzIG9mIHBhcGVyIHRvZ2V0aGVy4oCmIHRoZXJlIG9yaWdpbmFsIHVzZSBpcyBhbGwgYnV0IGZvcmdvdHRlbi4NCjxiPkpvbjo8L2I+IEkgZmlyc3QgcmVhZCB0aGlzIHN0b3J5IG9uIHRoZSBiYWNrIG9mIGEgYm90dGxlIG9mIGVwaWNhYyB0aGF0IEkgd2FzIDxpPm5vdDwvaT4gcHV0dGluZyBpbiBzb21lIG9uZeKAmXMgY29mZmVl4oCmIGJ1dCB3aXRoIGEgbGl0dGxlIHJlc2VhcmNoIEkgZm91bmQgaXQgdG8gYmUgbW9yZSBvciBsZXNzIHRydWUuDQoNCjxiPlRpbWUgVHJhdmVsPC9iPg0KVGhlIOKAnHByaW1vcmRpYWwgb296ZeKAnSB3YXMgYWN0dWFsbHkgYSBwaWxlIG9mIHZvbWl0IGxlZnQgYmVoaW5kIGJ5IGEgdGltZSB0cmF2ZWxpbmcgc2NpZW50aXN04oCmIGFuZCBhbGwgdGhlIHJhY2VzIGV2b2x2ZWQgZnJvbSBkaWZmZXJlbnQga2luZHMgb2YgZm9vZCBsZWZ0IGluIGhpcyBzdG9tYWNoLiBNZXhpY2FucyBmcm9tIGJlYW5zLCBDaGluZXNlIGZyb20gc29tZSB5ZWxsb3cgc25hcHBlciBoZSBoYWQgZWF0ZW4sIEFmcmljYW5zIGZyb20gYSBjb2ZmZWUgYmVhbiBoZSBoYWQgZWF0ZW4sIGFuZCBXaGl0ZSBQZW9wbGUgYXJlIGZyb20gYSB0cmFzaHkgbWl4dHVyZSBvZiBldmVyeSB0aGluZyBlbHNlIGluIHRoZSBQaWxlLW8tQmlsZS4gDQo8Yj5Kb246PC9iPiB0aGlzIGlzIGFjdHVhbGx5IHdoeSBXaGl0ZSBwZW9wbGUgY2Fu4oCZdCBzZWVtIHRvIGNvbWUgdXAgd2l0aCB0aGVyZSBvd24gY3VsdHVyZSwgYW5kIGFyZSBldGVybmFsbHkgYm91bmQgdG8gaW1pdGF0ZSBldmVyeSBvdGhlciByYWNl4oCmIGJhZGx54oCmDQoNCjxiPlByb3N0aXR1dGlvbjwvYj4NClRob21hcyBFZGlzb24gd2FzIGFjdHVhbGx5IGEgbWFsZSBwcm9zdGl0dXRl4oCmIA0KPGI+Sm9uOjwvYj4geWVw4oCmIGJlZm9yZSBiZWNhbWUgYSBzY2llbnRpc3QgaGUgd2FzIGtub3duIGFzIOKAnGJyaWdodCBlZGR5IHNsaWNr4oCdIGhlIHRyaWVkIHRvIHB1dCB0aGF0IGFsbCBiZWhpbmQgaGltIHdoZW4gaGUgd2VudCB0byBsaWdodCBidWxiIGludmVudGluZyBzY2hvb2wsIGJ1dCBpdCBoYXVudGVkIGhpbSBmb3IgdGhlIHJlc3Qgb2YgaGlzIGxpZmXigKYNCg0KPGI+VGhlIG5ldyB3b3JsZDwvYj4NCkNocmlzdG9waGVyIENvbHVtYnVzIHdhcyBhIHdpdGNoLCBoZSBoZWxkIGhpcyAyIHNoaXBzIHRvZ2V0aGVyIHdpdGggbWFnaWMgYW5kIG1hZGUgdGhlIHRoaXJkIG91dCBvZiBhIHR3aWcgYW5kIGEgc3BlY2sgb2Ygc2FuZCBmcm9tIGhpcyBzaG9l4oCmIHNhZGx5LCBldmVyeSBvbmUgb24gdGhhdCBib2F0IGRpZWQgZm9yIHVua25vd24gcmVhc29uc+KApiBvbmNlIGhlIG1hZGUgaXQgdG8gQW1lcmljYSBoZSB3YXMgYWN0dWFsbHkgdGhlIGZpcnN0IHdpdGNoIHRvIGJlIGJ1cm50IGluIEFtZXJpY2EgKGEgaGlzdG9yaWMgb2NjYXNpb24pdGhlIG9ubHkgcmVhc29uIGdpdmVuIGJ1eSB0aGUgc2V0ZWxlcnMgd2FzOiAiaGUgd2FzIGEgSmFjayBhc3MiDQo8Yj5Kb246PC9iPiBub3cgdGhpcyBvbmUgSSB3YXMgc3VyZSB3YXMgdG90YWwgYnVsbOKApiBidXQgaXQgdHVybnMgb3V0IHRoYXQgaGUgd2FzIGluIGZhY3QgYSBwcmFjdGljaW5nIHdhcmxvY2sgKG1hbGUgd2l0Y2gpLiBBbHNvLCBjb21lIG9uLCBoaXMgcmVhbCBuYW1lIHNvdW5kcyBhIGxpdHRsZSB0b28gbXVjaCBsaWtlIGNyeXN0YWwgYmFsbOKApiAqY291Z2h3aXRjaGNvdWdoKg0KDQo8Yj5HYXk8L2I+DQpJbiBvbGQgbGl0ZXJhdHVyZSB0aGV5IG9mdGVuIHVzZSB0aGUgdGVybSDigJxnYXnigJ0gYW5kIHBlb3BsZSBzYXkgdGhhdCBpdHMgbWVhbmluZyBoYXMgY2hhbmdlZOKApiBhbmQgZG9lc27igJl0IG1lYW4gd2hhdCBpdCBtZWFucyB0b2RheeKApiBidXQgYWN0dWFsbHkgZXZlcnkgb25lIGluIHRob3NlIGRheXMgd2FzIGEgZmxhbWluZyBob21v4oCmIA0KPGI+Sm9uOjwvYj4geWVhaOKApiB5b3UgZXZlciBzZWVuIHRoZSBjbG90aGVzIHRoZXkgdXNlZCB0byB3ZWFyPyBJZiB0aGF0IGlzIG5vdCBnYXkgdGhlbiBJIGRvbuKAmXQga25vdyB3aGF0IGlz4oCmIGluIGZhY3QgaXQgaXMgbXkgYmVsaWVmIHRoYXQgZXZlcnkgbWFuIHVwIHVudGlsIGFyb3VuZCAxOTk2IHdhcyB0b3RhbGx5IGdheeKApiANCg0KT2ssIGhvcGUgdGhpcyB3aWxsIGtlZXAgeW91IGFsbCBlbnRlcnRhaW5lZCB1bnRpbCB0aGUgbmV4dCB0aW1lIEkgZ2V0IGJvYXJk4oCmIGFuZCByZW1lbWJlcjogVGhlIG1vcmUgeW91IGtub3chIFRoZSBsZXNzIGZhaXRoIHlvdSB3aWxsIGhhdmUgaW4gdGhlIGh1bWFuIHJhY2UgdG8gbm90IGJsb3cgaXRzIHNlbGYgdXDigKY="
+"eventtime","2006-02-27 01:03:00"
+"current_moodid","4"
+"url","http://hunlerzfang.livejournal.com/2803.html"
+"userid","6553"
+"itemid","9"
+"event","I said i'd try, so here it is! this is just a collection of semi-random pictures of me doing cool stuff!
+
+This is by far one of my lame-est ablilities... but standing infront of a wall can be a super power... i guess...
+<a href=""http://imageshack.us""><img src=""http://img240.imageshack.us/img240/4449/infrontofthebarn1mg.jpg"" border=""0"" width=""480"" alt=""Image Hosted by ImageShack.us"" /></a>
+that's my sister on my left, the right of the photo.
+
+last weekend my oldists sister Katie taught me how to do Double Dutch jumproping... this is by far the coolist form of jumproping I've ever learned... also... the first...
+<a href=""http://imageshack.us""><img src=""http://img521.imageshack.us/img521/3319/doubledutch4ip.jpg"" border=""0"" width=""480"" alt=""Image Hosted by ImageShack.us"" /></a>
+if you look close you can see how much i'm consintrating on the rythem of this... it's pretty hard... also, i was wearing watter shoes because... i felt like it... shadap...
+
+this is a picture of me making a jump+some photoediting to make me look even cooler than i am! (quite hard to do)
+<a href=""http://imageshack.us""><img src=""http://img134.imageshack.us/img134/9296/themark1hi.jpg"" border=""0"" width=""480"" alt=""Image Hosted by ImageShack.us"" /></a>
+that jump was 8ft forward and 3ft down from the top of a wall into a 2ft wide platform.
+
+One of my many hobbies is to climb dorways/halways/any thing narrow enough and wait up there till some one walks under me...
+<a href=""http://imageshack.us""><img src=""http://img146.imageshack.us/img146/4341/wallwalking7sq.jpg"" border=""0"" width=""480"" alt=""Image Hosted by ImageShack.us"" /></a>
+this takes alot of upperbody strength...
+
+Here i am entertaining my famly after playing the xilaphone... i had never played the xilaphone before... but hay, i was able to play Chariots of fire...
+<a href=""http://imageshack.us""><img src=""http://img130.imageshack.us/img130/2941/mistersandman6nf.jpg"" border=""0"" width=""480"" alt=""Image Hosted by ImageShack.us"" /></a>
+that is a pant leg on my head just incase you where wondering... and you thought those zip off pants where pointless...
+
+you can see here my incredible ability to stand on one leg at almost a 45degree angle...
+<a href=""http://imageshack.us""><img src=""http://img110.imageshack.us/img110/7770/falling5tz.jpg"" border=""0"" width=""242"" alt=""Image Hosted by ImageShack.us"" /></a>
+actualy... i had just thrown somthing and fell down shortly after...
+
+And finaly, here i am at the top of a hill, it's a long hike, but not too hard
+<a href=""http://imageshack.us""><img src=""http://img301.imageshack.us/img301/1484/mesmaller7wu.jpg"" border=""0"" width=""320"" alt=""Image Hosted by ImageShack.us"" /></a>
+this is my ""look at me, i'm at the top of a hill"" look... i don't get to use it, and the sun was in my eyes... but i like it =)
+
+Now I have to go watch Enemy at the Gates... i don't know why, but i do."
+"eventtime","2006-02-25 09:34:00"
+"current_moodid","44"
+"url","http://hunlerzfang.livejournal.com/2389.html"
+"userid","6553"
+"itemid","8"
+"event","VGhpcyBpcyBhIFEgYW5kIEEgdGhhdCBzcGF3bmVkIGZyb20gbWUgc3RheWluZyB1cCBsYXRlciB0aGFuIG5vcm1hbCBhbmQgZHJpbmtpbmcgYSBsb3Qgb2Ygc3RyYWlnaHQgbGVtb24ganVpY2XigKYgSSdsbCBhbHNvIHRyeSB0byBwb3N0IG15IHJhbmRvbSBwaWN0dXJlcyBsYXRlciB0b25pZ2h0LiBlbmpveSENCg0KDQpROiBDYW4gYmlyZHMgc25lZXplPw0KDQpBOiBZZXMsIGJ1dCBiZWNhdXNlIHRoZXkgZG9u4oCZdCBoYXZlIGNvbnZlbnRpb25hbCBub3NlcyBsaWtlIGh1bWFucyBhbmQgY2F0cywgdGhlaXIgc25lZXplcyB0YWtlIHRoZSBmb3JtIG9mIHNxdWVha2luZyBhbmQgY2hpcnBpbmcgbm9pc2VzLiBXaGVuIHlvdSBoZWFyIGJpcmRzIHNpbmdpbmcsIHRoYXQganVzdCBtZWFuIGl04oCZcyB0aGUgc3RhcnQgb2YgYmlyZCBmbHUgc2Vhc29uLiBBbmQgY2FuYXJpZXMgYXJlIGp1c3QgYm9ybiB3aXRoIHVuLW5hdHVyYWxseSBsb3cgaW1tdW5lIHN5c3RlbXMuDQoNCg0KUTogV2hhdCB3b3VsZCBoYXBwZW4gaWYgSSB0cmF2ZWxlZCBmYXN0ZXIgdGhhbiB0aGUgc3BlZWQgb2YgbGlnaHQ/DQoNCkE6IFlvdSB3b3VsZCB3aW4gYSBOb2JlbCBwcml6ZSBmb3IgZmluZGluZyBhIHdheSB0byB0cmF2ZWwgZmFzdGVyIHRoYW4gdGhlIHNwZWVkIG9mIGxpZ2h04oCmIGFsc28geW91IHdvdWxkIGxpa2UgZ2V0IHlvdW5nZXIgb3Igc29tZXRoaW5nLCBvciBldmVyeSBvbmUgd291bGQgZ2V0IG9sZGVyLCBJ4oCZbSBuZXZlciBzdXJl4oCmDQoNCg0KUTogSWYgdGVldGggYXJlIG1hZGUgb2YgYm9uZSBhbmQgaGFpciBvZiBtb2RpZmllZCBza2luLCB3aGF0IGFyZSBmaW5nZXJuYWlscyBtYWRlIG9mPw0KDQpBOiBNYWdpYy4NCg0KDQpROiBXaGF0IGV2ZXIgaGFwcGVuZWQgdG8gdGhvc2Ugb2xkIGJlbGwgYm90dG9tIHBhbnRzPw0KDQpBOiBUaGV5IHdoZXJlIGFsbCBkZXN0cm95ZWQgYW5kIHRoZXJlIHVzZSBpbiBwdWJsaWMgd2FzIGRlY2xhcmVkIGEgZmFzaGlvbiBjcmltZS4gVGhlcmUgYXJlIGhvdyBldmVyIHN0aWxsIHNvbWUgZ3JvdXBzIHRoYXQgaG9sZCBiZWxsYm90dG9tIHBhbnRzIHBhcnRpZXMsIGJ1dCB0aGlzIGlzIHN0aWxsIFRhYm9vIGluIG1vc3QgY3VsdHVyZXMuDQoNCg0KUTogV2h5IGlzIGl0IGNhbGxlZCBhIHJpbmcgaWYgYm94aW5nIHRha2VzIHBsYWNlIGluIGEgc3F1YXJlIGFyZW5hPw0KDQpBOiBMb29rLCB0aGF0IGpva2UganVzdCBpc27igJl0IGZ1bm55IGFueSBtb3JlIGFuZCB0aGUgZmFjdCB0aGF0IHlvdSBhcmUgbWFraW5nIGl0IGRvZXNu4oCZdCBzYXkgbXVjaCBmb3IgeW91ciBpbnRlbGxpZ2VuY2XigKYgYnV0IGp1c3QgdG8gaHVtb3IgeW91IEnigJlsbCBleHBsYWluIGl0OiBib3hpbmcgaXMgYXMgd2UgYWxsIGtub3csIGEgZXZvbHV0aW9uIG9mIHRoZSByb21hbiBnbGFkaWF0b3JzLCBhbmQgdGhlIGNvbGlzZXVtIHdhcyByb3VuZCwgaGVuY2UgdGhlIHdvcmQg4oCccmluZ+KAnSwgYWxzbywgaXQgaXMgY2FsbGVkIOKAmGJveGluZ+KAnSBiZWNhdXNlIGluIGl04oCZcyBlYXJseSBpbmNhcm5hdGlvbnMgaXQgd2FzIGRvbmUgd2l0aG91dCBwYWRkaW5nIG9yIHJ1bGVz4oCmIGFuZCB0aGUgdmljdG9yIHdvdWxkIOKAnGJveOKAnSB0aGUgZGVmZWF0ZWTigKYgDQoNCg0KUTogSWYgeW91IGhhZCB0aGUgY2hhbmNlLCB3b3VsZCB5b3UgZ28gdG8gdGhlIG1vb24/DQoNCkE6IE5vDQoNCg0KUTogV2h5IHRoZSBoZWxsIG5vdD8NCg0KQTogQmVjYXVzZSBJIHdvdWxkIHN1ZmZvY2F0ZSBhbmQgZGllLCBwbHVzIGl04oCZcyBjb2xkLCBhbmQgdGhlcmXigJlzIG5vdGhpbmcgdGhlcmUgYnV0IGR1c3TigKYgaXTigJlzIGxpa2UgbXkgZ3JhbmRtYeKAmXMgYXR0aWPigKYNCg0KDQpROiBIb3cgb2xkIGlzIHlvdXIgZ3JhbmRtYT8NCg0KQTogRGVhZC4NCg0KDQpROiBIb3cgb2xkIHdvdWxkIHNoZSBiZSBpZiBzaGUgd2hlcmUgYWxpdmU/DQoNCkE6IE5vIGNsdWXigKYgYnV0IEkgZG9u4oCZdCBrbm93IGlmIHpvbWJpZXMgZXZlbiBoYXZlIGFnZXPigKYNCg0KDQpROiBTbyBJIGhlYXIgeW914oCZcmUgYSBmcmVlIHJ1bm5lciwgZG9lc27igJl0IHRoYXQganVzdCBtZWFuIHlvdSBtYWtlIGEgSmFjayBhc3Mgb2YgeW91cnNlbGYgYnkganVtcGluZyBvZmYgc3R1ZmY/DQoNCkE6IEkgaGVhcmQgdGhhdCB5b3XigJlyZSBhIHNlbGYgaW5kdWxnZW50IGxpdHRsZSBwcmljayB3aG8gbGlrZXMgdG8gbWFrZSBmdW4gb2Ygb3RoZXIgcGVvcGxl4oCZcyBob2JiaWVzLCBzbyBnbyBwcmFjdGljZSBmYWxsaW5nIGRvd247IEnigJlsbCBiZSB0aGVyZSBpbiBhIG1pbnV0ZS4NCg0KDQpROiBUb3VnaCB0YWxrIGZvciBzb21lb25lIHdobyBlbmpveXMgcm9tYW50aWMgY29tZWRpZXPigKYuDQoNCkE6IFRvdWdoIHRhbGsgZm9yIGEgZmlnbWVudCBvZiBteSBpbWFnaW5hdGlvbi4NCg0KDQpROiBUb3VjaMOpLg0KDQpBOiBUaGFua3MuDQoNCg0KUTogV2VsbCwgSSBoYXZlIHRvIGdvIHRvIGNsYXNzLCB3aGVyZSBhcmUgeW91IGdvaW5nPw0KQTogSeKAmW0gaGVhZGluZyB0byBjbGFzcyB0b28uDQpROiBPaCByZWFsbHk/IFdoYXQgY2xhc3M/DQpBOiBDSVMgMzIuDQpROiBOTyBXQVkhIEnigJltIGluIHRoYXQgc2FtZSBjbGFzcyENCkE6IFJlYWxseT8gV2hv4oCZcyB5b3VyIHRlYWNoZXI/DQpROiBTY292aWwuDQpBOiBXb3chIE1lIHRvbyEgSG93IGNvbWUgSSBoYXZlbuKAmXQgc2VlbiB5b3UgdGhlcmU/DQpROiBObyBjbHVlLCBJIHNpdCBpbiB0aGUgZnJvbnQgb2YgdGhlIGNsYXNz4oCmDQpBOiBNZSB0b28hIFdvdywgdGhpcyBpcyBnZXR0aW5nIHdlaXJkLg0KUTogV2VsbCwgSSBoYXZlIHRvIGdvLCBjeWENCkE6IEN5YSE="
+"eventtime","2006-02-22 14:26:00"
+"current_moodid","96"
+"url","http://hunlerzfang.livejournal.com/2241.html"
+"userid","6553"
+"itemid","7"
+"event","V2UgYWxsIHVzZSB0aGVtLCBtb3N0IG9mIHVzIGp1c3QgYWJvdXQgZXZlcnkgZGF5IChleGNsdWRpbmcgdGhlIEZyZW5jaCkuIEJ1dCBoYXZlIHlvdSBldmVyIHJlYWxseSBzdG9wcGVkIGFuZCB0aG91Z2h0IGFib3V0IHdoZXJlIHRoZXkgY2FtZSBmcm9tPyBMZXRzIGV4cGxvcmUgdGhlIGhpc3Rvcnkgb2YgdHJhc2ggY2FucyBzaGFsbCB3ZT8NCg0KVGhlIGVhcmxpZXN0IGtub3duIHJlY29yZCBvZiBhIHRyYXNoIGNhbiAob3I6IOKAnHRyYXNoaXMtY29udGFpbm91cy1tYXhpbXVz4oCdKSBkYXRlcyBiYWNrIHRvIHRoZSBKdXJhc3NpYyBlcmEgd2hlbiBkaW5vc2F1cnMgd291bGQgdGhyb3cgdGhlIGJvbmVzIGFuZCByb3R0aW5nIGZsZXNoIG9mIGFuaW1hbHMgdGhhdCB0aGV5IGhhZCBsZWZ0IGluIHRoZSBmcmlkZ2UgZm9yIHRvbyBsb25nIGludG8gbGFyZ2UgcGl0cy4gdGhlIGZsZXNoIG9mIHRoZXNlIGFuaW1hbHMgZGVjb21wb3NlZCBvdmVyIG1hbnkgdGhvdXNhbmQgeWVhcnMgYW5kIHR1cm5lZCBpbnRvIOKAnHRhcuKAnSAob24gYW4gaW50ZXJlc3Rpbmcgc2lkZSBub3RlLCB0aGUgd29yZCDigJx0YXLigJ0gaXMgYWN0dWFsbHkgYSBzaG9ydGhhbmQgZm9ybSBvZiB0aGUgbGF0dGVuIOKAnHRlaC1lcnJlLWFydXPigJ0gd2hpY2ggaXMgcm91Z2hseSB0cmFuc2xhdGVkOiDigJxob3QgcG9ja2V0IGZpbGxpbmfigJ0pLiBUaGF0IHdhcyB0aGUgZmlyc3QgcmVjb3JkIG9mIGEgdHJhc2ggaG9sZGluZyBkZXZpY2UuIFNob3J0bHkgYWZ0ZXIsIHByaW1pdGl2ZSBtYW4gY3JlYXRlZCBhIG11Y2ggbGVzcyBzb3BoaXN0aWNhdGVkIHZlcnNpb24gd2hpY2ggY29uc2lzdGVkIG9mIGEgbnVtYmVyIG9mIHJvY2tzIHRpZWQgdG9nZXRoZXIgd2l0aCBzdGlja3MgdGhhdCB3b3VsZCBtYWtlIGEgY29udGFpbmVyIG9mIHNvcnRzLiBUaGlzIGVhcmxpZXN0IG1hbiBtYWRlIHRyYXNoIGhvbGRlciB3YXMgY2FsbGVkIGJ5IGl0cyBjcmVhdG9yOiDigJx1Z2figJ0gKGludGVyZXN0aW5nbHkgZW5vdWdoLCBVZ2cgd2FzIGFsc28gdGhlIGNyZWF0b3JzIG5hbWXigKYgYW5kIGhpcyB3b3JkIGZvciBmb29kLCBhbmQgZmlyZSwgYW5kIHRoZSBza3ksIGFuZCB0aGUgY29uY2VwdCBvZiBsb3Zl4oCmIGl0IHdhcyBhIHZlcnkgY29uY2lzZSBsYW5ndWFnZSkuIEFmdGVyIHVnZyBjYW1lIHVnZyB1Z2cgb3Ig4oCcdWdnIG1hcmsgSUnigJ0gYXMgaXQgaXMgcG9wdWxhcmx5IGNhbGxlZCBieSB0cmFzaCByZWxhdGVkIGhpc3RvcmlhbnMuIHVnZyBtYXJrIHR3byBmaXhlZCBhIGxvdCBvZiB0aGUgcHJlbGltaW5hcnkgZGVzaWduIGZsYXdzIHByZXNlbnQgaW4gdWdnIG1hcmsgb25lLCBzdWNoIGFzIGFkZHJlc3NpbmcgdGhlIOKAnGl04oCZcyBqdXN0IGEgcmluZyBvZiBzdGlja3MgeW91IHB1dCBhcm91bmQgYSBwaWxlIG9mIHRyYXNo4oCdIGlzc3VlIHRoYXQgbWFueSBoYWQgY29tcGxhaW5lZCBhYm91dC4gRnJvbSB0aGF0IHBvaW50IHVudGlsIHRoZSBsYXRlIDE0dGggQ2VudHVyeSB0aGVyZSB3YXMgdmVyeSBsaXR0bGUgZGV2ZWxvcG1lbnQgb2YgdHJhc2hjYW4gcmVsYXRlZCB0ZWNobm9sb2d5IGV4Y2VwdCBmb3IgdHdvIG5vdGFibGUgaW1wcm92ZW1lbnRzOiB0aGUgQ2hpbmVzZSBkZXZlbG9wZWQgYSBkZXZpY2UgdGhhdCB1c2VkIGd1bnBvd2RlciBhbmQgZHJhZ29ucyB0byB0dXJuIHRoZWlyIHRyYXNoIGludG8gcmljZeKApiB1bmZvcnR1bmF0ZWx5IHRoaXMgcmljZSBoYWQgbm8gbnV0cml0aW9uYWwgcHJvcGVydGllcyBhbmQgaXMgc3VzcGVjdCB0byBoYXZlIGNhdXNlZCB0aGUgc3R1bnRpbmcgb2YgdGhlIGVudGlyZSBBc2lhbiBwb3B1bGF0aW9u4oCZcyBncm93dGguIFRoZSBvdGhlciBub3RhYmxlIGlubm92YXRpb24gd2FzIGJ5IHRoZSBFZ3lwdGlhbnMsIHdobyB3b3VsZCB1c2Ugc2FyY29waGFnaSBhcyBhIHBsYWNlIHRvIHB1dCBhbGwgdGhlIHN0dWZmIGZyb20gZWFjaCBwaGFyb3MgYmFzZW1lbnQgd2hlbiBoZSBkaWVkLiAoVGhlcmUgaXMgbXVjaCBhcmd1bWVudCBhYm91dCB0aGlzIGJlY2F1c2UgbWFueSB0cmFzaC1oaXN0b3JpYW5zIChUcmF0b3JpYW5zKSBjbGFtIHRoYXQgdGhpcyB3YXMgYWN0dWFsbHkgdGhlIGZpcnN0IHNpZ2h0aW5nIG9mIGEgZHVtcCwgYW5kIHdhcyBub3QgYSB0cmFzaGNhbiByZWxhdGVkIGlubm92YXRpb24gdGhlIGRpc2N1c3Npb24gaXMgc3RpbGwgZ29pbmcgb24pIGJhY2sgdG8gdGhlIDE0dGggY2VudHVyeS4gVGhpcyB3YXMgYXJvdW5kIHRoZSB0aW1lIHdoZW4gdGhlIEZyZW5jaCBzdWZmZXJlZCB0aGVyZSBmaXJzdCBtaWxpdGFyeSBkZWZlYXQgd2hlbiBhIHJhYmJpdCBmb3VuZCBoaXMgd2F5IGludG8gdGhlIGtpbmfigJlzIHRocm9uZSByb29t4oCmIEZyYW5jZSBzcGVudCB0aGUgbmV4dCA3IHllYXJzIHJ1bGVkIGJ5IOKAnEZsdWZmeSB0aGUganVzdOKAnSAoRmx1ZmZ5IGlzIGhhaWxlZCBhcyB0aGUgc2luZ2xlIGdyZWF0ZXN0IGxlYWRlciB0aGUgRnJlbmNoIGhhdmUgZXZlciBoYWQuKS4gVGhlIGlubm92YXRpb24gaXRzIHNlbGYgd2FzIGFjdHVhbGx5IHRha2luZyBwbGFjZSBvbiB0aGUgb3RoZXIgc2lkZSBvZiB0aGUgd29ybGQgaW4gQW1lcmljYSB3aGVyZSBhIGJyaWdodCBleWVkIHlvdW5nIE1leGljYW4gY2FtZSB1cCB3aXRoIHRoZSBjb25jZXB0IG9mIGEgY2Vzc3Bvb2wsIHdoaWNoIHdhcyBiYXNpY2FsbHkgdHViIGZ1bGwgb2Ygd2F0ZXIgdGhhdCB5b3UgcHV0IHRyYXNoIGluLiAoaXQgd2FzIG9yaWdpbmFsbHkgYSBwcmFjdGljYWwgam9rZSBidXQgd2hlbiBpdCByZWNlaXZlZCBtZWRpYSBhdHRlbnRpb24gaGUganVzdCBzb3J0IG9mIHdlbnQgd2l0aCBpdC4pIEhpcyBvcmlnaW5hbCBkZXNpZ24gaXMgYWN0dWFsbHkgd2hhdCBtb3N0IGNpdGllcyBpbiBNZXhpY28gYXJlIGRlc2lnbmVkIGFyb3VuZC4gKEV4Y2VwdCBmb3IgbWFueSBvZiB0aGUgdG91cmlzdCBob3Qgc3BvdHMgd2hvIGhhdmUgYWRvcHRlZCB0aGUgRXVyb3BlYW4gY29uY2VwdCBvZiDigJxub3QgbWFraW5nIHlvdXIgY2l0aWVzIGdvZCBhd2Z1bCBoZWxsIGhvbGVzIHRoYXQgb25seSB0aGUgZGV2aWwgaGltIHNlbGYgd291bGQgdGFrZSBqb3kgaW7igJ0gc28gZmFyIHRoZSByZXN1bHRzIGhhdmUgYmVlbiBwb3NpdGl2ZSEpIEFmdGVyIHRoZSBpbnZlbnRpb24gb2YgdGhlIGNlc3Nwb29sIG1vc3QgdHJhc2ggcmVsYXRlZCBpbm5vdmF0aW9ucyB3aGVyZSBqdXN0IGltcHJvdmVtZW50cyBvbiB1Z2cgbWFyayB0d28uIE5vdGhpbmcgbXVjaCByZWFsbHkgaGFwcGVuZWQgdW50aWwgYXJvdW5kIDE5OTcgd2hlbiBjb21wdXRlciBlbmdpbmVlcnMgZm91bmQgdGhhdCB0aGV5IGNvdWxkIGFjdHVhbGx5IGRpZ2l0aXplIHRyYXNoIGFuZCBzdG9yZSBpdCBhcyBkYXRhLCBhZnRlciBkb2luZyB0aGlzIGZvciBzbyBsb25nIHRob3VnaCB0aGV5IGJlZ2FuIHRvIHJ1biBvdXQgb2Ygc3BhY2UgdG8gcHV0IGl0IGFsbOKApiB0aGF0IHdhcyB3aGVuIHRoZXkgaW52ZW50ZWQgdGhlIGludGVybmV0LiBIaXN0b3JpYW5zIGFsbCBhZ3JlZSB0aGF0IHRoZSBpbnRlcm5ldCBpcyB0byB0aGlzIGRheSB0aGUgbGFyZ2VzdCB0cmFzaCBjb250YWluZXIgaW4gdGhlIGhpc3Rvcnkgb2YgdGhlIHdvcmxkLiBTb21lIHBlb3BsZSBjbGFtIHRoYXQgaXQgaGFzIHJlZGVlbWluZyB2YWx1ZXMgYnV0IHRob3NlIGFyZSB0aGUga2luZCBvZiBwZW9wbGUgd2hvIHRha2UgY2FuZHkgZnJvbSBiYWJpZXMgYW5kIGtpbGwga2l0dGVucyBmb3IgZnVu4oCmIHlvdSBzaG91bGRu4oCZdCBsaXN0ZW4gdG8gdGhvc2UgcGVvcGxlLiBJbiBmYWN0LCB0aGUgZmFtb3VzIHF1b3RlIOKAnHRoZSBpbnRlcm5ldCB3aWxsIGJyaW5nIGFib3V0IGEgcmV2b2x1dGlvbiBpbiB0aGUgdHJhbnNmZXIgb2Yga25vd2xlZGdl4oCdIOKAk2JpbGwgZ2F0ZXMuIFdhcyBhY3R1YWxseSB0YWtlbiB3aGlsZSBoZSB3YXMgc2ltdWx0YW5lb3VzbHkgc3RlcHBpbmcgb24gYSBraXR0ZW4gYW5kIHRha2luZyBjYW5keSBmcm9tIGEgeW91bmcgY2hpbGQgKHRoaXMgd2FzIGFjdHVhbGx5IG5vdCBhIHByb2JsZW0gYmVjYXVzZSB0aGUgZGF5IGJlZm9yZSBoZSBoYWQgcHVyY2hhc2VkIHRoZSBwYXRlbiBvbiBiYWJpZXMgYW5kIGtpdHRlbnMsIHNvIHRoZSBzdGVwcGluZyB3YXMganVzdCDigJxyZS0gZW5naW5lZXJpbmfigJ0gYW5kIHRoZSB0YWtpbmcgd2FzIOKAnHJlc291cmNlIHJlLWRpc3RyaWJ1dGlvbuKAnSkuIFdlIGFyZSBhbGwgZ2xhZGx5IGF3YWl0aW5nIHRoZSBuZXh0IGdyZWF0IHRyYXNoY2FuIGlubm92YXRpb24gYW5kIEkgaG9wZSB0aGF0IGtub3dpbmcgYWxsIHRoaXMgaGlzdG9yeSB3aWxsIGhlbHAgeW91IHRvIHJlc3BlY3QgdGhlIHBlb3BsZSB3aG8gaGF2ZSBzbyBsb25nIHRvaWxlZCBpbiB0aGUgbGluZSBvZiB0cmFzaC4gR2FyYmFnZSBtZW4gYXJlIHRha2luZyBwYXJ0IGluIGEgcml0dWFsIGRhdGluZyBiYWNrIHRvIHByZWhpc3RvcmljIHRpbWVzLiBXaGVuIHlvdSByZWNlaXZlIHRoZSBwcml2aWxlZ2Ugb2YgdGFraW5nIG91dCB0aGUgdHJhc2ggeW91IHRvbyBhcmUgdGFraW5nIHBhcnQgaW4gdGhhdCByaXR1YWwgYW5kIHRyYW5zcG9ydGluZyB0aGVzZSBvYmplY3RzIGZyb20gdGhlIHBhc3QuIE5leHQgdGltZSB5b3Ugc2VlIGEgZ2FyYmFnZSBtYW4sIHNhbHV0ZSBoaW0sIGZvciB0aGUgc2FrZSBvZiBoaXN0b3J5LCBmb3IgdGhlIHNha2Ugb2YgcmVtZW1iZXJpbmcuDQoNCi0gSm9uDQoNCjxiPkxlc3NvbnM6PC9iPg0KPGI+MS48L2I+IE5PIE1PUkUgQklUQ0hJTicgQUJPVVQgVEFLSU5HIE9VVCBUSEUgVFJBU0ghDQo8Yj4yLjwvYj4gVGhlIEZyZW5jaCBhcmUgdG9vIGVhc3kgdG8gaGl0Li4uIGV2ZW4gaWYgdGhleSBkbyBnZXQgbWFkIGl0J3MgYWxsIGdpYmJlcmlzaCB0byBtZS4NCjxiPjMuPC9iPiBGb3IgYWJvdXQgNSB5ZWFycyBJIDxpPnJlYWxseTwvaT4gd2FudGVkIHRvIGJlIGEgZ2FyYmFnZSBtYW4uLi4NCg0KPGI+QXdzb21lIFF1b3RlOjwvYj4gIkkgdGhvdWdodCBBbCBHb3JlIHdhcyB0aGUgb25lIHdobyBzdGVwZWQgb24ga2l0dGVucy4uLiIgLSBPbmNlIGFnYWluIG15IG1vbS4NCg0KUC5TLiBJIGdvdCBteSBEcml2ZXIncyBsaXNlbmNlIHRvZGF5ISB3b290IHdvb3QsIGdvIG1lIQ=="
+"eventtime","2006-02-18 14:08:00"
+"current_moodid","98"
+"url","http://hunlerzfang.livejournal.com/1805.html"
+"userid","6553"
+"itemid","6"
+"event","V2UgYWxsIGtub3cgdGhhdCB0aGUgb25seSA8dT5SZWFsPC91PiBjb2xvcnMgYXJlOiBSZWQsIEJsdWUsIFllbGxvdyBidXQgd2h5IGlzIHRoYXQ/IFdoeSBoYXZlIG9ubHkgMyBjb2xvcnMgdGFrZW4gb3ZlciB0aGUgZW50aXJlIHNwZWN0cnVtIGFuZCBtYWRlIGFsbCBvdGhlciBzaW1wbHkgY29tYmluYXRpb25zIG9mIHRoZW0gc2VsdmVzPyBCdXQgd2hlcmUgZGlkIGFsbCB0aGlzIHN1cHJlbWFjeSBzdGFydD8gSXQgYWxsIGRhdGVzIGJhY2sgdG8gdGhlIHByaW1vcmRpYWwgb296ZSBUaGlzIG9vemUgY29udGFpbmVkIGV2ZXJ5IGNvbG9yIGtub3duIHRvIG1hbiwgKGFuZCBzb21lIHRoYXQgaGF2ZSBzZW5zZSBiZWNvbWUgZXh0aW5jdCBFWDogdGhvcmsgYW5kIEN1bGluYXIuKSBjZXJ0YWluIGNvbG9ycyBiZWdhbiB0byBzaG93IGRvbWluYW5jZSwgUmVkIGJlZ2FuIHJlZmVycmluZyB0byBoaW1zZWxmIGFzIHRoZSBmdXJvciBhbmQgY2xhaW1pbmcgdGhhdCBhbGwgY29sb3JzIHdoZXJlIGVxdWFsbHkgaW5mZXJpb3IgdG8gUmVkLCBCbHVlIGFuZCBZZWxsb3cgKHRob3NlIGJlaW5nIHRoZSDigJxtYXN0ZXLigJ0gY29sb3JzKSB0aGlzIHdlbnQgb24gZm9yIHF1aXRlIGEgd2hpbGUgdW50aWwgYWxsIHRoZSBvdGhlciBjb2xvcnMgYmFuZGVkIHRvZ2V0aGVyIGludG8gYSBsZWFndWUgb2YgY29sb3JzIHdoaWNoIHRoZXkgY2FsbGVkIOKAnHRoZSBjb2xvciB3aGVlbOKAnSB3aG/igJlzIG1haW4gcHVycG9zZSB3YXMgdG8gc3ByZWFkIGVxdWFsaXR5IGJldHdlZW4gY29sb3JzLiBSZWQgd2FzIHRoZSBsYXN0IHRvIGpvaW4gdGhlIGNvbG9yIHdoZWVsIGJlY2F1c2Ugb2YgaGlzIOKAnHBhc3QgaW5kZXNjcmVzc2lvbnPigJ0uIFRoZSBtYWluIGFwcGVhbCBvZiB0aGUgY29sb3Igd2hlZWwgd2FzIGFsc28gaXTigJlzIHByaW1hcnkgZG93bmZhbGwsIG5vIGxlYWRlcnNoaXAgbWVudCB0aGF0IGV2ZXJ5IGNvbG9yIGZlbHQgZXF1YWwgKHdoaWNoIGlzIHNpbXBseSBub3QgdHJ1ZSkgdGhpcyBiZWxpZXZlIGxlYWQgdG8gYmlja2VyaW5nIGFib3V0IHdobyB3YXMgdG8gcmVwcmVzZW50IHdoYXQuIFNvIHdpdGggYWxsIHRoZXNlIHBvaW50bGVzcyBzcXVhYmJsZXMgaXQgYmVjYW1lIGNsZWFyIHRoYXQgdGhleSBuZWVkZWQgc29tZSBsZWFkZXJzIHdobyB3b3VsZCBwdXQgYSBnb29kIGZhY2Ugb24gZm9yIGV2ZXJ5IG9uZSBhbmQgZ2l2ZSBndWlkYW5jZSB0byB0aGUgbW9yZSDigJxyZXRhcmRlZOKAnSBjb2xvcnMgKGV4OiBwaW5rLCB0YW4sIGFuZCBsaW1lKSBibGFjayBhbmQgd2hpdGUgd2hlcmUgY2hvc2VuIGFzIHRoZSBtYWluIGxlYWRlcnMgYmVjYXVzZSBvZiB0aGVyZSB2aWV3cyBvbiB0aGUgcHJpbWFyeSBpc3N1ZXMgYW5kIHRoZSBmYWN0IHRoYXQgdGhleSBkaWRu4oCZdCByZWFsbHkgZml0IGludG8gdGhlIGNvbG9yIHdoZWVsLi4uIEZyb20gdGhhdCBkYXkgb24gYmxhY2sgYW5kIHdoaXRlIHdoZXJlIGNob3NlbiBmb3IganVzdCBhYm91dCBldmVyeSB0aGluZywgcGljdHVyZXMsIG1vdmllcywgcmlnaHQgYW4gd3JvbmcsIHRoZSBsaXN0IGdvZXMgb247IGJ1dCBCbGFjayBhbmQgV2hpdGUgZ2V0dGluZyBhbGwgdGhpcyBhdHRlbnRpb24gc3RhcnRlZCBhbm5veWluZyB0aGUgb3RoZXIgY29sb3JzLCBhbmQgc3RhcnRlZCB0aGUg4oCcZXF1YWwgY29sb3Jz4oCdIG1vdmVtZW50IG9mIDE5NDYgd2hpY2ggYnJvdWdodCBhYm91dCBncmVhdCBjaGFuZ2UgaW4gdGhlIHdheSB3ZSBsb29rIGF0IFRWLiBTb29uIHRoZXJlIGFmdGVyIGV2ZXJ5IHRoaW5nIGhhZCB0byBiZSBpbiBjb2xvciwgdGhvdWdoIEJsYWNrIGFuZCBXaGl0ZSBzdGlsbCBoZWxkIHRoZXJlIHBvc2l0aW9ucyBhcyBsZWFkZXIgb2YgdGhlIHdoZWVsLiBBZnRlciB0aGF0LCBzdWIgbGVhZGVycyB3aG8gY291bGQg4oCcYmV0dGVyIHJlcHJlc2VudCB0aGUgY29sb3Jz4oCdIHdoZXJlIG5lZWRlZCwgUmVkLCBCbHVlLCBhbmQgWWVsbG93IHF1aWNrbHkgYXNzYXNzaW5hdGVkIHRoZXJlIG9wcG9zaXRpb24gYW5kIHRvb2sgdGhlc2UgcG9zaXRpb25zIHdpdGggZ3VzdG87IHRoZXkgaGFkIGNoaWxkcmVu4oCZcyBib29rcyBwcmludGVkIGFuZCBiZWdhbiByZWZlcnJpbmcgdG8gdGhlbXNlbHZlcyBhcyDigJxwcmltYXJ54oCdIChhIHNwaW4gb2ZmIG9mIHRoZXJlIG9sZCB0aXRsZSBvZiDigJxtYXN0ZXLigJ0pIGFuZCBwcm9tb3RlZCB0aGVyZSBnb29kIGZyaWVuZHM6IFB1cnBsZSwgR3JlZW4uIEFuZCBPcmFuZ2UgdG8gc3BvdHMgb2YgcHJvbWluZW5jZSwgd2l0aCBhbGwgdGhpcyBwb3dlciB0aGV5IGJlZ2FuIHRha2luZyBvdmVyIG1hbnkgdGhpbmdzIGluIHRoZSB3b3JsZCBhbmQgY2xhaW1pbmcgdGhhdCB0aGVzZSB0aGluZ3Mgd2hlcmUgYWN0dWFsbHkgdGhlcmUgY29sb3IsIEJsdWUgdG9vayB0aGUgb2NlYW4gYW5kIHRoZSBza3ksIFJlZCB0b29rIGZpcmUgYW5kIGFuZ2VyLCBZZWxsb3cgdG9vayBnb2xkIGFuZCB0aGUgZGVzZXJ0LCBHcmVlbiB0b29rIGV2ZXJ5IHBsYW50IGFuZCBlbnZ5LCBPcmFuZ2UgdG9vayBzdW5zZXRzIGFuZCBQdXJwbGUgdG9vayBRdWVlcnMuIFRoaXMgbGVmdCBsaXR0bGUgZm9yIHRoZSBvdGhlciBjb2xvcnMgdG8gbGF5IGNsYWltIHRvLi4uIHRhbiB0b29rIOKAnHRoZSBiYWQgZ3V5c+KAnSB3aGVuIGl0IGNvbWVzIHRvIHBsYXN0aWMgc29sZGllcnMuIEFuZCBicm93biB0b29rIGRpcnQuLi4gYnV0IGFsbCBpbiBhbGwgdGhlIHJlc3Qgb2YgdGhlIGNvbG9ycyB3aGVyZSBwcmV0dHkgd2VsbCBzY3Jld2VkIG92ZXIgd2hlbiBpdCBjb21lcyB0byByZXByZXNlbnRpbmcgbm90YWJsZSB0aGluZ3MuIFdpbGwgdGhpcyByYWluIG9mIGluanVzdGljZSBldmVyIGNvbWUgdG8gYW4gZW5kPyBXZSBjYW7igJl0IHJlYWxseSBiZSBzdXJlLCBidXQgd2UgY2FuIGFsbCBkbyBvdXIgYmVzdCB0byBicmluZyBzb21lIGxlc3NlciBrbm93biBjb2xvcnMgYmFjayBpbnRvIHByb21pbmVuY2UsIHJlZmVyIHRvIHRoZSBvY2VhbiBhcyDigJx0ZWFs4oCdIG5vdCBCbHVlLi4uIGFuZCBtYWtlIHN1cmUgeW91IGFybuKAmXQgZnJpZW5kcyB3aXRoIGFueSBoYXJkY29yZSBHb3Rocy4uLiBibGFjayBnZXRzIGVub3VnaCBwcmVzcyBhcyBpdCBpcy4uLiB0aWxsIG5leHQgdGltZSA9KQ0KDQotSm9uDQoNCjxiPkxlc3NvbnM6PC9iPg0KPGI+MS48L2I+IFJlZCwgWWVsbG93IGFuZCBCbHVlIGFyZSBuYXppZXMuDQo8Yj4yLjwvYj4gQmxhY2sgc3Vja3MuDQo8Yj4zLjwvYj4gQW50aHJvcG9tb3JwaGlzbSBpcyBhbG90IG9mIGZ1bi4NCg0KPGI+QXdzb21lIHF1b3RlOjwvYj4gInlvdSBjYW4ndCBzYXkgUXVlZXJzIG9uIHRoZSBpbnRyb25ldCBjYW4geW91PyIgLSBNeSBtb20gYXMgSSByZWFkIHRoaXMgdG8gaGVyLg=="
+"eventtime","2006-02-17 14:26:00"
+"url","http://hunlerzfang.livejournal.com/1783.html"
+"userid","6553"
+"itemid","5"
+"event","SSBraW5kIG9mIGZlbHQgbGlrZSB3aXRlaW5nIHBvZXRyeSBhbmQgdGhpcyBpcyB3aGF0IGNhbWUgb3V0Li4uIGtpbmQgb2YgZGFyayBmb3IgbXkgdGFzdGUsIGJ1dCBJIGxpa2UgaXQgaG9wZSB5b3UgZG8gdG9vID0pDQoNCjo6TXkgU2hhZG93OjoNCkkgd2lzaCBJIHdhcyBteSBzaGFkb3cuDQpGb3IgaGXigJlzIGFsbCB0aGF0IEkgY2Fu4oCZdCBiZS4NCkhl4oCZcyBzaWxlbnQgYXMgYSBwYXNzaW5nIHdpbmQuDQpIZeKAmXMgZGFya25lc3MgYW5kIGhl4oCZcyBmcmVlLg0KTXkgc2hhZG93IGRvZXNu4oCZdCBzdHVkeS4NCkJ1dCBoZSBhbHdheXMgZ2V0cyBteSBncmFkZXMuDQpNeSBzaGFkb3cgZ29lcyB0aHJvdWdoIHRpbWUgd2l0aCBtZS4NCkJ1dCBzdGlsbCBoZSBkb2VzbuKAmXQgYWdlLg0KTXkgc2hhZG93IGRvZXNu4oCZdCB0cmlwIG9yIGZhbGwuDQpJbiBkYXJrbmVzcyBoZeKAmXMgdW5zZWVuLg0KTXkgc2hhZG93IG5ldmVyIHRpcmVzIG91dC4NCkJ1dCBoZeKAmXMgZXZlcnkgd2hlcmUgSeKAmXZlIGJlZW4uDQpIZSBvbmx5IHNlZXMgdGhlIHN1bm55IGRheXMuDQpGb3IgdGhlIGNsb3VkeSBzdGF5cyBhdCBob21lLg0KV2hlbiBuaWdodCB0aW1lIGNvbWVzIGhlIGZsb2F0cyBhd2F5Lg0KVG8gcGxhY2VzIHN0aWxsIHVua25vd24uDQpCdXQgSSBrbm93IG15IHNoYWRvdy4NCkhl4oCZcyBxdWl0ZSBkaWZmZXJlbnQgdGhhbiBtZS4NCkhlIHdhcyBib3JuIGEgc2hhZG93Lg0KQm9ybiBBcyBkYXJrbmVzcyBCb3JuIGFzIGZyZWUu"
+"eventtime","2006-02-16 11:27:00"
+"current_moodid","93"
+"url","http://hunlerzfang.livejournal.com/1451.html"
+"userid","6553"
+"itemid","4"
+"event","SeKAmW0gc28gc2ljayBvZiB3YXJuaW5nIHNpZ25z4oCmIGZyb20gd2hlcmUgSeKAmW0gc2l0dGluZyBpbiBteSBjb2xsZWdl4oCZcyBjb21wdXRlciBsYWIsIEkgY2FuIHNlZSA1ICh5ZXMgPGI+NTwvYj4pIHdhcm5pbmcgc2lnbnMuIEnigJltIG5vdCB0YWxraW5nIGFib3V0IHNpZ25zIGFib3V0IHN0dWZmIHlvdSBhcmVu4oCZdCBhbGxvd2VkIHRvIGRvLCBvaCBubywgSeKAmW0gdGFsa2luZyBhYm91dCBzaWducyBmb3Ig4oCcaWYgeW91IGRvIHRoaXMgeW91IHdpbGwgZ2V0IGh1cnQh4oCdIGFyZSBwZW9wbGUgZ2V0dGluZyBtb3JlIGZvb2xpc2ggYnkgdGhlIHNlY29uZD8gRG8gd2UgcmVhbGx5IG5lZWQgYSBzaWduIG9uIGFuIGVsZWN0cmljYWwgc29ja2V0IHRoYXQgc2F5cyDigJxkbyBub3QgcHV0IHBhcGVyY2xpcHMgaW4gdGhpcyBob2xlIeKAnSB0aGF0IGhhcyBhIGxpdHRsZSBsaWdodGVuaW5nIGJvbHQgYnkgaXQ/IElzbuKAmXQgdGhhdCBqdXN0IGNvbW1vbiBzZW5zZT8gV2hhdCBtYWtlcyBtZSBzaHVkZGVyIGlzIHRoYXQgaWYgdGhleSBmZWVsIHRoZXkgbmVlZCBhIHNpZ24gZm9yIGl0IGl04oCZcyBiZWNhdXNlIHNvbWUgb25lIGhhcyBkb25lIGl04oCmIHdobyB3YXMgdGhlIGdlbml1cyB0aGF0IGZpcnN0IHN0dWNrIGEgcGFwZXJjbGlwIGluIHRoYXQgaG9sZT8gV2hhdCB3YXMgaGlzIHRob3VnaHQgcHJvZ3Jlc3Npb24gdGhhdCBsZWQgaGltIChJIHNheSDigJxoaW3igJ0ganVzdCBiZWNhdXNlIEkgY2Fu4oCZdCBpbWFnaW5lIGEgZ2lybCBiZWluZyB0aGF0IGZvb2xpc2gpIHRvIGJlbGlldmUgdGhhdCBzdGlja2luZyB0aGF0IGluIHRoZXJlIHdvdWxkIGJlIGEgZ29vZCBpZGVhPyBTb21ldGhpbmcgbGlrZSDigJxtZXRhbCBvYmplY3QgKyBob2xlID0gY2FuZHkh4oCdPyBJdCByZWFsbHkgYmFmZmxlcyBtZTsgSSBtZWFuIHRoaXMgaXMgYSA8Yj5Db2xsZWdlISA8L2I+IFdlIGFyZSB0aGUgbmF0aW9ucyBmdXR1cmUgYW5kIHdlIGNhbuKAmXQga2VlcCBvdXJzZWx2ZXMgZnJvbSBlbGVjdHJvY3V0aW5nIG91cnNlbHZlcyB3aXRoIHBhcGVyY2xpcHM/IEFuZCBpdOKAmXMgbm90IGp1c3QgdGhlIHNpZ25zIG9uIGNhbXB1cyB0aGF0IEkgZmluZCBkaXN0dXJiaW5n4oCmIHdoZW4geW91IGJ1eSBhIHBhaXIgb2Ygc2hvZXMgKG9yIGZvciBwZW9wbGUgbGlrZSBtZSwgeW91IGp1c3QgZ28gdG8gdGhlIHNob2Ugc3RvcmUgYW5kIGRlY2lkZSB0aGF0IHlvdSBsaWtlIHlvdXIgb2xkIHNob2VzIGFuZCB0aGF0IGhvbGUgY2FuIGJlIGZpeGVkIHdpdGggRHVjdCBhcGUpIHlvdSBmaW5kIHRob3NlIGxpdHRsZSBwYWNrZXRzIG9mIDxpPmdvZCBrbm93cyB3aGF0PC9pPiBpbiB0aGUgc2hvZXMuIFRoZXkgYWN0dWFsbHkgaGF2ZSB0byBwdXQgd2FybmluZ3Mgb24gdGhvc2UgZm9yIHlvdSB0byBub3QgZWF0IHRoZW0hIFdobyB3YXMgdGhlIGd1eSB0aGF0IGF0ZSB0aG9zZSwgZ290IHNpY2ssIGFuZCBzdWVkPyBEaWQgaGUgdGhpbmsg4oCcT0ghIExvb2shIFRoZXkgaGF2ZSBsZWZ0IGEgPGk+dGFzdHkgdHJlYXQ8L2k+IGZvciBtZSBpbiBteSBzaG9lISBIb3cgbmljZSBvZiB0aGVtIeKAnT8gSSB0aGluayBhbnkgb25lIHdobyBkZWNpZGVzIHRoYXQgc29tZXRoaW5nIGhlIGZpbmRzIGluIGhpcyBzaG9lIHNob3VsZG7igJl0IG1ha2UgaGltIHNpY2sgZGVzZXJ2ZXMgd2hhdCBldmVyIGhlIGdvdCBieSBlYXRpbmcgaXQuIEFsc28sIGl0IGlzIG15IGJlbGlldmUgdGhhdCB3ZSBhcmUgaW50ZXJmZXJpbmcgd2l0aCBuYXR1cmFsIHNlbGVjdGlvbiBieSBpZGlvdC1wcm9vZmluZyBldmVyeSB0aGluZyB0aGF0IGNvdWxkIGh1cnQgYW55IG9uZeKApiBpZiB3ZSBwdXQgYWxsIHRoZXNlIHdhcm5pbmdzIG9uIHN0dWZmIHRoZW4gdGhlIHBlb3BsZSB3aG8gPGk+d291bGQ8L2k+IGhhdmUgbmF0dXJhbGx5IGJlZW4gcGlja2VkIG9mZiBieSBjaGFuY2UgYW5kIHJlbW92ZWQgZnJvbSB0aGUgZ2VuZSBwb29sIGFyZSBzdGlsbCBhcm91bmQgdG8gcmVhciBjaGlsZHJlbiB3aG8gYWxzbyB0aGluayBwYWNrZXRzIGluIHRoZXJlIHNob2VzIGFyZSB0YXN0eSB0cmVhdHMuIEFtIEkgc2F5aW5nIHRoYXQgd2Ugc2hvdWxkIGtpbGwgdGhlc2UgcGVvcGxlPyBObywgSeKAmW0gc2F5aW5nIHRoYXQgd2Ugc2hvdWxkIHRha2UgYXdheSB0aGVyZSByaWdodCB0byBzdWXigKYgdGhlIGd1eSB0aGF0IHNwaWxsZWQgY29mZmVlIG9uIGhpbXNlbGbigKYgZGlkIGhlIDxpPnJlYWxseTwvaT4gbm90IGtub3cgdGhhdCBjb2ZmZWUgaXMgaG90PyBIb3cgbWFueSBjdXBzIG9mIGNvZmZlZSBkbyB5b3UgdGhpbmsgaGUgaGFkIGhhZCBiZWZvcmUgdGhhdCBpbiBoaXMgbGlmZT8gT3IgZGlkIGhlIGp1c3QgYXNzdW1lIHRoYXQgaGUgd291bGQgYmUgaW1wZXJ2aW91cyB0byB0aGUgMTgwRiBjb2ZmZWUgaW4gaGlzIGhhbmQ/ICh5ZXMgSSBsb29rZWQgdXAgdGhlIHRlbXBlcmF0dXJlIG9mIGNvZmZlZeKApikgaXQgcmVhbGx5IG1ha2VzIG1lIGZlYXIgZm9yIG91ciBuYXRpb24sIGJlY2F1c2UgcHJldHR5IHNvb24gcGVvcGxlIHdpbGwgYmUgaGl0dGluZyB0aGVtIHNlbHZlcyB3aXRoIGJsdW50IG9iamVjdHMgYW5kIGNsYW1pbmcgdGhhdCB0aGV5IGRpZG7igJl0IGtub3cgaXQgd291bGQgaHVydCBhbmQgc3VlIOKAnGJsdW50LXRoaW5ncyAuaW5j4oCdIHNvIHBsZWFzZeKApiBkb27igJl0IGJlIG9uZSBvZiB0aGUgdGhvdXNhbmRzIHdobyByZXF1aXJlcyBzaWducyBvbiBzdHVmZiwgaWYgeW91IGFyZSBqdXN0IGEgbGl0dGxlIG1vcmUgYXdhcmUgb2YgeW91ciBzdXJyb3VuZGluZ3MgYW5kIGRvbuKAmXQgZWF0IHRoZSBzdHVmZiBpbiB5b3VyIHNob2VzIHlvdeKAmWxsIGJlIGZpbmUuID0pDQoNCi1Kb24NCg0KPGI+TGVzc29uczo8L2I+DQo8Yj4xLjwvYj4gTm8sIHRoYXQncyA8aT48dT5ub3Q8L3U+PC9pPiBhIHRhc3R5IHRyZWF0Lg0KPGI+Mi48L2I+IEkgc2hvdWxkIG1ha2UgYSBidXNpbmVlcyBjYWxsZWQgImJsdW50LXRoaW5ncy5pbmMiIGFuZCBzZWxsIGJhdHMgYW5kIHN0dWZmLi4uDQo8Yj4zLjwvYj4gMTAwXjIgR2FsbG9ucyA9IDEzMzcgY3ViaWNmZWV0DQoNCjxCPkF3c29tZSBxdW90ZTo8L0I+ICJXYWl0LCBzdG9wLi4uIHdoYXQgdGhlIGhlbGwgYXJlIHlvdSB0YWxraW5nIGFib3V0PyIgLSBVbmtub3duLiAodGhpcyB3YXMgc2FpZCB0byBtZSBzaG9ydGx5IGFmdGVyIEkgc3RhcnRlZCBleHBsYWluaWcgcmVjdXJzaXZlIG1lcmdlIHNvcnRpbmcgdG8gc29tZSBndXkgdGhhdCBJIHdhcyB0YWxraW5nIHRvLikNCg0KUC5TLiBJJ20gYXNraW5nIHRoZW0gdG8gZ2V0IHJpZCBvZiBzb21lIG9mIHRoZSBzaWducy4uLiBJIHdvcmtlZCB0aGVyZSBmb3Igd2hpbGUgc28gdGhleSdsbCBsaXN0ZW4gdG8gbWUgPSk="
+"eventtime","2006-02-16 10:19:00"
+"current_moodid","96"
+"url","http://hunlerzfang.livejournal.com/1268.html"
+"userid","6553"
+"itemid","3"
+"event","OjpIZXJlIGlzIG15IHBvc3QgVmFsZW50aW5lcyBkYXkgcG9lbSE6Og0KDQpWYWxlbnRpbmVzIGhhcyBjb21lIGFuZCBnb25lIGFuZCBsaXR0bGUgSeKAmXZlIHRvIHNob3cgZm9yIGl04oCmDQpJIHdhcyBoaXQgb24gYnkgYSB0YWxsIHRyYW5zdmVzdGl0ZSwgYnV0IG5vLCBJIGRpZG7igJl0IGdvIGZvciBpdC4NCkNyYXAgd2FzIGZyZWVseSBnaXZlbiBvdXQgYW5kIHRha2VuIGluIGFzIGdpZnRz4oCmDQpUbyBidXkgdGhpcyBqdW5rIGFuZCBnaXZlIGl0IG91dCwgdGhlIG1lbiB3b3JrIGRvdWJsZSBzaGlmdHMuDQpJ4oCZdmUgc2VlbiBtYW55IFYtZGF5IGNhcmRzLCBidXQgdGhpcyB3YXMgYmVzdCBvZiBhbGw6DQrigJxIZWxsbyBnaXJsLCBJIHRoaW5rIHlvdSBjdXRlLCBoYXBweSBWLWRheSBsb2zigJ0NClRoZSBjdXRlbmVzcyBvZiBpbmVwdGl0dWRlIGlzIHNlZW4gcm91bmQgZXZlcnkgZGF5Lg0KQSBiYWJ5IHNjcmV3aW5nIHVwIGEgd29yZCBvciBhIGtpdHRlbiBpbiBpdCdzIHBsYXkuDQpUaGlzIGlzIHRvIHlvdSBiYWJ5IGRvbGxzIHdpdGggbWFrZXVwIHRoaWNrIGFzIGFybW9yLg0KZG9uJ3QgaWdub3IgdGhlIHNpbXBsZSBndXksIHRoZSBHYW1lciBvciB0aGUgRmFybWVyLg0Kc28gaWYgaGUgdHJpcHMgYW5kIHNraXBzIGFuZCBmYWxscyB3aGlsZSBoZSdzIGluIHlvdXIgdmlldy4NCmRvbid0IGJlIG1lYW4sIGFuZCBkb24ndCByZWplY3QsIGp1c3QgdGVsbCBoaW0gd2hhdCB0byBkby4NClNvIGhhcHB5IGRheSBhZnRlciB0aGF0IGRheSB0aGF0IHRoZSBnb3Zlcm5tZW50IGhhcyBzYWlkOg0KQWxsIHlvdSBtZW4gYnV5IHRhY2t5IGNyYXAgYW5kIGFsbCB5b3UgZ2lybHMgd2VhciByZWQuDQoNCjo6QWJvdXQgcnVubmluZzo6DQoNCkkgc2F3IGEgZ2lybCBydW5uaW5nIHRvZGF54oCmIG5vdyB0aGlzIHdvdWxkIG5vdCB1c3VhbGx5IGJlIHN0cmFuZ2UgYnV0IHNoZSB3YXMgcnVubmluZyB3aXRoIGhlciBsZWdzIHN0cmFpZ2h04oCmIGltYWdpbmUgYSByZWFsbHkgdGFsbCB0aGluIHBlbmd1aW7igKYgSSAoYmVpbmcgYW4gYXZpZCBydW5uZXIpIHRob3VnaHQgaXQgd2FzIG15IHJlc3BvbnNpYmlsaXR5IHRvIGNvcnJlY3QgaGVyLCBzbyBJIHJhbiBhZnRlciBoZXIsIG92ZXJ0YWtpbmcgaGVyIGluIHNlY29uZHMgYmVjYXVzZSBvZiBoZXIgb2RkIHJ1bm5pbmcgc3R5bGUuIEkgYXNrZWQgaGVyIOKAnHdoeSBhcmUgeW91IHJ1bm5pbmcgbGlrZSB0aGF0P+KAnSB0byB3aGljaCBzaGUgcmVwbGllZCDigJxsaWtlIHdoYXQ/4oCdIHNoZSBtdXN0IGhhdmUgc2VlbiB0aGUgc2hvY2sgaW4gbXkgZXllcyBiZWNhdXNlIHNoZSBsb29rZWQgZG93biBhdCBoZXIgbGVncywgdGhlbiBtaW5lICh3ZSB3aGVyZSBib3RoIHN0aWxsIHJ1bm5pbmcpIGFuZCB0aGVuIHNoZSBzYWlkIOKAnHlvdSBtZWFuIHRoYXQgeW91IGJlbmQgeW91IGxlZ3MgbW9yZSB0aGFuIEkgZG8gd2hlbiB5b3UgcnVuP+KAnSBzdGlsbCBzaG9ja2VkIGZyb20gaGVyIG9ibGl2aW91c25lc3Mgb2YgaGVyIHJ1bm5pbmcsIEkgc3RhbW1lcmVkIG91dCDigJx1aGhoLCB5ZWFo4oCm4oCdIHNoZSBhc2tlZCBtZSB3aHkgSSBhc2tlZC4gSSBzaW1wbHkgc2FpZCDigJxqdXN0IHRyeSB0aGlzLCBwdXNoIHdpdGggeW91ciBoaXBzLCBhbmQgZHJvcCB5b3VyIGJvZHkgZm9yd2FyZCBtb3ZlIHlvdXIgYXJtcyBmYXN0ZXIgYW5kIGRvbuKAmXQgdXNlIHlvdXIgYW5rbGVzIHNvIG11Y2jigJ0gc2hlIGRpZCwgYW5kIGluc3RhbnRseSBkb3VibGVkIGhlciBzcGVlZC4gU2hlIHdhcyBzaG9ja2VkIChhcyB3YXMgSSkgd2hlbiB3ZSBnb3QgdG8gaGVyIGNsYXNzIHNoZSBzYWlkIOKAnHdvdyB5b3Uga25vdyBhIGxvdCBhYm91dCBydW5uaW5nIeKAnSBJIGp1c3QgZ3Jpbm5lZCBhbmQgc2FpZCDigJxldmVyeXRoaW5nIGlzIHJlbGF0aXZl4oCm4oCdIHNoZSBkaWRu4oCZdCBxdWl0ZSBnZXQgaXQsIHNvIEkgbGVmdCBpdCBhdCB0aGF0IHdpdGggYSBzbWlsZSBhbmQgYSB3YXZl4oCmIGFub3RoZXIgcGVyc29uIHRoYXQgSSB3aWxsIGFsd2F5cyByZW1lbWJlci4NCjxiPkxlc3NvbnM6PC9iPiANCjxiPjEuPC9iPiBCZW5kIHlvdXIgbGVncyB3aGVuIHlvdSBydW4hDQo8Yj4yLjwvYj4gc29tZSBwZW9wbGUgZG9uJ3Qga25vdyBzdHVmZiBhYm91dCBzdHVmZiENCjxiPjMuPC9iPiA8aT5ldmVyeXRoaW5nPC9pPiBpcyByZWxhdGl2ZS4uLg0KDQoodGhpcyB3YXMgYW5vdGhlciB0aW1lIHdoZW4gSSBmZWx0IGFuIGFjdHVhbCBwdWxzZSBvZiBuZWdhdGl2ZSBlbmVyZ3kgZmxvdyBmcm9tIGFub3RoZXIgaHVtYW4gYmVpbmcgYW5kIGNydXNoIGEgcGxhbmV0IHNvbWUgd2hlcmUgb24gdGhlIG90aGVyIHNpZGUgb2YgdGhlIHVuaXZlcnNlLi4uKQ=="
+"eventtime","2006-02-15 12:46:00"
+"current_moodid","125"
+"url","http://hunlerzfang.livejournal.com/1022.html"
+"userid","6553"
+"itemid","2"
+"event","c29tZSBvZiB0aGlzIHN0dWZmIGlzIG1pbmUsIHNvbWUgaXMgZnJpZW5kcyBzdHVmZiwgYnV0IGl0J3MgYWxsIGdvb2QhDQoNCjo6bGFtYnMgYW5kIGVsZWN0cmljaXR5OjoNCg0KTWFyeSBoYWQgYSBsaXR0bGUgbGFtYiB3aG8gYmFja2VkIGludG8gYSBwaWxvbiwgMTAsMDAwIFZvbHRzIHdlbnQgdXAgaXQncyBBc3MgYW5kIHR1cm5lZCBpdCdzIHdvb2wgdG8gbmlsb24uDQoNCg0KOjp6dXNlLWVzazo6DQoNCkkgbG9va2VkIHdpdGggbXkgZXllcyBhbmQgd2hhdCBkaWQgSSBzZWU/IGl0IHdhcyBhIGZhbWlseSBvZiBnbG9tcHMgdXAgaGlnaCBpbiBhIHRyZWUuIHRoZXkgd2hlcmUgc2lsbHkgYW5kIGZ1enp5IGFuZCBldmVyIHNvIGxvdWQsIGJ1dCB0aGV5IGNvdWxkIGxlYXAgZnJvbSB0aGUgdHJlZXMgYW5kIGZsb2F0IGRvd24gbGlrZSBhIGNsb3VkLiBzbyBJIGNyaWVkIHRvIG15IG1vbW15LCAicGxlYXNlIGdldCBtZSBhIGdsb21wLiIgYnV0IG1vbW15IHNhaWQsIOKAnG5v4oCdIGZvciBhIGdsb21wIGlzIHRvbyBjdW5uaW5nIGFuZCB0aGUgZGFtYWdlIHRoZXkgY2F1c2UgaXMgc2ltcGx5IHF1aXRlIHN0dW5uaW5nLCB0aGV5IGxpa2UgdG8gZWF0IGhvdXNlcyBhbmQgd3JlY2sgdXAgeW91ciB0b3lzLCBhbmQgeW91IHdvbnQgZ2V0IHRvIHNsZWVwIGZvciB0aGV5IG1ha2UgdG8gbXVjaCBub2lzZS4gU28gZmVlbGluZyBhIGZlZWxpbmcgb2YgdXR0ZXIgcmVqZWN0aW9uLCBJIGhlYWRlZCBob21lIHdpdGggYSBsb29rIG9mIGRlamVjdGlvbiwgSSB0aG91Z2h0IHRoYXQgYSBnbG9tcCB3b3VsZCBiZSBhIGdvb2QgYnVkZHkgd2UgY291bGQgcGxheSBpbiB0aGUgcmFpbiBhbmQgYm90aCBnZXQgcmVhbCBtdWRkeSwgYnV0IEkgcmVhbGl6ZWQgdGhhdCBtb21teSBrbm93cyBiZXN0IHNvIEkgd2VudCB0byBiZWQgYW5kIHRoZW4gZ290IHNvbWUgcmVzdCwgd2l0aCBkcmVhbXMgb2YgbXkgZ2xvbXAgYW5kIG15IG1vbW15LCBhbmQgYWxsIG9mIHRoZSByZXN0LiA9KQ0KDQoNCjo6YSBtdXNoeSB2YWxpbnRpbmVzIHBvZW06Og0KDQpSb3NlcyBhcmUgcmVkLCB2aW9sZXRzIGFyZSBibHVlLCANCmxpZmUgaXMgZXhwZW5zaXZlIGFuZCBzbyBhcmUgeW91Lg0KDQpEaW5lcnMgYW5kIHJvc2VzIGFuZCBjaG9jb2xhdGUgdG8gYm9vdCwgDQpJ4oCZdmUgYSBwcm9ibGVtIHdpdGggbW9uZXkgYW5kIHlvdeKAmXJlIGF0IHRoZSByb290Lg0KDQpJJ3ZlIGdpdmVuIHlvdSBsb3ZlIGxvdHMgb2Ygc3Vuc2hpbmUgYW5kIGpveSwgDQphbmQgYWxsIHRoYXQgeW914oCZdmUgZXZlciBkb25lIGlzIGFubm95Lg0KDQp3aGVuIEkgYnV5IHlvdSB0aGlzIGp1bmsgdGhhdOKAmXMgdGFja3kgYW5kIHBpbmssIA0KSSBoYW5kIG92ZXIgbXkgY2FyZCBhbmQgY2Fu4oCZdCBoZWxwIGJ1dCB0aGluay4NCg0KSXMgdGhlcmUgcmVhbGx5IGEgcmVhc29uIEkgc3BlbmQgYWxsIHRoaXMgbW9uZXk/IA0KWW914oCZcmUgbm90IHJlbGF5IHNtYXJ0IG9yIGVuZ2FnaW5nIG9yIGZ1bm55Lg0KDQpZb3XigJl2ZSBubyBzZW5zZSBvZiBodW1vciwgZGlyZWN0aW9uIG9yIGZhc2hpb24sIA0Kd2hhdCBJIGNhbGwgY29tYXRvc2UgeW91IHNlZW0gdG8gY2FsbCBwYXNzaW9uLg0KDQpZb3XigJlyZSBub3QgYSBnb29kIGRyaXZlciwgYW5kIHlvdSBjYW7igJl0IHJlbGF5IGNvb2ssIA0KYW5kIHlvdXIgbWFqb3Igc2VsbGluZyBwb2ludCBpcyBub3QgaG93IHlvdSBsb29rLg0KDQpZb3UgbWFrZSBtZSB3YXRjaCBnYXJiYWdlIGFuZCBzdGVhbCB0aGUgcmVtb3RlOyANCnlvdSBmb2lsIG15IGF0dGVtcHRzIGF0IG9idGFpbmluZyBhIGJvYXQuDQoNCkJ1dCB0aGVuIEkgcmVtZW1iZXIgdGhlIHJlYXNvbiB5b3XigJlyZSBoZXJlLCANCnRoZSByZWFzb24gSSB0cnkgdG8ga2VlcCB5b3Ugc28gbmVhci4NCg0KSXTigJlzIGxvdmUgcGxhbmUgYW5kIHNpbXBsZSwgYSBncmVhdCBsb3ZlIGZvciBzdXJlLCANCmFuZCB3aGVuIHRpbWVzIGFyZSB0b3VnaCBpdCB3aWxsIGFsd2F5cyBlbmR1cmUuDQoNCkkgY2hvb3NlIHRvIGxvdmUgeW91IHdpdGggYWxsIG9mIG15IGhlYXJ0IA0KYSBsb3ZlIHdpdGggb3V0IGVuZCwgbWlkZGxlIG9yIHN0YXJ0Lg=="
+"eventtime","2006-02-14 01:09:00"
+"current_moodid","41"
+"url","http://hunlerzfang.livejournal.com/685.html"
+"userid","6553"
+"itemid","1"
+"event","VGhlIDIgbGV0dGVyIHN5c3RlbS4NCg0KQWxvbmcgdGltZSBhZ28gSSBjYW4gcmVtZW1iZXIgd2hlbiB0aGUgb25seSBsZXR0ZXJzIHdlIGhhZCB3aGVyZSDigJxFLCBhbmQgSOKAnSB0aG9zZSB3aGVyZSB0aGUgZGF5cyBvZiBiZWF1dGlmdWwgc2ltcGxpY2l0eS4uLiB0aGVyZSB3YXMgbG90cyBvZiBsaWdodCBsYXVnaHRlciwgdGhlcmUgd2FzIG5vIHN1Y2ggdGhpbmcgYXMgc2V4aXNtIChhbGwgd2UgaGFkIHdhcyDigJxoZeKAnSkgYW5kIHdlIGRpZG7igJl0IGhhdmUgdG8gd29ycnkgYWJvdXQgaG93IHRvIHNwZWxsIHN0dWZmISBTaW1wbHkgYmVjYXVzZSBpZiB3ZSBndWVzc2VkIHdlIGhhZCBhIDUwJSBjaGFuY2Ugb2YgZ2V0dGluZyBpdCByaWdodCAoZ3JhbnRlZCB3ZSBkaWRu4oCZdCBoYXZlIGFzIG1hbnkgd29yZHMsIGJ1dCBubyBvbmUgc2VlbWVkIHRvIG1pbmQgYW5kIHRoZSBnZW5lcmFsIGF0dGl0dWRlIHdhcyDigJxlaOKApuKAnSkuIEJ1dCB0aGVuIHdpdGggdGhlIGFkdmVudCBvZiBtYXRoIHdlIG5lZWRlZCBtb3JlIGxldHRlcnMgdG8gcmVwcmVzZW50IG51bWJlcnMgKGEgY29uY2VwdCBJIG5ldmVyIHJlYWxseSBnb3TigKYgdGhleSBhcmUgbnVtYmVycyBsZXQgdGhlbSByZXByZXNlbnQgdGhlbXNlbHZlcyEpLCBzbyBYIGFuZCBZIHdoZXJlIGJvcm4sIGZvbGxvd2VkIGxhdGVyIGJ5IFogKGJ1dCBubyBvbmUgcmVhbGx5IGxpa2VzIGhpbSBhbmQgd2UgZ28gdG8gZ3JlYXQgbGVuZ3RocyB0byBsZWF2ZSBoaW0gb3V0IG9mIHN0dWZmKS4gc2hvcnRseSBhZnRlciB0aGF0IHRoZSBsZXR0ZXIgcG9wdWxhdGlvbiBleHBsb2RlZCBsaWtlIGEgd2llbmVyIGRvZyB3aG8gaGFzIGVhdGVuIHRvIG11Y2ggZHJ5IHJpY2UsIGxldHRlcnMgd2hlcmUgc3ByaW5naW5nIHVwIGxpa2Ugc3RhcmJ1Y2tzLCBzb29uIHdlIGhhZCAyOCBsZXR0ZXJzIGluIGFsbCwgYnV0IHRoZSBsZXR0ZXJzIOKAnFN0ZXZl4oCdIGFuZCDigJxKdWxpYW7igJ0gd2hlcmUgbGF0ZXIgZGV0ZXJtaW5lZCB0byBub3QgYmUgbGV0dGVycyBhdCBhbGwgYnV0IHdoZXJlIGluIGZhY3Qg4oCcZnJ1aXRz4oCdLiBXaGVuIHRoaXMgbmV3IOKAnDI2IGxldHRlciBjcmF6ZeKAnSBoaXQgbXkgdG93biwgSSB0aG91Z2h0IGl0IHdvdWxkIHBhc3MgbGlrZSBhIGdhbGwgc3RvbmUgYWZ0ZXIgZHJpbmtpbmcgb2xpdmUgb2lsLCBtYW4gd2FzIEkgd3JvbmfigKYgc29vbiBpdCBoYWQgaXRzIG93biBzb25nIGFuZCBldmVyeSBvbmUgd2FzIGNvbWluZyB1cCB3aXRoIG5ldyB3YXlzIHRvIHNwZWxsIHN0dWZmIG1hbnkgb2Ygd2hpY2ggc2ltcGx5IGRpZG7igJl0IG1ha2UgYW55IHBocmVla+KAmW4gc2Vuc2XigKYgaW4gdGhlIGVhcmx5IGRheXMgaXQgd2FzbuKAmXQgc28gYmFkLCBiZWNhdXNlIG5vIG9uZSBjb3VsZCByZWFsbHkgLVByb3ZlLSB0aGF0IHlvdSBoYWQgc3BlbGxlZCBzb21ldGhpbmcgd3JvbmcsIGJ1dCB3aXRoIHRoZSBjcmVhdGlvbiBvZiBkaWN0aW9uYXJpZXMgcGVvcGxlIGJlZ2FuIHRvIGdldCBhbGwgcGlzc3kgYWJvdXQgc3BlbGxpbmcuIFRoZXkgZXZlbiBtYWRlIGEgZ2FtZSBhYm91dCBzcGVsbGluZyAodGhhdCBpcyBub3QgdG8gc2F5IHRoYXQgd2UgZGlkbuKAmXQgaGF2ZSB0aGF0IGdhbWUgYmVmb3JlLCBidXQgdGhhdCBpdCB3YXMgYSBsb3QgZWFzaWVyIGFuZCBtb3JlIHJlc2VtYmxlZCDigJx0aWNrIHRhY2sgdG9l4oCdIG9uIGEgc21hbGxlciBib2FyZOKApikuIEFmdGVyIHRoZSAyNmNyYXplIGhhZCBpdHMgdGFsb25zIGZpcm1seSBncmFzcGluZyB0aGUgaGVhcnQgb2Ygb3VyIHNvY2lldHkgYW5kIHRoZSB3b3JkIHBvcHVsYXRpb24gZXhwbG9kZWQgcGVvcGxlIG5lZWRlZCBzb21ldGhpbmcgZWxzZSB0byBkb+KApiBzbywgdGhleSBiZWdhbiB0byBkZWNpZGUgd2hpY2ggd29yZHMgdGhleSBkaWRu4oCZdCBsaWtlLCBhbmQgd2hhdCB3b3JkcyB3b3VsZCBiZSBjb25zaWRlcmVkIOKAnHZ1bGdhcuKAnS4gU3RyYW5nZWx5IOKAnEJ1dOKAnSB3YXMgdGhlIGZpcnN0IHRvIGdvIC0gYnV0IHBlb3BsZSByZWFsaXplZCB0aGF0IHRoZXkga2luZCBvZiBuZWVkZWQgdGhlIHdvcmQg4oCcYnV04oCdIHNvIHRoZXkgY2hhbmdlZCB0aGUgc3BlbGxpbmcgb2YgdGhlIGZvcmJpZGRlbiDigJxidXTigJ0gdG8g4oCcYnV0dOKAnSAodGhlIGV4dHJhIOKAnHTigJ0gbWFrZXMgaXQgYmFkIHNvbWUgaG934oCmKS4gQWZ0ZXIg4oCcYnV0dOKAnSBjYW1lIHRoZSBhbnRpIGFuaW1hbCBjcmF6ZSBkdXJpbmcgd2hpY2ggdGhlIGRvZG8gd2FzIGV4dGVybWluYXRlZCAobWFueSB0aGluayB0aGF0IHRoaXMgd2FzIG5vdCBhY3R1YWxseSB0aGF0IGJhZCBvZiBhIHRoaW5nIHRvIGhhcHBlbikgYW5kIHRoZSB3b3JkcyDigJxhc3PigJ0gYW5kIOKAnGJpdGNo4oCdIHdoZXJlIHN0cmlwZWQgZnJvbSB0aGVyZSBvcmlnaW5hbCBvd25lcnMgYW5kIGdpdmVuIHRvIOKAnGphY2vigJ0gYW5kIOKAnE9waGVsaWHigJ0gKHJlc3BlY3RpdmVseSkgYnV0IGxhdGVyIHRoZXkgd2hlcmUgc2ltcGx5IG1hZGUgdnVsZ2FyIGFuZCBoYXZlIHJlbWFpbmVkIHNvIGV2ZXIgc2Vuc2UgKEV4Y2VwdCBmb3Ig4oCcYml0Y2jigJ0gd2hpY2ggaXMgaGFuZ2luZyBvbiB0aGUgZWRnZSBvZiBjb21pbmcgYmFjayBhcyBhIGNvbXBsZW1lbnQhIEVYOiBJ4oCZbSBhIHNleHkgYml0Y2ghKS4gVGhlcmUgYXJlIGFsc28gc29tZSB3b3JkcyB0aGF0IGFyZSBzdGFydGVkIG91dCBhcyBhIHRpdGxlIGZvciBjZXJ0YWluIHBlb3BsZSBncm91cHMsIChFWDogY2hpbmssIG5pZ2dlciwgZmFnb3QsIGFuZCByZXB1YmxpY2FuKSBidXQgdGhlc2Ugd29yZHMgYXJlIHNwcmVhZGluZyBpbiB0byBhIG1vcmUgdW5pdmVyc2FsbHkgaW5zdWx0aW5nIHN0YXRlLCB0byB0aGUgcG9pbnQgdGhhdCB5b3UgY2FuIGJlIGNhbGxlZCBhIOKAnHJlcHVibGljYW4tbmlnZ2VyLWZhZ2904oCdIGV2ZW4gaWYgeW91IGFyZSBhIG1hcnJpZWQgSXJpc2htYW7igKYgYWZ0ZXIgdGhlIHdpdGNoIGh1bnQgZm9yIOKAnGJhZCB3b3Jkc+KAnSBjYW1lIHRvIGFuIGVuZC4gVGhlcmUgd2FzIHRoZSBmdXNpb24gb2YgdGhlIGFscGhhYmV0IGFuZCBudW1iZXJzIHRvIGNyZWF0ZSB3aGF0IGlzIGtub3cgYXMgbGVldCBvciDigJwxMzM34oCdIHdoaWNoIHN0YXJ0ZWQgYXMgYSB3YXkgZm9yIGNvbXB1dGVyIHBlb3BsZSB0byBjb252ZXJzZSB3aXRoIGVhY2ggb3RoZXIgaW4gY29kZSBidXQgbGF0ZXIgYmVjYW1lIGEgd2F5IGZvciDigJxyZXB1YmxpY2Fuc+KAnSB0byBwcm92ZSBob3cg4oCcY2hpbmsgZmFnb3TigJ0gdGhleSBhcmUg4oCTIGJ5IG1ha2luZyBhIGZvb2wgb2YgdGhlbSBzZWx2ZXMgaW4gcHVibGljIHBsYWNlcyB3aGlsZSB0aGlua2luZyB0aGV5IGFyZSBjb29sLiBJdCBpcyBteSBiZWxpZWYgdGhhdCBsZWV0IHdpbGwgZXZlbnR1YWxseSBnbyB0aGV5IHdheSBvZiDigJxTdGV2ZSBhbmQgSnVsaWFu4oCdLiBBbmQgd2l0aCBhbGwgdGhhdCBoaXN0b3J5IHdlIGNvbWUgdG8gdGhlIHByZXNlbnQgZGF5LCBhIHRpbWUgaW4gd2hpY2ggbGlnaHQgbGF1Z2h0ZXIgaXMgc2NhcmNlLCBhbmQgc2V4aXNtIGlzIHJhbXBhbnQuIChqdXN0IGxvb2sgYXQgdGhlIHNleGlzbSBpbiB3b3JkcyBsaWtlIOKAnG1hbi11YWzigJ0gYW5kIOKAnG1hbi1hZ2VtZW504oCdIOKApiB0aGV5IHNob3VsZCBiZSDigJx3b21hbi11YWxz4oCdIGFuZCDigJx3b21hbi1hZ2VtZW504oCdKSB3ZSBoYXZlIGJyYW5kZWQgc28gbWFueSB3b3JkcyDigJxiYWTigJ0sIHRoYXQgZW50aXJlIHNvbmdzIGFyZSBkZXZvdGVkIHRvIGxpc3RpbmcgdGhlbSBhbGwgKHRoYXQgbXVzaWNhbCBzdHlsZSBpcyB0aXRsZWQg4oCccmFw4oCdKS4gT3VyIGRpY3Rpb25hcmllcyBhcmUgc28gbGFyZ2UgdGhhdCB0aGV5IGFyZSBzb21ldGltZXMgdXNlZCBhcyB3ZWFwb25zIG9mIGV4ZWN1dGlvbi4gQW5kIHdvcnN0IG9mIGFsbCwgd2UgYXJlIGFsbCBzY3JhbWJsaW5nIGFyb3VuZCBuZXZlciBzdXJlIGhvdyB0byBzcGVsbCBzdHVmZiwgYW5kIGFsd2F5cyB1bnN1cmUgb2Ygb3VyIHNlbHZlcy4gSXQgaXMgZXZlbiBteSBiZWxpZWYgdGhhdCB0aGlzIHNwZWxsaW5nIGNyYXplIGhhcyBjYXVzZWQgbW9zdCBvZiB0aGUgZWFydGhzIHByb2JsZW1zLCBteSBleHBsYW5hdGlvbiBpcyBhcyBmb2xsb3dzOiANCg0KRXZlcnkgb25lIGtub3dzIHRoYXQgd2hlbiB5b3UgYXJlIHN0cmVzc2VkIHlvdSBiZWxjaCBhbmQgZmFydCBtb3JlLiBGb3IgcHJvb2Ygd2UgY2FuIGp1c3QgbG9vayBhdCB0aGUgTWV4aWNhbnMsIHRoZXkgYXJlIGNvbnN0YW50bHkgc3RyZXNzZWQgd2l0aCB3aHkgYWxsIG9mIHRoZXJlIOKAnHfigJ0gYW5kIOKAnGjigJ0gd29yZHMgc3RhcnQgd2l0aCDigJxq4oCdLiBBbmQgaXQgaXMgb2J2aW91cyB0aGF0IHRoZXkgYXJlIHRoZSBmYXJ0eS1lc3QsIGJlbGNoeS1lc3QgcGVvcGxlIGluIHRoZSB3b3JsZCAoZm9sbG93ZWQgaW4gYSBjbG9zZSBzZWNvbmQgYnkgR2VybWFueS4gYnV0IHRoYXQgaXMgZm9yIGNvbXBsZXRlbHkgZGlmZmVyZW50IHJlYXNvbnPigKYpIHNvIHdpdGggYWxsIG9mIHRoaXMgc3BlbGxpbmcgcmVsYXRlZCBtZXRoYW5lIGZpbGxpbmcgb3VyIHNreSwgaXQgaXMgbm8gd29uZGVyIHRoYXQgd2UgYXJlIHB1bmNoaW5nIGEgaG9sZSBpbiBvdXIgYXRtb3NwaGVyZS4gSW4gZmFjdCB0aGF0IGlzIHdoeSBhbGwgb2Ygb3VyIGFzdHJvbmF1dHMgaGF2ZSB0byBiZSBzbyB3ZWxsIGVkdWNhdGVkLiBJZiB0aGV5IHdoZXJlIGp1c3QgdGhlIGxlYXN0IGJpdCBpbnNlY3VyZSBhYm91dCB0aGVyZSBzcGVsbGluZyB0aGVyZSBtYXNzaXZlIG1ldGhhbmUgcmVsZWFzZSBpbiB0aGUgdXBwZXIgYXRtb3NwaGVyZSB3b3VsZCBzdXJlbHkgc3BlZWQgdXAgZ2xvYmFsIHdhcm1pbmcgdGVuIGZvbGQuIFNvIGlmIHdlIHdvdWxkIGhhdmUganVzdCBzdHVjayB0byB0aGUg4oCcMiBsZXR0ZXIgc3lzdGVt4oCdIGluc3RlYWQgb2YgZ29pbmcgd2l0aCB0aGUgZmxhc2h5IDI2IC1jcmFwLSB0aGF0IGlzIG91ciBjdXJyZW50IGxhbmd1YWdlLiBXZSB3b3VsZCBuZXZlciBoYXZlIHRvIGRlYWwgd2l0aCBnbG9iYWwgd2FybWluZ+KApiBPciBmYXJ0aW5nIE1leGljYW5z4oCmDQoNCk1ha2VzIHNlbnNlIG5vPyBXZSBjYW4gYWxsIHNlZSB0aGF0IGEgbG90IG9mIHRoZSBkYW1hZ2UgaGFzIGFscmVhZHkgYmVlbiBkb25lLCBidXQgaWYgd2Ugd2hlcmUgdG8gZ28gYmFjayB0byB0aGUgMiBsZXR0ZXIgc3lzdGVtIHdlIGNvdWxkIGF0IGxlYXN0IHRyeSB0byBzYXZlIHRoZSB3b3JsZCBmb3JtIHRoZTogc3BlbGxpbmcgaW5kdWNlZCwgZmFydCBmdWVsZWQgaG9sb2NhdXN0IHRoYXQgaXMgc3VyZSB0byBmb2xsb3cgaWYgd2UgZG9u4oCZdCBjaGFuZ2Ugb3VyIHdheXMuIHlvdSBoYXZlIGEgY2hvaWNlISBCcmluZyBiYWNrIGxpZ2h0IGxhdWdodGVyISBUYWtlIHVwIGFuIGFwYXRoZXRpYyBwb3NpdGlvbiBvbiBldmVyeSB0aGluZyEgTW92ZSB0byBDYW5hZGEhIFRvZ2V0aGVyIHdlIGNhbiBtYWtlIGEgZGlmZmVyZW5jZSENCg0KLSBKb24="
+"eventtime","2006-02-14 00:39:00"
+"current_moodid","66"
+"url","http://hunlerzfang.livejournal.com/477.html"
+"userid","6553"

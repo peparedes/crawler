@@ -1,0 +1,3706 @@
+"names","values"
+"itemid","212"
+"event","LVJlZG5lY2stLQ0KMV0gRG8geW91IGJlbGlldmUgdGhlIHNvdXRoIHdpbGwgcmlzZSBhZ2Fpbj8gbm8NCjJdIERvIHlvdSBkcml2ZSBhIGZvdXItd2hlZWwgYXV0b21vYmlsZT8gbm8gYnV0IHRoZXlyZSBmdW4NCjNdIERvIHlvdSBsaXZlIGluIGEgbW9iaWxlIGhvbWU/IG5vDQo0XSBJcyB5b3VyIGNhciBzdGlsbCBwcmltZXIgZ3JheT8gbm8NCjVdIERvIHlvdSBsaWtlIGNvdW50cnkgbXVzaWM/IHllcw0KNl0gRG8geW91IGhhdmUgYSBicm9rZW4gY2FyIGluIHlvdXIgYmFjayB5YXJkPyBubw0KN10gRG8geW91IGxpa2UgdGhlIGxvb2sgb2YgbGlmdGVkIHRoYW5ncyBldmVuIGlmIGl0IGlzIGEgY2FyPyBubw0KOF0gRG8geW91IGxpa2UgdG8gc2hvb3QgdGhpbmdzPyBubw0KOV0gRG8geW91IHNldCBvZmYgZmlyZXdvcmtzIHdoZW5ldmVyIHlvdSBmZWVsIGxpa2UgaXQ/IHllYQ0KVG90YWwgWWVzOiAyDQoNCi1Hb3RoLS0NCjFdIERvIHlvdSB3ZWFyIGJsYWNrIGV5ZWxpbmVyPzogeWVhDQoyXSBJcyBtb3N0IG9mIHlvdXIgY2xvdGhpbmcgYmxhY2s/OiBubw0KM10gRG8geW91IHRoaW5rIGFib3V0IGRlYXRoIG9mdGVuPzogeWVhaA0KNF0gRG8geW91IHdhbnQgdG8gZGllPzogbm8NCjVdIEFyZSB5b3UgYSBzb2NpYWwgb3V0Y2FzdD86IG5vDQo2XSBBcmUgeW91IHBhbGU/IHllYQ0KN10gRG8geW91IGxpa2UgSG90IFRvcGljPzogeWVhaC4NCjhdIERvIHlvdSBlbmpveSBUaW0gQnVydG9uJ3MgTW92aWVzPzogeWVzLg0KOV0gQXJlIHlvdSBuaWNlPzogbW9zdCBvZiB0aGUgdGltZS4NClRvdGFsIFllczogNg0KDQotLVNrYXRlciBQdW5rLS0NCjFdIENhbiB5b3Ugc2thdGVib2FyZD86IG5vcGUuDQoyXSBEbyB5b3Ugd2VhciBWYW5zPzogeWVhaC4NCjNdIERvIHlvdSBkbyBzdHVwaWQgc3R1ZmYgd2l0aCB5b3VyIGZyaWVuZHM/IHllYWgNCjRdIEhhdmUgeW91IGdvdHRlbiBpbiB0cm91YmxlIHdpdGggdGhlIFBJR1M6IHllcw0KNV0gRG8geW91IGxpc3RlbiB0byBwdW5rIGJhbmRzOiB5ZXAuDQo2XSBEbyB5b3UgaGF2ZSBhbnkgcGllcmNpbmdzPzogeWVhDQo3XSBEbyB5b3UgbGlrZS93ZWFyIG1vaGF3a3M/IHllYWguIGkg4pmlIHRoZW0uDQo4XSBEbyB5b3Ugd2VhciBCYW5kIHQtc2hpcnRzOiB5ZWFoDQo5XSBIYXZlIHlvdSBjYWxsZWQgc29tZW9uZSBhIHBvc2VyPzogeWVhDQp0b3RhbCBZRVM6IDgNCg0KLS1QcmVwLS0NCjFdIERvIHlvdSBzYXkgdGhlIHdvcmQgImxpa2UiOiB5ZWENCjJdIERvIHlvdSBzaG9wIGF0IEFiZXJjcm9tYmllIGFuZCBGaXRjaD8geWVhDQozXSBBcmUgdGhlIEEmRiBtb2RlbHMgaG90PzogeWVhDQo0XSBEbyB5b3UgcG9wIHRoZSBjb2xsYXI/OiB5ZWENCjVdIERvIHRoZSBwZW9wbGUgaW4gSG90IHRvcGljIHNjYXJlIHlvdT86IG5vcGUuDQo2XSBUaGUgb25seSBuZXJkIHlvdSBsaWtlIGlzIFNldGggQ29oZW46IHllYQ0KN10gRG8geW91IHdhdGNoIExBR1VOQSBCRUFDSD86IHllYQ0KOF0gRG8geW91IGxpa2UgcG9wIG11c2ljOiBiYXJlbHkuDQo5XSBEbyB5b3Ugd2FudC9oYXZlIGEgbGl0dGxlIGRvZz86IGF3ZS4geWVhaC4NClRvdGFsIFlFUzogNw0KDQotLUhpcHBpZS0tDQoxXSBJcyB5b3VyIGhhaXIgbG9uZz86IHllYQ0KMl0gRG8geW91IG93biBhIHR5ZS1keWUgc2hpcnQ/OiB5ZWENCjNdIERvIHlvdSB3YW50IHBlYWNlPzogeWVhDQo0XSBEbyB5b3Ugd2FudCB0byBzYXZlIHRoZSBhbmltYWxzPzogc3VyZQ0KNV0gRG8geW91IHRoaW5rIHRoZSB3YXIgaXMgdW5uZWNjZXNhcnk/OiB5ZWFoLg0KNl0gSXMgbG92ZSBlc3NlbnRpYWwgaW4geW91ciBsaWZlPzogeWVhLg0KN10gVmlvbGVuY2UgaXMgYmFkOiBubw0KOF0gSGF2ZSB5b3Ugc21va2VkIHBvdD86IG5vDQo5XSBEbyB5b3UgZ28gbG9uZyBwZXJpb2RzIG9mIHRpbWUgd2l0aG91dCBzaGF2aW5nPzogbm8NClRvdGFsIFlFUzogNQ0KDQotLUdhbmdzdGEtLQ0KMV0gQXJlIHlvdSBmcm9tIHRoZSBnaGV0dG8/OiBuby4NCjJdIERvIHlvdSBvd24gImJsaW5nIGJsaW5nIj86IG5haC4NCjNdIERvIHlvdSB3ZWFyIGRvLXJhZ3M/IG5vDQo0XSBEbyB5b3UgbGlrZSBoaXAtaG9wPzogbm8uDQo1XSBXYXMgVHVwYWMgdHJ1bHkgdGhlIGdyZWF0ZXN0IHJhcHBlciBpbiB0aGUgd29ybGQ/IG5vLg0KNl0gRG8geW91IGJlbGlldmUgaGUncyBhbGl2ZT86IGkgaG9uZXN0bHkgZG8gbm90IGNhcmUgb25lIGJpdC4NCjddIERvIHlvdSBsaWtlIGFmcm9zPzogbm8NCjhdIEhhdmUgeW91IGV2ZXIgc2FpZCAiRm8gU2hpenpsZSI6IHllYQ0KOV0gRG8geW91IGxpa2UgdG8gZGFuY2U/OiB5ZWENClRvdGFsIFlFUzogMg0KDQotLUVtby0tDQoxXSBEbyB5b3UgY3J5IG9mdGVuPzogeWVzLg0KMl0gQXJlIHlvdSBlbW90aW9uYWw/IHllYQ0KM10gRG8geW91IGxpa2Ugc29mdCBtdXNpYzogeWVhaC4NCjRdIERvIHBlb3BsZSBub3QgdW5kZXJzdGFuZCB5b3U/OiB5ZWFoLg0KNV0gRG8geW91IHdyaXRlIHlvdXIgb3duIHNvbmdzPzogeWVhDQo2XSBJcyB5b3VyIGhhaXIgZHllZCBkYXJrPzogbm8uDQo3XSBEbyB5b3UgY3V0PzogdW0uLiBpJ20gbm90IHNheWluZyBhbnl0aGluZy4NCjhdIEFyZSB5b3UgbG9uZWx5PzogeWVhaC4NCjldIElzIE9oaW8gZm9yIGxvdmVycz8gb2ggeWVzLg0KVG90YWwgWUVTOiA4DQoNCi0tU3VyZmVyLS0NCjFdIERvIHlvdSBzdXJmPzogbm8NCjJdIERvIHlvdSB3ZWFyIGZsaXAgZmxvcHMgeWVhci1yb3VuZD86IHllYS4NCjNdIElzIHlvdXIgaGFpciBzaGFnZ3k/IG5vcGUuDQo0XSBEbyB5b3Ugd2FrZSB1cCBhdCA2IG9yIGJlZm9yZSBldmVyeSBtb3JuaW5nPzogbmV2ZXIuDQo1XSBEbyB5b3Ugb3duIGFueSBwYWlycyBvZiBzaG9ydHM/IHllYQ0KNl0gQXJlIHlvdSB0YW4/OiBuby4NCjddIERvIHlvdSBoYXZlIGEgbG90IG9mIHBhdGllbmNlPzogbm8NCjhdIERvIHlvdSB3YW50IHRvIGJlIGF0IHRoZSBiZWFjaCByaWdodCBub3c/OiB5ZWENCjldIERvIHlvdSBoYXRlIHRvdXJpc3RzPzogeWVhDQpUb3RhbCBZRVM6IDQNCg0KLS1HZWVrLS0NCjFdIERvIHlvdSB3ZWFyIGdsYXNzZXM6IGNvbnRhY3RzDQoyXSBEbyB5b3UgZ2V0IGdvb2QgZ3JhZGVzPzogbm8NCjNdIERvIHlvdSB1c2UgYW4gaW5oYWxlcj86IG5vDQo0XSBEbyB5b3Ugc3RpY2sgcGVucyBhbmQgY2FsY3VsYXRvcnMgaW50byB5b3VyIHNoaXJ0IHBvY2tldHM/IG5vDQo1XSBEb2VzIHlvdXIgbW9tIHBpY2sgb3V0IHlvdXIgY2xvdGhlcz86IG5vIQ0KNV0gQXJlIHlvdSBvbiB0aGUgY29tcHV0ZXIgb2Z0ZW4/OiB5ZWENCjZdIEhhdmUgeW91IGV2ZXIgYmVlbiBwaWNrZWQgb24/OiB5ZWENCjddIERvIHlvdSBsb29rIGZvcndhcmQgdG8gZ28gdG8gc2Nob29sPyA6IG5vDQo4XSBBcmUgeW91IHNoeSBhcm91bmQgdGhlIG9wcG9zaXRlIHNleD86IG5vDQo5XSBEbyBwZW9wbGUgbGF1Z2ggYXQgeW91Pzogbm8NClRvdGFsIFlFUzogMg0KDQoqdGhlIG1vc3QgeWVzZXMgaXMgdGhlIGxhYmVsIHlvdSBhcmUq"
+"eventtime","2005-10-31 16:18:00"
+"url","http://superfreak-xox.livejournal.com/54337.html"
+"userid","14955"
+"itemid","211"
+"event","When was the last time you cried? Yesterday.
+Have you ever faked sick? Probably.
+What was the last lie you said? WHen i told someone i still didnt like someone eles
+Have you ever cried during a movie? Yeah
+Who was the last person you couldn't take your eyes off of? Connor cuz he was talking to me O_o
+Have you ever danced in the rain? Yep.
+Have you ever been drunk? yeah
+Have you ever tried drugs? No.
+Do you smoke? No.
+What's the farthest you've ever gone on a dare? I dunno.
+What is your full name? Mollie ELizabeth Stricker
+What is your blood type? NO FFUCKING CLUE
+Have you ever been in a car accident? No.
+How old were you when you received your first kiss? 13
+Have you ever had an online relationship? No?
+Have you ever had phone sex? HAHAHA yeahhh with jenni ; )
+Have you ever been rejected by a crush? Yeah
+What is your favorite sport to play? cheer
+Have you ever made a prank phone call? ya
+Have you ever said ""I Love You"" and not meant it? Yeah
+What's your favorite childhood memory? chillin with jenni in class & shit
+Is there anything you have done that you regret? Yep.
+What do you want to be when you grow up? not sure
+What is your political affiliation? idk
+Have you ever had cybersex? No.
+Do you believe in God? yeah i guess
+Do you believe in love at first sight? yes
+Do you believe in karma? Yes
+Who was your first crush? Dylan Harcharick
+Who do you have a crush on? none of ur buisness lol
+How would you describe yourself? Odd.
+What are you afraid of? loosing people i love
+Are you religious? No.
+What does your screen name mean? its a song
+What person do you trust the most? Connor & Steven
+Who was your first boyfriend/girlfriend? really-- Greg DeLouche but we just went out. but freal Creighton.
+What is the best compliment you have ever received? Probably something about my looks.
+What is the meanest thing anyone has said about you? Anything Josh said to me when we were in a fight
+What is the longest crush/relationship you have had? My longest crush..... for like a year.. Year & half. longest realationship... like 2 weeks & a day =/. 
+What is your greatest strength? idk.
+What is your greatest weakness? giving in.
+What is your perfect pizza? peperoinewith stuffed crust
+What is your first thought when waking up in the morning? i wish i had a boy next to me =/
+What is your first thought before you go to bed? I WANT A FREAKING BOYYYY *hugs care bear*
+What college do you want to go to? idk.
+Do you get along with your family? no.
+Do you play any instruments? air everything
+What kind of music do you like? Rock.
+Do you think you're attractive? No
+Would you ever get a tattoo? Yeah
+How many piercings do you have? One in each ear, but I want a second hole in each ear.
+Who makes you laugh? Nearly everybody.
+Who would you want to be tied to for 24 hours? uhhh connor josh steven jenni caty or jordan
+Have you ever seen a dead body? no.
+Do you have a celebrity crush? Ryan Sheckler--but connor says im not hott enough for him (ass hole!) & BAM margera.
+What is one things scientists should invent? ""MAKE ME HOTTER"" machine
+Have you ever broken a bone? No.
+What happens after you die? You go into a hole in the ground 
+Do you watch or read the news? Watch
+What stereotype would you label yourself as? THe--leave me the fuck alone- 
+Would your friends agree with that stereotypic label? Sure.
+If you could change your name, what would you change it to? idk. 
+If you could go back in time to one point in your life, where would you go? .....idk.
+If you could change anything about yourself, what would you change? IDKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKk
+Have you ever gone skinny dipping? No. --but i want tooo
+Have you ever played strip poker? No. -- but i want tooo!
+Would you ever lie to someone to make them feel good about themself? No.
+What do you want your friends to think about you?*shrugs*
+What's the biggest argument you've ever gotten into? There's been a few.
+Have you ever bitten someone? Yeah.
+When's your birthday? sept. 19th
+Have you ever stolen anything? yah
+Do you make wishes on shooting stars? ya
+What's the most you've ever eaten in one sitting? 2 medium pizza's 2 liters of pop & 3 bowls of ice cream.. ORRRRRR 4 bowels of ceral a steak mushrooms & lots of potatos
+If you could go back and change one day, what would it be? uhhh the first day of school
+Do you remember your dreams? Yes.
+Have you ever been in love? Yes.
+Are you a morning person or a night person? Night person, definitely.
+Do you have any phobias? idk.
+What's the meanest thing you've ever done to someone?
+Have you ever been to the hospital (other than birth)? Yep.
+How many screen names do you have? 1 I use reguraly but I have several that I don't use.
+Do any medical problems run in your family? no clue
+Has anyone ever been disowned by your family? idk.
+Have you ever had a nightmare? Yeah.
+Do you say meaner things to your friends than to your enemies? Enemies.
+Would you ever participate in a threesome? No.
+Would you ever pay for a prostitute? No.
+Have you ever mooned or flashed someone? ya.
+Have you ever cheated on your bf/gf? Never.
+Have you ever laughed so hard you peed in your pants? Yeah
+Have you ever written a love letter? Yes, but it was never sent.
+Have you ever attempted suicide? no.
+Do you prefer boxers or briefs? Boxers
+Have you ever been in a fist fight? idk.
+Do you have any hidden talents? Probably.
+Do you usually prefer books or movies? movies.
+Who is your favorite person to talk to? connor or steven or josh when hes not being weird.
+Who is always able to cheer you up when you're sad? steven & connor & caty
+Would you ever have sex before marriage? umm SHYEAH
+Who do you talk to most on the phone? Stevennnn
+Do you have a secret that you're ashamed of? Yep.
+Do you prefer British or American spellings of words? O_o.
+Have you ever gotten detention? Yeah.
+How do you vent your anger? listen to music... punch whoever im pissed at
+Have you ever been on a diet? No.
+Would you eber date someone younger than you? Yeah
+Older than you? I have already.
+Is your best friend a virgin? Yes..
+What's a rumor someone has spread about you? Not sure
+What's the kinkiest thing you could ever actually see yourself doing? not usre
+What's the meanest thing anyone has ever done to you? There's been a lot...
+What's the nicest thing anyone has ever done for you? All 3 of my best friends have done incredibly amazing things.
+Have you ever been diagnosed with a mental illness? no.
+Have you ever cut yourself on purpose? Yep.
+Have you ever wanted to murder someone? No.
+Have you ever hated someone? Yep.
+Do you prefer talking on the phone or online? Online.
+Do you consider yourself to be popular? NO.
+Would you ever tell the person you have a crush on that you like them? Yeah.
+Have you ever had a crush on an enemy? No lol.
+Have you ever had a crush on a best friend? Yeah
+What is your favorite book? GO ASk ALice.
+Do you have a collection of anything? ummm not really jeans lol.
+Are you happy with the person you are becoming? no.
+Are you a different person now then you were 5 years ago? Definitely.
+What do you see yourself as being in 5 years from now? In college, 
+Are you happy with the life you have? NO"
+"eventtime","2005-09-05 19:43:00"
+"url","http://superfreak-xox.livejournal.com/54131.html"
+"userid","14955"
+"itemid","210"
+"event","sooooo this is my frist week in high school. & it suckkkks
+
+so today i woke up & had on my preppy outfit & i felt SO out of place. 
+caught our very crowded bus & went to school
+
+homebase i just chilled.
+
+in math i went to my locker for the first timeee!! =D. lol im weird
+
+in ss i did like nothing really.
+
+in science i did a lab
+
+lunch waas odd.i stood in line with josh & cj & kyle. it was funny. yesturday josh friggin elbowed my eye! lol. it didnt hurt tho. then kyle got his lunch  so he waited till i payed for mine & we went & sat down. we sit next to eachother like everyday cuz we pimp. i was really hyper in lunch so i was freakin out with my powerrade & cj was like staring at me like im crazy... funny.
+
+spanish was gay. very gay i hate it
+
+english was cool like always. me & cj were gonna fight lol.
+
+tech ed was gay. i hate tech ed. but i get to chill with kyle so w|e, we made this thinger. me & kyle were in a group together. it was pimp. 
+
+pe was ok. me & kathleen chilled like always talked about cheerleading.
+
+IM DOING BASKETBALL CHEERLEADING BEOOOOOTCH,!!!!!!! freal tho. i can't wait. i miss cheerleading so freaking much its not even funny!!! lol
+
+well yeah our bus is way too crowded & im done with it. ! ugh,
+
+i miss everyone from north point =(. i miss how much the guys torchurd me...! & i miss walking with connor everyday after school. =( i miss it sooo much.... im applying for north point next year but idk what to apply for =/. HOLLAH."
+"eventtime","2005-09-01 16:10:00"
+"current_moodid","5"
+"url","http://superfreak-xox.livejournal.com/53821.html"
+"userid","14955"
+"itemid","208"
+"event","-- The shoes you wore today: none.
+-- Your eyes: brownnnn
+-- Your weakness: boysss.
+-- Your fears: losing people I love
+
+-----------------WHAT IS------------------
+-- Your most overused phrase: WTFFFFFFFFF
+-- Your thoughts before you go to bed: Whatever went on in my day.
+-- The first feature you notice in the opposite sex: height & hair.
+-- Your best physical feature: boddy.
+-- Your greatest accomplishment: no clue
+-- Your most missed memory: idk
+
+-----------------YOU PREFER------------------
+-- Pepsi or coke: Coke
+-- McDonald's or Burger King: Mickey D's
+-- Single or group dates: Single
+-- Adidas or Nike: adidas
+-- Chocolate or vanilla: Vanilla
+-- Cappuccino or coffee: coffee.
+
+-----------------DO YOU------------------
+-- Smoke: No
+-- Cuss: Fuck yes.
+-- Take a shower everyday: I try to.
+-- Have a crush: yeah.
+-- Who are they: as if i would tell you!
+-- Do you think you've been in love?: Yes.
+-- Want to go to college: Yep.
+-- Like high school: idk
+-- Want to get married: Yeah
+-- Type w/ your fingers on the right keys: Yep.
+-- Believe in yourself: At times.
+-- Get motion sickness: no.
+-- Think you're attractive: No.
+-- Think you're a health freak: no. 
+-- Get along with your parents: No.
+-- Like thunderstorms: Yep.
+-- Play an instrument: No.
+
+------------IN THE PAST MONTH DID:/:HAVE YOU--------------
+-- Drank alcohol: No.
+-- Done a drug: No.
+-- Have Sex: No, =(
+-- Have done sexual things: yeah
+-- Made Out: ""yeah""
+-- Go on a date: not really
+-- Go to the mall: Yea.
+-- Eaten sushi: No.
+-- Been on stage: No.
+-- Been dumped: No.
+-- Gone skating: No.
+-- Made homemade cookies: No.
+-- Been in love: maybe
+-- Dyed your hair: No.
+-- Stolen anything: yeah.
+
+----------------HAVE YOU EVER------------------
+-- Flown on a plane: Nope.
+-- Missed school because it was raining?: yeah lol
+-- Told a guy/girl that you liked them?: Yeah
+-- Cried during a Movie?: Yeah
+-- Ever thought an animated character was hot?: 
+-- Had an imaginary friend: Yeah
+-- Been on stage?: Yeah
+-- Cut your hair: Yeah
+-- Had crush on a teacher?: No
+-- Played a game that required removal of clothing?: No
+-- Been trashed or extremely intoxicated: yeah
+-- Been caught ""doing something"": Yeah
+-- Been called a tease: Yeah
+-- Gotten beaten up: Nope
+-- Been in a fight: Yeah
+-- Shoplifted:yeah
+-- Snuck out of the house?: Yeah
+-- Cried to get out of trouble?: yep.
+-- Gotten lost in your city?: yeah lol
+-- Seen a shooting star?: yeah!!
+-- Been to any other countries besides the united states?: Nope.
+-- Had a serious surgery?: nope
+-- Stolen something important to someone else?: nope
+-- Solved a rubiks cube?: No
+-- Gone out in public in your pajamas? duh
+-- Cried over a girl?: Yeah
+-- Cried over a boy?: SHYEAH
+-- Kissed a random stranger?: No
+-- Hugged a random stranger? Probably.
+-- Been in a fist fight?: Yeah
+-- Been arrested?: No
+-- Had alcohol?: yah
+-- Laughed and had milk come out of your nose?: No
+-- Pushed all the buttons on an elevator?: yeah lol
+-- Gone to school only to find you had the day off because of a holiday/etc?: Yeah
+-- Swore at your parents?: Yeah
+-- Been to warped tour?: No =(
+-- Kicked a guy where it hurts?: Yeah DUH
+-- Been in love?: Yeah
+-- Been close to love?: Yeah
+-- Been to a casino?: no
+-- Ran over an animal and killed it?: No!
+-- Broken a bone?: No
+-- Gotten stitches?: no
+-- Had a waterballoon fight in winter?: HAHHAH YEAH
+-- Drank a whole gallon of milk in one hour?: yeah
+-- Made homemade muffins?: Yeah
+-- Bitten someone?: um duhh its what i do best
+-- Been to disneyland/disneyworld?: yulp
+-- More than 5 times?: no
+-- Been to niagra falls?: No
+-- Burped in someones face?: Probably.
+-- Gotten the chicken pox?: yeah.
+
+-----------------THE FUTURE------------------
+-- Age you hope to be married: 20's
+-- Numbers and Names of Children: like 2 or 3
+-- How do you want to die?: I don't know.
+-- What do you want to be when you grow up?:idk
+-- What country would you most like to visit?: Ireland
+
+-----------------OPPOSITE SEX------------------
+-- Best eye color: changing color ones
+-- Best hair color: Dark
+-- Short or long hair: depends on who u are
+-- Best height: taller than me... like me being at least tha their nose. but like an inch taller is ok too
+-- Best weight: idk... not extremly large.. but not anerxic
+-- Best first date location: movies
+-- Best first kiss location: bedd or couch
+
+-----------------NUMBER OF-----------------
+-- Number of girlfriends/boyfriends you've had: like 6
+-- Number of kisses you've given: Romantically? umm 4
+-- Number of drugs taken illegally: None
+-- Number of people I could trust with my life: 4
+-- Number of CDs that I own: at least 30
+-- Number of piercings: 1 in each ear
+-- Number of tattoos: None
+-- Number of times my name has appeared in the newspaper?: 4 or 5
+-- Number of scars on my body: lotsss
+-- Number of things in my past that I regret: lotsss
+
+----------------FAVORITES------------------
+-- Shampoo: idk blue
+-- Fav. Color: Black
+-- Day/Night: Night
+-- Summer/Winter: Winter
+-- Lace or Satin: Satin
+-- Fave Cartoon Character: uhhh...
+-- Fave Food: chicken
+-- Fave Movies: romantic
+-- Fave sport: rugby
+-- Band/Group: the used, tbs, slipknot, korn, chevelle
+-- Song: uhhh too many
+-- Stuffed animal: not usr.e. my care bear!!
+-- Video game: uhh
+-- TV show: mad tv
+-- Book: go ask alice
+-- Game on a cell phone: Snake!
+-- CD Cover: ummm
+-- Scent: paris hilton
+-- Animal: monkey?.
+-- Comic book: Spiderman I suppose.
+-- Cereal: rese
+-- Website: IDK
+----------------RIGHT NOW------------------
+-- Wearing: green fussy socks, new jeans, green shirt, black bra, victoria secret gstring that is white..
+-- Drinking: Nothing
+-- Thinking about: connor
+-- Listening to: all of this by blink 182
+
+---------------IN THE LAST 24 HRS------------------
+-- Cried: nope
+-- Worn jeans: yea
+-- Met someone new online: nope
+-- Done laundry: nope
+-- Drove a car: nope
+--Talked on the phone: yulp
+
+---------------DO YOU BELIEVE IN--------------
+-- Yourself: At times
+-- Your friends: umm 3 of them
+-- Santa Claus: No
+-- Tooth Fairy: No
+-- Easter Bunny: No
+-- Destiny/Fate: Yeah
+-- Angels: Yeah
+-- God: yeah
+
+--------FRIENDS AND LIFE------------------
+-- Do you ever wish you had another name?: not really
+-- Do you have a girlfriend/boyfriend?: no....
+-- Do you like anyone?: yeah
+-- Which one of your friends acts the most like you: starnold-- but im so cooler
+-- Who have you known the longest of your friends?: jenni
+-- How many friends do you have?: A lot..
+-- What are their names?: Ummm...haha
+-- Do you have a best friend?: Yeah, joshh!!!!!!
+-- Have you ever liked one of your friends?: Yeah
+-- Do you have more guy friends or more girl friends?: guy
+-- Have you ever lost a friend?: Yeah
+-- Have you ever gone to an amusement park with a friend?: Yeah
+-- Whats an inside joke between you and a friend?: hahhahaha. ok umm me & connor have our own laguage & it consists of 3 words! lol
+-- Have you ever gotten in a big arguement with a friend?: Yeah
+-- Whats the nicest thing youve ever done for a friend?: I don't know, ask them.
+-- Whats the nicest thing a friend has ever done for you?: ummmm josh & connor were just there when i flipped out. so they were being nice  
+-- Do you miss any of your old friends?: Yeah
+-- Do you regret anything youve done to a friend?: Yeah
+-- If so, what is it?: uhhhhhhhhhhhhhhhhhhhhhhhhhhh
+-- How often do you spend time with your friends?: Like my entire life.
+-- Do any of your friends drive?: no
+-- Has a friend of yours ever died?: ummmm i dont tihnk so
+-- Whats the dumbest thing youve done with a friend?: just about everything i do is stupid lol.
+-- What do you think your friends think of you?: I dunno, ask them.
+-- Are you close to any family member?: Yeah
+-- When have you cried the most: idk
+-- What's the best feeling in the world?: Being held <3.
+-- Worst Feeling?: Guilt
+-- What time is it now? 9:31 PM"
+"eventtime","2005-08-18 21:02:00"
+"url","http://superfreak-xox.livejournal.com/53280.html"
+"userid","14955"
+"itemid","207"
+"event","<lj-cut text=""i steal from Jenn like its my fucking job!!"">
+
+NAME FOUR BAD HABITS YOU HAVE:
+[1] needing to have someone paying attention to me.
+[2] pacing.
+[3] Procrastination.
+[4] slobness
+
+NAME FOUR THINGS YOU WISH YOU HAD: 
+[1] a digital camera
+[2] to live in a bigg house
+[3] & to be going to north point
+[4] Moneyyyy
+
+NAME FOUR PEOPLE THAT KNOW YOU THE BEST: 
+[1] connor
+[2] steven
+[3] Jegnn
+[4] josh (at times)
+
+NAME FOUR THINGS YOU WOULD NEVER WEAR: 
+[1] umm... that fishnett shit as a shirt
+[2] a shirt on top of a shirt on top of s shirt
+[3] Skirt on pants
+[4] underwear outside my pants
+
+
+NAME FOUR THINGS YOU ARE THINKING ABOUT NOW:
+[1] food
+[2] my boyyys <3
+[3] making out
+[4] swimming
+
+NAME FOUR THINGS THAT YOU HAVE DONE TODAY: 
+[1] install my computer.
+[2] call my dad
+[3] call rachel
+[4] call my mom
+
+NAME THE LAST FOUR THINGS YOU HAVE BOUGHT:
+[1] a shirt from hot topic
+[2] a shirt from ae
+[3] a shirt from old navy <-- HAHHA
+[4] food 
+
+NAME FOUR DRINKS YOU REGULARLY DRINK: 
+[1] pop.
+[2] Lemonade
+[3] milk
+[4] spit
+
+Favorite:
+1. gum: Orbit.
+2. restaurant: idk ne thing with good food
+3. drink: coke
+4. season: Late Autumn, Winter
+5. type of weather: rain
+6. emotion: bored // in pain
+7. thing to do on a half day: Relax.
+8. late-night activity: Being online talking to friends, listening to music
+9. sport: none
+10. city: me no no
+11. store: pac sun
+
+When was the last time you:
+12. cried: last night =/  thanks for helping me connor <3
+13. played a sport: 2 weeks ago
+14. laughed: Today
+15. hugged someone: 2 days ago
+16. kissed someone: last thursday?? or the wed. b4 that
+17. felt depressed: not sure... a while ago tho
+18. felt overworked: idk 2 weeks ago.
+19. faked sick: probly some monday this past school year.
+20. lied: uhhh today??
+
+What was the last:
+21. word you said: shyeah
+22. thing you ate: salad & cheese <3 yum
+23. song you listened to: don't laugh at me - mark w.
+24. thing you drank: lemonade
+25. place you went to: potty room
+26. movie you saw: the notebook
+27. movie you rented: slackers & dude wheres my car
+
+
+Who was the last person you
+28. hugged: chelsea m.
+29. cried over: momma
+30. kissed: Josh
+31. danced with: probly myself lol
+32. shared a secret with: connor 
+33. had a sleepover with: omg... umm jordan? gosh its been FOREVER
+34. called: starnold
+35. went to a movie with: uhh... damn... jordan steven & porno
+36. saw: mama
+37. were angry with: mom
+38. couldn't take your eyes off of: hahah josh,,, to annoy him by staring
+39. obsessed over: hmmm
+
+Have you ever:
+40. danced in the rain: no =(.
+41. kissed someone: Yep.
+42. done drugs: Nope.
+43. drank alcohol: yeppp
+44. partied 'til the sun came up: Yes.
+46. gone too far on a dare: maybe...
+47. spun until you were immensely dizzy: Yes.
+48. taken a survey quite like this before: Yes.
+
+My life:
+49. name: mollie
+50. gender: Female
+51. birthday: september 19th 1991
+54. occupation: Student
+
+Play:
+55. i'm feeling: Thirsty.
+56. i'm listening to: tv
+57. i'm doing: You.
+58. i'm talking to: jegnn
+59. i'm craving: food
+60. i'm thinking of: Soda.
+61. i'm hating: YOU MOTHAH FUCKER
+
+Love:
+62. love is: fun <3
+63. my first love: no clue..
+66. best love song: idk
+67. is it possible to be love in with more than 1 person in at the same time: No
+69. is there such thing as love at first sight?: yeah
+
+Picky picky:
+77. dog or cat: cat
+78. short or long hair: Long
+79. sunshine or rain: Rain
+80. hugs or kisses: Both ;)
+81. summer or winter: Winter
+82. written letters or e-mails: Written letters
+83. playstation or nintendo: ps.
+84. car or motorcycle: car.
+85. house party or club: House party.
+86. sing or dance: Dance. 
+87. freak or slow dance: Both :)
+
+Lately:
+88. How are you today?: Pretty good.
+89. what pants are you wearing right now?: blue w| penguins
+90. what shirt are you wearing right now?: long sleeve dc shoes's
+91. what does your hair look like at the moment: up straight pony tail
+92. what song are you listening to right now? none
+93. how is the weather right now?: nice
+94. who was last person you talked to on the phone?: some random person
+95. last dream i can remember? last nights... it was weird."
+"eventtime","2005-08-16 01:05:00"
+"url","http://superfreak-xox.livejournal.com/53162.html"
+"userid","14955"
+"itemid","206"
+"event","<P>so yeah im bored.<BR>yesturday i went over josh's house.<BR>chilled with himm. argued about 4/20.<BR>cuz i knew i was right. hen he finally gave in after 2 days of srguing about it. im so pimp. i love winning.<BR>then umm... we went down stairs &amp; he ate &amp; we got kung foo hustle</P>
+<P>&amp; we watched that well kinda. i just like layed there &amp; tried to stay awake lol. then umm... idk.</P>
+<P>we went over steven's. me, josh, porno, connor, steven, &amp; corey was there.</P>
+<P>then we all went across the street to the guy with the pool's hosue &amp; deciede to go swimming</P>
+<P>&amp; of corse... i didn't have my bathing suite. DMANNN ITTTT</P>
+<P>so me &amp; steven went to his house &amp; he gave me boxers &amp; a WHITE shirt. so i changed in his backyards lmao.</P>
+<P>then we went over to the house with the pool. &amp; i got attacked lol.</P>
+<P>but it was fun &amp; like everyone got out... wtf. so we went over to steven's &amp; i cahnged my shirt on the front porch.. i decided i didn't care.</P>
+<P>&amp; the boys skated while i sat there &amp; watched. </P>
+<P>so me, josh, connor &amp; porno went over to connor's. talked &amp; shit.</P>
+<P>then me, porno &amp; josh got picked up cuz connor had dentist. &amp; we went to noodles &amp; company. i got food. i was the only one cuz joshs' mom wanted me to eat lol. </P>
+<P>then we all went back &amp; watched harold &amp; kumar go to white castle. i love thses stoner movies!!! lol.</P>
+<P>then umm... connor got there. then we all chilled or w|e. then we all went outside &amp; they skated. for a while. then we went back in &amp; listend to funny shit. then at 8 we hadda go. </P>
+<P>&amp; thats all i feel like talking about so yeah</P>
+<P>&nbsp;</P>
+<P><lj-cut text=""&amp; i'd throw everything away for you""> </P>
+<P><STRONG>&nbsp;stole from Jenn &lt;3</STRONG></P>
+<P>&nbsp;</P>
+<P>WRATH<BR>1. Who did you last get angry with? Brittany.<BR>2. What is your weapon of choice? My fists<BR>3. Would you hit a member of the opposite sex? Yep and have already.<BR>4. how about of the same sex? Yep.<BR>5. Who was the last person that got really angry at you? Josh =(<BR>6. What is your pet peeve? idk... just don't freaking annoy me<BR>7. Do you keep grudges, or can you let them go easily? sometimes i hold grudges. but i usually forgive<BR><BR>SLOTH<BR>1. What is one thing you're supposed to do daily that you haven't done in a long time? Make my bed.<BR>2. What is the latest you've ever woken up? 3<BR>3. Name a person you've been meaning to contact, but haven't. Nobody, really.<BR>4. What is the last lame excuse you've made? ""its too early"" when it was like 12 or something &amp; we had been up since like 8<BR>5. Have you ever watched an infomercial all the way through? DUH!<BR>6. When was the last time you got a good workout in? like 2 weeks ago<BR>7. How many times did you hit the snooze button on your alarm clock today? Never do..<BR><BR><BR>GLUTTONY<BR>1. What is your overpriced yuppie beverage of choice? Vanilla Latte'<BR>2. White meat or dark meat? idk which is which<BR>3. What is the greatest amount of alcohol you've had in one sitting/outing/event? idk next time i'll count for you O.o<BR>4. Have you ever used a professional diet company? No.<BR>5. Do you have an issue with your weight? No.<BR>7. Have you ever taken food ""to go"" from a buffet? hah yeah<BR><BR><BR>LUST<BR>1. How many people have you seen naked (not counting movies/family)? umm... one<BR>2. How many people have seen YOU naked (not counting physicians/family)? 2<BR>3. Have you ever caught yourself staring at the chest/crotch of a member of your gender of choice during a normal conversation? Yep O:)<BR>4. Have you wanted someone who was taken? Yes.<BR>5. What is your favorite body part on a person of your gender of choice? Eyes and hair<BR>6. Have you ever been propositioned by a prostitute? No.<BR>7. Have you ever had a one night stand? No.<BR><BR><BR>GREED<BR>1. How many credit cards do you own? none<BR>2. What's your guilty pleasure? fried chicken... &amp; music &amp; rented a whole season of s show from hollywood video. &amp; guyss<BR>3. If you had $1 million, what would you do with it? Buy a house &amp; go shopping =D<BR>4. Would you rather be rich or famous? Rich<BR>5. Would you accept a boring job if it meant you would make megabucks? Yeah<BR>6. Have you ever stolen anything? yulp<BR>7. How many mp3's are on your hard drive? ... huh<BR><BR><BR>PRIDE<BR><BR>There's no number one? O_o<BR>2. What one thing have you done that your parents are most proud of? no clue...<BR>3. What thing would you like to accomplish in your life? Graduate high school and college &amp; get a job that give me LOTS AND LOTS of money<BR>4. Do you get annoyed by coming in second place? heck yes<BR>5. Have you ever entered a contest of skill, knowing you were of much higher skill than all the other competitors? Yep.<BR>6. Have you ever cheated on something to get a higher score? like a test?? yeah<BR>7. What did you do today that you're proud of? get dressed.<BR><BR>ENVY<BR>1. What item of your friend's would you most want to have for your own? pool.<BR>2. If you could be anyone else in the world, who would you be? not sure.. BAM Margera's gf<BR>3. Have you ever been cheated on? no,,,<BR>4. Have you ever cheated on someone? never will.<BR>5. Have you ever wished you had a physical feature different from your own? Yup<BR>6. What trait do you see in others that you wish you had for yourself? the ""fuck it"" attitude<BR>7. What is your favorite deadly sin? idk</P>"
+"eventtime","2005-08-12 19:26:00"
+"url","http://superfreak-xox.livejournal.com/52793.html"
+"userid","14955"
+"itemid","205"
+"event","TXkgY29uZmVzc2lvbnMgaW5jbHVkZeKZpSANClsgXSBJIGFtIGJpc2V4dWFsIG9yIGhvbW9zZXh1YWwuLi5vciBzb21ldGhpbmcgbGlrZSB0aGF0LiANClt4XSBJJ3ZlIHJ1biBhd2F5IGZyb20gaG9tZSANClsgXSBJIGxpc3RlbiB0byBwb2xpdGljYWwgbXVzaWMuIA0KWyBdIEkgY29sbGVjdCBjb21pYyBib29rcy4gDQpbeF0gSSBzaHV0IG90aGVycyBvdXQgd2hlbiBJJ20gc2FkLiANClt4XSBJIG9wZW4gdXAgdG8gb3RoZXJzIGVhc2lseSANClt4XSBJIGFtIGtlZXBpbmcgYSBzZWNyZXQgZnJvbSB0aGUgd29ybGQgDQpbIF0gSSB3YXRjaCB0aGUgbmV3cy4gDQpbIF0gSSBvd24gb3ZlciA1IHJhcCBDRHMgDQpbeF0gSSBvd24gYW4gaXBvZCBvciBtcDMgDQpbeF0gSSBvd24gc29tZXRoaW5nIGZyb20gSG90IFRvcGljLiBmdWNrIHllcy4NClt4XSBJIGxvdmUgRGlzbmV5IG1vdmllcy4gDQpbeF0gSSBhbSBhIHN1Y2tlciBmb3IgaGFpci9leWVzIA0KWyBdIEkgZG9uJ3Qga2lsbCBidWdzLiANClt4XSBJIGN1cnNlIHJlZ3VsYXJseS4gDQpbeF0gSSBwYWlkIGZvciB0aGF0IGNlbGwgcGhvbmUgcmluZ3RvbmUuIA0KWyBdIEkgaGF2ZSAieCJzIGluIG15IHNjcmVlbiBuYW1lLiANClt4XSBJJ3ZlIHNsaXBwZWQgb3V0IGEgImxvbCIgaW4gYSByZWFsIGNvbnZlcnNhdGlvbi4gDQpbIF0gSSBsb3ZlIFNwYW0gDQpbeF0gSSBiYWtlIHdlbGwNClt4XSBJIGhhdmUgd29ybiBwYWphbWFzIHRvIHNjaG9vbC4NClsgXSBJIG93biBzb21ldGhpbmcgZnJvbSBBYmVyY3JvbWJpZS4gDQpbIF0gSSBoYXZlIGEgam9iLiANClsgXSBJIGxvdmUgTWFydGhhIFN0ZXdhcnQuIA0KW3hdIEkgYW0gaW4gbG92ZSAu4pmlIA0KWyBdIEkgYW0gZ3VpbHR5IG9mIHRZcEluRyBsSWtFIHRIaVMuDQpbeF0gSSBhbSBzZWxmIGNvbnNjaW91cy4gDQpbeF0gSSBsaWtlIHRvIGxhdWdoLiANClsgXSBJIHNtb2tlIGEgcGFjayBhIGRheS4NClt4XSBJIGxvdmVkIEdvIEFzayBBbGljZS4gDQpbeF0gSSBoYXZlIGNvdWdoIGRyb3BzIHdoZW4gSSdtIG5vdCBzaWNrLiANClsgXSBJIGNhbid0IHN3YWxsb3cgcGlsbHMuIA0KW3hdIEkgaGF2ZSBtYW55IHNjYXJzDQpbIF0gSSd2ZSBiZWVuIG91dCBvZiB0aGlzIGNvdW50cnkgDQpbeF0gSSBiZWxpZXZlIGluIGdob3N0cy5ib28uDQpbeF0gSSBjYW4ndCBzbGVlcCBpZiB0aGVyZSBpcyBhIHNwaWRlciBpbiB0aGUgcm9vbS4NClt4XSBJIGFtIHJlYWxseSB0aWNrbGlzaC4gPC0tIGhhaGEgam9zaCBrbm93cyEhIA0KWyBdIEkgc2VlL2hhdmUgc2VlbiBhIHRoZXJhcGlzdC4gDQpbIF0gSSBsb3ZlIGNob2NvbGF0ZS4gDQpbeF0gSSBiaXRlIG15IG5haWxzLiANClt4XSBJIGFtIGNvbWZvcnRhYmxlIHdpdGggYmVpbmcgbWUuIA0KW3hdIEkgcGxheSBjb21wdXRlciBnYW1lcy92aWRlbyBnYW1lcyB3aGVuIGknbSBib3JlZC4gDQpbeF0gR290dGVuIGxvc3QgaW4geW91ciBjaXR5Lg0KW3hdIFNhdyBhIHNob290aW5nIHN0YXIuIA0KWyBdIEJlZW4gdG8gYW55IG90aGVyIGNvdW50cmllcyANClsgXSBJIGhhZCBhIHNlcmlvdXMgU3VyZ2VyeS4NClt4XSBHb25lIG91dCBpbiBwdWJsaWMgaW4geW91ciBwYWphbWFzIA0KWyBdIEkgaGF2ZSBraXNzZWQgYSBzdHJhbmdlci4gDQpbeF0gSHVnZ2VkIGEgc3RyYW5nZXIgDQpbIF0gQmVlbiBpbiBhIGZpc3QgZmlnaHQuIA0KWyBdIEJlZW4gYXJyZXN0ZWQuIA0KWyBdIExhdWdoZWQgYW5kIGhhZCBtaWxrL3NvZGEgY29tZSBvdXQgb2YgeW91ciBub3NlLiANClt4XSBQdXNoZWQgYWxsIHRoZSBidXR0b25zIG9uIGFuIGVsZXZhdG9yLiANClsgXSBNYWRlIG91dCBpbiBhbiBlbGV2YXRvci4NClt4XSBTd29yZSBhdCB5b3VyIHBhcmVudHMuIA0KW3hdIEtpY2tlZCBhIGd1eSB3aGVyZSBpdCBodXJ0cyA8LS0gbGlrZSBldmVyeSBndXkgaSBrbm93ISENClsgXSBCZWVuIHNreWRpdmluZy4gDQpbIF0gQmVlbiBidW5nZWUganVtcGluZy4gDQpbeF0gQnJva2VuIGEgYm9uZS4gDQpbeF0gUGxheWVkIHNwaW4gdGhlIGJvdHRsZS4gDQpbIF0gR290dGVuIHN0aXRjaGVzLiANClt4XSBEcmFuayBhIHdob2xlIGdhbGxvbiBvZiBtaWxrIGluIG9uZSBob3VyLg0KW3hdIEJpdHRlbiBzb21lb25lLiANClsgXSBCZWVuIHRvIE5pYWdhcmEgRmFsbHMuIA0KW3hdIEdvdHRlbiB0aGUgY2hpY2tlbiBwb3guDQpbIF0gQ3Jhc2hlZCBpbnRvIGEgZnJpZW5kJ3MgY2FyLg0KWyBdIEJlZW4gdG8gSmFwYW4gDQpbIF0gUmlkZGVuIGluIGEgdGF4aS4gDQpbeF0gU2hvcGxpZnRlZC4gDQpbIF0gQmVlbiBmaXJlZC4gDQpbeF0gaGFkIGZlZWxpbmdzIGZvciBzb21lb25lIHdobyBkaWRuJ3QgaGF2ZSB0aGVtIGJhY2suIC0taGFoYSBhbGwgdGhlIHRpbWUuPVsgDQpbIF0gU3RvbGUgc29tZXRoaW5nIGZyb20geW91ciBqb2IuDQpbIF0gR29uZSBvbiBhIGJsaW5kIGRhdGUuDQpbeF0gTGllZCB0byBhIGZyaWVuZC4NClsgXSBIYWQgYSBjcnVzaCBvbiBhIHRlYWNoZXIvY29hY2guDQpbIF0gQ2VsZWJyYXRlZCBNYXJkaSBHcmFzIGluIE5ldyBPcmxlYW5zPw0KWyBdIEJlZW4gdG8gRXVyb3BlLiANClsgXSBTbGVwdCB3aXRoIGEgY28td29ya2VyLiANClsgXSBCZWVuIG1hcnJpZWQgDQpbIF0gR290dGVuIGRpdm9yY2VkLiANClsgXSBTYXcgc29tZW9uZSBkeWluZy4gDQpbeF0gRHJpdmVuIG92ZXIgNDAwIG1pbGVzIGluIG9uZSBkYXkuDQpbIF0gQmVlbiB0byBDYW5hZGEuDQpbIF0gQmVlbiBvbiBhIHBsYW5lLg0KWyBdIFNlZW4gdGhlIFJvY2t5IEhvcnJvciBQaWN0dXJlIFNob3cuDQpbeF0gdGhyb3duIHVwIGluIGEgYmFyIA0KW3hdIEVhdGVuIFN1c2hpIA0KWyBdIEJlZW4gc25vd2JvYXJkaW5nLg0KWyBdIEJlZW4gc2tpaW5nLg0KW3hdIEJlZW4gaWNlIHNrYXRpbmcuIA0KW3hdIE1ldCBzb21lb25lIGluIHBlcnNvbiBmcm9tIHRoZSBpbnRlcm5ldC4NClsgXSBCZWVuIHRvIGEgbW90byBjcm9zcyBzaG93Lg0KW3hdIEdvbmUvR29pbmcgdG8gY29sbGVnZS4uLmV2ZW50dWFsbHkgDQpbIF0gRG9uZSBoYXJkIGRydWdzLg0KW3hdIFRha2VuIHBhaW5raWxsZXJzLiANClsgXSBDaGVhdGVkIG9uIHNvbWVvbmUgZWxzZSANClt4XSBXZXJlIHNvIGJvcmVkIHlvdSB0b29rIHRoaXMgc3VydmV5Lg=="
+"eventtime","2005-08-10 16:26:00"
+"url","http://superfreak-xox.livejournal.com/52480.html"
+"userid","14955"
+"itemid","204"
+"event","<P><lj-cut text=""wowzers.... no life""> </P>
+<P>What can you do// survey</P>
+<P><STRONG>nod you head &amp;&amp; rub your tummy.<BR>wiggle your toes.<BR></STRONG>wiggle your ears.<BR>roll your tongue.<BR><STRONG>swing your arms different directions</STRONG>.<BR><STRONG>do the butterfly;;put your head all the way to your lap.<BR>put your legs over your head.<BR>suck on your toes.<BR>put your nose up to your armpit.<BR>squeeze into a box.<BR></STRONG>hold your breath for two minutes straight.<BR>two flips in the air;;diving board;;trampoline;;etc.;<BR><STRONG>chug a glass of soda.<BR>wink.<BR>raise one eyebrow.<BR></STRONG>make fart noises out of your armpit.<BR><STRONG>make fart noises underneath your knees</STRONG>.<BR><STRONG>pop bubbles with gum.<BR>make spit bubbles.<BR></STRONG>make bugar bubbles;;if you have a stuffy//runny nose.<BR><STRONG>whistle.<BR>snort.<BR>reach your toes.<BR>rub your tummy and pat your head.<BR></STRONG>say peter piper picked a peck of pickled peppers 5x fast.<BR>cross your eyes.<BR><STRONG>spread your pointer and middle finger away from your ring and pinky finger.<BR>roll your belly.<BR>snap your fingers.<BR>wiggle your nose side to side.<BR></STRONG>touch your nose with your tongue.</P>
+<P>&nbsp;</P>
+<P><FONT color=#ff0000>Your cell</FONT></P>
+<P><FONT color=#ff0000>1. What is your current ringtone? <FONT color=#000000>umm Get Down with the sickness. for everyone. bleed like me for connor &amp; josh. lonley for porno &amp; techno for brittany<BR></FONT>2. What is your current wallpaper?: <FONT color=#000000>Steven</FONT><BR>3. Do you own a picture phone? <FONT color=#000000>Yepp</FONT><BR>4. If so, what was the last picture you took? <FONT color=#000000>Steven</FONT><BR>5. Go to your text message inbox and type what the 10th message from the top say?:&nbsp; <FONT color=#000000>i only have 8 =/ </FONT><BR>6. How many contacts do you have on your phone? <FONT color=#000000>wow idk. umm..62</FONT><BR>7. Go to your missed calls. 5th missed call...who is it? <FONT color=#000000>Logan</FONT><BR>8. Who was the last person you spoke to on your cell phone? <FONT color=#000000>Steven</FONT><BR>9 how many bars do <FONT color=#000000>you</FONT> have for your service/Battery? <FONT color=#000000>2//1</FONT><BR>11. Who's on your speed dial number 5? <FONT color=#000000>no one.</FONT><BR>12. Do you have any voice mails? <FONT color=#000000>yeah</FONT><BR>13. How many contacts that start with the letter D do you have: <FONT color=#000000>1<BR></FONT>14. Who do you call the most??? <FONT color=#000000>Probly... my mom or connor</FONT><BR>15. How many text messages do you get a month? <FONT color=#000000>idk</FONT><BR>16. Can you send pictures? <FONT color=#000000>yeah</FONT><BR>17. What are the last 4 digits to your number? <FONT color=#000000>7176</FONT><BR>18. Go to your sent texts, what does the eighth one say? <FONT color=#000000>Mollie...duh. lol j|k</FONT><BR>20. Who's the last person that you called? <FONT color=#000000>Steven</FONT><BR>21. The last person that called you? <FONT color=#000000>some guy askin for dironda</FONT><BR>22. Last person that texted you? <FONT color=#000000>Kristina</FONT><BR>23. Last person you added to your contacts? <FONT color=#000000>No clue</FONT><BR>24. How many minutes are on your plan? <FONT color=#000000>i have pay as u go</FONT><BR>25. Do you like your phone? <FONT color=#000000>yeah</FONT></FONT></P>
+<P><FONT color=#ff0000><FONT color=#000000></FONT></FONT>&nbsp;</P>
+<P><FONT color=#ff0000>&nbsp;<BR></FONT><FONT color=#336666><STRONG>SERiES 0NE - Y0U</STRONG><BR>Birth time: <EM>like 1 or 2 </EM><BR>Last place you traveled: <EM>west virginia</EM><BR>Eye Color: <EM>brown</EM><BR>Nail Color: <EM>black</EM><BR>Height:<EM> 5*2</EM><BR>Zodiac Sign: <EM>virgo</EM>&nbsp;</FONT></P>
+<P><FONT color=#336666><STRONG>SERiES TW0 - DESCRiBE</STRONG><BR>Your heritage: <EM>mostly irish</EM><BR>The shoes you wore today: <EM>haven't worn shoes yet</EM><BR>Your hair: <EM>brown</EM><BR>Your weakness: <EM>boys</EM><BR>Your fears: <EM>loosing people i love</EM><BR>Your perfect pizza: <EM>peperonie with LOTS of grease</EM><BR>One thing you'd like to achieve: <EM>getting a boyfriend i can keep =/</EM></FONT></P>
+<P><FONT color=#336666><STRONG>SERiES TWEE - WHAT IS..</STRONG><BR>Your most overused phrase on aim: <EM>nicee or awsome. or lol</EM><BR>Your thoughts first waking up:<EM> mmmm what time is it?</EM><BR>Your current worry: <EM>when the hell am i going to eat</EM><BR>Your plans tomorrow: <EM>not sure yet </EM><BR>Your best physical feature: <EM>BOOBS no idk</EM><BR>Your greatest accomplishment: <EM>ummmm idk O_o</EM></FONT></P>
+<P><FONT color=#336666><STRONG>SERiES F0UR - Y0U PREFER</STRONG><BR>Sunrise or sunset: <EM>sunset</EM><BR>Gore or horror: <EM>BOTH!!</EM><BR>Eastsiiiide or wessssside: <EM>EASTSIEDE!!</EM>&nbsp;<BR>Stripes or poki dots: <EM>ewwie</EM><BR>Money or fame: <EM>money</EM><BR>Planes or trains: <EM>planes</EM><BR>Metal or hardcore: <EM>hardcore</EM><BR>Boxers or briefs: <EM>boxers</EM><BR>Your life is: <EM>huh??</EM><BR>Pools or hot tubs: <EM>pools no hot tubs. IDK</EM>&nbsp;</FONT></P>
+<P><FONT color=#336666><STRONG>SERiES FiVE - D0 Y0U</STRONG><BR>Cuss: <EM>heck yes</EM><BR>Do you think you've been in love:&nbsp; <EM>maybe...</EM><BR>Want to get married: <EM>yeah</EM><BR>Type w/ your fingers on the right keys: <EM>sometimes</EM><BR>Like to take baths: <EM>yeah</EM><BR>Get motion sickness: <EM>no not really</EM><BR>Like talking on the phone: <EM>heck yes</EM><BR>Like thunderstorms: <EM>when i'm with a boy ... yeah</EM><BR>Play an instrument: <EM>hell no</EM><BR>Workout: <EM>no</EM><BR>Like reading: <EM>no</EM>&nbsp;</FONT></P>
+<P><FONT color=#336666><STRONG>SERiES SIX - FAVORITES</STRONG><BR>Kind of fruit: <EM>strawberry</EM><BR>Music to fall asleep to: <EM>loud.</EM><BR>Time of the day: <EM>12</EM><BR>Feature in the opposite sex: <EM>hmmmmm ....</EM><BR>Car: <EM>mustang convertable</EM><BR>Number: 2//3<EM>//10</EM><BR>Thing to do right before bed: <EM>put up my a|m?</EM><BR>Thing to say when you're mad:<EM>&nbsp; fuck</EM><BR>Era: <EM>huh</EM><BR>Horror movie:<EM>&nbsp; i like lots of them</EM><BR>Colors: <EM>umm idk... black </EM></FONT></P>
+<P><FONT color=#ff0000><FONT color=#336666><STRONG>SERiES SEVEN - FUTURE<BR></STRONG>Age you hope to be married: <EM>idk not like 40 but not 17</EM><BR>Numbers &amp; Names of Children: <EM>idk... </EM><BR>Describe your Dream Wedding: <EM>me &amp; him &amp; a dress &amp; rings</EM><BR>How do you want to die: <EM>young</EM><BR>Where you want to go to college: <EM>doesnt matter</EM><BR>What do you want to be when you grow up: <EM>rich</EM><BR>What country would you most like to visit: <EM>ireland &amp; france</EM><BR></FONT></P>
+<P><BR><BR></P></FONT>"
+"eventtime","2005-08-09 17:25:00"
+"url","http://superfreak-xox.livejournal.com/52282.html"
+"userid","14955"
+"itemid","203"
+"event","WOW.... longggg day
+
+So I went over Josh's hosue yesturday mornin' at like.. 8.
+so i went in his room to wake him up cuz im a very nice person!! lol
+we were chillin in bed for a long time...somewhat arguing.. cuz thats what we do lol.
+
+Then chris took a shower & josh took a shower. so i got on the computer. & i tried to help josh match his clothes.. but he wouldn't listen to me. so w|e. lol. then we went down & had breakfeast. & chilled on the couch for a while. then we went to the mall. i got shot gunn!!!!
+
+then we walked around.... & me & josh were following chris around... cuz we are losers. then we went to pocket change. & they played ddr. cuz they are cool. & me & josh played air hockey. & i kicked his ass. cuz he sucks & wasn't even trying. homo. <3. 
+
+then we went to the food court & ate. then josh & chris both got a cd. then  we went back homme!!!! yay.
+
+then we chilled for a while. ate dinner... watched some tv. went upstairs and chilled.  & i bitched at josh cuz he hadn't been going to paintball latly. & i told him he was goign to start to suck. and i tld him at least i cared & i was supporting him lol. then we decided that we aren't normal... we don't do stuff like other ppl do.. cuz we are cool. lol. & we talked for like an hour & a half & chilled on the bed. then it was time to go homme.
+
+Yeah.. chris is cool. too smart. lol. he makes me feel stupid =(. oh well. &  he frikin call me josh's dog... wtf =(. so depressing. oh well ... but chillin with them was cool. they are the cool kids from now <333.
+
+
+
+Then i went home & went sleepy at 11.30 while watching american beauty. then at like 2.30 connor <b>(<3)</b> called & woke me up. & he was bitchin cuz i wasn't answering my fone cuz he called at 1.10 , 1.15, 1.26 & then at 2.30 when i answerd. & he left me like 2 voicemails... i feel loved. lol. & we talked for a long time about alot of stuff. then i was bitchin at him cuz he never calls. So he wa slike FINE ill call u more often. & we were talkin some more. then he decided it was time to go. so he told me he would call me today. & we hung upp. then i couldn' go back to sleep. or w|e. so i was up till 4.30-5 then at 7 logan calls so we didn't go to practice & we aren't going tomorra. cuz we are cool.
+
+
+
+then i called my mom & told me i wasn't going. then went back to sleep. & then i was JUST about to fall asleep & my dog comes & get in my bed with me. ugh. but i let her stay lol. then i got online & put up my a|m & then watchd american beauty. then connor called me =D. at like 2.30 lol. & he told me i should have called him when i couldn't go back to sleep or w|e. & he was in the zoo & it was like 100 some degrees. & him & his dumass self was wearin like gray or black. lol. & he got 2 pink pimp shirts & nike's lol. & i told him he needs to come home SOON. & i was bitchin cuz next wed. is too far away.  & he told me i needed to be out there. & i told him to send me money. cuz i be broke. lol. he lost his grandparents in the zoo & he didnt' know where he was. & he picked a fight with a hawk. lol. cuz hes cool. then he told me he needed to call me back real quick & its like 634 now... & that was at  3 & he hasn't called me back. mmm oh well. but his parents are on their way over there now... so i bet they are chillin. 
+
+so now i'm bored. & i want connor home. <3. lol. & i want to go do something. lol. 
+
+but i love my BIG A!!! shes so cool <33333333333333333333
+
+holler <3 mollie"
+"eventtime","2005-08-04 17:47:00"
+"url","http://superfreak-xox.livejournal.com/51985.html"
+"userid","14955"
+"itemid","202"
+"event","You are...(looks)
+[ ] tall
+[ ] in between
+[x] short
+
+[ ] blonde
+[ ] redhead
+[x] brunette 
+[ ] black
+
+[ ] blue-eyed
+[x] brown-eyed
+[ ] green-eyed
+[ ] hazel eyed
+[ ] gold/gray eyed
+[ ] black-eyed 
+[ ] glasses
+[x] contacts
+
+[ ]braces
+[ ] freckles
+[x] piercing(s)
+[ ] tatoos
+
+[ ] long hair
+[ ] short hair 
+[x] med. Hair
+
+
+Your nationality includes...
+[ ] chinese
+[ ] indian
+[ ] taiwanese
+[ ] japanese
+[ ] hispanic
+[ ] nicoya
+[ ] puerto rican
+[ ] chicana
+[x] italian
+[x] scottish
+[ ] filipino
+[ ] dutch
+[x] french
+[x] German
+[x] Irish
+[ ] Greek
+[ ] Portuguese
+[ ] Hispanic
+[ ] polish
+[ ] korean
+[ ] jamacian
+[ ] canadian
+[ ] lithuanian
+[ ] Native American
+[ ] Russian
+[ ] British
+[ ] African
+[ ] Other 
+[ ] Australian 
+
+Your favorite color(s) are?
+[ ] red
+[ ] pink
+[ ] yellow
+[x] black
+[x] green
+[ ] blue
+[ ] white
+[ ] silver
+[ ] purple
+[ ] brown
+[ ] orange
+[ ] gray
+
+Some sports/physical things you have done?
+[ ] football
+[x] cheerleading
+[ ] dancing 
+[ ] lacrosse
+[x] soccer
+[ ] field hockey
+[ ] hockey
+[ ] rugby
+[x] softball
+[ ] wrestling
+[x] gymnastics
+[x] track/cross country
+[ ] Basketball
+[x] baseball
+[ ] golf
+[x] playing in the mud
+[x] playing music
+[ ] hiking
+[x] camping
+[x] horseback riding
+[ ] marching band
+[x] Skateboarding
+
+Your personality is sometimes...
+[x] annoying
+[x] talkative
+[x] shy
+[x] funny 
+[x] serious 
+[ ] bubbly
+[x] spazzy often
+[x] fun loving
+[x] laid back
+[ ] strict
+[x] hyper
+[x] weird
+
+The music you like is?
+[ ] rap... 
+[x] rock
+[ ] pop
+[x]country
+[ ] hiphop
+[ ] r&b
+[ ] slow jams
+[ ] Christian
+[ ] classical
+[x] techno
+[ ] oldies
+[x] punk
+[x] Metal
+[ ] reggae
+[x] Goth
+[ ] Latin
+
+The pets you have are?
+[x] cat
+[x] dog
+[x] lizard
+[ ] rat
+[ ] ferret
+[ ] rabbit
+[x] fish
+[x] other
+
+
+Clothes you like to wear are?
+[x] plain tshirts
+[x] sweatshirts
+[ ] stockings
+[ ] high heels
+[x] sneakers
+[x] jeans
+[x] pajama pants
+[x] boxers 
+[x] underwear
+[ ] dresses
+[x] mini skirts
+[ ] long skirts
+[ ] watches
+[x] necklace
+[x] hoop earring(s)
+[x] toe socks
+[x] flip flops
+[x] halter tops
+[ ] stilletos
+[x] band shirts
+[x] shorts
+[x] skate clothes
+
+How do you like to wear your hair?
+[x] down
+[x] ponytail
+[ ] pigtails
+[x] messy bun
+[x] half ponytail
+[x] scrunched/curly 
+[ ] bun
+[ ] crimped
+[x] with a bandana
+[x] French braids
+[ ] lots of little braids
+[x] Gel
+[ ] Hat
+[x] messy (bed head) 
+[ ] Fohawk
+[ ] SIDE SWEEP
+
+
+You eat?
+[x] dessert 
+[x] meat
+[ ] diet stuff
+[ ] healthy foods
+[x] junk foods
+[ ] a lot of carbs
+[x] lots of meat
+[x] salad
+[x] seafood
+
+
+A typical friday night...
+[x] mall with your friends
+[x] partying
+[x] watching movies
+[ ] going to the club
+[x] staying home
+[x] babysitting and getting $$
+[x] hanging out w/ my friends
+[ ] hanging out w/ your boyfriend/girlfriend
+[ ] working while your friends are out having fun! 
+[ ] going to gigs with your friends
+[x] other
+
+Currently you are...
+[ ] in a relationship
+[ ] single and lovin it
+[x] crushing
+[ ] single and looking for someone
+[ ] just broke up. . . and so sad about it.
+[ ]sexually confused 
+
+Online, you use:
+[x] lol
+[ ] sup
+[x] =D
+[x] lmao
+[x] stfu
+[x] ty
+[x] jk
+[x] ttyl
+[ ] lylas/lylab
+[x] g2g
+[ ] ^^
+[x] T_T
+
+Did you like this survey?
+[ ] yeah
+[ ] no!
+[ ]it was ok
+[x] it was something to do"
+"eventtime","2005-07-31 22:18:00"
+"url","http://superfreak-xox.livejournal.com/51939.html"
+"userid","14955"
+"itemid","201"
+"event","U29vb29vLi4uLi4NCg0KU0lOQ0UgSSBMQVNUIFVQREFURUQNCg0KSSBoYXZlbid0IGJlZW4gQVMgaGFwcHkuIGJ1dCBJJ20gc3RpbGwgaGFwcHkhISEhIGxvbC4NCg0KSSBhbSBnZXR0aW5nIGEgbmV3IGNvbXB1dGVyIGd1eXNzc3NzISEhISEhIQ0KSSB0ZWxsIHlvdSB3aGF0IGtpbmQgaXQgaXMgSE9MREEuLi4gaSBnb3R0YSBnZXQgdGhlIHBhcGVyLg0KDQpJdHMgYW4uLi4NCkhQIFBhdmlsaW9uIGExMDEweSBEZXNrdG9wIFBDLiAgIC1vdXRzdGFuZGluZyB2ZXJzYXRpbGl0eQ0K4pmlSW50ZWwgUGVudGl1biA0IFByb2Nlc3NvciAoMi45M0dIeikNCuKZpU1pY3Jvc29mdCBXaW1kb3dzIFhQIEhvbWUgRWRpdGlvbg0K4pmlTWljcm9zb2Z0IFdvcmtzIDguMCwgTW9uZXkgMjAwNSwgTVNOIEVuY2FydGEgUGx1cw0K4pmlMjU2TUIgb2YgTWVtb3J5DQrimaU0MEdCIFNBVEEgSGFyZCBEcml2ZQ0K4pmlNDhYIENELVJPTSBEcml2ZQ0K4pmlSW50ZWdyYXRlZCBJbnRlbCBHcmFwaGljcyBNZWRpYSBBY2NlbGVyYXRvcg0K4pmlSFAgdjc1YyAxNyIgQ1JUIE1vbml0b3INCg0KJiBsaWtlIHdpcmVsZXNzIG1vdXNlICYga2V5Ym9hcmQgJiBzaGl0dC4gbG9sLnllYWhoaGhoLg0KSU0gU08gRVhDSVRFRC4gQnV0IHdlIGdvdCBhbG90IG9mIHVwZ3JhZGUgc2hpdCBvbiBpdC4gPUQuIHNvIHdlIGhhdmUgbGlrZSBhIGJpZ2dlciBzY3JlZW4gJiBtb3JlIG1lbW9yeSAmIGEgY2QgYnVybmVyLi4uIGltIG5vdCBzdXJycmUuICA9RC4gYnV0IFlBWS4gSXQnbGwgYmUgZG9uZSBiZWluZyBidWlsdCBvbiBBdWd1c3QgMTB0aC4gJiBpdCBzaG91bGQgYmUgaGVyZSBiZW9mcmUgc2Nob29sIHN0YXJ0cy4gYW5kIHlvdSBhbGwgS05PVy4gWU9VIFdBTk5BIENPTUUgT1ZFUiAmIFBMQVkgV2lUSCBpVCEhISBsb2wuDQoNCmJ1dCB5ZWFoaC4gSSBoYXZlbid0IHJlYWxseSBiZWVuIGRvaW5nIGFueXRoaW5nLi4uIEkndmUgYmVlbiBzbGVlcGluZyBvbiB0aGUgY291Y2ggZm9yIHNvbWUgb2RkIHJlYXNvbi4gRm9yIGEgbG9uZyB0aW1lIG5vdy4uLiBzaW5jZSBJIHdlbnQgdG8gdGhlIG1vdmllcy4gKHdoZW5ldmVyIHRoYXQgd2FzKSBNT05EQVk/Pw0KDQpvaCB3ZWxsLg0KIA0KDQpJJ2xsIHRhbGsgdG8geWFsbCBsYXRlciA8MzMzMw=="
+"eventtime","2005-07-30 11:37:00"
+"current_moodid","40"
+"url","http://superfreak-xox.livejournal.com/51561.html"
+"userid","14955"
+"itemid","200"
+"event","<b> I used to live in a darkened room
+Had a face of stone
+And a heart of gloom
+Lost my hope, I was so far gone
+Cryin' all my tears
+With the curtains drawn
+I didn't know until my soul broke free
+I've got these angels watching over me
+
+Oh watch me go
+I'm a happy girl
+Everybody knows
+That the sweetest thing that you'll ever see
+In the whole wide world
+Is a happy girl
+
+I used to hide in a party crowd
+Bottled up inside
+Feeling so left out
+Standing in a corner wearing concrete shoes
+With my frozen smile
+And my lighted fuse
+Now every time I start to feel like that
+I roll my heart out like a welcome mat
+
+Oh watch me go
+I'm a happy girl
+Everybody knows
+That the sweetest thing that you'll ever see
+In the whole wide world
+Is a happy girl
+Laugh when I feel like it
+Cry when i feel like it
+That's just how my life is
+That's how it goes
+
+Oh watch me go
+I'm a happy girl
+And I've come to know
+That the world won't change
+Just 'cause I complain
+Let the axis twirl
+I'm a happy girl
+
+Oh watch me go
+I'm a happy girl
+Everybody knows
+That the sweetest thing that you'll ever see
+In the whole wide world 
+Is a happy girl</b>
+-<i>Happy Girl by Martina McBride</i>
+
+<b> ATTENTION WORLD</b>
+Mollie Stricker is happy. Thats right I said it. I am happy.
+
+I don't care about anyof this shit anymore.
+I don't care that Josh & jessica go out. I'm happy for them =D!.
+I'm exstatic.
+
+But I am sad too.
+I'm sad my Brittany isn't here to share my happiness..
+I'm sad that my Connor is leaving me tomorrow... to go to California..
+& I hvaen't seen him since LAST MONDAY. Over a week ago. & I won't see him for another two. weeks. <b> PSSSST .... Connor!!</b> call me while your gone bitttch. <333 luh yah
+
+But I am very happy.
+Today I went to Hooters with ppl. =D. fun. yumm!. lol.
+
+But yeah... I'm bored.
+
+Someone tell Jenn(betrayedxheart) to post surveys... cuz i wanna take some. lol. & I usually get them from her... JENN POST SOME FRIKING SURVEYS ALREADY!  Love yah! <3
+
+
+Oh yeah. & I miss TONY. For some odd reason. I miss him & Phillip dearly. I wanna see them <333. Boyss call me!
+ loveee yall <333333333333333
+
+HOLLER.
+
+
+
+
+<i> leave lots of loveing commentsssss <3333</i>"
+"eventtime","2005-07-27 21:37:00"
+"url","http://superfreak-xox.livejournal.com/51380.html"
+"userid","14955"
+"itemid","199"
+"event","Well on wed I went down to my dad's house & was there untill Friday
+
+Friday I went to the movies with ppl.
+
+TOday I went to the mall got 3 pairs of jeans 4 shirts. my new shoes came in the mail.
+
+I talked to Connor today. & Brittany...
+
+Connor leaves for Cali on Monday... =(. I shall miss him dearly.
+T_T T_T T_T T_T T_T T_T"
+"eventtime","2005-07-23 23:11:00"
+"url","http://superfreak-xox.livejournal.com/51032.html"
+"userid","14955"
+"itemid","198"
+"event","well.. updated well neeeded.
+
+West Virginia was pimp-tastic.
+
+<u>Monday</u>
+Alotta ppl went to the movies. Me, Nikki, Jordan, Nick & Brandon saw WIlly Wonka. Josh, Stevem, Porno, Connor Saw Fantastic 4... or nothing really. Redmond was there for a liddle while but idk where he went. lol
+But yeah. jordan & nikki & nick left. So it was jsut me & the guys. Josh wasn't being an ass.. for once! lol. SO when I got home I talked to him about stuff... & we are cool now.This night Josh invited me over to come on Tuesday... sohe didn't have to do chores lol.
+
+<u> Tuesday</u>
+Woke up at like 7. Got ready. Called Josh woke him up at 7.57/ lol. Then went to his house got there at like.. 8. Then ran upstairs and got in bed lol. We were both still really tired. Layed there till like 10. then he took a shower. GAH . sexy boyy lol. then loike at 10.05 we jsut sat around. layed down did nothing really lol. Just chilled it was niccce. then Connoe came over sometime. & Josh was giving me a tour & the doorbell rang & we thought it was Connor So I answerd it... but nope NOT CONNOR. lol. Then Connor came & we chilled upstairs. Got attcked. Then we finished the tour. & went outside. Then Josh's Mom gave us a ride to Steven's. & me josh & steven chilled,.LMAFO!!! Steven was chasin' Josh around the house & josh went to run out the front door but he ran into the glass door!! OMFG it was sooo funny. he busted his lip tho.. awh i felt bad, lol  THen connor came back over.  OMG then those <b> crack heads</b> were chaseing a <b>muskrat</b> around. Losers!!! lol. Then we & connor & joshua went over to connors to wait & get a ride. & then we went back over Josh's. We chilled till like 11. Me & Josh played a dumm ass game for like 40 mins. & connor was like WTF yallare still goin' at it. It was so dumm i sware. I felt like i was an idiot. But it was funn ;-) Lol his mom was bitchin at me cuz' i wouldn't eat. lol. When we were goin up the steps connor grabbmy feet so i hadda go up the steps on my hands lol. & i made Josh carry me on his back like the whole day. we ""bent his trucks"" or so he says. lol. but yes. <i> that was a very fun day, the funnest i have had in a while</i> Mom bitched when I got home. ehhh fuck her lol. she can get a life. 
+
+well now im bored. I wanna hang out with my Rachel. I misses herr!!!!
+
+
+HOLLER.
+call me if u wanna
+240 346 7176"
+"eventtime","2005-07-20 12:21:00"
+"url","http://superfreak-xox.livejournal.com/50705.html"
+"userid","14955"
+"itemid","197"
+"event","TkVXIExBWU9VVA0KDQpMT1ZFIElUVFRUVA0KDQpKZW5uIG1hZGUgaXQhISEgJiYgc2hlIGRpZG4ndCBldmVuIHRvbGQgbWUgc2hlIG1hZGUgYSBuZXcgb25lID0oLiB0ZWFyLg0Kc2hlIHVzdWFsbHkgdGVsbHMgbWUgd2hlbiBzaGUgbWFrZXMgYSBuZXcgb25lICYgc2hvd3MgaXQgdG8gbWUuICBzbyBzYWRkZC4NCg0KSSBMRUFWRSBGT1IgV0VTVCBWSVJHSU5JQSBPTiBGUklEQVkuDQoNCjwzMzMzMzMzMzMzMzMzDQp4TyDimaUgTW9sbGll"
+"eventtime","2005-07-13 19:31:00"
+"url","http://superfreak-xox.livejournal.com/50678.html"
+"userid","14955"
+"itemid","196"
+"event","finally I'm on this thing again. Haven't updated in a while.
+
+
+<b><u>Friday</b></u>
+
+I walked over to Jordan's house and got there at like... 1 or 1 30. not sure. & we hung out all day. & steven stopped by & matt P stopped by.
+
+Well we went to the movies to go see Dark Water for Cailyne's & Chelsea M's birthday. Well I was sitting next to Tony then I got up to go do something & Josh took my seat. SO I was pissed at him. OF course he was an ass. & he was giving me this shit & was like oh Jordan told em to move blah blah. why the fuck did Jordan tell you to move!?! But when Josh got up I went & sat back in my seat. Then drama got in with Tony & Jessica H. So Tony moved. & Timmy sat in his seat. So it was Jordan Timmy & me all in one row lol. They were making alot of noise & wouldn't shut the fuck up. lol. But the movie was ok. 
+
+After the movie Steven came back to Jordan's hosue with us. We had a water fight. lol. funnn & we all chilled till 10. thats when Joe picked up Steven. & I stayed the night at Jordan's.
+
+<b><u> Saturday </b></u>
+
+Logan woke us up. ugh. Then at 4 he had his birthday party. Then  we did fireworks. Then idk what happened we went to bed? lol.
+
+<b><u> Sunday </b></u>
+
+We woke up at like 1.30 & we couldn't go to the pool. UGH. So then at like 2.45 Lisa(her mom's friend) called. SO we went on her boat. & chilled. Then we went back to her house & we swam in her pool. & then we ate crabs & hotdogs & haburgers & just chilled/ then at like 8.30 or something they dropped me off at home. & I've been home ever since.
+
+NOW I""M BORED AS FUCKKKKKKKK.
+I shall share with you a song.
+
+<b>What you see is what you get (don't you know)
+Fishing for the answer with a line and sinker
+Look at me and don't forget (don't you know)
+Hard to get a grip with all these broken fingers
+
+<u>Today I don't feel pretty
+And i'm tired of trying to fit right in
+Don't think they're just so great
+Cause being great must suck</u>
+
+We don't always see the bright side
+We all need ego suicide
+You hung my id today
+But I have licked my wounds and carried on
+
+Everybody needs some sympathy
+Santa seemed to miss my chimney
+Reality is truly scaring me
+So stand up straight and firmly say
+
+What you see is what you get (don't you know)
+Fishing for the answer with a line and sinker
+Look at me and don't forget (don't you know)
+Hard to get a grip with all these broken fingers
+
+<i><u>My heart is in the right place
+So wipe that smirk right off your face
+Don't make me feel like that
+Cause that's just plain not nice</u></i>
+
+We don't always see the bright side
+<u><i> And I lied when I said I was fine
+You slapped my face today
+But I have licked my wounds and carried on</u></i>
+
+Everybody needs some sympathy
+Santa seemed to miss my chimney
+Reality is truly scaring me
+So set 'em straight and finally say
+
+What you see is what you get (don't you know)
+Fishing for the answer with a line and sinker
+Look at me and don't forget (don't you know)
+Hard to get a grip with all these broken fingers
+
+Everybody needs some sympathy
+Santa seemed to miss my chimney
+You stole my luck from me
+And now my fortune cookie's empty
+Cause you came and you stole it all from me
+So set 'em straight and finally say
+
+What you see is what you get (don't you know)
+Fishing for the answer with a line and sinker
+Look at me and don't forget (don't you know)
+Hard to get a grip with all these broken fingers</b>
+
+
+
+
+
+HECK YESSSSS. good song! lol.
+
+<3333 whatever call me
+
+<b><i>240 346 7176</b></i>
+
+HOLLER"
+"eventtime","2005-07-11 12:23:00"
+"url","http://superfreak-xox.livejournal.com/50419.html"
+"userid","14955"
+"itemid","195"
+"event","WOULD YOU LOOK AT THAT I""M BORED!!!!!
+
+what eles is new!??!?!?!? gahhhhhhhhhhhhhhhhhhhh
+
+talking to Josh... (not lew shut up) (or luck shut up MORE)
+
+& jordan
+
+& my britt!!
+
+<b> 8 DAYS BIIIIIIIOTCH!!!!!!!!!!!!!!!! </b>"
+"eventtime","2005-07-06 22:12:00"
+"url","http://superfreak-xox.livejournal.com/50029.html"
+"userid","14955"
+"itemid","194"
+"event","<b>Somewhere there's a stolen halo
+I used to watch her wear it well
+Everything would shine
+Wherever she would go
+But lookin' at her now, you'll never tell
+
+Someone ran away with her innocence
+A memory she can't get out of her head
+And I can only imagine what she's feelin' when she's prayin'
+Kneelin' at the edge of her bed
+
+And she says, take me away
+Then take me farther
+Surround me now
+And hold, hold, hold me 
+Like Holy Water
+Holy Water
+
+<u>She wants someone to call her angel
+Someone to put the light back in her eyes
+She's lookin' through the faces and unfamiliar places
+She needs someone to hear her when she cries</u>
+
+And she says, take me away
+Then take me farther
+Surround me now
+And hold, hold, hold me 
+Like Holy Water
+Holy Water
+
+
+Like Holy Water
+
+<u> She just needs a little help
+To wash away the pain she's felt
+She wants to feel the healin' hands of someone who understands</u>
+
+And she says, take me away
+Then take me farther
+Surround me now
+And hold, hold, hold me 
+Like Holy Water
+Holy Water
+
+And she says, take me away
+Then take me farther
+Surround me now
+And hold, hold, hold me 
+Like Holy Water
+Holy Water
+
+
+Like holy water
+Like holy water
+Like holy water
+Like holy water</b>
+
+
+
+
+I've been going through alot latley. And this song fits me <i>perfectly </i> right now. & a few ppl have helped me alot.
+
+<b>Tony</b> Thankx so much Pookie. you mean the world to me.  Thnks for talking to me about it. I'm going to miss you so muhc next year, your one of the few ppl I will miss. I'm taking your advice. I don't care about them ne more. thanks. I love you!
+
+<b> Jenn </b> THANKS! thanks thanks thanks thanks thanks thanks thanks thanks thanks thanks thanks THANKS!!! I can't say it enough. You have helped me so muhc this year. & idk how i can ever repay you. Your the bestest bigger sister I can ask for!!!!!!! i love yoU!
+
+<b> Krysten </b> I'm really gald that we are closer now. It means alot. Thanks for tlaking to me during this. Sorry for exploding lol. luv yah so much!!!
+
+<b> Brittany</b> through all the fights we have beent hrough we still remain close. & I am so glad we do!!!! Thanks for everything. I LOVE YOU BIGGER NIGGER!
+
+<b> Cailyne</b> Ihad so muhc fun atyour house. Having all those convorsations was a blast. Thankx for everything. & i'm done wiht that book. If i come over on... Thursday or Friday I'll bring it. love yah!!!!
+
+
+THANK YOU ALL!!!
+
+
+
+bye.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Oh yeah and one more person
+
+<b> Terry. </b> thanks for... NOTHING you say you changed pshhh yeah right."
+"eventtime","2005-07-05 17:45:00"
+"url","http://superfreak-xox.livejournal.com/49701.html"
+"userid","14955"
+"itemid","193"
+"event","ok yall...
+
+I'm moving... YES. I'm moving. Very soon actually. July 5th. And I'm moving to California. YES!! thank god. I get to see all the hot guys!!! I am going to be in heaven there. I can't wait to leave! I will Miss you guys... But at least I get to see all the hot guys & i get to live by the beach & get nice & tan!!! Oh yeah... & did I mention?? I won't have my computer. SO I won't be able to talk to any of you... unless you call or write me. SO if youw ant my numbers & address ask & I'll be glad to give it to u!!!
+
+But yeah.. tlak about Summer vacation all year long!!!!!!!!  except for the school part. Everyday I'll et to go to the beach & swim & lay out.... OMG. I cannot wait. I have to start paking my stuff. Alotta my clothes are already packed. My mom did it while I was @ Nikki's & Jordan's this weekend. Thats why I did all my laundry.
+
+
+But any ways... aren't yall excited for me!??!!?!?!?!??!?!?!
+I know.. be jealous... u wish you were movin to Cali too!!!!!!!
+
+But I have to go finsih packing some of my stuff 
+t2ul!!!!!
+
+<333333
+
+xO mollie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The was a dare from <lj user=""betrayedxheart""> I'm not really moving guys. lol. Yall are stuck with me for 4 more years."
+"eventtime","2005-06-27 17:29:00"
+"url","http://superfreak-xox.livejournal.com/49490.html"
+"userid","14955"
+"itemid","192"
+"event","wow... big update.
+
+Sorry I haven't had a <b>real</b> update in a while.
+But here it goes.
+
+<b><center><u>Monday</u></center></b>
+Jess Ee Ka called & asked if i wanted to go to the mall so We did.
+Me, Gunnar, Jess Ee Ka, Josh Lew, & creighton.
+Me & josh fought. and Me & creighton fought. pssh like i care.
+then nikki & jenni showed up but me & jess left.
+we came back to my house & chilled for a liddle bit
+had a very much needed talk... about EVERYTHING. lol
+Then we went to the <b> Movies</b> and saw <i> Madacasgar</i>.
+I thought it was hilarius. But hey...
+<marquee> I'm amused easily</marquee>
+
+then i went home & went to bed. stayed up till 2 am.
+
+<b><center><u>Tuesday</u></center></b>
+Me & porno wanted to hang out soo.....
+I made plans with him to go to the  <b>movies</b>
+Chrissy was going to come. but she didn't she wasn't allowed.
+Connor was also going to come... but he was still on restriction.
+SO it was just me & porno. we saw <i>Mr. & Mrs. Smith</i>
+And shall I say it very much sucked.... indeed.
+lol. then My mom picked us up & took us to Mc.Donald's.
+Then we went back to the house... ate...
+then dropped porno off @ 10.30 or something
+I went to bedd...only stayed up till/.... 12.30 at the most.
+
+<b><center><u>Wednsday</u><i>(</i>today<i>)</i></center></b>
+well... today i was in quit the make out mood. lol
+then me & chrissy wanted to hang out since we didn't get to 
+the night before. so... we made plans. I got dressed & put my make up on.
+Dickies, white tilt shirt, chuckz, & hair in a messy bun w| my ""bangs"" down.
+So at 2.15 chrissy, her dada, & amanda <b><i>(</b></i>her sister<b><i>)</b></i> came & picked me up. & we went to the mall
+then at 3.40 me & chrissy went to the <b>Movies</b> and we saw
+<i>Herby : Fully Loaded </i> I liekd it alot. lol. 
+Then after we went back to her house & I was GONNA spend the night.
+Then I was tlkaing to Connor online... soo we made plans.
+So I was callin' POrno then Connor  .... then Porno just back & forth like 10 times. lol. oh well. then ... Chrissy couldn't go. So Connor cxame & picked me up. 
+I was GOING to go abck to Chrissy's & spent the night.... but that never happened... idk why tho... hmm. *shrugs*
+So.... Me, Porno, & Connor went to the <b> Movies</b>
+we saw... <i>Star Wars : Episode 3</i>
+that is some VERY confuseing shit right there. 
+Connor explained alot of it to me though.
+thank God. Idk what I would do without that Boy.
+I sware..<u><b>sometime during the movie jordan called!!!!! I was SOOOOO happy to see her!!! omg i haven't talked to her since.....sat or sun. omg..... but i coudln't tlak that long cuz i was in the movies & stuff then she told me to call her back but she no answer when i call back 
+=(</b></u>
+
+Then... Porno just got up & left.... then he came back in & sat away from us. So... Connor made me go sit by him. & porno said he didn't wanna sit by me & connor.
+Then.... I went back & sat by connor....& I'm not going to lie. I wanted to sit by conor. I didn't wanan sit by Porno. Connor is really funny & makes going to see the movie funn.
+Then connor left ... idk
+Then porno calls me over & says that he doesn't like to be around me & connor cuz I ignore him when I'm with connor.
+idk. its dum
+cuz i was like porno like ALOT. tuesday, saturday and then wed.
+I mean... I havent' seen Connor in like... 2 weeks? I mean... of course I'ma talk to him alot.... he is one of my best friends.
+
+well then I went back when Connor came back and we were talking and haveing a good time... <b><i>(</b></i>from here on u wont understand.. unless ure connor<b><i>)</b></i>
+LMAO. spirit fingers .... BACK fingers. muhhaha
+""where u at"" ""im playin otsese"" *crrch* NO *crrch*
+.... connor wants to be like that midget dude when he grows up... lol.
+""I've got the power of the dark side see watch...."" *BOOM cell fone falls on ground* ""OH SHIT""
+hahah. and wiht the relish & the mustard & the bun & the.. oh idk
+ &  I know him... inside & out... INSIDE & out. lmao...
+hes just a dman ama. fuck im ots.. wtf... NO FAIR.<b><i>(</b></i> ok now you'll understand stuff again <b><i>)</b></i>
+
+
+<b> OH SHIT</b> connor has my fuckin keys... DUDE he can break in my house. omfg. not cool. lol. uh oh.
+
+Then I said Fuck in front of my mom. she was liek WHAT. i was like i didn't say that. I got scurred. lol.
+
+Well.... tis not time for bed.
+Now that I have got my Light blue cami  & gray sweatpants on... <b><i>(</b></i> connor's sweatpants... he got me in the mood! he was wearin sweatpants tonight lol<b><i>)</b></i> .... I'm ready for med.
+
+SO I will talk to yall tomorra maybe... lol. HOLLER BITCHES..!!!!!
+
+<3333 mollie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<s> i can't like you...</s> But I do..."
+"eventtime","2005-06-23 00:02:00"
+"current_moodid","15"
+"url","http://superfreak-xox.livejournal.com/49216.html"
+"userid","14955"
+"itemid","191"
+"event","The average person only gets 7 right, I am told.
+
+This is based on U.S. & CDN info, so use all lobes of your brain. This can be more difficult than it looks - it just shows how little most of us really see! There are 27 questions about things we see everyday or have known about all our lives. How many can you get right? These little simple questions are harder than you think-- it just shows you how little we pay attention to the commonplace things of life. Put your thinking caps on.
+
+No cheating! No looking around!
+No getting out of your chair!
+No using anything on or in your desk or computer! Can you beat 22 ?? (The average is 7)
+
+Write down your answers and then check your answers (on the bottom) AFTER completing all the questions. That means no looking at your phone or anything on your
+desk...Then, before you pass this on to your friends, change the number on the subject
+line to show how many you got correct! Forward to your friends and also back to the
+one who sent it to you. LET'S JUST SEE HOW OBSERVANT YOU REALLY ARE. Here we go!
+
+1. On a standard traffic light, is the green on the top or bottom?
+2. How many states are there in the USA? (Don't laugh, some people don't know)
+3. In which hand is the Statue of Liberty's torch?
+4. What six colors are on the classic Campbell's soup label?
+5. What two numbers on the telephone dial don't have letters by them?
+6. When you walk does your left arm swing with your right or left leg?
+7. How many matches are in a standard pack?
+8. On the United States flag is the top stripe red or white?
+9. What is the lowest number on the FM dial?
+10. Which way does water go down the drain, counter or clockwise?
+11. Which way does a ""no smoking"" sign's slash run?
+12. How many channels on a VHF TV dial?
+13. On which side of a women's blouse are the buttons?
+14. Which way do fans rotate?
+15. What is on the back of a Canadian dime?
+16. How many sides does a stop sign have?
+17. Do books have even-numbered pages on the right or left side?
+18. How many lug nuts are on a standard car wheel?
+19. How many sides are there on a standard pencil?
+20. Sleepy, Happy, Sneezy, Grumpy, Dopey, Doc. Who's missing?
+21. How many hot dog buns are in a standard package?
+22. On which playing card is the card maker's trademark?
+23. On which side of a Venetian blind is the cord that adjusts the opening between the slats ?
+24. On the back of a Canadian $1 coin, what is in the center?
+25. There are 12 buttons on a touch tone phone. What 2 symbols bear no digits?
+26. How many curves are there in the standard paper clip?
+27. Does a merry-go-round turn counter or clockwise?
+
+Scroll down for the answers...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ANSWERS
+1. Bottom
+2. 50
+3. Right
+4. Blue, red, white, yellow, black, &gold
+5. 1, 0
+6. Right
+7. 20
+8. Red
+9. 88
+10. Clockwise (north of the equator)
+11. Towards bottom right
+12. 12 (no .1)
+13. Left
+14. Clockwise as you look at it
+15. The Bluenose
+16. 8
+17. Left
+18. 5
+19. 6
+20. Bashful
+21. 8
+22. Ace of spades
+23. Left
+24. Loon
+25. * ..
+26. 3
+27. Counter
+
+SEND THIS TO OTHERS. DON'T FORGET TO PUT THE NUMBER YOU GOT RIGHT IN THE SUBJECT LINE"
+"eventtime","2005-06-19 18:54:00"
+"url","http://superfreak-xox.livejournal.com/48955.html"
+"userid","14955"
+"itemid","190"
+"event","hmm. I'm torn.
+
+I'm torn between 2 of my BEST friends. I wanna tell. but i can't. I can't. I must keep my word. 
+
+So... my weekend...
+
+On friday every one was at KD. so me & jack went to the movies to see sisterhood of the traveling pants. it was pretty good. made me cry. then my mom picked us up & we went back to my house for dinner. we had fried chicken... YUM. we watched anger manegment. =). then ... we took jakc home @ like 11. i came back & went to bed.
+
+on saturday I found out baout Jenni's party. & i planned to go. Then Connor asked if I wanted to go over his house & hang out. So OF COURSE I said yes. So my mom dropped my off @ the church @ like 12.30 (it was too hot 4 me 2 walk) & i met up with connor. We walked around the chruch for a while. Well i walked he skated. & he was making fun of me like whoa!! lmao. it was funny tho. cuz i could se einside my pop can! & connor had luike this sour shit. & he TOTALLYmissed my mouth when he went to squit it in there. then he tried the 2nd time & it took him forever cuz we were both cracking up laughing. --fun times. thennn!!! we decied t was time to go. cuz we aren't supposed to be up there. we got banned or what ever. who cares. then we walked to his house. & played with his gun. ate some orange stuff his mom gave us. which was yum. then we went inside. & i changed my shirt. i stole ANOTHER one of his shirts. black w| pink BAM on it. yesss. then we took the comp & dave chapelle down stairs & i got the comfy couch!! & we watched that. but i couldnt concentrate i was playing with my sunny d bottel. then we went & took porno's bike over to his house.. MORE WALKING. then we came back & went over steven's. chilled with them fer a whole. then we all went over to connors & chilled in the front. then steven & bean left. so me & connor were tlaking abtou alot of stuff. & i wrote on my sock. & he punched me really hard. oww. & i colored his arm hair with sharpie. & yeah. i ate sour stuff. & then my mom picked me up @ 7 a clock. & we went & got starbuckz. & then went home. i toom a shower & got ready for the party. then connor came & picked me up. we went to the party.
+
+It was fun,. me & kay almost got raped. lmao. scarrrry. thennnnnnn i can't remmebr much. but yeah. it was fun. & i love all my friends. I hung out with steven some .. fun.
+
+then today (sunday) jordan called & woke me up @ 10.22 and asked if i wanted to go to the pool. so i did. we went to the pool then at 1.30 we left & went home. i took a shower. then jordan took a shower. while she was tkaing ashower i watched some of the breakfeast club. it was cool! i loved it. but i wanna finish it soooo badly. lol. then yeah. we went to the movies with her lil bro logan & his friend & we saw lava girl & sharkl boy or whatever. & hhah it was korny but i thought it was funny. me & jordna have identiitys too! im lube girl & shes condom girl! lmao. we are so cool. thwen after the move they dropped me off @ home & now im here..
+
+when i came home i talked to Connor about some stuff. & decided to do this thing now im out. holler....
+
+
+
+<b> Steven </b>  __* i'm sory abotu waht happened to you this weekend. Just b-cuz u were upset doesn't mean u had to do what u did. You know i'm always ehre for you. & i guess it was fun hanging out with you @ the party. even tho we didn't talk. we just stood there. lol. but i was with you. & thats always cool. I love you... & please cheer up <3333333333333333
+
+<b>Connor</b>  __* I had lots of fun @ your house!! we need to hang out alot over the summer.!!  =D.  looking forward to it. & just do what you think is right. I have your back 100% no matter what you choose to do. <33
+
+<b> Jordan</b>  __* I had LOTS of fun with you today. score we got tan. even tho mine is fake bake =/ dont amke funna me! lol. <333 u.
+
+<b>JENN</b> __* i miss ya so much!! COME BACK!!!!!!! <3333333333
+
+
+
+
+
+
+
+
+this is the end of it. I'll miss you all. I will only see you 2 more days. then its all over. please don't forget me. cuz' i'll never for get you... you'll always be in my heart. FOREVER. i lvoe you all <33333"
+"eventtime","2005-06-12 18:57:00"
+"url","http://superfreak-xox.livejournal.com/48769.html"
+"userid","14955"
+"itemid","189"
+"event","<P>Put x's in boxes( [ ] ) next to the states you have been to or at least gone through<BR><BR>[ ]Alabama<BR>[ ]Alaska<BR>[ ]Arizona<BR>[ ]Arkansas<BR>[ ]California<BR>[ ]Colorado<BR>[ ]Connecticut<BR>[x]Delaware<BR>[x]Florida<BR>[x]Georgia<BR>[ ]Hawaii<BR>[ ]Idaho<BR>[x]Illinois<BR>[x]Indiana<BR>[x]Iowa<BR>[ ]Kansas<BR>[ ]Kentucky<BR>[ ]Louisiana<BR>[ ]Maine<BR>[x]Maryland<BR>[ ]Massachusetts<BR>[ ]Michigan<BR>[ ]Minnesota<BR>[ ]Mississippi<BR>[x]Missouri<BR>[ ]Montana<BR>[ ]Nebraska<BR>[ ]Nevada<BR>[ ]New Hampshire<BR>[x]New Jersey<BR>[ ]New Mexico<BR>[ ]New York<BR>[x]North Carolina<BR>[ ]North Dakota<BR>[ ]Ohio<BR>[x]Oklahoma<BR>[ ]Oregon<BR>[x]Pennsylvania <BR>[ ]Rhode Island<BR>[x] South Carolina<BR>[ ] South Dakota<BR>[x]Tennessee<BR>[ ] Texas<BR>[ ] Utah<BR>[ ] Vermont<BR>[x]Virginia<BR>[ ]Washington<BR>[x]West Virginia<BR>[ ]Wisconsin<BR>[x]Wyoming<BR><BR><BR><BR>Put x's in boxes( [ ] ) next to the states you have been to or at least gone through<BR><BR>[ ]Alabama<BR>[ ]Alaska<BR>[ ]Arizona<BR>[ ]Arkansas<BR>[ ]California<BR>[ ]Colorado<BR>[ ]Connecticut<BR>[x]Delaware<BR>[ ]Florida<BR>[ ]Georgia<BR>[ ]Hawaii<BR>[ ]Idaho<BR>[ ]Illinois<BR>[ ]Indiana<BR>[ ]Iowa<BR>[ ]Kansas<BR>[ ]Kentucky<BR>[ ]Louisiana<BR>[ ]Maine<BR>[x]Maryland<BR>[ ]Massachusetts<BR>[ ]Michigan<BR>[ ]Minnesota<BR>[ ]Mississippi<BR>[ ]Missouri<BR>[ ]Montana<BR>[ ]Nebraska<BR>[ ]Nevada<BR>[ ]New Hampshire<BR>[x]New Jersey<BR>[ ]New Mexico<BR>[ ]New York<BR>[ ]North Carolina<BR>[ ]North Dakota<BR>[ ]Ohio<BR>[ ]Oklahoma<BR>[ ]Oregon<BR>[x]Pennsylvania <BR>[ ]Rhode Island<BR>[ ] South Carolina<BR>[ ] South Dakota<BR>[ ]Tennessee<BR>[ ] Texas<BR>[ ]Utah<BR>[ ] Vermont<BR>[x]Virginia<BR>[ ]Washington<BR>[ ]West Virginia<BR>[ ]Wisconsin<BR>[ ]Wyoming<BR><BR><BR><BR><BR>Bold the ones that apply.<BR><BR><B>I went to my friend's house this weekend.<BR>I usually have fun no matter where I am.<BR>I like to eat every few hours.</B><BR>I have seen the movie ""Cruel Intentions.""<BR><B>I like the way I look.<BR>I could look better if I tried.</B><BR>I check my mail everyday.<BR><B>I love to get new friends on MySpace.<BR>I like when people tell me what they think of me.</B><BR><STRONG>I am part of the SGA at my school.<BR></STRONG>I am very talented.<BR><B>I believe that everyone can do anything they want if they really want it.</B><BR>I like to plant flowers.<BR><STRONG>I like the smell of permanent markers.<BR>I know who ""The Spill Canvas"" is.</STRONG><BR>I wish that I could be Batman.<BR>I own a motorcycle.<BR><B>I am good at playing pool.</B><BR>I like bars.<BR>I have been to Africa.<BR>I have a yellow sock on.<BR>I want to marry someone I hardly know.<BR><B>I feel left out from my friends sometimes.</B><BR>I like to go shopping with groups rather than single.<BR>I am in a band.<BR><B>I have never seen a penguin.<BR>I can draw a liger.<BR>I would do anything to go on vacation right now.</B><BR>I am out of school - <FONT size=5>ALMOST ! </FONT><BR>I get all A's in school.<BR>I have perfect attendance.<BR>It is nighttime.<BR>I am going to a club tonight.<BR>I got less than 6 hours of sleep last night.<BR><STRONG>It is June.</STRONG><BR>I have been to HFStival.<BR>I listen to all types of music.<BR>I have a quote in my info.<BR><STRONG>I have been to the hospital.</STRONG><BR>I have broken the same body part more than 2 times.<BR><STRONG>I'm single.<BR></STRONG>I love the color blue<STRONG> <BR>Shopping is FUN!</STRONG><BR>I love Rent!<BR><B>I think gay marriage should be approved.</B><BR>I'm obsessed with musical theater.<BR>I enjoy scrapbooking.<BR>I love the color pink<STRONG>.<BR>I love to wear sandals <BR>I LOVE hugs. <BR></STRONG>I like to take pictures.<BR>I am a blonde.<BR><STRONG>I like root beer</STRONG>.<BR>I love to drink water<BR>I'm an drama queen.<BR>I love dark chocolate.<BR>My best friend is exactly like me.<BR>I'm going to New York soon<BR><B>I love Finding Nemo <BR>I love going to concerts.</B><BR>I'm going to the Tony awards<BR><STRONG>I need to apply myself more. <BR>I know that I need more sleep <BR>I hate needles<BR>I love Reese's!<BR></STRONG>I would never get a tattoo <BR>I'm taking piano lessons. <BR>I'm going to be a sophmore.<BR><B>I always take showers <BR>I love to swim. <BR>I want to travel <BR>I hate being bored <BR>I'm too lazy! Well sometimes...</B><BR><STRONG>I love to watch Friends <BR>I love American Idol.<BR>I'd rather have a small group of close friends than a large group of friends that I didn't know all that well</STRONG><BR><STRONG>I love Degrassi</STRONG> <BR>I'm in chorus at school.<BR><B>Getting new things is always fun. <BR>I love giving gifts <BR>I enjoy recieving them as well!<BR>I'm loud in some classes and quiet in others.<BR>I love watching films. <BR>I am very crazy at times. <BR>I love messages</B><BR>I make money by performing in musicals.<BR><STRONG>I hate social studies.</STRONG><BR>I like aol<BR><B>I love using the computer. <BR>I think too much.</B><BR>Math is useless.<BR><B>I love to write and type random things. <BR>I eat too much junk food.</B><BR>Moulin Rouge makes me cry.<BR>My favorite movie is Waiting for Guffman.<BR><B>I have a sister.<BR>I like to sing (even though I can't)</B><BR>I also like to act.<BR>I want to be famous! <BR>I have a GPA of 4.0.<BR><STRONG>I scare people sometimes. <BR></STRONG>I love the Disney Channel <BR><STRONG>I hate it when people judge others. <BR>I love watching tv. <BR>I miss Boy Meets World.</STRONG><BR>I'm so mad/sad about the Rent movie<BR>I've been to every American Idol concert.<BR>I go to Ravinia all the time. <BR>I'm listening to Radio AOL.<BR><STRONG>I love listening to music. <BR>I like to read.<BR></STRONG>I have blue eyes<BR><STRONG>I love wearing skirts. <BR>I love pets<BR>I love ice cream.<BR>I hate school<BR>I like to talk. <BR>Guys are confusing.<BR></STRONG>I love the 80s<STRONG>.<BR>I'd love to have the money to buy things for people for no reason at all. <BR></STRONG>I love the 90s<BR><STRONG>I enjoy being single</STRONG><BR>I love Ed Debevics.<BR><B>I want to live in NYC.</B><BR>I wake up at 5 on school days.<BR><B>I would love to visit the Mall of America.</B><BR>I already went through braces.<BR>I love shopping at Kohls.<BR><STRONG>I always listen to music in the car.<BR>I hate when people are mean. <BR>If I leave my hair to dry it goes curly</STRONG> <BR>I don't like pop music<BR><STRONG>I'd do anything for my friends.</STRONG><BR><STRONG>I live for the summer.<BR></STRONG>My hero is Jonathan Larson.<BR>I love both of my parents <BR>My sign is Aries.<BR>I hate Hillary Duff.<BR><B>I love recieving e-mail's/ims/Xanga Comment</B></P>"
+"eventtime","2005-06-10 14:43:00"
+"url","http://superfreak-xox.livejournal.com/48612.html"
+"userid","14955"
+"itemid","188"
+"event","nothing good has happened in my life.
+
+everything is going wrong.
+
+why must this happen to me.
+
+Why does God hate me so much.
+
+<b>good thing actually</b>
+<u>37</u> till West Virginia  cant wait.
+
+
+
+
+
+
+<i>watch this yall</i>
+i hop yall will miss me next year cuz I wont be the same preson. I m not going to be the slut that i am portrayed as. thats gone forever. 
+i hope you had fun while it lasted. Bye.
+
+
+Tomorrow... is the day that I change everything.
+
+I love you Jordan Leigh Tobler. THankx.. i know you were trying to help. I didn't take anything you said offensivly. I understand. you were trying to help. and you did. Thank you fro everything. Too bad you couldn't tell me earlier. then maybe someone cough cough JOSH cough cough  would still be my friend"
+"eventtime","2005-06-07 22:18:00"
+"url","http://superfreak-xox.livejournal.com/48209.html"
+"userid","14955"
+"itemid","187"
+"event","<P><SPAN class=ljuser style=""WHITE-SPACE: nowrap"">Interveiwed by : <A href=""http://www.livejournal.com/userinfo.bml?user=betrayedxheart""><STRONG><IMG style=""BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: bottom; BORDER-RIGHT-WIDTH: 0px"" height=17 alt=userinfo src=""http://www.livejournal.com/img/userinfo.gif"" width=17></STRONG></A><A href=""http://www.livejournal.com/users/betrayedxheart/""><STRONG>betrayedxheart</STRONG></A></SPAN> </P>
+<P><STRONG></STRONG>&nbsp;</P>
+<P><STRONG>1. If you could change anything about your life, what would you change?</STRONG></P>
+<P>Getting close with Josh.... I waited to long in the year. Now its like its not even worth it... I'm never going to see him again :'(</P>
+<P><BR><STRONG>2. What's the one material posession you want most?<BR><BR></STRONG>want to buy? or want to keep?? To keep... My nite nite. baby blanket. i can't sleep without it. i love it. to buy... um...my Taylor's<BR><BR>i hope thats what you meant... :-/<BR><BR><STRONG>3. What's the craziest thing you want to do?<BR><BR></STRONG>I wanna go bunjee jumping<BR><BR><STRONG>4. Who is your closest friend? How did you meet them? Why are they your closest?<BR><BR><BR></STRONG>&nbsp;I would say Jordan Tobler(<lj user=""supernlove2804"" /> ). I met her at school in homebase in 6th grade. Idk... we just click. I am comfortable telling her anything &amp; everything. I hope she is the same too.&nbsp; she's my closest REAL LIFE friend.<BR>But then again theres Jenn (<lj user=""betrayedxheart"" /> ) I talk to her about everything that goes on. &amp; get her great advice. Her &amp; Jordan both. great advice. &amp; always here for me. I love them both<BR><BR><STRONG>5. Do you have any plans for this summer?</STRONG></P>
+<P>umm... I know I'm going to west virginia with jordan. &amp; we are going to buy super soakers &amp; go soak all the guys in ashford. &amp; i know i'm going to be spending alotta time with her.maybe Josh idk. Chrissy, connor maybe, porno.</P>
+<P>&nbsp;</P>
+<P><STRONG>Comment and either ask 5 questions about me - I'll answer them 100% honestly - or ask to be interviewed. Or both. I will reply to your comment with 5 questions. Then, repost this in your journal.</STRONG> </P>"
+"eventtime","2005-06-02 21:00:00"
+"url","http://superfreak-xox.livejournal.com/48001.html"
+"userid","14955"
+"itemid","186"
+"event","Stolen from betrayedxheart @ lj dot com.
+
+name: Mollie
+
+height: 5'2""
+
+hair color: Dark brown,
+
+siblings: One half sister - Kaite.(24 in august) and 2 stepsisters Courtney(19 in august) & kris(16 in august)
+
+eyes: brown
+
+college: Not yet :]
+
+jr.high: Mattawoman Middle
+
+hometown: Waldorf.
+
+favorite place: My bedroom,
+
+favorite soda: Orange Pop or diet pepsi(only @ chelsea bush's house thou) & coke
+
+favorite hobby: being a slut.... well thats what everyone eles calls it. I call it hanging out with friends lol.
+
+have a crush on someone: Yes i Do
+
+wish you could live somewhere else: At times.
+
+believe in online dating: No.
+
+think others find you attractive: So I've been told.
+
+last talked to: my mom in person. Jordan(www.livejournal.com/users/supernlove2804) online and josh lew(www.livejournal.com/users/derkastan) on the cell -texting
+
+last thought of: how josh never uses his live journal ne more.
+
+
+have you?
+
+ever cried over a boy: Yep.
+
+ever been arrested: No
+
+ever had a friend die: Yep.
+
+ever dated a cousin: STEP cousin. like related through marriage. & we weren't related when it happened. we broke up b4 we were related
+
+ever used a gun: yepp
+
+ever hated someone: Yep.
+
+ever made a huge mistake: Yeah
+
+ever tried any drugs: nope.
+
+ever played with someones feelings: .. no?
+
+ever had feelings for someone young: younger yes.. but not like 3 years old. lol.
+
+
+what?
+
+shoes do you wear: Converses ! :)
+
+are you scared of:  bugs, getting hurt, losing people I love.
+
+do you sleep in: shorts. board shorts. booty shorts. any kinda shorts. & a big shirt. or jsut a big shirt & no shorts.. its quite comfortable acutally... HAHHA me & kendall both do that cuz we cool.
+
+did you eat for lunch: what ever is on the menu for the day...?
+
+
+number...
+
+of times I have had my heart broken?: A few.
+
+of hearts I have broken?: I hope none, but I think 2-3.
+
+of girls I have kissed?: 1
+
+of guys/girls you've rejected?: 5.
+
+of drugs you've taken: None illegally,
+
+of people you've lead on?: .. none i tihnk
+
+
+do you think you are?
+
+pretty: Sometimes.
+
+funny: i crack up laughing at myself all the time... but im always the only one laughing... hmm... YEAH IM FUNNY AS HELL!
+
+hot: heck no
+
+friendly: at times
+
+ugly: usually
+
+loveable: Idk ask other people
+
+caring: Yeah.
+
+dorky: Yessss!
+
+cocky: Yeah..?
+
+girly: sometimes
+
+boyish: not usually
+
+smart: Sometimes.
+
+pimp: maybe... lol.
+
+angel: Yeah lol.
+
+gangster: hell no
+
+God: no... Jenn(betrayedxheart @ lj dot com) has already got that roll filled. lmao
+
+
+favorite?
+
+five letter word: fuck
+
+comedian: Dave Chapelle, Adam Sandler, Jim Carrey.
+
+candy: Rese's
+
+anime: ...isn't that a kind of porn??
+
+day of week: Saturday.
+
+least fave day: monday
+
+summer/winter: Winter
+
+trampolines or swimming pools: tampolines.
+
+
+person who last?
+
+slept in your bed: Me!
+
+saw you cry: ppl at school. ugh.
+
+made you cry: Chrissy -- we had a convorsation about Malestar
+
+you went to the movies with: umm... Josh Lew, jordan, jack, bean, tony, connor, caty, dylan, terry, kevin, rachel, jenni, 
+
+yelled at you: Josh probably
+
+sent you an email: .........idk!
+
+
+have you ever?
+
+said ""i love you"" and meant it?: Yeah
+
+gone out in public in your pyjamas?: Yeah!
+
+kept a secret from everyone?: Yes
+
+cried during a movie?: Yeah lol. Ladder 49... thats some emotional shit right thurr
+
+ever at anytime owned new kids on the block?: no... but my sister still has it to this day
+
+been on stage?: yes.
+
+been to New York?: Nope.
+
+been to California?: No.
+
+been to Florida?: Yepp.
+
+blue or red?: Red.
+
+walmart or target?: Target
+
+what are you gonna do after you finish this?: idk. no one is talking online. so idk
+
+what was the last meal you ate?: Dinner - nasty shit/ 
+
+are you bored?: Yes.
+
+last noise you heard?: computer just beeped.
+
+last smell you sniffed?: Air?
+
+last time you went out of state/province? when i went to go see my sister in WVA
+
+
+friendship/love?
+
+do you believe in love at first sight?: Not really
+
+do you want children one day? Yep
+
+If yes how many?: 3-4
+
+most important thing to you in a friendship is?: trust, loyalty.
+
+
+random stuff?
+
+criminal record?: None lol. 
+
+name some of your favorite things in your bedroom?: My bed, music, tv
+
+
+your?
+
+nickname(s): boner, silly, nicole, bink, <-- all with chrissy
+nick, timmy, backwards, Freddy, Choco, (theres more)<-- with britt
+sponge, bunny, dumass, <-- jordan
+Strick <-- starnold
+sally, <-- david
+
+how old do you look?: umm.. 13?
+
+how old do you act?: umm... 13?
+
+braces: Don't have any ..need um
+
+do you have any pets?: yepp"
+"eventtime","2005-05-31 21:27:00"
+"url","http://superfreak-xox.livejournal.com/47724.html"
+"userid","14955"
+"itemid","185"
+"event","without hitting backspace or delete
+[ * ] type your name with your..
+right hand - mollie  
+left hand - mollie
+one finger - mollie
+kunckles - mollie
+toes - mollie
+eyes closed & one finger -  mollie
+elbow - mollie
+palm - m olie
+tounge - molliee
+nose - mollie
+chin - mollie
+
+DMAN IM GOOD!!!! how the hell did chrissy screw up so much!? lol"
+"eventtime","2005-05-30 21:33:00"
+"url","http://superfreak-xox.livejournal.com/47465.html"
+"userid","14955"
+"itemid","184"
+"event","1. Where did we first meet or see each other?:
+2. Take a stab at my middle name:~
+3. How long have you known me?:
+5. Do I smoke?:~
+6. Do I believe in God?:~
+7. When you first met me what was your impression?:
+8. My age?:~
+9. Birthday?:~
+10. Color hair?:~
+11. Color eyes?:~
+12. Do I have any siblings?:~
+13. Have you ever been jealous of me?:
+14. What's one of my favorite things to do outdoors?:~
+15. What's one of my fav. things to do indoors?:
+16. Do you remember one of the 1st things I said to you?:
+17. What's my favorite type of music?:~
+18. What is the best feature about me?:
+19. Am I shy or outgoing?:~
+20. Would you say I am funny ha ha or funny sarcastic?:
+21. Am I a rebel or do I follow all the rules?:~
+22. Would you consider me a friend, an acquaintance, or a good friend?:
+23. Would you call me preppy, slutty, average, sporty, punk, hippie, glam,
+nerdy, snobby, or something else? :
+24. Have you ever seen me cry?:
+25. If there were one good nickname for me what would it be?:
+26. Are my parents still together?:~
+27. If I had broccoli stuck in my teeth would you tell me?:
+28. Do I drink and/or do drugs?:~
+29. What is my worst fear?:~
+30. Are you going to post this and see what I say about you?:"
+"eventtime","2005-05-30 17:16:00"
+"url","http://superfreak-xox.livejournal.com/47198.html"
+"userid","14955"
+"itemid","183"
+"event","<P>1) Total number of books owned? <BR><BR>Alot of my books were my sisters... but i have alot. &amp; haven't read any of them, I realy don't know...<BR><BR>2) The Last Book I bought: <BR><BR>Night.<BR><BR>3. The Last Book I read: <BR><BR>Right now... I'm reading Tomorrow,Maybe. idk who its by though.<BR><BR>4) Books that mean a lot to me: <BR><BR>ummm not many. not any i don't think. Maybe Go Ask Alice idk.<BR><BR>Tag five people and have them fill out this poll: <BR><lj user=""supernlove2804"" /> <BR><lj user=""foomanchoo96"" /> <BR><lj user=""heartszcollided"" /> <BR><lj user=""dancin_cute14"" /> <BR><lj user=""liddle_hunnay"" /> </P>"
+"eventtime","2005-05-30 16:22:00"
+"url","http://superfreak-xox.livejournal.com/47003.html"
+"userid","14955"
+"itemid","182"
+"event","Hey.
+
+Well staurday me & jordan & caty were bored as a mother. so... I went to pick up jordan & we went tanning!!!
+
+funn.I think I got tanner. Idk i 4got to put on a sticker.
+
+Then on the way back we picked up caty. then over to jordan's
+
+We both slept over. It was alot of fun. i had fun anyways.
+
+well me jordan & caty all of our stomachs hurt really badly. idk. i just idk.
+
+then we were eting .. just amde things worse.
+
+Caty was writing Connor's birthday noter alot of the night.  & me & caty slept in the bed & jordan slept on the floor... i feel bad. i should have slept on the floor.
+
+thennnnn.... jordan fell asleep & me & caty were still up listening to music.
+
+i woke up like 3567375 times. CATY IN MY FACE. lmoa. it was funny as some shiz. 
+
+iwoke up cuz a my cell alarm went off. damn alarm.
+
+then ummwe were supposed to go to church but then we didn't . so we all went to the pool.
+
+we had to convince caty to go to the pool. I shouldn't have swam. uh oh..
+
+then i texted josh and asked how va was. he said it was good. then we went back to jordan's. and jordan & caty were supposed to sleep over. but then jordan said she couldn't cuza tenneesse or something. & caty i just dont know. oh well. then i was home & did nothing& was bored.
+
+& i a sitll bored.            OH YEAH. after jordan's house me & my mom went to safe way & giant. I GOT STARBUCKSSSS yummmm....i was so happpy.
+
+& i got alotta junk food. oh well.
+
+then we went home & i ate then went upstairs. & stuff.
+
+Jenn(betrayedxheart) got mad at me :(.... i hop shes not still madd. i odn't like it when shes mada t me... :'(
+
+and today is connor's birthday.!!!!!!!!!!
+              i love that kid so much...
+I hope he has a good birthday. so yeahhh.........
+
+Well i gotta go... bye
+
+
+
+
+
+
+
+
+
+
+
+<center><i>Why can't I just tlak to him about it ... ? about how I feel.. I don't care if we go out. I jsut wanna know if he feels the same way or not </i></center>"
+"eventtime","2005-05-30 11:17:00"
+"url","http://superfreak-xox.livejournal.com/46663.html"
+"userid","14955"
+"itemid","181"
+"event","Name 20 of your friends below.
+1. Caty
+2. Jordan
+3. Jess M.
+4. Nicole (foomanchoo96)
+5. Brittany
+6. Joshua Lew.
+7. Josh Luck.
+8. Connor
+9. Jenn(betrayedxheart)
+10. Porno
+11. Jessica H.
+12. Rachel
+13. Creighton
+14. Kay
+15. Jenni
+16. Mollie (smith)
+17. Nikki
+18. Jack
+19. Tony
+20. Timmy
+
+Who is #8 going out with? No one as of today
+Is #9 a boy or a girl? girl
+Would #11 and #2 make a cute couple? no they are girls..
+How about #18 and #4? um no.
+What grade is #17 in? 8th
+When was the last time you talked to #12? Friday
+What is #6's favorite band? TRUSTcompany & Chevelle.
+Does #1 have any siblings? yeah 2 bros & 1 sister.
+Would you ever date #3? no.
+Would you ever date #7? yesss
+Is #16 single? no i don't think so....
+What's #15's last name? Schweitzer... i bet i spelt it wrong
+What's #5's middle name? Danielle.
+What's #10's fantasy? umm...... to not be fat.. idk
+Would #14 and #19 make a good couple? Probably not .
+What school does #20 go to? Mattawoman Middle.
+Tell me a random fact about #11? She can sing rally good..
+And #1: she wouldn't go swimming today
+And #3: we both love sweet tarts.
+Have you ever had a crush on #16? Nope.
+Where does #9 live? Waldorf, Maryland. in Hamilton Estates.
+What's #4's favorite color? i think like black..
+Would you makeout with #14? lol No.
+Are #5 & #6 best friends? Nope.
+Does #7 like #20? not unless they are gay.
+Does #8 like #19? not unless they are gay.
+How did you meet #15? 1sy grade we were in the same class.
+Does #10 have any pets? yeah an anoyying ass dog.. oh yeah a a little sister.
+Is #12 older than you? yeah
+Give #13 a hug! umm ok
+Is #17 the sexiest person alive? HECK YES"
+"eventtime","2005-05-29 19:52:00"
+"url","http://superfreak-xox.livejournal.com/46499.html"
+"userid","14955"
+"itemid","180"
+"event","<lj-cut text=""I know your out there somewhere out there... hopefully thinking of me. Cuz' I'm thinking of you too...""> 
+
+Full name: Mollie Elizabeth Stricker
+Nicknames: Poop (my sister shut up). & too many yo name from brittany... Boner from Chrissy lol
+Sex: Girl.
+Age: 13
+Birthday: September 19th 
+Birth place: Clinton, Maryland
+Current residence: Waldorf, Maryland
+Zodiac Sign: Virgo The Virgin
+Parents names: Momma_Ma_Madre_mum - Trish/Dadda_mofo_bitchplez_Padre - Mike/Stepmother in law - Pat (shes not really my in law but thats what I call her. i say STEP MOTHER IN LAW!!!!! really loud. she hates it lol )
+Sibling's names and ages: *half sister*Katie-23. *step sisters*Courtney-18 & Kris(kristy/kristina)-15
+Pets: *my house* Kiya-doggie. *dadda's house* Max-dum shiz dog. Raoxy -blonde ass dog. Domino- possesed cat.
+
+Favorites:
+Colors: BLACK
+Animals: dogga's
+Cartoon Characters: PInk Panther & Taz
+Actresses: Cameron Diaz, Rachel from friends, yeah those chicks
+Actors: Adam Sandler
+Movies: Notebook & Grind.... & HALF BAKED!! muahaha
+Types of music: Rock.
+Singers: I mostly like bandss
+Bands/Groups: wow.. that would take ages. but my favs' are The Used & Taking Back Sunday 
+CDs: I download... i don't buy
+Love songs: too many
+Breakup songs: too many
+Happy songs: Girl by Beastie Boys.
+All time favorite songs: HAHAHA... Hey ya!!!! and Roses. muahah
+Books: Go Ask Alice & Tomorrow, Maybe
+Authors: Anonymus books
+Video games: dont play video games.. Ma famliay is to cheap to buy me any systems
+Computer games: is downloading music a game??
+Foods: umm... fried chicken... penera's brocli & cheese bread bowl. .. Chinky chicken... hot wings... basically chicken...
+Ice creams: cookies & cream
+Cookies: those sugar cookies with a crap loada frosting on it that you get at the supermarket
+Veggies: tomato's with salt.
+Fruits: Strawberrys & apples
+Candies: pixie sticks
+Beverages: pop
+Pops: orange or coke
+Cereals: rese... and i LOVE lucky charms.
+Music videos: Hold On bye Good Charlotte & that sad one by Kelly Roland. I totally 4got the name just now.. oops.
+Gum: Orbit.
+Pizza toppings: Peperoni
+Fast food joints: That place... WHATS IT CALLED!? in oklahoma... and all those southern states.... UGHHH.. SONIC!!! yahh. i love itttt. and mickdonalds.and chickfilay
+Fast food meals: chicken tendar things
+Pig out foods: pizza. duh 7 seafood. omg yummmmm
+Restaurant: idk anything seafood
+Outfits: i love my skirts.. i dont wear um much. but i like skirts.
+Stores: Pac Sun ... Hot Topic ... yeah...
+Sports: Cheerleading... Soccer... & used to be in gym.
+Athletes: Mia Hamm
+Numbers: 2 or 10
+Letters: s... & l o v e 
+Websites:  livejournal.. iconator... my lyric site.. witty
+Breakfast foods: umm i dont eat breakfeast.. butt.... toaster stroodle.
+Lunches: pizza
+Dinners: mamma's cookin'
+Comedians: david chapelle BITCH
+Shampoos: Vive
+Magazines:  m.. j14... teen people... that stuff
+
+Love Life
+Do you have a boyfriend/girlfriend?: sadly... thats always a no
+If so, who are they?: i don't have one.. don't rub it in.
+Do you love them?: :-/
+How long have you been dating?: QUIT ALREADY
+Do you have a crush?: surly do.
+Would you rather be single or taken right now?: I would just be happy knowing thta they like me back. but taken would be nice.
+How many people have you dated this past year?: 5. 
+How many people have you kissed in your life?: 6 or 7.
+How many people have you said ""I love you too"" and meant it?: like 2
+If you didn't mean it, why did you say it?: what do u want me to say? "" i am very muhc in like with you"" wow they would be freaked out.
+Have you ever had a hard time getting over someone?: yes..
+Are you friends with your ex/exes?: yeah.. not all of um tho.
+Have you ever cheated on someone?: No... I don't think even I could stoop down that low.
+Have you ever been cheated on?: I don't think so...
+What's the most romantic thing anyone has ever done for you? No one has really done anything that romantic for me.... :-/
+What do you look for in your ideal mate?: Be able to tell me the truth.. i hate liars... but like if we click then yeah.
+Biggest Turn-ons: tickling... ahhh gets me.
+Turn-offs: Yellow teeth & rudeness
+Best quote to sum up love: they don't even have to say anything... jsut by what they do & how they act.
+
+Morals/Beliefs 
+What religion are you?: Baptist yeah i tihnk.
+Do you got to church regularly?: no
+What do you think happens when you die:? I die.. then get buried
+Do you believe in God?: yes i do
+Satan?: Yes... alotta ppl CALL me satan
+Anegls?: umm im not sure what an ""anegls"" is... if youa re tlaking abtou Angels then yes.
+Heaven?: I would hope theres one...
+Hell?: Yeah... 
+Are you a virgin?: Yeah. lol.
+What do you think of abortion?: .... umm.... well if someone doesn't want they baby then they should have it then put it up for adoption. It like not even giving someone a chance to live. Like your killing them. When they did nothing to you. Its not their faukt that you can't have enough responsibillity to not to get pregnant and not be able to take care of a kid
+Suicide?: Thats what therapists are for. Who are you to decied that kife isn't worth living any more..?
+Flag burning?: umm crazy asses
+War?: ""Fighting for peace is like fucking for virginity""
+Pop music?: ehhh its ok.
+
+What Did You Do...
+Last weekend?: well yesturday(friday) i went to the movies & jenni's house. but LAST weekend.  I went over chrissy's. then i made plans to go over connor's(didn't happen) & i made plans to go over josh's (didn't happen)... so yeah.
+Yesturday?: school.. movies... jenni's house... home
+Your last birthday?: i went to chuck e cheese with caty & jordan then went to sakura.
+New Years Eve?: went to Josh's party then went to jenni's after party. then me & jordan came home @ 3 am.
+Valentines Day?: went to school & after school I broke up with Porno(Stephen)
+Easter?: ummm... when WAS easter?? 
+4th of July?: i was in oklahoma!!! omg that was so much funnnnn!!!
+Halloween?: i spent that whole weekend at Jordan's.umm one of the nights caty spent the night too. and we stayed up really late and made our Urges. and had somuch fun we tlaked and talked and broke her bed & ahh it was alotta fun. The day b4 we went to Ikea w| her mom and grand's. and then we came home & i took a nap. HAH. and then we went to her mom's friend's haloween party FUN!. then on halloween jordan did my make up & my outfit got screwed oh well. & we went over Phillip's. it was fun. & we walked around forever. & we went home at like 10.30 WTF.
+Thanksgiving?: sister was home.  i think/. i got yelled at for eatin alota cheese. lol.
+Christmas Eve?: umm... :-/ not sure. I think i was tlakin to steven for a while. then i just chilled with the family.
+Christmas Day?: idk.. hung witht he family i know that. But did we all go to the movies or something??
+
+What do you think you'll be doing in...
+A week from now?: same thing im doing now...
+A month from now?: outts school & chillin with jordan  probly.
+A year from now?: in high school.
+5 years from now?: it'll be mine & jordan's year off from everything. & we are gonna just chill & have like 247373897 jobs. lol
+10 years from now?: I'll be livin in New York with jordan. i know that lol.
+20 years from now?: Maybe married... maybe still a bachelorett
+50 years from now?: dead??
+
+Friends
+Nicest: Rachel 
+Bitchiest: Me
+Prettiest: They are all beautiful
+Hottest?: Umm... none of my guy friends are HOT
+Best eyes: Timmy
+Best hair: Jessica M.
+Biggest tease: Josh calls me a tease all the time...?
+Rudest: Josh & Connor when they are together.
+Shyest: idk
+Loudest: me , nikki or jordan
+Smartest: Kay
+Blondest: Me , jordan, Jenni
+Drama Queen: uhh...
+Biggest Flirt: Me...?:-/
+Tallest: Gunnar
+Shortest: Robert
+Most likely to become a model?: Jordan!!
+Most likely to be rich?: Kay
+Most talented: Kay
+Craziest?: Me , jordan, nikki.. & when me &caty are togeth.. in the woods... WE GO INSANE lol.
+Weirdest?: umm... thomas. lol
+Biggest Druggie?: tony, timmy, bean, jack, josh (sometimes)
+Thugest?: Tj?!
+Girliest?: Jordan or Jessica M
+Most likely to be married first?: Jessica M??
+Most likely to become a serial killer?: umm... I'll go with.. Phillip.
+Most caring?: Jordan & Caty & when we were closer brittany
+Most independent?: umm... me?
+Most dependent?: ...me?               idk if these are bad so i don't wanna be mean.
+Most trustworthy?: Jordan & Caty
+Most likely to go out with you?: ... umm WHy would any of these ppl wanna go out wiht ME?!
+Best body?: Tony & Kevin & Terry are like*BAM* muscels.
+Funniest?: Jordan, Phillip, Nikki, Caty
+Most like you?: umm?
+Most fun to be with?: All of them
+
+This or That
+Chocolate or Vanilla?: Vanilla
+Mom or Dad?: Neither
+Blonde or Brunette?: Brunette
+Cartoon Network or Nickelodeon?: Nick
+Spicy or Minty gum?: Minty
+Heaven or Hell?: Heaven
+Nsync or Backstreet Boys?: Bsb
+The Beatles or The Rolling Stones?: or
+Boys or Girls?: Boys
+France or England?: Both
+Cookies or Cake?: Cookies.. depends on what kind of both
+Flower or Candy?: Flowers
+Doctors or Dentist?: Doctors
+
+Ever Been Called...
+Dumb?: yepp
+Retarted?: erry day
+Ugly?: duh.. its so true
+Hot?: ... umm I've been told im ""attrative"" and that i have nice boobs... O_o
+Fat?: no..
+Anorexic?: yesssssss.... dude i call myself anerxic. -- but im not.. i sware. if you know me.. you know i eat alot.
+A waste of space?: ... tag along count?
+Useless?: yes
+Sexy?: umm.. yeah i think like 1 time... i think he was lieing
+Smelly?: jokingly yes.. its a joke between me & my friend
+A Slut?: duh.
+Beautiful?: nope.. never..
+Smart?: yeah actually.
+Quiet?: yeah 1 time. i was like being dum & not talking jsut givin ppl weird looks lol. 
+Boring?: yeha. dum ass David called me that. ugh i hate him w| a passion.
+A Bitch?: errry day
+Rebel?: yepp. i call my self a rebel!! lol. 
+Conceited?: no..?
+
+Currently
+What are you wearing?: pink areo pajama pants w| pequins on them(me and jenni both have this!!) ... my blue ""PINK"" hoodie from victoria secret.(i got the pants too!!) .. my white bra. & areo underwear. lol. 
+Who are you talking to?: no one..  i'm away.. this is my messeg....
+""I'm standing here alone
+can't tell if I'm awake
+and it feels like I'm slipping away
+
+Reality is gone
+In a dream I can't escape
+and I feel like I'm slipping away""
+How is the weather?: hot out there
+What are you listening to?: music,
+What/Who are you thinking about?: this survey right now.
+What are you eating/drinking?: i was drinking pop.
+What are you looking forward to?: NOthing to look forward to anymore.... but i might go tanning today :)
+What are you dreading?: end of school... cuz that means everyone is leaveing me for north point...:(
+How are you feeling?: sad now.
+How is your hair?: nastyified & curly & wet & eww
+What time is it?: 3.27 PM
+What are you anoyed by?: this song it needs to end.
+
+Emotions
+What emotion do you feel the most?: Sadness
+What emotion is the best?: Loved?
+Worst?: depression... i jsut sleep thorugh it though
+What songs make you cry?: Anything...idk why. itcould be about purple donkey's and i'd get sad & cry.
+What movies make you cry?: Notebook..Ladder 49... i am sam..
+What always cheers you up?: Jordan or Cailtin...i love them to death lol.
+What make you madder than anything?: Guys who annoy me on purpose. ugh.
+What hurts you the most?: being lied to & being called names like""easy""
+Which person always makes you happy? hah Connor can like always make me laugh. & josh has made me cry iw as laughing so hard.. online & thats hard to do. lol. umm *nold makes me happy. & jordna & caty of course. & jenni!!!! 
+Depressed?: ohh um. lets not go there please.
+Are you a really emotional person?: yes i am.. exspecailly when aunt flo is in town.
+What do you do when you're depressed?: sleep... thats the only way i can get away from it all
+What song do you think was written about your life?: idk... who would wanna write about my life??
+
+When Was The Last Time You..
+Farted?: idk i don't write it down lol.
+Burped?: like 2 secs ago.
+Kissed?: um... I took a peice of Ice outts josh's mouth w| my mouth... that count? If not then... Friday the 13th or this month.
+Had sex?: umm like 2 secs ago.. no j|k never have.. yet.
+Went to the movies?: last night.
+Went out to eat?: thursday
+Cried?: last night.
+Got dumped?: oh wow... umm.... me& connor broke up.. that barley counts tho... 
+Dumped someone?: Porno 
+Threw up?: this year. ewwie i got so sick. it was gross
+Peed?: uhhh today
+Went skating?: 2 or 3 weeks ago
+Went for a walk?: umm... Wed. I went over jordan's & we walked for like an hour or sum
+Ate ice cream?: I had a liddle bit @ jenni's last night . but i had alot at jordan's on wed.
+Got into a fight?: .. umm last night. me & josh we areguin' and i kicked him & he hit me wiht a piller(pillow).
+
+ThreeThings
+
+3 things you enjoy doing
+1. hangin w| friends
+2. Talking on the phone
+3. Shopping
+
+3 things you want to try
+1. Bungee jumping
+2. Sky diving
+3. sex!!!! just kidding,
+
+3 people you love
+1. all
+2. of
+3. My friends
+
+3 foods you are addicted to
+1. pixie sticks
+2. sweet tarts.
+3. chinky chicken
+
+3 things you hate
+1. bitches
+2. rude people
+3. liars
+
+
+3 shows you watched when you were little
+1. Barney
+2. Teletubies
+3. rugrats
+
+3 things you regret
+1. that whole ordeal w| terry.
+2. ever likeing Connor,
+3. wow the whole timmy thing.
+
+
+3 songs that you love
+1. anything by TBS or
+2. TU or
+3. 15ML
+
+3 things you always say
+1. Lol
+2. ohhh
+3. awsome
+
+3 things you are looking forward to
+1. Six flags if i go
+2. tanning today.. maybe
+3. seeing if there are any ""skaters"" at westlake
+
+3 things you like about yourself
+1. My legs.. they are all scared up & shit.. & i like it.
+2. My boobs
+3. MY BACK!!!
+
+3 things you dislike about yourself
+1. My Face
+2. My nose
+3. My ass... too small
+
+3 things that describe your personality
+1. Fun
+2. Loud
+3. Crazy
+
+3 things that describe your looks
+1. Not that diferent from every1 eles
+2. Sometimes I dres slutty (like last night) just cuz i can lol.& cuz I love borrowing rachels clothes!!! but she doesn't dress slutty. she looks beautiful.
+3.  I dress like.. Pac sunn. & I show off my TINY waste by wearing tight shirts.
+
+3 things that scare you
+1. Being alone..
+2. Spiders
+3. Snakes
+
+3 wishes
+1. Live in Ashford r Wexford 3. I like those house.. i like windows shut up. OR...lakeshore to be by jordannn. orrrrrrr Srping haven to be by Rachel, caty, porno & connor & steven...even tho connor & steven ddont live there they live pretty damn close.
+2. i could go to north point w| my friends
+3. and that the basement was done.
+
+3 jobs you wouldn't mind having for a living
+1. Acting
+2. Model
+3. Shrink
+
+3 favorite bands
+1. The Used
+2. Taking Back Sunday
+3. KoRn
+
+Getting Personal
+Ever given a blow job?: no mam
+Hand job?: no mam ..
+Favorite sex position?: umm u can pick,. lol. idk.. *points to self* Virgin here.
+Better with a condom or not?: WITH. i don't wanna get pregnant u crazy bitch?
+Kinkiest thing you've done?: umm... O_o ask some guys i do thiongs with..(which is like 1. lol)
+Any fetishes?: um.
+Weird turn-ons?: hands... dont ask lol.
+
+Which One Are You?:
+Super hero: Cat Woman.. haha. is she a super hero??
+Powerpuff girl: the green 1
+Rugrat: Angellica
+Carebear: Bedtime bear
+Teenage Mutan Ninja Turtle: the nija lookin one.. you knw.. with the shell on its back??
+Crayon color: black
+
+What song reminds you of...
+Your childhood?: Bouncin' off the walls
+Your significant other?: i don;t have 1
+Your crush?: all of um
+Your ex?: uhhh
+Your mom?: Down witht eh sickness
+Your dad?: Hey Daddy
+Your best friend?: Graduation-Friends forever
+
+Issues
+Do you do drugs?: uhh no
+Do you have a metal disablity?: no
+Are you on any medication for any type of disorder?: no
+What kind?: i dont have one/
+Do you or have you ever had an eating disorder?: no.
+What kinds of illnesses run in your family?: none...
+
+Who was the last person you...
+Talked to?: Connor I think
+Yelled at?: My mom
+Kissed?: Joshua Lew. :)
+Hugged?: Joshua Lew... i lied Jack-ie!!
+Went out to eat with?: momma
+Flirted with?: Joshua Lew..!
+Talked to on the phone?: Rachel & then my Momma
+IMed?: Connor
+E-Mail?: Caitlin
+Got flowers from?: JACK - IE!!... but he threw um at me.. lmao. & caty got me flowers imported from CHINA!! wow. i love her. lol.
+Made love to?: um... if that means sex.. then no one .
+Danced with?: .... Jordan..?
+Fought with?: Bean.. or Joshua Lew.
+Worred about?: Josh said he was going to die.. O_o. that scare me.
+Wanted to kill?: Bean. But I still luv him.
+Cried over?: Uhh... 
+Thought about?: Josh cuz' i was just talkin bout him lol.
+
+Are you...
+Understanding?: yehah most of the time.
+Pretty?: I dont think i am but others do.
+Nice?: If i dont hate you then yea
+A bitch?: duh.
+Hard to get?: umm depends on who you are/
+Confident?: Sometimes
+Depressed?: Sometimes
+Hyper?: O yea lol
+Popular?: No.. I don't think I am...but me & Jordan fight about this all the time lol.
+Friendly?: Yea.. if I like u lol.
+Sexy?: I dont think i am...
+Hungry?: Yes i Am!
+Original?: Sureee
+Shy?: If i dont know you..then yea..
+Emotional?: YEAH
+Messy?: yeah lol
+Arrogant?: .. im just going to say yes. lol
+Immature?: Sometimes
+Sad?: not at the moment
+Trusting?: yeahh
+Healthy?: NO
+Sleepy?: yeah lol
+Lonely?: yeahh... :(
+Independent?: yeah.. no kinda.. isk
+Romantic?: yeah.... if i like ya ;-)"
+"eventtime","2005-05-28 16:00:00"
+"url","http://superfreak-xox.livejournal.com/46184.html"
+"userid","14955"
+"itemid","179"
+"event","<center>Wow... its been along time since i've seen your comforting face...</center>
+
+I'll just drop yall friday , Friday night & saturday.
+
+<b><u>Friday</b></u>
+
+I went to school & accidentally wore 1 differnet shoes... oops.
+& i also wore jordan's hoodie. yumm i liked it. lol.
+
+we had hsa testing all day cuz its gay like that.& afterwards i went to the bathroom @ 12.34 & i went to see connor. and i dind't see no one eles so iw as like whatever bye.then later on... me & amber just left the class. and we went totheir lunch again. we got caught. but we went outside then we went to go back inside but ms gray cought us & told us to go around. so we did. & all our friends were there. so we were ready to go outside. then we went outside & it was hot so me & amber went inside. and we were sisttin & talked. and her water melon get dirrty... nd my strawberrys got dirty... lmao. good times. then we got caught and had to go BACK outside. so we went outside and sat. just sat there. lol. and then I went to 4th block
+
+which was language. & we had a sub. me and alexandra finished our project. and then we had a fire drill & jack was being an ass and wouldn't let me go over there by connor & porno. *darn* him. then i was screamin PORNO so he could hear me. but he didn't. *darn* him to *heck*. lmao. yall know u  lik m y use of words... right??? lol. 
+
+Then we went to buses & I waited for connor at the top of the steps like every other day. and we went downstairs. then i was outside with all the peoples. then i had to run to my bus cuz i was kinda late. lol. oops. then me & starnold chilled on the bus & plannnned.
+
+I went home. changed. grabed starnolds taylor's and was out. i went over her house for a liddle bit then her bro, Nick, gave us a ride back to my house. where she borrowed a shirt & we started watching... White Noise. yumm. it was ok we didn't even get to the dieing part.. wtf. cuz nick just like showed up outta no where & picked starnold up.. O_o... oh well.
+
+Then I finished eating & got ready. Caled Jordan, Kevin & Rachel,
+
+I went over Rachel's & borrowed soem clothes. a kinda blueish skirt w| pink on it. and a pink striped shirt wiht like 2 diff pinks but its cute. & it nots and you can see my stomach & my ""cleavage"". oh well. & i wpre my black taylor's. & these really suete earrings & a black hoodie so her mom could give us  ride & not be like WTF ARE YOU WEARING. but yeah
+
+We saw the longest yard... GOOD MOVIE.... . seating ;
+
+Dylan | bean
+connor | caty | jordan | jack
+me | josh | tony | rachel | jenni | brandon | *kevin |*terry 
+*'s i'm not sure if thats the order. sorry if i missed ne 1.
+
+THen we all went to Jenni's house.. well. it was... me jack josh bean jordan connor caty jenni rachel.
+
+funnnnn. but i kicked josh in the balls... a i didn't really mean to. cuz i have bad aim. cuz we were fightin' and i meant to kick his butt... but i missed. & he was pissed the majority of the time. but then he wasn't mad at m eno more. :)!!!!!!!! cuz i felt RREALLLY bad....
+
+Me & furr (jenni) got up on the roof. omg fun times... we were like NC 17 bitches.  X XX X XX X whoa thats a lota x's. lol. then we were tlakin baout movies & she was liek ""it was sad when chris rock died"" and i was like ""WHOOAAA chris rock died in kicking and screaming!?!???!?!?"" lmao. it was funnnnnny as some shizzz nit. then we were ""spying"" on josh jakc and bean. we weren't really spying cuz they knew were were there and we weren't trying to hide lol.
+
+THen I was in the kitchen with josh & furr for a while. then i was like.. fuck it. & i got a blaket and went outside on the roof and layed down. Then josh was like im leaveing. and didn't say bye to me. so i tohught he had left. & jakc cmae over and was like why are you up there all alone. & all this stff. & he picked flowers 4 mee.then i got on his shoulders and got down. then. i saw osh. i was like JOSHUA why didn't you say bye to me. and he walked aaway. so I stood with him outside till his momma came. then she came and I hugged him & he left. Then jordan & caty left... THen i was like. whooooa wait. wheres connor. . he got lost... i still dont know where he is... lol. i really don't care tho. lol.
+
+then i called my mom at like 11 and she was like where have u been blah blah blah she wasn't mad tho,. and then me & jack & jenni were on the couch me & jenni were usein' jack as a pillow. and we were in a hut thing. it was fun. & me & jack talked about alotta stuff. weird stuff too. lol. then at like 12 ms dude gave us a ride home. gave me jack and bean a ride hom. cuz rae stayed the nizzzight over jenni's. fun. then umm.. yeah. i cae home ate pizza went to sleepy.
+
+then i woke up at the ass cracka dawn cuz my fone when off. ugh. 7.30 alarms suck. lol. then ummm
+
+Yeha Aunt flo came 4 a visit. i hope she leaves soooooooon!!!! ughhhhhhhhhhhhh.
+
+took a shower. & now i'm here... still wrappd up in a towel. i really should get dressed lol.
+
+hoLLA............
+
+
+
+
+
+
+
+
+
+
+<b><i><u>I've decided to let go of you ; now i see that your better off.. with her."
+"eventtime","2005-05-28 09:20:00"
+"url","http://superfreak-xox.livejournal.com/45919.html"
+"userid","14955"
+"itemid","178"
+"event","I GOT LOTS OF FUN THINGS!!!!
+
+I went to Famous footwear today!!!
+
+cuz I didn't go over josh's... HAHA i knew that would happen.
+
+But I got regular black & white high tops.  -- Taylor's!!!!!
+
+& I got like gay & black high tops!!  -- MORE Taylor's!!!!
+
+fun fun fun. Now i can give starnold her shoes back
+
+&&&&& i went to blockbuster & got White Noise!!!
+
+&&&&& I got to go to Panera Bread!! YAY!!!!!!!!!!!
+
+soooo much funn. lol
+
+peace"
+"eventtime","2005-05-26 19:36:00"
+"url","http://superfreak-xox.livejournal.com/45668.html"
+"userid","14955"
+"itemid","177"
+"event","<P><lj-cut text=""dooobeyyy daaaa""> </P>
+<P><STRONG>True or False?</STRONG><BR><BR>I have less than 10 pairs of shoes: <STRONG>False</STRONG><BR>I love chocolate: <STRONG>False<BR></STRONG>I hate chocolate: <STRONG>False</STRONG><BR>My school doesn't assign much homework: <STRONG>False</STRONG><BR>I've given someone the finger before: <STRONG>True</STRONG><BR>I don't eat healthy: <STRONG>True</STRONG><BR>I don't eat breakfast: <STRONG>True</STRONG><BR>I like to cook: <STRONG>False</STRONG><BR>My fave school subject is Math: <STRONG>False/True<BR></STRONG>I don't like any of my school teachers: <STRONG>True</STRONG></P>
+<P><FONT size=4>I love Cheez Its, get your own box!: <STRONG>True. they're so addicting.</STRONG></FONT></P>
+<P>I have over 3 AIM screen names: <STRONG>True</STRONG><BR>I have YAHOO instant messenger: <STRONG>True</STRONG><BR>I am single: <STRONG>ALWAYS True...</STRONG><BR>I have had a relationship: <STRONG>True</STRONG><BR>I have had a relationship w/ someone for longer then four months: <STRONG>False </STRONG><BR>I am eating right now: <STRONG>False</STRONG><BR>I am drinking right now: <STRONG>False</STRONG><BR>Surveys rock my socks: <STRONG>True</STRONG><BR>Today was a good day: <STRONG>ALWAYS ; False</STRONG><BR>I had pizza for lunch: <STRONG>False, I didn't eat.<BR></STRONG>I don't have any plans for tomorrow night: <STRONG>True</STRONG><BR>I like rap music: <STRONG>.FALSE</STRONG><BR>I like country music: <STRONG>True.</STRONG><BR>I have blonde hair: <STRONG>False.</STRONG><BR>I got all A's on my last report card: <STRONG>False!!!<BR></STRONG>I failed a subject on my last report card: <STRONG>False</STRONG><BR>I have written a letter to someone in the past month: <STRONG>False</STRONG><BR>I have written an email to someone in the past month: <STRONG>True</STRONG><BR>I have a pet: <STRONG>True</STRONG><BR>I have siblings: <STRONG>True</STRONG><BR>I'm short: <STRONG>Ture</STRONG><BR>I'm tall: <STRONG>False</STRONG><BR>I'm neither!: <STRONG>False</STRONG><BR>I exercise daily: <STRONG>False</STRONG><BR>I love my friends: <STRONG>True</STRONG><BR></P>"
+"eventtime","2005-05-26 17:47:00"
+"url","http://superfreak-xox.livejournal.com/45333.html"
+"userid","14955"
+"itemid","176"
+"event","<P><lj-cut text=""sighhhhhh""> </P>
+<P>1. What time is it? 5.38 ; PM<BR>2. Number of candles that appeared on your last birthday cake: 13<BR>3. Date that you regularly blow them out? September 18th..<BR>4. Pets: 3 dogs 1 cat.(2houses).<BR>5. Eye color: brown<BR>6. Real/Died hair color: brown<BR>7. Piercings: ears<BR>8. Tattoos: none yet<BR>9. How much do you love your job? don't have one.<BR>10. Favorite color: black<BR>11. Current residence: usa<BR>12. Favorite food: chinese or japanese... lovin' the chinky chicken wings..<BR>13. Been to Africa? nope<BR>14. Been toilet papering? nope<BR>15. Loved somebody so much it made you cry? oh yeah<BR>16. Been in a car accident? no<BR>a. been hit by a car while walking? no<BR>b. been hit by a car while riding your bike? not yet lol.<BR>17. Croutons or bacon bit? croutons<BR>18. Sprite or 7UP? sprite<BR>19. Favorite movie? Thirteen<BR>20. Favorite Holiday? christmas or my birthday. <BR>21. Favorite day of the week? friday<BR>22. Favorite word or phrase: ughhh.<BR>23. Favorite Restaurant: Paneara<BR>24. Favorite Drink: pop<BR>25. Favorite sport to watch: hockey or Soccer<BR>26. Preferred type of ice cream: cookies &amp; cream.<BR>27. Favorite Sesame Street Character: the person in the trash can.<BR>28. Disney or Warner Bros? disney<BR>29. Favorite Fast food restaurant: Chick fi lay<BR>30. When was your last hospital visit? 7th grade<BR>31. What color is your bedroom carpet? ewwie brown<BR>32. How many times did you fail your driver's test? ..not old enough to take it<BR>33. Have you ever been convicted of a crime? noo<BR>34. Which single store would you choose to max out your credit card? Pac Sun<BR>35. What do you do most often when you are bored? during tests<BR>36. Most annoying thing people ask me/say to me? go out with josh-- i hate it. or you have a hole in your shirt/pants<BR>37.Bedtime: whenever&nbsp; i want...<BR>38. Whats the last movie you saw: Kicking &amp; screaming!! lmfao.<BR>39. Do you prefer Theater or movie: huh...<BR>40. Time when you finished this:&nbsp;5.43 ; PM</P>"
+"eventtime","2005-05-26 17:37:00"
+"url","http://superfreak-xox.livejournal.com/45063.html"
+"userid","14955"
+"itemid","175"
+"event","<P><lj-cut text=""fine fine fine I'll put i t behind a cut""> </P>
+<P>[[Five things you did today]]<BR><BR>[x] slept<BR>[x] went online<BR>[x] wore a skirt<BR>[x] went to school<BR>[x] played in the woods<BR><BR>[[Five groups/artists you listened to yesterday]]<BR><BR>[x] 15 Minuets Late<BR>[x] Taking back Sunday<BR>[x] the song ""Scotty doesn't know""<BR>[x] Green Day<BR>[x] The Used<BR><BR><BR>[[Five things you can't live without]]<BR><BR>[x] MUSIC!!!<BR>[x] ipod<BR>[x] internet<BR>[x] friends<BR>[x] Sleep!<BR><BR>[[DESCRIBE YOUR...]]<BR><BR>[[Wallet:]] empty most of the time.<BR>[[CD in stereo right now:]] idk<BR>[[Tattoos:]] None.. yet<BR>[[Hair:]] Brown<BR><BR>[[Who or what (was/is/are)...]]<BR><BR>[[In my mouth:]] nothing?<BR>[[In my head:]] a brain is there. &amp; all of my thoughts.<BR>[[Wishing that:]] people would stop accidentally hurting me.<BR>[[Talking to:]]&nbsp;No one..<BR>[[Eating:]] Nothing<BR>[[What's next to you:]] bed<BR>[[Something you're looking forward to in the upcoming month:]] 6 Flags me &amp; my brover!!!!<BR>[[Do you like candles?:]] sure<BR>[[Do you like hot wax?:]] sure<BR>[[Do you believe in love?:]] Of course<BR>[[Do you believe in soul mates:]] Yes<BR>[[Do you believe in love at first sight?:]] yes<BR>[[Do you believe in heaven?:]] Of course<BR>[[Do you believe in forgiveness?:]] Of course<BR>[[Do you believe in God?:]] yeah.<BR>[[Who is your worst enemy?:]] noone really. <BR>[[If you could have any animal for a pet, what would it be?:]] dog,,,<BR>[[What's something that you wish people would understand?:]] Myself. None really understands me. they just think i'm crazy<BR>[[What's something you wish you could understand better?:]] Why people think they do.<BR>[[Who's someone you miss that you haven't seen in a long time?:]] My cousin Matt<BR><BR>[[I. YOUR FIRST KISS]]<BR><BR>a. How old were you?: i just turned 13<BR>b. Where did it happen?: outside at buses<BR>c. When did it happen?: October...?<BR>d. Who initiated the kiss?: him<BR>e. Was there a second kiss with that same person later? yes<BR><BR>[[II.YOUR FRIENDS LIST]]<BR><BR>a. Ever dated anyone who was your best friend before?: no.. not really<BR>b. Would you consider dating you best friends ex?: yeah...ive done it<BR>c. Have you kissed your best friends ex?: yesss mam/sir.<BR><BR>[[THREE THINGS THAT SCARE ME:]]<BR><BR>[x] being burnt<BR>[x] dieing<BR>[x] spiders<BR><BR>[[THREE PEOPLE WHO MAKE ME LAUGH:]]<BR><BR>[x] Nikki<BR>[x] Connor<BR>[x] Josh<BR><BR>[[THREE THINGS I LOVE:]]<BR><BR>[x] MUSIC!!!!!<BR>[x] internet.<BR>[x] My friends<BR><BR>[[THREE THINGS ON MY DESK:]]<BR><BR>[x] pop<BR>[x] deorderant<BR>[x] Hydrogen peroxide tropical solution.<BR><BR>[[THREE THINGS I'M DOING RIGHT NOW:]]<BR><BR>[x] this survey<BR>[x] sitting in silence.<BR>[x] waiting for my mom to wake up<BR><BR>[[THREE THINGS I WANT TO DO BEFORE I DIE:]]<BR><BR>[x] Get Married<BR>[x] Have A Child i.e. SEXXXX<BR>[x] live out my plan w| jordan with the townhouse, and the hooters, and the new york. and fun fun fun<BR><BR>[[THREE WAYS TO DESCRIBE MY PERSONALITY:]]<BR><BR>[x] CRAZY<BR>[x] slow.<BR>[x] friendly.. sometimes.<BR><BR>[[THREE WAYS TO DESCRIBE MY LOOKS:]]<BR><BR>[x] Ugly<BR>[x] pac sun-ish<BR>[x] short<BR><BR>[[THREE THINGS I THINK YOU SHOULD LISTEN TO:]]<BR><BR>[x] Taking Back Sunday<BR>[x] The Used<BR>[x] Chevelle<BR><BR>[[THREE THINGS I SAY THE MOST:]]<BR><BR>[x] lol<BR>[x] Fuck you<BR>[x] I lvoe you too!! -- sarcasticly<BR><BR>[[THREE BEVERAGES YOU DRINK REGULARLY:]]<BR><BR>[x] any pop<BR>[x] milk<BR>[x] water<BR><BR><BR>------------RIGHT NOW------------<BR><BR>* Wearing:* weird pants &amp; wet seal pink shirt.<BR>* I'm feeling:* bored <BR>* Eating:* nothing<BR>* Drinking:* nothing.<BR>* Thinking about:* not doing anything.. and geting my new (chuck)Tylor's<BR>* Listening to:*&nbsp;silence... but its about to be music<BR>* Talking to:* no one<BR>------------IN THE LAST 24 HRS------------<BR><BR>* Cried:* yes<BR>* Worn a skirt:* yes<BR>* Met someone new:* no<BR>* Cleaned your room:* NO WAY<BR>* Done laundry:* no<BR>* Driven a car:* no<BR><BR>------------DO YOU BELIEVE IN------------<BR><BR>*Yourself:* Once in a while<BR>*Your Friends:* yes<BR>* Santa Claus:* nope<BR>* Tooth Fairy:* No<BR>* Angels:* Yes<BR>* Ghosts:* no<BR>* UFO's:* Nope<BR><BR>------------FRIENDS AND LIFE------------<BR><BR>* Do you have a boyfriend/girlfriend:* nope...<BR>* Like anyone?:* yessss<BR>* Who have you known the longest of your friends:* Jenni<BR>* When you cried the most:* THinking abotu the past...<BR>* What is the best feeling in the world:* bieng in love<BR>* Worst Feeling:* knowing the 1 you like-likes your best friend... &amp; your best friend likes him back<BR><BR>*this or that*<BR><BR>[[boxers or briefs?]] Boxers<BR>[[plaid or striped?]] plaid<BR>[[skater or punk?]] skater<BR>[[salt or pepper?]] Salt<BR>[[okay, ok, or o.k.?]] none... oh kay.<BR>[[bright colors or dark colors?]] dark<BR>[[tic-tacs or certs?]] Tic-tacts<BR>[[sunshine or rain?]] Rain- LOVE THE RAiN<BR>[[rain or snow?]] snow.<BR>[[sun or moon?]] moon<BR>[[silver or gold?]] Silver<BR>[[silk, cotton, or flannel sheets?]] flannel<BR>[[preps or freaks?]] freaks.<BR>[[popcorn-with or w/out butter?]] With<BR>[[ketchup, mayo, mustard, or relish?]] ketchup<BR>[[shampoo+conditioner in one or separate?]] Separate<BR><BR>*if you were _______, what would you be?*<BR><BR>[[an animal]] Tiger... I'd run through the woods... fast.<BR>[[a fruit]] banana<BR>[[a vegetable]] potatoe<BR>[[a color]] green </P>"
+"eventtime","2005-05-26 17:13:00"
+"url","http://superfreak-xox.livejournal.com/44816.html"
+"userid","14955"
+"itemid","174"
+"event","<b>i have a cell phone.
+i have friends that use me...</b>
+i am an only child.
+<b>i am a shopoholic.
+i love dangly earrings.
+i love cold weather. 
+i'm obsessed with the computer.
+i have shot a gun before.
+i can't live without music.
+i have no tolerance of ignorant people.
+i have ridden on a motorcycle before.</b>
+i'll be in this town forever. <u>HELLLL no me & jordan are bustin out & going to NY!!!</u>
+i've been to 5 other countries.
+<b>i get annoyed easily.
+i eventually want kids.
+i have neat handwriting.
+i have more than a few horrible memories.</b>
+i am addicted to chocolate.
+i am an atheist.
+my parents are strict.
+i love airplane rides.
+i love taking pictures.
+<b>i hate people who are fake.
+i can be mean when i want to.
+my parents care about my grades.
+one of my good friends is a guy.</b>
+i have way too many purses.
+i'm obsessed with lip gloss. 
+<b>i am easy to talk to. 
+i would never eat raw fish.
+i cry easily.
+i hate when people are late. 
+i procrastinate.
+i love winter.
+i have too many clothes for my closet/dresser.
+i love to sleep.
+i wish i were smarter.</b>
+i'm afraid of flying.
+<b>i hate drama.
+i bite my nails.
+i have been on an 8 hour drive.</b>
+i never fight with my parents.
+<b>i love the beach.</b>
+i have never had the chicken pox.
+<b><u><i>i have gone out in public in my pajamas.</u></i>
+i can't control my emotions. 
+i have a best friend.</b>
+i have moved more than once.
+<b>i truly love my friends.</b>
+i have braces.
+<b>i have never broken a bone.</b>
+i hate my computer.
+<b>i love guys that play the drums.
+i state the obvious.</b>
+i'm a happy person.
+i love to dance.
+i love to sing. 
+i love cleaning my room.
+<b><u><i>i tend to get jealous very easily.</u></i>
+i love cute underwear. 
+i love night better than day.
+i don't like to study for tests.
+i have been on the phone for over 5 hours.
+i am too forgiving. 
+i have horrible sense in direction.</b>
+i miss elementary school. 
+i'm a daddy's girl.
+<b><u>i love getting kisses on my forehead.</u></b>
+i love the color pink.
+i love to sew.
+my eye color changes.
+<b>i should see a therapist.
+i played on a guys sports team. 
+i become stressed easily.
+i hate liars.
+i like comfy sweatpants.
+i can play the piano.
+i love the smell of rain. </b>
+i love my family.
+<b>i hate needles.</b>
+i am a perfectionist.
+<b>i always wanted to learn to play the drums.
+i hate the feeling of failure. 
+i have friends in other countries.
+i know how to cook. 
+i can be quite selfish. 
+at times, i still act like a little kid.</b>
+i have food allergies.
+i love little kids.
+i love to read.
+<b>i wish i were more motivated for school. 
+i love getting stuff in the mail.
+<u><i><center>i have problems with letting go of old feelings.</u></i></center>
+i hate being alone.
+i love summer.
+i love the weekends.
+i love black eyeliner.</b>
+i think im pretty.
+i type with one hand.
+i live in a one story house.
+<b>I wear make-up. </b>
+i have never rode on an underground subway.
+i can't swim.
+<b><u>I have bad memories.</u></b>
+i go to church. 
+<b>i sing in the shower.</b>
+i have never been camping. 
+i hate cheerleaders. 
+<b>i usually get what i want.
+i have been on stage before.
+i love roller coasters.
+no one knows my full story of my life.</b>
+i am close with my parent(s).
+<b>i don't have a curfew.HECK YYESSS!!!! </b>  .. well soemtimes i do. usually no"
+"eventtime","2005-05-26 16:54:00"
+"url","http://superfreak-xox.livejournal.com/44780.html"
+"userid","14955"
+"itemid","173"
+"event","Q2hpbGRob29kIHdlaXJkbmVzcyANCg0KRGlkIHlvdSBzcGVuZCB5b3VyIGNoaWxkaG9vZCB0aW1lIHdpdGggbW9zdGx5IHJlYWwgb3IgaW1hZ2luYXJ5IGZyaWVuZHM/OiAgcmVhbCBidXQgaSBoYWQgYSBmZXcgaW1hZ2luYXJ5Li4gaGFoDQpEaWQgcGVvcGxlIGNvbnNpZGVyIHlvdSBhbiBvZGQgY2hpbGQ/OiAgeWENCkRvIHlvdSBoYXZlIG1lbW9yaWVzIHRoYXQgZ28gYmFjayB0byB3aGVuIHlvdSB3ZXJlIG9ubHkgYSBmZXcgbW9udGhzIG9sZD86ICBubw0KRG8geW91IHJlbWVtYmVyIGFueSB0aG91Z2h0cyB5b3UgaGFkIHdoZW4geW91IHdoZXJlIHZlcnkgeW91bmc/OiAgeWENCklmIHlvdSBhbnN3ZXJlZCAiaW50cmljYXRlIiwgZ2l2ZSBhbiBleGFtcGxlIG9mIG9uZSBvZiB0aG9zZSB0aG91Z2h0czogIHdoYXQgZG9lcyBpbnRyaWNhdGUgbWVhbi4uLj8NCldlcmUgeW91IGRyZWFtcyB2ZXJ5IHZpdmlkIGFzIGEgY2hpbGQ/OiAgc3VyZWVlZQ0KV2hhdCB3YXMgdGhlIG1vc3QgImdyb3duLXVwIiB0aGluZyB5b3UgZXZlciBzYWlkIGFzIGEgY2hpbGQ/OiAgaSBkb24ndCBrbm93DQpXaGF0IHdlcmUgeW91ciBmYXZvaXRlIFRWIHNob3dzIGluIGVhcmx5IGNoaWxkaG9vZD86ICAuLi5pIExPVkVEIHRoZSBCcmFkeSBCdW5jaCBhbmQgYWxsIHRoZW0gc2hvd3MuLiANCldlcmUgeW91IGFmcmFpZCBvZiBtb25zdGVycz86IHllYWgNCkRpZCB5b3UgYmVsaWV2ZSB0aGF0IGZpY3Rpb25hbCBjaGFyYWN0ZXJzIHdlcmUgcmVhbD86IHllcw0KV2VyZSB5b3UgbW9yZSBxdWlldCBhbmQgYXJ0aXN0aWMgb3IgbG91ZCBhbmQgcGh5c2ljYWw/OiBsb3VkICYgcGh5c2ljYWwNCg0KDQoNCklzc3VlcyBhbmQgVVMgU3R1ZmYgDQoNCkRvIHlvdSBlYXQgbWVhdD86IHllcw0KSWYgeW91IGRvLCB3aGF0IGlzIHlvdXIganVzdGlmaWNhdGlvbiBmb3IgaXQ/OiAgaWRrDQpJZiB5b3UgY291bGQgbGVnYWxpemUgMyB0aGluZ3MgaW4gdGhlIFVTLCB3aGF0IHdvdWxkIHRoZXkgYmU/OiAgZHJpdmluZyBhdCBhIHlvdW5nZXIgYWdlICsgZHJpbmtpbmcgYXQgYSB5b3VuZ2VyIGFnZSArIHRoYXQgc3R1cGlkIGNlbGwgcGhvbmUgdGhpbmcNCkRvIHlvdSBiZWxpdmUgaW4gdGhlIGRlYXRoIHBlbmFsdHk/OiAgeWVzDQpJZiB5b3UgaGFkIGEgY2hvaWNlLCB3aGljaCBjb3VudHJ5IHdvdWxkIHlvdSBoYXZlIGNob3NlbiB0byBiZSBib3JuIGludG8/OiAgVVNBLiANCkRlc2NyaWJlIHlvdXIgZmVlbGluZ3MgYWJvdXQgbWFyaWp1YW5hIGxlZ2FsaXphdGlvbjogSXQgc2hvdWxkIGJlIGxlZ2FsDQpXaGF0IGFib3V0IGdheSBtYXJyaWFnZT86ICBtYXJyaWFnZSBpcyB3aGVuIHlvdSBsb3ZlIHNvbWVvbmUgYW5kIHdhbnQgdG8gc2hvdyB5b3VyIGxvdmUgdG8gdGhlbW0uLi4uLiBpdCBkb2Vzbid0IHNwZWNpZnkgd2hvIHlvdSBhcmUgbWFycnlpbmcuIE1hcnJpZ2UgaXMgYWJvdXQgTE9WRSB0aGF0cyBpdC4NClJlZCwgV2hpdGUgYW5kIEJsdWUgaXMgYSBnaGFzdGx5IGNvbG9yIGNvbWJpbmF0aW9uLCByaWdodD86ICAgaHVoPw0KV2hhdCB0ZWxldmlzaW9uIG5ld3MgY292ZXJhZ2UgZG8geW91IGRldGVzdCB0aGUgbW9zdD86IGlkayA/DQpXaGF0IHdpbGwgeW91IGRvIGlmIEJ1c2ggaXMgcmUtZWxlY3RlZD8gSGUgYWxyZWFkeSB3b24NCg0KV2hpY2ggc3RhdGUgZG8geW91IHRoaW5rIHdpbGwgZHJvcCBvZmYgaW50byB0aGUgb2NlYW4gZmlyc3Q/OiAgY2FsaWZvcm5pYS4uIHRoYXQgcGxhdGVzIGR1aC4NCldobyBkbyB5b3UgY29uc2lkZXIgIkFtZXJpY2FuIEhlcm9zIj86ICB1bW0uLg0KDQoNCg0KQ29tcGxldGVseSBPYnR1c2UgQW5kIFNpbGx5IFF1ZXN0aW9ucyANCg0KSGF2ZSB5b3UgZXZlciB0YWtlbiBzb21ldGhpbmcgYXBhcnQganVzdCB0byBzZWUgaG93IGl0IHdvcmtlZD8gb2YgY29yc2UuDQpEbyB5b3UgZXZlciB5ZWxsIGF0IHRoZSB0ZWxldmlzaW9uIHdoaWxlIHlvdSBhcmUgYWxvbmU/ICBpIHllbGwgYXQgd2hlbiBpbSBOT1QgaG9tZSBhbG9uZSBsb2wuDQpOYW1lIGEgZmV3IHRoaW5ncyAoaWYgYW55KSB0aGF0IHlvdSBib3VnaHQgb24gRWJheSByZWNlbnRseTogIG5vdGhpbmcNCkRvIHlvdSB3YXRjaCB0aGUgU2NpZW5jZSBDaGFubmVsIChEaXNjb3ZlcnkpIG9uIGEgcmVndWxhciBiYXNpcz86IG5ldmVyLg0KRXZlciBnb3R0ZW4gaW50byBhbiAiaW4gcGVyc29uIiBhcmd1bWVudCB3aXRoIGEgdG90YWwgc3RyYW5nZXI/ICBuYWguDQpTdWdhciBvciBIb25leT86ICBzdWdhcg0KSG93IG1hbnkgZS1tYWlscyBkbyB5b3UgcmVjaWV2ZSBhIGRheT86IGxpa2UsIG1heWJlLi4gMTUtMjA/DQpEbyB5b3UgdGhpbmsgdGhhdCB0aW1lIHRyYXZlbCBpcyBhIHBvc3NpYmlsaXR5Pzogbm8NCkhhdmUgeW91IGV2ZXIgaGFkIGEgcGFzdCBsaWZlIHJlZ3Jlc3Npb24/OiBubw0KU2FuIEZyYW5jaXNjbyBvciBOZXcgWW9yayBDaXR5PzogTmV3IFlvcmsgQ2l0eQ0KQXJlIHlvdSBzbGlnaHRseSBhZGRpY3RlZCB0byBvbmxpbmUgdGVzdHMgYW5kIHN1cnZleXM/OiB5ZXMuDQpDbG9zZSB5b3VyIGV5ZXMgYW5kIHR5cGUgdGhlIGZpcnN0IHJhbmRvbSBpbWFnZSB0aGF0IHBvcHMgaW50byB5b3VyIGhlYWQ6IHNvbWVvbmVzIGZhY2UuDQpJZiB5b3UgY291bGQgY2hvb3NlIGEgdGltZSBwZXJpb2QgaW4gd2hpY2ggdG8gbGl2ZSwgd2hpY2ggd291bGQgaXQgYmU/OiB0aGlzIG9uZS4NCg0KDQoNCkVtb3Rpb25zIEFuZCBTdWNoIA0KDQpIYXZlIHlvdSBhdHRlbXB0ZWQgc3VpY2lkZSBtb3JlIHRoYW4gb25jZT86ICBubw0KQ3V0dGluZz86ICB5ZXMNCkRvIHlvdSBnZXQgdmlvbGVudCB3aGVuIHlvdSBhcmUgYW5ncnk/OiB5ZXM7IHZlcnkgbXVjaCBzbyBhY3R1YWxseQ0KV2hpY2ggZW1vdGlvbiBhcmUgeW91IG1vc3QgY29uc3VtZWQgYnk/OiAuLiBkZXByZXNzaW9uDQpBcmUgeW91IGhpZ2hseSBlbW90aXZlPzogeWVzDQpEbyB5b3UgZGlzY3VzcyBwcm9ibGVtcyBvciBrZWVwIHRoZW0gdG8geW91cnNlbGY/LiBkZXBlbmRzIHRoZSBwcm9ibGVtICYgd2hvIGknbSB0YWxraW5nIHRvLg0KRG8geW91IGZhbGwgaW4gbG92ZSBlYXNpbHk/OiAgeWVzDQpXaGF0IGFnZS95ZWFyIHdhcyB0aGUgbW9zdCBkaWZmaWN1bHQgZm9yIHlvdT86IGxhc3QgeWVhci4gc2hpdCBoYXBwZW5lZC4NCkhvdyBkbyB5b3UgY2hhbm5lbCB5b3VyIGFuZ2VyL3NhZG5lc3M/OiBJIGxpc3RlbiB0byBtdXNpYyBvciBjcnkgJiBzbGVlcA0KTGlzdCBhIGZldyBzaW1wbGUgdGhpbmdzIHRoYXQgbWFrZSB5b3UgaGFwcHk6IHdoZW4gW215IGd1eSBmcmllbmRdIHRha2VzIG1lIHRvIHRoZSBtb3ZpZXMuIG9yIGp1c3QgY2FsbHMuIG9yIGV2ZW4gaS5tcyBtZSBmaXJzdA0KV2hlbiB3ZXJlIHlvdSBtb3N0IHJlY2VudGx5IHlvdXIgaGFwcGllc3Q/OiBKZW5uaSdzIHBhcnR5Pz8gaWRrDQoNCg0KDQpGcmllbmRzIA0KDQpEZXNjcmliZSB5b3VyIGJlc3QgZnJpZW5kIGFzIGlmIHlvdSB3ZXJlIGRlc2NyaWJpbmcgYSBjaGFyYWN0ZXIgZnJvbSBhIGZpbG06IGh1aD8NCkRvIHlvdSBoYXZlIGZyaWVuZHMgdGhhdCBhcmUgZHJhc3RpY2FsbHkgZGlmZmVyZW50IGZyb20gZWFjaCBvdGhlcj86ICB5ZWFoDQpMaXN0IGEgZmV3IGtleSB0cmFpdHMgdGhhdCBhbGwgb2YgeW91ciBmcmllbmRzIGhhdmUgaW4gY29tbW9uOiB0aGV5IG1ha2UgbWUgbGF1Z2gsIA0KSGF2ZSB5b3UgZXZlciBiZWVuIGJldHJheWVkIGJ5IGEgY2xvc2UgZnJpZW5kPzogeWVhaA0KSWYgeWVzLCBhcmUgeW91IHN0aWxsIGZyaWVuZHMgd2l0aCB0aGF0IHBlcnNvbj86ICBubw0KDQpBcmUgeW91ciBmcmllbmRzIG1vc3RseSB5b3VyIGFnZSwgeW91bmdlciBvciBvbGRlcj86ICBhbGwgYWdlcw0KDQoNCg0KRmFtaWx5IA0KDQpBcmUgeW91IGNsb3NlIHRvIHlvdXIgZmFtaWx5Pzogbm9wZQ0KV2hhdCB0cmFpdHMgYXJlIHlvdSBnbGFkIHlvdSBpbmhlcml0ZWQgZnJvbSB0aGVtPzogIG15IGJvb2JzID8/IGkgbGlrZSBteSBib29icyBzaHV0IHVwDQpXaGljaCB0cmFpdHMgYXJlIHlvdSBwaXNzZWQgb2ZmIHlvdSBpbmhlcml0ZWQgZnJvbSB0aGVtPzogIGhhaXIuDQpXaGF0IHNpdGNvbSBkb2VzIHlvdXIgZmFtaWx5IG1vc3QgcmVtaW5kIHlvdSBvZj86IG5vbmUNCkRvZXMgeW91ciBmYW1pbHkgbGl2ZSBsb2NhbGx5IG9yIGZhciBhd2F5PzogIHVtbSB0aGUgY2xvc2VzdCBpcy4uLiAyIGhvdXJzIGF3YXkuIGFuZCB0aGUgZmFydGhlc3QgaXMgaW4gVGV4YXMNCkhhdmUgeW91IGV2ZXIgc3RvcHBlZCBzcGVha2luZyB0byBzb21lb25lIGluIHlvdXIgZmFtaWx5PzogeWVzDQpIYXZlIGVpdGhlciBvZiB5b3VyIHBhcmVudHMgZGllZD86IG5vDQpJcyB5b3VyIGZhbWlseSB2ZXJ5IG11Y2ggbGlrZSB5b3Ugb3IgYXJlIHlvdSBvcHBvc2l0ZXM/OiB0aGV5J3JlIG5vdGhpbmcgbGlrZSBtZQ0KSG93IG1hbnkgc2libGluZ3MgZG8geW91IGhhdmU/OiAgb25lIHNpc3RlciAmIDIgc3RlcC1zaXN0ZXJzDQpIYXMgeW91ciBmYW1pbHkgZXZlciB0aHJvd24gZm9vZCBhdCBlYWNoIG90aGVyPzogIHllYWguDQpBcmUgdGhlIGhvbGlkYXlzIGEgbmlnaHRtYXJlIG9yIGEgdGltZSBvZiBqb3k/OiAgc29tZXRpbWVzIGJvdGguDQpEbyB5b3UgbG9vayBsaWtlIHlvdXIgcGFyZW50cz86IHNvbWV0aW1lcw0KTGlzdCBvbmUgaW50ZXJlc3RpbmcgZmFjdCBhYm91dCB5b3VyIGZhbWlseTogdGhlcmUgYXJlIGFsb3R0YSBiYWQgYXNzZXMgaW4gbXkgZmFtaWx5LiAxIGNvdXNpbiBpcyBhIGRydWdnaWUuIDEgaXMgaW4gamFpbC4uIG15IHVuY2xlIHdhcyBhIHRvdGFsIHJlYmVsLiBoZSBkaWVkIHdoZW4gaGUgd2FzIGxpayAxNyBpbiBhIG1vdG9jeWNsZSBhY2NpZGVudCB0aG8NCg0KDQoNCkxvdmVycyANCg0KR2F5LCBTdHJhaWdodCwgQmktc2V4dWFsIG9yIG5vIGlkZWE/OiAgc3RyYWlnaHQNCkV2ZXIgZ29uZSBvdXQgd2l0aCBzb21lb25lIHlvdSB3ZXJlIGVtYmFycmFzc2VkIHRvIGJlIHNlZW4gd2l0aD86ICBubw0KRXZlciBicm9rZW4gc29tZW9uZeKAmXMgaGVhcnQ/OiAgaWRrIGFzayB0aGVtDQpIb3cgbWFueSBzZXJpb3VzIHJlbGF0aW9uc2hpcHMgaGF2ZSB5b3UgaGFkPzogIG5vbmUuLi4uIGkgaGF2ZW50IGdvbmUgb3V0IHdpdGggc29tZW9uZSBmb3Igb3ZlciAyIHdlZWtzICYgYSBkYXkNCkRvIHlvdSBiZWxpZXZlIGluIHRoZSB0aGVvcnkgb2Ygc291bG1hdGVzPzogeWVzDQpFdmVyIGNoZWF0ZWQ/OiBubw0KQmVlbiBjaGVhdGVkIG9uPzogbm8gOyBpIGRvbid0IHRoaW5rIHNvLg0KDQoNCg0KV291bGQgWW91IFJhdGhlci4uLiANCg0KRWF0IGEgc3RlYWsgb3IgYSB3aG9sZSB0dWJlIG9mIHRvb3RocGFzdGU/OiAgc3RlYWsNCkJlIGNvdmVyZWQgaW4gcGFwZXJjdXRzIG9yIGNpZ2FyZXR0ZSBidXJucz86ICBwYXBlcmN1dHMNCkJlIHBlcmNpZXZlZCBhcyBpbnRlbGxpZ2VudCBvciBzdHJlZXQtc21hcnQgKGJ1dCBub3QgYm90aCk/OiAgbmVpdGhlciEhIQ0KRWF0IGEgYm90dGxlIGNhcCBvciBhIHNwaWRlciB0aGUgc2l6ZSBvZiBhIGJvdHRsZSBjYXA/OiBldw0KQmUgcnVsZWQgZXhjbHVzaXZlbHkgYnkgeW91ciBoZWFydCBvciB5b3VyIG1pbmQ/OiBoZWFydA0KSGF2ZSB0aGUgcG93ZXIgdG8gcmVhZCBtaW5kcyBvciBtYWtlIGFueW9uZSBmYWxsIGluIGxvdmUgd2l0aCB5b3U/IHJlYWQgbWluZHMuLi4gbi1jdXogaWYgeW91IGtub3cgd2hhdCB0aGUgcGVyc29uIGlzIHRoaW5raW5nLi4gdGhlbiB5b3UgY2FuIGRvIHdoYXRldmVyIGl0IHRha2VzIHRvIGdldCB0aGVtIHRvIGZhbGwgaW4gbG92ZSB3aXRoIHlvdS4gZHVoLg0KQ2hldyBzaGFyZHMgb2YgYnJva2VuIGdsYXNzIG9yIHNpdCBvbiBhIGxpZ2h0ZWQgYmFyYmVxdWUgZ3JpbGw/OiBjaGV3IGJyb2tlbiBnbGFzcw0KQmUgYWJsZSB0byBmbHkgb3IgYmUgYWJsZSB0byByZW5kZXIgeW91cnNlbGYgaW52aXNpYmxlPzogIGludmlzaWJsZQ0KDQoNCg0KRmluYWwgUXVlc3Rpb25zIA0KDQpFdmVyIGhhZCBhIGdyZWF0IHNvbmcgcnVpbmVkIGZvciB5b3UgYWZ0ZXIgaXQgd2FzIHVzZWQgaW4gYSBjb21tZXJjaWFsPzogIHllYWghDQpFdmVyIHllbGxlZCBhdCBhbiBTVVY/OiAgaGFoYSB5ZXMNCkEgSHVtbWVyPzogeWVwDQoNCklmIHlvdSBjb3VsZCB0dXJuIGJhY2sgdGltZSBhbmQgY2hhbmdlIG9uZSB0aGluZywgd2hhdCB3b3VsZCBpdCBiZT86ICBiZWluZyBib3JuDQpCYW1iaSBvciBOZW1vPzogaSBsb3ZlIGJhbWJp"
+"eventtime","2005-05-26 16:34:00"
+"url","http://superfreak-xox.livejournal.com/44484.html"
+"userid","14955"
+"itemid","172"
+"event","<center>dissapoint is all around me...</center>
+
+Woke up.. wann hear what I wroe?
+oh well I'ma tell you anyways...
+<center><b>New Weathervain's(jeans)
+Black & red Independant shirt
+Starnold's Taylor's</b></center>
+
+Muahhah me & josh-lew- matched .. kinda. we were both wearing independant.
+
+any who.
+
+It was raining.. so i had to have my hood up. ugh. screwed up my hair. I sang my song to Starnold. & she read my LJ. funnnnnn. we traded gum MUHHAHA. lol
+
+Then i was walkin upstairs and I ran into Josh-lew-. and he kirked out cuz i wasn't wearing  a skirt. GOod gracious. I will on Thursday.
+
+I was going to Homebase... and I was late.. AGAIN. so I stood outside the whole tine. Tomorra i'ma go in Mr.malloy's room. theres nothing eles to do. lol.
+
+1ST xO P.E. _*I got dressed & was liket he first girl out there. then Someone came behind me and picked me up... Josh-lew-. lol. The I walked some with him & shit. then we had to go to our spots so Caitlin dragged me over there. & then we could do w|e we wanted so .. me Kay Kasey and Josh went in the stupid room. while other ppl played volleyball. Josh was touchin' me like crazy. you have NO idea. lol. he did dance a rammamdfgkj he is really good... jzz. lol. OMG. then I was sittin on the table in front of josh. & ms warren told me to get down & she told me I was in school. 7 i told her I know. & she was like.. you sittin in front of him with 1 of you legs between his.. it doesn't loook right. iwas like WTF> loser. and me & josh-lew- & all them just chilled. & everyone was like ""ohh you should go out with josh yall look cute..."" i was like yeah... and just smiled<b> (fakely) </b>then i went & got dressed & walked out & had josh-lew- tie my shoe, & he told me I was coming over after school. So I was like.. ok sure. 
+
+2ND xO Language _* me and Alexandra are partners. and we did our project with power point. fun fun fun. and yeah thats all we did all class. OH YEAH and i started reading this boook.. its really good!!!  ""Tomorrow, Maybe"" read it or die mmk!?
+
+Lunch _* pinched Josh-lew- like Crazy lol. He didn't yell at me or anything.. ti was weird. he jsut moved me hand. lol and he was like are you going to be like this at my house.. and i was like""huh"" i ahd toally forgotten i wa going over there. lol.
+
+3RD xO Social Studies _*it was like study time. so i chilled w| Josh luck alot. his arm is comfortabl... lol. But it hurt him sorry josh :-/
+then left. whatever.
+
+4TH xO Math _* took a gya test almost like fell asleep & passed notes with Tony... WOW. found out some stuff & WOW. ... crazy. then we left.
+
+Buses _* ... Connor wasn't here today... :'(... tear MUCH. lol.DIRTY SANCHEZ GRABBED MY ASS!!!! :O!!!!!! dude.. weird. & porno is single which is good 4 him i guess :)then got on my bus ate some razzels and shit.yummm,!! lol.
+
+Home _* Josh i.med me while iw as downstairs and asked me when I was goign over ther... I was like.. hUH!. cuz i had forgot. so he reminded me. so I asked my mom when she got home and she was going to drive me over there. and I was gonna chill over there till like 8 or 9. But then his mom fraked out on him & wouldn't let me come over... damn it.  maybe another day. PROBLY another day. lol. SO when My mom wakes up i get ot get subway MAYBE. i wish she would take me to get some taylors... but ugh she don't wanna go over that way<b> (famous footware)</b> cuz where i wanna go is REALLY cheap taylor's.
+
+well yeah... and my songs are downloadin like crazy!!!! lovein' it!!!!
+lol. well holer bitches...
+
+
+
+
+
+
+
+<marquee><i>Thoughs are runnin through my head... and i'm scared to listen to them."
+"eventtime","2005-05-24 17:21:00"
+"url","http://superfreak-xox.livejournal.com/44200.html"
+"userid","14955"
+"itemid","171"
+"event","DESCRIBE YOUR..
+
+[ x ] Wallet - Black w| ""Rip Curl"" on the front
+[ x ] Hairbrush - Black
+[ x ] Toothbrush - Red!
+[ x ] Jewelry worn daily - gel bracelets, and hair things.
+[ x ] Pillow cover - white w| pink glowers & green thingys..
+[ x ] Blanket - like... patches that I stole form my dads house which I love. its a quilt
+[ x ] Coffee cup - care bears.
+[ x ] Sunglasses - I don't have any.
+[ x ] Underwear - light blue w| dark blue & green circles w| green & dark blue straps!!:D
+[ x ] Favorite shirt - Connors i tihnk.. i love that shirt..
+[ x ] Cologne/Perfume - umm idk
+[ x ] CD in stereo right now - maroon 5
+[ x ] Tattoos - None.
+[ x ] Piercings - ears 1 time. and hopefully my belly button & 2nd & 3rd hole in ears..
+[ x ] What you are wearing now - Jeans, independant shirt, bra, thong.
+[ x ] In my mouth - My tounge.
+[ x ] In my head - The answer to this question lol.
+[ x ] Wishing - That this school year was over.
+[ x ] After this - Maybe go tanning & get new chucks.
+[ x ] Fetishes - idk what that means...
+[ x ] If you could get away with it and murder anyone,who and for what reason? - idk whoever im mad at at that moment.
+[ x ] Person you wish you could see right now - Nobody in particular.
+[ x ] Is next to you - A lamp.
+[ x ] Some of your favorite movies - The Notebook, Thirteen, 
+[ x ] Something you're looking forward to in the upcoming month - end of school.
+[ x ] The last thing you ate - toast
+[ x ] Something that you are deathly afraid of - being forced. like someone overpowering me to do something. i hate it..
+[ x ] Do you like candles - Yes.
+[ x ] Do you like incense - yes
+[ x ] Do you like the taste of blood - HECK YES. ... no
+[ x ] Do you believe in love - Yes.
+[ x ] Do you believe in soul mates - Yes.
+[ x ] Do you believe in love at first sight - No.
+[ x ] Do you believe in Heaven - Yes
+[ x ] Do you believe in God - Yes
+[ x ] What do you want done with your body when you die - Buried...
+[ x ] If you could have any animal for a pet, what would it be - a dog!![ x ] What is the latest you've ever stayed up - all nighter
+[ x ] Can you eat with chopsticks - No.. i feel dum when I try to.
+[ x ] What's your favorite coin - Quarter.
+[ x ] What are some of your favorite candies - easter reses
+[ x ] What's something that you wish people would understand - ....not to judge me cuz im different than i appear... IDFK!
+[ x ] What's something you wish you could understand better - scoial studies
+[ x ] Who is someone that you really wish was still around - umm no one really.."
+"eventtime","2005-05-24 16:52:00"
+"url","http://superfreak-xox.livejournal.com/43925.html"
+"userid","14955"
+"itemid","170"
+"event","<lj-cut text=""its true... I'mA ~*~ Movie Whore ~*~""> 1. Take this list and post it into your own LJ, and mark the movies you've seen.
+2. Add five more movies to the end of the list.
+3. Count how many X'es you have. If you've seen more than 70 movies, you are a ~*~ Movie Whore ~*~. Post the score of how many movies you've seen in the subject line.
+4. Use a LJ-cut since you've got at least one LJ-friend who doesn't really want to see an ungodly number of movies snaking its way down the computer monitor.
+5. (optional) Question your friend's taste in movies.
+
+
+
+1. Napoleon Dynamite [x]
+2. Saw [x]
+3. White Noise
+4. White Oleander [x]
+5. Anger Management [x]
+6. 50 First Dates [x]
+7. Jason [x]
+8. Scream [x]
+9. Scream 2 [x]
+10. Scream 3 [x]
+11. Scary Movie [x]
+12. Scary Movie 2 [x]
+13. Scary Movie 3 [x]
+14. American Pie [x]
+15. American Pie 2 [x]
+16. American Wedding [x]
+17. Harry Potter [x]
+18. Harry Potter 2 [x]
+19. Harry Potter 3 [x]
+20. Resident Evil I 
+21. Resident Evil 2 (aka RE: Apocalypse)
+22. The Wedding Singer [x]
+23. Little Black Book [x]
+24. The Village [x]
+25. Donnie Darko 
+26. Lilo & Stitch [x]
+27. Finding Nemo [x]
+28. Finding Neverland [x]
+29. 13 Ghosts [x]
+30. Signs [x]
+31. The Grinch [x]
+32. Texas Chainsaw Massacre (The Original) [x]
+33. White Chicks [x]
+34. Butterfly Effect [x] 
+35. Thirteen going on 30 [x]
+36. I, Robot 
+37. Dodgeball
+38. Universal Soldier
+39. A Series Of Unfortunate Events[x]
+40. Along Came A Spider
+41. Deep Impact 
+42. Kingpin
+43. Never Been Kissed [x]
+44. Meet The Parents [x]
+45. Meet The Fockers [x]
+46. Eight Crazy Nights 
+47. A Cinderella Story [x]
+48. The Terminal [x]
+49. The Lizzie McGuire Movie [x]
+50. Passport to Paris [x] 
+51. Dumb & Dumber [x]
+52. Dumb & Dumberer [x]
+53. Final Destination [x]
+54. Final Destination 2 [x]
+55. Halloween [x]
+56. Halloween 2 [x]
+57. Halloween 3
+58. Halloween 4
+59. Halloween 5
+60. H20 
+61. Halloween: the Resurrection
+62. The Ring [x]
+63. The Ring 2 [x]
+64. Harold & Kumar Go to White Castle
+65. Practical Magic [x] 
+66. Chicago [x]
+67. Ghost Ship [x]
+68. From Hell
+69. Team America: World Police
+70. Hellboy
+71. Secret Window [x]
+72. I Am Sam [x]
+73. The Whole Nine Yards [x]
+74. The Day After Tomorrow 
+75. Child's Play 
+76. Bride of Chucky [x]
+77. Ten Things I Hate About You [x] 
+78. Just Married [x]
+79. Gothika 
+80. A Nightmare on Elm Street [x]
+81. Sixteen Candles [x]
+82. Bad Boys 2 
+83. Joy Ride
+84. Seven 
+85. Oceans Eleven 
+86. Oceans Twelve
+87. Identity [x]
+88. Lone Star
+89. Bedazzled 
+90. Predator [x]
+91. Predator II [x]
+92. Independence Day 
+93. Cujo 
+94. A Bronx Tale
+95. Darkness Falls [x]
+96. Christine [x]
+97. ET [x]
+98. Children of the Corn [x] 
+99. My Boss' Daughter 
+100. Maid in Manhattan [x]
+101. Frailty
+102. Best bet
+103. How to Lose a Guy in 10 Days [x]
+104. She's All That [x]
+105. Calendar Girls 
+106. Sideways
+107. Mars Attacks 
+108. Event Horizon
+109. Ever After [x]
+110. Forrest Gump [x]
+112. Big Trouble in Little China
+113. X-Men [x]
+114. X-Men 2 [x]
+115. Jeepers Creepers[x] 
+116. Jeepers Creepers 2[x]
+117. Catch Me If You Can 
+118. The Others 
+119. Freaky Friday [x]
+120. Reign of Fire
+121. Man on Fire 
+122. Braveheart [x]
+123. Cruel Intentions [x] 
+124. The Hot Chick [x]
+125. Swimfan [x]
+126. Miracle
+127. Friday Night Lights [x]
+128. Old School [x]
+129. Ray 
+130. The Notebook [x]
+131. K-Pax
+132. Lord of the Rings: The Fellowship of the Ring 
+133. Lord of the Rings: The Two Towers 
+134. Lord of the Rings: The Return of the King 
+135. A Walk to Remember [x]
+136. Sweet Home Alabama [x]
+137. Moulin Rouge [x]
+138. Boogeyman [x]
+139. Hitch [x]
+140. Back Door Sluts 9
+141. The Fifth Element
+142. Star Wars episode I [x]
+143. Star Wars episode II 
+144. Star Wars episode IV 
+145. Star Wars episode V 
+146. Star Wars episode VI 
+147. Troop Beverly Hills[x]
+148. Swimming with Sharks
+149. Trainspotting
+150. People under the stairs
+151. Blue Velvet
+152. The Sound of Music [x]
+153. Parent Trap - either version [x]
+154. The Burbs
+155. SLC Punk
+156. Meet Joe Black 
+157. Wild Girls
+158. A Clockwork Orange 
+159. The Order
+160. Spiderman [x]
+161. Spiderman 2 [x]
+162. Amelie
+163. Mean Girls [x]
+164. Confessions of a Teenage Drama Queen[x]
+165. Shrek [x]
+166. Shrek 2 [x]
+167. The Incredibles [x]
+168. Collateral[x]
+169. The Fast & The Furious [x]
+170. 2 Fast 2 Furious [x] 
+171. Sky Captain & The World of Tomorrow 
+172. Closer 
+173. The Sixth Sense [x]
+174. Artificial intelligence[x]
+175. Love Actually [x]
+176. The Sweetest Thing[x]
+177. Shutter
+178. Ella Enchanted[x]
+179. Princess diaries 1 [x]
+180. Princess diaries 2  [x]
+181. The Breakfast Club [x]
+182. October Sky
+183. Remember the Titans [x]
+184. Titanic [x]
+185. Boondock Saints
+186. American History
+187. Fight Club
+188. Heavenly creatures
+189. Stealing Beauty
+190. Like Water For Chocolate
+191. Powwow Highway
+192. Secretary
+193. But I'm A Cheerleader
+194. I <3 Huckabees
+195. Ripley's Game
+196. Coffee And Cigarettes
+197. Taxi Driver
+198. Silence Of The Lambs [x]
+199. The Exorcist [x]
+200. If Lucy Fell
+201. Lady Jane
+201. When Harry met Sally[x]
+202. Me, Myself & Irene [x]
+203. Kung Fu Hustle[x]
+204. Sin City [x]
+205. Labyrinth 
+206. Much Ado About Nothing 
+207. The Cowboy Way
+208. Paulie
+209. Blazing Saddles
+210. Galaxy Quest 
+211. Guildenstern and Rosencrantz are Dead
+212. Citizen Kane 
+213. You Can Count on Me
+214. Young Frankenstein 
+215. Raiders of the Lost Ark [x]
+216. Starman
+217. St. Elmos Fire
+218. Coyote Ugly [x]
+219. The Other Sister[x] 
+220. Rainman 
+221. Little Shop of Horrors 
+222. Chasing Amy[x]
+223. House of Sand and Fog
+224. Mildred Pierce
+225. The Big Lebowski
+226. Mallrats
+227. Eternal Sunshine Of The Spotless Mind 
+228. The Goonies [x]
+229. Starsky & Hutch[x] 
+230. Saved!
+231. The Upside of Anger
+232. Sweet Sweetback's Baadasssss Song
+233. The Cat's Meow
+234. The Rutles
+235. Waking Ned Devine
+236. Pirates of the Caribbean [x]
+237. Little Women [x]
+238. Huck Finn [x]
+239. National Treasure[x] 
+240. Oh Brother Where Art Thou? 
+241. Dick 
+242. Howard the Duck
+243. Garden State
+244. Hero
+245. Spinal Tap 
+246. Almost Famous [x]
+247. Before Sunrise
+248. Before Sunset
+249. Troy 
+250. Gone With The Wind [x]
+251. Chocolate
+252. Gentlemen Prefer Blondes
+253. Now and Then 
+254. Romeo and Juliet (any version) [x]
+255. Ferris Bueler's Day Off [x]
+256. Grease [x]
+257. Guess Who's Coming to Dinner?
+258. Mr. North
+259. The African Queen
+260. The Wizard of Oz [x]
+261. Country Girl
+262. The Philadelphia Story
+263. Bringing Up Baby
+264. The Aviator
+265. An Affair to Remember
+266. Sabrina (any version) [x]
+267. Holiday
+268. Conspiracy Theory
+269. Stage Door
+270. Rigaletto
+271. White Christmas[x]
+272. Who Framed Roger Rabbit?[x]
+273. The Wedding Planner [x]
+274. Arsenic and Old Lace
+275. A Day at the Races
+276. Willy Wonka [x]
+277. Bend it Like Beckham [x]
+278. Star Wars Episode III 
+279. A Beautiful Mind [x]
+280. Urban Legend
+281. The Dead Poet's Society
+282. Kill Bill vol. 1 
+283. Kill Bill vol. 2 
+284. The Royal Tenenbaums 
+285. The Life Aquatic
+286. American Beauty [x]
+287. A Chorus Line
+288. Iron Jawed Angels
+289. Phantom of the Opera[x] 
+290. A League of their Own[x]
+291. Stuart Little [x]
+292. Notting Hill[x]
+293. A lot like love[x]
+294. Along came Polly [x]
+295. Billy Madison[x]
+296. Happy Gilmore[x] 
+297. A Hard Day's Night 
+298. Monty Python and the Holy Grail
+299. The Motorcycle Diaries
+300. Y Tu Mama Tambien
+301. Bokura no War Game
+302. Raise Your Voice
+303. The Birds [x]
+304. Camp Nowhere
+305. Billy Elliot[x]
+306. Anchorman 
+307. The Crow 
+308. *62
+309. Queen Of The Damned [x]
+310. Jumanji [x]
+311. Gattica 
+312. Benny and Joon 
+313. Tank Girl 
+314. Monty Python: The Meaning of Life 
+315. A Knight's Tale [x]
+316. Anastasia [x]
+317. Unconditional Love 
+318. Beauty & The Beast [x]
+319. Schindler's List [x]
+320. Anne Frank - any version [x]
+321. The Man in the Iron Mask [x]
+322. Thirteen [x]
+323. Waterboy [x]
+324. Big Daddy [x]
+325. Grind [x]
+326. Slackers [x]
+327. Super Troopers [x]
+328. Soroity Girls [x] (spelling??)"
+"eventtime","2005-05-24 16:32:00"
+"url","http://superfreak-xox.livejournal.com/43709.html"
+"userid","14955"
+"itemid","169"
+"event","<center>I'll try not to make this<i>too</i> emo</center>
+
+<b>Friday</b>
+
+I went to school & wore jeans of course. & a tilt shirt 1| black & pink roses & hearts & scribble on it. it was ranin out so my hair got fucked. Then I went in. & In homebase I realize it was Career Day. So i went to my locker & dropped off my stuff. & I ran into Mr.Simms... So he was like go wait by my office I have to talk to you. So I was there for all of homebase and some of 1st block. After he came & I tlake dto him I went to class.
+
+1ST xO P.E. _* I went & sat up with Caty, Phillip, & Gunner & Jonathan. & phillip wouldnt leave me alone. I've had enough of him. EVERYDAY he has to say something to me... something rude & mean. & caty always tells him to stop but he always says ""shes evil she always hits us and shit. you don't know what its like haveing class wiht her all day""... well Did he ever think... that I wouldn't hit him if he didn't talk shit & do stuff to desrve to get hit.  I mean.. whatever. Then TImmy came & sat with us, Then I was inbetwen the 2 seats & then caty fell on me... and gunnar was on topa her.. so I had alotta weight on me. But I didn't care. Then I just left. they didn'tall our class but I still left.
+
+2ND xO Language _* we had a sub. and the first one was pretty cool. but then mrs.roberts was evillllllll. lol. then like 2 ppl tlaked about their job. then I was like fuck it & was ready to leave.
+
+Lunch_* Bean was being gross... & of course Josh wasn't here so I had to suffer with that. Phillip was being a dick.I was ready to go. I ran outta there.
+
+Between _* Iwent to go look 4 my dunkeroos in my locker and they were gone... yeah gone. & phillip & jack & whoever eles like took all the shit outta mine & rae's locker. I picked it all up Whatever. I didn't blow up.
+
+3RD xO Social Studies _* Amalia's mom talked about the war and shit. it was iight. then she left and the rest of the class was just everyone chillin. then I left.
+
+i went straight to class.
+
+4TH xO Math _* we did nothing really. i got to sit by Jack. woo hoo. then whatever. We left at like 3.00. 
+
+Buses_* SO I went upstairs and I was wating to see Connor. Then he came up behind me I was like Whooooa. So I walked with him out.. :) only parta the day where something bad didnt happen: walking outside with Connor & the mexicans. then we walked outside andphillip & jack were being gay... so i kicked phillip in his balls :). 
+
+then I went on my bus. Starnold wasn't there... she wont be here on Monday either... I miss her.
+
+Then I went home...  
+
+We won't even start about what""brittany""did. well. Me & Connor were going to go to the movies... then like 20 mins b4 he was like i g2g I can't go to the movies bye. He left & him & josh went over Nikki's. But b4 that. Nikki asked me to come babysit but I told her that I was going to the movies but if  I ended up not going that i would tell her. well I told her and she didn't say anything back to me...ignoring me?? oh well.
+
+then...i went over chrissy's @ like 11 I tlaked to Connor online. He felt bad for ditching me and wanted to hang out with me today<b> (saturday)</b> and i was like ok what u wanna do. he was like You should come over. I told him to call me after he asked and knew what was going on.
+
+Then I left chirsys's house early<b> (well like 12.30-.12.45)</b> JUST  so I could be home & could go over Connor's house when ever he called or what ever. Then Josh i.med me and he was like... oh you know he went paintballin' right?? I was so pissed.  He tlaks about wanting to hang out blah blah then makes plans with me THEN goes paintballin!?! wtf... oh well.
+
+ANd me and Porno were going to do something today but we couldn't figure it out cuz i had o get off the fone. now i'm sitting at home bored. talking to Jenn<3
+
+So if you wanna do something tonight you can call me if you want....
+
+bye...:-/
+
+song..
+
+<i>I feel it eating at me
+While you still drown me
+And cross the line over and over again
+It's all around me
+Now I'm here cause of you
+
+Now I'm falling
+I'm falling out cause of you
+Now I'm falling
+<b>Deeper into you </b>
+
+Tired of hating myself
+I can't let me cross the line for her
+I'm not me when I dream
+There's someone else in me 
+That I fear cause of you
+
+Now I'm falling
+I'm falling out cause of you
+Now I'm falling
+Deeper into you 
+
+I'm not me when I dream
+I'm not me when I dream, anymore
+Because of you"
+"eventtime","2005-05-21 19:37:00"
+"url","http://superfreak-xox.livejournal.com/43511.html"
+"userid","14955"
+"itemid","168"
+"event","I give up
+I'm not doing anything tonight
+all my things have fell through...
+
+was going to go to the movies.. didn't happen
+then was going to go over Nikki's... didn't happen...
+
+WHATEVER.................
+
+nothing works out in my life.
+better start getting used to me complaining. If you don't like it there is and x button."
+"eventtime","2005-05-20 19:32:00"
+"url","http://superfreak-xox.livejournal.com/43073.html"
+"userid","14955"
+"itemid","167"
+"event","<table style=""font-family: serif; color: black; font-size: 12pt;"" width=""200"" align=center border=1 bordercolor=black cellspacing=0 cellpadding=5>
+<tr><td align=""center"" bgcolor=""#FFD391"">
+<h3 style=""margin: 0; border: 0;"">Your Deadly Sins</h3>
+</td></tr>
+<tr><td bgcolor=""#FFCE93"">
+<strong>Envy</strong>: 100%
+</td></tr>
+<tr><td bgcolor=""#FFC995"">
+<strong>Greed</strong>: 60%
+</td></tr>
+<tr><td bgcolor=""#FFC498"">
+<strong>Lust</strong>: 60%
+</td></tr>
+<tr><td bgcolor=""#FFBF9A"">
+<strong>Pride</strong>: 60%
+</td></tr>
+<tr><td bgcolor=""#FFB99C"">
+<strong>Wrath</strong>: 60%
+</td></tr>
+<tr><td bgcolor=""#FFB49E"">
+<strong>Sloth</strong>: 40%
+</td></tr>
+<tr><td bgcolor=""#FFAFA1"">
+<strong>Gluttony</strong>: 0%
+</td></tr>
+<tr><td bgcolor=""#FFAAA3"">
+<strong>Chance You'll Go to Hell</strong>: 54%
+</td></tr>
+<tr><td bgcolor=""#FFA5A5"">
+You will die in a duel.</td></tr>
+</table>
+<div align=""center"">
+<a href=""http://www.blogthings.com/howsinfulareyouquiz/"">How Sinful Are You?</a>
+</div>
+
+
+
+<table width=400 align=center border=1 bordercolor=black cellspacing=0 cellpadding=2>
+<tr><td bgcolor=#66CCFF align=center>
+<font face=""Georgia, Times New Roman, Times, serif"" style='color:black; font-size: 14pt;'>
+<b>You Will Die at Age 55</b></font></td></tr>
+<tr><td bgcolor=#FFFFFF>
+<center>
+  <font color=""#0000CC"" size=""+6"">
+  55  </font>
+
+</center>
+
+<font color=""#000000"">
+Not bad, considering your super wild lifestyle
+
+Want to live longer? Try losing a few bad habits.</font></td></tr></table>
+
+<div align=""center"">
+<a href=""http://www.blogthings.com/whatagewillyoudiequiz/"">What Age Will You Die?</a>
+</div>
+
+
+
+<table style=""font-family: serif; color: black; font-size: 12pt;"" width=""350"" align=center border=""0"" cellspacing=""8"" cellpadding=""5"">
+<tr><td align=""center"" bgcolor=""#EACCFF"">
+<h3 style=""margin: 0; border: 0;"">What You Really Think Of Your Friends</h3>
+</td></tr>
+<tr><td bgcolor=""#EED6EB"">
+Timmy is your soulmate.</td></tr>
+<tr><td bgcolor=""#F2E0D6"">You truly love Connor.</td></tr>
+<tr><td bgcolor=""#F7EBC2"">You consider Jordan your true friend.</td></tr>
+<tr><td bgcolor=""#FBF5AD"">You know that Brittany is always thinking of you.</td></tr>
+<tr><td bgcolor=""#FFFF99"">You'll remember Caitlin for the rest of your life.</td></tr>
+<tr><td bgcolor=""#FFF199"">You secretly think Gunnar is creative, charming, and a bit too dramatic at times.</td></tr>
+<tr><td bgcolor=""#FFE29A"">You secretly think that Jegnn is colorful, impulsive, and a total risk taker.</td></tr>
+<tr><td bgcolor=""#FFD49A"">You secretly think that Bean is loyal and trustworthy to you. And that Bean changes lovers faster than underwear.</td></tr>
+<tr><td bgcolor=""#FFC59A"">You secretly think Nikki is shy and nonconfrontational. And that Nikki has a hidden internet romance.</td></tr>
+</table>
+
+<div align=""center"">
+<a href=""http://www.blogthings.com/whatdoyouthinkofyourfriends/"">What Do You Think of Your Friends?</a>
+</div>
+
+
+<b>a couple of those are true.. not all of them tho!!</b>
+
+<table style=""font-family: serif; color: black; font-size: 12pt;"" width=""350"" align=center border=""0"" cellspacing=""8"" cellpadding=""5"">
+<tr><td align=""center"" bgcolor=""#FF99CC"">
+<h3 style=""margin: 0; border: 0;"">The Keys to Your Heart</h3>
+</td></tr>
+<tr><td bgcolor=""#FF9FD2"">
+You are attracted to those who are unbridled, untrammeled, and free.</td></tr>
+<tr><td bgcolor=""#FFA6D9"">
+In love, you feel the most alive when your lover is creative and never lets you feel bored.</td></tr>
+<tr><td bgcolor=""#FFACDF"">
+You'd like to your lover to think you are loyal and faithful... that you'll never change.</td></tr>
+<tr><td bgcolor=""#FFB3E6"">
+You would be forced to break up with someone who was insecure and in constant need of reassurance.</td></tr>
+<tr><td bgcolor=""#FFB9EC"">
+Your ideal relationship is traditional. Without saying anything, both of you communicate with your hearts.</td></tr>
+<tr><td bgcolor=""#FFBFF2"">
+Your risk of cheating is zero. You care about society and morality. You would never break a commitment.</td></tr>
+<tr><td bgcolor=""#FFC6F9"">
+You think of marriage as something precious. You'll treasure marriage and treat it as sacred.</td></tr>
+<tr><td bgcolor=""#FFCCFF"">
+In this moment, you think of love as something you thirst for. You'll do anything for love, but you won't fall for it easily.</td></tr>
+</table>
+
+<div align=""center"">
+<a href=""http://www.blogthings.com/keystoyourheartquiz/"">What Are The Keys To Your Heart?</a>
+</div>
+
+
+<table width=400 align=center border=1 bordercolor=black cellspacing=0 cellpadding=2>
+<tr><td bgcolor=#66CCFF align=center>
+<font face=""Georgia, Times New Roman, Times, serif"" style='color:black; font-size: 14pt;'>
+<b>Your Seduction Style: The Natural</b></font></td></tr>
+<tr><td bgcolor=#FFFFFF>
+<center>
+<img src=""http://www.quizdiva.net/bt/natural.jpg"">
+</center>
+<font color=""#000000"">
+You don't really try to seduce people... it just seems to happen.
+Fun loving and free spirited, you bring out the inner child in people.
+You are spontaneous, sincere, and unpretentious - a hard combo to find!
+People drop their guard around you, and find themselves falling fast.</font></td></tr></table>
+
+<div align=""center"">
+<a href=""http://www.blogthings.com/seducerquiz/"">What Is Your Seduction Style?</a>
+</div>
+ 
+
+<b>yeahhhh right</b>
+
+<center>
+
+<table border=0 cellpadding=4 bgcolor=""#000000"">
+
+<tr>
+
+<th colspan=""3"" bgcolor=""#BBFFFF""> <font color=""#000000"" size=""+1"">MOLLIEELIZABETHSTRICKER</font> </th>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">M</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Misunderstood</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">O</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Outrageous</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">L</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Lively</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">L</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Lively</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">I</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Intense</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">E</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Earnest</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">E</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Extreme</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">L</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Loud</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">I</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Insane</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">Z</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Zany</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">A</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Athletic</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">B</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Bewildering</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">E</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Enthusiastic</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">T</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Tasty</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">H</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Handy</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">S</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Sensual</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">T</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Trustworthy</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">R</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Romantic</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">I</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Insane</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">C</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Conservative</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">K</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Keen</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">E</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Enlightened</font> </td>
+
+</tr>
+
+<tr>
+
+<td bgcolor=""#CCFFFF""> <font color=""#000000"" size=""+1"">R</font> </td>
+
+<td bgcolor=""#DDFFFF""> <font color=""#000000"" size=""+1"">is for</font> </td>
+
+<td bgcolor=""#EEFFFF""> <font color=""#000000"" size=""+1"">Radical</font> </td>
+
+</tr>
+
+</table>
+</center>
+<div align=""center"">
+<a href=""http://blogthings.com/acro/acronymquiz.php"">
+What Does Your Name Mean?</a>
+</div>
+
+
+<table width=400 align=center border=1 bordercolor=black cellspacing=0 cellpadding=2>
+<tr><td bgcolor=#66CCFF align=center>
+<font face=""Georgia, Times New Roman, Times, serif"" style='color:black; font-size: 14pt;'>
+<b>What Your Dreams Mean...</b></font></td></tr>
+<tr><td bgcolor=#FFFFFF>
+<center>
+<img src=""http://www.quizdiva.net/dreams/bad.jpg"">
+</center>
+<font color=""#000000"">
+
+Your dreams seem to show that you're very preoccupied with your fears and problems.
+
+These bad dreams indicate that you need to spend more time on your issues during the day.
+
+Your dreams tend to reflect your insecurities.
+
+You have a very vivid imagination and a rich creative mind.
+
+You secretly want to hide your dreams from your waking mind.
+
+</font></td></tr></table>
+
+<div align=""center"">
+<a href=""http://www.blogthings.com/whatdoyourdreamsmeanquiz/"">What Do Your Dreams Mean?</a>
+</div>"
+"eventtime","2005-05-20 18:14:00"
+"url","http://superfreak-xox.livejournal.com/42866.html"
+"userid","14955"
+"itemid","166"
+"event","<table align=center border=1 bordercolor=black cellspacing=0 cellpadding=2><tr><td align=left bgcolor=#FFE6E8><font face=""Verdana, Arial, Helvetica, sans-serif"" style='color:black; font-size: 12pt;'>Your Boobies' Names Are: <b>Beavis and Butthead</b><br /></font></td></tr></table><br><div align=""center""><a href=""http://www.blogthings.com/boobiename.html""><b>Get your own Boobie Names</b></a></div><br>"
+"eventtime","2005-05-20 18:09:00"
+"url","http://superfreak-xox.livejournal.com/42538.html"
+"userid","14955"
+"itemid","165"
+"event","01. Reply with your name and I will write something about you.
+02. I will then tell what song or movie reminds me of you.
+03. I will try to name a single word that best describes you.
+04. I will say something that only makes sense to you and me.
+05. I'll tell you the most memorable moment I've had with you.
+06. I will tell you what animal you remind me of.
+07. I'll then tell you something that I've always wondered about you.
+08. Put this in your journal."
+"eventtime","2005-05-19 19:55:00"
+"url","http://superfreak-xox.livejournal.com/42464.html"
+"userid","14955"
+"itemid","164"
+"event","<center> where do I being??
+Oh yeah.. my life is hell...</center>
+
+I woke up ... the clothing is...
+<center><b>Weathervain capri's
+pink areo shirt w| brown & orange stripes..</b> I know sounds gay but i like it Katie gave it to me
+<b>gray Vans</b></center>
+
+I know I didn't look that great.
+My mom gave me a ride to school cuz' she had to fill out the Six Flags thinger. She told ms.Kinard about Sade' DAMN HER. and so I went nd' checked in with homebase and then I went to Ms.Kinard's office and was there till like the first 2 mins of 1st block.
+
+1ST xO Computers _* we worked on the stupid final project thingy for power point and gahh its so dum. WE HAVE TO FLIPPING PRESENT IT. I don't want them to know about what I'm doin' over summer they will frikin stalk me!!! Then me & Josh tlaked a little.. I got my computer movied... cuz' I asked him where Connor lived wtf is that shit.
+
+2ND xO Science _* me & Cierra wrote all over my legs & my arm. fun fun fun. then I went in the back and chilled with Steven B, and Shawn and Anthony B. and those kids. Then lefted.
+
+Between _*  I went and chilled with Josh by the window. he was being gay. whatever so I left.
+
+Lunch _* I chilled with Are <b>(Rafee)</b> most of the time.  & I had lunch AND 2 bags of chips. score...
+
+Between _* Lets not go there....
+
+3RD xO Math _* I went to math and during the warm up I got kicked out cuz' I was ignoring her. So I was in Ms.Kaval's roomw ith the cool Kids. Mason, Tryo, Brian and Kendall<b>(#3)</b>So I was there till like forever. & she wouldn't let me stay during 4th block... that frikin sucks.
+
+Between _* Mr. Simms said he was going to tka em outts class I was like uhh SCORE. but now he knows my fucking name that fucking sucks!
+
+4TH xO Language _* Wow... I LOVE sitting next to Alexandra. she's s funy. we were like making our own little hut cuz we have our own row. And we were yellin through rolled up paper. lmao. so funn. she gets alotta boo boos lol. then we went down to the computer lab fun fun. NOT. then we worked on stuff for a project thinger. and yeah. then left & went to my locker.
+
+Buses _* I met Connor @ the top of the steps & chilled with him Dirt Sanchez & some other mexican. then Iw as chillin with them & yeah.. I tried to go talk to Jordan & Caty... but it didn't work.. whatever. THen I was tlaking with Logan for like 2 seconds then went to my bus & talked with Starnold & she won't be in school fer the rest of the week till tuesday.... :(!!!! tear much.
+
+Home _* Got off the bus listened to my iPod & what not. THen I talked to Zymena about Connor... hmmm whatever. I really don't care anymore. its not worth it. I mean...I'm never going to see him or anyone eles after this year so.. i just give up. & I'll just go my own way from here on out. I ate some pizza, checked the mail, talked to Connor-Steven B-and Gunnar and yeah.. now I'm here
+
+This is what was written on my arms & legs
+<i>right arm </i>you kill me and you do it so well. You enjoy it too I can tell.
+<i>left arm</i>I'll hold my tounge and let you think I'm over you... But I'm not.
+<i>left hand</i> My bible is a river of blood
+<i> left palm</i> You are my slowest form of suicide
+<i>right ankel</i>HECK  and....I don't wanna grow up I'ma Toys R Us kidd
+<i>left ankel</i> YES
+<i>right leg</i> spider web & spider & PoIsen
+
+
+
+<b><center>my bible is a river of blood...</center></b>
+
+
+<marquee><u>This may be the last thing that I write for long
+Can you hear me smiling when I sing this song, 
+for you, and only you
+
+As I leave will you be someone to say good-bye?
+As I leave will you be someone to wipe your eye?
+My foot is out the door, and you can't stop me now"
+"eventtime","2005-05-19 16:10:00"
+"url","http://superfreak-xox.livejournal.com/42209.html"
+"userid","14955"
+"itemid","163"
+"event","<b>Mood:</b> I wish we could just be together.... I only wanna see you happy
+
+
+<center>and I'll drop it down like this...</center>
+
+Woke up late & couldn't decide what to wear.but what ever here's what it was.
+<center><b>Blue Aero ""Miami"" t -shit that my sis Katie gave to me for christmas
+Other pair of weathervain's (jeans)
+Blue high top taylor's</center></b>
+
+then I went to the bus stop & chilled with the people. Talked to Starnold on the bus. walked with David kinda. but whatever. He didn't have any gum. Then I walked with Tony & Phillip. Had to hold Phillip up down the hall -- i'm sure every1 knows WHY -- Then I went to my locker and I was off for homebase.
+
+Homebase _* Sade' was all up in my face again. I sware I didn't do anything to that girl.. Idk whats up with this. Then after wards I was standing by tech ed. and she was like UHHH I wanna kick you fuckin' ass so badly!! and she put her fist in my face and I just stood there and stared at her and didn't move. and she pushed me and I just walked away. I really didn't care. 
+
+1ST xO P.E. _* I got dressed then went out to the gym & was tlkain with the guys. blah blah. Then I went and sat down with everyone. Then we got in groups of 6. 3 boys 3 girls. Me, Caty, Ashley Hood, Phillip, Gunnar, and Jonathan.Then we watched this slide show thinger. I sat with Josh Lew the whole time. & we all know how horny Josh is... But it was cool. then we went outside & everyone chilled & Josh was supposed to go get Tennis rackets but he was sittin on the hill. SO me & Gunnar went to go see wtf he was doing. He got in trouble & had to sit there & wairt. So us three were throwing rocks being dumb. Then we all went inside an changed. Me & Josh were the first ones out. & we were just chillin. Then went to class.
+
+Between _* I was chillin wif peoples and I saw David... But not my other 7th graders... I wonder where they were.... Then I went to class.
+
+2ND xO Language _* I read some of Whirligig and then I don't know... I did my.. Impromptu speach about P.E. and it was dumb. Thats all we did basically all class. Oh yeha and we watched a movie. It was also dumb I almost fell asleep. 
+
+Lunch _* Josh tried to Brand me but the sharpie wasn't working but then he gave it to Jack. God damn it. that errks me. It my fuckin' sharpie. Its a long story why I care so much about that sharpie.. and I'm not bout' to sit here and tell it to you. Then The 7th graders passed by our lunch. and Josh was being dumb.. & They can't even wave those little fuckers. I'm just kidding. they know I love them. Then All the guys had to start saying shit again. like always... Gosh I'm so frikin tired of them ALWAYS having to comment on something. I mean UGH. 
+
+3RD xO Social Studies _* Kianna came in late & me and her were tlaking about Sade' cuz she is trying to fight both of us. But whatever. Then I left. Nothing really that grear happened in thsi class so why talk about it??
+
+Between _* I went and chilled by the window. & Terry pulled me & Josh off to the side cuz' Josh was bout to go in class without sittin' and chillin' like we usually do. adn Terry was lik ""ASk her out..!"" and started all this shit about ohh you guys flirt so muhc & I hate it when ppl flirt but they don't do nothing about it. blah blah blah. & Josh was like... No. I just didn't say anything. & I went to class.  But then Terance was like I'm not going to class. So I drug him down there. 
+
+4TH xO Math _* we really had wacky olympics which was iight. me tony & phillip chilled. But Jack and phillip were wiping ""ball sweat"" on me. it was so fucking nasty.!!!!! you have NO idea. Then we were all chillin all relaxed and we were like  ""whoa we are in weird postitions... if you looked at us from above we would make a letter!!"" so for the longest time we were just making letters. it was funny. lol. Then It was time to go. 
+
+Between _* I was walking thr back way to go to my locker & I saw Connor. So I asked him to come wif me to my locker so he did. & he was tlkaing about hot Hott Kathy Is... lmao. Then I went to my locker & walked with Connor downstairs & outside. & we were chillin
+
+Buses _* I was haning out with COnnor some.. and messin with Josh.Then I went to my bussss.
+
+Bus _* chillin with starnold cuz my iPod died. DAMN IT. lol. then ummmm... yeah. she left. and I was bored. Demarcus HAD to sit with me.
+
+Home _* On the way home I was talking with Zymena.. and she was like ""Connor wanted me to ask you if you sitll have feelings for you..."" I was like WTF I'm not talking about that with you.  & she was liek.. Connor was tlkaing abotu you & was sayin how your Hott. and He likes how your crazy and insane in the mebrane... I was like... whoa.. So now I'm lost & totally confused... *stumped* I'll just 4get about it. theres no use in talking to him about it. Then I came home & ate then got online & then ate some more. & tlake dto my mom. & now I'm on here. & I'm about to go check the mail. So holler....
+
+
+
+
+
+
+<b><center>I'll hold my tounge.. and let you think I'm over you.</center></b>
+
+
+<marquee><i>So dont go worrying about me 
+Its not like I think about you constantly 
+<b>So maybe I do</b> but that shouldnt affect 
+your life anymore"
+"eventtime","2005-05-18 17:20:00"
+"url","http://superfreak-xox.livejournal.com/41827.html"
+"userid","14955"
+"itemid","162"
+"event","Vintage Pistols is Connor, I am butiful screw up
+
+<center>Vintagepistols: heyy!! u love me more fuck stephen
+Vintagepistols: lol
+butiful screw up: LMao.
+butiful screw up: I'll put that in there.
+Vintagepistols: good
+butiful screw up: :-)
+Vintagepistols: i love connor more kuz he is the koolest sexyiest 7th grader
+Vintagepistols: is wut u should put
+butiful screw up: OK. I'll make a whole entry JUST for you
+Vintagepistols:  yeszsss</center>
+
+LMAO. Yes Connor. I love you SOOOO much more than Stephen. I can't even compare how much more I love you than him!!!! *MUAH*
+
+<b>ATTENTION ALL:</b> Connor Egan is the coolest, sexiest, funnest 7TH grader I have ever fuckin' met. If your not friends with Connor then wel... IT SUCKS TO BE YOU!!!!!!!!!!!
+
+
+
+LMAO. LOVE YOU CONNOR!!!!!!  XOXOXOXOXOXOXOXOXOXOXOXO
+ 
+
+
+<marquee>entry dedicated to: Connor!!"
+"eventtime","2005-05-17 20:01:00"
+"url","http://superfreak-xox.livejournal.com/41502.html"
+"userid","14955"

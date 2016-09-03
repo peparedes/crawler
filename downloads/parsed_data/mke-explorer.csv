@@ -1,0 +1,550 @@
+"names","values"
+"itemid","34"
+"event","KE1hbnVhbCBpbiB0aGUgc2Vuc2UgdGhhdCBJIGRvbid0IGFjdHVhbGx5IGhhdmUgZmVlZHMgZmVlZGluZyBtZSB0aGluZ3MuKQ0KPGEgaHJlZj0iaHR0cDovL3d3dy5qc29ubGluZS5jb20vYnVzaW5lc3MvNDIxOTIxNDcuaHRtbCI+TG9jYWwgSW5kdXN0cmlhbCBFY29ub215IEltcHJvdmVkIGluIE1hcmNoPC9hPg0KDQo8aT48YmxvY2txdW90ZT5UdWVzZGF5LCB0aGUgTWlsd2F1a2VlIGNoYXB0ZXIgb2YgdGhlIEluc3RpdHV0ZSBmb3IgU3VwcGx5IE1hbmFnZW1lbnQgc2FpZCB0aGF0IGl0cyBzZWFzb25hbGx5IGFkanVzdGVkIG1hbnVmYWN0dXJpbmcgaW5kZXggcmVnaXN0ZXJlZCAzMCBpbiBNYXJjaCwgdXAgb25lIHBvaW50IGZyb20gRmVicnVhcnkuPC9ibG9ja3F1b3RlPjwvaT4NCg0KSSBuZXZlciBrbm93IHdoYXQgdG8gdGhpbmsgb2YgcmVwb3J0cyBsaWtlIHRoaXMuIFlheSB3ZSdyZSB1cCEgQm9vIGl0J3Mgb25seSB1cCBzbGlnaHRseS4gQnV0IGltcHJvdmVtZW50IGlzIGltcHJvdmVtZW50Lg0KDQpXZSBhcmUgc3RpbGwgYmVsb3cgNTAsIHdoaWNoIG1lYW5zIHRoYXQgTWlsd2F1a2VlIGlzIHN0aWxsIGxvb3NpbmcgbW9yZSBvbiB0aGUgaW5kdXN0cmlhbCBzaWRlIG9mIHRoaW5ncyB3ZSBhcmUgZ2FpbmluZy4gQXBwYXJlbnRseSB0aGlzIGluZGV4IGlzIHNvbWV0aGluZyBJIGFtIHN1cHBvc2VkIHRvIGJlIHdhdGNoaW5nIHRvIGhlbHAgbWUgZmlndXJlIG91dCB0aGUgZWNvbm9teS4gKEFsb25nIHdpdGggb3RoZXIgdGhpbmdzIEkndmUgYmVlbiB0b2xkIHRvIHdhdGNoIGluY2x1ZGluZyBzdXBlcm1hcmtldCBwcmljZXMsIGdhcyBwcmljZXMsIGlmIHRoZSBza3kgaXMgZmFsbGluZyBvciBub3QsIGFuZCBpZiB0aGUgc3VuIHJpc2VzIGFuZCBzZXRzIGVhY2ggZGF5KS4NCg0KDQo8YSBocmVmPSJodHRwOi8vd3d3Lmpzb25saW5lLmNvbS9ibG9ncy9idXNpbmVzcy80MjE5NTY1Mi5odG1sIj5SZWFsdG9yczpDaXR5IEhhbGwgU2hvdWxkIFRha2UgT3ZlciBQYXJrIEVhc3QgTGFuZDwvYT4NCg0KPGk+PGJsb2NrcXVvdGU+4oCcVGhlIENpdHkgaGFzIHRoZSB0b29scywgcmVzb3VyY2VzIGFuZCBleHBlcnRpc2UgdG8gd29yayBkaXJlY3RseSB3aXRoIHBvdGVudGlhbCBkZXZlbG9wZXJzIGFuZCBpbnZlc3RvcnMsIGFzIHdlbGwgYXMgdGhlIENvdW50eSwgdG8gZW5zdXJlIHRoZSBiZXN0IGFuZCBtb3N0IGVmZmVjdGl2ZSB1c2Ugb2YgdGhlIHByb3BlcnR5LOKAnSBzYWlkIEppbSBWaWxsYSwgZ3JvdXAgcHJlc2lkZW50LCBpbiBhIHN0YXRlbWVudC48L2Jsb2NrcXVvdGU+PC9pPg0KDQpZZXMsIHRoZSBjaXR5IGRvZXMgaGF2ZSB0aGVzZSB0b29scyBlY3QuLi5qdXN0IG5vdCB0aGUgbW9uZXkgb3IgdGhlIGNvb3BlcmF0aW9uIG9mIHRoZSBjb3VudHkgYm9hcmQgd2hvIGJlbGlldmVzIHRoYXQgaXQgaXMgb25seSB0aGUgZWNvbm9teSB0aGF0IGtlZXBzIHRoZSBQYXJrIEVhc3QgbGFuZCBiYXJyZW4uIE5vdCByZWQgdGFwZSBvciBzbHVnZ2lzaCBnb3Zlcm5tZW50YWwgYm9hcmRzLg0KDQpTaW5jZSBhcHBhcmVudGx5IGRvd250b3duIE1pbHdhdWtlZSBoYXNuJ3QgYmVlbiBkZXZlbG9waW5nIHNpbmNlLi4ud2hlbmV2ZXIgd2UgdG9yZSB0aGF0IGZyZWV3YXkgZG93bi4gSSdtIGZhaXJseSBjZXJ0YWluIHRoYXQgdGhlcmUgaGF2ZSBiZWVuIHBsZW50eSBvZiBnb29kIGVjb25vbWljIHRpbWVzIHRvIGdldCBzb21ldGhpbmcgdGhlcmUuDQoNCk5vdywgSSBkb24ndCBtZWFuIHRvIHNvdW5kIGxpa2UgSSdtIHVwIGZvciBhbnl0aGluZywgYnV0IEknbSByZWFsbHkgZ2V0dGluZyBzaWNrIG9mIHNlZWluZyB0aGF0IGdpYW50IHN3YXRoIG9mIGVhcnRoIHRoZXJlLiBDb21lIHRvIERvd250b3duIE1pbHdhdWtlZSEgU2VlIGFjcmVzIG9mIGRpcnQgYW5kIHN1cmZhY2UgcGFya2luZyEgQmxhbWUgaXQgb24gdGhlIGVjb25vbXkhDQoNCihPYnZpb3VzbHkgaXQgaXNuJ3QgYSByZXN1bHQgb2YgdGhlIHZpcnR1YWwgbm9uLWV4aXN0ZW50IGNvb3BlcmF0aW9uIGJldHdlZW4gdGhlIENpdHkgYW5kIHRoZSBDb3VudHkuKQ0KDQpBbmQgSW4gV2F1a2VzaGEgTmV3czoNCjxhIGhyZWY9Imh0dHA6Ly93d3cuanNvbmxpbmUuY29tL25ld3Mvd2F1a2VzaGEvNDIxNjQ3MTcuaHRtbCI+SG91c2luZyBNYXkgRmlsbCBXYXVrZXNoYSBZV0NBIFNpdGU8L2E+DQoNCjxpPjxibG9ja3F1b3RlPkFmdGVyIHRoZSBwcmVzZW50YXRpb24sIG5laWdoYm9yIEtpbSBQaXBraW4gZXhwcmVzc2VkIGhlciBjb25jZXJuIHRoYXQgMTYgaG9tZXMgd291bGQgYmUgdG9vIGNsb3NlIHRvZ2V0aGVyIGFuZCB0aGUgbG90cyB3b3VsZCBiZSB1bmRlcnNpemVkLg0KDQoiT2J2aW91c2x5LCB0aGV5J2xsIHJlYWxseSBiZSBzdGFydGVyIGhvbWVzLCIgc2hlIHNhaWQuICJJIHdhcyBnbGFkIHRvIGhlYXIgcGxhbnMgZm9yIGNvbmRvcy4iPC9pPjwvYmxvY2txdW90ZT4NCg0KTGV0IG1lIHRyYW5zbGF0ZSB0aGF0IGxhc3QgcXVvdGUgZm9yIHlvdS4gIkknbSBhZnJhaWQgdGhhdCB3ZSBtaWdodCBoYXZlIHBvb3IgcGVvcGxlIG9yIG1pbm9yaXRpZXMgbGl2aW5nIGluIFdhdWtlc2hhIGFuZCBnZXR0aW5nIGZhbWlseSBzdXBwb3J0aW5nIGpvYnMhIFRoZXkgYWxzbyBtaWdodCBidWlsZCBob3VzZXMgb24gbG90cyBsZXNzIHRoYW4gMS8yIGFuIGFjcmUgYW5kIGhhdmUgaG91c2VzIGNsb3NlciB0b2dldGhlciEgVGhhdCBtaWdodCBjcmVhdGUgYSBzdXN0YWluYWJsZSBuZWlnaGJvcmhvb2QhIE9oIEdvZC4uLndlJ2xsIGxvb2sgbGlrZSBNaWx3YXVrZWUgb3Igc29tZXRoaW5nISBUaGF0IGRpc2d1c3RpbmcgY2l0eSB3aXRoIHBvdmVydHkgYW5kIHNpZGV3YWxrcyBhbmQgbmVpZ2hib3Job29kcyBhbmQgYmxhY2sgcGVvcGxlISINCg0KWWVhaCwgdGhhdCB3YXMgYSBsaXR0bGUgaGFyc2gsIGJ1dCBJIGRvbid0IHNlZSBob3cgaG9tZXMgdGhhdCBhcmUgcHJpY2VkIGJldHdlZW4gJDE1MCwwMDAtJDIwMCwwMDAgYXJlIHJlYWxseSBhbGwgdGhhdCBhZmZvcmRhYmxlIHByaWNlZC4NCg0KQWxzbywgd2hhdCAiY29uZG9zPyIgSXMgdGhpcyB0aGUgc3VidXJiYW4gd2F5IG9mIHNheWluZyB0aGF0IGNvbmRvcz1mYW1pbHktb3duZWQgdmVyc3VzIGhvdXNlcz1yZW50YWwgcHJvcGVydGllcz8NCg0KSSBndWVzcyByZWRldmVsb3BtZW50IGlzIGdvb2QgYW5kIGFsbCwgYnV0IEkgdGhpbmsgdGhhdCBXYXVrZXNoYSdzIHN1cHBvc2VkIHB1c2ggZm9yIGFmZm9yZGFiaWxpdHkgaXMgcmVhbGx5IGZha2UuDQoNCg0KSW4gb3RoZXIgbmV3cywgd2lsbCBzcHJpbmcgYmUgY29taW5nIHRvIE1pbHdhdWtlZSBhZ2FpbiBzbyBJIGNhbiBnbyBvdXQgYW5kIGV4cGxvcmUgd2l0aG91dCBnZXR0aW5nIHdldCBhbmQgY29sZD8="
+"eventtime","2009-03-31 13:11:00"
+"url","http://mke-explorer.livejournal.com/8799.html"
+"userid","10238"
+"itemid","32"
+"event","This is what I'll be reading today and tomorrow.
+
+http://www.nytimes.com/2009/03/08/magazine/08Foreclosure-t.html
+
+I'll comment more on it later, but I'm sure that they are things us Rust Belters have been seeing for a long time. Now the rest of the country is facing it and freak it out.
+
+Also, I <i>know</i> that this applies to more than just Cleveland."
+"eventtime","2009-03-09 15:37:00"
+"url","http://mke-explorer.livejournal.com/8389.html"
+"userid","10238"
+"itemid","31"
+"event","Hmmm...
+
+My copy of Word 2003 doesn't seem to like the term ""deindustrialized"" and would rather replace it with ""reindustrialized.""
+
+I guess I can't blame it for looking up."
+"eventtime","2009-02-24 16:37:00"
+"url","http://mke-explorer.livejournal.com/7972.html"
+"userid","10238"
+"itemid","30"
+"event","If anybody is still out there and reads this, hi!
+
+If you are new to this corner of the internet, hi!
+
+Originally, this blog was born out of a class about blogging. Now this blog is being reborn out of a class; an independent study that is seemingly constantly evolving, but always interesting.In essence, this blog will serve as notes on my independent study of Rust Belt Cities and their web presence, including but not limited to:
+-Official City Webpages
+-Development Blogs (Both official and unofficial)
+-Virtual Museums of City History (Do they exist for Rust Belt Cities? Are they any good?)
+In the end, this blog may or may not become a virtual museum of the History of Milwaukee. I may build a virtual museum somewhere else. For an idea of what I'm looking at, <lj-cut text=""Click This Link Than Click These Links"">
+
+<b>Milwaukee: Official Websites</b>
+<a href='http://www.mkedcd.org/us.html'>City of Milwaukee Department of City Development</a>
+<a href='http://www.city.milwaukee.gov/'>City of Milwaukee</a>
+<a href='http://metromilwaukee.org/'>MetroMilwaukee.org: Your Guide to Milwaukee Relocation</a>
+<a href='http://www.discovermilwaukee.com/'>Discover Milwaukee</a>
+<a href='http://choosemilwaukee.com/'>7 Counties. 1 Great Region</a>
+<a href='http://jsonline.com/'>Milwaukee Journal Sentinel</a>
+<a href='http://www4.uwm.edu/'>UW-Milwaukee: Something Great in Mind</a>
+
+<b>Milwaukee: Blogs</b>
+<a href='http://urbanmilwaukee.com/'>Urban Milwaukee: Championing Urban Life In The Cream City</a>
+<a href='http://milwaukeetalkie.blogspot.com/'>Milwaukee Talkie: A Public Policy Forum Blog</a>
+<a href='http://fullyarticulated.typepad.com/sprawledout/'>Sprawled Out: The Search for Community in the American Suburb</a>
+<a href='http://www.milwaukeeworld.com/'>MilwaukeeWorld: The Orb of Milwaukee Political Blogging</a>
+
+<b>Other Cities: Official Websites</b>
+<a href='http://www.louisvilleky.gov/'>Louisville, Kentucky (USA)</a>
+<a href='http://www.cincinnati-oh.gov/'>City of Cincinnati</a>
+<a href='http://www.city.cleveland.oh.us/CityofCleveland/Home'>City of Cleveland</a>
+<a href='http://www.city.pittsburgh.pa.us/'>City of Pittsburgh, Pennsylvania</a>
+<a href='http://www.ci.buffalo.ny.us/'>City of Buffalo</a>
+
+<b>Other Cities: Blogs</b>
+<a href='http://www.building-cincinnati.com/'>Building Cincinnati</a>
+<a href='http://coolhistoryofcleveland.blog.com/'>The Cool History of Cleveland</a>
+<a href='http://www.urbanohio.com/'>UrbanOhio.com</a>
+<a href='http://fixbuffalo.blogspot.com/'>fix buffalo today</a>
+<a href='http://joeplanner.blogspot.com/'>Joe The Planner (Buffalo)</a>
+<a href='http://www.forgottenbuffalo.com/welcome.html'>Forgotten Buffalo</a>
+
+</lj-cut>
+Thank you for joining me on this adventure,
+-Peter"
+"eventtime","2009-02-23 23:29:00"
+"url","http://mke-explorer.livejournal.com/7683.html"
+"userid","10238"
+"itemid","29"
+"event","Test"
+"eventtime","2009-02-14 19:41:00"
+"url","http://mke-explorer.livejournal.com/7438.html"
+"userid","10238"
+"itemid","28"
+"event","<a href='http://www.mediafire.com/?9zmzjykl4mi'>Re-invention of Rust Belt Cities</a>
+
+Thank you for listening to my rant."
+"eventtime","2007-04-13 13:09:00"
+"url","http://mke-explorer.livejournal.com/7413.html"
+"userid","10238"
+"itemid","27"
+"event","Or just a file in MP3 format? Give it a listen. Or not.
+
+<a href='http://www.mediafire.com/?0zovntcnanz'>This is an experimental audio file  </a>
+
+Milwaukee Explorer now in Audioblog format. Maybe."
+"eventtime","2007-04-08 22:53:00"
+"url","http://mke-explorer.livejournal.com/6978.html"
+"userid","10238"
+"itemid","26"
+"event","It's a nice day outside. Go out and explore Milwaukee on your own. 
+
+As for me and this blog...things might slow down. Midterms are sort of over, but projects continue to be piled on me for school.
+
+Instead I'm going to just rant a bit.
+
+I busted up on my generation a bit back about not having enough civic pride. I'll still stand by it though, civic pride is lost.
+
+But there's some of us (myself included) who would like to stay in this city through thick and thin. Right now obviously we're kinda thin, but I don't think I'd call us skinny.
+
+We're ""trim."" Milwaukee's in a sweet spot right now. Not for publicly funded projects (as we found out that our nationally known <a href=""http://www.jsonline.com/watch/?watch=1&date=3/26/2007&id=21078"">housing program is in trouble</a>) but we've got a few local corporations doing good.
+
+Local corporations are something that Milwaukee has depended upon while we are in our downs. Look around town, look at all those things called ""corporate sponsorships."" They've been around for a while in our city. It's nothing new to Milwaukee.
+
+But I've already gone off track.
+
+I think that the generation before us (I'd call them yuppies...those professionals who live in their rich condos downtown and along the lake...while I'm driving my $200 car around them and taking pictures) won't stay. They know what they want and they won't stay in a city if it doesn't offer it. City residents vote with their feet, they'll move if they want to.
+
+However (and maybe I'm just full of bright-eyed college urban planning/geography/studies optimism) I think we'll be the generation to fix the cities. We've seen the <a href=""http://www.ci.detroit.mi.us/default.htm"">wrong way</a> <a href=""http://www.gary.in.us/"">to fix</a> <a href=""http://www.cincinnati-oh.gov/index.html?CFID=757610&CFTOKEN=1f494e66f3b3406a-8F7D7397-F1AB-D188-5C74A2D58CD21C23""> a city</a> and we've got new ideas. Ideas that will fix the city.
+
+I don't want to see anyone do this in the next few years to my city on a blog:
+
+<span style=""font-style:italic;""><a href=""http://www.ci.mil.wi.us/"">We've seen the wrong way to fix a city...</a></span>
+
+Rant two:
+
+Right now we can pretty much call public transit in Milwaukee dead. Scotty Walker and his men continue to cut away at our bus service, but don't do much else to help it. Okay, so they did propose more freeway lanes...
+
+Mayor Barrett has proposed his <a href=""http://www.mkedcd.org/ebulletin/transit/"">idea</a> which I actually like the best right now. I'd like to see the current bus system stay (and update the buses) with something like Mayor Barrett's idea. People would use this system because it actually goes some place. Take people to they're jobs and where they want to go? What a novel idea.
+
+Pluses I see with COMET at a first glance
+-Somebody actually bothered to see where development is happening, where it has happened, and where it can happen because of transit. Transit that spurs development is something that Milwaukee needs.
+-It goes somewhere. It doesn't just loop around downtown and make people drive to park to get on a trolley to walk 4 to 7 blocks (which isn't that hard, 4 to 7 urban blocks isn't much. The commute in the late 1800s and early 1900s in Milwaukee involved the factory worker walking a half an hour to an hour from home to work and back again after a 12ish hour day) it actually connects parts of the city to other parts of the city
+-It doesn't require retrofitting (or re-retrofitting) our streets for rail-based transit.
+
+I'm liking it right now, but this debate over transit isn't going to be over anytime soon and isn't going to be liked by everybody.
+
+I'd rather take the bus then drive my $200 car around town.
+
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Misc/5645_large.jpg"" />"
+"eventtime","2007-03-26 16:28:00"
+"url","http://mke-explorer.livejournal.com/6729.html"
+"userid","10238"
+"itemid","25"
+"event","<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/17r.jpg""/>
+
+Obviously, the Coast Guard Station is a fairly simple building, but sometimes it's all in the little details.
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/16r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/18r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/19r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/20r.jpg""/>
+
+It's been a long time since speed boats rushed out of these docks, but I'm sure they had quite the system.
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/21r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/22r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/23r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/25r.jpg""/>
+
+If the county gave up ownership a few weeks back, does that mean they can actually tell me not to trespass? And why is ""No Trespassing"" in lower case letters? Is it only a suggestion?  
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/24r.jpg""/>
+
+The Old Coast Guard Station is slowly committing suicide and throwing itself into the Lake. What will Milwaukee do?
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/26r.jpg""/>
+
+For now, all other plans have fallen through and are dead in the water.
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/27r.jpg""/>"
+"eventtime","2007-03-19 12:00:00"
+"url","http://mke-explorer.livejournal.com/6644.html"
+"userid","10238"
+"itemid","24"
+"event","Here's some more pictures from my ""adventure"" to the <a href=""http://milwaukeeexplorer.blogspot.com/2007/03/news-stories-as-of-3807.html"">Old Milwaukee Coast Guard Station.</a>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/7r.jpg""/>
+I'm going to have to take a gamble here and say I don't think those doors are of much use anymore...
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/8r.jpg""/>
+That's quite a wonderful little bridge there, although I don't think I'd trust it anymore. This is facing out over the lake, by the way. The rescue boats would sit underneath this bridge.
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/9r.jpg""/>
+It's pretty much a dead building...
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/10r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/11r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/12r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/13r.jpg""/>
+Can you picture it with a full garden and the planters all planted up? It's been over 30 years...
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/14r.jpg""/>
+But time has taken its toll and the signs of neglect are obvious.
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/15r.jpg""/>"
+"eventtime","2007-03-17 12:26:00"
+"url","http://mke-explorer.livejournal.com/6237.html"
+"userid","10238"
+"itemid","23"
+"event","I'm not an artist and I don't claim to be one. I'm a Technical Writing major running around the city with a digital camera. I document.
+
+I've never used Sepia tone before, but this is a sad situation. <a href=""http://milwaukeeexplorer.blogspot.com/2007/03/news-stories-as-of-3807.html"">The Old Coast Guard Station</a> that I wrote about a few weeks back is in danger of being torn down. Sepia tone just set the mood I guess.
+
+Have you hugged a doomed building lately?
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/1r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/2r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/3r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/4r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/5r.jpg""/>
+
+<img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/OldCoastGuardStation/6r.jpg""/>
+
+(Do you folks want captions? I can talk about my pictures too, but I think these speak for themselves. The building is in disrepair and falling into the lake that it used to protect...)
+
+[I left the preceding lines in for those in my blogging class, but they don't use the LJ version of this anymore. I guess you folks can respond about it also. Yeah, my link back is to the Blogger version of this, don't be offended.]"
+"eventtime","2007-03-16 16:47:00"
+"url","http://mke-explorer.livejournal.com/5992.html"
+"userid","10238"
+"itemid","22"
+"event","My wallet currently contains
+-8 sheets of George Webb coupons from the placemats
+-2 coupons for FREE BOWLING at any AMF lane
+-8 singles and a 20, change from George Webbs and Bowling
+-My Milwaukee County Library Card (Used and abused and missing my signature)
+-My Johnny 7s Diner frequent burger eater club card
+
+
+There's some credit cards and some IDs, but those don't specifically speak Milwaukee. I'd say though about half of my wallet has things only a Milwaukeean would have."
+"eventtime","2007-03-12 12:41:00"
+"url","http://mke-explorer.livejournal.com/5783.html"
+"userid","10238"
+"itemid","21"
+"event","<object width=""425"" height=""350""><param name=""movie"" value=""http://www.youtube.com/v/3kCvvjzMxeo""></param><param name=""wmode"" value=""transparent""></param><embed src=""http://www.youtube.com/v/3kCvvjzMxeo"" type=""application/x-shockwave-flash"" wmode=""transparent"" width=""425"" height=""350""></embed></object>"
+"eventtime","2007-03-11 23:50:00"
+"url","http://mke-explorer.livejournal.com/5402.html"
+"userid","10238"
+"itemid","20"
+"event","Some stories of interest from The Milwaukee Journal Sentinel.
+
+I used to hate Whitney Gould, The Journal Sentinel's architecture critic. I used to think she was some sort of snob. Since she's broken her hip or whatnot though, she's gotten better in her writing. She talks about projects we actually all care about and that are in Milwaukee.
+<a href=""http://www.jsonline.com/story/index.aspx?id=573014"">
+New Condo Tower Brings Height You Won't Hate</a>
+
+This is the article that sort of lead to my rant about the whole Milwaukee vs Chicago and civic pride thing. Milwaukee's skyline from the lake isn't much. Our downtown was founded along the Milwaukee river, and the skyline views from other directions are more stunning. But those condo towers that rise along the bluff as of late (Late meaning after oh say 1980 whatnot) are really making things look good. Especially good are our two towers rising next to each other that this article talks about. Not only that, but Skidmore, Owings, and Merrill (SOM) are big BIG names in the architecture business. Having two of their towers in our city is wonderful.
+
+Turning to some sad news now...
+<a href=""http://www.jsonline.com/story/index.aspx?id=573278"">Historic Station May Be Razed</a>
+
+Thats right folks. Once again the old Coast Guard Station is in peril. It's had an interesting history since it's been abandoned. Taken over by the Indian School the same summer Alcatraz was taken over and other such things. It's a cute little building, sort of our own little piece of the Mediterranean. I was hoping that it could be saved after they built the Bay Street Pedestrian bridge and make it into a little park or park pavilion. A jazz club. Something.
+
+But tearing her down. Well, she's been the victim of arson and vandalism (the rape and murder of buildings) especially in the past year. I guess it's time to say good bye.
+
+Building a replica like they discuss, I don't know if I can buy that. I think they should push for the extra million to do it. Replicas are just that, replicas. The authenticity is lost and it seems cheesy.
+
+And now she's in nobody's hands. The bulldozers and wreaking ball could come any day now. (Note to self, picture opportunity number one).
+
+Well, thats the news. I'm going to read up on Barrett's transit plan, especially for downtown. I used to think that Barrett was kind of a do nothing mayor, especially filling the shoes of Norquist, but now he's showing his true colors. Don't let the county shut you down Barret. Scott Walker is a phony. He won't save the county at all."
+"eventtime","2007-03-09 00:44:00"
+"url","http://mke-explorer.livejournal.com/5185.html"
+"userid","10238"
+"itemid","19"
+"event","Before we get to the news, let me share a little story. Today for my History of Milwaukee class, we went to <a href=""http://www.thebasilica.org/index_.asp"">The Basilica of Saint Josaphat</a>, the prominent feature of the Polish (now Hispanic) Southside.
+
+I brought along my camera, but as usual, I chickened out. (The pictures on the website don't do justice to the glorious beauty that's inside). I totally had permission to take as many pictures as I wanted, but I didn't. I have this thing where I can't take pictures of the inside of a church. I feel guilty. I don't attend the church, but I feel that I'm stealing something from the people that do attend the church. It's weird, I know.
+
+Hopefully though I'll get over that fear. Everybody should go check that out, it's a $3 tour. Tour as in self-guided. Well, a tour guide who tells you about things.
+
+Totally worth it."
+"eventtime","2007-03-09 00:43:00"
+"url","http://mke-explorer.livejournal.com/4891.html"
+"userid","10238"
+"itemid","18"
+"event","<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Misc/talkingbus.jpg""/>
+
+If the Milwaukee County Transit System actually got talking buses, ridership might actually go up.
+
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Misc/talkingbus2.jpg""/>
+
+There. Better."
+"eventtime","2007-03-05 15:39:00"
+"url","http://mke-explorer.livejournal.com/4828.html"
+"userid","10238"
+"itemid","17"
+"event","Since when did that become the cool opinion, especially around town. You live here for goodness sakes. Civic pride anyone? It seems to be dead in Milwaukee, especially among young people.
+
+Now yes, I am a young person, a college aged kid, but I've got civic pride. Is it lost on our generation? It seems that way sometimes.
+
+What's the big thing to do as of late? Take the Greyhound down to Chicago. Admire Chicago. Wish Milwaukee was Chicago.
+
+Milwaukee isn't Chicago. Milwaukee will never be Chicago.
+
+And that's fine with me. I really think it should be fine with everybody.
+
+The problem is, it isn't. Young people vote with their feet meaning if they don't like where they live, they will leave. Why do you think Portland, Oregon is yuppiefied now? There wasn't much in Portland, except it attracted the younger crowd with good urban planning policies and other urban issues the younger generation cares about. They might not realize it, but they do care about urban issues?
+
+Now what has Milwaukee been doing wrong? I'm not sure. Every time we try to be ahead of the curve, we either fail at being ahead of the curve somehow, or it gets shot down by the powers that be.
+
+What makes Milwaukee projects fail? We have them, we have lots of them. We do them by the book.
+
+I think the problem is that Milwaukee only does things by the book, things that can be found in other cities. So why choose Milwaukee for that thing? When Milwaukee does want to do something new and beautiful and ahead of the curve...it gets shot down by the powers that be.
+
+I still love this city though. I have pride in my city. I love where I live. I want to make things better. It's hard though.
+
+Milwaukee is shedding it's rust belt industrial past, but apparently not fast enough for some people.
+
+It's not cool to hate on Milwaukee."
+"eventtime","2007-03-05 14:56:00"
+"url","http://mke-explorer.livejournal.com/4367.html"
+"userid","10238"
+"itemid","16"
+"event","<font size=7>EXPECT THIS BLOG TO BE <s>MOVING TO BLOGGER</s> OPENING A SECOND LOCATION AT BLOGGER SOON!
+<font size=5>I'M DOING THIS FOR YOUR OWN GOOD, MY OWN GOOD, AND THIS BLOGS OWN GOOD.
+<font size=3>JUST TRUST ME ON THIS ONE, OKAY?"
+"eventtime","2007-02-27 20:40:00"
+"url","http://mke-explorer.livejournal.com/4118.html"
+"userid","10238"
+"itemid","15"
+"event","I'm planning a picture taking adventure tomorrow.
+
+I'm doing a report on Eugene Liebert for my History of Metropolitan Milwaukee class, so the pictures might have a theme. (Eugene Liebert's work, obviously.) So it might be a ""post and teach.""
+
+You've been seeing pictures from my archives so far. They go back to 2004ish.
+
+Today when driving over the Hoan Bridge to see that beautiful vista of Milwaukee Nazareth's ""Now Your Messing With A Son Of A Bitch"" was playing on the radio. What does that mean?
+
+Don't mess with <s>Texas</s><b> Milwaukee</b>."
+"eventtime","2007-02-21 12:00:00"
+"url","http://mke-explorer.livejournal.com/3957.html"
+"userid","10238"
+"itemid","14"
+"event","Have your Milwaukee Explorer Valentine a day late.
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/UWM/HPIM0912.jpg""/>"
+"eventtime","2007-02-15 11:02:00"
+"url","http://mke-explorer.livejournal.com/3659.html"
+"userid","10238"
+"itemid","13"
+"event","Seven posts equals a week. This week I will give you a special treat.
+
+<center><img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Downtown/HPIM1045.jpg""/></center>
+
+<center><img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Downtown/HPIM1057.jpg""/></center>
+
+<center><img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Downtown/HPIM1058.jpg""/></center>
+
+<center><img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Downtown/HPIM1039.jpg""/></center>
+
+<center><img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Lakefront/HPIM1091.jpg""/></center>
+
+<center><b>But Nothing Screams Milwaukee Like MILWAUKEE!</b></center>
+
+<center><img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Mitchell%20Park/MitchellPark003.jpg""/></center>
+
+<center><img src=""http://i9.photobucket.com/albums/a69/skinnypetermurbanex/CalvaryCemetery/11-25-05/IM000234r.jpg""/></center>
+
+And for your special treat...we can all <b>SING ABOUT MILWAUKEE!</b>
+
+<a href=""https://pantherfile.uwm.edu/pmetzger/public/oldmilwaukeepolka.mp3?uniq=87lzyr""/> Old Milwaukee Polka</a>
+
+<a href=""https://pantherfile.uwm.edu/pmetzger/public/record2.wma?uniq=87lzyx""/> Milwaukee Summerfest Polka by Mayor Henry Maier</a>
+
+Everybody hope for warmer weather and a working camera so I can take some updated photos!"
+"eventtime","2007-02-13 22:33:00"
+"url","http://mke-explorer.livejournal.com/3527.html"
+"userid","10238"
+"itemid","12"
+"event","It's the basis of Downtown Milwaukee, and it's even got Milwaukee in the name.
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Downtown/HPIM1051.jpg""/>
+<center><b>The Milwaukee River Screams Milwaukee</center></b>
+How can The Milwaukee River <i>not</i> scream Milwaukee?
+
+This picture also features my award for ""Ugliest Downtown Parking Garage."" The Chase Bank Building's parking garage. Can you say chain-link fence bolted to the side and painted black anyone?
+
+It's weird, because the Chase Bank building is one of my favorite buildings downtown."
+"eventtime","2007-02-12 13:01:00"
+"url","http://mke-explorer.livejournal.com/3270.html"
+"userid","10238"
+"itemid","11"
+"event","I mentioned a while back that Ruvin Development was working on the Sydney Hih site and surrounding areas.
+
+I drove by this place today (although this picture is not from today) and remembered that I had this picture in my collection.
+
+So in general..
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Downtown/HPIM1043.jpg""/>
+<b><center>Those odd collections of buildings (including Sydney Hih) that somehow survived the passing of time Scream Milwaukee</b></center>
+
+I've got to get out more...these are becoming a stretch!
+
+But think about it, there aren't many other cities that save buildings like these. In other cities, Sydney Hih and many other buildings, would have come down. Sometimes buildings do need to come down, but I admire local preservationists and developers using what they can use.
+
+<lj-cut text=""Click Here For Historical Sydney Hih Pictures""/>
+
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Misc/sydney4021605.jpg""/>
+Taken from the Journal/Sentinel Archives. Sydney Hih in the late 1800s, soon after it was built.  I think it's kind of amazing how much of it is still intact. Sorta..
+
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Misc/eastbig020702.jpg""/>
+Again from the Journal/Sentinel Archives. Remember the Park East? Yeah...we're finally doing something with it. Then again, this picture is from 2001. So it has been 6 years...Anyways, check out that awesome 80s computer font and those colors!
+
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Misc/SydneyHihPaint.jpg""/>
+This was taken from <a href=""http://people.msoe.edu/~reyer/mke/""/>Dr. Steven Reyer's Page on Milwaukee Architecture.</a> Check out that page, it's what inspires me to go out and take new pictures of places. Lots of building listings with a little bit of detail on each. Once again, that wonderful paint job. I sort of hope Ruvin does something besides leave it white. We'll just have to wait and see."
+"eventtime","2007-02-11 13:50:00"
+"url","http://mke-explorer.livejournal.com/3028.html"
+"userid","10238"
+"itemid","9"
+"event","Hey! Let's All Go On Down To <a href=""http://www.madersrestaurant.com/""/> Mader's!</a>
+
+If your Gerald Ford, try not to fall down in front on the sidewalk! If your anybody, take a drink from The Boot!
+
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Downtown/HPIM1042.jpg""/>
+<b><center>Mader's German Restaurant Screams Milwaukee</center></b>"
+"eventtime","2007-02-10 18:22:00"
+"url","http://mke-explorer.livejournal.com/2544.html"
+"userid","10238"
+"itemid","8"
+"event","Milwaukee has got it's unique section of food.
+We even <a href=""http://www.retrocom.com/retromilw/record4.wma"">sing about it.</a>
+
+And this is one of those institutions that has stuck around to make all that food. Still downtown along the Milwaukee river since 1880.
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Downtown/HPIM1044.jpg""/>
+<b>Usinger's Sausage Factory Screams Milwaukee</b>"
+"eventtime","2007-02-09 22:14:00"
+"url","http://mke-explorer.livejournal.com/2264.html"
+"userid","10238"
+"itemid","7"
+"event","You love it.
+You hate it.
+You love to hate it.
+You hate to love it.
+
+It's Miller Park
+
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/Urban%20Exploration/Woods%20National/MillerParkHinges.jpg""/>
+<b><center>The Troublesome Roof At Miller Park Just Screams Milwaukee</center></b>"
+"eventtime","2007-02-08 22:54:00"
+"url","http://mke-explorer.livejournal.com/1915.html"
+"userid","10238"
+"itemid","6"
+"event","This week, due to me not feeling like posting much text, and in an effort to warm me up, I'll be posting some pictures from warmer times that involve ""things that scream Milwaukee.""
+
+<img src=""http://img.photobucket.com/albums/v320/skinnypeterm/GardensPolish/IM000518.jpg""/>
+<b><center>The Polka Police at Polish Fest Scream Milwaukee</b></center>"
+"eventtime","2007-02-07 13:21:00"
+"url","http://mke-explorer.livejournal.com/1628.html"
+"userid","10238"
+"itemid","5"
+"event","<a href=""http://www.todaystmj4.com/weather/forecast""/> And that's why you won't be seeing much new content picture-wise for a while. </a>
+
+It's cold outside kids. Urban exploration is a hobby best done when it's warm...er. Warmer then 0.   Yeah, that would be nice.
+
+It would also be nice if my camera would stop acting up. It would be nice if I didn't have such horrible shaky hands.
+
+But that's the life.
+
+I might steal some pictures from some friends who ventured out in the cold with me Thursday night. We'll see."
+"eventtime","2007-02-03 17:54:00"
+"url","http://mke-explorer.livejournal.com/1456.html"
+"userid","10238"
+"itemid","4"
+"event","I'm hoping to get a picture post under my belt before this week is through, but we'll see about that.
+
+Anyways, let's jump right into news.
+
+<lj-cut text=""Green on the Gothic Revival Church""/>
+
+<a href=""http://www.jsonline.com/story/index.aspx?id=558230""/> Pastor's Green Ideas Could Renew Gothic Revival Church </a>
+
+Normally, I'm not a big fan of Whitney Gould's commentary. Sometimes we agree, other times we don't. However, she got this one spot on.
+
+Do you think the German's and the Gothic Revivalists could have imagined that they're distinctly sloped roofs could be the source for solar panels that create heat? I doubt it. Think about how many churches could do this. Vernacular church architecture itself calls for steep roofs. If this pastor does everything he says he does, this might be one of the first green congregations.
+
+Probably the first Gothic Revival building with solar heat at least.
+</lj-cut>
+<lj-cut text=""City's Oldest Brewery To Be Moved""/>
+
+<a href=""http://www.jsonline.com/story/index.aspx?id=559539""/> The Best Part Is the Entire Nation Can Watch! </a>
+
+Ruvin's got the right idea for his development here. Add some new features, keep the old features. Really time for a jump start on the Park East Project.
+
+Someday I'll do a feature explaining all of my favorite projects.
+
+Some more links to check out on moving the Gipfel Brewery and Ruvin's development
+<a href=""http://people.msoe.edu/~reyer/mke/1853a.html""/> Gipfel Brewery Snapshot </a>
+<a href=""http://people.msoe.edu/~reyer/mke/1876c.html""/> Sydney Hih Snapshot </a>
+<a href=""http://www.jsonline.com/story/index.aspx?id=349208""/> Ruvin Project </a>
+<a href=""http://www2.jsonline.com/site/photographerphotos/SlideShow.aspx?catid=169&N=0&photoid=1792""/> Ruvin Renderings and the loosing proposal for the same site. </a>
+</lj-cut>
+<lj-cut text=""And Another Little Tidbit""/>
+
+<a href=""http://www.jsonline.com/story/index.aspx?id=559551""/> Barbicide To Be Made In Milwaukee</a>
+</lj-cut>"
+"eventtime","2007-01-31 22:37:00"
+"url","http://mke-explorer.livejournal.com/1078.html"
+"userid","10238"
+"itemid","3"
+"event","Alright, so I guess maybe I'm just a little too picky-choosy with news stories to share and comment on. I don't normally have time to look through the print version of the Milwaukee Journal Sentinel, but I do have time to browse through their online section. (Wait, abandoning print material for online material, what?) But anyways, this little story caught my interest.
+
+<a href=""http://www.jsonline.com/story/index.aspx?id=555484""/> More Growth In The Valley </a>
+
+This story caught my interest because it's one of my favorite topics to talk about. Milwaukee's Menomonee Valley shedding its old dirty industrial past for a new face of...less dirty industrial future...AND PARKS WITH SMOKE STACKS IN THEM!
+
+What can I say, park with smoke stacks, it's totally a selling point in the redevelopment market these days.
+
+But onto the article. The article talks about some of the most obvious buildings in the Menomonee Valley, The old Milwaukee Gas Light Company buildings. This article calls them the 1895 buildings. Fitting as that's when they were built and designed by one of my favorite Milwaukee architects, Alexander Eschweiler.
+
+It's good to see the buildings back in use. They've been in use for a while now, but I remember back to being a kid and driving along I-94 with my parents, these buildings didn't look so good. They've been cleaned up and put back into use, but they've still got a good chunk of empty space.
+
+This design proposal does sound good. We've got
+
+-Renovation (Always a plus)
+-Two new buildings (They'd better fit in or look good at not doing it. Bland development=bad development)
+-Possible tenants (People in buildings is always a good idea)
+-Open space, riverwalk (Riverwalk is a hot term in Milwaukee and in other cities)
+
+I still see a problem though, getting people down there to enjoy this ""Campus like setting."" I mean visibility yes, but navigating the old industrial streets of the Menomonee Valley can be a challenge for some. 
+
+The part of the article that bothered me most was the portion that talks about the Menomonee Valley project, something you see in every article about anything Menomonee Valley Related. We keep moving jobs from the suburbs back into the city. That's fine and all, because the skilled workers are here in the city, not in the suburbs. I just wish that more <u>new</u> jobs would be created instead of moved.
+
+Never the less, the Menomonee Valley, a project 20 years in the planning, is finally coming around. Its critics should watch out and its project managers and the city should keep on going in this direction."
+"eventtime","2007-01-28 10:44:00"
+"url","http://mke-explorer.livejournal.com/1001.html"
+"userid","10238"
+"itemid","2"
+"event","Milwaukee Explorer is the brain child of many years of sitting around and thinking about how much I like local Milwaukee news. More then that though, it's news that directly affects the physical City of Milwaukee as an urban environment.
+
+See, that totally makes sense.
+
+This blog has come about thanks to an English class I am taking at UWM this semester. I'm leaving this blog public though, so as it does develop and mature (hopefully) I can link people to it and more people can link to it and so on and so forth, as it the nature of these blogs. Because of this class, this blog is going to be updated at least twice a week, and I think I would like to keep it that way long after the class is done.
+
+Some of you might wonder why I hosted this site on LiveJournal in the first place. I have been using LJ for a few years and am just more comfortable with it.
+
+This blog is going to take news stories that I am interested in and talk about them. Some pictures will be provided to go along with these news stories, and I will go out and take some pictures, hopefully at least once a week. 
+
+I don't claim to be an artist, nor have I ever. I mostly just take pictures because I'll hear about a place or building in the news and not have any pictures to go along with it. My pictures are more about me documenting something and getting personal satisfaction out of it then taking pictures for the sake of ""art"" per say.
+
+I'm a Practical and Technical English major after all.
+
+There is your introduction. Leave any comments, questions, or concerns. I'll take complaints later or never. I don't mind if you comment anonymously, I don't require you to sign up for LJ just to comment. I would like a little tag or such at the end just to keep all of you anons apart from one another though."
+"eventtime","2007-01-24 23:35:00"
+"current_moodid","84"
+"url","http://mke-explorer.livejournal.com/677.html"
+"userid","10238"

@@ -1,0 +1,1149 @@
+"names","values"
+"itemid","49"
+"event","V2hlbiBJIHdhcyB5b3VuZ2VyLCBldmVuIHZlcnkgcmVjZW50bHksIEkgaGF0ZWQgTWljcm9zb2Z0LiBJIHNlcmlvdXNseSB3YW50ZWQgdG8ga2lsbCB0aG9zZSBiYXN0YXJkcy4gSW4gcmV0cm9zcGVjdCwgSSBoYWQgbWFueSBjYXVzZXMgdG8gZGlzbGlrZSB0aGUgY29tcGFueSB3aGljaCBub3cgaW5zdHJ1Y3RzIHRoZSBpbnZlc3RtZW50IHByZXNzIHRvIHJlZmVyIHRvIHRoZW0gYXMg4oCcdGhlIHdvcmxk4oCZcyBsYXJnZXN0IHNvZnR3YXJlIGNvbXBhbnnigJ07IEnigJlsbCB0cnkgdG8gZW51bWVyYXRlIGEgZmV3IGhlcmU6DQoNCjEuIFRoZSBoaXN0b3J5IG9mIHRoZSBpbnRlcm5ldCwgYSB0YWxlIDQwLTUwIHllYXJzIGluIHRoZSBtYWtpbmcgYW5kIGZhciB0b28gY29tcGxleCB0byBleHBsYWluIGluIG9uZSBwb3N0LCBpcyBkZWNpZGVkbHkgYW50aS1NaWNyb3NvZnQuIFRoZXJlIHdhcyBhIHRpbWUsIG5vdCBsb25nIGFnbywgd2hlbiBldmVuIHRoZSBtb3N0IGFkdmFuY2VkIHJlc2VhcmNoIGFuZCBkZXZlbG9wbWVudCBwZXJzb25uZWwgd291bGQgaGF2ZSBmb3VuZCB0aGUgaWRlYSBvZiBhIOKAnHNpbmdsZSBuZXR3b3JrLCB0aGF0IGNvbm5lY3RzIGV2ZXJ5b25lLCBldmVyeXdoZXJlLCBhbGwgdGhlIHRpbWXigJ0gdG8gYmUgcG9zaXRpdmVseSBsYXVnaGFibGUuIExpdHRsZSBkaWQgdGhleSBrbm93LCB0aGF0IHRoZSBVUyBnb3Zlcm5tZW504oCZcyBEZWZlbnNlIEFkdmFuY2VkIFByb2plY3RzIFJlc2VhcmNoIEFnZW5jeSwgYW4gZXhlY3V0aXZlIG9yZ2FuaXphdGlvbiBhZmZpbGlhdGVkIHdpdGggdGhlIERvRCwgd2FzIGZvcm11bGF0aW5nIGEgd2F5IHRvIGNvbm5lY3QgbWFueSBjb21wdXRlciBuZXR3b3JrcyBhdCBnb3Zlcm5tZW50IGFnZW5jaWVzIGFuZCB1bml2ZXJzaXRpZXMgYWxsIG92ZXIgdGhlIGNvdW50cnkuIFRoaXMg4oCcQVJQQW5ldOKAnSwgdGhleSBjbGFpbWVkLCB3b3VsZCBmYWNpbGl0YXRlIHRoZSBmcmVlIGZsb3cgb2YgaW5mb3JtYXRpb24gYmV0d2VlbiBwYXJ0aWVzIGludm9sdmVkIGluIGJsZWVkaW5nLWVkZ2UgZGVmZW5zZSByZXNlYXJjaC4gDQoNCkZhc3QgZm9yd2FyZCBmaWZ0eSB5ZWFycywgYW5kIHN0b3AgZm9yIGEgbWludXRlIHRvIHRoaW5rOiB3aGF0IHdvdWxkIGxpa2VseSBiZSB0aGUgb3BpbmlvbiBvZiB0aGUgZ3JvdXAgZGVzY3JpYmVkIGFib3ZlICh0aGUgY3JlYXRvcnMgb2YgQVJQQW5ldCkgdG93YXJkIE1pY3Jvc29mdD8gTWljcm9zb2Z0IGlzIGEgcHJpdmF0ZWx5IG93bmVkLCBoaWVyYXJjaGlhbCwgcnVuLWJ5LW1hbmFnZW1lbnQgcHJvZml0LW1heGltaXppbmcgZmlybSB3aGljaCBzZWVrcyB0byBtYWtlIG1vbmV5IGRlbGl2ZXJpbmcgZ29vZHMgYW5kIHNlcnZpY2VzIHRvIGN1c3RvbWVycy4gVGhlIGNyZWF0b3JzIG9mIEFSUEFuZXQgd2VyZSBhIGxvb3NlIGtuaXQgZ3JvdXAgb2Ygc2NpZW50aXN0cyBhbmQgZW5naW5lZXJzIGRlZGljYXRlZCB0byByZXNlYXJjaCBhbmQgdGhlIGZyZWUgZmxvdyBvZiBpbmZvcm1hdGlvbiB3aXRob3V0IGFuIGlvdGEgb2YgZGVzaXJlIHRvIHJlYXAgZWNvbm9taWMgcHJvZml0cyBmcm9tIHRoZWlyIHdvcmsuIEl0IGlzIGVhc3kgdG8gc2VlIGhvdyB0aGUgdHdvIGdyb3VwcyBtaWdodCBoYXZlIHRoZWlyIGRpZmZlcmVuY2VzLiANCg0KMi4gTWljcm9zb2Z0IGhhcyBlbmdhZ2VkIGluIHF1ZXN0aW9uYWJsZSBidXNpbmVzcyBwcmFjdGljZXMgb3ZlciB0aGUgeWVhcnMuIElmIHlvdSByZW1lbWJlciwgTWljcm9zb2Z0IHJlY2VudGx5IGRpZCBiYXR0bGUgd2l0aCB0aGUgVW5pdGVkIFN0YXRlcyBEZXBhcnRtZW50IG9mIEp1c3RpY2UuIE51bWVyb3VzIGNvbXBsYWludHMgd2VyZSBmaWxlZCBhbGxlZ2luZyBtb25vcG9saXN0aWMgYnVzaW5lc3MgcHJhY3RpY2VzIG9uIHRoZSBwYXJ0IG9mIE1pY3Jvc29mdDsgb25lIG9mIHRoZSBtb3N0LWNpdGVkIGJlaGF2aW9ycyB3YXMgYnVuZGxpbmcgdGhlaXIgSW50ZXJuZXQgRXhwbG9yZXIgd2ViIGJyb3dzZXIgd2l0aCBXaW5kb3dzIGluIHN1Y2ggYSB3YXkgdGhhdCB0aGUgYnJvd3NlciB3YXMgdmVyeSBkaWZmaWN1bHQgdG8gcmVtb3ZlLiBOZXRzY2FwZSBjb21wbGFpbmVkIHRoYXQgTWljcm9zb2Z0IHdhcyBhYmxlIHRvIHVzZSB0aGVpciBkb21pbmFudCBwb3NpdGlvbiBpbiB0aGUgUEMgb3BlcmF0aW5nIHN5c3RlbXMgbWFya2V0ICh0aGUgc29mdHdhcmUgdGhhdCB1bHRpbWF0ZWx5IGNvbnRyb2xzIHRoZSBjb21wdXRlciBvbiB3aGljaCBpdCBydW5zKSB0byBmb3JjZSBjb21wZXRpdG9ycyBvdXQgb2YgdGhlIG1hcmtldDsgc2luY2UgTWljcm9zb2Z0IGNvbnRyb2xsZWQgdGhlIG9wZXJhdGluZyBzeXN0ZW0sIHRoZXkgd3JvdGUgdGhlIHJ1bGVzIG9mIGhvdyBhbmQgd2hhdCBjb3VsZCBydW4gb24gYSB1c2Vy4oCZcyBzeXN0ZW0uIEluIGdlbmVyYWwsIGl04oCZcyBub3QgYSBnb29kIGlkZWEgdG8gcGlzcyBvZmYgdGhlIGVudGlyZSBpbmR1c3RyeSBhbmQgdGhlIGdvdmVybm1lbnQgaWYgeW91IHdhbnQgdG8gaGF2ZSBhIGdvb2QgcHVibGljIGltYWdlLg0KDQozLiBNaWNyb3NvZnQgaGFzIGEgaGlzdG9yeSBvZiBtYXJrZXRpbmcgdmVyeSBzaG9kZHkgcHJvZHVjdHMuIExvb2sgbm8gZnVydGhlciB0aGFuIE1pY3Jvc29mdCBCb2Igb3IgV2luZG93cyBNRSB0byBzZWUgd2hhdCBJ4oCZbSB0YWxraW5nIGFib3V0OyB0aGUgZW5naW5lZXJpbmcgcHJhY3RpY2VzIHVzZWQgdG8gZGV2ZWxvcCBtYW55IHBhc3QgcHJvZHVjdHMgaGFzIGJlZW4gZXh0cmVtZWx5IG1lZGlvY3JlLiBBZGRpdGlvbmFsbHksIE1pY3Jvc29mdCBjaG9zZSBmdW5jdGlvbmFsaXR5IG92ZXIgc2VjdXJpdHkgaW4gbWFueSBvZiB0aGVpciBwYXN0IHNlcnZlciBwcm9kdWN0cywgaW1wbGVtZW50aW5nIGZlYXR1cmUgYWZ0ZXIgZmVhdHVyZSB3aXRob3V0IGV2ZXIgdGVzdGluZyB0aGVpciBjb21wbGV0ZW5lc3Mgb3IgY29uc2lkZXJpbmcgdGhlIGxvbmctdGVybSByYW1pZmljYXRpb25zIG9mIHN1Y2ggYWRkZWQgZmVhdHVyZXMuIFRoZXNlIHNpbnMgYXJlIG9ubHkgc3RhcnRpbmcgdG8gY2F0Y2ggdXAgd2l0aCB0aGUgY29tcGFueSBub3csIGJ1dCBhZnRlciBhIHNlcmllcyBvZiB2ZXJ5IGhpZ2gtcHJvZmlsZSBleHBsb2l0cyBzdWNoIGFzIENvZGUgUmVkLCBOaW1kYSwgQmxhc3RlciwgU2Fzc2VyLCBldGMuIOKAkyBpdOKAmXMgZ290dGVuIHRvIHRoZSBwb2ludCB3aGVyZSBzb21ldGhpbmcgaGFzIHRvIGJlIGRvbmUuDQoNCkF0IHRoaXMgcG9pbnQsIHRoZSByZWFkZXIgaXMgcHJvYmFibHkgaW5jbGluZWQgdG8gdGhpbmsgdGhhdCB0aGlzIGVzc2F5IGhhcyBiZWVuIGluY29ycmVjdGx5IHRpdGxlZCwgYXMgSSBoYXZlIGRvbmUgbm90aGluZyBidXQgbWFrZSB0aGUgY2FzZSBhZ2FpbnN0IE1pY3Jvc29mdCBhcyBhIGNvbXBhbnkuIEhvd2V2ZXIsIHRvIHZpZXcgb25seSB0aGUgYXJndW1lbnRzIHRodXMgcHJlc2VudGVkLCBhbmQgdG8gY2FsbCBhbiBlbmQgdG8gZGlzY3Vzc2lvbiBpcyBhIGNyaXRpY2FsIHByZWp1ZGljaWFsIG92ZXJzaWdodC4gSSBoYXZlIGJlZW4gdmVyeSBndWlsdHkgb2YgdGhpcyBwcmVqdWRpY2UgaW4gdGhlIHBhc3QsIGJ1dCBjb25zaWRlciB0aGUgZm9sbG93aW5nOg0KDQoxLiBUaGVyZSBhcmUgYXBwcm94aW1hdGVseSAzMDAgbWlsbGlvbiBwZW9wbGUgaW4gdGhlIFVuaXRlZCBTdGF0ZXMuIE1pY3Jvc29mdCBoYXMgc29sZCA0MDAgbWlsbGlvbiBsZWdhbGx5IGxpY2Vuc2VkIGNvcGllcyBvZiBPZmZpY2UgMjAwMy4NCg0KMi4gTWljcm9zb2Z0IGhhcyBzdXJ2aXZlZCBhcyBhIGNvbXBhbnkgZm9yIDMwIHllYXJzLCBhbmQgaGFzIGNvbnNpc3RlbnRseSBkZWxpdmVyZWQgc29tZSBvZiB0aGUgbW9zdCBzb2xpZCBmaW5hbmNpYWwgcGVyZm9ybWFuY2UgaW4gdGhlIGluZHVzdHJ5LiBDaGVjayBhIHN0b2NrIGNoYXJ0IGlmIHlvdSBkb3VidCB0aGlzIGNsYWltLg0KDQozLiBXaXRoIDYwLDAwMCBlbXBsb3llZXMgaW4gdGhlIGNvbXBhbnkgd29ybGR3aWRlLCBNaWNyb3NvZnQgaGFzIG1hbmFnZWQgdG8gc3RheSBsZWFuIGFuZCBpcyBtYW5hZ2VkIGV4dHJlbWVseSBlZmZlY3RpdmVseS4gVGhlcmUgYXJlIG9ubHkgZWlnaHQgbGV2ZWxzIG9mIG1hbmFnZW1lbnQgaW4gdGhlIGNvbXBhbnkgZnJvbSBhIG5ldyBoaXJlIHRvIEJpbGwgR2F0ZXMsIGFuZCBoYXZpbmcgNy04IGRpcmVjdCByZXBvcnRzIGlzIHR5cGljYWwuIFRoZSBjb21wYW55IGlzIHZlcnkgcGxhbmFyLCB5ZXQgbWFuYWdlcyBjcm9zcy1ncm91cCBjb2xsYWJvcmF0aW9uIGVmZmVjdGl2ZWx5IHRvIG1pbmltaXplIGR1cGxpY2F0aW9uIG9mIGVmZm9ydC4gRm9yIGV2aWRlbmNlIG9mIHRoaXMsIGxvb2sgdG8gWGJveCAzNjA6IHRoZSBnYW1lcyB3aWxsIGJlIGRldmVsb3BlZCB1c2luZyBWaXN1YWwgU3R1ZGlvIGNvbXBvbmVudHMsIHRoZSBNZWRpYSBDZW50ZXIgY29tcG9uZW50cyAoaW5jbHVkaW5nIFdpbmRvd3MgTWVkaWEgUGxheWVyIGZvciBYYm94IDM2MCkgY29tZSBzdHJhaWdodCBvdXQgb2YgV2luZG93cyBNZWRpYSBDZW50ZXIgRWRpdGlvbiwgdGhlIGdhbWluZyBkYXRhYmFzZXMgYXJlIGJhY2tlZCBieSBTUUwgU2VydmVyIDIwMDUsIHRoZSBjb25zb2xlIHVzZXMgU2lkZXdpbmRlciBhbmQgRGlyZWN0WCBhcyBhIGhhcmR3YXJlIEFQSSwgbWFya2V0cGxhY2UgaW50ZWdyYXRpb24gaXMgYWNjb21wbGlzaGVkIHdpdGggQml6VGFsayBTZXJ2ZXIgMjAwNuKApnRoZSBsaXN0IGdvZXMgb24uIA0KDQpMYXN0IHllYXIsIEkgcmVhZCBhIGJvb2sgY2FsbGVkIOKAnEV4ZWN1dGlvbjogVGhlIERpc2NpcGxpbmUgb2YgR2V0dGluZyBUaGluZ3MgRG9uZeKAnSBieSBMYXJyeSBCb3NzaWR5IGFuZCBSYW0gQ2hhcmFtLiBXaGlsZSBpdCB3YXMgYSByYXRoZXIgZmx1ZmZ5IGJvb2sgKG1vc3QgdGhpbmdzIGFyZSDigJxmbHVmZnnigJ0gY29tcGFyZWQgdG8gY2FsY3VsdXMgYW5kIEVDRSB0ZXh0Ym9va3MgSSBzdXBwb3NlKSBpdCBkaWQgbWFrZSB0aGUgY3JpdGljYWwgcG9pbnQgdGhhdCBhIGNvbXBhbnkgaXMgb25seSBhcyBnb29kIGFzIHRoZSBjb25zdGl0dWVudCBlbXBsb3llZXMuIEFzIGVuZ2luZWVycyBhbmQgcHJvY2VzcyBjb250cm9sIHBlb3BsZSwgaXTigJlzIHRvbyBlYXN5IHRvIGZvcmdldCB0aGF0IGV2ZXJ5IGFjdGlvbiBpcyBwcmVjaXBpdGF0ZWQsIGFuZCB1bHRpbWF0ZWx5IGFmZmVjdHMsIGEgaHVtYW4gYmVpbmcgaW4gb25lIHdheSBvciBhbm90aGVyLiANCg0KV2hlbiBOVmlkaWEgY2FtZSB0byBjYW1wdXMgbGFzdCBUaHVyc2RheSwgaXQgd2FzIHZlcnkgb2J2aW91cyB0aGF0IHRoZWlyIG1hbmFnZW1lbnQgZGlkIG5vdCBzZWUgdGhlIHNpbXBsZSB0cnV0aCBpbiB0aGUgaWRlYSB0aGF0IHlvdXIgcGVvcGxlIGxpdGVyYWxseSBhcmUgeW91ciBidXNpbmVzcyDigJMgd2hhdCBvdGhlciBhc3NldHMgZG9lcyBhIHRlY2hub2xvZ3kgY29tcGFueSBoYXZlPyBJIGF0dGVuZGVkIGEgbHVuY2hlb24gcHJlc2VudGVkIGJ5IHR3byBvZiB0aGVpciBIUiBwZW9wbGUsIGFuZCB0aGUgbGFjayBvZiBwcmVwYXJhdGlvbiB1cHNldCBtZSB0byB0aGUgcG9pbnQgdGhhdCBJIGZlbHQgc29ycnkgZm9yIGNvbWluZywgaW4gc3BpdGUgb2YgdGhlIGZyZWUgbHVuY2guIChJIHJlYWxseSBsb3ZlIGZvb2Q7IHRoZSBmYWN0IHRoYXQgSSB3YXMgdXBzZXQgaW4gc3BpdGUgb2YgdGhlIGZvb2Qgc2hvdWxkIHNlbmQgYSBzdHJvbmcgc2lnbmFsLikgRmlyc3Qgb2YgYWxsLCB0aGUgdGFsayB3YXMgYWR2ZXJ0aXNlZCBhcyBhIHByZXNlbnRhdGlvbiBieSBhbiBlbmdpbmVlciwgYnV0IHRoZWlyIGVuZ2luZWVyIGRpZCBub3Qgc2hvdyB1cC4gV2hhdCBlbHNlIGlzIG1vcmUgaW1wb3J0YW50IHRoYW4gbWFraW5nIGEgZ29vZCBpbXByZXNzaW9uIG9uIHRoZSBmdXR1cmUgZW1wbG95ZWVzIG9mIHlvdXIgY29tcGFueT8gU2Vjb25kLCB0aGUgSFIgcmVwcmVzZW50YXRpdmVzIHdlcmUgcHVibGljaXppbmcgYW4gZXZlbnQgY2FsbGVkIOKAnE5WaWRpYSBVW25pdmVyc2l0eV3igJ0sIGEgdGVjaG5pY2FsIHRhbGsg4oCTIGJ1dCB3aGVuIGFza2VkIGZvciB0aGUgZGV0YWlscywgdGhlIHJlcHJlc2VudGF0aXZlcyB3ZXJlIGluY2FwYWJsZSBvZiBzdXBwbHlpbmcgdGhlIGRhdGUsIHRpbWUsIG9yIGxvY2F0aW9uIG9mIHRoZSB0YWxrLCB0aGUgc3BlYWtlciBwcmVzZW50aW5nIHRoZSB0YWxrLCBvciBhbnkgc29ydCBvZiBhYnN0cmFjdCAvIGFnZW5kYSBmb3IgdGhlIGV2ZW50LiBIb3dldmVyLCB0aGUgdGhpbmcgdGhhdCByZWFsbHkgZ290IG1lIHdhcyB0aGVpciBpbnRlcnZpZXcgcHJvY2VzczsgTlZpZGlhIHVzZXMgcHJpbWFyaWx5IHBob25lIGludGVydmlld3MgdG8gc2NyZWVuIHRoZWlyIGNhbmRpZGF0ZSBwb29sLg0KDQpXcm9uZyBhbnN3ZXIsIGd1eXMuDQoNCldoZW4geW91IHRlbGwgbWUgdGhhdCBJIHNob3VsZCBzZXJpb3VzbHkgY29uc2lkZXIgY2hvb3NpbmcgdGhpcyBjb21wYW55IGZvciBhIGNhcmVlciBwYXRoLCBidXQgSSBhbSBjb25mcm9udGVkIHdpdGggdGhlIHJlYWxpdHkgSSBjYW7igJl0IHNpdCBkb3duIHdpdGggYW4gZW1wbG95ZWUsIGhhdmUgYSB3aGl0ZWJvYXJkIGRpc2N1c3Npb24gd2l0aCBteSBpbnRlcnZpZXdlciwgYW5kIGhhdmUgYW4gb3Bwb3J0dW5pdHkgdG8gYXNrIHF1ZXN0aW9ucyBhYm91dCB3b3JraW5nIHRoZXJlIGJlY2F1c2Ug4oCcd2UgY2Fu4oCZdCByZWFsbHkgYWZmb3JkIHRvIHNlbmQgZW1wbG95ZWVzIG91dCB0byBkbyBpbnRlcnZpZXdz4oCdICh0aGVpciByZXNwb25zZSB0byBteSBxdWVzdGlvbiBvZiB3aHkgdGhleSBkb27igJl0IGRvIGludGVydmlld3Mgb24gY29sbGVnZSBjYW1wdXNlcykgaXQgYmVjYW1lIGFwcGFyZW50IHRvIG1lIHRoYXQgTlZpZGlhIGRvZXNu4oCZdCB2aWV3IHJlY3J1aXRpbmcgYXMgYW4gaW52ZXN0bWVudCwgYnV0IGFzIGFuIGV4cGVuc2Ugb24gdGhlaXIgaW5jb21lIHNoZWV0LiBGcm9tIHRoZSBwcmV2aW91cyBwcm9wb3NpdGlvbiwgaXQgaXNu4oCZdCBhIGJpZyBsZWFwIHRvIGFzc3VtZSB0aGF0IHRoZXkgZG9u4oCZdCB2aWV3IHRoZWlyIGVtcGxveWVlcyBhcyBhbiBhc3NldCBlaXRoZXIsIGJ1dCBhcyBhbiBleHBlbnNlLCBhbmQgZnJhbmtseSwgdGhhdOKAmXMgbm90IGEgZ29vZCB3YXkgdG8gZ2V0IHRoZSBiZXN0IHRhbGVudCBydW5uaW5nIHRvIHlvdXIgZG9vciwgd2hpY2ggaGFwcGVucyB0byBiZSBwcmVjaXNlbHkgd2hhdOKAmXMgbmVlZGVkIHRvIHN1cnZpdmUgaW4gdG9kYXnigJlzIGJ1c2luZXNzIGNsaW1hdGUu"
+"eventtime","2005-11-09 18:50:00"
+"url","http://eldavido.livejournal.com/12757.html"
+"userid","4466"
+"itemid","48"
+"event","Hi again. This time, I really am going to write more. I promise.<br><br>
+First off, I'm going to make a statement which could be interpreted as
+a shoutout or a confession, depending on one's state of mind. Roxanne,
+if you're reading this, you've convinced me that getting back into
+regular blogging would be a good idea. After you told me that you were
+reading Eats, Shoots, and Leaves, and going to interviews for Teach for
+America, I feel entitled to steal a page or two from your book. <br><br><b>Get your own life, loser ;)</b><br><br>
+I have a theory - ""Math Without Numbers"".<br><br>
+Suppose, as a student of physics, you were asked to calculate the
+acceleration of at Atwood machine. For the non-nerds in the audience,
+an Atwood machine consists of two masses on opposite ends of a rope or
+string, where the string passes over a stationary pulley mounted above
+and between the two masses. The two masses start at equal heights.
+Obviously, if one of the masses is heavier than the other, the heavier
+mass will begin to descend due to its weight, which in turn will cause
+the lighter mass to ascend as the two are connected via a string over
+the pulley. See <a href=""http://www.msu.edu/user/brechtjo/physics/atwood/atwood.html"">this diagram</a>
+for clarification (Java required).<br><br>
+Imagine a 5 kilogram block was connected to a 2 kilogram block, and
+that a massless pulley was used. (This considerably simplifies the
+calculations for reasons I won't explain here.) Obviously, the 5 kg
+block would start to fall immediately. Very little explanation is
+needed in this case, regardless of one's engineering background.<br><br>
+Now, assume that the masses of the pulleys are ""M1"", and ""M2"". What
+happens in this case? At time t, what will be the position of the two
+blocks relative to their starting locations? Students of science and
+engineering are asked to make sense of such generalizations all the
+time - this is one of the most important steps to forming an
+experimental hypothesis. Despite being able to use <b>exactly</b>
+the same process to determine what happens in the two cases, people in
+general have a much harder time with the second case, where the masses
+are indefinite. <br><br>
+Despite my best efforts, I struggled to solve the
+second, general class of problem as easily as I could the first for
+many years. After finally overcoming this problem, I realize that my
+difficulties were rooted not in the amount, or quality of my knowledge
+of physics or mathematics, but rather the <i>approach</i>
+I took to physics and math. 90% or more of the power of physics as a
+predictive model of physical reality lies in the fact that as a
+mathematical model, it is subject to the endless algebra,
+transformation, derivation, integration, etc. that modern mathematics
+offers. 
+<br><br>Until one can accept, <i>prima facie</i>, to an almost religious degree that math unconditionally <i>works</i>, the tendency will always remain to do what might be
+called a ""physical audit"" of the results. For many years, I was utterly
+unable to make the blind leap of faith mathematics requires, and
+somehow insisted that, at every step of the way, what I was doing
+fundamentally <b>made sense</b> in a way which my intellect could
+experientially verify. The belief that theory is always subordinate to
+observation/""facts"" is a much deeper issue which I intend to explore
+in a later post.<br><br>
+Several lemmas which follow:<br><br>
+1. I believe that the frustration stemming from the need for
+experiential verification is quite widespread in mathematically intensive academic disciplines, and forms a gap between
+how most professors teach vis-a-vis how most students learn. Problems arise when
+an educator, especially one with an intimate, intuitive feel for the
+subject matter, cannot bring himself to understand why a student is
+having trouble grasping a concept (or cannot see that the student is
+having trouble at all). It seems that giving this issue due
+consideration in university science pedagogy would serve students well.<br><br>
+2. The necessary faith in mathematics is greatly fostered by using as
+much abstraction, as early on, as possible. By showing me that a
+theorem or result of a proof <i>necessarily</i>
+holds for any specific case (paradoxically, by demonstrating the results of a proof hold by using <b>no</b> specific case), my skepticism is greatly diminished. It is
+only through abstract mathematics that such a need for verification can
+be satiated. In a nutshell, I believe this is why I am drawn to
+abstract mathematics, particularly to analysis - because for the first
+time, I understand what I am doing, why I am doing it, and furthermore,
+what assumptions must hold for the results of my work to be valid.
+Making all assumptions totally explicit is a very difficult task indeed
+- what does the sentence ""time flies like an arrow"" mean, anyway?
+(Comment on this. Seriously. How do you interpret that sentence? We
+talk about interpretations of that sentence in the programming class I
+teach).
+<br><br>Finally, I think I understand why I used to severely dislike math, but I've
+come to love it: I'm just too damned cynical to think that some jackoff
+could be pulling a fast one on me (or at least one obvious enough to
+catch - but how obvious is ""obvious enough""?) and I'd be none the wiser."
+"eventtime","2005-10-21 23:12:00"
+"url","http://eldavido.livejournal.com/12311.html"
+"userid","4466"
+"itemid","47"
+"event","...A year and a half later, and I haven't changed one bit
+
+Mark Austin, you are one of the most hilarious people that I have the pleasure of knowing, and I miss you. I'll never forget that time Kurt, you, Matt, and I were sitting in Matt's basement trying to fix his network, and try as he would, Matt just couldn't do it. Kurt mentioned some comment about high-bandwidth data pipes, and I mentioned Internet2, the experimental subset of the greater internet that happens to run Ipv6.
+
+Matt: So what is this Internet2, anyway?
+Me: It's a newer, faster internet than before.
+Matt: Well, what does it do?
+Kurt: Everything you want it to, Matt.
+Mark: Matt, let me just put it to you like this: it's the internet, but it's back, WITH A VENGEANCE.
+
+My journal is back, with a vengeance."
+"eventtime","2004-03-17 13:50:00"
+"url","http://eldavido.livejournal.com/12068.html"
+"userid","4466"
+"itemid","46"
+"event","After reading Teresa's post about this past year I would have to agree that the Michigan experience is a great thing. I didn't realize how much fun it could be, as I had not gone in a long time, but I remembered - with everything from working on a broken Arctic Cat, to riding around with Teresa on various vehicles, to almost killing four girls who wouldn't shut up in the kitchen.
+
+I don't know what all of you are doing tonight, but I hope that you all stay safe, doing whatever it is that ""floats your boat"". I am headed to the city of Chicago tonight with Melanie and Kathy and some other guys because frankly I can't handle another night of suburban drunkenness - the idea of simply getting wasted to get wasted has started to bore me - although this is a holiday, so if I had not have spoken with Kathy, I probably would be doing it myself :-)
+
+A big question that I cannot help but ask, with the summer of 2002 behind me, is ""Will it happen again?"" I am referring to the greatness of the group that I was once a part of, over this summer. I loved it all, from Chili's, to going to movies, to sitting in the ""moon chair"" on TJ's back porch. I got to know a lot of people better, specifically Scott, Teresa, Mike, TJ, Jeneane, and plenty of others that are still significant, but I can't remember at this particular time.
+
+I will remember this year most of all for my four near-death experiences. Some of them are more serious than others, but nevertheless, I came within the skin of my teeth of death four times this year. I'll explain them in order of seriousness:
+
+1. I got into a major car accident on the way to the Evans Scholars meething on I-294. My father was driving and lost control of the car after getting hit by a truck, and after doing two revolutions across 85mph 294 traffic, we came to rest against the median of the highway. I am lucky to be alive.
+2. I inadvertently set my basement on fire. I talked about this previously.
+3. I could have fallen through the ice earlier this week while on a snowmobile - I am actually very embarassed about this and don't want to talk about it.
+4. I was lit on fire at school. How many people has that happened to?
+
+I'm not going to make any lists here, as they would all be very not-well-thought out, and I would end up forgetting a lot. However, for what it's worth, I will always remember the nights in Habben's pool, or the times I drove Mike's Miata and nearly crashed it each time. So, again, in response to Teresa - I'm glad that I was able to become more a part of ""the Teresa crew."" I look forward to a summer as fulfilling and introspective as this one was, and for a group of friends as easygoing and fun to be around as this. I want to do it again, but I'm not sure if that can ever be. Have a great new year all."
+"eventtime","2002-12-31 18:30:00"
+"url","http://eldavido.livejournal.com/11876.html"
+"userid","4466"
+"itemid","45"
+"event","Well for all of you who weren't there tonight I went to Kristen Moffit's house. I don't even know who she is, but I went over there.
+
+At first I wasn't sure if it was a good idea that I went, as I had to be home in a few hours and might be tempted to do something that might get me into trouble. I have to teach Sunday school and possibly work tomorrow, so I couldn't afford to do anything that I might not do otherwise.
+
+I had a great time. However, a few things happened that I did not so much appreciate while I was there. First of all, Teresa, wherever you are when I'm writing this, I hope you know that there were a lot of people at the party that were concerned when you walked off. Scott, Travis, and me looked for you for quite a while, and pretty much everyone there was looking out for you, even those that didn't even know you as anything other than ""the girl in the red shirt.""
+
+Due to the ingenuity of the civil engineer of Flossmoor and Olympia Fields (COUGH COUGH) I managed to get the Honda stuck in a ditch next to the road. It's pretty hard to do a threepoint on a like seven foot freakin wide road. Oh well, I managed, but it happened again when I was head to head with a white car and there was traffic all the way down.
+
+Anyway, Teresa, wherever you are, I hope you get home ok."
+"eventtime","2002-09-07 23:48:00"
+"url","http://eldavido.livejournal.com/11540.html"
+"userid","4466"
+"itemid","44"
+"event","For a long time I have thought that there is some sort of inherent benefit to associating myself with a wide range of people. Mike, Teresa and I all had this experience together in D quarter gym with the ""normal folk"". After today I decided that I certainly have met the unstated goal of getting to know the normal folk better.
+
+The day started off with Melanie calling me - she had read last night's lj post and decided to take me out to breakfast at Great American Bagel. Quite interesting that she would call me at about 8:30 because she never, ever calls me before I'm up - if anything I would be out and about before she even thinks of rolling out of bed. Then I remembered, she has China jet lag, and it all came clear to me. 13 hours of time difference for 2+ weeks means that our 8am corresponds to their 9pm, and I'm sure wide awake at that time.
+
+So I went and enjoyed my breakfast with probably the most academic-minded girl at school. I'm not saying anything about that, it being a good or bad thing, she's just #1 in our class and it's part of the point I'm trying to make. We had a great time at Great American Bagel then I got home. Next thing, went to caddy.
+
+Let me tell you, that sure is a different bunch. Today I didn't get out caddying, mostly due to the fact that I felt like being lazy, it was a really nice day, and I'm going to make a ton of money this weekend. That settled things.
+
+So when I broke my car key I didn't so much mind. After Derek said he would leave in a little bit, I proceeded to watch him, Andy Schumake, Shana Dolch, and Billy Bunn play about an hour's worth of cards. Derek won $8.
+
+I then had the pleasure of riding home in the back of Derek's Nissan pickup truck. No, I most certainly do not mean the back seat of the truck, as if to imply an Asian vehicle would have more space than absolutely necessary. I mean to say that I rode in the bed of the truck, right on down Halsted street to drop off Schumake. Derek then invited me to lunch and picked up Rob Frick, the kid that just quit caddying to go work at the Delta Sonic car wash. Can't say that I agree with him 100% on that one but it's his decision.
+
+So there I was at 2pm sitting in Arby's with Rob, Shana, Derek, eating out for the second time that day. Except this time I listened to a totally different sort of conversation. We went from Rob's mom's previous schools she had taught at, to how many kids each of us wanted (Derek none), and Derek talked about how his sister Brianna would probably be white trash in ten years. No doubt, a sad state of affairs, but what can he do about it?
+
+We then rode back to Idlewild, after getting my key. I was honestly quite surprised by the generosity of the people I caddy with, having taken me all the way home, then back to the golf course. For some reason, a cop was sitting in the lot at Idlewild, so we had to hide behind the pavilion and Rob and Shana jumped out of the bed of the truck. I have no idea why a cop would be sitting in the north lot at Idy but they followed me out. As soon as that cop turned off of me another one picked up going down Terrace (I had to take rob home in my car so that we could be legal in front of the police). They followed me for about three blocks, and I had no idea what was going on.
+
+I still have no idea why the cops followed me, and I agree with Rob that it's no coincidence that two cops just follow you, one after the other. Additionally, I observed about 5 cars in the lot at Cilantro's, and the one just turned out after me, as if they had been waiting. All in all, very strange, and I have no idea what to think of it.
+
+When I look back on this day I haven't quite figured out what to think yet. I like Melanie a lot, and going to breakfast with her was great. However, I also have a sort of respect for people like Derek, who, even though I believe he treats his friends in a less than friendly manner, takes a lot of responsibility for his group. Be it that he stole even more alcohol from a party, he had an eighth of weed on him while the cops were in the lot, that he wanted to go smoke a bowl at 2pm (Rob Frick objected, saying that ""I don't want to feel like a pothead smoking this early in the day""), and that he has done some things I consider ridiculously stupid, I respect the kid a lot.
+
+Apparently, he respects me too, for he invited me to come out and drink with them that night. Honestly, I didn't expect that either, but I was lukewarm to the idea the whole time. I didn't end up doing it, in lieu of seeing Kurt Zoellick tonight and working on my projects more, but it just really interests me that in one day I have seen both extremes and can respect them both for what they are. I felt very moved by that today, and I hope others might have a comparable experience some day in their lives. TJ and Mike probably understand what I'm talking about. All I'm saying is that, there are a lot of people out there, and they all have something to say. Just listen to them, and you'd be surprised at what you might find."
+"eventtime","2002-08-03 01:01:00"
+"url","http://eldavido.livejournal.com/11477.html"
+"userid","4466"
+"itemid","43"
+"event","I'm not sure if I should mitigate the message of this post, or if I should even post it at all. A recurring sentiment around here is that many people have opinions, and they are always changing. I just hope somebody can look at this and have it brighten their day a bit.
+
+Today started off rather badly, waking up at 10:25 when I had to caddy at 11, and my mom telling me the night before, ""I can't drop you off, so you'll have to find another way of getting there."" I don't have a bike, and I can't really skate there, so usually I can do the hike to idy in 35 minutes. Like I said, a hike, but I don't mind. It turned out that my father had elected to stay home from work today, meaning that he could take me there.
+
+The two of us went on over there and I found that I didn't have to be there until 12. Which, although meant that I had wasted a lot of time, we could go to Subway. First though, we went to the Salvation Army Family Store on Halsted and dropped some of the stuff from out garage sale off, cool beans. (that's judy's expression...I MISS HER) We then went to Subway to eat a proper lunch and I ate too much for little me. Even though I'm fat as hell, weighing in at 190 lbs, I still can't eat that much Tuna in one sitting. Does anyone else think they put too much Tuna on their sandwiches?
+
+12 rolls around and I'm there...STILL early because I didn't have to be there until 12:30 - I'm kind of mad at this point because that means it's going to be hot, <i>really</i> hot for when I'm out there, but so be it.
+
+Today I went home and that's when my day got totally awesome. First of all, the PIC works. Imagine being asked 1000 questions about something, and if you get them all right, every last one, then you get notified. Well, my notification came today. From the power supplies, to the breadboarding, to the component selection, right on down to the program I have to write on my computer for it all to work, <b>it all worked.</b> This made me absolutely ecstatic because the stuff I'm doing about now I will learn about in like second year of college, so I feel special that I can do it now.
+
+I also got a major upgrade on who I will caddy for this weekend in Idlewild's biggest tournament, the Gold Putter. The Putter is held each year and represents the largest in-house tournament we hold. The tournament has a five-digit purse (at least) and the winning team gets at least several thousand dollars, cool. Anyway Tony Makarek, our club pro called my house at 9:20 tonight and told me that I will caddy for Hurowitz, Grossi, and ""Arnie"" Granat. Now I have basically been guaranteed $250+ for this weekend, and additionally stand a chance of winning the tournament.
+
+I decided to come out around 9:30 and check in with the guys at Matt's - Melanie called me today on the cell and she had just gotten back from her over two week China trip. I picked her up to go get a video for her brother Steve's girlfriend Hon-Hon, who lives in Taiwan (not so sure about that last part but I think) and will be over there, well, now (as I write this). I was kinda pissed off that I had to drop her off after taking her to the video store and then just taking her home, with her being on the phone all the while at family video. She felt really bad about it, too. Funny thing...
+
+The more I write, as usual, the more I convince myself that we have 1/2 of a relationship. Perhaps, for better or for worse, the part that Tony and Matt never had...the emotional part. We both treat each other with this uncommon respect and I just wonder why I even expect her to spend that much time with me,,,is that sort of expectation ""illegal""?
+
+Course of action to pursue...no idea, absolutely none whatsoever, and that's saying something.
+
+So summarize I had a great day, not a perfect day by a long stretch, but pretty much everything went well and I'm ready for another just like it.
+
+Things I like:
+
+going to good concerts. area 2 will be that.
+vanilla coke. surprisingly good for no vanilla in it
+road to perdition, excellent movie. just ask mike
+the avoidance of drama, whenever possible. lofty, but I have to dream about something
+walking into COLD a/c after caddying
+getting gatorate from emily/krystal when caddying. cool
+doing technical projects. they reaffirm that I do in fact know something, and that I'm not a raving idiot
+having enough money to do the things i want to
+buying stocks when they are at a really low price (hint hint)
+caddying for sachs
+knowing that i'll probably get the evans
+writing to make myself happy, this really works
+going places alone. not sure why, watching people and talking to people i don't know makes me happy. i wrote about this before
+talking to people on the roof of my grandfather's house
+text messages on my phone, cool stuff, send me some 
+so many other things..."
+"eventtime","2002-08-02 00:52:00"
+"current_moodid","109"
+"url","http://eldavido.livejournal.com/11094.html"
+"userid","4466"
+"itemid","42"
+"event","Haven't felt like journaling in a while. I dunno, I just didn't think I had anything to write about. Here's my attempt at writing a coherent entry.
+
+Tonight I went to see Road to Perdition with Adam and Mike. A truly awesome movie, I must say, so much so that Mike commented that ""I want to see that again, and maybe again after that, and then some more"" on the way out. It's about a poor Irish family with mob ties. Now hearing that, you'd think it was a Godfather-type crime / mob movie. Well the truth of the matter is it has some really emotional parts to it, and we also concluded that it would be equally well taken by both guys and girls. So regardless of your particular disposition towards this kind of movie, go see it, because I think many will enjoy it.
+
+The other nights of the week have basically been run-of-the-mill summer nights. Highlights include playing Ultimate Frisbee in the Dairy Queen field, then hosing myself off because I smelt horrible. I also met Matt Kahle's cousin from Bolingbrook (not Bolingbroke, a character from King Henry, a Shakespearean play...) whose name is Silver Sterling. Now come on folks, whoever names their child that must have some issues; but I digress.
+
+Last night Katie Barr came out with us which turned out to be pretty good. We made a late-night food run to taco bell, in lieu of going to Popeyes, both of which are GREAT places to go when you get that urge to eat a bit after dinner. I tried to eat my tacos but to no avail, as Dan likes to drive the van like a maniac. I'm amazed he doesn't flip the thing over, to be completely honest - but he would not make our ACCELERATION ZERO (sorry for that physics reference its just the easiest way to convey what I mean here) and subsequently I had a real time trying to eat my hard tacos. Damn the man
+
+As for caddying, that's that, I work 6 days a week, usually getting out at least 5, usually more. I caddied for Sachs again today, which sort of pissed everybody off. He rolls up in a cart and says, ""David, my boy, are we going today?"" and I just answered, ""absolutely"". There were about 20 people in front of me and I just got there about 10 minutes ago, and they were all slightly pissed that I got to go out before all of them who had been sitting there for as long as two hours. I take what I get over there because everyone always tries their damndest to screw you over and you have to take the breaks you get.
+
+I think the thing I will most remember about these days involved my giant leaps in my projects going on in this little basement. I'm trying to learn about electronics this summer and I'm making a lot of progress. Today I received a PIC programmer from the land down under, you got it, Australia. The package had kangaroos all over it and said ""tick"", not ""check"", ""the appropriate boxes"". ""Tick here please if you want..."" - who would ever think of the word ""tick""? I think what I'm happiest about so far are my power supplies - I made two of them, a +5 and a +12 supply. This means I am now able to run a computer off of a car's electrical system when I please, with a bit more work.
+
+My other cool thing I did involved my modification of the desk lamp next to the computer to serve as a power supply for my programmer. The thing didn't come with an AC adapter of anything, because I got it for cheap and they feel that if you even know how to operate it you should know how to make a power supply. Basically, I did some ""modifications"" to my desk lamp to make it also power the programmer. I cut some wire and drilled a small hole in the base of the lamp and tapped the transformer inside of it. Even my mom thought it was cool and she hasn't the slightest clue what it actually does. Cool.
+
+My first project is going to be the stoplight control project. I happen to have access to an IDOT standard stoplight (don't ask me how that happened, I just have a stoplight) and I want to control the lights from a computer. That would be cool. More to come later.
+
+Monday night I went to Jeff's house, cool, I swam that night, in lieu of going to Adam's which Teresa informed me was ""a bust"". I still have no idea where all of you went for those first few hours, but I suppose that will remain a mystery.
+
+As usual the length got a bit out of control but I don't post often, so deal with it. (I mean that in the most friendly sense possible). I'm really looking forward to Area 2 and I still have tickets. Please people, I'm willing to cut deals on these things AT A LOSS TO ME because I can afford it and I'm going to lose a lot of money if I don't get them sold. I'm asking about $50 for a $65 ticket - let me know if you're interested. Otherwise I'm going to lose a LOT of money. I think I can find people to go but if you want to go, please tell me.
+
+Things I have: a sense of accomplishment, enough money for now, happy parents, siblings that aren't home
+Things I don't have: a girlfriend, a car, Judy, Melanie, Shoshana (one N!) , Jenny and numerous other cool girls like Andy that just ditched the town, ticket buyers, a watch with a functional band
+
+night all"
+"eventtime","2002-08-01 00:47:00"
+"url","http://eldavido.livejournal.com/10888.html"
+"userid","4466"
+"itemid","41"
+"event","Well not so much has happened over the last few days. Even though that is true there still have been some memorable moments.
+
+Wednesday was the famed Sklare outing at Idlewild Country Club. This old man named Mr. Sklare brings like 25 of his friends out to just play some golf. Everything they buy goes on his tab and he spends the afternoon riding around in a golf cart just visiting with people and having a great time with everyone catching up and making small talk. I wish that some day I will have the free time, and the good health, to be able to ride around in a golf cart and talk to my friends all day. What a cool guy.
+
+That night we went miniature golfing, and Kurt beat me. ugh
+
+Thursday morning started with breakfast with Teresa, Baker's Square. That was really nice because I never see the girl anymore and frankly, I like her a lot. Although, after thinking about it, Teresa, I'm not so sure I think your Mayer idea is so good, but I hope it works out all right. Teresa I hope you have a great time doing that tomorrow (or is tomorrow Warped Tour? dates are starting to fly by me here) but just don't get lost or anything. I know you'll have fun.
+
+Thursday was Sachs for the caddying, and it rained in little droplets all day today. Sachs is getting better. It's great that he actually takes my suggestions on how to improve his game. He is the kind of guy that tends to get very angry when he plays less-then-perfect golf. I told his wife one time that she needs to make him calm down, and it's saving him strokes. This is at least the fifth time I have caddied for the guy this year and I like him a lot.
+
+While out that day, I found a bottle of Sky Blue on the course on the 15th hole. It was right over by the famed hole in the fence that Teresa and people always talk about, by the grounds grafting area, where they have a huge square section of fairway grass that the Mexicans use to replace large sections of damaged grass. There I saw it, way over in the trees there (Sachs had just hit a mean hook on 15, the dog-leg left) and the bottle was ditched under a tree. I also observed various other bottles over there. My thoughts immediately shot to all of you, although I could be wrong on that I suppose. I still do not know who put the Absolut in the pond on 17, perhaps I will never know.
+
+Kristen Rooke and I had plans for tonight, sort of, but they never happened because I couldn't answer the phone, I was busy cleaning about 200 golf balls for the garage sale we had on Friday.
+
+The garage sale went rather well, for a Friday morning, and I suspect that we might get more business later, because Saturday is a weekend after all. 
+
+I tried to call Jeneane today, as you are leaving tomorrow to go back to Florida and I very much want to see you before you leave. I left a message on your voice mail in Florida with the number you gave me, perhaps you will check it. At any rate, I didn't see you tonight and I really wanted to.
+
+Which brings me around to tonight. We decided to go miniature golfing but directionally impaired people led the pack. At one point Kurt got out of the other car in Ford Heights and a large black man in the car next to us remarked, ""funna get ky'lld"" when Kurt had to run back to the car, having missed the change. Even though Kurt was running back to the car on a green light, nobody honked, which surprised me a lot.
+
+I tried to make my power supply circuit today but failed. Try again tomorrow. Persistence and confidence are key to everything.
+
+Now I will write to Judy at her Jewish work camp - Meytiv - then go to bed. I miss her a lot."
+"eventtime","2002-07-27 00:43:00"
+"url","http://eldavido.livejournal.com/10541.html"
+"userid","4466"
+"itemid","40"
+"event","Wow, I had no idea that it was your birthday Jenine, happy birthday! I want to see you before you leave so be sure to call me tomorrow, because I think the 27th is fast approaching.
+
+Yes TJ, it sure is funny how power makes you popular. Almost like you go from zero to everybody's best friend in no time. Image that.
+
+Sunday was rather longish, the last day of the caddy week. I watched a movie at Dan's house called Hart's war. The entire movie is about a guy getting court-marshalled to create a big distraction. In some ways, it reminded me of Twelve Angry Men. By the way, I know that Dan hates that movie solely on the premise that the entire thing takes place in about two scenes, but I think it's a great movie, and if anyone would be up to watching it again I sure am game.
+
+I spent Monday at Purdue with my dad. Overall my experience impressed me. I learned that with over 38,000 students, next year they will not have a single TA teaching, period. It will be all faculty for the lectures, and several PhD students for the ""recitations"", in which the students have a chance to go over homework and ask questions. I learned that almost a quarter of the students there attend the college of engineering, and that the entire campus will have 802.11b (wireless networking) access by April of next year. I could talk more about the greatness of the school, but I will cease - just know that they sure impressed me when I went and I have decided to give more weight to the possibility of going there after high school.
+
+Tuesday - today - I didn't have to caddy so I decided to have a relaxing day. I played with my electronic toys for a while in the basement and finally figured out how to send text messages to users of other cell networks, yay. 
+
+Today Matt picked me up accompanied by Shoshana and Dan. I went to Matt's house and washed the Blazer and his dad's Miata. While there, I partook of many interesting activities, including:
+
+1. Melanie called me on my phone while I jumped on Matt's trampoline. Quite impressive considering that where she is, it was 7:29am and it was 6:29 pm here. I think that was the earliest she had gotten up in a long time. I felt very special that someone would take the time to call me from halfway around the world.
+2. We washed the cars, and because of this favor, Matt's dad let me drive his car. Miata. 
+3. I convinced Matt, by not squealing the tires, stalling the car, misclutching the car, or doing anything even remotely resembling bad driving, that Nick Engel needs to shut his pie hole about my ""bad driving"". I am getting better at stick all the time, as I have driven seven manual cars now (although two the same make and model) and am doing better all the time. Two Miatas, Kyle's Saturn, the Echo (sorry TJ), Nick's Civic (only briefly), Dustin's Geo Metro, and my personal favorite, the VW Jetta.
+4. I ate ribs. Pretty good but too much fat on them. Thanks Mrs. Kahle.
+5. We convinced Matt's dad that putting an intercooler in the car is necessary.
+
+I did a lot of electronics stuff and blew up some things today, including a 220 uF electrolytic cap. It went with a bang and a thin column of smoke started to rise out of it. Cool stuff, $.99 down the drain, oh no. 
+
+Rounded the night off with miniature golf, Kurt beat me. Ouch. I still want to go to a Cubs game, a waterpark, and maybe Great America, so someone throw that together. that's it for today"
+"eventtime","2002-07-23 23:54:00"
+"current_moodid","25"
+"url","http://eldavido.livejournal.com/10254.html"
+"userid","4466"
+"itemid","39"
+"event","Well I still got tickets to area 2, and so far it's Heather, Jenny, and me for sure. I'm about 90% on Melanie but she's not back yet and it's all downhill from there. Dana, George, (and dana for mike), Jessica Kraus, and a few others have expressed interest but the first four of us are pretty hardcore set on it so we're going.
+
+Well the main attraction of the last few days has undoubtedly been Homewood Days, the three-day semi-ripoff of Oktoberfest in good old Germany. In fact, I even learned how to ask for beer in German yesterday but I'm not going to try to remember it because I will screw it up, bad. Thank you Idlewild members.
+
+Which reminds me, I need more money, because I need to continue in my geeky ways and get a PIC programmer for $109. There are other things I need but this job isn't paying so well. I think that after I get the Evans (and I WILL get the evans) I will caddy for weekends for one more summer than I am done, forever, and I won't miss the place one bit. Amen to that.
+
+Last night I had a long talk with Teresa about my values and I think I just made a little bit more sense of life. I think I want a group of friends that are all aligned with my stances on things. However, she says that I am too unique to ask for that. Generally being called unique is a good thing, at least where I come from, but I think in this case the struggle for uniqueness may have harmed me. I want to be more like an average person while still continuing to be David. 
+
+The last few days I have questioned what role I play in social settings. Melissa couldn't really tell me, but she insists through it all that I am the old philosophical grandpa. I'm not sure what the implications of that are but it's still an interesting statement.
+
+Last night I was with Scott and everyone on the trampoline, tonight I was with Katie Barr and Kurt Zoellick for the later part of the night. I rubbed Katie's feet because they hurt a lot after Homewood days then walked home, arriving home at the wonderful hour of 12:05. Time to get up in about 5 hours, bah.
+
+Today my brother came home from ISYM. I went to the U of I campus and watched him in the Great Hall. I can remember playing that concert at the end myself. The format of the program hasn't changed one bit, and I love going down there. I even went to Folett and yelled at them for changing the place so much, and doing stupid things like <b>taking out the couches and smoothie bar!</b> Heinous crimes! Three of my grandparents and I went out to eat at the Chicago Dough Factory and it was nice. I also visited my grandparents' roof and stood up there with my brother for a while. I like it up there and wish I could go there more often.
+
+One other thing, Rumble in the Bronx is a wonderful Jackie Chan Kung Fu movie, if anyone gets that urge for a good kung fu movie, I highly recommend it. It's consistent with the Jackie Chan theme of the wise, well-tempered Asian trying to straighten out the ugly, ignorant Americans. great stuff
+
+Teresa please don't forget about the arrangement even though it's not for a while yet.
+Oh yeah, call away (my cell) on the weekends because IT'S FREE and I LOVE MY PHONE!!!
+goodnight all"
+"eventtime","2002-07-21 00:56:00"
+"current_moodid","64"
+"url","http://eldavido.livejournal.com/10196.html"
+"userid","4466"
+"itemid","38"
+"event","Well the last few days have been a good mix of accomplishment and relaxation, and I am pleased with the way things have turned out in spite of the extreme heat around here.
+
+Yesterday I went to senior pictures. I had to have them late because of my stupid caddy schedule. I really hate pictures because I believe the level of detail and care people put into them are totally unnecessary but they went ok. I was pleased with the way it all worked out.
+
+I finally got my phone yesterday. Nokia 3390 with AIM, as promised. I have already talked to Nyberg, Shoshanna, Matt, Ed Miller, and a few others on AIM and the phone works beautifully. I am using the screen name pastymeat right now, but I will soon roll over to pastyme<i>e</I>t to be more clear about the fact that I am on the phone. I also will not give this address to people that just get on and chew the fat with me hardcore. I am definitely one to talk about whatever is on anyone's mind when I'm on my computer but I can't really do that on the phone. Please don't send me stuff like ""hi"", ""what's up"", or ""how are you"" on that address. I probably won't respond for a few minutes because it's likely I will be on the golf course, so just use it as a message drop. If you've got something to tell me, such as plans, events, or whatever, just drop a message at that address and I will respond if I can. I don't really have that many messages, and I really hate to be rude, I just don't want to run over my messages on the phone because of the money.
+
+The regular number is 708-439-2591, again, please only call if it's something specific, not just to talk to me; I do that when I'm at home and not already out of the house. Of course, if it's important, of course call me; you all get the idea.
+
+Thanks a lot.
+
+So that day, I caddied in the afternoon, in out club's ""men's invitational"". 60 foursomes (that's a LOT) at the club, and about 30 ofcc caddies were ""borrowed"". The outing started with a really hot woman coming out of a helicopter that touched down on the first tee saying, ""Gentlemen, start your engines. Let's play some golf! And remember, if there is anything I can do, <i>anything</i> at all, please don't be afraid to ask. The men went totally crazy. See, guys never really grow up.
+
+I watched the new Ocean's 11 and John Q in the past few days. It's interesting when I ask the golfers if they liked the new Ocean's 11 or the old one how they argue. Most agree the older might have better acting but the newer one is a lot more polished and in my opinion makes more sense.
+
+Hooray for Homewood Days. That was today. As always, I got to see plenty of people that I have not seen since school.
+
+Moby tickets still available. <b>get them while they last!!</b> So far it's me, heather, Jessica Kraus, Dana says she wants to go, and Melanie will probably go when she gets back. That leaves 3 so find some people!
+
+goodnight friends, and remember - 
+
+""A guy walks onto the train tracks. Not realizing what he is doing, he steps onto the tracks just as a massive train comes right in front of him, and completely tears apart his right side.
+
+When his wife comes over, she sees the bloody mess. However, the man is still barely alive, and able to speak. When asked if he is ok, he replies, 'I'm all right!' ""
+
+-Mr. Jeff Sachs, owner of Sweat Equity, driver of an Audi TT, and my favorite loop to caddy for"
+"eventtime","2002-07-19 01:54:00"
+"current_moodid","99"
+"url","http://eldavido.livejournal.com/9789.html"
+"userid","4466"
+"itemid","37"
+"event","Another day that just feels complete.
+
+I am stupid for waking up exactly 33 minutes before I had to be at school for a debate meeting, and also blew my chance to get a phone, oops. Anyway, I saw my man jb (debate coach with the jetta, coolest person ever), Arrivo, Lars, and Dylan for the first time in a goodly while.
+
+After that went to caddy, sat around for a while but made an ""ace"" with Najman, Stravoupolis, and two other guys. Now interestingly enough Stravoupolis quit the club two years ago and I was one of his last caddies before he quit and we talked about the last time he golfed. He is this huge Greek dude with slicked hair and also a major gambler. Those guys are a lot of fun to caddy for but you really have to work hard.
+
+Hence, the reason I didn't come out tonight: I was entirely not awake enough after two nights of staying up way too late. Michigan took it out of me, in fact, I was really sore in my upper body from my ""thrashing"" behind the boat, and plus my tiredness from two nights. Night one: the pontoon boat, night two: talking to Melanie on AIM until 3:09am last night about the ways of the Chinese for her upcoming trip.
+
+eVeRMeLoDi0Us: little david on my right shoulder says
+eVeRMeLoDi0Us: ""melanie should think carefully before she goes off rattling""
+
+How can you not love her to death?
+
+I dropped cash money today, $521.30 to be exact, for tickets. They fall slightly short of Weezer-quality but close - section 103 (middle front in pavilion at tweeter) row DD. I purchased 8 of them and am selling them for $65/ticket. The concert is Area 2 featuring Moby, Blue Man Group, Busta Rhymes, DJ Tiesto, DJ Dan, and many others. On 8 April 2002 3pm - I'm not sure how you all like Moby but Jenny Anderson and Heather and them love all of those artists so they will come for sure. Also Dana said maybe and I think Dan will want to go. Let me know if you're interested. I love the techno and instrumental scene for all of you that don't know and this concert is going to rule. They even threw in Busta, sweeeet.
+
+I think that's all for today, tomorrow is going to be a long one with senior pictures, caddying, and several not-worth-mentioning things. By the way, I still miss Teresa, Scott, TJ, Adam, Justin, Mike, Jeneane, and everyone, so I'll probably see you all tomorrow if that's possible. Goodnight kids."
+"eventtime","2002-07-16 23:33:00"
+"url","http://eldavido.livejournal.com/9565.html"
+"userid","4466"
+"itemid","36"
+"event","The last time I saw anyone out of the people likely to read this was when I saw Mike in the Miata on Saturday. 6:30 AM caddy, done early. Anyway, I tried to make friendly conversation, and asked him something to the tune of what's up. He responded with ""I can't really tell you"".
+
+So the dilemma: do I take the red pill, or the blue pill? Do I choose ignorance, or knowledge of my condition, and the world around me?
+
+I bet any one of you will be hard pressed to think of the last time I made a decision like this. I firmly believe in most of the things Plato said and one of the central tenets of his philosophy is that knowledge breaks the bonds of ignorance, man's worst evil. Therefore, I can count the number of situations I might choose ignorance to knowledge on one hand.
+
+I am ignorant of what is going on between many people right now. Perhaps it's not even happening any more, or maybe is raging full blast. The only thing I really know is that melissa IMed me two nights ago, and when I asked her what's up, she told me ""a whole ton of problems that I don't want to talk about"".
+
+Even though this goes against what I think is best, I'm going to choose to remain ignorant about what's going on with this group, at least for now. Mike thinks that it's better that I not know, Melissa agrees, and those are about the only people that I have intereacted with at all over the past few days out of all of you. All I'm saying is that if you think it's strange that I'm not around, consider my position here. I am told by two people that huge amounts of conflict/strife is going on and that I need not be involved. I take their word for it, and back off. 
+
+Now maybe all of this has ended, but it's very hard to be friends with people that feel that for whatever reason, I shouldn't know about parts of their lives. I'm not hurt or offended by that, because I trust all of you, but it just makes things very unapproachable. So I'll wait to be called if something fun is about to go down. After all, I hate to have to interrupt Mike's dinners night after night and continue to chew up his cell phone minutes to invite myself places with all of you. I like being with you all and I miss it a lot.
+
+""In other news"" (-teresa) I walked over to Dan's house after caddying Sunday, and was greeted by Tony, Dan, Kurt, Matt, and Nick Engel playing Risk in Dan's basement. I decided to go to Michigan with them, and subsequently left at 6pm with Nick and Matt's mom for White Pigeon. I returned today at 6:15, making the entire trip just over 24 hours.
+
+Highlights from the trip:
+
+1. Tubing behind the pontoon. A massive boat pulling Engel and/or Dan who are practically mounting me on a tube hardly bigger than a desk chair. Later, I went solo on the tube for over 20 minutes, with sadistic Kurt at the wheel of the boat. I once was in a turn for three minutes. This ended when I was so tired I just rolled off the tube and swam back to the boat, and Dan pulled me up by the shoulder straps of the life jacket.
+2. We watched Swordfish on Matt's mom's laptop on the pontoon. I was designated in charge of getting the laptop down to the boat, but since I don't know the property that well, took a nasty fall down about seven steps in the dark, but the laptop never even touched the ground. Mad props to me (is that allowable to give onself props?)
+3. Dan took a 360 on the waverunner at almost 40 mph and threw me about nine feet, feet over head into the water at that speed. He said the ""ski"" felt quite ""unloaded"" after I was off.
+4. Dan, stepping off the boat, managed to go not onto but fully through the pier with his left foot. That was quite a site to see.
+5. My DRY sleeping bag found itself in the water, curtesy of Nick Engel, at approximately 9:15 PM CDT. He claims it just ""rolled off the pier"" at about that time. Yeah right, I had to hang the thing up and let it dry overnight after that number.
+6. I slept on the pontoon with the other 5 people, that was absolutely amazing. I dragged down a futon matress, a pillow, and a SLEEPING BAG, not that that last item did me any good, in one trip (wow, that was a PItA). I slept more comfortably than I ever had away from home with my setup out there, and warm as well.
+7. After going to bed I woke up breifly at 6:30AM. I had my watch right next to my head so I would know. I heard people dragging a ladder over my head and trying to start the engine of the boat. I was sleeping on the part in front of the front doors and there was a lot of traffic but I just went back to bed.
+
+At precisely 6:44 am Matt Kahle was standing on the pier over yonder with the keys and the paddles in his hand yelling that it's time for me to get up. I didn't really care that they had shoved me off from the pier and that I was drifting in the middle of the lake without the key, because it's his boat, and I wanted more sleep. They all thought it was pretty funny though, I laughed with them once I was back in.
+
+Today was Jenny's birthday and I spent the night with Melanie, Heather, Jenny, and some others including Engel. I had a great time there, although I somewhat wonder why the Mich. crew plus some stopped by for like 5 minutes then left. Jenny sure didn't appreciate that, although I tried to convince her that by just stopping by they're better off than not having come at all.
+
+Now I'm talking to Melanie about her China trip. I'm going to miss her a lot, and she me too...
+
+eVeRMeLoDi0Us: me so crazy;-)
+eVeRMeLoDi0Us: im already homesick
+Pastymeat: see, you just love us [jenny and me]
+eVeRMeLoDi0Us: ja, i do!
+
+This is going to be a long night."
+"eventtime","2002-07-16 01:41:00"
+"current_moodid","30"
+"url","http://eldavido.livejournal.com/9452.html"
+"userid","4466"
+"itemid","34"
+"event","As fate would have it (I don't actually believe in fate at all) I didn't do any of the things I thought I might do on Saturday night. 
+
+When I drove back to my grandparents' house in the Heights, they had people over. I talked with all of them for a while, then called Melanie. Kristen Rooke had IMed me just before I got off after writing that post on lj and reminded me about her graduation party, to be held at Iron's Oaks Saturday night at 7:30. I ended up taking Melanie to the party as a replacement for Kurt, who she asked me for. Kurt was in Michigan.
+
+The two of us stayed at the party for a while. I ended up going at around 8:15 and I saw a bunch of Kristen's friends, and some others, including the veritable Andy Gleason, Dan Dominick, Chrissy Martinez my horn-playing buddy, and that entire group. Amar also showed up because I told him we were going.
+
+It was ok for a while, but when it got to the point that more than half the party was outside trying to be covert about their liquor drinking I decided that Melanie and I were going to leave. I had a sip of Mike's with Andy out back, then we said our goodbyes and left.
+
+What happened next, I never would have imagined. I got one of my ""ideas"" just as we were leaving, and I decided that since I had a car, I would take Melanie back out to the Heights. There we could do such things as see the ghetto carnival (""Crossroads Fest"" as it was called), see the kids with the subwoofer box go bumping down the street, see about a thousand and one fireworks get shot off, and just watch things happen.
+
+As it turns out, we had a ""standard length conversation"" which for the two of us lasts about two hours and 45 minutes. Other examples of this include the loft conversation after prom, and various talks at Apollo Park. Anyway, I got to the house at about 9:50 and we left at like 12:25. Totally out of control length to do nothing else but sit on a roof, but I had a great time doing it. In fact, sitting with Melanie is one of my most favorite things to do, even though she unconditionally refuses to give any of me or my friends massages, which needs to cease, because she's very good at it. And no, nothing ""happened""; I know that will come up from someone.
+
+Sunday came around with my grandfather yelling ""5:30, FALL IN!"" at the top of his lungs through the door to my aunt Jane's old room at the top of the stairs. Holy crap - the man can't hear, and when I told him I didn't need to wake up until 6:30 I wasn't that mad. I tried to tell him that I didn't need to get up yet, and that I had set an alarm clock that I found in the room, but he didn't yet have his hearing aid in, so just went downstairs and cooked some sausages ont the stove. When I heard the stairs to the 2nd level begin to creek again at 5:40 I decided that it was totally helpless, and just got up, making for 9 hours of total sleep over the Saturday and Sunday I was there. Sure, it's easy for him to go to bed at that hour, he goes to sleep at 8pm...
+
+I discussed the Evans Scholarship with some people at icc then caddied. Next thing I knew I was on my way out to the lakehouse with my other (mom's) grandparents. My brother had gotten my dad to buy a lot of fireworks and hence continued the tradition of the around-4th of July fireworks show off of our pier on Lake Dale Carlia in Lowell, Indiana.
+
+The next thing I knew AFTER that was that my dad was shaking me to get up early to leave for Turkey Run State Park, in Midwest Indiana. I went swimming there, and had a funny experience. Continuing from the Chicago trip, I made a point of talking to random strangers. Some kids were playing catch with a seal ball in the pool at Turkey Run and they were with two girls, one of which was exceedingly hot. They told me the girls were ""family friends"". The two guys had just graduated high school (Illinois, actually) and their parents had come out with some of their parents' friends and brought their kids. The guys were just out of high school, and they kept flirting with the girls. The girls seemed totally tired of it so eventually they got up and left, and the guys followed them out of the pool, back to their campsite. The guys asked me how old I thought the girls were - about 20. I learned that they were 15 and 14. Wow. (""Reverse Asian complex"" - how come Asian people always look younger than they are? someone asked melanie if she was over 13 when we went to Charlie's Angels once - both 15 at the time...haha) The guys basically told me, not in these words, that they needed justification for their liking of the girls, and I was it. How much is too much to go after though? I guess two years is acceptable, but three years is pushing it.
+
+I later learned that a youth group from our area was staying at the park with us. I saw an HF girl - actually my dad did first - and he asked her if she knew me (wasn't there at the time). I knew her, only by face though. She is going to be a sophmore, has black curly hair, was in the musical, and darker skin. I can't think of her name but she plays soccer. Alas, life goes on.
+
+Tuesday: We left Turkey Run for Indianapolis. We had planned to go to the Indianapolis Zoo, but due to the rain I almost got my family to go to the Children's Museum of Indianapolis, which is unconditionally the coolest museum ever. Oh well, I got to see giraffes and lemurs and lions and plenty of birds. I also learned while I was there that ""gentoo"" is a type of penguin. The only context I had ever heard ""gentoo"" in was the name of a linux distro. You know you're a geek when the computer meaning of a word is clearer than the ""real"" meaning. I didn't know that a ""Gentoo"" was right up there with a King Penguin, but I sure did know about Gentoo Linux.
+
+As fate would have it (I don't actually believe in fate at all) I didn't do any of the things I thought I might do on Saturday night. 
+
+When I drove back to my grandparents' house in the Heights, they had people over. I talked with all of them for a while, then called Melanie. Kristen Rooke had IMed me just before I got off after writing that post on lj and reminded me about her graduation party, to be held at Iron's Oaks Saturday night at 7:30. I ended up taking Melanie to the party as a replacement for Kurt, who she asked me for. Kurt was in Michigan.
+
+The two of us stayed at the party for a while. I ended up going at around 8:15 and I saw a bunch of Kristen's friends, and some others, including the veritable Andy Gleason, Dan Dominick, Chrissy Martinez my horn-playing buddy, and that entire group. Amar also showed up because I told him we were going.
+
+It was ok for a while, but when it got to the point that more than half the party was outside trying to be covert about their liquor drinking I decided that Melanie and I were going to leave. I had a sip of Mike's with Andy out back, then we said our goodbyes and left.
+
+What happened next, I never would have imagined. I got one of my ""ideas"" just as we were leaving, and I decided that since I had a car, I would take Melanie back out to the Heights. There we could do such things as see the ghetto carnival (""Crossroads Fest"" as it was called), see the kids with the subwoofer box go bumping down the street, see about a thousand and one fireworks get shot off, and just watch things happen.
+
+As it turns out, we had a ""standard length conversation"" which for the two of us lasts about two hours and 45 minutes. Other examples of this include the loft conversation after prom, and various talks at Apollo Park. Anyway, I got to the house at about 9:50 and we left at like 12:25. Totally out of control length to do nothing else but sit on a roof, but I had a great time doing it. In fact, sitting with Melanie is one of my most favorite things to do, even though she unconditionally refuses to give any of me or my friends massages, which needs to cease, because she's very good at it. And no, nothing ""happened""; I know that will come up from someone.
+
+Sunday came around with my grandfather yelling ""5:30, FALL IN!"" at the top of his lungs through the door to my aunt Jane's old room at the top of the stairs. Holy crap - the man can't hear, and when I told him I didn't need to wake up until 6:30 I wasn't that mad. I tried to tell him that I didn't need to get up yet, and that I had set an alarm clock that I found in the room, but he didn't yet have his hearing aid in, so just went downstairs and cooked some sausages ont the stove. When I heard the stairs to the 2nd level begin to creek again at 5:40 I decided that it was totally helpless, and just got up, making for 9 hours of total sleep over the Saturday and Sunday I was there. Sure, it's easy for him to go to bed at that hour, he goes to sleep at 8pm...
+
+I discussed the Evans Scholarship with some people at icc then caddied. Next thing I knew I was on my way out to the lakehouse with my other (mom's) grandparents. My brother had gotten my dad to buy a lot of fireworks and hence continued the tradition of the around-4th of July fireworks show off of our pier on Lake Dale Carlia in Lowell, Indiana.
+
+The next thing I knew AFTER that was that my dad was shaking me to get up early to leave for Turkey Run State Park, in Midwest Indiana. I went swimming there, and had a funny experience. Continuing from the Chicago trip, I made a point of talking to random strangers. Some kids were playing catch with a seal ball in the pool at Turkey Run and they were with two girls, one of which was exceedingly hot. They told me the girls were ""family friends"". The two guys had just graduated high school (Illinois, actually) and their parents had come out with some of their parents' friends and brought their kids. The guys were just out of high school, and they kept flirting with the girls. The girls seemed totally tired of it so eventually they got up and left, and the guys followed them out of the pool, back to their campsite. The guys asked me how old I thought the girls were - about 20. I learned that they were 15 and 14. Wow. (""Reverse Asian complex"" - how come Asian people always look younger than they are? someone asked melanie if she was over 13 when we went to Charlie's Angels once - both 15 at the time...haha) The guys basically told me, not in these words, that they needed justification for their liking of the girls, and I was it. How much is too much to go after though? I guess two years is acceptable, but three years is pushing it.
+
+I later learned that a youth group from our area was staying at the park with us. I saw an HF girl - actually my dad did first - and he asked her if she knew me (wasn't there at the time). I knew her, only by face though. She is going to be a sophmore, has black curly hair, was in the musical, and darker skin. I can't think of her name but she plays soccer. Alas, life goes on.
+
+Tuesday: We left Turkey Run for Indianapolis. We had planned to go to the Indianapolis Zoo, but due to the rain I almost got my family to go to the Children's Museum of Indianapolis, which is unconditionally the coolest museum ever. Oh well, I got to see giraffes and lemurs and lions and plenty of birds. I also learned while I was there that ""gentoo"" is a type of penguin. The only context I had ever heard ""gentoo"" in was the name of a linux distro. You know you're a geek when the computer meaning of a word is clearer than the ""real"" meaning. I didn't know that a ""Gentoo"" was right up there with a King Penguin, but I sure did know about Gentoo Linux.
+
+After the zoo, we headed off to Dayton, OH. I have seen many towns with illegitmate claims to fame; stupid things such as ""the biggest ball of yarn lives here"", however, Dayton does have a ""legitimate"" claim to fame, being that it is the home of Wilbur and Orville Wright. Today I went to WPAFB, the main local attraction. Those letters stand for Wright-Patterson Air Force Base. Their relationship with WPAFB is somewhat similar to O'Hare for us: ""The temperatre is 90 officially at Wright-Patterson."" Even though I have been there before, it was cool to be on a active air force base. This strange, monotonous announcer kept coming on the intercom saying, ""six twenty three, eleven L"". It was the strangest thing, and I had no idea if that was some sort of code to indicate there were terrorists on the base, or what had happened. I think the mere fact that it <i>could</i> happen, of all places where I was, intrigued me the most.
+
+So here I am, 6:27 local time (5:27 back at home) and I just ate four helpings of complimentary nachos and cheese, salsa, and sprite. I love Homewood Suites. By the way, isn't that a cool name for a hotel? I'm not sure what I will have for dinner tonight, or when I will have it, but I am feeling great now, and I am going to run later. I also am going to write to Judy, and watch more TV - last night was the end of Austin Powers II and Airplane (Judy's favorite movie I think). The 15th is Jenn'y birthday so if you know her well wnough to get her a gift, don't forget. Be back Friday y'all, and I'm going to be on later tonight.
+
+Thanks for reading, as always, and I am going upstairs. Albrecht"
+"eventtime","2002-07-10 18:08:00"
+"url","http://eldavido.livejournal.com/8864.html"
+"userid","4466"
+"itemid","33"
+"event","This morning I caddied for a B-caddy loop at 6:40 in the morning. It sucked in the most major way ever. I had to wake up at 5:30 and have my grandfather (whose house I am staying at, more on that later) drive me over to icc at 6:15 AM. I love the early shift!!! (sarcasm) So I got called to the tee starter area, and I asked who I had - ""Bruno, Grossi, and ..."" when I was interrupted with, ""no, that"". Three ladies. One crazy Asian lady that wouldn't stop laughing, one middle aged lady that sucked at golf and gave me an attitude for all 18 holes, and one rather nice lady that I didn't really even notice until later in the round. Suffice to say this pissed me off a lot. In fact, when Tony made his rounds today to tell me about the Evans Scholars meeting tomorrow morning, he actually apologized. Well, apologies are great, but they aren't money in the bank.
+
+Which reminds me, I just read Allison Lani's entry about Michigan, and I just watched American Pie 2 for the first time. This double dose of the American ""we are teenagers and have to fight for our right to party"" really made me sad. I thought about a conversation I had with Scott, Teresa, and Adam last night, in which I realized that I basically am working for nothing, considering how my parents won't let me get a phone, a car, or anything else that many of the people I associate with have, and in some cases even take for granted. What am I working for? The American dream - perhaps I will someday get to go to college for free and save my family that much money so that they can put another two kids through college and live comfortably.
+
+However, all of this does not change the fact that I can't even go to my lake house with my family, because I decided to stay home and work. In truth, I think I'm becoming a slight workaholic - I work six days a week - and granted, I don't have the same schedule as the ofcc folks but I often get there a LOT earlier than they do and I don't get paid nearly as much.
+
+To right all of this, I decided that I would do something I have not done in a while: get into random mischief with Amar. Seeing Jeneane (fine I still can't spell it) reminded me about how much fun that kid is. So when he IMed me today and asked what we should do, I enthusiastically suggested that we should play ""I am an ofcc member"" and go hit some golf balls for free.
+
+So we got into Amar's Lexus ES250 and headed over to ofcc. No attendant on duty, and we just drove right in and went to the range. Perhaps this is my little way of getting even with Teresa / Scott for stealing pins and changing flags. I think they're still winning the little feud but we'll see about that one later.
+
+I stopped at Cabana to get a drink and rolled out of that place. Now I'm sitting in my house with two cars and nobody here. My parents really, really don't want me to be here but I am regardless, writing on livejournal because I'm probably not going to get another chance to before family time.
+
+In case you don't know, I am going state park-jumping with my family for this next week. From Monday to Friday I will be out of Homewood but still in the wonderfully hot, humid midwest with my family. However, also consistent with the conversation I had with Adametz last night, these trips make me grateful that I have siblings, specifically my brother, to make it more bearable.
+
+In the mean time, my parents are at our lake house and I am staying with my grandparents on Oak Street in Chicago Heights.
+
+Last night, I decided to go to Habben's house. The only problem is, I didn't have a car, so I walked from the Heights to Adam's house. It took me 1:04 which is pretty good time for that distance. However, I don't mind the walk one bit, because I like to just observe people. On my way there, I stopped and helped two black guys down the block from my grandparents hook up their Rockford Fosgate sub box. I also saw a bunch of Mexican kids al yelling Spanish at each other playing soccer in Bloom Field. All in all, I enjoyed myself, and took in more of ""the culture"". Perhaps that's why I'm worthy of getting a ""thug life"" sticker slapped onto my shirt while I read slashdot and watch spaceballs amongst other things at Adam's house.
+
+I'm not sure what I want to do tonight. Per Lani, my guys are back from Michigan today I guess, so I may go out with them. However, Teresa still owes me 1/5 of a Buca dinner so maybe I'll be getting some free (well prepaid at least) ice cream tonight. Perhaps I even will go out and get into more mischief with Amar and Dan. (someone call me at 755-0751, gp's phnum)
+
+I hate having to choose what to do. I just read Lani's post, about swimming in Jeff's pool and having a barbecue at Mike's house, and it made me think of how little I have seen those guys. I see one group just enough to make me happy then the other disappears from my life. I hate being forced to choose because it inevitably will be taken personally by one or the other after time.
+
+My only hope, for the moment, is that college comes before I can get much more depressed, and I can think about how I don't have to pay for it and be happy. The way things are going now, life sucks; I hate having to work every day with stupid coworkers that steal 31 cases of beer from local golf tournaments. More on that later, I promise.
+
+(one other thing: I got done caddying today at 10:15 and I tried to catch you all going to the Renaissance fair but missed you. I'm not sure by how much but I wanted to go - dave)"
+"eventtime","2002-07-06 17:51:00"
+"current_moodid","9"
+"url","http://eldavido.livejournal.com/8468.html"
+"userid","4466"
+"itemid","31"
+"event","I caddied today for Sachs again (that's the third time in 6 days), and on my way home stopped at Savoya's T'Go shop, AKA home of Kathy Michelmore, the most hardcore girl alive (that was a word I originally used and I didn't mean it like that but it stuck so whatever, take it as you will but she's a very cool person). I got to see the second woman in my life today - her car. ""Kathy, I don't know who the first woman in my life is, but the second is definitely your car."" She told me that she wanted to go to the Taste of Chicago and fireworks tomorrow.
+
+Well strangely enough I had been thinking that exact thing while I was caddying today - fireworks every Wednesday / Saturday, and Taste of Chicago before that. So far Kathy, Corey, Holly, and Dan Dominick are going, but Kathy told me she wants me and some other people to go with if possible. I have band tonight and tomorrow. I'm not sure if I want to go this week but I'm going to decide in the next hour, so consider this an idea and an open invitation to go downtown tomorrow. They wanted to leave earlier in the day (2:16ish out of Homewood I think) but I would want to go later. I think this would be a good time and if it ends up that I have band tomorrow I wouldn't be like mad or anything if all of you go and I can't. 
+
+""The greatest good for the greatest number"" - John Stuart Mill
+
+One other thing, for all the OFCC folks out there, what do y'all know about a Mr. Disney? Sachs brought him to play at my course today, yes, my course, and he told me he's a member over there. Ever heard of him?"
+"eventtime","2002-07-02 16:54:00"
+"url","http://eldavido.livejournal.com/7954.html"
+"userid","4466"
+"itemid","29"
+"event","Today marks the third of a continuous series of trips to Chicago. Although I went alone today, I had a really good time in my lonesomeness. I'll explain.
+
+I decided that today I would see Divya at Northwestern today. She IMed me the other day and we talked, and I concluded that since I had not been there in a goodly while I would go to the Evanston campus and see her. In addition to the stated purpose of seeing Divya, I also wanted to see Irene, a debater, who lives in Michigan, that I had not seen in a while. Sometimes called ""the girl Dave wanted to hook up with"", I met her on a series of debate trips I took last year. However, to set things straight, I did not ever want to get with her, nor did I ever, and she is a year younger than me anyway. (almost two because I am an old 17 year old and she is a young 16 year old). I also decided that I would stop at a few record stores in they city recommended to me by my cousin Matt, and get a book about either Linux policy routing to help with the Kralovec project, or a book about microcontrollers so that I can do the project that Teresa's dad thinks I am a huge dork for trying to do, which is make a diagnostic probe for a car from scratch.
+
+It takes such a long time to get from my house to Northwestern (almost 2 hours of travel), I was to meet Divya under the arch at Northwestern at noon but I was about 20 minutes late. No problem though, because she woke up when I called her from the purple line telling her I would be late at 11:45. She actually was grateful that I came late because she was barely awake when I got there; had I gotten there earlier she would have simply not been up.
+
+Since it took such a long time, and I did not have my paper or anything yet, I decided that today I would make a point of talking to random people that I didn't know, and probably will never see again, to judge their reactions to a stranger making friendly conversation with them. My first experience with this was on the train on the way to Chicago. I was sitting next to these really loud girls. I asked them where they were going and they told me to the taste, That about summarizes the entire conversation until they started calling each other's cell phones, playing with their ringtones, and yelling at each other from three feet away. This lady across the aisle kept looking at me as if to say, ""I want to kill them too, and I will pay you if you do it."" I couldn't really stand these girls.
+
+Divya and I were going to eat at this place called Whole Foods in Evanston, but we decided not to because I wanted to <i>eat</i> so we went to this stir fry place. She told me to not be an ignorant American and use my chopsticks, I told her no problem and proceeded to eat two complete plates of non-clumpy rice with chopsticks, truly an exercise. This reminded me of my China days - if anyone wants to build enormous patience, eat an entire plate of rice with chopsticks, not leaving one kernel behind. I think I border on obsessive-compulsive sometimes.
+
+I said bye to Divya, after a considerable bit of high-quality conversation about a range of topics from her family to Lev, then took the el back to Chicago from Evanston. I asked a guy with his girlfriend on the platform when the next train came. He then asked me for the Business section of the New York Times I had in my hand and explained how his Rhapsody media agent was a legal alternative to other peer-to-peer music services, and showed me his coworker's picture on the front page of Business. We talked for a while about the merits of peer to peer file sharing, about ""2.5G"" cellular phones, and other technical things. He was about 23, visiting Northwestern, and his girlfriend seemed amazed the entire time that another human being could understand the seemingly incomprehensible stream of rubbish emanating from his mouth.
+
+On that same train, I got a girl to give me a piece of gum in exchange for some French bread I had bought at Whole Foods in addition to a chocolate chip cookie with the volume of a regulation size baseball, give or take a few cc's. They seemed cool, from the north side, and the Rhapsody guy and the girl's friends and I all had a little talk on the el purple line until the Rhapsody guy got off and left us.
+
+I stopped at Borders but they didn't have anything I was looking for. My dad finally said I could get a cell when if I could buy a car instead (Engel's Civic) - the classic technique of start high then when your parents finally give in, you can make them feel like they are being barely reasonable and schroogelike by giving you the smaller thing, which you originally wanted.
+
+On the way home I read the Times and talked to a guy coding some PHP on his laptop to run a gift registry site. We also had the usual tech talk, again he had a lot to say.
+
+Today I determined that I do best with people that are either techies, or live far away from here. I couldn't stand those girls on the way to Chicago, they were so loud and dressed like hoes. That's not to say that everyone around here is loud and dresses like a ho, but it seems that I get along with city people better. 
+
+The other night, while talking on AIM, I was following a gnat across my monitor with the cursor. I realized that if you get too wrapped up in the little things, you won't see the big picture. The gnat is only as big as either a pixel or two, and couldn't see the cursor as a whole, but only the individual pixels. However, as Nick Engel pointed out to me the other day, you have to take stock in the small things, because ""the big picture"" is really made up of smaller things, and those little things are what make and break everyday life.
+
+As usual, I am baffled by my conflicting conclusions, and I want to go out tonight, Someone call me around 9 if anything cool is happening. Thanks a lot.
+
+Your friend, David R. Albrecht"
+"eventtime","2002-07-01 17:48:00"
+"current_moodid","31"
+"url","http://eldavido.livejournal.com/7472.html"
+"userid","4466"
+"itemid","28"
+"event","Change, what a good word to describe these last few days.
+
+Let's see who I have caddied for the last few days; this is mostly for me to check later in case I have to. Thursday: Lightfoot, Friday: Sachs and his wife, Saturday: Bergal with Derek and two carters, and Sunday: Frank and Kazlowski. I caddied 6 days this week and I feel very worn out as I write this.
+
+As for the subject line, change, let's review some of the things that have changed in the past few days.
+
+I went to a Beach Boys concert at Tweeter. Derek told me he would have gone when we were out on Saturday but he could not get the ticket vouchers. Anyway, mad pr0ps to my guy Kurt for getting the vouchers to get us in free less the five dollar handling / parking fee per ticket.
+
+The tickets sucked but we had a good time anyway. We had to sit in obstructed seats but anything in the pavilion at all is basically good, especially if it's free.
+
+Next change: Mike took the Excursion to the famed ""Excursion doctor"". It now has a full compliment of AV equipment inside, again, as before the first or second incidence of theft. I have yet to see it, but supposedly it's quite nice.
+
+In the continuing tradition of what people may call my living in ""racial denial"" I visited Popeye's two times this week. The first of which we stopped in after the concert and met everyone, and the second, I took Adam and TJ for biscuits before we went to Judy's house. 
+
+Overall, it's been a relaxed last few days, and I can't complain. I have seen a lot of my good friends often, but many of them are leaving or already have left. Such being the case with Judy and Andy. Kurt and Dan were both gone for a time (Dan to Colorado) and Melanie has yet to come back from her 10 day hiatus so it's been pretty empty around here from time to time. However, I have had a wonderful time on and off in Adam's pool. I will not forget his father's ""organic party"" sentiment in regards to his mother's leaving the house for a while. The party simply won't stop.
+
+Ever head that song ""You Know You're Ghetto""? Well, you know you're ghetto when you're walking down the 17th fairway of a country club and you see an empty Absolut 40 floating in the pond. 
+
+Golf is such a strange sport. Anyone who has not played it simply cannot understand the wide variety of strange things that happen on a very regular basis on the course. If I was not such a firm believer in the ability of physics and math to define the universe I would say that there is no way to predict some of the things that happen there. Not only do the physics of golf sometimes defy the mind, especially some of the strange bounces in/around the cart path and the water, but the strange things that people say and do become more or less commonplace. In the last two days, I have seen a ball driven into the red Jacobsen truck of a poor old Mexican man, probably an illegal alien, and him laughing it off while the member remained totally oblivious to it ever happening, as well as a little dialogue between Sachs and his wife (W):
+
+W: Damn it honey, you just made me miss that putt. STOP MOVING!
+S: Oh, you wouldn't have made it anyway.
+W: Try me. (she tries the putt again and makes it)
+S: OK, fine, I lost that bet.
+W: Well you're going to have to give me something for putting up with you.
+S: Sexual favors. Remember that time I took the trash out in my thong? David sure doesn't want to picture that!!
+
+(as I walk off the green I try to avoid thinking of pasty white 35 year old Mr. Sachs in a thong. wow)
+
+I know there are many things I am forgetting, but basically, here's what I did the last few days:
+
+Thurs - Went to Kahle's and hit up the hot tub. Friday - Went to the concert. (Judy line thing, next entry) Saturday - Went to Judy's house, and today, I went to ice cream with Brian and then came home, then saw Dan. As a side note, I've also had pretty good conversations on aim with Teresa the last two days, but haven't seen her in over a week, strange.
+
+I also got some cool postcards from Melanie and Dan, maybe I will post pictures of them, they are both quite funny.
+""You know you're ghetto when the money that you got, is a whole lot of 1's stacked up to make a lot""
+
+Tomorrow I'm going to visit Divya at Northwestern, going to be in the city, I'll see you later in the day, perhaps, if anyone wants to call me. goodnight everyone"
+"eventtime","2002-07-01 01:31:00"
+"current_moodid","44"
+"url","http://eldavido.livejournal.com/7299.html"
+"userid","4466"
+"itemid","27"
+"event","Happily making money. Yesterday: Hefter, Simborg, and Benson (ladies), and today, Dr. Mintz, (the dentist that has an office on Ashland by TJ's house and Teresa's church) Mr. Sachs, and a guest of Mintz. Dropping money into the bank, but I still can't get a phone if my dad has anything to do with it.
+
+My mother says it's ok for me to get a phone as long as my father says it is ok. So I go to ask my father, and he tells me, ""Sure, you're paying for it..."" but doesn't add for a few seconds, ""and as long as they can't come after me if you don't pay"". Well let's see here, since I am a minor, I cannot be held responsible for such things under the law. So he basically told me yes but no. I think he believes that I am going to lose the phone for sure, and that he wants this to just be a ""learning experience"" for me. bah.
+
+I went to band last night and to Baker's square after that. I spent that time with Jenny Walker, Tabag, Kathy, Brittany, Kurt Zoellick, and my brother. It's so strange to include my brother in such gatherings. He still seems so small and not a high school-age kid yet. However, he's finna (sorry I had to) be a freshie and he's in Community Band with me, so he came and for the first time, spent more than an hour with all high school kids who were all older than him. He seemed really reserved, like he had nothing to say, until we started to poke at him about his ""girlfriend"". I don't think he actually has a girlfriend but it's so fun to accuse him of liking one of his friends and get him all bent out of shape about it. He gets so mad and flustered and denies it like you accused him of murder. He will learn soon enough.
+
+Today when I got done caddying Sachs showed me his Audi TT (5 speed, 1.8 single turbo) and Mintz showed off his 2002 Honda S2000. A 2.0 liter naturally aspirated car with 240 bhp stock. Holy crap.
+
+It's not that late in the afternoon of a really hot day and my thoughts begin to stray to a good way to occupy the rest of this day (wow that's an awesome rhyme without even trying for it to be) so someone give me a call. Perhaps another night in a pool somewhere would be nice or else something that does not involve being outside before about 7.
+
+Several other things present themselves here. First of all, due to the fact that Mr. Earley thinks that I am not a motivated kid, I might not be able to go to rf on Sunday because I am supposed to be elsewhere. I had planned to skip it but in light of this discovery I might not want to. That is, unless I can be home by like 6 which I don't think is an option. I'm not saying that I can't go, it's just that I'm about 80% certain I shouldn't go. I really wish there was another time we could go but I'm not so sure when that could be.
+
+Second. I think a trip to Northwestern might happen this Monday. I would like to see two people there, Divya and Irene; the first we all know and love, the second is this sophomore debate girl that is at camp there. I wish one or more people would come with me on this little trip so if you have interest please tell me.
+
+Third. TJ and I both made drops into the very prominently displayed box today. Those gummies were more than awesome as was that chocolate band-aid. Mad props to Mother Teresa on that one, keep the good stuff coming. I think I am going to go to White Hen to get some Cheetos to add to the things already in there, and to eat myself.
+
+See you later?
+David - 
+
+Quote of the day: ""good looking kidnappers make people laugh""
+(I just went to bowling with Kyle Oppenhuis, I'll be back not later than 6:30)"
+"eventtime","2002-06-26 15:38:00"
+"url","http://eldavido.livejournal.com/7009.html"
+"userid","4466"
+"itemid","26"
+"event","Today basically sucked. I hate angsty teenagers but I can make some judgments some of the time.
+
+The latest envelope I am pushing with the parents is the acquisition / payment of a mobile phone from Voicestream. Which reminds me, if anyone is in the market for cheap cell service, Voicestream is definitely the place. You get free semi-national roaming and long distance standard, with all the bells and whistles plus AIM connectivity on a Nokia 3390 for $30/mo, a good deal if you ask me. Seeing as to how I hardly spend any money, I could stand to drop a bit for a year of phone service.
+
+Even though I didn't get to assemble the tramp[online] like I had hoped I would, there will be other days for that. Instead, I spent a part of the day with Mike trying to get server-side bandwidth limiting working for his uncle's company. An intriguing problem: you have a fat pipe to the net but want to limit how much each user can use, so how to do it? That's what I'm going to be working on in a few minutes.
+
+At the recommendation of Melissa, I tried to go outside to sit in the sun today but that didn't happen for too long because I was breaking a sweat just sitting there. I brought out my mini-system, and a couple of good cd's including Melissa's CD for me and tried to just sit there but I couldn't tolerate the heat more than about half an hour.
+
+The trampoline thing coupled with what happened later in the night really pissed me off. (5% trampoline, 95% this thing, I'm not really mad, just more depressed about the trampoline) As some of you may or may not know, I presently am trying to complete some of the last requirements to get my Eagle Scout done. I have been in the program for over 10 years and I love it. To step onto the soapbox for a minute, I don't understand why scouting gets such a bad rap in popular culture. I don't know of any other place you can learn how to explore the inside of a cave or sleep on a submarine with a lot of good friends. In addition to that, it teaches you how to talk to older people and many other valuable life skills. Anyway, I learned tonight that Mr. Pat Early, the district advancement chair, thinks that my attitude is one of someone that ""does not care terribly much"".
+
+I thoroughly object to this assessment of me on two levels. First of all, the man lacks any real reason to think that way that I can think of. As far as I am concerned, I have gone out of my way to present myself as a highly independent, motivated youth, but he feels otherwise. Second, even if he did get this sort of impression, I have talked to the man a grand total of twice, not more than twenty minutes each time. I feel that any sort of judgment about the merit or lack thereof of my character would take more than two brief conversations to establish. That's why I am really mad as I write this.
+
+I believe, after consulting some of my adults within the troop, that this deals with my ability to not show any sign of uneasiness when talking to my adults/superiors. All my life I have been taught that the ability to remain calm when speaking to people has a great deal of practical value. Apparently, these people interpret my perceived lack of rigidity as a breech of protocol. Basically, they are getting mad because I am not afraid / in awe of them. So what am I supposed to do, make myself uncomfortable? Grand impasse folks. 
+
+The thing that makes it even worse is that I just wanted to take a walk today after basically having my mom tell me that I can't get the phone like I wanted to, and she came chasing me down in the car to tell me about all of this. I got all tensed up over it, and now I am pretty pissed off to be perfectly honest. I have enough complication in my life as is, don't need more.
+
+Still haven't planned renaissance fair yet. Teresa please leave me that box because I think that cereal will come in nicely at 9:00 when I have to caddy but if you don't / can't get it out there in time, no problem. I think many of my friends are at Jeff's house swimming but I forgot about that completely so I'm going to go to bed after I do some research about TBF, something for Mike. Sorry about the length."
+"eventtime","2002-06-24 23:08:00"
+"current_moodid","55"
+"url","http://eldavido.livejournal.com/6824.html"
+"userid","4466"
+"itemid","25"
+"event","I finally got out today, after my two day break from activity. That's my club, and I love it. I caddied for Pietrowski, Aleman, Bonner, and Nichols. I made some money, finally.
+
+I got done with that at 2:30. Oops, actually 1:30, somehow my watch picked up exactly one hour when I was on the course. It had to happen between the time I was on the bench to the time I was coming in, because it said the right time when I went out. I felt very confused, for the second time in a few days, the first being the box incident. Confusion is not good, it makes me look very awkward and screw stuff up.
+
+Brian and Toni stopped over today. I felt loved, they took me to McDonald's and Toni bought me a McFlurry. I saw this ad for 19.99/mo cell service that I NEED to get because as I'm sure all of you know, the phone here is always busy. I'm going to try to get that and see how it all works out.
+
+My brother's friends were over, they watched the end of The Fast and the Furious that I had rented, and then Air Force One, which I liked a lot, although I did not see the whole movie.
+
+The original plan was to go mini-golfing. I have tried to do this no less than three times now. I really want to go, but each time something comes up. So, hoping that the third time was the charm, TJ and me came up with a list of people to call. The only people that could go: Adam, TJ, me, and later, sort of, Teresa. We ended up not going because we didn't have a large enough group. We decided to go ""kidnap"" Teresa as per Adam and my plan when we saw Scott, Melissa, and Teresa at the door. We went with them to Zarlengo's. I decided to be a ruffian and throw pennies at the Monte out the side of the Echo on the way there. Also, mad props to TJ for letting me drive, although I did mess up once. I am slowly getting better and better, although I'm still not good enough.
+
+We got out ice cream and went to TJ's, lots of Renaissance-fair moon-chair (like that rhyme?) spinning, and playing with ""Stupid Pete"", the dog that eats thin air.
+
+There was a party at Andy's Reich's (""Reich"" as in the ""third reich"", right NHS announcer guy?) house. Everyone there was going to get totally trashed so I decided not to go, but Mike wanted me to pick him up so I went home early. Adam removed his car from the driveway, and I took the Honda, but Mike had already left. Another considerable misunderstanding took place on both sides, and Mike and I cleared it up.
+
+I had a lot of time left before I had to be home; I had promised Melanie I would visit her before her 10 day UCLA hiatus (although would it really be a hiatus? a hiatus is a pause, and she's certainly going to do more there then she does here, so maybe here is the hiatus from UCLA action) about which she says, ""David, I'm getting shipped out west to play doctor for a week"". She wrote me an email:
+
+<blockquote>""...hope the speakers are coming along nicely, and remember- if you're ever out moping and groping over a rained out caddying opportunity, i'm probably sitting out in sunny Cali soakin up some sun. that or looking at some totally decked out hospital ward. or checkin out charles lamb lookalikes down UCLA, all in their suitjacket ensembles, nicely bronzed and collars included. either or, that's what i say. hehe. now doesn't that make you feel better dave?...""</blockquote>The little visit turned out being a lot more than that. Judy asked me out of the blue if she could cut my hair. I felt a bit uneasy but went ahead with it. I can't believe how tolerant Melanie's parents were of us, all having a hair-cutting in their house at like 12:15. It amazed me. Again, I felt loved for Judy, Melanie, and Jenny caring about my hair so much. I think it looks decent but I need a second opinion on this.
+
+I got home around 12:30. I took the Accord without asking, but I think my father remains beautifully oblivious to both of these facts because I was quite careful with the car going in/out and he was asleep when I got home.
+
+This morning I got up at 5:30 expecting to caddy. I felt sick in my stomach so I stayed home. Here I am, chilling for a day. Tomorrow I want to help Melissa set up her trampoline, finish the subwoofer, and maybe go out at night after I go to church (haven't been there in over a month from caddying). I guess I'm basically out of commission for today but we'll see about tonight. No promises though."
+"eventtime","2002-06-23 14:10:00"
+"url","http://eldavido.livejournal.com/6432.html"
+"userid","4466"
+"itemid","24"
+"event","This day marks the second day in the ""I didn't get out because my country club sucks"" saga. Got there 9:45, stayed until just before 1:00, and watched four groups go off today. A whopping four groups of golfers. Frankly I don't understand how that place manages to stay in business but I suppose that is of little consequence to me.
+
+I rode out in the Accord today and gave caddies a ride home: Geoff Hoffman (G-off phonetically), Jeff Anderson, and Pat Meinke came with me. All good kids, all younger kids, all stopped at White Hen.
+
+I watched Pi today. However, I was tired for whatever reason and fell asleep halfway through it. Not that I found the movie uninteresting, I just couldn't keep my eyelids open through the end of it.
+
+After that, I spent some time with Divya college-prepping her laptop. Configured her netcard, DHCP, and some other stuff. We went to Best Buy to get some cat5 cable. She got disks and two cd's. While we were there, I saw Sharon Pan. Good old Sharon Pan. She reminds me of my days of sitting in fifth period math with Kurt, Megan, Amar, Lev, Adam, TJ, Kathy, Stephanie, Adrianne, Megan D, Mary...I can almost remember the entire class if I had time.
+
+While we were in the store her ""boyfriend"" ""Little Levie"" called her. She took a lot of grief from me, and from a cashier at the store, for being Lev's girlfriend. I know I probably shouldn't have been mean to her but I did fix her computer so I can take some liberty.
+
+Later I went home and picked up Kurt Zoellick, we watched the Fast and the Furious on the system. I always love that movie. I just took the kid home and here I am.
+
+It's pretty absurd how scattered a lot of my guys are. The MKs are in Michigan together, Dan is on vacation, and Kurt is visiting family right now. Melanie is about to leave for camp, as is Divya, and Scott is still in Wisconsin. I guess Teresa isn't really one of my guys but she is occupying / occupied by Charlie this evening. I paid a little visit to Melissa today...was it you guys that I saw at the corner of Flossmoor and Dixie today on the way to Idy? I think so, but Melissa didn't ask her mom because she preferred to stay outside and talk to Kurt and me than go back inside.
+
+Brian, if you're reading this which is unlikely, I desire a call sometime tomorrow after about 2 so that we can finish the subwoofer. Also, Kralovec has made it clear to me that he desires another ""speaker party"" so possibly you can get started on that effort.
+
+Teresa, I know you might have gotten this by email, but read my reply to your last comment. I hope it cheers you up a bit - and please reset the time on your computer unless you like posting to lj in the future, and making comments before the original posts go up. It confuses me a lot. You confuse me in general.
+
+RF logistics will be put together by TJ and me by Tuesday or Wednesday probably, I want to make this a good trip so figure out who is going and who can drive. That's about all for now, ""peace out my homeslices"" - arrivo
+
+PS this 8th grade Burger King-whore from Kralovec's is still hitting on me, umm this is really strange (ask me later)"
+"eventtime","2002-06-22 00:33:00"
+"current_moodid","87"
+"url","http://eldavido.livejournal.com/6157.html"
+"userid","4466"
+"itemid","23"
+"event","My head is about to explode. It's so funny how it works around here (my house). Everyone has their little agenda and if each and every thing on every person's little list isn't ticked off by the end of the day, it's a major catastrophe. Let's start with my brother.
+
+He just got this new toy called a Neo Jukebox. The best way I can describe it is a 10gb hard drive with an MP3 player and an LCD display strapped onto it. It connects to the computer via USB. Well Windows 2000 with its ""new and improved"" driver model and permission structure has screwed me over again, causing much grief. I cannot, for the life of me, get the thing to work. Of course, I haven't <i>really</i> tried yet, by that I mean spending an hour or more totally dedicated to that, but that might have to come, come real soon.
+
+Then there's my mom. I accidentally took home the wrong towel today from the Habben's. My towel is a sort of soft, cushy teal affair with yellow and green on it. (I suspect that I left it over there, but if anybody knows where it is, please tell me.) My mom got so mad at me for not bringing home the towel. I the too-honest Dave told her, ""Mom, I simply fail to see how you can get so worked up over a towel. I don't give a hoot about the thing; I can't bring myself to care. However, as a personal favor to you, I will get it, since I know that for whatever reason it means to much to you."" That one left her hanging for a while. My towel is ""shaneil teal"" according to my mom. It's a towel...
+
+Then there's me. Trying to carry on too many concurrent AIM conversations, check my email, read livejournals, look at slashdot, and read the news. I am probably the worst. I feel incomplete if I do not do each and every one of those things if I knew that I had time to, so I spend the longest time online doing all of them. That's why I'm always on kids.
+
+Today the pool was pretty good. I also played at the Irwin Center, and failed to get out caddying. and did my water works thing. I started to watch Mission: Impossible on the new system, but almost fell asleep when I realized that I need to get more sleep at night.
+
+That's what I'm going to do right now."
+"eventtime","2002-06-21 01:16:00"
+"current_moodid","90"
+"url","http://eldavido.livejournal.com/6017.html"
+"userid","4466"
+"itemid","22"
+"event","Everyone reading this, I am going running today at Millennium park. I think I'm going to do about a mile and half, but I'm going to start right around 5:55 so that the water will turn on there just as I am finishing my run, and I can get really wet right after I do it.
+
+Come to millennium park today at 6pm to join the fun. I have band at 7:10ish so I will have to leave but come for a while and bring friends. Sorry about the short notice.
+
+...music on 9 speakers (now in the basement) is awesome"
+"eventtime","2002-06-20 14:01:00"
+"url","http://eldavido.livejournal.com/5689.html"
+"userid","4466"
+"itemid","21"
+"event","Through the good graces of TJ Carr, his minivan, and some good planning skills by others, I went to Buca tonight. I still can't remember what the last name of the place is - di Bepo? Did I get that right? Anyway, it was Teresa, Adam Habben, (thanks Teresa about last night on AIM- you know what for) me, Mike Nyberg, TJ,. and Jeanine. Overall quite a good time, although the bill came to $80. That's so much money for six people to go to dinner. I caddied today and made $50 so I was able to pay it, but still, that's a lot of money.
+
+Today when I caddied I had some cool guys - Glascoe, DiGiovanni, and that crew. On the 9th hole, I picked up some divot mix to fill in a divot on the tee box the guy made from teeing off. The divot mix is placed with a little shovel that gets left inside of the container with the mix. I leveled off the shovel and he thought I looked like I was mixing some cake so he said, ""A bit more than a tablespoon there, David?"" I felt slick so I responded, ""Yes, in fact, it's a <i>tee</i>spoon."" TJ, you were very right when you said I think of a lot of stupid stuff caddying.
+
+Today we went to Best Buy in the morning to get a lot of equipment. We now are the proud owners of a 32"" non-hidef TV (dang it) with component video all the way through, and a pretty good stock issue A/V receiver. Stuff looks so good with component. It's a shame that Dan had to leave on vacation today or else I would show it to him, because he wanted to see it. The next big task it to figure out how to position everything in the room to minimize standing wave and wall reflection and other such ""audible anomalies"", so I turn to harman.com, the parent company of such biggies like JBL, Infinity, dbx, AKG, Crown, and harman/kardon. In other words, the entire pro audio industry short of Shure, Peavey, and Fender.
+
+I watched Fantasia 2000 on the TV. I especially like the sketches for Rhapsody in Blue, Firebird Suite, and, as always, the Sorcerer's Apprentice. I sort of want to have a ton of people over to watch it but my basement is painstakingly small, so scratch that idea.
+
+Tomorrow I will answer the phone at 8:30 so I can learn about the committee I am on to select a new band director for HF. I have responsibility...cool. I guess that means I'm going to get up and caddy early too, which means I will get a lot of time in the afternoon. Band tomorrow at 7:30 Irwin Center, then perhaps I will get to drive a car with a new clutch in it.
+
+Which reminds me, Mike, I need that win2k ""SERVER"" cd if you can. Just throw up a response if it's ok and when I can come, I'll copy it and have it back the same day. Sooner is better.
+
+Survey question of the night: name your favorite cheap thing to do (<$10/person) that's fun for groups. Mine would have to be minature golf. What do you all think would be fun?
+
+<b>mike needs to beat kahle. needs to beat kahle.</b>"
+"eventtime","2002-06-19 23:58:00"
+"url","http://eldavido.livejournal.com/5463.html"
+"userid","4466"
+"itemid","20"
+"event","Hello night.
+
+I woke up today at 9:05. I had to be at icc at 10:00 for the daily routine. Getting up that late was a problem because I generally walk there and it's about a 35 minute haul to get where I go, so I had not enough time to eat a proper breakfast and all the things I like to do before I caddy. I ended up riding a bike with alignment so bad the front wheel probably had an inch or more of play between the maximum leftly and rightly wobble. That's really bad. Seriously, I think that bike is just going to fall out from under me some day. I'll just be riding along when the rim of the tire just bends in half and I fall off the side and get injured really badly, and that will be that.
+
+On a lighter note, I locked the bike to the fence along Idlewild and walked into the club, exactly on time. Nice. Today I caddied for Mr. Jacobs. It was a typical disaster round. The man brought three guests that almost never play golf so not only did I have to chase their shots around everywhere, but one guy lost a pitching wedge. He said he lost it somewhere between the 12th and 18th holes. So, I had to take a golf cart (in violation of the unconditional rule that caddies don't drive carts) back six holes, and ask seven groups behind us, if they had seen a club. All of them said no. We spent almost an hour looking for the club in total and simply could not find it. (Although while we were looking I did hear the ice cream truck come down Teresa's street playing Pop Goes the Weasel hehe) I ended up making $55 which is less than I wanted to, but I'm happy that the guy did not take out something that clearly was not my fault on the caddy, like many other adults might.
+
+I'm happy that I'm seeing a lot of quality people this summer. It keeps me in touch with the fact that not every person in the world practices the Derek Schultz routine of going home every day after caddying and smoking a bowl, followed by smoking ""about half a pack, maybe a pack on good days"" of cigarettes in an hour, and then getting drunk, every day. Every day of his life this kid does these things. It's interesting because after a while, if you don't see much else, you start to think that that's normal, and think about doing it yourself. That's what happened to me last summer.
+
+I just watched the movie ""All the President's Men"". It's about Watergate, and the very risky reporting done about it during the early to mid 70's. I really liked it a lot. Now, I'm going to watch 13 days, and maybe some other older political stuff. I have the video for like a week so if anyone else wants it, feel free to stop by when I'm home or just ask me and I'll give it to whoever asks me.
+
+I was thinking about getting a Geo Metro because I saw an ad for one really cheap. I read about this car. It's the best good crappy car ever. It has a whopping 1.0 liter inline 3 engine, with 76 hp. It weighs 2000 lbs and achieves a top speed of a little less than 110 mph with its whopping 2000 lbs of weight. This thing could rival Kurt's MGB if it only was made to be cool with neons and such. However, being as it was an automatic, and the guy wanted too much for it compared to Kelly Blue Book price, I decided not to get it. Anyway, ""It's a Geo!!"" - Dan Ratko
+
+I'm looking forward to tomorrow at Buca with TJ although I'm told that some of you can't come because of work. Oh well, that just means that TJ and I will get to be beef eaters together (well mostly him but somewhat me too) and have a lot of food in a small amount of time. I really would like people to go so please come. I'm also looking forward to the Renaissance fair trip and the great america trip (if it goes off). I'll tell Kralovec and kids about rf tomorrow.
+
+To leave off, I will tell of Fabricio Franco. He is a caddy who we all call ""Faab"" (you know, it rhymes with Saab). Over the last couple of days I have observed Faab drive to icc in a z24 Chevy Cavalier. Faab is a young'n, only about 15. I asked how he drives - he says he just does. The car is not insured, he does not have a license, but he still takes the liberty to drive. Only two moving violations so far, and each one pushes his year of legal attainment of license back about a year or two (18 now I think, maybe higher) but he still drives it. What a funny kid."
+"eventtime","2002-06-19 02:03:00"
+"url","http://eldavido.livejournal.com/5203.html"
+"userid","4466"
+"itemid","19"
+"event","Movies: American Beauty, Vanilla Sky
+People: Melanie today, Melissa Saturday, Kristen Rooke last night
+
+I think I need to see Kathy Michelmore. My mom is really annoying me right now by asking me 1000 questions while I am trying to write this entry, so I can't think.
+
+Here are some thoughts I have been having over the last few days
+
+- renaissance fair: that looks pretty good. consider me in but I'm still not ready to front the cash yet hehe
+- should I get a geo metro? its a real piece of crap car but I saw it for $1200 and in pretty good condition too, I could fix it up but I think that's too much money to pay
+- Melissa and Teresa make way too much money for the work that they do.
+- I wish Scott was home so we could finish our conversation
+- I have felt really antisocial and depressed over the last few days. I'm not really sure why but I think that a trip of some sort needs to be planned. I think that perhaps some sort of sporting event might be a good idea. Otherwise, there are many things to do that don't involve that, but renaissance fair might just occupy this particular niche.
+- I need to get a phone - anyone know of cheap cell service that I can get? My brother is online here ALL THE TIME and I can't handle it anymore. We aren't going to get broadband because it's too expensive and I want a phone anyway
+- I want to get another cat. Especially after reading all the other posts, I realize that I miss my cat
+- Melissa has Scott's rabbit in her backyard. What a funny little thing it is. It just hops around and when Smelly tries to pick it up, it tries to jump out of her arms and she says ""Please don't escape rabbit."" Sounds sort of like Elmer Fudd when you think about it. ""Please don't escape""
+- I need to make more money. This caddying job has been crappy. Oh well, it's going to pick up as soon as it gets to be July and also when the weather is better.
+- I ate a Choco Taco today. I don't so much like them but I can see how Brian might
+
+btw, how is the move Brian?
+
+Buca Wednesday? I haven't seen you in a while TJ, I think since the barbecue - I would like to go if that would be possible.
+
+Tomorrow I caddy at 11 so figure on my being home at 5:30. I have band from 7:30-9:30 but if anyone wants to go out after that think something up and it'll go down.
+
+I have no idea why I am depressed. I think it might be a chemical imbalance or something. I think I just need to go to bed and forget about all of this.
+
+Oh yeah, that whole mess with debate still hasn't been resolved, Josh and HF crew think I'm going when I don't think that I am. Plus Aaron Kall of the institute called me and personally asked me to attend because I ""did pretty well at several TOC-quality tournaments"" (toc = tournament of champions, long story)
+
+What do all of you do for cheap quick happiness? I need some of that. I expect like a lot of replies to this because I asked a lot of questions. Pour your hearts out y'all.
+
+al-brakt (lani pronunciation)"
+"eventtime","2002-06-17 22:12:00"
+"url","http://eldavido.livejournal.com/5108.html"
+"userid","4466"
+"itemid","18"
+"event","Friday got off to a good start when I took a bike ride in the morning because I couldn't fall back asleep. Other than that the day was kind of a disaster on two fronts.
+
+The first of the two was the disastrously bad weather we experienced. I was set to caddy that day when I looked to the west and saw this storm cloud the size of Texas approaching icc. Great, right? Well not so much for me, as storm clouds interrupt the cash flow. So I had to stay poor although I did get to watch a very cool-looking storm from minimal cover and for quite a while, almost two hours.
+
+I think the members had caught on that we were going to have a storm that day so play was slow. Friday some of the regulars of icc decided to compare what kinds of condoms they use, and what size. Anyone there could have predicted what happened next. Derek blew up the condom and Billy Bunn put it in the back of a golf cart. We kept trying to make it obvious and obnoxious and get a reaction out of the members when they just saw this big inflated condom blowing around on the grounds of the club, but it failed because the thing was a bit overinflated and popped. Hence the end of this chapter of caddy mayhem.
+
+That night was spent at Josh's house, partly in his attic. I liked going over there. It was a pretty good sized crowd but nobody was acting really stupid or out of control which was a plus. I hate to see Josh get in trouble for having something screwed up. Props to Nichols though for having us all over. I had to get out of Nick's civic ""birth style"" (Jeff Ehman) through the driver's side rear window, that was a chore.
+
+Saturday 5:30 came way too early. I got out to caddy today at 7:10 - in other words EARLY. NICE. I had Bruno, Dandino and Narcissi. Bruno acts somewhat perverted for a 60 year old man but he still is funny. From ""What's that yardage marker say David? Does it say 'TOO FAR'?"" Also some other things like ""Mario, you suck. Just face it, you're doing a crappy job of impersonating a golfer"". There were others but I can't remember them right now.
+
+I finished at 11, about to pick up a second round at 11:50 - I visited Teresa because she practically lives on the grounds. We talked for a while until Nat came out and offered us drinks. ""Lemonade? Margaritas? What would y'all like today?"" We talked a lot about construction and garbage picking. I also saw Charlie drive by - whadup g?
+
+Watched Blackhawk Down with Dan - I love that movie, especially the part at the end when the Pakistanis hand the water to the crew on trays.
+
+If anyone has any plans for tonight call me right quick and something will go down."
+"eventtime","2002-06-15 15:17:00"
+"url","http://eldavido.livejournal.com/4792.html"
+"userid","4466"
+"itemid","17"
+"event","pretty run of the mill day today, but I make something out of each one of them. we only have so many during the summer to use.
+
+Today I woke up at the early hour of 11:30 am, latest in months. I love sleeping in because I never get to do it. ever. ""It's always something"" as my father says. I walked to caddying and on my way there Mike picked me up and dropped me off at icc. Thanks Mike, that helped out a lot. I'll repay that favor to you in several ways.
+
+I didn't get out today, again, which was not entirely bad because I would have had to deal with the rain. I did however get to hear about Derek and Rob's drinking escapades, for like already the 10th time this year. Today I learned all the local spots to pick up liquor so if any of you need to get hookups, I have them all. I especially liked the description of a place called JR - a place ""so ghetto that when you go to buy a 6 pack they take a twelve pack, cut it in half, and tape up the ripped end"". 
+
+I watched Harry Potter today - that's one fine video but like Lord of the Rings I would like it more if had read the books. However, that doesn't really bother me, because I can only have so many obsessions and reading fantasy books isn't on that list right now, although if I had infinite time there's not a doubt I would play ALL the final fantasies and read ALL the books and all that because I like that entire culture a lot.
+
+The band concert was good, albeit being out of tune and lacking rhythmic synchrony at times. I had I think 4 solos and they were really exposed. People told me I did a pretty good job so I felt satisfied.
+
+I also received a letter from the fire department today commending my good job putting out the blaze in the basement. (sounds like a title of a bad horror book, ""the blaze in the basement""). I'm going to bed early tonight because I'm going to get up around 6:30 tomorrow so I can get some exercise in and go to a garage sale before I caddy.
+
+I've been thinking about this for a while...my next post will be called ""The Absurdity of Atheism"" in which I will argue that it's not possible to lead one's life on ""pure reason"" or ""believing in nothing"" or ""trusting nobody"" or any of that. Please read it, I'm not going to go on a big ""PRAISE GOD!!!"" or fundamentalist rant. Y'all might be surprised at what I have to say.
+
+""albright"" - Lani (allison I miss you!!)"
+"eventtime","2002-06-13 23:09:00"
+"url","http://eldavido.livejournal.com/4534.html"
+"userid","4466"
+"itemid","16"
+"event","Today was another day which sets the standard for good days, sort of like the barbecue. It's not that it was like the best day of my life, but I just wish that when I want to hang out with friends they would all just get along and have a good time like Teresa and I did today.
+
+Last night I watched Hannibal. In a nutshell, holy crap - it's not often that you get to witness a person scalp another alive and make the scalpee eat their own brain tissue. wow. I had had the idea of taking a little trip downtown for a while and actually I had seen Melly at the video store. She told me that Teresa was probably the only one free for today. I had an orthodontist appointment so I took the day off from caddying - first day off this year! yeah for going every day!
+
+Today I took the train with Teresa to Chi-town for some Children's Museum action. Although it might not seem that such a trip would be interesting or have any sort of point, we had a great time. It all started with our talk on the train, followed by my romp through the fountain at Navy Pier - I felt a bit daring so I decided to run through the fountain while it wasn't going and see if I could make it through without getting blasted. I handed my keys, visor and wallet to Teresa and just up and did it. Great stuff.
+
+Next we walked into the pier. I jumped over a black railing that gave Teresa a considerable bit of trouble. I have been saying over the past few days ""It's really funny to see small things have to work really hard to achieve the same effect as big things working only moderately."" Several prominent examples include the Toyota, what a little car - has to rev up to like 7000 rpm just to do what a v8 can comfortably do at like 3500 rpm. Also, Teresa pulling hemp string and her trying to jump the fence in the middle of the road are pretty good examples.
+
+We went into the place and did pretty much everything. She pretty much hit the bases in her post.
+
+First we looked at kids' dreams in life. That was really fun. Some of them were really lofty, others, really strange such as the one she mentions about ""I want to be a girl because I am a boy"" (she felt pretty sorry for that kid) and some just downright nice. I especially remember the one about the kid that said ""I want to be the best engineer. To start, I need to learn how to measure and to add and do other math."" (good old physics)
+
+Next came the tinkertoys ""wake up the bear"" thing. We had to invent a machine to wave up a bear when the alarm went off. Wouldn't you know, I tried to construct a camshaft out of Tinkertoy parts. I was less than successful but had a good time doing it. In that same area, you could take Velcro parts and put them together any way you want to try to make a flying machine. The idea was to get the machine to stay in the air as long as possible when dropped from like 100 feet in the air. They had a little timer. We had a real problem making one of these things because ours was too wide.
+
+After that, I think we went to the archaeological dig place. In this place, they had a stack of about 20 boxes out on the floor and you had to fit them all into a truck. I laughed a lot because every kid that tried to do it forgot this one box labeled ""Kitchen Supplies"", the biggest one of all. They would all think they had gotten it and yell ""darn!"" when they realized they had forgotten. I went over, helped load the boxes, and smacked my head <b>good</b> on the top of the truck, all to Teresa's amusement. Also, while we were there, the two of us just sat for a while watching the kids. One of them got scared of my glance and ran to hide behind a lady sitting on the edge of the dig pit. I kept looking that way and saw the poor kid glance around his ""shield"" and put his head back away when he saw I was still looking in his general direction.
+
+Next we went to the anti-discrimination place, and then just sat on some benches for a while. I specifically remember this slide you slide down that makes a bunch of musical notes sound when you go down it. We both went down it and loved it. Also, I remember a chair that had three guitar strings on it that Teresa tried to play a song on, but couldn't manage it.
+
+We then went to the water place. From making dams to locks to floaring boats, and playing with the water wheel and the fountains, it was a really good time. I think Teresa is interested in PVC creations now so I think I have a birthday gift idea for her but I'm not so sure when I will need that valuable piece of information.
+
+Right before we checked out I stood under this little bridge like a troll and shook it when the kids came across. I'm sure they had no idea what to think but I had fun nonetheless.
+
+I brought a bag full of dinner mints and Teresa kept taking them from me. Sometimes she would ask me politely, other times just demand them...but she ate them all by the end of the train ride. I picked up some Green Tea and the two of us found our way home. No, I did not take a weird route to the train.
+
+I took her home and we had to break in, great fun that was. She said she would buy me Jones soda for taking her today. Good trade I think.
+
+Next I went to Melanie's violin recital. Even though I fell asleep during the first half of the program (DOH) I managed to stay awake for the second half and see Melanie, Stephanie, Amenta, Irene Chiang, and some other very good players. After that Jenny, Heather, Melanie, Grandma, Mom and Dad went to some restaurant in Orland and ate quality food. I need to get more sleep at night so I can stay awake for concerts.
+
+I came home, watched the end of Star Wars Episode 1 with my brother, and am now going to bed."
+"eventtime","2002-06-13 01:31:00"
+"current_moodid","44"
+"url","http://eldavido.livejournal.com/4237.html"
+"userid","4466"
+"itemid","15"
+"event","As another page turns I realize that I am getting really tired of my routine. However, I think that being bored is like the worst condition a person can ever affect onto themselves (and yes I agree with the idea that people bore themselves) so I try to find some things to do. Here's another few days in the life of a quasi-geeky kid:
+
+The Michigan trip was really nice. I got back with Jeff and just sat around for like a few hours. I really needed sleep. After that, went to Mike's to watch bootlegged Lord of the Rings, which I hadn't seen yet. I think if I get the time I'm gonna read those books because they seem pretty good but I can't find the time just yet.
+
+I got pissed off because the solar eclipse which I mentioned in a previous post was blocked by the clouds. I went to go get tacos for my family and what do you know, you'd think the heavens were opening up again. I walked (ran actually) from the car which I had parked particularly close to taco bell on halstead and I was totally soaked in the time it takes to get from the car to the place, that sucked a bit.
+
+Tony at icc called me and told me to be in at around 12 so I went to caddy today about about 12. On my way there (35 minute walk but I love it) I happened to run into Engel on his bike who told me his car broke, probably as a result of a slipped timing belt. Timing belts are the thing that link the main drivetrain of the car to the valve lifters, which control when the fuel goes into the cylinders and the exhaust goes out. They only cost a few dollars but if it breaks the car just stops dead because the valves won't open and shut.
+
+I also got speaker carpet today at Music in Motion before I caddied to carpet the unmade subwoofer on my porch. I got a big honkin piece of carpet, now I have to figure out a way to put it on.
+
+I walked into idlewild with a jones root beer in my hand, which btw I don't like so much, I prefer the cherry and others which Mike says he specifically does not like. They all asked me if I had a beer in my hands. I could tell about a mile from the club walking that that would happen. I told them yes and they all were like ""let me get some"". great kids.
+
+The morally upstanding activity of the day was pitching quarters for $1 to a line created by a shadow. Some kids all stood about 25 feet away from the line and whoever threw the quarter closer to the line won. It's really funny to me how particular people get when money is involved. More than once, we had to walk off and measure distances to the line when the pitches were close. It's so funny to see the ""regular folk"" try to make argments about standards and references of measurement. They never really get anywhere arguing, just go around in circles.
+
+Which reminds me, there is an article in Newsweek about Urban Debate Leagues and how they help academic achievement. The article specifically mentions a case called DUBs which I had the pleasure of debating this year and won to. Good times.
+
+Later I went to my brother's soccer game at Woodborough park. I was an official timekeeper because I was the only one there that had a suitable watch. I love soccer, especially not-so-competitive park district soccer. Just a bunch of kids coming out to have some fun together doing something that they all more or less like. I also had the pleasure of overhearing some real stereotypical soccer mom conversations that made me think of Allison's constant slams to soccer moms. I laughed on the inside.
+
+I went to community band tonight with my brother. I played myself once with these really exposed solos that I messed up. I'm talking a group of 100 and zero other people are playing, that takes some gusto to execute. I feel happy that none of them were particularly hard.
+
+Matt and the rest are all still in Michigan. I sort of wish I was there but tomorrow is setting up to be a good day so maybe not.
+
+Remember that book? Goodnight world? That's what I'm saying right now. Goodnight starts, goodnight moon, goodnight world.
+
+ps I need a new picture. Any ideas?"
+"eventtime","2002-06-12 01:50:00"
+"current_moodid","30"
+"url","http://eldavido.livejournal.com/3990.html"
+"userid","4466"
+"itemid","14"
+"event","HEY HEY everyone...sorry to forget to post this before...but there is another really cool astronomical event happening tonight: a partial solar eclipse! not a simple lunar eclipse, but a solar eclipse, meaning the moon blocks the sun. another one won't be happening for the US until 2005 so get outside and have a look!
+
+details: begins at 19:28:12 central daylight time (00:28:12 gmt) - sun's altitude 9 degrees
+maximim area eclipsed at 20:09:54 (01:09:54 gmt) - altitude 2 degrees (go somewhere without trees or get on top of something)
+ends at 20:21:35 when the sun reaches 0 degrees altitude
+
+all of this is from <A HREF=""http://sunearth.gsfc.nasa.gov/eclipse/ASE2002/ASE2002city1/ASE2002city1.html"">NASA</a> so if you are in michigan reading this or elsewhere, look up times for your city.
+
+hope you all enjoy this. don't look straight at the sun, use a projection system of some sort to do this, or project the image onto a screen using binoculars/telescope"
+"eventtime","2002-06-10 16:53:00"
+"url","http://eldavido.livejournal.com/3658.html"
+"userid","4466"
+"itemid","13"
+"event","These last few days have been nice. 
+
+First of all, I can relate to Allison a lot with my whole fire story. I think the most important lesson that you can learn from these sort of freak accidental occurrences is that stuff happens, and there might be something that you don't expect at all, 0% expectation, and it just comes out of nowhere. Take that as you will.
+
+I caddied on Sunday and then visited Dan for a while. I drove by and saw a big canopy in his driveway and learned that his sister Kel (another one of the people that is my brother's age and went to Hart) was having a graduation party. Another part of my recent life that I can remember.
+
+I felt ""as tired as nobody's business"" (Matt Kahle-ism there) so I decided to just sit in Dan's basement...we watched the rescuers down under. What a cool Disney movie. I think that Disney videos seem really stupid at first, but when you get older, you understand more of the little innuendos present and other small intricacies you didn't get earlier. Also, his basement was air-conditioned, which is key.
+
+Dan told me that he was going to Michigan for a week or so with Kahle, and invited me to go. So I went to visit Rende for a while, because I hadn't seen her in like 4 days and she's right in the hood. We had a good time. Some of the more memorable parts of my stay over there include making the necklaces, looking at some of her earlier pictures, and talking to Nat and her husband. How funny. For a while it was sort of guys pick on girls then girls pick on guys, then we all made fun of Teresa and then everyone picked on me for a while. Just remember, it's all out of love. However, I specifically remember when Nat said to me, 
+
+N: You better pick your words carefully, she's a speech student.
+T: He is too.
+D: Yeah I am, I debate.
+N: Oh god, you would love dad.
+D: Why's that?
+Nat's husband: because you and him both go BLAH BLAH BLAH...BLAH BLAH BLAH...BLAH BLAH BLAH (he continues about a minute)
+
+Later, Nat learns that I was in band because I asked about a picture given to Teresa by Nicki...I was like ""Hey, that's the Xi'An Garden Hotel, why do you have that"". Nat says ""Wait, you're in band too? A speech student that's in band? What is this - you're a nerd? You're a geek - but you can't be, you look too good to be a geek""
+
+That amused me, she said I was too good looking to be a geek. I'm still smiling on the inside.
+
+So later I went to Michigan with Matt's mom and Amanda Kahle, we talked all the way there. I finally got there and then spent the night up in the loft that Melanie and I spent that long time together in, and that I slept in previously. We stargazed on the pontoon, and waveran/jetski'd in the morning, and I left with Jeff at 1pm. Perfect trip: go, sleep, have some fun, lay around outside, and get rid of my awful farmer's tan.
+
+So now I'm home again and I need to finish that subwoofer box on my porch. Anybody know where Brian is? Tell him to call me if you see him. Perhaps I will come out tonight, but I'm fairly blown so probably not.
+
+next time: ""science and reason as absolutes?"""
+"eventtime","2002-06-10 16:08:00"
+"current_moodid","31"
+"url","http://eldavido.livejournal.com/3573.html"
+"userid","4466"
+"itemid","11"
+"event","As much as I'm a fan of bikerides, in some cases walking places is definitely the more fulfilling art. It's much slower, and allows you to observe things you would never see otherwise.
+
+Once when asked, ""What did you do for three hours?"" when he was with his girlfriend-at-the-time Marissa Riormayer, Dan responded ""We made muffins"". As Melissa puts it, ""classic"". However, it would seem that another contender has entered the ring for most classic excuse. After I got done at Idlewild, I decided to make a stop at a <i>very</i> in-the-way place, and I was disappointed to find that the person who I was looking for was busy getting chocolate chips from her significant other. Although I was directed to go down there to see her, I thought better of it - and let me tell you, I walked up the road and didn't see anyone pass by for at least ten minutes. However, I don't blame her, because it's not every day that a girl gets to get chocolate chips from her man.
+
+(Sorry, I had to, I laughed all the way home because of that. ""Getting chocolate chips""...)
+
+Later, I walked down Willow Road and saw a bare lot where Living Springs Church had sat for my entire life. It was so strange, I came around the corner expecting to see something in this spot but I just saw the clear blue sky - and an enormous pile of rubble that made me realize how much stuff it actually takes to make a building. Wow.
+
+On that same trip, (this is best if you picture it I think) I was walking and this huge dog comes up and starts to bark at me. I of course looked on, mostly curious at first. However, the thing seemed really mean and as I walked by, it followed me along the fence. The key element here is that the owners' yard is split in half by the garage. So basicaly, the yard is a big rectangle with a garage that is placed exactly in the middle on the long side, which divided the yard into two more or less square regions on each side of the garage. Well, I walked past the garage, and apparently the dog had learned that when people start to go past the garage, he can meet them if he tears around the back of the garage as fast as possible. The dog ran around as fast as it could, but I decided to play a little trick on the dog by hiding between the two cars parked in front of the garage. When the dog ran to greet me, I think the thing belt bewildered as hell because I had basically just up ad disappeared. Then it went nuts. It started running all over the place and barking and then whimpering until the owners got so mad they came out of the house and put it in its cage back inside. I felt sort of good that my little trick got my antagonist in trouble.
+
+On my way home, I saw Brad Clifford (old college guy I used to be friends with), Henry the Asian, and a few other people that I know. I also saw my mom barelling down 183rd Street. The light had changed to red and I tried to run out into the lane and jump into the car, but she didn't see me and I was standing in the middle of 183rd Street with oncoming traffic everywhere. Disaster.
+
+The last really eventful thing was when I took my brother Brian to ""FV"" (family video, he kept saying, ""Dave, when are you gonna take us to FV?!?!"" and punching me). We were standing in line ready to pay for our movies, Mothman Prophecies and K-Pax, and this lady at the counter went totally ape on me. She was about 2 feet away from me, so I set my videos on the counter and she's like ""ITS CALLED PERSONAL SPACE. GET BACK FROM ME. NOW"" Umm, ok...but it's sort of hard not to egg people on that just snap on you for no reason whatsoever, so I said, ""Ok, all you have to do is just ask politely and I would be happy to step back."" She then grumbles to the 25ish cashier, ""Kids these days, they need to learn RESPECT"" and then rolls out. I talked to the cashier about (sidenote: she was pretty hot) the lady, and she told me that the lady was being a PIA to her as well. She laughed it off and gave me a certain video that my bro's report card A's weren't supposed to be able to get for free...I love working the system.
+
+Well that's another day in the life of David, hope you had fun reading it."
+"eventtime","2002-06-07 20:23:00"
+"current_moodid","44"
+"url","http://eldavido.livejournal.com/3026.html"
+"userid","4466"
+"itemid","10"
+"event","Maybe today will go down as one of those days that you remember for the rest of your life. I'm not sure if this will be the case for everyone I know, but it sure will be for me.
+
+It started off normal, with the exception that I got up a little later than my usual ridiculous 1st period time of 6:15. I took two finals today. At the end of the second one, something in the room was beeping like crazy. I couldn't figure out what it was until I listened and thought for a second - finally the countdown on my watch had reached 0. Finals were over.
+
+I took it upon myself to walk home that day - I do that sometimes, maybe for similar reasons that other people choose to ride their bikes and skate places. I felt a light but chilly drizzle on my way to north building. At that point, the realization hit me: I was not going to be coming back to school for a long time after this day. Unlike some of you others, I don't have to come for football. I walked home and got a ton of water in my sandals when I walked behind Homewood Church, but it was a good time. Finally, George picked me up, we reflected on Kurt's party a bit and he told me why he had to leave, and then he dropped me off. I was home.
+
+I had talked to Brian a few days earlier about possibly helping me make this subwoofer that I need to get off my hands (need my money in CASH and not speaker parts that I have no use for). Which reminds me, I'll sell a subwoofer box for about $125 if anyone wants it. I won't go much lower though because that's about what it costs to make and it's going to be a pretty high-quality sub. Let me know if anyone's interested.
+
+Brian and I went to Bridgewater Sound and got a speakon nl4mpr connector (jack to build into the box to connect the amp output). Then to Home Depot, and then home.
+
+We worked pretty diligently on the box for about an hour. That's when it happened.
+
+We were on my front porch working, and we were using a Rotozip. As Brian told me, I went into the basement to get either a new bit for the Rotozip or maybe a hand saw to finish a cut I was working on.
+
+I reached onto my father's workbench and happened to knock a metal right-angle tool off the wall. Basically, the metal tool is a ruler with a metal piece affixed to the top of it at a right angle to help you draw corners and make lines exactly perpendicular. The important point is that it is fairly massive (about 2-3 kg) and has <b>sharp corners</b>. Wouldn't you know, the metal tool fell off the wall and knocked a can of White ""American Satin"" Rust-Oleum spraypaint off the workbench and onto the floor. The metal tool then got caught for a split second on the corner of the bench. Right about at this point, I dived over and tried to catch the can, but I couldn't get there in time - and then the right-angle tool fell exactly onto the can, <b>corner first</b>, in a way such that the can split open. As I look at it now, the hole in the can is only about as big to allow a drinking straw through.
+
+My immediate thought was to get a paper towel off the roll next to the sink in the basement of my house, because this white paint-mass was oozing out of the can and covering the floor. The aerosol agent was spraying everywhere into the air, and the more dense white paint was forming a huge puddle on the floor. I didn't get too worried because I thought of glue and ink, and they don't dry and make such a mess when they are in big blobs, as long as you clean them up.
+
+It's been about 10 seconds since I split the can open and I turned around to get a towel. However, the smell of it all was excruciatingly bad, so I took to opening the window above my father's workbench as wide as it would open. I wanted to get as much of that smell out of the house as possible. I climbed up the edge of the bench to open the window, when...
+
+BOOM was the sound I heard, followed by immense heat, a blinding flash of light, and a pressure blast of magnitude sufficient to knock me off my father's bench.
+
+At this point I turned around and realized that there was a six-foot high fireball 18 inches from my right knee. I was mostly surprised that this had all happened. Mostly, I was just like ""wow that thing is freakin huge"". So I started to walk away from it, but as I walked, the flames followed me. I think this was either due to the high concentration of chemicals I still had on me, or maybe the air current that was created when I started to walk at rather high speed away from it.
+
+As soon as I got away from the fire, I ran up my back stairs as fast as I could. I said calmly ""I need a fire extinguisher"" amidst my family's bewildered looks and questions of what had happened to cause the explosion that they had both heard and felt, two floors away. I grabbed the fire extinguisher, ran back down into my smoke-filled basement, and emptied the contents of the extinguisher onto the flames.
+
+I went upstairs and told everyone briefly what had happened. My father then placed a fan at the foot of the stairs to air the smoke out. I went back downstairs to make sure nothing was still burning, because for all I know, the flames could reignite any second - fuel, heat, and oxygen were still all there. I found the corner of the white shag carpet in the basement glowing red, and stomped it out immediately.
+
+My dad then called the fire department. It has been about 2 and a half minutes since I first knocked the can over, and I went outside to tell Brian what had happened, and to GET FRESH AIR. The mixture of smoke and whatever all else was down there had done a number on my lungs, and I felt somewhat light-headed.
+
+No later than 1 minute after we called, we heard sirens and horns. A little bit later, five engines had shown up at my house. My neighbors came out, and saw an ambulance rushing to the scene. They also saw a Homewood Police car. My brother commented, ""must be a boring night"" due to the fact that the dispatch was clearly overkill, given that the fire had already been extinguished. They stationed 2 trucks in front of my house, and then another one evenly spaced down to where Howe avenue intersects my street - all the way down to Ed's house.
+
+All they had to do was place these huge fans in the house and ventilate it all out. They also brought out all the burn[ing][t] stuff in my basement and put it next to the back door.
+
+The paramedic on the scene insisted that I get treatment, so I went into the ambulance and breathed oxygen for about 3 minutes. They took my pulse, blood pressure, and listened to my heart and breathing. I was ok. It's amazing how long you can hold your breath when you're inhaling pure oxygen - one minute was no problem at all for me.
+
+That's about all for that, except that a fireman had to come back because he had left his helmet in the basement on the workbench - ""oops"". I also received a call from fire chief Ray Presnak (I've known him from church for about 5 years) saying that the chief on the scene said that my actions with the extinguisher probably saved the entire basement, if not the house. He called me to tell me I did a good job. I felt good about that.
+
+So then, with my singed eyebrows, I headed over to the book burning at Mike's house. I burned a lot of stuff, especially history stuff. I really hated that class.
+
+Matt Kahle thinks he's all hard now with his new Miata. I really think that Mike needs to race him and knock him down. Not that it's bad to be happy about a new toy, got for slightly less than $10k, but he was just all ""Dave, see this natural ability at STICK that I have?"" Well, he did take half an hour to get three miles according to his dad, but make of that what you will.
+
+All said and done, I had a good time, but I still don't see how it is that so many people just showed up. People need to learn that when someone does you the courtesy of offering their house for something, that doesn't mean you can invite everyone and their mother. I think I might have been at fault for that, by telling Kralovec where I was, but it's interesting that him and about 15 others just showed up after that. I guess it's not that big of a deal, but I just don't want Mike to get in trouble.
+
+I took TJ home and that was the end of that day."
+"eventtime","2002-06-06 15:03:00"
+"current_moodid","131"
+"url","http://eldavido.livejournal.com/2741.html"
+"userid","4466"
+"itemid","9"
+"event","Question of the day: How much is your time worth? Kurt originally suggested this question to me, but I expounded on it enough tonight to write a journal entry about its significance to my life tonight.
+
+I realized today, that a reason why all my friends sometimes fight with me, is because I insist on planning for every little contingency. Every little problem that could go wrong, I try to anticipate in advance.
+
+Then I thought about the way most Americans live their lives, and I discovered the truth in one of my father's highly extremist statements that he makes sometimes that you can't do anything but laugh about. I think one time in a big rampage about people not planning and screwing things up he said that ""The only reason Fedex exists is because people can never get it together."" Today, though, I thought about if people really even need to ever get it together in today's world.
+
+My family insists on planning everything so that we can save the greatest amount of money. In case any of you don't know, I come from a three-generation tradition of cheapness which is an artifact of the depression I think - but it just never left the family, and my father takes pride in his cheapness. When I thought today, I realized that there are two basic ways of living life - you can either value time or money. Most of the time, people that have a lot of one don't have a lot of the other to enjoy. Just think about this for a minute:
+
+About 2 months ago I had to spend like 3 hours in the car running around to get a bunch of papers signed. In the morning my dad was really irked that I had used a lot of gas, and he had to stop because he wasn't sure if he could make it to work that day with the gas in the car, subsequently making him late.
+
+I admit 100% that fault of my dad being late to work is on me. The thing that I realize though, is that my parents and I live under totally different ideologies. They live more of the money-commodity life, and I think that I have more of a time-commodity view of things. Simply put, I could have avoided this mess by planning more, but if we had more money, I could simply buy a car and things would be all ok - I wouldn't have to take my dad's car.
+
+Like I often do, I thought for a while about my new idea - time vs money - and realized that given any problem in life that has a solution, there is probably another solution under the other mindset. If plane tickets are too expensive, this implies that you don't have enough money - so spend more time looking for tickets in advance of the flight, or stand at the airport and wait for really good deals on underbooked flights. On the same note, if you don't have enough time to cook a decent meal, which probably means you have money because it seems like that's always the case - you just order something.
+
+The reason why this is important to me is because I have isolated another point of friction between my parents and me. My family operates on the idea that money is scarce, and time is plenty - and so much stuff makes sense when viewed through this framework - my dad always complains that he has to fix the house but he does it anyway - and it seems like my dad goes out of his way to do things in the most difficult way when he could just work more and pay someone else to do it. I am more the opposite - and I think people, at least the ones that I think about when I make this comparison - are being raised to believe in the ""time commodity"" view of life. I wonder what the merits of either are, and what factors make either come out?
+
+I think that the American way favors spending money to get more time - we have too much money but not enough time. Throw up some responses to this - I'm curious - what frame do you and your family operate in, and do you think I'm right when I say that most Americans favor having a lot of money and then spending it to get more time?
+
+-your wannabe philosopher friend, dave"
+"eventtime","2002-06-04 22:27:00"
+"current_moodid","30"
+"url","http://eldavido.livejournal.com/2462.html"
+"userid","4466"
+"itemid","8"
+"event","I can't deal with this level of stress. It's not healthy, and my parents aren't making it any easier.
+
+There is this ongoing problem which I have had over the last few years. See I am a debater but for various reasons that are beyond the scope of this entry debating costs a LOT of money. It costs about $80-100 to go to a tournament for each team, but the school pays for this. However, since most of the places we go to are out of state, debate has to do various money laundering schemes to get the money to even attend the tournaments in the fist place, leaving the kids like me accountable for all the rest, which includes lodging, food, and other incidental expenses (sometimes plane flights for the ones farther away). This ranges anywhere from $30-$80 a tournament, which really does add up when they want you to go once every 2-3 weeks.
+
+So now the big idea is for me to go to camp over the summer, which I think would be a good idea, because I like the activity, and colleges do to, and I don't see a real big point to doing something and sucking at it. So I would go to Kentucky for about 14 days this summer and learn to be good. Everyone wants me to go really badly too.
+
+However, the catch; something that I have alluded to: money. We simply don't have enough of it in my family to be continually spending on such things. Camp costs $1025 (and that's the cheapest one I could find). So now my parents are on this big anti-debate kick. They're all up in my grille (haha) ""that program is so elitist"" ... ""Haven't you noticed those kids are all from Flossmoor"" ... ""why do you do it anyway"" ... etc... and I find it hard to justify participating in an activity that takes up a lot of time, is very much a nerdy thing to do in the sense that it involves a lot of work and obsessiveness and doesn't really get you anywhere socially, and costs a lot of money. It would be a lot easier if the P's were on my side but the reality is that they aren't and this isn't the first time we have had this argument over the years, in fact, it's more than I can count on one hand, and each time it ends with us yelling at each other about our beliefs and views of the world and I usually walk out of the house for a while just to get away from them. Please also note that I consider my relationship with my parents GOOD which means that this is even worse than someone that fights all the time.
+
+I guess this just goes back to the most basic philosophical conflict that I have, and Scott and I talked about this the other day...Plato / rationalism / achievement / knowledge versus postmodern not caring, pragmatism, living life for the moment, and having fun doing it. I swear, somehow, every problem in my entire life can be traced back to this conflict. Today I went to Olympia Fields with Mike and Matt and hit golf balls for like an hour and it was really fun. However, in doing that, I didn't study for math, or do any of the things that I am ""supposed"" to do. But then again, why do I even do them in the first place? This is so irritating...
+
+I know angst is lame, so I'm not going to continue, but I need to find some resolution to this and I just don't see it."
+"eventtime","2002-06-03 22:13:00"
+"current_moodid","1"
+"url","http://eldavido.livejournal.com/2080.html"
+"userid","4466"
+"itemid","7"
+"event","part two...read part 1 first
+
+I also ran into a girl named Erica Nelson who was from Sandburg taking the test that day. She didn't know where to go so I helped her park and find the testing area, more on that later.
+
+I went to a horn lesson in the heights, and then Kyle Oppenhuis's graduation party. Good times there, we watched this crazy full-length Anime film called ""Metropolis"" and then drew with sidewalk chalk. Dustin Swan has impeccable aim getting things into shirts, into pants, and every other place they shouldn't be. ""Look at that gaping pant-hole"" he said to me, just before he shot a balled-up york peppermint patty wrapper into Kyle Oppenhuis's brother Luke's shorts from across the room. I love watching that stuff, people look so funny when you watch them go from calm to totally shocked.
+
+I also got the chance to drive Dustin's Geo Metro. (5 speed manual with reverse, no idea of the engine in it) He said that since I had driven all the other cars, I could drive his. We were pretty close to Idlewild at the time so I stopped by Teresa's house - she was developing photos and I like people to pay me little visits when I'm working on things, to get my mind off the work for a little while. I stopped by there about 15 minutes and she showed me a bunch of pictures she developed. I also asked her about this Erica character, who she knew. It's a small world I guess.
+
+I went over to Melissa's house for movies and revelry after that. I saw Scott's interaction with Jessica, Melissa's little sister, and it is so strikingly similar to Melissa that I couldn't help but laugh about it...just remember girls, I don't know if this is true of others besides Scott and me, but when a guy picks on you, it's probably out of love. If they didn't like you, they wouldn't bother to talk to you.
+
+We made chocloate-covered fruit and watched a ""pimpumentary"". A pimpumentary is a documentary about pimps. 
+
+(# 1-3 deleted, teresa already hit them)
+
+4. In order to be a pimp you must say ""you know (what I'm sayin)"" every other sentence. you will then be true playa for real.
+
+After we got done with all that, I talked to Scott for a long time. This was one of the best talks I have had with somebody in a long time. I realized that he and I are going through many of the same issues at the moment and how similar we are.
+
+Got up Sunday, went to church picnic, and played in graduation. I watched the seniors graduate and felt really sad. So many people that I knew that I might never see again. People that I knew and saw every day this year, and I will remember for a long time.
+
+Now I'm finishing my paper, having prepared zero minutes for my comp sci final, and feeling great otherwise. I hope everyone had a nice weekend, see you tomorrow, maybe."
+"eventtime","2002-06-02 21:24:00"
+"url","http://eldavido.livejournal.com/1903.html"
+"userid","4466"
+"itemid","6"
+"event","Right before I go to write my english paper, I'll continue my little chronicle of events that happen in my daily life, possibly interesting for other people to read. In this issue, we will have a small glossary of terms used by pimps, a story of my sadness, and an account of a small run-in with the law, as told by yours truly, David R. Albrecht.
+
+On Friday, the entire day was so laid back; it was beautiful. Band was spent eating the ""breakfast of champions"", consisting of cheetos, Nilla Wafers, and Lipton Iced Tea. I basically coasted along until 7th period, computer science, where I took a 70% on a project because I couldn't get it to work. I did four computer science projects in one day, and frankly, I didn't care too much if the last one didn't work. (4 * 100% + 1 * 70% = 470/500 = 94% - a good reason not to care). Nick and I walked home to his hizouse and we saw many nice cars, including an Audi A6 4.2, a Porsche 924 (I think it was Eric Ecklund), a TT, and a couple of other random BMWs. He drove me home in his Durango, and we played with the four wheel drive, what fun.
+
+On the way home a truck stalled in the right lane of 183rd. The Durango is kinda wide, and a lot of traffic markers were in the street, hence we couldn't cut over into the center lane. What to do? My mind flashed to a sign - ""When one must, one can"" - which hangs over a desk in Kurt Adair's basement. I opened my door, ran around the front of the car, and dragged the offending barricade out of the way of the Durango. Problem solved, we got back to my house, and listened to some rahzel - Nick was rightly pretty impressed.
+
+That night I went to Mike's house with Kurt Zoellick, which with one major exception was fairly uneventful. Brian did beat me at pool though and I demand a rematch. 
+
+Before we went there we stopped at Melanie's house because she was supposed to come with us but decided to stay home and study for the SAT II (math). I don't really see how much help studying for a standardized test is, because they are over so much material, but it's not my decision and I respect her for it. However, I always love seeing her, and she needs relief from her studying. Kurt Zoellick was with me and the three of us walked around her house and played around in the front grass. I also got a chance to look at some very funny prom pictures including one of her being held up by me, and another of me on the mastercraft in Michigan going about 40 mph and eating a sandwich. You can't tell from the picture, but it was so windy the sandwich parts were flying apart and I look completely calm.
+
+I went to Mike's, his dad came home a bit tipsy and asked ""Mike how many people are here?"" With about 12 cars in the street, Mike answered, ""about 6 people"". Even a slightly ""impaired"" Mr. Kralovec could ascertain the truth of that one. Mark Austin  commented, ""What's even better is how he says it with a straight face"" right in front of Mr. Kralovec.
+
+Kurt had to be home sort of early so I took him home from Mike's...thinking I was real cool and hard, I decided to pull a repeat performance of my little stunt with Nick and the Durango, except different place and time, and except that a cop pulled by <i>just</i> as we were doing it. ""GET YOUR ASS OUT OF THE CAR AND PUT THE MARKER BACK!!"" No ticket, 'nuff said.
+
+I went home later that night happy that I didn't get into any sort of trouble, in bed by about 12:45 because...
+
+On Saturday, I woke up and took the SAT. I got a 32 on my ACT so I hoped to do pretty well on the SAT too. The only problem is, after like 3 hours I stop caring about the standardized tests because my attention span lapses and I have to motivate myself to fill in each individual bubble and think about each individual question, really a problem. It happened during section 5 this time, better than usual. I think I did pretty well on this one but I think Mike's 1570 might still have me. What a nerd, I am competing over test scores. 
+
+More to come later, I don't want to post a really long entry, it need to have chapters to it"
+"eventtime","2002-06-02 17:04:00"
+"current_moodid","44"
+"url","http://eldavido.livejournal.com/1730.html"
+"userid","4466"
+"itemid","5"
+"event","this is ridiculous as hell, i need to get to bed and get up tomorrow to work on this tic tac toe game project for c++ (computer science) but the amount of work in the past few days is insane. don't take this as a rant, just know that I am thinking about all of you right now while you're probably sound alseep..."
+"eventtime","2002-05-31 01:59:00"
+"current_moodid","31"
+"url","http://eldavido.livejournal.com/1395.html"
+"userid","4466"
+"itemid","4"
+"event","I thought for a while about the last few days today during 7th period. As I said to Charlie earlier, sometimes I get bored/stuck during programming and I just walk out of the class, down the hall, to the drinking fountain, and see what's going on around lower G. Today I stared at some art kids (Lani, Jade, Charlie) for about 2 or 3 minutes and they didn't have any idea.
+
+I laughed twice over the last two days.
+
+1. Mike Kralovec's gym shorts (ask Teresa about this one). What a disaster. He told me that his uncle gave him a box of clothes from the 70's. Mike managed to lose his gym clothes while he still maintains that it happened in such a manner that ""it's not my fault"". Well, the shorts are exactly what he doesn't need - they are about a 42 waist and as long as modern girl's shorts. This makes for a really good time, seeing him strut around like a pigeon day after day, especially when he has to run for softball. Teresa and me sometimes take objects such as baseball bats, or our feet, and yank his pants off, just to get a rise out of him...needless to say, it usually works.
+
+2. A little conversation I had with Melanie the other night:
+
+M: so what do you think the random david reference of the week is?
+D: no idea, what is it?
+M: well i was dancing at the wedding the other day [her brother Andy, the oldest of the three, recently got married to a girl named Jill who he had been seeing a long time] with random unnamed guy
+M: he was a bit taller than me, asked me if i thought the height difference was awkward
+M: i told him, ""no, it's just about average""
+M: he looked puzzled
+
+I later learned that his Melanie-approximated 6'1"" does not really compare to my 6'3"" on a good day. So maybe it is just average, after all, many of us are kinda tall.
+
+If you want to see some cool stuff later tonight, go outside at about 9:40 pm and find 63 degrees east northeast. Then look up into the sky, 47 degrees up to be exact, and you will see a bright orangeish satellite pass through the heavens at a VERY quick speed. It will appear more than 10 times brighter than the brightest star out (mag -8 for those of you who know what that means). Let me know what you think. The exact time of sight will be 21:44:34 but I'm not sure all of you have your watches set to the naval observatory like me, so just go outside at about 9:40. i recommend you take someone with you if you want. These things happen about every 10 days, so if you miss this one, no big deal.
+
+Cheers and happy stargazing"
+"eventtime","2002-05-30 16:12:00"
+"current_moodid","15"
+"url","http://eldavido.livejournal.com/1245.html"
+"userid","4466"
+"itemid","3"
+"event","I just got done eating a dinner of Bratwurst and rice, it wasn't that bad, but simply did not compare to the barbecue...
+
+I had to go to my grandfather's house today to upgrade his computer from a whopping 16mb of ram to 128, that was a good time. I always love seeing my grandparents, and they live right across town...I am very blessed in this way and I really don't take it for granted.
+
+Melissa, I read your post about siblings to the dance, yeah, we got one here. The ongoing joke in my house is to treat the person with the nice clothes on like they are really rich, so when my brother's friends called twice when he was getting ready, I took on a slight butler-esque appearance and handed my brother the phone, saying, ""Master Brian, the phone"". He looked at me so strange when I did that, but I love it.
+
+Kids really do look at lot older when they get dressed up. And the funny thing about all this is that my brother is starting to come into the time of my life that I can actually remember in vivid detail. I can remember the girls that I liked then, the friends I was with, the suit and tie I wore, the whole bit. It's really funny to compare the two of us and see how we are alike and different.
+
+Maybe he will get together with Melly's little sister and we can all get out shits and giggles that way, think how funny that would get. But, just so that all of you know, Dan, Judy, Me, Melissa, Matt, Mike, Jeanette Ogren, and a few others that I am going to forget all have siblings in 8th grade. Sometimes I kid about them all being friends and then having to drive my brother to a house that I usually would be the one to be going to, imagine that.
+
+Well, I guess that's about all for today, respond to my previous post about people that are taking the sat on sat. just so I know who all I will be seeing.
+
+As always, peace out"
+"eventtime","2002-05-29 21:23:00"
+"url","http://eldavido.livejournal.com/818.html"
+"userid","4466"
+"itemid","2"
+"event","Another day has passed until the last day of school, the watch says we have 189 hours until 3pm on the day of finals, and that day will certainly be one of celebration and happiness. Just think, no homework or tests or pressure or any of that. none...ZERO, and time to burn some books too
+
+On another mostly unrelated note, I drove Josh Brown's Jetta home from school today. Ratko's dad was in the Saturn and he saw us, I bet he had no idea what to think.
+
+As anyone who has ever driven a manual VW can attest, it is a BITCH to get it into gear because the clutch is ever so touchy...in fact, the only car I have ever stalled out of the four manual cars I have driven is the Jetta, but I still love it.
+
+My only real screwups were a minor burnout because the engine didn't drop RPMs quick enough when I hit the gas and put it into first to make a somewhat hurried turn onto Dixie Highway. ""David, what is this, the Indy 500?""...""David, do you <b> drag race </b>often? I also had a minor stall, not so bad, because I don't know that any of you understand the hate of the German man that designed the VW. I think that in addition to the German book into the fire we should also throw a picture of the man that designed the transmission on that car; but I love it either way.
+
+Melissa and I talked today about possible plans for this weekend - she wants to put up a slip and slide and wind it down the side of a hill, possibly joining it with other slip and slides end-to-end to make a massive conglomeration of slip and slides. Holy crapamoly that would be cool, but I'm not so sure about the pool on the end. Melissa: ""We'll just make another mud pit at the end.""
+
+I am <i>finally</i> taking the SAT saturday and after I have a horn lesson, I hope to see all of you again if you don't have to much studying to do for finals. I don't know what all else Dellaria can really cram onto us, and Scott, we got an 87ish on our magazine. Now its off to the library and time to go my stupid english portfolio and clean up my research paper for this end of the year madness. Peace out everyone."
+"eventtime","2002-05-28 17:43:00"
+"current_moodid","26"
+"url","http://eldavido.livejournal.com/514.html"
+"userid","4466"
+"itemid","1"
+"event","Good evening all. I exist, compliments of Nyberg. I told him that if he ever needs a code I am thereby indebted to him, but I think that I might have to give the others some codes, too, because I love the site from what I've seen so far.
+
+Over the last week, while I wasn't playing a game called ""Pinne"" (somewhat like softball) or hitting golf balls in gym Teresa and I were talking, and we decided like Monday to have a barbecue - it went on earlier today. What a great day it was, too.
+
+When we first conceived of a barbecue Kralovec was there and like usual, we were having a discussion about huge things. I think I congratulated him for getting Kahle and the rest of us into Sam's Club with Matt's mom's card, something that is against policy but Mike managed, props for that. I think he dropped GFS so Teresa and Mike and me decided we need to go to GFS and get a lot of food and have a good time.
+
+So there I was at 12:00 today after attending the Homewood memorial day ceremony in full band dress in the hot blazing weather, sitting on my couch, thinking about how to get to GFS, getting money, and just thinking. I took my wallet and the Honda and went over to her house. Brian was there - I saw her dad and made a casual comment about the cars that I saw in the driveway. In my father's words, I ""put in a nickel and got a quarter's worth"", for he proceeded to talk my ear off, right out the door. However, I didn't much mind because it actually was interesting stuff to me (apparently not to Teresa or Brian) but we had to go.
+
+Went to GFS, made the purchases - including an item that rang up at the register as ""Ground Beef Tube"", a cylindrical section of beef about 1 foot in length and 5 pounds in weight. Think too hard about that thing and you will probably get really sick really fast.
+
+Went back to Brian's - Brian Teresa and me tried to get ready. We dragged the sound stuff upstairs and got ready. However, I must say that the hardest and most memorable part was trying to get the beef of the beef tube out of the package and into a form manageable for cutting. Teresa kept putting it into the microwave while Dan looked on, with a look of complete tiredness about it all.
+
+Well we got all the food cooked and had a good turnout. The highlight of the day had to be the mud wrestling competition between Teresa and Melissa, and later Scott, especially when I was forced to ""talk to a tree"" - all who don't know what that means, you had to be there, sorry about that. Funny stuff though, no doubt about that.
+
+All said and done, I am at home now trying to do my history homework, and utterly failing at that endeavor. Not that I am incapable, I just have 1000 better things to do right now, including write this post.
+
+This weekend, from Friday night at the band banquet all the way out to sitting in my computer chair here in my basement, has been excellent, and I would not mind having this quality of weekend for the rest of my life. I will see all of you at school tomorrow and probably later into the summer. Keep it real and include me in your plans - I love you guys."
+"eventtime","2002-05-27 21:55:00"
+"url","http://eldavido.livejournal.com/475.html"
+"userid","4466"

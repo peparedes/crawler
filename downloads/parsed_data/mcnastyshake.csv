@@ -1,0 +1,366 @@
+"names","values"
+"itemid","14"
+"event","PGZvbnQgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgc2l6ZT0iMSI+PHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+IldoYXQncyANCiAgICAgICAgICAgICAgICAgICAgICBpdCBsaWtlIHRvIGJlIGFuIElORkogYW5kIGhvdyBoYXZlIHlvdSBsZWFybmVkIHRvIGNvcGU/Ijwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8YnI+DQo8c3BhbiBzdHlsZT0iZm9udC1zdHlsZTogaXRhbGljOyBjb2xvcjogcmdiKDUxLCAyMDQsIDI1NSk7Ij4qcHVsbHMgYSBSaXZlcnMgQ3VvbW8gYW5kIGdldHMgYWxsIGNvbXBsaWNhdGVkKjxicj4NCjxicj4NCjwvc3Bhbj48YnI+DQpJIGJlbGlldmUgdGhhdCBJTkZKIGlzIHRoZSBiZXN0IHdheSB0byBkZXNjcmliZSBtZSBpZiBhdCBhbGwuIEkgaGF2ZSB0YWtlbiBtYW55IDxicj4NCnRlc3RzIGFuZCBJJ3ZlIGFsd2F5cyBnb3R0ZW4gdGhpcyByZXN1bHQgYW5kIEkgZm91bmQgbWFueSBvZiB0aGUgYXR0cmlidXRlcyBmaXQgbWUgPGJyPg0KUFJFVFRZIHdlbGwuIGJ1dCBhc2lkZSBmcm9tIHRoaXMgaW50cm9kdWN0aW9uLiBJIGRvbid0IHJlYWxseSBrbm93IGhvdyB0byBmZWVsIGluIDxicj4NCnRvdGFsIGF0IHRpbWVzLi48YnI+DQo8YnI+DQo8c3BhbiBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij5BcyBteXNlbGYsIEkgaGF2ZSBhIGRpZmZpY3VsdCB0aW1lIHJlYWxseSBnZXR0aW5nIG91dCBteSBmZWVsaW5ncy4gSSBib3R0bGUgPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPmV2ZXJ5dGhpbmcgb3V0IGJ1dCB0aGF0IGRvZXNu4oCZdCByZWFsbHkgbWVhbiB0aGF0IEkgYW0gYSBzdXBlciBzaHkgcGVyc29uIG9yIGV2ZW4gPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPmN5bmljYWwuIEkgY2FuIGFwcGVhciB0byBiZSB2ZXJ5IGhhcHB5IGFuZCBJIHRyeSBoYXJkIHRvIGJlICJwbGVhc2luZyIgYW5kICI8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+YWNjb21tb2RhdGluZyIuIEkgYWxzbyB0cnkgdG8gYmUgdmVyeSB0cnVlIHRvIG15c2VsZiBieSBmaWd1cmluZyBvdXQgd2hpY2ggdGhpbmdzIEkgZW5qb3kgYW5kIHdoaWNoIHRoaW5ncyBJIGRvbid0IHRvIGhlbHAgImRlZmluZSIgbXlzZWxmLiA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KSSBob3dldmVyIGFsd2F5cyBmZWVsIHRoZXJlIGlzIHNvbWV0aGluZyBtaXNzaW5nLiBJIHRoaW5rIGl0J3MgYmVjYXVzZSBJIG5ldmVyIHJlYWxseSBleHByZXNzIG15c2VsZiBhbmQgaXQgYm90dGxlcyB1cC4gSSB3YW50IHRvIHJlYWxseSBzcGVhayBvdXQgYnV0IGl0cyBpbXBvc3NpYmxlIHRvIGRvIHRoYXQuIEl0cyBsaWtlIEkgaGF2ZSB0aGlzIHRoaW5nIGluc2lkZSBtZSB0aGF0IHdhbnRzIHRvIGdldCBzYWlkIGJ1dCB0aGVyZSBpc27igJl0IGFueXRoaW5nIEkgaGF2ZSA8YnI+DQp0byBzYXkuIFNvdW5kcyBjcmF6eSBhdCB0aW1lcy4gPGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+V2hhdCBpcyBmdW5ueSBJIGNhbiBoZWxwIGdpdmUgYWR2aWNlIHRvIGFueXRoaW5nIHByZXR0eSBtdWNoIHRvIGZyaWVuZHMgYW5kIGdpdmUgYSA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+dmVyeSBvcHRpbWlzdGljIHNwaW4gYW5kIGp1c3QgYmUgYSBnZW5lcmFsbHkgaGVscGZ1bCAiY291bnNlbG9yIi4gaG93ZXZlciwgSSdtIHRoZSA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+b3Bwb3NpdGUgd2l0aCBteXNlbGYuIEkgaGF2ZSBzdWNoICJjb21wbGV4IiBwcm9ibGVtcyB0aGF0IEkgZG9u4oCZdCBldmVuIGtub3cgd2hhdCA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+aXQgaXMuIGxldCBhbG9uZSBob3cgdG8gZml4IGl0LiBJdHMgcXVpdGUgYSBwcm9ibGVtIGZvciBhbnlvbmUgdGhhdCB3YW50cyB0byBoZWxwIDwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8c3BhbiBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij50YWxrIHRvIG1lIHdoZW4gSSBmZWVsIHVwc2V0LiBJIG9mdGVuIGhhdmUgbm8gImRlZmluaXRlIHByb2JsZW0iIGFuZCBpdCBqdXN0IHNlZW1zIDwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8c3BhbiBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij50byBwb3AgdXAgb3ZlciB0aGUgc21hbGxlc3QgdGhpbmcuIDwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8YnI+DQpFdmVuIGFzIEkgd3JpdGUgdGhpcyBJIGhhdmUgYmVlbiB0ZW1wdGVkIHRvIGVyYXNlIHRoaXMgcHJvYmFibHkgMTAgdGltZXMuIEkgdHJ5IHRvIDxicj4NCmtlZXAgb3B0aW1pc3RpYyZuYnNwOyBTTyBtdWNoIHRoYXQgSSBoYXZlIHBlcm1hbmVudGx5IGVyYXNlZCBhbnkgZm9ybSBvZiBiZWluZyB1cHNldCA8YnI+DQpvciBkaXNwbGVhc3VyZWQgaW4gcHVibGljLiBJIHRoaW5rIEknbSBhIHZlcnkgdHlwaWNhbCBJTkZKIHRoYXQgSSBoYXZlIGEgdmVyeSAiPGJyPg0KY29sZCIgdHlwZSBmZWVsaW5nIG9uIHRoZSBvdXRzaWRlLiBJIGRvbid0IHRoaW5rIHRoYXQgcmVhbGx5IG1lYW5zIEkgYW0gImN5bmljYWwiIDxicj4NCnBlcnNvbmFsaXR5IChJIGNhbiBiZSBjb2NreSBhdCB0aW1lcyBidXQgbW9zdGx5IEnigJltIGp1c3Qga2lkZGluZyBhcm91bmQgb3IgYXMgYSA8YnI+DQpkZWZlbnNlIG1lY2hhbmlzbSBmb3IgbXkgbGFjayBvZiDigJxleHByZXNzaW5n4oCcIG5hdHVyZS4pIGJ1dCBJIGFtIHZlcnkgInJvYm90aWMiIG9uIDxicj4NCmhvdyBJIGZlZWwgYW5kIHdoYXQgaSBkby4gSSBkb24ndCBrbm93IHdoYXQgcmVhbGx5IGNhcHR1cmVzIG15IGludGVyZXN0IG9yIGV2ZW4gPGJyPg0Kc3BhcmtzIHRydWUgbGF1Z2h0ZXIgb3IgYW55dGhpbmcuIE1vc3Qgb2YgdGhlIHRoaW5ncyBJIHNheSBvciBkbyAod2hpbGUgaG9uZXN0IDxicj4NCm1vc3RseSkgYXJlIHZlcnkgZm9yY2VkIGFuZCBJIGZlZWwgbGlrZSBub3RoaW5nIEkgZG8gaXMgc2luY2VyZS48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8c3BhbiBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij5BbmQgd2hhdCBpcyB3b3JzZSwgSSBrbm93IG9mIG15IHByb2JsZW0gYW5kICJ3YXlzIiB0byBmaXggaXQgaW4gc29tZSBmYXNoaW9uLiBJIDwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8c3BhbiBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij5rbm93IEkgaGF2ZSB0byBsZWFybiB0byByZXZlYWwgYSAid2Vha2VyIiBvciBtb3JlIHZ1bG5lcmFibGUgc2lkZSBhbmQgYmUgPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPmNvbmZvcm1hYmxlIHdpdGggaXQuIElmIG5vdCwgSSB3aWxsIGZlZWwgbm8gcmVhbCBkaWZmZXJlbmNlIGZyb20gd2hlbiBJJ20gaGFwcHkgPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPmFuZCB3aGVuIEnigJltIHVwc2V0IGJ1dCBjb3ZlcmluZyBpdCB1cC4gKGVhc2llciBzYWlkIHRoYW4gZG9uZSkuIDwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQpBbm90aGVyIElzc3VlIEkgdGhpbmsgSSBmYWNlIGlzIHB1cnN1aW5nIGhvYmJpZXMgb3IgYW55dGhpbmcgdGhhdCBpcyByZWFsbHkgInRydWUgPGJyPg0KYW5kIGltcG9ydGFudCIgdG8gbWUuIEV2ZXJ5b25lIHNlZW1zIHRvIGhhdmUgc29tZXRoaW5nIHRoYXQgdGhleSBjYW4gZmFsbCBiYWNrIG9uIDxicj4NCmFuZCBzb21ldGhpbmcgdGhhdCByZWFsbHkgaW1wb3J0YW50IHRvIHRoZW0gdG8gZm9jdXMgb24sIHdoZXRoZXIgaXRzIGEgaG9iYnkgb3IgPGJyPg0KY2FyZWVyIG9yIGV2ZW4gc2lnbmlmaWNhbnQgb3RoZXIgb3IgZ29vZCBmcmllbmRzLiBJIGhhdmUgZnJpZW5kcyBidXQgZHVlIHRvIG15IDxicj4NCnBlcnNvbmFsaXR5LCBJIGtub3cgYSBsb3QgYWJvdXQgdGhlbSB3aGlsZSB0aGV5IGtub3cgdmVyeSBsaXR0bGUgYWJvdXQgbWUuIEkgZG8gPGJyPg0KZmVlbCB0byBzb21lIG9mIG15IGJlc3QgZnJpZW5kcyBsZXNzIHRoYW4gdGhhdCBiZWNhdXNlIG9mIHRoZSBhbW91bnQgaSBET05UIHB1dCA8YnI+DQppbnRvIGl0LiBJJ20gYSBwcmV0dHkgYmFkIGZyaWVuZCBidXQgSSBkb24ndCBrbm93IGlmIGFueW9uZSB3b3VsZCBhZ3JlZSB3aXRoIG1lIG9yIDxicj4NCm5vdC4gSG9uZXN0bHkgSWYgSSBjb3VsZCBJIHdvdWxkIHRlbGwgdGhlbSBhIGxvdCBtb3JlIGJ1dCBsaWtlIEkgc2FpZC4gTm90aGluZyA8YnI+DQpjb21lcyBvdXQuIEl0IGlzIGxpa2UgYSB2YWx2ZSB0aGF0IGlzIG92ZXJmaWxsZWQgd2l0aCB3YXRlciBhbmQgd2hlbiB5b3UgcmVsZWFzZSA8YnI+DQp0aGUgcHJlc3N1cmUsIG5vdGhpbmcgY29tZXMgb3V0LiBJdHMgcXVpdGUgdGVkaW91cy4gPGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+SSB0aGluayB0aGUgZmlyc3QgdGhpbmdzIEkgaGF2ZSB0byBsZWFybiB0byBnZXQgb3V0IGlzIG15IGZlZWxpbmdzIGFuZCBqdXN0IGZpbmQgPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPnNvbWV0aGluZyB0byBmb2N1cyBvbiBhbmQgd29yayB0b3dhcmRzLiBCdXQgYmVpbmcgb3V0IG9mIGlkZWFzLCBJIGZpbmQgbXlzZWxmIGF0IGEgPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPkRlYWQgZW5kIGVhY2ggdGltZS4gSSBzd2l0Y2ggaWRlYXMgb2Ygd2hhdCBJIHdhbnQgZXZlcnkgZmV3IHNlY29uZHMgd2hlbiBJIGF0dGVtcHQgPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPnRvICJhbmFseXplIiBteXNlbGYgbGlrZSBJIGFtIG5vdy4gSSBldmVuIEluc3RhbnQgTWVzc2FnZSBhIGZldyBmcmllbmRzIGFza2luZyAiPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPndoYXQgdHlwZSBvZiB0aGluZ3MgdGhleSBsaWtlIHRvIGRvIiBzbyBJIGNvdWxkIHBlcmhhcHMgZ2l2ZSBpdCBhIHRyeS4gSSBkbyA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+aG93ZXZlciBmaW5kIG5vdGhpbmcgcmVhbGx5LiBJJ20gc3VyZSB0eXBpbmcgYWxsIG9mIHRoaXMgb3V0IG15IHRob3VnaHRzIGhhdmUgZ29uZSA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+aW4gY2lyY2xlcyBhbmQgY2lyY2xlcy4gYW5kIEknbSBwcmV0dHkgc3VyZSBJ4oCZbSB0aGUgb25seSBvbmUgdGhhdCB3aWxsIEVWRVIgcmVhZCA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+dGhpcyBoYWhhLiBUaGF04oCZcyBmaW5lLCBJdHMgaGVscGluZyBtZSBkZWFsIHdpdGggdGhlIG9ubHkgcmVhbCBpc3N1ZSBpIGhhdmUgd2l0aCA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+bXlzZWxmIGFuZCBob3BlZnVsbHkgbGVhcm4gdG8gY29wZSB3aXRoIHRoYXQuJm5ic3A7IEkgcmVtZW1iZXIgbGFzdCB0aW1lIEkgbG9va2VkIHVwIG9uIDwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8c3BhbiBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij5teXNlbGYuIEkgYWN0dWFsbHkgd3JvdGUgYSByZXBvcnQgYWJvdXQgYWxsIHRoZSBhdHRyaWJ1dGVzIG9mIG15IHBlcnNvbmFsaXR5IGFuZCA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+Y29uZHVjdGVkIGEgZ2lhbnQgbGlzdCBvZiBteSB3ZWFrbmVzc2VzIGFuZCBzdHJlbmd0aHMuIEknbSBzdXJlIEkgc291bmQgV0FZIG1vcmUgPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPmNvbXBsaWNhdGVkIGFuZCBzdHJhbmdlIHRvIGFueW9uZSB0aGF0IHJlYWRzIHRoYXQuLiBCdXQgSSBndWVzcyBpdHMgYmVjYXVzZSA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+ZXZlcnl0aGluZyBidWlsZHMgdXAuIFNvbWVvbmUgY2FsbCB0aGUgbWVuIGluIHRoZSB3aGl0ZSBjb2F0cyBlaD8gPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPmhhaGEgamsgcGx6IGRvbnQuIDotcDxicj4NCjwvc3Bhbj48YnI+DQpXZWxsIFRoaXMgaGFzIGdvbmUgcHJldHR5IHdlbGwsIEkgaGF2ZSBmb3VuZCB0aGF0IElORkogY2FuIGNvbW11bmljYXRlIGVhc2llciB0aHJvdWdoPGJyPg0Kd3JpdGluZyB0aGFuIGFueXRoaW5nIGVsc2UuIEFub3RoZXIgZ29vZCB3YXkgSSBjb21tdW5pY2F0ZSBpcyB0aHJvdWdoIG90aGVyIHNvdXJjZXM8YnI+DQpsaWtlIE1vdmllcyBvciBNdXNpYy4gSSBrbm93IEkgYW0gYSBodWdlIGZhbiBvZiBXZWV6ZXIgYmVjYXVzZSBSaXZlcnMgQ3VvbW8gaXMgdmVyeSBnb29kPGJyPg0KYXQgc2F5aW5nIGV4YWN0bHkgaG93IEkgZmVlbCBhYm91dCBjZXJ0YWluIHRoaW5ncyBhbmQgSSBvZnRlbiBmZWVsIHRoYXQgYWJvdXQgZXZlcnl0aGluZyBJIFdPVUxEPGJyPg0Kc2F5IElzIGluIHRob3NlIHNvbmdzLiBTbyB0aGF0cyBjb29sPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPC9zcGFuPjxicj4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPkJ1dCwgV2VsbCBUaGlzIGlzIHByb2JhYmx5IHRoZSBmaXJzdCAicmVhbCIgZW50cnkgSSBoYXZlIGhhZCBpbiB0aGUgam91cm5hbCB0aGluZ3kgYW5kIDwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8c3BhbiBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij50aGUgbW9zdCBjb21wbGljYXRlZC4gSSBkb24ndCB3YW50IGFueW9uZSB0byByZWFsbHkgdGhpbmsgSSBhbSBlbW90aW9uYWwgb3IgZXZlbiA8L3NwYW4+PGJyIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+bWFkIHJpZ2h0IG5vdyBvciBhbnl0aGluZy4gSSdtIGFjdHVhbGx5IHRvdGFsbHkgbm9ybWFsIGFuZCB0eXBpbmcgYWxsIG9mIHRoaXMgb3V0IDwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtd2VpZ2h0OiBib2xkOyI+DQo8c3BhbiBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij5oZWxwZWQgZ2V0IHJpZCBvZiB0aGUgImNsb2dnaW5nIGZlZWxpbmciIEkgaGFkIGluIG15IHN0b21hY2guIEJ1dCBJJ20gdGlyZWQgYW5kIEkgYW0gZ29pbmcgPC9zcGFuPjxiciBzdHlsZT0iZm9udC13ZWlnaHQ6IGJvbGQ7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogYm9sZDsiPnRvIHdhdGNoIHNvbWUgRmFtaWx5IEd1eSB0aGVuIHNsZWVwLjwvc3Bhbj48YnI+DQo8YnI+DQpQZWFjZSBPdXQgRm9vbGlvei48YnI+DQo8YnI+DQo8L2ZvbnQ+"
+"eventtime","2005-08-23 02:20:00"
+"url","http://mcnastyshake.livejournal.com/3712.html"
+"userid","9785"
+"itemid","13"
+"event","""There aint no better way to flyyyyyyyyyyy<br>
+I punched the devil in the eyyyyyyyyyye<br>
+There aint no better to live...<br>
+On The Edge!!!""<br>
+<br>
+<span style=""font-weight: bold;"">Saturday:&nbsp; </span>It was a nice
+day. I think the best part is that I didnt work :-). I heard it was a
+madhouse there with lots of people argueing with the front desk and
+bitching. Im so mad I wasn't there &gt;_&gt;. Then I went to Sarah's
+lakehouse thingy. I think the highlight was the food. I had 2-3 hotdogs
+and some cooler ranch chips. Mmmmm. Oh Yeah. people where there that I
+knew, that was coo. We went swimming. I nearly got killed by chicks
+that wanted me and I then I got about 1000 mosquitoes all over my legs.
+but the highlight was the undercooked hotdogs lol :-) :-p <br>
+<br>
+&lt;_&lt; and I wonder why people stop talking to me....<br>
+<br>
+<span style=""font-weight: bold;"">Sunday: </span>I had to work today,
+3-11pm. It was very boring but it was the first sunday that went by
+pretty fast. SWEET. my barber likes to drop by now since I told him I
+would let him slide and go swimming for free (you usually need a 400
+buck membership or something to swim and use the fitness center for a
+year) but he told me I get free haircuts now so woo.. I like hooking
+people up now. so if you want to swim for free, ill allow it if you
+give me food or money...<br>
+<br>
+<span style=""font-weight: bold;"">School Update: </span>My Official
+Stance is that I am having a semester off from WNEC to basically bring
+up grades, etc. I will be in the area for one semester and taking
+courses so I dont just sit around and do nothing.. wouldnt that be a
+shame. but it gives me plenty of time to work and make more money and
+hang out with all the plainfield people I know.. the 3 of em. I still
+plan to visit whenever I am just sitting around and I'm bored. One
+Semester will go fast :-)<br>
+<br>
+<span style=""font-weight: bold;"">More Boring News: </span>I was bored
+last night (Saturday) since I have no life and no bottle of vodka with
+me. I decided to make the most badass collection CD eVAR!!. It is my
+""ULTIMATE weezer 4 disc collection"". I just wanted to post that because
+I can. and I enjoy talking about the same topics over and over again
+and leaving out more interesting details of mah life...<br>
+<br>
+here is the cover I made for it:<br>
+<br>
+<img src=""http://img303.imageshack.us/img303/1240/original4oy.jpg""><br>
+<br>
+I think it is badass. I love ruining historical pieces of art for this
+type of thing. The original image is ""Katsushika Hokusai's - Great
+Waves""... hey I am taking an Art History II summer course.. I know this
+shit.. bittttttch. I plan to make collection CD's for every band I
+like.. :-) It's something to do.. SO SHUT IT<br>
+<br>
+here is the Green Day one I made too:<br>
+<br>
+<img src=""http://img349.imageshack.us/img349/982/reflection4dv.jpg""><br>
+<br>
+Okay. I'm tired and realized this whole post was just a giant away message. its 4:18 am so fuck off. bye :-) love you all!<br>
+<br>"
+"eventtime","2005-07-25 03:58:00"
+"current_moodid","34"
+"url","http://mcnastyshake.livejournal.com/3567.html"
+"userid","9785"
+"itemid","10"
+"event","AND I DONT WANNA BE AN OLD MAN ANYMORE<br>
+BEEN A YEAR OR 2 SINCE I WAS OUT ON THE FLOOR<br>
+SHAKING BOOTY, MAKING SWEET LOVE ALL THE NIGHT<br>
+ITS TIME I GOT BACK TO THE GOOOOOD LIFE!!!<br>
+<br>
+<br>
+<br>
+<span style=""font-weight: bold;"">Dare Reflection Time: </span>I don't
+know what it has been lately, maybe its my ""sexy new haircut"" or
+something in the water. but I've been feeling a lot more spunk than
+usual :-) . I'm usually very mild mannered *hides giant <span style=""color: rgb(51, 51, 255); font-weight: bold;""><span style=""color: rgb(51, 102, 255);"">&lt;</span><span style=""color: rgb(255, 0, 0);"">S</span></span><span style=""color: rgb(51, 51, 255);""><span style=""color: rgb(51, 102, 255);"">&gt;</span></span>
+underneath my shirt* but I've been feeling motivated. and I don't know
+if alot of you know this but motivated darius is one BAD MOTHA FUCKA
+&gt;_&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+*motivation probably lasts one day*<br>
+<br>
+<span style=""color: rgb(51, 102, 255); font-weight: bold;"">Watch Out World. Especally If I end up buying Jimoneau's car.  </span><br style=""color: rgb(51, 102, 255); font-weight: bold;"">
+<span style=""color: rgb(51, 102, 255); font-weight: bold;"">I'll be mobile and causing trouble... HIDE YER DAUGHTERS &lt;_&lt;</span><br>
+<br>
+<span style=""font-weight: bold;"">Life Lately: </span>Lets see, As I
+said. I got a haircut today. Its about time I was all hippyish! My
+barber asked where I worked and actually wanted to stop by and swim..
+Usually you are only allowed if you got a membership, but If I'm on
+duty and you want to swim. Just drop by and I'll let you slide..... in
+exchange for sexual favors. So stop by sometime! but If you cause
+trouble. I get to call the cops. Work wasn't too bad today. I really
+wish we could swear or say sarcastic smartass remarks to people who
+complain and act retarded. <br>
+<br>
+<span style=""font-weight: bold; color: rgb(0, 153, 0);"">Complaining Guest:</span><span style=""color: rgb(0, 153, 0);""> Oh Yeah? Well whats stopping me from getting my bags and going to Mohegan Sun and getting a room there?? </span><br style=""color: rgb(0, 153, 0);"">
+<span style=""font-weight: bold; color: rgb(0, 153, 0);"">My Brain: </span><span style=""color: rgb(0, 153, 0);"">a.) go right the fuck ahead. b.) I doubt you would get a room when they are sold out, you douche </span><br style=""color: rgb(0, 153, 0);"">
+<span style=""font-weight: bold; color: rgb(0, 153, 0);"">My Mouth:</span><span style=""color: rgb(0, 153, 0);"">
+oh.. no.. please don't go, im sorry for the inconvinence... *forcably
+lowers rate 10 dollars* thank you for dealing with this, sir.<br>
+<br>
+<span style=""color: rgb(0, 0, 0);"">Other than that, I have been pretty
+good. I am enjoying this summer and really am thinking about planning
+some things and just overall changing my very relaxed and chill
+personality. I think Ill take some initiative and start actually caring
+about things most people do.. I think I'm growing up and maturing a
+bit... or maybe I just care a little bit more :-p<br>
+<br>
+But I think I am going to either go to sleep so I can get some sleep so
+I might be able to see some friends tomorrow and maybe go out this
+week. I dont really work monday - thursday and I think I'll get a
+little bit more time to do something. maybe 6 flags or whatever. well
+catch ya later..... <br>
+<br>
+<br>
+P.S. btw, go here if you are a <span style=""font-weight: bold;"">Harry Potter </span> fan :-) http://snapeskau.ytmnd.com/<br>
+<br>
+Nooooooooooooooooooooo!! YOU BITCH!<br>
+</span></span>"
+"eventtime","2005-07-22 23:23:00"
+"current_moodid","8"
+"url","http://mcnastyshake.livejournal.com/2792.html"
+"userid","9785"
+"itemid","9"
+"event","This is such a piiiiiiiiiity!<br>
+We should give all our love to each other!<br>
+Not This haaaaaaaate that destroyyyyys us!<br>
+This is such a piiiiiiiiity!<br>
+<br>
+*synth + guitar*<br>
+<br>
+<span style=""font-weight: bold;"">Work: </span>Wow, Its been a hell the
+last few days haha. I had to take over Kim's day shift because she went
+on vacation so I ended up working 10 days in a row and having my
+schedule all over the place. It was certainly a bitch but its finally
+done so Im glad to hear that.. The housekeeping area was crazy also
+with tons of shit going on.. glad im not in there! but its finally
+taken care of and calm in there also. I can't wait to get that fatty
+check of mine :-) boo ya baby!<br>
+<br>
+<span style=""font-weight: bold;"">Other Life Details:&nbsp; </span>hmmm,
+I been enjoying myself a bit and hanging out with friends when I can
+and such. I also FINALLY got my electric guitar a week or so ago and I
+love playing it :-) hehe. Rock that bitch baby. I think I wanna find
+time to either hang out or do something cool this week so I'll have to
+figure it out from there. I would put more thats been going on but I
+just felt the need to update a small bit since I havent in foreva! well
+peace suckaz<br>
+<br>
+<br>
+THIS IS SUCH A PIIIIIIIIITY! <br>"
+"eventtime","2005-07-18 10:37:00"
+"current_moodid","59"
+"url","http://mcnastyshake.livejournal.com/2532.html"
+"userid","9785"
+"itemid","8"
+"event","<span style=""color: rgb(255, 0, 0);""><span style=""font-style: italic;""><span style=""font-weight: bold;"">Someday I'll Fly<br>
+Someday I'll Soaaaaaaaaaaaaaaaaaaaaaaaaaaaar!!!!<br>
+</span></span></span><br>
+<br>
+<span style=""font-weight: bold;"">My Life In General:&nbsp; </span>Hmm,
+I have been busy pretty much doing very minimal social activities. Went
+to NY for a weekend for a graduation... I hung out with Jessica and
+Jamie once a week or so ago before that... if you count that.. We drove
+around and shopped and they wanted me to bring my guitar so I can
+like.. play songs to them randomly as I walked around (...so they would
+get turned on).. bitches love the guitar.. :-) . Other than that, I
+have just been chilling around the house and town whenever I get a
+chance. My life is very calm<br>
+<br>
+<span style=""font-weight: bold;"">Summer Bummer: </span>I'm taking one
+or two summer courses (Online classes are easy). So that should keep me
+busy by asking me to do about 2-3 useless assignments a week
+(&gt;_&gt;). Its not that bad and one of the classes requires me to
+creatively write here and there. I'm sort of getting good at creating
+poems/lyrics. but I'll get better at it as time continues. I think I
+would probably do this even if i wasnt take this course. Maybe I'll
+post some of my lyrics or songs (with guitar) in the future here for
+you all to ""enjoy"". (lol)<br>
+<br>
+<span style=""font-weight: bold;"">Online Companies:&nbsp; </span>I
+HAVEN'T gotten my super cool electric guitar pack yet.. Apparently its
+takes forever when you get free shipping.. They said on the thing.. It
+would take 7 days to get here.. okay thats cool... *after 7 days*.. I
+get an email from fedex.. saying the estimated date it would get here
+in another 6 days (I.E. today)... thats fine i guess... *comes today*.
+I learn that that was the time it would get to FEDEX... it will come in
+another 7 days.. Im pissed... If it doesnt come then.. Im going to
+kidnap their children.... &gt;:o&nbsp; &gt;:o<br>
+<br>
+<span style=""font-style: italic;""><span style=""font-weight: bold;""><span style=""font-weight: bold;""><span style=""font-style: italic;""><span style=""color: rgb(255, 0, 0);"">*changes song to ""Scotty doesnt know""*<br>
+<br>
+SCOTTY DOESNNNNNNNNNNNNNNNT KNOOOOOW!!!!<br>
+<br>
+</span></span></span></span><span style=""font-style: italic;""><span style=""color: rgb(255, 0, 0);""><span style=""color: rgb(0, 0, 0);""><span style=""font-style: italic;""><span style=""font-weight: bold;""><span style=""font-style: italic;""><span style=""font-style: italic;""><span style=""font-style: italic;""><span style=""font-style: italic;""></span></span></span></span></span></span></span></span></span></span> <span style=""font-weight: bold;"">Work:&nbsp; </span>Today
+was the fourth of July Weekend. So naturally It was very busy (I sold
+us out though, woo woo). It was mostly calm but just progressive. But
+naturally that never stays that way on a saturday. Something has to
+happen involving intoxicated people.. Apparently we accidently checked
+in Heroin Cokeheads. So we had to pay extra watch to make sure nothing
+shady happened and all that.. It was very nice to deal with that... <br>
+<br>
+<span style=""font-style: italic;"">Current Count of <span style=""font-weight: bold;"">Stoned/Druggie</span> People I ran into during work:&nbsp; <span style=""color: rgb(51, 51, 255);""></span></span> <span style=""color: rgb(51, 51, 255);""><span style=""font-weight: bold;"">6+<br>
+<br>
+</span></span> But Other than that, Work has been... Work.. but it =&nbsp; <span style=""font-weight: bold;""><span style=""color: rgb(0, 153, 0);"">Money Bay Bay!!<br>
+<br>
+</span></span> <br>
+<span style=""font-weight: bold;"">Well, That has been whats going on
+lately. I wish I had more interesting things to put but yeah.. I'm
+boring :-) ... SO BYE HONEYBUNCHES!! &lt;3 &lt;3<br>
+<br>
+<span style=""color: rgb(51, 255, 51);"">SUX IT!!!! *crotch chops*</span><br>
+</span><br>
+<br>
+<span style=""font-style: italic;""><span style=""font-style: italic;""><span style=""color: rgb(255, 0, 0);""><span style=""color: rgb(0, 0, 0);""><span style=""font-style: italic;""><span style=""font-weight: bold;""><span style=""font-style: italic;""><span style=""font-style: italic;""><span style=""font-style: italic;""><span style=""font-style: italic;""><span style=""text-decoration: underline;""><span style=""font-weight: bold;""><span style=""font-style: italic;""><span style=""text-decoration: underline;""><span style=""text-decoration: underline;""><span style=""font-style: italic;""><span style=""font-weight: bold;""></span></span></span></span></span></span></span><br>
+</span></span></span></span></span></span></span></span></span><span style=""font-weight: bold;""><span style=""font-weight: bold;""><span style=""font-style: italic;""><span style=""color: rgb(255, 0, 0);""><br>
+</span></span></span></span></span>"
+"eventtime","2005-07-03 00:19:00"
+"current_moodid","30"
+"url","http://mcnastyshake.livejournal.com/2057.html"
+"userid","9785"
+"itemid","7"
+"event","<span style=""font-weight: bold;"">Adult Swim -&nbsp; </span>It is so funny..
+Its the most random adult dry humor ever.. its great.. I got back from
+work In a pretty crappy mood but then I put this on and it just made me
+laugh sooo much.. Robot Chicken had a bunch of claymation
+parodies/skits (with a twist) and other things..and other great shows
+such as ATHF, Space Ghost, 12oz mouse, Family Guy, Etc...&nbsp; If I could
+define this humor as anything. I would describe it as ""Stoner cartoons
+for stoners"". It is just so stupid its awesome. with adult weird humor
+on the rise. I can forsee a super awesome solo channel. <br>
+
+<br>
+
+<span style=""font-weight: bold;"">Strongest Freak? lol - </span>The next
+thing I changed to was this TLC&nbsp; on the ""Worlds Strongest Boy""... this
+kid's life must have sucked... the parents were like ""NO TOYS AND NO
+FRIENDS. just make money for me"". This kid just works out and poses for
+perverts on the internet... &gt;_&gt;. I mean cmon.. He can do a RVD
+split weightlifting (where you do a split on chairs and hold weights)
+at just 9 years old.. who the fuck does that at 9... WHAT A FUCKING
+FREEK!...<br>
+
+<br>
+
+<span style=""font-weight: bold;"">Green Day Diss - </span>There was this
+article where Green Day met their Punk Idol, and he totally dissed them
+and said that he didnt know who they were and they were ""not punk""..
+now let me tell you.. that has to suck...&nbsp; you can read about it<a href=""http://www.dc101.com/script/headline_newsmanager.php?id=415480&amp;pagecontent=musicnewsrockactive&amp;feed_id=122""> here</a> .<br>
+
+<br>
+
+<span style=""font-weight: bold;"">Friends/Work - </span>I haven't done
+much.. I was mostly working, practicing chords, I hung out with some friends during the weekand.. It was pretty enjoyable I look forward to having more opportunities to hang out and see people. Word... now back to:<br>
+
+<br>
+
+<span style=""font-weight: bold;""></span>Well I'm going to go since I'm
+tired and this is just me typing out very random sleepy thoughts..
+Yep.. I'm going to sleep then I'm going to wake up and either swim
+somewhere or sleep listening to Weezer. Peace out nugs! Darius<br>
+
+<br>
+
+<br>
+
+<br>
+
+This was sponsered KEANU SAUSAGES.. KEANU REEVES BREAKFAST SAUSAGE.. (endorced by Christoper Walken and William Shatner. It's the only sausage they eat!) ~ Robot Chicken<br>
+<br>
+<br>
+<br>
+<br>"
+"eventtime","2005-06-27 03:09:00"
+"current_moodid","72"
+"url","http://mcnastyshake.livejournal.com/2037.html"
+"userid","9785"
+"itemid","6"
+"event","PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMjU1LCAwLCAwKTsgZm9udC13ZWlnaHQ6IGJvbGQ7Ij5BZnRlciB0YWtpbmcgYQ0KMTYgdHlwZSBwZXJzb25hbGl0eSB0ZXN0IGluIGNvbGxlZ2UuIEkgZm91bmQgbXkgcGVyc29uYWxpdHkgbmFpbGVkIGRvd24gdG8gYSB2ZXJ5IGRldGFpbGVkIHR5cGUgKElORkopLiBJIHJlc2VhcmNoZWQgY2VydGFpbiBxdWFsaXRpZXMNCmFib3V0IGl0IGFuZCBmb3VuZCBtYW55IHRyYWl0cyB0aGF0IGFyZSBBTE9UIGxpa2UgbWUuIEl0IGlzIHJlYWxseQ0KcXVpdGUgd2VpcmQgaG93IGNsb3NlIGl0IGhpdC4uIElmIGFueW9uZSBldmVyIGhhZCBhbnkgaW50ZXJlc3QgaW4gbGVhcm5pbmcgYSBsaXR0bGUgYml0IE1PUkUgYWJvdXQgbWUuIHRoZXJlIHlhIGdvLiBlbmpveSAqeWEgcmlnaHQqIGxvbA0KDQp3ZWxsIGhlcmUgaXQgaXMuLiB0aGUgbW9zdCBib3JpbmcNCmVudHJ5IHlldCEgaGFoYTwvc3Bhbj48YnI+DQoNCjxicj4NCg0KPGJyIHN0eWxlPSJjb2xvcjogcmdiKDUxLCA1MSwgMjU1KTsiPg0KDQo8c3BhbiBzdHlsZT0iY29sb3I6IHJnYig1MSwgNTEsIDI1NSk7IGZvbnQtd2VpZ2h0OiBib2xkOyI+UG9zaXRpdmUgQXR0cmlidXRlcyBhYm91dCBteSBwZXJzb25hbGl0eSB0eXBlIHRoYXQgcmVsYXRlcyB0byBtZTo8L3NwYW4+PGJyPg0KDQo8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtJbm5lciB3b3JsZCBvZiBwb3NzaWJpbGl0aWVzLCBpZGVhcywgYW5kIHN5bWJvbHMgYXJlIGltcG9ydGFudDxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO0NyZWF0aXZlIGV4cHJlc3Npb248YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtTcGlyaXR1YWxpdHkgYW5kIGh1bWFuIGRldmVsb3BtZW50Ljxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO0ludGVncml0eSwgb3JpZ2luYWxpdHksIHZpc2lvbiBhbmQgY3JlYXRpdml0eTxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO0V4Y2VsbGVudCBsaXN0ZW5lcnM8YnI+DQoNCjxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO1BhdGllbnQsIHN1cHBvcnRpdmUsIHBlcmNlcHRpdmUsIGVtcGF0aGV0aWMgYW5kIGdlbnRsZS48YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtWZXJ5IGluZGVwZW5kZW50PGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7S2VlbiB3YXkgb2YgcGlja2luZyB1cCBob3cgb3RoZXJzIGZlZWw8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtTZW5zaXRpdmUgPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7VmVyeSBhbmFseXRpY2FsPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7Rm9jdXMgb24gZW1vdGlvbnMuPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7T3JnYW5pemVkPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7RW5qb3lzIGJ1dCBvZnRlbiBuZWVkcyB5b3VyIGFsb25lIHRpbWU8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtJbnRlcmVzdGVkIGluIGhlbHBpbmcgcGVvcGxlPGJyPg0KDQo8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtFYXNpbHkgcmVjb2duaXplIGFub3RoZXIncyBpbnRlbnRpb25zIG9yIG1vdGl2ZXMgYmVmb3JlIHRoZXkgZG88YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtEb24ndCBjYWxsIGEgbG90IG9mIGF0dGVudGlvbiB0byB5b3Vyc2VsZjxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO1dhbnQgdG8gZ2l2ZSBsb3ZlIGFuZCBiZSBsb3ZlZDxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO0NsZWFubGluZXNzIGFuZCBvcmRlcjxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO05ldXRyYWwgcG9zaXRpb24gaW4gdGhlIGNvbmZsaWN0PGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7UXVpdGUgcmVsaWFibGU8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtSYXJlbHkgcHVzaCwgc2hvdXQgb3Igc2hvdyBhZ2dyZXNzaXZlbmVzcy48YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDsiQmVpbmcgdHJ1ZSB0byB5b3Vyc2VsZiI8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtMaWZlbG9uZyBzZWFyY2ggZm9yIGEgdW5pcXVlIGlkZW50aXR5IGFuZCBtZWFuaW5nPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7RW5qb3kgdGhvdWdodGZ1bCBkaXNjdXNzaW9uPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7UmFyZWx5IGdldCBpbnRvIGNvbmZsaWN0PGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7TG92ZXMgcXVvdGVzL3F1b3RhdGlvbnM8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDsia25vdyIgdGhpbmdzIGJ5IHRoZWlyIEludHVpdGlvbjxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO1dlIGNvdWxkIG5ldmVyIHNlZSBvdXJzZWx2ZXMgZHJhaW5pbmcgb3RoZXJzIA0KPGJyIHN0eWxlPSJjb2xvcjogcmdiKDUxLCAyNTUsIDUxKTsiPg0KDQo8YnIgc3R5bGU9ImNvbG9yOiByZ2IoNTEsIDI1NSwgNTEpOyI+DQoNCjxiciBzdHlsZT0iY29sb3I6IHJnYig1MSwgMjU1LCA1MSk7Ij4NCg0KPGJyIHN0eWxlPSJjb2xvcjogcmdiKDUxLCAyNTUsIDUxKTsiPg0KDQo8Yj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYig1MSwgMjU1LCA1MSk7Ij5OZWdhdGl2ZSBBdHRyaWJ1dGVzIG9mIG15IHBlcnNvbmFsaXR5IHR5cGUgdGhhdCByZWxhdGVkIHRvIG1lOjwvc3Bhbj48YnI+PC9iPg0KPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7U29mdC1zcG9rZW48YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtTdHViYm9ybiBvciBzaW5nbGUtbWluZGVkPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7TGlrZWx5IHRvIGJlIGRlcHJlc3NlZCBhdCB0aW1lczxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO1dhbnQgdG8gYmUgdW5kZXJzdG9vZCBidXQgb2Z0ZW4gaXNu4oCZdC48YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtVbnJlYWxpc3RpYyBleHBlY3RhdGlvbnMgZm9yIHJlbGF0aW9uc2hpcHM8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtDYW4gYmUgaGFyZCB0byBnZXQgdG8ga25vdzxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO0ZyaWVuZHMgYWZ0ZXIgeWVhcnMgYXJlIHN1cnByaXNlZCB0byBsZWFybiBuZXcgdGhpbmdzIGFib3V0IHlvdTxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO015c3RlcmlvdXMgb3Igd2l0aGhvbGRpbmc8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtQcmVmZXJzIHRvIHdvcmsgYmVoaW5kIHRoZSBzY2VuZXM8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtFeHRyZW1lIHNlbnNpdGl2aXR5IHRvIG90aGVyczxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO0FyZSByZWx1Y3RhbnQgdG8gaW50cnVkZSBvbiBvdGhlcnMgd2l0aCB5b3VyIGlkZWFzPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7TG9zZXMgb3V0IGlmIHlvdSBkb24ndCBhY3QgYXNzZXJ0aXZlbHk8YnI+DQoNCjxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO0ZlZWwgdGhhdCB5b3VyIGlkZWFzIGFyZSB1bmRlcmVzdGltYXRlZCBvciB1bmFwcHJlY2lhdGVkPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7UmVwdXRhdGlvbiBhcyBuYWl2ZSBhbmQgaW1wcmFjdGljYWw8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtQdW5pc2ggb2ZmZW5kZXJzIGJ5IGNvbXBsZXRlbHkgaWdub3JpbmcgdGhlIG9mZmVuZGVyczxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO1NlZW4gYnkgb3RoZXJzIGFzIGNvbGQgYW5kIGhhcmQ8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtEaWZmaWN1bHQgdG8gInBlZyI8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtGaW5kcyBpdCBlYXNpZXIgdG8gZXhwcmVzcyB0aGVpciBkZWVwZXN0IGZlZWxpbmdzIGFuZCBzZW50aW1lbnRzIG5vbi12ZXJiYWxseSBvciBpbiB3cml0aW5nPGJyPg0KDQo8YnI+DQoNCuKAoiZuYnNwOyZuYnNwOyAmbmJzcDtMb29rZWQgdXBvbiBieSBvdGhlcnMgYXMgbmHDr3ZlPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7Q2FuIGJlIHF1aXRlIGd1bGxpYmxlPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7V2hlbiBhbmdlciBkb2VzIGVydXB0cywgaXQgY2FuIGJlIHZlcnkgYml0dGVyPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7Ik11dGUgd2l0aGRyYXdhbCBpcyBhIG1ham9yIElORkogZGVmZW5zZS4iPGJyPg0KDQrigKImbmJzcDsmbmJzcDsgJm5ic3A7Q29tbXVuaWNhdGlvbiBpcyB2ZXJ5IGRpZmZpY3VsdCBiZWNhdXNlIHdlIGNhbid0IGVhc2lseSBleHBsYWluIHdoYXQgd2UgZmVlbDxicj4NCg0K4oCiJm5ic3A7Jm5ic3A7ICZuYnNwO09uZSBtaW51dGUgd2UgYXJlIHNoYXJpbmcgcHJhaXNlIG9yIGNvbWZvcnRpbmcgcGVvcGxlIGFuZCB0aGUgbmV4dCBtaW51dGUgd2UgYXJlIGNyaXRpY2FsLiAoQmlwb2xhcik="
+"eventtime","2005-06-23 00:20:00"
+"current_moodid","31"
+"url","http://mcnastyshake.livejournal.com/1600.html"
+"userid","9785"
+"itemid","3"
+"event","Fuck yo couch. This is what I been doing lately: :-)
+
+
+<b>Who the Fuck Vacations In Plainfield?</b> - I worked this whole weekend.. it consumed alot of my time and to be honest with you was very boring.. not one day was excessively busy.. so instead I:
+
+1. Watched a shitload of (TBS, TNT, USA) movies.
+2. Walked 1000+ laps around the front desk area. 
+3. Smiled and pretended I cared about the people checking in. 
+4. Checked out alot of MILF's and hotties asses. 8-)
+5. Coffee, Coffee, Coffee, Coffee.
+
+
+I look forward to my day off of (monday, tuesday,weds afternoon, thurs) and saturday which I will be going to a family graduation.... <i>suckah!!</i> 
+
+
+<b>Hot Chick of The Day</b> - Maria Sharapova.. she can play with my Balls and Racket anyday.. 8-) MATCH SET POINT!!!!!!!
+
+
+<b>Online Goodies</b> - With a part of my check I just recieved I plan to get a few things I need via the Wild Wonderful Web.. A decent kit off the net that contains an <b>(Electric Guitar, 15 Watt Guitar Amplifier, Complimentary Picks, Cables, Straps, and Bag)</b> and then I also plan to buy some other <i>mystery things</i> with my check.. bahaha ;-). All I need to do I simply have someone take me to the bank tomorrow or tuesday so I can just deposit it into my account.. If you dont volunteer to do it, I'll fucking *axe* you. :-)
+
+<b> Batman Begins Update:</b> - Still Fucking Cool.. Please Go to Theaters to see it.. Then Download it :-) (<3 Piracy). I already saw it 5 times... And Only Once Legally.. which is a shame :-( . *hopes no one of authority reads this*
+
+Sooo, go see it then Bring me!!.. If you are a lady. I'll please you with my patented move..<b><i>""THE HURRICANE HELICOPTER""</b></i> on ride over too as a complimentary gift if you bring me ;-p...
+
+
+
+Alrighty, I'm done. I figured I owed it to ALL my sexy fans to update this thing...... yep.....I'll eat your children O_O"
+"eventtime","2005-06-20 00:51:00"
+"current_moodid","100"
+"url","http://mcnastyshake.livejournal.com/782.html"
+"userid","9785"
+"itemid","2"
+"event","Fuck yo couch. This is what I been doing lately: :-)
+
+
+<b> Work </b> - Yep, I work tomorrow from 3pm - 11pm. Friday's arent too bad really. A decent amount of people come in. I check them in. I watch TV for a while.. :-) count it
+
+<b> Friends </b> - I got to hang out with a few friends today, It was pretty fun. I first hung out with Jambi (Jamie) at her house for a while. It was fun, we played games like 
+
+PARAPPA DA RAPPA. (I suck at it), FROGGER (mostly with her sister), and a PS2 KAROKE GAME (my singing.. is brilliant 8-\ ) Then Jess came by later and picked us up so we could see.........
+
+<b> Batman Begins! </b> - We went to Lisbon to see this movie in the theater there (very nice btw) and I must say.. I never have to see another superhero movie again.. It was <b>""brilliantly amazing""</b>.. The acting was superb (Christian bale, Cillian Murphy, Morgan Freeman, Gary Oldman). Batman Begins was a great mix of story with just enough action to knock your socks off.. the music was beautifully orcestrated and the sound effects were perfection. Dark. Mature. Funny. but most of all, Accurate to the comicbook
+
+I give this movie
+
+<b><i>*3 Batista Thumbs up*. It was that good!</b></i>
+
+Well That is basically what I did today with some give and some take. So I'll catch all you sexy beasts later! Bizzzzzzzzz Bizzzzzz!!!"
+"eventtime","2005-06-16 22:12:00"
+"current_moodid","21"
+"url","http://mcnastyshake.livejournal.com/531.html"
+"userid","9785"
+"itemid","1"
+"event","Fuck yo couch. This is what I been doing lately: :-)
+
+
+<b>Work (Holiday Inn Express)</b> - Love it! I'm either standing and watching Movies on TBS. Or taking shit from 40 year old couples that vacation in PLAINFIELD.. So great :-)
+
+<b>Friends</b> - Yeah, I have em. They are skitzos but what can ya do haha. <3 to those that can make that work for em! I hang out with them when i can: 
+
+Either on the beach, or at the store. baseball games, they always want more. Its good to see em and they really do keep me from being bored here. Anyone else I havent seen in a while. Say ""Wutup"" sometime <i>(do me!?!)</i>
+
+<b>Grandfather</b> - yeah he is visiting from California. its nice to see him and he bought me pizza today. I will give him points for that. I'm suppose to keep him company but I'm pretty bad at it. we usually just talk about movies, music or he asks me about my situation with the ladies to which i reply <b>""bitches love me"".</b> 8-)
+
+<b>Guitar</b> - I'm diggin it. I can play a tune or 2. trying to learn the guitar-line for <b>""El Scorcho""</b> from Weezer. Its not bad, I really need to invest time and send the money out so I can get my Groovy Green Electric. 
+<b>Callous Update:</b> Rough and Manly. Im so cool!! 
+
+<b>Entertainment:</b> I wanted to see Batman Begins but I'll wait for friends to see it with me tomorrow. I heard alot of great reviews and I can just say ""I TOLD YOU SO"" about how badass <b>Christian Bale</b> is. 
+
+I also been watching <b>""Wonder Showzen""</b> on MTV2 since I first saw it.. Its actually pretty funny/contraversal. I feel the need to go to church everytime I finish watching it... It's ""Sesame Street"" on <i>Acid.</i>
+
+Thats all for today. Blastoff!!
+
+(Just so everyone knows, I'm very cocky on purpose for my entries hah)"
+"eventtime","2005-06-15 14:04:00"
+"current_moodid","117"
+"url","http://mcnastyshake.livejournal.com/297.html"
+"userid","9785"

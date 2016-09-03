@@ -1,0 +1,440 @@
+"names","values"
+"itemid","176"
+"event","SXNu4oCZdCBpdCBzdHJhbmdlIGhvdyBhdHRpdHVkZXMgY2hhbmdlIOKAkw0KDQpJIHJlY2VudGx5IGJvdWdodCBhIG5ldyBtYW5iYWcgaW4gcHJlcGFyYXRpb24gZm9yIHRoZSBzdW1tZXI7IGEgc21hbGwsIGNhbnZhcyB0aGluZyB0aGF04oCZbGwgbG9vayBhd2Vzb21lIHdpdGggbGluZW4gc2hvcnRzLCBzYW5kYWxzIGFuZCBhIHRvcCBvZiBvbmUgdHlwZSBvciBhbm90aGVyIOKAkyBhbmQgSeKAmW0gcmVhbGx5IGV4aWN0ZWQgZm9yIHRoZSBzdW1tZXIgbm93Lg0KDQpXaGlsZSBkb2luZyBzb21lIHNob3BwaW5nIG9ubGluZSBmb3Igc2FpZCBiYWcsIEkgY2FtZSBhY3Jvc3MgYSByYXRoZXIgZGF0ZWQgYXJ0aWNsZSBpbiB0aGUgR3VhcmRpYW4gKGh0dHA6Ly93d3cuZ3VhcmRpYW4uY28udWsvbGlmZWFuZHN0eWxlLzIwMDYvanVuLzI5L2Zhc2hpb24uZ2VuZGVyKSB3aGljaCBoaWdobGlnaHRzIHdoZW4gYW5kIHdoZXJlIHRoZSBtYW5iYWcsIG9yIOKAnW11cnNlLOKAnSBhcyBpdCBpcyBzb21ldGltZXMga25vd24gKGEgZnVzaW9uIG9mIE1hbiBQdXJzZSkgY2FtZSBmcm9tIGFuZCB3aHkgaXTigJlzIHJpc2VuIGluIHBvcHVsYXJpdHk7IHRoZSBhdXRob3IgbWFrZXMgaXQgc2VlbSBhcyB0aG91Z2ggaWYgeW914oCZcmUgbm90IGNhcnJ5aW5nIGEgYmFnLCB5b3XigJlyZSBub2JvZHkuIA0KDQpUaGlzIHF1b3RlIGhvd2V2ZXIsIGZvdW5kIHdpdGhpbiB0aGUgYXJ0aWNsZSAoZnJvbSBhIDIzIHlyIG9sZCBBbWVyaWNhbiB0ZW5uaXMgcGxheWVyKSBzdWdnZXN0cyBvdGhlcndpc2U6IA0KDQrigJxBbnl0aGluZyBiaWdnZXIgdGhhbiBhIG1vbmV5IGNsaXAgb3IgYSB3YWxsZXQgaXMgdG8gYmUgbGVmdCB3aXRoIHlvdXIgZ2lybGZyaWVuZC93aWZlLiBBbmQganVzdCBzbyB3ZSBhcmUgY2xlYXIsIHlvdSBzaG91bGQgbm90IGJlIGFibGUgdG8gdGhyb3cgeW91ciAnd2FsbGV0JyBvdmVyIGEgc2hvdWxkZXIu4oCdDQoNCk5vdyDigJMgdGhlIGF0dGl0dWRlcyBvZiB0aGlzIHlvdW5nIEFtZXJpY2FuIHNlZW0sIGZyb20gbXkgZXhwZXJpZW5jZSwgdG8gYmUgYSBsb3QgbmVhcmVyIHRoZSB0cnV0aCDigJMgcGFydGljdWxhcmx5IGluIHJlbGF0aW9uIHRvIGEgbG90IG9mIHRoZSB5b3VuZyBtZW4gSSBrbm93LiAgV2hpbGUgaXQgaXMgdHJ1ZSB0aGF0IHVzIGdlbnRzIG5vdyBoYXZlIGEgbG90IHRvIGNhcnJ5IGFyb3VuZCB3aXRoIHVzIChXYWxsZXRzLCBidXMgcGFzc2VzLCBob3VzZSBrZXlzLCBjYXIga2V5cywgdW1icmVsbGFzLCBtb2JpbGUgcGhvbmVzLCBkaWFyaWVzL3RlbGVwaG9uZSBib29rcywgUERB4oCZcywgbGFwdG9wcyBldGMpLCBhIGxhcmdlIG1ham9yaXR5IHN0aWxsIHNlZW0gdG8gYmUgYWJsZSB0byBjcmFtIGFsbCBvZiB0aGVzZSBhcnRpY2xlcyBpbnRvIHRoZWlyIHBvY2tldHMuDQoNCkkgY2Fu4oCZdCBoZWxwIHdvbmRlcmluZyBob3cgdGhpcyBwaGlsb3NvcGh5IHdvcmtzIGR1cmluZyB3YXJtZXIgbW9udGhzIOKAkyBjZXJ0YWlubHkgaW4gd2ludGVyLCBJIGNvdWxkIGp1c3QgY29wZSB3aXRob3V0IG15IGhhbmRiYWcgZm9yIGEgZGF5IG9yIHNvOiBJ4oCZZCBzaW1wbHkgdXNlIHRoZSBwbGV0aG9yYSBvZiBwb2NrZXRzIGZvdW5kIHdpdGhpbiBteSB3aW50ZXIgb3ZlcmNvYXQuICBCdXQgd2hlbiB0aGUgc3VtbWVyIGhpdHMsIGFuZCBvbmUgZG9lc27igJl0IHdhbnQgdG8gd2VhciBhIGNhc2htZXJlIGNhcmRpZ2FuLCBsZXQgYWxvbmUgYSBidWxreSBvdmVyY29hdCDigJMgd2hhdCB0aGVuPyAgQXNpZGUgZnJvbSBhbnl0aGluZyBlbHNlLCBwb2NrZXRpbmcgYSBidW5jaCBvZiBrZXlzIHdvdWxkIHJ1aW4gdGhlIHNoYXBlIG9mIGxpbmVuIHNob3J0cy4uLg0KDQpJJ20gcXVpdGUgaW50ZXJlc3RlZCB0byBmaW5kIG91dCBwZW9wbGUncyBvcGluaW9ucyBvbiB0aGVzZSwgaW4gbXkgb3BpbmlvbiwgZXNzZW50aWFsIGFjY2Vzc29yaWVzOyB5b3VyIGNvbW1lbnRzLCBwbGVhc2Uh"
+"eventtime","2009-01-22 15:10:00"
+"url","http://max-wellingham.livejournal.com/45110.html"
+"userid","9756"
+"itemid","155"
+"event","i have had SUCH a day!!!  So damned tired, such a busy day.  BUT i'm finally free for the whole weekend!  Whoop!"
+"eventtime","2008-06-27 19:14:00"
+"url","http://max-wellingham.livejournal.com/39744.html"
+"userid","9756"
+"itemid","153"
+"event","I think i'm goign to buy a data projector.  I want projector TV!!!  Oh; I'd need to buy more speakers - honestly, by the time I'm done, this house is going to be more magnetic than the poles!  Such a shame..."
+"eventtime","2008-06-26 23:13:00"
+"url","http://max-wellingham.livejournal.com/39314.html"
+"userid","9756"
+"itemid","123"
+"event","Has anybody heard of Neways?  www.neways.com
+
+I've been in contact with them recently with regards to an employment possiblity - becoming one  of their national distributors.  People have made millions from it - working on a similar concept to Avon (the wonderful cosmetics company), or (a little more similarly) Amway, the (margianlly nicer) cleaning products people.  The chap on the 'phone said it wasn't at all to do with sales, but the informative DVD he sent me didn't give that impression AT all!!!
+
+I'm intruiged - how can you make money from profit on products that you've convinced people to buy, and it not be selling?!  The other way people make money is by building a vast ""organisation,"" network of distributors that yuo've recruited, and that other people have recruited - and you get commission from THEIr sales.  SO, for example - if i recruit 2 people, and each of those recruit 5, i recieve the commission from 12 representatives - and so on.  But it's still convincing people to ""buy"" a job.  Or relying on people being passed my name.  And the other thing!  i live in Parkstone!  grotty place where people would sooner swallow bleach than spend lots of money on additive free products!"
+"eventtime","2006-06-27 18:06:00"
+"url","http://max-wellingham.livejournal.com/31740.html"
+"userid","9756"
+"itemid","102"
+"event","For those of you who have not yet awoken, BB7 started 5 days ago.  And it's going surprisingly well, from the hosuemates' point of view - they all love each other, get on well, and Big Brother's attempts at dividing them is bringing them together; they're working together well, sharing, and supporting each other.
+
+With the exception of possibly the most annoying man in the WORLD.  No, I lie.  He's worse than annoying.  He sepent this evening saying he wanted to go back to his own little world, back to his council house, where he spent his time in solitary confinement becuase he didnt' have any friends.  And watching thew ay he behaved just now, is it any WONDER?!  He realy upset Lisa, by calling her an imbecile (because the rest of the group didn't stop what they were doing to look at him while he was reading slowly, letter by letter).  But anyway, they decided that as he'd upset everyone so much they were going to discount himf rom the group, which I think is understandable.  And in payback, he went and took ALL the foodstuffs, and chucked them in a box in the garden.  Yeh - becuase that's going to make htem like you isn't it, you fucking cunt?!
+
+he calls himself a ""paki poof,"" and blames his behaviour on that.  As Dawn pointed out to him, that's no excuse for his beahviour.  I think she tookt he wrong approach though, instead of talking to him as an equal, she needed to talk down to him, like a child.  As he does with the rest of the group.  the way he talks to the ret of the group shows that he's still mentally got the maturity of a 6 year old. ANYWAY, I know other ""paki poofs,"" as he describes them, who behave impeccabley.  i've seen better behaved creatures at the ZOO.  Now, for my suggestion.
+
+I reckon, if we (the We-Hate-Shabhaz-Gruop, and i'm sure it's oigng to be HUGE) all put in a couple of quid, we should have enough to hire a helicopter.  We hover over the BB hosue in it, and when SHabhaz comes into the garden, we SHOOT him with a rifle.  Not a pussy air-rifle, but a proper heavy duty one like you'd use to kill a rhino or some other more intelligent beast.
+
+Who's with me?!"
+"eventtime","2006-05-22 23:31:00"
+"url","http://max-wellingham.livejournal.com/26178.html"
+"userid","9756"
+"itemid","99"
+"event","Wow!  Once again, pointless web browsing has prompted me to post ramblinbs.  But fab ones!
+
+http://www.familyfriendlychurches.org.uk/midihymns/HP352.MID
+
+See if you can pick out the well known, seasoonal (although it's out of season atm,) hymn tune.  These are backing tracks for people to use in church.  Now i hate ""happy clappy"" hymns, and music groups drive me insane (i think it's the mix of 3 8 year old violinists, the old lady at the piano, the flute player, the little boy on the drum kit sounding over everybody else, the sunday shcool with their tambourines, etc.) But THIS, traditional hymns done liek this?  I love it!  mind you, i have a hting for heavy electronica (my CD collection of things like erasure, client, pet shop boys says it all really)
+
+http://www.familyfriendlychurches.org.uk/midihymns/HP452.MID
+http://www.familyfriendlychurches.org.uk/midihymns/HP528.MID
+http://www.familyfriendlychurches.org.uk/midihymns/HP409.MID
+
+
+Blessed assurance sounds decidedly parisienne.  And there's this yapping dog sample they keep using (i think it's part of percussion set, supposed to sound like deck scratching or whatever it is they call it).
+
+And i'll leave you with this, i just liked the name of the tune: http://www.familyfriendlychurches.org.uk/midihymns/HP722.MID - ARMAGEDDON
+
+I can't remember what the tunes are now, but i know one of them was aberystwyth, one was great is we plough the fields, and i can't remember the third!  But anyway!  Enjoy.  this is what hymns should be like!"
+"eventtime","2006-05-16 17:38:00"
+"url","http://max-wellingham.livejournal.com/25500.html"
+"userid","9756"
+"itemid","95"
+"event","I have just had the most amusing hour Ever.  Slightly sad, I know, but.  I found a website on Baragami (the welsh art of toast arranging, http://www.messybeast.com/baragami/baragami.htm)
+
+The toast arranging is silly, but there's some interesting suggestions, including a man who did mosaics (good photo of Dame Edna depicted forever in burnt toast), and the notion of a toasteddfod (get it, eisteddfod?  nope just me that was both amused and intrigued).
+
+On this site, i found one to http://www.poppadom.org.uk/, which stands for People Out Practising Paperfolding And Dining On Masala.  Including some AWFUL (yet strangely amusing) renames of our favourite songs: Poppadom Preach (Madonna, Korma Chameleon (Culture Club), Poppas got a brand now Saag (James Brown), You Can't Curry Love (Supremes), It's My Chapati and I Cry If I Want To (Dave Stewart and Barbara Gaskin), Dansak on the Ceiling (Lionel Richie), We Are Jalfrezi (Sister Sledge).  I could go on, but I feel you might throw things at me.  Pun(jab) central, i thought.  I'll leave you with some ABBA: Tikka chance on me, Wateralloo / Vindallo, Dansak Queen, The winner takes a dahl, Chicken Tikka (you and I know).
+
+http://www.nickrobinson.info/clients/poppadom/queen.htm are some alternative lyrics to a well known Queen song: I See a Little Chicken Tikka on the Side; Rogan Josh, Rogan Josh, Pass the Chutney Made of Mango; Vindaloo Does Nicely - Very Very Spicy - see if you can guess the song!!!
+
+Basically, lots of laughter to be had.  If anybody comes up with anythign to match, share it!!!
+
+ANd before I leave you, YES!  I do have too much time on my hands :P"
+"eventtime","2006-05-14 16:31:00"
+"url","http://max-wellingham.livejournal.com/24433.html"
+"userid","9756"
+"itemid","91"
+"event","Zm9yIHRob3NlIG9mIHlvdSBub3QgaW4gdGhlIGtub3csIG5vdCByZWFkaW5nIHlvdXIgd2Vla2x5IGVtYWlscywgb3IgdGhvc2UgdGhhdCBkb24ndCBnZXQgdGhlbSEhIQ0KDQpUb25pZ2h0L0hlbm8gKGknbSB0eWlybmcgd2l0aCB0aGUgd2Vsc2gpDQo4cG0gOHlyDQoNCkVsaXphYmV0aGFuIE1hZHJpZ2FsIFNpbmdlcnMgLSBDYW50b3Jpb24gTWFkcmlnYWwgRWxpc2FiZXRoYWlkZA0KDQpDb25jZXJ0IGluIHRoZSBDb29wcyAtIEN5bmdlcmRkIHluIHkgQ3dwcw0KDQpXb3JsZCBGb2xrISAtIEd3ZXJpbiBCeWRvbCENCg0KKGkgZ2l2ZSB1cCBub3cpDQoNCkJhc2ljYWxseSwgaHRpcyBpcyB0aGUgbGFzdCBjaGFuY2UgdG8gaGVhciB0aGUgTUFEUyB0aGlzIGFjYWRlbWljIHllYXIsIGJlZm9yZSB0aGV5IGJ1Z2dlciBvZmYgZm9yIGEgc3VtbWVyIGhvbGlkYXkgKG9vcHMsIGkgbWVhbiB0b3VyKSBpbiBJY2VsYW5kIG5leHQgbW9udGguICBDb21lIGFuZCBzaG93IHlvdXIgc3VwcG9ydCBmb3IgbG9jYWwgbXVzaWMhICBoZWFyIHRoZSBzb3VuZHMgb2YgSWNlbGFuZCwgSHVuZ2FyeSwgUHJhZ3VlLCBBbWVyaWNhLCBhbGwgcGFydHMgb2YgRW5nbGFuZCwgV2FsZXMsIGFuZCBhIGZldyBvdGhlciBjb3VudHJpZXMgYXMgd2VsbC4gIFNvbWUgbGlnaHQgaGVhcnRlZCBsYXVnaGV0ZXIgc3R1ZmYgYXMgd2VsbDsgaW5jbHVkaW5nIG91ciB0cmFkZW1hcmsgVGVxdWlsYSBTYW1iYS4NCg0KWW91IGNhbiBhbHNvIGxhdWdoIGF0IHRoZSBwcmVzaWRlbnQncyBhcHBhbGxpbmcgYXJyYW5nZW1lbnQgb2YgImNyYXp5LCIgYW5kIGxhdWdoIGFzIGhlIGF0dGVtcHRzIHRvIHByZXRlbmQgdGhhdCBoZSBDQU4gc2luZyBhdCBzb3ByYW5vIHJlZ2lzdGVyISAgQU55d2F5LCA4UE0gdG9uaWdodCwgY3dwcywgwqMyIGFkbWlzc2lvbnQgaHJvdWdoIHJhZmZsZSwgYW5kIGlmeSBvdSdyZSBmZWVsaW5nIFZFUlkgZ2VuZXJvdXMsIHlvdSBjYW4gYnV5IGEgY29weSBvZiBvdXIgQ0QgYXMgd2VsbCAowqM4LCB3ZWxsIHdvcnRoIGl0KS4NCg0KU2VlIHlvdSBhbGwgdGhlcmUhICANCg0KeHh4"
+"eventtime","2006-05-11 18:15:00"
+"url","http://max-wellingham.livejournal.com/23551.html"
+"userid","9756"
+"itemid","89"
+"event","Thought i'd just give a brief update on the cigarettes (or rather the lack of).  We're nearly 2 weeks in now (i'm not counting the two pointless days on gum).  And we're doing quite well!  the only timne i've smoked is if i've been out to the pub, and even then it's been one.  More often than not, i don't smoke at all!  i just sit and play with something , like keys (withjout sending them to swansea).
+
+Next week we start the downstepping; only 10mg - fingers crossed it works out OK!"
+"eventtime","2006-05-11 15:25:00"
+"url","http://max-wellingham.livejournal.com/23032.html"
+"userid","9756"
+"itemid","47"
+"event","I was told to update thi by Hayey, so i figured i should  But there's nothing worth sharing really!!! So i'll just amble on for a bit while wtching Dr. Who and waiting for mark to decide what take-away to eat."
+"eventtime","2006-01-15 19:58:00"
+"url","http://max-wellingham.livejournal.com/12286.html"
+"userid","9756"
+"itemid","46"
+"event","Sadness!  Dave called me a comp-sci student!  i feel insulted!"
+"eventtime","2005-10-27 13:07:00"
+"url","http://max-wellingham.livejournal.com/11810.html"
+"userid","9756"
+"itemid","45"
+"event","my PDA is dying:(  my 2 year old Palm T2 :(  I need a new pda - i like the DEll Axim X50 - but i'd be interested in looking at the iPaq range...  anybody with knowledge of it, shout!
+
+I want integrated WiFi and Bluetooth, poss IrDA, would like MMC/SD expansion, windows OS, as much freebies as possible, as lowest price, with a good battery life, and relatively good multi-media capacity!  Any thoughts, peoples???
+
+Time to go snuggle with the tigger movie - i'm such a poofter!"
+"eventtime","2005-10-22 23:02:00"
+"url","http://max-wellingham.livejournal.com/11634.html"
+"userid","9756"
+"itemid","44"
+"event","argh!  Must get me one of those job things"
+"eventtime","2005-10-22 14:19:00"
+"url","http://max-wellingham.livejournal.com/11360.html"
+"userid","9756"
+"itemid","43"
+"event","<P><STRONG>OMG!&nbsp; </STRONG>I have to go to a fancy dress party as another member of the choir.&nbsp; AND it's likely to be one of the females..&nbsp; this could be expensive !&nbsp; mine you, Alice just threw me half her clothes, so i might borrow half of hers!&nbsp; Ther'es NO way i'm wearing a miniskirt though :S</P>
+<P>tidying up day today - tryign to get my life organised!</P>
+<P>&nbsp;</P>
+<P>Thought I might as well do this, it looked like a li'l fun!</P>
+<P><STRONG>I've consumed alcohol</STRONG>.<BR>I've run away from home.<BR>I collect comic books.<BR>I shut others out when I'm depressed. <BR><STRONG>I open up to others easily.<BR>I am keeping a secret from the world.<BR>I watch the news.</STRONG> <BR>I own over 5 rap CDs.<BR><STRONG>I own an iPod or MP3,MP3 cd player.<BR></STRONG>I own something from Hot Topic.<BR><STRONG>I love Disney Movies.<BR>I am a sucker for hair/eyes.</STRONG><BR>I don't kill bugs.<BR><STRONG>I curse regularly.<BR></STRONG>I paid for that cell phone ring.<BR>I am a sports fanatic.<BR>I have ""x""s in my screen name.<BR>I've slipped out an ""lol"" in a real conversation.<BR>I love Spam.<BR><STRONG>I cook well</STRONG>.<BR>I would wear pajamas to school<BR>I own something from Abercrombie.<BR>I have a job<BR>I love Martha Stewart. <BR><STRONG>I am in love.<BR></STRONG>I am guilty of tYpInG lIkE tHiS.<BR><STRONG>I am self conscious.<BR>I like to laugh.<BR>I smoke a pack a day.<BR></STRONG>I loved Perks of Being a Wallflower.<BR>I loved Go Ask Alice.<BR>I have cough drops when I'm not sick.<BR>I can't swallow pills.<BR><STRONG>I can swallow about 5 pills at a time no problem.<BR></STRONG>I eat fast food weekly guilty.<BR>I have many scars.<BR><STRONG>I've been out of this country.<BR>I believe in ghosts.<BR>I can't sleep if there is a spider in the room.<BR>I am really ticklish.<BR>I love white chocolate.<BR></STRONG>I bite my nails.<BR>I am comfortable with being me.<BR>I play video games.<BR>I'm single.<BR><STRONG>I'm in a relationship.<BR>I've gotten lost in my own city.<BR>I've seen a shooting star.<BR></STRONG>Been to any other countries besides the united states. <BR>I had a serious surgery.<BR><STRONG>Gone out in public in your pajamas</STRONG></P>
+<P><STRONG>Hugged a stranger</STRONG>.<BR>Been in a fist fight.<BR>Been arrested.<BR>Pushed all the buttons on an elevator.<BR><STRONG>Swore at your parents.<BR>Kicked a guy where it hurts. (week in wales 2 years ago, the boy had called me a raving homo for 3 weeks, shortly after coming out.&nbsp; he spent 15 minutes rolling on the floor!)<BR></STRONG>Been to a casino.<BR>Been skydiving.<BR><STRONG>Broken a bone.<BR>Skipped school.<BR>Flashed someone.<BR>Saw a therapist.<BR></STRONG>Done a split.<BR><STRONG>Played spin the bottle.<BR>Gotten stitches.<BR></STRONG>Drank a whole gallon of milk in one hour.<BR><STRONG>Bitten someone.<BR></STRONG>Been to Niagara Falls.<BR><STRONG>Gotten the chicken pox. <BR></STRONG>Kissed a member of the same sex.<BR>Crashed into a friend's car.<BR>Been to Japan.<BR><STRONG>Ridden in a taxi</STRONG>.<BR>Shoplifted.<BR>Been fired.<BR>Stole something from your job. (well, not steal, more like ""put in apron pocket and forgot about it"")<BR>Gone on a blind date.<BR><STRONG>Had a crush on a teacher.<BR></STRONG>Celebrated mardigras in New Orleans.<BR><STRONG>Been to Europe.<BR></STRONG>Slept with a co-worker.<BR>Been married.<BR>Gotten divorced.<BR>Had children<BR>Saw someone dying.<BR>Been to Africa.<BR>Driven over 400 miles in one day. <BR>Been to Canada.<BR>Been to Mexico.<BR>Been on a plane.<BR><STRONG>Seen the Rocky Horror Picture Show</STRONG>.<BR>Thrown up in a bar.<BR>Eaten Sushi.<BR>Been snowboarding.<BR>Been Skiing.<BR><STRONG>Met someone in person from the internet. (too many!)</STRONG><BR>Been to a motocross show.<BR>Lost a child.<BR><STRONG>Gone to college. (A-Levs?)<BR>Graduated college. (if we're still taking about A-levels!)</STRONG><BR>Done hard drugs.<BR><STRONG>Taken painkillers</STRONG>. <BR>Given a lapdance.<BR><STRONG>Had someone cheat on you</STRONG>.<BR>Miss someone right now.<BR><STRONG>Gone 24 hours without sleep<BR>Watched foreign films... without subtitles.<BR>Hugged a tree recently<BR></STRONG>Stolen something off a drunk person (The hat...and I am proud)</P>"
+"eventtime","2005-10-21 12:43:00"
+"url","http://max-wellingham.livejournal.com/11116.html"
+"userid","9756"
+"itemid","42"
+"event","<table width=350 align=center border=0 cellspacing=0 cellpadding=2><tr><td bgcolor=""#FFDAB9"" align=center><font face=""Georgia, Times New Roman, Times, serif"" style='color:black; font-size: 14pt;'><b>You Are a Bad Girl</b></font></td></tr><tr><td bgcolor=""#FFE7D2""><center><img src=""http://images.yournewromance.com/areyouagoodgirlorabadgirlquiz/bad-girl.jpg"" height=""100"" width=""100""></center><font color=""#000000"">
+You are 30% Good and 70% Bad
+You're a total bad girl, from your wild hair to tattooed toes.
+But you're too badass to even care if you're labeled ""bad""!</font></td></tr></table><div align=""center""><a href=""http://ynr.blogthings.com/areyouagoodgirlorabadgirlquiz/"">Are You a Good Girl or a Bad Girl?</a></div>"
+"eventtime","2005-10-20 13:32:00"
+"url","http://max-wellingham.livejournal.com/10848.html"
+"userid","9756"
+"itemid","41"
+"event","well...  Joe finally got his way, i went to one of his poofter gatherings...  and had an OK time...  i think he was a bit inconsiderate when he chose Wednesday to be poof night; Thursday mornigns are my ONLY 9:00 lectures!  Bastard!  ANd it's a heavy goign subject!  *sigh*
+
+Somehow i mnaaged to get there though...  got home from Bournemouth yesterday afternoon; feels strange to be back in Wales, but nice as well...  fucking nackered now though!  Bournemouth was fun; didnt' do much - entertained the gays, had lots of sex, dosed mark with hot milk and lemsip (not together), and he's feeling marginally better now!  I want someboy to fuss over me when i feel ill :(
+
+finally eating a breakfast of pizza baguette things from co-op = i've just realised how much i HATE Daddie's ketchup."
+"eventtime","2005-10-20 10:57:00"
+"url","http://max-wellingham.livejournal.com/10574.html"
+"userid","9756"
+"itemid","40"
+"event","been a few days since i updated this !!!  i've been in Kent wityh mark, doing manly things!  WE went out shooting, and we found rabbits...  woudl have been better if we hadn't haev spent 3 hours walking around fields at half past 3 in the morning!  We also went out and attacked pheasents with shotguns, which was good fun :) 
+
+missed my train home because mark was feeling too ill to get out ofbed and take me to the station,k so i'm styaing at our home in bournemouth until wednesday, when i'll be coming home probably from Basingstoke
+
+i'm currently in horror as i've suddely reaslied how much like Hyacinth Bucket i am...  and even people are agreeing with me...  i think it's bad!!!!!!!!
+
+Any commentswould be welcomed!"
+"eventtime","2005-10-17 22:58:00"
+"url","http://max-wellingham.livejournal.com/10300.html"
+"userid","9756"
+"itemid","39"
+"event","ii dont' like this place anymore!  They dragged me out of bed this morning at 6:00 for a fucking fire drill!  Grr!  Thus its now 10:00 and i've been up for 5 and a half hours already...  leaving in 3/4s of an hour to catch my train!!!
+
+ABBA are fab aren't they?"
+"eventtime","2005-10-14 09:54:00"
+"url","http://max-wellingham.livejournal.com/10192.html"
+"userid","9756"
+"itemid","38"
+"event","I was thinking the other day, why is it that NOBODY dares to make cup-a-soup in a bowl?  And if you heat tinned soup (as i have just done), and attempt to drink it from a mug, ti's just WEIRD!  Maybe i'm just a crack-pot!  
+
+Missing my Mark no longer; in 24 hours i will be on the tube travelling between Euston and London BRidge, en-route to Ashford Int!!!
+
+lecture this afternoon, pooey!  Been too ill to go to them recently, but i feel up to it now!  I hate being ill :(
+
+Started packing for weekend in Dymchurch today, suitcase feels scarily light - i'm SURE i've forgotten something i normally put in it (it could be the 3 perfumes and the 4 pairs of shoes and 3 belts i removed after the lid didn't shut).
+
+I HATE Rosser windows, i've decided!  The sun is shinign and it's a fucking beautiful day, but because of the manky windows i can't have the iwndow open properly and enjoy the fresh air :(  and it's too nippy to sit out in it, not to mention the wet grass!"
+"eventtime","2005-10-13 12:58:00"
+"url","http://max-wellingham.livejournal.com/9784.html"
+"userid","9756"
+"itemid","37"
+"event","Don't you love the crap you get emailed?  I opened my blueyonder email today, to find 3 emails telling me I could save 70% on herbal penis enlargement, guaranteed to aid in the growth of another 4 inches, and double my girth...  Sounds intruiging!!!  (and OHH such bullshit!)
+
+In other news, we had ""bonding"" with the mads last ingiht...  basically lots of alcohol in varoius pubs...  Dave's friend Susan spent the evening trying very hard (and failing) to convince me to go to indiesoc; instead I tried to get my head around Welsh vowels and numerals...  I failed!"
+"eventtime","2005-10-11 16:07:00"
+"url","http://max-wellingham.livejournal.com/9492.html"
+"userid","9756"
+"itemid","36"
+"event","i HATE benylin :(
+
+but i love custard :D
+
+just had a thoguht; why do htye call them apartments when they're all stuck together???"
+"eventtime","2005-10-09 17:01:00"
+"url","http://max-wellingham.livejournal.com/9410.html"
+"userid","9756"
+"itemid","35"
+"event","where has my voice gone?  ALl I can make in terms of noise is this cughing sound!  Oh - and my thorat isn't very healthy either :) lots of strepsils and benilyn...  :("
+"eventtime","2005-10-09 12:28:00"
+"url","http://max-wellingham.livejournal.com/9009.html"
+"userid","9756"
+"itemid","34"
+"event","aHR0cDovL3VrLm5ld3MueWFob28uY29tLzA1MTAyMDA1LzMyMy9kb3VibGUtbC1wbGVhc2Utd2Vsc2gtc2NvcmUtYmlnLXNjcmFiYmxlLmh0bWwNCg0KaXQgbWFkZSBtZSBzbWlsZSBhbnl3YXkhISEgIEFub3RoZXIgbGF6eSBkYXkgb2YgYm9yZWRvbSB0b2RheSEgIE1hcmsgZWFybnQgwqM1MCBpbiBhIGJvb3RmYWlyIHRoaXMgbW9ybmluZy4uLiAgbm90IGFzIGdvb2QgYXMgbGFzdCB3ZWVrcyDCozk5LCBidXQgYXQgbGVhc3QgaGUgd29uJ3QgZG8gYW55dGhpbmcgc2lsbHkgbGlrZSB1c2UgaXQgYXMgZGVwb3NpdCBmb3IgbmV3IGxhcHRvcHMsIA0KDQpnb3QgdXAgYXQgMTAgdG8gMTIsIGkgc2VlbSB0byBiZSB0dXJuaWduIG5vY3R1cm5hbCE="
+"eventtime","2005-10-08 12:43:00"
+"url","http://max-wellingham.livejournal.com/8763.html"
+"userid","9756"
+"itemid","33"
+"event","I love you Mark!  I miss you!"
+"eventtime","2005-10-07 13:52:00"
+"url","http://max-wellingham.livejournal.com/8475.html"
+"userid","9756"
+"itemid","32"
+"event","Well yes...  everyone else does it - wish I hadn't now!!!
+Max Needs...
+1. A friend
+2. New York Life
+3. Subway
+4. Old Kilts
+5. Help
+6. A 230A MOTOR PROTECTOR 3 PHASE 600VAC 
+7. St. Louis' New Rock Alternative
+8. A newspaper???
+9. Fundraising (finally one that makes sense!)
+10. To Cool Off...
+
+In other news, i slept throught ill half twelve!"
+"eventtime","2005-10-07 13:42:00"
+"url","http://max-wellingham.livejournal.com/8291.html"
+"userid","9756"
+"itemid","31"
+"event","Rmlyc3QgbWFkcyBwcmFjdGljZSBkb25lLi4uICBncmVhdCBmdW4hICBUaGVyZSdzIHNvbWUgcmVhbGx5IGN1dGUgdGVub3JzIGluIHRoZSBjaG9pciB0b28uLi4gICpkcm9vbHMqICBpIGZvdW5kIG15c2VsZiBzdHJ1Z2dsaW5nIHRvIGtlZXAgbXkgZXllcyBvbiB0aGUgbXVzaWMhISEgIA0KDQpQcm92aW5nIHRvIGJlIGJsb29keSBjb3N0bHkgdGhvdWdoIDooICBUaGV5IHdhbnQgwqM1IGFzIG1lbWJlcnNoaXAgwqMxMiBmb3IgYm9va3MgwqM0NSBmb3IgYSB3ZWVrZW5kIGF3YXkgd2Vla2VuZCBhZnRlciBuZXh0LCBhbmQgR09kIGtub3dzIGhvdyBtdWNoIGZvciB0aGVpciB0cmlwIHRvIEljZWxhbmQgaW4gdGhlIHN1bW1lci4uLiAgbm90IHN1cmUgaG93IGknbSBnb2lnbiB0byBhZmZvcmQgdGhhdCwgY2FuIGkgYnJvcndvIHNvbWVvbmUncyBvdmVyZHJhZnQ/DQoNCkknbSBub3cgbmFja2VyZWQgYXMgSSB3YWxrZWQgVVAgaHRlIGhpbGwsIHdpdGggbXkgc2hvcHBpbmcsIG15IGxhcmdlIGJhZyBvZiBtdXNpYyBib29rcyAoaSB3YXMgcHJhY3RpY2luZyB0aGUgb3JnYW4gaW4gU3QuIE1pa2VzIGJlZm9yZSBoYW5kKSwgYW5kIGknZCBiZWVuIHdvbmRlcmluZyBhYm91dCB0b3duIGZvciAyIGh1cnMgYmVmb3JlIGhhbmQgKHNvcnJ5IGkgd29rZSB1cCB5b3UgdXAgaGF5bGVzISkNCg0KSSBqdXN0IGRvd25sb2FkZWQgdGhlIGJlc3QgcmVjb3JkaW5nIG9mIEJlZXRob3ZlbidzIG1vb25saWdodCBzb25hdGEgaW4gdGhlIHdvcmxkOyBpdCdzIHN1bmcgZW50aXJlbHkuLi4gIG5vICJpbnN0cnVtZW50cyIgYXQgYWxsLCBqdXN0IHZvaWNlLiAgTWFrZXMgaXQgUkVBTExZIGhhdW50aW5nISAgSSBhbSBpbiBwYWluIDooICBzb21lYm9keSBjb21lIGFuZCBydWIgbXkgYmFjayENCg0KQmVkIG5vdyBtZSB0aGlua3MsIHVubGVzcyBhbnlvbmUgd25hdHMgdG8gY29tZSBhbmQgam9pbiBtZT8="
+"eventtime","2005-10-06 22:56:00"
+"current_moodid","75"
+"url","http://max-wellingham.livejournal.com/7988.html"
+"userid","9756"
+"itemid","30"
+"event","Going to sleep now!  got to get up at 7 tomorrow, which will NOT be fun!  Maybe if I get REALLY bored i'll fix the alarm clock on my phone...  and have an alarm ready to enable - one for every hour of the morning...  or i coudl get a life, but I like the sound of the former!!!  Might have one last fag before I sleep!
+
+I hate the reception in this room!!!!!!!!!!!!  It's so fucking temperamental!!!
+
+I've also noticed i swear a lot; maybe i'll try not to *thnks* new year's resolution to be, perhaps...  i don't know!"
+"eventtime","2005-10-05 22:32:00"
+"url","http://max-wellingham.livejournal.com/7701.html"
+"userid","9756"
+"itemid","29"
+"event","Fucking hell!  I hate aber laundrettes, i've decided!  I miss my automatic 1600 spin machine :(
+
+Is it bad that in 10 days i created enough washing to fill 2 machines???"
+"eventtime","2005-10-05 16:10:00"
+"url","http://max-wellingham.livejournal.com/7530.html"
+"userid","9756"
+"itemid","28"
+"event","Woo!  Emails just arrived from the mads...  i passed my audition! :D"
+"eventtime","2005-10-05 14:21:00"
+"current_moodid","15"
+"url","http://max-wellingham.livejournal.com/7201.html"
+"userid","9756"
+"itemid","27"
+"event","http://www.geoffellis.com/storewars.html
+
+rofl Darth Tator and Prinmcess Lettuce!"
+"eventtime","2005-10-05 13:20:00"
+"url","http://max-wellingham.livejournal.com/7040.html"
+"userid","9756"
+"itemid","26"
+"event","Woo!  I have a sink that drains properly!"
+"eventtime","2005-10-04 15:22:00"
+"url","http://max-wellingham.livejournal.com/6841.html"
+"userid","9756"
+"itemid","25"
+"event","i have NOT been able to get abba out of my head today!!!
+
+nina, pretty ballerina, now she is the queen of the dancing floor, this is the moment she's waited for, just liek cinderella...    nina, pretty ballerina, who'd ever thinks eh coudl be this way, this is the part that she lieks to paly, but she knows the fun woudl go away if she would play it every day  
+
+how fucking sad am i???
+
+or should i say  gay...  i don't know..."
+"eventtime","2005-10-03 22:39:00"
+"url","http://max-wellingham.livejournal.com/6464.html"
+"userid","9756"
+"itemid","24"
+"event","Still no loan..."
+"eventtime","2005-10-03 12:10:00"
+"url","http://max-wellingham.livejournal.com/6256.html"
+"userid","9756"
+"itemid","23"
+"event","V2VudCB0byBNb3JyaXNvbnMgdG9kYXkgd2l0aCBDbGFpcmUgSGF5bGV5IERhdmUgYW5kIEpvZS4uLiAgaGFkIGZ1biwgZXZlbiBpZiB0aGUgYmFzdGFyZCBjbGVyayBkZWNpZGVkIHRvIGRlY2xpbmUgbXkgd2VsbCBmdW5kZWQgYmFuayBjYXJkIChPSyBzbyBpdCdzIG9ubHkgZ290IMKjNiBvbiBpdCwgYnV0IHRoYXQncyBtb3JlIHRoYW4gaSBuZWVkZWQgZm9yIG15IHNob3BwaW5nISAgVGhlbiB3ZSBoYWQgTWNEb25hbGRzIGZvciBsdW5jaCwgYmVjYXVzZSB3ZSdyZSBjYWxzc3khDQoNCkFsaWNlIGFjcm9zcyB0aGUgaGFsbCBpcyBjb29raW5nIHBhbmNha2VzIGZvciBkaW5uZXIuLi4gIHl1bW15ISEhICBBcHBhcmFudGx5IHRoZXkncmUgbW9yZSBsaWtlIHJ1YmJlciBkaXNjcyB0aG91Z2ghDQoNCkNsYXJhIG5leHQgZG9vciBoYXMgZ290IGhlciBib3lmcmllbmQgb3ZlciBhZ2FpbjsgaGUncyBPSywgYnV0IGtlZXBzIGNhbGxpZ24gbWUgQnVkZHkgYW5kIGl0IHJlbWluZHMgbWUgdG9vIG11Y2ggb2YgTWlrZSBNYXloZXIgd2hvIGkgdXNlZCB0byB3b3JrIHdpdGggaW4gYnJpc3RvbDsgaGUgd2FzIHN1cHBvc2VjIHRvIGJlIHRyYW5zZmVycmluZyBvdmVyIHRvIHRoZSBhYmVyIHN0b3JlLCBidXQgbm8gbHVjayB5ZXQhICBMb3ZlbHkgZ3V5IGJ1dCBncnIhDQoNCkknbSBzbG93bHkgY3JhY2tpbmcgdGhyb3VnaCBteSB0aWR5aW5nIHVwIHdoaWxlIGxpc3RlbmlnbiB0byBhbm5pZSBsZW5ub3ggYWxidW1zIGFuZCBzbWVsbGluZyBwYW5jYWtlcy4uLiAganVzdCByZWFsaXNlZCBob3cgZmV3IGZhZ3MgaSd2ZSBoYWQgdG9kYXksIHNvIGkgbWlnaHQgZ28gaGF2ZSBvbmUgaW4gYSBtaW51dGUuLi4gIGhtbSE="
+"eventtime","2005-10-02 19:09:00"
+"url","http://max-wellingham.livejournal.com/6124.html"
+"userid","9756"
+"itemid","22"
+"event","Argh!  Another windy day in aber!  Not so wet today though, which was nice!  Got up late and felt ming for it!  Spent the day watching films and eating pizza with Cai in his house in town; nice building...  not sure about no door handles on the door though!!!
+
+Spent some time sitting on hte prom watchign the sea; the waves are awesom when the wind gets up!!!!!
+
+Just finished Harry Potter and the half blood prince; it's really good but in my opinion they're getting a bit dark and confusing for smaller children, which is shame becuse they used to be fab for younger readers!  The language is also getting a bit - i dunno!  Effing and blinding and calling each other sluts etc!  I think Rowlign has tkaen the teenage puberty growing girlfriends etc thing a bit too heavily!
+
+Anyway - those are my thougths! Time for horlicks and bed...  oh, and anybody knowing of a cobbler in town get in touch!  i need to have a heel mended before i break an ankle!"
+"eventtime","2005-10-01 23:31:00"
+"url","http://max-wellingham.livejournal.com/5806.html"
+"userid","9756"
+"itemid","21"
+"event","Weugh!  (i like my funny noiuses don't I!)
+
+Well, end of first week in Aber.  And yup, it's raining again.  Soggy jeans stick to EVERYTHING!  :S
+
+Just got back from Varsity with the gayers, had a nice natter, listenign to kirtsy maccol songs now and tryign to dry out myself!  I wonder if it's possible to wring out people *thinks*
+
+I think i need caffiene...  by the way , did you know that procrastination is the biggest waste of ti...  no fuck it i'll finish that later.
+
+Where was I?  Oh yes!  Making coffee...  *toodles off*"
+"eventtime","2005-09-30 17:26:00"
+"current_moodid","29"
+"url","http://max-wellingham.livejournal.com/5539.html"
+"userid","9756"
+"itemid","20"
+"event","Hmm...  interesting day!  Did lots of boring stuff!  Changed my library card pic, forgot to get NUS card, signed up with mads and choral union, foundmyself signing up with aberpride (i gues sthey're not taht scary really!)
+
+Once again, it's Wales, and its pissing it down with rain.  Grr!  I just got soaked having a single fag!"
+"eventtime","2005-09-28 18:03:00"
+"current_moodid","84"
+"url","http://max-wellingham.livejournal.com/5222.html"
+"userid","9756"
+"itemid","19"
+"event","Well!  it's a hell of along time since I last wrote in here!  lol So - updates.  I've finished work at morrisons about a month ago, and love being free!
+
+I've also found the best new boyfriend in the world, we've been togehter about 5 and a half months now!  Mark; absoutely wonderful!
+
+I've been at Aber for four days now, which is interesting!  i'm slowly being dragged into the world of Aber Pride, which doesn't seem too scary, but lol registred now for some funky modules with my course, done most of my cards etc, tomorrow i've gotta go and sign up with choir stuffs.
+
+I've started having cravings for pot noodle!!!!!
+
+Gonna go watch atlantis with hannah and katie!
+
+Loving people!  xxx
+
+PS: I'm not cute Joe!"
+"eventtime","2005-09-27 20:59:00"
+"current_moodid","15"
+"url","http://max-wellingham.livejournal.com/4883.html"
+"userid","9756"
+"itemid","18"
+"event","Good god i'ts been a while since I wrote in here!  But then not much has happened!
+
+Met a few blokes, nothing's happened with any of them!  I bought my ex (Simon) lunch, which was nice - went well, although i came across as quite frosty apparnatly).  But never mind.
+
+EXAMS THIS WEEKK - I already flunked economics, lets' see whether i can fuck up in Psychology as well!"
+"eventtime","2005-01-18 17:47:00"
+"url","http://max-wellingham.livejournal.com/4724.html"
+"userid","9756"
+"itemid","17"
+"event","Help I think I just fucked up!  HE'S ASKING WHY i FLIRT WITH HIM - WHAT TO SAY!"
+"eventtime","2004-12-30 14:42:00"
+"url","http://max-wellingham.livejournal.com/4495.html"
+"userid","9756"
+"itemid","16"
+"event","Well it's been a long time since I wrote in here - been a manic few weeks, and although not much has happened, a lot has if that makes any sense!
+
+Christmas was fun, was nice to see friends etc over the holidays, and of course 3 days of rest!!!
+I love Christmas really - my fave bit is the carols...  I guess I'm a bit sad like that!
+
+This year, for nine lessons, I was asked to open the service with the first verse of once in royal as a solo - sooooo nervous - you could see me shaking!  And I was a li'l late on my top E, but WOW!  I think I knocked a few hats off lol (i have a very strong, forceful yet nice voice hwen I try).  Although Laura's gran asked ""was that a boy or a gril?"", because i looked manly yet was wearing 3 inch heels and sing like lesley garrot or julie andrews!!!  I got some really good feedback thuogh :) so all's good...  yes - I like Christmas after a while!
+
+Except for Santa - never liked him!  And then my boss, Mike, the walking rat (evil man), made me DRESS UP as Santa and give out mince pies and talk to children at work - EWW!!!  I was even mistaken for Brad, which is just insulting!  Anywho!
+
+I had a really wierd text-convo with my ex today, we were talking about our breka-up and how it hurt me, and whether i wanted him back; and then he was being sweet and talkinga bout how i'll find someone, who'll be right for me etc.
+
+Actually, there is this one guy I'm really hoping to get to know properly; I work with him (sort of; employed by same company, work in same building), but different departments.  Well anyway, I really fancy him!  cute, quirky, but nice and really easy to get on with!  Don't know mch about him, but like I say, he seems nice!  Fingers crossed for that one I think - have to take him for coffee or something!
+
+Got new year sorted too - going out to dinner with Viv and loads of other church mates - the Boujhon curry house.  Should be great fun!
+
+Right - must go now, probably be another month or so before I update this again!  Only got one more day of freedom to do some college stuff before i have to go back to the li'l rat at Safeway - grr!  At least Rob might be working ;-) (always a good thing!)"
+"eventtime","2004-12-26 22:57:00"
+"current_moodid","63"
+"url","http://max-wellingham.livejournal.com/4154.html"
+"userid","9756"
+"itemid","15"
+"event","I just been in church rehearsing for tomorrow, and i was a li'l unsure as to whether or not i could sing it!!!
+but WOW, i filled the church with the most amazing sound, fab acoustics so a nice gentle reverb, *drools* now if i can sing like that tomorrow, then i'll be well chuffed!!!
+
+(yeh, i know i'm modest too :P)"
+"eventtime","2004-11-16 21:21:00"
+"current_moodid","103"
+"url","http://max-wellingham.livejournal.com/3846.html"
+"userid","9756"
+"itemid","14"
+"event","oh _ my GOD!!!
+I was woken up yesterday morning by Tom (the legendary; hoping he doesn't read this now!!!) asking me to sing ""walking in the air"" for something; half asleep i just said ""yeh sure,"" and wnet back to sleep.  Then it later dawned on me what i'd done, so i found out why...  he wants me to sing for the soundtrack CD for a play he's doing - WOW!!!  so i'm happy about that; although i'm very nervous now that i wont' do it or i'll fuck up or somethign like that :S :S :S"
+"eventtime","2004-11-16 17:07:00"
+"current_moodid","134"
+"url","http://max-wellingham.livejournal.com/3656.html"
+"userid","9756"
+"itemid","13"
+"event","Well; I went out to Chris's 18th last night, and had a fucking BRILLIANT night...  and Yes, I regret it now :P
+nah 'twas cool - laughing chatting drinking smoking dnacing and overtly flirting (it worked too - i pulled!!!)
+*sigh* i've had work and church today, doing them while hungove risn't a good idea!!!  I'm nackered too; but i'm gogni to get lots of sleep tonight!!!"
+"eventtime","2004-11-14 17:53:00"
+"current_moodid","51"
+"url","http://max-wellingham.livejournal.com/3540.html"
+"userid","9756"
+"itemid","12"
+"event","i'm feeling really tired today; but content.  i've had a good day :) got a lot done (still battling with networking comptuers though)
+i'm having my hair done soon which will be nice :D just got to wait for Kate to come back from work!
+
+i'm feeling ""ok"" with the tom thing too; which is good for me!!!
+
+Way too busy with other work though :( :( :("
+"eventtime","2004-11-10 21:35:00"
+"current_moodid","64"
+"url","http://max-wellingham.livejournal.com/3280.html"
+"userid","9756"
+"itemid","11"
+"event","<P>OK , well i spoke to tom yesterday which was a BIG mistake!!!&nbsp; while he was lovely, i didn't get what i want!</P>
+<P>HE asked me what I was looking for from him, and I explained about how i'm looking for a special someone who i can snuggle up with, spend time with, care for, love, make them feel better then they feel low, make them feel wanted, and how I want somebody special to do the same for me.&nbsp; I then added that I thought I wntaed that person to be him.</P>
+<P>And he explaiend that he looks for friends, and when he's found his perfect frined then that's it!&nbsp; And that exclusivity wasn't an optino for him at the moment.&nbsp; However that he still wanted to be friends, and htat he didn't know what the future held.&nbsp; He then kindly warned me not to wait around on his part, because i might miss somebody for me!</P>
+<P>THEN he introduced person X, who he can't stop thinking about (person X is already taken and there's nothin between them).&nbsp; I was midly upset by this, as I can't get Tom out of my head, and i'm not in his at all :(</P>
+<P>So basically, he didn't say yes.&nbsp; he didn't say no.&nbsp; he jsut said not now, but i've learnt it's the same as when people say ""we'll see.""&nbsp; they're syaing ""no"" without actually saying it!!!</P>
+<P>So i'm quite pissed off with myself at the moment, becuase i've done it again!&nbsp; I always do it; fall for people that odn't reciprocate my feelings.&nbsp; On the other hand, he did lead me on!&nbsp; He apologised for it; i mean you don't generally kiss somebody unless you like htem, and he did kiss me goodnight the other week, and has led me on for a week.&nbsp; But never mind; i'll get over it, AGAIN...</P>
+<P>Had a good day today, college from9 till 5 so i'm a bit tired, but i had a good ICT lesson flirting with Adam ;-)&nbsp; (i AM an angel really; can't you see the halo??? Actually you're right; it's only there because it's hooked onto my horns!!!)</P>
+<P>*sigh*</P>"
+"eventtime","2004-11-09 22:41:00"
+"url","http://max-wellingham.livejournal.com/2940.html"
+"userid","9756"
+"itemid","9"
+"event","Just had a wierd hour!
+Kate came over and we chatted lots about Tom, which was kewl - she's very jealous!!!
+Then I got bored of doing homework, so went online and got chatting to my ex, Simon; which was wierd...  he's all going out with this other guy now, which = hurts me a little that he doesn't seem to think twice abotu what WE had.  BUt i guess that WAS 6 months ago...  I mean I still think about it with Tom, but it's OK because Simon's Simon...  I'm goign to shut up now!
+Anybody feel like doing my ERD for me???  The wonders of 2nd year A-level ICT!!!"
+"eventtime","2004-11-04 22:28:00"
+"current_moodid","31"
+"url","http://max-wellingham.livejournal.com/2385.html"
+"userid","9756"
+"itemid","8"
+"event","Ow.  My head hurts.  Itt's all this work I'm supposed to do but can't be bothered to."
+"eventtime","2004-11-04 16:50:00"
+"current_moodid","57"
+"url","http://max-wellingham.livejournal.com/2068.html"
+"userid","9756"
+"itemid","7"
+"event","Well; today's been one of those weird days that we all have!  It's been really wintery and - i don't like it when it's like this!  Cold but sunny - it doesn't tie up!!!
+Went to college again today, but don't think I learnt anything; i haven't been able to concentrate on anything much - I seem to have lost momentum for everything but life - which is wrong I tell you!!! I need to do the whole college thign beffore i can have a life, but it's nto happenning.  What to do!!!"
+"eventtime","2004-11-04 14:54:00"
+"current_moodid","61"
+"url","http://max-wellingham.livejournal.com/1797.html"
+"userid","9756"
+"itemid","6"
+"event","I always get pressed to update this; and I really don't get why I have to do it every day!!!  nothing happened today anyway, not that people want to read about!  I mean; who CARES that I steamed my face, did my hair, nails and went to college and then work???  THat's TOTALLY my point!!!
+
+Thus endeth the rant!"
+"eventtime","2004-11-03 21:14:00"
+"current_moodid","68"
+"url","http://max-wellingham.livejournal.com/1725.html"
+"userid","9756"

@@ -1,0 +1,1461 @@
+"names","values"
+"itemid","49"
+"event","WWVhaCBzbyBJJ3ZlIHRvdGFsbHkgc3dpdGNoZWQgdG8gbXkgb3RoZXIgbGl2ZWpvdXJuYWwsIGluIGNhc2Ugc29tZW9uZSBoYXNuJ3Qgbm90aWNlZCB0aGUgc3VkZGVuIGRlcGFydHVyZS4NCg0KUGVyaGFwcyBJIHJlYWxseSBzaG91bGQgZnJpZW5kIHByb3RlY3QgKG9yIGdvZCwganVzdCBtYWtlIHByaXZhdGUpIHRoaXMgd2hvbGUgam91cm5hbC4gT3IgbW9zdCBvZiBpdC4gQSBtYWpvcml0eSBvZiBpdCBtYWtlcyBtZSBjcmluZ2UgbGlrZSBpdCBkb2VzIHdoZW4geW91IGdvIHRocm91Z2ggb2xkIGRpYXJpZXMgZnJvbSB3aGVuIHlvdSB3ZXJlIG9oLXNvLXlvdW5nLiAgU3VjaCBzaWxsaW5lc3MhIFdlIGFsbCB3YW50IHRvIHRoaW5rIHRoYXQgb3VyIHlvdW5nZXIgc2VsdmVzIHdlcmUgc28gbXVjaCB3aXNlciwgc28gbXVjaCBsZXNzIHNoYWxsb3csIHNvIG11Y2ggbGVzcyBib3kgY3JhenksIHNvIG11Y2ggbW9yZSB0aGFuIHdoYXQgdGhleSByZWFsbHkgd2VyZS4NCg0KQnV0IG5vLiBJLCBsaWtlIGV2ZXJ5b25lIGVsc2UsIHdhcyBhIGxvbmVseSwgY29uZnVzZWQsIGNvbmZsaWN0ZWQsIGVtYmF0dGxlZCB0ZWVuIHdpdGggYSByaWRpY3Vsb3VzIGludGFrZSBvZiBzdWdhciwgYW4gaW5hYmlsaXR5IHRvIHNwZWxsIGFuZCBhbiBvY2Nhc2lvbmFsIGRldGFjaG1lbnQgZnJvbSByZWFsaXR5LiBJbiBhIHdheSwgbXkgbGFjayBvZiBpbmhpYml0aW9uLSBnb29kIGdvZCwgSSB3YXMgbWFkbHkgY3J1c2hpbmcgb24gYSBndXkgSSBiYXJlbHkga25ldyBmb3IgaG93IGxvbmctIG1ha2VzIG1lIHZlcnkgbXVjaCB3YW50IHRvIG1ha2UgZXhjdXNlcyBmb3IgbXlzZWxmLiBJIHdhcyB5b3VuZy4gSSB3YXMgc2lsbHkuIEkgaGFkIGEgaGVsbGlzaCBob21lIGxpZmUgdGhhdCBJIGhhZG4ndCB5ZXQgZmlndXJlZCBvdXQgaG93IHRvIGNvcGUgd2l0aCwgcGVvcGxlIEkgZGVwZW5kZWQgb24gd2hvIGRpc2FwcGVhcmVkLCBhbmQgYSBzdXByZW1lIG5haXZldGUgKGRhbW5lZCBpZiBJIGtub3cgd2hlcmUgdGhlIHVtbGF1dCBnb2VzKSBhbmQgc2Vuc2Ugb2YgaG9wZSB0aGF0IG1ha2VzIG1lIHdhbnQgdG8gY3JpbmdlIGFuZCBtYWtlcyBtZSB3YW50IHRvIGhvbGQgb24gdG8gYXQgdGhlIHNhbWUgdGltZS4NCg0KQXQgdGhlIHNhbWUgdGltZSwgdGhvdWdoLCB0aGUgZmFjdCBpcyBpcyB0aGF0IGFueW9uZSB3aG8ganVkZ2VzIG1lIHNvbGVseSBvbiB0aGlzIGpvdXJuYWwgb3IgdGhlIHdvcmRzIEkgd3JvdGUgb2ggc28gbG9uZyBhZ28gaXMgdGhlIG9uZSB3aG8ncyBzYWRseSBtaXN0YWtlbiwgbm90IG1lLiBKb3VybmFscyBhcmUgZXhjZWxsZW50LiBUaGV5IGxldCB5b3UgaW50byB0aGUgaGVhZCBvZiB0aGUgcGVyc29uIHdobyB3cm90ZSBpdCBhdCB0aGUgZXhhY3QgdGltZSB0aGV5IHdyb3RlIGl0LiBTb21ldGltZXMsIHJlYWRpbmcgYmFjaywgaW4gYmV0d2VlbiB0aGUgZ2FzcHMgb2YgYW5ub3lhbmNlIGFuZCBwYWluLCB5b3UgZmluZCBzb21ldGhpbmcgdHJ1bHkgbWVhbmluZ2Z1bCB0aGF0IHJlc3RvcmVzIHlvdXIgZmFpdGggaW4geW91ciBwYXN0IHNlbGYuIEFuZCBzb21ldGltZXMgbm90Lg0KDQpCdXQgZWl0aGVyIHdheSwgdGhleSBhcmUgc3RpbGwgaW5jcmVkaWJseSBiaWFzZWQsIGluY29tcGxldGUsIGFuZCB3aG8gSSB3YXMtIG5vdCB3aG8gSSBhbS4gSG93IGRpZmZlcmVudCBJIGFtIG5vdyEgTm93LCBJIGxvb2sgYXQgd2hhdCBJIG9ic2Vzc2VkIG92ZXIgd2l0aCB0aGF0IGJveSBJIGNvbXBldGVkIHdpdGggaW4gQ29uZ3Jlc3MsIGFuZCBJIGp1c3QgbGF1Z2guIE9oLCBoZSB3YXMsIGluIGEgd2F5LCBwZXJmZWN0LiBIZSB3YXMgZmFyIGF3YXkuIEhlIHdhcyBzbyBzYWZlLiBUaGUgdGhvdWdodCBvZiBoaW0sIG5vdCBoaW0sIHdhcyB0aGUgZGVwZW5kYWJsZSB0aGluZyBJIHdhbnRlZC4gVGhlIGFiaWxpdHkgdG8gdGFrZSBzY3JhcHMgb2YgaW5mb3JtYXRpb24gYW5kIHBpZWNlIHRoZW0gdG9nZXRoZXIgaW50byB3aGF0IEkgd2FudGVkIHdhcyByZWFsbHkgd2hhdCBldmVyeSBkYXlkcmVhbWluZyBwZXJzb24gZG9lcy4gUGVyaGFwcyBoZSBoaW1zZWxmIHdhcyB3aGF0IEkgdGhvdWdodDsgcGVyaGFwcyBoZSB3YXMgbm90LiBFaXRoZXIgd2F5LCB0aGUgc3BlZWQgd2l0aCB3aGljaCBJIGdvdCBvdmVyIGhpbSBoYXMgY29udmluY2VkIG1lIHRoYXQgSSBuZXZlciByZWFsbHkgZmVsdCBhbnl0aGluZyBtb3JlIHRoYW4gYW4gaW5zdGluY3RpdmUgcHVsbCBiZWNhdXNlIG9oLCB3aGF0IGdpcmwgaXNuJ3QgYXR0cmFjdGVkIHRvIGluc2FuZWx5IGNvbmZpZGVudCAobWF5YmUgY29ja3kpIGFuZCBkZWNlbnRseSBjdXRlIGJveT8gDQoNCkFuZCBzdXJlLCBJIHByb2JhYmx5IGRpZCBsaWtlIGhpbS4gQnV0IG5vdCB3aGF0IEkgYmxldyBpdCB1cCB0byBiZSBpbiBteSBtaW5kLiBJIGhhdmUgYSBoYWJpdCBvZiB1c2luZyBkaXN0cmFjdGlvbnMgdG8gaGVscCBtZSBnZXQgdGhyb3VnaCBteSBwcm9ibGVtcy4gSGUgaGFwcGVuZWQgdG8gYmUgb25lIG9mIHRoZW0uIEkgYXBvbG9naXplIHNvb28gbXVjaCB0byBhbGwgdGhlIHBlb3BsZSBJIGRyb3ZlIG51dHMgYWJvdXQgaGltLiBJIGFwb2xvZ2l6ZSB0byBoaW0uIEkgc3VwcG9zZS4gDQoNCkkgbGlrZWQgdGhlIGlkZWEgb2YgbGlraW5nIHNvbWVvbmUuIEkgbGlrZWQgZmVlbGluZywgd2VsbCwgc29ydCBvZiBub3JtYWwuIEkgbGlrZWQgYmVpbmcgYWJsZSB0byBnaWdnbGUgb3ZlciBhIGJveS4gDQoNCg0KQnV0IHllYWgsIHNvLCBJIGp1c3Qgd2VudCB0aHJvdWdoIGFuZCBjaGFuZ2VkIGhpcyBsYXN0IG5hbWUuIEFuZCBkZWNpZGVkIHRvIHBvc3QgdGhpcyBpbnN0ZWFkIG9mIGRvaW5nIG15IGJpbyBsYWIuIFNvIHN0b3AgcmVhZGluZyEgR28gcmVhZCBteSBvdGhlciBvbmUuDQoNCk9oLCB3YWl0LCBpdCdzIGxpa2UgdGhlIHNhbWUgdGhpbmctIGp1c3Qgc2xpZ2h0bHkgbGVzcyBzdWdhciwgc2xpZ2h0bHkgbW9yZSBwb2xpc2hlZCwgYW5kIGhpcyBuYW1lIGlzIFBoaWwuIEFuZCBJIGRvbid0IGxpa2UgaGltLCBJJ20gaW4gbG92ZSB3aXRoIGhpbS4gQW5kIEkgZG9uJ3QgdXNlIG5hbWVzLg0KDQoNCg0KDQpZdXAuIE9oLCBob3cgd2UndmUgYWxsIGdyb3duIHVwLg0KDQoNCg0KDQoNCkFuZCBjcmF6aWVzdCBvZiBhbGwsIHRoYXQncyBub3QgYW4gZW50aXJlbHkgc2FyY2FzdGljIHN0YXRlbWVudC4gRU5PVUdIISBCSU8gTEFCIQ0KVHNjaMO8c3Mh"
+"eventtime","2007-10-10 23:45:00"
+"url","http://khelekmith.livejournal.com/12736.html"
+"userid","8042"
+"itemid","48"
+"event","Soooo I made a new livejournal cause I felt like having a different name. 
+
+So if some random person humanxtsunami adds you as their friend, it's me.
+
+I'm going to go do college stuff now.
+
+<3"
+"eventtime","2006-12-10 01:17:00"
+"url","http://khelekmith.livejournal.com/12429.html"
+"userid","8042"
+"itemid","47"
+"event","Sooo I'm posting again. See? Aren't you proud of me?
+
+Just kidding.
+
+Anyway, I'm sick. Yesterday I felt awful- I was on advil every 4 hours on the dot, I felt like a train ran over me, my throat and head hurt, I was dizzy and felt disconnected, I had a fever, bad chills, and I was just exhausted. I managed to drive myself to the doctors who's first guess was strep (it was mine too). But the test came back negative for strep. So the next most likely thing was mono, and they subjected me to the torture of a blood test (I hate needles) to check for that, and also took another throat culture to check for strep, tonsilitis, etc.
+
+All I could think was, 'Just great. Epstein-Barr. I make out with one guy- one single, solitary guy, and I get mono. I must have gotten it some other way, but everyone is going to hammer me for this'. Which of course they did.
+
+But none of that matters because my lab work came back today and my lymphocytes weren't elevated, hence no viral infection, just a bacterial one. I've never been so excited to hear that I had strep. I still sound horrible and my throat hurts and right now I'm exhausted but I still feel a lot better. And the antibiotics will have me better in at most 4 days (that's how long it took last time I had strep) and that's so much better than the 3-4 weeks it would have taken me to just get over this bout of mono, not to mention the months it would have taken me to reclaim my former hyper self, during soccer season and senior year which would have really sucked.
+
+So the fact that I have an infection and can't see anyone for a few days and am under house arrest until then really doesn't bother me. 
+
+But it does kinda suck that when we go to Florida I can't have a 'mono attack' and 'need' a wheelchair, then conviniently able to skip lines. Oh well.  Ankle injury it is."
+"eventtime","2006-07-27 18:19:00"
+"url","http://khelekmith.livejournal.com/12085.html"
+"userid","8042"
+"itemid","46"
+"event","I haven't posted in forever. I'm so lazy. But it's the summer and I have a ridiculous amount of summer work to do so I cant' be that lazy. I have to read 7 books, do 3 tests (or is it 4?) for Calculus and then do 2 history tests. And my moronic cleaners threw out my history stuff so I'm basically screwed. 
+
+Still, this summer has been worth waiting for. It's been a very eventful one. The days drag on and though sometimes I'm bored it's never mind numbing horrible boring. The worst part of the summer was when I had to go to Massachusetts for a week, because it was soooo long. I wanted to be home, hanging out with my friends and a certain boy and instead I was stuck with little phone service, next to no internet access, and I was constantly woken up at pre-dawn hours like 8 and 9 o'clock.
+
+I did see Tufts though. I really like Tufts. I also really like UPenn. Amherst and Williams didn't do much for me. I still need to see Cornell, Colgate, Bucknell, Gettysburg...maybe Northwestern, Notre Dame...I don't know. I still haven't found THE college, and I now suddenly I'm rethinking the one criteria I had for college- out of New Jersey. I want to get away from my home. I'll miss my friends, but they're all going away too, so that doesn't matter. But now as it gets closer, as it gets realer, I wonder if I shouldn't stay close to home just in case. I'll feel so guilty leaving my mom and brothers in the clutches of my father. So now I'm stuck with a dilemma- do I do what I think is best personally for me, or do I sacrifice what I want for my family? I know I should sacrifice for my family, but I wonder if in the long run it would be worse.
+
+So chances are...I'll apply to all those schools, and go to the closest one that I get into. Hopefully UPenn. 2 hours isn't far. And I really like it.
+
+Oh well we shall see what happens.
+
+At least this post wasn't obsessing over guys. I'm serious. Girls may be confusing to guys, but guys are so confusing as well. My feelings are pretty confusing too. Arrgh.
+
+-Katie"
+"eventtime","2006-07-17 12:33:00"
+"url","http://khelekmith.livejournal.com/11873.html"
+"userid","8042"
+"itemid","45"
+"event","The most important thing of the last forensics competition was not my placement, nor the attentions of Presner, nor the hotness of Bennett, nor Liz trying to hunt down Travis.
+
+No.
+
+It was that the Mount got SECOND overall, which is our best placement since Gods-know-when.  SECOND only to Ridge.
+
+WE TOTALLY CASTRATED SETON HALL!"
+"eventtime","2005-11-15 16:19:00"
+"url","http://khelekmith.livejournal.com/11710.html"
+"userid","8042"
+"itemid","44"
+"event","So today was the monthly torture known as forensics.  I woke up at 7 to get dressed (I got a new shirt, and it totally rocked), put my hair up in braids (wanted something different), ate, and then rushed out to go to Montville.  I got stuck behind some fucker who was driving like TWENTY FIVE in a 30 or 35 and I was most displeased.  COME ON! I had just come off of doing 60 down 46, and now this?
+
+Anyway.
+
+So Katie and I arrive at 'Mustang Country' and run through half the school until we find the team and actually get to warm up with everyone.  And then they start Congress crazy early, so Liz didn't get to attack Travis aka Pink Shirt. (Some hot junior from SHP, I think).  So we troop over to our room...and I totally beat Skillender out to PO.  (Well, we just agreed he'd do it next time.) So I did the morning session, and I ACTUALLY got a gavel.  I was so excited.  Sundeep made my day.  Anyway, I messed up a few times, but I covered for it well....I hope.
+
+So then we get some crazy short lunch (ONLY 45 MINUTES!) because our chamber was huge- 23 voting members, and it got out of control.  We ran till 12 and had to be back by 12:45 so we could end at 3.  Liz POed the afternoon, and I made two speeches.  Oh man.  Be proud, Germaine.  SHP made yet another bill that demonstrated why they need to be able to spell BORDERS properly.  It's not boarders.  Ah well.  I authored ours and it was alright.
+
+So we finally get out at like 3:15, so we missed all the other final rounds.  Liz, Katie, Zan and I all talked to Presner (Or Chaz, as he prefers to be called).  He's from SHP, and he totally saved my ass twice when I was POing.  Chaz is cool.  We played Egyptian Rat Screw, but then Liz and I had to leave cause she was driving me home and she had to go.
+
+And then Katie calls me later and told me I got fourth, and Liz got fifth.  Originally I thought she said I got first and nearly hyperventilated.  But I got fourth.
+
+Made the KatieKate's day.
+
+So there ya go Germaine! Details!
+
+
+
+AP Bio owns my soul."
+"eventtime","2005-11-12 19:23:00"
+"url","http://khelekmith.livejournal.com/11318.html"
+"userid","8042"
+"itemid","43"
+"event","Oh man, I'm back.  And before I dive right into my rant, Germaine, I need you to call me.  I deleted all my call logs by accident and I no longer have your cell, which makes me sad. -Tear- I could get it from Katie, but my call logs are not complete with my Germaine-y-kins' cell number, so if you get a chance, call me.
+
+Okay.  And updates.  I can play soccer tomorrow, which has me so happy I can barely express it.  No, I can't express it.  I love the game, I love playing, and I finally can.  So happy.  And my dad came home from rehab where he went after he got out of the hospital, and it's really weird having him home, but he's been doing fine.  Aaannd...school's be alright so far, I'm upset cause I have only one class with JamieJame, but I have a few classes with Katie and Carleh and since we're still taking the same classes, we can still talk about them.  I'm pondering about switching over to physics from Constitution and American Legal Systems, but I'm not sure yet. I have my first AP Bio test tomorrow and two quizzes- lit and pre-cal.  Yeah, school's started again.
+
+Still, this year hasn't exactly started out very well.  First I'm off my ankle for 6 weeks, destroying my half my season and my chances at varsity (well, starting off on varsity).  Then the next day my father goes into cardiac arrest, and everything changes.  The worst case predictions Jamie and I made came true, and it just seems like something's gotta give.  Of course there's good things, but with all these big bad things, I'm hoping for the really good thing that will make up for it.
+
+And of course, the drama is starting already.  But the twist is, I simply don't care anymore.  I won't use names, because the girl I have issues with is, of course, a Mountie and basically all of you know her.  I'm not mad at her. I just don't want to be anywhere near her.  I'm so sick of all the harping on me, all the little digs, and all the nit-picking of my extensive faults.  I'm tired of the hypocrisy and the crazy insensitivity.  But you know, I could put up with all of that, I did.  But she wasn't there for me when I needed people, she who claims to be so close to me couldn't pick up a goddamn phone or IM me and ask 'Hey, how's your dad?  How are you?' 
+
+No, not everyone inquired as to the health of my father and the mental health of my family and I, but if I brought it up they would ask.   They wouldn't feed me some line about praying for my family and then not say anything else about it.  Yes, I understand it's difficult to know what to say, because there is nothing to say.  But the way to show you care is not to not mention it.  This all showed me who my friends really were, and she just isn't one of them.
+
+The sad thing is, I'm okay with that.  Our relationship was put under a lot of strain this year, by both of us, and I'm not going to say I'm not at fault.  I am, in part.  There were things I shouldn't have done or should have done.  But that doesn't vindicate her.  I'm sure she has lists of my myriad faults.  However, I just don't think it's worth it to put up with this from someone who's not there when I need it.
+
+So now I'm just avoiding her, because I know this will come to a head, I know there will be a fight and it will be knock down, drag out, heavy and nasty.  But it will drag other people in, and I want to put that off as long as possible. I don't want them to have to deal with a fight, though I know it will happen, so I'll keep it at bay for now.
+
+Yeah.  That's how it rolls.
+
+Alright, I'm off, I'll stop bothering you all with the sordid details of my issues.
+
+<3"
+"eventtime","2005-09-18 15:46:00"
+"current_moodid","11"
+"url","http://khelekmith.livejournal.com/11016.html"
+"userid","8042"
+"itemid","42"
+"event","After about 4 and a half months of having my permit, I broke the mold of my otherwise excellent driving and hit a fucking guardrail yesterday while trying to turn into the ICU parking lot.  It was not a fun experience.  Accidents have this weird way of completely screwing with your mind, even if the damage is minimal or it was just a mistake.
+
+You see, you need to get a ticket at the parking lot, and being that I have short arms (cause I'm short...-tear-) I need to get the car really close to the machine.  So it was dark, and I was turning in, and I turned a little too hard.  With another car, I would have been fine.  But no, I was in my looong Volvo station wagon.  So the back door on my side had a rather unpleasant encounter with the guardrail.  Though, thinking back, why the fucking hell do they HAVE a guardrail there?  There's not one on the other side.  Damn assholes.  
+
+But I was going maybe 5 miles an hour, so the door's a little scratched (but will probably come off in a car wash), and it's also dented in slightly, though you need to look at both doors to realize this.  There's this random strip of....something on my car, I guess it's plastic, and it serves no real purpose, but that needs to be reattached at the end to my car, but other than that, it's fine.
+
+Still pisses me off though.
+
+And I don't know what's happening with my father, I really don't.  Too many ups and downs for two weeks.  Soccer started yesterday.  Soz proclaimed himself the 'Uniform Nazi'.  And I swear to god, those were his exact words.  Teams get picked Sunday- maybe even Monday.
+
+And that's all in the life of Katie."
+"eventtime","2005-08-23 12:08:00"
+"current_moodid","134"
+"url","http://khelekmith.livejournal.com/10884.html"
+"userid","8042"
+"itemid","41"
+"event","My life is split into two complete opposites right now, and I don't hate it, but man is it surreal.  On one hand, I have my father- and anything involving him is instantly ten times more complicated.  Basically, he requires a quadruple bypass- I could go into the anatomy of it and why he really needs it, but it's unnecessary.  He needs it, he needs it now, and it could fix this problem.
+
+However, because he's been in the hospital so long, he's actually gone crazy.  Since Wednesday night, he's had to be constantly sedated (completely or partially) and he's been in restraints.  He wants out, and we don't know if he'll let them do this surgery.  Actually, my mother thinks my father might want to just come home to die.  Which, needless to say, puts my whole family in a very uncomfortable position.  And I don't know what's right anymore, or what's for the best, I just don't know.  It all depends on what he says, and if they can declare him mentally incompatent, and what my mom decides...
+
+So that's just a little stressful.  But then I have soccer starting tomorrow, and even though I can't play, I'm still excited.  I don't know if I'll make varsity or junior varsity...but we'll see.  As long as I can play, I'm happy.  I can go skating soon too...
+
+But what makes me most happy are my friends.  Well, one friend in particular, my bestest friend in the whole world.  Somehow just talking to her makes everything seem okay, and I don't know how, but somehow she makes it sort of all better.  We always talk about how we're going to go to the same college, be room mates, work near each other, live next door to each other, be godparents to the others' kids...and I can't imagine that not working out. The thought of not being around her makes me feel like half of me is gone, and somehow just not the same at all. After all, she's my wonderwall.
+
+I guess that's best friendship for you.  Whatever it is, it balances out the otherwise stressful existance I lead.  And right now...just being happy is enough. I <3 YOU ALL!"
+"eventtime","2005-08-21 14:35:00"
+"current_moodid","132"
+"url","http://khelekmith.livejournal.com/10543.html"
+"userid","8042"
+"itemid","40"
+"event","Last night, my father opened his eyes and woke up. He's already annoyed he can' move.
+
+So I guess he'll be okay."
+"eventtime","2005-08-12 08:33:00"
+"url","http://khelekmith.livejournal.com/10396.html"
+"userid","8042"
+"itemid","39"
+"event","Okay, I think I'll make this relatively short, because I don't really know what to say but if I don't say it, no one will know because we're not in school.  If we were, everyone and her mother would have known about it.  But summer slows communication.
+
+Yesterday my father was out bike riding and, as far as we know, stopped to fix a chain on his bike.  He then suffered a heart attack, the severity of which we still don't know.  As far as I know (the story gets a little shaky here) bystanders came to his aid and rescusitated him and called the paramedics.  Someone- the police, paramedics, or fire people- came and had to defib him.  So his heart stopped at least once and he stopped breathing as well.
+
+They rushed him to Saint Barnabas, where he is now.  Supposedly his heart was shivering when they brought him in.  They stabilized him, and since yesterday evening he's been in the ICU there- well, technically the CCU (basically ICU for coronary patients) but we don't need to get that technical.  They gave him CAT scans to check for bleeding in his brain (a sign of a stroke), another to check his back, and a shitload of other tests, including EKGs and some enzymes test I haven't heard much about.  
+
+From what I understand, the tests have confirmed there is damage to his heart, and the CAT scans have come back negative on the stroke.  My mother however mentioned they were worried about how long he had been without oxygen, but so far I haven't heard anything else about that.  I saw him in the ER and in the ICU last night, but he was heavily sedated.  He's intubated- has a tube down his throat to help him breath/breathing for him- he's attached to like 6 machines, has 2 IV lines, and a few other mismatched things.
+
+But there were some positive signs today- he's moving, and supposedly he woke up, thought he didn't open his eyes.  We shall see, and I shall keep you guys updated.
+
+Everyone's been really great, and my family is holding up okay.  Two of my uncles came down along with my grandma.  My mother keeps crying, but my brothers and I are still in shock. It's really surreal.
+
+But I had my JamieJame over to keep my company last night, which I was beyond thankful for.  The ICU staff is really nice, and my coach happens to be a West Orange police officer so he's bringing my dad's bike and personal items here so we don't have to go back.  But those are just two examples of how awesome everyone is.
+
+I'm going to go copy this into my xanga.  You can comment, call, email, whatever- or you don't have to. If you want to get in contact with me, you don't have to worry about it, but if you can't, not a big deal- I mean, it is pretty hectic around here, and I can't always talk long.
+
+I love you all. ^^"
+"eventtime","2005-08-10 16:02:00"
+"current_moodid","122"
+"url","http://khelekmith.livejournal.com/10105.html"
+"userid","8042"
+"itemid","38"
+"event","Hola vosotros.  I'm at the JamieJame's house, and have been for like the past 30 hours.  Her family is having a party and one of her friends is here but is slightly anti-social or something, so I stole her computer and she's chilling in the basement with said friend.  Which really isn't a problem- what else is her friend supposed to do?  I've been here a while anyway.   
+
+Last night I think I really realized how lucky I am.  I mean, everyone has shit in their lives, and I'm no exception.  My father's screwed up and obviously that's a lot of emotional stress. But I'm still so very lucky. (Jesus Christ this fucking keyboard hates me.  Musica.  Okay, I'm happy now).  I can't even put into words how thankful I am to have my JamieJame.  Obviously I'm beyond lucky to have the rest of my friends, but because I was with her, it was all the more poignant.  I couldn't ask for anything more in a friend, and I am one lucky bitch to have her.  I'm also extremely lucky to have all of my other friends too.  I don't know what I did to deserve them, but I thank my lucky stars every single day that I have them.  
+
+Okay.  I needed a moment to reflect on what I have.  And I love it and I appreciate it.  I guess that's as good as it gets, right? Of courses.
+
+I won't lie, there's still things I want. For instance...a guy.  Well, actually I think that's the only thing I really want that is even a possibility.  It does get pretty depressing being the only one of my group of friends who has yet to kiss a guy. For some reason, guys just don't seem to like me like that.  Or, when I finally find a guy who actually does feel an attraction for me, I simple can't reciprocate because I don't feel the same way about him.  And it really sucks sometimes, because then I feel bad- if I could like them, I would.  But love isn't some sort of switch you flip on and off.  I can't control who I fall for, and sadly I didn't fall for them. 
+
+It's just the way it rolls sometimes, I guess.  One day I'll find the guy I want to be with, and he'll actually LIKE me.  Or maybe I've already found him and just don't know it yet.  Or maybe I'll meet him tomorrow. Or maybe.  Or maybe.  Sometimes all of these maybes piss me off- why can't I just love and be loved in return?  Is that such a difficult thing to find?  And then once I actually find a guy I like..what am I supposed to do?  I really only had one boyfriend I really cared for, and it wasn't exactly the experience to set anything else by.  Not that I don't love you Zak. But being your girlfriend did not teach me much about the way of guys.  
+
+Doesn't help that I'm a friggin' coward either.  Oh well.  I will find a boyfriend this year- I will, I will, I will.  Maybe I've already found him.  We shall see.  Indeed we shall.
+
+Alright, enough of my I WANT A GUY REALLY BADLY rant.  I think I shall go call my dear Jess when I get home and see when we shall go to Matt's house to swim again.  And I'm going to the doctor's on monday to hear the results of my MRI.  All shall be decided then FINALLY.  I'm so sick of waiting.
+
+I love you all!"
+"eventtime","2005-08-06 15:27:00"
+"current_moodid","43"
+"url","http://khelekmith.livejournal.com/9762.html"
+"userid","8042"
+"itemid","37"
+"event","Oh man.  It's a record.  I haven't posted like this in my LJ in...forever.  My xanga's my journal.  But still.  I decided to be different today.
+
+I spent a majority of yesterday complaining bitterly because my parents dragged my brothers and I up to Pennsylvania for no reason.  I love the house and I love being in the Poconos- but with a bad ankle, there's not much I can do.  My ankle is quite odd- sometimes I can walk on it with no pain, sometimes I have to do this weird limp/hobble, and other times I can't walk on it- hurts too much.
+
+My MRI isn't until THURSDAY because of buerocratic nonsense.  Such a bitch.  I'm guessing since I can walk on it I didn't tear anything, but you never know.  I tried to jump on it yesterday.  Not fun. 
+
+I keep going from 'I tore it, I tore something, I won't be able to play soccer, my season is over, I can't believe this, I'm going to go be depressed' and 'No, I can walk on it, it doesn't hurt, I'm fine, just a sprain, I'll tape it and brace it and DAMN RIGHT I AM PLAYING THIS YEAR'
+
+But it still worries me.
+
+My poor JamieJame needs to get her wisdom teeth removed on Wednesday.  I know I have them, but I don't know if I need to get them removed.  They still haven't come out of the gums, so I suppose I'm safe for now.  Plus, I only have two.  So that's good.
+
+I can't believe it is the very last day of July.  Last year I couldn't WAIT for summer to end- everything I was looking forward to coincided with the beginning of school.  I wanted it over and done and gone.  Not this year.  I don't dread the coming of school- I'll get to see my friends, and it's not like I hate classes- but I rather like this relaxing thing I've heard so much about.  I should try it more often.
+
+No, this summer seems perfect so far.  Not to fast, but not to slow.  The days just blend together.  I do enough things so not to be bored but not so many I'm stressing.  I'm already half way done with my AP Bio work and I've read the books for school- but I've done it in a very relaxed way.  Sort of.  For me.
+
+And the way I see it, summer is half over.  We still have all of August- except we who play fall sports, but we still don't have to go to school.  And being the big, awesome juniors and seniors we are, we don't have to go to school until September 9th.  It's all good.
+
+August shall be great.  Now if only I had the money to buy everyone presents who I need to buy presents for (or should have bought presents for)...wait, I babysit next week. Okay.  I'm good.
+
+Thank god for two jobs"
+"eventtime","2005-07-31 09:31:00"
+"current_moodid","59"
+"url","http://khelekmith.livejournal.com/9664.html"
+"userid","8042"
+"itemid","36"
+"event","I've decided it is time to leave Peter behind.  I think we could have had something- but he's going to college in France, and he has a girlfriend.  It's impractical and silly to keep waiting for someone who might not even like me.  I'm the only one of my friends who hasn't had a boyfriend or even close this year.  Some of them are on their second or third.  So the KatieKate is moving on.
+
+Speaking of such, there IS this hot guy from Seton Hall who's my friend Jessica's neighbor.  Kind of quiet, but I like him.  He interests me.  TO GERMAINE'S BROTHERS YEARBOOK!
+
+Actually, Maxine, you know said hot guy from Seton Hall.  He works at the camp you work at.  I'll have to ask you about him.  
+
+Not that I have a crush on him or anything- not yet- but he seems cool.  He's none to fond of Ryan Campi, so that's a good thing, I guess.  We shall see.  Germaine, don't worry, I've had weird dreams about Peter- really weird dreams.  And I won't lie, I probably do still like Peter a little.  But it's unrealistic.  
+
+We will find FAR better guys, Germaine.  No worries.  None at all.  Guys who actually seem to get it, for instance.
+
+Okay.  I need to go ice my ankle.  I rehurt it and haven't been able to walk on it- and after swimming today at Matt's (hot guy from SHP) pool, I could walk.  But now I can't.  Argh.
+
+LOVE YOU ALL!"
+"eventtime","2005-07-29 19:00:00"
+"current_moodid","70"
+"url","http://khelekmith.livejournal.com/9241.html"
+"userid","8042"
+"itemid","35"
+"event","Germaine, I have bad news for you.  I'm sorry.
+
+Katie: anyhow.  before you leave for college, are you free anytime to hang out maybe?
+Peter: yeah, it think so
+Peter: we should set something up
+Peter: as for me, my <b>girlfriend</b> hates it when I am late, so I have to un
+Peter: run*
+Katie: okay
+Peter: I'll talk to you later
+Peter: be well
+Katie: sure, talk to you then
+Peter: goodnight
+Katie: you too
+Katie: 'night
+Peter: thanks
+Peter: night
+
+....
+
+ARGH!
+
+Oh well.  And...he's going to college...in FRANCE.  It was doomed from the beginning. -Sigh- I just needed to tell you that Germaine.  That's the end of that.  I still want to hang out with him, but there's no way I can tell him now.  Thank god he said that.
+
+Congress guys suck."
+"eventtime","2005-07-18 15:30:00"
+"current_moodid","129"
+"url","http://khelekmith.livejournal.com/9113.html"
+"userid","8042"
+"itemid","34"
+"event","Oh man, I haven't updated in a while.  I like my xanga better.  It's the truth.  School's finally out and summer is here and jesus fucking christ wasn't it just September?  I can't believe it, I simply can't.  Germaine, I may be angsty (Well, if I'm happy, I generally don't post cause I don't need to) but YOU, my friend, are an online stalker! Angst and Stalker.  Bwahahah.
+
+Oh, and every one loves the shirt.  Yeah.
+
+So you all want to here about my life? Do ya? Do ya? Soccer is sorta boring but I'm so glad to be playing again, skating is a lot of work but we're moving forward, I <3 my friends, and somehow, even though school is over, I have an obnoxious amount of work to do.  DAMN YOU AP BIO! I'm also sinking into deep depression because I completely screwed up law of cosines on my algebra II final....no, wait, I'm not.
+
+For the first time in a long while, I don't care.  I honestly don't.  It's no big deal I didn't get what I wanted on my algebra final. (Like my lowest test grade of the year....gods).  I don't want to think about chem, I don't even know where my AP Bio book is, lit and history are laughable and everything else I'm too relaxed to care about.
+
+Or it's that I'm really tired.
+
+ONE WEEK UNTIL LBI YEAH! I'm so happy to be going, it's going to be awesome fun.  Alright.  That's my life.  Perhaps I'll post again soon...
+
+-<3333 KatieKate"
+"eventtime","2005-06-18 11:52:00"
+"current_moodid","26"
+"url","http://khelekmith.livejournal.com/8935.html"
+"userid","8042"
+"itemid","33"
+"event","These days are so beautiful they make me feel so lazy.  However, the goddamn orthapedic has basically sentanced me to house arrest.  Okay, so what if I was doing serious doubles on my sprained ankle?  I mean, if it's not going to get better, why can't I skate and enjoy myself?  I'm going to go friggin' nuts.  I can't skate for another two weeks.  Friggin'.  Nuts.
+
+At least it's not soccer season.
+
+I'm trying to do this Big Sister Little Sister Application but I fear I'm too lazy to actually do any real work on it.  I want everything to just magically transverse from my head to the paper, with no interim work by my fingers.  Is that really so much to ask?  Come on Ms. Burgess.  
+
+You know what Germaine, I've never understood the obsession with tans either.  Do you know in India they do skin lightening treatments?  How weird is that?  Let me tell you, I'm pale, and I think I'd look weird any other way.  Cancer in a box is bad!  My dad had skin cancer, and I don't know what these guys are doing.  It's as bad as smoking.  Except smoking doesn't make you look good before you get cancer and die.
+
+Anyway, I'm technically supposed to ask Peter today if he'll go to the mall with me so I can tell him I like him.  Nerve racking much?  I have so much to do though- tomorrow I'm babysitting and going to the mall, Saturday I have to ref (if Melanie ever calls me), go to the mall with him if he can go, go to Jess's party, and then sometime soon I need to do my chem lab, write my lit essay, and finish this application.
+
+And maybe in between pick out my class ring and do something to ensure I do not get fat in 2 weeks from eating like I'm still actually doing exercise.  I hate not running around.  I know I'm not fat and not in any danger of it, but when I'm not doing something I feel so lethargic and lazy that it makes me feel bad about myself.  I need my goddamn endorphins from exercise!
+
+But what can I do that doesn't involve my parents putting me under house arrest before I cause 'irreparable harm' to my ankle?
+
+And yoga is out.
+
+-Katie"
+"eventtime","2005-05-12 16:26:00"
+"current_moodid","11"
+"url","http://khelekmith.livejournal.com/8581.html"
+"userid","8042"
+"itemid","32"
+"event","Germaine told me to submit something to Golden Fleece.  So what do you guys think of this?
+
+Scald away my imperfections
+Burn them all to dust
+Rip away my loyalties
+Violate my trust
+Beat my pride to the ground
+Steal my confidence
+Call it 'making me better'
+Blame it on Providence
+Tear away my worth
+Drown my mind in tears
+Kick around my beating heart
+Misplace my dreams and fears
+Humiliate my stubborn nature
+Toss out my motivation
+Make me the inhuman doll
+When you blow away my determination
+Twist me, turn me, wring me out
+Forget happiness and sound
+Annihilate the people I love
+Allow my corruption to abound
+Make me nothing, think you've won
+Make a mockery of my sanity
+Dig farther and farther till there's nothing left
+Indulge and think you've beat me
+But I'll come back, just you wait
+Stronger than before you came
+And I'll make you regret every word you said
+I will not let you destroy me-I will not be ashamed
+
+I dunno, most of the stuff I write is either too angsty, too many curses, or a tad too violent to submit.
+
+But I promised Carleh anyway, so I might as well try to dig something up.  So there you are."
+"eventtime","2005-04-24 19:52:00"
+"current_moodid","124"
+"url","http://khelekmith.livejournal.com/8276.html"
+"userid","8042"
+"itemid","31"
+"event","These ants (or this ant) keeps crawling on my leg and I keep freaking out.  I'm engrossed in looking at icons or talking to Zak and all of a sudden I get that creepy feeling and there's a big black ant on me.
+
+I think I killed it though.
+
+I've been really nostalgic lately.  Like, the Star Wars movie is coming out in less than a month- less than a month!  I can barely believe it.  I remember being in 7th grade and talking to Josh and Zak about it and wondering....wow....2005 is when the next movie comes out, what will I be like then?  EW I'LL BE OLD! 16! Or something like that, but whatever it was, it's creepy now.  
+
+I miss it almost.  Almost.
+
+Not that I don't love the Mount, but there was a comfort in Mt. Hebron too, and sometimes I miss it.  Anyway.
+
+I think I have a plan to tell Peter that I like him.  I'm sick of this craziness- first I think the 'vibes', as Germaine put them, are there, then they're not, then maybe, then yes, then definitely not.  I might as well just ask him and get it over with.  Whats the worst thing that can happen?  He doesn't like me at all and I never have to see him again.
+
+Germaine, just remind me about this so I don't chicken out.  
+
+Okay, I need to go eat because I'm starved and I've been on the computer for like 2 hours. <3"
+"eventtime","2005-04-20 17:31:00"
+"url","http://khelekmith.livejournal.com/7963.html"
+"userid","8042"
+"itemid","30"
+"event","I didn't get to finish my entry yesterday so I suppose I'll just continue it today.  The funeral was so sad, everyone was crying- the row behind us was bawling the entire time.  It wasn't as bad as it could have been though.  I got weirdly disconnected, like I wasn't really there, like I really couldn't feel, which sort of scares me because I like being able to feel, and sometimes the numb is worse than the pain.
+
+But my father's been an absolute asshole, so maybe that's why I didn't feel anything.  This morning he was driving recklessly and when I told him to stop doing that, he told me to get out of the car.  This was after yelling at me because he said we wouldn't make it to the funeral in time, and I said we certainly would, and then he told me to stay out of it, because he was the driver.  
+
+It's not even what he said, because I just tune it out.  Or I was today, or trying.  It's the fact he never, <i>ever</i> would have said that to me before.  He'd only say that to my mom.  With the funeral, I suppose I was concentrating on the things I've lost.  And you know what, I don't care that it's not my family, as Katie said.  She just doesn't understand- or she does, but she understands it how she sees it, and now how I feel it.  <i>It just doesn't matter</i>. It doesn't matter when, or how, it matters that it <i>will</i> be, and sometime in the near future.
+
+It really frustrated me when she said that, like I should be grateful or something.  You know what, maybe I should.  But why am I supposed to be grateful that I still have a father who is abusive, dangerous, hurtful, and dying?  Why should I be thankful that it isn't my father?  It makes me sick, not relieved.  Death just stole Chris's father from her, her father that was the same father from when she was 5, a father she loved and adored.  And left me a father completely different, ravanged and almost hated as much as he is loved.
+
+Why didn't death take my father, not hers?  Where is the justice?  How come I'm supposed to feel better because death took the father that should have lived and is playing recklessly with the father who should have died?
+
+It's bullshit.  It's all fucking bullshit. And I'm so fucking sick of dealing with it. 
+
+And it's all so fucking unfair to boot."
+"eventtime","2005-04-09 18:19:00"
+"current_moodid","24"
+"url","http://khelekmith.livejournal.com/7831.html"
+"userid","8042"
+"itemid","29"
+"event","I really don't want to go tomorrow, but I feel a twisted need to go, along with the fact it's the right thing to do.  Even though I don't really know Chris, I should still be there.  Plus, Jamie is close to her, and I can go for her too.  
+
+The funeral is tomorrow for the father of a girl in my class, Chris.  It's particularly depressing for me, because it reminds me of everything I'm losing and everything I stand to lose, and even when we were in the chapel, my stomach was all twisted up and felt as if it were filled with ice cubes.  But strangely I feel depressed and anxious, but don't feel much at all.  For instance, when I heard about it from Mrs. T in the cafeteria, I left to go up to history, but it was sort of an automatic mode.
+
+But why?  This doesn't happen often.  There's no reason for me to go on automatic without thinking something first.  Maybe it was an unconscious need to get out of there, to get away from it, maybe it was self-defense, I don't know.  I should be able to deal with this.  I will be able to deal with this."
+"eventtime","2005-04-08 19:41:00"
+"current_moodid","127"
+"url","http://khelekmith.livejournal.com/7531.html"
+"userid","8042"
+"itemid","28"
+"event","Okay, fine, I know I'm a sophomore, but still, college is really starting to creep me out.  All these stalker-esque schools are sending me letters, but I'm a little scared to start liking any one of them.  Either they don't have pre-med- a common problem with most of the schools I like- or they're too far away or something.  And if they seem perfect (-Cough-Cornell-Cough-) then I'm even more afraid of liking them because what if I can't get in?  
+
+And obviously this is far too early, but it's only two years and there is rejection all around me.  Peter got rejected from- get this- <i>all 13 schools he applied to</i>. Every one of them.  Worst case scenario, but what do you do?  
+
+I'm closer to being a junior than a sophomore, so I suppose maybe I'm not as preemtive as I think I'm being.
+
+Anyhow.  Away from this college nonsense.  I still need to make it through till June, let alone worrying about something that will be happening two years from now.
+
+AIM express is being a bitch and therefore refuses to let me use it and I have been relegated to quick buddy.  I can no longer copy convos, so you all can't see how Peter called me 'kiddo' last night.  Okay.  Thanks.  That helps my self esteem and confidence enormously. Makes me feel real great and completely ready to tell him I like him and have for quite a while now.
+
+Guys are so stupid."
+"eventtime","2005-04-03 14:03:00"
+"current_moodid","33"
+"url","http://khelekmith.livejournal.com/7220.html"
+"userid","8042"
+"itemid","27"
+"event","I was supposed to go to the mall today with Jamie and Katie, but when I woke up at 9:30 to go to the mall at 10:15, my father had mysteriously disappeared.  He took a trip to NYC with my uncle and didn't get home until 2, conveniently ruining all my plans for the day.  I had some serious shopping to do.  Now I have to do it Saturday or Sunday or something.  Goddamnit.
+
+So I've had two driving lessons, only two more left.  I have a bit of trouble with the right turns, I don't correct fast enough.  I personally don't like them either.  Plus, I was in Lodi or something and their roads fucking suck.  Other then that, I think I was okay.  I did nearly hit someone...or I would have had the driving instructor not hit his brakes.  But it was a different car! Different brakes! Come on.
+
+I really like driving though.  I can't wait to drive again, but I have to wait until Wednesday.  Argh.  The cruelties of it all.  
+
+Report cards come Friday and AP and Honor Invitations come out soon.  Just a tad nerve wracking.  But nothing I can do about it now.  Just have to wait and see.  College acceptances came out today too.  Hopefully a certain Peter got into Princeton like he wanted so he'll come back to judge. I think I'm going to have to tell him I like him.  But that's really scary.  Maybe I shouldn't contemplate that.
+
+Goddamn Nationals for being so late!
+
+School starts Monday.  I curse my schedule that puts me in Spanish first thing in the morning.  Come on.  Anything but Spanish.
+
+Actually, it's ALWAYS Anything but Spanish.  But particularly being that I've been on break for 11 days.  I do not want to be anywhere near that class.  
+
+I'm going to go count how many more Spanish classes we have.  We better have lots of Thursdays.
+
+<3 Thursdays"
+"eventtime","2005-04-01 17:11:00"
+"current_moodid","21"
+"url","http://khelekmith.livejournal.com/6955.html"
+"userid","8042"
+"itemid","26"
+"event","It's sorta surprising, I haven't been in a real, heavy depressed mood in a few weeks.  I think I'm becoming complacent, because I'm shying away from conflict and not calling people out for acting off because I just don't want this fake peace to end because fake peace is better than outright war when you're exhausted.
+
+Plus, my dad's been bad but I really haven't been phased by it. He really hasn't been that bad- the last time he cursed at me what last Saturday for the competition, I think.  Tonight there will be a knockdown dragout fight because the OC is on and I am watching.  I don't care what he says, it makes me happy, he can suck it up.
+
+Alrighty I have to go talk to me JameJame.  I <3 you all."
+"eventtime","2005-03-24 11:45:00"
+"current_moodid","36"
+"url","http://khelekmith.livejournal.com/6703.html"
+"userid","8042"
+"itemid","25"
+"event","GERMAINE IS BACK TONIGHT YAYAYAYAYAYAY!
+
+I've missed my seniors so, what am I going to do without my Beny and my Lianne and my favorite Wicked Witch and my lovable lion?  Go crazy, that's what.  And then my juniors shall dissapear and I shall go off the deep end with my Maxine and Alex and Liz and all my junior pals. -Sigh-  
+
+Hey, guess what Germaine?
+
+Katie: Hi
+Peter: hey
+Katie: whats up?
+Peter: sorry, but to be frank, I can't really talk
+Peter: I came on to talk with the task at hand with a few fellows
+Peter: otherwise I have to get back to work here
+Peter: I'll catch up with you tommorow
+Katie: shoi
+Katie: sorry, i'm having a problem with my psychic abilities
+Peter: hahahhaa
+Peter: alright then, goodnight
+Katie: good night to you too, have fun with your work
+Peter: thanks, it always keeps me amused, night
+Katie: at least it does that
+
+His away message last night was something about finding a prom date.  Maybe that's the task at hand.  But what's this usage of 'fellows'?  Ah, these Congress boys....can't live with them, can't stay sane with them, but goddamn do they amuse me.
+
+And even though I love them (some more than others), I really just want to bash them over the head with a bat sometimes.  But then again, I suffer from rage blackouts.  I think I need to see someone about my anger management issure.
+
+But my Sadistic Tomboy Twin is in Florida, which makes me very sad...but at least my seniors shall be back.
+
+I <3 YOU ALL!
+
+-KatieKate"
+"eventtime","2005-03-22 21:55:00"
+"current_moodid","49"
+"url","http://khelekmith.livejournal.com/6411.html"
+"userid","8042"
+"itemid","24"
+"event","OOWWWW!!!
+
+My toe is in severe pain.  I hope I didn't break it.  My ankle is swollen again, and I have so much work to do that I think I'm going fair out of my mind.  But that's okay.  Not like I had much of one to start with.  But the Spanish, Lit, and Chem is done, and all that's left is Algebra and History.  I'm really not in a math mood, but I know I gotta do it.  Damn.
+
+But skating was awesome today.  My layback finally started working, I landed/cheated double sal, toe, loop and flip, and started working on spins.  I like spinning.  It is teh awesomeness.  Plus, I found a bunch of icons.  It all put together made me very happy.
+
+Plus, a certain Peter was on last night and I got to talk to him.  I stayed up till 11 talking to him, pretty much.  Yeah, I'm a sad, pathetic girl.  But I had a history essay to do anyway.  
+
+Okay, the French Revolution is calling me.  I must depart and pay attention to these idiots who revolted and then after years of difficulty and killing 40,000 of their people....go back to what they had before.
+
+Gods."
+"eventtime","2005-03-21 19:51:00"
+"current_moodid","89"
+"url","http://khelekmith.livejournal.com/6194.html"
+"userid","8042"
+"itemid","23"
+"event","I am so sick of this shit.  All this drama, over and over again.  I'm sick of it, why do people do this?  Honesty is the best policy, sure, but tact is a nice thing too.  You're honest to help them, not to make them feel horrible about themselves.  I'm sorry I'm so annoying, but god, you think you could say it any other way?  Saying 'no offense' is about as effective as a doctor saying 'this won't hurt' before he stabs you with a needle.
+
+Seriously.  Maybe I'm just PMSing and taking this the wrong way, I dunno.  But I mean, I could easily get over that.  Sure, one of my best friends (Friend #1) said I was annoying.  It could be worse.  I can deal with it with her.  
+
+But of course...she (Friend #2) has to butt in and be all nasty and catty and 'protective' because she's a goddamn hypocrite and can't let people fight their own battles.  Sorry guys, I know this is confusing, but I don't want to put names up.  I can't even post this on my xanga cause they see it.  
+
+I'm fucking sick of this bullshit.  It isn't bad enough that I have one friend mad at me, I have a second one being nasty and saying real cutting remarks. And it's completely out of line cause it has nothing to do with her.  Uuugggghhhh it's so incredibly frustrating.
+
+And I was really upset, like on the verge of tears cause I am so sick of this shit.
+
+But skating, double sals and Kristen (along with a crazy-vigorous workout) made me happy again."
+"eventtime","2005-03-14 18:57:00"
+"current_moodid","43"
+"url","http://khelekmith.livejournal.com/6079.html"
+"userid","8042"
+"itemid","22"
+"event","I've decided I like livejournal and shall update more here.
+
+So, to reflect this new phase, we have a new profile picture, and a new layout, courtesy of livejournal.  I think I'm going to have a lot of fun with this new shtuff.
+
+I love Summer and I love the OC but I love Seth the most.
+
+Okay, Germaine, tomorrow I'll add that second convo, just for you.
+
+Now, I need to go and sleep, I <3 you all muchly."
+"eventtime","2005-03-04 21:25:00"
+"current_moodid","45"
+"url","http://khelekmith.livejournal.com/5666.html"
+"userid","8042"
+"itemid","21"
+"event","<CENTER>
+<DIV style=""WIDTH: 450px"" align=center>
+<TABLE style=""BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 450px; BORDER-BOTTOM: 0px"" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD colSpan=2>
+<P style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 450px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #1f5892; TEXT-ALIGN: center""><A title=""100 Questions For Your Answering Pleasure!"" style=""COLOR: #fff"" href=""http://www.bzoink.com/surveys.php?id=832"">100 Questions For Your Answering Pleasure!</A></P></TD></TR>
+<TR>
+<TD colSpan=2>
+<P style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; MARGIN: 0px; WIDTH: 450px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #1f5892; TEXT-ALIGN: center""><EM>Created by <A title=""User Profile"" style=""COLOR: #fff"" href=""http://www.bzoink.com/users.php?id=CrazySue"">CrazySue</A> and taken 16283 times on <A title=bzoink! style=""COLOR: #fff"" href=""http://www.bzoink.com/"">bzoink!</A></EM></P></TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>Basics</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Name:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Katie, KatieKate, Hersh, Carny, I got lots</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Age:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">16</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Height:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">5'3"". SHORT AND PROUD!</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Hair Color:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Brown</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Eye Color:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Blue-gray</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>School Life</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What's your school's mascot?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Lions</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">School color(s)?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Blue, gold, and white, I think</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">G.P.A.?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">97.3</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Who is your favorite teacher?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Mrs. Hirce, Mrs. O, and Ms. Burgess</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What do they teach?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Bio, Algebra, and History</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Is this your favorite class?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Damn straight. Well....chem is my favorite too</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>Internet</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you use any instant messengers?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Yes</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">If so, which ones?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">AIM</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">About how many hours a day do you spend online?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Too many but yet too few</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you have a <A onmouseover=""window.status = 'goto: digital camera';return 1"" onmouseout=""window.status=''"" href=""http://0-days.net/?go=digital+camera"">digital camera</A>?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">My brother does</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">If so, do you post pictures of yourself online?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">No</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>Music</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you play any instruments?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Not currently</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">If so, what one(s)?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I used to play piano</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">3 Favorite Genres Of Music:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Hard/Alternative Rock, Pop, and Soundtracks</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">3 Favorite Bands:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Linkin Park, Lostprophets, and Goo Goo Dolls</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you go to concerts and/or shows?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Only for school</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What is the most you've ever spent on a concert/show?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I don't know</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What is the least you've ever spent?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Nothing</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you think buying merch at a concert then wearing it there is corny?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I don't know</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you listen to any bands that you'd be ashamed to admit to listening to?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">No....though I do like some Backstreet Boy/N'Sync songs which gives me those pains in my stomach</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Did you notice the grammatical error in question 29?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Obviously not yet</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>Word Association</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Blue:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Sky</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right""><A onmouseover=""window.status = 'goto: camera';return 1"" onmouseout=""window.status=''"" href=""http://get-certified.net/?go=camera"">Camera</A>:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Pictures</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Boy:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Girl</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Pretty:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Summer</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Pants:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">PANTALONES</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Music:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Good</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">God:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Jesus/SPAC/Coronaries</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Sweater:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Bleh</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Live Journal:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Germaine</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">MTV:</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Funny and amusing</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>Labels:</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you think labels are dumb?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Generally</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Why or why not?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">No one really fits them</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What do people label you as?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Nerd/Werido/Hyper and I say jock</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">How/Why did you get this label?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Cause I'm hyper, weird, do well in school and play two sports</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>Which Is Worse?</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Physical Pain/Emotional Pain?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I hate drawn out phsyical pain, but emotional pain is still worse</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Blink-182/Good Charlotte?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I love both, but Blink is better</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Being Deaf/Being Blind?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Blind, I need to see, and I can be more independent if I'm deaf</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Being Bored/Rushing around because you have too much to do?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Each has their own time</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Losing your dominant leg/Losing your dominant arm?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I don't know, I couldn't live my life in a wheelchair but I need my arm....</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>Love</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you believe theres a difference between ""love"" and ""in love""?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Yeah, I love my friends but I'm in love with a guy, but they're just separate categories under the same thing</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Is it better to have loved and lossed than to have never loved at all?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Yes, live for the moment, the happiness has to be worth the pain</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Are you romantic?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Hopeless closet romantic</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Are you in a relationship now?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I wish</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">If so, for how long?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">-Sigh-</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">If not, how long have you been single?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Since June 22, 2004 so 8 and a half months</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Are you a virgin?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Yes</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What song describes your love life right now?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Dice/any other song that's hopeful or deals with unrequited love and frustration</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>Ranomosity</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">War: Good or Bad?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Bad, obviously, even when it's for a good cause</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What do you think of designer labels?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Why waste your money</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Who's skankier: Britney Spears or Paris Hilton?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Paris Hilton</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What is it with guys and cars?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">What is it with girls and purses?</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you sing?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Yes</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">If so, what part (Soprano 1,Alto 2, et cetera)?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Soprano</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Kiss or hug?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I've never actually been kissed, so I'd have to say hug. I don't do kisses. (Unless it's with a particular guy)</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What color is your room?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Yellow</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">How old is your mom?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">She'll kill me for saying this....almost 55</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Black and white or color photos?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Both have their time and place</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Who cuts your hair?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Janet, she's the head of my skating club</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What color is your toothbrush?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Purple and gray</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What color is your hair brush?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">One is pink the other is brown</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What kind of hair products do you use?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">A hair tie, bobby pins, a clip, and hairspray when I get pissed off</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Is K-Mart just the poor man's Wal-Mart?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I don't like either?</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Are you sXe?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Pardon?</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Are you sexy?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Fuck no</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What color to people tells you looks nice on you?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Red, blue, green, gray, and for some reason they think white prom dresses</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What color do you think looks nice on you?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Red, green, gray, blue</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Clothes shopping or grocery shopping?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Clothes</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"" colSpan=2>Who do you sit with at lunch?</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you like the sound of your own voice when you hear it played back?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Not really, it sounds high pitched</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Who has the nicest speaking voice that you know?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I like all my friend's voices</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What is the website for one of your favorite bands?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I don't know off the top of my head</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you prefer to date people younger, older, or the same age as you?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I've only dated younger (by a few months, always in the same grade year) but I prefer older</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you listen to songs on repeat often?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Yeah</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Who was the last person you hung out with?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Eve and Bonnie</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What did you and that person do?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I babysat them and they watched tv and we read</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you use internet shorthand (i.e. ""lol"", ""brb"", ""jk"", et cetera)?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Nope, only lol</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">How often do you bathe?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Every day or every other day when my scheduale is hectic</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Are you a people-pleaser?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Not usually, though I would do anything to make my friends happy</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you dye your hair regularly?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Never</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">What about your eyebrows?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Why?</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you wear makeup?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Rarely</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">If you answered ""yes"", to #96, are you female?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">......</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Do you buy CDs edited or unedited?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">Whatever I grab</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Can you beatbox?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">No</TD></TR>
+<TR>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #3886d3; TEXT-ALIGN: right"">Does your mom like the song ""Hey Ya"" by OutKast?</TD>
+<TD style=""PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; BACKGROUND-COLOR: #8ab8e6; TEXT-ALIGN: left"">I don't think so</TD></TR>
+<TR>
+<TD colSpan=2>
+<P style=""PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 15px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #1f5892; TEXT-ALIGN: center""><A title=""Create a Survey"" style=""COLOR: #fff"" href=""http://www.bzoink.com/create.php"">Create a Survey</A> | <A title=""Search Surveys"" style=""COLOR: #fff"" href=""http://www.bzoink.com/search.php"">Search Surveys</A> | <A title=bzoink! style=""COLOR: #fff"" href=""http://www.bzoink.com/"">Go to bzoink!</A></P></TD></TR></TBODY></TABLE></DIV></CENTER>THERE WE GO! Survey for you all.&nbsp; Be happy."
+"eventtime","2005-03-02 17:28:00"
+"current_moodid","98"
+"url","http://khelekmith.livejournal.com/5528.html"
+"userid","8042"
+"itemid","20"
+"event","I hate surveys and I hate livejournal.
+
+I'm only doing this for you, Germaine, and only because I love you a lot.
+
+Anyhow.  I'm absolutly and completely obsessed with the OC.  It's 26.75 hours until it's on tomorrow.  Mwahahaha.  It's such a great show, I love it I love it I love it.  Oh yes, and these colleges are starting to freak me out a little bit.  I mean, I'm getting stuff from colleges like MIT and Brown and Duke.....and Hood and Hofstra and University of Miami.  I think they need lives other than terrorizing innocent sophmores.
+
+And you know what, I think Congress boys are just STUPID.  What don't they get?  Come on, for such an intelligent bunch, they're really dense when it comes to girls.  I don't know how Mrs. C has put up with them for all this time.
+
+Alrighty, Germaine, since I love you, here's the conversation Peter and I had the day after semi.  Screennames are edited, sorry if it looks weird.
+
+Katie: Hey
+Peter: hey, long time no talk
+Peter: how have you beeen?
+Katie: Passably well, and you?
+Peter: decent, thanks
+Peter: for some odd reason nearly my entire buddy list has been ersaed 
+Katie: aww that sucks
+Peter: and therefore, I am counting on people to contact me first.
+Katie: well you're in luck then
+Katie: i hope everyone else gets the message and doesn't think you're avoiding them or something
+Peter: well then, they'll have to deal
+Katie: harsh, man, harsh
+Katie: sorry, i'm a little out of it, i've been under house arrest all day and been watching the oc
+Peter: house arrest? what have you done that was so contrite to illicite such a punishment?
+Katie: i sprained my ankle before christmas and it's still swollen
+Katie: i'm a bit of a klutz and keep reinjuring it
+Peter: really?
+have you seen a doctor
+Katie: yeah, a week after i hurt it
+Katie: she said it was just sprained, and i hadn't hurt the bone
+Peter: well then, maybe the house arrest was in order, after all you need to keep off the damned thing if you don't want to re-injure it
+Katie: but i'm a -little- stubborn and so i'm not really helping it get better so my parents decided house arrest might encourage me a tad
+Katie: yeah, exactly what you said
+Katie: so how'd your interview go?
+Peter: which one
+Katie: i only knew about the university of chicago one, but all of them if you want to relive them
+Katie: colleges are starting to freak me out a little, i think i've gotten 30 letters in a week and a half
+Peter: hahhaa unfortunatly, I havn't gotten the oppurtunity from chicago, they said I applied too late for an interview, but I had one for princeton and I have one more tommorow for Brown
+Katie: well good luck
+Katie: what do you want to do/major in, anyway?
+Peter: political science/ international relations with a regional study in middle eastern studies
+Peter: thanks
+Katie: figures
+Katie: well as long as you don't scream at people you'll be great at it
+Peter: hhahahahaha, the allure of diplomacy through anger is something lluring
+Peter: and frankly, I think it gets the job done
+Katie: sometimes, sure
+Katie: i wanted to do that for a while, but figured i'd rather work with people's brains
+Katie: but i doubt people are going to do what you want them to if you're yelling at them
+Katie: thought it's certainly a wonderful way to get rid of frustration
+Katie: oh yeah, congradulations at breaking last competition
+Katie: i didn't get a chance to tell you
+Peter: thanks
+Peter: listen, I have to run, I'll talk t you later
+Peter: take care
+Katie: you too
+
+Yeah, that's Peter for ya.   I'll post the other one later, if you like.
+
+Okay, this survey is not working.  I'll try one more thing....
+
+NOT WORKING!
+
+See my xanga if you want it"
+"eventtime","2005-03-02 17:10:00"
+"current_moodid","47"
+"url","http://khelekmith.livejournal.com/5233.html"
+"userid","8042"
+"itemid","19"
+"event","<P>February 6, 2005</P>
+<P><IMG src=""http://img.photobucket.com/albums/v159/megg0rs/Garden%20State%20Icons/timetogo.jpg""><IMG src=""http://img.photobucket.com/albums/v111/OpenFlameIconz/trying.gif""><IMG src=""http://i.xanga.com/xxCoolxIcons/wasting.png""><IMG src=""http://tinypic.com/19s4kh""></P>
+<P>I'm copying straight from my xanga, but I'm lazy and I've been lazy.&nbsp; I'll do a new entry for livejournal soon, no worries people in LJ land.</P>
+<P>I'm sick of always being the one to extend the hand, to make the call, to say hello, and so it's ending.&nbsp; Not going to do it anymore.&nbsp; I want it so badly it almost physically hurts and all I can think of is this but you don't seem to care.&nbsp; And if you don't care, I can't keep hoping and hoping because it's breaking my heart and tearing me apart.</P>
+<P>You mean more to me than my pride, my hope has beaten back my stubbornness.&nbsp; But only for so long.&nbsp; Why can't you see this?&nbsp; Isn't it screamingly, blatantly obvious?&nbsp; Please, stop playing with me like this.&nbsp; Just let it start or let it end or let something happen, because this is driving me out of my mind.</P>
+<P>It doesn't make sense, it must be something more if I still feel like this and still I don't move on.&nbsp; But maybe I'm just an idiot.&nbsp; Maybe I'm still grasping at strings when I should know better and just leave it be.&nbsp; But what if it's not?&nbsp; What if I regret it for forever?</P>
+<P>But what if I regret this for forever?</P>
+<P>I just don't know anymore.&nbsp; I don't.</P>
+<P>Anyway.&nbsp; Forensics yesterday was pretty tame.&nbsp; I didn't write anything because I was a lazy ass and didn't feel like it.&nbsp; I went just to be there with everyone, because for March I'll be at a skating competition instead so I'll be in a freezing cold rink, and all the seniors will be in Florida.&nbsp; Germaine drove me- going 90 down 78.&nbsp; That was fucking awesome.&nbsp; Too bad we couldn't hit 100.</P>
+<P>And then we parked in Israel and looked for big wrestlers with Liz.&nbsp; While I was sitting at one of our tables, I was looking outside, and I saw someone, and I knew it was him.&nbsp; How pathetic is that?&nbsp; I didn't see his face, but I could tell it was him.&nbsp; </P>
+<P>Anyway.&nbsp; Congress&nbsp;itself was pretty boring, until they started talking about Iyer being a child molester, which was fucking hilarious.&nbsp; I could not listen to anymore speeches about any of it anymore.&nbsp; Still, I've spent my Saturdays in much more boring ways.&nbsp; At least I was with my Mounties.&nbsp; LAMBERT-COLE AND KATIE FOREVER!</P>
+<P>No, we will never let you forget that Katie.&nbsp; Never.&nbsp; </P>
+<P>After we were done, we went outside because I was antsy and I spent about 15 minutes throwing snowballs at Ridge.&nbsp; I miss baseball so much.&nbsp; Fuck softball, the goddamn ball is too big.&nbsp;It was a lot of fun, even though I kept breaking them or making them too heavy so that they hit the bench instead of the wall.</P>
+<P>But I must say, I have not lost my skills.&nbsp; I can still throw damn well.&nbsp; Maybe a little high, but I'm not used to throwing short distances without someone there with a goddamn mitt.&nbsp; I wish I could play again, but there's no way I'm dealing with those Nazi's, and being able to throw isn't enough.&nbsp; </P>
+<P>What else happened.....oh yes.&nbsp; Spitzer needs to learn how to tuck his shirt into his PANTS.&nbsp; Not his BOXERS.</P>
+<P>Old Navy....can't decide whether that's a good thing or a bad thing.&nbsp; We know what sort of guy HE is.&nbsp; I only played cards once this time, and Yeogorov had his Unabomber glasses again.&nbsp; Damn am I going to miss those mother fuckers in the chamber.&nbsp; Only Iyer left....and I guess some St. Peter's boys, but we don't like them.</P>
+<P>I should bring a soccer ball to forensics from now on, I'll take my school one.&nbsp; </P>
+<P>Anyhow.&nbsp; Nothing happened at forensics.&nbsp; Nothing.&nbsp; God it fucking pisses me off.</P>
+<P>Alrighty, it's dinner time.&nbsp; Have fun everyone, I &lt;3 you all.</P>
+<P>WHY AM I CURSED LIKE THIS?&nbsp;</P>
+<P>Guys fucking suck, that is the only answer.</P>
+<P>-KatieKate</P>"
+"eventtime","2005-02-06 19:20:00"
+"url","http://khelekmith.livejournal.com/4971.html"
+"userid","8042"
+"itemid","18"
+"event","I'm in a depresseded, morbid about the future, pessimistic mood.  And I rather liked how it came out on my xanga, so I decided to copy and paste- yes, the horror of my cheating ways- and put it here too. Cause I've been lazy lately.
+
+It's really scary, you know.  It's horrifying to look at these things and read these listings and check every single one in your mind.  I don't know how to deal with myself, I feel so bad asking other people to deal with me.  How can I expect something of someone else when I can't expect it of myself?  It seems sorta screwed up,definatly hypocritical, but I can't let go of human contact entirely.
+
+2 more years, one more month, and 18 more days. 
+
+I just hope this doesn't make me bitter or cynical.  I think it has already.  It's changed me already, it's altered the way I see things, it's messed with how I deal with things.  I see people freaking out about such little things, such crazy shit, and I need to restrain myself from yelling at them.  They seem so shallow to me, so dependent, so set up for the fall, and then I feel worse because who am I to judge them?
+
+Does my suffering allow me to pass judgements on another? Does my twisted existence push me above another and give me the right to tell them that they need to chill out and take a few steps back? Does the hell that is my life somehow vindicate me from hypocrisy?
+
+This is why sometimes I think it's better guys don't seem to be attracted to me.  I don't have time for them.  If I wrap myself up in intricacies, if I surround myself with the abstract, if I throw myself into the only thing I feel is worth doing, then the emotions and insanity of everyday life seem to fade away.  If no one loves me, I don't have to worry about getting hurt.  If no one wants to be with me, I don't have to concerned with being sidetracked.
+
+I can just lose myself in my work, lose myself to the world, because my days are numbered, I can feel it in my bones.  I pray every night that it is not my brothers, but me with it, that somehow by some miracle that if any of us had to inheirited the curse that it is me not them.  Better yet that none of us have it, but that is foolish to even hope that, it is lunacy to even wish that.
+
+Because I can handle it and they can't.  Because better that I take it, better that I suffer then them. Better that I become him, better that I do what he should have, then my brothers being forced along that path. Better that I accomplish what I came here to do and leave the world a better place with no husband sobbing and no children wailing while they scatter what was once me along the waves.  
+
+It is better.
+
+Isn't it?"
+"eventtime","2004-12-05 17:33:00"
+"url","http://khelekmith.livejournal.com/4789.html"
+"userid","8042"
+"itemid","16"
+"event","Sunday, October 24, 2004
+
+ October 24, 2004
+
+
+
+Alrighty, I have a lot to write, I've had a busy weekend and I'm still wired on three and a half hours of sleep so I have the energy to write.  Yeah.  Be afraid.
+
+SO.
+
+On Friday was JamieJame's party, which was awesome.  I needed that party, I felt so wired and happy, even though I felt a little quesy. Come to think of it, I've been off and on sick.  Really annoying.  Anyway, I had a ball dancing with my Mounties- except Jamie, who kept ditching me for other people.  I was so not appreciated.
+
+Then she did the candle lighting, and it was so sweet! I shared and candle with like 6 other people- it was the Mount candle, for all the people Jamie couldn't fit on the other candles, but I did get my own little speech.  She COMPLETELY outed me about cheating on her with Mrs. Marin. I TOLD YOU ALREADY! IT WAS A MISUNDERSTANDING! (I cheated on her with Congress guy.  Come on)
+
+It was just hilarious, I nearly fell out of my chair laughing.  And I had a very interesting conversation with Luis and him making some shit up about me and Napalm- which actually intrigued me.  Explosions always make me feel happy and not sappy.
+
+I had like 4 strawberry 'frozen drinks' which were really virgin daquerri's, however you spell it, and I don't think they agreed with me. 
+
+Oh, did I mention how awesome everyone else looked? My make up decided to hate me, but Jamie looked...un Jamie like.  I loved her hair and her dress.  Seriously.  Really intricate hairstyles amuse me, and I'm very glad she's my size as well, so I can steal her dress. Bwahaha.
+
+Anyway. All good things must end, and my father got me at 11 and I went home and drifted off, blissfully unaware of how badly I would screw up the next day at forensics.
+
+It started off pretty normal.  No breakfast, just got dressed and ready, got my thing of tea, and off we go.  We got Katie and went to Montville- actually, a really, really pretty place.  Right next to mountains, and sort of rural- I loved it. At first.
+
+Then I started feeling sick.  Not uncommon.  I attribute it to the tea.  It makes my stomach queasy.  And then low and behold, my day picks up.
+
+HE CAME.
+
+Yeah.  They sent in their bill like 3 different ways, but it never got to us, so Congress guy had to compete in Varsity Extempt, which I am so jealous of, because he just seems to be able to switch from event and event and do well EVERYWHERE.
+
+Argh.
+
+So I talked to him for a little and it made me feel better.  We were talking about placings and that sort of thing and how there weren't that many good people in the chamber and I would place. Famous last words, man.
+
+And off he goes and I met the new Congress girl from Vernon.  I like her.  I talked too much, but I think it's awesome we have new people.  Come to think of it, I acted obnoxious at forensics, but I don't know why.  I didn't always....I was just too....I don't know.
+
+And then I go do my draft bill and actually thought I did pretty well.  I screwed up one question, but other then that, I felt I might be able to get up their in rankings as long as I did really well in the afternoon.
+
+Hahahahaha.  Suuuure.
+
+I come back and I get this splitting pressure headache.  I mean, I felt like my head was going to explode.  I ran out of the room and to the cafeteria, but no one had any advil, so I went back and suffered through it.
+
+I don't know why I did so badly.  I don't know.  I wasn't prepared for those sorts of questions.  And they phrased them strangely.  So I rushed my speech because I forgot how long I really had, and then completly, completly bombed questioning.  I wished I could just die right then and there and spare me the embaressment.
+
+It's all because we didn't have the Spirit Gourd. ARGH.
+
+We went and watched Ali who did awesomely well at JV OI and then I meandered about with Katie, sometimes doing my chem homework, sometimes talking to people, including Congress guy.  He was in a very competative mood.  But he's just so funny.  KATIE, WHERE'S THE PARTY AT? Yeah.  That was a little....ALRIGHTY then.
+
+Ego waffles.
+
+And then scoring comes.
+
+Congress was a complete mess.  Seeley did far too well, Yegorov didn't do well enough, Brown placed, Tran didn't, Garrigan also didn't place high enough, it was a mess.
+
+And what did I get? Well, thanks to the scoring sheets, I can tell you. It was a chamber of 13.  2 didn't qualify.  So where did I place?
+
+Dead. Last.
+
+Some fucked up asshole judge gave me an EIGHT.  AN EIGHT.  My scores read 20, 20, 21, 8.  What the fuck? And he doesn't even tell me what I did wrong, he contradicts himself. 'Reading from speech'. He gave me 1's! Remember, this is out of a 30 point system.  And the judge who gave me 20 gave me better criticism.  I'll really work on it next time.
+
+But Jesus fucking Christ!
+
+Then we went to Jamie's party, which was again, completely awesome.  Jamie cheated on me again with Erin and Meredith, but I forgave her.  I'll forgive her wandering ways, because Congress guy was better anyway. XP.  Nah, I'm just kidding.  I did nothing with Congress guy. And Danielle, it's because I never see you.  But I'm still yours.  Don't worry.
+
+Yours and Jamie's.  And maybe Nat's, but Nat's worse them Jamie with cheating on me.  I just don't know....
+
+As for Congress guy, I just don't know what to think anymore.  I definatly think he thinks of me as a friend.  He talks to me and gives me advice, and if he can say those sorts of things around me....big rubber phallus....then either he's extremely secure with himself or he thinks of me as a friend.  Could be both. Actually, probably is.
+
+But I was the one who went over and talked to him and all that jazz.  He's too goddamn mysterious! I can't read his mind! I have no idea what he thinks about me other then he doesn't hate me and may find me mildly amusing...argh.  -Bangs head against desk-
+
+I just really want to know what he thinks....
+
+Shizer.
+
+(But there's a Seton Hall dance this Friday! WHOOT! Jamie, this is going to be a fuun weekend....)
+
+-KatieKate"
+"eventtime","2004-10-24 17:15:00"
+"url","http://khelekmith.livejournal.com/4195.html"
+"userid","8042"
+"itemid","15"
+"event","It pisses me off that I still have 15 more days, but somehow, I will make it through this...somehow...
+
+But what ticks me off more is my stupidity.  Hokay. So.  Here's how it rolled.  Congress guy isn't writing his bill. (I might have said that already, but I dun remember).  Someone else is.  He said that he didn't know what it was, but he would find out today and he would relay it to me.  Somehow, my algebra intoxicated brain decided to overrule everything and say, ""No, that's alright, I'll get it from Mrs. Cristiano.""
+
+Am I stupid or what?
+
+He could have called me back, ushering another conversation, which is what I've been doing, finding excuses to call him, but nooo I had to be stupid.  Whats worse is we didn't get it, so it wouldn't have been something like Hi-Here's-The-Bill-You-Have-It-Great-Goodbye it would have been a discussion or something
+
+I'm such a moron.
+
+And the Red Sox are playing right now. 
+
+GO BOSTON! DOWN WITH THAT GODDAMN YANKEES!!!!
+
+And there's a debate tonight, funfun.  Bush is going down on domestic policy.  He sucks."
+"eventtime","2004-10-08 16:59:00"
+"url","http://khelekmith.livejournal.com/3983.html"
+"userid","8042"
+"itemid","14"
+"event","Math is consuming my mind and my life.  I swear, I haven't worried about a test like this since bio. Silly Chem. And Chem is mostly algebra <i>anyway</i> so I shouldn't like it, but I do.  It's pretty interesting and Sr. Barbara isn't all that bad of a teacher.  Actually, I think she's rather good. ANYWAY. Today I declare the Algegbra-Is-Consuming-My-Mind and Da-Mount's-Thursday-The-7th-Day.  
+
+First to the Mount, and then I'll bitch about how algebra will be the demise of my love interests as we know them. I love causing suspense.
+
+So anyway, in the Mount world, it was a hectic day.  Gods, you missed it all Germaine! First Lianne, my big sister- I love her, she's just the best- had a fender bender with some college car.  Three other people from the college had fender benders as well, but all were different incidents.  And then Mrs. Hirce, in a skillful action that sounds EXACTLY like something I would do, was cutting bagels, setting up a lab, and talking to Ms. Cavano, and manages to cut her hand badly enough to have to rush to the ER to get stitches.
+
+Turns out they glued it but then it wasn't glued properly or something but she came back, taught and then went back to the hospital.
+
+Then some guys started drilling a hole in OUR wall- hey, when you share stuff with college, it matters- and Sr. Fran went CRAZAY.  Well. Not really.  But she ran down the hallways, it was perhaps the funniest part of my day.  Turns out some idiot in the college decided to put up a college sign on our wall without telling us.  Bwahaha.
+
+Plus I spent all afternoon worried about my 'space' and then I finished it but chem still worried me and I'm just going crazy. WHY DO YOU MATH GODS CURSE ME LIKE THIS?
+
+So now how math is utterly destroying my hopes about Owczarek.
+
+SO.
+
+Bills were due Monday, but due to miscommunication, the deadline was extended to Wednesday. Yesterday. When we got the bills, we only had SHP, SPP, UC, Ours, and Ridge's.  Oak Knoll and Montville went BYE BYE. -Evil grin- But anyway, Congress guy's bill was not there, and I figured he's so OCD that he must never have gotten the email.  I called him last night and told him bills had been due and he said he'd send them in and I said he was too OCD to forget so that tipped me off and he laughed and all that jazz.
+
+Today, Mrs. Cristiano told me that she still didn't have a bill from him, and because I talked to him, that I should call him and tell him to fax in his bill.  LovelyLovely.  So I called him tonight and here's how it rolls.
+
+His team expanded exponentially and now there's a bunch of Congress people.  His coach went over him and had some other girl write the bill so that'll be in, but it won't be Sudan. -Le sigh- That's not how math is ruining my chances. I'm getting there.
+
+ACK! Fucking computer ruined it! I added all the info about our conversation but NO it decides to not work. Bitch.
+
+Basically, I missed like 4 times where I could have continued the conversation, and completely missed a joke because I'm BRAIN DEAD from Algebra. It's all algebra II's fault.  DAMN YOU X Y AND Z AXISES!!
+
+And Germaine, he didn't write the bill, he doesn't know what it is.  But we'll find out tomorrow.
+
+I'll add my details tomorrow I suppose.  Pissy, I had it all nicely written.....
+
+But one good thing, even though I screwed up in all other areas, is that he didn't seem quite so...distant or professional this time.  My hope has been restored in the possibility something could happen. YAY!
+
+-Katie"
+"eventtime","2004-10-07 17:03:00"
+"url","http://khelekmith.livejournal.com/3740.html"
+"userid","8042"
+"itemid","13"
+"event","PFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij5JdCBrZWVwcyBkZWxldGluZyBteSBwb3N0cywgZ29kZGFtbml0LiZuYnNwOyBBbmQgbGl2ZWpvdXJuYWwgaXMgc2xvdy4mbmJzcDsgSSBoYWQgYSB3aG9sZSBDb25ncmVzcyBzaHBpZWwsIGJ1dCB5b3UgbWlzc2VkIGl0IGNhdXNlIGl0IGRlbGV0ZWQgaXRzZWxmIG9yIHNvbWV0aGluZy4mbmJzcDsgU28geW91IGdldCBhIHN1cnZleSBpbnN0ZWFkLiZuYnNwOyBJJ2xsIGRvIHRoZSBDb25ncmVzcyByYW50IGxhdGVyLiBZb3UnbGwgbWFrZSBpdCB0aHJvdWdoJm5ic3A7dGhpcy4gRG9uJ3Qgd29ycnkuPC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48U1RST05HPjxVPjwvVT48L1NUUk9ORz4mbmJzcDs8L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxTVFJPTkc+PFU+WW91PC9VPjwvU1RST05HPjwvUD4NCjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PEJSPjxTVFJPTkc+PFU+LS0tJmd0O05hbWUgT24gQmlydGggQ2VydGlmaWNhdGU/PC9VPjwvU1RST05HPiBLYXRocnluIEVsbGVuIGFuZCB0aGUgbGFzdCBuYW1lIG15IGZhdGhlciBwb3NzZXNzZXM8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7Tmlja25hbWVzPzwvVT48L1NUUk9ORz4gS2F0aWUsIEtpdHRlaCwgS2F0ZSwgRGFydGgsIEhpa2FyaSwgS2F0aWUtS2F0ZSwgU3F1aXJyZWx5Li4uc3R1ZmYgbGlrZSB0aGF0LjxCUj48U1RST05HPjxVPi0tLSZndDtBbnkgb3RoZXIgbmFtZXMgeW91IG1pZ2h0IGhhdmU/PC9VPjwvU1RST05HPiBUaGF0IGRvZXNu4oCZdCBtYWtlIHNlbnNlLCB0aGF04oCZcyB3aGF0IG5pY2tuYW1lcyBhcmUgZm9yPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1dvdWxkIHlvdSBjaGFuZ2UgeW91ciBuYW1lPzwvVT48L1NUUk9ORz4gTm8sIEkgbGlrZSBteSBuYW1lPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0lmIHNvLCB3aGF0IHdvdWxkIHlvdSBjaGFuZ2UgaXQgdG8/IDwvVT48L1NUUk9ORz5JIHdvdWxkbid0IGNoYW5nZSBpdCB1bmxlc3MgSSBoYWQgdG88L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPiZuYnNwOzwvUD4NCjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PFNUUk9ORz48VT5Bcm91bmQgeW91Li48L1U+PC9TVFJPTkc+PC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij4mbmJzcDs8L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxTVFJPTkc+PFU+LS0mZ3Q7V2hlcmUgZG8geW91IGxpdmU/PC9VPjwvU1RST05HPiBTb21lIHJhbmRvbSB0b3duIGluIE5ldyBKZXJzZXk8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7V2hlcmUgaGF2ZSB5b3UgbGl2ZWQ/PC9VPjwvU1RST05HPiBKdXN0IGhlcmUuIEknbSBhIHJlamVjdCBub24tbW92ZXIuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1doZXJlIHdvdWxkIHlvdSBsaWtlIHRvIGxpdmU/PC9VPjwvU1RST05HPiZuYnNwO0hybW0uLi4uQ2FwZSBDb2QuLi5WZXJtb2504oCmTGFrZSBQbGFjaWQuLi4uPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1doZXJlIGFyZSB5b3UgZ2xhZCB5b3UgZG9uJ3QgbGl2ZT88L1U+PC9TVFJPTkc+IFRoZSBNaWRkbGUgRWFzdCBhbmQgU2liZXJpYS48U1BBTiBzdHlsZT0ibXNvLXNwYWNlcnVuOiB5ZXMiPiZuYnNwOyA8L1NQQU4+UmljaCwgc3VyZS4gQnV0IG5vdCBuaWNlLjxCUj48U1RST05HPjxVPi0tLSZndDtIb2JiaWVzOjwvVT48L1NUUk9ORz4gUmVhZGluZywgd3JpdGluZywgdGFsa2luZywgc2thdGluZywgYW5kIHNvY2Nlci4gQndhaGFoYS4gQU5EIFNUVURFTlQgQ09OR1JFU1MhISE8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7SGlkZGVuIFRhbGVudHM/PC9VPjwvU1RST05HPiZuYnNwO0hybW0uLi4uSSBjYW4gYmVuZCBteSBmaW5nZXJzIGFsbCB0aGUgd2F5IGJhY2t3YXJkcywgYW5kIEkgY2FuIHdyaXRlIGFuZCByZWFkIGEgbGFuZ3VhZ2Ugbm8gb25lIGVsc2UgY2FuLiBJIGRvbid0IGhhdmUgbWFueSB0YWxlbnRzLCBzbyBJIGNhcGl0YWxpemUgb24gd2hhdCBJIGhhdmU8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7RG8geW91IHRoaW5rIHlvdSdyZSBhdHRyYWN0aXZlPzwvVT48L1NUUk9ORz4mbmJzcDtOb3QgcGFydGljdWxhcmx5PEJSPjxTVFJPTkc+PFU+LS0tJmd0O0RvIG90aGVycyBmaW5kIHlvdSBhdHRyYWN0aXZlPzwvVT48L1NUUk9ORz4gSSBkb24ndCBrbm93LCB5b3Ugc2hvdWxkIGJlIGFuc3dlcmluZyB0aGlzLCBub3QgbWU8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7V2hhdCBkbyB5b3UgdGhpbmsgaXMgeW91ciBiZXN0IGZlYXR1cmU/PC9VPjwvU1RST05HPiBNeSBleWVzLiBJIHdvdWxkIHNheSBJIGhhdmUgYSBkZWNlbnQgZW5vdWdoIGZpZ3VyZSwgYnV0IHRoZSBhbm5veWluZyB0cmFuc2x1Y2VudCBJcmlzaCBza2luIHJ1aW5zIGl0LjxCUj48U1RST05HPjxVPi0tLSZndDtXaGF0IGRvIG90aGVycyB0aGluayBpcyB5b3VyIGJlc3QgZmVhdHVyZT88L1U+PC9TVFJPTkc+Jm5ic3A7TXkgZXllcywgdGhhdCdzIHVzdWFsbHkgd2hhdCBJIGdldCBjb21wbGltZW50ZWQgb24uPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1doYXQgZG8geW91IHRoaW5rIGlzIHlvdXIgd29yc3QgZmVhdHVyZT88L1U+PC9TVFJPTkc+IE9oIGdvZHMsIGxlc3NlLiBJIGRpc2xpa2UgdGhlIHNoYXBlIG9mIG15IGZhY2UsIGhvdyB5b3UgY2FuIHNlZSBteSBjaXJjdWxhdG9yeSBzeXN0ZW0gd2hlbiBJJ20gY29sZC4uLm15IGZhY2UgZ2V0cyBhbGwgYmxvdGNoeSBpbnN0ZWFkIG9mIHN0YXlpbmcgcGFsZS4uLi5hbm5veWluZy4uLml0IGNhbid0IG1ha2UgdXAgaXQncyBtaW5kPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0RvIHlvdSBsaWtlIHlvdXIgcGVyc29uYWxpdHk/PC9VPjwvU1RST05HPiZuYnNwOyBOb3QgbGlrZSBJIHJlYWxseSBoYXZlIG11Y2ggY2hvaWNlLjxCUj48U1RST05HPjxVPi0tLSZndDtEbyBvdGhlcnMgbGlrZSB5b3VyIHBlcnNvbmFsaXR5PzwvVT48L1NUUk9ORz4mbmJzcDsgSSB0aGluayB0aGVyZSdzIHRoaW5ncyBvdGhlcnMgZG8gbGlrZSwgYnV0IGFsc28gYSBsb3QgdGhhdCB0aGV5IHdvdWxkIGNoYW5nZSBpZiB0aGV5IGNvdWxkLjxCUj48U1RST05HPjxVPi0tLSZndDtEbyB5b3UgdGhpbmsgeW91IGFyZSBmdW5ueT88L1U+PC9TVFJPTkc+Jm5ic3A7IEkgbGlrZSB0byB0aGluayBzbzxCUj48U1RST05HPjxVPi0tLSZndDtEbyBvdGhlcnMgdGhpbmsgeW91IGFyZSBmdW5ueT8gPC9VPjwvU1RST05HPjxTVFJPTkc+PFNQQU4gc3R5bGU9IkZPTlQtV0VJR0hUOiBub3JtYWwiPlN1cmUsIHNvbWV0aW1lcy4gTkFUTkFUITwvU1BBTj48L1NUUk9ORz48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7RG8geW91IGxpa2UgeW91ciBmYW1pbHk/PC9VPjwvU1RST05HPiBXZWxsIGVub3VnaC4mbmJzcDsgSSBsb3ZlIHRoZW0gYWxsIGNhdXNlIHRoZXkncmUgZmFtaWx5LCBidXQgYXMgcGVvcGxlLCB0aGVyZSdzIGEgZmV3IEkgZG9uJ3QgbGlrZTxCUj48U1RST05HPjxVPi0tLSZndDtEbyB0aGV5IGxpa2UgeW91PzwvVT48L1NUUk9ORz4mbmJzcDtZZWFoLCB0aG91Z2ggc29tZSBkb24ndCByZWFsaXplIHRoYXQgSSdtIG5vdCBhIGNoaWxkLjwvUD4NCjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+Jm5ic3A7PC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48U1RST05HPjxVPkhhdmUgeW91IGV2ZXIuLi48L1U+PC9TVFJPTkc+PC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7SGFkIGEgc2VyaW91cyBpbGxuZXNzPzwvVT4mbmJzcDs8L1NUUk9ORz5ZZXMuIEFwcGVuZGljaXRpcyBjb3VudHMuIDEwMCB5ZWFycyBhZ28sIEnigJlkIGJlIGRlYWQuPEJSPjxTVFJPTkc+PFU+LS0tLSZndDtraWxsZWQgYW4gYW5pbWFsPzwvVT48L1NUUk9ORz48RU0+Jm5ic3A7IDwvRU0+QnVncyBhcmVuJ3QgYW5pbWFscywgc28gbm8uPEJSPjxTVFJPTkc+PFU+LS0tLSZndDtoYWQgc2V4PzwvVT48L1NUUk9ORz4gV2hhdCBkbyB5b3UgdGhpbms/PEJSPjxTVFJPTkc+PFU+LS0tJmd0O0JlZW4gc2V4dWFsbHkgYXR0cmFjdGVkIHRvIGEgY2FydG9vbiBjaGFyYWN0ZXI/PC9VPiZuYnNwOyA8L1NUUk9ORz5BTklNRSBjaGFyYWN0ZXIuIE5vdCBpbnRlbnNlbHkgc28uIC1QZXRzIGhlciBZdWtpIGFuZCBIYXRvcmktc2FuLTwvUD4NCjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PFNUUk9ORz48VT4tLS0mZ3Q7Q2F1c2VkIGEgcmlvdD88L1U+IDwvU1RST05HPkhhLiBOby4gVGhhdCdzIGZvciBsYXRlci48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7VGFrZW4gcGFydCBpbiBhIHJpb3Q/PC9VPjwvU1RST05HPiBOYWggSeKAmW0gYSBnb29kIGdpcmwuIEZvciBub3cuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0VhdGVuIGEgYnVnPyA8L1U+PC9TVFJPTkc+UHJvYmFibHk8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7QmVlbiBvbiBzdGFnZT8gPC9VPjwvU1RST05HPlllcywgaW4gTmlzaHVhbmUgZXZlcnkgeWVhciB3ZSBkaWQgcGxheXMuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0pvaW5lZCBhIGdhbmc/PC9VPjwvU1RST05HPiBUaGV5J2QgbmV2ZXIgYWNjZXB0IG1lIGFuZCBJ4oCZZCBuZXZlciBjdXQgaXQ8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7QmVlbiBtZW50YWxseSBkaXN0dXJiZWQ/PC9VPjwvU1RST05HPiZuYnNwO0NvdWxkIHlvdSBiZSBtb3JlIHNwZWNpZmljPzxCUj48U1RST05HPjxVPi0tLSZndDtTbW9rZWQ/PC9VPjwvU1RST05HPiBOby4gU21va2luZyBpcyBzdHVwaWQuJm5ic3A7IEV2ZXJ5IHRpbWUgeW91IHNtb2tlLCB5b3Ugc3RhcnQgZHJvd25pbmcgaW4geW91ciBvd24gbXVjdXMuIFRoYXRzLiBKdXN0LiBHcm9zcy48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7RHJhbms/PC9VPjwvU1RST05HPiBXYXRlciwgTWlsaywgU29kYSwgc3VyZS48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7U3RvbGVuPzwvVT48L1NUUk9ORz4gUGVyaGFwcyBJIGhhdmUuIFBlcmhhcHMgSSBoYXZlIG5vdC4gV2hhdCBkbyB5b3UgdGhpbms/PEJSPjxTVFJPTkc+PFU+LS0tJmd0O1VzZWQgc29tZW9uZT88L1U+PC9TVFJPTkc+IFphay4gSGUncyB0aGUgYmVzdGVzdCBwaWxsb3cgYW5kIGhpcyBjZWxsIHBob25lIGlzIHVzZWZ1bCB0b28uIDxCUj48U1RST05HPjxVPi0tLSZndDtRdWVzdGlvbmVkIEdvZCdzIGV4aXN0ZW5jZT88L1U+PC9TVFJPTkc+IFllcywgYnV0IG1vcmUgd2hlbiBJIHdhcyB5b3VuZ2VyLjxCUj48U1RST05HPjxVPi0tLSZndDtDdXJzZWQgYXQgR29kPzwvVT4gPC9TVFJPTkc+WWVzLiBJIGRvIHRoYXQgYSBsb3QuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1dpc2hlZCB0byBkaWU/PC9VPjwvU1RST05HPiBBIGZldyB0aW1lcy4mbmJzcDsgSXQgY29tZXMgYW5kIGl0IGdvZXMsIGFuZCBJIGRvbid0IGtub3cgd2h5IEkgd2FudCB0by4uLi5JIHN0b3AgYmVjYXVzZSBJIGNvdWxkbid0IGJlYXIgdGhlIHRob3VnaHQgb2YgaHVydGluZyBwZW9wbGUgc28gc2VsZmlzaGx5LiBUaGF0IGhlbHBzIGJlY2F1c2UgaXQgZWl0aGVyIEEpIFNoYW1lcyBtZSBpbnRvIGRvaW5nIHNvbWV0aGluZyBlbHNlIG9yIEIpIE1ha2VzIG1lIGFuZ3J5IGFuZCBJIG1vdmUgb248QlI+PFNUUk9ORz48VT4tLS0mZ3Q7U3RyZWFrZWQ/PC9VPjwvU1RST05HPiBOby4gSSdtIGEmbmJzcDtnb29kIGxpdHRsZSBnaXJsLCBJIHRvbGQgeW91PEJSPjxTVFJPTkc+PFU+LS0tJmd0O1N0YWxrZWQgc29tZW9uZSBvbmxpbmU/PC9VPjwvU1RST05HPiBOby48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7SGFkIGEgc2V4dWFsIGZhbnRhc3k/PC9VPjwvU1RST05HPiBFdmVyeW9uZSB3aG8gaXMgb2xkIGVub3VnaCB0byB1bmRlcnN0YW5kIHdoYXQgdGhhdCBtZWFucyBoYXM8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7VGFrZW4gcGlsbHM/PC9VPjwvU1RST05HPiBJIGp1c3QgdG9vayBzb21lIHRoaXMgbW9ybmluZy4gQWR2aWw9R09EPC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij4mbmJzcDs8L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxTVFJPTkc+PFU+Rm9yIGEgYmlsbGlvbiBkb2xsYXJzIHdvdWxkIHlvdS4uPC9VPjwvU1RST05HPjwvUD4NCjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PEJSPjxTVFJPTkc+PFU+LS0tJmd0O0tpbGwgeW91ciBwYXJlbnRzPzwvVT48L1NUUk9ORz4gTm8uIEkgY291bGQgbmV2ZXIga2lsbCBteSBtb20sIGFuZCBteSBkYWQsIGl0J3MgZ2V0dGluZyBkb25lIGZvciBtZS48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7RWF0IGFuIGFudCBmYXJtPyZuYnNwOyBidWdzPzwvVT48L1NUUk9ORz4gTm8uIFRoYXRzLiBEaXNndXN0aW5nLjxCUj48U1RST05HPjxVPi0tLSZndDtIYXZlIHNhbWUgZ2VuZGVyIHNleD88L1U+PC9TVFJPTkc+IEZvciBhIGJpbGxpb24gZG9sbGFycz8gU3VyZS48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7S2lsbCB5b3VyIGJlc3QgZnJpZW5kPzwvVT48L1NUUk9ORz4gV2hhdCBzb3J0IG9mIGZpZW5kIGRvIHlvdSB0aGluayBJIGFtPzxCUj48U1RST05HPjxVPi0tLSZndDtIb2xkIHVwIGEgY29udmVuaWVuY2Ugc3RvcmU/PC9VPjwvU1RST05HPiBOby4gSWYgSSBoYXZlIGEgYmlsbGlvbiBkb2xsYXJzLCB3aGF0IHdvdWxkIGJlIHRoZSBwb2ludD88QlI+PFNUUk9ORz48VT4tLS0mZ3Q7U2hvb3QgeW91cnNlbGYgaW4gdGhlIGxlZz88L1U+PC9TVFJPTkc+IE5vLCBiZWNhdXNlIEkgZG8gc3BvcnRzIGludm9sdmluZyBteSBsZWdzLjxCUj48U1RST05HPjxVPi0tLSZndDtFYXQgYW5vdGhlciBwZXJzb24/PC9VPjwvU1RST05HPiBDYW5uaWJhbGlzbSBpcyB1bnNhbml0YXJ5PEJSPjxTVFJPTkc+PFU+LS0tJmd0O0p1bXAgb2ZmIGEgdGhyZWUgc3RvcnkgYnVpbGRpbmc/PC9VPjwvU1RST05HPiBJIGdldCBhIGJ1bmdlZSBjb3JkLCB0aGVuIHN1cmUuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1dhbGsgbmFrZWQgaW4gYSBtYWxsPzwvVT48L1NUUk9ORz4gSG93IG1hbnkgc3RlcHM/PEJSPjxTVFJPTkc+PFU+LS0tJmd0O1NoYXZlIHlvdXIgaGVhZD88L1U+PC9TVFJPTkc+IFN1cmUsIGFzIGxvbmcgYXMgSSBjYW4gZG9uYXRlIHRoZSBoYWlyPEJSPjxTVFJPTkc+PFU+LS0tJmd0OyBEcmluayBodW1hbiBibG9vZD88L1U+PC9TVFJPTkc+IE5vLCBJIGRvbid0IGRvIHZhbXBpcmlzbTxCUj48U1RST05HPjxVPi0tLSZndDtCb3ggd2l0aCBhIGthbmdhcm9vPzwvVT48L1NUUk9ORz4gSXQgd291bGQgYmVhdCBtZS4uLi48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7S2lsbCB0aGUgcHJlc2lkZW50PzwvVT48L1NUUk9ORz4gSSBuZWVkIHRoZSBtb25leSBmaXJzdCBzbyBJIGNhbiBnZXQgYSBiYXpvb2thIGFuZCBtYWNoaW5lIGd1biBhbmQgZG8gYSBkYW1uIGdvb2Qgam9iIGF0IGl0PEJSPjxTVFJPTkc+PFU+LS0tJmd0O1NsYXAgYW4gb2xkIHBlcnNvbj88L1U+PC9TVFJPTkc+IEFzIGxvbmcgYXMgSSBjYW4gc2xhcCB3aG9ldmVyIEkgd2FudDxCUj48U1RST05HPjxVPi0tLSZndDtFYXQgeW91ciBvd24gdm9taXQ/PC9VPjwvU1RST05HPiAtR2FncyBhbmQgZGFzaGVzIG9mZiB0byB0cnkgYW5kIGNvbnRyb2wgaGVyIHN0b21hY2gtPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0VhdCBhIGJvb2dlcj88L1U+PC9TVFJPTkc+IEZvciBhJm5ic3A7YmlsbGlvbiBkb2xsYXJzPyBPZiBjb3Vyc2UuIDxCUj48U1RST05HPjxVPi0tLSZndDtTdHJpcCBmb3IgT3NhbWEgQmluIExhZGVuPzwvVT48L1NUUk9ORz4gTm8uPC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48QlI+PFNUUk9ORz48VT5NeSBGYXZvcml0ZS4uLjwvVT48L1NUUk9ORz48L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxCUj48U1RST05HPjxVPi0tLSZndDtMZXR0ZXI/PC9VPjwvU1RST05HPiBLLiBJJ20gdW5vcmlnaW5hbC4gU28gd2hhdD88QlI+PFNUUk9ORz48VT4tLS0mZ3Q7Q29sb3I/PC9VPjwvU1RST05HPiBHcmVlbiwgQmx1ZSwgR3JheSwgUHVycGxlLCBCbGFjazxCUj48U1RST05HPjxVPi0tLSZndDtOdW1iZXI/PC9VPjwvU1RST05HPiAzLCAxMywgMjM8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7V29yZD88L1U+PC9TVFJPTkc+IEFzaW5pbmUuIEJ1dCBpdCBjaGFuZ2VzIGEgbG90LjxCUj48U1RST05HPjxVPi0tLSZndDtNb3ZpZTwvVT48L1NUUk9ORz4gU3RhciBXYXJzLCBMb3JkIG9mIHRoZSBSaW5ncywgQm91cm5lIElkZW50aXR5LCBTY2hpbmRsZXIncyBMaXN0LCBhYW5kLi4udGhlcmUncyBvbmUgSSdtIGZvcmdldHRpbmcuLi4uPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1NoYXBlPzwvVT48L1NUUk9ORz4gQ2lyY2xlcyBhbmQgVHJpYW5nbGVzPC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48U1RST05HPjxVPi0tLSZndDtyZWxhdGl2ZT88L1U+PC9TVFJPTkc+IE15IG1vdGhlcjxCUj48U1RST05HPjxVPi0tJmd0O09sZCBTb25nPzwvVT48L1NUUk9ORz4gQmx1cnJ5IGJ5IFB1ZGRsZSBvZiBNdWRkPEJSPjxTVFJPTkc+PFU+LS0tJmd0O05ldyBTb25nPzwvVT48L1NUUk9ORz4gTWVtb3J5IGJ5IFN1Z2FyY3VsdCwgb3IgQm91bGV2YXJkIG9mIEJyb2tlbiBEcmVhbXM8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7Q0Q/PC9VPjwvU1RST05HPiBUaGUgTWF0cml4LCBteSBMaW5raW4gUGFyayBDRHMuLi4uPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1QuVi4gU2hvdz88L1U+PC9TVFJPTkc+IFdlc3QgV2luZzxCUj48U1RST05HPjxVPi0tLSZndDtNb3ZpZSBTb3VuZHRyYWNrPzwvVT48L1NUUk9ORz4gWUVTIEZJTkFMTFkgU09NRU9ORSBBU0tTIFRISVMhIEFueXRoaW5nIGJ5IEpvaG4gV2lsbGlhbXMuLi5UaGUgTWF0cml4Li4uLjxCUj48U1RST05HPjxVPi0tLSZndDtDaGFubmVsPzwvVT48L1NUUk9ORz4gSSBkdW4ga25vdzxCUj48U1RST05HPjxVPi0tLSZndDtQYXJlbnQ/PC9VPjwvU1RST05HPiBNb3RoZXIuIENvbWUgb24gbm93PEJSPjxTVFJPTkc+PFU+LS0tJmd0O1Jlc3RhdXJhbnQ/PC9VPiZuYnNwOzwvU1RST05HPkkgaGF2ZSBubyBpZGVhPC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48U1RST05HPjxVPi0tLSZndDtEcmluaz88L1U+PC9TVFJPTkc+Jm5ic3A7IE1pbGsuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0Zvb2Q/PC9VPjwvU1RST05HPiBDb29raWVzLi4uLjxCUj48U1RST05HPjxVPi0tLSZndDtTbmFjaz88L1U+Jm5ic3A7PC9TVFJPTkc+RGVwZW5kcyBvbiBteSBtb29kPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1Nob2UgQnJhbmQ/PC9VPjwvU1RST05HPiBTbmVha2VyLCBTa2F0ZSwgT3IgQ2xlYXQ/PEJSPjxTVFJPTkc+PFU+LS0tJmd0O1VuZGVyd2Vhcj88L1U+PC9TVFJPTkc+Jm5ic3A7SSBkb24ndCBrbm93PEJSPjxTVFJPTkc+PFU+LS0tJmd0O1NlYXNvbj88L1U+PC9TVFJPTkc+IFdpbnRlciwgQklaQVRDSCE8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7U3BvcnQ/PC9VPjwvU1RST05HPiBTa2F0aW5nIGFuZCBTb2NjZXIuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0RhbmNlPzwvVT48L1NUUk9ORz4gVGhlIENvdHRvbi1FeWUtSm9lLiBEb24ndCBtZXNzIHdpdGggaXQsIG1hbi48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7V2VhcG9uPzwvVT48L1NUUk9ORz4gQUstNDcsIGJ1dCB0aG9zZSBhcmUgcHJldHR5IG92ZXJ1c2VkLCBzbyBJIHRoaW5rIHByZWZlciBhIERlYXRoU3RhciBvciBhIEhvd2l0emVyLjxCUj48U1RST05HPjxVPi0tLSZndDtTaW4/PC9VPjwvU1RST05HPiBMdXN0PEJSPjxTVFJPTkc+PFU+LS0tJmd0O1NtZWxsPzwvVT48L1NUUk9ORz4gRnJlc2ggYmFrZWQgY29va2llczxCUj48U1RST05HPjxVPi0tLSZndDtTaGFtcG9vPzwvVT48L1NUUk9ORz4gSSBkb24ndCBrbm93PC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij4mbmJzcDs8L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxTVFJPTkc+PFU+TGFzdCBwZXJzb24geW91Li4uPC9VPjwvU1RST05HPjwvUD4NCjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PEJSPjxTVFJPTkc+PFU+LS0tJmd0O0h1Z2dlZD88L1U+PC9TVFJPTkc+IExpYW5uZSBvciBHZXJtYWluZSwgSSBmb3JnZXQgd2hvLjxCUj48U1RST05HPjxVPi0tLSZndDtTbGVwdCB3aXRoPzwvVT48L1NUUk9ORz4gTXkgQmVhci4gSXQgd29ya3MgYm90aCB3YXlzLiA8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7TGlja2VkPzwvVT48L1NUUk9ORz4gVWdnaC4gSSBkb24ndCBrbm93LiBJIHRoaW5rIEkgYml0IG15IEJlYXIgbGFzdCBGcmlkYXkuLi4uPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0F0ZT8gPC9VPjwvU1RST05HPkkgcGFzcyBvbiBDYW5uaWJhbGlzbS48QlI+PFNUUk9ORz48VT4tLS0mZ3Q7Q3Vyc2VkIG91dD88L1U+PC9TVFJPTkc+Jm5ic3A7VG8gdGhlaXIgZmFjZSwgSSBkb24ndCBrbm93LiBQcm9iYWJseSBteSBmYXRoZXIgYmVoaW5kIGhpcyBiYWNrPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0ludGVuc2lvbmFsbHkgaHVydD88L1U+PC9TVFJPTkc+IEludGVudGlvbmFsbHkuIE15c2VsZi4gSSBkb24ndCB0cnkgdG8gaHVydCBNdXUsIGp1c3QgYW5ub3kgaGVyPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1B1bmNoZWQ/IDwvVT48L1NUUk9ORz5CZWFyLCBpdCB3YXMgaGVyIGJpcnRoZGF5Li4uYndhaGFoYTxCUj48U1RST05HPjxVPi0tJmd0O0xvdmVkPzwvVT48L1NUUk9ORz4gSSBsb3ZlIGEgbG90IG9mIHBlb3BsZS4mbmJzcDsgSSBsb3ZlIG15IGZhbWlseSwgYW5kIG15IGZyaWVuZHMsIGFuZCBteSBQYW5kYSBhbmQgbXkgQmVhciBhbmQgbXkgQnVubmVoIGFuZCBQZW5ndWluLi4uLmFuZCB0aGUgVW5uYW1lZCBPbmUuLi4tU2lnaHMtPEJSPjxTVFJPTkc+PFU+LS0mZ3Q7RGFuY2VkIHdpdGg/PC9VPjwvU1RST05HPiZuYnNwOyBJIGRvbid0IGtub3cuIE9oIHdhaXQhIFFVSU5UITxCUj48U1RST05HPjxVPi0tLSZndDtTdGFsa2VkPzwvVT48L1NUUk9ORz4gSSBkb24ndCBzdGFsayBwZW9wbGUuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0hhdGVkPzwvVT48L1NUUk9ORz4gTmF0J3MgTW9tIGJlY2F1c2Ugc2hlIG1ha2VzIG15IFBhbmRhIHNhZCBhbmQgdXBzZXQ8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7R2F2ZSB0aGUgZmluZ2VyIHRvPzwvVT48L1NUUk9ORz4gWmFrLiBJIHJlbWVtYmVyIG5vdzxCUj48U1RST05HPjxVPi0tLSZndDtDcmllZCB3aXRoPyA8L1U+PC9TVFJPTkc+TXlzZWxmLiBNeSBtb20uIEkgZG9uJ3QgY3J5IHdpdGggYW55b25lIGVsc2UuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0ZvdWdodCB3aXRoPzwvVT48L1NUUk9ORz4gSSBkb24ndCByZW1lbWJlci4gSmVzcz8gSSBoYXZlIG5vIGlkZWEuPEJSPjxTVFJPTkc+PFU+LS0tJmd0O1RhbGtlZCB3aXRoPzwvVT48L1NUUk9ORz4gTXkgYnJvdGhlcjxCUj48U1RST05HPjxVPi0tLSZndDtMYXVnaGVkIHdpdGg/PC9VPjwvU1RST05HPiBNeXNlbGYgb3IgR2VybWFpbmUgYW5kIGhlciBzaXN0ZXIgSmFja3k8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7TWFkZSBibGVlZD88L1U+PC9TVFJPTkc+Jm5ic3A7SSBkb24ndCByZW1lbWJlciwgcHJvYmFibHkgd2hlbiBJIHN0YWJiZWQgbXlzZWxmIHdpdGggbXkgZmluZ2VybmFpbDxCUj48U1RST05HPjxVPi0tLSZndDtQbGF5ZWQgd2l0aD88L1U+PC9TVFJPTkc+IEV2ZSBhbmQgQm9ubmllLCB3ZSBwbGF5ZWQgb24gdGhlIGNvbXB1dGVyPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0F0ZSB3aXRoPzwvVT48L1NUUk9ORz4gTWVzZWxmPEJSPjxTVFJPTkc+PFU+LS0tJmd0O0h1bmcgb3V0IHdpdGg/PC9VPjwvU1RST05HPiBCZWFyIGFuZCBwZW9wbGU8QlI+PFNUUk9ORz48VT4tLS0mZ3Q7U3VuZyB3aXRoPzwvVT48L1NUUk9ORz4mbmJzcDtOQVRBTElFISEhISE8L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPiZuYnNwOzwvUD4NCjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PFNUUk9ORz48VT5JdCdzIE92ZXIhISE8L1U+PC9TVFJPTkc+PC9QPg0KPFA+PFNUUk9ORz48VT48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlMWTogJ1RpbWVzIE5ldyBSb21hbic7IG1zby1mYXJlYXN0LWZvbnQtZmFtaWx5OiAnVGltZXMgTmV3IFJvbWFuJzsgbXNvLWFuc2ktbGFuZ3VhZ2U6IEVOLVVTOyBtc28tZmFyZWFzdC1sYW5ndWFnZTogRU4tVVM7IG1zby1iaWRpLWxhbmd1YWdlOiBBUi1TQSI+LS0tJmd0O0RpZCB5b3UgbGlrZSB0aGlzIGFzc2Vzc21lbnQ/PC9TUEFOPjwvVT48L1NUUk9ORz48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlMWTogJ1RpbWVzIE5ldyBSb21hbic7IG1zby1mYXJlYXN0LWZvbnQtZmFtaWx5OiAnVGltZXMgTmV3IFJvbWFuJzsgbXNvLWFuc2ktbGFuZ3VhZ2U6IEVOLVVTOyBtc28tZmFyZWFzdC1sYW5ndWFnZTogRU4tVVM7IG1zby1iaWRpLWxhbmd1YWdlOiBBUi1TQSI+IFl1cHBlcnMhICdUd2FzIGZ1biE8L1NQQU4+PC9QPg0KPFA+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgRk9OVC1GQU1JTFk6ICdUaW1lcyBOZXcgUm9tYW4nOyBtc28tZmFyZWFzdC1mb250LWZhbWlseTogJ1RpbWVzIE5ldyBSb21hbic7IG1zby1hbnNpLWxhbmd1YWdlOiBFTi1VUzsgbXNvLWZhcmVhc3QtbGFuZ3VhZ2U6IEVOLVVTOyBtc28tYmlkaS1sYW5ndWFnZTogQVItU0EiPjwvU1BBTj4mbmJzcDs8L1A+DQo8UD48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlMWTogJ1RpbWVzIE5ldyBSb21hbic7IG1zby1mYXJlYXN0LWZvbnQtZmFtaWx5OiAnVGltZXMgTmV3IFJvbWFuJzsgbXNvLWFuc2ktbGFuZ3VhZ2U6IEVOLVVTOyBtc28tZmFyZWFzdC1sYW5ndWFnZTogRU4tVVM7IG1zby1iaWRpLWxhbmd1YWdlOiBBUi1TQSI+T2theS4gRW5vdWdoIGZvciBub3cuPC9TUEFOPjwvUD4="
+"eventtime","2004-09-29 16:59:00"
+"url","http://khelekmith.livejournal.com/3364.html"
+"userid","8042"
+"itemid","12"
+"event","I'm sorry I didn't tell you, I never use my livejournal really, so I never told you.  But I swear, I'm reformed, so I'll be all better and update and everything.
+
+And I hope you do/did know it, but I don't know if he likes me, only that I like him.  -Shrugs-  I wish I did know but nooooo boys have to be stupid.....
+
+But I didn't like him then,  it wasn't until March that I started to actually think...ya know.....he's not that bad.  But Germaine, I promise you, to make up for it, if you go to Semi, and something progresses with Congress guy, I'll ask him to Semi, okay? I promises. -Thinks she might regret it but it's for Germaine after all and this must be made up to her-
+
+And I <3 you Becky.   I appreciate knowing someone still reads this.  Argh I miss all of my little 7th graders! Even though they're frosh now, I still call them that....-Le Tear-
+
+ANYWAY
+
+What in the world am I going to post now? I've overused my xanga so here I am.
+
+Oh yes. Germaine, he's the only -Congress guy- in his town, and he goes to public school.  I got it off of an online yellow pages.  I also got Spitzer's number for Katie....but it was all in a joking way.  I found it in June or something...but yes, I am sly sometimes.  It's to make up for all the other times I'm so obvious.
+
+And now Father of the Pride is on and I MUST watch it.  
+
+But I heart and love you all....whoever you all are....especially Germaine-i-kins and Becky.
+
+I feel much, much better now"
+"eventtime","2004-09-28 20:54:00"
+"url","http://khelekmith.livejournal.com/3145.html"
+"userid","8042"
+"itemid","11"
+"event","...because they can't read minds and I can't read theirs.
+
+My life is boring.  That's why I haven't updated.  All you would have heard for the past three months is angst and boredom and some random teenage girl bitching about SUMMER VACATION and wanting to get back to school and so on and so forth.
+
+It's still like that, but now you have a teenage angst story bitching about the guy she likes who doesn't seem to even think about her and her homework and her tests and her fucking 3 tenths of a point difference between GPAs that pisses her off because of that DAMN RELIGON FINAL.
+
+You see? This is why I haven't updated.  I have no life and no luck. None at all. Or, very, very little.  Even my brother can pick up girls; why can't I pick up guys? And why is it that the only guys I have a chance with I don't like anymore? I'm sorry, but having a boyfriend to have a boyfriend defeats the purpose.  I don't just want a boyfriend.  I want a boyfriend I love and who loves me back.  Is that really so hard to ask?
+
+So it seems, yes.
+
+Because how else could a 15 year old, who will be turning 16 in less then 4 months, wind up with only 2 guys ever ask her out, one real boyfriend, and never being kissed? This, at a time where her friends do things FAR beyond kissing- or have at least kissed SOME random guy- and supposedly, there is nothing wrong with her.  She's not ugly, she's not mean all the time, she's funny, she's smart....
+
+WHERE ARE ALL THE GUYS WHO ARE LOOKING FOR THIS SORT OF GIRL AND WHY CAN'T THEY FIND ME?
+
+It's not like I need a boy, don't get me wrong.  I will breath my next breath with just as much ease as I did when I did have a boyfriend, if not more.  But at some point, your self confidence and esteem does start to drop a little and you start asking yourself, What went wrong? What's wrong with me?
+
+And it's not the Catholic High School, though the fact it is all girls prevents me from meeting many new guys. You should hear what my friends do.  The fact they see females everywhere does nothing to their social lives, except enhance it.
+
+Zak says I'm intimidating.  I guess that could be attributed to some places.
+
+But it seems, largely, that every single guy I have ever liked has not even known I exist, or has been unaware of the fact that that girl next to him? Yeah, her, with the brown hair, blue-gray eyes, and pale face screaming I'M IRISH OR SCOTTISH OR POLISH, TAKE YOUR PICK! Yesh, that girl.  She likes you.  That's why she talks to you and tries to make you laugh.  Just so you know.
+
+And now the one guy, the ONLY guy in recent times I have made any effort on my part to extend some subliminal message....she's crushing on you....DOESN'T SEEM TO GET IT.
+
+And you know, going up to them and telling you like them doesn't do anything.  I've done it before. Nada. Nothing. They ignore it.  Given, that was a long time ago, but it turned me off from making the first move.  And now I've made...one...two...three...four? Something like that.  But. He. Doesn't. Get. It.
+
+Or maybe he does but he's had a girlfriend all along he's madly in love with and can't be bothered to deal with some arrogant, smart-ass inhumane sophmore who lives an hour away.
+
+Gods I wish I could get into his mind, but I'd need to find a blog or something of his.  I'm not that psychic.  But nooooo it never works.  They never get it. BOYS SUCK. 
+
+I'm really glad no one reads this.  How terrified would they be of this random girl?
+
+Bleh. Forget I even asked, I don't want to know.
+
+-Starts to scream lyrics at the top of her lungs to give herself a sore throat or a headache and stop this nonsense-
+
+Gone, once you shone, I move on
+But I still find time to hide
+It's all buried deep inside, so it
+[Looks like you've] Found a way to reach my heart
+Take me all back to the start of this
+A million miles from home"
+"eventtime","2004-09-27 20:50:00"
+"url","http://khelekmith.livejournal.com/2966.html"
+"userid","8042"
+"itemid","10"
+"event","Independence Day, 2004
+
+I feel hyper, oh so hyper.....
+
+Alrighty.  Here's how my life rolls.  My boyfriend Zak dumped me the 22nd, sooo...1 week and 5 days ago. He won't tell me why.  He's such an asshole sometimes.  I moped and was all depressed and down, because, um, being dumped is not fun.  Zak is a drug.  He's addictive and makes you feel great and you love it but it also hurts, and eventually you have to decide between getting hurt or breaking the habit.
+
+Well, I already said I wouldn't take him back again and I won't.
+
+THE FUCK IS THAT? THERE IS A WOMAN SINGING OPERA SOMEWHERE!
+
+I am creeped out. Anyway. -Turns up her music more-
+
+But Chrissy and Katie came back and I cheered up a little. Well, a lot.  They took my mind off of him.  Thank god.  
+
+Now, you remember me telling you about this guy from Congress? No? I'll tell you just in case.
+
+I do Student Congress in Forensics, and one of the other Senator's is Peter.  Originally we fought a lot and yelled at each other because he had his pet bills and I spoke in negation of them and we got into tiffs a lot.  But I didn't really mind it, except when he implied I was lesbian.  That was a little over the line.
+
+But then at the last competition he didn't place (Though later we learned they had screwed up the scoring) and I felt so bad for him.  I went over and talked to him and I figured I wouldn't see him again until October. (This was in March). 'Twas sad- he really is one of the best debating partners I've ever had, and he's not all that bad once you pull him out of the Chamber.
+
+Then I learned he really did win 2nd cause of the scoring and went to Nationals in Boston. (HUZZAH!) I went crazy trying to download the results, and I finally got them, but through Chrissy.  Peter, Spitzer, Bendinelli, and Seeley all made it to finals, though none of them placed.
+
+I felt so proud of them all.  I pray Bendinelli was a senior this past year, along with Tran, because I have no chance of placing if they continue to be there.
+
+Sssssoooo.....you see, I have a crush on this Congress guy. Yeah. The guy who decided I was a Member of the Axis of Evil I am madly crushing on.  And he lives so far away...
+
+But because he did so well, I figured that it wouldn't be that weird if I called him to congradulate him.  I was going to do it the 2nd, but chickened out because I'm a coward.
+
+So randomly yesterday I pick up my phone and dial his number, praying I didn't make a fool of myself or would regret it.
+
+And I most certainly don't now.
+
+It went better then I hoped for.  We conversed for 20-30 minutes, mostly about Congress and Nationals.  It was lovely, he's got a very nice voice and he explained Nationals to me and then we talked about the SATs for a little and a little about various other members of the Chamber.
+
+Yegoroff did go to Nationals, Markman dropped out. Mwahaha. 
+
+Andand Peter thought I was a junior, which was rather amusing.  He said that this past Forensic year was an impressive Freshman year for me.  I felt so skilled.  Too bad he's going to be a senior, I wouldn't mind keeping him around.
+
+He also said 'Thanks for the call, it brought a smile to my face'. AW! It's so nice and sweet and almost entirely unlike Zak.  Mostly.  Then he said he had to go pack for a trip, and that he'd talk to me when he go back. YAY!
+
+He's also going to Yale so it's less then 111 more days, and he cut out the front page of the New York Times the day they announced the Supreme Court ordered that all the prisoners in Guantanamo Bay must be given a trial and put it on his wall.  That's so him.
+
+And that's all I can think of.  No, wait.  Now that I'm crushing on him, I've gotten over Zak.  He acts like an asshole, and if he asks me out again, I know what I'm going to say.  I can't get hurt again. Not by my own choice.  I love him, yes, but I love myself more- and of course, I can't just ignore Congress guy now can I?
+
+-Katie"
+"eventtime","2004-07-04 19:30:00"
+"current_moodid","59"
+"url","http://khelekmith.livejournal.com/2732.html"
+"userid","8042"
+"itemid","9"
+"event","I feel so off.  Why are you all reading this? It's just the useless meanderings of a disloyal, empty psyco who's nothing more then a satisfactory face and a bouncy exterior.  Why would anyone want to read the nonsense of a lying, overreacting over sensative bio nerd know-it-all? 
+
+I guess I'm just doomed to try to explain my desolation which is entirely self-imposed to no one, for why would anyone WANT to be here?
+
+At least I figured out how to work my fanfiction. Go read it. No. Read it if you like. http://www.fanfiction.net/read.php?storyid=1532289
+
+Like anyone really cares, though. I'm just wallowing in my self decrepitation, don't mind me.
+
+I feel like there's nothing left inside of me besides thought and hate and anger and fustration.  Nothing more, nothing less.  And a few spots of hyperness to cover it up.  
+
+What's there to say
+What's there to write
+What's there to contemplate
+When you're broken up inside
+
+What's there to cry out
+What's there to scream
+What's there to hold onto
+When what's shattered is your dreams
+
+What's there to think abotu
+What's there to berate
+What's there to make you smile
+When all  you have left it hate
+
+There's nothing left inside of me
+Everything has fled
+Just nothingness, all encompassing
+And an ever-growing dread....
+
+******
+
+I'm sinking, falling, tripping over myself
+In my haste to rid myself of this hate
+But who's there to catch me as I fall
+Down this cliff I helped to create
+
+Nothing left
+Nothing left inside
+Nothing left around
+Nothing surrounding me as I fall down
+
+Nothing seems to care
+And I don't want to share
+With nothing who only torments me...
+
+I'll leave you all alone now."
+"eventtime","2004-06-14 15:32:00"
+"current_moodid","40"
+"url","http://khelekmith.livejournal.com/2313.html"
+"userid","8042"
+"itemid","8"
+"event","I can't talk to anyone. It wasn't my mother who died, but for some reason, these thoughts won't leave me alone.  My mind is a whirl but I can't do anything about it.  The deaths seem to be adding on, growing ever closer, in time, in relationship to me.  I may just be paranoid, but it makes sense in my head, and right now that's all I care about.
+
+What's scary is for a moment I was jealous of Lindsay's mother, who died.  That shocked me to the core and now I don't even trust myself. 
+
+As people go, the first person I knew who died was my Pop-pop.  I was 9.  I never really knew hi-- I just realized this is just like Lovely Bones.  Anyway.  I never knew him.  I was frightened of him.  I'd hear stories about him, every once in a while.  My mother is a storyteller, but for some reason she doesn't talk about him much.  Next was my Aunt Mill, who knew only that I was Joe's oldest.  I hear lot's of stories about her, though.  I was...what...11? Maybe 12.  
+
+Neither of these affected me much.  
+
+Then my Uncle John, who's actually my great uncle, got hit by a car.  They couldn't even get his name right in the paper, isn't that sad? I don't think it's ever sunk in he's dead, we haven't been back since.  Added to that, the time before that, I remember him yelling at me or something, so my conscious realizes it, but I don't.
+
+That didn't make sense.  Whatever. I was 13. 13? Yes. 13. Had to be.
+
+Then my grandfather died.  This happened this past December.  He's been dead to me for so long, though.  He was an abusive alchoholic, and I haven't seen him alive since I was 9.  I was 14.  Everyone was upset- or most were- but of course, how are me and my brothers to get upset if we never knew him?
+
+Now the relevence of that.
+
+Looking up, not one of those has affected me very much.  Death has not touched me.  It lurks, everpresent above my father, the lack of it causing pain and then causing even more when I realize what that means.  But other then that, I have been strangely spared, and instead of feeling lucky, I feel like I've cheated Death.  
+
+I'm so afraid, so very afraid that once Death does reach into my life that it will be taking away someone close to me, someone I rely on.  That I will suffer for the years I did not.  And little by little, they do.
+
+My pop-pop and aunt were pretty close in actual affect on me; my parents were upset, but today I feel nothing saying that they're dead.  My uncle inched a little closer, because it hasn't sunk in, and I can still see him smiling and playing cards with us.  My grandfather, I never knew in person, but of my grandparents, he's undoubtably had the greatest, and will have the greatest affect on my life, though it's negative in it's entirety.
+
+Abusive behavior transcends generations and haunts more then just the direct children.  I remember, be it true or false, my father throwing my brother against the first landing of the stairs.  I do remember the violent fights.  That is my grandfather's fault.
+
+And even more then that, it is his cursed genes my father has, that maybe I have, that I'm so sure I do have, that are ripping my family apart, seam by seam, faster then my mother can sew it.  Because of that shadow, I cannot have children, not until I know.  Never until I know.
+
+And now Lindsay's mother, which frightens me for Lindsay and because Lindsay does call me mom sometimes, so I feel a distant kinship with her.
+
+Oh, this is such nonsense. Why do you care, dear reader? Why do you want to see into the mind of one who is over exaggerating her scars, one who lies, one who pretends never to cry, one who forgot her past and now is doomed to forever wonder if for that long she has been lying to herself.
+
+Why?"
+"eventtime","2004-06-13 19:59:00"
+"current_moodid","40"
+"url","http://khelekmith.livejournal.com/2299.html"
+"userid","8042"
+"itemid","7"
+"event","I apologize I'm such a bore everyone, I'm so out of it. My bio exam is on Tuesday so my brain is screaming BIOBIOBIOBIOspanishBIOBIOBIOBIOBIOBIOspa-BIOBIOBIOBIOBIOBIOB...soo...yeah. I'm very caught up in my obsessing over biology. And...and...I don't know. My lit exam yesterday was cruel. Religion and geometry were okay.
+
+HAHAH IF CHORDS INTERSECT THE PRODUCT OF THE TWO PIECES OF ONE CHORD IS EQUAL TO THE PRODUCT OF THE TWO PIECES OF THE OTHER CHORD I WAS RIGHT!!!
+
+It's too long until October, when Forensics starts again. -Is depressed-
+
+I realllllly miss Congress and all those pyscos, especially Owczarek. We just grate on each other, and when we get mad at each other (Or rather, he starts berateing me and I either just reply or we get into an involved conversation argueing the pros and cons of lowering FDA stadards). Yeah, he can be rather arrogant and crosses the line from 'mildly annoying' to 'downright insulting' but that's okay."
+"eventtime","2004-06-11 13:06:00"
+"current_moodid","99"
+"url","http://khelekmith.livejournal.com/1958.html"
+"userid","8042"
+"itemid","6"
+"event","VG8ganVtcCBiYWNrIGludG8gbXkgTEotaW5nIGV4cGVyaWVuY2UuLi55ZWFoLi4uLkknbSBwb3N0aW5nIGEgc3VydmV5LiBIb3cgaW52ZW50aXZlLg0KV2hhdCBkb2VzIHlvdXIgbmFtZSBtZWFuPyBTdXBwb3NlZCB0byBtZWFuIOKAmFB1cmUgTGlnaHTigJkuDQpIb3cgb2xkIGFyZSB5b3U/IDE1DQpIb3cgb2xkIGFyZSB5b3UgbWVudGFsbHkgKGFzIGluIGFyZSB5b3UgbWF0dXJlKT8gIERvIEkgaGF2ZSBzdWdhciBhbmQgd2hvIGFtIEkgYXJvdW5kPw0KRGVzY3JpYmUgeW91cnNlbGYgaW4gNSB3b3Jkcy4gSW5zYW5lLCBPYnNlc3NpdmUtQ29tcHVsc2l2ZS1QZXJmZWN0aW9uaXN0LCBEZXRlcm1pbmVkDQpXaGF0IGFyZSB5b3VyIHdvcnN0IHF1YWxpdGllcyBJIGhhdmUgYW5nZXIgaXNzdWVzIGFuZCBJIGxpa2UgYXR0ZW50aW9uIHBlcmhhcHMgYSBsaXR0bGUgdG9vIG11Y2gNCldoYXQgYXJlIHlvdXIgYmVzdCBxdWFsaXRpZXMgIC1CbGlua3MtIEkgaGF2ZSBnb29kIHF1YWxpdGllcz8gSSBndWVzcyB0aGF0IEnigJltIGRldGVybWluZWQsIHRoYXQgSSBjYXJlIGFib3V0IHBlb3BsZSwgdGhhdCB1c3VhbGx5IEnigJltIGEgZGVjZW50bHkgbmljZSBwZXJzb24NCkhvdyBsb25nIGRvZXMgaXQgdGFrZSB5b3UgZ2V0IGdldCByZWFkeSBpbiB0aGUgbW9ybmluZyBMaWtl4oCmLjQwIG1pbnV0ZXMNCg0KflNMRUVQfiANCkRvIHlvdSBkcmVhbSBhdCBuaWdodD8gIFllcywgdW5sZXNzIEnigJltIGluY3JlZGlibHkgdGlyZWQNCkRvIHlvdSByZW1lbWJlciB5b3VyIGRyZWFtcz8gIFVzdWFsbHkgbW9yZSBsaWtlIGZlZWxpbmdzDQpEZXNjcmliZSBvbmUuICBJIHJlbWVtYmVyIHJ1bm5pbmcgaW4gbXkgZnJvbnQgeWFyZCBhbmQgdGhpcyBndXkgcHVsbGVkIG91dCBhIGd1biBhbmQgSSBzY3JlYW1lZCBhbmQgdGhlbiB0aGVyZSB3YXMgYSBzaG904oCmLmFuZCB0aGVuIG5vdGhpbmcNCldoYXQgdGltZSBkbyB5b3UgZ28gdG8gYmVkIHVzdWFsbHk/IEFueXdoZXJlIGZyb20gMTA6MjArDQpXaGF0IHRpbWUgZG8geW91IHdha2UgdXAgbm9ybWFsbHk/IFNjaG9vbCBkYXlzLCA2OjQzLCB3ZWVrZW5kcywgd2hlbmV2ZXIgSSBmZWVsIGxpa2UgaXQNCldoYXQgdGltZSBkbyB5b3Ugd2FrZSBvbiB3ZWVrZW5kcz8gIExhdGUNCkRvIHlvdSBmaW5kIHdha2luZyBsYXRlIG5pY2Ugb3IgYW5ub3lpbmc/IERvIEkgbmVlZCB0byBnZXQgdG8gc2Nob29sIG9yIG5vdD8gDQpkbyB5b3Ugc2xlZXAgd2l0aCBvbmUgcGlsbG93IG9yIHR3bz8gRk9VUiENCn5TQ0hPT0x+IA0KRG8geW91IGxpa2Ugc2Nob29sPyBTaG91bGQgSSBsaWUgb3IgZ2V0IGF0dGFja2VkPw0KV2h5L3doeSBub3Q/ICBXZWxsLCBJIGRvbuKAmXQgbGlrZSB0byBsaWUsIGJ1dCBwaHlzaWNhbCB2aW9sZW5jZSAoV2hlbiBub3Qgc3RhcnRlZCBieSBtZSkgaXMgcmFyZWx5IHRoYXQga2luZCB0byBtZeKApi4NCldoYXRzIHlvdXIgZmF2ZSBzdWJqZWN0PyAgQmlvbG9neS4gQWx3YXlzLiBCaW9sb2d5LiBBbmQgaGlzdG9yeS4NCk1vc3QgaGF0ZWQgc3ViamVjdD8gUkVMSUdJT04uIEFuZCBTUEFOSVNIDQpEbyB5b3UgaGF2ZSBhIGZhdmUgdGVhY2hlcj8gTXJzLiBIaXJjZSENCkV2ZXIgaGFkIGEgY3J1c2ggb24gYSB0ZWFjaGVyPyDigJNTaHVkZGVycy0gVGhhdOKAmXMganVzdCB3ZWlyZC4NCkFyZSB5b3UgYSBtYXRocy9zY2llbmNlIHBlcnNvbiBvciBhbiBlbmdsaXNoL2RyYW1hIHBlcnNvbj8gSeKAmW0gYSBTY2llbmNlL0VuZ2xpc2gvRm9yZW5zaWNzIHBlcnNvbiwgYnV0IEkgZG8gZXZlcnl0aGluZy4NCn5GUklFTkRTfiANCkRvIHlvdSBoYXZlIGhlYXBzIG9mIGZyaWVuZHM/IEkgaGF2ZSBhIGRlY2VudCBhbW91bnQNCkRvIHlvdSBoYXZlIGEgYmVzdCBmcmllbmQ/ICBJIGhhdmUgZm91cg0KRG8geW91IGhhdmUgbW9yZSBndXkgZnJpZW5kcyBvciBtb3JlIGdpcmwgZnJpZW5kcz8gR2lybCwgSSBnbyB0byBhbiBhbGwgZmVtYWxlIHNjaG9vbA0KRG8geW91IGV2ZXIgZ2V0IGFubm95ZWQgYXQgYW55IGZyaWVuZD8gWW91IGtub3cgSSByZWFsbHkgZG8gbG92ZSB5b3UgQ2hyaXNzeeKApi4NCkhhdmUgeW91IGV2ZXIgbGllZCB0byBhIGZyaWVuZD8gTGl0dGxlIHdoaXRlIGxpZXMNCkhhdmUgeW91IGV2ZXIgc3RvbGVuIGEgZnJpZW5kcyBib3lmcmllbmQvZ2lybGZyaWVuZD8gTm8sIEkgd291bGQgZmVlbCBob3JyaWJsZSANCn5GQU1JTFl+IA0KRG8geW91IGxpa2UgeW91ciBwYXJlbnRzPyBVc3VhbGx5LCBlc3BlY2lhbGx5IG15IG1vbQ0KRXZlciBydW4gYXdheSBmcm9tIGhvbWU/IE5vDQpFdmVyIHRob3VnaHQgYWJvdXQgaXQ/IE5vdCByZWFsbHkNCkRvIHlvdSBoYXZlIGFueSBzaWJsaW5ncz8gWWFoLiBTYWRseS4gWFANCklmIHNvLCBkbyB5b3UgbGlrZSBvciBnZXQgYW5ub3llZCB3aXRoIHRoZW0/IEhhbGYgYW5kIGhhbGYuIFVzdWFsbHkgdGhlIHJ1bnRsaW5nIGRlbW9ucyBhbm5veSBtZSwgYnV0IHNvbWV0aW1lcyB0aGV54oCZcmUgc3dlZXQuDQpIb3cgb2xkIGFyZSB0aGV5PyAgQnJvdGhlcnMtIEFsbW9zdCAxMyBhbmQgQWxtb3N0IDEyDQpJZiBub3QsIGRvIHlvdSBtaW5kIGJlaW5nIGFuIG9ubHkgY2hpbGQ/IC1TaWdocy0NCkRvIHlvdSBmZWVsIHlvdXIgcGFyZW50cyBzcG9pbCB5b3U/IE5vdCBhbnltb3JlLCBteSBmYXRoZXIgdXNlZCB0byBzcG9pbCBtZSwgYnV0IG5vdCBzbyBtdWNoIGFueSBsb25nZXINCkRvIHlvdSBub3QgZ2V0IGFsb25nIHdpdGggYW55IG9mIHlvdXIgZmFtaWx5PyBNeSBhdW50LiBFbm91Z2ggc2FpZC4NCkRvIHlvdSBoYXZlIGJpZyBmYW1pbHkgZ2V0IHRvZ2V0aGVycyBldmVyPyBZZXMuIFRoZXnigJlyZSBjcmF6eSBhbmQgaW5zYW5lbHkgc2NhcnkuDQp+UkVMQVRJT05TSElQU34gDQpEbyB5b3UgaGF2ZSBhIGJveWZyaWVuZC9naXJsZnJpZW5kPyBZZXMNCklmIHNvLCBhcmUgeW91IGluIGxvdmUgd2l0aCB0aGVtPyBVbSwgZHVoDQpEbyB0aGV5IGxvdmUgeW91PyAgIEkgY2VydGFpbmx5IGhvcGUgc28NCkhvdyBsb25nIGhhdmUgeW91IGJlZW4gdG9nZXRoZXI/IEl04oCZbGwgYmUgNiB3ZWVrcyB0aGlzIFRodXJzZGF5LCBhbHRvZ2V0aGVyIDEyIHdlZWtzIGFuZCAxIGRheSBvbiBUaHVyc2RheSANCk1vc3Qgcm9tYW50aWMgdGhpbmcgdGhleeKAmXZlIGV2ZXIgZG9uZSBmb3IgeW91PyBJ4oCZbSBub3Qgc3VyZQ0KRG8geW91IGhhdmUgYSBjcnVzaD8gIFdvdWxkbuKAmXQgbXkgYm95ZnJpZW5kIGNvdW50Pw0KSWYgc28sIGFyZSB5b3UgaW4gbG92ZT8gSSByZXBlYXQsIG15IGJveWZyaWVuZCBjb3VudD8NCkRvIHRoZXkga25vdyB5b3UgbGlrZSB0aGVtPyBEVUggSeKAmU0gSElTIEZSSUdHSU7igJkgR0lSTEZSSUVORCENCklzIGl0IHNlcmlvdXMgb3IgcGxheWZ1bD8gIC1TaWdocyBhbmQgcHV0cyBoZXIgaGVhZCBpbiBoZXIgaGFuZHMtDQpIb3cgbG9uZyBoYXZlIHlvdSBsaWtlZCB0aGVtPyBIb3cgY29tZSB5b3UgaGF2ZSBtb3JlIHF1ZXN0aW9ucyBmb3IgY3J1c2hlcyB0aGVuIGZvciBib3lmcmllbmRzL2dpcmxmcmllbmRzPw0KRXZlciBkb25lIHNvbWV0aGluZyBzdHVwaWQgdG8gaW1wcmVzcyB0aGVtPyBOYWguIEkgZG8gc3R1cGlkIHRoaW5ncyB3aXRob3V0IG1lYW5pbmcgdG8sIGl0IHdvdWxkbuKAmXQgaW1wcmVzcyBoaW0sIGp1c3Qgd29ycnkgaGltDQpIYXZlIHlvdSBldmVyIGV4cGVyaWVuY2VkIHVucmVxdWl0ZWQgbG92ZT8gTmFoLCB0aG9zZSB3ZXJlIGp1c3QgY3J1c2hlcywgbm90IGxvdmUNCkRvIHUgZmluZCBpdCByb21hbnRpYyBvciBodXJ0ZnVsPyBIdXJ0ZnVsLCBkdWgNCkV2ZW4ga25vdyB3aGF0IGl0IGlzPyAgWXVwLiBMb3ZlIHRoYXQgaXMgbm90IHJldHVybmVkIG9yIGFuc3dlcmVkDQoNCn5TZXh+IA0KRXZlciBoYWQgc2V4PyBOby4NCmJlbGlldmUgdGhhdCBhIHBlcnNvbiBzaG91bGRudCBoYXZlIHNleCBiZWZvcmUgbWFycmlhZ2U/IEkgY2FuIG9ubHkgZGVjaWRlIGZvciBtZS4gSWYgeW914oCZcmUgc2VsZiBzdWZmaWNpZW50LCBoYXZlIGEgam9iLCBoYXZlIGEgbWVhbnMgZm9yIGFueSBwb3NzaWJsZSBiYWJ5LCBhbmQgYXJlIG91dCBvZiBzY2hvb2wtIHdobyBhbSBJIHRvIHRlbGwgeW91IG5vPw0KQmVsaWV2ZSBpbiBjYXN1YWwgc2V4PyBOby4NCldoZW4gZG8geW91IHBsYW4vd2hlbiBkaWQgeW91IGxvc2UgeW91ciB2aXJnaW5pdHk/IE5vdCB1bnRpbCBJIGdyYWR1YXRlIGZyb20gaGlnaCBzY2hvb2wgYXQgdmVyeSBsZWFzdCwgcHJvYmFibHkgbm90IHVudGlsIGFmdGVyIGNvbGxlZ2UNCkRpZCB5b3UgcmVncmV0IGl0PyBOb3BlLg0KflJlbGlnaW9ufiANCkRvIHlvdSBoYXZlIGEgcmVsaWdpb24/IE5vcGUNCkRvIHlvdSBwcmFjdGljZSBpdCBpLmUgZ28gdG8gY2h1cmNoPyBOb3BlDQpEbyB5b3UgYmVsaWV2ZSBpbiBHb2Q/IEkgYmVsaWV2ZSBpbiBhIGhpZ2hlciBiZWluZywgYnV0IEkgZG9u4oCZdCBrbm93IGlmIGl04oCZcyBtYWxlLCBmZW1hbGUsIG5laXRoZXIsIGJvdGgsIG9yIGlmIGl0IGNhbiBkbyBhbnl0aGluZyBhYm91dCBteSBsaWZlLSBJIGp1c3QgYmVsaWV2ZSB0aGF0IHRoZXJlIGlzIEEgKG9yIG1vcmUgdGhlbiBvbmUpIGdyZWF0ZXIgdGhpbmcgb3V0IHRoZXJlDQpKZXN1cz8gSSBiZWxpZXZlIGhlIGxpdmVkLg0KU2F0YW4/IE5vLiBXZWxsbGzigKYubm8uIA0KSGVhdmVuPyBTb21ldGhpbmcgbGlrZSBpdA0KSGVsbD8gTm90IHJlYWxseS4gT25seSBmb3IgcGVvcGxlIHdobyBkaWQgaG9ycmlkLCBob3JyaWQgdGhpbmdzLCBsaWtlIEhpdGxlci4NCklmIHlvdSBkaWVkIHRvbW9ycm93IHdoYXQgZG8geW91IGJlbGlldmUgd2lsbCBoYXBwZW4gdG8geW91PyBJIGJlbGlldmUgbm8gbGl2aW5nIGJlaW5nIGNhbiBhbnN3ZXIgdGhhdCBxdWVzdGlvbiwgYmVjYXVzZSB3ZSB3b3VsZCBuZXZlciB0cnVseSBsaXZlIHRoZW4tIGVpdGhlciB3ZSB3b3VsZCBiZSB0b28gYWZyYWlkIHRvIGxpdmUsIG9yIHdlIGNvdWxkbuKAmXQgd2FpdCB0byBnZXQgb3V0IA0KRG9lcyBkZWF0aCBzY2FyZSB5b3U/IERlYXRoIGl0c2VsZiwgbmV2ZXIuDQp+TW9yYWxzfiANCkhhdmUgeW91IGV2ZXIgYmVlbiBkcnVuaz8gTm8uIE5ldmVyIGhhdmUsIG5ldmVyIHBsYW4gdG8gYmUgc28uDQp0YWtlbiBkcnVncz8gQ29kZWluZSBhbmQgYWR2aWwNCnN0b2xlbj8gTm8sIG5vdCB0aGF0IEkgcmVtZW1iZXINCnNob3BsaWZ0ZWQ/IE5vcGUuDQp0cmllZCB0byBjb21taXQgc3VpY2lkZT8gTm90IHJlYWxseeKApg0KTGllZCB0byBhIGJveWZyaWVuZCBvciBnaXJsZnJpZW5kPyBMaXR0bGUgd2hpdGUgbGllcywgcHJvYmFibHkNCmdvdHRlbiBpbnRvIGEgZmlnaHQ/ICBEdWguDQphcmUgeW91IG1vcmUgaW5ub2NlbnQgb3IgZ3VpbHR5PyBBcmUgeW91IHdvcmtpbmcgZm9yIG15IHBhcmVudHMgb3Igd2hhdD8NCldvdWxkIHlvdSBkYXRlIGEgZHJ1ZyBhZGRpY3Q/IE5vcGUuIEl04oCZcyB0aGUgZHJ1Z3Mgb3IgbWUsIGNhbuKAmXQgaGF2ZSBib3RoLg0KaGF2ZSB5b3UgZXZlciBoYWQgdG8gbG9vayBhZnRlciBzb21lb25lIHdobyB3YXMgYSBkcnVnIGFkZGljdD8gTm9wZQ0KQXJlIHlvdSByYWNpc3Q/IEluIG15IHRvd24geW91IGNhbuKAmXQgYmUgYW5kIHN1cnZpdmUgdGhpcyBsb25nDQpBcmUgeW91IGRpc2NyaW1pbmF0b3J5IHRvIGFueW9uZT8gSSBkb27igJl0IHRoaW5rIHNvDQpIYXZlIHlvdSBiZWVuIGEgaHlwb2NyaXRlIGluIHRoZSBwYXN0PyBIdW1hbiBuYXR1cmUgdG8gYmUgaHlwb2NyaXRpY2FsDQpEbyB5b3UgaGF2ZSBhbiBvcGVuIG9yIGNsb3NlZCBtaW5kIHRvIG90aGVyIHBlb3BsZXMgYmVsaWVmcyBhbmQgZmVlbGluZ3M/IE9wZW4sIGFzIGxvbmcgYXMgdGhleSBkb27igJl0IGZvcmNlIGl0IG9uIG1lDQp+TWVkaWF+IA0KRG8geW91IHdhdGNoIHRvbnMgb2YgdHY/IE5vDQpIb3cgbWFueSB0aW1lcyBoYXZlIHlvdSBiZWVuIHRvIHRoZSBtb3ZpZXMgaW4gdGhlIHBhc3QgNiBtb250aHM/IEnigKZoYXZlIG5vIGlkZWEuDQpEbyB5b3UgbGlzdGVuIHRvIHRoZSByYWRpbyBvZnRlbj8gWWFoDQpEbyB5b3UgcmVhZCB0aGUgbmV3c3BhcGVyPyBZZXMNCkRvIHlvdSByZWFkIG1hZ2F6aW5lcz8gWXVwcGVycw0KQXJlIHlvdSBhIGNvdWNoIHBvdGF0bz8gTm8sIG1vcmUgb2YgYSBjb21wdXRlciBjaGFpciBwb3RhdG8NCkRvIHlvdSB1c2UgdGhlIGludGVybmV0IHRvbyBtdWNoPyAgWW91IGNhbiBuZXZlciBoYXZlIHRvbyBtdWNoDQoNCn5NdXNpY34gDQpXaGF0cyB5b3VyIGZhdmUgc3R5bGUgb2YgbXVzaWM/IFJvY2sgYW5kIHNvdW5kdHJhY2tzDQpEbyB5b3UgcGxheSBhbiBpbnN0cnVtZW50PyBObw0KRG8geW91IHNpbmc/IE5vcGUNCldoYXRzIHlvdXIgZmF2ZSBiYW5kPyBJIGRvbuKAmXQganVzdCBoYXZlIG9uZSENCldoeT8gQmVjYXVzZSB0aGVyZeKAmXMgdG9vIG1hbnkgSSBsb3ZlIQ0KSGF2ZSB5b3UgbWV0IHRoZW0gYmVmb3JlPyBBcmdoIQ0KTmFtZSAzIGNkcyB0aGF0IHlvdXZlIGJvdWdodCBpbiB0aGF0IGxhc3QgeWVhci4gVW1t4oCmVGhyZWUgRGF5cyBHcmFjZSAoYnkgVGhyZWUgRGF5cyBHcmFjZSksIHVtbeKAplRoZSBQYXRyaW90LCBMYXN0IG9mIHRoZSBNb2hpY2Fucw0KV2h5IGRpZCB5b3UgYnV5IHRoZW0/IEJlY2F1c2UgSSBsaWtlIHRoZW0/DQoNCn5TcG9ydH4gDQpXaGF0cyB5b3VyIGZhdmUgc3BvcnQ/IFNvY2Nlciwgc2thdGluZw0KV2hhdHMgeW91ciBmYXZlIHNwb3J0IHRvIHdhdGNoPyBTa2F0aW5nDQpEbyB5b3UgaGF2ZSBhIGZhdmUgdGVhbSBvZiBhbnkgc29ydD8gUkVEIFNPWCENCkRvIHlvdSBwbGF5IGEgbG90IG9mIHNwb3J0cz8gU29jY2VyIGFuZCBza2F0aW5nDQpldmVyIHdvbiBhbnl0aGluZyBmb3Igc3BvcnQ/IFNrYXRpbmcuIElzbuKAmXQgdGhpcyByZXBldGl0aXZlPw0KDQp+cGVyb3NuYWxpdHl+IA0KQXJlIHlvdSBmdW5ueSBvciBzZXJpb3VzPyBEZXBlbmRzIG9uIHdobyBJ4oCZbSB3aXRoIGFuZCB0aGUgc2l0dWF0aW9uDQpDcmVhdGl2ZSBvciBub3Q/IE5vdCByZWFsbHkNCkxvZ2ljYWwgdGhpbmtlciBvciBsYXRlcmFsIHRoaW5rZXI/IER1bm5vDQpBcmUgeW91IG91dGdvaW5nIG9yIHNoeT8gVXN1YWxseSBvdXRnb2luZw0KQXJlIHlvdSBsYXp5IG9yIGFjdGl2ZT8gQm90aA0KSGF2ZSB5b3UgZXZlciBiZWVuIGh5cGVyYWN0aXZlPyAgSEEhIEhhdmUgeW91IG1ldCBtZT8NCkFyZSB5b3UgYSBuYXR1cmFsbHkgaHlwZXJhY3RpdmUgcGVyc29uPyDigKYueW91IG11c3Qgbm90IGJlIGZyb20gYXJvdW5kIG15IHBsYW5ldCwgSeKAmW0gZnJvbSBFYXJ0aC4gSGkuDQoNCn5Mb29rc34gDQpBcmUgeW91IGhhcHB5IHdpdGggdGhlIHdheSB5b3UgbG9vaz8gVXN1YWxseQ0KV2hhdCB3b3VsZCB5b3UgY2hhbmdlPyBHZXQgcmlkIG9mIHNvbWUgb2YgbXkgZnJlY2tsZXMsIGNoYW5nZSBteSBmYWNlIHNvIGl04oCZcyBub3Qgc2/igKZiaWfigKYudGhhdOKAmXMgaXQsIHJlYWxseQ0KRG8geW91IHdlYXIgbWFrZXVwIHJlZ3VsYXJseT8gTm9wZQ0KRG8geW91IGhhdmUgYSBsYXJnZSB3YXJkcm9iZT8gTm90IHJlYWxseQ0Kfk1vbmV5fiANCkRvIHlvdSBoYXZlIGEgam9iPyBCYWJ5c2l0dGluZw0KRG8geW91IGxpa2UgaXQ/IFdlbGwgZW5vdWdoDQpBcmUgeW91IGEgc2F2ZXIgb3IgYSBzcGVuZGVyPyBTcGVuZGVyLCBidXQgSSBzYXZlIGFuZCB0aGVuIHNwZW5kIGl0IGFsbCBhdCBvbmNlDQpEbyB5b3Ugd29yayBoYXJkIG9yIHNsYWNrIG9mZj8gRGVwZW5kcyBvbiB3aGF0DQpIYXZlIHlvdSBldmVyIGJlZW4gZmlyZWQ/IE5haA0KSW4gdHJvdWJsZSBhdCB3b3JrPyBOb3QgcmVhbGx5DQpNYWRlIGEgbWFqb3IgbWlzdGFrZT8gTm9wZQ0KRXZlciBoYWQgbW9uZXkgc3RvbGVuIGZyb20geW91PyBZZWFoDQpBcmUgeW91IGFsd2F5cyBicm9rZT8gWWVhaOKApg0KDQp+ZW1iYXJhc3NpbmcgbW9tZW50c34gDQpZb3VyIGFsbCB0aW1lIG1vc3QgZW1iYXJhc3NpbmcgbW9tZW50PyBIYWhhIGxpa2UgSeKAmWQgdGVsbCB5b3UNCkV2ZXIgc25vcnRlZCBkcmluayBvdXQgeW91ciBub3NlPyBOb+KApi4tU2hpZnR5IGdsYWNlLQ0KRXZlciBnaWdnbGVkIGxpa2UgYW4gaWRpb3Q/IEnigJltIG5vdCBzdXJlDQpFdmVyIGVtYmFyYXNzZWQgeW91cnNlbGYgYW5kIHByZXRlZG5lZCBub3RoaW5nIGhhcHBlbmVkPyBJc27igJl0IHRoYXQgd2hhdCBldmVyeW9uZSBkb2VzDQpFdmVyIHRyaXBwZWQgaW4gZnJvbnQgb2Ygc29tZW9uZSB5b3UgbGlrZWQ/IFllYWgNCkV2ZXIgc2FpZCBzb2VtdGhpbmcgcmVhbGx5IHN0dXBpZD8gRXJtLCBkdWgNCkV2ZXIgc25vcnRlZCB3aGlsZSBsYXVnaGluZz8gWUVTIQ0KRXZlciBmYWxsZW4gb2ZmIGEgYmVkPyBOb3QgcmVjZW50bHkNCkV2ZXIgc2xlZXB3YWxrZWQ/IE5vLg0KRXZlciBzbGVlcHRhbGtlZD8gWWVz4oCmYWNjb3JkaW5nIHRvIHNvbWXigKYNCg0Kfk1lbW9yaWVzfiANCldoYXRzIHlvdXIgYmVzdCBtZW1vcnk/IFRvbyBtYW55DQpXb3JzdD8gLUdyb3dzIHF1aWV0LQ0KV2hhdHMgdGhlIHdpZXJkZXN0IG1lbW9yeSB5b3UgaGF2ZT8gIFRvb29vb28gbWFueQ0KRG8geW91IGhhdmUgYSBnb29kIG1lbW9yeT8gLi4uT0YgQ09VUlNFIEkgRE8sIElESU9UISENCldoYXRzIHRoZSBjb29sZXN0IGhvbGlkYXkgeW91IHJlbWVtYmVyIGhhdmluZz8gTkVXIFlFQVJTIDIwMDQhDQoNCn5UaG91Z2h0c34gDQpFdmVyIGhhZCBmdW5ueSB0aG91Z2h0cyBhbmQgbGF1Z2hlZCBhbmQgbm8gb25lIHVuZGVyc3Rvb2QgeW91PyBObyBvbmUgZXZlciB1bmRlcnN0YW5kcyBtZQ0KV2hhdHMgdGhlIGZpcnMgdGhvZ2h0IHRoYXQgY29tZXMgdG8geW91ciBoZWFkIHdoZW4geW91IGhlYXIgdGhlc2UgbmFtZXM/IA0KTWVsaXNzYSBNRUxIT1JOOiBhbmQgaGVyIGZvb3QNCkJvYjogQmlvDQpWYW5lc3NhOiBKZXN0DQpBbHlzc2E6IEdpcmwgZnJvbSBzY2hvb2wNCkplc3M6IEkgTE9WRSBUSEVNIEJPVEghDQpCcmlhbjogQ3Jhc2hpbmcgY2FycyBhbmQgTUlUDQpDaGFybGllOiBDSE9DT0xBVEUhDQpPbGl2aWE6IEtyaXN0ZW7igKbigJlkcmlua2luZyBkYSBiZWVy4oCm4oCZDQpEcmV3OiBBbmRyZXfigKYNCkxpbHk6IEhhcnJ5IFBvdHRlciwgbWUNCkFuaXRhOiBEdW5ubw0KDQpXaGF0cyB0aGUgZmlyc3QgdGhvdWdodHMgdGhhdCBjb21lIHRvIHlvdXIgaGVhZCB3aGlsZSBoZWFyaW5nIHRoZXNlIHdvcmRzPyANCmNoZWVzZTogWVVNDQpydWJiZXI6IGR1Y2t5IQ0KY2xvdGhlczog4oCmYW5kPw0KYmlnOiBiYW5nDQpkcmVzczogT2theSB0aGVu4oCmDQpqYWNrZXQ6IERJU0dVU1RJTkcgQkxBWkVSDQpwb2x5ZXN0ZXI6IHl1Y2sNCmtpdGU6ICBOT1QgT04gR0VPTUVUUlkgRklOQUwgWUVTIQ0Kd2FzaGluZzogQ2Fycw0KDQpBTkQgSSBXSUxMIEhBVkUgTUFTVEVSRUQgS1VTQUJJIChIT1BFRlVMTFkpIEJZIFRIVVJTREFZIFlBWUFZQVlBWSENCg0KT2theSBJJ20gZG9uZSBub3cu"
+"eventtime","2004-06-08 21:18:00"
+"current_moodid","98"
+"url","http://khelekmith.livejournal.com/1556.html"
+"userid","8042"
+"itemid","5"
+"event","ANOTHER Survery for your viewing pleasure.
+
+Okay.
+I lied.
+
+I actually stole it from this- this- I don't know that the hell it is, something you can join on LJ. I saw Carmel with it at Jess's birthday party. I love filling things out. -Obviously is a tad full of herself- And so I sorta stole it and will post it here. Maybe I'll feel like joining and submit it. It's an application thing. Yah. I hope the CIA doesn't hunt me down.
+
+Basics
++Name: Kathryn. But it's wiser to call me Katie.
++Age: 15
++Location: In front of my computer
++Level of Education: I have almost completed 9th grade
+
+Personality
++Describe yourself using only adverbs: (Haha I remember what these are) Stubbornly argumentatively uniquely athletically interestedly me-ly.
++Name two of the best aspects of your personality: Determination- I don't give up- and humor- I find a way to laugh even when my world is crashing down around me.
++Name two of the worst aspects of your personality: Temper- I have fustration and anger issues- and vengeful-ness. I never forget.
++What are you most passionate about?: In defense or otherwise about topics I believe in, for things I believe should happen.
++In what way(s) are you better than everybody else?: I am best at being uniquely me- whether it be laughing at 'Football' when she falls, cracking jokes when I'm being dumped for another girl, argueing over habeus corpus and torture, never giving up, and always trying to do as best I can.
++Mood you are most frequently in: Generally I am hyper or in a form of the before mentioned mood.
++What makes you happiest?: Attaining something I wanted dearly, acheiveing something I dreamed about, doing well.
++Do you consider yourself intelligent? Why?: Yes. I suppose the easiest way out of this question is by presenting my grades. But I consider myself intelligent because I love to read; because I love to learn; because I look at the stars and not only marvel at their beauty but also marvel at their intricacy, and how they came to be.
++To the best of your knowledge, are you an introvert or an extrovert?: Most definatly an extrovert. I might not be the life of the party, but I'm always loud and talking, exuding energy, not containing it.
++List some things that piss you off: People who use too many abbreviations, Congress speeches that don't progress, When my computer doesn't work, When I can't get something to work, When I fail, When what I do isn't enough, When people are unfair.
++Are you a very judgmental person? In what way?: No, I don't think so. I try extremely hard to always to be open minded. While we all judge people- it's human nature- I try my best not to let it show.
++What makes you laugh?: Everything. My friends, myself, my parents, my brothers, I laugh easily.
++What do you look for in a friend?: Loyalty, trustworthy, funny, able to withstand my chatter, doesn't try to change me, accepts me.....
+
+Interests
++Most recent book you've read: Prince of Dogs, I believe, was the last one I finished.
++Most recent movie you've seen: The Patriot.
++Favorite animal: I can never just pick one, I enjoy so many.
++Favorite ice cream flavor: Chocolate chip cookie dough
++Favorite food: Chocolate and sugar. 
++Favorite season: Winter
++Favorite person: I don't have one, there are so many people I adore who have touched my life how can I just pick one?
+
+Beliefs
++Drugs: This is a rather vague topic. I would never take drugs because it would wreak havoc on skating and soccer and my life in general. I swore I would kill Zak if I ever heard of him doing drugs again. But it's hard to explain my actual feelings on them, except that our government needs to stop being so damn idiotic and using scapegoats instead of fixing their mistakes.
++Abortion: Pro-choice. If you want one, get one. If you don't agree with them, don't get one. Deciding since you think it's a sin no one else can get an abortion is selfish, self absorbed, and defeats the purpose. You can't use someone else's conscience for your own and thats what I see not allowing abortion is.
++Media: Media is our society's scapegoat. Many of the problems blamed on tv and radio have been around for centuries, far before such things were even thought of. Media did not make society; society made media. We need to stop blaming them and get our own asses in gear if we want to change something.
++Love: Love is the reason for life. To find it, to scorn it, to search for it, to bore of it, that is why we are here.
++Morality: We all die someday, live life to fullest. Death is merely another beginning.
++Evolution: I accept it. I don't really have any other thoughts on it.
++Materialism: Today's society is incredibly wrapped up in what we can get to hold in our hands, but so have generations of us behaved. At least today most of us don't wed for financial gain; I don't think it's as prevelent and horrifying as some make it out to be.
+
+Other
++If you chose to be reincarnated as another animal, what would you like to be?: I'm not sure. Perhaps some sort of bird, to fly; perhaps a killer whale, to swim; or perhaps a squirrel, to be annoying.
++What societal problem concerns you most? Are you going to do anything about it?: There are so many problems that it's hard just to pick one. But right now, it disgusts me that gay and lesbian couples are not allowed to marry. I feel this is a violation of their Constitutional right to 'pursuit of happiness' and if this is still going on once I get out of law school, I'll argue it in front of the Supreme Court if need be.
++Where would you like to go most?: Go somewhere were I would be accepted 
++What do you want to be when you grow up?: A lawyer or a molecular biologist
++Are you trendy?: No.
++How many people have you kissed or been kissed by? (Doesn't include family members): One.
++If you had approximately 24 hours left to live, what would you do?: I would call each and every one of my friends (If I couldn't get over to their house to see them), and do the same with my family members. I would go skating and then swim; I would run in a field with my brothers kicking around a soccer ball. I would write a letter to any I couldn't get a hold of, and letters to my brothers and friends, and then go eat chocolate and sugar.
++Name five things you'd like to do before you die:
+
+1. Get my Gold Medal for my Moves Tests
+2. Find someone I truly love- preferably my soulmate
+3. Be a senator for at least one term
+4. Make a difference in someone's life
+5. Touch someone's heart
+
++Last thing you dreamt about: I don't remember, honestly. 
++What person, dead or alive, would you like to spend a day with? Why?: I think my mother's father, my Pop-pop. I never really knew him because he was old and I was young and I was afraid of him. Now I wish I had spent the time to talk to him, to learn about him, because there was no bond between us and I regret it.
++Pick something, anything (animal, object, place) that, to you, is symbolic of yourself. Why?: 
+
+My father is being an annoyance and making me get off. I'll post the last answer later."
+"eventtime","2004-04-13 12:46:00"
+"url","http://khelekmith.livejournal.com/1388.html"
+"userid","8042"
+"itemid","4"
+"event","RHVlIHRvIHBvcHVsYXIgcmVxdWVzdC4uLkFscmlnaHQsIGR1ZSB0byBtZSBiZWluZyBib3JlZCBhbmQgbmVlZGluZyBzb21ldGhpbmcgdG8gZG8sIEkgd2lsbCBub3cgZG8gYSBzdXJ2ZXkgdG8gdGVsbCB5b3UgYWxsIG1vcmUgYWJvdXQgTUUuIElzbid0IHRoaXMgeW91ciBsdWNreSBkYXk/DQoNCjAwMS4gV2hhdCBpcyB5b3VyIG5hbWU/ICBLYXRpZSwgb3IgS2F0aHJ5biwgYnV0IGNhbGwgbWUgVEhBVCBhdCB5b3VyIG93biByaXNrLg0KMDAyLiBTcGVsbCB5b3VyIG5hbWUgYmFja3dhcmRzOiAgRWl0YWsgKG9raWUgdGhlbikgTnlyaHRhaw0KMDAzLiBEYXRlIG9mIGJpcnRoOiAgSmFudWFyeSAyMywgMTk4OQ0KMDA0LiBNYWxlIG9yIGZlbWFsZT8gIEZlbWFsZS4gIFdoYXQgc29ydCBvZiBuYW1lIHdvdWxkIEthdGllIGJlIG9uIGEgQk9ZPw0KMDA1LiBBc3Ryb2xvZ2ljYWwgc2lnbjogIEFxdWFyaXVzIGFuZCBEcmFnb24uIA0KMDA2LiBOaWNrbmFtZShzKTogS2F0aWUsIEthdGUsS2F0ZXMsIERhcnRoUGl4aWUsIEhpa2FyaSwgVGhlIEdyZWF0IE9uZS4uLnRoZSBsaXN0IGJlIGVuZGxlc3MuDQowMDcuIE9jY3VwYXRpb24/ICBJIHNrYXRlLCBwbGF5IHNvY2NlciwgYW0gYSBzdHVkZW50LCBhbmQgYW0gZ29pbmcgdG8gYmUgYSBsYXd5ZXIsIHRoZSBwcmVzaWRlbnQsIGFuZCBSVUxFIFRIRSBXT1JMRCEhISEgT3IgSSdsbCBiZWNvbWUgYSBtb2xlY3VsYXIgYmlvbG9naXN0LCBmaW5kIG91dCBob3cgdG8gYnJhaW53YXNoIGFsbCBjcmVhdHVyZXMgYW5kIFJVTEUgVEhFIFdPUkxEISEhIFNvIGVpdGhlciB3YXksIGJvdy4gQm93IHRvIG1lLiAtSW5zaWRlIGpva2UtDQowMDguIEhlaWdodDogICA1JzMiLiBJJ20gc2hvcnQuDQowMDkuIFdlaWdodDogIEFib3V0IDExNSBsYnMuDQowMTAuIEhhaXIgY29sb3I6ICBCcm93biB3aXRoIGdvbGQgYW5kIHJlZCBuYXR1cmFsIGhpZ2hsaWdodHMuDQowMTEuIEV5ZSBjb2xvcjogIEJsdWUtZ3JleS1ncmVlbi15ZWxsb3cuLi5pdCBjaGFuZ2VzLi4uDQowMTIuIFdoZXJlIHdlcmUgeW91IGJvcm4/ICBOZXcgWW9yayBDaXR5IGluIE5ZVS4NCjAxMy4gV2hlcmUgZG8geW91IHJlc2lkZSBub3c/ICBOZXcgSmVyc2V5ISANCjAxNC4gQWdlOiAgMTUNCjAxNS4gU2NyZWVuIG5hbWVzOiAgRGFydGhQaXhpZU5pa2UgDQowMTYuIEUtbWFpbCBhZGRyZXNzOiAgbGliZXJ0eWRlc3RpbnkNCjAxNy4gV2hhdCBkb2VzIHlvdXIgc2NyZWVuIG5hbWUgc3RhbmQgZm9yPyAgRGFydGggY2F1c2UgSSBiZSBvYnNlc3NlZCB3aXRoIFN0YXIgV2FycywgUGl4aWUgY2F1c2UgSSBiZSBoeXBlciBhbmQgbWlzY2hpZXZlb3VzLCBhbmQgTmlrZSBjYXVzZSBpdCBtZWFucyB2aWN0b3J5DQowMTguIFdoYXQgaXMgeW91ciBESiBuYW1lPyBESj8gUXVlPw0KMDE5LiBXaGF0IGRvZXMgeW91ciBkaWFyeSBuYW1lIHN0YW5kIGZvcj8gIFVtbS4uLi4tQmxpbmstDQogMDIwLiBQZXRzOiAgRG9nOiBCbGl0eiBha2EgRnV6emxlIENhdHM6IFNhYnJpbmEgYW5kIENvbWV0IGFuZCBGaXNoOiBPc2Nhcg0KMDIxLiBOdW1iZXIgb2YgY2FuZGxlcyB5b3UgYmxldyBvdXQgb24geW91ciBsYXN0IGJpcnRoZGF5IGNha2U/ICAxNiwgSSB0aGluaw0KMDIyLiBQaWVyY2luZ3M/ICBOb25lLCBJIERFU1BJU0UgbmVlZGVzDQowMjMuIFRhdHRvb3M/ICBOb25lLiBUaG9zZSBpbnZvbHZlIHNoYXJwIHBvaW50eSB0aGluZ3MuDQowMjQuIFNob2Ugc2l6ZTogIDgNCjAyNS4gUmlnaHR5IG9yIGxlZnR5PyBSaWdodHkNCjAyNi4gV2VhcmluZzogVGlua2VyYmVsbGUgc2hpcnQsIHBqIGJvdHRlbXMsIGFuZCBhIHN3ZWF0c2hpcnQuDQowMjcuIEhlYXJpbmc6ICBOb3RoaW5nLiAgUGVvcGxlIHRhbGtpbmcsIG1lIHR5cGluZy4gIEluc2lkZSBteSBoZWFkPyBUaGUgdm9pY2VzLi4uLU5vZG5vZC0NCjAyOC4gRmVlbGluZzogIEFubm95ZWQgd2l0aCBaYWssIHJhdGhlciBoeXBlciwgYm91bmN5Lg0KMDI5LiBFYXRpbmcvZHJpbmtpbmc6ICBDaGV3aW5nIGd1bQ0KDQotRnJpZW5kcyBTdHVmZi0NCldoaWNoIG9uZSBvZiB5b3VyIGZyaWVuZHMgaXMgdGhlLi4uLg0KMDMwLiBDcmF6aWVzdD8gIE1lLCBUb3JyZW4sIEJyaXQsIEFsbGlzb24sIEpvc2guIEFuZCBMaW5kc2F5Lg0KMDMxLiBMb3VkZXN0PyAgTWUsIEFsbGlzb24gYW5kIExpbmRzYXkNCjAzMi4gTmljZXN0PyAgSG1tbS4uLkkgY2FuJ3Qgc2F5LCB0aGV5J3JlIGFsbCB0b28gbG92ZWx5DQowMzMuIEJpdGNoaWVzdD8gSWYgSSBkaXNjbG9zZWQgdGhlIHBlcnNvbidzIG5hbWUsIEkgd291bGRuJ3QgYmUgaGVyZQ0KMDM0LiBMaWZlIG9mIHRoZSBwYXJ0eT8gIERlcGVuZHMNCjAzNS4gSm9jaz8gICpkaWVzKiBJIGR1bm5vLCBJIHBsYXkgc3BvcnRzLiAgQWxsIG15IGZyaWVuZHMgcGxheSBzcG9ydHMuICBCdXQgbm8gam9ja3MNCjAzNi4gUHJlcD8gIEVybS4uLkFiYnkuIA0KMDM3LiBSZWJlbD8gIFBhaWdlLg0KMDM4LiBDdXRlc3Q/ICBDdXRlIGFzIGluIE9NRyBJVCdTIEFOIEFET1JBQkxFIENISVBNVU5LPyBIb2xseS4NCjAzOS4gQmVzdCBmcmllbmQgb2YgdGhlIHNhbWUgc2V4PyAgVG9ycmVuIGFuZCBKZXNzIGFuZCBLYXRpZQ0KMDQwLiBCZXN0IGZyaWVuZCBvZiB0aGUgb3Bwb3NpdGUgc2V4PyAgUmlnaHQgbm93PyBJIHNjb3JuIHRoZSBtYWxlIGdlbmRlci4NCjA0MS4gTW9zdCBwb3B1bGFyPyAgTm90IHN1cmUuDQowNDIuIFJ1ZGVzdD8gIE1lLiAgSSBzdXBwb3NlIHNheWluZyBhbnl0aGluZyBlbHNlIGNvdWxkIGJlIHBhaW5mdWwNCjA0My4gTW9zdCBzaHk/ICBObyBjb21tZW50DQowNDQuIER1bWJlc3Q/IE5PVCBNRSEhIER1bWIgaXMgaW4gdGhlIGV5ZSBvZiB0aGUgYmVob2xkZXIuDQowNDUuIFNtYXJ0ZXN0PyBNZSwgYXQgc29tZSB0aGluZ3MsIGFuZCBtZSBvdGhlciBkdWRlcyBhdCBvdGhlcnMNCjA0Ni4gV2VpcmRlc3Q/ICBUb3JyZW4uICBBbmQgU2hlcnlsLCBhdCB0aW1lcy4gIEFuZCBaYWsuICBBbmQgSm9zaC4gIERlZmluYXRseSBsYXN0IHR3bw0KMDQ3LiBIYXMgdGhlIGJlc3QgaGFpcj8gTm8gY29tbWVudA0KMDQ4LiBCZXN0IHBlcnNvbmFsaXR5PyAgSSBzaW1wbHkgY2Fubm90IGp1ZGdlIGZyb20gc3VjaCBhIHZhcmlldHkgb2YgbmF0dXJlcw0KMDQ5LiBNb3N0IHRhbGVudGVkPyBBdCB3aGF0Pw0KMDUwLiBNb3N0IGdoZXR0bz8gIFdhdCB1cCwgaG9taWVzPyAtQ2Fja2xlcy0NCjA1MS4gTW9zdCBzcG9pbGVkPyAgS3Jpc3Rlbi4gIERvZXMgc2hlIGNvdW50IGFzIGEgZnJpZW5kPw0KMDUyLiBEcmFtYSBxdWVlbj8gIERlcGVuZHMuIFByb2JhYmx5IG1lLg0KMDUzLiBQYWluIGluIHRoZSBhc3M/ICBBbGwgb2YgdXMgaW4gYSBob3VzZSB0b2dldGhlciB3aXRoIHN1Z2FyDQowNTQuIEZ1bm5pZXN0PyAgRGVwZW5kcy4gIERvZXMgc2FyY2FzbSBjb3VudD8NCjA1NS4gQmVzdCBhZHZpY2UgZ2l2ZXI/ICBBZHZpY2Ugb24gd2hhdD8gDQowNTYuIERydWdnaWU/ICBTc3Nzc3N1dXV1dXVnZ2dnYWFhYWFycnJycnJyci4uLi4uLi4uLi1DaGV3cyBQaXhpZVN0aXgtDQowNTcuIE1vc3QgbGlrZWx5IHRvIGpvaW4gYSBjdWx0PyAgTm8gY29tbWVudA0KMDU4LiBIYXZlIHlvdSBsb3N0IHRvdWNoIHdpdGggYSBnb29kIGZyaWVuZCByZWNlbnRseT8gRG9lcyB0d28geWVhcnMgYWdvIGNvdW50IGFzIHJlY2VudD8NCjA1OS4gUGVyc29uIHlvdSd2ZSBiZWVuIGZyaWVuZHMgd2l0aCB0aGUgbG9uZ2VzdD8gIEplc3MuLi50aGVuIEthdGllLi4uDQowNjAuIEhvdyBtYW55IGZyaWVuZHMgZG8geW91IGhhdmUgb24geW91ciBidWRkeSBsaXN0PyAgNDAsIEkgdGhpbmsNCg0KLUdpcmxzL0xvdmUvS2lzc2luZy9BbmQgT3RoZXIgU3R1ZmYtDQowNjEuIEhhdmUgeW91IGV2ZXIgYmVlbiBpbiBsb3ZlPyAgLVNpZ2gtLi4uLlllYWguLi4uDQowNjIuIEhvdyBtYW55IHBlb3BsZSBoYXZlIHlvdSB0b2xkICJJIGxvdmUgeW91Ij8gIGFuZCBtZW50ICJpIHdhbm5hIGZ1Y2sgeW91Ij8gIC1CbGluay0gTm9uZS4gWW91IGRpc3R1cmIgbWUuDQowNjMuIEhvdyBtYW55IHBlb3BsZSBoYXZlIHlvdSBiZWVuIGluIGxvdmUgd2l0aD8gLUNvdW50cy0gT25lLCB0d28uLi50aHJlZS4uLjMuDQowNjQuIEhvdyBtYW55IHBlb3BsZSBoYXZlIHlvdSBraXNzZWQ/ICBBcyBpbiBtb3V0aC10by1tb3V0aD8gTm9uZS4NCjA2NS4gSGF2ZSB5b3UgZXZlciBraXNzZWQgc29tZW9uZSBvZiB0aGUgc2FtZSBzZXg/ICBNeSBjb3VzaW5zLCBteSBtb20uLi5teSBhdW50cy4uLi4gDQowNjYuIEhvdyBtYW55IHBlb3BsZSBoYXZlIHlvdSBkYXRlZD8gIFR3by4NCjA2Ny4gV2hhdCBkbyB5b3UgbG9vayBmb3IgaW4gYSBndXkvZ2lybD8gIEV5ZXMuLi4uZnVubnkuLi5ncmVhdCBwZXJzb25hbGl0eS4uLmhhaXIuLi5iZWluZyBhYmxlIHRvIHN0YW5kIG15IGNvbnN0YW50IGNoYXR0ZXIuLi4uDQowNjguIFdoYXQncyB0aGUgZmlyc3QgdGhpbmcgeW91IG5vdGljZSBhYm91dCB0aGUgb3Bwb3NpdGUgc2V4PyAgIEV5ZXMNCjA2OS4gV2hhdCB0eXBlIG9mIGd1eS9naXJsIGRvIHlvdSB1c3VhbGx5IGdvIGZvcj8gIE5vIGNvbW1lbnQNCjA3MC4gRG8geW91IGhhdmUgYSBiZi9nZj8gTm8uDQowNzEuIElmIHNvIHdoZXJlIGRpZCB5b3UgbWVldCB0aGVtPyAgU2VlIGFib3ZlDQowNzIuIFdoYXQgZG8geW91IGxpa2UgbW9zdCBhYm91dCB5b3VyIGJmL2dmPyAgU0VFIEFCT1ZFIQ0KMDczLiBEbyB5b3UgaGF2ZSBhIGNydXNoIHJpZ2h0IG5vdz8gVGhhdCBpbmZvIGlzIHVuZGVyIGxvY2stYW5kLWtleS4gIFlvdSBhcmUgbm90IGFsbG93ZWQgdG8ga25vdw0KMDc0LiBJZiBzbyB3aG8gaXMgaXQ/ICBNeSBnb2QsIFdIQVQgSVMgSVQgQUJPVVQgTE9DSy1BTkQtS0VZIERPTidUIFlPVSBVTkRFUlNUQU5EPz8/DQowNzUuIERvIHlvdSBiZWxpZXZlIGluIGxvdmUgYXQgZmlyc3Qgc2lnaHQ/ICBZZWFoDQowNzYuIERvIHlvdSByZW1lbWJlciB5b3VyIGZpcnN0IGxvdmU/ICBJIHRoaW5rIGl0IHdhcyBsb3ZlLi4uDQowNzcuIFdobyBpcyB0aGUgZmlyc3QgcGVyc29uIHlvdSBraXNzZWQ/IEtpc3NlZCBob3c/DQowNzguIERvIHlvdSBiZWxpZXZlIGluIGZhdGU/ICBEZXN0aW55LCB5ZXMuICBGYXRlLCBuby4gQW5kIHllcyB0aGV5J3JlIGRpZmZlcmVudA0KMDc5LiBEbyB5b3UgYmVsaWV2ZSBpbiBzb3VsIG1hdGVzPyAgWWVzLi4uaG9wZWxlc3Mgcm9tYW50aWMgaGVyZS4uLg0KMDgwLiBJZiBzbyBkbyB5b3UgYmVsaWV2ZSB5b3UnbGwgZXZlciBmaW5kIHlvdXJzPyAgSSBjYW4gb25seSBob3BlDQoNCi1GYW1pbHkgU3R1ZmYtDQoxMDQuIEhvdyBtYW55IHNpYmxpbmdzIGRvIHlvdSBoYXZlPyAgMg0KMTA1LiBXaGF0IGFyZSB5b3VyIHBhcmVudHMgbmFtZXM/ICBKb3NlcGggYW5kIFBhdWxhDQoxMDYuIFdoYXQgYXJlIHlvdXIgc2libGluZ3MgbmFtZXM/ICAyIGJyb3MsIEdyZWcgYW5kIE1hdHQNCjEwNy4gSG93IG1hbnkgc2libGluZ3MgZG9lcyB5b3VyIG1vdGhlciBoYXZlPyAgMw0KMTA4LiBIb3cgbWFueSBzaWJsaW5ncyBkb2VzIHlvdXIgZmF0aGVyIGhhdmU/ICA3DQoxMDkuIFdoZXJlIGFyZSB5b3VyIHBhcmVudHMgZnJvbT8gIE1hc3NhY2h1c2V0dHMgYW5kIEJyb29rbHluLCBiYWJ5ISBTb3JyeSwgYWx3YXlzIHdhbnRlZCB0byBkbyB0aGF0DQoxMTAuIElzIHlvdXIgZmFtaWx5IGNsb3NlPyAgLVR1Z3MgYXQgcm9wZS0gWWVhaA0KMTExLiBEb2VzIHlvdXIgZmFtaWx5IGdldCB0b2dldGhlciBmb3IgaG9saWRheXM/ICBVaC1odWgNCjExMi4gRG8geW91IGhhdmUgYSBkcnVuayB1bmNsZT8gIC1SZWZ1c2VzIHRvIGFuc3dlci0NCjExMy4gQW55IG1lZGljYWwgcHJvYmxlbXMgcnVuIHRocm91Z2ggeW91ciBmYW1pbHk/ICBIbW0uLi5jYW5jZXIsIGNhbmNlciwgY2FuY2VyLCBvaCwgYW5kIGNhbmNlciwgaGVhcnQgcHJvYmxlbXMsIGNhbmNlciwgZGlhYmV0ZXMsIEh1bnRpbmd0b25zLi4ucHJldHR5IG11Y2gsIHdoYXQgRE9FU04nVD8NCjExNC4gRG9lcyBzb21lb25lIGluIHlvdXIgZmFtaWx5IHdlYXIgYSB0b3VwZWU/IE5vdCB0aGF0IEkga25vdyBvZi4uLi1sb29rcyBhdCBwZW9wbGUgc3VzcGljaW91c2x5LQ0KMTE1LiBEbyB5b3UgaGF2ZSBhbnkgbmllY2VzIG9yIG5lcGhld3M/ICAtTG9va3MgYXQgYWdlcyBvZiBicm90aGVyczogMTIgYW5kIDExLSBOTyEhISANCjExNi4gQXJlIHlvdXIgcGFyZW50cyBkaXZvcmNlZD8gICBObw0KMTE3LiBEbyB5b3UgaGF2ZSBzdGVwIHBhcmVudHM/ICBObw0KMTE4LiBIYXMgeW91ciBmYW1pbHkgZXZlciBkaXNvd25lZCBhbm90aGVyIG1lbWJlciBvZiB5b3VyIGZhbWlseT8gIE5vdCB0aGF0IEkga25vdyBvZi4uLmlzbid0IHRoYXQgdGhlIHBvaW50Pw0KMTE5LiBJZiBzbyBmb3Igd2hhdD8gICBTZWUgYWJvdmUNCjEyMC4gRGlkIHNvbWUgb2YgeW91ciBmYW1pbHkgY29tZSB0byBBbWVyaWNhIGZyb20gYW5vdGhlciBjb3VudHJ5PyBVaCwgeWFoLiBGcm9tIC10YWtlcyBkZWVwIGJyZWF0aC0gUG9sYW5kLCBBdXN0cmlhLCBHZXJtYW55LCBJcmVsYW5kLCBJdGFseSwgU2NvdGxhbmQuLi4NCg0KIC1NdXNpYyBTdHVmZi0NCjEyMS4gV2hhdCBzb25nIGRvIHlvdSBzd2VhciB3YXMgd3JpdHRlbiBhYm91dCB5b3Ugb3IgeW91ciBsaWZlPyAgU29tZXdoZXJlIEkgQmVsb25nIGJ5IExpbmtpbiBQYXJrLCBJIEhhdGUgRXZlcnl0aGluZyBBYm91dCBZb3UgYnkgVGhyZWUgRGF5cyBHcmFjZQ0KMTIyLiBXaGF0J3MgdGhlIG1vc3QgZW1iYXJyYXNzaW5nIENEIHlvdSBvd24/ICBNeSBCcml0bmV5IFNwZWFycyBjZA0KMTIzLiBXaGF0J3MgdGhlIGJlc3QgQ0QgeW91IG93bj8gQWxsIG9mIHRoZW0sIGVzcGVjaWFsbHkgbXkgTGlua2luIFBhcmsgYW5kIEV2ZW5lc2NlbmNlIGFuZCBteSBTb3VuZHRyYWNrcy4NCjEyNC4gV2hhdCBzb25nIGRvIHlvdSBhYnNvbHV0ZWx5IGhhdGU/IFImQiBBTllUSElORyENCjEyNS4gRG8geW91IHNpbmcgaW4gdGhlIHNob3dlcj8gIFl1dXBlcnMhIF5+Xg0KMTI2LiBXaGF0IHNvbmcgcmVtaW5kcyB5b3Ugb2YgdGhhdCBzcGVjaWFsIHNvbWVvbmU/ICAgJ1RoYXQnIHNwZWNpYWwgc29tZW9uZT8gV2hvIGlzIHRoaXMgJ3RoYXQnIHNwZWNpYWwgc29tZW9uZT8gQW5kIFdIWSBkbyB5b3UgYmVsaWV2ZSBJIGtub3cgdGhlbT8gLVNoaWZ0eSBnbGFuY2UtDQoNCi1Pa2F5LCBJIE5hbWUgQW4gQXJ0aXN0IEFuZCBZb3UgR2l2ZSBBIEx5cmljIEZyb20gQW55IE9uZSBPZiBUaGVpciBTb25ncyEtDQoxMjcuIFBpbms6ICBOZXZlciB3aW4gZmlyc3QgcGxhY2UsIGRvbid0IHN1cHBvcnQgdGhlIHRlYW0sIGNhbid0IHRha2UgZGlyZWN0aW9ucyBhbmQgbXkgU09DS1MgYXJlIG5ldmVyIGNsZWFuDQoxMjguIEFlcm9zbWl0aDogIGFuZCBJIGRvbid0IHdhbnQgdG8gbWlzcyBhIHRoaW5nDQoxMjkuIE1hZG9ubmE6ICBBbWVyaWNhbiBMaWZlDQoxMzAuIEtvcm46IEkgZHVubm8NCjEzMS4gQmFja3N0cmVldCBCb3lzOiBjYXVzZSBJIHdhbnQgaXQgdGhhdCB3YXkNCjEzMi4gVGhlIEJlYXRsZXM6ICBIZWxwLCBJIG5lZWQgc29tZWJvZHksIGhlbHAsIG5vdCBqdXN0IGFueWJvZHkuLihEdWgsIHRoZXkncmUgb24gY3JhY2sgZm9yIENocmlzdCdzIFNha2UhKQ0KMTMzLiBTdWJsaW1lOiBZbyBubyBzZSBlbGxvcyDigJNTbWFja3MgaGVhZC0gWW8gbm8gY29ub3pjbyBlbGxvcyBkZSBTdWJsaW1lISEhDQoxMzQuIEouTG86ICAtZ2Fncy0gLU1vY2tzLSBJJ20ganVzdCBKZW5ueSBmcm9tIHRoZSBibG9jay4uLi1nYWdzIGFnYWluLQ0KMTM1LiBOc3luYzogIGRpcnR5IHBvcA0KMTM2LiBMaW1wIEJpemtpdDogIE9raWUgdGhlbi4uLi4NCjEzNy4gQnJpdG5leSBTcGVhcnM6ICBTaGUncyBzbyBsdWNreSwgc2hlJ3MgYSBzdGFyDQoxMzguIENyZWVkOiAgQ2hpbGRyZW4sIGRvbid0IHN0b3AgZGFuY2luZw0KMTM5LiBFbnJpcXVlIElnbGVzaWFzOllvdSBjYW4gcnVuLCB5b3UgY2FuIGhpZGUsIGJ1dCB5b3UgY2FuJ3QgZXNjYXBlIG15IGxvdmUhDQoxNDAuIEdvb2QgQ2hhcmxvdHRlOiBJIGRvbid0IGtub3cgdG9vIG11Y2ggYWJvdXQsIHRvbyBtdWNoIG9mIG15IG9sZCBtYW4NCjE0MS4gQ2hyaXN0aW5hIEFndWlsZXJhOiAgTWFrZXMgbWUgdGhhdCBtdWNoIHN0cm9uZ2VyLCBtYWtlcyBtZSB3b3JrIGEgbGl0dGxlIGJpdCBoYXJkZXIuLi4NCjE0Mi4gRW1pbmVtOiAgKSolJCgmXl4kJCkkJSYqKCVeIyYqKF4qJV4gaGVoZSBIQUhBSEEhIC1TaW5ncy0gU28gdGhlIEZDQyB3b24ndCBsZXQgbWUgYmUsIG9yIGxldCBtZSBiZSBtZSBzbyBsZXQgbWUgc2VlLCB0aGV5IHRyaWVkIHRvIHNodXQgbWUgZG93biBvbiBNVFYsIGJ1dCBpdCBmZWVscyBzbyBlbXB0eSB3aXRob3V0IG1lLCBub3cgdGhpcyBsb29rcyBsaWtlIGEgam9iIGZvciBtZSwgc28gZXZlcnlvbmUsIGp1c3QgZm9sbG93IG1lLCBjYXVzZSB3ZSBuZWVkIGEgbGl0dGxlLCBjb250cmF2ZXJzeSwgY2F1c2UgaXQgZmVlbHMgc28gZW1wdHkgd2l0aG91dCBtZQ0KMTQzLiBPZmYgU3ByaW5nOiAgIFF1aWVuPw0KMTQ0LiBLZWxseSBDbGFya3NvbjogIE1pc3MgSW5kZXBlbmRlbnQNCjE0NS4gS2VsbHkgT3Nib3VybmU6IFNIVVQgVVAhDQoxNDYuIE1hbmR5IE1vb3JlOiAgLUdhZ3MtIFN0dXBpZCBDdXBpZA0KMTQ3LiBLaWQgUm9jazogIFdobz8gT2hoaC4uLmkgYWluJ3Qgc2VlIHRoZSBzdW5zaGluZSBpbiwgMyBkYW1uIGRheXMNCjE0OC4gQWFsaXlhaDogIC1TbWFja3MgaGVhZC0gDQoxNDkuIE5lbGx5OiAgaXRzIGdldHRpbiBob3QgaW4gaGVycnJycnJyICgoISEgS1JJU1RFTiEpKQ0KMTUwLiBBbGljaWEgS2V5czogIEktaS1pIGtlZXAgb24gZmFsbGluJywgaW4gYW5kIG91dCwgb2YgbG92ZSwgd2l0aCB5b3UNCjE1MS4gSW5jdWJ1czogIC1CbGluay0NCg0KLUZhdm9yaXRlcy0NCjE1Mi4gQ29sb3I6ICBHcmF5LCBzaWx2ZXIsIGJsdWUsIGdyZWVuLi4uLiANCjE1My4gRm9vZDogIFN1Z2FyPyBBbmQgQ29va2llcyENCjE1NC4gU29uZzogSG1tbS4uLlBhcGVyY3V0IGJ5IExpbmtpbiBQYXJrLiAgSXRzIGJvdW5kIHRvIGNoYW5nZSBieSB0b21vcnJvdw0KMTU1LiBTaG93OiAgV0VTVCBXSU5HIQ0KMTU2LiBTY2hvb2wgc3ViamVjdDogIEJpbw0KMTU3LiBCYW5kL3NpbmdlcjogIExpbmtpbiBQYXJrLCBMb3N0UHJvcGhldHMsIE5pY2tlbGJhY2ssIFN0b3J5IG9mIHRoZSBZZWFyLCBUaHJlZSBEYXlzIEdyYWNlLCBIb29iYXN0YW5rDQoxNTguIEFuaW1hbDogRHJhZ29ucywgc3F1aXJyZWxzLCBmbGFtbWluZ29zLi4uLg0KMTU5LiBPdXRmaXQ6ICBNeSBzd2VhdHBhbnRzIGFuZCBteSB0aW5rZXJiZWxsZSBzaGlydA0KMTYwLiBSYWRpbyBzdGF0aW9uOiBaMTAwIQ0KMTYxLiBNb3ZpZTogIFNhdmUgdGhlIExhc3QgRGFuY2UsIFNjaGluZGxlcidzIExpc3QsIFN0YXIgV2FycywgTG9yZCBvZiB0aGUgUmluZ3MNCjE2Mi4gUGFpciBvZiBzaG9lczogIFNuZWFrZXJzLCBhbmQgbXkgc2thdGVzIC1IdWdnbGVzLQ0KMTYzLiBDYXJ0b29uIDogIFRpbnkgVG9vbnMhDQoxNjQuIEFjdG9yOiBWaWdnbyBNb3J0ZXNlbi4uLkFyYWdvcm4uLi4tZHJvb2xzLSBIYXlkZW4gQ2hyaXN0aWFuLCBNYXJ0aW4gU2hlZW4uLi4NCjE2NS4gQWN0cmVzczogIE5BVEFMSUUgUE9SVE1BTiwgTElWIFRBWUxPUiwgQU5EIFRIRSBDSiBQRVJTT04uDQoxNjYuIFBvdGF0byBjaGlwOiBTb3VyIENyZWFtIGFuZCBPbmlvbiBhbmQgcnVmZmxlcyBhbmQgbGF5cywgcGxhaW4NCjE2Ny4gRHJpbms6ICBSb290IGJlZXIgYW5kIG1pbGsNCjE2OC4gQWxjaG9saWMgZHJpbms6ICBJIGRvIG5vdCBlbmdhZ2UgaW4gc3VjaCBpZGlvdGljIG9mIHJvdXRpbmVzDQoxNjkuIEhvbGlkYXk6IENocmlzdG1hcywgSGFsbG93ZWVuLCBteSBiLWRheSAoU29vbiB0byBiZSBuYXRpb25hbCBob2xpZGF5IF5+XikgQU5EIFNQUklORyBCUkVBSyEhIQ0KMTcwLiBQZXJmdW1lL2NvbG9nbmU6ICBJIGRvbid0IGRvIHRoYXQNCjE3MS4gUGl6emEgdG9wcGluZzogIENoZWVzZSENCjE3Mi4gSmVsbG8gZmxhdm9yOiAtQmxpbmstDQoxNzMuIEx1bmNoIG1lYXQ6ICBEb2VzIFR1bmEgY291bnQ/IFJvYXN0IGJlZWYsIHRoZW4uDQoxNzQuIEJvYXJkIGdhbWU6ICBVbW1tbS4uLmhtbW0uLi4NCjE3NS4gVmlkZW8gZ2FtZTogIEZGIGFuZCBNYXJpbyBLYXJ0DQoxNzcuIEJvb2s6ICBIT1cgQ0FOIFlPVSBKVVNUIFBJQ0sgT05FPz8/Pz8NCjE3OC4gQ29tcHV0ZXIgZ2FtZTogICp0YWNrcyBvdmVyIHdvcmxkKiBDaXZpbGF6YXRpb04hIEl0IGlzIHRoZSBiZXN0LiAgVGhlcmUgaXMgbm90aGluZyBiZXR0ZXINCjE3OS4gTnVtYmVyOjMsIDEzLCAyMw0KMTgwLiBDZXJlYWw6ICBJIGR1bm5vDQoxODEuIENvbWVkaWFuOiAgUm9iaW4gV2lsbGlhbXMhDQoxODIuIERlc3NlcnQ6ICBTVUdBUiBBTkQgQ09PS0lFUyENCjE4My4gRGlzbmV5IGNoYXJhY3RlcjogIFRpbmtlcmJlbGxlLCBhaGhoLi4uLi10aGlua3MtIEFuZCBaYXp1LiAgQU5EIFRIRSBMTEFNQSEgQ1VaQ08hDQoxODQuIENsb3RoaW5nIHN0b3JlOiAgS29obHMsIERlbGlhJ3MsIGFoaGguLi5wbGFjZXMuLg0KMTg1LiBQYXN0dGltZTogUmVhZGluZywgd3JpdGluZywgY29tcHV0ZXIsIHNrYXRpbmcsIHNvY2Nlcg0KMTg2LiBUZWFjaGVyOiAgTXJzLiBIaXJjZSBhbmQgTXMuIENhbXBiZWxsDQoxODcuIENoaWxkaG9vZCB0b3k6ICBJIGxpa2VkIG15IGRvbGxzIGFuZCBib29rcw0KMTg4LiBDYXJuaXZhbCBnYW1lL3JpZGU6ICBIbW1tLi4uSSBsaWtlIHRoZSBmbHlpbmcgY2hhaXJzDQoxODkuIENhbmR5IGJhcjogIFJlZXNlcyBQZWFudXQgQnV0dGVyIEN1cHMsIEhlcnNoZXksIEtpdCBLYXQuLi5hbnl0aGluZyB3aXRoIGNob2NvbGF0ZQ0KMTkwLiBNYWdhemluZTogIFNrYXRpbmcgbWFnYXppbmUsIHJlYWRlcnMgZGlnZXN0LCB5bSANCjE5MS4gU2FsYWQgZHJlc3Npbmc6IFl1Y2shISEhIERvZXNuJ3Qgc2FsZWQgaGF2ZSBHUkVFTiB0aGluZ3MgaW4gaXQ/Pz8NCjE5Mi4gVGhpbmcgdG8gZG8gb24gdGhlIHdlZWtlbmQ6IGNvbXB1dGVyLCByZWFkLCBzbGVlcCwgdGFsayB0byBwZW9wbGUsIHBsYXkgc29jY2VyDQoxOTMuIEhvdCBkcmluazogSG90IGNob2NvbGF0ZQ0KMTk0LiBTZWFzb246IFdpbnRlcg0KMTk1LiBTcG9ydCB0byB3YXRjaDogRmlndXJlIHNrYXRpbmcuIEkgaGF2ZW4ndCBiZWVuIGFibGUgdG8gd2F0Y2ggc29jY2VyIHNpbmNlIFVTIGxvc3Qgc28gaG9ycmlibHkgdG8gR2VybWFueSBsYXN0IFdvcmxkIEN1cC4uLi1IaWRlcy0NCjE5Ni4gUGVyc29uIHRvIHRhbGsgdG8gb25saW5lOiAgUGVvcGxlDQoNCi1Zb3VyIEJlZHJvb20vU2xlZXBpbmcgSGFiaXRzLQ0KMTk3LiBXaGF0IGNvbG9yIGFyZSB5b3VyIHNoZWV0cz8gIEkgZG8gbm90IG9ubHkgcG9zc2VzcyBvbmUgc2V0DQoxOTguIFdoYXQgY29sb3IgYXJlIHlvdXIgYmVkcm9vbSB3YWxscz8gIExpZ2h0IHllbGxvdy4uLmJ1dHRlcm1pbGsNCjE5OS4gRG8geW91IGhhdmUgcG9zdGVycyBvbiB5b3VyIHdhbGw/ICBZZWFoLi4uDQoyMDAuIElmIHNvIG9mIHdoYXQ/ICBQaWN0dXJlcyBhbmQgSSBoYXZlIHRoZSBDb25zdGl0dXRpb24sIGFuZCBvdGhlciBpbXBvcnRhbnQgZG9jdW1lbnRzLCBhbmQgTG9yZCBvZiB0aGUgUmluZ3M6IFJldHVybiBvZiB0aGUgS2luZy4gQW5kIG5lZWRsZXBvaW50cyBteSBtb20gZGlkLg0KMjAxLiBEbyB5b3UgaGF2ZSBhIHR2IGluIHlvdXIgYmVkcm9vbT8gIE5haCwgZG9uJ3Qgd2FudCBvbmUuDQoyMDIuIEhvdyBtYW55IHBpbGxvd3MgYXJlIG9uIHlvdXIgYmVkPyAgNCwgYnV0IEkgdXNlIDMgLUh1Z2dsZXMgc3F1aXNoeS0NCjIwMy4gV2hhdCBkbyB5b3Ugbm9ybWFsbHkgc2xlZXAgaW4/ICBTaG9ydHMgYW5kIHRhbmsgdG9wIGluIHN1bW1lciwgbG9uZyBwYW50cyBhbmQgc2hpcnQgaW4gd2ludGVyDQoyMDQuIERlc2NyaWJlIHlvdXIgZmF2b3JpdGUgcGFpciBvZiBwYWphbWFzOiAgTXkgZmF2IHBqIGJvdHRlbXMgd2l0aCBzdHVmZiB3cml0dGVuIG9uIGl0IGFuZCBhIHNoaXJ0DQoyMDUuIFdoYXQgc2l6ZSBiZWQgZG8geW91IGhhdmU/ICBEb3VibGUsIEkgdGhpbmsNCjIwNi4gRG8geW91IGhhdmUgYSB3YXRlcmJlZC9idW5rYmVkL2RheWJlZD8gIERheWJlYWQ/IFdoYXQgdGhlIGhlbGw/IA0KMjA3LiBEbyB5b3UgaGF2ZSB5b3VyIG93biBwaG9uZSBsaW5lIGluIHlvdXIgYmVkcm9vbT8gIFllYWgsIGJ1dCBpdCBkb2Vzbid0IHdvcmsNCjIwOC4gRG8geW91IGxpc3RlbiB0byBtdXNpYyB3aGlsZSB0cnlpbmcgdG8gZmFsbCBhc2xlZXA/ICBObywgSSBuZWVkIHNpbGVuY2UNCjIwOS4gRGVzY3JpYmUgdGhlIGxhc3QgbmlnaHRtYXJlIHlvdSBoYWQ6ICBJIGRvbid0IHJlbWVtYmVyDQoyMTAuIERvIHlvdSBzbGVlcCB3aXRoIHN0dWZmZWQgYW5pbWFscyBZdXBwZXJzIQ0KMjExLiBIb3cgbWFueSBwZW9wbGUgY2FuIGNvbWZvcnRhYmx5IHNsZWVwIGluIHlvdXIgYmVkPyAgMi4gIEkgZG9uJ3QgdHJ5IGZvciBtb3JlDQoyMTIuIERvIHlvdSBzbGVlcCBpbiBhbnkgdW51c3VhbCBwb3NpdGlvbnM/ICAnVW51c3VhbCc/DQoyMTMuIERvIHlvdSBoYXZlIHRvIHNoYXJlIHlvdXIgYmVkcm9vbSB3aXRoIGEgc2libGluZz8gIE5vdCBhbnltb3JlLCB0aGFuayBnb2QNCjIxNC4gRG8geW91IHNub3JlPyBObw0KMjE1LiBIb3cgYWJvdXQgZHJvb2w/IE5vDQoyMTYuIERvIHlvdSBoYXZlIGFuIGFsYXJtIGNsb2NrIGluIHlvdXIgcm9vbT8gSGF2ZSB0bw0KMjE3LiBXaGF0IGNvbG9yIGlzIHRoZSBjYXJwZXQgaW4geW91ciByb29tPyAgR3JlZW4NCjIxOC4gV2hhdCdzIHVuZGVyIHlvdXIgYmVkPyBUaGF0IGlzIGEgZGFuZ2Vyb3VzIHJlYWxtIHRoYXQgSSBkbyBub3QgZXhwbG9yZSBsaWdodGx5LCBzbyBJIGRvIG5vdCBrbm93Lg=="
+"eventtime","2004-04-12 16:35:00"
+"current_moodid","106"
+"url","http://khelekmith.livejournal.com/1108.html"
+"userid","8042"
+"itemid","3"
+"event","<!-- begin BATTLE FISHIES code -->
+<table><tr><td valign=top style=""border: black 2px solid;"" bgcolor=""#ffffff""><table cellpadding=""10"" width=210><tr><td bgcolor=""#000000""><center><font color=""#ffffff"" size=""+3""><b> KhelekMith </b></font><br><span style=""background: #0384ba;""><img src=""http://www.gremkin.com/fishies/feeder.gif"" width=200 height=200></span><br><font color=""#ffffff"" size=""+2""><b>Feeder Goldfish</b></font><br><table width=180><tr><td align=""center""><font color=""#00ffff""><b><u>Agility</u><br>6</b></font></td><td align=""center""><font color=""#ffffff"">|</font></td><td align=""center""><font color=""#ffff00""><b><u>Strength</u><br>7</b></font></td><td align=""center""><font color=""#ffffff"">|</font></td><td align=""center""><font color=""#00ff00""><b><u>Stamina</u><br>3</b></font></td></tr></table></center></td></tr><tr><td bgcolor=""#ffffff""><font color=""#000000""><p><center><b><span style=""font-size:large;""><u>Battle Rating</u></span><br><span style=""font-size:xx-large""><font color=""#FF0000"">16</font></span></b><p><u><b>Origins</b></u><br><b>KhelekMith</b> exploded onto the scene after releasing a number-1 hit single</font></center></td></tr><tr><td valign=bottom bgcolor=""#ffffff""><font color=""#000000""><form action=""http://www.gremkin.com/fishies/fishies.php"" method=post><input type=""hidden"" name=""battle"" value=""1""><input type=""hidden"" name=""attacker"" value=""KhelekMith""><input type=""text"" name=""defender""><input type=""submit"" value=""submit""><br>Can <i>your</i> fishy beat KhelekMith ?</font></form><center><a href=""http://www.gremkin.com/fishies""><img src=""http://www.gremkin.com/fishies/smalllink.gif"" border=0></a></center></td></tr></table></td></tr></table><!-- end BATTLE FISHIES code -->"
+"eventtime","2004-04-12 14:13:00"
+"url","http://khelekmith.livejournal.com/988.html"
+"userid","8042"
+"itemid","2"
+"event","Okay, fine. So I've technically BEEN on break since Thursday, but it hasn't been until today when I finally realized it. So sad. -Sighs-
+
+Soso I slept until 11, watched tv, read, took a shower, meandered onto my computer, and never once had to think about my annoying religion teacher, that damn project I'm supposed to do for her class, how in the world I'm going to get through bio, and how I just might survive until June to finally complete my freshman year.
+
+Fine. So I just thought about them. But whatever.
+
+I'm so addicted to Three Days Grace. I keep listening to it over and over and over again....hehehe.....-Pets xanga page with music on it- 
+
+I don't even know why I'm posting because I really have no reason to post. I already drudged you all with my nonsense with Zak yesterday. Torren says that he's just very confused, and trying to push me away to deal with his confusion while at the same time trying to pull me back at him.
+
+Which is pretty much what is happening. Torren is very smartful.
+
+Oooo..-Is very amused by the mood things- AI THERES SO MANY ADJECTIVES!!!
+
+I'm going to have so much fun with them, man. 
+
+Erin gets back from Aruba today! I think I'm going to drag her and Katie and Lindsay to the movies. But which movie? The decisions of it all....it'll get me out of this house and wallowing in my depression. Or to be more exact, stop me from being so self pity-ing. 
+
+Because it's really getting on my nerves. And Lindsay and Katie and Erin either A) Won't stand for it, B) Will make me think of something else or C) Make me laugh so hard that my scar from my appendectomy hurts and I fall over. Which Lindsay has made me do, singing 'What if God smoked Canibus....would he drive a tie-dyed bus...'
+
+Or D) All of the above.
+
+I have to go now. Amuse yourselves with your lives.
+
+-Katie"
+"eventtime","2004-04-12 13:48:00"
+"current_moodid","99"
+"url","http://khelekmith.livejournal.com/603.html"
+"userid","8042"
+"itemid","1"
+"event","Gods. You know, I'm sure I'm sabotaging my journal from the start. No one wants to come and find my journal- however you found it- and read about some girl's guy problem. But that's just how it's going to be; I swear my posts are better if you don't like this one. (Hell, I probably won't like this one, but it won't get out of my mind. So anyhow.)
+
+Alright. Basic run down. I'm Katie. -Waves to assorted audience- My ex boyfriend's name is Zak. Hence the subject. There is this bitch named Gabbie. Zak was going out with me and like me and Gabbie at same time. Gabbie told him to break up with me. Zak did. Zak asks Gabbie out. Gabbie says no.
+
+Stupid, stupid child he is. Anyhow.
+
+So now we've been a bit snappy at each other. It'll be annoying and he'll be a bastard and I'll get mad and post a xanga and then he'll be better again. And then he'll be annoying again. And right now, he's in a seriously bitchy mood.
+
+Like, bitchy as in 'Someone get him MIDOL'
+
+He says insulting things to me online, tells me never to take him seriously because he's a retard because he broke up with me. Am I the only one seeing a double message here? He's admitting he's stupid for breaking up with me. DUH. -Is not usually this arrogant but is high on sugar- But he says cruel and hurtful things. 
+
+-Bangs her head repeatedly against a desk until she forgets about him-
+
+I can't do it! I can't bore you all with this! On to better things.
+
+EASTER.
+Yesh.
+This is a safer area to tread on.
+
+Ooo I got this sugar egg that's as big as my two hands and it's all SUGAR hahahaha -Is bashed over the head with a bat-
+
+Oooowwww.....Anyhow. That's boring. I have never written such a bad entry before in my whole life.
+
+No, no wait, my journal entry's when I was 9 were worse. But just by a little.
+
+So. Let's learn a little about me.
+
+My name is Katie. I'm a freshman in high school at an All Girls Roman Catholic Private school. I'm 15, and I figure skate and play soccer. I'm a book fanatic and I love to read and write. 
+
+And now my cat is demanding attention because she thinks I'm her mother so I'm obliged to stop typing and pet her.
+
+I hope you'll all come back, I'm just having a bad writing day.
+
+-Katie"
+"eventtime","2004-04-11 17:28:00"
+"url","http://khelekmith.livejournal.com/442.html"
+"userid","8042"

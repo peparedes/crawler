@@ -1,0 +1,451 @@
+"names","values"
+"itemid","71"
+"event","SXQncyBiZWVuIGVvbnMgc2luY2UgSSBwb3N0ZWQuICBTbyB5b3UnZCB0aGluayBJJ2QgZ2l2ZSB5b3UgYW4gdXBkYXRlIGFib3V0IG15IGxpZmUuICBJbnN0ZWFkIHlvdSBnZXQgYW4gZXhjZXJwdCBmcm9tIGEgY2FzZSB0aGF0IG1hZGUgbWUgY2h1Y2tsZToNCg0KVGhlIG9ubHkgb3RoZXIgZm9ybSBvZiB2YWx1ZSBzdWdnZXN0ZWQgYnkgdGhlIERlZmVuZGFudCB3YXMgaGVyIHByb3Zpc2lvbiBvZiBob3VzZWhvbGQgYW5kIG90aGVyIG1hcml0YWwgc2VydmljZXMgdG8gdGhlIERlYnRvci4gVGhlIENvdXJ0IHJlamVjdHMgdGhpcyBzdWdnZXN0aW9uIHVwb24gdGhlIGZhY3RzIGFuZCBsYXcgb2YgdGhpcyBwcm9jZWVkaW5nLiBGaXJzdCwgdGhlIERlZmVuZGFudCBoYXMgZmFpbGVkIHRvIHByb3ZpZGUgdGhlIENvdXJ0IHdpdGggYW55IHNwZWNpZmljIGFjY291bnRpbmcgb2YgdGhlIHNlcnZpY2VzIHVwb24gd2hpY2ggc2hlIHJlbGllcy4gQW5kIHNlY29uZCwgdGhlIERlZmVuZGFudCdzIGdlbmVyYWwgYXJ0aWN1bGF0aW9uIG9mIHRoZSBuYXR1cmUgb2Ygc3VjaCBzZXJ2aWNlcyBsZWFkcyB0aGUgQ291cnQgdG8gY29uY2x1ZGUgdGhhdCBzdWNoIHNlcnZpY2VzIHdlcmUgaW4gdGhlIG5hdHVyZSBvZiB0aG9zZSBuYXR1cmFsbHkgYW5kIHRyYWRpdGlvbmFsbHkgZXhjaGFuZ2VkIGJldHdlZW4gc3BvdXNlcyB3aXRob3V0IGNvbnNpZGVyYXRpb24sIGFuZCBoZW5jZSBwcm92aWRlZCBubyBiYXNpcyBvZiBleGNoYW5nZSB2YWx1ZSBmb3IgcHVycG9zZXMgb2YgZnJhdWR1bGVudCB0cmFuc2ZlciBhbmFseXNpcy4NCg0KSW4gcmUgS2VubmVkecKgIDI3OSBCLlIuIDQ1NSwgNDYzwqAoQmtydGN5LkQuQ29ubi4sMjAwMik="
+"eventtime","2006-09-07 23:16:00"
+"url","http://ztheobscure.livejournal.com/18326.html"
+"userid","17795"
+"itemid","70"
+"event","SXTigJlzIGJlZW4gdG9vIGxvbmcgc2luY2UgSSBwb3N0ZWQgaGVyZS4gIEkgY291bGQgd2hpbmUgYWJvdXQgcGFwZXJzIHRvIGRvLCBidXQgbWFueSBvZiB5b3UgYWxyZWFkeSBoYXZlIGhlYXJkIG1lIHdoaW5lIGFib3V0IHRoYXQuICBUaGUgcG9pbnQgb2YgdGhlIG1hdHRlciBpcywgSSBoYWQgYW4gYXdlc29tZSBkYXkgdGhpcyBwYXN0IFRodXJzZGF5Lg0KCUkgd29rZSB1cCBhdCA3IEFNLCB3cm90ZSB1bnRpbCAzIFBNIHdpdGgganVzdCBhIGJyaWVmIENoaXBvdGxlIGJyZWFrLCBhbmQgbWFuYWdlZCB0byBzZW5kIGluIGEgZHJhZnQgb2YgbXkgc2VuaW9yIHJlc2VhcmNoIHRvIG15IGFkdmlzb3IuICBQZXJoYXBzIG5lZWRsZXNzIHRvIHNheSwgdGhhdCB3YXMgYSBodWdlIHJlbGllZiwgdG8gaGF2ZSBzb21ldGhpbmcgdGFuZ2libGUgYW5kIHN1YnN0YW50aWFsIHRvIHNob3cgaGltLCBldmVuIHRob3VnaCBpdCBzdGlsbCBuZWVkcyBhIGxvdCBvZiB3b3JrLiAgSSB0aGVuIHNwb2tlIHRvIHRoZSBkaXJlY3RvciBvZiBjYXJlZXIgc2VydmljZXMgYWJvdXQgbXkgaW50ZXJ2aWV3IHdpdGggYSBmZWRlcmFsIGp1ZGdlIGluIEhvdXN0b24gb24gTW9uZGF5ICh3aGljaCBJ4oCZbSBmbHlpbmcgZG93biB0byBhcyB3ZSBzcGVhayksIGFuZCB0aGVuIHJhbiBiYWNrIHRvIG15IGFwYXJ0bWVudCwgZ290IGluIG15IGNhciwgYW5kIHBpY2tlZCB1cCBMaXNhIGZyb20gdGhlIHRyYWluIHN0YXRpb24uDQoJRm9yIGRpbm5lciwgd2UgaGFkIEFybWVuaWFuIGZvb2TigKZJIGhhZCB0aGUgQXJtZW5pYW4tc3R5bGUgbGFtYiBjb3VzY291cywgYW5kIHNoZSBoYWQgYSBwbGF0dGVyIG9mIHZhcmlvdXMgQXJtZW5pYW4gc3BlY2lhbHRpZXMuICBUaGUgd2FpdGVyIGtlcHQgbG9va2luZyBhdCBoZXIgY2hlc3QsIHdoaWNoIHdhcyBwZXJoYXBzIGluZXZlaXRhYmxlIGdpdmVuIGEgdG9wIHdoaWNoIGxlZnQgbGl0dGxlIHRvIHRoZSBpbWFnaW5hdGlvbi4gIEkgY291bGQgc2F5IEkgbWluZGVkLCBidXQgdGhhdCB3b3VsZCBiZSBseWluZy4gIEFuZCBseWluZyBpcyBhIHNpbi4NCglXZSB0aGVuIGh1bmcgb3V0IGluIFZpcmdpbiBmb3IgYSBiaXQuICDigJh0d2FzIGNvb2wsIGVzcGVjaWFsbHkgbWFraW5nIGZ1biBvZiBhIG5ldyBsaW5lIG9mIGNsYXNzaWNhbCBtdXNpYyB3aXRoIHRpdGxlcyBsaWtlIOKAnEZvciBhIEdpcmxz4oCZIE5pZ2h0IE91dOKAnSBhbmQg4oCcRm9yIEhvcGVsZXNzIFJvbWFudGljcy7igJ0gIEZvbGxvd2luZyB0aGF0LCB3ZSBkcm9wcGVkIGludG8gQ29zaSwgYW5kIHRoZW4gaGl0IHRoZSBDaGljYWdvIFN5bXBob255Lg0KCVRoZSBjb25jZXJ0IHdhcyBuZWFybHkgc29sZC1vdXQsIGJ1dCBJIGdvdCBhIGZldyBvcmNoZXN0cmEgdGlja2V0cyBmb3IgZmFpcmx5IGxpdHRsZS4gIEkgYXNzdW1lZCB0aGV5IHdvdWxkIGJlIGluIHRoZSBtaWRkbGUgb2YgYSBiYWNrIHJvdy4gIEluc3RlYWQsIHRoZXkgd2VyZSBzZWNvbmQgcm93LWNlbnRlciBhaXNsZS4gIE5lZWRsZXNzIHRvIHNheSwgZ29vZCBmb3J0dW5lLiAgQWxzbywgbmVlZGxlc3MgdG8gc2F5LCB0aGUgbXVzaWNpYW5zIGtlcHQgbG9va2luZyBkb3duIExpc2HigJlzIHNoaXJ0LiAgVGhlIGZpcnN0IHR3byBwaWVjZXMgd2VyZSBTY2huaXR0a2XigJlzIENvbmNlcnRpIEdyb3NzaSA1ICYgNi4gIEkgZGlkbuKAmXQgbG92ZSB0aGVtLCBidXQgdGhleSBjb3VsZCBoYXZlIGJlZW4gd29yc2UuICA1IGVzcGVjaWFsbHksIHdoaWNoIHdhcyBlc3NlbnRpYWxseSBhIFZpb2xpbiBDb25jZXJ0bywgaGFkIHNvbWUgaW50ZXJlc3RpbmcgYml0cy4NCglUaGUgc2Vjb25kIGhhbGYgb2YgdGhlIHByb2dyYW0gd2FzIEJlZXRob3ZlbuKAmXMgN3RoIFN5bXBob255LCBhIHdvcmsgbmVhciBhbmQgZGVhciB0byBteSBoZWFydC4gIEhvd2V2ZXIsIHByaW9yIHRvIHRoZSBwaWVjZSBldmVuIHN0YXJ0aW5nLCB0aGUgY29uZHVjdG9yLCBEYW5pZWwgQmFyZW5ib2ltLCB3YXMgY2F1Z2h0IGluIExpc2HigJlzIGhlYWRsaWdodHMgYW5kIHdhbGtlZCBpbnRvIGEgdGhpcmQtY2hhaXIgdmlvbGluaXN0LiAgVGhhdCB3b3VsZCBiZSBlbm91Z2ggdG8gbWFrZSB0aGUgbmlnaHQgZ3JlYXQsIGRheWVudS4gIEluc3RlYWQgQmFyZW5ib2ltIGFuZCB0aGUgQ1NPIGdhdmUgYSBwZXJmb3JtYW5jZSB0aGF0IHJlbWluZGVkIG1lIGV4YWN0bHkgb2Ygd2h5IEkgbG92ZSBjbGFzc2ljYWwuICBUaGV5IHBsYXllZCB3aXRoIGJyaW8sIHRlbmRlcm5lc3MsIGFuZCBwYXNzaW9uLiAgRXZlcnkgcmVwZWF0IHNlZW1lZCB0byBidWlsZCByYXRoZXIgdGhhbiBqdXN0IHJlcGVhdCwgdGhleSBuYWlsZWQgYWxsIHRoZSBsaXR0bGUgZGV0YWlscy4gIFdoZW4gZmluaXNoZWQgdGhlIGF1ZGllbmNlIHJvYXJlZCB0byB0aGVpciBmZWV0IGFuZCBhIHBhY2tlZCBoYWxsIGFwcGxhdWRlZCBmb3IgYWxtb3N0IDEwIG1pbnV0ZXMuICBXZSB3ZXJlIGJvdGggaGlnaCBvbiB0aGUgcGVyZm9ybWFuY2UsIGFuZCBpbnN0ZWFkIG9mIHRha2luZyBhIGNhYiwgd2UgZGVjaWRlZCB0byBqdXN0IHdhbGsgYmFjayBhbmQgZGlzY3VzcyByYW5kb21uZXNzLiAgV2UgaGFkIGdyZWF0IGZ1biwgYW5kIHRoZW4gSSBkcm92ZSBoZXIgaG9tZSwgYW5kIGNyYXNoZWQgYXNsZWVwIGF0IGFsbW9zdCAzIEFNLg=="
+"eventtime","2005-05-07 18:48:00"
+"url","http://ztheobscure.livejournal.com/18007.html"
+"userid","17795"
+"itemid","69"
+"event","V2VsbCwgaXTigJlzIGJlZW4gcXVpdGUgc29tZSB0aW1lIHNpbmNlIEkgcG9zdGVkIGhlcmUuICBJ4oCZdmUgYmVlbiBidXN5LCBidXQgbW9zdGx5IHRha2luZyBjYXJlIG9mIHRoaW5ncyBJ4oCZdmUga25vd24gZm9yIGEgd2hpbGUgSeKAmWQgaGF2ZSB0byB0YWtlIGNhcmUgb2YgKEkuRS4gU2Nob29sd29yaykuICBJIGdyYWR1YXRlIHRoaXMgc3ByaW5nLCBkb27igJl0IGhhdmUgYSBkZWNlbnQgb2ZmZXIgZm9yIGVtcGxveW1lbnQgcG9zdC1ncmFkdWF0aW9uLCBhbHRob3VnaCBJIGhhdmUgYSBmZXcgaW50ZXJ2aWV3cyB1cGNvbWluZy4gIEnigJltIGFsc28gZmFpcmx5IGJlaGluZCBvbiBzZW5pb3IgcmVzZWFyY2gsIHdoaWNoIGlzIHByb2JsZW1hdGljLCBidXQgbm90IHlldCBkYW5nZXJvdXMuICBNZWFud2hpbGUsIEnigJl2ZSBiZWVuIHNwZW5kaW5nIG1vcmUgb3IgbGVzcyB0aGUgcGFzdCB0d28gd2Vla3MgdHJhaXBzaW5nIGFjcm9zcyBUaGUgTmV0aGVybGFuZHMgZm9yIGEgY2xhc3MgY2FsbGVkIGludGVybmF0aW9uYWwgdGVhbSBwcm9qZWN0LiAgVGhhdCBoYXMganVzdCBlbmRlZCwgYW5kIEnigJltIHdyaXRpbmcgdGhpcyBvbiB0aGUgSUNFIHRyYWluIGZyb20gQW1zdGVyZGFtIHRvIENvbG9nbmUuICBJ4oCZbGwgYmUgaW4gQ29sb2duZSB1bnRpbCBTdW5kYXkgbW9ybmluZywgYW5kIHRoZW4gYmUgZmx5aW5nIG91dCBvZiB0aGUgRnJhbmtmdXJ0IGFpcnBvcnQgZm9yIENoaWNhZ28sIGFycml2aW5nIGF0IDM6MTUgUE0gaW4gdGhlIGFmdGVybm9vbi4gIEFzIGZvbGxvd3MgaXMgYW4gYXR0ZW1wdCB0byByZWNvbnN0cnVjdCBteSBqb3VybmV5LCBib3RoIGZvciB5b3VyIGFuZCBteSByZWZlcmVuY2UuDQoNClNhdHVyZGF5LCBNYXJjaCAxMnRoDQpBZnRlciBhIGZhaXJseSBxdWlldCBtb3JuaW5nLCBsZWZ0IG9uIGEgNTo1MCBmbGlnaHQgZm9yIEFtc3RlcmRhbSBvbiBVbml0ZWQgb3V0IG9mIE/igJlIYXJlLiAgSSBnb3QgbXlzZWxmIHVwZ3JhZGVkIHRvIGJ1c2luZXNzIGNsYXNzLCB3aGljaCB3YXMgbmljZS4gIEkgbXVzdCB0cnkgdG8gZG8gaXQgYWdhaW4gZm9yIG15IHJldHVybiBmbGlnaHQuICBUaGUgZmxpZ2h0IHdhcyBtb3N0bHkgdW5ldmVudGZ1bCB0aG91Z2guDQoNClN1bmRheSwgTWFyY2ggMTN0aA0KTGFuZCBpbiBBbXN0ZXJkYW0sIGZpbmQgd2F5IHRvIGhvdGVsLCBidXQgZmlyc3QgYWxtb3N0IGxvc2UgYmFja3BhY2sgd2l0aCBsYXB0b3AgYW5kIGNlbGwgcGhvbmUgaW4gYWlycG9ydC4gIFdhbGsgYXJvdW5kIGEgYml0LCBnZXQgbHVuY2gsIGFuZCB0aGVuIGNvbGxhcHNlIGluIGhvdGVsIHJvb20gZm9yIDYtaG91ciBuYXAuICBXYWtlIHVwIGF0IDY6MjAgUE0sIGdvIHRvIGRpbm5lciB3aXRoIGxhdyBzY2hvb2wgZ3JvdXAsIGFuZCB0aGVuIGVuZ2FnZSBpbiByYW5kb20gc2hlbmFuaWdhbnMgYW5kIGdvIHRvIHNsZWVwLg0KDQpNb25kYXksIE1hcmNoIDE0dGgNCldha2UgdXAgZWFybHksIGJ1dCBkb27igJl0IHJlYWxseSBkbyBtdWNoLiAgSW4gZWFybHkgYWZ0ZXJub29uLCBoZWFkIG92ZXIgdG8gYW4gaW50ZXJ2aWV3IGF0IHRoZSBVbml2ZXJzaXR5IG9mIEFtc3RlcmRhbSwgYW5kIHRoZW4gaGFkIGEgcGxlYXNhbnQgZHVuY2ggYXQgYSBEdXRjaCByZXN0YXVyYW50IGNhbGxlZCBPdWQgSG9sbGFuZC4gIFR1cm5zIG91dCBEdXRjaCBmb29kIGlzIGxpa2Ugc2xpZ2h0bHkgYmV0dGVyIEVuZ2xpc2ggZm9vZC4gIFdhbmRlciBhcm91bmQgcmVkLWxpZ2h0IGRpc3RyaWN0IGF0IG5pZ2h0LiAgSXTigJlzIGNvb2wgdG8gc2VlIGFsbCB0aGUgZ2lybHMgZm9yIHNhbGUgaW4gdGhlIHdpbmRvd3MsIGJ1dCBpdOKAmXMgbm90IGNvb2wgaG93IG1hbnkganVua2llcyB0aGV5IGhhdmUuICBUaGUgcG9saWNlIG5lZWQgdG8gYmUgYSBsaXR0bGUgbW9yZSBhY3RpdmUgdGhlcmUuDQoNClR1ZXNkYXksIE1hcmNoIDE1dGgNCkludGVydmlldyBpbiBMZWlkZW4uICBXZSBtYWtlIGEgd3JvbmcgdHVybiBhbmQgZW5kIHVwIHdhbGtpbmcgYW4gaG91ciBpbiBtaXNlcmFibGUgd2VhdGhlciBiZWZvcmUgd2UgZmluZCBpdC4gIExlaWRlbiBpdHNlbGYgaXMgYWxyaWdodCwgYnV0IHVuc3BlY3RhY3VsYXIuICBGb3IgZGlubmVyIGhhdmUgbG9uZ2VzdCBJdGFsaWFuIG1lYWwgZXZlciwgd2hlcmUgd2UgZXhwZXJpZW5jZSBmYW1vdXNseSBhd2Z1bCBFdXJvcGVhbiBzZXJ2aWNlIGZpcnN0aGFuZC4NCg0KV2VkbmVzZGF5LCBNYXJjaCAxNnRoDQpFeHBsb3JlIGNpdHkgYSBiaXQgd2l0aCBmcmllbmRzIG9uIGEgdmVyeSBleHRlbmRlZCB3YWxrLiAgVGhlbiBtZWV0IHdpdGggQ2l0eSBDb3VuY2lsbWFuIGZvciBhbiBpbnRlcnZpZXcgd2hlcmUgRGVzY2FydGVzIG9uY2UgbGl2ZWQsIGp1c3QgYSBmZXcgZG9vcnMgZG93biBmcm9tIHRoZSBBbm5lIEZyYW5rIEhvdXNlLCByaWdodCBieSBXZXN0cm1hcmt0LiAgSXRhbGlhbiBmb3IgZGlubmVyIGFnYWluLg0KDQpUaHVyc2RheSwgTWFyY2ggMTd0aA0KTWVldCB3aXRoIGF1bnQgd2hvIGxpdmVzIGluIEFtc3RlcmRhbSBhdCB0aGUgSmV3aXNoIEhpc3RvcmljYWwgTXVzZXVtLCBhbmQgdGhlbiBnbyBvbiB0byBzZWUgdGhlIFBvcnR1Z3Vlc2UgU3luYWdvZ3VlICh3aGljaCBpcyB2ZXJ5IG5pY2UpLiAgV2UgdGhlbiBhdGUgYXQgYSBjYWbDqSwgd2hlcmUgSSBoYWQgYSBzbW9rZWQgZHVjayBzYW5kd2ljaC4gIFVuZm9ydHVuYXRlbHksIEkgbWlzdGltZWQgc29tZSB0aGluZ3MgYW5kIGVuZGVkIHVwIG1pc3Npbmcgb3VyIGludGVydmlldyBsYXRlciB0aGF0IGRheS4gIEhvd2V2ZXIsIHRoZSByZXN0IG9mIG15IGdyb3VwIGNvdmVyZWQgaXQuICBUaGF0IG5pZ2h0IHdlIHdlbnQgdG8gTGVpZHNlcGxlaW4gdG8gY2VsZWJyYXRlIFN0LiBQYXRyaWNr4oCZcyBkYXkuICBJIGhhZCBhIGZldyBkcmlua3MsIGJ1dCBJIHdlbnQgYmFjayBkZWNlbnRseSBlYXJseSAobWlkbmlnaHQgb3Igc28pIGJlY2F1c2UgSSBoYWQgdG8gd2FrZSB1cCBlYXJseS4NCg0KRnJpZGF5LCBNYXJjaCAxOHRoDQpUcmFpbiB0byBUaGUgSGFndWUgZWFybHkgaW4gdGhlIG1vcm5pbmcgdG8gbWVldCB3aXRoIHNldmVyYWwgTVBzLiAgVGhleSB3ZXJlIGFsbCB2ZXJ5IGhlbHBmdWwgYW5kIGluZm9ybWF0aXZlLCBhbmQgdGhleSBzZXJ2ZWQgdXMgZGVjZW50IHRlYSBhcyB3ZWxsLiAgV2UgdGhlbiBodW5nIGFyb3VuZCBwYXJsaWFtZW50IGEgYml0LCBhbmQgbWFydmVsZWQgYXQgdGhlIHBhcmxpYW1lbnRhcnkgcmVzdHJvb21zLiAgV2UgdGhlbiBtZXQgcGFydCBvZiB0aGUgVVMgRGVsZWdhdGlvbiB0byB0aGUgSW50ZXJuYXRpb25hbCBDaGVtaWNhbCBXZWFwb25zIGZvciBhIGNhc3VhbCBJdGFsaWFuIGx1bmNoIGluIGEgbmljZSBsaXR0bGUgcGxhY2UuICBXZSBoZWFyZCBtYW55IGZ1biBhbmQgaW50ZXJlc3Rpbmcgc3RvcmllcywgYW5kIHRoZW4gaGVhZGVkIGJhY2sgZm9yIGEgbmlnaHQgdGhhdCBpbnZvbHZlZCBhbGNvaG9sIGFuZCB1bWxhdXRzLg0KDQpTYXR1cmRheSwgTWFyY2ggMTl0aA0KSW4gdGhlIG1vcm5pbmcsIHdlbnQgd2l0aCBhIGZyaWVuZCB0byB0aGUgQW5uZSBGcmFuayBIb3VzZSByaWdodCBhcyBpdCBvcGVuZWQuICBGcm9tIHRoZXJlIHdlIHdlbnQgdG8gdGhlIFJlbWJyYW5kdCBIb3VzZSwgbWFraW5nIGl0IGJhY2sgYnkgMTIuICBUaGUgd2hvbGUgZ3JvdXAgdGhlbiBjaGVja2VkIG91dCBvZiB0aGUgaG90ZWwgYW5kIGdvdCBvbiB0aGUgdHJhaW4gdG8gQnJ1c3NlbHMuICBXZSBhcnJpdmVkIGluIEJydXNzZWxzIHRoYXQgZXZlbmluZywgdG9vayB0aGUgc3Vid2F5IHRvIG91ciBob3RlbCBmcm9tIHRoZSBtYWluIHRyYWluIHN0YXRpb24sIGFuZCB0aGVuIHNldHRsZWQgaW4gYSBiaXQuICBBZnRlciB0aGF0IHdlIHdlbnQgb3V0IGZvciBkaW5uZXIgKEkgbG9iYmllZCBmb3IgVmlldG5hbWVzZSwgYnV0IHdlIGVuZGVkIHVwIGdldHRpbmcgbW9yZSBJdGFsaWFuKSwgYW5kIHRoZW4gZm9yIGEgZmV3IGRyaW5rcy4gIEhvd2V2ZXIsIHRoZSBtYWluIGdyb3VwIGFuZCBJIHBhcnRlZCB3YXlzIGFzIEkgd2FzIG1vcmUgY29uY2VybmVkIHdpdGggdHJ5aW5nIEJlbGdpYW4gYmVlciwgYW5kIHRoZXkgd2VyZSBtb3JlIGNvbmNlcm5lZCB3aXRoIHBhcnR5aW5nLg0KDQpTdW5kYXksIE1hcmNoIDIwdGgNCldva2UgdXAgZmFpcmx5IGVhcmx5LCBhbmQgbWV0IGEgZnJpZW5kIGF0IGJyZWFrZmFzdC4gIFdlIGFncmVlZCB0byBnbyBvbiBhIHdhbGsgYW5kIGRpZCBzbywgaW4gdGhlIGVuZCB3YWxraW5nIHNldmVyYWwgbWlsZXMgYXJvdW5kIEJydXNzZWxzLiAgV2Ugc2F3IHRoZSBnYXJnYW50dWFuIFBhbGFpcyBkdSBKdXN0aWNlLCB0aGUgY2F0aGVkcmFsLCBhbmQgZmluYWxseSB0aGUgR3JhbmQgUGxhY2UsIGFsc28gc3RvcHBpbmcgdG8gdmlzaXQgdGhlIGFydCBtdXNldW0gYW5kIHNlZSBhbiBleGNlbGxlbnQgZXhoaWJpdCBvbiBCZWxnaWFuIFJvbWFudGljIGFydC4gIEF0IHRoZSBHcmFuZCBQbGFjZSBJIG1ldCBzZXZlcmFsIGZyaWVuZHMgYW5kIHdlIHNhdCBhbmQgZHJhbmsgZm9yIG1vc3Qgb2YgdGhlIGFmdGVybm9vbiwgYXQgd2hpY2ggcG9pbnQgd2Ugd2Fsa2VkIGJhY2sgYW5kIGdvdCBkaW5uZXIuDQoNCk1vbmRheSwgTWFyY2ggMjFzdA0KV29rZSB1cCBlYXJseSAodW5mb3J0dW5hdGUgdHJlbmQgaXQgc2VlbXMpIGFuZCBsZWZ0IEJydXNzZWxzIG9uIGEgdHJhaW4gdG8gUm90dGVyZGFtLiAgV2UgZGlkIGFuIGludGVydmlldyB0aGVyZSwgYW5kIHRoZW4gaHVuZyBvdXQgYXJvdW5kIHRoZSBjaXR5IGEgYml0LCBoYXZpbmcgc29tZSBleGNlbGxlbnQgU3VyaW5hbWVzZSBmb29kIGFuZCB0aGVuIGxlYXZpbmcgb24gYSB0cmFpbiBmcm9tIENlbnRyYWFsIFN0YXRpb24gdG8gQW1zdGVyZGFtLiAgSW4gQW1zdGVyZGFtIHRoYXQgbmlnaHQgSSBoYWQgSW5kb25lc2lhbiBmb29kLCB3aGljaCB3YXMgb2ssIGFsYmVpdCBub3QgYW1hemluZy4NCg0KVHVlc2RheSwgTWFyY2ggMjJuZA0KTGVmdCB0aGUgaG90ZWwgYXQgODozMCBBTSBpbiBvcmRlciB0byBnZXQgdG8gdGhlIFJpamttdXNldW0ganVzdCBhcyBpdCBvcGVuZWQuICBUaGUgbXVzZXVtIHdhcyBmYWlybHkgZW1wdHkgYXQgdGhhdCB0aW1lLCB3aGljaCB3YXMgZXhjZWxsZW50LCBhbHRob3VnaCBJIHdpc2ggdGhlIHdob2xlIG11c2V1bSBoYWQgYmVlbiBvcGVuLCBpbnN0ZWFkIG9mIHRoZSBjb21wcmVzc2VkIGdhbGxlcnkgdGhhdCBtdXN0IHN1ZmZpY2UgdW50aWwgcmVub3ZhdGlvbnMgYXJlIGRvbmUgaW4gMjAwOC4gIEFmdGVyIHRoYXQgSSB3YWxrZWQgZG93biB0aGUgc2hvcHBpbmcgc3RyZWV0IFAuQy4gSG9vZnN0cmFhdCwgYW5kIHRoZW4gaGFkIEluZG9uZXNpYW4gZm9yIGx1bmNoLCB3aGljaCB3YXMgbXVjaCBiZXR0ZXIgdGhpcyB0aW1lIGFyb3VuZC4gIEkgZ290IGJhY2sgdG8gdGhlIGhvdGVsLCBhbmQgZGlkIHRoZSBsb25nIHRyaXAgdG8gTmlqbWVnZW4gKDE6MjAgZWFjaCB3YXkpIGZvciBhbiBpbnRlcnZpZXcuICBJIGdvdCBiYWNrIGF0IDgsIGFuZCB3ZSBhbGwgaW1tZWRpYXRlbHkgaGVhZGVkIG91dCBmb3IgYSBncm91cCBkaW5uZXIuICBXaGVuIHdlIGdvdCBiYWNrLCBJIGJlZ2FuIHRvIHdvcmsgaW4gZWFybmVzdCBvbiBteSB0cmF2ZWwgcGxhbnMgKEkgd2FzIG9yaWdpbmFsbHkgc3VwcG9zZWQgdG8gbGVhdmUgZnJvbSBGcmFua2Z1cnQgb24gV2VkbmVzZGF5IHRoZSAzMHRoLCBidXQgSSB3YW50ZWQgdG8gY29tZSBiYWNrIHNvb25lcikuDQoNCldlZG5lc2RheSwgTWFyY2ggMjNyZCANCkxlZnQgdGhlIGhvdGVsIGVhcmx5IGZvciBhbm90aGVyIGludGVydmlldyBhdCBOaWptZWdlbi4gIEdvdCBiYWNrIGFuZCByYW4gdG8gYW4gaW50ZXJ2aWV3IGluIEFtc3RlcmRhbSwgb3VyIGxhc3QuICBBZnRlciB0aGF0IEkgZmluYWxseSBjaGFuZ2VkIG15IHBsYW5lIHRpY2tldCwgYm9va2VkIGEgaG90ZWwgaW4gQ29sb2duZSwgYW5kIHRoZW4gbWV0IGEgZnJpZW5kIGZvciBkaW5uZXIgYW5kIGRyaW5rcy4gIEZvbGxvd2luZyB0aGF0IEkgaHVuZyBvdXQgd2l0aCBzb21lIHZlcnkgc3RvbmVkIGZyaWVuZHMsIGFuZCB0aGVuIHRpcmVkIG9mIHRoZWlyIG1lYW5pbmdsZXNzIGxhdWdodGVyIGFuZCB3ZW50IHRvIHNsZWVwLg0KDQpUaHVyc2RheSwgTWFyY2ggMjR0aCAodG9kYXkpDQpMZWZ0IGVhcmx5IChnb2QsIHRoaXMgaXMgYSB0cmVuZCkgaW4gb3JkZXIgdG8gY2F0Y2ggdGhlIFZhbiBHb2doIE11c2V1bSBqdXN0IGFzIGl0IG9wZW5lZC4gIFRoZSBtdXNldW0gd2FzIHBoZW5vbWVuYWwsIGFuZCB0aGVuIEkgZ290IGx1bmNoIGFuZCBoZWFkZWQgYmFjayB0byB0aGUgaG90ZWwuICBJIGNoZWNrZWQgb3V0LCB3ZW50IHRvIEFtc3RlcmRhbSBDZW50cmFhbCBTdGF0aW9uLCBhbmQgQm9hcmRlZCB0aGUgdHJhaW4gdGhhdCBsZWZ0IGF0IDI6MDcgUE0uICBBcyBvZiB3cml0aW5nIHRoaXMgc2VudGVuY2UsIEkgYW0gaW4gdGhlIHN0YXRpb24gYXQgRHVpc2J1cmcsIHR3byBzdG9wcyBhbmQgNDAgbWludXRlcyBmcm9tIENvbG9nbmUuICBBcyBvZiBwb3N0aW5nIHRoaXMgdGhvdWdoLCBJIHdpbGwgYWxyZWFkeSBiZSBpbiBDb2xvZ25lLCBjaGVja2VkIGludG8gdGhlIERvbSBIb3RlbCByaWdodCBpbiB0aGUgY2VudHJhbCBzcXVhcmUgKGl0IGlzIHBhcnQgb2YgdGhlIExlIE1lcmlkaWVuIGNoYWluKS4gIEFueSBzdWdnZXN0aW9ucyBmb3Igd2hhdCB0byBkbyBpbiBteSAzIGRheXMgaGVyZT8gIEnigJltIHRoaW5raW5nIG9mIHZpc2l0aW5nIEFhY2hlbiAoQUtBIEFpeC1sYS1DaGFwcGVsbGUpIGZvciBvbmUgb2YgdGhlbS4NCg0KVXBkYXRlOiAgVGhlIENhdGhlZHJhbCBpbiBDb2xvZ25lIGlzIHJlYWxseSBiaWcu"
+"eventtime","2005-03-24 23:42:00"
+"url","http://ztheobscure.livejournal.com/17767.html"
+"userid","17795"
+"itemid","68"
+"event","<a href=""http://www.nyls.edu/pages/2561.asp"">State of Play II: Reloaded</a>"
+"eventtime","2004-10-29 00:06:00"
+"url","http://ztheobscure.livejournal.com/17594.html"
+"userid","17795"
+"itemid","67"
+"event","V2VsbCwgSeKAmW0gc2l0dGluZyBub3cgaW4gbXkgY29tcHV0ZXJzIGFuZCB0aGUgbGF3IGNsYXNzLiAgSXTigJlzIGhlbGQgZm9yIHJlYXNvbnMgb2YgYWRtaW5pc3RyYXRpdmUgaXJvbnkgaW4gYSBiZWF1dGlmdWwgb2xkIHJvb20gY2FsbGVkIEhveW5lIEhhbGwuICBUaGUgZGVza3MgYXJlIHBld2xpa2UsIGFuZCB0aGUgd2luZG93cyBhbmQgc3RhaW5lZCBjbGFzcyBpbGx1c3RyYXRlZCB3aXRoIHZhcmlvdXMgYXNwZWN0cyBvZiB0aGUgcHJhY3RpY2Ugb2YgdGhlIGxhdy4gIEhvd2V2ZXIsIGl0IGxhY2tzIHdpcmVsZXNzLg0KU28geW91IG1heSBhc2sgaG93IEkgYW0gcG9zdGluZyB0aGlzLiAgRmVhciBub3QsIGdlbnRpbGUgcmVhZGVyLCBJIGhhdmUgbm90IG1hZGUgYSBwYWN0IHdpdGggdGhlIGRldmlsIGZvciB3aXJlbGVzcyBpbnRlcm5ldCBhY2Nlc3MuICBSYXRoZXIsIEkgaGF2ZSByZWFjaGVkIG5lcmR2YW5hLiAgTXkgTW90b3JvbGEgdjcxMCBjZWxsIHBob25lIGlzIHNpdHRpbmcgaW4gbXkgcG9ja2V0LCBpbiBzaWxlbnQgbW9kZSBhbmQgd2l0aCBCbHVldG9vdGggcG93ZXJlZCBvbi4gIE15IGNvbXB1dGVyIGlzIGNvbm5lY3RlZCB0byB0aGUgY2VsbCBwaG9uZSB1c2luZyBCbHVldG9vdGgsIGFuZCBJIGhhdmUgZGlhbGVkIGludG8gTm9ydGh3ZXN0ZXJu4oCZcyBkaWFsdXAgc2VydmVyLiAgVGhlIGludGVybmV0IGlzIHRodXMgZmxvd2luZyB0aHJvdWdoIHR3byBzZXBhcmF0ZSB3aXJlbGVzcyBuZXR3b3JrcyBhbmQgY29ubmVjdGluZyBtZSB0byBMaXZlam91cm5hbC4gIE1tbSwgbmVyZHkuDQoNCknigJltIGdvaW5nIHRvIEZvZ28gZGUgQ2hhbyBvbiBXZWRuZXNkYXkgd2l0aCBteSBicmF6aWxpYW4gZnJpZW5kcyBmb3IgYSBiaXJ0aGRheSBsdW5jaC4gIFNob3VsZCBiZSB5dW1teS4="
+"eventtime","2004-10-25 17:58:00"
+"url","http://ztheobscure.livejournal.com/17236.html"
+"userid","17795"
+"itemid","66"
+"event","Wow...I've updated a lot lately.  I blame it on having lots of time to kill in class, and running out of other amusements.
+
+I heard <i>Wintereisse</i> at Symphony Center on Wed. night.  It was pleasantly depressing.  Last night I went to a federalist society party.  It was unpleasantly depressing, as one might expect from the federalist society.
+
+Today is Mia's birthday, and I have nothing planned tonight.  Nothing at all.  Nada.  Zilch.  I probably should work, but that's nothing new.  I was thinking of making a trip to Ann Arbor this weekend, but it won't happen, as I have plans tomorrow night and Sunday.  Thoughts on amusements, anyone?"
+"eventtime","2004-10-22 14:56:00"
+"current_moodid","5"
+"url","http://ztheobscure.livejournal.com/16942.html"
+"userid","17795"
+"itemid","65"
+"event","Amazing how disgusting Fingering potatos can get after a month on your counter."
+"eventtime","2004-10-19 19:25:00"
+"url","http://ztheobscure.livejournal.com/16886.html"
+"userid","17795"
+"itemid","64"
+"event","SSB3aXNoIEkgaGFkIHdpcmVsZXNzIGludGVybmV0IGluIGNsYXNzLiAgVGhhdCB3YXkgSSBjb3VsZCBkbyB0aGlzIGluIHdheXMgb3RoZXIgdGhhbiB0eXBpbmcgaW50byB3b3JkIGFuZCBwYXN0aW5nIGludG8gTEouDQoNCkFueWhvdywgaW4gYSBob3JyaWJseSBkcnkgaW50ZXJ2aWV3IHNlYXNvbiBJIGhhdmUgbXkgZmlyc3QgaW50ZXJ2aWV3IG9uIE5vdi4gNXRoLCB3aXRoIDxhIGhyZWY9aHR0cDovL3d3dy5nb3Jkb25zaWx2ZXIuY29tPkdvcmRvbiAmIFNpbHZlcjwvYT4sIGEgbGFyZ2UgTGFzIFZlZ2FzIGZpcm0gc3BlY2lhbGl6aW5nIGluIGNvbXBsZXggbGl0aWdhdGlvbiBidXQgd2l0aCBwcmFjdGljZSBncm91cHMgaW5jbHVkaW5nIGdhbWluZyBsYXcgYW5kIGNvcnBvcmF0ZSByZXN0cnVjdHVyaW5nIChiYW5rcnVwdGN5KS4gIEnigJlkIGJlIGx5aW5nIGlmIEkgc2FpZCBJ4oCZbSBlbnRocmFsbGVkIGF0IHRoZSBwb3NzaWJpbGl0eSBvZiB3b3JraW5nIGZvciB0aGVtLCBidXQgSeKAmW0gbm90IG5lY2Vzc2FyaWx5IGF2ZXJzZSwgZWl0aGVyLiAgU2hvdWxkIHRoZXkgbWFrZSBtZSBhbiBvZmZlciwgSeKAmWQgcmVhbGx5IGhhdmUgdG8gZXhwbG9yZSB3aGF0IExWIGlzIGxpa2UgYmV5b25kIHRoZSBzdHJpcC4NCg0KSG93ZXZlciwgdGhhdCB3b27igJl0IGJlIGhhcHBlbmluZyB0aGlzIHRyaXAuICBNaWEgd2lsbCBiZSBhcnJpdmluZyB0aGUgZGF5IGFmdGVyIEkgbGFuZCwgYW5kIHdl4oCZbGwgYmUgc3BlbmRpbmcgdGhlIHdlZWtlbmQgdG9nZXRoZXIsIGZpcnN0IGluIHRoZSBCZWxsYWdpbyBmb3IgYSBuaWdodCwgYW5kIHRoZW4gYXQgdGhlIFJpbyBmb3IgYSBuaWdodC4gIERvbuKAmXQgZXZlbiBhc2sgYWJvdXQgb3VyIHJlbGF0aW9uc2hpcC4gIEkgdGhpbmsgaXTigJlzIGFscmVhZHkgZGVhZCwgYnV0IEnigJlkIHJhdGhlciB0aGlzIG5vdCBiZSB0aGUgY2FzZSwgc28gSeKAmW0gd2lsbGluZyB0byBzZWUgaG93IHRoaW5ncyBnby4gIEl0IG1ha2VzIG1lIHNhZCB3aGVuIEkgdGFsayB0byBoZXIgYW5kIGRvbuKAmXQgZmVlbCBoZXIgd2FybXRoIGFueW1vcmUuDQoNCk9uIGEgY29tcGxldGVseSB1bnJlbGF0ZWQgbm90ZSwgRW1pbHkgY291bGRu4oCZdCBtYWtlIGl0IHRoaXMgcGFzdCB3ZWVrZW5kLiAgSSBjYW7igJl0IHRlbGwgaWYgc2hlIHdhcyBibG93aW5nIG1lIG9mZiBvciBnZW51aW5lbHkgcHJlb2NjdXBpZWQuICBGb3J0dW5hdGVseSwgSSBkb27igJl0IHJlYWxseSBjYXJlIG92ZXJseS4gIFNoZeKAmXMgYnVzeSBuZXh0IHdlZWtlbmQsIGFuZCB0aGVuIEnigJltIGJ1c3kgZm9yIHRoZSBuZXh0IHR3by4gIFdl4oCZbGwgc2VlIGlmIHNoZeKAmXMgYXJvdW5kIGluIG1pZC1Ob3ZlbWJlci4NCg0KQW55aG93LCBuZXh0IHdlZWtlbmQgSeKAmW0gY29tcGxldGVseSBmcmVl4oCmYW55b25lIHdhbnQgdG8gdmlzaXQvaGFuZyBvdXQ/DQoNClRoZSB3ZWVrZW5kIG9mIG15IGJpcnRoZGF5IChvciByYXRoZXIgaW1tZWRpYXRlbHkgYWZ0ZXIsIHRoZSBhY3R1YWwgQi1kYXkgaXMgMTAtMjcpIEnigJlsbCBiZSBpbiBOWUMuICBJ4oCZbGwgYmUgdmlzaXRpbmcgcGFyZW50cyBhbmQgc3VjaCwgb2YgY291cnNlLCBidXQgSeKAmWxsIGFsc28gYmUgaW4gTWFuaGF0dGFuIGZvciB0aGUgd2Vla2VuZCwgYXR0ZW5kaW5nIHRoZSBTdGF0ZSBvZiBQbGF5IGNvbmZlcmVuY2UgYXQgTmV3IFlvcmsgTGF3IFNjaG9vbCAodGhlIGFubnVhbCBjb21wdXRlciBnYW1lIGxhdyBjb25mZXJlbmNlKS4gIEl0IHNob3VsZCBiZSBjb29sLg0KDQpOb3ZlbWJlciAxMnRoIHdpbGwgYmUgdGhlIGZpcnN0IHBvcnRpb24gb2YgdGhlIGJhciBleGFtLCB0aGUgTVBSRSwgQUtBIHRoZSBldGhpY3MgYmFyLiAgSXTigJlzIG5vdCB0aGF0IGhhcmQsIGJ1dCB3aXNoIG1lIGx1Y2ssIGV0IGFsLiAgQ2h1Y2tsZXMgb3ZlciBoYXZpbmcgYSBiYXIgZXhhbSBpbiBldGhpY3MgYXJlIGFsc28gd2VsY29tZS4NCg0KSeKAmW0gc3RpbGwgaW4gY2xhc3MsIHRhbGtpbmcgYWJvdXQgdGhlIGxlZ2FsIGltcGxpY2F0aW9ucyBvZiBvbGQgSUJNIGNvbnRyYWN0cy4gIEpveS4="
+"eventtime","2004-10-18 17:52:00"
+"url","http://ztheobscure.livejournal.com/16395.html"
+"userid","17795"
+"itemid","63"
+"event","V2VsbCwgbGlmZSB3ZW50IGZyb20gc3RyYW5nZSB0byBzdHJhbmdlLiAgWWVzdGVyZGF5IEkgbWV0IHNvbWVvbmUgSeKAmXZlIGJlZW4gY29ycmVzcG9uZGluZyB3aXRoIGZvciBhYm91dCBhIHdlZWsgb3IgdHdvLiAgSSBkaWRu4oCZdCBmZWVsIG11Y2ggY2hlbWlzdHJ5LCBidXQgd2UgaGFkIG11dHVhbCAocmVhZDpraW5rKSBpbnRlcmVzdHMsIGFuZCBzaGUgd2FzbuKAmXQgZmFyLCBpbiBNaWx3YXVrZWUuICBJIGRyb3ZlIHVwIHRoZXJlLCBhbmQgd2UgbWV0IGZvciBicnVuY2hlb24uDQpIZXIgbmFtZSBpcyBFbShpbHkpLCBzaGUgaGFzIGEgZGVncmVlIGluIGNyZWF0aXZlIHdyaXRpbmcgYW5kIGlzIGFuIEFuaSBEaUZyYW5jbyBmYW4gKE5lY2hhbWE6IFdob+KAmWQgaGF2ZSB0aHVuayBpdD8pICBJIGhvbmVzdGx5IGRpZG7igJl0IGZlZWwgbXVjaCBjaGVtaXN0cnksIGJ1dCB0aGVuIGFnYWluLCBJ4oCZbSBub3QgdGVycmlibHkgcGVyY2VwdGl2ZSB0byB0aGVzZSB0aGluZ3MsIHNvIHdlIGh1bmcgb3V0IGEgYml0IG1vcmUuICBXZSB3ZW50IHRvIGEgdXNlZCBib29rc3RvcmUgKHdoZXJlIEkgcHVyY2hhc2VkIHNvbWUgR29nb2wpLCBhbmQgYW4gSWNlIENyZWFtIFBhcmxvci4gIFdlIHRoZW4gd2Fsa2VkIHVwIGEgaGlsbCB0byB0aGUgYXJlYSBieSB0aGUgTWlsd2F1a2VlIGxpZ2h0aG91c2UuICBFdmVuIHRob3VnaCBJIHN0aWxsIGZlbHQgbm8gY2hlbWlzdHJ5LCBJIG1hZGUgYSBtb3ZlLCBzaGUgcmVzcG9uZGVkLCB3ZSB3ZW50IGJhY2sgdG8gaGVyIHBsYWNlLCBhbmQgbWVycmltZW50IGVuc3VlZC4gIFdlIHRoZW4gZHJvdmUgYmFjayBkb3duIHRvIG15IHBsYWNlIGluIENoaWNhZ28gdG9nZXRoZXIgZm9yIG1vcmUgb2YgdGhlIHNhbWUuICBJIHRvb2sgaGVyIHRvIFVuaW9uIFN0YXRpb24gdGhpcyBtb3JuaW5nIGZvciBhIDYgQU0gKGVjaCwgSSBrbm93KSB0cmFpbiBiYWNrIHRvIE1pbHdhdWtlZSwgc28gc2hlIGNvdWxkIGJlIGJhY2sgaW4gd29yayB0b2RheS4gIEkgdW5kZXJzdGFuZCBzaGUgc3RhcnRlZCBmZWVsaW5nIGEgYml0IHVuZGVyIHRoZSB3ZWF0aGVyIG9uIHRoZSB0cmFpbiB0aG91Z2guDQoNCk5vdywgdGhlIHF1ZXN0aW9uIGlzOiB3aGVyZSBkb2VzIHRoaXMgcHV0IG1lIG5vdz8gIEnigJltIHN0aWxsIGluIGxvdmUgd2l0aCBNaWEsIGJ1dCBJIGRvbuKAmXQgdGhpbmsgc2hlIHdhbnRzIGEgcmVsYXRpb25zaGlwIGFueW1vcmUgYXQgdGhpcyBwb2ludCwgYWx0aG91Z2ggaXTigJlzIGhhcmQgdG8gc2F5LiAgU2hlIHNlZW1lZCBnZW51aW5lbHkgc2FkIHRvIGhlYXIgYWJvdXQgdGhpcywgZXZlbiB0aG91Z2ggdGhpcyBpcyBhIG5hdHVyYWwgb3V0Y29tZSBvZiBoZXIgYWN0aW9ucy4gIEkgd29uZGVyIGlmIHNlZWluZyB0aGlzIHdpbGwgZ2l2ZSBoZXIgYSBjaGFuZ2Ugb2YgaGVhcnQ/ICBBbmQgdGhlbiB0aGVyZSBpcyBFbS4gIEkgdGhpbmsgc2hlIGxpa2VzIG1lIGEgbG90LCBhbmQgSSBsaWtlIGhlciB0b28sIGJ1dCBJIGRvbuKAmXQgZmVlbCBtYW55IG5vbnNleHVhbCBzcGFya3MuICBBbnlob3csIHRob3VnaHRzIGFyZSB3ZWxjb21lLg=="
+"eventtime","2004-10-11 15:57:00"
+"url","http://ztheobscure.livejournal.com/16177.html"
+"userid","17795"
+"itemid","62"
+"event","Well, I've barely updated this journal in a few months.  I should really be more vigilant about updating, and hopefully, with my class schedule as it is, I will be.  Who'd have thought Securities Regulation would be boring? (sarcasm).
+
+One thing of note...Mia and I have seperated again, this time I think for good."
+"eventtime","2004-09-06 13:10:00"
+"url","http://ztheobscure.livejournal.com/15985.html"
+"userid","17795"
+"itemid","61"
+"event","Post-roadtrip map:
+
+<img src=""http://www.world66.com/myworld66/visitedStates/statemap?visited=AZARCACOCTDCDEFLILINIALAMDMAMIMOMSNENVNJNYOHOKPARITNTXWIWY""><br/>
+<a href=""http://douweosinga.com/projects/visitedstates"">Create your own visited states map</a>."
+"eventtime","2004-07-15 09:34:00"
+"url","http://ztheobscure.livejournal.com/15797.html"
+"userid","17795"
+"itemid","60"
+"event","I'm writing the brief update from Stockholm, Sweden.  It's been a whirlwind 2 months...I'll write about it all when I get back.'
+
+Oh, and Karelian rice pastries rock."
+"eventtime","2004-07-15 09:28:00"
+"url","http://ztheobscure.livejournal.com/15390.html"
+"userid","17795"
+"itemid","59"
+"event","For some reason, it really irks me when people confuse ""premiere"" and ""premier"""
+"eventtime","2004-06-01 20:06:00"
+"url","http://ztheobscure.livejournal.com/15183.html"
+"userid","17795"
+"itemid","58"
+"event","""Title VII has been interpreted to protect giant talking vegetables."""
+"eventtime","2004-05-04 15:01:00"
+"url","http://ztheobscure.livejournal.com/15041.html"
+"userid","17795"
+"itemid","57"
+"event","<a href=""http://www.law.ucla.edu/faculty/volokh/yiddish.htm"">Terribly so</a>"
+"eventtime","2004-04-23 17:29:00"
+"url","http://ztheobscure.livejournal.com/14633.html"
+"userid","17795"
+"itemid","56"
+"event","One of my closest friend's father died today.  I'm thinking of flying back to NJ for the Shiva.
+
+In other news, I'm thinking of taking the Fundamentals of Engineering Exam.  It would be mostly a crapshoot, relying more on my ability to psych out questions than actual knowlege, although I do have some of that also.  Right now I'm hovering at just below %70, which is what I need to pass.  My reward for passing?  Taking another test - the Patent Bar."
+"eventtime","2004-04-14 00:01:00"
+"url","http://ztheobscure.livejournal.com/14558.html"
+"userid","17795"
+"itemid","55"
+"event","Maybe it's just me, but the following sounds awfully odd to me:
+
+""Sentenced to death, reduced to life.""
+
+I know what it means, but..."
+"eventtime","2004-04-12 15:09:00"
+"url","http://ztheobscure.livejournal.com/14243.html"
+"userid","17795"
+"itemid","54"
+"event","<a href=""http://ludicrousspeed.co.nr/nerdtest.html"" target=""_blank""> 38.095238095238095% of me is a huge nerd! How about you?</a>"
+"eventtime","2004-04-02 23:00:00"
+"url","http://ztheobscure.livejournal.com/14009.html"
+"userid","17795"
+"itemid","53"
+"event","First, two Mia quotes:
+
+""Chocolate Cake and a vibrator in the trunk...Mmmm""
+""We cannot die before we get to Napa."" (On my driving)
+
+I liked this - states I've visited.
+<img src=""http://www.world66.com/myworld66/visitedStates/statemap?visited=AZCACOCTDCDEFLILINIAMDMAMIMONENVNJNYOHPARITXWIWY""><br/>
+<a href=""http://douweosinga.com/projects/visitedstates"">create your own visited states map</a>"
+"eventtime","2004-03-29 13:39:00"
+"url","http://ztheobscure.livejournal.com/13623.html"
+"userid","17795"
+"itemid","52"
+"event","""Honey, I'm horny...err, I mean hungry...stupid freudian slip."""
+"eventtime","2004-03-26 09:37:00"
+"url","http://ztheobscure.livejournal.com/13482.html"
+"userid","17795"
+"itemid","51"
+"event","Check out my blog at http://blogs.yucs.org/~tspr/ for exciting and nerdy news."
+"eventtime","2004-03-03 16:37:00"
+"current_moodid","102"
+"url","http://ztheobscure.livejournal.com/13194.html"
+"userid","17795"
+"itemid","50"
+"event","Lots of things going on.
+
+Firstly, I'm having a bit of trouble really focusing on my classes.  This is problematic, since I am taking mostly reading-intensive classes, 3 of which are lectures on basic substantive law.
+
+Secondly, myself and Mia are back together, albeit still open.  We just missed/loved eachother too much.  Disturbing, no?  She found herself unable to have sex with other people, something which discombobulated her greatly.  Meanwhile, I don't think I'll be seeing Amber again...I haven't spoken to her in just under a week.  'tis a pity, as I enjoyed talking to her, but just as well.  There are two others I might casually date, but I'm seeing Mia for Valentine's day, and we'll see where things go from there...she may well also be coming with me to San Francisco this spring (March 21-28).
+
+Thirdly, I'm going to be in Houston February 26-29th.  I'll be visiting a friend working there, but I'll have lots of free time to hang out and explore.
+
+Fourthly, I'd like to welcome my friend Jackie to the readership of this journal.
+
+Fifthly, if you have a legal summer job, especially a summer associate position, please tell me ;-)."
+"eventtime","2004-02-03 14:44:00"
+"url","http://ztheobscure.livejournal.com/12866.html"
+"userid","17795"
+"itemid","49"
+"event","Lots and lots of stuff going on with Mia...I have to make a long post about it - 'twill come as soon as I have time.  Should also answer all the comments I've gotten on the last post."
+"eventtime","2004-02-01 23:18:00"
+"url","http://ztheobscure.livejournal.com/12623.html"
+"userid","17795"
+"itemid","48"
+"event","Also, for those who care, I recently set up a blog.  It is written primarily for the benefit of my religious friends and family, and it essentially an intellectual inquiry.  However, you are all welcome to read and comment on my thoughts.  Indeed, I'd love it if my friends here did.
+
+So, here it is:  <a href=""http://blogs.yucs.org/~tspr/"">My Blog</a>
+
+Carbon."
+"eventtime","2004-01-21 16:36:00"
+"url","http://ztheobscure.livejournal.com/12484.html"
+"userid","17795"
+"itemid","47"
+"event","Mia is going to be training, it seems, under what can only be called a blowhard.  These brings about deeply negative feelings, most of which are deeply irrational, but such it is.
+
+The fellow in question is in his mid-50s, with 4 girls already, and apparently some professional BDSM experience.  Basically, his specialty is luring and training ex-housewives - Mia is quite a bit younger than any of the other girls.  I have no doubt that his skill in this game are superior to mine (those who know me know that this makes me stew, as I despise not being superior, but given that he has quite a few years of experience, I am not surprised).  Mia sent me some of his philosophy, as it were, and I can only call it horseshit.  But she does have a weakness for this kind of horseshit, as I have seen in the past.  If I really couldn't stand her doing this, I'd take her back.  But I can't allow that just yet - there is a reason we ended it, no matter how irrational / idiotic it seems at certain moments.
+
+Meanwhile, I am going on a date with A tonight.  I'm looking forward to it...she's smart, witty, and good looking, with a healthy dose of whimsy and strangeness.  I'll report more in time."
+"eventtime","2004-01-21 16:28:00"
+"current_moodid","129"
+"url","http://ztheobscure.livejournal.com/12203.html"
+"userid","17795"
+"itemid","46"
+"event","And 2.6 or so years later, it's over."
+"eventtime","2004-01-01 09:37:00"
+"url","http://ztheobscure.livejournal.com/11872.html"
+"userid","17795"
+"itemid","45"
+"event","Big news, as it were.  Durshgirl has a livejournal!
+
+You can view it here: http://www.livejournal.com/users/durshgirl/"
+"eventtime","2003-12-27 10:44:00"
+"url","http://ztheobscure.livejournal.com/11624.html"
+"userid","17795"
+"itemid","44"
+"event","I was talking to an old friend of mine on the phone last night, for the first time in a while, and she was relating her romantic misadventures.
+
+Apparently, her most recent ex had fucked his sister when they were both children. This apparently left her nonplussed.
+What did ruffle her feathers was that he endlessly said that she reminded him of his sister.
+
+I love life, in all its folly."
+"eventtime","2003-11-12 14:09:00"
+"url","http://ztheobscure.livejournal.com/11398.html"
+"userid","17795"
+"itemid","43"
+"event","Yes, I thought of these two ""song"" titles on my own:
+
+""Baby's Got Yak""
+
+""I'm too Sexy for my Yurt""
+
+I love being nuts."
+"eventtime","2003-11-05 22:10:00"
+"url","http://ztheobscure.livejournal.com/11088.html"
+"userid","17795"
+"itemid","42"
+"event","The Federalist Society recently ran an event entitled ""Is John Ashcroft Darth Vader?""
+
+I always thought of him more as a Dark Helmet, with Bush as President Skroob and Rumsfeld as Col. Sanders.
+
+I'm feeling somewhat foul today...probably the weather, plus various career concerns."
+"eventtime","2003-11-03 14:47:00"
+"url","http://ztheobscure.livejournal.com/10861.html"
+"userid","17795"
+"itemid","41"
+"event","<a href=""http://www.texasbar.com/saywhat/weblog/index.html"">http://www.texasbar.com/saywhat/weblog/index.html</a>
+
+For those nonlawyers, this is perhaps a confirmation that lawyers lack a sense of humor."
+"eventtime","2003-10-18 22:25:00"
+"url","http://ztheobscure.livejournal.com/10660.html"
+"userid","17795"
+"itemid","40"
+"event","I've been putting off writing this down.  Partially because it reeks of name-dropping, but mostly because I'm extremely lazy.
+Yesterday, Justice Anthony Kennedy of the US Supreme Court guest-taught the class on the American Revolution.  In honor of the occasion, I wore my ""Black Death World Tour"" T-shirt, which he noticed and found quite amusing.
+We later discussed the American Revolution, and mutually reached the conclusion that the reason it could only occur after the enlightenment because prior to the enlightenment, in the dark ages of deus ex machina, causation and thus philosophical justification therof did not exist in human hands.
+Gdorb."
+"eventtime","2003-10-02 20:20:00"
+"url","http://ztheobscure.livejournal.com/10307.html"
+"userid","17795"
+"itemid","39"
+"event","<a href=""http://www.bhf-law.com/home.html"">Brownstein Hyatt & Farber</a>
+
+This one is in Denver.  This is of course good news...but it also reinforces the Denver / New York conflict.
+
+Doubly amusing, they obviously put no customization into the letter.  This would be unsurprising for a rejection, but a bit suprising on the reverse.  They thanked me for my interest ""as expressed by your recent letter.""  I didn't give them a cover letter - I dropped of the resume in person."
+"eventtime","2003-09-30 14:50:00"
+"url","http://ztheobscure.livejournal.com/10156.html"
+"userid","17795"
+"itemid","38"
+"event","<a href=""http://www.mccarter.com/www/ourfirm.cfm"">McCarter and English</a>
+
+At least I don't feel like a complete loser in the job search now."
+"eventtime","2003-09-21 18:51:00"
+"url","http://ztheobscure.livejournal.com/9855.html"
+"userid","17795"
+"itemid","37"
+"event","As some of you know, my politics are somewhere between strange and odd.  However, this group goes beyond even myself.  As follows is an excerpt of an E-mail promoting one of their events.  I've included the links for more information for the easily amused.
+
+[begin]
+The imminent emergence of the eminent 
+T.H.O.N.G.
+Topless Humans Organized for Natural Genetics.
+
+""putting our bodies between your mouths and biotech""
+
+****something insidious is inside you. dulling your
+senses.  sapping your energy.  stealing your sex
+drive.  changing your cellular makeup to fit its
+design.  it's happening all around you.  every day. on
+every corner.  at every meal.
+
+AND YOU'RE CONVINCED IT'S GOOD FOR YOU.
+it's biotech.
+and it's bad.
+
+breathe deeply, open your minds and 
+mouths and get a taste of
+T.H.O.N.G.
+
+THONG opposes biotechnology and the elements of
+culture that create and use it. 
+THONG targets these social and culinary criminals
+(like Kraft) through topless performative direct
+action.
+THONG creates and disseminates THONG CULTURE- a
+sustainable, sexy, organic, creative, brilliant,
+grassroots, gorgeous, anti-oppresive,
+boundary-breaking, whirlwind of experience.
+
+Come for the food.
+Stay to get naked.
+
+Organic is hot.
+http://genewise.org
+http://www.barewitness.org/thong.html
+[end]
+
+My primary comment is that parts of this sound eerily similar to General Ripper from Dr. Strangelove.  However, Mr. Ted had two much better comments:
+""Art is often the refuge of the inarticulate""
+""They probably shouldn't be on ecstacy when writing promotional text""
+
+Some of my few readers may take umbrage at my not thinking well of this.  That's what comments are for...
+
+At least they have one thing in their favor...someone has already written their song."
+"eventtime","2003-09-15 15:48:00"
+"current_moodid","44"
+"url","http://ztheobscure.livejournal.com/9726.html"
+"userid","17795"
+"itemid","36"
+"event","Because Yaks are seriously cool:
+
+http://www.domestic-yaks-wild-yaks.com/"
+"eventtime","2003-09-14 16:25:00"
+"url","http://ztheobscure.livejournal.com/9234.html"
+"userid","17795"
+"itemid","35"
+"event","""Although we are not presented here with the problem of regulating lewd public conduct itself, the States have greater power to regulate nonverbal, physical conduct than to suppress depictions or descriptions of the same behavior.""  Miller v. California  413 U.S. 15, *26, 93 S.Ct. 2607, **2616 (U.S.Cal. 1973)
+
+In the wake of Lawrence v. Texas (saying states cannot regulate private sexual conduct) must we also hold by implication that states also cannot regulate depictions therof?"
+"eventtime","2003-09-09 22:40:00"
+"url","http://ztheobscure.livejournal.com/9114.html"
+"userid","17795"
+"itemid","34"
+"event","<a href=http://www.mwe.com>McDermott, Will, & Emery</a>
+
+For giving me my first rejection"
+"eventtime","2003-08-26 13:20:00"
+"url","http://ztheobscure.livejournal.com/8837.html"
+"userid","17795"
+"itemid","33"
+"event","<a href=""http://www.stroock.com"">Stroock & Stroock & Lavan</a>
+
+It's not because they have a funny name.  It's because they gave me a free penguin."
+"eventtime","2003-08-25 21:47:00"
+"url","http://ztheobscure.livejournal.com/8477.html"
+"userid","17795"
+"itemid","32"
+"event","Contravening my long post a few days back, I was just offered a spot on the Journal of Technology and Intellectual Property.
+
+Woo Hoo"
+"eventtime","2003-08-21 08:29:00"
+"url","http://ztheobscure.livejournal.com/8367.html"
+"userid","17795"
+"itemid","31"
+"event","Why do I bother to come home to NJ?  I have an emotional wreck of a mother, and a doddering fool of a father.
+Apparently, respect dictates that I do what they want, including decisions that will decide the course of my life.
+Fools."
+"eventtime","2003-08-12 21:13:00"
+"url","http://ztheobscure.livejournal.com/8034.html"
+"userid","17795"
+"itemid","30"
+"event","""In headaches and in worry
+   Vaguely life leaks away,
+And Time will have his fancy
+   To-morrow or to-day.
+
+""Into many a green valley
+   Drifts the appalling snow;
+Time breaks the threaded dances
+   And the diver's brilliant bow.
+
+""O plunge your hands in water,
+   Plunge them in up to the wrist;
+Stare, stare in the basin
+   And wonder what you've missed.
+
+""The glacier knocks in the cupboard,
+   The desert sighs in the bed,
+And the crack in the tea-cup opens
+   A lane to the land of the dead.
+
+""Where the beggars raffle the banknotes
+   And the Giant is enchanting to Jack,
+And the Lily-white Boy is a Roarer,
+   And Jill goes down on her back.
+
+""O look, look in the mirror?
+   O look in your distress:
+Life remains a blessing
+   Although you cannot bless.
+
+""O stand, stand at the window
+   As the tears scald and start;
+You shall love your crooked neighbour
+   With your crooked heart.""
+
+It was late, late in the evening,
+   The lovers they were gone;
+The clocks had ceased their chiming,
+   And the deep river ran on.
+
+Thus ends W.H. Auden's poem ""As I Walked Out One Evening"" (You can find the whole thing <a href=""http://www.randomhouse.com/knopf/authors/auden/poem.html"">here</a>).  It has always been one of my favorite poems, and lately I've been feeling it more.  Perhaps 'tis a quarter-life crisis.
+
+Myself and all my friends from way back are entering adult life.  One is off to med school, another to Hollywood, et al.  I myself am living on my own, seeing a girl who it is becoming increasingly obvious I will go the distance with, and in professional school.  Is the twilight of youth a career services office?
+
+To boot, the whole job rush now is taking a toll.  One intruiging aspect of freedom is that in a sense, it reduces freedom.  3 choices are far more manageable than 50, especially when the criteria seperating them are fairly inscrutable.
+
+The final fact is that I simply don't care.  No-one knows why I'm in Law School, save that I couldn't think of anything better to do my parents would pay for.  I'm pulling a decent GPA, though hardly superlative, and I don't think I qualified for any journals, although such cannot be concluded at this point.  I have ideas that I could turn into greatness, but I hold myself back.  For years I have seen things with a clarity few others can approach, but I cannot bring myself to interact with my observations.
+
+For some of you, this may be a vaguely disturbing look at my more human side.  c'est la vie."
+"eventtime","2003-07-28 18:39:00"
+"url","http://ztheobscure.livejournal.com/7796.html"
+"userid","17795"
+"itemid","29"
+"event","For those who are unaware, durshgirl has often gone under the name ""babyslv"", and last night after a particularly intense play session and aftercare, lived up to the name, singing this while splashing around in the bathtub.
+
+""I'm a little Teapot, short and stout
+Here is my handle, here is my spout (points at pussy)
+When I get all horny, hear me shout,
+Fuck me Master and cum (long pause) me out.""
+
+God I love her."
+"eventtime","2003-06-15 09:47:00"
+"url","http://ztheobscure.livejournal.com/7651.html"
+"userid","17795"
+"itemid","28"
+"event","durshgirl licked my ass this morning.  It tickled."
+"eventtime","2003-05-22 13:52:00"
+"url","http://ztheobscure.livejournal.com/7404.html"
+"userid","17795"
+"itemid","27"
+"event","1L is over.  Somehow, I'm still alive, though I've learned to stop kicking.  This summer I'll be taking Business Associations, and working 1/2 time for a prof.
+
+If you are ever in Omaha, go to the Upstream Brewing Company Restaurant in Old Market, and try the Root Beer.
+
+Finally, a durshquote:  ""I don't remember this being so green.  Then again, it was winter."""
+"eventtime","2003-05-16 10:14:00"
+"url","http://ztheobscure.livejournal.com/6952.html"
+"userid","17795"
+"itemid","26"
+"event","""I go there all the time...actually, I don't go there that often...actually, I've never been there.""
+
+""So there's the christmas present I bought for my sister.""
+
+Carbon."
+"eventtime","2003-05-12 22:48:00"
+"url","http://ztheobscure.livejournal.com/6799.html"
+"userid","17795"
+"itemid","25"
+"event","Me: ""Honey, lets take over the world.""
+durshgirl: ""But where will we find rubber pants in our size?""
+Me: ""You know, for most any other couple, that would be a deeply theoretical question."""
+"eventtime","2003-05-05 17:46:00"
+"url","http://ztheobscure.livejournal.com/6503.html"
+"userid","17795"
+"itemid","24"
+"event","Am I the only person who keeps getting spam about upgrading my septic system?"
+"eventtime","2003-05-03 22:00:00"
+"url","http://ztheobscure.livejournal.com/6339.html"
+"userid","17795"
+"itemid","23"
+"event","Quoth the durshgirl:  ""I'm more jewish than arab.  God knows I've had more jewish in me."""
+"eventtime","2003-04-26 12:22:00"
+"url","http://ztheobscure.livejournal.com/6076.html"
+"userid","17795"
+"itemid","22"
+"event","It occurred to me today that the notion of promiscuity exists, in large part, for females to exert sexual control.  The notion of female promiscuity (and such associated notions as virginity) discourages many women from being sexually active, and thus to remove themselves from the sexual market.  Meanwhile, male promiscuity is tacitly encouraged in our society, Thus meaning that few males exempt themselves from the sexual market.  The end result is fewer women than men by a significant margin on the sexual margin, and thus handing control over the females by virtue of their being able to pick and choose.  Meanwhile, marriage acts as a control on the other end of the spectrum.  Such concepts do indeed bind women to certain roles, but one should not think that women are the only ones disadvantaged by the concept of female promiscuity as a negative.
+
+Please no comments on exceptions.  This is a gross generalization, and one that seems only applicable to heterosexual relationships.  Other comments are more than welcome."
+"eventtime","2003-04-22 14:34:00"
+"url","http://ztheobscure.livejournal.com/5632.html"
+"userid","17795"

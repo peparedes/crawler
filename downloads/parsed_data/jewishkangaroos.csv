@@ -1,0 +1,282 @@
+"names","values"
+"itemid","48"
+"event","V2hlbiBkaWQgSSBzdG9wIGhhdmluZyBiZXN0IGZyaWVuZHM/IEl0IG11c3TigJl2ZSBiZWVuIHJpZ2h0IGFmdGVyIEkgZ3JhZHVhdGVkIGZyb20gaGlnaCBzY2hvb2wsIGJlY2F1c2UgSSBoYXZlIHlldCB0byBtYWtlIGEgYmVzdCBmcmllbmQgaW4gY29sbGVnZS4gSSB0aGluayB0aGUgY2xvc2VzdCB0byBhIGJlc3QgZnJpZW5kIEnigJl2ZSBoYWQgc2luY2Ugc3RhcnRpbmcgY29sbGVnZSBoYXMgYmVlbiBTYW1teSwgYW5kIG9mIGNvdXJzZSBBbmRyZXcsIGJ1dCBoZeKAmXMgYSBkaWZmZXJlbnQgc3RvcnkuIEkgZmVlbCBsaWtlIHRoZXJlIGlzbuKAmXQgYSBwZXJzb24gYXJvdW5kIG1lIHRvIHdob20gSSBjYW4gdGVsbCB0aGluZ3PigJRub3QganVzdCBzb21lIHRoaW5ncywgZXZlcnl0aGluZy4gSSBmaW5kIGl0IGVzcGVjaWFsbHkgaGFyZCB0byBrZWVwIGZlbWFsZSBmcmllbmRzIG91dCBoZXJlLiBJ4oCZbSBhbHdheXMgdHJ5aW5nIG5vdCB0byB1cHNldCB0aGVtIGluIGFueSB3YXksIGFuZCBJIGZpbmQgbXlzZWxmIGV4aGF1c3RlZCBhbmQgZHJhd24gdGhpbi4gSSBjYW7igJl0IGJlIG15c2VsZiBhcm91bmQgYW55b25lLiBJZiBJIGRvLCBJ4oCZbGwgZW5kIHVwIGFsb25lLiBUaGVzZSBmcmllbmRzIGFyZSB0b28ganVkZ21lbnRhbC4gDQoNCkogc2VlbXMgdG8gYmUgaW4gZ3JlYXQgZGlzbGlrZSBvZiBBbmRyZXcgYW5kIEkuIFNoZSB3b27igJl0IHRlbGwgbWUgdGhpcywgb2YgY291cnNlLCBidXQgSSBjYW4gdGVsbC4gU2hl4oCZcyBnb3R0ZW4gYmV0dGVyIGF0IGhpZGluZyBoZXIgaXJyaXRhdGlvbiBvdmVyIHRoZSBwYXN0IG1vbnRoLCBidXQgaXTigJlzIHN0aWxsIHRoZXJlLiBUZW5zaW9uIGVtYW5hdGVzIGZyb20gaGVyIGluIHdhdmVzIHdoZW5ldmVyIGhl4oCZcyBvdmVyIGF0IG91ciBhcGFydG1lbnQsIGFuZCBJ4oCZbSBwcmV0dHkgc3VyZSBzaGUgZmluZHMgaXQgb2JqZWN0aW9uYWJsZSB0aGF0IEkgc3BsaXQgbXkgdGltZSBiZXR3ZWVuIGhpcyBwbGFjZSBhbmQgbWluZS4gQnV0IGhl4oCZcyBteSBib3lmcmllbmQsIHdoYXQgYW0gSSBzdXBwb3NlZCB0byBkbz8gTGl2ZSBjb21wbGV0ZWx5IHNlcGFyYXRlIGxpdmVzIGFuZCBvbmx5IHNlZSBlYWNoIG90aGVyIG9uIHdlZWtlbmRzPyBUaGlzIHNob3VsZG7igJl0IGJlIGEgY3VzdG9keSBiYXR0bGUuIEEgc291cmNlIHRlbGxzIG1lIHRoYXQgc2hlIHRoaW5rcyBJ4oCZdmUgYmVjb21lIGNvbXBsYWNlbnQgYW5kIHRoYXQgdGhlIHJlbGF0aW9uc2hpcCBJIGhhdmUgd2l0aCBBbmRyZXcgaGFzIG5vdGhpbmcgdG8gZG8gd2l0aCBsb3ZlLiBUaGUgcmVsaWFiaWxpdHkgb2YgdGhlIHNvdXJjZSBtYXkgYmUgcXVlc3Rpb25hYmxlLCBidXQgbGV04oCZcyBzYXkgdGhhdCBpdCBpcyBpbiBmYWN0IHJlbGlhYmxlLiBXaGF0IHRoZSBoZWNrPz8gSeKAmW0gbW9zdCBjb21mb3J0YWJsZSBhbmQgbW9zdCBteXNlbGYgd2l0aCBBbmRyZXfigJRoZSBkb2VzbuKAmXQganVkZ2UgbWUuIEhlIHRha2VzIGNhcmUgb2YgbWUsIGFsd2F5cyBtYWtpbmcgc3VyZSBJ4oCZbSBub3QgY29sZCBvciBodW5ncnkgb3Igd2hhdG5vdC4gSWYgSeKAmW0gZmVlbGluZyBkb3duLCBoZSB0cmllcyBoaXMgYmVzdCB0byBjaGVlciBtZSB1cCwgcmVzb3J0aW5nIHRvIG1ldGhvZHMgb2Ygc2lsbGluZXNzIHRoYXQgaGXigJlkIGJlIHV0dGVybHkgaHVtaWxpYXRlZCBhYm91dCBpZiBhbnlvbmUga25ldyBoZSB3YXMgY2FwYWJsZSBvZiB0aGVtLiBIZSBkb2VzbuKAmXQgbWlzdHJlYXQgb3IgYWJ1c2UgbXkgZmVlbGluZ3Mgb3IgbWUuIEhlIGlzIHBhdGllbnQsIGtpbmQsIHVuc2VsZmlzaCBhbmQgbm90IGFycm9nYW50IHdpdGggcHJpZGUgb3IgY29uY2VpdC4gSGUgaXMgYWxsIG9mIHRoZXNlIHRoaW5ncywgYW5kIHNvIGlzIGxvdmUuIEkgZ3Vlc3MgSSBhbSBjb21wbGFjZW50LCBidXQgbWF5YmUgSiBmZWVscyB0aGF0IG9uZSBzaG91bGQgbm90IGJlIGNvbnRlbnQgd2l0aCBsb3ZlPyBJIHdvbmRlciB3aGF0IHNoZSB0aGlua3MgbG92ZSBpcz8gQ29uc3RhbnQgcmVzdGxlc3NuZXNzPyBMb3ZlIHNhdGlzZmllZCBpcyB0b3VnaCBlbm91Z2ghIEFuZHJldyBhbmQgSSBtb3N0IGRlZmluaXRlbHkgZG8gbm90IGRldmVsb3AgYXQgdGhlIHNhbWUgcmF0ZSBpbiBvdXIgcmVsYXRpb25zaGlwLCBhbmQgd2UgbW9zdCBkZWZpbml0ZWx5IGFyZSBub3Qgb25lIHVuLW9wcG9zaW5nIG1pbmQuDQoNCllvdSBrbm93IHdoYXQsIEkgZG9u4oCZdCBrbm93IHdoeSBJIGZlZWwgdGhlIG5lZWQgdG8gZGVmZW5kIG15c2VsZiAoaWYgb25seSB0byBteXNlbGYpIGFnYWluc3QgSi4gSSBoYXZlIHdheSBsZXNzIGV4cGxhaW5pbmcgdG8gZG8gdGhhbiBzaGUgZG9lcyB3aXRoIGhlciBuZXdmb3VuZCBwb3QgaG9iYnkvaW5zaWRpb3VzIGFkZGljdGlvbi4gU2hl4oCZcyB0aGUgbW9zdCBqdWRnbWVudGFsIHBlcnNvbiBJIGtub3c7IEkgZG9u4oCZdCBrbm93IHdoeSBJIGJvdGhlciBmZWVsaW5nIGludGltaWRhdGVkIGJ5IGhlci4gV2hhdGV2ZXIuIEkgbmVlZCB0byBraWNrIG15IG5ldXJvc2lzIGFuZCBzdG9wIGNhcmluZyBzbyBtdWNoIGFib3V0IGhlciBqdWRnbWVudHMgdG93YXJkIEFuZHJldyBhbmQgSS4gSWYgd2XigJlyZSBzbyBkdWxsLCB0aGVuIHNoZSBjYW4gZ28gYW5kIGhhbmcgb3V0IHdpdGggaGVyIG90aGVyIGZyaWVuZHMgYW5kIGdldCBoaWdoLg0KDQpHb2QsIEnigJltIHN1Y2ggYSBzZWNyZXRpdmUgYml0Y2gu"
+"eventtime","2009-03-18 00:26:00"
+"current_moodid","87"
+"url","http://jewishkangaroos.livejournal.com/12421.html"
+"userid","7496"
+"itemid","47"
+"event","I just watched this movie (Brideshead Revisited), and I think it is magnificent.<br><br>
+
+<lj-embed id=""2""/>
+<br><br>
+<lj-embed id=""3""/>"
+"eventtime","2009-02-09 22:42:00"
+"url","http://jewishkangaroos.livejournal.com/12073.html"
+"userid","7496"
+"itemid","46"
+"event","So my dad has liver cancer.
+
+I don't think my mom or brother really care all that much, though. My father is an estranged asshole, you see. But he's still my father, my brother's father, my mother's ex-husband. We should care. I cried when I found out (at a birthday dinner in a public restaurant, god help me), but when my mom told me over my mobile she didn't sound bothered at all. She was treating the situation as if he was already in the ground. I know liver cancer's a death sentence, but come on!
+
+The man should be granted the privilege of having people grieve over his fate and feel a sense of loss at his passing. That right should be given him without any effort or second thought.
+
+When did we become so inhuman?"
+"eventtime","2009-02-03 01:05:00"
+"current_moodid","127"
+"url","http://jewishkangaroos.livejournal.com/11891.html"
+"userid","7496"
+"itemid","42"
+"event","If hell is other people, I'm far from it.<br /><br />I have been by myself for the past week. Yes, including on Christmas.<br /><br />I've just got back in Seattle after having spent the past four months studying abroad in France, and no one is here. All my friends have gone home for the holidays. I couldn't cuz it's too expensive to fly to Guam and then back to America, and I am well broke.<br /><br />Needless to say, the weather here has been shit. I ventured out of the apartment once to get much needed food, and that took five times longer than it should have.<br /><br />I must say, I'm quite bothered that Stephanie has yet to come up and visit me. I haven't seen her for four months. She's at her parents' in Bellevue, which is only 20 minutes away. She <em>lives</em> in this fucking apartment in which I am currently housing myself for the holidays. I've been here for a week, and she promised me that she'd come up to see me. She knows I'm by myself. She knows that no one has stayed in Seattle for the holidays. You'd think she'd call me, even to check the state her apartment is in. Whatever.<br /><br />I did get to talk to my roommate Jamie on the phone today. That lifted my spirits so much. I can't wait to see her. She's set to come in from Colorado on Thursday. She had been studying abroad in Spain while I was in France. So while we'll both feel like outsiders among our old Seattle friends, having missed out on a semester amongst them, and thus, integrating ourselves back into their now changed lives, we will at least be on the same level with each other.<br /><br />Fuck, I miss having a home.<br /><br />"
+"eventtime","2008-12-28 23:51:00"
+"current_moodid","47"
+"url","http://jewishkangaroos.livejournal.com/11007.html"
+"userid","7496"
+"itemid","40"
+"event","PGltZyBzcmM9Imh0dHA6Ly9waG90b3MtYS5hay5mYmNkbi5uZXQvcGhvdG9zLWFrLXNuYzEvdjg3MC8xOTIvMTMvMzI0MDUxNjAvbjMyNDA1MTYwXzMxNTUzMjMyXzMzOTEuanBnIj48YnI+PGJyPg0KPGJyPg0KVGhhdCBwaWN0dXJlIHByZXR0eSBtdWNoIHN1bXMgdXAgbXkgZXhwZXJpZW5jZSBpbiB0aGUgVUsuIEl0IHdhcyBhIHJhZCBmdWNraW4gcGFydHkgd2l0aCBUaGUgTWlnaHR5IEJvb3NoLiBUaG9zZSBCb29zaCBraWRzIGtub3cgaG93IHRvIHRocm93IGEgcGFydHksIGxldCBtZSB0ZWxsIHlhLjxicj48YnI+IEFuZCBOb2VsIEZpZWxkaW5nIGdpdmVzIG9uZSBoZWxsdXZhIHRhYmxlIGRhbmNlITxicj48YnI+PGJyPg0KDQpBbmQgc29tZSBvdGhlciBwaWN0dXJlcyB3b3J0aCBzaG93aW5nOjxicj48YnI+DQo8aW1nIHNyYz0iaHR0cDovL3Bob3Rvcy1hLmFrLmZiY2RuLm5ldC9waG90b3MtYWstc25jMS92ODcwLzE5Mi8xMy8zMjQwNTE2MC9uMzI0MDUxNjBfMzE1NTMyMDhfNTk1OS5qcGciPjxicj4NCkRlZSAoTm9lbCdzIGdmLCB0aGUgbHVja3kgZ2lybCEpIGFuZCBTdWUgb2YgUm9ib3RzIGluIERpc2d1aXNlPGJyPjxicj4NCg0KPGltZyBzcmM9Imh0dHA6Ly9waG90b3MtZy5hay5mYmNkbi5uZXQvcGhvdG9zLWFrLXNuYzEvdjg3MC8xOTIvMTMvMzI0MDUxNjAvbjMyNDA1MTYwXzMxNTUzMjIyXzE2Mi5qcGciPjxicj4NClRoZSBhbWF6aW5nIEp1bGlhbiBCYXJyYXR0PGJyPjxicj4NCg0KPGltZyBzcmM9Imh0dHA6Ly9waG90b3MtYi5hay5mYmNkbi5uZXQvcGhvdG9zLWFrLXNuYzEvdjg3MC8xOTIvMTMvMzI0MDUxNjAvbjMyNDA1MTYwXzMxNTUzMjMzXzM3MzMuanBnIj48YnI+DQpZb3UgY2FuIHNlZSBEYXZlIEJyb3duIG9uIHRoZSB0dXJudGFibGVzLiBIZSB3YXMgS0lMTEVSLjxicj48YnI+DQoNCjxpbWcgc3JjPSJodHRwOi8vcGhvdG9zLWQuYWsuZmJjZG4ubmV0L3Bob3Rvcy1hay1zbmMxL3Y4NzAvMTkyLzEzLzMyNDA1MTYwL24zMjQwNTE2MF8zMTU1MzIzNV80NDE2LmpwZyI+PGJyPg0KTm9lbCwgZGFuY2luZyBvbiB0aGUgdGFibGU8YnI+PGJyPg0KDQo8aW1nIHNyYz0iaHR0cDovL3Bob3Rvcy1oLmFrLmZiY2RuLm5ldC9waG90b3MtYWstc25jMS92ODcwLzE5Mi8xMy8zMjQwNTE2MC9uMzI0MDUxNjBfMzE1NTMyMzlfNTc5MC5qcGciPjxicj4NCkEgYml0IHRyaXBweS4gSSBsaWtlIGl0Ljxicj48YnI+DQoNCjxpbWcgc3JjPSJodHRwOi8vcGhvdG9zLWEuYWsuZmJjZG4ubmV0L3Bob3Rvcy1hay1zbmMxL3Y4NzAvMTkyLzEzLzMyNDA1MTYwL24zMjQwNTE2MF8zMTU1MzI0MF82MTU2LmpwZyI+PGJyPg0KV2hvIGtuZXcgYSBjb21lZGlhbiBjb3VsZCBiZSBzdWNoIGEgZnVja2luZyByb2NrIHN0YXI/PGJyPjxicj4NCg0K4pmlPGJyPg0KSSBmdWNraW5nIGxvdmUgVGhlIEJvb3NoLg0KDQo8YnI+PGJyPg0KDQpIZXJlJ3MgYSBsaXR0bGUgdGFzdGUgb2Ygd2hhdCB3ZW50IGRvd24gYXQgdGhlIGFmdGVyLXBhcnR5Ojxicj48YnI+DQo8bGotZW1iZWQgaWQ9IjEiLz4="
+"eventtime","2008-12-16 13:51:00"
+"current_moodid","61"
+"url","http://jewishkangaroos.livejournal.com/10401.html"
+"userid","7496"
+"itemid","39"
+"event","Let us celebrate the foreign glamour of boys 
+Their allure is left unexplained 
+Their features and form alien to girls as described by girls 
+Scant chance for us to consume the beauty of the male body for pleasure 
+ 
+The body of boys, the blood of boys. 
+ 
+ 
+We like... 
+ 
+your skin 
+ 
+flat chest 
+ 
+shoulders square 
+ 
+cock 
+ 
+sex 
+ 
+broken voices 
+ 
+skinny hips 
+ 
+shape 
+ 
+synthesis 
+ 
+sinew 
+ 
+bass 
+ 
+metal 
+ 
+ 
+We like, we like, we like.."
+"eventtime","2008-12-16 13:48:00"
+"current_moodid","29"
+"url","http://jewishkangaroos.livejournal.com/10005.html"
+"userid","7496"
+"itemid","38"
+"event","I made some pesto pasta with rotini noodles, chicken and mushrooms. The noodles were dry. I didn't cook them enough. I was excited to make the pasta, but whatever happiness I had for creating the dish was ruined by the dry noodles. Blast."
+"eventtime","2008-01-02 22:06:00"
+"current_moodid","38"
+"url","http://jewishkangaroos.livejournal.com/9957.html"
+"userid","7496"
+"itemid","37"
+"event","I am so ready to get back to Seattle. I miss my friends. I'm tired of St Louis.
+
+I am tired of watching nothing but football and basketball. I am tired of sitting around in an apartment, unable to walk anywhere.
+
+It's been so awkward hanging out with my brother. He has such weird childish behavior. I think it's partially because of our age difference. He left home for the navy when I was 10. That was nearly a decade ago. I think he still sees me as a ten year old, which I definitely am not.
+
+Anywho, I've made a good friend out of Toby over the break. We've had conversation everyday since the beginning of December. That makes me happy.
+
+2007 was pretty alright. I hope 2008 will be even better.
+
+That is all."
+"eventtime","2008-01-01 18:30:00"
+"current_moodid","28"
+"url","http://jewishkangaroos.livejournal.com/9670.html"
+"userid","7496"
+"itemid","36"
+"event","""<span>i've realized that some time ago i was a pussy. a real little bitch, almost emo. like i'd only get mad super rarely or i'd be really sensitive and caring and all. i mean i can still be those things, but just not as much as before. back then i'd be worried, self-conscious, and even creepy. now, it's like what the fuck ever. i dont ask if i did anything wrong or if some fucker hates me or over&nbsp;apologize. because i know i didnt do shit, it's most likely that person. a lot of times people say that they're friends, buddies, or whatever. how the fuck does a friend or a buddy just shun you out, ignore you, and think they're better than you. especially out of no where. better than me? HA, go choke on a dick and die. &nbsp;i know who my friends are, not many, but good enough. everyone else is an acquaintance. and i could care less if you're offended. thats another thing, if someone stops talking to me out of no where or is being a fag bitch, i dont care. i'll just move on right there. so the next time im being an asshole, a snob, or whatever. you probably deserve it. i dont have time for your issues, your problems, your drama or to impress you, to pretend to be something or someone just to match up to you. i have none of that and i dont need it. im just gonna move along and start being happy. so be happy you sons of bitches and cocksuckers.""<br /><br />That's a damn dumb FUCK right there.<br /><br />There is ALWAYS a reason for when someone stops talking to you. To take up the stance that you're not gonna bother figuring out that reason because ""I didn't do shit"" is probably the stupidest thing I've ever heard.<br /><br />As for ""How the fuck does a friend or a buddy just shun you out, ignore you, and think they're better than you,"" who the hell said you were friends in the first place? At what point was that established? Clearly, if it was so easy to shun you, then the term ""friendship"" had no part in it.<br /><br />""Go choke on a dick and die"" shows how much immaturity is still in your mind, and no one wants to even be acquainted with, much less be friends with, such a person that can say something like that and mean it. And with the attitude that ""everyone else is an acquaintance,"" I doubt you'll ever find friends.<br /><br />And if the statement ""If someone stops talking to me out of nowhere or is being a fag bitch, I don't care"" were true, then why the fuck did you write this entry? Why the ""choke on this"" demeanor? Obviously, someone stopped talking to you and you were damn bothered by it.<br /></span>"
+"eventtime","2007-12-17 16:33:00"
+"url","http://jewishkangaroos.livejournal.com/9254.html"
+"userid","7496"
+"itemid","35"
+"event","NOT SURE ABOUT THE DATE OF THIS ENTRY.
+
+
+
+wow. i've neglected this blog so much...
+
+
+
+anyway, i'm in college now. seattle, baby! whatever. my dell laptop got super sick. it got a virus, and now it's pretty much screwed. which sucks major ass because it's only four months old. i'm getting a new computer (hp!), because dell has super horrible customer service and isn't helping me at all right now. and i kind of need a computer now, not later. so the old new computer is going to mum. she's gonna get frank to fix it, and it'll be hers.
+
+
+
+college kind of sucks, at the moment. but it's probably just me. a week after i got here, my mom and dad decided they were getting divorced, and my dad got a restraining order on my mom. ha, when i found this out, i was at a party at UW, and i had missed the bus back to seattle u, so i ended up having to stay over at UW. that was NOT a good night..."
+"eventtime","2007-04-28 20:22:00"
+"url","http://jewishkangaroos.livejournal.com/9002.html"
+"userid","7496"
+"itemid","33"
+"event","i hate it when people ask me to do things, and then they don't appreciate or like what i do.
+
+if you don't want my opinion, don't fucking ask for it!
+
+*angry face*"
+"eventtime","2005-09-28 10:38:00"
+"current_moodid","112"
+"url","http://jewishkangaroos.livejournal.com/8524.html"
+"userid","7496"
+"itemid","30"
+"event","good things that happened today:
+
+1. became the french club vice president. woohoo.
+2. had a conversation with stella via calculator
+3. helped make candy grams
+4. tailed dylan from chalan pago to harmon
+5. helped make some decorations for frosh (foil stars rock!)
+6. PIZZA AT SADIE'S!
+7. rocking out in my car to senses fail on my way home. (the inside of your car at night provides a good amount of privacy, you know)
+8. taking off the sticky price tags from the 120 or so tophat souvenirs for the freshmen (that took patience, yo.)
+9. finishing my ""how does it feel to be old?"" essay for english comp. (it sounds good :))
+10. gaining new inspiration to read narnia
+11. having my senior pics up. finally.
+
+today was a good day.
+
+.::sidenote::.
+--> oh dear, he's so handsome. i just wanna kiss him or something <--"
+"eventtime","2005-08-23 23:28:00"
+"current_moodid","43"
+"url","http://jewishkangaroos.livejournal.com/7702.html"
+"userid","7496"
+"itemid","28"
+"event","the friend i was worried about has slightly restored my faith in him. he seems to be coming to his senses, and i applaud him for saying this:<br><br>
+
+""HERE IS TO ALL THE GIRLS OUT THERE. Stop being so hard on yourselves. I know way too many really beautiful girls who think they don't look good... we all think were ugly too. It hurts... becaues it's our fault, guys I mean. We make girls feel like they have to be perfect. You know what I mean, flat stomach, huge boobs, round ass, long legs, big lips, and on top of all that, they have to dress like a whore, and be one as well... nobody can measure up to that... and its not fair... because nobody should have to. The little imperfections are what make people special. If everyone was perfect the world would be so boring, variety is what makes life interesting. So guys, stop making girls have to live up to your, I'm sorry, our... deluded fantasy visions of perfection. Stop acting like boys and start being men... realize that women don't exist to fufill our sexual desires. Stop talking to them solely to get with them, be nice to them because you want to be their friend, not because you want to hook up with them. Say nice things about them not to flatter them in hopes that you'll get some, but because you know they like to hear them. In short... we need to grow up and stop being dicks... just because we have them doesn't mean we need to think with them."""
+"eventtime","2005-08-12 19:01:00"
+"current_moodid","116"
+"url","http://jewishkangaroos.livejournal.com/7223.html"
+"userid","7496"
+"itemid","23"
+"event","i had a dream last night. that's rare for me. it skipped through various scenes. at one point i was at the movies with julie and ryan. at another, i was outside and it was snowing (on guam). at another, i was being chased by some monster that was trying to eat me. at another, i was holding onto a rope that was spread across a road. there were many people holding onto it, but the only two i knew were my grandma and jamie. then i woke up."
+"eventtime","2005-03-05 14:41:00"
+"current_moodid","60"
+"url","http://jewishkangaroos.livejournal.com/6047.html"
+"userid","7496"
+"itemid","22"
+"event","new drive-thru bands you should check out:
+
+- hellogoodbye
+- i can make a mess like nobody's business
+- a day at the fair
+- self against city
+- socratic
+- an angle
+- houston calls
+- morning call
+- track record
+- jenoah
+
+this has been your daily dose of music insight with maysha watson. (thank you, come again)"
+"eventtime","2005-03-04 17:15:00"
+"current_moodid","31"
+"url","http://jewishkangaroos.livejournal.com/5699.html"
+"userid","7496"
+"itemid","21"
+"event","i picked you out 
+of a crowd and talked to you 
+i said i liked your shoes
+you said thanks can i follow you? 
+so it's up the stairs 
+and out of view
+no prying eyes 
+i poured some wine 
+i asked your name you asked the time
+now it's two o'clock 
+the club is closed, we're up the block
+your hands on me 
+pressing hard against your jeans
+your tongue in my mouth 
+trying to keep the words from coming out
+you didn't care to know 
+who else may have been you before
+i want a lover i don't have to love 
+i want a girl who's too sad to give a fuck
+where's the kid with the chemicals? 
+i thought he said to meet me here but I'm not sure
+i got the money if you got the time 
+you said it feels good I said I'll give it a try
+then my mind went dark 
+we both forgot where your car was parked 
+let's just take the train
+i'll meet up with the band in the morning
+bad actors with bad habits 
+some sad singers 
+they just play tragic
+and the phone's ringing 
+and the van's leaving 
+let's just keep touching
+let's just keep...keep singing
+i want a lover i don't have to love
+i want a boy who's so drunk he doesn't talk
+hey, where's the kid with the chemicals?
+i got a hunger and i can't seem to get full
+i need some meaning I can memorize
+the kind i have always seems to slip my mind
+but you but you 
+you write such pretty words
+but life's no story book 
+love is an excuse to get hurt 
+and to hurt 
+do you like to hurt?
+i do i do
+then hurt me"
+"eventtime","2005-03-02 22:30:00"
+"current_moodid","105"
+"url","http://jewishkangaroos.livejournal.com/5434.html"
+"userid","7496"
+"itemid","17"
+"event","i highly, HIGHLY dislike tahlia. oh no! will i get suspended for writing THAT??"
+"eventtime","2005-02-24 20:49:00"
+"current_moodid","3"
+"url","http://jewishkangaroos.livejournal.com/4419.html"
+"userid","7496"
+"itemid","15"
+"event","my friend stella and her mom got into a car accident a few days back. stella had missed school. that night, i found out why. i came home to find a message from my dad on the answering machine telling me that stella was an ICU admission. holy shaisa muffins. i freaked out. i mean, hello, she's a friend of mine, and if she was in ICU, then that meant that she was injured. really bad. i called the ER and talked to my dad. he informed me that stella had ruptured her spleen and her mom broke her ankle and got her knee bruised pretty bad. i left my house immediately after and went to visit stella. her mom had been discharged. when i walked into bed 7 in ICU, she was still sleeping. my dad woke her, and i got to talk to her. she told me that her mom was the one driving. when they pulled out of the intersection (on lane 1) a car hit them. her mom was unable to brake and so a truck ended up hitting them as well. stella told me how she wanted to laugh but it would've been wrong, plus, she couldn't breathe. she threw up her breakfast. as she was telling the story, i could tell that she was in pain. she was really pale, and her face had the slightest scowl as she talked. after i was done visiting her, i came back home. i informed her brother (who's in san francisco) and her friend hannah about the situation. <br>
+the next day was thanksgiving. how lovely. my mom's friend had visited stella in the morning. they told me stella's condition. i don't think stella was aware of this, but her hemaglobin was dropping. that's not good. when that happens, that means that you have internal bleeding. if whatever's bleeding wasn't fixed, then stella would bleed to death. i fucking freaked out. luckily for stella, she's young and shit, so her spleen (that's what was bleeding) had started to heal itself. i visited her again. i came into ICU to find her poking at the hospital thanksgiving dinner, calling crap (with much conviction, mind you). now she got moved to telemetry. that's a good thing. now she's allowed to eat good food and move around. i don't think she'll be coming back to school yet, though."
+"eventtime","2004-11-27 20:57:00"
+"current_moodid","14"
+"url","http://jewishkangaroos.livejournal.com/3845.html"
+"userid","7496"
+"itemid","14"
+"event","my life has been really sad recently. i'm writing in this journal from now on because no one comes here. so it's safe to tell all on this site and not have anyone read any of it.<br><br>
+
+ever since i started junior year, everything has just been going wrong. it's like a major reality check. my grades started off bad. really <i>really</i> bad. i was full of anxiety the week progress reports came out. i swear to god, i felt like i was going to die of some sort of panic attack. i did in fact have an anxiety attack. it wasn't nice. after that week, i knew i had to bring my grades up or else my mother would murder me. all of you people who don't get straight a's probably think it's soo awesome to have that kind of average, but trust me, it isn't all that it's cooked up to be. people start expecting a shitload out of you. between progress report week and parent-teacher conference (about a month and a half) i woke up every morning depressed. i great oppression weighed on my chest and mind. i was always on the verge of tears. i knew that if, on ptc day, my mom saw a grade that wasn't and A, i was dead. every time i woke up i felt like i wanted to just end my life. there was no fun in it anymore. i was depressed. i know grades seem like such a petty thing to get depressed over, but you'd be surprised how many parents hold grades up like they're the most important aspect of human life. eventually, that time passed. ptc came and went. my mom didn't kill me, thank god. then started second quarter. yet again, my grades aren't looking too good. mrs. vensel is lucifer personified. she has no soul. no emotion. her ap class is hell, and she's satan. and theology's a bitch too. surprisingly, i'm getting a better grade in us hist ap than in theo. i hate religion classes. the only reason, i think, that i'm getting an 87 in that class is because i highly dislike conforming to beliefs that aren't necessarily mine. certain people (i won't mention names) don't mind because, as long as they get an A, lying about what they believe isn't a big deal. well, fuck that shit. i hate bs-ing when it comes to faith and shit like that. like, when in church, the priest says ""do you believe in god, the father almighty, creator of heaven and earth, etc.."" and everyone responds ""i do"". bull-fucking-shaisa! nevermind. i got myself started up on religion, i'll just stop now. anyway, second quarter's started and already i'm getting 0's on reading checks for hist. dammit. plus, just a few days ago, my uncle ben died. he was only 51 years old, and he died. i'm not sure what he died from, but that is just saddening. and now my grandma's in the hospital. my oh-so-awesome-not-afraid-to-tell-you-that-you-look-like-shit grandma. i am so fucking depressed! *cries* and my mom came up to me two days ago. she was crying and she said (between sobs) that grandma was dying. dying. my mom broke down. i've never seen her cry so hard in my life. i visited my grandma yesterday. she was completely out of it. delusional. she wasn't responding, and when she did, she didn't know what she was saying. my mom told me that grandma wrote me a letter the day before she went out of it. i cried. i haven't read it yet. i think the reason my grams has become unresponsive is because of all the medication people are giving her. cuz my mom says that, when she's at the hospital in the morning, my grandma's fine. she's herself even. they asked her questions like ""what's your name?"" ""where are you at?"" ""when's your birthday?"", and she was answering them really quickly. and she got pissed off because she felt that the questions were ""completely stupid and quite obvious. i'm sure you could answer them yourself! (curses in chamorro)"" haha. that's the grandma i remember. she nearly bit the head off of her nurse. she may be herself when she isn't on meds, but i know she's still dying. she smells like cancer. literally, you can smell it on her. i can't lose my grandma, i just can't.. i remember way back on her 60-somethingth birthday, i bought her a little magnet that said ""there's no place like home except grandma's house""...and now i don't think grandma's house is gonna have grandma in it anymore."
+"eventtime","2004-11-08 20:41:00"
+"current_moodid","85"
+"url","http://jewishkangaroos.livejournal.com/3786.html"
+"userid","7496"
+"itemid","8"
+"event","<a href=""http://www.melodramatic.com/users/longliveknig"">click for a good time</a><body bgcolor=""#000000"" text=""#ffffff"" link=""#cc0000"" vlink=""#000066"" alink=""#ff99cc"">"
+"eventtime","2004-05-18 20:12:00"
+"current_moodid","44"
+"url","http://jewishkangaroos.livejournal.com/2258.html"
+"userid","7496"
+"itemid","5"
+"event","my brother just freaked out because the dog took a shit. he's scared of shit that isn't his, apparently. hah. he doused the house with lysol (if that's even possible with one spray can). i feel light-headed now. damn that germ killer. i'm losing brain cells! i need those for exam week! aahhh! oh vell. oddly, i'm not the slightest bit worried about exams. is that just spiffy? brownie points for me. woohoo."
+"eventtime","2004-05-16 20:42:00"
+"current_moodid","16"
+"url","http://jewishkangaroos.livejournal.com/1373.html"
+"userid","7496"
+"itemid","2"
+"event","shit."
+"eventtime","2004-05-11 19:56:00"
+"url","http://jewishkangaroos.livejournal.com/620.html"
+"userid","7496"

@@ -1,0 +1,768 @@
+"names","values"
+"itemid","885"
+"event","PGxqLWN1dCB0ZXh0PSJMenp5IG1lbWUiPllvdSBoYXZlIGp1c3QgZG93bmVkIGEgd2hvbGUgYm90dGxlIG9mIHZvZGthLCB3aGF0IGFyZSB5b3UgZG9pbmc/DQpJJ20gYmxhY2tvdXQgZHJ1bmssIG1vc3QgbGlrZWx5IHB1a2luZywgYW5kIGRvaW5nIHNoaXQgSSB3aWxsIHJlZ3JldCBpbiB0aGUgbW9ybmluZyENCg0KQ291bGQgeW91IGdvIGZvciB0aGUgcmVzdCBvZiB5b3VyIGxpZmUgd2l0aG91dCBkcmlua2luZyBhbGNvaG9sPw0KSSBjb3VsZCB0cnksIGJ1dCBJIGtub3cgSSB3b3VsZG4ndCBzdWNjZWVkLg0KDQpXb3VsZCB5b3UgYmUgYWJsZSB0byBkYXRlIHNvbWVvbmUgd2hvIGRvZXNuJ3QgbWFrZSB5b3UgbGF1Z2g/DQpOb3BlDQoNCkRpZCB5b3Ugc2luZyBhdCBhbGwgdG9kYXk/DQpObywgSSBkb24ndCB0aGluayBJIGNvdWxkIGNhcnJ5IGEgdHVuZSB0byBzYXZlIG15IGxpZmUhDQoNCldoZW4gd2FzIHRoZSBsYXN0IHRpbWUgeW91IGxhdWdoZWQgcmVhbGx5IGhhcmQ/DQpMYXN0IG5pZ2h0LCBNb2xseSdzIGRvZyBEb3QgZ290IGhlciBmaXJzdCBib3VuY3kgYmFsbCEhDQoNCldobydzIGJlZCB3ZXJlIHlvdSBsYXN0IG9uPw0KTWluZQ0KDQpZb3VyIG51bWJlciA0IHdhbGtzIG91dCBvZiB5b3VyIGxpZmUsIGRvIHlvdSBnbyBhZnRlciB0aGVtPw0KSSBkb24ndCBoYXZlIGEgbnVtYmVyIDQgcmlnaHQgbm93Lg0KDQpXaG8gd2FzIHRoZSBsYXN0IHBlcnNvbiB5b3UgdGFsa2VkIHRvIGJlZm9yZSB5b3Ugd2VudCB0byBiZWQgbGFzdCBuaWdodD8NCk1vbGx5IEFORCBBbWFuZGEsIHRoZXkncmUgbGlrZSBvbmUgcGVyc29uIHRvIG1lLiA6KQ0KDQpXaG8gZG8geW91IG1pc3MgcmlnaHQgbm93Pw0KVEouIDooDQoNCldoZXJlIGlzIHRoZSBzaGlydCB5b3UgYXJlIHdlYXJpbmcgZnJvbT8NCkkgZ290IGl0IGZvciBteSAyMDA4IEdyYWR1YXRpb24gZnJvbSB0aGUgVW5pdmVyc2l0eSBvZiBXYXNoaW5ndG9uLg0KDQpEbyB5b3UgbGlrZSB0byBjdWRkbGU/DQpZZXMuDQoNCldoYXQgd2FzIHRoZSBsYXN0IG1vdmllIHlvdSB3YXRjaGVkIGluIHRoZWF0ZXJzPw0KRnJpZGF5IHRoZSAxM3RoLCBJIGRvbid0IHVzdWFsbHkgZG8gc2NhcnkhDQoNCkRvZXMgYW55b25lIGhhdmUgZmVlbGluZ3MgZm9yIHlvdT8NClllcyBhbmQgSSBraW5kIG9mIHdpc2ggdGhleSBkaWRuJ3QuLi4NCg0KQXJlIHlvdSBoYXBweSB3aXRoIHRoZSBjaG9pY2VzIHlvdSd2ZSBtYWRlPw0KSSdtIHRyeWluZyB0byBiZS4uLnNvbWV0aW1lcyBJIHdvbmRlciB0b28gbXVjaCBhYm91dCB0aGUgV2hhdC1JZnMuDQoNCldoYXQgc29uZyBhcmUgeW91IGxpc3RlbmluZyB0byByaWdodCBub3c/DQpOb25lLg0KDQpXaGVucyB0aGUgbGFzdCB0aW1lIHNvbWVvbmUgb2YgdGhlIG9wcG9zaXRlIHNleCB0b2xkIHlvdSB0aGV5IG1pc3MgeW91Pw0KTGFzdCBuaWdodC4gOigNCg0KQXJlIHlvdSBleGNpdGVkIGZvciBhbnl0aGluZz8NCkFub3RoZXIgdHJhY2tkYXkgYW5kIG15IENoaWMgUmlkZXJzIHdlZWtlbmQgaW4gTGVhdmVud29ydGghISENCg0KRG8geW91IGhhdGUgdGhlIGxhc3QgcGVyc29uIHlvdSBraXNzZWQ/DQpOTywgSSdtIHN0aWxsIGluIGxvdmUgd2l0aCB0aGVtLiBBZ2guDQoNCldoYXQgd2VyZSB5b3UgZG9pbmcgbGFzdCBuaWdodCBhdCBtaWRuaWdodD8NCkkgd2FzIGxlYXZpbmcgTW9sbHkncyBob3VzZS4NCg0KV2FzIHlvdXIgbGFzdCBraXNzIGRydW5rIG9yIHNvYmVyPw0KSXQgd2FzIGEgZ29vZCBieWUga2lzcyBhbmQgaXQgd2FzIHN0b25lIGNvbGQgc29iZXIuDQoNCkNvdWxkIHlvdSBldmVyIGJlIGZyaWVuZHMgd2l0aCB0aGUgcGVyc29uIHdobyBodXJ0IHlvdSBtb3N0IGluIGxpZmU/DQpNYXliZS4gSSd2ZSBiZWNvbWUgbW9yZSBmb3JnaXZpbmcgYXMgSSd2ZSBnb3R0ZW4gb2xkZXIsIGl0IHRha2VzIHRvbyBtdWNoIGVuZXJneSB0byBiZSBtYWQgYW5kIEknZCByYXRoZXIgbm90IGRvIGl0Lg0KDQpXb3VsZCB5b3Ugc2F5IHRoYXQgeW91IGFyZSBlbW90aW9uYWxseSBzdHJvbmc/DQpZZXMuDQoNCldoYXQgd291bGQgeW91IGRvIGlmIHRoZSBkb29yIGJlbGwgcmFuZyBhbmQgaXQgd2FzIExpbCBXYXluZT8NCkkgY291bGQgY2FyZSBsZXNzLg0KDQpXaGF0IHdhcyB0aGUgcmVhc29uIGZvciB5b3UgdGhyb3dpbmcgdXAgbGFzdCB0aW1lPw0KVG9vIG11Y2ggYWxjb2hvbC4gRGFtbiB0aG9zZSBwYXJ0aWVzIQ0KDQpIYXZlIHlvdSBldmVyIGJlZW4gc28gaHVydCB0aGF0IHlvdSB3YW50ZWQgdG8gc3RvcCBmZWVsaW5nIGNvbXBsZXRlbHk/DQpZZXMsIGJ1dCBpdCdzIGJlZW4gYSBmZXcgeWVhcnMgc2luY2UgSSd2ZSBmZWx0IHRoYXQgd2F5IHRoYW5rZnVsbHkuDQoNCklmIHlvdSBtYXJyaWVkIHRoZSBsYXN0IHBlcnNvbiB5b3UgdGV4dGVkLCB3aGF0IHdvdWxkIHlvdXIgbGFzdCBuYW1lIGJlPw0KRVchIEl0J2QgYmUgRmxldHQgYXMgSSB0ZXh0ZWQgbXkgb3duIGZsZXNoIGFuZCBibG9vZCBicm90aGVyISBJIGRvbid0IHRoaW5rIGhlJ2QgbGlrZSB0aGF0IHZlcnkgbXVjaC4NCg0KRG8geW91IGZlZWwgeW91J2xsIGV2ZXIgZ2V0IGJhY2sgdG9nZXRoZXIgd2l0aCB5b3VyIGZpcnN0IGxvdmU/DQpOTy4gSGUncyBtYXJyaWVkIGFuZCBoYXMgdHdvIGtpZHMgd2l0aCB0aGUgd29tYW4uIEFORCBJIGdvdCB0aGUgYmV0dGVyIGVuZCBvZiB0aGUgZGVhbCBieSBsZWF2aW5nIE9yciEhDQoNCllvdSBoYXZlIHRvIGdldCBhIHBpZXJjaW5nLCB3aGF0IGRvIHlvdSBnZXQ/DQpDYXJ0YWxpZGdlDQoNCklzIHRoZXJlIHNvbWVvbmUgeW91J2QgcmVhbGx5IGxpa2UgdG8gaGFuZyBvdXQgd2l0aCBhbmQganVzdCB0YWxrIGFib3V0IHN0dWZmPw0KSSBkbywgcXVpdGUgZnJlcXVlbnRseSByZWFsbHkgLSBJIGp1c3Qgc2F3IHRoZW0gbGFzdCBuaWdodC4gOikNCg0KSG9uZXN0bHksIGhhcyBhbnlvbmUgc2VlbiB5b3UgaW4geW91ciB1bmRlcndlYXIgaW4gdGhlIHBhc3QgdGhyZWUgbW9udGhzPw0KSGFoYSwgeWVzISEgOkQNCg0KSG93IGRvIHlvdSBrbm93IHRoZSBsYXN0IG1hbGUgeW91IHRhbGtlZCB0byBvbiB0aGUgcGhvbmU/DQouLi5IZSdzIG15IGV4LWJveWZyaWVuZC4NCg0KV2hhdOKAmXMgbW9yZSBpbXBvcnRhbnQsIHRydXN0IG9yIGhhcHBpbmVzcz8NClRydXN0LCBiZWNhdXNlIHlvdSBjYW4ndCBoYXZlIGhhcHBpbmVzcyB3aXRob3V0IGl0ISEhDQoNCldoYXQgd2FzIHRoZSBsYXN0IHRoaW5nIHlvdSBkcmFuaz8NCkEgdm9ka2EgY3JhbmJlcnJ5Lg0KDQpIYXZlIHlvdSBldmVyIGZlbHQgbGlrZSB5b3UgbGl0ZXJhbGx5IG5lZWRlZCBzb21lb25lPw0KSSBXQU5UIHNvbWVvbmUgYW5kIGhlIGtub3dzIHdobyBoZSBpcywgYnV0IEkgZG9uJ3QgTkVFRCBoaW0uDQoNCklmIHlvdSB3ZXJlIG9mZmVyZWQgdG8gc21va2Ugc29tZSB3ZWVkIHJpZ2h0IG5vdyB3b3VsZCB5b3UgYWNjZXB0Pw0KTmFoLCBpdCdkIHB1dCBtZSB0byBzbGVlcCBhbmQgSSdtIG5vdCByZWFkeSBmb3IgdGhhdCB5ZXQuDQoNCldobyB3YXMgdGhlIGxhc3QgZ2lybCB0aGF0IHRleHRlZCB5b3U/DQpBbWFuZGEuDQoNCldoYXQgd2VyZSB5b3UgZG9pbmcgYXQgMTEgdGhpcyBtb3JuaW5nPw0KSSB3YXMgYXQgd29yay4NCg0KRGF5IGJlZW4gcm91Z2g/DQpObywgaXQgd2FzIGNvbXBsZXRlbHkgY2hpbGwuDQoNCldoYXQgaXMgb24geW91ciB3cmlzdHMgcmlnaHQgbm93Pw0KTmFkYS4NCg0KV2hhdCBjb2xvciBpcyB0aGUgc2hpcnQgeW91IGFyZSB3ZWFyaW5nPw0KR3JheS4NCg0KSXMgdGhlcmUgYSBmZWF0dXJlIG9uIHlvdXIgZmFjZSB0aGF0IHBlb3BsZSBjb21wbGltZW50IHlvdSBvbj8NCk15IGV5ZXMsIHRoZXkncmUgaGF6ZWwuDQoNCkFyZSB5b3UgcGxhbm5pbmcgdG8gZ28gc2VlIGEgbW92aWUgYW55dGltZSBzb29uPw0KTm8sIHRob3VnaCBJJ2QgbGlrZSB0byBzZWUgdGhlIG5ld2VzdCBIYXJyeSBQb3R0ZXIuDQoNCkhhdmUgeW91IGp1bXBlZCBpbiBhIHBvb2wgd2l0aCBhbGwgeW91ciBjbG90aGVzIG9uPw0KTm8sIEkgY2FuJ3Qgc3dpbSB2ZXJ5IHdlbGwgdG8gYmVnaW4gd2l0aC4gSSdkIGxpa2UgdG8ga2VlcCBicmVhdGhpbmcuDQoNCldoYXQgd2FzIHRoZSBoaWdobGlnaHQgb2YgeW91ciB3ZWVrPw0KSXQncyBvbmx5IE1vbmRheSwgYnV0IEknZCBoYXZlIHRvIHNheSBsYXN0IG5pZ2h0IGFzIEkgd2FzIGhhbmdpbmcgb3V0IHdpdGggbXkgZ2lybHMgKE1vbGx5IGFuZCBBbWFuZGEpLg0KDQpUaGUgcGVyc29uIHlvdSBmZWxsIGhhcmRlc3QgZm9yIGRpZWQgdG9kYXksIGhvdyB3b3VsZCB5b3UgZmVlbD8NCkFic29sdXRlbHkgQ1JVU0hFRCEhDQoNCkFyZSB0aGUgQWJlcmNyb21iaWUgbW9kZWxzIGhvdD8NCllFUy4gTm9tIG5vbSBub20hDQoNCkRvIHlvdSBoYXZlIHRvIHNsZWVwIHdpdGggYSB0ZWxldmlzaW9uIG9uPw0KTm8sIGl0IGtlZXBzIG1lIGF3YWtlIG1vcmUgdGhhbiBhbnl0aGluZyBlbHNlIGFzIEkgYWN0aXZlbHkgbGlzdGVuIHRvIGl0Lg0KDQpEbyB5b3UgaGF2ZSBhbnkgYW5pbWFsIHByaW50IGNsb3RoaW5nPw0KTm8uDQoNCkFyZSB5b3UgYSBkYXJlIGRldmlsPw0KU29tZXRpbWVzLg0KDQpXaGF0cyB5b3VyIGZhdm9yaXRlIGZsYXZvciBvZiB0aWMgdGFjcz8NCk9SQU5HRSEgOikNCg0KSG93IGRvIHlvdSBsaWtlIHlvdXIgZWdncz8NClNjcmFtYmxlZCwgcHJlZmVyYWJseSBhIERlbnZlciBvbW1sZXQhDQoNCldoYXQgd2FzIHlvdXIgZmF2b3JpdGUgam9iIHlvdSBldmVyIGhhZD8NCk15IGN1cnJlbnQgb25lIQ0KDQpIYXZlIHlvdSBldmVyIHJhbiBpbnRvIGEgcGFya2VkIGNhcj8NCk5vLg0KDQpEbyB5b3UgcGxheSBhbiBpbnN0cnVtZW50Pw0KTm9wZS4NCg0KRG8geW91IG93biBhIGRpZ2l0YWwgY2FtZXJhPw0KWXVwcGVycy4NCg0KSGF2ZSB5b3UgZXZlciBoYWQgYSBwYW5pYyBhdHRhY2s/DQpOby4NCg0KSXMgaXQgYWxyaWdodCB0byBjdXJzZSBpbiBmcm9udCBvZiB5b3VyIHBhcmVudHM/DQpUaGVyZSBpc24ndCBtdWNoIHRoZXkgY2FuIGRvIGFib3V0IGl0IGlmIHRoZXkgb2JqZWN0ZWQhIQ0KDQpJcyB0aGVyZSBhbnlvbmUgeW91IGtub3cgd2l0aCB0aGUgbmFtZSBNaWtlPw0KTnVtZXJvdXMhDQoNCkhvdyBtYW55IHRpbWVzIGhhdmUgeW91IGdvdHRlbiBpbnRvIGEgYXJndW1lbnQgd2l0aCB0aGUgbGFzdCBwZXJzb24geW91IGtpc3NlZD8NCkEgbnVtYmVyIG9mIHRpbWVzLCBidXQgd2UgYWx3YXlzIGNhbWUgb3V0IGFscmlnaHQgaW4gdGhlIGVuZC4NCg0KTGFzdCBuaWdodCwgd2hhdCBkaWQgeW91IGRvPw0KSGFkIGEgY29udmVyc2F0aW9uIHdoZXJlIEkgZ290IGFuIGFuc3dlciBJIGRpZG4ndCBleHBlY3QgYW5kIG5lZWRlZCBnaXJsIHRhbGsgdG8gd3JhcCBteSBoZWFkIGFyb3VuZCBpdC4NCg0KRG8geW91IHRoaW5rIHlvdSBoYXZlIG1hZGUgYSBkaWZmZXJlbmNlIGluIGFueW9uZSdzIGxpZmU/DQpJIGtub3cgSSBoYXZlLg0KDQpIYXMgc29tZW9uZSBldmVyIGJyb2tlbiB5b3VyIGhlYXJ0Pw0KSXQncyBiZWVuIG1hbmdsZWQsIGJ1dCBuZXZlciBicm9rZW4uDQoNCkhhcyBhbnlvbmUgbGllZCB0byB5b3UgdG9kYXk/DQpOby4NCg0KSGF2ZSB5b3UgcmVjZW50bHkgbG9zdCBzb21lb25lIHRoYXQgbWVhbnMgZXZlcnl0aGluZyB0byB5b3U/DQpJIGRvbid0IHRoaW5rIGhlJ3MgbG9zdCB0byBtZSwgaGUncyBqdXN0IDIyMDAgbWlsZXMgYXdheSBmcm9tIG1lLg0KDQpXaGVuJ3MgdGhlIGxhc3QgdGltZSB5b3Ugd2FudGVkIHRvIHBoeXNpY2FsbHkgaHVydCBzb21lb25lPw0KSXQncyBiZWVuIGF3aGlsZSwgdGhvdWdoIHBlb3BsZSBpcnJpdGF0ZSBtZSBkYWlseS4NCg0KRG8geW91IHRoaW5rIGV2ZXJ5b25lIGRlc2VydmVzIGEgMm5kIGNoYW5jZT8NCkl0IGRlcGVuZHMgb24gdGhlIGNpcmN1bXN0YW5jZXMuDQoNCldoYXQgZGlkIHlvdSBkbyB0b2RheT8NCkkgd2VudCB0byB3b3JrIGFuZCB0aGVuIEkgY2FtZSBob21lLg0KDQpIYXZlIHlvdSBldmVyIHRocm93biBhIHNob2UgYXQgc29tZW9uZT8NCk5vLg0KDQpEbyB5b3UgbGlrZSB0byBoYXZlIGxvbmcgaGFpciBvciBzaG9ydCBoYWlyPw0KTmVpdGhlciwgSSBsaWtlIHRoZSBtaWRkbGUgbGVuZ3RoIHRoZSBtb3N0Lg0KDQpIYXZlIHlvdSBldmVyIHN0YXJ0ZWQgYSBzZW50ZW5jZSB3aXRoICJubyBvZmZlbnNlLCBidXQiPw0KQSBmZXcgdGltZXMuIDopDQoNCkRvIHlvdSB3YW50IHlvdXIgbGlmZSB0byBzdGF5IHRoZSB3YXkgaXQgaXMgcmlnaHQgbm93IGZvcmV2ZXI/DQpOby4uLkkgd2FudCBtb3JlIHRoYW4gd2hhdCBJIGhhdmUgcmlnaHQgbm93IGFuZCBJIHRoaW5rIGl0J3MgcG9zc2libGUuDQoNCkNvdWxkIHlvdSBnbyBhIG1vbnRoIHdpdGhvdXQgY3Vyc2luZz8NCkhhaGFoYWhhaGFoYWhhaGFoYWhhaGFoYWhhaGFoYSEhIQ0KDQpJcyB5b3VyIGN1cnJlbnQgaGFpciBjb2xvciBtb3N0bHkgeW91ciBuYXR1cmFsIGhhaXIgY29sb3I/DQpZZXMsIGl0J3MgcHJldHR5IGRhbW4gbGlnaHQgcmlnaHQgbm93IHRvbyEhDQoNCklzIHlvdXIgaGFpciBuYXR1cmFsbHkgc3RyYWlnaHQ/DQpWRVJZIFNUUkFJR0hULg0KDQpXaGF0IGNvbG9yIHdhcyB0aGUgbGFzdCBwaWxsIHlvdSB0b29rPw0KV2hpdGUuDQoNCldoYXQncyB0aGUgd2VhdGhlciBsaWtlIG91dHNpZGU/DQpQcmV0dHkgd2FybSwgYnV0IG15IGhvdXNlIGlzIG5pY2UgYW5kIGNvbGQgd2l0aCBhaXIgY29uZGl0aW9uaW5nLg0KDQpXaGVyZSB3YXMgdGhlIGxhc3QgcGxhY2UgeW91IGJvdWdodCBzb21ldGhpbmc/DQpHYXMgYXQgNy0xMSBsYXN0IG5pZ2h0Lg0KDQpXaGF0IGFyZSB5b3Ugd2VhcmluZyByaWdodCBub3c/DQpUc2hpcnQgYW5kIHNob3J0cy4NCg0KV2hpY2ggb25lIG9mIHlvdXIgZnJpZW5kcyB3b3VsZCB5b3Ugc3dhcCBleWVzIHdpdGgsIGlmIHlvdSBoYWQgdG8/DQpOb25lLCBJIGxpa2UgbXkgZXllcyBhcyB0aGV5IGFyZS4NCg0KV2hlcmUgZG8geW91IHdhbnQgdG8gbW92ZS92aXNpdCB0byB3aGVuIHlvdSdyZSBvbGRlcj8NCkkgd2FudCB0byBtb3ZlIHNvbWV3aGVyZSB3aGVyZSB0aGVyZSdzIHdoaXRlIHNhbmR5IGJlYWNoZXMgYW5kIHRyb3BpY2FsIGRyaW5rcyENCg0KV2hhdCBhcmUgeW91ciBwbGFucyBmb3IgdG9uaWdodD8NCk5vdGhpbmcsIHByb2JhYmx5IGdvaW5nIHRvIG1ha2UgbXlzZWxmIGFub3RoZXIgZHJpbmsgYW5kIGNvbnRpbnVlIHRvIGFuYWx5emUgdGhlIGluZm9ybWF0aW9uIHNldCBiZWZvcmUgbWUuDQoNCldobyB3YXMgdGhlIGxhc3QgcGVyc29uIHlvdSByb2RlIGluIGEgY2FyIHdpdGg/DQpCcmV3IGFuZCBBbWFuZGEgb24gRnJpZGF5LCB3ZSB3ZW50IHRvIGNoZWNrIG91dCBvdXIgY2FtcGluZyBzcG90LjwvbGotY3V0Pg=="
+"eventtime","2009-07-20 20:09:00"
+"url","http://lzzybeth.livejournal.com/226724.html"
+"userid","9415"
+"itemid","883"
+"event","<lj-cut text=""More memes...""><table width=""300"" cellpadding=""2"" cellspacing=""0"" border=""0""><tr><td width=""180""><font face=""arial"" size=""-1""><b>Disorder</b></font></td><td width=""120""><font face=""arial"" size=""-1""><b>Rating</b></font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/paranoid.html"">Paranoid</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/schizoid.html"">Schizoid</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/schizotypal.html"">Schizotypal</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/antisocial.html"">Antisocial</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/borderline.html"">Borderline</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/histrionic.html"">Histrionic</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/narcissistic.html"">Narcissistic</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/avoidant.html"">Avoidant</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/dependent.html"">Dependent</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td><font face=""arial"" size=""-1""><a href=""http://www.4degreez.com/disorder/ocd.html"">Obsessive-Compulsive</a>:</font></td><td><font color=""#000099"" face=""arial"" size=""-1"">Low</font></td></tr><tr><td colspan=""2"" align=""center""><font color=""#000000"" face=""arial"" size=""-1""><br>-- <a href=""http://www.4degreez.com/misc/personality_disorder_test.mv"">Personality Disorder Test</a> --<br>-- <a href=""http://www.4degreez.com/disorder/index.html"">Personality Disorder Information</a> --</font></td></tr></table><br>
+
+<div style=""width: 320px; border: 1px solid gray; padding: 6px; font: normal 12px arial, verdana, sans-serif; color: black; background-color: white;""><b style=""color: black; font: bold 20px 'Times New Roman', serif; display: block; margin-bottom: 8px;"">Your score on this personality test was 60%</b> <div style=""width: 200px; background: white; border: 1px solid black; text-align: left;""><div style=""width: 60%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div><p style=""margin: 10px; border: none; background: white; color: black;"">Others see you as fresh, lively, charming, amusing, practical, and always interesting; someone who's constantly in the center of attention, but sufficiently well-balanced not to let it go to their head.  They also see you as kind, considerate, and understanding; someone who'll always cheer them up and help them out.<br><br><b><a href=""http://www.gotoquiz.com/personality_quiz_1"" style=""color: blue;"">Personality Quiz</a><br><a href=""http://www.gotoquiz.com/"" style=""color: blue;"">Take More Quizzes</a></b></p></div>
+
+<table style=""width: 320px; border: 1px solid gray; font: normal 12px sans-serif; background-color: white;""><tr><td colspan=""2"" style=""background: white; color: black; padding: 5px;""><b style=""font: bold 20px serif; display: block; margin-bottom: 8px;"">What's Your Best Quality?</b> <div style=""font-size: 16px; margin-bottom: 4px;"">Your Result: <b>Out-Going</b></div><div style=""width: 200px; background: white; border: 1px solid black;""><div style=""width: 72%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div><p style=""margin: 10px; border: none; background: white; color: black;"">Your best quality is out-going! People like you because you are fun to be around and no one ever knows what you will do next. Also you are not afraid to say or do whatever 
+you want.  </p></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">Personality</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 66%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">Intelligence</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 64%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">Loving</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 46%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">Ambitious</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 30%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">Sense of Humor</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 0%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td colspan=""2"" style=""text-align: center; padding: 8px;""><a href=""http://www.gotoquiz.com/what_s_your_best_quality""><b>What's Your Best Quality?</b></a><br><a href=""http://www.gotoquiz.com/"">Quiz Created on GoToQuiz</a></td></tr></table>
+
+<table style=""width: 320px; border: 1px solid gray; font: normal 12px sans-serif; background-color: white;""><tr><td colspan=""2"" style=""background: white; color: black; padding: 5px;""><b style=""font: bold 20px serif; display: block; margin-bottom: 8px;"">What type of person do you attract?</b> <div style=""font-size: 16px; margin-bottom: 4px;"">Your Result: <b>You attract Yuppies!</b></div><div style=""width: 200px; background: white; border: 1px solid black;""><div style=""width: 88%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div><p style=""margin: 10px; border: none; background: white; color: black;"">You attract the very well-dressed, job oriented type of people.  They usually have their finances together, are 'middle of the road' on most topics, generally happy with the 'main-stream' of things.  If it is stability you are after, these are good people to attract, if you seek adventure, it may be time for an overhaul.</p></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">You attract models!</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 44%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">You attract geeks!</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 40%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">You attract rednecks!</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 23%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">You attract artsy people!</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 20%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td style=""color: black; background: white; padding: 3px;"">You attract unstable people!</td><td style=""background: white; padding: 3px;""><div style=""width: 100px; background: white; border: 1px solid black; margin-top: 4px;""><div style=""width: 17%; background: red; font-size: 8px; line-height: 8px;"">&nbsp;</div></div></td></tr><tr><td colspan=""2"" style=""text-align: center; padding: 8px;""><a href=""http://www.gotoquiz.com/what_type_of_person_do_you_attract""><b>What type of person do you attract?</b></a><br><a href=""http://www.gotoquiz.com/"">Quiz Created on GoToQuiz</a></td></tr></table>"
+"eventtime","2009-07-13 18:50:00"
+"current_moodid","44"
+"url","http://lzzybeth.livejournal.com/226148.html"
+"userid","9415"
+"itemid","882"
+"event","<lj-cut text=""A meme, by Lzzybeth"">
+Where were you at 10:17 pm last night?
+About to go to bed.
+
+Did you make out with anyone today?
+No, he's not in Washington anymore. :(
+
+Did you get any flowers for Valentine's Day?
+Yes, I was a spoiled girlfriend.
+
+If you had $100, would you spend or save it?
+Spend it.
+
+Do you drink water or soda more often?
+I SHOULD drink water more often.
+
+Who was the last person to yell at you?
+TJ.
+
+Who was the last person you cried in front of?
+Molly.
+
+Did anyone call you babe/baby today?
+No.
+
+What is the last thing you did before you went to bed last night?
+Listened to my CD player.
+
+What color shirt are you wearing?
+Green tank top
+
+Are you wearing makeup?
+No
+
+Is there a difference between love and in love?
+Not really, being in love is just more intense.
+
+Have you spoken to you mother today?
+No.
+
+Have you planned out your wedding?
+Already had one, who knows if there'll ever be another one.
+
+Are you a big fan of thunderstorms?
+YES.
+
+Has anyone seen you in your underwear, other than mom?
+More than a few people have and I'm sure they'd be happy to tell you what they saw. :)
+
+Do you believe that love lasts forever?
+Yes, I believe true love lasts forever.
+
+Who was the last person to smoke a cigarette in your presence?
+A number of people at Robert's 30th birthday party last Saturday.
+
+Have you had sex with more than 25 partners?
+No.
+
+How does it make you feel looking at pics of your ex and someone else?
+For the most recent ex, it would hurt like hell. I've seen my ex-husband with others and I'm happy for him.
+
+Is jealousy a sign of love or a sign of insecurity?
+A sign of insecurity, if only we all could just trust what we have and leave it at that.
+
+Do you own a pair of skinny jeans?
+I did, but I threw them out! A new leaf has been turned, it's time to start over. :)
+
+Is the last person you kissed more than a year older than you?
+Yes.
+
+What do you think of Lady GaGa?
+I can never get her songs out of my head!
+
+Plans for Saturday?
+None at the moment, maybe go for a long ride. Though I'm afraid of all the cars that'll be on the road...
+
+Will tomorrow be a good day?
+Sure, it's better to look on the positive side of things.
+
+Are you sober?
+Umm...I've had 2 JagerBombs since I got home. :D :D :D
+
+Do you take compliments well?
+I try to but am not always successful.
+
+Would you ever get a tattoo?
+For nearly 10 years, I've wanted a tribal tattoo of a bird with outstretched wings across the back of my shoulders. I just haven't been able to pull the trigger on it because the design keeps changing in my mind.
+
+Have you heard a song that reminds you of someone today?
+No.
+
+Do you have a friend you can tell stuff to and you're sure they won't tell?
+I have two female friends like that and I'm very, very thankful for them. :)
+
+Does your family have family picnics?
+Not that I know of.
+
+Do you know your sibling's middle name?
+Dean
+
+Are you currently looking forward to anything?
+Getting my room just the way I want it, it's going to be great!
+
+Where is your ex right now?
+Austin, Texas
+
+Have you kissed anyone in '09 that actually meant anything?
+Yes, in many, many ways.
+
+Who are you texting?
+No one right now.
+
+Were you happy when you woke up today?
+No, I didn't want to get up.
+
+When were you on the phone last?
+Yesterday.
+
+Have you talked to a complete jerk today?
+No, thankfully!
+
+Where did you buy the shirt you are wearing?
+Old Navy in the Mall of America.
+
+Have you ever cried in front of a friend?
+Yes.
+
+Are you cold, warm or just right at the moment?
+A little warm, but not unbearable.
+
+Would you rather go back a week or go forward a week?
+Go forward a week.
+
+What were you doing an hour ago?
+Buying some office supplies at Staples.
+
+How long have you liked the person you like?
+I don't like anyone that way right now.
+
+What are you listening to?
+My laptop fan and my roommate's tv in the other room.
+
+Remember the first time you kissed the last person you kissed?
+Yes, he's a very good kisser. :)
+
+Will you talk to the person you like tonight?
+Again, I don't like anyone in that way right now. So, no.</lj-cut>"
+"eventtime","2009-06-30 17:37:00"
+"current_moodid","61"
+"url","http://lzzybeth.livejournal.com/225849.html"
+"userid","9415"
+"itemid","877"
+"event","Hey all,
+On a brighter note, rollerderby is on the horizon and I want you lot to get your tickets!! There are two events coming up that are must see / must do. You know you want to!! We will be there and we hope to have lots of you in tow. :D :D :D
+
+<font color=""#ff0000"" size=4><b>These events WILL sell out, so it's recommended that you buy your tickets <u>NOW</u> and not wait until the last minute. Get the reserved bleacher seats, trust me - your bum will thank you!</b> </font>
+
+Come support your local knockdown babes of rollerderby and our own RCRG Astro Glide aka Kailey aka <lj user=""gelf_girl"">! :)
+
+<u>Saturday: September 20th, 2008 (Seattle, WA)</u>
+<a href=""http://www.brownpapertickets.com/event/41470"" target=""_blank"">Rat City Rollergirls Championship Bout!</a>
+
+<u>Friday: November 14th, 2008 - Sunday: November 16th, 2008 (Portland, OR)</u>
+<a href=""http://ev12.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS:TWS:PEXP08:PEXP1114:&linkID=twspok#"" target=""_blank"">WFTDA Championship Bout!</a>
+
+Let's do this!! If you've never been to a rollerderby bout, I promise you you're missing out. ;)"
+"eventtime","2008-08-25 21:27:00"
+"current_moodid","41"
+"url","http://lzzybeth.livejournal.com/224685.html"
+"userid","9415"
+"itemid","874"
+"event","I'm absolutely floored, I did REALLY well my last quarter!
+
+<b>LATIN 103: A
+POLS 307: A-
+AIS 271: A-</b>
+
+<b><font color=""#0000ff"" size=3>Quarterly GPA: 3.73</font></b>
+
+This means that I've made the Dean's List at the University of Washington!! I've never made it before and I'm glad I can say that I finally did it. Wooo!"
+"eventtime","2008-06-19 13:12:00"
+"current_moodid","122"
+"url","http://lzzybeth.livejournal.com/223896.html"
+"userid","9415"
+"itemid","868"
+"event","Sorry I've been so MIA all...school's almost over, I've got 3 full weeks of classes left and then 1 week of finals. Graduation is on June 14th, the day after my 29th birthday. Haha!!
+
+Some bullet points in the life of Lzzybeth...
+
+-Vegas fucking ROCKED my socks off, I want to go back!! Partying in a $5000 VIP table in a sold out club where you personally know the DJ, didn't pay cover, AND get table service = KILLER!
+
+-I did well grade-wise last quarter at the UW, nothing lower than a 3.1 (out of a 4.0 scale). Woo! I wish I'd applied myself this much when I was in school before.
+
+-I'm doing pretty well grade-wise this quarter, may be on track to a repeat of last quarter. We'll see, I don't want to jinx it.
+
+-I'm taking the summer off from playing soccer on Saturdays to concentrate 100% on my Chic Riders, group rides are important. :)
+
+-Lookin forward to putting some miles on a motorcycle and doing some track days, as well as a few racing schools!! Hoping to get down to Portland International Raceway too.
+
+-Me and TJ are doing very well, it's been tough for him at times supporting me as I've been so madly focused on school - but he's my rock and I couldn't have done it without him!
+
+-I've got to get a job soon...I need money. I think it's just going to be a ""job-job"" since I want some flexibility this summer. I'm not going to shoot for my goal of an executive assistant position just yet.
+
+That's it for now! I'll try to update more often now that it's getting closer to the end of the quarter...I've got a little bit of Senior-itis going on here, I'm starting to frequent my online outlets again. I can't wait to be graduated!!! 15 more days of classes...15 more days of classes...15 more days of classes!
+
+Love and hugs!
+~Lzzybeth~"
+"eventtime","2008-05-16 19:32:00"
+"current_moodid","41"
+"url","http://lzzybeth.livejournal.com/222435.html"
+"userid","9415"
+"itemid","867"
+"event","My tough reliable little Canon ELPH S230 digital camera has finally died after nearly 5 years of use, so now I need a camera for Vegas. It's my first time going there, so I'd love to be able to take some pictures. I just don't have the spare cash to go buy another one. So I have a HUGE, HUGE favor to ask! 
+
+Would any of you be willing to loan me your little digital point and shoot camera? I'd take as good of care of it as if it were my own, I swear. And even if anything did happen to it, I'd replace it.
+
+Please let me know! I leave for Vegas at 6AM on Wednesday.
+
+THANKS!!! :)"
+"eventtime","2008-03-24 13:33:00"
+"current_moodid","43"
+"url","http://lzzybeth.livejournal.com/222128.html"
+"userid","9415"
+"itemid","865"
+"event","Who tell me, WHO, TRULY understands the pain I've gone through these last 2 quarters at the UW trying to shove Latin into my head? If you've never taken it, you're smarter than me!
+
+Almost done, I keep telling myself that...
+
+But now that the quarter is over...I'm starting to feel a little stressed about doing at least a 2.0's worth of work next quarter.
+
+UGH!!!!
+
+I'll be glad when this is over. In truth, Vero, THE END."
+"eventtime","2008-03-19 21:20:00"
+"current_moodid","8"
+"url","http://lzzybeth.livejournal.com/221612.html"
+"userid","9415"
+"itemid","863"
+"event","I'm curious, it seems like none of the usual posse is going to go. Bummer!! That's ok, I know it was short notice that I posted I was going. Anyways, unless I hear some of my people are going to the Merc tonight, I may call it off and hang out closer to home. :)
+
+I also rolled my right ankle (first time ever) pretty bad this afternoon playing soccer. It happened just a bit before halftime and I wasn't able to play the 2nd half at all. VERY disappointing sitting on the sidelines, but I think my ankle will be ok...I've never hurt myself this way before. No bruising, yet - as some of my teammates said. It may not be a good idea for me to go running around tonight on it the way feels. :("
+"eventtime","2008-02-09 19:33:00"
+"current_moodid","113"
+"url","http://lzzybeth.livejournal.com/221151.html"
+"userid","9415"
+"itemid","862"
+"event","I am DONE, for now.
+
+This week was a little intense.
+
+I had a big midterm test and a class presentation on Thursday. Today, I had another Latin test.
+
+I'm SOOOOOO glad I'm done!! Now I can relax a bit before the midterm test that's scheduled for next Thursday.
+
+I just keep telling myself that it's all downhill from here until the end of the quarter.
+
+Hehe.
+
+I hope you're all doing well!!
+
+
+
+PS - I REALLY miss my motorcycle Nina, she's locked in the garage right now until the wooden door gets replaced by the landlord (it's nailed shut). Boo. I could really use a ride sometime soon!!!"
+"eventtime","2008-02-08 19:12:00"
+"current_moodid","109"
+"url","http://lzzybeth.livejournal.com/220750.html"
+"userid","9415"
+"itemid","861"
+"event","<b>Come out to the Mercury on Saturday night!!! </b>:)
+
+BE THERE!!
+
+After a midterm week that's had me a little stressed (i.e. right now), I want to go out and have some FUN damn it!! So, I've decided to take Saturday night off from the schoolbooks and head out to the Mercury.
+
+This is an OFFICIAL call out to all of my friends who I haven't seen much of lately, some of you I haven't seen in ages and others because I'm in school. 
+
+To name some of those who I'd love to see...
+<lj user=""cajunsblues"">, <lj user=""christineeliza"">, <lj user=""cthulu_bunny"">, <lj user=""cunninggod"">, <lj user=""darrick"">, <lj user=""daydream"">, <lj user=""dethjester"">, <lj user=""gelf_girl"">, <lj user=""gonzo_md"">, <lj user=""hawker"">, <lj user=""jacksontwobears"">, <lj user=""mrwoodchuck"">, <lj user=""psychopomp_girl"">, <lj user=""redhead_of_doom"">, <lj user=""rorcifer"">, <lj user=""sm101"">, <lj user=""squishthekitten"">, <lj user=""tmercenary"">, <lj user=""transcendence1"">
+
+Come out, come out, wherever you are!! :)"
+"eventtime","2008-02-06 15:19:00"
+"current_moodid","36"
+"url","http://lzzybeth.livejournal.com/220427.html"
+"userid","9415"
+"itemid","859"
+"event","I've been done with Fall classes at the UW since 12/12/07, I got my grades on 12/19/07 and passed everything. I didn't do as well as I wanted, but that's ok because it's not so bad after being out of school for 7 years and struggling as I was due to my stupid job 2/3 of the quarter. I'll do better next quarter.
+
+I haven't done much on my break aside from sleeping in, but I've seen some peoples. I saw my friend Rebel and her fiance Roger who I haven't seen since my wedding day back in July 2003, they're doing great! I went to Portland for a few days to make a long overdue visit to my friend Santi, he has kittens! Some friends have stopped by to visit us here at home and brought gifts, they even stayed to eat dinner with us on Christmas. That was nice. :)
+
+Unfortunately, the sick has both me and TJ in its grasp. He came down with a nasty cold on Christmas Eve and I came down with the stomach flu only a matter of hours after eating Christmas dinner (thankfully it wasn't food poisoning since no one else got sick). UGH, I'm still sick and have very little appetite. SUCKAGE. Hopefully this sickness goes away so we can do a few things in the time I have left before school owns my ass again for the next 3 months. ;)
+
+As far as New Years...we haven't really made any plans as of yet. We'll see what happens, maybe I will see some of you and maybe I won't. Either way, do have a Happy New Year and I'll see you in 2008! :)"
+"eventtime","2007-12-27 13:44:00"
+"current_moodid","82"
+"url","http://lzzybeth.livejournal.com/219904.html"
+"userid","9415"
+"itemid","857"
+"event","My time is so limited these days with school, work, study, sleep...it's a schedule that's been on repeat 24/7 since the end of September. WOW, has it been difficult getting back into the swing since I've been out of school for over 7 years!! I wonder how the hell I did it before. ;)
+
+Anyways, not much time to post in this thing since I've got to read, write a 1 page paper that's due tomorrow, study for a quiz, and finish my homework. I just wanted to let you all know that I'm still around, albeit a harried Lzzy. Thankfully, that last part has changed.
+
+<b>I QUIT MY JOB TODAY!!</B> 
+
+It's a pretty long story, but the short version is that I couldn't fit a full-time work load into a part-time schedule while going to school full-time. No surprise there right? I had to quit before it broke me completely and before it caused me to fail school because it was such a struggle. I'm SO relieved...my time is completely my own and I can study more so I'll excel in school instead of just passing. :)
+
+I hope you're all doing well and hopefully I'll see you sometime soon, I do miss my friends!"
+"eventtime","2007-11-07 19:16:00"
+"current_moodid","28"
+"url","http://lzzybeth.livejournal.com/219396.html"
+"userid","9415"
+"itemid","853"
+"event","WOW, what a trip it's been! TJ decided to take the time off work these next few weeks to find our house. It was too difficult working all day, coming home for a bit, doing a few things around the house, and then jumping in the car again to drive around and look at houses until dark. EXHAUSTING is the word that comes to mind! This was the right decision for him and for us.
+
+SO, please wish us luck my friends and cross your fingers for us!! I found a house in Broadview (southwest of Shoreline) that has me excited in its potential and location - there are million dollar homes around the block. Of all the <b><i><u><font color=""#ff00ff"" size=4>103</font></u></i></b> houses that I've found and sent TJ to look at, this one that I found only yesterday has ME excited! We've got an appointment to look at the inside tonight at 6:30PM and I'm quite hopeful...I'm trying not to think about it but it's hard. I hope it turns out to be exactly what we're looking for!! :)
+
+Please send good thoughts our way, I'd love for this to be the house we've been searching for! Thanks!!"
+"eventtime","2007-09-20 16:11:00"
+"current_moodid","43"
+"url","http://lzzybeth.livejournal.com/218536.html"
+"userid","9415"
+"itemid","852"
+"event","Maybe. 
+
+I asked TJ how he felt about getting a kitten when we move into our new place and he didn't seem abject to the idea. So I've been digging around this morning for <a href=""http://en.wikipedia.org/wiki/Egyptian_Mau"" target=""_blank"">Egyptian Mau</a> breeders (like Spaz) and found 3 within Washington state, 1 is in Spokane. I'm excited and a breeder already got back to me with a link to her pictures!! It's been <b><u>AGES</u></b> since I've had a kitten and I would love nothing more than to have another Mau like Spaz since he went with Dave when we divorced. I've missed having Spaz around. Mau's have great personalities and they're beautiful cats, I haven't decided whether I'd want a male or female.
+
+I know I'm getting ahead of myself, but I'm excited. What can I say? :)
+
+<a href=""http://picasaweb.google.com/RazielReign/BronzeEgyptianMauLitter"" target=""_blank"">Pictures of Bronze Egyptian Mau Kitten Litter</a>
+
+<a href=""http://img.photobucket.com/albums/v332/Elzbeth/Spaz.jpg"" target=""_blank"">Picture of Spaz</a>"
+"eventtime","2007-09-12 13:41:00"
+"current_moodid","43"
+"url","http://lzzybeth.livejournal.com/218169.html"
+"userid","9415"
+"itemid","850"
+"event","I'm sorry if any of you have been wondering where I've been, if it seemed I fell off the face of the planet. Well, I sorta did. LOL! I went home to Northern Minnesota (1 hour south of the Canadian border to be exact) for the last week and a half, I wasn't online until today and my cell phone reception was spotty at best. It was a great trip, an awesome recharge, super busy, and a lot of fun! I'm glad to be home again and am catching up on everything that happened. Hopefully I'll be seeing some of you very soon! :D"
+"eventtime","2007-09-03 13:21:00"
+"current_moodid","64"
+"url","http://lzzybeth.livejournal.com/217790.html"
+"userid","9415"
+"itemid","849"
+"event","I've been SOOOOO busy today, so busy that I've had no time to spare for goofing off except to check my email a few times. I'm leaving for northern Minnesota in 3 days and I've still got to pack, but I'm sitting here at work catching up on all my online stuffs. I'm really looking forward to this trip!! I think I've been mentally checked out of work and everything else since last week sometime. Hehe... But that doesn't stop things from piling up or me feeling a little overwhelmed at all of the little loose ends I've still got to wrap up. 
+
+I'm so glad TJ is coming with me to Minnesota and <lj user=""nomadvak""> will still be there after TJ goes home early, it's going to be a great trip and I REALLY need this recharge before fall starts!"
+"eventtime","2007-08-20 18:03:00"
+"current_moodid","4"
+"url","http://lzzybeth.livejournal.com/217400.html"
+"userid","9415"
+"itemid","848"
+"event","WWVzdGVyZGF5LCBJIGF0dGVuZGVkIHRoZSA8YSBocmVmPSJodHRwOi8vd3d3LnN1bGxpdmFucmFjZXNjaG9vbC5jb20vIiB0YXJnZXQ9Il9ibGFuayI+U3VsbGl2YW4gU2Nob29sIGZvciBXb21lbiBPbmx5PC9hPi4gSXQgYWJzb2x1dGVseSBST0NLRUQgbXkgc29ja3MhISBJIHdpc2ggSSBjb3VsZCBzYXkgbW9yZSwgYnV0IEknbSBzdGlsbCBmaWx0ZXJpbmcgdGhyb3VnaCBteSB0aG91Z2h0cyBvbiB0aGUgZGF5IGFuZCB3aXNoIEkgd2VyZSBhdCBob21lIHNsZWVwaW5nIGl0IG9mZiBvciBiZWluZyBsYXp5LiBJdCdzIGEgZ29vZCB0aXJlZCwgYnV0IHN0aWxsIHRpcmVkLsKgPGltZyBzcmM9Imh0dHA6Ly94Lm15c3BhY2UuY29tL2ltYWdlcy9ibG9nL3NtaWxleXMvY2FsbS5naWYiPg=="
+"eventtime","2007-08-02 14:43:00"
+"current_moodid","49"
+"url","http://lzzybeth.livejournal.com/217109.html"
+"userid","9415"
+"itemid","846"
+"event","<img src=""http://img.photobucket.com/albums/v332/Elzbeth/CRWABlack.jpg"">
+
+<font size=""3""><b>WHO:</b> Chic Riders of Washington
+
+<b>WHAT:</b> Car and Bike Wash!!
+
+<b>WHEN:</b> Sunday - July 29, 2007 from 12PM to 5PM
+
+<b>WHERE:</b> Alpha Lounge (the old Mugs + Jugs) / <a href=""http://maps.yahoo.com/maps_result.php?q1=1015+N+Meridian+Puyallup%2C+WA"" target=""blank"">1015 N Meridian, Puyallup, WA 98371</a>. It's near the intersection of River Road and N Meridan, just east of the Fred Meyers.
+
+<b>WHY:</b> Come out and show your support! Meet the Chic Riders and get your ride washed at the same time!! :)
+
+<b>SUGGESTED DONATION:</B>
+$5 - Bikes
+$10 - Cars and Small Trucks
+$15 - Full Size Trucks
+Donations Always Accepted
+
+Thanks and hope to see you there!!
+
+~Lzzybeth~
+Chic Riders Washington
+Street Team Leader</font>"
+"eventtime","2007-07-27 12:30:00"
+"current_moodid","41"
+"url","http://lzzybeth.livejournal.com/216655.html"
+"userid","9415"
+"itemid","845"
+"event","<b>Rules: Post the explanation of where your username (or nickname) came from. Then tag TEN users whose explanations you'd like to hear. If you are tagged post the explanation to your page.</b> 
+
+<u>The  LJ Name</u> 
+""Lzzybeth"" - it's a variation I came up with of my given name, I wanted something fun. I go by it just about everywhere I go: my introduction to new people, online message boards, usernames, logins, my motorcycle license plate, etc. I've become really attached to it and I identify with it. :)
+
+<u>The  Nickname</u> 
+Lzzy - again, just another variation of my given name. That's what happens when you've got a big name. ;)
+
+ELF - I'm sure you'll find it funny that my initials actually spell that, I know I have. It's also a nickname I go by at work since our Division Director is also an Elizabeth. I like going by ELF. :)
+
+<u>The Real Name</u> 
+First: Elizabeth - my maternal grandmother's middle name. I'm the only Elizabeth in my family, but a number of my maternal female cousins have it for their middle name. My mother and her sisters were very close to my grandmother.
+
+Middle: Lenore - my paternal grandmother's middle name.
+
+<u>I Tag (10):</u> 
+<lj user=""aureali"">, <lj user=""hawker"">, <lj user=""jacksontwobears"">, <lj user=""kitfoxx"">, <lj user=""neuroticguy81"">, <lj user=""poezamattik"">, <lj user=""psychopomp_girl"">, <lj user=""pulpguy"">, <lj user=""soul_spider"">, <lj user=""whpingboy"">"
+"eventtime","2007-07-27 09:25:00"
+"current_moodid","56"
+"url","http://lzzybeth.livejournal.com/216486.html"
+"userid","9415"
+"itemid","843"
+"event","This day is d r a g g i n g! UGH! 
+
+Oh well, at least I get out of jail free with 59 minutes of administrative leave. Woo, I'll be leaving at 4PM today!
+
+Is it here yet? :D"
+"eventtime","2007-07-03 12:00:00"
+"current_moodid","5"
+"url","http://lzzybeth.livejournal.com/215856.html"
+"userid","9415"
+"itemid","841"
+"event","So BOTH of the men in my life have managed to dump my motorcycle in front of me and cause her some damage. Even though the damage was small and not too serious, these mishaps caused me to go without my Nina for more than a few weeks while I was waiting on repairs.
+
+Now I sit here and I'm thinking about this weekend, I know for a fact that my little brother wants to ride while he's out here visiting. My dilemma, do I let him ride my motorcycle and hope history doesn't repeat itself? If he drops Nina and causes any serious damage, I'm obviously not going to be riding home. Then that leads me down a whole other road on how I get home, how I get her home, etc.
+
+I'm not sure what to do...if it hadn't been for both Dave and TJ already dumping my motorcycle, I wouldn't be leery about letting my little brother ride it. Well, at least he's got street riding experience unlike those two. I know I shouldn't be so superstitious but I can't help it! Can you blame me? :)
+
+Hehe, it's kinda funny. My Dad says he hasn't asked to ride my motorcycle because he knows he's not used to riding a sportbike and how snappy the response. :D"
+"eventtime","2007-06-22 15:05:00"
+"current_moodid","101"
+"url","http://lzzybeth.livejournal.com/215446.html"
+"userid","9415"
+"itemid","840"
+"event","HOW COOL!!! My brother and his family are driving out from Minnesota to visit my Dad this weekend, I just got the call this morning! I haven't seen my brother since he graduated highschool in 2001 and I've never met my sister-in-law or my neice and nephew. I'm already planning my trip home to Minnesota this summer to attend my 10 year highschool reunion, but this opportunity to have an extra visit with them will be great!! I also know my Dad would love to have both of his children home for a visit at the same time and he'll want lots of pictures, so I'm going to do whatever I can to get home for the weekend. 
+
+I guess it's a good thing I didn't have any hard and fast plans for this weekend!! I'm going to try to take Monday off from work too so my visit won't be quite so rushed. If TJ doesn't go with me, I'll ride my motorcycle over there and test out my new luggage set in the process. :)"
+"eventtime","2007-06-21 10:03:00"
+"current_moodid","41"
+"url","http://lzzybeth.livejournal.com/215169.html"
+"userid","9415"
+"itemid","839"
+"event","Well, a puppy really. I hear one barking outside of my building, he's somewhere nearby and I can't tell if he's on our campus or in the neighborhood. He's quite insistent the little guy...I hope his owner checks on him.
+
+I've been thinking about getting a dog this summer and the barking puppy is making me think about it again. Thing is, I'm not sure what kind of living situation I'm going to be in or how much time I can dedicate to a dog - especially the breed I'm researching. I want one of those little ""terrorists,"" a Jack Russell Terrier. 
+
+Anyways, just random thoughts from Lzzy. You may continue on! :)"
+"eventtime","2007-06-20 15:53:00"
+"current_moodid","30"
+"url","http://lzzybeth.livejournal.com/214873.html"
+"userid","9415"
+"itemid","838"
+"event","Ye gods, I just realized to that it's been 6 MONTHS since I last had my hair cut!!! I'm far past overdue, it's downright negligent. :)
+
+Maybe it'll grow faster once I'm getting it cut on a regular basis again, so I made an appointment for tomrrow night at 7PM. Geeze, I'm such a dork sometimes. LOL!!"
+"eventtime","2007-06-20 15:43:00"
+"current_moodid","121"
+"url","http://lzzybeth.livejournal.com/214645.html"
+"userid","9415"
+"itemid","837"
+"event","<b>DAMN!</b>
+
+Clubbing, dancing, drinking, staying up until 4:30AM, riding 250 miles of sweeping roads for 7 hours, and hosting a bbq for <b><u>100</u></b> sportbikers... and through it all, I saw very little of my boyfriend. Oops. He understands though, he's still got to share me with my friends and riding buddies.
+
+Yeah, nuts. I'll have to tell you about it if I get time and post the pictures I took. For now, I've got to get back to work. ;)
+
+All I have to say is that this last weekend absolutely rocked and I'm sorry I didn't get time to finally call that <lj user=""nomadvak""> back!! I hope he'll forgive me. :)"
+"eventtime","2007-06-18 12:27:00"
+"current_moodid","109"
+"url","http://lzzybeth.livejournal.com/214519.html"
+"userid","9415"
+"itemid","836"
+"event","WOOOO!!!! I just registered for the 8/1/07 Women Only event. I've got some things I need to get done before I'm ready for my next track event, I've got some time. But I better get started now since I know how I tend to procrastinate.
+
+I can't wait!! Who else is going to be there? I know of Sarah (one of my Chic Riders) for sure. Come out and join us ladies!!
+
+http://www.sullivanraceschool.com/
+
+1. <a href=""http://www.alpinestars.com/Stella_Track_Pant/pd/np/151/p/313937.html"" target=""_blank"">Alpinestars Track Pants</a> 
+2. New rear Pirelli Sport Demon tire
+3. <a href=""http://www.underarmour.com/ShopUSAHome.cfm"" target=""_blank"">UnderArmor</a>
+4. E-Z Up (if I don't borrow one)
+5. Finish my race-plastics project (prepping and painting)
+6. Maybe: a new pair of <a href=""http://www.kneedraggers.com/details/Alpinestars_Stella_GP_Plus_Gloves--615316.html"" target=""_blank"">Alpinestars GP Plus Gloves</a>
+7. Maybe: a smoked Arai shield"
+"eventtime","2007-06-08 09:57:00"
+"current_moodid","98"
+"url","http://lzzybeth.livejournal.com/214142.html"
+"userid","9415"
+"itemid","834"
+"event","SSBoYXZlbid0IGJlZW4gdXBkYXRpbmcgbXkgQmxvZyBhbGwgdGhhdCBtdWNoLCBzb3JyeSBhYm91dCB0aGF0LiBJJ20gYnVzeS4gV2hhdCBjYW4gSSBzYXk/wqA8aW1nIHNyYz0iaHR0cDovL3gubXlzcGFjZS5jb20vaW1hZ2VzL2Jsb2cvc21pbGV5cy9jaGlwcGVyLmdpZiI+DQoNCkEgZmV3IHdlZWtzIGFnbywgb3VyIGNoYXB0ZXIgb2YgPGEgaHJlZj0iaHR0cDovL3d3dy5jaGljcmlkZXJzd2FzaGluZ3Rvbi5jb20iIHRhcmdldD0iX2JsYW5rIj5DaGljIFJpZGVycyAoV2FzaGluZ3Rvbik8L2E+IGhhZCBvdXIgb2ZmaWNlciBlbGVjdGlvbnMuIEknbSBoYXBweSB0byBzYXkgdGhhdCBJIHdhcyBlbGVjdGVkIFN0cmVldCBUZWFtTGVhZGVyIGJ5IG15IGZlbGxvdyBDaGljcyEhIFNvIHdoYXQgZG9lcyB0aGlzIG1lYW4/IFdlbGwsIEkndmUgdGFrZW4gdG8gY2FsbGluZyBteSBvZmZpY2lhbCBwb3NpdGlvbiB0aGF0IG9mICJGdW4gQ2FwdGFpbi4iIEknbSBpbiBjaGFyZ2Ugb2YgdGFraW5nIHRoZSBnaXJscyBvdXQgYW5kIGFib3V0IG9uIGdyb3VwIHJpZGVzLiBJJ20gbW9zdCBkZWZpbml0ZWx5IGxvb2tpbmcgZm9yd2FyZCB0byBoYXZpbmcgYSBsb3Qgb2YgZnVuIHdpdGggdGhlc2UgYXdlc29tZSBDaGljcyBhbmQgc3BlbmRpbmcgYSBsb3Qgb2YgdGltZSBvbiB0aGUgcm9hZHMgdGhpcyBzdW1tZXIhIFdPTyEhDQoNClRoaXMgd2Vla2VuZCB3aWxsIHNlZSB0aGUgbG90IG9mIHVzIHJpZGluZyBkb3duIHRvIFZhbmNvdXZlciB0byBtZWV0IHVwIHdpdGggb3VyIHNpc3RlciBzdGF0ZSBjaGFwdGVyIG9mIENoaWMgUmlkZXJzLCB0aGUgT3JlZ29uIGxhZGllcyEgSSdtIDxiPlZFUlk8L2I+IGV4Y2l0ZWQgYWJvdXQgbXkgZmlyc3Qgb2ZmaWNpYWwgcnVuIGFzIFN0cmVldCBUZWFtIExlYWRlciBhbmQgaGFuZ2luZyBvdXQgd2l0aCB0aGUgT3JlZ29uIENoaWNzISEgVG9uaWdodCB3aWxsIHNlZSBtZSBzdG9wcGluZyBieSBTZWF0dGxlIEN5Y2xlIENlbnRlciBvbiBteSB3YXkgaG9tZSB0byBwdXJjaGFzZSBhIDxhIGhyZWY9Imh0dHA6Ly93d3cudGhyb3R0bGVyb2NrZXIuY29tLyIgdGFyZ2V0PSJfYmxhbmsiPlRocm90dGxlIFJvY2tlcjwvYT4gYW5kIHBhY2tpbmcgbXkgYmFncy4gTm8gd2F5IGFtIEkgcHJvY3Jhc3RpbmF0aW5nIGFnYWluISA8aW1nIHNyYz0iaHR0cDovL3gubXlzcGFjZS5jb20vaW1hZ2VzL2Jsb2cvc21pbGV5cy9hbXVzZWQuZ2lmIj48YnI+"
+"eventtime","2007-05-30 16:56:00"
+"current_moodid","41"
+"url","http://lzzybeth.livejournal.com/213572.html"
+"userid","9415"
+"itemid","832"
+"event","<b>I GOT NINA BACK ON SATURDAY IF YOU MISSED MY PREVIOUS POST!!!</b> Just thought you should know. :D
+
+Wow, today's weather has been as unpredictable as anything I've seen lately! Sunny, rainy, cloudy, windy, etc. I'm glad I didn't ride Nina to work today! She's fully street ready again as of last night, I had to remount her lower fairing and install a new right turn signal. I also mounted up a full set of black Tour Master Cortech Luggage I got from another PNW rider. For awhile, I've been eyeing a <a href=""http://www.tourmaster.com/xcart/product.php?productid=148"" target=""_blank"">Tailbag</a> and matching <a href=""http://www.tourmaster.com/xcart/product.php?productid=149"" target=""_blank"">Saddlebags</a>. I just couldn't pass up the opportunity to buy the set! I'm now ready to take a roadtrip if I so please, I've even have a <a href=""http://www.tourmaster.com/xcart/product.php?productid=143&cat=31"" target=""_blank"">Mini Tank Bag</a> that I bought awhile back. All I need now is a destination, which may be the case this weekend.
+
+On Saturday I'm riding to Redmond, OR to meet up with the Oregon chapter of Chic Riders. They've invited us (WA) down to hang out and go on a ride with them after their meeting. It should be a lot of fun!! I'm looking forward to it. It's great having a contingent of Chics who ride to hang out with. I don't know what the plan is yet for after the ride, I'll have to find out. Maybe I'll swing through Portland on my way home and visit some people if they're around... :)
+
+If I get back from Redmond in time, I'm want to make it down to Pacific Raceways on Sunday to watch the 2nd round of the <a href=""http://www.wmrra.com/"" target=""_blank"">WMRRA</a> races. I haven't made it down there yet and I'm looking forward to seeing how the racers run the track. I could learn a thing or two and apply it to my own track day(s)! ;)
+
+In other news, I've REALLY got to get going on registering for the track days I want to attend!! I'm not sure yet how on I'm going to get to/from the track yet, all I know is that I won't be riding if I can help it. I really didn't like the experience in using a U-Haul box truck, so I'm going to avoid that again too if possible.
+
+I'm thinking of painting Nina. I'm hoping to get my extra set of OEM EX500 plastics sanded down and painted (they're fire engine RED right now). These plastics will be dedicated to track-use only so I'm not using my street plastics when I'm out there. But since they're track-only, I'm not planning on doing anything special to them other than a decent rattlecan paint job. I've looked into the cost of getting Nina's street plastics repaired and painted, so that's something else that's on my mind. It'd be nice to have her looking really sharp! I know some people will look at me crazy for spending $700 to paint an old 1992 bike, but I'm going to be riding her for another 2 years or so before I upgrade. That and I love this little bike! :D
+
+I'm still breaking in Nina's new front brakes, they're still a little slick because the pads haven't quite bedded properly. I know braided steel brake lines will give me even more stopping power, but that's a project for down the road. For right now, I need to get some more mileage on Nina and bed those EBC pads! I haven't ridden her enough in the few days I've had her home to get the brakes set up.
+
+Is it summer yet? I want to get out on some good rides. I WILL finally pick up my own copy of <a href=""http://www.soundrider.com/archive/products/Destination_Highways_Washington.htm"" target=""_blank"">Destination Highways WA</a> this year damnit!! Maybe I'll even make a small road trip somewhere since I've got the set up, I should go even if it's by myself (like <lj user=""schmi""> has done)."
+"eventtime","2007-05-02 16:43:00"
+"current_moodid","64"
+"url","http://lzzybeth.livejournal.com/213145.html"
+"userid","9415"
+"itemid","831"
+"event","It was a lazy night on Friday, we could have gone out but ended up staying home and going to bed around 9:30PM. That's not such a bad thing when you've got your honey right there with you! I slept like a log. :)
+
+Saturday saw us sleeping in before we headed out to Redmond to fetch my Nina from my mechanic's shop <a href=""http://lzzybeth.livejournal.com/210723.html"" target=""_blank"">where she's been since 3/13/07</a>. I was a little nervous because it'd been 6.5 weeks since I'd last ridden. It was only stupid nerves I know, but I couldn't help it. Especially since Nina's suspension and brakes were guaranteed to feel different, I didn't want to do something stupid like I did in my early days of learning to ride. I geared up and jumped on, I ended up riding down and then back up West Lake Sammamish Parkway from my mechanic's shop (I forgot my receipt) before heading back to Seattle. I took a short detour on Mercer Island to do the western half of the loop. It was a nice day for riding, that's for sure and I felt good being back in the saddle!! But I had to get home since I had a soccer game at 4:30PM in Shoreline, it was a big game against the #1 team in our division. I couldn't miss it, I knew my team would need me. I got to the soccer game and I thought we played well against a #1 team, we held them off nearly the whole game and they didn't end up scoring their single winning goal until the last 15 minutes of the game. It was the forward I'd been tagged to defend against that scored the goal, I let her go the once to go for the ball instead of marking up and she took the opportunity to score. That hurt, as much as it hurt when I hit the deck in the first half! My poor right knee looks like it hit the pavement (rashed AND bruised), I also somehow managed to bruise my left palm in my fall. Sand fields REALLY suck!! I can't wait until we're back on artificial turf again, the upcoming weekend's game is against the #2 team in our division. I left the field and headed back to my house to decompress, stretch, and drink tons of water. Our other plans fell through so it was last minute when we decided that we were going to go to Mandi's birthday party at <lj user=""transcendence1"">'s house. It was great to see everyone there!! We ended up leaving around 1AM or so to head back to TJ's house.
+
+Sunday saw me waking up with a hangover...ugh, dumb Lizzy!! This wasn't good because we wanted to go up to Mount Rainier or Snoqualmie Falls for the day to check it out. We're planning on doing some day hikes this summer and this would have been a fun trip to make. We were both bummed, so we're planning that day trip for another weekend here very soon. May is already here and I can tell that things are gearing up to be a pretty busy summer! I'm looking forward to it though and all the fun that comes with it.
+
+Anyways, it's fucking GREAT to have my Nina back!!! I've got to do a few things before she's 100% street ready again, but I can do that anytime after work. Riding was definitely the highlight of my weekend! :)"
+"eventtime","2007-04-30 12:33:00"
+"current_moodid","15"
+"url","http://lzzybeth.livejournal.com/212880.html"
+"userid","9415"
+"itemid","830"
+"event","When he makes you coffee in the morning before he leaves for work. He went above and beyond, that included buying me a go-cup and sugar the night before.
+
+I am definitely spoiled sometimes and little things like this prove it. :)"
+"eventtime","2007-04-25 11:13:00"
+"current_moodid","86"
+"url","http://lzzybeth.livejournal.com/212664.html"
+"userid","9415"
+"itemid","829"
+"event","<b><font size=3>Last night I got my enrollment confirmation from the UW Registrar's Office, I'll be starting classes again on September 26, 2007!! I've still got to mail in my confirmation deposit, but I'm on the path to starting classes again. WOOO!!</font></b> 
+
+I was goofing around yesterday and ran a Degree Audit online, it turns out I'm only 20 credits and my language requirement away from having my Bachelors Degree. SO CLOSE!! I'm hoping to place high enough in my language test that I can skip at least a quarter of language. I'd be super stoked if I managed to place completely out of my language requirement, that's why I've been taking French classes on the side right now. So maybe if I'm lucky, I will only have 2 quarters left and then I can graduate in June 2008!!!
+
+Now I've got the task of notifying everyone here at work that I'm starting classes again. I've already started looking at the class Time Schedule for Autumn quarter, so I've got a pretty good picture of what my schedule is going to look like. I'm not sure how they're going to take it, but they have encouraged me in the past to get my Degree. So it shouldn't come as too much of a surprise to them that I'm finally doing it...yah? I guess we'll see. :)
+
+I'm so stoked about going back to school...but I'm anxious at the same time. By the time I start classes again, it'll have been 7 years since I've been out of school. I'm sure it'll take me a bit to adjust to the coursework again and having only a shadow of a social life, but so be it. I'll be getting my Bachelors Degree and it's only going to take me 3 quarters at the most, that a small price to pay for for what I'm getting in return. Having my Bachelors Degree will open so many doors for me that my experience alone can't do. I'm thinking about my long-term future here and I know that having my Degree will be the best thing I can do to make that future I have in my mind's eye a reality.
+
+Wish me luck!! I'll see you all on the other side. :)"
+"eventtime","2007-04-19 09:31:00"
+"current_moodid","98"
+"url","http://lzzybeth.livejournal.com/212451.html"
+"userid","9415"
+"itemid","828"
+"event","I didn't get Nina back today as I thought, I've got to finish paying off the remaining balance first. So it's going to be another week (1.3 exact) before I'll get her back. :("
+"eventtime","2007-04-12 11:58:00"
+"current_moodid","25"
+"url","http://lzzybeth.livejournal.com/212185.html"
+"userid","9415"
+"itemid","827"
+"event","I could pick her up today, but I've opted to do it tomorrow instead of fighting with rush hour traffic. She's damn near track-worthy now! :) She's got all new aftermarket brakes and her forks have been taken care of. Apparently the fork oil was like water, there was no viscosity left to it and that would explain the front end's tendency to DIVE under hard braking. The new steering head bearings will also improve Nina's response in turning which was what originally felt off to me. My mechanic did suggest installing braided steel brake lines to complete the package and I probably will do so when I bring her back for her valve adjustment. With all the riding I want to do, Nina's getting a lot of little bits of TLC before summer truly gets here!!!
+
+WOOO! I'll have my motorcycle tomorrow after being without her for a month!!! It's probably going to be a bit of an adjustment for me while I get used to Nina's improved handling and braking. I'm really looking forward to being back in the saddle!!:D"
+"eventtime","2007-04-11 14:30:00"
+"current_moodid","98"
+"url","http://lzzybeth.livejournal.com/211862.html"
+"userid","9415"
+"itemid","826"
+"event","I had a great time this year, it was the best year yet and Friday night was my personal favorite. Our Biohazard theme this year of Pimps and Hoes went over smashingly, I don't think our staff could have looked any better in our purple velvet pimp coats. My Playboy boyfriend was especially Pimp in his outfit. :) It was great seeing everyone, though I wish I'd had more time to spend with y'all. I ran into good old friends I hadn't seen in quite sometime and I made a few new friends too; I have to say that nothing compares to watching the sun come up with your loved one and closest friends beside you. ;)
+
+Now, I'm back at work after being gone for 2 days and a number of little things have stacked up. I'm sad that Norwescon has come and gone again for another year, but I'll always have the memories. I can't wait for the next one! :)"
+"eventtime","2007-04-09 10:12:00"
+"current_moodid","88"
+"url","http://lzzybeth.livejournal.com/211656.html"
+"userid","9415"
+"itemid","825"
+"event","My Mom is doing better day by day, I talked to her for 20 minutes last night after everyone had left her alone for the night. I guess you could say that I tucked her in, it was good to hear her voice.
+
+Things are going well with me and TJ, I'm happy with him. We spend quite a bit of time together and I'd have to say that it's definitely love. As if you couldn't tell huh? LOL. :)
+
+I miss my motorcycle, I haven't seen her in over 2 weeks. :( I hope the parts come in soon and Adrian calls me to tell me Nina's done.
+
+This weekend is going to be busy! Tonight: Mark Farina at Nuemo's, we'll be there to celebrate a girlfriend's birthday. Saturday: the last Biohazard meeting before con and then bike night in Renton. Sunday: depending on when we get up (and what the weather does), we may go down to the WMRRA races to spectate.
+
+I FINALLY ordered a new pair of glasses after nearly 10 years (of contacts) and I have to say that I REALLY like them! It may even be love! I think the frame looks good on me. So here's a heads up that you may be seeing me wearing glasses more often. :)
+
+Thanks to my Dad, I've got a car for the time being (a Ford Probe)!!! He's loaning it to me until I can save up enough money to buy a small truck. I'm hoping to find a 1993-2000 4X4 Toyota Tacoma with an extended cab. I've got to have a way to get my Nina to the track and to haul other things as needed!
+
+I'm working on getting back into the University of WA to finish the last year of my Bachelors Degree, I expect I'll have that wrapped up within the next few weeks or so. If all goes well, I'll be starting classes again in September.
+
+I'm getting my debts paid off and maybe by year's end I'll be completely free! If not, I can definitely see the end in sight from there.
+
+
+
+Anyways, I'm getting my life in order and it feels so GOOD!! I'm going in a direction that is ALL of my own choosing, I don't feel like I'm in a boat anymore in which I'm powerless to control the direction its going."
+"eventtime","2007-03-30 11:28:00"
+"current_moodid","59"
+"url","http://lzzybeth.livejournal.com/211442.html"
+"userid","9415"
+"itemid","824"
+"event","You know the one I'm sure, the one where someone calls you to tell you that something has happened to someone you love. In this case, it was my Mom and it was my sister-in-law Kelly calling me.
+
+Yesterday a 218 area code phone number showed up on my cell phone while I was gone to lunch, I immediately knew it was Minnesota and it freaked me out. It's always in the back of my mind that someday I'm going to get one of those calls I wish I hadn't...I'm so far away from my family in Minnesota. So I listened to the message and it was Kelly telling me to call her on her cell because my Mom was in the hospital. By the time I got the message, Kelly and my brother Tim were just getting to the hospital in Duluth where my Mom had been transferred. Kelly couldn't tell me anything yet but that my Mom had gone into the hospital in Virgina (local county hospital) and that they decided to transfer her to the bigger hospital in Duluth (better facility). I knew it was damn serious that the doctors decided to transfer her to Duluth and all I could do from Seattle was wait on pins and needles for my sister-in-law to call me back with more news.
+
+This is where I start imagining all of the worst things possible, that I won't talk to my Mom again or see her. That I'll be going home again for the worst reason possible...my mind was absolutely spinning. I was so scared and I couldn't get the words out without choking up. There was no way I could talk about what was happening...so I didn't. I made tuna fish for lunch just so I'd have something else to focus on.
+
+Kelly called me back and unfortunately I just barely missed her call, so I waited until she finished leaving me a voicemail before I listened to it. I never thought it'd be so hard to dial my voicemail...I didn't want to hear the news. Thankfully, my Mom is going to be alright. But she's going to have to change a few things - her blood sugar is all out of whack, she's got high blood pressure, and cholesterol problems. The doctors in Duluth ended up putting a stint in her heart to help clear her artery. I talked to Kelly again and then I talked to my brother, it was a definite scare for all of us. A lot of my family was there with my Mom last night, so she wasn't alone. Kelly gave me the phone number of the hospital and I called to talk to my Mom. I didn't want to call her and bug her while she was recovering, but I knew that if something else happened that I'd hate myself for the rest of my life if I didn't take that 10 minutes to talk to my Mom. She sounded a little tired but she was in good spirits and I felt better for having talked to her, knowing myself that she was alright. She told me to call her back tomorrow night because she'd have more information after talking to her doctor the next day. I told her I loved her and that I wanted her to get well soon.
+
+I was so scared because if my Mom hadn't gone to the Virginia hospital and got checked out, she could have gone home to go to sleep forever. I could have lost my Mom and it hurts so much to think of that. I hate being so far away at times like these!! I know it'll be alright, but it was such a scare. I'm still reeling from the shock of it. It's hard to accept the fact that as I'm getting older my parents are too...and that these types of things are now part of my reality. My Mom is 50 years old and my Dad is 57 going on 58. I just don't know what I'm going to do when something happens to them...I don't want to think about it. But I know I've got to and so do they in order to take care of them the best way possible."
+"eventtime","2007-03-29 10:21:00"
+"current_moodid","85"
+"url","http://lzzybeth.livejournal.com/211039.html"
+"userid","9415"
+"itemid","823"
+"event","Her front end that is, not her ass. ;) After a slight mishap in my gravel driveway, Nina wasn't riding right. She felt OFF. Her front end was feeling pretty squirelly, so I dropped her off at my mechanic Adrian's shop. I asked him to look her over and find out what was wrong.
+
+<b>I got the call today that her forks are straight, <u>THANK GOD</u>.</b> The drop only managed to tweak her triple clamps a little and that's why she felt strange. However, her steering head bearings are going out. There's a noticeable notch that's causing some of the squirelly response whenever I'm turning. Also, my fork oil probably hasn't ever been changed since the day she left Kawasaki's assembly line in 1992. So that's being taken care of in addition to new fork seals, they don't leak right now but it's a good idea to replace them anyways since Adrian will already be working on the forks. I'm also having my front brakes taken care of while she's in the shop since she'll already be torn down, I'm getting a new disc and new pads. She'll be better than new insofar as stopping power!!!
+
+Both of these things (forks and brakes) are things I've wanted to get done before summer came, Nina can certainly use the work. I'm still sad that I'm without my motorcycle, but I'm looking forward to getting her back from Adrian. I've got a lot of miles I'm looking forward to spending with her. Having a tight suspension and great brakes will go a long way in improving our rides! :)
+
+Expect to hear how happy I am about having Nina back again! It'll be like having a new toy, not unlike the last time I got her back from Adrian's shop after a full tune up. He'll be getting a large chunk of my paycheck this time around again too. LOL! :D"
+"eventtime","2007-03-21 18:18:00"
+"current_moodid","125"
+"url","http://lzzybeth.livejournal.com/210723.html"
+"userid","9415"
+"itemid","820"
+"event","Heya, I've got a favor to ask of anyone who's got a truck or a vehicle/trailer combo here in Seattle. Would you be willing to loan it to me for a day? I'd return it to you with gas of course.
+
+Why you ask?
+
+I found my boyfriend TJ a sweet 125cc dirtbike in Portland and he wants to take a look at it on Sunday. If all goes well, he'll be buying it. We'll be leaving Seattle around 7PM on Saturday, staying the night at my friend Santi's house, and returning to Seattle around 4PM on Sunday.
+
+We do have the option of storing the dirtbike in Santi's garage until TJ can find a way to get back down there and retrieve it. But it'd sure be nice to bring TJ's dirtbike back to Seattle the same day he buys it!! ;)
+
+Let me know if you can help. <b>THANKS A LOT!!</b>"
+"eventtime","2007-02-09 11:29:00"
+"current_moodid","43"
+"url","http://lzzybeth.livejournal.com/209952.html"
+"userid","9415"
+"itemid","819"
+"event","I did feel better after I made my post last night...but then the same unease came back within the  hour. I ended up staying up until past 1AM and that's not good for a working girl like me. I did ride the bus into work this morning, I stopped off at Starbucks on the Ave to get some coffee and a breakfast sandwich. I had my iPod plugged into my head so I could loose myself in the music and my thoughts. I got off the bus at the UW Hospital and walked the rest of the way to my work (only about 1/2 mile), stopping on the bridge over the Montlake Cut to look out on the water.
+
+I'm so divided on whether I'd be able to give up riding if I had to. Right now as I picture my life and the way I feel about it, there's no way I could give up riding. It's become a very big part of who I am and I can't imagine my life without it now that I have it. But the people who love me most tell me they're always worried about me when I'm on the bike and now that I've really thought about it, I don't like doing that to them.
+
+So, the only thing I can do is lessen my wreck risk factor and that's going to mean less commuting on my bike (highest chance of wrecking). Again, I should remember the people who I leave behind whenever I'm riding. I shouldn't be so selfish, I have to live for them as much I do for myself. And even though I don't picture myself as all that important or that I'd be missed, someone somewhere doesn't feel the same way. I do have a lot to live for and there are a number of things I still want to do in this life.
+
+I'm in love with a wonderful man. I want to finish college. I want to have a great career. I want to travel. I want to get married again. I want to have children.
+
+It may take a little while before this unease goes away...but that's ok. I've just got to remember that this is all a part of life and I'll get through it. I always make my way through. :)"
+"eventtime","2007-02-09 10:24:00"
+"current_moodid","48"
+"url","http://lzzybeth.livejournal.com/209802.html"
+"userid","9415"
+"itemid","818"
+"event","The reality is that I have a high risk of getting into a wreck on my motorcycle, I know that and I've accepted that it's a part of riding. The thing is, I don't think I've really considered how my injury or possible death may affect the people who know and love me. In response to some tragic news, I wrote something on one of my local message boards that I myself should heed. 
+
+<b>Always remember the people you leave behind when you pull up the sidestand.</b> 
+
+A rider I've never met and never will died on Tuesday doing what he loved, riding. From what I saw of him online, he was a man so full of vitality that he was hard to ignore...now he'll never be forgotten. I can't stop thinking about him and I'm sad that I'll never have the pleasure of meeting him. His death has left me with a lead weight in my stomach, I never would have thought I'd hear about the death of someone who was so full of life. It's unfair. This tragedy has left so many of us riders thinking about any number of things...I don't think I'm going to ride tomorrow. My head is in a strange place right now, both in his death and the things that I've thought and talked about.
+
+As humans with the will to live, I wonder if we're truly ready to ""go"" when our time does come...no matter when it is. When tragedies like this happen, we the survivors are left to examine our own mortality and the questions that arise. Someday the same exact thing could happen to us. Do we feel that we've done all we can in this life? Have we done good by ourselves and by others? Will we be at peace?
+
+It's no wonder why the saying goes, ""Live every day like it's your last."" You just never know.
+
+Take care my friends and I promise I'll do the same."
+"eventtime","2007-02-08 23:30:00"
+"current_moodid","101"
+"url","http://lzzybeth.livejournal.com/209503.html"
+"userid","9415"
+"itemid","817"
+"event","Alright, who out of the lot of you are really interested in doing this event this year? I've been wanting to go since I first heard about this event when I started riding and I'd like to ride down there with some friends if possible.
+
+http://www.soundrider.com/sbnw/index.htm"
+"eventtime","2007-01-17 09:44:00"
+"current_moodid","56"
+"url","http://lzzybeth.livejournal.com/209250.html"
+"userid","9415"
+"itemid","816"
+"event","So, I haven't been posting much as of lately because I've been pretty busy. But it was a great Christmas!! I got 2 of my favorite things as gifts thanks to my awesome boyfriend!
+
+<lj-cut text=""Pink iPod Nano"">4GB Pink iPod Nano, I absolutely fucking LOVE LOVE how slim it is! My old Mini went to my roommate, she resurrected it with a new battery and is very happy with it!
+<img src=""http://img.photobucket.com/albums/v332/Elzbeth/PinkiPodNano.jpg""></lj-cut>
+
+<lj-cut text=""Arai Corsair RX-7"">Arai Corsair RX-7, Kitagawa paint scheme. It wasn't my first choice, but it was one I had considered. I'm going to pick it up from RMC as soon as I can get there, maybe even today! I've wanted this helmet for awhile now and I'm so glad to finally have it. I know I'll be happy for a long time. :)
+<img src=""http://img.photobucket.com/albums/v332/Elzbeth/Motorcycles/Motorcycle%20Gear/AraiRX-7CorsairKitagawa.jpg""></lj-cut>"
+"eventtime","2007-01-09 12:13:00"
+"current_moodid","98"
+"url","http://lzzybeth.livejournal.com/208939.html"
+"userid","9415"
+"itemid","815"
+"event","So who's going this weekend? Obviously Biohazard is going to be there, but we're nothing without our party-goers!!!!<br><br><img src=""http://x.myspace.com/images/blog/smileys/chipper.gif""><br>"
+"eventtime","2007-01-09 08:51:00"
+"current_moodid","41"
+"url","http://lzzybeth.livejournal.com/208824.html"
+"userid","9415"
+"itemid","811"
+"event","You've unfriended me and banned me from posting in your LJ because I didn't sugarcoat my words about your boy Andy. Sorry, you know me well enough to know that I'm honest to a fault and I'll tell a person like it is.
+
+Whatever, I wouldn't drop you as a friend just because we disagree about something. And believe me, I've disagreed with plenty of friends about plenty of things!! But I see you don't view friendship the same way I do. 
+
+Oh well, you've been unfriended as well."
+"eventtime","2006-12-08 15:37:00"
+"url","http://lzzybeth.livejournal.com/207732.html"
+"userid","9415"
+"itemid","810"
+"event","Can you believe I've never really been on a vacation in my life? It sounds strange I know, but it's the truth. Sure, I've had time off work like anyone else but I've never gone anywhere for the simple pleasure of being there. I've usually had one reason or another why I had the time off work and why I was there, vacations are supposed to be leisurely and I've never had one of those.
+
+Well, guess what?! Yup, I'm going on a vacation!!
+
+When TJ is done working on the <a href=""http://www.wsdot.wa.gov/projects/sr16narrowsbridge/"" target=""blank"">Tacoma Narrows Bridge project</a>, he wants us to go away together on a vacation! He's handed the planning over to me since he won't have the time to do the research himself with a 60 hour work week. But since I've never had a true vacation and it's his money that's being spent, I asked him to tell me where he wanted to go. ""Anywhere in the world"" was his answer!!! We talked about Europe, South America, and Australia - eventually settling on Europe. I like the idea of being able to jump on a train and be in a completely different country/culture in a matter of hours. 
+
+So, I'm going to Europe with my awesome boyfriend sometime next Spring!!!! I'm totally open to hearing suggestions on what we should do while we're there, please send them my way. WOOT!! Keep in mind that I spent 16 days touring France between my junior and senior year in highschool, so I already know what I'd do in France if I were to visit it again.
+
+I'm excited. Can you tell? :D"
+"eventtime","2006-12-08 13:06:00"
+"current_moodid","98"
+"url","http://lzzybeth.livejournal.com/207458.html"
+"userid","9415"
+"itemid","809"
+"event","That's how I've been feeling these last few days and it's not in the cute kitten kind of way. It's the ""I want to tear your face off"" kind of way, just like a tiger. Maybe my horoscope has something do with it...my chiropractor did mention that it also happens to be a full moon.
+
+<i>You need to pull yourself up by the bootstraps, dear Gemini. Why not take a few steps back from your life and try to look at it more objectively? Regardless of what you may be thinking at the moment, you actually do have a terrific life. Stop and count your blessings; if necessary, make a list of them and keep it in your wallet to refer to at low moments. Force yourself to be festive tonight. It will do you good to get out.</i>"
+"eventtime","2006-12-05 15:52:00"
+"current_moodid","118"
+"url","http://lzzybeth.livejournal.com/207348.html"
+"userid","9415"
+"itemid","808"
+"event","Biohazard's theme for next year's parties is <b><u>Pimps & Hoes</u></b>! :)
+
+What does this mean for you? Well, take it as you will - but come to the room party at <a href=""http://www.norwescon.org/"" target=""blank"">Norwescon</a> dressed theme-appropriate. I know you all have devious minds and I can't wait to see what you come up with!! :D
+
+<b>Also, we need tshirt art that's theme-appropriate!! So if you've got an idea or know an artist, get the piece to our Webmaster <lj user=""minstrel_dave""> no later than 1/6/07. THANKS!!</b>
+
+-Lzzybeth-
+Biohazard Secretary & Head Mistress"
+"eventtime","2006-12-05 11:24:00"
+"current_moodid","90"
+"url","http://lzzybeth.livejournal.com/206977.html"
+"userid","9415"
+"itemid","807"
+"event","It was absolutely <a href=""http://dictionary.reference.com/browse/surreal"" target=""blank"">surreal</a> trying to get home last night in the snow storm!! I couldn't believe it. As someone who grew up in the Northwoods of Minnesota, I know how to handle the snow. But I know that's not the case around here and it was a bit scary seeing it in action last night.
+
+So what does one do when the buses come to a practical standstill because no one has any traction, even on small hills? <b>ONE WALKS.</b>
+
+ME, (I mapped it on Yahoo! Maps) I walked the 2.1 miles home last night. I got off at the top of the hill near the Northgate Transit Center and walked the rest of the way home. All told, it took me about 1.5 hours to walk that far in the snow storm. My whole walk home - the snow kept coming down in a haze, I watched as cars slid/spun out, I heard sirens everywhere responding to calls, and I saw A LOT of people like me who were walking to get where they needed to go. 
+
+Yeah, it was a somewhat crazy decision to walk that far and I thought about that when I first started out. But I had weighed my options - standing at the Transit Center waiting for a bus that was already running 20 minutes late (and continuing to go up), the fact that I wouldn't be warm despite how bundled up I was, and the bumper to bumper traffic on my route home. It'd probably take longer for me to get home on the bus than it would to walk home! 
+
+Craziness!! I'm just glad that snow like this doesn't come to Seattle very often. In a week, this'll be old news and it'll be back to rain as usual. For once, I'm looking forward to the rain!!"
+"eventtime","2006-11-28 13:36:00"
+"current_moodid","42"
+"url","http://lzzybeth.livejournal.com/206675.html"
+"userid","9415"
+"itemid","806"
+"event","I'm a silly girl because I want to share my happy Thanksgiving news with you. Me and TJ are together again, though I'm sure that it doesn't come as a surprise to some of you. TJ makes me happy in so many ways, what can I say! LOL! <img src=""http://x.myspace.com/images/blog/smileys/chipper.gif"">"
+"eventtime","2006-11-24 12:32:00"
+"current_moodid","15"
+"url","http://lzzybeth.livejournal.com/206578.html"
+"userid","9415"

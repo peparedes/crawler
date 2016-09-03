@@ -1,0 +1,375 @@
+"names","values"
+"itemid","18"
+"event","SXQgc2VlbXMgdGhpbmdzIGhhdmUgYmVlbiBxdWl0ZSBkaWZmaWN1bHQgZm9yIEphbWVzIGFuZCBoZXIgZnJpZW5kcyBhcyBvZiBsYXRlLg0KSkQgaXMgc3RydWdnbGluZyB3aXRoIFNhbW15IGFuZCBMYWN5Lg0KQ2F0aGVyaW5lIGlzIGhhdmluZyB0cm91YmxlcyB3aXRoIGhlciBtb3RoZXIgYW5kIGhlciBjbG9zZSBmcmllbmRzLg0KU29tZXRoaW5nIHVua25vd24gd2FzIHdyb25nIHdpdGggRG9ubmllIGxhc3QgbmlnaHQuDQpLYXRpZSBpcyBzdGlsbCBvdmVyc3RyZXNzZWQuDQpTYXJ5IHNlZW1zIHRvIGJlIGZhbGxpbmcgaGFyZGVyIHRoYW4gdXN1YWwuDQpUaGUgZmFtaWx5IGV4cGVjdHMgZm9yIEphbWVz4oCZcyBmYXRoZXIgdG8gc29vbiBicmVhayBkb3duLCBibG93IHVwLCBvciBhIGNvbWJpbmF0aW9uIG9mIHRoZSB0d28uDQpUaGluZ3MgZG8gbm90IHNlZW0gdG8gYmUgdGhhdCB3ZWxsIG9uIHRoZWlyIHNpZGUgb2YgdGhlIGZlbmNlLg0KDQpKYW1lcywgaG93ZXZlciwgaXMgZmFpcmluZyBzb21ld2hhdCB3ZWxsLg0KSGVyIGdyZWF0ZXN0IHN0cnVnZ2xlcyByaWdodCBub3cgaW5jbHVkZSBoZXIgc2Vuc2Ugb2Ygbm90IGJlbG9uZ2luZywgd2hhdCB0byBhYm91dCBoZXIgZnJpZW5kc2hpcCB3aXRoIEJpbGx5LCBoZXIgbGFjayBvZiBtb3RpdmF0aW9uIGluIG5lYXJseSBldmVyeXRoaW5nIChlc3BlY2lhbGx5IHNjaG9vbCksIGFuZCBoZXIgZGVhbGluZ3Mgd2l0aCBoZXIgZmF0aGVyLg0KSG93ZXZlciwgc2hlIHNlZW1zIHRvIGJlIGRvaW5nIGJldHRlciB0aGFuIHNoZSBoYWQgYmVlbiBmb3IgYSB0aW1lLg0KDQpWaW5jZSByZXNlYXJjaGVkIHNvbWUgaW5mb3JtYXRpb24gb24gaG93IEphbWVzIGNvdWxkIGdvIGFib3V0IGhhdmluZyBoZXIgd29yayBwdWJsaXNoZWQuDQpTaGUgaGFzIHlldCB0byBjb250aW51ZSBvbiBoaXMgZGlzY292ZXJpZXMuDQpBZ2FpbiwgaGVyIGxhY2sgb2YgbW90aXZhdGlvbiBob2xkcyBoZXIgYmFjay4NCg0KSmFtZXMgYWxzbyBoYXMgYmVlbiBjb21tZW50aW5nIHRoYXQgSSBoYXZlIG5vdCBiZWVuIGFyb3VuZCBhcyBvZiBsYXRlLg0KU2hlIHRvbGQgbWUgdGhhdCBzaGUgd291bGQgbG9vayBhdCB3aGVyZSBJIG5vcm1hbCBhbSDigJQgcGFzc2VuZ2VyIHNlYXQgaW4gdGhlIGNhciwgbmV4dCB0byBoZXIgb24gaGVyIGJlZCwgaW4gdGhlIGNoYWlyIG5lYXIgaGVyIGF0IGhlciBkZXNrLCBldGMuIOKAlCBidXQgc2hlIHNlZXMgb25seSBsb25lbHksIHZhY2FudCBzcGFjZS4NCkkgaGF2ZSBub3QgbGVmdCBoZXIuDQpJIHNpbXBseSBiZWNhdXNlIHRoYXQgc2hlIGhhcyBhbHRlcm5hdGVzIG91dHJlYWNoaW5nIHRvIHdoaWNoIHNoZSBjYW4gZ28gd2hlbiBzaGUgaXMgaW4gbmVlZCBvZiBhIGNvbXBhbmlvbi4NCkluIGZhY3QsIEkgY2FuIHRoaW5rIG9mIG9uZSBpbiBwYXJ0aWN1bGFyOw0KYW5kIHNoZSBrbmV3IHdobyB3aGVuIEkgZXhwbGFpbmVkIG15IHRob3VnaHRzIHRvIGhlci4NClNoZSBhZ3JlZWQgdGhhdCB0aGUgc3BlY2lmaWMgcGVyc29uIGlzIGRlcGVuZGFibGU7DQpob3dldmVyLCBzaGUgaXMgcmVsdWN0YW50IHRvIHRydXN0IHBlb3BsZSBhZ2Fpbi4NCg0KSmFtZXMgZmVsdCBib3RoIGh1cnQgYW5kIGJldHJheWVkIHdoZW4gc2hlIGFuZCBKRCBicm9rZSB1cC4NCkpEIGh1cnQgaGVyLg0KQnV0IGl0IHdhcyBzaGUgd2hvIGJldHJheWVkIGhlcnNlbGYsIHNoZSBleHBsYWluZWQgdG8gbWUuDQpKROKAmXMgbGVhdmluZyBoZXIgdG8gc2VlIOKAnHdoYXQgZWxzZSBpcyBvdXQgdGhlcmXigJ0gcHV0IGluIGhlciBtaW5kIHRoYXQgc2hlIHdhcyBvbmx5IHNlY29uZC1iZXN0LCBpZiBldmVuIHRoYXQgbXVjaC4NCkFuZCBiZWNhdXNlIHNoZSB0cnVzdGVkIGFuZCBkZXBlbmRlZCB1cG9uIGhpbSBzbyBtdWNoLCBKYW1lcyBiZWxpZXZlcyBzaGUgYmV0cmF5ZWQgaGVyc2VsZi4NCkZvciBsb25nIGhhcyBzaGUgcHJvbWlzZWQgaGVyc2VsZiBzaGUgd291bGQgbmV2ZXIgZ3JvdyBzbyBjbG9zZSB0byBzb21lb25lIHRoYXQgdGhlaXIgZGVwYXJ0dXJlIHdvdWxkIGNhdXNlIGhlciBncmVhdCBwYWluLg0KSG93ZXZlciwgc2hlIGRpZC4NCkFuZCB0aGUgcGFpbiB3YXMgcHJlc2VudCwgYXMgd2VsbC4NClNoZSBpcywgdGh1cywgcmVsdWN0YW50IHRvIHRydXN0IGhlcnNlbGYgYWdhaW4uDQoNCkJlY2F1c2Ugb2YgdGhpcyBsYWNrIG9mIHRydXN0LCBzaGUgZG9lcyBub3QgYWN0dWFsbHkgYmVsaWV2ZSB0aGF0IHNoZSBpcyBjYXBhYmxlIG9mIGRvaW5nIHdlbGwgaW4gc2Nob29sLg0KU2hlIGJlbGlldmVzIHNoZSBpcyB1bmFibGUgdG8gd29yayBoYXJkIGVub3VnaCBhbmQgaXMgbm90IGludGVsbGlnZW50IGVub3VnaCB0byBzdWNjZWVkIGluIGNvbGxlZ2UuDQpJZiBzaGUgY29udGludWVzIHdpdGggdGhpcyBmcmFtZSBvZiBtaW5kIGFuZCBsYWNrIG9mIGVmZm9ydCwgSSBmZWFyIHNoZSBtYXkgZXZlbnR1YWxseSBwcm92ZSBoZXJzZWxmIGFjY3VyYXRlLg0KSG93ZXZlciwgaWYgSmFtZXMgY2FuIGZpbmQgYSBmYWN0b3IgdGhhdCB3aWxsIGFsbG93IGhlciB0byByZWdhaW4gaGVyIG9sZCBzY2hvb2wgaGFiaXRzIGFuZCBkZWRpY2F0aW9uLCBwZXJoYXBzIHNoZSBjYW4gY29ucXVlciB0aGlzIGFjYWRlbWljIGhpbmRyYW5jZSBhZnRlciBhbGwuDQpJIGJlbGlldmUgdGhhdCB0aGVyZSBpcyBvbmUgc291cmNlIHRoYXQgbWF5IHByb3ZpZGUganVzdCB0aGF0Lg0KSG93ZXZlciwgZm9yIGl0IHRvIHRydWx5IHRha2UgZWZmZWN0LCBzaGUgbXVzdCBvbmNlIGFnYWluIOKAnGJldHJheeKAnSBoZXJzZWxmIGFuZCBhbGxvdyBzb21lb25lIHRvIGdyb3cgY2xvc2UgdG8gaGVyLg0KVW50aWwgdGhlbiwgSSB3aWxsIHNpbXBseSBzdXBwb3J0IGFuZCBwdXNoIGhlciB0byBkbyBhbmQgYmUgaGVyIGJlc3QuDQoNCk1lYW53aGlsZSwgSSB3aWxsIGFsc28gY29udGludWUgdG8gd29uZGVyIGhvdyB0aGUgc2l0dWF0aW9ucyB3aXRoIENhdGhlcmluZSwgYXMgd2VsbCBhcyB0aGF0IHdpdGggQmlsbHksIHdpbGwgZWFjaCB0cmFuc3BpcmUu"
+"eventtime","2004-10-10 14:23:00"
+"url","http://kyle-the-great.livejournal.com/4626.html"
+"userid","8384"
+"itemid","17"
+"event","I wish you a very merry birthday, Vince.
+I hope that your day has been enjoyable.
+I also ask your forgiveness for not having you a proper gift.
+Do forgive James and I for our lack of good friendship.
+
+James told me you inquired of my well-being, Catherine.
+I appriciate your placing me in your thoughts and concerns.
+I hope that you, too, are doing well on this lovely day."
+"eventtime","2004-09-22 21:43:00"
+"url","http://kyle-the-great.livejournal.com/4395.html"
+"userid","8384"
+"itemid","16"
+"event","I have finally uploaded a new collection of user pictures.
+
+I am somewhat worried about James.
+She is quite nervous about the meeting later today.
+She does believe she is ready.
+I, however, do.
+She has not yet realised how much stronger she has become.
+Nor has she realised that she will not be alone,
+for I am here,
+and I will never let her go.
+I hope it happens, 
+for his sake, at least, if not for hers."
+"eventtime","2004-09-13 08:42:00"
+"url","http://kyle-the-great.livejournal.com/4253.html"
+"userid","8384"
+"itemid","15"
+"event","I tend not do participate in the mindless LiveJournal toys that are spread across the Internet.
+However, I hold a liking for the item below.
+
+<table align=""center"" bgcolor=#a0a0a0><tr bgcolor=#c0c0c0><td><center><font face=""Tahoma"" size=""-1"">I am flower named <b>kyle_the_great !</b></font></center></td></tr><tr><td><table align=""center"" bgcolor=#000000  border=0><tr height=6><td bgcolor=#561e24 width=4></td><td bgcolor=#7d2651 width=4></td><td bgcolor=#7a255b width=4></td><td bgcolor=#7b385f width=4></td><td bgcolor=#705a6b width=4></td><td bgcolor=#5d6e71 width=4></td><td bgcolor=#497468 width=4></td><td bgcolor=#4e6e6b width=4></td><td bgcolor=#536c68 width=4></td><td bgcolor=#40504c width=4></td><td bgcolor=#506060 width=4></td><td bgcolor=#596a6f width=4></td><td bgcolor=#4d716b width=4></td><td bgcolor=#478a7d width=4></td><td bgcolor=#717586 width=4></td><td bgcolor=#984071 width=4></td><td bgcolor=#7c2f5b width=4></td><td bgcolor=#8fa4a width=4></td><td bgcolor=#8f038 width=4></td><td bgcolor=#731142 width=4></td><td bgcolor=#701f21 width=4></td><td bgcolor=#73361e width=4></td><td bgcolor=#7e4525 width=4></td><td bgcolor=#964342 width=4></td><td bgcolor=#852c3d width=4></td><td bgcolor=#86d4d width=4></td><td bgcolor=#80845 width=4></td><td bgcolor=#811d45 width=4></td><td bgcolor=#83234b width=4></td><td bgcolor=#88255d width=4></td></tr><tr height=6><td bgcolor=#5681d></td><td bgcolor=#7cd3e></td><td bgcolor=#75e48></td><td bgcolor=#782e61></td><td bgcolor=#73536e></td><td bgcolor=#605e65></td><td bgcolor=#30553b></td><td bgcolor=#385c3b></td><td bgcolor=#3e4e39></td><td bgcolor=#314629></td><td bgcolor=#1d4320></td><td bgcolor=#1a432c></td><td bgcolor=#1f5134></td><td bgcolor=#115b3f></td><td bgcolor=#5c5b6f></td><td bgcolor=#7b4c75></td><td bgcolor=#69033></td><td bgcolor=#9e02e></td><td bgcolor=#8d02a></td><td bgcolor=#7d036></td><td bgcolor=#7914a></td><td bgcolor=#6c52d></td><td bgcolor=#7d6114></td><td bgcolor=#854914></td><td bgcolor=#794120></td><td bgcolor=#811429></td><td bgcolor=#8a03c></td><td bgcolor=#7e1c3d></td><td bgcolor=#7e1e4b></td><td bgcolor=#921d5b></td></tr><tr height=6><td bgcolor=#5ef1a></td><td bgcolor=#731d37></td><td bgcolor=#6a244f></td><td bgcolor=#6e3e5b></td><td bgcolor=#6a5867></td><td bgcolor=#565d59></td><td bgcolor=#2f5332></td><td bgcolor=#335530></td><td bgcolor=#294329></td><td bgcolor=#143921></td><td bgcolor=#020e></td><td bgcolor=#0261c></td><td bgcolor=#12b15></td><td bgcolor=#0361f></td><td bgcolor=#2b2a44></td><td bgcolor=#4533e></td><td bgcolor=#934179></td><td bgcolor=#ad508b></td><td bgcolor=#8a06></td><td bgcolor=#5e031></td><td bgcolor=#99016></td><td bgcolor=#722aa></td><td bgcolor=#685712></td><td bgcolor=#6851f></td><td bgcolor=#7c3bc></td><td bgcolor=#73191a></td><td bgcolor=#7e035></td><td bgcolor=#81193a></td><td bgcolor=#881049></td><td bgcolor=#951d61></td></tr><tr height=6><td bgcolor=#693134></td><td bgcolor=#71454a></td><td bgcolor=#645063></td><td bgcolor=#5c5060></td><td bgcolor=#4f5b5c></td><td bgcolor=#405c46></td><td bgcolor=#1e513b></td><td bgcolor=#e3731></td><td bgcolor=#0e13></td><td bgcolor=#0b13></td><td bgcolor=#abcdd6></td><td bgcolor=#d7e7ec></td><td bgcolor=#ffffff></td><td bgcolor=#bdd4c5></td><td bgcolor=#692f></td><td bgcolor=#39025></td><td bgcolor=#e1fff7></td><td bgcolor=#b3ffe0></td><td bgcolor=#ccffdf></td><td bgcolor=#889581></td><td bgcolor=#3f00></td><td bgcolor=#7e013></td><td bgcolor=#731b11></td><td bgcolor=#5d30e></td><td bgcolor=#771dd></td><td bgcolor=#72f21></td><td bgcolor=#8503c></td><td bgcolor=#901c49></td><td bgcolor=#9a1f5a></td><td bgcolor=#9d1f68></td></tr><tr height=6><td bgcolor=#7f5a59></td><td bgcolor=#7c6568></td><td bgcolor=#59646e></td><td bgcolor=#48515d></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#315246></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#194e29></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#03e19></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#0171></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#6c8876></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#ffffff></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#f7ffee></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#fef0bf></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#f4d893></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#f9ffb1></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#959e87></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#223724></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#e2ffbf></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#c2f197></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#befda2></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#e5ffd4></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#ad92b2></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#3900></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#7d00></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#7601e></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#7d01f></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#7e73c></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#91055></td></a><td bgcolor=#942251></td><td bgcolor=#962251></td><td bgcolor=#9b226b></td></tr><tr height=6><td bgcolor=#858c72></td><td bgcolor=#6a8264></td><td bgcolor=#447251></td><td bgcolor=#2f5c34></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#124021></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#13325></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#000></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#82a39d></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#ede2c2></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#efcc99></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#e1c688></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#cabf82></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#c7b785></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#cac194></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#ebe6c1></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#bcca8d></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#c8d281></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#d5ca81></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#d4ba7f></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#b6e291></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#abffce></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#c2fbd3></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#abe1cf></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#660f></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#9a03a></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#95041></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#a5950></td></a><td bgcolor=#ab1c55></td><td bgcolor=#9e194e></td><td bgcolor=#ac2e68></td></tr><tr height=6><td bgcolor=#82956d></td><td bgcolor=#59855a></td><td bgcolor=#326b3e></td><td bgcolor=#145428></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#03717></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#63731></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#defff7></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#e1eed1></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#c6b690></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#bfa974></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#aaa468></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#bdbc84></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#b8b488></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#b3ac86></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#c0b681></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#c6c786></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#bcc17e></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#c3b376></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#b7ab71></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#adbe85></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#a6c78e></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#b9f8b7></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#eaffff></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#bb5680></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#5e020></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#9404e></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#aae59></td></a><td bgcolor=#a0957></td><td bgcolor=#b72873></td><td bgcolor=#a12f71></td></tr><tr height=6><td bgcolor=#79a06d></td><td bgcolor=#538a4f></td><td bgcolor=#367340></td><td bgcolor=#c4d33></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#000></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#6c9779></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#ffffff></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#f6f1b2></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#fdf2b1></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#ccc483></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#b4b476></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#b9af78></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#abab78></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#a9b070></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#bbb36d></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#c6bb79></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#bfbe7f></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#b6ab68></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#ada76a></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#a9b17e></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#c1ab7f></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#bec585></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#c4ffb5></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#b9b88e></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#bbc9aa></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#6f451></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#831060></td></a><td bgcolor=#a32c81></td><td bgcolor=#8e256d></td><td bgcolor=#823a6e></td></tr><tr height=6><td bgcolor=#7ca169></td><td bgcolor=#588050></td><td bgcolor=#22412d></td><td bgcolor=#08c></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#000></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#ddd99c></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#fff5b3></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#c3bc7f></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#c5bd79></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#d4c67d></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#d7c481></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#d5c684></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#b9c17d></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#a4b176></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#b1a273></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#c7aa72></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#caba73></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#b3a85f></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#b2ae68></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#aeab7b></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#beb383></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#d0b982></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#c6f09f></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#d3ce8c></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#ddffe1></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#616b7f></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#34f33></td></a><td bgcolor=#6b326b></td><td bgcolor=#785c74></td><td bgcolor=#615665></td></tr><tr height=6><td bgcolor=#819a68></td><td bgcolor=#4f6946></td><td bgcolor=#142a2a></td><td bgcolor=#c1e0e6></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#d7e5cf></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#dac47a></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#f9e59d></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#e6df9d></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#c7c175></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#b3a35d></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#d9b777></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#e2cb71></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#bfbc7e></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#b1b686></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#b9a77d></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#d5b97d></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#b7aa52></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#c1b772></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#b6b276></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#b4a26d></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#b2bb80></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#dbc38f></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#a6c073></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#d1b37a></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#a3e286></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#9edbb6></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#546a6c></td></a><td bgcolor=#4b4051></td><td bgcolor=#4f5556></td><td bgcolor=#536660></td></tr><tr height=6><td bgcolor=#68855c></td><td bgcolor=#27513a></td><td bgcolor=#12c29></td><td bgcolor=#ffffff></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#e1d394></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#b7b97e></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#a09b44></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#ccc161></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#f0e394></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#d2c680></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#ada555></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#d6af51></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#e0bda7></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#b9bb64></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#afc07a></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#c5caca></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#a0b86c></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#b1c674></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#acb15a></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#ceb883></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#c4c271></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#bebe69></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#b7a961></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#aba666></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#c1ba6e></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#e8ffb1></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#115237></td></a><td bgcolor=#12813></td><td bgcolor=#38503b></td><td bgcolor=#2b5d41></td></tr><tr height=6><td bgcolor=#4e7951></td><td bgcolor=#02a10></td><td bgcolor=#7e9497></td><td bgcolor=#eee6d6></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#d4be95></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#bdb187></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#b5b37f></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#9da36b></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#bcb773></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#e9db84></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#ddcd68></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#c7b365></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#c3c394></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#bed1a5></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#cfdecc></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#e3edff></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#d9f6ff></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#b0cb8d></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#abb970></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#d4bc95></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#d8cd82></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#bcad63></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#b2a059></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#b2a56d></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#c3b277></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#dcefc2></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#03b31></td></a><td bgcolor=#02810></td><td bgcolor=#1b592b></td><td bgcolor=#185839></td></tr><tr height=6><td bgcolor=#466c46></td><td bgcolor=#022b></td><td bgcolor=#d4dcd6></td><td bgcolor=#f4e9d3></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#baa57d></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#c1b78b></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#b4bc8f></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#b9bd92></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#a5a46a></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#aaa250></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#dcd474></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#cacb69></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#e7f7ac></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#e0dcff></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#a38d85></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#9fa10></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#524872></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#b8b5e9></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#ded6ff></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#d8d9b4></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#c0bd67></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#a59754></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#a0923f></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#b3ab66></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#dbc591></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#ffffec></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#60877f></td></a><td bgcolor=#01b2></td><td bgcolor=#20451c></td><td bgcolor=#235c3e></td></tr><tr height=6><td bgcolor=#3e5a3c></td><td bgcolor=#1219></td><td bgcolor=#41e3></td><td bgcolor=#c9cda8></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#ccc695></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#9dab70></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#9ea46c></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#b3b57c></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#b2bf82></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#a6b474></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#b2be6b></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#e9debc></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#ccdaf9></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#4d560></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#7d3c0></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#c4610></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#67130></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#675a0></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#dde6bf></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#b9c3f8></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#a3aa69></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#a1a253></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#a8b04c></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#b0bb6e></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#dedba1></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#ffffba></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#74126></td></a><td bgcolor=#53d1e></td><td bgcolor=#37533c></td><td bgcolor=#255142></td></tr><tr height=6><td bgcolor=#273c27></td><td bgcolor=#f361e></td><td bgcolor=#ccd2b7></td><td bgcolor=#ffffbc></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#f2d893></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#ffdf90></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#f1db86></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#edda96></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#dbc681></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#b8b67c></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#96b1a6></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#a7e2b8></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#90692f></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#61430></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#9e9d9></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#b9b0b></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#ae8b3></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#79470></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#888a2c></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#a4bef0></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#9dc37a></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#a9ba5f></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#b9b365></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#ccbc70></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#fbeaa6></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#a8be9c></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#070></td></a><td bgcolor=#84933></td><td bgcolor=#234c26></td><td bgcolor=#285532></td></tr><tr height=6><td bgcolor=#223928></td><td bgcolor=#284d34></td><td bgcolor=#fffde0></td><td bgcolor=#fdf3a1></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#f4da90></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#e9cb76></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#d7cd65></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#e8d08b></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#f5d788></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#e9df93></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#c3d9d6></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#b7baea></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#d27d12></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#a6710></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#678b18></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#91a932></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#c1892c></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#974d0></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#777e1c></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#95c6b2></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#dfdade></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#f1d0ac></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#f0c875></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#ffeb8e></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#ffffe5></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#c3e4ce></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#0199></td></a><td bgcolor=#164835></td><td bgcolor=#325f33></td><td bgcolor=#1f4c27></td></tr><tr height=6><td bgcolor=#253d2b></td><td bgcolor=#3e6346></td><td bgcolor=#ffffff></td><td bgcolor=#ffffda></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#d8d186></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#dadd81></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#dadc76></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#d3c27b></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#ccb85a></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#cfca6c></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#bbc4a4></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#abc5ab></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#46210></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#81350></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#e8bb28></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#e0b72e></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#c56a22></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#84560></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#546f39></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#93b3da></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#d0bdcb></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#d1b874></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#e6d363></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#cbd497></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#3c5956></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#050></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#214a2c></td></a><td bgcolor=#245637></td><td bgcolor=#39653f></td><td bgcolor=#295933></td></tr><tr height=6><td bgcolor=#304434></td><td bgcolor=#17341e></td><td bgcolor=#8e9584></td><td bgcolor=#c8cf85></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#ded799></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#d3ca80></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#c6c96b></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#cec47b></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#dac771></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#d8d273></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#b9bc9f></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#60a5d1></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#20531b></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#ad840></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#a34f0></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#8854a></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#92730></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#565e0></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#558392></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#bdd0ed></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#b9c86b></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#a09f32></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#bdbc5d></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#88b1a6></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#0014></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#1037f></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#295325></td></a><td bgcolor=#2e5931></td><td bgcolor=#2f5f3b></td><td bgcolor=#2d5a37></td></tr><tr height=6><td bgcolor=#394c33></td><td bgcolor=#d28e></td><td bgcolor=#99b2aa></td><td bgcolor=#f8febc></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#d2bc83></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#ccbc7a></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#b7b365></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#b7a972></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#c8b36c></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#ddce7e></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#d2c5a9></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#baceff></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#6396c7></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#575935></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#292b0></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#51e0></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#3f0></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#335e61></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#b5ecff></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#c0c98a></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#a0a637></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#b1924d></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#f8cd9e></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#95a786></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#01c0></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#1d4f23></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#365c30></td></a><td bgcolor=#275529></td><td bgcolor=#205530></td><td bgcolor=#245336></td></tr><tr height=6><td bgcolor=#3f5532></td><td bgcolor=#c3214></td><td bgcolor=#96b6a3></td><td bgcolor=#ffffe7></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#fff7b7></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#e2ea93></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#e6db90></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#e7c888></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#f3db98></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#ffe899></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#ffdd78></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#d9df9c></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#b9d0d3></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#608bc3></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#537b91></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#47786b></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#5e9db2></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#9db5de></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#faf5e9></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#fbe17c></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#abbb6e></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#f0d270></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#f8fcbe></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#000></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#f431b></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#3e5b35></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#567057></td></a><td bgcolor=#5c7259></td><td bgcolor=#467446></td><td bgcolor=#285c39></td></tr><tr height=6><td bgcolor=#24452e></td><td bgcolor=#316039></td><td bgcolor=#7200></td><td bgcolor=#547260></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#c0c9ac></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#ead995></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#f8e473></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#e6d869></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#d8d36b></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#bec157></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#d6d060></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#dde05d></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#d2d96b></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#ced2a0></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#fffeff></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#c6bdc6></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#ffffc6></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#a7b18c></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#b5b373></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#f8f076></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#f6d46d></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#fef0ae></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#37695e></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#03031></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#4d653c></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#628058></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#79906d></td></a><td bgcolor=#8ba781></td><td bgcolor=#709b70></td><td bgcolor=#3e7357></td></tr><tr height=6><td bgcolor=#18483a></td><td bgcolor=#215433></td><td bgcolor=#294923></td><td bgcolor=#0261e></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#406d67></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#ffffff></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#ffffff></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#fffcaa></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#ffec99></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#f8df84></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#e4cd6f></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#d1c477></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#c9af3f></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#ffe26f></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#fee6ae></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#bfae6c></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#dfd45f></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#c5c161></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#c2c867></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#d1ca5e></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#fff487></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#7a8969></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#0192f></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#42685d></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#879163></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#9fa77d></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#a8b17f></td></a><td bgcolor=#b5c58d></td><td bgcolor=#92a676></td><td bgcolor=#5a7d58></td></tr><tr height=6><td bgcolor=#254931></td><td bgcolor=#194f37></td><td bgcolor=#29544d></td><td bgcolor=#103c2c></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#02712></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#01ec></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#c9dcce></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#ffffff></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#ffffff></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#ffffd3></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#f7ea93></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#d4d08d></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#eabe77></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#fff3a1></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#ddca68></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#cbc35e></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#e8d162></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#d6c960></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#ffffbf></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#fffff4></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#ffffff></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#4a7662></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#e3c36></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#868759></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#acba8e></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#dac792></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#e0d38b></td></a><td bgcolor=#ddd184></td><td bgcolor=#babd81></td><td bgcolor=#8e9e70></td></tr><tr height=6><td bgcolor=#2a4f33></td><td bgcolor=#2b4d3c></td><td bgcolor=#305d51></td><td bgcolor=#234b33></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#113f23></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#0291d></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#000></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#0910></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#58837f></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#6f826a></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#ffffff></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#ffffc2></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#fff288></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#ffffa5></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#ccba6f></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#e8d081></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#ffff95></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#ffffc4></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#959373></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#91d0></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#82a271></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#1c523f></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#3f5d46></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#9e9f6f></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#c5c696></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#e5ca84></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#f0d98e></td></a><td bgcolor=#e4d187></td><td bgcolor=#d1c890></td><td bgcolor=#b2bd87></td></tr><tr height=6><td bgcolor=#264e32></td><td bgcolor=#314b38></td><td bgcolor=#275739></td><td bgcolor=#215136></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#234f38></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#245038></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#184731></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#02b22></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#022></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#000></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#6c807f></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#bac389></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#fff797></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#d3c356></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#ffffc6></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#ffffeb></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#8da86c></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#efffeb></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#0d1d></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#000></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#020></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#53723></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#4a6e58></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#899373></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#cec88a></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#edd480></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#ecd589></td></a><td bgcolor=#e2cd82></td><td bgcolor=#e3cf8e></td><td bgcolor=#ced188></td></tr><tr height=6><td bgcolor=#294d31></td><td bgcolor=#314d39></td><td bgcolor=#264e3a></td><td bgcolor=#264e38></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#274c39></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#2d523b></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#315e3b></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#144f27></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#144f33></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#9462e></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#090></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#000></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#374728></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#fffff1></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#eafbd1></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#03127></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#000></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#c443d></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#01c2b></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#42b4></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#194827></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#194539></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#3b604a></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#758a5f></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#bbc384></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#e7d77e></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#e9d680></td></a><td bgcolor=#e2c76a></td><td bgcolor=#dec671></td><td bgcolor=#d3c96a></td></tr><tr height=6><td bgcolor=#294f34></td><td bgcolor=#2c483c></td><td bgcolor=#264c36></td><td bgcolor=#2a4d37></td><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#2b4b35></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#2f503c></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#214d32></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#25522d></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#305b38></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#1c5233></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#74e39></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#0403e></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#83428></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#7a957a></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#020></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#02219></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#1321a></td></a><a href=http://www.livejournal.com/users/kyle_the_great><td bgcolor=#9351d></td></a><a href=http://www.livejournal.com/users/lhsangel5><td bgcolor=#1e3830></td></a><a href=http://www.livejournal.com/users/gartoss><td bgcolor=#3f489></td></a><a href=http://www.livejournal.com/users/medieval_man><td bgcolor=#174717></td></a><a href=http://www.livejournal.com/users/wwjd_dingo><td bgcolor=#114b34></td></a><a href=http://www.livejournal.com/users/elephantsrock><td bgcolor=#1f4e38></td></a><a href=http://www.livejournal.com/users/semiblonde><td bgcolor=#53734a></td></a><a href=http://www.livejournal.com/users/cloakedsomeone><td bgcolor=#91a970></td></a><a href=http://www.livejournal.com/users/stealthyghost><td bgcolor=#bec880></td></a><a href=http://www.livejournal.com/users/freespiritsmind><td bgcolor=#d4d285></td></a><td bgcolor=#ddc66d></td><td bgcolor=#cfb45c></td><td bgcolor=#c9af4a></td></tr><tr height=6><td bgcolor=#244a2f></td><td bgcolor=#244a37></td><td bgcolor=#2a4b36></td><td bgcolor=#2e4f3a></td><td bgcolor=#2f4e39></td><td bgcolor=#334f3c></td><td bgcolor=#285043></td><td bgcolor=#2c513b></td><td bgcolor=#3a522f></td><td bgcolor=#284525></td><td bgcolor=#2f5e47></td><td bgcolor=#294537></td><td bgcolor=#15532b></td><td bgcolor=#039c></td><td bgcolor=#f3c30></td><td bgcolor=#203a33></td><td bgcolor=#1b4818></td><td bgcolor=#184f2f></td><td bgcolor=#1b4e4e></td><td bgcolor=#275224></td><td bgcolor=#22591d></td><td bgcolor=#104927></td><td bgcolor=#103e29></td><td bgcolor=#284b32></td><td bgcolor=#5b7d59></td><td bgcolor=#8ba47a></td><td bgcolor=#9ca76e></td><td bgcolor=#a7984a></td><td bgcolor=#a1893c></td><td bgcolor=#ae923b></td></tr></table></td></tr><tr bgcolor=#c0c0c0><td><center><font face=""Tahoma"" size=""-1"">I consist of my friends!</font></center></td></tr><tr bgcolor=#a0a0a0><td><center><font face=""Tahoma"" size=""-1""><a href=""http://tuner.beholder.ru/test/fl.php"">Are you flower too?</a></font></center></td></tr></table>"
+"eventtime","2004-08-10 08:46:00"
+"url","http://kyle-the-great.livejournal.com/3973.html"
+"userid","8384"
+"itemid","14"
+"event","I am in search of new icons.
+I realize that I do not often update my journal.
+It is because I have very little to say.
+However, I am growing weary of the same three icons.
+If you happen to see a fitting icon or feel compelled to create one, I would greatly appreciate it."
+"eventtime","2004-08-06 00:28:00"
+"url","http://kyle-the-great.livejournal.com/3811.html"
+"userid","8384"
+"itemid","13"
+"event","i have created a community in an attempt to assist james in learning the ""ins and outs"" of lifejournal and all it has to offer.
+i do hope i can appease her."
+"eventtime","2004-05-25 02:21:00"
+"current_moodid","89"
+"url","http://kyle-the-great.livejournal.com/3470.html"
+"userid","8384"
+"itemid","12"
+"event","it is over.
+she has given up.
+and i am worried.
+
+yesterday, her mother said she was disappointed in her.
+her monther continued on with how james has been ver y irresponsible, careless, and exceptionally selfish.
+for many, this would be common to hear from one's parents.
+however, for james, this was shocking.
+she had just recently decided that she would soon speak with her mother about her depression and such, as everyone had strongly suggested numerous times.
+yet this little incident has turned her off of this idea totally.
+she told me, then later john, that she saw her mother as a ""last hope"":
+even if all of her friends were to abondon her -- even jennalee -- that at least her mother would be there to support her, nonetheless.
+she believed that her mother would most likely even understand.
+when her mother was younger, she attempted suicide -- though obviously failed -- and sturuggled with the likes of depression, as well.
+this is why james believed that her mother would understand.
+but to her, yesterday's inicdent proved her theory false.
+james told me that she now feels totally alone -- no longer just lonely.
+even with john, vince, jenna, and everyone else, she still feels alone and lonely.
+moreover, she has decided to finally give up.
+she is tired, she said, and wants to continue on no more.
+she will, thus, live totally for others.
+""like a slave,"" she explained to me.
+she will serve others, holding no importance to herself or her desires.
+for much time now, she has called herself selfish and irresponsible.
+but others never believed her.
+and now, with the realization caused by her mother, james is convinced that she was correct all along.
+and with this knowledge, she plans to change herself into what her mother believe she should be, as well as whatever else others want her to be.
+she plans to lose all of individuality and sacrafice herself.
+
+i disagree.
+the idea of giving up herself to others revolts me.
+she was once so strong, and now she has long all will-power.
+i fear what may happen.
+many will take advantage to her.
+and just recently had she learned how to say ""no"" to people.
+but now she is throwing all of that away.
+maybe jason can help her, for it was he who sparked the power of ""no"" in her.
+perhaps everyone can show to her that she <i>is</i> important and she <i>does</i> matter.
+however, until then, she plans to be whatever everyone else needs her to be and do whatever everyone else wants.
+
+her decision also worries me because she was already doing this in one particular situation.
+and that inicdent has been haunting her since.
+guilt and shame eat away at her soul, and she feels she is left with nothing.
+so if she were to do this with all people, things, and situations. . . .
+i do, indeed, fear the results."
+"eventtime","2004-04-04 19:39:00"
+"current_moodid","46"
+"url","http://kyle-the-great.livejournal.com/3134.html"
+"userid","8384"
+"itemid","11"
+"event","james has come to believe that this icon is more appropriate for her than for me.
+and i must agree.
+however, that is only because she makes it so.
+
+christine, how nice is our wedding thus far?
+i do hope that i will not look childish in the tux you have chosen for me.
+such an embarassment would discomfort me.
+yet i have faith that you are making wise decisions and thus shall not question them.
+i do wish, however, to be informed of the final outcome.
+if you must, you may show the plans to james who would then forward them to me.
+such method would be acceptable.
+
+i fear that james will soon break her mirrors.
+she feels a sense of digust every time she looks into one.
+she nearly broke her handheld mirror thursday night.
+i do hope that she fairs better tonight.
+
+with that ending note, i must bid every one a farewell and good night."
+"eventtime","2004-02-28 22:56:00"
+"url","http://kyle-the-great.livejournal.com/2998.html"
+"userid","8384"
+"itemid","10"
+"event","christine, here is some information about me.
+know you know a bit more about who you are to wed.
+
+01.  what time is it:
+1518 hours.
+
+03.  name as it appears on birth certificate:
+(prey tell the location of the second question?)
+i do not have a birth certificate.
+
+04.  nickname:
+i am kyle the great.
+
+05.  number of candles on your last birthday cake:
+i did not have a birthday cake; nonetheless, i am equivliant to seventeen years of age.
+
+06.  pets:
+james is the closest to a pet that i own.
+
+07.  natural hair color:
+brown.
+
+08.  what friend will have the most entertaining answers:
+james, most likely.
+
+09.  eye color:
+brown.
+
+10.  what's the biggest thing you'd change:
+my inability of manifestation.
+
+11.  birth place:
+your mind.
+
+12.  favorite food:
+james has very bad taste in food, and i only know what she eats.
+however, i am fond of meat.
+
+13.  favorite junk food:
+i am not in favour of junk food.
+
+14.  been to africa:
+no.
+
+15.  been toilet papering:
+no.
+
+16.  love someone so much it made you cry:
+i do not allow myself to love.  and yes, james, it does exist.
+
+17.  been in a car accident:
+thankfully, no.
+however, i fear riding with james when she is driving.
+
+18.  croutons or bacon bits:
+i do not like either.
+
+19.  favorite day of the week:
+i tend not to have favourites of things.
+
+20.  favorite word or phrase:
+you do not read very well, do you?
+
+21.  favorite restaurant:
+i have none.
+
+22.  favorite flower:
+venus flytrap.
+
+23.  favorite game/sport to play:
+i am a male, so sports with cheerleaders are a plus.
+
+24.  favorite drink:
+gatoraide.
+
+25.  favorite ice cream:
+cookies and cream.
+
+26.  favorite fast food restaurant:
+i have none.
+
+27.  what color is your bedroom carpet:
+it is not mine; it belongs to james.
+
+28.  how many times did you fail your drivers test:
+i have not taken said test.
+
+29.  what's the next thing you have to look forward to:
+i do not look forward to things.
+i live in the present.
+
+30.  besides this one, from whom did you get your last e-mail:
+i do no longer have an email account.
+
+31.  which store would you choose to max out your credit card:
+i have no credit cards.
+
+32.  what do you do most often when you are bored:
+laugh at james.
+
+33.  most annoying thing people ask/tell:
+""kyle?  who's that?  her boyfriend??""
+
+34.  what is your favorite time of day:
+lunch time, for that is when james is most happy.
+
+35.  who will respond to this email the quickest:
+james.
+
+36.  who is the person you sent this to that is least likely to respond:
+everyone except jennalee, cat and james.
+
+37.  favorite tv show:
+survivor.
+
+38.  last person(s) you went out to dinner with:
+james and i are cyrrently eating baked potatoes.
+
+39.  ford or chevy:
+chevy.
+
+40.  how do you like your steak done:
+james will not eat steak, so i do not know.
+
+41.  favorite candy:
+i have none.
+
+42.  favorite movie:
+gladiator.
+
+43.  What time is it now:
+1536h.
+
+44.  what is your favorite color:
+clear.
+
+45.  what is your favorite Starbuck's blend?
+what is this ""starbuck""?"
+"eventtime","2004-02-27 15:37:00"
+"url","http://kyle-the-great.livejournal.com/2725.html"
+"userid","8384"
+"itemid","9"
+"event","i am proud of you, james.
+you forced yourself to have a good day.
+i am glad.
+
+the feelings of guilt then emptiness you experienced this evening was probably a results of the happiness.
+for long you have known only sorrow and anger.
+but today brought a new light to the path.
+do not put it out.
+find it more often.
+i can feel that you disagree fully with the idea of happiness.
+however, i assure you that you can find happiness.
+and one day, you will."
+"eventtime","2004-02-13 23:29:00"
+"url","http://kyle-the-great.livejournal.com/2356.html"
+"userid","8384"
+"itemid","8"
+"event","you are not alone.
+i am trying to help.
+but you refuse to look at me.
+i am here.
+just as i have always been.
+when all others turn their back
+and look the other way,
+or when they go along,
+provoking you to continue,
+know that i am here.
+do not run from me;
+run to me.
+you are strong.
+you must be to have lasted this long.
+you just have to realise the power that you hold within.
+you say that you can no longer go on.
+how many times before have you said those very same words?
+and yet still you breathe.
+if you stay strong
+-- stay alive--
+for no one else,
+then at least stay so for me."
+"eventtime","2004-02-03 20:48:00"
+"url","http://kyle-the-great.livejournal.com/2199.html"
+"userid","8384"
+"itemid","5"
+"event","james intends on using my journal as a test subject.  she plans on experimenting with overrides via system two.  my journal becomes the victim because she does not wish to ruin her own.  i am not at all surprised in her actions.  i am thus warning you that if my journal looks a bit off in the near future, it is in no way, shape, nor form at all my fault.  i suggest we do as her mother does -- blame it all on james.
+
+thank you, john, for your compliment on my writing style.  i do appreciate that you admire my style.
+
+that is all for now."
+"eventtime","2003-12-27 21:58:00"
+"url","http://kyle-the-great.livejournal.com/1304.html"
+"userid","8384"
+"itemid","4"
+"event","i worry about james sometimes.  she is so lonely, yet never alone.  i only hope that john will take proper care of her.  and if he does not do so, i will enjoy kicking his ass.
+
+after great effort, her room looks good.  she put up some of her posters, though she is not yet finished.  when her brother entered, a gasp of shock slipped from between his lips.  it amused me greatly.  i do find humor, however, at her desk.  it has the theme of darkness and . . . duo maxwell.
+
+i will never understand her obsession with him.  i would have expected her to choose the cruel bastard, in this case wufei, jsut as she always does.  however, i suppose it is the title ''god of death'' that lured her to this comical character.  but thank god she does not favor relena.  i would die if i had to constantly suffer through video and audio clips as well as pictures of that horrible creature.
+
+james wants to read her <i>confidential confessions</i> manga soon.  i hope the scene involving the girl cutting does not induce her addiction to do so.  i could feel her struggling against the monster as geoffrey spoke of his knife.  though she will attempt to convience you otherwise, she did well.  i am proud of her, just as i always am."
+"eventtime","2003-12-25 23:55:00"
+"url","http://kyle-the-great.livejournal.com/1238.html"
+"userid","8384"
+"itemid","3"
+"event","i gave in to <a href=""http://www.livejournal.com/userinfo.bml?user=wwjd_dingo""><img height=""17"" border=""0"" src=""http://www.livejournal.com/img/userinfo.gif"" alt=""wwjd_dingo"" align=""absmiddle"" width=""17""></a><b><a href=""http://www.livejournal.com/users/wwjd_dingo/"">her</a></b>.  temporarily.  you can click the image to go to the creator's journal.
+
+
+<a href=""http://www.livejournal.com/users/queenallie03/""><img src=""http://userpic.livejournal.com/9495026/1671771"" alt=""queenallie03 - YGO - Bakura Torn""></a>
+bakura - ""torn between light and dark""
+(<a href=""http://www.livejournal.com/userinfo.bml?user=semiblonde""><img height=""17"" border=""0"" src=""http://www.livejournal.com/img/userinfo.gif"" alt=""semiblonde"" align=""absmiddle"" width=""17""></a><b><a href=""http://www.livejournal.com/users/semiblonde/"">cat</a></b> suggested bakura)
+
+
+<a href=""http://www.livejournal.com/users/astrai_icons/""><img src=""http://userpic.livejournal.com/9494737/1671771"" alt=""astrai_icons - KH - Fear Sora""></a>
+sora - ""your fear is keeping you from me once more""
+
+
+<a href=""http://www.livejournal.com/users/astrai_icons/""><img src= ""http://userpic.livejournal.com/9494726/1671771"" alt=""astrai_icons - KH - Blame Riku""></a>
+riku - ""go ahead and blame me when it all falls down""
+
+
+but if anyone has icons that would better fit me, <i>please</i> <a href=""http://www.livejournal.com/users/kyle_the_great/823.html?mode=reply"">let me know</a>."
+"eventtime","2003-12-25 14:17:00"
+"url","http://kyle-the-great.livejournal.com/823.html"
+"userid","8384"
+"itemid","2"
+"event","james tells me i need an icon.  i don't really care, but she won't leave me alone about it.  i'm taking suggestions -- what shouldbe icon be.  think about it, then let me know."
+"eventtime","2003-12-24 16:13:00"
+"url","http://kyle-the-great.livejournal.com/560.html"
+"userid","8384"
+"itemid","1"
+"event","after much pressure from <a href=""http://www.livejournal.com/userinfo.bml?user=WWJD_Dingo""><img height=""17"" border=""0"" src=""http://www.livejournal.com/img/userinfo.gif"" alt=""WWJD_Dingo"" align=""absmiddle"" width=""17""></a><b><a href=""http://www.livejournal.com/users/WWJD_Dingo/"">james</a></b>, i finally gave in -- i obviously now have a LJ acccount.  it is not likely that i will update much, but nevertheless, it exists.
+
+i'm happy for james.  she got her large christmas wish this year -- a boyfriend.  sure, she sounds fairly pathetic, but she's not.  i keep telling her this, but she won't listen to me.  she's in a great mood today, however.  i'm glad.  i like it when she's happy, because then i don't have to try to make her happy.  she's jsut like that naturally  and so i send my thanks out to <a href=""http://www.livejournal.com/userinfo.bml?user=medieval_man""><img height=""17"" border=""0"" src=""http://www.livejournal.com/img/userinfo.gif"" alt=""medieval_man"" align=""absmiddle"" width=""17""></a><b><a href=""http://www.livejournal.com/users/medieval_man/"">john</a></b> who fulfilled her wish.
+
+i also send thanks to <a href=""http://www.livejournal.com/userinfo.bml?user=freespiritsmind""><img height=""17"" border=""0"" src=""http://www.livejournal.com/img/userinfo.gif"" alt=""freespiritsmind"" align=""absmiddle"" width=""17""></a><b><a href=""http://www.livejournal.com/users/freespiritsmind/"">geoffrey</a></b> and especially <a href=""http://www.livejournal.com/userinfo.bml?user=semiblonde""><img height=""17"" border=""0"" src=""http://www.livejournal.com/img/userinfo.gif"" alt=""semiblonde"" align=""absmiddle"" width=""17""></a><b><a href=""http://www.livejournal.com/users/semiblonde/"">catherine</a></b>.  james is strong, so it's unlikely she'll admit how much you mean to her.  but being inside her head, i know the truth.  geoffrey, you are always capable of bringing a smile to her face.  and i know you don't like me, but i don't care.  your important to james, so i can deal with you..  and cat, you mean the world to her.  since she's lost that special connection with her brother, she has had no one very close to her.  but you've filled that gap.  you're somewhat like the sister she never had.  so promise me that you'll take care of her.
+
+and to leah -- i never liked you; but now i can't stand you.
+
+james is harassing me.  she wants her computer back.
+
+here's to my first post of (hopefully) many -- cheers!"
+"eventtime","2003-12-24 15:43:00"
+"url","http://kyle-the-great.livejournal.com/501.html"
+"userid","8384"

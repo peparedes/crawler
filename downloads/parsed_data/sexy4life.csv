@@ -1,0 +1,364 @@
+"names","values"
+"itemid","27"
+"event","aGV5IGd1eXMgd2VsbCBpbSBzb3JyeSB0byBpbmZvcm0geW91IGJ1dC4uLiBubyBtb3JlIGxpdmUgam91cm5hbCBmb3IgbWUtc29ycnktaXQgY2F1c2VzIHdheSB0b28gbXVjaCBkcmFtYSBpbiBteSBsaWZlLi4uQnV0IEknbGwgc3RpbGwga2VlcCBnb2luZyBvbiBhbmQgcmVhZGluZyBhbGwgb2YgeW91cnMgb2shIEkgTE9WRSBZT1UgR1VZUzogTmFuY3ksIExlaW9odSwgTC5QLCBHb3JkeSwgU2FtLi4uYW5kIGVjdC4uLmkgZ290IHRvIGludm9sdmVkIGluIHRoaXMgdGhpbmcgYW5kIGkgcmVhZCB0aGluZ3MgaSBkb250IGZlZWwgY29tZm9ydGFibGUgcmVhZGluZy4gVGhlbiBwZW9wbGUgcmVhZCBtaW5lIHdobyByZWFsbHkgc2hvdWxkbid0Li4uIGkgZ290IGNhdWdodCB1cCBpbiB3aGF0IGV2ZXJ5b25lIGVsc2UgdGhvdWdodCBvZiBtZSB0aGF0IGkgZm9yZ290IHdobyB0aGUgcmVhbCBtZSB3YXMuIFRoZSByZWFsIG1lIGlzIGFsbCBhYm91dCBoYXZpbmcgZnVuIGFuZCBsYXVnaGluZy4uLiBhY3Rpbmcgc3R1cGlkLW5vdCBjYXJpbmcgd2hhdCBwZW9wbGUgdGhvdWdodCBhYm91dCBtZS4gdGhlIHBlb3BsZSB3aG8gZG9uJ3QganVkZ2UgbWUgb24gaG93ICJjb29sIiBpIGFtIG9yICJzdHlsaXNoIiBpIGFtIG9yIGV2ZW4gaG93IG11Y2ggbW9uZXkgaSBoYXZlLi4uIHRob3NlIGFyZSB5b3VyIHRydWUgZnJpZW5kcyEhIEkgbG92ZSBhbGwgb2YgbXkgZnJpZW5kcy4uLiBlc3NwZWNpYWxseSB0aGUgb25lJ3MgaSBsaXN0ZWQgYWJvdmUuLi4gWW91IGd1eXMgYXJlIHJlYWwuLi4geW91IGFsbCBtZWFuIGEgbG90IHRvIG1lISANCg0KeG94b3hveG94b3hveG94b3hveG94b3h4b3hveG94eG94b3hveGkgbG92ZSB5b3UgYWxseG94b3hveG94b3h4b3hveG94b3h4b3hveG94b3hveG94DQoNCnRoaXMgaXMgdGhlIGVuZC1uZXZlciA0Z2V0IG1lPDM8MzwzIC1FTSBMTEFDLSBZSFRST1cgUlVPWSBGSQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChSRUFEIElUIEJBQ0tXQVJEUykgSEFIQQ0KDQpMb3ZlIGxpZmUuLi4gaXQncyB0b28gc2hvcnQgc28gbGl2ZSBpdCBsb25nISBraXNzZXMgJiBodWdzICYga2lzc2VzICYgaHVncyBtdWFoIG11YWggbXVhaCBtdWFoISBoYWhhDQoNCi1NaWNoZWxlDQpwLnMgaSdsbCBsZWF2ZSB0aGlzIHVwIGZvciAyNCBob3VycyB0byBnaXZlIHlvdSBndXlzIGEgY2hhbmNlIHRvIGNvbW1lbnQ6Og0KDQouLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uICAgDQooVGhpcyBzb25nIHJlbWluZHMgbWUgb2YgeW91LDwzKQ0KKHlvdSBrbm93IHdobyB5b3UgYXJlLDwzKSANCg0KIkZhbGxpbiciIEEuIEtleXMgDQogDQpJIGtlZXAgb24gZmFsbGlu4oCZDQpJbiBhbmQgb3V0IG9mIGxvdmUgDQpXaXRoIHlvdQ0KU29tZXRpbWVzIEkgbG92ZSB5YQ0KU29tZXRpbWVzIHUgbWFrZSBtZSBibHVlDQpTb21ldGltZXMgSSBmZWVsIGdvb2QNCkF0IHRpbWVzIEkgZmVlbCB1c2VkDQpMb3ZpbiB5b3UgZGFybGlu4oCZDQpNYWtlcyBtZSBzbyBjb25mdXNlZA0KICANCkkga2VlcCBvbiANCkZhbGxpbuKAmQ0KSW4gYW5kIG91dCBvZiBsb3ZlIHdpdGggeW91DQpJIG5ldmVyIGxvdmVkIHNvbWVvbmUNClRoZSB3YXkgdGhhdCBJJ20gbG92aW4nIHlvdQ0KICANCk9oLCBvaCAsIEkgbmV2ZXIgZmVsdCB0aGlzIHdheQ0KSG93IGRvIHlvdSBnaXZlIG1lIHNvIG11Y2ggcGxlYXN1cmUNCkFuZCBjYXVzZSBtZSBzbyBtdWNoIHBhaW4NCkp1c3Qgd2hlbiBJIHRoaW5rDQpJJ3ZlIHRha2VuIG1vcmUgdGhhbiB3b3VsZCBhIGZvb2wNCkkgc3RhcnQgZmFsbGlu4oCZIGJhY2sgaW4gbG92ZSB3aXRoIHlvdQ0KICANCkkga2VlcCBvbiANCkZhbGxpbuKAmQ0KSW4gYW5kIG91dCBvZiBsb3ZlIHdpdGggeW91DQpJIG5ldmVyIGxvdmVkIHNvbWVvbmUNClRoZSB3YXkgdGhhdCBJJ20gbG92aW4nIHlvdQ0KLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4="
+"eventtime","2004-05-26 14:45:00"
+"current_moodid","6"
+"url","http://sexy4life.livejournal.com/7114.html"
+"userid","13569"
+"itemid","26"
+"event","Today I woke up really late and so did my mom- so i didn't go to school until 2nd period at 9:35am I came into class and Nancy and I sit next to eachother and she was laughing at me cuz i alwayz come late... haha... We talked about Omar this weekend. He's super super nice. My family really likes him. He's really talkative kinda like my friend Gordy- well at least thats what my mom thinks-he's cute and really sweet- plus- BONUS***He's A Laker Fan!!*** We sat in my room for like an hour 1/2 watching the laker game and laughing and talking about life and things we've been through and things we're going through now. He's beginning to be one of my best friends. It's kinda nice to have a guy you feel comfortable talking about that kinda stuff with. He's a good listener, I like that... I'm not sure to think of him as a really good friend-or to like him... I'm kinda confused but hey!! That's what life is - one big confusing game...haha but i love it! It's fun! Although at times it's hard. The laughter of it all in the end is totally worth it! Don't you think? 
+
+P.S- i am totally obsessed with this song ""Just be a man about it"" by Toni Braxton- it helps me through a lot of pain that i've been hiding inside the past few weeks.- here are the lyrics: maybe some of you can relate...
+------------------------------------------
+Why are you calling me on the phone
+Why you not at home on time
+You say you're staying over at your friends
+'Cuz you got a lot on your mind
+Now you're swearing up and down that it ain't me
+Still you say that things have changed
+So tell me what exactly does it mean
+When you say you need your space
+
+Just don't make no excuses, no no
+Why you gotta lie to me
+Just be a man about it
+Baby, you don't gotta lie to me, no
+Just be a man about it
+If you wanna leave go on
+Just be a man about it
+Come and grab your things and go on
+Right now
+Just be a man about it
+
+I Mean, you gotta understand I love
+You, you know what I'm saying
+And I love you enough to say that I
+Think,
+I think you deserve somebody better
+Thanme, you know
+And Right now, I can't give you what
+You need, you know
+
+****""I mean, I wanna love you, and I'm gonna
+Love you, one day but, you know
+I mean, you just gotta understand
+Where I'm coming from""****
+
+You say right now that you're not
+What I'm looking for
+And what you really need is time to grow
+You're promising that one day you may
+Come around
+And I'm supposed to let that go
+But where the hell do you get off
+Telling me your mama said
+I'm not what you need
+Tell you what, since she knows it all
+Then that's where you need to be
+
+Just don't make no excuses, no no
+Why you gotta lie to me
+Just be a man about it
+Baby, you ain't gotta lie to me, no
+Just be a man about it
+If you wanna leave go on
+Just be a man about it
+Come and grab your things and go on
+Right now
+Just be a man about it
+
+Can you tell me how you can
+Say you're love and then
+Treat me so bad
+Boy, you know it just ain't right
+I cannot believe the way you handled things
+You wouldn't lie, if you were a man
+
+Just don't make no excuses, no no
+Why you gotta lie to me
+Just be a man about it
+Baby, you ain't gotta lie to me, no
+Just be a man about it
+If you wanna leave go on
+Just be a man about it
+Come and grab your things and go on
+Right now
+Just be a man about it"
+"eventtime","2004-05-24 21:37:00"
+"current_moodid","6"
+"url","http://sexy4life.livejournal.com/6736.html"
+"userid","13569"
+"itemid","25"
+"event","Today was AWSOME!!! I woke up early with a phone call from Omar sayin good-morning...Then i went horseback riding in the mountains with my dad- the scenery was beautiful... It was a lot of fun- then i came home and my dad and step-mom Margie said they had an early birthday present for me. I was like, ok? what is it- they said i had to play the hot &amp; cold game. haha so i did and i found it! THIS WAS THE BEST PRESENT <FONT color=#ff0000>EVER</FONT>!!!!! It was 2 tickets to the Isley Brothers concert. I was almost in tears. ok so those of you who dont know. Every year on our birthdays, Nancy and I go to a concert together. Her Birthday is on November 12 and mine is on June 14. Last year on her birthday 11-11-03 we went to the Jahiem-Jagged Edge-Genuine-Jon B concert at the Universal Ampatheater(i dont know how to spell) So this year for my birthday we really wanted to go to the Isley Brother concert. But the isley brothers were only playing in Chicago- then we heard on 92.3 Hot Jams that they were playing at the Greek Theater with Keith Sweat!! And WE'RE GOING!!! On Friday June 11th Yes! oh yeah, uh huh, oh yeah, uh huh shake your booty--do a dance oh yeah, uh huh- lololol- haha&nbsp;So i called nancy and i have never heard anyone scream so loud in my life! this is going to be great!! I LOVE MY DADDY AND STEP MOMMY! uh i am so exited! Yes, you know your Jealous!! haha j/k"
+"eventtime","2004-05-23 15:52:00"
+"current_moodid","4"
+"url","http://sexy4life.livejournal.com/6428.html"
+"userid","13569"
+"itemid","24"
+"event","Ok well today i got to my daddy's around 12:20pm... We hung out for awhile then i went back to sleep... lol... i love sleeping! Then we all went down to luch at the new cafe that opened down the street and the owner there said i should fill out a job aplication- so i did- then i came home and called my friend Omar. He's really cool! I love hanging out with this dude- he's hella funny!! So Omar, his cousin and I were suppose to chill tonight. They were gonna pick me up from my dad's house- but we decided that tomorrow is better cause i'm gonna be in the Valley then anyways. So i decided I'd make it a family night with my dad, step-mom, and I... That we'd all go see Shrek 2-We heard it was crazy hilarious so were going to see that at 10:00pm. so i guess i have to leave soon cause it's 9:20 right now... so until tomorrow! Have fun with life!! It's too short so live it long!!!
+
+Missy...
+im outro"
+"eventtime","2004-05-22 21:10:00"
+"current_moodid","18"
+"url","http://sexy4life.livejournal.com/6187.html"
+"userid","13569"
+"itemid","22"
+"event","Hey guys... well yesterday i went home after school changed and headed to the mall with michelina ""Miki"" and she got her make up done and i went and got my nails touched up cause i had broken 2 of them so i got them fixed. Then on my way up the escalader, these 3 guys tried to flirt with my and ask for my # but i was like i barely even know you- then they said some stuff like ""you wanna get to know me"" i'm like... ""NO"" haha i was in a rush to get back to Sheshido in Macy's so i just left and met back up with Miki. I stopped by to say hello to my friend Rasheid. He's really cool - he works at a cart in the mall- but anyway, it was already like 5:40 and the party started at 6 so we left and went to get some ice then back to miki's house. Mark and his friends were already there so i walked in the door and everyone started hugging me and kissing me- i knew all of them from Valencia high cause i went to mark's winter formal! But anyways to get to the point the party was really really good! a lot of dancing and laughing! thats what life is all about having fun! i also met a really cute guy! haha-  ok guys im heading to my dad's so i'll update more later!!! I love you Miki and Mark!!!! Thanks for the ""dippin"" hahaha inside joke!
+
+-Michele"
+"eventtime","2004-05-22 11:17:00"
+"current_moodid","99"
+"url","http://sexy4life.livejournal.com/5870.html"
+"userid","13569"
+"itemid","21"
+"event","Today was alright, nothing special. I had a huge Science test today that Nancy and I were up until 2:00 in the morning studying for!! Michelina and Mark's party is tomorrow. Some combined birthday thingy... it's cool though- i luv em` both! Ricky wasn't at school today so obviously there was no drama!! the class felt bad about the whole incodent between Ricky and I and they all put together the money and paid me back. That was really sweet of all of them so I decided with the consent of my teacher that I would buy them pizza on Friday with that money. So we can all be happy! ok so EVERYONE NEEDS TO BE HAPPY!!!! goodnight to all and to all a goon night! haha i love my wierd little self! haha
+u know u love me too...
+Comment you crazy people!!!
+Michele"
+"eventtime","2004-05-20 09:22:00"
+"current_moodid","106"
+"url","http://sexy4life.livejournal.com/5551.html"
+"userid","13569"
+"itemid","20"
+"event","Today I had a life changing experience... What others think of you really shouldn't matter... Who cares. I got into a huge fight with this guy today in class named Ricky. I'm not going to get into it. But he said something offensive to me and lets just say i didn't take it to well and walked out of the classroom. My dad ended up coming and we had a meeting with my principal... we had a good talk. I said i hated him, then i realized- i dont hate anyone- in the bible it says you cannot hate anyone and love God. Because how can you hate someone you've seen yet love someone you've never seen... so i corrected myself and said i just really really dont like this character. He was being a total ass. And i realized that writing personal things on my live journal doesnt help anything in my life... I should really be more careful what i put on this thing because i dont want people getting the wrong impression of me... So what i did- is i went through every single one on my live journal entries... and i edited them to say what i think i wouldn't mind my parents to see if they were to read them... even if they dont... still it makes me feel better about myself. ok well i have a really really big test tomorrow and i really need to go study because in the end it's all worth it! I love my life... all my friends and family- u all mean the world to me! Sometimes people take things for granted... People need to learn to appriciate life as what it is and what God has in store for you...
+
+Always with all my love, 
+Michele"
+"eventtime","2004-05-19 21:21:00"
+"current_moodid","90"
+"url","http://sexy4life.livejournal.com/5150.html"
+"userid","13569"
+"itemid","19"
+"event","Hey ya'll... i'm jealous of miss nancy- she got her belly pierced yesterday! I WANT ONE! haha so anyways, today i completely told of this morgan chick! she is seriously starting to get on my nerves! She was talking crap about my girl Michelina and i totally backed it all up- god there is only 2 weeks left of school... cant just everyone just get along?? But anyway... she doesnt sit with us no more... thank god- So anyways... I go see the O.C shooting next month!!! and im taking my friend emily!!! YEAHHH
+besids the morgan drama- today was wonderful!!! I love my friends
+
+-Michele"
+"eventtime","2004-05-18 20:57:00"
+"current_moodid","72"
+"url","http://sexy4life.livejournal.com/5107.html"
+"userid","13569"
+"itemid","18"
+"event","Last night was wonderful!!! We were bored all day... we were suppose to go to some party in pasadena but we decided thats too far... then we wanted to go to one in ventura and tampa but my mom was being gay and said she didnt trust me so i just went out to chill with our friend Emad-some guy that Nancy likes... so he picked us up and we were with him for a while then we met up with L.P and Gordy after they dropped Sam off...I hadn't seen them since last weekend so i missed them A LOT!! I had seen Sam and Gordy Friday night but L.P wasn't there- i saw him last night though- those guys are really  cool...they're encouraging nancy and i to do better in school--so anyways, besides my day, I had an awsome night- then today, so far it's really chill- Nancy and i are going to rent movies and order take out then invite some friends over- my momma and step papa...said we could..so ya, thats what were doing- lol if i know u and u wanna chill today- call me up- if i dont answer its cause i have no reception so leave a message and I'll call you from my house line! 
+I Love all my friends!!: L.P, Gordy, Sam, Richard, JB, Emad & of course most of all Me & Nancy!!! You gotta love us!
+
+kisses!
+Michele
+*****Comment u skanks*****haha j/k- but ya... comment I <3 U"
+"eventtime","2004-05-16 14:04:00"
+"current_moodid","29"
+"url","http://sexy4life.livejournal.com/4610.html"
+"userid","13569"
+"itemid","17"
+"event","Damn im freakin bored right now... ok thats all 4 now- haha i know this entry was random but i have nothing better to do... haha
+
+I love you guys-
+Michele"
+"eventtime","2004-05-15 15:22:00"
+"current_moodid","5"
+"url","http://sexy4life.livejournal.com/4455.html"
+"userid","13569"
+"itemid","16"
+"event","Ok so today... Nancy got another detention- for freakin not leaving the lunch room on time... I swear my school is so gay!! Ok so after school I went on a scavenger hunt (lol) for my friends birthday- So i went to seriously 7 different stores to get things for his birthday...Then i had to go to a play cause im in drama- it went from 5-6:30 then nancy and i went to the mall and got our nails done and we saw nancy's friends there... one of them told me they liked me- lol- he barely knoes me but hey- he's funny so its all good. ok well my friends are over right now so - until later!!!!!! I luv all ya-
+
+Pray 4 me-- im going through some stress right now...
+
+-Michele"
+"eventtime","2004-05-14 22:20:00"
+"current_moodid","6"
+"url","http://sexy4life.livejournal.com/4174.html"
+"userid","13569"
+"itemid","15"
+"event","~""Sometimes I remember
+When we were together
+Everything was perfect
+In each and every way
+You loved me forever, and more each day
+I should have known 
+It was too good to be true
+I held my head high
+And tried and tried, to say goodbye
+I thought about our memories
+And all the good times
+The times I had you So tight in my arms
+And knew that it was true
+That I'd love you forever and that's what I'll do~ 
+
+Thats one hott poem. my girl Monica had on her profile... u know you love it!! 
+
+So my friend Kristin left school today to do her sitcom Zoe101- she said she wouldnt 4 get me when she gets famous!! I'll miss her so much!! She'll be back in october though!-- Her boyfriend was hella sad today. They are the perfect couple! He treats her like his queen!!!
+
+So anyways... i have a family dinner to go to tonight... so Nancy and i have to go get all looking perfect- sorry this is so short... u wanna talk to me call me later... if you know my #
+
+I love my life! Everything is going perfect! I'm getting along with everyone around me - i love it!!
+
+Kisses xoxox
+
+Missy-- 
+comment u skanks!!!"
+"eventtime","2004-05-13 17:19:00"
+"current_moodid","117"
+"url","http://sexy4life.livejournal.com/3949.html"
+"userid","13569"
+"itemid","14"
+"event","HaHa. Nancy has detention today until 4:00- Then I have to babysit the cutest 2 little boys in the entire world named Noah(2years old) and Jonah(11 months old) I love them to death as if they were my own kids!! I have to be there from 5-7... Today she said i could take Nancy cause i dont want to just leave her at my house. So nancy gets to see them. This might sound wierd cause most girls want to have a girl when there older... I want a boy. There really adorable and just easier to handle. Plus the daddy has to pay for the girls weddings haha- j/k-money is no issue. When i'm older and ghet married and all that good stuff. I'm gonna be independant. I dont want to be depending on anyone else i'll have my own job and support myself and my family. I thing my husband should of course to the same. So it's all good. Anyways- Today is L.P's birthday!! Happy Birthday boy! Today's your day!! Whatever you want i pray you shall get! 
+Everyone Everyone!! My birthday is next month... JUNE 14th!!!! Remember that- haha! Life is Great- Everyone should be smiling!! ""Turn that frown Upside down""!! haha I love all my family and friends. i just want to let all of you guys no that i appreciate all of you!!! 
+Nancy, Emily, L.P, Gordy, Richard, Sam, JB, Amber, Cassie, Michelina, Elizabeth, Raymond, Jon Jon, Leiohu, Christian, Rashied, Caryn L., Steve F, Vanessa, Isaac, David M, Nicole ect... And of course my family:
+brother- Jameson
+brother- Frazier
+brother- Ryan
+sister- Tiffany
+God sister- Mckenna
+My mazah & My fazah haha I LOVE ALL OF YOU!! HUGZ AND KISSES!!!XOXOXOXOXOXOXOXXOXOXOXOXOXOXOXOXOXOXOX
+
+2 CORINTHIANS 5:7
+Walk by faith not by sight
+
+Always,
+Michele"
+"eventtime","2004-05-12 15:02:00"
+"current_moodid","52"
+"url","http://sexy4life.livejournal.com/3716.html"
+"userid","13569"
+"itemid","13"
+"event","So today of course... Got into trouble with Nancy... We need to have ""Parent teacher/principal"" meetings lol... Lets not get into that situation. No Worries We are ""Hillcrest Most Wanted"" (thats a bad thing) anyways haha so yea. Mr. Sammie Sizzle is back in town- We love him... doesnt everyone? He's cool we missed him. He finally got his booty down here from freakin John Hopkins University that smart boy... haha So Nancy's back!!!Holla... as Leiohu says it...Aaahhhoollaaa~! Ok peoples. Had a fun little therapy meeting today. Very enlightning. Nancy went in with me for part of the time. She wants to be a psychologist too. So she was Observing the miracle workers... lol ok folks, thats all the time i have for today. Until Tomorrow! AhhHolla... HEHE I love you ALL
+
+Kisses are Sweeter than Wine!!!(song by my grandfazah)
+Michele"
+"eventtime","2004-05-11 17:46:00"
+"current_moodid","36"
+"url","http://sexy4life.livejournal.com/3481.html"
+"userid","13569"
+"itemid","12"
+"event","Rmlyc3Qgb2ZmLi4uIEdvdCB0byBzY2hvb2wgYW5kIE5hbmN5IGRpZG50IHBhY2sgaGVyIGJhZ3MgZm9yIG15IGhvdXNlIHNvIHNoZSdzIGNvbWluZyB0b21vcnJvdy4gU2hlIHByYWN0aWNhbGx5IGxpdmVzIHdpdGggbWUuIE1vcmdhbiBjYW1lIGJhY2sgZnJvbSBIYXdpaSB0b2RheSBhbmQgbWV0IDMgZGlmZmVyZW50IGd1eXMuIE9uZSBpcyBhIE1hcmluZSBhbm90aGVyIGlzIGEgV2FpdG9yIGFuZCBhbm90aGVyIGlzIGEgcm9ja3N0YXIuIFNvIHRoZXJlIHlvdSBoYXZlIGl0Li4uIEluIGEgbnV0c2hlbGwtIE1vcmdhbiwgaG1tbS4uLiB3aGF0IGNhbiBpIHNheSBhYm91dCBtaXNzIG1vcmdhbi4gV2VsbCBzaGUncyBkZWZpbmF0bHkgbm90IGEgdmlyZ2luLiBMZXQncyBqdXN0IHNheSBzb21lIHBlb3BsZSBjYWxsIGhlciBNb3JnYXNtLiBCdXQgc2hlIGhhcyBhIGZ1biBwZXJzb25hbGl0eS4uLiB0aGF0cyBjb29sLUhlciBiZXN0IGZyaWVuZCBpcyBFbWlseSB3aGljaCBpcyB3ZWlyZCBjYXVzZSBzaGUncyB0b3RhbGx5IHRoZSBvcHBvc2l0ZS4gRW1pbHkncyByZWFsbHkgc3dlZXQgQW5kIFdlIExPVkUgdGhlIE8uQy4uLiBzbyBkb2VzIG1vcmdhbiEgTmFuY3ksIG9uY2UgYWdhaW4tIGhlYWx0aCBvZmZpbmUgZm9yIFAuRSBpIHVzdWFsbHkgZ28gd2l0aCBoZXIgYnV0IGkgZmluYWxseSBicm91Z2h0IG15IHAuZSBjbG90aGVzIHRvZGF5IHNvIHUgYmV0dGVyIGJlbGlldmUgaSBnb3QgdGhvc2UgcG9pbnRzLiBhbmQsIHdlIHBsYXllZCB2b2xsZXliYWxsLi4uIGlmIHlvdSBkaWRudCBrbm93IGFscmVhZHkuLi4gSSBraWNrIG1ham9yIGFzcyBpbiB2b2xsZXliYWxsLigoKMOcIHNtaWxlIMOcKSkpIEFuZCBvZiBjb3Vyc2UuLi4gU3RldmUgZ290IGJhY2sgd2l0aCBNaXNzIFZhbmVzc2EhISEgSGUgYWRvcmVzIGhlci4gVGhhdHMgc28gY3V0ZS4uLiBIZSB0cmFkZWQgaW4gaGlzIFN0ZXJlbyBTcGVha2VycyBhbmQgYm91Z2h0IGhlciBhIHB1cHB5ISBOb3cgdGhhdHMgdGhlIGJlc3QgYm95ZnJpZW5kIGluIHRoZSB3b3JsZC4gSGUgdG9vayBtZSB0byB0aGUgbWFsbCBvbiBGcmkgdy8gTmFuY3kgYW5kIHdhcyByZWFsIHVwc2V0IGNhdXNlIHByb20gd2FzIGNvbWluZyB1cCBhbmQgaGUgd2FudGVkIFZhbmVzc2EuIFNvIGhlIHdyb3RlIGhlciBhIDggcGFnZSBsZXR0ZXIgdGVsbGluZyBoZXIgaG93IG11Y2ggc2hlIG1lYW50IHRvIGhpbSBhbmQgb2YgY291cnNlIHNoZSB0b29rIGhpbSBiYWNrLi4uIHRoZWlyIHRoZSBjdXRlc3QgY291cGxlISEhISEgSSB3YW50IGEgbWFuIGxpa2UgdGhhdCEgQnV0IG9mIGNvdXJzZSBrbm93aW5nIG1lLSBpJ2xsIG5ldmVyIGdldCBpdCBjYXVzZSBub3Qgb25seSBteSBwYXJlbnRzIGJ1dCBteSBicm90aGVyIHdvdWxkIERJRSBoZXkgaGF0ZXMgdGhlIGZhY3Qgb2YgbWUgYW5kIGFieSBtYWxlIHNwZWNpZXMhISBMaWtlIG15IGJlc3QgZnJpZW5kcy4uLm9uZSBiaWcgaGFwcHkgTlQgZmFtaWx5LiBUaGV5J3JlIHJlYWxseSBnb29kIHJhcHBlcnMgdG9vLiBpIHN1cHBvcnQgdGhlbSEhISBJdCdzIGhvdC4gVGhleSdyZSBnb25uYSBtYWtlIGl0ISBJIGJlbGlldmUgaW4gYWxsIG9mIHRoZW0uIFdhdGNoLSB0aGV5J2xsIGJlIGZhbW91cyBieSBlbmQgb2Ygc3VtbWVyLiAiTGVzcyB0aGFuIDMiIGNoZWNrIGl0IG91dCEgDQpTaG91dCBvdXRzIHRvIGFsbCBvZiB5b3UgZ3V5cyEgSSBsb3ZlIHlhIG11Y2hvISEhDQoNCkxvdmUgbWUgb3IgSGF0ZSBtZS4uLg0KVGFrZSBtZSBvciBsZWF2ZSBtZS4uLg0KRWl0aGVyIHdheSBhcyBsb25nIGFzIHdlJ3JlIGhhcHB5ISAoVGhhdHMgbXkgbmV3IG1vdG8pIGhhaGFoYQ0KDQpQLlMgQW55b25lIGNhbiBhc2sgbWUgYW55IDMgcXVlc3Rpb25zIGluIHRoZSB3aG9sZSB3b3JsZCBhbmQgSSdsbCBhbnN3ZXIgdGhlbSEgQW55IDMgcXVlc3Rpb25zLi4uIGFueXRoaW5nIHUgd2FubmEga25vdyBqdXN0IGFzaw0KDQpYT1hPLU1pY2hlbGU="
+"eventtime","2004-05-10 16:13:00"
+"current_moodid","11"
+"url","http://sexy4life.livejournal.com/3322.html"
+"userid","13569"
+"itemid","11"
+"event","I'm going to hang with Nancy today... again! (lol) I love that chick! I got mad at her today for no reason at all and just hung up... Big Mistake. She called me back and we talked about it. She said maybe we get on eachothers nerves sometimes cause we spend so much time together and we're so much alike... She's right. But i'm still sleeping over her house tonight so it's all good... Her parents are going to some party so we gotta find something to do or someone to chill with... or we'll just go out together... haha... that's always an adventure! Nothing really bothers me anymore- i just laugh everything off!! No more Drama... Thank God! Yesterday I went to the mall for 8 hours! Nancy and I saw a lot of our friend there. It was pretty cool. I saw my friend Nicole there watching her little niece. Then my friend Isaac called me up like where are you. I told him I was at the mall and he's like, I thought so- turn around. And there he was! I missed him i hadn't seen him in a while! So i ran up to him and gave him a big hug! He's like a big teddy bear! He's a really cool friend. I talk to him about a lot of stuff! He understands it all. He doesnt have a girlfriend. Just a lot of girl friends. He went to 5 proms this year. All these girls ask him to go with them cause he's like, everyones best friend. But anyways, off that subject. Life is Wonderful! Just great! Today was a beautiful day. I went swimming with my wonderful daddy and laid out by the pool for which felt like an eternity and it was awsome! haha i did the stupidist thing in the world today! Well, me and my dad are planting a vegetable garden in out back yard. So we bought yellow peppers, read peppers and green chili peppers and took the seeds out of them, seperated them and put them in baggies. i wipped my hand on a towel afterward but i didn't wash my hands. 30 seconds later i rub my eye!!!! I felt like i was going to DIE! my whole right side of my face was on FIRE goodness i might as well had 3rd degree burns. I was crying so much and the more water the more burning! i ran to the sink and stuck my face under the faucet it was hilarious my dad was laughing at me! hahaha just writing this makes me laugh. I feel like such a loser. LOL it was funny though! xoxox much love! Oh and Nancy... PTLP 4 life!! Michele"
+"eventtime","2004-05-08 16:46:00"
+"current_moodid","106"
+"url","http://sexy4life.livejournal.com/2826.html"
+"userid","13569"
+"itemid","10"
+"event","Aww Man! Lakers lost last night that sucks! And to the freakin Spurs! And whats with the new white boy on the Lakers... I dont like him... what the hell he missed both free throw shots. (lol) Where's the skill in that? j/k but anyway. Lakers better kick some butt tonight or i'm gonna be pissed! I got a bet going with the hottie Chris! He doesn't like the Lakers cause their too good. (lol) i'm not sure if that even makes sense to me yet but Chris is still fine! 
+
+haha... Today was mad crazy. My girl Amelia got bitch slapped by this nerdy Lord of the Rings fanatic. I can understand if you like it. But this chick is obsessed! Anyway, Amelia doesn't like this chick Danielle and we were all talking about her, right. Then this Megan character comes up to Amelia after school and is all up in her face and we all started to laugh cause it was crazy funny. Then all of the sudden Megan flat out slaps Amelia in the face. We were all in shock! Like, what the hell was that? Amelia was like Whoh there buddy step back a sec. She didn't say that but you can tell by the look on her face! Then Megan just walked away. Nancy, Emily & I were like DAAAMMNNN!! We walked up to Amelia and she's like OH HELL NO! We all started laughing. Like, the whole thing happened way too fast. I went to my car and Amelia, Kristin and Nancy went to Amelia's car cause they carpool and the whole thing just kinda stopped their. But you bet there is going to be hella lot of conflict tomorrow at school. If Amelia gets hit again she better freakin hit her back! Shoot if she doesn't I will. Someone gotta set this freak strait... you can't just go aroud slappin people. then this chick is trying to tell people... no i didn't hit her. She's trying to protect her rep. at the school. SHE LIES OUT OF HER ASS!!! 
+
+For some reason... lately- I'm always happy. It's like I have no more drama! It's great! Tomorrow I get out of school at 12:00... MALL TIME W/NANCY! awww yea-
+
+haha- later
+Missy"
+"eventtime","2004-05-06 16:41:00"
+"current_moodid","125"
+"url","http://sexy4life.livejournal.com/2639.html"
+"userid","13569"
+"itemid","9"
+"event","Hello dears! haha. Today was awsome. Exept for getting to School late.
+I hate walking in and then the whole freakin class stares at you! O well... In science today Mrs. Noethans gave the class a free seating chart. It was cool cause of course Nancy and I sat together. We had a ""Hillcrest On Fire"" drill today. I love those cause i always laugh... They swear like we're gonna stand in line waiting for our names to be called while we watch our school burn(lol) hell no... I'd be across the street taking pictures and selling t-shirts and mugs...(lol) good memories-haha Lunch was ok... i barely ate anything cause i'm saving up for LP's b-day... it's next wed and i promised i'd take him shopping that friday-but anyways... Nancy had to make up a test after school and got caught with a cheat sheet... Damn thats the last thing she needs right now- She's $60 over her cell phone bill, she just got a detention yesterday for non stop talking in class. And her & I put together are Hillcrest's most wanted... Thats what they call us when we walk into a room- it's pretty funny though we dont mind... Usually i'm the trouble maker but i've been good lately. My last detention was for a tardy... But the time before that- ok lets not get to carried away. My point is. She's in big trouble! 
+
+SEXY FOR LIFE!
+ Missy"
+"eventtime","2004-05-04 18:29:00"
+"current_moodid","11"
+"url","http://sexy4life.livejournal.com/2507.html"
+"userid","13569"
+"itemid","8"
+"event","Hey Guys, Today was pretty cool. I go back to my dad's house today so I might not be able to write everyday but I will try. I saw this guy at the mall on Sunday. He was GORGEOUS!!! He went to LAB with Nancy last year... his name was Alan- Nancy told me... He was so cute! He works at A&F. 
+i wrote this poem today...for my friend and her bf
+
+EVEN IF...
+Show me you can make me happy 
+I want to see a smile on your face
+Show me that you love me
+This time at a slower pace
+
+We've tried this twice before
+This time lets make it last
+Each day i love you more & more
+Let's put the bad times in our past
+
+My love for you 
+Will never die
+Even if...
+This is really goodbye
+
+Even If... 
+We never speak again
+Cause` I know in my life
+They'll be other men
+
+None like you 
+That I'm sure
+For it's only your love
+Which I wish to endure
+
+Not not much more 
+That I could say
+Just that I hope to be with you
+In the future someday...
+
+I'm going though some stress right now with my school and my friends and people who arent my friends right now...I guess all i have left is my faith in God-And that's Ok with me. Cause he's the only one who's always their for me and understands anyways
+
+P.S wow its really hott outside!!! 102 today"
+"eventtime","2004-05-03 15:40:00"
+"current_moodid","83"
+"url","http://sexy4life.livejournal.com/2093.html"
+"userid","13569"
+"itemid","7"
+"event","As of right now. I'm pretty happy where my life is standing. I had a long chat with L.P today & I saw him last night. I can't deny it... i like him kinda. And so what if we have bad times right? The happiness should overlap the good. But anyways, getting to the point-We agreed to be friends and I'm ok with that i dont have time for boys right now anyways. my school is struggling. And who knows right-we may never end up together but as long as it's a happy ending and everyone is ok with this situation. He means a lot to me-boyfriend or not- I hope we never grow apart from being friends.
+So anyway, Sexy Richard is on his way to swoop Nancy & I up cause L.P & Mr. Gordon Scott are out to lunch and we'll meet up with them later. By the way Usher is GORGEOUS! Oh wow im going to marry him-i love his body! As Nancy would say... I Looooovvveee your Sttommachhhh! (lol) And as I would say ""Come here baby i need some Loooovvvviiinn`"" (lol) Nancy and I made up our own language a few days ago... im starting to get the hang of it and memorize the words. it's crazy hilarious! Those of you who know me will hear it sometime or another! But last night was crazy fun. L.P Gordy Richard Ingred and Linda came over my house there all really cool. Ingred and Linda are foreign exchange students from Norway. There really cool i felt like i knew them for awhile...Considering i had just met them. Anyhow... Thats my uptate for the day- Until Death do us part i love you all- You all are sexy beasts! 
+Forever Young, 
+       Missy"
+"eventtime","2004-05-02 17:16:00"
+"url","http://sexy4life.livejournal.com/1804.html"
+"userid","13569"
+"itemid","6"
+"event","Nancy and I went to the mall and the movies today again! We say 13 going on 30... it was ok- I looked hella hot today. I wore a pink skirt with a white tank top and white sandals. I like how i did my make up- Damn why cant i get it like thiss all the time (lol). I got into an arguement with my friend Rashied so when i walked past the At&t cart where he works i totally ignored him while he was smiling & waving at me. (lol) but anyways, Nancy bought this totally cute outfit from Ancor Blue while I went down to Charlotte Russe... God i love that store! On my way down there i saw these two FINE ASS guys. they smiled at me so i smiled back... They asked me my name so i told them and when i asked them theirs one was named Raymond and the other was Jerry they seemed pretty cool. I asked them if they were players and they're like, no do we look like players? I'm like YES! (lol) they were laughing. But anyway they seemed really nice and really cool but it was just a high bye thing...No more male drama. just friends i hope...
+
+Until More Gossip!
+Michele
+...
+Hey guys check out my homepage:
+
+http://hometown.aol.com/missy2utoo/myhomepage/profile.html"
+"eventtime","2004-05-01 17:39:00"
+"url","http://sexy4life.livejournal.com/1613.html"
+"userid","13569"
+"itemid","5"
+"event","Well, o went to the movies and the mall with my girl Nancy and our friend Leiohu last night. We saw Mean Girl. That movie is awsome! We saw everyone and their mama there. We saw our friend Michelina ""Miki"", Cassie, Miki's ex Clay, Erika, Erika's ex ""Jorge"" (fine as hell), Chantel, Carolina, Jennifer, Elizabeth, Chris, Leila...ect... the list just goes on! I had a lot of fun!! 
+
+As for Nancy and I... We have plans to take over the world!
+ haha  thats all 4 now! i love all of ya"
+"eventtime","2004-05-01 10:11:00"
+"current_moodid","3"
+"url","http://sexy4life.livejournal.com/1383.html"
+"userid","13569"
+"itemid","4"
+"event","Today Nancy and I woke up hella late for school. Like around 7:35am. Considering we have to be there by 8:00am, this was a huge problem!(lol) But we got dressed real fast and did our makeup up in the car. So, i called Mr. Escalade Man(David) today in Drama. We had a lot of free time inbetween scenes. He's so tight. He looks like my friend kinda just with darker eyes. I guess that makes him fine as hell! But David is really really nice. He makes me laugh a lot. Nancy introduced me to him. I don't want a relationship with anyone right now. Anyways, after school Nancy and I went shopping and bought the cutest pair of pants! We're about to go to the gym and the Tanning Salon right now so until later--i love my life!!!It's all about having fun and laughing!!!
+Smile 4 Me, 
+Michele"
+"eventtime","2004-04-29 16:02:00"
+"current_moodid","64"
+"url","http://sexy4life.livejournal.com/1066.html"
+"userid","13569"
+"itemid","3"
+"event","Oh my goodness! The O.C just ended and Teresa is PREGNANT! And to top it all of she doesn't know who's the father! It's either Ryan's or Eddies. Only one more episode (tear) What am I going to do all summer without my O.C? My friend got me hooked on it.  Until tomorrow! THE O.C 4LIFE! Even if its for Dweebs! I guess that makes me a dweeb then! 
+Forever, 
+Missy"
+"eventtime","2004-04-28 21:59:00"
+"current_moodid","4"
+"url","http://sexy4life.livejournal.com/970.html"
+"userid","13569"
+"itemid","2"
+"event","Today is Wednesday! I have detention for an hour after school. All for being freakin tardy to Mr. Kendricks Bible class. Considering it's been the fifth time this semester! (lol) Today is the first day that Nancy comes to live with me...YEAH! That means NO SLEEPING until the next day at school! Today in Choir, we had free time to just sit and do nothing for the first 20 minutes and i was listening to that song ""Burn"" by Usher and for no reason i just started to cry. (lol) it's kind of funny when you think about it. I really didn't have anything to cry about. I gave up on the male species. Then i went to pick up ""Sheriff"" Nancy from her nail appointment and we went to get our pictures developed. We had a new guy at school today. OH WOW he is way hot!!! His name was Julius, they call him Jewls! He's 1/2 black 1/2 puerto rican` but as i said- I've givin up on the male species!"
+"eventtime","2004-04-28 16:56:00"
+"current_moodid","45"
+"url","http://sexy4life.livejournal.com/629.html"
+"userid","13569"
+"itemid","1"
+"event","Hey, well today Nancy slept in. It was quiet at school without her. Her and I together-the life of the party! Everyone laughs when there around us...they can't help it. We both are pretty happy people. In Drama I play a girl named Sarah in a play next Wednesday. I'm nervous but i pretty much got all my lines down. I play the main character's best friend  which is played by my friend Margret. She wrote the play. Most of the scenes are just her and i... It's called ""The Last Lie"" We have to perform it in front of our school... It's not that bad- I'll send you all a postcard when i get famous... Just Kidding- Ok until tomorrow... I love you all"
+"eventtime","2004-04-27 21:33:00"
+"url","http://sexy4life.livejournal.com/310.html"
+"userid","13569"

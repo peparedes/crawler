@@ -1,0 +1,180 @@
+"names","values"
+"itemid","16"
+"event","SSBhbSBub3cgY3ViR2V0IG9uIGxhc3QuZm0uICBTZWVtcyBwcmV0dHkgY29vbCBhZnRlciB0cnlpbmcgaXQgb3V0IGEgbGl0dGxlIGJpdC4gIE1vc3QgZXZlcnlvbmUgSSd2ZSB0cmllZCB0byBnZXQgdG8gam9pbiBkaXNsaWtlZCB0aGF0IHRoZSBzaXRlIHNob3dzIHdoYXQgeW91J3ZlIGJlZW4gbGlzdGVuaW5nIHRvLCBidXQgSSB0aGluayBpdCdzIGhlbGxhIGNvb2wuICBJZiBmb3Igc29tZSByZWFzb24geW91J3JlIG9uIHRoZSBiYWNrYnVybmVyIGxpa2UgbWUgYW5kIGhhdmVuJ3QgaGVhcmQgYWJvdXQgaXQsIG1ha2UgYW4gYWNjb3VudC4gIEl0J3MgZnVuLiBeX14NCj09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCkkndmUgYWNxdWlyZWQgc29tZSBuZXcgKHRvIG1lKSBBTUFaSU5HIGFsYnVtcy4gSWYgeWEgaGF2ZW4ndCBjaGVja2VkICdlbSBvdXQsIGF0IGxlYXN0IHNhbXBsZSAnZW0uDQoNCjxiPlRIRSBLTklGRTwvYj4tREVFUCBDVVRTDQoNCk9oIGRlYXIuICBJIGRvbid0IGV2ZW4ga25vdyB3aGVyZSB0byBiZWdpbi4gRnJvbSB0aGUgaW5mb3JtYXRpb24gSSd2ZSBmb3VuZCBzbyBmYXIsIHRoZSBkdW8ga25vd24gYXMgIlRoZSBLbmlmZSIgaXMgY3JhenkuIENoZWNrIG91dCA8YSBocmVmPSJodHRwOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL1RoZV9rbmlmZSI+dGhlaXIgV2lraXBlZGlhIGVudHJ5PC9hPiBmb3Igc29tZSBiYXNpYyBpbmZvcm1hdGlvbi4NCg0KQXMgZmFyIGFzIHRoaXMgYWxidW0gZ29lczogaXQgc291bmRzIGV4cGVyaW1lbnRhbCBsaWtlIHNvbWV0aGluZyBCasO2cmsgd291bGQgZG8uIFRoZSBpbmZsdWVuY2VzIEkgY2FuIHBpY2sgdXAgaW5jbHVkZSA4MCdzIHN5bnRocG9wLCBkYW5jZSwgcmVnZ2FlLCBtb2Rlcm4gc3ludGhwb3AsIGNlbHRpYyAodmVyeSBFbnlhIGF0IHBvaW50cyksIGJ1YmJsZWd1bSB0ZWNoLCBoaXAtaG9wLCBqYXp6IGFuZCBjbGFzc2ljYWwuDQoNClNpbmNlIHRoZSBzb3VuZCBpcyBwcmV0dHkgZGl2ZXJzZSwgYW5kIEkgZW5qb3kgYWxsIHRoZSB0cmFja3Mgb24gdGhlIGFsYnVtLCBpdCdzIGRpZmZpY3VsdCBmb3IgbWUgdG8gbWFrZSBzdWdnZXN0aW9ucy4gIEkgcmVjb21tZW5kIHRoZSB3aG9sZSBhbGJ1bSwgYnV0IG15IGZhdm9yaXRlcyBhcmU6DQoNCjxpPkhlYXJ0YmVhdHM8L2k+LS04MCdzIHN5bnRoZXNpemVycyBwbHVzIHdpY2tlZCwgc3R5bGlzaCBseXJpY3MsIHBsdXMga2V0dGxlIGRydW1zLiBXaGF0IG1vcmUgZG8geW91IHdhbnQ/DQo8aT5HaXJscycgTmlnaHQgT3V0PC9pPi0tR3JlYXQgYXRtb3NwaGVyZSwgbmljZSBjb250cmFzdCBiZXR3ZWVuIHRoZSB2ZXJzZXMgYW5kIGNob3J1cywgYW5kIG9uY2UgdGhlIFJFQUwgYmFzcyBraWNrcyBpbiB5b3UgZ2V0IGFuIHVuc3RvcHBhYmxlIGdyb292ZS4NCjxpPk9uZSBmb3IgWW91PC9pPi0tRm9yY2VmdWxseSBzYWQsIGFuIGFsbW9zdCBib3VuY3ksIG1hcmNoLWxpa2UgYmVhdCBtZWV0cyBzeW1wYXRoZXRpYyBseXJpY3MgYW5kIGFuIG92ZXJ0b25lIG9mIGhvd2xpbmcgc3ludGhzLCBvbmx5IHRvIGJlIG1ldCBieSB0aGUgaGFwcGlseSBuYWdnaW5nIGNob3J1cywgdGhlbiBmYWRlcyBpbnRvIHRoZSBkaXN0YW5jZS4gIEdvbGQhDQo8aT5Sb2NrIENsYXNzaWNzPC9pPi0tSGFzIG5vdGhpbmcgdG8gZG8gd2l0aCByb2NrLCBhbmQgZXZlcnl0aGluZyB0byBkbyB3aXRoIGEgUG9ydGlzaGVhZCByZW1pbmlzY2llbnQgamF6eiBzd2luZy4gIFRoZSBseXJpY3Mgb2ZmZXIgbmljZSBmb29kIGZvciB0aG91Z2h0KGluY2x1ZGluZyB0aGUgdW5zcG9rZW4gd29yZHMgdmlhIGd1aXRhciksIGFuZCB5b3UgY2FuJ3QgaGVscCBidXQgc25hcCBhbG9uZyB3aXRoIHRoZSBsYWlkIGJhY2sgYmVhdC4NCjxpPllvdSBNYWtlIE1lIExpa2UgQ2hhcml0eTwvaT4tLUVhc2lseSBteSBmYXZvcml0ZSB0cmFjayBvbiB0aGUgYWxidW0uICBJdCBoYXMgYSBzaW1wbGUsIGRydW0tZHJpdmVuIGZsb3cgdGhhdCBob3VzZXMgdGhlIHBvZXRpYyB2ZXJzZXMuDQo8aT5CZWhpbmQgdGhlIEJ1c2hlczwvaT4tLUluIGFncmVlbWVudCB3aXRoIHRoZSB0aXRsZSwgdGhpcyBpcyBhbiBvbWlub3VzIHBpZWNlIHBsYXllZCBieSBhbiBhY3R1YWwgb3JjaGVzdHJhLCByYXRoZXIgdGhhbiBlbGVjdHJvbmljYWxseSBwcm9kdWNlZC4gIEkgY291bGQgZWFzaWx5IGhlYXIgdGhpcyBwbGF5aW5nIGluIGEgbW92aWUgdGhlYXRyZS4NCg0KPGI+VEhFIFBSRVNFVFM8L2I+LS1CRUFNUw0KDQpNeSBmaXJzdCB0aG91Z2h0cyB3ZXJlLCAiaXQncyBEYWZ0IFB1bmshIEp1c3QgbW9yZSBzaW5pc3RlciEiICBUaGlzIGFsYnVtJ3MgYSBmdW4ganVtYmxlIG9mIGRpc2NvLCBkYW5jZSwgaW5kaWUgcm9jaywgcHVuaywgc3ludGhwb3AgYW5kIG1vcmUhICBUaGUgYmFuZCdzIGRvbmUgdG9ucyBvZiB3b3JrIGFuZCBpcyBhbGxlZ2VkbHkgdmVyeSB3ZWxsIGtub3duIGluIG1ham9yIGFyZWFzIG9mIEF1c3RyYWxpYS4gIEFzIGEgbmljZSBsaXR0bGUgdGlkYml0LCBJIG1hbmFnZWQgdG8gY2F0Y2ggIkkgR28gSGFyZCwgSSBHbyBIb21lIiBvZmYgdGhpcyBDRCBwbGF5aW5nIG9uIGFuIGVwaXNvZGUgb2YgQ1NJLS10aGUgb25lIHdoZXJlIHRoZSBtYXJhdGhvbiBydW5uZXIgZ2V0cyBob3NlZCBkb3duIHdpdGggQ08yIGdhcy4gIFRoZSBzb25nIHBsYXlzIGR1cmluZyBhIGJhciBzY2VuZSBvZiBvbmUgb2YgdGhlIHNpZGUgY2FzZXMgdGhvdWdoLg0KDQpIYXRlIHRvIHNvdW5kIHJlZHVuZGFudCwgYnV0IHRoaXMgYWxidW0gaGFzIG5vdGhpbmcgYnV0IGdyZWF0IHRyYWNrcy4gIEknbSBqdXN0IGdvaW5nIHRvIGNvbW1lbnQgb24gYSBmZXcsIGJ1dCBpdCdzIHBhaW5pbmcgbWUgdG8gZG8gc28uDQo8aT5TdGVhbXdvcmtzPC9pPi0tVGhlIHN0YXRlbWVudCBvZiBhcGVzIGdydW50aW5nIGF0b3AgYSBjbGFzc2ljIGRpc2NvIGdyb292ZSBzb2xkIHRoaXMgc29uZyB3aXRoaW4gdGhlIGZpcnN0IDE1IHNlY29uZHMuDQo8aT5Eb3duIERvd24gRG93bjwvaT4tLVRoZSBjaG9ydXMgaXMgYSBtYXNzaXZlIGhvb2sgdGhhdCBnZXRzIHN0dWNrIGluIHlvdXIgaGVhZCBlYXNpbHksIGFuZCB0aGUgdHdlYWtlZCBvdXQgc3ludGggc29sbyBpcyBiYWRhc3MuDQo8aT5HaXJsIGFuZCB0aGUgU2VhPC9pPi0tUGF5IGNsb3NlIGF0dGVudGlvbiB0byB0aGUgbHlyaWNzIGFzIHRoZSByZWxheGluZyBzb3VuZHNjYXBlIHdhc2hlcyBvdmVyIHlvdS4NCjxpPktpdHR5IGluIHRoZSBNaWRkbGU8L2k+LS1Mb3ZlIHRoZSBwcmVzZW50YXRpb24gb24gdGhpcyBvbmUuICBUaGUgZGlydHkgYmFzcyBhbmQgcmV2ZXJzZSBjeW1iYWwgaGVscCBwcm9jdXJlIGEgYmFkYXNzLCBwcm92b2NhdGl2ZSBzdG9tcCB0aGF0IEknbSBpbiBsb3ZlIHdpdGguIEkndmUgaGFkIHRvIGN1ZSB0aGlzIHNvbmcgdXAgcXVpdGUgYSBmZXcgdGltZXMgaW4gYW4gYXR0ZW1wdCB0byBnZXQgaXQgb3V0IG9mIG15IGhlYWQuDQo8aT5JIEdvIEhhcmQsIEkgR28gSG9tZTwvaT4tLUNMVUIgQU5USEVNISBBbmQgSSdtIG5vdCBhZnJhaWQgdG8gbWFrZSBzdWNoIGEgYm9sZCBzdGF0ZW1lbnQuICBDb21tb24sIGRhbmNlYWJsZSA0IHRvIHRoZSBmbG9vciBiZWF0IG1lZXRzIG9uZSBvZiB0aGUgbW9zdCBjbGljaMOpIGJhc3NsaW5lIHJoeXRobXMgZXZlciB3aGlsZSBzeW50aCBzaXJlbnMgYW5kIHRoZSB2b2NhbGlzdCdzIHZvaWNlIHN0dXR0ZXIgYWJvdmUgaXQgYWxsLiAgQW5kIHlldCwgSSBkb24ndCBjYXJlLiBTaHV0IHVwIGFuZCBkYW5jZSB3aXRoIG1lLg0KPGk+QmVhbXM8L2k+LS1IYXRlIHRvIHNheSBpdCwgYnV0IHRoaXMgZXh0cm8gc2VlbXMgYSBsaXR0bGUgZGV0YWNoZWQuICBPciBpcyBpdCBmcmVzaD8gRWl0aGVyIHdheSwgdGhlIHNvbmcgaXMgYWJzb2x1dGVseSBwaGVub21lbmFsLS1yZW1pbmRzIG1lIG9mIHRoZSBlbmQgb2YgYSBDbGludCBFYXN0d29vZCBmbGljLg0KDQo8Yj5NRUxJU1NBIEFVRiBERVIgTUFVUjwvYj4tLUFVRiBERVIgTUFVUg0KDQpJJ20gd2F5IGxhdGUgd2l0aCB0aGlzIG9uZSwgYXMgdGhlIGFsYnVtIHdhcyBvdXQgaW4gMjAwNCwgc28gSSdsbCBrZWVwIGl0IGJyaWVmLiAgSWYgeW91IGxpa2Ugb25lIHNvbmcgb24gdGhlIGFsYnVtLCB5b3UnbGwgbGlrZSB0aGUgd2hvbGUgdGhpbmcuICBJdCBoYXMgYSBjb25zaXN0ZW50LCB0cmFkZW1hcmsgc3R5bGUgb3ZlcmFsbCwgYnV0IG1hbmFnZXMgdG8ga2VlcCB5b3VyIGludGVyZXN0IHdpdGggdmFyaWV0eSBpbiBseXJpY3MsIHNvbmcgc3BlZWQsIGFuZCBhIGZldyB3ZWxjb21lIG9kZGl0aWVzIHN1Y2ggYXMgY3JlZXB5IGNoYW50aW5nIGFuZCBhIHBpYW5vIHBpZWNlLg0KDQpQUzogc2hlJ3MgZnJvbSB0aGUgU21hc2hpbmcgUHVtcGtpbnM/ICBXaGF0PyBIb3cgbXVjaCBvZiBhIGxvc2VyIGFtIEk/ID1EDQoNCjxiPkpBTUlST1FVQUk8L2I+LS1EWU5BTUlURQ0KDQpJdCdzIGEgbGl0dGxlIGVhcmx5IGZvciBkaXNjbyB0byBiZSBjb21pbmcgYmFjaywgYnV0IGVpdGhlciB3YXkgSSB0aG9yb3VnaGx5IGVuam95ZWQgdGhlIHdob2xlIENELiAgSSBjYW4ndCByZWFsbHkgcGljayB0cmFja3Mgb2ZmIHRoaXMgb25lIGVpdGhlciwgZXNwZWNpYWxseSBzaW5jZSBJIGhhdmVuJ3QgZGV2b3RlZCB0b28gbXVjaCB0aW1lIHRvIGl0LCBidXQgSSB3ZW50IGZyb20gImVoaCB0aGlzIGlzIGtpbmRhIHdlaXJkIiB0byAidGhpcyBpcyByZWFsbHkgZ29vZCIuIFdlJ2xsIHNlZSBob3cgaXQgZ29lcy4NCg0KUFJPUFMNCg0KSXMgbm90IGFuIGFsYnVtLCBqdXN0IGdpdmluZyBhIGxpdHRsZSBzaG91dCBvdXQgZm9yIFJpaGFubmEncyAiU2h1dCBVcCBhbmQgRHJpdmUiIChpbmNsdWRpbmcgV2lkZWJveSdzIHJlbWl4LCB3aGljaCBJIHBvc3NpYmx5IGxpa2UgbW9yZSB0aGFuIHRoZSBvcmlnaW5hbCksIGV1cm8gcG9wIHNlbnNhdGlvbnMgU3VnYWJhYmVzIChFYXN5LCBBYm91dCBZb3UgTm93KSBhbmQgR2lybHMgQWxvdWQgKFNleHkhLi5ObywgTm8sIE5vLCBUaGUgU2hvdyksIFJhY2hlbCBTdGV2ZW5zIChTd2VldCBEcmVhbXMgTXkgTEEgRXgsIE5lZ290aWF0ZSBXaXRoIExvdmUpLCBhbmQgTGlzYSBTY290dC1MZWUgKERvbid0IFlvdSBXYW50IE15IE5vLj8sIE1ha2UgSXQgTGFzdCBGb3JldmVyLS1hbHNvOiBXaHkgdGhlIEhFTEwgaGFzIHNoZSBnb3R0ZW4gc3VjaCBhIGJhZCByYXA/KQ0KDQo8bGotZW1iZWQgaWQ9IjEwIiAvPg0KDQpBbmQgb2YgY291cnNlLCB0aGUgb2JsaWdhdG9yeSB2aWRlby4="
+"eventtime","2007-08-24 01:26:00"
+"current_moodid","51"
+"url","http://harmonicub.livejournal.com/4113.html"
+"userid","6092"
+"itemid","15"
+"event","Today was my last day at Wal-mart! Yay!
+
+I also officially declare never to step foot in that store except for jollies. They deserve none of my business. If you'd like more info, just ask. =D
+
+=======================================================================
+<lj-embed id=""7"" />Those results are a little astounding.  I used to be INTP.  It makes sense, since I've really tried to become more social since high school.  Also, it says I'm not judgmental.  Uhhhh.  Well I guess that's true.  I judge quickly (usually effectively) but don't hold that as the honest truth.  Hmm...fun!
+
+=======================================================================
+
+Okay, so a friend from France and I are in agreement that this song is the best pop song of 2006.  I'd never heard of the band (Sugababes), but from what I've heard so far these girls are really good.  And sexy.
+<lj-embed id=""9"" />
+
+Rockin'."
+"eventtime","2007-08-08 02:18:00"
+"current_moodid","52"
+"url","http://harmonicub.livejournal.com/4046.html"
+"userid","6092"
+"itemid","14"
+"event","""...Based on the autobiographical events that shaped the life of Sparta's drummer, Tony Hajjar, 'Eme Nakia' tells his deeply personal story of how the Hajjar family fled Lebanon during a brutal civil war, and the lasting scars it inflicted upon his kin."" (From Christopher Holmes' AtomFilms channel.)
+
+<lj-embed id=""6"" /><div style=""border-top:1px solid #343f43; padding:5px 0 7px 0; text-align:center; width:426px; background:#1a3441; color:#fff; font: bold 10px verdana, sans-serif;"">SEE MORE: <a href=""http://www.atomfilms.com/films/comedy.jsp?brand=embed"" target=""_blank"" style=""color:#c1ddf2; text-decoration:none; margin:0 5px 0 12px"">Funny Videos</a> | <a href=""http://www.atomfilms.com/films/animation.jsp?brand=embed"" target=""_blank"" style=""color:#c1ddf2; text-decoration:none; margin:0 5px;"">Funny Cartoons</a> | <a href=""http://www.comedycentral.com/?brand=embed"" target=""_blank"" style=""color:#c1ddf2; text-decoration:none; margin-left:5px;"">Comedy Central</a></div>
+
+That video pretty well floored me.  And the music is phenomenal.  Time to go download music from Sparta. =D"
+"eventtime","2007-08-01 02:23:00"
+"current_moodid","101"
+"url","http://harmonicub.livejournal.com/3598.html"
+"userid","6092"
+"itemid","13"
+"event","KERvbid0IGFzayBob3cgSSBnb3QgaXQuKQ0KDQpTby4gIEkgdGhpbmsgSSdtIGdvbm5hIGJyZWFrIGRvd24gYW5kIGJ1eSBhbiBNUDMgcGxheWVyLiAgSSdtIGxlYW5pbmcgdG93YXJkIGFuIGlQb2QgVmlkZW8uICBIZXJlJ3MgdGhlIGNvbnVuZHJ1bToNCg0KSSdkIGxpa2UgYSBoaWdoLWNhcGFjaXR5IE1QMyBwbGF5ZXIsIHByZWZlcmFibHkgd2l0aG91dCBhbiBMQ0Qgc2NyZWVuIGlmIHRoYXQgbG93ZXJzIHRoZSBjb3N0IGFzIEkgZG9uJ3Qgc2VlIG15c2VsZiB1dGlsaXppbmcgcGhvdG8vdmlkZW8gcGxheWJhY2suDQoNCkknZCBsaWtlIHRvIHNwZW5kIGFzIGxpdHRsZSBtb25leSBhcyBwb3NzaWJsZS4gIEkgaGF2ZSBhIDEwJSBkaXNjb3VudCBhdCBXYWwtbWFydCBmb3IgYW5vdGhlciBjb3VwbGUgd2Vla3MuIEkgYWxzbyBoYXZlICQ3MCBpbiBnaWZ0IGNlcnRpZmljYXRlcyB0aGF0IGNhbiBiZSB1c2VkIG9uIHRoZSBwdXJjaGFzZS4gKFRoYXQnZCBtYWtlIGEgMzBHQiBpUG9kIFZpZGVvIHRvdGFsIGFib3V0ICQxNTQuKQ0KDQpXYWwtbWFydCBvbmx5IHNlbGxzIHRoZSAzMEdCIG1vZGVsLiAgSSBoYXZlIG1ldHJpYyBmdWNrdG9ucyBvZiBtdXNpYy4gKElzIGl0IGVhc3kgdG8gdGFrZSBtdXNpYyBvZmYgdGhlIGlQb2QgYW5kIHVwbG9hZCBhIG5ldyBwbGF5bGlzdD8gVGhpcyBpcyBhbiBpbXBvcnRhbnQgcXVlc3Rpb24sIGJlY2F1c2UgaWYgdGhpcyBpcyBlYXN5IGVub3VnaCwgSSBjYW4gYWx3YXlzIHNldCB1cCBzb21lIHBsYXlsaXN0cyB0byBhbHRlcm5hdGUgdGhyb3VnaC4pDQoNCkknbSBhbHNvIHdvbmRlcmluZyBpZiBhbnkgb3RoZXIgYnJhbmQgd291bGQgc3VpdCBteSBuZWVkcywgYnV0IG5vIG90aGVyIGJyYW5kcyBhcHBlYXIgdG8gd29yayB3aXRoIGlUdW5lcywgd2hpY2ggaXMgbXkgZmF2b3JpdGUgbWVkaWEgcGxheWVyIGF0IHRoZSBtb21lbnQuIChXaW5hbXAncyBraW5kYSBjbHVua3kuIFlhaG9vIHN1Y2tzLiBJIHByZXR0eSBtdWNoIGRlc3Bpc2UgV2luZG93cyBNZWRpYSBQbGF5ZXIncyBpbnRlcmZhY2UsIGFuZCBJJ20gZXZlbiBtb3JlIHBpc3NlZCBhdCBpdCBhZnRlciB0cnlpbmcgdG8gdW5wcm90ZWN0IGFuZCBpbXBvcnQgc29tZSBtdXNpYyBpbnRvIGlUdW5lcyB0aGF0IGhhZCBJIGJhY2tlZCB1cCBiZWZvcmUgSSBldmVuIGtuZXcgSSB3YXMgY29weSBwcm90ZWN0aW5nIGl0LiAgKEJ1cm5pbmcgaW5kaXZpZHVhbCBDRCdzIHRvIGEgQ0QtUlcgNTAgdGltZXMgYW5kIGltcG9ydGluZyB0aGVtIGludG8gaVR1bmVzIG5lYXJseSBoYWQgbWUgYnJlYWtpbmcgdGhpbmdzLiBBbmQgSSdtIG5vdCBhbiBhbmdyeSBwZXJzb24uKSkNCg0KU28uLi5pZiBhbnlvbmUgaGFzIGluc2lnaHQsIHJlY29tbWVuZGF0aW9ucywgY29tbWVudHMgb3IgY3JpdGljaXNtIGFib3V0IGFueSBNUDMgcGxheWVycywgcGxlYXNlIGxlbW1lIGtub3chICBUaGFua3MhDQoNCkFzIHVzdWFsLCBJIGxlYXZlIHlvdSB3aXRoIGEgbW92aWUuICBUaGlzIHNvbmcncyBnb3QgYSBwcmV0dHkgY2xpY2jDqSBpbmRpZSBzb3VuZCB0byBpdCwgYnV0IHRoZSB2aWRlbydzIHByZXR0eSBjb29sLg0KPGxqLWVtYmVkIGlkPSI1IiAvPg=="
+"eventtime","2007-07-30 19:18:00"
+"current_moodid","91"
+"url","http://harmonicub.livejournal.com/3381.html"
+"userid","6092"
+"itemid","12"
+"event","<lj-embed id=""4"" />
+
+In other news, I quit my job for myriad reasons.  Most rationally, I'm heading back to school in early September, and I want a couple weeks to prepare.  Additionally I'd already blocked off the 9th-13th for a trip to Baltimore, so the extra week in between the last week of August (the date which I'd have preferred to stop working) and my little vacation doesn't really mean much to me as far as pay and otherwise is concerned.
+
+More specifically on the ""otherwise"", I'm sick of how short staffed they schedule the store, as I'm constantly covering other departments, cashiering, and/or being recruited to unload a truck, which I don't have a huge problem with except being a sweaty mess while attempting to greet and help customers when I get back to my department.  It'd be one thing if this was a rare occasion, but I'm having to cover their poor scheduling nearly every day I work every week.  It gets old.  Moving on.
+
+As with most retail stores, the majority of the staff is female.  Additionally, we have quite a few older women working in the store.  I hate to stereotype, but it has come to my knowledge that these older women are the harbingers of doom.  Within the span of a week, they've managed to start rumors that have everyone believing the entire staff of the department I work in does nothing, including our department manager. (This is obviously not true, and in truth they're throwing stones from glass houses.) To the department's misfortune, we now have management walking by multiple times a day borderline harassing us, picking apart everything we're doing, and for what reasons?  Fallacies.
+
+If the overall vibe wasn't bad enough, I've now centered most of my work-related stress on one manager who has flat-out been an abrasive, uncooperative bitch, and is making herself a role model to other associates.  For instance, because she blew up at me in front of another associate about something I allegedly did wrong, I got to hear her same argument twice from this girl who receives lower pay, and has absolutely no right or reason to be talking in such a manner to me, and cares absolutely nothing about the company from her responses to my questions. (Not that I give two shits about the store either, but I at least save that sentiment for outside the store or the manager's office.)
+
+Tomorrow when I get in to work, I'm gonna go have a chat with the store manager, and see if I can get anything cleaned up, or even help the process at all.  I doubt it'll work with how defective the store is overall, but it's at least worth a shot, and I can feel like I did my part."
+"eventtime","2007-07-22 18:17:00"
+"current_moodid","45"
+"url","http://harmonicub.livejournal.com/3085.html"
+"userid","6092"
+"itemid","11"
+"event","Has anyone else seen this Dove commercial?
+<lj-embed id=""3"" />
+I'm literally speechless after having viewed it.
+
+And now for a little story...
+
+I lost my favorite watch about a year ago--a Fossil, one of those trendy ones with a thick leather band that actually made large watch faces look at home on my tiny, bony wrists.  Needless to say I've been wanting a new one ever since.
+
+<lj-cut text=""The new watch"">
+Wee!
+<img src=""http://farm2.static.flickr.com/1007/835063740_e21eecf083.jpg?v=0"" />
+<img src=""http://farm2.static.flickr.com/1235/835063748_6e47606d76.jpg?v=0"" />
+<img src=""http://farm2.static.flickr.com/1066/835063766_a8a58134dd.jpg?v=0"" />
+<img src=""http://farm2.static.flickr.com/1009/835063778_e9616fa648.jpg?v=0"" />
+<img src=""http://farm2.static.flickr.com/1049/835063786_d490dab9bc.jpg?v=0"" />
+
+For some reason, the reversible watch faces aren't on Fossil's website, and I can't find any information about them on the internet, so if you want to score one, the only place I can direct you toward is The Buckle--a clothing store usually found in shopping malls.
+
+By the way: thanks to <lj user=""analog_guy""> for the camera I finally got around to using, and thanks to <a href=""www.flickr.com"">flickr</a> for free image hosting!
+</lj-cut>"
+"eventtime","2007-07-16 23:32:00"
+"current_moodid","44"
+"url","http://harmonicub.livejournal.com/3062.html"
+"userid","6092"
+"itemid","10"
+"event","Work is pretty stupid. I'm getting tired of peoples' shit already, but alas, a paycheck is a paycheck, and there isn't another employment option in the area.  I'll just wait this summer out and try to find something better next time.
+
+Luckily, Sun Prairie and Devin are offering plenty of distraction and relaxation. =D  Additionally, we talked about the issues between our views on open relationships, and came to an equitable conclusion.
+
+So yeah...not a huge update, and way overdue, but there we go.  I leave you with a fun song.
+
+<lj-embed id=""2"" />"
+"eventtime","2007-06-22 20:37:00"
+"current_moodid","52"
+"url","http://harmonicub.livejournal.com/2623.html"
+"userid","6092"
+"itemid","9"
+"event","Love it.
+<lj-embed id=""1"" />"
+"eventtime","2007-06-02 01:18:00"
+"current_moodid","125"
+"url","http://harmonicub.livejournal.com/2331.html"
+"userid","6092"
+"itemid","8"
+"event","I just heard <a href=""http://youtube.com/watch?v=h_m-BjrxmgI"">Hey There Delilah</a> by the Plain White T's a few days ago, and it has floored me.  I heard the band and this song are both quite old, but this song recently achieved play on all the local pop stations, so congrats to them.  Gonna have to check out the rest of their stuff.
+
+In other news, I was there waiting when <a href=""http://www.bear411.com/rouse27"">Devin</a> got back from a 10-day jaunt to Mexico last night.  We haven't been hanging out for too long, but I definitely missed him while he was gone and I can't wait to see him again next week.
+
+One thing is really nagging at me though, partially because it's childish, and partially because of the ruin this discussion has left in its stead. 
+
+We've already talked about how things might be if we decide to go past ""hanging out"".  The only big issue encountered so far is centered around his wanting exclusivity and my wanting to -Pounce!- if I'd like to. (I must note: I'd pounce with extreme caution.)  I think both of our positions are well-supported (they seem pretty typical, so I don't feel posting exact words is necessary), so deciding based on logic is out of the question.  I also feel like the pressure is on me to grow up (though he's not forcing me), but I don't feel ready for that lifestyle change yet.  And at the same time I don't understand why this is such a big deal for me.
+
+Additionally he doesn't seem much into going to bear events, and, unless my first experience is too terrible to consider going to a second one, I intend to make it to Pride, or Convergence, or whatever makes sense fiscally and logically--to catch up with friends, shake my ass between, on, and around sexy man-beasts, meet new friends, possibly pounce a person or two, do some (window) shopping, sight seeing, and just have a blast in that surreal world where everything has turned perfect and bears and cubs solely inhabit the earth! (I'm joking.  ...maybe.)
+
+I'd appreciate some input on this.  It's not a pressing matter, and by no means am I planning on beelining into a relationship after I sort this out.  I'd just like to hear as much input as possible--comments, questions, criticism.
+
+Have at it!"
+"eventtime","2007-05-30 00:15:00"
+"current_moodid","73"
+"url","http://harmonicub.livejournal.com/2131.html"
+"userid","6092"
+"itemid","7"
+"event","Saw <a href=""http://myspace.com/datarock"">this band</a> featured on myspace and liked the description.  Checked out their music and it's alright--not exactly my style but I think a few of you guys might dig 'em."
+"eventtime","2007-05-25 15:50:00"
+"current_moodid","15"
+"url","http://harmonicub.livejournal.com/1937.html"
+"userid","6092"
+"itemid","6"
+"event","Alright.  I need your help guys.  I heard a sweet song on this ad, and I can't find any info on it.  Anyone got the goods?
+
+<a href=""http://youtube.com/watch?v=-eYDbGTfQak"">Here's the video of the commercial.</a>"
+"eventtime","2007-05-24 19:49:00"
+"current_moodid","59"
+"url","http://harmonicub.livejournal.com/1540.html"
+"userid","6092"
+"itemid","5"
+"event","So, I pretty much just finalized all the paperwork for heading to UW-Oshkosh this fall.&nbsp; Still got a lot of stuff to get ready, but I'm stoked to be getting back to work.
+
+Hoping to get back together with my old roommate from Carthage and get a band started.&nbsp; I'm finding electronic music (with my current tools) a little tedious and limited.&nbsp; It's time to concentrate on creating some groundwork to do more, rather than multitasking and spreading myself too thin.&nbsp; So, it's back to vocal lessons, lots of alone time with a pen and pad, and an active mind.&nbsp; Wish me luck!"
+"eventtime","2007-05-22 23:18:00"
+"current_moodid","99"
+"url","http://harmonicub.livejournal.com/1323.html"
+"userid","6092"
+"itemid","4"
+"event","I'm driving home from work and just down the street from the parking lot a cop pulls out ahead of me.&nbsp; Me--being the rebellious young cub I am--go a few MPH over the speed limit and eventually pass the female sheriff with no complications.&nbsp; As I was passing her, however, I realized she was driving all of 3 feet behind the SUV in front of her.&nbsp; Jerk.&nbsp; She pulls off before my turn, so I resume speeding as I normally would on this particular stretch of highway.
+
+Further down the road, I make the turn that will eventually lead me out of town.&nbsp; At the first 4-way stop, guess who's on my right!&nbsp; Yep.&nbsp; It's the Sheriff!&nbsp; She didn't stay on my right for long, however, as she blows the stop sign while I have the right of way.&nbsp; I eventually catch up to her because a different SUV was going about 22 through town.&nbsp; And, guess what!&nbsp; She's riding this guy's ass as well.&nbsp; Even outside of town in a clear passing zone, she continues to follow unnecessarily close behind this other vehicle.
+
+She eventually takes a left and leaves me to my beloved roads.&nbsp; Unfortunately I can't stop thinking about her, and the fact that I run into plenty of officers that drive like they're above the law, not just enforcing it.
+
+Anyone run into cops that act this way?
+Should I bother reporting her car number?
+
+Leave me some input. =D Thanks."
+"eventtime","2007-05-11 20:34:00"
+"current_moodid","3"
+"url","http://harmonicub.livejournal.com/1191.html"
+"userid","6092"
+"itemid","3"
+"event","If you guys have not seen <a href=""http://www.poetv.com/video.php?vid=15035"">this video</a>, watch it now.&nbsp; I cannot explain to you how amazingly awesome it is."
+"eventtime","2007-04-09 00:29:00"
+"current_moodid","35"
+"url","http://harmonicub.livejournal.com/1003.html"
+"userid","6092"
+"itemid","2"
+"event","I guess it's time for a little recap.&nbsp; 
+
+'05-06' college didn't go so hot.&nbsp; John and I went our separate ways because I didn't want a huge commitment at the time.&nbsp; Hated to break his heart but we were (and probably will be) at different levels of life at the time.&nbsp; I'll always regret it for a lot of reasons, but I still stand by my decision.
+
+After college, we ran into some money problems.&nbsp; I decided to take at least a semester off school and get some shit sorted out. In the process I ran into one of the most amazing guys I've ever met.&nbsp; After a couple months of talking, I wanted to try and close the gap, so I flew down to meet him a few times for a week at a time.&nbsp; All lights were go.
+
+Unfortunately the road led into a brick wall (at least for now).
+
+Couple months after moving in there, I turned right around and headed back.&nbsp; I'll give the full story later, maybe.&nbsp; Again I don't regret it--great memories.
+
+So.&nbsp; I have a job.&nbsp; WTF?&nbsp; And I'm planning on taking on the weight of student loans in order to get to UW Osh and finish out my Physics degree.&nbsp; I really don't like the idea of being thousands of dollars in debt, but whatever. Waiting on the OK from my mom hasn't gotten me much of anywhere. (PS: responsibility WTF?)
+
+So yeah. o_O There ya go.&nbsp; Can't say I'll have a reason to post or be able to post here often, but if you've got any questions you'd like to have explained via post, go ahead."
+"eventtime","2007-04-01 21:33:00"
+"current_moodid","90"
+"url","http://harmonicub.livejournal.com/704.html"
+"userid","6092"

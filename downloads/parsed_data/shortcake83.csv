@@ -1,0 +1,276 @@
+"names","values"
+"itemid","25"
+"event","aSBhc3N1bWUgbm9ib2R5IHJlYWRzIHRoaXMgZXhjZXB0IG1lZ2FuLCBzbyBoZXJlIGl0IGlzLCB0aGUgc3RvcnkgaSB3cm90ZSB0d28gZGF5cyBhZ28uICBjb21tZW50cyBhcmUgd2VsY29tZSwgYnV0IGlmIHlvdSdyZSBnb25uYSBzYXkgc29tZXRoaW5nIG5lZ2F0aXZlLCB0aGVuIHNheSBzb21ldGhpbmcgcG9zaXRpdmUgdG9vLg0KDQoJTG91ZCBtdXNpYyB0byBkcm93biBvdXQgZXZlcnl0aGluZyBlbHNlLiAgUGF1bCBhbmQgSSB3YWxrIGFjcm9zcyB0aGUgQnJvb2tseW4gQnJpZGdlLCBlYWNoIHdlYXJpbmcgYSBwYWlyIG9mIGhlYWRwaG9uZXMgcGx1Z2dlZCBpbnRvIHRoZSBzYW1lIENEIHBsYXllci4gIFRoZSBuZXcgTGl2aW5nIEVuZCBhbGJ1bS4gIEhlIGJ1cm5lZCBpdCBmb3IgbWUgYmVmb3JlIHdlIGxlZnQgaGlzIGhvdXNlLiBXaGVuIEkgc3RhcnRlZCBjcnlpbmcgb24gdGhlIHRyYWluIGZvciBubyBhcHBhcmVudCByZWFzb24gaGUgc3VnZ2VzdGVkIHdlIHdhbGsgb3ZlciB0aGUgYnJpZGdlLiAgSGUga25vd3MgSSBhbHdheXMgd2FudGVkIHRvLg0KCUnigJl2ZSBiZWVuIGRvaW5nIHRoYXQgbW9yZSBvZnRlbiBsYXRlbHnigJRjcnlpbmcgZm9yIG5vIHJlYXNvbuKAlEkgZ3Vlc3MgZXZlciBzaW5jZSBQYXVsIHRvbGQgbWUgaGUgd2FudGVkIHRvIGJyZWFrIHVwIHdpdGggbWUgd2hlbiB3ZSBsZWZ0IGZvciBjb2xsZWdlLiBJdOKAmXMgTWF5IGFuZCBJIGZlZWwgbGlrZSB3ZeKAmXJlIHdhaXRpbmcgZm9yIGEgY2FydG9uIG9mIG1pbGsgdG8gZXhwaXJlLg0KCVdoZW4gd2UgZ2V0IGhhbGZ3YXkgSSBtYWtlIGhpbSBzdG9wIGFuZCBhZG1pcmUgdGhlIHZpZXcuICBXZSB0dXJuIGFyb3VuZCBhbmQgZmFjZSBNYW5oYXR0YW4uDQoJ4oCcSXQgbG9va3Mgc28gc21hbGws4oCdIEkgc2F5LCDigJxsaWtlIGEgcmVhbCBzZXBhcmF0ZSBlbnRpdHkuIExpa2UgYW4gaXNsYW5kLiAgWW91IG5ldmVyIHJlYWxseSByZWFsaXplLCB3aGVuIHlvdeKAmXJlIGluIHRoZSBtaWRkbGUgb2YgaXQsIHdpdGggdGhlIGJ1aWxkaW5ncyBhbGwgYXJvdW5kIHlvdS7igJ0NCglIZSBub2RzLg0KCVdlIGtlZXAgd2Fsa2luZywgYW5kIEkgdGVsbCBoaW0gdG8gdGFrZSBvZmYgdGhlIGhlYWRwaG9uZXMsIHNvIG1heWJlIHdlIGNhbiB0YWxrLiAg4oCcSSBmZWVsIGxpa2Ugd2UgaGVhcmQgdGhpcyBzb25nIGFscmVhZHks4oCdIEkgc2F5Lg0KCeKAnFRoYXTigJlzIGNhdXNlIGl04oCZcyBvbiByZXBlYXQu4oCdDQoJ4oCcSXMgaXQ/4oCdIEkgc2F5LiDigJxPaCB5ZWFoLiBZZWFoIGl0IGlzLuKAnQ0KCVBhdWwgdGFrZXMgb2ZmIHRoZSBoZWFkcGhvbmVzLiBIZSBzYXlzLCDigJxJIHdhbm5hIGN1dCBteSBoYWlyLuKAnSAgSGlzIGhhaXIsIGFzIGl0IGlzIG5vdywgaXMgYSBtZXNzIG9mIGN1cmxzIHN0aWNraW5nIHVwIGF0IGV2ZXJ5IGFuZ2VsIGFyb3VuZCBoaXMgaGVhZC4gIE15IGhhaXIgaXMgdGhlIHNhbWUgYnV0IGxvbmdlci4gIEl04oCZcyBiZWVuIHRoYXQgd2F5IHNpbmNlIHdlIHN0YXJ0ZWQgaGlnaCBzY2hvb2wuICBQYXVsIHRoaW5rcyBoZeKAmWxsIGdldCBtb3JlIHJlc3BlY3QgaWYgaGUgY3V0cyBoaXMgaGFpci4gIEhlIHNheXMgaGUgbG9va3MgbGlrZSBCb3pvIHRoZSBDbG93bi4NCgnigJxObyzigJ0gSSBzYXkuIOKAnEFydCBHYXJmdW5rZWwuICBXaGF0IGFib3V0IGhpbT/igJ0NCglIZSBjb25zaWRlcnMgaXQuICBIZSBsb3ZlcyBBcnQgR2FyZnVua2VsLg0KCUkgaGF2ZSB0byBzaXQgZG93biBvbiBhIGJlbmNoIGJlZm9yZSB3ZSBnZXQgdG8gdGhlIG90aGVyIHNpZGUgYmVjYXVzZSBJIGZlZWwgZGl6enkuDQoJ4oCcUGF0aGV0aWMs4oCdIEkgc2F5LiAgSSB1c2VkIHRvIGJlIGFibGUgdG8gZ2l2ZSBQYXVsIHBpZ2d5LWJhY2sgcmlkZXMgaW4gdGhlIGhhbGx3YXlzIGF0IHNjaG9vbC4gIEnigJltIHN1cHBvc2VkIHRvIGJlIHRvdWdoZXIgdGhhbiB0aGlzLg0KCUEgZ2lybCBwYXNzZXMgdXMgb24gdGhlIGJlbmNoIGFuZCBJIHBvaW50IGhlciBvdXQuIFNoZeKAmXMgZ290IHBhbGUgc2tpbiBhbmQgcm9zeSBjaGVla3MgdGhhdCBtYXRjaCBoZXIgc2hpcnQuICBIZXIgaGFpciBsb29rcyBzbyBzb2Z0LiAgVGhhdCwgaW4gZmFjdCwgd291bGQgYmUgdGhlIHBlcmZlY3Qgd29yZCB0byBkZXNjcmliZSBoZXLigJRzb2Z0LiAg4oCcVGhhdOKAmXMgd2hhdCBJIHRoaW5rIGlzIGJlYXV0aWZ1bCzigJ0gSSBzYXkuICBJ4oCZbSBhbHJlYWR5IHBsYW5uaW5nIGZvciB3aGVuIGhlIHdvbuKAmXQgYmUgYXJvdW5kLiAgDQoJ4oCcWW91IGNvdWxkIGxvb2sgbGlrZSB0aGF0IHRvbyBpZiB5b3Ugd2FudGVkIHRvLOKAnSBoZSBzYXlzLCDigJxpZiB5b3UgdHJpZWQu4oCdDQoJ4oCcTm8sIHRoYXQgd291bGRu4oCZdCBiZSBtZSB0aGVuLuKAnQ0KCVdlIGZpbmlzaCB3YWxraW5nIGFuZCBwYXJ0IHdheXMuICANCglUaGF0IG5pZ2h0IEkgbGlzdGVuIHRvIHRoZSBMaXZpbmcgRW5kIENEIGFuZCBkZWNpZGUgSSBkb27igJl0IGxpa2UgaXQgdmVyeSBtdWNoLiAgVGhlaXIgb2xkIHN0dWZmIGlzIGJldHRlci4="
+"eventtime","2005-08-22 00:14:00"
+"current_moodid","39"
+"url","http://shortcake83.livejournal.com/6402.html"
+"userid","13797"
+"itemid","24"
+"event","FUCK FUCK FUCK
+i am fucked like that little fucking asian girl not a virgin anymore but oh no he won't talk to you, you broadway-showtune listening little BITCH.  fuck you.  
+oh fuck it, i wish i didn't care.  maybe i don't care.  fucking italian is gonna fuck me over, why did i listen to my overachieving overacademic asshole of a brother
+my list of friends grows shorter by the day
+even lindsay has hooked up with a guy
+fucking all girls dry town bitch ass too much work giving school.  i want to beat up the next guy i see who tries to even check me out.  fuck nick.  
+
+sorry.  i'm having fun.  seriously.  its not bad.  its fun.  don't pay attention to me."
+"eventtime","2004-09-14 01:14:00"
+"current_moodid","70"
+"url","http://shortcake83.livejournal.com/6161.html"
+"userid","13797"
+"itemid","23"
+"event","1 and a half weeks at college:
+1 beer
+NO pot
+too much ice cream
+not enough sleep
+many many laps in the pool
+10 minutes on the phone with paul
+1 slightly shitty movie
+3 roomates who think i'm a alcoholic/pothead/slut/vampire
+
+but:
+THE FUCK TRUCK HAS BEEN RIDDEN"
+"eventtime","2004-09-08 21:12:00"
+"current_moodid","14"
+"url","http://shortcake83.livejournal.com/6070.html"
+"userid","13797"
+"itemid","22"
+"event","Dupeworthy: Beth where did you go?
+Dupeworthy: beeeeeeeeeettttthhhhhhh
+Dupeworthy: we never had a high class party!
+Dupeworthy: come have a high-class party with me!!!
+Dupeworthy: HIGH class
+Dupeworthy: get it?
+Dupeworthy:  you know you dont have to participate in these discussions you IDLE FUCKIN BITCH
+
+Auto response from Br0oKLyNBaBe: nope.
+
+Dupeworthy: high?
+Dupeworthy: like the reefer?
+Dupeworthy: the weed, the pot the mary jane?
+Dupeworthy: or are you still idle?
+Dupeworthy: YOU FUCKING SLUT!!!!
+Dupeworthy signed off at 11:43:35 PM."
+"eventtime","2004-08-26 01:04:00"
+"url","http://shortcake83.livejournal.com/5868.html"
+"userid","13797"
+"itemid","21"
+"event","hello.  haven't updated this in awhile.  the end is coming, blah blah blah.  i'm tired of it all.  my shorts are too small.  i procrastinate everything.  the end."
+"eventtime","2004-08-25 13:18:00"
+"current_moodid","65"
+"url","http://shortcake83.livejournal.com/5489.html"
+"userid","13797"
+"itemid","20"
+"event","lately paul's gotten into calling me names:
+
+Paul Alfonso: i love you sugar pooo!
+Paul Alfonso: goodnight sweetkins
+
+weirdo.
+saw caroline--again, it was surprisingly pleasant.  fell asleep at paul's house--very comfy.  megan's gone and the chinese people are in her house.  oh the general tso's.  ate pokemon kraft mac and cheese.  tasty.  learned new song on bass.  forgot it.  wish i could write a livejournal entry that people would be able to understand.  sorry, i do my best."
+"eventtime","2004-07-20 01:33:00"
+"current_moodid","108"
+"url","http://shortcake83.livejournal.com/5330.html"
+"userid","13797"
+"itemid","19"
+"event","somebody please wake me up.  punch me or something.  kick my ass.  come on, you know i deserve it.  i am so fucking sick of my wimpy-ness.  this girl i used to go to camp with is im-ing me and i just keep lying to her rather than explain what is actually going on.  god, she never gives up.
+i don't want superficial happiness anymore, i'm sick of it.  wake me up, come on.  i'm sick of existential bullshit being the thing that makes me depressed all the time.  i'm sick of caring about everything paul does and thinking about how much he doesn't care about me.  i'm starting to have wellesley nightmares.  i want a dog.  i want to not need to be under the influence of drugs or alcohol to have fun.  at the same time, i want to always be under the influence of drugs or alcohol.  right now i want to be drinking beer and singing along sublime.  
+i got my sweatshirt. WAC, man, just WAC."
+"eventtime","2004-07-15 00:34:00"
+"current_moodid","10"
+"url","http://shortcake83.livejournal.com/5010.html"
+"userid","13797"
+"itemid","18"
+"event","the new york times is doing this thing where everyday they give you another chapter of a book, and by the end of the week you've read the whole book.  this week its the great gatsby.  how cool is that?  you get to read these books for free, without crazy librarians threatening you, and they get delivered to your house everyday and its just beautiful.  
+i should drink with megan more often.  its very laid back, rather than frantic and wild, which is what i am used to.  
+in three days at the end of next week, i'm going to make more than what i would make in 2 weeks at camp.  
+if you can count on paul to do anything, it's to be late.  my mother woke me up at 10:50 and she was like ""what time is paul supposed to get here?"" and i was like ""11"" and she was like ""ahhh! you'll never have time to get ready."" and i was like ""chill, man.""  now it is 12:01.  i have showered, dressed, played some bass, had a bite to eat....maybe he'll show up soon.  
+yesterday i was in car service and when the guy pulled up, i was like, ""how much"" he said ""8 dollars"" and i was like, ""uh..."" but i started shifting around in my wallet.  and then he was like, ""ok, 7 dollars is fine""  i was like ""OK!"" and gave him 7 dollars and left.  8 dollars from megan's house to mine? i don't think so."
+"eventtime","2004-07-13 11:55:00"
+"url","http://shortcake83.livejournal.com/4863.html"
+"userid","13797"
+"itemid","17"
+"event","i thought it was all over, i had handed in my last piece of work for high school- a take home math test.  but then, on my way out to a summer of absolute FREEDOM, i saw my math teacher.  he said, ""i decided to give you guys the weekend to work on the test.  it's now due monday.""  and of course, filled with guilt for doing a shitty job on the test, i took it back so that i could struggle with it, and i gave up my freedom for yet another weekend.  it's alright, i finally convinced paul who never wants to leave his house to go to the beach with me on monday.  i will turn in my test, and then a beautiful day of sunburn and salt water will lie before me.  ah summer.  
+is it wrong to feel just a little flattered when random guys hit on you in the street?  i mean, it's not like bay ridge is a bad area, so the guys can't be that dirty, right?  it just builds my confidence, ok!  
+but now i go play bass and go to sleep, even though its friday night and i should be partying it up somewhere.  but tomorrow i'm wsi-ing for 10 hours straight, i think, and i haven't been in a pool in months, so i should probably get my rest."
+"eventtime","2004-06-18 21:34:00"
+"current_moodid","15"
+"url","http://shortcake83.livejournal.com/4352.html"
+"userid","13797"
+"itemid","16"
+"event","so i woke up today and went downstairs, and there was my long-lost sister, back from hawaii.  i cancelled my plans, because my parents thought it would be best if i spent quality time with her, but then she smoked a cigarette and slept for the rest of the day.  oh well.  weird things about hope:
+1- she adds an extra sound to the word ""no""
+2- her hair is kind of blond
+3- her hair is half straight and half curly
+4- refers to her boyfriend as ""shrek""
+5- still thinks paul's in love with me and i hate him
+6- constantly says ""you're so skinny!""
+7- doesn't eat carbs
+got really drunk with greg yesterday and had a long talk about circumscision (sp?).  then he told me he never really liked me, which brings the total number of guys who really liked me down to...hmm...One.  and that's the one who hates me half the time.  
+i could finally listen to mxpx today.  haven't been able to listen to them in months, don't know why.  listened to green day too, which i haven't done in a long time.  learned how to play ""when i come around"" on the bass.  exciting. however, i'm still tone deaf.  don't tell paul.  
+oh, so prom.  yeah, that was a few days ago, but i can still talk about it.  yeah prom was good, the limo ride there was awesome, because of my excellent music, paul was crazy to dance with (everyone was jealous, of course....ha), and he wore a crazy green tux to match my dress, and we took pics with ms.close because she's so cool, dj sucked though, and we missed ice cream, and after party was terrible and not enough alcohol, so we left early, after tearing paul astuto away from the dance floor, ate breakfast, slept at nick's, which was nice until it was 10 in the morning and nick started drinking again.  sometimes i worry about nick.  he called me today and our conversation was like this:
+""hey so i was just thinking about how crazy it was yesterday""
+""uh, yeah""
+""wasn't it crazy?""
+""yeah, it was crazy, nick""
+""because justin was telling me how i was chugging the whiskey and like three people were trying to wrestle it away from me...""
+""yeah""
+""so what are you doing today?""
+""i might hang out with megan""
+""oh, yeah, i'm busy-- i'm gonna finish all my work today""
+""oh, ok""
+""well, uh, bye""
+""bye nick""
+sometimes i feel bad for nick.  sometimes i think about what an idiot he is.  sometimes i think about how easy it will be to avoid him now that school is over.  sigh."
+"eventtime","2004-06-15 19:51:00"
+"current_moodid","74"
+"url","http://shortcake83.livejournal.com/4135.html"
+"userid","13797"
+"itemid","15"
+"event","Beth's Master Plan
+
+step 1: solve rubic's cube
+
+step 2: convince paul that i am not his mother
+
+step 3: eat kraft mac and cheese
+
+step 4: buy a puppy
+
+step 5: take over the world."
+"eventtime","2004-06-09 00:21:00"
+"current_moodid","6"
+"url","http://shortcake83.livejournal.com/3892.html"
+"userid","13797"
+"itemid","14"
+"event","so i got off the waitlist for wesleyan.  except i got off because i was rejected and not because i was accepted.  oh joy, another rejection letter to add to my collection.  
+anyway.  friday was excellent harry potter.  this movie is really amazing, soo much better than the first two.  you got hermione punching malfoy, the hippogiff is awesome, the dementers are crazy scary.  you should all go see it.  and after watching that i went over to eli tinkleman's house for pie, and that was also excellent.  oh man, the blueberry pie...my stomach has never been so happy.
+school is so close to being done.  that stupid fiction writing chapter is the only thing i have left.  it is boring.  i can't get myself to write an exciting chapter.  i want to write like jk rowling!  why can't i be as cool as her?!
+blah.  i hate writing.  fiction writing, more than anything, has led me to believe that i am not a good writer.  what i am good at is scooping ice cream.  i am an excellent ice cream scooper.  i can also balance a spoon on my nose for an abnormally long amount of time.
+crush lists were much less exciting than i thought they would be.  oh well.
+i am so hungry"
+"eventtime","2004-06-06 09:11:00"
+"current_moodid","75"
+"url","http://shortcake83.livejournal.com/3710.html"
+"userid","13797"
+"itemid","13"
+"event","why can't there be more guys like lee winikor in the world?"
+"eventtime","2004-05-27 03:50:00"
+"current_moodid","87"
+"url","http://shortcake83.livejournal.com/3511.html"
+"userid","13797"
+"itemid","12"
+"event","today mr.grossman said ""fuck"".  he thought i didn't hear him, because he kind of turned his head and said it really fast and thought he was slick and that i wouldn't catch him.  but i did.  it was the sexiest thing mr.grossman has ever done.  and i don't know why.  i have never been one of those girls who's attracted to mr.grossman.  i think he's a cool guy, but i'm not in any way obsessed with him, unlike the majority of people in great books.  but when he said ""fuck""--shit, that was sexy.
+in other news, my life has a new mission.  it has to do with ms.kelly, and i don't think i should talk about it, but this is important--if you have ever had ms.kelly, please please get in touch with me.  i am dependant on you for my mission.
+in other other news, i have a genetics research paper to do.  however, i am finished with writing for the year after that bitch ass portfolio that almost ate me alive.  i have no desire to start this paper, which is due the day after memorial day.  but i really really want to party like an animal all memorial day, which means i have to get this paper done before then.  what a bitch.
+i have to think of something to write my novel about.  i'm sick of sex and catholic school.  what else is there to write about?  please! help me!
+megan, that letter was the most pain in the ass thing to read, i never think i will be the same.  there was no order, i was flipping the thing over and going upside-down, and i had no idea what the fuck was going on.  it was quite frustrating.
+i have to find a place to party like an animal this weekend.  that will be a problem.  i also need a place for after prom, but helena has warmed up to the idea of after-promming with me, which is excellent.  i love my helena.  today we played knock hockey and i fell asleep in the grass and her friend  put grass on me, and she wore old chinese man sunglasses.  she is so cool and sexy, and also asian.  which i tend to forget.
+now maybe homework.  maybe sleep.  my fucking sister ate all the nutter butters.  either that or she hid them.  its not fair, she caN BE so cool and then she fucks it up by taking my nutter butters.  oh peanut-buttery sweetness, how i miss you."
+"eventtime","2004-05-25 23:53:00"
+"current_moodid","45"
+"url","http://shortcake83.livejournal.com/3122.html"
+"userid","13797"
+"itemid","11"
+"event","senior portfolio is OVER!
+i am terrified of christina alfonso.
+thank you, megan for the copies and the love.
+my stomach is like shrinking or something, i get really hungry but then i can only take a couple of bites.  or sometimes i'm not hungry but then i eat something and get really hungry and am not satisfied.  broken, i am so broken.  my stomach is not communicating well with my head.
+danny rassi is such a cool guy.  he lent me this pixies live album which is crazy good.  thank you danny."
+"eventtime","2004-05-24 21:43:00"
+"url","http://shortcake83.livejournal.com/2851.html"
+"userid","13797"
+"itemid","10"
+"event","senior portfolio eating me alive...."
+"eventtime","2004-05-21 23:20:00"
+"current_moodid","31"
+"url","http://shortcake83.livejournal.com/2736.html"
+"userid","13797"
+"itemid","9"
+"event","brad pitt- so sexy
+guy that looks just like brad pitt- so sexy
+guy who plays hector- pretty damn sexy
+orlando bloom- also sexy
+sean bean is just cool.
+all this in one movie?  who could ask for more?
+but really, don't expect anything amazing.  or even above average.  the boats were cool, the balls of fire were really cool, besides that the movie didn't have much going for it. oh man and this crazy sex scene...yeah, i take it back, the movie was worth seeing.  go see it.
+played volley ball today.  remembered why they kicked me off the team in 8th grade.  
+very tired now. night."
+"eventtime","2004-05-14 23:03:00"
+"current_moodid","38"
+"url","http://shortcake83.livejournal.com/2516.html"
+"userid","13797"
+"itemid","8"
+"event","it is pointless for me to take the ap in latin.  that's it, i've given up.  i mean, i'd be surprised if i got above a 2.  boy is my mother gonna be surprised in july.
+so yeah, i've been upset lately.  stupidly upset.  i've been sleeping a lot; i've been on the verge of tears way too much in the past few days.  its stupid.  
+what does it mean when someone says your writing style is ""traditional""?  ms.fletcher wouldn't let me read lolita because my writing style is too ""traditional,"" and instead i'm reading a monster of a book that i'll never get through because after forcing myself through like a book a week in great books, i'm sick of reading books i don't love.
+apparently pete is a some kind of diety, because paul does whatever pete tells him to.  this week pete told paul that he shouldn't be with me in college, so paul told me he couldn't be with me in college.  apparently this is suppose to ""save our relationship.""  i don't know what that means, i don't know what goes on that curly-head of his, but whatever, its for the best and i'm over it anyway.  prom, fuck it.  i'm sick of hearing about prom.  even my mother talks about prom.  all the time, too, that's why i just go to sleep when i get home.  today she said she missed having me at dinner, because i've been sleeping through it, so today i ate dinner with her, and now i can't fall asleep.  
+i hate the end of this year.  this happened in 8th grade too- i feel like i have no friends, that i'm already gone.  bye bye.  everything feels fake, i feel like everyone changed and no one's the person i used to be friends with.  does that make sense?  
+and i'm sick of this being sad bullshit.  i get so mad at myself for being sad.  its such a dumb thing."
+"eventtime","2004-05-13 23:40:00"
+"current_moodid","22"
+"url","http://shortcake83.livejournal.com/2204.html"
+"userid","13797"
+"itemid","7"
+"event","i HATE it when nick talks to me nonstop and paul ignores me.  the sad thing is, this happens almost every night.
+i've come to the point of no return where no matter what i do, i will not be able to return from the deep deep hole that is my procrastination and laziness.  however, i'm still trying to convince myself to do something, which is always better than nothing.  the hole is so deep though.
+and i have made myself chicken chicken soup with rice, and i bought my mother a mother's day gift for the first time ever.  i am proud."
+"eventtime","2004-05-10 00:23:00"
+"current_moodid","71"
+"url","http://shortcake83.livejournal.com/1859.html"
+"userid","13797"
+"itemid","6"
+"event","dGhpcyBpcyBteSBmcmFnbWVudCBmcm9tIGZpY3Rpb24gd3JpdGluZy4gIHRoZSByZWFzb24gaSdtIHBvc3RpbmcgaXQgaXMgbm90IGJlY2F1c2UgaXQgaXMgZ29vZCwgYnV0IGJlY2F1c2UgbW9zdCBvZiBpdCBpcyBkaXJlY3QgcXVvdGVzIHdpdGggYSBjb252ZXJzYXRpb24gd2l0aC4uLndlbGwsIHNlZSBpZiB5b3UgY2FuIGd1ZXNzLg0KDQpUaG9zZSBvbGQgQ2hpbmVzZSBsYWRpZXPigKZ3aXRoIHRob3NlLCB1aCwgbGl0dGxlIHNob3BwaW5nIGNhcnRzLiAgWWVhaCwgeW91IGtub3cgd2hhdCBJ4oCZbSB0YWxraW5nIGFib3V0LiAgU29tZXRpbWVz4oCmdWgsIHRoZXnigJlyZSBob3QuICBZZWFoLCBJIHdhbm5hIGJlIGxpa2UsIOKAmEhleSBiYWJ54oCm4oCZIEkgd2FubmEgYmUgYSBwaW1wIHdpdGggbXkgODAgeWVhciBvbGQgZnVja2luIGJpdGNoZXMsIHdpdGggbXkgY2FuZSBhbmQgbXksIHVoLCBzZXh5IGhhdCwgYW5kIEnigJlsbCBiZSBsaWtlLCDigJhoZXksIEkgYm91Z2h0IHlvdSBhIGxpbCBzb21ldGhpbmfigJnigJRidXkg4oCYZW0gZnVja2luIHRlZXRoLCBjYXVzZSB0aGV54oCZbGwgYWxsIGhhdmUsIGxpa2UsIHdyaW5rbHkgc2tpbiBpdOKAmWxsIGJlIGFsbCwgdWgsIHllbGxvdywgYW5kLCB1aOKApkJ1dCB5ZWFo4oCmeWVhaCwgYmFieeKAlEFyZSB5b3UgbGF1Z2hpbiBhdCBtZT8gIENhdXNlIEkgY2FuIGhlYXIgeW91IGxhdWdoaW5nLiAgSGV5LCBhcmUgeW91IHRyeWluZyB0byBjb21lIG9uIHRvIG1lPyAgQ2F1c2UgeW91IGdvdCB0aGF0LCB1aCwgYm95ZnJpZW5kLCB5YSBrbm93LCBhbmQgSSBjb3VsZCBiZSBsaWtlLCDigJhIZXksIHN0YXkgYXdheSBmcm9tIG15IEJldGgu4oCZIEnigJlsbCBnbyBmaW5kIGhpbSBhbmQgdWjigKZTbywgeWVhaC4gICBCdXQgeWVhaCwgYmFieSwgd2hhdOKAmXZlIHlvdSBiZWVuIHVwIHRvPyAgSeKAmW0ganVzdCBzaXR0aW5nIG9uIG15IHN0b29wIGFuZCBJIGdvdCBteSBzdHJpbmcgY2hlZXNlIGFuZCB1aOKAlGF3LCBzaGl0LiAgVGhpcyBnaXJsIGFjcm9zcyB0aGUgc3RyZWV0IGlzIGxpa2UsIHN0YXJpbmcgYXQgbWUuICBTaGXigJlzIGdvdCB0aGlzIGZ1Y2tpbiByZWQgaGFpcuKAlGl04oCZcyB0b28gcmVkLiAgVG9vIHJlZCwgeWVhaCwgSSBkb27igJl0IGtub3cgd2hhdCB0aGUgZnVjayB0aGF0IG1lYW5zLCBJIGp1c3Qgc2F3IGl0IG9uIFRoZSwgdWgsIFgtRmlsZXMsIHRoZXkgd2VyZSBsaWtlLCDigJhpdOKAmXMgdG9vIHJlZCzigJkgYW5kIHVoLCBzbyB3aGVuIGFyZSB5b3UgZ29ubmEgY2hlYXQgb24geW91ciBib3lmcmllbmQgd2l0aCBtZT8gIEF3LCBhdywgSSBzaG91bGQgc3RvcC4gIEnigJltIG1ha2luZyB5b3UgdW5jb21mb3J0YWJsZSwgeWVhaCwgYXcuICBZZWFoLCBidXQgaXTigJlzIG9rYXkgY2F1c2UgSSBnb3QgdGhlIGZ1Y2tpbiB0ZWxla2luZXNpcy1zaGl0LCBzbyBJLCB1aCwga25vdyB3aGF0IHlvdeKAmXJlIHRoaW5raW5nLCB5ZWFoLiBZb3UgZG9u4oCZdCBldmVuIGhhdmUgdG8gc2F5IGl0LiAgSSBrbm93IHlvdSBzdGlsbCBsb3ZlIG1lLCBhbmQgdGhlLCB1aCwgZmVlbGluZyBpcyBtdXR1YWwuICBZZWFoLCB5ZWFoLCBJIGtub3cgSeKAmW0gc3R1cGlkLCBhbmQgSSBzaG91bGRu4oCZdCBoYXZlIGxlZnQgeW91LCBidXQgdWgsIHllYWguICBTbyBJIHNhdyBGZWxpeCwgeW91IHJlbWVtYmVyIEZlbGl4LCBoZeKAmXMgdWgsIGtpbmRhIGNodWJieSwgaGXigJlzIGdvdCB0aGUgdWgsIG1hbi1ib29iaWVzLiAgWWVhaCwgaGUsIHVoLCBsZXRzIG1lIHRvdWNoIHRoZW0gZXZlcnkgdGltZSBoZSBjb21lcyBvdmVy4oCUbm8sIEnigJltIGp1c3Qga2lkZGluLiAgU28gdWgsIHllYWggRmVsaXguICBJIHNhdyBoaW0gaW4gdGhlIHBhcmsgd2hlbiBJIHdhcyBnb25uYSBnbywgdWgsIHNtb2tlIGEgZmF0IGJsdW50LCBhbmQgaGUgd2FzIGxpa2UsIHllYWgsIGhlIGNhbGxlZCBtZSBhIHBvb3BpZWhlYWQuICBBbmQgSSB3YXMgbGlrZSwg4oCYSGV5LCB5b3UgbGlzdGVuLiBCZXRo4oCZcyBnb25uYSBjb21lIGhlcmUgYW5kIGJlYXQgeW91IHVwLuKAmSAgSGEsIHllYWguICBUaGF04oCZcyB0cnVlIGZ1Y2tpbiBsb3ZlLg=="
+"eventtime","2004-05-07 00:39:00"
+"current_moodid","44"
+"url","http://shortcake83.livejournal.com/1598.html"
+"userid","13797"
+"itemid","5"
+"event","i found a song called ""i got laid on james joyce's grade.""  ingenious.
+ok, about this whole prom thing.  i was upset, but now i'm like, fuck it, because i don't give a shit what we do before or after, we're gonna rock the prom and everyone's gonna wanna be me.  and i'm so fucking lucky because i have paul, and even if we just go to mcdonalds after prom, i'll be happy to be with him.  and even the people with big parties and party buses aren't that lucky.  so fuck them, i'm better than everyone."
+"eventtime","2004-05-05 01:54:00"
+"current_moodid","103"
+"url","http://shortcake83.livejournal.com/1498.html"
+"userid","13797"
+"itemid","4"
+"event","so yeah, no attention span today.  i was like ooh! maybe i should try to pass genetics!  oh! crazy ukranian in bright orange book!  oooh! the MUPPETS!!! so yes, now i'm at the muppets. i'm listening to kermit the frog sing and strum on his little banjo.  i used to be upset that i have to do a waltz as my final project in ballroom.  now i'm happy, because no one else is cool enough to dance to kermit.  oh man!  maybe i can get my partner to dress all in green!  oh, poor little asian boy.  
+everyday i have the same conversation with my little asian partner:
+""hey, so 'no one else' is a waltz.  its by weezer, do you know it?""
+""weezer, who's that?""
+""uuuugh""
+(except fill in any band/singer that is good instead of weezer, because its a new one everyday.)
+so i was rejected by all my friends in terms of prom shit.  they don't want to hang out with me before prom, or after prom, or on the way to the prom.  very sad.  i was upset.  megan made me more upset because she is selling my second home and i will have no place to get food on the way home from school.
+but then i found kermit.  sigh of happiness.
+god, i'm so spaced out."
+"eventtime","2004-05-04 00:33:00"
+"current_moodid","54"
+"url","http://shortcake83.livejournal.com/1111.html"
+"userid","13797"
+"itemid","3"
+"event","i am in one of my pathetic moods.  i'm going to have the shittiest time with trains and buses and BAYSIDE tomorrow.  this bullshit is too much for me, i am choking on it.  then look at me fucking dance around for like 5 minutes then travel another 12 hours to get back home.  waste of a perfectly good fucking weekend.  the waiter in the restaurant just kept pouring me more and more wine tonight.  i mean, i look like i'm 12, what was he thinking? but hey, i'm not complaining.  i'm fucking tired though and pathetic, definitely pathetic.  too tired, have to sleep.  
+nick just drinks all the time, i'm starting to worry about him.  he makes me want to go sober for the rest of my life, to balance him out or something.  its weird, one of my other friends is an actual alcoholic and he had to stop drinking.  its weird because we always used to look up to him and party with him and stuff.  and then i guess it just got carried away but now we can't even party with him.  not that i've been to a party in months, stupid mother.  and my dance recital is the same night as my prom.  some luck i have.
+but now i'm too tired, i must go to bed.  i should start sleeping with a stuffed animal, i've been feeling lonely in bed lately."
+"eventtime","2004-05-02 00:19:00"
+"current_moodid","31"
+"url","http://shortcake83.livejournal.com/922.html"
+"userid","13797"
+"itemid","2"
+"event","i have no idea how the fuck to use this thing.
+and i'm not sure if having a live journal makes me cool or more of a loser.  ah well.  lets start:
+every day in government i want to kick someone's ass.  then in fiction writing i want to kick another person's ass.  very frustrating.
+went to paul's house after school for some paul lovin', and i found him in his kitchen boiling water to make me pasta.  very tasty.  then he burned me a massive mp3 cd with (pause here for a moment of understanding beth's frustration and desire to beat someone up.  ""Nighty Night""- who the FUCK says nighty night?  WHat are we in, kindergarten?  FUCK YOU.  sigh.  much better.  anyway) with inspection 12, weezer, smashing pumpkins, jimmy eat world, all that good stuff.  AND 
+TOMORROW IS BEN AND JERRY'S FREE CONE DAY!!!!!
+it is a very exciting week. 
+ok, i've wasted enough time for today."
+"eventtime","2004-04-26 22:58:00"
+"current_moodid","125"
+"url","http://shortcake83.livejournal.com/620.html"
+"userid","13797"
+"itemid","1"
+"event","are you happy now, megan?
+thank you in advance for the pizza you are about to order."
+"eventtime","2004-04-25 15:08:00"
+"current_moodid","18"
+"url","http://shortcake83.livejournal.com/316.html"
+"userid","13797"

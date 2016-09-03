@@ -1,0 +1,749 @@
+"names","values"
+"itemid","133"
+"event","SSB1c2VkIHRvIGNyeSBmb3IgZXZlcnl0aGluZyB5b3UgaGFkIHRha2VuIGF3YXkNCkZyb20gbWUNClRoZSB0ZWFycyB3b3VsZCBwb3VyIGxpa2UgcmFpbiB3aGVuIG5vIG9uZSBsb29rZWQNCkkgdGhvdWdodCB5b3Ugd2VyZSBob25lc3QNCkkgdGhvdWdodCBJIHdhcyBiYWQsIGV2aWwsIHB1bmlzaGFibGUNCkkgZGlkbuKAmXQga25vdyB5b3UgbGllZCBhbmQgWU9VIHdlcmUgYWxsIHRoZXNlIHRoaW5ncw0KDQpBcyBJIGdyZXcgb2xkZXIgYW5kIHRob3VnaHQgb2YgeW91DQpBbmQgSSBmaW5hbGx5IHRob3VnaHQgSSB1bmRlcnN0b29kDQpNeSBoYW5kcyB3b3VsZCBjbGVuY2gNCk15IHRlZXRoIHdvdWxkIGdyaW5kDQpNeSBtaW5kIHdvdWxkIHNxdWVlemUNCkkgd2FudGVkIHRvIGdyYWIgeW91DQpNYWtlIHlvdSB0d2lzdCBhbmQgd2hpbmUgYW5kIGJlZyBtZSB0byBzdG9wDQpBcyB5b3UgZGlkIHRvIG1lIGFsbCB0aG9zZSB5ZWFycyBhZ28NCg0KSSB3b3VsZCBjcmF3bCBiYWNrIGludG8gbXkgZGFyayBjb2xkIGNhdmUgc29tZXRpbWVzDQpMaWNrIG15IHdvdW5kcw0KQW5kIGFzayB0aGUgdGlueSBsaWdodCB0aGF0IGNhbWUgaW4g4oCcd2h5P+KAnQ0KDQoNCkkgZGlkbuKAmXQgdW5kZXJzdGFuZA0KSSB3aWxsIG5ldmVyIHVuZGVyc3RhbmQgcmVhbGx5DQpXaHkNCk90aGVyIHRoYW4geW91ciBzaWNrLCB5b3VyIHNpY2ssIGFuZCB5b3XigJlsbCBzZWUgZGFyayBzb21lZGF5DQoNCkkgd291bGQgY3VybCBpbnRvIGEgYmFsbCBpbiB0aGUgZGFya25lc3MgYW5kIHdpbGwgbXlzZWxmIHRvIGRpZSBkYXkgaW4gZGF5IG91dCBldmVyeSBkYXkNClRoaW5raW5nIHdpdGhvdXQgd2hhdCB5b3UgdG9vayBJIHdhc27igJl0IHJlYWxseSBhIHBlcnNvbg0KSSB3YXNu4oCZdCByZWFsbHkgd2hvbGUNCg0KVGhlbiBzb21ldGhpbmcgY2hhbmdlZA0KSSBoYWQgaGF0ZWQgeW91IGVub3VnaA0KSSBoYWQgaGF0ZWQgbWUgZW5vdWdoDQoNCkkgcmVhbGl6ZWQgeW91IGNhbuKAmXQgdGFrZSB3aGF0IEkgd29u4oCZdCBnaXZlDQpZb3UgZG8gbm90IGhhdmUgbXkgaW5ub2NlbmNlDQpZb3UgZG8gbm90IGhhdmUgbXkgeW91dGgNCllvdSBkbyBub3QgZXZlbiBoYXZlIG15IHZpcmdpbml0eQ0KDQpJIHN0aWxsIGNhbiBzbWlsZSBhdCBhIHB1cHB5IGluIHRoZSB3aW5kb3cNCkkgY2FuIHN0aWxsIGRhbmNlIGluIGEgcmFpbnN0b3JtDQpJIGNhbiBzdGlsbCBiZSBhIGNoaWxkIG9uIHRoZSBpbnNpZGUNCkFuZCBJIGdhdmUgbXkgdmlyZ2luaXR5IHRvIHNvbWVvbmUgZWxzZSB3aWxsaW5nbHksIHRoYW5rIHlvdSB2ZXJ5IG11Y2gNCg0KWW91IGhhdmUgbm90aGluZyBvZiBtaW5lDQpOb3QgZXZlbiBteSBibG9vZA0KSSBkb27igJl0IHRoaW5rIG9mIHlvdSB0aGF0IHdheQ0KTm90aGluZyBJIGNhbuKAmXQgcmVjbGFpbSBhbnl3YXkgd2FzIHRha2VuIGZyb20gbWUgYnkgeW91DQoNCkkgYW0gd29ya2luZyB0byB0YWtlIGJhY2sgZXZlcnl0aGluZyBJIGxldCB5b3UgaGF2ZQ0KQWxsIHRoZSB5ZWFycyBvZiBldmVyeXRoaW5nIEkgcGVybWl0dGVkIHlvdSB0byBoYXZlDQoNCkkgaGF2ZSBlbWVyZ2VkIGZyb20gbXkgY2F2ZSByZWFkeQ0KDQpZb3Ugc3RpbGwgbWFrZSBtZSBjcnkNCkJ1dCBhIGRpZmZlcmVudCBjYXRlZ29yeSBvZiB0ZWFycw0KDQpJIGNyeSBmb3IgbGV0dGluZyB5b3UgaGF2ZSB3aGF0IEkgdGhvdWdodCB5b3UgdG9vayBidXQgcmVhbGx5IEkgbGV0IHlvdSBoYXZlDQpJIGNyeSBmb3IgbG9zdCB0aW1lDQpCdXQgaXTigJlzIE9LDQoNCkJlY2F1c2UgSSBhbSBiYWNrDQpZb3UgZGlkIG5vdCBjb25xdWVyIG1lDQpZb3Ugd2lsbCBub3QgY29udHJvbCBtZQ0KSSBoYXZlIHNlZW4gdGhlIGRhcmtuZXNzDQpBbmQgSSBwcmVmZXIgdGhlIGxpZ2h0DQoNClRoZSBsaWdodA0KWW91IGNhbiBuZXZlcg0KVGFrZQ0KRnJvbSBtZS4NCg0KPGxqLWVtYmVkIGlkPSI4Ii8+"
+"eventtime","2009-03-30 08:14:00"
+"current_moodid","90"
+"url","http://izzyandjbj.livejournal.com/34216.html"
+"userid","7196"
+"itemid","132"
+"event","Wow, this in going around facebook, and I finally read it, wow, OFFENSIVE!
+
+Start with 100% and subtract 1% for everything that you've done. Then repost as your __% innocent.
+Now you must tag 20 people, and fill this out.
+
+01. Smoked
+02. Drank alcohol.
+03. Cried when someone died.
+04. Been drunk.
+05. Had sex.
+06. Been to a concert.
+07. Gotten/given a hand job.
+08. Been verbally/sexually harassed.
+09. Verbally/sexually harassed somebody.
+11. Felt someone up and/or been felt up.
+12. Laughed so hard something came out of your nose.
+13. Cheated on a boyfriend/girlfriend before.
+14. Been cheated on by a boyfriend/girlfriend.
+15. Been to prom.
+16. Cried at school.
+17. Gotten lost in a Wal-Mart or a department store.
+18. Went streaking.
+19. Given or received a lap dance.
+20. Had someone of the opposite sex in your room.
+21. Had someone of the opposite sex sleep over.
+22. Slept over at someone of the opposite sex's house.
+23. Kissed a stranger.
+24. Hugged a stranger.
+25. Went scuba diving.
+26. Driven a car.
+27. Gotten an x-ray.
+28. Hit by a car.
+29. Had a party.
+30. Done drugs.
+
+31. Played strip poker/darts/pool.
+32. Got paid to strip for someone.
+33. Run away from home.
+34. Broken a bone.
+35. Eaten sushi.
+36. Bought porn.
+37. Watched porn.
+38. Made porn.
+39. Made beans.
+40. Been in love.
+
+41. French kissed.
+42. Laughed so hard you cried.
+43. Cried yourself to sleep.
+44. Laughed yourself to sleep.
+45. Stabbed yourself.
+46. Shot a gun.
+47. Trash talked someone and then acted like their best friend the next day.
+48. Been online for 9 consecutive hours.
+49. Watched TV for 9 consecutive hours.
+50. Watched an animal die.
+
+51. Watched a person die.
+52. Kissed somewhere with at least 1 person present.
+53. Pranked somebody.
+54. Put somebody in the hospital.
+55. Snuck into someone's room and/or your own room after being out.
+56. Made spicy beans.
+57. Dressed punk.
+58. Dressed Goth.
+59. Dressed preppy.
+60. Been to a motocross race.
+
+61. Avoided somebody.
+62. Been stalked.
+63. Stalked someone.
+64. Met a celebrity.
+65. Played an instrument.
+66. Ridden a horse.
+67. Cut yourself.
+68. Bungee jumped.
+69. Ding dong ditched somebody.
+70. Been to a wild party.
+
+71. Been caught stealing something.
+72. Kicked/punched a guy in the balls.
+73. Stolen a boyfriend/girlfriend from a friend.
+74. Gone out with your friend's crush.
+75. Got arrested.
+76. Been pregnant.
+77. Babysat.
+78. Been to another country.
+79. Started your house on fire.
+80. Had an encounter with a ghost.
+
+81. Donated your hair to cancer patients.
+82. Been asked out by someone that you never thought you'd be asked out by.
+83. Cried over a member of the opposite sex.
+84. Had a boyfriend/girlfriend for over 2 months.
+85. Sat on your butt all day.
+86. Ate a whole carton of ice cream all by yourself.
+87. Had a job.
+88. Gotten cut from a sports team.
+89. Been called a whore.
+90. Danced like a whore.
+91. Been mistaken for a celebrity.
+92. Been in a car accident.
+93. Been told you have beautiful eyes.
+94. Been told you have beautiful hair.
+95. Raped somebody.
+96. Danced in the rain.
+97. Been rejected.
+98. Left a restaurant without paying.
+99. Punched someone/slapped someone in the face.
+100. Been raped."
+"eventtime","2009-03-23 18:00:00"
+"current_moodid","24"
+"url","http://izzyandjbj.livejournal.com/33938.html"
+"userid","7196"
+"itemid","131"
+"event","The first five (5) people to respond to this post will get something made by me.
+This offer does have some restrictions and limitations so please read carefully:
+
+1. I make no guarantees that you will like what I make. Whatcha get is whatcha get.
+2. What I create will be just for you, with love.
+3. It'll be done this year (2009).
+4. I will not give you any clue what it's going to be. It will be something made in the real world and not something cyber. It may be weird or beautiful. Heck, I might bake (!!) something for you and mail it to you when you least expect it. I may even create something totally unbelievable and surprise you at work!! Who knows? Not you, that's for sure!
+5. I reserve the right to do something extremely strange.
+6. In return, all you need to do is post this text into a note of your own and make 5 things for the first 5 to respond to your note.
+
+IMPORTANT: This offer is null and void if I do not see you post your own note to pay this forward"
+"eventtime","2009-03-23 12:22:00"
+"current_moodid","107"
+"url","http://izzyandjbj.livejournal.com/33571.html"
+"userid","7196"
+"itemid","130"
+"event","<lj-raw><a href=""http://www.meez.com/izzysjohansson"" title=""Meez 3D avatars and free games.""><img src=""http://images.meez.com/user05/05/05/07/050507_10033735828.gif"" alt=""Meez 3D avatar avatars games""  border=""0"" /></a><img style=""visibility:hidden;width:0px;height:0px;"" border=0 width=0 height=0 src=""http://counters.gigya.com/wildfire/CIMP/JnB0PTExOTUwNDYzMjI2MDkmcD0xMjYxMSZkPSZuPWxpdmVqb3VybmFs.jpg"" /></lj-raw>"
+"eventtime","2007-11-14 08:18:00"
+"url","http://izzyandjbj.livejournal.com/33523.html"
+"userid","7196"
+"itemid","129"
+"event","<div align=center><form name=""quizform"" target=""_new"" action=""http://www.kwiz.biz/showquiz.php?quizid=10411"" method=""post"">
+<table border=1 bordercolor=#000000 bgcolor=""#90D599"" cellspacing=0 cellpadding=2>
+<tr><td colspan=2 align=center bgcolor='086023'><a href='http://www.kwiz.biz/showquiz.php?quizid=10411' target='_new' style='text-decoration: none;'><font style='color : #ffffff; font-family : Arial, Helvetica, sans-serif;' color= '#ffffff'><b>What Kind of Geek are You?</b></a></font></td></tr>
+<tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Name </td><td bgcolor='#DDF3D8'><input type='text' name='in0' size='32' maxlength='64' value='Izzy'></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>DOB </td><td bgcolor='#DDF3D8'><input type='text' name='in1' size='32' maxlength='64' value='6291982'></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Favourite Color </td><td bgcolor='#DDF3D8'><input type='text' name='in2' size='32' maxlength='64' value='blue'></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>Your IQ is</b> </td><td bgcolor='#DDF3D8'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>frighteningly high</b></font></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>You are a</b> </td><td bgcolor='#DDF3D8'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>gamer geek</b></font></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>Your strength is</b> </td><td bgcolor='#DDF3D8'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>you can understand and use slang</b></font></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>Your weakness is</b> </td><td bgcolor='#DDF3D8'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>electrons</b></font></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>You think normal people are</b> </td><td bgcolor='#DDF3D8'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>aliens</b></font></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>Normal people think that you are</b> </td><td bgcolor='#DDF3D8'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>weird</b></font></td></tr><tr><td colspan=2 align=center bgcolor=#086023><input type=""submit"" name=""submit"" value=""Try Your Answers!""></td></tr>
+<tr><td colspan=2 align=center><font size=-1 style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><B>This <A href='http://www.kwiz.biz/' style='color : #000000;'><font style='color : #000000;' color=black>Quiz</font></a> by <a href='http://www.kwiz.biz/userprofile.php?userid=8705'><font style='color : #000000;' color='#000000'>owlsamantha</font></a> - Taken 279912 Times.<img src=""http://images.kwiz.biz/kwizcount.gif"" width=""1"" height=""1"" border=0>
+</font></a></b></font></td></tr></table><font style='font-family : Arial, Helvetica, sans-serif; font-size: 9pt;'><A href='http://www.kwiz.biz/simplesurveys/paid-surveys.php' style='text-decoration: none;'>Earn Money! Get paid to take surveys!</a></font></div>
+</form>"
+"eventtime","2007-11-02 00:01:00"
+"current_moodid","44"
+"url","http://izzyandjbj.livejournal.com/33156.html"
+"userid","7196"
+"itemid","126"
+"event","I'll just post everything twice.. no big deal"
+"eventtime","2007-09-06 14:19:00"
+"url","http://izzyandjbj.livejournal.com/32427.html"
+"userid","7196"
+"itemid","123"
+"event","The battle over confronting Jim rages on.... my dad has put me in the awful place of either confronting Jim or having him not attend any more family functions where Jim is present. NOT FAIR! I am not in the postion where confronting Jim is even a possibility. I don't think that my dad CAN'T tolerate Jim in the house.. it's simply that he doesn't WANT to.
+
+They are still working on the e-mail filled with empty threats. ERGH!
+
+I can't write anymore.. call me.. I do want to talk about this.. and many other things... I just can't type anymore."
+"eventtime","2007-08-29 19:18:00"
+"current_moodid","2"
+"url","http://izzyandjbj.livejournal.com/31651.html"
+"userid","7196"
+"itemid","122"
+"event","Winter
+Deep inside
+Blue-
+Cold and isolated
+A corpse lies in the corner
+Ice is stuck to the table
+The candle flickers
+Somewhere off in the distance there is a scream
+Something is coming
+It's reaching out
+Clawing to the surface
+Reaching through the ribcage
+Clawing at the heart
+Bleeding internally
+Through the eyes
+Down the cheeks
+Out every pore
+Cold
+Music plays softly
+Growls drown the goodness
+The sun never shines
+Freezer running
+The corpse isn't enitrely dead
+Living inside
+Playing in the corners of the mind"
+"eventtime","2007-08-28 00:52:00"
+"current_moodid","9"
+"url","http://izzyandjbj.livejournal.com/31352.html"
+"userid","7196"
+"itemid","118"
+"event","I am in excrutiating physical pain right now, my heart is skipping beats and sending these shock jolts through my body causing me to jerk.  In the nightmare I was testifying against Jim (Who btw was also the judge) and everyone was there (or at least I think they were, it was one of those dreams where you know people are there but you can't see them) and... he hurt me in the courtroom in front of everyone.  I was screaming and screaming and no one stopped him. The judge was laughing.
+
+I'm so tired guys. But I am really scared to go back to sleep.  :(
+
+I don't want to go through this anymore.
+
+I want to die!"
+"eventtime","2007-08-19 05:12:00"
+"current_moodid","9"
+"url","http://izzyandjbj.livejournal.com/30221.html"
+"userid","7196"
+"itemid","117"
+"event","SSd2ZSBlLW1haWxlZCB0aGlzIHRvIHlvdSBndXlzIGJ1dCBmaWd1cmVkIEknZCBwb3N0IGl0IHRvbw0KDQpUaGUgc25ha2UgY3JlZXBzIHNpbGVudGx5IHRocm91Z2ggdGhlIGdyYXNzDQpDb2xkLWJsb29kZWQgc2luaXN0ZXIgbGVnbGVzcyBjYXJuaXZvcmUgcGFja2VkIHdpdGggdmVub20NClNoZSBpcyBwdXJlbHkgYSBwZXRpdGUgbWFtbWFsDQpUaGUgZnJhZ2lsZSB2ZWlsIG9mIGlubm9jZW5jZSBjb3ZlcmluZyBoZXIgZXllcw0KSGVyIHNjcmVhbSBwaWVyY2VzIHRoZSBuaWdodCBza3kNClRoZSBmYW5ncyBwZW5ldHJhdGUgaGVyDQpMZWF2aW5nIGRlZXAgbWFya3MNClRoZSBzbmFrZSBzdHJpa2VzIHdpdGggaW50ZW5zaXR5DQpUaGUgdmVub20gaW52YWRpbmcgaGVyIGJvZHkNClNjcmVhbXMgZWNobyBvdmVyIHRoZSBtb29uIHNtb3RoZXJpbmcgaXQgd2l0aCB0aGVpciBoYW5kcw0KVGhlIGZhbmdzIGN1cmwgZGVlcCBpbnRvIHRlbmRlciBmbGVzaA0KTGVhdmluZyBibG9vZCBkcmlwcGluZyBkb3duIGZyb20gdGhlIGJpdGUNCkJ1cm5zIGFuZCBzaGFrZXMgaW4gdGVycm9yIGFuZCBwYWluDQpIZXIgaGVhcnQgdGhyb2JiaW5nDQpUaGUgdmVpbCBzbGFzaGVkDQpUb3JuIHRvIGNydW1icyBvZiB3aGF0IGl0IG9uY2Ugd2FzDQpTaGUgY2FuIG5vdyB3aXRuZXNzIHRoZSBtdXRpbGF0aW9uIG9mIGhlcnNlbGYNClNoZSBzd2VsbHMgYW5kIGJsaXN0ZXJzDQpIZXIgaW5zaWRlcyBoZW1vcnJoYWdlIGFuZCBoZXIgYnJhaW4gZGllcw0KU2hlIGNhbuKAmXQgYnJlYXRoZQ0KU2hlIGNhbuKAmXQgc2VlDQpTaGUgY2Fu4oCZdCBtb3ZlDQpTaGUgaXMgbXV0ZQ0KU29iYmluZyBpbiBwYWluIGZyb20gaGVyIHdvdW5kcyANClRoZSBzbmFrZSBoYXMgc3F1ZWV6ZWQgdGhlIGxpZmUgb3V0IG9mIGhlcg0KQW5kIHJlY29pbHMgaW4gc2ljayBzYXRpc2ZhY3Rpb24NCg0KDQpXaGF0IGRvIHlvdSB0aGluaz8/"
+"eventtime","2007-08-09 11:48:00"
+"current_moodid","90"
+"url","http://izzyandjbj.livejournal.com/30002.html"
+"userid","7196"
+"itemid","116"
+"event","Well it appears I have come crawling back to LJ. I am a complete bundle of nerves with the upcoming ""big tell"" on Thursday. I am scared, out of my mind. I can't sleep, I am eating junk like crazy, I am doing stuff only 50% because I can't keep my mind on anything for very long and I just can't stand being alone. Not that I really want to be physically around anyone either. So I guess I am driving everyone crazy with phone calls. I don't honestly care what is SAID; I don't care if ANYTHING is said, I just want the feeling that someone is there.
+Calabrese said that I should take more Seroquel if I get really nervous, that I can take up to 300 extra mg a day. She is fucking insane. The drug messes with my heart and makes me so tired and dopey I can't stand it. I'd rather be the way I am. I know the night of the big reveal I will drug myself half to death.
+I also got some blood results back and apparently I have a gene defect that makes me predisposed to depression because folic acid does not make it to my brain... if you are really interested in this I will explain it to you further, just ask. I am not going to go through homozygous and heterozygous traits and bring everyone back to biology class if you guys are not interested. Anyway...
+My godmother and her sister are still here. I never thought I would say this about my godmother but I just want them to leave already. I would have told tonight except my parents are still entertaining them and my mom will probably be driving Annie to the shore tomorrow. Not good timing. Not to mention that my therapist is on vacation and I would like to tell as close to when I see Dr. Spock again as possible without having to go to the shore. My mom was trying to guilt-trip me into going this afternoon. Reminding me that Jimmy is going to England for a year and this will be my last opportunity to see him. Also that Mag has been asking for me and everyone wants to see me. I pertended to just not care. I think a lot of things will make sense when I tell them.
+Still, I am scared out of my wits that they are not going to believe me. That they are going to call up Jim and he is (obviously) going to deny it and I will be the big liar. That Jim will confront me in some capacity and I will be forever banished and hated by my family. I've feared that for 18+ years. I am more afraid of what Jim would do if he found out I told than for my parent's reaction. In all honesty, I still fear that he could hurt me again. I know I am all grown up now and the probability of him raping me again is unbelievably low but... I am still very much afraid.
+I still live with them. Things are going to be so tense around here. I am SO SCARED they are not going to believe me. That something is going to go disastrously wrong and my life will never be the same. Like I said, my biggest fear is them confronting him. I think it is inevitable and I can do little to stop it. I just fear it more than I fear heights, death, hell, you name it... I am more afraid of them telling Jim I told. To quote Dr. Spock ""He has instilled the fear of God in you."" (I was shaking uncontrollably in her office last we spoke) I don't think anything I say could convey the level of terror running through my vains right now.
+I'm not really sad, I am not all that angry, I am just scared like no one would believe. I don't know what is going to happen. Crap, tears. My stomach is doing cartwheels and I... I can't explain it, I have NEVER been this scared with the single exception of the nights he was hurting me. My heart is pounding, I can feel it and it hurts.
+OK, to completely change the subject (I am just scaring myself) I am really hoping for this job. Cross your fingers...."
+"eventtime","2007-08-08 00:52:00"
+"current_moodid","46"
+"url","http://izzyandjbj.livejournal.com/29841.html"
+"userid","7196"
+"itemid","115"
+"event","Hi guys.
+
+I have written a letter to my mom letting her know that Jim was the one who hurt me.  Now, I just need to work up the energy to leave it on the table and deal with the aftermath. I am totally exhuasted from writing it, even though it is not long at all.
+
+OK, just thought you would like to know."
+"eventtime","2007-08-03 20:08:00"
+"current_moodid","9"
+"url","http://izzyandjbj.livejournal.com/29663.html"
+"userid","7196"
+"itemid","113"
+"event","It has come to my attention that neither one of you will ever understand what I am going through and you can't. So I quit. I was trying to hard to make you understand anyway. Come on guys, you can't understand what it is to me to have been raped for two simple reasons: 1) you were never raped and 2) you are not me. I'm tired of talking, I am tired of explaining myself in a stupid attempt to make you understand. I don't know what else I have but my words so it's going to be extremely hard to stop talking but, why do I even bother??? Even my emotions, which I think I am very good at conveying aren't being understood. I'm so frustrated.
+
+FUCK THIS! I am done. This is my last lj post. I quit."
+"eventtime","2007-06-25 17:26:00"
+"current_moodid","47"
+"url","http://izzyandjbj.livejournal.com/29134.html"
+"userid","7196"
+"itemid","109"
+"event","Welcome to the party,
+Come on in and disappear,
+You're feeling like stranger,
+But all your friends are here,
+Little lies and cracks,
+Around your eyes and mouth,
+Something's trying to get in,
+Something's trying to get out,
+
+It's ok, to be a little broken,
+Everybody's broken, in this life,
+It's ok, to feel a little broken,
+Everybody's broken, your alright,
+It's just life,
+
+Step into the deep end,
+Make yourself at home,
+When you wonder why your breathing,
+Know your not alone,
+Its so hard to believe,
+Its easier to doubt,
+You're trying to hold in,
+But your dying to scream out,
+
+It's ok to be a little broken,
+Everybody's broken,
+In this life,
+It's ok to feel a little broken,
+Everybody's broken, your alright,
+It's alright, its just life
+
+[Solo]
+
+Take a look around,
+Tell me what you see,
+Is who you think you are,
+Who you want to be,
+
+It's ok, to be a little broken,
+Everybody's broken, in this life,
+It's ok, to feel a little broken,
+Everybody's broken, your alright,
+Just keep on going,
+Eyes wide open,
+Everybody's broken
+Everybody's broken
+Everybody's broken
+Everybody's broken
+Everybody's broken
+Everybody's broken
+Yeah"
+"eventtime","2007-06-19 15:03:00"
+"current_moodid","125"
+"url","http://izzyandjbj.livejournal.com/28010.html"
+"userid","7196"
+"itemid","108"
+"event","I don't really know what to say, I have tears in my eyes that I think are just from everything I have kept bottled up all these years. I'll probably do a lot of crying in the days to come. I want to be held so that the tears will actually come, otherwise, I don't think they will tonight. I want to let these tears out, just let it all out. Scream and cry. 
+
+I can say it ""Jim hurt me, he raped me when I was 7. I've done a lot of distructive things to cope, to scream out to the world about my pain because it was so overwhelming and so overpowering that I couldn't control it."" I think now I can get my life back on track, the last 18 years are gone. To tweek a song by Guns N Roses ""It's been 18 years of silence, it's been 18 years of pain, it's been 18 years that are gone forever, and I'll never have again."" I always thought that was a depressing message, but right now, it's a message of freedom, the pain is there, but it's the past. Jim raped me, that will forever be true. But I am going to be OK, it'll always hurt and somedays it's going to kill but it's the past.
+
+I think now that I can ask my mom for hugs and go to them when this gets to be to much I'll do better. I really think that I'll be OK. I am going to have bad days, sure, but I think that overall I am going to have less of them.
+
+I'll be OK. This is my life, I have made it this far. I've got to believe that right here right now I am exactly where I'm supposed to be. And I do.
+
+Jon's right when you're about to give up and your hearts about to break you have to remember that you're perfect, that God makes no mistakes. I don't think I'll ever understand why God closed his eyes and the world got mean that July but, there's got to be a reason. Maybe I am supposed to write this book. I don't know. There's reason, and maybe one day I'll know the reason, but for now I need to just live, get on with it. Stop mopeing. I'll be all right."
+"eventtime","2007-06-18 22:17:00"
+"current_moodid","64"
+"url","http://izzyandjbj.livejournal.com/27805.html"
+"userid","7196"
+"itemid","107"
+"event","In a good way. Like I said I feel so free. I know it's going to be hard dealing with my folks now that they know. Can I move in with anyone until things die down? I just don't know what is going to happen over dinner tonight... I am dreading that. Ambush? Probably not, I think it is going to be really awkward though. 
+Maybe therapy will be easier too. Maybe I won't need a hynotist to talk about it. I think the hardest part is over, they know someone abused me. OK the hardest part is going to be telling them WHO but now they know for sure something happened. I'm just nervous, but I wouldn't say scared.
+I think my destructive behaviors will probably die down, although I have only had breakfast today, I'm not terribly hungry. I need to unload the dishwasher. Sorry, that is just a reminder to myself.
+I need to e-mail Tim, just tell him I told and I feel better.
+Ok, that's it. Hope to talk to you guys later. :)
+Byeness."
+"eventtime","2007-06-18 15:45:00"
+"current_moodid","15"
+"url","http://izzyandjbj.livejournal.com/27486.html"
+"userid","7196"
+"itemid","106"
+"event","<lj-embed id=""7"" />
+
+
+AND I told my parents! I've never felt this free!"
+"eventtime","2007-06-18 12:43:00"
+"current_moodid","90"
+"url","http://izzyandjbj.livejournal.com/27332.html"
+"userid","7196"
+"itemid","100"
+"event","ARGH! My fucking body! I've gained weight... again. I can't seem to get back down to 137 where I am happy. I was at 132 ARGH! I need to lay off food for a while, see if that gets me down to where I am happy because clearly purging is not doing it. I am so fucking ugly I can't take it anymore. Pot-bellied pig! Oink Oink! God! I am repulsed by myself. OK I know this whole post is going to piss people off and I should keep all this weight stuff to myself because I seem all emo when I share it but it gets it out of my head. But seriously, I AM fat and I NEED to loose the weight at LEAST the 4 pounds. Ideally, I'd like to be 130 just so I could say I lost 100 pounds. I'd also probably loose the tummy by then. My middle is IMMENSE! It sickens me. My arms are pudgy, my face... I am so unhappy with the way I look I could cry."
+"eventtime","2007-06-09 16:05:00"
+"current_moodid","97"
+"url","http://izzyandjbj.livejournal.com/25642.html"
+"userid","7196"
+"itemid","99"
+"event","I am now hearing voices SO LOUD! I am loosing my grip, I can't take it. HELP ME! The only way I am going to calm myself is to cut, maybe just holding something sharp against my skin... *whimper* I am dry crying and hyperventilating and my skin is starting to burn. I can't calm myself. My mom loves him, my family loves him. I'm just the defective one, I can't do anything right. I can't hold a job, I can't please my parents, I've been in the fucking mental hospital 10 times. I am too fucked for the doctors to even figure out and I am too weak to tell them what happened because I know it is my fault. It IS my fault. I am stupid and worthless and I deserved it. I should go kill myself. I should throw myself in front of a train. Go jump off an overpass, something other than the fucking pills that never fucking work. I need a fucking gun. BANG! Over. I just want it to end. I took my meds. 
+
+Worthless. They love him, I am nothing.
+
+He threw me down on the bed of pain,
+And told me to give it up.
+He forced me to let him inside to end the sunset.
+
+It was over he told me nothing has changed
+
+He was right
+I am nothing
+And I have changed.
+
+I wrote that one years ago and it just came back to me. I think it was jr high maybe I was about 12. It's always killed me I can just put it aside sometimes. I can't, I can't, I can't. I can't make it go away. WHY WON'T IT GO AWAY?! I hate myself, I am the stupid whore. He didn't take advantage of me I wanted it. Kill me. PLEASE, JUST MAKE IT STOP!
+
+Flashback. They are never going to believe me, he's perfect. I am defective. I'm a fucking schizo. I don't know what I am talking about. I made the whole thing up. They won't believe me. They love HIM! They adore HIM! WHY?! WHY?! WHY don't they love me?! My heart is breaking. I want my mom.
+
+There are the tears. I think of my mom and the tears always come. She'll never love me after I destroy the family. If I tell and my family is destroyed it's MY fault. I shouldn't ever tell. I can live with this, I can die with this. I don't care, I need my family intact. I love my family even though they love him more than me and they would take his word over mine any day of the week. *whimper*
+
+I'm going to go throw up nothing."
+"eventtime","2007-06-09 13:18:00"
+"current_moodid","111"
+"url","http://izzyandjbj.livejournal.com/25400.html"
+"userid","7196"
+"itemid","98"
+"event","I am in the most emotionally excruciating pain of my life and I am alone. I shouldn't be. I lashed out at Trish and sent Tim a desperate e-mail yesterday. I wish I hadn't done either. Trish'll probably forgive me but I am sure I have freaked Tim out. I'm just really, really down. I want to talk about what happened to me, right now, no regrets. I need to be held because I am going to fall apart. I'm not really sure how much longer I can remain even somewhat in control of myself. My parents came in and told me that my dad is going to see Lars and my mom is going to see my grandparents; my response was almost ""Dad, have fun with the only member of the family who cares about me and mom have fun with my rapist."" I restrained myself. I know that the fact that Jim raped me is going to come flying out of my mouth one day in a fit of rage. It's not going to come out in a calm manner it's going to come out when I am just so frustrated I just scream it. I keep getting close, I get so frustrated with my parents sometimes; simply because they don't know what happened. I am ready to go nuts, I am SO SICK of holding myself together, not screaming, not crying for more than a minute at a time. I just need so much to fall completely apart. I need someone with me to help me pick up the pieces when I do loose it because it is coming. I feel like I am restraining this wild animal that lives beneath my skin and it is getting harder and harder. I want to scream until my lungs burst, I want to cry a river. I can't scream, I can't cry. The scream is caught in my throat and my eyes are dry. All I can manage right now are yelps. Seriously, if I called one of you guys right now I would probably just whimper in your ear. I am a volcano about to erupt. I can feel it. JIM RAPED ME! I can't LIVE like this! WHY?! What did I do to deserve it?! I must have done SOMETHING! 
+
+Help me, I am in hell and I don't understand why."
+"eventtime","2007-06-09 12:49:00"
+"current_moodid","127"
+"url","http://izzyandjbj.livejournal.com/25195.html"
+"userid","7196"
+"itemid","97"
+"event","Up in the sweltering, dusty, attic,
+On a shelf just out of a child's reach,
+The once loved objects of childhood sit in a cardboard box marked ""sell.""
+The white teddy bear with the royal blue jersey,
+The Peter Rabbit lamp with black lettering,
+A cream blanket with a seal on it.
+
+She sits in the box marked ""trash.""
+With the one-eyed dog that smells like vomit,
+Torn cloth,
+Old documents that include the word ""stop.""
+
+Once she was considered valuable
+Red-brown hair and marble green eyes
+Her hair, now dull, still has the lines from a long lost careful brushing
+
+She probably came with an outfit
+Perhaps a plaid dress in greens and browns
+With shiny black shoes
+Or a bathing suit in blue and pink
+Maybe even a cute little nighttime outfit too.
+
+But now she sits among debris in her white nakedness.
+Not understanding why she was deemed ""trash""
+Worthless and meaningless to those who once loved her.
+
+""You are trash because of the tear.""
+She falls, her eyes shut, and one tear escapes.
+
+She is now enveloped by the scent of vomit,
+Blinded by rags,
+And surrounded by the very word that hung from her painted on pink lips
+The word she wanted to scream the day she was torn
+
+Stop.
+
+
+
+
+
+
+I think it's beautiful. Would it be TOTALLY out of line to send it to Tim? We used to communicate starting with my poems on my guitar case, this is probably as good as it gets these days, I am proud of it. So opinions PLEASE! Should I send it to Tim?"
+"eventtime","2007-06-03 20:02:00"
+"current_moodid","25"
+"url","http://izzyandjbj.livejournal.com/25043.html"
+"userid","7196"
+"itemid","96"
+"event","I just had the absolute worst nightmare. It was like living it all over again.
+
+Nevermind."
+"eventtime","2007-06-03 07:15:00"
+"current_moodid","127"
+"url","http://izzyandjbj.livejournal.com/24603.html"
+"userid","7196"
+"itemid","94"
+"event","So, I just puked. I've got that icky acidy taste in my mouth. I hate myself, I should just stop eating but throwing up is so much easier. I'm getting really big, I broke that number that I promised myself I wouldn't break. I'm fine as long as I am even half a pound under but I am now 2 1/2 pds OVER my absolute max that I can handle. And it's all in my middle, WHEN did I get pregnant? Even my slender little arms are getting too big. I'm so fucking FAT! I want to do it again, I still feel out of control, I don't recall what I ate today only that it was a lot. I got to get rid of all of it. I'll be back. I hate myself for eating as much as I have lately. I am literally on the verge of tears right now just looking at my stomach between sentences. I hate my body. Oh God, now I am crying. I hate myself, I've been crying so much lately. Seriously, I kinda want plastic surgery just to get rid of all this flab. I feel so out of control. Even my face is getting pudgy. I hate my body, I hate myself."
+"eventtime","2007-06-01 20:35:00"
+"current_moodid","25"
+"url","http://izzyandjbj.livejournal.com/24204.html"
+"userid","7196"
+"itemid","93"
+"event","Of feeling the way I do. I really want to crawl into Tim's arms and die. I also want to call the hotline but I only seem to have the nerve when my parents are in the house and it is late at night. During the day, I loose my nerve. And what do I say? Hi. My grandfather raped me when I was 7? I want to tell my parents but I am terrified? *tears* 
+
+I can't do this. I just can't. I'm sorry.
+
+I'll go to sleep now. :'("
+"eventtime","2007-05-31 23:32:00"
+"current_moodid","31"
+"url","http://izzyandjbj.livejournal.com/23833.html"
+"userid","7196"
+"itemid","91"
+"event","You have no idea how good that makes me feel. Dr. Spock put it best ""If you don't feel it is going to help you then it won't and you shouldn't go."" So yeah, I am quitting.
+
+I am upping my visits to Dr. Spock to twice a week and hopefully will be able to see Dr. Calabrese more often too but I won't find out that until tomorrow.
+
+I appologize for this... Jim hurt me. It's killing me.I just want someone to hold me right now. I miss John. I REALLY miss Tim. I'd send him an e-mail but I don't know what I'd say to him other than I hurt and I don't know what to do. *tears* no, I am not crying right now! I need to quit it. Why did he hurt me? NO! NO CRYING! ARGH! I fucking hate myself! I'm so sick of feeling like I am containing this thing under my skin that is eating me alive. Jim... WHY?! I want to scream that from the mountaintops I just don't understand. I am crying now. I don't WANT to cry. I am sick of being in pain. I really want to tell you guys about it. I know I've typed almost all of it, but I really want to talk. I really feel I am ready to talk about it with a friend. It's killing me to pretend that I am OK. I'm not. Far from it. 
+
+Tim."
+"eventtime","2007-05-29 23:02:00"
+"current_moodid","7"
+"url","http://izzyandjbj.livejournal.com/23517.html"
+"userid","7196"
+"itemid","90"
+"event","So yeah, he was just here. But he didn't even come inside, I gave him quite the look when he was dropping off the dogs. I am sure he knew what it ment.
+
+I feel dirty and like I need someone to talk to.
+
+Call me."
+"eventtime","2007-05-27 16:12:00"
+"current_moodid","25"
+"url","http://izzyandjbj.livejournal.com/23241.html"
+"userid","7196"
+"itemid","89"
+"event","I'm not up or down right now. I am fine. I appologize for my previous 7 posts. When no one is around to talk to and I am drunk I guess I will do anything as a form of communication. Sorry guys!"
+"eventtime","2007-05-27 12:42:00"
+"current_moodid","68"
+"url","http://izzyandjbj.livejournal.com/22849.html"
+"userid","7196"
+"itemid","88"
+"event","What did I do to my kunckle?
+
+OH I WANT TO BE JUST AS CLOSE AS THE HOLY GHOST IS AN LAY YOU DOWN ON A BED OF ROSES! I bet on the CD he doesn't forget the words.
+
+WEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+God my liver is making interesting noises. I don't think it's my stomach.
+
+Ok ok I REALLY need to stop with the LJ.
+
+But if I stop I will crash and be sad :( Grrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+
+Fucking A
+
+Why did I get drunk?
+
+Because being drunk is fun!
+
+Oh no not this again
+
+I am interesting when I start talking to myself
+
+I'm going to puke
+
+Bye again... I'll be back."
+"eventtime","2007-05-27 08:06:00"
+"url","http://izzyandjbj.livejournal.com/22723.html"
+"userid","7196"
+"itemid","87"
+"event","Hell I don't know I can be expected to complete sentences right n-"
+"eventtime","2007-05-27 08:05:00"
+"current_moodid","34"
+"url","http://izzyandjbj.livejournal.com/22296.html"
+"userid","7196"
+"itemid","86"
+"event","I CAN FLY!!!!!!! :)"
+"eventtime","2007-05-27 08:04:00"
+"current_moodid","34"
+"url","http://izzyandjbj.livejournal.com/22172.html"
+"userid","7196"
+"itemid","84"
+"event","Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me.Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me. Jim raped me."
+"eventtime","2007-05-27 04:43:00"
+"current_moodid","129"
+"url","http://izzyandjbj.livejournal.com/21585.html"
+"userid","7196"
+"itemid","83"
+"event","Is all I seem to be able to get tonight, yeah I had WAY to much to drink. I was only truly drunk for a little while. I sobered up pretty fast when Dean was giving me my ""massage"" My back is completely numb, this should make for an interesting night. 
+
+I had an ENTIRE bottle of Baileys (no joke!) and three Strawberry Daiquiris. Yeah, not really the best of ideas and I don't reccommend it. 
+
+Shit...  I can tell I am going to have a complete meltdown. Hallucinations and flashbacks. A nightmare woke me up. I think I smell like pot but I can't really tell. 
+
+4:30?! Can the night just be fucking OVER so I don't have to sit in the darkness in my room playing Bon Jovi on my portable CD player for hours on end? Seriously, I hate playing the ""I am asleep... NOT"" Game with my parents. I'd really like to be sculpting.
+
+I'm about to loose it. I am having this feeling that I am being watched and I am afraid to turn around. Something is touching me. Fuck.
+
+Help me."
+"eventtime","2007-05-27 04:19:00"
+"current_moodid","46"
+"url","http://izzyandjbj.livejournal.com/21300.html"
+"userid","7196"
+"itemid","82"
+"event","...but I didn't.
+
+I went to the pig roast in Glastonbury with my friend Jen. I had quite a bit to drink I admit. (Sorry Linz for the drunk dial!) I'm fine in that respect right now.
+
+I'm not fine in other respects. I talked with Jen's friend Dean. Now, let me tell you Dean was probably old enough to be my grandfather (you see where I am going with this?) And ""Noank sleeping sickness"" came up. Turns out he knows a thing of two about Noank and the name Jim English and the boat ""The Whippit"" sound familiar to him.
+
+So, my grandfather and what happened is clearly in my head at the time.
+
+He started giving me a massage and fondeling my breasts. I couldn't move or scream or really call attention to it.
+
+Jen didn't seem to think it was a big deal. He was ""just flirting"" with me.
+
+I am NOT OK."
+"eventtime","2007-05-27 01:15:00"
+"current_moodid","74"
+"url","http://izzyandjbj.livejournal.com/21034.html"
+"userid","7196"
+"itemid","81"
+"event","They are dropping off the fucking whippits right now so he is downstairs. I thought he was here last night but it turned out to be my cousin Tom who happens to sound a bit like him. 
+
+Meanwhile, I continue to gain weight. I know I am about to get my period and that's why but it still bothers me. If I break 140 I WILL go back to purging. 
+
+I want to quit the fucking day program. 2 fucking weeks out of my life gone, chewed up by the fucking lameass partial hostpial program. Learning how to say ""no"" WTF?! I know how to say ""no"" it's bullshit. Yeah, I am going to waste two weeks of my life learning how to say no so I can earn a fucking stone. Here's an idea, how about I practice saying ""no"" by saying ""NO FUCKING WAY!"" to this program?!
+
+I'm still stuck on what I did to deserve it. I really think I did something wrong. I need to call that hotline and hope they can make that feeling go away. Or at least become less. I really am getting sick of trying to rationalize with myself. I try to tell myself that I didn't do anything to deserve the rape but I have a hard time with that because I can't seem to make myself blame him. I hate him. I hate what he did. I just blame myself.
+
+:("
+"eventtime","2007-05-26 14:55:00"
+"current_moodid","6"
+"url","http://izzyandjbj.livejournal.com/20970.html"
+"userid","7196"
+"itemid","80"
+"event","Will my mom just GO AWAY?! I really want to call the hotline, I am really upset about it right now. I am trying not to cry. I am tried of crying about it.
+
+I told Tim I would call. I know he'll understand but the fact is I don't lie to Tim and I really do want to talk to someone who is trained and can help me. 
+
+I just wish I had a cell phone and could just go somewhere and call.
+
+And now my dad is home, great. I just want some fucking privacy!
+
+I'll TRY to write a long entry later when I can be alone."
+"eventtime","2007-05-25 17:04:00"
+"current_moodid","28"
+"url","http://izzyandjbj.livejournal.com/20528.html"
+"userid","7196"
+"itemid","79"
+"event","The only way they could get me to stay in this fucking partial hospital program would be if I could fuck Jon Bon Jovi in the end.
+
+They won't let me see my doctors, THEY want to be my doctors! HELL NO! The Drs I met with today, one was OK the other was asking me all about the rape. I was able to answer his questions but they are not Dr Spock and Dr Calabrese both of whom I have a degree of trust with. I just want to get back to ""normal"" I want to be looking for a job and seeing my regular Drs not being trapped in a day treatment program from 9-2 every fucking day. They want me to do it for two weeks to ""give it a try."" NO! It's bullshit.
+
+And my mom has left the office and is probably on her way home so I can't call the hotline, which has me even more pissed off because I would have actually done it had she not told me she was going to come home early. I want my parents to spend the night at work so I can call the hotline in privacy.
+
+ARGH! She's home gtg."
+"eventtime","2007-05-25 15:24:00"
+"current_moodid","24"
+"url","http://izzyandjbj.livejournal.com/20367.html"
+"userid","7196"
+"itemid","78"
+"event","I HATE GROUPS! I HATE THIS PARTIAL HOSPITAL PROGRAM THAT I HAVEN'T EVEN FUCKING GONE TO YET. I KNOW EXACTLY WHAT TO EXPECT... GROUPS GROUPS AND MORE FUCKING GROUPS! THEY ARE SO FUCKING LAME I FEEL LIKE I HAVE GONE BACK TO FUCKING KINDERGRADEN AND NEED TO LEARN HOW TO FUCKING COLOR IN THE LINES AGAIN! OR, WE SIT THERE AND TALK ABOUT BULLSHIT! THINGS LIKE HOW NOT TO FEEL GUILTY ABOUT SHIT. UHH... FEELING GUILTY IS A NATURAL HUMAN EMOTION AND WE SHOULDN'T SIT AROUND MAKING PEOPLE FEEL GUIILTY FOR FEELING GUILTY. WHAT BULLSHIT!
+
+ON TOP OF THIS, I AM ABOUT TO HIT 140 ON THE SCALE. NO! FUCK NO! I WILL NOT LET THAT HAPPEN! WHAT THE FUCK HAPPENED TO 132? WHAT THE FUCK HAPPENED TO ME HITTING THE 100 POUND MARK? GOD, CLEARLY I AM EATING TOO FUCKING MUCH. 
+
+On the calm but totally freeked out side, I am planning to call the RAINN hotline this afternoon. (Rape And Incest National Network) I really hope I am able to talk. Jim raped me. I just wish I had the stength to say that out loud. 
+
+I told Tim I would try to do it. I don't lie to Tim. So I will try. I told him I would e-mail him when I do and tell him how it goes. WHY do I love that man so much? WHY would I do ANYTHING to please him? Probably because I feel I can do and say anything to him and he'll still be there. I really don't feel that way about ANYONE else. Tim would never walk away. I love him. 
+
+Crying, I am so sick of fucking crying. I want to tell my mom and dad but in a way I feel like by not telling them it is not real. It IS... he did... AGRH! I don't want to have to deal with this anymore. I just want it to go away. Incest. God. Why? Why ME? Why ANYONE? Seriously, 1 in 4 women? Me, Motts, Talia, Lindsey... me. I wouldn't wish this on any of them but, WHY ME? 
+
+I don't want to cry anymore.
+
+I need to go in 40 minutes. Yeah, did I mention that thanks to the fucking bus system I will be half an hour early for this?
+
+And I am doing all of this shit because he raped me. That's the biggest insult of them all. I'm doing all these things that I don't deserve because my grandfather raped me. I've been trying to kill myself for 12 years because he raped me. I have been instutionalized.... 9 times? 10? God, I have lost track... 9 I think... because he raped me. I have been on drugs for 12 years because he raped me. I have had falshbacks, nightmares, hallucinations ALL because he raped me. WHY do I have to be punished? He punished me enough. That's what he would tell me. I had to be punished. That I did something wrong. I believe him. I wouldn't have to do through all of this if I didn't do something wrong. I just don't know what I did as a child to warrent being raped. To explain everything I have been through. WHAT DID I DO WRONG? WHAT?!"
+"eventtime","2007-05-25 07:02:00"
+"current_moodid","24"
+"url","http://izzyandjbj.livejournal.com/20107.html"
+"userid","7196"
+"itemid","77"
+"event","SW4gbXkgcmVhcnZpZXcgbWlycm9yDQpNeSBsaWZlIGlzIGdldHRpbmcgY2xlYXJlcg0KVGhlIHN1bnNldCBzaWdocyBhbmQgc2xvd2x5IGRpc2FwcGVhcnMNClRoZXNlIHRyaW5rZXRzIG9uY2Ugd2VyZSB0cmVhc3VyZQ0KTGlmZSBjaGFuZ2VzIGxpa2UgdGhlIHdlYXRoZXINCllvdSBncm93IHVwLCBncm93IG9sZCBvciBoaXQgdGhlIHJvYWQg4oCZcm91bmQgaGVyZQ0KU28gSSBkcml2ZSwgd2F0Y2hpbmcgd2hpdGUgbGluZXMgcGFzc2luZyBieQ0KV2l0aCBteSBwbGFzdGljIGRhc2hib2FyZCBKZXN1cywgd2FpdGluZyB0aGVyZSB0byBncmVldCB1cw0KDQpIZXksIGhleSwgSSBmaW5hbGx5IGZvdW5kIG15IHdheQ0KU2F5IGdvb2RieWUgdG8geWVzdGVyZGF5DQpIaXQgdGhlIGdhcyB0aGVyZSBhaW7igJl0IG5vIGJyYWtlcyBvbiB0aGUgbG9zdCBoaWdod2F5DQpZZWFoIEnigJltIGJ1c3RpbmcgbG9vc2UsIEnigJltIGxldHRpbmcgZ28NCk91dCBvbiB0aGlzIG9wZW4gcm9hZA0KSXTigJlzIGluZGVwZW5kZW5jZSBkYXkgb24gdGhpcyBsb3N0IGhpZ2h3YXkNCg0KSSBkb27igJl0IGtub3cgd2hlcmUgSeKAmW0gZ29pbmcNCkJ1dCBJIGtub3cgd2hlcmUgSeKAmXZlIGJlZW4NCk5vdyBJ4oCZbSBhZnJhaWQgb2YgZ29pbmcgYmFjayBhZ2Fpbg0KU28gSSBkcml2ZSwgeWVhcnMgYW5kIG1pbGVzIGFyZSBmbHlpbmcgYnkNCkFuZCB3YWl0aW5nIHRoZXJlIHRvIGdyZWF0IHVzDQpJcyBteSBwbGFzdGljIGRhc2hib2FyZCBKZXN1cw0KDQpPaCBwYXRyb24gc2FpbnQgb2YgbG9uZWx5IHNvdWxzDQpUbyB0ZWxsIHRoaXMgYm95IHdoaWNoIHdheSB0byBnbw0KR3VpZGUgdGhlIGNhciwgeW91IGdvdCB0aGUga2V5cw0KRmFyZXdlbGwgdG8gbWVkaW9jcml0eQ0KS2lja2luZyBvZmYgdGhlIGNydWlzZS1jb250cm9sDQpBbmQgdHVybmluZyB1cCB0aGUgcmFkaW8NCkdvdCBqdXN0IGVub3VnaCByZWxpZ2lvbg0KQW5kIGEgaGFsZiB0YW5rIG9mIGdhcyBjb21lIG9uLCBsZXTigJlzIGdv"
+"eventtime","2007-05-22 21:15:00"
+"current_moodid","14"
+"url","http://izzyandjbj.livejournal.com/19851.html"
+"userid","7196"
+"itemid","76"
+"event","Sorry guys but I am REALLY sad. I don't want to die I just don't know what my next move is. I feel better, I really do. Just lost. 
+
+It'll get better, but I know that now I have to face the rape, head on. No more hiding behind an eating disorder, drinking, cutting. It's really, really scary.
+
+I think I am starting to accept the rape, It happened and it sucks but I can't change it. As much as I would like to, I can't. I have to put it in perspective, decide what it means to me and move on.
+
+I'm going to need a lot of support as I do this guys because I am really, really scared and vulnerable right now. I am no longer hiding.
+
+THANK YOU JOHN! :) I couldn't have reached where I am right now without him. I am so glad I went to the hospital when I did or I wouldn't have met him and I would NOT be thinking this way right now.
+
+I'm going to be OK. I just need to keep telling myself that."
+"eventtime","2007-05-21 22:43:00"
+"current_moodid","46"
+"url","http://izzyandjbj.livejournal.com/19544.html"
+"userid","7196"
+"itemid","75"
+"event","I am about to do it. 
+
+15,150 mg of Seroguel (average dose 450mg)
+91 mg of Prazosin (average dose 2-3mg)
+
+If this doesn't kill me... I am immortal.
+
+I'll write again when they are in my system.
+
+I love you guys.
+
+Goodbye."
+"eventtime","2007-05-14 11:31:00"
+"current_moodid","68"
+"url","http://izzyandjbj.livejournal.com/19405.html"
+"userid","7196"
+"itemid","74"
+"event","For now. I am actually done with the damn cat tomorrow AM, so with any luck this is my last full day on the planet. 
+
+I love you guys."
+"eventtime","2007-05-13 17:09:00"
+"url","http://izzyandjbj.livejournal.com/19088.html"
+"userid","7196"
+"itemid","73"
+"event","Fuck everyone and everything! Maybe I'll do it right now, today. My folks can take care of the damn cat. No one really gives a shit about me, my folks aren't home, they are not here to rush me to the hospital where they will save my horrible, awful life. No, better than them simply not being here, they are at the fucking SHORE with HIM! I really wanted to see my uncle and the kids, but I can't because they are at the house of horrors with my rapist. 
+
+I just don't fucking care anymore, and I really don't want to have to wait until Wednesday, that's 4 more fucking days of this life. I CAN'T TAKE IT ANYMORE! I can't take the pain! 
+
+Fucking cat. I want to die and I have to take care of it? 
+
+I'll go feed it, perhaps for the last time and when I get home I'll decide my next move.
+
+This is maybe my last entry... maybe I'll write one after I take the pills... maybe I won't do it until Wednesday... I'd say something comforting but you guys probably won't read it anyway."
+"eventtime","2007-05-12 08:55:00"
+"current_moodid","123"
+"url","http://izzyandjbj.livejournal.com/18819.html"
+"userid","7196"
+"itemid","71"
+"event","WEDNESDAY NIGHT! There, now you know. Not that you CARE. I'm leaving this fucking shithole planet. Quite frankly, if I weren't watching the damn cat I'd be killing myself right now. But I am, so I'm not. Damn my feelings of responsibility. I don't fucking care about myself anymore. Hell, why don't I just stop taking my medication? It's not doing anything. I want to brake everything, I want to play music at top volume just to annoy people. I don't fucking care. Why should I? No one gives a rats ass about me. 
+
+Fuck it, I am stopping right here."
+"eventtime","2007-05-11 21:54:00"
+"current_moodid","24"
+"url","http://izzyandjbj.livejournal.com/18204.html"
+"userid","7196"
+"itemid","70"
+"event","Down 2 pounds! Granted, it all could be water weight or the time of the month but I've been working on it so... JOY!"
+"eventtime","2007-05-11 08:07:00"
+"current_moodid","90"
+"url","http://izzyandjbj.livejournal.com/18009.html"
+"userid","7196"
+"itemid","69"
+"event","<lj-embed id=""5"" />"
+"eventtime","2007-05-10 22:49:00"
+"current_moodid","25"
+"url","http://izzyandjbj.livejournal.com/17823.html"
+"userid","7196"
+"itemid","68"
+"event","I am trying to sleep, I panic. Today, I threw up my dinner. I can't seem to calm down without a sharp object against my skin, I have only actually cut twice (well if you count scratches it's 4) but I've been holding the blade to my legs or wirsts whenever I feel really out of control. I've been hearing voices a lot. I've been trying to write my note but it isn't coming out right, and I am thinking about the date. I have 91 pills of the blood pressure lowering stuff. I'll probably get more Baileys tomorrow. My stomach hurts. Incest Incest Incest God why do I have to be taking care of the damn cat right now I want to go kill myself NOW!!! NOW NOW NOW NOW NOW!"
+"eventtime","2007-05-09 22:17:00"
+"current_moodid","9"
+"url","http://izzyandjbj.livejournal.com/17615.html"
+"userid","7196"
+"itemid","67"
+"event","Why do they all hate me?
+Have I done something wrong?
+Everybody's disappeared,
+Everybody's gone.
+
+I wish someone would come and get me
+And never leave me again
+And all I really need
+Is one true friend
+
+I wish they'd come and get me
+I'd make them tell me why
+They left me here with one intent
+They left me here to die."
+"eventtime","2007-05-09 01:17:00"
+"current_moodid","9"
+"url","http://izzyandjbj.livejournal.com/17243.html"
+"userid","7196"
+"itemid","66"
+"event","<lj-embed id=""4"" />
+
+
+
+I love him!"
+"eventtime","2007-05-04 00:26:00"
+"current_moodid","127"
+"url","http://izzyandjbj.livejournal.com/17032.html"
+"userid","7196"
+"itemid","65"
+"event","Just tell me you'll understand when I kill myself."
+"eventtime","2007-05-03 21:10:00"
+"url","http://izzyandjbj.livejournal.com/16831.html"
+"userid","7196"
+"itemid","63"
+"event","And I am tired of being scared. I am tired of feeling violated, I am tired of having been raped. I am tired of the flashbacks, the nightmares, the voices. WHY does what happened have to distroy me like this? I feel like the train is coming and there is no way to stop it. I am going to die. I put up the picture of Jon to maybe make myself feel a little better and a little less alone. I need to be held. I really do feel like I am still 7 and I am about to go to bed and be awoken by Jim. Is this what my life has come to? I have one day where I barely sleep at all and then the next I sleep 13 hours?! I don't want to live that way. I don't want to have nightmares, I don't want to be scared to go to sleep. Part of me really does think he is going to wake me up, take me to the basement and rape me. I try to rationalize to myself that it is not going to happen and that I am safe but I get myself all worked up and scared then I start having flashbacks and any rational goes out the window.
+I am litterally willing myself to death right now. I can't take the pain anymore. 
+Flashback.
+Jim raped me.
+Nevermind."
+"eventtime","2007-05-03 01:03:00"
+"current_moodid","127"
+"url","http://izzyandjbj.livejournal.com/16376.html"
+"userid","7196"

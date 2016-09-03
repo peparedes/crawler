@@ -1,0 +1,751 @@
+"names","values"
+"itemid","198"
+"event","<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves />
+  <w:TrackFormatting />
+  <w:PunctuationKerning />
+  <w:ValidateAgainstSchemas />
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF />
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables />
+   <w:SnapToGridInCell />
+   <w:WrapTextWithPunct />
+   <w:UseAsianBreakRules />
+   <w:DontGrowAutofit />
+   <w:SplitPgBreakAndParaMark />
+   <w:DontVertAlignCellWithSp />
+   <w:DontBreakConstrainedForcedTables />
+   <w:DontVertAlignInTxbx />
+   <w:Word11KerningPairs />
+   <w:CachedColBalance />
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val=""Cambria Math"" />
+   <m:brkBin m:val=""before"" />
+   <m:brkBinSub m:val=""&#45;-"" />
+   <m:smallFrac m:val=""off"" />
+   <m:dispDef />
+   <m:lMargin m:val=""0"" />
+   <m:rMargin m:val=""0"" />
+   <m:defJc m:val=""centerGroup"" />
+   <m:wrapIndent m:val=""1440"" />
+   <m:intLim m:val=""subSup"" />
+   <m:naryLim m:val=""undOvr"" />
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=""false"" DefUnhideWhenUsed=""true""
+  DefSemiHidden=""true"" DefQFormat=""false"" DefPriority=""99""
+  LatentStyleCount=""267"">
+  <w:LsdException Locked=""false"" Priority=""0"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Normal"" />
+  <w:LsdException Locked=""false"" Priority=""9"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""heading 1"" />
+  <w:LsdException Locked=""false"" Priority=""9"" QFormat=""true"" Name=""heading 2"" />
+  <w:LsdException Locked=""false"" Priority=""9"" QFormat=""true"" Name=""heading 3"" />
+  <w:LsdException Locked=""false"" Priority=""9"" QFormat=""true"" Name=""heading 4"" />
+  <w:LsdException Locked=""false"" Priority=""9"" QFormat=""true"" Name=""heading 5"" />
+  <w:LsdException Locked=""false"" Priority=""9"" QFormat=""true"" Name=""heading 6"" />
+  <w:LsdException Locked=""false"" Priority=""9"" QFormat=""true"" Name=""heading 7"" />
+  <w:LsdException Locked=""false"" Priority=""9"" QFormat=""true"" Name=""heading 8"" />
+  <w:LsdException Locked=""false"" Priority=""9"" QFormat=""true"" Name=""heading 9"" />
+  <w:LsdException Locked=""false"" Priority=""39"" Name=""toc 1"" />
+  <w:LsdException Locked=""false"" Priority=""39"" Name=""toc 2"" />
+  <w:LsdException Locked=""false"" Priority=""39"" Name=""toc 3"" />
+  <w:LsdException Locked=""false"" Priority=""39"" Name=""toc 4"" />
+  <w:LsdException Locked=""false"" Priority=""39"" Name=""toc 5"" />
+  <w:LsdException Locked=""false"" Priority=""39"" Name=""toc 6"" />
+  <w:LsdException Locked=""false"" Priority=""39"" Name=""toc 7"" />
+  <w:LsdException Locked=""false"" Priority=""39"" Name=""toc 8"" />
+  <w:LsdException Locked=""false"" Priority=""39"" Name=""toc 9"" />
+  <w:LsdException Locked=""false"" Priority=""35"" QFormat=""true"" Name=""caption"" />
+  <w:LsdException Locked=""false"" Priority=""10"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Title"" />
+  <w:LsdException Locked=""false"" Priority=""1"" Name=""Default Paragraph Font"" />
+  <w:LsdException Locked=""false"" Priority=""11"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Subtitle"" />
+  <w:LsdException Locked=""false"" Priority=""22"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Strong"" />
+  <w:LsdException Locked=""false"" Priority=""20"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Emphasis"" />
+  <w:LsdException Locked=""false"" Priority=""59"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Table Grid"" />
+  <w:LsdException Locked=""false"" UnhideWhenUsed=""false"" Name=""Placeholder Text"" />
+  <w:LsdException Locked=""false"" Priority=""1"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""No Spacing"" />
+  <w:LsdException Locked=""false"" Priority=""60"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Shading"" />
+  <w:LsdException Locked=""false"" Priority=""61"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light List"" />
+  <w:LsdException Locked=""false"" Priority=""62"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Grid"" />
+  <w:LsdException Locked=""false"" Priority=""63"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 1"" />
+  <w:LsdException Locked=""false"" Priority=""64"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 2"" />
+  <w:LsdException Locked=""false"" Priority=""65"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 1"" />
+  <w:LsdException Locked=""false"" Priority=""66"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 2"" />
+  <w:LsdException Locked=""false"" Priority=""67"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 1"" />
+  <w:LsdException Locked=""false"" Priority=""68"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 2"" />
+  <w:LsdException Locked=""false"" Priority=""69"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 3"" />
+  <w:LsdException Locked=""false"" Priority=""70"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Dark List"" />
+  <w:LsdException Locked=""false"" Priority=""71"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Shading"" />
+  <w:LsdException Locked=""false"" Priority=""72"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful List"" />
+  <w:LsdException Locked=""false"" Priority=""73"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Grid"" />
+  <w:LsdException Locked=""false"" Priority=""60"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Shading Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""61"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light List Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""62"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Grid Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""63"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 1 Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""64"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 2 Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""65"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 1 Accent 1"" />
+  <w:LsdException Locked=""false"" UnhideWhenUsed=""false"" Name=""Revision"" />
+  <w:LsdException Locked=""false"" Priority=""34"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""List Paragraph"" />
+  <w:LsdException Locked=""false"" Priority=""29"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Quote"" />
+  <w:LsdException Locked=""false"" Priority=""30"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Intense Quote"" />
+  <w:LsdException Locked=""false"" Priority=""66"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 2 Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""67"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 1 Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""68"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 2 Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""69"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 3 Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""70"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Dark List Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""71"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Shading Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""72"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful List Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""73"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Grid Accent 1"" />
+  <w:LsdException Locked=""false"" Priority=""60"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Shading Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""61"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light List Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""62"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Grid Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""63"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 1 Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""64"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 2 Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""65"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 1 Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""66"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 2 Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""67"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 1 Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""68"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 2 Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""69"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 3 Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""70"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Dark List Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""71"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Shading Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""72"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful List Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""73"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Grid Accent 2"" />
+  <w:LsdException Locked=""false"" Priority=""60"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Shading Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""61"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light List Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""62"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Grid Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""63"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 1 Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""64"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 2 Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""65"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 1 Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""66"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 2 Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""67"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 1 Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""68"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 2 Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""69"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 3 Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""70"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Dark List Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""71"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Shading Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""72"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful List Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""73"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Grid Accent 3"" />
+  <w:LsdException Locked=""false"" Priority=""60"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Shading Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""61"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light List Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""62"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Grid Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""63"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 1 Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""64"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 2 Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""65"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 1 Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""66"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 2 Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""67"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 1 Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""68"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 2 Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""69"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 3 Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""70"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Dark List Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""71"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Shading Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""72"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful List Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""73"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Grid Accent 4"" />
+  <w:LsdException Locked=""false"" Priority=""60"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Shading Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""61"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light List Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""62"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Grid Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""63"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 1 Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""64"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 2 Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""65"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 1 Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""66"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 2 Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""67"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 1 Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""68"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 2 Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""69"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 3 Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""70"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Dark List Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""71"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Shading Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""72"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful List Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""73"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Grid Accent 5"" />
+  <w:LsdException Locked=""false"" Priority=""60"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Shading Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""61"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light List Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""62"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Light Grid Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""63"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 1 Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""64"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Shading 2 Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""65"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 1 Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""66"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium List 2 Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""67"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 1 Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""68"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 2 Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""69"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Medium Grid 3 Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""70"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Dark List Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""71"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Shading Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""72"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful List Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""73"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" Name=""Colorful Grid Accent 6"" />
+  <w:LsdException Locked=""false"" Priority=""19"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Subtle Emphasis"" />
+  <w:LsdException Locked=""false"" Priority=""21"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Intense Emphasis"" />
+  <w:LsdException Locked=""false"" Priority=""31"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Subtle Reference"" />
+  <w:LsdException Locked=""false"" Priority=""32"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Intense Reference"" />
+  <w:LsdException Locked=""false"" Priority=""33"" SemiHidden=""false""
+   UnhideWhenUsed=""false"" QFormat=""true"" Name=""Book Title"" />
+  <w:LsdException Locked=""false"" Priority=""37"" Name=""Bibliography"" />
+  <w:LsdException Locked=""false"" Priority=""39"" QFormat=""true"" Name=""TOC Heading"" />
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:""Table Normal"";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"""";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:""Calibri"",""sans-serif"";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:""Times New Roman"";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]-->  <p style=""text-indent: 0.5in;"" class=""MsoNormal"">Life, living, awake. We are born into this world, and then left wondering through it until some ultimate end. We continue down a path that is either created for us, or planned by some ultimate designer; either way we are all just beings groping in the dark for something stable to hold onto. We as a species are purpose driven, so of course we would try to instill some kind of purpose to us existing. The thought of us being here for absolutely no reason is a foreign concept that can chill us to the bone. There is no rule book, no &ldquo;life faq&rdquo;, no metric to use to tell how well we&rsquo;re doing. Humans are out in no man&rsquo;s land running a race that we hope has a finish line at the end. If at the end of it all, all that is waiting for us is a giant cosmic &ldquo;reset&rdquo; button, who decides when the final cycle is concluded. For all anyone really knows we are just ants in some farm located in some distant corner of the universe, there for the amusement of others.</p>  <p style=""text-indent: 0.5in;"" class=""MsoNormal"">Should we let the fear of the unknown keep us from our &ldquo;purpose&rdquo;? Only if one is ready to miss out on the best things of their existence, a lifetime of experiences. This world is vast, this world is scary, and this world is here for the taking. If one is not scared of this world, they are simply lying to themselves. This world is full of pain, love, heartache, triumph, sadness, thrills, and enough adjectives to fill a vault. Only way to survive this world, to enjoy it, and to not be consumed by it is to open yourself to it. One can not only open themselves to the good; by doing so they would only be cheating and fooling themselves. All aspects of life are about balance; good with the bad, darkness with the light, yin and the yang. If no one was to ever experience the lows that life had to offer how would we ever appreciate the highs? We have to learn to not only deal with the painful things, but to cherish them as much as the good things that happen to us.</p>  <p style=""text-indent: 0.5in;"" class=""MsoNormal"">Major aspect of opening one&rsquo;s self to the world means opening one&rsquo;s self to others. That one simple act can be the most terrifying thing anyone can experience. We fear making tight bonds with those around us, be them lovers or friends, because we fear the &ldquo;freefall&rdquo; that comes from having the bonds break and us falling back down into the darkness. Everybody wants a companion, a co-pilot, a solid anchor they can tie onto to help them on the blind journey called life. It&rsquo;s in human&rsquo;s genetic makeup to seek out others to fight off the loneliness they dread feeling so much. The biggest gamble people take is allowing others into their worlds, their hearts, and allowing them to be a candle in the dark world. That light makes the realization that the only purpose of life may simple be to not have one something we can live with.</p>"
+"eventtime","2011-05-10 00:27:00"
+"url","http://uhhuhioi.livejournal.com/50869.html"
+"userid","16190"
+"itemid","197"
+"event","RGVjZW1iZXIgMiBvZiAyMDA1LiBXb3csIHRoYXQgaXMgbGlrZSBhIG5ldyByZWNvcmQgZm9yIG1lIG5vdCBwb3N0aW5nIHRoaW5ncy4gT25jZSBhZ2FpbiBJIGhhdmUgbm8gZXhjdXNlIHdoeSBJIGhhdmVu4oCZdCB1cGRhdGVkLiBJIGFtIGFsd2F5cyBvbmxpbmUsIGJ1dCBuZXZlciB1cGRhdGUgbXkgam91cm5hbC4gSSBhbHdheXMgc2F5IHRvIG15c2VsZiBJIHNob3VsZCB3cml0ZSBzb21ldGhpbmcgaW4gTEosIGJ1dCBJIG5ldmVyIGFjdHVhbGx5IGRvIGl0IGFuZCBJIGRvbuKAmXQga25vdyB3aHkuIEnigJlsbCBwb3N0IGV2ZXJ5dGhpbmcgdGhhdCBoYXMgYmVlbiBnb2luZyBvbiB3aXRoIG1lIGxhdGVseSwgYnV0IHdpbGwgaGF2ZSB0byBzcHJlYWQgaXQgb3V0IG92ZXIgYSBmZXcgcG9zdC4gVGhlcmUgaXMganVzdCB0b28gbXVjaCBzdHVmZiB0byB0cnkgYW5kIGZpdCBpbnRvIG9uZSBsb25nIHBvc3QuIA0KDQpGaXJzdCBvZmYgdG9kYXkgaXMgVmFsZW50aW5lcyBEYXkgYW5kIGhhcHB5IFZEYXkgdG8gZXZlcnlvbmUsIGV2ZW4gaWYgeW91IGFyZSBhIHBhcnR5IG9mIG9uZS4gSSBicm91Z2h0IEplcmkgc29tZSBtb3JlIFJhbHBoIHBlcmZ1bWUgc2luY2Ugc2hlIGhhZCBydW4gb3V0IG9mIHRoZSBib3R0bGUgSSBoYWQgZ290dGVuIGhlciBhYm91dCBhIHllYXIgb3Igc28gYmFjay4gSSB3aWxsIGJlIGdldHRpbmcgbXkgcHJlc2VudCBsYXRlciB0b25pZ2h0IGFuZCBoYXZlIGFic29sdXRlbHkgbm8gaWRlYWwgd2hhdCBzaGUgZ290IG1lLiBJIGhhdmVu4oCZdCBiZWVuIGFza2luZyBmb3IgYW55dGhpbmcgc28gaXQgd2lsbCBiZSBxdWl0ZSBhIHN1cnByaXNlIHRvIHNlZSB3aGF0IEkgZ290LiBKZXJpIGFuZCBJIGFyZSBzdGlsbCBnb2luZyBzdHJvbmcgYW5kIGp1c3QgY2VsZWJyYXRlZCBvdXIgdHdvIHllYXIgYW5uaXZlcnNhcnkgZWFybGllciBpbiBKYW51YXJ5LiBJIGhhdmUgdG8gYWRtaXQgdGhhdCBJIGFtIHJlYWxseSBibGVzc2VkIGFuZCBhIGJpdCBzdXJwcmlzZWQgdG8gaGF2ZSBzdWNoIGEgd29uZGVyZnVsIHBlcnNvbiBpbiBteSBsaWZlLg0KDQpTY2hvb2wgaXMgYWxyZWFkeSBpbiBmdWxsIHN3aW5nIGFuZCBJIGFtIGFscmVhZHkgc2VtaS1kZWVwIGluIHdvcmsuIEkgd2FzIHRha2luZyAxOCBob3VycyBhdCBmaXJzdCwgYnV0IGRyb3BwZWQgb25lIGNsYXNzIGJlY2F1c2UgSSBkaWRu4oCZdCB3YW50IHRoZSBzYW1lIHdvcmsgc3RyZXNzIHRoYXQgSSBoYWQgbGFzdCBzZW1lc3Rlci4gSSBoYXZlIHR3byBuaWdodCBjbGFzc2VzIGVhY2ggb25lIGRheSBhIHdlZWsgdGhpcyB0aW1lIGFyb3VuZC4gSSBoYXZlIHRvIGFkbWl0IHRoZXkgYXJlbuKAmXQgdG9vIGJhZCwgYnV0IGVhY2ggY2xhc3MgaXMgZnJvbSA3LTEwIGFuZCBpdCBzdWNrcyBoYXZpbmcgdG8gYmUgaW4gY2xhc3MgZm9yIHRocmVlIGhvdXJzIHNvIGxhdGUgaW4gdGhlIGV2ZW5pbmcuIE5vbmUgb2YgdGhlIGNsYXNzZXMgc2VlbSB0byBiZSByZWFsbHkgZGlmZmljdWx0IHRoaXMgc2VtZXN0ZXIsIGJ1dCBJIGhhdGUgbXkgcHVibGljIHNwZWFraW5nIGNsYXNzLiBJIGhhdmUgdG8gZ2V0IHVwIGluIGNsYXNzIGluIGEgZ3JvdXAgYW5kIGdpdmUgYW4gaW5mb3JtYXRpdmUgc3BlZWNoIHRvIHRvbW9ycm93LiBXZSBjYW7igJl0IHJlYWQgb2ZmIGFueSBub3RlIGNhcmRzIGFuZCBoYXZlIHRvIGdpdmUgYSBuYXR1cmFsIHJlaGVhcnNlZCBzcGVlY2guIEkgaGF2ZW7igJl0IHJlYWxseSBzdGFydGVkIG9uIGl0LCBzbyBJIGhhdmUgdG8gZmluaXNoIGl0IHRvZGF5IGFuZCBoYXZlIHRvIHJlaGVhcnNlIGl0IHRvbmlnaHQgYW5kIGhhdmUgaXQgZG93biBieSBub29uIHRvbW9ycm93LiBFdmVyeW9uZSBvbmx5IGhhcyB0byBnaXZlIGEgbGlrZSBhIHR3byBhbmQgYSBoYWxmIG1pbnV0ZSB0byB0aHJlZSBtaW51dGUgc3BlZWNoIHNvIGhvcGVmdWxseSBpdCB3b27igJl0IGJlIHRvbyBiYWQuIEkgY2FuIGFjdHVhbGx5IGJlIGEgcHJldHR5IGdvb2Qgc3BlYWtlciB3aGVuIG15IHN0b21hY2ggaXNu4oCZdCBkb2luZyBmbGlwcyBhbmQgbWFraW5nIG1lIGZlZWwgbGlrZSBJIGFtIGdvaW5nIHRvIGJlIHNpY2suDQoNCldvcmsgaXMgc3RpbGwgd29yay4gVGhlIFRhcmdldCB0aGF0IEkgd2FzIHdvcmtpbmcgYXQgYmVmb3JlIGNsb3NlZCBkb3duIHNvIEkgZ290IHRyYW5zZmVycmVkIHRvIGFub3RoZXIgc3RvcmUuIEkgYW0gYmFzaWNhbGx5IGRvaW5nIHRoZSBzYW1lIHRoaW5nIEkgd2FzIGF0IHRoZSBvdGhlciBzdG9yZSwgYnV0IGFtIG5vdCB3b3JraW5nIGluIHRoZSBlbGVjdHJvbmljIGRlcGFydG1lbnQgYXMgbXVjaC4gSSBoYXZlIHRvIGFkbWl0IHRoYXQgaXQgaXMgdGFraW5nIHNvbWUgdGltZSB0byBnZXQgdXNlIHRvIHRoZSBuZXcgc3RvcmUgYW5kIGhvdyB0aGluZ3MgYXJlIGhhbmRsZWQuIEkgaGF2ZSB0byBsZWFybiBhbGwgdGhlIG1hbmFnZXJz4oCZIG5hbWVzLCB3aGF0IHRoZXkgYXJlIHRoZSBtYW5hZ2VycyBvZiwgYW5kIHRoZSBuYW1lcyBvZiBvdGhlciBwZW9wbGUgd2hvIEkgd29yayB3aXRoIG9uIHRoZSBzYWxlcyBmbG9vci4gSSBzdGlsbCBoYXRlIG15IGpvYiBiZWNhdXNlIHRoZXkgYWx3YXlzIGhhdmUgdXMgZ2V0dGluZyBvdXQgc28gbGF0ZSwgc29tZXRpbWVzIGxpa2UgdHdlbHZlIGluIHRoZSBtb3JuaW5nLiBJIGNvdWxkIGFzayB0aGVtIHRvIHNjaGVkdWxlIG1lIG9ubHkgZm9yIG1vcm5pbmdzLCBidXQgc29tZXRpbWVzIHRoZXkgd2FudCBwZW9wbGUgdG8gY29tZSBpbiBsaWtlIHNpeCBvciBzZXZlbiBhbS4gTXkgbW9tIHNhaWQgSSBzaG91bGQgdHJ5IGxvb2tpbmcgZm9yIGEgbmV3IGpvYiB0aGF0IHBheXMgbW9yZSBhbmQgd2lsbCBoYXZlIG1lIG91dCBhdCBhIGRlY2VudCBqb2IuIEkgd291bGQgYWxzbyBsb3ZlIHRvIGhhdmUgYSBqb2IgdGhhdCBoYXMgc29tZXRoaW5nIHRvIGRvIHdpdGggbXkgbWFqb3IuIEkgd2lsbCB0cnkgYW5kIGxvb2sgdGhpcyBzdW1tZXIuDQoNClRoYXQgaXMgYWxsIGZvciBub3csIHdpdGggbW9yZSB0byBjb21lLg0KDQpMYXRlcg=="
+"eventtime","2006-02-14 15:19:00"
+"url","http://uhhuhioi.livejournal.com/50635.html"
+"userid","16190"
+"itemid","196"
+"event","I invite everyone to come and see my new <a href=http://www.flickr.com/photos/uhhuhioi/>photo</a> site. I will be adding much more as time goes on. Now it is time for me to study before work.
+
+Later"
+"eventtime","2005-12-02 12:35:00"
+"url","http://uhhuhioi.livejournal.com/50195.html"
+"userid","16190"
+"itemid","193"
+"event","<a href=""http://www.flickr.com/photos/uhhuhioi/69261189/"" title=""photo sharing""><img src=""http://static.flickr.com/18/69261189_c96a995157_m.jpg"" alt="""" style=""border: solid 2px #000000;"" /></a><br /><span style=""font-size: 0.9em; margin-top: 0px;""><a href=""http://www.flickr.com/photos/uhhuhioi/69261189/"">xmas tree</a> <br />Originally uploaded by <a href=""http://www.flickr.com/people/uhhuhioi/"">uhhuhioi</a>.</span><br clear=""all"" /><p>I finally got my new camera and plan on taking tons of pics with it. My first shot is of our new christmas tree. Isn't it pretty :).</p>"
+"eventtime","2005-12-01 23:00:00"
+"url","http://uhhuhioi.livejournal.com/49586.html"
+"userid","16190"
+"itemid","192"
+"event","Well look, an update that didn't take me over a month to write. Things have been going pretty good this semester but it is still taking time to get use to living with three other guys. I hardly see them but I am still having a few issues. We never had a talk about whether we would share food or just have our own. Someone opened and ate one of my Pop Tart things, left my bread open on top of the fridge, and drank most of my milk and then only brought 2% back. Next time I see them I should plan on an apartment meeting. Jeri's birthday is tomorrow so that is good. I brought her a little present and will probably give it to her tonight. Things at work have been going all right. A few weeks ago it seemed like there would be problems. I was trying to change my schedule at work because I could no longer work some days because of my school hours. I called my manager at work and she said that since I hadn't been there over three months that I couldn't change my schedule. She never mentioned this to me, but in the interview she made it seem like she knew that I would cut back on my hours once school started. And to make matters worse, she said she didn't even get the first request for a schedule change. This doesn't make sense because I turned it into her ""mailbox"" she someone had to have taken it out. It seems like she went ahead and changed my work hours and hopefully they will keep me around because I really need this job to pay the rent here a school. Time for my next set of classes. Will try to update later.
+
+Later"
+"eventtime","2005-08-30 12:29:00"
+"url","http://uhhuhioi.livejournal.com/49169.html"
+"userid","16190"
+"itemid","191"
+"event","Wow, seven straight weeks and not one single new post. That my friends
+is a new record. I'm sure by now that Gwen and Kathy have stopped
+coming by here and have given up all hope for me on livejournal. I
+really don't have any good excuse why I haven't updated more. Just
+sheer laziness. I guess I should stop the pity party and actually do
+some posting. This should be long since it is covering about a month of
+events, so if you don't have time to spare you may want to come back.
+<br>
+<br>
+First up is work. Work at Target has been going pretty good and I've
+been there for about a month now I guess. They mostly have me working
+at the Service Desk, which isn't too bad unless I get a customer that
+really just pisses me off. Even though I applied there to be a cashier,
+I haven't actually worked the checkout lanes in who knows how long. I
+really shouldn't bad mouth not working the register, because not do so
+means I don't have to worry about speed reports or trying to sell
+people Target Visa cards. I'm still suppose to try and get people to
+sign up for them at the service desk, but it isn't <span style=""font-style: italic;"">really</span>
+required. Before school started they were giving me about 30 hours a
+week which was really good come pay day. But I've had to cut back on my
+hours since I will now be taking classes during the day and also since
+I don't have a car and will be taking the bus to work. There is a
+slight problem with my schedule right now because I doesn't seem the
+have changed my Hours of Availability to reflect my new school hours.
+They have me scheduled two days this week that I can't work. I left my
+manager a note in her box and will call her when I finish with classes.
+Hopefully they will be able to get something worked out because this
+isn't my fault. I filled out the required paperwork and dropped it to
+her on the 6th, so she had plenty of notice that my schedule would be
+changing. I also think that because of my change in hours they are
+moving me over to the electronic section of the store. This really
+doesn't seem that bad and hopefully I will like it, since I do like
+electronics. But they gave me a lame excuse for it though. They
+basically said that I was too ""comfortable"" at the service desk.What
+does that mean exactly? Don't they want people working working at a
+position they are comfortable with so they will be able to do that job
+better?<br>
+<br>
+Besides work, school has started back. Today is my first day of classes
+and I'm already having a small break. My schedule this semester has a
+lot of gaps between classes so hopefully I can actually do something
+productive with the time. I've moved into my apartment over the
+weekend, and let me tell you it was hell. It wasn't that the things
+were heavy, it was just that it was so damn hot outside. Moving is a
+pain already, but add in some hot humid heat and it just makes it
+worse. After a little moving of the furniture, I finally have my room
+all together. I brought my computer with me this time since Toya wanted
+hers hooked up. *Side note* I completely forgot to write that my sister
+is pregnant again and has moved in with us. The same guy as last time
+is
+the father and it looks like this time the pregnancy will go all the
+day. I have to admit that getting pregnant twice back to back doesn't
+make me thrilled, but I am glad for her and will help her with anything
+she needs. Since I moved on campus she has taken over my room at my
+mom's house and will probably be there for a while. */Side note* The
+roommates (Ryan, Charlie, and Adwin) are great guys and it seems like
+we will have no problem living together. I hardly ever seen Adwin, but
+me and the other guys have done a little bonding. I am definitely going
+to have to get use to doing my own cooking since I no longer have my
+mean plan. I now have to make my own lunch, dinner, and lunch for work.
+This should be a good learning experience and motivation to actually
+learn to cook. I really should learn to cook if Jeri and I really do
+move into an apartment next year.<br>
+<br>
+That is enought writing for now and will update later on if anything else pops up in my mind.<br>
+<br>
+Later<br>"
+"eventtime","2005-08-22 12:06:00"
+"url","http://uhhuhioi.livejournal.com/49018.html"
+"userid","16190"
+"itemid","190"
+"event","*Sigh*
+
+The day I start posting on a regular schedule will be the same day Fox apologizes for taking all of its good shows off the air; which would be never. It's not that I don't have the time to do the updates, it's just that I never get around to sitting down and writing out my thoughts. If LJ had a function that could read your mind and post what it finds into an entry, I would definitely have to upgrade to that. But that will never happen so I will continue to go on posting new things ever month or so. So what's new in my life?
+
+Well I am working now and it seems to be going good. I've only been at Target for about two weeks now and I'm not completely hating it. I will be working mostly as a cashier and some times at the customer service desk. Working the register can be a little on the frustrating side because each register has a timing system that times you on how fast you check out the people in your life. You can't actually see the clock working, but after the finish ringing someone up you will either get a ""G"" for good or a ""R"" for I guess bad. When I was checking people out I would sometimes get a R because someone was too slow in digging out their cash or figuring out how to work on the credit card receipt. Hopefully I can keep most of my transactions in the G zone and if not hopefully they won't mind a few R's. Another headache about cashier is that I have to get people to sign up for the Target Visa card. I've always hated trying to sell things to people, but it seems I will just have to try my best. I actually like working at the Customer Service desk because it is usually slower and there is no rating system to worry about. All I have to do there is handle refunds/returns and sort of the items that get brought back. So, it seems like working at Target will be something that I can handle.
+
+I still don't have a car, but am working on it. There was this one car that my mom's friend was trying to sell for $500. We went out today to look at it and the car is pretty bad. It had been sitting in the back of some repair shop so long that the grass under the car was so high that we couldn't look under the car. Also there was crap piled up all inside of the car and the most important thing of the car, the radio, wasn't only not working, but wasn't even in the dash! So needless to say is that we won't be taking the car. I will keep on saving and hopefully find something that is actually worth the money.
+
+This is all that is mostly going on right now. When/if I remember something else I will update.
+
+Later"
+"eventtime","2005-07-07 18:12:00"
+"url","http://uhhuhioi.livejournal.com/48759.html"
+"userid","16190"
+"itemid","189"
+"event","It would seem that after I got my first speeding ticket I would have learned my lesson. But nooooo. My dumb ass had to once again get another one. It's not like I really speed all the time, it's just that I tend to in the 35 M.P.H zones. I hope my mom doesn't kill me. This is really an unwanted expense right now. I know I will have to pay for the court fees as well as another defensive drivers class, plus my first month rent is due on the first of July. And to make matters worse I haven't even started my damn job yet! I've been dealing with them since the 4th  and still haven't started to freaking job. I really hope they call by tomorrow so I can do the orientation and start earning some cash. I hope this time I've learned my lesson and that my mom won't be too upset. 
+
+*Update*
+My mom didn't kill me so all is well. I might not be able to take the driving class since I've already done it once for the year. If this is the case, I will have to differ the ticket and just be very careful for the next year.
+
+Later"
+"eventtime","2005-06-14 15:29:00"
+"url","http://uhhuhioi.livejournal.com/48462.html"
+"userid","16190"
+"itemid","188"
+"event","Looks like I'll be getting the job at Target I applied for. I took the drug test today so everything should be on track now. I will be making 6.50 an hour (I know not a lot) working on the salesfloor. This means I will be working the items in stock out onto the floor. Hopefully the hours will be something I can live with. It's late now so night all."
+"eventtime","2005-06-11 00:23:00"
+"url","http://uhhuhioi.livejournal.com/48194.html"
+"userid","16190"
+"itemid","187"
+"event","I know that I am really two days late in post this, but oh well. I am now 20 years old which means no longer being a teen and only a year to go to be 21.  Hopefully for my 21st day I will actually have something planned unlike this one. I didn't have any money to do a party or anything so I mostly just hung with Jeri the whole day. My mom made me a little dinner and brought me some cupcakes (yumm). Jeri made me a cake also and brought me a wireless optical mouse (I am such a nerd aren't I?). I got the usually B-day calls from a few friends and my dad and step mom. Overall it was a good day and very enjoyable. Here is looking forward to next year.
+
+Went out yesterday and did more job hunting. I put an application in at a Target, Marshals, and a Sears store. When I finished the application at the Sears store the machine told me to contact the Human Resource Department. The women who ran the department was already gone today so I wasn't able to go there. I am not sure what this means, but hopefully it means they will hire me. I am going to call back in a few days because I don't have the car to drive up there and see if she is in today. I also went by a Walgreens and was told that I should call around to some of the stores and see which ones were hiring. I put an application in online so that should help me get a foot in the door. I will probably make another post later tonight.
+
+Until then"
+"eventtime","2005-06-03 14:36:00"
+"url","http://uhhuhioi.livejournal.com/47984.html"
+"userid","16190"
+"itemid","186"
+"event","You would think that getting a summer job would be a breeze, but it isn't turning out like that. I haven't gotten any callbacks from the places I have put applications in at. I am going back out on Wednesday and putting in some more. I wanted to have a job before June started, but now I want to have one before the middle of June. The first payment for my campus apartment is due in July and I need some cash to pay for it. My mom suggested that I try a Temp Agency, but they require you be somewhere on short notice and that is hard for me with no car. What is really weak is that Wednesday is also my birthday. What better way to celebrate 20 years on this earth then going job hunting. It doesn't really matter because it's not like I had anything planned. My mom was thinking about taking my sky diving, but it is a little to pricey right now so maybe later. I've been stuck inside the house of the time because constantly putting gas in the car is getting really expensive. I now can use the car two times a week (7 day week), so not really much for me to do. If I had a job though I could help with the gas and such. Damn it I need a job. Sitting around the house and going to bed around 3 every night should sound like fun, but I just feel like a bum. Hopefully I will get a job soon and everything will be better. I am done ranting and such.
+
+Later"
+"eventtime","2005-05-30 17:29:00"
+"url","http://uhhuhioi.livejournal.com/47676.html"
+"userid","16190"
+"itemid","185"
+"event","It is now 4:48 in the am. It's late, I am tired, look for an update later in the day.
+
+Night/morning"
+"eventtime","2005-05-30 04:48:00"
+"url","http://uhhuhioi.livejournal.com/47531.html"
+"userid","16190"
+"itemid","184"
+"event","Summer is here and almost in full affect, as felt by the already 86 and climbing temperature. I've started the job hunt but I'm not sure if anything promising has come yet. I am going to apply online for a few jobs today and will hopefully have a job before the end of the month. I really need a job, because I really the need the money for the upcoming semester. My birthday is fast coming and I will no longer be a teen but a 20 year old, scary huh. I have nothing planned because I'm broke, but my mom did say she has something in mind for me if she can swing it and maybe Jeri will be able to get me something cheap. I am enjoying not having and school, but with summer I thought I would be able to sleep late a lot more. There are a few days where I have woken up at like two, but most days I have to get up somewhat early and do something. Grades are in and they are what I was expecting. I got an A- in piano, B+ in political science, B- in economy, and a C in calculus. I know that a C is bad, but from my test grades I knew I would probably end up with one. A C is the lowers grade I wanted so I am not to to disappointed. I shall keep up the job hunt and will post more soon.
+
+Later"
+"eventtime","2005-05-19 17:00:00"
+"url","http://uhhuhioi.livejournal.com/47303.html"
+"userid","16190"
+"itemid","183"
+"event","This change will probably go unnoticed since only two people read my journal and they don't come to the main page, but I have once again changed the look of my journal. I have a brand new banner at the top, new colors, and a modified icon. If anything on the page is hard to read, let me know and I will fix them.
+
+Later"
+"eventtime","2005-05-14 16:36:00"
+"url","http://uhhuhioi.livejournal.com/46899.html"
+"userid","16190"
+"itemid","182"
+"event","I have had a whole week to study, but still haven't gotten any real work done. I sit down with every intention to study, but my mind will just no focus on studying. I pretty sure I don't have ADD or something, but I just can't seem to get in a studying frame of mind. None of the studying is really intensive, just going over things from the start of the semester. I think my brain school part of my pain has already checked out for the summer and I am having some trouble getting it to come back into the office for the finish up work. Writing this isn't helping my study either, so I'm going to give it another stab.
+
+Later"
+"eventtime","2005-05-05 15:21:00"
+"url","http://uhhuhioi.livejournal.com/46773.html"
+"userid","16190"
+"itemid","181"
+"event","VGhlIG9mZmljaWFsIGxhc3QgZGF5IG9mIGNsYXNzIHdhcyBNb25kYXksIHdoaWNoIG1lYW5zIEkgaGF2ZSB0d28gd2Vla3Mgd2l0aCBubyBjbGFzcy4gQWxsIEkgaGF2ZSBsZWZ0IHRvIGRvIG5vdyBpcyBzdHVkeSBmb3IgbXkgdGhyZWUgZmluYWxzLiBJ4oCZbSBnb2luZyB0byBiZSBnb29kIGFuZCBhY3R1YWxseSBzdHVkeSB3aXRoIG15IGZyZWUgdGltZSBpbnN0ZWFkIG9mIGp1c3QgZ29vZmluZyBvZmYgKG9rLCBzb21lIGdvb2Zpbmcgb2ZmKS4gSXQgZmVlbHMgbmljZSBiZWluZyBhYmxlIHRvIHdha2UgdXAgd2hlbiBJIHdhbnQsIGluc3RlYWQgb2Ygc29tZSBibGFyaW5nIGFsYXJtIGNsb2NrLiBJIHN0aWxsIGhhdmVu4oCZdCBoZWFyZCBmcm9tIGFueSBqb2JzLCBidXQgd2lsbCBjb250aW51ZSBsb29raW5nIHVudGlsIEkgZmluZCBvbmUuIEkgdGhpbmsgSSB3aWxsIGNvbWUgb3V0IG9mIHRoaXMgc2VtZXN0ZXIgd2l0aCBzb21lIGdvb2QgZ3JhZGVzLiBIb3BlZnVsbHkgYW4gQSBpbiBwaWFubywgcHJvYmFibHkgYSBCIGluIHBvbGl0aWNhbCBzY2llbmNlLCBhIHBhc3NpbmcgaW4gbXkgZW5naW5lZXJpbmcgY2xhc3MsIGFuZCBob3BlZnVsbHkgYSBDIG9yIGhpZ2hlciBpbiBwcmUtY2FsLiBJ4oCZbSBhY3R1YWxseSBsb29raW5nIGZvcndhcmQgdG8gbmV4dCBzZW1lc3RlciwgYnV0IEkgd2lsbCBzdGFydGluZyB0YWtpbmcgY2xhc3NlcyBmb3IgbXkgbWFqb3IgYW5kIGFtIGdsYWQgdG8gYmUgZG9uZSB3aXRoIGFsbCBvZiBteSBjb3JlIHN1YmplY3RzLiBMb29raW5nIGZvcndhcmQgdG8gYmVpbmcgaG9tZSBiZWNhdXNlIEkgaGF2ZSBzbyBtdWNoIGNyYXAgb24gbXkgY29tcHV0ZXIgdGhhdCBJ4oCZdmUgYmVlbiB3YW50aW5nIHRvIHdhdGNoIGZvciBhZ2VzLiBEb27igJl0IHJlYWxseSBoYXZlIGFueSBtYWpvciBwbGFucyBmb3IgdGhlIHN1bW1lciBvdGhlciB0aGVuIHdvcmtpbmcgYW5kIHRyeWluZyB0byBnZXQgbXlzZWxmIGEgY2FyLiBJIHdpbGwgbWFrZSBzdXJlIG5vdCBldmVyeXRoaW5nIGlzIHdvcmsgYW5kIHdpbGwgdHJ5IGFuZCBkbyBzb21lIGZ1biB0aGluZ3MgYmVmb3JlIHRoZSBmYWxsIHNlbWVzdGVyLiBPZmYgdG9waWMsIEkgbG92ZSBWSDEuIElzIGl0IGJlY2F1c2Ugb2YgdGhlIGdyZWF0IG11c2ljIHZpZGVvcz8gVGhhdCB3b3VsZCBiZSBhIG5vIEJvYi4gSSBsb3ZlIHRoZWlyIHNob3dzIGxpa2UgVGhlIEJlc3QgV2VlayBFdmVyLCBJIGxvdmUgdGhlIHh44oCYcywgYW5kIHRoZSBvbmUgd2hlcmUgdGhleSBjb21wYXJlIHR3byBwZW9wbGUuIFRoZXkgZmluZCB0aGUgZnVubmllc3QgcGVvcGxlIHRvIGRvIHRoZSBzaG93cyBhbmQgaXQgaXMgYWx3YXlzIGVudGVydGFpbmluZy4gVHdvIHVwZGF0ZXMgaW4gbGVzcyB0aGVuIGEgbW9udGgsIHByZXR0eSBnb29kIGh1aC4NCg0KUXVpY2sgcXVlc3Rpb24uIERvZXMgYW55b25lIGFjdHVhbGx5IGxvb2sgYXQgbXkgbWFpbiBqb3VybmFsIHBhZ2Ugb3IgZG8geW91IHJlYWQgbXkgcG9zdCB0aHJvdWdoIHRoZSBmcmllbmRzIHZpZXcgbGluaz8NCg0KTGF0ZXI="
+"eventtime","2005-05-03 16:06:00"
+"url","http://uhhuhioi.livejournal.com/46423.html"
+"userid","16190"
+"itemid","180"
+"event","Kldhcm5pbmcqIExvbmcgcG9zdCBiZWxvdyA6KQ0KDQpJJ3ZlIGJlZW4gaW4gdGhlIGNvbXB1dGVyIGxhYiBmb3IgYW4gaG91ciBhbmQgZmlmdHkgbWludXRlcyBhbmQgaGF2ZW7igJl0IHJlYWxseSBnb3R0ZW4gYW55dGhpbmcgZG9uZS4gU3VyZSBJIGhhdmUgYSB0ZXN0IE1vbmRheSBhbmQgYW5vdGhlciBvbiB0aGUgN3RoLiBJ4oCZbSBub3QgcmVhbGx5IHdvcnJpZWQgYWJvdXQgbXkgdGVzdCBvbiBNb25kYXkgYnV0IGl0IGlzbuKAmXQgYSBmaW5hbCB0ZXN0IGp1c3QgdGhlIGZpbmFsIHRlc3QgKGkuZS46IG5vdCBjdW11bGF0aXZlKSBmb3IgbXkgcG9saXRpY2FsIHNjaWVuY2UgY2xhc3MuIEkgaGF2ZSB0aGUgbm90ZXMgc2l0dGluZyBiZXNpZGUgbWUgYnV0IGp1c3QgaGF2ZW7igJl0IGJvdGhlcmVkIHRvIGxvb2sgYXQgdGhlbSwgYnV0IEkgd2lsbCB3aGVuIEkgZ2V0IGJhY2sgdG8gbXkgcm9vbS4gSSBoYXZlIHRvIGFjdHVhbGx5IGFkbWl0IHRoYXQgSSBoYXZlIGxlYXJuZWQgc29tZSB0aGluZ3MgZnJvbSB0aGlzIGNsYXNzLiBJIG5vdyBrbm93IHRoYXQgd2UgZG9u4oCZdCByZWFsbHkgZWxlY3QgdGhlIFByZXNlbnQsIGJ1dCByYXRoZXIgd2UgcGljayBlbGVjdG9ycyB3aG8gcGljayB0aGUgUHJlc2lkZW50LiBPdXIgdm90ZSBqdXN0IHJlYWxseSBzYXlzIHdoaWNoIHdlIHdvdWxkIHByZWZlciB0byBoYXZlIGluIG9mZmljZS4gSSBsZWFybmVkIGFib3V0IHRoZSBjb3VydHMgYW5kIGhvdyB0aGV5IHdvcmssIENvbmdyZXNzIGF0IHRoZSBuYXRpb25hbCBsZXZlbCBhbmQgc3RhdGUgbGV2ZWwsIGFuZCBob3cgdGhlIG1lZGlhIGRlYWxzIHdpdGggcG9saXRpY3MuIEZlZWxzIHdlaXJkIGFkbWl0dGluZyBJIGFjdHVhbGx5IGxlYXJuZWQgc29tZXRoaW5nIGluIHNjaG9vbC4gSeKAmW0gZG9uZSB3aXRoIHRoYXQgdGFuZ2VudC4gQmVzaWRlcyBteSBwb2xpdGljYWwgc2NpZW5jZSB0ZXN0LCBJIGhhdmUgYSBtaWNyb2Vjb25vbWljcyBmaW5hbCB0aGF0IGlzIG9uIGEgU2F0dXJkYXkgKEkgaGF2ZSBubyBjbHVlIHdoeSBpdCBpcyBvbiBhIFNhdHVyZGF5KSBhbmQgbXkgcGlhbm8gdGVzdCBuZXh0IHdlZWsgb24gdGhlIDEwdGguIEkgcHJldHR5IG11Y2ggaGF2ZSBvbmUgc29uZyBkb3duIGJ1dCBhbSBzdGlsbCB3b3JraW5nIG9uIG15IG90aGVyIHNvbmcgZm9yIHRoZSBmaW5hbC4gSSBoYXZlIHB1dCBpbiBhIGZldyBhcHBsaWNhdGlvbnMgb25lIGF0IENWUyAobW9zdGx5IG9uIHRoZSB3ZWVrZW5kcykgYW5kIGFub3RoZXIgb25lIGF0IEFjYWRlbXkuIEl04oCZcyB0b28gZWFybHkgdG8gdGVsbCBpZiBJIGdvdCB0aGUgam9iIG9yIGRpZG7igJl0IGJ1dCBob3BlZnVsbHkgSSB3aWxsIGdldCBvbmUuIEnigJltIHN1cHBvc2VkIHRvIGxvb2sgc29tZSBtb3JlIHdoZW4gSSBnbyBob21lIHRoaXMgd2Vla2VuZCBhbmQgd2lsbCBob3BlZnVsbHkgZmluZCBzb21ldGhpbmcuIEluIG90aGVyIHNjaG9vbCBuZXdzLCBJIHRoaW5rIEkgd2lsbCBsaWtlIHRoZSBtYWpvciBJIGhhdmUgY2hvc2VuLiBJbmZvcm1hdGlvbiBTeXN0ZW0gVGVjaG5vbG9neSBiYXNpY2FsbHkgbWVhbnMgSSB3aWxsIGJlIHJ1bm5pbmcgdGhlIHNlcnZlcnMgYW5kIGNvbXB1dGVycyBmcm9tIGEgbGFyZ2UgYnVzaW5lc3MgKEkgdGhpbmsgSeKAmXZlIG1lbnRpb25lZCB0aGF0IGJlZm9yZSkuIEkgZ3Vlc3MgSSB3aWxsIGJlIGxpa2UgdGhvc2UgZ3V5cyBvbiB0aGUgRGVsbCBMYXB0b3AgY29tbWVyY2lhbHMgd2hvIHdlcmUgc2l0dGluZyBhcm91bmQgdGhlIGNvZmZlZSBob3VzZSB0YWxraW5nIGFib3V0IGxhcHRvcHMgYW5kIHNlcnZlcnMuIEl0IHNlZW1zIGxpa2UgdGhleSB3aWxsIHN0aWxsIGJlIGEgZGVtYW5kIGZvciB0aGVzZSB0eXBlcyBvZiBqb2JzIGFmdGVyIGdyYWR1YXRpb24sIHNpbmNlIGNvbXBhbmllcyB0aGVzZSBkYXlzIHJlbHkgbW9yZSBhbmQgbW9yZSBvbiBjb21wdXRlcnMgZm9yIHRoZWlyIG9wZXJhdGlvbi4gSSB3b27igJl0IGJlIG1ha2luZyBhcyBtdWNoIGluIHRoaXMgZmllbGQgYXMgdGhlIGNvbXB1dGVyIGVuZ2luZWVyaW5nIGZpZWxkLCBidXQgdGhhdCBpcyBmaW5lIHdpdGggbWUuIEkgd2FzIG5ldmVyIHJlYWxseSBzZXQgb24gY29tcHV0ZXIgZW5naW5lZXJpbmcgYW5kIG9ubHkgcGlja2VkIGl0IGJlY2F1c2UgaXQgd2FzIHRoZSBvbmx5IG90aGVyIGNvbXB1dGVyIG1ham9yIHRoYXQgc2VlbWVkIHRvIGZpdCBteSBpbnRlcmVzdCBhdCBteSBzY2hvb2wgYmVmb3JlIEkgZm91bmQgYWJvdXQgbXkgY3VycmVudCBtYWpvci4gSSBsaWtlIGNvbXB1dGVycyBidXQgSSBkb27igJl0IHRoaW5rIEkgd2FudGVkIGEgY2FyZWVyIHRoYXQgaGFzIHN1Y2ggYSByZWxpYW5jZSBvbiBtYXRoIGFuZCBpbnZvbHZlZCBtZSBkZXNpZ25pbmcgdGhlIGNvbXBsZXggaW5uZXIgd29ya2luZ3Mgb2YgYSBjb21wdXRlci4gSSBsaWtlIHRvIGJ1aWxkIGNvbXB1dGVycyBidXQgbm90IGluIHRoYXQgc2Vuc2UuIFRoaW5ncyB3aXRoIG1lIGFuZCBKZXJpIGFyZSBncmVhdCBhbmQgd2UgYXJlIHN0aWxsIGdvaW5nIHN0cm9uZy4gSGF2aW5nIGhlciBoYXMgcmVhbGx5IGJlZW4gZ29vZCBmb3IgbWUgYW5kIGhvcGVmdWxseSBzaGUgd2lsbCBhbHdheXMgYmUgdGhlcmUgZm9yIG1lLiBJ4oCZbGwgcG9zdCBhZ2FpbiBzb29uLg0KDQpMYXRlcg=="
+"eventtime","2005-04-30 17:48:00"
+"url","http://uhhuhioi.livejournal.com/46131.html"
+"userid","16190"
+"itemid","179"
+"event","VGltZSBzdGFuZHMgc3RpbGwgZm9yIG5vIG1hbiwgdW5sZXNzIHRoYXQgbWFuIGhhcyBhIHRpbWUgbWFjaGluZS4gQnV0IGV2ZW4gd2l0aCBhIHRpbWUgbWFjaGluZSBpdCBpc27igJl0IHBvc3NpYmxlIHRvIHN0b3AgdGltZTsgc2luY2UgbW9zdCB0aW1lIG1hY2hpbmVzIG9ubHkgbGV0IHRvIHRyYXZlbCBiYWNrd2FyZCBvciBmb3J3YXJkIGluIHRpbWUuIEJ1dCBJIGRpZ3Jlc3MuIFRoaW5ncyBpbiBteSBsaWZlIGhhdmUgYmVlbiBtb3ZpbmcgYWxvbmcgYW5kIEkgY291bGRu4oCZdCBzdG9wIHRoZW0gaWYgSSB3YW50ZWQgdG8uIFRoZSBuZXcgYXBhcnRtZW50IGlzIHN0YXJ0aW5nIHRvIGxvb2sgbGlrZSBhbiBhcGFydG1lbnQsIGluc3RlYWQgb2YgYSBzdG9yYWdlIHBsYWNlIHdpdGggYm94ZXMgYW5kIGZ1cm5pdHVyZSBldmVyeXdoZXJlLiBJIGdvdCBteSByb29tIHByZXR0eSBtdWNoIHNldCB1cCBhbmQgaXQgaXMgZGVmaWFudGx5IGxhcmdlciB0aGVuIG15IGxhc3Qgcm9vbS4gV2Ugc2hvdWxkIGhhdmUgY2FibGUgdGhpcyB0aW1lIG5leHQgd2VlayBhbmQgd2UgYWxyZWFkeSBoYXZlIGludGVybmV0LCBzbyBJ4oCZbSBhIHJlYWxseSBoYXBweSBjYW1wZXIuIE15IG1vbSB0b2xkIG1lIHRoYXQgdGhlIHdlZWtlbmQgSSBjb21lIGhvbWUgSSBhbSB0byBzdGFydCBsb29raW5nIGZvciBhIGpvYi4gSSBkb27igJl0IGtub3cgd2hlcmUgdG8gcmVhbGx5IGxvb2ssIGJ1dCBob3BlZnVsbHkgSSB3aWxsIGZpbmQgc29tZXRoaW5nIHRoYXQgSSB3b27igJl0IHRvdGFsbHkgaGF0ZS4gV2l0aCB0aGUgc3VtbWVyIGpvYiBJIHdpbGwgaGVscCBwYXkgZm9yIHNvbWUgb2YgbXkgc2Nob29saW5nLCBwdXQgc29tZSBtb25leSB0b3dhcmQgdGhlIHNhdmluZ3MgSSBoYXZlIHN0YXJ0ZWQgZm9yIG15IGNhciwgYW5kIGhlbHAgcGF5IHNvbWUgZXhwZW5zZXMgYXJvdW5kIHRoZSBob3VzZS4gSeKAmXZlIGJlZW4gYWNjZXB0ZWQgYnkgdGhlIGFwYXJ0bWVudHMgb24gY2FtcHVzLiBTbyBjb21lIG5leHQgc2VtZXN0ZXIgSSB3aWxsIG5vIGxvbmdlciBoYXZlIHRvIHNoYXJlIGEgc21hbGwgZnJlZXppbmcgcm9vbSB3aXRoIHNvbWUgb3RoZXIgZ3V5LiBJIHdpbGwgaGF2ZSBhIHByaXZhdGUgcm9vbSBhbmQgd2lsbCBvbmx5IGhhdmUgdG8gc2hhcmUgYSBiYXRocm9vbSB3aXRoIG9uZSBvdGhlciBndXkuIFRoZSBzZW1lc3RlciB3aWxsIGJlIGVuZGluZyBpbiBhYm91dCB0aHJlZSB3ZWVrcyBhbmQgaXTigJlzIGFscmVhZHkgdGltZSB0byBwaWNrIGNsYXNzLiBJ4oCZdmUgaGFkIHRoZSBoYXJkZXN0IHRpbWUgcGlja2luZyBhIG1ham9yLCBidXQgSeKAmXZlIGZpbmFsbHkgc2V0dGxlZCBvbiBJbmZvcm1hdGlvbiBTeXN0ZW1zIFRlY2hub2xvZ3kuIFdpdGggYSBkZWdyZWUgSSB3b3VsZCBiZSBhYmxlIHRvIGdldCBhIGpvYiBhcyBhIENvbXB1dGVyIE5ldHdvcmsgQWRtaW5pc3RyYXRvciwgQ29tcHV0ZXIgU2VjdXJpdHkgU3BlY2lhbGlzdCwgb3IgYSBDb21wdXRlciBTb2Z0d2FyZSBhbmQgTWVkaWEgQXBwbGljYXRpb24gU3BlY2lhbGlzdC4gQmFzaWNhbGx5IGl0IHdvdWxkIGJlIGxpa2UgZ2V0dGluZyBhIGpvYiB3b3JraW5nIGZvciBhIGxhcmdlciBjb3Jwb3JhdGlvbiB0byBrZWVwIHRoZWlyIGNvbXB1dGVycyBhbmQgc2VydmVycyB1cCBhbmQgcnVubmluZy4gSSBwaWNrZWQgdGhpcyBtYWpvciBiZWNhdXNlIGl0IHN0aWxsIGlzIGhlYXZpbHkgc3RlZXBlZCBpbiBjb21wdXRlcnMgYnV0IGFsc28gZG9lc27igJl0IHJlcXVpcmUgbGlrZSB0aHJlZSB5ZWFycyBvZiBtYXRoLiBJIHdhcyBvcmlnaW5hbGx5IGdvaW5nIHRvIG1ham9yIGluIENvbXB1dGVyIEVuZ2luZWVyaW5nLCBidXQgSSB0aGluayB0aGUgaHVnZSBkZXBlbmRlbmNlIG9uIG1hdGggY291cnNlcyB3b3VsZCBoYXZlIHJlYWxseSB0YWtlbiBhIHRvbGwgb24gbWUuIEl04oCZcyBub3QgdGhhdCBJ4oCZbSBwcmFjdGljYWxseSBiYWQgaW4gbWF0aCwgYnV0IGl0IGhhcyBuZXZlciBiZWVuIG9uZSBvZiBteSBzdHJvbmcgYXJlYXMgb2Ygc2Nob29sLiBGcm9tIHdoYXQgSeKAmXZlIGJlZW4gcmVhZGluZywgdGhlIG5ldyBtYWpvciB3aWxsIGhvcGVmdWxseSBmaXQgbWUgcmVhbGx5IHdlbGwuIExvbmcgcG9zdCBodWguIFdlbGwgdGhpcyBpcyBldmVyeXRoaW5nIHRoYXQgaGFzIHJlYWxseSBiZWVuIGdvaW5nIG9uIHdpdGggbWUuIEFzIGFsd2F5cywgSSB3aWxsIHVwZGF0ZSB3aGVuIEkgZ2V0IHRoZSB1cmdlIHRvby4NCg0KTGF0ZXI="
+"eventtime","2005-04-13 12:04:00"
+"url","http://uhhuhioi.livejournal.com/46060.html"
+"userid","16190"
+"itemid","178"
+"event","SSd2ZSBiZWVuIG1lYW5pbmcgdG8gZ2V0IHRoaXMgdXAgc2luY2UgdGhlIHN0YXJ0IG9mIGxhc3Qgd2VlaywgYnV0IG1lIGJlaW5nIHRoZSBwcm9jcmFzdGluYXRvciB0aGF0IEkgYW0gcHV0IGl0IG9mZiBmb3IgdGhpcyBsb25nLiBCaWdnZXN0IG5ldyB0aGluZyBmb3IgbWUgaXMgdGhhdCB3ZSBoYXZlIG1vdmVkIGludG8gYSBuZXcgYXBhcnRtZW50LiBJdCBpc27igJl0IHJlYWxseSBldmVuIHRoYXQgZmFyIGZyb20gd2hlcmUgd2UgdXNlIHRvIHN0YXksIGp1c3QgZG93biB0aGUgc3RyZWV0IGEgbGl0dGxlIHdheXMuIFRoZSBuZXcgcGxhY2UgbG9va3MgcmVhbGx5IG5pY2UgaW5zaWRlIGFuZCBJIGdldCB0aGUgam95IG9mIHVucGFja2luZyBhbmQgc2V0dGluZyBteSByb29tIGJhY2sgdXAuIEl04oCZcyBhIGZhY3QgdGhhdCBtb3Zpbmcgc3Vja3MgYW5kIG91ciBtb3ZpbmcgZXhwZXJpZW5jZSB3YXNu4oCZdCBhbnkgZGlmZmVyZW50LiBUaGUgYmlnZ2VzdCB0aGluZyB3ZSByYW4gaW50byB3YXMgdGhlIGZhY3QgdGhhdCB0aGUgbGlnaHRzIHdvbuKAmXQgYmUgdHVybmVkIG9uIHVudGlsIHRvZGF5IGFuZCB3ZSBtb3ZlZCBvdXIgc3R1ZmYgaW4gU2F0dXJkYXkuIEFwcGFyZW50bHkgdGhlIGFwYXJ0IGNvbXBsZXggamVycnkgcmlnZ2VkIHRoZSBwb3dlciB0byB0aGUgYXBhcnRtZW50IHNvIHRoZXkgY291bGQgZ2V0IHRoZSBlcXVpcG1lbnQgd29ya2luZyBzaW5jZSB0aGVyZSB3YXMgbm8gcG93ZXIgb3ZlciB0aGVyZSB5ZXQuIFRoZSBvbmx5IHByb2JsZW0gd2l0aCB0aGF0IHdhcyB0aGF0IHdoZW4gdGhlIHBvd2VyIGNvbXBhbnkgd2VudCB0byB0dXJuIG9uIHlvdXIgZWxlY3RyaWNpdHkgdGhleSBzYXcgdGhhdCBzb21lIHdhcyBhbHJlYWR5IGJlaW5nIHVzZWQgYW5kIGZpZ3VyZWQgc29tZXRoaW5nIG11c3QgYmUgd3Jvbmcgd2l0aCB0aGUgbWV0ZXIuIE15IG1vbSBjYWxsZWQgRnJpZGF5IGFuZCBnb3QgZXZlcnl0aGluZyB3b3JrZWQgb3V0LCBidXQgdGhleSBzYWlkIGl0IHdvdWxkIHRha2UgdHdvIGJ1c2luZXNzIGRheXMgZm9yIHNvbWVvbmUgdG8gY29tZSBvdXQuIFNpbmNlIHRoZXkgZG9u4oCZdCB3b3JrIG9uIHRoZSB3ZWVrZW5kcywgaXQgbWVhbnQgdGhhdCBteSBtb20gd291bGQgaGF2ZSB0byBzdGF5IHdpdGggbXkgc2lzdGVycyB1bnRpbCB0b2RheS4gTmV4dCBtYWpvciBwcm9ibGVtIHdhcyB0aGF0IHRoZSBjYXJwZXQgd2FzIHNoYW1wb29lZCB0aGUgZGF5IGJlZm9yZSB3ZSBtb3ZlZCBpbiBhbmQgd2FzIHN0aWxsIGEgbGl0dGxlIGRhbXAgdGhlIG5leHQgbW9ybmluZy4gV2UgY291bGRu4oCZdCBzZXQgdGhlIGJveGVzIG9uIHRoZSBkYW1wIGNhcnBldCBiZWNhdXNlIGl0IHdvdWxkIG1ha2UgdGhlIG1pbGRldyBhbmQgYWxsIHRoYXQgYmFkIHN0dWZmLiBTbyBiYXNpY2FsbHkgYW55dGhpbmcgdGhhdCB3b3VsZCBzZXQgZmxhdCBvbiB0aGUgZ3JvdW5kIGhhZCB0byBiZSBwbGFjZWQgc29tZXdoZXJlIHdoZXJlIHRoZXJlIHdhc27igJl0IGNhcnBldC4gV2UgcHV0IGJveGVzIGluIHRoZSBraXRjaGVuLCBiYXRocm9vbSwgYW5kIG9uIHRvcCBvZiB0aGUgYmVkcy4gSXQgc2hvdWxkIGJlIGRyeSBieSBub3csIHNvIG15IG1vbSBjYW4gZ2V0IHN0YXJ0ZWQgdW5wYWNraW5nLiANCg0KSW4gc2Nob29sIHdvcmxkIHRoaW5ncyBoYXZlIHN0aWxsIGJlZW4gYWxyaWdodC4gSSBoYXZlIHRoaXMgdGVhbSBwcm9qZWN0IGNvbWluZyB1cCB0aGF0IGhhcyBldmVuIHN0YXJ0ZWQgeWV0LCBzbyB0aGF0IGlzIHdvcnJ5aW5nIG1lIGEgdG91Y2guIEnigJltIHN0aWxsIG5lcnZvdXMgYWJvdXQgZGVjbGFyaW5nIGVsZWN0cmljYWwgZW5naW5lZXJpbmcgYXMgbXkgbWFqb3IuIElmIEkgZ28gdGhpcyByb3V0ZSB0aGVuIEkgd2lsbCBoYXZlIGEgbG90IG9mIG1hdGggYWhlYWQgb2YgbWUuIEl04oCZcyBub3QgdGhhdCBtYXRoIGlzIHBhcnRpY3VsYXJseSBoYXJkLCBpdOKAmXMganVzdCBJIHJlYWxseSBoYXZlIHRvIGFwcGx5IG15c2VsZiBhbmQgbWFrZSBzdXJlIEkga2VlcCB1cCBhbmQgdW5kZXJzdGFuZCBldmVyeXRoaW5nLiBJIHJlYWxseSB3YW50IHRvIGdvIGludG8gc29tZSB0eXBlIG9mIGNvbXB1dGVyIGZpZWxkLCBidXQgZG9u4oCZdCByZWFsbHkgd2FudCB0byBiZSBhIGNvbXB1dGVyIHByb2dyYW1tZXIuIEhvcGVmdWxseSBJIHdpbGwgZmlndXJlIHNvbWV0aGluZyBvdXQgdGhhdCB3aWxsIGFncmVlIHdpdGggbWUuIEl04oCZcyB0aW1lIGZvciBjbGFzcyBhbmQgSeKAmXZlIHdyaXR0ZW4gZW5vdWdoIGZvciB0b2RheS4NCg0KTGF0ZXI="
+"eventtime","2005-04-06 10:23:00"
+"url","http://uhhuhioi.livejournal.com/45572.html"
+"userid","16190"
+"itemid","177"
+"event","I've been meaning to post this for the past few days, but am just now getting to it. It turns out that I won't quite be an uncle right now, because my sister has a miscarriage. She's is doing better and is getting back on track with her life. Thanks all I want to really say right now.
+
+Later"
+"eventtime","2005-03-17 14:44:00"
+"url","http://uhhuhioi.livejournal.com/45520.html"
+"userid","16190"
+"itemid","175"
+"event","TGFzdCB3ZWVrIGJlZm9yZSB0aGUgYmlnIHNwcmluZyBicmVhaywgYnV0IG9mIGNvdXJzZSBJIGhhdmUgYSB0ZXN0IHRvbW9ycm93LiBUaGVyZSBzZWVtcyB0byBhbHdheXMgYmUgYXQgbGVhc3Qgb25lIHRlYWNoZXIgdGhhdCB3aWxsIHRyeSBhbmQgc3F1ZWV6ZSBvbmUgdGVzdCBpbiBiZWZvcmUgd2UgbGVhdmUgZm9yIGJyZWFrLiBJ4oCZbSBsb29raW5nIGZvcndhcmQgdG8gb25seSBoYXZlIHRvIHRoaW5rIGFib3V0IHNjaG9vbCBhIHRhZCBiaXQuIFRoZSBicmVhayB3aWxsIHByb2JhYmx5IG5vdCB3b3JrIG91dCBtdWNoIGZvciBtZSBzaW5jZSBteSBzaXN0ZXIgZmluYWxseSBzb2xkIGhlciBicm9rZW4gZG93biBjYXIuIEkgd2lsbCBwcm9iYWJseSBoYXZlIHRvIHNwbGl0IHRoZSBjYXIgd2l0aCBoZXIsIGJ1dCBob3BlZnVsbHkgc2hlIHdvbuKAmXQgbmVlZCBpdCB0b28gbXVjaC4gSWYgc2hlIGRvZXNu4oCZdCB0aGVuIEkgZ2V0IGZyZWUgKHRvIGEgY2VydGFpbiBwb2ludCkgdXNlIG9mIHRoZSBjYXIuIEkgZG9u4oCZdCByZWFsbHkgaGF2ZSBhbnl0aGluZyBwbGFubmVkLCBidXQgbWF5IHRyeSBhbmQgc2VlIGEgZmV3IG1vdmllcy4gTXkgbW9tIGlzIHdvcmtpbmcgb24gZ2V0dGluZyBtZSBhIGNhciB3aXRoIHNvbWUgb2YgaGVyIGluY29tZSB0YXggbW9uZXksIHNvIG1heWJlIGJlZm9yZSB0b28gbG9uZyBJIGNhbiBoYXZlIG15IG93biBjYXIgYW5kIG5vdCBoYXZlIHRvIHdvcnJ5IGFib3V0IHNoYXJpbmcgaXQgd2l0aCBhbnlvbmUuIFdpdGggdGhlIG5ldyBjYXIgdGhvdWdoIEkgd2lsbCBoYXZlIHRvIGZpbmQgYSBqb2IsIHNpbmNlIEkgY2Fu4oCZdCB1c2UgdGhlIGV4Y3VzZSDigJxJIGRvbuKAmXQgaGF2ZSBhIGNhciwgc28gSSBjYW7igJl0IHdvcmsu4oCdIEkgd29u4oCZdCByZWFsbHkgbWluZCB3b3JraW5nLiBXaGVuIEkgZmluZCBhIGpvYiBJ4oCZbGwgYmUgYWJsZSB0byB0YWtlIEplcmkgb3V0IG1vcmUsIGdvdCB0byBzdW1tZXIgc2Nob29sLCBwcm92aWRlIGZvciBteSBvd24gZ2FzICh3aGljaCBtZWFucyBtb3JlIGNvbnRyb2wgb3ZlciBteSBjYXIpLCBhbmQgaGVscCBteSBtb20gb3V0IHdpdGggc29tZSBvZiBoZXIgYmlsbHMuIEkgd2lsbCBhbHNvIGJlIGFibGUgdG8gZG8gdGhpbmdzIGZvciBUb3kgc2luY2UgSSBrbm93IHRoYXQgcmFpc2luZyBoZXIga2lkIHdvbuKAmXQgYmUgY2hlYXAuIE9uY2Ugc3VtbWVyIGNvbWVzIEnigJltIGdvaW5nIHRvIHJlYWxseSBnZXQgb3V0IGFuZCBzdGFydCBsb29raW5nLCBhbmQgd2lsbCBob3BlZnVsbHkgZmluZCBzb21ldGhpbmcgdGhhdCBwYXlzIGEgbG90IGFuZCB0aGF0IEkgd29u4oCZdCBoYXRlIGNvbXBsZXRlbHkuIEhlcmXigJlzIGxvb2tpbmcgZm9yd2FyZCB0byBiaWcgYW5kIGdyZWF0IHRoaW5ncy4NCg0KTGF0ZXI="
+"eventtime","2005-03-08 13:20:00"
+"url","http://uhhuhioi.livejournal.com/44992.html"
+"userid","16190"
+"itemid","174"
+"event","If you visit my main page then you might have noticed that things are looking a little bit different. I've been meaning to change my site looks for a while now, but am now just getting around to it. People on the web have made it so easy to write overrides, and for that I am thankful. I hope everyone likes the new look and if there are any problems, like hard to read text or something, then make sure to drop me a line and let me know. I couldn't get everything the way I wanted it to look. I wanted the comment links on the journal to be black nd the links on the side columns to be like the blue in the title. I have the code, but it just doesn't seem to work. Whether you like the new look or hate it, drop me a comment and let me know. I love public opinion."
+"eventtime","2005-02-28 10:12:00"
+"url","http://uhhuhioi.livejournal.com/44591.html"
+"userid","16190"
+"itemid","173"
+"event","Well I got a call from my sister about 20 minutes ago who had a surprise. What was the surprise you ask? Apparently she will be having a child and I will become an uncle. Weird how things can change a hell of a lot in the lapse of one single day. I don't know how I am suppose to feel about it this, but I am kind of excited for her. She said that I may have to play a somewhat small ""male figure"" role, since her and the father aren't exactly seeing each other. When I woke up today all I was really worried about was studying for my math test tomorrow, and now I have to worry about if I can be a good uncle to her child. She still doesn't know if it will be a boy or girl, but she is hoping for a boy. My mom was fine with it and my dad has mellowed through the years so he didn't fly off the handle too much about it (from what I've heard). From the look of things now she won't have too much trouble financial, but I'm sure raising a child is no easy task. But like the saying ""it takes a village to raise a child"", she has her village in her family and we will make sure that everything goes right for her and her child. I'll be posting more when I find out more.
+
+Later
+P.S - I won't be doing any baby sitting."
+"eventtime","2005-02-24 13:13:00"
+"url","http://uhhuhioi.livejournal.com/44525.html"
+"userid","16190"
+"itemid","172"
+"event","I always feel really bad because I hardly ever update my journal. It's not that I don't have the time, it's just I never really get around to it. I would probably have more people reading my journal if I updated it more then once a month. Things in my life have been pretty constant so there is never anything really big to talk about, but I shall press on to topic number two.
+
+When I first started thinking of my major I though about some field that I would enjoy working in. I've always had a thing for computers and tech things, so I figured working with computers would be a good road for me to go down. At first I thought about Computer Science, but I took a few of those classes in high school and there required very tedious work. One small error would completely screw up a program and I didn't really enjoy working on something that required such levels of detailed work. But what was the hell was I thinking when I decided to major in Computer Engineering? Just the term engineering makes it sound like it will require loads of work. It would be all that bad if I didn't have to take so many math classes. Math has made me its bitch since I can remember. I've never really been terrific in math. It might have to do with remembering all of the formulas, equations, proofs, and problem solving skills. I'm not yet 100% about the major, but hopefully by the end of the semester I will be. I would like to work in some sort of engineering field with computers, because I would love to build them for a living. Hopefully I will be able to get through the ass load of math classes and the few physics classes that will be required. Being in engineering would offer me a lot of benefits. The ass loads of money, being able to work on things that might be able to help others, and did I mention the ass load of money? I will try my best to do my best and hopefully everything will work out in the end. Guess that is enough of me rambling for now. Till next time.
+
+Later"
+"eventtime","2005-02-23 10:15:00"
+"url","http://uhhuhioi.livejournal.com/44184.html"
+"userid","16190"
+"itemid","171"
+"event","No use for me appolizing about not updating soon, but everyone who reads this knows what to expect by now. I might have updated this over the weekend, but this cold is kicking my ass. You know a cold is bad when for the past two days the first thing you do after waking up is vomit. Jeri brought me some medicine and it seems to be doing the trick. I think I've finally managed to break my fever, so I only have a runny nose and a slight cough. It was raining pretty hard today so I decided to skip my Calc class, becuase I don't think getting soaked will help me get better. I'm still going to go to the rest of my classes at 12. The bad weather is making my fell even worse and I want nothing more then to crawl into a nice warm bed, sleep, and wake up with this stupid cold gone.
+
+On to more postive things in my life. My dad, step-mom, and half sister came down last weekend to visit. We hung out and had a nice time. Went to the movies a few times, had dinner, and just spent time together. I think the main reason for them coming down was for my sister and me to get to know our half sister better. It had had about a year since we last seen her and she has getten really big. She is starting to talk now and was trying to say our names the whole weekend. My dad said he is still thinking about moving back to Texas in about a year that way he will be closer to us. I gave Jeri her necklace (I know, it was really late) and she really loved it. The chain that came with it was a little small and thin, so she will probally need to get one that will last longer. I don't want it to break and she loses it. Time is up and hopefully the rain has stopped. I might add more later today, but don't hold me to it.
+
+Send me get well wishes,
+Later
+
+P.S - No time to spell check :)"
+"eventtime","2005-02-07 11:18:00"
+"url","http://uhhuhioi.livejournal.com/43784.html"
+"userid","16190"
+"itemid","170"
+"event","I came to the computer lab looking to do some homework, but I just can't seem to get to it. I've been doing some chatting, checking email, and now I'm updating. Most of my homework isn't due till Wed, so I'm going to do it tomorrow since I still won't have anything to do. This semester seems to be going really good so far. Piano class is fun, although I will need a lot of practice away from class. I try to keep in class but we sometime move to fast, but I prefer to practice alone anyway. That way I can actually hear what I am playing, and not be drowned out by everyone else. Once again my math class will probably give me the most trouble. My Calculus is broken up into two classes, the actual class and then a lab. I think the lab is to go over some of the finer parts that might have been missed during the main lecture class. This semester I will probably need to study the book and then go to class just to get a better understanding, since the teacher doesn't seem to do anything in class but work a few example problems and briefly talk about the chapter. This isn't really a surprise since the higher I get in college the less handholding that will be going on. 
+
+On a separate note, it is Jeri's and my one year anniversary. It should be a good day, but the stupid car had to be put in the shop so I won't get to see her today because she had to go home for the weekend. She is also going to have to wait a week until she gets her present. I have being stuck on campus and not being able to spend time with her now. And next week is going to be busy since my dad, step mom, and stepsister will be coming down to visit. This means I will have to split my time between then and her which I really don't like. Hopefully they will understand if I want to spend a day with her instead of them and vise-versa. Guess I should at least try and maybe do something school related.
+
+Later"
+"eventtime","2005-01-22 16:58:00"
+"url","http://uhhuhioi.livejournal.com/43644.html"
+"userid","16190"
+"itemid","169"
+"event","My life, as usual, has been pretty boring. School will be starting back Tuesday and I have to say that I am kind of excited. Not really excited about the work, but about having something to do during the day. My mom and I went up there yesterday to pay on some of my tuition with the money my dad sent down. I'm so relived that this semester I won't be paying out the ass once all my financial aids and loans get applied. This time around I owe less then 400 hundred dollars (Hell yeah!). I will be making another trip back up to school tomorrow morning early to pay off the rest of the balance and also to look into a few other things. I'm going to stop by these apartments on campus and look into staying in them the next semester, so it may be so long cramp towers. I'm also going to see about any work-study job openings because I could really use some work and it's not like it will really interfere with my schedule. Speaking of schedule, I'm really feeling like I need to play some serious catch up. I am planning on going to summer school this time around just to make up some hours so I can have how credits once the fall semesters starts back. Also by doing this I can get back to where I should be class wise and will be able to take more classes toward my major. One class that I am slight looking forward to this semester is this intro to piano class. I've wanted to learn to play for a long time and I think taking a class for it will help me keep up the practicing and everything. Now all I have left to do is learn to play the sax and the violin. Music could be my new hobby.
+
+Till next time,
+Later"
+"eventtime","2005-01-12 22:35:00"
+"url","http://uhhuhioi.livejournal.com/43464.html"
+"userid","16190"
+"itemid","168"
+"event","Three days into the new year with no post! Bad John. 2004 is now over and 2005 is here for twelve more months. My New Year's Eve was pretty average. We didn't end up going to Jeri's aunts house so we decided to just hang around her place and watch the ball drop. This is the first time ever that I've had someone to kiss at midnight so it was a little special for me. Didn't/couldn't get drunk since I was the one doing the driving but I did have a few sips of a margarita. Do I have any resolutions for the new year? Nope, I'm not going to make something that I know I will probably just end up braking in the end. If something comes up that needs changing hopefully I will do something about it. (Kind of sounds like a resolution huh) Hope 2005 is just a great as 2004.
+
+Later"
+"eventtime","2005-01-03 16:45:00"
+"url","http://uhhuhioi.livejournal.com/43258.html"
+"userid","16190"
+"itemid","167"
+"event","It's the day after Christmas, the tree is still up, and the temperature is going up. My Xmas was a pretty good one. First off it did something here that rarely happens, it snowed. It was all that thick, but it was cold enough for it to stick to the ground and make everything look white. People were out playing in the snow and making snowmen. But since this is Houston it didn't last long. In fact, it is suppose to get back up into the mid 70's later this week (Texas weather for you). I was excited the night before and could hardly sleep (so I'm a big kid) and ended up waking up around 10 or so. Opened the few things I got from my sister. She got a few pair of jeans that would actually look nice on me. She said she was going to get me the new PSTwo, but since the new one would be coming out in a few months she was going to hold off and get me that one. We got her a new VCR for her room (which I have to set up) and she got my mom some jewelry and things stand up jewelry chest thing. 
+
+After that I got ready and left since I had to be a Jeri's by two so I could go with her to her aunt's house. I got there a little early so we had time to exchange gifts. I got her this bath set with candles, massage oil, bubble bath, and some shower wash. I only got her the one thing because I also started paying on her anniversary gift (sucks to have an anniversary so close to Xmas) . Jeri got me this really good pair of headphones for my iPod since the ones that came with it broke a long time ago. After that I ended up following her mom to her sister's house; which was pretty hard since she had a habit of speeding and switching lanes whenever someone slower got in front of her. Took us like 40 minutes but we finally made it there. We spent like 6 hours over there just eating and hanging with her family. She got a few more gifts there (mostly pajamas). After we left her aunt's house we went to her house and met up with some of her friends to play with their new Gamecube. Left there and ended up back here for some time and took her home a few hours later. It was special because it was our first Xmas together and I really had a nice time. My mom made way too many cookies, so anyone who wants some sugar cookies or peanut butter cookies just stop by and you can have some. Now, bring on the New Year's Eve!
+
+Later"
+"eventtime","2004-12-26 15:02:00"
+"url","http://uhhuhioi.livejournal.com/42951.html"
+"userid","16190"
+"itemid","166"
+"event","Yes, believe it or not I am back at school. Why am I back at school you may ask? I brought Jeri so should could a presentation for one of her classes. But the day didn't start out that well. I was supposed to wake up at 9:20 and be at her house by 9:45 so we could leave to come here. What really happened is that I forgot to set my alarm and was woken up at 9:45 when Jeri called me. So, I hopped in the drove, did a little excessive driving, but still managed to get her here on time (so very good thing). I was supposed to be taking an online math quiz, but opps forgot my pencil. I have till tomorrow to take it so I'll just do it at home. What have I been doing with my break besides being late to pick up my girlfriend? I've been playing games and watching movies. Jeri and I have been playing The Urbz: Sims in the City for like three days on for hours. It's amazing how consuming a game can be, were you can just sit for hours on end playing. You get so caught up controlling the people and trying to make them popular that the hours just slip by. We've also doing a little moving going. Went and saw Bland Trinity and Ocean's Twelve the other night. I feel that this Blade was better then both of the other ones. It had a lot more story and plot and I liked the fact that the guy from John Doe played the villain. Ocean's Twelve was ok, but there were a few times during them movie that things tended to slow down a little too much. I will probably starting looking for a job pretty soon, one that will allow me to just work weekends once school resumes. I'm really kicking myself about school now, because I feel that I should have taken more classes my freshmen year. As it stands, I will still need like 7 more hours to be qualified as a junior. I'm going to try and see if there are some electives I can take to try and fill up some hours. Another reason for me to get a job is so that I can pay to go to summer school. Doing so will really go a long way towards me getting out of school as fast as possible. Guess this is everything that has been happening lately.
+
+Till Next Time"
+"eventtime","2004-12-13 12:01:00"
+"url","http://uhhuhioi.livejournal.com/42588.html"
+"userid","16190"
+"itemid","165"
+"event","Well all finals have been taken, all papers turned in, and bags have been packed. All that is left is to check out and wait for my mom to come and pick me up. I don't really have any big plans for this nice, extra long break (awww). I will probably try looking for a job that I can keep even when I come back to school, even though I will probably have to work just on the weekend once spring semester starts. I'm not actually totally opposed to getting a job. I've wanted some extra spending cash and if I got a job it would help pay for the high expenses associated with higher learning. It's not like I haven't worked, so it won't really be anything new. Besides maybe working, I'll probably spend most of my time with Jeri. But I probably won't be able to see her ever day, with the high prices of gas everywhere. I'm hoping my grades for this semester will be pretty good. I will probably come away with a C in Chemistry, hopefully a B of C in math, and I'm not really worried about cultural psychology or theater. My classes this time around have been pretty good, with only Chemistry and Pre-Calc to really worry about. I sold my books back the other day and some nice pocket change, the only problem is what to spend it on. I'm supposed to get in touch with my dad tomorrow so he can call in and pay off what I have to pay to the school. So everything is rolling along nicely and so will everything else hopefully. I need to get some lunch and then clean up before I have to check out. Like always, stated tuned for more updates once I'm home and settled in.
+
+Later"
+"eventtime","2004-12-09 12:00:00"
+"url","http://uhhuhioi.livejournal.com/42279.html"
+"userid","16190"
+"itemid","164"
+"event","Everyone seems to be doing this whole 3 question thing, so anyone may ask me three questions to which I will respond. (Make them good questions:P)"
+"eventtime","2004-12-02 11:53:00"
+"url","http://uhhuhioi.livejournal.com/42084.html"
+"userid","16190"
+"itemid","163"
+"event","It is now the weekend, which means Thanksgiving break will soon be over.  I have to admit that I did enjoy myself, even though I didn't really got much of my work done.  I did the usual eating till you feel slightly sick on Thanksgiving thing and just hung out around here.  I did end up going to see The Incredibles (which was a good movie) and Alexander (which was a really long movie).  I put my tree up, even though I won't be seeing it much.Other then that I hadn't really done much else, expect hang out with Jeri.  I really don't want to, but I have some school work to get too.
+
+Update again soon"
+"eventtime","2004-11-27 13:01:00"
+"url","http://uhhuhioi.livejournal.com/41946.html"
+"userid","16190"
+"itemid","162"
+"event","I'm done with all my classes for today, and in about two hours my mom will coming to pick me up.  I don't have much planned for the break, but will doing some studying for finals and some homework.  I may try to go and see The Incredibles since I didn't get a change to over the weekend.  I got an 80 on my chemistry test the other day so I was really glad about that.  Now if I can do the same thing with the final then I will leave the class with a good grade.  I hope I have the same luck with my math test when we come back from break.  My cell phone will be cut off for a while, which really sucks.  The bill is a little past due and will needed to be payed on before the phones are active again.  I don't really talk to that many people, but I enjoy having easy contact with those few people I do keep in touch with.  Guess I should head back to my room, so I will know when my mom calls.  I'll be updating through the week, so look for them.
+
+Later"
+"eventtime","2004-11-23 14:56:00"
+"url","http://uhhuhioi.livejournal.com/41709.html"
+"userid","16190"
+"itemid","161"
+"event","Well things are looking up more then they have in the past few weeks.  I took my Chem test which I had been studying for and feel like I did a pretty decent job on it.  There were a few questions that I have some issues with, but hopefully I did well.  The school financial thing is looking better.  I was able to call my dad and he said he will send me some money down and plus the money my mom has we should have everything paid off by early December.  I just hope I won't get dropped from any of my classes do the fact that I haven't paid all of my tuition like I've heard.  Turns out that I will be staying in the dorms for the spring, though it is kind of weird.  I never realized how much I don't totally hate living in the dorms.  And I didn't realize this until I was faced with the possibility that I might be leaving.  Chalk it up to the old saying (that's not exactly right), ""You know how much you like something, until it is gone.""  I'm going to try and go see The Incredibles and National Treasure today and I need to go to a play tomorrow for class.  Now I need some lunch, so later all.
+
+PS - Being on dial-up sucks.  I want my dsl back :("
+"eventtime","2004-11-20 12:40:00"
+"url","http://uhhuhioi.livejournal.com/41363.html"
+"userid","16190"
+"itemid","160"
+"event","I don't know if it's the weather or everything else that has been going on today, but I'm feeling very blahish.  I went and talked to financial aid this morning and they conformed that I still owe the school like $1300; which is really sad considering I have already taken out a few loans and been given grants.  College is becoming really expansive and there isn't an end in sight.  I called my dad last night and hopefully he will be able to send some money down to help pay some of it.  My mom is considering keeping me a home next semester to help cut down on the school expensive.  There are good and bad things about it I guess.  I will get to be back at home in my own room, but I will probably have to catch the bus or maybe ride with Jeri if she gets her car.  Living at home will mean that I would have to get up earlier to make it to campus on time and won't have easy access to other things on campus.  I don't know how I exactly feel about moving back home right now, but maybe it will be a good thing.  I may even be able to get a part time job that can work around the class schedule.  Besides the financial headache, I'm still worried about this Chem. test on Fri.  I don't feel that I am as prepared as I really should be but really plan to study my ass off in these last few days.  Thanksgiving break is coming up which may not be as relaxing as it should be.  All through the break I will be studying for the few finals I have to take (not the most relaxing thing).  Because I still owe the school money I can't even apply for the class I need or drop the one I don't need.  I wish this day would just end so I could move on to the next one.  I probably should be using this time to do something more productive.
+
+Later"
+"eventtime","2004-11-17 12:05:00"
+"url","http://uhhuhioi.livejournal.com/41072.html"
+"userid","16190"
+"itemid","159"
+"event","Chemistry sucks and it takes a lot of learning.  Not only do I have to take Chemistry, I have to take Chemistry for Engineers.  Why did I pick such a hard field to be in?  Was it the money, money to buy nice gadgets, or being in a carer I think I will enjoy doing for a long time?  Going to have to go with D Bob, all of the above.
+
+Time for Scrubs and my Chem quiz."
+"eventtime","2004-11-16 20:23:00"
+"url","http://uhhuhioi.livejournal.com/40920.html"
+"userid","16190"
+"itemid","158"
+"event","Just came back from my meeting with an adviser and until I take Calculus I I pretty much can't take anything else but Microeconomic Principles.  I guess that is some good news, but I haven't done paying the school for the current semester so they won't let me register the class I need until I get everything paid up.  I'm going to go over to the financial aid office tomorrow morning and see if I can get placed on some type of payment plan.  I'm going to be going to a chem review in like 3 hours so I can get somewhat better prepared for the the test on Friday.  I've got at least on section of the test down semi-good, but am hoping to get a better grasp on some of the other sections.  I really need to do good on this test to help bring up some of the lower ones.  I have to get studying now, I need all the extra studying time I can get.
+
+Till next time
+
+(Did anyone else notice that I have started to update more?  No more going 4 weeks with nothing new, and hopefully I can keep this up :))"
+"eventtime","2004-11-16 16:38:00"
+"url","http://uhhuhioi.livejournal.com/40616.html"
+"userid","16190"
+"itemid","157"
+"event","Got an email back from an adivsor of my major and will be going to see her Tuesday at 4 and hopefully get something worked out in time before all the classes are already filled.  I shall keep everyone updated.
+
+Later"
+"eventtime","2004-11-13 12:15:00"
+"url","http://uhhuhioi.livejournal.com/40249.html"
+"userid","16190"
+"itemid","156"
+"event","I thought for once that I would have an easy time picking my classes out, but alas it never seems easy.  I had my entire schedule out and I was really happy, then I found out that I didn't need to take this one class for my major so I was even happier.  But after doing some looking around I realized that I can't Physics until I take Calculus II, which I can't do since I will only be taking the first one this spring.  So now I have to find another class work like 2 or 3 hours.  This isn't so bad, but I wanted to get started taking classes toward my major (have finally decided on computer engineering) because I think that I'm already a little behind in terms of where I should be (dame me for not being smart enough to test out of basic math).  I've emailed someone from that department and asked if it would be possible to set up some type of advising and I hope the respond with a yes before I run out of classes to take.  This is all very frustrating, going from having the schedule set to being short of full time by a class.  If I can afford it then I'm going to take either Calculus II or Physics in summer school, but I may still be limiting in the number of classes I can take due to the fact that I have to complete lower level classes before I can be accepted into higher level ones.  I really hope I get that meeting and we are able to work something out other wise I will get further behind with my major classes.  If push comes to shove though, I could always go back and take history again and hopefully get like an A or B to help even out the D I got the first time.  School is such a headache and I am trying my hardest to get through it as quick as I can.  Look for an update once I get a reply to my the email.
+
+Night all"
+"eventtime","2004-11-12 21:11:00"
+"url","http://uhhuhioi.livejournal.com/40132.html"
+"userid","16190"
+"itemid","155"
+"event","Everyone seems to be getting new icons so I decided to get ahead and get a new one my self.  Hope everyone likes it. :)"
+"eventtime","2004-11-11 17:30:00"
+"url","http://uhhuhioi.livejournal.com/39902.html"
+"userid","16190"
+"itemid","154"
+"event","It's 10 in the morning and it has just been announced that the race is over and we will have four more years of Bush.  Everyone said this race was going to be neck and neck, but it seems like Bush had a majority lead through out the whole process.  I voted for the first time and I see no reason I won't in the future.  There were no huge surprises in the election, as it was obvious that Bush would take most of the South a.k.a ""Bush Country"".  I'm actually looking forward to going to political science today so I can hear what my professor has to be about the race and the overall turn out (sounds weird actually looking forward to class).  I actually feel like that political science has had some impact on the way I viewed the election, and it is kind of lucky that I took the class during an election year.  I know a few people that are going to be upset in the fact that Kerry lost the race, because they didn't really like Bush.  Time for class, so you may now return to your regular schedule life.
+
+Later"
+"eventtime","2004-11-03 10:11:00"
+"url","http://uhhuhioi.livejournal.com/39517.html"
+"userid","16190"
+"itemid","153"
+"event","Before I start off, I have to say LJ has certainly changed since the last time I was here.  You can now post by phone or even e-mail, but only under a paid account.  The layout for the entries has even changed, maybe I should start coming back more.
+
+<lj-cut text=""On to the main meal""> I'm always really concerned about my grades and I seem to be worrying more in college then I did in high school.  Right now I'm concerned that I'm not going to do well in either my math or chemistry class.  I've been doing ok on the online math quizzes and have turned in all my homework, but I feel the test are killing me.  I've made about a 70 on each one and think I may have failed the one I took yesterday.  It's not that the test are really that hard, it's that they only give you 45 minutes for a 20 question test with 4 ""show your work"" problems.  I'm always so busy checking the clock and worry about how much time I'm going to have to really concentrate on the test.  I wish my math test were like they were last semester, where the took them in a classroom and got like an hour and a half.  But this semester all my math test on on computer in some special testing lab.  I thought about dropping but then I wouldn't be at 12 hours and wouldn't be a full time student.  This means that I'm going to have to score really well on the next test and the final exam.  I'm going to start with the free response questions from now on and then go to the multiple chose ones, since the free response count more then the others.  I am hoping that my math homework grades and online quizzes help even out my test scores, but I don't want another D in a class like before, those can kill a person's GPA.  All of this can also be said for chemistry.  I'm going to have to really do well on the next few test and quizzes to make sure I come out of the class with a good grade.  On top of this, it is almost time to start picking classes for the Spring semester.  I have picking out classes until I know what I have made in the current classes.  I can't wait until Thanksgiving break so I can at least relax for a tiny bit.</lj-cut>"
+"eventtime","2004-10-27 12:15:00"
+"url","http://uhhuhioi.livejournal.com/39230.html"
+"userid","16190"
+"itemid","152"
+"event","I probably sound like a broken recored every time I say, ""I've been meaning to update this for a while, but I just seem to run out of time.""  We've been back in school for a few weeks now and things are still going pretty smooth.  Out of all my classes, chem will probably require the most attention.  But I really need to be planning out all of the things for my classes because I really have no clue when or what things are needed to be turned in.  I have a play critique due on the 23 or something, so I need to go to a play really soon so I can have something to do the paper over.  I need to start checking to see when my online quizzes are due because I can't afford to miss to many of them, otherwise I may be dropped from the class.  I have notes that I should be looking over and charts to be memorizing.  Mind sound like I'm complaining a lot, but I just need to get out of the summer mode and back into school mode.  I need to get things together and organized and ""get my head back in the game"".  Roommate thing is still going great since Jonathon is a really good guy and easy to get along with.  Jeri and I are doing great and I'm glad to have here, otherwise my time at school would be really really boring.  As of right now I don't have a work-study job at school.  All of the ones I had picked out were already filled before I got a change to get one.  They told me to keep checking back and hopefully more postings will show up.  I'm kind of relived because I didn't want to really work right now, but also hate the fact that I won't have any spending money.  There are a few jobs open but they are mostly off campus or are tutors.  I don't have a car or think I would make a good tutor, so those are canceled out.
+
+In other news, I received a speeding ""violation"".  It isn't a ticket but it will require me to go to court and most likely take a defensive driving class.  I'm only kind of pissed at myself, but I knew it would happen eventually.  I was only doing 46 in a 35 so it wasn't like I was way over the limit.  Has it changed the way I drive now?  Only slightly, and only in certain areas.  In my neighborhood I can probably get away with going a little over, then I can in Jeri's neighborhood.  Maybe I should just invest in one of these radar detecting things.  Nah.
+
+I know, I don't update for weeks and when I do it's really long.  Please forgive and until next time.
+
+Later"
+"eventtime","2004-09-08 12:00:00"
+"url","http://uhhuhioi.livejournal.com/38955.html"
+"userid","16190"
+"itemid","151"
+"event","Well, I'm now back at school and in a way it feels like I haven't left.  Jonathon (roommate) seems cool and I don't think we will have a problem living together.  The room is all set up and I was just printing out my class schedule.  I am kind of worried because I have two classes that aren't even close together, and am just hoping it doesn't take me more the 10 minutes to walk there.  I'm going to try it out tomorrow and see if I can make it or if it would just be better to take one of the shuttles around campus.  Nobody has really made it back to campus so I really haven't had anything to do but just sit around and watch tv, which is what I would mostly doing anyway.  I have my little interview thing Thur for my work study job.  I hope I can get a job that I like and won't be stuck answering phones all day.  I wouldn't mind be a file clerk or arron boy, but me being the anti-social person that I am doesn't want to be stuck talking to people and assisting them.  This was just a short update until the next time.  Hope this year is a good one.
+
+Later"
+"eventtime","2004-08-22 18:55:00"
+"url","http://uhhuhioi.livejournal.com/38798.html"
+"userid","16190"
+"itemid","150"
+"event","-Summer is basically over
+-Moving in today in about 6 hours
+-Hope I like my new roommate
+-No one to hang with till Sunday
+-Nervous about doing well in all my classes
+-Tired, thus going to bed
+
+Night all"
+"eventtime","2004-08-21 03:30:00"
+"url","http://uhhuhioi.livejournal.com/38629.html"
+"userid","16190"
+"itemid","148"
+"event","I've been meaning to write this for a while, but am just now getting to it.  Summer is quickly drawing to a close as the 20th (my tentative move-in date) approaches.  Like all other college kids I'm half looking/not looking forward to going back to school.  I don't know if I want to eat the roughly the same thing every night, deal with all the school work, deal with the paperwork that comes with large institutes, live in another small room with someone else, or deal with the overall stress that comes from school.  I may not want to, but there isn't a possibility to stay in the nest forever.  I'm sure I am just feeling this way now and by the time school comes will be ready and prepared just like I was last semester.  But I do look forward to seeing everyone (RE: Hey Kathy) and am actually looking forward to a few classes.  I'm getting a better idea as to what I want to do as a career.  I wouldn't mind being a computer consultant (someone who sets up/builds computers for people/business) or just working somewhere in the computer field.  If you are going to be stuck in one career field you might as be in one you enjoy.  And working in this field will allow my to buy all the expensive toys/gadgets that I want.  Wow, seems as though I got carried away with the slashes.
+
+Till next time"
+"eventtime","2004-08-04 22:17:00"
+"url","http://uhhuhioi.livejournal.com/38115.html"
+"userid","16190"
+"itemid","147"
+"event","I know that I have a horrible habit of going weeks without updating, but nothing really happens in my life that would be all that interesting to read.  I have been slightly busy this part weekend.  I first want to say happy 4th to everyone and hope a good time was had by all.  My 4th weekend started early Sat morning when Jeri and I went to <a href=""http://www.sixflags.com/parks/astroworld/index.asp"">AstroWorld. </a>  We got there around 10 A.M and didn't leave till closing, 10 P.M.  We rode every ride, except for a few Jeri didn't want to, and had enough time to re-ride some of them two or three times.  We still had a great time even though it was amazing hot outside and the long lines really didn't help much.  It has been a few years since I've been so I was really looking forward to going and couldn't wait to get there.  I think our favorite ride was one called <a href=""http://www.sixflags.com/parks/astroworld/images/d_swat_1.JPG"">SWAT. </a>  They strap you in and swing you around like a huge fly swatter; we ended up riding this one three times.  When we left the park we were exhausted and ended up back here watching The Secret Window.  I don't know if it was the tiredness or what but I didn't really think that movie was that good.  I kind of predicted early that Shooter was just someone he had up in his mind and I wasn't surprised to find out he had another personality.  Sunday we got together here and had some Bar-B-Q, then left to go watch some fireworks over her friends house.  I've always loved fireworks, with all the bright colors and such.  *Backtracking in progress* I had to see Spiderman 2 on opening day, so Jeri and I went to see it on Wed.  We got there 30 minutes before the movie was suppose to be showing and there was already a huge line.  The line was already moving when we got there so we didn't have to sit around like some of the people there.  The movie was really good and I am kind of thinking it may be better then the first one.  Well that was my weekend and I hope I didn't leave anything out.  Till next time.
+
+Later"
+"eventtime","2004-07-05 12:52:00"
+"url","http://uhhuhioi.livejournal.com/37830.html"
+"userid","16190"
+"itemid","146"
+"event","<a href=""http://bash.org/?151227"">Click me!</a>"
+"eventtime","2004-06-14 14:57:00"
+"url","http://uhhuhioi.livejournal.com/37486.html"
+"userid","16190"
+"itemid","145"
+"event","I hate being sick.  I hate the high tempeatures, running nose, aching body, and just feeling nasty.  Went to TGIFridays last night and had a good time.  My taste buds weren't working at 100% but I was still able to enjoy my meal.  Now I need to go take my meds and rest.
+
+Later all"
+"eventtime","2004-06-11 14:44:00"
+"url","http://uhhuhioi.livejournal.com/37158.html"
+"userid","16190"

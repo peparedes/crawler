@@ -1,0 +1,1250 @@
+"names","values"
+"itemid","132"
+"event","InRoZSBjaG9pY2VzIHdlcmUgZ2l2ZW4NCk5vdyB5b3UgbXVzdCBsaXZlIHRoZW0NCk9yIGp1c3Qgbm90IGxpdmUNCkJ1dCBkbyB5b3Ugd2FudCB0aGF0PyINCg0KSSBkb24ndCBrbm93IHRoYXQgSSdsbCBldmVyIGJlIGhhcHB5IHBlciBzZS4gIFNvbWV0aW1lcyBJIG1ha2UgY2hvaWNlcyBhbmQgdGhlaXIgdGhlIHJpZ2h0IG9uZXMsIGFuZCBvdGhlciB0aW1lcyB0aGV5J3JlIG5vdC4gIElmIEknbSBhdCBhIHJlc3RhdXJhbnQgYW5kIEkgb3JkZXIgYSBoYW1idXJnZXIsIG15IG1pbmQgbWF5IHRlbGwgbWUgdGhhdCBJJ3ZlIG1hZGUgdGhlIHJpZ2h0IGNob2ljZS4gIE90aGVyIHRpbWVzIGl0IG1heSByZXZvbHQsIGFuZCBiZXJhdGUgbWUgZm9yIG15IHBvb3IgY2hvaWNlLiAgSGUgbWF5IHNheSwgIllvdSBiYXN0YXJkISAgSG93IGRhcmUgeW91IGRvIHRoaXMgdG8gbWU/IiAgQW5kIGJ5IHlvdSBhbmQgbWUgb2YgY291cnNlIGhlIG1lYW5zIEk7IG9yIGluIG90aGVyIHdvcmRzIHVzLiAgVGhlcmUgaXMgbWUgYW5kIHRoZXJlIGlzIHRoaXMgbmFycmF0b3IgaW4gbXkgYnJhaW4tLWJvcm4gb2YgZmVhciwgZ3VpbHQsIHJlbW9yc2UsIGRvdWJ0LCBhbmQgd2hvIGtub3dzIHdoYXQgb3RoZXIgZGFyayBmb3JjZS4gIFNvbWV0aW1lcyB3aGVuIEkgc3BlYWssIHRoZSB3b3JkcyBoYXZlIGNvbWUgZnJvbSBoaXMgcGVuLCBhbmQgb3RoZXIgdGltZXMgbm90LiAgQnV0IGhhdmUgSSByZWFjaGVkIGEgcG9pbnQgd2hlbiBldmVuIEkgY2FuIG5vdCB0ZWxsPyAgSSBmaW5kIHdheXMgdG8gc2lsZW5jZSBoaW0gb24gb2NjYXNpb24tLXRoZSBjYXJuYWwgcGxlYXN1cmVzIHVzdWFsbHkgZG8gdGhlIHRyaWNrLCBidXQgY291bGQgdGhpcyBpbiBmYWN0IGJlIHdoZW4gaGlzIHBvaXNvbiBkb2VzIGl0cyBkZWVkPyAgRG8gSSBrbm93IHdoZXJlIG15IHRydWUgZWdvIHN0b3BzIGFuZCBoaXMgY3JhemVkIG5hcmNpc3Npc20gYmVnaW4/ICBEbyBJIGNhcmU/ICANCg0KSXMgdGhlcmUgZXZlciBhIHJpZ2h0IGNob2ljZSB0aGF0IHdpbGwgbWFrZSB1cyBib3RoIGhhcHB5PyAgQW5kIGlmIEkgZm91bmQgaXQsIHdvdWxkIHNvbWV0aGluZyBlbHNlIHN0YW5kIGluIHRoZSB3YXk/ICBIYXBwaW5lc3MgaXMgYSBzdHJhbmdlIHRoaW5nLS1pdCBzZWVtcyBhbHdheXMgZmxlZXRpbmcsIG9yIGxpa2UgYSBkaXN0YW50IHJlbGF0aXZlIHdlIHNwZWFrIGZvbmRseSBvZiwgYnV0IGlzIG5vIGxvbmdlciB3aXRoIHVzLiAgTGl2aW5nIGluc2lkZSBvbmUncyBoZWFkIGlzIGRhbmdlcm91cywgYW5kIHlldCBpdCBzZWVtcyB0aGUgb25seSB3YXkuICBXaWxsIHJhdGlvbmFsaXR5IGV2ZXIgYmVhdCBwcmFjdGljYWxpdHk/ICBJIGhvcGUgc28uICBXaHkgYXJlIHNvIG1hbnkgcGVvcGxlIG1hZGUgb2YgY2xheSBhbmQgc28gd2lsbGluZyB0byBiZSBtb2xkZWQgaW50byB0aGUgaW1hZ2Ugb2Ygb3RoZXJzLCBhbmQgYXQgdGhlIHNhbWUgdGltZSBvYmxpdmlvdXMgdG8gdGhhdCBmYWN0PyAgT2JsaXZpb3VzIGlzIGEgZ29vZCB3b3JkIGNob2ljZSBoZXJlLiAgVGhvc2UgdGhhdCBtaXJyb3Igb3RoZXJzIG1vc3QgbGlrZWx5IGhhdmUgbm8gc2VsZiB3b3J0aCByZWZsZWN0aW5nLiAgU2FkLS1tYXliZSwgSSBzdXBwb3NlIG9uY2UgeW91J3ZlIGFjY2VwdGVkIHRoYXQgbm90IGFsbCBsaWZlIGlzIHNhY3JlZCBpdCBiZWNvbWVzIGEgbG90IGVhc2llciB0byBhY2NlcHQgdGhpcyBmYWN0Lg0KDQpNYXliZSB0aGVyZSBpcyBuZXZlciBhbnkgY29ycmVjdCBjaG9pY2XigJRubyBvYmplY3RpdmUgdHJ1dGhzLCBqdXN0IG9uZSB0aGluZyBhbmQgdGhlbiBhbm90aGVyOyBpbiB3aGljaCBjYXNlLCBob3cgYXJlIHdlIHRvIGdvIGFib3V0IG1ha2luZyBvdXIgZGVjaXNpb25zPyAgV2hhdCBmYWN1bHR5IGhhdmUgSSB1c2VkIHRvIG1ha2UgbXkgZGVjaXNpb25zIHRodXMgZmFyPyAgTHVzdCwgZ3JlZWQsIHJldmVuZ2UsIG9yIHBlcmhhcHMgc29tZSBnb29kIHF1YWxpdHkgdGhhdCBJIGZhaWwgdG8gYWNrbm93bGVkZ2Ugd2l0aGluIG15c2VsZi4gIE9yIHBlcmhhcHMgaXTigJlzIGFsbCBiZWVuIGEgZ2FtZSBvZiBndWVzcyBhbmQgY2hlY2s/ICBBcmUgeW91IGdldHRpbmcgb2ZmIG9uIHRoaXM/ICBJ4oCZbGwgYmUgaG9uZXN0LCBJIGRvIHNvbWV0aW1lcy4gIEkgcmV2ZWwgaW4gdGhvc2UgZGlydHksIGRpc2d1c3RpbmcsIHNpY2ssIGFuZCBldmlsIHRoaW5ncyB0aGF0IHdlIGRvLiAgDQoNCkkgaGF2ZSBkb25lIG5vdGhpbmcgd3JvbmcsIGFuZCBhdCB0aGUgc2FtZSB0aW1lIGFkbWl0IHRoYXQgSSBtYXkgaGF2ZSBkb25lIGV2ZXJ5dGhpbmcgd3JvbmcuICBJdCB3b3VsZCBub3QgdGVhciBtZSB1cCBpbnNpZGUgdG8gbGVhcm4gdGhhdCB3ZXJlIHRydWUuICBObyBvbmXigJlzIGJsb29kIG9yIHN3ZWF0IG9yIHRlYXJzIGlzIG9uIG15IGhhbmRzLiAgSSBoYWQgbXkgcmVhc29ucyBhbmQgZXZlcnlvbmUgbWFrZXMgdGhlaXIgb3duIGNob2ljZXMuICBCdXQgbm9uZSBvZiB0aGlzIGFuc3dlcnMgYW55dGhpbmcuICBUaGVyZSBpcyBzdGlsbCB0aGUgbG9vbWluZyBxdWVzdGlvbiBvZiBoYXBwaW5lc3MuICBJIHJlamVjdCB3aGF0IG1vc3QgdGVsbCBtZSBhYm91dCBtb3N0IHRoaW5ncy4gIEkgbmV2ZXIgY2hvc2UgdGhpcyBwYXRoLCBJIG5ldmVyIHRyeSBhbmQgYmUgZGlmZmljdWx0LiAgVGhpcyB1cmdl4oCUdGhpcyBuZWVk4oCUaW5zaWRlIG15IGhlYWQgZm9yY2VzIG15IGhhbmQuICBBbmQgb3RoZXIgdGltZXMgaXQgZm9yY2VzIG15IG1vdXRoLiAgTXkgd29yZHMgYXJlIG5vdCBhbHdheXMgbXkgb3duLCBidXQgSSBhbHdheXMgbWVhbiB0aGVtLiAgDQoNClRoZXJlIGlzIG5vIHJlc3QgZm9yIHRoZSB3aWNrZWQuICBTaG91bGQgSSB0YWtlIHRoYXQgYXMgYSBoaW50PyAgU2hvdWxkIEkgdGFrZSB0aGF0IGFzIGFuIGluc3VsdD8gIERvZXMgYmVpbmcgbGFiZWxlZCB3aWNrZWQgYnkgdGhlc2UgYmVpbmdzIHJlYWxseSBtZWFuIGFueXRoaW5nIGF0IGFsbD8gIEkgZG91YnQgaXQuICBCdXQgdGhlIGZhY3QgcmVtYWluc+KAlEkgaGF2ZSBubyByZXN0LiAgTXkgbWluZCBjYW4gbm90IHN0b3AgcmFjaW5nIGxvbmcgZW5vdWdoIGZvciBpdCB0byBzbGVlcC4gIE9uIHRoZSBvY2Nhc2lvbnMgd2hlbiBleGhhdXN0aW9uIG92ZXJjb21lcyBtZSBhbmQgc2xlZXAgaXMgcmVxdWlyZWQgdG8ga2VlcCBteSBib2R5IGZ1bmN0aW9uYWwsIGl0IGNvbWVzIHBvb3JseSBhbmQgb25seSBjYXVzZXMgbW9yZSBkdXJlc3MuICBJIGZpbmQgbXlzZWxmIHVuYWJsZSB0byBzZXBhcmF0ZSBkcmVhbXMgZnJvbSByZWFsaXR5LiAgSSBmaW5kIHRoYXQgdGhlcmUgYXJlIG1hbnkgdGhpbmdzIHRoYXQgSSBjYW4gbm8gbG9uZ2VyIHJlbWVtYmVyIHdoZXRoZXIgdGhleSBhcmUgdHJ1ZSBvciBmYWxzZS4gIFRoaXMgbWFrZXMgaXQgaGFyZCB0byBsaXZlIGluIHRoZSByZWFsIHdvcmxkLCBpdCBtYWtlcyBpdCBoYXJkIHRvIGludGVyYWN0LiAgV2hlcmUgdHJ1dGggYW5kIGZpY3Rpb24gbWVyZ2Ugbm8gbWFuIGNhbiBzdGF5LiAgSXQgcXVpY2tseSBiZWNvbWVzIG92ZXJ3aGVsbWluZ+KAlGV4aGF1c3RpbmcuICBJIGhhdmUgdGlyZWQgb3V0LiAgSSBjYW4gbm8gbG9uZ2VyIHRvbGVyYXRlLiAgRW5kIG9mIHNlbnRlbmNlLiAgSSBqdXN0IGNhbiBub3QgdG9sZXJhdGUuICBJ4oCZbSBvdXQgb2YgcGF0aWVuY2UgYW5kIHRpbWUuICANCg0KVGhpcyBpcyBub3QgcGVzc2ltaXNtLiAgSSBoYXZlIGhvcGUgZm9yIHdoYXQgd2lsbCBjb21lLCBhbmQgd2hlbiB5b3Ugc2VlIG1lIHRoZXJlIHdpbGwgYmUgYSBzbWlsZSBvbiBteSBmYWNlLiAgVGhpcyBpcyBqdXN0IGEgZ2xpbXBzZSBvZiB0aGUgaW50ZXJuYWwgYmF0dGxlLiAgV2hlbiBJIGxvb2sgYXdheSwgb3IgbXkgZXllcyBzdGFydCB0byBnbGF6ZSwgb3IgSSBiZWNvbWUgc2lsZW50LCBqdXN0IGtub3cgdGhhdCB0aGVyZSBpcyBubyBzaWxlbmNlLiAgVGhlcmUgaXMgdGhlIGRlYWZlbmluZyBib29tIG9mIHNvbWUgaW50ZXJuYWwgbW9ub2xvZ3VlIHRoYXQgcmVmdXNlcyB0byBnaXZlIG1lIHBlYWNlLiAgSSBhbSBhdCB3YXIgYW5kIEkgd2lsbCBwcm9iYWJseSBiZSBkZXN0cm95ZWQgYnkgaXQu"
+"eventtime","2007-12-14 03:09:00"
+"url","http://sublimeisnice.livejournal.com/34007.html"
+"userid","14836"
+"itemid","130"
+"event","Yea im super bored.
+
+
+
+Directions: Put your iTunes/Winamp/WMP/whatever on shuffle. Say the following questions aloud (or not), and press play. Use the song title as the answer to the question. NO CHEATING.
+
+1. How does the world see you?
+Nirvana- Rape Me       {Wonderful.  That is how it seems to treat me.}
+
+
+2. Will I have a happy life?
+KMFDM- Anarchy         {I guess lyrically it means sorta.  ""time will wash away all pain""}
+
+
+3. What do my friends think of me?
+Radiohead- Talkshow Host    {I guess i could see them seeing me like this song ""ill be waiting with a gun and a pack of sandwiches""
+
+
+4. Do people secretly lust after me?
+A Perfect Circle-The Hollow(Remix)     {I could take that as a yes ""run desire run, sexual being...""}
+
+
+5. How can I make myself happy? 
+Marilyn Manson- Seizure of Power      {Just an instrumental track, but the title is obvious enough}     
+
+
+6. What should I do with my life?
+Kidthieves- Before Im dead           {Irony++.  The songs kinda about love so yea..find it i guess}
+
+
+
+7. Will I ever have children?
+Otep-Autopsy song                    {Id take that as a no, the lyrics to that kinda show a world i       wouldnt want to bring kids into}
+
+
+
+8. What is some good advice for me?
+Godsmack- I stand alone               { so i need to find love before i die yet stand alone?  i prefer this}
+
+
+
+9. How will I be remembered?
+eminem-I still dont give a fuck      {Super Accurate Id imagine}
+
+
+10. What's my signature dancing song?
+Hatebreed- I will be heard           {moshing is a dance}
+
+
+11. What's my current theme song?
+Alice deejay- Better off alone         {wow depressing selections for me tonight eh?}
+
+
+
+12. What do others think is my current theme song?
+Butthole sufers- Whatever               {Yea}
+
+
+13. What shall they play at my funeral?
+REM- its the end of the world           {hell yea it is}
+
+14. What type of women/men do I like?
+Kidneythieves- S & M                    {yea that works ""beat the love out of me""}
+
+15. How's my love life?
+NIN- Terrible Lie                      {ouch again.  ""Hey god, why are you doing this me?""though of course i dont believe in a god, but still...i want to blame something}
+
+16. To sum it all up:
+Disturbed- Rise                        {I guess thats a good finale}"
+"eventtime","2006-03-23 23:49:00"
+"url","http://sublimeisnice.livejournal.com/33324.html"
+"userid","14836"
+"itemid","127"
+"event","In life, if your truly Sad, no amount of money will fix that.  Sadness transcends wealth and success.  In the end, things don't always get better, sometimes you just have to deal with it.  You have to face life the way that it has turned out for you and deal with it.  Dwelling won't help(despite what Heidegger says!)  If you want to transcend Sadness, then you must first rise above the material.  Materiality will only get you so far.  Understanding that money is not an end is the first step in this process.  I had come to that conclusion a long time ago.  When I switched majors from Computer Engineering to Philosophy I had decided that money was simply a means.  And now, with large sums of money staring me in the face, just waiting to be taken, I understand that even more so then before.  In life, if you are truly Sad, no amount of money will fix that.  It is better to have mental riches than physical riches.  A lot of people will probably respond with something along the lines of ""If I was upset and I got a million dollars, I'd feel much better.""  Do you really think that?  I've said that before too, but do you really think that?  It sounds sappy and cliche, but will your money save you from a life of lonliness, heartache?  No.  Maybe it masks symptoms of Sadness, but anyone who is truly in sync with themselves can see thru that.  Money is just material, and humans are so much more than that.
+
+
+In relationships there should be a certain amount of dissent.  No relationships are perfect.  Two imperfect beings can not create something perfect.  True love is wanting to fix any problems that arise, and actually doing it.  If there are no problems in a relationship then there are a few things that could be happening.  One or more parties involved may be totally dumb.  Most people have opinions on things and are willing to stand up for what they believe, if not, then your dumb.  And most sets of two people wont agree on everything in the world and this will lead to dissent.  Or the person might not have an opinion on anything, and in that case their dull.  Dull people are not worth being around.  It is the wanting and the fixing that makes love what it is.  If two people always say they love one another, and no problems never arose, then I would call them liars.  To me without the test there is no proof.(Take that Dr. Schwartz!)  I would rather be with the person I've gone with hard times with and succeeded then the one thats never had any problems, because theres no gaurentee then when problems arise you will be able to overcome them.  
+
+But of course, I dont expect anyone to agree.  This is only my personal philosophy that has sprung from my mind that has gone through my life events.  And none of you have my mind or my life so you might not have any idea where I'm coming from.  But that is ok, I've become slightly more tolerant of other peoples opinions as of late and now I tend to only ridicule them in my head.  Unless your trying to talk about God, but I digress, back to the topic at hand.  
+
+What is the topic again?  Life.  This is all life.  An ontological study of me.  What it is to be me.  Does anyone care?  I do.  You shouldn't, but I do.  
+
+Ah life.  The great cosmic accident.  We could just as easily not be here.  But we are, so what do we do?  It would be so much easier if essence preceded existence.  Imagine what it's like to be a chair.  What do chairs do?  They just sit there(ironically).  Whoever invented the chair, made it with its use and purpose in mind.  Where does that leave us creatures that just came into existence?  That leaves us in an amazing position.  We get to create our own reason for being, and that is beautiful.  What do you exist for?  Do you know?  Have you ever thought about it?  It doesnt have to be the same forever, it can change at anytime.  It is ours to control.  At the moment I live for another being.  Making that being happy means everything to me, and in the end that makes me happy.  And in my eyes there is no greater good than my own happiness(props to john stuart mill).  Selfish, maybe.  It's who I am at this point in time.  Thats not to say the greater good doesnt ever come to my mind, but often times the greater good in the long run is better for me, than any immediate satisfaction.
+
+This is all I have to say for now."
+"eventtime","2005-11-10 23:55:00"
+"url","http://sublimeisnice.livejournal.com/32752.html"
+"userid","14836"
+"itemid","126"
+"event","<table border='0' cellpadding='5' cellspacing='0' width='600'><tr><td><img src='http://images.quizfarm.com/1110084217atheism.GIF'></td><td> You scored as <b>atheism</b>. You are... an atheist, though you probably already knew this. Also, you probably have several people praying daily for your soul.
+
+Instead of simply being ""nonreligious,"" atheists strongly believe in the lack of existence of a higher being, or God.<br><br><table border='0' width='300' cellspacing='0' cellpadding='0'><tr><td><p><font face='Arial' size='1'>atheism</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='100' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>100%</font></td></tr><tr><td><p><font face='Arial' size='1'>Satanism</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='75' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>75%</font></td></tr><tr><td><p><font face='Arial' size='1'>Buddhism</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='67' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>67%</font></td></tr><tr><td><p><font face='Arial' size='1'>Judaism</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='58' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>58%</font></td></tr><tr><td><p><font face='Arial' size='1'>agnosticism</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='33' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>33%</font></td></tr><tr><td><p><font face='Arial' size='1'>Paganism</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='29' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>29%</font></td></tr><tr><td><p><font face='Arial' size='1'>Christianity</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='21' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>21%</font></td></tr><tr><td><p><font face='Arial' size='1'>Islam</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='13' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>13%</font></td></tr><tr><td><p><font face='Arial' size='1'>Hinduism</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='0' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>0%</font></td></tr></td></tr></table><br><a href='http://quizfarm.com/test.php?q_id=10907'>Which religion is the right one for you? (new version)</a><br><font face='Arial' size='1'>created with <a href='http://quizfarm.com'>QuizFarm.com</a></font></table>
+
+
+
+How can I be 100% athiest and any percent something else?  At least it was right on one point."
+"eventtime","2005-10-18 17:07:00"
+"url","http://sublimeisnice.livejournal.com/32305.html"
+"userid","14836"
+"itemid","123"
+"event","something has made me surprisingly perky. :)"
+"eventtime","2005-04-28 02:33:00"
+"url","http://sublimeisnice.livejournal.com/31539.html"
+"userid","14836"
+"itemid","122"
+"event","An addict to what you may ask.  Emotion.  Believe it or not this despite my crusade for logic and reason, sometimes I get caught up in my emotions.  And by sometimes I mean a lot.  If I'm happy, then I am HAPPY.  If I am sad...well thats when the feelings of hate, jealousy, and pity all rear their ugly heasd.  Despite my best efforts to be reasonable, I get caught up in the real world sometimes, and it hurts.  I love two people in this world more than anything, but now that number is down to one.  Sheri made me feel more than anyone else, she was the ""wind beneath my wings.""  What do birds do when there's no more wind?  They have to fly on their own, or fall.  I don't want to fall.  The truth is, I want my wind back.  More than anything.  I don't see that happening, and I'm not going to force anything to happen.  This whole thing has really upset.  No matter how tough on the outside I seem...I am broken.  
+
+I think I need some change.  Change is good right?  I'm thinking about doing something some might say is ""very drastic.""  I need to move, but I dont know if I can do that the way things are right now.  I need to leave this life behind.  How ironic.  
+
+Without you, Sherilyn Fitzgerald, it's not as much fun to pick up the pieces.  No matter where I am, I will always love you."
+"eventtime","2005-04-24 20:57:00"
+"url","http://sublimeisnice.livejournal.com/31252.html"
+"userid","14836"
+"itemid","121"
+"event","~Patient~
+
+People tell me I'm alive,
+but I just don't feel it.
+I'm on top of the world,
+but something is different.
+This thing I've become,
+so empty and naked.
+
+I'm not myself,
+I'm hardly anyone at all.
+
+It's a sickness inside,
+you just can't see it.
+I'd betray myself,
+before anyone could see,
+this thing I've become.
+I'm alone and hating.
+
+I'm not myself,
+I'm hardly anyone at all.
+
+Now everything is black.
+I wade through broken glass.
+I rip the shards from my back.
+I stand with hope, I stand with hate.
+I hope you'll come down.
+Come down for me.
+
+You can say that it's over,
+but I won't believe it.
+I won't stand alone.
+Like that makes any difference.
+This thing I've become,
+is so sad and lonely.
+
+Because;
+
+No matter what I wrote,
+I wrote for you.
+No matter what I said,
+I thought of you.
+
+
+Now everything is black.
+I wade through broken glass.
+I rip the shards from my back.
+I stand with hope, I stand with hate.
+I hope you'll come down.
+Come down.
+
+Come down for me."
+"eventtime","2005-04-22 02:07:00"
+"url","http://sublimeisnice.livejournal.com/31195.html"
+"userid","14836"
+"itemid","120"
+"event","I live in Charlestown, not Charleston...Three people posted an entry about last night, and everyone one of you spelt it wrong... FOR SHAME!
+
+ps.  michelle that song i was trying to think of was called ""here comes the sun"""
+"eventtime","2005-04-04 13:48:00"
+"url","http://sublimeisnice.livejournal.com/30892.html"
+"userid","14836"
+"itemid","118"
+"event","<TT><TT>
+<P><TT>What's coming through is alive.<BR>What's holding up is a mirror.<BR>But what's singing songs is a snake<BR>Looking to turn this piss to wine.</TT></P>
+<P><TT>They're both totally void of hate,<BR>But killing me just the same.</TT></P>
+<P><TT>The snake behind me hisses<BR>What my damage could have been.<BR>My blood before me begs me<BR>Open up my heart again.</TT></P>
+<P><TT>And I feel this coming over like a storm again.<BR>Considerately.</TT></P>
+<P><TT>Venomous voice, tempts me,<BR>Drains me, bleeds me,<BR>Leaves me cracked and empty.<BR>Drags me down like some sweet gravity.</TT></P>
+<P><TT>The snake behind me hisses<BR>What my damage could have been.<BR>My blood before me begs me<BR>Open up my heart again.</TT></P>
+<P><TT>And I feel this coming over like a storm again.</TT></P>
+<P><TT>I am too connected to you to<BR>Slip away, to fade away.<BR>Days away I still feel you<BR>Touching me, changing me,<BR>And considerately killing me.</TT></P>
+<P><TT>Without the skin,<BR>Beneath the storm,<BR>Under these tears<BR>The walls came down.</TT></P>
+<P><TT>And the snake is drowned and<BR>As I look in his eyes,<BR>My fear begins to fade<BR>Recalling all of those times.</TT></P>
+<P><TT>I could have cried then.<BR>I should have cried then.</TT></P>
+<P><TT>And as the walls come down and<BR>As I look in your eyes<BR>My fear begins to fade<BR>Recalling all of the times<BR>I have died<BR>and will die.<BR>It's all right.<BR>I don't mind.</TT></P>
+<P><TT>I am too connected to you to<BR>Slip away, to fade away.<BR>Days away I still feel you<BR>Touching me, changing me,</TT></P>
+<P><TT>And considerately killing me.</TT></P></TT></TT>"
+"eventtime","2005-04-02 19:23:00"
+"url","http://sublimeisnice.livejournal.com/30209.html"
+"userid","14836"
+"itemid","117"
+"event","<table border='0' cellpadding='5' cellspacing='0' width='600'><tr><td><img src='http://images.quizfarm.com/1107889953scar1.jpg'></td><td> You scored as <b>Scar</b>. You BAD little person - You're Scar! You are extremely egotistical and ALWAYS right, and you DARE anyone to say otherwise. You see weaknesses in people and have a tendency to exploit them for your own gain, or just your sick pleasure. You are very proud, haughty and arrogant, and you believe investing ""emotionally"" with anyone is a waste of time. You like being 'in the know' and aware of your surroundings, in case your concocted plans of villany go awry. You're never caught with your pants down - you can talk your way out of anything. Better watch your back, though... you never know what could come back to bite ya in the rear.<br><br><table border='0' width='300' cellspacing='0' cellpadding='0'><tr><td><p><font face='Arial' size='1'>Scar</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='86' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>86%</font></td></tr><tr><td><p><font face='Arial' size='1'>Rafiki</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='46' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>46%</font></td></tr><tr><td><p><font face='Arial' size='1'>Mufasa</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='46' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>46%</font></td></tr><tr><td><p><font face='Arial' size='1'>Sarabi</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='39' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>39%</font></td></tr><tr><td><p><font face='Arial' size='1'>Zazu</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='39' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>39%</font></td></tr><tr><td><p><font face='Arial' size='1'>Timon</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='39' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>39%</font></td></tr><tr><td><p><font face='Arial' size='1'>Simba</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='36' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>36%</font></td></tr><tr><td><p><font face='Arial' size='1'>Ed</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='36' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>36%</font></td></tr><tr><td><p><font face='Arial' size='1'>Pumbaa</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='32' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>32%</font></td></tr><tr><td><p><font face='Arial' size='1'>Nala</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='32' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>32%</font></td></tr></td></tr></table><br><a href='http://quizfarm.com/test.php?q_id=5807'>Which Lion King Character Are You?</a><br><font face='Arial' size='1'>created with <a href='http://quizfarm.com'>QuizFarm.com</a></font></table>
+
+
+
+sweeeeet .... Scar is what makes the lion king"
+"eventtime","2005-02-28 13:29:00"
+"url","http://sublimeisnice.livejournal.com/30051.html"
+"userid","14836"
+"itemid","116"
+"event","...doomed to crumble, the less we grow.
+
+How true.
+
+So i have ordered more drum stuff, bringing the grand total too....WAY TO MUCH FUCKING MONEY.
+
+Hopefully i can stop being a spend-a-holic.
+
+I havent really written in this for a long time.  Writers block?  Maybe.  Lack of anything to say?  Perhaps.  No inspiration?  Definetly.
+
+Life has become an endless cycle of working.  No matter what I do I feel like its work.  I take pleasure in very little nowadays.  Seasonal depression?  Shouldn't it help me to write sad/angry/depressing things?
+
+Guess not.
+
+Caitlin ElizAbeth has called me a few times in the past week...very wierd circumstances.  I just don't know anymore.  
+
+I think it's possible for people to become so emotionally detatched, that they literally don't give a shit about anything, even ""loved"" ones.  What the fuck is love.  And who the hell can define it?  No one.  And if you say you can, I gaurentee a million people disagree with you.  It's bullshit.  
+
+Do I sound unhappy?  Cuz I'm not.  I just don't care anymore, I don't have any drive.  I'm comatose.  You can't feel in a coma, can you?
+
+I need a revelation...some sort of awakening that shows me why I need to wake up in the morning. 
+
+I want something new and different in my life, not this same old boring crap...I think I need friends...friends that live down here and that I can actually see so that I dont have to drive to warwick anytime I want to hang out with someone. Moving out here is one of THE crappiest things to happen in my life.  
+
+I mean I have goals and ambitions with my philosophy and all of that, but that isnt a reason for me to get up, its just what i figure i will do when i get up.  
+
+I want to wake up in the morning and be like YES TODAY IM GOING TO ____________!!!!!!
+
+every morning i wake up....i go back to sleep.
+
+People dont invite me to do things...they really never have...i have never gotten a phone call that went ""Hey nick we are going to do this, want to join us?""  In fact, as long as i can remember, the only person that calls me is sheri.  i wonder why.  am i just out of the loop?  am i not interesting enough?  do people just not think of it?  even dylan doesnt invite me to go do things, he has new entire groups of friends, ive never met...do i give off some sort of leave me alone vibe?  i love to be in small groups, but not alone.
+
+the only plans i ever have are A) I corner dylan into saying hes not doing anything and i drive to see him  B) thursday nights when i go to see michelle and jen(it should be stated here that michelle has driven to see me also)  C) With sheri...which not that i dont like her cuz i obviously do but...it gets booooooring....
+
+Heres a list of people that have ever driven to my house more than once:
+
+Dylan
+Sheri
+Michelle
+
+I'm sure theres good reasons for it, i just wonder what they are.
+
+i sort of miss high school...the days when everyday i saw a ton of people, whether i liked them or not, i saw a big group of people.
+
+I miss a lot of people sitting down here, 20(if your at uri) or 40(if your in warwick) miles away...
+
+maybe i make too much out of this...for the most part you could easily say its because i dont really put effort behind it either, and when i do put effort behind it(to see michelle and jen and dylan and sheri) then it actually gets done...i just dont want to feel like i force myself there...
+
+ive been in bryan and matts room twice this year, once with each of them, and each time i felt kinda weird, out of place, like they felt uncomfortable....i dunno, maybe im just retarded and am not open enough....
+
+or maybe all these people dont really have time for me, maybe they have busy lives.
+
+this is an interesting debate that could go on in my head for hours, but for the sake of my fingers i think i ll move on.
+
+eh this is all i have for now, i was hoping if i just sat down and typed id come up with inspiration to write something , but it hasnt happened. 
+
+plllllllllll.
+
+
+the end."
+"eventtime","2005-02-23 23:24:00"
+"url","http://sublimeisnice.livejournal.com/29794.html"
+"userid","14836"
+"itemid","115"
+"event","<table border='0' cellpadding='5' cellspacing='0' width='600'><tr><td><img src='http://images.quizfarm.com/1105246596CN-126-05A_300x435.jpg'></td><td> You scored as <b>Artistic</b>. Congratulations, you scored Artistic.  You're looking for the unique movie in the bunch.  You've probably watched a lot of movies that nobody has ever heard of, and good for you.  You also know good filmmaking when you see it.  You just get it, no questions asked.  Check out:  Eternal Sunshine of the Spotless Mind, Amelie, Garden State, Lost in Translation.<br><br><table border='0' width='300' cellspacing='0' cellpadding='0'><tr><td><p><font face='Arial' size='1'>Artistic</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='90' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>90%</font></td></tr><tr><td><p><font face='Arial' size='1'>Mindfuck</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='65' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>65%</font></td></tr><tr><td><p><font face='Arial' size='1'>Sci-Fi/Fantasy</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='60' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>60%</font></td></tr><tr><td><p><font face='Arial' size='1'>Sadistic Humour</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='55' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>55%</font></td></tr><tr><td><p><font face='Arial' size='1'>Drama/Suspense</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='50' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>50%</font></td></tr><tr><td><p><font face='Arial' size='1'>Romantic Comedy</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='25' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>25%</font></td></tr><tr><td><p><font face='Arial' size='1'>Mindless Action Flick</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='25' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>25%</font></td></tr></td></tr></table><br><a href='http://quizfarm.com/test.php?q_id=1389'>Movie Recommendation.</a><br><font face='Arial' size='1'>created with <a href='http://quizfarm.com'>QuizFarm.com</a></font></table>
+
+
+thats a really neat picture.
+
+theres a 3 week old baby crying downstairs.
+
+""Be a philospher; but, amidst all your philosophy, be still a man.""
+
+the end
+
+
+ps i got a new crash cymbal....look 
+
+<img src=""http://img.photobucket.com/albums/v246/sublimeisnice/8e422d47.jpg"">"
+"eventtime","2005-02-13 00:57:00"
+"url","http://sublimeisnice.livejournal.com/29667.html"
+"userid","14836"
+"itemid","114"
+"event","<a href=""http://www.wxplotter.com/ft_nq.php?im""> 
+<img src=""http://www.wxplotter.com/images/ft/nq.php?val=9522"" alt=""I am nerdier than 7% of all people. Are you nerdier? Click here to find out!""> </a>
+
+i dont despise nerds.  thats silly.
+
+<a href=""http://www.wxplotter.com/ft_loser.php?im""> 
+<img src=""http://www.wxplotter.com/images/ft/lsr.php?val=8602"" alt=""I am 20% loser. What about you? Click here to find out!""> </a>"
+"eventtime","2005-01-23 16:01:00"
+"url","http://sublimeisnice.livejournal.com/29205.html"
+"userid","14836"
+"itemid","113"
+"event","Take the quiz: <a href=""http://www.zenhex.com/quiz.php?id=5436"">""Who would you be in the War of Armageddon?""<br><img src=""http://www.zenhex.com/quiz/5436/res2.gif"" border=""0""></a><br><b>The Antichrist</b><br>You'd be most fit for the role of The Antichrist in the War of Armageddon. You are the most vile of all human beings ever created. You possess supernatural powers not of this world. You are perhaps the most intelligent human, with a wit like a fox and the ability to manipulate yourself into or out of any situation. You will conquer the entire earth using manipulation and an iron fist. Mankind is merely a pawn to you, something to use and to abuse. You will lead the dark armies through hell's gates and onto earth to fight the last battle between good and evil.
+
+
+now the whole world knows."
+"eventtime","2005-01-11 00:56:00"
+"url","http://sublimeisnice.livejournal.com/29120.html"
+"userid","14836"
+"itemid","112"
+"event","i just took a shit load of new updated pics of my drums...if anyone wants specs or more pics just ask
+
+<img src=""http://img.photobucket.com/albums/v246/sublimeisnice/IM000612.jpg"">
+
+<img src=""http://img.photobucket.com/albums/v246/sublimeisnice/IM000609.jpg"">"
+"eventtime","2005-01-08 00:48:00"
+"url","http://sublimeisnice.livejournal.com/28715.html"
+"userid","14836"
+"itemid","111"
+"event","<table border='0' cellpadding='5' cellspacing='0' width='600'><tr><td><img src='http://images.quizfarm.com/1102889139hardcore.jpg'></td><td> You scored as <b>Hardcore</b>. Hardcore.<br><br><table border='0' width='300' cellspacing='0' cellpadding='0'><tr><td><p><font face='Arial' size='1'>Hardcore</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='88' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>88%</font></td></tr><tr><td><p><font face='Arial' size='1'>Industrial</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='58' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>58%</font></td></tr><tr><td><p><font face='Arial' size='1'>Indie Rock</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='58' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>58%</font></td></tr><tr><td><p><font face='Arial' size='1'>Indie</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='46' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>46%</font></td></tr><tr><td><p><font face='Arial' size='1'>Emo & More</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='42' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>42%</font></td></tr><tr><td><p><font face='Arial' size='1'>Mainstream</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='29' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>29%</font></td></tr><tr><td><p><font face='Arial' size='1'>Punk and Pop Punk.</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='21' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>21%</font></td></tr><tr><td><p><font face='Arial' size='1'>Classic Rock.</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='21' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>21%</font></td></tr><tr><td><p><font face='Arial' size='1'>Hip Hop and Rap</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='17' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>17%</font></td></tr><tr><td><p><font face='Arial' size='1'>Britpop</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='17' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>17%</font></td></tr><tr><td><p><font face='Arial' size='1'>Country</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='17' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>17%</font></td></tr><tr><td><p><font face='Arial' size='1'>Ska</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='17' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>17%</font></td></tr></td></tr></table><br><a href='http://quizfarm.com/test.php?q_id=711'>Music Recommendation</a><br><font face='Arial' size='1'>created with <a href='http://quizfarm.com'>QuizFarm.com</a></font></table>
+
+well i do like in flames"
+"eventtime","2005-01-05 01:09:00"
+"url","http://sublimeisnice.livejournal.com/28586.html"
+"userid","14836"
+"itemid","110"
+"event","Someone feed this devil
+inside, heaven won't, save you
+yet another demons' waking,
+hoping, choking you and i.
+
+""Pray to the Lord, you heathen bastard!
+bow to your master,
+faster,
+Why won't you save yourself?""
+
+Someone's coming, careful,
+gently,
+lower me into his place.
+Hang me up and nail me down,
+bleeding fury,
+open wounds,
+I'm waking, hoping, choking  YOU.
+I'm waking, hoping, choking,
+waking, hoping, choking,  
+ON YOU."
+"eventtime","2004-12-17 23:06:00"
+"url","http://sublimeisnice.livejournal.com/28338.html"
+"userid","14836"
+"itemid","109"
+"event","I was walking around URI today and i just started to think...after walking around for an hour i decided to sit and write so i wrote a lot of what i had been thinking...
+
+Will i ever find lasting peace?  Inner peace.  A calm that not only flows inside but out; onto everyone else.  It can be seen by all.  Momentary peace is simple; useless.  The emptying of thoughts, reflection on that in your life which is good.  How do you extend that peace?  can you do it by days?  years?
+
+i get these pains.  its a slight pressure in the back of my head.  it feels like my brain is saying ""thats it, ive had it, im out of here.""  and he just keeps banging away trying to get out.  Have you ever felt like your brain was trying to escape you?  will i ever find inner peace?
+
+over 19 years i've had this pain 9 times.  4 times over the first 18 years and 5 in the last month.  and now its growing.  my temples throb, i get this insatiable urge to shut it out.  but i never can.
+
+wandering is the only useful way to travel.  just wandering; aimlessly at first.  then you realize that nothing is aimless and that the aim of wandering is to absorb.  you ll discover amazing things.  when you wander you must walk slower, breath slower, think slower.  now look...everyone looks like they are going in fast forward.  you and the world can laugh as you wander.
+
+if life was a race would i be winning or losing?  i dont understand the concept of failure.  if you fail; you've already found one way to not do something.  or youve realized that you dont know enough, and can go learn.  failure can open just as many doors as success."
+"eventtime","2004-11-17 23:51:00"
+"url","http://sublimeisnice.livejournal.com/27918.html"
+"userid","14836"
+"itemid","108"
+"event","I'm bored, and so I thought I'd do something useful before going to class.  Being as I work in a movie store I am rather spoiled with the oppurtunity to rent lots of movies for free.  I thought I'd post a shit load of movies up here, that are more than worth a watch.  (Note:  This is NOT a guarentee that you will enjoy the movie.  This is my taste my movies.  A lot of movies I enjoy you might watch and say ""what the fuck?"")
+
+also these are in no particular order i may go back and order them later, and maybe add in a list of movies to stay away from.
+
+*=one of my personal favorites
+rt=movies i have a hard time describing, i would call them ""messed up"" basically
+pt=physcological thriller
+c=comedy
+d=drama
+f= forgein
+s=scifi
+a=action
+h-horror
+
+Jacobs Ladder-pt* 
+Confidence-d
+Run Lola Run-d/f
+Usual Suspects-d*
+City of Lost children-rt/f*
+Troy-a/d
+Life is Beautiful-d/f
+A beautiful mind-d*
+Minority Report-s
+stir of echoes-rt
+any given sunday-d
+The Dreamers-rt*
+The life of david gale-rt*
+Ordinary decent criminal-d
+12 monkeys-d/s
+die hard 1,2,3-a
+hedwig and the angry inch-c*
+eurotrip-c
+remember the titans-d
+baseketball-c*
+underworld-s
+the crow-d
+final destination-rt
+gothika-d
+bringing out dead-d
+Insomnia-rt
+mullholland drive-rt
+the ninth gate-d
+american beauty-d*
+pi-d
+requiem for a dream-d*
+batman 1,2,3-a 
+nightmare before christmas-animated*
+one hour photo-rt
+gattaca-s 
+catch me if you can-d
+full metal jacket-d
+21 grams-d
+interview with a vampire-d(its called a horror movie but thats bs, this is my rating system)
+identity-pt
+house of 1000 corpses-c
+stargate-s
+face/off-a
+con air-a
+bulletproof-c
+the cell-pt*
+the thing-s
+southpark: bigger longer uncut-c*
+romeo and juliet-d*
+hamlet(w/ ethan hawke)-d
+taking lives-pt
+the one-a/s
+a clockwork orange-rt
+Devils advocate-d
+Seven-d*
+matrix 1,2,3-s
+monty python and the holy grail-c
+Blow-d
+Mortal Kombat-a
+Kiss me guido-c
+Hellraiser 1-6 and probably 7 and 8 when they come out-  Some hellraisers are horror while others are pt
+Adaptation-rt*
+being john malcvich(sp?)-rt*
+butterfly effect-rt
+eternal sunshine of the spotless mind-rt*
+what dreams may come-d*
+what lies beneath-d
+basketball diaries-d*
+rain main-c/d
+secret window-pt*
+y tu mama tambien-d/f*
+fear and loathing is las vegas(only because johnny depp does such a good job acting his part, i hated the movie)-c
+pay it forward-d
+Epoch-s
+thirteen ghosts-h
+the negotiater-d
+permanent midnight-d*
+Passion of the christ-d (thats right i said its worth a watch...why?  whats better than a movie about a man being tortured for 12 hours straight?)
+pirates of the carribean-d/c
+pulp fiction-a*
+scream 1-h
+scarface-a*
+death to smoochy-c/d*
+fight club-rt
+9 dead gay guys-c*
+unbreakable-d
+storytelling-d
+arlington road-d
+apt pupil-d
+man on the moon-c/d
+event horizon-s*
+8mm-d*
+spaceballs-c
+the ring-h
+thirteen-d
+resident evil-h
+killer klowns from outer space-c
+Alien-h/s (all of them)
+6th day-s
+
+Movies That Should Never Have Been Made
+kill bill 1,2
+bubba hotep
+lord of the rings
+coffee and ciggerettes
+species
+Gacy
+Elephant
+the cable guy
+waking life
+virgin suicides
+mothman prophecies
+curse of the jade scorpian
+summer of sam
+shark tale
+
+
+
+ok i gotta go i ll elongate later i did the labeling part fast, i mighta screwd up but i really need to leave if you notice a huge error tell me, if not im sure i ll pick it up later anyway."
+"eventtime","2004-10-19 12:31:00"
+"url","http://sublimeisnice.livejournal.com/27859.html"
+"userid","14836"
+"itemid","107"
+"event","work work work; read read read; all i've been doing lately, fuck school and work, i want to lie around and be a lazy bum.  mine and dylans schedule are just way to conflicting to ever get a practice, he has to pick his sister up at school everyday at  like 2 and i work almost every weekend....but i did get to jam with jen recently, that was interesting and fun.  i cant stop coughing:(  fuck this, why am i even updating this."
+"eventtime","2004-10-18 23:31:00"
+"url","http://sublimeisnice.livejournal.com/27527.html"
+"userid","14836"
+"itemid","106"
+"event","got my 13"" paiste signature dark crisp hats
+and a 22"" aax metal ride...
+
+now im working on refinishing the kit....ive taken the wraps off the two mounted toms(and only gashed my finger open once)...now i just gotta take the wrap off the floor tom, do lots of sanding stain and lacquer...then my set will be beautiful....that and i want to replace my snare and i need new stands for my snare and hi hats...and id like a new crash...that is all."
+"eventtime","2004-10-04 15:53:00"
+"url","http://sublimeisnice.livejournal.com/27382.html"
+"userid","14836"
+"itemid","105"
+"event","The agony of defeat....being so close to that breaking point, but then having the rug pulled out from under you and becoming lost in the way things move...i wish i had an angry inch...i really wish i had things more that were more concrete, less like jello....its like always trying to eat but people keep stealing my silverware....a big yellow bus just went roaring by, and the sky is cloudy but not falling, for once.  however there is a storm afoot and i will not settle till all the sandbags are out, armed and ready....we will attack anything with full force, or full frontal nudity, which ever we see fit.  tommorow is just another day, and ""see you tommorow"" is just another way to say ""get the fuck out of my life.""  What rich context, yet poor timing.  my ego is bigger than yours, and my id is taking over....as if it hadnt already.  i dont like you, i like to fuck you...i like to fuck....i like to fuck with you...i dont like you...
+
+EDIT:
+
+The Monster Within
+
+
+verse(spoken ish....start with bass, the really crazy effect, add in keyboard)
+
+
+Before you lay me down to sleep,
+could you check for monsters in my head.       
+Can you look me in the eyes,
+and tell me im not dead?
+
+
+verse
+
+
+After you tell me once again,
+could you check for monsters in my bed.
+Can you look me in the eyes,                      
+and see the voice inside my head?
+
+
+prechorus(sung soft....in comes guitar and drums, the keyboard goes away, bass still with effect)
+
+
+All the pain,
+that transcends.
+All the pain,
+whos with me till the end?        
+All the pain,
+I'm asking, ""Will you
+Liberate me!"" (echo on me, then pause maybe a second...just enough for things to fade)
+
+
+chorus(scream.....bass loses effect, everything gets heavier)
+
+
+I am the weaker half of you
+tommorow we'll try again, ok?            
+I am the stronger part of you
+tommorow i hope we'll be destoryed...
+
+
+{NEED MORE VERSES ....bass will do same thing as other verse, but this time the guitar and drums will be there}
+
+(for this chorus just play it regular, but add a little ending thing onto it with the bass effect again, so it seems like its over)
+
+I am the weaker half of you
+tommorow we'll try again, ok?
+i am the stronger part of you
+tommorow i hope we'll be destoryed.
+
+
+ bridge(probably sung softly ....just the bass)
+
+
+You, and I,
+having nothing left to hide.         
+We can try,
+to, tear down reason again
+
+
+ending(make the prechorus heavier and scream, then go into the chorus then just stop)
+
+
+All the pain,                          
+that transcends,
+no one's with me in the end.              
+All the pain, 
+that transcends,
+no one can,
+Liberate me.
+
+I am the weaker half of you!
+I am the weaker half of you!            
+I am the weaker half of you!"
+"eventtime","2004-09-13 15:05:00"
+"url","http://sublimeisnice.livejournal.com/26889.html"
+"userid","14836"
+"itemid","104"
+"event","All the beauty in my head will never be set free.
+All the worlds dark humor would be yours, if you could see what I see.
+You would understand the sky and the grass.
+You would understand, but you can't.
+And I am not sorry.
+I am not sorry that everything I know and think is genious, but all that comes out is nonsense.
+I am not sorry that you will never see the world I see.
+The cracks in the pavement, the war-torn sky, the girl in the yellow shirt about 10 yards ahead."
+"eventtime","2004-09-09 15:56:00"
+"url","http://sublimeisnice.livejournal.com/26760.html"
+"userid","14836"
+"itemid","103"
+"event","some pictures of my drums with the new ride and fairly new heads and the new china
+
+http://img.photobucket.com/albums/v246/sublimeisnice/IM000560.jpg  
+ http://img.photobucket.com/albums/v246/sublimeisnice/IM000559.jpg  
+ http://img.photobucket.com/albums/v246/sublimeisnice/IM000558.jpg  
+ http://img.photobucket.com/albums/v246/sublimeisnice/IM000557.jpg  
+ http://img.photobucket.com/albums/v246/sublimeisnice/IM000556.jpg"
+"eventtime","2004-08-20 13:02:00"
+"url","http://sublimeisnice.livejournal.com/26622.html"
+"userid","14836"
+"itemid","102"
+"event","thank god school starts soon, im tired of working 40 hours a week.  sheris birthday is soon i have a few days off for that, i still need to buy her stuff, i have like $400 that should be plenty.  then after that i need to buy new hi hats, then recording equipment.  me and dylan have started doing a lot more work, leah didnt show up to our last scheduled practice nor did she call.  any reliable vocalists or guitarists out there want to jam with us sometime?  you dont have to be great, cuz we arent, but we do take it seriously.  Feel free to email at worthlessliar7@hotmail.com if you interested or want any information.  
+
+we have about 6 nearly completed songs.  We only need a vocalist to help us get a feel for how they sound so we can fine tune everything.  if i can ill try to get some sound clips of me and dylan playing our songs up here, but unless we've gotten better recording equipment it will just be the guitar and drums parts cuz dylan cant play bass and guitar at the same time(bastard!)  or maybe we will record drums and bass, which ever way makes the song sound better, some are more bass oriented some guitar.   anyway........
+
+thats all i really got say, band and work is my life right now."
+"eventtime","2004-08-17 01:25:00"
+"url","http://sublimeisnice.livejournal.com/26259.html"
+"userid","14836"
+"itemid","100"
+"event","I ordered a new ride from a music shop in warwick.  it's a sabian 21"" hh raw bell dry ride.  http://www.musiciansfriend.com/srs7/sid=040803100039068009206011028277/g=perc/g=perc/search/bigpid/base_id/50703/   That's it right there.  I got it for 240.  I still need new hi hats and im very confused about which ones to get.  They are much more difficult to choose:("
+"eventtime","2004-08-03 15:30:00"
+"url","http://sublimeisnice.livejournal.com/25844.html"
+"userid","14836"
+"itemid","99"
+"event","I have work soon.  This friday I'll be making a $400 deposit into the bank, bringing the grand total over $500...which means it will be time to start shopping for new hi hats and stands.  mmmmmm.  ozzfest was pretty good...it really just made me want to play and practice more.  I finished watching the first season of queer as folk and am a little into season two.  i cried twice watching it last night, the end of season one was reeeeally sad, so i hope theres more funny stuff on its way.  and more of emmett, you just cant get enough emmett."
+"eventtime","2004-07-14 14:52:00"
+"url","http://sublimeisnice.livejournal.com/25511.html"
+"userid","14836"
+"itemid","98"
+"event","WARNING: If you don't care what I think about at 4 a.m. after nights of not sleeping, than please leave.  This is just a random excerpt from my notebook from a few days ago.  I occasionaly find my thoughts interesting and wish to share them, if you wish to read than enjoy, if not than thank you and have a nice die.(i hope you die)
+
+Imagination.  Sometimes its too real to ignore.  Sometimes its to great to ignore.  My life is slowly turning into my imagination.  My reality is nothing bu duldrums in the Sea of Unrest.  Reality does in fact bite.  Casual sex, casual drugs, casual life.  Live when you feel like it.  Die when you don't.  Heaven is our own personal utopia, there is no God or supreme being.  Hell is full of fear, wants, and needs.  Hell the is real world.  But fear not, because there is a solution.  The mind can often times create images, ideas, etc. in such real ways, that the reality of the situation is, we don't know what is real and what isn't.  My fantasies have become so perfect, so me, that I can't help but constantly wander into them.  The whole idea seems crazy.  In fact, I'm sure it'd be a good definition of of crazy.  When one cannot tell fact from fantasy.  But this is such a subliminal state.  No one in that situation would ever call themselves crazy.  They are perfectly sane, they are choosing eternal bliss in a world full of shit.  Ignorance=bliss.  A man locked up in a padded room thinks he is really an American under cover agent trying to topple communists in Russia.  It's what he has always wanted to be, a great spy.  And now he is.  Is it better to know, or think you know?  It's an unanswerable question because no one can see both sides equally.  No one can see the beauty that each must offer.  I used to think badly of ignorance.  I used to think true, factual, provable knowledge was everything.  Am I being a hypocrite?  Do I want knowledge or happiness?  I used to think I could have both.  Then I realized, I either know the truth of the situation or the situation makes me happy.  Either or, never both.  The whole thing is mental suicide.
+         You can't have imagination and knowledge.  Knowledge puts an end to daydreams.  Frued said something about it in a book I have.  Children(who would be considered unknowledgable) daydream, while adults(the knowledgable) do not.  They are made to think it evil.  When in fact they couldn't be farther from the truth.  My daydreaming, my thoughts make me happier(therefore not evil) than anything.  My imagination world is continuously making it harder for me to coexist in this real world.  My days are distracted by thoughts and visions, my nights are intolerable.  I don't sleep.  My mind sits and processes thousands of thoughts and hundreds of dreams, and if I'm lucky enough to fall asleep for long enough to enter that deep sleep/dream state, I can then see my dreams come ever more to life.  How sick am I?
+         This has a lot to do with my ""I Wish I Was Locked in a Small White Room"" peom I wrote a while ago.  I can never put anything into words.  Everything I see, do, experience, think, or just pass by.  It's all lost forever.  I have neither the ability or intelligence to record it properly.  How can I change that?  It's 4 am and my vision is blurry.  The moth that was flying around me lap is gone.  It was white.  It was beautiful.  Beautifully ignorant in this hell infested universe.  I have little more to talk about now."
+"eventtime","2004-07-10 01:14:00"
+"url","http://sublimeisnice.livejournal.com/25192.html"
+"userid","14836"
+"itemid","95"
+"event","so yea i waited till i had lots to say and lots i needed to remember for my post here, and here it is.
+
+Ok, i got a job(finally, there are NO jobs in westerly) at blockbuster. its 7 an hour and i work like 20 hours a week so far.  that's more than a hundred dollars a week which is good cuz heres my list of things i need to buy in order:
+
+New snares...as many strands as possible 42 if i can get it in the offset feature...if not i ll get the biggest offset one i can get.(anythings better than my crappy ass 12)  $10-15
+
+new sticks...i want to try 2B's, i want to try some 7A's and i want to try some Sigs.  $50 ish
+
+Double tom holder...so i dont need to mount them on my bass drum  $150
+
+New Cymbals...definetly a new ride and new hi hats, if i end up with a pack maybe another crash...i'd also like to add a wuhan china...for these i need to hit p guitar center and spend a while playing around(note to self: try the paiste802's and the paiste alphas, try the sabian AAX, try meinl if they have(the rapid decay china), other chinas(or crash, i want something with no sustain)also try the paiste sigs, and the zildjian k customs)  $200 for ride  $200 for hats  $10 for china $150 for crash 
+
+silencers...because i want them  $80
+
+Stands...every cymbal i buy will need a stand or mount, depending on the number of cymbals  $200-$300
+
+cowbell...just for variety $20
+
+bass head...really could use a new bass head, maybe a new hoop also.  $60
+
+snare...preferably the chad smith Pearl sig, but will try others. $200
+
+MR8...only need 150 for this, ill probably split with dylan so we can record.
+
+then finally!  i want to re finish my drums, im gonna pull the silver off and probably give it a natural wood finish...cost unknown
+
+
+total(with me being very lenient):  $1310 ... more than 4 times the amount i spent on my orignal set, and brings my grand total of drumming purchases to a whooping $2300...and at $100 a week it will take me 13 weeks, thats a little more than 3 months...that should keep me set for at least year, then maybe more, or replacement cymbals, and ill def. need new heads and sticks...then maybe in a few years a new kit.
+
+now with that out of the way you might ask is it worth it?  is your band going anywhere?  The answers are: yes. and  Not right now, but we're getting there. we have enough orignals for a demo, a few are closed to finished and a few arent...we are working on a few covers.
+
+Outline of songs
+
+song 1- has no words, the music is totally done...we want to spice it up, but its still done, and we can play with all the way through
+
+This is because of you- all the words, all the guitar and bass, no drums yet im having a hell of a time with this one...will possibly leave it as pure acoustic, because we like it that way.
+
+Cross eyed- has all the words, has all the bass and drums, perefectly done...no guitar...me and dylan can play it through no problem
+
+song 4- this has an intro and a verse on all instruments...no chorus/bridge or breakdown(that i can remember) ...and no words
+
+song  5- this is kind of a peppy song in comparison to the rest of ours, so far it has me and dylan (everything but a breakdown and structure) we still need leah and words.
+
+Covers
+
+Fight song by MM- we've all been practicing, havent played it together
+Nobodies by MM- we've played it together, havent locked in yet.
+lamb of god by MM- i dont think any of us have started it yet, but its not too hard.
+
+yea lots of mariyln manson huh?  well me and dylan like it so plll...plus he fits our style i think, esp. lamb of god and nobodies...cuz i dunno we seem to write kinda heavy songs, but they tend to sound slow and sad...
+
+We could really use a singer, it would help TONS...but we dont want to get someone thats all been in a band before and is like awesome cuz we dont really practice enough...i think we'd be best off with someone who sounds decent and just wants to do it for shits and giggles, since thats pretty much what we seem to be about...leah also wants another guitarist, i would like one so that we always can have a guitarist on hand, and cuz leah has a REALLY hard time writing stuff(sorry but you do), hopefully with the tape she has of all our recordings it makes it easier for her...it helped me a lot.
+
+^^^^if anyones interested to try for those parts call me...315-2040...thats my house dont call my cell after june 26th its getting canceled, i hate cell phones.  or you could leave a comment, you could stop by for a practice, we practice in warwick now so its not 50 minutes away(used to play at my house) so you can stop by and listen if you like what you hear, you can try, if not then no harm done...we do everything the the band by a unanimous vote, but we'll need to discuss, so we 'll let you know asap  (REMEMBER: we are NOT great musicians but we try and have fun thats what its about...and for the singer you dont need to be able to write lyrics...iv written them so far for the songs we have words too and am working on others, it would be great if you did, but dont worry if you dont)
+
+anyway beyond this band...all the equipment will help me better my self and improve my own abilities which will help this band, and any other one in the future...BTW we once again have a name....its Ig Alboc...we wanted something that meant something to us and wasnt just nonsense...but dont bother asking about it we took a vow silence.
+
+yea all i ever have to talk about in my life is drumming and music...me and sheri are fantastic....so yea that sums that up"
+"eventtime","2004-06-12 00:47:00"
+"url","http://sublimeisnice.livejournal.com/24381.html"
+"userid","14836"
+"itemid","92"
+"event","My Life: The Soundtrack
+
+Opening credits: Cursive- Ugly Organist
+Waking up: Godhead- I Hate Today
+Average day: Slipknot- People=Shit
+Falling in love: Metallica- Nothing Else Matters
+Love scene: Orgy- All the Same
+Fight scene: Static X- Destroy All
+Breaking up: Tool- Sober or Orgy- Dizzy ...depending on who broke up with who
+Getting back together: Jay Gordon- Slept So long
+Mental breakdown: Slipknot- The Shape
+Learning a lesson: NIN- Terrible Lie
+Deep thought: Static X- Cold
+Reminiscing: Otep- My Confession
+Growing up: Metallica- Carpe Diem Baby
+Partying: Slipknot- Pulse of the Maggots
+Driving: Coal Chamber- Dark Days
+Regretting: Marilyn Manson- Speed of Pain
+Long night alone: Korn- Alone I Break
+Death scene: Marilyn Manson- Great Big White World
+Closing credits: Slipknot- Prelude 3.0"
+"eventtime","2004-05-21 16:39:00"
+"url","http://sublimeisnice.livejournal.com/23592.html"
+"userid","14836"
+"itemid","91"
+"event","~Day Dreams~
+
+I.
+I punched a squirrel in the face the other day.
+It jumped out of a tree,
+it jumped out of a tree to attack me.
+I punched a squirrel in the face the other day.
+
+II.
+Just yesterday I saw the most amazing thing.
+Unfortunatly by now the beauty has faded.
+The beauty has faded and the memory is gone.
+By yesterday I saw the most amazing thing.
+
+III.
+Last week was the worst.
+The dead came alive and began to feast.
+Would have been great, except the dead eat the living.
+Last week was the worst.
+
+IV.
+Today could have been great.
+But sharks with legs that walk on land is a bad idea.
+Anything with sharks is probably a bad idea.
+Today could have been great."
+"eventtime","2004-04-22 01:23:00"
+"url","http://sublimeisnice.livejournal.com/23407.html"
+"userid","14836"
+"itemid","90"
+"event","what i actually think about and do in my nutrition class....
+
+
+~Toy Soldier~
+
+Lost,
+sea of metal.
+Death,
+of a lifetime.
+Why,
+who knows?
+Change,
+and you can't look away.
+
+BANG!
+
+Senseless,
+violence at best.
+Concrete,
+hearts that beat.
+Who,
+understands this?
+Fight,
+and you can't turn back.
+
+Loaded,
+minds at ease.
+Broken,
+bones in bags.
+When,
+does it end?
+When,
+does it end?
+
+Send our soldiers off to war.
+Toy soldiers off to war.
+
+Hopeless,
+endless fleeting.
+Hold,
+this and think.
+Why,
+one by one?
+Fight,
+and you can't come home now.
+
+Repition is a sign of madness.  Repition is a sign of madness.  Repition is a sign of.  Madness.  Madness.  Madness.  Madness.
+
+
+""You can't go home now.  Back to the front!""
+
+Back to the front.
+Toy soldier off to war.
+
+Who knows why?!
+Who knows why?!"
+"eventtime","2004-04-19 21:22:00"
+"url","http://sublimeisnice.livejournal.com/23156.html"
+"userid","14836"
+"itemid","89"
+"event","PFA+Jm5ic3A7PC9QPg0KPFA+Li4uLjwvUD4NCjxQPiZuYnNwOzwvUD4NCjxQPlRoZSBpZGVhIG9mIGZhaXRoIGhhcyBwZXJtZWF0ZWQgdGhyb3VnaCB0aGUgY2VudHVyaWVzLiBJdCwgdXAgdW50aWwgcmVjZW50bHksIHJlbWFpbmVkIGxhcmdlbHkgdW5jb250cmFkaWN0ZWQuIEJ1dCwgYXMgYWxsIGdvb2QgdGhpbmdzIG11c3QgY29tZSB0byBhbiBlbmQsIHNvIG11c3QgZXZpbC4gSXQgdGltZSB0byBzdG9wIGZhaXRoIGluIGl0cyB0cmFja3MuIFBlb3BsZSB0YWxrIGFib3V0IHRoaW5ncyBsaWtlIGNhcmRpby12YXNjdWxhciBkaXNlYXNlIG9yIHNtb2tpbmcgYXMgdGhlIHRvcCBwcmV2ZW50YWJsZSBjYXVzZXMgb2YgZGVhdGgsIGhhcyBub2JvZHkgcmVhbGl6ZWQgZmFpdGgsIGluIGZhY3QgbW9zdCByZWxpZ2lvbnMgaW4gZ2VuZXJhbCwgc2hvdWxkIHRvcCB0aGF0IGxpc3QuIFJlZ2FyZGxlc3Mgb2YgcmVsaWdpb24gYSBwZXJzb25zIGZhaXRoIGhhcyBmYXIgbW9yZSBuZWdhdGl2ZSBzaWRlIGVmZmVjdHMsIHRoYW4gcG9zaXRpdmUuIFdoYXQga2luZCBvZiBjb25jZXB0IGlzIGEgImhvbHkgd2FyPyI8L1A+DQo8UD5SYW5kb21SZWxpZ2lvbmVyMTogIktpbGxpbmcgaXMgYmFkISI8L1A+DQo8RElSPg0KPERJUj4NCjxESVI+DQo8RElSPg0KPFA+LVBlcnNvbiAyIHdobyBmb2xsb3dzIGEgZGlmZmVyZW50IGZhaXRoIGRvZXMgc29tZXRoaW5nIHRoYXQgaXMgYWdhaW5zdCB0aGUgbW9yYWwgY29kZSBvZiBSUjEuIFNheSwgaGUgYWxsb3dlZCBhIHdvbWFuIHRvIHdhbGsgYXJvdW5kIHdpdGhvdXQgYSBtYXNrIG9uIGhlciBmYWNlLjwvUD48L0RJUj48L0RJUj48L0RJUj48L0RJUj4NCjxQPlJSMTogIlRpbWUgdG8gZGllLCBNb3RoZXJmdWNrZXIhIjwvUD4NCjxESVI+DQo8RElSPg0KPERJUj4NCjxESVI+DQo8UD4tUGVyc29uIDIgZ2V0cyBoaXMgZ2FzIG1hc2sgYW5kIHJ1bnMgYmFjayB0byBoaXMgY291bnRyeSB0byBsYXVuY2ggbnVjbGVhciB3ZWFwb25zLCBhbmQgd2UgaGF2ZSBhIGhvbHkgd2FyLjwvUD48L0RJUj48L0RJUj48L0RJUj48L0RJUj4NCjxQPldoaWxlIG9uZSBtaWdodCB0aGluayBhbiBhdGhlaXN0IGlzIHByby1ob2x5LXdhciwgYXMgaXQgY2F1c2VzIG1hbnkgcmVsaWdpb3VzIG51dCBiYWdzIHRvIGRpZSwgdGhlIGF0aGVpc3QgZGlzbGlrZXMgaG9seSB3YXJzLCB3aGVuIGhlIG9yIGhpcyBjb3VudHJ5IGFyZSBhdCByaXNrLiBIb2x5IFdhcnMgYXJlIHN0dXBpZC4gSGVyZSBpcyBhIGxpdHRsZSBhbmFsb2d5IHRoYXQgc2VlbXMgdG8gZml0IHF1aXRlIG5pY2VseS4gPC9QPg0KPERJUj4NCjxESVI+DQo8RElSPg0KPERJUj4NCjxQPllvdSBhIG1lbWJlciBvZiBhIGdhbmcuKmNvdWdoKnJlbGlnaW9uKmNvdWdoKiBJbiB0aGUgcnVsZXMgb2YgeW91ciBnYW5nIGl0IHNheXMgdGhhdCB5b3Ugc2hvdWxkIG5vdCBraWxsIHBlb3BsZSBpdCBpcyB3cm9uZy4gVGhlcmVmb3JlIHlvdSBkbyBub3Qga2lsbChibGF0YW50bHkgZGlzcmVnYXJkZWQgdGhlIGZhY3QgaXRzIGFnYWluc3QgdGhlIGxhdykuIE9uZSBkYXkgYSBtZW1iZXIgb2YgYSByaXZhbCBnYW5nIGdvZXMgYW5kIGRvZXMgc29tZXRoaW5nIGhvcnJpYmxlLiBTYXksIGhlIHJhcGVkIHlvdXIgc2lzdGVyLiBTbyB5b3Ugc2hvb3QgaGltIDE1IHRpbWVzLiBDYW4geW91IGp1c3Qgbm93IGdvdG8geW91ciBtb2IgYm9zcyBhbmQgInJlcGVudCIgdGhhdCBzaW4gYXdheT8gTm8uIFlvdXIgbXVyZGVyaW5nIGFzcyBnb2VzIHRvIGphaWwuPC9QPjwvRElSPjwvRElSPjwvRElSPjwvRElSPg0KPFA+U28gd2hhdCBleGFjdGx5IGlzIGl0IGFib3V0IGZhaXRoIHRoYXQgbWFrZXMgcGVvcGxlIGJlIGluc2FuZT8gV2VsbCBmYWl0aCBpcyBjb25zaWRlcmVkIHRvIGJlIGEgZmFjdWx0eSBhbG9uZ3NpZGUgcmVhc29uIHRoYXQgd2lsbCBpbmNyZWFzZSBvdXIga25vd2xlZGdlIGFuZCB1bmRlcnN0YW5kaW5nLiBLZXl3b3JkIHRoZXJlIGlzIGFsb25nc2lkZSwgaXQgbWVhbnMgdGhhdCB5b3UgZG9u4oCZdC9jYW7igJl0IHVzZSB0aGVtIGJvdGggYXQgb25jZS4gVGhlcmVmb3JlIGxvZ2ljYWxseSwgc2luY2U6PC9QPg0KPFA+RWl0aGVyIEEgb3IgQi48L1A+DQo8UD5CLjwvUD4NCjxQPlRoZXJlZm9yZSBOb3QgQS48L1A+DQo8UD5pcyBhbiBlbnRpcmVseSBjb3JyZWN0IGFzc3VtcHRpb24sIHRoZW4gYW55b25lIHdobyBhY3RzIHdpdGggb3IgaW4gYWNjb3JkYW5jZSB0byBmYWl0aCwgYWN0cyB3aXRob3V0IHJlYXNvbi4gT25lcyB3aG8gYmVsaWV2ZSBpbiBmYWl0aCBwcm9wb3NlIHRoYXQgcmVhc29uIGhhcyBpdHMgbGltaXRzLiBBY2NvcmRpbmcgdG8gdGhlbSBpdHMgbGltaXRzIGFyZSBhbnl0aGluZyBjb25jZXJuaW5nIEdvZCBvciB0aGVpciByZWxpZ2lvbi4gSG93IGNvbnZlbmllbnQgdGhhdCBldmVyeXRoaW5nIHRoZXkgY2Fu4oCZdCBwcm92ZShyZWFkOiBldmVyeXRoaW5nIHRoZXkgYmVsaWV2ZSBpbikgZmFsbHMgYmV5b25kIHRoZSBzY29wZSBvZiByZWFzb24sIG9yIGFzIGVhcmxpZXIgcHJvdmVuIGlzIHVucmVhc29uYWJsZS48L1A+DQo8UD5TbyB3aHkgaXMgaXQgdGhhdCBwZW9wbGUgYXJlIGNob29zaW5nIHRvIGhhdmUgZmFpdGg/IEhhdmluZyBmYWl0aCBpcyBlYXN5LiBBbGwgeW91IGhhdmUgdG8gZG8gaXMgc2F5IHlvdSBoYXZlIGZhaXRoIGFuZCBiZWxpZXZlIGl0LCBhbmQgeW91IGNhbiBleHBsYWluIGFueXRoaW5nLiBBbmQgYXMgYSBib251cyB3aGVuIHlvdSBkaWUsIHlvdXIgbm90IHJlYWxseSBkZWFkISBUaGF04oCZcyByaWdodCwgeW91IGdldCB0byBiZWNvbWUgaW1tb3J0YWwgYW5kIGxpdmUgaW4gcGVyZmVjdGlvbiBmb3IgZXRlcm5pdHkuIFBlb3BsZSBhcmUgdG9vIHdlYWsgYWNjZXB0IGZhY3RzIG9mIGRlYXRoIGFuZCBjcmVhdGUgZWxhYm9yYXRlIGxpZXMgdG8gY29uY2VhbCBldmVyeXRoaW5nLiBGYWl0aCBpcyBhbHNvIHRoZSBmdW5kYW1lbnRhbCBidWlsZGluZyBibG9jayBvZiBDaHJpc3RpYW5pdHkuIEJ1dCBiZWNhdXNlIHRoaXMgaXMgdHlwZWQgeW91IGNhbuKAmXQgc2VlIG15IG5lYXQgZHJhd2luZyBJIGRpZCBmb3IgdGhpcyBzbyBpbSBnb2luZyB0byB1c2UgdGV4dCB0byBzaG93IGl0LjwvUD4NCjxQPjwvUD4NCjxQPkNocmlzdGlhbml0eTwvUD4NCjxQPkZBSVRIPC9QPg0KPFA+Tm93IHRha2luZyBpbnRvIGFjY291bnQgd2hhdCBoYXMganVzdCBiZWVuIHNhaWQgYWJvdXQgZmFpdGguIENocmlzdGlhbml0eSBub3cgbG9va3MgbGlrZSB0aGlzOjwvUD4NCjxQPlQgaSB5IG4gYSB0IGkgaSBjIGggciBzPC9QPg0KPFA+U3VjY2VzcyEgRmFpdGggaXMgZ29uZSwgYW5kIENocmlzdGlhbml0eSBoYXMgY3J1bWJsZWQuPC9QPg0KPFA+Tm93IHNhZGx5LCBiZWxpZXZlIGl0IG9yIG5vdCwgdGhlcmUgYXJlIHBlb3BsZSB3aG8gZGVmZW5kIGZhaXRoLiBTb21lIG9mIHdoaWNoIGFyZSB2ZXJ5IHdlbGwgZWR1Y2F0ZWQuIFRoZXNlIHBlb3BsZSBhcmUgY2FsbGVkIFRoZW9sb2dpYW5zLiwgb3IgImhlcmV0aWNzIHRvIHJlYXNvbi4iIFRoZXkgdXNlIHRoZWlyIGtub3dsZWRnZSB0byBwZXJ2ZXJ0IHRoaW5ncyBsaWtlIHRydXRoIGFuZCBsb2dpYy4gVGhleSBzdGFuZCB1cCBhZ2FpbnN0IHRoZSBhc3NhdWx0IG9uIGZhaXRoLiBVbmZvcnR1bmF0ZWx5IGZvIHRoZW0gdGhleSBhbHdheXMgZWl0aGVyIGZhaWwgb3IgZmFsbCBiYWNrIG9uIGZhaXRoLiBXaGljaCBpcyBsaWtlIHRyeWluZyB0byBnZXQgYmFjayBvbnRvIHlvdXIgaG9yc2UgdG8gcnVuIGF3YXksIGJ1dCBJ4oCZdmUgYWxyZWFkeSBzaG90IGFsbCBpdHMgbGVncyBvZmYuPC9QPg0KPFA+VGhlbiB0aGVyZSBhcmUgYWxzbyBmYW5hdGljcy4gVGhlc2UgcGVvcGxlIG5vIG1hdHRlciB3aGF0IHlvdSBzYXkgd2lsbCBjYWxsIHVwb24gImRpdmluZSByZWFzb24iIGEuay5hLiBmYWl0aCwgdG8gZXhwbGFpbi4gTm90aGluZyB5b3UgY2FuIHNheSB3aWxsIGdldCB0aHJvdWdoIHRoZWlyICJKZXN1cyBsb3ZlcyBtZSIgY2hhbnRpbmcuIFN0YXkgMzAwIGZ0LiBhd2F5IGZyb20gdGhlc2UgcGVvcGxlIGF0IGFsbCB0aW1lcy4gSWYgd2hhdGV2ZXIgdGhleSBoYXZlIGlzIGNvbnRhZ2lvdXMsIHlvdSBkb27igJl0IHdhbnQgaXQuPC9QPg0KPFA+QXRoZWlzbSBpcyBhIHZlcnkgbWlzdW5kZXJzdG9vZCBjb25jZXB0LiBUaGF04oCZcyB3aGF0IGl0IGlzLCBhIGNvbmNlcHQuIE5vdCBhbiBhbnRpLUdvZCwgbXVyZGVyb3VzIGN1bHQuIFRoZSBwcmVmaXggQSBtZWFucyBubyBhbmQgdGhlaXNtIGlzIGEgYmVsaWVmIGluIGdvZC4gQSt0aGVpc209bm8gYmVsaWVmIGluIGdvZC4gRm9yIHdoYXRldmVyIHJlYXNvbiwgYW5kIGluIGEgbWlsbGlvbiBwb3NzaWJsZSB3YXlzIGFuIGF0aGVpc3QgaXMgc2ltcGx5IHNvbWVvbmUgd2l0aCBubyB0aGVpc3RpYyBiZWxpZWYuPC9QPg0KPFA+QW55b25lIGNhbiBiZSBhbiBhdGhlaXN0LiBBIG5ldyBib3JuIGNoaWxkIGlzIGFuIGF0aGVpc3QuIFVudGlsIGhpcyBoZWFkIGlzIGZpbGxlZCB3aXRoIHdpbGQgc3RvcmllcyBhYm91dCBidXJuaW5nIGJ1c2hlcyBhbmQgbW9yZSBsaWVzIHRvIHdhcnAgaGlzIHVuZGV2ZWxvcGVkIG1pbmQuIEhvcGVmdWxseSBsYXRlciBpbiBsaWZlIGhlIHNlZXMgdGhlIGxpZSBhbmQgb25jZSBhZ2FpbiBiZWNvbWVzIGFuIGF0aGVpc3QuPC9QPg0KPFA+VGhlcmUgYXJlIHRvbnMgb2YgbmVnYXRpdmUgY29ubm90YXRpb25zIHRoYXQgY29tZSB3aXRoIGJlaW5nIGFuIGF0aGVpc3QuIFBlb3BsZSBqdW1wIGZyb20gbm8gYmVsaWVmIGluIHRoZWlyIEdvZCwgdG8gbm8gbW9yYWxzLiBBIHBlcnNvbiBkb2VzIG5vdCBoYXZlIHRvIGJlbGlldmUgaW4gYW55IGdvZCB0byBoYXZlIHJlYWxpemUgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiByaWdodCBhbmQgd3JvbmcuIEl0IGlzbuKAmXQgR29kIHRoYXQga2VlcHMgYW55b25lIGZyb20gZ29pbmcgcmlnaHQgaW5zdGVhZCBvZiB3cm9uZywgaXTigJlzIHRoZSBsYXcuIFdoaWNoIHJlbGlnaW91cyBwZW9wbGUgZG9u4oCZdCBtaW5kIGJyZWFraW5nIGlmIGl0IGlzIHRvIHByb3RlY3QgdGhlaXIgcHJlY2lvdXMuIFRoZWlyIGZhaXRoLiA8L1A+DQo8UD4mbmJzcDs8L1A+DQo8UD4uLi4uLjwvUD4="
+"eventtime","2004-04-14 21:53:00"
+"url","http://sublimeisnice.livejournal.com/22801.html"
+"userid","14836"
+"itemid","88"
+"event","SSdtIGhhdmluZyB3cml0ZXJzIGJsb2NrIGV2ZXJ5d2hlcmUgZWxzZSBzbyBpIGZpZ3VyZWQgSSdkIHBvc3QgaGVyZS4gIEknbSB0cnlpbmcgdG8gd3JpdGUgbW9yZSBzb25ncywgSSdtIHdyaXRpbmcgYSBwYXBlciBmb3IgYSBjbGFzcywgYW5kIEknbSB3cml0aW5nIGFuIGVzc2F5IGZvciBteSBvd24gcGVyc29uYWwgZW5qb3ltZW50LiAgQnV0IHRoZXkgYXJlIGdldHRpbmcgbm93aGVyZSByaWdodCBub3cuICBJJ20gcHJldHR5IGNsb3NlIHRvIGhhdmluZyBhIGNpdHkgam9iIG5vdy4uLiB0aGF0IGNvdWxkIGJlIGxvdHMgb2YgaG91cnMgYW5kIGxvdHMgb2YgbW9uZXkuICBJJ20gbm90IHN1cmUgaWYgIEknbSBnb2luZyB0byBzdGF5IHdpdGggbXkgZHJ1bSBsZXNzb25zIG11Y2ggbG9uZ2VyLCBJIGNvdWxkIHByZXR0eSBtdWNoIGRvIHdoYXQgdGhpcyBndXlzIGRvZXMgYWxsIGJ5IG15c2VsZiBhbmQgd2l0aG91dCBoYXZpbmcgc29tZW9uZSBicmVhdGhpbmcgZG93biBteSBuZWNrIG1ha2luZyBtZSBmZWVsIG5lcnZvdXMuICBIYXZlbid0IGhhZCBhIGZ1bGwgcHJhY3RpY2UgaW4gLi4uIGZvcmV2ZXIuLi4gYW5kIGhhdmVudCBoYWQgYW55IHNvcnQgb2YgcHJhY3RpY2Uob3RoZXIgdGhhbiBhbG9uZSkgaW4gYSB3aGlsZSB0b28uICBFYXN0ZXIgZnVja2VkIGl0IHVwLiAgDQoNCg0KSW4gbXkgcG9ldHJ5IGNsYXNzIEkgbmVlZCB0byBjcmVhdGUgYW5kIGFudGhvbG9neSBvZiBwb2VtcyBhbmQgd3JpdGUgYSA3IHBhZ2UgaW50cm8gYXMgaWYgaSB3YXMgdGhlIGVkaXRvciBvZiBpdC4gIEkgY2FsbGVkIG1pbmUgIlRoZSAnV2hhdCB0aGUgRnVjayBQb2VtcycgZnJvbSAxOTYwLSBQcmVzZW50IiAgSSBwaWNrZWQgb3V0IGFueSBwb2VtcyB0aGF0IG1hZGUgbWUgZ28gIndoeSB3b3VsZCBhbnlvbmUgZXZlciB3cml0ZSB0aGlzPyIgIGFuZCBpbmNsdWRlZCB0aGVtLiAgVGhlIGVzc2F5IEknbSB3cml0aW5nIGlzIHNsaWdodGx5IG1vcmUgaW50ZXJlc3RpbmcuICBJdCdzIGNhbGxlZCAiQ2hyaXN0aWFuIElkaW90LW9sb2d5OiBhbmQgb3RoZXIgcmVhc29ucyB0byBiZSBhbiBhdGhlaXN0LiIgIC4uLnNvcnJ5IEkgaGF2ZSBhIHRoaW5nIGZvciBsb25nIHRpdGxlcy4uLmFueXdheSwgaXRzIGdvaW5nIHRvIG5pdCBwaWNrIGF0IEdvZCwgRmFpdGgsIHRoZSBCaWJsZS4udGhlIGVudGlyZSBpZGVhb2xvZ3kuICBUaGVuIHRhbGsgYWJvdXQgYXRoZWlzbSAsIHdoYXQgaXQgaXMsIHdoYXQgaXQgaXNudCwgdHJ5IHRvIG1ha2Ugc21lIGNvbnZlcnNpb25zIHlhIGtub3c/ICBzaG91bGQgYmUgZ29vZCwgaW0gZXhwZWN0aW5nIDEwIHBhZ2VzIC4uLmdpdmUgb3IgdGFrZSAxMC4uLmxvbCAuLi5pZiBhbnlvbmUgaGFzIGFueSBwcm8gb3IgYW50aSBjaHJpc3RpYW4gbGl0ZXJhdHVyZSBpIGNvdWxkIGJvcnJvdyBhbmQgcmVhZCB0aGF0IG1pZ2h0IGJlIGhlbHAgaWQgbG92ZSB0aGF0Lg0KDQpJIG9ubHkgZ290IGEgQisgb24gbXkgRHJhY3VsYSBwYXBlciwgaSB0aG91Z2h0IGl0IHdhcyByZWFsbHkgZ29vZCBzbyB0aGF0IG1hZGUgbWUgc2FkLiAuLi4gZGFtbiBpIHdhcyBqdXN0IGdvaW5nIHRvIHBvc3QgaXQgaGVyZSwgYnV0IGl0cyBvbiBteSBvdGhlciBjb21wdXRlci4uLg0KDQoNClRob3VnaCBoZXJlcyBzb21ldGhpbmcgZWxzZSBJIHdyb3RlIHdoZW4gSSB3YXMgYm9yZWQuLi4oeWVzIGltIGEgbG9zZXIpDQoNCg0KDQpXaGlsZSB3ZSBtaWdodCBub3QgYWxsIGFkbWl0IGl0LCBhbGwgaHVtYW4gYmVpbmdzIGhhdmUgdGhlIGFiaWxpdHkgdG8gdGhpbmsuICBUaGUgdGhvdWdodCBzZWVtcyB0byBiZSBhIHZlcnkgYmFzaWMsIG9mdGVuIG92ZXItbG9va2VkLCBjb25jZXB0LiAgSSBob3BlIHlvdSBub3RpY2VkIHRoZSB3b3JkIHNlZW1zLiAgSG93ZXZlciBrbm93aW5nIHRoZSBnZW5lcmFsIGlkZWEgb2Ygd2hhdCB0aG91Z2h0IGlzLCBpcyBub3QgZW5vdWdoLiAgV2hhdCBjb25zdGl0dXRlcyBhIHRob3VnaHQ/ICBXaGVyZSBpcyB0aGUgbGluZSBkcmF3biBiZXR3ZWVuIHRob3VnaHQgYW5kIHNvbWV0aGluZyB0aGF0IGdvZXMgYmV5b25kIHRob3VnaHQ/ICBXaGF0IGlzIGJleW9uZCB0aG91Z2h0PyAgV2hhdCBpcyBhIHRob3VnaHQgbWFkZSB1cCBvZj8gIFdoYXQgY2FuIHRob3VnaHRzIG1ha2UgdXA/ICBUbyBiZSBhYmxlIHRvIGJlZ2luIHRvIGNvbnRlbXBsYXRlIHRoZXNlIHF1ZXN0aW9ucyBhIGRlZmluaXRpb24gb2YgdGhvdWdodCBtdXN0IGJlIGZvdW5kLiAgQW5kIGl0IG11c3QgYmUgZm91bmQgaW4gc3VjaCBhIHdheSBzbyB0aGF0IGdpdmVuIGEgbGlzdCB3aXRoIEEsIEIsIGFuZCBDLCB3ZSBjYW4gbG9vayBhdCBzYWlkIGxpc3QsIGhvbGQgdXAgdGhlIGRlZmluaXRpb24gb2YgdGhvdWdodCBhbmQgYmUgYWJsZSB0byBzYXkg4oCceWVzIEEgaXMgYSB0aG91Z2h0LCB5ZXMgQiBpcyBhIHRob3VnaHQsIGJ1dCBubyBDIGlzIG5vdCBhIHRob3VnaHQu4oCdICBUbyBkbyB0aGlzIHdlIG11c3Qgc2VlayBhIHZlcnkgU29jcmF0aWMgZGVmaW5pdGlvbi4gIFdlIG11c3QgaGF2ZSBhIGRlZmluaXRpb24gdGhhdCBhcHBsaWVzIHRvIEFMTCByZWxldmFudCBjYXNlcy4gIEl0IG11c3QgYXBwbHkgT05MWSB0byByZWxldmFudCBjYXNlcy4gIEFuZCBpdCBNVVNUIHN0YXRlIHRoZSBlc3NlbmNlIG9mIHRoZSB0ZXJtLiAgTGV0cyB3YXRjaCBhcyBKb2huIGFuZCBUaG9tYXMgdHJ5IGFuZCBzZWVrIGEgdHJ1ZSBwaGlsb3NvcGhpY2FsIGRlZmluaXRpb24gb2YgdGhvdWdodC4NCg0KDQpUSE9VR0hUDQoNCkpvaG46IFRlbGwgbWUgVGhvbWFzLCBob3cgd291bGQgeW91IGRlZmluZSB0aG91Z2h0Pw0KDQpUaG9tYXM6IFdlbGwgYSB0aG91Z2h0IGlzIGEgY29uY2VwdCBvciBpZGVhIGluIG9uZeKAmXMgb3duIG1pbmQuDQoNCkpvaG46IEhvdyBpbnN1ZmZpY2llbnQuICBDb25jZXB0IGFuZCBpZGVhIGFyZSBtZXJlbHkgc3lub255bXMgb2YgdGhlIHdvcmQgdGhvdWdodCwgeW91IGNhbiBub3QgZGVmaW5lIGEgd29yZCB3aXRoIHNpbXBsZSBzeW5vbnltcy4gIFdlIG11c3QgZGlnIGRlZXBlciBhbmQgZmluZCB0aGUgdHJ1ZSBlc3NlbmNlIG9mIHdoYXQgdGhvdWdodCBpcy4NCg0KVGhvbWFzOiBIZXkgbG9vaywgYSB0b2FzdGVyLiAgVGhhdOKAmXMgYSB0aG91Z2h0LiAgQW5kIG5vdyBJIGFtIGxvb2tpbmcgYXQgYnJlYWQuICBBbm90aGVyIHRob3VnaHQuICBBcyBJIHNheSB0aG9zZSB0aGluZ3MgaW4gbXkgbWluZCwgYXMgSSBzYXkgYW55dGhpbmcgaW4gbXkgbWluZCwgdGh1cyBpcyBhIHRob3VnaHQuDQoNCkpvaG46IFNvIHlvdSBzdWdnZXN0IGFueSB3b3JkcyBpbiBvbmVzIG93biBoZWFkIGlzIHRob3VnaHQ/DQoNClRob21hczogSW5kZWVkLg0KDQpKb2huOiBBbmQgd2hhdCBpZiB0aGlzIGNvbnZlcnNhdGlvbiB3ZXJlIGFsbCB3cml0dGVuIG91dCBhbmQgSSB3ZXJlIHRvIGdvIGJhY2sgYW5kIHJlYWQgaXQgdG8gbXlzZWxmIGluIG15IGhlYWQ/ICBXb3VsZCB0aGF0IGJlIGNvbnNpZGVyZWQgdGhpbmtpbmc/ICBEb2VzIHRha2luZyB3aGF0IHNvbWVvbmUgZWxzZSBjcmVhdGVkIGFuZCBzYXlpbmcgaXQgaW5zaWRlIG9uZXNlbGYgY29uc3RpdHV0ZSB0aG91Z2h0PyAgSSBzYXkgaXQgZG9lcyBub3QuICBBIHRob3VnaHQgbWF5IG5vdCBoYXZlIHRvIGJlIG9yaWdpbmFsLCBidXQgc29tZXRoaW5nIHNhaWQgaW4gb25l4oCZcyBtaW5kIHRoYXQgaXMgZXhhY3RseSB0aGUgc2FtZSBhbmQgYXMgYSBkaXJlY3QgcmVzdWx0IG9mIGFub3RoZXIgbWFu4oCZcyB3b3JrLCBjYW4gbm90IGJlIGNvbnNpZGVyZWQgdGhvdWdodC4gIEFuZCBldmVuIHRvIGdvIGJhY2sgYW5kIHJlLXJlYWQgbXkgb3duIHdvcmRzLCByZWFkaW5nIHJlcXVpcmVzIG5vIHRob3VnaHQuDQoNClRob21hczogSSBzdXBwb3NlIHRoYXQgaXMgdHJ1ZS4gIFNvIHBlcmhhcHMgd2hlbiBvbmUgdGFrZXMgaGlzIG9yIG90aGVycyBrbm93bGVkZ2UgaW50byBjb25zaWRlcmF0aW9uIGFuZCBmb3JtcyBpdCBpbnRvIGhpcyBvd24gY29uY2x1c2lvbnMuICBUaGlzIHdpbGwgZXhjbHVkZSByZWFkaW5nLCBidXQgaW5jbHVkZSB0aGUgY29tcHJlaGVuc2lvbiBvZiB0aGluZ3MgcmVhZCwgYmVjYXVzZSB0byB0cnVseSB1bmRlcnN0YW5kIG9uZSBkb2VzIGluIGZhY3QgcmVxdWlyZSB0aG91Z2h0Lg0KDQpKb2huOiBZb3UgbWFrZSB0d28gcG9pbnRzIHRoZXJlLCBib3RoIG9mIHdoaWNoIEkgZGlzYWdyZWUgd2l0aCBhbmQgSSB3aWxsIHRlbGwgeW91IHdoeSwgc3RhcnRpbmcgd2l0aCB0aGUgbGF0dGVyLiAgV2hlbiByZWFkaW5nLCBvbmUgbXVzdCBub3QgYWx3YXlzIHRoaW5rIHRvIHVuZGVyc3RhbmQuICBUaGlua2luZyB3aWxsIG9ubHkgYmUgbmVjZXNzYXJ5IHdoZW4gd2hhdCBvbmUgaXMgcmVhZGluZyBnb2VzIGJleW9uZCBvbmXigJlzIG93biBsZXZlbCBvZiB1bmRlcnN0YW5kaW5nLiAgRm9yIGV4YW1wbGUgaWYgSSByZWFkIGFueSBjaGlsZHJlbuKAmXMgYm9vaywgaXQgaXMgc2ltcGxlIGVub3VnaCBmb3IgbWUgdG8gZ2xhbmNlIG92ZXIgdGhlIHdvcmRzIGtub3cgd2hhdCBpcyBnb2luZyBvbiBhbmQgdW5kZXJzdGFuZCB0aGUgYm9vay4gIEkgY29tcHJlaGVuZGVkIGl0IGp1c3QgZmluZSwgYW5kIGl0IHJlcXVpcmVkIG5vIHRob3VnaHQuDQpXaGlsZSBpZiBJIHdlcmUgdG8gcmVhZCBBZHZhbmNlZCBBc3Ryb3BoeXNpY3MsIGFsbCB0aGUgdGhvdWdodHMgSSBjb3VsZCB0aGluayB3b3VsZCBub3QgYWlkIG15IHVuZGVyc3RhbmRpbmcsIHRob3VnaHQgYW5kIHVuZGVyc3RhbmRpbmcgYXJlIHR3byBkaXN0aW5jdGx5IGRpZmZlcmVudCB0aGluZ3MuICBGdXJ0aGVybW9yZSBvbiB0aGUgaWRlYSB0aGF0IHRha2luZyBhbnkga25vd2xlZGdlIGludG8gY29uc2lkZXJhdGlvbiBhbmQgZm9ybWluZyBjb25jbHVzaW9ucyBpcyB0aG91Z2h0LCBJIHNheSB0aGF0IGEgY29uY2x1c2lvbiBuZWVkIG5vdCBiZSBmb3JtZWQgdG8gaGF2ZSBhIHRob3VnaHQuDQoNClRob21hczogV2hlbiDigJxMb29rIGEgZG9vcuKAnSBnb2VzIHRocm91Z2ggbXkgaGVhZCBhcmUgeW91IHNheWluZyBJIGFtIG5vdCBkcmF3aW5nIHRoZSBjb25jbHVzaW9uIHRoYXQgSSBhbSBsb29raW5nIGF0IGEgZG9vci4NCg0KSm9objogVGhhdCBpcyBleGFjdGx5IHdoYXQgSeKAmW0gc2F5aW5nLiAg4oCcTG9vayBhIGRvb3LigJ0gc2ltcGx5IG1lYW5zIHlvdSBhcmUgYWJsZSB0byBpZGVudGlmeSBhbiBvYmplY3QgYnkgaXRzIHF1YWxpdGllcy4gIFlvdSBkaWQgbm90IGhhdmUgdG8gdGhpbmsuICBZb3Ugc2ltcGx5IGtuZXcuDQoNClRob21hczogQnV0IHRoZSBrbm93aW5nIHdoYXQgYSBkb29yIGlzIGFuZCB0aGUgdGhvdWdodCAg4oCcTG9vayBhIGRvb3LigJ0gaXMgc2VwYXJhdGUuICANCgkNCipKb2huOiBUb28gdHJ1ZS4gIEJ1dCB3aGlsZSBpdCBpdHNlbGYgbWF5IGJlIGFuIGV4YW1wbGUgb2YgYSB0aG91Z2h0LCB0aGUgZGVmaW5pdGlvbiBvZiDigJ1bdGFraW5nXSBoaXMgb3Igb3RoZXJzIGtub3dsZWRnZSBpbnRvIGNvbnNpZGVyYXRpb24gYW5kIGZvcm1zIGl0IGludG8gaGlzIG93biBjb25jbHVzaW9uc+KAnSBkb2VzIG5vdCBhcHBseSB0byBhbGwgYW5kIG9ubHkgcmVsZXZhbnQgY2FzZXMuICBLbm93bGVkZ2UgaXMgbm90IHJlcXVpcmVkIGZvciB0aG91Z2h0LCBmb3IgSSBmZWVsIHRoYXQgb25lIHBvbmRlcnMgd2hhdCBvbmUgZG9lcyBub3Qga25vdyBhbGwgdG9vIG9mdGVuLg0KDQpUaG9tYXM6IEhvdyBhYm91dCBzaW1wbHksIGFjdGl2ZSBhbmQgZGVsaWJlcmF0ZSBtZW50YWwgd29yay4NCg0KSm9objogQmV0dGVyLCBidXQgd2Ugc3RpbGwgbXVzdCB0YWtlIGludG8gY29uc2lkZXJhdGlvbiBhY3RpdmUgYW5kIGRlbGliZXJhdGUuICBCeSBhY3RpdmUgSSBhc3N1bWUgeW91IG1lYW4gY29uc2NpZW5jZSwgc28gdGhhdCB3b3VsZCBlbGltaW5hdGUgYW55dGhpbmcgZG9uZSB3aGlsc3Qgb25lIGlzIHNsZWVwaW5nLiAgQW5kIG9uZSBjYW4gaW4gZmFjdCB0aGluayB3aGlsZSBzbGVlcGluZywgb3IgZWxzZSB0aGVyZSB3b3VsZCBiZSBubyBkcmVhbXMuICBBbHNvIGluIHRoZSBtb3N0IHZpdmlkIG9mIGRyZWFtcywgb25lIG11c3QgdGhpbmsgYW5kIGRlY2lkZSB3aGF0IHRvIGRvIG5leHQuDQoNClRob21hczogRmluZSB0aGVuLCB0aG91Z2h0IGlzIGRlbGliZXJhdGUgbWVudGFsIHdvcmsuDQoNCkpvaG46IEFuZCB3aGVuIHNheWluZyBkZWxpYmVyYXRlIEkgYXNzdW1lIHlvdSBtZWFuLCBvbiBwdXJwb3NlLCBvZiBvbmXigJlzIG93biBmcmVlIHdpbGwuDQoNClRob21hczogWWVzIHRoYXQgaXMgd2hhdCBJIG1lYW4uDQoNCkpvaG46IFBoaWxvc29waGVycyBoYXZlIGJlZW4gYXJndWluZyBmb3IgdGhvdXNhbmRzIG9mIHllYXJzIHdoZXRoZXIgbWFuIGhhcyBvciBoYXMgbm90IGZyZWUgd2lsbCwgSSBzdWdnZXN0IHRoYXQgaXQgbm90IGJlIHVzZWQgaW4gb3VyIHdvcmtpbmcgZGVmaW5pdGlvbi4NCg0KVGhvbWFzOiBNZW50YWwgd29yaywgYSB0aG91Z2h0IGlzIHNpbXBseSBtZW50YWwgd29yay4gIFRoZSBwcm9kdWN0IG9mIG1lbnRhbCBhY3Rpdml0eSBzbyB0byBzcGVhay4NCg0KSm9objogUHJvZHVjdCBvZiBtZW50YWwgYWN0aXZpdHkuLi5obW0uLi5XZWxsIGlmIHByb3ZlbiB0byBiZSB0cnVlLCB0ZWxla2luZXNpcywgd291bGQgYmUgbWVudGFsIGFjdGl2aXR5LCBtb3ZpbmcgdGhpbmdzIHdpdGggdGhlIG1pbmQsIGJ1dCBub3QgdGhvdWdodC4gIEJ1dCB0aGF0IGlzIG5vdCBzdHJvbmcgZW5vdWdoIHRvIGRpc3Byb3ZlIHlvdXIgZGVmaW5pdGlvbi4gIFdoYXQgYWJvdXQgd2hlbiBvbmUgaXMgaG9va2VkIHRvIGEgbWFjaGluZSB0aGF0IG1lYXN1cmVzIGFjdGl2aXR5IG9mIHRoZSBicmFpbj8gIFRoZSBtYWNoaW5lIG1ha2VzIGxvdHMgb2YgYmVlcHMsIGJ1enplcywgY3JlYXRlcyBwaWN0dXJlcywgdGhpcyBpcyBub3QgdGhvdWdodCwgYnV0IGlzIHRoZSBwcm9kdWN0IG9mIG1lbnRhbCBhY3Rpdml0eS4NCg0KVGhvbWFzOiBXZWxsIHdoYXQgZG8geW91IHRoaW5rIHRoYXQgdGhvdWdodCBpcz8NCg0KSm9objogSSBiZWxpZXZlIHRoZSBlc3NlbmNlIG9mIHRob3VnaHQgdG8gYmUgdGhhdCB3aGljaCBpcyBtaW5kIGNyZWF0ZWQuICAgIA0KDQpUaG9tYXM6IE15IG1pbmQgY3JlYXRlcyBkcmVhbXMgYW5kIGltYWdlcyBmb3IgbWUuICBJcyBhIHZpc3VhbCBpbWFnZSBpbiBteSBtaW5kIGEgdGhvdWdodD8gIElzIGEgZHJlYW0gYSB0aG91Z2h0Pw0KDQpKb2huOiBPZiBjb3Vyc2Ugbm90LCBidXQgYSBkcmVhbSBpcyBhIHNlcmllcyBvZiB0aG91Z2h0cy4gIFNvIHRoYW4gYSB0aG91Z2h0IGlzIHRoZSBidWlsZGluZyBibG9jayBvZiB0aGF0IHdoaWNoIGlzIG1pbmQgY3JlYXRlZC4NCg0KVGhvbWFzOiBUaGF0IHNlZW1zIGEgYml0IHZhZ3VlLg0KDQpKb2huOiBBIHRob3VnaHQgaXMgYW4gaW50ZW50aW9uYWwgcHJvZHVjdCBvZiBhIG1pbmQsIA0KDQoNCg0KLi4udGhhdHMgd2hlcmUgaSBzdG9wcGVkIHRhbGtpbmcgYWJvdXQgdGhvdWdodCBhbmQgbW92ZWQgb250byB0b25zIG9mIG90aGVyIHN0dWZmIGZvciBsaWtlIDggcGFnZXMgYnV0IGkgbGlrZSB0aGlzIHBhcnQgdGhlIGJlc3QuICBJdHMgYmFzZWQgb24gYSByZWFsIGNvbnZlcnNhdGlvbiBpIGhhZC4uLnRoZSByZXN0IHRhbGtzIGFib3V0IG1vcmFscywgZnJlZSB3aWxsLCBhIHN1cHJtZSBiZWluZyBhbmQgaW1tb3J0YWxpdHkuLi4uIHRoaXMgaXMgYWxsIGkgaGF2ZSB0byBzYXkgcmlnaHQgbm93IGkgdGhpbmsu"
+"eventtime","2004-04-12 23:42:00"
+"url","http://sublimeisnice.livejournal.com/22724.html"
+"userid","14836"
+"itemid","86"
+"event","aGVyZSBhcmUgbHlyaWNzIGFuZCBhIHNlbWkgZGVzY3JpcHRpb24gb2YgdGhlIHNvbmcsIG1lIGFuZCBkeWxhbiBhcmUgdG90YWxseSBkb25lIHdpdGggaXQgc28gaXRzIGFsbCB1cCB0byB5b3UuLi4uDQoNCg0KfkNyb3NzIEV5ZeKAmWR+DQoNCg0KVkVSU0U6ICBCYXNzIHBhcnQ9MiBub3RlcyBvcGVuLCBzbGlkZSAzLzQgYW5kIGJhY2ssIDJub3RlcyBvcGVuLCBzbGlkZSA3LzggYW5kIGJhY2ssIHRoZW4sIEQgc3RyaW5nIG9wZW4gNywgRyBzdHJpbmcgNywgOSAgDQogICAgICAgIERydW0gcGFydD10cmlwbGV0cyBvbiBiYXNzIGRydW0gdGhlbiBzbmFyZSB3aG9sZSB0aW1lIHVzaW5nIHRoZSByaWRlYXQgOTBicG0gZm9yIDE1IHNuYXJlIGhpdHMNCg0KDQpMeXJpYyBwYXJ0PQ0KQW0gSSBub3RoaW5nIGluIHlvdXIgZXllcz8NCkRvIEkgc3VmZmVyIGhlcmUgaW4gdmFpbj8NCkhlYXJ0YWNoZSBtYWtlcyBpdCBoYXJkIGZvciBtZSB0byBsYXkgYXdha2UsDQphbmQgeWV0IGFsbCBJIHNlZSBpcyB5b3VyIGZhY2UuDQpJdCBmb2xsb3dzIG15IGV2ZXJ5IHN0ZXAsDQphbmQgc3dhbGxvd3MgYWxsIG15IHByaWRlLg0KWW91IG1ha2UgbWUgZGVhZCBpbnNpZGUuLi4NCg0KDQpDSE9SVVM6ICAgQmFzcyBwYXJ0PSA2IG5vdGVzIG9wZW4sIHNsaWRlIDMvNSBhbmQgYmFjaywgNiBub3RlcyBvcGVuLCBzbGlkZSA1LzcgYW5kIGJhY2ssIDYgb3Blbiwgc2xpZGUgNy85IGFuZCBiYWNrLCA0IG9wZW4sIEQgc3RyaW5nIG9wZW4sIDcsIEcgc3RyaW5nIDcsIDkgDQogICAgICAgICAgRHJ1bSBwYXJ0PSBiICBiICBiYiAgc3NzcyB4IDMgdGhhbiBiIGIgIGJiICBzcyBDIHggMSB0aGFuIHJlcGVhdCBvbmNlIG1vcmUgIC4uLiAgcmlkaW5nIG9uIGFsbCBidXQgc25hcmUgcm9sbA0KDQpMeXJpY3MgPQ0KSSwgY2FuJ3QgZmVlbCwNCndoYXQgeW91J3ZlIGRvbmUsDQp3aGF0IHlvdSd2ZSBkb25lIHRvIG1lLA0KYW5kIEksIGNhbid0IHNlZSwNCndoYXQgeW91J3ZlIGRvbmUsDQp3aGF0IHlvdSd2ZSBkb25lIGluIG1lLi4uLg0KDQoNCkJSRElHRTogICB3aWNrZWQgaGFyZCB0byBleHBsYWluIHVubGVzcyBpIHRhYmJlZCBpdCBvdXQgZnVsbHkgd2hpY2ggaSBkb250IGZlZWwgbGlrZSBkb2luZyBzbyBqdXN0IHRoYXQgaXRzIGhlYXZ5IGJ1dCBzbG93IHdpdGggcGF1c2VzLCBkbyB3aGF0IHlvdSBjYW4NCg0KTHlyaWNzIDoNCkFsb25lLA0KSSBjcnksDQpmb3IgeW91LA0KYnV0IGRvLA0KZG8geW91LA0Ka25vdyB3aHk/DQoNClRoZSBzaGl0LA0KeW91IGRvLA0KeW91IGxpZSwNCmJ1dCBJLA0KSSBkb24ndCwNCmtub3cgd2h5Lg0KDQoNClJFUEVBVCBDSE9SVVMNCg0KRU5ESU5HOiBXZSBhcmVuJ3Qgc3VyZSBpZiB3ZSB3YW50IG11c2ljIGZvciB0aGUgbGFzdCBsaW5lIGJ1dCBldmVuIGlmIHdlIGRvbnQgd2FudCBtdXNpYyBvbiB0aGUgbGFzdCBsaW5lIHdlIHN0aWxsIHdhbnQgdG8gcGxheSB0aGUgZW5kaW5nIG11c2ljLCBpZiB3ZSBnZXQgYSBkZWNlbnQgc2luZ2VyLyBzY3JlYW1lciB0aG91Z2ggdGhlIGxhc3QgbGluZSBnZXRzIG5vIG11c2ljLg0KDQogICAgICAgICBCYXNzIHBhcnQ9ICAgRSBzdHJpbmcsIG9wZW4gMywyLCBvcGVuLCAyLDEsIG9wZW4sIHNob3J0IHBhdXNlLCBvcGVuLCBzaG9ydCBwYXVzZSByZXBlYXQgNCB0aW1lcw0KICAgICAgICAgRHJ1bSBQYXJ0PSAgb3BlbiBoaSBoYXQgYW5kIGl0IGp1c3QgZ29lcyBiYXNzIHNuYXJlIGJhc3Mgc25hcmUgZmFpcmx5IHNsb3cgZW5kcyBvbiA4dGggc25hcmU/ICBpIG0gcHJldHR5IHN1cmUNCg0KDQoNCkx5cmljczoNCkFORCBJLi4uQ0FOJ1QgTElWRS4uLiBXSVRIIFdIQVQgWU9VJ1ZFIERPTkUuLi4uIFdJVEggV0hBVCBZT1UnVkUgRE9ORSBUTyBNRSE="
+"eventtime","2004-03-30 22:45:00"
+"url","http://sublimeisnice.livejournal.com/22168.html"
+"userid","14836"
+"itemid","84"
+"event","the words with the (s)(s) have the double snare on them...start right as soon as it kicks in
+
+And you can't know what it's like
+to not be trusted.
+And you don't know how it stings inside,(s)(s)
+when 'I love you' really means 'i love you not'
+And
+How can i forgive and forget all your millions(s)(s)
+of little white lies(you have to say that sorta fast)
+(the rest of this verse is just temp.  i want to change it)
+that wrapped me up,
+and hung me.
+You choked away my life.
+
+It sung pretty normally i dont know what else to say, see if you can get it too fit.
+
+heres the bridge its fits almost exactly
+
+I try
+try to hide
+all the
+bullshit
+in my 
+eyes
+You will
+never get
+to see
+inside
+inside my eyes
+
+heres the chorus, the (s) denotes the that the slide comes right on the word before it
+
+Every day we spent is (s)
+now a memory of pain
+now it's just days
+of me sitting here in my dimely
+lit cell of black and white(s)
+
+i only went through the chorus once but it fit ok. unless i made a mistake, if not play around with it, i finished the drums for the chorus, now im just expirmenting with different ones.... i still need a second verse but than we are done, song 1 complete"
+"eventtime","2004-03-15 20:44:00"
+"url","http://sublimeisnice.livejournal.com/21735.html"
+"userid","14836"
+"itemid","83"
+"event","Ah, spring break.  I actually did a whole lot of ... not too much.  It wasn't an entire waste though, and to keep me from forgetting(thought i probably already ahve forgotten a lot) I will write it all here.  
+
+Saturday was my birthday.  I went to Richards with my parents my sister and her boyfriend and sheri.  it was interesting.
+
+Things I got for my birthday:
+A book by Marquis de Sade from sheri
+A Marilyn Manson action figure from sheri
+An Orgy poster(with a really hot jay gordon, that will go right above the bed) from sheri
+Drum Lessons from parents
+A book full of ghost stories, ironically called Ghosts from sister
+$150 from parents + grandparents
+The new RATM DVD from michelle
+Half off a dime from steph
+Home made card from cait
+
+AND TWO SUPER AWESOME HOMEMADE CARDS AND TEA BAGS FROM LINDSY 
+
+
+I think thats it.  damn good considering last year...
+
+After Richards me and sheri went to Leahs, for practice.  that was .... decent.  Not as good as i hoped, not as bad as i feared.  Leah didn't feel too good so i can understand her not wanting to practice as much, but it was still a let down.  We did however get some stuff done.
+
+Stuff we got done:
+We can play ""The Nobodies"" by marilyn manson
+Our first song with no words has almost finished drums and ideas for lyrics.
+our second song is stil stagnant with just guitar and lyrics.
+I have a recording of the guitar parts that i dont have drums to yet so i can make them up at home.
+**This didnt happen during the time at leahs though it relates**
+Found more devices to record, also obtained sound editing equipment and am self training.
+
+Now onto the none band happenings of my stay at leahs.
+
+Ate pot brownies and me sheri and leah got majorly fucked up.
+Tried the new steak sandwich at d angelos and fell in love
+saw Passions of the christ
+
+The movie was good...beyond the fact that it was christian propaganda to make those who have faith to feel more guilty and goto church and give them money, and to try and make those who dont have faith feel guilty and start going to church and giving them money.  It was the most brutal movie I've seen, the special effects/makeup/acting was done very well.  That is why i loved it.  I was not made to feel guilty.  I was the only one who left the theater that showing who wasnt in tear.  It is very strange to watch ghetto hispanics crying.  
+
+So then i got home from leahs.  Me and sheri watched the following movies:
+
+Wallace and Gromit: The wrong trousers
+The X files
+THe x files: Episodes from season 2
+American history X
+Mortal Kombat
+Batman: the old school one
+Fight Club
+NIN: And all that could have been
+  
+
+i think thats it, it seemed like there were more, oh well
+
+Over vacation i finished reading Bram Stoker's Dracula... and i cant decide on a paper topic, i have to write 5-pages backing up a reading of the text
+
+Topics im choosing between:
+
+Dracula being propaganda for the xenophobes of victorian england
+
+or Dracula being Bram Stokers attempt at debunking christianity and the christian god
+
+i will probably lean towards the second one, cuz i like to try and be controversial. (that and my english teacher is hot and id like to stay after class to ""discuss"" the idea with her)
+
+
+yea so thats my break.
+
+Things i have to look forward to:
+drum lessons that im going to set up tommorow after school.
+writing my english paper
+seeing sheri again
+practicing and finishing my and leahs songs
+finding out about my job at the driving range this summer
+GETTING MY CD BACK FROM CAIT(ahem, i called you twice this week and no one answered and you never called back... so call me i might be in warwick Friday for a while)"
+"eventtime","2004-03-14 23:46:00"
+"url","http://sublimeisnice.livejournal.com/21382.html"
+"userid","14836"
+"itemid","82"
+"event","studying for nutrition is not fun, in fact i hate it....i hate nutrition....
+
+sheri is dissecting her bra?  i dont even know what that means....
+
+im actually starting to get a good feeling about practicing at leahs and of spring break as a whole...probably cuz me and sheri will do it a lot;)   brb i need another pepsi...ok here i am
+
+but now sheris being mean and its making me cry;(  shes getting me the coolest presents ever... one is a philosophy book about sex and torture, and the other is a marilyn manson doll from the nobodies video
+
+
+i really need to study
+
+i have 2 outta 5 pages done for my dickinson paper, it has the worst intro ever, but gets better from there, i just need more body
+
+woot, and i convinced sheri to rip off all her clothes and run around naked on my birthday for me... shes gonna kill me for saying this here
+
+she shouldnt be ashamed to show her love for me and have everyone know, i am not ashamed of mine.  why, if it was her birthday i would glady rip off all my clothes for her
+
+i have no idea why im still typing
+
+i have to pee
+
+i want to practice so bad why does it have to be midnight? 
+
+my parents are getting me drum lessons for my birthday, that is a super score and a half...espeically since they are also hooking mycomputer up to the internet....
+
+speaking of my parents, my dad bought a book called ""How to Talk to Anyone"" ...he thought he was slacking off at work(hes a salesman)  ...but the buying of the book happened to coincide exactly with the day he actually began having conversations with me...is it sad that my dad had to buy a book to be able to talk to me?   i guess its cool that he showed effort...and cool is a thing my dad rarely shows
+its just funny that for a living he talks to people and is all friendly and civil and sells things, but he cant talk to his son.... wierdo
+
+everyone should read the poem America by Allen Ginsberg.....hes a russian, and it is one of my favorite poems ever, its kind of reminiscent of a RATM song...haha i said that in class and only like 2 people knew who Rage were....actually thats not funny, thats kinda sad:(  fucking ghetto rap fuckers(although they should sorta like rage too)
+
+anyway
+.
+..
+....
+.....
+......
+.......
+........
+.......
+......
+.....
+....
+..
+.
+
+
+over spring break im going to smoke up sheri for the first time, that should be fun, and ill get to break in Mr. Happy Bong(the bubbler that leah made me)   
+
+her me and leah all stoned at once, and me and leah probably trying to practice, that will be funny as hell
+
+leah you still have to tell me if your having a big (drunken) party cuz i dont want my drums to be there for that, so im gonna show up after it ....if your not having one maybe me and sheri will come over during the day on monday or something and we can celebrate the day of my birth after me and her get home from whatever restaurent we decide to goto ....well whatever im done typing and am going to call the woman now...
+
+""the green ones make me horny"""
+"eventtime","2004-03-02 23:58:00"
+"url","http://sublimeisnice.livejournal.com/21130.html"
+"userid","14836"
+"itemid","80"
+"event","Spring break is coming up.  Which means I have a 5 page paper due in 3 days and I don't understand the question.  I also have a nutrition project due, but the online program we use doesn't have half the food I eat in it.  And I have an exam in that class too.  F all of that.
+
+Spring break is coming up.  Which means my birthday is in only 6 days.  And all I want are bandmembers that can STAY THE FUCK focused.  But I won't get that.  I'll get some silly little present from my sister, probably a book.  And my parents will put a CD player in my car, when I told them to just hook my computer up to the internet like they said thy'd be doing in the middle of Feb. anyway.  And no one else will get me anything.
+
+Spring break is coming up.  Which means I will be spending 10 days with Sheri soon.  And Leah's parents are going away so I might bring my drums to her house to try and practice.  There is no way she can not show up or be late if it's at her house, is there?  And if Dylan can get his dick out of his girlfriend for 10 minutes or get his eyes off everquest maybe he can be there, and maybe even ... come up with something.  But none of that will happen.  I will show up with my drums, things wil go wrong, and I will leave angry.  Which means I will be a jerk to Sheri, who will then get mad at me, and Spring Break will end up sucking ass.
+
+Spring break is coming up.  And I am going down."
+"eventtime","2004-02-29 22:26:00"
+"url","http://sublimeisnice.livejournal.com/20689.html"
+"userid","14836"
+"itemid","79"
+"event","PFA+YW55d2F5LCBpIGhhZCB0byB3cml0ZSBhIGJsYW5rIHZlcnNlIHBvZW0gZm9yIG15IHBvZXRyeSBjbGFzcyBzbyBpIHRvb2sgdG9ucyBvZiBteSBvbGQgcG9lbXMgYW5kIHRvb2sgcmFuZG9tIGxpbmVzIGFuZCBzdHJ1bmcgdGhlbSB0b2dldGhlci4gYmxhbmsgdmVyc2UgaXMganVzdCBhIHBvZW0gdGhhdCBoYXMgMTAgc3lsbGFibGVzIGEgbGluZSBhbmQgYSBzdHJlc3NlZC91bnN0cmVzc2VkIGJlYXQuIGkga25vdyBpdCBkb2VzbnQgYWx3YXlzIGZvbGxvdyB0aGUgcmlnaHQgYmVhdCBidXQgdGhlIHN5bGxhYmxlcyBpcyByaWdodCwgYW55d2F5IGkganVzdCB3YW50IGZlZWRiYWNrIGkgZ3Vlc3MgYmVmb3JlIGkgaGFuZCBpdCBpbjogPC9QPg0KDQp+V2hlbiB0aGUgQ2xvY2sgU3RyaWtlcyBOZXZlcn4NCjxQPjxCUj5UaGUgZmFjZXMgSSB3ZWFyIGhpZGUgYW4gZW1wdHkgc2hlbGwsPEJSPknigJltIGhvbGRpbmcgb24ganVzdCB0byBzdWZmZXIsIGFnYWluLjxCUj5TbyBJIHRha2UgdGhpcyBQaWxsIGNhbGxlZCBkZXByZXNzaW9uLCBidXQ8QlI+aXQga2VlcHMgbWUgYWxpdmUsIHRob3VnaCBpdCBzdGluZ3MgaW5zaWRlLjxCUj5BbmQgYWxsIHRoZSBwcm9taXNlcyB5b3UgbWFrZSwgc2VhbCB5b3VyIGZhdGUuPC9QPg0KPFA+U29tZWhvdyBmb3JldmVyIHR1cm5lZCBpbnRvIG5ldmVyPEJSPmFnYWluLiZuYnNwOyBEcmVhbXMgb2YgbWUgYW5kIHlvdSB0aGF04oCZcyBhbGwgdGhleeKAmWxsPEJSPmV2ZXIgYmUuJm5ic3A7IFlvdSB3aWxsIHNlZSBteSBoZWFydCB3aGVuIGl0PEJSPnRlYXJzIGFwYXJ0LCBhbmQgZXZlcnkgd29yZCB5b3Ugc2F5IGlzLDxCUj5pcyBhIHR3aXN0IG9mIHRoZSBrbmlmZSBjYWxsZWQg4oCYZW1wdGluZXNzLuKAmTwvUD4NCjxQPkJ1dCB5b3VyIGtuaWZlIGlzIG5vIGxvbmdlciBhdCBteSB0aHJvYXQuPEJSPkkgYW0gbm8gbG9uZ2VyIGhlcmUgYXMgeW91ciBzY2FwZWdvYXQuPEJSPkl04oCZcyBhYm91dCB0aW1lIHRvIHN0cmlwIHlvdSBvZiB5b3VyIHByaWRlLjxCUj5JdOKAmXMgYWJvdXQgdGltZSB0byBzdHJpcCB5b3Ugb2YgeW91ciBsaWZlLjxCUj5XaG8ga25ldyBmb3JldmVyIHdvdWxkIGVuZCBzbyBmYXN0PzxCUj4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDs8QlI+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7ICBBbmQ8QlI+eW91IGNhbuKAmXQga25vdyB3aGF0IGl04oCZcyBsaWtlIHRvIG5vdCBiZSB0cnVzdC08QlI+ZWQsIGFuZCB5b3UgZG9u4oCZdCBrbm93IGhvdyBpdCBzdGluZ3MgaW5zaWRlPEJSPndoZW4g4oCcSSBsb3ZlIHlvdeKAnSByZWFsbHkgbWVhbnMg4oCcSSBsb3ZlIHlvdTxCUj5ub3Qu4oCdJm5ic3A7IE5vdyBpdOKAmXMganVzdCBkYXlzIG9mIG1lLCBzaXR0aW5nIGhlcmUsPEJSPmluIG15IGRpbWx5IGxpdCBjZWxsIG9mIGJsYWNrIGFuZCB3aGl0ZS48L1A+DQo8UD5JbnNpZGUsIEnigJltIGp1c3QgdG9zc2VkIGFzaWRlIGJ5IHlvdXIgbGllcy48QlI+SW5zaWRlLCB0aGlzIGhlYXJ0IHNjYXJzIGRhcmssIGFuZCBkYXJrZXIgc3RpbGwuPEJSPkV2ZXJ5ZGF5IGEgbGl0dGxlIG1vcmUgb2YgeW91IGRpZXM8QlI+aW5zaWRlLiZuYnNwOyBCdXQgYWxsIHRoZSBtZW1vcmllcyByZW1haW4uPEJSPldoZW4gdGhlIGNsb2NrIHN0cmlrZXMgbmV2ZXIsIHdlIHdpbGwgYmUgb25lLjwvUD4NCjxQPiZuYnNwOzwvUD4="
+"eventtime","2004-02-24 20:40:00"
+"url","http://sublimeisnice.livejournal.com/20417.html"
+"userid","14836"
+"itemid","78"
+"event","in case you forget or didnt get my messages learn these:
+
+Marilyn Manson:
+
+the Nobodies and coma white
+
+REM:
+
+Losing my religion
+
+System of a Down:
+
+ATWA
+
+Radiohead:
+
+Karma Police
+
+
+I'm working on all of them and am doing well, so now you go and learn them."
+"eventtime","2004-02-24 16:36:00"
+"url","http://sublimeisnice.livejournal.com/20172.html"
+"userid","14836"
+"itemid","77"
+"event","so i talked myself out of 30 hours worth of community service cuz i am awesome
+
+i was debating skipping school friday so i could go spend another night at RIC but i voted against it.  must goto school.
+
+got wicked high last night.  not good.  hallucinating everywhere.  even on the drive home:/
+
+""you blame yourself, for what you can't ignore.  You blame yourself for wanting me.""
+
+""You drained my heart, and made a spade.  Theres still traces, of you in my veins.""
+
+""...a scapegoat, for all your insecurities.  Excuse me, a hero, a man made god, for all your insecurities.""
+
+""Die knowing you, lived your life, on your knees.""
+
+""My life is mine, it's mine, I'm gonna take it back.""
+
+""I've got these visions that I, just can't control.""
+
+""I want to know my day is coming, see my enemies be punished.""
+
+""Do you remember how it felt when I touched you?  Oh cuz I remember very well.""
+
+""All the money in the world can't buy me, go ahead lie to me.  Tell me again how your tortured.""
+
+""Mary and me were both fucked by God.""
+
+""I'll tear me open, make you gone.  No more can you hurt anyone.""
+
+""Take my tears and that's not nearly all.""
+
+""He is the angel with the scabbed wings, hard drug face, wanna powder his nose.""
+
+""I will bleed your sickened life dry.""
+
+""I wear this fucking mask because you can not handle me, here is my real hell.""
+
+
+sorry im done.  i just have lots of stuff stuck in my head.  anyone wanna guess who those are by?"
+"eventtime","2004-02-19 15:51:00"
+"url","http://sublimeisnice.livejournal.com/19818.html"
+"userid","14836"
+"itemid","76"
+"event","this is going to be long and boring and about stuff you dont give a crap about so you'd be better off stopping now...
+
+i beat old school mario 1 twice tonight, which was cool cuz iv never beaten it before, now iv beaten 6 different mario games, woot?
+
+i wrote a paper called ""Flaws of the Expert Opinions of the Essence of Women""   it was about the topic of women in romantic poetry, i liked it it was fun.  would have been much better if i spent more than one day on it but oh well, i think i still did good. i had a mishap this morning and missed logic , but i got there in time to get my quiz back, 75, not bad considering i forgot how to convert and obvert statements.  and my 90 avgs. it out.  my poetry class is blowing nuts, the teacher just sucks.  and for our mid term i need to answer some stupid question with a 5-7 page essay, but her questions are ridculous and will never take that long, and than i have to write my own poem and write a 1-2 page analysis, of it .  i already wrote it, but i think im gonna change it slightly, its a 21 line blank verse poem about jesus being crucified in the first person.  but i want to change it to a heroic couplet to get it to sound sing songy and happy.
+
+leah got me into two bands; evergreen terrace and remembering never, and now im going to go waste money buying all their other CDs.  i dont have room for more CDs.  i also want more radiohead cds.  i dont have room for more CDs.  i also dont have the money for more CDs.  anyway...
+
+this was the first valentines day in 4 years i havent had to buy someone something.  good cuz i didnt have the money.  i spent the weekend at ric with sheri.  we saw butterfly effect again, well i saw it again she saw it for the first time, then we went to go get her belly button pierced, it looks pretty sweet.  so the day was still good cuz i still got to spend with someone special
+
+lol dating.com makes me laugh, everyone should go and join it , its free and easy to waste hours on.  its a good time passer.
+
+im trying to get a full time job as a manager at a driving range near my house, 40 + hours a week at 10 bucks an hour, that will give me plenty of money to move out with next year.  and if i dont get that im hoping to get the one where all i have to do is drive around getting balls, only 6.75 but still worth it and i can still do it full time.  i really need to start my community service if im looking to not get suspended by the end of this semester pllllllllllllllll f that
+
+""drumsticks can also be chicken""
+
+yup, they can........ yes the end."
+"eventtime","2004-02-16 22:15:00"
+"url","http://sublimeisnice.livejournal.com/19571.html"
+"userid","14836"
+"itemid","75"
+"event","BIpolar God 01: does your bolgona have a first name?
+Bevi1019: i dunno i could go ask it
+BIpolar God 01: could you do that for me?
+Bevi1019: sure
+BIpolar God 01: thanks
+BIpolar God 01: i appreciate it
+Bevi1019: it doesnt know its name
+BIpolar God 01: did you threaten to burn it if it didnt tell you the truth?
+Bevi1019: no
+BIpolar God 01: well fucking go do that and see what happens
+Bevi1019: ok
+
+yea its not funny that was the point, this is all i do with my life :("
+"eventtime","2004-02-16 15:16:00"
+"url","http://sublimeisnice.livejournal.com/19398.html"
+"userid","14836"
+"itemid","74"
+"event","im not a depressed person.  really im not.  when you see me im probably smiling and happy and laughing and having a good time.  I dont fake it.  but im human and like everyone else so i get mad sometimes.  and i write things that make me sound sad, when in the end it makes me happy.  and on a side note i mention this cuz my dad brought it up.  i dress in all black, because im very self concious about what i wear, and its one of the only colors i feel good in, i feel like i look good in black, most other colors make me feel uncomfortable.  and i think i look bad.  its not my fashion statement, its the only 'style' i like on my body.  
+
+""only one thing makes me happy, and its not what i get from you.""
+
+what an ironic gift that was.  (dont worry no one is suppose to understand that.)
+
+
+i think most man are an island unto themselves, but i seem to be a planet.  both positionaly and as a matter of size, my ambitions are big(read: i have delusions of granduer)
+
+i love you.  i love you.  and i love you.  oh yea and i love you.  i love you all.  unfortunatly(or fortuantly) love means nothing to me anymore, because to those i love it means nothing.  ( thats aimed at about 18 different people)  
+
+i dont even know what i think it is anymore, but i dont like it.  the problem is i become to attached to everything and everyONE.  and i dont know what i actually feel, i dont know what it should feel like.  i've been in nonstop relationships for like 4 years.  my life always revolved around someone else, and now theres no one.  whether they believed it or not, my life was always very girlfriend-centric.  thats how i have to be.  i cant honestly revolve around myself, because i dont know what to do.  
+
+maybe alone is what i need, to grow into me.  wait i cant do that with my dad breathing down my neck about every decision i make in life, and the fact that its wrong.  i dont WANT anybody.  i NEED somebody.  and its sad.  it really is.
+
+
+more than anything right now, i want leah to open up to me and be like a best friend i never had or to date have.  because together we could do great things( intellectually and  NOT sexually, this isnt me lusting after her)
+
+and that last part might make some of you think of dylan.  dylan was your best friend wasnt he?  well no i dont think so, and i dont mean it insultingly, let me explain why.
+
+i always felt one of us was doing something wrong.  at first(read: till last year)  we never opened up at all, 0, ziltch, nada.  but then the day came that i told him i liked guys, i think that was when i began to tell him things, open up with more things(maybe it had to do with going to a phsyc. for the first time?)  but yea, he was there and he listend.  but to date he has never come to me with a problem.  i dont think HE sees us as a 'best-friend' unit.  i dont know why.  but i wont doubt that he has always been there for me and always will be.
+
+but in all seriousness i dont think i trusthim 100% with everything.  
+
+1 person in this world knows me through an through, she knows everything iv done, and why or why not, she knows what i plan, she helps me see things clearly, shes the only person that knows this entire intricate set of lies that my life is built on.  she may not know all the past details of things i will tell her, but that comes with time ya know.  this paragraph is dedicated to michelle pugh.  i trust her more than anyone.  to everyone else, that means that yes, iv lied to you/are lying to you/will lie to you when and how it suits my needs.  i am a bad person.  i dont try to hurt people, i just try to make everything the best possible situation for me.  (not too good at it am i?)  
+
+ive become insatiable, everything i get is only half of what i want  and this has become to long so im posting it."
+"eventtime","2004-02-09 23:46:00"
+"url","http://sublimeisnice.livejournal.com/19060.html"
+"userid","14836"
+"itemid","73"
+"event","fuck having no hair.  it makes my ears cold.
+
+fuck my basement.  it makes my hands cold.
+
+fuck school.  it makes my mind numb.
+
+fuck love.  it makes my heart numb.
+
+fuck lying.  it makes me hurt.
+
+fuck sharp objects.  it makes me hurt. 
+
+fuck him.  it makes me mad.
+
+fuck you.  it makes me mad.
+
+fuck me.  this is all i can be."
+"eventtime","2004-02-09 23:42:00"
+"url","http://sublimeisnice.livejournal.com/18785.html"
+"userid","14836"
+"itemid","72"
+"event","this is mostly at leahs request....
+
+today i woke up, i ate , i played minesweeper for 3 hours, ate, practiced, ate, went on line, slept, ate, ate, came online, and than practiced.  i am quite the bored one, i need a job, and people to hang out with, and a band that comes to my house to practice, and a hot boyfriend...anyone wanna volunteer for any of those?"
+"eventtime","2004-02-07 21:59:00"
+"url","http://sublimeisnice.livejournal.com/18573.html"
+"userid","14836"
+"itemid","70"
+"event","...that just about sums it up."
+"eventtime","2004-02-07 13:40:00"
+"url","http://sublimeisnice.livejournal.com/18025.html"
+"userid","14836"
+"itemid","69"
+"event","I'll change on my own forget the word on the street.
+
+Recall the moments that i make you smile just because,
+and that's where i'll be,
+with my crooked halo above.
+I'll trade you halos,
+when you deserve, a lot more."
+"eventtime","2004-01-28 18:45:00"
+"url","http://sublimeisnice.livejournal.com/17844.html"
+"userid","14836"
+"itemid","68"
+"event","I want to forget that I exist.
+I want to go home,
+take two aspirin,
+snort 2 lines,
+smoke 2 joints,
+and never call you again.
+I want you to forget I exist.
+I want to break even.
+Live day by day,
+die minute by minute,
+and lose myself.
+I want to forget that I exist.
+Find a dead end job,
+stick to meaningless relationships,
+so I'll always have a reason to complain.
+I always think that every moment that passes can't possibly be worst than the last and every moment I am wrong.
+My life is already over.
+But I still think, therefore I still am.
+If I don't think,
+then I am not.
+I am not.
+I am not.
+I am not... you.
+I am...
+not...
+you...
+
+I want to forget that I exist.
+
+I forgot.
+I forgot about you.
+And I forgot that I exist."
+"eventtime","2004-01-22 14:18:00"
+"url","http://sublimeisnice.livejournal.com/17446.html"
+"userid","14836"

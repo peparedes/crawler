@@ -1,0 +1,557 @@
+"names","values"
+"itemid","112"
+"event","<form action='http://www.kwiz.biz/simplesurveys/do-survey.php' method='post' target='_new'><table border=1 bordercolor=#efefef cellspacing=0><tr><td valign=top align=right>[Marital Status]</td><td align=left><b>single</b><input type='hidden' name='question1' value='%5BMarital+Status%5D'><input type='hidden' name='type1' value='1'></td></tr><tr><td valign=top align=right>[Shoe size]</td><td align=left><b>6</b><input type='hidden' name='question2' value='%5BShoe+size%5D'><input type='hidden' name='type2' value='1'></td></tr><tr><td valign=top align=right>[Parents still together]</td><td align=left><b>yes</b><input type='hidden' name='question3' value='%5BParents+still+together%5D'><input type='hidden' name='type3' value='1'></td></tr><tr><td valign=top align=right>[Siblings]</td><td align=left><b>one kick ass brother. jason</b><input type='hidden' name='question4' value='%5BSiblings%5D'><input type='hidden' name='type4' value='1'></td></tr><tr><td valign=top align=right>[Pets]</td><td align=left><b>a dog and and a cat</b><input type='hidden' name='question5' value='%5BPets%5D'><input type='hidden' name='type5' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>FAVORITES</i></b><input type='hidden' name='question6' value='FAVORITES'><input type='hidden' name='type6' value='2'></td></tr><tr><td valign=top align=right>[Color]</td><td align=left><b>pink</b><input type='hidden' name='question7' value='%5BColor%5D'><input type='hidden' name='type7' value='1'></td></tr><tr><td valign=top align=right>[Number]</td><td align=left><b>16</b><input type='hidden' name='question8' value='%5BNumber%5D'><input type='hidden' name='type8' value='1'></td></tr><tr><td valign=top align=right>[Animal] </td><td align=left><b>monkeys </b><input type='hidden' name='question9' value='%5BAnimal%5D+'><input type='hidden' name='type9' value='1'></td></tr><tr><td valign=top align=right>[Drinks] </td><td align=left><b>juice</b><input type='hidden' name='question10' value='%5BDrinks%5D+'><input type='hidden' name='type10' value='1'></td></tr><tr><td valign=top align=right>[Soda] </td><td align=left><b>diet coke</b><input type='hidden' name='question11' value='%5BSoda%5D+'><input type='hidden' name='type11' value='1'></td></tr><tr><td valign=top align=right>[Book] </td><td align=left><b>Prozac Nation</b><input type='hidden' name='question12' value='%5BBook%5D+'><input type='hidden' name='type12' value='1'></td></tr><tr><td valign=top align=right>[Flower] </td><td align=left><b>Daisy</b><input type='hidden' name='question13' value='%5BFlower%5D+'><input type='hidden' name='type13' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>DO YOU</i></b><input type='hidden' name='question14' value='DO+YOU'><input type='hidden' name='type14' value='2'></td></tr><tr><td valign=top align=right>[Color your hair?] </td><td align=left><b>Yeah i highlight it</b><input type='hidden' name='question15' value='%5BColor+your+hair%3F%5D+'><input type='hidden' name='type15' value='1'></td></tr><tr><td valign=top align=right>[Twirl your hair?] </td><td align=left><b>yup</b><input type='hidden' name='question16' value='%5BTwirl+your+hair%3F%5D+'><input type='hidden' name='type16' value='1'></td></tr><tr><td valign=top align=right>[Have tattoos?] </td><td align=left><b>no but i am getting one hopefully!</b><input type='hidden' name='question17' value='%5BHave+tattoos%3F%5D+'><input type='hidden' name='type17' value='1'></td></tr><tr><td valign=top align=right>[Have Piercings?] </td><td align=left><b>yes</b><input type='hidden' name='question18' value='%5BHave+Piercings%3F%5D+'><input type='hidden' name='type18' value='1'></td></tr><tr><td valign=top align=right>[Cheat on tests/homework?] </td><td align=left><b>no way!</b><input type='hidden' name='question19' value='%5BCheat+on+tests%2Fhomework%3F%5D+'><input type='hidden' name='type19' value='1'></td></tr><tr><td valign=top align=right>[Drink/Smoke?] </td><td align=left><b>nope</b><input type='hidden' name='question20' value='%5BDrink%2FSmoke%3F%5D+'><input type='hidden' name='type20' value='1'></td></tr><tr><td valign=top align=right>[Like roller coasters?] </td><td align=left><b>nope</b><input type='hidden' name='question21' value='%5BLike+roller+coasters%3F%5D+'><input type='hidden' name='type21' value='1'></td></tr><tr><td valign=top align=right>[Wish you could live somewhere else?] </td><td align=left><b>Ummm. YEAH!  </b><input type='hidden' name='question22' value='%5BWish+you+could+live+somewhere+else%3F%5D+'><input type='hidden' name='type22' value='1'></td></tr><tr><td valign=top align=right>[Want more piercings?] </td><td align=left><b>i dont know</b><input type='hidden' name='question23' value='%5BWant+more+piercings%3F%5D+'><input type='hidden' name='type23' value='1'></td></tr><tr><td valign=top align=right> [Like cleaning?] </td><td align=left><b>yeah</b><input type='hidden' name='question24' value='+%5BLike+cleaning%3F%5D+'><input type='hidden' name='type24' value='1'></td></tr><tr><td valign=top align=right>[Write in cursive or print?] </td><td align=left><b>print</b><input type='hidden' name='question25' value='%5BWrite+in+cursive+or+print%3F%5D+'><input type='hidden' name='type25' value='1'></td></tr><tr><td valign=top align=right>[Own a web cam?] </td><td align=left><b>no</b><input type='hidden' name='question26' value='%5BOwn+a+web+cam%3F%5D+'><input type='hidden' name='type26' value='1'></td></tr><tr><td valign=top align=right>[Know how to drive?] </td><td align=left><b>yeah</b><input type='hidden' name='question27' value='%5BKnow+how+to+drive%3F%5D+'><input type='hidden' name='type27' value='1'></td></tr><tr><td valign=top align=right>[Own a cell phone?] </td><td align=left><b>yeah</b><input type='hidden' name='question28' value='%5BOwn+a+cell+phone%3F%5D+'><input type='hidden' name='type28' value='1'></td></tr><tr><td valign=top align=right>[Ever get off the damn computer?] </td><td align=left><b>of course not!  That would mean i have a life!</b><input type='hidden' name='question29' value='%5BEver+get+off+the+damn+computer%3F%5D+'><input type='hidden' name='type29' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>HAVE U EVER </i></b><input type='hidden' name='question30' value='HAVE+U+EVER+'><input type='hidden' name='type30' value='2'></td></tr><tr><td valign=top align=right>[Been in a fist fight?] </td><td align=left><b>No.. but it would be cool!</b><input type='hidden' name='question31' value='%5BBeen+in+a+fist+fight%3F%5D+'><input type='hidden' name='type31' value='1'></td></tr><tr><td valign=top align=right>[Considered a life of crime?] </td><td align=left><b>haha no</b><input type='hidden' name='question32' value='%5BConsidered+a+life+of+crime%3F%5D+'><input type='hidden' name='type32' value='1'></td></tr><tr><td valign=top align=right>[Considered being a hooker?] </td><td align=left><b>hmmm.....</b><input type='hidden' name='question33' value='%5BConsidered+being+a+hooker%3F%5D+'><input type='hidden' name='type33' value='1'></td></tr><tr><td valign=top align=right>[Lied to someone?] </td><td align=left><b>yeah</b><input type='hidden' name='question34' value='%5BLied+to+someone%3F%5D+'><input type='hidden' name='type34' value='1'></td></tr><tr><td valign=top align=right>[Been in love?] </td><td align=left><b>yeah</b><input type='hidden' name='question35' value='%5BBeen+in+love%3F%5D+'><input type='hidden' name='type35' value='1'></td></tr><tr><td valign=top align=right>[Made out with JUST a friend?] </td><td align=left><b>yep</b><input type='hidden' name='question36' value='%5BMade+out+with+JUST+a+friend%3F%5D+'><input type='hidden' name='type36' value='1'></td></tr><tr><td valign=top align=right>[Been in lust?] </td><td align=left><b>yeah</b><input type='hidden' name='question37' value='%5BBeen+in+lust%3F%5D+'><input type='hidden' name='type37' value='1'></td></tr><tr><td valign=top align=right>[Used someone] </td><td align=left><b>yes</b><input type='hidden' name='question38' value='%5BUsed+someone%5D+'><input type='hidden' name='type38' value='1'></td></tr><tr><td valign=top align=right>[Been used?] </td><td align=left><b>yes</b><input type='hidden' name='question39' value='%5BBeen+used%3F%5D+'><input type='hidden' name='type39' value='1'></td></tr><tr><td valign=top align=right>[Been cheated on?] </td><td align=left><b>no</b><input type='hidden' name='question40' value='%5BBeen+cheated+on%3F%5D+'><input type='hidden' name='type40' value='1'></td></tr><tr><td valign=top align=right>[Kicked someone in the nuts?] </td><td align=left><b>yeah... sorry mil!</b><input type='hidden' name='question41' value='%5BKicked+someone+in+the+nuts%3F%5D+'><input type='hidden' name='type41' value='1'></td></tr><tr><td valign=top align=right>[Stolen anything?] </td><td align=left><b>nope</b><input type='hidden' name='question42' value='%5BStolen+anything%3F%5D+'><input type='hidden' name='type42' value='1'></td></tr><tr><td valign=top align=right>[Held a gun] </td><td align=left><b>no, i dont think its a good idea for me to hold a gun!</b><input type='hidden' name='question43' value='%5BHeld+a+gun%5D+'><input type='hidden' name='type43' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>CURRENTS </i></b><input type='hidden' name='question44' value='CURRENTS+'><input type='hidden' name='type44' value='2'></td></tr><tr><td valign=top align=right>[Current clothing] </td><td align=left><b>jeans and a blue shirt</b><input type='hidden' name='question45' value='%5BCurrent+clothing%5D+'><input type='hidden' name='type45' value='1'></td></tr><tr><td valign=top align=right>[Current mood] </td><td align=left><b>bored </b><input type='hidden' name='question46' value='%5BCurrent+mood%5D+'><input type='hidden' name='type46' value='1'></td></tr><tr><td valign=top align=right>[Current taste] </td><td align=left><b>water</b><input type='hidden' name='question47' value='%5BCurrent+taste%5D+'><input type='hidden' name='type47' value='1'></td></tr><tr><td valign=top align=right>[What you currently smell like] </td><td align=left><b>sweet pea</b><input type='hidden' name='question48' value='%5BWhat+you+currently+smell+like%5D+'><input type='hidden' name='type48' value='1'></td></tr><tr><td valign=top align=right>[Current hair] </td><td align=left><b>pony</b><input type='hidden' name='question49' value='%5BCurrent+hair%5D+'><input type='hidden' name='type49' value='1'></td></tr><tr><td valign=top align=right>[Current thing I ought to be doing] </td><td align=left><b>working on my speech</b><input type='hidden' name='question50' value='%5BCurrent+thing+I+ought+to+be+doing%5D+'><input type='hidden' name='type50' value='1'></td></tr><tr><td valign=top align=right>[Current cd in stereo] </td><td align=left><b>Jason Mraz</b><input type='hidden' name='question51' value='%5BCurrent+cd+in+stereo%5D+'><input type='hidden' name='type51' value='1'></td></tr><tr><td valign=top align=right>[Last book you read] </td><td align=left><b>Frankenstein</b><input type='hidden' name='question52' value='%5BLast+book+you+read%5D+'><input type='hidden' name='type52' value='1'></td></tr><tr><td valign=top align=right>[Last movie you saw] </td><td align=left><b>Hook!</b><input type='hidden' name='question53' value='%5BLast+movie+you+saw%5D+'><input type='hidden' name='type53' value='1'></td></tr><tr><td valign=top align=right>[Last thing you ate] </td><td align=left><b>Cheeseburger from Kise=CRAP</b><input type='hidden' name='question54' value='%5BLast+thing+you+ate%5D+'><input type='hidden' name='type54' value='1'></td></tr><tr><td valign=top align=right>[Last person you talked to on the phone] </td><td align=left><b>Christine</b><input type='hidden' name='question55' value='%5BLast+person+you+talked+to+on+the+phone%5D+'><input type='hidden' name='type55' value='1'></td></tr><tr><td valign=top align=right>[Do drugs?] </td><td align=left><b>no</b><input type='hidden' name='question56' value='%5BDo+drugs%3F%5D+'><input type='hidden' name='type56' value='1'></td></tr><tr><td valign=top align=right>[Believe there is life on other planets?] </td><td align=left><b>no</b><input type='hidden' name='question57' value='%5BBelieve+there+is+life+on+other+planets%3F%5D+'><input type='hidden' name='type57' value='1'></td></tr><tr><td valign=top align=right>Remember your first love?] </td><td align=left><b>yeah</b><input type='hidden' name='question58' value='Remember+your+first+love%3F%5D+'><input type='hidden' name='type58' value='1'></td></tr><tr><td valign=top align=right>[Still love him/her?] </td><td align=left><b>of course!</b><input type='hidden' name='question59' value='%5BStill+love+him%2Fher%3F%5D+'><input type='hidden' name='type59' value='1'></td></tr><tr><td valign=top align=right>[Read the newspaper?] </td><td align=left><b>no</b><input type='hidden' name='question60' value='%5BRead+the+newspaper%3F%5D+'><input type='hidden' name='type60' value='1'></td></tr><tr><td valign=top align=right>[Have any gay or lesbian friends?] </td><td align=left><b>im sure</b><input type='hidden' name='question61' value='%5BHave+any+gay+or+lesbian+friends%3F%5D+'><input type='hidden' name='type61' value='1'></td></tr><tr><td valign=top align=right>[Believe in miracles?] </td><td align=left><b>no</b><input type='hidden' name='question62' value='%5BBelieve+in+miracles%3F%5D+'><input type='hidden' name='type62' value='1'></td></tr><tr><td valign=top align=right>[Do well in school?] </td><td align=left><b>i guess sometimes</b><input type='hidden' name='question63' value='%5BDo+well+in+school%3F%5D+'><input type='hidden' name='type63' value='1'></td></tr><tr><td valign=top align=right>[Wear hats] </td><td align=left><b>no!!!!</b><input type='hidden' name='question64' value='%5BWear+hats%5D+'><input type='hidden' name='type64' value='1'></td></tr><tr><td valign=top align=right>[Hate yourself?] </td><td align=left><b>no</b><input type='hidden' name='question65' value='%5BHate+yourself%3F%5D+'><input type='hidden' name='type65' value='1'></td></tr><tr><td valign=top align=right>[Have an obsession?] </td><td align=left><b>yeah</b><input type='hidden' name='question66' value='%5BHave+an+obsession%3F%5D+'><input type='hidden' name='type66' value='1'></td></tr><tr><td valign=top align=right>[Collect anything?] </td><td align=left><b>no</b><input type='hidden' name='question68' value='%5BCollect+anything%3F%5D+'><input type='hidden' name='type68' value='1'></td></tr><tr><td valign=top align=right>[Have a best friend?] </td><td align=left><b>yeah CHRISTINE ROCKS MY WORLD!!!</b><input type='hidden' name='question69' value='%5BHave+a+best+friend%3F%5D+'><input type='hidden' name='type69' value='1'></td></tr><tr><td valign=top align=right>[Close friends?] </td><td align=left><b>kind of, not really anymore though</b><input type='hidden' name='question70' value='%5BClose+friends%3F%5D+'><input type='hidden' name='type70' value='1'></td></tr><tr><td valign=top align=right>[Like your handwriting?] </td><td align=left><b>yeah</b><input type='hidden' name='question71' value='%5BLike+your+handwriting%3F%5D+'><input type='hidden' name='type71' value='1'></td></tr><tr><td valign=top align=right>[Care about looks] </td><td align=left><b>yeah. ill admit it, too much!</b><input type='hidden' name='question72' value='%5BCare+about+looks%5D+'><input type='hidden' name='type72' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>LOVE LIFE</i></b><input type='hidden' name='question73' value='LOVE+LIFE'><input type='hidden' name='type73' value='2'></td></tr><tr><td valign=top align=right>[First crush] </td><td align=left><b>Taylor Durham, in middle school!!  haha!</b><input type='hidden' name='question74' value='%5BFirst+crush%5D+'><input type='hidden' name='type74' value='1'></td></tr><tr><td valign=top align=right>[First kiss] </td><td align=left><b>Nick</b><input type='hidden' name='question75' value='%5BFirst+kiss%5D+'><input type='hidden' name='type75' value='1'></td></tr><tr><td valign=top align=right>[Do you believe in love at first sight?] </td><td align=left><b>no</b><input type='hidden' name='question76' value='%5BDo+you+believe+in+love+at+first+sight%3F%5D+'><input type='hidden' name='type76' value='1'></td></tr><tr><td valign=top align=right>[Do you believe in ""the one?""] </td><td align=left><b>yeah kind of</b><input type='hidden' name='question77' value='%5BDo+you+believe+in+%5C%22the+one%3F%5C%22%5D+'><input type='hidden' name='type77' value='1'></td></tr><tr><td valign=top align=right>[Are you a tease?] </td><td align=left><b>so ive heard</b><input type='hidden' name='question78' value='%5BAre+you+a+tease%3F%5D+'><input type='hidden' name='type78' value='1'></td></tr><tr><td valign=top align=right>[Too shy to make the first move?] </td><td align=left><b>sometimes</b><input type='hidden' name='question79' value='%5BToo+shy+to+make+the+first+move%3F%5D+'><input type='hidden' name='type79' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>ARE U A</i></b><input type='hidden' name='question80' value='ARE+U+A'><input type='hidden' name='type80' value='2'></td></tr><tr><td valign=top align=right>[Daydreamer] </td><td align=left><b>yeah</b><input type='hidden' name='question81' value='%5BDaydreamer%5D+'><input type='hidden' name='type81' value='1'></td></tr><tr><td valign=top align=right> [Bitch/Asshole] </td><td align=left><b>yeah</b><input type='hidden' name='question82' value='+%5BBitch%2FAsshole%5D+'><input type='hidden' name='type82' value='1'></td></tr><tr><td valign=top align=right>[sarcastic] </td><td align=left><b>yeah</b><input type='hidden' name='question83' value='%5Bsarcastic%5D+'><input type='hidden' name='type83' value='1'></td></tr><tr><td valign=top align=right>[Angel] </td><td align=left><b>of course!</b><input type='hidden' name='question84' value='%5BAngel%5D+'><input type='hidden' name='type84' value='1'></td></tr><tr><td valign=top align=right>[Devil] </td><td align=left><b>can be!</b><input type='hidden' name='question85' value='%5BDevil%5D+'><input type='hidden' name='type85' value='1'></td></tr><tr><td valign=top align=right>[Shy] </td><td align=left><b>mmm no not really</b><input type='hidden' name='question86' value='%5BShy%5D+'><input type='hidden' name='type86' value='1'></td></tr><tr><td valign=top align=right>[Talkative] </td><td align=left><b>way to talkative!!!!!</b><input type='hidden' name='question87' value='%5BTalkative%5D+'><input type='hidden' name='type87' value='1'></td></tr><tr><td colspan=2 align=center><input type='submit' value='Take This Survey'><BR><a href='http://www.kwiz.biz/simplesurveys/create-survey.php'>CREATE YOUR OWN!</a> - or - <a href='http://www.kwiz.biz/simplesurveys/paid-surveys.php'>GET PAID TO TAKE SURVEYS!</a></td></tr></form></table>"
+"eventtime","2005-09-26 19:07:00"
+"url","http://lovelyu18.livejournal.com/28789.html"
+"userid","9259"
+"itemid","111"
+"event","Im so bored right now!  I wish i could be home!  IM SAD!!!!!!!!
+
+1. Do you still know/talk to the person you lost your virginity to?
+..... havent really done that yet!
+
+2. What would you do with 1,000 plastic spoons?
+play the spoon game with 1000 people (Who remembers the spoon game????)
+
+3.What kind of music did you listen to in elementary school?
+country and boy bands!
+
+4.What is the best thing about your current job?
+that i dont have one!  WOOP!
+
+5.Do you wish cell phone ettiquette was a required class upon purchasing one?
+nah
+
+6.Are you against marriage?
+... what? no!
+
+7. Why?
+because marriage is beautiful!
+
+8. What's the most fucked up food combination you've come up with that's actually tasty?
+pickle and cheese sandwich... and cheetos dipped in mayo
+
+9. Have you been on a date in the past week? (or just slept with anyone?)
+..... i dont really know.. somewhere in between
+
+10. If yes... how did it go, if no, why not?
+it was awesome!
+
+11. Where are you going on your next vacation?
+hopefully colorado!
+
+12. Quote a song lyric, because I told you to!
+""I'm not crazy cuz i take the right pills everyday""
+
+13. Are most of the friends in your life new or old?
+old....i dont make new friends easily
+
+15. Do you own any furniture from Ikea?
+nope but i own a lamp
+
+16. Are you ashamed of having it?
+why would i be ashamed?
+
+17. What do you wish someone would buy you?
+diamonds...hey im a woman arent i!!!
+
+18. What do you think of hipsters?
+ooh la la
+
+19. What are you wearing right now?
+pj shorts, tank top, and flip flops
+
+20.when was the last time you had mom cook for you?
+labor day weekend...i miss real food!
+
+21. Do you like your parents?
+love them!!!!
+
+23. What state/country are you from?
+minnesota
+
+24. Do you ever wish you were gay/straight?
+im perfectly fine being straight!
+
+25. Tell us about the last conversation you had.
+i talked to my mommy on the phone about how i hate school!
+
+27. What is your favorite smell?
+tysons smell.... everyone knows!
+
+28. Home Depot: pure evil or pure genius?
+i dont think ive ever been to home depot
+
+29. Do you consider yourself bi-polar?
+yes.....
+
+30. What is the time and the outside temperature at the moment? 
+9:04pm  its cold as hell!!!
+
+Goodnight LOVERS"
+"eventtime","2005-09-22 20:58:00"
+"current_moodid","39"
+"url","http://lovelyu18.livejournal.com/28569.html"
+"userid","9259"
+"itemid","110"
+"event","Nick: How about a tri-five?
+Me:   Oh, i dont have 3 hands!
+
+
+
+
+*Im an idiot!"
+"eventtime","2005-09-19 17:59:00"
+"current_moodid","106"
+"url","http://lovelyu18.livejournal.com/28361.html"
+"userid","9259"
+"itemid","109"
+"event","i dont know what im doing with myself!  I need to breath and realize im not ready for this!  UGH!  Does anyone read this?"
+"eventtime","2005-09-01 17:04:00"
+"url","http://lovelyu18.livejournal.com/28095.html"
+"userid","9259"
+"itemid","108"
+"event","keep your mouth shut!"
+"eventtime","2005-08-20 10:39:00"
+"url","http://lovelyu18.livejournal.com/27785.html"
+"userid","9259"
+"itemid","107"
+"event","i got a myspace!
+click on it!
+www.myspace.com/utty"
+"eventtime","2005-08-19 13:07:00"
+"url","http://lovelyu18.livejournal.com/27513.html"
+"userid","9259"
+"itemid","106"
+"event","hey everyone.  christine and my mom just left me!  Im so sad!  My mommy cried and she said that she wasnt going to but she did anyways!  i dont know what im going to do now with my clone! (christine!) we wore the same outfits for like 2 days. without planning it.  it was silly!  but yeah. i hope i make more friends.  i dont want to be a loser!  hehehe!  ok i am going to find something to do!
+
+PEACE"
+"eventtime","2005-08-19 11:48:00"
+"current_moodid","25"
+"url","http://lovelyu18.livejournal.com/27251.html"
+"userid","9259"
+"itemid","105"
+"event","Hey everyone!  Im officially moved into my dorm. Im so tired though!  I cant wait till school starts up though so i have something to do!  i bought books today and they were really expensive. BOO!!!!!!!!!!! its really hot up on the third floor!  OOFTA!  Ok well i have nothing else to say so ill update later.
+
+
+
+
+PEACE!"
+"eventtime","2005-08-18 15:51:00"
+"current_moodid","99"
+"url","http://lovelyu18.livejournal.com/27024.html"
+"userid","9259"
+"itemid","104"
+"event","Its so weird how even the most perfect things never work out.  Its like we all are inevitably going to get robbed of happiness. I know this is all going to work out ok and it was the best thing to do.  Well, what else was there to do right.  I just hope i dont completely lose everything that i thought would be with me for the rest of my life.
+
+
+
+......i still love you......
+
+
+
+(a bit of humor for this downer entry:
+""Its like if you were walking into a church getting ready to pray and the priest just jumped up and socked you in the jaw.  Then you would say, 'GOD DAMN....And i mean it!'"""
+"eventtime","2005-08-16 15:52:00"
+"current_moodid","129"
+"url","http://lovelyu18.livejournal.com/26655.html"
+"userid","9259"
+"itemid","103"
+"event","hey all!  So i got home from illinois yesterday, that was a fun trip kind of.  Today i went and ran some errands with my mommy and then started packing my stuff because i leave in TWO DAYS!  im so excited but kind of sad all at once!  I dont know how i should feel.  i think the shwans guy is here because it sounds like my mom is talking to herself!  anyways.  So i have been pretty busy today!  OH!!!!  I got the new dane cook cd!  Totally worth the money! it really wasnt expensive but i wouldnt pay that much for anyother cd!  It is so funny! I LOOOOOVVVVVEEEE it!  I really dont have much to say!  I just really felt like updating this because im actually kind of in a good mood!  YAY!  ok well i think im going to go find something to do!
+
+
+PEACE OUT!"
+"eventtime","2005-08-15 19:35:00"
+"current_moodid","59"
+"url","http://lovelyu18.livejournal.com/26538.html"
+"userid","9259"
+"itemid","102"
+"event","What up bitches?  I have to go to illinois today.  That kind of sucks!  Oh well what do you do?  Its so silly.  I thought i was completely done with everyones pissy comments and everything you know, since we arent in highschool and you dont have to talk to or see anyone that you dont want to but apparently some people arent done with that.  I dont give a shit, if anyone has a problem with me, dont go on my live journal and tell me about.  just dont talk to me because YOU DONT HAVE TO DEAL WITH ME IF YOU DONT LIKE ME!!!!!!  Im leaving in 5 days so just keep your comments to yourself.  But on a positive note i get to go to college!!!!!  YAY!!!  Ok well i have to potty so im out!"
+"eventtime","2005-08-12 12:24:00"
+"current_moodid","120"
+"url","http://lovelyu18.livejournal.com/26241.html"
+"userid","9259"
+"itemid","101"
+"event","hmmm.......... guess what friends...im happy!!!!!!!!!!  Ive watched 13 going on 30 like a bajillion times, so here are some snazzy quotes for all you lovers.
+
+
+""which would you rather be today, the pot or the kettle?  If you dont mind i want to be the pot, or the kettle.  it doesnt really matter, they're both BLACK!""
+
+""You know what i really want right now....RAZZLES""
+
+""You can wipe that 'bambi watching her mother getting shot and strapped on to the top of a van' look off your face.""
+
+""Is he an Arthur or a Martha?.....no no is he gay????"""
+"eventtime","2005-08-11 11:28:00"
+"current_moodid","99"
+"url","http://lovelyu18.livejournal.com/26063.html"
+"userid","9259"
+"itemid","100"
+"event","hey all. i dont really feel like updating this but i havent in a while so i feel like i should!  So yeah anyways.  Im listening to the new coheed song......KICK ASS!!!  the new cd comes out in september.  im so excited for that!  YAY!!  I love cluadio!  I would totally do him (sorry tyson!).  But yeah. i leave in a week!  SAD!  Im getting really sad, and i thought that i wouldnt but i really am!  Mostly because i get zero time with tyson anymore and christine and i havent ever been this far from each other!!  EVER!!!!  but shes coming to help me move.  that will be fun!  Coheed rocks my socks off!  I am so excited for this cd.  I cant wait till october. they are coming to the quest i think.  I definitely will make it home for that.  Ok so i really want to jump on the band wagon and join my space or something but i cant untill i go to school because i packed my computer away already!  STUPID!! Ive been using my dads which is super fast and im kind of jealous!  Ok well im going to meet my mommy for lunch so im out!"
+"eventtime","2005-08-10 11:41:00"
+"current_moodid","38"
+"url","http://lovelyu18.livejournal.com/25637.html"
+"userid","9259"
+"itemid","99"
+"event","hehe!  So yesterday was bitchin!  I went to the horse races at canterbury and it was SOOOOOO fun!  I spent $16 wagering and only won $2.20 the entire day!  It was super fun though!  And then on the way home my brother was being really stupid and asking me all these weird questions like ""If you had to be a power tool, which one would you be?""  he said that he would be a circular saw, because he likes things that can go in circles. then he asked what kind of sandwich i would be and that explains the little disgusting quote up in the title!  But yeah.  Today is ONE YEAR since ty and i started dating!  HOLY COW!!!!  im not to sure what we are going to be doing, i think dinner.  hmmmm..... food sounds real nice right now so im going to go get breakfast! 
+   
+
+
+
+
+
+
+
+
+
+
+apparently when lemons get hungry they turn into pale vampires!"
+"eventtime","2005-08-01 09:19:00"
+"current_moodid","18"
+"url","http://lovelyu18.livejournal.com/25571.html"
+"userid","9259"
+"itemid","98"
+"event","Hey ya!  Today is my daddy's b'day!  YAY!  We went to dinner at McDivots and it was surprisingly good!  Except i got like sun sick today so i could barely eat!  I got a wicked awesome tanline today from sitting at the parade! its all white where my tank top was but then bright pink where it wasnt!  Its ridiculous!  My face also got pretty burned!  BOO!!! I was just outside for too long today!  The parade was super fun! I liked not being in it for once!  I got to scream at Alex, and Mary Riley, and Jed, my dads business partner!  It was super fun!  Christine and i soaked in the pool for a while but it was pretty cold!  Then i went and swam at mil's house, which was a bad idea because thats where my face got burned!  OUCH!  I think i might go to the fireworks tonight! Im not sure though.  im super tired and tyson might now go to them and if he doesnt go, i dont really have anyone else to go with because christine is at work and i dont like being around couples when im alone, it gives me bad memories, and everyone else that i know is going with their boyfriends or girlfriends!  It was really odd because i was such a loner at dinner tonight!  Brit had jason, my parents had eachother, bob and jill were together, and chris had his girlfriend.  I was all alone!  It wasnt bad though because its not like the parents were all mushy like young couples!  i am so blabbing about absolutely nothing now!  silly me!  So anyways. ive had a lot on my mind lately and most of it is how everyone else is going out and doing all this stuff that i personally think is stupid (for me, im not judging! dont get mad!) and i feel almost like im not a good enough person because i dont do all those things.  I dont think that is how it should work.  I think you should feel good for yourself when you make the right choice instead of feeling like a stupid loser!  I've only had ONE person ever say they were proud of me because i havent smoked or gotten drunk EVER.  And that was brittany.  Im not saying that shes the only one that thinks its but you know it would be nice to know that im not a loser.  and i do want to make clear that i dont care what other people do, i mean its their body, they can do whatever they want to and i dont think that people that go out and get drunk are any less of a person than me.  because they arent! I just feel sometimes when i make the consious decision to not do those things because i know what they do to you, im actually the stupid one.  i dont know if that makes any sense what so ever but i know what i mean and thats all that matters because i am venting, and anyone reading this far is a real trooper for reading through all the crap before instead of just moving on to another persons journal!  This is probably the longest journal ive done!  WOOP!  But anyways back on subject (nope not done yet!)  I also have been thinking a lot about who is really my friend.  ive come to the conclusion that i will talk to 4 people after i leave for college!  Honestly.  I thought i had so many other friends but when school got out i realized that a lot of those friends were really just getting along with me because they are friends with christine and you all know how we are attached at the waist!  LOL!  But oh well, i dont care all that much because we are all going separate ways and it makes it much easier if you only have a few people to miss instead of a bajillion!  I leave in 18 days!!!!!!!!!!!!!  That is soooooooo freaky!!!!!!!!!  I want to get out of here so bad but i wish i could take tyson and christine with me!  That would fuckin rock!  BUT its not going to happen because tyson needs to graduate first before he goes to college and christine is going to stupid U of M!  STUPID!!!!!!!!!!!!!!!!!   Ok i think im done because this is getting boring and after hearing my rant, everyone is probably all sad and depressed!  Its really not that bad!!!!!!!!!
+
+
+PEACE~"
+"eventtime","2005-07-30 20:24:00"
+"current_moodid","30"
+"url","http://lovelyu18.livejournal.com/25321.html"
+"userid","9259"
+"itemid","97"
+"event","Hey everyone!  I am just chilling with christine.  We just played DDR.  It was very fun untill we started feeling like we were going to puke!  WOOP!  So interesting things have happened lately!  Some things really piss me off and others make me laugh!  Yeah, and i really want to put a name down for who pissed me off but im not that mean!  Yeah anyways, that person is very VERY mean, and they make me so angry, and they didnt even do anything to me.  (just imagine if they would have!  I would kill!!!!!!) yep so anyways.  I have this silly feeling about the way things have turned out.  Like i feel like i should give some people another chance but i just dont want to.  you know how it goes!  i cant wait till i go to school!  Its going to be so cool!  YAY!!!!!!!!!!!!!!!!!!!!!!! ok christine just made me stop with the ! things! lalala!  We are going to go find something to do now because she keeps making fun of my keyboard.  just because she has a spiffy laptop that is the size of my pinky doesnt mean ANYTHING!!!!!!!!!!  (hehehehe!)  PEACE OUT!  
+
+
+
+
+oh yeah... 
+
+
+
+.......im out in 3 weeks!"
+"eventtime","2005-07-27 12:47:00"
+"current_moodid","120"
+"url","http://lovelyu18.livejournal.com/25077.html"
+"userid","9259"
+"itemid","96"
+"event","haha, you are a really big bitch... JKJK You rock my world
+~Ty
+^thats love!
+
+HEY!!!!  Im talking on the phone with christine right now! We are talking about funny people and SAM!  of course we are talking about sam.  So tyson and i will be dating for a whole year next monday!  WHOA!!!  so yeah im super tired and hungry!  BLEH!  I dont even feel like uodating this so PEACE"
+"eventtime","2005-07-25 09:19:00"
+"current_moodid","92"
+"url","http://lovelyu18.livejournal.com/24808.html"
+"userid","9259"
+"itemid","95"
+"event","CLAP CLAP!  So today was such a weird day!  I went to my eye appointment, which is in lenscrafters in the burnsville mall.  and CARISSA had an appointment at the same time as me, so we went shopping for a little bit and she got some flip flops and pants for work.  Then i walked outside and thought i was going to die because it was so dark out and it was pouring rain!  So i drove home in the middle of the worse part of the storm, which was really scary!  then i went home and made lunch, and then got a really bad muscle spasm in my abs!  It hurt real bad! Then i went to kohls with my mother and she bought me some clothes for school and some stuff for my dorm.  Then i got to see NICHOLAS!! My moms friend, who i babysit for all the time just had a baby and hes soooooooo cute!  I got to hold him for like A HALF HOUR!!! And he started to fall asleep so we decided to go.  Now my mom is making spaghetti and then christine and i are going to chill tonight!  
+
+on a different topic. some people just make me laugh!  I cant help it. they are so angry about stupid things and other people (the ones they are angry at) have no idea what is going on.  And it is just silly!  its been brought to my attention that i have like 3 friends!  I thought i was so much more loved than that!  LOL!  But i dont even care because those 3 friends i have rock my world and with less friends it will be easier to start new in moorhead!  And im also happier now because i dont have to worry about pleasing as many people!  Thats always nice!  So yeah, haha!!!  AND i like when people try to play victim!!!  That always makes me giggle! I dont know why people cant admit when they are bastards!  I do!  Like now, im being a total bitch to some people, and those people probably are reading this and saying ""Yeah she is!!!"" and im not going to sit there and talk about how im so sick of their crap and bla bla bla, its all their fault and i do nothing wrong! Im going off on a tangent that is completely unimportant!  Silly!  Im so hyper right now and cant wait til after dinner so christine can come over or i can go over there.  im not sure what exactly we are doing tonight but its going to be hella fun!  
+
+Im writing so much and for some reason, im doing the paragraph thing! That is so jenny's thing!  Like i always know its jenny's journal on my friends page when its separated into paragraphs! now i just feel like a jenny poser!  hehe!!  ok im out!
+
+PEACE"
+"eventtime","2005-07-23 17:30:00"
+"current_moodid","106"
+"url","http://lovelyu18.livejournal.com/24382.html"
+"userid","9259"
+"itemid","94"
+"event","OH MY GOD!!!  So this weekend was pretty sweet!  I mean parts of it were sweet, others were unbelievably ridiculous!  Like, i mean i cant believe that some of the things that happened to me actually took place!  Christine and i went to moorhead on a road trip and about an hour out, my tire went flat.  So then i called my mom and she called for a tow truck to come and fix it so we could be on our way.  Then this hill billie in a rusty old truck pulled over and asked us if we needed help, and he was really creepy and gross.  Then when the tow truck came, the guy was a comlete idiot and he couldnt fix it so we had to ride in the tow truck to a truck stop where he parked my car untill my dad came and fixed it.  While we were waiting for my parents, we had breakfast at embers.  That was just stupid!  There were a bunch of hicks there and it was very dirty!  Then my parents came and fixed my tire, but my car was also leaking anti freeze so my mom let us continue on with her car and they took mine back to get fixed!  By the time we got to moorhead, we didnt even want to do anything. but we went around and i showed her where i will be going to school and then we found the mall!  It was like a fourth of the BURNSVILLE mall!!!  Tiny little mall but cute! Then we went back to the hotel and went swimming, then got pizza and played cards.  we then went to bed at like 830!  it was so fun though!!!!!  We got up and had a continental breakfast and then left but it took forever to get home because we stopped to get subway and we couldnt find it.  Then we hit traffic TWICE!!!  It was so annoying!  But we got back at around 230 and i had to take a quick shower and run to work! Work sucked like always!  LOL!  Well. thats all that is new with me!  I feel like laying down for awhile so im out!
+
+PEACE!!!!"
+"eventtime","2005-07-18 19:21:00"
+"current_moodid","125"
+"url","http://lovelyu18.livejournal.com/24094.html"
+"userid","9259"
+"itemid","93"
+"event","hey!  So i had the most bitchin day yesterday!  Then i woke up and i have a cold or allergies or something like that.  But i called in sick and i actually got to stay home!  WOOP!!!  So me and christine are chilling and listening to stephen lynch!  Hes funny! ok well, i am so hyper right now so im going to giggle and listen to more silly songs with christine!
+
+PEACE!!!!
+
+CHECK OUT THE NEW MOOD GUY!!!!!!!"
+"eventtime","2005-07-15 13:53:00"
+"current_moodid","106"
+"url","http://lovelyu18.livejournal.com/23942.html"
+"userid","9259"
+"itemid","92"
+"event","LALALA!!!!  Im having a good day, and i dont feel quite as ugly!  Thats always good right!  Im super tired but whatever!  I have to get up so early and have to deal with very hyper little kids!  It was so funny, today at my first job at highland elementary, Jasmine was dancing to the cheetah girls!  It was so silly!  Then Angela started ""break dancing"" on the floor!  I love those kids!  Now im totally dreading going to my other job that totally sucks!!!!!  I hate the kids there because they just dont listen!  BUT after work tyson and i are going to the mall to meet Tiffany my roommate and her boyfriend!!!  Im so excited!  Well, i am going to take a nap before work!"
+"eventtime","2005-07-12 12:42:00"
+"current_moodid","125"
+"url","http://lovelyu18.livejournal.com/23712.html"
+"userid","9259"
+"itemid","91"
+"event","I feel weird lately.  Something is different but i just dont know how to handle it or to bring it up.  I started my new job today.  I work at highland elementary as a PSA. Basically, i get paid $12.50 an hour to do nothing! and its really fun!  The kids are so cute and funny!  They are all in special education so i have to help them with their assignments and stuff.  But i do have to get up at 6:30 in the morning to get there on time.  that kind of sucks.  Im still working at childrens world to so i am super tired right now.  So yeah.  I feel so ugly lately!  I dont know why, i just look around and think every girl is so much cuter than me! I usually have enough self esteem to get me by but lately i feel like the ugliest person in the world.  i could very well be the ugliest person in the world but at least i was ok with it before!  Right!!!!!  LOL!  But anyways.  I get to go hang out with Tiffany, my roommate, tomorrow night! Im super pumped for that! Im kind of nervous though because what if she spends time with me and just thinks i am a total loser!  HAHA!!!!  That would just suck!!!  ok well, im out!
+PEACE"
+"eventtime","2005-07-11 19:51:00"
+"current_moodid","4"
+"url","http://lovelyu18.livejournal.com/23365.html"
+"userid","9259"
+"itemid","90"
+"event","Wow, that last entry was really bitchy!  Im sorry for that! I was in a crappy mood yesterday!  Im better today!  So yeah nothing is really new, i dont know why im updating this!  Silly!  So tyson came back last night.  I went to the airport with his family and got to see him for a while!!!  It was funny though because tyson's dad pointed down the hallway thing and me, reta and alan all looked but he was just being mean, so then i really saw tyson and said hes over there and no one would look because jim just had played that trick on us!  SILLY!  I am just realizing that i need to get out and do things with people.  I havent gone out of my house all summer except to go to work and get my fishy!  I got a fishy!!!!!!!  So if anyone is partying dont hesitate to let me know!!  But yeah!  Oh by the way, i am planning a party for august 5th or 6th (not sure which) to celebrate me finally being done at childrens world and also because im leaving for college two weeks after that! but i will call everyone and let you all know when exactly it is!  I was going to do it the weekend before i leave but im going to THE DELLS!!!  I've never been....you could say im a dell virgin!  YAY!!  So yeah, im just blabbing about absolutely nothing important now so i think im going to find something to do!!!!!
+
+
+Love ya bitches!!!"
+"eventtime","2005-07-06 12:20:00"
+"current_moodid","59"
+"url","http://lovelyu18.livejournal.com/23187.html"
+"userid","9259"
+"itemid","89"
+"event","Hey everyone!  Ugh, im so tired of people that just dont get it!  They wonder why no one wants to hang out with them but when they are told why, they still dont get it! And im tired of people putting guilt trips on me because they have no life.  They obviously dont need me that bad because they have back up friends! (Which these people dont deserve that!) God why are some people just so stupid?!?!!?!?!?!?!  I have no heart anymore! I just dont care about certain things anymore that i use to care about because i thought i had to, now i realize i dont.  This person that im talking about is lucky i am not saying their name because i was seriously thinking about it but that would just make things more difficult dont you think!  Ill just let everyone wonder!  So last night was frickin awesome!  I went to fireworks with christine and we ran into Matt, Dan, Ryan, and Sam.  Then we went and said hi to the people at the Dinos stand.  It took us a really long time to find the stand though.  Fireworks were actually really good this year!  I was impressed!  Then after fireworks we ran into Dan Janssen and Jon!!!!  It was so great to see all those guys!  Im kind of just realizing how much im going to miss all those guys because, besides Ty, they are the only cool guys i know!  Everyone else sucks!!!!!!!  UGH!!!  Another thing that is pissing me off!!!!!!!!!!  I have this little problem ive been trying to work out on my own but its really just about leaving for college and not being with tyson all the time and being really far away and im totally SCARED to be on my own, and when i tell someone about it i just want them to comfort me. but some people think its ok to say ""I know how you feel!""  AHHH!!! I HATE that!  especially when they have no idea how i feel!!! Like, if someone was going across the country and leaving someone like that, yes, you would know how i feel so lets feel icky together.  but when you are going to the U of M (which is like, what, a half hour away) you have no idea how i feel!  Ugh.  that shouldnt be that irritating but it is.  People just dont understand how hard it is to be me!!!  JK!!!!!  Im having a really good summer though!  So far, ive gone out and done stuff in a social setting ONCE!!  That was last night at the fireworks!  How lame am i?  Ty gets back today!!!  YAY!!!! I cant wait to see him!  I get so nervous though because hes flying northwest and i just know a lot about that airlines that no one should know about!!!!  Its just too scary!  Oh well, he made it there ok!  So i watched hotel rwanda the other day, that is such a sad movie!!!!!!!  And the rest of the world during that time were total bitches!!!  The french military especially!!  Bastards!  Ok TINE IS CALLING!!!  Well im out!  
+
+..........my mind wanders."
+"eventtime","2005-07-05 10:33:00"
+"current_moodid","1"
+"url","http://lovelyu18.livejournal.com/22968.html"
+"userid","9259"
+"itemid","88"
+"event","AHHH!!!! I hate it!  My parents just dont get it!  Im 18!!!  I can do what i want, i can smoke if i wanted to (i dont, but the point is that i can)and i dont have to come home if i dont want to!!!  But they still treat me like im a stupid little kid!!!!  AHHHH!!!  It makes me so mad!  I cant wait to go to school and be able to make my own choices!  I really have never been able to do that!  Ok im done venting about that! Today is the forth but its not very exciting! I saw fireworks last night at the taste of minnesota so i really dont want to see them again.  Im really tired too because my neighbors set off fireworks every night and they last untill 2 or 3 in the morning.  Its frickin stupid!  But anyways.  I think im going to go find something to do.  There really isnt much to do when christine and tyson are both gone!  
+
+
+PEACE"
+"eventtime","2005-07-04 15:48:00"
+"current_moodid","24"
+"url","http://lovelyu18.livejournal.com/22727.html"
+"userid","9259"
+"itemid","87"
+"event","Yo!  So summer has been pretty frickin rad!  I would like to say that i havent updated this in a long time because ive been busy but that would be the biggest lie EVER!!!  So to update on my boring and somewhat pathetic life..... I wake up every morning at like 8 but lay in bed till 10 or so.  sometimes i will take a shower, but usually i call up tine and we soda run it up.  Then we both sit on our lazy asses and watch tv or lay in her pool until our skin melts off.  Then i go to work at 3 where i get punched, slapped, bit, scratched, and kicked but angry 4 year olds for 3 hours and only get paid 25 dollars!!!!!  I just really noticed that, i get 25 dollars a day. THATS IT!!!  My last paycheck was $100!!!  For two frickin weeks!  I hate my job so much and my bosses suck and i want them to go to hell!!  Actually i dont.  I just want something bad to happen to them.  I have forgiven michael because last week in a storm a tree fell on his car!  And his last day is next friday!!  WOOP!  Ok enough about work! So today has been no exception to my laziness!  I actually took a shower right away though!  Ive been chillin and trying to shake off the enormous cramps ive been having all morning!  I just ate lunch, and after im done updating this i am going to take a nap untill i have to go to work!  Fun stuff i tell ya!  I thought that this summer was going to be totally rad and i was going to be partying till the wee hours of the morning every day, but ive really only hung out with christine, tyson, and amber!  and im usually in bed by 11:30 or midnight.  Im not even sad about that either.  Im sort of like an old person.  i like my peace and quiet and my sleep!!!!  Tyson just got back from boys state last week then on sunday he left AGAIN to go to UCLA!  Hes gone untill the 5th!  Thats super sad!  ok well im still hungry and also a little sleepy!  Peace out!"
+"eventtime","2005-06-29 11:59:00"
+"current_moodid","22"
+"url","http://lovelyu18.livejournal.com/22324.html"
+"userid","9259"
+"itemid","86"
+"event","Hey everyone!  Im so hyper right now!  I had a pretty rotten day! I was in a really crabby mood all day and then i started getting stomach cramps like mad crazy but i went to work anyway!  Ok, so, on monday Amy asked me to work all day on friday and i said that i could and to just tell me when i needed to be in.  So all week i was asking her when i needed to be in for friday and she said that she had to look at the schedule and she would tell me.  So today i asked her again considering friday is TOMORROW and she said that she would look real quick and then tell me before she went home.  So she never came and told me, then i went to the office to ask Michael if he wanted me to close pre-k and amy and brianna were whispering something (they were in the office too).  I didnt think much of it till i asked Michael when they wanted me to come in tomorrow and he said 3:00!!!!!!  That isnt all day!!  Thats still only THREE HOURS!!!  So i got pissed and walked back to Prek and told brianna that i was so tired of them and she was like ""Amy just asked me to come in at 8 tomorrow!""  I about flipped a frickin lid!!!!!!!!  Brianna gets more hours than me anyways and they just gave her more after they asked me if i wanted those hours!!!!  I hate my job so much! Its so retarded and i wish i could just quit but i havent heard from archivers yet and so i cant quit until i have another job lined up!!  So if anyone knows where i could get a job let me know!!!!!!  I HATE MY JOB!!!!  But then my family went out to dinner for my moms birthday and it was really good!  The service was kind of bad but we gave a good tip because the waiter was really nice and the problems werent his fault!  I paid!  I felt like such a big kid paying for dinner!!!  My stomach is starting to feel weird!  BLEH!!!!  OMG!!!!!!! Christine and i are going to moorhead in july! Its going to be so fun because it will be just us chillin and i get to show her my campus!!!! YAY!!!  Ok well im out!
+
+
+
+
+""Your skin is like the sun of mexico, burning through my retina!"" (Insert rusty mexican accent here)"
+"eventtime","2005-06-23 20:05:00"
+"current_moodid","59"
+"url","http://lovelyu18.livejournal.com/22048.html"
+"userid","9259"
+"itemid","85"
+"event","Hey everyone!  I havent updated this for a long time!  oh well, like anyone reads this anyway!  I think christine and amber are the only ones who actually read this so sorry amber, you have been cheated out of a paragraph of my silly rants!!!!  I dont apologize to christine because she is always with me so she knows whats up!  So today was a very good day, then it started to storm.  So i woke up and took a shower, then christine called me and we went and got soda.  Then we decided that since it was sunny we were going to go into the pool.  So we tanned for a little bit, then bumper rafted, and then did some goofy things.  Then we got hungry so we went in to get some food but by the time we were done eating the sky was BLACK. so we were like FUCK IT! so we stayed inside and just chilled.  Then it got really windy (This is where the story gets good!!!) so we went outside in the pouring rain to get the floaty things that were flying away in the hurricane that was forming.  So we are running back inside and i was wearing old navy flip flops (for those of you that dont know, those bitches get real slick when they are wet.) and i jumped back on to her deck and my feet slipped out from underneath me, my legs went flying out to the side, and i kerplunked my ass on her deck.  Actually i landed on my shoulder and i couldnt move my right arm for three hours!  It was so funny though!  Christine and i just laughed and laughed.  Then i realized that my shoulder was throbbing so we went inside!  Then my day just got really bad!  I had to go to work but i was locked out of my house, and i was freaking out because it was storming really bad and i didnt want to drive in it because i dont know about anyone else but i dont enjoy sitting in a metal box of doom when there is lightning outside!  So i got into my house because my daddy came home and i quickly went to work, and that just sucked because i guess for some odd reason, everyone thinks its ok to treat me like crap!  The kids wouldnt listen to me and i had a kid that kept chasing me around and hitting me because i COULDNT fix the computer. so needless to say i had a panic attack!  So i thought that i was home free when i closed the pre k room but amber had to go to the police station to get her wallet, and so it was either me or brianna that got to go home and brianna and amber just said ""You need the money, you can stay"" and left me in school age!!!!!!!  So i had to close two rooms and that included lifting and stacking about 50 chairs total WITH ONE HAND!!!!!!  I hate that job so much!!!  Ok.... POSITIVE THINGS!  I got an interview at archivers last week so i will find out this week if i got the job and if i did i will leave my two weeks notice at childrens world on friday!!! WOOP!!!!!!!  Christine and i are bonding a lot and thats cool because we havent done that in a long time and we need to soak up every minute of eachother that we can before i leave for school!! Which is in 2 months!!!!!!  AND the best thing EVER!!  Tyson is finally back from boys state!  But he has to leave AGAIN this weekend! GRRRRR!!  But i got to see him yesterday for the first time in a little over a week!  That was fun!  We went to the Berntsens for cake and we played cards with brit and jason.  It was fun!  My mom is making brownies right now!!  YAY!!! Ok well im out!!!
+
+
+
+PEACE!
+
+I was just thinking, they should have a ""Bipolar"" mood guy!!!"
+"eventtime","2005-06-20 20:03:00"
+"current_moodid","67"
+"url","http://lovelyu18.livejournal.com/21829.html"
+"userid","9259"
+"itemid","84"
+"event","hey!  So right now im incredibly hungry but nausious at the same time!  ICK!  Ok so today was a weird day!  I chilled with tawny for a while then took a nap and went to work, which sucked like usual! Then christine and i went on a soda run and depositted our checks!  WOOP!  We are partiers!  Then i worked on my thank yous and only got a few done!  Now im just watching friends.  i really want to go to bed because i feel like crap! So i guess that is what i am going to do!
+
+
+
+PEACE!!!"
+"eventtime","2005-06-15 00:05:00"
+"current_moodid","82"
+"url","http://lovelyu18.livejournal.com/21754.html"
+"userid","9259"
+"itemid","83"
+"event","Hey everyone!  I havent updated this in forever!  I really havent been busy, just lazy!  I am finally done with highschool! Thought this day would never come but thank god it has because i was getting real sick of it!  So not much is new with me.  Tyson went to boys state this week so ive been bored. he has only been gone two days but still, I MISS HIM!!!!!!!  I went shopping with Tawny today!  That was really fun!  I almost made tawny go the wrong way home though!  OOPSIES!  I got three shirts and this sweet water bottle from pottery barn kids!  I love that store!  Its so cute!  So yeah.  I think im going to go start on my thank yous for graduation!  I got $1,325!!!!  I like having that much money!  To bad i cant spend it right!  Ok PEACE!!!"
+"eventtime","2005-06-13 19:16:00"
+"current_moodid","33"
+"url","http://lovelyu18.livejournal.com/21474.html"
+"userid","9259"
+"itemid","82"
+"event","hey
+dont feel like updating this thing but i thought i should.  im still a mess..........
+
+
+
+you dont know how lovely you are
+
+
+my mood guy looks like he peed himself!"
+"eventtime","2005-05-31 20:48:00"
+"current_moodid","10"
+"url","http://lovelyu18.livejournal.com/21215.html"
+"userid","9259"
+"itemid","81"
+"event","Hi!  Im so excited for school to get out! 6days!  YAY!  So today has been a pretty low key day.  Christine and i went to Target and got razors (which are the same!) and then we talked for a really long time in my car.  After that i made myself some mac and cheese and hot dogs for lunch and then scrapbooked!  I finished my scrapbook for my open house!  YAY!  Then i made my card box for my open house, which everyone better comment on because its kick ass!  Right now im trying to keep myself busy so i dont fall asleep because Tyson and i are going to hang out a little later and if i go to sleep now i dont think i will wake up!  Tomorrow i am going to see a movie with tyson and my parents, that should be fun!  Also, Jon has his open house in the afternoon so we will also go to that!  YAY!  Im so glad that monday is NO SCHOOL!  I need that little break!  Im so sick of school, i am having a really hard time finishing out these last few weeks!  I just dont care enough!  But yeah, I was soo soo happy to talk to christine today.  we havent talked in FOREVER!!  Thats why we talked for so long!  hehe!  Ok well i am going to finish up my laundry!  
+
+
+
+
+LALALALALA!"
+"eventtime","2005-05-28 17:02:00"
+"current_moodid","106"
+"url","http://lovelyu18.livejournal.com/20892.html"
+"userid","9259"
+"itemid","80"
+"event","Hey everyone!  Today is such a good day!  Its the first day in about a week that i've felt really good!  Thats exciting!  SEVEN days left of school!  Well after today six but YAY!!!  And we have no more full weeks of school left!  AHHH!!  It feels so good!  And i turned in my research paper today so i dont have to worry about that anymore!  another YAY!  Tonight im going out with Tyson's family and Alan's gilfriend will be there too!  Im really excited for dinner, we are going to enjoy and ive never been there before!  So work yesterday sucked!  Its a good thing i dont have to work today!!  I was in the Pre-k room yesterday and all the kids were hyper and didnt listen to me and i about ripped my eyeballs out of my head i was so frustrated!  I have 30 minutes left of class still!  UGH!!!!  I am so bored that i might actually start working on my power point!  I really dont want to though because its going against EVERYTHING!!!  I cant use work time to work!!!!  thats just silly!  It is kind of cold in the library!  Im getting goose bumps.  You know what kind of ticks me off?  When people say goose pimples.  WHAT IS THAT?!?!?!!  Geese dont have pimples!  They have BUMPS!!!!!!  Ok well now that im just babbling about goose bumps, im going to go find something else to do!
+
+
+PEACE"
+"eventtime","2005-05-27 07:51:00"
+"current_moodid","125"
+"url","http://lovelyu18.livejournal.com/20563.html"
+"userid","9259"
+"itemid","79"
+"event","hey everyone!  Prom rocked!  It was so fun even though my dress was really tight!  And i thought i was going to have problems with it fitting!  Silly me!  So i have this wicked awesome picture of jenny but i dont know how to get it on here!  BUMMER!  So yeah anyways!  I am really tired so i think im going to snuggle up in bed and watch a little friends! 
+
+
+MUCH LOVE"
+"eventtime","2005-05-23 20:02:00"
+"current_moodid","49"
+"url","http://lovelyu18.livejournal.com/20458.html"
+"userid","9259"
+"itemid","78"
+"event","Hey everyone!  ITS FRIDAY!  It was such a weird day.  I was in and out of school, i felt like i wasnt even there!  So yeah i got my nails done today and im having issues typing because of them!  I saw molly faricy there and mike came along!  Poor guy looked so bored!  hehe!  I tried to get tyson to come along but for some reason he didnt want to!  LALALA!  So prom is tomorrow!  Im so excited to look all pretty and dance and have fun!  WOOP!!!  i also am excited for after prom, almost everyone (from what ive been told) is going to come over to my house after! It should be fun!  So yeah, i didnt have to work today and it was so nice! Brianna took the day off and amy was also gone so michael was probably really mad this afternoon! Oh well, when you pay me less than everyone else that started after me its not my problem!  Yeah and i also wont get full time hours this summer!  BOO!!  I will get 5 hours a day!  a whole 2 hours more than i do now!  that just stinks!  I think im helping my dad with his handy man stuff though so that should give me some money!  Ok well im having a coughing attack so im out!"
+"eventtime","2005-05-20 17:39:00"
+"current_moodid","89"
+"url","http://lovelyu18.livejournal.com/20158.html"
+"userid","9259"
+"itemid","77"
+"event","TG9vayEgIFRoaXMgaXMgZnVuLi4uLi4uDQo6OkJFR0lOTklORyBTVFVGRjo6DQoqIHNwZWxsIHlvdXIgbmFtZSBiYWNrd2FyZHM6IE5pdHNpcmsNCiogaGF2ZSB5b3UgZXZlciBoYWQgYSBzb25nIHdyaXR0ZW4gYWJvdXQgeW91OiBub3BlLCBvaCB3ZWxsIGkgZG8gYmVsaWV2ZSB0b3JuIGlzIGFib3V0IG1lISAoaGVoZSBqZW5ueSEpDQoqIHdoYXQgc29uZyBtYWtlcyB5b3UgY3J5OiBub3QgcmVhbGx5IGFueQ0KKiB3aGF0IHNvbmcgbWFrZXMgeW91IGhhcHB5OiBhIGxvdCENCiogd2hhdCdzIHlvdXIgYWxsIHRpbWUgZmF2LiBzb25nPyBobW1tbS4uLi4gdGhlIGVsZXBoYW50IHNvbmcgZnJvbSBNb3VsaW4gcm91Z2UhDQoqIHdoYXQgZG8geW91IGxpc3RlbiB0byBiZWZvcmUgeW91IGdvIHRvIHNsZWVwOiB0aGUgdHYNCiogaGVpZ2h0OiA1JzPigJ0NCiogaGFpciBjb2xvcjogYmxvbmRlDQoqIHBpZXJjaW5nczogZWFycyBhbmQgYmVsbHkgYnV0dG9uDQoqIHRhdHRvb3M6IG5vbmUNCg0KOjpSSUdIVCBOT1c6OiANCiogd2hhdCBjb2xvciBwYW50cyBhcmUgeW91IHdlYXJpbmc6IGdyZXkNCiogd2hhdCBzb25nIGFyZSB5b3UgbGlzdGVuaW5nIHRvOiBub3RoaW5nDQoqIHdoYXQgdGFzdGUgaXMgaW4geW91ciBtb3V0aD8gZ3Jvc3MhDQoqIHdoYXRzIHRoZSB3ZWF0aGVyIGxpa2U/IFBPT1ANCiogaG93IGFyZSB5b3U/IHNpY2ssIGZydXN0cmF0ZWQsIHVwc2V0IQ0KKiBnZXQgbW90aW9uIHNpY2tuZXNzPyBubw0KKiBoYXZlIGEgYmFkIGhhYml0PyB0aGlua2luZyB0byBtdWNoDQoqIGdldCBhbG9uZyB3aXRoIHlvdXIgcGFyZW50cz8geWVhaA0KKiBib3lmcmllbmQvZ2lybGZyaWVuZDogeWVwIQ0KKiBoYXZlIGEgY3VycmVudCBjcnVzaDogd2VsbCwgbXkgYm95ZnJpZW5kLi4uLg0KKiBoYXZlIGEgYmlnIHJlZ3JldDogeWVhaCBraW5kYQ0KDQo6OkZBVk9SSVRFOjoNCiogdHYgc2hvdzogRlJJRU5EUyENCiogY29uZGl0aW9uZXI6IHRoZXJtZXNpbGsNCiogYm9vazogbm90IG11Y2ggb2YgYSByZWFkZXINCiogbm9uIGFsY2hvaG9sIGRyaW5rOiBkaWV0IGNva2UNCiogYWxjaG9ob2wgZHJpbms6IGkgZG9udCBkcmluayANCiogdGhpbmdzIHRvIGRvIG9uIHRoZSB3ZWVrZW5kOiBjaGlsbCB3aXRoIHR5DQoNCjo6SEFWRSBZT1UgRVZFUjo6DQoqIGJyb2tlbiB0aGUgbGF3OiBubw0KKiByYW4gYXdheSBmcm9tIGhvbWU6IG5vDQoqIHNudWNrIG91dCBvZiB0aGUgaG91c2U6IG5vDQoqIGV2ZXIgZ29uZSBza2lubnkgZGlwcGluZzoga2luZGENCiogbWFkZSBhIHByYW5rIHBob25lIGNhbGw6IGhhaGEgeWVhaCENCiogdGlwcGVkIG92ZXIgYSBwb3J0YXBvdHR5OiB0cmllZC4uLiB0aGF0cyB3aGVuIGkgd2FzIHN0dXBpZCENCiogdXNlIHlvdXIgcGFyZW50cyBjcmVkaXQgY2FyZDogd2l0aCB0aGVpciBwZXJtaXNzaW9uLCB0aGF0cyBub3Qgd2hhdCB0aGV5IG1lYW4gdGhvdWdoIQ0KKiBmZWxsIGFzbGVlcCBpbiB0aGUgc2hvd2VyL2JhdGg6IHllYWghDQoqIGJlZW4gaW4gYSBzY2hvb2wgcGxheTogbm8NCiogaGFkIGEgYm95ZnJpZW5kL2dpcmxmcmllbmQ6IFllcw0KKiBoYWQgY2hpbGRyZW46IG5vISEhIQ0KKiBiZWVuIGluIGxvdmU6IHllYWgNCiogaGF2ZSBhIGhhcmQgdGltZSBnZXR0aW5nIG92ZXIgc29tZW9uZTogeWVhaA0KKiBiZWVuIGh1cnQ/OiB5ZXANCiogZ29uZSBvdXQgd2l0aCBzb21lb25lIHlvdSBvbmx5IGtuZXcgZm9yIDMgZGF5czogbm8NCg0KOjpSQU5ET006Og0KKiBoYXZlIGEgam9iOiB5ZWFoDQoqIHlvdXIgY2QgcGxheWVyIGhhcyB3aGF0IGluIGl0IHJpZ2h0IG5vdzogbXkgaGFwcHkgbWl4DQoqIGlmIHlvdSB3ZXJlIGEgY3JheW9uLCB3aGF0IGNvbG9yIHdvdWxkIHlvdSBiZT8gYnJpZ2h0IHBpbmsNCiogd2hhdCBtYWtlcyB5b3UgaGFwcHk/IHR5c29uLCBwaW5rLCBnZXR0aW5nIG5ldyB1bmRlcndlYXIhISENCiogdGhlIG5leHQgQ0QgeW91J3JlIGdvaW5nIHRvIGJ1eTogZG9udCBrbm93IQ0KDQoNCjo6V0hFTi9XSEFUIFdBUyBUSEUgTEFTVDo6DQoqIHlvdSBnb3QgYSByZWFsIGxldHRlcjogYSBsb25nIHRpbWUgYWdvIQ0KKiBnb3QgYW4gZW1haWw6IHRvZGF5LCBteSBtb20gYW5kIGkgZW1haWwgZWFjaG90aGVyISAgKGkga25vdyBpbSBhIGxvc2VyISkNCiogdGhpbmcgeW91IHB1cmNoYXNlZDogY29zbW8hDQoqIFR2IHByb2dyYW0geW91IHdhdGNoZWQ6IGFtZXJpY2FuIGlkb2wNCiogbW92aWUgeW91IHNhdyBpbiB0aGUgdGhlYXRlcnM6IHNpbiBjaXR5IGkgdGhpbmsNCioga2lzc2VkOiB0eXNvbg0KKiBodWdnZWQ6IG15IGRhZA0KKiBzb25nIGhlYXJkOiBhbG1vc3QgYnkgYm93bGluZyBmb3Igc291cCAoaXQgd2FzIG9uIHRoZSByYWRpbyBkb250IGp1ZGdlISkNCiogcGxhY2UgeW91IHdlcmUgWyBiZXNpZGVzIGhvbWUgXTogc2Nob29sDQoqIHBob25lY2FsbDogY2hyaXN0aW5lDQoqIHlvdSB3ZXJlIGRlcHJlc3NlZDogdG9kYXkNCiogeW91IHdlcmUgaW4gdGhlIGhvc3BpdGFsOiByaWdodCBiZWZvcmUgc2Nob29sDQoNCjo6MTUgUVVFU1RJT05TL0ZBQ1RTIEFCT1VUOiBrd2lzdGluOg0KMS4gaSdtIHdlYXJpbmc6IHN3ZWF0IHBhbnRzIGFuZCBhIHRlZSBzaGlydA0KMi4gaSdtIGVhdGluZzogbm90aGluZywgYnV0IGltIGh1bmdyeSENCjMuIG15IHdhbGxzIGFyZTogd2hpdGUNCjQuIGknbSBqdXN0IHBsYWluOiBTSUNLIQ0KNS4gaSdtIHRpcmVkIG9mOiBiZWluZyBzaWNrDQo2LiBpIG1pc3M6IG5vdCBiZWluZyBzaWNrDQo3LiBpIHdvcmsgYXQ6IGNoaWxkcmVucyB3b3JsZA0KOC4gaSBsb3ZlOiB0eXNvbiwgYnV5aW5nIG5ldyB1bmRlcndlYXIhDQo5LiB0aGUgbGFzdCBwZXJzb24gaSBraXNzZWQgd2FzOiB0eXNvbiwgdGhpcyB3YXMgYWxyZWFkeSBvbiBoZXJlIQ0KMTAuIHRoZSBsYXN0IHBlcnNvbiBpIGhhZCBzZXggd2l0aCB3YXM6IG5vIG9uZQ0KMTEuIHRoZSBsYXN0IHBlcnNvbiBpIGh1Z2dlZCB3YXM6IGRhZGR5DQoxMi4gdG9kYXkgaTogd2VudCB0byBzY2hvb2wgYW5kIHRoZW4gZ290IHNpY2shIFlBWSEgDQoxMy4gcmlnaHQgbm93IGknbTogZmlsbGluZyB0aGlzIHRoaW5nIG91dA0KMTQuIGluIGFuIGhvdXIgaSdsbCBiZTogYXQgdGhlIGRvY3RvciBCT08NCjE1LiBteSBmYXZvcml0ZSB0aGluZyBpczogd2FybSB3ZWF0aGVyLCB0aHVuZGVyc3Rvcm1zLCBhbmQgSFVHUyENCjo6TEFTVCBUSElORyBZT1U6Og0KYm91Z2h0OiBjb3Ntbw0Kd29yZTogc3dlYXQgcGFudHMgYW5kIGEgc2hpcnQNCmF0ZTogdG9hc3QNCmRyYW5rOiB3YXRlcg0Kc21lbGxlZDogc3RhaW4gZnJvbSB0aGUgZ2FyYWdlDQp0b3VjaGVkOiBteSBwaG9uZQ0Kc2F3OiBteSBtb20NCndhdGNoZWQ6IGZpbmRpbmcgbmVtbw0KbGVhcm5lZDogdGhhdCBpIGhhdmUgSVNTVUVTIQ0KeWVsbGVkIGF0OiBraWRzIGF0IHdvcmsNCnN0b2xlOiBub3RoaW5nDQp0b29rIGEgcGljdHVyZSBvZjogYSBmbG93ZXINCnBsYXllZDogdHJhc2gNCmRhdGVkOiB0eQ0Kd3JvdGU6IGEgcGFwZXINCnR5cGVkOiBpIGRvbnQga25vdw0KYm9vayB5b3UgcmVhZDogWW91IHJlbWluZCBtZSBvZiBtZQ0KbWFkZSBmdW4gb2Y6IG15c2VsZg0KZGlkIG9uIHRoZSBjb21wdXRlcjogdGhpcyBzdXJ2ZXkNCmxhc3QgY3J1c2hlZCBvbjogdHkhDQoNCnNlZSB3YXNudCB0aGF0IGZ1biEgIE9rIHdlbGwgaSBzaG91bGQgZ28gZWF0IHNvbWV0aGluZyBiZWZvcmUgbXkgc3RvbWFjaCBkZWNpZGVzIHRvIGVhdCBpdHNlbGYhIA0KDQpMT1ZFIFlBISEhIQ=="
+"eventtime","2005-05-18 17:38:00"
+"current_moodid","82"
+"url","http://lovelyu18.livejournal.com/19829.html"
+"userid","9259"
+"itemid","76"
+"event","Hey everyone!  So i wonder how long it will be before i just die!  Ive been sick for so long! I got sick today because im really allergic to dust and i helped my mom clean my brothers room yesterday which had dust bunnies that could kick my ass!  So i got a really bad cough, a sore throat, and a fever!  BOO!  But i feel a lot better now and im actually excited to go to school tomorrow!  Well its actually going to be very close to pointless!!!!  Everyone is going to be at Valley fair so lucky me i will be the only person in most of my classes!  YAY!  I will get a lot of reading done though! that should be good!  Ty asked me to prom last night!  It was super duper cute! lalala!  Im in a really good mood because for the first time today ive been able to move without my body aching!  YAY!!!  Anyways! I dont think i have much else to say!"
+"eventtime","2005-05-16 18:23:00"
+"current_moodid","125"
+"url","http://lovelyu18.livejournal.com/19671.html"
+"userid","9259"
+"itemid","75"
+"event","LALALALA!!!!  Im so hyper at the moment!  Which is weird because like two seconds ago i was tired and ready to go to bed!  So this weekend was good!  I hung out with tyson on friday, then on saturday we went to onstage then came back to my house and watched spiderman!  Today was ok, i went and looked at houses with my parents, because they are moving after i leave.  then came home and started my laundry and helped my mom clean jasons room so we could put his stuff back.  that was disgusting!  There was so much dust and he had like 50 cd cases with out cds in them and then 50 separate cds that didnt have cases but none of them went together!  I spent 2 hours sorting his cds!  I was mad when that was the result! now im just chilling and i saw that jenny had that boys application thingy and i was like OOOOOOOHHH  fun!  so i did it! lol!  now i would put it up on mine, but i dont really think any guys really read this!  ty might but other than that, it is probably just jenny and christine!  lalalala!  Ok well i think im going to watch tv since i havent done that in about a month!  NO JOKE!  (not counting american idol which adds up to an hour and a half a week!)  so yeah!  PEACE out!
+
+
+
+~sometimes i just cant think of something funny to put down here, then i get sad!~"
+"eventtime","2005-05-15 18:46:00"
+"current_moodid","78"
+"url","http://lovelyu18.livejournal.com/19237.html"
+"userid","9259"
+"itemid","74"
+"event","hi!  Im so tired this morning so im super crabby!  I dont know why im updating this in the morning, nothing has happened yet!  I hate these keyboards, they are really hard to push!  So we do our skit for our 6th graders today!  Hopefully that goes well. i really dont care if it doesnt but whatever, they are easy to entertain!  We have 2 weeks left of teaching after today!  Im excited but kind of sad too!  I need to get pictures of my kids!  Ive been meaning to do that all year but i always forget my camera!  I am so glad i dont have to teach a lesson today though!  im so not in the mood for their hyperness!!!  im actually going to be doing something productive in 5th hour study hall!  YAY!!  But jenny is in my 4th hour so we will probably just sit and talk and inevitably say something really stupid, or call jesse gay!  nothing will ever get done in that class!  (Maybe jenny, with her sexual drive!  lol! JK JENNY!!!!)  <---- ok i thought that was pretty damn clever!  so this weekend should be sweet  i really dont have anything planned except for onstage on saturday, but i wont be at school so it will rock!  I cant wait for school to be done!  we have 2 mondays left!  That makes me want to cry (tears of joy).  People are starting to ask me if im sad about graduating, and thats just a silly question!  Why would i be sad?!?!?!?!  Hahaha!  Marie, this girl i work with, is graduating college in a couple weeks and she said that she wasnt ready to graduate!  I guess college and highschool are totally different!  LALA!!!  Ok well, i think im going to do something..... im not sure what though!
+
+
+
+PEACE"
+"eventtime","2005-05-12 07:48:00"
+"current_moodid","8"
+"url","http://lovelyu18.livejournal.com/19199.html"
+"userid","9259"
+"itemid","73"
+"event","I did that thing that Jenny had on her journal, but it wony copy to this so boo!  I got 90% in orderliness!  lol!  Its so true!  All my purses are in a certain order in a big tupperware thing!  WHO DOES THAT?!?!  But i also got really hi in romantic but sexuality was depressingly low!  I just dont have the drive jenny does! lol!  So today has been a good day!  i havent freaked out YET!  But its almost 6th hour so i bet ill be ok till work!  Im turning in my new horizon application today!  YAY!!  Im pretty sure ill get the job, they are hiring AND i have a background in childcare.  But we'll see!  this keyboard is really loud!  oofta!  So ty got the prom ticket today and it came with all this neato stuff!  LOL!  Oh man i almost totally put my foot in my mouth at lunch today!  I wanted to kill myself really because i almost said it, then the people in my brain were like ""CANCEL STATEMENT!!  REMOVE FOOT FROM MOUTH!!  GO GO GO! ""  Oh christine, its been so long since we joked about those little nuts!  lol!  im sure using lol a lot today!  whats up with that!  how about CRH instead!  I bet you dont know what that means (christine you cant guess)  but if you guess right i will give you a hi five!  thats right!  one WHOLE hi five!  So anyways!  I actually used up all study hall time!  usually i do some stuff on the computer, then i stare off into nothing for a good 20 minutes!  Good times for kristin!  My back hurts, i could really use a massage......  : )  i get to go tanning tonight!  I cant wait!  I think im addicted to tanning!  I just LOVE to be tan!  I look SOO good!  surprisingly i only got 70% for vanity!  And what is female cliche?  Does that mean im the stereotypical woman?  whatever!!!!  And the PETER PAN COMPLEX??!?!?!?!  Jenny help me out with that!  Ok , it is now that time that i end my pointless blabbing and continue on to BAND!!  GOD I LOVE IT!!!!!
+
+
+
+PEACE YO!
+
+
+""Congratulations to Evan Backstabber, Bastard, umm, BaxTER rather!""  <-------Dont we all feel like that sometimes?!"
+"eventtime","2005-05-11 12:27:00"
+"current_moodid","99"
+"url","http://lovelyu18.livejournal.com/18696.html"
+"userid","9259"
+"itemid","72"
+"event","oh my god!  ok so i had a really long entry and i accidentally erased the whole thing!  OH that makes me mad! And i dont really remember what i was talking about!  UGH!!!!!!!!  Oh well, this is my update!  LIFE SUCKS SOMETIMES!
+
+
+
+
+Chandler: ""I think Ross found out about me and monica""
+Joey:     ""Shhhh!  He's right there!"""
+"eventtime","2005-05-10 11:52:00"
+"current_moodid","1"
+"url","http://lovelyu18.livejournal.com/18463.html"
+"userid","9259"
+"itemid","71"
+"event","R29vZG5lc3MhICBTbyBpIHdlbnQgdG8gdGhlIGRvY3RvciB0b2RheSBmb3IgdGhlbSB0byB0ZWxsIG1lIHRoYXQgaSBoYXZlIE9ydGhvc3RhdGljIEh5cG90ZW5zaW9uLCB3aGljaCBtZWFucyB0aGF0IG15IHB1bHNlIGdvZXMgdXAgMzAgcG9pbnRzIHdoZW4gaSBzdGFuZCB1cCwgbWVhbmluZyBteSBoZWFydCBoYXMgdG8gd29yayBoYXJkZXIgdG8gcmFpc2UgbXkgYmxvb2QgcHJlc3N1cmUgd2hlbiBpIHN0YW5kIHNvIHRoYXQgaXMgd2h5IGltIGFsd2F5cyBkaXp6eSEgIEFORCAgb2YgY291cnNlLCBsaWtlIGFsd2F5cywgdGhleSBjYW50IGRvIGFueXRoaW5nIGFib3V0IGl0IGFuZCBpdHMgc29tZXRoaW5nIHRoYXQgaSBuZWVkIHRvIGp1c3QgbGV0IHBhc3MuICBBbHNvIG1hbmFnaW5nIG15IHN0cmVzcyBhbmQgdGFraW5nIGNhcmUgb2Ygc3RyZXNzZnVsbCB0aGluZ3Mgd2lsbCBtYWtlIGl0IGJldHRlciEgIFNvIHRoYXRzIHdoeSBpIG5lZWQgdG8gdGFsayB0byBhIGZldyBwZW9wbGUgYW5kIGxldCBpdCBhbGwgb3V0ISAgU28gaSBoYWQgYSBwcmV0dHkgc25henp5IG1vbmRheSBpIGdvdHRhIHNheSEgIFJvYmluIGF0IHdvcmsgaXMgZHJpdmluZyBtZSBpbnNhbmUhICBJIGNhbnQgd2FpdCB0byBnZXQgYSBuZXcgam9iISEhISEgIEkgYXBwbGllZCBmb3IgYSBqb2Igd2l0aCBsYWtldmlsbGVzIHNjaG9vbCBkaXN0cmljdCB0byBoZWxwIHdpdGggdGhlaXIgc3VtbWVyIHByb2dyYW0sIGFuZCBhbHNvIGF0IG5ldyBob3Jpem9uLiAgU28gaG9wZWZ1bGx5IGkgd2lsbCBnZXQgb25lIG9mIHRob3NlIGpvYnMhICBTbyBpIHdlbnQgdGFubmluZyB0b2RheSBhbmQgaXQgd2FzIHNvb29vb29vIG5pY2UhICBJIGhhZCA4IHdob2xlIG1pbnV0ZXMgb2YgYmVpbmcgd2FybSBhbmQgcmVsYXhlZC4gIEFISCEhDQoNCk9LIGFtYmVyIGhhZCB0aGlzIG9uIGhlciB0aGluZyBhbmQgaSBkZWNpZGVkIHNpbmNlIGkgd2FzIGJvcmVkIGkgd291bGQgZG8gaXQhICBzbyBoZXJlIGl0IGdvZXMhISENCg0KV0hBVOKAmVMgWU9VUiBMSUZFIExJS0U/DQoNCldoYXQgZG8geW91IGRvIGZpcnN0IHRoaW5nIHdoZW4geW91IGdldCBvdXQgb2YgYmVkPyBicnVzaCBteSB0ZWV0aA0KRG8geW91IHNsZWVwIGluIFBKcz8gbm9wZSAod2luayB3aW5rKQ0KRG8geW91IGhhdmUgYSBzbmFjayBiZWZvcmUgYmVkPyBubw0KRG8geW91IGVhdCBicmVha2Zhc3QgaW4gdGhlIG1vcm5pbmc/IHllYWggYnV0IHVzdWFsbHkgbm90IHRpbGwgOSBvciBzbw0KRG8geW91IHRha2Ugdml0YW1pbnM/IHllcCBjZW50cnVtIGtpZHMhISENCkRvIHlvdSBoYXZlIG1lZGljYXRpb24gdG8gdGFrZSBldmVyeSBtb3JuaW5nPyB5ZWFoDQpEbyB5b3UgaHVnIGFuZCBraXNzIGluIHRoZSBtb3JuaW5nPyA/Pz8gd2hvPw0KQXJlIHlvdSBhIG1vcm5pbmcgb3IgTmlnaHQgcGVyc29uPyBtb3JuaW5nDQpBcmUgeW91IGdydW1weSBpbiB0aGUgbW9ybmluZz8gbm8NCldvdWxkIHlvdSByYXRoZXIgd2FrZSB1cCBlYXJseSBvciBzbGVlcCBpbj8gZGVwZW5kcyBvbiB3aGF0IGVhcmx5IGlzLiBzbGVlcGluZyBpbiBmb3IgbWUgaXMgOW9jbG9jaw0KU3RheSB1cCBsYXRlIG9yIGdvIHRvIGJlZCBlYXJseT8gZ28gdG8gYmVkIGVhcmx5IQ0KUGFydHkgYW5kIGxlc3Mgc2xlZXA/IHNsZWVwDQpNb3JlIHNsZWVwIGFuZCBsZXNzIHBhcnR5PyBtb3JlIHNsZWVwIG1vc3QgZGVmaW5pdGVseSwgKHRoYXRzIHdoeSBpIGFsd2F5cyBmYWxsIGFzbGVlcCBhdCB5b3VyIHBhcnRpZXMgdHkhKQ0KV2FrZSBhbmQgQmFrZT8gaSBkb250IGtub3cgd2hhdCB0aGF0IG1lYW5zDQpXYWtlIGFuZCB0b2FzdD8gaSBkb250IGxpa2UgdGhlIHNvdW5kcyBvZiB0aGF0IQ0KRG8geW91IHdyaXRlIGluIGEgam91cm5hbD8geWVzIGkgZG8NCldoYXQgZG8geW91IGVhdCBmb3IgbHVuY2g/IHdoYXRldmVyIHBpZWNlIG9mIHNoaXQgbWVhbCB0aGUgc2Nob29sIGlzIHNlcnZpbmcNCkRvIHlvdSBnbyBvdXQgZm9yIGx1bmNoPyBzb21ldGltZXMNCkRvIHlvdSBrbm93IHRoZSBsdW5jaCBsYWRpZXMgYnkgbmFtZT8gaSBkbyBrbm93IG9uZSwgdW1tLCBpIGJlbGlldmUgaGVyIG5hbWUgaXMgInN0dXBpZCB3aG9yZSB0aGF0IHRvbGQgbWUgbXkgc2tpcnQgd2FzIGluYXBwcm9wcmlhdGUiICBjb3JyZWN0IG1lIGlmIGltIHdyb25nDQpEbyB5b3Uga25vdyBob3cgbXVjaCBldmVyeXRoaW5nIGluIHRoZSBDYWYgY29zdHM/IG5vDQpBcmUgeW91IGEgdGVhY2hlcidzIHBldD8gbm8NCkRvIHlvdSBraXNzIGFzcyBmb3IgZXh0cmEgY3JlZGl0PyBoYWhhaGEgbm8NCkRvIHlvdSBsb3ZlIHRvIGJlIGdpdmVuIHNwZWNpYWwgYXR0ZW50aW9uIGZyb20gdGVhY2hlcnM/ICBubw0KRG8gdGVhY2hlcnMgbGlrZSB5b3U/IGVpdGhlciB0aGF0IG9yIHRoZXkgYXJlIHJlYWxseSBnb29kIGF0IHByZXRlbmRpbmcgdG8hDQpEb2VzIHRoZSBwcmluY2lwYWwgbGlrZSB5b3U/IHN1cmUNCkRvZXMgdGhlIHByaW5jaXBhbCBrbm93IHlvdSBieSBuYW1lPyBwcm9iYWJseSBub3QNCkRvIHlvdSBoYXZlIGEgcmVzb3VyY2Ugb2ZmaWNlciBhdCB5b3VyIHNjaG9vbD8gdW1tbW1tLi4uLi4uDQpTZWN1cml0eSBhdCB5b3VyIHNjaG9vbD8gaGFoYSEgIHllYWggc3R1cGlkIGxpdHRsZSBndXkgdGhhdCB0aGlua3MgaGVzIGdvZCENCk9wZW4gb3IgY2xvc2VkIGNhbXB1cz8gY2xvc2VkDQoNCg0KTEFMQUxBTEEhISAgdGhhdCB3YXMgZnVuIGFuZCBhZnRlciBkb2luZyBpdCwgaSByZWFsaXplZCB0aGF0IGl0IHdhcyBhIHdhc3RlIG9mIHRpbWUhICBMaWtlIGFueW9uZSBjYXJlcyEgIExBTEFMQSEgIEkgdGhpbmsgaSBzaG91bGQgZ28gbm93IGJlZm9yZSBpIHN0YXJ0IHRvIHZlbnQgc29tZSBtb3JlISAgbm8gb25lIG5lZWRzIGFueW1vcmUgbmVnYXRpdml0eSE="
+"eventtime","2005-05-09 19:25:00"
+"current_moodid","28"
+"url","http://lovelyu18.livejournal.com/18411.html"
+"userid","9259"
+"itemid","70"
+"event","HEY!  Today=KICK ASS!!!!!  So a lot of bad things have happened to me today, well not a lot, just a few big things, AND i dont care!!!  Im not letting little stupid things bother me anymore!  LALALA!!!  So im totally full from lunch, but a little to full!  I hate overeating, i feel so gross after!  So yeah I am so excited for tonight!  This is my agenda:
+1. Work till 6 
+2. Go home and do laundry and clean room
+3. While laundry is going do a facial
+4. Finish laundry
+5. BUBBLE BATH!!!!! 
+6. Manicure and pedicure
+7. Watching friends in my freshly cleaned room and sheets until i fall asleep! (that will probably be 9 at the latest!!!!)
+FUN!!!!  I like having me days because then i relax and i dont have to worry about anything for that short time!  AND everything is about me which is ALWAYS good!  So in this skit that we are doing next week for DP, i play this snotty girl who thinks shes better than everyone else (hmmm sound familiar anyone?) and its SOOOOOO fun!  I talk about how many coach purses i have (Nothing against the coach purse enthusiast) and how daddy lets me drive the benz!  And its real fun to do!  Like Dan is a bully for one part and he tries to get me to give him my lunch money and i say ""I dont have lunch money, daddy brings me lunch everyday!  Now get out of here!""  and i give him this look that is so bitchy!  Its so fun!  HAHAHAHAHA!!!  Today 4th hour study hall was BITCHIN!  Jenny and i made some scandalous plans and giggled about them!  Yep!  And then we thought there was less time left because the AP test takers came in to have lunch before 5th hour but we still had 10 minutes!  that was sad!  Ugh!  My tummy is mad at me right now!  LALALA!  I have been typing a lot in these entries lately! I think its because no one ever really talks to me anymore! There is no time or something like that i guess!  (That was my ""Pity me"" statement)  But really, no joke!  Everyone is changing all of a sudden, like within the last few weeks.  I know even i have but it just seems like some people are getting too involved with other things...... like themselves........yeah.  I dont know im just venting now!  Ok so i am lying to myself, all that stuff that is going on that i said i wasnt letting them bother me, they really are getting so deep into my skin its almost as annoying as this phone that keeps ringing and no one is answering!!  AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!  Ok just had to get that out!  But anyways, i think im going to go find something to do!  I dont really know what but there will be something to do!
+
+
+PEACE"
+"eventtime","2005-05-06 11:52:00"
+"current_moodid","130"
+"url","http://lovelyu18.livejournal.com/17953.html"
+"userid","9259"
+"itemid","69"
+"event","LALALA!!  So im in research paper right now.  I forgot my paper at home, but it's finished so i have nothing to do right now!  I feel a lot better today, but right now i dont know why but im really gross feeling.  UGH!!!!!  Yeah christine is back too!  And her hair is really cute!  I can't wait for the weekend!  I am so bored with school!  I actually got more done in the 2 1/2 days that i stayed home than i do at school!  BOOO!!!  I got some laundry done, my room cleaned, AND I finished a paper in one day!  Thats more than i would do at school!  I have to teach next hour, but my mom gets to watch me teach so she is taking me out to eat afterwards!  EXCITING!  Funny thing is, im making her participate in class! She isnt just going to stand there and watch!  Shes going to learn about DRUG ABUSE!!!!  hehehe!  I got season 5 of friends!  Thats a good season!  I think its funny when joey has the dream about dating monica!  Its so silly!  AND when ross gets a new couch!  PIVOT!!!!!  (jenny is probably the only one that knows what im talking about!)  So yeah anyway, this weekend is going to be kinda weak!  Well not really, just not as exciting as some other weekends i've had.  On friday im having a ME night!  Its going to be really really fun! then saturday im not sure what im doing but ill probably be with tyson, which is always fun.  I really wish i had money right now!  Im so poor its not even funny!  I have 6 dollars in my savings account!  UGH!  Good thing i get paid this week!  lol!  ok well im really bored so im going to go email kari!
+
+
+LOVE!!!!!"
+"eventtime","2005-05-05 07:36:00"
+"current_moodid","125"
+"url","http://lovelyu18.livejournal.com/17812.html"
+"userid","9259"
+"itemid","68"
+"event","Ugh, im still sick but i made myself go to school this morning.  Im in research paper right now and i dont want to work here because i wont finish it and i dont have a locker here so i cant save it.  So ill just do it at home!  hopefully i will get it done!  It's due tomorrow but since i missed the first 2 days of work days i bet it will be ok if its late!  Anyways!  Im going home after third hour!  I cant wait!  All i want to do is sleep!  I dont even know whats wrong with me.  I might call work and tell them that im still sick.  I told them i would be in today because i thought i would be better but i was wrong!  I do want to work though i just dont think i can.  Im so thirsty!  ooofta! there are these really annoying girls in the lab right now!  AHHH!!!!!  I have cramps right now!  As if i couldnt feel worse, i get cramps! sorry boys!  I wont talk about that anymore!  Ok so yesterday i laid in bed all day long and i watched the 3rd season of friends, Hercules, The Little Mermaid, Tarzan, and the 4th season of Friends!  I only got up like twice to go to the bathroom and get water!  I wish i was doing that right now!  AHHH!!!!!!!!  Ok i am done bitching about being sick!  I cant wait till next week, because this week will be over!  YAY!  This week sucks real bad and it should never have happened!  We should have skipped over this week and jumped right to the next!  HEY!  Prom is in 18 days!  WOOP!  I cant wait to get all pretty!  so my burn went down a little today but i still am going to wait till tomorrow to tan again, just to be safe!  I hope i dont just burn everytime i go in that would just suck!  haha!!!  Tough luck for kristin right now!  Im shaking real bad because im cold but its making me type all funny.  Like i just typed funni then funnn and i just cant get it right!  Well im out!  PEACE!"
+"eventtime","2005-05-04 07:44:00"
+"current_moodid","82"
+"url","http://lovelyu18.livejournal.com/17661.html"
+"userid","9259"
+"itemid","67"
+"event","^ hehe!  Pheobe is so funny!  Ok so im home sick today!  BOO!!!  I hate being sick!  On the good side of it, i get to watch friends all day and sleep!  I hope im better by tomorrow though!  Bleh!  I cant eat anything without getting all icky feeling and dizzy.  I went tanning last night and got sooooo burned!  My entire body is fried.  I cant even wear clothes because it itches! (i do wear clothes anyway!)  HAHA!!  ""what do you know about vulcanized rubber?""  ""Spock's birth control!"" Joey is dumb!  Ugh, i get paid today but i called in sick so i dont get my check till tomorrow!  that stinks!  But i have a lot of money from my last check so i am going to buy the 5th season of friends with some of it!!!  YAY!!  maybe even the 6th!  But thats shootin a little high!  Ok well, i think im going to go take a nap!
+
+
+
+""Oh my, my breasts are really strong!"""
+"eventtime","2005-05-03 11:18:00"
+"current_moodid","82"
+"url","http://lovelyu18.livejournal.com/17152.html"
+"userid","9259"
+"itemid","66"
+"event","Hey all!  So this weekend effen rocked my socks off!  Too bad its all over with thought!  Well not technically but whatever.  So friday ty and i were really lazy so we just watched a movie at my house, then saturday, same thing BUT at his house instead!  It was crazy, we went to inta juice and i saw my shadow and got scared, then started laughing really hard and tried to explain why i was laughing to ty but i was just squeaking which made me laugh harder!  It was weird!  Yep, today i was going to go to ty's game but i have to baby sit in a little bit. i would be at the game for about 20 minutes and then have to leave!  So right now, im just chillin, looking for a new job!  I HATE MY JOB!!!!!  So yeah anyways, i would like to give my 2 weeks 2 weeks before school is out because then i can start my new job right away!  But i cant quit my job if i dont have another job i can start right away!  because I NEED MONEY!!!!  ugh!  and i have no tolerance anymore and i swear im just goin to tweak on someone pretty soon.  Its the same old stuff that has been bothering me, and i wish i could just confront the people and be like HEY you are pissing me off!  But then somehow it will be because i did something first!  Thats how it always is, i tell someone they are doing something wrong and somehow its because of me!  ALL MY FAULT!!  its just that sometimes i forget that everyone but me is perfect!  Oh well what do you do, i guess just sit there while everyone sucks face with their LOVER and walks right through me like im invisible!  Ok so not everyone does it but the few people i would expect NOT to do this do so it just gets under my skin!  But its ok because i have tyson!  Hes way more fun than everyone else any ways!!!!  LALALALA!  I get to baby sit CARSON and PAYTON today!  AHHH!!!  Cute names AND cute kids!  Payton is obsessed with starwars so my mom got him starwars fruit snacks!  Cute huh!  so yeah i think im going to go fill out some applications for JOBS!!!!  YAY!"
+"eventtime","2005-05-01 13:28:00"
+"current_moodid","106"
+"url","http://lovelyu18.livejournal.com/17144.html"
+"userid","9259"
+"itemid","65"
+"event","Ugh, bad week, worse than last week.  Thats no good!  I have been considering not coming to school for the rest of the year.  Then i realize that i cant graduate unless i go to my first 2 classes.  So with DP we were all trying to figure out a time to do this bonding thing and someone asked if we could do it after school sometime, but me and carissa work right after school, and kim just told us that we had to take it off and it kind of made me mad because no one else asks anyone to take time off of work and i thought that was rude.  Oh well maybe she didnt mean it to be rude and im just so crabby lately that is pissed me off.  The bell is going to ring in a few minutes but i dont care.  I think i might sleep in tomorrow morning and accidentally miss research paper.  I actually told my mom that thats what im doing whether she verifies it or not.  HEHE!  I just dont care anymore, i hate school, everything about it just sucks.  There is so much drama happening now too.  its like 7th grade all over again, except for i care less this time and am a bitch about it so it isnt that bad.  OH yeah and some people have been really crabby lately (i know im one of them) but they are taking it out on me and its driving me INSANE!  It makes me want to pull all my hair out!  So yeah with that said, unless i just totally pissed you off, dont treat me like shit!  And if i do piss you off, tell and dont treat me like shit!  ok band time!
+
+
+Later losers!"
+"eventtime","2005-04-28 12:25:00"
+"current_moodid","110"
+"url","http://lovelyu18.livejournal.com/16792.html"
+"userid","9259"
+"itemid","64"
+"event","Hey all!  Its been a while!  I havent been able to update this because i havent been in study hall for a while!  LOL!  Yeah so right now i am realizing that a lot of people are changing and its inevitable and i cant do anything about it but im really hating who they are turning out to be.  Like i cant stand it when people change who they are just to be cool but its actually tearing them away from the people that should matter the most to them.  But whatever right!  I cant control people anymore, God took that power away from me after the ""incident"" So i went to moorhead for orientation on monday and met my roommate!!  She is so totally awesome!  I cant wait to move up there!  It will be rad!  So yeah i thought i had a lot to say but im having more fun talking to ty and andrew then updating this so.... PEACE
+
+
+
+
+
+
+
+
+
+""i need you, you're my love supply."""
+"eventtime","2005-04-26 21:19:00"
+"current_moodid","47"
+"url","http://lovelyu18.livejournal.com/16582.html"
+"userid","9259"
+"itemid","63"
+"event","LALALA!  This weekend is pretty good!  Im watching friends right now and its the one where brooke shields thinks that joey is really drake ramorey!  Hehehehe!  Its so funny!  i get to go shopping tonight!  Im so excited i love shopping!  I have been really bored today!  I should probably switch up my laundry but my bed is really confortable!  So yeah i got an appointment for my hair for prom FINALLY!!  Ok well i am going to go do something!
+
+
+
+""What do you want me to do?  Dress up as some big purple dinosaur?""
+""No i dont want you to be barney-""
+""Who's barney?"""
+"eventtime","2005-04-23 14:43:00"
+"current_moodid","5"
+"url","http://lovelyu18.livejournal.com/16350.html"
+"userid","9259"

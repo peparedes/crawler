@@ -1,0 +1,551 @@
+"names","values"
+"itemid","128"
+"event","U3RyZWFtIG9mIENvbnNjaW91c25lc3MhDQoNCkxhc3QgbmlnaHQsIEkgZHJlYW1lZCB0aGF0IE1pY2hhZWwgSmFja3NvbiB3YXMgY3J5aW5nIGluIGZyb250IG9mIHNvbWUgdG9tYnN0b25lIHRoYXQgSSB3YXMgdmlzaXRpbmcuIFRoZSBuYW1lIG9uIHRoZSBzdG9uZSBjb250aW51ZXMgdG8gZXZhZGUgbWUsIGJ1dCBJJ20gY2VydGFpbiBpdCB3YXMgbm90IGdvb2QuIEp1c3QgdGhlbiB0aGUgYW5nZWwgR2FicmllbCBhcnJpdmVzLCB3aXRoIGhpcyBnaWFudCBncmF5IHdpbmdzIHN3b29waW5nIGRvd24gb24gdXMgbGlrZSBhIGh1cnJpY2FuZSBhbmQgc3RpcnJpbmcgdXAgYSB3aGlybHdpbmQgb2Ygc291bmQuIEluIHRoZSBmcmF5LCBJIGZpbmQgbXlzZWxmIHNjcmVhbWluZyBhdCB0aGUgdG9wIG9mIG15IGx1bmdzIGF0IEphY2tvLCAiR2FicmllbCBpcyBIZXJlISBHYWJyaWVsIGlzIEhlcmUhIiBhbmQgd2FrZSBteXNlbGYgdXAsIGFuZCBteSBib3lmcmllbmQuICBIZSBhc2tlZCBtZSB3aGF0IHRoZSBoZWxsIEkgd2FzIHNheWluZy4gVGhlIHJlc3Qgb2YgdGhlIG5pZ2h0LCBJIGRyZWFtdCBhYm91dCB0aGUgbGF3IGFuZCBkaWZmZXJlbnQgbGVnYWwgdGhlb3JpZXMsIGNvbnRlbXBsYXRpbmcgYSBob2RnZXBvZGdlIG9mIGp1cmlzcHJ1ZGVuY2Ugb2Ygd2hpY2ggSSBrbm93IG5vdGhpbmcuICANCg0KV2hhdCBjb3VsZCB0aGlzIGFsbCBtZWFuPyAgV2hhdCB3YXMgdGhpcyBtZXNzYWdlIGZyb20gR2FicmllbCwgd2hvIG9mdGVuIGFwcGVhcnMgaW4gaHVtYW4gZm9ybSB0byBjb21tdW5pY2F0ZSBoaXMgbWVzc2FnZXMuIEFuZCB3aHkgZGlkIGhlIGFycml2ZSBpbiBzdWNoIGEgZnVyeT8gIERvIEkgaGF2ZSBiaWcgbmV3cyBjb21pbmc/IElzIHRoaXMgYSBzaWduIGZyb20gdGhlIGNvc21vcyB0aGF0IHNvbWV0aGluZyBnaWFudCBpcyBhYm91dCB0byBhcHBlYXIgYmVmb3JlIG1lPyBPciBzaG91bGQgSSBwc3ljaG9hbmFseXplPyAgDQoNCk1pY2hhZWwgSmFja3NvbiwgYSByZWNlbnRseSB2aW5kaWNhdGVkIHN1c3BlY3QgZm9yIG1vbGVzdGF0aW9uLS1vbmUgb2YgdGhlIGdyZWF0ZXN0IGh1bWFuIGJldHJheWFscyBpbiBwc3ljaG9sb2d5LCBpcyBzYWQgYmVjYXVzZSBvZiBhIG5hbWUgdGhhdCBhcHBlYXJzIG9uIGEgaGVhZHN0b25lLiAgSSB3b3VsZCBpbWFnaW5lIHRoYXQgdGhlIGhlYWRzdG9uZSBzeW1ib2xpemVzIGRlYXRoLCBidXQgdGhlIGxhY2sgb2YgYW4gaWRlbnRpdHkvbmFtZSB3b3VsZCBtZWFuIHRoYXQgSSBhbSBzZWFyY2hpbmcgZm9yIHNvbWVvbmUgd2hvIGlzIGRlYWQuICBPciBkbyBJIGZlZWwgdGhhdCBteSBzZWFyY2ggaXMgaG9wZWxlc3MgYmVjYXVzZSB0aGUgb25seSBwb3NzaWJsZSBuZXdzIGZvciBtZSBpcyB0cmFnaWM/IERvIEkgc29ycm93IGZvciBNaWNoYWVsPyBXaGF0IGlzIGl0IHRoYXQgaGUgYW5kIEkgc2hhcmU/IA0KDQpJdCBzZWVtcyB0aGF0IGhlIGZvdW5kIHRoYXQgd2hpY2ggSSBzb3VnaHQgb3IgY3VycmVudGx5IHNlZWsuICBIZSBpcyBwbGFndWVkIGJ5IGEgZGlzZWFzZSBvZiB2aXRpbGlnbyB0aGF0IHR1cm5zIGhpcyBza2luIHdoaXRlLCBkZW51ZGVzIGhpbSBvZiBwaWdtZW50LCBhbmQgZm9yY2VzIGhpbSBhd2F5IGZyb20gdGhlIHdvcmxkIG9mIGJsYWNrbmVzcyB0aGF0IHNvY2lldHkgaW1wb3NlcyB1cG9uIGhpbS4gIFRoZSB3b3JsZCBzZWVzIGhpcyBibGFja25lc3MgYXMgbmF0dXJhbCwgYW5kIGhpcyB0cmFuc2Zvcm1hdGlvbiBhIGZvcm0gb2YgYmV0cmF5YWwsIG5vdCB0byBtZW50aW9uIHRoZSBzZXh1YWwgYmV0cmF5YWwgaW5oZXJlbnQgaW4gbW9sZXN0YXRpb24uICBUbyBmaW5kIGhpbSBjcnlpbmcsIGFuZCB0byBmZWVsIHRoZSB1cmdlIHRvIGNvbWZvcnQgaGltIHdpdGggbmV3cyBmcm9tIEdhYnJpZWwgc3RyaWtlcyBtZSBldmVuIG5vdy4gIFdhcyBHYWJyaWVsIGJyaW5naW5nIGhpbSBhIG5hbWUgZm9yIHRoYXQgaGVhZHN0b25lLS10aGUgaWRlbnRpdHkgdGhhdCBoZSBhbHNvIHNlZWtzIHNvIHBhc3Npb25hdGVseT8gQW0gSSB0byBsZWFybiB0aGlzIGlkZW50aXR5PyBPciBkaWQgSSBrbm93IGl0IHdhcyBjb21pbmcgYW5kIHdhcm4gaGltIG9mIGl0cyBhcnJpdmFsPyBQZXJoYXBzIEkgYW0gc3VmZmVyaW5nIGZyb20gYSBtb3JlIGluc2lkaW91cyBzdHJhaW4gb2Ygdml0aWxpZ2/igJRhIGRpc2Vhc2UgdGhhdCBpcyB0cmFuc2Zvcm1pbmcgbWUgaW50byBzb21ldGhpbmcgdGhhdCBJIGZlYXIgc29jaWV0eSB3aWxsIG5vdCBhY2NlcHQgb3IgZXZlbiBkZXNwaXNlLiAgV2FzIHRoYXQgbmFtZSBvbiB0aGUgdG9tYnN0b25lIG15IG93bj8gVGhlIG5hbWUgb2YgdGhlIHBlcnNvbiBJIG9uY2Ugd2FzIGFuZCB0aGF0IGlzIGRpc2FwcGVhcmluZyB1cG9uIHRoZSBmb3JtYXRpb24gb2YgbXkgbmV3IHNlbGY/IFBlcmhhcHMuIFdoeSB3YXMgSSBzY3JlYW1pbmc/IERpZCBJIGZlYXIgdGhhdCBJIHdvdWxkIGZpbmQgbXlzZWxmIGRlYWQ/IERpZCBJIHdhcm4gSmFja28sIG9yIGRpZCBKYWNrbyB3YXJuIG1lIHdpdGggaGlzIHRlYXJzPyBJdCBhcHBlYXJzIHRoYXQgSSBhbSBjb25kdWN0aW5nIG15IG93biBmb3JtIG9mIGJldHJheWFsIGJ5IGZvcmNpbmcgbXkgb2xkIHNlbGYgb3V0LiAgDQoNCldhcyBpdCByZWFsbHkgR2FicmllbD8gV2FzIEkgbWlzbGVhZD8gV2h5IHdvdWxkIEdhYnJpZWwgYXJyaXZlIGluIGEgbWFubmVyIHRoYXQgbWFrZXMgaGlzIHByZXNlbmNlIGtub3duLCBhbmQgaWYgc28sIHdoeSBkaWQgSSBmZWVsIHRoZSBuZWVkIHRvIGFubm91bmNlIGhpbT8gIFdhcyBJIGJlaW5nIGRlY2VpdmVkIGJ5IHRoZSB3aW5ncz8gIFRoZSBhcmNoYW5nZWwgTWljaGFlbCBhbmQgRWFnbGVzIGJvdGggaGF2ZSB3aW5ncyB0b28sIGFuZCBwZXJoYXBzIG15IGRlY2VwdGlvbiBzdWdnZXN0cyB0aGF0IEkgdG9vIGFtIGJlaW5nIGJldHJheWVkIGJ5IG93biBleWVzIG9yIGJ5IHRoZSBncmVhdCBiZXRyYXllci4gV2hlcmUgZG9lcyBkZWF0aCBjb21lIGludG8gcGxheT8gV2hhdCBkaWQgdGhlIGFuZ2VsIGhhcmtlbj8gQW5kIGlmIG5vdCBhbiBhbmdlbCwgd2FzIGl0IGFuIEVhZ2xlPyBBbiBPd2w/IEnigJl2ZSBiZWVuIGxvb2tpbmcgZm9yIGVhZ2xlcyBpbiB0aGUgc2t5IGxhdGVseS4gUGVyaGFwcyBJIHNlZWsgZnJlZWRvbSwgdGhlIGZyZWVkb20gdG8gZmx5LiBCdXQgaWYgYW4gT3dsLCB3aGljaCBoYXMgYXBwZWFyZWQgaW4gcGFzdCBkcmVhbXMsIHRoZW4gd2FzIHRoaXMgYmlyZCB3aXNlciB0aGFuIG1l4oCUc3RpbGwgYnJpbmdpbmcgbWUgbmV3cyBvZiBzb21ldGhpbmc/IEVpdGhlciB3YXksIEkgaW5zdGFudGx5IGFzc29jaWF0ZWQgdGhlIHdpbmdzIHdpdGggR2FicmllbCBhbmQgaG9wZWQsIHBlcmhhcHMgcHJheWVkIHRoYXQgSSB3YXMgcmlnaHQuIA0KDQpUaGUgc3ltYm9saXNtIGlzIGJvdGggc2NhcnkgYW5kIGFsaXZlLCBhbmQgSSBjYW5ub3Qgc2VlbSB0byBwdXQgbXkgYXJtcyBhcm91bmQgaXQ6DQpUd28gTWljaGFlbHM6ICBvbmUgYW4gYW5nZWwgYW5kIG9uZSBhIGh1bWFuOyBUd28gQW5nZWxzOiAgR2FicmllbCBhbmQgTWljaGFlbDsgVHdvIElkZW50aXR5IFN0cnVnZ2xlczogIE9uZSBiZXR3ZWVuIGJsYWNrIGFuZCB3aGl0ZSBhbmQgdGhlIGFtYmlndW91cyBodWVzIGJldHdlZW4gdGhlIHR3byBhbmQgbXkgb3duIHN0cnVnZ2xlIGJldHdlZW4gdGhlIHNlbGYgdGhhdCBJIHNlZW1pbmdseSBvbmNlIHdhcyBhbmQgdGhlIG9uZSB0aGF0IEkgd2lsbCBzb29uIGJlY29tZTsgU2V2ZXJhbCBiZXRyYXlhbHM6ICBzZXh1YWwsIHJhY2lhbCwgc3Bpcml0dWFsLiBUd28gQmlyZHM6IHRoZSBlYWdsZSBhbmQgdGhlIG93bOKAlGJvdGggYmlyZHMgb2YgcHJheSwgb25lIGZsaWVzIGR1cmluZyB0aGUgZGF5LCB0aGUgb3RoZXIgYXQgbmlnaHQsIG9uZSBwb3NzaWJseSByZXByZXNlbnRpbmcgZnJlZWRvbSBhbmQgdGhlIG90aGVyIHdpc2RvbS4gIFdoeSB0aGVzZSBqdXh0YXBvc2l0aW9ucyBhbmQgd2h5IG5vdz8="
+"eventtime","2005-07-08 23:33:00"
+"current_moodid","6"
+"url","http://pater-ignatius.livejournal.com/32937.html"
+"userid","11661"
+"itemid","127"
+"event","A very close friend of mine once observed that rarely does a person find inspiration to write in a personal journal during times of joy and prosperity.  She was SO correct, which is why I take this moment to discuss my independence day weekend...
+
+On Friday afternoon I hopped a train to Portland, where I met up with my good friend Christy--my roommate during my first year of law school(she's way fabulous).  I arrived in PDX at around 9 pm, when we dropped my luggage off at C's house.  Immediately, we walked to Portland City Grill--a spectacular bar with a spectacular view of the city.  During the day, PDX can be the most industrial looking downtown (with the exception of the awe-inspiring urban art deco redevelopment occurring in the Pearl District/Burnside). However, at night, Portland's skyline twinkles with excitement.  We entertained a few cocktails, and then headed to Hubers to meet C's friend Katy and her boy Cort. It was crowded as hell, so we took off to the Shanghai Tunnel, where C and I had Whang and Chang rice bowls--for some reason these names make me giggle *childishly*.  Then arrive Kate, Cort, and their friends Ian and Karen (a couple).  After polishing off our dinner, we headed to Fifteen--a nice bar with a not so good DJ. I swear we heard 2 songs by Michael Jacksons, which, regardless of whether the DJ was attempting to vindicate the accused, he could have played something a little more contemporary. 
+
+Enter Darcy...
+
+""Darcy"" is the name of the slimy guy who came over to our booth at Fifteen and tried to hit on the ladies.  IN particular, Darcy had a liking for Karen, which made Ian furious and, yes, violent.  To understate: Ian, drunk, told Darcy to leave--Darcy responded by continuing to hit on Karen, which further annoyed Ian.  Eventually Ian grabbed Darcy, threw him to the floor, and started to beat the living daylights out of him.  The rest of us just up and left the bar to avoid this altercation altogether.  When we got outside, Karen, pissed at Ian, had started walking down the block. I stopped her--trying convince her that Ian would regret his behavior in the morning. Just then, Darcy comes running up to Karen.  He had beads of tears and sweat rolling down his cheeks; I'm pretty convinced he was trying to get all weepy and sappy so that Karen would comfort him (Short version:  Darcy is a manipulative prick). So I got between them and told Darcy that he had to leave. I just wanted to avoid any future attacks. I had this mental image of Ian coming running out of the bar and tackling Darcy.  It turns out my intuition is pretty good. Luckily Darcy listened to me and narrowly escaped Ian who exited the bar just as Darcy was leaving.  We took Karen home to her car that night becuase she was not talking to Ian--Man I sure hope that works out...
+
+Saturday...
+
+Y arrived, we nabbed lunch, and cruised the malls for evening clothes--to no avail.  We eventually got dressed up and headed to Kells to meet our friends Barb and the Jenns who were having a Bachelorette Party.  We waited for hours, only to never meet up with the Bachelorettes because B never keeps her phone on her!  Though, I did get to meet C's date David (he seems cool, but I problemetize his soon departure to Boston). We consumed tons of alcohol, and moved to Fifteen for more drinks and again--bad music... This time, without violence, we headed out to Aura.  Along the way, C had to take a serious piss...against my will and good judgment , she decided to urinate behind a dumpster (thank goodness noone caught her!).  While C was peeing, Yoko was out by the curb where she spotted Barb! We gave quick hugs and proceeded to Aura.  Generally, the club spins more techno/house/trance/jungle, but this time, for some reason, Aura was charging 8 bux cover for an hour of hip hop--no thanks.  So instead we went to McD's for some greasy and cheap food. 
+
+Sunday...
+
+We wake up early,drink coffee and chat it up. We get a call from B who was still in Portland. So we nab lunch @ Baja and go shopping at Buffalo Exchange--My new favorite place to shop--found awesome shirt. Then we wandered around the Pearl District--going in and out of antique shops and window shopping at expensive boutiques. By evening, Y,C, and I found ourselves at MuMus for dinner and cocktails.  After that, we meandered back to C's place to get ready to go dancing. We decided to pre-func a bit and play Kings.  David came over, as did our friend Dys (super cool gal w/ a nipple piercing that she continues to say does not hurt). We had a few more drinks and then tried to go to the Town Lounge, which was CLOSED despite an advertisement in the Portland Mercury that there woudld be a DJ Sunday Night.  SOOOOO
+
+As a result of this madness, we ended up at the Matador--hole in the wall.  NO plan B, so no dancing occurred. As a result we got Kablastafucked and chatted with some Goth folks. Dys hooked up with this guy Aiden (cute tattooed guy with ear studs--art student and articulate, but seems rough around the edges). Y met this guy Kevin--pretty cute, and *cough* she is required to tell me more about him after they talk on the phone *cough*.  Then back home for more greasy McD's. 
+
+It was indeed an eventful and memorable time."
+"eventtime","2005-07-04 23:38:00"
+"current_moodid","101"
+"url","http://pater-ignatius.livejournal.com/32627.html"
+"userid","11661"
+"itemid","126"
+"event","Work:  How is it that I'm still working on this article for the Journal of Social Issues.  We're in the last round of edits, and yet I cannot get myself motivated after a full day of work to do the research. So quick release:  ARGH!
+
+More Work:  almost done w/ this other motion at work. I'm excited that I will be accompanying one of our most experienced lawyers to the argument in the San Juan Islands. Honestly, I'm just excited to see how he thinks--if he argues like he writes, it should be pure genius! 
+
+MORE Work Update:  We won that last motion...yay law clerk victories!
+
+So my post isn't very interesting, but hey, it's what is on my mind."
+"eventtime","2005-06-07 00:17:00"
+"current_moodid","5"
+"url","http://pater-ignatius.livejournal.com/32464.html"
+"userid","11661"
+"itemid","125"
+"event","Last week, I enjoyed the opportunity to attend the voir dir and opening remarks of one our of most seasoned attorneys down at the King County Courthouse.  I can't say it was magical; though I will forever remember my reaction to voir dir.  People from all walks of life convening with one aim in mind:  get out of jury duty!  Humor aside, I was amazed by the pool:  a psychiatrist, a business owner, nurses, firefighters, policemen...citizens from all walks of life, Vietnamese, Filipino, Catholic, Jewish. A jury of our peers--what an amazing opportunity that is."
+"eventtime","2005-06-05 00:45:00"
+"current_moodid","101"
+"url","http://pater-ignatius.livejournal.com/32029.html"
+"userid","11661"
+"itemid","124"
+"event","Went down to the courthouse today. My supervising attorney got to argue a motion that I wrote, and the outlook is better than I initially imagined. The judge asked him like 2 questions total in the course of an hour and grilled our opponent for the remainder of the time. I sure hope we win this dang thing. Special Side Note:  Private property owners should not be liable for derailing trains for which they carry no fault.
+
+In other news, positive dreams continue; it's gorgeous in Seattle; my grades are improving (waiting on 2 more, but doing tons better than semester's past); chatted with my sister, who is planning her wedding set for August of next year. Additional Side Note:  the wedding is set for August 5th 2006, and it will likely occur when I'm supposedly to prepare for the Bar Examination. 
+
+I went to the pool today, and I realized once again how out of shape I am.  Deed:  must quit smoking. Probability of Success:  less than usual.  How many smokes today? 2 many to count.  
+
+Overall Score for today: 6 out of 10 (better than average at least)"
+"eventtime","2005-05-28 01:00:00"
+"current_moodid","68"
+"url","http://pater-ignatius.livejournal.com/31852.html"
+"userid","11661"
+"itemid","123"
+"event","I woke up this morning from the most amazing dream.  I was on a journey (my usual saga I suppose), and this time Jonathan traveled with me. We arrived ""home,"" a place that I do not recognize, yet it seems vaguely familiar.  Blue couch (not really my style), but we were surprised by its relatively maintained condition. We feel sick, we both rush to the bathroom, vomit (painful, I'll spare the detail). When we emerge from the toilet, my mom is in the living room. I open the front door to my former roommate, his cat is outside with my old cat Baby (A gigantuous Maine Coone--fluffy with giant 6 finger claws).  Following close behind I see my friend Josh sitting in the backseat of his old Rabbit. He sees me, jumps out.  Rushing through my door is my brother Alex and his wife Tina, who I give a kiss on the cheek.  Jenny follows with her daughter Abigail, hangs on me (she's so damn cute). My mom is there, and everyone welcocmes us back.  Hugs, and cheerful.  [I wake up briefly, happy and stunned that I had a pleasant dream...doze back off and dream commences].  I visit with my brother Alex who looks SO pulled together.  I've never seen him in such shape:  his hair is nicely done, he's dressed very well, he's happy, and we all were, and it was great. I was home. [alarm rings].
+
+I feel like my ""trip"" is finally coming to an end, and my journey home seems that much more real now.  My search for the self seems to always continue; but I am realizing that I've been looking in the wrong places for what has been right under my nose the whole time.  Everything I've been searching for has been at home waiting for me this entire time.  Somewhere in the midst of college and law school and romance, I strayed far away from those most dear to me, those who love me unconditionally, and those who know the real ""me,"" apart from the accoutrements of pretentiousness.  Today, I'm doing happy hour with a friend from high school--someone who has been with me through thick and thin, and who knows my tale.  It's as if we can just start where we left off, and I enjoy that. I feel like my decision is not as hard as I've made it out to be to myself--I'm learning to mete out the dreams of others, and their expectations for me, and my own dreams and aspirations.  I know last night's dream was too ""perfect,"" and that life is not that fair, but what do I really have to gain in my struggle for psychological well-being by leaving these people, who have given so much to see me succeed, behind. 
+
+I know what I have to do. Minds change, but people age in the interim.  And I don't want to grow old with a brilliant mind and noone with whom to share it."
+"eventtime","2005-05-26 08:56:00"
+"current_moodid","63"
+"url","http://pater-ignatius.livejournal.com/31529.html"
+"userid","11661"
+"itemid","122"
+"event","My bf pointed out not too long ago that there are a ton of really sick people on craigslist hoping to meet other sick people so that they can have sex. He's right. The headings for men seeking men are alarming:  bottom seeks top, discrete top seeks bottom while gf is away, military serviceman looking to get serviced before 3pm, HIV- UB2, HIV+ likes to bareback, DandD free seeks same, Looking for good head while bf's out of town...You get the point.  
+
+But the point is more subtle than self-advertisement for sex; it is that all of these people are really announcing their loneliness--they are saying this:  ""I want sex b/c I can't have real emotional attachment,"" ""Sex feels good, and it's better than no relationship at all..."" 
+
+The desperation scares me, alot. It is a sexual desperation without love, without regard to consequence.  It is the reason that we all wonder if all men truly are pigs, or if there are really genuine, good people in this world. It is deception and betrayal. The other night, a good friend of mine mentioned that she was interested in a man who had a gf, and even slept w/ him a few times.  She explained how, just b/c someone cheats on his girlfriend doesn't make him a bad person.  No, it doesn't.  Not necessarily.  But it makes him a lonely man, a desperate man, and a selfish man. 
+
+Men like those described above give really good men bad names.  They cheat on their wives, give them diseases, and disgrace the queer population.  These men make me thankful for what I have, yet fearful for future generations to come. I would love to write something in this journal that is more optimistic, but these personal ads are at the very best unsettling."
+"eventtime","2005-05-07 15:22:00"
+"current_moodid","33"
+"url","http://pater-ignatius.livejournal.com/31276.html"
+"userid","11661"
+"itemid","121"
+"event","""Only the shallow know themselves.""--Oscar Wilde
+
+Oh Mr. Wilde, how you sound so much like someone I know, and love."
+"eventtime","2005-05-03 19:14:00"
+"url","http://pater-ignatius.livejournal.com/31018.html"
+"userid","11661"
+"itemid","120"
+"event","thoughts racing through my head during the last half hour of my securities regulation examination today:
+
+Tender offers... can you actually have an independent cause of action for violating section 14e-3 of the 1934 Securities Exchange Act? Fuck...it would figure that I would memorize everything but this...Ok...calm down...shit...what is the withdrawal period?...where do I start. Ok...breath...I know that 14d and 14e regulate tender offers and these fuckers should have disclosed. *types furiously about 14d randomly* ok if someone rescinds in good faith do they still violate 14e-3's disclose or abstain requirement? Fuck me.  BLANK.  14 minutes left. Shit.  I know that the management is allowed to issue a recommendation to the shareholders and tell them that they should not take the tender offer bid...they did that...shit...but why is it important that the plaintiff is a 1% shareholder of the company? Is it relevant at all?  13 minutes left.  Fuck.  What the hell, it looks like there should be 16(b) liability b/c the other party undertook a shortswing transaction, a purchase and sale w/in a period of 6 months.  Shit, i have no idea whether there is a defense.  And should I bring up 12(a)(1) and (2) liability? I have no room to talk about it.  Shit, there's no room to discuss the SEC's cause of action against ED b/c I'm on page four and I have five minutes left. What do I delete? SHIT.  10 Minutes. What is WRONG with me? !!!!!  Why the hell did I spend a page discussing an implied private right of action against Tim in the fact pattern when I should have been discussing the tender offer rules and going private transactions? 5 minutes...4 minutes...3 minutes. *I want to DIE*...2 minutes...Fuck.
+
+That is what it feels like to take a securities regulation exam...glad it's over, but sorry I was such dumbass."
+"eventtime","2005-05-03 18:01:00"
+"url","http://pater-ignatius.livejournal.com/30947.html"
+"userid","11661"
+"itemid","119"
+"event","Today I studied about 12 hours of securities regulation. I'd say I'm entitled to a night off to avoid burn out. That said let's get to what's really on mind...
+
+I'm on my balcony tonight, writing, listening to music...remembering what life was like when I had no care in the world...The summer before I went away to college, I used to hang out on the balcony w/ my best friend Josh, my brother Alex, and some friends with whom I grew up--drinking, smoking, being crazy--hangovers, late night taco bell runs, listening to music, and feeling free to sing along, dancing until 2 am, driving back from seattle with the windows rolled down, and getting up at 6 am for work with a severe hangover.  BBQs and phone calls in the middle of the night. 
+
+Tonight, there are no stars out. The city lights are far to bright and there is smog in the air. I met a cool med student today, studying at Cosi as well. I must confess that, after hearing what Residency is like, that I made the right choice to come to law school.  :-)  Even so, the work is tiresome, and my balcony is quiet now.  And the wild days of my youth seem long gone. I want my life back. I don't want to turn into another drone, cranking out legal briefs and billing hours. I hate the fact that I have to take on so much responsibility--taking care of my family, settling down.  And I keep wondering whether I did this to myself.  Do I really want to settle down now? I'm going to be a lawyer at age 25, with so much of my life still ahead of me.  Do I really want to live my life filled with ""what if?"" 
+
+And now a litany of unanswered questions... 
+
+What if I took a fellowship and studied in Europe? What if I decided to practice law in DC? What if I became an international lawyer rather than a litigator? What if I finally wrote that book?  What if I joined a symphony chorus here in town? I don't want to live my life this way. And how am I ever going to be free if I spend my entire life beholden to others? Am I really so beholden? Do I want to look back and think:  you know, I could have done so much more? Do I really need to grow up so fast? 
+
+Call these doubts if you like, but deep down I know that I can accomplish all of these things.  The only question is whether these are things that I really want, and whether I should decide to compromise any of them after I graduate. I'm not entirely convinced that these things are mutually exclusive. But I know that my life needs some changes, for my mental and emotional health, and because I at least want that choice."
+"eventtime","2005-05-01 21:27:00"
+"url","http://pater-ignatius.livejournal.com/30705.html"
+"userid","11661"
+"itemid","118"
+"event","Found out today that I will be competing at a national trial advocacy competition through my moot court team.  *Disco Dances* The best part is that I get to spend a weekend in Santa Fe in November!  While my peers slave away in front of their computers in the cold snowy DC area...I will indeed be getting some rays. ... Now if I could just wrap my mind around my securities regulation notes ...exam coming up...fuck me."
+"eventtime","2005-04-27 20:56:00"
+"current_moodid","35"
+"url","http://pater-ignatius.livejournal.com/30208.html"
+"userid","11661"
+"itemid","117"
+"event","So my friend R spins serious trance!  Further confirmation that American University has THE coolest law students...
+
+Check Him Out: http://www.puredesi.com/"
+"eventtime","2005-04-27 20:51:00"
+"url","http://pater-ignatius.livejournal.com/30112.html"
+"userid","11661"
+"itemid","116"
+"event","Today I studied all day at a coffee shop in Dupont Circle with a few friends--we literally reviewed almost an entire year in ethics class, so hopefully I'm prepared for this exam. I'm taking the rest of the evening off for the sake of not over-studying. I almost forgot how wonderful the Dupont area is--with lots of boutiques and restaurants. I should really take advantage of this city more often. Wish me luck!"
+"eventtime","2005-04-24 23:09:00"
+"current_moodid","70"
+"url","http://pater-ignatius.livejournal.com/29804.html"
+"userid","11661"
+"itemid","115"
+"event","Last night I went out and actually enjoyed myself.  My friend R is way cool and I really enjoyed hanging with him. We went to Nation, which is this dance club with 4 separate dance clubs and multiple stories of high energy music--everything from trance, to house, jungle, dance. I give this club 4 stars--It was refreshing to go to a night club where everyone was there to dance, rather than stand around and have beer accidentally spilled down your back.  
+
+Today I drilled flashcards for my ethics final, and tomorrow I will continue the trend and meet with my study group. I'm realizing now that there are many students around me who are willing to settle for a B.  I'm just not that complacent--there is always room to grow, and I want to give 100 percent.  So tomorrow I will bust my ass to memorize this material and ace this final. I fully intend on showing the world what I can do. 
+
+complacency is a bore."
+"eventtime","2005-04-24 01:02:00"
+"current_moodid","70"
+"url","http://pater-ignatius.livejournal.com/29497.html"
+"userid","11661"
+"itemid","114"
+"event","So I've fallen off the wagon again, and this time it involves cigarettes. I've always had cravings, and I would accasionally indulge during high stress periods.  The latest all-niter put me over the edge really, and now I'm just counting down until finals conclude. Then I will kick the habit again and revisit the treadmill that is calling my name.  Today: ran 8 minutes, stuffed face with tacos, then smoked while on phone with mom. Tomorrow: study ethics for hours on end, come home, rid room of Bingo hall smell, then revisit ethics until brain explodes.  Friday: dancing at Nation--4 stories of high energy!  My friend R is a cool DJ and we're gonna go hang for a bit. He's one of my few straight male friends...*plots to hook him up w/ roomie*.
+
+In other news, glad long ass take home exam is over, 3 more to go, and is anxiously awaiting getting my own clients over the summer *indeed Smithers...it's part of the brilliant plan*."
+"eventtime","2005-04-20 22:44:00"
+"current_moodid","51"
+"url","http://pater-ignatius.livejournal.com/29373.html"
+"userid","11661"
+"itemid","113"
+"event","had another nightmare:
+
+woke up at quarter to 4am with a dream in which I watched someone get brutalized and have someon else's face sewed on.  frightening--NOT good.  I think it's the stress, but I may need a head doctor after this one..."
+"eventtime","2005-04-13 04:02:00"
+"url","http://pater-ignatius.livejournal.com/29130.html"
+"userid","11661"
+"itemid","112"
+"event","Is it possible to use a key on a push-button lock? I'm putting together my cross examination for this witness who said that she used a key to open a door w/ a push button lock. I bet you could, but I'm certain it's slightly more rare. 
+
+Things that make you go hmmm."
+"eventtime","2005-04-06 23:54:00"
+"url","http://pater-ignatius.livejournal.com/28687.html"
+"userid","11661"
+"itemid","111"
+"event","My closing argument was ""terrific"" according to the judge, but now, of course, I have no idea what the sentiment will be during the trial that is my final exam at the Montgomery Cty Courthouse.  It was a decent ""night cap"" to my long day today. 
+
+In other news, I just read my last poem--man I can't spell. Went back and edited ""whiskers.""  Goes to show that I type these things ten minutes before bed.  Feel free to correct me--this forum is most certainly not about perfection.
+
+In more unrelated news, I just bought Moby's cd-- ""Hotel."" It's quite good for those who dig electronica. Also, I've fallen back in love with Paul Van Dyk and his ""Global"" album.  I sometimes wonder why I stopped listening to fast dance music.  The DVD that comes with the album is kind of fun, but it is something you might see playing at a nightclub--only more worldly. 
+
+To my Triad:  Ladies, I miss you and love you both and thanks for being super supportive of me during finals."
+"eventtime","2005-04-06 01:06:00"
+"current_moodid","102"
+"url","http://pater-ignatius.livejournal.com/28460.html"
+"userid","11661"
+"itemid","110"
+"event","QWZ0ZXIgc2NhcmZpbmcgZG93biA0IHBpZWNlcyBvZiBwaXp6YSBhbmQgdHdvIGVwaXNvZGVzIG9mIE1JLTUsIEkgZ290IGEgd2lsZCBoYWlyIGFuZCBkZWNpZGVkIHRvIGRvIG15IGhvbWV3b3JrIGF0IENvc2kgdG9uaWdodC4gIEnigJl2ZSBjb25zdW1lZCBhYm91dCBhIGZpc2hib3dsIG9mIGNhcmFtZWwgYXBwbGUgY2lkZXIgYW5kIGEgc3RyYXdiZXJyeSBmcmVlemUsIHlldCBJIHN0aWxsIGhhdmUgbm90IG1hbmFnZWQgdG8gc3VjayBkb3duIG15IHJlYWRpbmcgb24gU2hvcnQgU3dpbmcgcHVyY2hhc2VzIGFuZCBJbnNpZGVyIFRyYWRpbmcgZm9yIG15IFNlY3VyaXRpZXMgUmVndWxhdGlvbiBDbGFzcy4gIEkgc3RhcnRlZCBsb3Npbmcgc2l0ZSBvZiB0aGUgYmlnIHBpY3R1cmUgYWZ0ZXIgUnVsZSAxNGUtMy4gIFNvIHdoeSBub3QgZGFiYmxlIGluIG15IGpvdXJuYWwgd2hpbGUgSSB3YWl0IGZvciBteSBjaGVjaywgbm8/IA0KDQoJQXNpZGUgZnJvbSBteSBTZWN1cml0aWVzIHJlYWRpbmcgYmVpbmcgYSB0b3RhbCBib3JlLCBJIGVudGVydGFpbmVkIGFib3V0IDEyOCBwYWdlcyBvZiBldGhpY3MgcmVhZGluZyBvbiBDcml0aWNhbCBSYWNlIFRoZW9yeSBhbmQgY2xpZW50LWNlbnRlcmVkIHByYWN0aWNlLiAgV2hhdCBjYW4gSSBzYXk/IEkgZW5qb3kgcmVhZGluZyBzdWNjZXNzIHN0b3JpZXMgYWJvdXQgc3RhcnZpbmcgbGF3eWVycyB3aG8gcmVhbGx5IGRvIG1ha2UgYSBkaWZmZXJlbmNlIGluIHRoZSBsaXZlcyBvZiB0aGUgaW1wb3ZlcmlzaGVkLCBhbmQgdGhlIGdheSwgYW5kIHRoZSBibGFjaywgYW5kIHRoYXQgcmFuZG9tIEFzaWFuIGd1eSB3aG8gb2NjYXNpb25hbGx5IGF2b2lkcyBtb2RlbC1taW5vcml0eSBzdGF0dXMuIFdoaWxlIGF0IHRpbWVzIEkgdG9vayBpc3N1ZSB3aXRoIHRoZXNlIGF1dGhvcnMsIEkgd2FzIGludHJpZ3VlZCBieSB0aGUgaW1wYWN0IG9mIOKAnHJhY2XigJ0gb3Ig4oCcZ2VuZGVy4oCdIGFzIOKAnHRoZW9yaWVzIG9mIHRoZSBjYXNlLuKAnSAgRnJhbmtseSwgSSB3b25kZXIgd2hldGhlciB3ZSBzaG91bGQgZXZlbiBjb25zaWRlciB0aGVzZSDigJxzdHJhdGVnaWVz4oCdIGFzIGxhd3llcnMsIGVzcGVjaWFsbHkgaWYgdGhlIGNsaWVudCBkb2VzIE5PVCB3YW50IHVzIHRvIHB1cnN1ZSB0aGlzIGFwcHJvYWNoLiAgSSBzYXk6ICBpZiB0aGUgY2xpZW50IGlzIGdheSBhbmQgZG9lc27igJl0IHdhbnQgeW91IHRvIHVzZSBoaXMvaGVyIHNleHVhbCBwcmVkaXNwb3NpdGlvbiBhdCB0cmlhbOKAlERPTuKAmVQuICBUaGVyZSBzZWVtcyBzb21ldGhpbmcgcmVwcmVoZW5zaWJsZSBhYm91dCDigJxvdXRpbmfigJ0gc29tZW9uZSBpbiBvcmRlciB0byBrZWVwIGEgd2lubmluZyB0cmFjayByZWNvcmQgYXMgYSBsYXd5ZXIuICBPZiBjb3Vyc2UsIHByZXNlbnRpbmcgdGhpcyB0aGVvcnkgdG8ganVyaWVzIG1heSBvY2Nhc2lvbmFsbHkgc2F2ZSB5b3VyIGNsaWVudOKAmXMgYXNzLCB0aGF0IGRlY2lzaW9uIGlzIGZvciB5b3VyIGNsaWVudOKApm5vdCBZT1UgYXMgYSBsYXd5ZXIuICANCg0KCUluIG90aGVyIG5ld3MsIG15IGJvc3MgYWN0dWFsbHkgY29tcGxpbWVudGVkIG15IHdvcmsgdGhlIG90aGVyIGRheS4gKmdyYXR1aXRvdXNseSBwYXRzIHNlbGYgb24gYmFjayogIFRydXN0IG1lLCB0aGlzIGlzIGEgcmFyZSBvY2Nhc2lvbiBhdCBteSBmaXJt4oCUc28gbXVjaCB0aGF0IEkgbXVzdCBkb2N1bWVudCBpbiB0aGlzIGxqIGJlZm9yZSBJIGxvc2UgdGhlIG1vbWVudC4gICBPa2F5LCB0aW1lIHRvIGdvIGhvbWUgYmVmb3JlIEkgZWF0IGRlc3NlcnQu"
+"eventtime","2005-04-02 18:58:00"
+"current_moodid","91"
+"url","http://pater-ignatius.livejournal.com/28314.html"
+"userid","11661"
+"itemid","109"
+"event","If a picture is worth a thousand words, and a picture should never capture the statement in a kiss, then what is it about a kiss, or the absence of a kiss, that could never quite be portrayed on film or any other medium? 
+
+Appreciate my candor when I say:
+
+Playful,
+tickle me with your tongue, 
+and giggle,
+slip me your gum,
+you're a--teen-ager teasing me
+behind the bleachers
+
+On my hand...
+subtle, but supple,
+warm it up,
+but give me goose bumps
+you wink, 
+and I brush your whiskers
+
+breath on me while you
+surprise my ear
+suck it, whisper to it,
+prrrr at me, 
+and beg me to return it.
+Ask nicely.
+
+YES, that's the spot,
+between my shoulder and my neck;
+give it a peck.
+pat, pet, play, and 
+I promise to stay, but 
+only if you keep going.
+
+*tenderness and tears*
+when I anticipate,
+yet it never comes.
+I wait, and 
+I want it more, 
+but it's better
+
+in its absence."
+"eventtime","2005-04-01 23:48:00"
+"current_moodid","107"
+"url","http://pater-ignatius.livejournal.com/28127.html"
+"userid","11661"
+"itemid","108"
+"event","Today, I was told by a lady on the Moot Court squad that I look like the guy who keeps this blog:  www.homosaywhat.com .  Frankly, I'm wondering whether this is a compliment?  He's an attractive guy--but read the blog.  *things that make you go hmmm*"
+"eventtime","2005-03-31 22:31:00"
+"current_moodid","31"
+"url","http://pater-ignatius.livejournal.com/27751.html"
+"userid","11661"
+"itemid","107"
+"event","I thought I was doing okay, but I guess I was wrong.  I'm experiencing frustration,and I have no idea how to put it to words.  So I've decided to just write, write something, make the words move across the monitor whether I'm prepared to talk about what's bothering me or not...
+
+
+
+Tonight,
+I cry in the rain,
+salty tears mixed blended with sweat,
+hair in my face,
+clingy shirt, heavy, 
+I unbutton. 
+
+Breathe,
+I tell myself again,
+grab my brow with both hands,
+knees on the pavement, hurt,
+blood-soaked cotton,
+I smile-
+
+Halfway,
+I sit still,
+laughing at the wound,
+soothed by the cold droplets,
+red to pink to white, peaceful,
+yet alone."
+"eventtime","2005-03-30 23:43:00"
+"current_moodid","6"
+"url","http://pater-ignatius.livejournal.com/27412.html"
+"userid","11661"
+"itemid","106"
+"event","Today I put in my notice at work, and I'm glad I did. It felt SO good.  I'm excited to be back at Safeco. I also found out today that I will be participating in the Clinic Program at AU.  This means that I get my own official clients. I will be representing low income people who have been harmed in some way and cannot afford a lawyer.  I think the clinic program is a great program. I get to be an advocate; it's a good thing. 
+
+Now, may the Lord guide me through these finals."
+"eventtime","2005-03-30 23:32:00"
+"current_moodid","58"
+"url","http://pater-ignatius.livejournal.com/27201.html"
+"userid","11661"
+"itemid","105"
+"event","This week I discovered that I will be returning to work at Safeco in Seattle over the summer.  I'm so excited to return home.  I feel like I'm a stranger here lately, living someone else's life--like I just stepped outside when everything was going right.  I'm ready to go back.  Lately, I'd give anything just to smell the salt water again, to feel the wind in my face as I ride the ferry across the Puget Sound.  It's raining there now, and the rain smells so much better there than here.
+
+Well I know this is a story I've told, but sometimes I just need to write it twice."
+"eventtime","2005-03-27 21:02:00"
+"current_moodid","90"
+"url","http://pater-ignatius.livejournal.com/26913.html"
+"userid","11661"
+"itemid","103"
+"event","Last night my two roommates from college came out for a visit, and we met up with a few other Whitman grads (2 folks on the debate team with me).  It was amazing that we managed to get 7 Whitman grads in the same restaurant in DC at the same time--trading college stories, discussing campus politics, and catching up on what everyone is doing.  I must say that I'm impressed with what my friends are now achieving.  As I looked around the room I thought:  he's getting a Ph.d. in Astrophysics; he's going to be a campaign consultant; he's going to receive a Ph.d. in Environmental Chemistry; She's getting a law degree from George Washington U; he'll have a JD from Georgetown; she's working for Joe Lieberman.  Absolutely amazing! What astounds me most is that we are the future of this country (cliche I know, but SO true). And we are only getting started."
+"eventtime","2005-03-27 08:40:00"
+"current_moodid","101"
+"url","http://pater-ignatius.livejournal.com/26549.html"
+"userid","11661"
+"itemid","102"
+"event","3 nightmares last night--woke up from a satanic dream this morning--need sleep.  I'm guessing it's all because of stress, but at some point I'm going to have to sedate myself."
+"eventtime","2005-03-26 06:08:00"
+"current_moodid","31"
+"url","http://pater-ignatius.livejournal.com/26343.html"
+"userid","11661"
+"itemid","101"
+"event","A good friend sent me a song that reminds me of SeattleImage, and when I hear this song it makes me wonder why I have ever doubted him.  Now, I just wonder when I'll smell his cologne again...
+
+Anyway, it was the highlight of an aweful week. 
+
+I'm in good company."
+"eventtime","2005-03-25 22:25:00"
+"current_moodid","70"
+"url","http://pater-ignatius.livejournal.com/26109.html"
+"userid","11661"
+"itemid","104"
+"event","Last night I had another one of my luxurious nightmares.  This time I had to perform a song for some circus monkeys.  The monkeys didn't scare me as much as the clowns.  Dude:  I'm never going to a circus.  
+
+Tonight I'm having one of those moments of wonder:  will i have to see the clowns again?  please, pretty please NO.  I'm finally able to get a full nights sleep because my class was canceled tomorrow morning, and I'd appreciate waking up feeling rested. 
+
+I'm taking the night off tonight.  I had spent most of the day working on property.  Now, I get figity just looking at my damn property text.  I managed to leave my reading for international trade at school, and, honestly, I think it's a sign that i just need to vegetate.  
+
+Does political SOaPboX:  Shiavo is all over the news, and I must weigh in on this just for a second--i'm not asking for a debate, but merely thinking out loud to myself on this journal.
+
+The death penalty--bad idea as far as I'm concerned.  I think that killing people is generally wrong.  That means I'm willing to let rapists, murderers, and psychopaths live in prison for their entire lives, and I'm okay with that.  They are doing their time and they are incapacitated from the rest of society, and they can't do anymore harm to us while they are in prison. Sure their lives may be torture, locked up like an animal, unable to communicate with the outside world, trapped in a tiny cell with your entire livelihood dependent on when the guards bring you food and drink.  For some reason the state is willing to sanction death; it is willing to gas these folks, even though DNA evidence may later prove that they were really innocent.  And there is always the risk that science will defy the most pessimistic of prognoses.  
+
+And here we are with the 11th circuit deciding that we must ""pull the plug"" on Miss Shiavo.  Why does the state feel so compelled to sanction this conduct where we are still unresolved as to whether we should even permit the state to punish our most violent criminals with murder?  I posit that Miss Shiavo's life is not any less worth living because she relies on others.  Given the amicus briefs filed on her behalf, it is apparent that there exists a question of material fact as to whether she is really conscious:  she is exhibiting brain stem functioning; she smiles--shows emotion; she moves her lips and demonstrates language ability, meaning that she has some brain functioning. Here we wonder, despite all of the pessimism, whether we were wrong in our prognosis.  Like the prisoner, Miss Shiavo is trapped, not in a cell, but in her own skin.  She is no murderer; she is no rapist; she is no psychopath.  Instead, she is guilty of one thing:  being ""helpless"" in our society, relying on her family to bring  her food and water.  
+
+Why stop there?  Last I heard:  babies required food and water too.  I'm hard-pressed to find anyone willing to justify killing them because of it. And now we are saying that we ""know"" she is not conscious. By this precedent, the courts may have justification to kill all mentally retarded children because they exhibit low brain stem function.  Like the woman on death row, we have to wonder whether DNA evidence will establish her innocence, only this time we may very well be too late.  
+
+And indeed she is experiencing torture for a crime she did not commit. Why deny her the last chance for survival; the last chance to come alive; the last chance to escape a life sentence already predetermined by the courts in this just society? 
+
+Maybe I'm wrong, but my heart tells me that denying a woman food and water because her husband signed a contract for guardianship is downright murder.  It's not like she can change her mind."
+"eventtime","2005-03-23 22:56:00"
+"current_moodid","101"
+"url","http://pater-ignatius.livejournal.com/26867.html"
+"userid","11661"
+"itemid","100"
+"event","QWlycG9ydCBFbnRyeTogDQoNCknigJl2ZSBhdHRhY2hlZCBhIGNvcHkgb2Ygc29uZyBseXJpY3MgdGhhdCBJIGZpbmQgc2VudGltZW50YWwsIGVzcGVjaWFsbHkgYWZ0ZXIgdGhpcyB0cmlwIHRvIFNlYXR0bGUuICBBcyBJIHNpdCBoZXJlIGluIHRoaXMgYWlycG9ydCB3YWl0aW5nIGZvciBteSBmbGlnaHQgdG8gYXJyaXZlLCBwYXNzaW5nIHRpbWUsIEkgcmVhbGl6ZSB0aGF0IGxvdmUgdGFrZXMgd29yaywgYW5kIEkgZG9u4oCZdCBrbm93IHdoeSBJ4oCZdmUgYmVlbiBzbyBkZXRlcm1pbmVkIHRvIHJ1biBhd2F5IGZyb20gaXQgbGF0ZWx5LiANCg0KTG92ZSBkb2VzbuKAmXQgYWx3YXlzIGhhcHBlbiB0aGUgd2F5IHlvdSB3YW50IGl0IHRvLCBidXQgaXQgd29ya3MuICBJdOKAmXMgZWFzeSB0byBzYXkg4oCcdGhpcyBpc27igJl0IG1lLOKAnSBvciDigJxJIHRoaW5rIEnigJltIHNlbGxpbmcgbXlzZWxmIHNob3J0LuKAnSAgQnV0IHdob+KAmXMgdG8gc2F5IHRoYXQgSSBkb27igJl0IGhhdmUgdGhlIGx1eHVyeSBvZiBrbm93aW5nIHN1Y2ggYSB3b25kZXJmdWwgbWFuLiAgVGhhdCBwZXJoYXBzIEkgZG9u4oCZdCBkZXNlcnZlIHN1Y2ggYSBjYXJpbmcgZ3V54oCUc29tZW9uZSB3aG8gaXMgcm91Z2h0IGFyb3VuZCB0aGUgZWRnZXMsIGJ1dCBsb3ZlcyBtZSBpbiBldmVyeSB3YXkgaGUga25vd3MgaG934oCUYSDigJxuYXBraW4gdGhhdCBpcyBzdGFpbmVkIHdpdGggdGltZSBoYXMgYSBwb2VtIG9uIGl0IHRoYXQgZGlkbuKAmXQgcXVpdGUgcmh5bWUsIGJ1dCBpdCBtYWRlIG1lIGNyeS7igJ0gIFRoYXQgaXMgaG93IEkgZmVlbCBub3cgYWJvdXQgU2VhdHRsZSBJbWFnZS4gIExvdmUgaXMgaW1wZXJmZWN0LCBidXQgdW5jb25kaXRpb25hbCwgYW5kIG5vdyBJIGNoZXJpc2ggaXQgYSB3aG9sZSBsb3QgbW9yZS4gIA0KDQpXZeKAmXZlIGJlZW4gdG9nZXRoZXIgYWJvdXQgMyB5ZWFycy4gIEkgY2FuIHNlZSBteXNlbGYgd2l0aCBoaW0gZm9yIGF0IGxlYXN0IGEgbGlmZXRpbWUgbW9yZS4uLiBJIHN1cmUgZG8gbWlzcyBoaW0uDQoNCkluIHRoZSBCYWNrIG9mIHRoZSBCb3R0b20gRHJhd2VyDQoNCkluIHRoZSBiYWNrIG9mIHRoZSBib3R0b20gZHJhd2VyIA0Kb2YgdGhlIGRyZXNzZXIgYnkgb3VyIGJlZA0KSXMgYSBib3ggb2Ygb2RkcyBhbmQgZW5kcyANClRoYXQgSSBoYXZlIGFsd2F5cyBrZXB0DQoNCkJ1dCB0aGUgbWFuIHdobyBzbGVlcHMgYmVzaWRlIG1lDQpkb2VzbuKAmXQga25vdyBpdOKAmXMgZXZlbiB0aGVyZQ0KTGl0dGxlIHBpZWNlcyBvZiBteSBwYXN0DQp0aGF0IEkgc2hvdWxkbuKAmXQgaGF2ZSB0byBzaGFyZQ0KQSBuYXBraW4gdGhhdCBpcyBzdGFpbmVkIHdpdGggdGltZSANCkhhcyBhIHBvZW0gb24gaXQgDQp0aGF0IGRpZG7igJl0IHF1aXRlIHJoeW1lDQpidXQgaXQgbWFkZSBtZSBjcnkuDQoNCkFuZCBhIERlYXIgSmFuZSBsZXR0ZXIgDQpmcm9tIGEgZGlmZmVyZW50IGd1eTsNCmhlIGJyb2tlIHVwIHdpdGggbWUsIA0KYW5kIGhlIHRvbGQgbWUgdGhhdCBJ4oCZbSBub3QgYWx3YXlzIHJpZ2h0Lg0KQW5kIGEgc3RvbGVuIGtleSBmcm9tIGFuIG9sZCBob3RlbCByb29tIGRvb3INCg0KSW4gdGhlIGJhY2sgb2YgdGhlIGJvdHRvbSBkcmF3ZXIuDQoNCkkgZG9u4oCZdCBrZWVwIHRoZXNlIHRoaW5ncyANCmN1eiBJ4oCZbSBsb25naW5nIHRvIGdvIGJhY2sNCkkga2VlcCB0aGVtIGJlY2F1c2UgSSB3YW50IHRvIHN0YXkgcmlnaHQgd2hlcmUgSeKAmW0gYXQuDQpJ4oCZbSByZW1pbmRlZCBvZiBteSByaWdodHMgYW5kIHdyb25ncyANCkkgZG9u4oCZdCB3YW50IHRvIG1lc3MgdGhpcyB1cA0KQnV0IEkgd291bGRu4oCZdCBrbm93IHdoZXJlIEkgYmVsb25nIA0Kd2l0aG91dCB0aGlzIGJveCBvZiBzdHVmZg0KDQpBIGJpcnRoZGF5IGNhcmQgDQpmcm9tIG15IGZpcnN0IGJveWZyaWVuZA0KSGUgc2lnbmVkIGl0IEkgbG92ZSB5b3UgDQpTbyBJIGdhdmUgaW4gDQpZZWEgd2Ugd2VudCB0b28gZmFyIA0KaW4gaGlzIGRhZGR54oCZcyBjYXINCg0KQW5kIHRob3NlIE1hcmRpIGdyYXMgYmVhZHMgZnJvbSA5OA0KV2UgZGFuY2VkIGFsbCBuaWdodA0KU3RheWVkIG91dCBzbyBsYXRlDQpZZWEgd2UgdGhvdWdodCB3ZSB3ZXJlIHN0YXJzDQpDbG9zaW5nIGRvd24gdGhlIGJhcnMNClRoZSBjaGFtcGFnbmUgd2FzIGNoZWFwLA0KYnV0IHN0aWxsIEnigJl2ZSBnb3QgdGhhdCBjb3JrIA0KDQpJbiB0aGUgYmFjayBvZiB0aGUgYm90dG9tIGRyYXdlcg0KDQpJ4oCZbSBub3QgdHJ5aW5nIHRvIGhpZGUgdGhlc2UgdGhpbmdzIA0KZnJvbSB0aGUgbWFuIEkgbG92ZSB0b2RheQ0KQnV0IEnigJltIGEgYmV0dGVyIFttYW5dIGZvciBoaW3igJQNClRoYW5rcyB0byBteSB5ZXN0ZXJkYXlzDQoNClNvIG5vdyBJIHRyeSB0byBnaXZlIG1vcmUgdGhhbiBJIHRha2UNCkFuZCBJIGJpdGUgbXkgdG9uZ3VlIA0KRmlnaHQgdGhlIHVyZ2UgdG8gc2F5IA0KSXTigJlzIG15IHdheSwgb3IgDQpObyB3YXkgYXQgYWxsDQoNCkFuZCBub3cgSSBjaGVyaXNoIGxvdmUgYSB3aG9sZSBsb3QgbW9yZQ0KQ3V6IG9mIHdoYXTigJlzIGluIHRoZSBiYWNrIG9mIGJvdHRvbSBkcmF3ZXIu"
+"eventtime","2005-03-20 20:05:00"
+"current_moodid","25"
+"url","http://pater-ignatius.livejournal.com/25647.html"
+"userid","11661"
+"itemid","99"
+"event","For some reason my other post didn't make it onto the journal.  To abbreviate:  I had an aweful nightmare that my plane crashed in Seattle. I'm sure it was nothing, but it gave me a little perspective on life as I depart today.  May the Lord Bless this flight. 
+
+With love."
+"eventtime","2005-03-14 11:09:00"
+"current_moodid","131"
+"url","http://pater-ignatius.livejournal.com/25385.html"
+"userid","11661"
+"itemid","98"
+"event","This week was one not to remember:  applied to clinic, jobs, turned in my HR Brief column, did edits for the past issue, and turned in my official acceptance of my invitation to the Moot Court Honor Society :-)  After competing last weekend, I was completely wiped coming into the week--but now I'm on the team, and it was all worth it.  
+
+This weekend I fly back to Seattle, and not a moment too soon. I'm making this a working break though because I fell so far behind.  I just hope that I am prepared for finals that are only a month away for 2 of my classes. 
+
+I sure can't wait to be back in seattle w/ Mr.SeattleImage(what a lucky guy I am).  Sometimes It's nice to know that someone loves me for who I am inside.  yay being back in the Northwest!"
+"eventtime","2005-03-11 21:26:00"
+"current_moodid","59"
+"url","http://pater-ignatius.livejournal.com/25108.html"
+"userid","11661"
+"itemid","97"
+"event","I issue first a disclaimer for what follows, as I just had a very long day of classes, and I'm just now getting to my journal at midnight.  So forgive my misspellings and random grammatical snafus:
+
+On the metro ride home tonight I continued reading through King Leopold's Ghost.  I'm captivated by the way the Congolese colonization is humanized in this historical piece, and I see the psychological underpinnings as well:  the need for a King of a small state to grow his empire; his need to masquerade this genocide and enslavement under the cover of regligious philanthropy.  In either case, Leopold was only a man--a man with human desires.  I'm terrified not only by what he did, but also by the way I am able to relate to both him and Henry Morton Stanley--who helped him colonize Central Africa. I sometimes forget how even the most noble minded of us all can be drawn deep into ""darkness."" 
+
+Sometimes, like Stanley, I want to run away, pretend I'm someone I'm not--put on a different mask, take on someone else's name, and create a legacy of my own.  But I don't believe I've done such things here.  While I've been conflicted over my own identity lately, I will never be so driven that I lose sight of what is important to me and where I came from.  Stanley did that. Despite his great discoveries, his true legacy remains deeply embedded within the plight of a continent and its people.  But we cannot forget his heart--that he loved and lost, that he watched his men die, and he fell into deep depression when his love left him for another man.  He cried human tears.  I'm frightened that at times in this novel I relate to the killer, yet I will forever be touched by his emotion and by his inner drive for greatness. Am I a disturbed man for feeling empathy for Stanley?  I sure hope not, because understanding the reasons why people act as Stanley did may be the only way we can prevent future atrocities."
+"eventtime","2005-02-22 23:35:00"
+"current_moodid","31"
+"url","http://pater-ignatius.livejournal.com/24995.html"
+"userid","11661"
+"itemid","96"
+"event","Today I feel like a worn page, edges slightly decayed, tiny folds and coffee-stained.  There is something mystical about dusty old books that smell like a blend of mahogany or burnt sienna and flaking paint.  Papery resin dusting each page coughs back at you when you crack it open; you have to hold the body of the book inside its unglued binding.  I guess I feel unglued lately, my exterior pulling away from my body, my unshelved self dangling precariously from thin threads, fighting desperately to stay pulled together.  I sometimes wonder if my life, having been turned upside down, might unravel onto the floor--scattered about in couplets and meters. But the rhythm of my life could never be completely reassembled.  I see myself standing in a small library in the middle of some far away town, where maple leaves turn yellow in the fall, and where people say hello at the market, and where librarians welcome you with a smile.  There I stand, looking down at those pages strewn about--bending over and trying to put it all back together by examining what had happened before and what was supposed to happen next--squinting painfully at fading page numbers to discern where I left off and where I was determined to end up. 
+
+This is how I feel with Jonathan in DC.  My life in Seattle is an old book that I've already read, and possibly even written.  I now live in a far away land where I lead a second life as a young man pouring over the epic pages of his not-so-distant youth. Soon he will get onto a train, and, as I turn chapters in my head, he'll stare out his window wondering what each new frame will bring.  Meanwhile, I am left alone in that library, hopelessly wondering if I could ever read that old story again, or if will be forced to reread it out of order and with a new set of eyes."
+"eventtime","2005-02-18 20:42:00"
+"current_moodid","48"
+"url","http://pater-ignatius.livejournal.com/24698.html"
+"userid","11661"
+"itemid","95"
+"event","I'm taking a snow day today.  Burning cucumber melon candles and listening to good musik in my room--Taking everything in because it is all happening so quickly.  
+
+A few weekdends back (it's been awhile since I've written I know) a couple very close friends came to visit.  I miss them so much.  Those girls mean so much to me.  We met in college. 
+
+I had just come out of the closet when I met lifeinwords.  She was standing outside of Lyman hall with a smoke in her hand.  It was a brisk evening, and I was on my home from a walk.  I don't remember why I was wandering around campus that night. Occasionally I would escape.  The campus was relatively small, but I found myself lost in those pathways somewhere between Maxey Hall and Lake'm Duckem. I would wander, walk, think, hope:  generally all of the above were related to my concerns about the future--where I'd end up and who I would become. I know it sounds cliche, but I really did walk around thinking about life, philosophy, sexuality.  In either respect, there is something about a nice evening that makes me want a cigarette every now and again.  I know it's cancer on a stick, but, hey, every man has his vice. And there she was standing their with that smoke in her hand.  ""Have another?"" I thought to myself, and I think eventually it came out of my mouth.  ""Sure."" And that was it.  I think we dated once, and one thing lead to another and we were best friends.  
+
+Y spelled my name in Japanese on the first day we met.  There is something about a name that describes a person's identity.  Though our initial encounter was not so philosophical.  I was touring the Whitman College interest house community during my freshman year, and she happened to be living in the Mecca House--a cultural studies interest house.  She's so damn cool!  I never would predict that she would move down stairs when I was living at College House--a dive in every respect.  Top ramen, macNcheeze, rice, and every other college food you could think of. So we ate college cuisine, but we were really there for good conversation, QueerAsFolk, and the socio-pscychological underpinnings of cats and roommates :-)  
+
+So Y knew Me and knew L and we all knew each other and we danced, and we hugged, and we even cried together.  And that was it, and it was right. 
+
+Then they arrived.  We wandered around DC in the snow, went out dancing, laughed out loud, and watched numerous episodes of MI-5 on DVD, and discussed everything from sex, to slash, to each other, and about each other's lives.  And it was right. 
+
+I sure wished I had another lifetime to spend with these girls.  And I know that if I died tomorrow, I would know that I was never truly alone.  that I loved and was loved back, and that I would be willing to do it all over again if it meant that I could know them once more, and through them know a little more about myself. 
+
+If you're reading this, I love you ladies.  You do mean the world to me: ""until it is time to be""--lifeinwords"
+"eventtime","2005-02-03 22:43:00"
+"current_moodid","58"
+"url","http://pater-ignatius.livejournal.com/24499.html"
+"userid","11661"
+"itemid","94"
+"event","Today I gave my first opening statement for my Civil Trial Practice class.  It was okay, I received some very positive as well as constructive commentary.  That was the highlight of my day.  Earlier, I had a very disappointing meeting the directors from the WCRO--i'm starting to wonder if I'll ever be happy practicing international law after this meeting.  It seems that they are never pleased with anything I write, and the Brief wants a turn around time on articles of about 2 days (unrealistic demands). But I survived this 16 hour day.  
+
+I'm excited that my girls Lyndsay and Yoko are coming to visit me this weekend!  I could sure use some friendship (and Zen) for a few days.  It is my goal to make it a priority to spend quality time with these girls. 20 years from now i will care less whether I met this deadline for the HR Brief, yet I will cherrish the memories my friends and I share for the rest of my life. Alas, the triad is complete. :-)"
+"eventtime","2005-01-18 23:48:00"
+"current_moodid","49"
+"url","http://pater-ignatius.livejournal.com/24096.html"
+"userid","11661"
+"itemid","93"
+"event","I concluded my first week at Klores and Associates on a light note. I'm remembering why it is that I am interested in the law, and for once in a very long while I'm enjoyinng the law--the practice of law, rather than its study. Classes are rather mundane, but I'm starting to feel centered again. Glad the weekend is here.  A close friend of mine from college is staying with us for a bit--looking for work with the RNC or perhaps our favorite magician: Mr. Rove.  Other then that,giving an opening statement on Tuesday. Wish me luck!"
+"eventtime","2005-01-14 18:13:00"
+"current_moodid","90"
+"url","http://pater-ignatius.livejournal.com/23914.html"
+"userid","11661"
+"itemid","92"
+"event","My semester is getting off to an ""interesting"" start.  I finally solidified my schedule and got into that civil trial practice class i've been dying to get into for the last month (yay!), and my first day at work was ""ok.""  My boss decided to keep me an hour late and then requested that I take work home with me (I opted against that. I don't want to give him the impression that I'm willing to take work home every night).  Tonight, I have an ethics class until 10pm and I'll get home around 11:30pm.  This makes for a 16.5 hour day :-)  I'm a trooper! *flexes muscles*  And now I ponder how I will get balance when, in these 16.5 hours I've yet to pick up a book and do homework for tomorrow.  Tonight, as I ride home on the train, I think i'm going to evaluate how I will fix this schedule so that it doesn't become a pattern of sleeplessness and self-immolation.  I think that, with the right planning, I can make this all work."
+"eventtime","2005-01-10 19:33:00"
+"current_moodid","107"
+"url","http://pater-ignatius.livejournal.com/23640.html"
+"userid","11661"
+"itemid","91"
+"event","RGVhciBWb2lkOg0KCUnigJltIHNpdHRpbmcgaW4gdGhlIFNlYVRhYyBhaXJwb3J0LCB3YWl0aW5nIGZvciBteSBmbGlnaHQsIGFuZCB3b25kZXJpbmcgd2h5IEkgZXZlciBkZWNpZGVkIHRvIGxlYXZlLiAgSSB1bmRlcnN0YW5kIHRoZSBvcHBvcnR1bml0aWVzIGF2YWlsYWJsZSBpbiBEQywgeWV0IEkgcmVzaXN0IGl0IHNvIG11Y2guICBJdCBpcyBzbyBoYXJkIHRvIHNlZSB0aGUgY2FyZWVyIGFkdmFudGFnZXMgb2YgYW4gZWFzdCBjb2FzdCBlZHVjYXRpb24gd2hlbiBJ4oCZbSBsZWF2aW5nIHN1Y2ggYSB3b25kZXJmdWwgZ3V5IGJlaGluZCBtZSBpbiBTZWF0dGxlLiAgRXZlbiB3aXRoIGFsbCBvZiBvdXIgZGlmZmVyZW5jZXMsIEkgZG9u4oCZdCBiZWxpZXZlIEnigJlsbCBmaW5kIGFueW9uZSBsaWtlIGhpbeKAlGV2ZXIgYWdhaW4uICBEZXNwaXRlIHRoZSB1bnJlbGVudGluZyBzdHJ1Z2dsZSBmb3IgZ2F5IG1hcnJpYWdlIGluIHRoaXMgY291bnRyeSwgSSBzdGlsbCBmZWVsIGFzIHRob3VnaCBKb25hdGhhbiBhbmQgSSBhcmUgdHJlYWRpbmcgbmV3IHdhdGVyLiAgV2hhdCB2b3dzIGRvIHdlIGtlZXAsIHdoYXQgcGFzc2lvbnMgZHJpdmUgb3VyIHVuaW9uLCBhbmQgdHN1bmFtaXMgYXJlIHdlIHdpbGxpbmcgdG8gd2VhdGhlcj8gIEkga25vdyB0aGF0IHRoZSBjb21pbmcgd2Vla3Mgd2lsbCBiZSB0b3VnaCBmb3IgaGltLCBhbmQgSSBjYW4gc2VlIHRoZSBzdHJlc3Mgd2VhcmluZyBjaXJjbGVzIGFyb3VuZCBoaXMgZXllczogIG1lZGljYWwgYmlsbHMsIGRyaXZpbmcgcmVzdHJpY3Rpb25zLCBiaXR0ZXIgZGlzYWdyZWVtZW50cyB3aXRoIGhpcyByb29tbWF0ZSwgYW5kIGp1c3QgcHVyZSBhZ2l0YXRpb24gZnJvbSBoaXMgZGlhZ25vc2lzLiBBbmQgbm93LCBJ4oCZbSBsZWF2aW5nIG9uIGEgamV0IHBsYW5lLiANCglJIG1ldCB3aXRoIG15IG9sZCBib3NzLCBhbmQgSSB0aGluayB0aGVyZSBpcyBncmVhdCBwb3RlbnRpYWwgZm9yIG15IHJldHVybiB0byBTZWF0dGxlIGZvciB0aGUgc3VtbWVyLiAgVGhleSBzZWVtZWQgaW1wcmVzc2VkIHdpdGggbXkgcGFzdCBwZXJmb3JtYW5jZSwgYW5kIG91dHJpZ2h0IGFza2VkIG1lIGlmIEkgd2FudGVkIHRvIGNvbWUgYmFjay4gIEkgZW5qb3llZCB3b3JraW5nIHdpdGggdGhlbSwgYW5kIEkgY2FuIHNlZSBteXNlbGYgcmV0dXJuaW5nIGluIHRoZSBmdXR1cmUsIGJ1dCB0aGF0IHJlbWFpbnMgdG8gYmUgZGV0ZXJtaW5lZC4gICANCg0KUmVzb2x1dGlvbnMgd2l0aG91dCBSZWdyZXQ6DQoJU2luY2UgSSBoYXZlbuKAmXQgcG9zdGVkIGEg4oCcTmV3IFllYXJzIFBvc3Qs4oCdIEkgZmlndXJlZCBJ4oCZZCBkbyBpdCBub3cuIEluIHRoZSBzcGlyaXQgb2YgdGhlIGhvbGlkYXksIEnigJl2ZSBjcmFmdGVkIGEgZmV3IHJlc29sdXRpb25zIGFzIGZvbGxvd3M6DQoJMS4gIEJlIGl0IHJlc29sdmVkIHRoYXQgSSBzaGFsbCB3YWxrIG1vcmUgcGVhY2VmdWxseSB3aXRoIHRoZSBMb3JkLiAgSSBzaGFsbCBhdm9pZCBiZWluZyBkaXN0cmFjdGVkIGJ5IHRoZSBwYXNzaW9ucyBvZiBvdGhlcnMgYW5kIHJlbWVtYmVyIHRoYXQgbXkgd29yayBpcyBub3QgZm9yIHRoZSBwcm9kdWN0aW9uIG9mIG1hdGVyaWFsIHBvc3Nlc3Npb25zLiBSYXRoZXIsIHRoZXNlIG1hdGVyaWFsIG9iamVjdHMgbWVhbiBub3RoaW5nIGlmIG5vdCBhY2NvbXBhbmllZCBieSBnb29kIGZyaWVuZHMsIGJhbGFuY2UsIGFuZCBoZWFsdGg6IGJvdGggcHN5Y2hvbG9naWNhbCBhbmQgcGh5c2ljYWwuDQoJMi4gIEJlIGl0IHJlc29sdmVkIHRoYXQgSSB3aWxsIGJlIGRpc2NpcGxpbmVkIGluIHNjaG9vbC4gIEl0IGlzIGVhc3kgdG8gYmUgc3RlZXJlZCBpbiB0aGUgd3JvbmcgZGlyZWN0aW9uIGJ5IGZyaWVuZHMgd2hvIGJlbGlldmUgdGhhdCBzdHVkeWluZyBpcyBhIGJhZCB3b3JkLiAgSSBzaGFsbCBrZWVwIGEgc2NoZWR1bGUgYW5kIHN0aWNrIHRvIGl0LiBUaGF0IHNjaGVkdWxlIHNoYWxsIGluY2x1ZGUgdGltZSBmb3Igc3R1ZHksIGV4ZXJjaXNlLCBsZWlzdXJlLCB3b3JrLCBhbmQgcmVsYXRpb25zaGlwcy4gIA0KCTMuICBCZSBpdCByZXNvbHZlZCB0aGF0IEkgd2lsbCBleHByZXNzIG15IGFydGlzdGljIGFiaWxpdHkgdGhyb3VnaG91dCB0aGUgeWVhciwgYW5kIEkgbWF5IGNvbnNpZGVyIHBlcmZvcm1pbmcgaW4gYSBjaG9yYWwgZW5zZW1ibGUgb25jZSBhZ2Fpbi4gIEF0IHRoZSB2ZXJ5IGxlYXN0LCBJIG5lZWQgdG8gY2F0Y2ggYSBzeW1waG9ueSBjb25jZXJ0IHdpdGggSm9uYXRoYW4gb3ZlciB0aGUgc3VtbWVyLiANCgk0LiAgQmUgaXQgcmVzb2x2ZWQgdGhhdCBJIHNoYWxsIGF2b2lkIG5lZ2F0aXZlIGFuZCBwZXNzaW1pc3RpYyB0aG91Z2h0cyBhYm91dCBteXNlbGYuICBJIGhhdmUgd29ya2VkIGhhcmQgdG8gZ2V0IHdoZXJlIEkgYW0gdG9kYXksIGFuZCBJIHdpbGwgYmUgcHJvdWQgb2YgdGhlIG91dGNvbWUuIFRoYXQgbWVhbnM6ICBhdm9pZCB3aGluaW5nIGFib3V0IG15IHdvcmssIGFuZCBqdXN0IGRvIGl0IGRhbW4gaXQuIExpZmXigJlzIGJldHRlciB0aGF0IHdheS4gDQoJNS4gIEJlIGl0IHJlc29sdmVkIHRoYXQgSSB3aWxsIHdhdGNoIGNvb2wgbW92aWVzIHRoYXQgY29tZSBvdXQgdGhpcyB5ZWFyOiAgQmF0IE1hbiBCZWdpbnMsIFdhciBvZiB0aGUgV29ybGRzLCBFcGlzb2RlIElJSSwgTmFybmlhIENocm9uaWNsZXMsIE1lbW9pcnMgb2YgYSBHZWlzaGEsIGFuZCBtYXliZSAoaWYgSeKAmW0gcHN5Y2hvbG9naWNhbGx5IHR3aXN0ZWQgZW5vdWdoKSBDaGFybGllIGFuZCB0aGUgQ2hvY29sYXRlIEZhY3Rvcnku"
+"eventtime","2005-01-08 21:51:00"
+"current_moodid","43"
+"url","http://pater-ignatius.livejournal.com/23497.html"
+"userid","11661"
+"itemid","90"
+"event","Freidrich Nietzsche once stated that ""[t]he individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself.""
+
+In college, I once arrogantly expressed that I ""knew my self,"" in that I knew who once I was or currently am at the present time.  ""I"" was independent, outgoing, strident, and courageous.  Today, I am unsure, and I wonder whether I will ever understand this ""self"" if indeed it is a social construct. In short, if I don't anymore understand who I am; how am I ever to truly ""own"" my selfhood.  
+
+Lately my identity has become interwoven into the fabric of my relationship, and I wonder whether I will ever be able to extrapolate my desires and greatest insights from this patchwork of ""me"" and ""him."" In either case, I sense that this personal dilemma underlies my current depressive episode. 
+
+So who was I before? I was a man of conviction. I enjoyed performing in the symphony chorus. I performed in a Jazz Ensemble. I read poetry and discussed Michel Foucault's Discipline and Punish and the History of Sexuality with friends.  I was postmodernist of the most cosmopolitan men, and I entertained ""fantasy"" as the new realm of what my good friend L once described as ""neocreativism.""  I used to dance on the weekends to house musik and rendezvous with close friends at Coffee Perk in Walla Walla.  I used to run in the wheat fields at 6am just to see the sunrise.
+
+Who am I now? I haven't the slightest idea.  As most social constructionist propose, I am continuing to pour my self into a medium from which I shall glean a reflection. I can only hope that time will reveal a self image that I am both willing to accept and ""own"" without further tearing the fabric that I have taken so much time and effort to mend."
+"eventtime","2005-01-05 01:24:00"
+"current_moodid","39"
+"url","http://pater-ignatius.livejournal.com/23236.html"
+"userid","11661"
+"itemid","89"
+"event","As many of you know, I've been drafting status updates for the War Crimes Research Office and drafting judgment summaries for the International Criminal Tribunal for Rwanda (on the conviction of Laurent Semanza for genocide, war crimes, and crimes against humanity).  After coauthoring an article on the socio-psychological dimensions of resource-induced armed conflict for the first time in the Journal of Social Issues,I am now making a debut in the arena of international law.  Today, I received my first copy of The Human Rights Brief in which I maintain a column on the International Criminal Court and the Special Panels for Serious Crimes in East Timor. 
+
+Check it out! http://www.wcl.american.edu/hrbrief/"
+"eventtime","2004-12-30 19:02:00"
+"current_moodid","41"
+"url","http://pater-ignatius.livejournal.com/22930.html"
+"userid","11661"
+"itemid","88"
+"event","In the Iliad, Homer's Achilles dies after defeating his mightiest foe, Hector, the Trojan hero. The arrogant Achilles desecrated Hector's body, thus angering the god Apollo. Achilles infuriated Apollo so much that he guided an arrow to Achilles's vulnerable heel in a fit of rage. This previously invincible champion was mortally wounded. His hubris, rather than his heel, proved his greatest limitation.
+
+Touched by my partner's new struggle with epilepsy, I find myself revisiting this pivotal theme from Homer's epic.  Perhaps I will never truly understand what drives a man whose health restricts his liberty, his ability to fight or take flight. However, I cannot forget the message once imbued by a fellow classmate.  Facing the agonizing death of her grandmother, she pondered whether Achilles was ""too proud to sit in a wheel chair."" I remember the tears pouring from her eyes as she read this statement, and her tears jolted me to the realization that our world's greatest heroes emerge from the most insidious of circumstances.  They are not the knights of the round table, nor the warriors of epic poems. Instead, they are our grandmothers and partners; they are ones we love in times most dyre and most emotionally demanding.  
+
+Now I must challenge my hero to trust me.  For once in his life, he must stand back and permit me to shield him from the peril of Appollo's arrow.  I implore you:  let your true vulnerability be known, and let neither hubris nor heel bring about your downfall."
+"eventtime","2004-12-27 10:37:00"
+"current_moodid","43"
+"url","http://pater-ignatius.livejournal.com/22768.html"
+"userid","11661"
+"itemid","87"
+"event","Happy Holidays to my LJ friends! I enjoyed stuffing my face with turkey and sweets all day.  My brother and his family dropped over for the first time in years to surprise my mother on Christmas.  Everyone got all teary eyed, and, for the first time in almost a decade, I felt like I had a family again.  Yesterday, 5 out of the 6 kids were able to make it to my niece's birthday party, and today 5 of us were again at home--the remaining 1 called because she was celebrating the holiday with her partner and four kids at home.  On this rare occasion, I felt like myself again--remembering who I once was and who I am today.  I realized how much my personality reflects my siblings, and I never want to lose that.  While law school continues to influence my personality, I hope to maintain the color and humor with which I was raised."
+"eventtime","2004-12-25 18:10:00"
+"current_moodid","60"
+"url","http://pater-ignatius.livejournal.com/22328.html"
+"userid","11661"
+"itemid","86"
+"event","In class, my teach hands out another handout,
+Thought I had the answer,
+but can't answer for it.
+
+Then, a stranger walks in, asks me if I 
+understand, but I don't. 
+So I pick up the phone.
+It rings. Hello? 
+
+I get directions cuz I'm hungry.
+Wasn't hungry before, but now I'm walking--
+Walking with Him on the line.
+
+Turn left. Then turn right. Follow the light
+until you get to the end of the line.
+It's at the intersection of Sooner and 9th
+you have plenty of time, but stay on the line.
+
+I'm wandering in wonder, 
+Half awake, yet fast asleep.
+Are you there? Can you hear me? 
+Should I follow the sheep?
+
+No, it's only 1 more block,
+Just stay on the line, 
+We need to talk, so walk.
+
+""I'm lost, Did I make a wrong turn?
+I smell a pizza, smells good,
+but it's starting to burn.""
+Never thought I'd blow off classes to learn.
+
+""No you're right, up just another flight.""
+One step and lost connection; 
+had a feeling I might. 
+
+There's a name on the door. 
+I knocked and I waited
+Got another call, ""are you there..."" 
+Signal faded."
+"eventtime","2004-12-21 20:14:00"
+"current_moodid","101"
+"url","http://pater-ignatius.livejournal.com/22016.html"
+"userid","11661"
+"itemid","85"
+"event","For law students! yay : http://www.fuzzydice.com/~holohan/20030428.html"
+"eventtime","2004-12-19 10:45:00"
+"current_moodid","115"
+"url","http://pater-ignatius.livejournal.com/21884.html"
+"userid","11661"
+"itemid","84"
+"event","In T-3 hours, I will be en route to Seattle.  Last night Jonathan had a seizure (came out of nowhere), and was rushed to the emergency room in an ambulance.  Thank God his roommate was there to call 911.  He's doing okay it seems--coherent, remembers what happened, and the doctors are now saying that it was a lack of sleep. I feel a bit guilty keeping him up the other night as I drafted that take home exam.  In either respect, it scared the hell out of me and provided a sense of mortality in a way that nothing else could, and I can't wait to get into town so I can take care of him.  I sure miss him.  
+
+If only I had been there; if only I could reassemble the ""peaces,"" and lay my lips upon this wounded soldier."
+"eventtime","2004-12-18 11:57:00"
+"current_moodid","132"
+"url","http://pater-ignatius.livejournal.com/21684.html"
+"userid","11661"
+"itemid","83"
+"event","It's raining in Seattle right now, and I miss it. There is something about the smell of fresh rain that simply cannot be duplicated by an air freshener or a bottle of shampoo; or the feeling of cold droplets on your brow when you've been sweating and hiking around the city.  Who knew I'd miss it so much:  the sound of windshield wiper blades squeaking across the windshield, a heater blowing, the almost inaudible crackle of talk-news radio, the smell of blended exhaust and a warm cup of black coffee.  Am I weird for thinkin this is all much nicer than the crowded subway at 7am, the rude checker at CVS, or the humidity of DC in the summer? DC has so much charm, politics, Dupont circle on a bustling night.  But tomorrow I step onto a plane, and move back to my ""other life,"" --the place I call ""home,"" with friends, family, Jonathan-->  no this isn't the opening of the next AT&T commercial.  I simply want to be in that open space again.  I miss having a place to jog, performing in the symphony chorus, and spending many a night chatting with friends over late night coffee--NW coffee, where barrista's know what they're doing.   Mt Rainier, the space needle, a morning ferry ride, King5 news, and falling asleep by the fire--This is my agenda for the next 3 weeks, and I love it.
+
+P.S.  An all night long-24 hour final exam is bad news. That POS constitutes nothing more than an affront to BAD teaching, and punishment for the diligent law student.  Fuck it. I'm glad that's over."
+"eventtime","2004-12-17 16:44:00"
+"current_moodid","31"
+"url","http://pater-ignatius.livejournal.com/21260.html"
+"userid","11661"
+"itemid","82"
+"event","Confucious once said that ""our greatest glory is not in never falling, but in rising every time we fall.""  Aside from the double negative, his statement is on point, and I'm wondering when my resiliense will return. My final exam of the semester is tomorrow:  international law.  I was going to study for it, but it's a 24 hour take home exam, and I'm not sure I want to exhaust my energy preparing by reading everything over again only to discover that the questions cover about 4 or 5 key issues.  So I'll wait and see what I'm up against.  It probably wouldn't hurt to restore balance to my life in the meantime: talk to Jonathan, have dinner with my roomie, and wander around Arlington in the cold.  2 more days before I can fly home, and oh how falling makes me truly want to fly. 
+
+""Even the best fall down sometimes. Even the stars refuse to shine. Out of the back you fallin time, but somehow find, you and I collide.""--Howie Day"
+"eventtime","2004-12-15 17:32:00"
+"current_moodid","101"
+"url","http://pater-ignatius.livejournal.com/21212.html"
+"userid","11661"
+"itemid","81"
+"event","One more final to go!  I am very excited to be winding up this semester.  Tonight I'm avoiding my international law books--day dreaming about being home, laying in bed all day with a cup of coffee, my laptop, the news, and my number 1 guy.  I can't believe how much has happened in these few months:  moving, starting over, meeting new people, leaving friends and family.  And now I'm learning not to predict what might or might not happen in the future. This winter I will be meeting up with a friend from a long time ago. It is so amazing how we've both changed in the last 10 years:  she's got 2 kids, a house, a husband--and I have Mr. Seattle and 1.5 years of school left before I'm a lawyer.  But she's still one of my greatest inspirations, one of my best friends, and her kids call me ""uncle."" :)  I miss the northwest so much right now.  The Mr. is taking me to a nice dinner at the space needle when I arrive, then we get to catch a Dolly Parton concert ! (who knew gays liked big tits ;-)) Mom's going to make a nice holiday dinner too; it'll be interesting to break bread with both my guy and my mother at the same time."
+"eventtime","2004-12-13 22:59:00"
+"current_moodid","70"
+"url","http://pater-ignatius.livejournal.com/20988.html"
+"userid","11661"
+"itemid","80"
+"event","Last night I attended a nice dinner with some friends to celebrate my birthday.  I enjoyed their company, but I'm realizing how divergent my views are from most of the population, or, alternatively, how unwilling I am to pigeon hole myself into a political party.  I refuse to submit to the liberalism/conservatism binary because these categories do nothing more than divide the world rather than unite.  Perhaps it is in my nature as a bridge-builder.  I'm convinced that my roommate thinks I simply have a fear of confrontation, but anyone who really knows me understand that I am happy speaking my mind when the time permits--I'm simply a man of strategic convenience, and I pick my battles selectively. 
+
+What compelled this theoretical discussion of the American paradigmatic drift?  I spent a good portion of my birthday listening to people bloviate about how aweful George Bush is (which is fine because people really are entitled to their own political opinions, and, at times, I quite agree). HOWEVER, the following statements contravene my more moderate views: ""This election demonstrated just how DUMB most American's are.""  ""I can't believe how STUPID people are."" These views demonstrate WHY the democratic party has lost touch with the political center.  Whether the party's views have ""drifted"" further to the left is irrelevant--the party cannot hold until it realizes that the political center steers away from pushy and elitest views--be they liberal or conservative.  Entrenched in the more recent dialogue are multiple assumptions about ""backwater"" bible belters who voted for Bush who have ""low IQs"" and ""no education.""  Clearly, those who maintain different political leanings must be ""stupid."" I mean, afterall, if they don't agree with me it must be because they don't have college educations, a more ""cultured"" upbringing, or they simply ""lack class.""  
+
+I honestly could care less if people's paradigms diverge from my own. I merely expect my friends to be more considerate and open minded about the world. Rather than comment on others lack of intelligence, why not simply discuss the facts, current events, and the greater concerns that you hold.  Why not discuss the failing social security system, the current war in Iraq, the push to ban gay marriage, the No Child Left Behind Act, or healthcare?  Why not analyze the issues that underlie your opinion rather than result to knee jerk comments about the ""other party?""   
+
+Even more troubling is that some of my ""friends"" think that the party will win the next election if it can find a candidate from a midwest or western state becuase OBVIOUSLY this would change people's views of the world and convince them that party is not really on an ELITEST pedastal that is both IGNORING and RIDICULING mainstream America.  NO, not everyone in ""red states"" hate gays.  No, not all minorities vote democrat.  My greatest frustration is that the same people who champion the liberal TOLERANCE of blacks, gays, and the impoverished, are sometimes those who have hurt me the most.  Last night one of my ""friends"" made the following comment about his Filipino friend:  ""He speaks Tagalog which is one of the most WORTHLESS languages in the world.""  This is the SECOND time and a SECOND occasion in which I've heard RACIST comments from a man that preaches acceptance.  How can a man who identifies with a more ""cultured, diverse, and tolerant"" political leaning be so damn IGNORANT?  The first time he made such a statement, I gave him latitude.  The second time--he's just stomping on my culture. Perhaps I need to ask him why he acts in this way. Perhaps I need to bridge build some more.  Perhaps I need to extend him an olive branch. Maybe he just needs to understand that ""making fun"" of my Filipino race is simply not funny. It seems that ""rising above"" the commentary is growing old. 
+
+I am actually very appreciative that my friends on this LJ have more than demonstrated that they not only understand my views, but they are willing to respect my opinion even if it differs from their own.(love you!).  My only concern is that I will forever be disenfranchised by 2 parties that insist that if you are not with them, you are against them."
+"eventtime","2004-12-12 09:42:00"
+"url","http://pater-ignatius.livejournal.com/20616.html"
+"userid","11661"
+"itemid","79"
+"event","Less than 24 hours before my business associations final and I am fucking PUMPED with caffeine.  Shakes , figits, races through the elements of the zapata test in my head.  Time to order pizza to break this hyperactive state.  Fears moment when I crash.  Wonders, when will this all stop: less than 24 hours will be done with this class, yay!  okay, must think straight, get back to work, wait for pizza, and jog a lap around the block.
+
+This class fucking sux ass!"
+"eventtime","2004-12-07 12:41:00"
+"current_moodid","52"
+"url","http://pater-ignatius.livejournal.com/20317.html"
+"userid","11661"

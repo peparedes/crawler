@@ -1,0 +1,628 @@
+"names","values"
+"itemid","41"
+"event","SSdtIHN0aWxsIGluIFdhcGFrb25ldGEsIHJlcG9ydGluZyBhcyBhIHJlcG9ydGVyIGF0IHRoZSBXYXBha29uZXRhIERhaWx5IE5ld3MuIE1hbiwgaXQgc3Vja3MuIEJ1dCBldmVyeSBvbmNlIGluIGF3aGlsZSBJIGhhdmUgYSByZWFsbHkgaW50ZXJlc3RpbmcgaW50ZXJ2aWV3LiBIb3dldmVyLCB0b2RheSBJIGhhZCBhIHJlYWxseSBmdW5ueSBpbnRlcnZpZXcgd2l0aCBhIEJyaXRpc2ggc29jY2VyIGNvYWNoLg0KDQpUaGlzIGd1eSBoYWQgY29tZSB0byBXYXBha29uZXRhIHdpdGggc29tZSBvdGhlciBCcml0b25zIHRvIGdpdmUgc29jY2VyIGxlc3NvbnMgdG8gbG9jYWxzLCBhbmQgSSB3YXMgc2VudCB0byBpbnRlcnZpZXcgdGhlIHJpbmdsZWFkZXIuIFdlIHdlcmUgY2hhdHRpbmcsIGFuZCBoZSBtZXRpb25lZCB0aGUgbmFtZSBvZiB0aGUgZmFtaWx5IGhlIGlzIGxpdmluZyB3aXRoLiBGb3IgYWNjdXJhY3kncyBzYWtlLCBJIGFza2VkIGhpbSB0byBzcGVsbCB0aGUgbmFtZSBvZiB0aGUgZmFtaWx5Lg0KDQoiQuKApmHigKZ1aOKApnVo4oCmIGXigKZ04oCmdCwiIGhlIHNhaWQuDQoNCiJJJ20gc29ycnksIEJhZXR0PyIgSSBhc2tlZC4gS2VlcCBpbiBtaW5kLCB0aGVyZSB3ZXJlIGFwcHJveGltYXRlbHkgZm91ciBkb3plbiBraWRkaWVzIHNpdHRpbmcgaW4gdGhpcyBwYXZpbGlvbiwgYW5kIHRoZWlyIHZvaWNlcyB3ZXJlIGVjaG9pbmcgbGlrZSBtYWQuIEhpcyBhY2NlbnQgd2FzIGhhcmQgZW5vdWdoIHdpdGhvdXQgdGhlIGFkZGVkIG5vaXNlLg0KDQoiTm8sIiBoZSBzYWlkLiAiQuKApmHigKZkb3VibGUtdWgsIGXigKZ04oCmdC4iDQoNCiJEb3VibGUtdWgsIiBJIHRob3VnaHQgdG8gbXlzZWxmLg0KDQoiT2ghIEFyLCBhciwiIEkgc2FpZC4NCg0KIlllYWgsIiBoZSByZXNwb25kZWQuICJCYXJyZXR0LiIgDQoNCkFueXdheSwgbWF5YmUgeW91IGhhZCB0byBiZSB0aGVyZS4NCg0KT3RoZXIgbmV3cywgb3RoZXIgbmV3c+KApiBXZWxsLCBJJ20gaGFwcGlseSBtYXJyaWVkIHRvIENocmlzdGluZSBSZWJlY2NhIFNoYWZlciwgYW5kIHRoaW5ncyBhcmUgZ29pbmcgd2VsbCwgdGhvdWdoIGF0IHRoZSBtb21lbnQgdGhpbmdzIGFyZSBhIGJpdCBoZWN0aWMuDQoNCkp1c3QgYXMgYSBzaWRlbm90ZTogYW55b25lIHRoaW5raW5nIG9mIGdldHRpbmcgbWFycmllZCBzaG91bGQgZmlnaHQgKHZlcmJhbGx5ISkgd2l0aCB0aGVpciBmaWFuY8OpZS9maWFuY2Ugb3Igc2lnbmlmaWNhbnQgb3RoZXIuIENocmlzdGluZSBhbmQgSSBsZWFybmVkIGhvdyB0byBmaWdodCBhbmQgaG93IG5vdCB0byBmaWdodCBiZWZvcmUgd2Ugd2VyZSBtYXJyaWVkIGFuZCBub3cgdGhhdCB3ZSBhcmUgd2UgaGFyZGx5IGZpZ2h0IGF0IGFsbCEgQW55d2F5Lg0KDQpJIGRlY2lkZWQgSSdkIGxpa2UgdG8gZ28gdG8gc2VtaW5hcnksIGFuZCBoYXZlIGFwcGxpZWQgdG8gYSBzZW1pbmFyeSB0aGF0IHdpbGwgaGF2ZSBhIGJyYW5jaCBjYW1wdXMgaW4gTWljaGlnYW4uIFRoYXQgaW4gaXRzZWxmIHdhc24ndCBhIHByb2JsZW0gdW50aWwgd2UgZm91bmQgb3V0IHRoYXQgQ0hSSVNUSU5FIElTIFBSRUdOQU5UISBBIGxpdHRsZSBTaGFmZXI/IE1ZIGxpdHRsZSBTaGFmZXI/IENyYXp5Lg0KDQpTbyB3ZSdyZSBnb2luZyB0byBtb3ZlIHRvIHRoZSBUb2xlZG8gYXJlYSB0byBiZSBhcm91bmQgdGhlIGdyYW5kcGFyZW50cyBhbmQgSSdtIGhvcGluZyB0byB3b3JrIGR1cmluZyB0aGUgd2VlayBhbmQgdGFrZSBjbGFzc2VzIG9uIHRoZSB3ZWVrZW5kLiBGb3J0dW5hdGVseSwgdGhlIGNsYXNzZXMgYXQgdGhlIGJyYW5jaCBjYW1wdXMgd2lsbCBiZSBvZmZlcmVkIG9uIEZyaWRheSBldmVuaW5ncyBhbmQgU2F0dXJkYXkgbW9ybmluZ3MsIHNvIEknbGwgYmUgYWJsZSB0byBoYXZlIGEgZnVsbC10aW1lIGpvYi4gQnkgdGhlIHdheSwgZHJvcCBhbnkgY29udGFjdHMgZm9yIG1lLCBJIHN0aWxsIG5lZWQgYSBqb2IuDQoNCldlbGwsIHRoYXQncyBhYm91dCBpdCwgZm9yIG5vdy4gRXhjaXRpbmcgdGltZXMgYWhlYWTigKY="
+"eventtime","2005-07-22 16:45:00"
+"current_moodid","99"
+"url","http://thatandykid.livejournal.com/10707.html"
+"userid","15402"
+"itemid","40"
+"event","SnVzdCBiZWNhdXNlIEknbSBhIENocmlzdGlhbiBkb2Vzbid0IG1lYW4gSSBoYXZlIHRvIGxpa2UgdGhlIGRlYXRoIHBlbmFsdHkuwqA8RElWPjxCUiBjbGFzcz0ia2h0bWwtYmxvY2stcGxhY2Vob2xkZXIiPjwvRElWPjxESVY+SSB3YXMgdGFsa2luZyB0byBzb21lIHBlb3BsZSBhdCBteSBjaHVyY2ggYW5kIEkgYnJvdWdodCB1cCB0aGUgZGVhdGggcGVuYWx0eSBpc3N1ZSBiZWNhdXNlIEkgd2FzIHRhbGtpbmcgYWJvdXQgaG93IEkgZG9uJ3QgZmVlbCB0aGF0IEJ1c2ggaXMgYWR2YW5jaW5nIGFueSBvZiB0aGUgaXNzdWVzIEkgZmVlbCBhcmUgaW1wb3J0YW50IGFuZCB0aGF0IEkgdm90ZWQgZm9yIGhpbSBiZWNhdXNlIG9mIHRoaXMgcGVyY2VpdmVkIHNoYXJlZCB2aWV3Lg0KDQpXaGV0aGVyIG9yIG5vdCBCdXNoIGhhcyBkcm9wcGVkIHRoZSBiYWxsLCBJIG5vdGljZWQgdGhhdCBDaHJpc3RpYW5zIGFyZSByZWFsbHkgZm9yIHRoZSBkZWF0aCBwZW5hbHR5IGFuZCBhZ2FpbnN0IGFib3J0aW9uLsKgPC9ESVY+PERJVj48QlIgY2xhc3M9ImtodG1sLWJsb2NrLXBsYWNlaG9sZGVyIj48L0RJVj48RElWPkkgdXNlZCB0byBiZSBhbGwgZm9yIHRoZSBkZWF0aCBwZW5hbHR5LiBJIGhlYXIgYWJvdXQgdGhlc2UgcGVvcGxlIHdobyBkbyBob3JyaWJsZSB0aGluZ3MsIGFuZCBJIHRoaW5rLCAiTWFuLCB0aGF0IHN1Y2tzLiIgQW5kIEknbSB0ZW1wdGVkIHRvIHdpc2ggZGVhdGggdXBvbiB0aGVtIGFzIGEgcGVuYWx0eS4gQnV0IHlvdSBrbm93IHdoYXQ/IFRoZXJlJ3Mgbm90aGluZyBHb2QgY2FuJ3QgZG8sIGFuZCB0aGVyZSdzIG5vIHJlYXNvbiB0byB0aGluayB0aGF0IEdvZCBjb3VsZG4ndCBjaGFuZ2UgdGhhdCBwZXJzb24ncyBoZWFydCB0aGUgc2FtZSB3YXkgaGUgY2hhbmdlZCBQYXVsJ3MuwqANCjwvRElWPjxESVY+PEJSIGNsYXNzPSJraHRtbC1ibG9jay1wbGFjZWhvbGRlciI+PC9ESVY+PERJVj5NeSBvbmUgcXVlc3Rpb24gdGhhdCBtdXN0IGJlIGFuc3dlcmVkIGJlZm9yZSBJIGNhbiBzdXBwb3J0IHRoZSBkZWF0aCBwZW5hbHR5IGlzIHRoaXM6ICJXaHkgbXVzdCB0aGV5IGRpZT8iIFdoeSBjYW4ndCB3ZSBqdXN0IGxvY2sgdGhlbSB1cCBhbmQgdGhyb3cgYXdheSB0aGUga2V5IGFuZCBuZXZlciBsZXQgdGhlbSBzZWUgdGhlIGxpZ2h0IG9mIGRheSBhZ2Fpbj/CoA0KPC9ESVY+PERJVj4xLikgR29kIGlzIHRoZSBqdWRnZSwgYW5kIEdvZCBhbG9uZSwgSSB0aGluaywgc2hvdWxkIGRlYWwgb3V0IGRlYXRoIGFuZCBqdWRnbWVudC7CoDwvRElWPjxESVY+Mi4pIERlYXRoIGlzIG5vdCB0aGUgd29yc3QgdGhhdCB3ZSBjb3VsZCBtYWtlIGEgIHBlcnNvbiBnbyB0aHJvdWdoLiBIYXMgYW55b25lIHNlZW4gdGhlIG1vdmllLCAiUGFwaWxsb24/IiBJdCdzIGFib3V0IGEgZ3V5IGluIGEgRnJlbmNoIHByaXNvbiB3aG8ga2VlcHMgZ2V0dGluZyB0aHJvd24gaW50byBzb2xpdGFyeSBjb25maW5lbWVudCBhbmQga2VlcHMgZmluZGluZyB3YXlzIHRvIGVzY2FwZSB3aGVuIGhlJ3MgdGFrZW4gb3V0LiBJJ2xsIHRlbGwgeW91IHdoYXQsIGtpbGwgbWUgYW55IGRheSB5b3Ugd2FudCwganVzdCBkb24ndCB0aHJvdyBtZSBpbnRvIGEgZGFuayByb29tIHdpdGggY29ja3JvYWNoZXMsIG5vIGh1bWFuIGNvbnRhY3QsIGRhcmtuZXNzLCBhbiBhaXIgaG9sZSBhbmQgY3JhcHB5IGZvb2QuwqA8L0RJVj48RElWPjMuKSBBcyBJIHNhaWQsIEdvZCBjYW4gY2hhbmdlIGhlYXJ0cy7CoA0KPC9ESVY+PERJVj48QlIgY2xhc3M9ImtodG1sLWJsb2NrLXBsYWNlaG9sZGVyIj48L0RJVj48RElWPkkgcmVjZWl2ZWQgYSBudW1iZXIgb2YgYW5zd2VycyBmcm9tIHBlb3BsZSB0aGF0IGdhdmUgYSBzb3J0LW9mIGRlZmVuc2Ugb24gd2h5IHBlb3BsZSBzaG91bGQgYmUgcHV0IHRvIGRlYXRoIGFzIHB1bmlzaG1lbnQgZm9yIGNyaW1lcy7CoA0KPC9ESVY+PERJVj4xLikgVGhlIE9sZCBUZXN0YW1lbnQgc2V0cyBpdCB1cCBhcyBhbiBhY2NlcHRhYmxlIHB1bmlzaG1lbnQuwqANCjwvRElWPjxESVY+4oCiIFdlbGwsIHlvdSBrbm93IHdoYXQ/IEkgZWF0IHBvcmssIGFzIGRvZXMgZXZlcnkgQ2hyaXN0aWFuLiBXaHkgcGljayBhbmQgY2hvb3NlIHdoaWNoIE9sZCBUZXN0YW1lbnQgbGF3cyB3ZSdsbCBhYmlkZSBieT8gT2J2aW91c2x5LCB0aGVyZSBhcmUgbWFueSB0aGluZ3Mgd2UgZG9uJ3QgZG8gYW55bW9yZSBiZWNhdXNlIG9mIENocmlzdCdzIGRlYXRoIGFzIGEgZnVsZmlsbG1lbnQgb2YgYSBsb3Qgb2YgcmVxdWlyZW1lbnRzLCBidXQgdGhlcmUgYXJlIG90aGVyIG5vbi1KZXN1cyBsYXdzIHRoYXQgd2UgZG9uJ3QgYWJpZGUgYnkgYW55bW9yZS7CoDwvRElWPjxESVY+Mi4pIFdlIGxpdmUgaW4gYSBmYWxsZW4gd29ybGQuPC9ESVY+PERJVj7CoOKAoiBDYW4ndCBhcmd1ZSB3aXRoIHdoYXQgSSBkb24ndCB1bmRlcnN0YW5kLsKgPC9ESVY+PERJVj4zLikgVGhlIHBlb3BsZSB3aG8gYXJlIHB1dCBpbnRvIGF1dGhvcml0eSB3ZXJlIHB1dCB0aGVyZSBieSBHb2QsIGFuZCB0aGVpciBqdWRnbWVudCBpcyB3aGF0IHdlIHNob3VsZCBhYmlkZSBieS4gSWYgdGhleSBzYXkgd2Ugc2hvdWxkIHB1dCBwZW9wbGUgdG8gZGVhdGgsIHdlIHNob3VsZC7CoDwvRElWPjxESVY+4oCiIE1hbiwgdGhhdCdzIHdlYWsuIFRoZSBCaWJsZSBhbHNvIHNheXMgdGhhdCBpZiBvdXIgYXV0aG9yaXRpZXMgY29udHJhZGljdCB0aGUgd2lsbCBvZiBHb2Qgd2Ugc2hvdWxkIGRpc29iZXkuIEFsc28sIGp1ZGdlcyBpbiBDYWxpZm9ybmlhIGFyZSBva2F5IHdpdGggZ2F5IG1hcnJpYWdlLiBXaGF0ZXZlci7CoDwvRElWPjxESVY+NC4pIFNvbWV0aW1lcywgbGlrZSBhIHJlY2VudCBpbmNpZGVudCwgcGVvcGxlIGFyZSByZWxlYXNlZCBmcm9tIHByaXNvbiBhbmQgY29tbWl0IG90aGVyIGF0cm9jaW91cyBjcmltZXMuwqA8L0RJVj48RElWPuKAoiBUaGlzIG9uZSdzIHJpZGRsZWQgd2l0aCBob2xlcy4gRmlyc3Qgb2YgYWxsLCBpZiB3ZSBnbyBieSB0aGUgcHJldmlvdXMgYXJndW1lbnQsIHRoZSBhdXRob3JpdGllcyBzYWlkIHdlIHNob3VsZCBsZXQgdGhlbSBnbywgc28gaXQgc2hvdWxkIGJlIG9rYXkuIFNlY29uZGx5LCB0aGV5IHNob3VsZG4ndCBiZSBsZXQgb3V0IGluIHRoZSBmaXJzdCBwbGFjZS4gVGhpcmRseSwgc29tZXRpbWVzIHBlb3BsZSBzaG91bGQgYmUgcmVsZWFzZWQgZnJvbSBwcmlzb24uPC9ESVY+PERJVj48QlIgY2xhc3M9ImtodG1sLWJsb2NrLXBsYWNlaG9sZGVyIj48L0RJVj48RElWPldoeSBkb2VzIENocmlzdCdzIGRlYXRoIG9uIHRoZSBjcm9zcyBib3RoZXIgdXM/IEJlY2F1c2UgaGUgZGlkIG5vdGhpbmcgd3JvbmcuIEhlIGZhY2VkIHRoZSBkZWF0aCBwZW5hbHR5LiBZZXMsIGhlIGhhZCB0byBpbiBvcmRlciB0byBiZSBvdXIgbWVkaWF0b3IgdG8gdGhlIEZhdGhlciwgYnV0IHdoZW4gd2Ugc2VlIGhpbSBiZWF0IGluIFRoZSBQYXNzaW9uIG9mIHRoZSBDaHJpc3QsIHdoeSBkbyB3ZSB3aW5jZT8gQmVjYXVzZSBpdCdzIHVuanVzdC48L0RJVj48RElWPjxCUiBjbGFzcz0ia2h0bWwtYmxvY2stcGxhY2Vob2xkZXIiPjwvRElWPjxESVY+SSBkb24ndCBrbm93IGlmIGFueSBvZiB0aGlzIG1ha2VzIGFueSBzZW5zZSB0byBhbnlvbmUgYnV0IG1lIGFuZCBNci4gQmxvZywgbXkgZm91cnRoLWJlc3QsIG1ham9ybHkgbmVnbGVjdGVkIGZyaWVuZCwgYnV0IEkgaGFkIHRvIHZlbnQuIFNvbWUgQ2hyaXN0aWFucyBzdWJzY3JpYmUgdG8gY2VydGFpbiBwb2xpdGljYWwgdmlld3Mgb25seSBiZWNhdXNlIGl0J3Mgd2hhdCB0aGV5J3ZlIGFsd2F5cyBiZWxpZXZlZC4gSSBzZWUgbm8gc2NyaXB0dXJhbCBldmlkZW5jZSB0byBqdXN0aWZ5IGNhcGl0YWwgcHVuaXNobWVudC4gSSBvbmx5IHNlZSB0aGUgY29udHJhcnkgLSB2ZXJzZSBhZnRlciB2ZXJzZSBhYm91dCBmb3JnaXZlbmVzcywgR29kIGJlaW5nIG91ciBqdWRnZSwgYW5kIEdvZCBjaGFuZ2luZyBwZW9wbGUncyBsaXZlcyBhcyBhIHJlc3VsdCBvZiBjb250YWN0IHdpdGggSGltLjwvRElWPjxESVY+PEJSIGNsYXNzPSJraHRtbC1ibG9jay1wbGFjZWhvbGRlciI+PC9ESVY+PERJVj5KZXN1cyBlcXVhdGVzIHdoYXQgbWFueSBjb25zaWRlciB0aGUgbW9zdCBhYm9taW5hYmxlIHNpbnMgd2l0aCB3aGF0IGFyZSBjb25zaWRlcmVkIHRoZSAid2hpdGVzdCIgb2Ygc2lucy7CoDwvRElWPjxESVY+VGhlIGZhY3QgaXMsIFdFIEFMTCBkZXNlcnZlIHRvIGRpZS4gR29kIGlzIGdvb2QgYmVjYXVzZSBoZSBkb2Vzbid0IGxldCBkaWUgd2hvIHB1dCB0aGVpciBmYWl0aCBpbiBIaW0gYW5kIGZvbGxvdyBDaHJpc3QuwqA8L0RJVj4="
+"eventtime","2005-04-20 21:33:00"
+"current_moodid","1"
+"url","http://thatandykid.livejournal.com/10268.html"
+"userid","15402"
+"itemid","39"
+"event","If one were to read the previous reply to my previous post, one would see that a person who can only be referred to as Mystery Person A, has asked me to come see them, and has also complemented me on my picture.
+
+I have a few clues, though, as to who it may be.
+
+Clue no. 1: This person is either a livejournal user who has not logged into their account or someone who doesn&#8217;t have a livejournal. I&#8217;ll go with the latter. No livejournal.
+
+Clue no. 2: The person used proper punctuation, grammar and spelling. I respect that. This person either knows I respect that or is very well-educated. Or both. Hmm.
+
+Clue no. 3: They called me &#8220;man.&#8221; It must be a guy.
+
+Clue no. 4: They asked me to come &#8220;down&#8221; to see them. This could mean they are in Oxford; it could mean they are in Akron and have their compass points confused. Hmm.
+
+I&#8217;m befuddled as to who it may be. But, I have a message for Mystery Person A.
+
+I might come visit you, if you reveal yourself. That is, as long as you aren&#8217;t Jon Reardon. As they say here in rural America, &#8220;There ain&#8217;t no way&#8221; I&#8217;m traveling that far.
+
+Otherwise, I may come to see you, but only when certain conditions are met. They are as follows:
+
+1.) You must be a friend of mine. I&#8217;m not visiting any strangers. That way I can &#8220;weed out&#8221; anyone who may wish to lead me into a trap.
+
+2.) I must know where you are. I refuse to find you based on the information you have posted.
+
+3.) Because of your use of proper punctuation, grammar or spelling, you have set a precedent that I will uphold. If, at any point during our visit you use poor punctuation, grammar and spelling, I have the right to correct you.
+
+4.) We MUST have a good time.
+
+Otherwise, the deal is off. But thanks for the post and complement on my picture. I must now go back to writing about the demise of the VHS format. Peace.
+
+-Andy"
+"eventtime","2004-12-16 20:43:00"
+"url","http://thatandykid.livejournal.com/10052.html"
+"userid","15402"
+"itemid","38"
+"event","I&#8217;m procrastinating.
+
+I must be the only person on the face of the earth who does it, too. I should be working on a story about these dudes in this village close to where I live who are going to build a dentist office and the other a car wash. But I&#8217;d much rather not. It&#8217;s going to be a fun story, but eh- I&#8217;d just as soon sit here and type to those who are interested. 
+
+Life&#8217;s good. Things are going really well with me and my little lady Christine; but she&#8217;s having one of her female &#8220;episodes&#8221; right now, which stresses the times, man. But I think the worst is over now. A month of relaxation!
+
+Josh is in O-town bowling or whatnot, and I&#8217;ll be here all by my lonesome. Well, I guess I&#8217;m lonesome, unless you count Shrek, Andy Griffith, Samus and Johnny 5.
+
+Here&#8217;s an overall update of my life since the only friend pages I&#8217;m on are people&#8217;s who aren&#8217;t totally up-to-date.
+
+I&#8217;m a reporter in the fair town of Wapakoneta working for a daily paper that publishes six days a week. I&#8217;m one of three reporters working under a managing editor and an assistant editor. Work can be stressful because my boss and I are still figuring each other out and my assistant editor I think quit trying to a long time ago. I like my other co-workers pretty well, though.
+
+I&#8217;ve a little one-bedroom apartment that costs a mere $275 a month not including electicity, which cost me a grand total of $29 for last month&#8217;s usage. For those of you not in the renting market, that&#8217;s dirt cheap, and at least half the price of Oxford&#8217;s Taj Mahals!!
+
+Yes, I&#8217;m still engaged to my sweetheart Christine, and no, there is still no date. Right now we&#8217;re trying to work out her schooling arrangements. We want her to transfer to OSU&#8217;s Lima branch from Bowling Green so we can be closer because long-distance relationships really put a strainer on life, man!
+
+We&#8217;d like to get her an apartment here in Wapakoneta, but we&#8217;ve still got to work out the financial kinks. Are her parents supportive of the move? When they want to be. So that means sometimes &#8220;yes,&#8221; sometimes &#8220;no.&#8221; But we&#8217;ve got to do what we&#8217;ve got to do. Christine has suggested &#8220;just getting married now&#8221; so we can live together, but I&#8217;m living up to my promises. I told both her dad and my dad that we&#8217;d wait at least until she&#8217;s done with her sophomore year before that happens. Her sophomore semester is technically up at the end of this semester, but dad&#8217;s don&#8217;t care about technicalities, they care about generalities. They MEANT not before her second year of school, and to that I&#8217;ll stick. My prediction is that when the time has come they&#8217;ll still think it too soon; but phooey on them. I&#8217;m holding up my end of the bargain, they can do the same.
+
+Any questions or concerns regarding the marriage decision I&#8217;ve made are welcome. If I&#8217;ve heard it once, I&#8217;ve heard it a dozen times: &#8220;How do you know you&#8217;re ready?&#8221; &#8220;How do you know she&#8217;s the one?&#8221; &#8220;Isn&#8217;t she too young?&#8221; &#8220;Aren&#8217;t you too young?&#8221; &#8220;How can you afford it?&#8221; 
+
+Here&#8217;s one I can answer immediately: &#8220;How long have you two been going out?&#8221; Two years this Christmas. So yeah, we&#8217;re long past the warm cuddly phase. We both know we can be huge turds with faces, and we&#8217;re okay with that. We&#8217;ve slung the mud, we&#8217;ve had the fallings out. We&#8217;re in the &#8220;I know what you&#8217;re capable of, you know what I&#8217;m capable of&#8221; phase, and I think it&#8217;s a good time to get hitched. Got it?
+
+Well, my stomach is saying, &#8220;Andy, you fool! Feed me! Can&#8217;t you hear me?&#8221; 
+
+I&#8217;m saying, &#8220;Yeah, but don&#8217;t you get it? I haven&#8217;t typed in this thing for ages, and some of my friends want to read about my life! Isn&#8217;t that all right with you?&#8221;
+
+&#8220;No,&#8221; says Tummy. &#8220;Feed me.&#8221; 
+
+So feed him I must.
+Peace."
+"eventtime","2004-12-07 15:05:00"
+"current_moodid","33"
+"url","http://thatandykid.livejournal.com/9937.html"
+"userid","15402"
+"itemid","36"
+"event","Hi. I thought I might start typing in this ""Blog"" thing again. I'm a reporter now in the city of Wapakoneta, the home town of Neil Armstrong, the first man to walk on the moon. I wonder if he peed on it, too. 
+
+Well, if anyone reads this, look forward to exciting entries like this one in the next few days.
+
+-Andy"
+"eventtime","2004-12-02 22:45:00"
+"current_moodid","9"
+"url","http://thatandykid.livejournal.com/9413.html"
+"userid","15402"
+"itemid","35"
+"event","Sorry, I use a third-party application for submitting my journal entries, and I used &#8220;pessimistic&#8221; once and never changed it, so that&#8217;s how it&#8217;s stayed. I&#8217;m not really feeling pessimistic.
+
+-Andy"
+"eventtime","2004-06-11 00:00:00"
+"current_moodid","70"
+"url","http://thatandykid.livejournal.com/9058.html"
+"userid","15402"
+"itemid","34"
+"event","For an update on my life, see response to Lance&#8217;s reply post on 6-8-2004.
+
+-Andy"
+"eventtime","2004-06-10 23:58:00"
+"current_moodid","71"
+"url","http://thatandykid.livejournal.com/8923.html"
+"userid","15402"
+"itemid","33"
+"event","Blink-182 sucks."
+"eventtime","2004-06-08 14:26:00"
+"current_moodid","71"
+"url","http://thatandykid.livejournal.com/8478.html"
+"userid","15402"
+"itemid","32"
+"event","Well, well, well&#8230;the beginning of another semester has met us all. However, the semester affects us all in different ways. For example. My friends at Miami are going to classes, getting up early, etc. I am sleeping in and involved in the hopeless task of looking for a job where none exist. I suppose I&#8217;d liken the experience to what Frodo went through in the Lord of the Rings. Both of us have set out on a quest, and at the beginning, neither of us saw the destination. But eventually Frodo got there, and I just might too. I think that both of us have an equal portion of hope, though. Just enough. Am I being melodramatic? Yes. I am. But that makes for interesting reading.
+
+Good luck to all of you at Miami. Dont&#8217; be too eager to graduate. I miss you all, feel free to write!
+
+-Andy"
+"eventtime","2004-01-13 21:11:00"
+"current_moodid","71"
+"url","http://thatandykid.livejournal.com/8354.html"
+"userid","15402"
+"itemid","31"
+"event","Alright, class. Let&#8217;s have an exercise in English.
+
+You&#8217;re all college students, so spelling and subject&#8211;verb agreement shouldn&#8217;t be a problem for you. I have an ad here from Vegans at Miami. I&#8217;ll type it in &#8220;as is,&#8221; and I need you to find all the errors in it.
+
+all vegan feast
+made with luv by your friends
+
+say NO THANKS to the traditional
+celebration of murder and
+exploitation.
+
+we&#8217;re not big fans of either the
+wholesale killing of animals or indiginous peoples.
+
+so you won&#8217;t find any smiling
+pilgrims and &#8220;indians&#8221; or turkeys
+dancing around with a knife and
+fork at our party.
+
+what you will find is super&#8211;yummy
+vegan food and some super&#8211; kool
+people.
+
+&#8211;MU PAWS (SETA)
+
+$5 procedes got to non&#8211;profit org.
+
+
+What&#8217;s wrong with this?
+
+1.) First of all, capitalization is improperly used. The writer(s) of this used them only for emphasis.
+
+2.) Secondly, notice the word &#8220;luv&#8221;&#8211; poor spelling. 
+
+3.) Subject&#8211;verb agreement: The third paragraph. Does this mean that they&#8217;re not big fans of indigenous peoples?
+
+4.) Can you spell indigenous? I can, but the vegans spelled it, &#8220;indiginous.&#8221;
+
+5.) Extra space between &#8220;super&#8211;&#8221; and &#8220;cool.&#8221;
+
+6.) What are &#8220;procedes&#8221;?
+
+7.) And let's not forget to got to the end of the flyer, ""got to?"""
+"eventtime","2003-11-17 20:53:00"
+"url","http://thatandykid.livejournal.com/8037.html"
+"userid","15402"
+"itemid","30"
+"event","<img src=""http://www.users.muohio.edu/shafera/Threebaldies.jpg"" alt="""">"
+"eventtime","2003-11-11 10:05:00"
+"url","http://thatandykid.livejournal.com/7754.html"
+"userid","15402"
+"itemid","27"
+"event","Cheryl, tell Kimmy to stop being mean to me. I don&#8217;t like it.
+
+-Andy"
+"eventtime","2003-11-10 21:16:00"
+"current_moodid","25"
+"url","http://thatandykid.livejournal.com/7001.html"
+"userid","15402"
+"itemid","26"
+"event","So, uh&#8230;
+
+I hear my journal isn&#8217;t that fun to read&#8230;*ahem* Cheryl.
+
+I just got back from at loooooooong trip to the east side of Pennsylvania. NO, not Transylvania, hee hee! PENNsylvania, and boy, oh boy, was it loooooooooooooonnnnnnggggg! It was about 13 hours to get there and 13 hours to get back! &#8216;cause I had to pee a lot!
+
+LOL
+
+Well, I gotta go. Bye!"
+"eventtime","2003-11-09 23:15:00"
+"url","http://thatandykid.livejournal.com/6722.html"
+"userid","15402"
+"itemid","25"
+"event","http://quizilla.com/users/thatandykid/quizzes/How%20like%20Andy%20are%20you%3F"
+"eventtime","2003-11-06 20:42:00"
+"current_moodid","30"
+"url","http://thatandykid.livejournal.com/6591.html"
+"userid","15402"
+"itemid","24"
+"event","Well, I&#8217;m in the mood tonight, so here goes another one.
+
+I was at work last night at Jimmy John&#8217;s and noticed a USA Today article and started to read it. It&#8217;s an article on prostitution in Belgium. It said among other things, that prostitution is legal&#8211;yes, I typed &#8220;legal&#8221;&#8211; in Belgium.
+
+The interesting thing is that though prostitution is legal in Belgium, brothels aren&#8217;t, and that certain people in the government are considering legalizing them for the sake of prostitutes themselves. The country has a problem, apparently, with human trafficking, drugs and sexually transmitted diseases. To curb this, there are proposals on the table that would give prostitutes the same legal rights as regular employees or self&#8211;employed persons. They&#8217;d pay taxes on their trade, and would be eligible for health care benefits and social security. The government would have all the prostitutes register, in hopes of being able to set safer standards and working conditions.
+
+The article also said that &#8220;About 80,000 people visit prostitutes each day, according to an official government estimate. That&#8217;s more than the daily number who go to the movies, says Jean-Marie Dedecker, a member of parliament.&#8221;
+
+Prostitution is illegal in all 50 U.S. states except for certain Nevada counties. Brothels are legal in the Netherlands and Germany.
+
+Here&#8217;s what some of the guys at work had to say about that: &#8220;Damn, we need one of those in Oxford!&#8221; To which the other laughed, and they exchanged thoughts at low levels. 
+
+No point to make here, just think about it."
+"eventtime","2003-11-06 18:05:00"
+"current_moodid","30"
+"url","http://thatandykid.livejournal.com/6159.html"
+"userid","15402"
+"itemid","23"
+"event","The &#8220;optimisic&#8221; smiley-face in the &#8220;Help&#8221; entry is hilarious to me."
+"eventtime","2003-11-06 17:48:00"
+"current_moodid","30"
+"url","http://thatandykid.livejournal.com/6002.html"
+"userid","15402"
+"itemid","22"
+"event","Let&#8217;s see what people think of this one&#8230;
+
+Let&#8217;s talk cussing. Let me say right up front, however, what I&#8217;m not going to say. I&#8217;m not saying that there is no place for keeping one&#8217;s language clean and guarding one&#8217;s tongue. Any of you who know me can probably remember more times than one when I&#8217;ve eaten my words. You can probably all imagine situations when swearing would be a very culturally stupid thing to do. Swearing would probably make for a very uncomfortable environment at a baby shower. &#8220;Damn, Loretta, I&#8217;ll be a mother ------! That&#8217;s the cutest baby I&#8217;ve seen!&#8221;
+
+However, I think that as Christians it is permissible (though no, not beneficial) to swear. I also think that I&#8217;ve seen too many Christians overlook the larger concepts of our faith and focused on items such as this. Here&#8217;s a perfect quote to illustrate my point.
+
+Author Tony Campolo said this to a gathering of students and administrators at a Christian college: &#8220;The United Nations reports that over ten thousand people starve to death each day, and most of you don&#8217;t give a shit. However, what is even more tragic is that most of you are more concerned about the fact that I just said a bad word than you are about the fact that ten thousand people are going to die today.&#8221;
+
+Jesus put it even better when he was speaking to the Pharisees. &#8220;You give a tenth of your spices&#8211;mint, dill, and cummin. But you have neglected the more important matters of the law&#8211;justice, mercy and faithfulness&#8230;You blind guides! You strain out a gnat but swallow a camel.&#8221;
+
+What Jesus was saying by the gnat thing was that the Pharisees were known to strain their water so as not to swallow the smallest unclean animal. This is parallel to the spices comment. By this, he&#8217;s implying that by ignoring the weightier matters of the law, they are in effect swallowing a camel, the largest of unclean animals.
+
+And so it is today.
+
+A Christian acquaintence of mine, who shall remain anonymous except for those people who know what I&#8217;m talking about, has a HUGE problem with swearing. In fact, this person has on more occasions than three, asked me specifically not to swear. (This includes &#8220;piss&#8221; or &#8220;pissed.&#8221;) However, this person is also very merciless with people that rub him the wrong way. I have heard things from him that makes me wonder what&#8217;s going on in his head.
+
+Alright, another disclaimer here. I&#8217;m NOT condemning anyone, I&#8217;m not saying I don&#8217;t do the same type of thing, and I don&#8217;t think I&#8217;m a better Christian than this person. I&#8217;m using this situation to add support to my argument.
+
+As I was saying, this person is the perfect example of what Jesus and Campolo were saying. 
+
+Where am I going with this? Nowhere. This is an open journal, not a news column. I&#8217;m just griping. This is just the tip of the iceberg for me, though. There are many things in my life&#8211;many hurdles I feel I have to jump that miss the point. 
+
+This also isn&#8217;t to say that I think every Christian should run from their rooms, arms aflail, screaming profanities. But there is a time and place for it. 
+
+A subpoint&#8211; cussing doesn&#8217;t include blaspheme, using God&#8217;s name in vain. &#8220;Oh, my God,&#8221; &#8220;Jesus Christ,&#8221; and the like are detestable to me. But what a warped culture we live in when CDs that are edited for content take out &#8220;damn,&#8221; shit&#8221; and &#8220;ass,&#8221; but leave in a blasphemous &#8220;Jesus Christ.&#8221; I have an album like that.
+
+
+Well, these are my thoughts. Feel free to disagree, but be careful&#8211;I might swear at you.
+
+
+-Andy"
+"eventtime","2003-11-06 17:47:00"
+"current_moodid","30"
+"url","http://thatandykid.livejournal.com/5793.html"
+"userid","15402"
+"itemid","21"
+"event","Well, I got an e-mail from the iPod repair administrator, telling me that they would charge me just under $40 for the shipping of my iPod for its repair. So, I thought, &#8220;Maybe I should check to make sure I absolutely can&#8217;t fix it before I flip that kinda bill.
+
+Sure enough, after a bit of tinkering, it&#8217;s back in proper working order. Whew.
+
+Well, I got to meet Kimmy&#8217;s best friend Sarah yesterday. She was really nice. She goes to Bowling Green with my Christine. Sarah, Christine, meet each other. You&#8217;re both really nice.
+
+I procrastinated last night and watched X-men with Josh and Kimmy and then Finding Nemo with just Kimmy, then later Jesi walked in.
+
+Today I skipped my first class because I&#8230;uh&#8230;was really sick. It had nothing to do with fixing anything.
+
+Now I&#8217;m listening to music really loud before I go to work at 12:30.
+
+I hope everyone&#8217;s having a good day!
+
+-Andy"
+"eventtime","2003-11-05 11:46:00"
+"url","http://thatandykid.livejournal.com/5391.html"
+"userid","15402"
+"itemid","20"
+"event","I&#8217;m brushing my teeth. I put the toothpaste on my brush and came into my room. Then Will VerDuin went in the b-room and I can&#8217;t spit my toothpaste out. It&#8217;s burning my tongue. Now he&#8217;s showering. Great. 
+
+Later...
+
+Situation deterred. The potential disaster of Andy&#8217;s tongue being dissolved by toothpaste has been avoided. For now.
+
+Have a good day!"
+"eventtime","2003-11-04 09:49:00"
+"current_moodid","70"
+"url","http://thatandykid.livejournal.com/5226.html"
+"userid","15402"
+"itemid","19"
+"event","For all you devoted Andy readers&#8230;
+
+It was a good day in my Feature writing class. I was able to whip a 300-some word article out in half an hour and give it to my classmates to critique. Well, I did have to insert some fake quotes, but I think that they were generic enough that I&#8217;ll be able to find some to match them.  
+
+My iPod broke. Yes, it broke. I spent hours yesterday moving all my music to the thing twice. Once, because I accidentally deleted the operating system in it, so I couldn&#8217;t play my music, and a second time because my computer froze when I edited the title to one song, I restarted the computer and lost everything on it. Then my computer wouldn&#8217;t recognize it. Apple will fix it, though.
+
+I met with the TA for a class of mine. The Formal Logic class. Sweetness. It promises to be a difficult exam. Let&#8217;s do some math. 
+
+I&#8217;m pretty sure I got a 76% on the last exam, but let&#8217;s play it safe and say I got 70%. We have three exams total, and I need a 50% in the class to pass. (He tipped his grading scale for us dummies.) To bring that 70% to a 50% &#8230;  Insert Jeremy, roommate/math education major&#8230; I could get 40% percent on each of the next ones and pass.
+
+Kimmy&#8217;s here, gotta go.
+
+-Andy"
+"eventtime","2003-11-03 16:06:00"
+"url","http://thatandykid.livejournal.com/5048.html"
+"userid","15402"
+"itemid","18"
+"event","Rachel McPherson left me an entry last May that I think is proper to respond to at this time. She said, &#8220;would love to get the update on what you&#8217;ve been doing for the last two years...&#8221; Good question!
+
+But first, I have a question for you, Rachel. How in the name of Pete do you think I can answer that in one sitting? Two years?!?!? However, I&#8217;ll make use of my English degree and sum up 1/11 of my life in three paragraphs or less.
+
+Two years ago I was a Western major living in Peabody Hall with Adam Troy as a new Small Group Coordinator for what was at that time InterVarsity. At the end of that school year, I decided that the Western major was useless if I didn&#8217;t plan on going to grad school, which I didn&#8217;t. I had nothing to show for my Western education but a twisted form of logic. So I decided to change my major as a result of Annie Whaley&#8217;s open journal (there&#8217;s some use for them!) about how much she hated her major and why. I am now a Journalism major.
+
+I went through a girlfriend or three and am now engaged (gasp!) to a girl I met at my dad&#8217;s church named Christine. Yes, she&#8217;s younger than me, no, she doesn&#8217;t go to Miami, and no, we won&#8217;t know when we&#8217;re getting married until I find a job. As far as that goes, I applied to Miami for a job as a Support Desk Analyst for the Information Technology Services, and hope Don Kidd will help land me the job. Aside from that, I have no prospects.
+
+I&#8217;m living with Jeremy Abraham, a Junior from InterVarsity (now MCF [Miami Christian Fellowship]) which is the experience of a lifetime (take that however you want). I&#8217;m hoping to graduate in December and get out of school. This will probably be the best December 25 of my life to this point. It will be my first year anniversary with Christine, I&#8217;ll be out of school forever, it will be Christmas, and The Return of the King from The Lord of Rings comes out. I&#8217;m still a technology freak and I still sin. (Big surprise.)
+
+Well, I left out a lot of information, but that&#8217;s &#8220;the nature of the beast&#8221; when you&#8217;re trying to sum up two years in three paragraphs. 
+
+I should probably go and either start my paper or regret not starting it. Feel free to comment, if anyone reads this."
+"eventtime","2003-11-03 00:37:00"
+"url","http://thatandykid.livejournal.com/4634.html"
+"userid","15402"
+"itemid","17"
+"event","Before today, I haven&#8217;t written in this journal for seven months. By now no one reads it, yet I have a desire to write in it. Why? Why do people write in journals for everyone to read? Isn&#8217;t it a bit conceited? Well, we all know by now that I am conceited, so I&#8217;m not going against any principle and can proceed.
+
+I can&#8217;t remember the last time I&#8217;ve procrastinated to such a degree. I did one item of homework this weekend, and only because it was an easy extra-credit substitute for a harder assignment. I have a final draft due for a paper tomorrow, and have I done it? Nooooo. Why not? A loophole. Here it is&#8230; The final draft is due Monday for student critiquing. The final FINAL draft is due then Wednesday. What will I do about what&#8217;s due tomorrow? One of two things: either write a very poor piece that I wound&#8217;t really consider turning in, or plead with my professor for mercy. It will probably turn out to be a mixture of both. 
+
+Now you&#8217;re wondering, &#8220;Andy! How could you be so irresponsible! I thought more of you.&#8221; Well, you&#8217;re right. You did think more of me. However, I do have a scapegoat for my irresponsibility. Laziness. It&#8217;s totally not my fault that I didn&#8217;t get it done. I have a disease. I cannot be held responsible for my actions; it was my state of laziness. &#8220;I&#8217;m sorry, Amy, I couldn&#8217;t get the paper done, I was lazy at the time.&#8221;
+
+Hmm&#8230;"
+"eventtime","2003-11-03 00:21:00"
+"url","http://thatandykid.livejournal.com/4507.html"
+"userid","15402"
+"itemid","16"
+"event","Well, I'll bet no one checks this anymore. But I'm going to write in this journal anyway."
+"eventtime","2003-11-02 21:32:00"
+"url","http://thatandykid.livejournal.com/4324.html"
+"userid","15402"
+"itemid","15"
+"event","Well, again, it&#8217;s been a while, hasn&#8217;t it?
+
+I have a confession to make- I&#8217;m using you.  I&#8217;m using you right now to procrastinate from doing work.  I just got the MCF Alumni newsletter finished today, and I&#8217;m exhausted.  However, I&#8217;ve got a few more pages to write for the same class, which are reader responses for chapters from our book.
+
+I have a new pet peeve: Girls who dress like Winnie-the-Pooh.  You know what I mean- <CENTER><IMG SRC=""http://www.dltk-kids.com/crafts/cartoons/wp_adopt/pic/pooh.h4.gif"" WIDTH=80 HEIGHT=162></CENTER>
+
+
+Don&#8217;t get me wrong- I believe Winnie-the-Pooh deserves our respect, and I think that he has much to teach us about humility, simplicity in thought, and helping others.  But I think that these girls at Miami have taken their admiration of him to the extreme with their dress.  And yes, it&#8217;s gotten worse over the four years I&#8217;ve been here. I wonder if perhaps the government is rationing fabric to use for parachutes in the war on terror much as they did in the &#8216;50s with bathing suits.
+
+But I digress.
+
+Here&#8217;s another thing that&#8217;s gotten to me- The quiet Language Lab has slowly changed from a place of study to a social hub.  In fact, there&#8217;s a couple of bros right now who are having a casual conversation in the lab during exam week.  I seem to be the only one who cares, though- I&#8217;ve heard no complaints.
+
+I&#8217;ve noticed that I tend to be rather sarcastic.  I&#8217;m trying to curb both that and my cynicism.  However, that is one thing that I&#8217;m excited about not hindering now that I&#8217;m not on Exec anymore.  For the last two years I&#8217;ve had to be very political and avoid confrontation in my responses to concerns.  For example-
+
+This last Sunday Allen presented to the K-Group leaders a plan of action that he and Dennis and I would like to see: having all the freshman K-Groups hold a study on the Gospels.  However, he got responses such as these:
+
+&#8220;Well, I guess I&#8217;m just concerned that people will find it redundant.&#8221;
+&#8220;I feel like we should offer more variety to the chapter.&#8221;
+&#8220;I think that it&#8217;d be better for K-Group leaders to lead something they&#8217;re passionate about rather than something that&#8217;s been decided for them ahead of time.&#8221;
+
+I was enraged, because Allen told people that they could put whatever spin they&#8217;d like on it: Jesus&#8217; parables, Life of Jesus, how the Gospel can be found in other books of the BIble, etc.  He just wants to make sure that all freshmen and incoming students have a firm foundation in the truth of the Gospel.  However, not only was his suggestion met with poor responses verbally, but he was given looks of shock and disgust- which disgusted me to the point that I responded to them as follows:
+
+&#8220;I truly feel that if you think a study on the Gospels would be redundant, or if you feel like you know all about the Gospels there is to know, or if you don&#8217;t feel like you could gain anything new from studying them, you should examine yourself for spiritual arrogance.&#8221;
+
+That changed the course of the conversation.
+
+I think Allen and I are most upset -and perhaps me, moreso- that it appears that the K-Group leaders are coming to lead with their own agenda, wanting to do what they want to do without regard to what the leadership team sees as best.  On the same coin, I told Allen that he did present the idea as not an idea, but as fact- a HUGE no-no in leading people.  
+
+Anyhew-  thanks for reading.  I just needed to spout.  Wish me luck in my last two hours in the Language Lab for the year.
+
+
+
+I&#8217;m really looking forward to Chapter Camp, though...
+
+
+-Andy"
+"eventtime","2003-04-30 17:41:00"
+"current_moodid","1"
+"url","http://thatandykid.livejournal.com/3877.html"
+"userid","15402"
+"itemid","14"
+"event","&#8220;Hi.&#8221;  Today&#8217;s my birthday, and I am now twenty-two.  You know what that means?!  It means, it means, well- one thing that it means that is pretty cool to me is that 22 doesn&#8217;t sound as young as 21.  It could be that I&#8217;m on my way to my mid-twenties, it could be because it shows that I&#8217;m experienced in my 20s, because I&#8217;ve been in my twenties for two years- or, it may sound older because- it is.
+	People keep asking me if I have any plans today- and I look at them, and say- &#8220;No.  Like what?&#8221;  Yesterday my co-worker said that I should take the day off.  I think that&#8217;s unnecessary since there isn&#8217;t really anything I&#8217;d do during that time but goof off.  Might as well get paid to goof off at the ILRC.
+
+	Well, not much more to say because my day started 18 minutes ago.  So far, so good!  If you see me today, give me 22 on the arse.
+
+-Andy"
+"eventtime","2003-04-23 08:50:00"
+"current_moodid","43"
+"url","http://thatandykid.livejournal.com/3755.html"
+"userid","15402"
+"itemid","13"
+"event","You will hear me before you&#8217;ll see me this week.  I&#8217;ll be shouting, &#8220;Unclean!  Unclean!&#8221; as I walk down the sidewalks today, to warn everyone not to come near me.  I have some kind of exotic cold like none I&#8217;ve ever heard of or experienced.  My nose is stuffy, but runny.  I&#8217;ve got some weird substance in my lungs that gurgles when I cough and breathe, and it&#8217;s all left me in a state of apathy.  I think apathy is my default mood.
+	Anyhew, sorry that I haven&#8217;t posted in a while.  I&#8217;ll put more up later.
+
+-Andy"
+"eventtime","2003-04-14 09:08:00"
+"current_moodid","82"
+"url","http://thatandykid.livejournal.com/3398.html"
+"userid","15402"
+"itemid","12"
+"event","Well, it&#8217;s finally hot outside.  Whatever.  This weather is what some may call, &#8220;Wonderful,&#8221; others, &#8220;Beautiful,&#8221; but I call it torturous.  Please!  Yes, yes, yes.  It looks nice outside.  Leaves are coming back, flowers are beginning to bloom, etc.  But if you call &#8220;great&#8221; weather the sun beating down on you, making you sweaty and hot great, then I guess that&#8217;s your bag of shoes.  But my idea of great weather is the Fall.  The leaves are coming from the trees in a multitude of colors, the wind smells like Old Man Winter&#8217;s breath, and the temperature is cold enough for you to feel the slightest chill through your hooded sweat-shirt.  (Which, by the way, doesn&#8217;t make me sweat unless I have it on in hot weather.) Anyway, in other news...
+	I&#8217;ve got a boatload of homework to do which I don&#8217;t know how I&#8217;ll get done.  
+	I&#8217;m talking to Christine on the phone right now, and typing and talking.  We&#8217;re talking about our weather preferences.  She&#8217;s a hot-weather kinda girl and I&#8217;m a cold-weather kinda guy.  Where will we live?  I think that she&#8217;ll have to compromise more than me.  (Insert a winky-faced emoticon here.)  
+	Out of nowhere it seems, last week Lance &#8220;box&#8221; Webel commented on my journal.  It could have been a prank, but then again, perhaps it wasn&#8217;t.  I haven&#8217;t spoken to him in months-upon-months, and I had no idea he&#8217;d even heard of my open journal.  Well, Lance, if you&#8217;re reading this, be pleased to know that I&#8217;ve joined the Alliance.  I am now an Apple user and owner.  I am typing on my airport-equipped iBook which I bought last semester.  Yes, it&#8217;s a white one.  And, I love it.  Any Windows user who is against Macs have a few poor reasons for their devotion.  There is one good reason that I&#8217;ve heard, and that&#8217;s from Adam, who needs  Windows to program.  Touche&#8217;.  Here are the bad ones I&#8217;ve heard:
+	1.) There&#8217;s no right mouse button!
+	2.) Apples suck.
+	3.) I&#8217;ve used Windows since I&#8217;ve used computers! I can&#8217;t switch!
+	4.) There&#8217;s no show desktop icon!
+	
+
+	My responses:
+
+	1.) Apple doesn&#8217;t need a right mouse button, first of all, because they know how to build their programs using intuition.  Apple programs don&#8217;t need to have a thousand-some options to function.  Secondly, if you MUST use this function, try holding down shift and clicking, thirdly, plug in a stupid two-button mouse.  The only thing you really need a two-button mouse for is Minesweeper.  However, I&#8217;ve become accustomed to doing it the Apple way.
+	2.) Who are your sources?
+	3.) I started out on a DOS based IBM computer from the Renaissance.  Then I went to Win 95, then 98, then Me, then 2000, and then I used XP for about a year.  I knew how to use the OS better than most people I knew.  However, I was forced into using Apple&#8217;s OSX at work and I got used to it.  All the hype is true.  The OS is easier to use, it&#8217;s plug-and-play, (I&#8217;ve had to install 0 drivers, even my Microsoft mouse worked) and hasn&#8217;t crashed on me- ONCE.  I would&#8217;ve never gone to Apple with OS9 and prior, but OSX takes the cake.  I even ventured into Linux Mandrake which was cool, but I didn&#8217;t know how to program Unix or use the terminals for it, so it proved difficult.  Plus, the fact that OSX is open-source makes for some cool applications and changes to the OS.
+	4.) I hear ya, brother.  Or sister.  This was and is my #1 gripe with Apple.  However, I went to VersionTracker.com and found an application that does exactly that, and it&#8217;s free.  Problem solved.
+
+	But enough of that, I&#8217;m sure that the heads of any girls who are reading this are spinning.
+
+
+	In other news...
+
+	That&#8217;s all for now, I&#8217;ve got to type an e-mail, edit a paper, and make some phone calls and write a paper.  
+
+	Thanks for reading!
+
+-ANDY
+
+P.S. How can &#8216;busy&#8217; be a mood?"
+"eventtime","2003-04-02 15:50:00"
+"current_moodid","91"
+"url","http://thatandykid.livejournal.com/3113.html"
+"userid","15402"
+"itemid","11"
+"event","I&#8217;m at work in the lab right now and it&#8217;s kinda cool to work here sometimes, because I get to see people from different countries.  For example, there&#8217;s this one girl who&#8217;s wearing one of those cool head coverings and weird foreign outfits.  She&#8217;s probably from the Middle East.  But I&#8217;m pretty stupid about other countries, still mixing up Chinese and Japanese cultures.
+
+YIKES!  Christine had a problem at home that sent me flying out of Poker Night.  Apparently her older sister is one short of being a sack full of nuts.  I was able to talk to their mother who confirmed that Christine is giving me unbiased information.  To make a long story short, Liz has a substantial bit of growing up to do.  She&#8217;s got a load of resentment towards Christine large enough to snuff out the U.S. Marines.  Christine&#8217;s struggle is one of perseverance, and keeping her own head above the water so she can still show love towards her sister despite any way she could be treated.  Christine can do it though, she&#8217;s very strong.  Sorry for being so vague.  Too much information could be a security breach.
+
+Because my day has only just begun, I don&#8217;t have much more to share, but I&#8217;ll do what I can. 
+
+Poker Night was refreshing last night, but it seems I missed it being crashed by the &#8220;girls.&#8221;  Again.  They made us cookies, but I had already left by that point.  It&#8217;s okay, though.  No hard feelings.
+
+Kate Thorn is in the language lab.
+
+I&#8217;ve got a lot of phone-calling to do today.  I&#8217;ve really &#8220;dropped the ball&#8221; in many of my responsibilities and today is the day to pick myself up by the bootstraps and get stuff done!
+
+Quote of the day (paraphrased): &#8220;I find life is easier the lower I keep everyone&#8217;s expectations.&#8221;  -Calvin (of Calvin & Hobbes)"
+"eventtime","2003-03-19 09:21:00"
+"current_moodid","26"
+"url","http://thatandykid.livejournal.com/2925.html"
+"userid","15402"
+"itemid","10"
+"event","Ah, what a beautiful day!  It&#8217;s another day full of hope and (war) prospect.  A day when I can (war) kick back, relax, and (war) let the sun shine through the window and (war) fall upon my warm slippers.  Yessir, everything&#8217;s just goin&#8217; great.  I&#8217;ve got some (war) classes to look forward to which I always look forward to.
+
+Well, have a great day! (And try to stay out of Iraq.)
+
+-Andy"
+"eventtime","2003-03-19 09:08:00"
+"current_moodid","38"
+"url","http://thatandykid.livejournal.com/2581.html"
+"userid","15402"
+"itemid","9"
+"event","Hi!
+
+I&#8217;ll bet that I&#8217;ve lost 66% of my readers (3 in all) in the past week.  I don&#8217;t really keep this journal up on a regular basis like Kimmy, who will write in hers up to three times a day.  I&#8217;ll try to keep thus up to maintain my reader base.
+
+Well, I got myself in trouble again today.  I hurt Kimmy in an e-mail correspondence about Natalie Maines & politics.  She takes her politics seriously, and on a &#8216;care&#8217; scale from one to ten, ten being, &#8220;I REALLY, TRULY care about politics,&#8221; and one being &#8220;I don&#8217;t give a rat&#8217;s ass about politics,&#8221; I rank myself at about a two: &#8220;I care one above a rat&#8217;s ass.&#8221;
+
+And I think that that&#8217;s what&#8217;s gotten me into trouble with Kimmy and Annie.  I keep trying to push them out of politics, because I think it&#8217;s beside the point.  I continue to do it the wrong way, however and nearly make enemies out of friends in the process.  I guess I need to care more about what people think about the age-old (and I do mean OLD) REPUBLICAN (Conservative) vv.  DEMOCRAT (Liberal) deathmatch.
+
+I&#8217;ll explain why I think involving one&#8217;s self in politics is beside the point.
+
+Politics, in the way I mean, is really about getting involved with the government.  This is not a bad thing!  I vote and stuff like that, and I&#8217;m not anti-establishment.  I believe the Bible when it tells me to respect my authorities to a point.
+
+However, getting involved in the workings, ins-and-outs of the government and placing my mind, heart, and soul behind one party or the other or one position or the other, or any aspect in-between is a waste of time.
+
+Why?
+
+Because if you look at any movement or change in society in history, it wasn&#8217;t through a party or government program.  (Unless you count the results of wars we&#8217;ve won.)  Look at the Civil Rights movement.  Was that a republican or democratic pursuit?  Was it led by mostly liberals or conservatives?  It was led by people with a liberal mindset IN COMPARISON with the common thought in the South, but many of those people may have been pro-life or for the death penalty.  See what I mean?  It was a group of people who cared enough to do something.
+
+I believe that it is the Church&#8217;s responsibility to instill hope in people and invite them into a kingdom of love.  It&#8217;s not Bill&#8217;s responsibility, it&#8217;s not George&#8217;s responsibility, it&#8217;s not Tom&#8217;s responsibility.  So rallying behind any one of these people could be effective, to a point.  George may help to overturn Roe v. Wade. or even Kill Hussein, but I don&#8217;t support the death penalty for the same reason I don&#8217;t support abortion.  Death should be left for God to deal.
+
+No, Jesus receives my support, and it is him and his words that I will stand upon.  Not that I don&#8217;t care about Bush, or anything like that, because I do.  I like him.  
+
+In other news...
+
+I got a candy bar from a guy named Charlie Zimkus today.  He is an awesome cartoonist and layout guy who works for the Columbus Dispatch and has won many awards.  He is a Miami Graduate who did awesome cartoons until he graduated in 2000.  Anyway, he came to speak to my editing class today and gave me a Hershey bar for asking a good question.  Kevin Turner and I split it today.
+
+Any questions?
+
+-Andy
+
+P.S. I am madly in love with a wonderful girl named...
+
+Christine."
+"eventtime","2003-03-18 15:41:00"
+"current_moodid","101"
+"url","http://thatandykid.livejournal.com/2551.html"
+"userid","15402"
+"itemid","8"
+"event","It&#8217;s about as warm as a witches&#8217; teat out there.
+
+I like that feeling when you&#8217;ve been outside a long time and your thighs are freezing and then you get into your warm bed or take a shower and they begin to thaw.  That&#8217;s a great feeling.
+
+I&#8217;m happy that I can finally type without looking at the keyboard now.  Ahh....
+
+It&#8217;s what&#8217;s called, &#8220;Green Beer Day&#8221; around here.  It&#8217;s a day where all the really stupid college students skip their classes, go uptown, and get drunk off of beer dyed green.  Ooo.  Lots of fun.  These are the same students who are scared of Oxford&#8217;s new legislation to break up nuisance parties.  Get a life."
+"eventtime","2003-03-07 01:29:00"
+"current_moodid","44"
+"url","http://thatandykid.livejournal.com/2274.html"
+"userid","15402"
+"itemid","7"
+"event","OOps.  I didn&#8217;t change my mood from my last entry.  Here you go."
+"eventtime","2003-03-04 09:13:00"
+"current_moodid","125"
+"url","http://thatandykid.livejournal.com/2025.html"
+"userid","15402"
+"itemid","6"
+"event","Well, I&#8217;m here at Work and it&#8217;s the second time I&#8217;ve been late in the last two days!  I&#8217;m 0 for 2!  Crap.  Apparently the volume on my alarm clock was turned all the way down.  I know why- I always forget to turn the alarm off when I leave for the weekend and I guess it woke Adam up and he just turned the volume down.  Or maybe I did.  REGARDLESS- Crap!
+
+Well, I think it will be a good day.  No reasons other than that my two favorite classes are today: Editing & Journalism 212.  Anyhew...I think I&#8217;m going to type an e-mail to my boss pleading for mercy.  He said, &#8220;As long as it doesn&#8217;t happen a third time.&#8221;  I&#8217;m not satisfied with that, because it was an accident and I always call him and let him know when I&#8217;m not coming ahead of time, so that he should know it&#8217;s an accident when I don&#8217;t actually come.  Ah, well.
+
+Since my day had only been 20 minutes long, I don&#8217;t have much else to say.
+
+My K-Group last night ROCKED!!!! I&#8217;ve never had such a heart-felt meeting, and hope that they will only continue to open up with each other.  I think they even got the point of the study: as Christians, we are to give more love than we hope to receive.
+
+Bye!
+
+-Andy"
+"eventtime","2003-03-04 09:12:00"
+"current_moodid","70"
+"url","http://thatandykid.livejournal.com/1754.html"
+"userid","15402"
+"itemid","5"
+"event","Well, back from the weekend.
+
+I found the picture of Christine I thought I&#8217;d lost. Ah.  Comfort.  Now, if I could only find my sunglasses.
+
+Kimmy got a bit upset because Adam (and I, a little) harassed her about her crush.  It wasn&#8217;t malicious; we&#8217;d just like to see her move on.  I hope she&#8217;s not really mad.  It was all in good fun, and if she hadn&#8217;t laughed we would&#8217;ve stopped.  
+
+Oh! Here&#8217;s a cool story.  If you know me, you know I&#8217;m not a sportsman.  Well, these two dudes in my hall were playing golf in the hallway tonight, just putting the ball into a can.  It looked like a good...20-25 feet.  I asked Ben if I could try one, and he said, &#8220;Sure,&#8221; and handed me the putter.  It was right-handed, and I&#8217;m left, so I said, &#8220;Oh. A rightie, aye?&#8221; and I aimed, remembered what the dudes from the golf course told me about how to putt, and I swung the sucker and the ball went into the can!  They thought I was some kinda golf-shark, I think.
+
+Anyway, I hope no-one&#8217;s harboring any bitterness against me; I&#8217;ve given all mine up.  Well, that&#8217;s all for now.  See ya!
+
+Oh, by the way- Table for two is a great song, Kimmy- remember the words.
+
+Andy"
+"eventtime","2003-03-03 01:15:00"
+"current_moodid","70"
+"url","http://thatandykid.livejournal.com/1422.html"
+"userid","15402"
+"itemid","4"
+"event","Isaiah 29:13
+
+The Lord says:
+
+&#8220;These people come near to me
+with their mouth
+and honor me with their lips,
+but their hearts are far from me.
+
+Their worship of me
+is made up only of rules taught by
+men.&#8221;
+
+Isaiah 29:24
+
+Those who are wayward in spirit
+will gain understanding;
+those who complain will accept
+instruction.&#8221;"
+"eventtime","2003-02-26 09:37:00"
+"current_moodid","25"
+"url","http://thatandykid.livejournal.com/1051.html"
+"userid","15402"
+"itemid","3"
+"event","Years ago, a woman and her son sat in the worship service at my church on Sunday morning.  The son has mental disabilities, which leaves him feeling dejected from the world around him.  One morning, in the service with his mom, he sat innocently swinging his legs in his chair as many young kids do, and his legs were actually hitting the chair in front of him.  There was a young couple sitting in front of him and his mom, who had been attending the church for a while.  
+
+
+At the end of the service, the couple stood up, and the woman turned around to the mom, pointed to the son, and said, &#8220;I just wanted to let you know that he completely ruined my worship experience.&#8221;  That child has not returned to the Sunday morning service in years.  All because someone let a child ruin the &#8220;mood&#8221; that they were going for in a &#8220;worship&#8221; service.
+
+About two years ago, I attended a very formal, wealthy church in downtown Hamilton regularly for about a year.  About ten months after I began attending, I noticed a young couple a bit older than myself walk in to the service.  The couple obviously hadn&#8217;t been to that church before, and in my mind, it seemed like the girl asked the boy to come, and he obliged reluctantly.  Regardless, they weren&#8217;t dressed in the formal attire that everyone else came in, and the boy was wearing a hat.  See where this is going?  They sat towards the back, and after a few announcements, they sent the ushers down the aisle to collect the offering.  
+
+
+I&#8217;ll never forget what ensued.  I could hear the conversation taking place behind me when the usher made it to the young couple&#8217;s row.  &#8220;Please take off your hat,&#8221; she said, in a condescending tone.  She may have added, &#8220;This is a church.&#8221;  I don&#8217;t remember.  The boy took his hat off, and after the usher had passed, he took the hand of the girl and left the sanctuary, and still hadn&#8217;t returned by the time I had left the church months later.  
+
+
+
+	Question- What makes for a &#8220;worship experience,&#8221; and how can one person&#8217;s expectations effect other people?  Two very simple, perfectly harmless acts which upset &#8220;old-timers&#8221; caused people to left hurt, and unloved from a meeting supposedly of fellowship.
+	Does your attitude towards God influence your &#8220;worship,&#8221; or does your surroundings or circumstances?  Are you helping other people worship God with a loving attidude towards other, or are you hung up on methodology that makes you feel comfortable?  
+	
+	What is it to worship, and what is required?"
+"eventtime","2003-02-26 09:17:00"
+"current_moodid","25"
+"url","http://thatandykid.livejournal.com/987.html"
+"userid","15402"
+"itemid","2"
+"event","The question has recently come up-- what is worship?
+
+In my dad's ---
+
+never mind, I'm too tired right now.  Going to sleep.
+
+Pray for Dennis."
+"eventtime","2003-02-26 02:49:00"
+"current_moodid","31"
+"url","http://thatandykid.livejournal.com/517.html"
+"userid","15402"
+"itemid","1"
+"event","Thank you, Annie, for the password to my LiveJournal Journal!  This is the Outside World's key to my mind.  Well, this and you could also just go through Christine.  Hmm.
+
+My goal for this journal is to never write LOL or any other internet slang.  It's also a goal of mine to write things of substance.  Let's see.  What to write...
+
+Well, I got back today from MannaFest; IV/MCF's Spring/Winter conference where I participated in a track on ""Justice.""  I was in the track with Annie, you may want to see if she has anything to say on it by reading her journal at http://www.livejournal.com/users/whaleyam/.
+
+It was alright, but it stayed mostly in the ""head"" region and didn't really get into the practical realm.  I'd have like for it to.  What am I to do?   I'd also have liked my feathers to get ruffled.  I didn't really leave with a sense of urgency; like Justice needs to be dealt.  
+
+And I was electrocuted by the lamp in my room and Matt puked in my toilet.  But other than those things, it was a great time and I'd urge anyone to go!!!!!!!"
+"eventtime","2003-02-23 23:32:00"
+"current_moodid","31"
+"url","http://thatandykid.livejournal.com/462.html"
+"userid","15402"

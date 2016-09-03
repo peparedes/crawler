@@ -1,0 +1,963 @@
+"names","values"
+"itemid","96"
+"event","VEhFIEJFTExTIE9GIEZSSURBWSBUSEUgMTNUSA0KDQpmZWF0dXJpbmcgZGFyayBuZXcgd29ya3MgcGxheWVkIGxpdmUgb24gdGhlIEZFREVSQVRJT04gQkVMTFMgYnk6DQoNCkZPUkNFUw0KDQpBIERFQUQgRk9SRVNUIElOREVYDQoNCkZSSURBWSAxM1RIIEFQUklMLCAxMFBNDQoNCkZSRUUgRU5UUlkNCg0KQUxMIEFHRVMNCg0KVGhlIEZlZGVyYXRpb24gQmVsbHMgaXMgYW4gaW5zdGFsbGF0aW9uIG9mIDM5IGNvbXB1dGVyLWNvbnRyb2xsZWQgaGFybW9uaWMgYmVsbHMsIG9yaWdpbmFsbHkgY3JlYXRlZCBpbiAyMDAxIGJ5IEFudG9uIEhhc3NlbCBhbmQgTmVpbCBNY0xhY2hsYW4gdG8gbWFyayB0aGUgY2VudGVuYXJ5IG9mIEZlZGVyYXRpb24uDQoNCk5vdywgYWZ0ZXIgbW9yZSB0aGFuIGEgZGVjYWRlLCB0aGUgYmVsbHMgaGF2ZSBiZWVuIGdpdmVuIGEgbmV3IGxlYXNlIG9mIGxpZmUsIHdpdGggaW5ub3ZhdGl2ZSBzdHJpa2VyIG1lY2hhbmlzbXMsIG5ldyBjb21wdXRlciBjb250cm9sbGVycyBhbmQgbmV3IGxpZHMuIFRoZSByZXN1bHQgaXMgYSByZW1hcmthYmxlIGltcHJvdmVtZW50IGluIHRoZSBiZWxsc+KAmSBkeW5hbWljIHNlbnNpdGl2aXR5LCB0aW1pbmcgYW5kIHRvbmUuDQoNCk9uIEZyaWRheSAxM3RoIEFwcmlsLCB0aGUgYmVsbHMgd2lsbCBiZSByZS1sYXVuY2hlZCBpbiBhbiBlZXJpZSBsYXRlIG5pZ2h0IGV2ZW50LiBUd28gb2YgTWVsYm91cm5l4oCZcyBtb3N0IHByb2dyZXNzaXZlIG11c2ljYWwgb3V0Zml0cywgQSBEZWFkIEZvcmVzdCBJbmRleCBhbmQgRm9yY2VzIGFyZSBjcmVhdGluZyBuZXcgbXVzaWNhbCB3b3JrcyBmb3IgdGhlIHJlLWludmlnb3JhdGVkIEZlZGVyYXRpb24gQmVsbHMsIHRvIGJlIHRyaWdnZXJlZCBsaXZlIGFsb25nc2lkZSB2b2ljZSwgZ3VpdGFycywgZHJ1bXMgYW5kIGxvb3BzLiBTdGFydGluZyBhZnRlciAxMHBtLCB0aGlzIGV2ZW50IGlzIHBhcnQgb2YgQ2l0eSBvZiBNZWxib3VybmXigJlzIExhdGUgTmlnaHQgUHJvZ3JhbW1pbmcgYW5kIGlzIG9uZSBvZiB0aG9zZSByYXJlIGV2ZW50cyB0aGF0IGlzIGRlc3RpbmVkIHRvIGJlY29tZSBvbmUgb2YgMjAxMuKAmXMgdGFsa2luZyBwb2ludHMuDQoNCkZvcmNlcyAodm9jYWxpc3QvcHJvZHVjZXIsIEFsZXggQWtlcnMgYW5kIHBlcmN1c3Npb25pc3QvcHJvZ3JhbW1lciwgVGhvbWFzIEhlbmRlcnNvbikgaGF2ZSBiZWVuIHdpbm5pbmcgb3ZlciBhdWRpZW5jZXMgaW4gY2x1YnMgYXJvdW5kIE1lbGJvdXJuZSBhbmQgYmV5b25kIHdpdGggdGhlaXIgbWluaW1hbCBlbGVjdHJvbmljIGFuZCBHb3RoLWluZHVzdHJpYWwgZGFuY2Ugc291bmRzLiBUaGUgZHVvIGhhcyBwZW5uZWQgbmV3IHRyYWNrcyBpbmZ1c2VkIHdpdGggZGFyayB0aW1icmVzIHNwZWNpZmljYWxseSBmb3IgdGhlIEZlZGVyYXRpb24gQmVsbHMsIGFuZCB3aWxsIGJlIG1ha2luZyBmdWxsIHVzZSBvZiB0aGUgbWV0cm9ub21pYyBoYW1tZXJzIHRoYXQgaGF2ZSByZWNlbnRseSBiZWVuIGluc3RhbGxlZC4NCg0KaHR0cDovL3NvdW5kY2xvdWQuY29tL2FhZm9yY2VzDQoNCkEgRGVhZCBGb3Jlc3QgSW5kZXggaXMgb25lIG9mIE1lbGJvdXJuZeKAmXMgYmVzdC1rZXB0IHNlY3JldHMuIEJyb3RoZXJzIEFkYW0gYW5kIFNhbSBTaGVycnkgY29tYmluZSBldm9jYXRpdmUgdm9jYWxzIHdpdGggZXRoZXJlYWwsIGFjb3VzdGljIGluc3RydW1lbnRhdGlvbiB0byBjcmVhdGUgYW4gb3JpZ2luYWwgc291bmQgdGhhdCBpcyBhdCBvbmNlIHN0YXJ0bGluZyBhbmQgaGF1bnRpbmcsIEZvciBGcmlkYXkgMTN0aCB0aGV5IHdpbGwgY29tYmluZSB3aXRoIE1vcmdhbiBNY1dhdGVycyAoVGhlIEVtZXJnZW5jeSkgcGxheWluZyB0aGUgRmVkZXJhdGlvbiBCZWxscyBsaXZlLg0KDQpodHRwOi8vYWRlYWRmb3Jlc3RpbmRleC5iYW5kY2FtcC5jb20vDQoNClRoZSBGZWRlcmF0aW9uIEJlbGxzIGNhbiBiZSBmb3VuZCBvbiB0aGUgTWlkZGxlIFRlcnJhY2Ugb2YgQmlycmFydW5nIE1hcnIsIGJldHdlZW4gRmVkZXJhdGlvbiBTcXVhcmUsIHRoZSBZYXJyYSBSaXZlciBhbmQgdGhlIE1DRy4NCg0KaHR0cDovL2ZlZGVyYXRpb25iZWxscy5jb20uYXUvDQoNCmZvbGxvd2VkIGJ5Og0KDQpPRkZJQ0lBTCBBRlRFUlBBUlRZIEAgVGhlIExpYmVydHkgU29jaWFsLCAyNzkgRmxpbmRlcnMgTGFuZSwgTWVsYm91cm5lIENCRC4NCg0KRmVhdHVyaW5nOiBGb3JjZXMgREogU2V0IA0KDQpGUkVFIEVOVFJZIFdJVEggRkxZRVINCg0KaHR0cDovL3d3dy50aGVsaWJlcnR5c29jaWFsLmNvbS5hdS90bHMvVGhlX0xpYmVydHlfU29jaWFsLmh0bWw="
+"eventtime","2012-04-10 15:07:00"
+"url","http://glitterskull.livejournal.com/24719.html"
+"userid","5692"
+"itemid","95"
+"event","Melbourne's finest spaz-core party-grinders return this Friday on the extra brutal date of September 11! After 2 years of hiatus Rotten Chop are back, faster, more insane than ever, and ready to blow your skulls off once again. With their debut EP recorded and poised for release, make sure you get down to Pony this Friday to catch them rise from the dead on a bill of truly monstrous proportions: ROTTEN CHOP (comeback show) ORDER OF CHAOS (featuring ex members of Damaged, Blooduster, Earth) A MILLION DEAD BIRDS LAUGHING (fucken amazing abstract grind featuring members of Hatchet Dawn) WITCHGRINDER (awesome new industrial metal act from Travis Everett- Attack, 13 Monkeyz) That's 4 killer bands for 10 measly bucks. See you there!! Price: $8 Date: Friday, September 11, 2009 Time: 8:00pm - 1am Location: Pony Street: 68 Little Collins st City/Town: Melbourne, Australia http://"
+"eventtime","2009-09-07 19:42:00"
+"url","http://glitterskull.livejournal.com/24436.html"
+"userid","5692"
+"itemid","94"
+"event","Melbourne's finest spaz-core party-grinders return this Friday on the extra brutal date of September 11!
+
+After 2 years of hiatus Rotten Chop are back, faster, more insane than ever, and ready to blow your skulls off once again.
+
+With their debut EP recorded and poised for release, make sure you get down to Pony this Friday to catch them rise from the dead on a bill of truly monstrous proportions:
+
+ROTTEN CHOP (comeback show)
+
+ORDER OF CHAOS (featuring ex members of Damaged, Blooduster, Earth)
+
+A MILLION DEAD BIRDS LAUGHING (fucken amazing abstract grind featuring members of Hatchet Dawn)
+
+WITCHGRINDER (awesome new industrial metal act from Travis Everett- Attack, 13 Monkeyz)
+
+That's 4 killer bands for 10 measly bucks.
+
+See you there!!
+
+Price: $8 
+Date: Friday, September 11, 2009 
+Time: 8:00pm - 1am
+Location: Pony 
+Street: 68 Little Collins st 
+City/Town: Melbourne, Australia 
+
+<a href=""http://www.myspace.com/rottenchop>ROTTEN CHOP MYSPACE</A>
+
+
+<img src=""http://img.photobucket.com/albums/v685/glitterskull/RC_Pony_gig.jpg"">"
+"eventtime","2009-09-07 19:31:00"
+"url","http://glitterskull.livejournal.com/24317.html"
+"userid","5692"
+"itemid","93"
+"event","Hi all,
+
+Perhaps you have heard of this massive crazy-arsed warehouse party on tonight in Northcote?
+
+The Night Terrors will be playing along with a host of other rad bands, and you are invited. It's looking to be rather massive, so please come down and get your party trousers on with us!
+
+Address: 25a Eastment St Northcote (behind the town hall parallel to High St)
+party kicks off at 8pm, Terrors are onstage at midnight! BYO fun and frivolity!
+
+live acts:
+
+THE NIGHT TERRORS 12:00 - 12:45
+THE BALLS REVOLUTION 11:10 - 11:40
+TALKSHOWBOY 10:15 - 10:50
+SPITFIRE PARADE 9:25 - 10:00
+DIGANI GACIGA 8:30 - 9:05
+MADONNA 7:30 - 8:00
+
+++DJs HYDROGEN JUKEBOX & DOMESTIC BLEND
++++MC ALKAN ZEYBEK (OHSHITOHSHITOHSHIT)
+
+
+In other Terrors news, our upcoming European tour is taking shape, very exciting! So far we're hitting the UK, France, Italy, Germany, Denmark, Austria with heaps more in the works!
+We'll be playing two huge and awesome shows before we leave:
+
+Saturday 29th August, The Workers Club (ex Rob Roy) with Jonnie and the Jonnie Jonnies & All Fires the Fire (TAS)
+
+Thursday 24th September, film clip launch / farewell show at the Northcote Social Club, with Gold Tango and special guests!
+
+Huzzahs all round,
+
+Miles & The Night Terrors"
+"eventtime","2009-07-31 12:40:00"
+"url","http://glitterskull.livejournal.com/23840.html"
+"userid","5692"
+"itemid","92"
+"event","The Night Terrors are playing live to air on PBS FM in Melbourne today at 5pm! (8am GMT) Listen here: <a href=""http://www.pbsfm.org.au/public/playerVer/player.asp"">http://www.pbsfm.org.au/public/playerVer/player.asp</a>"
+"eventtime","2009-06-30 13:51:00"
+"url","http://glitterskull.livejournal.com/23599.html"
+"userid","5692"
+"itemid","91"
+"event","The time has come! ""Back To Zero"", the long-awaited debut album by Melbourne theremin-led instrumentalists The Night Terrors, is about to hit stores and blow minds. 
+
+Recorded with Nao Anzai (Laura, Because of Ghosts, Sinking Citizenship, City City City), Back To Zero is 60 minutes of spaced-out synthesiser rock ranging from haunting synthscapes to flat-out analogue noise. It looks and sounds completely amazing and we goddamn love it. 
+
+In only a matter of days all the lucky people of the world will be able to share in our love. It'll be coming out on EXO Records and available in stores around Australia and The US for starters. And - because it'll also be available online - you can get it anywhere in THE WORLD! if that's where you happen to live.
+
+To celebrate this momentous occasion we're having a massive launch/party at The East Brunswick Club on Friday April 10. Our lovely psychedelic popster friends Richard In Your Mind are coming down from Sydney especially and EXO friends/lovers The Emergency will also be joining us in playing our hearts out for your good selves. Those of you who saw us play last time at The East Brunswick will know that the night will be an epic audio-visual spectacular which will make you thirsty.
+
+So if you live in Melbourne town come on down and join us in our celebrations. You can be one of the first people in the world to own a copy of ''Back To Zero''! The time has come! As we plan on becoming quite merry, you could also get the chance to talk to Miles about his theremin boot camp with Lydia Kavina in Oxford and his not-at-all-nerdy three-day theremin festival in Germany!
+ 
+
+Please note in your diaries, come down and bring your music-lovin' mates, and a few extra clams for a record or two and a highly sexual Night Terrors t-shirt! 
+
+(GOOD) FRIDAY 10TH APRIL @ EAST BRUNSWICK CLUB
+
+THE NIGHT TERRORS (ALBUM LAUNCH)
+
+RICHARD IN YOUR MIND (SYD)
+
+THE EMERGENCY
+
+East Brunswick Club: 280 Lygon St East Brunswick, Melbourne, Victoria, Australia
+
+$13 on the door, 8 30pm start.
+
+
+<img src=""http://img.photobucket.com/albums/v685/glitterskull/terrors_launch_web.jpg"" />"
+"eventtime","2009-04-06 10:32:00"
+"url","http://glitterskull.livejournal.com/23407.html"
+"userid","5692"
+"itemid","90"
+"event","QWxsIHlvdSBzeW50aGVzaXNlciBmcmVha3MgYW5kIGhvdCBtdXNpYyBuZXJkcywgaXQncyB0aW1lIHRvIGhvbHN0ZXIgdGhvc2Ugc29sZGVyaW5nIGlyb25zLCBkaWcgb3V0IHlvdXIgcGlhbm8ta2V5IG5lY2t0aWVzIGFuZCBjb21lIGJhc2sgaW4gdGhlIHdhcm10aCBvZiBhbmFsb2cgY2lyY3VpdHJ5IGFzIHRoZSBUb3RlIHBsYXlzIGhvc3QgdG8gU1lOVEggQ0lUWSwgYW4gYWxsLXN5bnRoIGV4dHJhdmFuemEhISENCg0KVGhpcyB3aWxsIGJlIGFuIGFjdGlvbi1wYWNrZWQgZXZlbmluZyBvZiBrZXlib2FyZC1vcmllbnRlZCBibGlzcywgd2l0aCBhIGxpbmV1cCBvZiBzb21lIG9mIHRoZSBtb3N0IHNjaW50aWxsYXRpbmcgc3ludGggb3BlcmF0b3JzIHRoYXQgdGhpcyBkaW1lbnNpb24gaGFzIHRvIG9mZmVyLg0KDQpNZWxib3VybmUgcHJvZy1yb2NrIGhlcm9lcyBUaGUgTmlnaHQgVGVycm9ycyB3aWxsIGJlIGhlYWRpbmcgdXAgcHJvY2VlZGluZ3MsIHNob3djYXNpbmcgbWF0ZXJpYWwgZnJvbSB0aGVpciBoaWdobHkgYW50aWNpcGF0ZWQgdXBjb21pbmcgYWxidW0sIGFuZCBlbXBsb3lpbmcgdGhlaXIgdGhlcmVtaW4gZ3ltbmFzdGljcyBhbmQgbXVsdGlwbGUgc3ludGgtYmFuayBoaXN0cmlvbmljcyB0byBmdWxsIGVmZmVjdC4NCg0KRXh0cmEgc3BlY2lhbCBndWVzdHMgZm9yIHRoaXMgc2hvdywgYW5kIGFsbCB0aGUgd2F5IGZyb20gV2VsbGluZ3RvbiwgTmV3IFplYWxhbmQsIGFyZSBhbmFsb2cgbGl2ZSBlbGVjdHJvbmljYSBhY3QgSGVhdCBMaWtlIE1lLCB3aG8gYmxlbmQgdGhlIGxhdGVzdCBpbiA3MCdzIHN5bnRoIHRlY2hub2xvZ3kgd2l0aCBhIGZpc3RmdWwgb2YgaG9tZWJyZXcgZWxlY3Ryb25pY3MuIFRoZSByZXN1bHQgaXMgYSBkYW5jZWFibGUgbWl4IG9mIGVsZWN0cm8sIGZ1bmssIGFuZCByb2NrIHNlbnNpYmlsaXRpZXMuDQoNCkpvaW5pbmcgdGhlbSB3aWxsIGJlIGxvY2FsIHBvc3QtcHVuayBzeW50aCBsZWdlbmRzIFRoZSBFbWVyZ2VuY3ksIHdob3NlIHVsdHJhIGNvb2wgc3ludGhldGljIHNvdW5kcyBoYXZlIGJlZW4gbWFraW5nIE1lbGJvdXJuZSByYWRkZXIgc2luY2UgMjAwMS4NCg0KQW5kIHRvIG9wZW4gdXAgdGhlIGV2ZW5pbmcncyBmZXN0aXZpdGllcywgdGhyZWUtcGhhc2UgdXBzdGFydHMgQ29tbWFuZGFudCBMYXNzYXJkIHdpbGwgYmUgYXNzYXVsdGluZyB5b3VyIHNlbnNpYmlsaXRpZXMgd2l0aCB0aGVpciBvd24gYnJhbmQgb2YgcmV0YXJkZWRseSBub2lzZXksIGhlYXZ5IGFzIGZ1Y2sgc3ludGggYW5kIHZvY29kZXIgc2lsbGluZXNzIQ0KDQpBbGwgdGhpcyBwbHVzIERKIFRpbSBQaWNvbmUgKFVuc3RhYmxlIEFwZSBSZWNvcmRzKSB0aWNrbGluZyB0aGUgdmlueWwgYmV0d2VlbiBhY3RzLg0KDQpBbmQgaWYgdGhhdCdzIG5vdCBlbm91Z2ggdG8gZ2V0IHlvdXIgcGl0Y2ggYmVuZGVycyBxdWl2ZXJpbmcsIHRoZSBmaXJzdCAxMDAgcGF5ZXJzIHdpbGwgcmVjZWl2ZSBhIGZyZWUgQ0Qgd2l0aCB0cmFja3MgZnJvbSBhbGwgdGhlIGJhbmRzIQ0KDQpJdOKAmXMgYWxsIGF0IFRoZSBUb3RlLCBGcmlkYXkgQXVndXN0IDI5LCAkMTIsIDguMzBwbS4="
+"eventtime","2008-08-28 15:34:00"
+"url","http://glitterskull.livejournal.com/23269.html"
+"userid","5692"
+"itemid","89"
+"event","hey everyone, I lost my mobile Sydney on the weekend, please use my m1le5@hotmail.com address to conatct me for the next few days!
+
+love Miles
+
+xoxox"
+"eventtime","2008-06-25 15:02:00"
+"url","http://glitterskull.livejournal.com/22866.html"
+"userid","5692"
+"itemid","88"
+"event","Hey there lovelies,
+
+The Night Terrors return to the live circuit next weekend with three bodacious shows in Melbourne and Sydney to tanatalise your post-prog synth noise tastebuds!
+They'll be showcasing a whole heap of brand new songs from the as-yet-untitled upcoming album they've been locked away recording for the last few months, PLUS this will be the first public airing of their hot new ""maternity leave"" touring lineup.
+
+
+FRIDAY 20TH JUNE - Melbourne
+
+THE NIGHT TERRORS
+KIDS WITH GUNS FOR HANDS
+HOTEL WRECKING CITY TRADERS
+@ PONY, 68 Little Collins St.
+Melbourne, VIC, 9pm, $6
+
+Come down to Pony for a night of crazy psychedelic noise and prog rock mayhem on Friday 20th June, as The Night Terrors head up a lineup of Melbourne's finest smartass bands. This promises to be one mind-warp of a night - also on the bill are the awesome Kids With Guns For Hands and the brutal Hotel Wrecking City Traders.
+
+It's going to be bloody wicked. 8 30pm doors, Terrors on around 11pm.
+
+
+SATURDAY 21ST JUNE - Sydney
+
+THE NIGHT TERRORS
+PROWLER (REV.
+KRIS HADES, HELLEN ROSE, JULIE KIM)
+BAIN WOLFKIND
+@ HELLEN ROSE SCHAUERSBERGER LABRATORIUM, Level 1, 17 Waterloo St, Surry Hills, NSW, 8pm, $13
+
+Next the Terrors descend upon the Hellen Rose Schauersberger Labratorium (Level 1, 17 Waterloo St, Surry Hills) on Saturday the 21st of June for an evening of horror-schlock mayhem with support from Prowler (Rev. Kris Hades, Hellen Rose, Julie Kim) and Bain Wolfkind.
+
+Bring your capes and blood capsules!
+
+SUNDAY 22ND JUNE - Sydney
+
+RICHARD IN YOUR MIND
+THE NIGHT TERRORS
+WINDSOR FLARE
+@ THE HOPETOUN HOTEL, 416 Bourke St Surry Hills, NSW
+
+Then its over to The Hopetoun on Sunday the 22nd to hop on board good friends Richard In Your Mind's Sunday Residency series, with able support from Windsor Flare! Come on down and get terrified Sunday evening styleee!
+Then we drive back down the Hume like crazy people!
+
+We'd love to see you at whichever of these shows you can get to!
+
+love Miles + The Night Terrors
+
+xoxoxoxox
+
+
+<img src=""http://img.photobucket.com/albums/v685/glitterskull/SYDMINIWEBZ.jpg"" />"
+"eventtime","2008-06-19 16:04:00"
+"url","http://glitterskull.livejournal.com/22579.html"
+"userid","5692"
+"itemid","87"
+"event","FRIDAY 20TH JUNE @ PONY: THE NIGHT TERRORS + KIDS WITH GUNS FOR HANDS + HOTEL WRECKING CITY TRADERS.
+
+Come down to Pony for a night of crazy psychedelic noise and prog rock mayhem on Friday 20th June, as The Night Terrors head up a lineup of Melbourne's finest mind-warping bands, showcasing their hot new songs and introducing their rad new synth wrangler!
+
+This will be the first opportunity to check out brand spanking new material from the Terrors' upcoming record, as well as their sexy new ""maternity leave"" touring lineup.
+
+Also on the bill are awesome progsters Kids With Guns For Hands and the brutal Hotel Wrecking City Traders. It's going to be bloody wicked.
+
+9pm start, Terrors on at 11.30pm, PONY 68 Little Collins St, Melbourne"
+"eventtime","2008-06-11 03:42:00"
+"url","http://glitterskull.livejournal.com/22353.html"
+"userid","5692"
+"itemid","86"
+"event","Hey there!
+
+Come on down to the Make It Up Club at Bar Open this Tuesday night and see the debut show of a brand new trio:
+
+Chris Hale (Christopher Hale Ensemble, Velure, Tim Rogers Band, millions of other things) - six-string guitar-bass
+
+Miles Brown (The Night Terrors, Dan Kelly & The Alpha Males, general theremin slut) - theremin
+
+Phil Collings (millions of jazzy things, owner of truly awesome name) - drums
+
+This will be a 100% improvised set, and should be an interesting branching out from comfort zones for all three members!
+
+This will also mark the first time in 14 years that Miles and Chris have shared a stage together - the last time being the 1992 year 7/8 social at St. Virgil's College in Hobart. They played Gunners covers. They wore bandanas. Mike Noga (The Drones) was on the drums and stagediving. It was totally rad.
+
+We're hoping for at least three of those elements to be present in this show!
+
+Make It Up Club kicks off at 8pm, and it's $10 / $5 concession.
+
+love Miles
+
+Tuesday, May 27, 2008 at 9:00pm
+
+Location:	Bar Open
+
+317 Brunswick St Fitzroy, Melbourne, Australia"
+"eventtime","2008-05-26 02:14:00"
+"url","http://glitterskull.livejournal.com/22053.html"
+"userid","5692"
+"itemid","85"
+"event","Come down and catch the Night Terrors homecoming show after their national tour this New Year's Day as part of the Espy's huge EAT THE BEAT event!
+
+Full lineup includes Midnight Juggernauts, Regurgitator, Dukes of Windsor, Bluejuice, Caged Baby, Dexter, Popolice, Foxx On Fire, Neon Knights, Process, TC & Jakes, Noisia, Keir, Logistics, Jay Trooper, Commix, One LC, Kubist and MC Wasp & Local!
+
+Night Terrors on at 10.15pm!! It's gonna be huge!!!!
+
+<img src=""http://i57.photobucket.com/albums/g213/theespy/Picture3.jpg"">"
+"eventtime","2007-12-28 01:43:00"
+"url","http://glitterskull.livejournal.com/21922.html"
+"userid","5692"
+"itemid","84"
+"event","The Night Terrors continue their sweep across this battered, chapped land this weeknd as they take their theremintastic wares to Tasmania and South Australia with good friends and shirtless disco patrons SubAudible Hum!!
+
+First stop is this Friday night at the Brisbane Hotel, 2 Brisbane St, Hobart Tasmania! This is sure to be a fine old evening as the Terrors hit home turf and Subhum hit the booze with Gibbo and the Brisbane crew! Support from The Que, starts at 9pm!!
+
+Then it's over to Radelaide to play the Electric Light Hotel / Producers Bar (235 Grenfell St, Adelaide, SA) with Fire! Santa Rosa Fire!
+
+There's sure to be much gnashing of teeth and making of awesome!
+
+Come along and join in the festivities!
+
+Love Miles + The Night Terrors
+
+<a href=""http://www.thenightterrors.com"">www.thenightterrors.com</a>
+
+<img src=""http://img.photobucket.com/albums/v685/glitterskull/nightterrors_jsp_promo.jpg"">
+
+
+
+TOUR DATES>
+
+Friday 2nd November: Roxanne Parlour, 2 Coverlid Place, Melbourne City, VIC, Australia, with SubAudible Hum, The Dardanelles, Miso and more! $12, Terrors onstage at 9pm.
+
+Friday 9th November: Hellen Rose Shauersberger Labratorium, cnr Kippax and Waterloo Sts, Surry Hills, Sydney, NSW, Australia, with Fait Accompli and more! 8pm start, entry by donation, all ages, BYO.
+
+Saturday 10th November: Green Room, Kirinari St, Bruce, Canberra, ACT, Australia, with Subaudible Hum + Cold Heart Project. 8pm start, $12.
+
+Friday 16th November: The Brisbane Hotel, 2 Brisbane St, North Hobart, TAS, Australia, with SubAudible Hum + The Que. 9pm start, $12.
+
+Saturday 17th November: The Electric Light Hotel / Producers Bar, 235 Grenfell St, Adelaide, SA, with SubAudible Hum + Fire! Santa Rosa Fire! 9pm start, $12.
+
+Friday 23rd November: The Golden Vine Hotel, 135 King St, Bendigo, VIC, with SubAudible Hum, 9pm, $12.
+
+Saturday 1st December: The Troubador, Level 2, 322 Brunswick St, Fortitude Valley, Brisbane, QLD, with SubAudible Hum, Stature::Statue + Blue . 9pm start, $12."
+"eventtime","2007-11-16 11:10:00"
+"url","http://glitterskull.livejournal.com/21562.html"
+"userid","5692"
+"itemid","83"
+"event","After many moons sequestered on the gloomy distant planet of southern Australia, The Night Terrors finally bring their theremin-fueled synth rock mayhem back to Sydney-town, in support of their new internet single ''Righteous''. 
+
+Spawned from the festering miasma of the Melbourne underground scene, The Night Terrors' blistering electro-noise has been petrifying punters since the year 2000. Their formula of thunderous metal-bass, breakneck drumming, vintage horror synth and the manic wail of the theremin has earnt the Terrors a reputation as one of Australia's most unusual and original bands. 
+
+With a drummer returned from 3 years in Paris, a rockin new synth wrangler (Marika Bardin - LoveCutsKill), more theremin than you can poke an aerial at and a brand spanking new set of killer tunes, The Terrors live to do nasty things to your brain once again in 2007.
+
+They'll be hitting the stage TWICE for Labour Day Eve on Sunday the 30th September: first off with an early all-ages show at <a href=""http://www.myspace.com/warehouseshowroom"">Warehouse Showroom</a>, 9 Bridge St Rydalmere, as part of a sensational bill also featuring the almighty <a href=""http://www.myspace.com/spod"">Spod</a>, <a href=""http://www.myspace.com/handmemyjetpack"">Hand me My Jetpack</a> and <a href=""http://www.myspace.com/spunrivals"">Spun Rivals</a>! (3pm start, $10)
+
+Then, that whole lineup teleports to the <a href=""http://www.myspace.com/oxfordartfactory"">Oxford Art Factory</a>, 38 Oxford St Darlinghurst, for an all-out over-18s mind-blowing spectacular, with <a href=""http://www.myspace.com/thelaurels"">The Laurels</a> joining in for good measure! (8pm start, $12) 
+
+It's going to be bloody fantastic!!!
+
+<a href=""http://www.thenightterrors.com"">www.thenightterrors.com</a>"
+"eventtime","2007-09-25 19:29:00"
+"url","http://glitterskull.livejournal.com/21457.html"
+"userid","5692"
+"itemid","82"
+"event","Yo!
+
+Check this shit out! Hot show this weekend AND our brand new film clip!!!
+Show info:
+
+The Night Terrors head up a huge night of noise-rock at the Arthouse on Saturday the 11th of August!
+
+Fresh from the massive launch of their current single ""Righteous"", and with their hot new lineup fully cemented and in mind-bending form, The Night Terrors will be showcasing their theremin-fuelled synth-prog in this, their last Melbourne show before hitting the studio to finish off their brand new record!
+
+Joining them on the night will be the incredible high-octane rock-punk of Blacklevel Embassy, fantastic young noiseniks Quebec and the stellar rock freakout of Kids With Guns For Hands!
+
+That's four of Melbourne's most scintillating and original groups on the one blistering bill! Don't miss out, it's going to rule!
+
+9pm start, $8 on the door.
+
+The Arthouse: corner Queensberry & Elizabeth Sts, City.
+
+Film Clip by <a href=""http://www.myspace.com/thenightelephants"">The Night Elephants Film Collective<a/>!! In 3D!!!:
+
+<lj-embed id=""1"" />"
+"eventtime","2007-08-08 00:54:00"
+"url","http://glitterskull.livejournal.com/21216.html"
+"userid","5692"
+"itemid","81"
+"event","Hiii everyone!
+
+We are really really excited to be launching our new single ""Righteous"" on Saturday night at the Tote Hotel!
+
+This is the first new Night Terrors material to make it out of the haunted holiday camp where we write and record all our music, and it's fresh as a daisy and more overblown than a year 7's first trumpet!!! It has like a million theremin tracks on it! And a bloody choir!! Check it out on our myspace page <a href="" http://www.myspace.com/thenightterrors"">HERE</a>, and if you are able, we'd love for you to come down and celebrate with us on Saturday night!
+
+
+The lineup is fan-frickin-tastic! Joining us will be the master of sexxxiness, all the way from the windswept peaks of Sydney: SPOD, in his first Melbourne show in bloody ages! Also playing are the splendiferous Red Light Union, and make sure you get down early to catch the awesome nutsoid radness of Love Is Science Fiction!! Plus DJ Rawk playing really choice tunes in between sets!
+
+EXTRA SPECIAL BONUS!!! The first 100 payers will receive a free CD featuring our new single ""Righteous"" PLUS Spod's latest track ""So Exciting"" PLUS another new Night Terrors track ""Suspended Animation"" AND a remix of Spod's new song!!! That's 4 songs of super wickedness!!Just for you! The Tote is on the corner of Johnston and Wellington Sts in Collingwood, and it's $10 on the door, 8.30pm start, and The Night Terrors are on at midnight!
+
+Love and kisses,
+
+Miles + The Night Terrors xxxxxxxoooooooooooo
+
+\m/
+
+ <img src=""http://img.photobucket.com/albums/v685/glitterskull/singlelaunchcopy.jpg"">
+<a href=""http://www.myspace.com/thenightterrors"">NIGHT TERRORS MYSPACE</a>
+<p>
+<a href=""http://www.myspace.com/spod"">SPOD MYSPACE</A>
+<p>
+<a href=""http://www.myspace.com/redlightunion"">RED LIGHT UNION MYSPACE</a>
+<p>
+<a href=""http://www.myspace.com/loveissciencefiction"">LOVE IS SCIENCE FICTION MYSPACE</a>"
+"eventtime","2007-07-25 02:49:00"
+"url","http://glitterskull.livejournal.com/20955.html"
+"userid","5692"
+"itemid","80"
+"event","VGhlIE5pZ2h0IFRlcnJvcnMgYW5kIFNQT0QgdGVhbSB1cCBmb3IgYSBuaWdodCBvZiBoaWdoLWVuZXJneSBhd2Vzb21lbmVzcyBvbiBTYXR1cmRheSB0aGUgMjh0aCBvZiBKdWx5IHRvIGNlbGVicmF0ZSB0aGUgbGF1bmNoIG9mIHRoZWlyIHNpbXVsdGFuZW91cyBpbnRlcm5ldCBzaW5nbGUgcmVsZWFzZXMhISBUaGUgZmlyc3QgMTAwIHBheWVycyB3aWxsIHJlY2VpdmUgYSBmcmVlIGNvcHkgb2YgdGhpcyBtb251bWVudGFsIHVuaW9uIG9mIGhlcm9pYyBhd2Vzb21hdHVkZSBvbiBjb21wYWN0IGRpc2MgdG8gc2VsbCBvbiBlYmF5IGZvciBhIG1pbGxpb24gZG9sbGFycy4NCg0KV2l0aCB0aGUgcmV0dXJuIG9mIHBvd2VyaG91c2UgZHJ1bW1lciBJYW50byBLZWxseSBmcm9tIDMgeWVhcnMgaW4gdGhlIHdpbGRzIG9mIFBhcmlzLCBhbmQgc3BvcnRpbmcgYSBob3QgbmV3IHN5bnRoIHdyYW5nbGVyIChNYXJpa2EgQmFyZGluIC0gTG92ZSBDdXRzIEtpbGwpLCBwbHVzIGEgd2hvbGUgbmV3IHNldCBvZiBraWxsZXIgdHVuZXMsIFRoZSBOaWdodCBUZXJyb3JzJyBuZXdmb3VuZCBpbnRlbnNpdHkgaGFzIGJlZW4gd293aW5nIGF1ZGllbmNlcyBhcm91bmQgTWVsYm91cm5lIHRoaXMgeWVhci4gV2l0aCBhIGJyYW5kIG5ldyBhbGJ1bSBpbiB0aGUgd29ya3MsIHRoZSBUZXJyb3JzIHdpbGwgYmUgc2hvd2Nhc2luZyB0aGVpciB0aGVyZW1pbi1mdWVsZWQgc3BhY2UtcHJvZyB3aXRoIGEgbGluZXVwIG9mIGFjdHMgdGhhdCB3aWxsIGxlYXZlIHlvdSByZWVsaW5nIHdpdGggcmFkbmVzcyENCg0KU1BPRCBoYXMgcmVjZW50bHkgcmV0dXJuZWQgZnJvbSBhIHBsYXlpbmcgU1hTVyAmIGEgc3Vic2VxdWVudCB3b3JsZCB0b3VyLCBpZ25pdGluZyBtaW5kcyB3aXRoIHB1cmUgZXhjZWxsZW5jZS4gT24gcmV0dXJuIGhlIGRvdmUgc3RyYWlnaHQgaW50byB0aGUgc3R1ZGlvIHRvIHByZXBhcmUgaGlzIG5ld2VzdCBhbGJ1bSBvZiBzb25pYyBhd2Vzb21hdHVkZS4gVG8gZnJlZSBoaXMgbWluZCBmcm9tIHRoZSBzaGFja2xlcyBvZiByZWNvcmRpbmcgaGliZXJuYXRpb24sIGhl4oCZcyBmaW5hbGx5IGNvbWluZyB0byBNZWxib3VybmUgYWdhaW4gdG8gcm9jayBiYWxscyB3aXRoIGhpcyBicm/igJlzIEJsYWNrIExldmVsIEVtYmFzc3kgYXMgaGlzIGR1ZGViYW5kLCBhbmQgcGVyaGFwcyBhIHN1cGVyIHNlY3JldCBzcGVjaWFsIGd1ZXN0IG9uIGFuIGV4dHJhIGluc3RydW1lbnQgb2Ygcm9ja29sb2dpY2FsIHBvd2VyLg0KDQpKb2luaW5nIHRoZXNlIHR3byBvcHBvc2l0ZSBwb2xlcyBvZiB0aGUgcGxhbmV0IGF3ZXNvbWUgd2lsbCBiZSByZWQtaG90IHlvdW5nIHJvY2tlcnMgUmVkIExpZ2h0IFVuaW9uIGFuZCB0aGUgbWluZC1ibG93aW5nIHN5bnRoIGZyZWFrb3V0IG9mIExvdmUgSXMgU2NpZW5jZSBGaWN0aW9uLiBJdCdzIGdvaW5nIHRvIGJlIHJhdGhlciBnb29kLg0KDQokMTAsIDlwbSBzdGFydC4gVGhlIFRvdGUgSG90ZWwgLSBjbnIuIEpvaG5zdG9uIGFuZCBXZWxsaW5ndG9uIFN0cywgQ29sbGluZ3dvb2QuDQoNCjxjZW50ZXI+DQo8aW1nIHNyYz0iaHR0cDovL2ltZy5waG90b2J1Y2tldC5jb20vYWxidW1zL3Y2ODUvZ2xpdHRlcnNrdWxsL3NpbmdsZWxhdW5jaGNvcHkuanBnIj4NCjxwPg0KPGEgaHJlZj0iaHR0cDovL3d3dy5teXNwYWNlLmNvbS90aGVuaWdodHRlcnJvcnMiPlRoZSBOaWdodCBUZXJyb3JzIE15c3BhY2U8L2E+DQo8cD4NCjxhIGhyZWY9Imh0dHA6Ly93d3cubXlzcGFjZS5jb20vc3BvZCI+U3BvZCBNeXNwYWNlPC9hPg0KPHA+DQo8YSBocmVmPSJodHRwOi8vd3d3Lm15c3BhY2UuY29tL3JlZGxpZ2h0dW5pb24iPlJlZCBMaWdodCBVbmlvbiBNeXNwYWNlPC9hPg0KPHA+DQo8YSBocmVmPSJodHRwOi8vd3d3Lm15c3BhY2UuY29tL2xvdmVpc3NjaWVuY2VmaWN0aW9uIj5Mb3ZlIElzIFNjaWVuY2UgRmljdGlvbiBNeXNwYWNlPC9hPg=="
+"eventtime","2007-07-11 14:49:00"
+"url","http://glitterskull.livejournal.com/20511.html"
+"userid","5692"
+"itemid","79"
+"event","Hey all you radical dudes,
+
+The Night Terrors play two awesome shows this weekend just 4 U!!
+
+First up, for all you southsiders, and northsiders who aren't afraid of trolls,
+
+The Night Terrors will be hitting the stage at ye olde Revolver Upstairs as part of Mushroom Giant's huge EP launch this Friday the 25th May!
+
+This going to be one hot-ass bill with the spectacular <a href=""http://www.myspace.com/mushroomgiant"">Mushroom Giant</a> celebrating the release of their hot new rekkid, plus The Night Terrors - rejuvinated, theremin-wielding and ready for action, hot young things <a href=""http://www.myspace.com/loveissciencefiction"">Love is Science Fiction</a> and <a href=""http://www.myspace.com/alaskaratio"">Alaska Ratio</a> opening things up, plus there's some rad exhibition opening earlier on as well. So if you like your art rocky, and your rock quite arty, this will be all the way up your alley. Plus, after the gig you'll be at Revolver, which is its own particular brand of party-out insanity, if you're into that kind of thing. 
+
+$10 on the door, Terrors on at 10.45pm
+Revolver upstairs, Chapel St. Prahran.
+
+THEN>>>
+
+...The Night Terrors continue their triumphant resurrection campaign with a super-late club show on Saturday 26th May @ dv8, CBD Nightclub, Mackillop St. Melbourne City. 
+
+Also on the bill are hot goth rockers <a href=""http://www.myspace.com/shadenfreudeband"">Schadenfreude</a> and <a href=""http://www.myspace.com/redlightunion"">Red Light Union</a>, plus DJs Lobotomy and Dorian. 
+
+All you kids who love running around trashed at nightclubs listening to blisteringly loud tunes until the sun comes up, this show is tailor-made for you. Everyone else, dust off the Doc Martins and come down for a few million drinks and whip out those dance moves that you can't really get away with at Pony. 
+
+Gig starts at midnight, Terrors on around 2am."
+"eventtime","2007-05-22 13:50:00"
+"url","http://glitterskull.livejournal.com/20442.html"
+"userid","5692"
+"itemid","78"
+"event","THE NIGHT TERRORS MK. III, RELAUNCH SAT 28TH APRIL @ PONY!
+
+In the tradition of all good prog bands,The Night Terrors return from the dead with a new member, an old member and hot new tunes on Saturday the 28th of April at Pony! 
+
+With a drummer returned from 3 years in Paris, a rockin new synth wrangler, more theremin than you can poke an aerial at and a brand spanking new set of killer tunes, The Terrors live to do nasty things to your brain once again in 2007.
+
+Joining them on this special night will be brutal instro grungsters SPIDER GOAT CANYON, hot young thespians YOUNG DIVORCEES and a special appearance by CRI$$O (Eurobeat 3 / Alpha Males).
+
+$8 on the door, night starts 9pm, Terrors on at midnight.
+
+PONY: 68 Little Collins St. Melbourne City.
+
+http://www.myspace.com/thenighterrors
+http://www.myspace.com/spidergoatcanyon
+http://www.myspace.com/youngdivorcees
+http://www.myspace.com/theeurobeat3"
+"eventtime","2007-04-16 13:15:00"
+"url","http://glitterskull.livejournal.com/20185.html"
+"userid","5692"
+"itemid","77"
+"event","Holy motherfuckin shit - I'm on Youtube!
+
+2 vids of me playin theremin at the Sydney BDO with Dan Kelly & the Alpha Males!
+
+<a href=""http://www.youtube.com/results?search_query=dan+kelly+theremin"">CLICK HERE</a>"
+"eventtime","2007-03-16 01:31:00"
+"url","http://glitterskull.livejournal.com/19948.html"
+"userid","5692"
+"itemid","76"
+"event","The Night Terrors launch into their first show for the year this Friday 26th of January at the Rob Roy. With their brand new album finally completed(!), the Terrors are gearing up for a massive 2007, and will kick it off in style with a huge show featuring a completely killer lineup, the entirety of which will be recorded live for release as part of the Cumbersome Sessions!
+
+Joining the Terrors will be awesome young fuzz-rockers Puppetman, petrifying no-wavers Sinking Citizenship and hot new hipsters Bang! Bang! AIDS! This is going to be one awesome show of left-of-centre local original rock, so if you're up for something exciting and mildly intelligent to top off your (anti)patriotic festivities, we'd love you to be there! Plus you can roll up and have your screams and hollers immortalised on tape! woooooo
+
+Theremin, horror synth, art-rock and a public holiday! Yeeehaarrrr!! It's almost as exciting as when the teachers yelled out ""Extra Play"" at lunchtime in primary school.
+
+Love and kisses,
+
+The Night Terrors
+
+http://www.myspace.com/thenightterrors
+http://www.myspace.com/puppetmanband
+http://www.myspace.com/thesinkingcitizenship 
+http://www.myspace.com/bangbangaids"
+"eventtime","2007-01-22 22:26:00"
+"url","http://glitterskull.livejournal.com/19498.html"
+"userid","5692"
+"itemid","75"
+"event","Anyone looking for Meredith tickets, I know of two for the whole weekend including tonight (Friday). Give me a call on 0422036812 if you're interested!"
+"eventtime","2006-12-08 12:15:00"
+"url","http://glitterskull.livejournal.com/19408.html"
+"userid","5692"
+"itemid","74"
+"event","This is very last minute notice, but The Night Terrors are playing LIVE on 3PBSFM 106.7 tonight (Wednesday) at midnight! Tune in if you're near a radio, or listen live here:
+
+http://www.pbsfm.org.au/
+
+Love Miles"
+"eventtime","2006-12-06 21:24:00"
+"url","http://glitterskull.livejournal.com/19195.html"
+"userid","5692"
+"itemid","73"
+"event","The Night Terrors descend upon the Arthouse TONIGHT for an evening of psychedelic freak-noise mayhem!
+
+With their killer new album in the mixing stages and tantalisingly close to completion, the Terrors are gearing up for a massive 2007, and will see this year out in style by tearing it up live one more time! Don't miss this chance to get your fix of theremin-fueled synth-prog insanity!
+
+Joining the Terrors for this show will be local experimental rock gods Spider Goat Canyon, smartass stoner 2-piece The Joint Chiefs of Staff & The Currency (ex Living End, Mutiny).
+
+9pm start, $7 on the door, Terrors on at quarter past Midnight!
+
+
+http://www.myspace.com/thenightterrors
+http://www.myspace.com/spidergoatcanyon
+http://www.myspace.com/jointchiefsofstaff
+http://www.myspace.com/currencyband"
+"eventtime","2006-12-01 12:40:00"
+"url","http://glitterskull.livejournal.com/18865.html"
+"userid","5692"
+"itemid","72"
+"event","The Night Terrors descend upon the Arthouse TONIGHT for an evening of psychedelic freak-noise mayhem!
+
+With their killer new album in the mixing stages and tantalisingly close to completion, the Terrors are gearing up for a massive 2007, and will see this year out in style by tearing it up live one more time! Don't miss this chance to get your fix of theremin-fueled synth-prog insanity!
+
+Joining the Terrors for this show will be local experimental rock gods Spider Goat Canyon, smartass stoner 2-piece The Joint Chiefs of Staff & The Currency (ex Living End, Mutiny).
+
+9pm start, $7 on the door, Terrors on at quarter past Midnight!
+
+
+http://www.myspace.com/thenightterrors
+http://www.myspace.com/spidergoatcanyon
+http://www.myspace.com/jointchiefsofstaff"
+"eventtime","2006-12-01 12:36:00"
+"url","http://glitterskull.livejournal.com/18588.html"
+"userid","5692"
+"itemid","71"
+"event","The Night Terrors descend upon the Arthouse next Friday 1st of December of a night of psychedelic freak-noise mayhem!
+
+With their killer new album in the mixing stages and tantalisingly close to completion, the Terrors are gearing up for a massive 2007, and will see this year out in style by tearing it up live one more time! Don't miss this chance to get your fix of theremin-fueled synth-prog insanity!
+
+Joining the Terrors for this show will be local experimental rock gods Spider Goat Canyon, Coue Method & The Currency.
+
+9pm start, $7 on the door.
+
+http://www.myspace.com/thenightterrors"
+"eventtime","2006-11-23 12:49:00"
+"url","http://glitterskull.livejournal.com/18421.html"
+"userid","5692"
+"itemid","70"
+"event","Rotten Chop emerge from the depths of the studio to mash minds with their spaz-metal onslaught this Friday November 3 at the Arthouse. Joining them will be local scuzzsters Potential Citizens, stunt metallers 5 Star Prison Cell, and the awesome Unframed Mind to open!! If you like your metal fast and your inebriation faster, this is the night for you!!!
+
+http://www.myspace.com/rottenchop"
+"eventtime","2006-11-01 17:21:00"
+"url","http://glitterskull.livejournal.com/17922.html"
+"userid","5692"
+"itemid","69"
+"event","All you sexy-arse Dustbuddies,
+
+Come down and celebrate all things dead and spooky this Saturday 28th October @ SWITCH!!!
+
+We're playing first, so rock down early and get hot and sweaty with your favourite talentless hacks, DUSTBUNNYYY!!
+
+We promise to deliver far less musical integrity and far more inbridled enthusiasm than any oher band in town!
+
+Plus, Tremedy are awesome, and quite attractive young lads. And Catwitch are scarey as fuck, and that's what you want on Halloweeeeen!!!
+
+We love you! Come and get drunk in front of us@@@
+
+Plus we have brand spankin' new demos available for only $5!!!
+
+Doors 9pm
+<center><img src=""http://www.covenclub.com/Coppermine/albums/Coven/30september06/normal_covbunny06023.jpg"">
+<p><a href=""http://pic1.picbin.net/direct/qqs5c0e.jpg"">FLYER!!!</a>"
+"eventtime","2006-10-25 17:07:00"
+"url","http://glitterskull.livejournal.com/17827.html"
+"userid","5692"
+"itemid","68"
+"event","FRIDAY 13TH EXTRAVAGANZA AT PONY!!
+
+
+The Night Terrors + Sinking Citizenship + The Instant (NSW)
+
+The Night Terrors bring their theremin-fuelled horror-prog antics to an evening of spooky celebration for Friday the 13th! Join the Terrors and their most ghoulish associates as they warp your mind, bid for your soul and turn Pony into an unholy inferno! Sinking Citizenship bring their spectral rock along for the fright!  
+from 9:00pm... 
+
+Poltergeists, please bring a plate. 
+
+PONY 68 Little Collins St. Melbourne City.
+http://www.myspace.com/thenightterrors
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/ponyterror.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>"
+"eventtime","2006-10-10 13:50:00"
+"url","http://glitterskull.livejournal.com/17474.html"
+"userid","5692"
+"itemid","67"
+"event","Ok!
+
+So its time to dust of ye olde lj and post some shenanigans!!
+
+Last few weeks have been pretty goddamn awesome, have just been hangin with cool people and doing crazy things, seeing lots of cool art and generally chillin'. Nice to have a break from Nigh Terrors for a while, the Rotten Chop album is half done, and Dustbunny has been playin some kikass shows! Yaaaaayyy!!
+
+Last Tuesday <lj user=vicious_apathy> dragged me away from theremin scales hell and out so see Dry Kill Logic at the Evelyn, gotta admit I wasnt expecting this to be awesome but it totally was!! Support bands Mammal and Sydonia were ok, but Dry Kill Logic fucking ruled!! Awesome playing, awesome show, and 4 of the biggest guys I've ever seen in real ife! Holy craP!! Cat and I had an awesome time headbanging, moshing and generally being \m/etal!! Then we went home and made frozen pizzas and drank softdrink and laughed at the tv!! Yayyyy!! Thankyou Cat for an fantastic night!!
+
+Friday night had Dustbunny rehearsal, then went cruising with Cat around Port Smelbourne, drinkin slurpies, listening to metal and talking about life - totally rad! The dropped down to Cabaret Nocturne's new venue - which is completely awesome - SOOOOO much better than Dream! Better layout, better vibe, beer on tap!! Yeehar had a very funny night watching Jan take his gear off and ppl generally being trashwhores!
+
+Saturday was ye olde day of stupidly massive houseparty, thanks to James Dodd and Ha-Ha and their lovely housemeats. Dustbunny played to a packed out room of psychotic street artists, metal heads, hip-hoppers, goths, artists and Fitzroy-livers, and the place went bananas!! One of the best parties in ages, sooo huge, have no idea how many ppl were squeezed into that tiny place!!
+
+
+
+
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/zoeregsmiles.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+Crazy Crackwhores Zoe and Regan, and moi.
+
+
+<lj-cut text=""Pixxxxxxxxxxx!!"">
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/moyaclint.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Moya and Clint lookin photogenic
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/catroh.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+She of the voice that kill angels and he of the emerging art career!!
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/clintmiles.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Clint and I looking sober
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/dancefloor.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Dancefloor
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/danismetc.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Jesus and Friends
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/jimmymiles.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Jimmy James and I discussing the finer points of thermodynamics.
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/dudes.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Some fuckin dudes
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/lindsaymiles.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Me explaining to Lindsay why I couldnt stand to live with him
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/veemiles.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Vee and I imitating tha claymation series Red and Blue
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/trismiles.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+A nasty case of pout.
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/stupidness.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Yeah, we totally hate eachother, clearly. :D
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/rohclint.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Roh and Clint bonding over emo haircuts.
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/rik.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Rick reminding everyone why he wore a mask
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/regsmiles.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+That windswept look
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/rarg.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+wrong button
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/randoms.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Some randoms talking about subcultural appropriationism
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/paul.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Mr. Paul looking so very South Yarra in the face
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/milespaul.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Me explaining the term ""South Yarra in the face""
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/lindsaysmate.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+The winner of the ""put your balls in the fire"" competetion.
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/misfit.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+""It'll look hotter if I lie on the ground..."" god knows what was going on here...
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/nadine.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Nadine trying to crack onto the chair's boyfriend
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/parteee.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Confused randoms
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/vee.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Girl with hottest hair since ever!
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/cutey.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Random cutey
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/misfitt.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Drunk at this point
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/idiots.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Clearly very drunk...
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/catmoya.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Cat using her line about the stairway to heaven
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/catbooze.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+The stairway to heaven
+
+<a href=""http://photobucket.com/"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/boyzz.jpg"" border=""0"" alt=""Photobucket - Video and Image Hosting""></a>
+
+Ok, so what is actually happening here is some poor party attendee desperately needed a surface to project a film of some very important footage foir soemone else - it was a matter of life and death...we were just being decent citizens, certainly not easily persuaded trashbags being manipulated by our evil female freinds, no sireee....
+
+</lj-cut>"
+"eventtime","2006-09-25 13:17:00"
+"current_moodid","41"
+"url","http://glitterskull.livejournal.com/17329.html"
+"userid","5692"
+"itemid","65"
+"event","If you are in the mood for hotness this Friday night, there is but one place you need to be - Cabaret Nocturne's 3rd Birthday bash @ Dream Nightclub!!
+
+The reason?
+
+DUSTBUNNY - the breakbeat-noise-scuzz-metal-industrial-goth-nudist-hyperactive-A.D.D-trash extravaganza will be mounting (!) the stage for a set of mind-retarding pupil-dilating silliness!!!!
+
+Featuring members of The Night Terrors & Rotten Chop, and fronted by the imitable Miss Cat, Dustbunny blew the heads off all who attended the Crazy Warehouse Parties of last summer, and bring their over-sexed bedlam back this Friday night, especilally 4 U!!
+
+Expect crazy breakneck beats, inappropriate nudity, questionable musicianship, excessive consumption of passion-pop and a stage show that'll leave you quivering!!
+
+Make sure to get down to the venue early to get trashed in front of the first band: goth-haircut-sporters Shadenfreude, then present thyself to the front of the stage to be showered in Dustbunny goodness at 10 30pm!!! After that you can enjoy the poundin' electro of Mr. David Thrussel and SNOG!!
+
+Then drunkenly careen around the venue til dawn to the strains of DJs with incongruous names such as Lobotomy, Thomas, Jay, pH, Kosta and Ange!!
+
+Love Miles aka GlitterSprinkleBunny
+
+CHECK OUT OUR TUNES AT: http://www.myspace.com/dustbunnyband
+
+CABARET NOCTURNE 3RD BIRTHDAY FRIDAY 18TH AUGUST @ DREAM NIGHTCLUB, 229 QUEENSBERRY ST CARLTON / CITY, DOORS 9PM, TIX $12
+
+<img src=""http://img.photobucket.com/albums/v168/viciouskitty/photo13.jpg"">"
+"eventtime","2006-08-16 16:17:00"
+"current_moodid","36"
+"url","http://glitterskull.livejournal.com/16787.html"
+"userid","5692"
+"itemid","64"
+"event","The Night Terrors bring their theremin-fueled synth-prog mayhem back to the Tote for an evening high-octane horror on Saturday the 12th of August! 
+
+With a killer new album almost completed and a blistering live show that has been melting the minds of Melbourne audiences, the Terrors have been going from strength to strength recently, and this will be their absolute last show before hiding away to complete their recording. This will also be their final show with monster drummer Renato Vacirca, who, after sweating away behind the rock-kit for many a killer show, is moving on to explore jazzier pastures. Don't miss this chance to send him off in style! 
+
+Joining the Terrors on the night will be red-hot rocksters Taste the Venom!, rock-scuzz punkers Angry Kid and experimental newcomers Kids With Guns For Hands, PLUS The Diamond Dolls burlesque troupe in between bands! That's one killer night's entertainment! 
+
+BE THERE!
+
+SATURDAY 12TH AUGUST @ THE TOTE, CNR WELLINGTON AND JOHNSON STS, COLLINGWOOD.
+
+THE NIGHT TERRORS
+
+TASTE THE VENOM!
+
+ANGRY KID
+
+KIDS WITH GUNS FOR HANDS
+
++ DIAMOND DOLL BURLESQUE!!
+<center>
+<img src=""http://img.photobucket.com/albums/v685/glitterskull/ponyterror.jpg""></center>
+http://www.thenightterrors.net
+http://www.myspace.com/thenightterrors
+http://www.myspace.com/tastethevenom
+http://www.myspace.com/angrykid
+http://www.myspace.com/kidswithgunsforhands
+http://www.myspace.com/thediamonddolls"
+"eventtime","2006-08-02 12:33:00"
+"url","http://glitterskull.livejournal.com/16509.html"
+"userid","5692"
+"itemid","63"
+"event","yo dudes my phone has died - if anyone needs to contact me please email me at m1le5@hotmail.com!!
+
+\m/"
+"eventtime","2006-07-07 13:33:00"
+"url","http://glitterskull.livejournal.com/16238.html"
+"userid","5692"
+"itemid","62"
+"event","The Night Terrors join a kick-arse lineup at the Arthouse this Saturday the 8th of July at the Arthouse, to raise money for the Indonesian Earthquake Appeal.
+Joining them will be The Abandonment, DeCarlowe, The Teddy Royals and many more. Come on down for an evening of fine tunes and good causes!
+
+Terrors onstage at 11.15pm!
+
+http;//www.myspace.com/thenightterrors"
+"eventtime","2006-07-07 13:26:00"
+"url","http://glitterskull.livejournal.com/16047.html"
+"userid","5692"
+"itemid","61"
+"event","Tagged by <lj user=faerychangeling>, and doing it because I was told I wouldn't - the cheek...
+
+I must list seven songs I am into right now, then tag 7 other people to list their 7 songs and so on.
+
+1. The Birthday Massacre - Blue (I can't  get that frickin synth line outta my head)
+2. Pamelia Kurstin - Caveman look sky
+3. Converge - Last Light
+4. Mindless Self Indulgence - Planet of the Apes
+5. Panzer AG - When Death Embrace Me
+6. Dirty Sanchez - Fucking on the Dancefloor
+7. Resistica - Smitten - Beaten - Battered - Torn
+
+I tag <lj user=vicious_apathy>, <lj user=miserysmalice>, <lj user=__lobotomy__>, <lj user=jan_event>, <lj user=hanoicasey>, <lj user=scoia> and ,<lj user=laptopgrinder>!"
+"eventtime","2006-06-22 12:22:00"
+"url","http://glitterskull.livejournal.com/15711.html"
+"userid","5692"
+"itemid","60"
+"event","The Night Terrors spook up the stage one last time this Saturday night at Pony, before hiding away to put the finishing touches on their brand new album! The record is almost finished and already sounding super-hottt, and the band will be showcasing spanking new tunes from it at this show!
+
+Joining them on the night will be the hot Transvision-Vampism of Nikita & The Snakes, sleaze-rockers Taste The Venom!, plus Skybomber & The Diamond Doll Burlesque Troupe between bands. It's sure to be an evening of high-energy mayhem, plus it's your last chance to catch the Terrors for a while - so come along and shake off those winter shoes!
+
+SATURDAY THE 24th OF JUNE @ PONY
+
+NIGHT TERRORS
+12.30am - 1.10am
+
+NIKITA AND THE SNAKES
+11.30pm - 12.10am
+
+TASTE THE VENOM
+10.30pm - 11.10pm
+
+SKYBOMBERS
+9.30pm - 10.10pm
+
+doors 9pm $5
+
+2AM band - SEAPLANE
+Late DJ - Lipstick Pickup
+
+Pony: 68 Little Collins St, City, Melbouren, Australia
+http://www.thenightterrors.net
+http://www.myspace.com/thenightterrors"
+"eventtime","2006-06-20 16:48:00"
+"url","http://glitterskull.livejournal.com/15503.html"
+"userid","5692"
+"itemid","58"
+"event","The spawn of satan reached the grand old age of 23!!!
+
+Have a bodaciously awesome day!!!
+
+And coz it's such a sextra special occasion, here's a classic blast from the past!!
+
+<img src=""http://img.photobucket.com/albums/v168/viciouskitty/R0013123.jpg"">
+
+My what lovely eyes you have!
+
+Have a kickass day Cat!"
+"eventtime","2006-06-05 10:56:00"
+"url","http://glitterskull.livejournal.com/14886.html"
+"userid","5692"
+"itemid","57"
+"event","In the mood for stupidly fast and ridiculously cool metal tonight??
+
+Come down to the Arthouse!
+
+Rotten Chop are showcasing songs off their debut album, which is currently in pre-production!!
+
+Riffs! Kickerz!! The voice of Satan! Windmills!
+
+How dare you ask for more...
+
+Tonight at the Arthouse, cnr Queensberry and Elizabteth Sts City, with Nuts Chutney, Plodhead & La Haine.
+
+Turn your Thursday METAL!!!!"
+"eventtime","2006-06-01 14:21:00"
+"url","http://glitterskull.livejournal.com/14724.html"
+"userid","5692"
+"itemid","56"
+"event","**********************************************
+
+FRIDAY 26TH OF MAY @ THE ARTHOUSE, THE NATION BLUE + GRAND FATAL + THE NIGHT TERRORS + LEFT HAND CUTS THE RIGHT + DECARLOW 
+
+SATURDAY 27TH OF MAY @ PONY , THE NIGHT TERRORS + MOGGS (USA) + ACTOR/MODEL + DANE CERTIFICATE
+
+**********************************************
+
+The Night Terrors emerge from preproduction on their new album to play two killer shows this weekend. First up they join an absolutely stellar lineup on Friday night for the Arthouse's 15th Birthday celebrations, with The Nation Blue, Grand Fatal, Left Hand Cuts The Right & Decarlow. Then its off to Pony on Saturday night for a headline show with Moggs (USA), Actor/Model & Dane Certificate. Don't miss these shows as they will be your last chance to catch the Terrors' theremin infused synth mayhem before they disappear into the studio!
+
+http://www.thenightterrors.net
+http://www.myspace.com/thenightterrors"
+"eventtime","2006-05-18 13:04:00"
+"url","http://glitterskull.livejournal.com/14496.html"
+"userid","5692"
+"itemid","55"
+"event","PGNlbnRlcj48aW1nIHNyYz0iaHR0cDovL3N0YXRpYy5mbGlja3IuY29tLzM5LzEyMTAwMDA4MV9hYTZmZWI5ZDZmLmpwZyI+PC9jZW50ZXI+DQoNCk9uIEdvb2QgRnJpZGF5LCBBcHJpbCB0aGUgMTR0aCBhdCBUaGUgR3JlZW5yb29tLCBCbG9vZFJlZEJpcmQgUHJvZHVjdGlvbnMsIHdpbGwgcGF5IGhvbWFnZSB0b8KgTWVsYm91cm5lJ3MgbXVzaWNhbMKgZGl2ZXJzaXR5IHdpdGggYW4gaW5hdWd1cmFsIGV2ZW50IHRpdGxlZDsNCg0KDQpUaGUgTWFzdGVyIEJsYXN0ZXIgU29uaWMgRWFzdGVyIFNsYW0hDQoNCg0KUGxheWluZyBhdCB0aGlzIGV2ZW50IHdpbGwgYmU7DQoNCjg6MTUg4oCTIDg6NDXCoMKgwqDCoMKgwqDCoMKgU3R4dnhubHh3c3h4bmJ4eHR4cnN0eHBoeG5yeGNoeHJkcw0KIA0KOSDigJMgOTozMMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoCBMb29rIFdob+KAmXMgVG94aWMNCg0KOTo0NSDigJMgMTA6MTXCoMKgwqDCoMKgwqAgRmlyZXdpdGNoDQoNCjEwOjMwIOKAkyAxMTowMMKgwqDCoMKgIFRvbSBGcnllciBUcmlvIA0KDQoxMToxNSDigJMgMTE6NDXCoMKgwqDCoCBNb3RvciBWZWhpY2xlIFN1bmRvd24NCg0KMTI6MDAg4oCTIDEyOjMwwqDCoMKgwqAgSG90ZWwgV3JlY2tpbmcgQ2l0eSBUcmFkZXJzDQoNCjEyOjQ1IOKAkyAxOjE1wqDCoMKgwqDCoMKgIFRoZSBOaWdodCBUZXJyb3JzDQoNCjE6MzAg4oCTIDI6MDDCoMKgwqDCoMKgwqDCoMKgIEJlYW5mbGlwcGVyDQoNCk0uQy7igJlzIEpleiBhbmQgU2xpY2sNCg0KRC5KLiBLZW5lIExpZ2h0Zm9vdCAoQnVybmluZyBCaXR1bWVuIOKAkyBQQlMgMTA2LjcgZm0p"
+"eventtime","2006-04-10 11:17:00"
+"url","http://glitterskull.livejournal.com/14257.html"
+"userid","5692"
+"itemid","54"
+"event","The Night Terrors, Flesh Vs. Venom, Twitch of the Death Nerve & Bar McKinnon (Mr. Bungle) Big Band, this Sat @ Rob Roy
+<center><img src=""http://img.photobucket.com/albums/v685/glitterskull/robroyweb.jpg""></center>
+The Night Terrors return to old stomping ground The Rob Roy on Saturday the 25th of March for an evening of art-rock horror! With a new album in the works and a killer new set, the Terrors will be in full flight for this show, one of the last before they disappear into the studio. Joining them on the night will be the inimitable anarchy of Flesh Vs. Venom, plus the crazy antics of Twitch of the Death Nerve & a special appearance by the Bar McKinnon (ex Mr. Bungle!) Big Band to open. 9pm start, $9."
+"eventtime","2006-03-23 11:20:00"
+"url","http://glitterskull.livejournal.com/14028.html"
+"userid","5692"
+"itemid","53"
+"event","Okay kiddoes, the time has finally come, strap on your most absorbant plastics and get yourselves down to:
+
+<center><img src=""http://img.photobucket.com/albums/v685/glitterskull/CWHP2web.jpg"">
+
+Crazier. Warehousier. And much, much Partier.</center>
+
+Anyone who came to the last party will know it was MASSIVE - we counted around 400 heads! This one is gonna be even better. More bands, real DJs, non-winter weather!
+
+Band wise, we got the awesome Industrial Electroness of international sensations <a href=""http://www.angeltheory.com"">ANGEL THEORY</a>, the scintillatingly brutal death metal of <a href=""http://www.resistica.net"">RESISTICA</a>, mind-blowing idiot-savant scuzz from <a href=""http://www.rottenchop.com"">ROTTEN CHOP</a>, PLUS the debut performance by brand new goth-noise-break-porn offensive DUSTBUNNY!!!!
+
+PLUS DJs Toupee, Pete Kung and Phlexmartian spinning crazy tunes all bloody night. Sound exciting? It is! Best part is - it's open invitation - bring your mates, tell them to bring theirs. 
+<center>
+DETAILS: Crazy Warehouse Party #2
+Date: Saturday 18th of March
+Address: 100 Gore St. Fitzroy
+Time: 9pm - R.I.P.
+BYO anything and anyone you like!!"
+"eventtime","2006-02-27 23:19:00"
+"url","http://glitterskull.livejournal.com/13711.html"
+"userid","5692"
+"itemid","52"
+"event","<center><a href=""http://photobucket.com"" target=""_blank""><img src=""http://img.photobucket.com/albums/v685/glitterskull/popshop.jpg"" border=""0"" alt=""Image hosting by Photobucket""></a></center>
+
+The Night Terrors hit the stage at brand new independent music venue PopShop Gallery this Saturday night for Lost & Found, with Barrage and Lost & Found DJs, at 18 Corrs Lane Melbourne (just off Little Bourke St.) from 10pm!"
+"eventtime","2006-02-22 14:58:00"
+"url","http://glitterskull.livejournal.com/13314.html"
+"userid","5692"
+"itemid","51"
+"event","<center><img src=""http://myspace-173.vo.llnwd.net/00457/37/14/457834173_m.jpg""></center>
+
+
+***************************************
+The Night Terrors continue their campaign of world Theremination as they bring their spooky synth-prog-noise anarchy back to the Arthouse this Friday night. Come and see them road-test brand new tunes for their new album which is due mid-year. Joining the Terrors will be the awesome Brisk (ACT), the thunderous Whitehorse and Shagnum. 9pm start!
+
+***************************************
+
+FRIDAY 10TH FEB - THE ARTHOUSE
+
+THE NIGHT TERRORS + BRISK (ACT) + WHITEHORSE + SHAGNUM, 9PM
+
+***************************************"
+"eventtime","2006-02-02 12:03:00"
+"url","http://glitterskull.livejournal.com/13295.html"
+"userid","5692"
+"itemid","50"
+"event","PGltZyBzcmM9Imh0dHA6Ly9pbWcucGhvdG9idWNrZXQuY29tL2FsYnVtcy92Njg1L2dsaXR0ZXJza3VsbC8yN1RIVE9URS5qcGciPg0KDQpUaGUgTmlnaHQgVGVycm9ycyBicmluZyB0aGVpciB0aGVyZW1pbi1mdWVsZWQgc3ludGggbm9pc2UgbWF5aGVtIGJhY2sgdG8gdGhlwqBUb3RlIGZvciBhbiBldmVuaW5nIG9mIHN1cGVyYmx5IG1pbmR3YXJwaW5nwqBzb3VuZHMsIG9uIEZyaWRheSB0aGUgMjd0aCBvZiBKYW51YXJ5LiBUaGUgVGVycm9ycyB3aWxsIGJlIHJvYWQtdGVzdGluZyBtYXRlcmlhbCBmb3IgdGhlaXIgYnJhbmQgbmV3IHJlY29yZGluZywgZHVlIG91dCBlYXJseSBpbiAyMDA2LiBKb2luaW5nIHRoZW0gZm9yIHRoZSBuaWdodCB3aWxsIGJlIGxvY2FsIGltcHJvdi1ub2lzZSBnb2RzIHRoZSBHcmV5IERhdHVyYXMsIHBsdXMgc3RlbGxhciBncmluZG5pa3MgQWdlbnRzIG9mIEFiaG9ycmVuY2UgYW5kIE1hbGFrYXQhICQ5LCA5cG0gc3RhcnQu"
+"eventtime","2006-01-24 16:02:00"
+"url","http://glitterskull.livejournal.com/12940.html"
+"userid","5692"
+"itemid","49"
+"event","Ok, so enough with the peace, love, empathy and fluffy bunnies, The Festive Season is finally over, and now it's time for some good old fashioned BRUTALITY. If you love Metal and all its little goblins, and I have a feeling you do, then it's really very simple. This Saturday, put on your finest black clothing, grab your evil mates, consume some invigorating substances, and give your beautiful mane a brush in preparation for WINDMILL ACTION!!!
+
+Rotten Chop have been sharpening their ""instruments"" all summer and are ready to cut you to bits! New songs, new moves, new haircuts! For what more couldst thou ask? How about local godfathers of scuzz Beanflipper??!!!!!
+Christ, yes.
+
+Saturday 21st Janury 2006 - The Arthouse, cnr Queensberry & Elizabeth Sts. City. 
+
+BEANFLIPPER
+
+ROTTEN CHOP
+
+LA HAINE
+
+STRICT VINCENT
+
+9pm start. 
+
+\m/"
+"eventtime","2006-01-16 14:02:00"
+"url","http://glitterskull.livejournal.com/12579.html"
+"userid","5692"
+"itemid","48"
+"event","<img src=""http://img.photobucket.com/albums/v685/glitterskull/22NDOCTcopy.jpg"">"
+"eventtime","2005-10-17 17:52:00"
+"url","http://glitterskull.livejournal.com/12299.html"
+"userid","5692"
+"itemid","47"
+"event","Saturday 22nd October   
+ Ding Dong Lounge, Market Lane, City 
+     
+  THE NIGHT TERRORS   
+     
+  BATRIDER  (NZ) 
+     
+  TALKSHOW BOY   
+  
+  WORLD'S END PRESS   
+     
+  $8  8pm > 
+     
+  An evening of the finest mind-blowing music,  offset with rich earthy tones, scintillating musicianship and lasers. Heaps of lasers. Open thy diary and write inside it! 
+  
+ http://www.myspace.com/thenightterrors 
+ http://www.myspace.com/batrider 
+ http://www.myspace.com/talkshowboy"
+"eventtime","2005-10-05 12:15:00"
+"url","http://glitterskull.livejournal.com/12071.html"
+"userid","5692"
+"itemid","46"
+"event","Catherine is the cutest in the world. The End."
+"eventtime","2005-09-28 16:34:00"
+"url","http://glitterskull.livejournal.com/11993.html"
+"userid","5692"
+"itemid","45"
+"event","arg..just when yu think thing are on th up, along comes a big fat spanner and introduces itself to the works...
+
+Character-building I believe it's called."
+"eventtime","2005-09-23 23:41:00"
+"url","http://glitterskull.livejournal.com/11713.html"
+"userid","5692"

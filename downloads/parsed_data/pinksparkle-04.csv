@@ -1,0 +1,778 @@
+"names","values"
+"itemid","37"
+"event","MS4gbmFtZTogSmVubmkNCjIuIHNpbmdsZSBvciB0YWtlbjogU29ydCBvZiB0YWtlbg0KMy4gc2V4OiBmZW1hbGUNCjQuIGJpcnRoZGF5OiBEZWNlbWJlciAyNg0KNi4gc2libGluZ3M6IFNpc3Rlci0gTGluZHNleSwgQnJvdGhlci0gTWFyaw0KNy4gaGFpciBjb2xvcjogTWVkaXVtIEJyb3du4oCmIE9yaWdpbmFsIChiZWZvcmUgZHllZCktIEJsYWNrDQo4LiBleWUgY29sb3I6IEhhemVsIEJyb3duDQo5LiBzaG9lIHNpemU6IDgNCjEwLiBoZWlnaHQ6IDXigJkx4oCdDQoNCnIgZSBsIGEgdCBpIG8gbiBzIGggaSBwIHMgDQoxLiB3aG8gaXMgeW91ciBiZXN0IGZyaWVuZD8gVGhlcmVzYSwgQW5uYSwgQ29ydGV1emUsIGFuZCBBbmRyZQ0KMi4gZG8geW91IGhhdmUgYSBib3lmcmllbmQvZ2lybGZyaWVuZD86IFNvcnQgb2YNCg0KZiBhIHMgaCBpIG8gbiBzIHQgdSBmIGYgDQoxLiB3aGVyZSBpcyB5b3VyIGZhdm9yaXRlIHBsYWNlIHRvIHNob3A6IEZvb3Rsb2NrZXINCjIuIGFueSB0YXR0b29zIG9yIHBpZXJjaW5nczogQ2hlcnJpZXMgYWJvdmUgbXkgcmlnaHQgaGlwLCBhbmQgbXkgYmVsbHlidXR0b24gaXMgcGllcmNlZA0KDQpzIHAgZSBjIGkgZiBpIGMgcyANCjEuIGRvIHlvdSBkbyBkcnVncz86IFNvbWV0aW1lcyB3ZWVkDQoyLiB3aGF0IGtpbmQgb2Ygc2hhbXBvbyBkbyB5b3UgdXNlPzogUmVuZXdhbA0KMy4gd2hhdCBhcmUgeW91IG1vc3Qgc2NhcmVkIG9mPzogRGVhdGgNCjUuIHdobyBpcyB0aGUgbGFzdCBwZXJzb24gdGhhdCBjYWxsZWQgeW91PzogQW5kcmUNCjYuIHdoZXJlIGRvIHlvdSB3YW50IHRvIGdldCBtYXJyaWVkPzogSW4gYSBDaHVyY2gNCjcuIGhvdyBtYW55IGJ1ZGRpZXMgYXJlIG9ubGluZSByaWdodCBub3c/OiAxOQ0KOC4gd2hhdCB3b3VsZCB5b3UgY2hhbmdlIGFib3V0IHlvdXJzZWxmPzogTXkgZXllcyAoT25lIGV5ZSBpcyBjcm9zc2VkKQ0KDQpmIGEgdiBvIHIgaSB0IGUgcyANCjEuIGNvbG9yOiBQaW5rLCBhbmQgYmFieSBibHVlDQoyLiBmb29kOiBNZXhpY2FuDQozLiBib3lzIG5hbWVzOiBEZeKAmVNlYW4sIGFuZCBNYXVyaWNlIChJIHdhbnQgdG8gbmFtZSBteSBiYWJ5IERl4oCZU2VhbiBNYXVyaWNlKQ0KNC4gZ2lybHMgbmFtZXM6IEFuYXN0YWNpYSwgYW5kIE1h4oCZS2F5bGEgKEkgd2FudCB0byBuYW1lIG15IGdpcmxzIEFuYXN0YWNpYSBNYXJpZSBhbmQvb3IgTWEnS2F5bGEgQXVicmV5KSANCjUuIHN1YmplY3RzIGluIHNjaG9vbDogQW1lcmljYW4gSGlzdG9yeQ0KNi4gYW5pbWFsczogT2YgY291cnNlIG15IGJhYnkgU2hhZG934oCmIHNoZeKAmXMgYSBjYXQgDQo3LiBzcG9ydHM6IFNPRlRCQUxMLCBhbmQgZm9vdGJhbGwNCg0KaCBhIHYgZSB5IG8gdSBlIHYgZSByIA0KMS4gZ2l2ZW4gYW55b25lIGEgYmF0aD86IE5vcGUNCjIuIHNtb2tlZD86IFllcw0KMy4gYnVuZ2VlIGp1bXBlZD86IE5vcGUgDQo0LiBtYWRlIHlvdXJzZWxmIHRocm93IHVwPzogT25jZSB3aGVuIEkgd2FzIHJlYWxseSBkcnVuayBhbmQgaGFkIHRvIHRocm93IHVwIGJ1dCBjb3VsZG7igJl0IChBbGNvaG9sIHBvaXNvbmluZykNCjUuIHNraW5ueSBkaXBwZWQ/OiBOb3BlDQo2OiBldmVyIGJlZW4gaW4gbG92ZT86IFllcw0KNy4gbWFkZSB5b3Vyc2VsZiBjcnkgdG8gZ2V0IG91dCBvZiB0cm91YmxlPzogWWVzDQo4LiBwaWN0dXJlZCB5b3VyIGNydXNoIG5ha2VkPzogWWVzDQo5LiBhY3R1YWxseSBzZWVuIHlvdXIgY3J1c2ggbmFrZWQ/OiBZZXMNCjEwLiBjcmllZCB3aGVuIHNvbWVvbmUgZGllZD86IFllcw0KMTEuIGxpZWQ6IFllcw0KMTIuIGZhbGxlbiBmb3IgeW91ciBiZXN0IGZyaWVuZD86IFllcw0KMTMuIGJlZW4gcmVqZWN0ZWQ/OiBZZXMNCjE0LiByZWplY3RlZCBzb21lb25lPzogWWVzDQoxNS4gdXNlZCBzb21lb25lPzogTm9wZQ0KMTYuIGRvbmUgc29tZXRoaW5nIHlvdSByZWdyZXQ/OiBZZXMNCg0KYyB1IHIgciBlIG4gdCANCmNsb3RoZXM6IFJpZ2h0IG5vdy4uLiBKb2dnaW5nIHBhbnRzIGFuZCBhIHQtc2hpcnQNCm11c2ljOiAiQnVybiIgLVVzaGVyDQptYWtlLXVwOiBJIHN3ZWF0IGl0IG9mZiBpbiBwcmFjdGljZQ0KYW5ub3lhbmNlOiBVbW0uLi4gTG91ZG5lc3MNCnNtZWxsOiBMb3ZlIFNwZWxsDQpmYXZvcml0ZSBncm91cDogQm95cyBJSSBNZW4gKFN0aWxsKQ0KZGVza3RvcCBwaWN0dXJlOiBSYWluYm93IEJyaXRlDQpib29rIHlvdeKAmXJlIHJlYWRpbmc6IOKAnFRlbGwgTm8gT25l4oCdIOKAk0hhcmxlbiBDb2JlbiANCmluIGNkIHBsYXllcjogTWFyaWFoIENhcmV5DQppbiBkdmQgcGxheWVyOiBUaGUgV2VkZGluZyBQbGFubmVyDQpjb2xvciBvZiB0b2VuYWlsczogTmF0dXJhbCAobm90IHBhaW50ZWQgcmlnaHQgbm93KQ0KDQpsIGEgcyB0IHwgcCBlIHIgcyBvIG4gDQp5b3UgdG91Y2hlZDogQW5kcmUNCmh1Z2dlZDogQW5kcmUNCnlvdSBpbWVkOiBBbm5hDQp5b3UgeWVsbGVkIGF0OiBNYXJ0aW5hDQp5b3Uga2lzc2VkOiBBbnRvaW5lDQoNCmEgciBlIHwgeSBvIHUgDQp1bmRlcnN0YW5kaW5nOiBZZXMNCm9wZW4tbWluZGVkOiBZZXMNCmFycm9nYW50OiBObw0KaW5zZWN1cmU6IFllcyBhYm91dCBhIGZldyB0aGluZ3MNCmludGVyZXN0aW5nOiBJIGhvcGUgc28NCnJhbmRvbTogSSBkb27igJl0IGtub3cNCmh1bmdyeTogQWx3YXlzDQpzbWFydDogU29tZXdoYXQNCm1vb2R5OiBTb21ld2hhdA0KaGFyZCB3b3JraW5nOiBZZXMNCm9yZ2FuaXplZDogTm9wZQ0KaGVhbHRoeTogTm9wZQ0Kc2h5OiBZZXMNCmRpZmZpY3VsdDogU29tZXRpbWVzDQphdHRyYWN0aXZlOiBUbyBteXNlbGYgSSBhbSwgRnVjayB3aGF0IGV2ZXJ5b25lIGVsc2UgdGhpbmtzDQpib3JlZCBlYXNpbHk6IFllc+KApiB3aHkgZG8geW91IHRoaW5rIEnigJltIGRvaW5nIGFsbCB0aGlzIQ0KbWVzc3k6IFNvbWV0aW1lcw0Kb2JzZXNzZWQ6IFdpdGggQW50b2luZSBsb2wNCg0KDQpSIEEgTiBEIE8gTSANCkluIHRoZSBtb3JuaW5nIGkgYW06IFRpcmVkDQphbGwgaSBuZWVkIGlzOiBSaWdodCBub3figKYgQSBzaG93ZXINCmxvdmUgaXM6IFBhaW5mdWwNCmkgZHJlYW0gYWJvdXQ6IFdlaXJkIHNoaXQNCg0KbyBwIHAgbyBzIGkgdCBlIHMgZSB4IA0Kd2hhdCBkbyB5b3Ugbm90aWNlIGZpcnN0OiBTbWlsZQ0KbGFzdCBwZXJzb24geW91IHNsb3cgZGFuY2VkIHdpdGg6IEFudG9pbmUNCndvcnN0IHF1ZXN0aW9uIHRvIGFzazogRG8geW91IHdhbnQgbXkgYnVubnk/IChsb2wgSSBkb24ndCBrbm93KQ0Kd2hvIGRvIHlvdSBoYXZlIGEgY3J1c2ggb246IEFudG9pbmUNCndobyBoYXMgYSBjcnVzaCBvbiB5b3U6IEFudG9pbmUsIGFuZCBEYW5ueSBJIHRoaW5rDQoNCmQgbyB5IG8gdSBlIHYgZSByIA0Kc2l0IG9uIHRoZSBpbnRlcm5ldCBhbGwgbmlnaHQgd2FpdGluZyBmb3IgdGhhdCBzb21lb25lIHNwZWNpYWwgdG8gaW0geW91PzogU29tZXRpbWVzDQp3aXNoIHlvdSB3ZXJlIGEgbWVtYmVyIG9mIHRoZSBvcHBvc2l0ZSBzZXg/OiBTb21ldGltZXMNCndpc2ggeW91IHdlcmUgeW91bmdlcjogTm9wZSANCmNyaWVkIGJlY2F1c2Ugc29tZW9uZSBzYWlkIHNvbWV0aGluZyB0byB5b3U/OiBZZXMNCg0KTiB1IG0gYiBlIHIgDQpvZiB0aW1lcyBpIGhhdmUgaGFkIG15IGhlYXJ0IGJyb2tlbjogMw0Kb2YgaGVhcnRzIGkgaGF2ZSBicm9rZW46IDINCm9mIGd1eXMgaXZlIGtpc3NlZDogRGFtbuKApiBvdmVyIDMwIEkga25vdyB0aGF0IG11Y2ggKEl0J3MganVzdCBraXNzaW5nKQ0Kb2YgZ2lybHMgaXZlIGtpc3NlZDogMSANCm9mIGNvbnRpbmVudHMgaSBoYXZlIGxpdmVkIGluOiBXaGF0Pw0Kb2YgdGlnaHQgZnJpZW5kczogUHJvYmFibHkgbGlrZSA1IG9yIDYNCm9mIGNkcyBpIG93bjogMg0Kb2Ygc2NhcnMgb24gbXkgYm9keTogQSBsb3TigKYgbW9zdGx5IHN1cmdlcnkgc2NhcnMNCg0KRiBpIG4gYSBsIFEgdSBlIHMgdCBpIG8gbiBzIA0KMS4gZG8geW91IGxpa2UgZmlsbGluZ3MgdGhlc2Ugb3V0PzogU3VyZQ0KMi4gZ29sZCBvciBzaWx2ZXI6IFNpbHZlcg0KMy4gd2hhdCB3YXMgdGhlIGxhc3QgZmlsbSB5b3Ugc2F3IGF0IHRoZSBtb3ZpZXM/OiBIb25leQ0KNy4gZmF2b3JpdGUgY2FydG9vbi9hbmltZT86IFNwb25nZWJvYiBEVUgNCjguIHdoYXQgZGlkIHlvdSBoYXZlIGZvciBicmVha2Zhc3QgdGhpcyBtb3JuaW5nPzogUG9wdGFydHMNCjEwLiB3aG8gd291bGQgeW91IGxvdmUgYmVpbmcgbG9ja2VkIGluIGEgcm9vbSB3aXRoIHJpZ2h0IG5vdz86IEx1ZGFjcmlzDQoxMS4gY291bGQgeW91IGxpdmUgd2l0aG91dCB5b3VyIGNvbXB1dGVyPyBOb3BlDQoxMi4gd291bGQgeW91IGNvbG9yIHlvdXIgaGFpcj8gSSBoYXZlIGxpa2UgMTAwIHRpbWVzDQoxMy4gY291bGQgeW91IGV2ZXIgZ2V0IG9mZiB0aGUgY29tcHV0ZXI/OiBZZXMNCjE0LiBoYWJsYSBlc3Bhbm9sPyBOb3BlDQoxNS4gaG93IG1hbnkgcGVvcGxlIGFyZSBvbiB5b3VyIGJ1ZGR5IGxpc3Q/OiA4Mg0KMTYuIGRyaW5rIGFsY29ob2w/IFNvbWV0aW1lcw=="
+"eventtime","2004-03-24 19:47:00"
+"current_moodid","5"
+"url","http://pinksparkle-04.livejournal.com/9522.html"
+"userid","11942"
+"itemid","36"
+"event","x means statement is true.. _ means that it DID happen!! haha
+
+(_) I NEVER HAVE BEEN DRUNK
+(_) I NEVER HAVE SMOKED POT
+(_) I NEVER HAVE KISSED A MEMBER OF THE OPPOSITE SEX
+(_) I NEVER HAVE KISSED A MEMBER OF THE SAME SEX
+(x) I NEVER CRASHED INTO SOMEONE ELSE'S CAR
+(x) I NEVER BEEN TO JAPAN
+(_) I NEVER RODE IN A TAXI
+(x) I NEVER HAD ANAL SEX
+(_) I NEVER HAVE BEEN IN LOVE
+(_) I NEVER HAD SEX
+(x) I NEVER HAVE HAD SEX IN PUBLIC
+(_) I NEVER HAVE BEEN DUMPED
+(_) I NEVER SHOPLIFTED
+(_) I NEVER HAVE BEEN FIRED
+(_) I NEVER BEEN IN A FIST FIGHT
+(x) I NEVER HAD A THREESOME
+(_) I NEVER SNUCK OUT OF MY PARENT'S HOUSE
+(x) I NEVER BEEN TIED UP (SEXUALLY)
+(x) I NEVER BEEN CAUGHT MASTURBATING
+(x) I NEVER PISSED ON MYSELF
+(x) I NEVER HAD SEX WITH A MEMBER OF THE SAME SEX
+(_) I NEVER HAD SEX WITH A MEMBER OF THE OPPOSITE SEX
+(_) I NEVER BEEN ARRESTED
+(x) I NEVER MADE OUT WITH A STRANGER
+(_) I NEVER STOLE SOMETHING FROM MY JOB
+(x) I NEVER CELEBRATED NEW YEARS IN TIME SQUARE
+(x) I NEVER WENT ON A BLIND DATE
+(_) I NEVER LIED TO A FRIEND
+(X) I NEVER HAD A CRUSH ON A TEACHER
+(x) I NEVER CELEBRATED MARDI-GRAS IN NEW ORLEANS
+(x) I NEVER BEEN TO EUROPE
+(_) I NEVER SKIPPED SCHOOL
+(x) I NEVER SLEPT WITH A CO-WORKER
+(x) I NEVER HAVE THROWN UP IN A BAR
+(_) I NEVER HAVE PURPOSELY SET A PART OF MYSELF ON FIRE (My hand once, I put bug spray on it first... it didn't hurt) 
+(x) I NEVER HAVE EATEN SUSHI
+(x) I NEVER HAVE BEEN SNOWBOARDING
+(_) I NEVER HAVE BEEN HAPPY WITH MYSELF
+(_) I NEVER HAD SEX AT A FRIEND'S HOUSE WHILE THEY WERE THROWING A PARTY
+(x) I HAVE NEVER HAD SEX IN A DRESSING ROOM
+(x) I HAVE NEVER GIVEN ORAL SEX
+(_) I NEVER CHEATED ON MY BOYFRIEND/GIRLFRIEND
+(_) I NEVER SEE THE GOOD SIDES OF THINGS.
+(_) I NEVER FLASHED ANYONE.
+(_) I NEVER FLEW IN AN AIRPLANE
+(x) I HAVE NEVER TRIED TO KILL MYSELF
+(_) I NEVER LIKED *N SYNC
+(x) I NEVER HAVE GIVIN HEAD IN A MOVIE THEATER
+(_) I NEVER KISSED SOMEONE'S ""DANGER ZONE""
+
+
+
+TO PLAY I NEVER: PUT AN (x) IN FRONT OF THE THINGS THAT YOU HAVE NEVER DONE BEFORE AND A (_) ON THE THINGS THAT YOU HAVE DONE AT LEAST ONCE. ADD A ""I NEVER"" OF YOUR OWN"
+"eventtime","2004-03-24 19:42:00"
+"current_moodid","5"
+"url","http://pinksparkle-04.livejournal.com/9431.html"
+"userid","11942"
+"itemid","35"
+"event","It's been a minute since I wrote in here.
+
+I'm going to start with Sunday...
+
+I chilled with Shelly, Katie and Dre. We didn't do much. Cort didn't show up to drive Shelly and Katie home. I haven't talked to him since like Saturday. I'm really really mad at his dumbass. I want to cuss him out so bad.
+
+On Monday...
+
+I went to school... I had a doctors appointment at 3:15 and didn't get out of there until 5:20. I went to practice after that until 7. Umm... I don't remember anything else!!!
+
+On Tuesday...
+
+School was tight I guess. Like usual. I guess these lil girls from the class of '06 think that my table is the ""'04 Bitches"". They specifically said Kisha, Portia, and Jennifer and the people we sit with are the '04 bitches. So we are going to get shirts made that say ""The '04 Bather Bitches"" on the front and our names on the back. Antoine wrote me a letter today... took it back about 10 minutes later and threw it out. I was upset. He basically said in the letter that he was sorry for acting different lately. 
+
+Today...
+
+Antoine wrote me another letter... but it was weak. lol. Not to be mean or anything... but it was. I didn't really do much. I had practice from 3:30-7... I'm feeling pretty good... I need to get in the shower before Shane and Tessa get here. They will be here at 8:20 to hang at Danny's. So I'll just write what I did with all them tomorrow.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-24 19:30:00"
+"current_moodid","100"
+"url","http://pinksparkle-04.livejournal.com/9117.html"
+"userid","11942"
+"itemid","34"
+"event","Lets see... yesterday...
+
+I don't even remember what I did yesterday. School was ok. I'm so proud of myself... in Woodshop I cut my own wood on this big machine thing and I used a palm sander to sand it. I never used those things in Woodshop 1. I'm in Independent Study for Woodshop 2... So I'm in the Advanced Woodshop classroom, I felt stupid bcuz I didn't know what I was doing compaired to everyone else, but now I HAVE to make something. I'm making a bird house. Dre, Jamaine, and Antoine said they would help me with whatever I needed. Jamaine showed me how to use the machines. I think I'll be able to do the rest though. I only have to make one thing so I should be tight.
+
+Softball practice wasn't as hard yesterday. I think I'm getting used to it. The coaches had me pitching alot yesterday. They said I was doing really good. They aren't sure yet who they are going to put in for starting pitcher. It's between me and Sara S. I don't really care... as long as I'm in the infield. 
+
+Theresa and I went to the mall last night. I got home around 9. There wasn't shit else to do. I couldn't get anything. I am so broke. When the income tax checks come in I'm going to being throwing it all away... I'm getting another tattoo, and I need a new cell phone, I keep losing mine... it's to small, I dropped it the other day too and it looks ugly with all the scratches on it. I might get another piercing too. I don't know yet though.
+
+Today...
+
+Today was an interesting day. I rode to Hartland with Dre and Cort to get Shelly and Katie. Dre was pissed bcuz he needed to be back at 6 for the play and he didn't get to the school until 7. I went with him cuz I had to see the play for extra credit. After that we came back to my house and then went to Hooters to get something to eat. Shelly and Katie went to a party out in Romeo with Cort and Jim. I didn't want to go. I was kind of pissed bcuz I wanted to see Shelly and Katie, so was Dre cuz he went and got them for me... as a favor for me and they didn't even chill with me. So instead of going to the party I chilled with Dre for about 2 hours after the play... If he was going to go out there then I would've but he didn't want to and I didn't want to leave him. He comes before any stupid party. 
+
+Thats about it.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-20 23:29:00"
+"current_moodid","68"
+"url","http://pinksparkle-04.livejournal.com/8705.html"
+"userid","11942"
+"itemid","33"
+"event","School was alright... 
+
+I was sore all day from practice yesterday. I didn't really do much though. Like usual. I really really need to stop putting off my correspondence work or I'll never graduate. I keep putting it off like it ain't important and it is.
+
+I had practice from 5-7 today. I'm still sore all over. Hopefully the weekend will give my muscles some time to relax. I just want to stay in bed all weekend and not get up.
+
+Antoine came over for about 2 hours tonight. We didn't do much. Just watched a movie... like usual... and we wrestled for alil bit and he let me win... like usual. 
+
+I don't think Felicee is ever going to forgive me. For some reason. I hope she does... I miss talking to her.
+
+Well thats about it.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-18 23:36:00"
+"current_moodid","27"
+"url","http://pinksparkle-04.livejournal.com/8570.html"
+"userid","11942"
+"itemid","32"
+"event","Today was an alright day. I didn't do much. 
+
+Around 4 Dre came over to visit me. He's a really good friend to me now. He keeps it real.
+
+I went to softball practice from 5-7. I'm in pain. I pulled a muscle right under my butt. It feels better now. I know I'm going to feel some pain tomorrow. I like working hard though. It makes me feel good. I got to quit smoking cuz with this asthma... my lungs be burning so bad.
+
+Antoine might come over for like a hour... but I don't know yet. Hopefully his grandmother lets him get the car. Hopefully.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-17 20:25:00"
+"current_moodid","27"
+"url","http://pinksparkle-04.livejournal.com/8446.html"
+"userid","11942"
+"itemid","31"
+"event","I'm upset... my mommy won't let me go to softball practice bcuz I stayed home from school. ""If you not well enough to go to school, your not well enough to go to practice!!!"". Whatever. I only stayed home from school bcuz I was tired. I'm not tired anymore. I'm just bored. I think she just doesn't feel like driving!!!
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-16 15:51:00"
+"current_moodid","5"
+"url","http://pinksparkle-04.livejournal.com/7988.html"
+"userid","11942"
+"itemid","30"
+"event","Lets see... yesterday!!! What can I say about yesterday. 
+
+Yesterday was a kind of bad day at school. Antoine was acting weird to me. He didn't say nothing to me in 4th hour, he usually walks me to class... he didn't, and he didn't look at me and smile like he usually does. 
+
+But... Anna being the great best friend she is took me out for yogurt, to get my mind off of him.
+
+I called him last night when I was over Cort's... I tried not to but I couldn't help it. I needed to know. I asked him if he still liked me and he said yes. I told him I wanted him to be honest with me and he said he was. I asked him what his deal was and he said he didn't even know... he just didn't feel like talkin to nobody... he said it wasn't me though. I got to try and not call him bcuz I want him to call me.
+
+Yesterday was our first day of softball practice. We have 3 new coaches. Man we ran ALOT. They said the running will increase by week. DAMN I NEED TO QUIT SMOKING. I had fun though. I'm glad we are going to be working hard this year. I'm ready to just win games.
+
+My muscles are sore today. I stayed home from school cuz I was just to tired to go. I was at Cort's til like 1:30am. I went to bed at like 2. He was mad at all females except me. He took it out on me at first but I stayed there bcuz I know I didn't do anything. I love that boy to much... I would basically do anything for him.
+
+I got practice from 4-6 today. I want to go for some reason. I want to get back in shape.
+
+I CAN'T BELIEVE IT'S SNOWING.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-16 13:05:00"
+"current_moodid","40"
+"url","http://pinksparkle-04.livejournal.com/7742.html"
+"userid","11942"
+"itemid","29"
+"event","I shouldn't have to tell ya'll this but the past few journal entries have lyrics from songs in my subject heading. Like ""Let it burn"" for examples. It has nothing to do with a STD. People are dumb."
+"eventtime","2004-03-14 19:12:00"
+"current_moodid","44"
+"url","http://pinksparkle-04.livejournal.com/7489.html"
+"userid","11942"
+"itemid","28"
+"event","This weekend was fun. I guess. It could've been better...
+
+On Friday I didn't really do much in school. I went to the basketball game Friday night. We lost. The refs sucked though. It was upsetting. The game was fun. Antoine was mad at something. It wasn't me though. He told me what it was, it had something to do with his mom. He don't live with her anymore... he lives with his grandma.
+
+Friday night Theresa and I stayed the night at Danny's house with Shane. We drank, and smoked. It was alright. I didn't drink or smoke that much cuz I don't do it often and I don't want to get sick or anything like that. We were foolin though. We were cappin on Shane, Danny and the 2 boys that were there with us... they looked gay as hell. So we were cappin on them. 
+
+Saturday... I went to Cort's lookin BUSTED. He needed jumper cables or whatever to start Jim's car and he called me like 10 minutes after I woke up... so I didn't have time to shower or change... I had my glasses on. I really don't care what I look like around him though bcuz he's seen me look hit before, but he had like 6 friends over. I felt stupid when I walked in. I haven't seen Cort in a few days so we wrestled alil bit. It was cool. I was there for about 10 minutes. The only reason I didn't stay longer was bcuz I looked busted. I said I had to come home and get ready for Snowcoming. 
+
+Snowcoming was ok. I wish I could've danced more than I did. Antoine gave me the last dance. I was happy. I didn't really feel like dancing so I just stood there and just talked with everybody, took pictures and all of that. 
+
+At like 2 in the morning Antoine calls so Anna and I went to go pick him up. She left to go home after that. He stayed the night basically. He left at like 6:30am. I told him he can stay and sleep but he had to go home before his grandma woke up for church at 7am. I had a good night though. It was cute. Antoine isn't very good at expressing his feelings, he did alil bit last night. I kind of forced him to. I want him to feel comfortable talking to me. He does to a certain extent but not fully. We watched a movie, danced to slow jams, and just cuddled all night. Thats romantic to me. Any other guy that would've came over this late would've tried something, but Antoine doesn't. I think thats what I like most about him.
+
+Today I'm going to Cort's around 4:30. I talked to him last night and I told him that when I went over there I was lookin ugly as hell and for the dance I transformed into fine as fuck, lol so he wants me to come over looking ""fine as fuck"". He was drunk when I talked to him but it was funny. 
+
+Well thats about it.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-14 14:41:00"
+"current_moodid","84"
+"url","http://pinksparkle-04.livejournal.com/7320.html"
+"userid","11942"
+"itemid","27"
+"event","I had a good day today... 
+
+Felicee is still mad at me though. Portia told me not to worry about it, she'll get over it soon. If she doesn't I'm going to just talk to her... cuz I can't lose my best friend. I'm just glad that just cuz she's mad at me that nobody else is. Like Brandon... he's one of my good friends and thats her b/f but he ain't mad at me cuz she is. She introduced me to all my friends right now, and all of them are acting cool towards me. But I hope she forgives me.
+
+Antoine was being cute today. He gave me kisses in school. I was shocked the first time he did it. So I asked for another one cuz I never get to kiss him. He walked me to my moms car today too... he went out of his way and kissed me goodbye... I never expected him to kiss me in front of people. I'm glad he did though. I'm also glad he don't care what the hell people think. Thats a plus in my book.
+
+Other than that I didn't do much today.
+
+I slept from 6pm-12:30am.
+
+But thats it.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-12 01:13:00"
+"current_moodid","87"
+"url","http://pinksparkle-04.livejournal.com/7113.html"
+"userid","11942"
+"itemid","26"
+"event","<center><BGSOUND SRC=""http://urbanstreetz.com/audio/soundz/burn.wma"" LOOP=""infinite"" AUTOSTART=""TRUE""><a href=""http://www.urbanstreetz.com/hats.html"" target=""_blank"">
+
+<img src=http://urbanstreetz.com/banners/usban_2.gif alt=""CLICK HERE!"">
+
+Click on Banner 4 New Music!</a>
+
+
+
+<a href=""http://members.blackplanet.com/BPHotJointz/""><b>Music By BPHotJointZ</b></center></a></font>"
+"eventtime","2004-03-10 23:11:00"
+"current_moodid","30"
+"url","http://pinksparkle-04.livejournal.com/6864.html"
+"userid","11942"
+"itemid","25"
+"event","I love that new song by Usher ""Let it burn"". I can't stop listening to it!!!
+
+Today was a good day. Well some parts of it...
+
+Felicee is mad at me still cuz I couldn't stay at her house last night. She thinks I was trying to diss her cuz of Antoine but my mom told me no. She even asked my mom and my mom said no... she thinks it was a setup... that I asked my mom to say no. Even if I did my mom wouldn't do that for me. I would never diss my friends for a guy. I forgot to call Felicee and tell her I couldn't stay... I would've been pissed for that so I understand where she is coming from on that one. I don't like that she is mad at me... I feel really bad.
+
+THEN... Well now T.J. is hatin on mine and Antoine's relationship... (they are cousins). He told Martina and Ra'Mone that some girl always calls Antoine and he spits game at her. Matt told me it wasn't true... he talked to Antoine. It's not just that though... Antoine is really shy so he wouldn't ""spit game"" at some girl. He liked me since the beginning of the semester and he didn't start talkin to me until like 2 weeks ago. At least thats what Dre told me. That and Antoine don't care about the ""PDA""... if he did then I would be a lil more suspicious. We sat together at the game, and after the game he huged up on me and kissed me in front of everyone, plus if he was talkin to someone else behind my back he wouldn't tell anyone that we were talkin, he's told more than a few people. We aren't trying to keep this on the DL. He wanted to walk me to the car after the game but he wasn't aloud to bcuz he was staying for the second game and if he left he would have to pay again. It's ok... I loved the thought. What a gentlemen. 
+
+When I talked on the phone with him earlier I told him that if he was going to make the effort to make me happy and then cheat on me... he might as well stop talking to me... He said that he would never do that... then I asked him what he liked about me and he said that I'm sweet, nice, fun to be with, I put others before me, I'm not conceited (which is good cuz all his ex did was talk about herself, he said that it's a major plus that I'm not like that), and I have a great personality.
+
+The game was tight... WE WON. I don't remember the score though... 70 something- 60 something. lol around that area. GOOD JOB BATHERS. I rolled with Annabell to the game. I basically sat by myself til Twan got there. There was like nobody there.
+
+I met the new varsity softball coach before the game today too. She is so nice... she's young. She looks like a college student. But yea she's nice. I'm hoping to work hard this year.
+
+School was alright... I played 4-5-6 with Jamaine and won $4. It was tight cuz we played each game a $1 and I won 4 games. Then I gave it back cuz I felt bad... he said I need to get over that. So we are going to play again tomorrow. Nothing else though. 
+
+I got homework to do.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-10 20:23:00"
+"current_moodid","86"
+"url","http://pinksparkle-04.livejournal.com/6567.html"
+"userid","11942"
+"itemid","24"
+"event","Antoine came over tonight. It was fun. We watched a movie, and I made some pizza. We listened to slow jams, I sang them to him, and we danced alil bit. It was so cute. I really really like him right now. I don't think it's going to change any time soon. He is just like me. I walked him halfway home. I didn't want him to go. We kissed for alil bit. Then he left. I can't wait to see him in school tomorrow.
+
+Felicee is alil mad at me today... I couldn't stay the night at her house... my mom wouldn't let me cuz it's a school night. I kind of didn't want to though. I wanted to spend some time with Antoine. That sounds kind of bad but we are in the stage where we are starting to get to know eachother.
+
+School was tight. Antoine walked me to class and carried my books... it was so cute. 
+
+But thats about it. 
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-10 00:07:00"
+"current_moodid","125"
+"url","http://pinksparkle-04.livejournal.com/6387.html"
+"userid","11942"
+"itemid","23"
+"event","You still think your getting to me? Do you think I care? 
+
+Here just in case your wondering... Your not getting to me, and I really don't care. 
+
+I don't have to defend myself to you. I'm not going to! 
+
+You can go ahead and think what you want to, but like I said... 
+
+Your not getting to me.
+
+Oh and if your not scared of me... leave your name, cuz the more you leave anonymous comments... the more you look stupid. My friends and I laugh about it all the time.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-09 17:27:00"
+"current_moodid","15"
+"url","http://pinksparkle-04.livejournal.com/6095.html"
+"userid","11942"
+"itemid","22"
+"event","Today was a bad day for some reason. I was fine in school up until 4th hour. I was upset 4th hour cuz Antoine wasn't in school today so I didn't get to see him, and I haven't talked to him in a few days. It was freezing+ in class.
+
+Nothing really happened in school today.
+
+I was also upset bcuz the announcments said that softball had tryouts today at 5:30 instead of tomorrow, so I had to get my physical right after school so my mom was pissed. We got into a fight for the first time in like a year. After that she drove me up to the school, there was no tryouts. They are actually next monday... well for pitchers and catchers... they are tomorrow, so I got to go tomorrow and next week.
+
+I don't know what my problem was today.
+
+I got so many people talking shit to me right now. I don't really know where it came from cuz I don't know half of them, and I wasn't talkin shit about anyone. I ain't to worried about it though bcuz they ain't going to do shit anyway. Even if they do I ain't worried about it. GET THIS... one of them is over 40, and the rest are in college. I guess some people never get over the high school bullshit.
+
+I'm staying the night at Felicee's house tonight. I don't know what time I'm going over there though. Hopefully Antoine will be in school tomorrow.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-08 19:09:00"
+"current_moodid","1"
+"url","http://pinksparkle-04.livejournal.com/5698.html"
+"userid","11942"
+"itemid","21"
+"event","Lets see... yesterday I didn't do much. Naomi, Amanda, Sandra, and I went and got Rauchelle and Katie from Hartland around 7pm. We got home around like 11pm. At like 12:30am we went out and just walked around. Amanda didn't come, she stayed at my house and talked on the internet. She didn't want to spend any time with us I guess... actually she said she was sick. We got back to my house at like 3am, then started to watch this movie. At like 3:30am Cort called and asked us to come over, so we went over there and did the same things we were doing here. We got home from there around 6am. We woke up at like 11:30am. Amanda left at like 12pm. 
+
+Rauchelle is at the Ludacris concert right now... I HATE HER. Katie and I are just chillin here. It's so boring. There ain't shit to do and nobody is home right now. We might go to the concerts after party. We aren't sure yet. Depends I guess.
+
+I was thinking about ANTOINE all damn day. I called him twice but he ain't going to be home until tonight. He'll probably call me tonight. Hopefully.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-07 17:46:00"
+"current_moodid","5"
+"url","http://pinksparkle-04.livejournal.com/5404.html"
+"userid","11942"
+"itemid","20"
+"event","I love your comments. They are so funny... FORREAL. You guys get a kick out of reading my journal, and I get a kick out of reading your comments. So we stay pretty even on this. 
+
+I'm not hostile, I'm happy... nothing you say can bring me down!!!
+
+By the way:
+""The most important opinion towards you should be what you think of yourself""
+
+I think I am cute, funny, and fun to be around. I love myself and I cherish my life. 
+
+Keep hatin... it makes me happy to know that someone wants what I have, and is jealous of me.
+
+Oh and don't get mad cuz I get more play than you!!!
+
+Keep the comments coming."
+"eventtime","2004-03-06 15:12:00"
+"current_moodid","110"
+"url","http://pinksparkle-04.livejournal.com/5183.html"
+"userid","11942"
+"itemid","19"
+"event","Fate dealt me a bad hand today.
+
+I called channel 95.5 today for the contest, how many times can you say ""I am channel 95.5"" in 10 seconds. 
+
+I called, I got through, they asked me if I was ready, I said yup, they said ""ready go"" and half way through saying the first ""I am channel 95.5"" 
+
+GUESS WHAT... 
+
+MY PHONE FUCKIN' DIES."
+"eventtime","2004-03-06 12:11:00"
+"current_moodid","24"
+"url","http://pinksparkle-04.livejournal.com/4997.html"
+"userid","11942"
+"itemid","18"
+"event","I was writing fast when I was writing my last comment in that journal entry... I assumed shit... like that it was Julia who wrote that... Julia... I'm sorry I put that IF it wasn't you, if it was... well you know... I meant it... lol shit I don't know.
+
+I put ""If you don't fuckin like me, don't read my shit"" I don't want to block it off for the people that do like me. So you sound dumb. 
+
+You know what I'm glad my relationship is corny. It makes it interesting. I don't want to sit there and be serious all the time... I'm a silly person, he's a silly person... so we're silly together... thats basically why I like him so much... it's bcuz he is like me. 
+
+If you want to hate on that, thats fine. 
+
+When you write dumb shit in my comments, your basically just wasting your time. I don't care really what you say about me. That shows that you have problems... not me. I don't really care what the reason is, but your not effecting me in any kind of way. I don't want to fight you right now, if you got up in my face instead of hiding behind a computer screen, then yea I would fight you. But at this moment in time if your looking to fight your not getting one through me.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-06 03:48:00"
+"current_moodid","87"
+"url","http://pinksparkle-04.livejournal.com/4731.html"
+"userid","11942"
+"itemid","17"
+"event","I am ""talkin"" to ANTOINE LEE everybody OMG... lol. ""The person who commented"" is so cool cuz they figured it out. I don't care, he don't care. So it's whatever... I thought that comment was funny as hell and so did he. I love shit talkers. It's funny that people want to bring you down when you are happy... Well that didn't happen tonight.
+
+ANYWAYS. Tonight ANTOINE called me around 12 and we are actually still on the phone right now. At first, I was really nervous to tell him about how I feel but now I'm feeling alot more comfortable talking to him. He's tired and wants to go bed but he has to be a ""gentlemen"" and wait for me to get tired before he goes to sleep. AWW THAT'S SO CUTE. We are such dorks. WE ARE CORNY!!! But it's cute. I'm sorry that some people can't be like that and they maybe jealous of it... but thats the way it is. 
+
+It's taking me forever to write this... it's 3:23am right now. I let ANTOINE go to sleep bcuz he has to get up early to practice his freestyling for Sunday's battle. 
+
+I really like ANTOINE. We are so much alike its not even funny. It's cute bcuz he talks weird cuz when he was little he couldn't stick his tounge out... when he was 6 he got surgery to get it clipped so he can, so he can only stick his tounge out alil bit... maybe 2cm... but he mumbles when he talks. With him I can't stop smiling. 
+
+A ton of girls like him in Mount Clemens and are always all over him... I didn't even notice him until he asked Dre about me and had Dre talk to me for him... out of all the girls that like him... he picked me. I feel special and I'm really glad he does like me... cuz I seriously would've been missing out. THANKS DRE.
+
+I'm glad I can sleep in tomorrow. I didn't clean at all today so I'll probably do that until ANTOINE calls... cuz he's probably going to come over. He says he gets nervous around me to. He's so cute. When I get my pictures developed I'm going to put a picture of him on my blackplanet page:
+
+http://members.blackplanet.com/UnFoolish_04/
+
+The picture will probably be up in like a week or so if my scanner doesn't fuck up. So be on the look out for that if your interested in seeing what cutie I'm ""talkin"" to... more then likely will go out with if it keeps going the way it is. 
+
+Antoine Lee + Jenni Maharidge = HAPPINESS
+
+BRING ON THE HATERS. I'm ready for ya.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-06 02:58:00"
+"current_moodid","105"
+"url","http://pinksparkle-04.livejournal.com/4489.html"
+"userid","11942"
+"itemid","16"
+"event","I feel like the happiest person in the world. Guy 3's initials are A.L. and I can't get him off my mind. He's all I thought about all day. I didn't end up going to school today cuz I was so tired so I didn't get to see him. I promised him I'd be there too. I was going to go to the game to see him but I couldn't get a ride. Man that kiss got me hypnotized. 
+
+I basically just sat around the house all day. I don't think I'm going to go out tonight. I need to organize my cloths again. I also got to get the bathroom clean, and do the rest of my correspondence work. I got to much to do to go out.
+
+I got to have my head worry free to go out tomorrow night with the girls, if I end up going.
+
+Until next time...
+
+Holla.
+
+A.L. + J.M. = HAPPINESS."
+"eventtime","2004-03-05 19:59:00"
+"current_moodid","131"
+"url","http://pinksparkle-04.livejournal.com/4208.html"
+"userid","11942"
+"itemid","15"
+"event","WOW. Today is going to be such a good day... all because of last night. Guy 3 came over around 6pm yesterday. Well right now were ""talkin""... he didn't kiss me until like 11:30pm. He is a very shy person. But we watched ""Ever After"" twice. lol. He was being so cute. Like when he was getting ready to leave he sat there and just kissed me over and over again for like 10 minutes. I'm really really excited about him though. Him and I act exactly alike too. Inside school we both are cool and have all of our friends but outside of school we were acting so dorky. We want to keep it on the low (my decision) cuz he does go to my school and there are alot of lil females that like him, I don't want to hear their shit right now. But yea I can't wait to see him in school today... I don't really want to go but I have to... I have 2 papers due in English.
+
+Felicee left for BPA states today... I'm upset... I can't tell her about my good news. She comes back on Sunday. I'm staying the night at her house on Monday.
+
+Lets see YESTERDAY in school I didn't do much. Like always. Mrs. Kelley took my pop away from me today... I was very upset... she said the only reason why she did it was bcuz she took some other girls food away, and she didn't want to make it look like she was giving me special treatment... she said it's fine for me to have my pop as long as I ""pretend"" to hide it from her.
+
+I'll right back later though, I have to get ready for school.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-05 05:30:00"
+"current_moodid","115"
+"url","http://pinksparkle-04.livejournal.com/4066.html"
+"userid","11942"
+"itemid","14"
+"event","I am so sick of people always having something to say about shit about me like they know what the fuck they are talking about when they don't know shit. If you don't like what I say don't read my shit. Most of these ""haters"" and ""Anonymous shit talkers"" need to step for fuckin real. Most of them... well actually ALL OF THEM are in fuckin college. STOP WITH THAT HIGH SCHOOL BULLSHIT and just fuckin live your fuckin life.
+
+Oh and with the whole buck teeth thing... obviously you really don't know me bcuz my teeth are perfectly strait. THANK YOU. Oh and you think you know my whole life... You couldn't tell 5 true facts about me... I dare you to try. You wouldn't be able to.  
+
+I'm not scared of anybody so if you want to stop being so fuckin scared, immature, and say that shit to my face... BRING IT. None of this online bullshit. 
+
+Besides that my day what pretty tight. Guy 3 walked me to 3 of my classes today... he is so sweet. His 6th hour is no where near mine and he just came and walked me. Thats so nice. 
+
+I also was taught how to play 4-5-6 on the dice by Twan L and Jamaine. If we were playing for real money I would've won $65 and I would've only lost $5... I only lost one game out of 12. So you wanna play? lol. It was funny. They said they were going to take me to the hood and give me their money to play for them... LOL.
+
+Umm... what else happened today... I found out my current GPA is 3.4 I am very happy about that. Felicee has a current GPA of a 3.8, she is going to do so many great things with her life. 
+
+Felicee and Anna came over for alil bit today. Felicee borrowed an outfit for her BPA thing. Anna just needed me to peer edit her paper. 
+
+Well thats about it.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-03 21:20:00"
+"current_moodid","44"
+"url","http://pinksparkle-04.livejournal.com/3770.html"
+"userid","11942"
+"itemid","13"
+"event","I had a really good day in school today...
+
+I didn't do much but I counted up... there is 4 guys that like me right now. YAY. lol. It must be because spring is approaching. I'm going to go by Guy 1, 2, 3, and 4.
+
+
+Guy 1- He told me he liked me a few weeks ago. I don't really like him though. He's ok looking. But he is just to... Damn I don't even know. Not my type basically. He don't talk about nothing and I don't feel that I can open up to him. His poetry sucks, not to sound conceited or nothing but his poetry is shit compared to mine.
+
+Guy 2- This one is ok. He's ok looking, and get this... he's white. lol. I haven't went out with a white guy in a lil over 2 years. He's really nice but I heard alot of bad things about him and I'm kind of scared to get into a relationship with someone like him... cuz the sweet talking and the nervousness can all be a game.
+
+Guy 3- Now I really like this guy. He is so cute. All the girls like him by his looks... but I like him by his kindness. I never heard anything bad about him. He wouldn't even let me pay him back for the $5 he loaned me yesterday. He has a cute smile, and he is so shy. He won't call me though, he told Matt that he doesn't think I like him so I wrote him a note stating that I do. I love his smile, and his laugh the most.
+
+Guy 4- He hooked me and Guy 3 up and got us talking and today he told me that he liked me now too. I don't think he really does. I think he's just out to get some. Personally I'm not really attracted to him. I like him as a friend, cuz he's funny as hell. But I don't think I would ever go with him or anything that. Maybe to a movie, or chill... but nothing serious.
+
+
+I'm not out to have sex with any of these guys... I don't really want to do it to anyone, not since last March when I had my dramatic experiences... as most of you know... I was raped, and I got pregnant from it. So ever since then I only did it to one person... and it is someone that I trust with all my heart, someone who has been around for awhile. 
+
+Since then I held back from alot of people... I lost friends bcuz I just didn't want to speak to anybody at all. The only people that stuck around was Felicee, Cort, and Anna. I thank God that Theresa, Ra'Mone, and I are friends again... I also thank God for the new friends that are in my life right now... there is kind of to many to name lol. Again not to sound conceited. 
+
+I couldn't be any more happy right now.
+
+I still have my days though that I think about what happened last March... I still cry about it sometimes. But not as much as I did before. 
+
+It is such a pretty day outside... I might go for a walk today. Or I might call Guy 3 and ask him to come over for a lil bit. I don't know. I should go outside though.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-02 16:04:00"
+"current_moodid","120"
+"url","http://pinksparkle-04.livejournal.com/3369.html"
+"userid","11942"
+"itemid","12"
+"event","HAPPY BIRTHDAY THERESA COLE.
+
+I LOVE YOU CUZ."
+"eventtime","2004-03-01 23:58:00"
+"current_moodid","41"
+"url","http://pinksparkle-04.livejournal.com/3300.html"
+"userid","11942"
+"itemid","11"
+"event","Lets see...
+
+Well Cort called me yesterday around 4:30pm, I talked to him for alil bit. He wasn't mad at me... he was mad at something else... I don't know, I don't care really. I went up to the basketball courts around 5:30pm and watched him play basketball then we went back to his house. I stayed there until like 1:30am. It was alright. I tried to go to sleep for alil bit but he wouldn't let me... he kept scaring me. But I fell asleep for alil bit laying on his butt lol. He has a big butt so it was comfy. Can you tell we're best friends? lol. 
+
+School was alright today. I had a sub 1st, 2nd, 3rd, and 6th hour. I spent my 3rd hour down in the office getting my hair braided by Jackie. Mrs. Pugh let us use the conference room since either one of us was doing anything important that hour. She got most of my hair done then, she finished it 6th hour. It looks cute, my head hurts though. I still have sores from when it was braided last week.
+
+I didn't have any lunch money today and I was trying to get a hold of my mom for like 3 hours and I couldn't so Antoine L. gave me $5 for lunch, I didn't even have to ask him. I'm paying him back tomorrow. It was so nice though.
+
+I'm sending in an essay to ""Seventeen"" magazine for Felicee cuz they are doing this ""America's Sweetheart"" thing. You have to have at least a 3.0gpa while being a role model to the community. The winner gets a free trip to New York to intern at ""Seventeen"", and a partial scholarship for college. Four runnerups get partial scholarships for college. Felicee deserves that... she is in like 6 clubs, she goes to church 3 days a week, and on Sunday's she is there morning and night, she plays sports, she has a 3.3gpa... she has no enemies, and she is the funniest, sweetest person you could ever meet. Thats why she is my bestest friend. I love her to death... she would do anything for the people she loves. She deserves that internship and/or a scholarship.
+
+Well thats pretty much it.
+
+Until next time...
+
+Holla."
+"eventtime","2004-03-01 23:45:00"
+"current_moodid","14"
+"url","http://pinksparkle-04.livejournal.com/3043.html"
+"userid","11942"
+"itemid","10"
+"event","It's been an interesting weekend. Lets see...
+
+Friday I went to the basketball game with Amanda. It was a tight game. I left alil early though bcuz I had to get home and pack. 
+
+After the game, Amanda dropped me off. I packed up to go stay the night at Danny's house with Tessa and Shane. It was fun. I got really high for the first time in like 2 years. So I didn't want to drink that much, cuz I didn't want to get sick or anything. Shane got sick. It was funny in a way, but kind of nasty. We went to sleep at like 6am. We woke up at 9am cuz Tessa had to go to work... so they dropped me off and I fell asleep until like 2:30pm. 
+
+On Saturday, Amanda came over for alil bit around 4pm... she just chilled while I cleaned my room, did my laundry, and got ready to go back over to Danny's with Tessa. I was looking so cute. I wore my 1 piece jean outfit, with a white tank top under it, and my black grey and white Tims. 
+
+Amanda, Tessa, and I went over to Danny's. Shane was of course there. It was around 9:30pm when we got there. While we were there Tessa, Amanda, and I cooked steak and cheese sandwhiches, and Mac and Cheese for the guys. I did most of the cooking, but they helped alot. We left at like 11pm bcuz Felicee was staying the night and she was coming to my house. I took a shot of Vodka, and grabbed a Smernoff and we left.
+
+Felicee and Brandon came over around 11:30pm. We went over to Christina Moreno's party to say happy birthday and all of that. We chilled there til about 12am and then came back to my house. I called Cort to see if he wanted to come over and chill and he said yea so we went to go pick him up, but he said he would come over later. He ended up coming over while we were gone to drop Brandon off at like 1:30am. That pretty much sucked bcuz I really wanted to talk to him. So we watched a movie, and went to sleep. 
+
+I think Cort is mad at me today bcuz I called over there, and we talked for alil bit, when I told him to hold on cuz Amanda was saying something to me... he hung up on me. When I called back he just walked out the door. I was so mad, cuz he never hung up on me like that before. That pissed me off. Cort and I have never been into a fight but the last few days just sucked, so we bout to fight forreal. 
+
+Today... I'm just cleaning up and finishing up some homework. 
+
+Thank you Tessa, Amanda, Felicee, Brandon, Shane, and Danny for making this a fun filled weekend. 
+
+Until next time...
+
+Holla."
+"eventtime","2004-02-29 13:35:00"
+"current_moodid","112"
+"url","http://pinksparkle-04.livejournal.com/2636.html"
+"userid","11942"
+"itemid","9"
+"event","Its been a tight couple days. No complaints really. 
+
+Lets see... yesterday, I went to the basketball courts where Jim, Cort, Lena, Lamar, Kurt, and 2 other people I didn't know were playing basketball... At like 5:30 we went over to Corts house. I don't even remember what I did over there... I fell asleep at like 6:30 and woke up at 8 cuz Felicee called my cell... I talked to her for alil bit, then I fell back asleep at like 9 and woke up at like 11:45. I think Cort thought I was staying the night cuz I woke up by myself in the room where the lights and T.V were off. I came out and they all went to go pick up Trell from work. I left before they got home. I didn't really feel like waiting. 
+
+School was alright yesterday. I had to take the worst shit in 3rd, and 4th hour. My mom wouldn't pick me up either. I called Cort to see if he could pick me up so I can go to his house and take a shit, but he didn't have the car and he had to go to Court at 1. IT SUCKED SO BAD. So I went to the middle school teachers bathroom. I'm aloud to use it bcuz I used to work over there.
+
+Today... School was tight. Actually I had a really good day. Just in school though. I didn't do anything when I got home today. Well, Anna came over for about 15 minutes but thats it. I took my braids out today. I'm getting them redone on monday. Jackie is going to do them this time. I heard she was really good at braiding. 
+
+Tomorrow I'll be talking to Cort about the ways I'm feeling. I would've talked to him yesterday but I didn't really get the chance to. His friends were around, and I need his full attention, just me and him. So tomorrow after school my feelings will be showing all over the place. Hopefully I won't have to cry.
+
+Until next time...
+
+Holla."
+"eventtime","2004-02-26 19:15:00"
+"current_moodid","45"
+"url","http://pinksparkle-04.livejournal.com/2395.html"
+"userid","11942"
+"itemid","8"
+"event","Man. What a day. I went to sleep last night at 3am... which gave me 5 hours of sleep in 72 hours boi!!! Thats some shit. I lost 7lbs bcuz of that shit. I can't get any time to fuckin sleep. I stayed up last night to finish my correspondence work. My sister helped me alil bit. I got one of my exams back today... I got a 96% on it. YAY ME. 
+
+I went to the basketball game with Tessa and Amanda. Man the basketball game was tight until the refs started cheating. There were 8 fouls that they didn't call. I was so mad. But thats ok bcuz they really won nothing. If they have to do that to win they ain't shit. I wish Twan would've been able to dunk on they ass.
+
+I talked to Cort alil bit today. I really want to talk to him about where I stand to him. I am confused and I really hate this feeling. I just want to get out that either way I'm still going to love him unconditionally, and that I would do anything for him to make him happy. I know I can do a better job than what his girl is doing. I'm here and always will be here... I'm just hoping that he realizes that I'm not going no where!!!
+
+I feel very accomplished... I finished almost all of my homework. I had Ms. Clemens edit my essay for me and she said I did a really good job compared some of the other papers she edited. I really respect her opinion, thats why I went to her in the first place.
+
+Until next time...
+
+Holla."
+"eventtime","2004-02-24 21:59:00"
+"current_moodid","90"
+"url","http://pinksparkle-04.livejournal.com/2184.html"
+"userid","11942"
+"itemid","7"
+"event","Ok... where the hell do I start...
+
+Yea. Cort ended up calling me back, I went over there... with the ""Captain"" and ""Mikes Hard"". Cort had to go to school at 8am... I had to be at school at 7:45am... I got there at 12:30am. Cort, Jim, Trell, and I drank alil bit. Trell didn't drink that much cuz he had to walk home... It was so nice seeing his ass again. I haven't seen him in like 6 months. I love seeing all my old buddies. I saw De'Anthony a few weeks ago... I was so happy. But anyways. Cort and Jim drank most of the ""Captain"", I took about 4 or 5 drinks, and I had 2 of the ""Mikes Hard"". Yea I was pretty buzzed.
+
+But the reason I am happy... Ok I know I have Lawrence and we technically don't go out or anything bcuz he lives far away... I've only seen him 3 times since December and that shit is stressful even though I do love him... 
+
+But Cort... 
+
+I have loved him since like the 7th grade. He read one of my online notes between me and my friend in 9th grade where it confessed my love for him... but we never talked about it, and I told him on Dec. 27, 2003 that I was in love with him... we never talked about it then either. We always remained best friends bcuz nothing like that can get in the way of our friendship... 
+
+I thought I was over the feeling of loving him... until last night. We talked about it. It's all kind of a blur bcuz it seemed like everything was going so fast, but so slow at the same time. I always just wanted to kiss him, but I was always so nervous, even when I knew he wouldn't mind. Well last night... we kissed. I know it sounds corny but it felt like time just stopped for that few small amount of minutes. My heart dropped and all of those feelings came back. He has been my best friend for 9 years. I'm not supposed to have feelings for him like this. But I do. I'm not exactly sure how he feels about the kiss but hopefully it's something good.
+
+THE WORST PART:
+
+Cort has a girlfriend. I know he loves her... but he's not IN love with her... I know that for sure... Everything I hear about this girl is bad... She don't treat him right at all. I don't like that bcuz regardless of my feeling for him... even if I didn't have the feelings... It would still bother me bcuz that is my boy... and you don't fuck with my best friends like that. I would stick up for him and defend him the way I would defend Felicee, Anna, Tessa, Amanda, even Ra'Mone... Seriously don't fuck with the people that I love. 
+
+Well he asked me what I thought of his girlfriend and I told him that I didn't like her, and that she's not cute to me. He said he kind of already knew that I felt that way, but not bcuz of my feeling for him like I said. But bcuz she doesn't want him hanging out with me, and basically the way she treats him.
+
+I KNOW I'M JUST RAMBLING ON AND ON. But oh well...
+
+I'M RICK JAMES BITCH. 
+
+lol. I don't know what is going to happen between him and I. But I really hope its good. I know either way I'll be satisfied bcuz he is forever and always going to be my bestest friend that I tell EVERYTHING to. Shit sometimes I tell him twice to make sure he concepts it all. lol.
+
+But I had to get that out... 
+
+Got to get back to my homework.
+
+Until next time...
+
+Holla."
+"eventtime","2004-02-23 15:50:00"
+"current_moodid","87"
+"url","http://pinksparkle-04.livejournal.com/1845.html"
+"userid","11942"
+"itemid","6"
+"event","Today was a very interesting day...
+
+I went to pitching camp this morning... tired as hell. I was pitching on a hour of sleep. But for some reason I pitched better today than any other day I went. I was pitching PERFECT today. It was tight as hell. I'm happy as hell I didn't have a hangover or anything from last night.
+
+Well for one I shouldn't have been driving... I was way to tired. Driving back up from Wayne State... getting onto the highway... I ran 2 stop signs. oops. Good thing I was in Detroit cuz down there EVERYONE breaks the rules... even my mom breaks the law down there. lol. When I was on the highway I was going about 70mph in a 55, everyone was passing me like I was going to slow or some shit. Then when I hit a 65 I was going like 60. lol. I don't know what the hell I was thinking about. I know I wasn't thinking about my driving though. Oh well. I didn't die so it's alright.
+
+When I got home I saw that Lawrence called so I called him back... I talked to him until about 4:30... I was so hungry I couldn't go to sleep, but I was to tired to eat. My mom just told me to lay down and close my eyes cuz it happens to her all the time, my mom works nights at Meijer, so I did that and sure enough I fell asleep, my dad woke me up at 7:30 cuz he didn't want me up all night, and cranky tomorrow in school.
+
+I think I might go to Cort's for alil bit tonight. It depends on whether or not he calls me back. He probably won't but at this point I really don't care bcuz I kind of want to go to bed early, but I need a do rag for my hair so it don't get messed up at night... I can use a shirt but it makes it painful to sleep in. So hopefully he'll call back.
+
+THANK YOU CUZZO TESSA FOR DOING MY HAIR. YOU DID A GREAT JOB. LOVE YA HUNNY.
+
+Lawrence doesn't like girls with braids, or ones who smoke at that. hahaha. Well I guess thats true bcuz I smoke, and now I have braids... he doesn't like me... He LOVES me.
+
+Thanks Tessa, Felicee, Annabell, Amanda, and Lynn for making GIRLS NIGHT fun as hell.
+
+Oh and thanks Daran, Steven, Danny, Shane, and Matt for adding boys into our girls night :). 
+
+Well thats about it.
+
+Until next time...
+
+Holla."
+"eventtime","2004-02-22 22:21:00"
+"current_moodid","5"
+"url","http://pinksparkle-04.livejournal.com/1790.html"
+"userid","11942"
+"itemid","5"
+"event","Well I don't know where to start. Well for one... I woke up at 2pm yesterday and haven't been back to sleep yet!!!
+
+Yesterday Amanda came over around 6pm. Then Tessa showed up at like 7:30pm... she braided alil bit of my hair... then at like 8:30pm we went out to my sisters boyfriends house to pick up one of his friends Chris... then we headed to the store. We got light stuff. Then my sister gave us a 5th of Captain. 
+
+At like 10:30pm we went and picked up Felicee from her house... we chilled there for alil bit, then we called Anna at Darans and told her to meet us back at my house so we could drop off the drinks...
+
+Then when Anna showed up... Amanda, my sister Lynn, and I rode in Amanda's car and Felicee, Tessa, and Anna rode in Anna's car to Burger King where my sisters boyfriend is the manager... we got free food up there. 
+
+After we did that we went to Blockbuster at like 12:30am but it was closed. (I swear I thought it was open til 1am). So we decided to go to Danny's house, where his dog proceeded to attack me... well actually it jumped on me and started licking my face, but when I went to go push it off it went to go bite me, and I fell off of the bed. Shane finally got the dog off. THERE WERE LIKE 8 PEOPLE IN THAT ROOM AND NOBODY HELPED ME... They all just sat there and laughed at me. Felicee would not stop talking about it the whole night. 
+
+At like 2am we all came back to my house, Tessa started braiding the rest of my hair... and we all started drinking alil bit. We all took like 2, some took 3, shots of captain and we each had 2 of Mikes Hard or Smernouf (however you spell it). 
+
+Daran made a suprise visit around 3am to see Anna, it was so cute. He stayed about 10 minutes. I guess he came over with his friend Steve. Then right after he left Danny, Shane, and Matt came over to drink alil bit, only Danny was the only one who drank. I took a few shots with him cuz nobody else would. Amanda took a few too, and I think Felicee did also... Shit I don't remember, my head was hurtin at the time from cuzzo braidin my hair... most of the time my head was down.
+
+Shane, Danny and Matt left around 4am... so Tessa finished my hair probably around 5am so we all got ready to lay down and go to sleep. Felicee, Anna, and I stayed up talkin til like 6am. When I tried to go to sleep I couldn't cuz Shaddow was bugging me to pet her.
+
+I woke Anna up at 7am cuz she had to take her sister to her soccor thing or whatever. Now I'm just waitin for 9:20 so I can go wake up Tessa, Felicee, and Amanda so they can get ready to go to Church, work or whatever they got to do. Then I'll probably go to sleep for an hour... Then go to Softball Camp. 
+
+Softbally Camp is about to tear my ass up. I am going to be to tired to do anything there. I'll probably get dehydrated like I didn't last week, and it's worse this week cuz I'm not going to be having alot of sleep. Hopefully I'll be ok. I don't need another trip to the hospital. 
+
+OH YEA. My old store manager at McDonalds... the one who fired me for no reason GOT FIRED AND IS IN JAIL for stealing deposit money... her and 2 of the other managers I hate. They ain't hiring new managers there... its my 4 favorite ones... GUESS WHO GETTIN THEY JOB BACK. I don't care if it's nasty old McDonalds I loved working there... When I wasn't working with my store manager... but when I was working with the 4 other ones it was cool as hell. They made one of the 4 that are still there the store manager. WOO HOO. So they are going to give me my job back.
+
+Well yea. Hope you had fun reading that. 
+
+Until next time...
+
+Holla."
+"eventtime","2004-02-22 08:20:00"
+"current_moodid","31"
+"url","http://pinksparkle-04.livejournal.com/1311.html"
+"userid","11942"
+"itemid","4"
+"event","Well I didn't do much yesterday. Still haven't got all of my Correspondence work done. :(. I downloaded music all last night. I am going in ABC order and only got to the G's. 
+
+At like 2am this morning I went out with Ra'Mone to his brothers house. We watched a movie and he cooked some fries. His family is so funny. I got home around 4:30am. I woke up at like 2pm today. 
+
+I am cleaning my room and bathroom for girls night tonight. We are going to get buzzed tonight. NOT DRUNK. None of us wanna to all that... I got pitching camp in the morning, Felicee has church, Tessa has work, and I don't know what Anna is doing, probably soccor or some shit. But fuck getting drunk.
+
+I'll write back later on, cuz I got to get back to my cleaning. 
+
+Until next time...
+
+Holla."
+"eventtime","2004-02-21 15:22:00"
+"current_moodid","4"
+"url","http://pinksparkle-04.livejournal.com/1027.html"
+"userid","11942"
+"itemid","3"
+"event","I didn't do much today. I worked on my Correspondence work alil bit but thats about it. I still go to get finished. I'll probably finish it tonight and send in the first exam tomorrow. 
+
+I didn't end up going out last night. I kind of didn't feel like it anymore. I stayed in my bathrobe all day and just sat on the computer. I finally got my page working. I have a cartoon backround and like 3 pictures of Ludacris. He is so cute. I found out last night when I was checking my e-mail that I have another page... I've had it since Dec. 6, 2003 and I totally forgot about it until last night. You can check both of them out:
+
+http://members.blackplanet.com/UnFoolish_04/
+
+or...
+
+http://members.blackplanet.com/Pink_Sparkles70/
+
+Tomorrow night is going to be fun... Theresa, Annabell, and Felicee are staying the night. We are going to try and see if we can get drinks... Hopefully we can. If not, I'm still cool with just watching movies and chillin'. I haven't had a girls sleepover night in like almost a year. Actually its been since the first day and second day of Spring Break last year... Shelly, Theresa, Felicee, my sister, and I all chilled those 2 days... got drunk and what not. Then a month later I found out I was pregnant and was pretty upset with myself bcuz I guess I was 2 months... I was upset that I got drunk while carrying. Then I ended up having an abortion. WOW. 
+
+I watched a porno for the first time the other day. It was funny bcuz most of the time we were just making fun of the faces the people were making. It was interesting. Nothing new cosidering the fact that I'm not a virgin. This one girl on there had pimples all over her butt... it reminded me of this girls face that goes to my school, I'm not going to mention her name though. Thats just rude. 
+
+I cooked today. I made pigs in a blanket (hot dogs rolled in Cresant Rolls) and that Mac n Cheese. It was good. I was really proud of myself for that one. I should've been working on my Correspondence work instead but I was hungry. DON'T LET HUNGER HAPPEN TO YOU.
+
+Well thats pretty much my day. I might go to a movie tonight or over Cort's or something if he's home. Well whatever I do I'll print it in tomorrow.
+
+Until next time...
+
+Holla."
+"eventtime","2004-02-20 19:13:00"
+"current_moodid","28"
+"url","http://pinksparkle-04.livejournal.com/1022.html"
+"userid","11942"
+"itemid","2"
+"event","Today wasn't much of a day. Just sat around the house and ate. I fixed up my online page alil bit too. It's all about Ludacris now but for some reason it's not letting anyone view it so I still got to fix a few things. 
+
+I might be going to the Hayloft tonight with Annabell. I'm not sure yet... it's basically depending on her. If she can or not. I know I can though. If we do go it probably won't be like until 10 or so. I haven't been to a club in awhile so I'm really looking forward to it. I might see if Cort and Jim want to go too. But I doubt they will, Cort don't really like it there that much.
+
+I was going to go down to Detroit tonight to see Lawrence, but he's not home and I really don't feel like going all the way down there. Plus I want to spend some time with Annabell.
+
+I didn't start on my Correspondence work yet. I AM GOING TO WORK ON IT ALL DAY TOMORROW. I have to. My mommy will kill me if I don't get it done. 
+
+All of a sudden I have this big passion for Ludacris. I don't know why. I never really liked him before or his music, now everything is like ALL ABOUT HIM. Check out my page on Blackplanet; when I'm finished with it I'll let you know. It will have Luda EVERYWHERE.
+
+I wish I could write more but since I haven't done anything all day I haven't got much to say.
+
+Until next time...
+
+Holla."
+"eventtime","2004-02-19 18:30:00"
+"current_moodid","33"
+"url","http://pinksparkle-04.livejournal.com/632.html"
+"userid","11942"
+"itemid","1"
+"event","I think you will know what I'm talking about soon enough. I don't do much, basically I sit at home all day EVERY day. I don't like to go out and party that much. I don't drink or do drugs. I'm the laziest person EVER. I watch movies and eat all day. Expecially on the weekends. Here and there I will go over to Cort's, but over there I do the same thing. 
+
+I stayed the night there last night. The only reason was bcuz I fell asleep by accident. My mom didn't care. Since I turned 18 I can basically do anything I want. It's cool. Besides that Cort has been my best friend for like 9 years and he's like a brother to me, so I guess my mom knows that I would never fuck him or anything like that. His mom trusts me to much for me to be doing that shit in her house anyway. Not that ya'll care or anything.
+
+I have been sitting in the house everyother day of the break though. Mychal Jackson came over for Valentine's Day. I got him some flowers and a card. He got me a card and a gold braclet. Matthew also got me a flower. I was very happy. THANK YOU MATTHEW. 
+
+I should probably do my correspondence work but I'm VERY lazy and don't feel like doing it. I have 2 weeks to finish it and have it turned in. I have 9 exams to send in and they all have to be sent in on different days. So I only have like a few days really to finish all of it. BUT I DON'T FEEL LIKE IT. But I guess if I want to walk across the stage I got to do what I got to do.
+
+LAWRENCE. The humble man in my life. lol. He lives on the West Side of Detroit so I really don't see him much. We went together for about a month then broke up for like 2 weeks and we started ""talkin"" again on Monday. I met him last August, and we started going out in December. He is the sweetest person I have ever met. I have to teach him how to kiss though. We haven't kissed yet. He told me ""kissing leads into sex"" so we aren't aloud to kiss. lol. That boy sounds like my mother. 
+
+Well I think that pretty much sums up everything.
+
+Until next time...
+
+HOLLA."
+"eventtime","2004-02-19 00:14:00"
+"current_moodid","5"
+"url","http://pinksparkle-04.livejournal.com/321.html"
+"userid","11942"

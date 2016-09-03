@@ -1,0 +1,549 @@
+"names","values"
+"itemid","105"
+"event","SSBwbGF5IFJQR3MuIEkgcGxheSBvbmxpbmUgUlBHcywgSSBwbGF5IGNvbXB1dGVyIFJQR3MsIEkgcGxheSBwZW4gYW5kIHBhcGVyIFJQR3MuDQoNClJpZ2h0IG5vdywgSeKAmWQgc2F5IHRoZXNlIHNjaGVkdWxlZCBzb2pvdXJucyBpbnRvIHRoZSBpbWFnaW5hcnkgYXJlIHRoZSBldmVudHMgSeKAmW0gbW9zdCBlYWdlciB0byBlbmpveS4gSSBwbGFuIG15IHdlZWsgYXJvdW5kIHRoZSBQdWxwIGFjdGlvbiBnYW1lIEkgcGxheSBvbiBTdW5kYXlzLCB0aGUgV2VkbmVzZGF5IG5pZ2h0IGJvYXJkIGdhbWVzLCBhbmQgdGhlIEQmRCBnYW1lIEkgcnVuIG9uIEZyaWRheXMgbmlnaHRzLiBUaGV54oCZcmUgbW9yZSB0aGFuIGp1c3QgZ2FtZXMgdGhvdWdoLCB0aGV5IGFyZSBteSBjaGFuY2UgdG8gc29jaWFsaXplIHdpdGggcGVvcGxlIEkgcmVhbGx5IGVuam95LCBhbmQgYSBjaGFuY2UgdG8gc3RpbXVsYXRlIG15IG1pbmQuDQoNCkluIGEgd2F5LCBJIHN1cHBvc2UgSSBoYXZlbuKAmXQgYmVlbiB0aGF0IGxheCBpbiBteSB3cml0aW5nLiBJbiBtYW55IHdheXMsIHBsYXlpbmcgYW4gUlBHIGlzIHdyaXRpbmcgYSBzY3JpcHQsIGltcHJvdmlzYXRpb25hbCBhcyBpdCBtYXkgYmUuIEFzIGEgcGxheWVyLCB5b3UgbWFrZSB1cCB5b3VyIGxpbmVzIGFuZCBhY3Rpb25zIG9uIHRoZSBzcG90LCByZWFjdGluZyB0byB3aGF0IHRoZSBwZXJzb24gcnVubmluZyB0aGUgZ2FtZSB0aHJvd3MgYXQgeW91LiBBcyBhIHBsYXllciwgSeKAmXZlIGFsc28ga2VwdCBsb2dzIGFuZCB3cml0dGVuIHNtYWxsIGJsdXJicyBhYm91dCB3aGF0IGhhcyBnb25lIG9uIGluIGdhbWUsIHRyeWluZyB0byBwdXQgaW50byBwcm9zZSB3aGF0IHdhcyBkcmFtYXRpYywgY29tZWRpYywgZXhjaXRpbmcgb3IgbmVydmUtd3JhY2tpbmcgaW4gdGhlIGdhbWUuIEkgdGVuZCB0byBoYXZlIGFuIGV4Y2VsbGVudCBtZW1vcnkgZm9yIHRoZSBldmVudHMgaGFwcGVuaW5nIGluIGdhbWUsIGFuZCBJIGNhbuKAmXQgc2F5IHdoeSBpdHMgZWFzaWVyIGZvciBtZSB0byByZW1lbWJlciB0aG9zZSBzZXNzaW9ucyB3b3JkIGZvciB3b3JkIHRoYW4gaXQgaXMgZm9yIG1lIHRvIHJlbWVtYmVyIGV2ZXJ5ZGF5IGNvbnZlcnNhdGlvbiBzbyB3ZWxsLg0KDQpBcyBhIER1bmdlb24gTWFzdGVyIChzdHVmZnkgdGl0bGUgZm9yIHNvbWVvbmUgd2hvIHRlbGxzIHBlb3BsZSB0aGV5IG1lZXQgYSB1bmljb3JuIG9yIGFyZSBhdHRhY2tlZCBieSBhIHRyb2xsKSB0aGVyZSBpcyBxdWl0ZSBhIGJpdCBvZiB3cml0aW5nIGludm9sdmVkLiBNYXNzaXZlIHN0b3J5IGFyY3MgdGhhdCBzcGFuIHdlZWtzLCBwZW9wbGUgYW5kIHBsYWNlcyB3aG8gaGF2ZSBiYWNrIHN0b3JpZXMgYW5kIGludGVyYWN0aW9ucywgdGVuc2lvbiBidWlsZGluZyBzY2VuZXMgYW5kIGF0dGVudGlvbi1nZXR0aW5nIGFjdGlvbiB0aGF0IG1ha2UgdGhlIGV4cGVyaWVuY2UgaW50ZXJlc3RpbmcgYWxsIGFyZSB0aGUgY3JlYXRpb24gb2YgdGhlIERNLiBUaG91Z2ggdGhlIERNIGNyZWF0ZXMgdGhlbSwgaXQgaXMgdHJ1bHkgdGhlIHBsYXllcnMgd2hvIGJyaW5nIHRoZW0gYWxsIHRvIGxpZmUsIGFuZCBJIGNhbuKAmXQgZGltaW5pc2ggdGhhdCB3aGljaCB0aGUgUENzIChwbGF5ZXIgY2hhcmFjdGVycykgYnJpbmcgdG8gdGhlIGdhbWUuIFN0aWxsIGl0cyBub3QgdGhlIHBsYXllciB3aG8gc3BlbmRzIGFsbCB3ZWVrIGNvbWluZyB1cCB3aXRoIGlkZWFzIGFuZCBwc3ljaG9hbmFseXppbmcgaGlzIHBsYXllcnMgaW4gb3JkZXIgdG8gZGV2aXNlIGEgcGxvdCB0aGF0IHdpbGwga2VlcCB0aGVtIGFsbCBpbnRlcmVzdGVkIGFuZCBleGNpdGVkIGFib3V0IGNvbWluZyB0byB0aGUgbmV4dCBzZXNzaW9uLg0KDQpJdCBpcyBwcmV0dHkgZWFzeSBmb3IgbWUgdG8gY3JlYXRlIHRoaXMgZmFudGFzeSB3b3JsZCB3aGVyZSBteSBwbGF5ZXJzIGNhbiByb21wIGFyb3VuZCwgYWR2ZW50dXJlLCBpbnZlc3RpZ2F0ZSwgaW50ZXJhY3QgYW5kIG9mIGNvdXJzZSwga2lsbCBzaGl0IGFuZCB0YWtlIHRoaWVyIHN0dWZmLiBJIGhhdmUgbm8gdHJvdWJsZSBjb21pbmcgdXAgd2l0aCB0aGUgbmV4dCBwZXJzb24gdGhleSBtZWV0LCB0aGUgbmV4dCBtb25zdGVyIHRoZXkgY29uZnJvbnQsIG9yIHRoZSBuZXh0IHB1enpsZSB3aXRoIHdoaWNoIHRoZXkgYXJlIGNoYWxsZW5nZWQuDQoNCkJ1dCBkYW1uZWQgaWYgaXQgaXNu4oCZdCBhIHBhaW4gaW4gdGhlIGFzcyB0byBzaXQgaGVyZSBhbmQgd3JpdGUgYSBmcmlja2luIGJsb2cu"
+"eventtime","2008-04-15 07:31:00"
+"url","http://lostchance.livejournal.com/26948.html"
+"userid","9186"
+"itemid","104"
+"event","SSBoYWQgdGhpcyBmYW50YXN0aWMgaWRlYSwgdGhhdCBJIHdvdWxkIHdyaXRlIGEgYmxvZyBhYm91dCBob3cgSeKAmXZlIGRlY2lkZWQgdG8gdGFrZSBhIHZvdyBvZiBDZWxpYmFjeSwgYW5kIG1vdmUgb2ZmIHNvbWVwbGFjZSByZW1vdGUgYW5kIGltcG92ZXJpc2hlZCBzbyB0aGF0IEkgY291bGQgbGVhcm4gbW9yZSBhYm91dCBteSBmZWxsb3cgbWFuIHdpdGhvdXQgdGhlIGRpc3RyYWN0aW9ucyBvZiB0aGUgQW1lcmljYW4gbGlmZXN0eWxlLg0KDQpUaGVuIG9mIGNvdXJzZSwgSeKAmWQgc2F5ICJBcHJpbCBGb29scyEiIEkgbWVhbiByZWFsbHksIHZvdyBvZiBjZWxpYmFjeT8gV2hv4oCZZCBiZWxpZXZlIHRoYXQ/IEZyb20gbWU/IFRlaCBzZWxmbGVzcyBzdHVmZiBpcyBhIHN0cmV0Y2ggdG9vLg0KDQpXaGF0IEnigJltIGFjdHVhbGx5IGdvaW5nIHRvIGRvLCBpcyB3cml0ZSBhYm91dCBwZW5zLiBJIGtub3cgd2hhdCB5b3XigJlyZSB0aGlua2luZzoNCg0KIk9oIE15IEdvZC4gU29tZW9uZSBpcyBmaW5hbGx5IGdvaW5nIHRvIHdyaXRlIGFib3V0IHBlbnMuIEkgaGF2ZSBiZWVuIHdhaXRpbmcgZm9yIHNlcmlvdXMgcGVuIGxpdGVyYXR1cmUsIGFuZCBmaW5hbGx5LCB0aGlzIG1hbiBhbW9uZ3N0IG1lbiBkZWxpdmVycyEiDQoNCi9zYXJjYXNtIG9mZiAoeW91cnMgb3IgbWluZSwgd2hpY2hldmVyIG1ha2VzIHlvdSBoYXBweSkNCg0KTGV0cyBraWNrIHRoaW5ncyBvZmYgYnkgYmxhbWluZyBzb21lIG9uZSBlbHNlLCBKZXJyeSBTZWluZmVsZC4gVGhlIG1hc3RlciBvZiBkaWRqYSBldmVyIG5vdGljZT8gaHVtb3IuIEkgcmVtZW1iZXIgZnJvbSBsb25nIGFnbywgYSBTZWluZmVsZCBlcGlzb2RlIHdoZXJlIGhlIHRhbGtzIGFib3V0IHBlbnMsIGFuZCBob3cgb2Z0ZW4gdGhleSBhcmUgbG9zdCwgYXMgd2VsbCBhcyBob3cgcmFyZWx5IHlvdSBjb21lIGFjcm9zcyBvbmUgdGhhdCBhY3R1YWxseSBydW5zIG91dCBvZiBpbmsuVGhpcyBpcyBwcmltYXJpbHkgYmVjYXVzZSB5b3UgbG9zZSB0aGVtIGxvbmcgYmVmb3JlIHlvdeKAmXJlIGV2ZW4gbmVhciBydW5uaW5nIG91dCBvZiBpbmsuIHRoZW4gdGhlcmUgaXMgc29tZSByYW5kb20gZXhwb3N0dWxhdGlvbiBhYm91dCB3aGVyZSBhbGwgdGhlc2UgcGVucyBnbywgYW5kICJkbyB0aGV5IGVuZCB1cCB3aXRoIGFsbCBvZiB0aG9zZSBzb2NrcyBsb3N0IGluIGRyeWVycz8iDQoNCkkgY2Fu4oCZdCBzcGVjaWZpY2FsbHkgcmVtZW1iZXIgdGhlIGxhc3QgdGltZSBJIGhhZCBhIHBlbiBydW4gb3V0IG9mIGluayBvbiBtZS4gVGhlcmUgYXJlIHRoZSB0aW1lcyB3aGVuIHRoZSBwZW4gZHJpZXMgdXAgZm9yIGEgbW9tZW50LCBhbmQgeW91IGhhdmUgdG8gZHJhdyB0aGUgZW5kbGVzcyBzcXVpZ2dsZXMgYW5kIGNpcmNsZXMgb24gYW5vdGhlciBwaWVjZSBvZiBwYXBlciB0byBnZXQgaXQgZ29pbmcgYWdhaW4uIE9yIHdoZW4gdGhhdCBkb2VzbuKAmXQgd29yayB5b3UgYnJlYWsgb3V0IHlvdXIgQmljIChsaWdodGVyLCBub3Qgd3JpdGluZyB1dGVuc2lsKSBhbmQgaGVhdCB0aGUgYmFsbCBwb2ludCBpbiBob3BlcyB0aGF0IHRoYXQgd2lsbCBmaXggdGhlIGlzc3VlLiBJIGRvbuKAmXQgcmVjYWxsIGl0IGV2ZXIgZGlkLg0KDQpJIGRvIHJlY2FsbCBhbGwgb2YgdGhlIHBlbnMgSSBzZXQgb24gZmlyZS4gQXQgMTcsIGEgZmxhbWluZyBwbGFzdGljIHBlbiBpcyBxdWl0ZSBhbiBpbnRlcmVzdGluZyBpdGVtLiBPZiBjb3Vyc2UsIGFzIGEgbWFsZSB0ZWVuYWdlciwgYW55dGhpbmcgc2V0IGFibGF6ZSBpcyB3b3J0aHkgb2YgdW5kaXZpZGVkIGF0dGVudGlvbi4gWW91IGVuZCB1cCB3aXRoIG1vbHRlbiBwbGFzdGljLiBUaGVyZSBhcmUgdmVyeSBmZXcgdGhpbmdzIHlvdSBkZWFsIHdpdGggaW4geW91ciBsaWZlIHRoYXQgY2FuIGJlIGNvbnNpZGVyZWQgcmVhbGx5IG1vbHRlbi4gUGVuIHBsYXN0aWMgaXMgb25lIG9mIHRoZXNlIGl0ZW1zLCBhbmQgbm90IG9ubHkgZG9lcyBpdCBoYXZlIHRoYXQgZGVzY3JpcHRvciBnb2luZyBmb3IgaXQsIHlvdSBhbHNvIGdldCB0aGUgc291bmQuDQoNCk1heWJlIHlvdSBhbGwgYXJlIG5vdCBhd2FyZSBvZiB0aGUgc291bmQuIEJ1dCBpZiB5b3UgbGlnaHQgYSBwZW4gb24gZmlyZSwgYW5kIGxldCB0aGUgcGxhc3RpYyBkcmlwIGZyb20gYSBmZXcgZmVldCBoaWdoLCBpdCBtYWtlcyBhIHJhdGhlciB1bmlxdWUgbm9pc2UuIFNvcnQgb2YgYSAidnZ2dmlwLCB2dnZ2dmlwLiIgVGhlIHNvdW5kIGlzIHNvcnQgb2YgbGlrZSBhIHppcHBlciBiZWluZyB6aXBwZWQgdXAgcXVpY2tseSwgb25seSBpdCBoYXMgYSB0aGUgdmVyeSBkaXN0aW5jdCBhbmQgZGVjaWRlZGx5IG1vbHRlbiBxdWFsaXR5LiBXaGVuIHlvdSBoZWFyIHRoaXMgbm9pc2UsIGl0IG1ha2VzIHlvdSB0aGluaywgInRoYXQgc291bmRzIGxpa2Ugc29tZXRoaW5nIHdoaWNoIGlzIGJ1cm5pbmcsIHJlYWxseSBidXJuaW5nLiINCg0KRm9yIGFuIGlucXVpc2l0aXZlIHB5cm9tYW5pYWMgeW91dGgsIGl0IGlzIGEgbG92ZWx5IHNvdW5kLCBhbmQgeW91IHJldmVsIGluIGl0IGFzIHRoZSBibGFjayBhbmQgd2hpdGUgZHJvcHMgb2YgbGlxdWlkIHBsYXN0aWMgZmFsbCB0byB0aGUgZmxvb3IsIG9yIGFzIHlvdSBsZXQgdGhlbSBzdGljayB0byB0aGUgdG9lcyBvZiB5b3VyIHdvcmtib290cy4gTGV0IHRoZSBnaXJscyBkZWNvcmF0ZSB0aGVpciB3aGl0ZSBzbmVha2VycyB3aXRoIHN0aWNrZXJzIGFuZCBwZXJtYW5lbnQgcGFzdGVsIG1hcmtlcnMuIFlvdSBrbm93IHRoZSB1bmlxdWUgbW9ub2Nocm9tZSBwYXR0ZXJuIG9uIHRoZSB0b2Ugb2YgeW91ciBUaW1iZXJsYW5kIHdhcyBtYWRlIG9mIGZpcmUsIGRlc3RydWN0aW9uLCBhbmQgZXF1YWwgYW1vdW50cyBib3JlZG9tIGFuZCBzdHVwaWRpdHkuDQoNCkkgc3VwcG9zZSBpZiBJIHdyaXRlIGFib3V0IGEgcGVuLCBJIHNob3VsZCByZWZsZWN0IG9uIHRoZSAicGVuIGlzIG1pZ2h0aWVyIHRoYW4gdGhlIHN3b3JkIiBjbGljaGUuIEluIG15IGV4cGVyaWVuY2UsIG5vIGl0IGlzIG5vdC4gQWxsIG9mIHRoZSBzd29yZHMgSeKAmXZlIGV2ZXIgb3duZWQgaGF2ZSBjdXQgcmlnaHQgdGhyb3VnaCBhbnkgcGVuIHRoZXnigJl2ZSBlbmNvdW50ZXJlZC4gQWxzbywgZXZlbiB3aGVuIHRoZSBwZW4gaXMgb24gZmlyZSwgZHJpcHBpbmcgaXRzIG1vbHRlbnkgZ29vZG5lc3Mgd2l0aCBhIGRldGVybWluZWQgInZ2dnZpcCwgdnZ2dmlwLCIgc3dvcmRzIGFyZSB1c3VhbGx5IGNvb2xlci4gU29ycnksIGl0IGlzIHRydWUu"
+"eventtime","2008-04-01 07:29:00"
+"url","http://lostchance.livejournal.com/26731.html"
+"userid","9186"
+"itemid","103"
+"event","SeKAmXZlIGFsd2F5cyB0cmllZCB0byB3cml0ZSBhcyBpZiBJIHdlcmUgd3JpdGluZyB0byBzb21lb25lIGVsc2UsIGFzIGlmIEkgd2VyZSB0cnlpbmcgdG8gbWFrZSBzb21lb25lIGVsc2UgdW5kZXJzdGFuZCBteSBvd24gdGhvdWdodHMuIFRoYXTigJlzIGEgbGl0dGxlIHN0cmFuZ2UsIGNvbnNpZGVyaW5nIHRoYXQgSSBiZWxpZXZlIEkgd3JpdGUgcHJpbWFyaWx5IHRvIHNldCBteSBpZGVhcyBzdHJhaWdodCBpbiBteSBvd24gaGVhZC4gSG93IEkgd3JpdGUgYW5kIHdoeSBJIHdyaXRlIHNlZW0gY29udHJhZGljdG9yeS4NCg0KTWF5YmUgdGhpcyBpcyB3aHkgSSBuZXZlciBjb3VsZCB3cml0ZSBhIGpvdXJuYWwuIFRoZSB3b3JkcyBuZXZlciBjYW1lIG91dCByaWdodCwgSSBkaWRu4oCZdCBmZWVsIGxpa2UgSSB3YXMgd3JpdGluZyBhbnl0aGluZyBwZXJzb25hbCwgYmVjYXVzZSBpdCB3YXMgd3JpdHRlbiBvcGVubHksIGludml0aW5nIG90aGVycyB0byByZWFkIGFuZCBhdHRlbXB0IHRvIHVuZGVyc3RhbmQuIFNpbWlsYXJseSwgd3JpdGluZyBhIGJsb2cgd2FzIGRpZmZpY3VsdCwgYmVjYXVzZSBJIGZlbHQgYXMgdGhvdWdoIHdoYXRldmVyIEkgd2FzIHdyaXRpbmcgd2FzIHRvbyBpbnN1bGFyLiBXaHkgd291bGQgc29tZW9uZSBlbHNlIGhhdmUgaW50ZXJlc3QgaW4gbXkgb2RkIHJhbWJsaW5ncz8gVGhlc2UgYXJlIGp1c3QgbXkgdGhvdWdodHMgYmVpbmcgc2V0IG91dCBhbmQgb3JnYW5pemVkLiBJIG1hZGUgdGhlbSBhIGxpdHRsZSBtb3JlIGNvbmNyZXRlLCBmb3IgbXkgb3duIGJlbmVmaXQuIEhvdyBjYW4gdGhhdCBiZSBvZiBhbnkgaW1wb3J0IHRvIGFueW9uZSBlbHNlPw0KDQpMaWtlbHksIHRoaXMgaXMgYWxsIGp1c3QgYSBsYXJnZSBjb3Atb3V0LiBJ4oCZbSBqdXN0IHNjYXJlZCBvZiBzYXlpbmcgc29tZXRoaW5nIEkgY2Fu4oCZdCB0YWtlIGJhY2suIE15IGJlbGllZnMgaGF2ZW7igJl0IGNoYW5nZWQgYSB3aG9sZSBsb3Qgc2luY2UgSSB3YXMgeW91bmcsIGJ1dCBteSBwZXJjZXB0aW9uIG9mIHRoZSB3b3JsZCBoYXMuIFRoZSByZWFzb25pbmcgYmVoaW5kIG15IGJlbGllZnMgaGFzIG1hdHVyZWQgcXVpdGUgYSBiaXQsIGFuZCB3aGVuIEkgbG9vayBiYWNrIG9uIHRoZSB0aGluZ3MgSeKAmXZlIHdyaXR0ZW4gaW4gbXkgZWFybGllciB5ZWFycywgSSBzb21ldGltZXMgY3JpbmdlIGF0IHRoZSBxdWFsaXR5IGFuZCB0aGUgbG9naWMuIFNvbWV0aW1lc+KApiBwZmVoLCB0cnkgb2Z0ZW4uDQoNCknigJl2ZSBiZWVuIGVuY291cmFnZWQgdG8gcmVhZCBvdGhlciBwZW9wbGXigJlzIGJsb2dzLiBJ4oCZdmUgYmVlbiB0b2xkIHRoYXQgb3RoZXJzIGFyZSBzdWNoIGFtYXppbmcgd3JpdGVycywgYW5kIEkgc2hvdWxkIHJlYWQgdGhlbSBhbmQgZW5qb3kuIFdoZW4gSSBjaGVjayBvdXQgdGhlc2UgYmxvZ3MsIG1vc3Qgc2VlbSB0byBoYXZlIHN0cm9uZyBmZWVsaW5ncyBhbmQgYmVsaWVmcyB2b2ljZWQgZWl0aGVyIG9wZW5seSBvciBub3QuIEkgZG9u4oCZdCBrbm93IGlmIEnigJltIHJlYWR5IGZvciBzdHJvbmcsIHdlbGwgd3JpdHRlbiBvcGluaW9ucy4gSeKAmW0gc3RpbGwgaW4gdGhlIHByb2Nlc3Mgb2YgY29taW5nIHRvIG15IG93biBjb25jbHVzaW9ucywgYW5kIEkgZmluZCB0aGF0IGEgc2lsdmVyLXRvbmd1ZWQgcHJvcG9uZW50IGNhbiBzZXQgbWUgb2ZmLXRyYWNrLiBBbiBhbW91bnQgb2YgbGF6aW5lc3MgZG9lc27igJl0IGRpc2NvdXJhZ2UgdGhhdCBvcGluaW9uIGVpdGhlci4NCg0KQXQgdGhlIG1vbWVudCwgSSBmaW5kIG15c2VsZiBhdCBhIGNyb3Nzcm9hZHMgb2Ygc29tZSBzb3J0LiBJIGZlZWwgYW4gb2RkIGp1eHRhcG9zaXRpb24gb2YgYWR1bHRob29kIGFuZCBhZG9sZXNjZW5jZS4gSeKAmW0gbmVhcmx5IHRoaXJ0eSBhbmQganVzdCBzdGFydGluZyBjb2xsZWdlLiBJIGhhdmUgYSAiNSB5ZWFyIHBsYW4iIGJ1dCBJIGNhbuKAmXQgc2F5IEnigJltIGFsbCB0aGF0IGF0dGFjaGVkIHRvIGl0LiBJ4oCZdmUgZ290IG15IG93biBhcGFydG1lbnQsIGJ1dCBieSBub3cgSSBmZWVsIGxpa2UgSSBzaG91bGQgYmUgYnV5aW5nIGEgaG91c2UuIEnigJl2ZSBqdXN0IGdvdHRlbiBvdXQgb2YgYSBiYWQgcmVsYXRpb25zaGlwLCB3aGljaCBpcyBhIHBvc2l0aXZlLCBidXQgSSBqdXN0IGNhbuKAmXQgaGVscCBmZWVsaW5nIGFsb25lIGFuZCBpbmNvbXBsZXRlIHdpdGhvdXQgc29tZW9uZSBlbHNlIHdpdGggd2hvbSBJIGNhbiBzaGFyZSBteSB0aW1lLiBJ4oCZdmUgZ290IGEgcmVhbGx5IGdyZWF0IGNpcmNsZSBvZiBmcmllbmRzLCBidXQgZm9yIHRoZSBwYXN0IGZldyB5ZWFycyBJIHJlYWxseSBoYXZlbuKAmXQgaGFkIHRoYXQgb25lIHBlcnNvbiB0byB3aG9tIEkgY291bGQgdGVsbCBhbnl0aGluZy4gSeKAmW0gY29uc3RhbnRseSBib3VuZGluZyBiZXR3ZWVuIGZpbmFuY2lhbCBzZWN1cml0eSBhbmQgcnVpbi4gSSBmZWVsIGFzIHRob3VnaCBJ4oCZbSBvbiB0aGUgY3VzcCBvZiBldmVyeXRoaW5nLg0KDQpBbmQgbWF5YmXigKYgIEnigJltIG9uIHRoZSBjdXNwIG9mIG1ha2luZyBhIHNlcmlvdXMgZWZmb3J0IHRvIHN0YXJ0IHdyaXRpbmcgYWdhaW4u"
+"eventtime","2008-03-31 22:56:00"
+"url","http://lostchance.livejournal.com/26503.html"
+"userid","9186"
+"itemid","102"
+"event","R290dGVuIGZyb20gbXkgZGVhciBmcmllbmQgTG90dGUuIExldCdzIHNlZSBpZiBhbnkgb2YgeW91IGFjdHVhbGx5IGtub3cgbWUuIEZvciBzb21lIG9mIHRoZXNlIEkgd2lsbCBhY2NlcHQgbXVsdGlwbGUgYW5zd2Vycywgc2luY2UgSSBhbSBzdWNoIGEgbXVsdGktZmFjZXR0ZWQgcGVyc29uYWxpdHkuIChyZWFkOiBwc3ljaG90aWMpDQoNCigyIFBvaW50cykgTXkgbmFtZToNCigxIFBvaW50KSBNeSBsYXN0IG5hbWU6DQooNSBQb2ludHMpIFRha2UgYSBzdGFiIGF0IG15IG1pZGRsZSBuYW1lOg0KKDMgUG9pbnRzKSBXaG8gd2FzIG15IGZpcnN0IGNlbGViLWNydXNoOg0KKDIgUG9pbnRzKSBEbyBJIGhhdmUgYW55IGNoaWxkcmVuOg0KKDIgUG9pbnRzKSBIb3cgb2xkIGFyZSB0aGV5Og0KKDIgUG9pbnRzKSBXaGF0IHdvcmsgZG8gSSBkbzoNCigzIFBvaW50cykgV2hhdCBhbSBJIGFmcmFpZCBvZjoNCigyIFBvaW50cykgRG8gSSBzbW9rZToNCigzIFBvaW50cykgRG8gSSBkcmluazoNCigyIFBvaW50cykgRG8gSSBoYXZlIGFueSBzaWJsaW5nczoNCigyIFBvaW50cykgSG93IG1hbnk6DQooMSBQb2ludCkgRG8gSSBsaWtlICdlbToNCig0IFBvaW50cykgV2hhdCdzIG9uZSBvZiBteSBmYXZvcml0ZSB0aGluZ3MgdG8gZG86DQooMiBQb2ludHMpIEhvdyBtYW55IHRhdHRvb3MgZG8gSSBoYXZlOg0KKDMgUG9pbnRzKSBXaGF0J3MgbXkgZmF2b3JpdGUgdHlwZSBvZiBtdXNpYzoNCigyIFBvaW50cykgV2hhdCdzIG15IGZhdm9yaXRlIFRWIHNob3c6DQooMiBQb2ludHMpIFdobyBpcyBteSBmYXZvcml0ZSBiYW5kL2FydGlzdDoNCig0IFBvaW50cykgQW0gSSBzaHkgb3Igb3V0Z29pbmc6DQooMyBQb2ludHMpIEFtIEkgYSByZWJlbCBvciBkbyBJIGZvbGxvdyB0aGUgcnVsZXM6DQooMiBQb2ludHMpIFdoYXTigJlzIG15IGZhdm91cml0ZSBjb2xvdXI6DQooMyBQb2ludHMpIE5hbWUgc29tZXRoaW5nIEkgaGF0ZToNCig0IFBvaW50cykgTmFtZSBhIHRhbGVudCBJIGhhdmU6DQooNCBQb2ludHMpIFdoYXQga2luZCBvZiBzaG9lcyBkbyBJIHdlYXI6DQooNCBQb2ludHMpIERvIEkgaGF2ZSBhbnkgcGV0czoNCigyIFBvaW50cykgV2hvIGFtIEkgZGF0aW5nIHJpZ2h0IG5vdzoNCig1IFBvaW50cykgV2hhdCBkaWQgSSBzdHVkeSBpbiB1bml2ZXJzaXR5Og0KKDUgUG9pbnRzKSBXaGF0IGlzIHRoZSBjb2xvdXIgb2YgbXkgcm9vbToNCig1IFBvaW50cykgV2hhdCBpcyBteSB3b3JzdCBoYWJpdDoNCig1IFBvaW50cyBvbiBjcmVhdGl2ZW5lc3MpIElmIEkgd2VyZSBzdHJhbmRlZCBvbiBhIGRlc2VydCBpc2xhbmQsIHdoYXQgd291bGQgSSBicmluZzoNCg0KDQpJJ2xsIHJlcGx5IHdpdGggeW91ciBzY29yZSBvbmNlIGl0J3MgbWFya2VkLiBDb21tZW50cyBhcmUgc2NyZWVuZWQgc28geW91IGNhbid0IHNlZSBhbnlvbmUgZWxzZSdzIGFuc3dlcnMhDQoNCjgwLTg1IFBvaW50cyDigJQgU3RhbGtlciBFeHRyYW9yZGluYWlyZSENCjcwLTc5IFBvaW50cyDigJQgSGFyZC1Xb3JraW5nIFN0YWxrZXINCjQwLTY5IFBvaW50cyDigJQgRGVjZW50IFN0YWxrZXINCjIwLTM5IFBvaW50cyDigJQgU3RhbGtlci1Jbi1UcmFpbmluZw0KMDAtMTkgUG9pbnRzIOKAlCBDcmFwcHkgU3RhbGtlciBvciBOZXcgU3RhbGtlcg=="
+"eventtime","2006-11-10 10:48:00"
+"url","http://lostchance.livejournal.com/26310.html"
+"userid","9186"
+"itemid","101"
+"event","Today I went to a friend's house for brunch. The food is generally good there, but somewhat vegetarian oriented, which isn't very exciting for me. The company is always good, but it gets quiet after an hour or so of eating heavy cheese/grease indulgent food lends people to slow moaning and sighs of full-ness. I've also looked forward to peeling the pomegranates a friend brings, which is challenging, and occupies my tenacity and focus.
+
+Oddly though, I'm also finding myself looking forward to seeing the children of one of the brunch-goers. I suppose I'm finally getting a fatherly urge of some sort. I have to admit, these kids are much more interesting and intelligent than a lot of other children that I have had the displeasure of meeting.
+
+And suddenly I realise that I can type moderately well without looking at the keyboard. (story continuity be damned)
+
+So today, being the most beautiful day that it was, I took out my frisbee and started tossing it in the yard, for a short time it was just myself and another of the adults, but soon the kids joined in. It degenerated about as far as can be distanced from a game of frisbee, but I had a blast. It ended in a game of hide and seek, which I initially dreaded the thought of, but I had a great time, and wore myself out.
+
+This may be the first/most diary-ish entry I've made in this livejournal. Isn't that something? (heh, couldn't make it through without asking the reader a question, bah)"
+"eventtime","2006-03-13 00:38:00"
+"url","http://lostchance.livejournal.com/26053.html"
+"userid","9186"
+"itemid","100"
+"event","I'm always curious how other see me and how that meshes with how I see myself, so, this is the logical step to find an answer to such a question:
+
+http://kevan.org/johari?name=Jon Blak
+
+Click it! I beseech you!
+
+http://kevan.org/nohari?name=Jon Blak
+
+I besseech that as well."
+"eventtime","2006-02-12 21:24:00"
+"url","http://lostchance.livejournal.com/25601.html"
+"userid","9186"
+"itemid","99"
+"event","Maybe part of me thought people would read my journal, and see something ov value in it. I had hoped there would be an interest, an amount of appreciation. Seems though, that the greatest interest in these journals is created by nymphites posting pictures... not to say that there are a very many beautiful women with tasteful photography deserving of praise, but the majority of the interest in those is still unfortunately based on simple aesthetic interest instead of complex emotional reaction.
+
+Too often I feel as though I'm being granted some amazing personal insight by an emotional movie. Movies like Eternal Sunshine of the Spotless Mind, House of Sand and Fog, The Power of One, and all kinds of lesser known half-indy films I see at 3 am on cable channels, all seem to give me these miniature epiphanies. As enlightened as I may feel for the time being, it always passes and the dull complacency of life sets back in. Why can't I hold on to those things? Is it a failing in me, or is it the lack of content in those highs? Is my failing in the ability to retain the feeling brought about, or is my failing in letting such emotion be stirred within me by something too simple and without merit?
+
+Dreams get especially vivid when you spend all day in bed. Its not a depression so much as a lack for anything better to do. My dreams have finally scared me in a new way. I was shot, point blank , and I felt the impact of the bullet. I tried to focus my mind on the sensations in my chest waiting for the burning sting as my nerves registered the invasion of this foreign material. I thought immediately that if it had pierced my heart the pain wouldn't last long. I was scared to take in a breath for fear of the pain  that might entail were my lung pierced. I felt against my chest for the warm trickle of blood that I knew would invariably come from the wound. 
+
+Instead as I ran my hand across my chest I came to a hard lump, stuck to my shirt by a nominal amount of the melted fabric. The bullet hadn't penetrated. The woman shot at me again and again, and the few bullets that struck me di no damage, the bullets that did not strike me did not go errant. I caught them.
+
+I'm tired of being invulnerable in my dreams. The superman complex has grown old. for once I'd prefer that my dreams were not so much better than my life, so for once, I would not have to fight my id against the concept of sleeping longer, spending more time in dreams that offer a better experience than sitting here before an array of screens. Why would I want to when in my dreams, I have random romances, I live in magnificent houses, and super-human abilities?
+
+Maybe its just stubborn ignorance. A smarter man might just go back to bed."
+"eventtime","2006-01-24 11:19:00"
+"url","http://lostchance.livejournal.com/25589.html"
+"userid","9186"
+"itemid","98"
+"event","I'll lie to myself, sometimes, late at night when I'm in the dark, listenning to the sound of the computer fans humming at the desk beside my bed. I'll lie about what I'm thinking and how I'm feeling, and what I want to do. I'll lay in bed, and think these thoughts to myself, telling myself things that I know are not true. I wonder, sometimes, why I do this. I wonder if its some insecurity, or self delusion. do I do it because I want to build some fantasy world for myself? Do I need to protect myself from the truth for some reason?
+
+Or is it worse? Do I lie because I need a fantasy self to protect the real world from what I'm afraid I really am? Am I really afraid, or do I find comfort in the idea of the monster I hide within? Maybe its the weakness I want to disguise as a strength... perhaps the impotence that I like to mask as power.
+
+I lie to myself, sometimes, when I'm alone in the dark. And sometimes, I believe me."
+"eventtime","2005-09-26 09:59:00"
+"url","http://lostchance.livejournal.com/25304.html"
+"userid","9186"
+"itemid","96"
+"event","I posted this as a reply to one of my flower's entries. After being donw with it, I thought it deserves to be one of my entries as well:
+
+I still dress much the same as I have since I was 13. About that time I realized I was most comfortable in a t-shirt, jeans and sneakers. I liked getting dressed up for special events and looking my best.
+
+I still wear t-shirts, jeans and sneakers, and I dress up for special occasions. When I dress up, its always in black. I think its a universal color and always looks good. Most of my friends are part of a ""goth"" crowd, and range from 20-30 years old. They don't dress goth to expand anyone's mind or make impressions, they dress goth because it's what they like.
+
+Perhaps it started for some of them as rebellion, but it became part of their identity and what they felt comfortable with. I have a 28 year old friend who is in between a flourescent pink and an indigo mohawk. She sews what she wears together out of things she used to wear, and makes clothes from scratch as well. She has tattoos covering more than 30% of her body, and numerous peircings. She is a punk, and it wasn't a phase for her, thats what she is, period.
+
+When my friends see teens going through a goth or punk phase, they recognize those who are going through a phase, and those who really are fans of the music, the apparel, and ideology that is associated with their social group. Yes, they want other people to realize there is more to a person than their looks, but they don't expect that just from people looking at them. They hope for it because they do look different (from personal preference as opposed to desire for inciting curiousity) and work to prove to people in their actions after the first impression, that they are in fact, wonderful people.
+
+So the catty group dressed in patent leather and latex and twelve layers of make-up who are smoking cloves and trying to order absinthe while trying so hard to be noticed but disinterested... Those people have issues.
+
+I sit with the group of people, all dressed in comfortable black dresses or slacks and button down shirts with several tasteful facial piercings and tattoos, who could don't care if anyone notices them, really, because they dressed up for themselves and eachother, and couldn't care less what someone else thinks about them."
+"eventtime","2005-08-04 03:31:00"
+"url","http://lostchance.livejournal.com/24591.html"
+"userid","9186"
+"itemid","95"
+"event","Seems like the thanks I get for growing up is control. I find myself more in control of things than ever before. I've been able to change my life for the better in most aspects. Financial worries are disolved, work is becoming more and more stable and rewarding. My friendships are more durable and less needy (though I still try to hard to please).
+
+And the thanks I get is that loss of fear. The loss of that sudden attack of anxiety and ""what have I done"" self-questioning. The loss of all that insane second guessing, the wonderment in what my life has been up to this point, the sudden realizations of how different things should have went, would have went and could have been. The immediate surge of fantasy over all the possibilities in a chance encounter or the dream of what might come of the slim chance between what is my present and what might be my future. I've lost that rush of light-headedness that comes when I'm overwhelmed by something so beautiful it makes me question my belief in its perfection. The exhiliration escaped me.
+
+It makes me question if growing up was the best idea. Could I get back to the fanciful nature that adulthood removed? Should I? Does this mean that if faeries and leprechauns really do exist, that I won't be able to see them anymore? Should I be concerned?
+
+And then, I stop thinking so hard."
+"eventtime","2005-05-30 22:03:00"
+"url","http://lostchance.livejournal.com/24335.html"
+"userid","9186"
+"itemid","92"
+"event","QW5nc3QsIGFuZ3N0LCB3b2UgaXMgbWXigKYgTXkgbGFzdCBmZXcgZW50cmllcyBoYXZlIGJlZW4gaGVhcnQgbnVtYmluZy4gQXQgdGhlIG1vbWVudCBJIHNlZW0gdG8gYmUgd2FuZGVyaW5nIGFib3V0IHdpdGggYSBzY2hlZHVsZSBmdWxsIGVub3VnaCB0byBrZWVwIG1lIGRpc3RyYWN0ZWQuIE15IGF0dGVtcHRzIGF0IGFydCBhcmUgdW5pbXByZXNzaXZlLCBidXQgaW1wcm92aW5nLiBUaGVyZSBpcyBhIGxpdHRsZSB3cml0aW5nIGhlcmUgYW5kIHRoZXJlLCBJ4oCZbSB1c2luZyBzb21lIGNyZWF0aXZpdHksIGFuZCBJ4oCZbSBmYWlybHkgaGFwcHkgd2l0aCBtb3N0IG9mIHRoZSBkZXNpZ25zIEnigJl2ZSBwdXQgdG9nZXRoZXIgZm9yIGRpZmZlcmVudCBwcm9qZWN0cy4NCg0KSeKAmW0gZG9pbmcgbXkgYmVzdCB0byBnZXQgaW52b2x2ZWQgaW4gdGhpbmdzLiBNb3JlIHRoYW4ganVzdCBnb2luZyBvdXQgYW5kIHBhcnRpY2lwYXRpbmcsIEkgaG9wZSB0byBnZXQgYmVoaW5kIHRoZSBzY2VuZXMgc29vbiBlbm91Z2ggb24gYSBnYXRoZXJpbmcgb3IgdHdvLiBJIHNlZSBhIGZldyBvcGVuLCBvciBhdCBsZWFzdCB1bmxvY2tlZCBkb29ycyBhcm91bmQsIGl0cyBqdXN0IGdvaW5nIHRvIHRha2UgdGhlIGFjdCBvZiB0cnlpbmcgdGhlbSBvdXQuIFNvbWUgYXJlIGF2YWlsYWJsZSwgYW5kIEnigJl2ZSBrbm9ja2VkIG9uIGEgZmV3IG9mIHRoZW0uIE90aGVycyBzZWVtIGEgd2F5cyBvZmYgZm9yIG5vdywgYnV0IGFwcHJvYWNoaW5nIHF1aWNrbHkgZW5vdWdoLg0KDQpZZXMsIEnigJltIHN0aWxsIHNpbmdsZSBhbmQgbG9uZWx5LCBidXQgSSByZWFsbHkgZG8gY29uc2lkZXIgbXlzZWxmIGFuIG9wdGltaXN0IGF0IGhlYXJ0LCBhbmQgbG9va2luZyBhdCB0aGlzIGpvdXJuYWwsIEkgY2Fu4oCZdCBzZWUgdGhhdCBjb21pbmcgdGhyb3VnaCBhdCBhbGwuIEkga25vdyBJIGRvbuKAmXQgcG9zdCBtdWNoLCBhbmQgSSB3b27igJl0IHNheSB0aGF0IEkgd2lsbCBwb3N0IG1vcmUgaW4gdGhlIGZ1dHVyZSwgYnV0IHdoYXQgSSBkbyBwb3N0LCBJIHBsYW4gb24gYmVpbmcgbGVzcyB3b2VmdWwgZnJvbSBoZXJlIG9uLg=="
+"eventtime","2005-03-15 15:20:00"
+"url","http://lostchance.livejournal.com/23564.html"
+"userid","9186"
+"itemid","91"
+"event","TXkgcHJvYmxlbXMgYXJlIHBhdGhldGljLiBJIGZlZWwgdG9vIGRyYW1hLWxlc3MgdG8gd3JpdGUgTEogZW50cmllcy4gVGhlcmUgaXMgbmV2ZXIgbXVjaCBvZiBub3RlIHRvIHRlbGwuDQoNCkkgd2lsbCBzdGlsbCBoYXJwIG9uIG15IGxvbmVsaW5lc3MsIGJlY2F1c2UgaXQgaXMgc3RpbGwgdGhlIG9ubHkgdGhpbmcgdGhhdCBib3RoZXJzIG1lLiBJIHdhcyBmb3IgYSB0aW1lIHdvcnJpZWQgYWJvdXQgZmluYW5jZXMsIGJ1dCBhZnRlciBteSB0YXggcmV0dXJuIGFuZCBzb21lIGNhbGN1bGF0aW9ucyBJIGZpbmQgbXkgZGVidCBpcyBxdWl0ZSBtYW5hZ2VhYmxlLiBJ4oCZbSBhdHRlbXB0aW5nIHRvIHdyaXRlIGFnYWluLCBidXQgZXhjZXB0IGZvciBzcGl0cyBhbmQgc3B1cnRzIGl0cyBsaWtlIHdhZGluZyB0aHJvdWdoIHdhc3RlIGRlZXAgd2V0IGNlbWVudC4gU2xvd2x5IGl0IGlzIGRyeWluZywgYW5kIEkgYW0gZmFyIGZyb20gYW55IGVkZ2UgYnkgd2hpY2ggSSBtaWdodCBiZSBhYmxlIHRvIHB1bGwgbXlzZWxmIG91dC4gU3RpbGwsIHRoZXJlIGlzIHByb2dyZXNzLCBzbyB0aGF0IGlzIG5vdCB3aG9sbHkgZGVzcGVyYXRlLg0KDQpJIGRvbuKAmXQga25vdy4gV2hhdCBlbHNlIGlzIHRoZXJlPyBOb3RoaW5nIHNlZW1zIHRvIGJlIG9mIGltcG9ydGFuY2UuIFRpbWUgc3RpbGwgcGFzc2VzLg=="
+"eventtime","2005-01-27 15:11:00"
+"url","http://lostchance.livejournal.com/23371.html"
+"userid","9186"
+"itemid","90"
+"event","SSB3b25kZXIgaWYgdGhlcmUgaXMgZXZlbiBhIHdvcmQgdG8gZGVzY3JpYmUgbXkgY3VycmVudCBzdGF0ZS4gSXQgdXNlZCB0byBiZSBGcnVzdHJhdGVkLiBCZWZvcmUgdGhhdCBpdCB3YXMgQW5ub3llZC4gTm93LCBJIGNhbm5vdCBjb21lIHVwIHdpdGggdGhlIHdvcmQgZm9yIGhvdyBJIGZlZWwuDQoNCkl04oCZcyBub3QgcmVhbGx5IGEgdmVyeSBiYWQgZmVlbGluZywgdGhvdWdoIGl04oCZcyBub3QgZ29vZCBlaXRoZXIuIEl04oCZcyBzb3J0IG9mIHNpbWlsYXIgdG8gUmVzdGxlc3MsIGJ1dCBxdWlldGVyLiBLaW5kIG9mIGxpa2UgRGVwcmVzc2VkLCBidXQgbm8gc28gd2Vha2VuaW5nLiBDb21wbGFjZW50IGNvbWVzIHRvIG1pbmQsIGJ1dCB0aGF04oCZcyBub3QgaXQuIFRoZXJl4oCZcyBhbiBhbW91bnQgb2YgQ29udGVudG1lbnQgdG8gaXQgYXMgd2VsbCwgYnV0IG5vdCBlbm91Z2gsIGFuZCBub3QgYWx3YXlzLiBVbmxpa2Ugb3RoZXIgZW1vdGlvbnMsIGl0IGRvZXNu4oCZdCByZWFsbHkgaGF2ZSBtdWNoIG9mIGEgcGVhayBvciB2YWxsZXkuIEl0IGhhcyBhIHRpZGUuIFRoZSBjaGFuZ2UgaXMgc3VidGxlIGFuZCBleHBhbnNpdmXigKYgdGhlIGlkZWEgdGhhdCBpdCBjcmVlcHMgdXAgYW5kIGNvdmVycywgdGhlbiByZWNlZGVzIGFuZCBsZWF2ZXMgYmFyZSBzdWl0cyBpdCB3ZWxsLg0KDQpJIGtub3cgdGhlcmXigJlzIG5vdGhpbmcgcmVhbGx5IHRvIG15IGN1cnJlbnQgc2l0dWF0aW9uLiBUaGVyZSBpcyBubyBwbGFuIG9yIHNjaGVtZS4gVGhpbmdzIGp1c3QgYXJlIGFzIHRoZXkgYXJlLiBUb21vcnJvdyB0aGV5IHdpbGwgYmUgdGhlIHNhbWUsIG9yIGRpZmZlcmVudCwgb3Igc29tZSBtaXh0dXJlIG9mIGJvdGguIEkgaGF2ZSBib3RoIG9wdGlvbnMgYW5kIG9ic3RhY2xlcy4gVGhlIGlkZWEgb2YgZnV0aWxpdHkgaXMgYWJvdXQgYXMgaW1wcm9iYWJsZSBhcyBmYXRlLiBUaW1lIGlzIGJvdGggYWdhaW5zdCBtZSBhbmQgY29uc3BpcmluZyB3aXRoIG1lLiBBcyB0aW1lIGdvZXMgb24gdGhlIHByb2JhYmlsaXRpZXMgcmlzZSBpbiBteSBmYXZvciwgc28gbG9uZyBhcyB0aGV5IGRvbuKAmXQgcGF5IG9mZi4gTXkgY2hhbmNlcyBpbXByb3ZlLCBzbyBsb25nIGFzIEkgZG9u4oCZdCB3aW4gb3V0Lg0KDQpLaW5kYSBzb3VuZHMgbGlrZSBhIOKAnGRhbWVkIGlmIHlvdSBkbywgZGFtbmVkIGlmIHlvdSBkb27igJl04oCdIHByb3BoZWN5LCBidXQgdGhhdOKAmXMgbm90IHJlYWxseSBpdCBlaXRoZXIu"
+"eventtime","2005-01-11 14:26:00"
+"url","http://lostchance.livejournal.com/23292.html"
+"userid","9186"
+"itemid","87"
+"event","SSBjYW7igJl0IGltYWdpbmUgam91cm5hbHMgYmVpbmcgd3JpdHRlbiBvZiBodW1kcnVtIGFjdGl2aXRpZXMgYW5kIHNpbXBsZSByZXBldGl0aW9uIG9mIGRhaWx5IGxpZmUuIFdoeSB3cml0ZSBhbiBlbnRyeSBpZiBpdCB3aWxsIGJlIHRoZSBzYW1lIGFzIHRoZSBzZXZlcmFsIGVudHJpZXMgYmVmb3JlIGl0LCBhbmQgbGlrZWx5IHNldmVyYWwgZW50cmllcyBhZnRlcndhcmQ/IEkgY291bGQgaGF2ZSBkb25lIHRoYXQgdG8gdXBkYXRlIHRoZSBsYXN0IGdhcCBvZiBteSBqb3VybmFsLCBidXQgd2h5PyBJZiBhbnlvbmUgZG9lcyBjYXJlIHRvIHJlYWQgYSByZXByZXNlbnRhdGlvbiBvZiBteSBsaWZlIGZvciB0aGUgcGFzdCBmZXcgbW9udGhzLCBoZXJlIGl0IGlzLCBpbiBhbGwgaXRzIGxhY2stbHVzdGVyLiBKdXN0IGltYWdpbmUgaGF2aW5nIHJlYWQgaXQgYSBodW5kcmVkIHRpbWVzIGluIGEgcm93Lg0KDQpJIHdva2UgdXAgdGhpcyBtb3JuaW5nLCBoaXR0aW5nIHRoZSBzbm9vemUgYmFyIGEgZmV3IHRpbWVzIHdoaWxlIHRha2luZyBlYWNoIG5pbmUgbWludXRlIGhpYXR1cyBpbiBiZXR3ZWVuIHRvIGRyZWFtIG9mIG9kZCBzaXR1YXRpb25zIGFuZCBGcmV1ZGlhbiBoaW50cy4gSSBmaW5hbGx5IHJvbGxlZCBvdXQgb2YgYmVkIGFuZCBjaGVja2VkIG15IGUtbWFsLCBkZWxldGVkIHRoZSBzcGFtIGdvdCByZWFkeSBmb3Igd29yay4NCg0KV29yayBkcmFnZ2VkIG9uLCBhcyB1c3VhbC4gSeKAmXZlIHBlcmZlY3RlZCB0aGUgYXJ0IG9mIHNsZWVwaW5nIGF0IG15IGRlc2ssIGFuZCBjYW4gZG8gc28gZm9yIDMgaG91cnMgb2YgdGhlIGRheSB3aXRob3V0IGJlaW5nIGRldGVjdGVkLiBUaGUgb3RoZXIgNSBob3VycyBJIHNwZW50IGNoYXR0aW5nIHdpdGggY293b3JrZXJzLCBzdXJmaW5nIHRoZSBpbnRlcm5ldCwgYW5kIHRha2luZyAxNSB0byAyMCBtaW51dGVzIHRvIGFjdHVhbGx5IGNvbXBsZXRlIHRoZSB3b3JrIEnigJlkIGJlZW4gYXNzaWduZWQuIERvbuKAmXQgZ2V0IG1lIHdyb25nOyBJ4oCZZCBsb3ZlIHRvIGJlIHdvcmtpbmcgZm9yIHRoZSBtYWpvcml0eSBvZiB0aGUgZGF5LCBlbmdyb3NzZWQgaW4gbXkgd29yayBhbmQgZmVlbGluZyBhIHNlbnNlIG9mIGZ1bGZpbGxtZW50LCBidXQgaWYgaXRzIG5vdCBtZXRlZCBvdXQgaW50byBzbWFsbCBiaXRzIG92ZXIgYSBsb25nIHBlcmlvZCBvZiB0aW1lLCBJIGZpbnNpaCBpdCB0b28gcXVpY2tseS4gSSBlbmQgdXAgd2l0aCBub3RoaW5nIHRvIGRvIGZvciBkYXlzIG9uIGVuZCwgYW5kIGdldCBpbiB0cm91YmxlIGZvciBub3QgbWFraW5nIGFueSBwcm9ncmVzcyBpbiB0aGUgdm9pZC4NCg0KQWZ0ZXIgd29yayB3YXMgdGhlIHNjaGVkdWxlZCBleGVyY2lzZSByb3V0aW5lLiBJIHJvZGUgYSBzdGF0aW9uYXJ5IGJpa2UgZm9yIDQwIG1pbnV0ZXMgYW5kIHJlYWQgbWFnYXppbmVzIG9yIFJlYWRlcuKAmXMgRGlnZXN0LiBUaGVuIEkgZGlkIHNpdC11cHMgYW5kIHB1c2gtdXBzLCBhbmQgd2VudCBob21lLiANCg0KQXQgaG9tZSBJIGdyZWV0ZWQgbXkgZG9nLCB3aG8gaGFkIGEgZml0IG9mIGV4Y2l0ZW1lbnQgdGhhdCB2ZXJnZWQgb24gYSBtYXNzaXZlIHNlaXp1cmUuIEFmdGVyIHRha2luZyBoaW0gZm9yIGEgd2FsayBJIGhhZCBhIGhlYWx0aHkgZG9zZSBvZiBDYXJ0b29uIE5ldHdvcmsgYW5kIGNvbXB1dGVyIGdhbWVzIHVudGlsIHByaW1ldGltZSwgdGhlbiBpZ25vcmVkIGEgcHJpbWV0aW1lIHNob3cgd2hpbGUgcGxheWluZyBtb3JlIGNvbXB1dGVyIGdhbWVzLiANCg0KSSBnb3QgYSBjYWxsIGZyb20gbXkgc2lzdGVyLCBhbmQgd2UgdGFsa2VkIGFib3V0IHJhbmRvbSBmYW1pbHkgY3JhcC4gSSBjYWxsZWQgbXkgZnJpZW5kIGZyb20gVkEgYW5kIHdlIHRhbGtlZCBhYm91dCBFdmVycXVlc3QsIHRoZW4gSSB3ZW50IHRvIGJlZC4NCg0KV2FzaCwgcmluc2UsIHJlcGVhdC4NCg0KT24gVGh1cnNkYXlzIEkgZ28gdG8gYSBjb2ZmZWUgc2hvcCBhbmQgbWVldCBhIHNtYWxsIGdyb3VwIG9mIHBlb3BsZSBmb3IgaWRsZSBjaGF0dGVyIGFuZCByb3Nld2F0ZXIgbGVtb25hZGUuIFRoZSB3YWl0cmVzcyBpcyBjdXRlLiBPbiB0aGUgNHRoIFNhdHVyZGF5IG9mIGV2ZXJ5IG1vbnRoIEkgZ28gdG8gYSBnb3RoIGNsdWIuIExhdGVseSBJ4oCZdmUgYmVlbiB3b3JraW5nIG9uIG15IHNvY2lhbCBza2lsbHMsIHNvIEnigJl2ZSBzdGFydGVkIGNoYXR0aWcgd2l0aCBwZW9wbGUgYXQgdGhlIGJhciwgYW5kIEkgZmVlbCBJ4oCZbSBtYWtpbmcgcmVhbCBwcm9ncmVzcy4gV2VkbmVzZGF5cyBJIHdhdGNoIFNtYWxsdmlsbGUgb24gV0IsIGJlY2F1c2UgaXRzIHN1cGVybWFuLCBhbmQgSeKAmW0gYSBnZWVrIGxpa2UgdGhhdC4gU2F0dXJkYXlzIGFuZCBTdW5kYXlzIEkgc2xlZXAgaW4sIGxvdW5nZSBhcm91bmQgdGhlIGhvdXNlIGFuZCBnbyBzaG9wcGluZyBmb3IgbWlub3IgaG91c2Vob2xkIGl0ZW1zIG9yIGdyb2Nlcmllcy4NCg0KVGhpcyBpcyBteSBsaWZlLiBJ4oCZbSBoYXBweSB3aXRoIGl0LCBidXQgSSBkbyB3YW50IGZvciBzb21ldGhpbmcgbW9yZS4gSWYgYW55b25lIGNhcmVzIHRvIHRocm93IGEgd3JlbmNoIGluLCBpdCB3b3VsZCBiZSBhcHByZWNpYXRlZC4="
+"eventtime","2004-10-26 09:10:00"
+"url","http://lostchance.livejournal.com/22524.html"
+"userid","9186"
+"itemid","85"
+"event","What is the nature of good and evil? How do we define them in terms of measurement?
+
+I'd like to know how evil I am. I know that if judged by popular culture, the essence of my being would be considerred evil. I don't know how evil, but I'm sure it would in fact be evil. Not good.
+
+I don't realy feel like getting into the hows and whys of my evil nature, just rest assured I am evil. I'm generally not dangerous, because most of anything that I could do which would be dangerous to another person is illegal, and I have no desire to go to jail. So I ""act"" good. I don't know if ""act"" is the right term. I suppose ""behave"" would be more accurate.
+
+I have no value in human life per-say. My friends I care about. Pets I care about too. Some family. Not much in strangers, and least of all, myself. I don't value my life. I don't want to end it, don't get me wrong, but if it did end, oh well. Death is not a fear for me, and I would have no trouble facing it for a cause I saw as worthy.
+
+I have what I care about, and in cases regarding those few instances, I'm tenacious in my protection and consideration. I am tenacious in fact, to the disregard of all else. My friends think of me as the most reliable friend they have ever had. I'm the guy you'd call if you really needed some one to help you move... bodies. I fix things. I take care of things. All I need is a reason. If there's a solid reason, I'll do whatever is needed to help a friend.
+
+People aren't always people to me either. Sometimes they're scenery. Sometimes, I can't bother attempting to realize how each and every person in the world is equal and has family, feelings, rights, blah blah blah. Sometimes, people are just animals in clothes, and I can't be botherred offerring them a second thought.
+
+I don't know anyone like me. I never met anyone whose moral compass was absent, whose sense of justice was so selective, and whose self-preservation was secondary. It makes me wonder...
+
+If I had to choose between a steady, good hearted, good natured person or me to be my friend in a time of need, who would I choose?"
+"eventtime","2004-07-01 02:14:00"
+"url","http://lostchance.livejournal.com/21989.html"
+"userid","9186"
+"itemid","84"
+"event","At some point during each and every day for the last 6 years I've reminded myself the same thing: I kill people for money.
+
+The rest of my day is mostly filled with sleep, cartoons, idle conversation, and fantasizing about sex."
+"eventtime","2004-06-19 02:46:00"
+"url","http://lostchance.livejournal.com/21702.html"
+"userid","9186"
+"itemid","83"
+"event","I hate that time only moves one direction. I always want it to be a certain day in the future, but of course getting there requires the expenditure of all the days between then and now. Its terribly unfair. Time should slide in both directions. Then I could hope for it being three weeks ago or last year or the last day I got laid.
+
+Next week I'm gonna go somewhere for something. I don't wanna get more specific cause I have no clue whats going to pan out and what won't. I've been getting too emotionally vested in the antics of some online gamers and its biting me in the ass. They're part of what I'm doing next week. So is my just-found-out-she's-pregnant friend, and a horny chick who swears she wants me bad. And maybe a Kazoo, cause those are fun.
+
+I want to say something important, but my beliefs betray me. I try to believe that nothing is really important, that things happen and its life, and we should find our own best ways to make it from day to day. So all that has happened to me in however long has happened, and I have no great revelations or life-changing epiphanies, because, those are just matter of opinion. Minor delusions. But delusions can be good. I like the ones where I'm a superhero.
+
+It would be nice if everyone was more like me. Not in interests or personality quirks, because that would be hell on earth, but in manner and respect for eachother, that would be good. Live and let live, do what you want in your own worlds but leave other people's worlds alone. And if it's you're thing to mess with other people's lives, then be prepared for them to defend their own little illusion of heaven with semi-automatic weapons.
+
+Seriously. That would be great if you were allowed to shoot people who tried to impress their opinion on you. Hi! can I speak to you a moment about our church? BLAM! Gay and biracial couples are just wrong! BOOM! You're treating life like its an inconvenience, abortion is MURDER! TAK-AK-AK-AK-AK!!!! (AK-47s are good for crossing picket lines)
+
+The Nation of Islam teaches that the west is corrupt and needs to be brought to righteousness by impoverished peasants trained to be suicide bombers who are promised 77 virgins in the afterlife....
+
+nuke.
+
+Ah.... that little mental masturbation should get me thru the week."
+"eventtime","2004-05-12 00:18:00"
+"url","http://lostchance.livejournal.com/21447.html"
+"userid","9186"
+"itemid","82"
+"event","So, say you're an evil psycopath supervillian... What do you do?"
+"eventtime","2004-05-11 23:58:00"
+"url","http://lostchance.livejournal.com/21149.html"
+"userid","9186"
+"itemid","81"
+"event","So, its been almost 2 months, time to make a post.
+
+I moved to North Carolina in September.  It wasn't long after that I started becoming close friends with a woman I work with. I was attracted to her, though she wasn't what I usually wanted in a girl. We had everything in common. Unfortunately we work together, and worse, she has a boyfriend in New York. So we were friends, and thats all.
+
+I won't go into the details, but I did something foolish, as I always do. Well meaning... but foolish. So we stopped being friends. Actually, she said she couldn't be my friend anymore.  This I expected. But after time to think it over, and let emotions cool, I expected she'd want to apologize. I would do the same, and we'd resume our friendship, in the least. 
+
+She never came around. After being as close as we were, I felt entirely snubbed by her regarding our friendship as so easily dissmissable.
+
+Since then its been an especially unsocial time for me. She's very popular at work, and my co-workers gravitate to her, and I was bumped from the click. This also struck me as thoughtless, if not meanspiritted. That not being bad enough, the few attachments I wanted to keep from VA have been snubbing me as well. 
+
+I do have a lovely puppy who's been keeping me up in platonic affection. He's a sweetheart, and a big wuss. 
+
+So right now, I'm very sick, and as usual, illness is giving me trippy dreams, reminding me of all my ex's and ones that got away. Its a solemn time in my apartment lately. But I'm not unhappy. This is a transition time, and it will pass."
+"eventtime","2004-04-11 03:35:00"
+"url","http://lostchance.livejournal.com/20810.html"
+"userid","9186"
+"itemid","80"
+"event","T25lIG9mIG1hbnkgdGhpbmdzIEkgc2FpZCBJJ2QgbmV2ZXIgZG8uLi4NCg0KSSBzaXQgaW4gYSBvbmUtcm9vbSBhcGFydG1lbnQNClNvIGZ1bGwgb2YgdGhpbmdzDQpUaGV5IG1lYW4gbm90aGluZy4NClRoZSBzaWxlbmNlIHNsb3dseSBlYXRzIGF3YXkgYXQgbWUNCkl0IGRvZXNu4oCZdCBjaGFuZ2UNCkV2ZXJ5dGhpbmcgaGFzIGNoYW5nZWQNCg0KV2hlbiBJ4oCZbSBsYXlpbmcgaW4gYmVkIGF0IG5pZ2h0DQpJIHN0aWxsIHRoaW5rIG9mIHlvdQ0KQW5kIEnigJltIGhvbGxvdyBpbnNpZGUNCllvdXIgdm9pY2UgY2FuIHN0aWxsIGVjaG8gaW4gbXkgbWluZA0KSXQgbWFkZSBtZSBoYXBweQ0KQnV0IHlvdeKAmXJlIHNjcmVhbWluZyBhdCBtZeKApg0KDQpXaGVuIEkgd2FrZSB1cCBJIG5lZWQgdG8gcmVtaW5kIG15c2VsZg0KSeKAmW0gYWxvbmUgYWdhaW4NCkJ1dCB5b3Ugd29u4oCZdCBsZWF2ZQ0KSSB3YW50IHRvIGdvIGJhY2sgdG8gc2xlZXAgYWdhaW4NCkJ1dCB0aGUgZHJlYW1zIGFyZSBnb25lDQpJdOKAmXMgYSBuaWdodG1hcmUNCg0KVGltZSBjYW4gaGVhbCBhbGwgd291bmRzIHRoZXkgc2F5DQpNYXliZSBub3QgdGhpcyBvbmUNCkl0IG1heSBjdXQgdG9vIGRlZXANCkkgbmV2ZXIgbWVhbnQgdG8gbWFrZSB5b3UgaHVydA0KQnV0IGl0IGhhcHBlbmVkDQpBbmQgaXTigJlzIGtpbGxpbmcgbWUNCg0KSSB3b3VsZG7igJl0IGNoYW5nZSBhIHRoaW5nIEkgZGlkDQpJIHJlZ3JldCBpdCwgYnV0IHRoYXTigJlzIHdobyBJIGFtDQpJ4oCZbGwgbmV2ZXIgYmUgYSBiZXR0ZXIgbWFuDQpJIG1heSBoYXZlIHRyaWVkLCBidXQgSSBhbHdheXMgZmFpbA0KSSBtYXkgbG92ZSBhbmQgY3J5IGFuZCBmZWVsIHlvdXIgcGFpbg0KQnV0IEnigJltIG5vdCBhIG1hbiwgDQpJ4oCZbSBhIGN1cnNlDQpJ4oCZbSBhIGJsaWdodA0KR2V0IGF3YXkgZnJvbSBtZQ0KUnVuIGF3YXkgZnJvbSBtZQ0KDQoNClJlYWN0aW9ucz8gSW1wcmVzc2lvbnM/IENyaXRpY2lzbXM="
+"eventtime","2004-02-13 14:30:00"
+"url","http://lostchance.livejournal.com/20561.html"
+"userid","9186"
+"itemid","79"
+"event","The downfall of improving your quality of living, is the way it brings to light the smaller inequities in one's life. For a long while I've cried foul on my work, my co-workers and my supervision. Now I enjoy my job. My supervision cares about me and is whole heartedly working in my best interest. 
+
+I moved away from a suburb with no city. It was a rat hole, and I resided in a cheap apartment surrounded by tenants who couldn't make steady enough rent payments to stick around more than a few months. Now I live in a pleasant area, with decent neighbors. There's a pool, a raquetball court, even an area for my new puppy to run around and get exercise.
+
+All is going well. Maybe for the first time in my life do I have such stability, saftey, and quality of day to day exsistance. Though I should be happy, I find myself suddenly bound to one facet of my life. One fault stings in my side, and grows daily.
+
+I'm alone.
+
+Alone, and not without torment. There are three women in my life who would be significant others, if not for only some small thing that holds it all back, holds me down. Its not as though they are untouchable. Every day there is some circumstance brings them closer to the window pane that separates me from each of them. Every time I communicate with them, there is some detail that becomes more apparent, some small happenstance that makes them all the more attainable. Yet, they remain behind the sheet of glass. Perfectly visible, but painfully beyond my reach."
+"eventtime","2003-12-17 03:41:00"
+"url","http://lostchance.livejournal.com/20371.html"
+"userid","9186"
+"itemid","78"
+"event","<center><table border=""0"" style=""border: 1px black solid; width: 90%""><tr><th><a href=""http://www.corknut.org/toys/trickortreat/"">My LiveJournal Trick-or-Treat Haul</a></th></tr><tr><td style=""border-bottom: 1px black dotted"">lostchance goes trick-or-treating, dressed up as Ring Wraith.</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/annabelleleigh"">annabelleleigh</a> tricks you! You get a wet rag.</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/bi_butterfly"">bi_butterfly</a> tricks you! You get an evangelical pamphlet.</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/blacksweater/"">blacksweater</a> gives you 10 light yellow grapefruit-flavoured nuggets.</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/evilkitty21/"">evilkitty21</a> tricks you! You get a dead frog.</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/lintilla/"">lintilla</a> gives you 2 brown watermelon-flavoured gumdrops.</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/lyeta/"">lyeta</a> gives you 3 pink grape-flavoured wafers.</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/ophilia/"">ophilia</a> gives you 7 red-orange blueberry-flavoured gummy bears.</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/pinkstatik/"">pinkstatik</a> tricks you! You get an old sock.</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/silverraze/"">silverraze</a> tricks you! You lose 11 pieces of candy!</td></tr><tr><td style=""border-bottom: 1px orange solid""><a href=""http://www.livejournal.com/users/thelastwonkabar/"">thelastwonkabar</a> tricks you! You get a broken balloon.</td></tr><tr><td style=""border-bottom: 1px black dotted"">lostchance ends up with 11 pieces of candy, a wet rag, an evangelical pamphlet, a dead frog, an old sock, and a broken balloon.</td></tr><form action=""http://www.corknut.org/toys/trickortreat/index.cgi"" method=""post""><tr><td style=""text-align: center"">Go trick-or-treating! Username: <input type=""text"" name=""username"" size=""10""><input type=""submit"" value=""Let's Go!""></td></tr></form><tr><td style=""font-size: xx-small; text-align: center"">Another fun meme brought to you by <a href=""http://www.livejournal.com/users/rfreebern/""><b>rfreebern</b></a>.</td></tr></table></center>
+
+Go for a walk in my garden, and better than half my flowers trick me... I feel so loved."
+"eventtime","2003-10-28 07:53:00"
+"url","http://lostchance.livejournal.com/20113.html"
+"userid","9186"
+"itemid","77"
+"event","I know me pretty well. Some things I'm not sure of, but for the most part I know who I am. I also know that if I met someone just like me, I'd hate them. I'm not sure if I'd hate the person or the competition more. Oddly enough, I like me. I don't love me, but I like me.
+
+I wonder if I'm evil. Not so much wonder, but believe that I probably am. At least by society's standards. Usually I wouldn't hurt a flea. Really. Bugs I'd rather blow away or flick off than squash. Animals like dogs and cats I'm extremely gentle with, most of the time. These are all half-hearted statements because I also know, on a whim, I might just as easily kill anything I chose. A person would probably be the easiest. 
+
+Human beings give me so many reasons to hate them, as a race or individually. I seethe with hate for mankind. I imagine hundreds of times a day tearing someone's head off, breaking their neck, or just shoving them out into traffic. I don't because I'm scared. I'm scared I'll get caught. I'm scared I'll go to jail. I'm scared I'll be trapped. What's worse are the other things I imagine. Doing things that are illegal, immoral, downright disturbing... to you. They're my fantasies. Actions I want to take against other people because it would give me joy. Again I don't, because I'm scared.
+
+Does this make me insane? Psychopathic? Perhaps not until I act. But how far away is that line I'd need to cross? I haven't lost my temper in my adult life. I believe if I did, the fear would leave and I'd kill. And in the face of that, I'm not worried I'll lose it. I'm not scared someone will push me too far. Part of me hopes it will happen, so I can liberate this anger. I want to set my wrath on someone. My rational mind won't allow it, so my id hopes that someday, my irrational mind will win out. And even now, I salivate at the thought.
+
+I hate with a passion. I love just as strongly. I'm sure it inter-mingles. I know with those who I have civil relationships I attempt to manipulate. I control. I don't see how I could avoid it. When I speak I calculate the possible impacts of my words. I only speak the words and phrases I believe will return the best results. Most of the time it's the truth, how ever spun it may be, it's truth. I do speak lies at a lesser frequency. I used to lie as often as I breathed, but I've done some work to change that. Is there a difference between telling a lie, and telling the truth in such a way as to elicit the same reaction? Which is easier? Which is less immoral?
+
+I do what I do because I know no judge. I suppose others would have a god to decide what is right in the realm of the mind, but I have no such belief. All there is is me. All I have is my own judgment. I'm bias. What I am is the product of my decisions for the last decade or so. I don't include my childhood, because those desires were not decisions, and they were mis-informed at best.
+
+I know there is some good in me, though only the lucky few get to experience it. I protect those close to me with fervor. I help them to the pain of my own existence. I know that more likely the beast in me will be unleashed by pain to them more likely than pain to me. I'd  suffer myself much more than I'd let suffer a friend. Is that a trait of an evil heart?"
+"eventtime","2003-09-21 01:56:00"
+"url","http://lostchance.livejournal.com/19903.html"
+"userid","9186"
+"itemid","76"
+"event","How can you tell the difference between megalomania and intuition? Great siprits in history at some point had to know they were destined to be giants. All the same, there are plenty of folk who believe they're destined for greatness, and never make it past cable access shows. Some end up in institutions.
+
+I can't shake this feeling that I need to do something important. Some part of my psyche won't let go of the idea that I MUST make a difference. Not an organize a local food drive difference, but a turn the world on its ear difference. The rest of me questions this. I don't have the motivation, the ambition... I'm above average intelligence, but no earth shattering genius. I'm charismatic enough to make a good impression on a few women, but I doubt I could lead any large group.
+
+It still there. No matter how I doubt it, it won't go away. The little voice in my mind telling me to prepare myself. The shove in my back pushing me forward, as though I couldn't make it to tomorrow without some guidance, or help. I don't belive it, nor can I deny it.
+
+I suppose I should invest in a straight jacket, just in case."
+"eventtime","2003-09-16 22:45:00"
+"url","http://lostchance.livejournal.com/19531.html"
+"userid","9186"
+"itemid","74"
+"event","I am continuously in denial of the fact that I am getting stronger with age. Not emotionally or mentally or anything so meaningful... just physically stronger.
+
+I look in the mirror and my upper body is just getting bigger. I haven't done any type of workout in months and when I tried doing push-ups I did more than I had 2 months ago, when I was working out regularly. Things I lift or move keep getting lighter, people I ever rough-house with keep getting weaker. Am I exercising in my sleep? Am I willing myself to be more ""buff""?
+
+In other news, The idea of moving bores me. The need to methodically prepare all of my belongings for transport is mentally painful. I dun wanna. So slowly I'm organizing. It's got to be done I suppose. The movers arrive on the 3rd. From all I'm told I must watch them like a hawk, and take pictures of all of my appliances working. Apparently the military hires con-artists and thieves to move their members belongings. This is what I get for free.
+
+I'm really lonely. When I move I don't know how I will adjust to the new surroundings. I can't forsee how the new area will affect who I date, who I meet, and so on. The one person I cared about here has left me hanging, and I'm not sure how to process that either. Part of me knows this is how she is, and part of me wants to believe it's not. 
+
+(side note: I find it terribly disturbing that if I get married I'll have to deal with an entirely new family as though it were my own. I can't stand my flesh and blood, so this terrifies me.)"
+"eventtime","2003-08-23 06:56:00"
+"url","http://lostchance.livejournal.com/19026.html"
+"userid","9186"
+"itemid","73"
+"event","Monday night I had an unusual instance of intellectual insight. I finally understood Einstein's theory of relativity, in its finer points. Also; finally comprehending why faster than light travel is impossible was an unexpected plus. I was so excited! I had to get up. I wanted to tell my houseguest all about it, but the wild look in my eye and the instances of me muttering to myself seemed to unsettle her. 
+
+I jotted down some notes I plan to research later. It was an original thought for me, but I'm sure someone else has made the same conclusion. It was exciting to be that energized by the sudden understanding of such a concept. Einstein is so simple... but releasing preconceptions are more than necessary to comprehend his logic. Like not being able to fathom how a child can move from one statement to another, when in their simple minds its common sense to follow such a train of thought.
+
+On another note, concerning my houseguest... I'm not sure turbulent is a violent enough word to describe her time here. I've made an effort to give her firm grounding, a place away from pressures and opinionated friends and family so that she might find her own perspective. Instead she spent all her time receiving phone calls from friends, ex's and her new insignificant other. Yes, I dislike him.
+
+It seemed as though the most of the difficulties were past us, and after running a few errands this morning I dropped her off at her grandmother's house so she could help the little old lady at a doctor's appointment. I told her I wanted to go out to eat for dinner, and take in a movie we wanted to see that night. She nodded sleepily, and I figured I'd most likely receive a call from her around 4-5pm to pick her up again. 
+
+My figuring skills in advanced physics and human female apparently have a sizeable disparity ratio. I got a call at 6pm, in which she asked me if I'd told her ex to call her grandmother's, to which I said no. Then I told her we should try and start out for the evening soon. She told me that her laundry there wasn't finished. I conceded and we hung up.
+
+At 9 o'clock, I decided I was too hungry to wait any longer, and since her grandmother's phone had been busy for the past hour I'd just stop by there on my way to get some food. As I pull up she's walking out, cordless phone in hand talking to her current beau as he pulls up to the house with impeccable timing. She doesn't even say hello. She doesn't explain why he's here from 80 miles away. She hugs him. Talks to him and takes no note of me while I'm eating the rest of my dinner.
+
+We all go inside, I ask her, ""What's going on?"" Her response is ""What do you mean?"" and this is the only statement she makes directly to me in the span of my 20-minute visit. I leave. I expect her to call and tell me what her plans are, considering I have her dog's food dishes and other random effect still in my apartment. At 4am I was still awake and bored, so I went out for a ride, passed by the house, and saw the boyfriends vehicle was gone. She'd left. I'm dumbfounded."
+"eventtime","2003-08-20 06:19:00"
+"url","http://lostchance.livejournal.com/18869.html"
+"userid","9186"
+"itemid","72"
+"event","Solitude. 
+
+How strange yet fitting I find that as a synonym for ""Unique"". (yes i know they're not even the same part of speech)
+
+A strange combination of illness, time away from work, a death in the family, and a perceived abandonement came together so un-expectedly. I cut myself off from communities sometimes. Personal decisions or desires push me down roads less travelled. I enforce my own isolation sometimes. I believe true individual thought can only be made without any outside influences what-so-ever. Sometimes I want that.
+
+""A yellow road diverged in a wood, and I took the path less travelled by, and that has made all the difference."" 
+
+How many times have I heard that line referenced? So many people believe themselves ""path less travelled"" persons. A society of individuals. But if there were only two paths, and the road less travelled was more often chosen... What fate would befall the better worn road, that has so much less traffic these days?
+
+I wonder sometimes if Solitarity and Solidarity were meant to sound so similar. Only one letter of difference, perhaps only one degree of seperation.
+
+One stone alone on a field is so much more anchored than the one atop a hill of shifting rocks."
+"eventtime","2003-04-29 10:27:00"
+"url","http://lostchance.livejournal.com/18572.html"
+"userid","9186"
+"itemid","71"
+"event","I'm never going to war. I'm a computer programmer for the Air Force, and unless we get so desperate as to start throwing keyboards at the enemy, I'll never see the front line.
+
+I knew this when I joined. In my mind I had some distant thought about wearing a helmet and a flack vest, running with an M-16 in my hand... but it was only a thought. I knew that I'd sit in an office, for the most part, clicking away while reading manuals and surfing the net. But I'd really like to shoot someone.
+
+Even if I was out there on the front, I'd never see action. I know guys who have gone, and what war was it is no longer. The movie ""Three Kings"" is pretty accurate up to about 30-40 mins in. Processing prisoners of war, maybe shooting one guy by accident. Mostly, any deaths will be caused by a bomb dropping from a few thousand feet up, and those who push the button will never see the faces of those they kill.
+
+Something in me wants to see those faces. Something in me tells me I should have been in the trenches in WWI&II. Something in me is that violent monster that desires having the blood of the enemy on my hands. (not literally)
+
+Maybe its my mix of psycosis talking. Its not video games or TV or any of the media that gets blamed. I think its a bit of old human/inhuman nature. Some of that want that got paved over by civilization. In any case... I won't be going to war."
+"eventtime","2003-02-28 12:44:00"
+"url","http://lostchance.livejournal.com/18367.html"
+"userid","9186"
+"itemid","70"
+"event","Well, I have something to talk about. My gf broke up with me.
+
+Its been almost 5 mos since we met. At times we were inseparable... I should have seen what was coming since in the past few weeks we've barely spent any time together. Valentines Day was the exception... but it wasn't like it used to be. She doesn't smile. I can't look past her lack of attention or affection towards me, and the arguements never stopped. I didn't think it would end so soon.
+
+She asked for a ""break."" Some time to think about what she wants from the relationship. I don't think that's going to result in reconciliation and us being together again. She still wants to be friends, in the mean-time.
+
+I don't know how that works. How do I sit next to her and not want to hold her? How can I be her friend and not want to be her boyfriend? I'd always play with her hair and lay my head on her lap, and kiss her in the cheek or on the top of her head, but now... What can I do?
+
+I'm not happy."
+"eventtime","2003-02-19 07:04:00"
+"url","http://lostchance.livejournal.com/18034.html"
+"userid","9186"
+"itemid","69"
+"event","I don't know if I will be posting anymore.
+
+Somehow LJ just hasn't held the signifigance to me it once did, and its hard enough to even check up on my garden, let alone tend to it.
+
+You're all strong and beautiful flowers, and I know you'll survive the coldest winters and the most painful heats. Perhaps I may come back to til your soil again, but until that time, I'll be watching from my window, enjoying the view every now and then."
+"eventtime","2003-02-03 07:32:00"
+"url","http://lostchance.livejournal.com/17900.html"
+"userid","9186"
+"itemid","66"
+"event","Generalizations and Stereotypes. Discrimination. Prejudice. Apathy. Fear. Hate.
+
+People love to hate these words. Terms that live in the media and ready themselves in the mouths of activists and liberals to be fired at the slightest provocation. They're horrible terrible things. Actions and thoughts that destroy the sanctity of human rights, freedom and common decency amongst men... and women. Children too. Crap I forgot infants as well. And fetuses... oh and some people will add animals, can't forget animals.
+
+We've all touched a hot surface. It burns. The action brings a pain that lasts. The pain is terrible. Its uncomfortable. Its bad. But it teaches us something. We learn to be wary. We learn to be careful. We suspect. We deliberate. We take precautions. I will still reach my hand into a fire to turn a log. But I do it because I know I can. I touch the log with an understanding of the danger and the possibilities. I don't fear the pain, I fear my ignorance of it.
+
+Those words describe and quantify things that burn. Ideas and actions that leave scars on us for life. But they exsist. Humanity didn't invent them like the fire didn't invent the heat. They are a function of what we are. A dangerous function which we must learn to control, but can't expect to disregard. They have their part in who each of us are, and we must learn to live with that, not work towards living without it.
+
+Tell me not how to think or how to act because you do not agree with me, for it is likely I do not enjoy being told to be you."
+"eventtime","2002-12-06 08:33:00"
+"url","http://lostchance.livejournal.com/17142.html"
+"userid","9186"
+"itemid","65"
+"event","Midnight Thanksgiving
+
+Me: Every time I have my fortune read they tell me that I'm gonna be a leader of many people. 
+Friend: Yeah? Cool.
+
+Friday Afternoon
+
+Friend: I told my wife about you being a leader of many people.
+Me: Yeah?
+Friend: Yeah. She said you're gonna be a pimp.
+Me: oh."
+"eventtime","2002-12-02 07:49:00"
+"url","http://lostchance.livejournal.com/16690.html"
+"userid","9186"
+"itemid","64"
+"event","I had a short conversation with <lj user=""fingertiptouch""> last night about my last entry. The focal point of the instant message was the list of qualities I evaluate in a prospective love interest. She was concerned I was devaluing the experience of an emotional connection by making pre-requisites that might exclude some wonderful people from ever getting close to me. I really don't think of my judgements as absolute rules as much as guidelines. Things that I try to remind myself I'm looking for.
+
+On the other hand... I am an intelligent, attractive and sensitive person. Avoiding conceit at all costs, I do still think of myself as an above average catch. Shouldn't I be allowed to request equal attributes in a significant other? There are so many beautiful women in the world. Is it insensitive of me to want my future gf/wife to be attractive to me? I wouldn't even want to be with a women who didn't find me physically attractive. I require equal mental stimulation. I hope to have children to explain things too... I don't want to have to do the same with their mother. Yes I'm picky. Yes I have standards. But with the effort I've put into being who I am, and making sure I'm worth another person's affection, isn't it fair for me to have a few specific requirements of the person I plan to spend my life with?"
+"eventtime","2002-11-21 10:16:00"
+"url","http://lostchance.livejournal.com/16635.html"
+"userid","9186"
+"itemid","63"
+"event","I've had the desire to create recently... I've been feeling it inside me, building, and I want to write or draw or in some way push it out. But I can find no direction for it, and I know that soon it will be gone. There are so many stories I've started and never finished. Paths into places I never explored, even though they were nothing but a dream away. Half of me is scared that what I do create will be no good. I know I've written excellent stories in my time... if any of you could only have seen the volumes of half-written crap. Unsalvageable.
+
+People compliment me on my drawings, but I know its one of those ""I can't draw a stick figure so I'm jealous of anyone who can"" and not a true compliment on honest talent. Most of my drawings suck... at best they're decent reproductions of an image, but I don't think I've ever really captured anything. I still haven't found my own style. Every time I look at anything I can pick apart the drawing and say where everything came from... this nose is just like that manga I saw, and the form of the body is all Campbell. I hide hands in fists and ears behind hair. Even if I wanted to draw something seriously good, I wouldn't have the patience to sharpen the pencils every 5 mins or go out and get the high quality paper and pens.
+
+I even did some paintshop stuff, alterring images and making graphics for some friends. I felt so creative, and I did it all rather well... Sometimes I just find that muse that makes it all work in my head. The conduit I need to create. Just like human procreation I need an accomplice to make anything. I need someone to inseminate my mind, so that I can give birth thru my hands. As hard as I try I can't so it alone.
+
+I think I'm a fairly decent singer. I've been complimented on my speaking voice more than once. A few girlfriends I was really close to got to hear me sing regularly. I remember my high school girlfriend saying she wouldn't talk in the car because she knew if it was quiet long enough I'd start singing to the radio, and she liked to hear me. An ex-fiancee would beg me to sing a few songs to her before we went to sleep together. Its not that they were excessively kind... they were both actually pretty abusive in their own ways, so knowing that they really did enjoy hearing me sing was no empty sentiment.
+
+My creativity is almost entirely tied to women in my life. Anything original was inspired by a girl. I've made parodies of things with guy friends. Jokes and such... but to really express myself I need a woman. Codependant. I want you to want me, I need you to need me.
+
+I'm so picky. Maybe its good in the long run, but I'm tired of reminding myself why every girl isn't good enough. Too heavy and too stupid are recurring favorites. The shape of the mouth or straightness of teeth, the style or texture of hair, sense of humor, personal views (or more importantly the reasoning behind those views), manner of speech, lack of talent, and so on... there must be a million things I weigh on my personally skewed scales. When all is said and done, I see that the girl I want would most likely be a better person than I am. But I wouldn't be happy with anything less.
+
+I'm very much alone, and I don't see any immediate remedy for it. All I can do is wait, and hope time has something in store for me."
+"eventtime","2002-11-20 07:54:00"
+"url","http://lostchance.livejournal.com/16268.html"
+"userid","9186"
+"itemid","61"
+"event","Optimism. I consider myself an optimist. I figure things will change and life will go on. But things don't always work out. The odds that circumstances will right themselves, in your favor, are not very promising. Mostly I consider the universal idea of the situation. Sort of a ""Oh well, if I get killed it will probably be better for the universe as a whole"" type of thing. Not that I'm all up on dying.
+
+It drives me crazy when people will play the chipper friend part and try telling me ""everything will be alright"", ""things have a way of working out for the better"", and so on. Hearing that over and over again... I dunno. Its like thinking that a hallmark  ""Get Well"" greeting card will cure an open chest wound. Hearts in the right place, but are you stupid? I really could care less for homogeonized happy feelings and positive outlooks. I know I'll always have my will and personal resolve to lean on, and that makes me believe I can get thru any obstacle I might face. Listenning to someone tell me the little-happy-cherubs-of-fate will intervene to make life better in my darkest hour got old with hearing how santa comes down the chimney and how Jesus loves us all.
+
+I've looked at it from all angles, and love is not something you find only when you're not lookin for it. There are good people out there who never find it. There are bad people out there who find it more than once. Its no garauntee and it won't come when I least expect it any more than when I'm sittting waiting for it. It will or won't happen, and thats that. I can deal with that. I understand those rules and I'm not gonna whine or cry about em. But when I feel sad or lonely and someone tells me that I'll find someone, it changes that saddness to anger... because I don't want anyone's empty promises. Its so easy for any joe off the street to say ""it will all work out"" and go on his merry way with the warm fuzzy he made a difference. Well, I think its selfish. Way to feel good about yourself at the expense of my frail hopes and desires.
+
+I'm an optimist. I'll get thru the hard times and the rough roads... I always have. I never had a carebear hold my hand or a smiling pixie lead the way. I do it on my own or with friends who understand I need them, not their words."
+"eventtime","2002-11-15 11:02:00"
+"url","http://lostchance.livejournal.com/15799.html"
+"userid","9186"
+"itemid","56"
+"event","I remember when I was younger I used to talk over everyone. Use words they didn't understand in contexts they couldn't comprehend, because I thought if I did, they'd be at a loss to make fun of what I say, since they couldn't understand me. When I started taking french I adopted words and phrases out of that language and added them into my vernacular. Before long I could speak sentences that made perfect sense to me and to no one else. People just made fun of me for being weird, and I was ostracized an increment further.
+
+I wonder now, what the point of speaking with such diversity and flourish is worth. I can understand it in written word, for the sake of literature, but in common dialogue, do these words have any purpose? Perhaps if you and a friend were both equally gifted in your vocabularies, you might enjoy sharing an extremely language-eccentric conversation, but why? Those words only sound as powerful in the voice of a dignified orator. Most voices I hear on a regular basis butcher the eloquence inherent in more refined speech. Aside from the beauty in the sound, which would be rare to find two or more such expert elocutionists, the only benefit I could find is the self satisfaction of feeling more refined and intelligent than those who could not understand you. Isn't that arrogance? What reason is that?
+
+So I speak fairly plainly. I know all the words. I understand them and use them in my head. Every now and again they slip out, and interrupt the conversation with my need to define them for someone. 
+
+Are they only there for the pen, or were they desined for the tongue as well?"
+"eventtime","2002-11-05 14:53:00"
+"url","http://lostchance.livejournal.com/14387.html"
+"userid","9186"
+"itemid","55"
+"event","I went home for a few days... My parent's home, I should say. Its no longer mine anymore. My aunt lives there now with her boyfriend. They're both in their late 50's, like my father. My mother is in her late 40's, and her mother, my grandmother, lives there too. She's got to be in her 70's by now. My cousin and her two kids were visiting and my neice also spent alot of time there. I visited my brother at college, and drove around my old hometown. All of this made me realise that I can't go home again, not because too much has changed, or so much that too much is the same, but that I was never home there in the first place.
+
+I always felt as thought I should be elsewhere and now that I am, returning to this anchor for even a short time seems painful. The defense mechanisms I had to deal with living there are rusted, and though some still function in reaction to being there, they're either much less efficeint or I'm more sensitive. I really enjoy being on my own. There's so much to being in control and making your own decisions. I may not have a bed, or own a vacuum, but I've lived well without for over a year in my own apartment. I eat and sleep when I wish. I clean or dirty as I please. I don't deal with people I don't like, I don't answer the phone when I'm not in the mood. I can walk around naked, set the AC to freezing or the heat to blazing, and there's nobody to complain.
+
+Its slightly anti-social, but so am I.
+
+In other news the girl I'm seeing has informed me she does not plan to break-up with her bf, so I am officially ""the other guy"". Pfeh. I'm not all excited about it, but it does give me enough distance not to worry about where things are going and such headaches. I'm pleasantly unresponsible. In some ways I suppose this makes me into the ""bad boy"" that I've always hated. Its not so much this is what I want to be, but like most things, its just another niche of society I'll try out for fun. Sometimes you gotta be the bad guy if you wanna learn something. Besides, I'm evil. So what.
+
+Finally... I dunno. Not alot else to talk about. Maybe I'll think of something later."
+"eventtime","2002-11-01 08:40:00"
+"url","http://lostchance.livejournal.com/14219.html"
+"userid","9186"
+"itemid","54"
+"event","I want to add more flowers to my garden... any suggestions?"
+"eventtime","2002-10-07 14:42:00"
+"url","http://lostchance.livejournal.com/13982.html"
+"userid","9186"
+"itemid","53"
+"event","Today is my last work weekend. For 44 days I've been working 12 hours a day, 7 days a week. Most of that time was spent washing fire trucks, mopping floors, cleaning bathrooms, etc... but right now I'm compiling a directory for the tech manuals in my office. It wouldn't be so bad if my head would stop hitting the keyboard every time a pass out from boredom. Starting Saturday I'll be off from work for 19 days. I have no idea what I'll do with those 19 days, but I'll have them to myself... thats all I care about.
+
+All I care about... its unfortunately too true. I've been petting my id recently, bought myself a new TV, cleaned up my apartment and got myself a female friend who's willing to partake in night-time activities. I still don't feel right tho. Just not complete. Sad part is I have no desire to find whats missing. Sort of a laziness and want for it to come to me. My perception has always been outstanding. I can see more in a glance than most notice with a serious inspection. Extra-sensory-wise I've been blessed with the same ability. I do judge people when I first meet them. I'm never wrong, I just feel them and know who they are, what they want and why they want it. I've taken some of the women I know from online, LiveJournal and elsewhere, and judged them quite to their advantage, but only now realize how I've only felt them thru the miles of cable between us. I'm questioning if my sense of them is any better than the sense of a rubber gloved hand touching a surface. The shape is there, but the texture is clouded.
+
+I just want whatever purpose I have in life to come along and state itself. I'm tired of waiting and being unsure. I'm turning sour too. I've noticed I'm only finding real joy when I see my dog or my neice. I love them so much. The thought has come to me that I may want a family just to satisfy my need of purpose... but is that the right reason to want one?
+
+My parents owe me a thousand dollars. I'm thinking of just letting them never pay it off. Just letting them have the money. I don't know why. Its my mother who takes care of finances, and I've never been fond of her. I know either way my father wouldn't care. He'd be just as happy with a collectible $40 truck from a gas station. He's a simple man. Its my mother who needs material possesions to make her happy. Things all over my parent's house. I don't know what I want my house to be like, but I doubt I'd want it to be that big. I have a 2 bedroom apartment at the moment and I haven't even had the desire to buy a bed yet. I've been living there for over a year now. No bed. No shelves. All the furniture I own besides the TV stand are hand me downs, ups and overs. Some might even be considerred stolen. But aside from a couch and a chair in front of my computer, I rearely use any of the rest of it. The poker table, the folding chairs, the two loveseats, and my dresser. Usually I just leave the laundry out on the loveseat in my bedroom (which I never sleep in) and won't get around to folding clothes or putting them away before the next laundry day comes. I have 3 TV's, a DVD player, VCR, Gamecube and N64. I don't even have games for the N64 and I haven't played the gamecube in months. I do however, have a Final Fantasy game for PS but no PS to play it on.
+
+About it being 2 bedrooms, if there is any lady out there who wants to move far away from all friends and live with a stranger quite cheap, let me know. I left my door unlocked so my female friend I referred to earlier could come in while I was at work. When I got home and saw a face in my apartment that was just happy to see me... that was such a good feeling. I don't know if I could deal with alot of drama and hassle, so I'm just looking for a mousey girl who'd have no desire to do anything but live in my apartment, be entertained and taken out by me, and maybe clean or something. I don't want a roomate, I want a pet human. yay me.
+
+My apartment building doesn't allow pets over 35 lbs, and I just don't want a little dog or a cat, so its gotta be a human. House trained preferably."
+"eventtime","2002-10-06 09:41:00"
+"url","http://lostchance.livejournal.com/13815.html"
+"userid","9186"
+"itemid","52"
+"event","By the way, I won't be moving to Germany. The opportunity was taken away from me and I have no recourse but to accept the fact. I've known for about 2 months. Sorry it took me so long to let you all know."
+"eventtime","2002-10-02 09:48:00"
+"url","http://lostchance.livejournal.com/13468.html"
+"userid","9186"
+"itemid","51"
+"event","Its been a while since I updated. I say this to myself, because everyone can see when my last update was, and have no need of me telling them it was long ago. I'm still speaking to myself. I tend to be a good listenner.
+
+I've had horrendously long work hours of lte. 12 hours a day 7 days a week, which partially accounts for my lack of lj participation. The long work hours have also made it hard for me to have anything to write about. I don't work with customers, and I've never spoken of anyone who is a maintained part of my life... so there's nothing I can relate that anyone would be familiar with. I haven't even been able to play my computer games as much as I used to. 
+
+I logged on to Everquest and people greeted me with questions of where I've been and what I've been up to. I wonder if they really miss me there or if its just the group of people who are so emotionally needy they wonder where any of their digital friends dissappear too when they find one missing in their fantasy world. In any case I seem to have that front settled and should be good for a while.
+
+Romance... everyone wants to know. There's one girl I been keeping in my thoughts lately. She's a handful, but has been a very close and caring friend to me in the last few weeks when I was enduring a personal hardship. This may be the first time I've really had the feeling of not wanting to persue a romance for fear of ruining a friendship. But she blows in and out of my life like a feather on the wind. whatever i decide to do will have to wait till she blows back in.
+
+I'm going on vacation soon... I hope. I wish I had some close friend I could visit. Someone who I haven't seen in years but would love to see again for just a few days, swap stories with and feel good. But I'll most likely just head home, stay with my paren't a few days and come back here. Exciting."
+"eventtime","2002-09-24 11:09:00"
+"url","http://lostchance.livejournal.com/13249.html"
+"userid","9186"
+"itemid","50"
+"event","I'm feeling worn. The war of good and badluck in my life has been teetering back and forth with such violence, I'm suprised it hasn't toppled over yet. Do you call it good luck when a condition brought on by bad luck is averted? Is it good luck to return to status quo? Seems to be the only god luck I have is in combatting bad luck.
+
+Yes, I believe in luck. Its a personal form of quantifying chaos... and I beleive it has cycles. In this case of luck I wonder if my inabilty to create art of late is culminating into a sudden and overwhelming release? would be nice to really get lost in writing or drawing, or perhaps some new medium.
+
+And right now, no matter how hard I try, I still have nothing else to say."
+"eventtime","2002-08-06 11:13:00"
+"url","http://lostchance.livejournal.com/13026.html"
+"userid","9186"
+"itemid","49"
+"event","I'd rather not... but I guess I have to."
+"eventtime","2002-08-06 07:39:00"
+"url","http://lostchance.livejournal.com/12764.html"
+"userid","9186"
+"itemid","48"
+"event","I haven't posted in a while. Not that things in my life are too busy, and I had no time. I just didn't. I take hiatus from everything sooner or later. Sometimes I quit sleeping or eating, speaking, dating, going online, going to movies, shaving... I don't know why I do, but I think its because I feel like it.
+
+Is that original? It might be. Every time I've ever heard anyone say ""because I feel like it"" or ""because I want to"" there is a motive behind their desire. I don't. In fact sometimes my motives drive against my desires. Sometimes I don't leave my apartment on a long weekend , even though I desire to go out and meet women, date, etc... but I feel like watching cartoons and playing computer games. Is that depression? Does it have to be depression? Maybe I just like cartoons.
+
+I've still kept up reading everyone journals on my friends list though. My flowers... such a strange garden. Some of the ones I didn't expect much from bloom so beautifully, and others well... just aren't as wonderful as they looked in the nursery. But all entertaining. There something to be said about the dirty mess some things become. Sometimes you just want to be in dirt. Sometimes, its nice to grease your skin and hair and feel like garbage. It can remove all the weight of self-conscience.
+
+I'm being pointless. Perhaps I'm taking a leave of points. Maybe I'm not interested in causes. I do however want affection. Sex not included. Just kisses, caresses, and long afternoons on a couch. I want to feel enjoyed. Sex I can have with my right hand. I just don't feel like sex anymore."
+"eventtime","2002-07-25 10:11:00"
+"url","http://lostchance.livejournal.com/12297.html"
+"userid","9186"
+"itemid","47"
+"event","Like thats gonna happen. Every now and then people tell me I'm kick-ass for some thought I find mundane, because I've had that idea for years and years, and its not new, its not fascinating, its just a matter of fact to me. Its been so long since I've had one of those nights I stay up talking to an in-animate object about how incredible I feel about a thought I had come to mind. My dog would get annoyed when I woke him up in a near frantic fever of thought, speaking so loud I verged on shouting. but he would sit the head resting on his paws, watching me patiently till I calmed down and went to sleep. I miss him.
+
+But now all I find myself doing is defending my ideas against idiots who insist on regurgitating their half-knowledge of someone else's ideas instead of formulating their own. I was on a high yesterday when I found out the supreme court ruled that the ""under god"" phrase in the pledge of allegiance was un-constitutional. Its been a long time coming that a country with freedom of religion and seperation of church and state take out a religious slogan that wasn't originally in a nationally adopted pledge. To the retort ""What's next? are they goign to take 'In God We Trust' off the money too?"" To which I replied ""I hope so!"" But all I heard in replies were annoyed references to cultural signifigance and tradition. Sometimes culture is wrong. It was part of southern culture to own slaves. It was part of American culture to deny women the right to vote. It was colonial culture to invade the lands of indiginous people, and claim manifest destiny while slaughtering thousands of technologically primitive native americans.
+
+So we take a small step forward to support the idea of equality amongst people. But the majority wants their status quo. Its ok to tell people that they have to treat people equally in their own lives (equal opportunity employment, hate crime law) but its not ok to remove a forced profession of faith in a national oath?
+
+The government moves into our homes, but we're not allowed to visit capitol hill.
+
+WTF"
+"eventtime","2002-06-27 12:03:00"
+"url","http://lostchance.livejournal.com/12080.html"
+"userid","9186"
+"itemid","46"
+"event","Today I was reading one of my favorite webcomics <a href=""http://www.reallifecomics.com"">Real Life</a> and I rememberred how the author of the comic found his current love interest because she was a fan of his comic. Now, I'm not all that great and I don't update daily or anything, but I was hoping that sooner or later a female might have come across my journal and liked what I said so much as to want to learn more about me personally, and prehaps want to know what type of person I am in real life.
+
+In other words, I want what I write to make some woman out there think to herself, ""Damn! This is the guy I been looking for!"" I've also been hoping that this female be human, relatively intelligent, and it wouldn't hurt if she modelled part time or something. But so far, anyone who's showed interest has been fairly solidly immersed in a relationship, or in some other way un-available. (beauty hasn't been in short supply though)
+
+I don't even know what to expect really. I'm going to Germany in a few months, so starting up anything in the states is a tragicly bad idea, unless someone out there wants to be a military wife and move to the fatherland.
+
+But if anyone is up for the challenge of bringing me fullfilment in my lovelife, please be a single petite female, with some form of artistic talent(drawing, singing, performing, etc... ), and bonus points for anything that sets you apart from the rest of the mass populace. (ex's include a girl with tatoo's on her face, a girl who was 4'6"", an ex-junkie who's now a lesbian, and a fiancee who repeatedly tried to kill me)
+
+If you think thats weird, you should meet some of the girls I only dated and didn't have serious relationships with. But anyhow, if you are, or you know some woman who fits this desription let me know. Even if I don't find a significant other this way, knowing there are possibilities out there would be nice."
+"eventtime","2002-06-20 09:50:00"
+"url","http://lostchance.livejournal.com/11884.html"
+"userid","9186"
+"itemid","45"
+"event","Doesn't that ever get annoying? All of the flowers in my garden are beautiful. I'll say it once and stand by it afterward. I've told them all how interesting they are to me, how beautiful they are, how special each one is. Some of them are incredibly popular on livejournal, and each of their journal entries have several responses. On journal entries including pictures they get many, many responses, from people who never comment on anything but the pictures, and the comments are mostly inane babbling concerning how attractive they are. Isn't it insulting to get the greatest multitude of approval only after you show skin? And that approval is only a barely formed sentence that's remeniscent of a cut and paste job from the last 20 times they posted in your journal?
+
+I prefer substance. I usually don't make comments on pictures because I don't want to be just another troller that gets excited at pretty pictures. My flowers all have beautiful minds... and those minds deserve far more recognition than the flesh casings around them.
+
+So anyway, for every picture you've posted, you're beautiful, and for every text entry you've made, I can't wait for the next one."
+"eventtime","2002-06-12 14:08:00"
+"url","http://lostchance.livejournal.com/11699.html"
+"userid","9186"
+"itemid","43"
+"event","Someone told me today to ""find someone with the same interests as you, the same <i>beliefs</i> as you"" before I jump into marriage.
+ 
+I laughed. My response would be that I'd be lucky to find somebody who could just deal with my beliefs. My opinions are strong. They're highly controversial and some seem downright inhumane. But they're mine.
+
+I believe people should follow leaders. Some people are born strong and other are born weak. The weak aren't useless, they're just not the head of the pack. The world will always need janitors and hole-diggers, what it doesn't need are hole-diggers and janitors that think they should be generals and senators. All men are not born equal. We are all born different. Law made by man makes us equal, but our birth-given abilities remain the same. To make all men equal means restraining the gifted, and pushing the unfortunate. To understand our differences, enjoy them and accept them is the only choice we have, less we dillude ourselves into thinking we can have a utopia that is an impossibility.
+
+I believe that people need to die. People do die. Every day. For millions of reasons. From billions of causes. Diseases exsist in the ecosystem for this reason. Extreme weather/geology (tornados/earthquakes) exists for this reason. People kill eachother FOR THIS REASON. Social diseases like gangs, road rage, and paranoia have sprung up due to overpopulation. Sure there are more specific direct causes for such actions, but population is the prime reason from which the specific reasons derive. So people kill eachother. Whether it by shooting eachother, drunk driving, or terrorist bombing, we kill ourselves because there are too many of us. On an individual level each death is a terrible tragedy. Wholistically, they are all necessary and I accept them as a fact of life. Fact of life: Death.
+
+Anger, violence, hate. I like them. I NEED them. They make life go on. If I had to be civil, kind, and placid all the time, I'd have two ulcers and an aneurism. I am violent, I am angry and I do hate. Each one of those is a human release I <b>will not</b> deny myself. Its part of humanity. That is why there are kids having back-yard wrestling matches. Thats why people take on extreme sports hobbies. Thats why kids shoot up their schools. If everyone was just allowed to punch eachother in the face once in a while, the world would be a better place.
+
+There are those that will say ""be true to yourself,"" and follow it up with, ""you need to learn how to control your urges."" This is hypocritical. Humans are animals, we have instincts and desires that are un-civil. the more we make civility mandatory and emotional releases unacceptable, the more we doom ourselves to inner conflict, stress, and confusion.
+
+These are some of my beliefs. Submit to your examination. Tell me... would you want to marry me?"
+"eventtime","2002-05-30 11:00:00"
+"url","http://lostchance.livejournal.com/11110.html"
+"userid","9186"
+"itemid","42"
+"event","Something just struck me. Came to mind on a whim. Women. Specifically Goddesses... the self-proclaimed ones.
+
+Out of nowhere, all of the sudden, it disgusts me. Women are goddesses. Some preach it, others believe it. There's the idea that just because they were born female, they are there-by heavenly creatures. Hmm. Are men heavenly creatures? Men may say they sometimes feel like a god... but that is usually a villain in some cheesy action movie. But women calling themselves goddesses is a common practice daily deal.
+
+Where do I mainly hear this? I most often hear it from hispanic and african-american women, and similarly I hear them call themselves a ""queen"". I have to wonder, what exactly convinces them they deserve this little self-entitled... title? If the woman in question was particularly powerfull in business, or entertainment, if she had fans and followers, if she was some incredible figure in society... maybe. But women who still live with their parents, who have no job, who put all their effort into their looks and FAIL to appear attractive, these call themselves goddesses. 
+
+Often the women who proclaim such things are also religious. I was under the mpression pretneding to be a diety was against most religious law. Most of the women who decide this use it as a rationalization to why they've decided to dump on all men that match them in socio-economic stature, saying they require someone better than their peers. It makes me wonder what sort of logic they could possibly be using?
+
+Do they believe that since they are conceited, and because they believe everyone else is below them, they must then belong above them? Personally, if I ever come across such a woman, happen to date her or somehow be stuck in a social situation with her, I will be sure to let her know exactly how un-god-like she is. I can go thru my life without impersonating royalty or omnipotence... and I don't want to live with anyone who just so happens to think they can.
+
+Post Script: I know I've made racial and gender generalizations in this post. I harbor no ill will towards women or people of any race, my words are just reflective of my experiences, and I will stand by what I say and saw, for it is the only information I can refer to and depend on."
+"eventtime","2002-05-25 13:33:00"
+"url","http://lostchance.livejournal.com/10985.html"
+"userid","9186"
+"itemid","41"
+"event","One of the family dogs died Tuesday. He was put to sleep.
+
+out of all my family I liked the dogs the best, they were always the nicest to me, and gave me the least grief.
+
+Quincy Gizmo Pillar, born May 8th 1990, was a tan pomeranian. Weighing only 3 pounds as a puppy, he grew to be 18 lbs as an adult, and only 1 foot tall. He was tempermental, but quiet for the type of dog he was. He was always happy to see family and friends, and loved attention and kind words. His greatest quality was his tolerance of children. Though he often snapped at adults for disturbing him or disciplining him, he'd let toddlers and children pull his tail and his ears, or roll all over him without even a growl, which is completely un-characteristic of his breed.
+
+I miss him, and I feel bad that I wasn't there when he passed. He was a good dog who cared for and protected his family, and we'll all miss him."
+"eventtime","2002-05-23 11:16:00"
+"url","http://lostchance.livejournal.com/10560.html"
+"userid","9186"

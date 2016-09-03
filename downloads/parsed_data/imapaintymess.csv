@@ -1,0 +1,668 @@
+"names","values"
+"itemid","218"
+"event","<form action='http://www.kwiz.biz/simplesurveys/do-survey.php' method='post' target='_new'><table border=1 bordercolor=#efefef cellspacing=0><tr><td valign=top align=center colspan=2><b><i>Tell Me About Yourself!</i></b><input type='hidden' name='question1' value='Tell+Me+About+Yourself%21'><input type='hidden' name='type1' value='2'></td></tr><tr><td valign=top align=right>What is your Name?</td><td align=left><b>christina Marie O'Reilly Kokoros</b><input type='hidden' name='question2' value='What+is+your+Name%3F'><input type='hidden' name='type2' value='1'></td></tr><tr><td valign=top align=right>When is your Birthday?</td><td align=left><b>May 13</b><input type='hidden' name='question3' value='When+is+your+Birthday%3F'><input type='hidden' name='type3' value='1'></td></tr><tr><td valign=top align=right>Whats your Astrology Sign?</td><td align=left><b>Taurus</b><input type='hidden' name='question4' value='Whats+your+Astrology+Sign%3F'><input type='hidden' name='type4' value='1'></td></tr><tr><td valign=top align=right>Where were you Born?</td><td align=left><b>Putnam Connecticut</b><input type='hidden' name='question5' value='Where+were+you+Born%3F'><input type='hidden' name='type5' value='1'></td></tr><tr><td valign=top align=right>Where do you live Now?</td><td align=left><b>Fitchburg, MA</b><input type='hidden' name='question6' value='Where+do+you+live+Now%3F'><input type='hidden' name='type6' value='1'></td></tr><tr><td valign=top align=right>How many Siblings do you have?</td><td align=left><b>four; two brothers and two sisters</b><input type='hidden' name='question7' value='How+many+Siblings+do+you+have%3F'><input type='hidden' name='type7' value='1'></td></tr><tr><td valign=top align=right>What is your Eye Color?</td><td align=left><b>green </b><input type='hidden' name='question8' value='What+is+your+Eye+Color%3F'><input type='hidden' name='type8' value='1'></td></tr><tr><td valign=top align=right>What is your Hair Color?</td><td align=left><b>ummm depends...brown or blond....or gold :-/</b><input type='hidden' name='question9' value='What+is+your+Hair+Color%3F'><input type='hidden' name='type9' value='1'></td></tr><tr><td valign=top align=right>What is your Height?</td><td align=left><b>ummm somewhere in the area of 5'7""</b><input type='hidden' name='question10' value='What+is+your+Height%3F'><input type='hidden' name='type10' value='1'></td></tr><tr><td valign=top align=right>What is your Body Type?</td><td align=left><b>fat kid for life lol</b><input type='hidden' name='question11' value='What+is+your+Body+Type%3F'><input type='hidden' name='type11' value='1'></td></tr><tr><td valign=top align=right>Whats your Heritage?</td><td align=left><b>greek and italian</b><input type='hidden' name='question12' value='Whats+your+Heritage%3F'><input type='hidden' name='type12' value='1'></td></tr><tr><td valign=top align=right>What is your Weakness?</td><td align=left><b>too much compassion</b><input type='hidden' name='question13' value='What+is+your+Weakness%3F'><input type='hidden' name='type13' value='1'></td></tr><tr><td valign=top align=right>What is your Strength?</td><td align=left><b>too much compassion</b><input type='hidden' name='question14' value='What+is+your+Strength%3F'><input type='hidden' name='type14' value='1'></td></tr><tr><td valign=top align=right>What do you Fear?</td><td align=left><b>clowns, spoons, heights</b><input type='hidden' name='question15' value='What+do+you+Fear%3F'><input type='hidden' name='type15' value='1'></td></tr><tr><td valign=top align=right>What are your Short Term Goals?</td><td align=left><b>happiness, finishing school without being kicked out....</b><input type='hidden' name='question16' value='What+are+your+Short+Term+Goals%3F'><input type='hidden' name='type16' value='1'></td></tr><tr><td valign=top align=right>What are your Long Term Goals?</td><td align=left><b>marriage, a couple of kids, successful job, happiness</b><input type='hidden' name='question17' value='What+are+your+Long+Term+Goals%3F'><input type='hidden' name='type17' value='1'></td></tr><tr><td valign=top align=right>What is your Style?</td><td align=left><b>eclectic</b><input type='hidden' name='question18' value='What+is+your+Style%3F'><input type='hidden' name='type18' value='1'></td></tr><tr><td valign=top align=right>How many Piercings do you have?</td><td align=left><b>technically 2 ears but i never wear earings </b><input type='hidden' name='question19' value='How+many+Piercings+do+you+have%3F'><input type='hidden' name='type19' value='1'></td></tr><tr><td valign=top align=right>How many Tattoos do you have?</td><td align=left><b>none yet</b><input type='hidden' name='question20' value='How+many+Tattoos+do+you+have%3F'><input type='hidden' name='type20' value='1'></td></tr><tr><td valign=top align=right>What is your Occupation?</td><td align=left><b>CVS employee for now</b><input type='hidden' name='question21' value='What+is+your+Occupation%3F'><input type='hidden' name='type21' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>Favorites!</i></b><input type='hidden' name='question22' value='Favorites%21'><input type='hidden' name='type22' value='2'></td></tr><tr><td valign=top align=right>Favorite Color:</td><td align=left><b>green</b><input type='hidden' name='question23' value='Favorite+Color%3A'><input type='hidden' name='type23' value='1'></td></tr><tr><td valign=top align=right>Favorite Number:</td><td align=left><b>13 or 9</b><input type='hidden' name='question24' value='Favorite+Number%3A'><input type='hidden' name='type24' value='1'></td></tr><tr><td valign=top align=right>Favorite Food:</td><td align=left><b>ummm anything italian or gyros</b><input type='hidden' name='question25' value='Favorite+Food%3A'><input type='hidden' name='type25' value='1'></td></tr><tr><td valign=top align=right>Favorite Dessert:</td><td align=left><b>ummm apple pie or pumpkin bread</b><input type='hidden' name='question26' value='Favorite+Dessert%3A'><input type='hidden' name='type26' value='1'></td></tr><tr><td valign=top align=right>Favorite Drink:</td><td align=left><b>chocolate milk</b><input type='hidden' name='question27' value='Favorite+Drink%3A'><input type='hidden' name='type27' value='1'></td></tr><tr><td valign=top align=right>Favorite Cereal:</td><td align=left><b>frosted flakes or apple jacks</b><input type='hidden' name='question28' value='Favorite+Cereal%3A'><input type='hidden' name='type28' value='1'></td></tr><tr><td valign=top align=right>Favorite Sport:</td><td align=left><b>hockey</b><input type='hidden' name='question29' value='Favorite+Sport%3A'><input type='hidden' name='type29' value='1'></td></tr><tr><td valign=top align=right>Favorite Movie:</td><td align=left><b>13 going on 30 or pride and prejudice</b><input type='hidden' name='question30' value='Favorite+Movie%3A'><input type='hidden' name='type30' value='1'></td></tr><tr><td valign=top align=right>Favorite Comedian:</td><td align=left><b>adam sandler or mitch hedburg or george carlin</b><input type='hidden' name='question31' value='Favorite+Comedian%3A'><input type='hidden' name='type31' value='1'></td></tr><tr><td valign=top align=right>Favorite Band:</td><td align=left><b>third eye blind</b><input type='hidden' name='question32' value='Favorite+Band%3A'><input type='hidden' name='type32' value='1'></td></tr><tr><td valign=top align=right>Favorite Song:</td><td align=left><b>""louder than words""- Tick, Tick...BOOM!</b><input type='hidden' name='question33' value='Favorite+Song%3A'><input type='hidden' name='type33' value='1'></td></tr><tr><td valign=top align=right>Favorite Book:</td><td align=left><b>the pact - jodi Piccoult</b><input type='hidden' name='question34' value='Favorite+Book%3A'><input type='hidden' name='type34' value='1'></td></tr><tr><td valign=top align=right>Favorite Magazine:</td><td align=left><b>Cosmopolitan</b><input type='hidden' name='question35' value='Favorite+Magazine%3A'><input type='hidden' name='type35' value='1'></td></tr><tr><td valign=top align=right>Favorite Tv Show:</td><td align=left><b>Grey's Anatomy</b><input type='hidden' name='question36' value='Favorite+Tv+Show%3A'><input type='hidden' name='type36' value='1'></td></tr><tr><td valign=top align=right>Favorite school Subject:</td><td align=left><b>anything art related...as long as the teacher isnt gay</b><input type='hidden' name='question37' value='Favorite+school+Subject%3A'><input type='hidden' name='type37' value='1'></td></tr><tr><td valign=top align=right>Favorite Holiday:</td><td align=left><b>dont have one i hate holidays :-)</b><input type='hidden' name='question38' value='Favorite+Holiday%3A'><input type='hidden' name='type38' value='1'></td></tr><tr><td valign=top align=right>Favorite Disney Character:</td><td align=left><b>Princess Aurora...DUH</b><input type='hidden' name='question40' value='Favorite+Disney+Character%3A'><input type='hidden' name='type40' value='1'></td></tr><tr><td valign=top align=right>Favorite Animal:</td><td align=left><b>penguin or puppies</b><input type='hidden' name='question41' value='Favorite+Animal%3A'><input type='hidden' name='type41' value='1'></td></tr><tr><td valign=top align=right>Favorite Childhood Toy:</td><td align=left><b>easy bake oven</b><input type='hidden' name='question42' value='Favorite+Childhood+Toy%3A'><input type='hidden' name='type42' value='1'></td></tr><tr><td valign=top align=center colspan=2><b><i>This or That!</i></b><input type='hidden' name='question43' value='This+or+That%21'><input type='hidden' name='type43' value='&..39;2\\'></td></tr><tr><td valign=top align=right>Sun / Rain</td><td align=left><b>rain bc i love running in it</b><input type='hidden' name='question44' value='Sun+%2F+Rain'><input type='hidden' name='type44' value='1'></td></tr><tr><td valign=top align=right>Beach / Skiing</td><td align=left><b>beach</b><input type='hidden' name='question45' value='Beach+%2F+Skiing'><input type='hidden' name='type45' value='1'></td></tr><tr><td valign=top align=right>School / Vacation</td><td align=left><b>school...more friends...</b><input type='hidden' name='question46' value='School+%2F+Vacation'><input type='hidden' name='type46' value='1'></td></tr><tr><td valign=top align=right>Driving / Walking</td><td align=left><b>walking </b><input type='hidden' name='question47' value='Driving+%2F+Walking'><input type='hidden' name='type47' value='1'></td></tr><tr><td valign=top align=right>Soda / Milk</td><td align=left><b>chocolate milk</b><input type='hidden' name='question48' value='Soda+%2F+Milk'><input type='hidden' name='type48' value='1'></td></tr><tr><td valign=top align=right>Summer / Winter</td><td align=left><b>summer</b><input type='hidden' name='question49' value='Summer+%2F+Winter'><input type='hidden' name='type49' value='1'></td></tr><tr><td valign=top align=right>Sping / Fall</td><td align=left><b>spring</b><input type='hidden' name='question50' value='Sping+%2F+Fall'><input type='hidden' name='type50' value='1'></td></tr><tr><td valign=top align=right>Cats / Dogs</td><td align=left><b>dogs</b><input type='hidden' name='question51' value='Cats+%2F+Dogs'><input type='hidden' name='type51' value='1'></td></tr><tr><td valign=top align=right>Stay Home / Go Out</td><td align=left><b>stay home...when in the burg...go out in the tree</b><input type='hidden' name='question52' value='Stay+Home+%2F+Go+Out'><input type='hidden' name='type52' value='1'></td></tr><tr><td valign=top align=right>Books / Movies</td><td align=left><b>books</b><input type='hidden' name='question53' value='Books+%2F+Movies'><input type='hidden' name='type53' value='1'></td></tr><tr><td valign=top align=right>Cd / Tapes</td><td align=left><b>cd</b><input type='hidden' name='question54' value='Cd+%2F+Tapes'><input type='hidden' name='type54' value='1'></td></tr><tr><td valign=top align=right>Comedy / Horror</td><td align=left><b>comedy</b><input type='hidden' name='question55' value='Comedy+%2F+Horror'><input type='hidden' name='type55' value='1'></td></tr><tr><td valign=top align=right>Pickles / Cucumbers</td><td align=left><b>cucumbers</b><input type='hidden' name='question56' value='Pickles+%2F+Cucumbers'><input type='hidden' name='type56' value='1'></td></tr><tr><td valign=top align=right>Steak and Cheese / Grilled Cheese</td><td align=left><b>grilled cheese</b><input type='hidden' name='question57' value='Steak+and+Cheese+%2F+Grilled+Cheese'><input type='hidden' name='type57' value='1'></td></tr><tr><td valign=top align=right>Sprite / 7-Up</td><td align=left><b>sprite</b><input type='hidden' name='question58' value='Sprite+%2F+7-Up'><input type='hidden' name='type58' value='1'></td></tr><tr><td valign=top align=right>Coke / Pepsi</td><td align=left><b>coke</b><input type='hidden' name='question59' value='Coke+%2F+Pepsi'><input type='hidden' name='type59' value='1'></td></tr><tr><td valign=top align=right>Trucks / Cars</td><td align=left><b>trucks</b><input type='hidden' name='question60' value='Trucks+%2F+Cars'><input type='hidden' name='type60' value='1'></td></tr><tr><td colspan=2 align=center><input type='submit' value='Take This Survey'><BR><a href='http://www.kwiz.biz/simplesurveys/create-survey.php'>CREATE YOUR OWN!</a> - or - <a href='http://www.kwiz.biz/simplesurveys/paid-surveys.php'>GET PAID TO TAKE SURVEYS!</a></td></tr></form></table>"
+"eventtime","2007-11-23 23:02:00"
+"current_moodid","90"
+"url","http://imapaintymess.livejournal.com/56013.html"
+"userid","6880"
+"itemid","210"
+"event","IF YOU'RE ON MY FRIENDS LIST,
+I want to know 20 things about you. I don't care if we've never talked, never liked each other, or if we already know everything about each other. I really don't. You are obviously on my list, so let me know with whom I am friends! JUST HIT REPLY.
+
+
+
+
+1.Your Middle Name:
+
+2. Age:
+
+3. Single or Taken:
+
+4. Favorite Movie:
+
+5. Favorite Song:
+
+6. Favorite Band/Artist:
+
+7. Dirty or Clean:
+
+8. Tattoos and/or Piercings:
+
+
+HERE COMES THE FUN ... ... ...
+
+1. Do we know each other outside of LJ?
+
+2. Whats your philosophy on life?
+
+3. Would you have my back in a fight?
+
+4. Would you keep a secret from me if you thought it was in my best interest?
+
+5. What is your favorite memory of us?
+
+6. Would you give me a kidney?
+
+7. Tell me one odd/intresting fact about you:
+
+8. Would you take care of me when I'm sick?
+
+9. Can we get together and make a cake?
+
+10. Have you heard any rumors of me lately?
+
+11. Do you/have you talk(ed) crap about me?
+
+12. Do you think I'm a good person?
+
+13. Would you drive across country with me?
+
+14. Do you think I'm attractive?
+
+15. If you could change anything about me, would you?
+
+16. What do you wear to sleep?
+
+17. Would you come over for no reason just to hang out?
+
+18. Would you go on a date with me if i asked you?
+
+19. If I only had one day to live, what would we do together?
+
+20. Will you repost this so i can fill it out for you?"
+"eventtime","2006-10-26 13:49:00"
+"url","http://imapaintymess.livejournal.com/53958.html"
+"userid","6880"
+"itemid","173"
+"event","so yay for me being a taken woman!!!
+
+
+yeah that was possibly the best surprise i have gotten thus far in my lifetime...so as you may or may not be able to tell i am quite ecstatic....
+
+um also went to bertuccis today and saw  jackie daniela meagan justin and jen so yeah that was also a highlight of my summer...i miss that bunch of kids, we should do that more often
+
+um yeah tomorrow and friday i have no friends because my bffl and my joe are both leaving me to go to orientation, so shayna you better call so we can finally hang out. sorry again about today, blame my whore mother (as usual)
+
+if anyone else loves me you should call/text/ visit me at some point over the next two days...otherwise i guess ill see you at justines"
+"eventtime","2006-06-21 17:33:00"
+"url","http://imapaintymess.livejournal.com/44302.html"
+"userid","6880"
+"itemid","165"
+"event","you would think that i would be pissed off. you would think that they were driving me out of that place. but really if you think about it long enough...it just makes me laugh
+
+
+
+a lot"
+"eventtime","2006-06-05 09:02:00"
+"url","http://imapaintymess.livejournal.com/42459.html"
+"userid","6880"
+"itemid","138"
+"event","so you cool kids with that face book thing should add me!!!
+
+im real tired but i cant sleep....leave me a message to make me smile!!!
+
+
+lots of love 
+me
+
+quote for the day
+if you got it flaunt it....
+
+man i love the producers.
+
+and by the way.....I WIN!!!!"
+"eventtime","2006-02-04 09:53:00"
+"current_moodid","31"
+"url","http://imapaintymess.livejournal.com/35415.html"
+"userid","6880"
+"itemid","130"
+"event","QXMgSSByZXN0IGFnYWluc3QgdGhpcyBjb2xkIGhhcmQgd2FsbCB3aWxsIHlvdSBwYXNzIG1lIGJ5PyANCldpbGwgeW91IGNyaXRpY2l6ZSBtZSBhcyBJIHNpdCBhbmQgY3J5PyANCkkgaGFkIGZvdWdodCBzbyBoYXJkIGFuZCB0aG91Z2h0IHRoYXQgYWxsIG15IGJhdHRsZXMgaGFkIGJlZW4gd29uIA0KT25seSB0byBmaW5kIHRoZSB3YXIgaGFzIGp1c3QgYmVndW4gDQoNCklzIEhlIG5vdCBzdHJvbmcgZW5vdWdoPyANCklzIEhlIG5vdCBwdXJlIGVub3VnaD8gDQpUbyBicmVhayBtZSwgcG91ciBtZSBvdXQgDQpBbmQgc3RhcnQgYWdhaW4/IA0KSXMgSGUgbm90IGJyYXZlIGVub3VnaCANClRvIHRha2Ugb25lIGNoYW5jZSBvbiBtZSANClBsZWFzZSBjYW4gSSBoYXZlIG9uZSBjaGFuY2UgdG8gc3RhcnQgYWdhaW4/IA0KDQpXaWxsIG15IHdlYWtuZXNzIGZvciBhbiBob3VyIG1ha2UgbWUgc3VmZmVyIGZvciBhIGxpZmV0aW1lPyANCklzIHRoZXJlIGFueSB3YXkgdG8gYmUgbWFkZSB3aG9sZSBhZ2Fpbj8gDQpJZiBJJ20gaGVhbGVkLCByZW5ld2VkIGFuZCBmaW5kIGZvcmdpdmVuZXNzOyBmaW5kIHRoZSBzdHJlbmd0aCBJ4oCZdmUgbmV2ZXIgaGFkIA0KV2lsbCBteSBzY2FycyBmb3JldmVyIHJ1aW4gYWxsIEdvZOKAmXMgcGxhbj8gDQoNCklzIEhlIG5vdCBzdHJvbmcgZW5vdWdoPyANCklzIEhlIG5vdCBwdXJlIGVub3VnaD8gDQpUbyBicmVhayBtZSwgcG91ciBtZSBvdXQgDQpBbmQgc3RhcnQgYWdhaW4/IA0KSXMgSGUgbm90IGJyYXZlIGVub3VnaCANClRvIHRha2Ugb25lIGNoYW5jZSBvbiBtZSANClBsZWFzZSBjYW4gSSBoYXZlIG9uZSBjaGFuY2UgdG8gc3RhcnQgYWdhaW4/IA0KDQpIZSB0b29rIG15IGxpZmUgaW50byBIaXMgaGFuZHMgYW5kIHR1cm5lZCBpdCBhbGwgYXJvdW5kIA0KSW4gbXkgbW9zdCBkZXNwZXJhdGUgY2lyY3Vtc3RhbmNlIGl0cyB0aGVyZSBJJ3ZlIGZpbmFsbHkgZm91bmQgDQoNCkJ1dCBZb3Ugd2VyZSBzdHJvbmcgZW5vdWdoIA0KQnV0IHlvdSB3ZXJlIHB1cmUgZW5vdWdoIA0KVG8gYnJlYWsgbWUsIHBvdXIgbWUgb3V0IA0KQW5kIHN0YXJ0IGFnYWluIA0KQnV0IHlvdSB3ZXJlIGJyYXZlIGVub3VnaCANClRvIHRha2Ugb25lIGNoYW5jZSBvbiBtZSANCk9oIHRoYW5rIFlvdSBmb3IgbXkgY2hhbmNlIHRvIHN0YXJ0IGFnYWluLi4u"
+"eventtime","2006-01-24 15:51:00"
+"current_moodid","48"
+"url","http://imapaintymess.livejournal.com/33394.html"
+"userid","6880"
+"itemid","126"
+"event","Alright...so my mom wants me to at least have picked between these two schools before Hartfords letter comes...and im indecisive adn cant pick for the life of me...so, heres a list of the things i like about Fitchburg
+
+1. its far enough away that my parents have no choice but to let me live there
+2. its close enough that, if i dont quit before the year is through, i can go home on teh weekends and work at whites
+3. its about a third of the cost of Wentworth
+4. they have an au Bon Pain!!!!!
+5. they have a very hands on approach to teaching...very good for a visual learner like me...
+6. if i decide to change my mind on the whole architecture thing (not very likely)  i can always go into their teaching program, which is also very good
+7. the campus is so much nicer than Wentworth's
+8. i wouldn't be as afraid to leave campus as i would Wentworth
+9. i would have a friend there and i cant guarantee i will at Wentworth (unless Jackie goes), so it will make the homesickness go away faster....hopefully
+
+
+
+alright, now for wentworth
+
+1. its only 20 minutes away from btree....so i can visit katie anytime i want...given i dont have too much work to do
+2. they are across the street from northeastern...so i can visit ppl all the time
+3. its close to BU so i can visit carolyn
+4. its a very technologically advanced school...and i love technology stuff
+5. i get a free apple computer with my tuition
+thats all i can think of for now....feel free to comment on anything thats good/bad/ugly about either of the schools
+
+
+but it looks like Fitchburgs up by 4 right now
+
+by the way, went to the producers last night with katie and her fam and it was AMAZING!!!!! i kinda wish that we could do that in my lifetime...but ill live in reality instead and just go see it a bunch of times....
+
+quote of the day...
+
+i am everything you want i am everything you need i am everything inside of you that you wish you could be..i say all the right thngs at exactly the right time, but i mean nothing to you and i dont know why (story of my life)"
+"eventtime","2006-01-16 12:34:00"
+"current_moodid","101"
+"url","http://imapaintymess.livejournal.com/32482.html"
+"userid","6880"
+"itemid","125"
+"event","by the way i meant vertical horizon....damn my typing abilities"
+"eventtime","2006-01-14 14:35:00"
+"current_moodid","106"
+"url","http://imapaintymess.livejournal.com/32010.html"
+"userid","6880"
+"itemid","124"
+"event","i got into fitchburg
+
+yay!!!!
+
+thats all i have to say
+
+no to pick between there and wentworth........."
+"eventtime","2006-01-14 14:32:00"
+"url","http://imapaintymess.livejournal.com/31795.html"
+"userid","6880"
+"itemid","123"
+"event","so i went to carlyns last night....her dad is AMAZING!!!! we read my cosmogirl with him and he took the ""Are you bitter about love ?"" quiz with us.... then we watched wedding crashers...then i came home and slept...and i dont plan on leaving my house other than to go t work in the next couple of days....im feeling antisocial or something
+
+
+quote of the day: 
+i believe that love is the answer
+and i believe that love will find a way
+-blessed union of souls 'i believe'
+
+
+by the way my new years resolution is to be truthful no matter how much it might kill me or make me look like a bitch
+
+and to find a boy who isn't an ass"
+"eventtime","2006-01-07 11:56:00"
+"current_moodid","55"
+"url","http://imapaintymess.livejournal.com/31612.html"
+"userid","6880"
+"itemid","122"
+"event","so life is petty good...im in a strangly odd mood the last week...happy but strange...almost like i feel like im going to wake up and find all of my happiness was only a dream...or that im rushing into thinking that this is a good thing or that im letting the walls down too soon...i mean look at how it ended last time...i just want to be able to be happy and not worry about what tomorrow brings...but its so hard to trust and believe that this is really happening to me, becasue lets face it i dont get too many moments of happiness in my life...but i guess i cant worry and be cautious because ill only regret it later...i dont even know what im talking about anymore...so
+
+
+to end with a quote
+
+would you look at her she looks at me shes got me thinking about her constantly but she dont know how i feel and shell carry on without a doubt i wonder if shes figured it out im crazy for this girl"
+"eventtime","2006-01-04 18:00:00"
+"current_moodid","101"
+"url","http://imapaintymess.livejournal.com/31298.html"
+"userid","6880"
+"itemid","120"
+"event","so i had a pretty good christmas. i got DDR so that was amusing...ummm...went to chilis last night, and it was like everyone i  know from braintree night, i saw amanda niki and the gang and my sister plus i was there with about 7 people i know...so that was fun....and i woke up today in one of my pissed off but not pissed off moods where i just want to cry and punch a wall...and i have to go out and get  a present for the yankee swap tomorrow.....plus people that i liike are being dickheads...so i dunno im in a very akward mood today
+
+
+
+blah
+
+
+quote: you cant lose what you never had"
+"eventtime","2005-12-27 10:19:00"
+"current_moodid","7"
+"url","http://imapaintymess.livejournal.com/30796.html"
+"userid","6880"
+"itemid","118"
+"event","so i got this letter yesterday....from this college called wentworth institute of technology...and they ACCEPTED ME!!!!!!!!!  so yeah im in a wicked good mood about this!!!!! leave me on if you love me, which i know you do, soooo....must goo clean my house then sleep so  i can work in the morning then hang with carolyn and then go to the hockey game then sleep then work then take my dad to the olive garden on sunday....peace
+
+
+quote for the day: i wanna spoon with your dog... i mean, you did say spoon right???
+ i love llama"
+"eventtime","2005-12-16 20:07:00"
+"current_moodid","41"
+"url","http://imapaintymess.livejournal.com/30257.html"
+"userid","6880"
+"itemid","117"
+"event","<table width=350 align=center border=0 cellspacing=0 cellpadding=2><tr><td bgcolor=""#EEEEEE"" align=center><font face=""Georgia, Times New Roman, Times, serif"" style='color:black; font-size: 14pt;'><b>Your Dating Purity Score: 84%</b></font></td></tr><tr><td bgcolor=""#DDDDDD""><center><img src=""http://images.blogthings.com/datingpuritytest/innocent-dater.jpg"" height=""100"" width=""100""></center><font color=""#000000"">
+You are an innocent dater.
+You're either lacking in dating experience or have had a long serious relationship.
+Either way, there's still plenty of fish in the sea out there for you to sample!</font></td></tr></table><div align=""center""><a href=""http://www.blogthings.com/datingpuritytest/"">Dating Purity Test</a></div>"
+"eventtime","2005-12-11 12:21:00"
+"url","http://imapaintymess.livejournal.com/30085.html"
+"userid","6880"
+"itemid","116"
+"event","<div align=""center"" style=""font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;""><form action=""http://quizzes.blogquiz.net/Your-LiveJournal-Musical-livejournal-meme-quiz_aWQ9MjcyNQ.html"" method=""post"" name=""quiz2725""><table border=""1"" cellspacing=""0"" cellpadding=""0""><tr><td><table style=""font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;"" border=""0"" cellspacing=""0"" cellpadding=""3""><tr bgcolor=""#003366""><td colspan=""2"" align=""center"" valign=""middle""><div align=""center"" style=""color: #FFFFFF; font-weight: bold;""><a href=""http://quizzes.blogquiz.net/Your-LiveJournal-Musical-livejournal-meme-quiz_aWQ9MjcyNQ.html"" style=""color: #FFFFFF; text-decoration: none;"">Your LiveJournal Musical</a></div></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">LiveJournal Username</td><td align=""left"" valign=""middle""><input type=""textbox"" name=""ljusername"" value=""imapaintymess"" size=""20"" maxlength=""64""></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">What is your favorite musical?</td><td align=""left"" valign=""middle""><input type=""textbox"" name=""input:0"" value=""Rent"" size=""20"" maxlength=""64""></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Do you like to perform?</td><td align=""left"" valign=""middle""><select name=""input:1""><option value=""0"" >Yes, I'm a drama queen at heart</option><option value=""1"" >N-no, I c-can't stand to be up on s-stage...</option><option value=""2"" selected>Eh, I'm no actor, but it can be fun</option></select></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">What did you think of the recent Phantom movie?</td><td align=""left"" valign=""middle""><select name=""input:2""><option value=""0"" selected>OMG ERIK IS TEH HAWTNESS!1!!!1!!1one</option><option value=""1"" >It was pretty good.</option><option value=""2"" >The book was better!</option><option value=""3"" >I didn't care for it.</option><option value=""4"" >OMG HORRIBLE!</option></select></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">What gender are you?</td><td align=""left"" valign=""middle""><select name=""input:3""><option value=""0"" >Male</option><option value=""1"" selected>Female</option><option value=""2"" >Not Applicable</option><option value=""3"" >Other</option></select></td></tr><tr bgcolor=""#6699CC"" height=""5""><td colspan=""2""></td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">The mask-wearing psycho who likes to murder people</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">susieminnesota</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">The dead guy in the wheelchair</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">yourmomishott</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">The matchmaker</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">mooseboy357</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">The popular girl</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">peambles</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">The fast-talking con man</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">imapaintymess</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">The english teacher's wife</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">longxgoodnite</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">The nun</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">6waysfromsunday</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">The amount of money your show makes</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">$122,049</td></tr><tr bgcolor=""#003366"" height=""5""><td colspan=""2""></td></tr><tr bgcolor=""#003366""><td colspan=""2"" align=""center"" valign=""middle""><div align=""center""><input type=""submit"" name=""submit"" value=""Fill in your answers and click here!"" style=""font-size: 9pt;""></div></td></tr><tr bgcolor=""#003366""><td colspan=""2"" align=""center"" valign=""middle""><div style=""color: #FFFFFF;"" align=""center""><a href=""http://www.blogquiz.net/"" style=""color: #FFFFFF;"">Fun Quizzes</a> by <a href=""http://www.blogquiz.net/users/Dracobolt"" style=""color: #FFFFFF;"">Lynn</a> at <strong>BlogQuiz.Net</strong><img src=""http://stats.blogquiz.net/x/blogquiz.net-blog/9"" border=""0"" width=""1"" height=""1""></div></td></tr></table></td></tr></table><a href=""http://www.dailyhoroscopes.biz/scorpio/today/"">Scorpio Horoscope</a> at DailyHoroscopes.Biz</form><br></div>
+
+and now for something youll all enjoy
+<div align=""center"" style=""font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;""><form action=""http://quizzes.blogquiz.net/LJ-anime-fiasco-livejournal-meme-quiz_aWQ9MjUwNg.html"" method=""post"" name=""quiz2506""><table border=""1"" cellspacing=""0"" cellpadding=""0""><tr><td><table style=""font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;"" border=""0"" cellspacing=""0"" cellpadding=""3""><tr bgcolor=""#003366""><td colspan=""2"" align=""center"" valign=""middle""><div align=""center"" style=""color: #FFFFFF; font-weight: bold;""><a href=""http://quizzes.blogquiz.net/LJ-anime-fiasco-livejournal-meme-quiz_aWQ9MjUwNg.html"" style=""color: #FFFFFF; text-decoration: none;"">LJ anime fiasco</a></div></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">LiveJournal Username</td><td align=""left"" valign=""middle""><input type=""textbox"" name=""ljusername"" value=""imapaintymess"" size=""20"" maxlength=""64""></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Do you like anime?</td><td align=""left"" valign=""middle""><select name=""input:0""><option value=""0"" >Yes</option><option value=""1"" >HELL FUCKING YEAH! YOU KIDDING ME?!</option><option value=""2"" >THAT STUFFS DA SHIT!</option><option value=""3"" selected>Its ok...not my favorite but I'll watch it...</option><option value=""4"" >No, not at all in any way, shape or form thank GOD</option></select></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">If you were an anime character which would you be more like?</td><td align=""left"" valign=""middle""><select name=""input:1""><option value=""0"" selected>A girl/boy with magical powers</option><option value=""1"" >A girl/boy who is half/full demon</option><option value=""2"" >An annoying old person who knows everything</option><option value=""3"" >A sex character in a hentai movie</option></select></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Can you speak and/or read Japenese?</td><td align=""left"" valign=""middle""><select name=""input:2""><option value=""0"" >Yes, fluently</option><option value=""1"" >I can read some...here and there...</option><option value=""2"" selected>I&#8217;d love to learn</option><option value=""3"" >Not at all, why should I, I'm not Japanese!!</option></select></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Do you draw anime characters for fun?</td><td align=""left"" valign=""middle""><select name=""input:3""><option value=""0"" >ITS ALL I DO!!! Besides read and watch anime religiously...</option><option value=""1"" >All the time...morning noon and night!</option><option value=""2"" >I doodle...</option><option value=""3"" selected>I don&#8217;t draw anime, but I do draw</option><option value=""4"" >I'm one of the talent less people who cant draw if their life depended on it</option></select></td></tr><tr bgcolor=""#6699CC""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">What do you think of the people who dont like anime?</td><td align=""left"" valign=""middle""><select name=""input:4""><option value=""0"" >FUCK THEM THE BASATARDS!</option><option value=""1"" >*grumbles* I hate them...</option><option value=""2"" >To each his own opinion...</option><option value=""3"" selected>Good for them! They got it right!</option></select></td></tr><tr bgcolor=""#6699CC"" height=""5""><td colspan=""2""></td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Is the sex-obsessed boy who is turns out to be a demon and who traveks with the heros:</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">peambles</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Is the girl who holds the fate of the world in her hands:</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">peambles</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Is the evil monster who'll try to stop the girl from saving everyone:</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">seizureskunk</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Is the faithful advisor in this LJ anime:</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">lostxhopex</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Is the magical object that the group of heros encounter to help save the world:</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">saddestxstar</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Is one who leaves the group and becomes high evil dude #2:</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">playcrackskybn</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Is an innocent by stander whos slaughtered in an epic battle between the heros and bad guys:</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">shaynasanerd</td></tr><tr bgcolor=""#336699""><td align=""left"" valign=""middle"" style=""color: #FFFFFF;"">Laughs madly at the heros when they loose and the world ends:</td><td style=""color: #FFFFFF; font-weight:bold;"" align=""left"" valign=""middle"">6waysfromsunday</td></tr><tr bgcolor=""#003366"" height=""5""><td colspan=""2""></td></tr><tr bgcolor=""#003366""><td colspan=""2"" align=""center"" valign=""middle""><div align=""center""><input type=""submit"" name=""submit"" value=""Fill in your answers and click here!"" style=""font-size: 9pt;""></div></td></tr><tr bgcolor=""#003366""><td colspan=""2"" align=""center"" valign=""middle""><div style=""color: #FFFFFF;"" align=""center""><a href=""http://www.blogquiz.net/"" style=""color: #FFFFFF;"">Fun Quizzes</a> by <a href=""http://www.blogquiz.net/users/dying_secrets"" style=""color: #FFFFFF;"">Molly</a> at <strong>BlogQuiz.Net</strong><img src=""http://stats.blogquiz.net/x/blogquiz.net-blog/8"" border=""0"" width=""1"" height=""1""></div></td></tr></table></td></tr></table><a href=""http://www.dailyhoroscopes.biz/libra/today/"">Libra Horoscope</a> at DailyHoroscopes.Biz</form><br></div>"
+"eventtime","2005-12-11 11:51:00"
+"current_moodid","106"
+"url","http://imapaintymess.livejournal.com/29776.html"
+"userid","6880"
+"itemid","111"
+"event","Its funny how life can change in an instant.  I'm so sorry Matt, Niki, Brianna and Mark.  There is nothing i can say to make it better, espically since it's me.  But i'm still really sorry.
+
+Quote for the day:
+
+""It's ok to be angry and never let go.  it only gets harder the more that you know.  when you get lonely if no ones around you know that i'll catch you when your falling till dawn.  we came together but you left alone and i know how it feels to walk out on your own.  mabey someday i will see youagain and you'll look me in my eyes and call me your friend"" 
+                     ---yellowcard---"
+"eventtime","2005-11-17 19:35:00"
+"current_moodid","48"
+"url","http://imapaintymess.livejournal.com/28581.html"
+"userid","6880"
+"itemid","106"
+"event","so had an amazing weekend full  of katie darche and work with carolyn jess kevin and janelle...it was amazing!!!!!  not too much else to write....i heart all of you today!!!!
+
+by the way katie,i do love ""gold""... are you happy now?????? ive admitted my problem, thats step one....
+
+and if you have any fun stories you would like to share im bored, so call me or leave me a comment and let me know.... i love to hear your stories!!
+
+quote of the day
+""Baby you're so beautiful and when im near you i cnat breathe
+a guy like you gets what he wants when he wants it, so outta my league
+i show you no emotion cant let you see what you're doin to me
+i imagine the two of us together but ive been livin in reality
+fear of rejection kept my love inside....idont care if you think im crazy, it doesnt matter if it turns out bad
+ive got no fear of losing you 
+you cant lose what you never had"
+"eventtime","2005-09-19 16:06:00"
+"current_moodid","15"
+"url","http://imapaintymess.livejournal.com/27166.html"
+"userid","6880"
+"itemid","104"
+"event","well school this year is going to be just stupedious. i really like all of my teachers except mrs. munely, but i think im dropping her class anyways so it doesnt matter.  i sit with chris joyce in APES, which is okay i guess, and rehersals and tech start on monday for pippen.  
+  
+ 
+as for life outside of school, ive been chillin with katie darche a lot.  shes really cool...she reminds me of me but a year younger.  and mike, i may be semi depressed right now, but i promise ill be back to my old self in no time..
+
+my mom told me today that if i go to college in or near boston that i have to commute and im not ""allowed"" to get a dorm.   so thats wicked dumb...and i almost dont want to apply to my number one choice school because of the reaction from certain people, i cant apply to wentworth because there is no fucking way im commuting next year, i need to get out of my house.
+
+work sucks, i need to find someone to work for me on the 25th so i can go to the u hartford open house, but kevin wont answer my text messages, the bastard.  ummm, staceys good, she went ot providence to visit tim yesterday, so im curious to see hoe that went.  and im getting my nintendo fusion tour ricket today! so im wicked excited for that..
+
+
+
+
+and i have a favor to ask of those reading this....leave me a message telling me your honest opinion of me.  im sick of people either pretending they like me, or else being too afraid to let me know for fear that ill kick their ass.  but im bored and curious so...do it you wont...
+
+
+Quote of the day:
+
+your voice is heard but it hurts, your words are memories but they burn
+baby just say goodnight ill be gone tomorrow
+baby just close your eyes i cant take the sorrow
+baby just walk away you know i cant stay,
+theres no easy way to say goodbye, so vbaby just say goodnight
+-say goodnight-the click five"
+"eventtime","2005-09-10 11:46:00"
+"current_moodid","71"
+"url","http://imapaintymess.livejournal.com/26780.html"
+"userid","6880"
+"itemid","103"
+"event","ihate myself for loving you..."
+"eventtime","2005-09-06 16:21:00"
+"current_moodid","25"
+"url","http://imapaintymess.livejournal.com/26540.html"
+"userid","6880"
+"itemid","102"
+"event","so not much to report today...work sucked as usual and i have to go back to school in 5 days. boo.
+
+Quote of the day
+days swiftly come and go im dreaming of her, 
+shes seeing orher guys emotions are stirred...
+swing swing form the tangle of my heart 
+is crushed by a former love
+cam you help me find a way to carry on again?"
+"eventtime","2005-09-03 20:09:00"
+"current_moodid","101"
+"url","http://imapaintymess.livejournal.com/26123.html"
+"userid","6880"
+"itemid","101"
+"event","and the musical is...pipen."
+"eventtime","2005-08-31 18:34:00"
+"url","http://imapaintymess.livejournal.com/25891.html"
+"userid","6880"
+"itemid","99"
+"event","i woke up this morning and my mom told me that she had to call the doctor about the persistent numbness in her arm.  They told her to come in right away, thinking it was just something wrong with her muscle.  That was at 930. at 1030 i get a call form my dad saying that mom was rushed to the hospital and that he was coming home form work to be with her. i keep twelling my self that it cant be anything too serious, its just her arm, right? but then i think about how close we were to losing her 4 years ago...and i start to panic...
+
+
+Quote of the day...
+  Because of you, i never strayed too far from the sidewalk
+because of you, i learned to play on the safe side so i wont get hurt...
+
+i love you mom"
+"eventtime","2005-08-31 12:48:00"
+"url","http://imapaintymess.livejournal.com/25430.html"
+"userid","6880"
+"itemid","97"
+"event","this is my third time tryng to post this ss....
+
+I know I said i wouldn't write in this again, but im a little bit pissed off and i need somewhere to rant. I fucking HATE all of the drama that constantly follows me around. Take this whole thing that is somehow still going on after three months (I think we alll know what im talking about).  It should be done and over with.  I mean, I honestly dont give a fuck whether or not we talk again in my life because hes a stupid, immature peice of shit who i,ve come to realize wasn't worth a day of my time. Yet he seems to think that by forcing other people into the situation that i have to like talk to him or regognize the fact that hes even alive.  But what he doesnt understand is that i've changed for the better. Unklike some people i can let go of the past, move on and be happy even without the closure i wanted from our reationship.  On the other hand, hes stuck prolonging something that doesnt need to be prolonged anymore than it has been. he needs to grow up and move on. I really dont even care if thats bitchy of me because its the truth and someones gotta tell it. and i figure i really only have one more year in this shithole of a town before im gone anyways, so i dont care if i have friends or not. ive learned to not let people walk all over me.  So fuck you. 
+
+ on happier topics...I love my friends right now because they have proven to me that theyll be there for me through thick and thin.  They've proved that drama doesn't need to affect freindships.  For christs sakes were all 17 or18 years old now, i think we could grow up a little. 
+
+For all you fuckheads who think that im a bitch or that my emotions are ""stylized"" at least have the balls to leave a name to go with your prejudiced remarks.  
+
+for all of you who have made me feel like shit, i hope that your happy that youve done this to me. I actually apreichiate the fact that you hate me because its given me the strength to tell you choke on a tater tot and die.
+
+Im just really done with all of this shit. ive moved on, now its your turn...
+
+
+Quote for today ""Everyday si a struggle between what i wanna say and what i should keep to myself. and the words that manage to leave my lips dont hurt me but they hurt everyone else...""
+-Everyday, TOBY LIGHTMAN"
+"eventtime","2005-08-30 14:40:00"
+"url","http://imapaintymess.livejournal.com/24856.html"
+"userid","6880"
+"itemid","95"
+"event","<img src=""http://images.quizilla.com/A/AlreadyHeard21/1087180744_res1021846.gif"" border=""0"" alt=""HASH(0x88a5a84)""><br>You are Okay, I Believe You But My Tommy Gun don't.<br>You love to sweep people off there feet, but<br>careful, don't let there head hit the ground.
+<br><br><a href=""http://quizilla.com/users/AlreadyHeard21/quizzes/Which%20Deja%20Entendu%20Song%20are%20You%3F/""> <font size=""-1"">Which Deja Entendu Song are You?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+
+
+this is prolly going to be the last thing i write for a while, cause of the summer.  but i really dont care cause i dont really like this thing much anymore. at least not for myself...its a good way to keep up on whats goign on with my friends, but i dont really want people to know about me....maybe thaqts why i never make a serious entry, just angry or stupid. cvause i dont want people to get to know me. if they do, they'll prolly just hate me anyways so fuck it"
+"eventtime","2004-06-15 12:45:00"
+"current_moodid","63"
+"url","http://imapaintymess.livejournal.com/24506.html"
+"userid","6880"
+"itemid","94"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=crash_and_burn&meme=1074622752' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Get to know the REAL you by <a href='http://www.livejournal.com/~crash_and_burn'><font color='#DDDD88'>crash_and_burn</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your Name' value='chrissy' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You Are A:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Sex-slave</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Favorite Band/Song</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Linkin Park - My December</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You Like To Read:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Anything political</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You Firmly Believe In:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Sex at first sight</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Everyone Thinks You Are:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>A cheap bastard</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You Were Conceived:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>In a cheap motel</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You Will Marry:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>A homeless man/woman</span></td></tr><input type='hidden' name='un' value='crash_and_burn'><input type='hidden' name='meme' value='1074622752'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>
+
+<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=Amberishjewel&meme=1071686519' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your Love Situation
+ by <a href='http://www.livejournal.com/~amberishjewel'><font color='#DDDD88'>Amberishjewel</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Username?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Username?' value='christina kokoros' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Love Is...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Soft </span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>During Lovemaking You Act...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Like a vampire, very seductive</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Partner Is...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Your support</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Partner Has Said That You...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Are a great lover</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Love is Summed Up In A Quote.</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>""Love is bittersweet""</span></td></tr><input type='hidden' name='un' value='Amberishjewel'><input type='hidden' name='meme' value='1071686519'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>
+
+<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=rashock&meme=1062613775' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>What will your Funeral be like?
+ by rashock</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Username</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='armored_username' value='imapaintymess' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You will die by:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Terrible animal attack while you were out hiking in the mountains. Seemed that you made good animal food, definately a closed casket.</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Death Date:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>March 28, 2050</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Number attending your funeral?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>159</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>How much will you leave to friends and family?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>$1,750,403</span></td></tr><input type='hidden' name='un' value='rashock'><input type='hidden' name='meme' value='1062613775'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-06-14 11:03:00"
+"url","http://imapaintymess.livejournal.com/24125.html"
+"userid","6880"
+"itemid","93"
+"event","<table align=center border=1 bordercolor=black cellspacing=0 cellpadding=4 width=200px><tr><td bgcolor=#ffcccc align=center><font style='color:black; font-size:18pt;'>How to make a imapaintymess</font></td></tr>
+<tr><td bgcolor=white><font style='color:black; font-size:12pt;'><b>Ingredients:</b><BR>
+1 part anger<BR>
+3 parts courage<BR>
+3 parts empathy</font></td></tr>
+<tr><td bgcolor=#ffffcc><font style='color:black; font-size:12pt;'><b>Method:</b><BR>Combine in a tall glass half filled with crushed ice. Serve with a slice of fitness and a pinch of salt. Yum!</font></td></tr></table><div align=center>
+<BR><form method=""POST"" action=""http://www.go-quiz.com/cocktail/cocktail.php"">Username:<input name=""uname""><BR><input type=submit value=""How do you make a 'you'?""><BR>
+</form><a href=""http://www.go-quiz.com/cocktail/cocktail.php"">Personality cocktail</a><BR>From <a href=""http://www.go-quiz.com"">Go-Quiz.com</a>"
+"eventtime","2004-06-14 10:49:00"
+"url","http://imapaintymess.livejournal.com/23948.html"
+"userid","6880"
+"itemid","92"
+"event","i love hubble bubble...most of the rest of you suck major ass...so deal with it.oh and by the way... 3DAYSOFCLASSESLEFT!!!!!"
+"eventtime","2004-06-14 10:32:00"
+"current_moodid","6"
+"url","http://imapaintymess.livejournal.com/23555.html"
+"userid","6880"
+"itemid","91"
+"event","Type your username with your:
+
+
+
+elbow:imapasinmyhyherssd
+
+
+
+
+
+eyes closed and one finger: i,q-q0j6ekldktgorpejtgk
+
+back of hand:lkkkii m,qazpaitnymess
+
+palm: i mapiu ntymess
+
+wow. i didnt do like half of them cause they were kinda gross, soo...anyways im done"
+"eventtime","2004-06-11 08:24:00"
+"url","http://imapaintymess.livejournal.com/23387.html"
+"userid","6880"
+"itemid","90"
+"event","so ive been having an off week.  things just don't seem to wanna go my way.  i dont know if i already mentioned this but i think i should apologize to mark A. because i was just as much of an ass to him as he was to shayna....but you know...HAPPY BIRTHDAY NIKKITA!!!!!!(i took the nickname from jennie mac, i hope you dont mind....and went to start the basket, saw the wave...good times in the curran household, as always...got sedlak the greatest pair of hoop earrings, and a strobe light ring...good times...so bored..got ms. graisse a new chalk holder and sedlak a bell for his desk..anyways im bored and chris is amusing me with the dictonary...peace and much love
+chrissy"
+"eventtime","2004-06-11 08:03:00"
+"current_moodid","65"
+"url","http://imapaintymess.livejournal.com/23067.html"
+"userid","6880"
+"itemid","89"
+"event","So yesterday was another one of those great days.  i got a 46 on a listening quiz in french, and was pretty pissed at that.  unless i get like a 100% on the project, im probably going to get a D in her class this term.  then came gym class...and it was soo unbelivably awkward.  me and jennie mac decided to go to the track and walk (as usual) so these two guys are running on the track, and one of them i regognize as the infamous kevin maGardy.  At first, i couldn't tell who the other one was, then I realized it was MIKE HANSON!!!  holy crap, i was like omg i havento get outta here, omg i haveta get outta here...i almost had a heart attack...i couldn't even look at him because i still feel SOOO bad for the way things went down with us last year.  i dont realy feel like i gave him the closure he deserved out of the whole thing.  but im horrible with closure, so...and im sorry to any-and everyone that i was mean to yesterday, for that was the reason for my bipolar moodswings yesterday...then this morning i was a mess.  i was talking to rizzle and cat and nikki about some girl and how shes getting married next year to this ""tall, skinny kid.""  so im like ""well that narrows it down, cause there's NO skinny tall kids in our school"" then i turn around and smash right into brendan...figures hes standing over me the whole time im talking...so, yeah everyone got a good laugh at my expense this morning...ill get you back brendan.someway somehow....then im just the dumbest complete mess today and i dont know why...anyways thats my $.5 so...peace and much love
+chrissy
+xox"
+"eventtime","2004-06-09 09:51:00"
+"url","http://imapaintymess.livejournal.com/22897.html"
+"userid","6880"
+"itemid","88"
+"event","<table bgcolor='#99ffff' border=3 bordercolor='#0033ff' cellspacing=0 cellpadding=3><tr><td align=center bgcolor=white><font size=+2 style='color: black;'>C</font></td><td valign=middle align=left><font style='color: black;'><b>Cheesy</b></font></td></tr><tr><td align=center bgcolor=white><font size=+2 style='color: black;'>H</font></td><td valign=middle align=left><font style='color: black;'><b>Hot</b></font></td></tr><tr><td align=center bgcolor=white><font size=+2 style='color: black;'>R</font></td><td valign=middle align=left><font style='color: black;'><b>Respectable</b></font></td></tr><tr><td align=center bgcolor=white><font size=+2 style='color: black;'>I</font></td><td valign=middle align=left><font style='color: black;'><b>Innocent</b></font></td></tr><tr><td align=center bgcolor=white><font size=+2 style='color: black;'>S</font></td><td valign=middle align=left><font style='color: black;'><b>Silly</b></font></td></tr><tr><td align=center bgcolor=white><font size=+2 style='color: black;'>T</font></td><td valign=middle align=left><font style='color: black;'><b>Terrific</b></font></td></tr><tr><td align=center bgcolor=white><font size=+2 style='color: black;'>I</font></td><td valign=middle align=left><font style='color: black;'><b>Irresistible</b></font></td></tr><tr><td align=center bgcolor=white><font size=+2 style='color: black;'>N</font></td><td valign=middle align=left><font style='color: black;'><b>Normal</b></font></td></tr><tr><td align=center bgcolor=white><font size=+2 style='color: black;'>A</font></td><td valign=middle align=left><font style='color: black;'><b>Appreciative</b></font></td></tr></table><BR><form method=""POST"" action=""http://www.go-quiz.com/acronym/acronym.php"">Name / Username:<input name=""name""><BR><input type=submit value=""Get your name acronym!""><BR>
+</form><a href=""http://www.go-quiz.com/acronym/acronym.php"">Name Acronym Generator</a><BR>From <a href=""http://www.go-quiz.com"">Go-Quiz.com</a>
+
+
+these things are great!!! anywhoosles, went to shaynas yesterday, much wetness involving me, shayna,greg, brendan, wyan and a trampoline. Graduation saturday, much sadness for this kid. ill miss you guys...you know who you are.  and friday went to see harry potter. it was good, i thought.  and i realized im just a stupid fuckhead...i know we all knew i was stupid already, but... im mean and untrusting and i just can't help it...i hate everyone, so FUCK YOU ALL!!"
+"eventtime","2004-06-07 11:58:00"
+"url","http://imapaintymess.livejournal.com/22717.html"
+"userid","6880"
+"itemid","87"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=crash_and_burn&meme=1074645612' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your Homicidal Rampage! by <a href='http://www.livejournal.com/~crash_and_burn'><font color='#DDDD88'>crash_and_burn</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your name:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your name:' value='imapaintymess' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Weapon of Choice:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Napalm</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Favorite Target:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Emo-kids</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Kill Count:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>1,523,581,042</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Battle Cry:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>""Allow me to molest your face with this rod!""</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Years You Spend in Jail:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>3</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>How Much Money In Damages You Cause:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>$30,571,745,758,734</span></td></tr><tr><td colspan='2' bgcolor='#333333' style='border: 1px solid black; text-align: center;' align='center'><table width='100%' cellpadding=0 cellspacing=0 width='300'><caption><span style='color: #FFFFFF;'>Your Homocidal Insanity Level:: 91%</span></caption><tr><td bgcolor='#000000' height='5'></td><td bgcolor='#000000' height='5'></td><td bgcolor='#110000' height='5'></td><td bgcolor='#220000' height='5'></td><td bgcolor='#440000' height='5'></td><td bgcolor='#660000' height='5'></td><td bgcolor='#880000' height='5'></td><td bgcolor='#AA0000' height='5'></td><td bgcolor='#CC0000' height='5'></td><td bgcolor='#EE0000' height='5'></td><td bgcolor='#FF0000' height='5'></td><td bgcolor='#FF0000' height='5'></td></tr><tr><td bgcolor='#000000' height='5'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FF0000' height='5'></td></tr><tr><td bgcolor='#000000' height='5'></td><td bgcolor='#000000' height='5'></td><td bgcolor='#110000' height='5'></td><td bgcolor='#220000' height='5'></td><td bgcolor='#440000' height='5'></td><td bgcolor='#660000' height='5'></td><td bgcolor='#880000' height='5'></td><td bgcolor='#AA0000' height='5'></td><td bgcolor='#CC0000' height='5'></td><td bgcolor='#EE0000' height='5'></td><td bgcolor='#FF0000' height='5'></td><td bgcolor='#FF0000' height='5'></td></tr></table></td></tr><input type='hidden' name='un' value='crash_and_burn'><input type='hidden' name='meme' value='1074645612'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-06-03 13:57:00"
+"url","http://imapaintymess.livejournal.com/22410.html"
+"userid","6880"
+"itemid","86"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=crash_and_burn&meme=1074645612' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your Homicidal Rampage! by <a href='http://www.livejournal.com/~crash_and_burn'><font color='#DDDD88'>crash_and_burn</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your name:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your name:' value='christina kokoros' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Weapon of Choice:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Agent Orange</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Favorite Target:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Goths</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Kill Count:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>801,063,082</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Battle Cry:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>""Allow me to molest your face with this rod!""</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Years You Spend in Jail:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>29</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>How Much Money In Damages You Cause:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>$96,228,355,377,987</span></td></tr><tr><td colspan='2' bgcolor='#333333' style='border: 1px solid black; text-align: center;' align='center'><table width='100%' cellpadding=0 cellspacing=0 width='300'><caption><span style='color: #FFFFFF;'>Your Homocidal Insanity Level:: 77%</span></caption><tr><td bgcolor='#000000' height='5'></td><td bgcolor='#000000' height='5'></td><td bgcolor='#110000' height='5'></td><td bgcolor='#220000' height='5'></td><td bgcolor='#440000' height='5'></td><td bgcolor='#660000' height='5'></td><td bgcolor='#880000' height='5'></td><td bgcolor='#AA0000' height='5'></td><td bgcolor='#CC0000' height='5'></td><td bgcolor='#EE0000' height='5'></td><td bgcolor='#FF0000' height='5'></td><td bgcolor='#FF0000' height='5'></td></tr><tr><td bgcolor='#000000' height='5'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#FFFFFF' height='10'></td><td bgcolor='#EE0000' height='5'></td><td bgcolor='#FF0000' height='5'></td><td bgcolor='#FF0000' height='5'></td></tr><tr><td bgcolor='#000000' height='5'></td><td bgcolor='#000000' height='5'></td><td bgcolor='#110000' height='5'></td><td bgcolor='#220000' height='5'></td><td bgcolor='#440000' height='5'></td><td bgcolor='#660000' height='5'></td><td bgcolor='#880000' height='5'></td><td bgcolor='#AA0000' height='5'></td><td bgcolor='#CC0000' height='5'></td><td bgcolor='#EE0000' height='5'></td><td bgcolor='#FF0000' height='5'></td><td bgcolor='#FF0000' height='5'></td></tr></table></td></tr><input type='hidden' name='un' value='crash_and_burn'><input type='hidden' name='meme' value='1074645612'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-06-03 13:55:00"
+"url","http://imapaintymess.livejournal.com/22225.html"
+"userid","6880"
+"itemid","85"
+"event","MAY:
+Stubborn and hard-hearted. Strong-willed and highly<br>motivated. Sharp
+thoughts. Easily angered. Attracts others and loves<br>attention. Deep
+feelings. Beautiful physically and mentally. Firm<br>Standpoint. Needs no
+motivation. Easily consoled. Systematic (left<br>brain). Loves to dream. Strong
+clairvoyance. Understanding. Sickness usually in<br>the ear and neck. Good
+imagination. Good physical. Weak breathing. Loves<br>literature and the arts."
+"eventtime","2004-06-03 13:50:00"
+"url","http://imapaintymess.livejournal.com/21827.html"
+"userid","6880"
+"itemid","84"
+"event","leave your honest opinion of me. what you really think of me. it can be anonymous or not. then copy and paste this in your journal so i can do the same!"
+"eventtime","2004-06-03 13:47:00"
+"url","http://imapaintymess.livejournal.com/21605.html"
+"userid","6880"
+"itemid","83"
+"event","so i haven't updated in like a week so... my weekend was amusing to say the least.  friday we finally got mark and mike to come to laff riot...that was amusing, i donminated at mau after.  then saturday i spent with my sister (that was soooo fun....).  then came sunday...so i get a ride to shaynas house from mama curran, and when we get there shayna goes online to see when kevin and anyone else is coming over. so she gets a message from kevin saying he ""forgot"" it was his grandmother's birthday...shayna was pissed and was like well if you can't come we're just going to make brendan gastby.  so brendan strolls in, with a beautiful new mohawk. after staring at his head in shock for like 2 minutes, we  decided it might be funny to have gastby have a mohawk...that was amusing.  and wyan put on on of his moustaches and started dancing while shayna sang ""my moustache brings all the boys to the yard, and there like its better than yours, damn right its better than yours, i could teach you but i'd have to charge..."" it was great.  then we taped for a while, brendan and i fought and he ended up flipping me over his head, i got dribbled like a basketball, ate a lot of cheesey bread, and had just a great time.  monday, i went to go see shrek 2 with justine, john, and allan.  amusing, found skittles and popcorn in my pants pockets the next day.  then i came in on tuesday and i thought that mary might hate me cause she didn't really talk to anyone when she came in.  because of my stupidity and lack of motor skills, we didn't talk until today...so yeah my life is amusing, get to talk to my therapist about how much stacey infuriates me sometimes and im going to see harry potter tomorrow @ 6:30 in randolf. if you or someone you know also happens to have tickets to this show, give me a holla... taping sunday(hopefully, gotta grovel at the feet of mama Curran) and grad parties on saturday.  another eventful weekend...woot woot.."
+"eventtime","2004-06-03 13:28:00"
+"current_moodid","44"
+"url","http://imapaintymess.livejournal.com/21369.html"
+"userid","6880"
+"itemid","82"
+"event","HAPPY BIRHTDAY MATT!!!!!! a day late i know but w/e"
+"eventtime","2004-05-26 12:27:00"
+"url","http://imapaintymess.livejournal.com/21223.html"
+"userid","6880"
+"itemid","81"
+"event","<table style=""font-size:10px;""><tr><td>What makes you laugh?:</td><td>stupid people </td></tr><tr><td>Who is your hero?:</td><td>CHARLIE SHEEN </td></tr><tr><td>Who would you want to be tied to for 24 hours?:</td><td>umm...i think most of you know that already, but incase you don't i call him hubble bubble </td></tr><tr><td>How many pairs of shoes do you own?:</td><td>like 4 </td></tr><tr><td>Seriously... Where does the other sock end up?:</td><td>in your ass </td></tr><tr><td>Who do you blame for your mood today?:</td><td>people who are hypocrites and people from my past </td></tr><tr><td>If the Internet were sex... I would:</td><td>use it more often </td></tr><tr><td>Have you ever seen a dead body?:</td><td>too many for my liking </td></tr><tr><td>What is something scientists need to invent?:</td><td>a time machine or multiple clones of charlie sheen </td></tr><tr><td>What should we do with stupid people?:</td><td>ties them to telephone poles during thunderstorms, and laugh as they ae electricuted </td></tr><tr><td>Have you ever broken a bone?:</td><td>nope </td></tr><tr><td>Do you watch local news? Why?:</td><td>sometimes, like with that dead chick they found on west st. cause it kinda effects me in some ways </td></tr><tr><td>What happens after you die?:</td><td>i either go heven hell purgatory or spend all of eternity eith rosie o' donnell (even worse than hell) </td></tr><tr><td>How big is your bed? Big enough?:</td><td>its adequate size...why you interested in"
+"eventtime","2004-05-26 12:23:00"
+"url","http://imapaintymess.livejournal.com/20860.html"
+"userid","6880"
+"itemid","80"
+"event","so today was interesting...hanging with the jennie mac, going to shaynas to organize the whole great gastby extra credit thing with ryan, kevin, anthony, dem and of course shayna.  should be fun.  mark enjoys pissing me off, then trying to be nice to me(maggio, not the other one).  getting angry, thinking about not inviting him to go to shrek with us, like i was planning to.  but i dunno depends on what i feel about him at the time of asking.  la la la, im supposed to be going to hull this saturday to visit mary, but, again it may not be that nice out... suck fest, i know.  so yeah, don't feel like telling you any more of my problems with certain people, like family or maybe-friends...takes to much emotional energy im not willing to spare right now.
+ 
+
+much love"
+"eventtime","2004-05-26 12:04:00"
+"current_moodid","28"
+"url","http://imapaintymess.livejournal.com/20624.html"
+"userid","6880"
+"itemid","79"
+"event","please describe my-
+face:
+hair:
+eyes:
+personality:
+sense of humor:
+intelligence:
+sense of style:
+overall physical appearance:
+
+what would you do if i:
+died:
+ran away from home:
+needed help:
+i got hurt in an accident:
+started drinking/doing drugs:
+was depressed:
+needed a hug:
+
+
+could you ever:
+love me:
+kiss me:
+make out with me:
+hug me:
+be my giiiirrlfriend:
+go on a road trip with me:
+live with me:
+not be my friend:
+fight me:
+
+has our relationship gotten stronger or weakened since ive known you:
+would you ever consinder not being my friend anymore if we got into a fight:
+would you ever do anything to harm me:
+would you try to change anything about me (if so what):
+what would you keep the same about me:
+what reminds you the most of me:
+what would you do if i didnt exist:"
+"eventtime","2004-05-25 13:03:00"
+"current_moodid","19"
+"url","http://imapaintymess.livejournal.com/20345.html"
+"userid","6880"
+"itemid","78"
+"event","1)First grade teacher's name: some chick in ross
+
+2) Last word you said: duck- in- a - box
+
+3) Last song you sang: seventy times seven- brand new
+
+4) Last person you hugged: MARY
+
+5) Last thing you laughed at: kelly talking to me aboot christmas and hubble bubble
+
+6) Last time you said 'I love you': i think at lunch i told mark i loved him...if he paid any attention to this i dunno...
+
+7) Last time you cried: this morning
+
+8) What's in your CD player: brand new, coheed, and non-stop 90s rock
+
+9) What colour socks are you wearing: white
+
+10) What's under your bed: nothing
+
+12) Current taste: your mom
+
+13) Current hair: straightened... and it looks like crap
+
+14) Current clothes: khakis, ataris tee, marys jean jacket, and my green pumas
+
+15) Current annoyance: mark, that freshman
+
+16) Current longing: that kid, hubble bubble i shall call him
+
+17) Current desktop picture: tbs
+
+18) Current worry: stuff with the biological mother
+19) Current hate: i dont hate, i greatly dislike
+
+20) Story behind your LJ username: im a painty mess!!!! tg kids know what im talking aboot
+
+
+21) Current favourite article of clothing: my green khakis and my bad year shirt...very comfy
+22) Favourite physical feature of the opposite sex: i love peoples eyes especially either brown or green
+23) Last CD that you bought: non- stop 90s rock
+
+24) Favourite place to be: with my friends
+
+25) Least favourite place: home, bored
+26) Time you wake up in the morning: 600
+
+27) If you could play an instrument, what would it be: i already play clarinet and im in the process of learning how to play the guitar.  then im learning the bass then the drums
+29) Do you believe in an afterlife: yes
+
+31) Current favourite word/saying: yeah, dood, your mother
+
+32) Favourite book: on a pale horse...so far amazing
+33) Favourite season: spring...no fall... no spring...idk you pick
+
+34) One person from your past you wish you could go back and talk to: papou or greg to thank him for always beiong ther...nana maclennan too
+35) Favorite day: friday or saturday
+
+36) Where do you want to go: california
+
+37) What is your career going to be like: bleak, prolly a cashier
+38) How many kids do you want: if i decide to have kids im only having one
+
+39) What kind of car will you have: a yellow corvette
+
+40) Type a line you remember from any book: Imitation is suicide""...really from an essay but w/e
+41) A random lyric: ""is this what you call a getaway? tell me what you got away with, cause ive seen more spine in jellyfish, ive seen more guts in an 11 year old kid.  so have another drink and drive yourself home, i hope there's ice on all the roads and you think of me when you forget your seatbelt and again when your head goes throught the windsheild"""
+"eventtime","2004-05-24 14:50:00"
+"url","http://imapaintymess.livejournal.com/20029.html"
+"userid","6880"
+"itemid","77"
+"event","I want anyone and everyone who reads this to post in here something they would LIKE to do with me SOMEDAY.
+
+Then post this in your journal to find out what I want to do with you."
+"eventtime","2004-05-24 14:40:00"
+"url","http://imapaintymess.livejournal.com/19831.html"
+"userid","6880"
+"itemid","76"
+"event","so, MCAS.... that's all ill say aboot that...haha. got sick this weekend thanks to the cold ocean air.  a bunch of people  keep telling me that i like a certain boy im friends with, which may or may not be true, and i didn't really want them to know aboot it.  but meh w/e.  boring life as usual.  i got a duck in a box from andie, thanks much for that.  well im going to go do other stuff do to  my amazingly short atten"
+"eventtime","2004-05-24 14:26:00"
+"current_moodid","85"
+"url","http://imapaintymess.livejournal.com/19544.html"
+"userid","6880"
+"itemid","75"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.deskslave.org/viewmeme.pl?un=morning_prayer&meme=1074625254' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Whats does your personality rate from 1-10? by <a href='http://www.hjfgsdhf.com'><font color='#DDDD88'>morning_prayer</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your first full name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your first full name' value='christina' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your personality rates a</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>its low...</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>your best quality is</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>people like you</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>your worst quality is</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>you need what you cant have</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>this is because</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>other people influenced you</span></td></tr><input type='hidden' name='un' value='morning_prayer'><input type='hidden' name='meme' value='1074625254'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-05-14 13:13:00"
+"url","http://imapaintymess.livejournal.com/19303.html"
+"userid","6880"
+"itemid","74"
+"event","so today is fun...going to joanna's partay tonite...if anyone reading this is interested in buying that sega genisis im giving to brendan, tell brendan that he needs to tell me when and where to give it to him for your gaming pleasure...yes norman i still have adams family and sonic I for you to buy from brendizzle...bored as hell...going to newbs today if anyone wants to tag along...still africkin' painty mess...still not speaking to hubble bubble...grr..i hate boys...hands are very fun to talk to...bored out of my mind... i like ellipses...can you tell?  
+
+lynnda, thanks for the awesome mix tape, and matt you better remember my brownies on monday...im excited about the other presents that are coming...
+
+
+""Christmas is coming kelly""  hahaha"
+"eventtime","2004-05-14 12:43:00"
+"current_moodid","5"
+"url","http://imapaintymess.livejournal.com/19061.html"
+"userid","6880"
+"itemid","73"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.deskslave.org/viewmeme.pl?un=lily22&meme=1074627052' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>A very ""special"" dictionary. by <a href='http://www.geocities.com/silenceunbroken'><font color='#DDDD88'>lily22</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Look up:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Look up:' value='koko' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Definition:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>To run about like a chicken with its head cut off.</span></td></tr><input type='hidden' name='un' value='lily22'><input type='hidden' name='meme' value='1074627052'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>
+
+and after all this time i thought it was the shorthand way of saying kokoros"
+"eventtime","2004-05-13 14:07:00"
+"url","http://imapaintymess.livejournal.com/18828.html"
+"userid","6880"
+"itemid","72"
+"event","<img src=""http://images.quizilla.com/S/Swim259177/1074215207_arliebrown.jpg"" border=""0"" alt=""You're A Good Man Charlie Brown CD Cover""><br>Everybody says to me, YOU'RE A GOOD MAN, CHARLIE<br>BROWN!!!  Baseball Games, Glee Club Rehersals,<br>and Beethoven Day dominates life.  It's great<br>being a kid and not understanding adults.<br>You're dog loves you, and food of course, but<br>still you.  And your friends, although they may<br>be harsh, still think very highly of you.  Stay<br>being that good man you are, savor your<br>Happiness and write that Book Report on Peter<br>Rabbit...And that's my New Philosophy.
+<br><br><a href=""http://quizilla.com/users/Swim259177/quizzes/In%20Which%20New%20MUSICAL%20do%20You%20Belong%3F%20(13%20Outcomes%20%26%20Pictures!)/""> <font size=""-1"">In Which New MUSICAL do You Belong? (13 Outcomes & Pictures!)</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>"
+"eventtime","2004-05-13 13:44:00"
+"url","http://imapaintymess.livejournal.com/18636.html"
+"userid","6880"
+"itemid","71"
+"event","so yeah, todays my birthday....i heart shayna for the cake, and justine for the munchkins, and michelle for the cinnamon bread....i heart my dad for taking me out to breakfast, greg for the awesome i love charlie sheen shirt, and anyone and everyone that said happy birthday to me....that was kinda cool...but anyways, i dont know if this day is really any diffrent from any other day, sans the massive amounts of food that i was given...oh yeah more coming tomorrow and brownies from mary monday...cool...so tired from early breakfast...painting after school...blah..."
+"eventtime","2004-05-13 13:27:00"
+"current_moodid","64"
+"url","http://imapaintymess.livejournal.com/18339.html"
+"userid","6880"
+"itemid","70"
+"event","if this doesn't work i will kill!!!!!
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""250""><tr><td>
+<script language=""javascript"" type=""text/javascript"" src = ""http://bunnyherolabs.com/adopt/embed-js.php?mc=duck.swf&amp;clr=0x4ff24&amp;cn=fluffy&amp;an=chrissy"">
+</script></td></tr><tr><td align=""center""><small><a href=""http://bunnyherolabs.com/adopt/"">adopt your own virtual pet!</a></small></td></tr></table>"
+"eventtime","2004-05-12 14:25:00"
+"url","http://imapaintymess.livejournal.com/18069.html"
+"userid","6880"
+"itemid","69"
+"event","<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""250""><tr><td>
+<script language=""javascript"" type=""text/javascript"" src = ""http://bunnyherolabs.com/adopt/embed-js.php?mc=duck.swf&amp;clr=0xffffff&amp;cn=pet+name&amp;an=adopter+name"">
+</script></td></tr><tr><td align=""center""><small><a href=""http://bunnyherolabs.com/adopt/"">adopt your own virtual pet!</a></small></td></tr></table>"
+"eventtime","2004-05-12 14:23:00"
+"url","http://imapaintymess.livejournal.com/17710.html"
+"userid","6880"

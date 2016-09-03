@@ -1,0 +1,590 @@
+"names","values"
+"itemid","331"
+"event","MDEuIEkgbWlzcyBzb21lYm9keSByaWdodCBub3cgDQo8Yj4wMi4gSSBkb24ndCB3YXRjaCBtdWNoIFRWIHRoZXNlIGRheXMgPC9iPg0KMDMuSSBsb3ZlIG9saXZlcw0KPGI+MDQuSSBsb3ZlIHNsZWVwaW5nPC9iPg0KPGI+MDUuIEkgb3duIGxvdHMgb2YgYm9va3M8L2I+DQo8Yj4wNi4gSSB3ZWFyIGdsYXNzZXMgb3IgY29udGFjdCBsZW5zZXM8L2I+DQowNy4gSSBsb3ZlIHRvIHBsYXkgdmlkZW8gZ2FtZXMNCjxiPjA4LiBJJ3ZlIHRyaWVkIG1hcmlqdWFuYSA8L2I+DQo8Yj4wOS4gSSd2ZSB3YXRjaGVkIHBvcm4gbW92aWVzIDwvYj4NCjxiPjEwLiBJIGhhdmUgYmVlbiBpbiBhIHRocmVlc29tZSA8L2I+DQo8Yj4xMS4gSSBoYXZlIGJlZW4gdGhlIHBzeWNoby1leCBpbiBhIHBhc3QgcmVsYXRpb25zaGlwPC9iPg0KMTIuIEkgYmVsaWV2ZSBob25lc3R5IGlzIHVzdWFsbHkgdGhlIGJlc3QgcG9saWN5DQo8Yj4xMy4gSSBsb3ZlIGljZSBjcmVhbSA8L2I+DQoxNC4gSSBsaWtlIGFuZCByZXNwZWN0IEFsIFNoYXJwdG9uDQo8Yj4xNS4gSSBjdXJzZSBzb21ldGltZXM8L2I+DQo8Yj4xNi4gSSBoYXZlIGNoYW5nZWQgYSBsb3QgbWVudGFsbHkgb3ZlciB0aGUgbGFzdCB5ZWFyPC9iPg0KPGI+MTcuIEkgaGF2ZSBhIGhvYmJ5PC9iPg0KMTkuIEkgY2FycnkgbXkga25pZmUvcmF6b3IgZXZlcnl3aGVyZSB3aXRoIG1lDQo8Yj4yMC4gSSdtIHBhcnRpYWxseSBzbWFydDwvYj4NCjxiPjIxLiBJJ3ZlIG5ldmVyIGJyb2tlbiBzb21lb25lJ3MgYm9uZXM8L2I+DQoyMi4gSSBoYXZlIGEgc2VjcmV0IHRoYXQgSSBhbSBhc2hhbWVkIHRvIHJldmVhbA0KMjMuIEkgaGF0ZSB0aGUgcmFpbiANCjI0LiBJJ20gcGFyYW5vaWQgYXQgdGltZXMNCjI1LiBJIHdvdWxkIGdldCBwbGFzdGljIHN1cmdlcnkgaWYgaXQgd2VyZSAxMDAlIHNhZmUsIGZyZWUgb2YgY29zdCwgYW5kIHNjYXItZnJlZQ0KPGI+MjYuIEkgbmVlZCBtb25leSByaWdodCBub3cgPC9iPg0KPGI+MjcuIEkgbG92ZSBzdXNoaTwvYj4NCjxiPjI4LiBJIHRhbGsgcmVhbGx5LCByZWFsbHkgZmFzdDwvYj4NCjI5LiBJIGhhdmUgZnJlc2ggYnJlYXRoIGluIHRoZSBtb3JuaW5nDQozMC4gSSBoYXZlIHNlbWktbG9uZyBoYWlyDQozMS4gSSBoYXZlIGxvc3QgbW9uZXkgaW4gTGFzIFZlZ2FzDQo8Yj4zMi4gSSBoYXZlIGF0IGxlYXN0IG9uZSBicm90aGVyIGFuZC9vciBvbmUgc2lzdGVyPC9iPg0KMzMuIEkgd2FzIGJvcm4gaW4gYSBjb3VudHJ5IG91dHNpZGUgb2YgdGhlIFUuUy4NCjM0LiBJIHNoYXZlIG15IGxlZ3MgKGZlbWFsZXMpIG9yIGZhY2UgKG1hbGVzKSBvbiBhIHJlZ3VsYXIgYmFzaXMgDQozNS4gSSBoYXZlIGEgdHdpbg0KMzYuIEkgaGF2ZSB3b3JuIGZha2UgaGFpci9maW5nZXJuYWlscy9leWVsYXNoZXMgaW4gdGhlIHBhc3QNCjM3LiBJIGNvdWxkbid0IHN1cnZpdmUgd2l0aG91dCBDYWxsZXIgSS5ELg0KPGI+MzguIEkgbGlrZSB0aGUgd2F5IHRoYXQgSSBsb29rIHNvbWV0aW1lczwvYj4NCjM5LiBJIGhhdmUgbGllZCB0byBhIGdvb2QgZnJpZW5kIGluIHRoZSBsYXN0IDYgbW9udGhzDQo0MC4gSSBrbm93IGhvdyB0byBjb3Jucm93DQo8Yj40MS4gSSBhbSB1c3VhbGx5IHBlc3NpbWlzdGljPC9iPg0KPGI+NDIuIEkgaGF2ZSBhIGxvdCBvZiBtb29kIHN3aW5nczwvYj4NCjxiPjQzLiBJIHRoaW5rIHByb3N0aXR1dGlvbiBzaG91bGQgYmUgbGVnYWxpemVkPC9iPg0KPGI+NDQuIEkgdGhpbmsgQnJpdG5leSBTcGVhcnMgaXMgcHJldHR5IDwvYj4NCjxiPjQ1LiBJIGhhdmUgY2hlYXRlZCBvbiBhIHNpZ25pZmljYW50IG90aGVyIGluIHRoZSBwYXN0PC9iPg0KNDYuIEkgaGF2ZSBhIGhpZGRlbiB0YWxlbnQNCjQ3LiBJJ20gYWx3YXlzIGh5cGVyIG5vIG1hdHRlciBob3cgbXVjaCBzdWdhciBJIGhhdmUNCjQ4LiBJIGhhdmUgYSBsb3Qgb2YgZnJpZW5kcw0KNDkuIEkgYW0gY3VycmVudGx5IHNpbmdsZQ0KPGI+NTAuIEkgaGF2ZSBraXNzZWQgc29tZW9uZSBvZiB0aGUgc2FtZSBzZXg8L2I+DQo1MS4gSSBlbmpveSB0YWxraW5nIG9uIHRoZSBwaG9uZQ0KNTIuIEkgcHJhY3RpY2FsbHkgbGl2ZSBpbiBzd2VhdHBhbnRzIG9yIFBKIHBhbnRzIC0gYnV0IG5vdCBpbiBwdWJsaWMgbmV2ZXIgaW4gcHVibGljDQo1My4gSSBsb3ZlIHRvIHNob3ANCjU0LiBJIHdvdWxkIHJhdGhlciBzaG9wIHRoYW4gZWF0DQo1NS4gSSB3b3VsZCBjbGFzc2lmeSBteXNlbGYgYXMgZ2hldHRvDQo1Ni4gSSdtIGJvdXJnaWUgYW5kIGhhdmUgd29ybiBhIHN3ZWF0ZXIgdGllZCBhcm91bmQgbXkgc2hvdWxkZXJzDQo1Ny4gSSdtIG9ic2Vzc2VkIHdpdGggbXkgWGFuZ2Egb3IgTGl2ZWpvdXJuYWwNCjU4LiBJIGRvbid0IGhhdGUgYW55b25lLiBJIGRpc2xpa2UgdGhlbQ0KNTkuIEknbSBhIHByZXR0eSBnb29kIGRhbmNlcg0KNjAuIEkgZG9uJ3QgdGhpbmsgTWlrZSBUeXNvbiByYXBlZCBEZXNpcmVlIFdhc2hpbmd0b24NCjYxLiBJJ20gY29tcGxldGVseSBlbWJhcnJhc3NlZCB0byBiZSBzZWVuIHdpdGggbXkgbW90aGVyDQo8Yj42Mi4gSSBoYXZlIGEgY2VsbCBwaG9uZTwvYj4NCjxiPjYzLiBJIGJlbGlldmUgaW4gR29kIChPciBtb3JlIHRoYW4gb25lKT8NCjY0LiBJIHdhdGNoIE1UViBvbiBhIGRhaWx5IGJhc2lzDQo2NS4gSSBoYXZlIHBhc3NlZCBvdXQgZHJ1bmsgaW4gdGhlIHBhc3QgNiBtb250aHMNCjY2LiBJIGxvdmUgZHJhbWENCjY3LiBJIGhhdmUgbmV2ZXIgYmVlbiBpbiBhIHJlYWwgcmVsYXRpb25zaGlwIGJlZm9yZQ0KNjguIEkndmUgcmVqZWN0ZWQgc29tZW9uZSBiZWZvcmUNCjY5LiBJIGN1cnJlbnRseSBoYXZlIGEgY3J1c2ggb24gc29tZW9uZS4NCjcwLiBJIGhhdmUgbm8gaWRlYSB3aGF0IEkgd2FudCB0byBkbyBmb3IgdGhlIHJlc3Qgb2YgbXkgbGlmZQ0KNzEuIEkgd2FudCB0byBoYXZlIGNoaWxkcmVuIGluIHRoZSBmdXR1cmUgDQo3Mi4gSSBoYXZlIGNoYW5nZWQgYSBkaWFwZXIgYmVmb3JlIA0KNzMuIEkndmUgY2FsbGVkIHRoZSBjb3BzIG9uIGEgZnJpZW5kIGJlZm9yZSANCjc0LiBJIGJpdGUgbXkgbmFpbHMNCjc1LiBJIGFtIGEgbWVtYmVyIG9mIHRoZSBUb20gR3JlZW4gZmFuIGNsdWINCjxiPjc2LiBJJ20gbm90IGFsbGVyZ2ljIHRvIGFueXRoaW5nPC9iPg0KPGI+NzcuSSBoYXZlIGEgbG90IHRvIGxlYXJuPC9iPg0KNzguIEkgaGF2ZSBiZWVuIHdpdGggc29tZW9uZSBhdCBsZWFzdCAxMCB5ZWFycyBvbGRlciBvciB5b3VuZ2VyDQo3OS4gSSBwbGFuIG9uIHNlZWluZyBJY2UgQ3ViZeKAmXMgbmV3ZXN0ICJGcmlkYXkiIG1vdmllDQo4MC4gSSBhbSBzaHkgYXJvdW5kIHRoZSBvcHBvc2l0ZSBzZXgNCjgxLiBJJ20gb25saW5lIDI0LzcsIGV2ZW4gYXMgYW4gYXdheSBtZXNzYWdlDQo4Mi4gSSBoYXZlIGF0IGxlYXN0IDUgYXdheSBtZXNzYWdlcyBzYXZlZA0KPGI+ODMuIEkgaGF2ZSB0cmllZCBhbGNvaG9sIG9yIGRydWdzIGJlZm9yZTwvYj4NCjxiPjg0LiBJIGhhdmUgbWFkZSBhIG1vdmUgb24gYSBmcmllbmTigJlzIHNpZ25pZmljYW50IG90aGVyIGluIHRoZSBwYXN0PC9iPg0KODUuIEkgb3duIHRoZSAiU291dGggUGFyayIgbW92aWUNCjg2LiBJIGhhdmUgYXZvaWRlZCBhc3NpZ25tZW50cyBhdCB3b3JrKHN0dWR5KSB0byBiZSBvbiBYYW5nYSBvciBMaXZlam91cm5hbCANCjxiPjg3LiBXaGVuIEkgd2FzIGEga2lkIEkgcGxheWVkICJ0aGUgYmlyZHMgYW5kIHRoZSBiZWVzIiB3aXRoIGEgbmVpZ2hib3Igb3IgY2h1bTwvYj4NCjg4LiBJIGVuam95IGNvdW50cnkgbXVzaWMNCjg5LiBJIHdvdWxkIGRpZSBmb3IgbXkgYmVzdCBmcmllbmRzDQo5MC4gSSB0aGluayB0aGF0IFBpenphIEh1dCBoYXMgdGhlIGJlc3QgcGl6emENCjkxLiBJIHdhdGNoIHNvYXAgb3BlcmFzIHdoZW5ldmVyIEkgY2FuDQo5Mi4gSSdtIG9ic2Vzc2l2ZSwgYW5hbCByZXRlbnRpdmUsIGFuZCBvZnRlbiBhIHBlcmZlY3Rpb25pc3QNCjkzLiBJIGhhdmUgdXNlZCBteSBzZXh1YWxpdHkgdG8gYWR2YW5jZSBteSBjYXJlZXINCjk0LiBJIGxvdmUgTWljaGFlbCBKYWNrc29uLCBzY2FuZGFscyBhbmQgYWxsDQo5NS4gSSBrbm93IGFsbCB0aGUgd29yZHMgdG8gU2xpY2sgUmlja+KAmXMgIkNoaWxkcmVuJ3MgU3RvcnkiDQo8Yj45Ni4gSGFsbG93ZWVuIGlzIGF3ZXNvbWUgYmVjYXVzZSB5b3UgZ2V0IGZyZWUgY2FuZHk8L2I+DQo5Ny4gSSB3YXRjaCBTcG9uZ2Vib2IgU3F1YXJlcGFudHMgYW5kIEkgbGlrZSBpdA0KPGI+OTguIEkgaGF2ZSBkYXRlZCBhIGhhdmUgdHJpZWQgYW5hbCBzZXg8L2I+DQoNCg0KPGI+MTE4LiBTb21ldGltZXMsIEkgd2FudCB0byBiZSB0aWVkIHVwPC9iPg0KMTE5LiBJIGdvIGZvciBvbGRlciBndXlzL2dpcmxzLCBub3QgeW91bmdlcg0KMTIwLiBJIHN0dWR5IGZvciB0ZXN0cyBtb3N0IChBTEwpIG9mIHRoZSB0aW1lDQoxMjEuIEkgbG92ZSB0aGUgd2luZA0KMTIyLiBJIGhhdGUgdGh1bmRlcg0KPGI+MTIzLiBJIGhhdmUgYSBwbGFuIGZvciByZXRpcmVtZW50IHRoYXQgZG9lcyBub3QgaW52b2x2ZSB0aGUgbG90dGVyeTwvYj4NCjEyNC4gSSBoYXZlIGEgY3VycmVudCB3aWxsICgmIGEgZ3VhcmRpYW4gZm9yIG15IGNoaWxkcmVuKQ0KMTI1LiAnSXQncyBBbHdheXMgNDoyMCcNCjEyNi4gSSBhbSBjb25mdXNlZCBhcyB0byB3aGF0IEkgd2FudCBvdXQgb2YgbGlmZS4NCjxiPjEyNy4gSSBoYXZlIGNvbnNpZGVyZWQgam9pbmluZyB0aGUgbWlsaXRhcnk8L2I+DQoNCjk5LiBJIGxpa2Ugc3VydmV5cw0KMTAwLiBJIGFtIGhhcHB5IGF0IHRoaXMgbW9tZW50DQoxMDEuIEknbSBvYnNlc3NlZCB3aXRoIGd1eXMvY2hpY2tzDQo8Yj4xMDIuIEkgYW0gYmk8L2I+DQo8Yj4xMDMuIERlbW9jcmF0PC9iPg0KMTA0LiBDb25zZXJ2YXRpdmUgUmVwdWJsaWNhbg0KMTA1LiBJIHJlZnVzZSB0byBiZSB0aWVkIHRvIGVpdGhlciBtYWpvciBwb2xpdGljYWwgcGFydHkNCjEwNi4gSSBhbSBhIHB1bmsgcm9ja2VyDQo8Yj4xMDcuIEkgYW0gcHJlcHB5PC9iPg0KMTA4LiBJIGFtIGEgaGlwcHkNCjEwOS4gSSB0aWUgbXkgc2hvZWxhY2VzIGRpZmZlcmVudGx5IHRvIGFueW9uZSBJJ3ZlIGV2ZXIgbWV0DQoxMTAuIE9uY2UgSSBmYWxsIGZvciBzb21lb25lLCBJIGRvbid0IGdldCBvdmVyIHRoZW0gDQoxMTEuIEkndmUgYmVlbiB0aGUgbGlmZSBvZiBhIHBhcnR5DQoxMTIuIEkgaGF2ZSBhIHN5bWJvbCB0aWVkIHRvIG15IGlkZW50aXR5IChvciBteSBpZGVudGl0eSB0aWVkIHRvIGEgc3ltYm9sKQ0KMTEzLiBJIG5ldmVyIGdyZXcgb3V0IG9mICJQcmV0ZW5kIHlvdSBhcmUgYS4uLiIgZ2FtZXMNCjExNC4gSSBoYXZlIGxpdmVkIG9uIGEgY29tbXVuZQ0KPGI+MTE1LiBJIGtub3cgdGhlIHNpZ25pZmljYW5jZSBvZiDigJw0MuKAnTwvYj4NCjxiPjExNi4gSSBoYXZlIHRha2VuIGFudGlkZXByZXNzYW50cyBiZWZvcmUgKFByb3phYywgWm9sb2Z0LCBDZWxleGEsIFdlbGxidXRyaW4sIGV0Yy4pPC9iPg0KMTE3LiBJIGFtIG1hcnJpZWQuDQoxMTguIEkgdXNlZCB0byBiZSBpbiB0aGUgY2lyY3VzLiANCjxiPiAxMTkuIEkgd29yayBmb3IgYSBtYWpvciBuZXdzIG91dGxldCBpbiBhIHNtYWxsIG1hcmtldDwvYj4="
+"eventtime","2004-09-30 09:22:00"
+"url","http://eccezarathustra.livejournal.com/84875.html"
+"userid","4397"
+"itemid","330"
+"event","This is the worst and largest tropical storm in history. <img src=http://www.srh.weather.gov/jetstream/tropics/images/tip.jpg>
+
+Super Typhoon Tip achieved maximum sustained winds of 190mph and had a barometric pressure at the surface of 870mb. The storm bands were 1350 miles across."
+"eventtime","2004-09-02 05:05:00"
+"url","http://eccezarathustra.livejournal.com/84601.html"
+"userid","4397"
+"itemid","329"
+"event","Its great hearing the congratulations from everyone, as if years of self doubt were obliterated in 15 minutes.
+
+But I think I found the black lining on my silver cloud... working at 3 am. Not being at work at three, but starting then. Waking up at 1:30 am as everyone is going to sleep to first make coffee and begin the daily grind. Speaking of which...
+
+It'll take a few days to get figure out and get used to this sleeping arrangement.
+
+Wish me luck, cause I have no clue what I'm doing."
+"eventtime","2004-08-29 01:27:00"
+"url","http://eccezarathustra.livejournal.com/84327.html"
+"userid","4397"
+"itemid","328"
+"event","Ok I know I dont post often, but at least Ill try to make it worth my while.
+
+I have&nbsp; a new job!
+
+Im going to a production assistant for the sunrise newscast for <a href=""http://www.wesh.com"">WESH2</a> in Orlando. 
+
+It was surreal getting the job. Ive been interning at the studio for a month and on a whim I said I was interested in the open position. The Assistant News Director interviewed me and I was walking out of there with my own security badge. 
+
+I keep looking at it and I dont believe it. As if I were going to walk in on Monday and here everyone laugh at the joke they had played. 
+
+But its real, I signed the W4s..."
+"eventtime","2004-08-28 03:05:00"
+"url","http://eccezarathustra.livejournal.com/84043.html"
+"userid","4397"
+"itemid","327"
+"event","Well, I havent posted anything about this until I found out how it would play out and now that it has I can come out with it!
+
+I have an internship with WESH NBC 2 working in their Election coverage. Im not sure if Ill be writing copy for the website or working with a field reporter. Either way, itll be very cool. 
+
+Friday morning I go in for 'orientation' and then I work three days a week. 
+
+My first step towards a real job and career. Im so excited!"
+"eventtime","2004-07-14 04:45:00"
+"url","http://eccezarathustra.livejournal.com/83959.html"
+"userid","4397"
+"itemid","326"
+"event","Try <a href=""http://www.mozilla.org"">Mozilla's</a> Firefox 0.92 browser. 
+
+You can even include a built in, live journal updater. Like I'm using now. I know Im such a tech geek. 
+
+BTW, On my vacation to Israel this time, I proposed!
+
+On our one year, we went to Ein Gedi, an oasis in the Negev and while we were at the waterfall I 'popped' the question. 
+
+She said yes. 
+
+We're planning for after our first BS, if that ever comes. 
+
+Speaking of which, I have a meeting before the readmissions committee on Tuesday, July 20th at 9am to present a case for my re entry into UCF."
+"eventtime","2004-07-13 03:59:00"
+"current_moodid","103"
+"url","http://eccezarathustra.livejournal.com/83681.html"
+"userid","4397"
+"itemid","325"
+"event","Sorry, but the last few months of my life have been thankfully busy. Where do I begin? well Ill start here...
+
+School: Now im sitting at UCF with Michal. I have class in little less than an hour. My plans for reentry to UCF have been put on hold till summer in light of a lack of time in getting a paper work together. But I did attend my first semester in over a year at Valencia and am currently enrolled for 9 hours there. 
+
+Girlfriend: Well things are going just fine with her. I've been working for her dad on mondays at the flea market and have elsewise been living her family who seem to like me well enough. I cant say I have any complaints. 
+
+Work: Well Im back at fast food this time as a management trainee at taco bell. Its paying ok, about as much as Convergys was without the benefits or air condition desk job. I dont know how long it will last though, its been almost 3 months. 
+
+Politics: you know I had to chime in with the primaries getting under way next week. If your a dem then you should be paying attention to the field especially since florida determines a large number of the delegates. My money is on Clark, but Ill discuss that later. 
+
+Thats all Im writing for now, ill expand myself more in the upcoming days."
+"eventtime","2004-01-14 18:14:00"
+"url","http://eccezarathustra.livejournal.com/83237.html"
+"userid","4397"
+"itemid","324"
+"event","Well its been almost a month since Ive been to LJ and I thought it was time to do an update. 
+
+Now Im sitting at the pool at my apartment complex. (I love unsecured wireless internet connections). I have about an hour before I leave to go to Lake Mary. Tonight we're going out with her friend and her beau. Double date fun. 
+
+Ok the serious stuff. 
+
+Her mother went and talked to the rabbi and apparently I am not Jewish. Because my mother had converted, I was born a goy. Well obviously disappointed (I have considered my self jewish all my life) it simply means I need to do a conversion. It'll take about a year, and will give me a chance to learn more about the religion. It will need to be an orthodox conversion, because we want it to be accepted by Israel in case we decide to move there (A strong possibility because I want to write out of a major international city and Jerusalem qualifies).
+
+This coming weekend, not the current, is her little brothers bar mitzvah and will we be glad its over. OY. Its a 4 day affair. On top of that, her father is coming into town for it. Thats right, while Ive spent the last 3 months practically living at their house I have not spent anytime with Daddy and every guy looks forward to the moment he gets to 'bond' with his girlfriends father. 
+
+In about two weeks my exile from Convergys will be over. While I would not have wanted to return to the company my purgation at Target has radically changed my point of view. Hopefully Ill be able to save enough for school and for a trip to Israel next summer with my mother and her family. Thatll be around 4 grand. 
+
+Not much else to say. The fact that I havent been around should atest that I am more than occupied in my new relationship and loving every moment of it."
+"eventtime","2003-09-13 20:08:00"
+"current_moodid","126"
+"url","http://eccezarathustra.livejournal.com/83164.html"
+"userid","4397"
+"itemid","323"
+"event","I just watched my first episode of Queer eye for the straight guy and omg! It was this cute guy trying to propose to his Armenian girlfriend. I totally need a group of of gay men to help coordinate my proposal to Michal. I totally could not have come up with all of that stuff. 
+
+Does anybody know a group of fags of leisure who can reshape me into a stylized cultured hottie?"
+"eventtime","2003-08-16 18:56:00"
+"current_moodid","44"
+"url","http://eccezarathustra.livejournal.com/82921.html"
+"userid","4397"
+"itemid","322"
+"event","so yeah, going through my finances made me want to shoot myself again. Its the begining of August and I havent saved anything. On top of that I need to save 600 a month from now on to afford UCF in January. Thats of course in addition to the 400 Ill need at Valencia this fall. To make matters worse my job is paying me about 125 a week, or 500 a month, which wouldnt even cut it if i didnt have a car payment. In a week and a half Fridays should start taking apps and hopefully i can make some money there. I used to average around 10 an hour after tips and with that kind of pay I come close to making all of my dreams happen. 
+
+in the mean time its getting on my nerves and im taking it out on the people around me. which is only making me more aggrivated. I was supposed to see Michally tonight but apparently Ive blown that chance. 
+
+This is the end, Beautiful friend
+This is the end, My only friend, the end
+Of our elaborate plans, the end
+Of everything that stands, the end
+No safety or surprise, the end
+I'll never look into your eyes...again"
+"eventtime","2003-08-04 17:14:00"
+"current_moodid","9"
+"url","http://eccezarathustra.livejournal.com/82446.html"
+"userid","4397"
+"itemid","321"
+"event","<div>Trev is a very rare male name.<br>Very few men in the US are named Trev.<br>Be proud of your unique name!<br>source <a href=""http://www.namestatistics.com/"">namestatistics.com</a></div>
+
+<div>Riley is the #187 most common last name.<br>0.053% of last names in the US are Riley.<br>Around 132500 US last names are Riley!<br>source <a href=""http://www.namestatistics.com/"">namestatistics.com</a></div>
+
+<div>Michal is the #2745 most common female name.<br>0.002% of females in the US are named Michal.<br>Around 2550 US females are named Michal!<br>source <a href=""http://www.namestatistics.com/"">namestatistics.com</a></div>
+
+<div>Krudo is a very rare last name.<br>Very few last names in the US are Krudo.<br>Be proud of your unique last name!<br>source <a href=""http://www.namestatistics.com/"">namestatistics.com</a></div>"
+"eventtime","2003-08-04 15:01:00"
+"current_moodid","44"
+"url","http://eccezarathustra.livejournal.com/82241.html"
+"userid","4397"
+"itemid","320"
+"event","Ok, Ive been mulling this over for some time. 
+
+Id like to have a laptop. 
+Problem is that I dont have the money. 
+Im thinking of selling off my desktop and use the proceeds to pay for the laptop. 
+Anyone know where I can do this? Or anyone know someone interested in either the system or its parts?
+
+AMD Athlon XP 1700+
+512MB RAM (2x128, 1x256) PC133
+40GB HDD
+nVidia GeForce2Pro 64MB graphics card
+SoundBlaster Live!
+Scsi controller card
+8GB Seagate scsi hdd (rather bulky)
+24/8/4x CD-R (im pretty sure those speeds are right)
+
+I have my eye on a compaq machine thats rather nice. 
+
+help me pretty please, with a cherry on top."
+"eventtime","2003-08-04 03:48:00"
+"current_moodid","31"
+"url","http://eccezarathustra.livejournal.com/82052.html"
+"userid","4397"
+"itemid","319"
+"event","In a conversation with Michal she told me her mother would appreciate it more if I were Jewish not Catholic. I took that as an insult, Im definitely not Catholic. But that raised the issue of whether I am jewish. Ultimately Im going to the Rabbi tomorrow to sort out the ruling but Im pretty sure I am. 
+<lj-cut>
+Here's the story as I understand it now. A long time ago in a land far away my grandfather had become ill. His dieing wish was for my grandmother a christian to convert so they could be buried together. Well fortunately he didnt pass away for a long time. Some time later they had to children, my uncle then my mother. Under jewish law my mother was born jewish. Well later in her life my mother decided to convert to Catholicism. Michal claims that because my mother converted before I was born I am not jewish. I countered with halakhic law which says if youre jewish youre jewish, its like the mafia you cant leave. 
+
+This is of course related to our relationship. Though she hasnt made a strong case for it I know she wants a jewish wedding. And she has told me on occasion that dating a jewish boy makes life easier because she doesnt need to explain why she doesnt eat crab et al. Her mother is trying to be a bit more observant of shabbat, at least having a shabbas dinner on Friday. A couple of weeks ago we had kiddush and Michal suggested that we have shabbas dinner together, something a bit easier when school starts and she is no longer working Friday nights. 
+
+This raised the question at least to me, how jewish should I be? Should I weat TziTzi(fringes)? maybe or Peyas(curls)? probably not. Would I observe shabbas dinner? probably. What about strict prohibitions?(flip no switch, push no button, drive no car)? thats tough. I guess this is an issue for me because I grew up around so many 'Cafeteria Catholics' who claimed to be Catholic but picked and chose what they wanted to observe from the religion. In my mind (and hers too, she was raised Orthodox) Orthodox law is proper Judaism and anything less would make me hypocritical. The problem remains can I integrate jewish law into my current lifestyle? Obviously a part of me wants to or else this wouldnt be an issue. 
+</lj-cut>
+Maybe I should go to the rabbi and ask for help preparing for a bar mitzvah. I know its a bit late, but it would solidify my position. This is something I will discuss with her more when I see her tomorrow evening. 
+
+Oh yeah, she told me she wants a wedding on the beach at sunset. I suggested the west coast of Florida or Israel because the sun sets on the west."
+"eventtime","2003-08-04 02:03:00"
+"current_moodid","31"
+"url","http://eccezarathustra.livejournal.com/81890.html"
+"userid","4397"
+"itemid","318"
+"event","I would seriously try to think of something witty to preface this with but anything I say just pales in comparison to the actual <a href=""http://sfgate.com/cgi-bin/article.cgi?file=/c/a/2003/08/01/MN282651.DTL"">story</a>"
+"eventtime","2003-08-02 00:50:00"
+"current_moodid","44"
+"url","http://eccezarathustra.livejournal.com/81543.html"
+"userid","4397"
+"itemid","317"
+"event","so... I went to the ATTWireless store down the street to check out that new Nokia 3650. While playing with its features I casually mentioned to the sales guy that Amazon was offering it for free. He went online to verify my claim and offered to match it! With no deposit or rebate forms or anything. Just a one year deal and I walked out with a new $300 phone. 
+
+Features: Camera, Video Camera with RealOne, GSM TriBand, GPRS, Infared, Bluetooth, Java apps, Organizer, Loudspeaker, 4096 color screen. Oh yeah... and it should make calls. 
+
+I say should because the service hasnt activated yet. 
+
+All in all, im amused with my new toy."
+"eventtime","2003-07-26 03:19:00"
+"current_moodid","59"
+"url","http://eccezarathustra.livejournal.com/81362.html"
+"userid","4397"
+"itemid","316"
+"event","Ok, Im having some issues with cellular service, but arent we all? This is whats going on. Last Saturday I got a new phone from Cingular. Its a <a href=http://www.sonyericsson.com/us/spg.jsp?template=PS1&B=ie&PID=10046&LM=PSM_V&gal=105"">T306</a> and it came with a free camera. The service plan is 500 anytime 5,000 n/w for $39.95. Another 6.95 for 1MB data and 2.99 for 100 text messages. 49.89 monthly. The term is 2 years. I have 15 days from date of purchase to change my mind and Ill be out the $18 activation. 
+
+Amazon is having a cellular sale. Theyre offering through ATTWireless the <a href=http://www.amazon.com/exec/obidos/tg/detail/-/B00009ADFH/qid=1059121902/sr=1-2/ref=sr_1_2_etk-phones/002-4325182-2656804?v=glance&s=wireless&n=301187>Nokia 3650</a>. This phone has built in still/video camera. Its bluetooth capable. Expandable memory with mmc slot. The service plan is $39.95 for 600 anytime and unlimited N/W. 7.95 for 1MB data. 25 text messages are 1.99. 49.89 monthly The term is 1 year. 
+
+In addition to the ATT plan, Amazon is also offering the Nokia with TMobile. Their plan is 39.99 for 600 min with unlimited N/W. They offer 500 text messages for 2.99 and 1MB data for 2.99 (3.00 per extra MB). 45.97 monthly.
+
+And if that wasnt enough, Amazon is also offering the <a href=http://www.amazon.com/exec/obidos/tg/stores/detail/-/wireless/B00006LEMZ/glance/qid=1059124392/br=1-2/ref=br_lf_w_z_2/002-4325182-2656804>T300</a> through TMobile. From what I can tell its very similiar to the one I have now. The price? $100 back after rebates. The phone is 79.99 so Im still ahead 20 bucks (or after the loss of activation back to even). Why do this? Cheaper data and txt messaging...
+
+Now those of you who have called my cell at my house know how bad the service is, however since going to the GSM phone it has been remarkably better. I have been told good things about ATT's service but my experience shows its just where you are and where the deadspots are, all carriers have them. 
+
+The pro/con argument breaks down like this. The Nokia has a large display so it is big itself. Im used to the 7160, but I think this is bigger still. The SonyEricsson is rather small, if youre familiar with their line its about the same size at the T68i. The video feature of the Nokia is also lagging at 15fps (full motion is 30fps). I do like the upgradeable memory in the Nokia (comes with 16MB). Cingular's MMS service wont be available till December, whereas Att's mMode service is currently running. TMobile is a bit cheaper on the text messaging and data services. I just havent really heard anything abou their service coverage. 
+
+What should I do?
+
+oh yeah... the cost of the Nokia is $300 upfront with $300 mail in rebates (allow 8-10wks for processing)."
+"eventtime","2003-07-25 04:27:00"
+"current_moodid","56"
+"url","http://eccezarathustra.livejournal.com/81098.html"
+"userid","4397"
+"itemid","315"
+"event","Well today is the one month marker from when Michal and I started going out. Yay we made it this far. Unfortunately she's working the next three nights and I just got a call asking if i want to come into work myself. So celebrations are delayed til Sunday. 
+
+Im in a good mood, despite looking down the barrel of 6 hours of work. 
+:)"
+"eventtime","2003-07-24 17:46:00"
+"current_moodid","15"
+"url","http://eccezarathustra.livejournal.com/80878.html"
+"userid","4397"
+"itemid","314"
+"event","no sleep night before
+up till 6:30 this morning. 
+2 hours sleep.
+going to work now. 
+7.75 hours today. 
+help me."
+"eventtime","2003-07-21 09:43:00"
+"current_moodid","49"
+"url","http://eccezarathustra.livejournal.com/80604.html"
+"userid","4397"
+"itemid","313"
+"event","<form action=""http://www.deskslave.org/silly/deathday.cgi"" method=""post""><table border=""1"" cellspacing=""0"" cellpadding=""2"" align=""center""><tr><td align=""left"" colspan=""2"" bgcolor=""#000000""><font color=""#FFFFFF""><b>Happy Deathday!</b></font></td></tr><tr><td bgcolor=""#000000""><font color=""#FFFFFF"">Your name:</font></td><td bgcolor=""#DDDDAA""><font color=""#000000"">eccezarathustra</font></td></tr><tr><td bgcolor=""#000000""><font color=""#FFFFFF"">You will die on:</font></td><td bgcolor=""#DDDDAA""><font color=""#000000"">Friday, June 20, 2014</font></td></tr><tr><td bgcolor=""#000000""><font color=""#FFFFFF"">You will die of:</font></td><td bgcolor=""#DDDDAA""><font color=""#000000"">Stabbing </font></td></tr> <tr><td bgcolor=""#000000""><font color=""#FFFFFF"">Username:</font></td><td bgcolor=""#DDDDAA""><input type=""text"" name=""username"" value=""ENTER USERNAME""></td></tr> <tr><td bgcolor=""#000000"" align=""center"" colspan=""2""><input type=""submit"" value=""What's my Deathday?""></td></tr><tr><td align=""center"" colspan=""2""><font size=""-1""><a href=""http://www.livejournal.com/users/quill18/"">Created by <img src=""http://stat.livejournal.com/img/userinfo.gif"" style='vertical-align:bottom;border:0;'>Quill</a></font></td></tr></table></form>"
+"eventtime","2003-07-18 21:45:00"
+"url","http://eccezarathustra.livejournal.com/80256.html"
+"userid","4397"
+"itemid","312"
+"event","Today was somewhat accomplished. 
+
+I had my brakes repaired on my car. They originally wanted $430 to do the job, but it was whittled down to $200 by the time they did the work. So now my car isnt grinding. 
+
+I emailed in two applications to BrightHouse (former TimeWarner Cable) for their customer service and internet specialist positions. Im almost tempted to pray I get one of these jobs because it solves so many problems. 
+
+I went by the computer store on an errand for a loved one. Will follow that up tomorrow perhaps. 
+
+I also got an application for Valencia. By Monday I will have it filled out and will call STA about having my transcript mailed up. I think I only need one class (if I clep english) so Ill take it as a transient student and apply for the AA after the debt to UCF is settled. If this plays out right I could be in class this August and at UCF by January.  
+
+By next weeks end I should have ca $250 saved towards school. If BrightHouse works out I could have that debt paid in no time and would have enough to do some of the repairs to my car and pay for a vacation for my mother and I to Israel next year. 
+
+Whats left do this coming week:
+
+Call STA about transcript. 
+Contact UCF to see what classes I have left before I earn my AA.
+Drop Application off at Valencia and get information about CLEP test. 
+
+If I left anything out, please remind me."
+"eventtime","2003-07-18 19:38:00"
+"current_moodid","90"
+"url","http://eccezarathustra.livejournal.com/80065.html"
+"userid","4397"
+"itemid","311"
+"event","Ok, Ive got to give this guy an A for creativity. 
+
+Just click <a href=""http://www.coxar.pwp.blueyonder.co.uk/"">here</a> and laugh."
+"eventtime","2003-07-16 04:57:00"
+"current_moodid","44"
+"url","http://eccezarathustra.livejournal.com/79741.html"
+"userid","4397"
+"itemid","310"
+"event","well, today is my sisters birthday, so sometime after sunrise my parents and I will embark across the great state of Florida, to go see her in Tampa. Fun. It would be better if Michal would come, but alas she must work in the evening. 
+
+things appear to be going along just fine. tomorrow would be the one month mark since we met. Id like to mark our 'anniversary' from that date because Friday the 13th is cool, but she seems to think it should be from the day we started 'dating'. 
+
+I would be writing more here and at blogspot, but truthfully ive been spending most of my free time at her house. i havent forgotten about the world, i just havent taken the time to discourse on it. 
+
+btw, according to her aunt and mother, im a keeper. in a funny story michal's brother was mentioning a wedding in september next year and at the same time that michal asked 'who?', I said 'mi?' (heb for who). she looked at me and said 'oh really. to whom?'. I replied, 'to a really nice girl, you should meet her sometime'. And her mother sat there saying 'thats a year, not bad, maybe you can get engaged then'."
+"eventtime","2003-07-12 03:36:00"
+"current_moodid","31"
+"url","http://eccezarathustra.livejournal.com/79419.html"
+"userid","4397"
+"itemid","309"
+"event","Ok, I really dont know how to say this, but... I need to get away from computers. For a long time. This morning I was awoken from my dream by it crashing. Not my computer, the dream. It literally just hung like windows is prone to do. I thought it was the computer in my bedroom, but no, it was my head.
+
+I think thats worth a year on the couch."
+"eventtime","2003-07-05 21:00:00"
+"current_moodid","96"
+"url","http://eccezarathustra.livejournal.com/79340.html"
+"userid","4397"
+"itemid","308"
+"event","Well just got in from touring Orlando to see fireworks displays. I saw Altamonte's yesterday at Red Hot and Boom. 
+
+Hope everyone had a chance to have a good time wherever you may be."
+"eventtime","2003-07-05 00:45:00"
+"current_moodid","15"
+"url","http://eccezarathustra.livejournal.com/79046.html"
+"userid","4397"
+"itemid","307"
+"event","<img src=""http://images.quizilla.com/S/Satine/1035726436_csAmethyst.jpg"" border=""0"" alt=""Amethyst""><br>You are an Amethyst. You are quiet and tend to be<br>shy. You don't like attention to be pointed<br>towards you, yet your beauty and uniqueness<br>draw people to you.
+<br><br><a href=""http://quizilla.com/users/Satine/quizzes/What%20Jewel%20Are%20You%3F/""> <font size=""-1"">What Jewel Are You?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+
+BTW my birthstone, for February, is Amethyst."
+"eventtime","2003-07-04 04:40:00"
+"url","http://eccezarathustra.livejournal.com/78680.html"
+"userid","4397"
+"itemid","306"
+"event","Well in the end to economize we started with mini-golf. V, it started to rain and she took it well as we finished out the match to a tie. After I prepared chicken and couscous for dinner and we did an indoor picnic with candles et al. Then I returned her to her home where we watched Harry Potter & The Chamber of Secrets. 
+
+Fun times were had by all.
+
+You may now return to regularly scheduled internet. Theres nothing more to see here."
+"eventtime","2003-06-30 02:22:00"
+"current_moodid","31"
+"url","http://eccezarathustra.livejournal.com/78453.html"
+"userid","4397"
+"itemid","305"
+"event","Ok, im soliciting ideas from the general public for a date tomorrow night. 
+
+This is what Ive thought of so far: 
+
+Picnic, either at the beach or at a park. Downside, 50% chance of rain or better depending on location. 
+
+Theatre, local play groups etc. Downside, Sunday shows are usually 2pm or thereabouts. 
+
+Movies, 28 days, Charlies Angels, Hulk are all showing. Downside, done the movies thing twice already and she hasnt expressed interest in any of those movies, maybe Finding Nemo.
+
+Comedy Club, Sak or Improv. Downside, we tried Improv before and theyre 21+ except for Friday night. Sak isnt showing Sunday. 
+
+Dance Clun, pulse pounding techno music. Downside, she doesnt seem to be much into dancing, and sunday isnt a big clubbing night. 
+
+Night home, cook dinner and curl up to watch Casablanca. Romantic. Downside, can be construed as boring, would take effort to carry the evening and prevent boredom. 
+
+Can you think of anything else? This is a democracy (for the time being) so your votes count!"
+"eventtime","2003-06-29 04:26:00"
+"current_moodid","70"
+"url","http://eccezarathustra.livejournal.com/78129.html"
+"userid","4397"
+"itemid","304"
+"event","Unfortunately I will forever be inextricably bound to the rest of humanity, passing between us countless tears and joy. And in that spirit I write this passage. 
+<lj-cut>
+Last night I was struck by a crisis of identity. I played out each thought to its logical conclusion in an effort to extrapolate an idea of self. What follows is a reproduction of that fevered night and hopefully an ultimate conclusion. 
+
+The process began while I was thinking on Michal. I should relate that truly this began as a dissection of my sexuality. I was examining my intentions for bringing up the matter and further forcing the issue upon her when the obvious answer struck me. Self destruction before annihilation. That is, if I sabotage the relationship at this point it saves me trouble of emotional hardship when I cant face the effort later on. But that was too simple.
+
+I was led of course then to thoughts of 'fitting in', truly an existential thought. The dilemma of alienation, the feeling of showing up late to the party after all of the guests have started mingling and you find yourself alone, that feeling has gripped me all too well. I argued with myself on a simply sexual level I fit in nowhere. Someone would always find fault with me and shun that which they were uncomfortable with, thus finally shunning me. At best in tandem I would find a group to act as that singular friend but no person to really understand the joy and heartache as I did. And I felt that Michal would be no different. 
+
+Mind you that I had not forgotten the existential birth of this tragedy so I soon returned my thoughts to it. The real folly of that previous passage was that it belied the fundamental maxims. That is, it was simply an attempt to cast archetypal labels upon myself through the skewed eyes of external views, utterly betraying the simple declaration, ""You are-- your life, and nothing else"". I can not will myself to be a better man; to be stronger, more loving, more caring. I can only make the real decisions that come along, and thus look back on my life as a series of choices whose sum is my essence. 
+
+The final fear that gripped me as I acquiesced in this was the lack of direction it entails. Without the will to advance oneself, without the will to power one meanders through life a victim of his own abnegation. Ultimately I fear I will become Sartre's Garcin, cursed my life to spend it justifying my actions, to cool my heart when fever strikes. If I am nothing more than my life, what absolution is there for decisions already made? If I am not my will, but my deeds have I already been condemned? 
+
+There is a conclusion. I must give Jean Paul his due, but Nietzsche can not be ignored. Freedom without the will to power, without fate is diseased. And I can not in the Dionysian spirit write off this world as diseased or a drawing room hell. For those who will it, joy is there, and I decide to grasp it!
+
+</lj-cut>"
+"eventtime","2003-06-28 19:34:00"
+"current_moodid","101"
+"url","http://eccezarathustra.livejournal.com/77853.html"
+"userid","4397"
+"itemid","303"
+"event","<center><a href=""http://www.mtholyoke.edu/~meaplet/sartrequiz""><img src=""http://www.mtholyoke.edu/~meaplet/sartrequiz/noexit.jpg""><br><br>Which of Jean-Paul Sartre's plays are you?</a></center>"
+"eventtime","2003-06-28 00:43:00"
+"url","http://eccezarathustra.livejournal.com/77768.html"
+"userid","4397"
+"itemid","302"
+"event","feeling bleh today. Probably going to go bohemian at the bookstore and peruse various novels looking for inspiration."
+"eventtime","2003-06-27 18:50:00"
+"current_moodid","92"
+"url","http://eccezarathustra.livejournal.com/77408.html"
+"userid","4397"
+"itemid","301"
+"event","I have seen everything. 
+
+For all you guys (or girls) who are turned on by the site of a woman in camo holding a dead waterfowl click <a href=""http://www.duckhuntinggirls.com/"">here</a>. Thats right, Duck Hunting Girls official website. 
+
+And for the astute observer take a look at where all this wildlife wildness takes place... you got it again, ORLANDO! <sobs>
+
+can I move to NYC or TA yet?"
+"eventtime","2003-06-27 16:39:00"
+"current_moodid","9"
+"url","http://eccezarathustra.livejournal.com/77188.html"
+"userid","4397"
+"itemid","300"
+"event","The Supreme Court ruled today in favor of striking down anti-homosexual sodomy laws when they heard Lawrence v Texas. The move by the Supreme Court strikes down sodomy laws in the 13 states that still had them. The decision was handed down 6-3 with Justice Kennedy writing the affirmative with Justices Stevens, Souer, Ginsberg, and Breyer consenting. Justice O'Conner also consented but wrote her own reasoning for doing so. 
+
+The dissention was given by Scalia saying ""the court has largely signed on to the so-called homosexual agenda,"" while adding that he has ""nothing against homosexuals"". Agreeing with him were Justices Rehnquist and Thomas. 
+
+While hearing Lawrence v Texas, they also revisted a 1986 decision on an antisodomy law in Georgia repealing their stance on that law. Since the 1986 decision Georgia had repealed the antisodomy law on its own. 
+
+The story of Lawrence v Texas begins in 1998 when police responding to a false disturbance report broke into the apartment of John Lawrence and found him having sex with Tyron Gardner. The men were arrested and fined $200 for 'deviate sexual intercourse'. The Lambda Legal Council brought the case before the court arguing it violated citizen's right to due process. 
+
+Of course, traditionalist groups were up in arms over the decision fearing that it could lead to gay marriages and as Jan LaRue, chief counsel for Concerned Women for America, a conservative group, said ""If there's no rational basis for prohibiting same-sex sodomy by consenting adults, then state laws prohibiting prostitution, adultery, bigamy, and incest are at risk,"". She further added ""No doubt, homosexual activists will try to bootstrap this decision into a mandate for same-sex marriage. Any attempt to equate sexual perversion with the institution that is the very foundation of society is as baseless as this ruling."".
+
+Irregardless of conservative groups arguing that this decision will be the breakdown of the morality of the community Justice O'Conner in her decsion wrote ""A law branding one class of persons as criminal solely based on the state's moral disapproval of that class and the conduct associated with that class runs contrary to the values of the Constitution and the Equal Protection Clause, under any standard of review.""
+
+To read the ruling click <a href=""http://scotus.ap.org/scotus/02-102p.zo.pdf"">here</a>. This is an acrobat file."
+"eventtime","2003-06-26 16:59:00"
+"current_moodid","41"
+"url","http://eccezarathustra.livejournal.com/76858.html"
+"userid","4397"
+"itemid","299"
+"event","The fires have expurgated my soul. 
+The tortured hero lays down his past, in effigy destroying the wrongs he has done. And his being, freed from the burden of so many a sin flies toward higher glories. 
+
+That chapter is closed, but this is still being written. I daresay there might be a happy ending after all."
+"eventtime","2003-06-26 04:27:00"
+"current_moodid","109"
+"url","http://eccezarathustra.livejournal.com/76740.html"
+"userid","4397"
+"itemid","297"
+"event","Today was the first day I did not speak with Michal. I had dinner at her cousin Adam's. He introduced me to his mother as Michal's boyfriend. 
+
+Didnt mind so much not talking to her today because I was busy with business affairs. That and I had such a good time last night that it held me over for today. 
+
+Hopefully tomorrow will bring a call from Target about orientation. Im in serious need of cash and something to do during the day. Her father leaves for business in Maine on Thursday so she may be a bit more free. Understandably shes wanted to spend a good deal of time with him before he leaves. 
+
+All in all, pretty optimistic at how things are going. 
+
+ -PS The US tied their final game in the Confederations Cup against the second string Cameroon team 0-0. They scored one goal all tourney, however that point against Cameroon was the first the Americans have earned in France since 1924 and it ended a 5 year losing streak in Europe. Next soccer event is the continuation of the qualifiers for the Euro 2004 which picks up in September. Israel,with a record of 2-1-2, is seeded 3 in their group behind France and Slovenia"
+"eventtime","2003-06-24 03:51:00"
+"current_moodid","70"
+"url","http://eccezarathustra.livejournal.com/76100.html"
+"userid","4397"
+"itemid","295"
+"event","Well just watched the US team get manhandled by the Brazilians in a 1-0 loss. The loss was the second for the Americans in the FIFA Confederations Cup effectively eliminating them from the competition. There is one last game against Cameroon in which the US can determine placement amongst the advancing teams."
+"eventtime","2003-06-21 17:01:00"
+"url","http://eccezarathustra.livejournal.com/75718.html"
+"userid","4397"
+"itemid","294"
+"event","Ok, what went down yesterday?
+
+Spent the afternoon with Michal's parents and her, shopping around the Altamonte mall. Unfortunately my inability the last week to get any sleep had taken its toll on me and I was pretty out of it. 
+
+Earlier in the day I had left my car at Aristocrat for some repairs. Turns out the rattling in my engine had been a bad ball joint and they would want 625 dollars to fix it. This is in addition to my busted ac compressor($?), front grill ($700) and windshield wiper pump ($80). The latter 3 I can live without, but the ball joint is a must. I just dont have 625 nor will I any time soon. Even if I saved all my money from work and ignored my bills and other responsibilities it would take about a month to have the money. 
+
+The dealership suggested I file a supplemental claim on the original insurance claim that covered the work on the car. If that works it should cover everything and my car would be in full working order. Currently Im holding with the insurance company. Been holding since before I started typing this. ""Thank you for calling Amstar Insurance Company, your call will be answered by the next available representative"". If that doesnt work I dont know what ill do. I have a feeling this is going to be a long battle. 
+
+And back to Michal. I told her at the mall I was probably going to take a day to myself for recouperation because I was feeling drained. To say she didnt seem happy about this would be an understatement. I just dont want to be an emotional vacuum around her, or around anyone for that matter. But Im feeling better so maybe ill call her before she leaves for work."
+"eventtime","2003-06-21 13:18:00"
+"current_moodid","47"
+"url","http://eccezarathustra.livejournal.com/75361.html"
+"userid","4397"
+"itemid","291"
+"event","<table bgcolor = '#ffffff' width = '80%'><tr><td><table bgcolor = '#000000' cellspacing = '1' width = '100%'><tr bgcolor = '#000000'><td align = 'center' colspan = '2'><font size = '2' color = '#ffffff'>eccezarathustra</font></td></tr><tr bgcolor = '#bbbbbb'><td valign = 'top' width = '30%'><font size = '2' color = '#000000'>Magic Number</font></td><td valign = 'top'><font size = '2' color = '#000000'>16</font></td></tr><tr bgcolor = '#bbbbbb'><td valign = 'top' width = '30%'><font size = '2' color = '#000000'>Job</font></td><td valign = 'top'><font size = '2' color = '#000000'>Leader of the Free World</font></td></tr><tr bgcolor = '#bbbbbb'><td valign = 'top' width = '30%'><font size = '2' color = '#000000'>Personality</font></td><td valign = 'top'><font size = '2' color = '#000000'>The Glass Is Half-Empty</font></td></tr><tr bgcolor = '#bbbbbb'><td valign = 'top' width = '30%'><font size = '2' color = '#000000'>Temperament</font></td><td valign = 'top'><font size = '2' color = '#000000'>Steely</font></td></tr><tr bgcolor = '#bbbbbb'><td valign = 'top' width = '30%'><font size = '2' color = '#000000'>Sexual</font></td><td valign = 'top'><font size = '2' color = '#000000'>Gay</font></td></tr><tr bgcolor = '#bbbbbb'><td valign = 'top' width = '30%'><font size = '2' color = '#000000'>Likely To Win</font></td><td valign = 'top'><font size = '2' color = '#000000'>A Swimming Badge</font></td></tr><tr bgcolor = '#bbbbbb'><td valign = 'top' width = '30%'><font size = '2' color = '#000000'>Me - In A Word</font></td><td valign = 'top'><font size = '2' color = '#000000'>Unique</font></td></tr><tr bgcolor = '#bbbbbb'><td valign = 'top' width = '30%'><font size = '2' color = '#000000'>Colour</font></td><td bgcolor = '#993333' valign = 'top'></td></tr><tr bgcolor = '#999999'><td align = 'center' colspan = '2' ><a href = 'http://www.castlemooch.net/memejack/homepage.asp'>Brought to you by MemeJack</a><form action = 'http://www.castlemooch.net/memejack/ljname.asp' method = 'POST'><input type = 'text' name = 'txtName' size = '40' maxlength = '50'><br><input type = 'submit' name = 'cmdSubmit' value = 'What Does My LJ Name Mean?'></form></td></tr></table></td></tr></table>"
+"eventtime","2003-06-18 16:00:00"
+"url","http://eccezarathustra.livejournal.com/74661.html"
+"userid","4397"
+"itemid","290"
+"event","Those plucky Canadians have become the third country in the world to allow gay marriages. 
+
+Woohoo. 
+
+""the existing common-law definition of marriage violates the couple's equality rights on the basis of sexual orientation. In doing so, it offends the dignity of persons in same-sex relationships."" -from the Ontario Appelate Court ruling that paved the way for same sex marriages."
+"eventtime","2003-06-18 05:16:00"
+"url","http://eccezarathustra.livejournal.com/74312.html"
+"userid","4397"
+"itemid","289"
+"event","another hour and a half of my life on the phone. 
+
+its still early but theres definitely working material there. Tomorrow we play mallrats. I would say more, but the conversation just past has drained me of creative energies. 
+
+""Whats the difference between a Jewish woman and a Christian woman?
+-The Christian woman has fake jewlery and real orgasms"""
+"eventtime","2003-06-18 00:56:00"
+"current_moodid","31"
+"url","http://eccezarathustra.livejournal.com/74101.html"
+"userid","4397"
+"itemid","288"
+"event","An hour. We talked for an hour on the phone tonight. This and that, but the conversation moved. She said that was a good thing, the last guy she saw they had nothing to talk about. 
+
+So far I havent found anything wrong. I even told her I may be going to DC and she said we could keep in contact by phone and get to know each other like that. 
+
+Im falling fast. 
+
+""in that night alive with signs and stars, I opened myself to the gentle indifference of the world, finding it so much like myself, so much like a brother really. I felt that I had been happy, and was happy once again"""
+"eventtime","2003-06-17 01:15:00"
+"current_moodid","70"
+"url","http://eccezarathustra.livejournal.com/73790.html"
+"userid","4397"
+"itemid","287"
+"event","Saw Bruce Almighty. Funny movie, quite enjoyed it. Best part, it was our third night seeing each other in as many days. And she called me this time. This week will probably slow things down a bit as her father is coming in from Maine and she wishes to have time with him.
+
+We held hands on the drive home from the movies (which was tough cause i have a manual). 
+
+Irony of ironies will be that Ill get a phone call tomorrow saying I have the position in DC and Im to leave right away. 
+
+Oh, and as for the signs. Well we met on Friday, June 13th under a full moon. To a Jew those are good things, Friday being the Shabbat and 13 being lucky."
+"eventtime","2003-06-16 01:15:00"
+"current_moodid","15"
+"url","http://eccezarathustra.livejournal.com/73495.html"
+"userid","4397"
+"itemid","286"
+"event","She called. 
+After work today, she called. We chatted for like 10 min. She asked if I was doing anything tonight. Hopefully we'll be doing something after dinner at our respective houses."
+"eventtime","2003-06-15 19:36:00"
+"current_moodid","70"
+"url","http://eccezarathustra.livejournal.com/73286.html"
+"userid","4397"
+"itemid","285"
+"event","Ok, thats not really a great opening line but I still think thing went well. 
+
+Very timid, very slow, but hopefully well worth it. We held hands. 
+
+An old fashioned romance is definitely called for here.
+
+Hopefully we'll be going out sometime next week."
+"eventtime","2003-06-15 03:37:00"
+"current_moodid","70"
+"url","http://eccezarathustra.livejournal.com/73209.html"
+"userid","4397"
+"itemid","284"
+"event","Ok, quick run down. 
+
+friend of a friend is having a house party. everyone will be there, so am i also. get in an hour of underage drinking when the cops show up, they clear the place save 3 people. Adam's cousins, Michal and David and myself. when the party resumes the 3 of us feel it would be wise to leave so that we would not have to talk to the cops again. On the way to steak n shake i get yanked by the cops who raided the party and given the usual car search. 2 tickets later i had to have someone pick me and my car up because the cops wouldnt let me drive off. michal and david are still waiting. eventually get to the restaurant banter about a bit and head out. its suggested, by david, that we watch a movie. this is the same brother that was pushing me to get michal's number. so the night is prolonged a bit as we go back to their house to watch 'History of the World Part I'. fun times. but she grew tired and i soon departed. we made sure we had each others numbers before saying goodnight. 
+
+oh and im sure you want to know about her. 
+
+well shes 19, a pysch student at ucf. she jewish, definitely israeli blood. shes pretty, smart and opinionated. someone i think i could really respect. should i call her tomorrow? she works 4-11. leave your votes via comment."
+"eventtime","2003-06-14 04:35:00"
+"current_moodid","70"
+"url","http://eccezarathustra.livejournal.com/72765.html"
+"userid","4397"
+"itemid","283"
+"event","Ok, so my week of waiting isnt over. 
+
+Forgotten about the hospital.
+Target still hasnt called. They said if I had the job theyd call, elsewise Id get a  letter in the mail
+Eric at GLSEN says he has to run a few things by his manager but I should have a response early next week. 
+And Ive been called a half dozen times by the army asking me to sign the papers. Seems theyre the only ones that want me around."
+"eventtime","2003-06-13 20:32:00"
+"current_moodid","5"
+"url","http://eccezarathustra.livejournal.com/72506.html"
+"userid","4397"
+"itemid","282"
+"event","<a href=""http://www.shaolinsoccer.com""><img src=""http://miramax.com/images/Shaolin%20Soccer.jpg""></a>
+Shaolin Soccer
+
+Its Crouching Tiger meets UEFA. I especially like the part where she uses the shaolin force to parallel park her car. 
+
+and for a more serious movie, this shows some prospect. <a href=""http://www.wellspring.com/maroonediniraq/"">Marooned in Iraq</a>.
+
+and ok, I know I can be dorky (I embrace it lovingly) but I thought this was cool when I read it. <a href=""http://movies.yahoo.com/shop?d=hv&cf=info&id=1808490761&intl=us"">The Holy Land</a> is about a young rabbincal student in TA who falls in love with a girl, meets an American photojournalist and ends up at a bar in Jerusalem called 'Mike's Place'. The cool part? well here are <a href=""http://www.geocities.com/malacod666/Pesach/P4270069.JPG"">pictures</a> of <a href=""http://www.geocities.com/malacod666/Pesach/P4270067.JPG"">me</a> at that very <a href=""http://www.geocities.com/malacod666/Pesach/P4270070.JPG"">bar!</a>
+
+ok, resume your lives... there's nothing to see here."
+"eventtime","2003-06-12 03:28:00"
+"url","http://eccezarathustra.livejournal.com/72193.html"
+"userid","4397"
+"itemid","281"
+"event","<img src=""http://i.cnn.net/cnn/2003/WORLD/meast/06/11/mideast/story.mideast.attack.jpg"">
+
+This is from a second IAF attack on Hamas that happened Wednesday. 3 people killed 2 from Hamas. In a separate attack that same day 7 Palestinians were killed, 3 were members of Hamas. 
+
+<img src=""http://www.haaretz.com/hasite/images/iht_daily/D110603/180soldier.jpg"">
+This is the picture of Sgt. Tamar Ben-Eliahu, a 19 year old woman who was killed in the Hamas bombing of bus 19 on Jaffa St in Jerusalem today."
+"eventtime","2003-06-11 19:43:00"
+"current_moodid","47"
+"url","http://eccezarathustra.livejournal.com/72144.html"
+"userid","4397"
+"itemid","280"
+"event","This is what your car would look like if it was hit with a barrage of sidewinder missiles. 
+<img src=""http://www.haaretz.com/hasite/images/iht_daily/D100603/CAR180E_100603REU.jpg"">
+
+""Can we be any further from peace in the middle east then the shootout at the Church of the Nativity? Can it be any more obvious then when youre doing the Starsky and Hutch 'shoulder-roll' behind the frankincense holder left by the Magi. What is this? The shootout at the oy-vey corral?"" - Dennis Miller"
+"eventtime","2003-06-10 15:51:00"
+"current_moodid","47"
+"url","http://eccezarathustra.livejournal.com/71683.html"
+"userid","4397"
+"itemid","279"
+"event","Interviewed with GLSEN today. They told me it would be a full time job in DC and would pay $250 a week. Thats just enough for me to survive. Its apparently a small office with a staff of 4 people. Part of my job would be researching state statues regarding the glbt community. They told me they would have a decision by the end of the week. 
+
+My only fear is that I was too nervous on the phone. I hope that doesnt blow it for me. 
+
+wish me luck, light a candle, kill a chicken, whatever it is you do..."
+"eventtime","2003-06-10 15:04:00"
+"current_moodid","134"
+"url","http://eccezarathustra.livejournal.com/71560.html"
+"userid","4397"
+"itemid","278"
+"event","First of all, Rise of Nations is EVIL. 
+Spent way too many hours playing that game. 
+
+Onto more important things: GLSEN called today to reschedule my interview for tomorrow at 2PM, another night in suspense.
+
+The recruiter called me to see if i had decided on something, I  told him it would take another day. 
+
+Nothing from Target or Florida Hospital."
+"eventtime","2003-06-10 01:19:00"
+"current_moodid","113"
+"url","http://eccezarathustra.livejournal.com/71260.html"
+"userid","4397"

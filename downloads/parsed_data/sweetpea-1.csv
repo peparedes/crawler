@@ -1,0 +1,1216 @@
+"names","values"
+"itemid","258"
+"event","PERJViBjbGFzcz1ncmVldGluZz5BbmRyZWEsIHlvdSdyZSBzaW5nbGUgYmVjYXVzZSB5b3U8U1BBTiBjbGFzcz1iaWdoZWFkZXI+IGRvbid0IHdhbnQgdG8gc2V0dGxlPC9TUEFOPiA8L0RJVj4NCjxESVYgY2xhc3M9dGVzdHJlc3VsdHBpYz48QSBvbmNsaWNrPSJ0b3BlbignQScsJ0YnLHRydWUpO3JldHVybiBmYWxzZTsiIGhyZWY9IiI+PElNRyBoZWlnaHQ9MTE1IGFsdD0iIiBzcmM9Imh0dHA6Ly9pLmVtb2RlLmNvbS90ZXN0cy9zaW5nbGUvaW1hZ2VzL3NldHRsZV9zLmdpZiIgd2lkdGg9MTIwIGJvcmRlcj0wPjwvQT48QlI+PC9ESVY+DQo8UD5Zb3UsIG1vcmUgdGhhbiBvdGhlcnMsIGhhdmUgYSBmYWlyeSB0YWxlIGZhbnRhc3kgb2YgaG93IHRoaW5ncyBzaG91bGQgYmUuIEV2ZXIgc2luY2UgeW91IHdlcmUgYSBraWQsIHlvdSd2ZSBwcm9iYWJseSBkcmVhbWVkIG9mIHRoZSBwZXJmZWN0IHdlZGRpbmcsIGNvbWluZyBob21lIHRvIGEgd2hpdGUgcGlja2V0IGZlbmNlLCBkb2csIGFuZCAyLjIga2lkcyAoaG93IGRvZXMgdGhhdCB3b3JrLCBhbnl3YXk/KS4gV2hlbiBzb21lb25lIGFza3Mgd2hhdCB5b3UncmUgbG9va2luZyBmb3IsIHlvdSBkb24ndCBza2lwIGEgYmVhdDogWW91J3JlIGxpa2VseSB0byBoYXZlIGEgaGFuZHkgY2hlY2tsaXN0IHRoYXQgZGV0YWlscyB5b3VyIHBlcmZlY3QgcGFydG5lci4gSGFpciBhbmQgZXllIGNvbG9yLCBoZWlnaHQsIHJlbGlnaW9uLCBlZHVjYXRpb24sIGNhcmVlciwgaW50ZXJlc3RzLCB0aGUgbGlzdCBnb2VzIG9uLjwhLS0gYnItLT48QlI+PEJSPldoaWxlIGl0J3MgZ3JlYXQgdG8gaGF2ZSBzdGFuZGFyZHMg4oCUIEhleSwgeW91IHNob3VsZG4ndCBoYXZlIHRvIHNldHRsZSwgYWZ0ZXIgYWxsIOKAlCB0aGVyZSdzIG9uZSBzbGlnaHQgZ2xpdGNoIGluIHlvdXIgbWFzdGVyIHBsYW46IE5vIG9uZSBoYXMgbWFkZSB0aGUgZ3JhZGUgaW4gcmVhbCBsaWZlIOKAlCBhdCBsZWFzdCBub3QgeWV0LiBOZXh0IHRpbWUgeW91J3JlIG91dCB3aXRoIHNvbWVvbmUsIGtlZXAgeW91cnNlbGYgZnJvbSBtZW50YWxseSBjaGVja2luZyB0aGF0IGxpc3QsIGFuZCBnaXZlIGxvdmUg4oCUIGFuZCBvdGhlcnMg4oCUIGEgY2hhbmNlLiBUaGF0IHNwZWNpYWwgc29tZW9uZSB3aG8geW91J3ZlIHdyaXR0ZW4gb2ZmIG1heSBiZSBwZXJmZWN0IGZvciB5b3UgYWZ0ZXIgYWxsLi4uIDwvUD4NCjxESVYgY2xhc3M9Z3JlZXRpbmc+QW5kcmVhLCB3aGVuIHlvdSdyZSBoZWFkIG92ZXIgaGVlbHMsIHlvdSBhcmUgYW48U1BBTiBjbGFzcz1iaWdoZWFkZXI+IElkZWFsaXN0aWMgUm9tYW50aWM8L1NQQU4+IDwvRElWPg0KPERJViBjbGFzcz10ZXN0cmVzdWx0cGljPjxBIGhyZWY9Imh0dHA6Ly93ZWIudGlja2xlLmNvbS90ZXN0cy9sb3ZlL3BheW1lbnQuanNwIj48SU1HIGhlaWdodD0xMTUgYWx0PSIiIHNyYz0iaHR0cDovL2kuZW1vZGUuY29tL3Rlc3RzL2xvdmUvaW1hZ2VzL2lkZWFsaXN0aWNfcm9tYW50aWNfcy5naWYiIHdpZHRoPTEyMCBib3JkZXI9MD48L0E+PEJSPjwvRElWPg0KPFA+VGhlIHJpdHVhbHMgb2Ygcm9tYW5jZSBhcmUgaW1wb3J0YW50IHRvIHlvdS4gQW5kIGZvciB0aGF0IHJlYXNvbiwgaWYgdGhlIG9iamVjdCBvZiB5b3VyIGFmZmVjdGlvbnMgZG9lc24ndCBhcHByZWNpYXRlIHRoZSB2YWx1ZSBvZiB0aGluZ3MgbGlrZSByZWQgcm9zZXMgYW5kIGNhbmRsZWxpZ2h0IGRpbm5lcnMsIHRoZXkgbWlnaHQgbm90IGhvbGQgeW91ciBpbnRlcmVzdCBmb3IgdmVyeSBsb25nLiBIb3dldmVyLCB5b3UncmUgbm90IGp1c3QgbG9va2luZyBmb3IgYSB0aG91Z2h0ZnVsIGRhdGUgd2hvIGFwcHJlY2lhdGVzIHJvbWFudGljIGdlc3R1cmVzLiBZb3Ugc2VlayBhIGRlZXBlciBlbW90aW9uYWwgYm9uZC5PbmNlIHlvdSBmaW5kIHRoYXQgc3BlY2lhbCBsb3ZlLCB5b3UnbGwgcHJvYmFibHkgYmUgdGhlIGZpcnN0IHRvIGRlY2xhcmUgdGhhdCB5b3UncmUgaGVhZC1vdmVyLWhlZWxzIHJhdGhlciB0aGFuIGhvbGQgYmFjayB5b3UncmUgZW1vdGlvbnMuIEFmdGVyIGFsbCwgd2hhdCBnb29kIGlzIGJlaW5nIGluIGxvdmUgaWYgeW91IGNhbid0IHNoYXJlIGl0PyA8L1A+DQo8RElWIGNsYXNzPXJlcG9ydHByb21vPg0KPFA+TG92ZSBkb2VzIGNoYW5nZSB5b3UuIFdoZXRoZXIgaXQgc2ltcGx5IGVuaGFuY2VzIHdobyB5b3UgYWxyZWFkeSBhcmUsIG9yIG1ha2VzIHlvdSBhIGNvbXBsZXRlbHkgZGlmZmVyZW50IHBlcnNvbiwgZmluZGluZyBzb21lb25lIHdob3NlIGxvdmUgcGVyc29uYWxpdHkgY29tcGxpbWVudHMgeW91ciBvd24gbWFrZXMgZm9yIHRoZSBsb25nZXN0LCBoYXBwaWVzdCByZWxhdGlvbnNoaXBzLjxCUj48QlI+PEI+U2VlIHdoaWNoIGxvdmUgcGVyc29uYWxpdHkgaXMgdGhlIGJlc3QgbWF0Y2ggZm9yIGFuIElkZWFsaXN0aWMgUm9tYW50aWMgaW4geW91ciBwZXJzb25hbGl6ZWQgTG92ZSBSZXBvcnQuPC9CPiA8L1A+PC9ESVY+DQo8UD4mbmJzcDs8L1A+"
+"eventtime","2005-04-20 20:40:00"
+"current_moodid","113"
+"url","http://sweetpea-1.livejournal.com/66158.html"
+"userid","15081"
+"itemid","257"
+"event","<P><STRONG><FONT color=#000099>Bold all that apply<BR><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""></SPAN></FONT></STRONG></P>
+<P><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Bought everyone in the pub a drink.<BR>Swam with wild dolphins. <BR><FONT color=#000099><B style=""mso-bidi-font-weight: normal"">Climbed a mountain.</B>&nbsp;<SPAN style=""mso-spacerun: yes"">&nbsp;</SPAN></FONT></SPAN></P>
+<P><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><SPAN style=""mso-spacerun: yes""></SPAN>Taken a Ferrari for a test drive.<BR>Been inside the Great Pyramid.<BR><FONT color=#000099><B style=""mso-bidi-font-weight: normal"">Held a tarantula.</B><BR></FONT>Taken a candlelit bath with someone.<BR><FONT color=#000099><B>Said 'I love you' and meant it.</B><BR></FONT><B><FONT color=#000099>Hugged a tree.</FONT></B><BR>Done a striptease.<BR>Bungee jumped.<BR>Visited </SPAN><?xml:namespace prefix = st1 ns = ""urn:schemas-microsoft-com:office:smarttags"" /><st1:City><st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Paris</SPAN></st1:place></st1:City><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">.<BR><FONT color=#000099><STRONG>Watched a lightning storm at sea.</STRONG> <BR><B>Stayed up all night long and watch the sunrise.</B><BR><B style=""mso-bidi-font-weight: normal"">Seen the Northern Lights.</B><BR><B style=""mso-bidi-font-weight: normal"">Gone to a huge sports game.</B></FONT> </SPAN><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><BR>Walked the stairs to the top of the leaning </SPAN><st1:place><st1:PlaceType><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Tower</SPAN></st1:PlaceType><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""> of </SPAN><st1:PlaceName><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Pisa</SPAN></st1:PlaceName></st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><BR><B><FONT color=#000099>Grown and eaten your own vegetables</FONT>.</B><BR>Touched an iceberg.<BR><FONT color=#000099><B style=""mso-bidi-font-weight: normal"">Slept under the stars.<BR><SPAN style=""mso-bidi-font-weight: bold"">Changed a baby's diaper.</SPAN></B><BR></FONT>Taken a trip in a hot air balloon.<BR><FONT color=#000099><B>Watched a meteor shower.</B><BR></FONT>Gotten drunk on champagne.<BR>Given more than you can afford to charity.<BR><B><FONT color=#000099>Looked up at the night sky through a telescope.</FONT></B><BR><SPAN style=""mso-bidi-font-weight: bold"">Had an uncontrollable giggling fit at the worst possible moment.</SPAN><BR><FONT color=#000099><B style=""mso-bidi-font-weight: normal"">Had a food fight.</B><BR><STRONG>Bet on a winning horse.</STRONG><BR><B>Taken a sick day when you're not ill.</B><BR></FONT>Asked out a stranger.<BR><FONT color=#000099><B>Had a snowball fight.</B><BR></FONT>Photocopied your bottom on the office photocopier <BR><B><FONT color=#000099>Screamed as loudly as you possibly can.</FONT></B><B style=""mso-bidi-font-weight: normal""><BR><FONT color=#000099>Held a lamb</FONT></B><FONT color=#000099>. <BR><B style=""mso-bidi-font-weight: normal"">Organized and planned a surprise party for a loved one.</B><BR><B style=""mso-bidi-font-weight: normal"">Taken a </B></FONT></SPAN><st1:time Minute=""0"" Hour=""0""><B style=""mso-bidi-font-weight: normal""><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><FONT color=#000099>midnight</FONT></SPAN></B></st1:time><B style=""mso-bidi-font-weight: normal""><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><FONT color=#000099> skinny dip. <BR>Taken an ice cold shower.</FONT></SPAN></B><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><FONT color=#000099> <BR></FONT>Had a meaningful conversation with a beggar.<BR><FONT color=#000099><B>Seen a total eclipse.</B> <BR><B>Ridden a roller coaster.</B><BR></FONT>Hit a home run.<SPAN style=""mso-bidi-font-weight: bold""><SPAN style=""mso-spacerun: yes"">&nbsp; </SPAN></SPAN></SPAN><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><BR>Fit three weeks miraculously into three days. </SPAN></P>
+<P><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><FONT color=#000099><B style=""mso-bidi-font-weight: normal"">Danced like a fool and not cared who was looking.</B><BR></FONT>Adopted an accent for an entire day. <BR>Visited the birthplace of your ancestors.<BR><FONT color=#000099><STRONG>Actually felt happy about your life, even for just a moment.</STRONG><BR></FONT>Had two hard drives for your computer. <BR>Visited all 50 states.<BR><FONT color=#000099><B>Loved your job for all accounts.</B><BR><B style=""mso-bidi-font-weight: normal"">Taken care of someone who was really sick.</B> <BR></FONT>Had enough money to be truly satisfied. <BR><B><FONT color=#000099>Have amazing friends.</FONT></B> <BR>Danced with a stranger in a foreign country.<BR>Watched wild whales.<BR><B><FONT color=#000099>Stolen a sign. lol Tylers signs</FONT> </B><BR>Backpacked in </SPAN><st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Europe</SPAN></st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">. <BR>Taken a road-trip. <BR><FONT color=#000099><STRONG>Rock climbing</STRONG> </FONT><BR>Lied to foreign government's official in that country to avoid notice.<BR></SPAN><st1:time Minute=""0"" Hour=""0""><B style=""mso-bidi-font-weight: normal""><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><FONT color=#000099>Midnight</FONT></SPAN></B></st1:time><B style=""mso-bidi-font-weight: normal""><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><FONT color=#000099> walk on the beach.</FONT><BR></SPAN></B><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Sky diving. </SPAN></P>
+<P><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Visited </SPAN><st1:country-region><st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Ireland</SPAN></st1:place></st1:country-region><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">.&nbsp;<SPAN style=""mso-spacerun: yes"">&nbsp;</SPAN><BR><STRONG><FONT color=#000099>Been heartbroken longer then you were actually in love.</FONT> <BR></STRONG>In a restaurant, sat at a stranger's table and had a meal with them.<BR>Visited </SPAN><st1:country-region><st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Japan</SPAN></st1:place></st1:country-region><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">. <BR>Bench pressed your own weight.<BR><B style=""mso-bidi-font-weight: normal""><FONT color=#000099>Milked a cow.</FONT></B><BR>Alphabetized your cds.<BR>Pretended to be a superhero.<BR><B><FONT color=#000099>Sung karaoke.</FONT></B></SPAN></P>
+<P><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><FONT color=#000099><STRONG>Lounged</STRONG> </FONT><FONT color=#000099><STRONG>around in bed all day.<BR>Protested something you feel strongly against.</STRONG><BR></FONT>Scuba diving.<BR>Got it on to ""Let's Get It On"" by Marvin Gaye. </SPAN></P>
+<P><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><FONT color=#000099><B>Kissed in the rain.</B> <BR><B>Played in the rain.</B> <BR></FONT><B style=""mso-bidi-font-weight: normal""><FONT color=#000099>Gone to a drive-in theater.<BR>Done something you should regret, but don't regret it.</FONT></B><BR>Started a business.<BR><FONT color=#000099><B>Discovered that someone who's not supposed to have known about your blog has discovered your blog.</B><BR></FONT>Dropped Windows in favor of something better. <BR>Fallen in love and not had your heart broken. <BR>Toured ancient sites.<BR>Taken a martial arts class for like 7 years. <BR>Swordfought for the honor of a woman.<BR><FONT color=#000099><STRONG>Played a DVD for more than 6 hours straight.</STRONG> <BR></FONT><STRONG><FONT color=#000099><FONT size=4>Been in a movie. its called Mickey</FONT><BR>Crashed a party.<BR></FONT><FONT size=4><FONT color=#000099>Loved someone you shouldn't have.</FONT> <SPAN style=""mso-spacerun: yes"">&nbsp;</SPAN><BR></FONT></STRONG>Kissed someone so passionately it made them dizzy.&nbsp;<SPAN style=""mso-spacerun: yes"">&nbsp;</SPAN><BR>Gotten divorced.<BR>Started an office war.<BR>Gone without food for 5 days. <BR><B style=""mso-bidi-font-weight: normal""><FONT color=#000099>Made cookies from scratch.<BR>Won first prize in a costume contest</FONT></B></SPAN></P>
+<P><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Ridden a gondola in </SPAN><st1:City><st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Venice</SPAN></st1:place></st1:City><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">. <BR>Gotten a tattoo.<BR>Rafted the </SPAN><st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Snake River</SPAN></st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">.<BR>Been on television news programs as an ""expert"".<BR><FONT color=#000099><B style=""mso-bidi-font-weight: normal"">Got flowers for no reason.</B> <BR><B>Made out in a public place.</B><BR><FONT size=4><B style=""mso-bidi-font-weight: normal"">Got so drunk you don't remember anything</B>. </FONT>And the next day everyone is telling you..you did this..you did that<BR></FONT>Been addicted to some form of illegal drug.<BR><B><FONT color=#000099>Performed on stage.</FONT></B> <BR>Recorded music.<BR>Eaten shark.<BR><B style=""mso-bidi-font-weight: normal""><FONT color=#000099>Drank an entire 6 pack by yourself.</FONT></B> <BR>Gone to </SPAN><st1:country-region><st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Thailand</SPAN></st1:place></st1:country-region><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">.<BR>Seen Siouxsie live.<BR>Bought a house.<BR>Been in a combat zone. <BR>Buried one/both of your parents.<BR>Shaved all of your hair off.<BR>Been on a cruise ship.<BR>Spoken more than one language fluently.<BR>Gotten into a fight while attempting to defend someone. <BR>Bounced a check.<BR><FONT color=#000099><B>Performed in theatre.</B> <BR></FONT>Read - and understood - your credit report.<BR>Raised children.<BR>Taken a bicycle tour in a foreign country.<BR>Found out something significant that your ancestors did. <BR>Called or written your Congress person.<BR>Picked up and moved to another city to just start over.<BR>Walked the </SPAN><st1:place><st1:PlaceName><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Golden Gate</SPAN></st1:PlaceName><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""> </SPAN><st1:PlaceType><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Bridge</SPAN></st1:PlaceType></st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">.<BR><STRONG><FONT color=#000099>Sang loudly in the car, and didn't stop when you knew someone was looking.</FONT><BR></STRONG>Had an abortion.<BR>Had plastic surgery.<BR>Survived an accident that you shouldn't have survived.<BR>Held someone while they were having a flashback.<BR>Piloted an airplane.<BR><FONT color=#000099><B style=""mso-bidi-font-weight: normal"">Pet a stingray</B>. <BR><SPAN style=""mso-bidi-font-weight: bold""><STRONG>Broken someone's heart</STRONG>.</SPAN><BR><B style=""mso-bidi-font-weight: normal"">Helped an animal give birth.</B><BR><STRONG>Been fired or laid off from a job.</STRONG><BR></FONT>Won money on a T.V. game show. <BR><SPAN style=""mso-bidi-font-weight: bold"">Broken a bone.</SPAN><BR>Killed a human being. <BR>Gone on an African photo safari.<BR><B style=""mso-bidi-font-weight: normal""><FONT color=#000099>Ridden a motorcycle.<BR><SPAN style=""mso-bidi-font-weight: bold"">Driven any land vehicle at a speed of greater than 100km/h.</SPAN></FONT></B><BR>Had a body part of yours below the neck pierced. <BR><B style=""mso-bidi-font-weight: normal""><FONT color=#000099>Fired a rifle, shotgun, or pistol.</FONT></B> <BR>Eaten mushrooms that were gathered in the wild. <BR><B><FONT color=#000099>Ridden a horse.</FONT></B><BR><SPAN style=""mso-bidi-font-weight: bold"">Had major surgery.</SPAN> <BR>Ridden on a passenger train. <BR>Had a snake as a pet.<BR>Hiked to the bottom of the </SPAN><st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">Grand Canyon</SPAN></st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">.<BR>Slept through an entire flight: takeoff, flight, and landing.<BR><FONT color=#000099><STRONG>Slept for more than 30 hours over the course of 48 hours.</STRONG> </FONT><BR>Visited more foreign countries than </SPAN><st1:country-region><st1:place><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana"">U.S.</SPAN></st1:place></st1:country-region><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""> states.<BR>Visited all 7 continents.<BR><FONT color=#000099><B style=""mso-bidi-font-weight: normal"">Taken a canoe trip that lasted more than 2 days.</B><BR></FONT>Eaten kangaroo meat.<BR>Fallen in love at an ancient Mayan burial ground<BR>Been a sperm or egg donor. <BR>Eaten sushi. <BR><B><FONT color=#000099>Had your picture in the newspaper.</FONT></B> <BR>Had 2 healthy romantic relationships for over a year in your lifetime. <BR><FONT color=#000099><STRONG>Changed someone's mind about something you care deeply about.</STRONG><BR></FONT><STRONG><FONT color=#000099>Gotten someone fired for their actions.<BR></FONT></STRONG>Gone back to school.<BR>Parasailed.<SPAN style=""mso-spacerun: yes"">&nbsp;</SPAN><BR><STRONG><FONT color=#000099>Changed your name. at a Wyalusing dance..I was Bernice lol<BR></FONT></STRONG>Petted a cockroach.<BR><FONT color=#000099><STRONG>Eaten fried green tomatoes.</STRONG><BR></FONT>Read The Iliad.<BR>Selected one ""important"" author who you missed in school, and read a book by them.<BR>Dined in a restaurant and stolen silverware, plates, or cups because your apartment needed them.<BR>Taught yourself an art from scratch. <BR><B style=""mso-bidi-font-weight: normal""><FONT color=#000099>Killed and prepared an animal for eating. </FONT></B></SPAN></P>
+<P><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><FONT color=#000099><STRONG><FONT size=4>Apologized to someone years after inflicting the hurt.</FONT></STRONG> Again, I'm sorry<BR></FONT>Skipped all your school reunions. <BR><FONT color=#000099><STRONG>Communicated with someone without sharing a common spoken language.</STRONG> </FONT><BR>Been elected to public office.<BR>Written your own computer language.<BR><B style=""mso-bidi-font-weight: normal""><FONT color=#000099>Thought to yourself that you're living your dream.</FONT></B><SPAN style=""mso-spacerun: yes"">&nbsp; </SPAN></SPAN></P>
+<P><SPAN style=""FONT-SIZE: 10pt; FONT-FAMILY: Verdana""><SPAN style=""mso-spacerun: yes""></SPAN>Had to put someone you love into hospice care.<BR>Built your own PC from parts. <BR><FONT color=#000099><STRONG>Sold your own artwork to someone who didn't know you.</STRONG> <BR></FONT>Had a booth at a street fair.<BR><FONT color=#000099><SPAN style=""mso-bidi-font-weight: bold""><STRONG>Dyed your hair.</STRONG></SPAN><BR><B style=""mso-bidi-font-weight: normal"">Been a DJ.</B><BR></FONT>Found out someone was going to dump you via LiveJournal.<BR>Written your own role playing game.<BR>Been arrested.<BR><SPAN style=""mso-bidi-font-weight: bold""><FONT color=#000099><STRONG>Hated someone.</STRONG> Joey riot in hell</FONT></SPAN></SPAN></P>"
+"eventtime","2005-04-09 23:54:00"
+"current_moodid","31"
+"url","http://sweetpea-1.livejournal.com/65919.html"
+"userid","15081"
+"itemid","256"
+"event","PFA+PFNQQU4+PFNUUk9ORz48Rk9OVCBjb2xvcj0jMzMzMzk5PjxGT05UIGNvbG9yPSM2NjAwY2M+WyBTZXJpZXMgMSBdPC9GT05UPjxCUj48L0ZPTlQ+PC9TVFJPTkc+PC9TUEFOPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiAjMDBjY2ZmOyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxGT05UIGNvbG9yPSMzMzMzOTk+TmFtZTogQW5kcmVhIE1heSBIYW1pbHRvbjxCUj5CaXJ0aGRheTogTWF5IDIwLCAxOTg1PEJSPkV5ZSBDb2xvcjogQnJvd248QlI+SGFpciBDb2xvcjogQnJvd24vcmVkaXNoIG5vdzxCUj5SaWdodHkgb3IgTGVmdHk6IFJpZ2h0eSA8QlI+Wm9kaWFjIFNpZ246IFRhcnVydXM8L0ZPTlQ+PC9TUEFOPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJyI+PEJSPjwvU1BBTj48U1RST05HPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiAjY2M5OWZmOyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyc7IG1zby1iaWRpLWZvbnQtZmFtaWx5OiBBcmlhbCI+PEZPTlQgY29sb3I9IzY2MDBjYz4qLiouKi4qLiouKi4qLiouKi4qLiouKi4qLiouKi4qPC9GT05UPjwvU1BBTj48L1NUUk9ORz48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxCUj48L1NQQU4+PFNUUk9ORz48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogZnVjaHNpYTsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnOyBtc28tYmlkaS1mb250LWZhbWlseTogQXJpYWwiPjxGT05UIGNvbG9yPSM2NjAwY2M+WyBTZXJpZXMgMiAtIHlvdXIgZmF2b3JpdGUgXTwvRk9OVD48L1NQQU4+PC9TVFJPTkc+PEI+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48QlI+PC9TUEFOPjwvQj48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogIzAwY2NmZjsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48Rk9OVCBjb2xvcj0jMzMzMzk5PlNvbmc6IEkgZG9udCBoYXZlIGEgZmF2b3JpdGUuLmJ1dCBJIGxpa2UgaG90bGluZSBieSBDaWFyYTxCUj5DYXJ0b29uOiBUaGUgV2Vla2VuZGVyczxCUj5Db2xvcjogcHVycGxlPEJSPkNhcjogSSBkb250IGtub3cgd2hhdCBraW5kIG9mIGNhciBpdCB3YXMuLmJ1dCBpdCB3YXMgbGlnaHQgcGluay4uaXQgd2FzIGF0IFdhbG1hcnQgU2F0dXJkYXkgbmlnaHQ8QlI+U2x1c2h5IEZsYXZvcjogQmx1ZSByYXNwYmVycnk8QlI+TWFnYXppbmU6IFlNPEJSPlRWIFNob3c6IEZlYXIgRmFjdG9yPEJSPkxhbmd1YWdlOiBFbmdsaXNoPEJSPlNwaWNlIEdpcmw6IDwvRk9OVD48L1NQQU4+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6ICMwMGNjZmY7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJyI+PEJSPjxGT05UIGNvbG9yPSMzMzMzOTk+Rm9vZCAmYW1wOyBCZXZlcmFnZTogY2hvY29sYXRlLi5hbnl0aGluZyB0aGF0IHdpbGwgbWFrZSB5b3Ugd2FsayBmdW5ueTxCUj5TdWJqZWN0IGluIFNjaG9vbDogRWxlbWVudGFyeSB0dXRvcmluZyBsb2w8L0ZPTlQ+PC9TUEFOPjwvUD4NCjxQPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiAjMDBjY2ZmOyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxGT05UIGNvbG9yPSMzMzMzOTk+V2Vla2VuZCBBY3Rpdml0eTogV2VudCB0byBXaWxsaWFtc3BvcnQuLnRoZSBncm91bmQgZmxvb3IuLm1vY2tpbmEgKGF3ZXNvbWUpPEJSPkljZSBDcmVhbTogTW9vc2UgVHJhY2tzPEJSPlJvbGxlciBDb2FzdGVyOiBJIGRvbnQga25vdy4uSSBsaWtlZCB0aGUgcHVycGxlIG9uZSBhdCBCdXNoIEdhcmRlbnM8L0ZPTlQ+PC9TUEFOPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJyI+PEJSPjwvU1BBTj48U1RST05HPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiAjY2M5OWZmOyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyc7IG1zby1iaWRpLWZvbnQtZmFtaWx5OiBBcmlhbCI+PEZPTlQgY29sb3I9IzY2MDBjYz4qLiouKi4qLiouKi4qLiouKi4qLiouKi4qLiouKi4qPC9GT05UPjwvU1BBTj48L1NUUk9ORz48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxCUj48L1NQQU4+PFNUUk9ORz48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogZnVjaHNpYTsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnOyBtc28tYmlkaS1mb250LWZhbWlseTogQXJpYWwiPjxGT05UIGNvbG9yPSM2NjAwY2M+WyBTZXJpZXMgMyAtIHdoYXQgaXMgXTwvRk9OVD48L1NQQU4+PC9TVFJPTkc+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48QlI+PC9TUEFOPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiAjMDBjY2ZmOyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxGT05UIGNvbG9yPSMzMzMzOTk+WW91ciBtb3N0IG92ZXJ1c2VkIHBocmFzZTogSSBkb250IGhhdmUgYSBwaGFzZTxCUj5GaXJzdCB0aGluZyB5b3UgdGhvdWdodCB3aGVuIHlvdSB3b2tlIHVwOiB5dWNrLi5yYWluPEJSPkxhc3QgaW1hZ2UvdGhvdWdodCB5b3UgZ28gdG8gc2xlZXAgd2l0aDogSSB3YXMgcGlja2VkIG92ZXIgbXkgc2lzdGVyLi5hIGd1eSBsaWtlZCBtZSBtb3JlPyBoZSBtdXN0IGJlIGJsaW5kPEJSPkZpcnN0IGZlYXR1cmUgeW91IG5vdGljZSBvZiBvcHBvc2l0ZSBzZXg6IEV5ZXMgJmFtcDsgc21pbGU8QlI+QmVzdCBuYW1lIGZvciBhIDw/eG1sOm5hbWVzcGFjZSBwcmVmaXggPSBzdDEgbnMgPSAidXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTpvZmZpY2U6c21hcnR0YWdzIiAvPjxzdDE6Q2l0eSB3OnN0PSJvbiI+PHN0MTpwbGFjZSB3OnN0PSJvbiI+QnV0bGVyPC9zdDE6cGxhY2U+PC9zdDE6Q2l0eT46Jm5ic3A7IEFsZnJlZDxCUj5XdXNzaWVzdCBTcG9ydDogdGFibGUgdGVubmlzPC9GT05UPjwvU1BBTj48L1A+DQo8UD48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogIzAwY2NmZjsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48Rk9OVCBjb2xvcj0jMzMzMzk5PllvdXIgZ3JlYXRlc3QgZmVhcjogYmVpbmcgYWxvbmU8QlI+WW91ciBncmVhdGVzdCBhY2NvbXBsaXNobWVudDogZmluaXNoaW5nIGhpZ2ggc2Nob29sPC9GT05UPjwvU1BBTj48L1A+DQo8UD48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogIzAwY2NmZjsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48Rk9OVCBjb2xvcj0jMzMzMzk5PllvdXIgbW9zdCBtaXNzZWQgbWVtb3J5OiBCb3lzY291dCBjYW1wPC9GT05UPjwvU1BBTj48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxCUj48L1NQQU4+PFNUUk9ORz48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogI2NjOTlmZjsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnOyBtc28tYmlkaS1mb250LWZhbWlseTogQXJpYWwiPjxGT05UIGNvbG9yPSM2NjAwY2M+Ki4qLiouKi4qLiouKi4qLiouKi4qLiouKi4qLiouKjwvRk9OVD48L1NQQU4+PC9TVFJPTkc+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48QlI+PC9TUEFOPjxTVFJPTkc+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6IGZ1Y2hzaWE7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJzsgbXNvLWJpZGktZm9udC1mYW1pbHk6IEFyaWFsIj48Rk9OVCBjb2xvcj0jNjYwMGNjPlsgU2VyaWVzIDQgLSB5b3UgcHJlZmVyIF08L0ZPTlQ+PC9TUEFOPjwvU1RST05HPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJyI+PEJSPjwvU1BBTj48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogIzAwY2NmZjsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48Rk9OVCBjb2xvcj0jMzMzMzk5PlBlcHNpIG9yIENva2U6IFBlcHNpPEJSPk1jRG9uYWxkJ3Mgb3IgQnVyZ2VyIEtpbmc6IE1pY2tleSBEb25hbGQnczwvRk9OVD48L1NQQU4+PC9QPg0KPFA+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6ICMwMGNjZmY7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJyI+PEZPTlQgY29sb3I9IzMzMzM5OT5TaW5nbGUgb3IgR3JvdXAgRGF0ZXM6IFNpbmdsZSBidXQgZ3JvdXAgZGF0ZXMgYXJlIGZ1bjxCUj5BZGlkYXMgb3IgTmlrZTogQWRpZGFzPEJSPkNoaWNrZW4gbnVnZ2V0cyBvciBDaGlja2VuIGZpbmdlcnM6IENoaWNrZW4gbnVnZ2V0czwvRk9OVD48L1NQQU4+PC9QPg0KPFA+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6ICMwMGNjZmY7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJyI+PEZPTlQgY29sb3I9IzMzMzM5OT5Eb2dzIG9yIENhdHM6IENhdHM8QlI+UnVncmF0cyBvciBEb3VnOiBEb3VnPC9GT05UPjwvU1BBTj48L1A+DQo8UD48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogIzAwY2NmZjsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48Rk9OVCBjb2xvcj0jMzMzMzk5PlNpbmdsZSBvciBUYWtlbjogU2luZ2xlICh0aGF0IHdhcyBhbiBlYXN5IHF1ZXN0aW9uKTxCUj5Nb25pY2Egb3IgQnJhbmR5OiBCcmFuZHk8QlI+U2hhbmlhIFR3YWluIG9yIExlQW5uIFJoeW1lczogU2hhbmlhIFR3YWluPEJSPkxpcHRvbiBJY2UgVGVhIG9yIE5lc3RlYTogSSBsaWtlIHN1biB0ZWE8QlI+T25lIHBpbGxvdyBvciBUd286IHR3bzxCUj5DaG9jb2xhdGUgb3IgVmFuaWxsYTogQ2hvY29sYXRlPEJSPkhvdCBjaG9jb2xhdGUgb3IgSG90IGNvY29hOiBob3QgY29jb2E8QlI+Q2FwcHVjaW5vIG9yIENvZmZlZTogbm8gdGhhbmtzPC9GT05UPjwvU1BBTj48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxCUj48L1NQQU4+PFNUUk9ORz48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogI2NjOTlmZjsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnOyBtc28tYmlkaS1mb250LWZhbWlseTogQXJpYWwiPjxGT05UIGNvbG9yPSM2NjAwY2M+Ki4qLiouKi4qLiouKi4qLiouKi4qLiouKi4qLiouKjwvRk9OVD48L1NQQU4+PC9TVFJPTkc+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48QlI+PC9TUEFOPjxTVFJPTkc+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6IGZ1Y2hzaWE7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJzsgbXNvLWJpZGktZm9udC1mYW1pbHk6IEFyaWFsIj48Rk9OVCBjb2xvcj0jNjYwMGNjPlsgU2VyaWVzIDUgLSBkbyB5b3UgXTwvRk9OVD48L1NQQU4+PC9TVFJPTkc+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48QlI+PC9TUEFOPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiAjMDBjY2ZmOyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxGT05UIGNvbG9yPSMzMzMzOTk+U2hvd2VyIGV2ZXJ5ZGF5OiB5ZXM8QlI+SGF2ZSBhIGNydXNoOiB5ZXBwPEJSPlRoaW5rIHlvdSd2ZSBiZWVuIGluIGxvdmU6IHllczxCUj5XYW50IHRvIGdvIHRvIGNvbGxlZ2U6IHllczxCUj5MaWtlIGhpZ2ggc2Nob29sOiBpdCB3YXMgb2theS4uaGFkIHNvbWUgZnVuIHRpbWVzPEJSPldhbnQgdG8gZ2V0IG1hcnJpZWQ6IHllczxCUj5UeXBlIGNvcnJlY3RseTogbW9zdCBvZiB0aGUgdGltZTxCUj5CZWxpZXZlIGluIHlvdXJzZWxmOiBubzxCUj5IYXZlIGFueSB0YXR0b29zPzogbm90IHlldDxCUj5IYXZlIGFueSBwaWVyY2luZ3M/OiBvbmUgaW4gZWFjaCBlYXI8QlI+R2V0IG1vdGlvbiBzaWNrbmVzczogbm9wZTxCUj5UaGluayB5b3UncmUgYSBoZWFsdGggZnJlYWs6IG5vPEJSPkdldCBhbG9uZyB3aXRoIHlvdXIgcGFyZW50czogaXTigJlzIGdldHRpbmcgYmV0dGVyPEJSPkxpa2UgdGh1bmRlcnN0b3JtczogeWVhaDwvRk9OVD48L1NQQU4+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48QlI+PC9TUEFOPjxTVFJPTkc+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6ICNjYzk5ZmY7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJzsgbXNvLWJpZGktZm9udC1mYW1pbHk6IEFyaWFsIj48Rk9OVCBjb2xvcj0jNjYwMGNjPiouKi4qLiouKi4qLiouKi4qLiouKi4qLiouKi4qLio8L0ZPTlQ+PC9TUEFOPjwvU1RST05HPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJyI+PEJSPjwvU1BBTj48U1RST05HPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiBmdWNoc2lhOyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyc7IG1zby1iaWRpLWZvbnQtZmFtaWx5OiBBcmlhbCI+PEZPTlQgY29sb3I9IzY2MDBjYz5bIFNlcmllcyA2IC0gdGhlIGZ1dHVyZSBdPC9GT05UPjwvU1BBTj48L1NUUk9ORz48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxCUj48L1NQQU4+PEZPTlQgY29sb3I9IzMzMzM5OT48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogIzAwY2NmZjsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48Rk9OVCBjb2xvcj0jMzMzMzk5PkFnZSB5b3VyIHBsYW4gdG8gYmUgbWFycmllZDogd2hlbmV2ZXIgdGhlIHRpbWUgc2VlbXMgcmlnaHQ8QlI+TnVtYmVyIGFuZCBuYW1lcyBvZiBjaGlsZHJlbjogYSBmZXc8QlI+V2hlcmUgd2lsbCB5b3UgYmUgYXQgYWdlIDIwOiBjb2xsZWdlPEJSPkRyZWFtIHdlZGRpbmc6IHdhbGtpbmcgdG93YXJkcyB0aGUgcmlnaHQgbWFuPEJSPkhvdyBkbyB5b3Ugd2FudCB0byBkaWU6IGhhcHB5PEJSPkRyZWFtIGpvYjogbWF5YmUgb3BlbmluZyBteSBvd24gZGF5IGNhcmUgY2VudGVyPEJSPkNvdW50cnkgeW91J2QgbGlrZSB0byB2aXNpdDogQXVzdHJhbGlhPEJSPjwvRk9OVD48L1NQQU4+PC9GT05UPjxTVFJPTkc+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6ICNjYzk5ZmY7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJzsgbXNvLWJpZGktZm9udC1mYW1pbHk6IEFyaWFsIj48Rk9OVCBjb2xvcj0jNjYwMGNjPiouKi4qLiouKi4qLiouKi4qLiouKi4qLiouKi4qLio8L0ZPTlQ+PC9TUEFOPjwvU1RST05HPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJyI+PEJSPjwvU1BBTj48U1RST05HPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiBmdWNoc2lhOyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyc7IG1zby1iaWRpLWZvbnQtZmFtaWx5OiBBcmlhbCI+PEZPTlQgY29sb3I9IzY2MDBjYz5bIFNlcmllcyZuYnNwOzcgLSBvdGhlciBdPC9GT05UPjwvU1BBTj48L1NUUk9ORz48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxCUj48L1NQQU4+PFNQQU4gc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6ICMwMGNjZmY7IEZPTlQtRkFNSUxZOiAnVHJlYnVjaGV0IE1TJyI+PEZPTlQgY29sb3I9IzMzMzM5OT5MYXN0IHRpbWUgeW91IHNsZXB0IHdpdGggYSBzdHVmZmVkIGFuaW1hbDogYSBsb25nIHRpbWUgYWdvPEJSPlJpbmdzIGJlZm9yZSB5b3UgYW5zd2VyIHRoZSBwaG9uZTogdXN1YWxseSAyIHVubGVzcyBJIGNhbuKAmXQgZmluZCB0aGUgcGhvbmU8QlI+V2hhdCdzIG9uIHlvdXIgbW91c2VwYWQ6IGl0cyBqdXN0IGJsYWNrPEJSPkhvdyBtYW55IGhvdXNlcyB5b3UndmUgbGl2ZWQgaW46IDE8QlI+SG93IG1hbnkgc2Nob29scyB5b3UndmUgZ29uZSB0bzoxPC9GT05UPjwvU1BBTj48L1A+DQo8UD48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogIzAwY2NmZjsgRk9OVC1GQU1JTFk6ICdUcmVidWNoZXQgTVMnIj48Rk9OVCBjb2xvcj0jMzMzMzk5PkJlZHJvb20gY2FycGV0IGNvbG9yOiBtYW55IGNvbG9yczxCUj5TaGF2ZSB5b3VyIGhlYWQgZm9yICQ1LDAwMD86IG5vPEJSPlN0cmFuZGVkIG9uIGEgZGVzZXJ0IGlzbGFuZC4gVGFrZSB0aHJlZSB0aGluZ3MuIE5vIHBlb3BsZTogZm9vZC4udGhhdHMgYWxsIEkgY2FuIHRoaW5rIG9mPEJSPkJlc3QgdGltZSBvZiB5b3VyIGxpZmUgc28gZmFyOiBJIGRvbnQgdGhpbmsgSSBoYXZlIEkgdGltZSB0aGF0IHN0YW5kcyBvdXQ8L0ZPTlQ+PC9TUEFOPjwvUD4NCjxQPjxTUEFOIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiAjMDBjY2ZmOyBGT05ULUZBTUlMWTogJ1RyZWJ1Y2hldCBNUyciPjxGT05UIGNvbG9yPSM2NjMzNjY+PFU+QW5kIHRoYW4geW91IGZpbmQgb3V0IHNvbWV0aGluZyB5b3UgZGlkbnQga25vdy4uY3J1c2hlZDxBIGhyZWY9Imh0dHA6Ly93d3cuc21pbGV5dG93bi5jb20vaW5kZXguc2h0bWw/c291cmNlPXNtaWxleW1haWwiPjxJTUcgYWx0PSI6KCAgIiBzcmM9Imh0dHA6Ly93d3cuc21pbGV5dG93bi5jb20vY29udGVudC9lbW90L3NhZGQwMDAxLmdpZiIgYm9yZGVyPTA+PC9BPjxBIGhyZWY9Imh0dHA6Ly93d3cuc21pbGV5dG93bi5jb20vaW5kZXguc2h0bWw/c291cmNlPXNtaWxleW1haWwiPjxJTUcgYWx0PSI6LSBJICAiIHNyYz0iaHR0cDovL3d3dy5zbWlsZXl0b3duLmNvbS9jb250ZW50L2Vtb3QvdGhuazAwMDYuZ2lmIiBib3JkZXI9MD48L0E+PC9VPjwvRk9OVD48L1NQQU4+PC9QPg=="
+"eventtime","2005-03-28 22:56:00"
+"current_moodid","129"
+"url","http://sweetpea-1.livejournal.com/65673.html"
+"userid","15081"
+"itemid","255"
+"event","Saturday thur Friday- I was at Belinda's house..hanging out with her and Lacey=fun
+
+Friday Night- Belinda, Martina, Larry and I went bowling in canton..my high score was 80 lol Larry had the highest score which was 111 (shit house)..Lacey came home with us
+
+Saturday- Woke up at 10:30..played hide and seek with Lacey..at 1:00 we went to the fire hall for lunch..came home made a few phone calls..went to canton took Lacey home..went and picked up Kristin..meant up with Darcie at wal-mart..then to the ground floor..Mockina (which was the second band that played) we have been talking to ahead of time..there from New Jersey..so we hung out with them..got in free..got free shirts..free drinks..and hung out in there awesome camper..it was a house on wheels..it had everything..a master bedroom, bathroom(even with a shower), a tv, and a fire place. It was fun..I was even on the stage..oh and they offered us a beach house to stay in (score) sometime in June..there playing again in May..everyone should go and watch them..after the concert we went out to eat at Wendy's..Kristin's cheese burger..didnt have cheese..(yeah) so we back thur the drive thur..they threw her sandwich away..and they gave for two..over all a fun night
+
+And well today is Easter..HAPPY EASTER!! WOOHOO were having HAM! The Easter Bunny already came and now is gone..I missed him again 
+
+Surprise..SURPRISE..:)"
+"eventtime","2005-03-27 08:46:00"
+"current_moodid","121"
+"url","http://sweetpea-1.livejournal.com/65383.html"
+"userid","15081"
+"itemid","254"
+"event","Big fight with my parents last night..so maybe writing it down will help..lets see friday night I wanted to go to the donkey basketball game butttttttttt no..I didnt even get a reason why I couldnt go..just wasnt allowed..I'm 19 and can't go to a basketball game..what the hell..okay and then Saturday morning I wake up and my parents are gone!! My little sister Rebecca was at a friends house and calls..comes home..but not just her she brings her little friend too..I had plans to hang out with Richele..but nooooooooo I was stuck babysitting all day..from 10am-till 11:30pm at night..I cleaned the whole kitchen with Martina..Didnt even get a thanks..so yeah I flipped out..I never swear (hardly) but you should have heard me..Every other word..I was pissed..After, a lonnnnnnnnnng fight..I went to bed..Woke up thinking okay today I'll go see Richele..I didnt want to hang out here..But, today was Lacey's birthday party (she'll be 5 on Tuesday..shes growing up so fast) my sister Cherry came down from New York and brought baby Will down..her hushand Matt couldnt come..he had to work..well after the fight with my mom and dad the night before the last thing I wanted to do was hang out with them and family..put on a ""happy face""..I wasnt going to go ..the only reason I did go was because it was Lacey's birthday and wanted to see her..Cherry had some news for us....guess...okay..shes having a second baby..so William will have a little sister or brother..and I'll be an adult again..which is cool..ate some cake, played hide-and-seek with Will, played with my little ponies with Lacey..After, Cherry left..Belindas best friend came over..with her hushand and three kids..a 5 month baby..she was soooo cute..I got to hold her and feed her..I love babies..Came home and did some kick boxing 
+
+yeah my weekend..at least Cherry didnt drag me to church..."
+"eventtime","2005-03-13 20:13:00"
+"current_moodid","7"
+"url","http://sweetpea-1.livejournal.com/65214.html"
+"userid","15081"
+"itemid","253"
+"event","Haven't updated in awhile..a month for that matter
+
+Doing okay in boring sulco..not awhole lot has happened..
+
+Looking foward to this:
+March 26 2005
+The Ground Floor
+Williamsport
+36E. Forth Street
+Doors open 6:30 show starts at 7:00
+$3.00
+
+My niece turns five March 15..she'll be going to school this fall..not so little anymore..talked with my sister Cherry today..talked about Lacey's b-day and Will
+
+sodjldjgfjdhskfhjfkdhjkfdjhfkdlhjfkdkdjhkfdjhfkdjhfkdjkdjkdjkhdjd< dont know
+
+you.were.the.last.best.thing.in.my.life
+
+I want to be in your arms again................."
+"eventtime","2005-03-07 19:35:00"
+"current_moodid","3"
+"url","http://sweetpea-1.livejournal.com/64873.html"
+"userid","15081"
+"itemid","252"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#990000>Went to the basketball game..we played Wyalusing..oh yeah and won 70-59 I think that was the score</FONT></P>
+<P><FONT color=#006600>The Eagles lost!!!&nbsp; Woohoo</FONT></P>
+<P><FONT color=#000099>Last Monday, Tuesday, and Wednesday..Hung out with Darcie</FONT></P>
+<P><FONT color=#006600></FONT>&nbsp;</P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2005-02-07 22:45:00"
+"current_moodid","59"
+"url","http://sweetpea-1.livejournal.com/64615.html"
+"userid","15081"
+"itemid","251"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#000099><STRONG>I'm glad people say <U>sorry to me</U>. When fingers we're being pointed to me.</STRONG> Just the more I read about this Jordy thing pisses me off. If I have a problem with someone I ask them. Not just say its Andrea Hamilton...whatever the... means. God at least put the blame on someone that talks to him.&nbsp;He was at my house when&nbsp;he was on leave. Oh but&nbsp;get this I <FONT size=7><STRONG>didn't even say hi to him.</STRONG></FONT> He talked with my mom, dad, and hung out with my sister. I was fuckin upstairs. He took my sister to Canton and the<U><STRONG> </STRONG></U><FONT size=7><U><STRONG>two</STRONG></U> <STRONG>of them hung out</STRONG></FONT>. It's bullshit. </FONT></P>
+<P><FONT color=#000099>So if you have something to say just tell me...my sn is AndreaHamilton69..email address is <A href=""mailto:lilbob1985@yahoo.com"">lilbob1985@yahoo.com</A>.. now theres no reason why you cant talk to me about this</FONT></P>
+<P><FONT color=#000099></FONT>&nbsp;</P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2005-01-27 00:47:00"
+"current_moodid","110"
+"url","http://sweetpea-1.livejournal.com/64477.html"
+"userid","15081"
+"itemid","250"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#993399><FONT color=#006600>Philadelphia Eagles</FONT> vs. <FONT color=#ff0000>New England Patriots </FONT>&lt;&lt;Going for the </FONT><FONT color=#ff0000>Patriots</FONT></P>
+<P><FONT color=#993399>I got to talk to my boyfriend Luke (not really my bf but Liz's..we share lol)..talked about going to Philly and visiting..that would be cool <STRONG>I miss them</STRONG>..</FONT></P>
+<P><FONT color=#993399>Went sled riding tonight..that was fun..My face was so <FONT color=#ff0000><STRONG>red</STRONG></FONT> afterwards (looked like a sun burn) </FONT></P>
+<P><FONT color=#993399>So german boy is coming back to visit this summer</FONT></P>
+<P><FONT color=#993399>Basketball game Friday might go to that <A href=""http://www.smileytown.com/index.shtml?source=smileymail""><IMG alt="":)  "" src=""http://www.smileytown.com/content/emot/sprt0002.gif"" border=0></A></FONT></P>
+<P><FONT color=#993399>I heard about WinterBall being postponed. I remember going to that last night. Still feel bad for Josh's car and glad he doesn't know. </FONT></P>
+<P><FONT color=#993399>Tomorrow is Thursday</FONT></P>
+<P><FONT color=#993399>Yeah I guess thats it for now</FONT></P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2005-01-27 00:26:00"
+"current_moodid","84"
+"url","http://sweetpea-1.livejournal.com/64194.html"
+"userid","15081"
+"itemid","249"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P>&nbsp;<FONT color=#006600>Philadelphia Eagles&nbsp;</FONT>Vs. <FONT color=#cc0000>A<FONT color=#000000>t</FONT>l<FONT color=#000000>a</FONT>n<FONT color=#000000>t</FONT>a <FONT color=#000000>F</FONT>a<FONT color=#000000>l</FONT>c<FONT color=#000000>o</FONT>n</FONT><FONT color=#000000>s &gt;&gt; I'm picking the <FONT color=#000000>F</FONT><FONT color=#ff0000>a</FONT>l<FONT color=#ff0000>c</FONT>o<FONT color=#ff0000>n</FONT>s</FONT><BR><FONT color=#666666>(NFC Championship Game)</FONT></P>
+<P><FONT color=#ffcc00>P</FONT>i<FONT color=#ffcc00>t</FONT><FONT color=#000000>t</FONT><FONT color=#ffcc00>s</FONT>b<FONT color=#ffcc00>u</FONT>r<FONT color=#ffcc00>g</FONT>h S<FONT color=#ffcc00>t</FONT>e<FONT color=#ffcc00>e</FONT>l<FONT color=#ffcc00>e</FONT>r<FONT color=#ffcc00>s</FONT>&nbsp;Vs. <FONT color=#000099>N<FONT color=#ff0000>e</FONT>w E<FONT color=#ff0000>n</FONT>gl<FONT color=#ff0000>a</FONT>n<FONT color=#ff0000>d</FONT> P<FONT color=#ff0000>a</FONT>t<FONT color=#ff0000>r</FONT>i<FONT color=#ff0000>o</FONT>t<FONT color=#ff0000>s </FONT></FONT><FONT color=#000000>&gt;&gt; I'm picking </FONT><FONT color=#000099>N<FONT color=#ff0000>e</FONT>w E<FONT color=#ff0000>n</FONT>g<FONT color=#ff0000>l</FONT>a<FONT color=#ff0000>n</FONT>d <FONT color=#ff0000>P</FONT>a<FONT color=#ff0000>t</FONT>r<FONT color=#ff0000>i</FONT>o<FONT color=#ff0000>t</FONT>s</FONT></P>
+<P><FONT color=#666666>(AFC Championship Game)</FONT></P>
+<P><FONT color=#000000>Could be a Pennslyvania Superbowl?</FONT></P>
+<P>Doesn't really matter who goes to the Superbowl..It wont be my team the <FONT color=#ff0000>49ers</FONT>. 2W-14L lol Bad year for them..Next year guys<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=17 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/042002/042002_1028_316_prv.gif"" width=15 border=0 hbtype=""em""></A></P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3b&amp;SG=&amp;RAND=51330&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>"
+"eventtime","2005-01-22 22:39:00"
+"current_moodid","92"
+"url","http://sweetpea-1.livejournal.com/63922.html"
+"userid","15081"
+"itemid","248"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#000099>It's Been a long couple of weeks. I'm ready for summer!</FONT></P>
+<P><FONT color=#000099>I don't really have anything to write about.</FONT></P>
+<P><FONT color=#000099>I miss my philly family. Miss my girl Liz.</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#000099><IMG id=hb_new_animation height=18 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/080402/080402miss_prv.gif"" width=54 border=0 hbtype=""em""></FONT></A></P>
+<P><FONT color=#000099>Oh and I was just reading Carissa's friend list. Since when do I talk to Jordy?? I'm not leaving messages in Jens journal. I haven't even talked with him since high school. Ask&nbsp;him. &nbsp;No one even asked if it was me. That's crap. I have aol. But okay&nbsp;dont ask me. Just post my name.&nbsp;I'm not even dating anyone. </FONT></P>
+<P><FONT color=#000099>Gary comes home April 15th </FONT></P>
+<P><FONT color=#000099>And Robert has been home for two weeks! But, hes living in North Carolina.</FONT></P>"
+"eventtime","2005-01-22 22:07:00"
+"current_moodid","121"
+"url","http://sweetpea-1.livejournal.com/63554.html"
+"userid","15081"
+"itemid","247"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" UNSELECTABLE=""on"" width=""100%"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<DIV><FONT face=Arial size=2>A story about a boy I know.....</FONT></DIV>
+<DIV><FONT face=Arial size=2></FONT>&nbsp;</DIV>
+<DIV><BR></DIV><FONT id=role_document face=""Arial MT Black"" color=#000000 size=3>
+<DIV>I recall my first time with a condom, I was 16 or<BR>so.&nbsp; I went in to buy a package of condoms.&nbsp; There was<BR>a beautiful<BR>woman behind the counter, and she could see that I was<BR>new at it.&nbsp; She<BR>handed me the package and asked, if I knew how to wear<BR>one.&nbsp; I<BR>honestly answered, ""No.""&nbsp; So she unwrapped the<BR>package, took one out<BR>and slipped over her thumb.&nbsp; She cautioned me to make<BR>sure it was on tight and secure.&nbsp; I apparently<BR>still looked confused.&nbsp; So she looked all around the<BR>store.&nbsp; It<BR>was empty. She said,"" ""Just a minute.""&nbsp; And walked to<BR>the door, and<BR>locked it. <BR>Taking my hand, she led me into the back room,<BR>unbuttoned her blouse and<BR>removed it . She<BR>unhooked her bra and laid it aside.&nbsp; She asked, ""Do<BR>these excite you?""<BR>Well, I was so dumb-struck that all I could do was nod<BR>my head.&nbsp; She<BR>then said, it was time to slip the condum on.&nbsp; As I<BR>was slipping it<BR>on, she dropped her skirt, removed her panties and<BR>laid down on a<BR>desk.&nbsp; ""Well ,<BR>come on"", she said, ""We don't have much time.""&nbsp; So I<BR>climbed on<BR>her.&nbsp; It was so wonderful, that unfortunately, I could<BR>no longer hold<BR>back and pow, I was done within a few minutes. She<BR>looked at me with a<BR>frown.&nbsp; ""Did you put that condom on?""&nbsp;&nbsp; I said, ""I<BR>sure did."" <BR>And held up my thumb to show her</DIV></FONT></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2005-01-17 23:22:00"
+"url","http://sweetpea-1.livejournal.com/63269.html"
+"userid","15081"
+"itemid","246"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" UNSELECTABLE=""on"" width=""100%"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><BR>that starts with A: Andrea<BR>that starts with B: Belinda&nbsp;(older sister)<BR>that starts with C: Cherry (older sister) chocolate<BR>that starts with D: Dogs &lt;meaning guys<BR>that starts with E: Elephants<BR>that starts with F: flipflops<BR>that starts with G: guys</P>
+<P>that starts with H: hugs<BR>that starts with I: ice cream<BR>that starts with J: junk food<BR>that starts with K: kisses </P>
+<P>that starts with L: Lacey (niece) <BR>that starts with M: Martina (younger sister)<BR>that starts with N: niece, nephew :)</P>
+<P>that starts with O: Orange juice <BR>that starts with P: Pink<BR>that starts with Q: queen of dorks<BR>that starts with R: Rose (my moms name) roses Rebecca (younger sister)<BR>that starts with S:&nbsp;summer<BR>that starts with T:&nbsp;Tacos <BR>that starts with U: underwear <BR>that starts with V: vacations<BR>that starts with W: William (nephew) <BR>that starts with X: x-boyfriends</P>
+<P>that starts with Y: yellow<BR>that starts with Z: zippers</P></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3b&amp;SG=&amp;RAND=38549&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P>
+<P><FONT color=#cc0000>Why does she act the way she does?? Stealing money from me..for drugs..what the hell!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Like anyone needs that shit. I dont waste my time/or money on that. So steal my money </FONT><FONT color=#cc0000>for that...</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#cc0000><IMG id=hb_new_animation alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/050103/050103bad_prv.gif"" width=25 border=0 hbtype=""em""></FONT></A><FONT color=#cc0000>&nbsp;I'm going to give you a chance to tell&nbsp;me that you took it or I'm going to mom and dad and telling them what you stole it for!!!!!!!</FONT></P>
+<P></P>"
+"eventtime","2005-01-13 21:46:00"
+"current_moodid","24"
+"url","http://sweetpea-1.livejournal.com/63129.html"
+"userid","15081"
+"itemid","245"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P>So wherever you put that, it should show up like this:<BR><IMG title=HUGS height=40 src=""http://www.toxin.org/cgi-bin/count_hugs.cgi?hug=sweetpea_1"" width=240> <BR clear=all>*HUGS* TOTAL! <A href=""http://www.toxin.org/cgi-bin/hugs.cgi?&amp;HUGS=yes&amp;hug=sweetpea_1"">give sweetpea_1 more *HUGS*</A> <BR><SMALL><A href=""http://www.toxin.org/cgi-bin/gethugs.cgi"">Get hugs of your own</A></SMALL> </P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2005-01-11 13:49:00"
+"url","http://sweetpea-1.livejournal.com/62909.html"
+"userid","15081"
+"itemid","244"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT style=""BACKGROUND-COLOR: #ffffff"" color=#ff0000 size=5><STRONG>Ten</STRONG><FONT color=#0d0d0d><STRONG> <FONT size=3>random things about me ...</FONT></STRONG></FONT></FONT></P>
+<P><STRONG><FONT color=#0d0d0d>1.&nbsp;Keystone student this Fall...</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>2.&nbsp;I have fours sisters...</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>3. I plan on becoming&nbsp;a preschool teacher...</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>4. Working on losing weight...not fun by the way..</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>5. I love the ocean...going there is summer and taking my best friend with me</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>6. My favorite movie is Now and Then...</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>7. I'm bored</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>8. Looking up information up </FONT><FONT color=#003333 size=2>Assateague Island :)</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>9. Tried making a snowman today...</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>10. Hoping my sisters have school tomorrow...</FONT></STRONG></P>
+<P><FONT color=#ff0000 size=5><STRONG>Nine<FONT color=#050505> <FONT size=3>places I've been ...</FONT></FONT></STRONG></FONT></P>
+<P><STRONG><FONT color=#050505>1. Maryland</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>2. West Virginia</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>3. Virginia</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>4. Washington</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>5.&nbsp; New York</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>6.&nbsp; Philly</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>7. ...</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>8. ...</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>9. ...</FONT></STRONG></P>
+<P><STRONG><FONT color=#ff0000 size=5>Eight <FONT color=#050505 size=3>things I want&nbsp;to do before I die ...</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>1. Go and finish college</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>2. Be a loving wife</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>3. Be a great mom</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>4. Go to Hawaii</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>5. Go to Texas</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>6. Move away from Sullivan County</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>7. Get a summer home by the beach</FONT></STRONG></P>
+<P><STRONG><FONT color=#050505>8. Live my life to the fullest..</FONT></STRONG></P>
+<P><STRONG><FONT color=#ff0000 size=5>Seven <FONT color=#0d0d0d size=3>things I hate about school ...</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>1. I hate that I'm not going to college yet...</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>2. Lots of homework</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>3. Waking up early</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>4. Tests/Quizzes</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>5. Writing Papers</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>6. Waking up early</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>7. Waking up EARLY</FONT></STRONG></P>
+<P><STRONG><FONT color=#ff0000 size=5>Six <FONT color=#0d0d0d size=3>things I believe in ...</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>1.&nbsp;My true friends with be there forever..</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>2. Myself</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>3. My sisters</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>4. Heaven</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>5. God</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>6. Satan</FONT></STRONG></P>
+<P><STRONG><FONT color=#ff0000 size=5>Five <FONT color=#0d0d0d size=3>things I am afraid of ...</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>1. dying early</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>2. being a bad mom</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>3. being alone</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>4. being unsucessful</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>5. being alone</FONT></STRONG></P>
+<P><STRONG><FONT color=#ff0000 size=5>Four <FONT color=#0d0d0d size=3>of my favorite things in my room ...</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>1. Bed</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>2. The view from my bed</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>3. Privacy</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>4. I get away from everyone</FONT></STRONG></P>
+<P><STRONG><FONT color=#bf0000 size=5><FONT color=#ff0000>Three</FONT>&nbsp;<FONT color=#0d0d0d size=3>things I do every day ...</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>1. Walk </FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>2. Eat</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>3. And sleep</FONT></STRONG></P>
+<TABLE class=searchresults style=""WIDTH: 100%; BORDER-COLLAPSE: collapse"" cellSpacing=0 cellPadding=4 border=0>
+<TBODY>
+<TR>
+<TD style=""WIDTH: 10%"" vAlign=top><A onclick=""AddLink('1','1','Carried Me: The Worship Project','B0001AP0O0',' Jeremy Camp','http://images.amazon.com/images/P/B0001AP0O0.01.THUMBZZZ.jpg','2');return false;"" href=""javascript:AddLink('1','1','Carried Me: The Worship Project','B0001AP0O0',' Jeremy Camp','http://images.amazon.com/images/P/B0001AP0O0.01.THUMBZZZ.jpg','2')"" target=_new><FONT color=#642b56></FONT></A></TD>
+<TD style=""WIDTH: 90%"" vAlign=top><A onclick=""AddLink('1','1','Carried Me: The Worship Project','B0001AP0O0',' Jeremy Camp','http://images.amazon.com/images/P/B0001AP0O0.01.THUMBZZZ.jpg','2');return false;"" href=""javascript:__doPostBack('_ctl30','')"" target=_new><FONT color=#642b56></FONT></A></TD></TR></TBODY></TABLE>
+<P><FONT color=#ff0000 size=5><STRONG>Two <FONT color=#0d0d0d size=3>things I&nbsp;am trying&nbsp;to do ...</FONT></STRONG></FONT></P>
+<P><STRONG><FONT color=#0d0d0d>1. Lose weight</FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>2. Move on</FONT></STRONG></P>
+<P><STRONG><FONT color=#ff0000 size=5>One <FONT color=#0d0d0d size=3>thing I love about life...</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#0d0d0d>1. My friends/family</FONT></STRONG></P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2005-01-06 17:11:00"
+"url","http://sweetpea-1.livejournal.com/62606.html"
+"userid","15081"
+"itemid","243"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" UNSELECTABLE=""on"" width=""100%"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#666666>CURRENT THINGS<BR><BR><BR>Current music: Nasty Girl-Nitty</FONT></P>
+<P><FONT color=#666666>Current taste: gum<BR>Current hair: down<BR>Current desktop picture: a picture I took&nbsp;&nbsp; trees upside down<BR>Current book: not reading one..shocked i know lol<BR>Current color of toenails: uncolored</FONT></P>
+<P><FONT color=#666666>Current time- 12:18am</FONT></P>
+<P><FONT color=#666666>Current hate: my physical appearance</FONT></P>
+<P><BR><FONT color=#666666>(1) Your gender: Female</FONT></P>
+<P><FONT color=#666666>(2) Straight/gay/bi?: Straight<BR>(3) Single?: yes</FONT></P>
+<P><FONT color=#666666>(4) Want to be?: I want it to be April 15th<BR>(5) Your birth day: May 20th, 1985<BR>(6) Age you act: 16<BR>(7) Age you wish you were: 21<BR>(8) Your height: 5'2<BR>(9) The color of your eyes: brown<BR>(10) Happy with it?: yes<BR>(11) The color of your hair:&nbsp;brown <BR>(12) Happy with it?: yes</FONT></P>
+<P><FONT color=#666666>(13) Left/right/ambidextrous?: Right<BR>(14) Your living arrangement?: Dad, Mom, Martina, Rebeca and me<BR>(27) Your family: Dad, Mom, Cherry, Belinda, Martina, Rebeca</FONT></P>
+<P><FONT color=#666666>(29) What's your job: dont have one</FONT></P>
+<P><FONT color=#666666>(30) Piercings?: one in each ear<BR>(31) Tattoos?: none yet</FONT></P>
+<P><FONT color=#666666>(32) Obsessions?: boys</FONT></P>
+<P><FONT color=#666666>(35) Do you speak another language? no<BR>(36) Have a favorite saying? no<BR>(37) Do you have a webpage?: no<BR><BR>DEEP THOUGHTS<BR><BR>(38) Do you live in the moment?: usually<BR>(39) Do you consider yourself tolerant of others?: yes</FONT></P>
+<P><FONT color=#666666>(40) Do you have any secrets?: yes</FONT></P>
+<P><FONT color=#666666>(41) Do you hate yourself?: no<BR>(42) Do you like your handwriting?: yea<BR>(43) Do you have any bad habits?: not that I can think of<BR>(44) What is the compliment you get most from people?: compliment..whats that..I dont get them<BR>(45) If a movie was made about your life, what would it be called?: dont want to live her life<BR>(46) What's your biggest fear?: not going thur with my career choice</FONT></P>
+<P><FONT color=#666666>(47) Can you sing: not really<BR>(48) Do you ever pretend to be someone else just to look cool?: No </FONT></P>
+<P><FONT color=#666666>(49) Are you a loner?: sometimes<BR>(51) If you were another person, would you be friends with you?:&nbsp;yes&nbsp;<BR>(52) Are you a daredevil?: sometimes<BR>(53) Is there anything you fear or hate about yourself?: Yeah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></P>
+<P><FONT color=#666666>(54) Are you passive or aggressive?: Both, depends on what I'm doing<BR>(55) Have you got a ?: why am I doing this?<BR>(56) What is your greatest strength and weakness? Strength...being honest&nbsp;weakness: keeping to myself<BR>(57) If you could change one thing about yourself?:&nbsp;looks</FONT></P>
+<P><FONT color=#666666>(58) There are three wells, love, beauty and creativity, which one do you choose?: love</FONT></P>
+<P><FONT color=#666666>(59) How do you vent?:&nbsp;listen to music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></P>
+<P><FONT color=#666666>(60) Do you think you are emotionally strong?:&nbsp;no&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></P>
+<P><FONT color=#666666>(62) Do you think life has been good so far?:&nbsp;yes <BR>(63) What is the most important lesson you've learned from life? take my time..<BR>(64) What do you like the most about your body?: nothing really..my legs</FONT></P>
+<P><FONT color=#666666>(65) And least?: my fat <BR>(66) Do you think you are good looking?: no..looks arent everything..or so they say<BR>(67) Are you confident?: sometimes<BR>(68) What is the fictional character you're most like?: Hunch Back</FONT></P>
+<P><FONT color=#666666>69) Do people know how you feel?: not really<BR>(70) Are you perceived wrongly?: yeah sometimes <BR><BR>DO YOU<BR><BR>(71) Smoke?: no<BR>(72) Do drugs?: no<BR>(73) Read the newspaper?: every now and then&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></P>
+<P><FONT color=#666666>(74) Pray?: no<BR>(75) Go to church? rarely<BR>(76) Talk to strangers who IM you?:&nbsp;yes..to see who they are&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></P>
+<P><FONT color=#666666>(77) Sleep with stuffed animals?no<BR>(79) Talk to people even though you hate them?: nah<BR>(80) Drive?: not well<BR>(81) Like to drive fast?: nah<BR><BR>HAVE YOU EVER<BR><BR><BR>(82) Liked your voice?: yes i guess<BR>(83) Hurt yourself?:&nbsp;yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></P>
+<P><FONT color=#666666>&nbsp;(84) Been out of the country?: no<BR>(85) Eaten something that made other people sick?: yes<BR>(86) Burped?: yes<BR>(87) Been unfaithful?: no<BR>(88) Been in love?: yes<BR>(89) Done drugs?: no<BR>(90) Gone skinny dipping?: yes<BR>(92) Had a surgery?: no<BR>(93) Ran away from home?: no<BR>(94) Played strip poker: no<BR>(95) Gotten beaten up?:&nbsp;yes<BR>(97) Been picked on?: yes<BR>(98) Been on stage?: yes<BR>(99) Been so drunk that you know you're supposed to go out on a date with someone, but you can't remember with who or when and that you faint when you look at yourself in the mirror in the morning, not to mention your breath?: been pretty drunk but never had that happen<BR>(100) Slept outdoors?: yes<BR>(101) Thought about suicide?: yes<BR>(102) Pulled an all-nighter?: yes</FONT></P>
+<P><FONT color=#666666>(103) If yes, what is your record?: no idea<BR>(105) Talked on the phone all night?: yes<BR>(106) Slept together with the opposite sex without actually having sex?: yeah<BR>(107) Slept all day?:&nbsp;yes<BR>(108) Killed someone?:&nbsp;no&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></P>
+<P><FONT color=#666666>(109) Made out with a stranger?:&nbsp; yes<BR>(110) Had sex with a stranger?: no<BR>(111) Thought you're going crazy?: yes<BR>(112) Kissed the same sex?: no<BR>(113) Done anything sexual with the same sex? no</FONT></P>
+<P><FONT color=#666666>(114) Been betrayed?: yes<BR>(115) Had a dream that came true?: yes :)<BR>(116) Broken the law?: yes</FONT></P>
+<P><FONT color=#666666>(117) Met a famous person?: yes</FONT></P>
+<P><FONT color=#666666>(118) Have you ever killed an animal by accident?: yeah<BR>(146) Stolen anything?: yes..i have four sisters..i thought&nbsp;it was mine lol<BR>(147) Been on radio/TV.?: yeah..at boyscout camp..with liz..lol<BR>(148) Been in a mosh-pit?: yeah<BR>(149) Had a nervous breakdown?:&nbsp; yes..lots<BR>(150) Considered religious vocation?: no<BR>(151) Been criticized about your sexual performance?: no<BR>(152) Bungee jumped?: no<BR>(153) Had a dream that kept coming back?: yes<BR><BR>CLOTHES<BR><BR><BR>(154) Shoe brand?: Adidas, Nike</FONT></P>
+<P><FONT color=#666666>(155) Brand of clothing?: American Eagle, Aeropostale, Gap<BR>(156) Cologne/perfume?:&nbsp;Sweetpea..bath and body work&nbsp;<BR>(157) What are you normally wearing to school/work?:&nbsp;whatever<BR>(159) Wear hats?:sometimes..not that much<BR>(161) Wear make-up?: no<BR>(162) Favorite place to shop?: American Eagle</FONT></P>
+<P><FONT color=#666666>(163) Favorite article of clothing?:&nbsp;pjs&nbsp;<BR>(164) Are you trendy?: no<BR>(165) Would you rather wear a uniform to school?: no<BR><BR>BELIEFS<BR><BR><BR>(166) Believe in life on other planets?: no<BR>(167) Miracles?: yes<BR>(168) Astrology?: yes<BR>(169) Magic?: no<BR>(170) God?: yes</FONT></P>
+<P><FONT color=#666666>(171) Satan?: yes<BR>(172) Santa?: yes..of course dont you<BR>(173) Ghosts?: no<BR><BR>(174) Luck?: yes<BR>(175) Love at first sight?: yes<BR>(176) Yin and Yang?: no<BR>(177) Witches?: no<BR>(178) Easter bunny?: no<BR>(179) Believe it's possible to remain faithful forever?: yes<BR>(180) Believe there's a pot of gold at the end of the rainbow?: no<BR>(181) Do you wish on stars?: no<BR><BR>LOVE<BR><BR><BR>(182) Did you get frightened or uncomfortable seeing that as a section title?: No<BR>(183) Do you remember your first love?: yes<BR>(184) Still love him/her?: yes..always will<BR>(185) Do you consider love a mistake?: sometimes I wonder</FONT></P>
+<P><FONT color=#666666>(186) What do you find romantic?: being together,</FONT></P>
+<P><FONT color=#666666>(187) Turn-on?: dorky</FONT></P>
+<P><FONT color=#666666>(188) Turn-off?: rude<BR>(189) Do you base your judgment on looks alone: no<BR>(200) If someone you had no interest in dating expressed interest in dating you, how would you feel?: uncomfortable<BR>(201) Do you prefer knowing someone before dating them or going ""blind""?: knowing them atleast a little..blind date might be fun to try..if I was sent up by a good friend<BR>(202) Have you ever wished it was more ""socially acceptable"" for a girl to ask a guy out?: yes</FONT></P>
+<P><FONT color=#666666>(203) Have you ever been romantically attracted to someone physically unattractive?: yes<BR>(204) Do you think the opposite sex finds you good looking?: nah</FONT></P>
+<P><FONT color=#666666>(205) What is best about the opposite sex?: duh</FONT></P>
+<P><FONT color=#666666>(206) What is the worst thing about the opposite sex? mood swings..sometimes I think guys have them worse lol<BR>(207) What's the last present someone gave you? a roll of paper towels..my grandparents give me the weirdest stuff<BR>(208) Are you in love?: no<BR>(209) Do you consider your significant other hot?: n/a<BR>(210) What would you do if you were walking down the street and saw some hot guy/girl standing on the sidewalk?:&nbsp;oh well<BR><BR>WHO WAS THE LAST PERSON<BR><BR><BR>(211) That haunted you?: no one<BR>(212) You wanted to kill?: Mary-MOO</FONT></P>
+<P><FONT color=#666666>(213) That you laughed at?:Martina</FONT></P>
+<P><FONT color=#666666>(214That laughed at you?: Martina</FONT></P>
+<P><FONT color=#666666>(215)turned you on?: going to the next question :P</FONT></P>
+<P><FONT color=#666666>(216) You went shopping with?:&nbsp;my sister Belinda and niece</FONT></P>
+<P><FONT color=#666666>(217) That broke your heart?: me<BR>(218) To disappoint you?: me<BR>(219) To ask you out?: Nate lol</FONT></P>
+<P><FONT color=#666666>(220) To make you cry?: I know understand finally but yeah Chris<BR>(221) To brighten up your day?: Gary<BR>(222) That you thought about?: Robert<BR>(223) You saw a movie with?:&nbsp;Devin<BR>(224) You talked to on the phone?: Martinas friend Dustin<BR>(225) You talked to through IM?: Devin<BR>(226) You saw?: my mom<BR>(227) You lost?: i dont know<BR>(229) You thought was completely insane?: Nate<BR>(230) You wanted to be?: Paris Hilton<BR>(231) You told off?: Martina<BR>(232) You trusted?:Gary<BR>(233) You turned down?: Nate </FONT></P></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P>
+<P><FONT color=#999999>Some of the questions are missing..I dont know why..</FONT></P>
+<P><FONT color=#999999>I dont think my sisters will have school tomorrow..damn it </FONT></P>"
+"eventtime","2005-01-06 00:15:00"
+"current_moodid","99"
+"url","http://sweetpea-1.livejournal.com/62463.html"
+"userid","15081"
+"itemid","242"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#990000>[x] Scream: Andrea<BR>[x] Sex: female<BR>[x] Astrological sign: Taurus</FONT></P>
+<P><FONT color=#990000>[x] Height: 5'2<BR>[x] Weight: lets not go there</FONT></P>
+<P><FONT color=#990000>[x] Your eyes: brown<BR>[x] Your hair: brown <BR>[x] Birth date: 5/20/85<BR>[x] Birth place: sayre<BR>[x] Current Residence: Shunk</FONT></P>
+<P><FONT color=#339999><FONT color=#990000>[x] Your fears: storms</FONT></FONT></P><FONT color=#339999><FONT color=#990000></FONT>
+<P><BR><FONT color=#ff6600>----------------INSTANT MSG:----------------- <BR>[x] First Screen Name: AndreaHamilton69</FONT></P>
+<P><FONT color=#ff6600>[x] Current Screen Name: AndreaHamilton69</FONT></P>
+<P><FONT color=#ff6600>[x] Number of Buddies: 200<BR>[x] Number of Buddies online right now:35 <BR>[x] Number of Buddies talking to right now: 1</FONT><BR><BR><FONT color=#009900>----------------ARE YOU:----------------- <BR>[x] Funny: yeah</FONT></P>
+<P><FONT color=#009900>[x] Smart: if I apply myself </FONT></P>
+<P><FONT color=#009900>[x] Annoying: I can be I guess<BR>[x] Talented: yes<BR>[x] Fun: yes<BR>[x] Friendly: yes</FONT></P>
+<P><FONT color=#009900>[x] Loud: can be<BR>[x] Hyper: sometimes<BR>[x] Shy:&nbsp;sometimes <BR>[x] Helpful: try to be<BR>[x] Weird: am I?<BR><BR></FONT><BR><FONT color=#000099>-----------------WHAT IS------------------<BR>[x] Your most over-used phrase or word when talking: lol<BR>[x] Your first thoughts after waking up:do I have to get up..</FONT></P>
+<P><FONT color=#000099>[x] The first feature you notice in the opposite sex: eyes smile....<BR>[x] Your best physical feature: I dont have one</FONT></P>
+<P><FONT color=#000099>[x] Your bedtime: whenever </FONT><BR><BR><FONT color=#993399>-----------------YOU PREFER------------------<BR>[x] Pepsi or Coke: pepsi</FONT></P>
+<P><FONT color=#993399>[x] McDonald's or Burger King: Mcdonalds<BR>[x] Adidas or Nike: Adidas<BR>[x] Chocolate or vanilla: chocolate<BR>[x] Cappuccino or coffee: yuck</FONT><BR><BR><BR><FONT color=#ff0000>------------IN THE PAST MONTH DID / HAVE YOU--------------<BR>[x] Gone to the mall: yes<BR>[x] Eaten sushi: nope<BR>[x] Been on stage: nope<BR>[x] Been dumped: nope <BR>[x] Gone skating: nope<BR>[x] Made homemade cookies: yes<BR>[x] Dyed your hair: nope<BR>[x] Stolen anything: maybe</FONT></P>
+<P><FONT color=#ff0000>[x] Gotten detention: no<BR>[x] Been sick: nope<BR>[x] Gone to a concert: nope<BR>[x] Played an instrument: nope<BR>[x] Embarrased yourself: nope</FONT></P>
+<P><FONT color=#ff0000>[x] Hurt someones feelings: yes<BR>[x] Had your feelings hurt: yes</FONT><BR><BR><BR></FONT><FONT color=#ff6600>-----------------HAVE YOU EVER------------------<BR>[x] Gotten motion sickness: no</FONT></P>
+<P><FONT color=#ff6600>[x] Missed school because it was raining?: yup<BR>[x] Told a guy/girl that you liked them? yes..and I got hurt</FONT></P>
+<P><FONT color=#ff6600><FONT>[x] Cried during a Movie?: </FONT>yes</FONT></P>
+<P><FONT color=#ff6600>[x] Ever thought an animated character was hot?: no<BR>[x] Had an imaginary friend: no<BR>[x] Cut your hair:&nbsp;yup..it looked really shitty&nbsp;<BR>[x] Had crush on a teacher?: Mr. Murray<BR>[x] Gotten beaten up?: yeah<BR>[x] Been in a fist fight: a few times</FONT></P>
+<P><FONT color=#339999><FONT color=#ff6600>[x] Shoplifted: opps</FONT><BR><BR></FONT><FONT color=#666600>-----------------LAST------------------<BR>[x] Cigarette : not since April<BR>[x] Movie watched: Flintstones<BR>[x] Car Accident: I've never been in one</FONT></P>
+<P><FONT color=#339999><FONT color=#666600>[x] Shower: this morn<BR>[x] Good Conversation: today..gary and me</FONT><BR><BR></FONT><FONT color=#009900>.-----------------OPPOSITE SEX------------------<BR>[x] Best eye color: Blue</FONT></P>
+<P><FONT color=#009900>[x] Best hair color: dark</FONT></P>
+<P><FONT color=#009900>[x] Best facial feature: eyes smile<BR>[x] Best personality trait: honesty! and sense of humor<BR>[x] Short or long hair: short<BR>[x] Best height: taller then me</FONT></P>
+<P><FONT color=#339999><FONT color=#009900>[x] Best weight: i dont care<BR>[x] Best first date location: anywhere<BR></FONT><BR></FONT><FONT color=#00cccc>-----------------NUMBER OF-----------------<BR>[x] Number of drugs taken illegally: 0</FONT></P>
+<P><FONT color=#00cccc>[x] Number of people I could trust with my life: maybe 4<BR>[x] Number of CDs that I own: not many</FONT></P>
+<P><FONT color=#00cccc>[x] Number of piercing: 2<BR>[x] Number of tattoos: 0..so far</FONT></P>
+<P><FONT color=#339999><FONT color=#00cccc>[x] Number of scars on my body: to many<BR>[x] Number of things in my past that I regret: i dont regret.....you live life once....so live it up!-have to agree with that<BR>[x] Number of downloaded song on my computer: lots</FONT><BR><BR></FONT><FONT color=#3333ff>----------------FAVORITES---------------<WBR><WBR>---<BR>[x] Shampoo: Dove<BR>[x] Fav Color(s): pink<BR>[x] Summer/Winter: summer<BR>[x] Spring/Fall: spring<BR>[x] Lace or Satin: satin<BR>[x] Fave Cartoon: Family Dog</FONT></P>
+<P><FONT color=#339999><FONT color=#3333ff>[x] Fave Show(s):&nbsp;Dr. Phil<BR>[x] Fave Food: junk food<BR>[x] Fave Sport: Football<BR>[x] Fave School Subject: School??Whats that??<BR></FONT><BR><BR><FONT color=#6600cc>----------------RIGHT NOW------------------<BR>[x] Wearing: pj's and my keystone shirt<BR>[x] Drinking: water<BR>[x] Eating: nothing<BR>[x] Thinking about: tomorrow<BR>[x] Listening to: Whats Golden- Jurassic 5<BR>[x] Wanting: April to come fast..right gary :)<BR>[x] Hating: liars<BR></FONT><BR><BR></FONT><FONT color=#993399>--------FRIENDS AND LIFE------------------<BR>[x] Do you ever wish you had another name?: nope </FONT></P>
+<P><FONT color=#993399>[x] Do you ever wish you were someone else?: nah<BR>[x] Do you have a girlfriend/boyfriend?: nope not dating yet</FONT></P>
+<P><FONT color=#993399>[x] Do you like any one?:&nbsp;yes<BR>[x] Which one of your friends acts the most like you?: Darcie<BR>[x] Are you close to any family member?:&nbsp; most of them<BR>[x] What's the best feeling in the world?: being happy<BR>[x] Worst Feeling?:&nbsp;being unwanted</FONT></P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><FONT color=#330033></FONT></DIV></TD></TR></TBODY></TABLE>
+<BLOCKQUOTE id=747c03f1><FONT color=#330033></FONT>&nbsp;</BLOCKQUOTE>"
+"eventtime","2005-01-04 23:51:00"
+"current_moodid","44"
+"url","http://sweetpea-1.livejournal.com/62109.html"
+"userid","15081"
+"itemid","237"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<TABLE cellSpacing=3 cellPadding=5 width=""95%"" align=center border=0>
+<TBODY>
+<TR>
+<TD align=middle bgColor=#0066cc>""<B><FONT color=white size=+1>Who are you inside????? (LOTS OF RESULTS)girls only</FONT></B>"" - Results:</TD></TR>
+<TR>
+<TD align=middle><IMG alt="""" src=""http://live.quizilla.com/user_images/H/hoplessromantic/1100483030_bridechick.jpg""></TD></TR>
+<TR>
+<TD align=middle>You are a hopeless romantic person. You think of love as an innocent light. You are a happy person and you are also opptimistic. You like the bright things in life. Many people like you for your 'breath of fresh air attitude'.</TD></TR></TBODY></TABLE></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>
+<BLOCKQUOTE id=c16eb4e8>
+<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<TABLE cellSpacing=3 cellPadding=5 width=""95%"" align=center border=0>
+<TBODY>
+<TR>
+<TD align=middle bgColor=#0066cc></TD></TR>
+<TR>
+<TD align=middle></TD></TR>
+<TR>
+<TD align=middle></TD></TR></TBODY></TABLE></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE></BLOCKQUOTE>"
+"eventtime","2004-12-31 16:14:00"
+"url","http://sweetpea-1.livejournal.com/60741.html"
+"userid","15081"
+"itemid","236"
+"event","<TABLE id=HB_Mail_Container style=""BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/120103/120103_bgI16_bg.gif); BACKGROUND-REPEAT: repeat; BACKGROUND-COLOR: #ffffff"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD id=HB_Focus_Element style=""PADDING-RIGHT: 5px; BACKGROUND-POSITION: center bottom; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/120103/120103_bgI16.jpg); PADDING-BOTTOM: 220px; PADDING-TOP: 10px; BACKGROUND-REPEAT: no-repeat"" width=""100%"">
+<P><FONT color=#000099 size=4>The final day of one year, and the Eve of a brand new one. I never know what the future will bring me, so like most everyone, I go at it with a bit of caution and a lot of promise, for what will hopefully turn out to be a fun, and exciting year ahead..</FONT></P>
+<P><FONT color=#000099 size=4>Happy New Years!!</FONT></P></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=hotbar%5felement%3bst%3b&amp;SG=&amp;RAND=30462&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>"
+"eventtime","2004-12-31 15:04:00"
+"url","http://sweetpea-1.livejournal.com/60585.html"
+"userid","15081"
+"itemid","235"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#000099></FONT>&nbsp;</P>
+<P><FONT color=#000099></FONT>&nbsp;</P>
+<P><FONT color=#000099>Why cant you just be a jerk? Instead, of being this really nice guy..that I cant have...</FONT></P>
+<P><FONT color=#000099>^It's&nbsp;driving me&nbsp;CrAzY!!!</FONT>&nbsp;<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=35 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/020104/020104_emM8_prv.gif"" width=53 border=0 hbtype=""em""></A></P></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3b&amp;SG=&amp;RAND=94207&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<BLOCKQUOTE id=84c26c2f>
+<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE></BLOCKQUOTE>
+<P></P>"
+"eventtime","2004-12-23 22:18:00"
+"current_moodid","8"
+"url","http://sweetpea-1.livejournal.com/60396.html"
+"userid","15081"
+"itemid","234"
+"event","<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<TABLE id=HB_Mail_Container style=""BACKGROUND-POSITION: right top; FONT-WEIGHT: normal; FONT-SIZE: 10pt; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/120103/120103_bgH19.gif); COLOR: #000000; BACKGROUND-REPEAT: no-repeat; FONT-STYLE: normal; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ff9999"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD id=HB_Focus_Element style=""PADDING-RIGHT: 170px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 20px"" width=""100%"">
+<P><FONT color=#006600 size=2><STRONG>Who do you want to be under the mistletoe with? <FONT color=#990000>Someone Special</FONT></STRONG></FONT><STRONG><EM><BR></EM><FONT color=#006600 size=2></FONT></STRONG></P>
+<P><STRONG><FONT color=#990000 size=2>What are your favourite Christmas memories? <FONT color=#006600>We used to exchange gifts with all the cousins..you would pick a name from the hat and get a gift for the person in the $10-$20 gift range..and it was fun just finding out who had your name..but we stopped doing that bc of stupid family fights...And I really enjoyed christmas when the whole family was around..now that my two older sisters are out of the house its different..</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#006600 size=2>Where would you rather spend Christmas this year? <FONT color=#990000>Just at my house with my family...but we're going to Belindas&nbsp; thats okay with me too <A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=16 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/033102/033102lough_1_prv.gif"" width=15 border=0 hbtype=""em""></A></FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#990000 size=2>What is your favourite Christmas song? <FONT color=#006600>Frosty</FONT></FONT></STRONG></P>
+<P><STRONG><FONT size=2><FONT color=#006600>What do you usually do Christmas morning? </FONT><FONT color=#990000>Wake up early..with my sisters (we all sleep in the same room and listen to christmas music and talk about what we think is under the tree) Open our gifts and eat lots of food..Visit the grandparents and Belinda</FONT></FONT></STRONG><STRONG><BR><FONT color=#990000 size=2></FONT></STRONG></P>
+<P><STRONG><FONT color=#990000 size=2>Have you bought all your presents yet? <FONT color=#006600>Yup..still going shopping Friday..to see if I missed anything</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#006600 size=2>What do you do on Christmas Eve? <FONT color=#990000>Christmas Eve...we all get to open one gift then watch christmas movies while eating cookies</FONT></FONT></STRONG><STRONG><EM><BR></EM><FONT color=#006600 size=2><FONT color=#990000></FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#006600 size=2><FONT color=#990000>Do you spend Christmas with a lot of family?</FONT> Yes..we dont get to see Cherry&nbsp; thats about the only family member we dont see</FONT></STRONG></P>
+<P><STRONG><FONT color=#006600 size=2>Do you go anywhere special on Christmas (vacation)? <FONT color=#990000>No..not really</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#990000 size=2>How many items are on your wish list? <FONT color=#006600>Just one..</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#006600 size=2>What do you usually eat on Christmas?<FONT color=#660000> Ham, Turkey, Mashed Potatoes, Gravy, Veggies, Rolls, ...more and more food</FONT></FONT></STRONG></P><STRONG><FONT color=#006600 size=2></FONT></STRONG><STRONG><EM>
+<P><BR></EM><FONT color=#006600 size=2><FONT color=#990000>When did you find out that Santa wasn't real?</FONT><FONT color=#006600> What??? Hes not real?? Keep talking like that and no presents for you..</FONT></FONT></P>
+<P><FONT color=#006600 size=2><FONT color=#990000></FONT><BR>Do you still make snowmen and snow angels? <FONT color=#660000>What else is snow for? Yes</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#006600 size=2><FONT color=#990000>Do you still have snow ball fights with your siblings/parents?</FONT> Yes..Last year my friend Ray Brassington&nbsp;was over...Martina and me were throwing snow at each others and so he started in on it too..my mom comes out and Ray threw a snowball missed me and hit my mom...he is like sorry rose...so she came out and we stayed outside till 2am..Another one from last year..Jordy Morgan was here..and Shane Smith..Rosalynn...Martina and me...and finally mom came out and threw some snow&nbsp; it was fun..</FONT></STRONG></P>
+<P><STRONG><FONT size=2><FONT color=#006600>What's your favourite Christmas movie?</FONT> <FONT color=#990000>The Grinch</FONT></FONT></STRONG></P>
+<P><STRONG><FONT size=2><FONT color=#006600><FONT color=#990000>What do you like doing over the Christmas holidays?</FONT><EM> </EM>Visit family</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#006600 size=2></FONT></STRONG><STRONG><BR><FONT color=#006600 size=2>What do you plan to do for New Year's Eve? <FONT color=#990000>Sorta..</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#990000 size=2>What are your usual traditions on New Year's? <FONT color=#006600>Stay up till midnight..and yeah</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#006600 size=2>What's the weirdest thing you've ever got for Christmas? <FONT color=#990000>A can a beans..a roll of paper towels..and toliet paper..</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#990000 size=2>What's the most expensive thing you've got for Christmas? <FONT color=#006600>this computer</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#006600 size=2>How early do you wake up on Christmas morning?&nbsp;</FONT></STRONG><STRONG><FONT size=2><FONT color=#006600><EM>&nbsp;</EM><FONT color=#990000>6am</FONT><BR></FONT><FONT color=#990000></FONT></FONT></STRONG></P>
+<P><STRONG><FONT size=2><FONT color=#990000>What do you usually get in your stocking?</FONT><FONT color=#006600> I always get gum..</FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#006600>^This put me in a good mood...<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/050103/050103gig_prv.gif"" width=25 border=0 hbtype=""em""></A></FONT></STRONG></P>
+<P><STRONG><FONT color=#990000 size=2>Merry Christmas!!!</FONT></STRONG></P></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3bhotbar%5felement%3bst%3b&amp;SG=&amp;RAND=67736&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>
+<P></P>
+<P></P>"
+"eventtime","2004-12-22 13:15:00"
+"current_moodid","99"
+"url","http://sweetpea-1.livejournal.com/60047.html"
+"userid","15081"
+"itemid","233"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#ff9900>When will something good happen in my life?? I'm really getting sick of waiting...</FONT></P>
+<P><FONT color=#009900>I went to the mall in horsehead ny w/mom, dad, Lacey and my sister Belinda...it was okay got some gifts</FONT></P>
+<P><FONT color=#ff0000>Belinda and I flirted with some troy guys lol that was fun</FONT></P>
+<P><FONT color=#cc33cc>Highlight of the whole day&nbsp;besides ^ that..lol my dad had his walkie talkies and this guy had one and was on the same channel as my dad...the guy said ""Honey, I'm going to the jeep"" So my dad handed it to me..I was like ""Okay honey I'm waiting for you.."" He then told me what he brought in sears..He brought&nbsp;a tool set for himself..so I was like ""Honey you dont need that take it back"" And he did!! lol It was so funny..so he took it back and said he was headed to the jeep again..he&nbsp;walked right pass me..fun fun</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=40 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/050103/050103jplaf_prv.gif"" width=48 border=0 hbtype=""em""></A></P>
+<P><FONT color=#000099>When we got back from shopping my sister got a phone call and his guy she knows&nbsp; and told her that his daughter just hung herself....he came home from work and had to see her just hanging here...</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#000099><IMG id=hb_new_animation height=27 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/030104/030104_emTE13_prv.gif"" width=24 border=0 hbtype=""em""></FONT></A></P>
+<P><FONT color=#ff0000></FONT>&nbsp;</P>
+<P><FONT color=#ff0000></FONT>&nbsp;</P>
+<P><FONT color=#ff0000>M<FONT color=#009900>e</FONT>r<FONT color=#009900>r</FONT>y <FONT color=#009900>C</FONT>h<FONT color=#009900>r</FONT>i<FONT color=#009900>s</FONT>t<FONT color=#009900>m</FONT>a<FONT color=#009900>s</FONT> E<FONT color=#009900>v</FONT>e<FONT color=#009900>r</FONT>y<FONT color=#009900>o</FONT>n<FONT color=#009900>e</FONT>!</FONT></P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3b&amp;SG=&amp;RAND=63587&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>
+<P><FONT color=#ff0000>If a large man comes into your room and stuffs you in a bag Christmas Eve don't stress....cause I told Santa all i wanted for Christmas was <FONT size=4>YOU.</FONT></FONT></P>"
+"eventtime","2004-12-22 00:12:00"
+"current_moodid","7"
+"url","http://sweetpea-1.livejournal.com/59768.html"
+"userid","15081"
+"itemid","232"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#666666>Why does life have to be so hard?</FONT></P>
+<P><FONT color=#666666>^Anyone know the answer to that question..</FONT></P>
+<P><FONT color=#666666>................</FONT></P>
+<P>&nbsp;</P>
+<P><FONT color=#666666>Plus...</FONT></P>
+<P><FONT color=#666666>I just started using that Ultra stuff..It was eight bucks..and my face is <FONT color=#ff0000>red</FONT> and peeling now..it hurts sooo much&nbsp; </FONT></P>
+<P><FONT color=#666666>Robert won't be around till after the New Year...mid Jan..</FONT></P>
+<P><FONT color=#666666>Lets all I got for now..</FONT></P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2004-12-21 00:23:00"
+"current_moodid","24"
+"url","http://sweetpea-1.livejournal.com/59405.html"
+"userid","15081"
+"itemid","231"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#333333>Write the first thing you think of:<BR>eminem: chocolate<BR>dog: buddy<BR>hot: dogs<BR>britney spears: slut<BR>nsync: gay</FONT></P>
+<P><FONT color=#333333>real world:I would like to be on that show<BR>orange: color<BR>choice: left or right?<BR>fuck: fun<BR>bisexual: not me<BR>black: night<BR>icq: old<BR>insane clown posse: Josh Kapp<BR>linkin park:good music<BR>jack: Daniels<BR>rainbow: pot of gold</FONT></P>
+<P><FONT color=#333333>cucumber: salad<BR>shark: ocean<BR>lifehouse: Belinda<BR>bat: halloween<BR>leather: coat<BR>whip: kinky<BR>america: pride<BR>water: ski<BR>volcano: hot</FONT></P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2004-12-19 21:08:00"
+"current_moodid","8"
+"url","http://sweetpea-1.livejournal.com/59317.html"
+"userid","15081"
+"itemid","230"
+"event","<TABLE id=HB_Mail_Container style=""BACKGROUND-POSITION: right top; FONT-WEIGHT: normal; FONT-SIZE: 10pt; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/120103/120103_bgA1_bg.gif); COLOR: #000000; BACKGROUND-REPEAT: repeat; FONT-STYLE: normal; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD id=HB_Focus_Element style=""PADDING-RIGHT: 200px; BACKGROUND-POSITION: right top; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/120103/120103_bgA1.gif); PADDING-BOTTOM: 20px; PADDING-TOP: 120px; BACKGROUND-REPEAT: no-repeat"" width=""100%"">
+<P><FONT color=#000099>I'll just start with this Tuesday..well Tuesday night..Darcie and Jen came over to get me..didnt really do much when we got to her house..</FONT></P>
+<P><FONT color=#000099>Wednesday- We went shopping (Darcies mom, Jen, Darcie and me) Picked up Darcie's new glasses..then went to Pizza Hut </FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=Btn_anime"" target=_blank><FONT color=#000099><IMG id=hb_new_animation height=97 alt=""Upgrade your email with 1000's of cool animations"" src=""http://skins.hotbar.com/skins/mailskins/img/Vegeta/Vegetables_Small_tomato_prv.gif"" width=39 border=0 hbtype=""img""></FONT></A><FONT color=#000099>(Wednesday= Pizza Bar)&nbsp; Looked for a new computer desk..Went to Wal-mart..Darcie had dance class at 6:30..After that we drank a little and played hide-and-go-seek..fun </FONT></P>
+<P><FONT color=#000099>Thursday- Went out to lunch at the Sweet Shop in Eagles Mere...it was okay..she paid for my meal..because I'm poor..then we came back to my house...</FONT></P>
+<P><FONT color=#000099>Friday-Nothing really happened..Martinas boyfriend Ben was here for a little bit..and Dad wanted to drive to Dushore so Martina and me went with him...</FONT></P>
+<P><FONT color=#000099>Tomorrow I'm going shopping with Mom, Dad, and Belinda..we might take Lacey</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#000099><IMG id=hb_new_animation height=50 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_hlopaet_prv.gif"" width=50 border=0 hbtype=""em""></FONT></A><FONT color=#000099>Going to the Arnot mall..Maybe I'll get to see Trevor<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=35 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/040104/040104_emI2_prv.gif"" width=41 border=0 hbtype=""em""></A></FONT></P>
+<P><FONT color=#000099><FONT color=#000099>Robert will be here for </FONT>New Years</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#000099><IMG id=hb_new_animation height=22 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/033102/033102bigluf_1_prv.gif"" width=22 border=0 hbtype=""em""></FONT></A><FONT color=#000099>...thats the plan right now!! He'll be in the states in 9 days..</FONT></P>
+<P><FONT color=#000099>Well, I'm off to a cold lonely bed..with this pimple cream stuff on my face..it really hurts..I just hope it works..it was almost 8 bucks...</FONT></P></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3bhotbar%5felement%3bimg%3bst%3b&amp;SG=&amp;RAND=31311&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>"
+"eventtime","2004-12-18 00:36:00"
+"url","http://sweetpea-1.livejournal.com/58997.html"
+"userid","15081"
+"itemid","229"
+"event","<TABLE id=HB_Mail_Container style=""BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/120103/120103_bgA8_bg.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ffffff"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD id=HB_Focus_Element style=""PADDING-RIGHT: 5px; BACKGROUND-POSITION: right top; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/120103/120103_bgA8.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 140px; BACKGROUND-REPEAT: no-repeat"" width=""100%"">
+<P><BR><FONT color=#ff0000>&gt;&gt;001. I miss somebody right now.<BR>002. I watch more tv than I used to.<BR>003. I love olives.<BR>&gt;&gt;004. I love sleeping.<BR>005. I own a home.<BR>006. I wear glasses or contact lenses.<BR>&gt;&gt;008. I've done something illegal.<BR>009. I've watched porn movies.<BR>010. I have been in a threesome.<BR>011. I have been the psycho-ex in a past relationship.<BR>012. I like my handwriting.<BR>013. I have acne free skin.<BR>014. I like and respect Al Sharpton.<BR>015. I curse frequently.<BR>016. I have changed a lot mentally over the last year.<BR>017. I have a hobby.<BR>018. I've been to another country.<BR>019. I carry my knife/razor everywhere with me.<BR>020. I'm really, really smart.<BR>021. I've never broken anyone else's bones.<BR>&gt;&gt;022. I have a secret that I am ashamed to reveal.<BR>&gt;&gt;023. I love rain.<BR>024. I'm paranoid at all times.<BR>&gt;&gt;025. I would get plastic surgery if it were 100% safe, free of cost, and scar-free. <BR>&gt;&gt;026. I need money right now.<BR>027. I love sushi.<BR>028. I talk really, really fast sometimes.<BR>029. I have fresh breath in the morning.<BR>&gt;&gt;030. I have semi-long hair.<BR>031. I have lost money in Las Vegas.<BR>&gt;&gt;032. I have at least one brother and/or sister.<BR>033. I was born in a country outside of the U.S.<BR>&gt;&gt;034. I shave my legs.<BR>035. I have a twin.<BR>037. I couldn't survive without Caller I.D.<BR>038. I like the way that I look.<BR>&gt;&gt;039. I have lied to a good friend in the past 6 months.<BR>&gt;&gt;040. I know how to do cornrows.<BR>041. I am usually pessimistic.<BR>&gt;&gt;042. I have mood swings.<BR>043. I think prostitution should be legalized.<BR>044. I think Britney Spears is pretty.<BR>045. I have cheated on a significant other.<BR>046. I have a hidden talent.<BR>047. I'm always hyper no matter how much sugar I have.<BR>&gt;&gt;048. I've been sexually intimate with less than ten people.<BR>&gt;&gt;049. I am currently single. <BR>050. I have kissed someone of the same sex. <BR>&gt;&gt;051. I enjoy talking on the phone.<BR>&gt;&gt;052. I practically live in PJ pants.<BR>053. I love to shop.<BR>054. I would rather shop than eat.<BR>055. I would classify myself as ghetto.<BR>056. I am a college graduate.<BR>057. I'm obsessed with my diary!<BR>058. I don't hate anyone.<BR>059. I'm a pretty good dancer.<BR>060. I have at least one tattoo.<BR>061. I'm completely embarrassed to be seen with my mother.<BR>062. I have a cell phone. <BR>063. I watch MTV on a daily basis.<BR>&gt;&gt;065. I have passed out drunk in the past 6 months.<BR>067. I have never been in a real relationship before.<BR>&gt;&gt;068. I've rejected someone before.<BR>&gt;&gt;&gt;&gt;069. I currently have a crush on someone.<BR>&gt;&gt;070. I have no idea what I want to do for the rest of my life.<BR>&gt;&gt;071. I want to have children in the future.<BR>&gt;&gt;072. I have changed a diaper before.<BR>073. I've had the cops called on me before. <BR>074. I bite my nails.<BR>075. I am a member of the Tom Green fan club.<BR>&gt;&gt;076. I'm not allergic to anything deadly.<BR>&gt;&gt;077. I have a lot to learn.<BR>078. I have dated someone at least 10 years older or younger.<BR>079. I've had sex with more than one person in a 24 hour period.<BR>080. I am very shy around the opposite sex.<BR>&gt;&gt;081. I'm online 24/7, even as an away message.<BR>&gt;&gt;082. I have at least 5 away messages saved.<BR>&gt;&gt;083. I have been rejected by someone.<BR>&gt;&gt;084. I have made a move on a friend's significant other in the past.<BR>085. I own the ""South Park"" movie. <BR>086. I have avoided work to play on LJ.<BR>087. When I was a kid I played ""the birds and the bees"" (or something like it) with a neighbor or chum. <BR>&gt;&gt;088. I enjoy country music.<BR>&gt;&gt;&gt;&gt;089. I love my best friend.<BR>&gt;&gt;090. I think that Pizza Hut has the best pizza. <BR>091. I watch soap operas whenever I can.<BR>092. I'm obsessive, anal retentive, and often a perfectionist.<BR>093. I have used my sexuality to advance my career.<BR>095. I know all the words to Slick Rick's ""Children's Story"".<BR>&gt;&gt;096. Halloween is awesome because you get free candy.<BR>&gt;&gt;097. I watch Spongebob Squarepants and I like it.<BR>&gt;&gt;098. I have dated a close friend's ex. <BR>099. I'm happy as of this moment.<BR>100. I have gone scuba diving.<BR>&gt;&gt;101. I've had a crush on somebody I've never met.<BR>&gt;&gt;&gt;&gt;102. I've kissed someone I knew I shouldn't.<BR>103. I play a musical instrument.<BR>&gt;&gt;104. I strongly dislike math.<BR>&gt;&gt;105. I'm procrastinating on something right now.<BR>106. I own and use a library card.<BR>&gt;&gt;107. I fall in ""lust"" more than in ""love.""<BR>108. Cheese enchiladas rock my socks.<BR>&gt;&gt;109. I think The Lord of the Rings is one of the greatest things ever.<BR>110. I'm obsessed with the tv show ""The O.C.""<BR>111. I am resentful that I have to grow up.<BR>112. I am an entirely different person around different people.<BR>&gt;&gt;113. I think the world would be a better place if people just smiled more often.<BR>&gt;&gt;114. I think macaroni and cheese is one of the best foods in the whole world.<BR>&gt;&gt;115. I am suffering from a broken heart.<BR>&gt;&gt;116. I am a nerd.<BR>&gt;&gt;117. No matter where I am or who I'm with, I always seem to be lonely.<BR>118. I am left handed and proud of it.<BR>&gt;&gt;119. I try not to change who I am for someone.<BR>&gt;&gt;120. My heart resides below my feet.<BR>&gt;&gt;121. I have had sex with someone I was not in a relationship with.<BR>&gt;&gt;122. I enjoy smoothies.<BR>123. I have had major surgery.<BR>124. I have adopted a pet from the ASPCA.<BR>125. I am listening to Radiohead right now.<BR>&gt;&gt;126. Some people call me by a nickname.<BR>&gt;&gt;127. I have fired a gun and liked it.<BR>128. I like pumpkin pie.<BR>&gt;&gt;129. I love NASCAR!<BR>130. I own over 200 CDs.<BR>131. I work 7 days a week.<BR>132. I have mono.<BR>132. I dont have the ability to make decisions without changing my mind.<BR>133. People tell me I have a horrible sense of humor. <BR>&gt;&gt;134. I'm still in my PJs.<BR>&gt;&gt;135. I'm looking for love in all the wrong places.<BR>136. I have a tendency to fall for the wrong girls/guys, or have them fall for me, so I can't help but reciprocate.<BR>&gt;&gt;137. I'll try anything three times....or more.<BR>138. I have done drugs other than Alcohol or Cannabis.<BR>&gt;&gt;139. I'm having trouble sleeping.<BR>&gt;&gt;&gt;140. I am a cuddler.<BR>&gt;&gt;141. I love John Waters films.<BR>142. I have made a pornographic videotape.<BR>143. I have adopted an accent for an entire day.<BR>&gt;&gt;144. I have climbed a mountain.<BR>&gt;&gt;&gt;&gt;145. I have been so drunk that I never made it to the bathroom and vomited in front of lots of people.<BR>&gt;&gt;146. I start a lot of craft projects and leave them incomplete for a long time.<BR>147. I have a voracious libido.<BR>148. I enjoy waiting for the icecream man.<BR>149. I love to read.<BR>&gt;&gt;150. I like Nighttime more than Daytime.<BR>151. I have an eclectic taste in music<BR>&gt;&gt;152. My hair never stays the same for an extended period of time.<BR>153. I like to fart, its funny.<BR>154. Llamas are freaking sweet!<BR>&gt;&gt;155. I don't have any memories that involve raisin bread.<BR>156. I think people with tattoos are sexy. *some tattoos*<BR>157. I am a writer</FONT></P></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=hotbar%5felement%3bst%3b&amp;SG=&amp;RAND=60229&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>"
+"eventtime","2004-12-18 00:18:00"
+"current_moodid","92"
+"url","http://sweetpea-1.livejournal.com/58724.html"
+"userid","15081"
+"itemid","225"
+"event","<TABLE id=HB_Mail_Container style=""BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/120103/120103_bgA9_bg.gif); BACKGROUND-REPEAT: repeat; BACKGROUND-COLOR: #ffffff"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD id=HB_Focus_Element style=""PADDING-RIGHT: 150px; BACKGROUND-POSITION: right top; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/120103/120103_bgA9.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 10px; BACKGROUND-REPEAT: no-repeat"" width=""100%""><SPAN style=""FONT-SIZE: 14px""><FONT color=#ffffff>&nbsp; </FONT>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt""><I style=""mso-bidi-font-style: normal""><SPAN style=""FONT-SIZE: 10.5pt; COLOR: fuchsia; FONT-FAMILY: 'Bodoni MT'; mso-ansi-language: EN-US""><FONT color=#000099>This is for you....</FONT></SPAN></I></P>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt""><I style=""mso-bidi-font-style: normal""><SPAN style=""FONT-SIZE: 10.5pt; COLOR: fuchsia; FONT-FAMILY: 'Bodoni MT'; mso-ansi-language: EN-US""><FONT color=#000099></FONT></SPAN></I>&nbsp;</P>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt""><I><FONT color=#330033><SPAN style=""FONT-SIZE: 10.5pt; COLOR: fuchsia; FONT-FAMILY: 'Bodoni MT'; mso-ansi-language: EN-US""><FONT color=#330033><FONT color=#000099>You called to say you wanted out<BR>Well, I can't say I blame you now<BR>Sometimes you've got to fold before you're found out<BR>Well thanks for waiting this long to show yourself<BR>'Cause now that I can see you<BR>I don't think you're worth a second glance</FONT><BR></FONT><BR><FONT color=#000099>So much for all the promises you made, they served you well<BR>Now you're gone and they're wasted on me<BR>So much for your endearing sense of charm, it served you well<BR>Now it's just worn and wasted on me<BR><BR>I guess that all you've got is all you're gonna get</FONT></SPAN><SPAN style=""COLOR: fuchsia; FONT-FAMILY: 'Bodoni MT'; mso-ansi-language: EN-US""><?xml:namespace prefix = o ns = ""urn:schemas-microsoft-com:office:office"" /><o:p></o:p></SPAN></FONT></I></P></SPAN></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=hotbar%5felement%3bst%3b&amp;SG=sg766&amp;RAND=22588&amp;partner=hotbar""></A><FONT color=#000000>&nbsp;</FONT></DIV></TD></TR></TBODY></TABLE>
+<P></P>"
+"eventtime","2004-12-06 13:32:00"
+"url","http://sweetpea-1.livejournal.com/57700.html"
+"userid","15081"
+"itemid","222"
+"event","<TABLE id=HB_Mail_Container style=""BACKGROUND-COLOR: #66cbff"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD id=HB_Focus_Element style=""PADDING-RIGHT: 5px; BACKGROUND-POSITION: right bottom; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/110104/110104_bgN1.jpg); PADDING-BOTTOM: 220px; PADDING-TOP: 10px; BACKGROUND-REPEAT: no-repeat"" width=""100%"" background=http://skins.hotbar.com/Skins/mailskins/st/110104/110104_bgN1.jpg>
+<P>&nbsp;</P>
+<P>So last night..I had a big fight with my mom about college..how I need to pay the 2 hundreds due December 15th or I'll have to wait for the Fall...plus 80 dollars for two shots...well today she told that in her saving account she has only 26 dollars..and in the other account she has 34 dollars...<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=36 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/040104/040104_emI4_prv.gif"" width=74 border=0 hbtype=""em""></A>its not fair..</P>
+<P>Went to Penn Tech today to look at the school..I dont know why I even&nbsp;bothered..</P>
+<P>oooh well</P>
+<P>Robert comes home in 25 days..<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=22 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/033102/033102bigblink_1_prv.gif"" width=22 border=0 hbtype=""em""></A></P>
+<P>All I want for Christmas...</P>
+<P>Christmas is in 22 days<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=43 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/062802/062802jumpie_prv.gif"" width=29 border=0 hbtype=""em""></A></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style=""FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Verdana"" align=left hb_tag=""1"">The teddy bear is cute..huh..</P></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>
+<P></P>
+<P></P>
+<P></P>"
+"eventtime","2004-12-03 21:42:00"
+"current_moodid","56"
+"url","http://sweetpea-1.livejournal.com/56856.html"
+"userid","15081"
+"itemid","221"
+"event","<TABLE id=HB_Mail_Container style=""PADDING-RIGHT: 190px; BACKGROUND-POSITION: right top; PADDING-LEFT: 6px; FONT-SIZE: 10pt; PADDING-BOTTOM: 5px; COLOR: #000000; PADDING-TOP: 15px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Comic Sans MS"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" bgColor=#ffffff background=http://skins.hotbar.com/skins/mailskins/st/112402/zig_face.gif border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#ff0000></FONT>&nbsp;</P>
+<P><FONT color=#ff0000></FONT>&nbsp;</P>
+<P><FONT color=#ff0000>Roberts date got changed!!! (I'm supposed to tell everyone) <U>Only 26 days till hes back in the states</U>!!! Coming home for a week..then</FONT></P>
+<P><FONT color=#ff0000>He'll be living in North Carolina..on active duty..its better than him being in Iraq</FONT></P>
+<P><FONT color=#ff0000>But a good chance of going back...</FONT></P>
+<P><FONT color=#ff0000><FONT color=#ff0000>Looking foward to your visit..<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=15 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/033102/033102smiled_1_prv.gif"" width=15 border=0 hbtype=""em""></A></FONT><BR></FONT></P>
+<DIV id=Div1 contentEditable=false hb_tag=""1"" UNSELECTABLE=""on""></DIV></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>
+<P></P>"
+"eventtime","2004-12-03 00:09:00"
+"current_moodid","59"
+"url","http://sweetpea-1.livejournal.com/56761.html"
+"userid","15081"
+"itemid","220"
+"event","<TABLE id=HB_Mail_Container style=""BACKGROUND-COLOR: #0066cc"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD id=HB_Focus_Element style=""PADDING-RIGHT: 5px; BACKGROUND-POSITION: right bottom; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/110104/110104_bgN24.jpg); PADDING-BOTTOM: 310px; PADDING-TOP: 10px; BACKGROUND-REPEAT: no-repeat"" width=""100%"" background=http://skins.hotbar.com/Skins/mailskins/st/110104/110104_bgN24.jpg>
+<P><FONT color=#000000>I lot happened tonight..but I dont feel like talking about it now..it makes me</FONT><FONT color=#000066> <STRONG>blue</STRONG></FONT></P>
+<P><FONT color=#000000>I miss you..I think about you all the time..I cant wait to see you again..</FONT></P>
+<P><FONT color=#000000>Cried enough to night to fill a river up</FONT></P>
+<P style=""FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana"" align=left hb_tag=""1""></P></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR>
+<HR align=left width=""100%"" color=gray noShade SIZE=1>
+<A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=hotbar%5felement%3bst%3b&amp;SG=sg766&amp;RAND=37839&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<BLOCKQUOTE id=bde37fc4>
+<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE></BLOCKQUOTE>
+<P></P>"
+"eventtime","2004-12-03 00:02:00"
+"current_moodid","25"
+"url","http://sweetpea-1.livejournal.com/56538.html"
+"userid","15081"
+"itemid","219"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""><FONT color=#000099><STRONG>Aoccdring to a rscheearch at Cmabrigde Uinervtsy, it deosn't mttaer in waht oredr the ltteers in a wrod are, the olny imprmoetnt tihng is taht the frist and lsat ltteer be at the rghit pclae. The rset can be a total mses and you can sitll raed it wouthit porbelm. Tihs is bcuseae the huamn mnid deos not raed ervey lteter by istlef, but the wrod as a wlohe.</STRONG></FONT></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2004-11-28 14:32:00"
+"url","http://sweetpea-1.livejournal.com/56118.html"
+"userid","15081"
+"itemid","218"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""><STRONG><FONT color=#cc0000>H</FONT><FONT color=#ff6600>A</FONT><FONT color=#ffcc33>P</FONT><FONT color=#009900>P</FONT><FONT color=#00cccc>Y</FONT> <FONT color=#3333ff>B</FONT><FONT color=#6600cc>I</FONT><FONT color=#cc33cc>R</FONT><FONT color=#ff0000>T</FONT><FONT color=#ff6600>H</FONT><FONT color=#ffcc33>D</FONT><FONT color=#33cc00>A</FONT><FONT color=#00cccc>Y</FONT> <FONT color=#3333ff>M</FONT><FONT color=#6600cc>O</FONT><FONT color=#cc33cc>M</FONT><FONT color=#ff0000>!</FONT><FONT color=#ff6600>!</FONT></STRONG></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2004-11-27 16:26:00"
+"current_moodid","125"
+"url","http://sweetpea-1.livejournal.com/56031.html"
+"userid","15081"
+"itemid","217"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<TABLE style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; BORDER-COLLAPSE: collapse"" cellSpacing=0 cellPadding=2 align=center>
+<FORM action=http://memegen.net/viewmeme.pl?meme=1064942874 method=post>
+<TBODY>
+<TR>
+<TH bgColor=#000000 colSpan=2><FONT color=#dddd88>What Makes You Sexy? by <A href=""http://www.greatestjournal.com/users/acid_dream/""><FONT color=#dddd88>eva71</FONT></A></FONT></TH></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Name/NickName</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000""><INPUT value=Andrea name=Name/NickName></SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Gender</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000""><INPUT value=Female name=Gender></SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Sexy Body Part Is</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000"">Your Boobs</SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Special Talents Are</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000"">Kissing</SPAN></TD></TR>&nbsp;
+<TR>
+<TD align=middle bgColor=#000000 colSpan=2><INPUT type=submit value=""Fill Out Your Answers and Try it!""></TD></TR>
+<TR>
+<TD align=middle bgColor=#000000 colSpan=2><FONT color=#ffffff size=-1><A href=""http://memegen.net/""><FONT color=#dddd88>Quiz created with MemeGen</FONT></A>!</FONT></TD></TR></TBODY></FORM></TABLE></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>
+<BLOCKQUOTE id=7010424a>&nbsp;</BLOCKQUOTE>"
+"eventtime","2004-11-27 16:19:00"
+"url","http://sweetpea-1.livejournal.com/55614.html"
+"userid","15081"
+"itemid","216"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P>&nbsp;</P>
+<P><FONT color=#ff0000>Can we say pig? I'm sitting at the computer with half of a choc. pie on my lab..watching&nbsp;Miss Congeniality (a christmas present from Cherry&amp;Matt)...<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=Btn_anime"" target=_blank><IMG id=hb_new_animation alt=""Upgrade your email with 1000's of cool animations"" src=""http://skins.hotbar.com/skins/mailskins/img/040103/040103birthday_pig_cake_md_clr_prv.gif"" width=100 border=0 hbtype=""img""></A></FONT></P>
+<P><FONT color=#ff6600>Turkey Day...so much food..<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=40 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_eating_turkey_prv.gif"" width=60 border=0 hbtype=""em""></A></FONT></P>
+<P><FONT color=#009900>Black Friday..Cherry, Matt, mom, and dad went shopping and Martina, Rebeca, William and I stayed at the house..yay I got to babysit William for&nbsp;a few hours...we never see him..he can say my name..aww..I have lots of pictures of him..I put some of them on my website..<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=Btn_anime"" target=_blank><IMG id=hb_new_animation height=45 alt=""Upgrade your email with 1000's of cool animations"" src=""http://skins.hotbar.com/skins/mailskins/img/Babies/Babies_Head_with_pacifier_prv.gif"" width=37 border=0 hbtype=""img""></A></FONT></P>
+<P><FONT color=#3333ff>Christmas presents early...every year at Thanksgiving we open our Christmas presents from Cherry and Matt..I got a pink soft blanket (from old navy) and a tee shirt from Kodak (where Matt works)...I loved what they got mom and dad..it was a picture frame from Radio Shack...and it has Williams voice in it..he says I love you...I miss you..Grandpa..and Grandpa..he doesnt say Grandma yet..lol..</FONT></P>
+<P><FONT color=#cc33cc>Today..lalalala...not much to talk about now..mom, dad and Rebeca are shopping...John stopped in with his gf and Tina is hanging out with them..I just got off the phone with Cherry.. I'm going to go watch my movie and eat my choc.&nbsp;pie</FONT></P></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3bimg%3b&amp;SG=sg766&amp;RAND=6344&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P><FONT color=#666666>2 months and 4 days</FONT></P>
+<P></P>
+<P></P>
+<P></P>"
+"eventtime","2004-11-27 14:35:00"
+"current_moodid","31"
+"url","http://sweetpea-1.livejournal.com/55411.html"
+"userid","15081"
+"itemid","215"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<TABLE style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; BORDER-COLLAPSE: collapse"" cellSpacing=0 cellPadding=2 align=center>
+<FORM action=http://memegen.net/viewmeme.pl?meme=1074662660 method=post>
+<TBODY>
+<TR>
+<TH bgColor=#000000 colSpan=2><FONT color=#dddd88>Your love is... by <A href=""http://www.hometown.aol.com/yoyogirl8910/""><FONT color=#dddd88>ChibiMarronchan</FONT></A></FONT></TH></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Your name is...</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000""><INPUT value=Andrea name=""Your name is...""></SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Your kiss is...</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000"">delicious</SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Your hugs are...</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000"">to die for</SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Your eyes...</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000"">burn into my heart</SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Your touch is...</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000"">heart warming</SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Your smell is...</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000"">amazing</SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Your smile is...</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000"">hypnotising</SPAN></TD></TR>
+<TR>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#333333><SPAN style=""COLOR: #ffffff"">Your love is...</SPAN></TD>
+<TD style=""BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid"" bgColor=#ddddaa><SPAN style=""COLOR: #000000"">everlasting</SPAN></TD></TR><INPUT type=hidden value=ChibiMarronchan name=un><INPUT type=hidden value=1074662660 name=meme> 
+<TR>
+<TD align=middle bgColor=#000000 colSpan=2><INPUT type=submit value=""Fill Out Your Answers and Try it!""></TD></TR>
+<TR>
+<TD align=middle bgColor=#000000 colSpan=2><FONT color=#ffffff size=-1><A href=""http://memegen.net/""><FONT color=#dddd88>Quiz created with MemeGen</FONT></A>!</FONT></TD></TR></TBODY></FORM></TABLE></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>
+<BLOCKQUOTE id=5001e3fd>
+<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE></BLOCKQUOTE>"
+"eventtime","2004-11-27 11:22:00"
+"url","http://sweetpea-1.livejournal.com/55059.html"
+"userid","15081"
+"itemid","214"
+"event","<TABLE id=HB_Mail_Container style=""PADDING-RIGHT: 160px; BACKGROUND-POSITION: right top; PADDING-LEFT: 6px; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" bgColor=#fff7ef background=http://skins.hotbar.com/skins/mailskins/st/100103/100103thanksgiving_4.gif border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#ff6600 size=3>Happy Thanksgiving everyone!!<A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=43 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_indeetz_eat_yel_prv.gif"" width=37 border=0 hbtype=""em""></A><BR></FONT></P>
+<P><FONT color=#ff6600 size=3>I'm off to Cherry's...4 hour drive to New York..woohoo</FONT></P>
+<P><FONT color=#ff6600 size=3></FONT>&nbsp;</P>
+<P><FONT color=#ff6600 size=3>Stay safe Robert...missing you</FONT></P></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3bhotbar%5felement%3bst%3b&amp;SG=sg766&amp;RAND=90856&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<BLOCKQUOTE id=72422bf6>
+<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE></BLOCKQUOTE>
+<P></P>
+<P></P>"
+"eventtime","2004-11-25 06:51:00"
+"current_moodid","59"
+"url","http://sweetpea-1.livejournal.com/54978.html"
+"userid","15081"
+"itemid","213"
+"event","<TABLE id=HB_Mail_Container style=""PADDING-RIGHT: 0px; BACKGROUND-POSITION: center top; PADDING-LEFT: 6px; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 160px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" bgColor=#ffffff background=http://skins.hotbar.com/skins/mailskins/st/100103/100103thanksgiving_7.gif border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#ff6600>HAPPY THANKSGIVING EVERYONE !!!&nbsp; <U>GOBBLE GOBBLE</U>...I love turkey day..</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#ff6600><IMG id=hb_new_animation height=40 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_turkey_patriot_prv.gif"" width=50 border=0 hbtype=""em""></FONT></A></P>
+<P><FONT color=#ff6600>Going to New York tomorrow to spent thanksgiving with Cherry. Matt, baby Will and Matt's family..I'll probably be back Saturday night or Sunday sometime..</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#ff6600><IMG id=hb_new_animation height=55 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_3prayingattable_prv.gif"" width=110 border=0 hbtype=""em""></FONT></A></P>
+<P><FONT color=#ff6600>So I'm probably packing..since I've havent yet..</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=40 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_eating_turkey_prv.gif"" width=60 border=0 hbtype=""em""></A></P>
+<P><A href=""mailto:lilbob1985@yahoo.com""></A>&nbsp;</P><FONT color=#990000>My kitten Minnie is an under wear sniffer lol</FONT>
+<DIV id=Div1 contentEditable=false hb_tag=""1"" UNSELECTABLE=""on""></DIV></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P>
+<P></P>
+<P></P>
+<P></P>"
+"eventtime","2004-11-24 17:54:00"
+"current_moodid","18"
+"url","http://sweetpea-1.livejournal.com/54751.html"
+"userid","15081"
+"itemid","212"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<TABLE cellSpacing=3 cellPadding=5 width=""95%"" align=center border=0>
+<TBODY>
+<TR>
+<TD align=middle bgColor=#0066cc>""<B><FONT color=white size=+1>PLEASE take this quiz, its a site about our troops, read memo</FONT></B>"" - Results:</TD></TR>
+<TR>
+<TD align=middle>Thank you so much for your support of our troops!!!!! The site I have been talking about is called Operation Truth (optruth.org). It was made by a soldier in Iraq (who has currently finished his tour of duty) who wanted other soldiers to be able to write about their day so that their family can read it. You can check this site out to see the hell our troops are going through and show your support. There are also stories from veterans of other wars such as The Gulf War, The Vietnam War, The Korean War and many others. PLEASE check this site out and send it to everyone you know and have them send it to everyone they know and so on so that the american public can really see and appreciate what our troops are going through. This site gives a first person point of view that the news sometimes just can't give. Thanks for the support and GOD BLESS AMERICA AND OUR BRAVE TROOPS!!!!</TD></TR></TBODY></TABLE></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2004-11-23 16:33:00"
+"current_moodid","85"
+"url","http://sweetpea-1.livejournal.com/54452.html"
+"userid","15081"
+"itemid","211"
+"event","<TABLE id=HB_Mail_Container style=""PADDING-RIGHT: 0px; BACKGROUND-POSITION: right bottom; PADDING-LEFT: 6px; FONT-SIZE: 10pt; PADDING-BOTTOM: 170px; COLOR: #000000; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" bgColor=#eee4b9 background=http://skins.hotbar.com/skins/mailskins/st/110103/110103_tgv6_bg.gif border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <U>Update</U></FONT></P>
+<P><FONT color=#ff6600><U>Friday</U>- Didnt do anything really..talked on the phone with Gary for like <U><STRONG>three hours</STRONG></U>..</FONT></P>
+<P><FONT color=#ffcc00><U>Saturday</U>- Woke up around ten..John and Renee came over..played some video games..and I talked to Gary for <U><STRONG>three hours</STRONG></U> again..</FONT></P>
+<P><FONT color=#33cc00><U>Sunday</U>- Woke up at ten...talked online for a little bit..packed for Darcies..went to Rebecca's basketball game at the high school..it was wierd going to the high school again..we took Lacey with us..from there to Jr.s where Darcie works..then to her house..then to Williamsport to the mall brought our movie tickets (The Incrediables)..went and picked up Dan..back to mall to watch the movie..which <STRONG><U>wasnt</U></STRONG> that good..parts of the movie <U><STRONG>were missing</STRONG></U>!!!..after the movie took Dan back to Penn Tech and hung out at his dorm..for a little longer than we were suppose to lol&nbsp;&nbsp; the <U><STRONG>gate was locked</STRONG></U> on us and got in trouble for not signing in and for not leaving by ten..Stayed over at Darcies..</FONT></P>
+<P><FONT color=#00cccc><U>Monday</U>- Woke up around 10:30 ish..hung out with Darcie some..come home around two..didnt go much after that..I made brownies..not really Martina did..I helped to make&nbsp;them to <U><STRONG>disappear</STRONG></U>..<U><STRONG>oooh and I got my acceptance letter in the mail today from Keystone College</STRONG></U>, a letter about the classes I picked, and a tee shirt (its huge..I swim in it..so it must be big)..still planning on going to <U><STRONG>Penn Tech Dec. 3rd..</STRONG></U></FONT></P>
+<P><FONT color=#3366ff>I miss you Robert..<U><STRONG>only 2 months and 9 days</STRONG></U>..yay!!&nbsp; Happy Thanksgiving..stay safe</FONT></P>
+<P><FONT color=#3366ff><FONT color=#6600cc>Turkey Day is coming up...<U><STRONG>gobble gobble</STRONG></U></FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=43 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_indeetz_eat_yel_prv.gif"" width=37 border=0 hbtype=""em""></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=48 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_crazy_turk2_prv.gif"" width=88 border=0 hbtype=""em""></A></FONT></P></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR><A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3bhotbar%5felement%3bst%3b&amp;SG=sg766&amp;RAND=69520&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>
+<P></P>
+<P></P>"
+"eventtime","2004-11-22 23:20:00"
+"current_moodid","18"
+"url","http://sweetpea-1.livejournal.com/54093.html"
+"userid","15081"
+"itemid","210"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<TABLE cellSpacing=6 cellPadding=5 width=""60%"" align=center border=0>
+<TBODY>
+<TR>
+<TD align=middle><IMG alt="""" src=""http://live.quizilla.com/user_images/F/fireyprincess4u/1059423405_rieldisney.jpg"" align=absMiddle></TD>
+<TD align=left>You are Ariel from The Little Mermaid! </TD></TR>
+<TR>
+<TD colSpan=2></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=""100%"" align=center border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle width=""85%"">
+<TABLE cellSpacing=3 cellPadding=5 width=""95%"" align=center border=0>
+<TBODY>
+<TR>
+<TD align=middle bgColor=#0066cc>""<B><FONT color=white size=+1> . What is you inner age?</FONT></B>"" - Results:</TD></TR>
+<TR>
+<TD align=middle><IMG alt="""" src=""http://live.quizilla.com/user_images/N/Nanisd/1088314244_ureslittle.gif""></TD></TR>
+<TR>
+<TD align=middle>SWEET TEEN!!! Yes you are a teenager mmmm from 13 - 19 quite a little rebel haha just kidding... You think as a teenager, you see everything quite simple, soon you will realize it is not that simple. In my opinion you look at things in a very beautiful way. =)</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=""100%"" align=center border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle width=""85%"">
+<TABLE cellSpacing=3 cellPadding=5 width=""95%"" align=center border=0>
+<TBODY>
+<TR>
+<TD align=middle bgColor=#0066cc>""<B><FONT color=white size=+1>Who's Perfect For You??? (Cute Anime Pics)</FONT></B>"" - Results:</TD></TR>
+<TR>
+<TD align=middle><IMG alt="""" src=""http://live.quizilla.com/user_images/L/lilsweetchic2000/1099597316_cturesan27.jpg""></TD></TR>
+<TR>
+<TD align=middle>It may not seem like much between you two but, it's coming around soon. Just look at him and his flaring eyes. It shows that he's cool and hott. He also took you to the park. Just for you and him. None of his friends:) It's love alright.</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3 cellPadding=5 width=""95%"" align=center border=0>
+<TBODY>
+<TR>
+<TD align=middle bgColor=#0066cc>""<B><FONT color=white size=+1>What song describes your opinion in love?</FONT></B>"" - Results:</TD></TR>
+<TR>
+<TD align=middle><IMG alt="""" src=""http://live.quizilla.com/user_images/P/prodigyofpenguin/1100365440_menterain2.jpg""></TD></TR>
+<TR>
+<TD align=middle>Rain--- Guano Apes i'm alone can't wait until i feel your rain so unreal can't find another place of your rain i believe i still believe in your warm rain can't sleep until i feel your rain how can i find Love, Faith and Trust inside of your rain so unreal, can't find another place of your rain i believe i still believe in your warm rain so untrue help me to find through your warm rain I send out my wishes you gave me promises why don't you feel the same (I'm sad, I feel like a little child, somebody left, there is no rain) Oh no, i'm waiting how about your rain? i can't believe i still believe in your warm rain like in heaven i can't wait until i feel your rain so where's your life who's living the rest of your life i can't, i can't, i can't live this life, i can't live this life i can't see in your eyes can't change it, no more tries leave everyone with a smile and you're sad, you feel like a little child somebody's left there is no rain I send out my wishes you gave me promises why don't you feel the same (I'm sad, I feel like a little child, somebody left, there is no rain) </TD></TR></TBODY></TABLE>"
+"eventtime","2004-11-22 22:48:00"
+"url","http://sweetpea-1.livejournal.com/53976.html"
+"userid","15081"
+"itemid","209"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" UNSELECTABLE=""on"" width=""100%"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/pic_MMF-03.jpg""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/pic_MMF-04.jpg""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/DWclose-lg.jpg""></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/pic_MMF-07.jpg""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/pic_MMF-09.jpg""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/pic_MMF-08.jpg""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/DWredwall-lg.jpg""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/DWchair-lg.jpg""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/DWtrees-lg.jpg""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/pic_MMF-10.jpg""><IMG class=galleryImgLg0 src=""http://www.darrylworleymusic.net/upload/image/lrg/picPromo-hrdl-02.jpg"">"
+"eventtime","2004-11-18 16:12:00"
+"url","http://sweetpea-1.livejournal.com/53513.html"
+"userid","15081"
+"itemid","208"
+"event","<TABLE cellSpacing=0 cellPadding=0 width=488 border=0>
+<TBODY>
+<TR>
+<TD height=21>
+<DIV align=center></DIV></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=2 cellPadding=10 width=650 bgColor=#000000 border=0>
+<TBODY>
+<TR bgColor=#ecf8ff>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=650 bgColor=#ecf8ff border=0>
+<TBODY>
+<TR>
+<TD rowSpan=2>
+<TABLE cellSpacing=0 cellPadding=0 width=""100%"" border=0>
+<TBODY>
+<TR>
+<TD height=235><IMG height=300 src=""http://newfunpages.com/images/images2/people/woman_happy.gif"" width=143></TD></TR>
+<TR>
+<TD height=701>&nbsp;</TD></TR></TBODY></TABLE></TD>
+<TD width=506>
+<DIV align=center><IMG height=96 src=""http://newfunpages.com/images/images2/text/advice_for_women_title.gif"" width=328></DIV></TD></TR>
+<TR>
+<TD width=506>
+<P><FONT face=Parade color=#000066 size=4><B>1. Don't imagine you can change a man unless he's in diapers. </B></FONT></P>
+<P><B><FONT face=Parade color=#660066 size=4>2. What do you do if your boyfriend walks-out? You shut the door.</FONT></B></P>
+<P><B><FONT face=Parade color=#000066 size=4>3. If they put a man on the moon -- they should be able to put them all up there. </FONT></B></P>
+<P><B><FONT face=Parade color=#660066 size=4>4. Never let your man's mind wander -- it's too little to be out alone.</FONT><FONT face=Parade color=#000066 size=4> </FONT></B></P>
+<P><B><FONT face=Parade color=#000066 size=4>5. Go for younger men. You might as well, they never mature anyway. </FONT></B></P>
+<P><B><FONT face=Parade color=#660066 size=4>6. Men are all the same -- they just have different faces, so that you can tell them apart. </FONT></B></P>
+<P><B><FONT face=Parade color=#000066 size=4>7. Definition of a bachelor; a man who has missed the opportunity to make some woman miserable. </FONT></B></P>
+<P><B><FONT face=Parade color=#660066 size=4>8. Women don't make fools of men -- most of them are the do-it-yourself types. </FONT></B></P>
+<P><B><FONT face=Parade color=#000066 size=4>9. Best way to get a man to do something, is to suggest they are too old for it. </FONT></B></P>
+<P><B><FONT face=Parade color=#660066 size=4>10. Love is blind, but marriage is a real eye-opener. </FONT></B></P>
+<P><B><FONT face=Parade color=#000066 size=4>11. If you want a committed man, look in a mental hospital.</FONT></B></P>
+<P><B><FONT face=Parade color=#000066 size=4>12. If he asks what sort of books you're interested in, tell him checkbooks. </FONT></B></P>
+<P><B><FONT face=Parade color=#660066 size=4>13. Remember a sense of humor does not mean that you tell him jokes, it means that you laugh at his. </FONT></B></P>
+<P><B><FONT face=Parade color=#000066 size=4>14. Sadly, all men are created equal.</FONT></B></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2004-11-15 22:16:00"
+"url","http://sweetpea-1.livejournal.com/53314.html"
+"userid","15081"
+"itemid","207"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""><FONT style=""BACKGROUND-COLOR: #ff00ff"" color=#ffffff>Lifes just not fair it never will be feelings get crushed hearts get broken tears fall and we all change and no matter how much you try it still ends up unfair on everyones end..</FONT><SPAN style=""FONT: 12pt normal 'Times New Roman'; BACKGROUND-COLOR: #ffffff""><FONT face=""Times New Roman""><BR></FONT></SPAN></TD></TR>
+<TR hb_tag=""1"" UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2004-11-15 10:45:00"
+"url","http://sweetpea-1.livejournal.com/53176.html"
+"userid","15081"
+"itemid","206"
+"event","<TABLE id=HB_Mail_Container style=""PADDING-RIGHT: 5px; BACKGROUND-POSITION: left top; PADDING-LEFT: 5px; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; COLOR: #220000; PADDING-TOP: 3px; BACKGROUND-REPEAT: repeat; FONT-FAMILY: Verdana"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" background=http://skins.hotbar.com/skins/mailskins/st/060103/060103tex71_prv.jpg border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<P><FONT color=#ffffff><U>Update</U>&nbsp; The past couple days...</FONT></P>
+<P><FONT color=#ffffff><U>Wednesday</U>- Went for a walk..and packed for Darcies. We&nbsp;talked to Dan on the computer for awhile. We stayed up talking till 2:30 or so. </FONT></P>
+<P><FONT color=#ffffff><U>Thursday-</U> Didn't get till noon. There was nothing to eat so we went out&nbsp;to eat. And went to the high school..to pick up Darcies yearbook..ended up talking to Dan's mom for a little bit.&nbsp;Came home around 6:00. </FONT></P>
+<P><FONT color=#ffffff><U>Friday-</U> Nothing worth writing. I fought with Martina..woohoo And her boyfriend Ben was here..</FONT></P>
+<P><FONT color=#ffffff><U>Saturday</U>- Open house at Keystone College..after that I had my interview...<STRONG><U>ohh and I&nbsp;got accepted..</U></STRONG>I picked out my classes ..the lady that interviewed me was so nice..there was this guy in my tour group..he was bugging the crap out of me!!! He talked to my mom and shes to nice to tell him to leave us the hell alone..I mean he drove me crazy..I would walk to the other side of the room to hide and as soon as I thought he was gone..gone??what was I thinking..besides that the day was good..the rooms are nice..I didnt care for the gym..it was small..but it will work for me...I'm going to Penn Tech Dec.3rd</FONT><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#ffffff><IMG id=hb_new_animation height=35 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/040104/040104_emI2_prv.gif"" width=41 border=0 hbtype=""em""></FONT></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#ffffff><IMG id=hb_new_animation height=50 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_hlopaet_prv.gif"" width=50 border=0 hbtype=""em""></FONT></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><FONT color=#ffffff><IMG id=hb_new_animation alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/060104/060104_emA18_prv.gif"" width=63 border=0 hbtype=""em""></FONT></A></P>
+<P><FONT color=#ffffff><U>Sunday</U>- Amanda </FONT><FONT color=#ffffff>came over with her baby girl..Charity Lynn...shes sooo cute..Shes three weeks old..I sent you pictures Robert and if you cant see them then go to my website </FONT><A href=""http://community.webshots.com/user/sweetpea_3""><FONT color=#ffffff>http://community.webshots.com/user/sweetpea_3</FONT></A><FONT color=#ffffff>&nbsp;</FONT></P>
+<DIV id=Div1 contentEditable=false hb_tag=""1"" UNSELECTABLE=""on""><FONT color=#ffffff></FONT></DIV></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR>
+<HR align=left width=""100%"" color=gray noShade SIZE=1>
+</DIV></TD></TR></TBODY></TABLE>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>"
+"eventtime","2004-11-14 21:02:00"
+"current_moodid","59"
+"url","http://sweetpea-1.livejournal.com/52859.html"
+"userid","15081"
+"itemid","204"
+"event","<TABLE id=HB_Mail_Container style=""PADDING-RIGHT: 0px; BACKGROUND-POSITION: right bottom; PADDING-LEFT: 6px; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 3px; BACKGROUND-REPEAT: repeat; FONT-FAMILY: Verdana"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" bgColor=#eee4b9 background=http://skins.hotbar.com/skins/mailskins/st/110103/110103_tgv4_bg.gif border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" width=""100%"" UNSELECTABLE=""on"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off""><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=48 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_crazy_turk2_prv.gif"" width=88 border=0 hbtype=""em""></A>&nbsp;&nbsp; <A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=55 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_3prayingattable_prv.gif"" width=110 border=0 hbtype=""em""></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=40 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_eating_turkey_prv.gif"" width=60 border=0 hbtype=""em""></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=40 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_turkey_patriot_prv.gif"" width=50 border=0 hbtype=""em""></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=43 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_indeetz_eat_yel_prv.gif"" width=37 border=0 hbtype=""em""></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=39 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_rog_izobiliya_prv.gif"" width=38 border=0 hbtype=""em""></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=33 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_piligrim_yel_prv.gif"" width=32 border=0 hbtype=""em""></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=33 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_pilgrims_prv.gif"" width=84 border=0 hbtype=""em""></A><A contentEditable=false href=""http://hotbar.com/scripts/utils/banner.asp?InstallDURL=des:en/emoticons1&amp;requestor=shn233"" target=_blank><IMG id=hb_new_animation height=50 alt=""Upgrade your email with 1000's of emoticon icons"" src=""http://skins.hotbar.com/skins/mailskins/em/110103/110103_pumpkin_prv.gif"" width=80 border=0 hbtype=""em""></A>
+<DIV id=Div1 contentEditable=false hb_tag=""1"" UNSELECTABLE=""on""></DIV></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR>
+<HR align=left width=""100%"" color=gray noShade SIZE=1>
+<A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=em%3bhotbar%5felement%3bst%3b&amp;SG=sg766&amp;RAND=63811&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>"
+"eventtime","2004-11-09 15:35:00"
+"url","http://sweetpea-1.livejournal.com/52309.html"
+"userid","15081"
+"itemid","203"
+"event","<TABLE id=HB_Mail_Container style=""PADDING-RIGHT: 170px; BACKGROUND-POSITION: right bottom; PADDING-LEFT: 6px; FONT-SIZE: 10pt; PADDING-BOTTOM: 1px; COLOR: #330011; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" bgColor=#ffffff background=http://skins.hotbar.com/skins/mailskins/st/080103/080103us_baby.jpg border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" UNSELECTABLE=""on"" width=""100%"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<TABLE cellSpacing=6 cellPadding=5 width=""60%"" align=center border=0>
+<TBODY>
+<TR>
+<TD align=middle><IMG alt="""" src=""http://live.quizilla.com/user_images/L/lilsweetchic2000/1099526710_turesoli37.jpg"" align=absMiddle></TD>
+<TD align=left></TD></TR></TBODY></TABLE>
+<DIV id=Div1 contentEditable=false UNSELECTABLE=""on"" hb_tag=""1""></DIV></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR>
+<HR align=left width=""100%"" color=gray noShade SIZE=1>
+<A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=hotbar%5felement%3bst%3b&amp;SG=sg766&amp;RAND=72451&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<BLOCKQUOTE id=9812dfc0>
+<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" UNSELECTABLE=""on"" width=""100%"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">
+<TABLE cellSpacing=6 cellPadding=5 width=""60%"" align=center border=0>
+<TBODY>
+<TR>
+<TD align=middle></TD>
+<TD align=left>Your like an angel. You pocess love and bring love to any thing or person. You love being yourself. Even though your cute or not. I think your just awesome. Like you are peace</TD></TR></TBODY></TABLE></TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE></BLOCKQUOTE>
+<P></P>
+<P></P>
+<P></P>"
+"eventtime","2004-11-09 10:43:00"
+"url","http://sweetpea-1.livejournal.com/52018.html"
+"userid","15081"
+"itemid","202"
+"event","<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#ffccff><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">Your Stripper Name is: <B>Peaches</B><BR></FONT></TD></TR></TBODY></TABLE>
+<P><!-- copy and paste the above code --><!-- copy and paste this code wherever you want to show the user their new name --></P>
+<DIV align=center>
+<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#d3abd4><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">It's Not Sex. It's ... :<BR><B>Sexercise</B><BR></FONT></TD></TR></TBODY></TABLE></DIV><BR>
+<DIV align=center><!-- copy and paste the above code --><!-- copy and paste this code wherever you want to show the user their new name -->
+<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#d3abd4><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">It's Not Sex. It's ... :<BR><B>Having a Bit of Sugar Stick</B><BR></FONT></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>&nbsp;</DIV>
+<DIV align=center><BR>
+<DIV align=center><!-- copy and paste the above code --><!-- copy and paste this code wherever you want to show the user their new name -->
+<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#ffcddd><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">Your Porn Star Name is: <B>Sweetest Sin</B><BR></FONT></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>&nbsp;</DIV>
+<DIV align=center><BR>
+<DIV align=center><!-- copy and paste the above code --><!-- copy and paste this code wherever you want to show the user their new name -->
+<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#ffe6e8><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">Your Boobies' Names Are: <B>Silk and Satin</B><BR></FONT></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>&nbsp;</DIV>
+<DIV align=center><BR>
+<DIV align=center><!-- copy and paste the above code --><!-- copy and paste this code wherever you want to show the user their new name -->
+<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#ec8283><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">Your Girl Parts Are Named: <B>The Flaming Lips</B><BR></FONT></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>&nbsp;</DIV>
+<DIV align=center><BR>
+<DIV align=center><!-- copy and paste the above code --><!-- copy and paste this code wherever you want to show the user their new name -->
+<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#f6e5ce><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">Your Penis Name is: <B>Free Willy</B><BR></FONT></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>&nbsp;</DIV>
+<DIV align=center><BR>
+<DIV align=center><!-- copy and paste the above code --><!-- copy and paste this code wherever you want to show the user their new name -->
+<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#f6e5ce><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">Your Penis Name is: <B>Godzilla</B><BR></FONT></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>&nbsp;</DIV>
+<DIV align=center><BR>
+<DIV align=center><!-- copy and paste the above code --><!-- copy and paste this code wherever you want to show the user their new name -->
+<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#cfcffb><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">Your Drag Queen Name is: <B>Bera Breast</B><BR></FONT></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>&nbsp;</DIV>
+<DIV align=center><BR>
+<DIV align=center><!-- copy and paste the above code --><!-- copy and paste this code wherever you want to show the user their new name -->
+<TABLE borderColor=black cellSpacing=0 cellPadding=2 align=center border=1>
+<TBODY>
+<TR>
+<TD align=left bgColor=#fecfb3><FONT style=""FONT-SIZE: 12pt; COLOR: black"" face=""Verdana, Arial, Helvetica, sans-serif"">Your Hippie Chick Name is: <B>Mystery</B><BR></FONT></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>&nbsp;</DIV>
+<DIV align=center>Okay, that was fun...I'm going for a walk now..out in the snow..with my cold..</DIV>
+<DIV align=center>&nbsp;</DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>"
+"eventtime","2004-11-09 10:17:00"
+"current_moodid","5"
+"url","http://sweetpea-1.livejournal.com/51938.html"
+"userid","15081"
+"itemid","200"
+"event","<TABLE id=HB_Mail_Container height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0 UNSELECTABLE=""on"">
+<TBODY>
+<TR height=""100%"" UNSELECTABLE=""on"" width=""100%"">
+<TD id=HB_Focus_Element vAlign=top width=""100%"" background="""" height=250 UNSELECTABLE=""off"">&lt;img src=""<A href='http://www.bol.ucla.edu/~jwo/lj/quiz/ap.gif""><br>I'>http://www.bol.ucla.edu/~jwo/lj/quiz/ap.gif""&gt;&lt;br&gt;I</A> did it in 6&lt;/big&gt;&lt;/b&gt; seconds.&lt;br&gt;I deserved an A+!!&lt;br&gt;Take the &lt;a href=""<A href='http://www.bol.ucla.edu/~jwo/lj/quiz/dex.html"">How'>http://www.bol.ucla.edu/~jwo/lj/quiz/dex.html""&gt;How</A> Dexterous Are You? Quiz&lt;/a&gt;!!</TD></TR>
+<TR UNSELECTABLE=""on"" hb_tag=""1"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo></DIV></TD></TR></TBODY></TABLE>"
+"eventtime","2004-11-08 17:19:00"
+"url","http://sweetpea-1.livejournal.com/51327.html"
+"userid","15081"
+"itemid","197"
+"event","<img src=""http://www.bol.ucla.edu/~jwo/lj/quiz/ap.gif""><br>I did it in 9</big></b> seconds.<br>I deserved an A+!!<br>Take the <a href=""http://www.bol.ucla.edu/~jwo/lj/quiz/dex.html"">How Dexterous Are You? Quiz</a>!!"
+"eventtime","2004-11-08 14:35:00"
+"url","http://sweetpea-1.livejournal.com/50486.html"
+"userid","15081"
+"itemid","196"
+"event","<TABLE id=HB_Mail_Container style=""BACKGROUND-COLOR: #000000"" height=""100%"" cellSpacing=0 cellPadding=0 width=""100%"" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD id=HB_Focus_Element style=""PADDING-RIGHT: 5px; BACKGROUND-POSITION: right bottom; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(http://skins.hotbar.com/Skins/mailskins/st/060104/060104_bgN4.jpg); PADDING-BOTTOM: 250px; PADDING-TOP: 10px; BACKGROUND-REPEAT: no-repeat"" width=""100%"" background=http://skins.hotbar.com/Skins/mailskins/st/060104/060104_bgN4.jpg>
+<P><FONT color=#ff0000>1. Who are you? </FONT><BR><FONT color=#ff6600>2. Are we friends? </FONT><BR><FONT color=#ffff66>3. When and how did we meet? </FONT><BR><FONT color=#33cc00>4. How have I affected you? </FONT><BR><FONT color=#00cccc>5. What do you think of me? <BR></FONT><FONT color=#3333ff>6. What's the fondest memory you have of me? <BR></FONT><FONT color=#6600cc>7. How long do you think we will be friends? <BR></FONT><FONT color=#cc33cc>8. Do you love me? <BR></FONT><FONT color=#ff0000>9. Do you have a crush on me? <BR></FONT><FONT color=#ff6600>10. Would you kiss me? </FONT><BR><FONT color=#ffff66>11. Would you hug me?</FONT> <BR><FONT color=#33cc00>12. Physically, what stands out?</FONT> <BR><FONT color=#00cccc>13. Emotionally, what stands out? </FONT><BR><FONT color=#3333ff>14. Do you wish I was cooler? <BR></FONT><FONT color=#cc33cc>15. On a scale of 1-10, how hot am I?</FONT> <BR><FONT color=#ff0000>16. Give me a nickname and explain why you picked it. </FONT><BR><FONT color=#ff6600>17. Am I loveable? <BR></FONT><FONT color=#ffff00>18. How long have you known me?</FONT> <BR><FONT color=#33cc00>19. Describe </FONT><FONT color=#33cc00>me in one word. <BR></FONT><FONT color=#00cccc>20. What was your first impression?</FONT> <BR><FONT color=#3333ff>21. Do you still think that way about me now? <BR></FONT><FONT color=#6600cc>22. What do you think my weakness is? <BR></FONT><FONT color=#cc33cc>23. Do you think I'll get married? <BR></FONT><FONT color=#ff0000>24. What makes me happy? <BR></FONT><FONT color=#ff6600>25. What makes me sad?</FONT> <BR><FONT color=#ffff00>26. What reminds you of me?</FONT> <BR><FONT color=#33cc00>27. If you could give me anything what would it be? <BR></FONT><FONT color=#00cccc>28. How well do you know me? <BR></FONT><FONT color=#3333ff>29. When's the last time you saw me?</FONT> <BR><FONT color=#6600cc>30. Ever wanted to tell me something but couldn't? </FONT><BR><FONT color=#cc33cc>31. Do you think I could kill someone?</FONT> <BR><FONT color=#ff0000>32. Do you think our friendship is getting stronger/weaker/or staying the same? <BR></FONT><FONT color=#ff6600>33. Do you feel that you could talk to me about anything and I would listen?</FONT> <BR><FONT color=#ffff00>34. Who do you think loves me?</FONT></P></TD></TR>
+<TR UNSELECTABLE=""on"">
+<TD style=""FONT-SIZE: 1pt"" height=1 UNSELECTABLE=""on"">
+<DIV id=hotbar_promo><BR>
+<HR align=left width=""100%"" color=gray noShade SIZE=1>
+<A href=""http://promos.hotbar.com/promos/promodll.dll?RunPromo&amp;El=hotbar%5felement%3bst%3b&amp;SG=sg766&amp;RAND=79837&amp;partner=hotbar""></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<P></P>"
+"eventtime","2004-11-05 23:17:00"
+"current_moodid","84"
+"url","http://sweetpea-1.livejournal.com/50211.html"
+"userid","15081"

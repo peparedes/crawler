@@ -1,0 +1,439 @@
+"names","values"
+"itemid","684"
+"event","U28gbWF5YmUgeW914oCZZCBhc3N1bWUgdGhhdCBJ4oCZZCZuYnNwOyBoYXZlIGEgbG90IHRvIHNheSBjb25zaWRlcmluZyBJIGhhdmVu4oCZdCB1cGRhdGVkIHRoaXMgc3R1cGlkIHRoaW5nIGZvciBwcm9iYWJseSBhIG1vbnRoIG9yIHNvLiBBbmQgd2hlbiBJIGRvLCBpdHMgbm90aGluZyBtb3JlIHRoYW4gYSBmZXcgc2VudGVuY2VzLiA8YnIgLz5JIHN0aWxsIGRvbuKAmXQgaGF2ZSB2ZXJ5IG11Y2ggdG8gc2F5LiBCcmlhbiBhbmQgSSBhcmUgc3RpbGwgdmVyeSBtdWNoIHNvIHRvZ2V0aGVyLiBJdCBzZWVtcyBsb25nZXIgdGhhbiBpdCBpcy4gT25seSBhIG1vbnRoIGFuZCBhIGNvdXBsZSBvZiB3ZWVrcy4gQnV0IHdl4oCZcmUgaGFwcHksIGFuZCB0aGluZ3MgYXJlIGdvaW5nIGdvb2QuIDxiciAvPkkgdHVybmVkIDE2LCA2IGRheXMgYWdvLiBJIGd1ZXNzIGl0IHdhcyBva2F5LiBCcmlhbiBnb3QgbWUgZXhhY3RseSB3aGF0IEkgd2FudGVkLiBBbmQgaGUgZ290IG1lIHRoZSBzd2VldGVzdCB2YWxlbnRpbmVzIGdpZnQuIEkgY291bGRu4oCZdCBoYXZlIGxvdmVkIGl0IG1vcmUuIEFuZCBJIGRvbuKAmXQgdGhpbmsgdGhvc2UgYmFsbG9vbnMgb3Igcm9zZXMgd2lsbCBldmVyIGRpZS48YnIgLz5NZWcgd2lsbCBiZSBoZXJlIGluIG9ubHkgMiBkYXlzLiBJ4oCZIGdldHRpbmcgcmVhbGx5IGV4Y2l0ZWQsIGFuZCBpdHMgYWxsIEkgY2FuIHJlYWxseSB0YWxrIGFib3V0LiBJdHMgYmVlbiBzdWNoIGEgbG9uZyB0aW1lIHNpbmNlIEnigJl2ZSBzZWVuIGhlciwgYW5kIGl0IGFsbW9zdCBkb2VzbuKAmXQgc2VlbSByZWFsIHRvIGJlIHNlZWluZyBoZXIuIFNoZSBpc27igJl0IGV2ZW4gaGVyZSB5ZXQsIGFuZCBJ4oCZbSBhbHJlYWR5IHdvcnJ5aW5nIGFib3V0IGhhdmluZyB0byBzYXkgZ29vZGJ5ZSB0byBoZXIgYWdhaW4sIGJlY2F1c2UgaXQgaXNu4oCZdCBnb2luZyB0byBiZSBlYXN5LCBhdCBhbGwuPGJyIC8+QSBjb3VwbGUgd2Vla2VuZHMgYWdvLCBCcmlhbiB3ZW50IHVwIHRvIHRoZSBjYWJpbiB3aXRoIERhZCwgRGFuZXR0ZSBhbmQgSSwgYW5kIHNwZW50IHRoZSBuaWdodC4gSXQgd2FzIGdvb2QuIERhZGR5IGxpa2VzIGhpbSwgYW5kIERhbmV0dGUgdGhpbmtzIGhl4oCZcyBnb29kIGZvciBtZS4gQXMgZG8gSS4gPGJyIC8+SSBoYXZlbuKAmXQgdGFsa2VkIHRvIG15IE1vbSB2ZXJ5IG11Y2ggcmVjZW50bHkuIEJlY2F1c2UgYnkgdGhlIHRpbWUgc2hlIGdldHMgaG9tZSBmcm9tIHdvcmssIEnigJltIGNvbXBsZXRlbHkgY29uc3VtZWQgaW4gdGFsa2luZyB0byBCcmlhbi4gSGXigJlzIHByZXR0eSBtdWNoIHRoZSBtYWluIGZvY3VzIGluIG15IGxpZmUgcmlnaHQgbm93LCBhcyBsYW1lIGFzIHRoYXQgc291bmRzLiBCdXQgYW55d2F5cywgSSBraW5kIG9mIG1pc3MgdGFsa2luZyB0byBNb20uIEkgZG9u4oCZdCByZWFsbHkga25vdyBob3cgdGhpbmdzIGFyZSBnb2luZyBmb3IgaGVyLiBCdXQgbXkgc2lzdGVyIGFuZCBJIGhhdmUgYmVlbiB0YWxraW5nIGEgbGl0dGxlIG1vcmUgbGF0ZWx5LiBXaGljaCBhY3R1YWxseSBtYWtlcyBtZSBoYXBweS4gV2XigJlyZSBnZXR0aW5nIGFsb25nLCBhbmQgdGhhdOKAmXMgc29tZXRoaW5nIEkgd2FzbuKAmXQgZXhwZWN0aW5nIGZyb20gdGhlIHR3byBvZiB1cy4gVW5mb3J0dW5hdGVseSwgc2hl4oCZcyBzdGlsbCB3aXRoIEpha2UsIGFuZCBoZeKAmXMgc3RpbGwgYWxsIGZ1Y2tlZCB1cC4gQnV0IEkgZG9u4oCZdCB0aGluayB0aGF0IHdpbGwgZXZlciBjaGFuZ2UsIGJ1dCB3aG8ga25vd3MuPGJyIC8+U2Nob29sIGlzIGdvaW5nIHJlYWxseSByZWFsbHkgZ29vZC4gSSBicm91Z2h0IG15IG1hdGggZ3JhZGUgdXAsIGl0cyBhbiA4MCBub3csIHNvIHRoYXQgbWFrZXMgbWUgcmVhbGx5IGhhcHB5LiZuYnNwOyBJ4oCZbSBkb2luZyBleGNlcHRpb25hbGx5IHdlbGwgb3V0IGhlcmUgYW5kIEnigJltIHZlcnkgcHJvdWQgb2YgbXlzZWxmLkogc28geWF5IGZvciB0aGF0IEkgZ3Vlc3MuPGJyIC8+RGFuZXR0ZSBhbmQgSSBkb27igJl0IHJlYWxseSBnZXQgYWxvbmcuIFRoaXMgcGFzdCB3ZWVrLCB3ZeKAmXZlIGdvdHRlbiBhbG9uZyBwcmV0dHkgd2VsbCwgYnV0IHRoYXTigJlzIGhvdyBpdCBnb2VzLiBXZSBnZXQgYWxvbmcgZm9yIGF3aGlsZSwgYW5kIHRoZW4gYmVmb3JlIEkga25vdyBpdCwgd2XigJlyZSBmaWdodGluZyBhZ2Fpbi4gSSBkb27igJl0IGtub3cgd2h5IGl0cyBzbyBmdWNraW5nIGhhcmQgZm9yIHVzIHRvIGdldCBhbG9uZy4gQnV0IGl0IGlzLiBBbmQgaXRzIGFsbW9zdCBhbm5veWluZy4gSSBhZG1pdCB0aGF0IEkgd2lzaCB3ZSBjb3VsZCBnZXQgYWxvbmcuIEkgZG9u4oCZdCBsaWtlIGhlciwgcGVyIHNheS4gQnV0IEkgbWVhbiwgSeKAmW0gdHJ5aW5nIHRvIGxlYXJuIHRvIGdldCBhbG9uZyB3aXRoIHBlb3BsZSwgdGhhdCBJIGRvbuKAmXQgbGlrZS4gQmVjYXVzZSBJIGhhdmUgdG8gZGVhbCB3aXRoIGEgbG90IG9mIHBlb3BsZSBsaWtlIHRoYXQuPGJyIC8+VGhlcmXigJlzIHNvbWV0aGluZyBJIHJlYWxseSBzaG91bGQgdGVsbCBCcmlhbi4gQnV0IEnigJltIGhvbmVzdGx5IHRlcnJpZmllZC4gQW5kIEkgZG9u4oCZdCBrbm93IGhvdyBJIHdvdWxkIHRlbGwgaGltLiBBbmQgSSB0aGluayBoZeKAmWQgYnJlYWsgdXAgd2l0aCBtZS4gV2hpY2ggd291bGQgbWFrZSBtZSB2ZXJ5IHZlcnkgc2FkLiBCZWNhdXNlIGZvciBzb21lIHJlYXNvbiBJ4oCZdmUgYmVjYXVzZSBleHRyZW1lbHkgZm9uZCBvZiB0aGF0IGJveSwgZGVzcGl0ZSB0aGF0IEnigJl2ZSBvbmx5IGtub3duIGhpbSBzaW5jZSBOb3ZlbWJlci4gSGXigJlzIGFtYXppbmcsIGFuZCBJ4oCZbSBzbyBoYXBweS48YnIgLz5JIGhhZCBhIHJlYWxseSB3ZWlyZCBkcmVhbSBhYm91dCBNaWtleS4gSeKAmW0gbm90IHN1cmUgd2h5LCBidXQgSSB0ZW5kIHRvIGhhdmUgYSBsb3Qgb2YgZHJlYW1zIGFib3V0IGhpbS4gQW5kIHRoZXnigJlyZSBhbHdheXMgc2FkLiBPciBhYm91dCBzYXlpbmcgZ29vZGJ5ZSwgb3IgbGVhdmluZywgb3IgbWlzc2luZyBoaW0sIG9yIHRyeWluZyB0byBsaWtlIGZpbmQgaGltLiBPciBqdXN0LCByZWFsbHkgd2VpcmQgdGhpbmdzIGxpa2UgdGhhdC4gSSBkb27igJl0IGtub3cuIEkgZ3Vlc3MgSSBqdXN0IG1pc3MgaGltLCBhbmQgSSB3aXNoIEnigJlkIGdvdHRlbiB0byBzZWUgYSBsaXR0bGUgYml0IG1vcmUgb2YgaGltIHdoaWxlIEkgd2FzIHZpc2l0aW5nIG15IE1vbS4gQnV0IEkganVzdCBrbm93IHRoYXQgSSBtaXNzIGhpbSBxdWl0ZSBhIGJpdC4gSW4gYW4gaW5ub2NlbnQgdHlwZSBvZiB3YXkuPGJyIC8+TXkgZmluZ2VyIGlzIGJsZWVkaW5nLiBJdCBkb2VzbuKAmXQgaHVydCwgaXRzIGp1c3QgYmxlZWRpbmcsIHJhbmRvbWx5LiA8YnIgLz5UaGUgb3RoZXIgZGF5LCBJIHdhcyBqdXN0IHNpdHRpbmcgYW5kIHdhdGNoaW5nIFRWLCBhbmQgSSBzdGFydGVkIHRoaW5raW5nIGFib3V0IHRoYXQgb25lIHRpbWUgdGhhdCBKYXNtaW5lIEhpY2tsZSBhbmQgSSBkaW5lZCBhbmQgZGl0Y2hlZCBhdCBGcmllbmRseeKAmXMuIEhhaC4gSSBtaXNzIGxpdmluZyBpbiBOb3J0aGFtcHRvbi4gTm8gbWF0dGVyIHdoZXJlIEnigJl2ZSBnb25lLCBJ4oCZdmUgbmV2ZXIgZm91bmQgYW55IHRvd24sIHRoYXQgY29tcGFyZXMgdG8gTm9ydGhhbXB0b24uIE1heWJlIGJlY2F1c2UgSSBob2xkIE5vcnRoYW1wdG9uIHNvIGhpZ2gmbmJzcDsgb24gYSBwZWRlc3RhbCwgb3IgbWF5YmUgYmVjYXVzZSBJIGhhdmUgbmV2ZXIgZXZlciBzZWVuIGEgdG93biBsaWtlIHRoYXQgaW4gbXkgbGlmZS4gV2hvIGtub3dzLiBXaGF0ZXZlciB0aGUgY2FzZSBtYXkgYmUsIEkgbWlzcyBOb3J0aGFtcHRvbi48YnIgLz5JIGdvdCBhIGxldHRlciBmcm9tIE1lZ+KAmXMgTW9tIHRvZGF5LiBIZWguIFdoaWNoIGlzIGtpbmQgb2YgZnVubnkuIEJ1dCBhbnl3YXlzLCBzaGUgdG9sZCBtZSB0aGF0IEkgd2FzIHdlbGNvbWUgdG8gc3BlbmQgdGhlIHN1bW1lciB3aXRoIHRoZW0uIFNvIHdobyBrbm93cywgbWF5YmUgSeKAmWxsIGJlIHVwIHRoZXJlIHRoaXMgc3VtbWVyLCBpZiBldmVyeXRoaW5nIGdvZXMgcmVhbGx5IHdlbGwgd2hlbiBzaGXigJlzIGhlcmUsIGJlY2F1c2UgbWF5YmUgRGFkZHkgd2lsbCBiZSBhYmxlIHRvIHRydXN0IG1lIGVub3VnaCB0byBnbyB1cCB0aGVyZSBhbmQgc3RheSB3aXRoIGhlci4gSiBJIGd1ZXNzIEkgd29udCBrbm93IHVudGlsIHN1bW1lciByb2xscyBhcm91bmQuIEJ1dCBJIHdvdWxkIHJlYWxseSBsb3ZlIHRoYXQuPGJyIC8+QW55d2F5cy4gSSBwcm9iYWJseSB3b250IHVwZGF0ZSBvbiB0aGUgMjNyZC4gU29vb29vb29vbzxiciAvPjxzdHJvbmc+PGZvbnQgc2l6ZT0iNSI+SEFQUFkgQklSVEhEQVkgS0FURVkgQkFTU0VUVCBBTkQgSkFTTUlORSBSSUNIRUxMRSBISUNLTEUuPC9mb250Pjwvc3Ryb25nPiBJIGxvdmUgeW91IGxhZGllcy4gQW5kIEkgbWlzcyB5b3Ugb29vb29kbGVzLiZuYnNwOzxiciAvPjxiciAvPjxiciAvPg=="
+"eventtime","2007-02-21 20:20:00"
+"url","http://xwipexmyxtearsx.livejournal.com/175246.html"
+"userid","17459"
+"itemid","683"
+"event","this pisses me off. ive only been asking my mom everyday since ive been here to take me to dair queen for some ice cream. and she wont. and now that my sisters here, and im not home, she decides its a good time to go. and then she goes to qt to get some ice. i ask her to pick me up some chips. she comes home with a drinks for her sarah and amanda, but nothing for me. i hate this. ive always felt like my sister was more important that i was. and i just wish that she would go home. i dont want her here. i dont need her here. i couldnt careless about christmas this year. its stupid and its pointless. and i wish i was back in tennessee having christmas with a family that actually acknowledges that i fucking exist, even if im not the only child around. i hate that my sister always comes first, it isnt fair, and i dont want her to be here. i want her to go home. everything is different when she isnt around, and i hate being second to her. its always been that way. i hate it. i feel worthless whenever shes around."
+"eventtime","2006-12-24 12:14:00"
+"url","http://xwipexmyxtearsx.livejournal.com/175039.html"
+"userid","17459"
+"itemid","682"
+"event","<lj-cut text=""kindof long""> so, i guess there has kindof been alot going on lately, and i dont even know when the last time i wrote anything in my livejournal was.. other then pictures and a few sentences. but i read megs i think yesterday and it said something about no one even using livejournbal anymore.. so i figured i would update alittle bit.<BR>things are going okay living with my dad. jessie is a bitch, and i basically can not stand her. she always runs her mouth about things that dont concern her, and it really makes me mad, but i dont dare saying anything to her, because i know that she will run and go tell her mom and ill get introuble for it.<BR>i bought a fish, and we named him stupid ass fish.<BR>my dad and i are getting along super well. with the few minor arguements that we get into, which arent out of the ordinary for any teenager. danette and i, we always fight. we just.. cant seem to get along. every little thing causes an arguement between the two of us, and im not really sure why. but even when shes trying to apologize for something, and i think shes going to be mature and realize that its her fault, it always comes back to being my fault. and even when it is my fault, i apologize. so im doing like.. double time apologizing and im getting really sick of it.<BR>derek and jenn might go back out, which i dont know.. i dont know about that whole thing yet. i mean.. they've been getting along really well lately. but like a week or 2 ago, every hour and a half, they were fighting about one thing or another. if they do go back out, i wish them all the luck in the world of having it work out. because when they arent fighting, they make the best couple, and you couldnt imagine them with anyone else. and i was over derek along time ago. as soon as it really started getting into jenn and him, and i saw how he was, and i got to know him again, then i completely changed my whole perspective on it. and now, we're just really good friends, and i wouldnt have it any other way.<BR>im getting super close with brian. we talk every single night for hours. and i dont know why, but i cant seem to get my mind off of him lately. we both like eachother. and we both know that we like eachother, because weve talked about it, and we've talked about going out. but the problem is his ex girlfriend shannah who he went out with for a year and some odd months. shes back in town for christmas. and he doesnt want something to happen between them and hurt me if we were going out. and i can understand that.&nbsp; now that shes here, hes seen her 2 or 3 times, and every time hes with her, he calls me, and we talk. she isnt making anything different between us, and thats what i was really worried about. brian told me that he didnt want her to come between us, and she isnt. and hes sticking to his word. i think that we're going to go out once shannah leaves, but i dont want to get my hopes up and then be let down by him. but i dont know.<BR>im visiting my mom right now. things were going really fucking great down at my dads. i was sober and keeping myself out of trouble. but i guess things just kindof changed and im getting introuble for no reason at all out here. and i miss brian alot, and i kindof want to go home. u mean, dont get me wrong, i love my mom to death, and i want to see her, and i love being able to see her and get along with her, but i dont know. i might go home a few days early, and besides, my mom said she didnt want me here for new years becauyse she couldnt trust what i would go out and do, and she knew if i was at my dads house i wouldnt be able to get myself into any trouble. but who the fuck knows.<BR>ive seen leah adam and eric and rico since ive been here, and that was good. i guess i had a good time. and tonight after i finish eating my dinner, mom is going to drop me off at mikeys house, and then ill be home by 11/1130ish to catch brians call after the ed gein and reflux show at the muse, which i really wish i was at right now. hes there with shannah, and shes spending the night tonight at his house, which kindof upsets me, but we arent going out, so im trying not to let it bother me. i mean, after all, hes still going to call me tonight..<BR>im worried about rosey. i dont know whats really going on with her lately. rosey, i love you to pieces, and if you need anything, you know im here for you.<BR>my dad finally said that it was okay if meg came down. and i could NOT be happier about that. because i need to see her, shes my best friend and she means the fucking world to me, and just seeing her is going to make everything okay again, until she leaves and then im afraid my world is just going to fall apart, but ill worry about that when the time comes."
+"eventtime","2006-12-22 18:41:00"
+"current_moodid","44"
+"url","http://xwipexmyxtearsx.livejournal.com/174815.html"
+"userid","17459"
+"itemid","680"
+"event","<P><lj-cut text=""im better than you""> </P>
+<P><IMG src=""http://img.photobucket.com/albums/v180/xosweetkristenox/UNDEROATH-copy.gif""><BR>i own you.<BR>and</P>
+<P><IMG style=""WIDTH: 468px; HEIGHT: 471px"" height=513 src=""http://img.photobucket.com/albums/v180/xosweetkristenox/aslbig.jpg"" width=576></P>
+<P>i own you AGAIN</P>"
+"eventtime","2006-11-22 20:32:00"
+"url","http://xwipexmyxtearsx.livejournal.com/174100.html"
+"userid","17459"
+"itemid","678"
+"event","theres a tornado warning for here.
+its coming out way. its only 3 hours away
+people are freaking.. i dont know why though. i dont think it'll hit us anyways.
+i went to the doctors today. they drew my blood. thats not good. im really hoping its not what i think it is, because ill be making a phone call to someone and they wont be too happy to hear from me.
+bens mom is coming down the same time that isaac is, and she doesnt want isaac to stay at bens because she wants ""quality time"" with her son. or something like that. and if my dad says that isaac cant stay with us, its going to be really shitty and hes either gonna have to stay in a hotel, or not come down.
+i was suppose to call meg last night, but i was soo busy and went to bed early. so i didnt get the chance too. i hope she isnt mad like she was the other day. I LOVE YOU"
+"eventtime","2006-11-15 14:50:00"
+"url","http://xwipexmyxtearsx.livejournal.com/173737.html"
+"userid","17459"
+"itemid","677"
+"event","today, derek was an ass. not just to me, but to everyone. and its all because of jenn. it really gets to me, that he lets her get to him like that. i just dont fucking get it.
+i didnt get to go to the red chord and converge, but derek said he didnt have that good of a time anyways and he was the only reason i was going, i mean, i wanted to go to dance my ass off, but mostly, it was because of him.
+cody and i finally had it out. and now we have nothing to do with eachother. its much better this way anyways. i mean, i dont know. i wish we could have ended everything on better terms, but maybe this is just how its suppose to be.
+ive been having dreams about mikey. i dont know where the fuck they're coming from. or why im getting them. the past two nights. mikey mikey mikey. its too weird. i dont know.
+i miss northampton. it hit me today. real bad.
+im uber excited about meg coming down, even if she doesnt think so. i am. its going to make everything so much better. although im worried ill get depressed once she goes away again. but spending a week with her, will be well worth it.
+im happy over all
+and i got a letter from adam today"
+"eventtime","2006-11-14 17:21:00"
+"url","http://xwipexmyxtearsx.livejournal.com/173419.html"
+"userid","17459"
+"itemid","676"
+"event","<P><lj-cut text=""woah. blast from the past.""> </P>
+<P><IMG src=""http://img.photobucket.com/albums/v180/xosweetkristenox/ChrisandKristen.jpg""><BR>obab. almost a year ago.<BR>i didnt even know katey took that picture, even though it looks like im looking at her.<BR>she's sneaky.<BR>look at that huge hickey on Chris' neck. oh gosh.<BR>wow</P>"
+"eventtime","2006-11-06 01:22:00"
+"url","http://xwipexmyxtearsx.livejournal.com/173208.html"
+"userid","17459"
+"itemid","675"
+"event","<lj-cut text=""what whatttt""> <IMG src=""http://img.photobucket.com/albums/v180/xosweetkristenox/derekanddevin.jpg""><BR>Derek and Devin while we were waiting in line for the Emery/He is Legend/Gym Class Heroes/As Cities Burn show<BR>which totally owned you all. the picture sucks because it was from my pops cell phone. but oh well.<BR>i crowd surfed/stage dived<BR>i got kicked in the face by some random crowd surfer, because i thought derek was calling me so i turned around, and when i turned back around, BAM. and derek kissed it and made it better<BR>Devin punched me in the head <STRONG>sooo</STRONG> hard when he was slam dancing, i was like owww. and derek kissed that and made it better too.<BR>i danced myself silly during Gym Class Heroes. I heart them.<BR>we got rear-ended on our way home.<BR>i fell asleep with my head on dereks shoulder and his head on mine. aww how cute.<BR>im so excited for next weekend. more time with derek.<BR>i was expecting something to happen between us last night, and i admit i was disappointed when it didnt. <BR>he likes some chick named courtney yates. boo.<BR>whatever though. if it ends up being a waste of my time and energy, than too bad.<BR>atleast i wont be too hurt, because im expecting it, but hoping for something else.<BR><BR><IMG src=""http://img.photobucket.com/albums/v180/xosweetkristenox/convergesmall.jpg"">"
+"eventtime","2006-11-06 01:07:00"
+"url","http://xwipexmyxtearsx.livejournal.com/172891.html"
+"userid","17459"
+"itemid","674"
+"event","<P><IMG src=""http://img.photobucket.com/albums/v180/xosweetkristenox/emeryPOSTER.gif""></P>
+<P>am i better than you because im going?<BR><STRONG>uh yeah.</STRONG></P>"
+"eventtime","2006-11-04 15:56:00"
+"url","http://xwipexmyxtearsx.livejournal.com/172613.html"
+"userid","17459"
+"itemid","673"
+"event","fuck you?
+kthanks."
+"eventtime","2006-11-01 15:59:00"
+"url","http://xwipexmyxtearsx.livejournal.com/172316.html"
+"userid","17459"
+"itemid","672"
+"event","im super happy."
+"eventtime","2006-10-31 16:12:00"
+"url","http://xwipexmyxtearsx.livejournal.com/172051.html"
+"userid","17459"
+"itemid","671"
+"event","PGxqLWN1dCB0ZXh0PSLimaXimaXimaXimaXimaUiPjxQPjxJTUcgc3JjPSJodHRwOi8vaW1nLnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvdjE4MC94b3N3ZWV0a3Jpc3Rlbm94LzIzMTY5NzkzMl9sLmpwZyI+PC9QPg0KPFA+dGhhdHMgZGVyZWsuPEJSPnRoYXRzIGFsbC48L1A+PGxqLWN1dCB0ZXh0PSLimaXimaXimaXimaXimaUiPg=="
+"eventtime","2006-10-30 01:21:00"
+"url","http://xwipexmyxtearsx.livejournal.com/171810.html"
+"userid","17459"
+"itemid","669"
+"event","i can NOT read friends only entries.
+and its pissing me off
+i started school today
+it was super."
+"eventtime","2006-10-20 20:10:00"
+"url","http://xwipexmyxtearsx.livejournal.com/171386.html"
+"userid","17459"
+"itemid","666"
+"event","Kristen Griswold
+6757 Lovell Cook Rd
+Springfield Tn, 37172
+
+thats my new address.
+from here on out, thats where i will reside, until i am 18. so all my letters, should be sent there.
+and just because im moving, i dont want my letters to stop. because ill need there more now that im there, then i did when i was here, ill be 10 times more lonely there.
+
+its 241, and i dont know where cody is.
+im still like OMG over him. just.. fyi.
+i hate that im moving
+i cant take my kitten
+no more weed
+no more alcohol
+no more sex
+my life is going to be super duper boring
+
+615 - 384 - 4791
+call me there, as of sunday"
+"eventtime","2006-10-07 14:40:00"
+"url","http://xwipexmyxtearsx.livejournal.com/170557.html"
+"userid","17459"
+"itemid","665"
+"event","i = stupid"
+"eventtime","2006-10-05 14:07:00"
+"url","http://xwipexmyxtearsx.livejournal.com/170445.html"
+"userid","17459"
+"itemid","664"
+"event","im moving to tennessee on sunday"
+"eventtime","2006-10-04 20:35:00"
+"url","http://xwipexmyxtearsx.livejournal.com/170080.html"
+"userid","17459"
+"itemid","663"
+"event","<P>&nbsp;</P>
+<P><lj-cut text=""lyke totally.""> </P>
+<P>living with cody, is so blah.<BR>i was kinda bummed abouth im moving in, but at the same time i was happy about it. <BR>because i got to go to sleep cuddling with him. but we havent done that once.<BR>because i got to have someone come home and be happy to see me. but that hasnt happen. he comes home and goes to bed basically.<BR>because i thought it would be all sweet and loving. but basically, he's been so mean to me. <BR>i dont know. he told me today that he's just been pissed about everything that's happened. not sad about it. just pissed.<BR>i kinda feel like hes taking it out on me.</P>
+<P>im going to be starting Primavera. a new school. that i dont ever actually have to go to.<BR>2 classes for 6 weeks. 10 hours a week in both classes. anytime. anywhere.<BR>its more my thing.<BR>i havent gone to school since tuesday of last week, and moms totally off my ass about it.</P>
+<P>i wish i had something to do though. i sleep till like noon.<BR>get up, take a piss, get something to eat, sit on the couch for awhile and then i get stoned and sit on the couch some more.<BR>its so boring. i never do anything.</P>
+<P>dad said he sent out my check, but i knew i couldnt count on it. should have been here sunday, but since they dont do mail on sunday, it should have been here on monday, but it wasnt, and it wasnt here today either. i kinda expected that. but i guess i just got my hopes up.. i was expecting alittle more from him this time.</P>
+<P>i could have my permit right now, but i dont. and now that i know i can get it whenever i want too, im not too.. eager, or excited about getting it, as i was when i was anticipating it.</P>
+<P>im sending another poem in for another book. that used to be excited. but now its boring, and takes up time in my life, not like im doing anything else with me.</P>
+<P>im thinking that my life is going to end up beign shit. and im gonna look back on this and think that i should have just gone to school. but whatever. i dont want too. and im not going too. and im getting away with it. and right now, im perfectly fine with sleeping and eating and smoking whenever i want too.</P>
+<P>one of megs friends told me i was pretty over a comment today.<BR>it made me smile, and it kinda made me feel alittle better.</P>
+<P>i rented <STRONG>alot like love</STRONG> and i watched it while cody was gone, because i knew he wouldnt want to watch it. it was good. i liked it alot.</P>
+<P>cody isnt smoking pot anymore. and its weird. now he's all like.. DONT SMOKE POT. and its weird. i just dont understand him. we're soooo different, and im not sure whats going to happen. and i feel like i need to be going out with him, because he lievs with me. but i havent been thinking about breaking up with him, but what if i do sometime before he moves out. cody told me that if i dropped out, that he would break up with me, because he doesnt want to date a drop out, but lately, its seemed like he doesnt want to be dating me.. period. i dont know. things are weird.</P>
+<P>i moved my room around today, because i got sick of cody stepping all over the bed and ontop of me to get to the closet, so i moved the bed farther from the closest so he can walk between the bed and the closet, which he couldnt do before, and he had no choice but to step on the bed. i also put his nightstand on his side, so my shit was on my nightstand, and his shit is on his. its better this way. hopefully. </P>
+<P>he'll probably bitch about it. like he does everything else. i feel like i walk on eggshells in my own house.</P>"
+"eventtime","2006-09-27 21:50:00"
+"url","http://xwipexmyxtearsx.livejournal.com/169895.html"
+"userid","17459"
+"itemid","662"
+"event","everytime i talk to him, my head spins and my world falls down.
+but he just doesnt get it.
+and i wish i could stop loving him.
+Not mikey. shut up"
+"eventtime","2006-09-22 20:23:00"
+"url","http://xwipexmyxtearsx.livejournal.com/169616.html"
+"userid","17459"
+"itemid","661"
+"event","how i wish, how i wish you were here
+we're just two lost souls swimming in a fish bowl, year after year.
+running over the same old ground, what have we found?
+the same old fears. wish you were here.
+i miss you.
+things seems too different.
+i dont know whats up.
+but im thinking of you, as always&hearts;"
+"eventtime","2006-09-22 17:41:00"
+"url","http://xwipexmyxtearsx.livejournal.com/169251.html"
+"userid","17459"
+"itemid","660"
+"event","cody is living with me now."
+"eventtime","2006-09-21 21:30:00"
+"url","http://xwipexmyxtearsx.livejournal.com/169200.html"
+"userid","17459"
+"itemid","658"
+"event","i just fucked mikey.
+oops."
+"eventtime","2006-09-15 17:15:00"
+"url","http://xwipexmyxtearsx.livejournal.com/168471.html"
+"userid","17459"
+"itemid","655"
+"event","ohhh so trendy (10:22:11 AM): I AM A FETUS<BR>krizzxo (10:22:15 AM): WOAH<BR>ohhh so trendy (10:22:18 AM): whoa.<BR>ohhh so trendy (10:22:21 AM): i want a fetus<BR>ohhh so trendy (10:22:22 AM): like<BR>ohhh so trendy (10:22:29 AM): a stuffed fetus doll<BR>krizzxo (10:22:32 AM): lmao<BR>ohhh so trendy (10:22:32 AM): they should make those<BR>ohhh so trendy (10:22:38 AM): seriously<BR>ohhh so trendy (10:22:43 AM): i'd bring my fetus everywhere"
+"eventtime","2006-09-10 10:23:00"
+"url","http://xwipexmyxtearsx.livejournal.com/167797.html"
+"userid","17459"
+"itemid","654"
+"event","i think im going insane. literally.
+and thats my update."
+"eventtime","2006-09-09 14:49:00"
+"url","http://xwipexmyxtearsx.livejournal.com/167678.html"
+"userid","17459"
+"itemid","653"
+"event","<P><lj-cut text=""weekly update.""> </P>
+<P>i figured i would update every once and awhile. maybe not always weekly.. but every now and then.<BR>im going out with cody now.<BR>i miss hanging out with mikey. he died his hair black. i miss him. hes been pretty down lately.<BR>leah came down last weekend and i had a blast. we hung out with eric. coricidin.<BR>this weekend scott said we'd all go camping, but im doubting that its going to happen.<BR>next weekend leah is coming down for saturday night, because its her birthday. well thursday was. but close enough.<BR>mom sarah and i are getting along well.<BR>im either dropping out, or taking a year off of school. final<BR>thats all.</P>"
+"eventtime","2006-09-03 17:50:00"
+"current_moodid","15"
+"url","http://xwipexmyxtearsx.livejournal.com/167200.html"
+"userid","17459"
+"itemid","652"
+"event","<P><lj-cut text=""what has livejournal come too""> <BR>when you're worried about what your lj friends are going to think of you.</P>
+<P>Id love to sit here and just update on everything thats happened, and all the things i feel. and all the confusion. but i feel like every word i say is being judged by someone who has no right to judge. i hate livejournal. and im pretty sure im done with it. ill keep it for the sake of being able to read everyone elses.. and people can comment if they need to talk to me and im not on.. kinda like a message i guess. but im not going to update anything.</P>
+<P>i need to find somewhere where i can just say anything and everything. but i have no idea where i could do that. i dont want to keep a paper kinda journal because mom would find it. its time to search for a new undiscovered blogging site.</P>
+<P>speaking of which, what the <STRONG>fuck</STRONG> is with the myspace fad. why do all these random stupid people have them. i could probably name about 20 people who dont even belong on myspace. i hate how everything becomes&nbsp;a fad. and im sick of everyone trying to be like everyone else. just fucking get over it and be yourself.</P>
+<P>theres alot going on, and i want to write about it, and i want to talk about it. but i cant even talk about it to my best friends, because im so fucking.. i dont know.. im worried about what they might think of me. and i dont want to assume they are thinking the worst. so im going to bottle it up inside, and just not tell anyone. im going to go find another blogging site.</P>
+<P>this is my last livejournal entry.</P>"
+"eventtime","2006-08-24 23:17:00"
+"current_moodid","31"
+"url","http://xwipexmyxtearsx.livejournal.com/166985.html"
+"userid","17459"
+"itemid","651"
+"event","<P><lj-cut text=""i hate people from indiana. they live in a fucking box and its so fucking stupid""> </P>
+<P>krizzxo (2:19:42 PM): i left a comment on your myspace blog. you should read it&lt;3<BR>SpunkySquirrel07 (2:19:49 PM): ok <BR>SpunkySquirrel07 (2:24:23 PM): i dont think its ur fault </P>
+<P>Auto response from krizzxo (2:24:23 PM): sick</P>
+<P>redoing my room<BR>call me<BR>480 718 5490</P>
+<P>SpunkySquirrel07 (2:24:34 PM): its just he just is not cody <BR>SpunkySquirrel07 (2:24:55 PM): if u knew the cody from indiana u would see how we see hes changed<BR>SpunkySquirrel07 (2:25:35 PM): o hes a sexaholic????&nbsp; <BR>krizzxo (2:30:01 PM): you didnt understand a word that i said in that whole thing but whatever<BR>SpunkySquirrel07 (2:30:22 PM): yea i do understand </P>
+<P>Auto response from krizzxo (2:30:22 PM): sick</P>
+<P>redoing my room<BR>call me<BR>480 718 5490</P>
+<P>SpunkySquirrel07 (2:30:43 PM): its just hes not cody. he is, but he isnt <BR>SpunkySquirrel07 (2:30:51 PM): u evidently dont kno the real him <BR>krizzxo (2:31:55 PM): ashleigh maybe its you who doesnt know the real cody<BR>krizzxo (2:32:00 PM): did you ever think of that<BR>krizzxo (2:32:05 PM): that maybe he used to be so inlove with you<BR>krizzxo (2:32:10 PM): that he was who you wanted him to be<BR>krizzxo (2:32:15 PM): and not who he wanted to be<BR>krizzxo (2:32:16 PM):&nbsp; i bet you didnt<BR>SpunkySquirrel07 (2:32:48 PM): yea i controlled his life so much&nbsp; <BR>krizzxo (2:32:57 PM):&nbsp; atleast you admit it.<BR>SpunkySquirrel07 (2:33:00 PM): damn fuck me im a bitch for keeping him on track <BR>krizzxo (2:33:14 PM): ashleigh its not like that at all and you know it.<BR>krizzxo (2:33:27 PM): cody was who he was because he loved you and you were like.. the only thing in his life<BR>krizzxo (2:33:29 PM): and its not like that anymore<BR>SpunkySquirrel07 (2:33:33 PM): tahst what ur making it sound like that</P>
+<P>krizzxo (2:33:39 PM): cody is out and about and has the freedom now, to be who he wants to be<BR>krizzxo (2:33:50 PM): and hes taking advantage of it, and im damn proud of him<BR>krizzxo (2:34:02 PM): because he lived in indiana and he wasnt who he should have been<BR>krizzxo (2:34:04 PM): and he still isnt<BR>SpunkySquirrel07 (2:34:13 PM): well, if he wants to smoke pot and shit if he thinks that will get him real far in life, so be it <BR>krizzxo (2:34:20 PM): he doesnt<BR>krizzxo (2:34:21 PM): see<BR>SpunkySquirrel07 (2:34:25 PM): this is katie <BR>krizzxo (2:34:26 PM): you didnt even fucking understand what i said<BR>krizzxo (2:34:30 PM): i dont care who it is<BR>krizzxo (2:34:35 PM): because you obviously didnt know him either<BR>krizzxo (2:34:43 PM): hes not going to smoke pot for the rest of his life<BR>krizzxo (2:34:45 PM): he isnt stupid<BR>SpunkySquirrel07 (2:34:51 PM): and you no potheads no potheads i gusse so <BR>krizzxo (2:34:55 PM): just because he smokes pot doesnt mean he is a bad person<BR>krizzxo (2:35:07 PM): you fucking people need to open your minds to didnt things<BR>krizzxo (2:35:09 PM): different*<BR>SpunkySquirrel07 (2:35:11 PM): im only pissed cuz he lied to me about it <BR>SpunkySquirrel07 (2:35:16 PM): u didnt understand y i was mad <BR>krizzxo (2:35:26 PM): because you fucking people are the most close minded mother fucking people ive ever met<BR>krizzxo (2:35:30 PM): so did you ashleigh<BR>krizzxo (2:35:31 PM): you lied.<BR>krizzxo (2:35:42 PM): your so hypocritical and it bothers me<BR>SpunkySquirrel07 (2:35:44 PM): yea but i did it one time <BR>krizzxo (2:36:01 PM): it doesnt matter<BR>krizzxo (2:36:03 PM):&nbsp; you still lied<BR>SpunkySquirrel07 (2:36:11 PM): he did it every day and promised he didnt do it <BR>krizzxo (2:36:22 PM): oh im sure youve lied about plenty of things<BR>SpunkySquirrel07 (2:36:25 PM): i just never metioned it <BR>SpunkySquirrel07 (2:36:30 PM): like what? <BR>krizzxo (2:37:28 PM): how the fuck do i know, i dont give a shit about you and codys relationship anymore. it means nothing to me. i could careless if you two ever saw eachother again... because to me, youre just a name. i dont know anything about you, and from what ive heard, i dont want too. youve hurt cody a million times.. and thats not fair. and its not fair for you to make cody promise to never do soething that youve done before.. so that was your own fault for making him promise such a thing<BR>krizzxo (2:37:56 PM): you seem to have cody on this pedistool. he isnt perfect, and he never will be. and smoking pot, god, you fucking people seem to think it makes someone a terrible person and it doesnt<BR>krizzxo (2:37:56 PM): at all<BR>krizzxo (2:38:00 PM): it doesnt change a person<BR>krizzxo (2:38:10 PM): and if you think it does, than youre the one changing the person<BR>krizzxo (2:38:13 PM): so open your eyes<BR>krizzxo (2:38:15 PM): open your mind<BR>SpunkySquirrel07 (2:38:17 PM): he promised the same shit and what did he do? <BR>krizzxo (2:38:22 PM): and learn to fucking accept new things into your fucking life<BR>krizzxo (2:38:25 PM): cody doesnt fucking belong to you<BR>krizzxo (2:38:28 PM): he hasnt for a long ass time<BR>SpunkySquirrel07 (2:38:32 PM): ur makinf this bigger than it really is <BR>krizzxo (2:38:33 PM): and you need to realize that<BR>krizzxo (2:38:36 PM):&nbsp; he doesnt need to fucking jump<BR>SpunkySquirrel07 (2:38:38 PM): yeah and he doesnt belong to u either <BR>krizzxo (2:38:39 PM): when you tell him to jump<BR>krizzxo (2:38:43 PM): yeah i know<BR>krizzxo (2:39:26 PM): and no im not, your being a fucking hypocrit and i hate that and im expressing my views about it. but your close minded and im wasting my time on you right now because your being petty<BR>krizzxo (2:39:28 PM): so fuck it<BR>krizzxo (2:39:39 PM): you dont even know who cody is anymore ashleigh, get over it.<BR>SpunkySquirrel07 signed off at 2:39:43 PM. </P>
+<P>&nbsp;</P>
+<P>i hate ashleigh.</P>"
+"eventtime","2006-08-23 14:40:00"
+"url","http://xwipexmyxtearsx.livejournal.com/166798.html"
+"userid","17459"
+"itemid","650"
+"event","<P><lj-cut text=""kristen 101""> </P>
+<P>1] Name: Kristen Marie Griswold<BR>[2] Birthday: February 15th<BR>[3] Height: 5'3<BR>[4] Show size: 8 1/2<BR>[5] Eye color: brown<BR>[6] Hair color: brown<BR>[7] Drank Alcohol: yes<BR>[8] Benn on stage: once..<BR>[9] Kissed somebody: ofcourse<BR>[10] Been dumped: ofcourse.<BR>[11] Gotten into an accident: I didnt die or anything.<BR>[12] Eaten an entire box of sweets: umm, i think so.<BR>[13] Dyed your hair: a million times<BR>[14] Choked infront of someone: does that happen to everyone atleast once in their life?<BR>[15] Went to school in your PJ's:&nbsp;all the time in like 8th grade<BR>[16] Gotten detention: yes.<BR>[17] Liked someone so much that made you cry: yep<BR>[18] Do you like someone right now: yes.<BR>[19] Do&nbsp;they know:&nbsp;ive told me..<BR>[20] What do you look for in the opposite sex: personality, interest, someone whose honest, and loving.. and all that bullshit.<BR>[21] Could you see yourself getting married: hah. maybe.<BR>[22] Cold/hot: cold<BR>[23] Black / White: white<BR>[24] rain/snow: snow<BR>[25] give/recieve: um, neither?<BR>[26] wool/cotton: Cotton<BR>[27] rose/daisy: rosey! <BR>[28] private/public school: public<BR>[29] plain/chocolate: choco<BR>[30] history/science: science<BR>[31] math/english: English <BR>[32] spring/fall: fall<BR>[33] rock/country: rock<BR>[34] pepsi/coke: coke<BR>[35] love/lust: both<BR>[36] eat/sleep: sleep<BR>[37] who do you see the most: cody<BR>[38] who do you wish to see more often: anyone from back home<BR>[39] who do you email the most: i never send emails, except to my dad..<BR>[40] whose the loudest: mikey<BR>[41] whose the shyest: hah.. umm, me probably<BR>[42] who are you jealous of: anyone still living back home<BR>[43] who has the best room: WILLY! man. no fair.<BR>[44] whose the horniest: cody or mikey<BR>[45] who do you trust the most: no one from out here really. cody maybe. but meg hannigan, and rosey farley<BR>[46] who knows you the best: meg hannigan <BR>[47] whose your best friend/friends: meg hannigan and rose farley<BR>[48] who do you have serious talks with: cody and meg and rosey<BR>[49] who gets along with your parents: fuck, codys married to them. devon does too though<BR>[50] who hugged you the most: mikey/cody<BR>[51] who do you miss the most: ohhh noo. everyone.<BR>[52] fought with you the most: <STRONG>chris marcus</STRONG> but only because he cared.<BR>[53] who argues with you the most: my mom probably<BR>[54] favorite friend of the opposite sex: either jake neely or cody hays<BR>[55] is most likely to become a model: daniel lopez<BR>[56] has known you the longest: kate or rosey<BR>[57] do you know most about: meg..<BR>DO YOU LIKE TO:<BR>[58] Give hugs: yep<BR>[59] give back rubs: no, but i will give willy a backrub. but thats only because he plays basketball and his back always hurts<BR>[60] take walks in the rain: yes<BR>[61] watch tv: sometimes<BR>[62] go to the beach: yeah<BR>[63] do homework: ew. no<BR>[64] play in the snow: i miss the snow<BR>[65] work out: no im so lazy<BR>[66] talk on the phone: um not really.. i usually talk to rosey for along time though.<BR>[67] stay up all night and talk to a friend: it depends on which friend<BR>[68] go online: sometimes..<BR>[69] be kissed: only if i want to be kissed<BR>[70] do weird/freaky things: not usually...<BR>[71] be wild: i guess.<BR>HAVE YOU EVER:<BR>[72]been to a concert: yes<BR>[73] been out of state: yes, i fucking live out of state. ew.<BR>[74] gone skinny dipping: yes<BR>[75] ran around naked: in my house while no one was there.<BR>[76] broken a bone: never<BR>[77] cheated on a test: yeah a couple<BR>[78] ran a marathon: hahahaha<BR>[79] Met a famous person: um..&nbsp;not that i can remember<BR>[80] bought something and sold it: at like a tag sale<BR>81] stole from somewhere: yep<BR>[82] Stalked someone: not at all.<BR>YOUR LOVE LIFE:<BR>[83] taken / single : single.<BR>[84] If you were to go out with anyone, who: ill never tell.<BR>[85] have you ever had an online relationship: ew shut up<BR>[86] longest relationship: depends on how you look at it.. probably with chris marcus.<BR>[87] last person you kissed: i saw mikey before he left for work this morning and he gave me a friendly have a good day kinda kiss.<BR>EXTRA EXTRA:<BR>[88] bad habits: smoking cigarettes was one, biting my nails.<BR>[89] makes you mad: when im mad and people laugh at me and alot of other things too<BR>[90] scariest moments: oh gosh<BR>[91] where are you: on my couch<BR>[92] Are you wearing any jewelery: only a necklace like i always do<BR>[93] last time you showered: last night<BR>[94] what color are your pants: they are aubreys pj bottoms that she gave me while we were at the maple house. holy fuck i never even thought about that until like.. just now. i totally forgot whose they were. aw.<BR>[95] what song are you listening to right now: fob - sugar, we're going down<BR>[96] Last thing you said: oh dont worry about it, its okay.&nbsp;&nbsp; to the bug man<BR>[97] computer desk is made of: my lap<BR>[98] Last thing you ate: chocochip cookies<BR>[99] what do you really want to do right now: talk to chris.<BR>[100] what color crayon would you like to be.<BR>[101] if you could choose someone to live with for the rest of your life, who would it be: meg, because we're gonna be friends for the rest of our lives, and we need eachother</P>
+<P>i need to make sure to talk to cody when he gets home at like 2, so that he doesnt go all the way to my school to pick me up, and have me not even be there. </P>"
+"eventtime","2006-08-22 12:47:00"
+"current_moodid","5"
+"url","http://xwipexmyxtearsx.livejournal.com/166403.html"
+"userid","17459"
+"itemid","648"
+"event","PFA+PGxqLWN1dCB0ZXh0PSJpIHdyb3RlIGEgc29uZyBmb3Igcm9zZXkiPiA8L1A+DQo8UD5Sb3NleSBpcyBzaWNrIGFuZCBzaGVzIGZlZWxpbmcgc2FkPEJSPnNoZXMgbm90IGhlcmUgYW5kIGnigJl2ZSBiZWVuIGZlZWxpbmcgYmFkLjxCUj5TZXggYW5kIHRoZSBjaXR5IGFsbCBkYXkgbG9uZzxCUj5pdCBnZXRzIGJvcmluZyBzbyBpbSB3cml0dGluZyB0aGlzIHNvbmcuPEJSPkkgYmV0IHlvdSBzcGVuZCBhbGwgZGF5IGluIHlvdXIgYmVkPEJSPmZlZWxpbmcgYWxsIGNvbmdlc3RlZCBhbmQgd2hhdCBub3QgaW4geW91ciBoZWFkLjxCUj5Zb3Uga25vdyB5b3Ugc2hvdWxkIGJlIGhpdHRpbmcgdGhlIGJvbmc8QlI+YnV0IHlvdXJlIHNpY2sgYW5kIGJvcmluZyBzbyBpbSB3cml0dGluZyB0aGlzIHNvbmcuPEJSPmkgYmV0IHlvdSBoYXZlbnQgYm90aGVyZWQgdG8gZXZlbiBwdXQgb24gYSBzaG9lPEJSPmJ1dCB5b3XigJlyZSBub3QgdGhlIG9ubHkgb25lIHNpY2ssIGFubmEgaXMgdG9vLjxCUj5JIGJldCB5b3UgaGF2ZW50IHB1dCBvbiBhIHRob25nPEJSPmJlY2F1c2UgeW91cmUgc2ljayBhbmQgYm9yaW5nIHNvIGltIHdyaXR0aW5nIHRoaXMgc29uZy48QlI+c28gc2h1dCB0aGUgZnVjayB1cCBhbmQgc3RvcCB5b3VyZSB3aGluaW5nPEJSPnN1Y2sgaXQgdXAgYW5kIHdhdGNoIHRoZSBmdWNraW5nIHNoaW5pbmc8QlI+aXRzIGFsbCBpbiB5b3XigJlyZSBoZWFkPEJSPnNvIGdldCB5b3VyZSBhc3Mgb3V0IG9mIGJlZDxCUj50aGlzIHNvbmcgaXMgZ2V0dGluZyBvbiBteSBuZXJ2ZXMsIGl0cyB0b28gbG9uZzxCUj5zbyBnZXQgYmV0dGVyIHNvIGkgZG9u4oCZdCBoYXZlIHRvIHdyaXRlIGFub3RoZXIgc29uZy48L1A+"
+"eventtime","2006-08-21 14:30:00"
+"current_moodid","15"
+"url","http://xwipexmyxtearsx.livejournal.com/166116.html"
+"userid","17459"
+"itemid","647"
+"event","PFA+PGxqLWN1dCB0ZXh0PSJpZiBhbnlvbmUga25vd3MgdGhlIG5hbWUgJmFtcDsgYXJ0aXN0IG9mIHRoaXMgc29uZywgdGhleSBzaG91bGQgdGVsbCBtZS4iPiA8L1A+DQo8UD5QcmV0dHkgZ2lybCBpbiBzdWZmZXJpbmc8QlI+d2hpbGUgaGUgY29uZmVzc2VzIGV2ZXJ5dGhpbmc8QlI+cHJldHR5IHNvb24gc2hlbGwgZmlndXJlIG91dDxCUj53aGF0IGhpcyBpbnRlbnRpb25zIHdlcmUgYWJvdXQ8QlI+YW5kIHRoYXRzIHdoYXQgeW91IGdldCBmb3IgZmFsbGluZyBhZ2FpbjxCUj55b3UgY2FuIG5ldmVyIGdldCBoaW0gb3V0IG9mIHlvdXIgaGVhZDxCUj5hbmQgdGhhdHMgd2hhdCB5b3UgZ2V0IGZvciBmYWxsaW5nIGFnYWluPEJSPnlvdSBjYW4gbmV2ZXIgZ2V0IGhpbSBvdXQgb2YgeW91ciBoZWFkPEJSPml04oCZcyB0aGUgd2F5IHRoYXQgaGUgbWFrZXMgeW91IGZlZWw8QlI+aXTigJlzIHRoZSB3YXkgdGhhdCBoZSBraXNzZXMgeW91PEJSPml04oCZcyB0aGUgd2F5IHRoYXQgaGUgbWFrZXMgeW91IGZhbGwgaW5sb3ZlPEJSPnNoZXMgYmVhdXRpZnVsIGFzIHVzdWFsPEJSPndpdGggYnJ1aXNlcyBvbiBoZXIgZWdvPEJSPmhlciBraWxsZXIgaW5zdGluY3QgdGVsbHMgaGVyIHRvIGJlIGF3YXJlIG9mIGV2aWwgbWVuPEJSPmFuZCB0aGF0cyB3aGF0IHlvdSBnZXQgZm9yPEJSPml04oCZcyB0aGUgd2F5IHRoYXQgaGUgbWFrZXMgeW91IGZlZWw8QlI+aXTigJlzIHRoZSB3YXkgdGhhdCBoZSBraXNzZXMgeW91PEJSPml04oCZcyB0aGUgd2F5IHRoYXQgaGUgbWFrZXMgeW91IGZhbGwgaW5sb3ZlPEJSPml04oCZcyB0aGUgd2F5IHRoYXQgaGUgbWFrZXMgeW91IGZlZWwgPEJSPml04oCZcyB0aGUgd2F5IHRoYXQgaGUga2lzc2VzIHlvdTxCUj5pdOKAmXMgdGhlIHdheSB0aGF0IGhlIG1ha2VzIHlvdSBmYWxsIGlubG92ZTxCUj5wcmV0dHkgZ2lybCBwcmV0dHkgZ2lybCBpbiBzdWZmZXJpbmcgPEJSPndoaWxlIGhlIGNvbmZlc3NlcyBldmVyeXRoaW5nPEJSPnByZXR0eSBzb29uIHNoZWxsIGZpZ3VyZSBvdXQ8QlI+d2hhdCBoaXMgaW50ZW50aW9ucyB3ZXJlIGFib3V0PEJSPml04oCZcyB0aGUgd2F5IHRoYXQgaGUgbWFrZXMgeW91IGNyeTxCUj5pdOKAmXMgdGhlIHdheSB0aGF0IGhlcyBpbiB5b3VyIG1pbmQ8QlI+aXTigJlzIHRoZSB3YXkgdGhhdCBoZSBtYWtlcyB5b3UgZmFsbCBpbmxvdmU8QlI+aXTigJlzIHRoZSB3YXkgdGhhdCBoZSBtYWtlcyB5b3UgZmVlbDxCUj5pdOKAmXMgdGhlIHdheSB0aGF0IGhlIGtpc3NlcyB5b3U8QlI+aXTigJlzIHRoZSB3YXkgdGhhdCBoZSBtYWtlcyB5b3UgZmFsbCBpbmxvdmU8L1A+"
+"eventtime","2006-08-21 13:14:00"
+"current_moodid","15"
+"url","http://xwipexmyxtearsx.livejournal.com/165722.html"
+"userid","17459"
+"itemid","644"
+"event","<lj-cut text=""i was actually hoping, that you wouldnt have actually let that be it.""> <BR><BR>i love him to pieces.<BR>i guess what i said is being respected. <BR>but at the same time, i was hoping he'd fight it.<BR><STRONG>my heart, is broke.</STRONG>"
+"eventtime","2006-08-15 20:20:00"
+"current_moodid","15"
+"url","http://xwipexmyxtearsx.livejournal.com/165080.html"
+"userid","17459"
+"itemid","639"
+"event","<P><FONT size=6>the honeybear... broke.<BR>its gone<BR>it died<BR>mark killed it.<BR><BR><BR>RIP Honeybear&lt;3</FONT></P>"
+"eventtime","2006-08-12 15:01:00"
+"url","http://xwipexmyxtearsx.livejournal.com/163659.html"
+"userid","17459"
+"itemid","635"
+"event","<P><lj-cut text=""funniest thing all day.""> </P>
+<P>Meg x Hannigan (4:20:29 PM): oh you know that place to swim over by smith college with the rope swing<BR>krizzxo (4:20:58 PM): yeah<BR>Meg x Hannigan (4:21:12 PM): pip was on the rope swing and he climbed way up and when he was jumping off he got his balls stuck and it ripped&nbsp; em and he had to go to the hospital and get stitches<BR></P>
+<P>made me smile.</P>"
+"eventtime","2006-08-11 16:24:00"
+"url","http://xwipexmyxtearsx.livejournal.com/162806.html"
+"userid","17459"
+"itemid","623"
+"event","today everything is going wrong.
+except.. everything is going wrong to everyone but devon and i.
+its like we're invinsible when were together.. 
+we live in a bubble and everything just bounces off and we dont care.
+
+ive smoking massive amounts of bud.
+devon and i bought a bong..
+which will be staying here with me, when devon goes home.
+i bought myself the cutest piece. its dandy.. very small. petite almost.
+and devon bought herself 2. 
+shes bringing home the one she hasnt smoked out of.
+and i will be mailing her the other one
+unless she decides to clean it out and then take it home with her. 
+either way.
+
+we've been having like.. the best time.
+
+i feel no need to make this a cut.
+or a friends only entry.
+
+maybe because my mind isnt functioning the way i wish it was.
+or maybe just because im lazy
+and i couldnt care less."
+"eventtime","2006-07-17 16:00:00"
+"current_moodid","103"
+"url","http://xwipexmyxtearsx.livejournal.com/159679.html"
+"userid","17459"
+"itemid","621"
+"event","devon is going to be here in 4 hours and 44 minutes.
+
+
+
+aubrey. my aunt told me you called. sorry i missed your call.
+if you're trying to get a hold of me.. than call my house
+480 718 5490
+im not home very often.. so try and call before 6 or 7 my time.. which would be 9 or 10 your time.
+i love you"
+"eventtime","2006-07-13 18:01:00"
+"url","http://xwipexmyxtearsx.livejournal.com/159072.html"
+"userid","17459"
+"itemid","618"
+"event","<P><lj-cut text=""birthday girl""> </P>
+<P>Rose Savage Farley! I love you. and right now...its&nbsp; 1210 there so.. its your birthday.. so...</P>
+<P><FONT size=7>Happy Birthday to you, happy birthday to you, happy birthday dear rosey, happy birthday to you!&nbsp; </FONT><FONT size=3>i love you rosey. happy birthday</FONT></P>"
+"eventtime","2006-07-11 21:10:00"
+"current_moodid","15"
+"url","http://xwipexmyxtearsx.livejournal.com/158289.html"
+"userid","17459"
+"itemid","600"
+"event","<P><lj-cut text=""a letter from maryann""> </P>
+<P>written on 4/27.<BR>i got it on 6/24</P>
+<P>saying..<BR><BR>My dearest Kristen, <BR>I know there will come a day, where I decide I can't handle it anymore. Things are too much for me to handle right now, and they only seem to be getting worse everyday I live. My drug problem is getting out of control. My addiction to coke and heroine are greatly effecting my way of living. I find myself unable to help myself and everyone claims im unreachable. I need you here more than ever. I feel as if you're my only hope, and the only one that can help me, but you're not here. And I can't bring myself to admit to you that I've got a problem. For I only wish that you could be proud of me. If you're reading this letter, than I've failed to make my life make any sense. I want you to know that I love you. In my life, there has been only one person I could look up too. And it was you. Than you moved away and you left me here with nothing but myself and chemicals to alter everything I am. Part of me feels anger towards you. But I wont leave this world with anger in my heart for someone that means so much to me. You always said you'd be there for me... but you're not here and I need you. I feel helpless in a world so full of ugly, a world such as this. I think you're amazing. You brightened up my world and I think you're one of the most amazing, wonderful, loving people I know, and you were always the one to put yourself last, and everyone that meant something to you was more important to you than yourself. I want to apologize. I know that I've made mistakes when it comes to our friendship and I hope oh so much that you'll forgive me for the things I've done to you. And I want to apologize for leaving the world in such a distasteful manner. I know you'll go on without me, but I love you endlessly, and nothing will ever change that. And when I decide to leave this world, I'll watch over you, and I will love you even after death. You're my best friend and I only wish you could be here for me when I need you so badly.<BR>All my love<BR>and my most sincere apologys<BR>maryann.</P>
+<P>mom got it today, but she didnt give it to me till about 20 minutes ago. im crying so hard i almost cant breathe.<BR>i was a bad friend.</P>"
+"eventtime","2006-06-24 22:20:00"
+"url","http://xwipexmyxtearsx.livejournal.com/153607.html"
+"userid","17459"
+"itemid","599"
+"event","i love michael kenneth marshall robinson, with my whole heart. &hearts;"
+"eventtime","2006-06-24 21:05:00"
+"current_moodid","33"
+"url","http://xwipexmyxtearsx.livejournal.com/153467.html"
+"userid","17459"
+"itemid","589"
+"event","<P><lj-cut text=""so i know""> </P>
+<P>that it isnt aly's birthday yet. but... in 1 hour and 45 minutes.. for her, it will be.</P>
+<P>soo.</P>
+<P><FONT size=7><STRONG><U><EM>HAPPY FUCKING BIRTHDAY ALY ANN CAHILLANE!</EM></U></STRONG></FONT></P>
+<P>you're fucking amazing and i love you more than anything! you're beautiful and you're wonderful. and i hope you have a really amazing birthday. i wish that i could be there to get really really stoned with you and party with you. but i cant. so have a great birthday. i love you awy. &amp;hearts;</P>"
+"eventtime","2006-06-19 19:17:00"
+"current_moodid","15"
+"url","http://xwipexmyxtearsx.livejournal.com/150974.html"
+"userid","17459"
+"itemid","582"
+"event","PFA+PGxqLWN1dCB0ZXh0PSJ5ZXQgYW5vdGhlciBvbmUgb2YgbWljaGFlbCBhbmQgaSdzIHNvbmdzLiI+IDwvUD4NCjxQPml0cyB5b3VyIGJlZDxCUj5zbyBwbGVhc2UgY2hvb3NlIGEgc2lkZTxCUj5J4oCZbGwgdGFrZSB0aGUgb25lIGNsb3Nlc3QgdG8gdGhlIGRvb3I8QlI+PFU+YW5kIHlvdSBzdGFydCB0byBzcGVhazxCUj50aGUgd29yZHMgdGhhdCB0cnkgdG8ganVzdGlmeTxCUj5kbyBmYXIgbW9yZSB3cm9uZyB0aGVuIGFueXRoaW5nIHlvdSBkbzxCUj48L1U+c28gZ3JhYiB0aGUgY29hdCwgdGhlIGtleXM8QlI+dGhlIHRlbnNpb24gc3BlYWtzIGJ1dCB3ZSdyZSBzaW5naW5nIGl0PEJSPjxCUj48RU0+aWxsIHRhcCB0aGUgYnJlYWsgd2hpbGUgeW91IGNyYWNrIHRoZSB3aW5kb3c8QlI+dGhlIHNtZWxsIG9mIHNtb2tlIGlzIG1ha2luZyBteSBsdW5ncyBleHBsb2RlPC9FTT48QlI+dGhlIDUxIGlzIGJhY2tlZCB1cCBhbmQgdG9vIHNsb3c8QlI+bGV04oCZcyB0dW5lIG91dCBieSB0dXJuaW5nIG9uIHRoZSByYWRpbzxCUj48QlI+PFNUUk9ORz48Rk9OVCBzaXplPTQ+YW5kIHRoaXMgdG93biBpcyBkZWFkPEJSPndl4oCZdmUgYmVlbiBjYXVnaHQgaW4gdGhlc2Ugc2hlZXRzIHdheSB0b28mbmJzcDtsb25nPEJSPmxldOKAmXMganVzdCBzZWUgd2hv4oCZcyB1cCBvbiB0aGlzIHNjcmVlbjxCUj5ubyBvbmUgaSBrbm93IGlzIG1vcmUgZGVwcmVzc2luZyB0aGVuIG1lPEJSPm9yIHNob3VsZCBpIHNheSB0aGUgdHdvIG9mIHVzIGNhdXNlIGFmdGVyIGFsbCB3ZSdyZSBhbGwgd2XigJl2ZSBnb3Q8QlI+YW5kIHRlbnNpb24gc3BlYWtzIGJ1dCB3ZSdyZSBzaW5naW5nIGl0PEJSPjwvRk9OVD48L1NUUk9ORz48QlI+aWxsIHRhcCB0aGUgYnJlYWsgd2hpbGUgeW91IGNyYWNrIHRoZSB3aW5kb3c8QlI+dGhlIHNtZWxsIG9mIHNtb2tlIGlzIG1ha2luZyBteSBsdW5ncyBleHBsb2RlPEJSPnRoZSA1MSBpcyBiYWNrZWQgdXAgYW5kIHRvbyBzbG93PEJSPmxldOKAmXMgdHVuZSBvdXQgYnkgdHVybmluZyBvbiB0aGUgcmFkaW88QlI+PEJSPjxTVFJPTkc+PEZPTlQgc2l6ZT01PmFuZCBvaCBteSBsb3ZlIHlvdeKAmXJlIGFsbCBpIG5lZWQ8L0ZPTlQ+PC9TVFJPTkc+PEJSPmJhY2tlZCBiZWhpbmQgYSBmcmVxdWVuY3k8QlI+dGhleSBwbGF5ZWQgdGhpcyBzb25nIGFuIGhvdXIgYWdvPEJSPmJ1dCBsZXRzIHR1bmUgb3V0IDxCUj5sZXRzIHR1bmUgb3V0IGJ5IHR1cm5pbmcgb24gdGhlIHJhZGlvPEJSPjxCUj5oYXZlbuKAmXQgd2UgaGVhcmQgdGhpcyBzb25nPEJSPmFib3V0IGEgdGhvdXNhbmQgdGltZXMgYmVmb3JlPEJSPm9oIHdlbGwgYWZ0ZXIgYXdoaWxlIGl0IGFsbCBzb3VuZHMgdGhlIHNhbWU8QlI+aSBndWVzcyBpdHMgYmV0dGVyIHRoZW4gc2lsZW5jZSBhbmQgYmV0dGVyIHRoZW4gc2hhbWU8QlI+PEJSPmlsbCB0YXAgdGhlIGJyZWFrIHdoaWxlIHlvdSBjcmFjayB0aGUgd2luZG93PEJSPnRoZSBzbWVsbCBvZiBzbW9rZSBpcyBtYWtpbmcgbXkgbHVuZ3MgZXhwbG9kZTxCUj50aGUgNTEgaXMgYmFja2VkIHVwIGFuZCB0b28gc2xvdzxCUj5sZXTigJlzIHR1bmUgb3V0IGJ5IHR1cm5pbmcgb24gdGhlIHJhZGlvPEJSPjxCUj5pbGwgdGFwIHRoZSBicmVhayB3aGlsZSB5b3UgY3JhY2sgdGhlIHdpbmRvdzxCUj50aGUgc21lbGwgb2Ygc21va2UgaXMgbWFraW5nIG15IGx1bmdzIGV4cGxvZGU8QlI+dGhlIDUxIGlzIGJhY2tlZCB1cCBhbmQgdG9vIHNsb3c8QlI+bGV04oCZcyB0dW5lIG91dCBieSB0dXJuaW5nIG9uIHRoZSByYWRpbzxCUj48QlI+PEZPTlQgc2l6ZT02PjxTVFJPTkc+YW5kIG9oIG15IGxvdmUgeW914oCZcmUgYWxsIGkgbmVlZDwvU1RST05HPjwvRk9OVD48QlI+YmFja2VkIGJlaGluZCBhIGZyZXF1ZW5jeTxCUj50aGV5IHBsYXllZCB0aGlzIHNvbmcgYW4gaG91ciBhZ288QlI+YnV0IGxldHMgdHVuZSBvdXQgPEJSPmxldOKAmXMgdHVuZSBvdXQ8QlI+bGV04oCZcyB0dW5lIG91dCBieSB0dXJuaW5nIG9uIHRoZSByYWRpbzxCUj48L1A+"
+"eventtime","2006-06-17 06:07:00"
+"url","http://xwipexmyxtearsx.livejournal.com/149075.html"
+"userid","17459"
+"itemid","580"
+"event","i didnt know ramen could cause such a fuss."
+"eventtime","2006-06-16 16:16:00"
+"url","http://xwipexmyxtearsx.livejournal.com/148680.html"
+"userid","17459"
+"itemid","577"
+"event","PFA+PGxqLWN1dCB0ZXh0PSJEZWJhdGUgYWJvdXQgQnJpZ2h0IEV5ZXMtTHVhLiBkbyBpdC4gIj4gPC9QPg0KPFA+SSBrbm93IHRoYXQgaXQgaXMgZnJlZXppbmcgYnV0IEkgdGhpbmsgd2UgaGF2ZSB0byB3YWxrIDxCUj5JIGtlZXAgd2F2aW5nIGF0IHRoZSB0YXhpczsgdGhleSBrZWVwIHR1cm5pbmcgdGhlaXIgbGlnaHRzIG9mZiA8QlI+QnV0IEp1bGllIGtub3dzIGEgcGFydHkgYXQgc29tZSBhY3RvcuKAmXMgd2VzdCBzaWRlIGxvZnQgPEJSPjxTVFJPTkc+U3VwcGxpZXMgYXJlIGVuZGxlc3MgaW4gdGhlIGV2ZW5pbmc7IGJ5IHRoZSBtb3JuaW5nIHRoZXnigJlsbCBiZSBnb25lLiA8QlI+PC9TVFJPTkc+PEJSPldoZW4gZXZlcnl0aGluZyBnZXRzIGxvbmVseSBJIGNhbiBiZSBteSBvd24gYmVzdCBmcmllbmQgPEJSPknigJlsbCBncmFiIGEgY29mZmVlIGFuZCB0aGUgcGFwZXI7IGhhdmUgbXkgb3duIGNvbnZlcnNhdGlvbnMgPEJSPldpdGggdGhlIHNpZGV3YWxrIGFuZCB0aGUgcGlnZW9ucyBhbmQgbXkgd2luZG93IHJlZmxlY3Rpb24gPEJSPlRoZSBtYXNrIEkgcG9saXNoIGluIHRoZSBldmVuaW5nLCBieSB0aGUgbW9ybmluZyBsb29rcyBsaWtlIHNoaXQuIDxCUj48QlI+SSBrbm93IHlvdSBoYXZlIGEgaGVhdnkgaGVhcnQ7IEkgY2FuIGZlZWwgaXQgd2hlbiB3ZSBraXNzIDxCUj5TbyBtYW55IG1lbiBtdWNoIHN0cm9uZ2VyIHRoYW4gbWUgaGF2ZSB0aHJvd24gdGhlaXIgYmFja3Mgb3V0IHRyeWluZyB0byBsaWZ0IGl0IDxCUj5CdXQgbWUgSeKAmW0gbm90IGdhbWJsZSB5b3UgY2FuIGNvdW50IG9uIG1lIHRvIHNwbGl0IDxCUj48U1RST05HPlRoZSBsb3ZlIEkgc2VsbCB5b3UgaW4gdGhlIGV2ZW5pbmcsIGJ5IHRoZSBtb3JuaW5nIHdvbuKAmXQgZXhpc3QuPC9TVFJPTkc+IDxCUj48QlI+PFNUUk9ORz5Zb3XigJlyZSBsb29raW5nIHNraW5ueSBsaWtlIGEgbW9kZWwgd2l0aCB5b3VyIGV5ZXMgYWxsIHBhaW50ZWQgYmxhY2sgPEJSPllvdSBqdXN0IGtlZXAgZ29pbmcgdG8gdGhlIGJhdGhyb29tIGFsd2F5cyBzYXkgeW914oCZbGwgYmUgcmlnaHQgYmFjayA8QlI+V2VsbCBpdCB0YWtlcyBvbmUgdG8ga25vdyBvbmUsIGtpZCwgSSB0aGluayB5b3XigJl2ZSBnb3QgaXQgYmFkIDxCUj5CdXQgd2hhdOKAmXMgc28gZWFzeSBpbiB0aGUgZXZlbmluZywgYnkgdGhlIG1vcm5pbmcgaXMgc3VjaCBhIGRyYWcuIDxCUj48L1NUUk9ORz48QlI+SeKAmXZlIGdvdCBhIGZsYXNrIGluc2lkZSBteSBwb2NrZXQgd2UgY2FuIHNoYXJlIGl0IG9uIHRoZSB0cmFpbiA8QlI+PFNUUk9ORz5JZiB5b3UgcHJvbWlzZSB0byBzdGF5IGNvbnNjaW91cyBJIHdpbGwgdHJ5IGFuZCBkbyB0aGUgc2FtZSA8QlI+V2UgbWlnaHQgZGllIGZyb20gbWVkaWNhdGlvbiwgYnV0IHdlIHN1cmUga2lsbGVkIGFsbCB0aGUgcGFpbiA8QlI+QnV0IHdoYXQgd2FzIG5vcm1hbGx5IGluIHRoZSBldmVuaW5nLCBieSB0aGUgbW9ybmluZyBzZWVtcyBpbnNhbmUuIDxCUj48QlI+PC9TVFJPTkc+QW5kIEnigJltIG5vdCBzdXJlIHdoYXQgdGhlIHRyb3VibGUgd2FzIHRoYXQgc3RhcnRlZCBhbGwgb2YgdGhpcyA8QlI+VGhlIHJlYXNvbnMgaGF2ZSBydW4gYXdheSBidXQgdGhlIGZlZWxpbmcgbmV2ZXIgZGlkIDxCUj48U1RST05HPkl04oCZcyBub3Qgc29tZXRoaW5nIEkgd291bGQgcmVjb21tZW5kLCBidXQgaXQgaXMgb25lIHdheSB0byBsaXZlIDxCUj5DYXVzZSB3aGF0IGlzIHNpbXBsZSBpbiB0aGUgbW9vbmxpZ2h0LCBieSB0aGUgbW9ybmluZyBuZXZlciBpcyA8QlI+PC9TVFJPTkc+V2hhdOKAmXMgc28gc2ltcGxlIGluIHRoZSBtb29ubGlnaHQsIGJ5IHRoZSBtb3JuaW5nIGlzIHNvIGNvbXBsaWNhdGVkLiA8QlI+V2hhdOKAmXMgc28gc2ltcGxlIGluIHRoZSBtb29ubGlnaHQsIHNvIHNpbXBsZSBpbiB0aGUgbW9vbmxpZ2h0PC9QPg0KPFA+b2theSwgc28gdGhlcmVzIEFMT1Qgb2YgY29udHJvdmVyc3kgb3ZlciB0aGlzIHNvbmcuPC9QPg0KPFA+aSB0aGluaywgaXRzIGFib3V0IGhlcm9pbmUuIGJ1dCB0aGVuIGFnYWluLCBpIHRoaW5rIGl0cyBhYm91dCBjb2tlLjxCUj5jb2tlIG1ha2VzIHlvdSBza2lubnkuLiBoZW5jZSB0aGF0IG9uZSBsaW5lPEJSPmJ1dCBoZXJvaW5lIGRvZXMgYXN3ZWxsLjxCUj5zb21lIHBlb3BsZSB0aGluayBpdHMgYWJvdXQgYW4gZWF0aW5nIGRpc29yZGVyLi4uIGhlbmNlIHRoZSBsaW5lJm5ic3A7YWJvdXQgZ29pbmcgdG8gYmF0aHJvb20gYW5kIHNheWluZyB5b3VsbCBiZSByaWdodCBiYWNrLjxCUj5pdCBiZWluZyBhYm91dCBkcnVncyBpbiBnZW5lcmFsLi4gbWFrZXMgbW9yZSBzZW5zZSB0byBtZS4gaSBjb3VsZCBnZXQgaW50byBteSB3aG9sZSBsb2dpYyBhYm91dCB0aGlzIHNvbmcuLiBidXQuLi4uIGkgd2FudCB0aGlzIHRvIGJlY29tZSBhIGRlYmF0ZS4gcmVhZCB0aGUgbHlyaWNzLiBsaXN0ZW4gdG8gdGhlIHNvbmcgaWYgeW91IGhhdmUgdG8uIHRoaW5rIGFib3V0IGl0LiB0ZWxsIG1lIHdoYXQgeW91IHRoaW5rLCBhbmQgd2h5IHlvdSB0aGluayB3aGF0IHlvdSB0aGluay4gYW5kIGRlYmF0ZS4gaSBrbm93IG5vIG9uZSB3aWxsIHByb2JhYmx5IGRvIGl0Li4gYnV0IGkgd2FudCB5b3UgdG9vLiBpY2suIHdoYXR2ZXIuPC9QPg=="
+"eventtime","2006-06-16 04:24:00"
+"current_moodid","15"
+"url","http://xwipexmyxtearsx.livejournal.com/147777.html"
+"userid","17459"
+"itemid","575"
+"event","shit is crazy in my house right now."
+"eventtime","2006-06-15 22:15:00"
+"url","http://xwipexmyxtearsx.livejournal.com/147290.html"
+"userid","17459"
+"itemid","573"
+"event","<form action=""http://grahame.angrygoats.net/lj-haiku/index.psp"" method=""post""><table border=""1"" cellspacing=""0"" cellpadding=""2"" align=""center""><tr><td align=""left"" colspan=""2"" bgcolor=""#303088""><font color=""#FFFFFF""><b>LiveJournal Haiku!</b></font></td></tr><tr><td bgcolor=""#303088""><font color=""#FFFFFF"">Your name:</font></td><td align=""right"" bgcolor=""#DDDDAA""><font color=""#303088"">xwipexmyxtearsx</font></td></tr><tr><td bgcolor=""#303088""><font color=""#FFFFFF"">Your haiku:</font></td><td align=""right"" bgcolor=""#DDDDAA""><font color=""#303088"">ego if you could give<br />me a huge fight because mom<br />is leaving me here</font></td></tr><tr><td bgcolor=""#303088""><font color=""#FFFFFF"">Username:</font></td><td bgcolor=""#DDDDAA""><input type=""text"" name=""haiku_username"" value=""xwipexmyxtearsx""></td></tr> <tr><td bgcolor=""#303088"" align=""center"" colspan=""2""><input type=""submit"" value=""What's my Haiku?""></td></tr><tr><td align=""center"" colspan=""2""><font size=""-1""><a href=""http://www.livejournal.com/users/grahame/"">Created by <img src=""http://stat.livejournal.com/img/userinfo.gif"" style='vertical-align:bottom;border:0;'>Grahame</a></font><input value=""xwipexmyxtearsx"" type=""hidden"" name=""haiku_referrer""></td></tr></table></form> 
+
+
+thinking about that one way too much"
+"eventtime","2006-06-15 02:39:00"
+"url","http://xwipexmyxtearsx.livejournal.com/146888.html"
+"userid","17459"
+"itemid","569"
+"event","michael took me out for dinner at macayos.
+some stupid bitch started myspace drama. i hate that. immaturity. ick.
+i found out that cody was talking shit about me behind my back.
+im out of cigarettes and my mom wont buy me another pack till sunday. because i only get a pack a week and shes being bitchy.
+my head hurts.
+and mikey and i were suppose to go out, but i dont know where he is right now.
+
+so overall my day has pretty much sucked.
+dinner with mikey makes up for pretty much all the bad shit that happened today
+
+although i did something bad. and i did it pretty bad too. ick."
+"eventtime","2006-06-14 23:38:00"
+"url","http://xwipexmyxtearsx.livejournal.com/145840.html"
+"userid","17459"
+"itemid","568"
+"event","i really need someone to talk to right now.
+so badly.
+i just, need someone to listen to me. and NOT pretend like they fucking understand. because they dont. they have no fucking clue and everyone wants me to fucking talk to them when something is upsetting me, and all they ever fucking do is baby me, and tell me that they fucking understand. when they dont. fuck that.
+all i want, is someone to talk to. 
+listen to me. let me say what i want to say.
+and not tell me that they think what im doing is fucking wrong. 
+just fucking listen to me.
+please.
+but i have no one to talk too.
+and i have no one to listen to me. 
+and thats all i really need right now.
+my mind is going completely insane.
+and i need something. someone. anything to fucking calm me down. anything to help me think.
+i dont know if im angry, or if im upset. im overwhelmed with these fucking feelings and i just DONT know what to do. 
+im not going to sleep tonight.
+im just going to stay up all night.
+no. ill sleep.
+im waking up at 915 in the morning. i have reasons. and id tell them to someone. if they asked. but there is no one to talk too and there is no one to ask me.
+FUCK.
+why is it, that when i need someone to talk too, no one is ever around?
+fuck. im so fucking.. i dont even know.
+why does this always fucking happen to me.
+i just wait until i cant handle it anymore and all of my thoughts just explode inside my head and im left.. alone.. with all of them. and i just dont want to be alone with them. i dont want to be alone. at all. i want someone. i need someone. and im completely alone. 
+always.
+always alone."
+"eventtime","2006-06-14 03:54:00"
+"url","http://xwipexmyxtearsx.livejournal.com/145649.html"
+"userid","17459"
+"itemid","567"
+"event","this is getting way too much for me to handle.
+first, i have to deal with all this bullshit with my mom trying to send me away again.
+and then, mikey goes home, to his empty apartment, with a girl. they didnt do anything, i know this for a fact. but its the fact of the matter. and it just.. makes me go insane. he's fucking with my head so fucking badly that i dont even know what to do with myself.
+and then, i end up at cody's house and mikey ends up coming over. and everything was going to great. and i love when we all hang out because then mikey and i go and we have our alone time and we just sit, and watch a movie. and everything is okay then.
+but then, mark has to go and talk about my personal shit. about mikey and i. infront of everyone. and its none of his business. and i just blow up. completely. i yelled at him. and i feel terrible. i told him to mind his own fucking business and to stay the fuck out of mine. and that what mikey and i do and dont do, is our business and he should stay the fuck out of it and leave it alone. and let my life, and my mistakes, be my life, and my mistakes. gosh, i got so fucking mad.
+
+
+i hate everything right now."
+"eventtime","2006-06-14 03:40:00"
+"url","http://xwipexmyxtearsx.livejournal.com/145331.html"
+"userid","17459"
+"itemid","566"
+"event","<P><lj-cut text=""this girl, is what my world revolves around completely.""> </P>
+<P>krizzxo (6:59:06 PM): did you read my letter?<BR>Meg x Hannigan (6:59:15 PM): yes<BR>Meg x Hannigan (6:59:19 PM): it made me bawl my eyes out<BR>krizzxo (6:59:26 PM): awe why?<BR>Meg x Hannigan (6:59:35 PM): why do you think?<BR>krizzxo (6:59:49 PM): because i looove you<BR>Meg x Hannigan (7:00:23 PM): yes, thats why i was crying :-P<BR>krizzxo (7:00:32 PM): hah.<BR>Meg x Hannigan (7:00:40 PM): im just kidding<BR>Meg x Hannigan (7:00:44 PM): it was because i love you<BR>krizzxo (7:01:00 PM): that shouldnt make you sad, silly.<BR>Meg x Hannigan (7:01:19 PM): and i hate that youre unhappy and just thinking about you not exsisting anymore makes it hard for me to breathe<BR>krizzxo (7:01:48 PM): lesbian. no just kidding. i know what you mean.<BR>Meg x Hannigan (7:02:42 PM): bitch :-P<BR>krizzxo (7:02:48 PM): whore :-)</P>
+<P>Meg Hannigan, I love you more than anything in this world. You mean the world to me. And I don't know what i would do without you. Im sorry i wasn't there for you Friday night when you needed me, or maybe it was Saturday night, Im not sure. but Im sorry that i wasnt there. I love you and i miss you more than anything. &amp;hearts;</P><lj-cut>"
+"eventtime","2006-06-13 19:03:00"
+"url","http://xwipexmyxtearsx.livejournal.com/144938.html"
+"userid","17459"
+"itemid","565"
+"event","<P><lj-cut text=""for moi. please. i&lt;3you""> </P>
+<P>1. Who are you?<BR>2. Are we friends?<BR>3. When and how did we meet?<BR>4. How have I affected you?<BR>5. What do you think of me?<BR>6. What's the fondest memory you have of me?<BR>7. How long do you think we will be friends?<BR>8. Do you love me?<BR>9. Do you have a crush on me?<BR>10. Would you kiss me?<BR>11. Would you hug me?<BR>12. Physically, what stands out?<BR>13. Emotionally, what stands out?<BR>14. Do you wish I was cooler?<BR>15. On a scale of 1-10, how fucking amazing am I?<BR>16. Give me a nickname and explain why you picked it.<BR>17. Am I lovable?<BR>18. How long have you known me?<BR>19. Describe me in one word.<BR>20. What was your first impression?<BR>21. Do you still think that way about me now?<BR>22. What do you think my weakness is?<BR>23. Do you think I'll get married?<BR>24. What makes me happy?<BR>25. What makes me sad?<BR>26. What reminds you of me?<BR>27. If you could give me anything what would it be and why?<BR>28. How well do you know me?<BR>29. When's the last time you saw me?<BR>30. Ever wanted to tell me something but couldn't?<BR>31. Do you think I could kill someone?<BR>32. Are you going to put this on your journal and see what I say about you?<BR></P>
+<P>&nbsp;</P><lj-cut>"
+"eventtime","2006-06-13 18:48:00"
+"url","http://xwipexmyxtearsx.livejournal.com/144721.html"
+"userid","17459"
+"itemid","564"
+"event","Mom thinks shes gonna send me away again
+but i dont."
+"eventtime","2006-06-13 18:02:00"
+"url","http://xwipexmyxtearsx.livejournal.com/144536.html"
+"userid","17459"
+"itemid","563"
+"event","why does chris have to be so petty and immature towards me? 
+why does everything always have to be about him?
+why cant i say one simple thing without him turning it into a mind game?
+why does he have to act liek he is the center of the world and everything that happens around him directly effects him?
+why why why why WHY does he have to act like he's fucking 2."
+"eventtime","2006-06-13 04:30:00"
+"url","http://xwipexmyxtearsx.livejournal.com/144321.html"
+"userid","17459"

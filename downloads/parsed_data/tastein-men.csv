@@ -1,0 +1,668 @@
+"names","values"
+"itemid","64"
+"event","PHA+PGZvbnQgY29sb3I9IiM1NDU0NTQiIHNpemU9IjIiPldvdyBpJ20gYW5ub3llZC4gTW9zdGx5IGF0IG15IGxlY3R1cmVyLCBidXQgcGFydGlhbGx5IGF0IG15c2VsZi4gQWN0dWFsbHkgc2NyYXAgdGhhdCAtIGknbSBvbiBhICdub3RoaW5nIGlzIEVWRVIgbXkgZmF1bHQnIGRyaXZlIGF0IHRoZSBtb21lbnQgd2hpY2ggbWVhbnMgaSdtIHRha2luZyBubyByZXNwb25zaWJpbGl0eSBmb3IgdGhpcy48YnIgLz48YnIgLz5UcmFjayBiYWNrIGFib3V0IGhhbGYgYW4gaG91ciBhbmQgaSB3YXMgYXR0ZW1wdGluZyB0byBnZXQgdG8gY2xhc3MuIEJpb3BoYXJtYWN5LCB3aGljaCBpcyByZWFsbHkgZGlmZmljdWx0IGFuZCBoYXJkIHRvIGNvbmNlbnRyYXRlIG9uLCBidXQgaSBkaWRudCB3YW50IHRvIGJlIGxhdGUgc2VlaW5nIGFzIHRoZSBsZWN0dXJlciBnZXRzIGEgYml0IHBpc3N5IHdoZW4gcGVvcGxlIGFyZS4gU28gaSBnb3QgdGhlcmUgb24gdGltZSwganVzdCwgZm91bmQgS2VuLCBhbmQgdGhlIG5pY2UgZ2lybCB3aG9zIG5hbWUgaSBoYXZlIGFic29sdXRlbHkgbm8gaWRlYSwgc2F0IGRvd24gYW5kIGdvdCBjb21mb3J0YWJsZS4mbmJzcDs8YnIgLz48YnIgLz5BbmQgd2l0aGluIGZpdmUgbWludXRlcyBvZiBzaXR0aW5nIGRvd24/IGkgZ290IGNodWNrZWQgb3V0IHRoZSBjbGFzcy48YnIgLz48YnIgLz5JdCB3YXMgYSB0b3RhbCAnV2FsayBvZiBTaGFtZScgZWZmb3J0IGFzIGkgaGFkJm5ic3A7IHRvIGdhdGhlciBhbGwgbXkgc3R1ZmYgYmFjayB1cCwgZ2V0IHRoZSBuaWNlIGdpcmwgdG8gc3RhbmQgdXAgc28gaSBjb3VsZCBnZXQgb3V0IG9mIHRoZSByb3cgb2YgY2hhaXJzIGFuZCB0aGVuIHRydWRnZSBkb3duIHRoZSBzdGFpcnMuPGJyIC8+PGJyIC8+SW4gYWxsIGZhaXJuZXNzLCBpIGhhZCBmb3Jnb3R0ZW4gdG8gZG93bmxvYWQgdGhlIGNsYXNzIHNoZWV0cyBhbmQgcHJpbnQgdGhlbSBvZmYuIEFuZCBoYWRudCByZWFsbHkgYm90aGVyZWQgdG8gZG8gdGhlIGhvbWV3b3JrLCBidXQgdGhlIGxlY3R1cmVyIGRpZG50IGtub3cgdGhhdCEhIGJhc3RhcmQuIGFuZCBoZSB3b3VsZG50IGxldCBtZSBqdXN0IGxvb2sgYXQga2VuJ3Mgc2hlZXQgd2hpbGUgaGUgd2VudCBvdmVyIHN0dWZmLiBJdCdzIG5vdCBhcyBiYWQgYmVjYXVzZSBpIHdhc250IHRoZSBvbmx5IHBlcnNvbiBoZSBtYWRlIGxlYXZlLCB0aGVyZSB3ZXJlIGFib3V0IDUgb2YgdXMsIGJ1dCBhbGwgdGhlIG90aGVycyBzdGF5IGluIHRoZSBoYWxscyBzbyBnZXR0aW5nIHRvIGFuZCBmcm9tIGNsYXNzIGlzbnQgYXMgbXVjaCBvZiBhIGNob3JlIGFzIGdldHRpbmcgdGhlIGJ1cyBpbiBhbmQgb3V0IGFnYWluLiBBbHRob3VnaCwga3Vkb3MgdG8gd2hpY2ggZXZlciBvbmUgb2YgdGhlbSBzbGFtbWVkIHRoZSBkb29yIHJlYWxseSBoYXJkIGJlaGluZCB0aGVtIG9uIHRoZSB3YXkgb3V0LjwvZm9udD48Zm9udCBjb2xvcj0iIzU0NTQ1NCIgc2l6ZT0iMiI+PGJyIC8+PGJyIC8+U29vb29vLCBnaXZlbiB0aGF0IHRoYXQgd2FzIG15IG9ubHkgY2xhc3Mgb2YgdGhlIGRheSwgYW5kIHRoYXQgbXkgYWxhcm0gd2VudCBvZmYgYXQgMyB0aGlzIG1vcm5pbmcgYmVjYXVzZSBpdCBzZWVtcyB0byBoYXZlIHRha2VuIHRvIGp1c3QgcGlja2luZyByYW5kb20gcG9pbnRzIHRocm91Z2hvdXQgdGhlIGRheSB0byBnbyBvZmYgYXQsIGknbSBzbyBjbG9zZSB0byBiZWluZyBpbiBhIHJlYWxseSBiYWQgbW9vZC48YnIgLz48YnIgLz5CVVQgaXQgYWxzbyBtZWFucyBpIGhhdmUgdHdvIGhvdXJzIHRvIGtpbGwgaW4gdGhlIGxpYnJhcnksIGFuZCB0aGVuIGknbSBtZWV0aW5nIG15IG11bSB0byBnbyBnZXQgbHVuY2ggc29tZXdoZXJlLiBzd2luZ3MgYW5kIHJvdW5kYWJvdXRzIG9uIGJvdGggYWNjb3VudHMgaSBndWVzcy48YnIgLz48YnIgLz48YnIgLz48YnIgLz5JbiBvdGhlciBuZXdzIGkgc3RpbGwgbG92ZSB0aGlzIHNvbmcgVE9PIG11Y2g6PGJyIC8+PGJyIC8+Jyc8Zm9udCBjb2xvcj0iIzAwMDAwMCI+YnV0IHlvdeKAmXZlIGdvdCBubyByaWdodCB0byBzaXQgdGhlcmUgc2F5aW5nIEkgYWJ1c2UgaXQgPGJyIC8+d2hlbiB5b3Ugb25seSBzbGVlcCB3aXRoIGdpcmxzIHdobyBzYXkgdGhleSBsaWtlIHlvdXIgbXVzaWMgJyc8YnIgLz48YnIgLz4nJ3JvdHRlbiBsaWtlIGEgY3JhY2t3aG9yZSA8YnIgLz5oYW5naW5nIG91dCBvdXQgdGhlIGJhY2tkb29yIDxiciAvPnNob3cgdXMgd2hhdCB5b3XigJlyZSBnb29kIGZvciA8YnIgLz5zdGljayBpdCB0byB0aGUgbm9pc2UgYm9hcmQgPGJyIC8+Y29tZSBvbiBqb2luIHRoZSBibG9vZHNwb3J0IDxiciAvPnNob3cgdXMgc29tZSBzdXBwb3J0LCBzdGlsbCA8YnIgLz53b3JraW5nIGF0IHRoZSBkcnVnc3RvcmUgPGJyIC8+aXMgaXQgYmVjYXVzZSB5b3XigJlyZSBBIEZVQ0tJTkcgPGJyIC8+PGJyIC8+YmFja3N0YWJiZXIhIGhvcGUgZ3JhYmJlciEgPGJyIC8+Z3JlZWR5IGxpdHRsZSBmaXQgaGF2ZXIhIDxiciAvPmdvZCwgSSBmZWVsIGZvciB5b3UsIGZvb2zigKYuLiA8YnIgLz5zaGl0IGxvdmVyISBvZmYgYnJ1c2hlciEgPGJyIC8+amFkZWQgYml0dGVyIGpveSBjcnVzaGVyISA8YnIgLz5mYWlsdXJlIGhhcyBtYWRlIHlvdSBzbyBjcnVlbOKApi4gJyc8YnIgLz48L2ZvbnQ+PC9mb250PjwvcD4="
+"eventtime","2007-02-28 09:20:00"
+"current_moodid","3"
+"url","http://tastein-men.livejournal.com/16506.html"
+"userid","15254"
+"itemid","63"
+"event","<font color=""#545454"" size=""2""><p>Gordon says:</p><dir></dir></font><font size=""2""><p>also</p></font><font color=""#545454"" size=""2""><p>Gordon says:</p><dir></dir></font><font size=""2""><p>with a cd</p></font><font color=""#545454"" size=""2""><p>Gordon says:</p><dir></dir></font><font size=""2""><p>u can touch it , read it, kiss it , lick it</p></font><font color=""#545454"" size=""2""><p>Gordon says:</p><dir></dir></font><font size=""2""><p>more authentic</p></font><font color=""#545454"" size=""2""><p>Gordon says:</p></font><font size=""2""><p>sort it out</p></font>"
+"eventtime","2007-02-01 21:24:00"
+"url","http://tastein-men.livejournal.com/16304.html"
+"userid","15254"
+"itemid","62"
+"event","The results from the January degree exams are being put up on SPIDER subject at a time, which i'm really not a fan of. I'd rather they just hit me with all the results at once and it would be over with. However,<br /><br /><font size=""4"">Guess who passed her Chemistry exam??<br /><br /><font size=""2"">hell yeah, 48%, thankyouandgoodnight =D<br /><br />probably not the chemistry results of someone you'd want making your medicine, but it's a pass =D<br /><br /><br />x<br /><br /><br />i may emmigrate before the maths results come back. just so i dont have to know.</font></font>"
+"eventtime","2007-01-31 13:38:00"
+"current_moodid","15"
+"url","http://tastein-men.livejournal.com/16048.html"
+"userid","15254"
+"itemid","61"
+"event","PHA+TXkgbmV4dCBjbGFzcyBpcyBpbiBhbiBob3VyLCBhbmQgaGF2aW5nIGJlZW4gc3R1Y2sgaW4gdGhlIGxpYnJhcnkgZm9yIHRoZSBwYXN0IGhvdXIgYW5kIGhhbGYgaW0gc28sIHNvIHZlcnkgYm9yZWQuIEFuZCBvYnZpb3VzbHkgbm90IG1lc3NpbmcgYXJvdW5kIG9uIHRoZSBpbnRlcm5ldC4gbm8sIHNpci48YnIgLz48YnIgLz5JJ20gbm93IGRlYmF0aW5nIHdoZXRoZXIgJ3VzZSBhbmQgYWJ1c2Ugb2YgZHJ1Z3MgaW4gc29jaWV0eScgaXMgYSB3b3J0aHdoaWxlIGVub3VnaCBjbGFzcyB0byBqdXN0aWZ5IHNvIG11Y2ggdGVkaXVtLCBidXQgaSByZWFsbHkgZG9udCB0aGluayBpdCBpcy48YnIgLz48YnIgLz5DbGFzc2ljR2VuZXRpY3MmbmJzcDtsZWN0dXJlciBlYXJsaWVyOjxiciAvPjxiciAvPicnYXMgaXMgdGhlIGNhc2UgaWYgeW91ciBwYXJlbnRzIGFyZSByZWxhdGVkLiBMaWtlIHdpdGggbXkga2lkcyBmb3IgaW5zdGFuY2UnJzxiciAvPnN0aWxsIHVuZGVjaWRlZCBhcyB0byB3aGV0aGVyIGhlIHdhcyBqb2tpbmcgb3Igbm90LiZuYnNwOzxiciAvPjxiciAvPjxiciAvPlNhdHVyZGF5IG5pZ2h0IHdhczo8YnIgLz48YnIgLz4rc3BlbmRpbmcgYW4gaW5vcmRpbmF0ZSBhbW91bnQgb2YgdGltZSBhdHRlbXB0aW5nIHRvIGdldCBqb2UgYW5kIG5laWwgYmFjayBmb3IgcHV0aW5nIGljZSBjdWJlcyBkb3duIG15IHNoaXJ0LjxiciAvPjxiciAvPitwdXRpbmcgeW91ciBoYW5kcyB1cCBmb3IgRGV0cm9pdC4gYmVjYXVzZSB5b3UgbG92ZSB0aGF0IGNpdHkuPC9wPjxwPitzaG91dGluZyAnS3Vkb3MgdG8geW91LCBzaXIhJyBhdCBldmV5IGd1eSBpbiBhIGtpbHQuIHdoaWNoIGF0IDQgaW4gdGhlIG1vcm5pbmcgd2FzIGEgc3VycHJpc2luZ2x5IGNvbW1vbiBvY2N1cmFuY2UuPGJyIC8+PGJyIC8+YW5uZCBnZW5lcmFsIGV4Y2VsbGVuY2UuIGFsdGhvdWdoIMKjMzcgZm9yIGEgdGF4aSBiZWNhdXNlIG9mIGJvdW5kYXJ5IGNoYXJnZXMgd2FzIGdhYWFhYWFheS48YnIgLz48L3A+"
+"eventtime","2007-01-29 12:00:00"
+"current_moodid","5"
+"url","http://tastein-men.livejournal.com/15705.html"
+"userid","15254"
+"itemid","60"
+"event","damn you Jane. this tagging business is NOT COOL. haha but i&nbsp;graciously accept.
+
+right 10 weird things about me.
+
+1. im obsessive compulsive about my curtains and the door in my room. Im not entirely sure why, but the curtains MUST BE KEPT CLOSED. move the curtains to look outside, without fixing them when your done and i will STRIKE YOU DOWN. im in love with my curtains in a way thats probably not acceptable in any society. Also, if im in the room, the door has to be shut. again, no idea why, but i get really annoyed when someone comes in and doesnt close the door when they leave.
+
+2. when im nervous or stressed i bite my fingers around the nail. depending on how nervous or stressed, i will happily bite them until they bleed and keep going. even that stuff you get to put on your fingers to stop it doesnt me. im going to go with the old 'blame uni' technique. it used to be 'blame school' but i cant use that anymore!
+
+Actually. im going to stop at two because all the examples of weirdness are a bit ocd-ish and i honestly hadnt realised. sorry jane!"
+"eventtime","2007-01-27 16:12:00"
+"url","http://tastein-men.livejournal.com/15435.html"
+"userid","15254"
+"itemid","59"
+"event","<p>so uni started back again yesterday. note the hint of obvious joy concealed in that statement. back to early mornings and cold&nbsp;hands and falling asleep in class. today wasnt so bad, technically i only have an elective at 12, but this angina report isnt going to write itself, although from the amount of time i've spent messing about on livejournal and myspace, neither am i by the looks of it. so i came in for nine as normal with the intention of writing the essay and doing a bit of research, but ended up going to economics with jane and pammy instead. it was actually a good laugh given that i dont actually do economics so we sat and doodled instead and confused gordon because he could work out why i was there. then we went to the union for an out where i did even less work on my report and now im just killing time till immunology.<br /><br />so far so good with going to all my classes. i even hung around for two hours yesterday for&nbsp; Use and Abuse of Drugs in Society even though it brought on the most awkward, partially because i wasnt in the mood to talk to people i dont know, conversation between me and some other girl who was waiting for the class to start, which went like:<br /><br />her - ''are you here for&nbsp;the class'<br />me - ''emm what class?''<br />her - ''the elcetive''<br />me - ''......what elective?''<br /><br />and it went ON and&nbsp;ON until someone moved in between us and i couldnt hear her anymore.<br /><br />ALSO, these computers are&nbsp; trying my patience and i really cannot be bothered with it. not only did they mess up my essay plan by converting into some code thing, but now the email system is down so i cant go back through&nbsp; to my sent items to try and get the file.<br /><br /><br />so it's really, really good to be back&nbsp; :-/<br /><br />and another thing. last semester in bioscience we were told to by an edited version of the textbook which only has about 12 chapters, whereas people in other course who are in the bioscience class were told to get the full version, so now that we've started another topic the pharmacy students have to buy either the full textbook and have some chapters twice, or buy a more expensive separate textbook. notevenamused.<br /><br />23rd march - frankie boyle at the carling academy. cannot wait.</p>"
+"eventtime","2007-01-23 11:23:00"
+"url","http://tastein-men.livejournal.com/15125.html"
+"userid","15254"
+"itemid","58"
+"event","Does anyone have a biggish plain black hoodie that i could borrow for saturday?? I'm doing a ghost walk and i have to dress up and be weird and that was going to be part of what i wore but i dont have one.
+
+
+Help?
+X"
+"eventtime","2006-09-08 08:41:00"
+"url","http://tastein-men.livejournal.com/14938.html"
+"userid","15254"
+"itemid","57"
+"event","R.I.P Steve Irwin"
+"eventtime","2006-09-04 08:48:00"
+"url","http://tastein-men.livejournal.com/14632.html"
+"userid","15254"
+"itemid","56"
+"event","Right, I need some of your opinions.
+
+Apologies in advance if this spams up your friends pagem but i really don't know how to put this in one of those links things.
+
+Im designing the logo for Renfrewshire Rocks which is a Music Festival-type thing coming up in November and I need to know what you think of this. I know it's amateurish but I will try to change that, I just have a very basic photoshop on my computer.
+
+[IMG]http://i74.photobucket.com/albums/i280/tastein_men/RENFREWSHIREROCKS.jpg[/IMG]
+
+if the pic doesnt come up, i think you cant delete the [IMG]'s and paste it into the address bit and it comes up as a page on its own."
+"eventtime","2006-08-20 19:22:00"
+"url","http://tastein-men.livejournal.com/14344.html"
+"userid","15254"
+"itemid","55"
+"event","<font size=""3"">Biology&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-<font color=""#3366ff"">&nbsp;&nbsp;&nbsp;<font size=""3"">B</font><br /></font><font size=""3"">Chemistry </font>&nbsp;-&nbsp;&nbsp;&nbsp;<font color=""#3366ff"" size=""3"">B</font><br /><font size=""3"">Art</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; -&nbsp;&nbsp; <font color=""#ff0000"" size=""3"">C</font>"
+"eventtime","2006-08-08 11:56:00"
+"current_moodid","15"
+"url","http://tastein-men.livejournal.com/14178.html"
+"userid","15254"
+"itemid","54"
+"event","ok, its been ages since my last update so ill fill you in on the horrifically interesting things ive been doing since then.
+
+sat my adv, higher biology exam
+was my cousins bridesmaid
+sat my chemistry exam
+finished (started and finished. just about :P) my art folio
+left school.&nbsp;
+went to the leavers dance
+went to many pointless job interviews
+remained unemployed whilst jimmy TOTALLY STOLE my job in Monsoon.
+started back at the youth council
+got involved in the organising of the process of the Erskine Music Festival
+started painting again
+went on holiday to Canada for 3 weeks
+learned how to knit
+learned how to mow the lawn without completely destroying all the grass
+
+
+and yesterday was the Music Festival.&nbsp;
+The weather was really good considering that it was rainging the day before and was really cloudy in the morning. It was a really busy day because of all the setting up we had to do. Kate and I did the facepainting which is more fun that you'd think. The only thing that bugged me was all the people who said they'd be there, and then didnt show up? apart from that it was really good and i think we had a bigger turn out than last year. and Ali, in what way was it shit? just because you screwed up 20 minutes of it doesnt make it shit. and posting that it was on myspace obviously doesnt undermine all the work that went into it in anyway?"
+"eventtime","2006-08-07 12:19:00"
+"url","http://tastein-men.livejournal.com/13854.html"
+"userid","15254"
+"itemid","53"
+"event","in the video section of msn.com theres a video about harry and the potters. so there you go. ill do a proper update tomorrow- this one was a bit pointless"
+"eventtime","2006-05-29 12:28:00"
+"url","http://tastein-men.livejournal.com/13622.html"
+"userid","15254"
+"itemid","52"
+"event","Hard Rock Hallelujah!<br />Hard Rock Hallelujah!<br /><br />The saints are crippled<br />On this sinners' night<br />Lost are the lambs with no guiding light<br /><br />The walls come down like thunder<br />The rocks about to roll<br />It's The Arockalypse<br />Now bare your soul<br /><br />All we need is lightning<br />With power and might<br />Striking down the prophets of false<br />As the moon is rising<br />Give us the sign<br />Now let us rise up in awe<br /><br />Rock 'n roll angels bring that Hard Rock Hallelujah<br />Demons and angels all in one have arrived<br />Rock 'n roll angels bring that Hard Rock Hallelujah<br />In God's creation supernatural high<br /><br />The true believers<br />Thou shall be saved<br />Brothers and sisters keep strong in the faith<br />On the day of Rockoning<br />It's who dares, wins<br />You will see the jokers soon'll be the new kings<br /><br />All we need is lightning<br />With power and might<br />Striking down the prophets of false<br />As the moon is rising<br />Give us the sign<br />Now let us rise up in awe<br /><br />Rock 'n roll angels bring that Hard Rock Hallelujah<br />Demons and angels all in one have arrived<br />Rock 'n roll angels bring that Hard Rock Hallelujah<br />In God's creation supernatural high<br /><br />Wings on my back<br />I got horns on my head<br />My fangs are sharp<br />And my eyes are red<br />Not quite an angel<br />The one that fell<br />Now choose to join us or go straight to Hell<br /><br />Hard Rock Hallelujah!<br />Hard Rock Hallelujah!<br />Hard Rock Hallelujah!<br />Hard Rock Hallelujah!<br /><br />Rock 'n roll angels bring that Hard Rock Hallelujah<br />Demons and angels all in one have arrived<br />Rock 'n roll angels bring that Hard Rock Hallelujah<br />In God's creation supernatural high<br /><br />Hard Rock Hallelujah!<br /><br /><br />Given that I flatly rfuse to watch all of the Eurovision Song Contest, I taped it and just wathced the UK, Lithuania and Finland. Daz Sampson was actually embarrasing, Im surprised that he got any votes to be honest. The whole, 'white man rap'&nbsp;that he seemed to be doing was down right cringeworthy. Lithuania sang ' we are the winners' the lyrics to which go something like ' We are the winners of Eurovision' that might have been a little short sighted seeing as they didnt actually win it. But did they not come 5th or something like that. How? hmmm. But Finland...actually LOVED Lordi!!! The song was pretty good, but the costumes were amazing. I liked the 5'' platform shoes the singer was wearing and the wings that came out half way through the song.<br /><br />And then I got addicted to watching the votes being given. Thats like the most boring bit, but i couldn't help it. Then i was keeping my mum up to date with the scores every five minutes by shouting 'Finland are about 50 points ahead of Russia now.'' about every five minutes.<br /><br /><br />Last ever episode of Green Wing.......wow. didn't see that coming at all! good twist at the end even if it was a bit sad :(.<br /><br /><br /><br />&lt;object width=""425"" height=""350""&gt;&lt;param name=""movie"" value=""<a href=""http://www.youtube.com/v/POO33XjtAws&quot;&gt;&lt;/param&gt;&lt;embed"">http://www.youtube.com/v/POO33XjtAws""&gt;&lt;/param&gt;&lt;embed</a> src=""<a href=""http://www.youtube.com/v/POO33XjtAws"">http://www.youtube.com/v/POO33XjtAws</a>"" type=""application/x-shockwave-flash"" width=""425"" height=""350""&gt;&lt;/embed&gt;&lt;/object&gt;<br /><br /><br />"
+"eventtime","2006-05-22 11:16:00"
+"current_moodid","15"
+"url","http://tastein-men.livejournal.com/13482.html"
+"userid","15254"
+"itemid","51"
+"event","I'm teething. <br /><br /><br /><br /><br /><br /><font color=""#0000ff"" size=""7""><strong>:[<br /><br /><br /></strong><font size=""1""><font color=""#000000"">but&nbsp;the good news is that the whole 'studying thing' is working out quite well so far.</font><br /></font><br /><br /><font color=""#ff0000""><strong><font color=""#339966"">:</font><font color=""#339966"">]</font><br /><br /><br /></strong><font color=""#000000"" size=""1"">I can't believe that I miss school already. I mean, I know I have to go back for exams and for art, and I did hate it while I was there, but now I'm not.....it's weird!<br /></font><br /><br /><strong>&lt;3<br /></strong></font></font>"
+"eventtime","2006-05-17 17:49:00"
+"url","http://tastein-men.livejournal.com/13081.html"
+"userid","15254"
+"itemid","50"
+"event","Dr Who night! was good as usual! There was a lot of David Tennant with glasses (O.o) so good! and K9 was in it..
+
+''you are a bad dog''
+
+...
+
+''affirmative''. 
+
+I think i need to get over the Dr Who revival thing, but i just love it too much! And Sarah Jane Smith was back in it! i remember her from reruns of the original. she hasnt aged that much. Cried a wee bit when K9 got blown up, but then the Dr fixed him!..
+
+''he replaced you with a new model, he does that.''
+
+made my night!
+X"
+"eventtime","2006-04-29 20:08:00"
+"url","http://tastein-men.livejournal.com/13015.html"
+"userid","15254"
+"itemid","49"
+"event","its half 8, and im still at home in my pjs, without having my breakfast, still working on my chemistry report. the bus takes about 20 minutes and i'll be damned if im leaving here without finishing this. 
+
+oops bad time management.
+
+in my defense, i was uptil one last night doing it, so its not like i havent bothered, its just that it wasnt very good.
+
+see you later, 5 times later.
+X"
+"eventtime","2006-04-25 08:27:00"
+"url","http://tastein-men.livejournal.com/12695.html"
+"userid","15254"
+"itemid","48"
+"event","''I've yet to meet a woman who didn't look better with my bollocks resting on her chin.''
+Guy Secretan - Green Wing
+
+
+Today was interesting. 
+
+
+
+
+oops, i lied, no it wasn't.
+
+
+Left school 6th period so i could go to a dress fitting for my bridesmaids dress. hmmm. 
+
+we had to go all the way to helensburgh, only for the whole thing to take about 5 minutes maximum. When we went in my cousin was already in her dress. she's such a pretty bride. then me and katriona, the other bridesmaid, had to try on our dresses. it turned out that the last fitting we went for was just for a rough estimate, and that the dresses werent made to measure, they were just regular sizes. but that was ok, coz mine was a size 12 and actually fitted perfectly, no alterations needed. so it was kind of a waste of time, but at least i got to see that the dress colours have been changed a wee bit so its a bit darker and not as gay.
+
+also, the woman in the shop told me off for not puting on the dress properly, but i'll be damned if i was stripping off while a group of 5 shop assistants were watching. i usually expect cash up front for that kind of thing.
+
+and im the only one out of the group who isnt getting chicken fillets sewn into my dress. i get the feeling that theres gonna be a slight imbalance chest wise, but what the hell, its not like i have to wear the dress all day in front of hundreds of people....oh, shit.
+
+
+Mr Higgins gave me my report back today and expects all the corrections to be done by first thing tomorrow. yeah, sure i have 8 graphs to do and an error calculation which i have no idea how to do. funfun.
+X
+
+
+
+
+
+
+coin operated boy 
+sitting on the shelf he is just a toy
+but i turn him on and he comes to life 
+automatic joy 
+that is why i want a coin operated boy
+
+made of plastic and elastic 
+he is rugged and long-lasting
+who could ever ever ask for more
+love without complications galore
+many shapes and weights to choose from
+i will never leave my bedroom
+i will never cry at night again
+wrap my arms around him and pretend....
+
+coin operated boy
+all the other real ones that i destroy 
+cannot hold a candle to my new boy and i'll
+never let him go and i'll never be alone
+not with my coin operated boy......
+
+this bridge was written to make you feel smittener
+with my sad picture of girl getting bitterer
+can you extract me from my plastic fantasy
+i didnt think so but im still convinceable
+will you persist even after i bet you
+a billion dollars that i'll never love you
+will you persist even after i kiss you
+goodbye for the last time
+will you keep on trying to prove it?
+i'm dying to lose it...
+i want it 
+i want you
+i want a coin operated boy.
+
+and if i had a star to wish on
+for my life i cant imagine
+any flesh and blood could be his match
+i can even take him in the bath
+
+coin operated boy
+he may not be real experienced with girls
+but i know he feels like a boy should feel
+isnt that the point that is why i want a 
+coin operated boy
+with his pretty coin operated voice
+saying that he loves me that hes thinking of me
+straight and to the point
+that is why i want
+a coin operated boy."
+"eventtime","2006-04-24 21:54:00"
+"current_moodid","91"
+"url","http://tastein-men.livejournal.com/12491.html"
+"userid","15254"
+"itemid","47"
+"event","<a href=""http://www.epica-awards.org/assets/epica/2005/finalists/film/flv/04005.swf"">http://www.epica-awards.org/assets/epica/2005/finalists/film/flv/04005.swf</a>"
+"eventtime","2006-04-23 21:52:00"
+"url","http://tastein-men.livejournal.com/12099.html"
+"userid","15254"
+"itemid","46"
+"event","''We're monkey monkey men, and we'll eat all your friends''
+
+''We're monkeys, We're monkeys, We're monkeys!''
+more on that story later.
+
+
+
+
+Right, havent updated properly in a while, so here goes.
+
+wednesday - back to school. Which as really good because I hadn't seen anyone in ages because of the holidays and studying, or lack thereof as the case may be. Bad parts of being back to school? reports to be done, fun not to be had. I even thought that after two weeks away, the theatre would seem amazing in comparison to all the time spent staring at the ceiling over Easter. oops, i was wrong.
+
+friday - Panic! At the Disco. we arrived half way through Forgive Durdens set. they were a bit poor, but i felt a bit bad for them because when you looked across the crowd people were just playing with theyre mobiles and not really paying any attention to the band. Plus their guitarist looked like he was having a fit/attempting to rape his guitar. Brandon Urie came on stage and drummed with them at the end but hardly anyone noticed.
+
+After Forgive Durden, Men Women And Children were on. They were weird. Better than Forgive Durden, but they had a clown onstage who made balloon flowers and a bubble machine. The lead singer kept holding the microphone (or microwave) out into the audience, but there were about 5 people who were singing back. dying on their arses? of course. And then there was the song about the monkeys. I gave up on the chanting after about 5 seconds. Mostly because he started off with ' Im gonna do something we don't normally do, and your the only people we've taught this. sure. like you didnt say that to the people you played to last night or the night before. whore. so anyway, they did the monley song and threw bananas into the crowd.
+Again Brandon Urie came out and sang with them and so did ryan. so youd have thought, given that they couldnt let the support acts have any stage time without them interuppting, that they'd be on pretty quickly. oh no.
+
+There was a biiiiig long wait until they came out and we were squished! but passed the time by pretending to lick the people in front of us. it was better than it sounds, honest! but there were people lifted out of the crowd before P!ATD were even on stage because of the shoving and stuff. Then they actually made an appearance and we got squished even more and I kinda freaked out and had to move. was shaking so much, i think i must be claustrophobic. But apart from that it was a really good gig, we had fun. Apart from the hardcore dancing and mosh pit (??? at P!ATD). it was a goodish gig but not really my SCENE.
+
+Coming out of the Carling Academy was funny because me and Jimmy saw this guy in a Dragonforce teeshirt and were like ' Dragonforce? wrong gig, mate!' and then he turned round and it was Ian. oops! Susan Hair looked like she was having a whale of a time in the balconey with Kayleigh. I swear to god, she couldn't have looked more bored if she tried and if shes says differently on Monday, she lies!
+
+After the bus home there was a Baywatch style sprint (kirstys words, not mine!) up the road to get in in time to see Jonathon Ross. Dita Von Teese was on. me loves.
+
+emm saturday - pretty boring day - studied most of the day then watched Dr Who - ohmygoddavidtennantwithascottishaccent! then when it was finished my mum was all like ' theres someone here to see you ''.  and i was expecting it to be my aunt because she said she was coming over to see what shoes id got for being a bridesmaid at my cousins wedding (pink dress??me?????)and (right in the middle of my exams, thanks). 
+
+but it was Kirsty and Jimmy and Kirsty and Lindsay. they had arranged with my mum to come over and give me my present (a tv! im going to end up  with (more)square eyes) it was a lovely surprise because i really had no idea they were coming! Jane came up as well, and it was really great to have everyone around coz we havent really hung out it ages. 
+
+today - officially 18! woo. it feels so different from being 17, oh wait....no it doesn't.my aunt actually did come round today and that's it really. apparently i have to go for a dress fitting tomorrow, so no 6th period banter for me :( .m waiting till after the exams to go get wrecked, apparently at the cathouse with Jo and Kirsty. apparently :P
+
+The Youth Council were doing a carwash today, how did it go if anyone went. Im still traumatised from the last one and never really got the feeling back in my toes.
+
+And Jeffrey did text me, just in case Kirsty Reid reads this. so yeah, youre meanness may have had an effect!
+
+haha, my aunt say today, '' So are you looking forward to your first drink?'' hmm yeah, something like that."
+"eventtime","2006-04-23 16:43:00"
+"current_moodid","15"
+"url","http://tastein-men.livejournal.com/11912.html"
+"userid","15254"
+"itemid","45"
+"event","<a href=""http://photobucket.com"" target=""_blank""><img src=""http://i74.photobucket.com/albums/i280/tastein_men/BRIANMOLKOANDBABAY.jpg"" border=""0"" alt=""Image hosting by Photobucket""></a>"
+"eventtime","2006-04-20 22:17:00"
+"url","http://tastein-men.livejournal.com/11730.html"
+"userid","15254"
+"itemid","44"
+"event","so y<strong>o</strong>u dont want to hear about my good song? <br />and you dont want to hear about how i am getting on <br />with all the things that i can get do<strong>n</strong>e <br />the sun is in the sky &amp; i am by my lonesome <br />so you don't want to hear about my good day? <br />you have better things to do than to hear me say <br /><br />god its been a love<strong>l</strong>y day! everything is going my way <br />i took out the trash today and i'm on fire... <br /><br />so you don't want to hear about my good friends? <br />you dont have the guts to take the truth or consequence <br />success is in the eye of the beholder <br />and its looking even better over <strong>y</strong>our cold shoulder <br /><br />i'm not suggesting you up and line me up f<strong>o</strong>r questioning <br />but jesus think about the bridges you are burning <br />and i'm betting <br />that eve<strong>n</strong> though you knew it from the start <br />you'd rather be a bitch than be an ordinary broken h<strong>e</strong>art <br /><br />so go ahead and talk about your bad <strong>day</strong>... <br />i want all the details of the pain and misery <br />that you are inflicting on the others <br />i consider them my sisters and i'd like their numbers <br /><br />god its been a lovely day! everything is going my way <br />i took up croque<strong>t</strong> today and i'm on fire <br /><br />i picked up the pieces of my br<strong>o</strong>ken ego <br />i have finally made my peace as far as you and me go <br />but i'd love to have you up to see the place <br />&amp; i'd like to do more than survive i'd like to rub it in your face..... <br /><br />hey! its been a lovely day! everything is going my way <br />i had so much fun today and i'm on fire <br /><strong>g</strong>od it's been a lovely day everything's been going my way <br />ever since you went away hey i'm on fire..... <br />i'm on fire... <br />i'm <strong>o</strong>n fire<strong>... <br /></strong>so you dont want to hear about my good day? <br />"
+"eventtime","2006-04-20 21:42:00"
+"current_moodid","125"
+"url","http://tastein-men.livejournal.com/11404.html"
+"userid","15254"
+"itemid","43"
+"event","<strong><font size=""7""><font color=""#ffff00""><font color=""#cc99ff"">H</font>A</font><font color=""#3366ff"">P</font><font color=""#339966"">P</font><font color=""#ff6600"">Y</font> <font color=""#993300"">B</font><font color=""#808080"">I</font><font color=""#ff00ff"">R</font><font color=""#00ffff"">T</font><font color=""#ff0000"">H</font><font color=""#ffcc99"">D</font><font color=""#33cccc"">A</font><font color=""#800080"">Y</font><font color=""#808000"">, </font><font color=""#ffcc99"">K</font><font color=""#000080"">I</font><font color=""#33cccc"">R</font><font color=""#ff6600"">S</font><font color=""#cc99ff"">T</font><font color=""#00ff00"">Y</font><font color=""#ffcc00"">!</font><font color=""#ff9900"">!</font><font color=""#ffcc00"">!</font><font color=""#ff9900"">!</font><font color=""#ffcc00"">!</font><font color=""#ff9900"">!</font><font color=""#ffcc00"">!</font><font color=""#ff9900"">!</font><font color=""#ffcc00"">!</font><font color=""#ff9900"">!</font><font color=""#ffcc00"">!</font><font color=""#ff9900"">!</font><font color=""#ffcc00"">!</font><font color=""#ff9900"">!<br /><br /><br /></font><font color=""#ff0000"">X</font></font></strong>"
+"eventtime","2006-04-17 10:04:00"
+"current_moodid","31"
+"url","http://tastein-men.livejournal.com/11150.html"
+"userid","15254"
+"itemid","42"
+"event","why yes i am still online. doing my chemistry report. which i have been working on since 6 this afternoon. hardcore."
+"eventtime","2006-04-17 01:06:00"
+"url","http://tastein-men.livejournal.com/10953.html"
+"userid","15254"
+"itemid","41"
+"event","two options: 
+
+study all day and be bored
+
+OR
+
+give in to Shaun and Cally's powers of persuasion.
+
+
+i really wish i could go *cries*
+
+X"
+"eventtime","2006-04-16 18:46:00"
+"url","http://tastein-men.livejournal.com/10638.html"
+"userid","15254"
+"itemid","40"
+"event","<img alt="""" src=""http://i74.photobucket.com/albums/i280/tastein_men/eae16301.jpg"" />"
+"eventtime","2006-04-15 14:04:00"
+"current_moodid","90"
+"url","http://tastein-men.livejournal.com/10410.html"
+"userid","15254"
+"itemid","39"
+"event","Just got back from my Grans and had an interesting time getting back into my house. My mum decided that since i have my own key she wasn't going to open the door, and obviously, me being me, id left it in my room. So i had climb ontop of the wheelie bin and through the study window. i feel like a burglar!"
+"eventtime","2006-04-15 12:35:00"
+"url","http://tastein-men.livejournal.com/9999.html"
+"userid","15254"
+"itemid","38"
+"event","Just read one of P!ATD's new myspace bulletins saying that THE DRESDEN DOLLS(!!!!!!!!!!!!!) are supporting them on they're American Tour. And who's supporting the British one? 
+
+Forgive Durden
+and
+Men, Women and Children
+
+(WHO?)
+
+
+I want a refund.
+
+or a ticket for the Dresden Dolls."
+"eventtime","2006-04-14 16:04:00"
+"url","http://tastein-men.livejournal.com/9944.html"
+"userid","15254"
+"itemid","37"
+"event","you know faceparty.com? im so bored i actually using my account again.
+
+well anyway got this message:
+
+''
+
+---- Original Message ----
+
+Your pert B cups excite me ''
+
+so i sent back a message that said something like 
+
+''umm ok''
+
+and he sent back this:
+
+
+''IM ready for you to see me wank over them''
+
+
+
+
+
+
+right."
+"eventtime","2006-04-12 19:17:00"
+"url","http://tastein-men.livejournal.com/9574.html"
+"userid","15254"
+"itemid","36"
+"event","i sat from 9 in the morning until half 5 doing my biology report. pretty much got it finished. still got chemistry and ive got till tonight to do it. not even started. and mr higgins is gunna kill me coz i lost my log book with all my results.
+
+shit."
+"eventtime","2006-04-12 18:54:00"
+"url","http://tastein-men.livejournal.com/9427.html"
+"userid","15254"
+"itemid","35"
+"event","b2hteWdvZCBQTEFDRUJPLg0KDQppIGFjdHVhbGx5IHRoaW5rIGkgZGllZCBhIGJpdCBmcm9tIGhhcHBpbmVzcyBhdCB0aGUgZW5kLg0KDQpCcmlhbiBNb2xrbyBpcyBhY3R1YWxseSBzZXguIGFjdHVhbGx5LiB5b3Uga25vdyB3aGVuIHlvdSBzZWUgc29tZW9uZSBpbiBhIG1hZ2F6aW5lIGFuZCBqdXN0IGFzc3VtZSB0aGV5dmUgYmVlbiBhaXItYnJ1c2hlZD8gd29vb293IGhlIHdhcyBldmVuIGhvdHRlci4NCg0KVGhlIFdoaXRlIFJvc2UgTW92ZW1lbnQgKGkgdGhpbmspIHdlcmUgc3VwcG9ydGluZy4gdGhleSB3ZXJlIG9rIGZvciBhbiBlbW8gYmFuZC4gdGhlIGxlYWQgc2luZ2VyIGxvb2tlZCBsaWtlIGEgJ3JvYm90aWMgaGl0bGVyJyBhbmQgb25lIG9mIHRoZSBndWl0YXJpc3RzIGhhZCBhIHBlcm94aWRlIGNvbWJvdmVyIHRoYXQgY291bGQgcHJvYmFibHkgaGF2ZSBiZWVuIHNlZW4gZnJvbSBzcGFjZS4NCg0KVEhFTg0KDQpwbGFjZWJvIHdlcmUgb24gYW5kIHRoZXkgcGxheWVkIGluIG5vIHBhcnRpY3VsYXIgb3JkZXINCg0KTUVEUw0KSU5GUkEtUkVEDQpEUkFHDQpCRUNBVVNFIEkgV0FOVCBZT1UNCkVWRVJZIE1FIEFORCBFVkVSWSBZT1UNClJVTk5JTkcgVVAgVEhBVCBISUxMDQpUSEUgQklUVEVSIEVORA0KU1BBQ0UgTU9OS0VZDQpGT0xMT1cgVEhFIENPUFMgQkFDSyBIT01FDQpTT05HIFRPIFNBWSBHT09EQllFDQozNiBERUdSRUVTDQpOQU5DWSBCT1kNClBPU1QgQkxVRQ0KU1BFQ0lBTCBORUVEUw0KMjAgWUVBUlMNCk9ORSBPRiBBIEtJTkQNCg0KYW5kIEJyaWFuIGNocmlzdGVuZWQgaGlzIG5ldyBndWl0YXIgYnkgcGxheWluZzoNClNQRUNJQUwgSyEhISEoU1FVRUVFKQ0KDQp0aGVyZSB3YXMgYSBsb3Qgb2YgSmFtZXMgQmx1bnQgYmFzaGluZyANCg0KJydpZiB5b3Ugd2FudCBhIHBlcmZlY3Qgc2hvdyBnbyBzZWUgSmFtZXMgLWZ1Y2tpbmctQmx1bnQnJw0KDQonJ2kgYmV0IEphbWVzIEJsdW50J3MgbmV2ZXIgZXZlbiBzZWUgb25lIG9mIHRoZXNlIC0gY29tZSBvbiBtYW4sIGl0J3MgY2FsbGVkIGRpc3RvcnRpb24nJw0KDQp0aGF0IHdhcyB3aGVuIHRoZSBkaXN0b3J0aW9uIHBlZGFsIHdhc250IHdvcmtpbmcuDQoNCicnVGhpcyBpcyB0aGUgc2VjdGlvbiBvZiB0aGUgc2hvdyBJIGxpa2UgdG8gY2FsbCAnVEVDSE5JQ0FMIERJRkZJQ1VMVElFUycnDQoNCg0KYW5kIHRoZW4gaGUgcHVuY2hlZCBoaW1zbGVmIGluIHRoZSBmYWNlIHB1dHRpbmcgb24gaGlzIGd1aXRhci4gYnV0IFNUSUxMIEhPVC4NCg0KQnJpYW4gLSAnJ0lmIHRoYXQgcGVyZm9ybWFuY2Ugc2VlbWVkIGEgYml0IHBvb3IsIGl0J3MgYmVjYXVzZSBJIGdvdCBoaXQgaW4gdGhlIGZhY2Ugd2l0aCBteSBndWl0YXIgd2hlbiB0aGV5IHN3YXBwZWQgdGhlbSBvdmVyLCBzbyBteSBmYWNlIGh1cnRzLCBhbmQgaW4gZmFjdCBteSBsaXBzIGFyZSBhIGJpdCBzd29sbGVuLicnDQoNClN0ZWYgIC0gJydDb21lIG9uLCB5b3UncmUgU2NvdHRpc2gsIHlvdSdyZSBoYXJkLicnDQoNCkJyaWFuIC0gICpsb29rcyBoaW0gdXAgYW5kIGRvd24qICcnV2VsbCB5b3UncmUgU3dlZGlzaCwgeW91J3JlIGhhcmQuJycNCg0KU3RlZiAgLSAnJ0NvbWUgb24gdGhlbi4nJw0KDQpCcmlhbiAtICAnJ09LLCBHdWl0YXJzIGF0IGRhd24uLi4nJw0KDQoNCmFuZGFuZCEgaGUgaGFkIHRoaXMgYW1hemluZyB0aGluZyB0aGF0IGxvb2tlZCBsaWtlIGEgZ2FzIG1hc2sgdGhhdCBoZSBzYW5nIGludG8gZHVyaW5nIHNwYWNlIG1vbmtleSB0byBnZXQgdGhpcyBhbWF6aW5nICd0ZWxlcGhleSB2b2ljZScoPyllZmZlY3QuIA0KDQoNCkdyZWVuIERheSBiYXNoaW5nIGFsc28hDQoNCkJyaWFuIE1vbGtvIC0gJydkb2VzIGFueW9uZSBoZXJlIGxpa2UgR3JlZW4gRGF5PycnDQpDcm93ZCAgICAgICcnRlVDSyBOTyEhIScnDQpCcmlhbiBNb2xrbyAtICcnV2VsbCwgaSBndWVzcyBpbSB0aGUgb25seSBBbWVyaWNhbiBJZGlvdCBoZXJlIHRvbmlnaHQnJw0KDQoNCk9PT2Z0IC0gYW5kIHN0ZWYgYWxsIGN1dGUgd2VhcmluZyBhIHdoaXRlIHNoaXJ0IGFuZCB0aWUgYnV0IHRoZW4gaGUgdG9vayBvZmYgdGhlIHNoaXJ0IGFuZCBCcmlhbiBsZWQgaGltIGFyb3VuZCBvbiBzdGFnZSBieSB0aGUgdGllIHdoaWxzdCBoZSB3YXMgcGxheWluZy4NCg0KDQpRdW90ZSBvZiB0aGUgbmlnaHQgZnJvbSBDcmFpZyAtICcnSSBxdWl0ZSBsaWtlIGEgZnVsbCBib2R5IHNlYXJjaCAtIGl0cyBxdWl0ZSBhcm91c2luZycnIGhlIGdvdCBzZWFyY2hlZCBpIGRpZG50LiBndXR0ZWQuDQoNCg0KDQoNCicnV2XigJlyZSBzZXduIHRvZ2V0aGVyDQpTaGXigJlzIGJvcm4gdG8gbGFzdCBteQ0KU2lkZSBvZiBzdHJvbmdlcg0KSSBkaWUgaW5zaWRlIG9mIGhlcicn"
+"eventtime","2006-04-08 21:16:00"
+"current_moodid","87"
+"url","http://tastein-men.livejournal.com/9113.html"
+"userid","15254"
+"itemid","34"
+"event","Im just heading out the door for Placebo. im paYURE wetting myself with excitement.
+
+
+
+*Squeeeeeeee*
+X"
+"eventtime","2006-04-06 17:51:00"
+"url","http://tastein-men.livejournal.com/8800.html"
+"userid","15254"
+"itemid","33"
+"event","you can run but you can't hide.
+
+add the youth council.
+
+on myspce."
+"eventtime","2006-03-28 21:43:00"
+"url","http://tastein-men.livejournal.com/8555.html"
+"userid","15254"
+"itemid","32"
+"event","im crippled, haha, not really. Gave blood today and now my arm is pretty much useless. which is fun. i have to say that the best part of giving blood was hearing Kirsty say to one of the women
+
+''I love the bus by the way, it's like coming up into a spacecraft''
+
+Kirsty would know.
+
+
+
+oh aye, fashion show tomorrow. pfft gunna look like an idiot. and Jane's coming to laugh, so I'm worried, haha.
+
+can't believe that schools quite close to being over. im not sure yet whether thats a good thing or not, but hmm uni's looking pretty scary at the moment. Finally accepted my place at Strathclyde, it funny coz now that i've sent it away, im pretty sure i dont want to do pharmacy. too late now.
+
+that all for now methinks.
+bye.
+X"
+"eventtime","2006-03-28 18:41:00"
+"current_moodid","54"
+"url","http://tastein-men.livejournal.com/8435.html"
+"userid","15254"
+"itemid","31"
+"event","when my mum calls me 'Gaily'. in general, but more when she says it in front of people. *rage*
+
+also when song names have no actual realation to the lyrics of the song. Thats about the only thing I don't like about Panic!ATD.
+
+
+
+it's a little pathetic that i ONLY JUST learned how to make coffee. haha, im pathetic at making stuff."
+"eventtime","2006-03-22 22:22:00"
+"current_moodid","31"
+"url","http://tastein-men.livejournal.com/7985.html"
+"userid","15254"
+"itemid","30"
+"event","<a href=""http://www.youtube.com/watch?v=uV2_zmk2XA0&amp;search=gawker%20humor%20starbucks"">http://www.youtube.com/watch?v=uV2_zmk2XA0&amp;search=gawker%20humor%20starbucks</a>"
+"eventtime","2006-03-19 21:29:00"
+"url","http://tastein-men.livejournal.com/7903.html"
+"userid","15254"
+"itemid","29"
+"event","That hideous Orson song is number one. And Placebo went down to number 38.
+
+
+
+
+
+
+IS THERE NO JUSTICE??
+
+
+ok. im done
+X"
+"eventtime","2006-03-19 18:52:00"
+"url","http://tastein-men.livejournal.com/7590.html"
+"userid","15254"
+"itemid","28"
+"event","So i downloaded an album that I'd never heard of before, and really liked it, but id forgotten to change the name when i downloaded it, so when the file came up on screen the band name wasnt on it. but my Windows Media Player came up with a name - 'Fantasia Down' (which are actually quite good - a bit weird an not what i'd ususally listen to, but thats beside the point) but when i googled the song to get lyrics.... <br /><br /><br /><font size=""5"">SHOCK<br /><br /></font><font size=""2"">and disgust<br /><br />The album isnt by Fantasia Down<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />It's by Cradle of Filth<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />*shame*<br /><br /><br /><br />i officially hate windows media player.</font>"
+"eventtime","2006-03-19 12:33:00"
+"current_moodid","122"
+"url","http://tastein-men.livejournal.com/7286.html"
+"userid","15254"
+"itemid","27"
+"event","Who's for going to see 'The Hostel' when it comes out in the cinema? It looks like American Psycho, which i havent seen, but it looks the way I imagine American Psycho would be if it sticks pretty close to the storyline of the book. It has chainsaws....and blow torches....and heads getting smashed....anyone?
+X"
+"eventtime","2006-03-13 19:45:00"
+"url","http://tastein-men.livejournal.com/6957.html"
+"userid","15254"
+"itemid","26"
+"event","Since Placebos new album came out today (which is actually so good and you should all buy it) i thought id post some of the (rubbish) reviews which were written about it. They are wrong. so wrong.
+
+
+this one goes from bad to nice
+THE SUNDAY TIMES
+3/5
+
+Few bands have walked the tightrope of self-parody as long as Placebo. (It's not easy, as the Darkness are finding out.) Brian Molko's whiny voice and occasional tendency towards sixth-form poetry will always invite ridicule, yet smart cookies like David Bowie, Frank Black, Robert Smith and now Michael Stipe are happy to collaborate. Not that Stipe is much needed, since Molko's writing and singing have moved eerily close to REM territory, particulary on the Monster-ish Drag and the career-best Follow the Cops Back Home, a song Stipe would be proud to have authored, and one even avowed Placebo-haters should hear. Other ballads- Broken Promise, In the Cold Light of Morning- reveal greater maturity in Molko's writing, while the title track should keep fans happy.
+
+and no one takes this newspaper seriously
+METRO
+2/5
+
+Some thought Meds would be a return to form for Placebo. It isn't. This is the tenth anniversary of the band's breathtaking debut album of which Meds is a pale imitation. Interestingly, though, it does see the band move full circle to their original stripped, emotive, wiry sound. But there are scant sing-a-long moments here- just the grating Brian Molko whine, now spurting out garbled messages about the powers and dangers of pills. The band look weary and sound weary. Now a father, Molko should accept it's time to buy a Mondeo and pen more love songs like the album's best track, Because I Want You.
+
+
+pffft! this album totally owns 'The Metro' and all its readers who think that any part other then the Nemi cartoon is interesting."
+"eventtime","2006-03-13 17:51:00"
+"url","http://tastein-men.livejournal.com/6709.html"
+"userid","15254"
+"itemid","25"
+"event","<p>I was all excited last night because it had started to snow about an hour before i went to bed, but I didnt think it would keep snowing, or stay on the ground! But then when I got up this morning, there is about 8 inches of snow outside!! </p>
+<p>So a lot of 'yay the snow is here' dancing went on.</p>
+<p><br />The snowman has already been built, and it actually looks as though he is coming to get you,&nbsp;and I had a snowball fight with my mum, which was fun, but then my dad gave us into trouble for messing up the snow before he had the chance to take a picture...Boo!</p>
+<p>Umm what else...ooh umm Youth Council? dunno if I'll be going, the snow is pretty thick, although it could have melted by the time 7 oclock comes around. Is anyone else planning on going?I was all excited last night because it had started to snow about an hour before I went to bed. But i didnt think that it would keep snowing, or stay on the ground!&nbsp;<br /><br />Found this link, its a song about EMO, its pretty funny...<br /><br /><a href=""http://www.collegehumor.com/movies/1671545/"">http://www.collegehumor.com/movies/1671545/</a><br /><br /></p>"
+"eventtime","2006-03-12 10:37:00"
+"url","http://tastein-men.livejournal.com/6471.html"
+"userid","15254"
+"itemid","24"
+"event","My head hurts.
+
+OW.
+
+Wearing that dress last night was not as good an idea as it seemed at the time, given that I managed to nearly flash everyone and spent most of the night trying to hold it up :S
+
+
+And yeah Kirsty, i am quite kinky when im drunk, but you love it!"
+"eventtime","2006-03-11 10:00:00"
+"current_moodid","51"
+"url","http://tastein-men.livejournal.com/6324.html"
+"userid","15254"
+"itemid","23"
+"event","Today I spent....
+
+first period
+second period
+interval
+third period
+fourth period
+lunchtime
+and the first 20 minutes of 5th period
+
+
+working on my Chemistry project.
+
+and the worst part is, my results don't show what I expected. The opposite, actually. And there is no reall corrolation betweent the increase in temperature and the viamin C concentration. boo hoo!
+
+
+Im quite looking forward to Jo's tomorrow night. The plan so far is to leave school at lunch, go to the hairdressers (because my hair hasn't been cut since the day of the Christmas dance (!)), then....go to my gran's, head back home, go to Janes then get a lift to Pro-life. and do some other stuff coz it doesnt take me 7 hours to do that.
+
+
+Polished to the n-th degree, that plan is!
+
+
+Ummm what else.....
+
+
+ooo FIELD TRIP for art!!
+so technically only the people who are working with textiles are supposed to go on the trip, but i'm sure i can work whatever i see into my folio somehow!
+I think it's next thursday. Lyndsay, Hannah, Amanda, Rachel, Disco Stu and me are going. Should be fun!
+
+I'm starting to get back into this updating malarky. It's become quite a regular waste of time whi;st I'm supposed to be studying online.
+
+
+X"
+"eventtime","2006-03-09 20:42:00"
+"current_moodid","63"
+"url","http://tastein-men.livejournal.com/6099.html"
+"userid","15254"
+"itemid","22"
+"event","On the way home, Jane and I always comment on the graffiti on the footpath bridge from Erskine into Inchinnan-ish. And seeing as not everyone will have had the same opportunity to marvel at it, I thought I should share some od it with you.
+
+
+
+''The pope of Rome''
+
+I quite like it. Its not offensive, more of a statement.
+
+
+''****** is a cheap hore''
+
+So, they can't spell whore, but at least they gave it a go.
+
+
+''TITS''
+
+A personal favourite. You're walking along, chatting away and all of a sudden, in fluorescent green paint, there it is.
+
+
+
+X"
+"eventtime","2006-03-08 20:42:00"
+"url","http://tastein-men.livejournal.com/5765.html"
+"userid","15254"
+"itemid","21"
+"event","Haven't updated in quite a while, so I thought I'd give it a go.
+
+Ummm, what's happened since my last proper update?
+
+Oh yeah, the prelims! Didn't do too well, but I was quite expecting that. At least I got passes - 57% for both Chemistry and Biology.
+
+Went with Kirsty and Jeffrey to the Strathclyde open day for the science department. It was really good and I do quite want to go there to do Pharmacy. In the first lecture we got to kill a computer generated cat by 'injecting' it with a cocktail of different drugs of different strengths. It was fun although I really don't know anyone on the course apart from the one person who talked to me while we were given a tour of the buildings, but I can't remember his name.
+
+Spent a wee while working on my science investigations. For Chemistry i'm calculating the effects of bacterial oxidation and thermodecomposition on the vitamin C content of orange juice. So there. For Biology i'm investigating the effect of various drugs - paracetamol, aspirin and caffeine - on the rate of decomposition of hydrogen peroxide by catalase. I haven't got very far with either and even managed to set my biology experiment on fire today, so thank god we've got while left to work on them!
+
+Apart from that?
+
+umm I guess Art counts as doing something. Not something productive, but something all the same. We had our folios evaluated by Miss Scullion so had to make a mad dash to find anything that could remotely count as a part of it. As it stands, I've to expect a C for my practical work, and B+ / A for my essay. 
+
+Went to Stu's on Saturday. Had lots of fun until, well, you all know what happened! ''Is there a problem, officer?'' has to be my quote of the night.
+
+Going to Jo's party on Friday. Pure dressing up effort! Should be good, even though Lyndsay and Hannah totally STOLE my idea for a costume. Grr at them, haha!
+
+Had an eventfully stroll up the road with Sandeep where I got to listen to her on the phone to some random guy. I love how ''ghetto'' Sandeep is even though she lives in INCHINNAN.
+
+Sandeep quotes :
+
+''...., homey''
+
+''...., gangsta''
+
+''Brand New!''
+
+''bombshizzle!''  (hence the unusual update title)
+
+Sandeep makes me laugh.
+
+
+Also looking forward to.....PLACEBO!! 6th April, Carling Academy! 
+....................and.....Panic!At the Disco 21st April, Carling Academy. and shoosh, I don't care that you don't like them, I do.
+
+If anyone is interested in taking part in the Erskine Music Festival for this year, whether you want to perform, promote or organise, come along to The Hut next to Bargarran Primary School at 7pm on Wednesday. The meeting should finish at around 8:30pm. everyone's welcome!
+
+
+Has anyone heard the band 'Blind Guardian'? I have their EP on my computer and I quite love it even though there are only three songs.
+
+
+i think this just about covers a proper update.
+I might even do it again in another month or so, we'll see how interesting my life is till then. I wouldn't hold my breath!
+
+
+X"
+"eventtime","2006-03-06 17:24:00"
+"current_moodid","90"
+"url","http://tastein-men.livejournal.com/5455.html"
+"userid","15254"
+"itemid","20"
+"event","<a href=""http://video.google.com/videoplay?docid=8408880915128432030&amp;q=ubc+numa+numa"">http://video.google.com/videoplay?docid=8408880915128432030&amp;q=ubc+numa+numa</a><br /><br /><br />"
+"eventtime","2006-02-25 12:37:00"
+"url","http://tastein-men.livejournal.com/5233.html"
+"userid","15254"
+"itemid","19"
+"event","Placebo have moved the release date of their new album back, from the 13th of March, to the 4th of April.
+
+
+What are they trying to do to me?"
+"eventtime","2006-02-22 20:55:00"
+"url","http://tastein-men.livejournal.com/4993.html"
+"userid","15254"
+"itemid","18"
+"event","''Oh wow! Camouflage TV's!!''
+
+
+
+''Where?''
+
+
+
+
+Loves. It.
+XX"
+"eventtime","2006-02-22 20:31:00"
+"current_moodid","91"
+"url","http://tastein-men.livejournal.com/4707.html"
+"userid","15254"
+"itemid","17"
+"event","To hell with Biology; my mum just gave me a carrot!"
+"eventtime","2006-02-16 09:07:00"
+"url","http://tastein-men.livejournal.com/4585.html"
+"userid","15254"
+"itemid","16"
+"event","<P>ok, so i think i may finally have got the myspace up and running - possibly.....</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><A href=""http://www.myspace.com/tastein_men"">http://www.myspace.com/tastein_men<BR></A></P>"
+"eventtime","2006-02-13 16:34:00"
+"url","http://tastein-men.livejournal.com/4098.html"
+"userid","15254"
+"itemid","15"
+"event","''And now for the four words no ice skater ever wants to hear; RELEASE THE POLAR BEAR''"
+"eventtime","2006-02-12 14:02:00"
+"url","http://tastein-men.livejournal.com/3985.html"
+"userid","15254"

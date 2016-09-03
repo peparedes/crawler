@@ -1,0 +1,1178 @@
+"names","values"
+"itemid","68"
+"event","TXkgbmFtZTogbGluZHNheQ0KV2hlcmUgZGlkIHdlIG1lZXQ/OiBzY2hvb2wNClRha2UgYSBzdGFiIGF0IG15IG1pZGRsZSBuYW1lOiBuaWNvbGUgb3IgYW5uZT8NCkhvdyBsb25nIGhhdmUgeW91IGtub3duIG1lPzogMSB5ZWFyDQpIb3cgd2VsbCBkbyB5b3Uga25vdyBtZSAoYSBsb3QsIG5vdCBzbyBtdWNoLCBub3RoaW5nKT86IG5vdCBzbyBtdWNoIA0KV2hhdCdzIG15IGZhdm9yaXRlIGNvbG9yPzogYmx1ZSwgcmVkLCBvciBwaW5rPw0KV2hlbiB5b3UgZmlyc3Qgc2F3IG1lIHdoYXQgd2FzIHlvdXIgZmlyc3QgaW1wcmVzc2lvbj8gZW1vIA0KTXkgYWdlPzogMTQNCk15IGJpcnRoZGF5PzogMTItMTkNCkNvbG9yIEhhaXI/OiBicm93bg0KQ29sb3IgZXllcz86IGJyb3duPw0KSGF2ZSB5b3UgZXZlciBoYWQgYSBjcnVzaCBvbiBtZT8gbmFoDQpIYXZlIHlvdSBldmVyIGJlZW4gamVhbG91cyBvZiBtZT8gSEEuLi5ubw0KRG8geW91IHJlbWVtYmVyIHRoZSBmaXJzdCB0aGluZ3MgSSBzYWlkIHRvIHlvdSB3aGVuIHdlIGZpcnN0IG1ldD8gbm9vIGl0cyBiZWVuIHRvbyBsb25nIA0KV2hhdCdzIG15IGZhdiB0eXBlIG9mIG11c2ljPzogamFwYW5lc2UgdGVjaG5vISEhDQpBbSBJIHNoeSBvciBvdXRnb2luZz8gc2h5DQpXb3VsZCB5b3Ugc2F5IEknbSBmdW5ueSBIQUhBIG9yIGZ1bm55IChzYXJjYXN0aWMpPzogSEFIQSANCkFtIEkgYSByZWJlbCBvciBkbyBJIGZvbGxvdyB0aGUgcnVsZXM/OiByZWJlbGlzaA0KV291bGQgeW91IGNvbnNpZGVyIG1lIGEgZnJpZW5kPzogc3VyZQ0KV291bGQgeW91IGNhbGwgbWUgcHJlcHB5LCBzbHV0dHksIGF2ZXJhZ2UsIHNwb3J0eSwgcHVuaywgaGlwcGllLCBnbGFtLCBzbm9iYnksIG9yIHNvbWV0aGluZyBlbHNlPzogYmVsb3cgYXZlcmFnZQ0KSGF2ZSB5b3UgZXZlciBzZWVuIG1lIGNyeT86IG5vDQpJZiB0aGVyZSB3ZXJlIG9uZSBnb29kIG5pY2tuYW1lIGZvciBtZSwgd2hhdCB3b3VsZCBpdCBiZT8gUGltcCBNYXN0YSBMeiANCkFyZSBteSBwYXJlbnRzIHN0aWxsIHRvZ2V0aGVyPzogaWRrIA0KSWYgSSBoYWQgYnJvY2NvbGkgc3R1Y2sgb24gbXkgdGVldGgsIHdvdWxkIHlvdSB0ZWxsIG1lPyBZRVMsIGFuZCBpZiB0aGF0IGhhcHBlbmVkIHRvIG1lIHlvdSBtdXN0IHRlbGwgbWUgdG9vIA0KRG8geW91IGxvdmUgbWU/OiBmcmllbmRseQ0KDQpBTSBJLi4uIA0KDQpRdWlldCBvciBsb3VkPyBsb3VkDQpTaG9ydCBvciBUYWxsOiBzaG9ydA0KV2VpcmQgb3Igb3JpZ2luYWw6IHdlaXJkDQpTbWFydCBvciBzdHVwaWQ/IGF2ZXJhZ2UuLi4NCkJvcmluZyBvciBGdW4/IGJvcmluZw0KDQpETyBZT1UgVEhJTksgSSdNLi4uICh5ZXMgb3Igbm8sIGlmIHUgd2FubmEgc2F5IHNvbWV0aGluZyBleHRyYSBzYXkgaXQpIA0KDQpBIHBzeWNobz8geWVzDQpBIG5lcmQ/IG5vDQpBIHNsdXQ/IHllcyEhIQ0KR2hldHRvPyB5ZXMhISEhDQpUd28tZmFjZWQ/IG5vDQpPYm5veGlvdXM/IG5vDQpJbW1hdHVyZT8geWVzDQpNYXR1cmU/IG5vDQoNCkpVU1QgQSBGRVcgTU9SRSBRVUVTVElPTlMNCg0KV2hhdCBkbyB5b3UgdGhpbmsgSSdsbCBiZSB3aGVuIEkgZ3JvdyB1cD8gYSBzbHV0dHksIGdoZXR0bywgbnVyc2UgDQpEbyB5b3UgdGhpbmsgSSdsbCBnZXQgbWFycmllZD8gc3VyZQ0KSWYgeW91IGRv4oCmV2hvIGRvIHlvdSB0aGluayBJJ2xsIG1hcnJ5PyBhc2h0b24ga3V0Y2hlciANCldobyBpcyBteSBiZXN0IGZyaWVuZChzKT8gc2FyYWgNCldoYXQgc29uZyAoaWYgYW55KSByZW1pbmRzIHlvdSBvZiBtZT8gc3BpY2UgdXAgeW91ciBsaWZlLy9zcGljZSBnaXJscw0KRG8gSSByZW1pbmQgeW91IG9mIGFueSBjaGFyYWN0ZXJzIG9uIFRWPyBobW1tIGZsYW5kZXJzDQpJZiB5b3UgY291bGQgcmVuYW1lIG1lLCB3aGF0IHdvdWxkIG15IG5hbWUgYmU/IGZsYW5kZXJzDQpIYXZlIHlvdSBldmVyIGhhZCBhIGRyZWFtIHdpdGggbWUgaW4gaXQ/IG5vDQpBIGZlYXR1cmUvY2hhcmFjdGVyIHRyYWl0IHRoYXQgeW91IGxpa2UgYWJvdXQgbWU6IHVyIGNyYXp5bmVzcyANCklmIHlvdSBjb3VsZCBnaXZlIG1lIGFueXRoaW5nLCB3aGF0IHdvdWxkIGl0IGJlPyBoYXBwaW5lc3MNCklmIHdlIHNwZW50IGEgZGF5IHRvZ2V0aGVyIC4uIHdoZXJlIHdvdWxkIHdlIGdvIGFuZCB3aGF0IHdvdWxkIHdlIGRvPyBtb3ZpZXMgdGhlbiBpJ2QgaGl0IHlvdSB0YWtlIHlvdSBkb3duIHRvIHRoZSBnaGV0dG8gcGFydCBvZiBob3VzdG9uIGFuZCBsZXQgeW91IGdldCByYXBwZWQgYnkgbXkgaG9tbWllcyEgSksgDQpJZiB5b3UgY291bGQgZGVzY3JpYmUgbWUgaW4gb25lIHdvcmQsIHdoYXQgd291bGQgaXQgYmU/IGxpbmRzYXkNCldoYXQgd29yZCBkbyBJIHNheSBhbGwgdGhlIHRpbWU/IExPTA0KSXMgdGhlcmUgYW55dGhpbmcgeW91J2QgbGlrZSB0byBzYXkgdG8gbWU/IHlvdSBzbWVsbCBsaWtlIGdyaW5kZWQgdXAga2l0dHkgcG9v"
+"eventtime","2004-11-16 22:56:00"
+"current_moodid","106"
+"url","http://invaliduser49.livejournal.com/17478.html"
+"userid","7046"
+"itemid","67"
+"event","U2FyYWggZGlkIHRoaXMgb25lIQ0KDQoNCk15IG5hbWU6IExpbmRzYXkgQ2Fzc2lkeQ0KV2hlcmUgZGlkIHdlIG1lZXQ/OiBTY2hvb2wNClRha2UgYSBzdGFiIGF0IG15IG1pZGRsZSBuYW1lOiBNb3JnYW4NCkhvdyBsb25nIGhhdmUgeW91IGtub3duIG1lPzogNyB5ZWFycyANCkhvdyB3ZWxsIGRvIHlvdSBrbm93IG1lIChhIGxvdCwgbm90IHNvIG11Y2gsIG5vdGhpbmcpPzogQSBsb3QNCldoYXQncyBteSBmYXZvcml0ZSBjb2xvcj86IEdyZWVuDQpXaGVuIHlvdSBmaXJzdCBzYXcgbWUgd2hhdCB3YXMgeW91ciBmaXJzdCBpbXByZXNzaW9uPyBZb3VyIGhvdHQNCk15IGFnZT86IDE0DQpNeSBiaXJ0aGRheT86IERlY2VtYmVyIDE5DQpDb2xvciBIYWlyPzogZGFyayBicm93bg0KQ29sb3IgZXllcz86IGJyb3duDQpIYXZlIHlvdSBldmVyIGhhZCBhIGNydXNoIG9uIG1lPyB5ZXMNCkhhdmUgeW91IGV2ZXIgYmVlbiBqZWFsb3VzIG9mIG1lPyB5ZXMNCkRvIHlvdSByZW1lbWJlciB0aGUgZmlyc3QgdGhpbmdzIEkgc2FpZCB0byB5b3Ugd2hlbiB3ZSBmaXJzdCBtZXQ/IG5vDQpXaGF0J3MgbXkgZmF2IHR5cGUgb2YgbXVzaWM/OiByb2NrLGFsdGVybmF0aXZlLmVtbw0KQW0gSSBzaHkgb3Igb3V0Z29pbmc/IG91dGdvaW5nDQpXb3VsZCB5b3Ugc2F5IEknbSBmdW5ueSBIQUhBIG9yIGZ1bm55IChzYXJjYXN0aWMpPzogZnVubnkgSEFIQQ0KQW0gSSBhIHJlYmVsIG9yIGRvIEkgZm9sbG93IHRoZSBydWxlcz86IHJlYmVsDQpXb3VsZCB5b3UgY29uc2lkZXIgbWUgYSBmcmllbmQ/OiB5ZXMNCldvdWxkIHlvdSBjYWxsIG1lIHByZXBweSwgc2x1dHR5LCBhdmVyYWdlLCBzcG9ydHksIHB1bmssIGhpcHBpZSwgZ2xhbSwgc25vYmJ5LCBvciBzb21ldGhpbmcgZWxzZT86IHNvbWV0aGluZyBlbHNlDQpIYXZlIHlvdSBldmVyIHNlZW4gbWUgY3J5PzogeWVzDQpJZiB0aGVyZSB3ZXJlIG9uZSBnb29kIG5pY2tuYW1lIGZvciBtZSwgd2hhdCB3b3VsZCBpdCBiZT8gU3Bhbmt54oCmDQpBcmUgbXkgcGFyZW50cyBzdGlsbCB0b2dldGhlcj86IHllcw0KSWYgSSBoYWQgYnJvY2NvbGkgc3R1Y2sgb24gbXkgdGVldGgsIHdvdWxkIHlvdSB0ZWxsIG1lPyB5ZXMNCkRvIHlvdSBsb3ZlIG1lPzogeWVzDQoNCkFNIEkuLi4gDQoNClF1aWV0IG9yIGxvdWQ/IGxvdWQNClNob3J0IG9yIFRhbGw6IHNob3J0DQpXZWlyZCBvciBvcmlnaW5hbDogb3JpZ2luYWwNClNtYXJ0IG9yIHN0dXBpZD8gc3R1cGlkDQpCb3Jpbmcgb3IgRnVuPyBmdW4NCg0KRE8gWU9VIFRISU5LIEknTS4uLiAoeWVzIG9yIG5vLCBpZiB1IHdhbm5hIHNheSBzb21ldGhpbmcgZXh0cmEgc2F5IGl0KSANCg0KQSBwc3ljaG8/ICB5ZXMNCkEgbmVyZD8geWVzDQpBIHNsdXQ/IG5vDQpHaGV0dG8/IG5vDQpUd28tZmFjZWQ/IG5vDQpPYm5veGlvdXM/IG5vDQpJbW1hdHVyZT8geWVzDQpNYXR1cmU/IG5vDQoNCkpVU1QgQSBGRVcgTU9SRSBRVUVTVElPTlMNCg0KV2hhdCBkbyB5b3UgdGhpbmsgSSdsbCBiZSB3aGVuIEkgZ3JvdyB1cD8gQSBzdHJpcHBlcg0KRG8geW91IHRoaW5rIEknbGwgZ2V0IG1hcnJpZWQ/IHllcw0KSWYgeW91IGRv4oCmV2hvIGRvIHlvdSB0aGluayBJJ2xsIG1hcnJ5PyBBc2h0b24ga3V0Y2hlcuKApg0KV2hvIGlzIG15IGJlc3QgZnJpZW5kKHMpPyAgbWUgKHNhcmFoKQ0KV2hhdCBzb25nIChpZiBhbnkpIHJlbWluZHMgeW91IG9mIG1lPyBJIGR1bm5vDQpEbyBJIHJlbWluZCB5b3Ugb2YgYW55IGNoYXJhY3RlcnMgb24gVFY/IEkgaGF2ZSB0byB0aGluayBhYm91dCB0aGF0IG9uZS4uDQpJZiB5b3UgY291bGQgcmVuYW1lIG1lLCB3aGF0IHdvdWxkIG15IG5hbWUgYmU/IENhcm1lbiBlbGVjdHJhDQpIYXZlIHlvdSBldmVyIGhhZCBhIGRyZWFtIHdpdGggbWUgaW4gaXQ/IHllcw0KQSBmZWF0dXJlL2NoYXJhY3RlciB0cmFpdCB0aGF0IHlvdSBsaWtlIGFib3V0IG1lOiBmdW5ueQ0KSWYgeW91IGNvdWxkIGdpdmUgbWUgYW55dGhpbmcsIHdoYXQgd291bGQgaXQgYmU/IGxvdHMgbyBtb25leQ0KSWYgd2Ugc3BlbnQgYSBkYXkgdG9nZXRoZXIgLi4gd2hlcmUgd291bGQgd2UgZ28gYW5kIHdoYXQgd291bGQgd2UgZG8/ICBLZW1haCwgYW5kIHdlIHdvdWxkIHRocm93IHBvcGNvcm4NCklmIHlvdSBjb3VsZCBkZXNjcmliZSBtZSBpbiBvbmUgd29yZCwgd2hhdCB3b3VsZCBpdCBiZT8gaG90dA0KV2hhdCB3b3JkIGRvIEkgc2F5IGFsbCB0aGUgdGltZT8gVGhhdOKAmXMgaG90dA0KSXMgdGhlcmUgYW55dGhpbmcgeW91J2QgbGlrZSB0byBzYXkgdG8gbWU/IEhlbGxvIQ=="
+"eventtime","2004-11-14 01:42:00"
+"current_moodid","41"
+"url","http://invaliduser49.livejournal.com/17222.html"
+"userid","7046"
+"itemid","66"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1071686519' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your Love Situation
+
+
+oh how nice...:-p"
+"eventtime","2004-11-13 14:24:00"
+"url","http://invaliduser49.livejournal.com/17056.html"
+"userid","7046"
+"itemid","65"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074669322' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Would anyone want to bang you? by phobia</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name:' value='Lindsay' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Favorite Food:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Favorite Food:' value='pickles' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Wants to Bang you:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><img src='http://us.tv1.yimg.com/tv.yahoo.com/images/he/photo/tv_pix/teen/teen_choice_awards_2003_photos/ashlee_simpson/teen.jpg'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>This many times:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>172</span></td></tr><input type='hidden' name='un' value='phobia'><input type='hidden' name='meme' value='1074669322'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-11-13 14:14:00"
+"current_moodid","58"
+"url","http://invaliduser49.livejournal.com/16844.html"
+"userid","7046"
+"itemid","63"
+"event","NUMBER OF...
+x piercings: 2 in each!
+x tattoos: none
+x height: 5'0...5'1
+x shoe size: 7, 7 1/5, 8, 8 1/5 !!
+x hair color: Brown
+x siblings: 2
+
+LAST...
+x movie you rented? dont remember
+x song you listened to? Midtown-No place feels like home
+x song that was stuck in your head? ^^ that one
+x cd you listened to? Default-Elocation
+x person you've called? Sarah
+x person that's called you? Sarah
+x tv show you've watched? i dont member
+x person you were thinking of? your mom.... 
+
+DO...
+x you have a crush on someone?MaYbE!
+x you wish you could live somewhere else? yes...
+x you think about suicide? sometimes 
+x you believe in online dating? not really..ive done it b4...(dork!)
+x others find you attractive? some peoples!!
+x you want more piercings? hell yeah 
+x you drink? not really..i have
+x you do drugs?no
+x you smoke? no
+x you like cleaning? no
+x you like roller coasters? never been on one
+x you write in cursive or print? print
+
+FOR OR AGAINST...
+x long distance relationships: against
+x using someone: i dont know..ill have to think about that one..
+x suicide: against
+x killing people: against.
+x teenage smoking: for 
+x doing drugs: for me against. for others I don't care. 
+x driving drunk: against 
+x gay/lesbian relationships: its whatever 
+x soap operas: uhh...its whatever..
+
+FAVORITE...
+x food? anything!
+x song? too many
+x thing to do? chill
+x thing to talk about? dunno...
+x sports? i dunno
+x drinks? energy drinks!!
+x clothes? Jeans and a T-shirt 
+x movies? butterfly effect
+x singers? theres alot..
+x holiday? X-mas
+
+HAVE YOU...
+x ever cried over a girl? no
+x ever cried over a boy? no
+x ever lied to someone? yes
+x ever been in a fist fight? no
+x ever been arrested? no
+
+NUMBER OF...
+x of times I have been in love? once..maybe twice..
+x of times I have had my heart broken? i was really sad when one of my ex's broke up with me but i dont think i was like really heart broken...jsut cried alot that day..
+x of hearts I have broken? none
+x of girls I've slept with? none.
+x of boys I've slept with? none
+x of drugs taken illegally? none
+x of people I would classify as true, could trust with my life type friends? Sarah! 
+x of people I consider my enemies? i dunno..
+x of times my name has appeared in the newspaper? i dont think it has...
+x of scars on my body? not big ones..just little ones!
+x of things in my past that I regret? i don't regret anything, really.
+
+FAVORITE...
+x disney movie: sword in the stone
+x word: thats hott! *heh*
+x nickname: i duno..
+x guy name: Ashton
+x girl name: Carmen! lol i dunno
+x eye color: well i have crappy brown..i like green!
+x flower: I don't care 
+x piercing: uh...belly button or lip ring 
+x actor: hmm..thats a hard one
+
+DO YOU THINK YOU ARE...
+x pretty? not really.. 
+x funny? yea! lol..
+x hot? not really..
+x friendly? i dont think im friendly...somtimes i can be a total BITCH! 
+x amusing? kinda!
+x ugly? kinda! 
+x loveable? uhh..lol not really! i cant be in someones face forever..or all over them
+x caring? no! 
+x sweet? i don't think so.
+x dorky? Yeah! totally! :-p"
+"eventtime","2004-11-13 13:50:00"
+"current_moodid","84"
+"url","http://invaliduser49.livejournal.com/16236.html"
+"userid","7046"
+"itemid","62"
+"event","TXkgbmFtZTogDQpXaGVyZSBkaWQgd2UgbWVldD86IA0KVGFrZSBhIHN0YWIgYXQgbXkgbWlkZGxlIG5hbWU6IA0KSG93IGxvbmcgaGF2ZSB5b3Uga25vd24gbWU/OiANCkhvdyB3ZWxsIGRvIHlvdSBrbm93IG1lIChhIGxvdCwgbm90IHNvIG11Y2gsIG5vdGhpbmcpPzogDQpXaGF0J3MgbXkgZmF2b3JpdGUgY29sb3I/OiANCldoZW4geW91IGZpcnN0IHNhdyBtZSB3aGF0IHdhcyB5b3VyIGZpcnN0IGltcHJlc3Npb24/IA0KTXkgYWdlPzogDQpNeSBiaXJ0aGRheT86IA0KQ29sb3IgSGFpcj86IA0KQ29sb3IgZXllcz86IA0KSGF2ZSB5b3UgZXZlciBoYWQgYSBjcnVzaCBvbiBtZT8gDQpIYXZlIHlvdSBldmVyIGJlZW4gamVhbG91cyBvZiBtZT8gDQpEbyB5b3UgcmVtZW1iZXIgdGhlIGZpcnN0IHRoaW5ncyBJIHNhaWQgdG8geW91IHdoZW4gd2UgZmlyc3QgbWV0PyANCldoYXQncyBteSBmYXYgdHlwZSBvZiBtdXNpYz86IA0KQW0gSSBzaHkgb3Igb3V0Z29pbmc/IA0KV291bGQgeW91IHNheSBJJ20gZnVubnkgSEFIQSBvciBmdW5ueSAoc2FyY2FzdGljKT86IA0KQW0gSSBhIHJlYmVsIG9yIGRvIEkgZm9sbG93IHRoZSBydWxlcz86IA0KV291bGQgeW91IGNvbnNpZGVyIG1lIGEgZnJpZW5kPzogDQpXb3VsZCB5b3UgY2FsbCBtZSBwcmVwcHksIHNsdXR0eSwgYXZlcmFnZSwgc3BvcnR5LCBwdW5rLCBoaXBwaWUsIGdsYW0sIHNub2JieSwgb3Igc29tZXRoaW5nIGVsc2U/OiANCkhhdmUgeW91IGV2ZXIgc2VlbiBtZSBjcnk/OiANCklmIHRoZXJlIHdlcmUgb25lIGdvb2Qgbmlja25hbWUgZm9yIG1lLCB3aGF0IHdvdWxkIGl0IGJlPyANCkFyZSBteSBwYXJlbnRzIHN0aWxsIHRvZ2V0aGVyPzogDQpJZiBJIGhhZCBicm9jY29saSBzdHVjayBvbiBteSB0ZWV0aCwgd291bGQgeW91IHRlbGwgbWU/IA0KRG8geW91IGxvdmUgbWU/OiANCg0KQU0gSS4uLiANCg0KUXVpZXQgb3IgbG91ZD8gDQpTaG9ydCBvciBUYWxsOiANCldlaXJkIG9yIG9yaWdpbmFsOiANClNtYXJ0IG9yIHN0dXBpZD8gDQpCb3Jpbmcgb3IgRnVuPyANCg0KRE8gWU9VIFRISU5LIEknTS4uLiAoeWVzIG9yIG5vLCBpZiB1IHdhbm5hIHNheSBzb21ldGhpbmcgZXh0cmEgc2F5IGl0KSANCg0KQSBwc3ljaG8/IA0KQSBuZXJkPyANCkEgc2x1dD8gDQpHaGV0dG8/IA0KVHdvLWZhY2VkPyANCk9ibm94aW91cz8gDQpJbW1hdHVyZT8gDQpNYXR1cmU/DQoNCkpVU1QgQSBGRVcgTU9SRSBRVUVTVElPTlMNCg0KV2hhdCBkbyB5b3UgdGhpbmsgSSdsbCBiZSB3aGVuIEkgZ3JvdyB1cD8gDQpEbyB5b3UgdGhpbmsgSSdsbCBnZXQgbWFycmllZD8gDQpJZiB5b3UgZG/igKZXaG8gZG8geW91IHRoaW5rIEknbGwgbWFycnk/IA0KV2hvIGlzIG15IGJlc3QgZnJpZW5kKHMpPyANCldoYXQgc29uZyAoaWYgYW55KSByZW1pbmRzIHlvdSBvZiBtZT8gDQpEbyBJIHJlbWluZCB5b3Ugb2YgYW55IGNoYXJhY3RlcnMgb24gVFY/IA0KSWYgeW91IGNvdWxkIHJlbmFtZSBtZSwgd2hhdCB3b3VsZCBteSBuYW1lIGJlPyANCkhhdmUgeW91IGV2ZXIgaGFkIGEgZHJlYW0gd2l0aCBtZSBpbiBpdD8gDQpBIGZlYXR1cmUvY2hhcmFjdGVyIHRyYWl0IHRoYXQgeW91IGxpa2UgYWJvdXQgbWU6IA0KSWYgeW91IGNvdWxkIGdpdmUgbWUgYW55dGhpbmcsIHdoYXQgd291bGQgaXQgYmU/DQpJZiB3ZSBzcGVudCBhIGRheSB0b2dldGhlciAuLiB3aGVyZSB3b3VsZCB3ZSBnbyBhbmQgd2hhdCB3b3VsZCB3ZSBkbz8gDQpJZiB5b3UgY291bGQgZGVzY3JpYmUgbWUgaW4gb25lIHdvcmQsIHdoYXQgd291bGQgaXQgYmU/IA0KV2hhdCB3b3JkIGRvIEkgc2F5IGFsbCB0aGUgdGltZT8gDQpJcyB0aGVyZSBhbnl0aGluZyB5b3UnZCBsaWtlIHRvIHNheSB0byBtZT8NCg0Kd2VsbCBob3BlIHRoYXQgd2FzIGZ1biENCg0KSnVzdCBnaXZlIGl0IGEgdHJ5ISEhIGlmIHlvdSBkb250IGtub3cgdGhlbS4uLi5vd2VsbCEh"
+"eventtime","2004-11-13 13:49:00"
+"url","http://invaliduser49.livejournal.com/16079.html"
+"userid","7046"
+"itemid","61"
+"event","<img src=""http://images.quizilla.com/N/Nanisd/1088314244_ureslittle.gif"" border=""0"" alt=""HASH(0x8ad1210)""><br>SWEET TEEN!!! Yes you are a teenager mmmm from 13<br>- 19 quite a little rebel haha just kidding...<br>You think as a teenager, you see everything<br>quite simple, soon you will realize it is not<br>that simple. In my opinion you look at things<br>in a very beautiful way. =)
+
+
+cool! lol i thought i acted younger..awesome baby awesome!"
+"eventtime","2004-11-10 20:22:00"
+"current_moodid","2"
+"url","http://invaliduser49.livejournal.com/15629.html"
+"userid","7046"
+"itemid","59"
+"event","i adopted a kitty too!! lol look!
+
+<a href=""http://bunnyherolabs.com/adopt/showpet.php?b=bWM9Y2F0LnN3ZiZjbHI9MHgxNTE1MTkmY249cG9va2llJmFuPWxpbmRzYXk=""><img src=""http://bunnyherolabs.com/adopt/petimage.php?b=bWM9Y2F0LnN3ZiZjbHI9MHgxNTE1MTkmY249cG9va2llJmFuPWxpbmRzYXk="" width=""250"" height=""300"" border=""0"" alt=""my pet!""></a>"
+"eventtime","2004-10-30 13:52:00"
+"current_moodid","114"
+"url","http://invaliduser49.livejournal.com/15290.html"
+"userid","7046"
+"itemid","58"
+"event","lookie at quackers!
+
+<a href=""http://bunnyherolabs.com/adopt/showpet.php?b=bWM9ZHVjay5zd2YmY2xyPTB4ZjE1ZWFjJmNuPXF1YWNrZXJzJmFuPWxpbmRzYXk=""><img src=""http://bunnyherolabs.com/adopt/petimage.php?b=bWM9ZHVjay5zd2YmY2xyPTB4ZjE1ZWFjJmNuPXF1YWNrZXJzJmFuPWxpbmRzYXk="" width=""250"" height=""300"" border=""0"" alt=""my pet!""></a>
+
+anyways!! we had a garage sale today!! lol it was boring... i woke up at 7:00 and i was like DAMNIT! lol cuz i thought it was school and i was like man im gonna be late..so i got up, went pee and while i was peeing i was like hah im dumb. we dont go to school today!! lol i was so relived cuz i didnt wanna go to school...
+
+Last night..me and sarah went alone this time to the movies!! it was nice...we went to see the grudge..man was it scary!! it wasnt scary enuff to scream like the stupid little girls in there...but yea...that little asian kid or japanese kid meows and does this freaky noise..and these guys sittin way away from us on the same row were doing that noise and we were like :0 lol and then these people behind us kicked our chair and i jumped really high lol i felt dumb... lol oops...
+
+well im gonna jet! lol tootles~"
+"eventtime","2004-10-30 13:38:00"
+"current_moodid","68"
+"url","http://invaliduser49.livejournal.com/15007.html"
+"userid","7046"
+"itemid","57"
+"event","<table width='400' height='257' bgcolor='000000' border='2' cellpadding='4' cellspacing='0' bordercolor='EE0000'><tr bordercolor='EE0000'><td colspan='3'><div align='center'><font color='#FFFFFF'>What kind of disease <i>are</i> you?<br><br>Lindsay :</font></div></td></tr><tr bordercolor='EE0000'><td><p><font color='#FFFFFF'>Lindsay  is caused by bad television.</font><br><br><img src='http://mushoo.net/redgifs/lambchop.gif' width='141' height='106'></p><p></p></td><td valign='top'><br><br><br><font color='#FFFFFF'><div align='center'>Lindsay  disease causes a constant lack of clothing.<br>Lindsay  is cured by never wearing shoes ever again.</div></font></td></tr><tr bordercolor='EE0000'><td colspan='3' valign='middle'><form action='http://www.mushoo.net/disease.php' method='GET'><div align='center'><font color='#FFFFFF'>Name?</font><input type='text' name='name'><input type='submit' name='Search'></div></form></td></tr></table>
+
+Omg, thats hilarious!! i used to LOVE that show..i dont even remmeber what it was  called but yea! lol"
+"eventtime","2004-10-28 18:59:00"
+"current_moodid","84"
+"url","http://invaliduser49.livejournal.com/14801.html"
+"userid","7046"
+"itemid","56"
+"event","Hi!!!!!!!!!!!!!!!!!!
+
+
+    Wsup everyone!!?? im real bored. im feeling a bit playfuL! lol hahah nice huh... i dont feel likwe typing anymore but look at this!!
+
+<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1064942874' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>What Makes You Sexy?"
+"eventtime","2004-09-09 21:41:00"
+"url","http://invaliduser49.livejournal.com/14397.html"
+"userid","7046"
+"itemid","55"
+"event","helllo! yes i know i havent been writing in this thing but im too lazy too!! i only get online for IM not to write in here...but i dont know. Im too busy sometimes too! but yea anyways..IM SICK. ugh! this sucks!! i HATE being sick! it sucks butthole...i got sick from sarah bcuz i stuck my lip gloss in her mouth like in the back of her mouth..lol and i kept using it. lol yea and then she wasnt sick anymore and then i spent the night and i got her sick. heheh!! its gonna prolly go off and on! hmm nice. 
+
+well it was sarahs b-day sept 4th and we did lots of fun stuff! we took glamour pics! it was fun and we are HOT MAMAS! :p we bought matching shirts! we ate chik-fil-a *i dont know how to spell it*! and uh then we went out to eat to Bennigans and man there are some f-ing hott ppl that work there!! :-) and umm..after that we played laser tag! it was fun!!!! cept the last game cuz there were like a million little kids and i hate little fat kids...lol they get on my nerves we didnt shoot ppl in that game we just walked around and rawred at em!! lol heck ya man they were scared.  what else we do...umm i 4get i think we went home! i 4got already..oops. but on sunday we got up...went to church...and went to gringos!! mm yummy! there was this flaming hott guy there too!!! he didnt work there but he was sooo hott!! he was with these to ugly skinny red headed gurls..YUCKY! me and sarah are SO much hotter!! :) oh and i love that gringos has free icecream..mm thats cool! lol me and sarah got like 3!  
+
+well im gonna go yawl guys! lol bye!"
+"eventtime","2004-09-06 09:40:00"
+"url","http://invaliduser49.livejournal.com/14090.html"
+"userid","7046"
+"itemid","54"
+"event","hELLO eVERYONE! wHATS uP? mAN i hAVENT wRITTEN iN tHIS tHING iN a wHILE! hMM i cANT tHINK oF sTUFF tHATS hAPPENED...aLL i kNOW iS sCHOOL hAS bEEN cRAZY! wELL iN mATH... i lIKE hAVENT bEEN dOING mY hMK...iTS nOT tHAT i dONT kNOW hOW, iTS cUZ i fORGET! iM sERIOUS! sO yEA... buT tONIGHT i dID iT!!! gOOD hUH?? :p oH aND sTUFFS bEEN wEIRD lIKE tHIS gUY lIKES mE sO mUCH aND i dID lIKE hIM, bUT iT cHANGED... hE wAS sO sAD!! hE sOUNDED lIKE hE wAS gONNA cRY! :( yEA...i fOUND oUT sOME oTHER gUY lIKES mE. iSNT tHAT eXCITING?! :p yEA bEEN cRAZY...hMM wHAT eLSE?!?!?! sARAHS b-DAY iS tHIS sATURDAY! eVERYONE tELL hER hAPPY b-DAY!! wERE gONNA hAVE sOME fUN!!:) 
+
+gUESS wHAT eLSE??!?!!? CARMEN ELECTRA IS HOTTTTTTT!! :) i wANNA bE jUST lIKE hER!!:p iSNT tHAT nICE?!?! 
+
+wELL i dONT rEMEMBER wHAT eLSE hAPPENED bUT iM gONNA gO...byE!!"
+"eventtime","2004-09-02 18:10:00"
+"current_moodid","109"
+"url","http://invaliduser49.livejournal.com/13924.html"
+"userid","7046"
+"itemid","53"
+"event","Hello everyone..Im sopose to be doing hmk but im not...:/ i fricken hate mr. fre- nvm lol i cant even spell it nor say it anyways, we have to write this essay and its makin me mad...i dont know what im doing. Im stupid. My moms tryin to help but its not working. My sister already gave me some stuff to put on theer but she left at 6..and she wont be back till 9..she prolly wont help me anymore..:sigh: life sucks..i hate schoool...i hate hmk...Ugh!!  And tomorrow sucks even worse bcuz of 2 reasons..wait. 3 reasons..ok 1st, cuz of english *which is mr. fre- lol* and 2nd, is cuz i dont have lunch with sarah and its so stupid..i hate lunch. and 3rd is cuz of freakin geography... hmm...
+
+  well i think i like someone!!! :) but ya know..i want a bf..cuz i see sooo many girls with their bf and its like aww!!! cuz there holding hands and huggin and its SOO CUTE! :) well i dunno i kinda dont want a bf at the same time...its fun to be single and stuff but i hate them stupid immature guys... make me wann go crazy...
+
+Today tehre was a fight at school...i was coming back from lunch and there was a whole crowd and going ""oooooo"" and stuff and i was like wtf so i went over there and it was ernie ramero and justin williams fighting.. guess who won?? ERNIE lol!! they both look like puss's to me...but yea after ernie hit him real hard, he ran cuz he didnt wanna get in trouble.lol that was funny...but you should of seen everyones face!! they were like :o! 
+
+I want my birthday to come :p"
+"eventtime","2004-08-18 18:58:00"
+"current_moodid","1"
+"url","http://invaliduser49.livejournal.com/13733.html"
+"userid","7046"
+"itemid","52"
+"event","Hello everyone!! Well its the 3rd day of schoo!! and im lost. On Friday it was kinda cool cuz i kinda knew my way around..well NOW...IM FREAKIN LOST! its like i forgot EVERYTHING! the weekend messed me up. I have to read 2 books for English and uh yea.. there both like 260 something pages..and im only on the first one..like alnmost on the 3rd chapter..dude!! i need to liek get with the program and read! well yea...and i hate lunch..its dumb.. its like soo crowded i cant find nobody! well C lunch is cool on white days cuz sarahs in tehre!:)  well yea..umm...sarah told me this guy was obsessed with me cuz he never says anybodys hot and he told sarah i was hot..and uh... this guy also failded 9th grade about a million times so hes sopose to be in 11th..lol what a cracker..:p school is kinda cool tho! but i think it could be better!! it could also be better by me knowin where im going!! :p dontcha think it'll help!? lol well yea ima go and be a good gurl a read!"
+"eventtime","2004-08-16 21:28:00"
+"url","http://invaliduser49.livejournal.com/13464.html"
+"userid","7046"
+"itemid","51"
+"event","1- If you could have ANYONE, and i mean ANYONE be your friend w benefits, who woudl it be?
+Good Question...:p well i asked Bradley that...and he said me:) so i pick him!!
+2- What's your favorite band? seether, evenescance, green day, taking back sunday, candlebox, velvet revolver, crossfade!! and MANY MORE! :)
+3- What do you think of mr. Bush..i think hes old...ugly..and hes prolly got wrinkly balls..
+1. whats the 1st thing that comes to your mind?
+very dirty things..lol i dunno!
+
+
+2. most embrassing moment? i 4get..i have many of them tho
+
+
+3. if you can change anything in your life what would it be? many things!
+
+
+Favorites!
+Color: black and white!
+
+Number: 4got..100,897,000!!
+
+Letter: umm i dunno
+
+Sport: im not sure.
+
+Day: Friday
+
+Season:the cool weather season.
+
+Teacher: i 4get..
+
+Subject: lunch! hah i dunno.. i hate school..
+
+Animal: MoNkEyS!
+
+Cereal: i like lots of cereal.
+
+Ice cream: CHOCOLATE!! 
+
+Tv channel: prolly i dunno..
+
+Show: i dunno...i like to watch MTV shows like the assistant..road rules..and the ashlee simpson show...newlyweds..and some other shows like family guy...king of the hill...and yea..i dontwatch TV much.
+
+Movie: umm.whats that movie called...well i like little black book..and uptown girls!! and i saw another one and i loved it..GOD WHAT IS IT..UGH! its gonna bug me now.
+
+Song: sooo many!! umm right now cold by crossfade
+
+Seaseme Street Character: oscar the grouch..lol
+
+Rugrat: i dunno..
+
+Winnie the Pooh Character: PiGlET!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+This oR tHat!
+
+
+Real World or Road Rules: both.
+
+Vh1 or Mtv: both...VH1 more tho. for music.
+
+Disney or Nickeldoen:Disney
+
+
+Jessica or Ashlee Simpson: dunno..both kinda eh..
+
+Hilary or Haylee Duff: eww none.
+
+Aol or Aim: AIM
+
+Day or Night: night!! lol hah i dunno 
+
+
+Night or Dark: dont make sense.
+
+Sunset or Sunrise: sunset
+
+Crayons or Color Pencils: color pencils!
+
+Beach or Boardwalk: beach!
+
+Mall or Movies: umm..both!
+
+Boys or Girls: boys..gurls are to whiney..and guys are hotter:p
+
+~~~~~~~~~~~~~~~~~~~~~
+
+
+tRuE oR fAlSe
+
+
+Take a bullet for a friend: true
+
+Die for love: false
+
+Kill for your best friend: true
+
+Kiss your best friend: maybe.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~
+In the past month have you. . . 
+
+
+Drank Alchol: yes
+
+Smoked: maybe..
+
+Done drugs: no.
+
+Went to a party: i 4got.
+
+Cried: yessum!
+
+
+Lied to ur parents: yes
+
+Got in an arguementt with a friend: i think..im not sure.
+
+Got into an actual fight: nope
+
+Been to movies: yup
+
+Been to mall: yea 
+
+Broken the law: maybe..
+
+Fall in love: im not sure
+
+~Friends~
+
+
+Whos your alltime best friend: SARAH WARNER!
+
+Best friend or other freinds: everyone..lol
+
+Whos ur other friends: ok uh your dumb.
+
+
+Would you take family over friends: i dunno..
+
+Do you think ull keep ur friends: i hope!
+
+In 20 years u will still know: sarah!!
+
+Do you trust your friends: yes i hope i can!
+
+Can you laugh with them: yes!
+
+Do you love them: uh huh!
+
+
+~The Last~
+
+
+Friend you went somewhere with: sarah!
+
+-----Where you go: movies
+
+Had a sleepover with: umm..at meagans!! 
+
+-Whos house: meagans!
+
+Boyfriend you had: lol..nvm.
+
+Arguement you had: 4got.
+
+IM you recieved: umm bradley..edward...meagan..and emily!
+
+Person that signed on: this guy..from h-town
+
+Tv show you watched: i didnt watch tv today
+
+Movie: uptown gurls
+
+Song you listened to: some cd sarah was listenin to
+
+Thing you ate: i 4got.
+
+Person you told you love them: umm
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Love life!
+
+
+Single or Taken: single
+
+
+How long: since like...may
+
+Who do you like: this guy..ya know
+
+Do u want a boyfriend: kinda!
+
+Who was ur first kiss: your momma 
+
+Have you fallin in love: yes i have..
+
+With who: yea..um just nvm!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~`
+yES oR nO
+
+
+Believe in God:yes
+
+
+Love your life: nope.
+
+Smile Alot: kinda
+
+Spontaneous: uh...i dunno
+
+Life of the party? umm 
+
+Like to go out : sometimes!
+
+
+
+FRIENDS 
+Do you have any gay/lesbian friends? not sure.
+
+Who is your best friend? sarah!
+
+Who's the one person that knows most about you? sarah!
+
+What's the best advice that anyone has ever given to you? i 4got.
+
+Who's your longest known friend? angela! weve known eachother since we were in carseats!
+
+Newest? ummm
+
+Shyest? none
+
+Last person you talked to online? bradley..emily..meagan..edward..beau
+
+Who do you talk to most online? lots of ppls.
+
+Who listens to your problems? sarah!
+
+Who do you fight most with? i dunno
+
+Who's on your shit-list? hah
+
+Have you ever thought of having sex with a friend? maybe..
+
+Who's your second family? angelas...and sarahs!
+
+Do you always feel understood? no
+
+Do you trust others easily? i dunno
+
+Who's house were you last at? sarahs
+
+Do your friends know you? yes
+
+Friend that lives farthest away: branden..he lives in GA
+
+Do you consider love a mistake? depends.
+
+What do you find romantic? guys holding you, lookin you in the eyes..holding hands on the beach!! awww!!
+
+Turn-on? personality..pretty eyes, nice body..lips..cute!!
+
+Turn-off? VERY short...bad clothes..bad HYGIENE!!
+
+Do you prefer knowing someone before dating them? yes!
+
+Do you think the opposite sex finds you good looking? not really..
+
+What is best about the opposite sex? hottness!!
+
+What is the worst thing about the opposite sex? they think about sex too much..
+
+
+
+
+[7 things that make you smile]
+
+1. gettin compliments!
+
+2. seein a hot guy
+
+3. when im with cool people!
+
+4. when im loved!
+
+5. when i get a phone call!
+
+6. when i get mail!
+
+7. when someone ive been waitin to IM me..IMS ME!
+
+[7 things you hate]
+1. stupid ppl..
+
+2.annoying ppl
+
+3.commercials..
+
+4.stinky ppl
+
+5.being lonly..
+
+6.nasty ppl
+
+7.being hated
+
+
+[7 facts about ME]
+1.im 5'0
+
+2.i LOVE my puter!
+
+3.ii like musik alot!
+
+4.i like coke!!
+
+5.i have brown hair! 
+
+6.i have a dog, a cat, and 2 birds!
+
+7. i like to be loud!
+
+[7 kick booty songs]
+1. cold-crossfade
+
+2. american idiot- green day
+
+3. a decade under the sun-takin back sunday
+
+4. slipped away-avril lavigne
+
+5.fall to pieces-avril 
+
+6. eurotrip soundtrack-scotty doesnt know
+
+7. nina sky-move ya body
+
+
+
+
+[7 things you like about the opposite sex]
+
+1. hottness
+
+2. personality..
+
+3. when they say they love you
+
+4. when there always with ya!
+
+5. when they call ya!
+
+6. when they compliment ya!
+
+7. umm..
+
+
+
+WHO WAS THE LAST PERSON... 
+You wanted to kill? haha
+
+That you laughed at? sarah! with that dang yarn
+
+That laughed at you?everyone!
+
+You went shopping with? mother
+
+To brighten up your day? bradley!..just becuz!
+
+That you thought about? eheh!
+
+You saw a movie with? sarah
+
+You talked to on the phone?steven
+
+You talked to through IM?bradley..emily..meagan..
+
+
+
+
+-*aLL aBoUt yo0u*- 
+
+1.Real Name: lindsay morgan cassidy!
+
+2.Known as: linnie, lulu bell..
+
+3.Birthday: dec 19, 1989
+
+4.Age: 14
+
+7.Siblings: 2 sistas
+
+8.Names and Age: barbie-21 courtney-18
+
+9.Shoe size: 7-8
+
+10.Height: 5'0
+
+11.School: LaPorte Highschool 
+
+12.Grade:9th"
+"eventtime","2004-08-15 22:01:00"
+"url","http://invaliduser49.livejournal.com/13177.html"
+"userid","7046"
+"itemid","50"
+"event","Eh....School was today..eh...that school seems SOOOO BIG to me!! i get lost..but im always lost so what does it matter?! :p anyways..so yea..school was kinda cool..especially in the AVID class when i couldnt stop laughin...lol!!! but yea...bradleys in that class!! :) and in my English class!!:) but yea..my day was good until i found out the truth about something that someone lied and said they didnt!! BUT THEY DID..ugh! im mad at that person...i really dont remember what happened all today..it was funny when i was askin soo many teachers where to go! :p and yea i dunno what else..:/! OH! soo many hott guys! im like OMGOODNESS!! hottness!! :p niiice! oh and what sucks..is that i have ALL PAP classes!! OMGOODNESS! thats like for SMART SMART SMART people!! that is like NOT me! i wanna get out of all of em but my moms like no, you'll do fine and im like NOOO!!! owell i guess ill try..im prolly gonna fail..but hmm..owell!!:p actually not owell..but w/e! :p but yea..i think ima go now..cuz uh yea i have like no other things to say..im blank...eh...:/ so bye!!!!"
+"eventtime","2004-08-12 19:32:00"
+"url","http://invaliduser49.livejournal.com/12897.html"
+"userid","7046"
+"itemid","49"
+"event","yea some of yawl know and some of yawl dont know that i have not been online for the past 4 days! wel yea...it was bcuz my fricken comp broked!! yea..and so ive been messin with it since!! yea and nothing worked until tonight! i made it work! somehow! i dunno! my nice touch :p hahah thats funny..but yea!! im just SOOO happy to have it back!! yawl dont know how BORING it is w/out the computer...TV sucks!! heh yea...ive already 4gotten things i have done the past 4 days..except think about damn school!! ugh its gettin SOOO close!! owell i just need to get over it!! get over the scaredness! the shyness!!! ahh! :p well ill get back to yawl later!!! mm-buh-bye!"
+"eventtime","2004-08-08 23:03:00"
+"current_moodid","68"
+"url","http://invaliduser49.livejournal.com/12755.html"
+"userid","7046"
+"itemid","48"
+"event","I was reading Joyces LJ..and i took this and i wanna do it so yawl can read mine!!
+
+I AM: LiNdSaY MoRgAn!!:)
+I HATE: you! :p J/K!
+I HEAR: Green Day-American Idiot! Nice SonG!!
+I DANCE: when i hear songs to dance to!
+I CRY: when im sad
+I AM NOT ALWAYS: the one to do something by myself!
+I WIN: never!! ugh!
+I LOSE: all the time!
+I NEED: you
+father thinks I am: Im an idiot..but he still loves me! he thinks i do stupid things...
+mother thinks I am: REALLY WEIRD!! but she still loves me too!!
+what makes you happy: when i am complimented!
+--the hottest person you know: oh man!! i know a few hott people! i cant just say one!
+--the Sexiest Person you Know: me! :p J/K! umm i dont know..
+--The Person that Knows the Most about you: SaRaH!! duH!
+--Worst Teacher: oh! Mr.Campbell in 7th grade!! hes a ""you know what!!""
+--have a(any) crush(es): yes i do!!
+--have any tattoos/where?: no..:( i do want one!!
+--piercings/where?: ears!!! and i want many more!!
+--get along with your parents: not all the time!! i make them mad and they hate me for a while. 
+--like thunderstorms: scaryness!!
+NATURAL HAIR COLOR: light brown
+CURRENT HAIR COLOR: reddish brown..but its kinda goin away
+EYE COLOR:brown..ugh!! i hate em..poop.
+BIRTHPLACE: NewPort RHODE ISLAND!! how nice!
+
+favorite...
+--NUMBER: i 4got. 
+--COLOR: black -n- white!!
+--DAY: my b-day!
+--MONTH: i dunno..the month of mine which is DECEMBER!
+--SONG(s): lots of songs!! currently the cool ones are..Green Day-American Idiot and Taking back sunday-A decade under the influence!
+--FOOD: oh i love food!!
+--SEASON: fall! its nice..not hot..not cold!! just right!
+--DRINK: coke...DP..energy drinks!!! water..
+
+preferences...
+--CHOCOLATE MILK, OR HOT CHOCOLATE? both!! i drink choc milk more tho!! hot choc is for cold days..ITS HOT.
+
+in the last 24 hours, have you....
+--CRIED? yes..:( my dad gave away max and aj..:( i still have Shelby tho.
+--WRITTEN IN A JOURNAL? yes
+--HAD A SERIOUS TALK? nope.
+--MISSED SOMEONE? i dont know.
+fight with you parents? i dont think so
+--FOUGHT WITH A FRIEND? no..
+
+Would You Ever..
+--Eat a bug? i dunno! knowin me..i might!
+--Bungee jump? im scared!! but i want to!! 
+--Kill someone? hey i might!
+--Have sex with someone you don't love? LoL! i might!
+--Parachute from a plane? i might..
+--IM a stranger: yes! i always do!
+--Shoplift? yea
+--Run a red light? lol yea i might not mean it tho!!
+--Be on Survivor? no! lol 
+--cheaton a test? i have!
+--Make someone cry? i have b4 :(
+--Call your math teacher a whore?not to his/her face..but i would think it :p
+--Kick a baby? NO! NEVER..:( thats sad to think that someone out there really would:(
+Curse out a priest? umm why would i wanna do that?
+
+do you?
+--Wear eye shadow: yes
+--Want a tattoo, and where: yes! like on my lower back! and i dunno where else!! i want more than one!
+--Do you have a boyfriend/girlfriend/both: no :(
+
+do you believe in
+--God/Devil: God. Yes
+--yourself: not really lol 
+--Your friends: sometimes
+--Love: yes i do belive in love!! i wish i was in love
+--The Closet: um...sure w/e
+
+yes or no
+--Are you smart?: no..never
+--Do you like to dance?: not really..but i do sometimes!
+--Do you like to talk on the phone?: sometimes!
+--Do you like where you live?: its alright..i wanna move tho!
+--Is your room messy right now?: no! me and my mom just like cleaned everything! woah its nice!
+--Are you organized?: no
+--Do you sleep with a stuffed animal?: no..but max and aj used to sleep with me..now there gone :(
+--Do you talk to yourself?: yes! all the time
+--Do you have a sense of humor?: i think so!
+--Do you secretly wish the roadrunner would get caught?: no hes cool!:p
+--Did you ever find Bugs Bunny attractive when he dressed up like a girl bunny?: umm...eh?
+--Do you believe in the Loch Ness monster?: i would love to know what that is.
+--Do you have a secret crush on your dentist?: oh yes! :p
+--Have you ever thought you were gonna die?: no..i dont think so
+--Are you left- or right-handed?: right
+--How many personalities do you have?: i have my laughy hyper side!! and then my really quiet side!!
+--Scariest experience(s)?: i forgot.
+--Most embarrassing moment?: i have alot.
+--Do you lick your envelopes or use a sponge?: lick!! mm yummy..haha its actually nasty! but its ok!
+--Do you have an innie or an outtie?: innie!! :)
+--What languages do you know?: english!!
+--What music are you listening to right now?: all diff stuff!!
+-How many pillows do you have?: 10,000 
+--How many CDs do you have? alot
+what do u smell like?: chlorine..i got back from the wavepool at 10 (wednsday) it is now 1:45 so its actually thursday!
+--Shoe size?: 7..7 1/2 sometimes even 8!
+--What cartoon person/people are you in love with?: i 4got..:/
+--Do you have a basement or an attic or what?:attic
+what flavor fluoride at the dentist?: ?> i dont know.. 
+--Who do you know online that you'd wanna meet in real life?: Branden!!!
+--How many licks does it take to get to the Tootsie-Roll center of a Tootsie Pop?: haha i dunno but i like what Joyce said ""i dont act like a slut and lick it constantly""
+--What does your toothbrush look like?: it is..pink and white!
+--What do you do when you're nervous?: bite my nails!! its a bad habit..i shall stop!!
+--Is it dwarfs or dwarves?: dwarfs
+how old do u wish u were?: 18! so i can be an adult and get all my peircings! like my tounge, belly button *i couldve already had it now* my nippies!!:-p and i duno what else!! but i wanna be 21 so i can officially drink!
+--What day is it?: Wednsday/thursday its 1:49 AM
+--How tall are you?: 5'
+--Can you lick your nose?: no"
+"eventtime","2004-08-05 01:20:00"
+"current_moodid","84"
+"url","http://invaliduser49.livejournal.com/12412.html"
+"userid","7046"
+"itemid","47"
+"event","HoLa! hehe im real bored...and ugh! ive been babysittin ALL THE TIME NOW!! ugh it sucks! i hate babysittin now :p plus its been keeping me from doing things which sucks too. 
+
+For school, ive got to read a 20 page poem front and back before Aug.12th...i cant do that! its called ""The Rime of the Ancient Mariner"" ok thats like an old kinda thing..its from 1772-1834 ok thats OLD! i dont like that old stuff..i cant read that old stuff..it has words in it like stoppeth..and thou...and May'st ok..i dont know what those words mean!! hehe so i just went online the other day and looked for a summary of this poem and so ill read the summary :p Im SmArT Eh?!
+
+Im sad...as i told you in the recent writing, i said my dad wants to give away my dogs..well its done. the dogs are gone..except shelby..max and aj are gone..:( i miss them soooooooooooo much...now i sleep alone :( and when im really bored i play with them...well thats all gone... My dad took them to the Pasedena Pound..and the gurl there said shes gonna take good care of them and make sure they get taken care of...so she took them to the Dachshund Rescue...:( thats good and all..but i miss them! i want them back!"
+"eventtime","2004-07-31 18:58:00"
+"current_moodid","25"
+"url","http://invaliduser49.livejournal.com/12129.html"
+"userid","7046"
+"itemid","46"
+"event","Hi! Well today i woke up at 7 oclock!! woahness..early!! yea and then i went to Registration at 8! i was there till 9.. and then we noticed ther was not all of the right ppl there...well like the last names A-E were sopose to be there from 8-9..and there was not all A-E's there!! so we could have done it all at once! but no. So we went back to the house and got Sarah's packet..and went up there at 10..and stayed till 12!! OMG!! SUMMER WAS THERE! she lives in Santa Fe..and so i was surprised that she was there! it was great. and so me and sarah and summer wre walkin around it was fun..omg..lol im soo dumb! the first time we went..i got mY ID...and i lost it like 5 mins after..lol so like we had to walk around the whole school...and it was in a room we nevr went in!! ugh..lol i really thought it was chris that did it.he went thru my packet stuff,..and took everything out..and i think he took it and the threw it..that lil fuck! :p me and sarah liked talkin to all the hott/seniors and all the older guys and stuff...:) i remember when Summer yelled ""IM HORNY"" lol it was HILARIOUS!!  Its fun to talk to ppl you dont know too..:p 
+
+Highschools gonna be scary!! cuz theres already a lot of Freshmans..and then Sophmores, and Juniors, and SENIORS! omg...too much. Im gonna get lost.. and bumped into..and crashed into..and pushed down:p owell!! :p i like it..lol.."
+"eventtime","2004-07-29 15:09:00"
+"current_moodid","8"
+"url","http://invaliduser49.livejournal.com/11855.html"
+"userid","7046"
+"itemid","45"
+"event","I forgot to put what i did yesterday!! il just tell you what i did..ok.
+Yesterday, I went to Sarahs! and i swam..but yea..i didnt get my hair wet cuz i just dyed it! and i dont want it to fade..which it has a little bit ..owelll...ill just redo it again!:-p i want to...
+
+Today..omg!! Max..my dog...bit my dad...see...When  the dogs pee on the carpet, me and my mom just kinda clean it up..and dont punish the dogs...so they think they can just pee anytime,anywhere...well Max pee'd...and my dad saw it...he trys to rub his nose in the pee to punish him, and Max bit him!! i didnt actually see it...i just went in my dads room and he has his hand in he sink cuz its bleeding really bad..so im like omg! what happened...and he tells me..and then hes like get me my other shoe cuz i might have to go to the hospital...*i guess he thought he needed stitches or something cuz itwas DEEP* but he went next door cuz the gurl next door is a doctor...so yea she just told him to clean it real good and get it checked..so i doctored him all up!!:) but guess what..:( we have to get rid of Max now...:( MAX IS MY FAVORTE DOG :( this makes me teary eyed...:( im sad... 
+
+Tomorrw..at 8 oclock!! i gtta go to the HS for FISH camp! im nervous..i wish parents could go cuz i need them!!! im not a big gurl!! :p well w/e..i want sarah to go with me..but shes a W..and im a C. owell! she can still go with me...right?! lol i dunno...but she doesnt have a ride to get there anyways *well i dont think she does*...she goes at 11-12 and i can take her...but yea!! i hope she goes with me..."
+"eventtime","2004-07-28 23:41:00"
+"current_moodid","25"
+"url","http://invaliduser49.livejournal.com/11597.html"
+"userid","7046"
+"itemid","44"
+"event","Hello everyone!! 
+
+yesterday..iwent to the HS and got my packet!! and it was scary..i dunno y..but it was..and sarah went with me!! we were scared together..lots of ppls there that we knew...ehhe then after that..we went to walmart..and i dyed my hair!!! its reddish brown! greatness..but i wish it was a lil redder cuz i only did it a light reddish brown cuz my dad wouldve threw a fit..but i want it redder!!
+
+hmm...last night..Justin was bein a cock..it wasnt cool..so im mad at him..lol:-p 
+
+I like 2 ppl!!!!! =) yay!! coolness huh?! 
+
+FISH camp is in...2 days!! woahness...scary!!"
+"eventtime","2004-07-27 18:47:00"
+"current_moodid","96"
+"url","http://invaliduser49.livejournal.com/11267.html"
+"userid","7046"
+"itemid","43"
+"event","lol guess wat guys...i went CAMPING..my goodness! IT WAS SOOO F-IN HOTT..AND SOOOOOOOOOOOOOOOOOO MANY BEES! it was in...Huntsville...it was kinda fun tho...I went Saturday at 8!! and came back Sunday *today* at 4:30!! wowness huh..lol Oh it was gr8 when we went swimmin in the Lakey water..it looked like coke..yea well didnt taste like it! lol it burned my throat..but yea back towhen we were swimmin..ok this campin trip was like MEXICANVILLE! *no offense to the mexicans reading this!* ok well yea..i almost got me and sarah beat up!! cuz i was like MamACiTa..and La CuCaRaTcHa! lol omg! it was funny when this group of Mexicans were playin some game and they were throwin a ball and i asked them what La CuCaRaTcHa meant..and they said cockaroach. and then i kept sayin it and they looked mad cuz if you say that to a mexican its like calin them a wetback so i was like Are you mad at me and tehre like Nah..lol im like ok cool! but yea that was also the time when i kept sayin hi to everyone and they said hi back!! i like bein in places where i dont know anyone..heheh!! hmm what else...you know it getsREALLY hot when you sleep in a tent inn the HOT..????? lol yea PRETTY DANG HOT. well i 4got what else happened so w/e...
+
+I got this thing in the mail for HS...and yea..im in a class called the AVID program..THATS FOR F-IN DUMB ppl...lol owell...
+
+
+
+OK WELL MY DANG HANDS HURT...I PROLLY GOT ATHRITIS..:-p BYE!"
+"eventtime","2004-07-25 19:11:00"
+"current_moodid","83"
+"url","http://invaliduser49.livejournal.com/11099.html"
+"userid","7046"
+"itemid","42"
+"event","Hello Peoples...Well i havnt written in this for a couple days or w/e...but these past couple days have sucked ass. My mom is mad at me..I mean not a little..shes so mad at me that shes not talkin to me...and she says the reasn shes mad is cuz im such an idiot...ok...well shes always told me that so why all of a sudden shes so mad now? I dont know..im SO confused! She already took the phone outta my room..and she says the computers next..:-( so i might not get to talk to yall>..:-( so i dunno..its kinda dumb why shesmad at me...owell! fine..
+
+Omg! FISH camp is July 29th! thats not far!! thats like next week! ahh im scared! I REALLY dont wanna go to Highschool..
+
+I went shoppin the other day *this is the second time* well last time i got 3 shirts, and 2 capris...well this time i got 1 pair of jeans and a shirt..THATS NOT EVEN A WEEKS WORTH OF CLOTHES! and my dad says im done. He said all i gotta do is get shoes..this is SOO GAY! owell w/e...."
+"eventtime","2004-07-23 17:25:00"
+"current_moodid","25"
+"url","http://invaliduser49.livejournal.com/10771.html"
+"userid","7046"
+"itemid","41"
+"event","(x) - you've done
+(_) - you haven't done
+..
+(X) been drunk
+(x) kissed a member of the opposite sex
+(x) kissed a member of the same sex 
+(_) crashed a friend's car
+(_) been to Japan
+(_) ridden in a taxi
+(x) been in love
+(x) shoplifted (who doesn't when there young?)
+(_) been fired
+(_) been in a fist fight (playin around though)
+(_) snuck out of my parent's house
+(_) ever had a crush on someone of the same sex
+(_) ever dated someone of the same sex
+(x) had feelings for someone who didnt have them back
+(_) been arrested
+(_) made out with a stranger 
+(_) stole something from my job 
+(_) celebrated new years in time square
+(_) gone on a blind date
+(x) lied to a friend
+(_) had a crush on a teacher 
+(_) celebrated mardi-gras in new orleans
+(_) been to Europe
+(x) skipped school
+(_) slept with a co-worker
+(X) cut myself on purpose
+(_) been married
+(_) gotten divorced
+(x) had children lol PLAYING!!lol i wish..
+(_) seen someone die.
+(_) been to Africa
+(_)Slapped someone I loved
+(_) Driven over 400 miles to attend a show/festival/fetish ball                                                                               
+(_) Been to Canada
+(_) Been to Mexico 
+(x) Been on a plane
+(_) Seen the Rocky Horror Picture Show
+(_) Thrown up in a bar
+(x) Purposely set a part of myself on fire 
+(_) Eaten Sushi....YUCK
+(_) Been snowboarding I WANT TO!
+(_) Met someone in person from the internet 
+(_) Been moshing at a concerts IWANT TO!
+(x) had real feelings for someone you knew only online
+(x) taken partially nude/nude photos of yourself..umm ppl read this..but ill b honest...
+(_) been pregnant or got someone pregnant
+(_) lost a child
+(_) gone to college
+(_) graduated college
+(x) tried killing urself
+(x) taken painkillers....advil? lol
+(x) intentionally burned urself
+(x) love someone or miss someone right now
+
+LOL that was gr8!"
+"eventtime","2004-07-21 20:06:00"
+"current_moodid","8"
+"url","http://invaliduser49.livejournal.com/10555.html"
+"userid","7046"
+"itemid","40"
+"event","HoLa EVERYONE!! iM AT Meagans!! Ita her birthday today so.....HAPPY BIRTHDAY TO MEAGAN!! yayayayay!! lol"
+"eventtime","2004-07-17 13:37:00"
+"current_moodid","119"
+"url","http://invaliduser49.livejournal.com/10446.html"
+"userid","7046"
+"itemid","39"
+"event","ok well for the past two days, ive been wanting a red bull! i dont know why, i just did! i saw alot of the commercials and im like OK ENUFF! I WANT ONE! well..like a week ago i told my dad i wanted a red bull and he got mad..:-/ he told me it was alcohol..i was like ugh..umm no but w.e! so i didnt ask him again...then today, me and my sister were pickin up a PrEsEnT for Meagan! *HAPPY EARLY B-DAY MEAGAN!!! =)* and i told her, PLZ LETS GET A RED BULL TODAY! so i bought one, and then chugged it down:-p woah you get a buzz! then her bf came over and i told Barbie *mah sista!* again that i wanted one and shes like Trevor *sis bf* go get Lindsay a Red Bull so he got me one! I got one free! :-p oh and i chugged that one too! oh what greatness:-p hahahahahah"
+"eventtime","2004-07-15 21:20:00"
+"url","http://invaliduser49.livejournal.com/10029.html"
+"userid","7046"
+"itemid","38"
+"event","I havent wrote in this in like...a couple days! ok ill tell ya what happened since i talked to yawl:-p ok...Well Monday, I went to the Wavepool! and got BURNT TO A CRISP!:-p owell i had fun! well we didnt have a ride home so yea we were stuck there and gettin more burnt than ever! ok tuesday..hmm i didnt do a thing! and today...which is wednsday, me my sister and dylan! went to the doctor cuz wittle dylan is sick:( his nose bled this morning, his cheeks get really red..and he puts his finger WAY in his ear...and so were like F*** this, were goin to the doctor! so we were there since 12:41 and got back at like 4:33! oh what a long, HOT DAY! but yea so hes got ""fifth disease"" which is NOT deadly...so thank god! yea and so my day was LONG...:sigh: oh and we went to DQ too! and got a Moolatte cuz tehre yummy! so yea that was my day! oh and im thinkin bout paintin my room again cuz my rooms been pink ever since 6th grade! and i HATE pink...i wanna paint it black and white!! sounds good! well yea i shall go now..buh bye!!"
+"eventtime","2004-07-14 19:44:00"
+"url","http://invaliduser49.livejournal.com/9794.html"
+"userid","7046"
+"itemid","37"
+"event","hey everyone! Guess what! IT MY MOMS BIRTHDAY!! yup! coolness...except it was really boring cuz all they were doin was drinking and yea...me and sarah wanted to go to the wavepool but my mom wouldnt drive me..so that was ruined...oh and she was sopose to spend the night but NO0O0OO0! ugh ugh ugh! today was boring..:-p *sorry mom!* hehe but yea ima go now..bye!"
+"eventtime","2004-07-11 22:21:00"
+"url","http://invaliduser49.livejournal.com/9709.html"
+"userid","7046"
+"itemid","36"
+"event","Look! It's a Mememgen!! these are cool...but for some reason they mostly say ima slut..no i am NOT.
+
+<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=sparkledee&meme=1061100989' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your Sexual Profile (you sexual deviant you...)
+ by sparkledee</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name' value='Lindsay' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Secret Kink Thing</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>You like to play dead.
+</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Sexual Strength</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>How hot you look in lingerie.
+</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Sexual Weakness</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>You masturbate too much.
+</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Likely STD</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>You won&#39;t get tested. SLUT!!
+</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>How Many Partners in Crime?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>A few. 
+</span></td></tr><input type='hidden' name='un' value='sparkledee'><input type='hidden' name='meme' value='1061100989'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-07-11 22:19:00"
+"url","http://invaliduser49.livejournal.com/9451.html"
+"userid","7046"
+"itemid","35"
+"event","PHRhYmxlIGFsaWduPSJjZW50ZXIiIHdpZHRoPSIyNTAiPjx0cj48dGQgYWxpZ249ImNlbnRlciI+PGRpdiBzdHlsZT0iZm9udC1zaXplOjE4cHg7Zm9udC1mYW1pbHk6VmVyZGFuYSI+PGI+SSBBTSA1MyUgQVNTSE9MRS9CSVRDSCE8L2I+PC9kaXY+PGEgaHJlZj0iaHR0cDovL3d3dy5mdWFsaS5jb20vdGVzdC5hc3B4P2lkPTExNSI+PGltZyBzcmM9Imh0dHA6Ly93d3cuZnVhbGkuY29tL3BpeC8xMTUvMy5naWYiIGFsdD0iNTMlIEFTU0hPTEUvQklUQ0giIGJvcmRlcj0iMCI+PC9hPjxkaXYgc3R5bGU9ImZvbnQtc2l6ZToxMHB4O2ZvbnQtZmFtaWx5OlZlcmRhbmEiPkkgYW0gYWJyYXNpdmUsIHNvbWUgcGVvcGxlIHJlYWxseSBoYXRlIG1lLCBidXQgdGhlcmUgbWF5IGJlIGEgZ3JvdXAgb2Ygb3RoZXIgdGlnaHQga25pdCBhc3Nob2xlcyBhbmQgYml0Y2hlcyB0aGF0IEkgY2FuIGhhbmcgb3V0IHdpdGggYW5kIGdldCBtZS4gRXZlcnlib2R5IGVsc2U/IEZ1Y2sg4oCYZW0uPC9kaXY+PGRpdiBzdHlsZT0iZm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6VmVyZGFuYSI+PGEgaHJlZj0iaHR0cDovL3d3dy5mdWFsaS5jb20vdGVzdC5hc3B4P2lkPTExNSI+VGFrZSB0aGUgQVNTSE9MRS9CSVRDSCB0ZXN0IGF0IEZ1YWxpLmNvbTwvYT48L2Rpdj48L3RkPjwvdHI+PC90YWJsZT4="
+"eventtime","2004-07-11 01:19:00"
+"url","http://invaliduser49.livejournal.com/9050.html"
+"userid","7046"
+"itemid","34"
+"event","AWW! im cozy and soft..and i make people feel so good!
+
+
+Take the quiz: <a href=""http://www.zenhex.com/quiz.php?id=611"">""Are you a poopy?""<br><img src=""http://www.zenhex.com/quiz/611/res1.jpg"" border=0></a><br><b>A poopy</b><br>You are so AWSOME! You're cozy and soft and you make people feel so good!"
+"eventtime","2004-07-10 15:39:00"
+"current_moodid","106"
+"url","http://invaliduser49.livejournal.com/8797.html"
+"userid","7046"
+"itemid","33"
+"event","Take the quiz: <a href=""http://www.zenhex.com/quiz.php?id=496"">""What is your personal mascot?""<br><img src=""http://www.zenhex.com/quiz/496/res7.gif"" border=0></a><br><b>A Wet Noodle</b><br>A Wet Noodle<br>You're a bit odd... Actually, you're extremely odd. A straight jacket is what is needed for you!"
+"eventtime","2004-07-10 15:27:00"
+"current_moodid","59"
+"url","http://invaliduser49.livejournal.com/8592.html"
+"userid","7046"
+"itemid","32"
+"event","W1lPVS5dDQoteW91ciBuYW1lOiBMaU5kU2FZIQ0KLSB5b3VyIGdlbmRlcjogRmUtTWFsZSENCi0gYWdlOiAxNA0KLSBoZWlnaHQ6IDUgb3IgNScxDQotIGV5ZSBjb2xvdXI6IGJyb3duIA0KLSB5b3VyIGxvY2F0aW9uOiBMUCENCi0gZmVhcnM6IERlYXRoLi5Ecm93bmluZy4uR2V0dGluZyBjYXRjaGVkIG9uIEZpcmUuLkxvc2luZyBzb21lb25lIEkgcmVhbGx5IGxvdmUuLkxvc2luZyBhIEZyaWVuZCwgbXkgRmFtaWx5Li4NCg0KWyBIQVZFIFlPVSBFVkVSIF0NCi0gY2hlYXRlZCBvbiBzb21lb25lPyBubw0KLSBmYWxsZW4gb2ZmIHRoZSBiZWQ/IHllcw0KLSBmYWxsZW4gZm9yIGEgcmVsYXRpdmU/IGxvbCB0aGF0cyBmdW5ueS4uYnV0IG5vDQoNCi0gYnJva2Ugc29tZW9uZWBzIGhlYXJ0PyBJIGRvbnQgdGhpbmsgc28uLi5Qcm9iYWJseSBub3QuLg0KDQotIGhhZCB5b3VyIGhlYXJ0IGJyb2tlbj8gSXQgd2FzbnQgdG90YWxseSBicm9rZW4gbGlrZSBteSB3aG9sZSBsaWZlIHdhcyBvdmVyIGJ1dCBpIHdhcyByZWFsbHkgc2FkIGZvciBhIGxpdHRsZSB3aGlsZSBhbmQgd2hlbiBpIHRoaW5rIG9mIGl0IGkgZ2V0IHNhZC4uYnV0IGkgZ3Vlc3MgaW0gb2sNCi0gaGFkIGEgZHJlYW0gY29tZSB0cnVlPyBpIGRvbnQgcmVtZW1iZXIuLg0KLSBkb25lIHNvbWV0aGluZyB5b3UgcmVncmV0PyBZZXNzdW0hDQotIGNoZWF0ZWQgb24gYSB0ZXN0PyBhbHdheXMhDQotIGJlZW4gcmFwZWQ/IG5vLi5idXQgaSB3YW50IHRvISEgDQotIGJyb2tlbiBhIGJvZHkgcGFydD8gbm9wZQ0KDQpbIENVUlJFTlRMWV0NCi0gd2VhcmluZyAtU2hpcnQsYW5kIG15IGJvYXJkc2hvcnRzIQ0KLSBsaXN0ZW5pbmcgdG8gLSBUaHJlZSBEYXlzIEdyYWNlLVdha2UgdXAhDQotIGNoZXdpbmcgLSBub3RoaW5nLg0KLSBmZWVsaW5nIC0gUmVBbGxZIEJvUmVkIQ0KLSByZWFkaW5nIC0gdGhpcyEgbG9sIGJ1dCBpIGRvbnQgcmVhZC4gDQotIGxvY2F0ZWQgLSBBdCBteSBob3VzZSwgaW4gbXkgcm9vbS4NCi0gY2hhdHRpbmcgd2l0aCAtIEJlYXUsIGFuZCBCcmFkbGV5ISBIZXkhIFR3byBCJ3MgaGFoaGEhDQotIHdhdGNoaW5nIC0gbm90aGluZyBtYW4NCg0KWyBETyBZT1UuLi4gXQ0KLSBicnVzaCB5b3VyIHRlZXRoPyB5YSANCi0gbGlrZSBhbnlib2R5PyB5ZXMNCi0gaGF2ZSBhbnkgcGllcmNpbmdzPyAyIGluIGVhY2ggZWFyISBhbmQgdGhlIDIgZnJvbnQgb25lcyBhcmUgU1RSRVRDSEVEISBBd2Vzb21sZXkgY29vbCEhIQ0KLSBkcml2ZT8gbm8NCi0gZXZlciBnZXQgb2ZmIHRoZSBjb21wdXRlcj8geWVzDQoNClsgRlJpRU5EUyBdDQotIHdobyBpcyB5b3VyIGJlc3Q/IFNhcmFoLE1hbGxvcnksIEVtaWx5LCBNZWFnYW4uLi4NCi0gd2hvIGlzIHRoZSBsb3VkZXN0PyBTYXJhaA0KLSB3aG8gaXMgdGhlIHNoeWVzdD8gaSByZWFsbHkgZG9udCBrbm93Li5tYXliZSBNZWFnYW4uLg0KLSB3aG8gbGF1Z2hzIHRoZSBtb3N0PyBTYXJhaA0KLSB3aG8gaGF2ZSB5b3Uga25vd24gdGhlIGxvbmdlc3Q/IHNhcmFoIQ0KLSB3aG8gaGF2ZSB5b3Uga25vd24gdGhlIHNob3J0ZXN0PyBNYWxsb3J5Li5pIHRoaW5rLi5hbmQgRW1pbHkuLndhaXQuLmkga25ldyBFbWlseSBhdCB0aGUgYmVnaW5uaW5nIG9mIDh0aC4ucmlnaHQ/IGxvbCBpIGZvcmdvdCBidXQgaSBrbmV3IE1hbGxvcnkgaW4gbGlrZSB0aGUgZW5kLi4ub3Igc29tZXRoaW5nIGxpa2UgdGhhdC4uDQotIGRvIHlvdSBiZWxvbmcgdG8gYSBjcmV3PyBIdUg/DQotIGRvIHlvdSBoYW5nIG91dCB3aXRoIHRoZSBvcHBvc2l0ZSBzZXg/IE5vdCByZWFsbHkuLmkgdGFsayB0byB0aGUgb3Bwb3NpdGUgc2V4Li5idXQgaSBkb250IGhhbmcgd2l0aCB0aGVtLi5pZCBsaWtlIHRvIQ0KLSBkbyB5b3UgdHJ1c3QgeW91ciBmcmllbmRzPyBZZWEuLi5tb3N0IG9mIHRoZW0NCi0gYXJlIHlvdSBhIGdvb2QgZnJpZW5kPyB5ZWEuLmkgdGhpbmsgc28NCi0gY2FuIHlvdSBrZWVwIGEgc2VjcmV0PyB5ZXMNCg0KWyBUSEUgTEFTVCBQRVJTT04gWU9VLi4uXQ0KLSBodWdnZWQgLSBNeSBtb20hIA0KLSBnYXZlIEVQUk9QUyAtIHdoYXRzIHRoYXQ/IA0KLSBJTWVkIC0gQmVhdQ0KLSB0YWxrZWQgdG8gb24gdGhlIHBob25lIC0gaSBmb3Jnb3QuLg0KLSB5ZWxsZWQgYXQ/IENvdXJ0bmV5LCBNeSBzaXN0ZXIuLmxhc3QgbmlnaHQgd2hlbiBzaGUgd2FzIGFjdGluZyBhIGZvb2wuDQotIGZlbGwgaW4gbG92ZSB3aXRoIC0gWW91IGtub3cgd2hvLi46LSgNCi0gdHJpcHBlZCAtIExPTCBpIGhhdmVudCB0cmlwcGVkIGFueWJvZHkgaW4gYSBsb25nIHRpbWUuLmxvbA0KLSB0dXJuZWQgZG93biAtIGkgZG9udCBrbm93Lg0KDQpbIFBFUlNPTkFMIF0NCi0gV2hhdCB3YXMgdGhlIHdvcnN0IGRheSBvZiB5b3VyIGxpZmU/IC0gSSBkb250IGtub3cuLmkgZG9udCByZW1lbWJlcg0KLSBXaGF0IGlzIHlvdXIgbW9zdCBlbWJhcnJhc3Npbmcgc3Rvcnk/IC0gaSBkb250IHJlbWVtYmVyDQotIFdoYXQgaGFzIGJlZW4gdGhlIGJlc3QgZGF5IG9mIHlvdXIgbGlmZT8gLSBpIGRvbnQgcmVtZW1iZXINCi0gV2hhdCBjb21lcyBmaXJzdCBpbiB5b3VyIGxpZmU/IC0gaSBkb250IGtub3cNCi0gRG8geW91IGhhdmUgYSBib3lmcmllbmQvZ2lybGZyaWVuZC9jcnVzaD8gLSBub3BlLg0KLSBJZiB5b3UgaGFkIGFuIGV4dHJhIHNldCBvZiBleWVzIHdlcmUgd291bGQgeW91IHB1dCB0aGVtPyBJZCBwdXQgdGhlbSBvbi4uaSBkb250IGtub3cuLnRoaXMgaXMgYSBkdW1iIHF1ZXN0aW9uLg0KLSBXaGF0IGRvIHlvdSB1c3VhbGx5IHRoaW5rIGFib3V0IGJlZm9yZSB5b3UgZ28gdG8gYmVkPyBJIGp1c3QgdGhpbmsgYWxvdC4uDQoNClsgRkFWT1JJVEUgLiAuIC5dDQotIE1vdmllOiBCdXR0ZXJmbHkgRWZmZWN0DQotIFNvbmc6IEkgZG9udCBoYXZlIGEgZmF2b3JpdGUsIGJ1dCBpbSBsaXN0ZW5pbiB0byBUaHJlZSBEYXlzIEdyYWNlLSBXYWtlIFVwIGFuZCBpdHMgYSBnb29kIHNvbmchDQotIEdyb3VwOiBpb25vDQotIFN0b3JlOiBpIGRvbnQgaGF2ZSBhIGZhdi4uaSBsaWtlIGFsb3Qgb2Ygc3RvcmVzIQ0KLSBSZWxhdGl2ZTogbm9ib2R5ISBJIEhBVEUgRU0gQUxMISANCi0gU3BvcnQ6IEhBSC4ubWUuLnNwb3J0cz8gDQotIFZhY2F0aW9uIFNwb3Q6IG9vMG8hIGlkIGxpZWsgdG8gZ28gdG8gRmxvcmlkYSBvciBIYXdhaWkNCi0gSWNlIENyZWFtIEZsYXZvcjogY2hvY29sYXRlIQ0KLSBGcnVpdDogc3RyYXdiZXJyaWVzIA0KLSBDYW5keTogaSBoYXZlbnQgaGFkIGNhbmR5IGluIGEgbG9uZyB0aW1lLi4NCi0gSG9saWRheTogbXkgYiBkYXkNCi0gRGF5IG9mIHRoZSBXZWVrOiBmcmlkYXkNCi0gQ29sb3I6IEJsYWNrIGFuZCBXaGl0ZSENCi0gTWFnYXppbmU6IEkgZG9udCBrbm93Lg0KDQpbIERPIFlPVSAuIC4gLl0NCi0gTGlrZSB0byBnaXZlIGh1Z3M/IC0geWVhDQotIExpa2UgdG8gd2FsayBpbiB0aGUgcmFpbj8gLSB5ZXMhIHRoYXRzIHNvbyBmdW4hDQotIFNsZWVwIHdpdGggb3Igd2l0aG91dCBjbG90aGVzIG9uPyAtIGJvdGghDQotIFByZWZlciBibGFjayBvciBibHVlIHBlbnM/IC0gYmxhY2sNCi0gRHJlc3MgdXAgb24gSGFsbG93ZWVuPyAtIHlh4oCmd2hvIGRvZXNu4oCZdD8NCi0gSGF2ZSBhIGpvYj8gLSBubw0KLSBMaWtlIHRvIHRyYXZlbD8gLSB5ZXMhDQotIExpa2Ugc29tZW9uZT8gLSB5ZXMhDQotIFNsZWVwIG9uIHlvdXIgc2lkZSwgdHVtbXkgb3IgYmFjaz8gLSBNeSBTdE9tQWNIZSENCi0gV2FudCB0byBtYXJyeT8gLSB5ZXMhDQotIEhhdmUgYSBnb2xkZmlzaD8gLSBub+KApg0KLSBFdmVyIGhhdmUgdGhlIGZhbGxpbmcgZHJlYW0/IC0geWVzISBhbmQgdGhleSBzdWNrIGN1eiB0aGV5IHNjYXJlIHRoZSBzaGl6IG91dHRhIG1lLg0KLSBIYXZlIHN0dWZmZWQgYW5pbWFscz8gLXllcy4uDQotIEdvIG9uIHZhY2F0aW9uPyAtIG5vdCBsYXRsZXkNCg0KWyBXSEFUIERPIFlPVSBUSElOSyBBQk9VVCAuIC4gLl0NCi0gRWF0aW5nIERpc29yZGVyczogSSB3aXNoIGkgaGFkIGEgZWF0aW5nIGRpc29yZGVyIGFuZCB0aGVuIGlkIGJlIHNraW5ueSENCi0gU3VpY2lkZTogY29vbCEgbG9sIGltIGovcCBidXQgaXZlIHdhbnRlZCB0byBkbyBpdCBvbmNlLi5pdHMgZHVtYiB3aGVuIHlvdSB0aGluayBvZiBpdC4uDQotIFN1bW1lcjogSSBMT1ZFIElUIQ0KLSBUYXR0b29zOiBJIHdhbnQgb25lISENCi0gUGllcmNpbmc6IEkgd2FudCBNT1JFIQ0KLSBEcmlua2luZzogaGVjayB5YSENCi0gR3V5czogT0ggQkFCWSEhDQoNClsgVEhJUyBPUiBUSEFUXQ0KLSBQaWVyY2VkIG5vc2Ugb3IgdG9uZ3VlPyAtIHRvbmd1ZSENCi0gQmUgc2VyaW91cyBvciBmdW5ueT8gLSBmdW5ueSENCi0gU2luZ2xlIG9yIHRha2VuPyAtIHNpbmdsZS4uLmJ1dCB0aGVuIGlmIHlvdXIgdGFrZW4uLndlbGwgaSBkb250IGtub3cuLg0KLSBTaW1wbGUgb3IgQ29tcGxpY2F0ZWQ/IC0gaSBsb3ZlIHRvIGJlIGNvbXBsaWNhdGVkISENCi0gTVRWIG9yIEJFVD8gLSBNVFYgaSBndWVzcy4uLiBCRVQgc3Vja3MgY3V6IGkgaGF0ZSBSQVAuIGJ1dCB0aGVyZXMgcmFwIG9uIE1UViBzbyB0aGV5IGJvdGggc3Vjay4uYnV0IE1UVlMgYmV0dGVyDQotIFN1Z2FyIG9yIHNhbHQ/IC0gc3VnYXINCi0gU2lsdmVyIG9yIGdvbGQ/IC0gc2lsdmVyDQotIFRvbmd1ZSBvciBiZWxseSBidXR0b24gcmluZz8gLSBCT1RIIQ0KLSBDaG9jb2xhdGUgb3IgZmxvd2Vycz8gLSBjaG9jb2xhdGUNCi0gQ29sb3Igb3IgQmxhY2stYW5kLXdoaXRlIHBob3Rvcz8gLSBib3RoIQ0KLSBTdW5yaXNlIG9yIHN1bnNldD8gLSBzdW5zZXQNCi0gTSZNJ3Mgb3IgU2tpdHRsZXM/IC0gTSZNJ1MhDQotIFJhcCBvciBSb2NrPyAtIHJPQ0sNCi0gU3RheSB1cCBsYXRlIG9yIHNsZWVwIGluPyAtIGJvdGggDQotIFRWIG9yIHJhZGlvPyAtIGJvdGgNCi0gSG90IG9yIGNvbGQ/IC0gYm90aCEgaG93IGFib3V0IHdhcm0/DQotIFRhbGxlciBtZW1iZXJzIG9mIHRoZSBvcHBvc2l0ZSBzZXggb3Igc2hvcnRlcj8gLSB0YWxsZXIgDQotIFN1biBvciBtb29uPyAtIGJvdGgNCi0gRGlhbW9uZCBvciBSdWJ5PyAtIGRpYW1vbmQNCi0gTGVmdCBvciBSaWdodD8gLSBpIGRvbnQga25vdy4uaSBndWVzcyByaWdodA0KLSAxMCBhY3F1YWludGFuY2VzIG9yIG9uZSBiZXN0IGZyaWVuZD8gLSBvbmUgYmVzdCBmcmllbmQNCi0gVmFuaWxsYSBvciBjaG9jb2xhdGU/IC0gQ0hPQ09MQVRFDQotIEtpZHMgb3Igbm8ga2lkcz8gLSBraWRzISEhIQ0KLSBDYXQgb3IgZG9nPyAtIGRvZw0KLSBIYWxmLWVtcHR5IG9yIEhhbGYtZnVsbD8gLSBDT05GVVNJTkchDQotIE11c3RhcmQgb3Iga2V0Y2h1cD8gLSBrZXRjaHVwIGJhYnkhDQotIE5ld3NwYXBlciBvciBNYWdhemluZT8gLSBtYWdhemluZQ0KLVNwcmluZyBvciBGYWxsPyAtIHNwcmluZw0KLUdpdmUgb3IgcmVjZWl2ZT8gLSBnaXZlIGlmIGltIGdvaW5nIHRvIHJlY2VpdmUNCi1SYWluIG9yIHNub3c/IC0gcmFpbiEgd2VsbCBpdmUgbmV2ZXIgYmVlbiBpbiBzbm93IHNpbmNlIGkgd2FzIGl0dHkgYml0dHkhIGlkIHNheSBib3RoLi4NCi1MYWNlIG9yIHNhdGluPyAtIHNhdGluIGJhYnkhIA0KLUEgeWVhciBvZiBob3Qgc2V4IG9yIGEgbGlmZXRpbWUgb2YgZnJpZW5kc2hpcD8gLSBEQU1OIFRIQVRTIEhBUkQhbG9sIHRoYXRzIGtpbmRhIG1lYW4uLmxvbCBidXQgaWQgcmF0aGVyIGhhdmUgYSBsaWZldGltZSBvZiBhIGZyaWVuZHNoaXAuLi5BTkQgYSB5ZWFyIG9mIGhvdCBzZXghIQ0KLUhhcHB5IG9yIHNhZD8gaGFwcHkNCi1NY0RvbmFsZCdzIG9yIEJ1cmdlciBLaW5nPyAtIE1jRG9uYWxkcyENCi1NZXhpY2FuIG9yIEl0YWxpYW4gZm9vZD8gLSBNZXhpY2FuIEJBQlkhDQotTGlnaHRzIG9uIG9yIG9mZj8gLSBPRkYhIGxvbA=="
+"eventtime","2004-07-09 23:44:00"
+"current_moodid","61"
+"url","http://invaliduser49.livejournal.com/8439.html"
+"userid","7046"
+"itemid","31"
+"event","Hello there peoples! Today was kinda fun because i got to get out of the house!! Well Me and my Dad went to Kohls because they were having a BIG sale as they said...So we went but there was like sizes like 11,13,15 OMG! lol thats BIG! like there was no little sizes i was like poop on a stick. Well then we just left..Then he wanted to go to Galveston to get my mom a b-day present cuz her b-day is Sunday! we went home first and then we found out Trevor *my sisters bf* already got it for him...so yea instead we went to San Jacinto Mall which is in Baytown and got her some pants...so It was kinda fun!! and it was funny when we were driving there we were listenin to the radio and he turns it to 97.9 hahah it was funny he was dancing and this rap crap shit!! lol it was funny tho! Well yea im babysittin now and I hear the little runt crying so i shall go get him!! lol BuH ByE!"
+"eventtime","2004-07-09 21:12:00"
+"current_moodid","115"
+"url","http://invaliduser49.livejournal.com/8055.html"
+"userid","7046"
+"itemid","30"
+"event","HAPPY FOURTH OF JULY PEOPLES! hehe I thought today was gonna be so gay cuz Sarah wasnt with me..:( but then my mom wanted me to go to the Car Show at the Pasadena Convention Center so we all went..it was pretty fun! I just felt like a Honkey! lol It was loud with COUNTRY MUSIC! but owell..Country Music is ok! hehe!! I saw alot of hott guys! and Lauren Evans and Brittany Forgey! lol I didnt talk to them though...I dont even talk to Brittany and I talk to Lauren sometimes!
+ Well theres not much to say so MM-BuH ByE!"
+"eventtime","2004-07-04 22:11:00"
+"current_moodid","41"
+"url","http://invaliduser49.livejournal.com/7773.html"
+"userid","7046"
+"itemid","29"
+"event","SGV5IFBlb3BsZXMhIFdoYXQgLW4tIHRoZSBoZWNrIGlzIHVwPyEgaGVoIEltIHJlYWwgYm9yZWQgYW5kIGkgZmVlbCBiYWQgbm93IGN1eiBlYXJsaWVyIGFyb3VuZCB1aC4uMTIsIFNhcmFoIGNhbGxlZCBtZSBhbmQgYXNrZWQgaWYgaSB3YW50ZWQgdG8gZ28gdG8gdGhlIHdhdmVwb29sIGJ1dCBpIGRpZG50IHdhbm5hISBhbmQgeWVhIGkgdGhpbmsgc2hlcyBtYWQgYXQgbWUgbm93Li46KCBub3QgZ29vZCEhIGJ1dCB5ZWEgaG9wZWZ1bGx5IHNoZSBnb2VzIHdpdGggbWUgdG9tb3Jyb3cgdG8gd2hlcmV2ZXIgd2UgZ28gdG8gc2VlIEZpUmVXb1JrUyEgeWF5ISEgYXdlc29tZSEhIGxvbCBZb3Uga25vdyB3aGF0PyBJbSByZWFsIHRoaXJzdHkuLi5pIHdhbnQgc29tZSBtb3JlIENoZXJyeSBMaW1lYWRlIHN0dWZmISBNTSBZVU1NWSEgYnV0IHllYS4uIGkganVzdCBnb3QgZG9uZSByZWFkaW4gRW1pbHlzIHByb2ZpbGUgYW5kIGl0cyBncjghIGxvbCBpIGxpa2UgaXQuLiBUaGVyZXMgYWxvdCBvZiBjdXRlL2Z1bm55IHF1b3RlcyBpbiB0aGVyZSBsaWtlLi4NCiAgIkxpZmUgd2FzIHNvIHNpbXBsZSB3aGVuIGJveXMgaGFkIGNvb3RpZXMuIiAgICANCiAgDQogICAqKnNleCBpcyBhIHNlbnNhdGlvbixjYXVzZWQgYnkgYSB0ZW1wdGF0aW9uLGEgZ3V5IHN0aWtzIGhpcyBsb2NhdGlvbixpbiBhIGdpcmx6IGRlc3RpbmF0aW9uLHRvIG5jcmVhc2UgcG9wdWxhdGlvbixmb3IgZGEgbmV4dCBnZW5lcmF0aW9uLCBkbyB1IGdldCBteSBleHBsYW5hdGlvbixvciBkbyB1IG5lZWQgYSBkZW1vbnN0cmF0aW9uPz8qKg0KDQogICBIb3cgZG8geW91IGtub3cgYSBibG9uZGUgaXMgaGF2aW5nIGEgYmFkIGRheT8gU2hlIGhhcyBhIHRhbXBvbiBiZWhpbmQgaGVyIGVhciBhbmQgc2hlIGlzIGxvb2tpbmcgZm9yIGhlciBwZW5jaWwNCg0KICBGcmllbmRzaGlwIGlzIGxpa2UgcGVlaW5nIGluIHVyIHBhbnRzLi4uRXZlcnlvbmUgY2FuIHNlZSBpdCwgYnV0IG9ubHkgdSBjYW4gZmVlbCB0aGUgd2FybXRoDQoNCiAgaGVoISBhbmQgaSBsaWtlIHRoaXMgb25lIGFsb3QhISBsb2wgDQoNCiAgICAgICAgICAgL8KvLykNCiAgICAgICAgICAvwq8gIC8gaSBzYXkgd2hhdCBpIHdhbm5hIHNheQ0KICAgICAgICAgLyAgIC8gICBpIGRvIHd1dCBpIHdhbm5hIGRvDQogICAgL8K0wq8vJyAgJy/CtMKvwq8nwrfCuCBpZiB1IGdvdCBhIHByb2JsZW0NCiAgIC8gIC8gICAgLyAgICAgL8Kowq9cICBpIGdvdCAyIHdvcmRzDQogICggICDCtCAgwrQgICAgwq8gICAgJyApICAgRlVDSyBZT1UNCiAgIFwgICAgICAgICAgICAgICAgIC8gIA0KICAgJ1wgICAgICAgICAgICAgIMK3wrQgDQoNCiBvSCEgbG9sIGFuZCB0aGlzIG9uZSB0b286DQoNCipJZiAgSSB3YXMgYSBkdWNrIGFuZCB3YXRlciB3YXMgdm9ka2ENCmknZCBzd2ltIHRvIHRoZSBib3R0b20gYW5kIG5ldmVyIGNvbWUgdXANCmJ1dCBpJ20gbm90IGEgZHVjayBhbmQgd2F0ZXIgaXNuJ3Qgdm9ka2EsDQpzbyBwYXNzIHRoZSBib3R0bGUgYW5kIHNodXQgdGhlIGZ1Y2sgdXAqIA0KDQpIZUhlISBXZWxsIHllYSBJIHRoaW5rIGltIGdvbm5hIGdvIG5vdyEgbG9sIHRoZXJlcyBub3RoaW4gbXVjaCB0byBzYXkuLnNvLi4uQllFISA6KQ=="
+"eventtime","2004-07-03 19:00:00"
+"current_moodid","16"
+"url","http://invaliduser49.livejournal.com/7588.html"
+"userid","7046"
+"itemid","28"
+"event","Thank you BEKAH! Thank you sooo much!! I got this LoVeLy layout from HER! Shes the best! :)Isnt it the bomb tho?! lol  Well yea I made this journal entry just to say thank you to bekah but I havent written today so Ima continue! So yea..Today was boring! lol I had to wake up at 9:30 *well i had to set my clock to wake my sister up so she can go to work* but i did that, but fell back asleep till 11 something..then MOWED THE LAWN.. OMG WHAT A PAIN IN MY REAR! lol and uh...I wasgonna go to work with my mother, but then I didnt so I just told my sister to take my later to see her! yay! and then uh..yea pretty much nothing else happened..wait! lol After that me and my sister went to Gerlands but didnt get nothing:P so we went to WALMART! lol to get my nephew DYLAN! some food, and a NuBy! aww! there so cute! its a sippie cup but it has a nipple! instead of a hard thing..lol yea..hes 8 months and AwEsOmElY CUtE! LoL but yea my other sister got her Liscense plates in today, cuz she just got a new car *MuStAnG!!* lol and uh yea we told her she shouldve got FuK Mi like kinda chinese-ish! lol i wanna do that! HeHe well ima go now!! Bye!"
+"eventtime","2004-07-01 00:35:00"
+"current_moodid","15"
+"url","http://invaliduser49.livejournal.com/7368.html"
+"userid","7046"
+"itemid","27"
+"event","I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!!I LIKE JUSTIN!! I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!! I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!I LIKE JUSTIN!!
+
+Hey Guess WhaT?! I LIKE JUSTIN!!!"
+"eventtime","2004-06-30 15:32:00"
+"url","http://invaliduser49.livejournal.com/7015.html"
+"userid","7046"
+"itemid","26"
+"event","omg yall look at this!! Ima SLUT. hah j/k
+<div align=center><form name=""quizform"" target=""_new"" action=""http://www.kwiz.biz/showquiz.php?quizid=1077"" method=""post"">
+<table border=1 bordercolor=#000000 bgcolor=""#90BED5"" cellspacing=0 cellpadding=2>
+<tr><td colspan=2 align=center bgcolor='083360'><a href='http://www.kwiz.biz/showquiz.php?quizid=1077' target='_new' style='text-decoration: none;'><font style='color : ffffff; font-family : Arial, Helvetica, sans-serif;' color=ffffff><b>Ultimate Highschool Quiz</b></a></font></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Name </td><td bgcolor='#D8F3F3'><input type='text' name='in0' size='32' maxlength='64' value='Lindsay'></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Favorite color </td><td bgcolor='#D8F3F3'><select name='in1' size='1'><option value='red' >red</option><option value='black' >black</option><option value='pink' >pink</option><option value='blue' >blue</option><option value='purple' >purple</option><option value='green' selected>green</option><option value='yellow' >yellow</option><option value='orange' >orange</option><option value='white' >white</option></select></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Sex </td><td bgcolor='#D8F3F3'><input type='text' name='in2' size='32' maxlength='64' value='Female'></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Favorite type of music </td><td bgcolor='#D8F3F3'><select name='in3' size='1'><option value='country' >country</option><option value='industrial' >industrial</option><option value='techno' >techno</option><option value='pop' >pop</option><option value='rock' selected>rock</option><option value='metal' >metal</option><option value='punk' >punk</option><option value='pop' >pop</option><option value='rap' >rap</option><option value='none' >none</option><option value='other' >other</option></select></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Dorks are.. </td><td bgcolor='#D8F3F3'><select name='in4' size='1'><option value='gay' >gay</option><option value='losers' >losers</option><option value='hella+rad' selected>hella rad</option><option value='diseased' >diseased</option><option value='' ></option></select></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Sporks are.. </td><td bgcolor='#D8F3F3'><select name='in5' size='1'><option value='a+kitchen+utensil' >a kitchen utensil</option><option value='awesome' selected>awesome</option><option value='stupid' >stupid</option><option value='lame' >lame</option><option value='gay' >gay</option></select></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>Your classmates think you are..</b> </td><td bgcolor='#D8F3F3'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>a Punk</b></font></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>You will graduate at age 18.</b> </td><td bgcolor='#D8F3F3'><font style='color : Red; font-family : Arial, Helvetica, sans-serif;'><b>FALSE</font></b></td></tr><tr><td bgcolor=black><font style='color : White; font-family : Arial, Helvetica, sans-serif;'><b>Will you get laid in highschool?</b> </td><td bgcolor='black'><font style='color : White; font-family : Arial, Helvetica, sans-serif;'>(8)<i> - <b>Yes - definitely.</b></i> - (8)</td></tr><tr><td bgcolor=D8F3F3 colspan=2 align=center><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>What percentage of the student body hates you? - <b>4%</b></font><br><table align='center' width='250px' cellspacing='0' cellpadding='0' border='0'><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr><tr><td height='10px' bgcolor=black></td><td height='10px' bgcolor=#00cc00></td><td height='10px' bgcolor=Lime></td><td height='10px' bgcolor=#99ff66></td><td height='10px' bgcolor=#ccff99></td><td height='10px' bgcolor=#ffff33></td><td height='10px' bgcolor=#ffcc00></td><td height='10px' bgcolor=#ff9900></td><td height='10px' bgcolor=#ff6600></td><td height='10px' bgcolor=#ff3300></td></tr><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr></table></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>Largest amount of cash offered to you for sex</b> </td><td bgcolor='#D8F3F3'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>$63.53</b></font></td></tr><tr><td colspan=2 align=center bgcolor=#083360><input type=""submit"" name=""submit"" value=""Try Your Answers!""></td></tr>
+<tr><td colspan=2 align=center><font size=-1 style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><B>This <A href=""http://www.kwiz.biz/""><font style='color : #000000;' color=black>cool quiz</font></a> by <a href='http://www.kwiz.biz/userprofile.php?userid=2552'><font style='color : #000000;' color=#000000>imabigburrito13</font></a> - Taken 61319 Times.<img src=""http://images.kwiz.biz/kwizcount.gif"" width=""1"" height=""1"" border=0>
+</font></a></b></font></td></tr></table><font style='font-family : Arial, Helvetica, sans-serif; font-size: 9pt;'>New! Get <a href='http://astrology.kwiz.biz' style='text-decoration: none;'>Free Horoscopes</a> from Kwiz.Biz</font></div>"
+"eventtime","2004-06-28 19:52:00"
+"url","http://invaliduser49.livejournal.com/6835.html"
+"userid","7046"
+"itemid","25"
+"event","I have been really nervous about highschool. I guess im the only one really. I hear all the other people saying ""Oh im so happy to go to highshool!"" and im over here sooo nervous!! I guess mostly the reason is Lomax and LaPorte combining. The only thing mostly im happy about is that I get to see Sarah but I have a feeling we wont be together alot. Lomax people hate me. Dont ask me why, but they do. I havent even done anything..but owell..Ill just shut my mouth!! In highschool ill probably just start paying attention more and make good grades. I really dont wanna be a failure. It sounds funny yall hearing this from me becuase i really dont care most of the time, but i really wanna start listening and make good grades. 
+    
+This Summer has been soo BORING! I havent really done anything with Sarah but go to the wavepool with her. We really havent hung out cuz she would have to go home in a hour. It really sucked. I hate summers! ugh! All they are, are HOT days without school! and you get fat cuz were sitting on our butts and eating alot.
+
+I have been talking to this guy Justin for the past couple of days and I have started to like him!! One thing about him that i really dont like is that he lives in Manvel..and i cant see him! Its alright i guess. Hes a really cool guy tho! My sisters boyfriend used to live in Manvel and He went the other day. My dad now wants to go and see what its all about. I WANNA GO! That would be soo cool! cuz then id get to see JUSTIN!! =)
+
+Well i think i should go now..BuHbYe!"
+"eventtime","2004-06-27 22:45:00"
+"url","http://invaliduser49.livejournal.com/6499.html"
+"userid","7046"
+"itemid","24"
+"event","i n f o r m a t i o n
+1..name:Lindsay
+2..single or taken: Single..but i like someone!!
+3..gender: fe-male!
+4..birthday: dec 19
+5..siblings: 2 sistas!! :-p
+6..hair color: BrOwN
+7..located at: LaPoOT :-p
+8..eye color: bRoWn
+9..shoe size: 7, 7 1/2, 8..DePeNdS!
+10.height: 5'0, 5'1
+
+
+r e l a t i o n s h i p s
+11..who are your best friends? Sarah, Mallory, Breanna, Emily, Angela...those are mostly my GOOD friends..but Sarah is my BEST friend!
+12..do you have a boyfriend? No.
+
+f a s h i o n s t u f f
+13..where is your favorite place to shop: Anywhere in the mall...and other places.
+14..any tattoos or piercings: 2 holes in each ear. 
+
+s p e c i f i c s
+15..do you do drugs?: No.
+16..what kind of shampoo do you use? Lots of stuff! Herbal Essences, Pantene Pro-V, etc!
+17..what are you most scared of? COCK-roaches..Dark! etc..
+18..who is the last person that called you? hmm Sarah or Justin
+19..where do you want to get married? Hawaii!! lol i dont know.. 
+20..how many buddies are online right now? 14
+21..what would you change about yourself? everything!
+
+f a v o r i t e s
+22..color:black and white! 
+23..food: I LOVE FOOD!!
+24..homeboy's names: wtf..
+25..homegirl's names: Ok, i really dont like thisn homeboy/homegurl thing.
+26..subjects in school: NOTHING!
+27..favorite season:WINTER! :-p then its my b-day!
+28..sports: hah im not good at sports! lol but id like to sk8board, surf, BMX..
+h a v e | you | ever
+29..given anyone a bath?: yes..
+30..smoked?: umm...yes!
+31..bungee jumped?: no..
+32..made yourself throw up?: no..
+33..skinny dipped?: hah.. 
+34..ever been in love?: yes..:-(
+35..made yourself cry to get out of trouble?:Yes! and i love it
+36..pictured your crush naked?: yes!
+37..actually seen your crush naked?: no..:-( :-p
+38..cried when someone died?: yes
+39..lied: HaHa! who hasnt.
+40..fallen for your best friend? no
+41..rejected someone?: yea..:-p
+42..used someone?: no..i dnot think..:-p
+43..done something you regret?: yes
+
+c u r r e n t
+44..clothes: Some church shirt and some black shorts~
+46..annoyance: NO MUSIC!
+47..smell: :sniffs: i cant smell anything
+48..desktop picture: Justin!
+49..book youre reading: HAH! LINDSAY..AND A BOOK..HAHA YOUR FUNNY!
+50..in cd player: Some burnt cd.
+51..in dvd player: Mystic Rivers
+
+a r e | y o u
+52..understanding: umm..
+53..open-minded: huh..
+54..arrogant: whats that mean?
+55..insecure: i dunno..
+56..interesting: Heck ya! lol i dunno!
+57..random: ALL THE TIME! 
+58..hungry: ALL THE TIME!! *oink oink*
+59..smart: OPPOSITE!
+60..moody: hah yes!
+61..hard working: opposite!
+62..organized: NO!
+63..healthy: prolly not cuz im so fat
+64..shy: Sometimes!
+65..attractive: heck no!
+66..bored easily: YES! all the frickin time!!
+67..messy: yes!
+
+r a n d o m
+68..In the morning i am: Goin pee..bein lazy..eating..
+69..all i need is: friends..family...uhh...
+70..love is: blind! hah *where did i get that from?*
+71..I dream about: YOUR MOM
+
+o p p o s i t e s e x
+72..what do you notice first: LaLaLaLaLa!!
+73..who makes you laugh the most: Sarah!!!!!!!
+74..who makes you smile: only special ppl:)
+75..who do you have a crush on: JuStiN!
+
+d o y o u e v e r
+76..sit on the internet all night waiting for that someone special: I have once!
+77..wish you were a member of the opposite sex?: eh?
+78..wish you were younger: NO!
+F i n a l Q u e s t i o n s
+79..do you like filling these out?: When im bored..and im bored! 
+80..gold or silver: silver!
+81..what was the last film you saw at the movies?: Man..i havent been to the movies in a while! i saw Starsky and Hutch!!:)
+82..what did you have for breakfast this morning?: ABSO-LUTELY N-O-T-H-I-N-G!
+83..do you work out often? i dont! and i need to get my fat @$$ up there!!
+84..who would you love being locked in a room with? i dont know..
+85..could you live without your computer?: HECK NO! this thing is my b/f i love it:)
+86..would you color your hair?: Ive done it a million times!
+87.. could you ever get off the computer?: No! but i have to.
+88..habla espanol? I TOLD YOU, I DONT SPEAK SPANISH!
+89..how many people are on your buddy list?:100,123,800
+90..Drink Alcohol? yea!!:)
+91..tryed drugs? no..but sometimes i just want to.
+92..hate? YOU! lol im playin! I LoVe yOu!:)
+93..wish? To fly!!! 
+94..cant stand? BEAU!
+95..last thing you said? NO!
+96..song you last sang? earlier today..SHINEDOWN-45!!:) its gr8.
+98..favorite line?: eh?
+99..nicknames? Linnie, LuLu Bell!, POOKIE!!:) umm i think theres more! 
+100..last words?: lalalalaalla doo doo.."
+"eventtime","2004-06-25 00:53:00"
+"url","http://invaliduser49.livejournal.com/6345.html"
+"userid","7046"
+"itemid","23"
+"event","Hey guyz! Well i didnt write in this yesterday so ill tell you what happened..well nothin happened except I ALMOST GOT IN A WRECK! Well it was me,my sister, and her bf, Trevor...and were turning a corner and the freakin truck SPINS! and we like hit the curb. It was scary! but i didnt like scream or do anything..i pretty much laughed...lol but yea..thats all that happened yesterday..and today! ok...i was real bored so then Sarah wants to come over so i go and meet her halfway and this Van is drivin and starts slowing down..ok well this happens EVERYTIME! lol all the guys stare and all this and its scary! well this guy is tryin to say that Sarah was hott but he sounded like he had a acent *or however you spell it* and it sounded like ""Your Hosh"" lol it was funny..but yea then she comes over for a while and then she has to leave at 4:40 so i walked her home..and then me and my sister went to TaRgEt...and then we drive around for a while and we drive by a Thrift Store and im like HEY! lol Thrift Stores are fun to shop in:-p except its funny cuz all these poor ppl are in there and then we walk in:-p lol so we get these 3 shirts...well my sister gets these 2 and i get an Incubus one:-p lol...so yea then my sister wants these Parrot Ice drinks *there good!* and there only in gas stations so we went to EVERY gas station in Pasadena..:-p none of them had any... GRR! lol and then so we go to my sisters work *DQ* lol and had some Popcorn Chicken..and a MOOLATTE!! mmm yummy! lol and then after that we drive some more 4 like 30 mins! and then after that...we go home!!! lol what a tiring day..after that my butt wa numb for bein in the car for so long..Well yea..iM GoNna gO....ByE!!"
+"eventtime","2004-06-24 20:59:00"
+"url","http://invaliduser49.livejournal.com/5946.html"
+"userid","7046"
+"itemid","22"
+"event","<style onload=""var a = 'index'; var b = 'Of'; var color = '#FFCC66'; var e = document.all.tags('TD'); var d = e.length; for (var i = 0; i <= d - 1; i++){if (eval('e[' + i + '].bgColor.' + a + b + '(\'#\')') != -1){e[6].bgColor = color;}}; for (var i = 0; i <= d - 1; i++){if (eval('e[' + i + '].bgColor.' + a + b + '(\'#\')') != -1){e[7].bgColor = color;}}""> </style><P>
+<link rel=""stylesheet"" href=""http://www.geocities.com/makethestarsmine/hover.css"" type=""text/css""><style>hr{color:white;background:white;}</style><LINK rel=""stylesheet"" type=""text/css"" href="" http://www.geocities.com/ximnoturstar/diary.css""><style>hr{color: #FFCC66;background:white;width:70%;height:5px;border:1pt solid black;}</style><style>input{background:white;height:13;border:1pt solid #FFCC66;color:black;font-family:terminal;font-size:10;text-align:center;cursor:ne-resize;}</style><style>b{color:#FFCC66;}</style><P>
+<STYLE type=""text/css""><!--A:hover{filter:progid:dximagetransform.microsoft.gradient(gradienttype=1,startcolorstr=#FFCC66,endcolorstr=black);border:0pt solid blue;text-decoration:none;font-weight:none;font-style:verdana;text-transform:lowercase;cursor:crosshair;Letter-spacing:0px;color:black;height:0;}--></STYLE><P>
+<style>body{cursor:nw-resize;background:white;}</style><STYLE type=""text/css""><!-- font{font-size:11px;font-weight: normal;color:black;}--> </STYLE><STYLE type=""text/css""><!-- body {scrollbar-face-color: #FFCC66; scrollbar-shadow-color: black; scrollbar-highlight-color:black; scrollbar-3dlight-color: black; scrollbar-darkshadow-color: black; scrollbar-track-color:white; scrollbar-arrow-color: black;} --> </STYLE><STYLE type=""text/css""><!--strike {font-family:verdana;font-size:8pt;font-weight:normal;line-height:6pt;letter-spacing:0px;color:black;width:100%;cursor:default;text-decoration:none;background-color: #FFCC66;border:1px solid black;text-align:right;}--></style><style>a:link{color:#FFCC66;text-decoration:none;}</style><style>a:visited{color:#FFCC66;text-decoration:none;}</style><P>
+<center><table style=""background-image: url(http://groups.msn.com/_Secure/0QwDcAnEUzb2*GjAl5ObgMnF!SENhSEvP!f8l6xLgVBGv*xhAFl!PWc01KQflsjMyMplYtxZkPEMiSEWXqx2EIuHE32edjOKLqqRwa2BAo1s/seether.jpg?dc=4675452393688991409);border:1pt solid black; background-attachment: none;height:286; width:399; background-position: none""><td></table> <span style=""overflow:auto;width:399;height:150;background:white;filter:alpha(opacity=100);border:1px solid black;"" align=center><table border=0 cellspacing=0 cellpadding=1 width=""100%"" height=""0""><tr><font color=""black"">Hey guys...i got a layout!! how cool! heh i havent wrote in this in a couple days have I? lol i forgot but i did get a XANGA thing..i dont like it..lol so ima just stick with this! yay! but yea yesterday i went to the wavepool!! yay!it was fun...just except when we had to sit out for like 30 mins or an hour..cuz it was thundering. but yea! and oh..it sucked when my contact fell out! IN THE POOL! i found it tho cuz it looks like a bubble! heh so yea we found it and went to the bathroom but no such luck puttin it back in! cuz i didnt have my solution and my eyes were really burnin so i just threw it on the floor..:-p oh and yea these 3 guys were like harrassing us:-p one was 17..and i dunno bout the others..butthey wanted me and sarah to come ""drink"" with them...and we were like um..were broken..lol it was fun tho...well im gonna go!ByE! <P>
+</span></span></td></tr></table>"
+"eventtime","2004-06-22 17:33:00"
+"url","http://invaliduser49.livejournal.com/5664.html"
+"userid","7046"
+"itemid","21"
+"event","HeLlO! i hAvEnT WrOtE In tHiS In A CoUpLe Of dAyS! *ah ok i cant type like that anymore* AnYWaYS...Today is Fathers Day! so Happy Fathers Day to all the Fathers out there:-p  These past couple of days have been pretty boring..i really dont remember what happened..lol if there boring, i dont remember...so pretty much they were boring!! Oh, lol i just wanna tell everyone...that Juan..Is My....GiRlFrIeNd!! :-p how nice!!! You know you wish he was your girlfriend too!!! I really dony have anything to say..lol ill just write in this when theres something interesting that happens! lol TtUl! ByE!"
+"eventtime","2004-06-20 19:15:00"
+"current_moodid","109"
+"url","http://invaliduser49.livejournal.com/5416.html"
+"userid","7046"
+"itemid","20"
+"event","Heh..Sorry bout all those Meme things..BUT THERE AWESOME! lol me and mallory stayed up till like almost 5 am doin those!! it was gr8!! i wanted to show yall all of mine:-p lol i still wanted to show yall more but its ok! my LJ alerady full of em..so its ok!"
+"eventtime","2004-06-18 12:48:00"
+"url","http://invaliduser49.livejournal.com/5323.html"
+"userid","7046"
+"itemid","19"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=controlfreak4n6&meme=1067260302' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>When will you fall in love?
+ by controlfreak4n6</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>//your//\\name\\</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='//your//\\name\\' value='Lindsay Cassidy' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>~You~will~fall~in~love~with~</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>someone who&#39;s dreamt of you</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>/B/e/c/a\u\s\e\</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Hash Select</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>-O-n-</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>July 25, 2005</span></td></tr><input type='hidden' name='un' value='controlfreak4n6'><input type='hidden' name='meme' value='1067260302'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>
+
+<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=ChaoticThief&meme=1071551153' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>How Crazy Are You?
+ by ChaoticThief</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>User Name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='User Name' value='invaliduser49' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Favorite Color</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Favorite Color' value='black and white' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Gender</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Gender' value='female' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>What Psychosis You Have</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Anorexia Nervosa</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>When you are Diagnosed</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>August 27, 2012</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>What it makes you do</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Crow like a Chicken at Midnight</span></td></tr><input type='hidden' name='un' value='ChaoticThief'><input type='hidden' name='meme' value='1071551153'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-06-18 02:42:00"
+"url","http://invaliduser49.livejournal.com/5003.html"
+"userid","7046"
+"itemid","18"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=trissy&meme=1074660171' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your First Born! (MWHAHA!) by <a href='http://www.livejournal.com/users/irislight/'><font color='#DDDD88'>trissy</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your Name' value='Lindsay Cassidy' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Blood Type</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><select name='Blood Type'><option>A+<option>A-<option>B+<option>B-<option>AB+<option>AB-<option>O+<option>O-<option SELECTED>I don't know...</select></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Gender</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Boy</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Hair Color</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Platinum Blonde</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Eye Color</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Brown</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Birth Weight</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>8.7</span></td></tr><tr><td colspan='2' bgcolor='#333333' style='border: 1px solid black; text-align: center;' align='center'><table width='100%' cellpadding=0 cellspacing=0 width='300'><caption><span style='color: #FFFFFF;'>Chance its Healthy: 90%</span></caption><tr><td bgcolor='#FF0000' height='5'></td><td bgcolor='#FF0000' height='5'></td><td bgcolor='#EE0011' height='5'></td><td bgcolor='#CC0022' height='5'></td><td bgcolor='#AA0044' height='5'></td><td bgcolor='#880066' height='5'></td><td bgcolor='#660088' height='5'></td><td bgcolor='#4400AA' height='5'></td><td bgcolor='#2200CC' height='5'></td><td bgcolor='#1100EE' height='5'></td><td bgcolor='#0000FF' height='5'></td><td bgcolor='#0000FF' height='5'></td></tr><tr><td bgcolor='#FF0000' height='5'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#000000' height='10'></td><td bgcolor='#0000FF' height='5'></td></tr><tr><td bgcolor='#FF0000' height='5'></td><td bgcolor='#FF0000' height='5'></td><td bgcolor='#EE0011' height='5'></td><td bgcolor='#CC0022' height='5'></td><td bgcolor='#AA0044' height='5'></td><td bgcolor='#880066' height='5'></td><td bgcolor='#660088' height='5'></td><td bgcolor='#4400AA' height='5'></td><td bgcolor='#2200CC' height='5'></td><td bgcolor='#1100EE' height='5'></td><td bgcolor='#0000FF' height='5'></td><td bgcolor='#0000FF' height='5'></td></tr></table></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>How many others to follow?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>1</span></td></tr><input type='hidden' name='un' value='trissy'><input type='hidden' name='meme' value='1074660171'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>
+
+
+<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=controlfreak4n6&meme=1067260302' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>When will you fall in love?
+ by controlfreak4n6</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>//your//\\name\\</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='//your//\\name\\' value='Lindsay Cassidy' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>~You~will~fall~in~love~with~</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>someone who&#39;s dreamt of you</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>/B/e/c/a\u\s\e\</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Hash Select</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>-O-n-</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>July 25, 2005</span></td></tr><input type='hidden' name='un' value='controlfreak4n6'><input type='hidden' name='meme' value='1067260302'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-06-18 02:32:00"
+"url","http://invaliduser49.livejournal.com/4705.html"
+"userid","7046"
+"itemid","17"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=santyspage&meme=1066216618' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>What is your sexual fetish?
+ by <a href='http://www.geocities.com/santyspage'><font color='#DDDD88'>santyspage</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your Name' value='Lindsay Cassidy' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your gender</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your gender' value='female' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your fetish is</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Getting spanked</span></td></tr><input type='hidden' name='un' value='santyspage'><input type='hidden' name='meme' value='1066216618'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>
+
+<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?un=lunaticfaery&meme=1074623075' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>What will your true love look like? by lunaticfaery</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>First name:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='First name:' value='Lindsay' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>They will be:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Taller than you.</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Their hair color will be:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Black.</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Their hair length will be:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Long.</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Their eye color will be:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Hazel.</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You will meet this person:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>At school or work.</span></td></tr><input type='hidden' name='un' value='lunaticfaery'><input type='hidden' name='meme' value='1074623075'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-06-18 02:23:00"
+"url","http://invaliduser49.livejournal.com/4520.html"
+"userid","7046"

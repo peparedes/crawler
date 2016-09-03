@@ -1,0 +1,1059 @@
+"names","values"
+"itemid","548"
+"event","U28gSSBoYXZlbid0IHdyaXR0ZW4gaW4gaGVyZSBpbi4uLiBhIGxvbmcgdGltZS4gSSBhbSBraW5kIG9mIGluIHRoZSBtb29kIGZvciBpdCB0aG91Z2guIEkgY291bGRuJ3QgcmVtZW1iZXIgbXkgcGFzc3dvcmQgYXQgZmlyc3QsIEkgaGF2ZW4ndCBtYWRlIG15IHBhc3N3b3JkIHdoYXQgaXQgaXMgZm9yIExKIHNpbmNlIGdyYWRlIDkgb3IgMTAsIHdoZW4gSSBmaXJzdCBtYWRlIHRoaXMgYWNjb3VudCBJIHRoaW5rLCBoZWhlLg0KDQpIbW0uLi4gc28gSSdtIHNpdHRpbmcgaGVyZSBpbiBteSBwZW5ndWluIGZsZWVjZSBwYWphbWFzIGVhdGluZyB0b2FzdCBhbmQgdGhpbmtpbmcgYWJvdXQgbGlmZSBhbmQgd2hvIEkgYW0gYW5kIHdobyBJIHVzZWQgdG8gYmUgYW5kIHdoYXQgaGFzIGNoYW5nZWQgc2luY2UgYmVmb3JlIEkgbGVmdCBmb3IgQ3plY2gsIHNpbmNlIEkgbGVmdCBDemVjaCwgc2luY2UgSSBzdGFydGVkIHVuaSwgZXNwZWNpYWxseSBzaW5jZSBJIGFtIGdvaW5nIGJhY2sgdG8gRXVyb3BlIGZvciAyIHdlZWtzIGF0IHRoZSBlbmQgb2YgQXByaWwuIEl0IGFsbW9zdCBmZWVscyBzdXJyZWFsIGJlY2F1c2UgaXQgdG9vayBtZSBhbG1vc3QgdGhpcyB3aG9sZSB5ZWFyIHRvIGRldGFjaCBteXNlbGYgZnJvbSBldmVyeXRoaW5nIHRoYXQgaGFwcGVuZWQgaW4gQ3plY2ggYW5kIFN3aXR6ZXJsYW5kLCB0aGUgdHdvIHBsYWNlcyBJIGxpdmVkIGluIHRoZSBsb25nZXN0LiBJdCB3YXMgYW4gZXh0cmVtZWx5IHBhaW5mdWwgYW5kIGRpZmZpY3VsdCBleHBlcmllbmNlIGJ1dCBJIGRpZCBtb3JlIHRoYW4gSSBldmVyIHdvdWxkIGhhdmUgdGhvdWdoIG15c2VsZiBjYXBhYmxlIG9mLiBXaGljaCBpcyB3aHkgSSB0aGluayBFVkVSWU9ORSBzaG91bGQgdGFrZSB0aW1lIG9mZiBmcm9tIHRoZWlyIGxpdmVzIGluIGNvbWZvcnQgYW5kIGdvIHNvbWV3aGVyZSBkaWZmZXJlbnQgYW5kIGxpdmUgYW5kIHdvcmsgYW5kIHZvbHVudGVlciBhbmQgY29udHJpYnV0ZSBzb21laG93LiBJZiB5b3UgaGF2ZW4ndCBsaXZlZCBpbiBhbm90aGVyIGNvdW50cnkgeW91IHJlYWxseSBoYXZlIG5vIHNlbnNlIG9mIGhvdyBpZ25vcmFudCBhbmQgc2VsZmlzaCB5b3UgYXJlLCBubyBtYXR0ZXIgd2hlcmUgeW91IGdvLCBpdCBtYWtlcyB5b3Ugc2Vuc2l0aXZlIHRvIGhvdyBwZW9wbGUgdGhhdCBjYW1lIHRvIHlvdXIgY291bnRyeSB0byBpbW1pZ3JhdGUgaGF2ZSBmZWx0LiBJdCByZWFsbHkgaXMgYW1hemluZy4NCg0KQXMgZm9yIG1lLCBJIG1vdmVkIHRvIHRoZSBjb2xkZXN0IGNhcGl0YWwgb24gZWFydGggKFdpbm5pcGVnKSB0byBiZSBjbG9zZSB0byBteSBzaXN0ZXIgd2hpbGUgc2hlIGhhZCBoZXIgYmFieS4gSXQgaGFzIHByb3ZlZCBhbiBpbnRlcmVzdGluZyBhbmQgaW5zaWdodGZ1bCB5ZWFyLiBNeSBiZWF1dGlmdWwgbmVwaGV3IFRow6lvIHdhcyBib3JuIEZlYnJ1YXJ5IDI4LCAyMDA5IGF0IDEwIGFtLiBJdCBpcyBhIGZlZWxpbmcgdW5saWtlIGFueSBJJ3ZlIGV2ZXIgZXhwZXJpZW5jZWQgdG8gaGF2ZSBhIGJyYW5kIG5ldyBodW1hbiBiZWluZyBpbiBteSBhcm1zIHRoYXQgSSB3aWxsIGJlIGF0dGFjaGVkIHRvIGZvciB0aGUgcmVzdCBvZiBteSBsaWZlLCB0aGF0IEkgd2lsbCB3YXRjaCBhcyBoZSBsZWFybnMgYW5kIGdyb3dzIGFuZCBzZWUgd2hvIGhlIGJlY29tZXMuIEkgY2FuJ3QgZGVzY3JpYmUgdGhlIGpveS4NCg0KVGhlIHNjaG9vbCB5ZWFyIGlzIGFsbW9zdCBvdmVyLiBJJ3ZlIGRvdWJ0ZWQgYW5kIHF1ZXN0aW9uZWQgd2hvIEkgd2FzIGFuZCBhbmQgd2hhdCBJIHdhbnRlZCB0byBkbyB3aXRoIG15IGxpZmUgbW9yZSB0aGFuIEkgZGlkIGluIEN6ZWNoLiBJJ3ZlIG1ldCBzb21lIGNvb2wgcGVvcGxlLiBNeSBsaWZlIGluIEVkbW9udG9uIHNlZW1zIHNvIGZhciBhd2F5IG5vdy4gSSBrZWVwIGluIHRvdWNoIHdpdGggYSBmZXcgY2xvc2UgZnJpZW5kcyBhbmQgSSd2ZSBiZWVuIGJhY2sgb25jZSB0byB2aXNpdCB3aGljaCB3YXMgZ3JlYXQsIGJ1dCBJIGFtIHJlbWluZGVkIG9mIHRoZSBmYWN0IHRoYXQgSSBoYXZlbid0IGxpdmVkIHRoZXJlIGluIDIgeWVhcnMuIEFuZCB0aGF0J3MgYSBiaXQgcmVtYXJrYWJsZSB0byBtZS4gDQoNClRpbWUgZ29lcyBieSBzbyBzbG93IHlldCBzbyBmYXN0IGF0IHRoZSBzYW1lIHRpbWUu"
+"eventtime","2009-03-29 11:39:00"
+"current_moodid","101"
+"url","http://goodness-sake.livejournal.com/140290.html"
+"userid","5783"
+"itemid","546"
+"event","It's raining, it's pouring... in Switzerland.
+
+Which is where I am right now. For the past month. Because I got kicked out of the Czech Republic, where I was for 7 months, until I receive my Visa.
+
+I haven't written in here for ages! Does anyone still read this?? If you do, write me an email, or post or something. I'd love to hear from any of you.
+
+Loie"
+"eventtime","2008-04-10 21:07:00"
+"url","http://goodness-sake.livejournal.com/140019.html"
+"userid","5783"
+"itemid","545"
+"event","I'm moving to the Czech Republic in a week.
+
+If you want updates from me while I'm there, let me know. :)"
+"eventtime","2007-08-08 22:57:00"
+"url","http://goodness-sake.livejournal.com/139649.html"
+"userid","5783"
+"itemid","544"
+"event","Go see it. It is the best movie I've seen in ages. I can't get over how great it is. I was grinning ear to ear and shaking in my seat the entire time."
+"eventtime","2007-07-28 15:20:00"
+"url","http://goodness-sake.livejournal.com/139391.html"
+"userid","5783"
+"itemid","543"
+"event","How much are you worth? Fill in everything that applies, you may have combinations.
+
+Body: Natural Hair Color:
+[ ]Redhead/auburn - $50
+[x]Brunette - $75
+[x ]Blonde - $50
+[ ]Black - $15
+[ ]Bald - $5
+[ ]Other-$100
+
+Total: 125
+
+Eye Color:
+[x]Blue - $100
+[x ]Green - $75
+[ ]Brown - $50
+[x ]Hazel - $25
+[x ]Other - $15
+
+Total So Far: 340 (if my mental calculations are correct...) My eyes change colour...
+
+
+Height
+[ ]Over 7' - $200
+[ ]6'8"" to 7' - $175
+[ ]6'0"" to 6'7"" - $150
+[x ]5'5"" to 5'11"" - $75
+[ ]5'0"" to 5'4"" - $50
+[ ]Under 5' -$25
+
+Total So Far: 415
+
+Age:
+[ ]31 to 40 - $100
+[ ]26 to 30 - $75
+[ ]21 to 25 - $50
+[x ]18 to 20 - $25
+[ ]0 to 17 - $15
+
+Total So Far: 440
+
+Current Education:
+[ ]PhD - $500
+[ ]Masters - $450
+[ ]Bachelors - $400
+[ ]Associates - $350
+[ ]In College/Some College - $300
+[x ]High School Graduate - $250
+[ ]High School - $200
+[ ]middle school - $150
+[ ]High School Dropout - $100
+ []Jr. High - $50
+[ ]What is School - $Bankrupt$
+
+Total So Far: 690
+
+Birth Order:
+[ ]Twins or more than twins - $300
+[ ]First Born - $300
+[]Only Child - $250
+[ ]second born-$150
+[ ]middle child -$100
+[ x]Last Born - $50
+[ ]Other - $25
+
+Total So Far: 740
+
+Drink Alcohol?
+[x ]Never - $300
+[ ]Only Holidays - $250
+[]Sometimes - $200
+[ ]Every other week - $150
+[ ]Every other day - $50
+[ ]Once a day - $15
+[ ]I live from the bottle - $Bankrupt$
+
+Total So Far: 1040... sweet...
+
+Vision?
+[ ]No corrections $75
+[x] Glasses $50
+[ ] Contacts $25
+[ ] Surgical correction $10
+
+Total So Far: 1090
+
+Car Color (parents car, if you dont have one)-(you can choose multiple colors, if applicable):
+[ ]Gold - $700
+[ ]Grey - $600
+[ ]Blue - $500
+[ ]White - $475
+[ ]Black - $450
+[x]Red - $400
+[ ]Green- $350
+[ x]Silver - $300
+[ ]Purple- $250
+[ ]Metallic - $200
+[ ]Yellow - $100
+[ ]Primer - $75
+[ ]Rusted - $15
+[ ]No Car - $0
+
+Total So Far: 1790
+
+Shoe Size:
+[ ]13+ - $300
+[ x]11 to 12 - $200
+[ ]7 to 10 - $100
+[ ]Under 7 - $50
+
+Total: 1990
+
+Room Color (can be multiple colors):
+[ ]Black - $500
+[ ]Blue - $475
+[ ]Brown - $450
+[ ]White - $400
+[x] Green - $350
+[ ]Orange - $300
+[ ]yellow - $200
+[ ]Pink - $100
+[x]Other - $ 50
+
+Total: 2390
+
+
+Wooh..."
+"eventtime","2007-07-06 23:09:00"
+"url","http://goodness-sake.livejournal.com/139098.html"
+"userid","5783"
+"itemid","542"
+"event","Okay, so. School is over, exams suck. Enough on that. The title pretty much summarizes this entry.
+
+My parents were out of town for the past week pretty much, first in Boston and then visiting my brother for his convocation in San Diego. (He has his Masters!! Wow!)
+
+So this meant unlimited awesomeness, which basically equated to every second I wasn't studying, hanging out, watching movies, eating ridiculous amounts of microwaved popcorn, making delicious dinners and occasionally getting lazy and going to the grand opening of the Callingwood 'newly renovated' Safeway and making a meal out of sampling all the free food. With Karene and Christie. Sleepovers. Then Christie left, and Karene stayed. Then Karene left and Christie stayed. She's been to her house once since Thursday. I love it.
+
+So last night after my bio exam, we made a great dinner and (of course) microwaved popcorn. Then we went to my basement and set up her gamecube and played video games for an hour. Then I wanted to keep playing, and she went upstairs and made cookies. I joined her shortly. And we ate. And watched the thunderstorm and went for a walk. And then played more gamecube.
+
+Seriously, who needs a boyfriend when your best friend is pretty much everything you need? (including the masculine elements like videogame savvyness and the like? She actually took a gender identity test, which said she was 85% masculine. ""Are you kidding? I would drive around until my death before pulling over for directions."")
+
+So basically, (I just realized I've already started 2 othe paragraphs with 'so'. Le sigh.) I am going to miss her more than my family when I go to live in the Czech next year. Which will be amazing and excellent and inspirational and a great experience and all that, but still. Must make the most of time now.
+
+Jules' grad is Thursday. >.< At the time it seemed an okay idea to  be his date, but he is making a bit too big of a deal about it which is making me a bit worried. I just want to go, stay, dance a bit, and go home. That's not going to happen. I also want him to have as good a time as I had at my grad, and I know it will be my fault if I wreck it for him because of my lack of enthusiasm. I'll do my best to make it a good time. 
+
+My birthday is Friday. Hm. Interesting. I am completely unsuspecting of any plans my friends might have. Really. I am not at all interested in the facebook event 'Loie's Surprise Birthday'. Uh-huh."
+"eventtime","2007-06-19 10:08:00"
+"current_moodid","114"
+"url","http://goodness-sake.livejournal.com/138759.html"
+"userid","5783"
+"itemid","541"
+"event","So it was fun. One of those things that is really hyped up but you know it is so you don't make too high of expectations, and when it's over it doesn't seem like that big of a deal. But I'm a graduate now, so I guess that is cool.
+
+Devon came as my date, and my parents took pictures (that didn't turn out that well unfortunately) and we went to pick up Christie and took more pictures there. Then we drove to the Shaw, waited 30 minutes to turn right to go into the parking lot, got frustrated and afraid that I would miss the procession, but didn't have to be as when I got there I was forced to ditch said date and best friend and go wait in the procession line doing nothing for 40 minutes. 
+
+The dinner was okay, they catered to allergies (which at our table were plentiful), the dancing was quite fun (especially the slow dances, which take no skill whatsoever and involve not very much of anything except being close to a (in my case) very attractive boy). So that was cool. He had to leave at 11:15 about, so Christie and I drove off to Adam's for the afterparty and got there at about 12:30. It was low key, with only about 8 of us (Adam, his girlfriend Kat, Christie, Emily, Diamond, Sarah, Mary and I) and there was much good food. Adam lit the fire pit and we sat around and jumped on the trampoline and went inside and had champagne (in me, Emily and Christie's case, non-alcoholic champagne, which was totally cleaned out before the real champagne hehe). Eventually around 3 I was too tired, so I drove Christie and I home. 
+
+In the morning (approximately 5 hours later) I forced myself out of bed to go prepare for my students' piano recital which went extremely well. I am feeling very sad lately, I think this is a result of a few things... namely that Steve left today and Zohreh leaves on Wednesday, and that she is extremely and chronically ill... and also that I don't know what to do with myself now that grad isover. I never thought past it. Also I am a bit disappointed in myself, but that's a bit of a different story.
+
+Overall, a good weekend."
+"eventtime","2007-05-28 13:13:00"
+"url","http://goodness-sake.livejournal.com/138721.html"
+"userid","5783"
+"itemid","540"
+"event","Music can make you love or hate someone or something... and it can make you feel different. If someone makes music it can make you forget your differences. I really like people that can sing and play and be different from everyone else their age... I wish I was more different... maybe I'm the same as everyone else too."
+"eventtime","2007-05-07 14:55:00"
+"current_moodid","126"
+"url","http://goodness-sake.livejournal.com/138485.html"
+"userid","5783"
+"itemid","539"
+"event","I really dislike assignments that are tedious and long and don't help me learn anything."
+"eventtime","2007-05-06 21:05:00"
+"url","http://goodness-sake.livejournal.com/138004.html"
+"userid","5783"
+"itemid","538"
+"event","Ok so I'm updating a lot recently, mostly because I have nothing worthwhile to say. If I had something worthwhile to say, it wouldn't likely make it into livejournal would it? Of course not.
+
+My sister and her husband are coming to my grad, which is really awesome, except that apparently my sister in law really wanted to come but I don't have enough tickets. 
+
+I want to stop being stressed out. Not likely to happen until IB exams are over (which I haven't started studying for and start on Thursday)... and until I get my hands on the new Mika CD, which banishes any sad feelings within 30 seconds. 
+
+I need to find a time to see Devon before my grad. And Jules before his... why I am not sure, but he's insistent.
+
+Practicing piano has pretty much disappeared from my life. No time, no energy.
+
+Nothing is finalized for next year, which is also freaking me out. I'm applying for the university in any case... we'll see what happens.
+
+I think I'll end the complaints here."
+"eventtime","2007-04-30 10:41:00"
+"current_moodid","69"
+"url","http://goodness-sake.livejournal.com/137897.html"
+"userid","5783"
+"itemid","537"
+"event","You know how I was going to start being happy? It's proving really difficult. Today was a pretty okay day except I let this one little thing bother me and am now succumbing to these stupid feelings again. I wonder if people are really happy or if we just think they are because we're not and they have what we want. 
+
+That movie 'The Pursuit of Happyness' I remember they say it's the 'pursuit', as in you are always working towards happiness but never get there. I wonder to what extent that's true. How happy are we really?"
+"eventtime","2007-04-27 17:06:00"
+"current_moodid","55"
+"url","http://goodness-sake.livejournal.com/137550.html"
+"userid","5783"
+"itemid","536"
+"event","I am tired of being unhappy so much, so I'm trying to, while at one of the worst times (being really sick, and stressed) get rid of this sucky-ness feeling that's looming over me constantly.
+
+I had an awesome day at school on Friday. It was mainly great because I got something that has been stressing me out off my shoulders, and it resulted in getting to know someone better. We had a good conversation for about 2 hours. Who does homework at school or goes to class? Not us!
+
+So... then I got sick. Anyway. That singer Mika, who sings 'Love Today' and 'Lollipops' writes really really catchy songs... in falsetto. It's pretty sweet. 
+
+I started writing again, and I realized how much I missed it. I wrote it on Thursday, which wasn't a good day, so I wrote a poem about that day and the day before, and then when the next day was over, I added that day in. I don't know. I have a lot of writing about the people in my life. I never name them, and by the end they probably wouldn't even recognize themselves. I once wrote this poem about a problem I was having with a friend and posted it on my blog and she messaged me a few days later saying she really liked it and wanted to forward it to all her friends. Life works in strange ways.
+
+I love this song... What a Good Boy by the Barenaked Ladies... the lyrics say a lot to me:
+
+I wake up scared 
+I wake up strange 
+I wake up wondering if anything in my life 
+Is ever gonna change 
+I wake up scared 
+I wake up strange 
+And everything around me stays the same"
+"eventtime","2007-04-23 12:47:00"
+"url","http://goodness-sake.livejournal.com/137248.html"
+"userid","5783"
+"itemid","535"
+"event","It's early. I'm stressed. I want to get through this day not feeling like a wreck afterwards. Wish me luck."
+"eventtime","2007-04-19 07:30:00"
+"url","http://goodness-sake.livejournal.com/137080.html"
+"userid","5783"
+"itemid","534"
+"event","Nothing overly exciting is happening, or much worth writing about. Jules is back from Europe, which  makes me happy. I missed him quite a lot actually, strangely enough. I have to go teach piano now though. My last student learned 4 new pieces almost perfectly by herself without me asking her to. I'm proud."
+"eventtime","2007-04-03 18:24:00"
+"url","http://goodness-sake.livejournal.com/136785.html"
+"userid","5783"
+"itemid","533"
+"event","So is anyone else in agreement...?
+
+<img src=""http://i6.photobucket.com/albums/y235/handisnice/brandon_boyd_99.jpg"" />
+
+Brandon Boyd is the only man alive that can make a feathered Cap'n Crunch hat look attractive."
+"eventtime","2007-03-27 13:47:00"
+"url","http://goodness-sake.livejournal.com/136499.html"
+"userid","5783"
+"itemid","532"
+"event","I thought today would be a horrible day but it wasn't, it was actually quite a good day. I'm still upset at getting ditched by my grad date, and he knows it. I kind of suck at staying mad at people. Le sigh. I could talk forever on the subject of how getting ditched is really better in the long run because things end up working for the best. I can go with someone I actually want to go with a lot (like Laheeb) but that could go on forever. This is just a brief update on that subject.
+
+Naw Ruz was awesome yesterday... wooh, Persian music and cute kids and trying to dance to Persian music, and most of all no more fasting! I think we all had fun... Jen G, Emily, Diamond, Sophia, Kelsey and I. Yay."
+"eventtime","2007-03-22 15:13:00"
+"url","http://goodness-sake.livejournal.com/136200.html"
+"userid","5783"
+"itemid","531"
+"event","Loie says:
+*rainbow*
+ 
+RiChiE  - 16 days says:
+LOL *insert random rainbow image*
+
+Loie says:
+it's a metaphor for our friendship. Um...
+
+the red represents what you are not to wear to grad because then we'll look like a christmas tree. the yellow represents your hair. the green represents my obsession with that colour. and the blue is the best colour on you. and that is the metaphor for our friendship. 
+
+Loie says:
+do you concur?!! 
+
+RiChiE  - 16 days says:
+yes haha!"
+"eventtime","2007-03-19 23:06:00"
+"url","http://goodness-sake.livejournal.com/136141.html"
+"userid","5783"
+"itemid","530"
+"event","My brother is taking me to Incubus in May for my birthday. :D So excited!
+
+Life is not all that interesting."
+"eventtime","2007-03-08 19:15:00"
+"url","http://goodness-sake.livejournal.com/135708.html"
+"userid","5783"
+"itemid","529"
+"event","It is way too early to be studying math. Trigonometry especially.
+
+While fasting I have to get everything done while I have food in my stomach or else I never get it done. Bleh."
+"eventtime","2007-03-03 08:09:00"
+"url","http://goodness-sake.livejournal.com/135579.html"
+"userid","5783"
+"itemid","528"
+"event","Kelsey gave me a green tape measure for a present. On the back it said 'Whenever you feel sad, just take this out and remember how amazing and tall you are.'
+
+I love my friends!"
+"eventtime","2007-02-28 22:20:00"
+"url","http://goodness-sake.livejournal.com/135222.html"
+"userid","5783"
+"itemid","527"
+"event","...and have been since yesterday. Not really sure why. I think it's because like I suspected would happen, since my last entry things have gone somewhat downhill. I painted my nails bright pink and the fumes are getting to my head so maybe I can cheer up before the night is over...
+
+Basically I'm annoyed at school. And 2 people that don't merit my annoyance. But anyway.
+
+Friday was a bad, bad day, which got better on the bus ride home- some people know what I'm talking about. Got dressed and pretty and Alyssa came to pick up Diamond, Emily and I for the dinner and dance... which was fun. My brother and his wife came, which was cool but they left early because the music was too 'slow' for them. I tried to flag down a few token males for Amy to dance with since she's too shy to ask, but they were all busy playing in the band, like almost all our guy friends, which was irritating and left us to be preyed on by the two creepy 25 year old drunk guys. 
+
+Went home, slept, was awoken early, on the road to Fort Mac to go see my aunt in Little Shop of Horrors. Was very very awesome, met aunt's biology teacher ex boyfriend who was very cool and very cute. (am I allowed to say that? he was all excited because he got a 'chili pepper' rating on ratemyprofessors.ca which means students think he's hot.) Had pie, lasagna, fun stuff. Car ride= not so awesome, especially on the trip back in which my parents felt the need to criticize my driving every 2 minutes for the remaining 2.5 hours to Edmonton. Came home, bad mood. 
+
+Tried to study math. Hence, bad mood continues. 
+
+Don't want to study anymore. Maybe I'll take a bath."
+"eventtime","2007-02-19 20:24:00"
+"url","http://goodness-sake.livejournal.com/134948.html"
+"userid","5783"
+"itemid","526"
+"event","This is usually the time of year when I go ""holy crap, it's already February??"" when really... there's still 4 1/2 months left of school... which I guess in retrospect isn't that much considering it's my last year here. Which again reminds me of the fact that I don't know what to do next year, where to go, how to get there and where the money's coming from.
+
+Also I'm at this point where even though I'm procrastinating and stressed out and barely have a minute during the week to stop and drink tea and read the paper (but I do anyway because it's important to my sanity), I'm still feeling pretty good. I'm in this state where I'm not really dissatisfied with any relationships. In fact the relationships that have gone downhill don't bother me because I have better ones with other people, and best of all, I'm flattered a lot lately because of attention and possibility, and nice stuff. It's kind of selfish but it's good to feel valued and liked by some people, and it's even better when it feels like there's no possibility of getting hurt. That's why this year is better than the last I'm sure.
+
+Anyway, shower, conics, English IB oral prep, party, home, Desperate Housewives.
+
+
+Oh, and a postcard secret from this Sunday that made me smile:
+
+<img src=""http://photos1.blogger.com/x/blogger/994/593/1600/195691/Marie.jpg"">"
+"eventtime","2007-02-11 12:49:00"
+"url","http://goodness-sake.livejournal.com/134836.html"
+"userid","5783"
+"itemid","525"
+"event","I'm sick and it sucks cause I missed my band midterm, I have 4 midterms next week, a driving test and going to San Diego on Thursday. Bah. 
+
+On a weird note, I'm all liking artists I haven't listened to in ages, like Justin Timberlake (which I've written about) and Boy George and Bryan Adams and don't even get me started on my George Michael obsession... I'm always getting made fun of for that. 
+
+Now I have to go study math and fix my health and get dressed."
+"eventtime","2007-01-19 14:08:00"
+"current_moodid","110"
+"url","http://goodness-sake.livejournal.com/134655.html"
+"userid","5783"
+"itemid","524"
+"event","RmVlbCBmcmVlIHRvIHNraXAgb3ZlciBpdC4NCg0KVGhpbmdzIHRvIGRvIGJlZm9yZSBuZXh0IFRodXJzZGF5LCBKYW51YXJ5IDI1dGg6DQoNCi1TdHVkeSBmb3IgbWF0aCBtaWR0ZXJtIChjb25pY3MtIGxlYXJuLiB0cmlnIElJLSBmaW5kIG1pc3Rha2VzIGFuZCBmaXggdGhlbSAoYW5kIHRoZXJlIGFyZSBhIExPVCBqdWRnaW5nIGJ5IG15IDM1JSBvbiB0aGUgbGFzdCB0ZXN0KQ0KLXN0dWR5IGZvciBiYW5kIG1pZHRlcm0NCi1zdHVkeSBmb3IgYmlvIG1pZHRlcm0gKGJpbyByZXZpZXcgcXVlc3Rpb25zKQ0KLXByZXBhcmUgc29jaWFsIG1pZHRlcm0gZXNzYXkNCi10YWxrIHRvIFJhbmllcmkgYWJvdXQgZW5nbGlzaCBtaWR0ZXJtDQrigJN3b3JsZCBsaXRlcmF0dXJlIHBhcGVyLCBmaW5hbCBkcmFmdA0KLXdvcmxkIGhpc3RvcnkgcGFwZXIsIEZJUlNUIERSQUZUDQotYmFuZCB0cmlwdHljaA0KDQpPa2F5LCB0aW1lIHRvIGdvIHdvcmsu"
+"eventtime","2007-01-17 21:28:00"
+"current_moodid","28"
+"url","http://goodness-sake.livejournal.com/134175.html"
+"userid","5783"
+"itemid","523"
+"event","I go through different phases.
+
+I'm pretty into Justin Timberlake right now.
+
+Just thought I'd get that out in the open so that no one can say I deny it."
+"eventtime","2007-01-13 12:59:00"
+"url","http://goodness-sake.livejournal.com/134013.html"
+"userid","5783"
+"itemid","522"
+"event","<lj-cut text=""My Interests Collage!""><div style=""position:relative;width:100%;max-width:95%;overflow:visible;margin-top:30px;left:50px;margin-right:50px;""><IMG src=""http://mud.mm-a5.yimg.com/image/3348910257"" style=""position: relative; left: 18.6492px; top: -2.49497px; ""><IMG src=""http://mud.mm-a6.yimg.com/image/3464218679"" style=""position: relative; left: 19.6087px; top: 4.01908px; ""><IMG src=""http://mud.mm-a2.yimg.com/image/2304526832"" style=""position: relative; left: -11.3597px; top: -1.8408px; ""><IMG src=""http://mud.mm-a8.yimg.com/image/4181523580"" style=""position: relative; left: -18.2546px; top: -4.3384px; ""><IMG src=""http://mud.mm-a5.yimg.com/image/3252470182"" style=""position: relative; left: 4.55154px; top: 17.7032px; ""><IMG src=""http://mud.mm-a4.yimg.com/image/2834848581"" style=""position: relative; left: 17.796px; top: 18.082px; ""><IMG src=""http://re3.mm-a7.yimg.com/image/3699675791"" style=""position: relative; left: -15.9525px; top: 6.10255px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3845595957"" style=""position: relative; left: 5.58516px; top: -10.1481px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3964737338"" style=""position: relative; left: 0.0488378px; top: -19.1831px; ""><IMG src=""http://re3.mm-a7.yimg.com/image/3761507352"" style=""position: relative; left: -9.87076px; top: -17.8888px; ""><IMG src=""http://mud.mm-a5.yimg.com/image/3258867979"" style=""position: relative; left: -17.1771px; top: -15.2231px; ""><IMG src=""http://mud.mm-a8.yimg.com/image/4151315771"" style=""position: relative; left: -15.2518px; top: -16.8637px; ""><IMG src=""http://re3.mm-a3.yimg.com/image/2723079414"" style=""position: relative; left: 11.7443px; top: -13.416px; ""><IMG src=""http://mud.mm-a5.yimg.com/image/3134392971"" style=""position: relative; left: -3.27622px; top: 16.6138px; ""><IMG src=""http://mud.mm-da.yimg.com/image/1601656373"" style=""position: relative; left: -12.352px; top: -0.663596px; ""><IMG src=""http://mud.mm-a5.yimg.com/image/3222046369"" style=""position: relative; left: 6.9453px; top: 9.67562px; ""><IMG src=""http://mud.mm-a4.yimg.com/image/3016188437"" style=""position: relative; left: 18.1627px; top: -19.86px; ""><IMG src=""http://mud.mm-a2.yimg.com/image/2450990011"" style=""position: relative; left: 13.2988px; top: -7.68218px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3736411519"" style=""position: relative; left: 5.58652px; top: 12.6739px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3798391899"" style=""position: relative; left: 9.50058px; top: -3.83934px; ""><IMG src=""http://mud.mm-a8.yimg.com/image/4035942596"" style=""position: relative; left: -7.74007px; top: -7.31382px; ""><IMG src=""http://mud.mm-a4.yimg.com/image/2836736200"" style=""position: relative; left: -3.43138px; top: 8.75953px; ""><IMG src=""http://mud.mm-a8.yimg.com/image/4023888144"" style=""position: relative; left: -18.5828px; top: -1.37243px; ""><IMG src=""http://mud.mm-a1.yimg.com/image/1909268259"" style=""position: relative; left: 13.6166px; top: 13.982px; ""><IMG src=""http://mud.mm-a3.yimg.com/image/2533294655"" style=""position: relative; left: -4.35861px; top: -15.1984px; ""><IMG src=""http://mud.mm-a2.yimg.com/image/2330731013"" style=""position: relative; left: 1.30515px; top: 15.6027px; ""><IMG src=""http://re3.mm-a2.yimg.com/image/2334760666"" style=""position: relative; left: -6.10293px; top: -11.8744px; ""><IMG src=""http://mud.mm-a3.yimg.com/image/2657793053"" style=""position: relative; left: 15.953px; top: 1.76952px; ""><IMG src=""http://mud.mm-a3.yimg.com/image/2712441927"" style=""position: relative; left: 14.6904px; top: -18.8782px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3856391306"" style=""position: relative; left: -17.7133px; top: 12.1235px; ""><IMG src=""http://mud.mm-a1.yimg.com/image/1974444982"" style=""position: relative; left: -0.463339px; top: 12.6601px; ""><IMG src=""http://mud.mm-a4.yimg.com/image/3042421014"" style=""position: relative; left: 17.6525px; top: 5.98622px; ""><IMG src=""http://mud.mm-a6.yimg.com/image/3400276798"" style=""position: relative; left: 1.38911px; top: -13.2319px; ""><IMG src=""http://mud.mm-a3.yimg.com/image/2542619890"" style=""position: relative; left: 1.23821px; top: 10.5821px; ""><IMG src=""http://mud.mm-a1.yimg.com/image/2182212423"" style=""position: relative; left: 13.5882px; top: 17.4097px; ""><IMG src=""http://mud.mm-a4.yimg.com/image/2934553658"" style=""position: relative; left: 4.06194px; top: -10.9796px; ""><IMG src=""http://mud.mm-a6.yimg.com/image/3667658141"" style=""position: relative; left: -14.5621px; top: 14.9722px; ""><IMG src=""http://mud.mm-a5.yimg.com/image/3228559537"" style=""position: relative; left: -2.86947px; top: 12.7833px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3858995455"" style=""position: relative; left: 8.55898px; top: 10.7862px; ""><IMG src=""http://re3.mm-a4.yimg.com/image/3070163532"" style=""position: relative; left: 3.87367px; top: -15.2461px; ""><IMG src=""http://re3.mm-da.yimg.com/image/1600472453"" style=""position: relative; left: -1.96428px; top: -13.6518px; ""><IMG src=""http://mud.mm-a5.yimg.com/image/3223570946"" style=""position: relative; left: -5.52123px; top: 4.76343px; ""><IMG src=""http://mud.mm-a1.yimg.com/image/2176476480"" style=""position: relative; left: 19.0277px; top: -0.842296px; ""><IMG src=""http://mud.mm-a2.yimg.com/image/2425317552"" style=""position: relative; left: 3.53477px; top: 8.95616px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3786609056"" style=""position: relative; left: 6.17423px; top: 10.3417px; ""><IMG src=""http://re3.mm-a3.yimg.com/image/2513379373"" style=""position: relative; left: 12.9308px; top: 8.45991px; ""><IMG src=""http://re3.mm-a6.yimg.com/image/3405473761"" style=""position: relative; left: -14.2814px; top: 13.1699px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3706208254"" style=""position: relative; left: 3.87964px; top: 5.18621px; ""><IMG src=""http://re3.mm-a4.yimg.com/image/3023785619"" style=""position: relative; left: 5.13223px; top: 17.3867px; ""><IMG src=""http://mud.mm-a8.yimg.com/image/4120530875"" style=""position: relative; left: 17.501px; top: 18.8039px; ""><IMG src=""http://mud.mm-a8.yimg.com/image/4235449759"" style=""position: relative; left: -3.30858px; top: -7.38182px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3767686259"" style=""position: relative; left: 13.8082px; top: -5.62294px; ""><IMG src=""http://mud.mm-a6.yimg.com/image/3548794358"" style=""position: relative; left: 15.2296px; top: 3.22689px; ""><IMG src=""http://mud.mm-a1.yimg.com/image/1918666060"" style=""position: relative; left: -5.71898px; top: 1.0744px; ""><IMG src=""http://mud.mm-a5.yimg.com/image/3255183590"" style=""position: relative; left: 17.4041px; top: -9.43093px; ""><IMG src=""http://mud.mm-a2.yimg.com/image/2305492697"" style=""position: relative; left: 14.3878px; top: 14.9316px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3880333461"" style=""position: relative; left: -18.6273px; top: 11.5872px; ""><IMG src=""http://mud.mm-a1.yimg.com/image/2056365236"" style=""position: relative; left: -7.38149px; top: 19.219px; ""><IMG src=""http://re3.mm-a6.yimg.com/image/3547024427"" style=""position: relative; left: 14.3423px; top: 10.5251px; ""><IMG src=""http://mud.mm-a7.yimg.com/image/3909607862"" style=""position: relative; left: 15.5821px; top: 8.23828px; ""><IMG src=""http://mud.mm-a6.yimg.com/image/3458022364"" style=""position: relative; left: -19.3025px; top: -17.83px; ""><IMG src=""http://mud.mm-a8.yimg.com/image/4264966106"" style=""position: relative; left: 10.4797px; top: 12.7509px; ""><IMG src=""http://re3.mm-a5.yimg.com/image/3311732460"" style=""position: relative; left: -15.7879px; top: 13.5305px; ""><IMG src=""http://mud.mm-a2.yimg.com/image/2325221076"" style=""position: relative; left: 7.34746px; top: 8.82019px; ""><IMG src=""http://re3.mm-a4.yimg.com/image/2814903790"" style=""position: relative; left: 0.993371px; top: 15.5783px; ""></div></lj-cut><div style=""margin-top:30px;margin-left:50px;margin-bottom:30px;""><span style=""font-size:smaller;""><a href=""http://bbs.thedarkrealm.net/apps/interestscollage/index.asp"" target=""_blank"">Create your own!</a>&nbsp;Originally&nbsp;Written&nbsp;By&nbsp;<lj user=""ga_woo"">,&nbsp;Hosted&nbsp;and&nbsp;ReWritten&nbsp;by&nbsp;<lj user=""darkman424""></span></div>
+
+I counted and there's like, at least 4 naked people in my collage. (like 6 if you count the couples). Where did they get that from???"
+"eventtime","2007-01-11 22:03:00"
+"url","http://goodness-sake.livejournal.com/133841.html"
+"userid","5783"
+"itemid","521"
+"event","Waking up to an empty house for the first time in 2 weeks is incredibly, incredibly, incredibly depressing."
+"eventtime","2007-01-02 10:40:00"
+"current_moodid","55"
+"url","http://goodness-sake.livejournal.com/133455.html"
+"userid","5783"
+"itemid","520"
+"event","I have so much to do and I don't want to do any of it. The way I'm going I will have accomplished .00000334939575 % of my work by the time school starts."
+"eventtime","2006-12-27 22:06:00"
+"url","http://goodness-sake.livejournal.com/133249.html"
+"userid","5783"
+"itemid","519"
+"event","World Lit Paper (approx time= 7 hours)
+Historical Investigation (approx time= 15 hours)
+Studying Math Unit 5 (approx time= 5 hours)
+World History readings (approx time= 45 minutes)
+Bio review questions (approx time= 1.5 hours)
+
+Approx. total time= 29.25 hours...
+
+More or less...
+
+Other things:
+
+-See Juliana
+-See Amy
+-Christie's Birthday party (jan. 6)
+-Diamond's new years party 
+-organize room
+-boxing week shopping
+-driving lessons (27, 29, 2, 4, 10)"
+"eventtime","2006-12-26 12:55:00"
+"current_moodid","28"
+"url","http://goodness-sake.livejournal.com/132946.html"
+"userid","5783"
+"itemid","518"
+"event","Let today be recognized as the day that my brother Aaron used the term ""pimpin' shrimpin' party"".
+
+That is all."
+"eventtime","2006-12-20 16:17:00"
+"url","http://goodness-sake.livejournal.com/132790.html"
+"userid","5783"
+"itemid","517"
+"event","Man, I feel terrible. Last week I canceled plans with Juliana and this weekend we organized to do something and I COMPLETELY forgot about it until she phoned me just now. I was gone all day and I have 2 IB papers to write so I couldn't go. And she declined to go to a party because she was doing something with me. ARGH.
+
+Meanwhile... my history paper is driving me crazy... I can't seem to make my question specific enough and I can't write my investigation or do my research until I narrow down my question. Same with my lit investigation.
+
+This has been a difficult past couple days as the most popular teacher at my school has been charged with sex crimes related to a student and the whole school is really upset...
+
+Okay, so here are some pros of today in order to cheer me up:
+
+-Aaron fixed my internet! Woohoo!
+-Aaron's here!
+-Only 5 more days of school!
+-I have a ton of really useful books for my investigation!
+-I got a cool new wallet, scarf, and perfume!
+-My Opa and Grandma Gerry gave me 100$ for christmas!
+
+
+Ok, that's it."
+"eventtime","2006-12-16 19:39:00"
+"url","http://goodness-sake.livejournal.com/132485.html"
+"userid","5783"
+"itemid","515"
+"event","Aside from being sick for a week and a half, trying to catch up on homework, dealing with friends having problems and thinking about Paul, nothing interesting has happened.
+
+I'll keep you posted."
+"eventtime","2006-11-26 12:15:00"
+"url","http://goodness-sake.livejournal.com/132037.html"
+"userid","5783"
+"itemid","514"
+"event","It's driving me CRAZY how nothing exciting is going on in my life. I want something fun and interesting to happen that will change my life, or some part of it, in some way. SOMETHING, ANYTHING. Gahhh. I was thinking about how someone once said you should do something everyday that scares you. I'm going to try and start doing that.
+
+On a funny note, whenever I'm absent I've noticed that only one of my teachers marks me as absent... if I miss just part of the day, none of them notice I'm absent. 
+
+Also, I got 100% on my English presentation. Funny how I didn't actually do it.
+
+Something is rotten in the state of Denmark!
+
+(Maybe that's the wrong thing to say.)
+
+No one notices me anymore. :("
+"eventtime","2006-11-18 22:36:00"
+"current_moodid","25"
+"url","http://goodness-sake.livejournal.com/131716.html"
+"userid","5783"
+"itemid","513"
+"event","climb up over the top
+
+you've got to find out for yourself whether or not you're truly trying
+
+why not give it a shot, shake it, take control
+
+and inevitably end up finding out for yourself all the strengths you have inside of you
+
+
+am i actually trying?
+
+edit: [pathetic-ness]
+
+alyssa:
+oooh lala. what's this?
+Loie: 
+heh
+alyssa
+i sat with paul. we discussed the hackysack club's couches and other past adventures with couches he was a part of and i knew about that i didn't know he was a part of. 
+then i left social to go visit heather. 
+Loie: 
+GRR. you got more paul action than me.
+and i'm the one completely in love with him
+alyssa:
+i did not know that. 
+but feel free to have him. 
+i swear our conversation did not surpass discussing couches. 
+alyssa:
+and attaching said couches to sleds and riding down the hill at lunch time in the ravine.
+Loie:
+HAHAHAHAHAHAHAHAHAHAHAHAHA.
+alyssa:
+he's totally in your league.
+i mean... he is in the hackysack club. that's pretty l33t.
+Loie:
+i must be old because i don't know what that means
+alyssa:
+leet.
+Loie:
+i still don't get it.
+alyssa:
+1337 = l33t = leet = elite.
+Loie says: (4:09:51 PM)
+totally would have never gotten that. where's the i?"
+"eventtime","2006-11-17 12:29:00"
+"current_moodid","82"
+"url","http://goodness-sake.livejournal.com/131543.html"
+"userid","5783"
+"itemid","512"
+"event","Man, tired.
+
+I'm trying to figure out what to do with my year (and my life). It's going slowly and not-so-surely.
+
+I got 100% on my math test test which means I have an average of 82% which I haven't had in a math course since.... ever.........
+
+I think I sprained my thumb shovelling snow today after school. I bought 2 books and enjoyed the beautiful snow; I wish I could repeat this afternoon where it was dark out and I was on the bus alone, and shovelling the snow and watching the snowflakes drift along under ominous orange street light... I like snow.
+
+Trying to not get too caught up in everything and enjoy this year, as it is the last of its kind.
+
+Now is shower time."
+"eventtime","2006-11-13 21:31:00"
+"url","http://goodness-sake.livejournal.com/131308.html"
+"userid","5783"
+"itemid","511"
+"event","Trig is stupid... I'm not a fan. 
+
+Major studying this weekend. Went by way too fast but these past few hours before Desperate Housewives is on are INTERMINABLE. Agh! Give me my 1 hour of superficial tv! Why does it have to be on at 10 pm on Sunday nights? That means I spend all day just waiting for 10 o'clock to strike. Pathetic. Gr. 
+
+I'll get over it.
+
+Um... not much else to say. Meiosis is also dumb. I don't like studying. I miss my sister. (Who is by the way TOTALLY awesome for saving all her bio notes and tests because they are going to really help me this year) Yeahh... um. Hi. How are you guys?"
+"eventtime","2006-10-29 21:09:00"
+"url","http://goodness-sake.livejournal.com/130932.html"
+"userid","5783"
+"itemid","510"
+"event","I hate boys...
+
+I pretty much give up on trying to not hurt their feelings anymore... and all the time and energy I spend to be a good friend to them is always wasted... I don't want to leave this hanging but I don't really want to dignify him with a response either.
+
+My teeth hurt and I don't understand my math and I haven't studied all weekend.
+
+<lj-cut text=""here""><lj-cut>
+
+Leave your name and:
+1. I'll respond with something random about you.
+2. I'll challenge you to try something.
+3. I'll pick a color that I associate with you.
+4. I'll tell you something I like about you.
+5. I'll tell you my first/clearest memory of you.
+6. I'll tell you what animal you remind me of.
+7. I'll ask you something I've always wanted to ask you.
+8. If I do this for you, you must post this on your own blog. 
+</lj-cut>"
+"eventtime","2006-10-22 21:59:00"
+"url","http://goodness-sake.livejournal.com/130692.html"
+"userid","5783"
+"itemid","509"
+"event","So, update time.
+
+I am getting used to the workload of this year, and am finding that I don't only have to keep on top of things- I have to anticipate almost everything because combined with all my other activities I'm left with only Sunday as my committment-free day. Things seem to be going well, although my marks aren't as high as they should be, but it's okay because I'm getting used to all my new teachers. I think I only have 1 teacher that I've had in the past.
+
+ARGH my entry just deleted up to there, so just a quick summary before I go make supper.
+
+-I've started piano lessons again which is great although I don't have enough time or energy as I'd like despite my improved time management skills. I'm starting tomorrow accompanying (sp?) a children's choir which gives me money, yay!
+
+-I'm practicing trombone at least twice a week which is an improvement from last year where I practiced about twice a year- once for the Christmas concert, one for the end of the year.
+
+-I'm doing pilates almost every day at 6:30 AM.
+
+-I get to see AARON, ZOHREH AND STEVEN TOMORROW!!! Yay.
+
+-I'm sooo sick of the people I have to be around at school, not all of them, but many of them. 
+
+And I must go make dinner. Ciao!"
+"eventtime","2006-10-12 17:42:00"
+"url","http://goodness-sake.livejournal.com/130492.html"
+"userid","5783"
+"itemid","508"
+"event","My tummy hurts... I don't know why.
+
+School is hard and a lot of work. I'm trying to get stuff done in advance and in general that's working, except that I get stressed out earlier- which I suppose is better than later. Damn... I just checked and I only got 72% on my social test... and I studied really hard for it... grr... I thought it was really easy when everyone else found it hard so I knew this would happen. Oh well, I'll get over it. It's only one test. 
+
+I have too much stuff going on... either that or poor time management skills... probably both... I feel really pressured by my mom to be doing everything at once and it's starting to mess with me. It's also kind of weird living with someone else in the house that's not my sibling... it's fun but it's also an adjustment.
+
+I'm worried about getting into university. Bah. School is stressful.
+
+wah."
+"eventtime","2006-10-04 22:09:00"
+"url","http://goodness-sake.livejournal.com/130143.html"
+"userid","5783"
+"itemid","507"
+"event","What a crappy day.
+
+I have a weird taste in my mouth.
+
+Say no to studying.
+
+Happy times."
+"eventtime","2006-09-25 20:25:00"
+"current_moodid","8"
+"url","http://goodness-sake.livejournal.com/129909.html"
+"userid","5783"
+"itemid","506"
+"event","So I was going through my grade 11 agenda which was where  I wrote down memorable quotes, and these are some of the funniest things that were recorded:
+
+Student: Wouldn't you add it?
+Math teacher: Well, I'm screwing it- um. Squaring it.
+
+""Today, April 26, is the day my social teacher told me she was on opium.""
+
+""You think the Bible is boring, but it's full of smut."" -Religion teacher
+
+Student: You're wearing a batman tie
+Religion teacher: *twitch* I know.
+Student: You have like, eight.
+Religion teacher: *twitch* I know. They're gone.
+Student: Where?
+Religion teacher: *twitch* *twitch* *twitch* NEVER YOU MIND.
+
+Student: You gave up pasta for Lent? But you're Italian! How do you do it?
+italian teacher: Like this: *facepodium*
+
+""I don't really mind, unless they're like, dry fornicating."" -Italian teacher.
+
+""I mean, I'm not one for violence, but a little incest is good."" -English teacher
+
+""I went over there to tell them to be quiet. I'm not very popular. They're learning through fun, they say. That's impossible."" -Math teacher
+
+""She pleased the cake."" -Italian mistranslation
+
+""*yawn* Talking about trees makes me sleepy."" -Jen G.
+
+
+And then, someone (I have NO idea who, I TOTALLY don't get this message) wrote somewhere in there:
+
+Loa-eeeeeee. Lo-ie.  -Century of orange, 277-279."
+"eventtime","2006-09-02 15:04:00"
+"current_moodid","44"
+"url","http://goodness-sake.livejournal.com/129766.html"
+"userid","5783"
+"itemid","505"
+"event","<lj-cut>
+
+1. What bill do you hate paying the most? Whatever, they all have to be paid.
+
+2. What's the best place to eat a romantic dinner? In a park at sunset.
+
+3. Last time you puked from drinking? Never. :D
+
+4. When is the last time you got drunk and danced on a bar? Never danced on a bar
+
+5. Name of your first grade teacher? Don't remember.
+
+6. What do you really want to be doing right now? Sleeping or talking to someone.
+
+7. What did you want to be when you were growing up? A radio broadcaster.
+
+8. How many colleges did you attend? None yet.
+
+9. Why did you wear the shirt that you have on right now? Because it's pretty.
+
+10. GAS PRICES! First thought? Ugh.
+
+11. If you could move anywhere and take someone with you... Australia, and Mariam. (it's our plan to run away there)
+
+12. First thought when the alarm went off this morning? ""I can't believe I do this 6 days of the week all year."" 
+
+13. Last thought before going to sleep last night? ""Please help me God to make a decision because I really don't know what to do.""
+
+14. Favorite style of underwear? G-string.
+
+15. Favorite style of underwear for the opposite/same sex? Boxers. 
+
+16. What errand/chore do you despise? Cleaning bathrooms.
+
+17. If you didn't have to work, would you volunteer at an art gallery? Probably not at an art gallery, but if the opportunity arose, why not?
+
+18. Get up early or sleep in? Duh. Sleep in.
+
+19. What is your favorite cartoon character? Invader Zim. 
+
+20. Favorite NON sexual thing to do at night with a girl/guy? Talk. I'm boring, I know, but it's true.
+
+21. A secret that you wouldn't mind everyone knowing? I really wish I didn't have to deal with this stuff at my age, and I wish that people who didn't have to worry about their health every day would stop telling me that 'it could be worse'. Yeah, there's a leper wih lukemia, a third leg and a breast on their forehead, if I wanted that, I'd talk to world vision, please give me sympathy, I wouldn't ask for it if I didn't need it.
+
+22. How many joints pop when you get out of bed in the morning? Dunno. My neck usually hurts though. Or my jaw. 
+
+23. What is the biggest amount of $$ you have made from a yardsale? Like. $300 or something. 
+
+24. Your favorite lunch meat? Honey dijon turkey. Or roast beef.
+
+25. What do you get every time you go into a WAWA SHEETZ? ....excuse me?
+
+26. Beach or lake? Beach. 
+
+27. Do you think marriage is an outdated ritual that was invented by people who died at 20? Not really...
+
+28. Who do you stalk on MySpace? Jason Mraz and Feist.
+
+29. Favorite guilty pleasure? Self-help books.
+
+30. Favorite movie you wouldn't want anyone to find out about? None, I think.
+
+31. What's your drink? I looove chilled chai lattes (except with soy milk).
+
+32. Cowboys or Indians? Indians.
+
+33. Cops or Robbers? Robbers. 
+
+34. Do you cheer for the bad guy? Yep. 
+
+35. What Hollywood star do you think resembles you best? None. 
+
+36. If you had to pick one, which cast member of ""Lost"" would you be? Never seen it.
+
+37. What do you want when you are sick? Sleep.
+
+38. Who from high school would you like to run into? Don't remind me. 
+
+39. What radio station is your car radio tuned to right now? Magic 99.
+
+40. Norm or Cliff? Wha?
+
+41. The Cosby Show or the Simpsons? The Simpsons. 
+
+42. Worst relationship mistake that you wish you could take back? Expecting. 
+
+43. Do you like the person who sits directly across from you at work? No-one sits across from me at work. 
+
+44. If you could get away with it, who would you kill? No one.
+
+45. What famous person would you like to have dinner with? Umm... Jason Mraz, Jack Johnson, George Michael (tee hee), Rufus Wainwright, Lauryn Hill... pretty much any musician I like. 
+
+46. What famous person would you like to sleep with? Hmm... who is indecidedly sexy? Many. Who would I want to sleep with? None, really. You can think someone's hot and not want to do them, right? 
+
+47. Have you ever had to use a fire extinguisher for its intended purpose? Nope.
+
+48. Last book you read for real? Aman. 
+
+49. Do you have a teddy bear? No. I have a hideous pillow that's going to be transferred to someone very soon.
+
+50. Strangest place you have ever brushed your teeth? On a bus.
+
+51. Somewhere in California you've never been and would like to go? San Diego.
+
+52. Number of texts in a day? On average? Maybe one or two. Or none.
+
+53. At this point in your life would you rather start a new career or relationship? Relationship.
+
+54. Do you go to church? No.
+
+55. Pencil or pen? Pen. 
+
+56. bueller??? bueller??? Hehehehehehe.
+
+57. How many jobs have you had? 4.
+
+58. What do you want to achieve in life? That's still a work in progress. <-- ditto.
+</lj-cut>
+
+I really don't want to make these decisions.
+
+A toolbox.
+A shiny, new toolbox.
+A toolbox that has been many years in development.
+A toolbox that can fix almost any problem.
+A toolbox that can nail any nail to any board,
+and pull any nail out of any board,
+and can't take away the marks,
+but can sometimes take away the problem.
+The marks are still there,
+so are the problems.
+
+I'm sick of feeling like a board.
+
+Please stop pulling out the nails."
+"eventtime","2006-09-01 23:41:00"
+"url","http://goodness-sake.livejournal.com/129354.html"
+"userid","5783"
+"itemid","504"
+"event","HMM, so I'm pretty happy about a few things, but first, something is in order:
+
+HAPPY BIRTHDAY TO <lj user=""lekk"">!!! Your birthday is tomorrow, but it's unlikely I'll be able to update tomorrow, so yay, sorry I can't attend. :(
+
+So, the reasons I'm happy are as follows:
+
+-I did pilates today for like, the first time in 3 weeks. Go me. But that's not really a huge reason, I'm just starting to realize how much exercise makes my mood improve. Maybe I should start getting up super early and doing it before school every morning. Yeah right, like that's going to happen.
+
+-I officially have 5 piano students this year. This is a major improvement from last year, where I had one regular one. She was extremely difficult, and I felt like she should either quit or pay me double. Oh well. This also means $$$, more work, but I'm really enjoying preparing for it, and learning a lot in the process. (I'm gonna be so prepared for job interviews in the future, teehee)
+
+-My schedule for next year is what I want it to be... I'm also adapting a better attitude about classes and people I don't like, and finding new meaning and significance in the phrase, ""hate the sin, not the sinner"".
+
+-I went to the Fringe with Jen a few days ago, and ran into my stalker of 2 years ago!! You wouldn't think this would make me happy, but... it's a long story. *blush*
+
+-Closure. Finally.
+
+I think that's it. Ciao!!"
+"eventtime","2006-08-27 14:02:00"
+"url","http://goodness-sake.livejournal.com/129152.html"
+"userid","5783"
+"itemid","501"
+"event","Yay, more wedding pictures! You may all remember how I posted a few (albeit bad quality) pictures of my brother Roshan's wedding to my lovely sister in law Karene... well, my sister had a very different kind of wedding only about 2 months later, on July 30th, in which she married a wonderful guy Steve... these are a few pictures... not all of them because there were A LOT... it took place in Winnipeg and I'm amazed the bride and groom could look so good in 35 degree weather and sauna-like humidity... it was crazy!
+
+(I'm going to be taking these down probably in a few days, so look at them now if you want to see)
+
+<lj-cut>
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0721.jpg"">
+
+Some of the string quartet getting ready to play before the wedding.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0723.jpg"">
+
+A friend of the bride and groom... Johnny, singing and playing a song he wrote for the occasion.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0725.jpg"">
+
+My grandma and grandpa and cousins Sophia and Anne before the wedding.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0726.jpg"">
+
+3 people I don't really know... one was the MC for the ceremony, and the guy Frank was singing as a part of the barbershop quartet (yes, they had a BARBERSHOP QUARTET... how cool is that)
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0728.jpg"">
+
+Steve, the groom, along with a groomsman, my brother Roshan.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0729.jpg"">
+
+This photo amuses me... 3 groomsman before the ceremony... Matto looking bored, Eric (best man) trying to contain his excitement, and my brother Aaron looking like he's posing for an Armani ad campaign. (at least that's what I think... good looking bunch eh??)
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0732.jpg"">
+
+I think this is before the wedding... wow I think this is the first picture of all of us together since we were in elementary and junior high...
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0733.jpg"">
+
+Steve's sister Susan and their little cousin Christina... CUTEST flower girl EVER.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0736.jpg"">
+
+A bridesmaid, Becky, looking very pleased.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0737.jpg"">
+
+OMG, cute little girl, run!
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0738.jpg"">
+
+Aww... Zohreh helping my dad put on his corsage before the wedding.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0740.jpg"">
+
+I was really hot and sweaty after 2 hours of photos... but I don't look -too- bad.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0741.jpg"">
+
+What a beautiful lady!! Susan.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0742.jpg"">
+
+I think this is right after they said their vows.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0743.jpg"">
+
+Notice how we're all wearing brown and pink but wearing different dresses... cool idea, huh?
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0744.jpg"">
+
+THE BARBERSHOP QUARTET.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0745.jpg"">
+
+The men getting a good look at the couple...
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0750.jpg"">
+
+One of the bridesmaids, Eileen, and her family after the wedding.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0751.jpg"">
+
+More pictures. I'm SO excited, you can tell. Actually, that's a pretty forced smile.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0760.jpg"">
+
+Us.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0762.jpg"">
+
+Steve and Cheryl, Steve's parents.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0763.jpg"">
+
+Our family during pics after wedding. I don't know what I'm doing to my face...
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0773.jpg"">
+
+The wedding reception took place at Fort Gibralter which is a pioneer-old-fashioned type place with a blacksmith, general store etc... they had a guy demonstrate and teach the guests how to throw hatchets... so this is Zohreh about ready to hit that log like there's no tomorrow.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0774.jpg"">
+
+'Charming, beautiful, most gorgeous dress ever, AND I can throw hatchets.' Life is pretty damn good, I'd say.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0777.jpg"">
+
+Steve looking pretty pleased with himself after showing that hatchet who's boss.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0779.jpg"">
+
+Teehee, we tried to get the picture of her throwing the hatchet, but she just ended up looking distorted/barbie doll-ish... Susan.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0796.jpg"">
+
+Bridesmaids at the head table right before dinner.
+
+<img src=""http://i18.photobucket.com/albums/b140/happysmoof/DSCN0802.jpg"">
+
+And the last picture of the couple before it got dark... the rest of the pictures are blurry.
+
+YAY ZOHREH AND STEVE!
+
+""I now present to you, Steve Melnyk and... Zohreh Gervais.""
+
+Hehe.
+</lj-cut>"
+"eventtime","2006-08-10 17:21:00"
+"url","http://goodness-sake.livejournal.com/128303.html"
+"userid","5783"
+"itemid","500"
+"event","So Ok Go is pretty much my new favourite band... I love how fabulously dorky they are.
+
+<img src=""http://www.donewaiting.com/photos/archives/120905okgo5.jpg"">
+
+This is them dancing to one of their songs... on treadmills: http://youtube.com/watch?v=pv5zWaTEVkI
+
+And these lyrics remind me so much of a how I was feeling a few months ago:
+
+Quit acting so friendly. 
+Don't nod don't laugh all nicely. 
+Don't think you'll up-end me. 
+Don't sigh, don't sip your iced-tea. 
+And don't say, ""It's been a while..."" 
+And don't flash that stupid smile. 
+
+Don't ask me how I've been. 
+
+Don't think I've forgotten, 
+you never liked that necklace. 
+So cordial, so rotten... 
+Kiss, kiss, let's meet for breakfast. 
+Don't show up so on-time 
+and don't act like you're so kind 
+
+Don't ask me how I've been. 
+
+Don't sit there and play just 
+so frank, so straight, so candid, 
+so thoughtful, so gracious, 
+so sound, so even-handed. 
+Don't be so damn benign 
+and don't waste my fucking time. 
+
+Don't ask me how I've been. 
+
+Hey! Get over it! 
+
+Hehehe..."
+"eventtime","2006-08-05 21:32:00"
+"url","http://goodness-sake.livejournal.com/128026.html"
+"userid","5783"
+"itemid","498"
+"event","First thought after dropping Kelsey off at bus terminal:
+
+Headache.
+
+Coffee.
+
+Now.
+
+
+
+And here we are.  :)"
+"eventtime","2006-07-10 18:20:00"
+"url","http://goodness-sake.livejournal.com/127656.html"
+"userid","5783"
+"itemid","496"
+"event","<lj-cut text=""I knew it!"">
+Loie says:
+so are you finally in contact with the redhead?
+Devon says:
+no she just wants to be friends
+Devon says:
+and im cool with that cause shes really nice
+Loie says:
+so i guess i won't say 'i'm sorry about that'
+Devon says:
+ya
+Devon says:
+its ok
+</lj-cut>
+
+<lj-cut text=""And then...""<lj-cut>
+
+Devon says:
+i met a new redhead
+Devon says:
+shes just a nice girl i like
+Devon says:
+i like her smile
+
+</lj-cut>
+
+Ah... Lol. 
+
+So I'm noticing that I've gotten so lazy with food making. I mean, whoever said that necessity is the mother of invention totally knew what they were talking about. I will actually put off eating just because I don't want to make food. It's only when I feel like I'm going to starve that I actually put in the effort. It's a pretty bad habit."
+"eventtime","2006-07-04 17:34:00"
+"url","http://goodness-sake.livejournal.com/127124.html"
+"userid","5783"
+"itemid","495"
+"event","I made a terrible mistake last night and it makes me queasy just thinking about it.
+
+But on a happier note, I was just reminded of this funny situation at my murder mystery last week:
+
+Emily: Everyone wanted to talk to me, I couldn't get away the whole night!
+
+Jen: That's because you're on everyone's To-Do list."
+"eventtime","2006-07-01 11:20:00"
+"url","http://goodness-sake.livejournal.com/126972.html"
+"userid","5783"
+"itemid","494"
+"event","This is the first time since school's been over on Thursday that I'm starting to feel sad... I don't think it's because school's over, because, hell, I couldn't be happier to see that that year is over.
+
+But see... that's the problem. I thought I was done and over everything that happened this year... and today I'm starting to realize that...
+
+I'm not.
+
+Not by a long shot. Ohhhh... why can't I be? I'm soooo ready to be. I want to be. Seriously, I need more distractions! That's why these past weeks have been ideal, despite their stress, I've been distracteddddd... I haven't had  to think about this all now. And now I have to face what I've been ignoring all of June and half of May.
+
+Am I actually ready to let go?
+
+
+
+Life is a dead-end street...."
+"eventtime","2006-06-26 17:23:00"
+"url","http://goodness-sake.livejournal.com/126519.html"
+"userid","5783"
+"itemid","493"
+"event","U28gSSB3cm90ZSB0aGlzIHBvZW0gYSB3aGlsZSBhZ28uLi4gSSBjYW4ndCByZW1lbWJlciBpZiBJIHBvc3RlZCBpdCBidXQgSSBkb24ndCB0aGluayBJIGRpZC4gSXQncyBub3QgbG9uZy4gUGxlYXNlIHJlYWQgYW5kIHRlbGwgbWUgd2hhdCB5b3UgdGhpbmsuPGJyIC8+PGJyIC8+PGJyIC8+PGJyIC8+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGVtPjxmb250IHNpemU9IjMiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiI+R2VvZ3JhcGh5IExlc3NvbnM8bzpwPjwvbzpwPjwvZm9udD48L2ZvbnQ+PC9lbT48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgc2l6ZT0iMyI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIj4mbmJzcDs8bzpwPjwvbzpwPjwvZm9udD48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+4oCcV2XigJlsbCBzdGFydCB3aXRoIHNvbWUgZ2VvZ3JhcGh5LOKAnSB5b3Ugc2FpZC48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+QmVnaW4gd2hlcmUgdGhlIHN1biByaXNlcyBhbmQgc2V0cywgZXZlcnlkYXkuPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPk5vIG1hdHRlciB3aGVyZSB5b3UgYXJlLjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5Gb3JnZXQgYWJvdXQgdGhlIGNoaWxsZWQgTm9ydGgsIGNvbGRlciB0aGFuIGEgd2l0Y2jigJlzIGhlYXJ0LDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5vbiBzb21lIGxvbmcgZGF5cyB0aGF0IG5ldmVyIGVuZCBpbiA8L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+YmxhY2ssPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPmFuZCBhbHdheXMgZW5kIGluIDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj53aGl0ZS48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IHNpemU9IjMiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiI+Jm5ic3A7PG86cD48L286cD48L2ZvbnQ+PC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPlRoZXJlIGFyZSBubyBncmV5IGFyZWFzIGhlcmUsIEkgdGhvdWdodC48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IHNpemU9IjMiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiI+Jm5ic3A7PG86cD48L286cD48L2ZvbnQ+PC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPuKAnERvbuKAmXQgbG9zZSB5b3VyIGhhdCzigJ0geW91IHNhaWQuPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPldvcmxkIHNwaXJhbGluZywgSSBwaW5wb2ludGVkIHdoZXJlIEkgd2FzIDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5hbmQgd2hlcmUgSSB3YXMgZ29pbmcuPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPk9uIHlvdXIgbWFwIGJhY2sgdGhlbiwgTWV4aWNvIHdhcyB5ZWxsb3cuPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPldoZW4gSSBjYW1lIGJhY2sgd2l0aCBiZWF1dGlmdWwgcGVvcGxlLCA8L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+KGJlYXV0aWZ1bCBleHBlcmllbmNlcyksPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPm15IHZpZXcgd2FzIHllbGxvdy4gPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBzaXplPSIzIj48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iPiZuYnNwOzxvOnA+PC9vOnA+PC9mb250PjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5GaW5hbGx5LCBJIHdhcyBhIGJlYXV0aWZ1bCBwZXJzb24sIHRvby4gPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBzaXplPSIzIj48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iPiZuYnNwOzxvOnA+PC9vOnA+PC9mb250PjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5UaGUgZHVzdCBvZiBjbGltYXRlcyBmb3Jnb3R0ZW4gY2x1bmcgdG8gdGhlIHNvbGVzIG9mIG15IHNob2VzLjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5FdmVyeXRoaW5nIHdhcyBzbyB3aW5keSB0aGF0IGRheSwgdGhhdDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5JIGNvdWxkbuKAmXQgcmVtZW1iZXIgd2hhdCB5b3UgbG9va2VkIGxpa2UgaW4gbXkgbWluZCwgPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBzaXplPSIzIj48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iPiZuYnNwOzxvOnA+PC9vOnA+PC9mb250PjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj7igJxhbmQgaXQgdG9vayBtZSBieSBzdXJwcmlzZSzigJ0geW91IHNhaWQuPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBzaXplPSIzIj48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iPiZuYnNwOzxvOnA+PC9vOnA+PC9mb250PjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj7igJxIb2xkIG15IGhhbmQu4oCdPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPkFuZCB3ZSB3YXRjaGVkIHRoZSBjbG91ZHMgYXMgdGhleSBzaGFkZWQgdGhlIHZpZXcgb2YgdGhlIFRhaiBNYWhhbCw8L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+aW4gSW5kaWEsIDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj53aGVyZSBldmVyeXRoaW5nIGlzIGdvbGQgYW5kIHNwaWN5LjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5FeGNlcHQgdGhlIGd1dHRlcnMsPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPih3aGljaCBJIHVzZWQgdG8gYXZvaWQpLCA8L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+d2l0aCB0aGVpciBzcGlyaXRlZCBicm93biBleWVzIHBlZWtpbmcsIHN0YXJpbmcgdGhyb3VnaCB0aGUgZGFya25lc3MsPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPmFuZCZuYnNwOzxiciAvPmludG8mbmJzcDs8YnIgLz50aGUmbmJzcDs8YnIgLz48YnIgLz5saWdodC48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IHNpemU9IjMiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiI+Jm5ic3A7PG86cD48L286cD48L2ZvbnQ+PC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPuKAnFdhdGNoIHlvdXIgaGVhcnQs4oCdIEkgc2FpZC48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+QnV0IHlvdSByZWFsbHkgc2hvdWxkIGhhdmUganVzdCB3YXRjaGVkIHlvdXIgaGVhZCw8L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+YXMsIGtuZWVsaW5nIGRvd24sIDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj55b3UgZml0IHRocm91Z2ggdGhlIHNtYWxsIGRvb3J3YXkgaW4gSXRhbHksPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPmFuZCB0cmllZCB0byBzaG92ZSB0aGUgd2hvbGUgY291bnRyeSA8L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IHNpemU9IjMiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiI+Jm5ic3A7PG86cD48L286cD48L2ZvbnQ+PC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPmRvd24gPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBzaXplPSIzIj48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iPiZuYnNwOzxvOnA+PC9vOnA+PC9mb250PjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj55b3VyIDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgc2l6ZT0iMyI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIj4mbmJzcDs8bzpwPjwvbzpwPjwvZm9udD48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+dGhyb2F0LjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgc2l6ZT0iMyI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIj4mbmJzcDs8bzpwPjwvbzpwPjwvZm9udD48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IHNpemU9IjMiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiI+Jm5ic3A7PG86cD48L286cD48L2ZvbnQ+PC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPuKAnFdl4oCZbGwgc3RhcnQgd2l0aCBzb21lIGdlb2dyYXBoeSzigJ0geW91IHNhaWQuPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPkFuZCB0aGVuIHRoZSBzdW4gc2V0LjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5UaGUgd2luZCBzdG9wcGVkLjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5Ob3RoaW5nIGNoYW5nZWQgZm9yIGFuIGludGVybWluYWJsZSBzZWNvbmQuPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPkJ1dCBpdCB3YXNu4oCZdCBsb25nIGVub3VnaCB0byBrZWVwIHlvdSBjbG9zZSw8L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+YXMgdGhlIHdvcmxkIGtlcHQgc3Bpbm5pbmcsPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPmFuZDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5zcGlubmluZyw8L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+cXVpY2sgZW5vdWdoIGZvciB5b3UgdG8gbG9zZSBzaWdodCBvZiB0aGUgc2NlbmVyeS48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IHNpemU9IjMiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiI+Jm5ic3A7PG86cD48L286cD48L2ZvbnQ+PC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPkFuZCBJIHN0b29kIGltbW9iaWxlLCB3aGlsZSB5b3UgdHJla2tlZCBvZmYsIDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgc2l6ZT0iMyI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIj4mbmJzcDs8bzpwPjwvbzpwPjwvZm9udD48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+dG8gc29tZXdoZXJlIG1vcmUgPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPmJlYXV0aWZ1bCwgPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBzaXplPSIzIj48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iPiZuYnNwOzxvOnA+PC9vOnA+PC9mb250PjwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5hbmQgPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPnNvbWVvbmUgPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPmxlc3MgPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPnRyYXZlbGVkLiA8L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IHNpemU9IjMiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiI+Jm5ic3A7PG86cD48L286cD48L2ZvbnQ+PC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBzaXplPSIzIj48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iPiZuYnNwOzwvZm9udD48L2ZvbnQ+PC9wPg=="
+"eventtime","2006-06-25 23:50:00"
+"current_moodid","14"
+"url","http://goodness-sake.livejournal.com/126424.html"
+"userid","5783"

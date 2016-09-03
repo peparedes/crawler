@@ -1,0 +1,782 @@
+"names","values"
+"itemid","1056"
+"event","still fucking shit up"
+"eventtime","2007-02-18 04:17:00"
+"url","http://helovesmenot.livejournal.com/270354.html"
+"userid","6246"
+"itemid","1055"
+"event","YXMgeW91IG1heSBvciBtYXkgbm90IGtub3cgdG9tb3Jyb3cgaSB0dXJuIDIwIHllYXJzIG9sZC4gbG9uZywgbG9uZyBhZ28gd2hlbiBzb21lIHJhbmRvbSAzMC1zb21ldGhpbmcgeWVhciBvbGQgbW90aGVyIGNvbW1lbnRlZCBpbiBzdGVmJ3Mgam91cm5hbCBpIHByb21pc2VkIG15c2VsZiB0aGF0IGF0IDIwIGxqIHdhcyBvdXQ6IHRoZSBkcmFtYSwgdGhlIGdvc3NpcCwgdGhlIGJpdGNoaW5nLCBldGMsIG91dC4gIGluIHRoZSBldmVudCB0aGF0IHlvdSdyZSBjdXJyZW50bHkgYXNraW5nIHlvdXJzZWxmOyAid2VsbCBub3cgd2hhdCBqZXNzaWNhPyB3aGF0IGFyZSB5b3UgZ29pbmcgdG8gZG8gbm93IHRoYXQgeW91J3JlIDIwIGFuZCBub3QgbGl2aW5nIGluIGludGVybmV0IGRyYW1hPyIuIHdlbGwgbXkgZnJpZW5kLCBpJ20gbW92aW5nIHRvIGNoaWNhZ28gdGhpcyBzdW1tZXIsIGFuZCB1bnRpbCB0aGVuIGkgd2lsbCBzcGVuZCBhbGwgbXkgc3BhcmUgbW9tZW50cyBpbiBob3NwaXRhbHMgYW5kIGRvY3RvcnMgb2ZmaWNlcyAtIHlvdSBzZWUsIGknbSB2ZXJ5IGlsbCBhbmQgaGF2ZSBoYW5kZnVscyBvZiBvYnNjdXJlIHN1cmdlcmllcyBhaGVhZCBvZiBtZS4gYXMgYSBmaW5hbCBsZWFwIG9mIGZhaXRoIGknbSBnb2luZyB0byBhdHRlbXB0IHRvIHNheSBzb21ldGhpbmcgd29ydGggd2hpbGUgdG8gZXZlcnlvbmUgdGhhdCBoYXMgc3VmZmVyZWQgdGhyb3VnaCBsaiB3aXRoIG1lIGluIHRoZSBsYXN0IGZvdXIgeWVhcnMgLi4gIGhlcmUgZ29lcyBub3RoaW5nLCBpZiB5b3XigJl2ZSBnb3QgbW9yZSB0aGFuIG9uZSBsaiBuYW1lLCB0aGVyZSBpcyBtb3JlIHRoYW4gb25lIGJsdXJiIHRvIHlvdSA6OiANCi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4NCg0KX2FtYWRhbGF1cmVuLCBha2EgQW1hbmRhIFRyb3R0byA9IHlvdSB3ZW50IHByb20gZHJlc3Mgc2hvcHBpbmcgd2l0aCBtZSBteSBqdW5pb3IgeWVhciwgSSByZW1lbWJlciB0aGF0IGFzIHRoZSBkYXkgSSByZWFsaXplZCBJIGhhZCBhYm5vcm1hbGx5IGxhcmdlIGJvb2JzLiBUaGFua3MuIFdlIHByb2JhYmx5IHNob3VsZCBoYXZlIHRyaWVkIHRvIGhhdmUga2VwdCBpbiB0b3VjaCBiZXR0ZXIgYWZ0ZXIgd2UgZ3JhZHVhdGVkIGFuZCB3ZW50IG91ciBvd24gd2F5cy4uDQoNCl9zZXhoYWlyIGFrYSBWYW5lc3NhIG0uIEx1Y2FzID0gd2UgdXNlZCB0byBjYWxsIHlvdSBWYW5lc3NhIE11Y2FzDQoNCmFjZXJ0YWludHJhZ2VkeSBha2EgTWlrZSBXYXRzb24gPSB5b3Ugd2VyZSBxdWl0ZSBwb3NzaWJseSB0aGUgY2xvc2VzdCBwZXJzb24gdG8gbWUgaW4gaGlnaCBzY2hvb2wsIGJ1dCB0aGVyZSB3YXMgYSBjYXRjaC4uIFdlIE5FVkVSIGh1bmcgb3V0LCBhbmQgd2Ugb25seSBzcG9rZSBpbiBwZXJzb24gcGVyaGFwcyBhIHRvdGFsIG9mIHRocmVlIHRpbWVzIC0gb25lIG9mIHRoZW0gd2FzIGF0IE15bGVzJyBiaXJ0aGRheSBwYXJ0eSB3aGVyZSB3ZSBwdXQgc29ha2luZyB3ZW50IHBhbnRpZXMgaW4gbWlrZSBkb3NzJyBoYXQuIEkgaGF2ZW4ndCB0YWxrZWQgdG8geW91IGluIGEgd2hpbGU7IGhvcGUgdGhpbmdzIGFyZSBvbiB0aGUgdXAgYW5kIHVwLiBXYXRjaCBvdXQgZm9yIGdyZWVuIG1pbGssIGl0J3MgYmFkIG5ld3MuDQoNCmFyYml0cmFyaW5lc3MgYWthIFZhbmVzc2EgbS4gTHVjYXMgPSByZW1lbWJlciB3aGVuIHlvdSBkaWRu4oCZdCBicnVzaCB5b3VyIHRlZXRoIGZvciBtb250aHMgb24gZW5kPw0KDQpiZWluZGlnb2UgPSBZb3UgYWx3YXlzIHByb21pc2VkIHRoYXQgaWYgSSBjYW1lIHRvIG15IHNlbnNlcyBzb21lZGF5IGFuZCBiZWNhbWUgYSBsZXNiaWFuIHlvdeKAmWQgZGF0ZSBtZTsgSSBzdGlsbCBtaWdodCB0YWtlIHlvdSB1cCBvbiB0aGF0Lg0KDQpibHVlZXllczY4NiBha2EgQW1hbmRhIE1jS2VuemllID0gSSBiZXQgSSBzcGVsdCB5b3VyIGxhc3QgbmFtZSB3cm9uZywgYW5kIEnigJltIGFsc28gd2lsbGluZyB0byBiZXQgdGhhdCBJIGRvbuKAmXQgY2FyZSBhbGwgdGhhdCBtdWNoLiBZb3UgYWx3YXlzIGhhZCBhIHZlcnkgc3Ryb25nIGhlYWQgYW5kIEkgY2FuIG9ubHkgaG9wZSB0aGF0IHRoYXQgc3RheXMgd2l0aCB5b3UgZm9yZXZlci4NCg0KYnJpdGVhc3RoZWRhcmsgYWthIEtpbSBKYWNvYiA9IHdlIGhhZCBsb3RzIG9mIGdvb2QgdGltZXMgYW5kIGl0IHdvdWxkIGJlIHBvaW50bGVzcyB0byByZXN0YXRlIGFueSBvZiB0aGVtLCBob3dldmVyLCBJIGRvIHN0aWxsIGxvb2sgZm9yIHlvdXIgY2xhc3MgcmluZyBldmVyeSB0aW1lIEnigJltIGF0IG15IGRhZHMgaG91c2UuDQoNCmJydXNoZmlyZSBha2EgSm9obiB3LiBTdGV3YXJ0ID0gSSBoYXZlIHR3byB0aGluZ3MgdG8gc2F5IHRvIHlvdSBoZXJlLiAgRmlyc3QgaXMgdGhhdCwgSeKAmW0gc29ycnkuIEZvciBldmVyeXRoaW5nIHJlYWxseSwgZm9yIGV2ZXJ5IHRlYXIsIGhlYXJ0YWNoZSwgc21pbGUsIGxhdWdoLi4gSSBkb27igJl0IGtub3cgd2hhdCBpdCB3YXMgd2UgaGFkIGFuZCBJ4oCZbSBub3Qgc3VyZSBhbnl0aGluZyBJIGRpZCB3YXMgcmlnaHQsIGFuZCBJ4oCZbSBqdXN0Li4gU29ycnkuIFNlY29uZGx5LCBJIHdhbnQgeW91IHRvIHJlbWVtYmVyIHNvbWV0aGluZy4gVGhlIGZpcnN0IHRpbWUgSSBsZXQgeW91IGtpc3MgbWUsIHJlbWVtYmVyIGl0PyBJdCB3YXMgYSBwZXJmZWN0IG5pZ2h0LCBmaXJld29ya3MgYXQgdGhlIGxha2UsIGl0IHRvb2sgeWVhcnMgdG8gaGFwcGVuIGJ1dCBpdCBjb3VsZG7igJl0IGhhdmUgcG9zc2libHkgYmVlbiBtb3JlIHBpY3R1cmUgcGVyZmVjdC4gIEdsYXNzIHJvc2UuIA0KDQpjcmF6eW1vbmtleXMgYWthIEtlbGx5IENvbm5lbGwgPSBJIFRPTEQgeW91IEkgd2FzIGdvaW5nIHRvIGJlIHlvdXIgbmV3IGJlc3QgZnJpZW5kLCB5b3UgZGlkbuKAmXQgYmVsaWV2ZSBtZS4uIHVudGlsIHdlIGVuZGVkIHVwIGluIEFMTCBvZiB0aGUgc2FtZSBjbGFzc2VzLiBJ4oCZbSBsZWF2aW5nIHlvdSB0aGlzIHllYXIgdGhvdWdoLCBJ4oCZZCB0YWtlIHlvdSB3aXRoIG1lIGlmIEkgY291bGQuLiBidXQgYWxhcyBJIGNhbm5vdCBhbmQgY2VudHJhbCBpcyB5b3VyIGJ1cmRlbiB0byBiZWFyIGFsbCBvbiB5b3VyIHZlcnkgb3duLg0KDQpkcmVhbXNfdW5kb25lIGFrYSBCcmlzdG9sIGouIERheSA9IHdlIHdlcmUgYmVzdCBmcmllbmRzIGZvciB5ZWFycywgYW5kIHRoZW4gb25lIGRheSB5b3Ugc3RvcHBlZCB0YWxraW5nIHRvIG1lLiBXZSBoYXZlbuKAmXQgc3Bva2Ugc2luY2UgZ3JhZHVhdGlvbiwgYW5kIGZyb20gd2hhdCBJIGNhbiB0ZWxsIHlvdSBoYXZlbuKAmXQgc3Bva2UgdG8gYW55b25lIGVsc2Ugd2hvIGNhcmVkIGFib3V0IHlvdSBlaXRoZXIsIGJlY2F1c2UgeW91IGhhdmUgbmV3IGZyaWVuZHMuIFdlbGwsIGdvb2QgbHVjayB3aXRoIHRob3NlIG5ldyBmcmllbmRzLi4gYW5kIG1heWJlIGlmIHlvdSBldmVyIG5lZWQgdXMgdGhlIG9sZCBvbmVzIHdpbGwgc3RpbGwgYmUgYXJvdW5kLCBwcm9iYWJseSBub3Qgc28gbXVjaCB0aG91Z2guDQoNCmhvbGx5eGNvcmUgYWthIEhvbGx5IE11bGxpbnMgPSB3aGVyZSB0aGUgaGVsbCBkaWQgeW91IGdvPyBJIG1pc3MgeW91LCBhbmQgZnJvbSB3aGF0IEkgdW5kZXJzdGFuZCBzaW5jZSB0aGUgbGFzdCB0aW1lIHdl4oCZdmUgaHVuZyBvdXQgeW91IG1hbmFnZWQgdG8gbWFrZSBmcmllbmRzIHdpdGggdHdvIG1hbGUgZmlndXJlcyBvZiBteSBwYXN0LCB3YXkgdG8gZ28gbG9zZXIuIEZpbmQgbWUgc29tZWRheSwgZWg/DQoNCmltYWdpbmFyeWZyaWVuZCBha2EgRGFuIGQuIFN3ZWV0c2VyID0geW91IHNlbmQgbWUgc3dlZXQgbWFpbCBldmVyeSBub3cgYW5kIHRoZW4sIGFuZCBJIGNoZXJpc2ggaXQgbW9yZSB0aGFuIGFueXRoaW5nIGVsc2UgaW4gdGhlIHdvcmxkLCBzZXJpb3VzbHkuIFlvdSBhcmUgdGhlIG1vc3QgYXdhcmUgYW5kIG1vc3QgdW5hd2FyZSBwZXJzb24gSSBrbm93LCBhbmQgSSBsb3ZlIHlvdS4gWXVwLCBJIGxvdmUgeW91Lg0KDQppbm5vY2VudGx5IHB1cmUgYWthIEtlbGx5IENvcHBlcnNtaXRoID0gd2UgZ290IHJlYWxseSBjbG9zZSB0aGVyZSBmb3IgYSB3aGlsZSwgYW5kIHRoZW4gLi4geW91IHN0b3BwZWQgdGFsa2VkIHRvIG1lLCB3aGljaCBpcyBzd2VldC4gSSBzYXcgeW91IGF0IGtvaGzigJlzIHRoaXMgc3VtbWVyOyBJIGRpZG7igJl0IGV2ZW4gcmVhbGl6ZSBpdCB3YXMgeW91IHVudGlsIGFmdGVyIEnigJlkIGxlZnQuLiBTb3JyeSBhYm91dCB0aGF0LiBJbiBhbnkgZXZlbnQsIEkgaG9wZSB0aGF0IHNvbWVkYXkgZXZlcnl0aGluZyBpbiB5b3VyIHdvcmxkIHN0cmFpZ2h0ZW5zIGl0c2VsZiBvdXQsIGRlZXAgYnJlYXRoIGluLCBkZWVwIGJyZWF0aCBvdXQuIA0KDQpqYWNib2llZSBha2EgLi4gamFrYm9pZWUgPSAgeW914oCZcmUgdGhlIGJlc3QgZnJpZW5kIGFueW9uZSBjb3VsZCBldmVyIGFzayBmb3IsIEkgY291bGQgc2F5IGEgbG90IG1vcmUgYW5kIHJ1biB0aGlzIGludG8gdGhlIGdyb3VuZCwgYnV0IGluIGFsbCByZWFsaXR5IHRoYXTigJlzIGFsbCB0aGVyZSBpcyB0byBpdC4uIHlvdeKAmXJlIGFuIGFtYXppbmcgcGVyc29uIGFuZCB0aGUgYmVzdCBmcmllbmQgYW55b25lIGNvdWxkIGFzayBmb3IuDQoNCmplZmZpem1ldGFsIGFrYSBKZWZmcmV5IGQuIEx5b25zID0gdW0sIHdvYWggb2ssIHNvIHdlIG1hbmFnZWQgdG8gYnVpbGQgYW4gZW50aXJlIHJlbGF0aW9uc2hpcCBiYXNlZCBvZmYgb2YgaW50ZXJuYWwgbGllcywgdGhhdCB3YXMgcHJldHR5IHN3ZWV0IG9mIHVzLiBZb3UgdG9vayBteSB2aXJnaW5pdHksIGFuZCBzaG91bGRu4oCZdCBoYXZlLiAgV2UgbWFkZSBhIGdhbWUgb3V0IG9mIGh1cnRpbmcgZWFjaCBvdGhlci4gV2UgbWFrZSB3YXkgYmV0dGVyIGZyaWVuZHMgdGhhbiB3ZSBldmVyIGNvdWxkIGxvdmVycywgYW5kIEkgdGVuZCB0byBiZWxpZXZlIHRoYXQgd2UgY291bGQgaGF2ZSBhbiBhbWF6aW5nIGZyaWVuZHNoaXAsIHdoaWNoIEkgdGhvdWdodCB3YXMgZ29pbmcgdG8gaGFwcGVuIHRoZXJlIGZvciBhIHdoaWxlLi4gYnV0IGl0IHR1cm5lZCBvdXQgeW91IHdlcmUganVzdCBib290eSBjYWxsaW5nIG1lIGZvciBsaWtlIHR3byBtb250aHMgc3RyYWlnaHQsIGFuZCBjYWxsaW5nIG1lIGV2ZXJ5IG5pZ2h0IGp1c3QgZm9yIHRoZSBoZWxsIG9mIGl0LiBJ4oCZbSBub3Qgc3VyZSBpZiBJIHJlYWxseSBsb3ZlZCB5b3UsIEnigJlkIGxpa2UgdG8gdGhpbmsgSSBkaWTigKYgYnV0IGEgbG90IG9mIGFuZ2VyIGFuZCBtaXN1bmRlcnN0YW5kaW5nIGhhcyBnb3R0ZW4gaW4gdGhlIHdheSBvZiBhbGwgdGhhdCDigJMgYW5kIG5vdyBJIGhhdmUgbm8gaWRlYSB3aGF0IGhhcHBlbmVkLCBub3QgaW4gdGhlIHZlcnkgbGVhc3QuIEkgd29u4oCZdCBldmVyIGZvcmdldCB5b3UsIHNvIHRoZXJl4oCZcyBzb21ldGhpbmc7IGFuZCB5b3XigJlsbCBhbHdheXMgaGF2ZSBhIGxpdHRsZSBwbGFjZSBzb21ld2hlcmUgaW4gbXkgbWluZCBhbmQgaGVhcnQuIFNvbWVkYXkgd2hlbiB3ZSBib3RoIGdyb3cgdXAgd2Ugc2hvdWxkIGJlIGZyaWVuZHMsIEnigJlkIGxpa2UgdGhhdCBhIGxvdCBJIHRoaW5rLiBJIHdhcyBnb2luZyB0byBzZW5kIHlvdSBhIGJpcnRoZGF5IGNhcmQgYnV0IG9idmlvdXNseSBkaWRu4oCZdCwgYmVjYXVzZSBJIHNwZW50IHNldmVyYWwgdHJpcHMgdG8gc2V2ZXJhbCBwbGFjZXMgbG9va2luZyBmb3Igc29tZXRoaW5nIGdvb2QuLiBhbmQgd2VsbCwgY2FyZHMgc3Vjay4gU28uLiBoYXBweSBiZWxhdGVkIGJpcnRoZGF5IGNyZWVwLiAgSSByZWFsbHkgaG9wZSB0aGF0IHNvbWV3aGVyZSB5b3XigJlyZSBoYXBweS4gIChJIGFsc28gaG9wZSB0aGF0IHNvbWVkYXkgeW91IGNvbnF1ZXIgeW91ciBiYWxsIHN0YW5rLiBIYS4pDQoNCmpvb2xpZXN1biBha2EgSnVsaWUgPSBvayBzbyB3ZSBvbmx5IGh1bmcgb3V0IG1heWJlLi4gZm91ciB0aW1lcy4gUmVnYXJkbGVzcyB5b3UgYXJlIG9uZSBvZiB0aGUgY29vbGVzdCBnaXJscyBJIGtub3csIGFuZCBJIHJlYWxseSB3aXNoIHdlIGhhZCBtYWRlIHNvbWUgc29ydCBvZiBlZmZvcnQgdG8gYmUgZnJpZW5kcyBvdXRzaWRlIG9mIHRoZSB3aG9sZSBqZWZmaWNhIHRoaW5nLiBJIGhhdmVu4oCZdCB0YWxrZWQgdG8geW91IGluIGZvcmV2ZXIsIEkgaG9wZSB5b3VyIGRvaW5nIHdlbGzigKYgYW5kIHRoYXQgeW914oCZcmUgc3RpbGwgc2luZ2luZyBhbmQgZGFuY2luZyBvYm5veGlvdXNseSBhdCBpbmFwcHJvcHJpYXRlIHRpbWVzLiANCg0KanZhbnRyYXkgYWthIEplc3NpZSBMZWdyZWUgPSBJIGRvbuKAmXQgdGhpbmsgd2Ugd2VyZSBldmVyIGRpcmVjdGx5IGZyaWVuZHMsIGFsd2F5cyBieSBhc3NvY2lhdGlvbi4gTmV2ZXIgdGhlIGxlc3Mgd2UgbGF1Z2hlZCwgYSBsb3QuIEFuZCBJIGtub3cgc29tZXRoaW5nIHJpZGljdWxvdXMgaGFwcGVuZWQgYXQgcHJvbSBiZXR3ZWVuIHRoZSB0d28gb2YgdXMsIGJ1dCBJIGNhbuKAmXQgZm9yIHRoZSBsaWZlIG9mIG1lIHJlbWVtYmVyIGl0LiBIcm0uIFlvdeKAmXJlIGEgY2F0Lg0KDQpsb3ZlX3lvdXJfZWdvIGFrYSAgS2ltIEphY29iID0gc28gb25lIHRpbWUsIEkgd2FzIGF0IHlvdXIgaG91c2UuLiBhbmQgbG90cyBhbmQgbG90cyBvZiBjaGVlc2UgZmVsbCBvdXQgb2YgeW91ciBmcmVlemVyLiBXZSB1c2VkIHRvIHNwZW5kIGEgbG90IG9mIHRpbWUgdG9nZXRoZXIuLiBhbmQgdGhlbiB3ZSBncmV3IHVwLCBhbmQgZ3JldyBhcGFydC4uIG9yIHNvbWV0aGluZy4gIEVoLCBJ4oCZbSBhIHN3ZWV0IGRyaXZlci4NCg0KSXNycG5rODcgYWthICBCcmlhbiBXcmlnaHQgPSBteSBlZ2dwbGFudC4gVGhlIG9ubHkgcGVyc29uIG9uIGVhcnRoIEnigJlsbCBhZG1pdCB0by9zaW5nIGRhc2hib2FyZCBjb25mZXNzaW9uYWwgd2l0aC4gSSBoYXZlbuKAmXQgc3Bva2UgdG8geW91IGluIGZvcmV2ZXIuLiBzaW5jZSBJIGdyYWR1YXRlZC4gUmVtZW1iZXIgdGhlc2UgdGhpbmdzIDogZ2lybHMgd2lsbCBhbHdheXMgYnJlYWsgeW91ciBoZWFydCwgc2hvcnQgaGFpciA9IGdvb2QgaGFpciwgYmVpbmcgYSBuZXJ2b3VzIG1ldGFsIHdyZWFrIGlzbuKAmXQgYXMgaG9ycmlibGUgYXMgZXZlcnlvbmUgc2VlbXMgdG8gdGhpbmsgaXQgaXMuDQoNCm1hcmtpZWsgYWthICBNYXJrIEt1cmx5YW5jaGlrICA9IEnigJltIGdvaW5nIHRvIGdvIGFoZWFkIGFuZCBndWVzcyBJIHNwZWx0IHRoYXQgd3JvbmcuICBZb3Ugd2VyZSBhbHdheXMgbXkgZmF2b3JpdGUuIEFuZCBhcyBzdHJhbmdlIGFzIHRoaXMgbWF5IG9yIG1heSBub3Qgc291bmQsIEkgbWlzcyB0YWxraW5nIHRvIHlvdSwgYSBsb3QsIHNvbWV0aW1lcy4gWW91IGFyZSBhIHZlcnkgaW50ZWxsaWdlbnQgYW5kIHVuZGVyc3RhbmRpbmcgcGVyc29uLCBhbmQgYW4gaW50dWl0aXZlIHBlcmNlaXZlciB3aXRoIHRoZSBiZXN0IG9mIHRoZW0uIEkgaG9wZSBDSyBpcyBnb2luZyB3ZWxsLCBJIHRyaWVkIHRvIG1ha2UgaXQgYSBmZXcgc2hvd3MgdGhpcyBzdW1tZXIgYnV0IEkgZGlkbuKAmXQgdGhpbmsgeW914oCZZCBrbm93IHdob20gSSB3YXMuLiBhbmQgdGhlbiBhIGJ1bmNoIG9mIHNoaXQgaGFwcGVuZWQgYW5kIEkgY291bGRu4oCZdCBzaG93IHVwIGFueXdheSwgc28gLi4gc28gbXVjaCBmb3IgdGhhdC4gWW91IGltZWQgbWUgZHJ1bmsgYSBmZXcgbW9udGhzIGFnbyBidXQgd2UgZGlkbuKAmXQgdGFsay4gIEkgaGF2ZSBhYnNvbHV0ZWx5IGFsbCB0aGUgYmVzdCB3aXNoZXMgZm9yIHlvdS4NCg0KbWVhbnN0b2FuZW5kIGFrYSBTYXJhaCBCaXNob3AgPSBXSEVSRSBUSEUgRlVDSyBBUkUgWU9VIT8hIFlvdSBkaXNhcHBlYXJlZCBvbiBtZSBhYm91dCBhIHllYXIgYWdvLCBhbmQgSSBkb27igJl0IGtub3cgd2hlcmUgeW91IHdlbnQsIG9yIGhvdyB0byBmaW5kIHlvdS4gWW91IGFyZSBteSBiaWcgc2lzdGVyLCBhYm91dCB0aGUgb25seSBwZXJzb24gSSB0cnVzdC4uIGFuZCB3ZWxsIEnigJl2ZSBrbm93biB5b3UgZm9yLi4gRk9SRVZFUi4gQW5kIG5vdy4uIHlvdeKAmXJlIGdvbmUuIFJlbWVtYmVyIGhvdyBJIG1ldCB5b3U/IEhhLCB5b3VyIGJmIGF0IHRoZSB0aW1lIHdvdWxkbuKAmXQgc3RvcCBoaXR0aW5nIG9uIG1lIGlmIGhpcyBsaWZlIGRlcGVuZGVkIG9uIGl0LCBhbmQgeW91IGNhbWUgdG8gdGhlIHJlc2N1ZS4gR29vZCBnb2QgSSBsb3ZlIHlvdSwgYW5kIG1pc3MgeW91LCBhIGxvdC4gTG9zZXIuDQoNCm5lb25raXR0eW4gYWthIENyeXN0YWwgS2VueW9uID0gYWhoaCwgd2UgaGFkIHNvIG11Y2ggZnVuIHRhbGtpbmcgc2hpdCBhYm91dCByYW5kb20gbmFzdHkgcGVvcGxlIGluIGhpZ2ggc2Nob29sLiBBbmRkZGRkIHlvdSBnb3QgdG8gd2l0bmVzcyB0aGUgbWFzcyBhbW91bnRzIG9mIHZhbml0eSBwcm9kdWN0IEkgYnV5IGV2ZXJ5IG1vbnRoIGF0IHRhcmdldC4gWW914oCZcmUgc3VjaCBhIGx1Y2t5IGdpcmwuIEkgaG9wZSBzY2hvb2wgaXMgZ29pbmcgd2VsbCwgYW5kIHRoYXQgd2FycmVuIGRvZXNu4oCZdCBzd2FsbG93IHlvdSB3aG9sZSwgY29zIHRoYXQgd291bGQgYmUgYSBodWdlIGxvc3MgdG8gc29jaWV0eS4NCg0Kbmlja3JvY2sgYWthIE5pY2sgWW91bmNlID0gd2UgaGF2ZSBhIGxvdCBtb3JlIGluIGNvbW1vbiB0aGFuIHlvdSBrbm93LCBJIHRoaW5rLiAgWW91IGFyZSBhbiBpbmNyZWRpYmx5IGJyaWdodCBwZXJzb24sIGFuZCBJIGNhbiBvbmx5IGhvcGUgdGhhdCBzb21lZGF5IHlvdSBwdXQgdGhhdCB0byB1c2UuICBJIHRoaW5rIHlvdeKAmXJlIGFmcmFpZCBvZiByZWFsbHkgZ3Jvd2luZyB1cCwgYmVjYXVzZSBtZW50YWxseSB5b3XigJl2ZSBiZWVuIGZ1bGx5LWdyb3duIGZvciB5ZWFycy4uIEkga25vdyBob3cgdGhhdCB3b3Jrcy4gIEkgaG9wZSBsaWZlIHRocm93cyB5b3Ugbm90aGluZyBidXQgc3Vuc2hpbmUgYW5kIHB1cHBpZXMgZnJvbSBoZXJlIG9uIG91dC4gV29vdCENCg0KcGFobGVrd293IGFrYSBLcmlzdG9waGVyIFBhaGxlayAgPSB5b3Ugc3RpbGwgb3dlIG1lIGEgc21vb3RoaWUsIGZyb20gbGlrZSB0aHJlZSB5ZWFycyBhZ28uIFdlIHVzZWQgdG8gdGFsayBhbGwgdGhlIHRpbWUsIG5vdCBzbyBtdWNoIGFueW1vcmUuLiB3YXkgdG8gZ28gbG9zZXIuIFdlIHdlcmUgdGhlIG9ubHkgdHdvIHZpcmdpbnMgbGVmdCBvbiBlYXJ0aC4uIGFuZCB0aGVuIEkgZnVja2VkIHRoYXQgb25lIHVwLiBTaWdoLiANCg0KcmlmbGVmYWNlbGlmdCBha2Egc2xlZXB5IGJlZXB5IE1hcmllc2tpIHR3ZWVjZSB0aGUgZmlyc3QgPSAgb25lIHdvcmQ6IGJvbHQuIEplc3VzIGguIENocmlzdCwgdGFsayBhYm91dCBsb25nIHN0YW5kaW5nIGhpc3Rvcnkgb2YgcmV0YXJkZWRuZXNzIHRvZ2V0aGVyLiBIb25lc3RseSwgaXQgcGFpbnMgbWUgdG8gZXZlbiB0cnkgdG8gcHV0IGhvdyB3ZWlyZCBhbmQgcmV0YXJkZWQgd2UgYXJlIHRvZ2V0aGVyIGludG8gd29yZHMuIFNvIEkgd29udC4gDQoNCnNhbmRiYWNoIGFrYSBDaHVjayBGdWNrID0gIGJlc3QgdGhpbmcgdG8gZXZlciBoYXBwZW4gdG8gbWUuIEhhLiBTb21lZGF5LCBsaWtlIHR3ZW50eSB5ZWFycyBmcm9tIG5vdyB3ZeKAmXJlIGdvaW5nIHRvIGVuZCB1cCBtYXJyaWVkLiBCb3RoIG9uIG91ciBsaWtlIGZpZnRoIG1hcnJpYWdlcyBhbmQganVzdCBnaXZpbmcgaW4gYW5kIGdpdmluZyB1cCB0byBzb21ldGhpbmcgdGhhdCB3ZSBzaG91bGQgaGF2ZSBkb25lIHdoZW4gd2Ugd2VyZSBsaWtlIDE1LiB5b3UgZGlzYXBwZWFyZWQgYWdhaW47IEkgZG9u4oCZdCBrbm93IHdoYXTigJlzIHVwIHdpdGggdGhhdCBjb21wbGV0ZWx5Li4gYnV0IHdlIGFsd2F5cyByZXN1cmZhY2Ugd2hlbiB3ZSBkaXNhcHBlYXIuLiBhbmQgaXRzIGxpa2Ugd2UgbmV2ZXIgbGVmdC4gU28gSeKAmWxsIHdhaXQgdW50aWwgdGhlbi4gWW91IEkgbG92ZS4gDQoNCnNlYW50aGViYXN0YXJkNyBha2EgU2VhbiBQb3RvY3phayA9IG9oIG5vLiBkdWRlLCB3ZSB3ZW50IHRocm91Z2ggU08gbXVjaCBzaGl0IHRvZ2V0aGVyLiBOb3QgZXZlbiBzbyBtdWNoIGludm9sdmluZyBlYWNoIG90aGVy4oCmIGp1c3QgdGhlcmUgd2FzIHNvIG11Y2ggc3R1cGlkIGZ1Y2tpbmcgYnVsbHNoaXQgZ29pbmcgb24gd2hlbiB3ZSB3ZXJlIHVtICp0b2dldGhlciAqIHNvIHRvIHNwZWFrLiBJIGJyb2tlIHlvdXIgaGVhcnQgbGlrZSBhIHRob3VzYW5kIHRpbWVzLCBJIGRvbuKAmXQga25vdyB3aHksIGFuZCBJIGNhbuKAmXQgZXZlbiBiZWdpbiB0byBhcG9sb2dpemUgZm9yIGl0LiBJIHNhdyB5b3UgYXQgaG9tZWNvbWluZyB0aGlzIHBhc3QgeWVhciBhbmQgd2FudGVkIHRvIHNpdCBkb3duIGFuZCB0YWxrIHRvIHlvdS4uIGJ1dCB5b3UgbGF0dGVybHkgZ290IHVwIGFuZCBydXNoZWQgYXdheSB0aGUgc2Vjb25kIHlvdSBzZWVuIG1lIHdhbGsgaW4gdGhlIGdhdGUuIFRoYXQga2luZGEgaHVydCwgbm90IGdvbm5hIGxpZS4gRWgsIG1heWJlIHNvbWVkYXkgd2XigJlsbCBiZSBmcmllbmRzLCB3aG8ga25vd3MuDQoNCnN0YXJ3aXRob3V0YXNreSBha2EgU3RlZmZmZmZmZiBTdGFua28gPSB5b3Uga25vdyB3aGF0IHdvdWxkIGJlIHN3ZWV0PyBJZiB5b3UgcmV0dXJuZWQgbXkgcGhvbmUgY2FsbHMuIEkgdGhpbmsgSeKAmWxsIGFsd2F5cyBraW5kYSByZWdyZXQgbm90IGhhdmluZyBiZWVuIGNsb3NlciB3aXRoIHlvdSBpbiBzY2hvb2wsIGJ1dCBJIGhhZCB3YXkgdG8gbXVjaCBzaGl0IGdvaW5nIG9uIHRvIGdldCB0b28gY2xvc2UgdG8gYW55b25lIEkgd2FzbuKAmXQgYWxyZWFkeSBhdHRhY2hlZCB0by4gSSBsb3ZlIHlvdSBsb3RzIGhvd2V2ZXIuIEFuZCB3ZeKAmWxsIHByb2JhYmx5IGJlIGZyaWVuZHMgZm9yZXZlci4gDQoNCnRhY3RpY2ZhbmF0aWMgYWthIER1YW5lIEtldGl6bWVuID0gb2sgc28gSSBzcGVsdCB5b3VyIGxhc3QgbmFtZSB3cm9uZy4gQW5kIEkga25vdyBpdC4gQnV0IEknbSBvayB3aXRoIHRoYXQsIGFuZCBzbyBhcmUgeW91LiAgVW0sIFRIRSBMQURJRVMuIFdlIGhhdmUgcm9ib3QgQXNpYW5zLiANCg0KdGhlYmVsbHkgYWthIEJvYmVydCA9IHNvIHllYWgsIHdlIHdlcmUgYmVzdCBmcmllbmRzIGZvciBsaWtlLi4gZWlnaHQgeWVhcnMuIEFuZCB0aGVuLCB5b3Ugc3RvcHBlZCB0YWxraW5nIHRvIG1lIHdoZW4gSSBkZWNpZGVkIHRoYXQgSSB3YW50ZWQgdG8gbGVhdmUgYW5kIGdldCBhd2F5IGZyb20gd2FycmVuIGFuZCBpdHMgbG93bmVzcy4gVGhhdCB3YXMgY3V0ZS4gV2XigJlsbCBiZSBmcmllbmRzIGFnYWluIHNvbWVkYXksIGNvcyB3ZeKAmXJlIHNlY3JldGx5IGpvaW5lZCBhdCB0aGUgaGlwLiBNaXNzIHlvdSBsb3Nlci4gDQoNCnRoZW1heW9yIGFrYSBDaHJpc3RvcGhlciBqLiBTa3VwbnkgPSBJIHdhcyBpbiBsb3ZlIHdpdGggeW91IGluIG1pZGRsZSBzY2hvb2wgYW5kIGRpc2d1c3RlZCBieSB5b3UgaW4gaGlnaCBzY2hvb2wuLiBhbmQgdGhlbiBzb21ld2hlcmUganVuaW9yLy9zZW5pb3IgeWVhciB3ZSBiZWNhbWUgdWJlciBjbG9zZS4gSeKAmW0gcHJldHR5IHN1cmUgeW91IHVuZGVyc3RhbmQgbWUgYmV0dGVyIHRoYW4gYW55b25lIGVsc2UgYWxpdmUsIGFuZCB3ZWxsLi4ganVzdCwgdGhhbmtzLiANCg0KdGh5aG9ycm9yY29zbWljIGFrYSBUcmV2YmFieSA9IHNvIHdlIHRvdGFsbHkgc2hvdWxkIGhhdmUgZGF0ZWQgbGlrZSB0d28geWVhcnMgYWdvLiBCdXQgeW91IHdvdWxkbuKAmXQgZHJpdmUsIGFuZCBJIGRlY2lkZWQgdGhhdCBkYXRpbmcgZXZlcnlvbmUgZWxzZSBpbiB0aGUgd29ybGQgd2FzIHRoZSBzYW1lIHRoaW5nLiBZb3XigJlyZSBvbmUgb2YgbXkgZmF2b3JpdGUgcGVvcGxlLi4gZXZlciwgYW5kIEkgaG9wZSB3ZSBzdGF5IGluIGNvbnRhY3QgZm9yIHlvdSBrbm93Li4gZXZlci4gIFlvdeKAmXJlIGFib3V0IGR1ZSB0byBjYWxsIG1lLCBjb3MgeW91IGdlbmVyYWxseSBkbyBldmVyeSBvdGhlciBtb250aCBvciBzby4gIEV4cyBhbmQgb2hzLg0KDQp2YW5lc3NhbWljaGVsZSBha2EgVmFuZXNzYSBtLiBMdWNhcyA9IEnigJltIHNpY2sgb2Ygd3JpdGluZyB0byB5b3UuDQoNCnZhbm5pZSBha2EgVmFuZXNzYSBtLiBMdWNhcyA9IG9oIGxvb2ssIHlvdSBBR0FJTi4NCg0Kdml6YW1weSBha2EgQ291cnRuZXkgbi4gSHVydCA9IHNpZ2guIFdlIGhhZCBhIExPVCBvZiBnb29kIHRpbWVzIHRvZ2V0aGVyLiBUaGUgbWVtb3J5IEkgd2lzaCB0byBrZWVwIGZvcmV2ZXIgaXMgYXMgZm9sbG93cyA6IHdlIHdlcmUgYm90aCB1YmVyIGRlcHJlc3NlZCBhbmQgd2VudCB0byB0YWNvIGJlbGwsIGFuZCB0aGVuIHRoZSBwYXJrLiBBdCB3aGljaCBJIHdlbnQgY3JhenkgYW5kIHRob3VnaHQgaXQgd2FzIGEgZ29vZCBpZGVhIHRvIHVuc29jayBteSBuZW9uIHdoaXRlIGZlZXQgYW5kIHJ1biBhcm91bmQgaW4ga25lZSBkZWVwLWZyb3plbiBwdWRkbGVzLiBXZSBsYXVnaGVkLCBhIGxvdC4gQW5kIGl0IHdhcyBqdXN0IGFsbCBhbmQgYWxsIGdvb2QgdGltZXMuDQoNCndoZW5mYWxsY29tZXMgYWthICBKb2huIHcuIFN0ZXdhcnQgPSBvayBzbywgIHlvdeKAmXZlIGRvbmUgdGhlIHN3ZWV0ZXN0IGFuZCBtb3N0IGNhcmluZyB0aGluZ3MgZm9yIG1lLiBJIHdvbuKAmXQgZXZlciBmb3JnZXQgdGhlbSwgYW5kIEkgY2Fu4oCZdCB0ZWxsIHlvdSBob3cgbXVjaCBpdCBhbGwgcmVhbGx5IG1lYW5zIGluIHRoZSBiaWcgcGljdHVyZSBvZiB0aGluZ3MuDQoNClhjb3dhYnVuZ2F4IGFrYSBKb3JkYW4gdy4gQnJlaWhhdXB0ID0gIG15IHR3aW4uIE15IHNvdWxtYXRlLiBXZSBmZWxsIGFwYXJ0LiAgWW91IGRpc2FwcGVhcmVkLiAgSSBjYW7igJl0IGxpc3RlbiB0byB3ZWV6ZXIgd2l0aG91dCB0aGlua2luZyBhYm91dCB5b3UuIFRoYW5rcy4NCg0KeW91X3NldF9tZV9mcmVlIGFrYSAgS2VsbHkgQ29wcGVyc21pdGggPSBJIHdhcyBnb2luZyB0aHJvdWdoIG15IHllYXIgYm9vayB0aGUgb3RoZXIgZGF5LCBhbmQgeW91IHdyb3RlIG1lIGRhbW4gbmVhciBhIG5vdmVs4oCmIA0KLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4NCg0KDQoNCldlbGwgdGhlcmXigJlzIGFsbCB0aGF0LiBDYWxsIG1lIHNvbWV0aW1lLCBlbWFpbCBtZSwgaW0gbWUuLiBrZWVwIGluIHRvdWNoLg0KDQpHb29kYnllLCANClhveA0KSmVzc2ljYQ=="
+"eventtime","2005-03-16 17:17:00"
+"url","http://helovesmenot.livejournal.com/270123.html"
+"userid","6246"
+"itemid","1054"
+"event","holy shit batman!"
+"eventtime","2004-12-02 23:47:00"
+"url","http://helovesmenot.livejournal.com/269919.html"
+"userid","6246"
+"itemid","1053"
+"event","you just can't look at it like that. you got to look at the whole thing. now, you take a fellow go out there, grab hold to a woman and think he got something 'cause she sweet and soft to the touch. it's in the world like everything else. thouching's nice. it feels good. but you can lay your hand upside a horse or a cat, and that feels good too. what's the difference? when you grab hold to a woman, you got something there. you got a whole world there. you got a way of life kicking up under your hand. that woman can take and make you feel like something. i ain't just talking about in the way of jumping off into bed together and rolling around with each other. anybody can do that. when you grab hold to that woman and look at the whole thing and see what you got ... why she can take and make something of you. your mother was a woman. that's enough to show you what she can do. she made something out of you."
+"eventtime","2004-11-02 21:50:00"
+"url","http://helovesmenot.livejournal.com/269627.html"
+"userid","6246"
+"itemid","1052"
+"event","so .. i did this really nice thing for adelaide. 
+that may or may not get me in a lot of trouble for abusing my power.
+and you know, i still dont have a t-shirt.
+
+
+
+
+livejournal is the lamest thing on earth."
+"eventtime","2004-10-14 13:56:00"
+"url","http://helovesmenot.livejournal.com/269567.html"
+"userid","6246"
+"itemid","1051"
+"event","i miss you."
+"eventtime","2004-09-18 19:02:00"
+"url","http://helovesmenot.livejournal.com/269175.html"
+"userid","6246"
+"itemid","1050"
+"event","PGRpdiBhbGlnbj1jZW50ZXI+PGZvcm0gbmFtZT0icXVpemZvcm0iIHRhcmdldD0iX25ldyIgYWN0aW9uPSJodHRwOi8vd3d3Lmt3aXouYml6L3Nob3dxdWl6LnBocD9xdWl6aWQ9MTI0MDQiIG1ldGhvZD0icG9zdCI+DQo8dGFibGUgYm9yZGVyPTEgYm9yZGVyY29sb3I9IzAwMDAwMCBiZ2NvbG9yPSIjQTA5MEQ1IiBjZWxsc3BhY2luZz0wIGNlbGxwYWRkaW5nPTI+DQo8dHI+PHRkIGNvbHNwYW49MiBhbGlnbj1jZW50ZXIgYmdjb2xvcj0nMkMwODYwJz48YSBocmVmPSdodHRwOi8vd3d3Lmt3aXouYml6L3Nob3dxdWl6LnBocD9xdWl6aWQ9MTI0MDQnIHRhcmdldD0nX25ldycgc3R5bGU9J3RleHQtZGVjb3JhdGlvbjogbm9uZTsnPjxmb250IHN0eWxlPSdjb2xvciA6ICNmZmZmZmY7IGZvbnQtZmFtaWx5IDogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsnIGNvbG9yPSAnI2ZmZmZmZic+PGI+V2hvIHdpbGwgeW91IGZ1Y2s/PC9iPjwvYT48L2ZvbnQ+PC90ZD48L3RyPg0KPHRyPjx0ZD48Zm9udCBzdHlsZT0nY29sb3IgOiAjMDAwMDAwOyBmb250LWZhbWlseSA6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7Jz5MSiBVc2VybmFtZSDCoDwvdGQ+PHRkIGJnY29sb3I9JyNEOERBRjMnPjxpbnB1dCB0eXBlPSd0ZXh0JyBuYW1lPSdpbjAnIHNpemU9JzMyJyBtYXhsZW5ndGg9JzY0JyB2YWx1ZT0naGVsb3Zlc21lbm90Jz48L3RkPjwvdHI+PHRyPjx0ZD48Zm9udCBzdHlsZT0nY29sb3IgOiAjMDAwMDAwOyBmb250LWZhbWlseSA6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7Jz5yYW5kb20gd29yZMKgPC90ZD48dGQgYmdjb2xvcj0nI0Q4REFGMyc+PGlucHV0IHR5cGU9J3RleHQnIG5hbWU9J2luMScgc2l6ZT0nMzInIG1heGxlbmd0aD0nNjQnIHZhbHVlPSdsbGFtYSc+PC90ZD48L3RyPjx0cj48dGQ+PGZvbnQgc3R5bGU9J2NvbG9yIDogIzAwMDAwMDsgZm9udC1mYW1pbHkgOiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOyc+ZmF2b3JpdGUgbW92aWXCoDwvdGQ+PHRkIGJnY29sb3I9JyNEOERBRjMnPjxzZWxlY3QgbmFtZT0naW4yJyBzaXplPScxJz48b3B0aW9uIHZhbHVlPSdNZWV0K0pvZStCbGFjaycgPk1lZXQgSm9lIEJsYWNrPC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0nRmluZGluZytOZW1vJyA+RmluZGluZyBOZW1vPC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0nRG9ubmllK0RhcmtvJyBzZWxlY3RlZD5Eb25uaWUgRGFya288L29wdGlvbj48b3B0aW9uIHZhbHVlPSdQaXJhdGVzK29mK3RoZStDYXJyaWJlYW4nID5QaXJhdGVzIG9mIHRoZSBDYXJyaWJlYW48L29wdGlvbj48b3B0aW9uIHZhbHVlPSdUaGUrUmluZycgPlRoZSBSaW5nPC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0nV2hpbm5pZSt0aGUrUG9vaCcgPldoaW5uaWUgdGhlIFBvb2g8L29wdGlvbj48L3NlbGVjdD48L3RkPjwvdHI+PHRyPjx0ZD48Zm9udCBzdHlsZT0nY29sb3IgOiAjMDAwMDAwOyBmb250LWZhbWlseSA6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7Jz48Yj5Zb3Ugd2lsbCBoYXZlIHRoZSBncmVhdGVzdCBzZXggd2l0aDwvYj7CoDwvdGQ+PHRkIGJnY29sb3I9JyNEOERBRjMnPjxmb250IHN0eWxlPSdjb2xvciA6ICMwMDAwMDA7IGZvbnQtZmFtaWx5IDogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsnPjxiPnZpemFtcHk8L2I+PC9mb250PjwvdGQ+PC90cj48dHI+PHRkPjxmb250IHN0eWxlPSdjb2xvciA6ICMwMDAwMDA7IGZvbnQtZmFtaWx5IDogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsnPjxiPklzIHRoZSB3b3JzdCBzZXggZXZlcjwvYj7CoDwvdGQ+PHRkIGJnY29sb3I9JyNEOERBRjMnPjxmb250IHN0eWxlPSdjb2xvciA6ICMwMDAwMDA7IGZvbnQtZmFtaWx5IDogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsnPjxiPnNvZG9teV9nb2Q8L2I+PC9mb250PjwvdGQ+PC90cj48dHI+PHRkPjxmb250IHN0eWxlPSdjb2xvciA6ICMwMDAwMDA7IGZvbnQtZmFtaWx5IDogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsnPjxiPk1hZGUgeW91IGZhbGwgYXNsZWVwPC9iPsKgPC90ZD48dGQgYmdjb2xvcj0nI0Q4REFGMyc+PGZvbnQgc3R5bGU9J2NvbG9yIDogIzAwMDAwMDsgZm9udC1mYW1pbHkgOiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOyc+PGI+anZhbnRyYXk8L2I+PC9mb250PjwvdGQ+PC90cj48dHI+PHRkPjxmb250IHN0eWxlPSdjb2xvciA6ICMwMDAwMDA7IGZvbnQtZmFtaWx5IDogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsnPjxiPllvdSdsbCBnbyBhbGwgbmlnaHQ8L2I+wqA8L3RkPjx0ZCBiZ2NvbG9yPScjRDhEQUYzJz48Zm9udCBzdHlsZT0nY29sb3IgOiAjMDAwMDAwOyBmb250LWZhbWlseSA6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7Jz48Yj5yaWZsZWZhY2VsaWZ0PC9iPjwvZm9udD48L3RkPjwvdHI+PHRyPjx0ZD48Zm9udCBzdHlsZT0nY29sb3IgOiAjMDAwMDAwOyBmb250LWZhbWlseSA6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7Jz48Yj5TZWNyZXRseSB3YW50cyB0byBmdWNrIHlvdTwvYj7CoDwvdGQ+PHRkIGJnY29sb3I9JyNEOERBRjMnPjxmb250IHN0eWxlPSdjb2xvciA6ICMwMDAwMDA7IGZvbnQtZmFtaWx5IDogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsnPjxiPnRoZWJlbGx5PC9iPjwvZm9udD48L3RkPjwvdHI+PHRyPjx0ZD48Zm9udCBzdHlsZT0nY29sb3IgOiAjMDAwMDAwOyBmb250LWZhbWlseSA6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7Jz48Yj5Zb3Ugc2VjcmV0bHkgd2FudCB0byBmdWNrPC9iPsKgPC90ZD48dGQgYmdjb2xvcj0nI0Q4REFGMyc+PGZvbnQgc3R5bGU9J2NvbG9yIDogIzAwMDAwMDsgZm9udC1mYW1pbHkgOiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOyc+PGI+dGFjdGljZmFuYXRpYzwvYj48L2ZvbnQ+PC90ZD48L3RyPjx0cj48dGQgY29sc3Bhbj0yIGFsaWduPWNlbnRlciBiZ2NvbG9yPSMyQzA4NjA+PGlucHV0IHR5cGU9InN1Ym1pdCIgbmFtZT0ic3VibWl0IiB2YWx1ZT0iVHJ5IFlvdXIgQW5zd2VycyEiPjwvdGQ+PC90cj4NCjx0cj48dGQgY29sc3Bhbj0yIGFsaWduPWNlbnRlcj48Zm9udCBzaXplPS0xIHN0eWxlPSdjb2xvciA6ICMwMDAwMDA7IGZvbnQtZmFtaWx5IDogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsnPjxCPlRoaXMgPEEgaHJlZj0iaHR0cDovL3d3dy5rd2l6LmJpei8iIHN0eWxlPSdjb2xvciA6ICMwMDAwMDA7Jz48Zm9udCBzdHlsZT0nY29sb3IgOiAjMDAwMDAwOycgY29sb3I9YmxhY2s+Y29vbCBxdWl6PC9mb250PjwvYT4gYnkgPGEgaHJlZj0naHR0cDovL3d3dy5rd2l6LmJpei91c2VycHJvZmlsZS5waHA/dXNlcmlkPTIwNDE5Jz48Zm9udCBzdHlsZT0nY29sb3IgOiAjMDAwMDAwOycgY29sb3I9JyMwMDAwMDAnPnRoZW5pbGxic21pbGluZzwvZm9udD48L2E+IC0gVGFrZW4gNTEzMDIgVGltZXMuPGltZyBzcmM9Imh0dHA6Ly9pbWFnZXMua3dpei5iaXova3dpemNvdW50LmdpZiIgd2lkdGg9IjEiIGhlaWdodD0iMSIgYm9yZGVyPTA+DQo8L2ZvbnQ+PC9hPjwvYj48L2ZvbnQ+PC90ZD48L3RyPjwvdGFibGU+PGZvbnQgc3R5bGU9J2ZvbnQtZmFtaWx5IDogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiA5cHQ7Jz5OZXcgLSBLd2l6LkJpeiA8YSBocmVmPSdodHRwOi8vYXN0cm9sb2d5Lmt3aXouYml6JyBzdHlsZT0ndGV4dC1kZWNvcmF0aW9uOiBub25lOyc+QXN0cm9sb2d5PC9hPjwvZm9udD48L2Rpdj4NCjwvZm9ybT4="
+"eventtime","2004-09-08 01:26:00"
+"url","http://helovesmenot.livejournal.com/268910.html"
+"userid","6246"
+"itemid","1049"
+"event","hroom.
+
+ok so here it is, one of those deep meaningful stories followed by a question that i need feedback on :
+
+
+so.. im sitting in class (first day as a college sophomore, yes!) and this kid walks in and stops dead in his tracks stares for a minute and sits down. he then waits, and gets up and plants himself right next to me. out of the corner of my eye i keep noticing him staring past the front of my face. i look over and hes drawing a picture of my eye - eyeshadow and all, including out of place eyebrow hairs. note: there was never any conversation what so ever between the two of us.
+
+i should be creeped out, right?"
+"eventtime","2004-08-30 22:13:00"
+"url","http://helovesmenot.livejournal.com/268694.html"
+"userid","6246"
+"itemid","1048"
+"event","if i laugh everything will be ok, right?"
+"eventtime","2004-08-27 12:50:00"
+"url","http://helovesmenot.livejournal.com/268492.html"
+"userid","6246"
+"itemid","1047"
+"event","still alive.
+who knew."
+"eventtime","2004-08-26 18:48:00"
+"url","http://helovesmenot.livejournal.com/268216.html"
+"userid","6246"
+"itemid","1045"
+"event","why am i the only one that thinks love is enough
+
+
+
+
+[i need to know that i havent been lying to myself, to know that it is love]"
+"eventtime","2004-04-30 01:40:00"
+"current_moodid","9"
+"url","http://helovesmenot.livejournal.com/267675.html"
+"userid","6246"
+"itemid","1044"
+"event",".. as im leaving my geo121 class i note that the entire side of the building across the walk says:
+
+ <b>""capitalism stole my virinity""</b>
+
+in big chalky letters.
+
+i stop and stare for a few seconds trying to figure out if virinity is a word, or if the writer was just an idiot.
+
+the next building had the same message, only it said virginity. 
+
+so ill assume safely that the idiot that wrote on the dow science building just cant spell or didnt bother to look at what it was writing.
+
+conclusion.
+college is a breeding ground for ignorant, immature, liberal, hippie fucks.
+
+stop being uneducated, and <i>stop being so fucking liberal</i>
+its really beginging to make me ill 
+
+p.s. if youre going to continue to put up fylers EVERYWHERE claming that george bush is such an awful leader, and a worse human being. ok so he might not be able to speak at all.. but, why dont YOU fucking write him a letter and ask if YOU can run the country during times of war for a few days, and well see how great of a job you can pull off.
+
+thank you and good bye.
+
+(politics are lame)"
+"eventtime","2004-04-27 16:14:00"
+"url","http://helovesmenot.livejournal.com/267287.html"
+"userid","6246"
+"itemid","1043"
+"event","i really honestly fucking hate everyone right now
+
+i cant think of one person i talk to on a normal basis that im not completely and utterly pissed at, well minus vanessa
+
+advise - fucking stay away, unless you need to tell me you love me"
+"eventtime","2004-04-25 03:26:00"
+"url","http://helovesmenot.livejournal.com/267103.html"
+"userid","6246"
+"itemid","1042"
+"event","who wants to support me, and keep me alive and calm, and go to alabama with me for four days in june.
+
+please.
+
+my boyfriend is too busy not being able to make committments and help me out.
+
+so i need someone, some form of support.
+
+please.
+
+totally crying."
+"eventtime","2004-04-24 17:13:00"
+"url","http://helovesmenot.livejournal.com/267002.html"
+"userid","6246"
+"itemid","1041"
+"event","Outcast81: I dont know what id do without you
+PromisesAreLies: i do what i can.
+Outcast81: and your jewels of wisdom, you smartass bitch."
+"eventtime","2004-04-18 18:55:00"
+"url","http://helovesmenot.livejournal.com/266677.html"
+"userid","6246"
+"itemid","1040"
+"event","umm...
+april fools?"
+"eventtime","2004-04-16 15:43:00"
+"url","http://helovesmenot.livejournal.com/266450.html"
+"userid","6246"
+"itemid","1039"
+"event","i cant talk to some of you anymore.
+<b>please</b> dont take it personaly.
+its for my benefit.
+there have been good times, and i wont forget them.
+unfortunately.
+
+as for you-
+i love you.
+and i am going to do everything i can not to hate you. 
+and to not hate your memories.
+and to not hate myself.
+
+i dont want to talk bad of you.
+i dont want to talk sourly of us.
+i honestly, dont want to say goodbye.
+but youve made that choice for me.
+
+please respect me.
+my memory.
+everything i gave you.
+do not let me be just another girl.
+please never call me number seven.
+
+please thank your mother.
+i love her.
+she has done a lot for me.
+and i never got to repay or thank her.
+she filled a void.
+its going to really hurt to lose her.
+
+who am i kidding?
+its going to really hurt to live with out knowing if youre alive or not.
+but i dont think i want to know if youre alive or not.
+
+i will never be the same again.
+i promise that.
+and my promises are real.
+
+i feel dirty.
+i am disgusted with myself.
+how dare i let this happen.
+how dare you let it happen.
+
+the lies were unnessary.
+further withdrawl of them will be apprecated.
+
+hey, stranger who i will never breathe a word of again.
+who will cloud all my thoughts.
+who will appear in my dreams, and in my tears.
+who will become a man with no name, with no face, with no life.
+i love you.
+and it digusts me to know i always will.
+it turns my stomach to know that you were the one.
+and that you left.
+
+i never say goodbye.
+for i warrent long goodbyes.
+i mean goodbyes.
+and they hurt.
+goodbye."
+"eventtime","2004-04-16 01:32:00"
+"url","http://helovesmenot.livejournal.com/266201.html"
+"userid","6246"
+"itemid","1038"
+"event","why am i so excited for easter!!?
+because im cooking a truck load of food
+woo woo woo
+
+which means - if you dont have anywhere to go my doors are open and theres always room at the table, becauseeeee my dad is probably going to take off to go see my sister after he eats ( or do something dumb with his friends) so its just me and the jeffrey with lots of food, and good smells and good times. 
+
+woo.
+
+and!
+i get to go grocery shopping with vanessa tomorrow night for all the food goodness.
+
+now as long as i do well on all THREE of my exams tomorrow life will be sweeeeeeeet.
+
+p.s. (HINT) lillies are really easy to find around easter time, you know WHITE LILLIES - not tulips.
+
+:)"
+"eventtime","2004-04-07 14:59:00"
+"url","http://helovesmenot.livejournal.com/265914.html"
+"userid","6246"
+"itemid","1037"
+"event","HELLIE DRAMA!
+HELLIE DRAMA!
+
+put up or shut up
+im going to take you to the post office and cancel your ass like a stamp, nigga.
+haha ok. 
+ive had diarrhea for like five days
+five day diarrhea!
+hey why the FUCK do you wear a hair net?
+
+dinners with don are, well.. something else.
+BOFF BOFF BOFF
+
+*random kissIE noises*"
+"eventtime","2004-04-06 17:48:00"
+"url","http://helovesmenot.livejournal.com/265721.html"
+"userid","6246"
+"itemid","1036"
+"event","*being obsessed with dumb shit, isnt sweet
+*smoking is the absoulte grossest thing on earth
+*drinking is really fucking stupid if 1- youre underage 2- you drink to ""escape your problems"" - or have some other really assbackwardsshortbus reason
+*making posts while youre intoxicated = completely unnessary, anyone who reads what you have to say already knows youre a moronic failure at life at the young ripe age of eighteen, and has probably suspected that you were cheating/being cheated on for the last several weeks anyhow
+*not realizing that no one feels the same way you do about <i>everything</i> makes you ignorant and uber immature
+*thinking youre actually different because of your ideals makes you even more worthy of a good clean bash to the head
+*crying? yeah its still pathetic
+*saying random shit for no reason other than you feel like saying it and probably pissing a lot of people off - priceless
+*live journal is still really a distant cry for attention and really shouldnt exist for any other excuse than to be an asshole, make fun of people, or get out information that you <b>think</b> everyone needs to know - trust me no one really cares whats going on in your little elife / unless its funny
+*by the way - don - everyday before labor day called me this morning, they want their white shoes back asap
+*i love my boyfriend, now <i>thats</i> sweet."
+"eventtime","2004-04-06 09:47:00"
+"url","http://helovesmenot.livejournal.com/265467.html"
+"userid","6246"
+"itemid","1035"
+"event","""thats why youre life is so sad. thanks mom, thanks for making me dress up as peace bear for halloween when i was 13yrs old"" -vml
+
+
+
+god its so true."
+"eventtime","2004-04-06 00:00:00"
+"url","http://helovesmenot.livejournal.com/265154.html"
+"userid","6246"
+"itemid","1034"
+"event","PromisesAreLies: hellllllp me
+deathtoglamour: how can I help?
+PromisesAreLies: um, haha, i need a picture of alpacas resized
+PromisesAreLies: :-)
+deathtoglamour: ok :-)
+*sends picture of alpacas*
+PromisesAreLies: please?
+PromisesAreLies: i *love* alpacas
+PromisesAreLies: know why!? because they provide for a warm and secure future!
+*sends pictures resized*
+deathtoglamour: :-)
+PromisesAreLies: yes! god i love you
+PromisesAreLies: new lj icon!
+PromisesAreLies: look at that sweet icon!
+deathtoglamour: now go write an entry talking baout how much you love me
+PromisesAreLies: i will
+PromisesAreLies: dont worry
+PromisesAreLies: actually
+PromisesAreLies: im in the process!
+
+josssshhuaaapoooo i love you for <b>always</b> resizing my pictures, and helping me look for things online, yes!
+i totally owe you all the children that can come from my left ovary.
+alpacas!
+mwah."
+"eventtime","2004-04-04 23:03:00"
+"url","http://helovesmenot.livejournal.com/264874.html"
+"userid","6246"
+"itemid","1033"
+"event","i got really bored cos the cmj site wont work so i can report the last part of the play list.. so i started playing on google. and well, i searched images for ""jeffrey and jessica love"" and.. well this is what i got:
+
+<img src=""http://www.upci.net/missionaries/sully/old%20pages/06/0601a2.jpg"">
+and
+<img src=""http://www.bboogie.com/50th_jeff_jess.jpg"">
+(note the drums ironicaly sitting in front of them)
+
+good times."
+"eventtime","2004-04-04 22:07:00"
+"url","http://helovesmenot.livejournal.com/264512.html"
+"userid","6246"
+"itemid","1032"
+"event","being completely and utterly in love... hurts."
+"eventtime","2004-04-03 21:43:00"
+"url","http://helovesmenot.livejournal.com/264385.html"
+"userid","6246"
+"itemid","1031"
+"event","1993 called and they want their <b>nasty</b> long curly frizzy dirty blonde hair back, yeah thanks. then 1994 beeped in on the call waiting and wanted me to let you know that being <i>fat</i> and wearing <i>skirts over pants</i> isnt cute, blossom got away with it, but she also got away with wearing big ugly obnoxious hats - you cant."
+"eventtime","2004-04-02 03:24:00"
+"url","http://helovesmenot.livejournal.com/263985.html"
+"userid","6246"
+"itemid","1030"
+"event","xSuperJoex (03:09:07 AM): Jessca, how many boys do you know that have napped on your giant stuffed animals, watched Angus and Golden Girls, taken the rap for Homecoming pranks gone wrong, and (supposedly) ate your whole birthday cake like 6 years ago?
+xSuperJoex (03:09:11 AM): 1.
+xSuperJoex (03:09:13 AM): It's me.
+xSuperJoex (03:09:15 AM): I love you.
+xSuperJoex (03:09:22 AM): And will call you tomorrow"
+"eventtime","2004-04-01 03:14:00"
+"url","http://helovesmenot.livejournal.com/263817.html"
+"userid","6246"
+"itemid","1029"
+"event","there is a point and time when you get awoken from a dream, every dream"
+"eventtime","2004-03-31 12:36:00"
+"url","http://helovesmenot.livejournal.com/263620.html"
+"userid","6246"
+"itemid","1028"
+"event","q)quick you have ten seconds to figure out who the human embodiment of koda from brother bear is ......
+<img src=""http://images.amazon.com/images/P/B000096QIN.01.LZZZZZZZ.jpg"">
+a)Jeffrey D. Lyons! DEFINATELY my boyfriend in bear cartoon form."
+"eventtime","2004-03-30 16:25:00"
+"url","http://helovesmenot.livejournal.com/263170.html"
+"userid","6246"
+"itemid","1026"
+"event","my dad just.. buys random stuff for my boyfriends band
+he has no idea what it is, just that its ""band shit""
+
+
+he buys me.. well, a clover keychain
+
+
+
+
+""you still with the little dummer boy?""
+""yea dad""
+""good tell him to get over here, i got some band shit for him""
+""some WHAT?""
+""i dunno some speakery type amp .. things, band shit!""
+""um, alright dad... ill tell him to drop by"""
+"eventtime","2004-03-26 16:44:00"
+"url","http://helovesmenot.livejournal.com/262770.html"
+"userid","6246"
+"itemid","1025"
+"event","completely fucking miserable.
+in case you cared.
+
+
+
+
+
+
+
+
+
+
+
+shut the fuck up and stop crying."
+"eventtime","2004-03-25 16:26:00"
+"url","http://helovesmenot.livejournal.com/262575.html"
+"userid","6246"
+"itemid","1024"
+"event","its never a good sign when your boyfriend tells you hes <b>never going to call you again</b> and then mummers something about <b>wanting you out of his hair</b> anyway.
+
+um. yea shitty deal.
+
+im just going to stop caring about everything, and not be concerned - or at least never say i am ever again. and then .. maybe youll talk to me like a human being-<i>im not stupid</i>, and stop hating me so fucking much.
+
+my boyfriend cant stand me anymore. 
+i <b>hate</b> that i have to make a public thing out of this.
+but i dont know how else to reach him.
+
+needless to say, i love him. probably too much. 
+
+distance is lame."
+"eventtime","2004-03-24 16:16:00"
+"url","http://helovesmenot.livejournal.com/262348.html"
+"userid","6246"
+"itemid","1023"
+"event","alpacas provide for a warm and secure future.
+i want a warm and secure future - <b>goddamnit</b>.
+i want fucking alpacas.
+
+
+<i>oh and i also want amber to stop crying about how her boyfriend isnt smart enough to go to school here with her - even though hes fucking working his ass off to be up here with her, and spends four days a week here in our dorm. and ruins my birthday. oy.</i>
+
+hi jeffrey, i love you. even though you fall asleep every time i <i>try</i> to talk to you.
+
+fuck i wish i could sleep.. its been four days, and let me tell you mr.... you start thinking entirely too much when you havent slept in four days - long nights = long thoughts"
+"eventtime","2004-03-24 01:26:00"
+"url","http://helovesmenot.livejournal.com/262105.html"
+"userid","6246"
+"itemid","1022"
+"event","im kinda like pre-cum, kindve annoying, and kindve dangerous ~ d.g.r."
+"eventtime","2004-03-23 16:32:00"
+"url","http://helovesmenot.livejournal.com/261675.html"
+"userid","6246"
+"itemid","1021"
+"event","Rules:
+1. put your birthday month in an entry
+2. strike out the things that do not apply to you
+3. make the 6 things that are most like you bold. 
+4. put the rest of the months under an LJ cut so others can find theirs. 
+
+
+
+MARCH: Attractive personality. Sexy. Affectionate. <strike>Shy and reserved</strike>. Secretive. <b>Naturally honest, generous and sympathetic</b>. Loves peace and serenity. <strike>Sensitive to others</strike>. <strike>Loves to serve others</strike>. <b>Easily angered</b>. <b>Trustworthy</b>. Appreciative and returns kindness. <b>Observant and assesses others</b>. Revengeful. Loves to dream and fantasize. <b>Loves traveling</b>. Loves attention. <strike>Hasty decisions in choosing partners</strike>. <strike>Loves home decors</strike>. Musically talented. Loves special things. <b>Moody</b>.
+
+<lj-cut text=""join the freakin' club"">
+JANUARY:
+Stubborn and hard-hearted. Ambitious and serious. Loves to teach and be taught. Always looking at people's flaws and weaknesses. Likes to criticize. Hardworking and productive. Smart, neat and organized. Sensitive and has deep thoughts. Knows how to make others happy. Quiet unless excited or tensed. Rather reserved. Highly attentive. Resistant to illnesses but prone to colds. Romantic but has difficulties expressing love. Loves children. Loyal. Has great social abilities yet easily jealous. Very stubborn and money cautious.
+FEBRUARY:
+Abstract thoughts. Loves reality and abstract. Intelligent and clever. Changing personality. Attractive. Sexy. Temperamental. Quiet, shy and humble. Honest and loyal. Determined to reach goals. Loves freedom. Rebellious when restricted. Loves aggressiveness. Too sensitive and easily hurt. Gets angry really easily but those not show it. Dislike unnecessary things. Loves making friends but rarely shows it. Daring and stubborn. Ambitious. Realizing dreams and hopes. Sharp. Loves entertainment and leisure. Romantic on the inside not outside. Superstitious and ludicrous. Spendthrift. Tries to learn to show emotions.
+MARCH: Attractive personality. Sexy. Affectionate. Shy and reserved. Secretive. Naturally honest, generous and sympathetic. Loves peace and serenity. Sensitive to others. Loves to serve others. Easily angered. Trustworthy. Appreciative and returns kindness. Observant and assesses others.Revengeful. Loves to dream and fantasize. Loves traveling. Loves attention. Hasty decisions in choosing partners. Loves home decors. Musically talented. Loves special things. Moody. 
+APRIL:
+Active and dynamic. Decisive and hasty but tends to regret. Attractive and affectionate to oneself. Strong mentality. Loves attention. Diplomatic. Consoling, friendly and solves people's problems. Brave and fearless. Adventurous. Loving and caring. Suave and generous. Emotional. Aggressive. Hasty. Good memory. Moving Motivates oneself and others. Sickness usually of the head and chest. Sexy in a way that only their lover can see.
+MAY:
+Stubborn and hard-hearted. Strong-willed and highly motivated. Sharp thoughts. Easily angered. Attracts others and loves attention. Deep feelings. Beautiful physically and mentally. Firm Standpoint. Needs no motivation. Easily consoled. Systematic (left brain). Loves to dream. Strong clairvoyance. Understanding. Sickness usually in the ear and neck. Good imagination. Good physique. Weak breathing. Loves literature and the arts. Loves traveling. Dislike being at home. Restless. Not having many children. Hardworking. High spirited. Spendthrift.
+JUNE:
+Thinks far with vision. Easily influenced by kindness. Polite and soft-spoken. Having lots of ideas. Sensitive. Active mind. Hesitating, tends to delay. Choosy and always wants the best. Temperamental. Funny and humorous. Loves to joke. Good debating skills. Talkative. Daydreamer. Friendly. Knows how to make friends. Abiding. Able to show character. Easily hurt. Prone to getting colds. Loves to dress up. Easily bored. Fussy. Seldom shows emotions. Takes time to recover when hurt. Brand conscious. Executive. Stubborn.
+JULY:
+Fun to be with. Secretive. Difficult to fathom and to be understood. Quiet unless excited or tensed. Takes pride in oneself. Has reputation. Easily consoled. Honest. Concerned about people's feelings. Tactful. Friendly. Approachable. Emotional temperamental and unpredictable. Moody and easily hurt. Witty and sparkly. Not revengeful. Forgiving but never forgets. Dislikes nonsensical and unnecessary things. Guides others physically and mentally. Sensitive and forms impressions carefully. Caring and loving. Treats others equally. Strong sense of sympathy. Wary and sharp. Judges people through observations. Hardworking. No difficulties in studying. Loves to be alone. Always broods about the past and the old friends. Likes to be quiet. Homely person. Waits for friends. Never looks for friends. Not aggressive unless provoked. Prone to having stomach and dieting problems. Loves to be loved. Easily hurt but takes long to recover.
+AUGUST:
+Loves to joke. Attractive. Suave and caring. Brave and fearless. Firm and has leadership qualities. Knows how to console others. Too generous and egoistic. Takes high pride of oneself. Thirsty for praises. Extraordinary spirit. Easily angered. Angry when provoked. Easily jealous. Observant. Careful and cautious. Thinks quickly. Independent thoughts. Loves to lead and to be led. Loves to dream. Talented in the arts, music and defense. Sensitive but not petty. Poor resistance against illnesses. Learns to relax. Hasty and trusty. Romantic. Loving and caring. Loves to make friends.
+SEPTEMBER:
+Suave and compromising. Careful, cautious and organized. Likes to point out people's mistakes. Likes to criticize. Stubborn. Quiet but able to talk well. Calm and cool. Kind and sympathetic. Concerned and detailed. Loyal but not always honest. Does work well. Very confident. Sensitive.Thinking generous. Good memory. Clever and knowledgeable. Loves to look for information. Must control oneself when criticizing. Able to motivate oneself. Understanding. Fun to be around. Secretive. Loves sports, leisure and traveling. Hardly shows emotions. Tends to bottle up feelings. Very choosy, especially in relationships. Systematic.
+OCTOBER:
+Loves to chat. Loves those who loves them. Loves to takes things at the center. Inner and physical beauty. Lies but doesn't pretend. Gets angry often. Treats friends importantly. Always making friends. Easily hurt but recovers easily. Daydreamer. Opinionated. Does not care of what others think. Emotional. Decisive. Strong clairvoyance. Loves to travel, the arts and literature. Touchy and easily jealous. Concerned. Loves outdoors. Just and fair. Spendthrift. Easily influenced. Easily loses confidence. Loves children.
+NOVEMBER:
+Has a lot of ideas. Difficult to fathom. Thinks forward. Unique and brilliant. Extraordinary ideas. Sharp thinking. Fine and strong clairvoyance. Can become good doctors. Dynamic in personality. Secretive. Inquisitive. Knows how to dig secrets. Always thinking. Less talkative but amiable. Brave and generous. Patient. Stubborn and hard-hearted. If there is a will, there is a way. Determined. Never give up. Hardly becomes angry unless provoked. Loves to be alone. Thinks differently from others. Sharp-minded. Motivates oneself. Does not appreciate praises. High-spirited. Well-built and tough. Deep love and emotions. Romantic. Uncertain in relationships. Homely. Hardworking. High abilities. Trustworthy. Honest and keeps secrets. Not able to control emotions. Unpredictable.
+DECEMBER:
+Loyal and generous. Sexy. Patriotic. Active in games and interactions. Impatient and hasty. Ambitious. Influential in organizations. Fun to be with. Loves to socialize. Loves praises. Loves attention. Loves to be loved. Honest and trustworthy. Not pretending. Short tempered. Changing personality. Not egoistic. Take high pride in oneself. Hates restrictions. Loves to joke. Good sense of humor. Logical."
+"eventtime","2004-03-22 22:30:00"
+"url","http://helovesmenot.livejournal.com/261383.html"
+"userid","6246"
+"itemid","1019"
+"event","honeyiconfess: i wuv my wittle jessicaboo"
+"eventtime","2004-03-19 00:41:00"
+"url","http://helovesmenot.livejournal.com/260991.html"
+"userid","6246"
+"itemid","1018"
+"event","now, 
+dont get me wrong i completely expected to cry [ because if you know anything about me at all or have known me for any substantial amount of time you know that i have never had a normal birthday ]
+
+so
+
+picture it march 17th 2004 
+
+[night before birthday] 
+
+eleven forty five pm - i was at taco bell and realized what time it was and <b>freaked out</b> cos i figured that jeff had already shown up at my place and left pissed off cos i was there
+
+eleven fifty pm - RUSH home and try calling jeff like six times, cant get through
+(first cry fit here)
+
+midnight - vanessa calls, jeff calls *happy birthday jessica*
+
+one am - jeffrey gets here
+
+two am - sleep
+
+eight am - i'm awake and writing a paper
+
+one pm - i go to class
+
+two pm - i return from class
+
+three pm - jeffrey finally wakes up and gets out of bed
+
+three thirty pm- we go to big boy
+
+four thirty pm - we get back from big boy
+
+five pm - jeffrey leaves
+
+now lets sum up at this point : ive seen jeff for four hours total awake and he leaves to go home because he has band practice - which i <b>totally</b> understand <i>only</i> because he has shows this weekend - BUT after being ignored for the band for ten days straight (due to more show situations) i got a <i>wee bit</i> touchy over fact that the band comes before me even on my birthday- 
+
+(insert crying fit number two here)
+
+six pm - jakboiee comes to get me
+
+six thirty pm - we go bowling
+
+eight pm - we go to hunan house
+
+nine thirty pm - we go to the movies [welcome to mooseport bleh movie]
+
+
+(quickly insert tears in dark theatre here)
+
+eleven thirty pm - come home and try to sleep
+
+one am - actually end up going to bed
+
+two am - amber comes home with a plethora of drunk people who i cant see
+
+two ten am- ambers drunk boyfriend attacks me in my bed 
+
+two ten am and fifteen seconds - amber screams and beats boyfriend
+
+(crying on the phone with jeff cos the situation is weird and uncomfortable)
+
+three am - amber and gang leave for food [lil' chef]
+
+three thirty am - i fall asleep
+
+four fifteen am - i get a series of calls from amber that i try to ignore.. then she starts leaving messages on the dorm answering machine crying and begging for help 
+
+quick filler story: john, ambers boyfriend, by some magical feat ended up at cmu with all his friends they were all incredibly drunk.. there was apparently some fight between some boys over amber at random party and it continued while they ate at lil' chef and so john took his friends car keys and left, only he didnt take the car... he just started walking. john was gone for over an hour by the time amber called me.
+
+four thirty am - i go and get my car to get amber and johns friends cos they are abandoned at the restaurant.. i see john walking while im going to my car/cant get his attention and he starts walking incredibly quickly away from me
+
+four forty am - amber, myself and one of johns friends [danny] drive around the entire city of mount pleasant looking for john
+
+five am - i get pulled over. the cops had been following me for a good ten minutes and finally wanted to know what was up and pulled me over
+
+cop story:  the officer pulls me over and tells me i made an illegal left turn. i ask how thats possible and he says, what he MEANT was that i wasnt completely in the left turn lane and he admitted that i wouldnt know because there was snow on the ground and everyone knows you have no clue where the lines are on freshly snowed on streets. he says hes been following me and wanted to know why id been driving in circles - i explain to him that we are looking for a drunk boy who is possibly dangerous due to his drunkenness and anger.  cop pulls up my record and comes back to talk he asks me if ive been drinking and i almost start laughing and reply ""no sir i havent drank in well over four years"" he says thats good to hear from a college student and then progresses on that he can smell liquor in my car.. amber and danny are forced into admitting that they are both trashed. cop thanks me for being the driver gives me my shit back and says if he sees john he will personally drop him off at my dorms front desk.
+
+five thirty am-  danny amber and i come back to the dorm
+
+five thirty one am- i find john passed out coma like in a ball in front of our door and go and get amber and danny from down stairs
+
+five thirty five am- danny beats the fuck out of john in the hall way
+
+five forty til six am - lots of screaming beating fighting crying calling going on in the other room
+
+seven am - i finally fall asleep
+
+seven thirty am- i get up to go to my eight am class, collapse on the floor and decide its better to just go to bed
+
+(cry)
+
+eleven am- finally get up, puke some water up take some midol and shower. get the worst cramps ever and crumple over in pain 
+(cry)
+
+two pm- go to class to take an exam, which i failed miserably
+
+three pm- return to dorm john tries to talk to me and apologize and such i get pissy and tell him its better off not to talk to me at all - he wishes me a happy birthday, belated, and hides in ambers room 
+
+currently - amber comes home from class grabs john by his hair drags him to the door and screams that they need to talk, they are out in the hall screaming and crying now
+
+
+hi?
+
+ive been coughing up blood and sneezing blood all day. 
+
+end of story.
+
+well .. at least my birthday is over."
+"eventtime","2004-03-18 16:29:00"
+"url","http://helovesmenot.livejournal.com/260653.html"
+"userid","6246"
+"itemid","1017"
+"event","what the hell would become of me if i actually cared enough to brush my hair and put makeup on 
+i bet id be totally hot
+
+but alas
+im just in a lot of pain all the time
+and my boyfriend lives 130someodd miles away
+
+i have SO much to say about last night... maybe ill attempt to describe the events that occured after i fail my esc test (maybe)"
+"eventtime","2004-03-18 13:26:00"
+"url","http://helovesmenot.livejournal.com/260578.html"
+"userid","6246"
+"itemid","1016"
+"event","its march 17th, whos birthday is it?
+damn straight.. its mine
+and billy corgin
+more importantly.. mine!"
+"eventtime","2004-03-17 00:42:00"
+"url","http://helovesmenot.livejournal.com/260216.html"
+"userid","6246"
+"itemid","1015"
+"event","so yesterday all the members of adelaide .. minus rob.. added me - so i came up with this whole case scenario where the band was sitting at rams horn -duh- and all decided to track down my lj on a certain day at a certain time.
+
+maybe ive got to much spare time and like making up stories in my head about obscure events
+
+so through much extensive research and years of field study i have finally come to a conclusion : college students are the dumbest people on earth. including me and everyone else thats pays obnoxious amounts of money on any kind of classes. and do not mistake the last comment for being the reason of stupidity - for it is not. we are just... not intelligent people in any way shape or form.
+
+amber is having her drunk ass hick boyfriend and one of his followers come up to drink for st. patricks day (aka my birthday).. am i pissed? oh slightly - so what does this mean? she doesnt get more than a half hour warning when five growing boys come to spend the night here.
+
+can i change my birthday?"
+"eventtime","2004-03-16 16:19:00"
+"url","http://helovesmenot.livejournal.com/260073.html"
+"userid","6246"
+"itemid","1014"
+"event","honeyiconfess: OK, SO
+honeyiconfess: my mom totally sent me a st. pattys day card
+honeyiconfess: except instead of writing happy st. patrics day in it
+honeyiconfess: she wrote hapy jesicas birthday!"
+"eventtime","2004-03-16 15:50:00"
+"url","http://helovesmenot.livejournal.com/259703.html"
+"userid","6246"
+"itemid","1013"
+"event","my face has been taken hostage by a open gaping oozing pussing cold sore. 
+end of story.
+thank you stress.
+
+my birthday is wednesday - feel like it? not at fucking all.
+jeffreys mom bought me a cake though - ultimate sweetness.
+
+im going to start taking my iron pills tomorrow - you know on a regular basis like im supposed to - constipation here i come!
+
+im sleeping with my baby tomorrow night."
+"eventtime","2004-03-15 22:17:00"
+"url","http://helovesmenot.livejournal.com/259350.html"
+"userid","6246"
+"itemid","1012"
+"event","don says to me: ""what the fuck was up with that girl checking both of us out, im sure that wasnt necessary - we're not that hot"""
+"eventtime","2004-02-26 23:50:00"
+"url","http://helovesmenot.livejournal.com/259303.html"
+"userid","6246"
+"itemid","1011"
+"event","wqDCoMKgwqANCjAxOiB3aGF0IGlzIHlvdXIgZmlyc3QgbWVtb3J5IG9mIG1lOg0KMDI6IGhvdyBsb25nIGhhdmUgd2UgYmVlbiBmcmllbmRzOg0KMDM6IHRlbGwgYWJvdXQgb25lIG1lbW9yeSB3ZSBzaGFyZSB0b2dldGhlcjoNCjA0OiBpZiB3ZSBjb3VsZCBzcGVuZCBhIGRheSB0b2dldGhlciB3aGF0IHdvdWxkIHdlIGRvOg0KMDU6IG5hbWUgb25lIHRoaW5nIHlvdSByZWFsbHkgZG9uJ3QgbGlrZSBhYm91dCBtZToNCjA2OiBuYW1lIG9uZSB0aGluZyB5b3UgcmVhbGx5IGRvIGxpa2UgYWJvdXQgbWU6DQowNzogaGF2ZSB3ZSBldmVyIGdvdHRlbiBpbiBhIGZpZ2h0ICYgYWJvdXQgd2hhdDoNCjA4OiBoYXZlIHdlIGV2ZXIgaHVnZ2VkOg0KMDk6IGhhdmUgd2UgZXZlciBkYW5jZWQgd2l0aCBlYWNoIG90aGVyOg0KMTA6IGhhdmUgeW91IGV2ZXIgY3J1c2hlZCBvbiBtZToNCjExOiBoYXZlIGkgZXZlciBvZmZlbmRlZCB5b3U6DQoxMjogd2hhdCBpcyBzb21ldGhpbmcgZW1iYXJyYXNzaW5nIHRoYXQgaSd2ZSBkb25lOg0KMTM6IHdoYXQgZG8gaSB1c3VhbGx5IGxvb2sgbGlrZSB3aGVuIHlvdSBzZWUgbWU6DQoxNDogd2hhdCBkbyBpIHNheSBhbGwgdGhlIHRpbWVcd2hhdHMgbXkgY2F0Y2ggcGhyYXNlOg0KMTU6IGRvIHlvdSB0aGluayB3ZSB3aWxsIGJlIGZyaWVuZHMgaW4gNSB5ZWFyczoNCjE2OiBkbyB5b3UgdGhpbmsgaSBhbSBiaXRjaHk6DQoxNzogaGFzIHRoZXJlIGJlZW4gYW55dGhpbmcgeW91IHdhbnRlZCB0byB0ZWxsIG1lLCBidXQgZGlkbid0Og0KMTg6IHdoYXQgYWR2aWNlIHdvdWxkIHlvdSBnaXZlIG1lLCBpbiBnZW5lcmFsOg0KMTk6IHN1Z2dlc3QgYSBiYW5kIC8gY2QgZm9yIG1lIHRvIGxpc3RlbiB0bzoNCjIwOiBpcyB0aGVyZSBhIHNvbmcgdGhhdCByZW1pbmRzIHlvdSBvZiBtZTo="
+"eventtime","2004-02-24 23:45:00"
+"url","http://helovesmenot.livejournal.com/258911.html"
+"userid","6246"
+"itemid","1010"
+"event","AppleJacks: jessica trepton is the raddest gal,jessica trepton is the coolest gal,she is my friend and is soo special to meeeee,geeeee cant you seee you really make me wanna peeee,heeee heeeee
+PromisesAreLies: haha WHAT
+AppleJacks: its my jessica song
+PromisesAreLies: are you drunk?
+PromisesAreLies: hahaha
+PromisesAreLies: cos in my past only drunk boys make songs up about me
+AppleJack: no
+AppleJacks: im drinkin water
+PromisesAreLies: yup. drunk.
+AppleJacks: ahahaha
+AppleJacks: no
+PromisesAreLies: is it wrong that like five people just imed me and i just closed their boxes?
+PromisesAreLies: and like three of them imed back, and.. i reclosed the boxes
+AppleJacks: was one of them me?
+PromisesAreLies: haha no
+PromisesAreLies: the only people im talking to are you vanessa and jeffrey
+PromisesAreLies: i just dont feel like looking at anyone elses text
+AppleJacks: haha well then its not wrong!"
+"eventtime","2004-02-24 22:08:00"
+"url","http://helovesmenot.livejournal.com/258574.html"
+"userid","6246"
+"itemid","1009"
+"event","<img src=""http://www.world66.com/myworld66/visitedStates/statemap?visited=ALAZDCFLGAHIILINKYMIOHTNWVWI""><br/>
+
+well that was sweet while it lasted"
+"eventtime","2004-02-20 13:41:00"
+"url","http://helovesmenot.livejournal.com/258547.html"
+"userid","6246"
+"itemid","1008"
+"event","PromisesAreLies: ive officaly never been so pissed in my life
+IronJeff: what happend
+PromisesAreLies: jeffrey, where should i be right now
+IronJeff: class
+IronJeff: why arent you there
+PromisesAreLies: i got up at. nine. i went to bed. at.. five thirty
+PromisesAreLies: i printed my paper at, 12:55
+PromisesAreLies: i RAN across campus
+PromisesAreLies: and
+IronJeff: its cancelled!
+PromisesAreLies: there was a nice lime green piece of paper on the door
+PromisesAreLies: yes.
+IronJeff: hahahahahahahahahahahahaha
+IronJeff: best thing ever
+PromisesAreLies: fuck. you.
+IronJeff: o come on
+IronJeff: seriously
+IronJeff: that means you can sleep till monday!
+IronJeff: you're papers done
+IronJeff: worst use of you're ever
+PromisesAreLies: you are papers done!
+IronJeff: yes!
+IronJeff: see i make you smile
+PromisesAreLies: you always do
+IronJeff: YES!
+IronJeff ok honey i gotta go run errands
+IronJeff: xofuckinx
+PromisesAreLies: haha
+PromisesAreLies: my boyfriend is a loser
+IronJeff: duh
+IronJeff: thats why you love me so much
+PromisesAreLies: exactly"
+"eventtime","2004-02-20 13:27:00"
+"url","http://helovesmenot.livejournal.com/258216.html"
+"userid","6246"
+"itemid","1007"
+"event","my boyfriend just called me to yell at me for not doing my homework. ha.
+cute right?
+and then he just started regular yelling at me. sigh."
+"eventtime","2004-02-19 16:30:00"
+"url","http://helovesmenot.livejournal.com/258047.html"
+"userid","6246"
+"itemid","1006"
+"event","PromisesAreLies: dude, no. itll happen.
+PromisesAreLies: anything can happen, mccc woooorrrlllldddd!
+PromisesAreLies: god i miss those commericals
+PromisesAreLies: with the kid whos bedroom was a pool
+PromisesAreLies: and he just floated around eating mc donalds getting fat all day 
+45 InYourFace: haha
+PromisesAreLies: you have no idea what im talking about do you
+45 InYourFace: i have an idea
+
+
+please someone remember those commericals. please."
+"eventtime","2004-02-19 16:26:00"
+"url","http://helovesmenot.livejournal.com/257643.html"
+"userid","6246"
+"itemid","1005"
+"event","dear bitches, 
+
+stay the <i>fuck</i> away from my boyfriend.
+thanks.
+i appreciate your cooperation.
+
+sincerly,
+jessica s. trepton
+[a.k.a. jeffrey d. lyons' girlfriend]
+
+p.s. im a lot bigger and meaner than any of you. im metal (at least pretend to be) and im an angry, agressive, tough girl. so <b>please</b> dont give reason for me to take the axe handle and beat the living daylights out of you.
+
+xox
+
+
+
+p.s.s. im bleeding from the vagina which means im extra pissy and want to hurt people for no real reason. watch your step and dont make me hate you, im crazy and dont play games."
+"eventtime","2004-02-18 23:58:00"
+"url","http://helovesmenot.livejournal.com/257413.html"
+"userid","6246"
+"itemid","1004"
+"event","45 InYourFace: you wanted to talk 
+45 InYourFace: and now im talking to myself
+PromisesAreLies: hi1
+PromisesAreLies: haha im busying drinking rootbeer, so its hard to type
+PromisesAreLies: duh
+45 InYourFace well
+45 InYourFace: i got some bad news
+45 InYourFace: its over, you know ? me and you
+PromisesAreLies: oh no!
+45 InYourFace: no more
+45 InYourFace: i cant deal with this anymore
+PromisesAreLies: what will i do
+PromisesAreLies: WHAT will i do
+PromisesAreLies: HOW CAN YOU DO THIS TO ME YOU STUPID MOTHER FUCKER
+45 InYourFace: i dont know 
+PromisesAreLies: WE HAVE A HISTORY TOGETHER!
+45 InYourFace: i guess you can go back to being a dirty bitch 
+45 InYourFace: and ill go back to being the man
+45 InYourFace: i gave up 5 years for you
+45 InYourFace: and you treat me like shit
+PromisesAreLies: fuck you chuck
+PromisesAreLies: fuck you
+45 InYourFace: jessica
+45 InYourFace: i want you back
+PromisesAreLies: i dont know if i can handle it chuck
+45 InYourFace: why?
+PromisesAreLies: i dont know if i can toelrate you being back in my life
+45 InYourFace: my man cock ?
+45 InYourFace: oh that
+PromisesAreLies: after all that hurt 
+PromisesAreLies: (as opposed to your woman cock? loser)
+45 InYourFace: haha
+45 InYourFace: you ate a big bowl of stupid for breakfast this morning didnt you?
+PromisesAreLies: yes and you fed it to me!
+45 InYourFace: aww
+45 InYourFace: i love you jess
+PromisesAreLies: haha
+45 InYourFace: :-)
+PromisesAreLies: good times chuck fuck. good times."
+"eventtime","2004-02-18 20:25:00"
+"url","http://helovesmenot.livejournal.com/257152.html"
+"userid","6246"

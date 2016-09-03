@@ -1,0 +1,709 @@
+"names","values"
+"itemid","47"
+"event","TWFyayBpdCBub3cgaW4geW91ciBjYWxlbmRhcnMgZm9sa3MsIEFwcmlsIDExdGgsIG9wZW5pbmcgZGF5IGF0IEZlbndheSBQYXJrIGFnYWluc3QgdGhlIGJlbG92ZWQgTmV3IFlvcmsgWWFua2Vlcy4gQW5kIGxpa2UgZXZlcnkgeWVhciB3ZSBoYXZlIHRvIGhlYXIgaG93IHRob3NlIFlhbmtlZXMgZGlkIGl0IGFnYWlu4oCmIG9oIHNvcnJ5IEkgZGlkbuKAmXQgZ2V0IHRoZSBtZW1v4oCmIHRoYXTigJlsbCBnZXQgZWRpdGVkIG91dCwgcmlnaHQgKGFuZCB0aGlzIGxpbmUgYWZ0ZXIgZXhwbGFpbmluZyk/IFdoZXJlIHdhcyBJPyBPaCB5ZWFoLCBBcHJpbCAxMXRoLiBOb3Qgb25seSBkb2VzIHRoaXMgZGF0ZSBtYXJrIHRoZSBkYXkgRmVud2F5IFBhcmsgaXMgcmVvcGVuZWQgZm9yIGJhc2ViYWxsIGFnYWluLCBidXQgaXQgYWxzbyBtYXJrcyB0aGUgZGF5IHRoYXQgdGhlIFJlZCBTYXd4IHJlY2lldmUgdGhlaXIgQ2hhbXBpb25zaGlwIFJpbmdzLiANCg0KCVVuZm9ydHVuYXRlbHksIHRoZSBvcGVuaW5nIGRheSBjZXJlbW9uaWVzIGhhdmUgYmVlbiB1bmRlciBmaXJlLiBTb21lIHdhbnQgdGhlIGRheSB0b25lZCBkb3duIGFuZCBwdXNoZWQgZm9yd2FyZCBpbiB0aGUgc2NoZWR1bGUgc28gdGhlIFlhbmtlZXMgZG9u4oCZdCBoYXZlIHRvIHNpdCB0aHJvdWdoIHRoZSBwYWluIG9mIGtub3dpbmcgaG93IGJhZCB0aGV5IGJsZXcgaXQuIExhcnJ5IEx1Y2NoaW5vLCB0ZWFtIHByZXNpZGVudCwgc2F5cyB0aGF0IHRoZSBkYXkgd2lsbCBiZSB0b25lZCBkb3duOyBJIHNheSBMdWNjaGlubyBuZWVkcyBhZHZpc2VtZW50LiBJIHdvdWxkIGRvIHRoZSBleGFjdCBvcHBvc2l0ZSBvZiB0b25pbmcgZG93bjsgSeKAmWQgYmUgc28gbGF2aXNobHkgb2Jub3hpb3VzIHdpdGggdGhlIGV2ZW50cyBvZiB0aGUgY2VyZW1vbnkgdGhhdCBhZnRlciBpdOKAmXMgZG9uZSwgU3RlaW5icmVubmVyIGlzIGdvaW5nIHRvIG5lZWQgYSBmZWVkaW5nIHR1YmUgKHdoYXQsIHRvbyBzb29uPykuDQogDQoJSeKAmW0gbm90IHRhbGtpbmcgYWJvdXQganVzdCBoYXZpbmcgdGhlIGNlcmVtb255IGJlIGxvbmdlciB0aGFuIGV4cGVjdGVkLiBJ4oCZbSB0YWxraW5nIHNvIGxvbmcgdGhlIGdhbWUgZ2V0cyBwdXNoZWQgaW50byBBcHJpbCAxMnRoIGZvciBhbiBvcGVuaW5nIGRheSBkb3VibGUtaGVhZGVyLiBUaGUgZmlyc3QgdGhpbmcgTHVjY2hpbm8gc2hvdWxkIGRvIGlzIHJlcGxheSB0aGUgV29ybGQgU2VyaWVzIERWRCBmb3IgZmFucyB3aG8gaGF2ZW7igJl0IHNlZW4gaXQgeWV0LCB0aGVuIHdoZW4gaXTigJlzIG92ZXIgaGUgc2hvdWxkIHBsYXkgdGhlIE5FU04gRFZEIEZhaXRoIFJld2FyZGVkIGp1c3Qgc28gZmFucyBjb3VsZCBkZWJhdGUgd2hpY2ggRFZEIGNhcHR1cmVkIHRoZSBtb21lbnQgYmV0dGVyLg0KDQoJVGhlbiB0aGVyZeKAmXMgdGhlIGFjdHVhbCBSaW5nIENlcmVtb255LiBBZ2FpbiB0aGUgUmVkIFNveCBTdGFmZiBzaG91bGQgc2VyaW91c2x5IHRoaW5rIGFib3V0IGRvaW5nIHRoaXMgaW4gYW4gT3NjYXJzLWVzcXVlIHdheS4gQ2F0ZWdvcmllcyBhcmUgbmFtZWQgYWxvbmcgd2l0aCBub21pbmF0aW9ucyBmb3IgZXZlcnkgcGxheWVyIHJlY2VpdmluZyBhIHJpbmcuIFdoZW4gY2FsbGVkIHVwIGZvciDigJxCZXN0IGZhbiBwZXJmb3JtYW5jZeKAnSBCaWxseSBDcnlzdGFsIG5vdCBhYmxlIHRvIGJlIHdpdGggdXMsIHdpbGwgYXBwZWFyIGluIGEgY2xpcCB2aWEgQW5hbHl6ZSBUaGF0IGNyeWluZy4NCg0KCVdoaWxlIHdl4oCZcmUgdGFsa2luZyBhYm91dCByaW5ncywgbWFueSB0aG91Z2h0IGZvcm1lciBSZWQgU294IHNob3J0c3RvcCBOb21hciBHYXJjaWFwYXJyYSBkaWRu4oCZdCBkZXNlcnZlIG9uZS4gV2VsbCBub3Qgb25seSBkbyBJIHRoaW5rIGhlIGRvZXMgZGVzZXJ2ZSBhIHJpbmcsIEkgdGhpbmsgdGhleSBzaG91bGQgdXNlIGEgY2FyZCBib2FyZCBjdXQtb3V0IG9mIGhpbSBhbmQgcGxhY2UgdGhlIHJpbmcgb24gdGhlIGN1dC1vdXQsIHNpbmNlIGhlIHByb2JhYmx5IHdvbuKAmXQgd2FudCB0byBhdHRlbmQgYW55d2F5Lg0KDQoJQW5kIGFmdGVyIHRoYXQgdGhleSBzaG91bGQgZG8gc29tZXRoaW5nIHRvIGNvbW1lbW9yYXRlIFBlZHJvLCBsaWtlIHBsYW50IGEgbWFuZ28gdHJlZSBpbiBjZW50ZXIgZmllbGQgb3Igc29tZXRoaW5nLiBJdOKAmWxsIG1ha2UgdGhlIGZpZWxkIHNlZW0gbW9yZSBtb2Rlcm4gbGlrZSBIb3VzdG9u4oCZcyBoaWxsIGluIGNlbnRlciwgYW5kIHNhdGlzZnkgdGhlIERvbWluaWNhbnMgaW4gdGhlIGFyZWEgYW5ncnkgb3ZlciBQZWRybyBnb2luZyB0byB0aGUgTWV0cy4gVG8gbWUgdGhhdOKAmXMgYSB3aW4td2luLiANCg0KCVRoZW4gdGhlcmXigJlzIHRoZSBmaXJzdCBwaXRjaCwgd2hpY2ggTHVjY2hpbm8gc2F5cyBpcyBhIHN1cnByaXNlLiBJbiBwYXN0IHllYXJzIHRoZSBQYXRyaW90cyB0aHJldyBpdCBvdXQ7IGJpZyBkZWFsLiBUaHJvdyBzb21lIGZpcmV3b3JrcyBpbiB0aGUgYWlyIGFuZCBjYWxsIGl0IGEgcGljbmljISBXaGF0IEx1Y2NoaW5vIG5lZWRzIHRvIGRvIGlzIHVuZnJlZXplIFRlZGR5IEJhbGxnYW1lIGFuZCBoYXZlIGhpbSB0aHJvdyBvdXQgdGhlIGZpcnN0IHBpdGNoLiBXYWtlIGhpbSB1cC4gSGV5LCB3ZSBzaG91bGTigJl2ZSB3b2tlbiBoaW0gdXAgYmVmb3JlIGxhc3Qgc2Vhc29uIGFueXdheSB0byBnaXZlIFBva2V5IFJlZXNlIHNvbWUgaGl0dGluZyBkcmlsbHMgdG8gd29yayBvbi4gV2hhdCwgdG9vIHNvb24/DQoNCglMYXN0bHkgd2Ugc2hvdWxkIGhpcmUgdGhlIGZvbGtzIGZyb20gQ2FuZGlkIENhbWVyYSB0byB0YXBlIGFsbCB0aGUgcHJhbmtzIGJlaW5nIGRvbmUgdG8gWWFua2VlcyBQbGF5ZXJzLiBPbmUgb2YgdGhlIHByYW5rcyBjb3VsZCBoYXZlIERvbSBaaW1tZXIgYXMgdGhlIHVtcGlyZSBhbmQgbWFrZSBhIGhvcnJlbmRvdXMgY2FsbC4gVGhlbiB3aGVuIFRvcnJlIGNvbWVzIHVwIHRvIGFyZ3VlLCBoYXZlIERvbSByaXAgb2ZmIHRoZSBtYXNrIGFuZCBzaG93IGhpbSB0aGUgY2FtZXJhLiANCg0KCUFuZCB0aGF04oCZcyB0aGUgYmVzdCB3YXkgdG8gY29tbWVtb3JhdGUgdGhlIGJlc3QgcGxheW9mZnMgZXZlci4gUGVyc29uYWxseSBJ4oCZbSBqdXN0IGhhcHB5IHRvIGJlIGFsaXZlIGFmdGVyIHRoZSBXb3JsZCBTZXJpZXMgd2luLiBBbGwgdGhlc2UgeWVhcnMgSeKAmXZlIGJlZW4gcHJlZGljdGluZyB0aGUgQXBvY2FseXBzZSBhZnRlciB0aGUgU294IHdvbiBpdCwgYnV0IHRoZW4gYWdhaW4gSSBkaWQgYnV5IGp1Z3Mgb2Ygd2F0ZXIgZm9yIFkyS+KApg=="
+"eventtime","2005-04-07 10:05:00"
+"url","http://justownie.livejournal.com/12186.html"
+"userid","7747"
+"itemid","46"
+"event","dGhpcyBlbnRyeSB3aWxsIGFwcGVhciBpbiB0aGUgMjAwNSBlZGl0aW9uIG9mIHRoZSBDYW5jaG9yLCBSSUMgbmV3c3BhcGVyJ3MgYW5udWFsIGdvb2Ytb2ZmLXRyeS10by1iZS1saWtlLXRoZS1vbmlvbiBwYXBlci4gaSB0aGluayBpIHNob3VsZCBnaXZlIGEgbGl0dGxlIGJhY2tncm91bmQgb24gdGhlIHBpZWNlcy4NCg0KRmlyc3QgdGhlICJBdG9tIEJvbWIiIHBpZWNlIGlzIG15IHdheSBvZiBtYWtpbmcgZnVuIG9mIHRoZSBjb25zaXN0ZW50IGJhbnRvciBvdmVyIHBhcmtpbmcgb24gY2FtcHVzIGJ5IHN0dWRlbnRzLCBlc3BlY2lhbGx5IGluc2lkZSB0aGUgQW5jaG9yLCBSSUMncyBuZXdzcGFwZXIuIEl0IGFsc28gc2F0aXJpemVzIHRoZSBQcmVzaWRlbnQncyBtZWFucyBmb3IgdGhpbmtpbmcgYmVjdWFzZSBpIHRoaW5rIGhlJ3MgbWFkZSBzb21lIHZlcnkgcGlzcyBwb29yIGRlY2lzaW9ucyBvbiBjYW1wdXMgYW5kIHRoaXMsIG9idmlvdXNseSBub3QgaGFwcGVuaW5nIGV2ZXIsIG1vY2tzIGhpbSBkcmFtYXRpY2FsbHkuDQoNClRoZSBzZWNvbmQgcGllY2UgaXMgYWJvdXQgdGhlIGNvbnN0YW50IHJlYWxpdHkgdGhhdCB3ZSBoYXZlIHNjaG9vbCBvbiB0aGUgc25vd2llc3QgZGF5cyBldmVuIGlmIHRoZSByb2FkcyBvbiBjYW1wdXMgYXJlIGluIHJlYWxseSByb3VnaCBzaGFwZSB0byBkcml2ZSBvbi4gSXQgc2F0aXJpemVzIHdoYXQgaSB0aGluayBvZiB0aGUgUGh5c2ljYWwgUGxhbnQsIFJJQydzIGRlcHQuIHRoYXQgbWFuYWdlcyB0aGUgY2FtcHVzJyBzYWZldHksIGJ1aWxkaW5ncywgZXRjLiB0aGV5IHBsb3cgb3VyIHJvYWRzIHJhdGhlciBncmVhdC4geW91IHNob3VsZCBnZXQgYWxsIHRoZSBqb2tlcyBpIHRoaW5rLg0KDQphbnl3YXkgaSBob3BlIHlvdSBlbmpveSB0aGVtLiBzb3JyeSBpIGhhdmVuJ3Qgd3JpdHRlbiB0b28gbXVjaCBtYXRlcmlhbCBsYXRlbHksIGkgd2VudCB0byBtaWFtaSBmb3IgYSB3ZWVrIGFuZCBoYWQgMiBodWdlIHBhcGVycyBkdWUgdGhpcyB3ZWVrLiBhbnl3YXkgZW5qb3kuDQoNClJJQyBGaXJzdCB0byBEcm9wIEJvbWINCg0KUmhvZGUgSXNsYW5kIENvbGxlZ2UgUHJlc2lkZW50IEpvaG4gTmF6YXJpYW4gZWFybGllciBhbm5vdW5jZWQgdGhlIGhpZ2hseSBhbnRpY2lwYXRlZCBwbGFuIHRvIGNyZWF0ZSBtb3JlIHBhcmtpbmcgb24gY2FtcHVzLiBUaGUgcGxhbiwgd2hpY2ggaW5jbHVkZXMgdGhlIGRyb3BwaW5nIG9mIGFuIGF0b21pYyBib21iIG9uIHRoZSBlYXN0IHNpZGUgb2YgY2FtcHVzIHdpbGwgdGFrZSBwbGFjZSB0aGlzIHN1bW1lciBpbiB0aGUgaG9wZXMgb2Ygc3RvcHBpbmcgb3BpbmlvbiBhcnRpY2xlcyBmcm9tIGJlaW5nIHdyaXR0ZW4gaW5zaWRlIHRoZSBzY2hvb2zigJlzIG5ld3NwYXBlciBUaGUgQW5jaG9yLg0KDQrigJxQcmV0dHkgbXVjaCBldmVyeXRoaW5nIHdpbGwgYmUgZ29uZSB3aXRoaW4gYSB0d28gdG8gZm91ciBtaWxlIHJhZGl1cywgd2hpY2ggd2lsbCBjcmVhdGUgb3ZlciBmaXZlIHRob3VzYW5kIHBhcmtpbmcgc3BhY2VzIGFyb3VuZCB0aGUgY2FtcHVzLOKAnSBub3RlZCBOYXphcmlhbi4g4oCcV2UgdHJ5IHllYXIgaW4gYW5kIHllYXIgb3V0IHRvIHNhdGlzZnkgb3VyIHN0dWRlbnRzIGFuZCBpZiB0aGlzIGRvZXNu4oCZdCB3b3JrLCBJIGRvbuKAmXQga25vdyB3aGF0IHdpbGwu4oCdDQoNCldoZW4gYXNrZWQgZHVyaW5nIGhpcyBwcmVzcyBjb25mZXJlbmNlIGVhcmxpZXIgYWJvdXQgdGhlIGRhbWFnZSwgcmFkaWF0aW9uLCBkZWF0aCwgYW5kIGVudmlyb25tZW50YWwgcHJvYmxlbXMgdGhpcyBtaWdodCBjYXVzZSBOYXphcmlhbiByZXNwb25kZWQsIOKAnHdoeSB5b3UgYWxsIHVwIGluIG15IGVhciwgdGFsa2lu4oCZIGEgd2hvbGUgYnVuY2ggb2YgaXNoIEkgYWlu4oCZdCB0cnlpbiB0byBoZWFyPyE/4oCdDQoNClN0dWRlbnRzIGFjcm9zcyBjYW1wdXMgYXJlIGV4Y2l0ZWQgZm9yIHRoZSBuZXcgc2VtZXN0ZXIgYW5kIGJlaW5nIGFibGUgdG8gcGFyay4gU2F5cyBKYWNrIE1heWhvZmZlciwg4oCcSSB3YW50IHRvIHRha2UgTmF6YXJpYW4gdG8gVmVybW9udCBhbmQgbWFycnkgaGltLuKAnQ0KDQpUaGUgYm9tYiwgc2V0IHRvIGJlIGRyb3BwZWQgSnVuZSAyMCwgd2lsbCBiZSB0aGUgZmlyc3QgZXZlciBkcm9wcGVkIG9uIEFtZXJpY2FuIHNvaWwsIGJ5IGFuIEFtZXJpY2FuLCBmb3IgdGhlIHNha2Ugb2YgQW1lcmljYW5zLiBTYXlzIE5hemFyaWFuLCDigJxXaGF0IHdl4oCZcmUgZG9pbmcgaXMgZ3JvdW5kIGJyZWFraW5nIHN0dWZmLCB5YSBrbm93IGxpa2UgY2hlZXNlIHdoaXouIFdlIGtub3cgdGhlIGdvdmVybm1lbnQgaXMgYWdhaW5zdCB0aGlzLCBidXQsIGFuZCBJIGNhbuKAmXQgc3RyZXNzIHRoaXMgZW5vdWdoLCB3ZSBjYW7igJl0IGxldCB0aGUgbWFuIGhvbGQgdXMgZG93bi7igJ0NCg0KDQpOZXcgRHVyYW5nbyBIaXRzIFBhcmtpbmcgTG90ISANCg0KQWZ0ZXIgYmVpbmcgaGl0IGhlYXZ5IHdpdGggc25vdyBhbmQgaG9ycmlibGUgd2VhdGhlciBjb25kaXRpb25zIHRoZSBQaHlzaWNhbCBQbGFudCBhdCBSaG9kZSBJc2xhbmQgQ29sbGVnZSBwdXJjaGFzZWQgdGhlIG5ldyBzdGF0ZSBvZiB0aGUgbGluZSBzbm93IHBsb3csIHdoaWNoIGZlYXR1cmVzIGEgcGxvdyB0aGF0IGFjdHVhbGx5IHJlYWNoZXMgdGhlIGdyb3VuZC4gVGhlIG5ldyBkZXZlbG9wbWVudCBwcm9qZWN0IGJyb2tlIHRvZGF5IHdoZW4gSm9obiDigJxTa2lw4oCdIE1jR3JhdyByb2RlIHRoZSBuZXcgcGxvdyBpbnRvIHRoZSBsb3Qgc2NyZWFtaW5nIOKAnGFpbuKAmXQgc2hlIGEgYmVhdXR5P+KAnQ0KDQpTa2lwIHRoZW4gZHJvdmUgdGhlIHBsb3cgc3RyYWlnaHQgaW50byBmaXZlIHBhcmtlZCBjYXJzIHRvIGlsbHVzdHJhdGUgaG93IG11Y2ggcG93ZXIgdGhlIDE5ODkgRm9yZCBEdXJhbmdvIGhhZC4gDQoNCuKAnFdlIGhhdmUgYW4gb2JsaWRpZ2F0aW9uIHRvIHRoZSBzdHVkZW50cyBoZXJlIGF0IFJob2RlIElzbGFuZCBVbml2ZXJzaXR5LCB5YSBrbm93LiBUaGlzIGJhYnkgcHVycnMuIFdvbyB3b29vb29vIeKAnQ0KDQpTa2lwIHRoZW4gd2VudCBiYWNrIHRvIGhpcyBvbmxpbmUgY2hpbGQgcG9ybm9ncmFwaHkuDQoNClN0dWRlbnRzIGFyb3VuZCBjYW1wdXMgd2VyZSBzdHJ1Y2sgYnkgdGhlIG5ldyBkZXZlbG9wbWVudC4gQ29tbXV0ZXIgc3R1ZGVudCBmcm9tIEJ1cnJpdmlsbGUgQWxsZW4gRGlkaXNtYSwg4oCcSSBkcm92ZSBhbiA4OSBEdXJhbmdvIGluIGhpZ2ggc2Nob29sLuKAnSBZb3XigJlkIGJlIHN1cnByaXNlZCBob3cgbXVjaCBwb3dlciB0aGF0IHB1cHB5IGhhcy7igJ0gRGlkaXNtYSB0aGVuIGdvdCBiYWNrIHRvIGhpcyBvbmxpbmUgY2hpbGQgcG9ybm9ncmFwaHkuDQoNClJob2RlIElzbGFuZCBDb2xsZWdlIHdpbGwgYmVuZWZpdCBoaWdobHkgZnJvbSB0aGUgbmV3IGFkdmFuY2VtZW50IGFzIG1vcmUgcGFya2luZyBzcGFjZXMgd2lsbCBiZSBhdmFpbGFibGUgaW4gdGhlIHdpbnRlciBhbmQgdGhlIGNhbXB1cyB3aWxsIGJlY29tZSBoYW5kaWNhcCBhY2Nlc3NpYmxlIGR1cmluZyB0aGUgc25vd3kgd2ludGVyIG1vbnRocyBiZXR3ZWVuIERlY2VtYmVyIGFuZCBKdWx5Lg=="
+"eventtime","2005-03-26 12:52:00"
+"url","http://justownie.livejournal.com/11795.html"
+"userid","7747"
+"itemid","45"
+"event","VGhlIGZpcnN0IGRheSBvZiBNYXJjaCBjb3VsZG7igJl0IGJlIGFueSBzd2VldGVyIHRoaXMgeWVhci4gTW9zdCBwZW9wbGUgbG9vayBmb3J3YXJkIHRvIHRoYXQgZGF5IGZvciBjb21mb3J0IHRoYXQgc3ByaW5nIGlzIG9uIGl0cyB3YXksIHdvbWVu4oCZcyBoaXN0b3J5IG1vbnRoLCBhbmQgZXZlbiBmb3IgdGhlIHBpbm5hY2xlIG9mIGNvbGxlZ2UgYmFza2V0YmFsbCwgTWFyY2ggTWFkbmVzcy4gVGhpcyB5ZWFyIGhvd2V2ZXIgSSBoYWQgYSBtb3JlIG1vdGl2YXRpbmcgZGVzaXJlIGZvciB0aGUgYmVnaW5uaW5nIG9mIE1hcmNoOiB0aGUgZmlyc3QgZGF5IHdoZW4gSSB3b27igJl0IGhhdmUgdG8gc2l0IGluIGEgYmFyIGFuZCBoYXZlIGEgZm9ydHktZml2ZSB5ZWFyIG9sZCB3b21hbiBsZWFuIGluIHdpdGggZm91ciB0byBmaXZlIHRlZXRoIGFza2luZyBmb3IgYSBsaWdodCBhbmQgYWZ0ZXJ3YXJkcyBjYWxsaW5nIG1lIGEg4oCccmVhYWFhYWFhYWFhbCBzd2VldCBib3nigJ0uIERvbuKAmXQgZ2V0IG1lIHdyb25nIHNtb2tlcnMsIEkgdGhpbmsgdGhlIGV4cGVyaWVuY2Ugb2Ygc21va2luZyBpbiBhIHdhdGVyaW5nIGhvbGUgaXMgZXNzZW50aWFsIGZvciBhIGdvb2QgYXRtb3NwaGVyZSwgYnV0IEkgZHJhdyB0aGUgbGluZSB3aGVuIEnigJltIGJlaW5nIGFza2VkIGZvciBhIGxpZ2h0LiBXaGF0IGFtIEkgVGhlIEh1bWFuIFRvcmNoIGZyb20gdGhlIEZhbnRhc3RpYyBGb3VyPw0KDQpMaWtlIEkgc2FpZCwgSSBkb27igJl0IG1pbmQgaGF2aW5nIHNtb2tlIGJsb3duIGluIG15IGZhY2Ugd2hpbGUgd2FpdGluZyB0byB1c2UgdGhlIGZhY2lsaXRpZXM7IEkgbGlrZSBhIGdvb2QgYnJlZXplIG9mIHRhciBpbiBteSBmYWNlLCBpdCBtYWtlcyBtZSBmZWVsIGxpa2UgSeKAmW0gYXQgdGhlIG9jZWFuLiBJIGV2ZW4gaGVhciBzZWNvbmQgaGFuZCBzbW9rZSB0dXJucyB5b3VyIGx1bmdzIGZyb20gcGluayB0byBibGFjayBvdmVyIHRpbWUhIFdobyB3YW50cyBwaW5rIGx1bmdzIGFueXdheT8gUGluayBpcyBnaXJseSwgeW91IG5lZWQgYSBtYW5seSBjb2xvciBmb3IgeW91ciBsdW5ncywgbGlrZSBibGFjay4gSSBoYXZlbuKAmXQgYXNrZWQgYW55IGNoaWNrcyB5ZXQsIGJ1dCBJ4oCZbSBzdXJlIHRoZXnigJlkIHdhbnQgYSBndXkgd2l0aCBibGFjayBsdW5ncyBvdmVyIGd1eXMgd2l0aCB0YXR0b29zIGFueSBkYXksIHVubGVzcyBvZiBjb3Vyc2UgaXTigJlzIGFuIOKAnEkgbG92ZSBNb23igJ0gdGF0dG9vLiANCg0KRG9u4oCZdCBldmVuIGdldCBtZSBzdGFydGVkIG9uIHRoYXQgbGluZ2VyaW5nIHNtZWxsIG9uIG15IGNsb3RoZXMhIFRoYXQgaXMganVzdCBwcmljZWxlc3MhIFdoZW5ldmVyIEkgZm9yZ2V0IHdoZXJlIEkgd2FzIHRoZSBuaWdodCBiZWZvcmUsIGFsbCBJIG5lZWQgdG8gZG8gaXMgcGljayB1cCBteSBzaGlydCB0byBmaWd1cmUgaXQgb3V0OyB0b3RhbGx5IHRha2VzIHRoZSBmdW4gb3V0IG9mIGdvaW5nIG91dC4gUGx1cyB0aGF0IHNtZWxsIG1ha2VzIG1lIHdhbnQgdG8gZG8gbGF1bmRyeS4gUGVyc29uYWxseSBJIGhhdmUgYSBoYXJkIHRpbWUgd2FzaGluZyBhbGwgbXkgY2xvdGhlcyBiZWZvcmUgd2VhcmluZyB0aGVtIGF0IGxlYXN0IHR3aWNlIGVhY2ggY3ljbGUuIFRoYXQgc3Rpbmt5IHNtb2tlIHNtZWxsIGdpdmVzIG1lIHRoZSBtb3RpdmF0aW9uIG5lZWRlZCB0byBjbGVhbiBhbGwgbXkgY2xvdGhlcy4gSG9uZXN0bHksIGJ5IGhhdmluZyBiYWQgaHlnaWVuZSwgc21va2VycywgeW914oCZdmUgaGVscGVkIG1lIGhhdmUgZ29vZCBoeWdpZW5lIGFuZCBJIGNhbuKAmXQgdGhhbmsgeW91IGVub3VnaC4NCg0KU28gc2FkIHRvIHNheSB0b2RheSB0aGF0IGFsbCB0aGlzIHNlY29uZCBoYW5kIHNtb2tlIEnigJl2ZSB0YWtlbiBmb3IgZ3JhbnRlZCBoYXMgYmVlbiB0YWtlbiBhd2F5LCBhbmQgbGlrZSB0aGUgZmFtb3VzIHF1b3RlIEkg4oCcbmV2ZXIga25ldyBob3cgZ3JlYXQgaXQgd2FzIHVudGlsIGl0IHdhcyBnb25l4oCdLiBMYXRlbHkgSeKAmXZlIGJlZW4gY3JhdmluZyB0aGUgbmljb3RpbmUgc28gbXVjaCBJ4oCZbSB0aGlua2luZyBhYm91dCBwaWNraW5nIHVwIHNtb2tpbmcgb3IgYXQgbGVhc3QgbGlnaHRpbmcgYSBjaWcgaW4gYW4gZW5jbG9zZWQgcm9vbSB0byB0cnkgdG8gcmVjcmVhdGUgdGhhdCBvbGQgZmVlbGluZyBhZ2Fpbi4gSeKAmWxsIGhhdmUgc21lbGx5IGNsb3RoZXMgYWdhaW4gdG9vLiBJIHdvbuKAmXQgY2FyZSwgYXMgUGV0ZXIgR2FicmllbCBzYXlzLCBqdXN0IOKAnGRvbuKAmXQgeW91IG1vbmtleSB3aXRoIHRoZSBtb25rZXnigJ0uIA0KDQpPa2F5LCBva2F5LCBva2F5LCBva2F5ISBJIGhhdmUgYSBjb25mZXNzaW9uLiBJIHJlYWxseSBjb3VsZG7igJl0IGJlIGhhcHBpZXIgYWJvdXQgdGhlIE1hcmNoIDFzdCBiYW4gb24gc21va2luZyBpbiBiYXJzLiBJbiBmYWNlIG9uZSBvZiB0aGUgcmVhc29ucyBJIHdyb3RlIHRoaXMgd2FzIHNvIG15IEJpb2xvZ3kgdGVhY2hlciAodGhlIGJlc3QgYmlvbG9neSB0ZWFjaGVyIGluIHRoZSB3b3JsZCkgd291bGQgcmVjb2duaXplIGhvdyBtdWNoIHNtb2tpbmcgb2ZmZW5kcyBtZSBhbmQgaG9wZWZ1bGx5IGJ1bXAgbXkgZ3JhZGUgdXAuIEkgb25seSBoYXZlIG9uZSBtb3JlIGJhY2sgdXAgcGxhbiBhZnRlciB0aGF0IGFuZCB0aGVyZeKAmXMgbm8gd2F5IEnigJltIGJyaW5naW5nIGFwcGxlcyB0byBjbGFzcy4="
+"eventtime","2005-03-11 10:58:00"
+"url","http://justownie.livejournal.com/11560.html"
+"userid","7747"
+"itemid","44"
+"event","QW55d2F5LCBJIHdhcyBkcnkgZm9yIGlkZWFzIG9uIHRoaXMgaW5zdGFsbG1lbnQgdW50aWwgU3VuZGF5IE5pZ2h0IHdoZW4gSSB0aG91Z2h0IG9mIGdpdmluZyB0aGUgT3NjYXJzIGEgc2hvdCwgZ2l2ZW4gdGhhdCB0aGUgaG9zdCB3YXMgQ2hyaXMgUm9jay4gTm93LCBiZWZvcmUgSSBnbyBvbiBhIHJhbnQgKGFub3RoZXIgRGVubmlzIE1pbGxlciB0cmFkZW1hcmspIEnigJlkIGxpa2UgdG8gc3RhdGUgb3Blbmx5IHRoYXQgSSBsb3N0IG15IE9zY2FyIHZpcmdpbml0eSBvbiB0aGF0IHZlcnkgbmlnaHQsIGFuZCBvbiB0aGF0IHZlcnkgbmlnaHQgSSBiZWNhbWUgYSBtYW4uIEdpdmVuIEkgZGlkbuKAmXQgd2F0Y2ggaGFsZiB0aGUgZmlsbXMgaW4gdGhlIOKAnGF3YXJkcyBzaG934oCdIEkgZGlkIHBheSBhdHRlbnRpb24gdG8gdGhlIHBsZXRob3JhIG9mIGpva2VzIHBpbGluZyB1cCBsaWtlIGV2aWRlbmNlIGFnYWluc3QgTWljaGFlbCBKYWNrc29uLiBJbiB0aGUgZW5kIEnigJltIGp1c3QgZ2xhZCBJIGRpZG7igJl0IGNoYW5nZSB0aGUgY2hhbm5lbCB0byBDcm9zc2luZyBKb3JkYW4uIA0KDQpBc2lkZSBmcm9tIENocmlzIFJvY2sgYmFzaGluZyB0aGUgbm9taW5lZXMgYW5kIGZpbG1zIGZyb20gdGhlIHBhc3QgeWVhciwgdGhlIE9zY2FycyB3ZXJlIGZpbGxlZCB3aXRoIHNlZ21lbnRzIHdoZXJlIHNlZW1pbmdseSBvbmUgaGFkIHRvIGFzayB0aGUgcmhldG9yaWNhbCBxdWVzdGlvbiwg4oCcV2hvIHRoZSBoZWNrIGlzIHJ1bm5pbmcgdGhpcyB0aGluZz/igJ0gIElmIHlvdSBrbm93IHRoZSBhbnN3ZXIsIHBsZWFzZSBrZWVwIGl0IHRvIHlvdXJzZWxmLiBJIGRvbuKAmXQgZXZlbiB3YW50IHRvIGtub3cgdGhpcyBndXnigJlzIG5hbWUuIFBvaW50IGlzIGhl4oCZcyBnb3QgdG8gZ28sIGJlY2F1c2Ugd2hlbiBDaHJpcyBSb2NrIGlzbuKAmXQgdGhlIG9ubHkgb25lIHRlbGxpbmcgam9rZXMgeW91IGtub3cgdGhlcmXigJlzIHNvbWV0aGluZyB0ZXJyaWJseSB3cm9uZy4gDQoNCldoYXQgY2FuIGJlIGRvbmUgdGhvdWdoPyBXZWxsLCBmaXJzdCBvZmYgd2UgaGF2ZSB0byBzdG9wIGJlbGlldmluZyBhbnlib2R5IHdhbnRzIHRvIHdhdGNoIE9zY2FycyBiZWluZyBnaXZlbiBvdXQgdG8gZmlsbXMgdGhhdCBsb29rIGxpa2UgSSBmaWxtZWQgZm9yIDEwdGggZ3JhZGUgU3BhbmlzaCBjbGFzcyB3aXRoIHN1YnRpdGxlcy4gV2hhdCBoYXBwZW5lZCB0byBXaGl0ZSBDaGlja3M/IFdoYXQgaGFwcGVuZWQgdG8gU291bCBQbGFuZT8gUGVyc29uYWxseSBJIHRob3VnaHQgdGhlIGNvbWJpbmF0aW9uIG9mIFRvbSBBcm5vbGQgYW5kIFNub29wIERvZ2cgd2FzIGdvb2QgZm9yIGF0IGxlYXN0IEJlc3QgV3JpdGluZyBmb3IgYW4gT3JpZ2luYWwgU2NyZWVucGxheS4gQnV0IG9mIGNvdXJzZSBob3cgY291bGQgdGhleSBsZXQgU25vb3AgaGF2ZSBldmVuIHRoZSBjaGFuY2Ugb2YgZ2l2aW5nIGEgc3BlZWNoLiBJdCB3YXMgaWZmeSBlbm91Z2ggaGF2aW5nIEpheS1aIGluIHRoZSBidWlsZGluZyAocHJvYmFibHkgdGhlIDFzdCByYXBwZXIgaW4gdGhlIGhpc3Rvcnkgb2YgdGhlIE9zY2FycyB0byBhdHRlbmQpLCBidXQgc2luY2UgQmV5b25jZSBzYW5kIGZvcnR5IHNvbmdzIEkgdGhpbmsgdGhleSBsZXQgaXQgc2xpZGUuDQoNCldoaWNoIGJyaW5ncyBtZSB0byBteSBuZXh0IHBvaW50LCB0aGUgbXVzaWNhbCBlbnRlcnRhaW5tZW50IG9mIHRoZSBuaWdodCBzaG91bGQgbm90IGJlIHNvbWUgZ3V5IG9uIGEgQ2VsbG8sIFRoZSBDb3VudGluZyBDcm93cywgSm9zaCBHcm9iYW4gYW5kIEJleW9uY2UsIHdobyBzdW5nIHNlZW1pbmdseSBldmVyeSBmaXZlIG1pbnV0ZXMuIEl0IHdhcyBva2F5IHRob3VnaCBiZWNhdXNlIGl0IHdhcyB0aGUgZmlyc3QgdGltZSBBbWVyaWNhIGdvdCB0byBzZWUgYSBCZXlvbmNlIGNvbmNlcnQgd2l0aCBhd2FyZHMgYmVpbmcgaGFuZGVkIG91dC4gUnVtb3IgaGFzIGl0IHRoYXQgc2hlIHdhcyBzdXBwb3NlZCB0byBzaW5nIOKAnEFjY2lkZW50YWxseSBpbiBMb3Zl4oCdIGJ5IHRoZSBDb3VudGluZyBDcm93cywgYnV0IHRoZSBwb3Qtc21va2luZyBoaXBwaWUgb2YgYSBsZWFkIHNpbmdlciB3b3VsZG7igJl0IGFsbG93IGl0OyB0dXJucyBvdXQgaGUgd2FudGVkIHRvIG1ha2UgdGhlIHNvbmcgc291bmQgZXZlcnkgYml0IGFzIGF3ZnVsIGl0IHBvdGVudGlhbGx5IGNvdWxkLiBJIGRvbuKAmXQgdGhpbmsgQW1lcmljYSB3YW50cyB0byBoZWFyIEJleW9uY2UgZG8gQ291bnRpbmcgQ3Jvd3MgYW55d2F5LCBpdOKAmWQgYmUga2luZCBvZiBsaWtlIEpheS1aIGRvaW5nIExpbmtpbiBQYXJrIHNvbmdzIChjYW4geW91IHNheSBjYS1jaGluZz8pLg0KDQpNeSB0aGlyZCBpZGVhIGlzIHRvIGNvbnRpbnVlIHRvIHVzZSB0aGUgb3JjaGVzdHJhIHRvIGdldCB0aGUgd2lubmVycyBhdHRlbnRpb24gdGhhdCB0aGV54oCZcmUgdGFraW5nIHRvbyBsb25nLCBleGNlcHQgaW4gdGhlIGNhc2VzIG9mIHJlYWxseSBsb25nIGFuZCBzdHJlbnVvdXMgc3BlZWNoZXMgbGlrZSBIaWxsYXJ5IFN3YW5r4oCZcyAob3IgSGlsbGFyeSBTa2FuayBhcyBJIHJlZmVyIHRvIGhlciBhcykgZm9yIE1pbGxpb24tRG9sbGFyIEJhYnkuIEluIHRoZSBldmVudCBhbiBPc2NhciB3aW5uZXIgc3RhcnRzIG1lbnRpb25pbmcgbGF3eWVycyBvciB0cmFpbmVycyBvciBzcGVlY2ggc3BlY2lhbGlzdHMgb3IgZ3VhcmRpYW4gYW5nZWxzIG9yIGFueSBvZiB0aGUgY2hhcmFjdGVycyBmcm9tIHRoZSBNdXBwZXRzIGhlYXZ5IG1ldGFsIGJhbmQgSGF0ZSBCcmVlZCBzaG91bGQgYXV0b21hdGljYWxseSBibGFzdCB0aHJvdWdoIHRoZSBtYWluIHNwZWFrZXJzIHNvIHRoYXQgbm90aGluZyBvdGhlciB0aGFuIGhlYXZ5IG1ldGFsIHB1bXBzIHRocm91Z2ggVFYgc2V0cyBhY3Jvc3MgdGhlIGNvdW50cnkuIEluIG15IGV5ZXMgaXTigJlzIGVpdGhlciBIYXRlIEJyZWVkIG9yIGhhdmUgdHdlbnR5IG1vbmtpZXMgcnVzaCB0aGUgcG9kaXVtIGZvcmNpbmcgdGhlIE9zY2FyIFdpbm5lciB0byBydW4gaW4gZnJpZ2h0IQ0KDQpTbyB0aGVyZSB5b3UgaGF2ZSBpdCwgbXkgdHdpc3RlZCB3YXkgb2YgdHdpc3RpbmcgdXAgdGhlIE9zY2FycyBpbnRvIGEgY29tcGxldGVseSBzYWZlIGZpbmUtdHVuZWQgd2F5IG9mIGtlZXBpbmcgQW1lcmljYSBmcm9tIGZhbGxpbmcgYXNsZWVwLiBIb3BlIHlvdSBlbmpveWVkIHRoaXMgZmlyc3QgaW5zdGFsbG1lbnQgYW5kIHJlbWVtYmVyLCDigJxUaGUgT0RCIGNvdWxkbid0IGhhdmUgcG9zc2libHkgY29tbWl0dGVkIGFsbCB0aG9zZSBjcmltZXMuIENvb2xpbyBkaWQgc29tZSBvZiB0aGF04oCm4oCd"
+"eventtime","2005-03-01 23:16:00"
+"url","http://justownie.livejournal.com/11479.html"
+"userid","7747"
+"itemid","43"
+"event","My mom after seeing i had the 2005 Sports Illustrated Swimsuit Article:
+
+Mother: what are you doing looking at those?
+Me: why not? it's not like i've never seen em before.
+Mother: they're just bug bites, ya know.
+Me: Oooooooooooo that's what they are! all these times i've been calling them somethign else.
+Mother: shutup!
+Me: [in a southern voice] ""My you have you some lovely bug bites"", ""They don't make bug bites like those down sout'"", [pointing at the page] hey mom look the bug bites on this piece of flesh!
+Mother: you're an ass.
+
+lately i've been realizing my mom says pretty crazy things (like shown), and i don't think i've noticed until recently; probably because she usually says things to me like ""do the trash"" orrrr ""you never do the dishes anymore"" and the famous one ""you're never around anymore"". see i'm prone to catching myself saying these same dumb things through the course of the day, but to myself, usually not out loud. like this morning. i just get done taking a dump and after wiping front to back, back to front a couple times i turn around to scout the damage, and i see a nips wrapper in the bowl (nips as in the caramelly hard candy). now a common person thinks, ""what the hell is somebody throwing a nips wrapper in the toilet when there's a trash-can right there?"" notttttttt me! i say to myself, ""it didn't feel like i shit that. i think i would've known a wrapper coming out of my ass, but who knows maybe it did. did i eat that... whole? how did it get through my digestive system and come out whole? wouldn't there be some kind of breakdown?""
+
+then the debate started whether or not to take the sucker out of the bowl barehanded. turns out it's still hanging out in there lonely like a kid in gym class with one arm hoping to get picked for volleyball. ""don't worry i'll be back, i had hot wings last night!"""
+"eventtime","2005-02-20 12:14:00"
+"url","http://justownie.livejournal.com/11194.html"
+"userid","7747"
+"itemid","42"
+"event","ever wish you were left handed so that when you were stuck in a long line at the drive through you could throw your arm on the roof of your car and throw snowballs at the car in front of you? if you're left handed i'm jealous of you. honestly. that's a seriously good gimick. don't even get me started on those ambidextrous people. they're the creatures that were able to do the whole ""pat my head-rub my stomach at the same time"" trick back in first grade AND chew gum at the same time. bastards. I ENVY YOU! GO TO HELL!
+
+sorry, i digress...
+
+have youuuuuuuuu,
+ever watched jeopardy and thought alex trabeck was a complete Pompous Prick? cause i do. he thinks he knows all the answers like some sorta genius child. when is he goign to start being a participant? each week the winner (discarding alex if he wins) should be the host just so when alex answers a question wrong the host could be an asshole to him. ""come on alex everyone knows taht the answer is Craigellachie, British Columbia. god alex get a fuckin' clue!"" alex should be stuck being a participant until he's 80 or dead, whichever comes first. he's humiliated us too long damnitt!
+have you also
+ever wanted to be on jeopardy and act like a complete screw up? 
+""and our new challenger from woonsocket, ri. he vows to hold the record for takin' crap in the most public bathrooms in america. justin welcome to our show""
+""thanks alex. i just took a massive dump before the show. it was like pearl harbor in that toilet! bombs all over the fuckin' place! auto-flush though! those fuckers don't mess around here eh?""
+""well thanks for that gem...""
+""i'm takin a shit right now!""
+""would somebody please excuse mr. townsend from the show??""
+""what is diarhea?!""
+<insert fake audience applause>
+
+have youuuuuuuuuuuuuume, 
+ever thought the perfect black version of santa clause was fat albert? cuase i think it's way too obvious. you do the math: fat albert is fat so he likes cookies (how many fat people don'ts like cookies? i like cookies and i'm not even fat [yet]). that sounds alot like santa. next: santa says ""ho! ho! ho!"", fat albert says ""hey! hey! hey!"" coincidence? i think not. this may be a stretch but santa wears red, so does fat albert. now you're starting to think like me. how bout those friends? santa had 9 reindeer friends and there are roughly 8-10 friends along with fat albert depending on the season. admit it this is way too much of a similarity to go unnoticed for so long. bill cosby wasn't creating a character for his comedy, he was reinventing santa clause for the black people! what a genius! did anybody notice that the fat albert the movie came out on ---  CHRISTMAS?!? did anybody actually see it in the theaters??? 
+
+that's my time. you've been great! keep reading, i'll keep writing!
+
+(what goes on in Craigellachie, British Columbia anyway? cow-tipping? cowchip tossing? cows mud wrestling?)"
+"eventtime","2005-02-16 20:05:00"
+"url","http://justownie.livejournal.com/10931.html"
+"userid","7747"
+"itemid","41"
+"event","it is under circumstances that i will in this entry roll out my yesterday's events. usually there are no circumstances in which i like subjecting my readers to such dementia, but i think this will be explainable. hopefully i can explain this in a way untraumatizing and mildly funny at least, cuase i think they're funny alone.
+
+my day consisted of being at school from 9 until late at night. if anybody has the pleasure of knowing what parking situations are like during the winter in northeast locations, preferably in rhode island, more approxamitaly 48 lateral 120 longtitude, at 600 mt. pleasant avenue, where rhode island college is located then you would know already that my road rage was about to be at an all time high. yah! fuckers. after being cut off by seemingly every italian driving a bmw suv i come to the conclusion that if it weren't for my early love for spaghetti and meatballs early in childhood i would probably be on buddy cianci's son in law's brother's hit list. but then again who doesn't like spaghetti and meatballs? vegetarians on the atkins?
+
+so i'm parked and heading into school. i go to class, blah blah blah, covalent bond, blah blah blah, DNA, blah blah, i'd like to blow my DNA on the girl in the first row's stomach, blah blah, biology sucks. (just a little sidenote) after biology i procede to see two things i might never see within a 24 hour period (i smell a late night FOX dramaaaa). 
+first i see my pimped out xzibit-look-alike friend lydel playing a violin. never thought i'd see a black man playing a violin. sorry if it's racist, but come on before reading this YOU NEVER SAW OR HEARD ORRRRRRRR THOUGHT OF IT NEITHER. 
+next my boss from ppac/ric mysteriously takes my manager steve up to his office. when coming down steve lets me in on the joke of my year basically. apparently this guy mike who served martini's at ppac (or martini mike as i called him... realllllly fuckin creative on that one) danced at gay bars in providence and moved to florida. nobody knew why really. nobody questioned. somebody found out. none other than the GAY GENERAL MANAGER while looking at (drumrolllllllll pleassssssssssse...) GAY PORN. yea apparently mikey mike (or  cody as www.circlejerkboys.com calls him... giggle) likes to hold other guy's sacs for money. apparently mikester likes to cherish the balls of another mans balls for cash. apparently the mikeinator likes to stroke the sausage of another man for a little bit a loot down in the sunshine state. i worked with that dude. i joked with him. now come on people... i never thought i'd know somebody in porn. i CERTAINLY didn't prepare for knowing somebody in gay porn. that shit is refuckingDICKulous. 
+
+honestly if you're mike's parents and he comes in and says ""i'm moving to florida to do porn"". you might be a little shocked and mad that your son is blowing loads for a living, BUT if he adds abruptly that its' ""gay porn, DAD... MOM... GAY PORN"", you might have to have an ambulence on it's way. i pray to god his parents don't know he's the one taking the shots in the mouth. that'd be.... tooo bad.
+
+maybe i'm overreacting a bit, but if you saw the pictures and knew the man being the ... well  if you saw the man with the man's manmeat in his hands you'd be overreacting too!"
+"eventtime","2005-02-03 23:05:00"
+"url","http://justownie.livejournal.com/10631.html"
+"userid","7747"
+"itemid","40"
+"event","mtv wouldn't have shit on my cribs. i was watching luda (as the kids call him) and ashante (gods gift to earth as i call her) on mtv cribs livin' it up. being ""young, rich and famous"". i was expecting some crazy stuff to go down, but as it turned out there's crazier stuff on laguna beach. i mean Cabo is a little more intense than some lame ass trip to africa where luda flies KITES!!! who gives a shit dude. and ashante? please... she was laying down on a yacht in some other lame foreign country. are you kidding me? if i had the loot these two had i wouldn't be doing things i could do in america at 5 years old. and what do you think luda's entourage was thinking the mornign he said, ""let's go fly kites down by the water""? seriuosly. mtv should;ve showed luda getting ass raped later on by his boys, cause if there wasn't rape, there WAS a concensual sex orgy in luda's crib cause that shit is GAYYYYYY.
+
+i know i wouldn't be doing that kinda stuff if i was on mtv cribs. i'd do some downright rediculous stuff if i was on mtv cribs. 
+
+first i'd eat totally different than anybody else. like with soup i'd cup my hand and scoop out the soup then let the drip down my fingers and over my mouth. i'd get broth everywhere and not care at all. when the waitor comes over to tell me i'm being obnoxious and scaring the other customers, i'll buy the restaurant and fire the waitor instantly. i'll then procede by throwing all the silverware out, forcing everyone to eat like complete assholes.
+
+imagine seeing that on mtv. laguna beach would have nothing on me.
+
+second, i'd have mtv be the witness to the surgery on my left leg. see, i have knee problems and probably won't be able to do anyhting too athletic for the rest of my life. so i'm gonna amputate that shit right on tv; brandy had a kid on tv, i can cut my leg off on tv. no anestetics or anyhting. why? so i can have a gumball machine for a fake leg put in. that's why. not one of those shitty gumball machines either. i'm having a gumball machine that has the ball roll down in circles, that little kids go crazy for. being famous this'll be awesome. i mean one day luda might ask me for a gumball. after putting in a quarter in my left foot, i'd kick him in the head with my right foot for FLYING A GOD DAMN KITE AT 27 YEARS OLD! the foot will be a status thing too. cause once i get more and more established all famous people will be telling whether or not they got kicked in the head or ate a gumball that came from my leg. and that shit'd be hot. you know it.
+
+that's a great idea i don't care who you are.
+
+third, id rent a condo in the bahamas and blow that shit up after i left and incessantly keep screaming ""destroy the evidence"" like a possessed murderer. just cause it'd be funny. i'd pay for the damages and shit. who cares when you got all that loot. 
+
+lastly i'd be wasted two thirds of the time on camera and spit complete bullshit into the camera like it was a confessional on the real world. i'd makeup stories about made up people who haves weird diseases and how i found a penis pump in one of the girl's rooms, and question whether or not she's actually a he. 
+
+yea stuff like that would happen on my cribs. it'd be real. MAD real.
+
+
+sincerely,
+townie
+
+PS. i got diarhea. hahaha diarhea."
+"eventtime","2005-01-24 12:34:00"
+"url","http://justownie.livejournal.com/10336.html"
+"userid","7747"
+"itemid","39"
+"event","and was it stupid. i'll explain.
+could it be any colder today? i remember hearing a quote from john
+madden one time ""you know it's cold when your spit freezes before it
+hits the ground"". well john (first name basis), let me rephrase that
+for ya. ""you know it's cold when you wake up with brain freeze and
+decide you're too lazy to put pants on and go through the cold ass
+winter day in SHORTS!"" yea that's when you can say it's cold. go ahead.
+you're officially allowed. while you're at it call me a god damn moron.
+what a stupid day to be stupid.
+obviously i wans't thinking ahead. these were the 20 things i wasn't
+thinking of before wearing shorts.
+1) you have to walk to your car 
+2) even though cars get warm, they
+aren't right away. especially on cold days. they take a while.
+3)sometimes you have to wait for that shit to defrost too.
+4) you have to get out of the car and walk into work.
+5) at some point in the day the sun goes down and it gets colder and
+colder.
+6) you leave work at that same point.
+7) my gas tank was on E and needed to be filled.
+by this point i've said god damnitt 20,000 times.
+8) without cash i was gonna have to use my debit.
+9) punch my password in
+10) take the gas cap off
+11) pick up the nozzle
+12) squeeze
+13) kill myself... oh wait i WAS thinkign of that
+13-reised-) i was going to have to suffer the 10 bucks of gas
+14) i was going to have to get back in my car
+15) let it heat
+16) get out of my car
+17) unlock my door
+18) struggle with my keys
+19) struggle with the lock
+20) listen to my parents call me an idiot for wearing shorts on the
+coldest day of the year."
+"eventtime","2005-01-19 00:12:00"
+"url","http://justownie.livejournal.com/10014.html"
+"userid","7747"
+"itemid","38"
+"event","it's not everyday you get an idea that could change your life. of
+course i had one of those moments when i thought up the idea for the
+motorcycle airbag, which i still think will become a leading product in
+the near future. ok, never. so the other day when watching mtv's year
+in review type deal that they do every year i saw britney's shotgun
+wedding and the wedding bells went off in my head. what if? what if i
+started one of those in woonsocket. sure, my whole family would look at
+me as a type of atheistic, white trash person. ehhhh i'm okay with that
+in a way. i mean, i'll be making money right? just think of how big a
+cash crop it would be in woonsocket. with the speed celebrities marry
+and divorce, the little white chapel in las vegas is known country
+wide; AND with the white trash we have in woonsocket the whole world
+could know about this. white trash in woonsocket is like corn in
+nebraska, we have shitloads of it.<br>
+<br>
+so why not cash in on this people finally.
+
+finding a name for it won't be too bad either... <span style=""font-weight: bold; color: rgb(102, 102, 102); font-style: italic;"">THE LITTLE WHITE TRASH CHAPEL</span>
+and we'll throw it right next to the chinese super buffet, that way
+there we can get them coming out and in, as well as have safety with
+the police station nearby just in case and fourth husband gets upset
+and busts out a glock. i'd run specials every 2nd and 16th of every
+month like half off weddings (in case nobody gets that welfare gets
+paid the 1st and 15th of every month) and most definitely have dollar drafts after every wedding of Pabst Blue Ribbon. the chapel will also have a motel built in and a chaplain available 24-7. cheap coffee would be available in the lobby and coupons available for second, third and fourth marraiges. anythign after that is full price and socially unacceptable.<br>
+<br>
+don't steal my idea or i'll def gut you and make you sit on my pole.<br>"
+"eventtime","2005-01-03 12:38:00"
+"url","http://justownie.livejournal.com/9755.html"
+"userid","7747"
+"itemid","37"
+"event","you know i've gotten about 0% done this vacation that i actually intended i doing and you know somethign i had about 0% planned. so while i'm ironically on schedule to get everythign i wanted to get accomplished (nothing), i'm still a completely lazy bastard. each day i ask myself why i'm so tired. i can't be tired when i don't really do anythign. and since no energy is being exerted in any areas of life, i can't be tired, but i am. so maybe it's that i'm accomplishing way too much of nothing that's making me so tired or that i'm so tired of doing nothign my body is actually doppelgangering my mindset.
+
+i have signs that i'm way too tired from doing absolutely nothing. first is that the other day when my alarm clock woke me at 10:00 am for work, i thoguht it was my mother talking on the phone and yelled ""do you need to use the speakerphone to talk on the phone!"". i yelled it at nobody, obviously, and realized i was way too tired for life.
+
+the second sign was when i took a shower that day and did the ol' double shampoo-ing. don't act like you haven't done this before. you wash your hair once, your mind drifts, and suddenly you ask yourself if you washed your hair already. you then tell yourself you better do the ol' double shampoo-ing just in case, cause having nappy hair through the day is scubby and makes you look like oscar the grouch. you say though that isn't that bad if you know everybody does it once in a while. yea but i did my own little version of it. ya see i put the shampoo in my hair the first time, then i sat there and let my mind wander, then i asked myself the question without fully washing my hair the first time, then put extra shampoo ontop of the already shampood hair; making twice the normal tablespoon of shampoo adaquate for a head of hair and twice the suds as well as making me twice as tired as i should be.
+
+after waking up and excessively washing my hair like it was grease on a pan, i went to get a coffee; drive-thru of course. when getting my amount due i decided i wasn't gong to look for exact change even thoguh it was practically in my hand. going in my wallet i give the first bill i put my hand on, a 20. note in my wallet i have 5's and 1's so i could easily give an easier amount to get change for, but don't cause i'm way too lazy for that shit. so they go to give me my change. there's no way i take coins back from that mess so i tell them to keep the change and just give me the bills. but again i'm way too tired to tell them on time. so i tell them after they make change and use their brains. ""i'm such a lazy asshole when i'm tired,"" i say as i leave the drive-thru, but i think it came out more like, ""blah blah assholllle tired"", which is never good.
+
+so as you can see i'm way too tired for doing absolutely nothing, and my laziness isn't exactly helping. 
+
+frankly i can't believe i've sat here typing this for the past 10 minutes. waht the helllllll was i thinking. 
+
+(i think laguna beach is on..............................."
+"eventtime","2004-12-30 18:53:00"
+"url","http://justownie.livejournal.com/9621.html"
+"userid","7747"
+"itemid","36"
+"event","well this is the first in my series of comics...
+
+i plan on having a comic each week on monday. buuuuuuuuuut if i get lazy and don't want to put the hour in for obvious reasons, there won't be a comic that week. so i'll try but i'm not gonna guarantee anything. ok?
+
+tell me what you think..
+
+<img src=""http://img.photobucket.com/albums/v614/justownie/just2.jpg"">"
+"eventtime","2004-12-14 09:21:00"
+"url","http://justownie.livejournal.com/9399.html"
+"userid","7747"
+"itemid","34"
+"event","so it's been a while since i racked ya brain. whatev. i've been busy. plus who needs november anyway? toss it off the calender.
+
+annnnnnnnnnnnyway.
+
+today i figured out the difference between men's toilets and women's toilets. so you might say now, ""he had a whole month off and he wants to rant about this! what a sloob!"" well i wasn't exactly thinking about something productive in the past month, and this was a kind of spur of the moment discovery. men always - no matter how many stalls there are, no matter how many urinals there are - piss on the seat. women don't do that. they could. i mean any woman could do the huvver and get piss all over the seat, but don't. they could if they really wanted to. men though are different in this way. we don't give a shit. plain and simple. it's like as kid's we would play swords; some of us. not that we're not young anymore we have to channel that little kid somewhere else. but we can't. in the privacy of our stalls the little kid must come out and personal games with our dicks must be held. you know the games too. you play em at david buster's. yea the one where they give you a rifle and if you hit targets you get tickets. well i think some guys get the tendency in them to create targets inside the bathroom. you know... the different types of graffiti on the wall. the really bad drawing of a penis. a ""Fuck Bush"". a ""you're a homo underneathe"" as well as a follow up written by somebody else ""no you are"". none are really creative. so some MUST go and piss alllllll over them. i don't blame em. but this is why we're still looked at as primitive humans. tihs is also why i don't believe in evolution. if we evolved so much why the hell do we still do such things as piss on toilet seats???
+
+just a thought.
+
+they say it's the thoguht that matters."
+"eventtime","2004-12-05 20:19:00"
+"url","http://justownie.livejournal.com/8834.html"
+"userid","7747"
+"itemid","33"
+"event","i don't know about anybody else but those new commercials for csi are a little like reality for me. like i've been thinking of what if's and shit and it's really starting to scare the doo doo butter out of me. 
+
+think about if you had a girlfriend and she got killed in your apartment. ""well well well justin, you might have killed her, but did you have to rape her in every room? your giz is all over this place like you through a gallon of giz though the ceiling fan!"" ""no i just jerk off a lot cause she's too busy all the time"" ""we got a motive guys! we're gonna have to take you in""
+
+and what if you're a 5 year old kid and your mom just got whacked. the csi guy not only has a new toy with the feathduster thing to get the finger prints, but he's checking the whole house. ""what's this jonny? huh? i know mommy's DEAD but you don't need to start taking advantage of that! YOUR FINGERS ARE ALL OVER THIS COOKIE JAR JONNY! DO YOU HAVE ANYTHING TO SAY FOR YOURSELF? HUH? HUH YOU LITTLE PUNK! kids like you are going to ruin this country...""
+
+you know if you were little jonny you'd piss your pants at the sight of one of those dudes."
+"eventtime","2004-10-29 08:54:00"
+"url","http://justownie.livejournal.com/8540.html"
+"userid","7747"
+"itemid","32"
+"event","after a long night of celebration i figured i'd give a long list of the stupid things i screamed in a large crowd of people:
+
+1. i love bush.
+2. lets go tip some cars! who drives a geo?
+3. lets start a fire!
+4. yellin' is for pussies, let's go tip some cars!
+5. the cops came to celebrate with us!
+6. ""let's go bad hair cuts!"" in the tune of ""let's go red sox"" to the police...
+7. i wanna get tear gassed!
+8. 90 racial asain racial slurs towards japsui...matsui... errr
+9. let's go run some yankee fans over!
+10. john sucks at doing the mail! <towards the kid john who does the mail>
+11. that kids a yankee fan! pointing to totally random person.
+12. hey if you start streaking i'll follow... to really hot girl in silk pajamas
+13. ""i've got 3 legs"" in the tune of ""let's go red sox""
+14. lets go on a panty run
+15. i bet i got a bigger dick than john... the kid john who does the mail...
+
+i wasn't even wasted..."
+"eventtime","2004-10-21 01:57:00"
+"url","http://justownie.livejournal.com/8247.html"
+"userid","7747"
+"itemid","31"
+"event","ya know some are granted with the grace to stay cool when approachin chicks. they have cute little pick up lines and shit, but that's not me. i've seen people use them and it just wouldn't work. i'll give some examples of how i'd botch some:
+
+1) ""Baby, somebody better call God, cuz he's missing an angel!""
+   how i'd say it: 
+   ""God's missing an angel. Let's go make baby's!""
+
+2) ""Did you clean your pants with Windex? I can practically see myself in them.""
+   how i'd say it:
+   ""Let's go clean windows and get naked.""
+
+3) ""Baby my love for you is like diarrhea, I can't hold it in no more.""
+   how i'd say it:
+   ""Damn I got diarrhea. Got anything to read?"""
+"eventtime","2004-10-19 12:37:00"
+"url","http://justownie.livejournal.com/8098.html"
+"userid","7747"
+"itemid","30"
+"event","through my past couple years i've learned a new tool called not caring. in fact i'll so far to say i care only about that which deals with making people laugh; hence the livejournal filled with embarrassing stories. i've put myself out there on a limb of indecency and at times coworkers and likewise refer to my behavior often as offensive. i'm okay with this because i don't care and it made them laugh, which i only care about. so with this whole prelude to my post i'd like to finish by saying i'm going to go through with trying to become a prominent effective stand-up comic. i'm seeking out open-mic's and try to overcome the fear of rejection and lame jokes. i'm gonig to work at this. i hope you support me and i hope when performing you laugh; even though it'd be my job to make you do so.
+
+now i'd like to give an instance where i really could have made a couple pepole laugh but held back in fear of losing my job. it all happened on a friday afternoon. it had been a foggy morning. dangerously foggy. now don't kill yourself after you read what i'm about to write to you; i know i wanted to off myself after i heard this, but a close friend intervened before my donig so. so don't. ok? so i'm sitting in the back when i hear the ""girl"" (and by girl i mean 19 year old, functioning at an inadaquet level) in the front say the following, ""i thought there was an explosion on campus today"". note: she thought the fog was smoke from an explosion.
+
+in my head at this moment i rattled off the following questions:
+1) if it were smoke wouldn't she be able to smell it?
+2) if it were an explosion, wouldn't she be able to hear it?
+3) where are the firetrucks?
+4) policecars?
+5) fbi?
+6) is she fuckin crazy?
+7) has she ever seen fog?
+8) has she ever smelled smoke?
+9) is she fuckin crazy?
+10) how am i going to off myself?
+
+it was a scary point in my life..."
+"eventtime","2004-10-10 18:13:00"
+"url","http://justownie.livejournal.com/7807.html"
+"userid","7747"
+"itemid","29"
+"event","i don't hitnk i thought out the motorcycle airbag gig too much so i think i need to rephrase or rearrange this thuoght process out a little bit more.
+
+first i want to say that you will all buy the motorcyle airbag and make me rich. much like when ralph nader made congress pass a law saying all cars require airbags, i will make sure all motorcyles have all the correct parameters to make it the safe vehicle the motorcyle should be. 
+
+now, while you're in amazement, don't be; my airbags will be manufactured in america, not indonesia, where i can get away with paying low wages and force little workers to work ungodly amounts of hours. no. 
+
+i will however make my profit on the premise of people being naturally stupid consumers. with that being said, my goal shall be verrrrry easy. all i have to do is create two simple things. 
+
+(1) two diagrams:  the first diagram will have no airbag and show the bike on its side and a puddle of blood on the side. note: the person will not be on the page but have a little caption that says ""*without airbags persons may fly thousands of feet to which we do not have enough cardboard paper for this diagram*""  the second diagram will be a bike standing up with airbag out and kick stand holding the bike upright, a car on fire in the background and a biker dude smoking a cigarette without a scratch on his body.
+
+(2) a creative jingle like those furniture and glass commercials that stick in your head for weeks. for example the one in my head right now is 508 880 0000. god knows what they're selling but the jingle's in my head which goes to show ya it works. if i come up with a stupid jingle for sure millinos will have the most rediculous invention ever made.
+
+with these two plans i have no doubt in my mind everyone in america will have airbags in their motorcycles. no doubt."
+"eventtime","2004-09-08 17:18:00"
+"url","http://justownie.livejournal.com/7670.html"
+"userid","7747"
+"itemid","28"
+"event","i think i'd feel more comfortable if i did this post in the nude...
+
+hold on...
+
+okay that's better..
+
+where was i....
+
+oh small thoughts that's right...
+
+i wanna break new gruonds. that's right. everybody has a new invention out there. i wanna get rich to. so i've been thinking about an invention that will save lives and make me rich. yea. it'll be the first of its kinda also. i call it... the motorcyle's airbag. watch for it on late night promos. gonna save lives bitches.
+
+if i lived in the orlando area and a tourist asked me to take pictures. i think i'd pull down pants and take a picture of my balls. save that one for the album.
+
+whenever i get a female friend's voice mail i'm going to say the following. ""hello (first and last name), this is your gynecologist. we need to have a talk.""
+
+finally, my friend recently commented that chubby girls work harder at sex, more specifically, giviing head than attractive non-chubby girls. noting that it could be a long time before they get anymore opportunities, so they have to perform a bit better. in return i said ""maybe they're just used to having things in their mouths"".
+
+oh that's just aweful. booooooo...."
+"eventtime","2004-08-27 17:36:00"
+"url","http://justownie.livejournal.com/7273.html"
+"userid","7747"
+"itemid","27"
+"event","i gotta say this is on the spot, without the likes of any inspiration former entries were containing. this is uninspired, but i gotta see how it'll come out like this cause if i can't squirt juice out of an orange, i can't become a orange juice maker person (if there is such a thing). 
+
+1) there is no way i vote for anybody that has their campaign's bumper stickers on a beat up, last breath of life car. what kind of message does it send? ""i'm willing to work with the poor???"" seriously though, i was driving down 95 this past week heading to new york, when i saw this destroyed, rusty car with 20 bumper stickers with some dude's name on it. first if i'm running a campaign and this jackass wants to vote for me, it's alright, but if he's trying get his custy friends to vote for me, then i don't think i'm getting the right group to vote for me. second, who knows if this guy didn't leave thesse stickers on from 20 years ago. if i'm the dude running, i want everybody to know the votes over. i'm finished. don't rush for the voting boothes looking for my name. it's not there. can't ya tell by the rusty car these stickers are 20 years old???
+
+2) does this country know how big rhode island really is? in all esssense if anybody for out of the new england state's reads this can you tell me how much you know about rhode island, cause i'm devastated at how ill-informed COLLEGE students are about rhode island. i ask this because when i was in new york a person asked if i went to bishop hendricken, an ALL-BOYS catholic school. when i said no she asked ""i thought everybody went to the same school."" don't let that linger around too too much cause you'll wanna rip the skin off your body. i thoguth about this a little and lived to tell my idea... and this is what i've come up with. in this person's head, somehow, there was only enough space for 20 people to live in the small state of rhode island, everybody who had kids, had males, AND they all went to one school, under the same faith, AND were unbelievable athletes becaseu they did all the sports and were all-state in all of the sports they compete in because they're the only school in the state. 
+
+it's not your fault your elementary, middle school and high school teachers make a mockery of my state. our teachers explain new york as the biggest group of assholes in the country, so i don't take too much offence. 
+
+oh ya, yankees suck, jets suck, mets suck, krypton sucks."
+"eventtime","2004-08-22 21:49:00"
+"url","http://justownie.livejournal.com/6946.html"
+"userid","7747"
+"itemid","26"
+"event","so i have to say a couple things awestruck me yesterday that the normal human being's head would come to a screaching hault, should he/she ever get the chance to see such a redonculous sight. 
+
+The first sight occured round the time of noonish. i was on my way to pick up my check from beef barn when at a gas station i noticed something i had always thought of doing, but wasn't stupid enough to actually do. the guy had came into the pump on the wrong side, like sometimes we have to do. normal people, us, usually put the car in reverse and decide to pump from the side the gas tank is on. this guy, no way man. ""i think i got enough space here, i'll just wing it over my hood."" surprisingly, he had enough space to wing it over, but there wasn't an inch to spare. now for the punchline, he was the only car in the gas station. it's a true story folks. i tell no lies. true story.
+
+another story i couldn't have made up was when i picked up my check, no more than 10 minutes after seeing that silly gas pumping asshole, i witnessed something you only see in magazines. you know how maxim has the unintentionally pornagraphic pictures? where like you see the penis on the cover of the little mermaid and people send it in and get a free subscription to maxim? well i saw somethign like that, but not pornagraphic... ya i know i led you on a bit didn't i? well as i'm driving i notice an SUV with the licence plate, no lie, ""VODKA""... heres the punchline... he's pulling into the front of the north smithfield police department. people i tell no lies. this is a true story.
+
+here's the assumed conversation that happened inside...
+
+Receptionist: (to the back) ""hey guys come here for a sec, you won't believe this.""
+SUV dude: ""hi, i got pulled over the other day and...""
+Receptionist: ""no no no, let me guess. speeding ticket. no no no, ummm you have a light out? no that can't be it...""
+SUV dude: ""no actually i got a DUI fine i'd like to pay.""
+Receptionist: ""that was my next guess!!! man the chief isn't gonna believe this one...""
+
+oddly enough after watching these two knuckleheads, i'm still alive."
+"eventtime","2004-08-13 10:52:00"
+"url","http://justownie.livejournal.com/6677.html"
+"userid","7747"
+"itemid","25"
+"event","i have to say i wasn't thinking of posting tonight, but by the start of my drive home i was inspired to write. in that brief instance i released (so to speak) an idea and sound i rarely have the occasion to enjoy. that moment, in it's sweet brevity, was when immediately upon dropping my guests off tonight - at the shut of the door - i passed gas like an iraqi high ranked official about to get his apartment inspected by the united nations.
+
+seriously this could be the millionth time i pass gas, one would assume it was ""no big deal"", but this time it was different. my guests toinght, the likes of (1) susan miguel (2) ashley estan and (3) my ass of course. our destination: comedy connection in east providence. throughout the evening i withheld the arsenal of two young ladies and perhaps the deadliest fumes known to man. to put things into perspective, if i let go, pray for heaven, it would've looked like snoop dogg's posse smoking reefa in a 10'x10' room.
+
+it was cliche in it's very nature. you hold on to dear life (how sweet it is) and everytime you're in a conversation your stomach growls and you say all the things you should (""yea"" ""yup"" ""nice"" ""sweet"") when all you're thinking is ""what if it slips?"", ""what if i do the ol' cough at the same time? will they hear it?"", ""what if it's not a stinky fart and i silent it? can i pull it off?"" ""if tree falls in the woods..."" as amazing as it sounds, through use of the experimental method learned and RELEARNED in every science class since 4th grade, i've gathered they'll always know who did it. when they don't hear it, they'll smell it. when they don't smell it, they'll hear it.
+
+and so i dropped sue and ashley both off, and i proceded to release an absolute explosion of a fart that my half deaf memere would have heard. i didn't stop there though. i did what any accomplished gas passer would have done, kept the windows rolled up and enjoyed the dutch oven for the ngiht's job well done.
+
+smiles all around, with water still in my eyes...
+i say to you all good-night."
+"eventtime","2004-08-08 00:05:00"
+"url","http://justownie.livejournal.com/6523.html"
+"userid","7747"
+"itemid","24"
+"event","when i re-read that last post i can i only think how there shouldn't have been more than one minute that went by before somebody commented. and i don't know if that's a good thing or a bad thing on anybody's part (mine or the readers or lack there-of)...
+
+anyway, besides being twisted last night, i had some crazy ass dream to which deems worthy of postage. so you know how some people have dreams and wonder if dreams come true? like when you have a crush on somebody and somehow in that dream you're in love and all that mushy 90210 shit? what if the wrong dreams don't come true, but the wacky, incredibly weird dreams do. certainly nobody tlaks about having dreams like i had last night. somehow i was in an alleyway making fun of some dude when all of the sudden he picked up a pan of luke warm baked beans and attempted to pour it all over me, only nipping my lower back and ass. afterwards i beat the baked beans out of the dude. 
+
+first, why baked beans? second why only on my back? third, why baked beans? have you ever seen a guy throw baked beans? what was a pot of beans even doing next to him? nobody has business having baked beans nearby. and why were they warm? i don't know too many alleyways that have oventops nearby or the necessary tools to create fire to heat up the beans (firewood more specifically). 
+
+i'm sure some future psycologists will look at this and immediately throw up in awe of what this really means when psyco-analyzed. what kind of person would have, in the back of their haeds, a phobia for getting baked beans thrown at them? what would you call it? bushobia? that would just confuse everybody nowadays... 
+
+person a: ""oh i got bushobia""
+person b: ""then don't vote for him...""
+person a: ""no i'm afraid of baked beans...""
+person b: (thinking) ""ummm... then don't vote for him...""
+
+afterwards i woke up and checked to see if i had some baked beans in my draws. conclusion: bean free, thank god."
+"eventtime","2004-07-30 15:18:00"
+"url","http://justownie.livejournal.com/6370.html"
+"userid","7747"
+"itemid","23"
+"event","wow... that evan willaims is a ocmplete bastard...
+
+you ned a reason to post???  here's one...
+
+oh shit i forgot...
+
+hold on...
+
+you can't see my middle finger can you??.
+
+shit...
+
+dobn't i feel like a bobble head doll. wobblewobblewobble
+
+hey ... you know what the funniest bobble head doll would be?
+muhammid ali... that dude has parkinsins' disease....
+
+i heard a white person refer to a fade haircut as a ""nigga haircut""... almost funnier is when a white person said he was offended by it... dont ask.. completely wasted.
+
+did the woonsocket pony league team really warm up to sheryl crow? more importantly, did my, so called, ""friedn"" lip sync the words while we were playing wiffle ball?
+
+do i relaly live in north smithfield?
+
+a bird is most def shitting a gallon of milkshake on my car as i type..."
+"eventtime","2004-07-30 01:37:00"
+"url","http://justownie.livejournal.com/6091.html"
+"userid","7747"
+"itemid","21"
+"event","everbody has there own late night abode they feel they can rely on to be the extra innings or shall i say night cap on their night. mine is coffee and cream. now while some feel there should be some gratification in this late night hot spot, i disagree and go home grumpy at least once a week wondering what's wrong (or unconstitutional) with coffee and cream. i can deal with the weirdos and drunks; sometimes i am the weirdo and occasionally the drunk.
+
+with that being said:
+
+this place is nearing damnation soon. somewhere satan's saying, this is too fuckin easy! there are too many reasons why this place doesn't make sense. for instance, my mom and dad went one day and got their order without bacon. now my dad looks up and sees the waitress eating HIS BACON! he calls her over and asks where the bacon is and she gets him a new order. hey satan, is hell anything like this? am i going to go and be sitting permanantly at a table waiting for my bacon to show up only to see little demons hogging down on it?
+
+if that isn't bad enoguh i'll give another case that could be when we saw a pair of guys leave nothing for a tip; god forbid. the waitress came running outside after them after making a scene in the restaurant. now i know all you waitresses think people should always tip, but honestly are we a little full of ourselves to think being on a permanant smoking break and sipping coffee is tip worthy? satan?? i'd tip a waitress at empire chinese buffet more than the waitresses in unconstitutional and cream. maybe if they didn't eat all the customers bacon they would get a little healthier of a tip. now i know some poeple are drunk, well if that's the case shouldn't we be doing a little brainstorming on how we can make our service stand out? maybe a lap dance and i'll throw a 5 in your little fanny pouch. work it girls!
+
+speaking of tips they just throw it on there at the end of the bill for you as if people need a guidline to figure out 15% of their muffin. also there shouldn't be a difference between the mornign menu's prices and the evening menu's prices. we all know the food you use at night is the same shit, not an upgrade in the least; so let's lay off the 5% increase on the menu at night time. i know you get off on fuckin me in the ass, but if it's my money i'd rather go in the backroom and take that dike of a cook's dildo and fuck myself in the ass, thank you very much.
+
+and how bout the bottled water you have to pay for? ""guys, did she really just say they ran out of tap water? what did they use for my tea???"" since when did tap water become so expensive that we couldn't spare any to customers? oh wait i know, they're just looking out for our health and want drunk assholes at 2 in the morning drink pure spring water freshly purified. sorry can't buy that one. here's a quick idea, if you don't want people to coem in and not buy anything, tell poeple they have to spend at least 3 dollars a person. wow that was tough.
+
+so overall, have each person pay 3 dollars on somethign or boot em and chances are if you're giving lap dances people will buy more than a water. don't scam people on the checks and for christs sake stop eating my dad's bacon you crap eating slobs!"
+"eventtime","2004-07-25 00:44:00"
+"url","http://justownie.livejournal.com/5498.html"
+"userid","7747"
+"itemid","20"
+"event","one can only imagine how pissed i am at birds this summer if they've experienced events such as running out of toilet paper after a monster dump in a restaurant or seeinf one of your parents naked by accident.
+
+birds are my enemy this summer. never have i been more on a mission i cannot win. they're everywhere and there's no way around it. i have to accept that my car will have gallons of white paint on my car. now i have to because my parents need the drive way or i ahve to move my car at 6 in the morning every morning. so have to live with the shit on my car from being parked underneath the power lines (ie the toilet).
+
+it's not like i have the only maroon car in the neighborhood either. why can't they hit up the others? why can't they squander their loads in the street? how bout that bmw over there? too nice? when did birds get standards? why does it look like a horse jerked off on my car? when did somebody throw new england clam chowder on my car? why is there a picture of a snowball on my winshield? what the fuck did this bird have to have such a big shit? why is it always on the driver's side window? why is the size of my head? why? why the fuck why?
+
+anyway..
+
+these birds have everywhere in the world they can take a shit and until they learn to potty train in trees or bushes i'm not gonna get any sleep!"
+"eventtime","2004-07-20 00:34:00"
+"url","http://justownie.livejournal.com/5358.html"
+"userid","7747"
+"itemid","19"
+"event","so my goal today was to take my dad to the eye doctor's in providence and i'm not going to lie, it was intense.
+
+to not describe every detail in this entry would be a crime so i'm going to try to be felony-free and exhibit what laser surgery looks like.
+
+first we wait and some lady is behind my dad waiting in the room with me; with the imagination i have she's ultimately waiting for her eye to ripped open with the swords from star wars (light sabers is it?). so of all the places she could have sat, she picks the one right next to me; little do i know this pattern would continue. all i want is to wait for my dad and leave without any interference from some gool. so she sits down and wait she wants the people magazine right under my book! i'm thinking, ""doc, she hasn't been operated on yet right? she has to see the other seats in the room. if she doesn't make sure to be quick with my pop, cuase i think this bitch needs surgery more than him."" 
+
+10 minutes later i'm told i can watch the operation on this little tv. given the operation at hand, i don't know what i was thinking, but afterward and during i felt like jamming myself in the eye with little metal objects for being dumb enough to watch such a horrific procedure. plus the money this place probably charging they should have a little bigger tv than a 4 inch. sorry, but if i'm watching a surgery on a tv that's not bigger than my dick or if my dad's eye is actually bigger in real life than the eye on the screen then somebody should be wearing that tv like a football helmet.
+
+anyway i'm watching and the lady comes back and sees (god knows how) i have glasses and in her most earnest voice, most genious cleverness says ""how come you do'nt get it done"". now don't get me wrong, i'm a nice guy, but i should be rewarded for not being a complete asshole to her. i really wanted to say, ""hey since your looking at me and are very observant, you should notice i'm skinny, you're fat. now looking at me, do you wanna go on a diet? no.""
+
+on a side note one adjective i never want to hear coming from the food network more than 10 times in a program is ""sinful"". it's just bothersome.
+
+seacrest. out!"
+"eventtime","2004-07-15 22:19:00"
+"url","http://justownie.livejournal.com/4953.html"
+"userid","7747"
+"itemid","18"
+"event","i felt the need to post for the first while under theeee influence. now... while some are shaking there heads in amazement that the previous 90 posts have been un-influenced, don't be afraid... these just might not make sense, not completely stupid and rediculous.
+
+okay so the bathroom in beef barn has a little vent UNDER the toilet. why? everybody knows that the fart air wafts upwards into the window; making the vent completely retarded, useless and completely out of place.
+
+my other thing. everybody knows that if a person had one arm and went to high school he'd be the freak. BUT let's say everybody had one arm in school and a person with two arms went into school, would he/she be shunned or would everybody with one arm be jealous of that person? would they be the freak? i know if i had one arm in that school i wouldn't say shit, cause that guy has two arms and can beat the shit out of me alot easier. now if it's a chick, then i'd have to say sign her up for the volleyball team!
+
+so it was 50 cent draft night at huggy's bar on arnold street. a guy bought me a beer after he found out it was 50 cents. i was tangled at whether or not i should recieve it. first time i had somebody other than a chick buy me a brew. honestly i felt homosexual, but then i thoguht of my livejournal and said... i already am... then i drank my budweiser and cried. this livejournal is taking over my life. good thing i'm still really into chicks or i'd be completely scarewed.
+
+compleltely."
+"eventtime","2004-07-13 00:10:00"
+"url","http://justownie.livejournal.com/4776.html"
+"userid","7747"
+"itemid","17"
+"event","so i've been playing a lot of poker lately and it's controlling my mind. a lot of the thoguhts are excusable, but some are just out there. so i made a list for chronic poker players as to signs you might be playing too much poker.
+
+1) if you think the song by ACDC ""she's got the jack"" is really about poker..
+       ""Poker face was her name
+        Poker face was her nature
+        Poker straight was her game
+        If she knew she could get you
+        She play'd 'em fast
+        And she play'd 'em hard
+        She could close her eyes
+        And feel every card
+        But how was I to know
+        That she'd been shuffled before""
+
+2) if everytime you hear ""all in"" you stand up and take a shot even in the middle of your 18th century british lit class. 
+
+3) if whenever somebody says ""the river"" you think of the time you got beat with the Ace on ""the river"" instead of going fishing or a kayak trip. other signs could be mixing up 4th and 5th street in woonsocket.
+
+4) if family events make you look like an ass by having a permanant poker face on or calling your cousin's new boyfriend a sucker.
+
+5)if you carry a lucky orange with you at all times, even if it starts to mold. othe signs could be hanging a cigarette from your lip and wearing sunglasses even in your sleep so people can't read your dreams.
+
+--
+
+okay so i may fall into 3 maybe 4 of those... okay i'm ""bluffing"". all 5 correlate to me. also i've had nightmares or chips squashing me to death. this isn't a problem thogh. i swear. it's gotta be normal. it's just like when i started beef barn and having dreams of sleeping on the grill and making sandwiches in my sleep while standing up ontop of my bed. i'm sure if the other cooks sleep-walked they'd do the same thing...
+
+don't laugh it's true... it's all true..."
+"eventtime","2004-07-06 10:41:00"
+"url","http://justownie.livejournal.com/4602.html"
+"userid","7747"
+"itemid","16"
+"event","so it's been a while, but hey the way i figure the way VH1 has been running these top 40's whatever moments and the way ESPN is counting down things you've had WAY too much TV to be watching. 
+
+anyway, at beef barn on mondays i close up the grill, etc. i do extra things on top of what normal cooks do on other days of the week. one of the things i do is clean the frialator and when i'm done i put roughly 6-7 gallons of cold water to sit overnight in. well as i'm doing this (with all the luck in the world) i take this 4-5 gallon bucket filled with water and pick it up. unbeknownst theres a hook on the bottom facing up. that hook, maybe sticking out a quarter of an inch, grabs onto my shoelace and water spills allll over the place. why is there a hook on a bucket? why's it sticking up? mcgyver couldn't find a use for that hook. it's like those old school cartoons where the box cars are racing and theres the bully in the tricked out car. why is there spikes on the car's wheels? same reason why there's a hook on a bucket. to make the other person pissed off. you screwed up my wheels man. that's gonna take my 10 minutes to clean up. 
+
+i swear to god if somebody watched me throughout a whole day, i'd be a whole season worth of blooper clips. i'd be off the air in about 4 episodes though because i'd start doing shit on purpose. like at work i'd bite into people's food and at home i'd throw pillows on the bottom of my stairs and walk around my house reading a book, so that when i trip down stairs, the pillows would brace my fall... that wouldn't be as good to watch as ... lets say... VH1's top 40 reality tv moments. no... yes!
+
+another thing i would do... nah you don't wanna hear that...
+
+i'm outa here like a black guy getting pulled over...
+
+oh no he didn't... 
+
+
+**no blacks were harmed during this posting**"
+"eventtime","2004-06-29 15:35:00"
+"url","http://justownie.livejournal.com/4291.html"
+"userid","7747"
+"itemid","15"
+"event","it hath been the time where the chipmunk comes out of the hole and pulls down his pants for yet another run at making people laugh.
+
+chinese restaurants. so i've come to the conclusion i cannot go to a chinese restaurant unless, while staring in the window, i can see full well the workers inside cannot speak english with ease. i want to see people squint and do a little lean-in when trying to understand the english-troubled foreiner. i need that. what validates a restaurant more than the help? of course you do run into one problem: if the help cannot understand english and they fuck up your order because of that, do even try to get it corrected? cuase they could come back with the ""creme of some yung guy"". you know? you are what we call ""scarewed"". at that point you might as well just twist one off right in your own food cause that egg roll is goign to enter more holes than fingers at a bowling alley. but it is a small price to pay to have authentic chinese food. cat-pidgeon still tastes good to me.
+
+thats' all for now.
+tea bags for all! spread the news i'm  back!
+
+
+biaaaaaaaaaaatch"
+"eventtime","2004-06-21 09:57:00"
+"url","http://justownie.livejournal.com/4053.html"
+"userid","7747"
+"itemid","14"
+"event","soooo two posts, one day... not often, but this is worth it i guess.
+
+so i posted this on another dude's live journal today after i found out a couple things......
+
+""so your name is justin townsend too???
+
+i know this is going to scare you, but i have to say this. if you name is justin townsend, you share my same name as i. 
+
+maybe more scary is how you mention ""Iona Wonderwall"" in this February 25th post. coincidentally i went to Iona College in New Rochelle, NY.
+
+how did i find you and this info? well i was bored and randomly searched google for ""Justin Townsend Iona"" and this entry popped up. can you explain this iona wonderall to me and how weird this is, cause i don't think god would be able to.
+
+thanks..
+
+also check out my very non-similar livejournal at ""justownie"".
+peace""
+
+how weird is this... i'm waiting for a reply and will follow up.
+
+no jokes or funny stories this time. just this weird story."
+"eventtime","2004-05-27 21:20:00"
+"url","http://justownie.livejournal.com/3611.html"
+"userid","7747"
+"itemid","13"
+"event","a journal entry...
+
+couple thoughts..
+
+1) how does a deaf dude make an inquiry at a bank without getting the cops involved? seriuosly. no known bank teller knows sign language. think about it, the guy walks in and hands them a note with what he wants to say. upon the note being pulled out the whole line (with the exception of some guy at the end of the line pissed off) runs out of the building.
+
+2) is it possible to be jealous of a dog's gerth? i just saw this dog being walked on the side of the 102 and had to do a double take. this dog was HUGE. it's pretty sick, i know. come on though, that couldn't have been real. definitely post-op gerth. they had to have taken a jack-hammer from a horse and attach it to this dog. it was the side of it's head, my head, conan obrien's head.
+
+sorry bout #2, i've been thinking of it for about 10 minutes. it's really really bothering me. i'm scared.
+
+i'm gonna go cry myself to sleep..."
+"eventtime","2004-05-27 17:10:00"
+"url","http://justownie.livejournal.com/3345.html"
+"userid","7747"
+"itemid","12"
+"event","topic of the night... public restrooms. don't know why, just is. so sac up you tree huggers and get acquainted with some of these techniques to keep you busy without the newspapers and comic books you normally read in your own private bathrooms.
+
+1) tile floors in restrooms can be very dull, but for the simple mind VERY occupying. i sometimes sit there and try to figure out the definite pattern on the tiles. you know the floors i'm talking about right? with mostly white tiles, but with black tiles randomly placed. who does the random-black-tile-placing job? why? why can't we make a pattern? did that person start to do a pattern and screw up scattering black tiles randomly? these are the questions running through my head. that and how i could make a pattern out of the tiles by moving different tiles in different placed. 
+
+2) strength contest. i know it sounds pretty exotic, but wait... it gets better. this is a test of both endurance and performance... like a home run derby. if you're ever in a bathroom stall next to somebody droppin the ol' numero dos super sized, try this. the loudest wins, and the most creative wins. we all know what i'm talking about. when i was in the cafeteria at iona i would destroy anybody in the next stall. i'm talking extra splash, extra long noises. i did it all. when i got out of the stalls the look on the persons face was like getting a high five, a tip of the cap; basically anything but a pat on the ass becuase well.... try this game and you'll turn something disgusting, fun. turn the frown, upside down.
+
+i've got other ideas, i was just way too long winded there.
+
+see ya later suzy---"
+"eventtime","2004-05-24 23:43:00"
+"url","http://justownie.livejournal.com/3241.html"
+"userid","7747"
+"itemid","11"
+"event","def have a fan base... good thing, i like to work to a crowd.
+anyway keep reading, i've got alot of good ideas recently and hopefully the posting won't be a problem as it has been the past 4 times i've tried to post. 
+
+so the girls at ppac were bragging about tips the other day and i told them it was all because of their good looks, which is ultimately true (they aren't overly friendly). they insist it's their (earmuffs) boobs. this may be true, but i have two theories on this. the girl that said this def has A's. i have A's, maybe B's depending on how much i eat on a certain day. boston supper buffet will def give me C's. the second thing about this is i wonder if i had REAL boobs how much more tip money i would recieve. most people would be really grossed out by a guy having jugs.
+
+... this next one... oh man... how do i start this...
+
+so im taking a shit the other day (gotta love bluntness; smokers don't get excited), and i hear the guy in the stall next to me start unrolling the toilet paper to put over the seat to prevent all those funloving ass-blister diseases. well, since the toilet is primarily one of favorite places to think i was wondering if he was just being considerate, not preventative. ya you heard me. from now on when i hear people putting down the paper i'm gonna tell them i appreciate what they're doing. everytime i see those dispensers with the little liners i'm gonna tag it up. ""please use this: i don't want your ass-craters. thanks--"". it's always good to feel appreciated, so i'm sure they'll appreciate people looking out for them.
+
+yep i'm out,
+nighty night, keep your butthole tight,
+
+--townie"
+"eventtime","2004-05-23 10:29:00"
+"url","http://justownie.livejournal.com/3010.html"
+"userid","7747"
+"itemid","10"
+"event","you thought this would be a sports post? oh hell no. this is as non-sports as a spelling bee. i'll get back to spelling in a second.
+
+this post is why racial slurs are funny. why are we all offended by them? sure, if meant in haste, yes, they can be durogatory in some way, but they are just words. everytime a black comedian gets out there he talks about white people this and white people that. well what the hell, if they can do it, i can do it.
+
+imagine if we could all use whatever vernacular we wanted in a day? man, george carlin would look tame compared to some people. cause he's filthy cause he doesn't care, but we all know at least 2 people who are filthy human beings and just care, but if they could speak their mind, carlin would start foaming at the mouth, and ass... at the same time.
+
+i def thought today in my car, while looking at a bumper sticker that said ""i support the narragansett indians"", of making my own bumper stickers. it's true. they'll DEF read, ""those narragansett redskins can lick my sweaty balls"". and i have totally nothign against indians. i'd just think it'd be funny to do. imagine the looks on some faces, preferably non-redskin faces.
+
+speaking of indians or people from india. how bout those guys? i was watching the spelling bee in a bar because quote, ""it's the only sports on tv"", end quote, as the bartender put it. so i decided to watch and noticed every single person was a hindu. then they show their names and i don't know if it's their name or the word they have to spell. no wonder why they're so good at spelling...
+
+we all know two people that would speak this freely, i might be one of those people one day... or today..."
+"eventtime","2004-05-05 22:39:00"
+"url","http://justownie.livejournal.com/2757.html"
+"userid","7747"
+"itemid","9"
+"event","so i go to reply to the chuckleheads who commented on my last post and i have to read this:
+
+Please confirm you are a human below.
+
+are we at this stage yet? where i have to type in a little box to confirm i'm a legit person? this is semi-rediculous. i couldn't even post under my own user name. i have to really post anonymously on my own floggin journal. let me adjust my comments earlier: this is rediculous. am i a human? no i'm a alien who has been taught specifically how to comment on other people's, ayyyy, earthling's jorunals? now i agree, reading some people's/earthling's journals and actually comment might make even the computer believe some people just are NOT in touch with reality. i understand this. but my OWN journal. there's something wrong here.
+
+also, what 80 year old woman thinks of picking up a hamburger and small fry at 9:55pm at beef barn? cause it happened tonight and i'm sorry, but if this lady happens to be somebody's grandmother and i meet her on your account, she might get drowned.
+
+9:55. rest in peace."
+"eventtime","2004-05-03 23:59:00"
+"url","http://justownie.livejournal.com/2442.html"
+"userid","7747"
+"itemid","8"
+"event","been a while huh? well i know ALL (= 3 to 4) of you who read this have been lost without these entries so i'm gonna give one today on the spot.
+
+i went to new york this weekend and while nothing REALLY stuck out while i was there, i figured i'd rant about driving there and back. first, connecticut... where do they get off saying they're great drivers? when i pass the ""welcome to connecticut"" sign immediately i see speed limit signs and one particular sign that read ""Conn. state law: use blinkers when changing lanes. STRICKLY ENFORCED."" Now. the untrained, unexperienced driver would think, i'll be safe in this state; they strickly enforce. half hour into the 3 hour drive through connecticut, not one blinker used besides mine. do they actually stop people? also, are there any cruisers to pull people over? if that's the case i'm gonna go 2000 mph and never use my blinker. another thing, using the blinker is a fundamental thing, it's the first thing i learned besides break left, gas right. then it was down-left, up-right.  but of course, you can't teach fundamentals.
+
+other thing i can think of is this morning when i was going to dunkin donuts. we can't live without this shit in RI. it's like church over there, honestly. it's a bit of a stretch, but people are really really  really focused on just getting coffee and getting out. it's very very strange at 6 in the morning over there. very strange."
+"eventtime","2004-05-03 12:44:00"
+"url","http://justownie.livejournal.com/2254.html"
+"userid","7747"
+"itemid","7"
+"event","i woke up about 5 times last night, without being pissed off that i woke up; instead i woke up laughing at my dreams. only thing bad is everytime i woke up i said to myself ""write it down"" in which case before i could get to a pen i fell back asleep forgetting the dream. what a waste.
+
+anyway, i just took a shower and thought about the correlation between God and a bar of soap. God like a bar of soap cannot be affected by the germs of everybody else, can't even be associated with it. i know it's deep but keep reading. as much as people would like to think sharing a bar of soap with your companion out on a trip to vegas cause you forgot your bar of soap is disgusting, you're not going to get any diseases. just share the soap. the soap is cleanliness in and of itself. your dirty ass cannot affect the bar of soap. now i know some people think that sharing anything that goes in the private areas of other people is absolutely off limits. disregard this with soap. soap is meant to help you, not harm you. then you have people that ask the question, ""do you wash your ass with that soap?"". this question is like that ol' joke back in middle school, ""do your parents know you're gay?"" you're stuck. it's a trick question. in one case you say you don't wash your ass, then you're the smelly kid with little stink nuggets in your ass. the other case you're the pervert who slides the soap in and out like an ATM card getting yourself off. either way you're screwed. so in the end. just remember to bring your soap anyway even though you're still gonna share it with either a stinky ass or perv...
+
+okay i went from god to ATM card in one magical analogy. i'm doomed."
+"eventtime","2004-04-28 12:26:00"
+"url","http://justownie.livejournal.com/1844.html"
+"userid","7747"
+"itemid","6"
+"event","well today i had really good thoughts on tonight's post but forgot to write them down. too bad cause they were good. so tonight i'm going to share an idea or little bit i had thoguht up a while back.
+
+it's about the correlation between being an alcoholic and old people. some see alcoholics as losers, but i see them as aspiring old people. first, they have no ambition if any; and whatever ambition that is they just drank. second old people get alzheimers and stuff so they might not remember things about 5 minutes ago, from yesterday or who they slept with the night before. sound like somebody you know? third, some old people have no care for who they're talking to and just let out all types of profanity. when they were younger thoguh they probably were really kind and caring people. now they just don't give a damn. same thing with alcholics. they might not be the most kind people around when they're drunk, but you know they'll always apologize for the piss stains on your carpet the next morning."
+"eventtime","2004-04-27 23:09:00"
+"url","http://justownie.livejournal.com/1699.html"
+"userid","7747"
+"itemid","5"
+"event","if i ever wrote a book it'd probably be entitled ""things i wish i could do"", just so all my pretty sick ideas could be copyrighted. whenever somebody thinks they're doing somethign completely screwed up and ends up being in my book, not only will they get sued, but actually feel even dumber than they did before they did it, cuase it just cost them money. things like the last journal entry would be in there; with the red light story. you know what i'm talking about.
+
+another thing that would go in there: my best prank ever. of course, i would never do this, but it's still funny to think about. okay okay... your next halloween party ask somebody to bob for apples right? BUT here's the catch. have steaming hot water. just hot enough where it won't scar, nearly burn the opponent and will be unnoticed by the untrained eye. i know it's pretty cruel, but just think about the look on that person's face as he/she comes up from the worst surprise. oddly enough i get the giggles everytime i think of the look on the person's face. of course, this is just something i ""wish"" i could do."
+"eventtime","2004-04-27 00:32:00"
+"url","http://justownie.livejournal.com/1330.html"
+"userid","7747"
+"itemid","4"
+"event","just just just watched basketball diaries; you know, the one with leonardo dicrapio. a golden movie. leo put in an absolutely fabulous performance, and that hair! to die for. just kidding. he did well though, often i got his character a little misconstrued with that of his in the titanic. ok so i thought his good acting was due to good amount of herion in the titanic. he got hooked during basketball diaries and continued that throughout his career. next time you watch any of his other movies, you'll laugh and then call me a genius. 
+
+before i end this entry i just wanted my audience to imagine this...
+
+i'm at a stoplight in lincoln. red light. i'm stopped. also at the intersection immediately across from me, going in the opposite direction, ALSO stopped at a the same exact light: a lincoln police officer. i peel out in a fit with heavy metal music blaring, going right through the red light. he turns on the sirens and i immediately stop. comes up and says ""why the hell i would do such a thing?"" in which i reply, ""i just wanted to see if you would pull me over. i'm doing a survey on how good the police are in rhode island."" 
+
+now... imagine the dumbfounded look on that cops face. now imagine the look on my parents face after i tell them the story..."
+"eventtime","2004-04-26 03:52:00"
+"url","http://justownie.livejournal.com/1182.html"
+"userid","7747"
+"itemid","3"
+"event","i'm going right into it tonight...
+
+first i was thinking of what american idol would be like if it was the rock star lifestyle instead of pop star lifestyle that they were looking for. mad drugged out punk rockers would go out for it wasted in auditions and be actually taken to hollywood. also imagine all the future william hungs out there that would get absolutely hammered and try singing ""sweet child o' mine"" just like axl rose. that'd be somethign else. of course you can anywhere with this bit. just thinking about it makes me chuckle a little on the inside.
+
+next idea i had was of getting a gun. i know i joke about woonsocket and my former neighborhood, but at least i slept like a rock there. i stay up a little later nowadays, and i get woken up every morning. i know it sounds drastic to get a gun but there were never birds outside of my window waking me up in woonscoket. pissed me off! oh it's 6? perfect time to get up and go to HIGH SCHOOL! bang bang! no more chirping outside my window. at least the drunk asses that lived behind me and all around my house in woonsocket were half dead, passed out, or arrested by the time i decided to go to bed. the birds wait until the morning and chirp rhythmically every 2 seconds as if waking me up wasn't bad enough, now i have to listen to the most annoying sound with little delays in between each chirp. is the bird done? maybe this is the last chirp? nope! and it keeps on going till i'm fully awake and feel like tying a rope around my neck and kicking the chair out from under my feet. a gun would def solve this problem. all it takes is one shot. then i'll wrap the gun up and sell it on ebay. that's it. just one shot. then all the birds will shit allllllll over the expensive cars on my street..."
+"eventtime","2004-04-24 00:30:00"
+"url","http://justownie.livejournal.com/772.html"
+"userid","7747"
+"itemid","2"
+"event","so i went to the doctors today and to make a long story short. i was ""diagnosed"" with patella tendinitis or as my doctor called it ""jumpers knee"". i already said this in my profile, but i have to elaborate a little bit more. why is it that when i was in high school and ran i had what doctors called ""runners knee"". he, my doctor, was the same doctor as before so he probably doesn't remember that he told me this and he tells me i had jumpers knee now that i play basketball instead of run. what if was running, would i have runners knee? what if i skated? would i have skating knee? also, is this lingo just complete bullshit all doctors use when they know what the christ they're talking about? i just thoguht it was funny how the terminology quickly changed when i changed sports.
+
+also worth noting is that after when i went for x-rays i noticed a sign that said turn off all cell phones upon entering the room. i ask the lady anyways, should i turn off my cell phone? no, tha'ts okay. sure lady, when my buddy list ends up in the x-ray of my knee and my head instantly grows a tumor in my head as big as my... well you get the point...  come to think about it, i think i'm getting a headache right now..."
+"eventtime","2004-04-22 23:59:00"
+"url","http://justownie.livejournal.com/764.html"
+"userid","7747"
+"itemid","1"
+"event","slightly homosexual? nahh...
+
+okay here's the story; short and abridged as everyone would expect from me. i was typing out my paper on diversity when an hour in, or 4 pages, i decided to click through 90 profiles on AIM. through the process i noticed 85 have livejournals. so for the first time i've been inspired to copy down my life's intricacies; oh how many. somehow i'll just be encorporating some pertinany ideas from the day and possibly material for my possible future occupation, to be a comedian. most of the stuff with just be random thoughts about life and hardly worth your time, but will undoubtly still consume it. thanks and hope to see comments nearly everyday.
+
+btw the dollar menu still rips you off,
+townie"
+"eventtime","2004-04-22 12:46:00"
+"url","http://justownie.livejournal.com/499.html"
+"userid","7747"

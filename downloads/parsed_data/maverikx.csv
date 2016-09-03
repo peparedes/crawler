@@ -1,0 +1,787 @@
+"names","values"
+"itemid","45"
+"event","SSBrbm93IHRoYXQgdGhpcyBibG9nIGlzIHN1cHBvc2VkIHRvIGJlIGRlYWQuIEkgYWxzbyBrbm93IHRoYXQgSSB3aWxsIGxpa2VseSBnZXQgYSBsb3Qgb2YgZmxhayBmcm9tIHRoaXMgcG9zdC4gSG93ZXZlciwgSSBtdXN0IHB1dCBpdCBvdXQgdGhlcmUuIEnigJl2ZSBvbmx5IHNoYXJlZCB0aGlzIHdpdGggVHlsZXIsIGFuZCBJIGZlZWwgdGhhdCBJIG11c3QgcHV0IHRoaXMgZmVlbGluZyBlbHNld2hlcmUuDQoNClhhc3QgaXMgZGVhZC4gV2hvb3AgZGUgZnVjay4gSeKAmW0gbm90IHN1cnByaXNlZC4gSeKAmW0gbm90IHNhZC4gSeKAmXZlIGJlZW4gdHJ5aW5nIGZvciBkYXlzIG5vdywgYnV0IEkgY2Fu4oCZdCBzZWVtIHRvIG1ha2UgbXlzZWxmIGNhcmUgYWJvdXQgdGhlIG1hbiB0aGF0IGp1bXBlZCBvZmYgb2YgYSBidWlsZGluZy4gU28sIHRoaXMgaXMgZ29pbmcgdG8gYmUgbXkgZW1vdGlvbmFsIHJlYWN0aW9uIGZvciBub3cuDQoNCldoZW4gSSByZWFkIHRoZSBmaXJzdCBlLW1haWwsIG15IHJlYWN0aW9uIHdhcyBhIG1peHR1cmUgb2Yg4oCcaXTigJlzIHNvbWUgZWxhYm9yYXRlIHNjaGVtZeKAnSwg4oCcaXTigJlzIGEgbWlzdGFrZeKAnSwgYW5kIOKAnGl04oCZcyBhYm91dCB0aW1lIGhlIHNuYXBwZWQu4oCdIEkgdGhlbiB3ZW50IG9uIHdpdGggbXkgZGF5LiBUd28gb3Igc28gaG91cnMgbGF0ZXIsIEkgaGVhcmQgdGhhdCBUeWxlciBoYWQgcmVjZWl2ZWQgdGhlIHNhbWUgZS1tYWlsLiBHcmVhdC4gQ291bGQgc3RpbGwgYmUgYSBwcmFuay4gTm90IGxvbmcgYWZ0ZXIsIEkgZ290IGEgY2FsbCBmcm9tIGFuIGVtb3Rpb25hbCBDYXR3LiBTaGUgaGFkIHJlY2VpdmVkIGEgY2FsbCBmcm9tIGFub3RoZXIgcGFydHkgYW5kIHdhcyB3b25kZXJpbmcgaWYgaXQgd2FzIHRydWUuIEkgcmVhZCBoZXIgdGhlIGUtbWFpbCwgYW5kIHNoZSBicm9rZSBkb3duIGNyeWluZy4gQ29uZmlybWF0aW9uIGNvbWVzIGxhdGVyIGluIHRoZSBkYXkuIEJ5IHRoaXMgdGltZSwgSSBoYXZlIHRvbGQgRW1pbHksIGFuZCBzaGUgaGFzIGhhZCBoZXIgcmVhY3Rpb24uIEkgc3RpbGwgaGF2ZW7igJl0IHNoZWQgYSB0ZWFyLiBXb3JkIGdldHMgYXJvdW5kLCBJIGdldCBjYWxscyBmcm9tIG1hbnkgZGlmZmVyZW50IHBlb3BsZS4gTGF0ZXIgdGhhdCBuaWdodCwgSSBnbyBoYW5nIG91dCB3aXRoIFR5bGVyLCBUeWxlcuKAmXMgZ2lybGZyaWVuZCwgYW5kIFdhYmFzaCAoYSBoaWdoIHNjaG9vbCBmcmllbmQgb2YgaGlzKS4gVGhleSBhcmUgYWxsIGRydW5rLiBJIGhhdmUgb25lIGNlcmVtb25pYWwgZHJpbmsgKHB1dHMgbWUgYXQgc2l4IGxpZmV0aW1lLCBvbnRvIG15IHNlY29uZCBoYW5kLCBoZSB3b3VsZCBoYXZlIGVuam95ZWQgdGhhdCkuIFdlIHRhbGsgYWJvdXQgaGltLCBJIG1vc3RseSBsaXN0ZW4uIFRpbWUgaGFzIHBhc3NlZCwgSSBmb3VuZCBvdXQgeWVzdGVyZGF5IHdoZW4gdGhlIGZ1bmVyYWwgc3R1ZmYgaXMgZ29pbmcgb24uIEnigJl2ZSBkZWNpZGVkIHRoYXQgSeKAmW0gZ29pbmcgdG8gdGhlIHdha2UgZm9yIGEgaGFsZiBob3VyIGJlZm9yZSB3b3JrIGFuZCBza2lwcGluZyB0aGUgZnVuZXJhbC4gSSB3YXMgZ29pbmcgdG8gZ28gdG8gYm90aCwgYnV0IEnigJl2ZSBkZWNpZGVkIGFnYWluc3QgaXQuDQoNClRoZSB0aGluZyB0aGF0IG1ha2VzIG1lIGFuZ3J5IGlzIHRoYXQgc28gbWFueSBwZW9wbGUgYXJlIGJyb2tlbiB1cCBvdmVyIHRoaXMuIEkgYW0gYW5ncnkgYXQganVzdCBhYm91dCBldmVyeW9uZSBpbnZvbHZlZC4gTWVsLCBEb20sIEFsbHksIENhdHcsIGFuZCBlc3BlY2lhbGx5IEVtaWx5IChiZWNhdXNlIEkgYW0gY2xvc2VzdCB0byBoZXIpIGFyZSBleGVtcHQgZnJvbSBteSBhbmdlciBmb3IgYSByZWFzb24gSSB3aWxsIGV4cGxhaW4gaW4gYSBtb21lbnQuIEkgYW0gYW5ncnkgYXQgaGltIGJlY2F1c2UgaGUgZGlkIHRoaXMgdG8gZXZlcnlvbmUuIFBhcnQgb2YgbWUgdGhpbmtzIGhlIGhhZCB0byBrbm93IGhvdyB0aGlzIHdvdWxkIGFmZmVjdCBwZW9wbGUsIGJ1dCBhbm90aGVyIHBhcnQgb2YgbWUgdGhpbmtzIHRoYXQgaGUgd2FzIGluIGhpcyBvd24gd29ybGQsIGFzIGhlIGZyZXF1ZW50bHkgd2FzLiBJIGFtIGFuZ3J5IGF0IGV2ZXJ5b25lIGJlY2F1c2UgdGhleSBhcmUgZ2V0dGluZyBicm9rZW4gdXAgb3ZlciBhIG1hbi4gSGUgd2FzIGVjY2VudHJpYywgaGUgd2FzIGNyYXp5LCBhbmQgaW4gdGhlIGVuZCwgaGUgd2FzIHBzeWNob3RpYywgYnV0IGhlIHdhcyBzdGlsbCBhIG1hbi4gSGUgd2FzIHNwZWNpYWwgdG8gZXZlcnlvbmUsIGJ1dCBldmVuIEkgd2lsbCBhZG1pdCB0aGF0IGhlIHdvdWxkbuKAmXQgd2FudCB1cyB0byBkd2VsbC4gSSBrbmV3IGhpbSB3ZWxsIGVub3VnaCB0byBrbm93IHRoaXMsIGFuZCBJIHRoaW5rIG1hbnkgb3RoZXJzIGRpZCBhcyB3ZWxsLiBUaGUgb25seSBwZW9wbGUgSSBleHBlY3QgdG8gZHdlbGwgYXJlIHRoZSBhZm9yZW1lbnRpb25lZCBwZW9wbGUgd2hvIGhhZCB2ZXJ5IGNsb3NlIHJlbGF0aW9uc2hpcHMgd2l0aCBoaW0uDQoNClRoZSBsYXN0IHRpbWUgSSBwaHlzaWNhbGx5IHNhdyBoaW0sIEkgd2FzIGF0IHRoZSBnYW1lIHNob3AuIEkgY29uZnJvbnRlZCBoaW0gYWJvdXQgaG93IGhlIGhhZCBjaGFuZ2VkIGFuZCBob3cgSSB3YW50ZWQgbm8gcGFydCBvZiBpdC4gSGUgc2VlbWVkIHNhZCwgYW5kIGhlIGdhdmUgbWUgYSBmb2xkZWQgcGllY2Ugb2YgcGFwZXIgd2l0aCB3aGF0IEkgd291bGQgbGF0ZXIgZGlzY292ZXIgdG8gYmUgYSBzdHJhbmQgb2YgaGlzIGhhaXIgaW5zaWRlLiBBbmQgdGhlbiBJIGxlZnQuIFdlIGhhZCBzb21lIGJyaWVmIGUtbWFpbCBjb3JyZXNwb25kZW5jZSBhZnRlciB0aGF0LCBhbmQgdGhlbiBJIHN0b3BwZWQgdGFsa2luZyB0byBoaW0uIEhlIGZhZGVkIGZyb20gbXkgbWVtb3J5LCByZXN1cmZhY2luZyB3aGVuIEkgc2F3IHNvbWV0aGluZyB0aGF0IHJlbWluZGVkIG1lIG9mIGhpbS4gVGhlIHRob3VnaHRzIHVzdWFsbHkgd2VudCBzb21ldGhpbmcgYWxvbmcgdGhlIGxpbmVzIG9mIOKAnEkgd29uZGVyIHdoYXQgdHJpcHB5IGZhbnRhc3kgaGXigJlzIGxpdmluZyB0b2RheS7igJ0gQW5kIHRoZW4gSeKAmWQgZ28gYWJvdXQgbXkgYnVzaW5lc3MuIEhlIHdhcyBzbyBkaWZmZXJlbnQgZnJvbSB3aGVuIEkgZmlyc3QgbWV0IGhpbS4gU2/igKZleHRyZW1lLiBQZW9wbGUgY2hhbmdlLCBhbmQgbm90IGFsd2F5cyBmb3IgdGhlIGJldHRlci4gQ+KAmWVzdCBsYSB2aWUuIEkgZ290IG92ZXIgaXQgbW9yZSB0aGFuIGEgeWVhciBhZ28uDQoNCkNhbiBJIHNheSBJIHNhdyBpdCBjb21pbmcgaWYgSSBoYWRu4oCZdCB0aG91Z2h0IGFib3V0IGhpbSBpbiBtb250aHM/IEkga25ldyBhcyBzb29uIGFzIGhlIHN0b3BwZWQgdGFraW5nIGhpcyBtZWRzIHRoYXQgaXQgd2FzIGluZXZpdGFibGUuIEhpcyBzbmFwcyBmcm9tIHJlYWxpdHkgd2VyZSBtb3JlIGZyZXF1ZW50LCBtb3JlIGphcnJpbmcuIEhlIHN1ZmZlcmVkIHRoZSBzYW1lIG1vb2Qgc3dpbmdzIEkgZG8gd2hlbiBJ4oCZbSBvZmYgbXkgbWVkcy4gSSBrbm93IHRoYXQgc3RhdGUgb2YgbWluZC4gWW91IGNhbiBkbyBhbnl0aGluZywgeW914oCZcmUgaGFwcHksIGFuZCB0aGVuIHlvdSBzdWRkZW5seSBzbmFwIGJhY2sgdG8gcmVhbGl0eSwgbGlmZSBzdWNrcywgYW5kIHlvdSB3YW50IHRvIGRpZS4gU29tZXRpbWVzLCB5b3UgYXJlIGNvbnRlbnQgYW5kIHdhbnQgdG8gZGllIGFueXdheS4gU29tZSBvZiBteSBzdWljaWRhbCB0aG91Z2h0cyBjYW1lIHdoZW4gbm90aGluZyB3YXMgaW5oZXJlbnRseSB3cm9uZyB3aXRoIG15IGxpZmUuIEkgd291bGQgc21pbGUgY29udGVudGx5IGFuZCBwbG90IG15IHN1aWNpZGUsIG1heWJlIHRocm93aW5nIGluIGEgaG9taWNpZGUgb3IgdHdlbHZlIHRvIGdvIHdpdGggaXQuIE15IHBlZXJzIHdlcmUgZnJlcXVlbnQgdGFyZ2V0cywgcGVlcnMgd2hvbSBJIGhhdGVkLiBCdXQgSSBkaWdyZXNzLg0KDQpIZSBjYWxsZWQgbWUgYSBicm90aGVyIG9uY2UuIEkgY2FsbGVkIGhpbSB0aGUgc2FtZS4gTGF0ZXIsIEkgd291bGQgcmVub3VuY2UgdGhhdCB0aXRsZS4gSSBubyBsb25nZXIgY29uc2lkZXIgbXlzZWxmIHJlbGF0ZWQgdG8gaGltIGF0IGFsbCwgbm9yIGFueW9uZSBlbHNlIGluIHRoZSDigJxicm90aGVyaG9vZC7igJ0gSXQgd2FzIHJlYWxseSBqdXN0IGEgbW9yZSBwZXJzb25hbCBjdWx0IGFueXdheS4gSSBuZXZlciBmaW5pc2hlZCDigJxTdHJhbmdlciBpbiBhIFN0cmFuZ2UgTGFuZC7igJ0gSSBwbGFuIHRvIGJ1cm4gbXkgY29weSBhbmQgbGVhdmUgaXQgdW5maW5pc2hlZC4gSGUgYm91Z2h0IGl0IGZvciBtZS4gSXQgaXMgb25lIG9mIGhpcyBsYXN0IGNvbm5lY3Rpb25zIHdpdGggbWUuIFNvb24gaXQgd2lsbCBiZSBnb25lLg0KDQpJbiB0aGUgcGFzdCB3ZWVrLCBJIGZpbmQgbXlzZWxmIGZvcmdldHRpbmcgdGhhdCBoZeKAmXMgZGVhZC4gSSBpbWFnaW5lIHRoYXQgSSB3aWxsIGVpdGhlciBicmVhayBkb3duIGZvciB0aGUgZmlyc3QgdGltZSBhdCB0aGUgd2FrZSBvciBsZWF2ZSBpbiBhIGJvdXQgb2YgYW5nZXIuICBFaXRoZXIgd2F5LCBJ4oCZbGwgYmUgcHJlcGFyZWQuDQoNClhhc3QsIHlvdSBtYW5pcHVsYXRpdmUgYmFzdGFyZDogcmVzdCBpbiBwZWFjZS4gSSB3aWxsIG5vdCBtaXNzIHlvdSwgSSB3aWxsIG5vdCBtb3VybiB5b3UuIEkgbWF5IG5ldmVyIGhhdmUgd2lzaGVkIGRlYXRoIHVwb24geW91LCBidXQgaXQgaGFwcGVuZWQgYW55d2F5LiBJIGp1c3QgaG9wZSB0aGF0IHdoZW4gdGhpcyBpcyBhbGwgb3ZlciwgSSBtYXkgZmluYWxseSBwdXNoIHlvdXIgbWVtb3J5IG91dCBvZiBteSBtaW5kLg=="
+"eventtime","2009-04-03 00:01:00"
+"current_moodid","114"
+"url","http://maverikx.livejournal.com/11573.html"
+"userid","9754"
+"itemid","44"
+"event","I have reached the conclusion, after reading many blog posts from both friends and people whom I have never met (thank you letter graveyard) that I will be giving up blogging. If my blogs are as emo as everything else I've read, I want no part in that. Seriously, there's some emo shit out there.
+
+Now, I'm not saying to stop. I'm just saying I personally have stopped caring about many of my friends' online lives. That doesn't mean I don't like you, it just means that I can't stand what you're like online and/or when you blog. Seriously, holy shit. It would be better if you could just be emo in real life. Also, this isn't directed at any person in particular, but rather to a couple of people (ok, basically all of my LJ friends, and the entirety of letter graveyard).
+
+Here's my conclusion that I'm drawing from all of this: all of this emo blogging shit is bringing my mood down, so I'm laying off the blogging thing (both reading and writing) for a while. LJ is being deleted from my bookmarks, and I'm going to get rid of all comment e-mails in my inbox. If you have something important to say to me, call me, or at least e-mail me.
+
+Yes, I understand that this blog could be read as emo, but that's the reason I'm not blogging anymore. If I want to rant, I'll rant to someone in person so they can give me actual feedback.
+
+That is all."
+"eventtime","2008-08-05 22:55:00"
+"url","http://maverikx.livejournal.com/11275.html"
+"userid","9754"
+"itemid","42"
+"event","http://www.newgrounds.com/portal/view/441926
+
+The best fansub of a Naruto episode ever. If you know who did ""Metal Gear Awesome"" and such, he did this too, so it's that brand of humor.
+
+That is all."
+"eventtime","2008-07-18 00:11:00"
+"current_moodid","44"
+"url","http://maverikx.livejournal.com/10885.html"
+"userid","9754"
+"itemid","41"
+"event","QXQgdGhpcyBwb2ludCBpbiB0aW1lLCBJIGFtIHJhdGhlciBzaWNrIG9mIHBlb3BsZSB3cml0aW5nIGJsb2dzIGFuZCBpbmNsdWRpbmcgc29tZSB1bmRlcmx5aW5nIG1lc3NhZ2Ugb3IgcGhpbG9zb3BoeSwgc29tZSBncmVhdCBwaWVjZSBvZiB3aXNkb20gdGhleSBmZWVsIHRoZXkgbXVzdCBzaGFyZS4gVGhpbmdzIGxpa2UgImJlIHlvdXJzZWxmIiBhbmQgImxpdmUgZm9yIHRoZSBtb21lbnQiIGFuZCBvdGhlciBzdWNoIGNsaWNow6lzLiBDdXJyZW50bHksIEkgZG9uJ3QgY2FyZSBob3cgbXVjaCB0cnV0aCB0aGV5IG1heSBob2xkLCBJJ20gc2ljayBvZiByZWFkaW5nIGEgYmxvZyBhbmQgZ2V0dGluZyBwcmVhY2hlZCBhdC4gVGhpcyBhbHNvIHNlZW1zIHRvIGJlIGEgdHJlbmQgYW1vbmcgbXkgZnJpZW5kcyBhbmQgb3RoZXIgZW1vIHBlb3BsZSAobm90IHNheWluZyB0aGF0IGFsbCBvZiBteSBmcmllbmRzIGFyZSBlbW8sIGp1c3Qgc2F5aW5nKS4gSSdtIGZ1Y2tpbmcgc2ljayBvZiB0cnlpbmcgdG8gcmVhZCBhYm91dCBvbmUgb2YgbXkgZnJpZW5kJ3MgZGF5cyBhbmQgZ2V0dGluZyBoaXMgb3IgaGVyIHZpZXcgb2Ygc29tZSBkZWVwLCBwaGlsb3NvcGhpY2FsIHN1YmplY3QgYW5kIHdoeSBJIHNob3VsZCBhZ3JlZSB3aXRoIHRoZW0uIFRvIGJlIGZhaXIsIEkgaGF2ZSBkb25lIHRoaXMgaW4gdGhlIHBhc3QsIGFuZCB3aWxsIHByb2JhYmx5IGRvIGl0IGluIHRoZSBmdXR1cmUuIEhvd2V2ZXIsIEkgd2lsbCB0cnkgdG8gcmVmcmFpbiBmcm9tIGRvaW5nIGl0IGluIHRoZSAqbmVhciogZnV0dXJlLiBVbnRpbCB0aGVuLCBldmVyeWJvZHkgZWxzZSdzIHBoaWxvc29waGljYWwgdmlld3BvaW50cyBjYW4gZ28gZnVjayB0aGVtc2VsdmVzLiBJZiBJIHdhbnRlZCB0byBoZWFyIGl0LCBJJ2QgYXNrLg0KDQpOZWVkbGVzcyB0byBzYXksIEknbGwgYmUgcmVmcmFpbmluZyBmcm9tIHJlYWRpbmcgYmxvZ3MgaW4gdGhlIG5lYXIgZnV0dXJlIGR1ZSB0byB0aGUgYWZvcmVtZW50aW9uZWQgdHJlbmQuDQoNCkVkaXQ6IEFzIGEgZnJpZW5kIGhhcyBwb2ludGVkIG91dCBpbiBhbm90aGVyIGpvdXJuYWwgKGF0dGFjaGVkIHRvIHRoaXMpLCBwbGVhc2UgZG9uJ3QgZmVlbCBhcyB0aG91Z2ggeW91IHNob3VsZG4ndCB3cml0ZSB3aGF0ZXZlciB5b3Ugd2FudC4gSnVzdCBrbm93IHRoYXQgSSB3b24ndCByZWFkIGl0IGlmIGl0IGdvZXMgdGhhdCB3YXkuIFRoYXQgaXMgYWxsLg=="
+"eventtime","2008-07-06 16:59:00"
+"current_moodid","20"
+"url","http://maverikx.livejournal.com/10583.html"
+"userid","9754"
+"itemid","40"
+"event","I am a cruel, heartless, vindictive asshole. But only when I want to be. Tyler wrote a blog about Laura, how he made a promise to her to always be her friend, and such. He talked about how they were poison to each other, and then said something like ""doesn't mean I can't keep that promise to her. Doesn't mean you can't either."" I am taking that to be directed at me, even if it is not. I am not taking it as any kind of insult, I simply want to use it to point out my own shortcomings. When it comes to some things, I am cruel, heartless, and vindictive. Laura is one of those things. Tyler went on to say ""Don't let what happened between us cloud your judgement of her. She doesn't deserve that."" Honestly, I think she does. I think she deserves every bit of my hatred and loathing. She is worse than scum on a pond to me. At least that has a use. I am a person who will give and give and give and forgive and forgive and forgive, but only to a point. Granted, that point takes a lot of broken promises and ignorance and stupidity to reach, but once you reach that event horizon, there is no going back. I have had a few people reach that point with me. Chris is one of them. Sure, I still talk to him, but honestly, I don't trust him too much, nor do I trust much of what he says. Now, there's a difference between Chris and Laura. Chris had a lot more room to start with. I never really liked Laura. Technically, all of her bullshit pushed her over that line a long time ago, but I smiled and bore through it for Tyler. Now, they are no longer together, and I have no reason to be civil with her. Some people don't deserve what they have. Some people don't deserve a second chance. Period. I remember when she dumped him the first time. He was sad and depressed and crying when I picked him up. She looked at me with utter indifference, a look of ""I don't want him anymore, you take him."" I suppose that was the last straw with her. They were together for about another year after that.
+
+The point of this is to let everyone know that I am cruel and heartless and vindictive. I believe some people deserve things and others don't. People who don't shouldn't get any of my respect, nor should I care about their feelings or personal well-being. If you are undeserving of my respect, you are a tool to me, if I can even bear being around you. I am a judgmental asshole.
+
+I typed a letter to Xast a few nights ago, and hesitated to send it. In this letter, I tell him that I can no longer be his friend and that I do not consider myself a brother to him. I hesitated to send it because I wasn't sure if I really wanted to burn that bridge. However, last night I couldn't sleep because it was weighing on my mind. It then occurred to me that I was hesitating for the wrong reasons. I didn't want to burn the bridge for fear of making trouble in another relationship of mine. Yet I could not sleep because I was wondering why I hadn't sent the letter if I couldn't stand the person in question. So, I thought, why let both burdens weigh on my mind. Why not be done with one and worry about the other when the time comes? I let my emotions for a third party get in the way of what's best for me in the long run. So, after I finish typing this, I'm sending that letter. Whether he goes quietly or decides to work his ways to ruin my life, I no longer care. I will be at peace knowing that I did what was best for me. He crossed that line, and there's no turning back from there."
+"eventtime","2008-06-15 22:52:00"
+"current_moodid","45"
+"url","http://maverikx.livejournal.com/10264.html"
+"userid","9754"
+"itemid","38"
+"event","Some people get to me all the time. Sometimes, there will be something about a person that is simply annoying. They are unbearable. Period. End of story.
+
+Others (and by others I mean everybody else) only get to me sometimes. They are generally good with a quirk or too, something mildly odd or eccentric. This blog is about those people. Actually, it isn't about all of them, just those who have a certain quirk. Knowing my blogs, this will become a blog about one person. Oh well.
+
+Followers.
+
+I'm not talking about the followers of a religion, or the followers of a charismatic figure (sometimes known as a cult, other times known as a revolution, etc.), or even the general term for those who do not lead (I am a big follower in that respect). I am referring to those who hear something and immediately take it as true.
+
+There are two levels of this. The obvious is the ""My mother's brother's cousin's roommate's uncle's parrot got sick and died, and they think it is a sign of the bird flu, so that's why I'm wearing a biohazard suit"" level. These are people who believe anything, and aren't afraid to let you know that the moon landing didn't happen because some guy on the street was yelling about it. That's just stupid. The less obvious are people who surf the internet too much and develop certain beliefs based on things they find there. People who believe that the moon landing actually is fake because there are dozens of web sites with solid proof that it was actually filmed in a Hollywood studio. These people usually only bother their friends with this kind of thing.
+
+I can already see who this is about, and I'm sorry, Xast. Just humor me and read the rest (although as I am typing this stream-of-thought style, I don't know exactly what is going to be next).
+
+I want to give an example of an otherwise smart individual who does this (I'll give you a hint: he's already been mentioned). The movie that he had me watch called ""Zeitgeist"" was interesting and made me think a lot. For the hell of it, here is the link:
+
+http://www.zeitgeistmovie.com/
+
+Before I get into this movie, I want to say two things. First, I am not a big fan of government in general. Government (at least our government) basically says that this guy that is physically no different from myself (i.e. made up of the same CHON--that's carbon, hydrogen, oxygen, and nitrogen for you non-science people--that I am made up of) has more power than I do. Ultimately, the reason he has more power than I do is because he has the socioeconomic status to back himself up. When's the last time you heard of a poor, uneducated man or woman elected to any position of power in this government. Uneducated, maybe. Poor, not likely. And why are they rich? Well, more often than not, they were born to rich parents who may also have held office. But I digress. Anyway, the second thing I want to say is about Zeitgeist. I liked the first part a lot. The reason I liked it will be more obvious in a minute, but it rang true to me is the reason in a nutshell.
+
+Now, here's where the followers get to me. Xast, you are my unfortunate example, and I mean no malice when I use you this way. I'm just sick of it.
+
+As I said, part one was good. The reason it was so good to me: I can verify everything in it. All of those religious facts are just that: facts. I can look in religious texts and find them. Part two was where it started to become a problem. The producers start throwing a bunch of random things at me and expect me to swallow them because of their research and interviewees. The trouble I have is this: I can't verify anything they say. They use interviews with people who claim a lot of things. I can't verify anything those people claim, nor can I verify that they are who they say they are. This troubles me. The thing that got me was when they claimed that there is no law stating that you have to file income taxes, and that the constitution may indeed say that taxes are illegal. This was pointed out by two ""lawyers."" The reason that this statement triggered alarm bells for me was simple history: Al Capone was not put in jail on gang related charges. They jailed him for TAX EVASION. People who know this have trouble believing people in nice suits telling them that you don't have to pay if you don't want to. And when I see my otherwise intelligent friends repeating it to waitresses at Denny's, it bothers me.
+
+Now, some may say that this stuff is verifiable, but the government is hiding the evidence (or some such statement). That's fine, but if you can't prove that the government is hiding the evidence, why should I believe YOU? It all comes down to the burden of proof.
+
+The ultimate irony in the Zeitgeist movie web page is the quote on the main page:
+
+They must find it difficult...Those who have taken authority as the truth rather than truth as the authority.
+--Gerald Massey
+
+They are using the quote to reference the government as the authority. The big bad government machine that everyone hates since Bush Jr. took office. What they don't seem to realize is that the quote works against them. In attempting to disprove the authority and show their ideas as truth, they offer witnesses and interpretations of events. The witnesses are an authority on what they saw. By believing them, we take their authority as truth. When we question their statements, they lose their authority and we have more room to see truth. If those people dressed nicely are not indeed lawyers but simply actors dressed nicely, they are not an authority, but rather posing as an authority, in which case their statement is not truth. By questioning their authority, we are better able to think for ourselves rather than take what we are given.
+
+Ultimately, it is a matter of trust. When my friend says that he saw a man hit by a car, he becomes an authority because he supposedly saw a man get hit by a car. Then, I can choose to trust him or not. If I know him and know that he is generally honest, I may trust him. If I know that he is often full of shit and likely to inflate stories, I'll smile, nod, and keep an eye on the news that night. When people appear on TV as witnesses to an event, they are an authority in a similar manner. Because we don't know them, we must take circumstance into account. If they are interviewed at the scene of the accident or event, or if they are a prominent figure (organizer of an event, known politician, etc), we are more likely to give them our trust. If they are a neighbor who head a gunshot late at night, they are less trustworthy (they may be making it up to get their fifteen minutes of fame). In my opinion, the lowest spot on the totem pole in terms of authority trustability is the documentary, especially the documentaries that are made by people like Michael Moore. Those documentaries are meant to be one-sided. ""I'm right and you're wrong."" And so on. However, people making those films have lots of time (and often resources) to make those films. They spend months editing their interviews and ""facts"" to make them tell their story, not necessarily the correct story. It is easy to imagine that the producers may hire actors to read a script. It may be a damning story implicating the government in countless crimes, but it's still a script. Ultimately, because of their controversial nature, we have less reason to trust the authority of a documentary ""expert."""
+"eventtime","2008-06-05 22:12:00"
+"url","http://maverikx.livejournal.com/9979.html"
+"userid","9754"
+"itemid","36"
+"event","<a href=""http://www.justsayhi.com/bb/fight5"" style=""display: block; background: url(http://assets.justsayhi.com/badges/154/444/fight5.bjele2emec.jpg) no-repeat; width: 296px; height: 84px; font-family: Arial, sans-serif; font-size: 42px; color: #fff; text-decoration: none; text-align: center; padding-top: 145px;"">24</a><p></p>
+
+The web site name says it all"
+"eventtime","2008-04-02 13:39:00"
+"url","http://maverikx.livejournal.com/9267.html"
+"userid","9754"
+"itemid","35"
+"event","Before I start, I should say that you should read my previous post entitled ""20 things."" It has nothing to do with this post, but I like it.
+
+Now, I feel that I should point out that I do not drink. Or smoke. Or do any kind of drug other than caffeine or stuff my doctor prescribes me. I don't know why, but I feel I should explain my reasoning.
+
+Smoking is obvious. Lung cancer for the lose.
+
+Alcohol is less so. I can (proudly) count the number of drinks I have had in my life on one hand. I would like to keep it to no more than the digits on my appendages (20 for those who don't want to count). Some may ask why. It's fun, it's a social thing, and it loosens you up, makes you feel good. Why would you avoid something that makes you feel good?
+
+There are several reasons. First, I have seen what my friends are like when they have been drinking, and it is nothing I would aspire to. I don't like the idea of not having control of myself. From my own personal experiences, I have seen that happen. Second, I have seen the long term effects of alcoholism, both on the individual and their family. Not pretty. Finally, I know my own personality. I am easily addicted to things like that. I would rather not personally defer to number two on this list.
+
+Let's move on to less legal substances, namely, marijuana. I have never smoked pot ever. Nor do I ever intend to, despite the desires of some. Some people see it as a liberation, freeing the mind. It's euphoric, makes you feel good and happy. Once again, the social aspect comes up. Why avoid something like that?
+
+First and foremost, legality comes to mind. I like my job and my school and my life as it is, and I'd rather not go to jail for something like that. Second, it is my understanding that your mind goes places it has never been before, you have awesome ideas, and you generally think interesting things. How could awesome ideas and a liberated mind be wrong or bad? Well, to me, it comes back to self control. As far as I'm concerned, those awesome ideas I get wouldn't be mine. They would be a side effect of the drug. Not natural. Not from me, but from the chemical. That does not appeal to me. If I'm going to get an awesome idea, it's not going to be a side effect of a chemical. No amount of personal experience or ""logical"" thinking will get me to see otherwise. I am firm on this issue.
+
+One other thing regarding this subject comes to mind. Should anyone knowingly spike my drink or otherwise trick me into taking something I do not wish to take (alcohol, drug, whatever), I will never forgive that person for what they would have done to me. Harsh, I know, but I am firm in my beliefs regarding these substances. I don't look down on them per say, nor do I think that they are bad things, I just don't think they are for me. Thus, I will never smoke anything, never take anything, and only drink on special occasions, and then only one drink. Period."
+"eventtime","2008-03-23 22:10:00"
+"url","http://maverikx.livejournal.com/9090.html"
+"userid","9754"
+"itemid","34"
+"event","I got this idea from a journal entry on DeviantArt. For the record, it is totally stolen, but the person I got it from stole it from someone else. Just sayin.
+
+Here, in no particular order, are 20 things I am thankful for.
+
+1. Art. Not just drawing, but art as a whole, i.e. drawing, painting, doodling, whatever. When I have trouble with life in general, I draw more. It's a therapy for me. It keeps me sane and creative, and I'm glad I have the talent that I do.
+
+2. Music. I enjoy listening to it, as well as making it on the piano (yes, I'm a pianist. A massive pianist, if you will). While it is not a major creative outlet for me (I don't write music, just play it), it is calming and often inspirational.
+
+3. Writing. I write for class a lot. It's my major. I plan to write for a living. But I still enjoy every bit of it, crafting words to suit my purpose, getting just the right meaning out of a sentence, coming up with a brilliant turn of phrase. I should write for fun a lot more, and I intend to when I am done with this semester's work.
+
+4. Fire. It is cleansing for me, and it can energize or balance or center me if I need. It is wild, free, and even the slightest spark can start a roaring inferno. It is the energy that I harmonize with.
+
+5. Rain. It is cleansing, and nothing beats a rainy day. It is always good to run around in the rain and enjoy life, not caring about being wet or catching a cold (which is part of life anyway, might as well enjoy what you have).
+
+6. The Internet. Even though (and possibly because) it has such features as 4chan, which can be vile and disgusting, it is a massively useful tool and an incredibly good time waster. Without it, no one would read this post because this post would not exist. We communicate at will over great distances almost instantaneously. That's saying something.
+
+7. Brothers. Life is so much easier when you have someone to help you when you're down and sit next to you in the jail cell going ""that was fuckin' awesome."" I don't know what I'd do without you guys sometimes.
+
+8. XAST. Dragged me, kicking and screaming, mind you, out of my shell. Without him, there would have been no Aust Berowitz, Malkavian Badass, because there would have been no Aust, 9th level Human Fighter. The Malkavian incarnation wouldn't have been the social whore he was without the help, however direct or indirect, of XAST.
+
+9. Tyler. We've been through lots together, and known each other for many years. I've been there for your shit, and you've been there for mine. We always help each other because we can and truly want to, not for superficial reasons. You've seen my worst, and you are still there for me. Thank you.
+
+10. Emily. You are a never-ending fountain of patience and understanding. You kept trying to reach out to me to keep the friendship going, even after it seemed that I would never speak to you again. You saw that I was torn about my decision, and you were willing to let me make it up to you.
+
+11. Strangers. Strangers are some of the nicest people in the world. Granted, many of them are cruel or uncaring, but never discount the kindness of a stranger. And don't forget: when a stranger does something nice for you, turn around and do something nice for another stranger. Spread the love.
+
+12. Comedy. Without these, the world would be a sucky place to live. Everyone needs to laugh. It makes live bearable. I recommend Jonathan Coulton, Tom Lehrer, and Da Vinci's Notebook.
+
+13. Wit. In a different category from comedy, wit is a reaction to and a cause of comedy. Someone says something funny, and someone else comes up with a witty retort off the top of their head. Everyone laughs twice.
+
+14. Employment. Without a job, I would be bored and have very little direction, never mind money. Always be happy at work, and don't gripe or complain. Find something to be cheery about. The way I see it, the people at my job are nice enough to keep me employed and keep paying me a decent wage. I should return the favor.
+
+15. School. Without school, I would be bored and have very little direction, never mind intelligent things to talk about. Without school, I would not learn so much every day. I am really going to miss going to school, but an actual career should help fill the void.
+
+16. Family. This is the biological type, mind you. My parents are awesome, and I love them very much. My sister, as much as we disagree, is awesome, and I love her very much. I know that they love me very much, too, and they have been with me my whole life, through thick and thin, as they say. My parents have always backed me in everything I do, and I have no way to repay them, although I'm sure they don't want to be repaid.
+
+17. Creativity. If I had no creative outlet, I would explode. It would not be pretty. Life is so much better when you can express yourself.
+
+18. Role playing games. Not video games, because those aren't role playing games. I'm talking about D&D and LARP. Everyone wants to be something that they are not. Why not bring that to life? Anyone can be pretty or rich or strong in an RPG.
+
+19. Insanity. Because the world needs to be crazy. If everyone were perfectly sane, this world would be boring and the suicide rate would be high. Do something to defy convention. Face the back wall of an elevator. Skip everywhere. Compliment strangers on their hair (you'd be surprised how far a compliment can go to make someone feel good). Just enjoy yourself.
+
+20. My continued existence. Every breath I take is a breath not taken from me.
+
+I encourage everyone to sit and think about 20 things that they are thankful for. Put it up here. Start a trend. Or not. But think about it, and it will make you realize how awesome the world is.
+
+************************
+
+On a side note, I read an interesting joke:
+
+The Energizer Bunny was found dead in his apartment today. Known as ""Pinky"" to his friends, he was known for his ability to keep going and going and going. Police estimate that he died sometime around midnight last night. The cause of his death was sexual overexertion. It appears that someone put his battery in backwards, and he just kept coming and coming and coming.scbool"
+"eventtime","2008-03-20 23:46:00"
+"current_moodid","101"
+"url","http://maverikx.livejournal.com/8747.html"
+"userid","9754"
+"itemid","33"
+"event","After a long time away doing school work and such other things, I return to post an idea I had, based loosely on a Dresden Codak comic:
+
+The only people that actually get into heaven are the people who have religious beliefs closest to the way things actually are. The result: agnostic heaven. Think about it. Considering God exists, he/she/it may find that people who believe that humans cannot know whether or not a god exists, much less understand him/her/it, are correct in their assumption, and thus earn their place in heaven. Everyone else burns in varying degrees of hell for all eternity.
+
+Here's the inspirational comic:
+
+http://dresdencodak.com/cartoons/dc_019.htm
+
+That's it for now."
+"eventtime","2008-03-09 21:21:00"
+"url","http://maverikx.livejournal.com/8671.html"
+"userid","9754"
+"itemid","32"
+"event","Well, at least this one isn't too dire.
+
+Recently, I have noticed that I can't get a word in edgewise with people. This has occurred on several occasions and with at least three people or groups of people. Let me give you an idea of how it works:
+
+There will be a conversation going on. I have something relevant to the conversation, be it a witty comment or a crucial piece of information. I will speak up in order to voice said comment. I manage to get three or four words out in a silent point before I am cut off by someone else. This often happens many times over the course of a few minutes, and most of the time I just give up after the fourth or fifth try. I'm not sure whether people just don't care about my opinion or whether I just need to be a stronger conversationalist.
+
+Most of the time, this happens in groups on a face-to-face basis. It often occurs with my friends at school, but it happens frequently with my friends Tyler and Laura as well, and sometimes with XAST (over the phone no less) when he is manic or has something particularly important to say. I'm not sure what to do with this, and it is getting on my nerves. Most of the time it happens in a group situation where people are talking to more than just me, but occasionally it happens in a one-on-one situation (that really gets to me). It makes me feel that my opinion doesn't count or isn't important, which I know isn't true. I know that I can discuss it with XAST, and Tyler and Laura shouldn't be a problem to deal with, but I'd appreciate advice on how to be heard in general situations like that, especially among people who may not be very close friends.
+
+Peace out yo.
+
+Matthew"
+"eventtime","2008-02-03 18:53:00"
+"current_moodid","6"
+"url","http://maverikx.livejournal.com/8325.html"
+"userid","9754"
+"itemid","31"
+"event","One insight into my thought processes:
+
+XAST and I were talking about Star Wars. Then, it shifted somehow into glow-in-the-dark condoms. My mind made this leap:
+
+http://www.leasticoulddo.com/comic/20060130
+
+Which led to this:
+
+http://www.c4vct.com/kym/humor/3nuns.htm
+
+Which finally resulted in this joke:
+
+A priest, who wanted to raise money for his church, was told there was a fortune in horse racing, and so he decided to buy a horse and enter it in some races. However, at the local auction, the going price for horses was so steep that he decided to buy a donkey instead. Although he had some doubts, the priest figured that he might as well enter the animal in a race just to see how it would do. To his surprise the donkey came in second.
+
+The next day the headlines read: PRIEST'S ASS SHOWS
+
+The priest was so pleased that he entered the animal in another race, and this time it won.
+
+The headline read: PRIEST'S ASS OUT IN FRONT
+
+The bishop was so upset with this kind of publicity that he ordered the priest not to enter the donkey in another race.
+
+The new headline read: BISHOP SCRATCHES PRIEST'S ASS
+
+This was too much for the bishop, and he ordered the priest to get rid of the animal. The priest gave the donkey to a nun in a nearby convent.
+
+The next day the headline read: NUN HAS BEST ASS IN TOWN
+
+The bishop, even less happy, told the nun that she would have to dispose of the donkey. After several days, the nun finally sold the beast to a local farmer for $10.
+
+The headline read: NUN PEDDLES ASS FOR TEN BUCKS
+
+The bishop fainted. He ordered the nun to buy the donkey back and release it into the wild.
+
+The headline read: NUN ANNOUNCES ASS IS WILD AND FREE
+
+They buried the bishop the next day.
+ 
+***
+
+Please note that this entire train of thought took less than a second. Thus is some insight into my mind. Scary, isn't it?
+
+Side notes:
+
+EMP--I am sorry I have not called you lately, and no, I haven't forgotten about you or acen. Life is very busy and I promise I will call in a day or two. Promise.
+
+XAST: This is the train of thought I was referring to on the phone, and the joke is complete here.
+
+Peace out yo.
+
+Matthew"
+"eventtime","2008-01-30 23:07:00"
+"current_moodid","44"
+"url","http://maverikx.livejournal.com/8149.html"
+"userid","9754"
+"itemid","30"
+"event","SSBoYXZlIHJlY2VudGx5IGRldmVsb3BlZCBhIHByb2JsZW0sIHNpbWlsYXIgdG8gYSByZWN1cnJpbmcgcmFzaCBvciBjaHJvbmljIGFydGhyaXRpcywgYnV0IG9uIGEgc29jaWFsIGxldmVsLiBTdWZmaWNlIHRvIHNheSB0aGF0IGxpZmUgaXMgaGVsbC4NCg0KRnJvbSB0aGUgYmVnaW5uaW5nOg0KDQpBcm91bmQgdGhlIHN0YXJ0IG9mIE9jdG9iZXIgb2YgJzA3LCBJIGRlY2lkZWQgdGhhdCBtZWRpY2F0aW9uIHdhcyBub3QgZm9yIG1lLCBhbmQgc3RvcHBlZCB0YWtpbmcgaXQuIFRoaXMgd291bGQgZW5kIHBvb3JseSwgYnV0IHRoYXQgY29tZXMgbGF0ZXIuDQoNClNob3J0bHkgdGhlcmVhZnRlciwgSSBidW1wZWQgaW50byBhbiBvbGQgZnJpZW5kIG9mIG1pbmUsIGEgZ2lybCBuYW1lZCBLYXJpbiAoZm9yIGFueW9uZSB3aG8gY2FyZXMsIGl0J3MgcHJvbm91bmNlZCBjYXItaW4sIG5vdCBjYXJlLWluKS4gS2FyaW4gd2FzLCBhdCB0aGUgdGltZSwgb24gaGVyIHRoaXJkIGdvLWFyb3VuZCB3aXRoIGhlciBleC1odXNiYW5kIEpheS4gU29vbiBhZnRlciBzZWVpbmcgbWUgYWdhaW4sIHNoZSBkdW1wZWQgSmF5LCBhbmQgYWZ0ZXIgYSBmZXcgZGF5cywgd2Ugc3RhcnRlZCBkYXRpbmcuIFRoaXMgd2FzIGR1cmluZyB0aGUgZmlyc3Qgd2Vla3Mgb2YgbXkgbm9uLW1lZGljYXRlZCBzdGF0ZS4gVGhpbmdzIHdlbnQgd2VsbCBmb3IgYSBsaXR0bGUgd2hpbGUuIE5lZWRsZXNzIHRvIHNheSwgaXQgd291bGRuJ3QgbGFzdC4NCg0KQWZ0ZXIgYSBmZXcgd2Vla3MsIEkgYmVjYW1lIGluY3JlYXNpbmdseSB1bnN0YWJsZS4gSSB3b3VsZCBiZSBtYW5pYyBhbG1vc3QgYWxsIHRoZSB0aW1lLCBhbmQgd2hlbiBJIHdhc24ndCBtYW5pYywgSSB3YXMgaW5jcmVkaWJseSBkZXByZXNzZWQgKGFzIGJpcG9sYXIgcGVvcGxlIGNhbiBiZSkuIFVuZGVyc3RhbmRhYmx5LCB0aGlzIHN0YXJ0ZWQgZHJpdmluZyBLYXJpbiBhd2F5LiBXZWxsLCBhZnRlciBhYm91dCBhIG1vbnRoIGFuZCBhIGhhbGYgb2YgaGVsbCwgbXkgZnJpZW5kcyBjb252aW5jZWQgbWUgdG8gZ28gYmFjayBvbiBteSBtZWRzLiBObyBzb29uZXIgaGFkIEkgZGVjaWRlZCB0aGF0IG1lZHMgd2VyZSBpbmRlZWQgZm9yIG1lIGFmdGVyIGFsbCwgS2FyaW4gZHVtcGVkIG1lIGZvciBKYXkuIEkgd2FzIGEgd3JlY2suDQoNCkZvciBhIGZldyB3ZWVrcywgSSBleHBlcmllbmNlZCB0aGUgcmVjZW50bHktY29taW5nLW9mZi1hLXJlbGF0aW9uc2hpcCB0aGluZywgYnV0IG1peGVkIHdpdGggYSBuZXcgbWVkaWNhdGlvbiwgdGhpbmdzIHdlcmUgYmV0dGVyIHRoYW4gdGhleSBjb3VsZCBoYXZlIGJlZW4uIFNvb24sIEkgaGFkIG1vdmVkIG9uLCByZXNvbHZpbmcgbm90IHRvIG1ha2Ugc3R1cGlkIG1pc3Rha2VzIGxpa2UgdGhhdCBhZ2FpbiAodGhlIG1lZGljYXRpb24sIG5vdCB0aGUgY2hvaWNlIGluIHBhcnRuZXIpLiBJdCB3YXMgSmFudWFyeSwgYW5kIEkgd2FzIGhhcHB5IChhbmQgc3RhYmxlKSBhZ2Fpbi4gVGhlbiBsaWZlIHdlbnQgdG8gaGVsbCBmb3IgdGhlIHNlY29uZCB0aW1lLg0KDQpPbmUgZXZlbmluZyBhIGZldyB3ZWVrcyBhZ28sIEkgZ290IGEgY2FsbCBhdCBhcm91bmQgMzowMCBhLm0uIHRoYXQgd29rZSBtZSB1cCAoY2hlY2tpbmcgbXkgcGhvbmUsIEkgc2F3IHRoYXQgSSBoYWQgbWlzc2VkIGVpZ2h0IGNhbGxzIGFuZCBoYWQgdGhyZWUgdm9pY2VtYWlscykuIEFsbCBvZiB0aGVtIHdlcmUgZnJvbSBhIGZyaWVuZCBvZiBtaW5lLCBMYXVyYS4gTGF1cmEgaXMgS2FyaW4ncyBvbGRlc3QgZnJpZW5kLiBUaGF0J3MgaG93IEkgaGFkIHNlZW4gS2FyaW4gYWdhaW46IHRocm91Z2ggTGF1cmEuIEZlYXJpbmcgdGhlIHdvcnN0LCBJIGNhbGxlZCB0aGVtIGJhY2suIEFzIGl0IHR1cm5lZCBvdXQsIEthcmluIGhhZCBnb25lIG92ZXIgdG8gTGF1cmEncyBhcGFydG1lbnQsIHByb2NlZWRlZCB0byBnZXQgZHJ1bmssIHRoZW4gZGVjaWRlZCB0byB0cnkgYW5kIGdldCBtZSB0byBjb21lIG92ZXIuIEFmdGVyIHRhbGtpbmcgdG8gVHlsZXIsIExhdXJhJ3MgZmlhbmPDqSwgaGUgcGVyc3VhZGVkIG1lIHRvIGdvIG92ZXIgdGhlcmUgdG8gdHJ5IGFuZCBoZWxwLiBIZSBjYW1lIGFuZCBwaWNrZWQgbWUgdXAgKHRoZXkgbGl2ZSB0d28gbWludXRlcyBmcm9tIG15IGhvdXNlKSBhbmQgSSB3ZW50LCBmZWFyaW5nIHRoZSB3b3JzdC4NCg0KVXBvbiByZWFjaGluZyB0aGUgYXBhcnRtZW50LCBJIGZvdW5kIGEgZHJ1bmtlbiBLYXJpbiwgd2FpdGluZyB0byBwcm9mZXNzIGhlciB1bmR5aW5nIGxvdmUgZm9yIG1lLiBTaGUgaGFkIHJlY2VudGx5IGR1bXBlZCBKYXkgZm9yIHRoZSBmb3VydGggdGltZSwgZGVjaWRlZCB0aGF0IGxlYXZpbmcgbWUgd2FzIHRoZSBiaWdnZXN0IG1pc3Rha2Ugc2hlIGhhZCBldmVyIG1hZGUsIGFuZCBnb3QgcmVhbGx5IGRydW5rLiBMaXF1aWQgY291cmFnZSwgcmlnaHQ/IEkgaGFkIHRoZSB1bmZvcnR1bmF0ZSB0YXNrIG9mIHRlbGxpbmcgaGVyIHRoYXQgSSBkaWRuJ3QgbG92ZSBoZXIgYW55bW9yZSwgYW5kIHRoYXQgZ290IGEgbG90IG9mIHRlYXJzIGFuZCBkcnVua2VuIGFwb2xvZ2llcyBhbmQgIkknbGwgYmUgZ29vZCJzIGFuZCB0aGUgbGlrZS4gQWZ0ZXIgYXdoaWxlIG1pbnV0ZXMsIHNoZSBmZWxsIGFzbGVlcCBsZWFuaW5nIG9uIG1lLCBhbmQsIGJlY2F1c2UgaXQgd2FzIHRoZW4gYWxtb3N0IDQgaW4gdGhlIG1vcm5pbmcsIEkgd2VudCBob21lLiBUaGUgZGF5IGFmdGVyLCB3ZSB0YWxrZWQgYnJpZWZseSB3aGlsZSBzaGUgd2FzIHNvYmVyLCBidXQgSSBkb24ndCB0aGluayBzaGUgYWNjZXB0ZWQgbXkgcmVqZWN0aW9uLg0KDQpUaGF0IGhhcyBiZWVuIG15IHBlcnNvbmFsIGhlbGwgZm9yIHRoZSBwYXN0IHdlZWtzLiBJIGhhdmUgdG8gcHV0IHVwIHdpdGggZmVlbGluZyBiYWQgZm9yIGJyZWFraW5nIGhlciBoZWFydCwgd2hpbGUga25vd2luZyB0aGF0IEkgZG9uJ3QgbG92ZSBoZXIgYW55bW9yZS4gSSdtIG5vdCBldmVuIHN1cmUgSSBsb3ZlZCBoZXIgaW4gdGhlIGZpcnN0IHBsYWNlLiBJIGhhdmUgd29uZGVyZWQgaWYgdGhlIHJlbGF0aW9uc2hpcCB3YXMgYSBmdW5jdGlvbiBvZiB0aGUgbGFjayBvZiBtZWRpY2F0aW9uLCBpZiBJIHdvdWxkIGhhdmUgZG9uZSBzdWNoIGEgdGhpbmcgd2VyZSBJIG1lZGljYXRlZC4gSSBoYXZlIGJlZW4gYXZvaWRpbmcgY2FsbGluZyBMYXVyYSBhbmQgVHlsZXIgZm9yIGZlYXIgb2YgS2FyaW4gYmVpbmcgcHJlc2VudCAodW50aWwgeWVzdGVyZGF5LCBJIGhhZG4ndCB0YWxrZWQgdG8gdGhlbSBpbiBvdmVyIGEgd2VlaykuIEkgaGF0ZSBmZWVsaW5nIHRoYXQgSSBoYXZlIGJyb2tlbiBhIGhlYXJ0LCBidXQgSSBrbm93IHRoYXQgSSBjYW4ndCBjaGFuZ2UgbXkgb3duIGZlZWxpbmdzIGluIHRoZSBzaXR1YXRpb24uIElmIEkgZ290IGJhY2sgdG9nZXRoZXIgd2l0aCBLYXJpbiwgSSB3b3VsZCBoYXRlIG15c2VsZiBhbmQgbm90IGVuam95IGxpZmUgdG9nZXRoZXIgd2l0aCBoZXIuIFN0YXlpbmcgYXBhcnQgaGFzIGNhdXNlZCBoZXIgdG8gY29uc3RhbnRseSBwdXJzdWUgbWUuIFRhbGtpbmcgdG8gTGF1cmEgeWVzdGVyZGF5LCBzaGUgdG9sZCBtZSB0aGF0IEthcmluIHN0aWxsIGFza2VkIGFib3V0IG1lIGV2ZXJ5IHRpbWUgc2hlIHNhdyBMYXVyYS4gVGhpcyB3b24ndCBnbyBhd2F5Lg0KDQpJIGRvbid0IGtub3cgd2hhdCB0byBkby4gSSBrbm93IEkgd2lsbCBub3QgZ28gYmFjayB0byBLYXJpbiwgYnV0IGl0IGlzIGRyaXZpbmcgYSB3ZWRnZSBpbiBteSByZWxhdGlvbnNoaXAgd2l0aCBMYXVyYSBhbmQgVHlsZXIuIEkgd2FudCB0byBjb25mcm9udCBoZXIsIGJ1dCBJIGFtIGFmcmFpZCBzaGUgd29uJ3QgYWNjZXB0IG15IGRlY2lzaW9uLCBvciB3b3JzZSwgdHJ5IGFuZCBoYXJtIGhlcnNlbGYgYXMgYSByZXN1bHQgb2YgaXQgKHNoZSBoYXMgYSBoaXN0b3J5IG9mIHN1Y2ggYmVoYXZpb3IpLiBJIGhhdGUgdGhpcyBmZWVsaW5nIG9mIGhlbHBsZXNzbmVzcy4NCg0KV2VsbCwgdGhhdCdzIG15IHN0b3J5LiBXaGF0ZXZlciBoZWxwIGNhbiBiZSBvZmZlcmVkIGlzIGFwcHJlY2lhdGVkLiBUaGFua3MNCg0KTWF0dGhldw0KDQpFZGl0OiBXZWxsLCBsaWZlIGlzIHNsaWdodGx5IGJldHRlciAoYnV0IG9ubHkgc2xpZ2h0bHkpLg0KDQpJdCB0dXJucyBvdXQgdGhhdCBLYXJpbiBoYXMgaGFkIGEgZmFsbGluZyBvdXQgd2l0aCBMYXVyYSwgc28gTGF1cmEgZG9lc24ndCByZWFsbHkgY2FyZSBob3cgSSBoYW5kbGUgdGhlIHNpdHVhdGlvbi4gR29vZCBuZXdzPyBIZWxsIGlmIEkga25vdy4gQ29tbW9uIHNlbnNlIGFuZCBjb21tb24gZGVjZW5jeSB0b3dhcmRzIGh1bWFucyBhcmUgdGhlIG9ubHkgdGhpbmdzIGtlZXBpbmcgbWUgZnJvbSBzY3JlYW1pbmcgbXkgaGVhZCBvZmYgYXQgS2FyaW4gaW4gYW4gZWZmb3J0IHRvIHNjYXJlIGhlciBvZmYgb3IgYnJlYWsgaGVyIGVudGlyZWx5LiBJIGtub3cgdGhhdCBJIHdpbGwgbmV2ZXIgaW50ZW50aW9uYWxseSBodXJ0IGhlciwgYnV0IGl0IHN0aWxsIG11c3Qgc3VjayBmb3IgaGVyIHRvIGxvdmUgc29tZW9uZSB3aG8gZG9lc24ndCBsb3ZlIHlvdSBiYWNrLg=="
+"eventtime","2008-01-28 14:30:00"
+"current_moodid","6"
+"url","http://maverikx.livejournal.com/7724.html"
+"userid","9754"
+"itemid","29"
+"event","I am kinda hyper, and kinda strange now. Make that very strange all the time. Oh well.
+
+Tonight: Random Ramblings!
+
+Tomorrow Night: Cat Spay-A-Thon!!!!!!!!!
+
+First, a Link!!!!!
+
+http://www.telisphere.com/~davidl/gaming/humor/beverage.htm
+
+This is a few pen and paper RPGs as they might translate into the alcoholic beverage world. Bear in mind that this is an old article.
+
+
+Next, another Link!!!!!!
+
+http://www.chaosmatrix.org/library/humor/reject.html
+
+Best. Rejection. Letter. EVER!!!
+
+
+Finally, MORE LINKS!!!!!
+
+http://rinkworks.com/said/
+
+Things people said. Fun shit.
+
+
+http://www.xs4all.nl/~jvdkuyp/flash/see.htm
+
+If your desktop went to war...
+
+
+http://www.velociraptors.info/
+
+They're out there...
+
+
+http://pascalcampion.com/door.swf
+
+Trippy.
+
+
+http://www.c4vct.com/kym/humor/evilreso.htm
+
+I will dress in bright and cheery colors, and so throw my enemies into confusion...
+
+
+http://www.plaidstallions.com/
+
+Why would you want to hear about the 70's? Oh, right. An endless supply of bad style jokes.
+
+
+http://www.dirtycarart.com/gallery/index.htm
+
+Some people have too much time on their hands...
+
+
+http://www.sjgames.com/illuminati/politics.html
+
+From Feudalism to Dictatorships to Surrealism, this list has it all.
+
+
+http://www.rinkworks.com/bookaminute/
+
+Want to read a classic but don't have time? Well, here's the solution!
+
+
+http://www.towelday.kojv.net/
+
+A tribute to the man himself. Always bring your towel!"
+"eventtime","2008-01-22 23:31:00"
+"current_moodid","44"
+"url","http://maverikx.livejournal.com/7469.html"
+"userid","9754"
+"itemid","28"
+"event","W00t!
+
+<div id=""testResultInfo"">
+      <h1><!--t-->Your Score<!--/t-->: <span>Luke Skywalker</span></h1>
+      <h2>You scored 84% wisdom, 36% aggression, 48% power,  and 76% morality!</h2>
+       <div id=""testResultInfoImg""><img src=""http://is2.okcupid.com/users/156/198/15719879104138658287/mt1118706750.jpg""></div> 
+      <p>
+      Last of the Jedi, you carry heavy burdens and have great potential. Your fighting prowess has only progressed so far, having started your training later in life, but you can hold your own regardless. You have great wisdom and insight beyond your years and experience, and your moral code could not be any stronger. You find the paths no one else can see, and save the galaxy because of it.
+      </p>
+</div>
+
+<table cellpadding=20><tr><td><!--t-->Link: <a href='http://www.okcupid.com/tests/17827049702304842536/Famous-Jedi-or-Sith'>The Famous Jedi or Sith Test</a> written by <a href='http://www.okcupid.com/profile?u=SarumantheMad'>SarumantheMad</a> on <a  href='http://www.okcupid.com'>OkCupid</a>, home of the <a href='http://www.okcupid.com/online.dating.persona.test'>The Dating Persona Test<!--/t--></a><br /><a href='http://www.okcupid.com/profile?u=SarumantheMad'>View My Profile(SarumantheMad)</a></td></tr></table>
+
+I was always a ""Wars"" fan..."
+"eventtime","2008-01-13 23:06:00"
+"url","http://maverikx.livejournal.com/7299.html"
+"userid","9754"
+"itemid","27"
+"event","And now over to our affiliate at ABC channel 7...
+
+<a href=""http://icanhascheezburger.com/2008/01/10/funny-pictures-do-not-want/""><img src=""http://icanhascheezburger.wordpress.com/files/2008/01/funny-pictures-zomg-cat-local-news.jpg"" alt=""Funny Pictures"" /></a><br />moar <a href=""http://icanhascheezburger.com"">funny pictures</a>
+
+Brought to you by www.icanhascheezburger.com"
+"eventtime","2008-01-13 22:40:00"
+"current_moodid","96"
+"url","http://maverikx.livejournal.com/7134.html"
+"userid","9754"
+"itemid","26"
+"event","Read my profile, as I have taken the time to fill it out. Just a heads up, it's also long. Points to anyone who gets the half-reference in the subject line of this post."
+"eventtime","2008-01-05 16:43:00"
+"current_moodid","44"
+"url","http://maverikx.livejournal.com/6771.html"
+"userid","9754"
+"itemid","25"
+"event","Rmlyc3QsIHRoZSBwZXJzb25hbGl0eSBkaXNvcmRlciB0ZXN0DQoNCjx0YWJsZSB3aWR0aD0iMzMwIiBjZWxscGFkZGluZz0iMiIgY2VsbHNwYWNpbmc9IjAiIGJvcmRlcj0iMCI+PHRyPjx0ZCB3aWR0aD0iMTgwIj48Zm9udCBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPjxiPkRpc29yZGVyPC9iPjwvZm9udD48L3RkPjx0ZCB3aWR0aD0iMTIwIj48Zm9udCBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPjxiPlJhdGluZzwvYj48L2ZvbnQ+PC90ZD48L3RyPjx0cj48dGQ+PGZvbnQgZmFjZT0iYXJpYWwiIHNpemU9Ii0xIj48YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9kaXNvcmRlci9wYXJhbm9pZC5odG1sIj5QYXJhbm9pZCBEaXNvcmRlcjwvYT46PC9mb250PjwvdGQ+PHRkPjxmb250IGNvbG9yPSIjMDAwMDk5IiBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPkxvdzwvZm9udD48L3RkPjwvdHI+PHRyPjx0ZD48Zm9udCBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPjxhIGhyZWY9Imh0dHA6Ly93d3cuNGRlZ3JlZXouY29tL2Rpc29yZGVyL3NjaGl6b2lkLmh0bWwiPlNjaGl6b2lkIERpc29yZGVyPC9hPjo8L2ZvbnQ+PC90ZD48dGQ+PGZvbnQgY29sb3I9IiMwMDAwOTkiIGZhY2U9ImFyaWFsIiBzaXplPSItMSI+TG93PC9mb250PjwvdGQ+PC90cj48dHI+PHRkPjxmb250IGZhY2U9ImFyaWFsIiBzaXplPSItMSI+PGEgaHJlZj0iaHR0cDovL3d3dy40ZGVncmVlei5jb20vZGlzb3JkZXIvc2NoaXpvdHlwYWwuaHRtbCI+U2NoaXpvdHlwYWwgRGlzb3JkZXI8L2E+OjwvZm9udD48L3RkPjx0ZD48Zm9udCBjb2xvcj0iIzk5MDA5OSIgZmFjZT0iYXJpYWwiIHNpemU9Ii0xIj5Nb2RlcmF0ZTwvZm9udD48L3RkPjwvdHI+PHRyPjx0ZD48Zm9udCBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPjxhIGhyZWY9Imh0dHA6Ly93d3cuNGRlZ3JlZXouY29tL2Rpc29yZGVyL2FudGlzb2NpYWwuaHRtbCI+QW50aXNvY2lhbCBEaXNvcmRlcjwvYT46PC9mb250PjwvdGQ+PHRkPjxmb250IGNvbG9yPSIjMDAwMDk5IiBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPkxvdzwvZm9udD48L3RkPjwvdHI+PHRyPjx0ZD48Zm9udCBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPjxhIGhyZWY9Imh0dHA6Ly93d3cuNGRlZ3JlZXouY29tL2Rpc29yZGVyL2JvcmRlcmxpbmUuaHRtbCI+Qm9yZGVybGluZSBEaXNvcmRlcjwvYT46PC9mb250PjwvdGQ+PHRkPjxmb250IGNvbG9yPSIjOTkwMDk5IiBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPk1vZGVyYXRlPC9mb250PjwvdGQ+PC90cj48dHI+PHRkPjxmb250IGZhY2U9ImFyaWFsIiBzaXplPSItMSI+PGEgaHJlZj0iaHR0cDovL3d3dy40ZGVncmVlei5jb20vZGlzb3JkZXIvaGlzdHJpb25pYy5odG1sIj5IaXN0cmlvbmljIERpc29yZGVyPC9hPjo8L2ZvbnQ+PC90ZD48dGQ+PGZvbnQgY29sb3I9IiNjYzAwMzMiIGZhY2U9ImFyaWFsIiBzaXplPSItMSI+SGlnaDwvZm9udD48L3RkPjwvdHI+PHRyPjx0ZD48Zm9udCBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPjxhIGhyZWY9Imh0dHA6Ly93d3cuNGRlZ3JlZXouY29tL2Rpc29yZGVyL25hcmNpc3Npc3RpYy5odG1sIj5OYXJjaXNzaXN0aWMgRGlzb3JkZXI8L2E+OjwvZm9udD48L3RkPjx0ZD48Zm9udCBjb2xvcj0iIzAwMDA5OSIgZmFjZT0iYXJpYWwiIHNpemU9Ii0xIj5Mb3c8L2ZvbnQ+PC90ZD48L3RyPjx0cj48dGQ+PGZvbnQgZmFjZT0iYXJpYWwiIHNpemU9Ii0xIj48YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9kaXNvcmRlci9hdm9pZGFudC5odG1sIj5Bdm9pZGFudCBEaXNvcmRlcjwvYT46PC9mb250PjwvdGQ+PHRkPjxmb250IGNvbG9yPSIjY2MwMDMzIiBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPkhpZ2g8L2ZvbnQ+PC90ZD48L3RyPjx0cj48dGQ+PGZvbnQgZmFjZT0iYXJpYWwiIHNpemU9Ii0xIj48YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9kaXNvcmRlci9kZXBlbmRlbnQuaHRtbCI+RGVwZW5kZW50IERpc29yZGVyPC9hPjo8L2ZvbnQ+PC90ZD48dGQ+PGZvbnQgY29sb3I9IiM5OTAwOTkiIGZhY2U9ImFyaWFsIiBzaXplPSItMSI+TW9kZXJhdGU8L2ZvbnQ+PC90ZD48L3RyPjx0cj48dGQ+PGZvbnQgZmFjZT0iYXJpYWwiIHNpemU9Ii0xIj48YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9kaXNvcmRlci9vY2QuaHRtbCI+T2JzZXNzaXZlLUNvbXB1bHNpdmUgRGlzb3JkZXI8L2E+OjwvZm9udD48L3RkPjx0ZD48Zm9udCBjb2xvcj0iI2ZmMDAwMCIgZmFjZT0iYXJpYWwiIHNpemU9Ii0xIj5IaWdoPC9mb250PjwvdGQ+PC90cj48dHI+PHRkIGNvbHNwYW49IjIiIGFsaWduPSJjZW50ZXIiPjxmb250IGNvbG9yPSIjMDAwMDAwIiBmYWNlPSJhcmlhbCIgc2l6ZT0iLTEiPjxicj4tLSA8YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9taXNjL3BlcnNvbmFsaXR5X2Rpc29yZGVyX3Rlc3QubXYiPlBlcnNvbmFsaXR5IERpc29yZGVyIFRlc3QgLSBUYWtlIEl0ITwvYT4gLS08YnI+LS0gPGEgaHJlZj0iaHR0cDovL3d3dy40ZGVncmVlei5jb20vZGlzb3JkZXIvaW5kZXguaHRtbCI+UGVyc29uYWxpdHkgRGlzb3JkZXJzPC9hPiAtLTwvZm9udD48L3RkPjwvdHI+PC90YWJsZT48YnI+DQoNCkkga2luZGEgc2F3IHRoZSBoaXN0cmlvbmljIHRoaW5nIGNvbWluZywgYnV0IEkgZG9uJ3QgdGhpbmsgbWFueSBvdGhlcnMgbWF5IGhhdmUNCg0KDQpEYW50ZeKAmXMgSW5mZXJubw0KDQo8Yj5UaGUgRGFudGUncyBJbmZlcm5vIFRlc3QgaGFzIGJhbmlzaGVkIHlvdSB0byA8aT50aGUgU2l4dGggTGV2ZWwgb2YgSGVsbCAtIFRoZSBDaXR5IG9mIERpcyE8L2k+PC9iPjxicj5IZXJlIGlzIGhvdyB5b3UgbWF0Y2hlZCB1cCBhZ2FpbnN0IGFsbCB0aGUgbGV2ZWxzOjxicj48dGFibGUgY2VsbHNwYWNpbmc9IjEiIHN0eWxlPSJtYXJnaW46IDVweDsgYmFja2dyb3VuZC1jb2xvcjogIzAwMDAwMDsgYm9yZGVyOiBub25lOyBmb250OiAxMHB0IGFyaWFsLCB2ZXJkYW5hLCAnc2FucyBzZXJpZic7Ij48dHIgc3R5bGU9ImZvbnQ6IGJvbGQgMTJwdCBhcmlhbCwgdmVyZGFuYSwgJ3NhbnMgc2VyaWYnOyB0ZXh0LWFsaWduOiBjZW50ZXI7IGNvbG9yOiAjZmZmZmZmOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzMzMzOyI+PHRoPjxiPkxldmVsPC9iPjwvdGg+PHRoPjxiPlNjb3JlPC9iPjwvdGg+PC90cj48dHIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICMyMjAwMzM7IGNvbG9yOiAjZWVlZWVlOyI+PHRkIHN0eWxlPSJwYWRkaW5nOiA0cHg7Ij48Yj48YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9taXNjL2RhbnRlLWluZmVybm8taW5mb3JtYXRpb24uaHRtbCMwIiBzdHlsZT0iY29sb3I6ICNmZjMzNDQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyI+UHVyZ2F0b3J5PC9hPjwvYj4gKFJlcGVudGluZyBCZWxpZXZlcnMpPC90ZD48dGQgc3R5bGU9ImNvbG9yOiAjMzM0NGJiOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzMzMzOyBwYWRkaW5nOiA0cHg7Ij48Yj5WZXJ5IExvdzwvYj48L3RkPjwvdHI+PHRyIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiAjMTEwMDIyOyBjb2xvcjogI2VlZWVlZTsiPjx0ZCBzdHlsZT0icGFkZGluZzogNHB4OyI+PGI+PGEgaHJlZj0iaHR0cDovL3d3dy40ZGVncmVlei5jb20vbWlzYy9kYW50ZS1pbmZlcm5vLWluZm9ybWF0aW9uLmh0bWwjMSIgc3R5bGU9ImNvbG9yOiAjZmYzMzQ0OyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsiPkxldmVsIDEgLSBMaW1ibzwvYT48L2I+IChWaXJ0dW91cyBOb24tQmVsaWV2ZXJzKTwvdGQ+PHRkIHN0eWxlPSJjb2xvcjogI2FhMzNhYTsgYmFja2dyb3VuZC1jb2xvcjogIzMzMzMzMzsgcGFkZGluZzogNHB4OyI+PGI+TW9kZXJhdGU8L2I+PC90ZD48L3RyPjx0ciBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogIzIyMDAxMTsgY29sb3I6ICNlZWVlZWU7Ij48dGQgc3R5bGU9InBhZGRpbmc6IDRweDsiPjxiPjxhIGhyZWY9Imh0dHA6Ly93d3cuNGRlZ3JlZXouY29tL21pc2MvZGFudGUtaW5mZXJuby1pbmZvcm1hdGlvbi5odG1sIzIiIHN0eWxlPSJjb2xvcjogI2ZmMzM0NDsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7Ij5MZXZlbCAyPC9hPjwvYj4gKEx1c3RmdWwpPC90ZD48dGQgc3R5bGU9ImNvbG9yOiAjZmYxMTMzOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzMzMzOyBwYWRkaW5nOiA0cHg7Ij48Yj5IaWdoPC9iPjwvdGQ+PC90cj48dHIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICMzMzAwMTE7IGNvbG9yOiAjZWVlZWVlOyI+PHRkIHN0eWxlPSJwYWRkaW5nOiA0cHg7Ij48Yj48YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9taXNjL2RhbnRlLWluZmVybm8taW5mb3JtYXRpb24uaHRtbCMzIiBzdHlsZT0iY29sb3I6ICNmZjMzNDQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyI+TGV2ZWwgMzwvYT48L2I+IChHbHV0dG9ub3VzKTwvdGQ+PHRkIHN0eWxlPSJjb2xvcjogI2ZmMTEzMzsgYmFja2dyb3VuZC1jb2xvcjogIzMzMzMzMzsgcGFkZGluZzogNHB4OyI+PGI+SGlnaDwvYj48L3RkPjwvdHI+PHRyIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiAjNDQwMDExOyBjb2xvcjogI2VlZWVlZTsiPjx0ZCBzdHlsZT0icGFkZGluZzogNHB4OyI+PGI+PGEgaHJlZj0iaHR0cDovL3d3dy40ZGVncmVlei5jb20vbWlzYy9kYW50ZS1pbmZlcm5vLWluZm9ybWF0aW9uLmh0bWwjNCIgc3R5bGU9ImNvbG9yOiAjZmYzMzQ0OyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsiPkxldmVsIDQ8L2E+PC9iPiAoUHJvZGlnYWwgYW5kIEF2YXJpY2lvdXMpPC90ZD48dGQgc3R5bGU9ImNvbG9yOiAjNDQ2NmRkOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzMzMzOyBwYWRkaW5nOiA0cHg7Ij48Yj5Mb3c8L2I+PC90ZD48L3RyPjx0ciBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogIzU1MDAxMTsgY29sb3I6ICNlZWVlZWU7Ij48dGQgc3R5bGU9InBhZGRpbmc6IDRweDsiPjxiPjxhIGhyZWY9Imh0dHA6Ly93d3cuNGRlZ3JlZXouY29tL21pc2MvZGFudGUtaW5mZXJuby1pbmZvcm1hdGlvbi5odG1sIzUiIHN0eWxlPSJjb2xvcjogI2ZmMzM0NDsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7Ij5MZXZlbCA1PC9hPjwvYj4gKFdyYXRoZnVsIGFuZCBHbG9vbXkpPC90ZD48dGQgc3R5bGU9ImNvbG9yOiAjZmYxMTMzOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzMzMzOyBwYWRkaW5nOiA0cHg7Ij48Yj5IaWdoPC9iPjwvdGQ+PC90cj48dHIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICM2NjAwMTE7IGNvbG9yOiAjZWVlZWVlOyI+PHRkIHN0eWxlPSJwYWRkaW5nOiA0cHg7Ij48Yj48YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9taXNjL2RhbnRlLWluZmVybm8taW5mb3JtYXRpb24uaHRtbCM2IiBzdHlsZT0iY29sb3I6ICNmZjMzNDQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyI+TGV2ZWwgNiAtIFRoZSBDaXR5IG9mIERpczwvYT48L2I+IChIZXJldGljcyk8L3RkPjx0ZCBzdHlsZT0iY29sb3I6ICNlZTIyNDQ7IGJhY2tncm91bmQtY29sb3I6ICMzMzMzMzM7IHBhZGRpbmc6IDRweDsiPjxiPkV4dHJlbWU8L2I+PC90ZD48L3RyPjx0ciBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogIzc3MDAxMTsgY29sb3I6ICNlZWVlZWU7Ij48dGQgc3R5bGU9InBhZGRpbmc6IDRweDsiPjxiPjxhIGhyZWY9Imh0dHA6Ly93d3cuNGRlZ3JlZXouY29tL21pc2MvZGFudGUtaW5mZXJuby1pbmZvcm1hdGlvbi5odG1sIzciIHN0eWxlPSJjb2xvcjogI2ZmMzM0NDsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7Ij5MZXZlbCA3PC9hPjwvYj4gKFZpb2xlbnQpPC90ZD48dGQgc3R5bGU9ImNvbG9yOiAjZmYxMTMzOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzMzMzOyBwYWRkaW5nOiA0cHg7Ij48Yj5IaWdoPC9iPjwvdGQ+PC90cj48dHIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICM4ODAwMTE7IGNvbG9yOiAjZWVlZWVlOyI+PHRkIHN0eWxlPSJwYWRkaW5nOiA0cHg7Ij48Yj48YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9taXNjL2RhbnRlLWluZmVybm8taW5mb3JtYXRpb24uaHRtbCM4IiBzdHlsZT0iY29sb3I6ICNmZjMzNDQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyI+TGV2ZWwgOC0gdGhlIE1hbGVib2xnZTwvYT48L2I+IChGcmF1ZHVsZW50LCBNYWxpY2lvdXMsIFBhbmRlcmVycyk8L3RkPjx0ZCBzdHlsZT0iY29sb3I6ICNmZjExMzM7IGJhY2tncm91bmQtY29sb3I6ICMzMzMzMzM7IHBhZGRpbmc6IDRweDsiPjxiPkhpZ2g8L2I+PC90ZD48L3RyPjx0ciBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogIzk5MDAxMTsgY29sb3I6ICNlZWVlZWU7Ij48dGQgc3R5bGU9InBhZGRpbmc6IDRweDsiPjxiPjxhIGhyZWY9Imh0dHA6Ly93d3cuNGRlZ3JlZXouY29tL21pc2MvZGFudGUtaW5mZXJuby1pbmZvcm1hdGlvbi5odG1sIzkiIHN0eWxlPSJjb2xvcjogI2ZmMzM0NDsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7Ij5MZXZlbCA5IC0gQ29jeXR1czwvYT48L2I+IChUcmVhY2hlcm91cyk8L3RkPjx0ZCBzdHlsZT0iY29sb3I6ICNhYTMzYWE7IGJhY2tncm91bmQtY29sb3I6ICMzMzMzMzM7IHBhZGRpbmc6IDRweDsiPjxiPk1vZGVyYXRlPC9iPjwvdGQ+PC90cj48L3RhYmxlPjxicj48Yj5UYWtlIHRoZSA8YSBocmVmPSJodHRwOi8vd3d3LjRkZWdyZWV6LmNvbS9taXNjL2RhbnRlLWluZmVybm8tdGVzdC5tdiI+RGFudGUncyBJbmZlcm5vIEhlbGwgVGVzdDwvYT48L2I+DQoNCipzbmlja2VyKiBJIGFscmVhZHkga25ldyB0aGF0IEkgd2FzIGdvaW5nIHRvIGhlbGwgKGF0IGxlYXN0LCBhY2NvcmRpbmcgdG8gQ2hyaXN0aWFucykuIEhvd2V2ZXIsIGl0J3MgbmljZSB0byBrbm93IGV4YWN0bHkgd2hlcmUgaW4gaGVsbCBJIGFtIGdvaW5nLg0KDQpGaW5hbGx5LCBvbmUgdGhhdCBJIHN0dW1ibGVkIHVwb24sIGJ1dCBoYXZlbid0IHRha2VuIHlldC4gSXQgbG9va3MgbG9uZywgc28gSSBtYXkgbm90IGdldCB0byBpdCB0b25pZ2h0LiBJJ2xsIHBvc3QgbXkgcmVzdWx0cyBpbiBhIGZ1dHVyZSBlbnRyeS4NCg0KaHR0cDovL3RoZXN1cnJlYWxpc3QuY28udWsvcGVyc29uYWxpdHk="
+"eventtime","2008-01-05 03:01:00"
+"current_moodid","11"
+"url","http://maverikx.livejournal.com/6497.html"
+"userid","9754"
+"itemid","24"
+"event","QXMgYSBSZXN1bHQsIHRoZSBCZWF0aW5ncyB3aWxsIGNvbnRpbnVlIHVudGlsIE1vcmFsZSBpbXByb3Zlcy4NCg0KVGhhdCBtYWtlcyB0d28gam9rZXMgd2hlcmUgdGhlIHN1YmplY3QgbGluZSBpcyB0aGUgb3BlbmVyIGFuZCB0aGUgZmlyc3QgbGluZSBpbiB0aGUgcG9zdCBpcyB0aGUgcHVuY2hsaW5lLiBJbiB0aGlzIGNhc2UsIGl0IHJlYWxseSBpcyBhICdwdW5jaCcgbGluZSwgYW5kIGEga2ljayBsaW5lLCBhbmQgYS4uLiBXaGF0PyBUb28gbXVjaD8NCg0KSSBhbSBjdXJyZW50bHkgd2lyZWQsIGlmIGl0IGlzIG5vdCBhbHJlYWR5IGFwcGFyZW50LiBJIHdlbnQgdG8gSUhPUCAodGhlIHJlc3RhdXJhbnQsIG5vdCB0aGUganVtcCByb3BlIG1hZGUgYnkgQXBwbGUtLWlIb3AsIGdldCBpdD8gTm8/IGRhbmcuLi4pIHdpdGggWmFjaCwgYW5kIHdlIGhhZCB0aGUgbW9zdCBhbWF6aW5nIHBhbmNha2VzLCBhbmQgSSBoYWQgdGhyZWUgZ2xhc3NlcyBvZiBzb2RhLCB0aGVuIHdlIHdlbnQgdG8gYSBnYXMgc3RhdGlvbiwgYW5kIEkgZ290IGEgY2FuIG9mIG1vbnN0ZXIsIGFuZCBub3cgSSBjYW4ndCBzbGVlcC4gSSB3b25kZXIgd2h5LiBXZWxsLCBJIGFsc28gZmluYWxseSBnb3QgYXJvdW5kIHRvIGZpbmRpbmcgc29tZSBtdXNpYyBieSBhbiBhcnRpc3QgaW50cm9kdWNlZCB0byBtZSBieSBaYWNoLCBhIGd1eSBuYW1lZCBNaWNrZXkgQXZhbG9uLiBIZSdzIGEgcmFwcGVyLCB3aGljaCBpcyBhIHNob2NrLCBhcyBtdWNoIG9mIHRoZSBtb2Rlcm4gcmFwIHNjZW5lIGNvbnNpc3RzIG9mIGNyYXAuIEhvd2V2ZXIsIE1pY2tleSBBdmFsb24gaGFzIGEgZ29vZCBzZW5zZSBvZiBodW1vciBpbiBoaXMgcmFwcGluZywgd2hpY2ggSSBhcHByZWNpYXRlLiBJdCdzIG5vdCBhbGwgImJhbmdpbicgaG9lcyIgYW5kICJidXN0aW4nIGEgY2FwIGluIHlvJyBhc3MiIGFuZCB3aGF0bm90LiBXaGlsZSB0aGVyZSBpcyBhIGxvdCBvZiB0aGF0IHR5cGUgb2YgdGhpbmcsIGl0IGlzIG1peGVkIGluIHdpdGggYSBsb3Qgb2YgY3luaWNhbCBodW1vciwgd2hpY2ggSSBjYW4gYXBwcmVjaWF0ZS4gSGVuY2UsIGl0IGlzIGEgcmFwcGVyIHRoYXQgSSB0aGluayBpcyBhY3R1YWxseSBwcmV0dHkgZ29vZC4gSGUncyBhbHNvIEpld2lzaC4gSSByZWNvbW1lbmQgbGlzdGVuaW5nIHRvIGhpcyBzdHVmZiBhdCBsZWFzdCBvbmNlLg0KDQpPbiBhIHNpZGUgbm90ZSwgSSBuZXZlciBoYXRlZCByYXAgbXVzaWMganVzdCBiZWNhdXNlIGl0IHdhcyByYXAgbXVzaWMsIEkgaGF0ZSBtb3N0IHJhcCBtdXNpYyBiZWNhdXNlIGl0IGhhcyBkZWdyYWRlZCBpbnRvIHRoZSBhZm9yZW1lbnRpb25lZCAgImJhbmdpbicgaG9lcyIgZXQuIGFsLiBhbmQgbm90aGluZyBlbHNlLiBXaGVuIHJhcCB1c2VkIHRvIG1lYW4gc29tZXRoaW5nLCBpdCB3YXMgYSBsb3QgYmV0dGVyLg0KDQpUbyBnaXZlIHlvdSBhIGdvb2QgaWRlYSBvZiBob3cgd2lyZWQgSSBhbSwgSSBqdXN0IHNwZW50IDQ1IG1pbnV0ZXMgdGFraW5nIHJhbmRvbSBvbmxpbmUgdGVzdHMgYW5kIHF1aXp6ZXMgdGhhdCBJIGZvdW5kIGluIG15IGZyaWVuZCdzIGpvdXJuYWxzIChvciBsaW5rZWQgdG8gc2FpZCBqb3VybmFscykuIEV2ZXJ5dGhpbmcgYmVmb3JlIHRoaXMgcGFyYWdyYXBoIHRvb2sgbm8gbW9yZSB0aGFuIDE1IG1pbnV0ZXMgdG8gd3JpdGUsIGFuZCBJIHN0YXJ0ZWQgYXQgMTI6NTEgYS5tLiBJdCBpcyBub3csIGFjY29yZGluZyB0byBteSBjb21wdXRlciBjbG9jaywgMTo1NSBhLm0uIENyYXp5LCBodWg/IE9oLCB0aG9zZSB0ZXN0IHJlc3VsdHMgd2lsbCBiZSBwb3N0ZWQgbGF0ZXIuDQoNCldlbGwsIEkgdGhpbmsgSSdtIGRvbmUgd2l0aCB0aGlzIHBvc3QsIGJ1dCBhbm90aGVyIGlzIGNvbWluZyBzb29uIChpLmUuIGxhdGVyIHRvbmlnaHQpLiBQZWFjZS4NCg0KTWF0dGhldw0KDQpBcmUgd2UgZGVtZW50ZWQgb3IgYW0gSSBkaXN0dXJiZWQ/DQpUaGUgc3BhY2UgdGhhdOKAmXMgaW4gYmV0d2VlbiBpbnNhbmUgYW5kIGluc2VjdXJlDQotLUplc3VzIG9mIFN1YnVyYmlhIChEZWFybHkgQmVsb3ZlZCkgYnkgR3JlZW5kYXk="
+"eventtime","2008-01-05 00:51:00"
+"current_moodid","52"
+"url","http://maverikx.livejournal.com/6380.html"
+"userid","9754"
+"itemid","23"
+"event","I was at 512 MB, and am now at 2 GB. It only cost me $65, and I put it in myself. Quite the change for not much cash.
+
+That's a little computer humor there. And a weak attempt at a play on words (cash, change, funny, ha-ha......yeah, whatever.)
+
+So, the christmas thing works well here. I prefer Festivus (for the rest of us), or, if you must, Christma-hanukk-quanzika. I got some neat stuff, including not one but two new watches (one from my parents and one from my grandma, neither of whom knew that the other had also got me one), a blender (for making the smoothies that I love so very very much), some art supplies (pencils, sketchbooks, a wooden hand model, etc), and the star present, a drawing tablet for my computer (there's no aside here, I just wanted to continue the trend). It (the tablet) is incredibly cool, and I have used it twice already to make pretty pictures. I will try and post them to my DA account and give you guys a link later. I think that I'm getting the hang of it. The hardest part is that it's pressure-sensitive, i.e. the harder you push on the pad, the thicker the line comes up. I use it on my pirated version of Photoshop (shhhhhhh!) that I got myself when I was 18 and bored. It are fun.
+
+I'm going to go make a lasagna that is for my friends Festivus present tomorrow. I'm treating some of my friends to dinner on new years, and not some crappy, half-assed lasagna. This is the real deal, with real Sicilians making it (if you didn't guess, that's me and my dad).
+
+If I'm not here later, happy new year, mother fuckers!"
+"eventtime","2007-12-30 15:39:00"
+"current_moodid","59"
+"url","http://maverikx.livejournal.com/5993.html"
+"userid","9754"
+"itemid","22"
+"event","This just in, I'm too tired to blog. I'll fill everyone in on what's been going on tomorrow (well, later today) when I wake up. Peace."
+"eventtime","2007-12-22 03:00:00"
+"current_moodid","31"
+"url","http://maverikx.livejournal.com/5887.html"
+"userid","9754"
+"itemid","21"
+"event","First, this made me wonder...
+
+
+<div id=""testResultInfo"">
+      <h1><!--t-->Your Score<!--/t-->: <span>Very Well-Rounded</span></h1>
+      <h2><br><br><center><font size=""2"">You have:</font><br> <font size=""5"">62% SCIENTIFIC INTUITION and<br> 70% EMOTIONAL INTUITION</font></center></h2>
+      
+      <p>
+      </p><table width=""550""><tbody><tr><td valign=""top"" style=""padding:5px""> The graph on the right represents your place in <b><font size=""+1"">Intuition 2-Space</font></b>. As you can see, you scored <i><font color=""blue"">above average</font> on emotional intuition</i> and <i><font color=""blue"">above average</font> on scientific intuition</i>. (Weirdly, your emotional and scientific intuitions are equally strong.) </td><td><div style=""border:1px solid black;max-width:400px;""><img src=""http://is0.okcupid.com/graphics/intuition/ig22.gif""></div>
+
+</td></tr><tr><td colspan=""2""><br>Your <font size=""+1""><b>Emotional Intuition</b></font> score is a measure of how well you understand people, especially their unspoken needs and sympathies. A high score score usually indicates social grace and persuasiveness. A low score usually means you're good at Quake.<br><br>Your <b><font size=""+1"">Scientific Intuition</font></b> score tells you how in tune you are with the world around you; how well you understand your physical and intellectual environment. People with high scores here are apt to succeed in business and, of course, the sciences.</td></tr></tbody></table><center><br>
+<font size=""1"" face=""verdana"">
+Try my other test!<br><a href=""http://www.okcupid.com/tests/take?testid=17565214125862764376"">The 3 Variable  Funny Test</a><br>It rules.
+</font></center><br><br>
+
+      <p></p>
+</div>
+
+<table cellpadding=20><tr><td><!--t-->Link: <a href='http://www.okcupid.com/tests/3890039532751104124/2-Variable-Intuition'>The 2-Variable Intuition Test</a> written by <a href='http://www.okcupid.com/profile?u=jason_bateman'>jason_bateman</a> on <a  href='http://www.okcupid.com'>OkCupid</a>, home of the <a href='http://www.okcupid.com/online.dating.persona.test'>The Dating Persona Test<!--/t--></a><br /><a href='http://www.okcupid.com/profile?u=jason_bateman'>View My Profile(jason_bateman)</a></td></tr></table>
+
+---------------------------------------------------
+
+More details at 3:00"
+"eventtime","2007-12-22 00:33:00"
+"url","http://maverikx.livejournal.com/5490.html"
+"userid","9754"
+"itemid","20"
+"event","Pretend to be a Time Traveler Day. I think it might be fun. We need to get lots of people in on it, though. Tell your friends! Especially if they LARP! For details, go to:
+
+http://forums.koalawallop.com/viewtopic.php?t=1719&postdays=0&postorder=asc&start=0
+
+Also, get a video camera, if possible.
+
+Who's with me?"
+"eventtime","2007-09-23 22:49:00"
+"url","http://maverikx.livejournal.com/5285.html"
+"userid","9754"
+"itemid","19"
+"event","I noticed something the other day, and I have been meaning to blog about it since. This says a good amount about me (always thinking ""oh! this would make a good blog!"" and whatnot), but I don't care.
+
+Anyway, I noticed that, at least for me, when things are going well and nothing is wrong, I look back on my life and think ""I wouldn't change a thing.""
+
+When things are not going so well, I sometimes look back and think about what I would change in the past.
+
+I resolve to never do that again.
+
+First, I cannot change the past, no matter how hard I try. Sure, what is written can be deleted, but never un-written. A good example is a letter I wrote to a good friend of mine, currently living in Texas, that another good friend of mine, also living in Texas, suggested I delete and burn. While I took the advice of the second now-Texan, that doesn't change the fact that I wrote the letter to the first, even though she never recieved it. Another example is the internet. You can post something to a blog, then delete it later, but someone was bound to read it at some point. Even if no one read it, you know you wrote it.
+
+I lost the point. I will re-acquire it.
+
+Second, I am content with myself right now. If I were to die tomorrow in a freak shark attack, regardless of weather or not I was happy, I would know that my life was not pointless, and that I mean something to people. Even if I was at the point where I wanted to die, I would die knowing that fact is undenyable, weather I want to admit it or not.
+
+Thus is my resolution.
+
+Good night.
+
+Matthew
+
+My will is something that you can't confiscate
+--Starin' at the Sun by The Offspring"
+"eventtime","2007-09-17 23:56:00"
+"url","http://maverikx.livejournal.com/5023.html"
+"userid","9754"
+"itemid","18"
+"event","T2ggd2VsbC4NCg0KVG9uaWdodDogTW9yZSBSYW1ibGluZ3MhIQ0KDQpUb21vcnJvdyBOaWdodDogRVhUUkVNRSBCSU5HTyEhISEhDQoNCkkgbmVlZCB0byBzZW5kIHRob3NlIHBpY3R1cmVzIHRvIFhBU1QgYmVmb3JlIEkgZm9yZ2V0IGFnYWluLiBIZSdsbCBhcHByZWNpYXRlIHRoZW0uDQoNClNvIEknbSBzZWxsaW5nIHRoaW5ncyBvbiBlYmF5LiBTbyBmYXIsIHRoZSBiaWRzIHRvdGFsIG92ZXIgJDUwIGFuZCB0aGVyZSdzIGEgZmV3IGRheXMgbGVmdCB0byBnby4gV09PT09PT09PISEhIQ0KDQpPcmdhbmljIENoZW1pc3RyeSBMYWIgaXMgZnVuLiBXZSBnZXQgdG8gcGxheSB3aXRoIHZvbGl0bGUgY2hlbWljYWxzLCBhbmQgd2hlbiB3ZSdyZSBkb25lLCB3ZSB3YXNoIG91ciBlcXVpcG1lbnQgd2l0aCBhY2V0b25lLiBZQVkhIENIRU1JQ0FMIEJVUk5TISEhDQoNClNvIEkgY2FtZSB1cCB3aXRoIHRoZSBtb3N0IGF3ZXNvbWVzdCBlbmVyZ3kgZHJpbmsgZXZlci4gSSBjYWxsIGl0OiBVViBCbGFzdC4gVGhlIHRhZy1saW5lIHdpbGwgYmUgIkhpZ2hlciBlbmVyZ3kgdGhhbiBSZWQgQnVsbC4iIEkgd2lsbCBhd2FyZCBhbiBJbnRlcm5ldHMgdG8gdGhlIGZpcnN0IHBlcnNvbiB0byBnZXQgdGhhdCByZWZlcmVuY2UgKGJ1dCB5b3UgaGF2ZSB0byBleHBsYWluIGl0IHRvIG1lIGluIGEgc2VtaS11bmRlcnN0YW5kYWJsZSB3YXkpLg0KDQpJJ20gaW4gYSBjbGFzcyBjYWxsZWQgQnVzaW5lc3MgV3JpdGluZywgYW5kIEkgYW0gcHJvYmFibHkgdGhlIG9ubHkgc2NpZW5jZSBtYWpvciBpbiB0aGUgY2xhc3MuIEhvd2V2ZXIsIEkgYW0gbGVhcm5pbmcgYWJvdXQgcsOpc3Vtw6lzIGFuZCBjb3ZlciBsZXR0ZXJzLCBhbmQgSSBhY3R1YWxseSBoZWxwZWQgbXkgbW9tIHdpdGggaGVyIGNvdmVyIGxldHRlci4gSSB0aGluayB0aGF0J3MgYXdlc29tZS4NCg0KRmluYWwgdGhvdWdodDogSWYgeW91IGFyZSBmYW1pbGlhciB3aXRoIHRoZSBzb25nICJUcm9nZG9yIiBmb3VuZCBvbiBob21lc3RhcnJ1bm5lci5jb20sIGl0J3MgYSBwYXJvZHkgb2YgdGhhdC4gSG93ZXZlciwgdGhlIHdvcmQgIlRyb2dkb3IiIGlzIHJlcGxhY2VkIHdpdGggIjQtY2hhbiIgYW5kIHRoZSB2ZXJzZSBnb2VzOg0KDQpQd25pbmF0aW5nIHRoZSBpbnRhcndlYnMNClB3bmluYXRpbmcgdGhlIE4wMGItczR1YzMNCg0KYW5kIHRoZSBsYXN0IGxpbmUgaXM6DQoNCkFuZCB0aGUgL2IvdGFyZHMgY29tZSBpbiB0aGUgTklHSFQhISEhIQ0KDQpTcGVha2luZyBvZiB3aGljaCwgYmVkIGNhbGxzIGFnYWluLg0KDQonTmlnaHQNCg0KTWF0dGhldw=="
+"eventtime","2007-09-05 23:40:00"
+"url","http://maverikx.livejournal.com/4805.html"
+"userid","9754"
+"itemid","17"
+"event","I am tired. Tonight was fun. It seems that. All I can. Manage to write. Is sentances composed. Of three words.
+
+Tonight I proved once again that I am an excellent listener. To put it in WoW terms, when it comes to acting, I am like a green item at low levels. Better than crap greys and whites, but not stellar. When it comes to listening, I liken myself to those orange, legendary pieces with OMG STATS! and that look really cool. I am a good listener. My advice ain't half bad either, if I do say so myself.
+
+Eric, a good friend of mine from Game, was feeling down. I sat and listened to him, gave him advice when I could, and generally was there for him to listen. It makes me feel good to do that. I seem to be the go-to guy for people with problems that they want to talk about. I enjoy that, as it makes me feel good about myself to know that I am dependable in that sense. All I ever ask is that people listen to me when I want to talk, and that's not too horribly often as it is.
+
+Also, I was llama'd at Dragoncon by the one and only XAST. That was kickass. He even called and let me listen to the concert I was missing. Granted, it kept breaking up because he had it on speakerphone, but it was awesome still.
+
+Enjoy your day, XAST. Today is your day. Do it. Do it long, do it hard, and when you're done, do it again. But just do it.
+
+Bed calls, again.
+
+'Night
+
+Matthew"
+"eventtime","2007-09-03 02:18:00"
+"url","http://maverikx.livejournal.com/4380.html"
+"userid","9754"
+"itemid","16"
+"event","I saw an interesting quote. I don't remember who said it (it was a personal quote from someone on DeviantArt, I think) but it went something like this:
+
+Some say that there is a fine line between genius and insanity. I say that there is a huge gap. After all, if you see some guy running down the street with balloons tied to his ears, you can safely say that he probably isn't running home to invent a rocket or something.
+
+Now, I tend to disagree with the first two sentances of this (the third one seems fairly accurate to me). I believe that to be a true genius, you have to be, as they say, bat-shit insane (It's a very technical term, so try not to get too confused). All of the geniuses that I have known are more than just a little quirky. Though I don't consider myself a genius in the traditional sense, I'm pretty nuts myself. I'm just sayin'.
+
+On a side note, I determined that being emo is like a disease, or more accurately, syphilis (yes, the STD). It's terrible, nasty, and generally unpleasent for you and the people you interact with, but it's also something that can be treated and generally gotten over (take these antidepressants and call me in a month). Unless, of course, the emo is antidepressant-resistant, in which case, a good ass-whuppin' or two should break the subject of it. In a nutshell, however, no one stays emo their whole life, unless they actually are suicidal, in which case the are emo until the point that they take their own life. But i digress.
+
+Always send a boy to do a man's job. He'll get it done in half the time with twice the angst.
+
+I think that would be a good band name: Angst (if it isn't already). It'd be like an emo-death metal hybrid, with songs about existentialism and why the toast always lands buttered-side down. Their first CD would be called ""My Lawn Cuts Itself"" or some such thing. The lead singer wouldn't sing so much as he would whine melodically.
+
+The fourth, fifth, and sixth paragraphs are a good example of the third paragraph, I thought I should point that out to anyone who hasn't noticed already.
+
+It's 1:54. Bed calls.
+
+'Night
+
+Matthew"
+"eventtime","2007-08-30 01:28:00"
+"current_moodid","106"
+"url","http://maverikx.livejournal.com/4317.html"
+"userid","9754"
+"itemid","15"
+"event","I am cycling hardcore.
+
+Not with a bike, mind you, but with bipolar. I was feeling good today, with little thought given to the mass amount of typing that I did last night. In fact, shortly after writing, I started feeling better. Then it went downhill again. Now I'm on the upswing.
+
+I am back on my meds. For a while, I kept missing doses, and I figured that since I was doing all right, I didn't need them. For a few hours, I thought that it was all over, and I could live without them.
+
+Reality is a bitch sometimes.
+
+I understand (at the moment) that I need those meds. I also know that this will happen again, that I will be content with forgetting doses, until I cycle so hard that I do something stupid like that post last night. Finally, I know that I am better off today than I was two years ago, if for no other reason then the fact that I recognize my cycles (sometimes only after the fact, though), whereas then I did not even acknowledge them.
+
+I took them tonight, and I will take them tomorrow.
+
+One more realization. I am stronger than I give myself credit fore most of the time. Not everyone in my position could continue to live as I do. I know that some would fall to their own hand, others would explode and kill several people, or both. I have done neither. It makes me happy to realize this, and yet sad for those who were in a similar position and could not make it through. I know that there have been many, and there will likely be many more.
+
+I AM strong, and I DO have a Will. I just need to feed it, make it grow. With help, I can do it, I WILL do it.
+
+As I was told last night, it's long, hard, and will suck hardcore, but it will be worth it.
+
+That's all tonight. Good night, and rest assured that I will not do anything stupid in the near future regarding my personal health or the health of those around me.
+
+Matthew
+
+P.S. On a lighter note, someone pointed something out to me today:
+
+How exactly does one vanquish a novice with very, very good illegal computer programs (based on a shorthand, internet language) and pornography?
+
+I know someone will get it, it's just a matter of who."
+"eventtime","2007-08-22 21:33:00"
+"url","http://maverikx.livejournal.com/4028.html"
+"userid","9754"
+"itemid","14"
+"event","Life is interesting. I found out today that someone either keyed my mother's car, or sat on it with something metal protruding from their pants and decided not to tell me. Either way, I was most likely the one with the car when it happened, probably at game this past Sunday. I don't know what will come of it.
+
+Speaking of game, I hate power gamers. Or munchkins, or twinks, or min-maxers, or all of the above, depending on what game we speak of. I have a friend whose character seems to revolve around beating up and/or killing things. The character in question has no role-play value that I can see, other than an intimidating presence. This makes me sad. The point of a role playing game is to role play, not to kill things. Sure, it happens from time to time, but Vampire: The Masquerade (the role playing game in question) doesn't generally revolve around combat. So, I am stuck dealing with a character that does not, in my opinion, fit the chronicle we are in, except that Lonnie seems to like him for whatever reason. Lonnie, however, isn't much better when it comes to power gaming. He just knows how to role play as well. Oh my gods, though, one of his characters is insanely powerful. It kinda makes me sick (damn Brujah. It's warrior SCHOLAR, not just warrior. If you think it's always big, dumb, and powerful, you're doing it wrong).
+
+So I'm back in school now, and I hope that I can pull my grades out of the gutter. I need to stop playing WoW at school during my off time.
+
+I hate being too in-tune to my own shortcomings. By too in-tune, I mean that I blow them out of proportion most of the time. Regardless, I am too critical of myself. The ultimate self-punishing child, when I found out about the scratches in my mother's car, I immediately blamed myself for being careless somehow, and set about trying to figure out what happened. I also realize that I am not a deep person by any means, I cannot pull wisdom from the depths of my soul, as many of my friends can (not just you, XAST). It angers me that I cannot do as such, and it angers me even more that Tyler, of all people, seems to be able to. Wabash even made a comment about how Tyler seemed to be taking the place of XAST in his absence, and that almost caused me to become violent, for whatever reason. I can never decide whether I hate myself or not. I certainly don't love myself to any extent. I fear that I may be doomed to burn out, crash, or, at the worst, kill myself at a young age. I don't want to die, but I find that it seems to be a feasible option on occasion. However, if I kill myself, I know that I will (physically) hurt a lot of people before I do so. The song ""Havin' a Blast"" by Greenday comes to mind.
+
+I fear that I may be growing to hate Tyler, for various reasons, and as much as I don't want to end our friendship, all of his flaws are becoming glaringly apparent to me, and they are crucial flaws that may cause me to kill him, or at least hurt him on a physical, mental, and/or emotional level in such a way as to alienate him. As much as I don't want to die, I don't want to hurt anyone. I am afraid of myself sometimes, as I have an anger problem that causes me to push away and hurt others in various ways. I have only ever struck someone once, but I am afraid that if I do it again, I may not be able to keep it to one hit as I did then. I have a severe anger problem. To everyone who has not seen me truly angry, I am a nice person. They cannot see any way that I could be so angry as to become violent. I hope that they never do, because it isn't pretty. I understand that I have a certain scary look when I become angry, and it causes me great pain to hear this, as I don't like hurting people. However, my thoughts sometimes turn to violence and death. I publicly laughed at the Columbine school shooting, and while I didn't laugh at the Virginia Tech shooting (at least not publicly), I can sympathize more with the shooter than with the victims. I still, to this day, think I could have done a better job than any of the people involved.
+
+Fear leads to anger.
+Anger leads to hate.
+Hate leads to suffering.
+
+I am that cycle, it seems.
+
+I am afraid of myself. I am afraid of what I may do to others.
+
+I am angry that I do not have better self control, and I become angry at other people for what I view as their shortcomings.
+
+I will make people suffer as a result. It is the only result.
+
+My biggest problem stems from a saying: Where there's a will, there's a way.
+
+I have little to no Will, so there can be no way.
+
+I am a follower, not a leader. I don't have it in me to take command. I wouldn't know what to do with it. I have always known this, which was why I was hesitant to become an ST in game. I am far too easily manipulated by the likes of Tyler, who, if you haven't guessed, is my semi-arch-nemesis at the moment. I am too gullible. I am too easily defeated. I am also developing an urge to hurt something. Fear leads to anger. Anger leads to hate. Hate leads to suffering. I don't think I will sleep well tonight. As soon as I am done here, I am going to put my cat out, as she is on my bed now and may pose a tempting target.
+
+That's another thing. I am a cruel person. There are two beings in the world that I would hesitate to kill, unless they told me otherwise. Everyone else, no matter how close to me they are, family, friend, whoever, is fodder to me. I have always been afraid that I was a sociopath because of this. It was pointed out to me that if I wonder such things, I'm probably not a sociopath, but I'm not so sure anymore.
+
+I have taken my medication today, I hope I remember tomorrow.
+
+Thanks to anyone in advance for sitting through these depressing, crazy rantings of a tired, broken man. Rest assured that I will not hurt anything or anyone, including myself, for the time being. Also, thanks for any comments, positive or negative. I appreciate any input.
+
+Matthew
+
+I will let you down
+I will make you hurt
+
+--Hurt by Johnny Cash
+
+I'm takin' all you down with me
+Explosives duct taped to my spine
+Nothin's gonna change my mind.
+
+--Havin' a Blast by Greenday"
+"eventtime","2007-08-21 23:16:00"
+"current_moodid","10"
+"url","http://maverikx.livejournal.com/3690.html"
+"userid","9754"
+"itemid","13"
+"event","I say Fae and not Fairy because, lets face it, life isn't ""happily ever after"" for just about everyone. It has a dark, nasty side that not many people acknowledge for varying reasons, and is generally painful and hard to deal with on a regular basis.
+
+I have a lot of friends considering that I used to hardly ever speak up. I like to think that my friends are generally nice, happy people all the time. In fact, no one is nice all the time, nor is anyone happy all the time.
+
+XAST, who is awesome beyond description, is not at his best right now. He had a huge dose of Life Being A Bitch And A Half at a bad time, and is noticeably darker because of it. He is not as vibrant as he was two weeks ago, and this worries me. He is becoming, by his own admission, slightly jaded to the world. People aren't inherently nice as he used to think, rather, he has found someone who is, in his own words, evil. I know that he will bounce back, but, as with all superballs and various other bouncy things, it won't be as high as the last time (due to laws of physics that I don't yet understand and laws of humanity that I may never understand). As the man himself said, nothing is forever. You'll never be as high as you were the first time. However, that doesn't mean that you shouldn't strive to be as high as you can be (all drug related references aside). Find the best in everything. Make the best out of the situation. Be the best person you can be. I don't care if it means donating millions of dollars to charity or bumming a cigarette to some guy at the bus stop. Give it your best, and remember that life is what you choose.
+
+I've lost the original subject. Oh, well. XAST, I hope you feel better soon. Life is good, and as I tell people (and very often, myself), Things Will Get Better. Be well, man, and be well, all who are reading this.
+
+Matthew
+
+	you see, it's never bad enough to just leave or give up
+	but it's never good enough to feel right 
+	--This Photograph is Proof (I Know you Know) by Taking Back Sunday"
+"eventtime","2007-08-16 23:16:00"
+"current_moodid","30"
+"url","http://maverikx.livejournal.com/3434.html"
+"userid","9754"
+"itemid","12"
+"event","So, I went camping this past weekend, and it was awesome, but I have a story that I pulled from it that I want to share. 
+
+So, everyone is familiar with Captain Planet, right? You know, the green mullet man, ""By your powers combined..."" Well, we came up with our own version of that.
+
+We call him Sergeant Cheeseburger. Don't ask what led up to this, the precise origin of the idea has been forgotten (and the only thing that was smoked or otherwise consumed by us at the time was cigarettes, and possibly water and/or soda).
+
+It's the same concept as Capt. Planet, with the whole ""powers combined"" thing, except that there are seven instead of five (so as to avoid copyright infringement. It's getting pretty close as it is). Also, in keeping with the pattern, one of the seven is the odd man out (because neither myself nor anyone I know understands the concept of ""Heart"" as a power). It goes like this:
+
+""Burger!""
+""Cheese!""
+""Lettuce!""
+""Tomato!""
+""Onion!""
+""Bun!""
+""A-1!"" (as in the steak sauce)
+
+The theme is something like ""Sergeant Cheeseburger, He's our hero!/Gonna take anorexia down to zero!"" Or some such thing. Oh, and all the kids with the powers are some degree of overweight.
+
+That's all we got before we had to split up and leave. The trip was great, and I'd tell more, but I don't feel like it now. So you're stuck with Sergeant Cheesburger.
+
+...oh, and I lost the game. Have fun with that.
+
+Maverik
+
+Sergeant Cheeseburger, He's our hero!
+Gonna take anorexia down to zero!"
+"eventtime","2007-08-13 22:47:00"
+"current_moodid","106"
+"url","http://maverikx.livejournal.com/3195.html"
+"userid","9754"
+"itemid","11"
+"event","<DIV id=""testResultInfo"">
+      <H1>Your Score: <SPAN>Neutral-Good</SPAN></H1>
+      <H2>72% Good, 42% Chaotic</H2>
+       <DIV id=""testResultInfoImg""><IMG src=""http://is3.okcupid.com/users/122/718/12271922432043554246/mt1125993970.jpg""></DIV> 
+      <P>
+      <B>Plane of Existence</B>: Elysium, ""<I>Blessed Fields</I>"". Description: The plane of peace. Notable Inhabitants: Guardinals - noble immortal humanoids with bestial features. 
+<BR>
+<BR>
+Examples of Neutral-Goods (Ethically Neutral, Morally Good)
+<BR>
+<BR>
+Cloud Strife (FFVII)<BR>
+Boogenhagen (FFVII)<BR>
+Mother Theresa<BR>
+Ghandi<BR>
+Sidhartha Gautama (the Buddha)<BR>
+Gandalf<BR>
+Bilbo & Frodo Baggins<BR>
+Samwise Gamgee<BR>
+Indiana Jones<BR>
+The Dali Lama<BR>
+Ben (O-Bi-Wan) Kenobi<BR>
+Luke Skywalker<BR>
+Harry Potter<BR>
+Hermionie<BR>
+Dumbledore
+<BR>
+<BR>
+Often goes along with the laws and desires of the group as being the easiest course of action, but ethical considerations clearly have top priority. May pursue quite abstract goals. Often aloof and difficult to understand.
+<BR>
+<BR>
+Will keep their word to others of good alignment<BR>
+Would not attack an unarmed foe<BR>
+Will not use poison<BR>
+Will help those in need<BR>
+May work with others<BR>
+Indifferent to higher authority<BR>
+Indifferent to organizations
+<BR>
+<BR><B>Neutral Good ""Pure Good""
+<BR>""Benefactor""</B>
+<BR>
+<BR>A neutral good [person] will obey the law, or break it when he or she sees it will serve a greater good. He or she is not bound strongly to a social system or order. His or her need to help others and reduce their suffering may take precedence over all else. Neutral good [people] do good for goodness' sake, not because they are directed to by law or by whim.
+<BR>
+<BR>This alignment desires good without bias for or against order.<BR>
+<BR>
+<I><B>Other Alignments and Tendencies (Tendenices are what you would more often sway towards; esp. for Neutrals):</B></I>
+<BR><U>0-39% Good, 0-39% Chaotic:</U> <A href=""http://www.okcupid.com/tests/describescore?testid=5273602979166955622&score0=20&score1=0&score2=20&score3=0""><I>Lawful-Evil</I></A>
+<BR><U>0-39% Good, 40-60% Chaotic:</U> <A href=""http://www.okcupid.com/tests/describescore?testid=5273602979166955622&score0=20&score1=50&score2=0&score3=0""><I>Neutral-Evil</I></A>
+<BR><U>0-39% Good, 61-100% Chaotic:</U> <A href=""http://www.okcupid.com/tests/describescore?testid=5273602979166955622&score0=20&score1=80&score2=0&score3=0""><I>Chaotic-Evil</I></A>
+<BR><U>40-60% Good, 0-39% Chaotic:</U> <A href=""http://www.okcupid.com/tests/describescore?testid=5273602979166955622&score0=50&score1=20&score2=0&score3=0""><I>Lawful-Neutral</I></A>
+<BR><U>40-60% Good, 40-60% Chaotic:</U> <A href=""http://www.okcupid.com/tests/describescore?testid=5273602979166955622&score0=50&score1=50&score2=0&score3=0""><I>True Neutral</I></A>
+<BR><U>40-60% Good, 61-100% Chaotic:</U> <A href=""http://www.okcupid.com/tests/describescore?testid=5273602979166955622&score0=50&score1=80&score2=0&score3=0""><I>Chaotic-Neutral</I></A>
+<BR><U>61-100% Good, 0-39% Chaotic:</U> <A href=""http://www.okcupid.com/tests/describescore?testid=5273602979166955622&score0=80&score1=20&score2=0&score3=0""><I>Lawful-Good</I></A>
+<BR><U>61-100% Good, 61-100% Chaotic:</U> <A href=""http://www.okcupid.com/tests/describescore?testid=5273602979166955622&score0=80&score1=80&score2=0&score3=0""><I>Chaotic-Good</I></A>
+      </P>
+</DIV>
+
+<table cellpadding=20><tr><td><!--t-->Link: <a href='http://www.okcupid.com/tests/5273602979166955622/Alignment'>The Alignment Test</a> written by <a href='http://www.okcupid.com/profile?u=xan81'>xan81</a> on <a  href='http://www.okcupid.com'>OkCupid Free Online Dating</a>, home of the <a href='http://www.okcupid.com/online.dating.persona.test'>The Dating Persona Test<!--/t--></a></td></tr></table>"
+"eventtime","2007-07-31 23:32:00"
+"current_moodid","44"
+"url","http://maverikx.livejournal.com/2974.html"
+"userid","9754"
+"itemid","10"
+"event","VGhlcmUgaGFzIGJlZW4gYW4gb3ZlcmhhdWwgb24gbXkgam91cm5hbCBzaXRlLCBpZiB5b3UgaGF2ZW4ndCBub3RpY2VkLiBJIGhhdmVuJ3QgZG9uZSB0aGlzIGluIGEgd2hpbGUsIGFuZCBpdCdzIGFyb3VuZCAzIGluIHRoZSBtb3JuaW5nLCBzbyB0aGlzIG1heSBnZXQgcmFtYmxlLWVzcXVlIChJIGNhbiBtYWtlIHVwIHdvcmRzIHRvbykuIExpZmUgaGFzIGJlZW4gaW50ZXJlc3RpbmcgYXMgb2YgbGF0ZSwgd2l0aCBsb3RzIG9mIGNoYW5nZSBhbmQgZHJhbWEuIEkgZmluYWxseSBzdG9wcGVkIGF2b2lkaW5nIHNvbWVvbmUgSSB3YXMgZnJpZW5kcyB3aXRoLCBhbmQgc2hlIHdhcyBnbGFkIHRvIHBpY2sgdXAgd2hlcmUgd2UgbGVmdCBvZmYuIEFscmVhZHkgc2hlIGhhcyBoZWxwZWQgbWUgb3V0IGEgbGl0dGxlIHdpdGggb25lIG1pbm9yIGNyaXNpcywgYW5kIEkgYXBwcmVjaWF0ZSBpdC4gQXQgdGhpcyBwb2ludCwgSSBkb24ndCBjYXJlIGFib3V0IGFueSBmYWxsb3V0IGZyb20gb3RoZXIgcGVvcGxlIHdobyBrbm93IGhlci4gSSdtIHRpcmVkIG9mIGF2b2lkaW5nIHRoZSBzaXR1YXRpb24gYW5kIGJlYXRpbmcgYXJvdW5kIHRoZSBidXNoLCBhcyBpdCB3ZXJlLiBTbywgdG8gYW55b25lIHdobyBjYXJlcyAob3IgZG9lc24ndCBjYXJlLCBvciB3aGF0ZXZlciksIEkgd291bGQgbGlrZSB0byBzYXkgdGhhbmsgeW91IHRvIEVtaWx5IGZvciBub3QgZ2l2aW5nIHVwIG9uIG1lLiBJJ20gZ2xhZCB3ZSdyZSBzcGVha2luZyBhZ2Fpbi4NCg0KVGhhdCBzYWlkLCBJIHdhbnQgdG8gbW92ZSBvbiB0byBUeWxlciBhbmQgTGF1cmEuIFR5bGVyOiBJIHdpc2ggdGhhdCB5b3Ugd291bGQgc3RvcCBibG93aW5nIG1lIG9mZiBmb3IgYSByYWlkIGluIFdvcmxkIG9mIFdhcmNyYWZ0LiBJbiB0aGUgcGFzdCBmZXcgd2Vla3MsIHlvdSBoYXZlIHRvbGQgbWUgdGhhdCB5b3UgY2FuJ3QgZG8gYW55dGhpbmcgd2l0aCBtZSBkdWUgdG8gV29ybGQgb2YgV2FyY3JhZnQgb24gYXQgbGVhc3QgdHdvIG9jY2FzaW9ucy4gSSBrbm93IHRoYXQgeW91J3ZlIGRvbmUgaXQgdG8gbWUsIEkgZG9uJ3Qga25vdyBpZiB5b3UndmUgZG9uZSBpdCB0byBvdGhlciBmcmllbmRzIG9mIHlvdXJzLCBidXQgZnJhbmtseSwgSSBkb24ndCBsaWtlIGl0IGFuZCBkb24ndCBhcHByZWNpYXRlIGl0LiBUaGluayBhYm91dCBpdC4gSG93IHdvdWxkIHlvdSBsaWtlIGJlaW5nIGJsb3duIG9mZiBmb3IgYSBmYW50YXN5IHdvcmxkIG9uIGEgY29tcHV0ZXIgc2NyZWVuPyBJIGRvbid0IGNhcmUgaWYgdGhlcmUgYXJlIHJlYWwgcGVvcGxlIHBsYXlpbmcgd2l0aCB5b3UsIHRoZXkncmUgYWxsIHNvbWV3aGVyZSBlbHNlLiBZb3UgY2FuJ3Qgc2VlIHRoZW0sIGFuZCB5b3UgY2FuIG9ubHkgaW50ZXJhY3Qgd2l0aCB0aGVtIG9uIGEgbGltaXRlZCBiYXNpcy4gT24gdGhlIG90aGVyIGhhbmQsIEknbSBhIHBlcnNvbiB3aG8gaXMgd2lsbGluZyB0byBoYW5nIG91dCB3aXRoIHlvdSwgdGFsayB0byB5b3UsIHBsYXkgdmlkZW8gZ2FtZXMgd2l0aCB5b3UsIHdoYXRldmVyIHdlIGZlZWwgbGlrZSBkb2luZywgaW4gdGhlIHJlYWwgd29ybGQuIEZhY2UgdG8gZmFjZS4gSSdtIHRhbGtpbmcgYWJvdXQgSFVNQU4gQ09OVEFDVCBoZXJlLCBub3QganVzdCBjb21wdXRlciBzY3JlZW4gZGVhbGluZ3MuIFlvdSBjYW4gb25seSBkbyBsaW1pdGVkIHRoaW5ncyBpbiB0aGUgY29tcHV0ZXIgd29ybGQuIFlvdSBjYW4gZG8gc28gbXVjaCBtb3JlIGluIHJlYWwgbGlmZS4NCg0KTW92aW5nIGFsb25nLCBpdCdzIHRpbWUgZm9yIExhdXJhOiB5b3UncmUgc3RhZ25hdGluZy4gWW91IHRlbGwgbWUgdGhhdCB5b3UgaGF2ZSBhbGwgdGhlc2UgcHJvYmxlbXMsIGFuZCB0aGVuIHlvdSBkb24ndCBkbyBhbnl0aGluZyB0byBmaXggdGhlbS4gWW91IGRvbid0IGV2ZW4gdHJ5LiBJdCdzIGFsbCBqdXN0IHN0YXR1cyBxdW8gd2l0aCB5b3UuIEdyYW50ZWQsIHdlIGFsbCBoYXZlIHByb2JsZW1zLCBidXQgc2ltcGx5IGFja25vd2xlZGdpbmcgdGhhdCB0aGUgcHJvYmxlbSBleGlzdHMgZG9lcyBub3QgY2F1c2UgaXQgdG8gZ28gYXdheSBvciBnZXQgYW55IGJldHRlci4gSSB0b2xkIHlvdSB0aGF0IHlvdSB3ZXJlIHNwb2lsZWQuIExhdGVyLCB5b3UgdG9sZCBtZSB0aGF0IHlvdSB1bmRlcnN0b29kIHRoYXQgYW5kIHRoYXQgaXQgd2FzIG5vdGhpbmcgbmV3IHRvIHlvdS4gSSBoYXZlIG5ldmVyIHNlZW4geW91IHRyeSB0byBkbyBhbnl0aGluZyBhYm91dCBpdCBzaW5jZSBJJ3ZlIGtub3duIHlvdS4gDQoNCkkgZG9uJ3QgdGhpbmsgSSBjYW4gdHlwZSBhbnltb3JlIHRvbmlnaHQuIEhlcmUncyBhIHF1b3RlIGZyb20gYSBzb25nIHRoYXQgc2VlbXMgZml0dGluZyB0byB0aGUgcmFudC4NCg0KR29vZG5pZ2h0Lg0KDQoJRXZlcnlib2R54oCZcyBnb3QgdGhlaXIgcHJvYmxlbXMNCglFdmVyeWJvZHkgc2F5cyB0aGUgc2FtZSB0aGluZyB0byB5b3UNCglJdOKAmXMganVzdCBhIG1hdHRlciBvZiBob3cgeW91IHNvbHZlIHRoZW0NCglBbmQga25vd2luZyB0aGF04oCZbGwgY2hhbmdlIHRoZSB0aGluZ3MgeW914oCZdmUgYmVlbiB0aHJvdWdoDQoJLS1UaGUgSGVsbCBTb25nIGJ5IFN1bSA0MQ0KDQpQZWFjZSBvdXQgeW8uDQoNCi0tTWF2ZXJpaw=="
+"eventtime","2007-07-25 02:51:00"
+"current_moodid","31"
+"url","http://maverikx.livejournal.com/2752.html"
+"userid","9754"
+"itemid","8"
+"event","Well, I've been sick for the past week and a half, and I am currently still a little sick as it is. Because I was sick, I missed out on much of Christmas (spent it laying in bed) and new years (spent it laying in bed). It has been a generally bad past week and a half for me. I know what triggered it: spending time in a basement filled with mold, mildew, and cigarette smoke. That filled my lungs and throat with nasty stuff, and probably helped open the door for whatever I managed to catch. Thus has been my week.
+
+I do feel better, just not entirely. But that's ok, I've got a monster paycheck coming today. FUN!!!
+
+Get up, come on get down with the sickness.
+
+--Down with the Sickness, Disturbed"
+"eventtime","2007-01-04 09:55:00"
+"current_moodid","82"
+"url","http://maverikx.livejournal.com/2125.html"
+"userid","9754"
+"itemid","7"
+"event","Don't ask about the subject line, I don't even know where it came from.
+
+In the vein of political correctness, I would like to wish everyone a merry/happy/good whateverthef**k you celebrate (if anything). And remember:
+
+""It's ok if you're a Christian, a Muslim or a Jew
+It's ok if you're agnostic and you don't know what to do
+(insert third line that I can never remember here)
+Happy ChristmaHaunnaQuanzika to you.""
+
+Also, merry Quantanamas.
+
+I must be dreaming or
+We're on to something
+I must be dreaming for
+I don't fall in love lawlessly
+I must be dreaming or
+Pinch me to waking
+So undeniably yours
+As long as I'm losing it so completely
+
+--Must be Dreaming, by Frou Frou"
+"eventtime","2006-12-24 14:49:00"
+"current_moodid","57"
+"url","http://maverikx.livejournal.com/1910.html"
+"userid","9754"
+"itemid","6"
+"event","U28sIHdoZXJlIHRvIHN0YXJ0Lg0KDQpGaXJzdCwgSSBsb3N0IHBvd2VyIGZvciB0aHJlZSBkYXlzIGFmdGVyIGFuIGljZSBzdG9ybSBoaXQuIFRoYXQgd2FzIGZ1bi4NCg0KVGhlbiwgSSBnb3QgaW50byBhIGNhciBhY2NpZGVudCB3aGVuIEkgaGl0IGEgcGF0Y2ggb2YgYmxhY2sgaWNlIGFuZCBteSBKZWVwIGZsaXBwZWQuIFRoYXQgd2FzIGZ1bi4NCg0KTm93LCBJIGhhdmUgc2Nob29sIHRyb3VibGVzIChhcyBpbiBwcm9iYWJseSBnb2luZyB0byBuZWVkIHRvIHJldGFrZSBvbmUgY2xhc3MsIHRvdGFsbHkgZmFpbGVkIGFub3RoZXIsIGFuZCB3YXMgbHVja3kgdG8gZ2V0IGEgc2Vjb25kIGNoYW5jZSBvbiB0aGUgdGhpcmQsIG5vdCB0byBtZW50aW9uIHRoYXQgdGhlIFVuaXZlcnNpdHkgY29tcHV0ZXJzIGhhdGUgbWUgYmVjYXVzZSB0aGV5IGtlZXAgZ2l2aW5nIG1lIGNsYXNzZXMgdGhhdCBJIGRvbid0IGhhdmUgYW5kIHRoZW4gdGFraW5nIHRoZW0gYXdheSB3aGVuIEkgaGF2ZSBhbHJlYWR5IHVzZWQgdGhlbSB0byBzaWduIHVwIGZvciBhbm90aGVyIGNsYXNzKS4gT3ZlcmFsbCwgaXQgaGFzIGJlZW4gYSBmdW4gZmV3IHdlZWtzLg0KDQpIb3dldmVyLCBpdCBpcyBub3QgYWxsIGJhZC4gSSBkbyBoYXZlIGEgam9iLCBhbmQgSSBhbSBoYXZpbmcgZnVuIHdpdGggbXkgZnJpZW5kcyBhIGxvdCBsYXRlbHkuIEkgZG9uJ3Qga25vdyB3aGF0IEkgd2FudCBmb3IgY2hyaXN0bWFzIChteSBwYXJlbnRzIGhhdmUgbXkgbGlzdCBvZiB0d28gdGhpbmdzIHRoYXQgSSBrbm93IEkgd2FudCksIGFuZCBJIHN0aWxsIGRvbid0IGhhdmUgZW5vdWdoIG1vbmV5IHRvIGdldCBzdHVmZiBmb3IgbXkgZnJpZW5kcy4gQnV0LCB5ZWFoLiBJdCdzIGtpbmRhIGxpa2UgdGhhdC4NCg0KUGVhY2UuDQoNCglJIGNhbiB0ZWxsIHlvdSB3aHkgcGVvcGxlIGdvIGluc2FuZQ0KCUkgY2FuIHNob3cgeW91IGhvdyB5b3UgY291bGQgZG8gdGhlIHNhbWUNCglJIGNhbiB0ZWxsIHlvdSB3aHkgdGhlIGVuZCB3aWxsIG5ldmVyIGNvbWUNCglJIGNhbiB0ZWxsIHlvdSBJ4oCZbSBhIHNoYWRvdyBvbiB0aGUgc3VuDQoJICAgICAgICAtLVNoYWRvdyBvbiB0aGUgU3VuIGJ5IFRoZSBDaXZpbGlhbiBQcm9qZWN0"
+"eventtime","2006-12-15 23:20:00"
+"current_moodid","7"
+"url","http://maverikx.livejournal.com/1603.html"
+"userid","9754"
+"itemid","4"
+"event","So, life sucks right now. I'm in a cynical mood, so I figgured I'd do the stereotypical thing and blog.
+
+It drives me nuts that I don't have the balls to overcome my problems. I can't figure myself out. I want to cry, yet I cannot. I always hold back the tears. I have cried once in the past I don't know how many years. I didn't cry at my friend's funeral. I didn't cry at anything until some girl shot me down. It's more complicated than that (der; it's probably clear that I don't cry at anything and everything, and it was a huge ammount of stuff that had built up that I was upset over, but that's not nesecarily the point now), but really, that's the gist of it.
+
+As long as I can remember, I have had no self esteem and a low self image. I don't believe in myself, I ""know"" that I'm not smart or tallented, and I cannot see how people find me attractive. The worst part about the whole thing is that I am aware that I *am* smart and tallented and attractive, and that I could do great things if I wanted to. There is just that part of me that will not let go. Self destructive tendancies, I suppose. *I* want to move forward, but part of me does not. That part of me has been winning since sixth grade. I can't overcome it. Every time I fail, it gets stonger, and makes it harder.
+
+Now for the kicker. When I fail, I become mildly angry. The anger never really goes away. It just builds, until I hurt myself somehow (punching walls, usually) because I cannot bring myself to physically hurt others. I am terrified of myself and what I could do if I get angry enough. I can feel it inside of me now, smoldering into a small fire. After a while, it will become too big, I'll lose control, and crack.
+
+Now for some good stuff: I have so many friends who are willing to help me with my problems. They are awesome friends. They have never let me down. I am starting to consider ignoring them for a while. Not for some random reason like ""I want to see who my true friends are."" No, I just hate letting down all these people who want to see me succeed. It makes me feel bad, and they feel bad, and it just sucks. So, ""logic"" dictates that I should just abandon them until they don't care about my happiness anymore. Of course, I won't do this. I know that if I did, I probably would, quite literally, kill myself after a while. Frankly, and this scares me, my own death seems to solve a lot more problems then it would create (I also know that this isn't true).
+
+Oddly enough, this kind of mood comes in spurts with me. I predict that I'll be like this for another couple of days, then be manic for a while. It's always triggered by something, though.
+
+I hate myself. I really do. With a burning thermite passion.
+
+Peace. I know I won't feel that for a while, but I hope that you do."
+"eventtime","2006-11-23 07:57:00"
+"current_moodid","9"
+"url","http://maverikx.livejournal.com/1194.html"
+"userid","9754"
+"itemid","3"
+"event","SSBoYXZlIGRlY2lkZWQgdGhhdCB0aGVyZSBpcyBubyBsYXRlbnQgbWVhbmluZyBhc3NvY2lhdGVkIHdpdGggYW55IGtpbmQgb2YgbXVzaWMuIE5vIHVuaXZlcnNhbCB0aGluZyB0aGF0IGV2ZXJ5b25lIHJlbGF0ZXMgdG8gYW5kIHVuZGVyc3RhbmRzLCBubyBtZXNzYWdlIGluIHRoZSBtdXNpYywgbm8gInRoaW5nIiB0aGF0IG1ha2VzIGl0IGFueXRoaW5nIG90aGVyIHRoYW4gbm90ZXMsIGNob3JkcywgbWVsb2R5LCBhbmQgaGFybW9ueSAoYW5kIHZhcmlvdXMgb3RoZXIgY29tcG9uZW50cywgc3VjaCBhcyBiZWF0KS4gQW55b25lIHdobyB0aGlua3MgdGhhdCB0aGV5IGhhdmUgc29tZSBzb3J0IG9mIHNwZWNpYWwgc29uZyB3aXRoIHRoZWlyIHNpZ25pZmljYW50IG90aGVyIGlzIGRlbHVkaW5nIHRoZW1zZWx2ZXMuIFRoZXJlIHNpbXBseSBJUyBubyBtZWFuaW5nIGluIG11c2ljLiBJdCBpcyBzdHJpY3RseSBmb3IgZW5qb3ltZW50LCBub3RoaW5nIGVsc2UuDQoNClRoaXMgbWF5IHNvdW5kIG9kZCBjb21pbmcgZnJvbSBtZSwgYW4gYXJ0aXN0LCBhbmQgYSBtdXNpY2lhbiAocGlhbm8sIHRydW1wZXQsIGxpbWl0ZWQgdm9jYWxzKS4gV2VsbCwgbGV0IG1lIGV4cGxhaW4uIEFueSBtZWFuaW5nIHRoYXQgd2UgdGhpbmsgdGhlIHNvbmcgaGFzIGlzIHNvbWV0aGluZyB0aGF0IHdlIGFzc2lnbmVkIHRvIGl0LiBUaGVyZSBpcyBubyBvdGhlciBtZWFuaW5nIG9yIG1lc3NhZ2UgaW4gdGhlcmUuIFRoYXQncyBhbGwgdGhlcmUgaXMgdG8gaXQuDQoNCkkgc3VwcG9zZSB5b3Ugd2FudCBtZSB0byBleHBsYWluLiBXZWxsLCBwaWNrIGEgc29uZy4gQW55IHNvbmcgd2lsbCBkby4gU29tZXRoaW5nIHRoYXQgaGFzICJtZWFuaW5nLiIgTWF5YmUgc29tZXRoaW5nIHJvbWFudGljIG9yIHJlYmVsaW91cywgb3Igc29tZXRoaW5nLiBJdCBkb2Vzbid0IG1hdHRlci4gTm93LCBJIGNhbiBndWFyZW50ZWUgdGhhdCB0aGVyZSBpcyBzb21lb25lIG91dCB0aGVyZSB3aG8gZG9lc24ndCBsaWtlIGl0LiBSaWdodCB0aGVyZSBhcmUgdHdvIGRpZmZlcmVudCBmZWVsaW5ncyBhc3NvY2lhdGVkIHdpdGggYSBzb25nOiBsb3ZlL2hhdGUuIE5vdywgYXBwbHkgdGhvc2UgZmVlbGluZ3MgdG8gaG93IHRoYXQgcGVyc29uIGludGVycGVyZXRzIHRoZSBzb25nLCBhbmQgeW91IGFsdGVyIHRoZSBtZWFuaW5nIHRoYXQgaXMgInB1bGxlZCIgZnJvbSB0aGUgc29uZyAoaXQgaXMgYWN0dWFsbHkgbWVhbmluZyB0aGF0IGlzIGFwcGxpZWQgdG8gdGhlIHNvbmcpLiBGb3IgZXhhbXBsZSwgc29tZW9uZSB3aG8gbG92ZXMgc29tZSByb21hbnRpYyBzb25nIG1heSBmaW5kIGl0IHRvIGJlIGRlZXAsIGVtb3Rpb25hbCwgYW5kIGZpbGxlZCB3aXRoIGdyZWF0IHdpc2RvbSBhbmQgbWVhbmluZy4gU29tZW9uZSB3aG8gaGF0ZXMgdGhlIHNhbWUgc29uZyBtYXkgZmluZCBpdCB0byBiZSBzaGFsbG93LCBjbGljaMOpZCwgYW5kIHV0dGVybHkgcG9pbnRsZXNzIHRvIGxpc3RlbiB0by4NCg0KWW91IG1heSBub3cgc2F5IHRoYXQgc29uZ3MgbXVzdCBoYXZlIG1lYW5pbmcgYmVjYXVzZSB0aGUgcGVyc29uIHdobyB3cm90ZSBvciBjb21wb3NlZCB0aGUgc29uZyBnYXZlIGl0IG1lYW5pbmcuIFRoaXMgaXMgd3JvbmcuIFdoZW4gaXQgaXMgYnJva2VuIGRvd24sIGFsbCBtdXNpYyBpcyBpcyB3b3JkcyBzdW5nIHRvIGEgbWVsb2R5IGFuZCBoYXJtb255IHdpdGggc29tZSBjaG9yZHMgYW5kIGEgYmVhdC4gTXVzaWMgZG9lcyBub3QgcmVxdWlyZSBtZWFuaW5nLiBJdCBtdXN0IHNvdW5kIHBsZWFzZW50LCBvciBlbHNlIGl0IGlzIG5vdGhpbmcgYnV0IG5vaXNlLiBBbHNvLCB0aGUgd29yZHMgbXVzdCBzdGluZyB0b2dldGhlciBjb3JyZWN0bHksIG9yIGVsc2UgaXQgaXMgYSBwbGVhc2VudCBzb3VuZGluZyBqdW1ibGUgb2YgcmFuZG9tIHdvcmRzIChMaXN0ZW4gdG8gdGhlIHNvbmcgIkJvYiIgYnkgV2VpcmQgQWwuIEl0IGlzIG5vdGhpbmcgYnV0IHJhbmRvbSB3b3JkcyBhbmQgcGhyYXNlcyB0aGF0IGFyZSBwYWxpbmRyb21lcywgYW5kIHdoZW4gaXQgaXMgcHV0IHRvZ2V0aGVyLCBpdCBzb3VuZHMgY29tcGxldGVseSByYW5kb20pLiBIb3dldmVyLCBldmVuIHRob3VnaCBhbiBhcnRpc3QgZ2F2ZSBhIHNvbmcgbWVhbmluZywgaXQgaXMgaGlzL2hlciBwZXJzb25hbCBtZWFuaW5nLCBhbmQgdW5sZXNzIGhlL3NoZSBwdWJsaXNoZXMgdGhlIGluc3BpcmF0aW9uIGFuZCBtZWFuaW5nIGZvciB0aGF0IHNvbmcsIGl0IHdpbGwgcmVtYWluIGhpcy9oZXIgcGVyc29uYWwgbWVhbmluZy4gSWYgaGUvc2hlIHB1Ymxpc2hlcyBpdCwgdGhlbiB0aGUgbWVhbmluZyBpcyBzaGFyZWQgYnkgcmFuZG9tLCByYWJpZCBmYW5zIGFuZCBvdmVyIHRpbWUsIHdoZW4gZW5vdWdoIHBlb3BsZSBrbm93IHdoYXQgdGhlIG9yaWdpbmFsIGludGVudCB3YXMsIGl0IGxvc2VzIGl0J3MgdW5pcXVlbmVzcywgYW5kIGlzIGp1c3QgcG9pbnRsZXNzLg0KDQpBbSBJIHNheWluZyB0aGF0IGV2ZXJ5b25lIHdobyBhcHBsaWVzIG1lYW5pbmcgdG8gYSBzb25nIGlzIHN0dXBpZD8gTm8uIEkgZG8gaXQuIE15IGZyaWVuZHMgZG8gaXQuIEV2ZXJ5b25lIGRvZXMgaXQuIEl0J3MganVzdCByZWFsaXppbmcgdGhhdCB5b3UncmUgZG9pbmcgaXQgdGhhdCBJIHRoaW5rIGlzIGltcG9ydGFudC4gV2hlbiB5b3UgZ2V0IHRvbyBhYnNvcmJlZCBpbiB0aGUgbWVhbmluZyBvZiBhIHNvbmcsIGl0IGRldm91cnMgeW91LiBUaGUgc29uZyBiZWdpbnMgY2hhbmdpbmcgeW91LCBhbmQgeW91IGxvc2UgdGhhdCB3aGljaCBpcyB1bmlxdWUgYWJvdXQgeW91cnNlbGYuIFNvb24gZW5vdWdoLCB5b3UncmUgbGlzdGVuaW5nIHRvIHNpbWlsYXIgbXVzaWMgZXhjbHVzaXZlbHksIGFuZCB0dW5pbmcgb3V0IGV2ZXJ5dGhpbmcgZWxzZS4gVGhpcyBpcyBiYWQuIEknbSBub3Qgc2F5aW5nIGxpa2UgYWxsIHR5cGVzIG9mIG11c2ljLCBJJ20ganVzdCBzYXlpbmcgdG8ga2VlcCBhbiBvcGVuIG1pbmQuDQoNCk9oLCBhbmQgZm9yIHRob3NlIG9mIHlvdSB3aG8gaGF2ZSBhICJzcGVjaWFsIHNvbmciIGZvciB5b3UgYW5kIHlvdXIgc2lnbmlmaWNhbnQgb3RoZXIsIHlvdSBtdXN0IHJlYWxpemUgdGhhdCB0aGVyZSBhcmUgYSB0aG91c2FuZCBkaWZmZXJlbnQgcGVvcGxlIHdobyBoYXZlIHRoZSBzYW1lIHNvbmcsIGFuZCBldmVyeSBzaW5nbGUgY291cGxlIGhhcyBhIGRpZmZlcmVudCBtZWFuaW5nIGZvciBpdC4gQW5kIGRvbid0IHVzZSB0aGUgZXhjdXNlICJJIGRvbid0IGtub3cgYW55b25lL2hhdmVuJ3QgbWV0IGFueW9uZSB3aG8gaGFzIHRoZSBzYW1lIHNvbmcgd2UgZG8hIiBJIGFzayB5b3UgdGhpczogSG93IG1hbnkgcGVvcGxlIGRvIHlvdSBrbm93IGFuZCBoYXZlIGFza2VkIHdoYXQgdGhlaXIgInNwZWNpYWwgc29uZyIgaXM/IEknbSBzdXJlIGl0J3MgcmVsYXRpdmVseSBzbWFsbCBjb21wYXJlZCB0byB0aGUgaHVuZHJlZHMgb2YgbWlsbGlvbnMgb2YgcGVvcGxlIGluIHRoZSBVUyBhbG9uZS4gU28gc2h1dCB1cC4NCg0KSSdtIGRvbmUuIEdvIGhvbWUu"
+"eventtime","2006-11-18 06:51:00"
+"current_moodid","47"
+"url","http://maverikx.livejournal.com/918.html"
+"userid","9754"
+"itemid","2"
+"event","I have LiveJournal now! Does this make me emo?
+
+Anyone out there who wants some conversation, drop on by! If I don't find you first.........."
+"eventtime","2006-11-17 07:24:00"
+"current_moodid","11"
+"url","http://maverikx.livejournal.com/705.html"
+"userid","9754"

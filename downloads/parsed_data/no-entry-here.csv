@@ -1,0 +1,796 @@
+"names","values"
+"itemid","553"
+"event","QXBwYXJlbnRseSDigJxUaGUgQmlnIFJlYWTigJ0gYXNzdW1lcyB0aGF0IHRoZSBhdmVyYWdlIGFkdWx0IGhhcyBvbmx5IHJlYWQgNiBvZiB0aGUgdG9wIDEwMCBib29rcyB0aGV5J3ZlIHByaW50ZWQuDQoNCjEpIDxiPkxvb2sgYXQgdGhlIGxpc3QgYW5kIGJvbGQgdGhvc2UgeW91IGhhdmUgcmVhZC48L2I+DQoyKSA8aT5JdGFsaWNpemUgdGhvc2UgeW91IGludGVuZCB0byByZWFkLjwvaT4NCjMpIDx1PlVuZGVybGluZSB0aGUgYm9va3MgeW91IExPVkUuPC91Pg0KNCkgUmVwcmludCB0aGlzIGxpc3QgaW4geW91ciBvd24gTEogc28gd2UgY2FuIHRyeSBhbmQgdHJhY2sgZG93biB0aGVzZSBwZW9wbGUgd2hvJ3ZlIHJlYWQgNiBhbmQgZm9yY2UgYm9va3MgdXBvbiB0aGVtIDstKQ0KDQo8bGotY3V0IHRleHQ9IkJvb2sgTWVtZS4gUmVhZGluZyBpcyBzZXh5LiI+DQoxIFByaWRlIGFuZCBQcmVqdWRpY2UgLSBKYW5lIEF1c3Rlbg0KDQoyIDxiPlRoZSBMb3JkIG9mIHRoZSBSaW5ncyAtIEpSUiBUb2xraWVuPC9iPg0KDQozIEphbmUgRXlyZSAtIENoYXJsb3R0ZSBCcm9udGUNCg0KNCA8Yj48dT5IYXJyeSBQb3R0ZXIgc2VyaWVzIC0gSksgUm93bGluZzwvdT48L2I+DQoNCjUgPGI+VG8gS2lsbCBhIE1vY2tpbmdiaXJkIC0gSGFycGVyIExlZTwvYj4NCg0KNiBUaGUgQmlibGUNCg0KNyBXdXRoZXJpbmcgSGVpZ2h0cyAtIEVtaWx5IEJyb250ZQ0KDQo4IDxpPk5pbmV0ZWVuIEVpZ2h0eSBGb3VyIC0gR2VvcmdlIE9yd2VsbDwvaT4NCg0KOSA8Yj48dT5IaXMgRGFyayBNYXRlcmlhbHMgLSBQaGlsaXAgUHVsbG1hbjwvdT48L2I+DQoNCjEwIDxpPkdyZWF0IEV4cGVjdGF0aW9ucyAtIENoYXJsZXMgRGlja2VuczwvaT4NCg0KMTEgPGI+TGl0dGxlIFdvbWVuIC0gTG91aXNhIE0gQWxjb3R0PC9iPg0KDQoxMiBUZXNzIG9mIHRoZSBEJ1VyYmVydmlsbGVzIC0gVGhvbWFzIEhhcmR5DQoNCjEzIDxpPkNhdGNoIDIyIC0gSm9zZXBoIEhlbGxlcjwvaT4NCg0KMTQgQ29tcGxldGUgV29ya3Mgb2YgU2hha2VzcGVhcmUNCg0KMTUgUmViZWNjYSAtIERhcGhuZSBEdSBNYXVyaWVyDQoNCjE2IDxiPjx1PlRoZSBIb2JiaXQgLSBKUlIgVG9sa2llbjwvdT48L2I+DQoNCjE3IEJpcmRzb25nIC0gU2ViYXN0aWFuIEZhdWxrcw0KDQoxOCA8aT5DYXRjaGVyIGluIHRoZSBSeWUgLSBKRCBTYWxpbmdlcjwvaT4NCg0KMTkgVGhlIFRpbWUgVHJhdmVsZXIncyBXaWZlIC0gQXVkcmV5IE5pZmZlbmVnZ2VyDQoNCjIwIE1pZGRsZW1hcmNoIC0gR2VvcmdlIEVsaW90IA0KDQoyMSBHb25lIFdpdGggVGhlIFdpbmQgLSBNYXJnYXJldCBNaXRjaGVsbA0KDQoyMiA8Yj5UaGUgR3JlYXQgR2F0c2J5IC0gRiBTY290dCBGaXR6Z2VyYWxkPC9iPg0KDQoyMyBCbGVhayBIb3VzZSAtIENoYXJsZXMgRGlja2Vucw0KDQoyNCBXYXIgYW5kIFBlYWNlIC0gTGVvIFRvbHN0b3kNCg0KMjUgVGhlIEhpdGNoIEhpa2VyJ3MgR3VpZGUgdG8gdGhlIEdhbGF4eSAtIERvdWdsYXMgQWRhbXMNCg0KMjYgQnJpZGVzaGVhZCBSZXZpc2l0ZWQgLSBFdmVseW4gV2F1Z2gNCg0KMjcgQ3JpbWUgYW5kIFB1bmlzaG1lbnQgLSBGeW9kb3IgRG9zdG95ZXZza3kNCg0KMjggPGI+R3JhcGVzIG9mIFdyYXRoIC0gSm9obiBTdGVpbmJlY2s8L2I+DQoNCjI5IEFsaWNl4oCZcyBBZHZlbnR1cmVzIGluIFdvbmRlcmxhbmQgLSBMZXdpcyBDYXJyb2xsDQoNCjMwIFRoZSBXaW5kIGluIHRoZSBXaWxsb3dzIC0gS2VubmV0aCBHcmFoYW1lDQoNCjMxIEFubmEgS2FyZW5pbmEgLSBMZW8gVG9sc3RveQ0KDQozMiBEYXZpZCBDb3BwZXJmaWVsZCAtIENoYXJsZXMgRGlja2Vucw0KDQozMyA8aT5DaHJvbmljbGVzIG9mIE5hcm5pYSAtIENTIExld2lzPC9pPg0KDQozNCBFbW1hIC0gSmFuZSBBdXN0ZW4NCg0KMzUgUGVyc3Vhc2lvbiAtIEphbmUgQXVzdGVuDQoNCjM2IDxpPlRoZSBMaW9uLCBUaGUgV2l0Y2ggYW5kIFRoZSBXYXJkcm9iZTwvaT4NCg0KMzcgVGhlIEtpdGUgUnVubmVyIC0gS2hhbGVkIEhvc3NlaW5pDQoNCjM4IENhcHRhaW4gQ29yZWxsaSdzIE1hbmRvbGluIC0gTG91aXMgRGUgQmVybmllcmVzDQoNCjM5IE1lbW9pcnMgb2YgYSBHZWlzaGEgLSBBcnRodXIgR29sZGVuDQoNCjQwIDxiPldpbm5pZSB0aGUgUG9vaCAtIEFBIE1pbG5lPC9iPg0KDQo0MSA8Yj5BbmltYWwgRmFybSAtIEdlb3JnZSBPcndlbGw8L2I+DQoNCjQyIDxpPlRoZSBEYSBWaW5jaSBDb2RlIC0gRGFuIEJyb3duPC9pPg0KDQo0MyBPbmUgSHVuZHJlZCBZZWFycyBvZiBTb2xpdHVkZSAtIEdhYnJpZWwgR2FyY2lhIE1hcnF1ZXoNCg0KNDQgQSBQcmF5ZXIgZm9yIE93ZW4gTWVhbnkgLSBKb2huIElydmluZw0KDQo0NSBUaGUgV29tYW4gaW4gV2hpdGUgLSBXaWxraWUgQ29sbGlucw0KDQo0NiA8Yj5Bbm5lIG9mIEdyZWVuIEdhYmxlcyAtIExNIE1vbnRnb21lcnk8L2I+DQoNCjQ3IEZhciBGcm9tIFRoZSBNYWRkaW5nIENyb3dkIOKAkyBUaG9tYXMgSGFyZHkNCg0KNDggVGhlIEhhbmRtYWlkJ3MgVGFsZSAtIE1hcmdhcmV0IEF0d29vZA0KDQo0OSA8Yj48dT5Mb3JkIG9mIHRoZSBGbGllcyAtIFdpbGxpYW0gR29sZGluZzwvdT48L2I+DQoNCjUwIEF0b25lbWVudCAtIElhbiBNY0V3YW4NCg0KNTEgTGlmZSBvZiBQaSAtIFlhbm4gTWFydGVsDQoNCjUyIDxpPkR1bmUgLSBGcmFuayBIZXJiZXJ0PC9pPg0KDQo1MyBDb2xkIENvbWZvcnQgRmFybSAtIFN0ZWxsYSBHaWJib25zDQoNCjU0IFNlbnNlIGFuZCBTZW5zaWJpbGl0eQ0KDQo1NSBBIFN1aXRhYmxlIEJveSAtIFZpa3JhbSBTZXRoDQoNCjU2IFRoZSBTaGFkb3cgb2YgdGhlIFdpbmQgLSBDYXJsb3MgUnVpeiBaYWZvbg0KDQo1NyBBIFRhbGUgT2YgVHdvIENpdGllcyAtIENoYXJsZXMgRGlja2Vucw0KDQo1OCBCcmF2ZSBOZXcgV29ybGQgLSBBbGRvdXMgSHV4bGV5DQoNCjU5IDxiPlRoZSBDdXJpb3VzIEluY2lkZW50IG9mIHRoZSBEb2cgaW4gdGhlIE5pZ2h0LXRpbWUgLSBNYXJrIEhhZGRvbjwvYj4NCg0KNjAgTG92ZSBJbiBUaGUgVGltZSBPZiBDaG9sZXJhIC0gR2FicmllbCBHYXJjaWEgTWFycXVleg0KDQo2MSBPZiBNaWNlIGFuZCBNZW4gLSBKb2huIFN0ZWluYmVjaw0KDQo2MiBMb2xpdGEgLSBWbGFkaW1pciBOYWJva292DQoNCjYzIFRoZSBTZWNyZXQgSGlzdG9yeSAtIERvbm5hIFRhcnR0DQoNCjY0IDxiPlRoZSBMb3ZlbHkgQm9uZXMgLSBBbGljZSBTZWJvbGQ8L2I+DQoNCjY1IENvdW50IG9mIE1vbnRlIENyaXN0byAtIEFsZXhhbmRyZSBEdW1hcw0KDQo2NiBPbiBUaGUgUm9hZCAtIEphY2sgS2Vyb3VhYw0KDQo2NyBKdWRlIHRoZSBPYnNjdXJlIC0gVGhvbWFzIEhhcmR5DQoNCjY4IEJyaWRnZXQgSm9uZXMncyBEaWFyeSAtIEhlbGVuIEZpZWxkaW5nDQoNCjY5IE1pZG5pZ2h0J3MgQ2hpbGRyZW4gLSBTYWxtYW4gUnVzaGRpZQ0KDQo3MCBNb2J5IERpY2sgLSBIZXJtYW4gTWVsdmlsbGUNCg0KNzEgPGI+T2xpdmVyIFR3aXN0IC0gQ2hhcmxlcyBEaWNrZW5zPC9iPg0KDQo3MiBEcmFjdWxhIC0gQnJhbSBTdG9rZXINCg0KNzMgVGhlIFNlY3JldCBHYXJkZW4gLSBGcmFuY2VzIEhvZGdzb24gQnVybmV0dA0KDQo3NCBOb3RlcyBGcm9tIEEgU21hbGwgSXNsYW5kIC0gQmlsbCBCcnlzb24NCg0KNzUgVWx5c3NlcyAtIEphbWVzIEpveWNlDQoNCjc2IFRoZSBCZWxsIEphciAtIFN5bHZpYSBQbGF0aA0KDQo3NyBTd2FsbG93cyBhbmQgQW1hem9ucyAtIEFydGh1ciBSYW5zb21lDQoNCjc4IEdlcm1pbmFsIC0gRW1pbGUgWm9sYQ0KDQo3OSBWYW5pdHkgRmFpciAtIFdpbGxpYW0gTWFrZXBlYWNlIFRoYWNrZXJheQ0KDQo4MCBQb3NzZXNzaW9uIC0gQVMgQnlhdHQNCg0KODEgQSBDaHJpc3RtYXMgQ2Fyb2wgLSBDaGFybGVzIERpY2tlbnMNCg0KODIgQ2xvdWQgQXRsYXMgLSBEYXZpZCBNaXRjaGVsbA0KDQo4MyBUaGUgQ29sb3IgUHVycGxlIC0gQWxpY2UgV2Fsa2VyDQoNCjg0IFRoZSBSZW1haW5zIG9mIHRoZSBEYXkgLSBLYXp1byBJc2hpZ3Vybw0KDQo4NSBNYWRhbWUgQm92YXJ5IC0gR3VzdGF2ZSBGbGF1YmVydA0KDQo4NiBBIEZpbmUgQmFsYW5jZSAtIFJvaGludG9uIE1pc3RyeQ0KDQo4NyA8Yj5DaGFybG90dGUncyBXZWIgLSBFQiBXaGl0ZTwvYj4NCg0KODggPGk+VGhlIEZpdmUgUGVvcGxlIFlvdSBNZWV0IEluIEhlYXZlbiAtIE1pdGNoIEFsYm9tPC9pPg0KDQo4OSBBZHZlbnR1cmVzIG9mIFNoZXJsb2NrIEhvbG1lcyAtIFNpciBBcnRodXIgQ29uYW4gRG95bGUNCg0KOTAgVGhlIEZhcmF3YXkgVHJlZSBDb2xsZWN0aW9uIC0gRW5pZCBCbHl0b24NCg0KOTEgSGVhcnQgb2YgRGFya25lc3MgLSBKb3NlcGggQ29ucmFkDQoNCjkyIDxiPjx1PlRoZSBMaXR0bGUgUHJpbmNlIC0gQW50b2luZSBEZSBTYWludC1FeHVwZXJ5PC91PjwvYj4NCg0KOTMgVGhlIFdhc3AgRmFjdG9yeSAtIElhaW4gQmFua3MNCg0KOTQgV2F0ZXJzaGlwIERvd24gLSBSaWNoYXJkIEFkYW1zDQoNCjk1IDxpPkEgQ29uZmVkZXJhY3kgb2YgRHVuY2VzIC0gSm9obiBLZW5uZWR5IFRvb2xlPC9pPg0KDQo5NiBBIFRvd24gTGlrZSBBbGljZSAtIE5ldmlsIFNodXRlDQoNCjk3IFRoZSBUaHJlZSBNdXNrZXRlZXJzIC0gQWxleGFuZHJlIER1bWFzDQoNCjk4IDxiPkhhbWxldCAtIFdpbGxpYW0gU2hha2VzcGVhcmU8L2I+DQoNCjk5IDxiPkNoYXJsaWUgYW5kIHRoZSBDaG9jb2xhdGUgRmFjdG9yeSAtIFJvYWxkIERhaGw8L2I+DQoNCjEwMCBMZXMgTWlzZXJhYmxlcyAtIFZpY3RvciBIdWdvDQo8L2xqLWN1dD4="
+"eventtime","2009-01-31 12:28:00"
+"url","http://no-entry-here.livejournal.com/141720.html"
+"userid","11060"
+"itemid","552"
+"event","<lj-template name=""qotd"" id=""757"" />
+
+<img src=""http://www.linternaute.com/sortir/cinema/diaporama/05/harry-potter-et-la-coupe-de-feu/dragon.jpg"">
+
+.... obviously."
+"eventtime","2009-01-27 20:57:00"
+"url","http://no-entry-here.livejournal.com/141343.html"
+"userid","11060"
+"itemid","549"
+"event","Washington
+Adams
+Jefferson
+Madison
+Monroe
+Adams
+Jackson
+Van Buren
+Harrison
+Tyler
+Polk
+Taylor
+Filmore
+Pierce
+Buchanan
+Lincoln
+Johnson
+Grant
+Hayes
+Garfield
+Arthur
+Cleveland
+Harrison
+Cleveland
+McKinley
+Roosevelt
+Taft
+Wilson
+Harding
+Coolidge
+Hoover
+Roosevelt
+Truman
+Eisenhower
+Kennedy
+Johnson
+Nixon
+Ford
+Carter
+Reagan
+Bush
+Clinton
+Bush
+OBAMA.
+
+That is all."
+"eventtime","2009-01-20 23:27:00"
+"url","http://no-entry-here.livejournal.com/140661.html"
+"userid","11060"
+"itemid","545"
+"event","I think I've been holding a lot of things in, this quarter. I haven't really cried. No major explosions of emotion, though I'm not a particularly outwardly-emotional person, anyway.
+
+In any case, the littlest things are setting me off, right now. I sat in my car in front of the closed Starbucks (on a journey to buy a last-minute giftcard for Guy's girlfriend) and actually started crying because I'd have to drive another few miles on scary, icy Avondale in order to make it to the Safeway, instead.
+
+I probably just need a good cry. One where I'm crying because of what I <i>should</i> be crying about, rather than a closed Starbucks and icy roads."
+"eventtime","2008-12-23 22:33:00"
+"url","http://no-entry-here.livejournal.com/139575.html"
+"userid","11060"
+"itemid","543"
+"event","Screw everyone. I loved it!"
+"eventtime","2008-11-22 21:45:00"
+"url","http://no-entry-here.livejournal.com/139011.html"
+"userid","11060"
+"itemid","541"
+"event","A few nights ago, I dreamed that I found a body in a dumpster. My immediate reaction was, ""I CANNOT TELL ANYONE. THEY WILL ALL THINK I KILLED THIS DUDE."" I apparently told my dad, and his suggestion was to tell someone, but I decided against that.
+
+The fucking body ended up HAUNTING me throughout my dream, angry that I hadn't told anyone what happened to him. I remember an interesting chase scene where my brother and I were running from south campus to north campus. Odd. My dreams are never this vivid.
+
+As much as it was gross and macabre, I really quite liked the dream. It reminds me of the interesting scenarios our subconscious is able to come up with."
+"eventtime","2008-11-07 18:35:00"
+"url","http://no-entry-here.livejournal.com/138749.html"
+"userid","11060"
+"itemid","540"
+"event","<img src=""http://sathyasaibaba.files.wordpress.com/2008/08/barack-obama.jpg"">
+
+I am so thrilled to be a part of our nation, at this moment. I cannot wait to see what the next four (or eight) years have in store for us.
+
+History has been made today, and while it's fantastic that we've finally elected a man of African American descent as President of the United States of America, I'm even more proud of the fact that my age demographic voted in record numbers.
+
+Yes we can."
+"eventtime","2008-11-04 21:57:00"
+"url","http://no-entry-here.livejournal.com/138472.html"
+"userid","11060"
+"itemid","538"
+"event","<center><i>When you see this, post in your own journal with your favorite quote from The Princess Bride. Preferably not ""As you wish"" or the Inigo Montoya speech.</i>
+
+<b>""There is a shortage of perfect breasts in the world. T'would be a pity to damage yours.""</b>
+
+and
+
+<b>""I just work for Vizzini to pay the bills. There's not a lot of money in revenge.""</b></center>"
+"eventtime","2008-10-10 12:24:00"
+"url","http://no-entry-here.livejournal.com/137796.html"
+"userid","11060"
+"itemid","537"
+"event","I have a butt!
+
+I've never had a butt. Except... maybe when I was a baby and I crawled around naked everywhere.
+
+Apparently my weight loss is getting rid of the fat on my thighs, first, because both of my roommates have commented with surprise that I actually, thank goodness, have grown an ASS. Now, if only I could say ""goodbye"" to my belly, next.
+
+Huzzah, hooray, whoop-de-doo. Sexy body, here I come."
+"eventtime","2008-10-09 15:22:00"
+"url","http://no-entry-here.livejournal.com/137515.html"
+"userid","11060"
+"itemid","536"
+"event","Down two pounds, this week. The whole centre basically started cheering as soon as I stepped off of the scale.
+
+It feels good to lose.
+
+Also, my legs are ridiculous."
+"eventtime","2008-10-06 15:11:00"
+"url","http://no-entry-here.livejournal.com/137449.html"
+"userid","11060"
+"itemid","535"
+"event","<b><u>Biggest Pet Peeve</b></u>: Fickleness."
+"eventtime","2008-10-05 08:00:00"
+"url","http://no-entry-here.livejournal.com/137038.html"
+"userid","11060"
+"itemid","534"
+"event","To work or not to work?
+
+I applied to work at Jenny Craig as a consultant almost a month ago. I'm personable, bubbly, and I know how it feels to go through the weight-loss cycle. I talked with the area director a few times on the phone, turned in my application, and was told that I'd get a phone call from corporate to set up an interview.
+
+No phone call.
+No phone call.
+No phone call.
+
+I started to get used to the idea of going a quarter without a job. Sure, it sucks to spend money (I spend way too much on produce at the grocery store) without earning any, but I could deal with it. I have money saved up for times like this, and I'm not too worried about it. I like the freedom associated with being able to go home for a random weekend, getting a full Thanksgiving Break, and enjoying more than a few days home with my family for Christmas.
+
+I got a call today to set up an interview. They seem really interested in hiring me. I think I'm going to do the interview...
+
+But maybe I'll just have to make it perfectly clear that I shouldn't be hired if I can't go home for the upcoming holidays. And that I really really can't handle more than three days a week. My classes are already kicking my ass, as it is.
+
+I guess we'll see.
+
+<b>[Later]</b>
+
+Called Cheryl at Jenny Craig. Told her my restrictive schedule. ""We'll have to look elsewhere. Sorry.""
+
+You know what? I'm totally okay with that!"
+"eventtime","2008-10-03 22:14:00"
+"url","http://no-entry-here.livejournal.com/136759.html"
+"userid","11060"
+"itemid","532"
+"event","I find myself in my usual place, at the beginning of each quarter.
+
+Worried. Stressed. Overwhelmed.
+
+The workload shouldn't be too awful, though I <i>am</i> taking three 400 levels and a 300 level. It's just 16 credits and I'm not in band, so the time commitment won't be there. All four classes are education-related: health ed, math ed, science ed and a literacy practicum. I can do this. I know I'll be fine.
+
+It's more... the intense pressure and my own personal resistance to adding anything <i>more</i> to my schedule. Agreeing to host a Halloween party for a friend's birthday. Wondering whether or not I should accept the invitation to dinner from the friendly freshman student. Even going out to a movie with my roommates. Adding commitments, however small, is stressing me out.
+
+I'll get over it. I will. I'm just being a homebody and enjoying the me-time that comes along with my pages of textbook reading, my over-thought answers to the math homework. I suppose this is more an apology than anything else. I apologize if I become a bit of a hermit, real life friends. I'm just taking some time to figure out how I'm going to function, this quarter.
+
+
+
+In other news, my health education professor is three months pregnant and absolutely adorable. I've already confided in her that I'm thrilled for the opportunity to watch her grow. :)
+
+
+Oh. And also. $500 on textbooks is outrageous. Fuck you, Woodring. Fuck you.
+
+
+<i>[Edited in Later]</i>
+
+I've been on a diet for the past two months, or so. The first month, I lost 6 pounds. You know, a respectable amount.
+
+Ever since I moved back up to B'ham, my weight has remained CONSTANT, though I continue to cut out the calories and up my workout and weights. My weight-loss consultant is perplexed, I'm disheartened, and basically I just want to see a massive result to make up for the past two weeks of NOTHING.
+
+I really don't know what's up. If anyone here has any ideas, feel free to fill me in."
+"eventtime","2008-09-25 17:46:00"
+"current_moodid","28"
+"url","http://no-entry-here.livejournal.com/136366.html"
+"userid","11060"
+"itemid","529"
+"event","Halfway through August, and this month is a pile of stinking compost.
+
+1. <u>Breaking Dawn</u> was perhaps the biggest waste of 10 hours of my life. I'd like that time back, please, Stephenie Meyer. And then you can go rewrite the story for REAL, okay?
+
+2. Bernie Mac died. Will celebrities please stop dying? Don't you know that I view you all as IMMORTAL? You are like a character in my fiction novels; you are NOT allowed to die if the author hasn't written that ending for you. Nothing, of course, will match the grief <lj user=""hp_speculation""> and I shared in January, but seeing men and women in their prime being taken away from their fabulous futures is still rough.
+
+3. The release of <i>Harry Potter and the Half-Blood Prince</i> was pushed back to NEXT JULY. OH GREAT. That means I can't get in line at the theaters until JUNE. And it's fucking HOT here in June and July. November is much more manageable, with my full Gryffindor costume, complete-with-cloak-and-scarf. Warner Brothers is full of greedy bitches.
+
+4. That's all I've got.
+
+SO. My birthday is next week, and I've decided that the madness must outshine all of these horrific and saddening events. That's a lot of work for one short day, but I think I'll get by (with a little help from my friends).
+
+Hopefully your month has sucked less. The Olympics have been pretty badass. Those gymnasts have FREAKY huge necks! Teeny tiny little gymnast bodies and then BAM. Football player necks.
+
+<i>Editted In Later</i>:
+5. Thanks to <lj user=""hp_speculation"">, I now am aware of the fact that Twilight's release date in theaters has been moved up three weeks. This is both a positive and a negative because |+| now I get to watch RPat be delicious and beautiful as Edward EARLIER and |-| I have to worry about working and where I'll be over Thanksgiving Break. Which is total balls.
+
+6. ALSO thanks to <lj user=""hp_speculation"">, Isaac Hayes, the man formerly known as ""Chef"" on South Park, died last weekend.
+
+
+ALSO. I was watching SO YOU THINK YOU CAN DANCE (no I don't think I can dance!) and:
+
+<lj-embed id=""3""/>
+
+Neil makes me want to make beautiful babies with him. He looks like Prince Edward Cullen.
+
+<img src=""http://farm3.static.flickr.com/2102/1549232066_4a8949ab09.jpg?v=0"">
+He's on the left. And he's also delicious."
+"eventtime","2008-08-15 16:25:00"
+"url","http://no-entry-here.livejournal.com/135484.html"
+"userid","11060"
+"itemid","528"
+"event","Cute boy at the Gold's Gym desk introduced himself to me, today. He's the one that says, ""I don't even need to ask you how you're doing, today. You're 'really great' or 'excellent'!"" His name is Sammy, and that guy has always got a smile on his face. :)
+
+I told him my name, beamed at him, and went upstairs for my workout.
+
+Maybe he'll ask me out in a few days. He's ridiculously adorable, and he seems upbeat and smiley. FUNNN."
+"eventtime","2008-07-17 22:10:00"
+"url","http://no-entry-here.livejournal.com/135384.html"
+"userid","11060"
+"itemid","527"
+"event","I had a dream I was an RA, last night. And... I think Dark Knight got mixed in a little, because the building started burning and my car blew up. Unfortunately for all involved, the Joker wasn't in my dream. I wouldn't have minded that at all!
+
+Still, I think the most unnerving and heart-racing part of the dream was realizing that I was an RA, again. All I could think of was, ""... when did I sign up for this?""
+
+
+
+Oh. And Charity says that we have hottie boy neighbors in our new apartment. WEE!"
+"eventtime","2008-07-16 08:30:00"
+"url","http://no-entry-here.livejournal.com/135142.html"
+"userid","11060"
+"itemid","525"
+"event","Biked 5 miles to the gym.
+Swam for a half hour.
+Biked back.
+
+
+
+I'm dead."
+"eventtime","2008-06-30 18:16:00"
+"url","http://no-entry-here.livejournal.com/134406.html"
+"userid","11060"
+"itemid","524"
+"event","<i>You are in a mall when the zombies attack. You have:
+1. one weapon.
+2. one song blasting on the speakers.
+3. one famous person to fight alongside you.
+
+Weapon can be real or fictional, you may assume endless ammo if applicable. Person can be real or fictional.</i>
+
+1. A cave troll. Even though they can't even kill Frodo or the Hogwarts Trio properly, there's a massive scare factor, there.
+
+2. Thriller. Duh.
+
+3. Captain Malcolm Reynolds. WITHOUT FAIL. The whole reason I decided to do this meme was because of that third little question, where my brain immediately clicked from ""bored"" to ""I LOVE MY CAPTAIN!"" I can already see it. Mal's storms into the lingerie section of the departments store, laser guns a-blazin', causing a diversion with a mannequin or something else brilliant."
+"eventtime","2008-06-25 17:16:00"
+"url","http://no-entry-here.livejournal.com/134240.html"
+"userid","11060"
+"itemid","523"
+"event","I bought a three-month membership to Gold's Gym, today. I'm incredibly motivated to work out and lose this weight. It's been a long haul, tummy and love handles, and we've been through a lot together. Now, it's time for you to leave.
+
+Gold's is gorgeous. I'm excited to go, tomorrow. I feel like I can do my own thing and people aren't watching. Not that I usually feel self-conscious at the gym, but it's nice to know that I'm comfortable there. Plus the smoothies are freaking amazing.
+
+I have a date tomorrow night with a nice-sounding guy. I hope things go well. This could definitely be a wonderful summer for a little romance, you know?"
+"eventtime","2008-06-24 22:14:00"
+"url","http://no-entry-here.livejournal.com/133960.html"
+"userid","11060"
+"itemid","520"
+"event","This is why I love <lj user=""hp_speculation"">:
+
+<img src=""http://img.photobucket.com/albums/v441/razzlebari/Picture3.png"">
+
+Because all away messages should look like this!"
+"eventtime","2008-06-11 10:28:00"
+"url","http://no-entry-here.livejournal.com/133364.html"
+"userid","11060"
+"itemid","519"
+"event","So. I woke up this morning at like... oh... six? When my eyes opened, all I could really see was my arm, hanging off the head of my bed... at a VERY odd angle. Like. NOT NORMAL.
+
+I couldn't move my fingers.
+
+I used my other arm to pull my non-functional arm onto the bed, and I held my forearm up to see if I could move it at all. My forearm fell forward and slapped me in the face. I was still not quite awake by this point, so that was rather startling.
+
+Eventually the feeling came back to my hand (I'd been convinced that somehow I dislocated my arm in the night) and I realized the moral to this story: don't sleep on top of your arm. It'll go numb and then smack you for it."
+"eventtime","2008-06-09 10:13:00"
+"url","http://no-entry-here.livejournal.com/132907.html"
+"userid","11060"
+"itemid","518"
+"event","While cleaning up my room (which is going to take AGES), I found a birthday card my brother wrote for me, last year.
+
+The front contains my friends from the Hundred Acre Wood: Rabbit, Pooh, Piglet and Tigger, all in party hats. ""A birthday is the happiest sort of day,"" said Pooh.
+
+On the inside, my brother drew a container of ""happy pillz"" and rainclouds.
+
+""Unfortunately for the other tenants of the 100-acre wood, Eeyore was unable to attend Pooh's celebration. Owl was, at that very moment, checking said ass into a high-end recovery clinic. It was unanimously agreed that his last ""accidental"" overdose of antidepressants was the last straw.
+
+He received no thistles from his former friends.""
+
+My brother cracks me up."
+"eventtime","2008-06-07 14:22:00"
+"url","http://no-entry-here.livejournal.com/132834.html"
+"userid","11060"
+"itemid","517"
+"event","... so. Crazy people are always in line before me. At the bank. In restaurants. At Subway.
+
+Today, while Brian and I were taking advantage of the deliciously debt-free $5 footlongs, the guy right in front of us decided it'd be really awesome to spend 15 minutes detailing exactly what he wanted on his sandwiches. One, apparently, was for his ""girl"". He had a trucker hat on to hide the fact that he hadn't bathed in approximately one lunar month, and he said ""y'all"" frequently enough to make me want to look around for Texas.
+
+Well. He pulls out his FOUR Subway cards and says to the sandwich-creator, ""Y'ALL FROZE MY ACCOUNT"" and some other bullshit about how he wants his two free sandwiches. This takes another fifteen minutes, where Brian's stomach and my own begin communicating in growl-speak.
+
+After a while, the really attractive guy behind us kind of knocks on the counter. ""There are people waiting,"" he said, kindly.
+
+Hick-ass motherfucker says, ""Fuck you! I don't need that shit! Fuck you!""
+
+I was really glad that Brian was tall, by this point.
+
+Anyway. The guy got his sandwiches and stormed out, and Brian and I realized that our friendship is that much stronger, now. Because crazy ass sandwich-thieves do that to your friendships. Duh."
+"eventtime","2008-06-05 17:55:00"
+"url","http://no-entry-here.livejournal.com/132486.html"
+"userid","11060"
+"itemid","516"
+"event","I've three days of classes left.
+Two finals.
+One lesson plan to deliver.
+One paper.
+One portfolio.
+
+
+It's really not that bad. I just lack motivation. Today was a weird day, I think. I was mopey and unanimated. I'd rather be ridiculously awesome, like usual.
+
+
+Oh well.
+Duty this weekend.
+Please kill me, now."
+"eventtime","2008-06-03 23:31:00"
+"url","http://no-entry-here.livejournal.com/132312.html"
+"userid","11060"
+"itemid","515"
+"event","New Year's Eve is always the time for creating goals. ""I'm going to lose twenty pounds."" ""I'm going to read every single page of my educational psychology textbook."" ""I'll sail across the ocean.""
+
+For me, New Year's Eve is the time for creating goals that I don't intend to keep. I make these goals because everyone else is doing it; a real display of my inability to go against the grain, at times.
+
+This year, my goals are summer goals. Things I'm going to accomplish because I'll have the time, because I want to <i>get them done</i>.
+
+<i>Without further ado...</i> 
+
+<b>My Goals:</b>
+
+1. A summer photoblog. I'll post at least one photograph with each entry, giving my lovely flist a look into the wonder that is my life.
+
+2. Absolutely no plastic water bottle usage! At all! I'll carry my Nalgene with me, or (if I want to feed into the mass hippie hysteria concerning the chemical seepage) I'll grab myself an aluminum Sigg bottle. This summer will be one for reduce, reuse, recycle.
+
+3. Buy a bike. I have one at home, but I kind of let it rust outside of Buchanan Towers, last year. Maybe I can get it fixed up... but it was getting a wee bit small for me and my lengthy legs. I'd like something less mountainous and more street-worthy. Plus... I'd like it to be a kickass color.
+
+4. I'd very much like to fall in love. Preferably with someone who loves me back. This isn't a goal as much as it's a ""want"".
+
+5. Back to the non-sentimental part of this entry. I want to pee in another public place. Former conquests include the Woodland Park Zoo and Boulevard Park.
+
+6. As much as I get tired of writing this, I'd like to lose weight and tone up. Mom and I are going to start swimming, regularly, which will do wonders for me. I love swimming; it isn't cardio, it's just something I love to do.
+
+I'm sure there will be more to come, but those are the basics. For now, they're good enough.
+
+Toodles, internetical loves."
+"eventtime","2008-06-02 21:15:00"
+"url","http://no-entry-here.livejournal.com/132010.html"
+"userid","11060"
+"itemid","511"
+"event","Amidst the fatal car accidents and arson reports, there was a gem in the news, today.
+
+<a href=""http://www.king5.com/sports/stories/NW_050108SPB_softball_sportsmanship_JG.b9dcb938.html"">Opponents Carry Injured Home Run Hitter Around the Bases</a>
+
+I love sportsmanship. Stories like this remind me that there is some true <b>good</b> in our world."
+"eventtime","2008-05-02 09:44:00"
+"url","http://no-entry-here.livejournal.com/130859.html"
+"userid","11060"
+"itemid","505"
+"event","I WOULD cut my thumb open the morning before our band concert.
+At least it's not one of my fingers, I guess.
+
+
+And people with wilderness training in Mathes: why were you not in your rooms? I was about to barf all over myself, just looking at my cut."
+"eventtime","2008-03-12 10:22:00"
+"url","http://no-entry-here.livejournal.com/129449.html"
+"userid","11060"
+"itemid","503"
+"event","Playing with the pep band tonight made me realize how much I miss those nostalgic bits of high school.
+
+High school pep band rocked.
+
+WWU's Viking Band rocks, too, but it's a different sort of rock. At Redmond, I knew that Timmy was going to play the solo in ""Louie Louie"" and that Jaron would try to play the bari part in ""Hey, Baby!"" Here at Western, I know the names of less than 10 people in the Viking Band. It's hard to get excited about playing together when you don't know anyone."
+"eventtime","2008-02-23 21:53:00"
+"url","http://no-entry-here.livejournal.com/129003.html"
+"userid","11060"
+"itemid","502"
+"event","Just got back from Schweitzer Mountain, Idaho! Charity, Lia, Kali, Sarah Storms, and I drove across the state to get away from life for a few days. It worked out pretty well; I can't remember the last time I was able to read a novel in one day. Kali and I basked in the glory of not-being-on-duty, and I got to spend time with my favorite people.
+
+Don't ask about the snow. It snowed like Hell (or... maybe just Idaho) on the way there, to the point where it was scary to drive. We get up the mountain and OH LOOK NO NEW SNOW for the 72 hours that we spend there. Oh well. We had a great time! :)
+
+
+Ask Kali about the high school freshmen, if you get the chance."
+"eventtime","2008-02-18 21:23:00"
+"url","http://no-entry-here.livejournal.com/128552.html"
+"userid","11060"
+"itemid","501"
+"event","Does anyone else think that watching the news in movies is bizarre? They always disclose things that the REAL news would never disclose, like names of criminals, pictures of crime scenes with blood and gore everywhere...
+
+I guess it adds to the shock factor of the film, but I find myself gruesomely wishing that our news had a bit more of those tidbits in it. Maybe I'm just overloaded with fictional gross that I don't think it'd faze me.
+
+Sad, right?"
+"eventtime","2008-01-29 21:15:00"
+"url","http://no-entry-here.livejournal.com/128356.html"
+"userid","11060"
+"itemid","500"
+"event","Thank you to everyone who called me, this afternoon. I felt so ridiculous sitting in my Elementary Ed class with tears in my eyes, but I think most of you realize how important he was to me.
+
+I don't really know how to deal with this, but at least I have <lj user=""hp_speculation""> to talk to."
+"eventtime","2008-01-22 16:08:00"
+"url","http://no-entry-here.livejournal.com/128151.html"
+"userid","11060"
+"itemid","499"
+"event","I swear there must be someone living in my stomach and eating my food. Dining hall food is a hunger-<b>inducer</b>. I'm sitting here wolfing down crackers like wheat's going out of season!
+
+
+
+I should probably mention that I'm much more satisfied and excited about Woodring College, now. This past week has been marvelous; despite the fact that Woodring Applicants should never be resident advisors, I'm having a great time. Tomorrow's the first day of my practicum, so I get to <s>control the minds of</s> <i>play with</i> little first graders all day.
+
+Last weekend was probably half of the reason why I'm feeling better about this quarter; The Senate played two shows in B'ham, and I had the opportunity to rock out at both. I'd go so far as to say that this band has kept me sane throughout this rocky year - there's always something to look forward to!
+
+Char's been so good to me, too. :) I get texts every week: ""Do you want a home-cooked meal, tomorrow?"" GOD I LOVE HER. Between Charity and Lia, I'll have enough of a respite from the dining hall to calm the growling I hear in my tummy.
+
+
+
+Albink and I watched American Idol last night.
+I'm going to set a goal for myself, right now. I hope that I will never, EVER be aired on American Idol, Jerry Springer, OR a show about alien abductions. COPS is probably a good show to avoid, too.
+
+How have you all been?"
+"eventtime","2008-01-16 20:33:00"
+"url","http://no-entry-here.livejournal.com/127998.html"
+"userid","11060"
+"itemid","498"
+"event","<font size=4><center><font color=pink>Happy Birthday, Tonks!!!</font>
+
+<img src=""http://digitalcollections.uwyo.edu/blogs/wp-content/uploads/2007/04/cupcake.jpg""></center>"
+"eventtime","2008-01-14 13:29:00"
+"url","http://no-entry-here.livejournal.com/127547.html"
+"userid","11060"
+"itemid","496"
+"event","There's no way I'll ever be able to fully explain the whirlwind of emotions I've gone through in the past four hours. My stomach has been all over the place, I've been bawling on the phone to various people (including my band director), I've second-guessed my choice in a major (and a profession) more today than I ever have since I started thinking I'd like to be a teacher.
+
+An error of the Education Office (that happened to over half of the new Woodring Admits) was that they didn't tell us about the day (Thursday) we were required to spend in a classroom, every week. No warning. No information. No bulletin.
+
+So... long story short... my Elem. Ed. professor basically told me that I have to choose between teaching and band, this quarter, because of my class conflicts.
+
+With my new (tentative) schedule, I can't even be a proper RA, with the required two hours of desk duty. I don't even know what to do. I called Dr. Bianco (my band director) and as he heard me crying about dropping band, he said I'd be able to come in for a part of the rehearsal, just so I could stick with it. I'm so thankful... but now I feel so odd about the Education program. 
+
+I guess this quarter will be enlightening.
+
+Right now I'm just going to make myself some tea and sniffle like a little baby."
+"eventtime","2008-01-08 16:55:00"
+"url","http://no-entry-here.livejournal.com/127170.html"
+"userid","11060"
+"itemid","492"
+"event","Dad and I drove up to Crystal early this morning to catch the eight inches of new snow before the ski school kiddies cut it up. <font size=1>That's not to say that I don't like ski school kids... I used to be one. They're cute in a ""I hope I don't run into you"" kind of way.</font>
+
+It was <i>gorgeous</i>. I ended up digging myself out of 8+ inches of powder a few times when I wasn't looking where I was going, but it was fun. Plus, Dad had more than a few laughs while I clawed my way to the surface.
+
+In other news... The Senate is playing up in B'ham at the Underground Coffeehouse the first Friday we return. I'm stoked.
+
+<img src=""http://img.photobucket.com/albums/v441/razzlebari/atschweitzer.jpg"">
+<font size=1>This isn't entirely accurate; it was taken over a year ago... but you get the idea.</font>"
+"eventtime","2007-12-28 15:12:00"
+"url","http://no-entry-here.livejournal.com/126060.html"
+"userid","11060"
+"itemid","491"
+"event","Christmas is always such a joy. :)
+
+Christmas Eve was spent on a houseboat in Seattle with my uncles, aunts and cousins from my dad's side of the family. It's strange, not having the aged and wise presence of my grandmother there, but she had a beautiful portrait set up on my aunt's cabinet, so it was like she was observing our merry season, a little. Uncle Bruce gave me my third ""Plasma Flasher"" (those glass balls that glow and give you static hair) in a row. I think he bought a couple dozen of them a few years ago and thinks that they're the coolest gift for his niece. Either way... if you want a plasma flasher, let me know. It's yours.
+
+My family went and saw ""Juno"" (again, as my dad and I saw it a few days ago) after lunch with Dad's fam. Great movie. :) I've got a list of others I'd like to see, too: <b>Sweeney Todd</b>, <b>I Am Legend</b>, <b>Enchanted</b>... probably a few more. I love the December, pre-Oscars movie spew.
+
+Christmas was great! It SNOWED! I have never had a Christmas where it snowed! We drove into Snohomish to spend time with my mom's side of the family, and it SNOWWWWED. And then Mom got called and she didn't have to go to work, and there was delicious food, and my cousins were adorable... and my Grambi actually gave me presents that I'll use! Last year, I got leather boots with 4"" heels. This year? <b>JUMPER CABLES</b>. I was thrilled.
+
+All in all, it was a beautiful holiday! I got some fun clothes to keep me warm, a hilarious new hat (silly Mom) and GUITAR HERO. I'm looking forward to rocking out with Charity when she comes over for the end of break!
+
+I hope you all were able to spend time doing the things you love most!
+
+
+
+
+OH. Mom got an iPhone for Christmas (as her old mobile phone is 4+ years old) and I've been having a blast teaching her how to use it. She's really excited about it, which is fun to see. Dad's trying to coax her to embrace Apple so he can buy her a computer that doesn't suck."
+"eventtime","2007-12-26 14:20:00"
+"url","http://no-entry-here.livejournal.com/125796.html"
+"userid","11060"
+"itemid","490"
+"event","Winter is such a bizarre time of the year.
+
+I say this about most ""times of the year"", but I'm really feeling WINTER, right now.
+
+It's so weird. I mean, this is a season that I look forward to, every year. Home from school, baking cookies with Mom, delivering Christmas cheer to Dad's employees, being giving, sharing with my family. The whole thing! I love Christmas!
+
+I'm always upbeat when I hop onto my computer before bed (which apparently you're not supposed to do, because the bright computer screen messes with your brain and says ""IT'S MORNING WAKE UP SLEEPY!"" and you can't get to bed on time... but I do it anyway because Amy plus internet equals love) but when I pop onto livejournal... ?
+
+Everyone is talking about how SUCK their lives are!
+
+I'm glad that people are getting these feelings out on livejournal. Don't get me wrong. It just makes me wonder if everyone on my friends list has seasonal depression. :(
+
+You know what?
+Go do something fun! Make something of this life you're leading! GO HUG SOMEONE. Have you heard about the positive effects of human touch? Hug me! That's like... a double-whammy!
+
+I wish everyone was a glass-half-full kind of person. I think I'd get fewer weird looks from people. Sometimes I think pessimists think I'm mentally deranged.
+
+Can you learn optimism?
+
+
+
+
+PS. Winter seems like a wonderful time to fall in love.
+I've also realized that I'd like to open up a bakery, sometime. Something reminiscent of Victor's. I want to go to work in a tank top and watch people eat my cookies with smiles on their faces.
+I have so many things I want to do. Do you? Is that weird?
+
+
+I need to update this more often. I feel like I have enough material in my brainbrainbrain for three or four good entries.
+
+Oh. And I'm performing in a Christmas ensemble with Irv (the coolest 50-something guy you'll ever meet... see below) at his church on December 30th. If you haven't run out of Christmas cheer by then, drop me a line and I'll send you the specifics. Should be fun. :) Very non-denominational (which is good for me, since I haven't been to church since early high school) and open.
+
+<img src=""http://img.photobucket.com/albums/v441/razzlebari/withirv.jpg"">
+Irv is awesome."
+"eventtime","2007-12-21 21:04:00"
+"url","http://no-entry-here.livejournal.com/125681.html"
+"userid","11060"
+"itemid","489"
+"event","<i>Go to the Wikipedia home page and click random article. That is your band's name. Click random article again; that is your album name.Click random article 15 more times; those are the tracks on your album.</i> 
+
+Band Name: Alexander Grant
+Album Name: Joel Rafael
+
+The Tracks:
+1. Possessor
+2. Claude Williams
+3. Maesobotrya
+4. Baxter Township, Minnesota
+5. USS Chippewa
+6. List of Political Parties in South America by Country
+7. Thornton Steward
+8. Tupelo Honey
+9. Lillian Hayman
+10. Victor Chapman
+11. Paryphanta Watti (A PREDATORY LAND SNAIL!!)
+12. Cat Napping
+13. Oenus
+14. Rune Monstad
+15. The Singer and the Song
+
+
+
+:( Mine weren't as neat as Pent's. Oh well."
+"eventtime","2007-12-09 11:45:00"
+"url","http://no-entry-here.livejournal.com/125198.html"
+"userid","11060"
+"itemid","488"
+"event","Definitely not my favorite. I used up an entire pen, today, just on my African Civ. notes. Ick.
+
+I'm looking forward to making cookies with Charity tomorrow, though! That'll get me away from Africa for a bit, and more into the delightful friendship that I'm so lucky to have. :) Thennnn back to studying."
+"eventtime","2007-12-08 23:53:00"
+"url","http://no-entry-here.livejournal.com/124962.html"
+"userid","11060"
+"itemid","487"
+"event","I can't even say how lucky I am to have these girls.
+
+<img src=""http://photos-057.ll.facebook.com/photos-ll-sctm/v154/229/102/25915057/n25915057_32889677_1190.jpg"">
+
+Thank you for being my everything."
+"eventtime","2007-12-05 22:35:00"
+"url","http://no-entry-here.livejournal.com/124752.html"
+"userid","11060"
+"itemid","486"
+"event","Grandma had been on life support since Thanksgiving. She'd gone in with pneumonia; she could barely talk, she was coughing so much. I'd talked to her a few weeks earlier to ask her about our family history, and she had been sick then, too.
+
+Dad says that when he brought grandma to the hospital, she kept asking about her purse. ""Where's my purse?"" she'd ask, and Dad replied, ""It's safe in your home, Mom. Just focus on getting better."" Every time she woke up for a few moments, she'd ask after her purse.
+
+When I came home to visit her in the hospital over break, she was unconscious. I sat there and held her hands, delighting in the papery feel of her skin. Mom and I put lotion on her hands, stroked her hair. We brought a picture of her to the hospital to show the nurses that she was a fighter, pure ""piss and vinegar"", my Dad says. She looked so fragile in that hospital bed, hooked up to the impersonal machines that forced air in and out of her lungs.
+
+Thursday evening, Grandma passed away.
+
+I know things will start coming back to me; they already have. I remember making her a thinking cap that she'd wear when I'd ask her to tell me a story about my dad and his siblings. I'd push the button labeled ""Daddy"", and she'd tell me how my dad accidentally threw a dart into my uncle's head. They were silly kids, always in and out of the hospital.
+
+When my parents were going through her belongings, Dad opened up her purse. The purse that had been so important to her. She had needed to know where it was.
+
+Inside, tucked away in a little pocket, were these things:
+Her passport, with her stamps in and out of Japan, when she visited my uncle.
+Her birth certificate. October 13th, 1924. Born to Arminda and James Davis. Document #202.
+Her Naval Discharge card from World War II, with a beautiful picture on the back of my beaming grandma.
+My grandpa's death certificate from 1980.
+
+and this poem:
+
+<b>Miss Me -- But Let Me Go</b>
+When I come to the end of the road
+And the sun has set for me
+I want no rites in a gloom-filled room.
+Why cry for a soul set free?
+
+Miss me a little--but not too long
+And not with your head bowed low.
+Remember the love that we once shared,
+Miss me--but let me go.
+
+For this is a journey that we all must take
+And each must go alone.
+It's all a part of the master plan,
+A step on the road to home.
+
+When you are lonely and sick at heart
+Go to the friends we know
+And bury your sorrows in doing good deeds.
+Miss me--but let me go."
+"eventtime","2007-12-03 22:19:00"
+"url","http://no-entry-here.livejournal.com/124525.html"
+"userid","11060"
+"itemid","485"
+"event","I'm home. It's marvelous. Mom, Dad and I watched <i>Ratatouille</i> (which is epic, by the way) while decorating the first of our Christmas Trees. Cornelius the Pug is now inspired to do something he'd always been told he couldn't do: cook. There's the issue of his lack of thumbs, but I'm sure he'll work something out.
+
+Grandma's in the hospital. I don't really know what to say about it, right now. Before I saw her, I was thinking, ""You know, she's 82. She's had a long, wonderful life."" When I visited her at the hospital, all I wanted was for her to pull through. She had pneumonia, and it turned into acute respiratory distress syndrome. She's totally unconscious and machines are breathing for her. My dad told me that before they knocked her out with drugs, they were talking about her great aunt, who lived to be 102. Dad asked her what being 102 meant to her.
+
+She said, ""Getting to see you walk Amy down the aisle.""
+
+We sat with her in the hospital for a while, last night. She's so small. When she's awake and conscious, she's a total spitfire. Piss and vinegar. Crabby and hilarious.
+
+I really hope that she pulls through."
+"eventtime","2007-11-21 09:05:00"
+"url","http://no-entry-here.livejournal.com/124285.html"
+"userid","11060"
+"itemid","484"
+"event","I've changed the settings on my livejournal (silly Amy...) so that you can comment, now, and I can add you to my friends list!
+
+Sorry about that. xD"
+"eventtime","2007-11-19 13:48:00"
+"url","http://no-entry-here.livejournal.com/124121.html"
+"userid","11060"
+"itemid","483"
+"event","<b>To Do:</b>
+- <s>IWA #7 for English (11/19)</s>
+- <s>Read <i>Art & Lies</i> to page 150. (11/19)</s>
+- <s>Study for Accounting Exam. (11/20)</s>
+
+- <s>Enjoy Thanksgiving Break?</s>
+
+- <s>Write Formal Analysis for English on <i>Art & Lies</i>. (11/26)</s>
+<b>- <s>Read <i>Decreation</i> for English. Thanks, Michael. I love adding stuff to my to-do lists.</b></s>
+- <s>Research Apple Computers for Accounting. Focus on Ratios. (11/29)</s>
+- <s>Edit/revise Dipo Ceremony Essay for African Civ. (11/30)</s>
+- Read Edgerton for African Civ. (12/10) [HAHAHA. THAT NEVER HAPPENED!]
+- Read <i>Shaka Zulu</i> for African Civ. (12/10) [This didn't, either.]
+- <s>Study for African Civ. Final. (12/10)</s>
+- Final Project for English. (12/14)
+- Revise, finish English portfolio. (12/14) GAH. I AM GOING TO DIE.
+
+<i>25 pages of Essays.</i>
+<i>500 pages of Reading.</i>
+<i>Two Final Projects.</i>
+<i>One Final Exam.</i>
+
+Um. Goodbye, life.
+
+
+
+
+In other news, Timmy came and visited me, today. Despite my requirement that I remain on campus (I'm on duty, this weekend), we still had a good time. :) It's nice to sit down with old friends and not have that awkwardness that you sometimes get when you haven't seen each other in ages."
+"eventtime","2007-11-17 22:33:00"
+"current_moodid","4"
+"url","http://no-entry-here.livejournal.com/123658.html"
+"userid","11060"
+"itemid","481"
+"event","It's quite satisfying to realize that the same day that your English teacher posts your livejournal on the class webpage, you've made a post about having ""panty parties"". xD I find that hilarious.
+
+
+Anyway.
+
+English 202 friends, if you want me to add you to my livejournal (so you can see all of the nitty gritty that I don't make public) just comment here! And seriously, if I'll share about parties in my panties... what do you think might be the kind of stuff that I stick under a ""friends only"" post?!"
+"eventtime","2007-11-13 08:20:00"
+"url","http://no-entry-here.livejournal.com/123241.html"
+"userid","11060"
+"itemid","480"
+"event","Sometimes, I'll do things just for me.
+
+I might put on a pair of really cute panties that NO ONE will see that day, but I'll feel cute because I'm wearing them. Last week, I had a two-minute panty party with myself before I got ready for class. I glanced over in the mirror and noticed that I looked cuter than usual in just my bra and panties... and danced for a bit.
+
+It was kind of amazing.
+
+Class this quarter has been intense! I'm taking a few classes that I love and a few that I could live without, so it balances.
+
+I absolutely ADORE my English class: Writing about Literature. Our texts this quarter have been AMAZING. We read <i>Cat's Cradle</i> by Vonnegut, <i>Rainbow Stories</i> by William Vollmann, <i>The Living</i> by Annie Dillard, and we're currently in the middle of <i>Art & Lies</i> by Jeanette Winterson. It's bizarre.
+
+My English teacher is perhaps my most favoritest of teachers ever. Definitely since I've come to WWU. He's so FUN, you know? He really cares about your ideas, and he's the first teacher I've had here that has treated me like an equal adult. I look forward to his class every Monday, Wednesday, and Friday. :)
+
+... and I've met some really awesome people in that class!
+
+Um. African Civilization can go away, now. Thanks.
+
+Accounting is fine. It's math. I teach myself everything because Dr. Reynolds is inept. I helped my dad with his invoices, this afternoon. Not that he needs help; he just likes to let me feel important and helpful. I pretend that I don't know.
+
+I'm going to take a shower. Tomorrow's going to be fine. I'm already psyching myself out about the next few weeks... this quarter is going to be killer. I'm a little worried about my stress levels.
+
+OH BAND! BAND IS COOL!
+
+Our concert is on December 5th at 7?pm. I'll update closer to the concert, but I hope some of you can make it. We're playing some fun stuff.
+
+Puzta by van der Roost
+FUCKING HARD BULLSHIT by Persichetti
+Ammerland by I can't remember
+Don Something or Other by Someone I can't remember.
+And a song that is much too easy for our band by Tichelli.
+
+Music is fun. It makes you more intelligent. Some people have been known to gain superpowers from listening to college band music.
+
+Do it!"
+"eventtime","2007-11-12 22:17:00"
+"url","http://no-entry-here.livejournal.com/123116.html"
+"userid","11060"
+"itemid","479"
+"event","I'm the pied piper, the rebel town crier!
+Follow me down to the sea,
+And follow where you will.
+Follow me to madness...
+And let the water stand still!
+
+<b>Pied Piper</b> by The Senate
+
+
+I've accepted, now, home may never exist,
+It's a Pacific-sized myth with an Atlantic twist,
+You' ve got to anchor yourself if you don't want to drift,
+But, it's never been so clear...
+Girl, I want you here.
+
+<b>The Ocean Song</b> by The Senate
+
+
+The scene opens upon the Three Trees Coffeehouse, a tiny little non-profit caffiene hub in downtown Bellingham.
+
+Two girls and their convert, a dashing young male, open the door and quickly find seats right up next to the stage. They watch with interest while the band does their sound check, talk about the past shows they've seen, excitedly guess what they're going to open with.
+
+The coffeehouse quietly fills up with the diehards; those willing to drive a few blocks away from campus to witness this acoustic rock-fest, this... dare I say... <i>weighty wood</i>?
+
+The show, as I'm sure you'll be able to guess, was astounding. They opened with ""Molly"", though I'm disappointed to note that Oliver didn't take my lyric revisions to heart. ;) I guess ""Bella Amy"" doesn't roll off the tongue as well. That must be it.
+
+The first set was mellow; a few favorites from their discontinued CD <i>These Cold Winds</i> (you can still buy it on iTunes!) and a few as-yet-unreleased songs that supposedly will be featured on their upcoming album. ""You'll Never Know"" gave me chills; the kind of harmonizing these men do is hard to perfect, but they had it down.
+
+The second set, with its upbeat ""Pied Piper"" and ""The Awesome Song"", had us standing before long. Especially for the ""Space Chanty""! Kali and I swayed next to people we'd never met, singing along to the dirty bits with <i>fervor and grace</i>.
+
+Anyone who's going to be in Seattle, tonight:
+Check out The Senate at Cafe Solstice. Their show starts at 9pm, and there's no way in Hell that you won't have the time of your life. I wish I could be there!
+
+Actually... depending on ""date night"" with Dad... I might just end up in Seattle, tonight. :)"
+"eventtime","2007-11-09 07:43:00"
+"url","http://no-entry-here.livejournal.com/122807.html"
+"userid","11060"
+"itemid","478"
+"event","On Thursday, November 8th, The Senate is going to be rocking the Three Trees Coffeehouse on W. Holly in B'ham! Join me for an incredible night with an absolutely fantastic acoustic band!
+
+The show starts at 7pm; the doors open at 6, and I'll probably be in line by 5pm! If you want a ride, I've got space for one or two more (plus my trunk!) but I'm pulling out of the Mathes parking lot at 4:45pm! Bonus points if you bring change for the coin parking downtown!
+
+<img src=""http://img.photobucket.com/albums/v441/razzlebari/TheSenate.jpg"">
+
+The Three Trees Coffeehouse
+118 W. Holly
+B'ham"
+"eventtime","2007-11-06 11:31:00"
+"url","http://no-entry-here.livejournal.com/122571.html"
+"userid","11060"
+"itemid","477"
+"event","Today was such a good day."
+"eventtime","2007-11-02 23:45:00"
+"url","http://no-entry-here.livejournal.com/122163.html"
+"userid","11060"
+"itemid","476"
+"event","Basically, I'm not equipped with the skills necessary to complete one a.m. rounds.
+
+Those skills are:
+- being awake.
+
+That's about it!"
+"eventtime","2007-10-20 23:46:00"
+"current_moodid","49"
+"url","http://no-entry-here.livejournal.com/121878.html"
+"userid","11060"

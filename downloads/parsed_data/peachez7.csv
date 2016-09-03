@@ -1,0 +1,695 @@
+"names","values"
+"itemid","147"
+"event","PHRhYmxlIHdpZHRoPTQwMCBhbGlnbj1jZW50ZXIgYm9yZGVyPTEgYm9yZGVyY29sb3I9YmxhY2sgY2VsbHNwYWNpbmc9MCBjZWxscGFkZGluZz0yPg0KPHRyPjx0ZCBiZ2NvbG9yPSNDQ0ZGRkYgYWxpZ249Y2VudGVyPg0KPGZvbnQgZmFjZT0iR2VvcmdpYSwgVGltZXMgTmV3IFJvbWFuLCBUaW1lcywgc2VyaWYiIHN0eWxlPSdjb2xvcjpibGFjazsgZm9udC1zaXplOiAxNHB0Oyc+DQpZb3UgS25vdyBZb3UncmUgRnJvbSBMQSBXaGVuLi4uPC9mb250PjwvdGQ+PC90cj4NCjx0cj48dGQgYWxpZ249bGVmdCBiZ2NvbG9yPSNGRkZGRkY+DQo8Zm9udCBmYWNlPSJHZW9yZ2lhLCBUaW1lcyBOZXcgUm9tYW4sIFRpbWVzLCBzZXJpZiIgc3R5bGU9J2NvbG9yOmJsYWNrOyBmb250LXNpemU6IDEwcHQ7Jz4NCllvdSdyZSBkcml2aW5nIG9uIHRoZSAxMDEgYW5kIHNlZSBhIGNsZWFyIGN1dCBkZWZpbml0aW9uIG9mIHdoZXJlIHRoZSBzbW9nIGJlZ2lucyBhbmQgZW5kcw0KDQpZb3UgZ28gdG8gYSBrYXJhb2tlIGJhciBhbmQgYmF0dGxlIHdpdGggc2V2ZW4geWVhciBvbGQgZGl2YXMtaW4tdHJhaW5pbmcgd2hvIGFyZSB0cnlpbmcgdG8gc3RlYWwgeW91ciB0aHVuZGVyDQoNCllvdSdyZSBzaXR0aW5nIGluIHRyYWZmaWMgZm9yIGF0IGxlYXN0IGFuIGhvdXIgYXQgYW55IGdpdmVuIHBhcnQgb2YgdGhlIGRheQ0KDQpZb3UgZ28gdG8gdGhlIGJlYWNoIGFuZCBzZWUgdGhhdCByZWFsIGxpZmVndWFyZHMgYWN0dWFsbHkgZG8gbG9vayBsaWtlIHRoZSBsaWZlZ3VhcmRzIGZyb20gQmF5d2F0Y2gNCg0KWW91IHNlZSBwdXJwbGUgYW5kIGdvbGQgYW5kIHRoZSB3b3JkICJUaHJlZXBlYXQiIG9uIGV2ZXJ5IGNvcm5lcg0KDQpZb3UgYmVnaW4gdG8gImxpZSIgdG8geW91ciBmcmllbmRzIGFib3V0IHdoZXJlIHlvdSBhcmUgKGkuZS4gIlllYWggSSdtIGxpa2UgMjAgbWludXRlcyBhd2F5IikgLSB3aGVuIHlvdSBrbm93IHRoYXQgaXQnbGwgdGFrZSB5b3UgYXQgbGVhc3QgYW4gaG91ciB0byBnZXQgdGhlcmUpLg0KDQpZb3UgZWF0IGEgZGlmZmVyZW50IGV0aG5pYyBmb29kIGZvciBldmVyeSBtZWFsDQoNCllvdSBsb29rIGFyb3VuZCBhdCB0aGUgbmljZSBjYXJzIGFyb3VuZCB5b3UgZHVyaW5nIHRyYWZmaWMsIHRoaW5raW5nIGl0J2xsIGJlIHlvdXIgZmF2b3JpdGUgTGFrZXIgb3IgV0Igc3Rhci4NCg0KWW91IG1ha2UgYSBjb25zY2lvdXMgY2hvaWNlIHRvIHdhdGNoIEpheSBMZW5vIG92ZXIgRGF2aWQgTGV0dGVybWFuDQoNCllvdSBtb3VybmVkIGZvciBUdXBhYyBhbmQgbm90IGZvciBCaWdnaWUNCg0KWW91IGtub3cgaXQncyBiZXN0IG5vdCB0byBiZSBvbiB0aGUgNDA1IGF0IDQ6MDUgcG0uDQoNCkdldHRpbmcgYW55d2hlcmUgZnJvbSBwb2ludCBBIHRvIHBvaW50IEIsIG5vIG1hdHRlciB3aGF0IHRoZSBkaXN0YW5jZSwgdGFrZXMgYWJvdXQgInR3ZW50eSBtaW51dGVzIi4NCg0KWW91IGtub3cgd2hhdCBuZWlnaGJvcmhvb2Qgc29tZW9uZSBsaXZlcyBpbiBieSB0aGUgZGVncmVlIG9mIGRhbWFnZSBpbmN1cnJlZCBkdXJpbmcgdGhlIHJpb3RzLg0KDQpZb3UndmUgaW5hZHZlcnRlbnRseSBsZWFybmVkIFNwYW5pc2guDQoNCllvdSd2ZSBnb3QgdG8gYnJpbmcgdGhlIGNhdC9wbGFudHMgaW4gd2hlbiBpdCBkcm9wcyB0byA1NSBkZWdyZWVzLg0KDQpJbiB0aGUgIndpbnRlciIsIHlvdSBjYW4gZ28gdG8gdGhlIGJlYWNoIGFuZCBza2kgYXQgQmlnIEJlYXIgb24gdGhlIHNhbWUgZGF5Lg0KDQpZb3UndmUgYnVtcGVkIGludG8gYSBjZWxlYnJpdHkgYXQgRWwgUG9sbG8gTG9jby4NCg0KWW91IGtub3cgd2hhdCAic2lnYWxlcnQiLCAiUENIIiwgYW5kICJ0aGUgZml2ZSIgbWVhbi4NCg0KWW91ciBwaXp6YSBkZWxpdmVyeSBndXkgaXMgYWxzbyBvbiBjb250cmFjdCB3aXRoIFdhcm5lciBCcm9zLg0KDQpJZiB5b3VyIGRlc3RpbmF0aW9uIGlzIG1vcmUgdGhhbiA1IG1pbnV0ZXMgYXdheSBvbiBmb290LCB5b3UncmUgZGVmaW5pdGVseSBkcml2aW5nLg0KDQpZb3UgaGF2ZSBhIGd5bSBtZW1iZXJzaGlwIGJlY2F1c2UgaXQncyBtYW5kYXRvcnkuDQoNCllvdXIgVFYgc2hvdyBpcyBpbnRlcnJ1cHRlZCBieSBhIHBvbGljZSBjaGFzZS4NCg0KWW91IGNhbid0IGZhbGwgYXNsZWVwIHdpdGhvdXQgdGhlIGx1bGwgb2YgYSBoZWxpY29wdGVyIGZseWluZyBvdmVyaGVhZC4NCg0KV2hlbiB0b3VyaXN0cyBhc2sgd2hlcmUgdGhleSBjYW4gZ2V0IHNvdXZlbmlycywgeW91IGRpcmVjdCB0aGVtIHRvIFZlbmljZSBCZWFjaC4NCg0KWW91IGtub3cgc29tZW9uZSBuYW1lZCBGcmVlZG9tLCBSYWluYm93LCBQZXJzZXBob25lIG9yIERlc3RpbnkuDQoNCllvdSd2ZSB0cmVzcGFzc2VkIHRocm91Z2ggcHJpdmF0ZSBwcm9wZXJ0eSB0byBnZXQgdG8gdGhlICJIb2xseXdvb2QiIHNpZ24uDQoNCllvdSd2ZSBwYXJ0aWVkIGluIFRpanVhbmEgYXQgbGVhc3Qgb25jZS4NCg0KWW91IGtub3cgSG9sbHl3b29kIGhhcyBhICJsYWtlIi4NCg0KWW91IGRvbid0IHN0b3AgYXQgYSBTVE9QIHNpZ24sIHlvdSBkbyBhIENhbGlmb3JuaWEgUm9sbC4NCg0KWW91J3ZlIGxvc3QgeW91ciBjYXIgaW4gdGhlIENlbnR1cnkgQ2l0eSBTaG9wcGluZyBDZW50ZXIgcGFya2luZyBsb3QuDQoNCllvdSd2ZSBldmVyIGJvdWdodCBvcmFuZ2VzLCBmbG93ZXJzLCBjaGVycmllcyBvciBwZWFudXRzIG9uIGEgZnJlZXdheSBvZmYtcmFtcC4gDQoNCllvdSB0aGluayB0aGF0IFZlbmljZSBpcyBhIGJlYWNoLg0KDQpZb3UgZHJpdmUgbmV4dCB0byBhIFJvbGxzIFJveWNlIGFuZCBkb24ndCBub3RpY2UuDQoNCllvdSd2ZSBzdGFydGVkIGNyb3NzaW5nIGEgc3RyZWV0IGFuZCByZXR1cm5lZCB0byB0aGUgY3VyYiB3aGVuIHRoZSBET04nVCBXQUxLIHNpZ24gc3RhcnRlZCBmbGFzaGluZy4NCg0KWW91J3ZlIG5ldmVyIGxpc3RlbmVkIHRvIE5QUi4NCg0KQ2FsbGluZyB5b3VyIG5laWdoYm9ycyByZXF1aXJlcyBrbm93aW5nIHRoZWlyIGFyZWEgY29kZS4NCg0KWW91IGhhdmUgYSBmYXZvcml0ZSBUaGFpIHJlc3RhdXJhbnQuDQoNCllvdSB0aGluayBKb2hubm55IFJvY2tldCdzIGlzIGFuIGFjY3VyYXRlIGRlcGljdGlvbiBvZiBhIGRpbmVyLg0KDQpZb3UgdGhpbmsgTWFuaGF0dGFuIGlzIGEgYmVhY2guDQoNCllvdSBlYXQgcGluZWFwcGxlIG9uIHBpenphLg0KDQpZb3UndmUgYmVlbiB0byBEaXNuZXlsYW5kIG1vcmUgdGltZXMgdGhhbiBEb3dudG93bi4NCg0KV2hlbiBnaXZpbmcgZGlyZWN0aW9ucyAsIHlvdSBmb2xsb3cgdXAgd2l0aCB0aGUgcGhyYXNlOiAiV2l0aC9XaXRob3V0IHRyYWZmaWMuIg0KDQpZb3UgY2xhc3NpZnkgbmV3IHBlb3BsZSB5b3UgbWVldCBieSB0aGVpciBBcmVhIENvZGUuIEFuICI4MTgiIHdvdWxkIG5ldmVyIGRhdGUgYSAiNTYyIiBhbmQgYW55b25lIGZyb20gIjMyMyIgb3IgIjIxMyIgaXMgZ2hldHRvL3NlY29uZCBjbGFzcy4gQmVzdCBhcmVhIGNvZGU6ICIzMTAuIg0KDQpEcml2aW5nIGFsb25nLCB5b3Ugc2VlIGEgaGlnaC1zcGVlZCBwb2xpY2UgY2hhc2UgYXBwcm9hY2hpbmcgaW4geW91ciByZWFyIHZpZXcgbWlycm9yLiBZb3UgZG9uJ3QgcGFuaWMgb3IgZXZlbiBmbGluY2guIEluc3RlYWQsIHlvdSBjYWxsIHlvdXIgZnJpZW5kcyBvbiB5b3VyIGNhciBwaG9uZSBhbmQgdGVsbCB0aGVtIHlvdSdyZSBvbiBUVi4NCg0KWW91IGtub3cgdGhhdCBpZiB5b3UgZHJpdmUgdHdvIG1pbGVzIGluIGFueSBkaXJlY3Rpb24geW91IHdpbGwgZmluZCBhIE1jRG9uYWxkJ3Mgb3IgYSBTdGFyYnVja3MuDQoNCllvdXIgY2VsbCBwaG9uZSBoYXMgbGVmdCBhIHBlcm1hbmFudCBpbXByZXNzaW9uIG9uIHRoZSBzaWRlIG9mIHlvdXIgaGVhZC4NCg0KWW91IG5ldmVyLCBldmVyIGdvIGludG8gdGhlIHdhdGVyIGF0IHRoZSBCZWFjaC4gWW91IGJhcmVseSB0b3VjaCB0aGUgc2FuZC4NCg0KRXZlcnlvbmUgeW91IGtub3cgaGFzIDMrIHBob25lIG51bWJlcnMuIEhvbWUsIE9mZmljZSwgbW9iaWxlLCBwYWdlciwgdHdvLXdheSwgdm9pY2VtYWlsLi4uLi4NCg0KSXQgaXMgbm90IHVudXN1YWwgZm9yIHlvdXIgd2FpdHJlc3MgYXQgYSByZXN0YXVyYW50IHRvIGhhdmUgYmx1ZSBzdHJlYWtlZCBoYWlyLCBhIGRyYWdvbiB0YXR0b28gYW5kIHRvdW5nZSBwaWVyY2luZy4NCg0KWW91IGFyZSBhd2FrZW5lZCBpbiB0aGUgbWlkZGxlIG9mIHRoZSBuaWdodCBieSBhIG1vZGVyYXRlIGVhcnRocXVha2UuIFlvdXIgcmVwbHk6ICJUaGF0IGFpbid0IGV2ZW4gYSA1LXBvaW50ZXIiIGFuZCBnbyBiYWNrIHRvIHNsZWVwLg0KDQpZb3UgdGhpbmsgeW91IGFyZSBiZXR0ZXIgdGhhbiB0aGUgcGVvcGxlIHdobyBsaXZlICJPdmVyIHRoZSBIaWxsIi4gIEl0IGRvbid0IG1hdHRlciB3aGljaCBzaWRlIG9mIHRoZSBoaWxsIHlvdSBhcmUgY3VycmVudGx5IHJlc2lkaW5nLCB5b3UgYXJlIGp1c3QgYmV0dGVyIHRoYW4gdGhlbSwgZm9yIHdoYXRldmVyIHJlYXNvbi4NCg0KDQpZb3UgbGl2ZSAxMCBtaWxlcyBmcm9tIHdvcmsuIEl0IHRha2VzIHlvdSA2MCBtaW51dGVzIHRvIGdldCBob21lLg0KDQpXYWxraW5nIG91dCBvZiBKYW1iYSBKdWljZSwgeW91IHNlZSB0aGF0IGEgbW92aWUgaXMgYmVpbmcgc2hvdCBvbi1sb2NhdGlvbiBhY3Jvc3MgdGhlIHN0cmVldC4gDQoNCllvdSBhcmUgbm90IGhhcHB5LCBvciBldmVuIHNsaWdodGx5IGV4aXRlZCB0aGF0IHRoZXJlIG1heSBiZSBhIG1vdmllIHN0YXIgdGhlcmUuIFlvdSBqdXN0IHNheSwgIiBUaGV5IGYqY2tpbiBiZXR0ZXIgbm90IGJlIGJsb2NraW5nIG15IHBhcmtpbmcgc3BhY2UuIg0KDQpZb3UgaGF2ZSB0byB5ZWxsIGF0IHlvdXIgYmFuayB0ZWxsZXIgdGhyb3VnaCBhIDIgaW5jaCB0aGljayB3YWxsIG9mIHBsZXhpLWdsYXNzLiANCg0KVGhhdCBsYXN0IG9uZSBnb2VzIGZvciB5b3VyIGxvY2FsIGNvbnZpZW5pZW5jZSBzdG9yZSBtYW4sIHRvby4NCg0KWW91IGdvIHRvIExhcyBWZWdhcyBmb3IgYSB3ZWVrZW5kIGdldGF3YXkgYW5kIHRoZSB3aG9sZSB0cmlwIGNvc3QgeW91ICQ1MC4NCg0KWW91IHBlcnNvbmFsbHkga25vdyBhdCBsZWFzdCA1IHBlb3BsZSB3aXRoIGFnZW50cy4NCg0KWW91IHBlcnNvbmFsbHkga25vdyBhdCBsZWFzdCAzIHBlb3BsZSB3aG8gaGF2ZSBiZWVuIGluIGEgbW92aWUgb3IgVFYgc2hvdy4NCg0KWW91IGtub3cgd2hhdCBJbiBOIE91dCBpcyBhbmQgZmVlbCBiYWQgZm9yIGFsbCB0aGUgb3RoZXIgc3RhdGVzIGJlY2F1c2UgdGhleSBkb24ndCBoYXZlIGFueS4NCg0KWW91IGtub3cgdGhhdCBub3QgZXZlcnlvbmUgaW4gQmV2ZXJseSBIaWxscyBpcyBhIG1pbGxpb25haXJlLg0KDQpZb3Uga25vdyB3aG8gdGhlIHRpbnNlbCB1bmRlcndlYXIgZHVkZSBpbiBWZW5pY2UgQmVhY2ggaXMuDQoNCllvdSd2ZSBkb25lIHNvbWV0aGluZyBvbiBhIHN0cmVldCBjb3JuZXIgaW4gYW4gYXR0ZW1wdCB0byBnZXQgbW9uZXkgKGkuZS4gc2FuZywgdGFwIGRhbmNlZCwgdG9sZCBqb2tlcykuDQoNCllvdSd2ZSBnb3R0ZW4gcGFya2luZyB0aWNrZXRzIGZyb20gcGFya2luZyBpbiB0aGUgcmVkIHpvbmUgaW4gZnJvbnQgb2YgeW91ciBob3VzZS4NCg0KWW91IHNheSB5b3UgbGl2ZSBpbiBMQSB3aGVuIHJlYWxseSB5b3UgbGl2ZSBpbiBhIHN1YnNlY3Rpb24gb2YgYSBzdWJzZWN0aW9uIG9mIGEgc3Vic2VjdGlvbiBvZiBzb3V0aGVybiBMQS4NCg0KQW55IG1ham9yIG1vdmllIHN0YXIgaXMgcGlja2luZyBvdXQgdGhlIGJlc3QgcG9ydG9iZWxsbyBtdXNocm9vbXMgbmV4dCB0byB5b3UgYXQgdGhlIGdyb2NlcnMgYW5kIHlvdSBkb24ndCBub3RpY2UuDQoNClRoZSBndXkgYXQgODozMCBpbiB0aGUgbW9ybmluZyBhdCBTdGFyYnVja3Mgd2VhcmluZyB0aGUgYmFzZWJhbGwgY2FwIGFuZCBzdW5nbGFzc2VzIHdobyBsb29rcyBsaWtlIEdlb3JnZSBDbG9vbmV5IElTIEdlb3JnZSBDbG9vbmV5Lg0KDQpZb3UgcmVhbGx5IGNhbiBuZXZlciBiZSB0b28gcmljaCBvciB0b28gdGhpbi4NCg0KVGhlIGd5bSBpcyBwYWNrZWQgYXQgM3BtLi4ub24gYSB3b3JrZGF5Lg0KDQpUaGUgd29ya2RheSBzdGFydHMgYXQgMTBhbS4uLm9yIHdoZW5ldmVyIHlvdSBnZXQgb3V0IG9mIHlvdXIgdGhlcmFweSBzZXNzaW9uLg0KDQpBbnkgaW52aXRhdGlvbiBjb21lcyB3aXRoLCAiU3RhcnRzIGF0IDhwbSBvciBhcyBzb29uIGFzIHlvdSBjYW4gZ2V0IHRocm91Z2ggdHJhZmZpYy4iDQoNCllvdSBoYXZlIG5ldmVyIG1ldCBhIHdhaXRlciB0aGF0IHdhc24ndCByZWFsbHkgYW4gIkFjdG9yLiINCg0KWW91IG5ldmVyIGdvIHRvIGEgY29mZmVlIGhvdXNlIHdpdGhvdXQgYSBjb3B5IG9mIGEgc2NyaXB0IC0gYW55IHNjcmlwdC4NCg0KSXQncyBzcHJpbmtsaW5nIGFuZCB0aGVyZSdzIGEgcmVwb3J0IG9uIGV2ZXJ5IG5ld3Mgc3RhdGlvbiBhYm91dCAiU1RPUk0gV0FUQ0ggJzk5Ig0KDQpZb3UgY2FsbCA5MTEgYW5kIHRoZXkgcHV0IHlvdSBvbiBob2xkLg0KDQpZb3UgaGF2ZSB0byBsZWF2ZSB0aGUgYmlnIGNvbXBhbnkgbWVldGluZyBlYXJseSBiZWNhdXNlIEJpbGx5IEJsYW5rcyBoaW1zZWxmIGlzIHRlYWNoaW5nIHRoZSA0OjMwIHRhZS1ibyBjbGFzcy4NCg0KVGhlIHRocmVlIGhvdXIgdHJhZmZpYyBqYW0geW91IGp1c3Qgc2F0IHRocm91Z2ggd2Fzbid0IGNhdXNlZCBieSBhIGhvcnJpZmljIDkgY2FyIHBpbGUtdXAsIGJ1dCBieSBldmVyeW9uZSBzbG93aW5nIHRvIHJ1YmJlcm5lY2sgYXQgYSBsb3N0IHNob2UgbHlpbmcgb24gdGhlIHNob3VsZGVyLg0KDQpBIG51cnNlIGNhbiBsb29rIGF0IHlvdSBpbiBhbGwgc2VyaW91c25lc3MgYW5kIGFzaywgInlvdSBkb27igJl0IGRyaW5rIG9yIHNtb2tlLCByaWdodD8iDQoNCkFsbCB0aGUgImNvb2wgZ3ltcyIgYWxsb3cgcGVkZXN0cmlhbnMgb24gdGhlIHN0cmVldCBhIGZ1bGwtdmlldyBvZiB0aG9zZSB3b3JraW5nIG91dC4gTGl0ZXJhbGx5LCB5b3UgY2Fu4oCZdCBkcml2ZSBieSBXaWxzaGlyZSB3aXRob3V0IHN0YXJpbmcgaW50byBMLkEuIEZpdG5lc3MuIFBlcmhhcHMgYSBuZXcgZm9ybSBvZiB3aW5kb3cgc2hvcHBpbmc/DQoNClRoZSBob3Qgc2Vhc29uYWwgcGFydHkgZmF2b3IgaXMgYSBjYW5kaWVkIGFwcGxlIGZyb20gTmVpbWFuJ3MuIFRoZSBhcHBsZXMgYXJlIGNhbGxlZCAiU2tpbm55IERpcHBlcnMuIg0KDQpUaGUgd2FpdHJlc3MgYXNrcyBpZiB5b3UnZCBsaWtlICJjYXJicyIgaW4geW91ciBtZWFsLg0KDQpCYXJzIGNhcmQuIEZvciByZWFsLg0KDQpZb3UgYWN0dWFsbHkgZ2V0IHRoZXNlIGpva2VzIGFuZCBwYXNzIHRoZW0gb24gdG8gb3RoZXIgZnJpZW5kcyBmcm9tIExvcyBBbmdlbGVzLg0KPC9mb250PjwvdGQ+PC90cj48L3RhYmxlPg0KPGJyPjxicj4NCjxkaXYgYWxpZ249ImNlbnRlciI+DQo8Yj48YSBocmVmPSJodHRwOi8vd3d3LmJsb2d0aGluZ3MuY29tL3doZXJlZnJvbS5odG1sIj5HZXQgWW91ciBPd24gIllvdSBLbm93IFlvdSdyZSBGcm9tIiBNZW1lIEhlcmU8L2E+PC9iPg0KPGJyPjxicj4NCk1vcmUgY29vbCB0aGluZ3MgZm9yIHlvdXIgYmxvZyBhdCANCjxhIGhyZWY9Imh0dHA6Ly93d3cuYmxvZ3RoaW5ncy5jb20iPkJsb2d0aGluZ3M8L2E+DQo8L2Rpdj4="
+"eventtime","2004-12-30 15:33:00"
+"url","http://peachez7.livejournal.com/37875.html"
+"userid","11698"
+"itemid","146"
+"event","<center><table width=""50%"" cellspacing=""0"" cellpadding=""0""><tr><td width=""16.67%"" bgcolor=""#6d475a"">&nbsp;</td><td width=""16.67%"" bgcolor=""#b2678c"">&nbsp;</td><td width=""16.67%"" bgcolor=""#80355a"">&nbsp;</td><td width=""16.67%"" bgcolor=""#ff875a"">&nbsp;</td><td width=""16.67%"" bgcolor=""#ffb4d9"">&nbsp;</td><td width=""16.67%"" bgcolor=""#ff69b4"">&nbsp;</td></tr><tr><td colspan=""6"" align=""center"">hammy ham moo is love</td></tr><tr><td colspan=""6"" align=""center""><small>brought to you by the <a href=""http://www.dutchfurs.com/~haze/islove/"">isLove Generator</a></small></td></tr></table></center>"
+"eventtime","2004-12-01 17:14:00"
+"current_moodid","125"
+"url","http://peachez7.livejournal.com/37498.html"
+"userid","11698"
+"itemid","145"
+"event","<STRONG><EM>So not much has happened since last time i wrote. Last weekend went to the mall with sormeh spent soooo much money haha. then we went to the swap meet it was fun and than we saw the grudge. we had a goooood time haha. anyways yesterday stayed at home till like 5ish went to sydneys and got picked up by jeremys mom. shes sooo nice. she showed us around her house and we talked about people in our group with her. and about how cameron never stops eating. shes so sweet. me jeremy sydney and cameron all went to johnny rockets and got food anna, emily and mallory showed up later by like 10 min. jeremy got us some free fries and onion rings off the table behind us. it was a full plate of them so he helped himself. haha. anyways saw the incredibles. haha i liked the little pre show more than the movie its self with the jackalope that only me and mallory knew what it was. haha before everyone else was at jeremys when it was just me syd jer and cameron, me and sydney put on jeremys clothes and sat next to him in his boxers shirt, sweater, hat , and robe haha good stuff. this morning we just listenined to the juke box and played pool . it wa salotta fun. stayd w/ jeremy his family and sydney til like 4ish haha. jeremys mom was my ride home. anyways i just&nbsp; downloaded a bunch a songs soooo im gonna get those in order. had so much fun w/ anna, emily, mallory ,cameron jeremy sydney and of course <FONT color=#ff0000>I LOVE SORMEH!</FONT> haha just cuz i love her so much haha </EM></STRONG>"
+"eventtime","2004-11-12 20:24:00"
+"current_moodid","59"
+"url","http://peachez7.livejournal.com/37374.html"
+"userid","11698"
+"itemid","144"
+"event","I think its really funny how in an instant everything can change. We are so close to having a 3rd world war and no one knows it. We can be dead in a matter of minuets. There are nuclear weapons that can destroy us in an instant. It is quoted from alber enistein although not exact along the lines of "" i do not know what weapons will be used for the 3rd world war,...but by the 4th..they will be using sticks and stones.""  makes you think? it sure has hell made me think. Everything can change in an instant..no second thought just gone. I realized this walking home. How quickly my life can change by one event. For instance I could be hit by a car walking home because we have no distinct sidewalks. I could die, or be paralized or it could just be life changing. But it doesnt matter beucase everything changed. Medical bills would go through the roof and the greif that overwhealmed my family and friends would effect them. Scarry to think about... To know that in an instant in 10 seconds your life could change forever. We have so many things we take for granted and we dont even realize it. Studying the World War and the Industrial Revolution for example showed how women lived in the 19th century. Poor lives, worked for less than minimum wage and couldn't go to school and didn't get paid the same amount as a man did for the same job. And working at home..they would get paid half of what the woman was making working at the factory. Maybe someone will take a look over their life and ask themselves if they really like whats happening. Maybe yes and maybe no..I looked at my life this summer before I knew this and I changed many things. For example my need for a guy. I finished so many things this summer and im happier with the way that i am. Well just take at look at yourself and whats around you.. Do you really like it? Do you really want to live this way?"
+"eventtime","2004-10-29 19:23:00"
+"url","http://peachez7.livejournal.com/37036.html"
+"userid","11698"
+"itemid","143"
+"event","new words, phrases and music that ive discovered. 
+
+Oo-de-lally
+slmp
+Absence makes the heart grow fonder
+Life is brief, but when it's gone Love goes on and on
+sb
+sfpb
+sfphw
+XXX adult porn music *found it on limewire*
+moo poo
+llama moo poo
+OH WONDERFUL
+
+love you llama moo poo 
+
+TOMORROWS THE HOMECOMMING GAME GONNA BE AWESOME!! AND THAN HOMECOMMING ITSELF WOOO FUNNN"
+"eventtime","2004-10-21 19:55:00"
+"current_moodid","125"
+"url","http://peachez7.livejournal.com/36705.html"
+"userid","11698"
+"itemid","142"
+"event","i hate it when you know someone is feeling down and you cant really help. i always feel like a crappy friend when that happens. 
+
+well its been raining for a while now which i know everyone knows. its great, except for the part taht im really cold in the morning when im walking to school and when im sitting and lunch being huddled w/ jeremy. and than everything with cameron i think has gotten worse. today during pe i didnt dress cuz we had an AIDS assembly and it was really cold. brandy and i were walking the track and cameron and his friends we walking in the other direction and than everytime we past them "" hey camerons gf"" or "" hey cameron look"" UCH just w/e it bugs the hell otu of me cuz its not true. and lets see what else today. oh today in history we were suppose to present notes and just like tell about the section. well we wer SUPPOSE to but we weretn ready bcuz of my teacher. the westlake game was pretty interesting. its been on the news a couple times. damn westlake cheated us. homecomming game shouold be good and than homecomming should be too. cant wait"
+"eventtime","2004-10-19 19:28:00"
+"current_moodid","31"
+"url","http://peachez7.livejournal.com/36412.html"
+"userid","11698"
+"itemid","141"
+"event","UCH TODAY IS THE WRONG DAY TO MAKE ME MAD. SERIOUSLY EVERYTHING GOING ON W/ KATRINA AND HOMECOMMING. GOD. IM NOT GOING TO HOMECOMMING ANYMORE. I GIVE UP. IF MY OWN FUCKING FRIENDS DONT TAKE FUCKING NO FOR AN ANSWER THAN WHAT DOES THAT TELL YOU?"
+"eventtime","2004-10-07 22:47:00"
+"current_moodid","24"
+"url","http://peachez7.livejournal.com/36320.html"
+"userid","11698"
+"itemid","140"
+"event","<P>a portion of busbys lecture today (10-5-04) and these people would work in huge factorys. you know the cat walks? well those things are SO small. and people would have to move HUGE pieces of meat across it * moves imaginary meat and hurts back* and guess what.... sometimes people would fall into the vats that make hotdogs and sausages...so you'd be eating ur hotdog and be like WTF A FINGER?!? </P>
+<P>&nbsp;</P>
+<P>and at the point before this i was saying to max that it wud be funny to have that happen. you could have like the white dogs, the jewish dogs, and the black dogs and brown dogs. man and than busby said "" and people fell into it"" and i just BURST out laughing. and than max started laughing cuz i was like man how aweful would that be if it really happened. and i guess it did but i think i figured that one out. haha anyways gotta love busby. our lovely notes about drugs, sex, the song purple haze, botox, the pill, tampons you know everyday European history. haha. no its just busby hes just cool but he makes me so bored sometimes haha <IMG src=""http://img.photobucket.com/albums/v90/Peachez79/oscarmayer.jpg""> <lj-cut text=""OHHH I WISH""> <IMG src=""http://img.photobucket.com/albums/v90/Peachez79/weiners2.jpg""> 
+just to keep the oscar mayer thing going this is for sormeh(below) </P>
+<P>heres bsb: </P>
+<P><IMG src=""http://img.photobucket.com/albums/v90/Peachez79/bologna2.jpg""> </P>
+<P>heres hhm: <IMG src=""http://img.photobucket.com/albums/v90/Peachez79/sormeh.jpg""> </P>
+<P>heres something else you should do while ur in the oscar mayer mood. </P>
+<P><FONT color=#ff6600><FONT color=#000000><STRONG><FONT color=#ff6600>Oh I wish I were an Os-car Mayer Wie - ner<BR><FONT color=#ff6666>That is what I'd tru-ly like to be</FONT><BR><FONT color=#ffcc33>'cause if I were an Os-car May-er Wie - ner<BR></FONT>Ev-ery one would be in love with me.</FONT></STRONG></FONT></FONT></P>
+<P><FONT color=#ff6600><FONT color=#000000><FONT color=#000000>heres another for you just for good times sake w/ hhm </FONT></FONT></FONT></P>
+<P><FONT color=#ff6600><FONT color=#000000><STRONG><FONT color=#ff6666>My bologna has a first names its O-S-C-A-R </FONT><BR></STRONG></FONT></FONT><FONT color=#ff6600><FONT color=#000000><STRONG><FONT color=#ffcc33>My bologna has a second name is M-A-Y-E-R</FONT><BR><FONT color=#ff9900>&nbsp;I like to eat it every day and if you ask me i will say, </FONT><BR><FONT color=#ff6600>'Cuz OSCAR MAYER has a way with B-O-L-O-G-N-A</FONT></STRONG></FONT><FONT color=#ff6600> <BR></FONT><BR></P></FONT>"
+"eventtime","2004-10-05 19:05:00"
+"current_moodid","99"
+"url","http://peachez7.livejournal.com/36012.html"
+"userid","11698"
+"itemid","139"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074644981' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your Inner Gangsta by <a href='http://www.livejournal.com/~crash_and_burn'><font color='#DDDD88'>crash_and_burn</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>What is yo name?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='What is yo name?' value='kristen' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Yo gangsta name be</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Los Pantalones</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You ride around in a</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>2003 Land Rover Defender</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Yo gang</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Gary Coleman's Alleycat Thugs</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Yo shoes be</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Chuck Taylors</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Yo dubs be dis big, fool</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>1,496</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>How much money you got?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>$6.02065288215329e+26</span></td></tr><tr><td colspan='2' bgcolor='#333333' style='border: 1px solid black; text-align: center;' align='center'><table width='100%' cellpadding=0 cellspacing=0 width='300'><caption><span style='color: #FFFFFF;'>How gangsta are you, bitch?: 61%</span></caption><tr><td bgcolor='#0000FF' height='5'></td><td bgcolor='#0000FF' height='5'></td><td bgcolor='#0011EE' height='5'></td><td bgcolor='#0022CC' height='5'></td><td bgcolor='#0044AA' height='5'></td><td bgcolor='#006688' height='5'></td><td bgcolor='#008866' height='5'></td><td bgcolor='#00AA44' height='5'></td><td bgcolor='#00CC22' height='5'></td><td bgcolor='#00EE11' height='5'></td><td bgcolor='#00FF00' height='5'></td><td bgcolor='#00FF00' height='5'></td></tr><tr><td bgcolor='#0000FF' height='5'></td><td bgcolor='#00FFFF' height='10'></td><td bgcolor='#00FFFF' height='10'></td><td bgcolor='#00FFFF' height='10'></td><td bgcolor='#00FFFF' height='10'></td><td bgcolor='#00FFFF' height='10'></td><td bgcolor='#00FFFF' height='10'></td><td bgcolor='#00FFFF' height='10'></td><td bgcolor='#00CC22' height='5'></td><td bgcolor='#00EE11' height='5'></td><td bgcolor='#00FF00' height='5'></td><td bgcolor='#00FF00' height='5'></td></tr><tr><td bgcolor='#0000FF' height='5'></td><td bgcolor='#0000FF' height='5'></td><td bgcolor='#0011EE' height='5'></td><td bgcolor='#0022CC' height='5'></td><td bgcolor='#0044AA' height='5'></td><td bgcolor='#006688' height='5'></td><td bgcolor='#008866' height='5'></td><td bgcolor='#00AA44' height='5'></td><td bgcolor='#00CC22' height='5'></td><td bgcolor='#00EE11' height='5'></td><td bgcolor='#00FF00' height='5'></td><td bgcolor='#00FF00' height='5'></td></tr></table></td></tr><input type='hidden' name='un' value='crash_and_burn'><input type='hidden' name='meme' value='1074644981'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-09-28 20:57:00"
+"current_moodid","40"
+"url","http://peachez7.livejournal.com/35773.html"
+"userid","11698"
+"itemid","138"
+"event","PFA+eWVhIHNvIHRvZGF5IGkgd2FudGVkIHRvIGdvIHRvIHRoZSBnYW1lLi4uYW5kIHRoYXQgd2FzIGxpa2UgYXJvdW5kIDQgdGhhdCBpIGRlY2lkZWQgaSB3YW50ZWQgdG8gZ28uIG4gYnJhbmR5IGFsc28gYXNrZWQgbWUgaWYgaSB3b3VsZCBnby4gc28gaSB3YW50ZWQgdG8gZ28gcmVhbGx5IGJhZC4gbiB0aGVuIGkgYXNrZWQgZXJpY2Egc2hlIHNhaWQgbm8gY3V6IHNoZSB3YXMgdGlyZWQgbiBnb25uYSBkbyBody4gdGhhbiBpIGFza2VkIHN5ZG5leSBuIHN5ZG5leSB3YXMgbGlrZSAiIGl0cyBhIHNjaG9vbCBuaWdodCBhbmQgaW0gcmVhbGx5IHRpcmVkIiBhbmQgaSB3YXMgbGlrZSAiIG9rIHlvdSBrbm93IHdoYXQgdGhhdHMgcmVhbGx5IHN0dXBpZCBkb250IHVzZSB0aGUgaXRzIGEgc2Nob29sIG5pZ2h0IGFzIGFuIGV4Y3VzZSBjdXogd2UgZ28gbiBlYXQgb24gc2Nob29sIG5pZ2h0cyBhbmQgaWYgeW91IGRvbnQgd2FubmEgZ28ganVzdCB0ZWxsIG1lIGFuZCBkb250IGJzIG1lIHlvdSBrbm93IGkgaGF0ZSBpdCIgYW5kIHRoZW4ga2F0cmluYSB3ZW50IG9uIGFuZCB3YXMgbGlrZSAiIGRvbnQgbWFrZSBoZXIgZmVlbGJhZCBodW4gc2hlIGp1c3QgZG9lc250IHdhbm5hIGdvIiBvayB3ZWxsIGZpcnN0IG9mZiB5b3UgY291bGQganVzdCBzYXkgbm8gaSBkb250IGZlZWwgbGlrZSBnb2luZy4gbiBpZCBoYXNzbGUgdSBzdXJlIGJ1dCBpZCBnaXZlIHVwLiBidXQgbGlrZSBvbWcuIEkgSEFURSBMSUFSUyBJIEhBVEUgUEVPUExFIExJS0UgVEhBVCBJIEhBVEUgSVQgU08gTVVDSC4gSSBXQU5URUQgVE8gU0NSRUFNISBhbnl3YXlzIHRoYXRzIGFib3V0IGl0IHRvZGF5IHdhcyBnb29kLiBzd2FtIGluIHBlIGRpZCB2b2xsZXliYWxsLiBhbmQgaSBhY3R1YWxseSBkaWQgaXQuIGJ1c2J5IGp1c3Qgc2F0IGFyb3VuZCBhbmQgdGFsa2VkIGFib3V0IE5hcG9sZW9uLiBub3QgcmVhbHkgYWxsIHRoYXQgZnVuLiBpIGRvb2RsZWQgdGhvdWdoLiBlbmdsaXNoIG9oIGdvZCBpIGRvbnQgcmVtZW1iZXIgd2hhdCBoYXBwZW5lZCBpbiB0aGF0IGNsYXNzDQo8bGotY3V0IHRleHQ9Ik5vIHlvdSBkb250IGtub3cgd2hhdCBpdCdzIGxpa2UuLi4iPiANCjxQPjxGT05UIGNvbG9yPSM2NjY2Y2Mgc2l6ZT0yPjxTVFJPTkc+PEVNPkRvIHlvdSBldmVyIGZlZWwgbGlrZSBicmVha2luZyBkb3duPyA8QlI+RG8geW91IGV2ZXIgZmVlbCBvdXQgb2YgcGxhY2UsIDxCUj5MaWtlIHNvbWUgaG93IHlvdSBqdXN0IGRvbuKAmXQgYmVsb25nLCA8QlI+QW5kIG5vIG9uZSB1bmRlcnN0YW5kcyB5b3U/IDwvRU0+PC9TVFJPTkc+PC9GT05UPjwvUD4NCjxQPjxGT05UIGNvbG9yPSM2NjY2Y2Mgc2l6ZT0yPjxTVFJPTkc+PEVNPkRvIHlvdSBldmVyIHdhbnQgdG8gcnVuIGF3YXk/IDxCUj5EbyB5b3UgbG9jayB5b3Vyc2VsZiBpbiB5b3VyIHJvb20/IDxCUj5XaXRoIHRoZSByYWRpbyBvbiB0dXJuZWQgdXAgc28gbG91ZCwgPEJSPlRoYXQgbm8gb25lIGhlYXJzIHlvdSBzY3JlYW1pbmc/IDwvRU0+PC9TVFJPTkc+PC9GT05UPjwvUD4NCjxQPjxGT05UIGNvbG9yPSM2NjY2Y2Mgc2l6ZT0yPjxTVFJPTkc+PEVNPk5vLCB5b3UgZG9u4oCZdCBrbm93IHdoYXQgaXTigJlzIGxpa2UsIDxCUj5XaGVuIG5vdGhpbmcgZmVlbHMgYWxyaWdodCwgPEJSPllvdSBkb27igJl0IGtub3cgd2hhdCBpdOKAmXMgbGlrZSwgPEJSPlRvIGJlIGxpa2UgbWUhIDwvRU0+PC9TVFJPTkc+PC9GT05UPjwvUD4NCjxQPjxGT05UIGNvbG9yPSM2NjY2Y2Mgc2l6ZT0yPjxTVFJPTkc+PEVNPlRvIGJlIGh1cnQsIHRvIGZlZWwgbG9zdCwgPEJSPlRvIGJlIGxlZnQgb3V0IGluIHRoZSBkYXJrLCA8QlI+VG8gYmUga2lja2VkLCB3aGVuIHlvdeKAmXJlIGRvd24sIDxCUj5UbyBmZWVsIGxpa2UgeW914oCZdmUgYmVlbiBwdXNoZWQgYXJvdW5kLCA8QlI+VG8gYmUgb24gdGhlIGVkZ2Ugb2YgYnJlYWtpbmcgZG93biwgPEJSPldoZW4gbm8gb25l4oCZcyB0aGVyZSB0byBzYXZlIHlvdSwgPEJSPk5vIHlvdSBkb27igJl0IGtub3cgd2hhdCBpdOKAmXMgbGlrZSwgPEJSPldlbGNvbWUgdG8gbXkgbGlmZSA8L0VNPjwvU1RST05HPjwvRk9OVD48L1A+DQo8UD48Rk9OVCBjb2xvcj0jNjY2NmNjIHNpemU9Mj48U1RST05HPjxFTT5EbyB5b3Ugd2FudCB0byBiZSBzb21lYm9keSBlbHNlPyA8QlI+QXJlIHlvdSBzaWNrIG9mIGZlZWxpbmcgc28gbGVmdCBvdXQ/IDxCUj5BcmUgeW91IGRlc3BlcmF0ZSB0byBmaW5kIHNvbWV0aGluZyBtb3JlLCA8QlI+QmVmb3JlIHlvdXIgbGlmZSBpcyBvdmVyPyA8L0VNPjwvU1RST05HPjwvRk9OVD48L1A+DQo8UD48Rk9OVCBjb2xvcj0jNjY2NmNjIHNpemU9Mj48U1RST05HPjxFTT5BcmUgeW91IHN0dWNrIGluc2lkZSBhIHdvcmxkIHlvdSBoYXRlPyA8QlI+QXJlIHlvdSBzaWNrIG9mIGV2ZXJ5b25lIGFyb3VuZD8gPEJSPldpdGggdGhlIGJpZyBmYWtlIHNtaWxlcyBhbmQgc3R1cGlkIGxpZXMsIDxCUj5XaGlsZSBkZWVwIGluc2lkZSB5b3XigJlyZSBibGVlZGluZz8gPC9FTT48L1NUUk9ORz48L0ZPTlQ+PC9QPg0KPFA+PEZPTlQgY29sb3I9IzY2NjZjYyBzaXplPTI+PFNUUk9ORz48RU0+Tm8geW91IGRvbuKAmXQga25vdyB3aGF0IGl04oCZcyBsaWtlLCA8QlI+V2hlbiBub3RoaW5nIGZlZWxzIGFscmlnaHQsIDxCUj5Zb3UgZG9u4oCZdCBrbm93IHdoYXQgaXTigJlzIGxpa2UsIDxCUj5UbyBiZSBsaWtlIG1lISA8L0VNPjwvU1RST05HPjwvRk9OVD48L1A+DQo8UD48Rk9OVCBjb2xvcj0jNjY2NmNjIHNpemU9Mj48U1RST05HPjxFTT5UbyBiZSBodXJ0LCB0byBmZWVsIGxvc3QsIDxCUj5UbyBiZSBsZWZ0IG91dCBpbiB0aGUgZGFyaywgPEJSPlRvIGJlIGtpY2tlZCwgd2hlbiB5b3XigJlyZSBkb3duLCA8QlI+VG8gZmVlbCBsaWtlIHlvdeKAmXZlIGJlZW4gcHVzaGVkIGFyb3VuZCwgPEJSPlRvIGJlIG9uIHRoZSBlZGdlIG9mIGJyZWFraW5nIGRvd24sIDxCUj5XaGVuIG5vIG9uZeKAmXMgdGhlcmUgdG8gc2F2ZSB5b3UsIDxCUj5ObyB5b3UgZG9u4oCZdCBrbm93IHdoYXQgaXTigJlzIGxpa2UsIDxCUj5XZWxjb21lIHRvIG15IGxpZmUgPC9FTT48L1NUUk9ORz48L0ZPTlQ+PC9QPg0KPFA+PEZPTlQgY29sb3I9IzY2NjZjYyBzaXplPTI+PFNUUk9ORz48RU0+Tm8gb25lIGV2ZXIgbGllcyBzdHJhaWdodCB0byB5b3VyIGZhY2UhIDxCUj5ObyBvbmUgZXZlciBzdGFicyB5b3UgaW4gdGhlIGJhY2shIDxCUj5Zb3UgbWlnaHQgdGhpbmsgSeKAmW0gaGFwcHksIDxCUj5CdXQgSeKAmW0gbm90IGdvbm5hIGJlIG9rYXkhIDwvRU0+PC9TVFJPTkc+PC9GT05UPjwvUD4NCjxQPjxGT05UIGNvbG9yPSM2NjY2Y2Mgc2l6ZT0yPjxTVFJPTkc+PEVNPkV2ZXJ5Ym9keSBhbHdheXMgZ2F2ZSB5b3Ugd2hhdCB5b3Ugd2FudGVkISA8QlI+WW91IG5ldmVyIGhhZCB0byB3b3JrLCBpdCB3YXMgYWx3YXlzIHRoZXJlISA8QlI+WW91IGRvbuKAmXQga25vdyB3aGF0IGl04oCZcyBsaWtlICh3aGF0IGl04oCZcyBsaWtlKeKApiA8L0VNPjwvU1RST05HPjwvRk9OVD48L1A+DQo8UD48Rk9OVCBjb2xvcj0jNjY2NmNjIHNpemU9Mj48U1RST05HPjxFTT5UbyBiZSBodXJ0LCB0byBmZWVsIGxvc3QsIDxCUj5UbyBiZSBsZWZ0IG91dCBpbiB0aGUgZGFyaywgPEJSPlRvIGJlIGtpY2tlZCwgd2hlbiB5b3XigJlyZSBkb3duLCA8QlI+VG8gZmVlbCBsaWtlIHlvdeKAmXZlIGJlZW4gcHVzaGVkIGFyb3VuZCwgPC9FTT48L1NUUk9ORz48L0ZPTlQ+PC9QPg0KPFA+PEZPTlQgY29sb3I9IzY2NjZjYyBzaXplPTI+PFNUUk9ORz48RU0+VG8gYmUgb24gdGhlIGVkZ2Ugb2YgYnJlYWtpbmcgZG93biwgPEJSPldoZW4gbm8gb25l4oCZcyB0aGVyZSB0byBzYXZlIHlvdSwgPEJSPk5vIHlvdSBkb27igJl0IGtub3cgd2hhdCBpdOKAmXMgbGlrZSwgPC9FTT48L1NUUk9ORz48L0ZPTlQ+PC9QPg0KPFA+PEZPTlQgY29sb3I9IzY2NjZjYyBzaXplPTI+PFNUUk9ORz48RU0+VG8gYmUgaHVydCwgdG8gZmVlbCBsb3N0LCA8QlI+VG8gYmUgbGVmdCBvdXQgaW4gdGhlIGRhcmssIDxCUj5UbyBiZSBraWNrZWQsIHdoZW4geW914oCZcmUgZG93biwgPEJSPlRvIGZlZWwgbGlrZSB5b3XigJl2ZSBiZWVuIHB1c2hlZCBhcm91bmQsIDxCUj5UbyBiZSBvbiB0aGUgZWRnZSBvZiBicmVha2luZyBkb3duLCA8QlI+V2hlbiBubyBvbmXigJlzIHRoZXJlIHRvIHNhdmUgeW91LCA8QlI+Tm8geW91IGRvbuKAmXQga25vdyB3aGF0IGl04oCZcyBsaWtlLCA8QlI+V2VsY29tZSB0byBteSBsaWZlIDwvRU0+PC9TVFJPTkc+PC9GT05UPjwvUD4NCjxQPjxGT05UIGNvbG9yPSM2NjY2Y2Mgc2l6ZT0yPjxTVFJPTkc+PEVNPldlbGNvbWUgdG8gbXkgbGlmZSEgPC9FTT48L1NUUk9ORz48L0ZPTlQ+PC9QPg0KPFA+PEZPTlQgc2l6ZT0yPjxTVFJPTkc+PEVNPjxGT05UIGNvbG9yPSM2NjY2Y2M+V2VsY29tZSB0byBteSBsaWZlITwvRk9OVD48QlI+PC9FTT48L1NUUk9ORz48L0ZPTlQ+PC9QPg=="
+"eventtime","2004-09-23 19:46:00"
+"current_moodid","133"
+"url","http://peachez7.livejournal.com/35576.html"
+"userid","11698"
+"itemid","135"
+"event","Adam
+Brandon 
+Chris
+Derek 
+Erica
+Fred
+Garret 
+Hara
+Ilene 
+Jeremy 
+Katrina 
+Liz
+Mallory
+Natalie
+Oscar 
+Paul 
+Quanesha 
+Ryan
+Sormeh
+Tom
+U
+Vonya
+Wolfgang 
+X
+Yelizaveta (lisa)
+Z
+
+wow yea i got bored and i felt the need to name people that know n see how many letters outta the alpahbet i didnt know.last night went to the amc with sormeh n met up w/ liz. saw adam haha. went to see Without a paddle liz left in the middle. good funny movie. met up with liz and evan by rubys. ran into leo and jordan on the way over. ran back into them while talking with evan and liz. went swimming talked till like 5 am. slept over at sormehs lots of fun. 5 hrs of sleep nice lil wakeup call at 10:30 am *funn*. just relaxed w/ her and made fun of guys"
+"eventtime","2004-09-18 20:30:00"
+"current_moodid","33"
+"url","http://peachez7.livejournal.com/34701.html"
+"userid","11698"
+"itemid","133"
+"event","man ihate being lied to. its not even funny anymore. like sometimes its ok. but jeeze i know that ur lieyin to me. just like stop it gets really annoying after a while...ugh haha i kinda find it amusingbut not at the same timne
+
+anyways saturday sormeh came over n wejust had fun haha we went for a long walk n just talked. today we went to the mall. stupid boi suppose to go but didnt cuz hes lazy. haha. oh well. we had funnnnnn mongolian food, rampage, hollister, nordstrom. u kno everything we normally go in. haha and we glanced at Pac sun. haha ill never shop from there again. but im prolly lying abot that last part. haha prolly only shirts or something. haha anyways yea"
+"eventtime","2004-09-12 19:08:00"
+"current_moodid","3"
+"url","http://peachez7.livejournal.com/34260.html"
+"userid","11698"
+"itemid","132"
+"event","HAPPY BIRTHDAY LUCAS!! UR A TEEN NOW!! JUST THINK NEXT YEAR ULL SEE ME ALMOST EVERYDAY. DONT U FEEL SEPCIAL. !!"
+"eventtime","2004-09-10 00:00:00"
+"url","http://peachez7.livejournal.com/33857.html"
+"userid","11698"
+"itemid","130"
+"event","HH: I SAW LEPRICON!
+bsb: OGM RRALLY
+HH: YEA
+bsb: REALLY
+HH: i wa s in rubys n he walked by
+bsb: did u take its pics?
+HH: n iwas liek ITS LEPRICON!! ... wtf r u smoking, im talkin bout lepricon  ur friend adam waddles
+bsb: adam?
+HH: or whoever
+bsb: AHHH haha
+HH: ur so dumb sometimes  but i love you
+bsb: haha i thought you meant a real one
+HH: freak haha"
+"eventtime","2004-09-03 23:44:00"
+"current_moodid","72"
+"url","http://peachez7.livejournal.com/33346.html"
+"userid","11698"
+"itemid","129"
+"event","well today was the first day of school actually just the first half. tomorrows the first day. today i had  bio, geometry n cermaics... bio was good i dont know anyone in that class but w/e. geometry i kno tons of ppl in that one haha. and in ceramics i have brandy. lol. tomorrow i have english II im nto sure whose in that yet. than i have pe with coach brennen and i have that with brandy so thats ok too. even better. haha. than finally i have history and i have that with jeremy. not that bad. so only 2 classes. haha its cool. today was fun. i think i guess. i didnt like waking up early tho. i was gonna die this morning. i was like ughhhhhh anyways i already have bio work its actually just to read about the characteristics of living things. n then in geometry i have to write a ""mathorgaphy"" about my past math classes, who i work well with, who i dont, how i learn and what frustrates me. than i have to make a mini hammock...oh thats sound fun. it has to be able to hold our teachers stapler and then it has to be off the ground..seems really gay. im thinking of just cuttin up some cloth n going poof hammock sounds really lame..at least i have no school on the 6th so thats a plus. ok this is alotta writing but not really.
+
+oh by the way i went to the hospital today n saw marlos baby. shes soooo cute Isabella i think thats how u spell her name. when i saw her she was only 10 hrs old. shes soooo cute i love her oodles. anyways thats it i think..i have a headache n i wanna go to the pool really bad right now but im not cuz its dark outside n theres all sorts of scarrys outside!!"
+"eventtime","2004-09-01 21:31:00"
+"current_moodid","31"
+"url","http://peachez7.livejournal.com/33035.html"
+"userid","11698"
+"itemid","128"
+"event","ive changed. finally everything for the past year, haha. i cut it off fuck yea go me. this summer i changed. people who i thought meant something to me have been cut outta my life. i started w/ jed. he needed to go bcuz he caused me nothing but sadness and shit i didnt want. what a way to end a bday? im not sad over it im happy. people who i thought were my friends but stayed little contact with me over the summer and the years have been cut out and i am no longer ""friends"" with them. i am now just someone to say hey to. n have a whats up convo n tahts it. some people who i havent talked with in ages can come online n i can have a great couple hour convo with them. anyways today was cool. i got tons of calls for my happy birthday. ryan called tonight around 8 n told me happy bday which i thought was sweet hes a nice kid. sormeh was tha first to tell me happy bday. even thoi was online till 2 am lol. nick was about to say it when i was signing off but i told him NOOO sormeh wants to b the first. im kinda surprised that none of my agoura homies even decided to call me today. well fuck them haha. erica and lucas have the ok cuz their outta town. sydney, jeremy, katrina, jeff thats about it that i cared about calling. kinda surprising to see who ur real friends are huh. elsie called n i hardly tlak w/ her anymore. a guy i met 2 weeks gave me a present and called me. hmm funny huh. haha oh well. im having a great day. just sat with family for like 5 hours and talked. wow it was a great day... im relaxed and happy. everythings good in my life. no guy drama. anymore well for a while at least haha"
+"eventtime","2004-08-28 23:04:00"
+"current_moodid","90"
+"url","http://peachez7.livejournal.com/32904.html"
+"userid","11698"
+"itemid","127"
+"event","I reallly wanna WAKEBOARD. I kinda figured it out today when I was watching tv with my mom...I really want the excitement of doing flips and turns and the falls. I want it so bad!! I want to get good and to be sponsored and maybe even be signed... I want it so bad. Im willing to do anything just to be able to get good at least and be able to do flips and stuff. I'm not that good right now but I really wanna be. I've never wanted something this badly. I got all excited about it over dinner tonight.My plan was to get good, be sponsored, enter competitions, win them, be signed. Everyone who knows me knows that im not one to be all excited about sports and actually wanna do it. Basketball turned out to be a strictly fun game with friends. But Wakeboarding...I want it to be so much more. So I guess im getting lessons this winter maybe. Im willing to go out and buy a wet suit if i need it and a new board if i really have to. I want this so bad...
+
+LUCAS: IN ALL I WANT TO WAKEBOARD!!"
+"eventtime","2004-08-26 20:32:00"
+"current_moodid","43"
+"url","http://peachez7.livejournal.com/32582.html"
+"userid","11698"
+"itemid","126"
+"event","<P><lj-cut text=""Hmmmm""> </P>
+<P><FONT color=#000000>Have you ever...<BR>[ ] been drunk.<BR>[ ] smoked pot.<BR>[x] kissed a member of the opposite sex.<BR>[x] kissed a member of the same sex <BR>[ ] rode in a taxi.<BR>[ ] been dumped.<BR>[x] shoplifted.<BR>[ ] been fired.<BR>[x] been in a fist fight.<BR>[ ] had a threesome - kissing or otherwise<BR>[ ] snuck out of your parent's house<BR>[ ] been arrested.<BR>[ ] made out with a stranger.<BR>[ ] stole something from your job.<BR>[ ] celebrated new years in times square.<BR>[ ] been to japan<BR>[x] went on a blind date.<BR>[x] lied to a friend.<BR>[ ] had a crush on a teacher.<BR>[ ] celebrated mardi-gras in new orleans.<BR>[ ] been to europe.<BR>[x] skipped school.<BR>[ ] thrown up from drinking<BR>[x] lost your sibling.<BR>[x] played 'clue'.<BR>[x] had a sleepover party<BR>[ ] went ice skating.<BR>[ ] cheated on a bf/gf.<BR>[ ] been cheated on.<BR>[ ] had a sweet sixteen.<BR>[ ] had a car.<BR>[ ] drove.<BR><BR>Do you...<BR>[x] have a bf.<BR>[ ] have a gf.<BR>[x] have a crush.<BR>[x] feel loved.<BR>[x] feel lonely.<BR>[x] feel happy.<BR>[x] have a dog.<BR>[x] have your own room.<BR>[x] listen to rap.<BR>[x] listen to rock.<BR>[ ] listen to soul.<BR>[ ] listen to techno.<BR>[ ] listen to reggae. <BR>[x] paint your toenails.<BR>[x] have more than 1 best friend <BR>[ ] get good grades. <BR>[x] play an instrument.<BR>[x] have slippers.<BR>[x] wear boxers.<BR>[x] wear black eyeliner.<BR>[x] like the color blue.<BR>[x] like the color yellow.<BR>[ ] cyber. <BR>[x] like to read.<BR>[x] like to write.<BR>[ ] have long hair.<BR>[x] have short hair.<BR>[ ] have a cell phone.<BR>[ ] have a laptop.<BR>[ ] have a pager.<BR><BR>Are you...<BR>[x] ok.<BR>[x] bored.<BR>[x] happy.<BR>[x] bilingual.<BR>[x] white.<BR>[ ] black. <BR>[ ] mexican.<BR>[ ] hawaiian<BR>[x] short.<BR>[ ] tall.<BR>[ ] grounded.<BR>[x] sick.<BR>[x] lazy.<BR>[ ] single.<BR>[x] taken.<BR>[ ] looking.<BR>[x] not looking.<BR>[x] talking to someone.<BR>[x] IMing someone.<BR>[x] scared to die.<BR>[ ] tired.<BR>[ ] sleepy.<BR>[ ] annoyed.<BR>[ ] hungry. <BR>[x] thirsty.<BR>[ ] on the phone.<BR>[x] in your room.<BR>[x] drinking something.<BR>[x] eating something.<BR>[x] in your pjs.<BR>[x] ticklish.<BR>[x] listening to music.</FONT></P>"
+"eventtime","2004-08-25 22:51:00"
+"url","http://peachez7.livejournal.com/32497.html"
+"userid","11698"
+"itemid","125"
+"event","i miss my bestfriend .i need her now more than ever. man n its only been 3 days since ive talked w/ her. god. so much crap happens. i need sormeh badly. i miss her to death and i dont know ohw im gonna survive when shes in sweden...god my life is messed up badly. i wanna be done with everything. i want everything to go away. i wanna go back to when my life was like haha ooo ahh i like brandon.. that wasnt bad. i want my love life back to that. i cant stand this what i have now...to many. i want easy relationships like with ryan and brandon,...i wanna turn back the clock and just never have done anything i just want everything to be normal...its not gonna happen. wow are my high school days gonna be interesting. if its anyting liek this year hah. i could have a soap opera....
+
+I LOVE YOU HAMMY HAM MOO N I KNOW UR NOT GONNA READ THIS FOR A WHIE BUT I LOVE YOU WITH ALL MY HEART N I NEVER EVER WANT TO LEAVE YOU EVER. I NEVER WANT TO MOVE ON WITH MY LIFE WITHOUT YOU. SORMEH YOU MEAN THE WORLD TO ME!!"
+"eventtime","2004-08-24 22:26:00"
+"current_moodid","24"
+"url","http://peachez7.livejournal.com/32157.html"
+"userid","11698"
+"itemid","124"
+"event","xxNevada Anarchistxx: 4 sure
+Mancas5: 4 sure 
+QutPrincess: 4 SURE!!
+Team Youth: 4 sure
+Zac27: 4 sure
+Solastsummer: 4 sure
+electrickMAgic: 4 sure 
+Wrong Answers
+pervertpenguin: fo sho!!!"
+"eventtime","2004-08-24 19:05:00"
+"url","http://peachez7.livejournal.com/31859.html"
+"userid","11698"
+"itemid","123"
+"event","QuTprincess: and i used to think that when you told me my life was a soap opera
+QuTprincess: you are now my new compeditor
+PeachezNCherry79: i never went away
+
+
+fo sho or 4 sure?? which is better? comment"
+"eventtime","2004-08-23 21:35:00"
+"url","http://peachez7.livejournal.com/31651.html"
+"userid","11698"
+"itemid","122"
+"event","<img src=""http://img.photobucket.com/albums/v90/Peachez79/590e5acd.bmp"">
+
+<lj-cut text=""Best Place Eva""> 
+
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/35c3e07d.bmp"">
+
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/jkfdshgf.bmp"">
+
+ALL NEED TO GO WHEN DOWN BY LAX
+11222 Washington Pl
+Culver City, CA 90230"
+"eventtime","2004-08-23 18:03:00"
+"url","http://peachez7.livejournal.com/31250.html"
+"userid","11698"
+"itemid","121"
+"event","you're gorgeous,you're kind,you're sweet when you want to be,your eyes rock ass and you have a really nice ass..
+
+haha i love liz. im complaining about how i didnt get hints about anything today haha. anyways u guys shud agree with her. i agree with the last 3 haha. man i love my ass haha.
+
+found this:
+falls strongly in love but will leave if betrayed or lied to, emotionally soft, low 
+selfesteem, needs affection and reassurance
+
+guess who came to mind"
+"eventtime","2004-08-22 22:57:00"
+"current_moodid","125"
+"url","http://peachez7.livejournal.com/30992.html"
+"userid","11698"
+"itemid","120"
+"event","i loooovveee being complimented. hehe. i think im driving sydney nuts! hehe showing her all my compliments. hehe. anyways i think im going to florida in october. gotta see my grandpa. anyways tonight was pretty boring... i talked with sormeh for a bit i miss her alot already. umm talked w/ syd not alot. n nick not alot. just talking with liz. OH i kinda talked with ryan today lol. not really but i did lol. ummm what else. lol. i was like "" UR SUPPOSE TO BE HERE N HAPPY TO TALK W/ ME"" but than i signed off n then later when i signed on he was gone :( lame. anyways tonights lame. its almost 11 n nothing has happened. stupid. maybe ill talk w/ jeff tonight haha. anyways bored now. went to LAX today. mmmm long time. mmmmmm TITOS TACOS. mmmm so good. anyways ive still got some of their chips thank god. anyways im gonna go. maybe dream of something good u know."
+"eventtime","2004-08-22 22:43:00"
+"current_moodid","5"
+"url","http://peachez7.livejournal.com/30907.html"
+"userid","11698"
+"itemid","119"
+"event","Wow nothing has really happened haha. yea im just kinda bored haha. anyways lets seeeee. sormehs leaving for mamoth :( im gonna miss her alot! nnn lets see yesterday i saw sydney we met half way n then we went to the park. mucho fun. SHE GOT ME A STUFFED TAXI CAR THING! omg i named it Beepers i think or thats what sydney told me today lol. so today slept till noon. got up n then showered straightened my hair n called sydney .prolly not in that order but you get the idea. n then i met her at her house n i saw briar and jay n eric n syd of course. i dont know where ari was lol. n so i talked with jay n briar for a little bit n than we left. me sydney n eric lol. than we went to fashion channel or as i have been calling it for the past year clothes time haha. so i didnt get anything haha. i dont really like the style in there. thn we went to vons, got some SUSHI n then went to Nirtual world cafe. haha. its actually virtual but i call it nirtual got a smoothie haha. went to Fashion channel haha nothing in there either. lol..went so Sav ons lol. got myself some clear lip gloss cuz i need some. n 2 things of nail polish. haha they are awesome. OH THE NICKELODEON SPLASH ZONE IS THE BEST THING EVER! SPECIALY WITH SORMEH N THATS WHAT GIRLS DO PLAYING IN THE BACK ROUND. N THAT OTHER SONG UPSIDE DOWN BOUNCIN OFF THE CEILING. I DONT KNOW THE REST I LOVE YOU HAMMY HAM MOO <333333333332333333333 GOD I LOVE THAT GIRL! MAN SHES THE BEST"
+"eventtime","2004-08-21 19:44:00"
+"current_moodid","59"
+"url","http://peachez7.livejournal.com/30511.html"
+"userid","11698"
+"itemid","118"
+"event","letters are fun. i like getting emails from people. im listenin to forever and for always explains how i feel right now hehe. its pretty relaxing but makes me feel loved. 
+
+
+In your arms I can still feel the way you
+want me when you hold me
+I can still hear the words you whispered
+when you told me
+I can stay right here forever in your arms
+In your heart--I can still hear
+a beat for every time you kiss me
+And when we're apart,
+I know how much you miss me
+I can feel your love for me in your heart
+'Cause I'm keeping you
+forever and for always
+We will be together all of our day
+Wanna wake up every
+morning to your sweet face--always"
+"eventtime","2004-08-19 22:38:00"
+"current_moodid","86"
+"url","http://peachez7.livejournal.com/30418.html"
+"userid","11698"
+"itemid","117"
+"event","<P>i hate it when people preach to me. i just got a call from laurie wanting to know where my mom was and whats happening. i told her that shes in florida. n shes like n u dont know anything else ? n i was like nope. n shes like well where have u been? and i told her at sormehs from tuesday- now. n shes like WHAT u left ur sister alone. n she gave me a huge speach on how that was selfish of me. i was trying not to say u kno wut FUCK YOU bcuz i was so mad at her. i was like i dont wnna talk about it n ill let them know&nbsp; u called bye. n hung up.</P>
+<P>i had a good time at universal with sormeh! sooo much fun ill tell u haha. actually yah ill tell u later cuz im not really in the mood to write it all now to much. but i was upset about the phone call haha. anyways gonna go watch the Giant game </P>"
+"eventtime","2004-08-19 18:05:00"
+"current_moodid","8"
+"url","http://peachez7.livejournal.com/30198.html"
+"userid","11698"
+"itemid","116"
+"event","yah im a dork.. haha we all know it. i was watching peter pan *the newest one wth jeremy sumpter in it* and haha it was cute. im in my emotional stage. haha. yea i know i know. i cried. hey leave me alone. we all know that i go for that romantic stuff haha. when i watched aladdin with sormeh i was like "" i want a guy who is like ' her smile is, and her eyes!..'"" n i was like awww. than he said ""'shes so pretty'"" now a days its just "" shes soooo fuckin hot"" haha. yea i like to be flattered the old fashion way. u kno im all in for this romantic crapola. haha. well me mom and dad have been gone since uhh 4ish. i still havent eaten. ill prolly eat soon. anyways ill finish this later..back anyways, yah my day sucked so much..i just wanna run away. syd offered her house but i was like no thanks. but w/e. shes leaving till sunday...i wanna cry just out of anger but i prolly wont. cuz once i start i cry about everything. i need someone for me. everyone i care about lives far, well everyone that could comfort me...all my emotions r clashing..im so pissed n i wanna cry, n i feel like shit n its just so many things that i dont wanna deal with. "" sometimes it feels like the worlds on my shouldrs. everyone leaning on me. sometimes it feels like the worlds almost over but than she comes back to me. "" i think i relate with that the most right now. i just dont know what to do..maybe tomorrow will be better. kinda crappy mood for going to the beach...well whatever. only a couple people cheer me up n they know who they r. anyways w/e "" now it dont feel like the worlds on my shoulders. everones leaning on me. cuz my baby knows that her daddys a soilder. nothing can take her from mee."" well i still want my dream guy...hes still there..any takers? yah anywys ill be back on thursday with pics n stuff. from the beach n unviersal proly."
+"eventtime","2004-08-16 20:18:00"
+"current_moodid","7"
+"url","http://peachez7.livejournal.com/29805.html"
+"userid","11698"
+"itemid","115"
+"event","wow it feels good to talk with someone about things.. erica helps alot. im talkign with her right now about everything with jed because i realized that she gets crappy details about it and its really confusing. wow its crazy. sydney brought up something interesting how ur feeling can change after a year or so. its weird i think..that we can just lose feelings for each other fast. how come it happens like that with some people but than with others its like, it takes a long time..wow emotions suck ass...damn..wow..yea thats pretty much all i can say..i dont know. fuck..anyways i hope everything works out.ever notice how jews stick together? jeremy got to kno before i did! that makes me mad syd btw. geuh anyways...summers almost over, its almost my bday. regestration is gonna be soon. cant wait. joy..not really i dont wanna do math. cuz i hateee it sooo mcuh. thats why i dont talk about algebra with sormeh. haha. anyways i got my song on media.. "" n they were dancing n signing n moving to the groovin, n just when it hit me someboday turned around and shouted PLAY THAT FUNKY MUSIC WHITE BOY"" scoreeee...yea i know. but that was fun at the dance when we had that. well i guess memories are great. so many haha. Warner Center down at the pool with sormeh, park w/ sormeh, her house *vannn, wine n roses (1 2 DROP EM) haha* liz at her daddys house getting in pillow fights w/ andrew, shopping with liz, WHATS IN UR BOX?, disney store with sormehs great refelexs catching a snow globe. haha wow so many more memories i just can write them all or i would. wow i think the best memory that i have tho right now at the moment when sormeh woke up and found out that we were at disneyland for her bday. i think that was the greatest thing eva. i love her so much. so much shit has happened with me n her. i love her so bad. haha six flags was awesome, i was just lookin at our pic haha. crap happened that day, went to shit. i love you hammy ham moo. n im not gonna lose you yo! lol <33333333333233333333"
+"eventtime","2004-08-16 13:01:00"
+"url","http://peachez7.livejournal.com/29551.html"
+"userid","11698"
+"itemid","114"
+"event","god damn i have so much to deal with...i wish that everything wud be fine and dandy... i come home last night from the game and i check my mail. i see that jed sent me a mail. i freak out bcuz i realized what i wrote on my lj. not only that but because i was thinking about him almost the entire day..so than i guess that were not talking bcuz i have to get my damn emotions out before i sleep. cuz than i wont sleep and if i do ill have bad dreams. damn. so anyways wrote back to him. now i dont know if were talking or not..or if he blocked me or what. anyways i highly doubt that hes gonna read this bcuz he wants to go our seprate ways...yea...anyone who knows me knows that i dont want that to happen. ive gotta hand it to jeremy tho. he asked about jed andi was like yah its gone to shit.. and hes like again? yea so i told jeremy everything and hes like wow jed major love huh. and i was like from what he says yea... anyways i hope we talk..i need to talk w/ him..  new subject.. today i went shopping i gotz lots of cool clothes. at least i dont look like a lime haha. i got my hair done yesterday wow. its great. lol. im going to the beach w/ sormeh, liz, jason, eric, john? and victor?..not sure cuz they are all lizs friends orsmoething. anyways that shud be fun . wed im going to universal with sormeh. thats gonna be oodles of fun. um lets see. i met a guy on the bus. ryan haha. hes cool. nothing special i think...lives down in riverside or around there. yah thats crazy farness and i met him on the 161. he wants to hang friday but i dont know. haha. only w/ sormeh. haha. i dont know if i shud cuz meeting up w/ guys has had its um..turns...dont worry about anything with my grandpa,im not that close with him anyways but w/e if anything happens im sure that i would tell u guys. im not sure whats happened to him. its not the hurricane that just went through florida..anyways yea..i need to talk w/ u.."
+"eventtime","2004-08-15 21:02:00"
+"current_moodid","25"
+"url","http://peachez7.livejournal.com/29314.html"
+"userid","11698"
+"itemid","113"
+"event","i might be going to florida with my mom...my grandpa is in the hospital. if we go its gonna be on the 21st...yea..were not sure why hes in there but my grandma said that he might die. i guess my mom wants to see him. ive never been that close with him . so yea..anyways later"
+"eventtime","2004-08-15 16:41:00"
+"current_moodid","9"
+"url","http://peachez7.livejournal.com/28989.html"
+"userid","11698"
+"itemid","111"
+"event","WOW yesterday was the coolest!! WOAH me n sormeh chilled at the mall and we got TIARAS!!!OMG HOW AWESOME IS THAT?!?! yea thats what i thought. at the Disney store they were 16.50 so we went to Toys R Us and got em for 6$ instead. thats sooo much better. haha we r cool. haha. anywas im really bored and this song just came on the radio lol. i went to Yamotos today for dinner it was good haha. im sooo full and  tired and happy at the same time. Tomorrow im getting my hair done and than im off to a Baseball game woohoo. Angels vs. Tigers. shud be fun...haha. I looked like a lime yesterday i thought that was awesome haha was pretty funny actually. lol. its fun shopping for Bras wooo sormeh is a smarty pants. haha lol. she knows me too well haha. anyways heres the song i was listenin to lol
+
+Brad Paisley & Alison Krauss
+
+
+She put him out like the burnin' end of a midnight cigarette
+She broke his heart, he spent his whole life tryin' to forget
+We watched him drink his pain away a little at a time
+But he never could get drunk enough to get her off his mind
+Until the night.
+
+Chorus: 
+He put that bottle to his head and pulled the trigger
+And finally drank away her memory
+Life is short but this time it was bigger
+Than the strength he had to get up off his knees
+We found him with his face down in the pillow
+With a note that said I'll love her 'til I die
+And when we buried him beneath the willow
+The angels sang a whiskey lullaby.
+
+
+La la la la la la la
+La la la la la la la.
+
+La la la la la la la
+La la la la la la la.
+
+
+The rumors flew but nobody knew how much she blamed herself
+For years and years she tried to hide the whiskey on her breath
+She finally drank her pain away a little at a time
+But she never could get drunk enough to get him off her mind,
+Until the night.
+
+Chorus:
+She put that bottle to her head and pulled the trigger
+And finally drank away his memory
+Life is short but this time it was bigger
+Than the strength she had to get up off her knees
+We found her with her face down in the pillow
+Clinging to his picture for dear life
+We laid her next to him beneath the willow
+While the angels sang a whiskey lullaby.
+
+La la la la la la la
+La la la la la la la.
+
+--- Instrumental ---
+
+La la la la la la la
+La la la la la la la.
+
+--- Instrumental ---
+
+La la la la la la la
+La la la la la la la.
+
+La la la la la la la
+La la la la la la la..."
+"eventtime","2004-08-13 18:29:00"
+"current_moodid","44"
+"url","http://peachez7.livejournal.com/28634.html"
+"userid","11698"
+"itemid","110"
+"event","<img src=""http://img.photobucket.com/albums/v90/Peachez79/Lakers.jpg"">
+<lj-cut text=""u and jed 2gether 4eva!!!"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/d497310e.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Jeremy.jpg"">
+god i missed him!! im so happy hes home! 
+SURFINSISQO: u and jed 2gether 4eva
+PeachezNCherry79: ew
+PeachezNCherry79: haha
+SURFINSISQO: u like him
+SURFINSISQO: and he likes u"
+"eventtime","2004-08-09 22:31:00"
+"url","http://peachez7.livejournal.com/28326.html"
+"userid","11698"
+"itemid","109"
+"event","<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Lights.jpg"">
+<lj-cut text=""PICTURES!!!"">
+The Beach!!
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Food2.jpg"">
+The Football Player From Westlake 
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Birdy.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/lalalalalal.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/westlake.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/hahahah.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/westlake2.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Food.jpg"">
+Jeff
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/jeffsleeping.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Himyetagain.jpg"">
+""Definitly, Definitly im definitly comming over to ur house and were gonna defitnitly smoke some herbs""
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/stupid.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Himyetagain.jpg"">
+Seagulls!
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Mine.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Seagull2.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Seagullagain.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Seagull.jpg"">
+SORMEH!!
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/lookingsormeh.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Pictures.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/Looking.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/SormehTowel.jpg"">
+Isnt She Cute?
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/SormehSleeping.jpg"">
+Bitch Stole The Grapes 
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Beach/GRAPES.jpg"">
+THE AMC
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/AMC.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Barnes.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Birds.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/P8060095.jpg"">
+Ey Liz Shes Got big bobs no?
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Boobs.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Surfind.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/women2.jpg"">
+Then We Were Attacked By The Manicans (they made me cry they were ugly)
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Manican5.jpg"">
+She Didnt See Us!!
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Manican4.jpg"">
+They Were Lesbo 
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Manican3.jpg"">
+Evan Got Friendly With them
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Hahaevan.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/hjeksfhonf.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/0554eb23.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Manican.jpg"">
+Now For Actual People!!
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/MeEricaLiz.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Leoo.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Max.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Gasp.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Evan.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/f659c06f.jpg"">
+I Dont know about this one
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Mwhaha.jpg"">
+OMG KURT!
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Kurt2.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Kurt.jpg"">
+We Look Really Young i think haha
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Lizz.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/MenErica.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/PeekABoo.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/TalkTOthehand.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/e2e61192.jpg"">
+Btw there are a shit load of leo pics haha 
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Leo.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Leooooo.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Moveing.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/MaxLizLEo.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/b64d3c09.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/WOah.jpg"">
+Erica!!
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Erica2.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/erica.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/P8060103.jpg"">
+Random Pics
+Guess Who
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/LizsButt.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/NiceCars.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/d50edd60.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/P8060101.jpg"">
+Somewhere in there leo is hiding u just have to find him
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Hiding.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Jason.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Jason2.jpg"">
+My Dog Is Stupid
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/HandDog.jpg"">
+This is what it wud look like if i fell
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Ceiling.jpg"">
+I think These were by accident haha
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Shoe.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Flooragain.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Floor.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/Fllor.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/P8060096.jpg"">
+This Wasnt
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/EvansShoe.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Day%20Out/AMC/Edited/TalkTOthehand.jpg"">
+LIz!!
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/P8060091.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/P8060085.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/P8060080.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/P8060079.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/59676cee.jpg"">
+<img src=""http://img.photobucket.com/albums/v149/Mz_iiz/friendssssssss/OMG%20amc%20fun/Ones%20Peachez%20USed/Againnn/413b3b8a.jpg"">
+Galleria
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Santa%20Monica/SVI_0006.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Santa%20Monica/SVI_0010.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Santa%20Monica/SVI_0072.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Santa%20Monica/SVI_0069.jpg"">
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Santa%20Monica/SVI_0067.jpg"">
+Santa Monica 
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Santa%20Monica/SVI_0013.jpg"">
+not to many cuz my flash sucked
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Santa%20Monica/SVI_0012.jpg"">
+Angie and Nick
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Santa%20Monica/SVI_0017.jpg"">
+oh and the car i told liz about!
+<img src=""http://img.photobucket.com/albums/v90/Peachez79/Santa%20Monica/SVI_0066.jpg"">"
+"eventtime","2004-08-09 17:18:00"
+"current_moodid","15"
+"url","http://peachez7.livejournal.com/27940.html"
+"userid","11698"
+"itemid","106"
+"event","haha so this week  i went to the beach with sormeh and jeff it was cool haha OMG hot westlake football player haha omg that was great. that was on thursday. than sormeh came home w/ me and we went into the pool. haha ima post pics ofeverything later. Friday i went to the AMC w/ erica. met up w/ liz, evan, leo and max than we just chilled. again pics to come. than saturday i went to the galleria w/ nick and we chilled there till like 6ish than his uncle came to pick us up and we went to santa monica for dinner it was great . anyways im tired and not feeling well so more will be told later haha"
+"eventtime","2004-08-08 20:48:00"
+"current_moodid","7"
+"url","http://peachez7.livejournal.com/27200.html"
+"userid","11698"
+"itemid","103"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1065511852' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Theme songs of your life
+ by eponine</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>your name?</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='your name?' value='Kristen ' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>love song:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>i want it that way- backstreet boys</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>depressing song:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>cry me a river - justin timberlake</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>party song:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>crazy - britney spears</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>what-the-hell-ever song:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>date rape - sublime</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>your life</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>unwell - matchbox 20</span></td></tr><input type='hidden' name='un' value='eponine'><input type='hidden' name='meme' value='1065511852'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-08-03 22:53:00"
+"url","http://peachez7.livejournal.com/26557.html"
+"userid","11698"
+"itemid","102"
+"event","i hate her so much!! shes the reason as to why i dont want kids and why i have such a short temper. jesus christ that bitch is spoiled off her ass i wanna slap her so hard. my mom and dad dont listen to me when i tell them that she has a major attitude problem and that shes spoiled. than yesterday my dad was like "" you know your sister is developing a major attitude"" i was like NO SHIT. and than uch. hes like "" well if she gives you attitude just tell her to shut up"" and that doesnt work at all. uch my little sister is a spoiled bitch, shes one of those people that i would never become friends with. she complains about everything, too nosey, attitude, thinks the world revolves around her, spoiled, mood swings,...it goes on and on and on. alotta my friends have mentioned how she gets bitchy alot. she fucks up my stuff and everything which makes me really mad. shes prolly the one who fucked up my web cam too! uch i hate her so much. shes why i dont want kids isnt that sad? shes everything i hate in a person. EVERYTHING. bitch tramatized me with not wanting kids uch..."
+"eventtime","2004-08-03 14:34:00"
+"current_moodid","110"
+"url","http://peachez7.livejournal.com/26334.html"
+"userid","11698"
+"itemid","101"
+"event","your dads name: ray
+your moms name: carole 
+your sisters name: kimberly
+your brothers name: no brother 
+your 1st grade teachers name: mrs bates 
+your cats name: patches 
+your dogs name: shylo 
+your best friends name: Liz, Sormeh 
+your favorite name: Hayden 
+last person you kissed: Nick 
+last person you talked to: Chance
+last person you held hands with: Nick 
+last person who came in your room: no one comes in my room 
+last person who saw you in your boxers/underwear: kimberly
+last person you saw in their boxers/underwear:lol no one
+last person you ate with: me mommie 
+last person you danced with: i think it wassss Derek or Sheila cant member...Quinciera 
+last person you bought something for: i havent haha 
+last person you rode in the car with: dad and nick
+last person you saw: mom
+person you wanna see: Liz and Sormeh!
+last person you flashed: uhhh liz? lol
+last person you mooned: no one
+last person you saw that you hadn't seen in a long time: Jeff
+last person who said they loved you: Sormeh 
+last person who made you breakfast: no one 
+last person you wanted to make out with: J...
+last person who ignored you: Jed maybe?
+last person who turned you on: lol
+last person who borrowed your clothes: sormeh 
+last person you IM'ed: Chance 
+last person you watched a movie with: Nick 
+last person you saw on a magazine cover: uhh the guy who just died 
+last person who dared you to do something: Prolly Sormeh
+last person you had an argument with: Jed 
+last person you laughed with: Liz 
+last person who really annoyed you: hmmm prolly Jed 
+last person whos journal you read: Liz!"
+"eventtime","2004-08-02 16:47:00"
+"url","http://peachez7.livejournal.com/26075.html"
+"userid","11698"
+"itemid","100"
+"event","<div align=center><form name=""quizform"" target=""_new"" action=""http://www.kwiz.biz/showquiz.php?quizid=8896"" method=""post"">
+<table border=1 bordercolor=#000000 bgcolor=""#90BED5"" cellspacing=0 cellpadding=2>
+<tr><td colspan=2 align=center bgcolor='083360'><a href='http://www.kwiz.biz/showquiz.php?quizid=8896' target='_new' style='text-decoration: none;'><font style='color : #ffffff; font-family : Arial, Helvetica, sans-serif;' color= '#ffffff'><b>Who on your LiveJournal wants you, and why?</b></a></font></td></tr>
+<tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>LJ Username  </td><td bgcolor='#D8F3F3'><input type='text' name='in0' size='32' maxlength='64' value='Peachez7'></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>They want you physically:</b> </td><td bgcolor='#D8F3F3'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>abluecow9110</b></font></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>Will they?</b> </td><td bgcolor='#D8F3F3'><font style='color : Red; font-family : Arial, Helvetica, sans-serif;'><b>FALSE</font></b></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>This person dreams about you:</b> </td><td bgcolor='#D8F3F3'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>crazyclown</b></font></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>You will have a wild fling with this person:</b> </td><td bgcolor='#D8F3F3'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>mz_liz_hates_u</b></font></td></tr><tr><td bgcolor=black><font style='color : White; font-family : Arial, Helvetica, sans-serif;'><b>Will you enjoy it?</b> </td><td bgcolor='black'><font style='color : White; font-family : Arial, Helvetica, sans-serif;'>(8)<i> - <b>It is decidedly so.</b></i> - (8)</td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>How many times will you two get together?</b> </td><td bgcolor='#D8F3F3'><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><b>126</b></font></td></tr><tr><td colspan=2 align=center bgcolor=#083360><input type=""submit"" name=""submit"" value=""Try Your Answers!""></td></tr>
+<tr><td colspan=2 align=center><font size=-1 style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><B>This <A href=""http://www.kwiz.biz/"" style='color : #000000;'><font style='color : #000000;' color=black>cool quiz</font></a> by <a href='http://www.kwiz.biz/userprofile.php?userid=15221'><font style='color : #000000;' color='#000000'>ziggy_prime</font></a> - Taken 3418 Times.<img src=""http://images.kwiz.biz/kwizcount.gif"" width=""1"" height=""1"" border=0>
+</font></a></b></font></td></tr></table><font style='font-family : Arial, Helvetica, sans-serif; font-size: 9pt;'>New! Get Free <a href='http://astrology.kwiz.biz' style='text-decoration: none;'>Daily Horoscopes</a> from Kwiz.Biz</font></div>
+</form>"
+"eventtime","2004-07-30 15:02:00"
+"url","http://peachez7.livejournal.com/25635.html"
+"userid","11698"
+"itemid","98"
+"event","d2VsbCB1IGtubyB3aGF0LiBpbSBkb25lZWUgd2l0aCB0aGlzLiBpbSBnb2luZyB0byBqdXN0IGxlYXZlLiBpbSBkb25lIHcvIGl0LiBubyBtb3JlIHRhbGtpbmcgdy8gaGltLiBhdCBsZWFzdCBmb3IgYSB3aGlsZS4gdSBrbm8gaSBkb250IGxpa2UgZmVlbGluZyB0aGlzIHdheSBhYm91dCBoaW0gYW5kIHRoYW4gZXZlcnl0aGluZyBlbHNlIGZlZWxpbmcgdGhlIHdheSBpIGRvLiBoZSBzaHVkbnQgbWFrZSBtZSBzYWQgb3IgYW55dGhpbmcuIGkgc2h1ZG50IGhhdmUgdG8gbGlzdGVuIHRvIHNvbmdzIGFib3V0IHNheWluZyBnb29kYnllIGJsYXN0aW5nIGZvciAyaHJzLiBpIHNodWRudCBoYXZlIHRvIGFzayBteSBjb3VzaW4gYW5kIGxpeiBhbmQgc29ybWVoIGZvciBoZWxwIG9uIHRoZSBtYXR0ZXIuIHUga25vIHdoYXQgZm9yZ2V0IGl0LiBpbSBkb25lLCBvdXQgbm8gbW9yZSBvZiB0aGlzLiBpdmUgYmVlbiBlbW90aW9uYWwgdGhpcyB3ZWVrLiBzdW5kYXkgaSB3YXMgb2suIG1vbmRheSBpIHdlbnQgdG8gaGVsbC4uLmkgZGlkbnQgd2FubmEgdGFsayB3LyBteSBib3lmcmllbmQgY3V6IGkgbmVlZGVkIHRoaW5ncyB3LyBoaW0gdG8gYmUgY2xlYXJlZCB1cC4gc28gaXQgZHJvdmUgbWUgaW5zYW5lLiBtb25kYXkgaSBmaW5hbGx5IHRhbGtlZCB3LyBoaW0gYW5kIHUga25vIGF0IGZpcnN0IGltIG9rIHdpdGggaXQuIGJ1dCB0aGFuIGkgd2FzIGxpa2Ugd3RmIGkgaGF0ZSB1IC4gdG9kYXkgaSBsaXN0ZW5lZCB0byBlbW8gbXVzaWMgYWJvdXQgc2F5aW5nIGdvb2RieWUuIGV4YW1wbGU6IGdvb2RieWUgdG8geW91LCBicm9rZW4sbXkgaGFwcHkgZW5kaW5nLCBzYWQgc29uZy4uLnUga25vIGkgaGF0ZSB0aGlzIHRoZSBsYXN0IHRpbWUgaSB3YXMgbGlrZSB0aGlzIHdhcyB3aXRoIGplZC4uaSBkaWRudCBoYXZlIGZ1biB3LyB0aGF0IGVpdGhlciBpIGhhdGVkIGl0LiBpIEhBVEUgZmVlbGluZyB0aGlzIHdheS4uaSBob3BlIGhlIHNvbWVob3cgZ2V0cyBteSBsaiBwYWdlIGFuZCByZWFkcyB0aGlzIGFuZCBob3cgaGUgbWFrZXMgbWUuIHVjaC4gYW55d2F5cyBpIGxvdmUgc29ybWVoIHNoZSBsaXN0ZW5zIHRvIG1lLCBteSBjb3VzaW4gdG8gaGVzIG5vdCBtdWNoIGhlbHAgYnV0IGhlIGhlbHBzLCBoaXMgYWR2aWNlICJ1bW0gaSB0aGluayB1IHNob3VsZCB0ZWxsIGhpbSB0byBnbyBhd2F5LCBoZSBzb3VuZHMgbGlrZSBhIGplcmsuIGJlIGZyaWVuZHMgaWYgaGUgaGFzIGEgZ2YgYW5kIHN0aWxsIHdhbnRzIHRvIGhvb2sgdXAgdGhhdHMgZ2F5LCBoZSBvYnZpb3VzbHkgZG9lc250IHdhbnQgdSB0aGF0IGJhZCBpZiBoaXMgd2l0aCBzb21lMSBlbHNlIiBtd2hhaGEgaSBsb3ZlIG15IGNvdXNpbi4gaGV5IHdoYXQgY2FuIGkgc2F5PyBoZSBzcGVha3MgdGhlIHRydXRoLiBhbnl3YXlzIGkgZmVlbCBtdWNoIGJldHRlci4gY3V6IGltIGxpc3RlbmluIHRvIHRoZSB0aXRsZSAoRW4gaGVsdCBueSB2YXJsZCApIGFuZCBTa8O2bmhldGVuIG9jaCBvZGp1cmV0LiBpIGxvdmUgdGhlIGZpcnN0IG9uZSBiZXR0ZXIuIGJ1dCB0aGUgc2Vjb25kIG9uZSBpcyByZWxheGluZy4="
+"eventtime","2004-07-28 00:36:00"
+"current_moodid","115"
+"url","http://peachez7.livejournal.com/25114.html"
+"userid","11698"
+"itemid","97"
+"event","i dont feel well...i dont know what it is...maybe it might be from what happened. i need to rethink everything. god i hate feeling this way....something needs to change and soon cuz im tired of this...music isnt helping nor is writing...i guess ill figure it out later on my own. oh well"
+"eventtime","2004-07-27 19:38:00"
+"current_moodid","97"
+"url","http://peachez7.livejournal.com/24929.html"
+"userid","11698"
+"itemid","96"
+"event","so here are those pics that i promised haha 
+
+The Cheap Batman Show 
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Six%20Flags/ca21bbe7.jpg"">
+Viper And X at night
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Six%20Flags/f103ef8c.jpg"">
+The Bar
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Six%20Flags/DSC02181.jpg"">
+Exit
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Six%20Flags/DSC02182.jpg"">
+
+so i guess everything worked out for the best tonight. and due to a recent discussion there will be no other pics of six flags posted except for these. i feel alot better. haha....everything worked out"
+"eventtime","2004-07-26 23:01:00"
+"current_moodid","42"
+"url","http://peachez7.livejournal.com/24814.html"
+"userid","11698"
+"itemid","95"
+"event","haha im so bored. i love this song so much! i havent heard it in such a long time. anyways im so like confused about shit. man sucks. i love me and sormehs long talks tho on yahoo like last night. that was some crazy shit. ok so i lied last time ur not getting any good pics ahha. ull get pics of Viper/X at night, the cheap batman show, Exit signs, and bars. haha thats all. but when i actually care to post em prolly will be today. ima figure out the lj cut. anyways u guys are gonna be getting a quote at the end of this post about me n bugsys. ima give him publicity hah. anyways what else. no Iris is on i love that song too! i think im listenin to Love songs but im not sure hah. i didnt get that much sleep last night cuz i was chatting w/ sormeh till like 3am. and talked w/ jeff sometime between it all. im so bored today and thats prolly why im writing about some of the most random shit. Anyways i talked w/ Katrina today and told her about like a few things. hah about my weekend mostly lol. ima talk w/ her later tonight about it more. I wrote sydney a huge ass email cuz i havent talked w/ her in like 2weeks soon. i miss her alot. same with jeremy but jeremy doesnt have my address to write to me. damn. anyways thats all maybe pics later today. oh heres the quote
+
+PeachezNCherry79: i know ur  the first on my book for geting ppl beaten up
+mafiosojap: remember
+mafiosojap: we need da mafia as much as we need milk;-)"
+"eventtime","2004-07-26 14:50:00"
+"current_moodid","39"
+"url","http://peachez7.livejournal.com/24446.html"
+"userid","11698"
+"itemid","94"
+"event","Woohoo so much happned since the last time i posted haha. Friday sormeh came over like at 12ish and than we just chilled the entire night was greatness. We talked w/ C and D and Joe haha. and than stupid ppl who i hate haha. we finally got offline at 1ish i think. we woke up at 8 and had waffles and than we got ready. we went to six flags and omg it was great. we got in line for X and than just sat there and talked. Got a call from Jeff saying he was almost there and we were like noooooo go away and than he went on some rides by himself and just chilled till we got off the ride. lol. than we met up w/ jeff and just chilled the entire day untill like 7ish. and he wanted to leave hmmm i wonder why haha.so much more on that subject. *pics to come*. than sormeh called D and was like "" where r u guys?! still at ur car??"" and they were like nooooo at Revolution. and so we waited for them there and just sat there than Danny called and we were like ok well meet up w/u to say hey. so than we ran across the entire park from Revolution to Cyclone. wow fast walk there. than we said hey to danny and talked for like 10 min. than went back for D, Joe, Jeff *diffrent one*, Dylan, and some other guy. and we were like where are they! and than we called them and they were like "" were in line for Viper. so we went over and than waited for them at the exit. lol. and than joe called and was lie "" DONT MOVE I SEE U "" haha crazy stuff. so than sormeh and i were like ugh 40 min for a ride nut uh. so we used our fast passes and we were like hmmm they arent there and we got a call going "" whered u guys go??"" and we had passed em. so we went back. and we wer gonna go on Riddlers but the line was to long 2hrs 30min wait. and they were only running one car so yea. so we went on Goliath w/ D and Joe haha. was soo funny. lol. and than we walked around for a bit and said bye and chatted w/ em again. I got a hug off D, claiming it was C's hug, and than we chatted some more and than they actually left for that time. and than i got another hug off D and than Joe gave me a hug too. but keep in mind these guys were for sormeh. and sormeh got hugs too! lol. and than D was like hey jeff this is Brennens cousin. and sormeh and i were like what diffrence doesit make?? crazy stuff. so sormeh and i chilled at her house and stayed up till 3 and we went to sleep slept for 10hrs and woke up at 1pm. it was crazy. we were suppose to hang out till Monday but yea...my mom was like nooooo. so much for those plans
+
+Everything for six flags went wrong....well diffrent than what we planned. Jed turned into Jeff. B and Joe turned into D, Joe, Dylan, Jeff and other guy haha. oh well we still had fun at six flags. i love sormeh so much! lol im still sore and tired from walkin that much. we didnt even go on all the rides haha. but thats cool. sormeh got me wanting to say chill all the time. but yea than id be jocking her. but in the words of sormeh,joe,b,d, and whoever else. it was chill haha. love you lots"
+"eventtime","2004-07-25 16:43:00"
+"current_moodid","15"
+"url","http://peachez7.livejournal.com/24104.html"
+"userid","11698"
+"itemid","93"
+"event","this is jed jed is a happy gay man hes just come out to the world...on the other side of the us we have the couple alex and  fernando...one day in a town jed  runs into :-)alex...they say hey n then they go home 2 their chair first its :-) -> :-O c==3 then its  alex on bottom   jed in middle  and fernando on top the end n they all live misrebly ever after they live off (pizza) n(beer) all their lives the female in the relationship is   while on the side his other partner is :S who now lives in an insane isilum mainly because he got caught spying on the three partners n he got off to it everynight until finally he went insane knowing he cudnt have jed so ofcourse now jed n felix are separated n jed liveson his own forever n ever with jed junior :) n jeddina n :) little jeddi 
+
+written by someone who wud like to remain anonymous...lol"
+"eventtime","2004-07-22 22:17:00"
+"current_moodid","125"
+"url","http://peachez7.livejournal.com/23892.html"
+"userid","11698"
+"itemid","92"
+"event","woo hoo one day left! i cant wait untill tomorrow. sormeh is comming over im so happy. i love her to pieces and she knows that! anyways six flags saturday woohoo. cant wait. anyways last night i had a long ass convo w/ adam neat kid. sormeh and i talked about alotta stuff but thats notthing new. liz wasnt on till late and by that time i was like outta it. lol. anyways i might go see a movie tomorrow. not sure what movie theater tho cuz yea its just between the AMC or the Mann. either one i duno. erica and lucas are leaving for 10 days and so i wont talk w/ them for a while. i think they  actually left today hmm... i dont know so i might go to the AMC with erica on the 6th of August. boy oh boy summer is so almost over. i have like a month left now and that just kinda sucks big ass u know. oh well. so anyways i was just boredness and stuff no one is online... im so nervous about saturday haha. lol. sormeh and i both i guess were  gonna see whats gonna happen huh sormeh lol. u have ppl to deal with and we both got jeff to deal w/ lol."
+"eventtime","2004-07-22 20:03:00"
+"current_moodid","134"
+"url","http://peachez7.livejournal.com/23634.html"
+"userid","11698"
+"itemid","86"
+"event","Me in my brown halter haha 
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Day Out/peachez.jpg"">
+
+<lj-cut text=""YAY THE MALL!!"">
+
+Me in a halter i was thinking about buying 
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Day Out/peachezzzzzzzz.jpg"">
+
+Liz in a blue halter
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Day Out/Lizzy3.jpg"">
+
+Liz putting her bra on hah its a new trend hah 
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Day Out/Lizzy4.jpg"">
+
+Liz
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Day Out/Lizzy2.jpg"">
+
+Food Court 
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Day Out/Lizzy.jpg"">
+
+Chance
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Day Out/Chance.jpg"">
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Day Out/Chance2.jpg"">
+
+Something special for all u pervs out there
+<img src=""http://img30.photobucket.com/albums/v90/Peachez79/Day Out/Liz_Boobs.jpg"">"
+"eventtime","2004-07-20 17:38:00"
+"current_moodid","106"
+"url","http://peachez7.livejournal.com/22133.html"
+"userid","11698"
+"itemid","85"
+"event","haha guess what. i just realized that i dont use the word ""like"" that much im my lj entires. crazy huh? haha yea i thought so. you know the word ""haha"" is up there. anyways this week kinda went by fast. i think next week is gonna go uber slow haha. anyways sormeh and i are heading off for sixflags soon. cant wait. but our plans might go bad haha. who knows. huh sormeh we dont care lol. it'll be us and 8 other guys....haha....fun. lol. its k i love you sormeh. hmmmmm what else. oh yah guys suck but my last couple entries have proved that, its ok tho. i went to the beach today i had alotta fun just sitting there on the beach. haha sormeh u n me have to go to the beach just cuz i told u i wud haha. n yea i had alotta fun w/ kathy we just sat and talked about my boyfriend and about guys and those lifegaurds and drowning haha. than we talked about hair since shes getting her license soon so shes gonna start doing my hair instead of sheila cuz yea its alotta money with her. so ill be getting cuts and highlites maybe even a color haha. i dont know yet i might ive been thinking about it. i think i shud go blonde and go to mr.farr and be like "" I TOLD YOU!!"" haah. anyways the school year is gonna start soon. ok well not soon..but its to close. our school just posted when the regestration is. i have to go August 25th. from like 9-12. ew. well not that entire time but thats when it is. ill prolly end up going at like 11ish. cuz im going with Katrina and Sydney. so its pretty soon. Im gonna get those Crest Whitestrips. everyone swears by them. But Jay says they dont work, but i think thats just cuz he wants to make more money. So Syd and Jeremy left for Camp this week...bummer....Jeremy left on Wednesday and Sydney left today. I saw her on Wednesday though to talk with. But I should have guessed that Brian was gonna come with..Haha well she actually met up w/ him at the bus stop. w/e i had an hour with sydney when brian has seen her every day of the week. w/e i dont like brian that much anymore hes mean to me and i wanna kick him in the nuts but the only thing stopping me is my jew. cuz she wud kill me but id point and laugh to see him crouched over in pain haha. anyways later"
+"eventtime","2004-07-15 23:05:00"
+"current_moodid","5"
+"url","http://peachez7.livejournal.com/21850.html"
+"userid","11698"
+"itemid","84"
+"event","haha play my game. i dont think so haha
+
+incase u dont know my game. haha its when im mad at u but not over it yet. haha. so i get u to get mad at me so that i get mad at u. haha it makes me hate you sooo bad. haha see it wud work if i didnt know that game. haha make ur own game cuz u cant play it on me."
+"eventtime","2004-07-15 19:11:00"
+"current_moodid","99"
+"url","http://peachez7.livejournal.com/21628.html"
+"userid","11698"
+"itemid","83"
+"event","well can i say that last night ofically sucked. yea..... it just did alot and yea...sormeh knows and yea... i was up till 3.pure drama and shit last night hah. anyways i dont thinki wanna post TOO terribly much about it right now cuz it might suck u kno. anyways six flags plans have gone to shit. sormeh and are i still going haa. but yea. last night was shit.  i talked w/ nick from 9-11 ish. and thani came online from 11-2. talking to sormeh and person...so i heard from liz the other day haha. we talked for a little bit hehe. and than talked to chance for about 45 min. shes proly gonna come over one of these days..duno were prolly gonna chill at the Topanga mall... duno tho... cuz i dont know what we wud do here u kno.anyways who knows. maybe ill run into someone ::hint hint:: to anyone that might wanna go....lame shit there. anyways i think im about done i dont really know what else to write i just had to post something... anyways later"
+"eventtime","2004-07-13 15:30:00"
+"current_moodid","129"
+"url","http://peachez7.livejournal.com/21294.html"
+"userid","11698"

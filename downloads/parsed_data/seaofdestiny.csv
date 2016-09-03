@@ -1,0 +1,110 @@
+"names","values"
+"itemid","64"
+"event","<div><lj-cut text=""This is a test of embedding MathML in a LiveJournal entry""></div>
+
+<h2>Embedding MathML in a LiveJournal entry</h2>
+
+<h3>Abstract</h3>
+
+<p>This is a test of embedding MathML in a LiveJournal entry.</p>
+
+<h3>Presentation MathML</h3>
+
+<math xmlns=""http://www.w3.org/1998/Math/MathML"">
+ <mi>x</mi>
+ <mo>=</mo>
+ <mfrac>
+  <mrow>
+   <mrow>
+    <mo>-</mo>
+    <mi>b</mi>
+   </mrow>
+   <mo>&PlusMinus;</mo>
+   <msqrt>
+    <msup>
+     <mi>b</mi>
+     <mn>2</mn>
+    </msup>
+    <mo>-</mo>
+    <mrow>
+     <mn>4</mn>
+     <mo>&InvisibleTimes;</mo>
+     <mi>a</mi>
+     <mo>&InvisibleTimes;</mo>
+     <mi>c</mi>
+    </mrow>
+   </msqrt>
+  </mrow>
+  <mrow>
+   <mn>2</mn>
+   <mo>&InvisibleTimes;</mo>
+   <mi>a</mi>
+  </mrow>
+ </mfrac>
+</math>
+
+<h3>Content MathML</h3>
+
+<math xmlns=""http://www.w3.org/1998/Math/MathML"">
+  <apply>
+    <eq/>
+    <ci>x</ci>
+    <apply>
+      <frac/>
+      <apply/>
+        <csymbol definitionURL=""http://www.example.com/mathops/multiops.html#plusminus""><mo>&PlusMinus;</mo></csymbol>
+        <apply>
+          <minus/>
+          <ci>b</ci>
+        </apply>
+        <apply>
+          <sqrt/>
+          <apply>
+            <minus/>
+            <apply>
+              <power/>
+              <ci>b</ci>
+              <cn>2</cn>
+            </apply>
+            <apply>
+              <times/>
+              <cn>4</cn>
+              <ci>a</ci>
+              <ci>c</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+      <apply>
+        <times/>
+        <cn>2</cn>
+        <ci>a</ci>
+      </apply>
+    </apply>
+  </apply>
+</math>
+
+<h3>Summary</h3>
+
+<p>Does it work?</p>
+
+<div></lj-cut></div>"
+"eventtime","2007-03-08 14:17:00"
+"current_moodid","43"
+"url","http://seaofdestiny.livejournal.com/16477.html"
+"userid","13442"
+"itemid","38"
+"event","%D0%A2%D0%B5%D1%81%D1%82 UTF8"
+"eventtime","2005-12-05 13:37:00"
+"url","http://seaofdestiny.livejournal.com/9769.html"
+"userid","13442"
+"itemid","1"
+"event","<p>This journal is friends-only, and there's not much to see here. I'm not very interesting.</p>
+
+<p>A bunch of entries are likely to be private, as well.</p>
+
+<p>Comment here if you wish, but I won't add everyone. Don't worry; you're not missing much.</p>"
+"eventtime","2004-01-06 11:43:00"
+"current_moodid","39"
+"url","http://seaofdestiny.livejournal.com/366.html"
+"userid","13442"

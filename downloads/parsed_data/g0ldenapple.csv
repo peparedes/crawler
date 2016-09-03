@@ -1,0 +1,577 @@
+"names","values"
+"itemid","133"
+"event","Rm9yIHRob3NlIG9mIHlvdSB3aG8gbWlzc2VkIEF1bnQgQ2hyaXNzeXMgZW1haWwgYWJvdXQgR3JhbmRwYSdzIGNvbmRpdGlvbiBpIHRob3VnaHQgaSB3b3VsZCBwb3N0IGl0IGhlcmUNCg0KSGVsbG8gdG8gYWxsLA0KIA0KSSBrbm93IGl0IGhhcyBiZWVuIGEgd2hpbGUgc2luY2UgeW91IGhhdmUgaGVhcmQgZnJvbSBtZSDigJMgd2hhdCBjYW4gSSBzYXk7IGxpZmUgaGFzIG1lIGJ1c3kgYXMgd2VsbCBhcyBhbGwgb2YgeW91LiAgSSBkaWQgd2FudCB0byB0YWtlIGEgbW9tZW50IGFuZCBsZXQgZXZlcnlvbmUga25vdyBhYm91dCBEYWRzIGhlYWx0aC4gICAgRGFkIGxpa2VzIHRvIHN0YXkgcHJldHR5IG11Y2ggYXQgaG9tZSwgb25seSBnb2luZyB0byB0aGUgRG9jdG9ycyB3aGVuIHJlcXVpcmVkLiAgQmVjYXVzZSBoZSBpcyBtb3N0bHkgaW4gdGhlIHdoZWVsIGNoYWlyIGhlIGhhcyBnYWluZWQgYSBzaWduaWZpY2FudCBhbW91bnQgb2Ygd2VpZ2h0IGFuZCB3ZSBoYXZlIHRvIHdhdGNoIGhpcyBzdWdhci9jYWxvcmllIGludGFrZS4gIExhdGVseSDigJMgd2l0aCBpbiB0aGUgbGFzdCAzIHdlZWtzIGhpcyByaWdodCBsZWcgaGFzIHN3b2xsZW4gZHVlIHRvIHRoZSByZXRlbnRpb24gb2YgZmx1aWQg4oCTIHNvIHdlIGhhdmUgdG8gd2F0Y2ggaGlzIHNvZGl1bSBpbnRha2UgYWxzby4gIFR3byBTYXR1cmRheSBzIGFnbyBJcmVuZSBub3RpY2VkIHRoZSBsZWcgc2VlcGluZyBhbmQgY29udmluY2VkIGhpbSB0byBzZWUgdGhlIERvY3RvcjsgIGFzIGEgcmVzdWx0IG9mIHRoYXQgdmlzaXQgYSB2aXNpdGluZyBudXJzZSBzZWVzIERhZCBldmVyeSB0aHJlZSBkYXlzIHRvIGNoYW5nZSB0aGUgIGJhbmRhZ2UgYW5kIGtlZXAgdHJhY2sgb2YgaGlzIHZpdGFscy4gSGUgd2FzIGFsc28gYWR2aXNlZCB0byBrZWVwIGhpcyBsZWcgZWxldmF0ZWQgdG8gaGVscCBpbXByb3ZlIHRoZSBjaXJjdWxhdGlvbi4gICBBbHNvIGEgcGh5c2ljYWwgdGhlcmFwaXN0IGNvbWVzIHRvIHRoZSBob3VzZSB0byBzZWUgaWYgdGhleSBjYW4gZ2V0IGhpbSB0byBkbyBzb21lIHNpbXBsZSBleGVyY2lzZXMgdG8gaW1wcm92ZSB0aGUgbW92ZW1lbnQgaW4gdGhlIGxlZyB0byBoZWxwIHdpdGggY2lyY3VsYXRpb24uICBBcyB5b3UgY2FuIGltYWdpbmUgRGFkIGlzIG5vdCBoYXBweSB3aXRoIGhpcyBkaWV0IGNoYW5nZXMgYW5kIGhhdmluZyB0byDigJx0YWtlIG9yZGVyc+KAnSBmcm9tIGEgdmlzaXRpbmcgbnVyc2UgYW5kIHBoeXNpY2FsIHRoZXJhcGlzdDsgYnV0IHRoaXMgaXMgdGhlIGJlc3QgY291cnNlIG9mIGFjdGlvbiB0aGF0IGNhbiBiZSB0YWtlbiB0byB0cnkgdG8ga2VlcCBmbHVpZCBmcm9tIGJ1aWxkaW5nIHVwIGFuZCBwb3NzaWJseSBmaWxsaW5nIGhpcyBsdW5ncy4gDQpOb3cgSSBrbm93IGFzIHdlbGwgYXMgYWxsIG9mIHlvdSBEYWQgY2FuIGJlIGEgYml0IGhhcnNoIGFuZCB0aGUgc2l0dWF0aW9uIGhlIGlzIGluIGRvZSBub3QgbWFrZSBoaW0gbXVjaCBiZXR0ZXI7IGJ1dCB0aGUgb25lIHRoaW5nIEkgaGF2ZSBub3RpY2VkIGFib3V0IGhpbSBpcyBoZSBsaWtlcyB2aXNpdG9ycyBtb3N0IG9mIHRoZSB0aW1lLiAgVGFsa2luZyB0byBwZW9wbGUgaGVscHMgdG8ga2VlcCBoaXMgbWluZCBvZmYgb2YgdGhpbmdzIGFuZCBpbXByb3ZlcyBoaXMgbW9vZCBhIGJpdCDigJMgZXZlbiBmb3IgYW4gaG91ci4gIFNvIGlmIHlvdSBhcmUgb3V0IGFuZCBhYm91dCBzdG9wIGluIGZvciAxMCBtaW51dGVzLCBtYXliZSBicmluZyBoaW0gc29tZSBmcnVpdCBvciBhIGxvdyBjYWxvcmllIHRyZWF0IChqdXN0IGRvbuKAmXQgdGVsbCBoaW0gaXQgaXMgbG93IGNhbCEpLiAgQXQgdGhpcyB0aW1lIGluIGhpcyBsaWZlIGl0IGlzIGltcG9ydGFudCB0byBrbm93IHlvdSBhcmUgbm90IGp1c3Qgb2xkIGFuZCBmb3Jnb3R0ZW4uICBPZiBjb3Vyc2UgbW9tIGxvdmVzIHRvIHNlZSBoZXIgY2hpbGRyZW4gYW5kIGEgdmlzaXQgd291bGQgcGVyayBoZXIgdXAgYSBiaXQgdG9vLiBTZWUgc2hlIGlzIHRha2luZyBjYXJlIG9mIGRhZCAoTGFycnkgYW5kIFJlbmUgYXJlIHRoZXJlIHRvIGtlZXAgdHJhY2sgb2YgdGhlIG1lZHMgYW5kIG1ha2Ugc3VyZSB0aGV5IGFyZSBlYXRpbmctIGJ1dCB3aGVuIERhZCB3YW50cyBvciBuZWVkcyBzb21ldGhpbmcgaGUgY2FsbHMgb24gTW9tIGZpcnN0KSDigJMgd2hpY2ggaXMgbm90IGFuIGVhc3kgdGFzayBhcyBoZSBpcyB2ZXJ5IGRlbWFuZGluZyBhbmQgbW9tIGRvZXMgbm90IGdldCBhIHdob2xlIGxvdCBvZiB0aW1lIHRvIGhlcnNlbGYsIHNvIGEgdmlzaXQgZnJvbSBzb21lb25lIHdvdWxkIGJlIGEgd2VsY29tZSBkaXN0cmFjdGlvbiBmb3IgaGVyLiAgVGhleSBib3RoIG5lZWQgdG8ga25vdyB0aGV5IHN0aWxsIG1hdHRlciBhbmQgd2Ugc2hvdWxkIGxldCB0aGVtIGtub3cgd2hpbGUgd2UgY2FuLiAgU28gd2l0aCB0aGUgd2VhdGhlciB3YXJtaW5nIHVwIHRha2UgYSBtaW51dGUgc3RvcCBieSBhbmQgc2F5IEhpLiAgSXQgd291bGQgbWVhbiB0aGUgd29ybGQgdG8gdGhlbS4NCklmIERhZOKAmXMgY29uZGl0aW9uIHdvcnNlbnMgYW5kIGZyb20gd2hhdCBJIGFtIHRvbGQgaGUgbW9zdCBsaWtlbHkgd2lsbCBub3QgZ2V0IGJldHRlciDigJMganVzdCBzdGFiaWxpemUg4oCTIHlvdSB3aWxsIGJlIGdldHRpbmcgYW5vdGhlciBlbWFpbCBmcm9tIG1lLiAgDQpUaGFuayB5b3UgZm9yIHRha2luZyB0aGUgdGltZSB0byByZWFkIHRoaXMgYW5kIHRoYW5rcyBpbiBhZHZhbmNlIGZvciB0YWtpbmcgdGltZSBmcm9tIHlvdXIgYnVzeSBsaXZlcyB0byB2aXNpdCBNb20gYW5kIERhZCBldmVuIGZvciAxMCBtaW51dGVzLiAgV2UgZG8gbm90IGtub3cgaG93IG11Y2ggdGltZSB3ZSBoYXZlIGxlZnQgd2l0aCB0aGVtLg0KIA0KQXMgdXN1YWwgSSBkbyBub3QgaGF2ZSBldmVyeW9uZeKAmXMgZW1haWwgc28gY2hlY2sgdG8gc2VlIGlmIHNvbWVvbmUgbWlzc2VkIHRoaXMgYW5kIGZvcndhcmQgdG8gdGhlbS4NCiANClRoYW5rIHlvdSwNCiANCkxvdmUgdG8gYWxsIGFuZCB0YWtlIGNhcmUg4oCTIG1heWJlIEkgd2lsbCBzZWUgeW91IGF0IHRoZSBob3VzZSBzb21lIHRpbWUuDQogDQpDaHJpc3RpbmU="
+"eventtime","2011-05-27 20:59:00"
+"url","http://g0ldenapple.livejournal.com/34049.html"
+"userid","5482"
+"itemid","132"
+"event","When ever i need to be creative i turn on music and just type.  I type my thoughts on the project.. where i want the project to end up and who i want to impress with it. I type out the impression i want anyone who reads  my work and start to form an outline.  a lot of times its 2 or 3 pages of run on sentences.. but it gives me a start.
+
+
+ I am working on a guest promotion for the hotel.. ive had zero time to think about it and is has to be done by tomorrow.(Monday)
+
+im skilled... i m excited and i believe in the promotion.. how do i get the staff to feel the same way?
+
+Education, Enthusiasm and Feedback.  Once i put out what i am going to create i need to teach them inside and out.. i have to write up the dialogue, so it flows from everyone.. sounds natural and not scripted.. but will give them an edge to impress our guests.
+ I have to be excited.  If I believe in something staff members will believe it and so guests will believe it.  It has to be fun.  People aren't enthusiastic about things that are time consuming and boring.  I also need feedback.. once we test it out I need to know what works and what doesn't.  
+
+
+This is where i excel.. so why am i having soo many issues 
+
+UGH.  Btw... i like glee but glee cast versions of popular songs are not helping 
+
+-.-  
+
+wish me luck"
+"eventtime","2011-04-24 22:08:00"
+"url","http://g0ldenapple.livejournal.com/33898.html"
+"userid","5482"
+"itemid","131"
+"event","<lj-template name=""qotd"" id=""2400"" lang=""en_LJ"" />
+
+my fave midnight snack is sushi.  when im craving it i run to the giant grocery store near buy and pick up some California rolls.
+
+i LOVE eel rolls but sometimes you just want some rice wrapped in seaweed with sesame seeds!
+
+btw my fave sushi place is todai.. maybe we will go for bobs birthday :D"
+"eventtime","2011-03-07 03:48:00"
+"url","http://g0ldenapple.livejournal.com/33729.html"
+"userid","5482"
+"itemid","130"
+"event","<lj-template name=""qotd"" id=""2396"" lang=""en_LJ"" />
+
+I call my cowoker super terrence.  He is my fave desk clerk and any time i need anything he does it.. Now our GM/and FOM call him super terrence.. poor guy ><  Might Change his name to Super T on the schedule  ha ha!"
+"eventtime","2011-03-06 23:13:00"
+"url","http://g0ldenapple.livejournal.com/33449.html"
+"userid","5482"
+"itemid","129"
+"event","<lj-template name=""qotd"" id=""2392"" lang=""en_LJ"" />
+
+I'd tell them you dont need to be a jerk to get your message across.  She upset me so much the entire year i had her.  I had stomach aches.. nerves SHIT TONS OF ACNE BREAK OUTS it was my worst school year ever.  I developed an ulcer and i missed soo much school because i couldnt stand her.
+  I dreaded lunch cause i knew after i ate id have to sit in her class and listen to her.  I dont mind people pushing their opinions on me.  But i dontl ike it when someone tells me how i feel or think is wrong.
+
+Id like to tell her that as a teacher you are a huge influence on your students.  If your having a bad time it shows.  Either embrace your love as a teacher/learning OR find something else you love."
+"eventtime","2011-03-05 00:44:00"
+"url","http://g0ldenapple.livejournal.com/33056.html"
+"userid","5482"
+"itemid","128"
+"event","OMG!!! sorry fell behind with the blogging.  I was writing a lot more then stuff got busy.
+
+GREAT NEWS
+
+I START SCHOOL MARCH 7th.. im nervous excited happy scared omg
+A mix of emotions.  I met some of my class mates and they are definatly a bit older and not as IN YOUR FACE as much as the day class students are.
+
+Im soo excited Also my friend jon offered to buy me a new phone so i will be able to take awesomeo photos for everyone 
+
+Im super excited guys yay!"
+"eventtime","2011-03-04 23:08:00"
+"current_moodid","21"
+"url","http://g0ldenapple.livejournal.com/32840.html"
+"userid","5482"
+"itemid","127"
+"event","I AM SO EXCITED two things
+
+
+a) MY HUSBAND AND I ARE BUYING A BED!!!!  we have been sleeping on the floor for a few years.  The bed we had for the longest time got super uncomfortable so we updated to a bed from walmart.  Well the frame broke and now the 3 inch thick mattress lays on the floor.. its been like that for about 3 years.  My back kills me.. every time I roll over my hips hurt and I wake up a ton through out the evening.  I could sleep for 10 hours feel like I never went to bed and be in soo much pain that is hurts to do anything.  So I test drove 5 different mattresses today.. looking forward to picking one out tomorrow!
+
+b) I start beauty school march 7th!  I started getting into nails and hair in 2009.  I started off by reading a blog called purse buzz (her you tube channel is here: http://www.youtube.com/user/pursebuzz ) .. I went from there. I also found a make up blogger named MissChievous when I was looking for make up for a fairy custome ( link here: http://www.youtube.com/watch?v=FjEJSgi8Yvw )Reading hair magazines and eventually reading about make up and finally getting into nails.. I have loyally for over 10 years every two weeks got my nails done.  When bob wanted to buy a house I wanted to cut expenses so I started doing my own.  If you page through my face book you can see how much better ive gotten over the past 3 years!  
+
+
+After doing my own nails and make up im super excited about learning a new trade.  I love Guest Service which I provide as a supervisor at my hotel.. however some day I may want to take my peopleskills to the next level and help someone feel as confident and beautiful as they want too.  I also want to figure out how to do my niece Jasmines hair it can be quite a monster to tame with  mixed ethnic textures.  So if I can figure out how to make her hair look amazing too that would be a big plus!"
+"eventtime","2011-02-14 01:57:00"
+"current_moodid","120"
+"url","http://g0ldenapple.livejournal.com/32636.html"
+"userid","5482"
+"itemid","126"
+"event","Man I was soo pissed at bob when I woke up this morning.   I had a dream where bob and I separated and three months into it he got someone he was seeing pregnant.  I was pissed in my dream and I was mega mad when I woke up.  It carried into work where I just wasn't very pleasant looking.
+
+It's odd how the brain interprets emotions like that.  It sort of twisted my sadness of not having children into being really pissed off at bob.
+
+I felt kinda bad later in the day.. Bob asked why was cross with him.. I apologized told him I had a bad dream.
+
+I asked him if he was seeing anyone.. he said nope.  And with that my anger almost completely disappeared.
+
+How dumb!  I feel soo bad for being mad at him for something he did in a dream my mind made up!
+
+Ha!"
+"eventtime","2011-01-31 03:41:00"
+"current_moodid","111"
+"url","http://g0ldenapple.livejournal.com/32365.html"
+"userid","5482"
+"itemid","125"
+"event","PGxqLXRlbXBsYXRlIG5hbWU9InFvdGQiIGlkPSIyMjkwIiBsYW5nPSJlbl9MSiIgLz4NCg0KSSBnb3QgbXkgbmFtZSBmcm9tIHdoZW4gaSB1c2VkIHRvIHBsYXkgYSBnYW1lIGNhbGxlZCB1dG9waWEuICBJIHJlYWxseSBsb3ZlIGdvZHMgYW5kIGdvZGRlc3MgbG9yZSBhbmQgaSBmZWxsIGluIGxvdmVkIHdpdGggdGhlIG5hbWVkIEVyaXMuICBJIGhhZCBjYWxsZWQgbXkgcHJvdmluY2UgU3Bhd24gb2YgRXJpcy4uICBFcmlzIHdhcyB0aGUgZ29kZGVzcyBvZiBzdHJpZmUgYW5kIGRpc2NvcmQuIHRvIHF1b3RlIHRoZSBXaWtpcGVkaWENCg0KIiBUaGUgbW9zdCBmYW1vdXMgdGFsZSBvZiBFcmlzIHJlY291bnRzIGhlciBpbml0aWF0aW5nIHRoZSBUcm9qYW4gV2FyLiBUaGUgZ29kZGVzc2VzIEhlcmEsIEF0aGVuYSBhbmQgQXBocm9kaXRlIGhhZCBiZWVuIGludml0ZWQgYWxvbmcgd2l0aCB0aGUgcmVzdCBvZiBPbHltcHVzIHRvIHRoZSBmb3JjZWQgd2VkZGluZyBvZiBQZWxldXMgYW5kIFRoZXRpcywgd2hvIHdvdWxkIGJlY29tZSB0aGUgcGFyZW50cyBvZiBBY2hpbGxlcywgYnV0IEVyaXMgaGFkIGJlZW4gc251YmJlZCBiZWNhdXNlIG9mIGhlciB0cm91YmxlbWFraW5nIGluY2xpbmF0aW9ucy4NClNoZSB0aGVyZWZvcmUgKGluIGEgZnJhZ21lbnQgZnJvbSB0aGUgS3lwcmlhIGFzIHBhcnQgb2YgYSBwbGFuIGhhdGNoZWQgYnkgWmV1cyBhbmQgVGhlbWlzKSB0b3NzZWQgaW50byB0aGUgcGFydHkgdGhlIEFwcGxlIG9mIERpc2NvcmQsIGEgZ29sZGVuIGFwcGxlIGluc2NyaWJlZCBLYWxsaXN0aSDigJMgIkZvciB0aGUgbW9zdCBiZWF1dGlmdWwgb25lIiwgb3IgIlRvIHRoZSBGYWlyZXN0IE9uZSIg4oCTIHByb3Zva2luZyB0aGUgZ29kZGVzc2VzIHRvIGJlZ2luIHF1YXJyZWxpbmcgYWJvdXQgdGhlIGFwcHJvcHJpYXRlIHJlY2lwaWVudC4gVGhlIGhhcGxlc3MgUGFyaXMsIFByaW5jZSBvZiBUcm95LCB3YXMgYXBwb2ludGVkIHRvIHNlbGVjdCB0aGUgbW9zdCBiZWF1dGlmdWwgYnkgWmV1cy4gRWFjaCBvZiB0aGUgdGhyZWUgZ29kZGVzc2VzIGltbWVkaWF0ZWx5IGF0dGVtcHRlZCB0byBicmliZSBQYXJpcyB0byBjaG9vc2UgaGVyLiBIZXJhIG9mZmVyZWQgcG9saXRpY2FsIHBvd2VyOyBBdGhlbmEgcHJvbWlzZWQgc2tpbGwgaW4gYmF0dGxlOyBhbmQgQXBocm9kaXRlIHRlbXB0ZWQgaGltIHdpdGggdGhlIG1vc3QgYmVhdXRpZnVsIHdvbWFuIGluIHRoZSB3b3JsZDogSGVsZW4sIHdpZmUgb2YgTWVuZWxhdXMgb2YgU3BhcnRhLiBXaGlsZSBHcmVlayBjdWx0dXJlIHBsYWNlZCBhIGdyZWF0ZXIgZW1waGFzaXMgb24gcHJvd2VzcyBhbmQgcG93ZXIsIFBhcmlzIGNob3NlIHRvIGF3YXJkIHRoZSBhcHBsZSB0byBBcGhyb2RpdGUsIHRoZXJlYnkgZG9vbWluZyBoaXMgY2l0eSwgd2hpY2ggd2FzIGRlc3Ryb3llZCBpbiB0aGUgd2FyIHRoYXQgZW5zdWVkLiINCmh0dHA6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRXJpc18obXl0aG9sb2d5KQ0KDQpJIHdlbnQgd2l0aCB0aGUgRzBsZGVuYXBwbGUgYmVjYXVzZSBhcyBhYm92ZSBpdCBwcm92b2tlZCBhbiBlbnRpcmUgd2FyLCBpdCB3YXMgaW5kZWVkIGEgc3Bhd24gb2YgZXJpcyEgIEkgdGhvdWdodCBpdCB3YXMgYSBwcmV0dHkgcG93ZXJmdWwgc3ltYm9sIDopDQoNCklmIGkgY291bGQgY2hhbmdlIGl0IGkgd291bGQgcG9zc2libHkgY2hhbmdlIGl0IHRvIG15IG5hbWUgSm9hbm5EYW5pZWxsZUUuLiBidXQgaXZlIGhhZCBHMGxkZW4gYXBwbGUgZm9yIHNvb29vbyBiZWNhdXNlIGxvbmcgaSBhY3R1YWxseSByZWFsbHkgbGlrZSBpdCA6KQ=="
+"eventtime","2011-01-31 03:39:00"
+"current_moodid","115"
+"url","http://g0ldenapple.livejournal.com/32056.html"
+"userid","5482"
+"itemid","124"
+"event","Snow driving is not something I take very lightly.  The Last time I drove in snow I managed to roll my car after losing control on ice at low speeds in 2008.  If it is calling for snow Bob takes me to work.  
+At the end of my shift today I realized there wasn't enough rooms with working heat in them for all the employees that wanted to stay, so I drove home.   A little nervous I called my husband he said okay see you soon.  SO I called my dad.  Talked to him for about 20 minutes as I drove home.  The weather wasnt terrible I had driven through worse but I was just nervous.  
+
+I was kind of impressed that my dad chatted with me after making fun of me.  Ive not always seen eye to eye with my dad. He is stubborn and hot tempered.. So am I. He gets his way and so do I.  My intentions are always genuine and in the best interest of everyone involved, but where I fail is getting everyone to embrace my way of doing things.  I think my dad is like that too.  Sometimes I come off as brash and abrasive... I am really just concentrating  or im terribly shy. I don't think my dad is shy at all but I do think he can be abrasive when focused.  It kind of sucks when you realize the person you cant stand the most.. you are most similar too.
+
+He did help me out a lot while searching for a home thou I did get pissed at him when I asked him his opinion of a house and he blew smoke up my ass.  I called him annoyed--- asking him do you think this is a project I can handle?  I explained I don't know crap about construction or houses.  I don't know what goes into fixing a roof leak. And I defiantly don't know anything about VA Loan Regulations.  He finally told me he felt the house would be a money pit of sorts and he didn't think bob and I could handle all the work needed and follow through.  From that point on he was a whole lot more direct and honest with me. I know I am a drama queen that is very emotional.  I get that.. but when it comes to financing my husbands dreams I need really good advice other wise ill get in way over my head and purchase something I cannot afford :(.
+
+  My dad never tried to be my friend. But he did tell me when I did something stupid and I shouldn't do it again.  He never really lectured me or grounded me either. I defiantly do NOT agree with his style of discipline but in the end I think I turned out okay. I know I didnt go down the path my mom and dad wanted me too but It's not their life.  I did the best I could with the cards I was dealt.  And I think finally my dad accepts that.
+
+It;s nice to be able to talk to my parents and annmarie like I have been for the past year or so. I am trying hard to strengthen those relationships and so FAR SO GOOD!
+
+:)"
+"eventtime","2011-01-27 04:20:00"
+"url","http://g0ldenapple.livejournal.com/31831.html"
+"userid","5482"
+"itemid","123"
+"event","<lj-template name=""qotd"" id=""2282"" lang=""en_LJ"" />
+
+A true friend realizes that I may not be perfect and i do say the wrong thing a lot of the time...I do it out of fear of losing them as a friend.  I am so shy and i get very anxious around people. i try very hard to make them smile.. this sometimes doesn't go so well and i end up pissing someone off -.- esp if they dont know me well 
+
+A true friend realizes your short comings and can overlook them.
+
+If a friend was trying to push me into doing something that made me uncomfortable i would end a friendship.  I had a guy that i was hanging out with a lot that had a thing for younger girls.  he tried to push me into helping him pick up 16 y/o's by approaching them and becoming friends with them.  It was an odd request and i terminated the friendship and had nothing to do with him.  Very disappointing.. we had a lot of fun"
+"eventtime","2011-01-27 03:48:00"
+"url","http://g0ldenapple.livejournal.com/31497.html"
+"userid","5482"
+"itemid","122"
+"event","<lj-template name=""qotd"" id=""2276"" lang=""en_LJ"" />
+
+My favorite holiday has to be thanksgiving.  a whole holiday that is centered around eating our selves silly then falling asleep watching the football game.  Its soo much less stressful than Christmas is for sure.
+
+that brings me to my dislike holiday:
+
+Christmas.  I would love if it was just a holiday where i got to see family and check out all the lights people have put up around their homes...but it's not.. it's about finding the right gift for someone who more than likely will just buy me a pair of socks.  i got a friend a gift and when i visted them a few years later i noticed the gift was still in it's box in a closet.  i wasnt offended but it really put gift giving into prespective.  why should i stress out about finding the perfect gift for someone?  hell no.. ill buy people stuff i would like to give them.. ie.. i wanted to give my inlaws a soda stream.. and my sisters make up kits.. so i did.
+
+why stress and put youurself into at tight money situation just for it to sit in their closet?  forget that mess.. pass me the stuffing and enjoy your home made soda.
+
+:P"
+"eventtime","2011-01-25 02:54:00"
+"current_moodid","130"
+"url","http://g0ldenapple.livejournal.com/31325.html"
+"userid","5482"
+"itemid","121"
+"event","&nbsp;Dinner at Aunt Joann's!  My sister kind of invited herself over on face book and it turned out to be a lot of fun.  Bob made molasses corn bread and I made hard and soft shell tacos... and a chicken fingers macaroni tv dinner for Jasmine.  I was kind of disappointed that she didnt eat what I had planned but at least I heated her dinner in the microwave!
+
+<a href=""http://img13.imageshack.us/i/368390598277.jpg/"" target=""_blank""><img src=""http://img13.imageshack.us/img13/7545/368390598277.th.jpg"" border=""0""/></a><a href=""http://img808.imageshack.us/i/368387565317.jpg/"" target=""_blank""><img src=""http://img808.imageshack.us/img808/9210/368387565317.th.jpg"" border=""0""/></a>
+
+I had an okay day .  Paid my enrollment for school. And I talked to a few people about Stabbings as their example for a high pressure situations. and had lunch out with my husband.  All in all an okay day. 
+
+
+Ive been watching a show lately called the Big C.  some of it is a little depressing since it does deal with a woman dying of cancer but overall it's a good show.  Just finished up watching the season.  Cant wait to see season 2 on show time :) the Season Final was rather tear jerking at the end.
+
+Watching it.. even thou it is rather light hearted has made me realize that I spend too much time online.  And im going to cut a ton of that out soon.  I got shit I want to do:) and people to see.  Sitting alone all the time is kind of lame........
+
+I ALSO GOT NEW PAJAMAS!  Ya its dorky and frump but im soo comfortable :P and really that is all that matters!
+Just am arm shot I got bad allergies and my make up is running from crying about the big c show ending..... =/
+
+<a href=""http://img217.imageshack.us/i/368348507397.jpg/"" target=""_blank""><img src=""http://img217.imageshack.us/img217/9773/368348507397.th.jpg"" border=""0""/></a>
+
+
+It may not have been much but I had an amazing time at dinner.  Next week tortellini see ya monday at 6.!"
+"eventtime","2011-01-25 02:14:00"
+"current_moodid","89"
+"url","http://g0ldenapple.livejournal.com/31156.html"
+"userid","5482"
+"itemid","120"
+"event","Ugh after being sick for a few days i got really behind on cleaning. &nbsp;My computer room IS A MESSS!!!!!i got three sets of eye lashes laying out with the glue still on yuck!<br /><br />I must clean:<br /><br />&nbsp;<br /><br /><a target=""_blank"" href=""http://img16.imageshack.us/i/368347876357.jpg/""><img border=""0"" alt="""" src=""http://img16.imageshack.us/img16/51/368347876357.th.jpg"" /></a><a target=""_blank"" href=""http://img838.imageshack.us/i/368347856901.jpg/""><img border=""0"" alt="""" src=""http://img838.imageshack.us/img838/6096/368347856901.th.jpg"" /></a><a target=""_blank"" href=""http://img192.imageshack.us/i/368347842309.jpg/""><img border=""0"" alt="""" src=""http://img192.imageshack.us/img192/7039/368347842309.th.jpg"" /></a><br /><br /><br />i know its bad:( &nbsp;those black things on the left picture are one of my pairs of eye lashes. &nbsp;<br /><br />WISH I COULD SLEEP!!!<br /><br />i have a pretty busy day&nbsp;tomorrow. &nbsp;going to do some interviews at the hotel. &nbsp;Interviews always excite me. &nbsp;that is why I've always done recruiting in world of warcraft. &nbsp;I love getting to know someone new finding out their personal/game/career goals.. then deciding if they are a good fit. &nbsp;I feel bad about some of the people we do decline but it is my job to make sure they are a great fit for our company. &nbsp;It's like possibly meeting a new friend :)<br /><br /><br /><br /><br />I am also going to talk to Lauren at beauty school.  I am going to put some money down to hold a seat in the March 7th class.  I am very excited about it.  Its a really great feeling to learn more about something im super interested in.  I love the hotel industry and it has always supported me, however it is time to expand my horizons and learn something new.  I dont think I will ever leave the wonderful world of hotels to be honest.  I hope my deposit today is the BIG STEP leading to possibly a side business in my future where I can make women and men feel awesome about themselves with a bit of color, cut and set :)<br /><br />Here is all the nail art ive done for myself. I just started in april 2010 :) so SO FAR SO GOOD :)<br />I really need a better camera.. using my phone is okay but id rather show off GREAT :D<br /><br /><a target=""_blank"" href=""http://img405.imageshack.us/i/368343635589.jpg/""><img border=""0"" alt="""" src=""http://img405.imageshack.us/img405/7776/368343635589.th.jpg"" /></a><a target=""_blank"" href=""http://img29.imageshack.us/i/367421068549.jpg/""><img border=""0"" alt="""" src=""http://img29.imageshack.us/img29/6903/367421068549.th.jpg"" /></a><a target=""_blank"" href=""http://img406.imageshack.us/i/366701154565.jpg/""><img border=""0"" alt="""" src=""http://img406.imageshack.us/img406/3153/366701154565.th.jpg"" /></a><a target=""_blank"" href=""http://img14.imageshack.us/i/366534903173.jpg/""><img border=""0"" alt="""" src=""http://img14.imageshack.us/img14/3121/366534903173.th.jpg"" /></a><a target=""_blank"" href=""http://img714.imageshack.us/i/366026624901.jpg/""><img border=""0"" alt="""" src=""http://img714.imageshack.us/img714/2221/366026624901.th.jpg"" /></a><a target=""_blank"" href=""http://img825.imageshack.us/i/365940189317.jpg/""><img border=""0"" alt="""" src=""http://img825.imageshack.us/img825/2286/365940189317.th.jpg"" /></a><a target=""_blank"" href=""http://img11.imageshack.us/i/364528131461.jpg/""><img border=""0"" alt="""" src=""http://img11.imageshack.us/img11/5449/364528131461.th.jpg"" /></a><a target=""_blank"" href=""http://img200.imageshack.us/i/359975990533.jpg/""><img border=""0"" alt="""" src=""http://img200.imageshack.us/img200/3369/359975990533.th.jpg"" /></a><a target=""_blank"" href=""http://img822.imageshack.us/i/360693319173.jpg/""><img border=""0"" alt="""" src=""http://img822.imageshack.us/img822/9826/360693319173.th.jpg"" /></a><a target=""_blank"" href=""http://img195.imageshack.us/i/361933725061.jpg/""><img border=""0"" alt="""" src=""http://img195.imageshack.us/img195/8681/361933725061.th.jpg"" /></a><a target=""_blank"" href=""http://img257.imageshack.us/i/362592223109.jpg/""><img border=""0"" alt="""" src=""http://img257.imageshack.us/img257/1686/362592223109.th.jpg"" /></a><a target=""_blank"" href=""http://img33.imageshack.us/i/362615579653.jpg/""><img border=""0"" alt="""" src=""http://img33.imageshack.us/img33/1035/362615579653.th.jpg"" /></a><a target=""_blank"" href=""http://img412.imageshack.us/i/362984311429.jpg/""><img border=""0"" alt="""" src=""http://img412.imageshack.us/img412/1538/362984311429.th.jpg"" /></a><a target=""_blank"" href=""http://img717.imageshack.us/i/364435284357.jpg/""><img border=""0"" alt="""" src=""http://img717.imageshack.us/img717/4778/364435284357.th.jpg"" /></a><a target=""_blank"" href=""http://img266.imageshack.us/i/357952054661.jpg/""><img border=""0"" alt="""" src=""http://img266.imageshack.us/img266/3764/357952054661.th.jpg"" /></a><a target=""_blank"" href=""http://img72.imageshack.us/i/357349290885.jpg/""><img border=""0"" alt="""" src=""http://img72.imageshack.us/img72/2715/357349290885.th.jpg"" /></a><a target=""_blank"" href=""http://img130.imageshack.us/i/356469566853.jpg/""><img border=""0"" alt="""" src=""http://img130.imageshack.us/img130/8137/356469566853.th.jpg"" /></a><a target=""_blank"" href=""http://img823.imageshack.us/i/356426977413.jpg/""><img border=""0"" alt="""" src=""http://img823.imageshack.us/img823/8842/356426977413.th.jpg"" /></a><a target=""_blank"" href=""http://img690.imageshack.us/i/355701280389.jpg/""><img border=""0"" alt="""" src=""http://img690.imageshack.us/img690/6271/355701280389.th.jpg"" /></a><a target=""_blank"" href=""http://img816.imageshack.us/i/353251712517.jpg/""><img border=""0"" alt="""" src=""http://img816.imageshack.us/img816/8862/353251712517.th.jpg"" /></a><a target=""_blank"" href=""http://img843.imageshack.us/i/352999681285.jpg/""><img border=""0"" alt="""" src=""http://img843.imageshack.us/img843/1625/352999681285.th.jpg"" /></a><a target=""_blank"" href=""http://img833.imageshack.us/i/347392069509.jpg/""><img border=""0"" alt="""" src=""http://img833.imageshack.us/img833/4340/347392069509.th.jpg"" /></a><a target=""_blank"" href=""http://img52.imageshack.us/i/340246603269.jpg/""><img border=""0"" alt="""" src=""http://img52.imageshack.us/img52/7677/340246603269.th.jpg"" /></a><a target=""_blank"" href=""http://img526.imageshack.us/i/334110576517.jpg/""><img border=""0"" alt="""" src=""http://img526.imageshack.us/img526/7374/334110576517.th.jpg"" /></a><a target=""_blank"" href=""http://img535.imageshack.us/i/334968287621.jpg/""><img border=""0"" alt="""" src=""http://img535.imageshack.us/img535/3961/334968287621.th.jpg"" /></a><a target=""_blank"" href=""http://img823.imageshack.us/i/341731122821.jpg/""><img border=""0"" alt="""" src=""http://img823.imageshack.us/img823/7459/341731122821.th.jpg"" /></a><a target=""_blank"" href=""http://img525.imageshack.us/i/343153994629.jpg/""><img border=""0"" alt="""" src=""http://img525.imageshack.us/img525/3139/343153994629.th.jpg"" /></a><a target=""_blank"" href=""http://img97.imageshack.us/i/348259361669.jpg/""><img border=""0"" alt="""" src=""http://img97.imageshack.us/img97/2949/348259361669.th.jpg"" /></a><a target=""_blank"" href=""http://img842.imageshack.us/i/349489920005.jpg/""><img border=""0"" alt="""" src=""http://img842.imageshack.us/img842/7185/349489920005.th.jpg"" /></a><a target=""_blank"" href=""http://img547.imageshack.us/i/350675546373.jpg/""><img border=""0"" alt="""" src=""http://img547.imageshack.us/img547/3729/350675546373.th.jpg"" /></a><a target=""_blank"" href=""http://img806.imageshack.us/i/344716436101.jpg/""><img border=""0"" alt="""" src=""http://img806.imageshack.us/img806/5654/344716436101.th.jpg"" /></a><a target=""_blank"" href=""http://img4.imageshack.us/i/337440426885.jpg/""><img border=""0"" alt="""" src=""http://img4.imageshack.us/img4/5393/337440426885.th.jpg"" /></a><a target=""_blank"" href=""http://img824.imageshack.us/i/338124819973.jpg/""><img border=""0"" alt="""" src=""http://img824.imageshack.us/img824/5047/338124819973.th.jpg"" /></a><a target=""_blank"" href=""http://img442.imageshack.us/i/338614763269.jpg/""><img border=""0"" alt="""" src=""http://img442.imageshack.us/img442/8490/338614763269.th.jpg"" /></a><a target=""_blank"" href=""http://img263.imageshack.us/i/346588186117.jpg/""><img border=""0"" alt="""" src=""http://img263.imageshack.us/img263/9796/346588186117.th.jpg"" /></a><a target=""_blank"" href=""http://img412.imageshack.us/i/352196885509.jpg/""><img border=""0"" alt="""" src=""http://img412.imageshack.us/img412/7636/352196885509.th.jpg"" /></a><a target=""_blank"" href=""http://img824.imageshack.us/i/351635066757.jpg/""><img border=""0"" alt="""" src=""http://img824.imageshack.us/img824/1632/351635066757.th.jpg"" /></a><a target=""_blank"" href=""http://img641.imageshack.us/i/345281649797.jpg/""><img border=""0"" alt="""" src=""http://img641.imageshack.us/img641/664/345281649797.th.jpg"" /></a><a target=""_blank"" href=""http://img138.imageshack.us/i/333573591173.jpg/""><img border=""0"" alt="""" src=""http://img138.imageshack.us/img138/7995/333573591173.th.jpg"" /></a><a target=""_blank"" href=""http://img262.imageshack.us/i/333465364101.jpg/""><img border=""0"" alt="""" src=""http://img262.imageshack.us/img262/2458/333465364101.th.jpg"" /></a><a target=""_blank"" href=""http://img12.imageshack.us/i/331973737221.jpg/""><img border=""0"" alt="""" src=""http://img12.imageshack.us/img12/1903/331973737221.th.jpg"" /></a><a target=""_blank"" href=""http://img843.imageshack.us/i/330921314693.jpg/""><img border=""0"" alt="""" src=""http://img843.imageshack.us/img843/4223/330921314693.th.jpg"" /></a><a target=""_blank"" href=""http://img88.imageshack.us/i/330444168325.jpg/""><img border=""0"" alt="""" src=""http://img88.imageshack.us/img88/5332/330444168325.th.jpg"" /></a><a target=""_blank"" href=""http://img529.imageshack.us/i/328285425029.jpg/""><img border=""0"" alt="""" src=""http://img529.imageshack.us/img529/3372/328285425029.th.jpg"" /></a>"
+"eventtime","2011-01-24 02:42:00"
+"current_moodid","87"
+"url","http://g0ldenapple.livejournal.com/30923.html"
+"userid","5482"
+"itemid","119"
+"event","i had forgotten about this account -.-
+
+&nbsp; ENROLLED!
+Very excited i enrolled in beauty school. i am super super excited. I had no idea that looking on the internet for new hairstyles would eventually fuel my passion for all things beauty.
+
+In 2009 i was trying to make myself look more professional. I started following my favorite beauty blogger purse buzz on you tube. i was instantly hooked watching hair and make up tutorials. I then started watching nail ones. At the time i was getting my nails done .... i had been getting them done since i was 15. When we decided to buy a house i realize the 55+++++++$$ i was spending every two weeks could be put towards something else. so i bought nail polishes and i was off and running. MY FIRST nail guru i fell in love with was LOVE4NAILS and Cute Polish.
+
+I am very excited about starting my education towards a new career. My first day is March 7th.
+
+My co worker pat said something to me that helped me make the final jump..
+
+Me: &quot;I want to go to beauty school but i am so worried I wont make any money at it&quot;
+Pat: &quot;You dont make any money where you are at now.. What's the difference.&quot;
+
+Shes right. and off i go!"
+"eventtime","2011-01-16 01:47:00"
+"current_moodid","109"
+"url","http://g0ldenapple.livejournal.com/30516.html"
+"userid","5482"
+"itemid","118"
+"event","lj on my phone!"
+"eventtime","2010-06-09 02:05:00"
+"url","http://g0ldenapple.livejournal.com/30230.html"
+"userid","5482"
+"itemid","117"
+"event","So bob is kinda bummed.&nbsp;&nbsp;&nbsp; Since we have been doing fairly well money wise he started looking into possibly going on a trip this year.&nbsp; He loves vegas and was looking at airfare hotel and the like for a few hours Sunday.&nbsp; He found some excellent pricing&nbsp; and was kinda jabbering on about it.&nbsp; Mortified of having to repeat the expierence i dealt with last time i flew, i suggested looking into Niagara falls instead becauwe we could drive there.. His face fell....
+
+Bob&nbsp; &quot;Why wouldnt you want to go to Vegas&quot;
+Me&nbsp; &quot; I&nbsp;dont get vacation time at work so the trip would have to be a short one.&nbsp; Niagara is much closer.&quot;
+Bob&nbsp; &quot;&nbsp;You sure you cant do Vegas?&quot;
+Me&nbsp; &quot;Y&quot;a id luv to see the falls&nbsp; been a dream of mine&quot;
+Bob &quot; OKay i guess.&nbsp; ill see what i can find&quot;
+
+:(&nbsp; i totally lied i didnt want to go to any place where i had to fly because last time i flew bob and i got bumped off the flight.&nbsp; When we were talking to the ticket agent making new flight arrangements she asked me if id prefer two seats to accomodate me.&nbsp; One of the other passengers behind me snorted and said... &quot;well if she doesnt take two seats i will if im next to her&quot;&nbsp; The ticket Agent gave a slight giggle.
+
+Thats it no more flying 
+
+Im sorry Bob.&nbsp; Im sorry im overweight and people think its a Joke.&nbsp; and most importantly im sorry i ruined your want to go to vegas because im selfconscience.
+
+:("
+"eventtime","2009-03-07 05:26:00"
+"url","http://g0ldenapple.livejournal.com/30082.html"
+"userid","5482"
+"itemid","116"
+"event","<div style=""text-align: center;""><span style=""font-family: georgia;"">This time i will do it right. I know i will. I bought all the stuff i need, Soap, Sponges, Cleaner... Gloves (so i don't ruin my nails). Yet here i sit writing and avoiding the issue. My house is a mess it needs cleaned and instead of doing it i took photosgraphs of it. haha I guess before and after maybe?</span>  SO here is the before &gt;&lt;<br /><br /><br /><a href=""http://pics.livejournal.com/g0ldenapple/pic/00007hc4/""><img width=""320"" height=""240"" border=""0"" src=""http://pics.livejournal.com/g0ldenapple/pic/00007hc4/s320x240"" alt="""" /></a><br /><span style=""font-family: georgia;"">Welcome to my world.  Its messy, disorganized and very very tiring.</span><br /><br /><span style=""font-family: georgia;"">:)</span><br /><br /><span style=""font-family: georgia;"">i will clean i will clean i will clean...... ooo It's lunch time! I'll get right on those dishes..once </span>i eat. </div>"
+"eventtime","2009-02-23 15:02:00"
+"url","http://g0ldenapple.livejournal.com/29786.html"
+"userid","5482"
+"itemid","115"
+"event","some good friends of mine were considering getting divorced.. being the odd person in the middle i heard them constantly complain about one another.&nbsp; Finally i got something out of both of them that was fairly useful.. He was mad she spent soo much time online and had several men she would talk to constantly..He&nbsp;felt it&nbsp;was cheating and he would&nbsp;constnatly argue with her&nbsp;about it.. finally she pulled away from him&nbsp;since&nbsp;he was always angry and&nbsp;their sex life had died.&nbsp; He cheated a few times and was ready to walk out the door.&nbsp;Eventually he told her&nbsp;he wanted a divorce then&nbsp;both called me she crying and him yelling.. it was just soo odd.&nbsp; at 2am.. omg.&nbsp; 
+
+
+after calming both of them down.. they got a hotel room got dinner the next day and talked&nbsp; i got them a room since i work for a hotel.&nbsp; i guess that jolt of him wanting to leave kind of reignited things between them. 
+
+so now i get the constant tells about their sexlife.&nbsp; /sigh.&nbsp; its not info i want to hear really. 
+i helped her shop for new toys and new lingerie&nbsp; and he tells me the new positions they are trying and how shes trying to take the role of dominate one in the bedroom.&nbsp; its great for them but it tortures me.. bob and i dont have sex and hearing about those two makes me soo jealous. 
+
+im glad i was there for them when things were bad... but ugh keep some of the sex stuf to urselves.. thats private!
+
+=My work life isnt much better.&nbsp; one of our supervisors is now getting her own office.&nbsp; Im jealous as fuck.. why?&nbsp; because shes a very very rude person snaps at people and has zero idea how to manage people.&nbsp; Shes been called into mmgt meetings to discuss her behavior and now she sgetting rewarded.
+
+why cant good stuff happen to me.&nbsp; fuck.&nbsp; i really need to make some changes this year because nothing good ever comes into play.&nbsp; I know good things have to be created but i dont know hwo to make a situation work out in my favor.im at a loss. :(
+
+i got to cleanse my heart of all this jealousy&nbsp;, its just not worth living to be this upset and angry :("
+"eventtime","2009-01-03 04:15:00"
+"url","http://g0ldenapple.livejournal.com/29476.html"
+"userid","5482"
+"itemid","114"
+"event","I managed to make a whole month disappear. I hit27 skipped thanksgiving thanks to having to work and managed to totally blow off Christmas. 
+
+Now its dec 27th.. I received no gifts&hellip; didn&rsquo;t buy any and since bob wouldn&rsquo;t get the tree down for me.. I had no tree up. I totally missed the entire Christmas thing. I talked to sooo many people.. &ldquo;Christmas is my favorite time of the year!&rdquo; I just woke up.. Went to Sheetz for breakfast.. Then to work. It was another day for me, except the hotel was super slow. 
+
+I&rsquo;m plagued by bad memories I cant let go of. Also instead of making new ones to replace the old, i get so sad I avoid everything all together. It&rsquo;s miserable. 
+
+
+So what do I do now.. well I cant go and decorate the house with xmas stuff.. bob wont appreciate it and id just feel super silly.&nbsp; 
+
+I really want to participate in life again and im really not sure how. Go away sadness go away."
+"eventtime","2008-12-27 06:11:00"
+"current_moodid","9"
+"url","http://g0ldenapple.livejournal.com/29275.html"
+"userid","5482"
+"itemid","113"
+"event","well i was posting a survey lol but it didnt work :)"
+"eventtime","2008-12-27 05:21:00"
+"url","http://g0ldenapple.livejournal.com/29032.html"
+"userid","5482"
+"itemid","112"
+"event","so this year nov 25 im turning 27.. im a little bummed about it.&nbsp; I&nbsp;wanted kids by now.. i wanted a degree by now.. and i was hoping to buy a house by now.
+
+at this point bob and i havent had sex in almost 8 years.&nbsp; hes not interested.&nbsp; im getting older.. becoming less attractive... he isnt interested, god this hurts. 
+
+How can a man say he loves his wife.. and only wants her to be happy.. yet wont even approach having sex.
+
+i wish i could be who he wanted.
+
+im not even attracted to him any more.&nbsp; /sigh. and the thought of having sex with him .. well its been soo long.. that i dont even want too.&nbsp; when i try and be intimate&nbsp; he just blows it off.&nbsp; like i kiss his mouth and he doesnt even move his head at all.&nbsp;&nbsp; i want a real relationship.&nbsp; everything right now is soo crummy.. i
+
+
+
+ dont want to be 27.... not yet."
+"eventtime","2008-11-22 08:46:00"
+"current_moodid","127"
+"url","http://g0ldenapple.livejournal.com/28729.html"
+"userid","5482"
+"itemid","111"
+"event","i was talking to a new friend.. and he loves to hear me go on and on about things.&nbsp; He stopped me at one point saying &quot; when i hear you talk .. you have soo much you want to say it makes me think u have no one else to talk too and that makes me sad.&quot;
+
+hes exactly right.. its not very often i got someone who is willing to digest everything i say&nbsp; i said nah i talk to lots of people.&nbsp; but.. little does he know hes probably the only person who will ask me how my day is this week.
+
+now that im thinking about it gosh im lonely im soo glad he listens.&nbsp;&nbsp; im gonna try to talk less now haha.&nbsp; so he doesnt get that impression&nbsp; i dont want to seem desparate."
+"eventtime","2008-10-08 13:14:00"
+"current_moodid","22"
+"url","http://g0ldenapple.livejournal.com/28537.html"
+"userid","5482"
+"itemid","110"
+"event","so i was going through my <a href=""http://g0ldenapple.deviantart.com/"">deviant ar</a>t and came across something i wrote 4 years ago.&nbsp; its kinda sad.&nbsp; nothing has changed:(<br /><br />Submitted: <span title=""218w 21h ago"">July 31, 2004</span><br />This is going to be a little long so  bear with me <img height=""15"" width=""15"" title="":) (Smile)"" alt="":)"" src=""http://e.deviantart.com/emoticons/s/smile.gif"" /><br /> this piece has some meaning. A few artist that I watch have posted pieces similar to this one so I got an idea ill go to one of the beaches here and see if I can do it. Its something that has been done a million and 1 times but who cares it&rsquo;s a lovely photo. So I got some batteries for my digital camera and asked my husband to drive me to the beach. It was super hot out and now my husband has a fabulously scorching sun burn hehe oops&hellip; but anyways so I find a stick and draw in the sand. And start snapping photos trying to get myself and the sun aligned properly so as to not flood the camera with soo much light which isn&rsquo;t easy in bare feet because rocks hurt! So.. This was yesterday and now I&rsquo;m editing these photos, most of them were taken just to show my mom the beach so I didn&rsquo;t use the highest quality settings on my camera, and I came across all the heart pictures. When I looked at them I noticed some heart outlines I drew heavier than others and the ocean water hits them all differently. Some parts of the heart are carved into the sand much harder and are much more permanent being able to stand up to the water when it comes to wash it away. Adversely other parts as soon as the water comes up are completely erased. And some are slowly fading. All the different hearts are like interests or people or just stuff in my life. Some things I am able to count on , other things I cannot and others are slowly fading away. The first thing I thought of when I saw these hearts with pieces of them fading away is my relationship with my husband. Its fading and soon nothing will be left unless another heart is carved out. Be it by me or by my husband. And if its not re-carved into the sand it will be gone forever. Some things aren&rsquo;t meant to be like hearts close to the ocean tide. U cant expect them to be there in 10years from now if they aren&rsquo;t carved in deep enough and far enough away. But even then they can be trampled by other things especially if they are not strong enough. So if your going to put a heart into the side make sure u do it deep and it stays strong. Make sure u care of it and check on it. Most of all make sure that u do it with all the energy that you have or it will be washed away with out u really realizing&hellip;.<br /> <br /> <br /> I hope u see my point. Sorry I&rsquo;m not  very eloquent&hellip;.<br /><br /><a href=""http://pics.livejournal.com/g0ldenapple/pic/00006r7h/""><img height=""142"" border=""0"" width=""320"" src=""http://pics.livejournal.com/g0ldenapple/pic/00006r7h/s320x240"" alt="""" /></a><br />"
+"eventtime","2008-10-05 09:08:00"
+"current_moodid","9"
+"url","http://g0ldenapple.livejournal.com/28348.html"
+"userid","5482"
+"itemid","109"
+"event","its been a while and ive been quite down.  Putting my dog down was harder for me to deal with than i thought possible.. then home issues are just draining me
+
+im at work at my over night job which i soon hope to quit.  i hate working over night
+
+:(
+
+how is everyone doing?"
+"eventtime","2008-07-19 03:31:00"
+"url","http://g0ldenapple.livejournal.com/28100.html"
+"userid","5482"
+"itemid","108"
+"event","I had to put my baby girl peanut down today.
+
+she had a seizure.. and nothing the vent could do could pull her out of it.  she went from one to another to another to another.  She had tumors in her lungs that was blocking her breathing.  this was injuring her brain.. there for.  we had to put her down
+
+i kissed her good bye as she took her last breath
+
+ill miss you peanut
+
+you were my angel :("
+"eventtime","2008-05-18 17:37:00"
+"url","http://g0ldenapple.livejournal.com/27791.html"
+"userid","5482"
+"itemid","107"
+"event","ive been sort of alternative when it comes to love and sex.  im incredibly open minded on both fronts.  Is it possible to love two people at once?  Absolutly! however is it worth the time and enregy and the shitty emotions  thou?  Is it fair to you or them to share yourself and not give both your all?  
+
+He is having issues with his wife, has been for sometime.  What saddens me is the fact he just wants to give up.  I dont want him to do that.  i know what its like to be married to someone in the military and the stresses it brings.  Not only is it stressful for both of them, they also  have two small children.  I love this man dearly..But i know his happiness is with his children and their mother.  He claims hes disappointed but  i know what he really wants and its his family.
+
+ ive had this for a while.. but these feelings are only able to fester because of the issues i am having a home.  bob doesnt want sex.  Infact we havent had it in 7 years.  Ive never had sex with bob as my husband only while we were dating.. it was bad sex but it wasnt great either.  I thought that great sex comes with a deeper love you develope.  i still belive that.
+
+I am not sure how much more i can deal with bobs depression.. I am trying to fight mine but he ignores it. I try to do everything in my power to help him but he doesnt want my help.  He really doesnt want to go to counsiling but i think it would help us both. i dont want ot lose my husband, but i dont want to miss out on the things a good marriage has.
+
+ugh"
+"eventtime","2008-04-22 10:44:00"
+"url","http://g0ldenapple.livejournal.com/27526.html"
+"userid","5482"
+"itemid","106"
+"event","<lj-template name=""qotd"" id=""364""></lj-template>&nbsp;I&nbsp; have a large portion of money taken out of my pay checks so that i never have to owe.. I was super excited to see i was getting back 3800... UNTIIL i did my husbands taxes.&nbsp; A mistake on his w-2 cost me 3k.. so i only got 800 back :(&nbsp; Im a bit obessesive thou&nbsp; i filed my Taxes in January once i got all of my forms from my currently and past employers from last year<br /><br />I got my car new tires and a new windsheild and to treat myself i got my nails done and took my sisters out to hershey chocolate world for milkshakes :)<br /><a href=""http://pics.livejournal.com/g0ldenapple/pic/000035hc/""><img height=""240"" alt="""" width=""159"" border=""0"" src=""http://pics.livejournal.com/g0ldenapple/pic/000035hc/s320x240"" /></a><br /><br />&nbsp;"
+"eventtime","2008-04-15 09:02:00"
+"url","http://g0ldenapple.livejournal.com/27332.html"
+"userid","5482"
+"itemid","105"
+"event","<lj-template name=""qotd"" id=""362""></lj-template>Education lvl :(.. I wasnt able to finish college and i cant do what i want with out a degree.&nbsp; Im 26 now married no children and im trying HARD to go back but with working two jobs i find it hard to find the time:(. &nbsp;"
+"eventtime","2008-04-14 22:03:00"
+"url","http://g0ldenapple.livejournal.com/27132.html"
+"userid","5482"
+"itemid","104"
+"event","<lj-template name=""qotd"" id=""360""></lj-template>&nbsp; We get all 4 seasons here and Its soo beautiful. :)<br />nice hot summer, bright firey fall,&nbsp; hot chocolate days in the winter and spring buds.&nbsp; I lived all over the Us while my husband was military and none of those places have fall and springs like Pennsylvania :)"
+"eventtime","2008-04-12 18:41:00"
+"url","http://g0ldenapple.livejournal.com/26682.html"
+"userid","5482"
+"itemid","103"
+"event","i have a quesiton.. a friend emailed me asking me how i am doing and if im going to the shore this year i sent back a messag eno money is tight this year so i cannot do it. why does every time i mention no i cant do something due to money the fuckers tell me to sell my fucking car?!?!!?!?!?!? this is like the 230948204th person whose told me to sell my fucking car.  I OWE money on the thing.  I NEED TO HAVE A VEHICLE other wise i cannot work.  I work 2 jobs its like ffuuuuuck
+
+
+i need a car other wise i have no way to get to work, two cars are something my house must have.  there is no bussing system out here and cabs are too expensive.  i was with out a car for a month and a half and now i have it running again.  I guess many people have not had to deal with sitting at work for 12 hours when you are only being paid for 6.  
+
+damn stop suggesting it!!
+
+this is such a sore spot with me.. that and others telling me to sell my dogs.. fuck you why don tyou sell ur children.. i cant have kids.. they are all i got.
+
+man im tired:("
+"eventtime","2008-04-03 10:21:00"
+"url","http://g0ldenapple.livejournal.com/26494.html"
+"userid","5482"
+"itemid","102"
+"event","what would you say if the desk person at your doctors office said&nbsp;""<font size=""2"">piss off, heres some bandages""<br /></font><br />i luv some of my friends.. especially those that entertain me on yahoo while im dozing off.<br /><br />:)&nbsp;"
+"eventtime","2008-03-27 13:03:00"
+"url","http://g0ldenapple.livejournal.com/26159.html"
+"userid","5482"
+"itemid","101"
+"event","<p>One of my boss' patients happens to be a friend of my parents.&nbsp; She is a very beautiful woman perfect skin tone and eyes, and her hair is always styled impeccably.&nbsp; After she was done seeing the doctor she mentioned how much me and my two sisters look alike.&nbsp; She was at the mall and saw my sister and her son and she said how fun it must be to spend time with your nephew!&nbsp; My sister giggled said no I am his mom.&nbsp; </p><p>I thought it was a cute story.&nbsp;&nbsp; All three of us look very similar and out of the three of us my voice is the most high pitched.&nbsp;&nbsp; I get called annmarie a lot.<br /><br />Made me think thou my sister would never allow her children to spend time with me by myself.&nbsp;&nbsp; She thinks I'm odd and they will come back with pierced noses and blue hair. My mom and my sister both have told me I am not really the mothering type.&nbsp;&nbsp; More than likely my nephew and niece wouldn't like me.</p><p>&nbsp;I wish I could spend more time with my family.&nbsp; Its hard for me right now and when I kind of tried to spend time, both my sisters turned me down.&nbsp; Annmarie and Katie both go to a gym together and I thought it would be fun to go with them&nbsp;&nbsp; Annmarie thought it was a stupid idea since I lived so far away.&nbsp; I backed off and said oh... I thought it would be fun to just hang out with you two.&nbsp; I guess they didn't feel the same way.</p><p>I work a lot.. and right now I have no car so it makes it hard for me to see anyone.. Also the constant probing about my weight and why I don't have children just made it more difficult for me to show up to any family events.&nbsp; If you family is supposed to love you despite your flaws why do I always feel so ashamed of myself when I visit.</p><p>I have got to get rid of this need to be accepted by them.&nbsp; I am Just lonely thou I guess.<br />&nbsp;</p>"
+"eventtime","2008-03-25 12:57:00"
+"current_moodid","40"
+"url","http://g0ldenapple.livejournal.com/25947.html"
+"userid","5482"
+"itemid","100"
+"event","origional Q here :)&nbsp;<br />&nbsp;<a href=""http://community.livejournal.com/wow_ladies/4885818.html"">http://community.livejournal.com/wow_ladies/4885818.html</a><br /><br />i have no clue why this post looks like this but oh well its the same thing n each link for some reason<br /><br /><br /><br /><div class=""ljcut"" text=""giadia's druid gear ""><br />Problems i faced as a healing resto druid<br />1. No rez.&nbsp; People hate to run back, and i find people hesitant to take a druid healer because in effect they have no rez.<br />2.Finding leather items.&nbsp; @$#!&nbsp; i duno why but it seemed to me that plate and cloth healing gear would always drop! i would get soo mad.. my leather pieces never seemed to .. so for me i hit the pvp battlegrounds got some of the well at the time veteran and kodohide pieces.<br /><br /><br /></div><div class=""ljcut"" text=""giadia's druid gear ""><strong>Question 1</strong>&nbsp; <em>One, is it worth it to take up Leatherworking? I've never leveled it past 150, so I really have no idea. I know, for example, that the Primal Mooncloth set for priests is basically the end-all set up until T5-ish. Is there an equivalent for Resto druids in leatherworking?<br /><br /></em></div><div class=""ljcut"" text=""giadia's druid gear "">My druid is not leatherworking.&nbsp; I didnt like any of the pieces.&nbsp;&nbsp;Some&nbsp;&nbsp;druids ive seen are Herb/Enchantors.&nbsp; the ring enchants you can get really boost your +heal :)&nbsp; you need 360enchanting.&nbsp; (mine is herb skinner my mage is enchant :(&nbsp;&nbsp; i didnt want to relvl enchanting yes i know i know im lazy! )</div><div class=""ljcut"" text=""giadia's druid gear ""><br /><strong>Enchant Ring - Healing Power</strong>&nbsp; <a href=""http://www.wowhead.com/?spell=27926"">http://www.wowhead.com/?spell=27926</a><br />5 sec cast <br />Tools: Runed Adamantite Rod<br />Reagents: Large Prismatic Shard (2), Greater Planar Essence (3), Arcane Dust (5)<br />Permanently enchant a ring to increase healing spells by up to 20 and damage spells by up to 7.&nbsp; Only the enchanter's rings can be enchanted, and enchanting a ring will cause it to become soulbound.&nbsp; Requires a level 35 or higher item. </div><div class=""ljcut"" text=""giadia's druid gear ""><br /><br /><br /><strong>Giadia's Pre Karazhan Gear</strong><br />PVP<br /><a href=""http://www.wowhead.com/?item=31593"">http://www.wowhead.com/?item=31593</a>&nbsp; Grand Marshal's Kodohide Tunic (chest)<br /><a href=""http://www.wowhead.com/?item=33886"">http://www.wowhead.com/?item=33886</a>&nbsp; Vindicator's Kodohide Boots<br /><a href=""http://www.wowhead.com/?item=33885"">http://www.wowhead.com/?item=33885</a>&nbsp; Vindicator's Kodohide Belt<br /><a href=""http://www.wowhead.com/?item=33922"">http://www.wowhead.com/?item=33922</a> Vindicator's Pendant of Salvation (neck)<br /><a href=""http://www.wowhead.com/?item=33918"">http://www.wowhead.com/?item=33918</a> Vindicator's Band of Salvation&nbsp; (finger)<br />&nbsp;<br />now pvp isnt for everyone i only pvp-ed to get gear because i was having a hard time getting my items to drop in instances.&nbsp; so those were some of the pieces I obtained through pvp.</div><div class=""ljcut"" text=""giadia's druid gear ""><br /><strong>Trinkets!</strong><br />*http://www.wowhead.com/?item=28190 Scarab of the Infinite Cycle<br />This isnt a bad trinket.. it drops in Black Morass its very easy to get.&nbsp; Most druids wont ever use the proc but it has a nice +healing amount to it.. and as i said its easy to obtain<br /><br />*http://www.wowhead.com/?item=30841&nbsp; Lower City Prayerbook<br />Revered with Lower City.. Pretty easy :)&nbsp; Makes life bloom Super cheap =D&nbsp; again a good use on it and a nice +heal :)<br /><br />*http://www.wowhead.com/?item=28370&nbsp; Bangle of Endless Blessings<br />i was told to get this.. i never got it&nbsp;<br /><br />*http://www.wowhead.com/?item=29376&nbsp; Essence of the Martyr&nbsp; Trinket<br />This is badge Gear from heroics, Costs 41 badges!&nbsp; Almost every druid i knew had this trinket.. basically they were using a over powered thing with life bloom you hit the trinket and as long as you kept up your life bloom stack the +healing from the on use would never disappear.&nbsp; this is no longer true but its still got a nice plus heal to it and can boost a good portion of your spells while the trinket it is active!<br /><br />*http://www.wowhead.com/?item=34050 Battlemaster's Perseverance<br />Another Heroic Badge piece costs 75 badges.&nbsp; I have one on giadia.. i luv it :)&nbsp; that +heal is nice!&nbsp; ane the use helps in some 5 mans.. i tend to pull aggro in shattered halls.&nbsp; its not a sure savior.. but its a good o shit button!</div><div class=""ljcut"" text=""giadia's druid gear ""><br />*<a href=""http://www.wowhead.com/?item=19395"">http://www.wowhead.com/?item=19395</a>&nbsp; Rejuvenating Gem<br />this drops in black wing lair.&nbsp; ive had this trinket a loooooooong time.&nbsp; its actually pretty good.&nbsp; its probably not attainable by you now since i doubt many people run bwl.. but i thought id post it!</div><div class=""ljcut"" text=""giadia's druid gear ""><br />&nbsp;Next i went into some BOE leather items i could get crafted<br />I found someone with the patterns and had them made for me<br /><strong><br /><br /><br /><br />HELM</strong><br />Pattern: Hood of Primal Life&nbsp; <a href=""http://www.wowhead.com/?item=29726"">http://www.wowhead.com/?item=29726</a><br />Requires Leatherworking (365) <br />Use: Teaches you how to make a Hood of Primal Life.</div><div class=""ljcut"" text=""giadia's druid gear "">Hood of Primal Life<br />Binds when equippedHead Leather <br />271 Armor<br />+34 Stamina<br />+37 Intellect<br />+31 Spirit<br />Durability 70 / 70<br />Requires Level 70<br />Equip: Increases healing done by up to 68 and damage done by up to 23 for all magical spells and effects.</div><div class=""ljcut"" text=""giadia's druid gear "">Requires Heavy Knothide Leather (6), Primal Life (20), Primal Water (8), Primal Nether </div><div class=""ljcut"" text=""giadia's druid gear ""><strong><br /><br /><br />GLOVES!</strong><br />Pattern: Gloves of the Living Touch&nbsp; <a href=""http://www.wowhead.com/?item=29727"">http://www.wowhead.com/?item=29727</a><br />Requires Leatherworking (365) <br />Use: Teaches you how to make Gloves of the Living Touch.</div><div class=""ljcut"" text=""giadia's druid gear "">Gloves of the Living Touch<br />Binds when equippedHands Leather <br />208 Armor<br />+16 Stamina<br />+18 Intellect<br />+22 Spirit<br />Durability 40 / 40<br />Requires Level 70<br />Equip: Increases healing done by up to 77 and damage done by up to 26 for all magical spells and effects.</div><div class=""ljcut"" text=""giadia's druid gear "">Requires Heavy Knothide Leather (4), Primal Life (16), Primal Earth (12), Primal Nether </div><div class=""ljcut"" text=""giadia's druid gear ""><strong><br /><br /><br />OO i forgot pants!</strong><br /><a href=""http://www.wowhead.com/?item=24391"">http://www.wowhead.com/?item=24391</a>&nbsp; Kilt of the Night Strider<br />(those took me into kara &gt;&lt; )<br />Broggok is the second boss in The Blood Furnace wing of Hellfire Citadel.</div><div class=""ljcut"" text=""giadia's druid gear ""><br /><strong>Shoulders</strong><br /><a href=""http://www.wowhead.com/?item=28250"">http://www.wowhead.com/?item=28250</a>&nbsp; Vestia's Pauldrons of Inner Grace<br />they are soo ugly !! The Cache of the Legion is a container found in The Mechanar. It requires the [Cache of the Legion Key] to open, which is created by combining [Jagged Blue Crystal] and [Jagged Red Crystal]. These crystals are dropped by the each of the Mechanar Gatewatchers, Gyro-Kill and Iron-Hand.&nbsp; (wowhead)</div><div class=""ljcut"" text=""giadia's druid gear ""><strong><br />THE BEST IDOL EVER!</strong><br /><a href=""http://www.wowhead.com/?item=27886"">http://www.wowhead.com/?item=27886</a>&nbsp; Idol of the Emerald Queen<br />I am raiding Black temple working on blood boil and i still use this idol :P</div><div class=""ljcut"" text=""giadia's druid gear ""><strong><br /><br /><br /><br /><br />Weapons!</strong></div><div class=""ljcut"" text=""giadia's druid gear ""><a href=""http://www.wowhead.com/?item=28257"">http://www.wowhead.com/?item=28257</a> One handed Mace&nbsp; Hammer of the Penitent (first boss in mech!)&nbsp; I used this mace while i was working on getting the<br /><a href=""http://www.wowhead.com/?item=29175"">http://www.wowhead.com/?item=29175</a> Gavel of Pure Light&nbsp; exaulted Shat rep!<br /><strong>offhand to mace</strong><br /><a href=""http://www.wowhead.com/?item=29274"">http://www.wowhead.com/?item=29274</a> Tears of Heaven<br />BADGE! 25</div><div class=""ljcut"" text=""giadia's druid gear ""></div><div class=""ljcut"" text=""giadia's druid gear ""><strong><br /><br /><br /><br /><br />Question 2</strong><br /><em>Two, what should her healing be at before I attempt to heal instances with her? I'm not planning on going anywhere near heroics for a while, I just want a number I can shoot for so that I'm competent in normal Outlands instances. (Though, for kicks, what is the recommended healing for heroics?)</em></div><div class=""ljcut"" text=""giadia's druid gear "">I started Kara with about 1200+heal&nbsp; but i could easily do 5mans with 800+heal prior to starting kara. :)</div><div class=""ljcut"" text=""giadia's druid gear ""><br /><strong>question 3</strong><br /><em>Three... tactics? I've read a few guides, and I've definitely got 'roll lifeblooms!!' drilled into my head, but what else? What's your normal cast rotation during an instance pull?</em><br />/cast [target=tank name] Lifebloom<br />&nbsp;is my fave macro.. in any instance i am in i make one for every tank.<br />so me i have...<br />Life bloom, life bloom, rejuv, Lifebloom, Swiftmend the rejuv (if needed), Lifebloom, Regrowth, Lifebloom, rejuv, lifebloom (swift mend the regrowth if needed) lifebloom</div><div class=""ljcut"" text=""giadia's druid gear ""><br />:)</div><div class=""ljcut"" text=""giadia's druid gear "">i hope this helps somewhat :)&nbsp; druids like to have high +spirit but ive noticed if you go too high you sacrifice a lot of +healing.&nbsp; This is the gear i walked into kara with then like i became a walking pile of KARA LOOT :)&nbsp; What really helped me is i used wowhead.com and did searches and applying filters to the search i was looking for IE<br />Id apply leather Chest and find quest items go do the quest or go run the instance.&nbsp; i had a lot of frustrations running instances so for the most part i pvped.</div><div class=""ljcut"" text=""giadia's druid gear "">sorry this is a lot i hope it helps!!!<br /></div>"
+"eventtime","2008-03-23 06:00:00"
+"url","http://g0ldenapple.livejournal.com/25719.html"
+"userid","5482"
+"itemid","99"
+"event","ive been awake exactly 20 mins and i realized i am out of allergy pills and i have no way to get any :( today will be rough"
+"eventtime","2008-03-21 10:50:00"
+"url","http://g0ldenapple.livejournal.com/25589.html"
+"userid","5482"
+"itemid","98"
+"event","<div align=""center""><lj-raw><a href=""http://img296.imageshack.us/my.php?image=glassesfoundsc5.jpg"" target=""_blank""><img border=""0"" src=""http://img296.imageshack.us/img296/8844/glassesfoundsc5.th.jpg"" alt=""Free Image Hosting at www.ImageShack.us"" /></a> </lj-raw><br /><lj-raw></lj-raw><br /><lj-raw><lj-raw></lj-raw><br /><lj-raw></lj-raw><br /><lj-raw><img width=""0"" height=""0"" border=""0"" alt="""" style=""visibility: hidden; width: 0px; height: 0px;"" src=""http://counters.gigya.com/wildfire/CIMP/JnB*PTEyMDU5OTI5NzkwMzEmcD*xODMxMjEmZD*mbj1saXZlam91cm5hbA==.jpg"" /></lj-raw>.<br /><br /><br />oo god.. i lost my glasses for 4 freaking days lost both pairs.. i was going nuts.. i couldnt see the fucking menu at mcdonalds I WAS LIKE OMG WTF <br /><br />;)<br /><br />found them thou and sorry for the blurry photo!  my camera died just as i took it :( </lj-raw></div>"
+"eventtime","2008-03-20 02:03:00"
+"current_moodid","110"
+"url","http://g0ldenapple.livejournal.com/25163.html"
+"userid","5482"
+"itemid","97"
+"event","I am going to attempt to comment on peoples journals more.  I really luv this new way of communicating and how blogs of all types are found all over.  Its really enjoyable to read others take on things.  SO im branching out.  Ive used live journal and xanga as a place to post my bitching .. but until the NEW exlpore LJ options came out i really never branched off my friends list in reading other peoples thoughts on things.  
+
+SO im going to do that and comment.  I realize i am decently intelligent but could use some work in communicating through type.  
+
+hi hru?
+Im k.. hows you?
+eh.. tired gonna get some sleepz0rz soon.
+Ya i hear you.
+
+!!!! ive become super lazy in my typing.. so.. be ready JL.. JOANN IS BRANCHING OFF.. also gnna add some more pictures i pay for 104 user pics i have 6 lol
+
+! way to be cost effective"
+"eventtime","2008-03-08 22:31:00"
+"current_moodid","90"
+"url","http://g0ldenapple.livejournal.com/25064.html"
+"userid","5482"
+"itemid","96"
+"event","Stress has hit a new high for me.  IT doesnt matter how much money i make how much i spend one bad day can wreck everything.  I wont lie.. bob and i are not too great at saving money.. the most we had saved up was 10k which was depleated quikcly after his medical discharge from the navy.   SO Februrary 2nd i was driving home from my night job.. i felt super awake so i stopped at sheetz filled up my tank and headed to my mothers house.  she had my coat and it had been freezing out for a few days now. i was fucking cold!  I was driving down 39  and right before i hit the SQuare i lost control of my car on a patch of black ice.  my car slid into a ditch and flipped (according to witnesses) 2 times to land on its side.  Apparently i was hanging in my saftey belt when someone came to help me.  I was knocked out from the car flipping.  with in about 5 minutes i came too completely confused.  Afer a few minutes i got the Saftey Belt unlatched and i was standing in my car on its side on the passenger window..  AN officer comes up.. i am holding my car door open and says 'I need your liscence, registration and proof of insurance.""  I told him the glove box popped open and my stuff is scattered everywhere.. he asked can you look for it.  I said no.  
+
+AFter the fire dep got me out of my car.  i wsa read the riot act.. basically i was getting fined a LOT for my accident.  All said and done my accident cost me 1100 ( would have cost me about 3k but i fought some of the ticketing.)  Witnesses said i wasnt driving fast, infact i was going kind of slow   But in my stupidity i didnt get any of the names or numbers of  the witnesses and i guess neither did the police department.
+
+week later bobs engine blew out in his car and the estimates to fix it were higher than the car was worth  so he bought a new car.. NOT trading in his old one.  SO now  im paying for 3 cars.. Totaled car, Bobs Old car and bobs new car.  The insurance CO has not made a pay out yet.  So im still paying insurance and Car payments.. bob and i cant buy a new car until then because that is still 3 cars sitting on my policy..  My checking account has 300$ in it ( 12 in savings  ) after i paid off all the fines and the $400 dollar new insurance Fee.  So im freaking out.. our account usually sits at 1500 at all times.. Now its lower than it has ever been.. and the bank is charging us for not keeping t he min balance of 1000.  
+
+Im soo mad:( upset and Fuck i duno what else to do :(((("
+"eventtime","2008-03-06 10:04:00"
+"current_moodid","28"
+"url","http://g0ldenapple.livejournal.com/24792.html"
+"userid","5482"
+"itemid","95"
+"event","probably, i did do a bitch mood.  When mathis quit sacred and tossed GM to sophey i sent sophey an email asking what the plans were.  I was second in command of sacred... I created it, so of course i want to know what the newly minted gm would want to do.  He never responded to me.. 2 days later i saw my self demoted.  In-fact i was demoted the second i went offline. 
+
+So i asked again why was i removed of my post?  why am i being punished for mathias?  Got nothing.  So i raided one last night with sacred then took my leave when there was only 6 people online.  I then deleted the recruitment section.  That was all my work.  no one else's..so they can do the work themselves.. AT the point in which i deleted that section i took out probably 12 new applicants that  I myself had contacted, went on their servers and interviewed.
+
+Because i had been paying for the website i called the company up said my credit card is on an account can i  have it removed.. they said the only way to remove it is to cancel the account. So i gave them my number and the Site went down about 2 hours later.  the operator on the phone assured me that none of the SQL databases will be deleted, just suspended until the account was paid for.  I asked if they could give me the log in info.. they said nope.  just that they could cancel the account, because i couldnt verify the screen name.
+
+All sophey has to do is pony up 39.99  and the site and its dkp will all be brought right back up :). 
+
+ I have been accepted to 7 different guilds.  2 of which are just sitting around waiting for sunwell, while the other 4 are on Mother or Illidari council.   i found a 8th working on RoS.  All of which have better raiding times for me .  i am not worredi about my raiding future giadia is well geared and i have a strong BT and Hyjal Knowledge.  I am revered with both factions.
+
+ I am extremely sick of people not dealing with the consequences of their actions. Sophey fucked up, so did mathis big time.  They sadly just picked the wrong bitch to pissoff. Unfortunately since i took the site down a lot of people think rather low of me, however they will see that the new leadership in sacred will not only fail, but gives two shits about the memebers they have. a Punishment system?!  wtf... if you have to punish people just boot them for god sakes.  
+
+ Mathias did a very stupid childish thing when he quit.  and sadly because of his stupidity.. the rest of sacred will pay the price because of poor decisions made by sophey. Mathias tried to rebuild fatal and it failed, just like sophey trying to rebuild Serious Business will eventually fail.  I wish they would have just worked with me.
+
+ I am one of the best recruitment officers you will find. i am aggressive and i know my shit.. ill lvl a char to lvl 3 to make 30 copper to send you my site info. i can talk anyone into coming to sacred and if i wanted too i could talk those who i recruited into leaving sacred.  I have decided to just take time away and let either sophey remove his head out of his ass and work to get sacred back on track or let the fall-out begin.  I have not contacted any players and i wont.  I have no intentions of building another guild. Ive been running guilds since  i hit lvl 60 on my mage.  I dont want to do that any more.  I want to show up for raids get my shit and move on.  let someone else worry about attendence or if so and so is pissed at someone else.  
+
+I wish sacred the best of luck."
+"eventtime","2008-02-12 07:30:00"
+"url","http://g0ldenapple.livejournal.com/24549.html"
+"userid","5482"
+"itemid","94"
+"event","i hate being called a bitch. hate being called a cunt more. do people realize the things they are saying.. yea its ventrilo but i am a real person. i wonder if those that cut me down in a game would have the balls to do it in front of my face. i seriously doubt it. 
+
+i read a quote on someones signature in the wow forums 
+
+
+<em>The Dragons and Swords are Fake. But the people behind them ARE real.   
+
+
+</em>I made the gster a new Sig.  check it out!  ITs nothing like Musichan.. but !!! i like it!
+
+<img src=""http://img299.imageshack.us/img299/5339/giadiatagdt6.jpg"" alt=""Image Hosted by ImageShack.us""/><br/>By <a target=""_new"" href=""http://profile.imageshack.us/user/joannevans"">joannevans</a> at 2008-01-26"
+"eventtime","2008-01-27 04:59:00"
+"url","http://g0ldenapple.livejournal.com/24196.html"
+"userid","5482"
+"itemid","93"
+"event","so i over heard a conversation today i shouldn't have heard.
+
+
+basically my work mates don't like me
+
+""Shes slipping on her work and shes just spiraling downwards.  I don't even enjoy being around her.  She wants to take over insurance but I see that its a mess now that i have to fix. Looking for her replacement isn't a bad idea."""
+"eventtime","2007-12-07 10:43:00"
+"current_moodid","25"
+"url","http://g0ldenapple.livejournal.com/23936.html"
+"userid","5482"
+"itemid","92"
+"event","GUESS WHO GOT THEIR ASS KICKED BY Thaladred the Darkener I DID BITCHES
+
+FUCK YA
+
+btw i cant kite a slow moving mob with a big fat cleave
+
+ooo... HYJAL HERE I COME!
+
+
+kael will die next week.. we made super great progress go go sacred"
+"eventtime","2007-12-01 08:59:00"
+"url","http://g0ldenapple.livejournal.com/23804.html"
+"userid","5482"
+"itemid","91"
+"event","<lj-template name=""qotd"" id=""90"" />
+
+Warning: Approach with Extreme Caution and Chocolate Bars."
+"eventtime","2007-11-28 17:33:00"
+"url","http://g0ldenapple.livejournal.com/23399.html"
+"userid","5482"
+"itemid","90"
+"event","LAME my guild killed VASHJ for the first time and i was stuck working.. had to cancel my fucking birthday dinner because my boss is a retard at the hotel.
+
+now im sitting at work falling asleep and my supervisor at the docs office is going to kill me since i got zero work done last week and today i am feeling super unproductive.
+
+I worked a 11pm-7am sunday night and now im at dr joes from 8am until 7pm.. im tired and irritable as fuck.
+
+and i havent eaten since 8pm last night.
+
+i feel yuck"
+"eventtime","2007-11-26 17:34:00"
+"url","http://g0ldenapple.livejournal.com/23259.html"
+"userid","5482"
+"itemid","89"
+"event","<p>I am a fairly smart person.&nbsp; I have a hard time with some concepts but for the most part i got a strong handle on my job.&nbsp; I worked for weeks typing out patient info cards into a data base.&nbsp; then i was all excited when i found a new way to do it.&nbsp; SO i did it the new way weeks of what i did now took less than ten minutes.&nbsp; i was really kind of proud of what i did.&nbsp; showed it do dana and she crapped on it.&nbsp; she wrote me an email staying she appreciates the work i do but my main focus needs to be correcting insurance mistakes.&nbsp; Something i cant do because im tied to the front desk.&nbsp; they want me to preform miracles but arent willing to pay me for the extra time needed.&nbsp; they got me an office which sits completely vacant.... how can i work in there when i am working at the desk?&nbsp; </p><p>IF you want to pay me only for 23 hours.. AND we have patients during those hours I cannot do other things away from this desk.&nbsp; NOW if they would pay me for 32 i could do it.&nbsp; no probs&nbsp; but they wont.. we only see patients 23 hours per week.&nbsp; thats all i get paid for.&nbsp; ID luv to actually get more work done but they have told me before 23 hours per week and nothing more.</p><p>im going to tell them next week i no longer want to do&nbsp; insurance means i lose 2$ per hour but i dont like feeling like crap</p><p>:(<br /><br /><br />i promise ill type some happy stuff soon</p>"
+"eventtime","2007-10-24 15:34:00"
+"url","http://g0ldenapple.livejournal.com/22998.html"
+"userid","5482"
+"itemid","88"
+"event","Frustrated.
+
+Work frustrations are just dragging me down to the point i want to cry!  Dana has given me more responsibility and i still dont have much time to do it in.  Dr Joe hasnt finished my office, discussed about filling my position or has finalized hours they want me to work.
+
+So im a little annoyed at the slowness of getting my own space to dedicate fully to insurance.  So i keep falling behind on desk work and insurance.  
+
+My second job is working out ok.  Still just like the other is a little stressful.  My schedule is as follows
+Monday 10a-7.30pm  (drs office) Tuesday 8a-1p (drs office)  11p-7a(hotel) Wednesday  3-7.30 (drs)
+Thursday 8a-7.30pm (drs)  11p-7a Hotel  Fri& Sat 11p-7a.  Sunday 11p-7a
+
+its killing me i hope i finish training soon so  i can just work fri and saturday at the hotel :(
+
+On the plus side i am moving out of my inlaws oct 29th.. i even got the day off work so i could move in :)
+
+yay!
+
+---
+
+Warcraft is going well.. We are progessing nicely  had some hiccups last night during LEO which we will get down tonight.  We got him to 1% twice in a row before trash respawned:(  But we got some good solid attmpts in on vashj yay!  If any healer with strong mana regen that can last 10 minute fights please let me know  we lost one of our druids last night.. blew all his DKP then /gquit.  and i cant raid right now with my training schedule."
+"eventtime","2007-10-11 08:51:00"
+"url","http://g0ldenapple.livejournal.com/22644.html"
+"userid","5482"
+"itemid","87"
+"event","O MG i skipped sept!!!!! and AUG!
+
+well short note  
+
+I am now working two jobs :(
+and im moving out of my inlaws oct 28 th =D"
+"eventtime","2007-10-10 18:59:00"
+"url","http://g0ldenapple.livejournal.com/22497.html"
+"userid","5482"
+"itemid","86"
+"event","im ok today my work is looking for a replacement  i dont interact with patients like they want me too.. i tried but my super shyness and my inability to look people in the eye keeps creeping in
+Im not inferior.. but i feel that way.  when i was younger if i looked my dad in the eye he saw it as a challenge.  How do i break that.  
+My car is getting new brakes today i HOPE it doesnt cost me much.  please hope for me i dont have much money :(
+
+Two good friends joined my guild today.  I felt terrible about it thou.   they jumped in my vent and asked me raid times and loot policies.  i thought nothing of it till i saw them app.  I hope graciela isnt upset with me.  It was nothing i did.. still i feel terrible
+  Sacred is going to be turned over to me soon. Ill be the gm :) for a few weeks tilll the current GM comes back.  that kinds sucks in a way because im always late to raids mondays.  But im always on time tues which is a progression night.  
+
+He he GM Giadia ooo.. HNIC fuckers!  I wonder if ill get the fancy bathroom key and parking spot.
+HA!"
+"eventtime","2007-07-17 08:27:00"
+"url","http://g0ldenapple.livejournal.com/22220.html"
+"userid","5482"
+"itemid","85"
+"event","i went shooting this weekend and managed to blast out my shoulder.. now im a complete waste because i cant use my right arm :(
+
+how was everyone elses weekend?"
+"eventtime","2007-07-16 02:42:00"
+"url","http://g0ldenapple.livejournal.com/21825.html"
+"userid","5482"
+"itemid","84"
+"event","Stuff has been ok
+
+my personal life blows i need to move out of this house and i cant find a  second job.. or even another full time one.
+
+so after i get my ass up im going to go app to a grocery store see what happens
+
+Wow life has been very good.. Im second in charge of a new successful raiding guild.. we one shot gruuls spent 3 days on VR ><  And now mags on monday things are looking up...
+
+HARD work pays off 
+
+I hate say it but im the best at recruiting people :)"
+"eventtime","2007-07-13 13:57:00"
+"url","http://g0ldenapple.livejournal.com/21626.html"
+"userid","5482"

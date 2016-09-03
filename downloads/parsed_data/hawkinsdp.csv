@@ -1,0 +1,741 @@
+"names","values"
+"itemid","72"
+"event","PGI+SmFuIDgsIDIwMDQ8L2I+DQoNClJlYWxpemF0aW9uOiAgTG9uZG9uIGlzIGV4cGVuc2l2ZS4gIEnigJl2ZSBhbHJlYWR5IGJ1cm5lZCB0aHJvdWdoIGEgbG90IG9mIGNhc2ggYW5kIHRoaXMgd291bGQgcHJvdmUgdG8gYmUgYSBsb25nIGJsdXN0ZXJ5IExvbmRvbiBkYXkuICBJIHdva2UgdXAgYXJvdW5kIDNhbSDigJMgd2lkZS1hd2FrZSBhbmQgamV0bGFnZ2VkIGFzIGhlbGwsIGJ1dCBtYW5hZ2VkIHRvIHNsZWVwIHVudGlsIGJyZWFrZmFzdCBhdCA3YW0uICBCcmVha2Zhc3QgaXMgb25lIGJpZyBsYXhhdGl2ZSwgY29uc2lzdGluZyBvZiBtZWF0LCBjaGVlc2UsIGxvdHMgb2YgYnJhbiBhbmQgZmliZXIuICBJbiBhbnkgY2FzZSwgaXTigJlzIGZvb2QuICBBZnRlciBhIHNob3J0IHNwZWVjaCBmcm9tIHRoZSBwcm9mZXNzb3JzIHdlIGFsbCB2ZW50dXJlZCBvdXQgdG8gaG9wIG9uIHRoZSBUdWJlIGFzIG9uZSBiaWcgQW1lcmljYW4gdGhlZnQgbWFyay4gIExvbmRvbiB3YXMgY29sZCwgd2V0IGFuZCBnZW5lcmFsbHkgbWlzZXJhYmxlIOKAkyBidXQgd2UgaGFyZGx5IHNlZW1lZCB0byBub3RpY2UuICBBZnRlciBiZWluZyB0aG9yb3VnaGx5IGNvbmZ1c2VkIGFuZCBtZXNzaW5nIHVwIG91ciBmaXJzdCB0cmlwIG9uIHRoZSBUdWJlLCB3ZSBldmVudHVhbGx5IGdvdCBnb2luZyBpbiB0aGUgcmlnaHQgZGlyZWN0aW9uIOKAkyBWaWN0b3JpYSBzdGF0aW9uIHdoZXJlIHdlIHJlY2VpdmVkIGRheSBwYXNzZXMgZm9yIHRob3NlIGJpZyB0b3VyaXN0eSBkb3VibGUtZGVja2VyIGJ1c3Nlcy4gIEkgdGhpbmsgd2Ugcm9kZSB0aGVtIHR3aWNlLiAgV2UgdG9vayBhIHdhbGtpbmcgdG91ciBvZiB0aGUgcm95YWwgZGlzdHJpY3QsIGluY2x1ZGluZyBhIGNoYW5naW5nIG9mIHRoZSBndWFyZHMsIHdoaWNoIG91ciBndWlkZSBkZXNjcmliZWQgYXMgdGhlIOKAmHdvcnN0IGhl4oCZZCBldmVyIHNlZW4u4oCZICBIb3dldmVyLCB0aGUgZ3V5IHdhcyBmdW5ueSBhbmQgSSBlbmpveWVkIGhpcyBpbnNpZ2h0IG9uIHRoZSBjaXR5LCB3aGljaCBpcyByaWNoIHdpdGggdGhvdXNhbmRzIG9mIHllYXJzIG9mIGhpc3Rvcnkg4oCTIG11Y2ggbW9yZSB0aGFuIGFueSBBbWVyaWNhbiBjaXR5IGNhbiBjbGFpbS4gIE91ciBsaXR0bGUgZ3JvdXAgb2YgZnJpZW5kcyB3YXMgZ2xhZCB0byBzcGxpdCBmcm9tIHRoZSBiaWcgZ3JvdXAgYXJvdW5kIG5vb24gZm9yIGx1bmNoOyBJIHRoaW5rIHdl4oCZcmUgc2xpZ2h0bHkgbW9yZSBpbmRlcGVuZGVudCB0aGFuIHRoZSByZXN0LiAgSSBoYWQgYSByZWFzb25hYmx5IHByaWNlZCBhdm9jYWRvIHNhbmR3aWNoIGFuZCBhIGNva2UsIHdoaWNoIHdhcyByZWxhdGl2ZWx5IGV4cGVuc2l2ZS4gIEFmdGVyIGx1bmNoIGFuZCBhIHNjYXJ5IEl0YWxpYW4gbW9iIHNjZW5lIGJhdGhyb29tIHZpc2l0LCBteSBmcmllbmRzIGFuZCBJIGRlY2lkZWQgdG8gdGFrZSB0aGUgVHViZSB0byB0aGUgVG93ZXIgb2YgTG9uZG9uLiAgV2UgdG9vayBhIHRvdXIsIGxlZCBieSBhIEJlZWZlYXRlciwgYW5kIHRoZSBwbGFjZSB3YXMgYW1hemluZyDigJMgc2hvd2Nhc2luZyB0aGUgcm95YWwgamV3ZWxzLCBhcm1vcnMgYW5kIG90aGVyIHZhcmlvdXMgYXJ0aWZhY3RzLiAgSSB3YXMgc3VycHJpc2VkIHRvIGxlYXJuIGFib3V0IGhvdyBtdWNoIGRpZmZlcmVudCBsaWZlLCBhcyBhIGNoaWxkLCB3b3VsZCBoYXZlIGJlZW4gaW4gdGhlc2UgdGltZXMuICBGcm9tIHRoZXJlIHdlIHRvb2sgYSBib2F0IGRvd24gdGhlIFRoYW1lcyBhd2F5IGZyb20gdGhlIFRvd2VyIEJyaWRnZSB0byB0aGUgZm9vdCBvZiBCaWcgQmVuIGFuZCB0aGUgZ2lhbnQgRmVycmlzIHdoZWVsLiBTaWdodHMgb24gdGhlIHdheSBpbmNsdWRlZCB0aGUgR2xvYmUgVGhlYXRlciBhbmQgU3QuIFBhdWzigJlzIENhdGhlZHJhbC4gIEl0IHdhcyBjb2xkLCBidXQgd2Ugcm9kZSBvbiB0b3Agb2YgdGhlIGJvYXQg4oCTIHNuYXBwaW5nIHBpY3R1cmVzIGxpa2UgZ29vZCB0b3VyaXN0cy4gIEFmdGVyIGEgc3dpZnQgc3ByaW50IHRvIHRoZSBzcXVhcmUsIHdlIG1hZGUgaXQgaW4gdGltZSBmb3IgYSBnaG9zdCB0b3VyL3B1YiBjcmF3bC4gIFdlIHZpc2l0ZWQgdHdvIHB1YnMgKGluY2x1ZGluZyB0aGUgU2hlcmxvY2sgSG9sbWVzIOKAkyBvcmlnaW5hbGx5IGEgcHViIGZyb20gdGhlIOKAmEhvdW5kIG9mIEJhc2tlcnZpbGxl4oCZKSBhbmQgZG93bmVkIGEgZmV3IHBpbnRzIGJlZm9yZSBnZXR0aW5nIGFudHN5IGFuZCBzcGxpdHRpbmcgdG8gUGljY2FkaWxseSBDaXJjdXMgZm9yIGRpbm5lci4gIFdlIHdlcmUgdGlyZWQgYW5kIGZydXN0cmF0ZWQsIHNvIHdlIGF0ZSBzb21lIGJhZCBvdmVycHJpY2VkIEFtZXJpY2FuIGZvb2QuICBUaGUgbXVzaWMgcGxheWVkIGhlcmUgaXMgaW5jcmVkaWJsZSwgbW9zdGx5IDgw4oCZcyBidXQgb2Z0ZW4gbWl4ZWQgaW4gd2l0aCBzb21lIGJhZCBBbWVyaWNhbiB0b3AgNDAuICBJIGV2ZW50dWFsbHkgcGFzc2VkIG91dCB3YXRjaGluZyBkYXJ0cywgd2hpY2ggaXMgYWxtb3N0IGFzIGJpZyBhcyBzb2NjZXIgaXMgaGVyZS4gIEZ1bGwgbW9vbiB0b25pZ2h0Lg0KDQo8Yj5QaWNzPC9iPg0KDQo8aW1nIHNyYz1odHRwOi8vaW1nMjUucGhvdG9idWNrZXQuY29tL2FsYnVtcy92NzYvaGF3a2luc2RwL0xvbmRvbl8tX0Rhbl9Ub3dlcl9CcmlkZ2UuanBnPg0KTWUgaW4gZnJvbnQgb2YgdGhlIFRvd2VyIEJyaWRnZQ0KPGltZyBzcmM9aHR0cDovL2ltZzI1LnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvdjc2L2hhd2tpbnNkcC9Mb25kb25fLV9Hcm91cC5qcGc+DQpIb3JyaWJsZSBsYXJnZSBncm91cCBvZiBBbWVyaWNhbnMNCjxpbWcgc3JjPWh0dHA6Ly9pbWcyNS5waG90b2J1Y2tldC5jb20vYWxidW1zL3Y3Ni9oYXdraW5zZHAvTG9uZG9uXy1fQnJpdG5leV9MYXVyYV9LYXRpZV9Ub3dlci5qcGc+DQpCcml0LCBMYXVyYSBhbmQgS2F0aWUgaW4gZnJvbnQgb2YgdGhlIFRvd2VyIG9mIExvbmRvbg=="
+"eventtime","2004-02-26 17:04:00"
+"url","http://hawkinsdp.livejournal.com/18489.html"
+"userid","6131"
+"itemid","71"
+"event","Today was a totally boring day.  I was having crazy sex dreams before I woke up, and God knows nobody wants to wake up after those.  I had no food in my house, so breakfast consisted of a bowl of Chef Boyardi (sp?) and a glass of stale water that had been sitting on my desk since the night before -- so healthy, I know.  
+
+The ""pink eye"" presentation went well, in fact, it didn't go at all.  My teacher never showed for class and actually had the audacity to send in a substitute.  Who the hell gets substitute teachers for a college class?  We watched a stupid movie and went home, a total waste of my time.  Islam was also a total failure of a class, we watched yet another movie and went home.  I really don't understand why we even have classes on days like today, seriously, I could have learned more watching the history channel by myself at home.  
+
+The Dell DJ is up and working again, which makes me supremely happy.  They still havn't come and picked up the old one, however, and I'm starting to worry about getting it back on time.  
+
+I had French Toast for dinner, which is pretty typical for me.  I absolutely love breakfast for dinner.  Ever since I was a little kid I always looked forward to the nights when I got to eat waffles or bacon or something.  For some reason this little shift in normality makes me happy.
+
+I have no money and I stress about it constantly.  I can't get a job because of the horrible grades I got last semester when I worked and went to school.  Basically I'm living off $50 until my birthday on March, 20.  Oh yeah!  My 21st birthday is comming up.  But unfortunately its also on the first day of spring break, so absolutely nobody will be in town to go out with me on my first night of freedom.  I'm not sure what I'm going to do over spring break yet, but I'm thinking about taking a trip down to Charleston to stay in my dad's condo.  
+
+Told you it was a boring day.  All appologies."
+"eventtime","2004-02-25 22:33:00"
+"current_moodid","75"
+"url","http://hawkinsdp.livejournal.com/18232.html"
+"userid","6131"
+"itemid","70"
+"event","PGI+SmFuIDYtNywgMjAwNDwvYj4NCg0KV2l0aCBhYm91dCBhbiBob3VyIG9mIHNsZWVwIHVuZGVyIG15IGJlbHQgYW5kIHdhdGNoaW5nIOKAmE1vdWxpbiBSb3VnZeKAmSB0d2ljZSDigJMgYWxsIHdoaWxlIGNyYW1tZWQgYmV0d2VlbiB0d28gbGFyZ2UgbWVuLCB0aGUgcm91Z2ggbGFuZGluZyBkaWRu4oCZdCBzZWVtIHNvIGJhZC4gIEFmdGVyIGdhdGhlcmluZyBvdXIgbHVnZ2FnZSBpbiBhIHBhcnRpY3VsYXJseSBtdWdneSBIZWF0aHJvdyBhaXJwb3J0LCB3ZSBnb3Qgb250byBhIGJ1cyBhbmQgZHJvdmUgdG8gb3VyIGhvdGVsLCBhIEJlc3QgV2VzdGVybiBpbiBFYXJs4oCZcyBDb3VydC4gIEluaXRpYWwgY3VsdHVyZSBzaG9jayB3YXMgaHVnZSDigJMgZXZlcnl0aGluZyBmcm9tIHRoZSBjYXJzICh3aGljaCBhcmUgcGFydGljdWxhcmx5IHNtYWxsZXIgdGhhbiBBbWVyaWNhbiBtb2RlbHMpIHRvIHRoZSBidWlsZGluZyBzdHlsZSB3YXMgbmV3IGFuZCBpbmNyZWRpYmxlLiAgVGhlIGhvdGVsIHdhcyBuaWNlLCBoYXJkIGJlZHMgYnV0IGEgY296eSBmZWVsIGFuZCBvbmx5IGEgZmV3IHN0ZXBzIGZyb20gdGhlIFR1YmUsIGEgZmV3IHB1YnMgYW5kIHNldmVyYWwgc3RvcmVzLiAgVGhpcyBpc27igJl0IG9kZCBmb3IgTG9uZG9uIHRob3VnaCwgYXMgdGhlcmUgaXMgdXN1YWxseSBhIHB1YiBvbiBldmVyeSBjb3JuZXIuICBBIHNtYWxsIGdyb3VwIG9mIHVzIHRvb2sgdGhlIGZpcnN0IG5pZ2h0IHRvIGJlZ2luIHRvIGV4cGxvcmUgdGhlIHRvd24sIHdpdGggbm8gaWRlYSB3aGF0IHdlIHdlcmUgaW4gZm9yLiAgV2UgdmlzaXRlZCBhIHNtYWxsIHB1Yiwg4oCYT+KAmU5laWzigJlz4oCZLCBmb3IgZGlubmVyIGFuZCBldmVuIHdpdGggb3VyIGhvcnJpYmxlIGJhciBldGlxdWV0dGUsIHdlIHN0aWxsIG1hbmFnZWQgdG8gZ2V0IGEgZGVjZW50IG1lYWwuICBFdmVuIGluIGEgcHViIHRoZSBjdWx0dXJlIHdhcyBtdWNoIGRpZmZlcmVudCB0aGFuIHRoYXQgaW4gdGhlIHN0YXRlcy4gIEl0IGlzIGN1c3RvbWFyeSB0byBvcmRlciBmcm9tIHRoZSBiYXIgYW5kIGhhdmUgeW91ciBmb29kIGRlbGl2ZXJlZCB0byB5b3VyIHRhYmxlLCBub3Qgd2FpdCBmb3IgYSBzZXJ2ZXIgdG8gZ3JlZXQgeW91IGFuZCB0YWtlIHlvdXIgb3JkZXIuICBJIGhhZCBmaXNoIGFuZCBjaGlwcywgd2hpY2ggd2FzIGRlbGljaW91cy4gIEV2ZXJ5b25lIGVsc2UgaGFkIGhhbWJ1cmdlcnMgb3Igc29tZSBvdGhlciBBbWVyaWNhbiBjcmFwLCB3aGljaCB0aGV5IGxhdGVyIHJlZ3JldHRlZCBJ4oCZbSBzdXJlLiAgVGhlcmUgd2FzIGFuIEFyc2VuYWwgZ2FtZSBvbiBhbmQgdGhlIGF0bW9zcGhlcmUgd2FzIGluY3JlZGlibGUuICBUaGUgc3RyZWV0cyB3ZXJlIGxpdGVyYWxseSBwYWNrZWQgd2l0aCBwdWItZ29lcnMgYXQgcnVzaCBob3VyIOKAkyBpdCBzZWVtcyB0byBtZSB0aGF0IGl0IGlzIGFsbW9zdCBjdXN0b20gdG8gZ2V0IGEgcGludCBhbmQgYSBnb29kIG1lYWwgYXQgYSBwdWIgYWZ0ZXIgd29yay4gIEpldGxhZ2dlZCBhcyBoZWxsLCB3ZSBoaXQgdGhlIHNhY2sgZWFybHksIGJ1dCBub3QgYmVmb3JlIGRpc2NvdmVyaW5nIGEgY296eSBzcG90IGluIG91ciBob3RlbCB3aXRoIGNoZWFwIGRyaW5rcyBhbmQgZ29vZCBjb252ZXJzYXRpb25zLCB3aGljaCBtYWRlIHNsZWVwaW5nIGFsbCB0aGUgbW9yZSBlYXN5Lg0KDQo8Yj5QaWNzPC9iPg0KDQo8aW1nIHNyYz1odHRwOi8vaW1nMjUucGhvdG9idWNrZXQuY29tL2FsYnVtcy92NzYvaGF3a2luc2RwL0xvbmRvbl8tX0RfU3F1YXJlZC5qcGc+DQpEYW4gYW5kIERhbiwgTG9uZG9uLCB3b3JkLg0KPGltZyBzcmM9aHR0cDovL2ltZzI1LnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvdjc2L2hhd2tpbnNkcC9Mb25kb25fLV9EYW5fTGF1cmEuanBnPg0KTWUgYW5kIExhdXJhDQo8aW1nIHNyYz1odHRwOi8vaW1nMjUucGhvdG9idWNrZXQuY29tL2FsYnVtcy92NzYvaGF3a2luc2RwL0xvbmRvbl8tX0Rhbl9Td29wZS5qcGc+DQpNZSBhbmQgZ29vZCBvbGQgU3dvcGUsIGNoZWVycyE="
+"eventtime","2004-02-25 13:15:00"
+"url","http://hawkinsdp.livejournal.com/17998.html"
+"userid","6131"
+"itemid","69"
+"event","PGI+SmFuIDYsIDIwMDQ8L2I+DQoNCkZseWluZyB3YXMgcXVpdGUgYW4gZXhwZXJpZW5jZSBpbmRlZWQuICBBZnRlciBkZXBhcnRpbmcgR3JlZW52aWxsZSBhcm91bmQgMTA6MzBhbSwgSSBhcnJpdmVkIGluIER1bGxlcyBieSBub29uIGFuZCBiYXNpY2FsbHkgc2F0IGFyb3VuZCBhbmQgd2FzdGVkIHRpbWUgdW50aWwgcGVvcGxlIGJlZ2FuIHRvIGFycml2ZSBhdCB0aGUgYWlycG9ydCBhdCA1cG0uICBJIGF0ZSB0aGUgbGFzdCBBbWVyaWNhbiBNY0RvbmFsZHMgSSB3b3VsZCBoYXZlIGZvciBhIHdoaWxlIGFuZCBzcGVudCBhIGxvdCBvZiB0aW1lIHdhbmRlcmluZywgc2l0dGluZyBhbmQgd2F0Y2hpbmcgQW1lcmljYW4gbmV3cy4gIEkgbWV0IHVwIHdpdGggbXkgcHJvZmVzc29yLCBEci4gSGF0Y2hlciwgYXJvdW5kIDQ6MzBwbSBhbmQgY29udGludWVkIHRvIGdyZWV0IGZyaWVuZHMgdGhyb3VnaG91dCB0aGUgYWZ0ZXJub29uLiAgU2VjdXJpdHkgaXMgcXVpdGUgYSBoYXNzbGUsIGFuZCBmb3Igc29tZSByZWFzb24gSSB3YXMgc2luZ2xlZCBvdXQgZm9yIHNlYXJjaCBldmVyeSB0aW1lIOKAkyBwZXJoYXBzIEkgbG9vayBzdXNwaWNpb3VzLiAgQWZ0ZXIgYmVpbmcgZGVsYXllZCBmb3Igc2V2ZXJhbCBob3VycyBhbmQgYmVpbmcgc2VudCB0aHJvdWdoIGEgdGhvcm91Z2ggc2VjdXJpdHkgY2hlY2sgKG51bWJlciA0IGlmIGFueW9uZSBpcyBjb3VudGluZyksIHdlIGJvYXJkZWQgb3VyIGZsaWdodCBmb3IgSGVhdGhyb3cuICBUaGUgZmxpZ2h0IHdhcyBhd2Z1bCDigJMgSSB3YXMgY3JhbW1lZCBpbiBiZXR3ZWVuIGFub3RoZXIgb2Ygb3VyIHByb2Zlc3NvcnMsIENvc3RlbGxvLCBhbmQgYSBnYXVkeSBBbWVyaWNhbiB5YW5rIHdobyBkaWRu4oCZdCBzYXkgYSB3b3JkLiAgU2l4IGhvdXJzIG9mIGhlbGwsIG5vIHNsZWVwLg0KDQo8Yj5QaWNzPC9iPg0KDQo8aW1nIHNyYz1odHRwOi8vaW1nMjUucGhvdG9idWNrZXQuY29tL2FsYnVtcy92NzYvaGF3a2luc2RwL0R1bGxlc18tX0Rhbi5qcGc+DQpJdCdzIG1lLCBoYW5naW4nIG91dCBpbiBEdWxsZXMNCjxpbWcgc3JjPWh0dHA6Ly9pbWcyNS5waG90b2J1Y2tldC5jb20vYWxidW1zL3Y3Ni9oYXdraW5zZHAvRHVsbGVzXy1fTGF1cmFfRGFuX0JyaXRuZXkuanBnPg0KTGF1cmEsIE1lLCBCcml0bmV5DQo8aW1nIHNyYz1odHRwOi8vaW1nMjUucGhvdG9idWNrZXQuY29tL2FsYnVtcy92NzYvaGF3a2luc2RwL0R1bGxlc18tX1JhbmRvbS5qcGc+DQpMYXVyYSwgTWUsIEthdGllLCBCcml0"
+"eventtime","2004-02-24 19:17:00"
+"url","http://hawkinsdp.livejournal.com/17772.html"
+"userid","6131"
+"itemid","68"
+"event","Today wasn't the worst days of my entire life, but the frog in the back of my throat has been consistently annoying since he decided to hibernate there a few days ago.  I woke up late today, still had to do homework, but the sleep felt great.  I can't remember the last time I slept past noon.  I don't remember exactly what I had dreams about, but I know they were absolutely bizzare.  Whoever said that dreams were actually predicitions of the future were totally full of shit.
+
+I had to read a poem in front of my Creative Writing class today.  My poem was awful, and I had cranked it out in under an hour the night before the thing was due, so I was absolutely dreading this.  The class is a workshop class, so 5 other people's poems were discussed today.  I kept waiting for mine to be talked about, all the while staring at the clock steadily tick away.  It came right up to 5 minutes before the end of class when my poem was up.  Apparently a lot of people in the class really liked the poem, and nobody really had much of anything to say about it -- which is either good or bad, I can't really tell.  Perhaps I'm just way more intelligent than all of them.
+
+I got my new Dell DJ in the mail today, but I'm currently waiting on Red Chair Software to process my information so I can get the software reactivated.  I still don't have any music, but I actually have my MP3 player back, which makes me feel pretty good.  I called Airborn Express and they were supposed to pick up the old MP3 player by 6 today, but of course they never came.  Figures, they don't even like Dell that much.  Hopefully, however, I'll have my music up and running by the end of the week.  That'll definately put me in a better mood.
+
+My dad sent me a care package today.  I was extremely excited because my family, much less my dad, never sends me anything in the mail.  I opened the package and it looked like he had sent me a bunch of junk that he was done using and decided that I might enjoy.  The package included a bag of half-eaten chocolate covered expresso beans, a tin of altoids and some old magazines with the address labels pealed off...as if I wouldn't notice.  Still, I really appreciated the gesture and the 5 packages of microwavable pasta that he sent me (common dad, I have a kitchen now, I can actually cook!)  
+
+Pinning is tonight, followed by me doing massive amounts of homework.
+
+Oh, and one last thing...each day I'll be posting a new episode of what I like to call ""The Lost Journals:  Europe"" on LJ.  Basically I'm going to put up my journals that I kept in Europe, along with a few pictures on a day-to-day basis, so enjoy."
+"eventtime","2004-02-24 19:10:00"
+"current_moodid","57"
+"url","http://hawkinsdp.livejournal.com/17631.html"
+"userid","6131"
+"itemid","67"
+"event","It may be utterly evil, but [<a href=""http://www.nbc10.com/news/2867953/detail.html""> This Guy's </a>] misfortune has absolutely made my night."
+"eventtime","2004-02-24 02:27:00"
+"current_moodid","44"
+"url","http://hawkinsdp.livejournal.com/17193.html"
+"userid","6131"
+"itemid","66"
+"event","So I realized last night at around 11:30 that I had a Media and Culture presentation due at noon, which I had made absolutely no progress on whatsoever.  Therefor, I was forced to pull out the good old ""I got pinkeye"" trick to get out of class for the day.  This obviously made my night a bit less stressful, but unfortunately I woke up in the morning with an awful cough and a sore throat.  I woke up around 11, did my studying for an Islam test at 2 (which I probably did alright on) and headed to get some fast McDonalds before class.  Note to self:  McDonalds when sick is not the best of ideas.  
+
+It was a pretty typical day, class, dinner, procrastinate.  I'm now sitting here trying to figure out what the hell I'm going to write a poem about for Creative Writing tomorrow morning.  A cup of tea is currently helping my throat and my Dell DJ is still broken.  (Fucking Dell.)
+
+Pinning for our KA pledges is tomorrow (even though I could have sworn it was today.)  11 great new guys who have absolutely no idea what they're getting into...I love it.  I'm out of PopTarts for breakfast tomorrow, I guess I'll just have to go hungry."
+"eventtime","2004-02-23 21:11:00"
+"current_moodid","114"
+"url","http://hawkinsdp.livejournal.com/17053.html"
+"userid","6131"
+"itemid","65"
+"event","I woke up this morning, anticipating a pleasant morning drive to Biscuitville with my new Dell DJ MP3 player sitting comfortably beside me in the passenger seat, playing my favorite tunes.  So I roll out of bed around 10 and go to boot the DJ up to put some new songs on it and it begins to make a strange noise.  Before I know it, the rescue screen is up...and I begin freaking out.  I start to fiddle with the options on the rescue screen, even attempting to format the entire drive.  Every option fails and I keep getting a message that says ""Harddisk Error.""  That is definately no good.  After over an hour on tech support with Dell, they tell me that there is pretty much nothing they can do -- other than ship me another DJ which will arrive in 2-3 business days (which is probably more like 2 weeks in Dell terms.)  What makes it even harder is that I had to explain to the tech support guy that a campus box is not like a PO Box, and someone would be there to sign for the package.  I think that dealing with tech support was especially awful considering Dell recently moved all of their tech services to India, making it impossible to understand anyone on the phone.  Hell, i can't even understand the guy at the Kwik-E-Mart, much less a native Indian.  So now I sit here with a broken MP3 player, no music and thoroughly upset.  I just feel screwed.  Even Tiger Woods 2004 can't hold my attention right now, I'm just too pissed.  Time for a couple beers and bed I guess."
+"eventtime","2004-02-22 19:20:00"
+"current_moodid","1"
+"url","http://hawkinsdp.livejournal.com/16874.html"
+"userid","6131"
+"itemid","64"
+"event","Contrary to popular belief, I'm still around and kickin', just havn't really had the time to update the journal in forever.  Last semester was quite a hassle because of school, a job and various other things that I was involved in.  I also just got back from a trip to Europe, but more on that later.  Hopefully I'll be updating a little bit more this semester (I always end up comming back to LiveJournal for some reason or another.)  More to come..."
+"eventtime","2004-02-18 03:12:00"
+"current_moodid","108"
+"url","http://hawkinsdp.livejournal.com/16586.html"
+"userid","6131"
+"itemid","63"
+"event","VGhpcyBpcyBhIGxpdHRsZSBzb21ldGhpbmcgSSB3cm90ZSB3aGlsZSBJIHdhcyBob21lIHRoaXMgcGFzdCB3ZWVrLi4uDQoNCiAgICAgICAgICAgICAgICBJIGFtIGEgY29sbGVnZSBzdHVkZW50IGFuZCBJIGRvIG5vdCBoYXZlIGEgcmVhbCBqb2IuICBJIGdvIHRvIGJlZCBsYXRlIGFuZCB3YWtlIHVwIGV2ZW4gbGF0ZXIuICBJIGNhbiBzdXJ2aXZlIG9uIDIgaG91cnMgb2Ygc2xlZXAsIGFsdGhvdWdoIEkgcHJlZmVyIDEyLiAgSSBzdXBwbGVtZW50IG15IGRhaWx5IGRpZXQgd2l0aCBjYWZmZWluZSwgZXBoZWRyaW5lLCBBZGRlcmFsbCBhbmQgYWxjb2hvbC4NCg0KCUkgYmVsaWV2ZSB0aGF0IHRoZSBsaWJyYXJ5IGlzIHVzZWZ1bCBvbiBzZXZlcmFsIGRpZmZlcmVudCBsZXZlbHMuICBJIGNhbiBzaXQgYW5kIHN0dWR5IGZvciAxMiBob3VycyBzdHJhaWdodCBidXQgSSBzdGlsbCBjYW7igJl0IGdyYXNwIHRoZSBmYWN0IHRoYXQgc3R1ZHlpbmcgYSBsaXR0bGUgYml0IG9uIGEgcmVndWxhciBiYXNpcyB3b3VsZCBiZSBlbnRpcmVseSBtb3JlIGVmZmVjdGl2ZS4gIEkga25vdyB0aGF0IHRoZSBsaWJyYXJ5IGlzIGFuIGVudGlyZWx5IGFjY2VwdGFibGUgcGxhY2UgdG8gc2xlZXAsIGJ1dCBvbmx5IGR1cmluZyBleGFtcyBhbmQgb25seSB3aXRoIHRoZSBhaWQgb2YgYSBwb3J0YWJsZSBhbGFybSBjbG9jay4NCg0KCUkgZ28gdG8gNzAgcGVyY2VudCBvZiBjbGFzc2VzLCBldmVuIHRob3VnaCBJIHBheSBhIHJpZGljdWxvdXMgYW1vdW50IG9mIG1vbmV5IGZvciBteSBlZHVjYXRpb24uICBJIG9ubHkgcmVhZCB0aGUgbWF0ZXJpYWwgd2hlbiBpdCBpcyByZXF1aXJlZCBhbmQgbXkgb3BpbmlvbnMgb24gc3ViamVjdHMgY2hhbmdlIGFsbW9zdCBhcyBmcmVxdWVudGx5IGFzIHNvcm9yaXR5IGdpcmxzIGNoYW5nZSBvdXRmaXRzLg0KDQoJSSBoYXZlIGEgdG9wLW9mLXRoZS1saW5lIGNvbXB1dGVyLCBhbHRob3VnaCBpdCB1c3VhbGx5IG9ubHkgZ2V0cyB1c2VkIGZvciBTbm9vZCBvciBsaXN0ZW5pbmcgdG8gbXkgbmV3IGZhdm9yaXRlIERhdmUgTWF0dGhld3MgQmFuZCBNUDPigJlzLiAgSSBmaW5kIGl0IHBlcmZlY3RseSBhY2NlcHRhYmxlIHRvIHN0ZWFsIG11c2ljLCBidXQgSSB3b3VsZG7igJl0IGRhcmUgc3RlYWwgYSBDRCBmcm9tIGEgc3RvcmUuICBJIGtub3cgaG93IHRvIGRvd25sb2FkIG1vdmllcyBmcm9tIEthemFhLCBidXQgSSBjYW7igJl0IHF1aXRlIGZpZ3VyZSBvdXQgaG93IHRvIGdldCBNaWNyb3NvZnQgV29yZCB0byBxdWl0IGF1dG8gZm9ybWF0dGluZy4gICANCg0KCUkga25vdyB0aGUgbmFtZXMgb2Ygc2V2ZXJhbCBpbmRlcGVuZGVudCBhbmQgbG9jYWwgYmFuZHMsIGFuZCBJIGFtIHdheSBjb29sZXIgdGhhbiB5b3UgZm9yIGtub3dpbmcgYWJvdXQgdGhlbSBmaXJzdC4gIEkgd2lsbCBzcGVuZCAxNSBkb2xsYXJzIG9uIGEgY29uY2VydCBvZiBhIGJhbmQgdGhhdCBJIGhhdmUgbmV2ZXIgaGVhcmQgb2Ygc2ltcGx5IHRvIHNheSB0aGF0IEkgd2VudC4gIEkgaGF2ZSBhbGwgb2YgdGhlIHRvdXIgdC1zaGlydHMuDQoNCglJIGNhbiByZWNpdGUgdGhlIGVudGlyZSBHcmVlayBhbHBoYWJldCwgYWxiZWl0IEkgaGF2ZSBubyB1c2UgZm9yIGl0IG90aGVyIHRoYW4gd2hlbiBwcm9ub3VuY2luZyB0aGUgdC1zaGlydHMgb2Ygcml2YWwgR3JlZWsgb3JnYW5pemF0aW9ucy4gIEkga25vdyB0aGF0IGV2ZXJ5IG90aGVyIGZyYXRlcm5pdHkgYnV0IG1pbmUgY29tcGxldGVseSBzdWNrcywgYWx0aG91Z2ggd2UgYWxsIHByZXR0eSBtdWNoIGRvIHRoZSBzYW1lIHRoaW5ncy4gIEkgY2FuIGRhbmNlLCBidXQgb25seSBkdXJpbmcgR3JlZWsgV2Vlay4NCg0KCUkgZmVlbCB0aGF0IGJlZXJzIGFyZSBzb3J0IG9mIGxpa2UgcG90YXRvIGNoaXBzOyB5b3UgY2Fu4oCZdCBqdXN0IGhhdmUgb25lIGluIGEgc2l0dGluZy4gIEkgZHJpbmsgd2l0aCBteSBmcmllbmRzOyBJIGRyaW5rIGJ5IG15c2VsZiwgYnV0IHVsdGltYXRlbHkgSSBjb21wbGV0ZWx5IGlnbm9yZSB3aGF0IGhlYWx0aCBjbGFzcyB0b2xkIG1lIGFib3V0IGFsY29ob2xpc20uICBJIGtub3cgZXhhY3RseSBob3cgbWFueSBiZWVycyBhcmUgaW4gYSBrZWcuDQoNCglJIGxpdmUgaW4gYSB3b3JsZCBvZiBjb21wbGV0ZSBkaXNvcmdhbml6YXRpb24gYW5kIGZpbHRoLiAgSSBoYXZlIGNoYW5nZWQgbXkgc2hlZXRzIHR3aWNlIHNpbmNlIEnigJl2ZSBiZWVuIGF0IHNjaG9vbC4gIE15IG1vbSBzdGlsbCBkb2VzIG15IGxhdW5kcnkuICBJIGJlbGlldmUgdGhhdCBGZWJyZWV6ZSBjYW4gYXV0b21hdGljYWxseSBtYWtlIGFueSBzaGlydCBjbGVhbiBhbmQgRG93bnkgV3JpbmtsZSBSZWxlYXNlciBpcyBhIG1hZ2ljYWwgYWx0ZXJuYXRpdmUgdG8gYW4gaXJvbi4gIEkgd2VhciBzYW5kYWxzIGluIHRoZSBzaG93ZXIuDQoNCglJIGhhdmUgbGl0ZXJhbGx5IGh1bmRyZWRzIG9mIGZyaWVuZHMgb24gY2FtcHVzLCBob3dldmVyIEkgb25seSBrbm93IGFib3V0IDUwIHBlcmNlbnQgb2YgdGhlaXIgbmFtZXMuICBJIGZpbmQgdGhhdCDigJx3aGF04oCZcyB1cCBtYW7igJ0gaXMgYW4gYWNjZXB0YWJsZSBncmVldGluZyBhbmQgYSBwZXJmZWN0IGFsdGVybmF0aXZlIHRvIGFjdHVhbGx5IHJlbWVtYmVyaW5nIG5hbWVzLiAgSSBrbm93IHRoYXQgdGhlIGtleSB0byBmaW5kaW5nIG91dCBzb21lb25l4oCZcyBuYW1lIGlzIGludHJvZHVjaW5nIHRoZW0gdG8geW91ciBmcmllbmRzIGFuZCBJIGZpbmQgaXQgdXR0ZXJseSBhbm5veWluZyB3aGVuIGdpcmxzIGFzayBtZSB3aGF0IHRoZWlyIG5hbWUgaXMuDQoNCglJIGtub3cgdGhhdCBydW4tb24gc2VudGVuY2VzIGFyZSBhYnNvbHV0ZWx5IGFuZCBtb3N0IHBvc2l0aXZlbHkgdGhlIGdyZWF0ZXN0IGV2aWwgaW4gYWxsIG9mIGNvbGxlZ2Ugd3JpdGluZywganVzdCBhc2sgYW55IGNvbGxlZ2UgcHJvZmVzc29yIGFuZCB0aGV5IHdpbGwgdGVsbCB5b3UgdG8gYXZvaWQgdGhlbSBhdCBhbGwgY29zdHMsIGJ1dCBJIHN0aWxsIGdldCBD4oCZcyBvbiBwYXBlcnMgZm9yIHVzaW5nIHRoZW0gYW5kIHRoYXQgaXMgYWxyaWdodCB3aXRoIG1lLiAgT2ggeWVhaC4gIEZyYWdtZW50cyBhcmUgdGhlIHNhbWUgd2F5LiAgSSBrbm93IHRoYXQgcHJvcGVyIHB1bmN0dWF0aW9uIHVzZSBpcyBuZWNlc3NhcnkgdG8gYm9vc3RpbmcgYW55IGdyYWRlOyBpbmNsdWRpbmcgdGhlIHByb3BlciB1c2Ugb2YgYSBzZW1pY29sb24uICBJIGRvbuKAmXQgcGxhZ2lhcml6ZSBiZWNhdXNlIEnigJltIGhvbm9yYWJsZS4gIA0KDQoJTXkgZGlldCBjb25zaXN0cyBvZiBkaW5pbmcgaGFsbCBidWZmZXRzIHRocmVlIHRpbWVzIGEgZGF5IGFuZCBvbiB2ZXJ5IHNwZWNpYWwgb2NjYXNpb25zIGEgTWNEb25hbGRzIEJpZyBNYWMuICBJIGdhaW5lZCB0aGUgZnJlc2htYW4gMTUsIGluIGZhY3QgSSBiZWxpZXZlIHRoZXkgc2hvdWxkIHJlbmFtZSBpdCB0aGUgZnJlc2htYW4gNTAuICBJIHRoaW5rIG15IHNjaG9vbCBmb29kIHN1Y2tzLCBldmVuIHRob3VnaCBpdCBzdWNrcyBldmVyeXdoZXJlIGFuZCBteSBwYXJlbnRzIGFyZSBzdGlsbCBwYXlpbmcgZm9yIGl0Lg0KDQoJSSBhdHRlbmQgYSBzY2hvb2wgd2hlcmUgY3VsdHVyYWwgZGl2ZXJzaXR5IGlzIGVuY291cmFnZWQsIGV2ZW4gdGhvdWdoIDkxLjcgcGVyY2VudCBvZiBteSBjYW1wdXMgaXMgd2hpdGUuICBJIHN0dWR5IGFicm9hZCBldmVuIHRob3VnaCB0aGUgb25seSBsYW5ndWFnZSBJIGtub3cgaXMgRW5nbGlzaC4gIEkgc3RpbGwgZG9u4oCZdCBrbm93IGhvdyB0byBzcGVhayBwcm9wZXIgRW5nbGlzaC4NCg0KCUkgd29yayBtaW5pbXVtIHdhZ2Ugam9icyBldmVuIHRob3VnaCBJIGFtIHByb2JhYmx5IG1vcmUgcXVhbGlmaWVkIHRoYW4gYW55b25lIGFscmVhZHkgaW4gdGhlIGJ1c2luZXNzIHdvcmxkLiAgTXkgcGFyZW50cyBzdGlsbCB0aGluayBJ4oCZbSBpcnJlc3BvbnNpYmxlIGV2ZW4gdGhvdWdoIEkgdGFrZSAxNCBjcmVkaXQgaG91cnMgYSBzZW1lc3RlciBhbmQgY291bGQgZ28gZmlnaHQgaW4gYSB3YXIgcmlnaHQgbm93LiAgSSBuZXZlciBoYXZlIGFueSBtb25leSBidXQgc3RpbGwgZmluZCB0aGUgY2FzaCB0byBicm9hZGVuIG15IGFscmVhZHkgaW1tZW5zZSBEVkQgY29sbGVjdGlvbi4NCg0KCU9uZSBkYXkgSSB3aWxsIGhhdmUgdG8gZ3JhZHVhdGUgYW5kIG1ha2UgbXkgb3duIHBhdGggaW50byB0aGUgd29ybGQuICBJIHdpbGwgd29yayBsb25nIGhvdXJzIGZvciBsaXR0bGUgbW9uZXkgd2l0aCBvbmx5IG15IGZsZWV0aW5nIG1lbW9yaWVzIG9mIGNvbGxlZ2UgdG8gaGVscCBtZSBwYXNzIHRoZSB0aW1lLiAgSSB3aWxsIHRoZW4gdW5kZXJzdGFuZCB3aHkgZXZlcnlvbmUgYWx3YXlzIHRlbGxzIG1lIHRoYXQgdGhpcyBpcyB0aGUgYmVzdCBmb3VyIHllYXJzIG9mIG15IGxpZmUgYW5kIHdvbmRlciB3aHkgSSBhbHdheXMgY29tcGxhaW5lZCBzbyBtdWNoLiAgSXTigJlzIGJlY2F1c2UgSSBhbSBhIGNvbGxlZ2Ugc3R1ZGVudCwgYW5kIGNvbXBsYWluaW5nIGlzIG15IGpvYi4="
+"eventtime","2003-06-13 17:15:00"
+"current_moodid","49"
+"url","http://hawkinsdp.livejournal.com/16139.html"
+"userid","6131"
+"itemid","62"
+"event","My boss totally jipped me on hours this week.  In the continuing saga of my horrible new job, after being out of town for a week, my boss has given me the crappiest hours known to man -- only 12.5 this week.  This means that I don't work all week, until Friday when I have to go in to work at 6.  This sucks for a couple reasons:  1.  I don't think my boss thinks I'm trained yet, even though my job is so freakin' easy I could do it in my sleep and 2.  I'm going to have to find another job.  In lieu of this horrible schedule, I think I'm going to head home today -- I havn't been there in a while and it'd be nice to get a couple big free meals under my belt.
+
+I would leave to go home right now, but in the sense of all things ironic, the plumbers just showed up to work on our most-likely 70 year-old-plus pipes.  This means that I have absolutely no way of taking a shit or a shower for the next four hours or so.  Do blue coller people have any sense of timing whatsoever?
+
+Anyways, I guess I'll update later when I'm bored at home, but for now I think I need to go sneak a shower in before these guys get too involved in their arcane arts."
+"eventtime","2003-06-10 10:52:00"
+"current_moodid","1"
+"url","http://hawkinsdp.livejournal.com/16078.html"
+"userid","6131"
+"itemid","61"
+"event","My first day of real work was today and it was absolutely awful.  First of all, the shoes that I bought from Wal-Mart are atrocious and my feet were in major pain after just 3 hours of work.  I wear the most uncomfortable uniform ever, well, probably not as uncomfortable as the Mascot at a baseball game, but probably close.  Finally, my job is so increadibly boring that I think I could do it in my sleep.  I really should be more qualified than this.
+
+I spend the entire day learning monotonous simple tasks such as ""running the register"" and ""straightening up the CD's.""  I was also forced to endure a preliminary training course that went over such intense subjects as ""greeting the customer"" and ""selling the sale.""  I was told that I had to greet people, help them and finally try to sell them more ridiculously overpriced junk in a very well laid out manner or else I might get caught by one of the ""secret shoppers"" -- and that spells nothing but trouble.  Frankly, I'm not too worried.
+
+I worked with two nice girls today, one who's name still skips me (I think it was Jennifer or something) and another girl named Lauren.  Girl X is 20 and my manager, she is a complete and utter dorky Burlingtonite.  Lauren is slightly more normal and 19, she flirted with me a bit.  After work they both asked me if I would like to grab something to eat.  I declined, citing that I had frozen pizza and a beer waiting for me at home -- I implied that these were more interesting than the two girls, but I don't think they got it.  I work with another guy, Blaine, who seems to take his job way too seriously.  He is 27 and still working in a mall CD store.  My senior manager, Mitch, once told me that ""if it wasn't for my wife, I'd never leave this place.""  He is 28.  Some people really need to get better lives.
+
+People in the mall are frankly not normal.  The mall in Burlington consists of several various groups of people.  Group A:  Mallrats - Mallrats are the kids that are constantly at the mall.  They obviously have no parental supervision and generally mess up stores without buying diddly.  Group B:  Rednecks - Rednecks are the reason that the Burlington mall has a pork rinds stand in the middle of the mall.  Rednecks are stupid and only buy Country CD's.  It is easy to lie to rednecks and tell them the new Metalica CD rocks, even though I hate Metalilica.  Group C:  College kids and others - These are the less frequent shoppers, and generally know what they're looking for.  It actually surprises me that this generally more intelligent minority even buys CD's at all, considering you can very easily download any one of them off the internet for free.  I like Group C.
+
+Kristen is at the beach this week, I envy her.  I'm in Burlington, NC.
+
+I have tomorrow off, and now that I'm working again I have absolutely no idea what I should do.  Everyone will be in class all day, so I'm considering just getting really really wasted.  Maybe I'll just sleep.
+
+Notorious B.I.G. put it this way, ""Either your slingin' crack rock or you got a wicked jump shot.""  I have neither.  I think I'm screwed."
+"eventtime","2003-06-04 22:14:00"
+"current_moodid","37"
+"url","http://hawkinsdp.livejournal.com/15871.html"
+"userid","6131"
+"itemid","60"
+"event","So I finished helping Kristen move in last night and I was going to stay the night over there before I suddenly became horribly allergic to her room or something in her appartment.  I literally could not even see I was so sick.  I ended up kissing her goodnight and heading home where I stayed up for a few hours doing pretty much nothing and enjoying my NyQuil induced haze.  
+
+I awoke very early this morning to the sound of a giant mosquito-catcher being caught in the fly paper that I have set up on my windowsill, struggling for its life.  It was literally so loud that it awoke me in the middle of my deep sleep, and I'm a deep sleeper.  I killed it and went back to bed, waking up around 9 so that I could take Kristen to breakfast and say goodbye.
+
+Kristen finally left just about 10 minutes ago, and I have to say I already miss her a lot.  I guess the saying is true, you don't really know what you have until its gone.  I should be heading up there for the fourth of July, but thats still a month away.  
+
+Classes started today and its unusually quiet around here.  I'm not taking a summer class because I don't have the extra money to do so and frankly the idea of actually learning in the summer is nearly appaling to me.  I think I'll take this chance to get some well-deserved sleep.  Or maybe I'll just watch TV all day.  I start work tomorrow, not excited at all."
+"eventtime","2003-06-03 11:04:00"
+"current_moodid","61"
+"url","http://hawkinsdp.livejournal.com/15538.html"
+"userid","6131"
+"itemid","59"
+"event","Well, I finally got Kristen all moved into her new appartment and it really feels great, except for the fact that I have to go back over there after work and help her put together this 150 pound dresser that she bought.  I swear to God that Kristen has more stuff than any college student anywhere.  It literally took us 5-10 car loads in her Ford Explorer to get all of the shit from one appartment to the other.  Needless to say it has not been a fun morning, with the 8:30am wake-up call and everything.  At least I got free lunch at Skids.
+
+My dad was passing through town last night and took Kristen and I out to dinner, which was great.  We ended up going to Longhorn, which isn't the classiest of all places, but still had good steaks.  I finally got a coffee machine when we went to K-mart (making my parents shop for me when they pass through is sort of a tradition.)  I also got lots of bug spray for the copious amounts of flies that infest our back yard and home.  So far the fly paper in my room hasn't done diddly and the Raid doesn't even bother the flies, just the humans.  I think these things are mutants.
+
+Speaking of my dad, I love how my parents always complain about giving me money.  I mean, I'm going to school, getting an education and maybe having a little fun, but they still complain about having to give me money.  The ironic part you ask?  My dad just went out and bought my mom a brand new 2000 BMW Z3, with 18,000 miles on it.  Sonovabitch.
+
+Its been a long and exhausting weekend with Kristen here.  I never knew how absolutely dificult it is to live with a member of the opposite sex.  Not only do they wake up early, especially after a long night of drinking, but they also are around 24-7 and constantly nagging.  And if you have a girlfriend like mine, they eat all your pistachio's as well.  It'll almost be good to get rid of her after tomorrow, I hate to say it, but I need some definate ME time.
+
+But do I get me time?  No, I have to go into work today and sign all the papers that finalize my employment at FYE.  I still think that I should be running the fucking store.  My mom tells me I'm too cynical about the entire situation and that I really should change my attitude before I start selling CD's.  How am I going to justify selling shitty music?  I start work Wednesday, and work evenings through Saturday.  I'm not overly excited, but I bought a new badmitten set for $10 at K-Mart, so that makes it somewhat better.
+
+Speaking of work, I need to be heading to the shower pretty soon, so for now, its sionara (or however you spell it.)"
+"eventtime","2003-06-02 13:40:00"
+"current_moodid","14"
+"url","http://hawkinsdp.livejournal.com/15302.html"
+"userid","6131"
+"itemid","58"
+"event","Tonight was another unsuccessful day at Elon.  Its late and I'm a little too drunk to be writing, so I'll be sure to have a plethora of entries tomorrow, or maybe just two.  Highlight of the night:  Roy passing out on a chair at 10:00."
+"eventtime","2003-06-01 00:24:00"
+"current_moodid","34"
+"url","http://hawkinsdp.livejournal.com/14955.html"
+"userid","6131"
+"itemid","57"
+"event","Summer at Elon is sort of like living in a ghost town.  There are plenty of people in town, but I rarely see a student my age anywhere around campus.  Last night a few of my friends came over, but it was sort of like the party that never happened.  We just hung out for a while and before I knew it, I was in bed by 1 -- the earliest I think I've ever laid down.
+
+Kristen, of course, is still staying with me, which has become somewhat of a hassle.  Its fairly difficult to deal with a girlfriend for 24 hours a day.  I think that every man out there will agree that we sometimes need some ""man time"" to do whatever we want.  Just watching the San-Antonio Dallas game last night was a pain-in-my-ass as Kristen sat there and whined to me.
+
+I went in to work again today to find out my schedule and get some uniform shirts.  FYE is obviously not the most fashion-savvy stores on earth, because they make you wear black pants and black shoes with the ugly-ass grey shirt.  But who the hell am I kidding, I just need the money.  I don't work until Wednesday of next week, when my official training begins.  I'm not too excited about this whole ordeal, because with my experience training usually consists of reading boring monotonous materials until your eyes bleed.  It's not that hard to learn how to greet a customer, or use a cash-register.  I say they just let me go and see how I turn out after a week.  I guaruntee I could be a manager by next Sunday.
+
+Its been a hot-sticky day around Elon, with temperatures in the mid-80's.  I know this for a fact because I just spent the past 30 minutes cleaning up the beer bottle that one of my friends decided to smash with a croquet stick all over our outdoors couch.  I like the muggy heat of a southern summer, but only when I have nothing better to do but relax with a beer and some music.  My roommate, David, is heading to Raleigh tonight to see Cast Iron Filter play at some really small bar.  It's only $5, but I don't think I'll go -- underage drinking is way too sketchy in Raleigh.
+
+The shower in my new house has two settings -- fucking hot and fucking cold.  So far I prefer fucking cold.  The flies that infest the bathroom, however, prefer a slight steam.
+
+I went with Kristen to go find carpet for her new appartment yesterday with absolutely no luck.  Burlington is really small, and really the only place to get carpet is Lowe's.  Lowe's actually has quite a variety in carpet -- ranging from the $2 per yard astroturf to the $7 per yard shag.  Kristen wanted blue carpet, but the only kind they had there was ""too itchy.""  There were lots of other types of carpet there, but apparently the fairly typical beige, grey and brown colors were not appealing to her, so she got frustrated, yelled at me and we left.  Needless to say, today we're going back to get the ""too itchy"" blue carpet, because ""it wasn't that bad.""
+
+David's dog likes beer, especially 40's.  He poops everywhere, I think thats where the flies come from."
+"eventtime","2003-05-30 15:16:00"
+"current_moodid","114"
+"url","http://hawkinsdp.livejournal.com/14778.html"
+"userid","6131"
+"itemid","56"
+"event","After the mediocre success of my first summer of blogging, I've decided to return once again for Dan's Journal -- Summer before Junior Year.  There have obviously been a lot of changes in the past two semesters or so, many of which will obviously affect my writing thus.  I'm definately feeling the new layout and picture I rigged up on LJ, and before long I hope to have the same group of wacky people reading and commenting on my randomness.  However, I also feel that many of my previous entries were quite sophomoric in nature and not up-to-par with my true potential.  I think that many of the new entries will be a bit more real and have a bit more meaning, hopefully tapping into my melodramatic side.
+
+School ended almost a week ago and thankfully I was able to move out of my crowded bug-infested fraternity house, which was starting to look more like a dump than a house at all.  I kid you not, one night I was sitting downstairs and a possum decided that it would walk on into the house and make itself at home.  Other than scaring the living bejesus out of me, it was pretty damn gross.  Needless to say, I was happy to pack my bags and move on to more adequate housing.
+
+I now live in a small house on campus with two other roommates, both of which are older than me.  They're both in my fraternity and we get along fairly well -- besides the fact that one is Lebanese, one is a Jew and I'm a Southern Baptist.  The irony kills me.  The house was build in the 40's and is aptly named ""The Bombshelter.""  Its a bit nicer than my house, including a fully functional kitchen -- but the flies are killing me right now.  Everyone has flies, they're taking over Elon, I swear.
+
+I decided not to return home for this summer in hopes that I could live out a ""big adventure"" by living on my own.  I think this is half a mix of wanting to stay away from authority and half because I simply want to see if I can make it on my own.  It took me until today to finally get a job.  I'll be working at an FYE (CD store) in the mall for next to no money.  I guess its better than nothing.  Burlington is slim pickens as far as work goes.  Many of my friends don't even have jobs at all.  I'm jealous.
+
+One of the hardest parts about living on your own is feeding yourself.  When you're at home you don't think twice about grabbing a glass of milk from the fridge, but now I find myself calculating out how much each meal I eat costs.  Today I spend roughly $10 which consisted of $3 worth of Bagel Bites, $2 worth of Kool-Aid and Gatoraid and $5 for dinner at Cook-Out.  I need to cut back.
+
+One of my roommates purchased a croquet set from Wal-Mart yesterday and it has since become one of the most exciting and competitive sports that Elon has ever seen.  People are constantly wacking colorful balls across our dog-shit laden yard in the pursuit of sport.  David, the roommate who purchased the kit, wants to create a front and a back course, consisting of 18 wickets.  ""Just like golf"" he says, ""but with more drinking.""  
+
+Kristen, the girlfriend, has to move out from her appartment tomorrow and is not allowed to move into her new appartment until Monday.  This means that she has no place other to stay than my house -- in my room, which is crowded enough as it is.  She thought I was being amusing when I asked her, ""When am I going to have time to beat off?""  I wasn't kidding.  
+
+So for the next 4 days I have to live with my girlfriend, just another part of the ""big adventure.""  At this point I don't know if I'm going to pass.  Yes Mrs. Hopkins?  No, I was awake.  The sum of one poor college kid times 24 beers minus spending money and divided by a crappy house?  I think I missed that part of the homework.
+
+I have a new plant, its a stick of bamboo in a pot and its dying."
+"eventtime","2003-05-29 19:36:00"
+"current_moodid","104"
+"url","http://hawkinsdp.livejournal.com/14443.html"
+"userid","6131"
+"itemid","55"
+"event","Well sheeeet.  Seems like we've reached the end of my paying career as a livejournal user.  Now don't fret, that doesn't mean that I won't be able to write, the site might just be a bit slower than we're all used to.
+
+Its okay though, there will still be funny articles and rants every week, I will still talk shit about all of my friends, and I will still have random girls comming up to me at parties and saying things like ""Wow, you're a good writer, you know that?""
+
+Its just kinda depressing, ya know?  Especially since they got rid of my transformers pictures.
+
+Snoochy Boochies, stay tuned."
+"eventtime","2002-10-08 13:57:00"
+"current_moodid","90"
+"url","http://hawkinsdp.livejournal.com/14109.html"
+"userid","6131"
+"itemid","54"
+"event","I have free HBO and you don't, nay nay nay nay boo boo.
+
+I have been one of ""those kids"" who is magically blessed with free HBO throughout college.  I don't know how it happened, but all I know is that the day I walked on campus, turned our TV to channel 7 and began to watch I have been blessed with a magical gift from heaven.  This is officially where my addiction to HBO began, and its been getting progressively worse ever since.
+
+I started off like any small-time guy, watching your ocassional movie, dirty latenight sex show or episode of Taxi Cab Confessions, basic stuff that you find flipping through channels.  The real trick of HBO, however, is that most of the movies absolutely suck ass, its the programming that rules.  Last year a program called ""Band of Brothers"" appeared on HBO, a 10 or so episode miniseries about World War II that was made by Steven Spielberg or some other bigshot name.  And I watched.  I watched like a little kid lost in cartoons, waiting for cool explosions, following the drama to a T -- it was getting bad.  Every Sunday night (when all the good stuff on HBO comes on), my TV was tuned to Band of Brothers, no matter what kind of test or paper I had to do work for the next day.  At first, everyone on my hall watched, but they slowly began to drain off until it was just me, a six pack of budweiser and a fuckit bucket (okay, I have no idea what the latter is, but Roy said it once, and it sounded funny.)
+
+Pledging was a pretty awful experience, no lie.  Everyone during pledging complains about the lack of sleep, however I was the only retard who would stay up until 4am every night watching stupid movies on HBO until my eyes bled and I couldn't stay awake any longer.  How the hell did I maintain a 3.0 GPA?  And the addiction continued...
+
+Over the summer my parents bought digital cable, and of course the first thing I talked them into getting was the HBO package, which basically comes with 16 (exageration) HBO channels, including the spanish versions of HBO1 and HBO2.  This is when I began to watch re-runs of the Soprano's.  At first I found the Soprano's increadibly boring, and not really up to my TV-watching par...until I started to get into the plot.  The thing about the Soprano's is that if you watch one episode, you willl have no idea what the hell is going on, and will probably never watch it again.  I'm a nerd with more free time on his hands than most inmates, and so I began to watch more and more.
+
+The new season of the Soprano's recently aired on HBO, and thus far I have watched every single episode.  However, my addiction was truly realized when I found out that one of my fraternity brothers owned the entire 3 previous seasons of The Soprano's on DVD.  I was hooked, and ever since then I have spent countless hours of my life laying in bed watching previous seasons until Pete throws shoes at me and I turn it off.  I can actually quote the damn show.  I'm hooked.  Fuck crack, try The Soprano's.
+
+And that brings us to today, a day where I humbly accept that I am an HBO junkie.  I have become a slave to the one channel that I never should of had, and I now understand why so many people loyally subscribe to the once Muhammid Ali ""Thrilla in Manilla"" fights -make-our-only-revenue cable premium channel.  Thanks HBO, you have ruined my life.  I can just see myself now, 50 years old, on the street begging for change...""Hey maaaan, spare some change for an old man?   I gotta have my Soprano's!""
+
+Midterms roll on and I oficially have a C in Astronomy, which doesn't kill me, but is definately not what I wanted.  College has changed my entire view of the world.  In High School I used to get C's all the time.  I'd simply say ""Oh man, must be because I don't do jack shit."", take my grade and move on.  Here, a C causes me so much grief I can't even stand it.  ""Oh man, I'm a fucking dumbass, time to go haywire in the belltower!""
+
+I think the most stupid thing to do on AOL is put up those away messages that say things like ""Goodnight (insert the person who checks the away message's screenname here)!!!! Sleep tight!!!!""  I just don't know, but the fact that you want to say the exact same thing to everyone, without even using their formal name just seems kind of stupid to me.  Next thing I know, people are going to go walking around calling people by their screennames.  Oh wait, it already happens to me, how many people call me Dan-0?  Not that I mind it, but who the hell would want to be called stuff like ""JerseyGirl1234""?  Next thing I know I'm going to call my mom and say ""Oh hi IMMOMHELLO, I just wanted to say hi!""
+
+Speaking of which, talking with parents on IM is increadibly wierd.  Usually I'm on IM being a sarcastic asshole, talking about getting fucked up, acting fucked up, trying to hook up or whatever, but with your parents you have to keep an air of dignity and intelligence.  I still feel bad typing things like ""U R GR8 mom!"" to my mom, just because I don't want her to think I'm a total dumbass.  I'm also always afraid I'll be in the middle of typing something totally racy to someone else when my mom's IM window pops up and I accidently hit enter, leaving her IM with some trail-end conversation that says something like ""and then we fuck that goat up!""  Just how would you explain that?  My mom is also always online, but has absolutely no concept of away messages.  Its kind of like a little guess and check game that we play with eachother.  Sorry mom, I still loveya.
+
+Oh, by the way, next week we're having a mixer with a Soprano's theme.  The addiction continues..."
+"eventtime","2002-10-08 03:25:00"
+"current_moodid","88"
+"url","http://hawkinsdp.livejournal.com/13967.html"
+"userid","6131"
+"itemid","53"
+"event","Cops are assholes, pure and simple.  I mean, does it really take a saddist bitch to become a police man?
+
+My friend Jared and I were driving tonight when we passed a gas station where we saw a group of our friends.  Jared extended his hand out the window in greeting, and we drove on by, no thoughts about it.
+
+We pulled into the place we were headed and BOOM, blue lights.  Now, I know I hadn't done anything wrong, I was sober, I wasn't speeding, and I know my car was in top shape.  
+
+The cop gets out of his car, shines his flashlight in my face and demands my license and registration.  He also demands Jared's.  Now, here's where the asshole began.  Instead of taking the IDs, he snatched them, almost hitting his hand on the side of my car, which gave me a little snicker.  He tells us to ""not start acting nice now, since he knows what we're up to..."" or some bullshit like that.  He pulls Jared out of the car and the fun ensues.
+
+""You could go to jail for what you did,"" says the cop.  And in my mind I'm thinking ""whaaaat theee fuuuck?""  Apparently Jared was breaking a ""decency law"" by extending his hand in greeting to a friend.  Of course, we all know that the cop probably thought that this was directed at him in a derogitory manner, so of course he has every right in the world to pull us over.  The cop goes on to say something like ""don't give me the nice version of the story..."" and of course Jared spouts back with ""I'm not being nice, I'm just telling you like it is.""
+
+He gives us back our IDs, tells us to be on our way and then burns a fucking wheel out of the place.  
+
+Now, I have a few problems with this...
+
+1.  Why do cops have to be so pissy all the time?  Snatching our IDs with all the force of his arm was entirely unecessary, and frankly I think I should have said something about it.  Of course meanwhile I'm too busy shitting myself to even think.
+
+2.  Since when were there decency laws established, and how come cops can use them to their advantage every time they think that someone is directing some cop-hostility towards them?  I mean, we know you have some of the shittiest jobs ever, and thats respectable.  Just like garbage men, someone has to do it.
+
+3.  Why do cops hate college students worse than any other people, well, other than high-school students.  Its not like we're off shooting people or selling crack, we're just trying to have a good time.  I can't think of any harm a couple of people gathering and drinking a few beers can do.  We're in college, so most of us are smart enough not to drive drunk, we're not off vandalizing things, much of the time, and I don't remember when anyone has killed someone at these things.  Okay, I stand corrected, college students suck, so what?  Don't be a dick just because I'm smarter, cooler, get laid a lot more, going to make more money than you, can drink more than you and are generally a better person than you.
+
+Okay, I guess the whole gist of this is, fuck off police, let us have our fun in peace.
+
+Oh, and by the way, neither Jared or I got a ticket, even though when he asked for my registration I gave him my insurance information.  Fucking dumbass.  Final score:  Townie cops: 0, College Kids: 1."
+"eventtime","2002-10-03 20:42:00"
+"current_moodid","3"
+"url","http://hawkinsdp.livejournal.com/13794.html"
+"userid","6131"
+"itemid","52"
+"event","Kids nowadays just don't understand.
+
+When we were kids there were several daily activities that basically shaped the rest of our lives.  These were the prodigal parts of our childhood, our coup de temps of fun and activity.  Our childhood games were amazing displays of athleticism and skill, ranging from the speed of 4-square to the power and armstrength required for an effective dodgeball game.  You simply couldn't grow up in America without playing kickball, tetherball, smear the queer, football, basketball, etc.  The list goes on forever.  
+
+The key to surviving the early years, aka elementary and middle school, was being the best you could be at whatever game was being played at that point in time.  But not only did these games create a childhood of fun and adventure, but they also taught us simple life lessons that we hold true to this day.
+
+Tag was a fairly simple game.  When we were kids, we were poor, at least most of us were.  My allowance of 2 bucks a week funded my hefty ice-cream and toy habit, leaving hardly any room for the modernizations of today, such as video games, movies and electronic toys.  Tag was a game that required a group of friends and a sugar high adequate for long distance running.  The premise was simple, somebody was ""it"", and whoever they tagged was either out, or became ""it"".  Think about the basic survival skills we all learned from this game, how to run away, how to attack, and how to be the best you could be.  This was the basic introduction of the theory of survival of the fittest into our lives.  Remember the fat kid who always ended up being ""it"" for at least 15 minutes?  If you were fast, small and fit you were the king.  
+
+Dodge ball was the game of equilizing.  Running and evading is a skill that most kids can master in a relatively short amount of time.  A ball was simply thrown with ultimate precision, pegging some poor sap and rendering them out for the rest of the game.  We always gave bonus points for crotch shots, face plants and other various ultimate-pain ball-to-body attacks.
+
+I read an article about a year back that was attacking dodgeball for being too violent and teaching kids violent tendancies.  Personally, I think that this is a load of crap fumed up by the mothers of sissy's everywhere.  You remember the sissy kid who always got hit between the eyes and started crying.  Personally I think that dodgeball, along with all of our other childhood games taught us effective lessons that are still useful in the real world.  Dodging, weaving and running are still entirely effective in the modern days, I mean think about it, what if we were attacked by space aliens?  Plus, if dodge ball was so violent, how come recent school shootings were blamed on TV, music, videogames, movies, etc. and not because some poor sap was pegged with a big spongy ball back in the 4th grade?  I think that running around Liberty City with a flame thrower and killing innocent bystanders while laughing hysterically the whole way through is much more of a subject of debate than running away from the bigass kid with a red ball.
+
+Elon is pretty close to a local elementary, middle and high school, which I have made a few subtle observations about.  
+
+1.  Kids nowadays have some way of attaining money that I could never figure out when I was their age.  When I was a kid, I wore the same pair of clothes 6 days a week, only stopping to change underoos and on Sundays decking myself out in my sweet church clothes.  Now, kids have entire wardrobes bigger than my collection of various fraternity t-shirts.  They have bikes, skateboards, videogames, etc.  I had a stick, a basketball and on a good day, a constant supply of candy.
+
+2.  The days of old have ended.  There is no more dodgeball, tetherball, tag, whatever.  Now kids have gangs of skateboarders, video game addicts, lethargic TV fatties.  People are so confused why the human population is steadily becoming overweight, well here's the answer.  Tell these kids to get off their lazy asses and throw balls at people.
+
+3.  Kids are assholes.  I was walking home from class the other day and nearly got run over by a group of skateboarding punks who resorted to giving me the finger.  I mean, common, when we were kids, older kids were scary.  I say us older kids start laying down the assbeatings that I so fondly remember from my childhood.
+
+I guess in short, I miss being a kid.  If I had a time machine, I'd definately go back and do it all over again.  Maybe I'm just childhood sick, who knows.  
+
+End of rant, my appologies for being lame."
+"eventtime","2002-10-03 14:58:00"
+"current_moodid","60"
+"url","http://hawkinsdp.livejournal.com/13362.html"
+"userid","6131"
+"itemid","51"
+"event","Its that time again, the time that all college students everywhere know and dread.  Midterms are finally starting to be given and I, for one, have already fucked up entirely on my first one.  You can tell its exam time by simply watching the actions of your peers around campus.  Its a time of smoking like chimneys, total sleep deprivation, popping various ""study pills"" such as Aderol, Ridilin, NoDoz, Vicodin, Paxil, NyQuil, whatever.  You know its exam time when everyone around campus looks so coked out that you can barely tell who's studying or who's just enjoying a nice mid-afternoon nose-candy snack.  
+
+I like to call this time of year ""Exam Jam"", in leau of a failed party theme attempt by my, and other fraternities around campus.  I mean, the idea is great, we all have exams tomorrow, lets get drunk!  Instead, everyone ends up jamming themselves up with pills, drinks, books, food, etc. in an often failed effort at studying better.  Personally I don't really see the benefit of depriving yourself of sleep in order to learn a few more things that you're going to forget the next day anyways.  Hell, I'd rather just go to bed early and accept my fate the next day.  I think Aderol, Ridilin and such are just ways for drug companies to pray on college students.  Hell, you could live a healthy life just off of peddling street-value study pills.  The kind of studying that these pills encourage is so useless anyways that I think I could peddle sugar pills and they'd still have the same effect.  Hell, half the kids who take them don't even have ADD, the origional reason for people to take them.  Remember when your teacher told you that cramming doesn't work?  Well it doesn't.  So get some sleep.
+
+I think Red Bull, the caffeine and ""energy"" drink is pretty ridiculous too.  Hell, it tastes just as bad as coffee and has the exact same effects.  Only downside:  coffee doesn't mix as well with vodka.
+
+You know college is dirty because you have to wear sandals in the shower.
+
+Getting package slips in your mailbox is one of the most exciting things about living at college.  For those who don't know, package slips are little slips that come in your mailbox that tell you that you have a package waiting for you at the mail center, pretty obvious, duh.  Other than my Sports Illustrated, this is quite possibly the most rare and exciting occurrance of generocity that ever pops into my mailbox, with the exception of -extremely- rare money checks.  I always feel like the coolest person on the face of the earth walking up to the little counter and handing them my slip.  Kind of like saying, ""Yea, you wish someone loved you, bitch.""  Even though the package usually contains something dumb like, well, like in my case today...deoderant and Halloween candy.
+
+Laundry is a pain in the ass.  I know, because I havn't done it for the past 2 weeks, and now I'm doing it.  The main goal of laundry in college is to pack as much laundry as possible into each load, since each load is so expensive and money is definately a conservable commodity around here.  It costs me $1.75 to do each load of laundry, which is making me consider some alternative routs to aquiring clean clothes.  My grandfather always tells me about how when he was in college he would go out and buy new pairs of underwear and socks each week, so that he wouldn't ever have to wash them.  I figure I can get a cheap thing of boxers and socks each week and cut down on my laundry by a good 25%.  That may or may not decrease my spendings each week, but if my calculations are correct, the spendings will just about even out, and I won't have to do as much laundry.  Simple math folks, its actually useful in the real world.
+
+I miss my late night convo's with Shaina, come back to me bebe!
+
+Emily, octagon and boa's are the simple way to make a day a bit better.
+
+Mom, quit reading this you evil evil woman.
+
+I'm so money, and I don't even know it."
+"eventtime","2002-10-01 13:49:00"
+"current_moodid","48"
+"url","http://hawkinsdp.livejournal.com/13109.html"
+"userid","6131"
+"itemid","50"
+"event","Note to self: drunken rantings are bad.
+
+Now that we have that established, we can move on to more pressing subjects, such as girls, booze and whatever else that remains important in my life.
+
+I really hate community service, I mean seriously, its probably the most useless thing in the entire world.  I'm doing community service for a posession of alcohol underage ticket from last year, and yet I feel that the job I was assigned is entirely worthless.  I work at a fire station and I clean.  I'm not helping the homeless, I'm not putting out fires, hell, I'm not even cooking for hungry firemen, I'm just a stupid cleaning boy.  In fact, I dread every Tuesday and Thursday simply because of this job.  Community service usually implies that you're doing something for the community, I mop floors.  
+
+For my entire life I've always been that guy who is ""too good of a friend to date.""  This actually seems kind of ridiculous to me, considering that good friends make the best relationships.  Think about it, if your parents didn't ""risk their friendship"" to become involved, you would have never been born.  Therefore, I have concluded that ""we're too good of friends"" is just a bullshit excuse to -really- say ""I think you're ugly.""  There is no such thing as ""too good of friends"" and no longer will I fall victim to girl psycho-babble.  I'm fed up ladies, figure out what you want or become lesbians, your bitching isn't helping me any.
+
+I think I'm going to write my senior thesis on women.  I have plenty of research in progress, and after my years of observation, experience and dissection of the female mind, I think I am nearing a breakthrough.  Maybe I'll even publish my findings in a book, so that guys will no longer have to put up with the utterly confusing nature of women.  Just immagine, every excuse, every common phrase, every twist in relationships mapped out in one big Atlas to the female mind.  Example:  ""Chapter 21 - How to install a brethalyzer on your annoying ex-girlfriend's phone, and other various anti-bitching tactics.""
+
+I seriously think AIM needs a brethalyzer too.  I have had more random conversations on AOL at 5am after a long night of drinking than I ever would if AIM didn't exist.  By the time 5am rolls around, its much to hard to dial a phone, but AIM is easy to sign on to, especially if you have your password saved.  The conversations that ensue, which I often don't remember, are frequently related to girls, relationships and how much I wanna ""tap dat ass.""  Or whatever, I'm just trying to sound macho.  Anyways, I suggest every computer be installed with a small brethalyzer that inhibits drunken AIM talking.  I would get in so much less trouble.
+
+Drunk-dialing is also a pretty common thing around college campusus.  I really wish I knew how to install a voice recorder on my cell phone, I would probably realize why so many people act wierd around me the next day.  ""Oh, hi Dan, um, nice talking to you last night....""
+
+I've really noticed how I keep my personal relationships private around my buddies, which is pretty uncommon, since the most popular phrase the morning after around here is ""Whoa dude, she was good in the sack!""  I don't think I've ever had the pleasure of saying this, but thats okay.  I'm in a bit of a squabble right now which is really hard to figure out on my own, but I can't bring myself to talk about it with anyone around here, simply because if someone came to me with a problem like this, I wouldn't give a shit.  Still, being the good friend I am, I'd listen, observe and comment.  But still, sometimes its annoying when people come up to you with their relationship problems and you're still trying to get a date for the party on Friday night.  
+
+Pete yells at me for typing so loud when he's trying to goto bed.  I wish I could say ""well, don't goto bed so goddamn early"", but I'd really feel bad.  I think he's cooler than me anyways, of course, thats true with a lot of people.  
+
+I think I'm the resident computer geek.  I spent two hours today fixing Jared's computer after I could have sworn I broke it for good.  If you're on a college campus, you've probably seen people who have been infected with the AIM worm.  They send you a random IM that says ""Cool, (insert random URL here)."" and when the other person clicks on the link, they get the virus too.  Well, it turns out its a pain in the ass to remove, but I have it down solid after today.  His computer was so littered with little stupid viri like that that I figured I was going to have to re-install Windows entirely....Oh God, I'm on a geek tangent.  If only girls digged guys who can write HTML.  Boot my harddrive baby, I'm microprosessing.
+
+Put a fork in me, I'm done."
+"eventtime","2002-09-30 01:53:00"
+"current_moodid","103"
+"url","http://hawkinsdp.livejournal.com/12805.html"
+"userid","6131"
+"itemid","49"
+"event","Its another one of those nights when I'm pissed off and I can't talk about it.  Its hard when you have to keep stuff to yourself because you're ridiculed otherwise.  
+
+This is basically how my life goes:  I have an opinion and its so utterly disagreed with that I have no choice other than backing down and giving in to whatever the popular opinion is.  My opion has basically never matter be it with my family, threshold or my fraternity.  Its fucking ridiculous.  Whenever I make a good godamn point, nobody listens, because its just Dan and what he says doesn't really matter, he's just another guy thats there.
+
+I can't stand party's that are so crowded that you can't walk around.  I'm increadilby clastrophobic and being in a 5x5 room with 2000 people is impossible.  When I can't even walk around to get a damn beer, I give up, its too retarded to even be there.  I had to get a ride home tonight because I felt so fucking clastrophobic I couldn't stand it.
+
+It seems that ever single relationship in my life has gone to shit too.  I'm too fucking paranoid to talk about the most recent relationship quandries that have gone on, but lets just say that its more than typical.  How many times do I have to hear ""we're just good friends"" before it turns lame?  I'm sick and tired of girls bitching about how they can't find a guy that respects them and wants to be with them when they run off and fuck random guys just because they were the smoothest talkers at the party.  Fucking get a life girls, if you want soimething...actually strive for that, don't bitch and moan after you fuck up the night before.  Its not that hard.  Maybe I'm just too timid of a guy, and with all the stigma around me, I can't stand the norm, and therefore refuse to participate in it whatsoever.
+
+Jagermeister is the drink of the devil, and therefore it earns our spot in the drink of the day.  It doesn't matter when, where or how I come about Jagermeister, but I always get so fucking pissed off about life that I can't stand to be around anyone anymore.  Thank you Satan for this wonderful work of art, but I really need to start avoiding ""late night Jager shots"" when I'm around people.
+
+I'm drunk.
+
+I'm ranting.
+
+I give up."
+"eventtime","2002-09-29 01:46:00"
+"current_moodid","2"
+"url","http://hawkinsdp.livejournal.com/12746.html"
+"userid","6131"
+"itemid","48"
+"event","The worst question in the entire world: What is my name?
+
+College is a steady steam of social interactions and introductions that are often experienced under the influence of alcohol.  Therefore, actually learning names is quite a daunting task, considering you don't even remember your own cell number by about 11pm.  Every kid in college has a bunch of ""campus friends"", in other words, people you see around campus and say 'whats up' to, but can never actually figure out their names, where you met them, or more importantly, who the hell they are.  In college, everyone looks familiar, so these awkward friendships are often the spawn of a mistake, but remain constant throughout school.  Now, it would be easy to simply trade names the first time you don't remember, but then again, everyone is much to proud to go through an uncomfortable confrontation as such.  
+
+This weekend was parents weekend, which is always quite a time.  Some people's parents leave around 8pm and go back to the hotel to watch TV and enjoy a relaxing night by themselves, while others go out and get sloshy drunk.  Fortunately, being in a fraternity allows me to witness much more of the latter.  I'm talking dad's playing beer pong, puking over porches and throwing chairs at Porche's.  (Yes, that really happened.)  Friday night was a desert party for our parents, which quickly turned into a drunken mess by 11.  Saturday night was the football game, so we all got sloshy drunk by 2.  The rest of the day was spent maintaining buzzes until an all night blitz of binge drinking that set everyone home early for good night sleeps.
+
+I spent most of my night wandering around and talking with Carrie about how much boys suck, which is only innevitable considering the ratio of girls to guys is ridiculous here.  If I was a bit more of an asshole guy, maybe I'd actually pull some ass around this campus.  Unfortunately, I'm actually one of those rare guys who would rather have a girlfriend, and get ass on a regular basis.  Because of the horrible skewed ratio, guys know that they can get anything.  In turn, girls have to change their views on hooking up and relationships based on the pigheadedness of the guys.  Basically, a guy could have three regular hookups on this campus, and none of them would ever find out about eachother, its retarded.
+
+Speaking of hookups, and names, how wierd would it be to wake up and not know someone's name?  I have a few friends who have experienced this first hand, and frankly I don't know how the hell its possible.  ""Um, excuse me, whats your name, do you want to goto Biscuitville and get some food?  I don't have a car, I was just wondering if I could borrow yours.""  If I was a girl, I would break out the baseball bat.
+
+One thing that really annoys me is when I get a paper back from a professor and there are two grades, one grade that is scratched out and another grade that is lower, maybe only by a 1/3 of a letter, but still lower.  This really pisses me off, because its obvious that at first I deserved an A-, and now I'm getting a B?  I mean, what the hell, there should be some kind of rule that as soon as the pen hits the paper, whatever comes out sticks, no matter what.  This is most likely the most incredible insult known to man.  ""Yes Dan, you did good, oh wait, no you did alright, suck it up.""  This is not how the real world works.
+
+The worst thing about getting a new cell phone is trying to figure out the new ring.  I just got a new cell, in leu of my old one deciding to die on me, and losing all of my saved numbers in the process.  My parents decided to try calling me at 10am to wake me up for breakfast, and only after my roommate attacked me with a barrage of pillows did I realize what was going on.  Hell, for all I knew it was just another fire alarm to ignore and sleep through.  
+
+Am I the only one who has to call his own cell phone just to find it in the morning?  This method is definately much easier than digging through a hamper full of clothes, trust me.
+
+The drink of the day is Alka-Seltzer Morning After, because for some strange reason it cures all hangovers.  And hell, I thought coffee got you less drunk.  Thank you God for your wonderful invention, maybe I can wake up a few hours early to catch some good Sunday morning TV.  
+
+Is it too much to ask for a girl who enjoys playing video games as much as I do?  Or maybe at least one who can understand the in-depth humor of Office Space as much as I can.  I can only hope, meanwhile my Soprano's addiction is calling me.  Speaking of which, well, I'll have some news later.  Until then...
+
+Au revoir."
+"eventtime","2002-09-22 20:33:00"
+"current_moodid","120"
+"url","http://hawkinsdp.livejournal.com/12390.html"
+"userid","6131"
+"itemid","47"
+"event","Food I officially take for granted when I am at home:
+
+1.  Cereal and milk.  On campus you can obtain this through the dining halls, but its usually stale and the milk is warm, making it hardly worth the effort.  Also, when cereal comes in a pre-packaged bowl, it just doesn't work the same, milk distribution is not adequate.
+2.  Spagetti.  Again this is readily available in all dining halls, but for some reason it just doesn't taste the same when some fat black women is preparing it for you instead of yo' mama.
+3.  Cookies.  On a college campus these are usually packaged by Keebler or some other gay elf-toting company.  In my humble opinion, cookies fresh out of the oven taste much better.
+4.  Beer.  Normal college beers are Busch Light, Milwaulkee's Best (The Beast), or on rare ocassions, Budweiser.  At home you get to drink like the gods, with beers ranging from Sam Adams to Rolling Rock and the best of the lot.  Its just not the same getting sauced off of cheap beer, and the morning-after effects are ridiculous.
+
+I start my community service for my ticket last year on Tuesday, which means I get to wake up a whole 5 hours early and go shovel shit at some local Fire Station just to get this ticket off my record.  Although this is definately worth it, the work sounds awful, and its basically a waste of my time that could be spent doing something useful, like sleeping.
+
+This weekend was bid weekend, where we decide on who is going to get a bid to the fraternity and see who accepts their invitation to pledge.  Out of five bids that we gave out, five came back, giving us a 100% comeback ratio, pretty good considering our harsh reputation for the treatment of pledges around campus.  Maybe these guys are just naieve.
+
+Saturday was bid day, which is basically a big drunken haiatus in which the entire chapter runs around campus yelling, screaming, trashing rooms and giving out bids.  The people who accept the bids are then welcomed to an introduction ritual, which is pretty hush-hush, although pretty much on campus has a good idea what goes on.  Lets just say there were some pretty drunk pledges on Saturday night.  Our house party was pretty much a bomb.  The lack of beer and strict admittance rules that our fraternity has decided to enforce this year made the whole thing quite bland.  I actually ended up spending most of my time wandering around and anticipating the afterparty.
+
+All parties on campus get shut down at 2am, which is fairly ridiculous considering the fact that everyone ends up driving/walking/drunkenly stumbling to some off-campus party.  In my opinion it'd be much safer to just let the kids get drunk all night and enjoy themselves.  I, ironically, remained fairly sober the entire time.  I guess I just wasn't in much of a partying mood.  At Bombshelter, our off campus house where the afterparty was, I ended up running the keg pretty much all night, which actually makes for some very humorous situations.  The man with control of the keg basically has control over the entire party, and some people go to ridiculous measures just to get a single beer.  I had some kid hand me five bucks for one beer.  I never saw him again.
+
+To protect the anonymities of pledges on here I guess I'll use nicknames so I can still develop stories, but not name any actual people, until I'm sure I can.
+
+Flounder is one of our new pledges.  He's a fairly timid and fat kid that gets real rosy cheeks when he drinks.  Throughout the night I saw him be put to bed and arise again to re-join the party at least 3 times.  The kid was unstoppable.  By the end of the night he was standing against the bar and proceeded to puke all over his shoes.  The last time I saw him was in the kitchen, where he was being coached on by a few friendly bystanders to chug water.  Apparently he's fine today, but it was quite humorous at the time.
+
+The mayhem ensues tomorrow, and I sure hope these guys are ready, I know I hardly knew what was comming when I got into their shoes.  Pledging is a game, its over in 7 weeks, damn, I should be a pledge dad with all my worrying for them.
+
+The new Soprano's came on tonight, along with Pleasantville - a movie that I havn't seen in a while, but really enjoyed again.  It reminded me of home, and when I got made fun of for watching it I got really defensive.  Eat my ass guys, I'm a movie geek.
+
+I'm getting longwindinded, and thats about it for the weekend wrap-up.  Shaina, seriously, answer your phone at 3am, I get bored sometimes."
+"eventtime","2002-09-16 01:28:00"
+"current_moodid","51"
+"url","http://hawkinsdp.livejournal.com/12065.html"
+"userid","6131"
+"itemid","46"
+"event","Okay, just to clarify this, I am not saying that I wasn't affected by 9/11 at all.  In fact, the whole thing really upset me a lot, but I don't think that the media overkill and commercialization of such tragic events is warranted.  I turned on the Weather Channel this morning and there was a 9/11 report, I walked across campus and there was a reading of names, I went to class and it was all over the discussion.  Look, I just want to grieve and get over this all, not re-live the entire thing again.  It was hard enough the first time.  And then again on the 6th month anniversary.  And then again today.  And then..."
+"eventtime","2002-09-11 15:33:00"
+"current_moodid","25"
+"url","http://hawkinsdp.livejournal.com/11791.html"
+"userid","6131"
+"itemid","45"
+"event","Eeveryone is mourning today.  Of course its the ""infamous"", the ""horrific"", the ""day of atrocity"" that everyone will be making money off of for the next 40 years.  I know I sound like an asshole for saying it, and I appologize to anyone who knew someone in the NY area, but September 11th has turned into one big fucking holiday.  You celebrate things that are happy, like weddings, birthdays or even Tiger Woods losing, but to hold a day of such loss and sadness in such high regard, and treat it like a national holiday is just plain stupid in my eyes.  Okay, okay, I don't want to hear the arguments about how we should be all happy that we have risen from the ashes like some mythical Pheonix creature and stuck back in the face of terror, because face it folks, we have done close to jack shit so far.  Whooptee doo, we bomb the fuck out of these people, raid their caves and cause a bunch of mayhem, but to what avail?  They still send us taunting video's and leak messages of terrorist ploys against America.  
+
+I remember walking into a K-Mart last year about a week after the terrorist bombings and seeing a t-shirt that said ""We're commin' to get yew!"" scrawled across a bigass American flag.  I find this increadibly stupid too.  Granted, some people are making t-shirts and selling them so that they can donate a portion of the proceeds to various good causes, but Jesus Christ people, $17million dollars alone was raised by schoolkids across the country who apparently donated portions of their lunch money to some far away fund.  Do we really need any more?  And to the K-Mart t-shirt, is making money off of such an awful tragedy truly necessary?  I remember a group of guys that lived downstairs from me last year planning on making and selling t-shirts and keychains that resembled a bullseye with Bin-Laden's face in the middle of it.  Since when did we turn into a nation of t-shirt selling capitalist scum?  Oh wait, we've always been that way.
+
+In some ways I kind of see the Al-Queda as that guy who always picked on the nerdy kid at lunch.  For years these guys have been picking on the most pitiful of people, such as their wives.  Then the bully gets a little bit of gaut and decides that if it put some effort into it, it could probably scare the bejesus out of those older football player guys, so he punches one in the eye.  The football player is knocked the hell out, but his friends quickly retaliate and kick the shit out of the bully.  Now, of course the bully isn't going to mess with the football players anymore, but instead he decides to start sending them threatening e-mails and prank calls, oooh scary.  Right?  Same with the Al-Queda, we kicked their sissy asses around, and now they're just prank calling the US every once in a while.  Today the US was put under the highest alert status possible by the government.  Now, I could eat my shoe as this day goes on, but I seriously think this is just another ploy by the Al-Queda prank call team.  
+
+Alright, enough of my ranting about that, hooray hooray USA, Bin-Laden has sex with donkeys, down with terrorism, hooah, hooah.
+
+The drink of the day is NyQuil, because not only does it mess you up royally, but it also makes you better.  Kind of like a dual-package of goodness.  Speaking of which, I'm totally bombed out on the NyQuil, and I have a 9am class (usually 9:30, but all of our classes got rescheduled due to 9-11 rememberance crap.)  Please, lets just get over this and move on.
+
+Let the nasty e-mails and IMs begin, I know they're comming.  Maybe its the fact that the fall of the Twin Towers had absolutely no effect on anyone I knew, or maybe its just all surreal to me to even make sense, but I think its high time we moved up and moved on.  For Godsakes, people are dying everyday in the charcoil slave camps of Brazil everyday, don't you think we could find something worthwhile to focus our attention on?
+
+God is going to give me nightmares for this one.  Peace in the Middle East."
+"eventtime","2002-09-11 01:09:00"
+"current_moodid","3"
+"url","http://hawkinsdp.livejournal.com/11666.html"
+"userid","6131"
+"itemid","44"
+"event","Teachers who give online quizzes are stupid.  I mean, I can understand the reasoning behind these quizzes, like making sure people do the reading, but honestly, who DOESN'T use their book.  If I have a clear-cut way to success, I'm obviously going to take it, especially if I know I'm not going to be caught.  Its the American way, how do you think Bill Gates got to be rich?  He didn't go out and do something amazing, he cheated, lied and stole his way to the top, and I totally respect that in every sense of the word.  Without cheating, do you even think that we would have a nation?  Hell no!  If the US hadn't of lied and cheated its way to freedom, we would still be a part of the motherland, and we'd all have bad dental hygene too.  Thank God for those brave souls.  In conclusion, I can easily justify cheating on an online quiz.  Stupid teachers, you will never learn.
+
+I think I have absolutely no immune system whatsoever.  I have determined this through extensive research, including the compiled documentations of my over 100 illnesses just last year.  I don't know if its the town of Elon or what, but my immune system totally goes to hell when I get to school here.  Right now half of our house is sick with some crazy virus or something resembling a cold.  The sucky thing about living in such close proximity to so many dirty people is that they are constantly giving you whatever cold, flu, virus, bacteria, STD, whatever that they come in contact with around campus.  I hate to think what kind of living bacteria and viri I could find on our toilets alone.  I'm not really sure how to cure a sore throat, but thankfully mommy and daddy packed me a nice goody bag of get-better pills and losanges to keep me alive through these rough times.  Gee thanks guys.
+
+My computer screen is starting to look like the winshield of a '75 Chevy due to all the bug-splatters that have accumulated over the past few weeks.  Pete and I have to keep the window open because it gets so damn cold in here, and of course by the second week of school some dipshit had already knocked out our screen, so we sit here naked to the infestation of outside life.  I've actually had to start shutting my computer at night due to the sheer number of bugs swarming around the warm glow of my laptop at night.
+
+I think I'm way too nice around girls.  I've concluded this due to the fact that most of my friends are total assholes and get laid on a regular basis.  Jared, our house manager, was just bragging about how he made out with 8 different girls in one night, I don't know how he pulls it off.  Put simply, I havn't even kissed a girl since I've been at campus (at least that I can remember), which leads me to conclude that I need to smack my ho's around if I want some play.  Or maybe I just need to meet nicer girls, who knows?  Whatever, for now my attempts are fruitless, and will probably remain that way for a time to come.
+
+The drink of the day is green tea, because apparently its supposed to cure nearly every ailment, or something.  I personally don't believe any of that herbal bullhonky, and I would much rather listen to Mr. T.  Drink your milk, take your vitamens, don't do drugs and stay in school.  Why?  Because Mr. T. says so damnit.
+
+Well, I have a warm yellow glowing IM from Shaina waiting, I better retire back to my life of IM nerdyness.  Live long and prosper. (Oh God, did I seriously just say that?)"
+"eventtime","2002-09-10 02:13:00"
+"current_moodid","82"
+"url","http://hawkinsdp.livejournal.com/11281.html"
+"userid","6131"
+"itemid","43"
+"event","Time for the wacky weekend wrap-up, with your ever-interesting host, Dan!
+
+The weekend started off with a big positive, the ""Roll in the hay with KA"" crush party.  This party was perfect for a few reasons:
+
+1.  The ratio of girls to guys was increadible, I'm talking at least three girls for every one guy.  And all the dudes were brothers (except for a few stragglers), which made it a great time.
+2.  I got to dress up like a redneck.  Now while most brothers were going the route of buying an $80 cowboy hat, &150 Steson boots (or whatever), I went to the local thrift shop, picked up a ridiculous mesh trucking cap and ripped up and old shirt.  Voila, redneckyness extremo!  And I only spent $2, let this be a lesson to you kids.
+3.  Everyone got wasted!  Note to self:  fruit soaked in alcohol is definately potent.
+4.  Stan was only able to break the screen door, nice job of restraint buddy!
+5.  Katz had one of the most interesting ""fuck you"" e-mails to everyone in the chapter the next day.
+
+The only downside of this party:  I found out that I'm allergic to hay.
+
+So I totally got lost on the way home from this party, but I think thats okay considering my current state.  Its a really funny story, but definately too racy for here.  Maybe some other time.
+
+Saturday was another interesting day.  We all woke up late and went over to some random house for a keg-race with two sororities and the Sigma Pi's.  Notable events of this day include Roy and I desperately attempting to find Pizza, only to discover that Pizza Hut was closed.  The police showed up and lit the party up (no, nobody actually gets in trouble at Elon, but the police like to poke their noses around.)  So we ended up comming back to the house and cooked up some delicious George Foreman hamburgers, since we're way too poor for a real grill.  The game was amazing, considering Elon actually won, although most of us spent the whole game pushing eachother down the hill, passing out in the grass or harassing the security guards.  The night was fairly uneventful, as most people were way too stupid to go out and do anything.  
+
+I totally forgot about my excellent phone call with Shaina, which was probably one of the more entertaining events of my night.  I don't know who this Dan kid is who was harassing her, but I swear he needs a good 'ol country backwoods arsewhoopin.
+
+The drink of the day is ANYTHING, because I get so damned thirsty in the morning and there is never anything to drink.
+
+Random image of the day:  Spalding standing on the back of the Sigma Pi porch yelling ""No longer will we have to wear blindfolds, when we jerk eachother off!""
+
+Music downloading programs are so annoying, since half the time they never work.  Maybe its just because of my school or something, but when I want free MP3s fast, I totally demand better service than I'm currently getting.  Okay, I just realized what a greedy bastard I am.  Back to my already-over-2000-songs playlist.
+
+The first party of fall rush was tonight.  Fall rush is when all the older guys who didn't get bids, or didn't rush last year come out, so obviously the field was pretty weak.  There were a couple of cool guys, but I just can't wait until whoever they are turn into pledges.  Oooh, must supress anger.
+
+Time to go do something interesting.  Peace in the Middle East."
+"eventtime","2002-09-09 00:11:00"
+"current_moodid","33"
+"url","http://hawkinsdp.livejournal.com/11216.html"
+"userid","6131"
+"itemid","42"
+"event","Oh, by the way, the drink of the day is water.  Its plain, bland, tasteless, odorless and yet essential to life.  Think about it."
+"eventtime","2002-09-05 23:49:00"
+"current_moodid","47"
+"url","http://hawkinsdp.livejournal.com/10788.html"
+"userid","6131"
+"itemid","41"
+"event","Okay, so I had a lot of stuff to do tonight.  I have two quizzes tomorrow, a paper due and I had a forum of Pulitzer Prize winners to go and see tonight.  Meanwhile, everyone I know is out getting ridiculously sloppy drunk.  We picked out new sweetheart tonight, which would of been so much fun to go to, had it not have been for my damn Pulitzer Prize forum.  Everyone else is probably at the bar, or somewhere sucking down keg beer, meanwhile I'm trying to focus on God and the Old Testament along with Journalism, of all godforsaken things.  Oh the woe of my life.
+
+Unlike most people at this school, I'm not allowed to re-take classes, simply because I'll have to pay for them myself.  Andy, my really good friend had to re-take 2 courses this summer, which I'm guessing totalled around $2000, all billed directly to his parents.  For me, it comes directly out of my bank account, which is currently suffering.  This is considering the fact that I just shelled out $200 to the Graham court system today for my ticket from last year.  After that I get to shell out another $300 for fraternity dues.  Goddamn this sucks.
+
+I have so much information in my head right now that it hurts, literally.  I really shouldn't be worrying so much about the first quizzes and papers in classes, but still I'm a worry-wart, so I do these kind of things.  Did I mention the paper is extra credit?  Yea, I'm stressing out over an extra-credit assignment, which I'm hoping will make up for the quiz that I am about to uber-fail tomorrow afternoon.  One upside to the whole situation, I get to go get sloppy drunk at our crush party tomm. night.  Speaking of which, ""Roll in the hay with KA"" sounds like a country theme, I better find something ""country"" to wear.  Damn the man. 
+
+I'm starting to doubt my religion again, which happens about every-other year or so.  Reading about all the history and truth behind the Bible is really a daunting task when you come from a religious background.  I know its healthy to be well rounded, but some of the things are very iffy in my book.  However, it is interesting to see where all the text came from and whatnot.  I don't know.
+
+So the house is quiet for once, which I assume is a rare thing.  I really don't know what to do with myself.  Maybe I'll just sit..."
+"eventtime","2002-09-05 23:47:00"
+"current_moodid","30"
+"url","http://hawkinsdp.livejournal.com/10509.html"
+"userid","6131"
+"itemid","40"
+"event","Doing laundry at school is one of the biggest pains in the ass of all time.  I mean seriously, it is so difficult to go to the bank, get quarters and sit here and do laundry.  First of all, I have practically no time in my busy schedule to actually be thinking about doing this, and secondly, I just don't feel like doing it.  I know people who get so sick of doing laundry that they end up going to Wal-Mart every Monday and buying a new set of boxers and socks for the rest of the week.  I can honestly see where they're comming from.  
+
+I just finished an assignment for Writing and Information Gathering, which is turning out to be one of the worst classes that I have ever taken.  I mean, seriously, who the hell decided to make a class all about the one thing I hate: politics?  I did have a good friend in that class, up until yesterday when she dropped it.  Damn.  Now I'm stuck in this hell-hole of torture for the rest of the semester by myself.  
+
+Another bad thing about college is showering.  Now, it wasn't all that bad last year since I had a room that connected directly to a bathroom that was shared by two other people.  That way we could keep it relatively clean, and it never got clogged up, etc.  This year, living in the house, 11 guys (plus whatever random guests are over) have their choice of using either two of the public bathrooms downstairs (which I would never use, yech), or either two of our private bathrooms/three shower stalls upstairs.  Okay, this didn't seem so bad at first, the showers were warm and the bathrooms were constantly stocked with TP.  Fast foreward to this week.  I wake up the other morning with the sole intent of jumping in the shower to get all this grunge and alcohol smell off of me, and lo and behold, my shower stalls are covered in what appears to be pizza, shampoo and some other white creamy substance which I honestly don't want to touch.  Oh yea, I forgot to mention the wet TP that was scattered across the whole damned thing.  To add to that fact, the first two stalls have been clogged up by something and have such horrible water pressure that it makes showering a futile act.  I give up, maybe I'll wash myself in my sink...oh wait, thats gross too.
+
+This weekend is going to be great, we have a crush party (where you get to invite three girls), a night football game, and the beginning of rush on Sunday.  Yay, finally I get pledges!
+
+The drink of today is cranberry cocktail, because I had no idea I even liked cranberries until I ate at an Elon dining hall.  Goes to show what variety does for you.
+
+Back to work, I can't concentrate, I need aderol or something.  I swear to God I have ADD."
+"eventtime","2002-09-03 13:09:00"
+"current_moodid","114"
+"url","http://hawkinsdp.livejournal.com/10297.html"
+"userid","6131"
+"itemid","39"
+"event","My goal of the week is to quit smoking, which is getting increadibly expensive on my college budget.  Hold on, I'm going to bum a cig from Roy.
+
+2 minutes later:  Okay, so this is way harder than I ever expected.  I quit last semester, but I was also sick, which made it a lot easier since I could be in bed all day.  Its really a bad habit, but when everyone else is smoking around you, its really fucking hard.  I dunno, maybe girls will like me more or something.  Lets just keep telling myself these things.  I'm in a cruddy mood.
+
+Money has always been a horrible thing to deal with around Elon.  I go to school with a bunch of people who's parents load them up with money and never have to worry about anything financial, ever.  They can go out every night, have a good time while I sit here and type to a damned internet journal.  Whee.  So I have about $800 in the bank, I owe about $680 this year for fraternity dues, and $190 for court costs.  Christ, I'm so poor.  I really need to get a job on campus, but that is prooving to be a lot more tedious than previously expected.  I showed up to a meeting tonight for a job with Campus Rec, but with the 12 jobs they're giving away, over 100 people showed up at the meeting.  Now obviously I'm not going to get that job.  I've been addictively watching the campus job channel on TV too, which is also seeming quite fruitless, considering half the jobs are for lab assistants, and the other half are for TA's.  In other words, I'm screwed, I'm worried, I think I'm having an anxiety attack, I'm not going out on a fun night, did I mention I have no money?  I quit.
+
+That was just my second bottle of milk all day, Jesus, I'm getting fat too.
+
+The drink of the day is apple juice, because it just tastes good, alright?  All last year we called it ""happy appy juice"", but its not making me any happier, damnit.
+
+I have homework to do still, this sucks."
+"eventtime","2002-09-02 22:03:00"
+"current_moodid","9"
+"url","http://hawkinsdp.livejournal.com/10132.html"
+"userid","6131"
+"itemid","38"
+"event","To whomever used my toothbrush to stir liquor last night: you will die.  I'm not talking about a quick gunshot to the head either, you will suffer a long, painful and utterly horrible death that I will quite enjoy administering.  Perhaps beginning with peeling off your outer layer of skin and forcing you to roll around in a mound of sand.  After I'm done with you, I will go to your parents' houses, followed by their parents' houses methodically murdering every single line of seed in your entire family.  Your genes will no longer exist in this world.  Toothbrushes are made for brushing teeth, no more.  Thanks, I'm done."
+"eventtime","2002-09-02 02:32:00"
+"current_moodid","2"
+"url","http://hawkinsdp.livejournal.com/9949.html"
+"userid","6131"
+"itemid","37"
+"event","No, Anne was not cheating on Patrick with me.  I got her first, in the 9th grade!  Anytime baby!"
+"eventtime","2002-09-02 01:04:00"
+"url","http://hawkinsdp.livejournal.com/9487.html"
+"userid","6131"
+"itemid","36"
+"event","Folks, first of all, its Eeeee-lawn, not El-on.  Alright?  All you northern pricks take your dumbass accents and shove them.  Welcome to the south, bitch.
+
+The first houseparty went like clockwork, kind of.  Other than the mysterious fire alarm around 1 and me getting absolutely shitcaked, it was a good time.  At one point we actually had a line of people out into the greek courts just trying to get in.  Sorry people, the house can oinly hold so many people!  And it did, it was packed beyond belief, I'm taking no elbow room here.  Of course this forces everyone to get a little bit closer, so I hope you brought your Big Red -- kiss a little longer.  Okay, I'm cheesy.  Reister, I saw you eat floor last night, don't even lie.
+
+Anne is more beautiful than I ever remember, I loveya babe!  We had the wierdest of reunions last night.  Andy, Anne and this guy named Patrick Driscoll both showed up.  We all went to Vance High School together, and ironically Anne used to date Patrick, along with me by the way.  I don't really know how their relationship ended, but I don't think it was too happy, still what a wierd and awkward meeting.  
+
+When did I goto bed?  If there are horse shoes, are there horse socks?  Does anyone actually read this thing?
+
+The drink of the day is rum, because it goes so well with Yoo-Hoo.  Rumplestiltskin?  I don't think so.
+
+The only bad thing about college is homework.  I mean, we already deal with classes, so why ruin my time after classes with meaningless boring work.  How fun would this be without work?  A good friend of mine says that it would basically be sleep-away camp.  With lots of beer, sex, and meaningless banter.  I love my life.
+
+Girls is PJs = good.  
+
+Footballs on, and I have homework, peace."
+"eventtime","2002-09-01 16:15:00"
+"current_moodid","96"
+"url","http://hawkinsdp.livejournal.com/9285.html"
+"userid","6131"
+"itemid","35"
+"event","So welcome to college, the only place where you can do practically anything you like and not look like a total ass for it.  For example, last night we had a beer fight.  This is when two utterly intoxicated parties take half-full beverages and chuck them at eachother in a playful manner.  Obviously this progresses into pouring beer on eachother, and finally an all out beer war.  The Coup De Temps of hops and barley, so to speak.  In normal society, this kid of act is unacceptable, and usually shunned from most public places.  But at school, all the dudes sit around and say ""Huh huh, cool.""  
+
+Living in the house is a disaster.  Every morning I wake up to the stench of old beer and musk, which is actually starting to grow on me.  Our floor is covered in shit, and my refuge for now is my room, which is actually relatively clean, except for the floating beer cans by the sink.  People always piss in the showers upstairs, which we have to use daily.  I'm seriously considering getting a sorority girlfriend, just so I can go use their shower.
+
+I'm taking Intro to the Old Testemant this semester, and I absolutely love this class.  For some reason, the idea of having Bible study every monday, wednesday and friday didn't seem overly appealing to me, but now I come out of class at 10:30 feeling refreshed and enlightened.  Yay dad, I got some God in me!
+
+The worst part about college classes is the name game.  What the fuck is the point?  I played the name game in the fourth grade, and it actually kinda made sense, considering you had to put up with the same 20 people for the rest of the year, but not in college!  In college, I want to come to class hungover, take a few notes, and be back in bed to boot.  I don't really care that the girl sitting next to me is ""Katie So and So"" from Shaborgin with interests in bugs, photogrophy and dirty asian foot porn.  Common people, this isn't social hour!  Learn me sumptin!
+
+We're having our first house party oin Saturday, which is utterly exciting and horribly scary at the same time.  On one hand, its going to be a rockin' kickass time.  On the other hand, we get to clean up next morning.  Fuck that, I'm going to church.  The infamous Anne Barry is comming down to see me, which I'm totally stoked about.  Anne is my first love, the apple of my innocence, and one of the most overall nicest people I know.  We dated in the 9th grade (man I'm good with keeping up with old girlfriends, ey?) and someday I plan on marrying her, but thats a whole nother story alltogether.  Her. Andy and I were all good friends through the 10th grade, when I made the crappiest move ever, to the wonderful shithole of South Carolina.  I already have her dustruffles on the bed, loveya babe!
+
+The drink of the day is 2% milk.  Because, damnit, what would the world come to if we had 100% milk?  Mr. T says drink it, so do it, damnit.  And goto school, bee cool.  Shit, while you're at it, take your vitamins.
+
+I'm skipping my 1:30 class just to be an asshole.  Of course nobody will care, but I love being able to do that.  Story at 11."
+"eventtime","2002-08-30 12:12:00"
+"current_moodid","104"
+"url","http://hawkinsdp.livejournal.com/9060.html"
+"userid","6131"
+"itemid","34"
+"event","Yet another eventful night at Elon.  Last night was looking bleak as far as entertainment, until 12 of my best friends (all named Busch, ironically) decided to come over and have some fun.  We then preceeded to play beerpong at Sigma Pi and basically get shitty-cock wasted.  Wow, what an interesting life I lead.  Of course we had our share of antics, including Roy (who woke up naked for no reason yesterday morning) trying to get a cab to goto the store and buy food, and some girl dancing around wasted with a huge asscrack.  Girls, check it out, those low jeans are hot and everything, but thats taking it a bit far.
+
+I got all my important school stuff done today.  Wait, school?  I came here for this crap?  I spent nearly $400 on books, which really pissed me off, and another $25 on a parking sticker.  Hell, I pay tuition, parking should be free, this isn't a damned Braves game.  
+
+The good thing about Elon is the increadibly skewed girl to guy ratio.  Basically our school is 70% women.  Subtract a 10% ugliness factor, another 5% lesbian population and you've got a pretty good number of 55% hot women strolling around.  Of course you have to figure 50% of those girls have boyfriends, so I figure there are right around 22% hot single women just walking around.  I feel so privelaged.  Speaking of which, where is mine?
+
+The drink of the day is Dr. Thunder.  Dr. Thunder is the cheap Wal-Mart version of Dr. Pepper.  It  tastes exactly the same, and costs $7 for 50 cans, what a steal!  I think I'll enjoy myself one right now.
+
+I've been talking to Shaina a lot lately, its crazy that we have so similar personalities, and yet I havn't seen her since the 6th grade.  We basically finish eachother's sentances, maybe we're related in some wierd way or something.  In any case, its so awesome to make a new friend like that, too bad she had to up and goto London for a few weeks, I could really use a fun visit from a friend!  You're money babe.
+
+Its still freezing in our room, we're definately going to have to do something about this, I'm getting a bit tired of being too cold to sit on my computer.  Hell, its a pain in the ass just typing this right now.  Thats it, I'm going to sit outside and swelter."
+"eventtime","2002-08-26 11:48:00"
+"current_moodid","84"
+"url","http://hawkinsdp.livejournal.com/8959.html"
+"userid","6131"
+"itemid","33"
+"event","So I'm finally moved back into campus.  It took me about an hour to set up my room yesterday, which is good, considering it took me close to 3 hours last year.  Living in the house is great, except for the fact that people are up all night, and its darn near close to impossible to get sleep around here.  Its also increadibly cold in our room, I thought air-conditioning would be great, until I woke up and it was 40 degrees in our room.  My roomie is cool, he got all moved in yesterday, and of course we bought beers and drank them!
+
+Last night was wierd, we ended up going down to Sheredon, or however the hell you spell it.  There were hundreds of people there, all walking around in the parking lots, and it was all fine and dandy until ALE showed up and started arresting people.  They do this every year to scare freshman, its sad, in my opinion.  A damn fine waste of beer.  We came back here and had people over, but by that time I was practically too tired to stay up, so I just went to my bed and fell right asleep, in my clothes, wearing a hat.  How typical can you get?
+
+Three of my really good friends got into a lot of trouble last night, I haven't seen them (or at least I don't remember seeing them, so I hope they're all right.)
+
+I wish someone was awake, I'm the only wierd fuck who wakes up at 8am on Sundays, but I guess thats okay.  I got to see Lauren this morning, which was kinda neat.  She's doing freshman SERP testing, or whatever.  I guess that was yet another thing I accidentally ""skipped"" during freshman orientation last year.  They treat new freshman like cows, hearding them around in groups, teaching them how to live, breathe, walk, etc.  Its quite sad, but we've all been through it, its part of ""Welcome to Elon, lets put ourselves in a bubble!""  Even my roomie is covering his head with a blanket, avoiding my early-morning typing.
+
+I think I smoked a pack of cigs last night, or gave a pack away, I'm not sure.  All I know is I woke up with practically nothing on me, I'm such a generous drunk.
+
+The drink of the day is Gatoraid, the best way to re-hydrate yourself after a long night of partying.  Gatoraid comes in a variety of flavors, and even has carbohydrates! Whee!  I'm enjoying some Fierce Melon right now, shouldn't you?
+
+Its way too early to be up, I'm going to watch TV."
+"eventtime","2002-08-25 09:13:00"
+"url","http://hawkinsdp.livejournal.com/8526.html"
+"userid","6131"
+"itemid","32"
+"event","Oh, and Shaina?  No worries, I'm still madly in love with you too. =)"
+"eventtime","2002-08-24 06:11:00"
+"url","http://hawkinsdp.livejournal.com/8288.html"
+"userid","6131"
+"itemid","31"
+"event","Its only a few hours until I finally pack the car and head back off to Elon.  Its about damn time!  I did a couple fun things today, including randomly baking a meatloaf and watching even more copious amounts of television.  I'm a little distracted right now as my sister has 7 friends in the next room, damned teenagers.  Bah, what can I say, I'm sitting here typing away to a faceless computer with an ice-cold beer in my hand.  
+
+I've been waking up early the past few days, mostly in an attempt to get back on a regular sleeping schedule (aka, not staying up all night.)  This, of course, has one advantage:  I get to watch Saved by the Bell every morning bright and early at 7am.  I swear, I didn't even know this show still came on.  Saved by the Bell was a major part of most kids' childhoods from my agegroup.  It was the stigma show of the early 90's, a touching tale of 6 (or was it 7?) wacky high-school students from California, covering all the cliche's from preppy, to jock, to geek.  Although the show was ridiculously unrealistic, and frankly had the lamest plotline on the face of the earth, we still watched, like desperate little crack-whores waiting for our fix.  Remember they made a Saved by the Bell movie?  Hell, they even had a music CD.  I actually almost bought it, but decided that Boys II Men was a much wiser investment.  (Give me a break, I was young and naive.)  Of course there were the futile attempts to extend the series beyond the origional cast, including a fairly interesting ""College Years"" series, and an awful ""New Class"" series.  Who the hell would believe that Screech would become Mr. Belding's assistant?  And yet we watched, and don't even lie about it, I know where you live.
+
+Speaking of those days, I remember my first kiss.  Anna McCall, on my bed, in the 6th grade.  Oh yea, she was the hottest girl in all of sixth grade (except for Shaina, who never gave me the time of day, but then again, I was, and always will be a dweeb.)  Remember how you always expected your first kiss to be this amazing transformation into adulthood?  Like a sudden burst of life would run through your entire body, destroying the naive sad child that had once existed and creating a hideous hormone-infused sexual being?  Well, I remember mine sucked.  It was the most awkward 15 seconds of my entire life, and I barely remember enjoying it.  Of course, I probably thought I was the god of the world at that point in life.  First of all, our noses bumped, and our faces eventually kind of ""fell into"" eachother, creating a sort of wierd-mushed face kiss or something.  Second, the kiss was totally actionless, as both of us were either too stupid or too nervous to do anything else.  And third, after the kiss was over, we just sat there, motionless and speachless -- a totally awkward silence that lasted until she had to go home.  Of course this relationship was just about the longest of my life, stretching just over half-a-year if my memory serves me correctly, and of course I did the pig-headed guy thing and dumped her for the first girl in 6th grade to have big boobs, but its still kinda fun to think about those times every once in a while.  Anyone remember playing spin-the-bottle at Angelo's house?  Man we were geeks, but our lives were simpler back then, if only we could return to trick-or-treating, ten minutes in heaven, and those really wierd dances that always happened at school.  Remember when I asked Shaina to dance?  Not only was it awkward, but I totally got shut down.  Now I'm out to kill, no wonder, no, not for real.
+
+The drink of the day is beer, its barly, hops, and a whole lotta asskickin' rolled into one 12oz. bottle.  The varieties are endless, the drunkeness is forgettable, but at least you have those funny beer-farts in the morning.  Admit it, you know what I'm talking about.
+
+Its getting later, my beer is empty and I'm sick of typing.  Rock!"
+"eventtime","2002-08-23 22:05:00"
+"current_moodid","58"
+"url","http://hawkinsdp.livejournal.com/8019.html"
+"userid","6131"
+"itemid","30"
+"event","<table border=0 cellspacing=0 cellpadding=1 bgcolor=#ffffcc width=400><tr><td><table border=0 cellspacing=5 cellpadding=0 height=100 bgcolor=#ffffFF STYLE=""background-color:#ffffcc; color:#000000""><tr><td bgcolor=#ffffcc width=180 height=191><img src=http://www.atomichomes.com/images/song3.jpg width=180 height=191></td>
+<td bgcolor=#ffffbb><font face=""Verdana, Arial, Sans-serif"" size=1 color=#000000><center><b>Am I The Greatest Song In The World?</b></center><p><b>Rock:</b> Indeed, I am the greatest song in the world! But you shalt never hear me, for I am far to great to be heard by the ears of mortals. </font></td></tr>
+<tr><td bgcolor=#ffee99 colspan=2 align=center><font face=""Verdana, Arial, Sans-serif"" size=1><a href=""http://www.atomictemple.com"" style=""color:#118811"">Are you the greatest song in the world?</a></font></td></tr></table></td></tr></table>"
+"eventtime","2002-08-23 09:14:00"
+"current_moodid","44"
+"url","http://hawkinsdp.livejournal.com/7741.html"
+"userid","6131"
+"itemid","29"
+"event","<table border=0 cellspacing=0 cellpadding=1 width=400 bgcolor=#ccddcc><tr><td><table border=0 cellspacing=5 cellpadding=0 bgcolor=#ffffFF STYLE=""background-color:#ccddcc; color:#000000""><tr><td bgcolor=#ccddcc width=135 height=180><img src=http://www.atomichomes.com/images/gear.jpg width=135 height=180></td>
+<td bgcolor=#ffffbb><font face=""Verdana, Arial, Sans-serif"" size=1 color=#000000><center><b>What magazine am I?</b></center>
+<p><b>I am Gear:</b> Music, fashion, style, and whatever else is new is what interests me. Don't ask me about politics or the stock market, lifes too short to pay attention.</font></td></tr>
+<tr><td bgcolor=#ffee99 colspan=2 align=center><font face=""Verdana, Arial, Sans-serif"" size=1><a href=""http://www.atomictemple.com/electrons/tests.htm"" style=""color:#118811"">What magazine am I?</a></font></td></tr></table></td></tr></table>"
+"eventtime","2002-08-23 09:12:00"
+"current_moodid","108"
+"url","http://hawkinsdp.livejournal.com/7482.html"
+"userid","6131"
+"itemid","28"
+"event","Well, I havn't been around much, been so busy getting ready for school that I've totally forgotten about writing for a few days.  I've been trying to get back on a sleeping schedule too, going to bed around 8pm and waking up early so I can get stuff done.  I'll probably get back on track as soon as I move in tomorrow.  I'm a bit nervous to say the least.  Bah, I'll be fine, I'm just whining."
+"eventtime","2002-08-23 09:06:00"
+"current_moodid","45"
+"url","http://hawkinsdp.livejournal.com/7204.html"
+"userid","6131"
+"itemid","27"
+"event","Well, its been yet another long day of laziness and apathy.  I didn't really sleep all that well last night, as is apparent from my journal entries, and in turn today was pretty awful.  I havn't really felt great all day, and I've had a pretty much constant headache.  I saw the last of my friends off to their respective colleges today, and then returned home to anxiously await my own return.  The only college around here that starts later than mine is Furman, which still has about another month.  Thats ridiculous, I couldn't immagine sitting around for another month of this crap.  Got a little bit more packing done, and eventually retired to my trust 'ol computer chair for some more mindless entertainment.  
+
+I gave away the last two of my livejournal codes today, so don't come bugging me for one.  I gave them away to three very good friends who are hopefully using them well, I love to be a dirty little sneak and read about everyone else's personal life.
+
+Matt invited me to goto Charlotte with him tomorrow, but I really don't want to go, considering I'd have to be up at the asscrack of dawn, drive 2 hours there and back just to spend 2 hours total with a friend I'm gonna see pretty close to fulltime come this semester.  Sorry bro, you know its much love.
+
+Ever notice that when you're really bored that nothing good comes on TV?  And if you're way too busy to watch TV, something awesome and cool comes on.  I think its a curse that has followed me through life since the beginning of time.  I watch TV during the day when there's nothing else to do, and there's absoultely nothing on minus Roseanne reruns and Friends on ever channel.  But, if I'm at school with a huge termpaper due the next day, the ulta-cool-uber-sweet ""Cops: Nude and Uncensored"" will come on.  Oh, the painful irony.  
+
+I have way too much junk.  I realized this after I moved out last semester, and packed a Suburban full of absolute meaningless shit.  While packing for this semester, I've been putting all my ""junk"" into big bins and shoving them in the corner.  I now have two entirely full.  One of these days I'm gonna get productive and give all this crap to little kids or something, but in the meantime, it sits.  
+
+I'm too tired to be creative tonight.
+
+The drink of the day is milk, because Mr. T told you to drink it, damnit."
+"eventtime","2002-08-21 02:36:00"
+"current_moodid","61"
+"url","http://hawkinsdp.livejournal.com/6989.html"
+"userid","6131"
+"itemid","26"
+"event","I woke up this morning and decided that, in all my eternal wiseness, I would go get a bacon egg and cheese bisquit from McDonalds.  Jesus Dan, how many times have we told ourselves that McDonalds is greasy and fatty and nasty and evil?  I went back to bed, in an effort to pass time more quickly, and ended up waking up around now, which is totally going to ruin my sleeping schedule for tonight.  The picture that livejournal allows you to have is awful.  Its a little-ass 100x100 pixel picture that I can barely fit my face into.  Now I have to deal with the tiny webcam-quality picture that is sitting over to the left, ugh.  
+
+I packed up half of my stuff the other night while the internet was down, and I think I'm going to start going through clothes and doing wash here in a bit.  This year I am definately trying to not bring as much stuff as I did last year.  I'm being a bare necessities kinda guy this year.  Of course this means bare necessities in the sense of clip lamp, playstation, brita water filter. =)
+
+Jesus built my hot rod, Satan has his foot on the gas.
+
+This song is soooooo teeny-bopper.  My music tastes are really going down the drain."
+"eventtime","2002-08-20 17:41:00"
+"current_moodid","18"
+"url","http://hawkinsdp.livejournal.com/6864.html"
+"userid","6131"
+"itemid","25"
+"event","The worst thing about having a journal online is that if your internet doesn't work, you can't write in it.  I have officially concluded that I am utterly addicted to the internet, I spent most of yesterday fretting about when the network would be back up.
+
+Everyone remembers the first person that they truly fell in love with.  For me, this was in the 9th grade, a delightful girl named Anne B.  Everything about 9th grade relationships was perfect, the way you first kissed, the first time you went out, how you first met.  Everything was innocent; no thoughts of ""how I'm gonna get laid"", no worrying about other guys, no worries about getting married, having kids, etc etc.  Puppy love is sort of like what real love must truly be like, or maybe it was true love, and none of us had the maturity to realize it yet.  I went to go and see this girl last year at school, and it was a weird experience.  I didn't once look at her in an objective manner, I didn't once want to have sex with her, and most importantly, everything seemed the same, perfect, just like it was back in the good 'ol days of 9th grade.  I doubt anything will ever come from our relationship these days, considering she now has a totally different life than me, but its still fun to think back sometimes, to immagine what would have happened if that 9th grade romance had happened today.  Maybe it will.
+
+I watched a show today that I found absolutely hillarious.  The show is a quite popular one on MTV, of the ""real-TV"" variety.  The show follows a group of girls pledging a sorority, and is aptly named ""Sorority Life.""  I find this show absolutely hillarious for a few reasons:
+
+1.  The sorority featured on the show is a -religious- sorority, much different than the ones at most colleges.  The one on the MTV show is actually a Jewish sorority, which is kind of ironic, considering half the girls they recruit seem to have no religious ideals whatsoever.
+
+2.  The girls featured on the show as ""pledges"" are actually much older than most girls who pledge sororities.  These girls are all juniors and seniors in college, one even turns 21 during the show.  However, most girls that pledge and join sororities are freshman and sophomores, generally between the age ranges of 17 - 20.  Now granted, I pledged with a few juniors and seniors last semester in my fraternity, but the abundance of people were my age.  This, therefore, makes me think that MTV recruited a bunch of dizy older girls to pledge this sorority just for TV's sake.
+
+3.  None of the girls look Jewish.  In fact, most of the girls on the show are very typically beautiful.  You have blondes, way-to-skinny, big boobs, tanned and basically model-worthy.  Compared to the pre-existing members of the sorority, these girls are outstanding.  The initiated members of the sorority are typically Jewish, big noses, long straight brown hair, a bit homely looking.  (I don't mean to make religious stereotypes, but bear with me for this rant.)  The girls chosen to be followed by camera's (which I take it is about 1/4 of the entire pledge class) are mostly beautiful, as previously described, and look totally out of place compared to their counterparts.  With the exception of one ass-ugly girl who gets airtime when she does something stupid and gets smacked for it.  Once again, this is another reason to believe MTV recruited these girls to join this generally tame sorority.  
+
+4.  MTV is allowed to film the sororities ""secret rituals"", which I find totally ridiculous.  I guess those rituals aren't very secret anymore, ey?  
+
+If MTV followed any sorority girls around from my school, or any schools that I know of, they'd have an entirely different perspective on ""Sorority Life"", perhaps one that wouldn't glamorize the subject as much, as I find sororities not much to make a TV show about.
+
+And to all you girls watching this show and wanting to join a sorority?  This is NOT what sorority life is all about.  This is a dumb, MTV-created, stereotypical portrayal of sorority life that has almost enough credibility as ""The Real World's"" realism.
+
+Well, its official, my mom just woke up, and I'm getting ready to goto bed.  I have no life.  I need to get back to school.
+
+I talked to Matt tonight, my would-be-roommate-if-it-wasn't-for-the-fraternity.  He seems to have absolutely no life at this time either, which re-assures me that I'm not the only loser sitting around playing videogames, writing on the internet and watching TV while allthetime silently anticipating the beginning of this semester.
+
+The drink of the day is Kool-Aid, because everyone loves the commercials where the big <a href=""http://www.x-entertainment.com/messages/367.html"">Kool-Aid Man</a> busts through the wall and says, ""Ohhhhh Yeaaaahhhh!!!!""  Oh blissful childhood, how I miss you so.  (That link is great, btw.)
+
+Put a fork in me, I'm done."
+"eventtime","2002-08-20 04:38:00"
+"current_moodid","57"
+"url","http://hawkinsdp.livejournal.com/6423.html"
+"userid","6131"
+"itemid","24"
+"event","Roy just called, havn't talked to him in a while.  I really should go to see him, I crave human contact right now, probably why I'm looking foreward to school so much.  My parents cut it, but only to an extent.  My sister constantly has cute little girlfriends over, but I just feel wierd talking to them.  I probably don't look too good anyways, considering I havn't shaved for days.
+
+I need to go on a trip, I havn't been much farther than here, hell, I've never really been off the east coast.  I want to travel the world when I get the money, go see Japan, China, Europe, Africa.  Hell, I'd go anywhere if I had the extra money.  I wouldn't even make travel plans, just bring a backpack, some cash and wing it.  Language barriers?  Hah, I could figure something out.  I'd even be content taking a trip to Canada, I just need to make it through school first I guess.  Get a good job, make some money, travel through retirement.  Bah, I'd rather do it as a teenager though, move to Italy, find hot girl, get married?  Sounds like a plan to me.  Of course, I'm a hopeless romantic with dreams of love, lust and companionship in far off lands, although I just know I'm going to marry some dumb blonde sorority girl, drink a lot and be generally unhappy for my entire life, just like my dad!  Oh well, I still have dreams I guess.  
+
+Ever have that dream of the perfect girl (or guy, in your respected worlds.)  I always have that dream and wake up in utter desperation, finally realizing that it was just a dream.  I hate that, someitimes I just want to go back to sleep and re-enter the dream, but we all know that doesn't happen.  I must have tried over 1million times.  Its just like real life, by the time your realize you have something good, it just...poof...dissapears."
+"eventtime","2002-08-17 03:14:00"
+"current_moodid","101"
+"url","http://hawkinsdp.livejournal.com/6162.html"
+"userid","6131"
+"itemid","23"
+"event","What an increadibly long day, and I havn't even been up that long.  There are officially 7 days left until I move back to school, and each one moves by more excruciatingly slower than the previous one.  I'm trying to sleep as absolutely much as possible in an effort to make the time go by quickly, so far I've just ended up staying up later, ruining my whole purpose.  
+
+I have an increadibly addiction to sports-themed video games.  Its starting to become a bit heafty on my pocket.  Literally, each time a new Fifa, NCAA, NBA, NFL, WSA, whatever game comes out I have to buy, or at the very least rent it.  Even renting has become an increadible pain in my ass, since they hiked the rates up again at blockbuster to nearly $8 a pop.  Soon its gonna be cheaper to just go buy the damned game.  I dunno what it is, I'm just entirely addicted to them.  Maybe its the fact that I'm too lanky to play football, too uncoordinated for basketball, too slow for soccer, its too hot for hockey.  Hell, the only sport I've ever been good at was swimming, but then again I'm 6'4, I pretty much just reach an arm out and I've finished the race.  But in a videogame, take NCAA football 2003 for example, I can run the option, throw a gamewinning hail-mary, create an increadible dynasty with Clemson (which will never happen, but its a dream!), or even dominate the country.  Oh well, I'm just a loser, but nothing quite compares than 8 drunk friends sitting around a TV on a wednesday night yelling and screaming over Woody Danzler sneaking another touchdown run.
+
+Speaking of drunken fun, ever notice how the best part of a party is sitting around with a group of guys trying to recount all the events of the previous night?  It just wouldn't be as fun without those pizza-gorged, water guzzling, discovering magic hangover cured mornings.
+
+These lusty fratboy dreams must mean one thing, its definately time to get back to school.  I totally miss my school friends, arg!  As you can very well tell, this is starting to get to me.  I very well may go nuts before school actually starts again.  <starts to drool on himself>
+
+The drink of the day is Comet, yes the sink cleaner.  Don't y'all remember the song from when we were kids?
+
+""Comet, it makes your mouth turn green, comet, it tastes like gasoline, comet, it makes you vomit, so drink some comit and vomit today!""
+
+Hmm, maybe not, but it was a good tune anyways.
+
+As popular singer Ryan Adams says, ""Go be young.""  I'm going to have another glass of wine."
+"eventtime","2002-08-17 01:41:00"
+"current_moodid","106"
+"url","http://hawkinsdp.livejournal.com/5909.html"
+"userid","6131"

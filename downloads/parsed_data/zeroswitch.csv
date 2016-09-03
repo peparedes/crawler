@@ -1,0 +1,1119 @@
+"names","values"
+"itemid","697"
+"event","SGV5LCBiZXR0ZXIgbGF0ZSB0aGFuIG5ldmVyLCByaWdodD8gICBUaGlzIHdvdWxkIGhhdmUgYmVlbiB1cCBlYXJsaWVyLCBibGFoIGJsYWggZXhjdXNlcyBibGFoIGJsYWggd2hvIGNhcmVzIGFueXdheXMuICBOb2JvZHksIHRoYXQncyB3aG8uICBBbnlob3csIGhlcmUgYXJlIHRoZSB0cmFja3Mgb3IgYWxidW1zIEkgbGlrZWQsIG5vdCBleGFjdGx5IGluIHF1YWxpdGF0aXZlIG9yZGVyLCBiZWNhdXNlIG9waW5pb24gaXMgcmVsYXRpdmUsIGFuZCB6ZXJvc3dpdGNoIGlzIGluY29uc2lzdGVudC4gIEFsc28sIHNvbWUgb2YgdGhlc2Ugb25seSBoYXZlIG9uZSBnb29kIHNvbmcgcGVyIGRpc2MsIGJ1dCB0aGF0J3MgdGhlIHdheSBpdCBnb2VzLi4uLg0KDQo8aW1nIHNyYz0iaHR0cDovL2k5My5waG90b2J1Y2tldC5jb20vYWxidW1zL2w1MC96ZXJvc3dpdGNoL2ljb25rb3J1X3pwczYwOTI1NTgwLmpwZyIgLz4NCjxiPls6U0lURDpdIEljb246S29ydTwvYj4NCjxpPklmIHlvdSBjb3VsZCBzZWUgbWUgaGVyZSB0aGlzIHdheQ0KTG9va2luZyBiYWNrd2FyZHMgZnJvbSB0b2RheQ0KV2hlcmUgYW0gSSBnb2luZz8gV2hlcmUgaGF2ZSBJIGJlZW4/DQpBIHJvYWQgdG8gaGVsbCAtIHRoZSBjb25jbHVkaW5nIHNjZW5lPC9pPg0KDQo8aW1nIHNyYz0iaHR0cDovL2k5My5waG90b2J1Y2tldC5jb20vYWxidW1zL2w1MC96ZXJvc3dpdGNoL2xldHRpbmdnb196cHNiOGYzMDk0NC5qcGciIC8+DQo8Yj5TdHJheTogTGV0dGluZyBHbzwvYj4NCjxpPlRoZXJlJ3Mgbm8gb25lIHRvIGtub3cgbWUsIHRoZXJlJ3Mgbm8gb25lIHRvIHRlbGwuLi4NCkknbSBsaXZpbmcgYSBsaWUsIGFuZCBJIGFtIGluIGhlbGwuDQpXaXRoIHRoZSBza2llcyBhcyBteSBjb21mb3J0LCBteSBvbmx5IGRldmljZQ0KSSdtIHdhcnksIEknbSB3b3J0aGxlc3MsIG9oIEkgYW0gYSBsaWUuLi48L2k+DQoNCjxpbWcgc3JjPSJodHRwOi8vaTkzLnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvbDUwL3plcm9zd2l0Y2gvaGlkZWFuZHNlZWtfenBzYzgyM2YwODcuanBnIiAvPg0KPGI+VGhlIEJpcnRoZGF5IE1hc3NhY3JlOiBIaWRlIGFuZCBTZWVrPC9iPg0KPGk+SGVyZSBpbiB0aGUgZGFyaywgZG9uJ3QgZmFsbCBhc2xlZXAgDQpXZSB3YWxrIHRocm91Z2ggdGhlIHNub3csIHRyeWluZyBub3QgdG8gYnJlYXRoZQ0KRG9uJ3QgbGV0IG1lIGdvLCBzdGF5IGNsb3NlIHRvIG1lDQpEb24ndCBsb29rIGJlaGluZCB5b3UsIHRoZXJlJ3Mgbm90aGluZyB0byBzZWUhDQpCZWxvdy4uLi4NCkxldC4uLiBtZS4uLiBnby4uLg0KRnJvbSBoZXJlIEkga25vdw0KSXQncyBhIGxvbmcgd2F5IGhvbWUuLi48L2k+DQoNCjxpbWcgc3JjPSJodHRwOi8vaTkzLnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvbDUwL3plcm9zd2l0Y2gvTllLT1BfenBzMmZhOTJjOTIuanBnIiAvPg0KPGI+R2FyYmFnZTogTm90IFlvdXIgS2luZCBvZiBQZW9wbGU8L2I+DQo8aT5Mb3ZlIG1ha2VzIHlvdSBkZXNwZXJhdGUsIGFuZCBmZWVsaW5nIGEgZm9vbA0KTG92ZSBtYWtlcyB5b3UgcnV0aGxlc3MsIGFuZCBsb3ZlIG1ha2VzIHlvdSBjcnVlbA0KQW5kIGxvdmUgbWFrZXMgeW91IGNyYXp5LCBXaXRoIG5vdGhpbmcgYnV0IGxpZXMNCkxvdmUgcHJvbWlzZXMgbm90aGluZywgYW5kIHRoZW4geW91ciBsb3ZlIGRpZXMgPC9pPg0KDQo8aW1nIHNyYz0iaHR0cDovL2k5My5waG90b2J1Y2tldC5jb20vYWxidW1zL2w1MC96ZXJvc3dpdGNoL3RpbWV3YXZlemVyb196cHM5MDNlNWUyMi5qcGciIC8+DQo8Yj5HcmVuZGVsOiBUaW1ld2F2ZSBaZXJvPC9iPg0KPGk+RXBpcGhhbnksIGFzIEkgaGVhciBpdCdzIGNhbGwNCldoaWxlIG9ic2VydmluZyB0aGlzIGN1cnNlZCB3b3JsZA0KQXMgaXQgc3dhbGxvd3MgdXMgYWxsISA8L2k+DQoNCjxpbWcgc3JjPSJodHRwOi8vaTkzLnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvbDUwL3plcm9zd2l0Y2gvZGlza29ubmVrdF96cHNmZmQ5MjM2Zi5qcGciIC8+DQo8Yj5EZWNvZGVkIEZlZWRiYWNrOiBkaXNLb25uZWt0PC9iPg0KPGk+UmVwbGljYW50cyBhcmUgbGlrZSBhbnkgb3RoZXIgbWFjaGluZS4uLiA8L2k+DQoNCjxpbWcgc3JjPSJodHRwOi8vaTkzLnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvbDUwL3plcm9zd2l0Y2gvY2NpaWlfenBzYzExNjA0ODMuanBnIiAvPg0KPGI+Q3J5c3RhbCBDYXN0bGVzOiBJSUk8L2I+DQo8aT5MZXQgdGhlIHRyZXNwYXNzZXJzIHN0YXkNCkRlY29yYXRlIHN0YXJ2aW5nIHN0cmF5cw0KWW91IGNhbiBub3QgY29udmVydCBtZQ0KUmVwYXJhdGlvbnMgdW5zZWVuDQpTaWxob3VldHRlcyBjYXJlc3Mgd2l0aG91dCBmZWVsaW5nDQpXaG8nbGwgYmUgeW91ciBtZXJjZW5hcnk/PC9pPg0KDQo8aW1nIHNyYz0iaHR0cDovL2k5My5waG90b2J1Y2tldC5jb20vYWxidW1zL2w1MC96ZXJvc3dpdGNoL2h1bmdlcmdhbWVzX3pwczE4YjY2N2RlLmpwZyIgLz4NCjxiPlRoZSBBcmNhZGUgRmlyZTogQWJyYWhhbSdzIERhdWdodGVyPC9iPg0KPGk+SnVzdCBhcyBhbiBhbmdlbCBjcmllZCBmb3IgdGhlIHNsYXVnaHRlciwNCkFicmFoYW3igJlzIGRhdWdodGVyIHJhaXNlZCBoZXIgdm9pY2UuDQpUaGVuIHRoZSBhbmdlbCBhc2tlZCBoZXIgd2hhdCBoZXIgbmFtZSB3YXMsDQpTaGUgc2FpZCwgIkkgaGF2ZSBub25lLiINClRoZW4gaGUgYXNrZWQsICJIb3cgY2FuIHRoaXMgYmU/Ig0KIk15IGZhdGhlciBuZXZlciBnYXZlIG1lIG9uZS4iPC9pPg0KDQo8aW1nIHNyYz0iaHR0cDovL2k5My5waG90b2J1Y2tldC5jb20vYWxidW1zL2w1MC96ZXJvc3dpdGNoL2hhbm5hX3pwc2E0YzdkYTk0LmpwZyIgLz4NCjxiPlRoZSBDaGVtaWNhbCBCcm90aGVyczogSGFubmE8L2I+DQo8aT4iLi4uSSBqdXN0IG1pc3NlZCB5b3VyIGhlYXJ0LiIgPC9pPg0KDQo8aW1nIHNyYz0iaHR0cDovL2k5My5waG90b2J1Y2tldC5jb20vYWxidW1zL2w1MC96ZXJvc3dpdGNoL2RheXNnb2J5X3pwczg2NTRiZDU4LmpwZyIgLz4NCjxiPlRoZSBPZmZzcHJpbmc6IERheXMgR28gQnk8L2I+DQo8aT5XZWxsLCBsaW5lIHVwIGluIGJsYWNrIGFuZCB3aGl0ZQ0KVGhpcyBibG9vZCBydW5zIHJlZCBvbiBib3RoIHNpZGVzDQpCcm9rZW4gaW4gdHdvLCBodXJ0aW5nIGFzIG9uZSE8L2k+DQoNCjxpbWcgc3JjPSJodHRwOi8vaTkzLnBob3RvYnVja2V0LmNvbS9hbGJ1bXMvbDUwL3plcm9zd2l0Y2gvZGlnaWtpc3NfenBzOTZhNDI3NDcuanBnIiAvPg0KPGI+V2lsbCBHYW5ub24gOiBEaWdpdGFsIEtpc3M8L2I+DQo8aT5QbHVnIG1lIGluLCBhbmQgcHJlc3MgcGxheQ0KWW91IG5lZWQgbWUgbW9yZSBldmVyeSBkYXkNCktpY2sgbWUgaW50byBvdmVyZHJpdmUNClRoYXQncyB3aGVuIHlvdSBmZWVsICdPTicgaW5zaWRlIQ0KDQpJbmplY3RpbmcgbWUgc3dlZXRseSwgaW5mZWN0aW5nIHlvdSBkZWVwbHkNCkEgZGlnaXRhbCBraXNzLCB3aWxsIGV4cGxvZGUgeW91IGFuZCBmcmVlIG1lIQ0KDQpZb3UgdGhpbmsgdGhhdCBpdCdzIGp1c3QgYSBnYW1lICANClRvIHBsYXkgd2l0aCBtZSB0byBlYXNlIHlvdXIgcGFpbg0KQSBmcmVxdWVuY3kgaW52YWRlcyB5b3VyIG1pbmQNCllvdXIgbW9ydGFsIGNvaWwgSSB3aWxsIHVud2luZCEgPC9pPg=="
+"eventtime","2013-02-23 20:41:00"
+"current_moodid","31"
+"url","http://zeroswitch.livejournal.com/178582.html"
+"userid","17750"
+"itemid","696"
+"event","So here ya go.  Ten albums I enjoyed thoroughly.  I'm so behind the curve, most of it is from a few years ago.  Whatever, I'm retro.  Or something.  Only surprise this year is that the new Dismantled album <b>didn't</b> make the top ten.  Possibly because it's crappy in the same way as the last few Combichrist albums.  Yeah, being an offensive douchebag isn't a replacement for talent, Gary.  Stick a pin in that ego.  Erica on the other hand is a one-woman hit-machine.  Also discovered 4 albums each from AiV & UHH.  Hard to pick the top ones, but still, pretty good stuff.  
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/letmego.jpg"" />
+<b>Stray: Let Me Go</b>
+<i>Nothing, oh nothing, oh I am so obsolete
+I don't know my name, I don't have a voice
+I'm nothing, oh I'm nothing, oh god, who am I?
+I don't have a choice, I can't even try...
+I'm punished!  I'm scared!  
+It's driven me far down...
+I can't raise my voice, I can't make a sound...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/million.jpg"" />
+<b>Alice in Videoland: A Million Thoughts and They're All About You</b>
+<i>It's far to dark to find my way, no one else is here to stay
+So please don't go, you are the only one I know
+Lost me like I'm inside out, lost my fears and lost my doubt
+Whatever you decide to do, take me with you!
+Even now I stand and cry, I've got more tears left to cry
+I don't know what's wrong with you, take me with you!</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/Tyranny.jpg"" />
+<b>Flesh Field: Tyranny of the Majority</b>
+<i>Stiff-necked America!  In flagrant rebellion against god...
+Is indulging a caterwalling orgy of sinful, maudlin, sentimentality...
+On the fifth anniversary of God's 9/11 vengeance,
+Upon this evil nation for it's sodomite sin!
+And any preacher preaching it any other way, is a lying, hellbound, false prophet!</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/uhh.jpg"" />
+<b>Uh Huh Her: Common Reaction</b>
+<i>Lie down, just give it up, dance with me...
+Lights out, falling away, into me ...
+Don't stop, Just let it go, come with me...
+Stay down 'cause you're burning me up...
+Dance with me...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/AiV.jpg"" />
+<b>Alice in Videoland: She's a Machine!</b>
+<i>You wouldn't wanna wait up for her!
+Watch and learn, you'll burn!
+She haunts your dreams, your body and soul...
+She's a machine!</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/lightmeup.jpg"" />
+<b>The Pretty Reckless: Light Me Up</b>
+<i>Take me, I'm alive, never was a girl with a wicked mind;
+But everything looks better when the sun goes down...
+I had everything, opportunities for eternity.
+And I could belong to the night, you make me wanna die!
+And everything you love, will burn up in the light...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/dreamside.jpg"" />
+<b>The Dreamside: Spin Moon Magic</b>
+<i>Light from darkness, burning bright...
+Here we stand now, hold me tight...
+What death may bring, my soul is drowning...
+Are we trespassing?  Or here to dwell in this house of pain?
+Going insane, in this house of pain...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/tronlegacy.jpg"" />
+<b>Daft Punk: Tron Legacy</b>
+<i>The grid... a digital frontier.  
+One day... I got in.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/lovecrave.jpg"" />
+<b>The Lovecrave: Soul Saliva</b>
+<i>No more lies in shadows, no more little games to reach the top!
+Even if you say you don't, yeah!
+Knives under the table, smiles to show, how nice you are...
+I can read your thoughts, and send you straight to hell, yeah!
+Stay away!  Stay away!  I drink true blood!  I'll show you who's shakin'!</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/tbm-monsters.jpg"" />
+<b>The Birthday Massacre: Imaginary Monsters</b>
+<i>There's a fire in the city of pictures
+Leaving nothing but ashes below
+It's only forever for a day
+Tomorrow is burning away
+Burn away...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/glitchmob.jpg"" />
+<b>The Glitch Mob: Drink the Sea</b>
+<i>One thing 'bout music, when it hits you feel no pain!</i>"
+"eventtime","2011-12-31 17:30:00"
+"current_moodid","91"
+"url","http://zeroswitch.livejournal.com/178333.html"
+"userid","17750"
+"itemid","695"
+"event","Another year down.  Not much to say about it, except there was a lot of therapy, lost a few friends, and now it's over.  So here's the discs released this year that I bothered to listen to.  2010, the year we make contact.
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/tbm-pins.jpg"" />
+<b>The Birthday Massacre: Pins & Needles</b>
+<i>The painted hallways, forever and always, are lost to you...
+How can you criticize, when you're not here to compromise?
+Words fade as time goes by, without you, without you...
+Without you, without you...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/UN-movingon.jpg"" />
+<b>Unter Null: Moving On</b>
+<i>Cold hard stare, your hypnotic glare, penetrates my soul, you're out of control!
+Love and hate, hate and love,
+I loved what you did, when you loved not enough!
+I hate when you won't, and I know that you don't,
+and how can you do this, how can you do this?!
+Now I found my voice, I tell you what - fuck this!
+Now I have a choice, now I have a choice!
+Now I have a voice, you're out of control!
+You're a monster!!</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/zmr-2010.jpg"" />
+<b>Zeromancer: The Death of Romance</b>
+<i>It's a guilt thing, it's a blood drive.
+The final kiss, of this world can rescue us.
+Help me god I can't control myself, help me god I can't control myself.
+I don't want to be blind, I don't want to be vain,
+I don't want to be tied up in this pain,
+I don't want to be vile, I don't want to admit,
+I don't want you to treat me like shit!
+Help me god, I can't control myself... </i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/fv-blut.jpg"" />
+<b>Funker Vogt: Blutzoll</b>
+<i>Swimming in black waters, where you cannot see the ground;
+Soon you will get lost, and never ever will be found.
+Swimming with the sharks, down here in the dark;
+Only chance to survive is to become yourself a shark!</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/ied.jpg"" />
+<b>Front Line Assembly: Improvised.Elec.Device</b>
+<i>Movements mirror his subjects, shifting, through the lens
+Dirty shadow's dissipate, dissolve into myself
+Slide into darkness
+Slither down, the shaft of hell</i>
+			
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/implements.jpg"" />
+<b>Suicide Commando: Implements of Hell</b>
+<i>Dying, crying of a world in need
+Hear the whining of a dying breed
+Dying in a world of greed
+Down is where we belong</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/headfirst.jpg"" />
+<b>Goldfrapp: Headfirst</b>
+<i>It's your head, it's your heart, lost somewhere, missing parts.
+Tell us nothing, tell us lies, revelations, no surprise.
+Tonight... they hunt... for you.
+Every night, every day; making plans for your escape.
+All you love, you destroy, everyone is your toy.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/ff-mech.jpg"" />
+<b>Fear Factory: Mechanized</b>
+<i>I will not be defined, no longer stand in line,
+Your opposition, stand in reflection,
+Whatever soul was left has been erased; only a machine remains!
+Beaten into submission; that's what it is to be slaved!</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/InvisibleLight.jpg"" />
+<b>Scissor Sisters: Invisible Light</b>
+<i>Invisible light shoots from your eyes, a sign I can see from my high rise.
+A opiate utopia, gets hotter by the hour...
+You answer to a new name that changes all the time,
+I'll call you anything you want, if I can say it's mine.
+The story's never-ending, our footprints have been erased
+But here you are, I kiss your feelings, see your mouth or is it really...
+An invisible light, to keep me alive!
+Something really gets dimension, can't you feel it bend your sense of time?</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/aceofhz.jpg"" />
+<b>Ladytron: Ace of Hz</b>
+<i>You break the ace of hearts, but break too much
+Hearts that cannot be refused, on your watch...</i>"
+"eventtime","2010-12-31 16:20:00"
+"current_moodid","113"
+"url","http://zeroswitch.livejournal.com/178024.html"
+"userid","17750"
+"itemid","693"
+"event","Here it is.  What you've waited for all year.  *crickets*  Yes, well, maybe no one's been waiting for it, but here it is regardless.  My ""top"" ten albums of 2009.  Most of these were actually released in 2009, but sometimes not.  It takes awhile for what's hip to filter down to my level of uncoolness.  Ha, ha, haaaaa.  As always, the order is fuzzy.
+
+<b>Zeroswitch's Top 10 Albums of 2009!</b>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/command.jpg""/>
+<b>Client: Command</b>
+<i>The blackheart knows no pity, welcome back to the city.
+Hands up, ya got me.  Bring it on, what's it gonna be?
+Never stop, never stop, can't get enough.  Show me what ya got!
+</i>
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/SinnersIncd.jpg""/>
+<b>Zeromancer: Sinners International</b>
+<i>It's hidden well, deep inside... you don't want me to tell you why
+Assimilating tears to the floor, I don't know you, any more.
+Come on crawl out of my head, Ammonite...
+What means nothing, to you...
+Means everything to me.
+That was then, this is now, gotta get through somehow...
+Yeah gotta get through somehow!</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/sainthood.jpg""/>
+<b>Tegan and Sara: Sainthood</b>
+<i>Stop crying to the ocean, stop crying over me...
+Stop worrying over nothing, stop worrying over me...
+So... it's been so long since you said,
+Well I know what I want and what I want's right here with you.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/rot.jpg""/>
+<b>SITD: Rot</b>
+<i>No pictures of delight, the king was blind with fear
+He tried to find the strength he needs, to calm the doubts of his belief
+As darkness fall, the waves roll by...
+He's not afraid to die.
+All that you love, all that you hate, is lost...
+All you destroy, all you create, is gone...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/velocifero.jpg""/>
+<b>Ladytron: Velocifero</b>
+<i>I cheated gravity to chase you, to chase you.
+And through the burning space between us, you're falling.
+You have a long way, long way to fall.
+I set myself on fire without you, without you...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/fantasies.jpg""/>
+<b>Metric: Fantasies</b>
+<i>All the gold, and the guns, and the girls, in the world, couldn't get you off...
+I remember when we were gambling to win
+Everybody else said better luck next time
+I don't wanna bend like the bad girls bend
+I just wanna be your friend,
+is it ever gonna be enough?</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/cockatoo-1.jpg""/>
+<b>Cockatoo: Basement Tapes</b>
+<i>And everything I touch I touch I touch all turns to ash...
+Everything I touch I touch I touch beyond my grasp...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/invaders.jpg""/>
+<b>The Prodigy: Invaders Must Die!</b>
+<i>Now!  The writing's on the wall, it won't go away.
+It's an omen!
+You just run on automation.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/jans.jpg""/>
+<b>Zero Tolerance: Just Another Nightmare Scenario</b>
+<i>I exist, within your shadows...
+And there's a face he shows only to himself.
+These behaviours, could interpreted as... schizophrenia.
+There's a face he doesn't even SEE himself.
+A secret place of himself, he keeps hidden, locked away.  Until he needs it.
+Away from the light, safe in the shadows.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/lily2.jpg""/>
+<b>Lily Allen: It's not me, it's you.</b>
+<i>So your daughter's depressed, we'll get her straight on the prozac. 
+But little do you know, she already takes crack.
+The kids are in danger, they're all getting habits. 
+Because from what I can see, everyone's at it.</i>"
+"eventtime","2009-12-31 13:38:00"
+"current_moodid","27"
+"url","http://zeroswitch.livejournal.com/177494.html"
+"userid","17750"
+"itemid","687"
+"event","Ha!  Thought I was dead, I bet.  Nope.  Without focus on anything that may have happened to <b>me</b> this year, let's just have a last look at what I've been listening to as it happened instead.  And yes, I'm aware some of these came out before 2008.  I'm very insulated, it takes time for culture to trickle through the filters.  I'm also aware one of the picks is mine but I listened to the danged thing <b>so</b> many times...
+
+En-joy...
+
+<b>11 Albums that helped (me) define 2008.</b>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/dismantledwheniam.jpg""/>
+<b>Dismanted: When I'm Dead</b>
+<i>Under the flood, I hope you're happy now
+When I'm dead, when I'm dead, I hope the planet wipes
+every trace of my existence on this wretched ground
+But now it's coming down
+
+And I look back, where we started, 
+I've so come so far, to lose it all
+And no escaping...
+Time's up, I'm finally free at last.
+Sinking slowly, into the depths, 
+
+Oh what an ending to a wasted life.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/stray.jpg""/>
+<b>Stray: Abuse by Proxy</b>
+<i>Let's escape, underground
+Wait forever
+I want to crawl on moss and leaves, 
+I want to crawl on hands and knees, 
+I want to crawl, I want to crawl, 
+I want to dig a hole in the ground,
+I want to crawl inside with you
+The ties that bind will never sever</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/offspring-rise_and_fall.jpg""/>
+<b>The Offspring: Rise and Fall, Rage and Grace</b>
+<i>How does it feel, when you have it all?
+How can you live with nothing at all? 
+And the rain comes, and the world is on my head,
+crave the sun, but I can't get out of bed.
+
+How does it feel...
+And no wonder hearts and minds have been won
+and I wonder how it's all come undone
+
+want it you got it you're sorry
+want it you bought it you're sliding..
+who do you see?  'cause you look a lot like me.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/Portishead-third.jpg""/>
+<b>Portishead: Third</b>
+<i>I can't deny what I've become
+I'm just emotionally undone
+I can't deny, I can't be someone else
+
+When I have tried to find the words
+to describe this sense absurd
+Try to resist my thoughts, but I can't lie
+I'm losing myself
+My desire, I can't have
+No reason, am I for...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/nicole.jpg""/>
+<b>Nicole Hughes: myspace</b>
+<i>Sorry, for you, but I meant it all the same.
+Sorry, for you, but it never meant a thing.
+Sometimes, I cry, that it's never meant to be.
+Sorry, for me.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/lookingglass.jpg""/>
+<b>The Birthday Massacre: Looking Glass</b>
+<i>She can't afford to come on hot,
+because she's too cold to shiver
+Empty eyes, the shadows walking over you</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/Client_UntitledRemix.jpg""/>
+<b>Client: Untitled Remix</b>
+<i> Don't say you're sorry baby, don't say you're honest.
+Lie to me.  It's easier, to break my heart.
+Don't say your sorry baby, don't say you promised.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/lily.jpg""/>
+<b>Lily Allen: Alright, Still</b>
+<i>And I think it's funny 'cause I got your fuckin' money 
+and I'm never gonna get it just 'cause o' my bad credit.
+Everything's just wonderful, I'm having the time of my life.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/reaper.jpg""/>
+<b>Reaper: The Devil is Female </b>
+<i>She's your enemy, don't turn your back
+She's your enemy, who'll break your back
+She's your enemy, down to the core
+She's a devil and a whore</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/muse_.jpg""/>
+<b>Muse: Black Holes and Revelations</b>
+<i>Fear and panic in the air,
+I want to be free of desolation and despair
+Loneliness be over...</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/edgeofnowhere.jpg""/>
+<b>Zero Tolerance: The Edge of Nowhere</b>
+<i>DESTROY the machine!!</i>"
+"eventtime","2009-01-01 21:12:00"
+"current_moodid","31"
+"url","http://zeroswitch.livejournal.com/175979.html"
+"userid","17750"
+"itemid","686"
+"event","PGk+TGlmZSBpcyBjcnVlbCBhbmQgdGhlbiB5b3UgZGllDQpDYW7igJl0IGJlIGJvdGhlcmVkIHRvIHRyeSB0byBzdXJ2aXZlDQpUaW1lIHdvbuKAmXQgc3RvcCB0aGUgaG91cnMgZmx5DQpJIHdhdGNoIG15IGxpZmUgc2xpcHBpbmcgYnkNClRoZXkgY2FsbCBpdCBuZXdzLCBpdOKAmXMgbm90IHRvIG1lDQpUaGUgd29ybGTigJlzIGEgbWVzcyBvbiBteSBUVg0KSSBjYW5ub3Qgc3BlYWsgSSBjYW5ub3QgZmVlbA0KRXZlcnl0aGluZyBpcyBub3RoaW5nIHRvIG1lDQoNClRoZXJl4oCZcyBubyBtdXNpYyBvbiBteSByYWRpbw0KDQpUaGVyZeKAmXMgbm90aGluZyBicmlnaHQgdG8gbGlnaHQgbXkgZGF5DQpObyBzaWducyB0byByZWFkLCB0byBzaG93IG1lIHRoZSB3YXkNCkkgY2Fu4oCZdCBlc2NhcGUsIEnigJltIG91dCBvZiBsdWNrDQpBIGJhZCBkYXksIEnigJl2ZSBoYWQgZW5vdWdoDQpObyBob3BlIGZvciBzbGVlcCwgbm8gaG9wZSBpdCBzZWVtcw0KRm9yIGhhcHBpbmVzcyBhbmQgY29tZm9ydCBkcmVhbXMNCkFub3RoZXIgZGF5IGFub3RoZXIgd2lzaA0KRG9u4oCZdCB3YW50IG15IGxpZmUgdG8gYmUgbGlrZSB0aGlzDQoNClRoZXJl4oCZcyBubyBtdXNpYyBvbiBteSByYWRpbw0KKHR1cm4gdGhlIHJhZGlvIG9uKTwvaT4="
+"eventtime","2008-03-10 09:04:00"
+"current_moodid","31"
+"url","http://zeroswitch.livejournal.com/175768.html"
+"userid","17750"
+"itemid","685"
+"event","Once again, it's that time of year when you look back and say, ""that's it?  that's all you got, 2007?""  *shove*  ""huh?  you wanna piece o' me?""    Anyhow...here's what we got.  They're in rough order, but keep in mind that it's only my opinion.  Also, I have yet to find a few albums, so i guess they'll have to stack against next year's offerings...
+
+<b>11 Albums that helped (me) define 2007.</b>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/concover.jpg""/>
+<b>Tegan and Sara: The Con</b>
+<i>Maybe I would have been
+Something you'd be good at
+Maybe you would have been
+Something I'd be good at
+But now we'll never know</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/rasp.jpg""/>
+<b>Rasputina: Oh Perilous World</b>
+<i>A fine piece of ribbon, a cruel separation
+A vague intimation of a higher-born station
+Your mother was neither a saint nor a whore
+Here's a taunting reminder that you were born poor </i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/tbm.jpg""/>
+<b>The Birthday Massacre: Walking with Strangers</b>
+<i>If I try to get away,
+How long until I'm free?
+And if I don't come back here,
+Will you remember me?</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/client.jpg""/>
+<b>Client: Heartland</b>
+<i> Did I forget to mention, I just raised the stakes
+Do you know who I am, the girl you love to hate
+I don't need to hide, and I don't need to care
+Look outside your window, I'm out there</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/new_maps_of_hell.jpg""/>
+<b>Bad Religion: New Maps of Hell</b>
+<i>Pilgrim, those are dry and bitter tears and lonely
+Eyes that look way beyond your years
+Pilgrim, when you left them all behind
+The loneliness destroyed your able mind
+You were too far gone to carry on, now your life has stalled
+As you march ahead yet go no place at all
+
+Pious eyes, ignoring passers by, headlong to their grave
+Don't despair this world of toil and care, this pilgrim lost his way</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/aslan.jpg""/>
+<b>Aslan Osiris: When Our Moon Falls</b>
+<i>It's like, they don't care about you anymore.
+They're not interested in what you're doing with your life, they just don't care.
+They're ready to forget that they ever knew you. </i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/grendek.jpg""/>
+<b>Grendel: Harsh Generation</b>
+<i>Harsh generation, we'll tear your world apart
+Sign of the times, this is the coming of a new kind</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/yearzero-thumb.jpg""/>
+<b>Nine Inch Nails: Year Zero</b>
+<i>I got my propaganda, I got revisionism
+I got my violence in hi-def ultra-realism
+I'm a part of this great nation
+I got my fist, I got my plan, I got survivalism</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/combi2.jpg""/>
+<b>Combichrist: WTF is wrong with you people?</b>
+<i>You may want to keep using more.</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/MetaCov300.jpg""/>
+<b>Assemblage 23: Meta </b>
+<i>Have I awakened
+Deep inside some madman's dream?
+I can barely recognize 
+The place this used to be</i>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/funker.jpg""/>
+<b>Funker Vogt: Aviator</b>
+<i>I am standing naked in the rain, crying out I called for god
+A million questions in my head, but the answers god has not
+I am standing naked in the rain, a white dove in my hand
+I have lost my direction, tell me, where's my promised land?</i>"
+"eventtime","2007-12-30 18:42:00"
+"current_moodid","5"
+"url","http://zeroswitch.livejournal.com/175457.html"
+"userid","17750"
+"itemid","683"
+"event","""hey buddy, you get a load of the NERD??""
+""pardon me?""
+
+ahh, simpsons.  a day without simpsons is a day not worth living.  anyhow, not much to report.  piles of art mashings.  also, the suite next to mine is being emptied, not sure what all that's about.  mmmmmmyep, that's it.  
+
+""my geode must be acknowledged."""
+"eventtime","2007-11-06 18:12:00"
+"current_moodid","102"
+"url","http://zeroswitch.livejournal.com/174923.html"
+"userid","17750"
+"itemid","678"
+"event","a few of you might find this amusing.  it's about (apparently rockabilly-goth-hop-grrl) zombies.  done to the tune of that ""shoes"" youtube movie?  it's weird to me that this even exists.  though, i like the ""i think you have too many brains-"" ""shut up!"" part.
+
+<lj-embed id=""3"" />
+
+in other news, baseball can BITE MEEE... *massive echo*"
+"eventtime","2007-10-16 21:34:00"
+"current_moodid","6"
+"url","http://zeroswitch.livejournal.com/173573.html"
+"userid","17750"
+"itemid","675"
+"event","tegan + sara tonight!!!!!!!  i'm literally wetting myself with anticipation.  (well, maybe not).
+
+spent a marathon 7 hours writing a track last night.  didn't end up 'finishing' until nearly 1am.  and not really finished, just kinda finished.  ugh.
+
+Heroes yesterday was pretty sweet.  I especially enjoyed the little ""office"" segments at the paper company.  Heh.  Also, the family guy star wars episode was hilarious.  cleveland as artoo, the millenium falcon 'jumping' the starfield... good times.
+
+anyways."
+"eventtime","2007-09-25 13:38:00"
+"current_moodid","41"
+"url","http://zeroswitch.livejournal.com/172955.html"
+"userid","17750"
+"itemid","674"
+"event","urgh.  my tummy feels funny.  maybe piggy stimulated it while i was asleep.
+
+day off, but everyone's busy doing stuff.  alas, that's the way it goes.  well, chance to paint minis and wander about.  
+
+i was meaning to post this before, so as to let people (ie q-ball) know what i'm listening to these days.  here's what's in my cd player at the moment:
+
+grendel 		- soilbleed
+tool 			- 10000 days
+various goths		- (cdr)
+tegan + sara 		- the con
+dj shadow 		- ...endtroducing
+esthero			- breath of another
+primal scream		- xtrmntr
+more goths		- the crow soundtrack
+cradle of filth		- midian
+type o negative		- the least worst of
+various new-agers	- (cdr of painting music)
+various composers	- (cdr of movie scores)
+ministry		- the mind is a terrible thing to taste
+frontline assembly	- tactical neural implant
+pride & fall		- elements of silence
+assemblage 23		- meta
+various rivetheads	- dependence
+the retrosic		- servant of hell
+rob dougan		- furious angels 
+sitd			- coded message:12
+sitd			- oddessy:13
+frontline assembly	- artificial soldier
+flesh field		- strain
+dismantled		- postnuclear
+dismantled		- standard issue
+combichrist		- get your body beat
+combichrist		- wtf is wrong with you people?
+the retrosic		- nightcrawler
+the birthday massacre	- walking with strangers
+vegetable acid christ	- wound
+tactical sekt		- syncope
+grendel			- harsh generation
+unternull		- the failure epiphany
+client			- heartland
+unternull		- sacrament
+funker vogt		- aviator
+rasputina		- how we quit the forest
+and one			- bodypop
+nine inch nails		- the downward spiral
+nine inch nails		- the fragile (left)
+nine inch nails		- quake soundtrack
+nine inch nails		- broken
+international goths	- (cd from some german magazine)
+
+exciting, no?"
+"eventtime","2007-09-21 12:53:00"
+"current_moodid","97"
+"url","http://zeroswitch.livejournal.com/172590.html"
+"userid","17750"
+"itemid","672"
+"event","Here is how it works. Copy this list. Leave in the bands you've seen perform live. Delete the ones you haven't and add new ones that you have seen until you reach 25. An asterisk means the previous person had it on their list. Two asterisks means the last two people who did this before you had that band on their list, etc.
+
+1. Dismantled
+2. The Birthday Massacre
+3. Tool
+4. Frontline Assembly**
+5. Funker Vogt
+6. Combichrist**
+7. Fear Factory
+8. Nine Inch Nails***
+9. A Perfect Circle
+10. Garbage
+11. Covenant**
+12. Icon Of Coil**
+13. VNV Nation**
+14. The Offspring
+15. Sarah McLachlan
+16. Molly's Reach
+17. Ayria
+18. Captain Tractor
+19. Consume**
+20. Imperative Reaction
+21. Zombie Girl**
+22. Moonitor
+23. Cockatoo
+24. Painting Daisies
+25. Kittie"
+"eventtime","2007-09-10 20:27:00"
+"current_moodid","96"
+"url","http://zeroswitch.livejournal.com/172061.html"
+"userid","17750"
+"itemid","666"
+"event","""money fight!"""
+"eventtime","2007-08-21 11:53:00"
+"current_moodid","42"
+"url","http://zeroswitch.livejournal.com/170748.html"
+"userid","17750"
+"itemid","665"
+"event","""You wasted your gift!""
+""Wasted my gift?  I wrote 87 albums!""
+
+Note to self: if nothing else, I'm still an artistic genius, dammit.
+
+Plus, new Birthday Massacre this year.  Also, get to see t+s next month.  What more could I really want?
+
+<i>the secret's not worth keeping
+hollow as the promises of yesterday
+
+on and on the music plays
+memories in paraphrase
+falling past my window 
+like the morning rain
+</i>"
+"eventtime","2007-08-19 21:42:00"
+"current_moodid","113"
+"url","http://zeroswitch.livejournal.com/170421.html"
+"userid","17750"
+"itemid","661"
+"event","so i heard that there might have been a concert announcement at newcity last night, but alas i never made it over.  was there?  
+
+there's not a lot to report.  i've been pretty much vacationing the whole summer.  still not sure what i'll end up doing with my life.  but one way or another, a trip to visit q-ball & hit the TO fan-expo will be the end of the vacation.  (if for no other reason than end of summer, and end of money).  
+
+in unrelated news: such a TREAT i am creating, heeheehee.  :p"
+"eventtime","2007-07-30 18:10:00"
+"current_moodid","56"
+"url","http://zeroswitch.livejournal.com/169329.html"
+"userid","17750"
+"itemid","656"
+"event","silly me!  it was the COMPUTER that was breathing."
+"eventtime","2007-07-04 19:46:00"
+"current_moodid","96"
+"url","http://zeroswitch.livejournal.com/167964.html"
+"userid","17750"
+"itemid","654"
+"event","question: should be able to hear your apartment walls breathing?  if so, would you: 
+-be comfortable telling the wall to keep down the noise?
+-talk to the wall and attempt to bring it around to your way of thinking?
+-hulk smash puny wall!!
+
+in other psuedo-news, the muzak coming out is great.  mm hmm.  THAT'S a sure-fire way to keep me happy, some big dirty beets to play with.  :p  
+
+also, i went to the ""Overtime"" bar & grill today.  (i don't believe i was under any kind of surveillance).  the decor was kind of a ""classy cowboy"", and it seems to cater to the well-dressed people.  our waitress had a bull-nose-ring piercing, which was cool, but the waitresses in there seemed to be hired by body-type.  in it's defense, it had tvs in the washrooms promoting an end to bully-ism, our service was prompt, and the pizza was $5 for a 10"".  sensational.  overall, 2 1/2 stars."
+"eventtime","2007-07-03 22:29:00"
+"current_moodid","96"
+"url","http://zeroswitch.livejournal.com/167645.html"
+"userid","17750"
+"itemid","653"
+"event","sure slept in today... of course, i could argue that since i don't have a lot to get up for, i'm reducing the amount of food i eat and loneliness i experience by staying asleep.  so, yay?  no, probably not.
+
+my computer is starting to chug along kind of funny.  maybe ashley should listen to it.  
+
+what to do, what to do... hm, well, simpsons & westwing are almost on..."
+"eventtime","2007-06-26 16:34:00"
+"current_moodid","51"
+"url","http://zeroswitch.livejournal.com/167333.html"
+"userid","17750"
+"itemid","651"
+"event","this is hella funny.  i actually laughed out loud.  (and not a half-smirk while typing ""heh"").
+
+<lj-embed id=""1"" />
+
+anyhow, yes, quite."
+"eventtime","2007-06-20 23:10:00"
+"current_moodid","31"
+"url","http://zeroswitch.livejournal.com/166800.html"
+"userid","17750"
+"itemid","649"
+"event","Yay!  The art is up, and was a fun, fun time.  Mm hmm.  If you live around downtown, check it out at Jasper & 109st while it lasts.  Those that are farther away or lazy, here's a link to the project:
+
+<a href=""http://www.makeitnotsuck.blogspot.com/"">Make it Not Suck II</a>
+
+I slept in until noon.  Ugh.  Need to get out and get a squishee."
+"eventtime","2007-06-18 13:28:00"
+"current_moodid","108"
+"url","http://zeroswitch.livejournal.com/166190.html"
+"userid","17750"
+"itemid","646"
+"event","i have nothing to say!  but i'll force something so people know i'm still alive...
+
+thinking about, and/or working on, over 5 art projects at the moment.  sleeping in until noon, or waking up at 6:59, or somewhere in between.  not much to eat, have to get some basic snacks.  (maybe milk and 2 apples, to hold off the inevitable malnutrition).  realized that not having certain programs (like photoshop, cad, a decent version of word) or peripherals (printer, scanner, fax) is going to make things difficult.  but i say GOOD! i need not fancy-shmancy... humbug!    
+
+yup, that's it.  see?  i really have nothing to say.  :p"
+"eventtime","2007-06-06 20:42:00"
+"current_moodid","61"
+"url","http://zeroswitch.livejournal.com/165485.html"
+"userid","17750"
+"itemid","643"
+"event","i feel dreadfully sick.  hoarse, coughing, weak.  generally tired.  
+
+anyways... i had an okay weekend, until i woke up this afternoon sick as a dog.  wtd??  whatever though.  nothing exceptional in my life at the moment, so here's a letter i wrote to... See?  Vue?  one of those.  enjoy.
+
+<i>I can get used to life in a place that's always cold.  I can accept my lot in life as a fearful serf under the brutish corporate and political tyrannies.  But as I peruse the imposing newspaper bins this weekend, and watch Global news this monday night, what do I see?  The police clearing away homeless in tents, and a bit of 'soft news' (which is to say, a Video-News-Release issued by local business) advertising a new robo-mower, one that won't rise up in protest, nor eat lawn furniture/pets.  Available now, just dial the number on your screen.
+
+A F*CKING ROBO-MOWER. 
+
+This place is sick.</i>"
+"eventtime","2007-05-22 19:20:00"
+"current_moodid","82"
+"url","http://zeroswitch.livejournal.com/164708.html"
+"userid","17750"
+"itemid","639"
+"event","Client's ""Heartland"" is going to be one of my albums of the year.  
+
+In other non-news, a two week wait to to see your doctorb or therapist is ridiculous.  (But y'know what would help?  Opening it up to the private system!  Gah...)  
+
+Lousy rain..."
+"eventtime","2007-05-02 17:23:00"
+"current_moodid","59"
+"url","http://zeroswitch.livejournal.com/163730.html"
+"userid","17750"
+"itemid","638"
+"event","so everyone knows, i'm at home, not work, so phone me here.  
+
+(and not to pressure, but i'm waiting for a couple calls...)
+
+no ""reports"" shall be forthcoming until i say so."
+"eventtime","2007-05-01 14:10:00"
+"current_moodid","31"
+"url","http://zeroswitch.livejournal.com/163558.html"
+"userid","17750"
+"itemid","635"
+"event","raining, ugh.  is it EVER going to stop being <b>COLD?!</b>
+
+nothing much this weekend... saw some friends at the club.  slept in.  painted some minis.  had a CBSnews film fest (watched Good Night & Good Luck, then The Insider).  tried applying muzak q-ball & i mashed out to an assemblage 23 remix, which didn't really work, but sounds pretty neat without the vocals...
+
+i think that if i'm going to take myself seriously as an artist (which i do), i shouldn't have to compromise or censor how i live to please others.  (then again, how's that been working for you so far?)  silence, inner monolouge!
+
+not much else.  tummy pains subsided.  carpal tunnel pains lessening.  
+
+<i>""Bronchial tubes clearing... asthma disappearing!  Acne... remains, but...asthma disappearing!""</i>"
+"eventtime","2007-04-29 19:16:00"
+"current_moodid","84"
+"url","http://zeroswitch.livejournal.com/162693.html"
+"userid","17750"
+"itemid","633"
+"event","<i>I saw cities swallowed by the ocean
+I saw children crying in the streets
+Hundreds stranded on the overpass
+Bodies rotting in the brutal heat
+
+Cries for help fell on deaf ears
+Five days passed and no one came
+Pointing fingers while the people died
+I saw a nation hang it's head in shame
+
+Have I awakened
+Deep inside some madman's dream?
+This is not my country
+This is not what I believe
+Have I awakened
+Deep inside some madman's dream?
+I can barely recognize
+The place this used to be
+
+Anarchy in the empty streets
+The law dissolved like so much smoke
+A dying prayer for the humanity
+That washed away when the levees broke
+
+A year went by and nothing changed
+No justice left for the destitute
+Abandoned cities, abandoned souls
+Tomorrow's dream is yesterday's news </i>"
+"eventtime","2007-04-25 21:25:00"
+"current_moodid","31"
+"url","http://zeroswitch.livejournal.com/162175.html"
+"userid","17750"
+"itemid","632"
+"event","Yay, vacation.  So, the fattline concert was pretty sweet.  Played a lot of songs I liked.  Buried Alive, Vigilante, Liquid Separation, Internal Combustion, Bio-mechanic, Plasticity, Gun, Mindphaser... a few more I was outside for too, alas.  But good times nonetheless.  Didn't club it up yesterday, just hung out and played mariofatt & watched Freaked.  Heh.  Now we go to waterpark, yay.
+
+Would be nicer if the weather wasn't crap, mind you..."
+"eventtime","2007-04-22 11:05:00"
+"current_moodid","91"
+"url","http://zeroswitch.livejournal.com/161945.html"
+"userid","17750"
+"itemid","631"
+"event","well, being home alone makes things better.  
+
+also, fraser young is funnee.  :)"
+"eventtime","2007-04-18 22:40:00"
+"current_moodid","44"
+"url","http://zeroswitch.livejournal.com/161737.html"
+"userid","17750"
+"itemid","630"
+"event","i wish i could hide under my desk.  only 2.5 hours until vacation and it's too long.  why won't people leave me alone.  i can't get everything done.  i can't respond to everyone's mail.  i can't clean up everything.  i can't do do do it.  i haven't bought groceries (unless you count pop and crackers) in so long.  (and that's another thing, i always get depressed when i go into a grocery store, what's up with that???)  if i can barely keep my life together, i sure as hell don't feel like being dragged in ten thousand other directions."
+"eventtime","2007-04-18 14:55:00"
+"url","http://zeroswitch.livejournal.com/161483.html"
+"userid","17750"
+"itemid","629"
+"event","fer q-ball (and any other ebm-headz that care): there's previews of the new fatt Grendel album on their myspace.  arr.
+
+http://www.myspace.com/grendel
+
+why is it, do you think, that the new VNV and Client albums were released by metropolis on the same day, yet megatunes only has (a big display of) VNV, but no Client?  the shawnor is sad, for he can only buy 50% of the product he wants.  
+
+somehow, in the next 48 hours, i must trim & color the rooster-hawk (that would be hair), finish cleaning the apartment, go to dad's and do my taxes, tape/watch House & Lost, work 12 hours, pick up supplies like vodka, paper towels, incense, maybe some food for the guests.  also practice mariokart, soul calibre, metroid, pikmin, x-men... maybe some sleep.  
+
+admittedly, the list doesn't sound impossible, but limiting myself to foot & bus travel certainly slows things down.  hrrm.
+
+BO-ring."
+"eventtime","2007-04-17 13:01:00"
+"current_moodid","59"
+"url","http://zeroswitch.livejournal.com/161198.html"
+"userid","17750"
+"itemid","628"
+"event","In tonight's top story, a local man's computer failed this past weekend.  How did this affect the man's productivity?  The answer may surprise you.  And, in world newsssss-s-s-s-
+
+<i>we're fighting a war, against evil.
+we're fighting evil!
+
+the fbi.  
+the cia. 
+we're on the hunt.
+we're fighting evil!
+one person, at a time.
+
+thank you. 
+good night, 
+and god bless americ-c-c-c-c-</i>"
+"eventtime","2007-04-15 21:53:00"
+"current_moodid","96"
+"url","http://zeroswitch.livejournal.com/160907.html"
+"userid","17750"
+"itemid","626"
+"event","posted by Ross Campbell, of Wet Moon & The Abandoned ""fame"": 
+
+<i>i'm kinda sad about how nobody makes movies about aliens anymore, except for last year's awesome Slither (which bombed at the box office of course). everyone wants torture horror or something these days. all i want is slimy alien terror, is that too much to ask?</i>
+
+heh.  :P
+
+not much else to report.  3 day & 4 night weekend is proving excessively long.  on the plus side, i started a remix of Survivalism that sounds 0% like the original (possibly because i don't own a mac, and therefore can't actually make use of the remix kit as intended).  whatever, the end result is more my ""style"" anyways.  once q-ball mashes with it, bam!  
+
+re: upcoming vacation... i'm actually MOST excited about the fact that zero tolerance will be able to mash muzak in the same place at the same time.  :P  fun stuff.
+
+the oontz tonight.  hopefully see steph or clubgrrl or some random friend there.  yesterday i only ran into jon & jessica, and many unfamiliar young breeders.  *le sigh*
+
+time for easter and taxes."
+"eventtime","2007-04-08 10:46:00"
+"current_moodid","87"
+"url","http://zeroswitch.livejournal.com/160391.html"
+"userid","17750"
+"itemid","625"
+"event","Front page of today's Edmonton Journal (hardly a bastion of progressive thought):
+
+<b>MASS EXTINCTION FEARED</b>
+
+<b>Forecast grim for world's poor</b>
+<i>
+Climate-change panel warns hundreds of millions of people threatened by rising sea levels.
+
+Climate change is rearranging the global landscape, threatening to wipe out 20 to 30 per cent of all the life forms on earth and flood hundreds of millions people out of their homes, according to the authors of an international report to be released Friday. </i>
+
+Ahh, that's putting a rather blunt point on it (finally).  Yes, the world as we know it <b>is</b> facing catastrophe.  No, it <b>won't</b> turn out alright.  
+
+Keep buying cars though.  As ashley paraphrased bush, ""you don't switch horsemen in mid-apocalypse""."
+"eventtime","2007-04-04 17:19:00"
+"current_moodid","104"
+"url","http://zeroswitch.livejournal.com/160135.html"
+"userid","17750"
+"itemid","624"
+"event","So, productive weekend, i suppose... had d&d on friday, despite lame danny bailing on us.  Saturday, it decided to snow (?!?!) so no darts.  Bought some funny red-hot-chili-xmas-lights though.  Both q-ball & jen phoned, so that was nice.  Went to the cloob, was pretty good.  Submitted my wednesday-diy-djing-cd-thing, guess we'll see if that works out.  After much long-distance pestering from jen, i finally talked to clubgrrl, seemed a bit weird, but that's fine.  :P  Sunday, grrr, found a bug in my miniwheats as i was eating them.  Discovered more in the cabinet, so after a pile of swearing, i phoned ashley and started cleaning.  But, after 3 metroid-breaks and some help from ashley, finally emptied, cleaned, salted & re-stocked the kitchen cabinets.  Also cleaned up all the floor-mail, and scrubbed the bathroom somewhat.  So yes, better be no more bugs, or leo is getting an earful.  Not like I keep rotting food around, wtd??
+
+Trip finally established, yay... Also, renee's <b>finally</b> back at work.  That takes a bit of stress off.
+
+Need to have a wee chat with someone else, one that's been a long time coming.
+
+Nothing else, fer now."
+"eventtime","2007-04-02 11:41:00"
+"current_moodid","88"
+"url","http://zeroswitch.livejournal.com/159905.html"
+"userid","17750"
+"itemid","623"
+"event","well, i'm just about ready to snap.  i need a vacation.  a real one.  any word on flight plans there q-ball?  can't wait forever you know, need 2 weeks warning.  so if you're planning on coming for the week of the 20th, that'd mean i need to tell work, like, monday.  regardless, i don't know that i can hold it together for two more weeks anyways, i might just take off the 9th to the 20th.  start with das oontz and end with fla.  
+
+or, i could dutifuly stay at work, and spaz out.
+
+no, i'm not answering you, phone.  i know BP Penticton isn't done, i don't care.  i have no excuses for you phone, you can just live with it."
+"eventtime","2007-03-30 13:07:00"
+"current_moodid","88"
+"url","http://zeroswitch.livejournal.com/159620.html"
+"userid","17750"
+"itemid","622"
+"event","great.  so a thoroughly cruddy week isn't enough, now it smells like someone broke a bottle of perfume next to my desk.  WTD?!?!?!!
+
+tired, busy as hell, ren's been sick 4 days this week, 2 projects aren't done that need to go out, and it stinks stinks stinks in here.
+
+""don't think you're having all the fun, 
+well you know me, i hate <b>everyone!</b>"""
+"eventtime","2007-03-30 12:39:00"
+"current_moodid","1"
+"url","http://zeroswitch.livejournal.com/159285.html"
+"userid","17750"
+"itemid","621"
+"event","heheheh...
+
+<a href=""http://www.youtube.com/watch?v=zA64g3pi97M"">Calvin & Hobbes</a>"
+"eventtime","2007-03-29 22:04:00"
+"current_moodid","44"
+"url","http://zeroswitch.livejournal.com/159048.html"
+"userid","17750"
+"itemid","619"
+"event","jenni did this, and i'll fill it out, mostly for her and q-ball, but really i don't care much for ""horror"" anymore.  (listen to a few dozen hours of testimony from people tortured in abu ghraib & guantanamo for months/years without trial, and then watch '24' or 'Saw' and see how entertaining they f*cking are).  anyways.
+
+<lj-cut text=""horror quiz...""> 
+
+The greatest horror movie ever is 28 Days Later.  (Se7en & Silence of the Lambs & Alien3 too, but they're suspense/sci-fi, so...)
+
+Saw is my least favorite ""horror"" movie.  (actually, it's one of my least favorite THINGS, ever.  send the creators to darfur or afghanistan and see how much <b>they</b> ""appreciate life"".  idiots.)
+
+'It' frightened me when I was a kid and still continues to do so now.  (as an aside, Ghostbusters frightened me as a kid, but doesn't anymore.  Phew.)
+
+I have NO idea why The Ring is considered to be a ""horror classic"".  (but then, i refuse to see it, so...)
+
+Cillian Murphy should have gotten an Oscar nom for his (or her) work in 28 Days Later (only performances in horror movies allowed here).   
+
+The bridge scene in Ghostbusters <b>did </b> traumatize me for life!  (fyi, the bridge scene is when Ray & Winston are talking about the end of the world, and the dead rising from the grave.  ""it is impossible to describe the terror i felt."")
+
+Cube had the greatest opening to a horror movie.
+
+The goriest movie I have ever seen is Dead Alive.  (Evil Dead 2 comes close though.)
+
+I was saddened when *SPOILERS*
+.
+.
+.
+.
+.
+The old wheelchair guy got killed off in The Relic.
+
+Event Horizon is actually a good movie, despite what the majority says.
+
+The ending to Se7en was absolutely shocking!
+
+The last horror movie I saw was the Texas Chainsaw Massacre or The Hills Have Eyes, and I watched it because I was at q-ball's.  (that's actually enough of an explanation).
+
+Good Acting over Special Effects any day!  (choose between the two horror movie icons: Jason Voorhees and Michael Myers).  (no.)
+
+I would least like to run into a gang in a dark alley way.
+
+If Ghostbusters ever gets remade, I'll sigh and not be surprised.
+
+No one can convince me that Saw is a good horror movie.
+
+The Sixth Sense is well shot, well written, decently acted, not bad.
+
+The Exorcist is kinda slow, but still neat.
+
+Halloween is probably crap.
+
+Nothing beats Alien in terms of of genuine scares.  
+
+Overall, 2007 has been an exploitive year for horror movies."
+"eventtime","2007-03-27 17:27:00"
+"current_moodid","5"
+"url","http://zeroswitch.livejournal.com/158711.html"
+"userid","17750"
+"itemid","614"
+"event","i bought a flatscreen monitor, so i finally have room on my table for more plates than zero.  anyone know a place where i can donate/sell/recycle the old one?  it's nice and big but not flat...
+
+i'm going to try start & finish a remix in 6 days  (not an encouraging deadline, but whatever...).  alas, i can't afford the time, money or energy to actually hook up the synthesizer to the computer (especially if it doesn't work perfectly, and i spend a month getting the computer back to the starting line).  oh well, all the other stuff was done without it, one more won't hurt.   
+
+the book sarah recommended to me seems very interesting, but i just can't understand it.  it's like deciphering Neuromancer as transcribed by a dyslexic cambodian.  you just want to scream, ""WHAT THE HELL ARE ANY OF YOU TALKING ABOUT?!?!""
+
+i just want to fall asleep.  ugh.
+
+<i>""Hey, kids!  We're eatin' dinner tonight!  Come on Tiffany, Heather, Cody, Dylan, Dermit, Jordan, Taylor, Britney, Wesley, Rumor, Scout, Cassidy, Zoe, Chloe, Max, Hunter, Kendal, Caitlin, Noah, Sasha, Morgan, Kira, Ian, Lauren, Cubert, Phil...""</i>"
+"eventtime","2007-03-15 13:14:00"
+"current_moodid","88"
+"url","http://zeroswitch.livejournal.com/157401.html"
+"userid","17750"
+"itemid","613"
+"event","sometimes, on this internet, you can find some sick, sick stuff.  for some, it's barely consensual sodomy.  for others, it's nailbomb instructions.  for me, it's a crush actress selling herself out for the porno-strength plotting, filming and acting of (a thinly-disguised-message for) the church?  or, sorry, ""hollywood""... 
+
+so, in the spirit of George W. Bush singing ""Imagine"", here's a trailer for Margo Harshman's ""new"" ""movie"".  anyone not used to serious internet tripe (ashley and rhonda, you're fine), please take caution.  
+
+<a href=""http://www.youtube.com/watch?v=HrGEmopPPVA"">Hiding Victoria</a>     (ugh, even the title is brutal)
+
+
+i... i feel so betrayed."
+"eventtime","2007-03-11 23:47:00"
+"current_moodid","46"
+"url","http://zeroswitch.livejournal.com/157040.html"
+"userid","17750"
+"itemid","612"
+"event","2,002,832 NP!!   :D"
+"eventtime","2007-03-10 11:09:00"
+"current_moodid","103"
+"url","http://zeroswitch.livejournal.com/156774.html"
+"userid","17750"
+"itemid","611"
+"event","hahaahaaa.... just watched the Simpsons movie trailer.  ho ho ho... and it plays 2 days after my birthday!  could this be a sign?  perhaps, perhaps.  finally, i can die happily.  
+
+....<b>but not before everyone else!!!</b>   
+*starts firing shotgun wildly into the crowd* 
+""ZERO TOLERANCE!!  bwa ha haaaa!""
+
+oh yes, got my computer fixed, finally.  also geeked out, and drank too much black-cherry-vanilla-coke.  *jitters uncontrollably*"
+"eventtime","2007-03-10 02:11:00"
+"current_moodid","44"
+"url","http://zeroswitch.livejournal.com/156487.html"
+"userid","17750"
+"itemid","610"
+"event","So, submitted a painting to the edmonton art gallery.  Go see if you want.
+
+Keyboard & mouse at home work only when they want to.  Ashley's stumped, so am I.  
+
+I have so much junk at home, but only feel like cleaning it when I'm at the office.
+
+I had the strangest dream.  Combined many recurring dream-themes: going home, home being sold, hiding smut, being younger, invisibility, voyeurism, psychically manipulating my environment, the 'secret world of girls', levitation, university, rage, discovery of relics, etc.  Not sure what all that was trying to tell me, maybe it was the pizza.
+
+Anyways.
+
+<i>""My teacher left me to my darkest lesson, that in the end, we are alone, and there is nothing but the cold, dark wasteland of eternity.""</i>"
+"eventtime","2007-03-01 11:58:00"
+"current_moodid","92"
+"url","http://zeroswitch.livejournal.com/156316.html"
+"userid","17750"
+"itemid","609"
+"event","Okay... so, in April the Edmonton Art Gallery will close for renovations.  But, the month of March will feature a ""free for all"" showing.  Basically, if you're amateur artist or professional artist, hobbyist or student, prodigy or hack, bring something to the gallery <b>this weekend</b>, during regular hours, and they'll display it for all of March!  Cool stuff; I recommend anyone with artistic leanings doooooo it.
+
+I was originally going to make a poll to help me decide on a submission, but that's only for paid members.  (awesome-O says lame...)  So I'll just make my own.  Note that I'm only considering non-fruit pieces that I still own.  Also, no LJ cuts, fer YOU.  Ha!
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/small-Painting03.jpg""/>
+<b>Odalisque</b>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/small-painting05.jpg""/>
+<b>Odalisque II</b>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/small-Painting06.jpg""/>
+<b>Mem Saab</b>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/small-Painting07.jpg""/>
+<b>Elaine</b>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/small-Painting08.jpg""/>
+<b>Scheherazade</b>
+
+<img src=""http://i93.photobucket.com/albums/l50/zeroswitch/small-Painting09.jpg""/>
+<b>I'sai'lia </b>
+
+If you have a favorite, or like one, post a comment.  We demand it.  I may just go with whatever I feel like, mind you... but then again, I'm easily coerced.  :P  Thanx!!"
+"eventtime","2007-02-22 17:19:00"
+"current_moodid","108"
+"url","http://zeroswitch.livejournal.com/155993.html"
+"userid","17750"
+"itemid","608"
+"event","Yay!  Traded pink paper rectangles to Scott for a synthesizer!  
+
+*mashity mash mash mash*
+
+Otherwise, not much exciting this long weekend.  Clubbed some, geeked some.  Yup.
+
+Must get cords & cables & adapters tomorrow, to allow further mashing."
+"eventtime","2007-02-19 17:57:00"
+"current_moodid","88"
+"url","http://zeroswitch.livejournal.com/155889.html"
+"userid","17750"
+"itemid","607"
+"event","my gums hurt mightily.  had a cleaning today, and apparently a small cavity has asserted itself.  swell.  share's photos of her dental brutalization only increase my excitment.  woooooooooooooo.
+
+y'know what would be a neat birthday gift to myself?  going to the san diego comic con for july 26-29.  nerdy, yes, but for me it'd be like disneyland or something.  alas, mighty expensive, and no way am i bothering to get a passport for travel <b>into</b> Amerikkka.  but, trip to toronto for the genre-expo on aug 24-26, combined with visiting q & chrissy, should be more than sufficient.  just wish there were more artists like at the san diego version, but oh well.  i'll have to assault ross campbell another time.  :P
+
+should i buy muzak gear?  ashley thinks i may not need a new, glorified soundcard, but if i'm get a keyboard anyways (which i AM interested in)... hrmmm... think think think...
+
+anyhow..."
+"eventtime","2007-02-15 16:56:00"
+"current_moodid","27"
+"url","http://zeroswitch.livejournal.com/155623.html"
+"userid","17750"
+"itemid","606"
+"event","<i>There's also a queasily gleeful subtext to 24 that suggests, ""If things are this bad, why, I guess we can torture anybody we want!  In fact, we have an obligation to torture in order to protect the country!  Hooray!""</i> - Stephen King, on the omnipresent torture of '24'. 
+
+Yup... Ashley should write a post about that.  
+
+Anyhow, time for msn..."
+"eventtime","2007-02-14 22:11:00"
+"current_moodid","130"
+"url","http://zeroswitch.livejournal.com/155206.html"
+"userid","17750"
+"itemid","605"
+"event","Been awhile, not much occurring here.  Feel better in general, so that's fine.  Had an okay weekend, did some geeking and clubbing.  Installed MSN, and determined that people are rarely on it.  :P  
+
+Noticing a lot of army recruitment commercials that have little to do with killing people or invading other countries, and more to do with ""cool"" machines and ""extreme"" activities.  Yes.  Well, if you're going to lie by omission, I guess TV commercial breaks are the place to be. 
+
+Anyhow, since I feel better now, and thought about it for a week, here's a conclusion I came to but didn't post right away:
+
+I recall scene from the Simpsons where Nelson the bully is making Milhouse the dweeb hit himself with his own fist, and saying, ""Why are you hitting yourself?  Stop hitting yourself!""
+
+Now, if Milhouse wasn't a dweeb, he probably wouldn't be picked on by Nelson...  Alright, sure. But does that make Nelson's behaviour any better?
+
+Or to put it another way... if I wasn't depressed and bleak, it'd probably be easier for me to meet, make, and keep friends.  Fair enough.  But, does that absolve the people who jumped ship when things got rough?
+
+Like my coworker says, ""either take me or leave me.""
+
+I know how to change, and I'm working on it.  But what I <b>really</b> want is to know that people will stick with me whether or <b>not</b> I do."
+"eventtime","2007-02-11 21:11:00"
+"current_moodid","33"
+"url","http://zeroswitch.livejournal.com/155093.html"
+"userid","17750"
+"itemid","604"
+"event","hahaha... George Takei's license plate on Heroes read NCC-1701.   that's funny, to ME.  :P
+
+i'm also still ticked off for reasons i'm not going to bother articulating tonight.  (well, besides my crappy soundcard coming loose again).  maybe tomorrow. 
+
+day-long frontal headache finally subsided.  only took 1400mg of painkillers.  jeez.
+
+a lot of people in this city sure like talking to themselves.  (out loud, i mean.  not the inner voice that won't shut up, like mine).
+
+whatever, bed time."
+"eventtime","2007-02-05 23:01:00"
+"current_moodid","31"
+"url","http://zeroswitch.livejournal.com/154663.html"
+"userid","17750"
+"itemid","599"
+"event","yup, i'm sick.  no work, slept most of today instead.  walked up the hill for powerade & sprite, and boy are my arms tired.  work tomorrow?  we'll see.
+
+had a good time at the club on saturday.  saw bunches of people i hadn't in a long time, like anick & jessica & jay & sue.  was nice.  found out one of my ""friends"" may not actually be a friend at all, but whatever, i didn't let it ruin my night.  
+
+blah blah blah.  
+
+/filling bandwidth with meaningless garbage"
+"eventtime","2007-01-29 17:36:00"
+"current_moodid","82"
+"url","http://zeroswitch.livejournal.com/153427.html"
+"userid","17750"

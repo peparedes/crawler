@@ -1,0 +1,404 @@
+"names","values"
+"itemid","85"
+"event","There's an Israeli site, called TVNetIL, which allows you to download a lot of Israeli TV Shows. Great, for when you've got neither Yes nor Hot, or you live outside of Israel, and you still want to watch some Israeli series, or shows. I'm not sure how legal the site itself is, but it's a great resource. The site, has the ability to subscribe to various shows, and it will follow new releases of your favorite shows, and will show it on a single page.
+
+I've decided to go a little bit further, and wrote a script that automates the process of downloading from there. <lj-cut text=""Learn more or download..."">The script is written in Python, and wasn't tested on anything other then Debian. The only instructions, are - go to http://www.tvnetil.co.il, register a user, then download the script:
+
+<a href=""http://www.studiosh.com/lj/TVNetIL.tar.gz"">TVNetIL.tar.gz</a>
+
+Or, to get the latest version by SVN, use the following repository:
+<code>svn co <a href=""http://nethunter.freedom-prj.org/svn/get_tvnetil/trunk"">nethunter.freedom-prj.org/svn/get_tvnetil/trunk</a> TVNetIL</code>
+Untar it wherever you want, then go to the &quot;TVNetIL&quot; folder inside, and edit the CTVNetIL.py file, put in your username/password. The only requirements I know about, are Python (I'm using 2.5), and wget. Any patches or ports to other platforms are welcome. Also, if you think the legality of this script is in question, let me know, and I'll remove it ASAP. 
+ </lj-cut>"
+"eventtime","2009-02-18 02:09:00"
+"current_moodid","107"
+"url","http://nethunter.livejournal.com/21852.html"
+"userid","10885"
+"itemid","84"
+"event","A while ago, I wrote a short tutorial as to how to install the 32-bit Flash on a 64-bit Linux. Well, it's no longer needed, since a couple of days ago, Adobe finally released a 64-bit version of Flash 10 for Linux/Solaris. Available at:
+
+http://labs.adobe.com/technologies/flashplayer10/
+
+This is a prerelease version, so it's a bit slow, and has a bug I've seen with full screen refreshes, but it's much better then before. Yay Adobe.
+
+A Windows version will probably appear sometime soon."
+"eventtime","2008-11-20 09:21:00"
+"current_moodid","125"
+"url","http://nethunter.livejournal.com/21630.html"
+"userid","10885"
+"itemid","83"
+"event","0JrQsNC6INC4INCyINC+0YHRgtCw0LvRjNC90L7QuSDRgdGC0YDQsNC90LUsINCyINCl0L7Qu9C+0L3QtSDRgdC60L7RgNC+INCy0YvQsdC+0YDRiyDQsiDQvNGD0L3QuNGG0LjQv9Cw0LvQuNGC0LXRgi4g0JLQtdGB0Ywg0LPQvtGA0L7QtCDQvtCx0LLQtdGI0LDQvSDQstGB0Y/QutC40LzQuCDQstGL0LLQtdGB0LrQsNC80Lgg0LrQsNC90LTQuNC00LDRgtC+0LIuINCYINCy0L7Rgiwg0YHQtdCz0L7QtNC90Y8sINC90LDRiNGR0Lsg0YMg0YHQtdCx0Y8g0LIg0L/QvtGH0YLQvtCy0L7QvCDRj9GJ0LjQutC1LCDQstC+0YIg0YLQsNC60L7QuSDQstC+0YIg0YTQu9Cw0LXRgDoNCg0KPGltZyBzcmM9J2h0dHA6Ly9mdW5ueWxvZ3MuY29tL3RlbXAvSWxhbkxldmlBbmRWbGFkLmpwZycgLz4NCg0K0JvQuNGH0L3QviDQryDQt9CwINC90LjRhSDQvtGH0LXQvdGMINGA0LDQtC4g0KLQvtC70YzQutC+INC30LDRh9C10Lwg0Y3RgtC+INC/0L4g0LLRgdC10LzRgyDQs9C+0YDQvtC00YMg0L7RhNC10YjQuNGA0L7QstGC0Yw/DQrQmtGB0YLQsNGC0LgsINC90LAg0YPQtNC40LLQu9C10L3QuNC1LCDQu9C10LLQvtCz0L4g0LfQvtCy0YPRgiDQktC70LDQtC4g0J3QtSDQutC+0LPQtNCwINCx0Ysg0L3QtSDQv9C+0LLQtdGA0LjQuy4="
+"eventtime","2008-11-02 18:10:00"
+"current_moodid","24"
+"url","http://nethunter.livejournal.com/21326.html"
+"userid","10885"
+"itemid","82"
+"event","<p><em>Your result for The World of Warcraft Addiction Test...</em></p><h3>More of a habit</h3><p>You are 39% Addicted!</p><p style=""text-align:center""><img src=""http://is0.okcupid.com/users/306/102/306103507452189902/mt1131558846.jpg"" width="""" height="""" /></p><div>You seem to enjoy the game, and understand it, but it hasn't yet taken over your life.  This is probably a good thing, depending on who you talk to.</div><p><a href=""http://www.helloquizzy.com/tests/the-world-of-warcraft-addiction-test"">Take The World of Warcraft Addiction Test</a> at <a href=""http://www.helloquizzy.com/""><b style=""color:#131313""><span style=""color:#ac000c"">H</span>ello<span style=""color:#ac000c"">Q</span>uizzy</b></a></p>"
+"eventtime","2008-11-01 23:24:00"
+"url","http://nethunter.livejournal.com/20998.html"
+"userid","10885"
+"itemid","81"
+"event","PGxqIHVzZXI9ImtpZXJhbl9taWRuaWdodCIgLz4sINGB0LvQsNCx0L4g0YLQsNC60L7QtSDRgdC00LXQu9Cw0YLRjCDQuNC3INCx0LDQvdC+0Log0LIg0YHQsNC70L7QvdC1Pw0KDQoNCjxpbWcgc3JjPSJodHRwOi8vd3d3LmZ1bm55LmNvbS9fZmMvd202NDAvMC8zL2ZuLkNKTDFHLmpwZyIgLz4="
+"eventtime","2008-10-21 20:08:00"
+"current_moodid","89"
+"url","http://nethunter.livejournal.com/20766.html"
+"userid","10885"
+"itemid","80"
+"event","Sometimes in movies, we see how the hero goes to the past, fixes something that's broken in the present, and returns to the present, when everything is suddenly OK.
+I don't think any of us would been able to do that. After all, who didn't think about returning to some point in the past, when everything was better and everything was fine, the air was cleaner, and we didn't have the problems we currently have.
+It seems natural to me, that given the chance to return to the past to any point they choose, most people will just stay there. They will quickly forget about their mission, about the ""present"", and about the ""time space continuum"" or whatever. They will just stay there, trying to repeat those precious familiar moments that have long ago gone."
+"eventtime","2008-10-20 11:49:00"
+"current_moodid","65"
+"url","http://nethunter.livejournal.com/20499.html"
+"userid","10885"
+"itemid","79"
+"event","Tim Burton, is working on an live action with CGI adaptation of ""Alive in Wonderland"" by Lewis Carroll. And as we know Tim Burton, it will be a darker, more thought provoking version, then the previous Disney versions, which Burton called ""just a series of weird events"". The movie is currently filming, with Mia Wasikowska as Alice, Johnny Depp as The Mad Hatter, and Helena Bonham Carter rumoured as the Red Queen.
+
+Links: <a href=""http://www.imdb.com/title/tt1014759/"">IMDB</a> <a href=""http://www.firstshowing.net/2008/09/26/first-look-mia-wasikowska-in-tim-burtons-alice-in-wonderland/"">First Showing Blog</a>"
+"eventtime","2008-10-19 11:28:00"
+"current_moodid","56"
+"url","http://nethunter.livejournal.com/20437.html"
+"userid","10885"
+"itemid","78"
+"event","Since Adobe nor Macromedia before them, never bothered to release a proper 64-bit release of their Flash player, users of 64-bit operation systems such as Windows XP 64-bit, are stuck without Flash players, unless they use a 32-bit browser. Thankfully, under Linux, there's a workaround.
+<lj-cut text=""Read the instructions..."">The following instructions are tested under Debian Lenny x86_64, but should work under Ubuntu x86_64 as well. Here's how it goes:
+<strong>Note: This doesn't yet work with Flash Player 10, so make sure you download Flash Player 9.</strong>
+<ul>
+<li>Become root
+$ su</li>
+<li>Make sure nspluginwrapper is installed
+$ sudo apt-get install nspluginwrapper</li>
+<li>Download the Flash player from Adobe's site
+http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_player_9_linux.tar.gz</li>
+<li>Go to the downloaded folder, and extract the files
+$ tar -zxvf install_flash_player_9_linux.tar.gz</li>
+<li>Go to the extracted folder
+$ cd install_flash_player_9_linux</li>
+<li>Make a folder for your 32-bit plugins
+$ mkdir ~/.mozilla/plugins32/</li>
+<li>Copy the actual plugin to the new folder
+$ cp libflashplayer.so ~/.mozilla/plugins32</li>
+<li>Run the nspluginwrapper on it
+$ nspluginwrapper -i ~/.mozilla/plugins32/libflashplayer.so</li>
+<li>Make sure you pass nspluginwrapper the full path, as it doesn't know how to parse relative paths. (In the above example, the shell expands the ~/ to your home folder by itself)</li>
+<li>Restart Iceweasel / Firefox</li>
+</ul>
+Flash Player 10 has a different set of dependencies, which I wasn't yet able to resolve and so, was unable to get Flash Player 10 to work this way.
+
+<strong>Information for Debian Etch</strong>
+In case you're using Etch, you'll need to install the nspluginwrapper package by hand. It's available here:
+http://packages.debian.org/etch-backports/amd64/nspluginwrapper/download
+First, become root (su) and then:
+<ul>
+<li>Go to the folder where you downloaded it, and install it
+$ dpkg -i nspluginwrapper_0.9.91.5-2~bpo40+1_amd64.deb
+</ul>or<ul>
+<li>Edit the sources.list file
+$ nano /etc/apt/sources.list</li>
+<li>Add the Etch-backports repository
+Add the line
+deb http://www.backports.org/debian etch-backports main contrib
+to the sources.list file</li>
+<li>Update the deb repository
+apt-get update</li>
+</ul>And then the above ""apt-get install"" instructions will work for you.</lj-cut>"
+"eventtime","2008-10-17 17:10:00"
+"current_moodid","31"
+"url","http://nethunter.livejournal.com/20148.html"
+"userid","10885"
+"itemid","77"
+"event","<img src=""http://www.cherryflava.com/photos/uncategorized/2008/10/15/shumenskobeer1.jpg"" alt="""" />
+
+Great, when you want to carry your milk, and still look cool.
+Source: <a href=""http://www.cherryflava.com/cherryflava/2008/10/beer-bag.html"">Cherryflava</a>"
+"eventtime","2008-10-17 08:35:00"
+"current_moodid","109"
+"url","http://nethunter.livejournal.com/19918.html"
+"userid","10885"
+"itemid","76"
+"event","Rm9yIHRoZSBwYXN0IGNvdXBsZSBvZiBkYXlzLCBJJ3ZlIGJlZW4gZWRpdGluZyBhIHNob3J0IHBpZWNlIG9mIHZpZGVvIGZvciBNZXRhY2FmZSdzIDUgeWVhciBiaXJ0aGRheS4gQXMgcGFydCBvZiBteSBlZGl0aW5nIG9mIHNvdW5kLCBJJ3ZlIHRvb2sgTXV0dGVyIGZyb20gUmFtbXN0ZWluIGFuZCByZXZlcnNlZCBpdC4gVGhlIHJlc3VsdD8NCtGB0L7Qu9C90YbQtSwg0LHRgNC10YjQvdGPLCDQtNC10LzQvtC90YssINGB0L7Qu9C90YbQtSDQsiDQt9C10LzQu9C1LCDQsdC70Y8uLi7QuC4gDQoNCjxsai1lbWJlZCBpZD0iMTAiLz48YSBzdHlsZT0iZm9udC1zaXplOiA5cHg7IGNvbG9yOiAjY2NjOyBsZXR0ZXItc3BhY2luZzogLTFweDsgdGV4dC1kZWNvcmF0aW9uOiBub25lIiB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL2Jvb21wMy5jb20vbGlzdGVuL2MwdzBvZmZ2NV9mL3JhbW1zdGVpbi1tdXR0ZXItcmV2ZXJzZSI+Qm9vbXAzLmNvbTwvYT4="
+"eventtime","2008-09-12 17:20:00"
+"current_moodid","121"
+"url","http://nethunter.livejournal.com/19698.html"
+"userid","10885"
+"itemid","75"
+"event","SSd2ZSBzdHVtYmxlZCB1cG9uIGFuIGludGVyZXN0aW5nIGV4cGVyaW1lbnQgaW4gaW5kdXN0cmlhbCBkZXNpZ24uDQpBIG51bWJlciBvZiBwZW9wbGUgaGF2ZSBoYW5nIGEgc3dpbmcgb24gYSBMb25kb24gYnVzIHN0b3AsIGFzIHBhcnQgb2YgdGhlaXIgSW5kdXN0cmlhbCBEZXNpZ24gQ291cnNlLg0KVGhlIHJlc3VsdHMgYXJlIHZlcnkgYW11c2luZyB0byB3YXRjaC4NCkkgZ3Vlc3MsIHNvbWUgcGVvcGxlIGdyb3cgdXAsIHNvbWUgc3RheSBraWRzLg0KDQo8bGotZW1iZWQgaWQ9IjkiIC8+PGJyPjxmb250IHNpemU9IjEiPjxhIGhyZWY9Imh0dHA6Ly93d3cubWV0YWNhZmUuY29tL3dhdGNoL3l0LW5EcWJiMGVIVlhBL3BsYXlmdWxfc3BhY2VzLyI+UGxheWZ1bCBTcGFjZXM8L2E+IC0gPGEgaHJlZj0iaHR0cDovL3d3dy5tZXRhY2FmZS5jb20vIj5XYXRjaCB0b2RheeKAmXMgdG9wIGFtYXppbmcgdmlkZW9zIGhlcmU8L2E+PC9mb250Pg0KDQpGb3IgbW9yZSBpbmZvIGFib3V0IHRoZSBleHBlcmltZW50LCB0YWtlIGEgbG9vayBoZXJlOg0KPGEgaHJlZj0iaHR0cDovL3d3dy53b29zdGVyY29sbGVjdGl2ZS5jb20vMjAwOC8wOC9icnVub190YXlsb3JzX3BsYXlmdWxfc3BhY2VzLmh0bWwiPlBsYXlmdWwgU3BhY2VzPC9hPg=="
+"eventtime","2008-09-05 18:40:00"
+"current_moodid","89"
+"url","http://nethunter.livejournal.com/19419.html"
+"userid","10885"
+"itemid","74"
+"event","I've found this great article, which shows the Top 10 commercials made by movie directors.
+Most notable for me, were the Ridley Scott's 1984 commercial, which is amazing in how close, yet how distant it is from the environment depicted in Blade Runner, and the Michael Gondry's Smirnoff commercial, which is very engaging and sweeping you with it. For me, it was news that Gondry used the bullet-time effect only a year before The Matrix was released, with Manex doing bullet-time there. I guess, since The Matrix was in production for 6 years, and Manex showed the effect years before, it isn't clear who was influenced by whom, but it was nice to see another piece of this effect's history showing through.
+
+<lj-cut text=""Get the link"">http://www.theshiznit.co.uk/feature/top-10-coolest-commercials-by-movie-directors.php</lj-cut>"
+"eventtime","2008-08-30 17:13:00"
+"current_moodid","83"
+"url","http://nethunter.livejournal.com/19075.html"
+"userid","10885"
+"itemid","73"
+"event","Bart Simpson: [face is completely red, sobs] This is the worst day of my life.
+Homer Simpson: The worst day of your life *so far*."
+"eventtime","2008-08-27 23:57:00"
+"current_moodid","125"
+"url","http://nethunter.livejournal.com/18880.html"
+"userid","10885"
+"itemid","72"
+"event","In case you need to know how many Shnekels do you need to pay to the local hobo:
+
+http://shnekel.sillyprojects.com/"
+"eventtime","2008-08-21 14:30:00"
+"url","http://nethunter.livejournal.com/18661.html"
+"userid","10885"
+"itemid","71"
+"event","<img src=""http://img513.imageshack.us/img513/6306/200808052026hk2.png"" />
+
+Just seen it myself."
+"eventtime","2008-08-05 20:28:00"
+"url","http://nethunter.livejournal.com/18417.html"
+"userid","10885"
+"itemid","70"
+"event","<img src=""http://imgs.xkcd.com/comics/cautionary.png"" alt="""" />"
+"eventtime","2008-07-30 21:46:00"
+"current_moodid","81"
+"url","http://nethunter.livejournal.com/18050.html"
+"userid","10885"
+"itemid","69"
+"event","<img src=""http://img526.imageshack.us/img526/7899/nicecoloroy3.jpg"" alt="""" />
+
+Need I say more?"
+"eventtime","2008-07-28 20:36:00"
+"current_moodid","44"
+"url","http://nethunter.livejournal.com/17886.html"
+"userid","10885"
+"itemid","68"
+"event","We've all seen those balloon dogs, at faires, parties and other places.
+
+It usually works like this:
+Lots of children sit, waiting. A clown comes - runs some gags, gets a large balloon from behind his own ear, twists it a bit, and creates a happy little pink dog. The clowns happily gives the dog to one of the children. The child, in his torn, plays with the dog, and then it pops, making a large resounding ""boom"" sound. Now consider this:
+
+<img src=""http://img92.imageshack.us/img92/7673/anatomyballoondoglk1.jpg"" alt=""Ballon Dog"" />
+
+
+Would you give your kid this balloon had you've known what's inside it?"
+"eventtime","2008-07-27 08:49:00"
+"current_moodid","104"
+"url","http://nethunter.livejournal.com/17588.html"
+"userid","10885"
+"itemid","67"
+"event","<img src=""http://img356.imageshack.us/img356/3518/acousticcoupler20041015zb8.jpg"" alt=""A Modem"" />
+
+From Wikipedia."
+"eventtime","2008-07-26 14:25:00"
+"current_moodid","29"
+"url","http://nethunter.livejournal.com/17278.html"
+"userid","10885"
+"itemid","66"
+"event","<div style=""text-align: left; padding: 3px;""><a href=""http://www.flickr.com/photos/27727574@N05/2588688586/"" title=""photo sharing""><img src=""http://farm4.static.flickr.com/3073/2588688586_943aafb6ae.jpg"" style=""border: solid 2px #000000;"" alt="""" /></a><br /><span style=""font-size: 0.8em; margin-top: 0px;""><a href=""http://www.flickr.com/photos/27727574@N05/2588688586/"">17062008002</a>, originally uploaded by <a href=""http://www.flickr.com/people/27727574@N05/"">nethuntik</a>.</span></div><p>A funny thing happened to us today. Me, and a couple of friends from work went to the AMPM grocery store near our workplace. We wanted some ice cream and RedBulls. And suddenly, one of us have found this wonderful Bounty bar, with the sticker ""Includes 15% less then the regular amount"". <lj-cut>We laughed at it, and decided to take a photo. I took a photo - and went on, and then my friend wanted to take a photo, when suddenly one of the clerks stops him, and says ""Do you have a permit to take pictures here? What do you want to take a picture of?"", he said that ""I only want to shoot this ice cream"". Well, that started a whole mess - clerks asking us why would we want to take a picture of an ice cream bar, they called an old couple, who said they are the security officers in this place, and asked us the same questions again. ""What are you doing here?"", ""Why do you want to take a picture of an ice cream?"". Fun.</lj-cut></p>"
+"eventtime","2008-06-17 15:58:00"
+"current_moodid","49"
+"url","http://nethunter.livejournal.com/17103.html"
+"userid","10885"
+"itemid","65"
+"event","<div style=""text-align: left; padding: 3px;""><a href=""http://www.flickr.com/photos/27727574@N05/2587852619/"" title=""photo sharing""><img src=""http://farm4.static.flickr.com/3275/2587852619_a1d7bc14a5.jpg"" style=""border: solid 2px #000000;"" alt="""" /></a><br /><span style=""font-size: 0.8em; margin-top: 0px;""><a href=""http://www.flickr.com/photos/27727574@N05/2587852619/"">25052008053</a>, originally uploaded by <a href=""http://www.flickr.com/people/27727574@N05/"">nethuntik</a>.</span></div><p>Found in Office Depot, close to my work.</p>"
+"eventtime","2008-06-17 15:48:00"
+"url","http://nethunter.livejournal.com/16768.html"
+"userid","10885"
+"itemid","64"
+"event","My training ground - a random desktop. Randomly adding things to it. Modeled and rendered in Blender 2.46.
+
+<a href=""http://img501.imageshack.us/my.php?image=screennewmu5.jpg"" target=""_blank""><img src=""http://img501.imageshack.us/img501/8691/screennewmu5.th.jpg"" border=""0"" alt=""Free Image Hosting at www.ImageShack.us"" /></a><br /><br /><a href=""http://img604.imageshack.us/content.php?page=blogpost&files=img501/8691/screennewmu5.jpg"" title=""QuickPost""><img src=""http://imageshack.us/img/butansn.png"" alt=""QuickPost"" border=""0""></a> Quickpost this image to Myspace, Digg, Facebook, and others!
+
+The weather is gonna kill me, I think."
+"eventtime","2008-06-09 14:52:00"
+"current_moodid","83"
+"url","http://nethunter.livejournal.com/16420.html"
+"userid","10885"
+"itemid","63"
+"event","Just got the Big Buck Bunny DVD, and it truly is amazing. The quality of the animation, and the sound, is very very good.
+
+The web release should happen today afternoon.
+
+Now I realize what I want to be when I will grow up :) I want to be an animator using Free Software, in the Netherlands. Or maybe in New Zealand. Makes me want to work more on my own animation.
+
+<lj-embed id=""8""/><br /><a href=""http://www.vimeo.com/798022?pg=embed&amp;sec=798022"">Big Buck Bunny - Official Trailer</a> from <a href=""http://www.vimeo.com/user399249?pg=embed&amp;sec=798022"">Andy Goralczyk</a> on <a href=""http://vimeo.com?pg=embed&amp;sec=798022"">Vimeo</a>."
+"eventtime","2008-05-30 09:18:00"
+"current_moodid","125"
+"url","http://nethunter.livejournal.com/16315.html"
+"userid","10885"
+"itemid","62"
+"event","<img src=""http://img296.imageshack.us/img296/2135/22052008606kz3.jpg"" alt="""" /><br /><br /><div text=""More photos"" class=""ljcut""><a href=""http://www.flickr.com/photos/roniyaniv/2521465307/in/set-72157605252886449/""><img border=""0"" src=""http://farm3.static.flickr.com/2367/2521465307_394052618a.jpg?v=0"" alt="""" /></a><br /><br />Click the photo to go to Flickr and see more photos.</div>"
+"eventtime","2008-05-26 12:17:00"
+"current_moodid","88"
+"url","http://nethunter.livejournal.com/15925.html"
+"userid","10885"
+"itemid","61"
+"event","<a href=""http://img206.imageshack.us/my.php?image=bayanuz1.jpg"" target=""_blank""><img src=""http://img206.imageshack.us/img206/766/bayanuz1.th.jpg"" border=""0"" alt=""Free Image Hosting at www.ImageShack.us"" /></a>"
+"eventtime","2008-05-16 12:46:00"
+"current_moodid","44"
+"url","http://nethunter.livejournal.com/15767.html"
+"userid","10885"
+"itemid","60"
+"event","About a month ago, I did a small lecture about Scalability in web applications, for <a href=""http://php-israel.org"">PHP-Israel</a> user group.<br />The guys over at Israely open-source news site <a href=""http://www.zulo.org.il/doc/lecture5/"">Zulo</a> recorded it, and posted it online. It is my first lecture ever, and I was rather nervous, so don't judge too harshly.<br /><br /><lj-embed id=""7"" /><br />You can also <a href=""http://www.slideshare.net/guest2b909d/php-scalability/"">see the slides.</a>"
+"eventtime","2008-05-07 19:13:00"
+"current_moodid","103"
+"url","http://nethunter.livejournal.com/15441.html"
+"userid","10885"
+"itemid","59"
+"event","<p>I have finally went back to Linux, after a while, and was very pleasantly surprised. GNOME has evolved so much since I've last seen it, it's practically impossible to use Windows anymore after a couple of days under Debian. </p>"
+"eventtime","2008-05-07 18:38:00"
+"url","http://nethunter.livejournal.com/15112.html"
+"userid","10885"
+"itemid","58"
+"event","<lj-embed id=""6"" />"
+"eventtime","2008-04-06 05:49:00"
+"url","http://nethunter.livejournal.com/15035.html"
+"userid","10885"
+"itemid","57"
+"event","Here's a short screenplay that me and <a href=""http://my-esc.livejournal.com/profile""><img width=""17"" height=""17"" src=""http://stat.livejournal.com/img/userinfo.gif"" alt=""[info]"" style=""border: 0pt none ; vertical-align: bottom; padding-right: 1px;"" /></a><a href=""http://my-esc.livejournal.com/""><b>my_esc</b></a> are working on. Make sure to leave some comments as to what you liked, what you didn't like, whatever you would like to participate, and so on.<br /><br /><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INT.JACKS ROOM</b><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JACK enters the room, sits near the computer, moves the<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mouse, and double clicks somewhere on the screen. We see a<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; loading screen of a game. JACK stares blankly at the screen.<br /><br /><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INT.LIVING ROOM</b><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROBERT is sitting on the sofa, pointlessly switches<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; channels.<br /><br /><div class=""ljcut"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN opens the door, enters the room, all wet from the rain.<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; He puts away his umbrella.<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hey dad.<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROBERT<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (No response.)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dad, are you OK?<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROBERT<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Continues switching channels.)<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DAD?<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ben sees his sister through an open door to her room, and goes<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; over to her.<br /> <br /><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INT.MIKA'S ROOM</b><br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN looks inside, and sees a huge amount of paintings on the<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; floor, all of them with fresh paint, some splatters of paint<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on the floor. and MIKA draws yet more paintings.<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mika? Do you know what's up with<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dad?<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MIKA<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Continues drawing, not<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; responding)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mika? What's up with everybody?<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MIKA<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Still no response.)<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ben runs away.<br /> <br /><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INT.LIVING ROOM</b><br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN runs through the living room, and sees ROBERT still switches<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; channels. Ben goes to the kitchen.<br /> <br /><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INT.KITCHEN</b><br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As BEN enters the room, he sees the whole table full of<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dishes and different types of food. SANDRA is busy at work,<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; preparing even more different meals.<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Surprised)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mom, what do we need all this food<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for?<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mom?<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SANDRA<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (No response)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ben approaches Sandra, trying to see if she's ok. She seems perfectly<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fine, just not responding.<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Without understanding the situation, Ben runs away from<br /> <br /><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INT.BEN'S ROOM</b><br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BEN is in his room, looking around, not realizing what is<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; happening. He sits down on the bed, scared. He notices a<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; small mark, and a sims menu appearing on the computer, with<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a click on ""Use Computer"", and feels an irresistible urge to<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; go and sit in front of the computer.<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; He sits down, and begins clicking pointlessly on the mouse.<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As the camera rotates around the computer, the scene in<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; front of the computer becomes animated, his words become<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gibberish, and we realize that we look at another computers<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; frame that shows the animated scene.<br /> <br /><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INT.JACK'S ROOM</b><br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JACK still sits in front of his computer. He clicks rapidly<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on his mouse, without a break. Once in a while he looks<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; around, stops, takes a couple of deep breaths, and keeps on<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clicking.<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As the camera moves away from him, we see the Sims green<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mark above his head. After a couple of moments, a sims menu<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; appears over him, and the option ""Use Computer"" is getting<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clicked, and we understand he is a Sim of a kind in the real<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; world.<br /><br /></div>"
+"eventtime","2008-03-11 09:36:00"
+"current_moodid","125"
+"url","http://nethunter.livejournal.com/14808.html"
+"userid","10885"
+"itemid","56"
+"event","Woke up today, to the sight of Tom (the cat) playing around with a small mantis.
+I don't think the mantis has enjoyed it.
+
+<lj-embed id=""5"" />"
+"eventtime","2008-03-09 23:54:00"
+"current_moodid","44"
+"url","http://nethunter.livejournal.com/14412.html"
+"userid","10885"
+"itemid","55"
+"event","I've been at <lj user=""My_esc"">'s mother's place in Ashqelon, and she had this nice lamp. So I just had to model it :)
+
+<a href=""http://www.deviantart.com/deviation/79474144/""><img src=""http://tn1-1.pv.deviantart.com/fs27/150/f/2008/068/b/b/A_Few_Lamps_by_nethunter.jpg""/><br/>A Few Lamps</a> by ~<a href=""http://nethunter.deviantart.com/"">nethunter</a> on <a href=""http://www.deviantart.com/"">deviant</a><a href=""http://www.deviantart.com/"">ART</a>"
+"eventtime","2008-03-09 08:45:00"
+"current_moodid","11"
+"url","http://nethunter.livejournal.com/14305.html"
+"userid","10885"
+"itemid","54"
+"event","<a href=""http://www.deviantart.com/deviation/79475242/""><img src=""http://tn1-3.pv.deviantart.com/fs30/150/i/2008/068/3/3/Salt_And_Pepper_by_nethunter.jpg""/><br/>Salt And Pepper</a> by ~<a href=""http://nethunter.deviantart.com/"">nethunter</a> on <a href=""http://www.deviantart.com/"">deviant</a><a href=""http://www.deviantart.com/"">ART</a>"
+"eventtime","2008-03-09 02:13:00"
+"current_moodid","84"
+"url","http://nethunter.livejournal.com/13837.html"
+"userid","10885"
+"itemid","53"
+"event","<a href=""http://img135.imageshack.us/my.php?image=1oao6ce4.jpg"" target=""_blank""><img src=""http://img135.imageshack.us/img135/5595/1oao6ce4.th.jpg"" border=""0"" alt=""Free Image Hosting at www.ImageShack.us"" /></a>
+
+Yanshulitler - Leading the way to a better tomorrow for Holon!"
+"eventtime","2008-03-04 08:28:00"
+"current_moodid","49"
+"url","http://nethunter.livejournal.com/13768.html"
+"userid","10885"
+"itemid","52"
+"event","<lj-embed id=""4"" />"
+"eventtime","2008-02-17 12:52:00"
+"current_moodid","88"
+"url","http://nethunter.livejournal.com/13393.html"
+"userid","10885"
+"itemid","51"
+"event","A tiny first attempt at documentary editing. Filmed from the window of my home.
+<lj-embed id=""3"" />"
+"eventtime","2008-02-14 14:42:00"
+"current_moodid","38"
+"url","http://nethunter.livejournal.com/13176.html"
+"userid","10885"
+"itemid","50"
+"event","Tried editing my cat appearing from behind the lamp post. Not sure I like how it turned out, and the beginning is too long. Will try again.
+<lj-embed id=""2"" />"
+"eventtime","2008-02-04 22:21:00"
+"current_moodid","95"
+"url","http://nethunter.livejournal.com/12992.html"
+"userid","10885"
+"itemid","49"
+"event","<img src=""http://img404.imageshack.us/img404/4531/crocsnetxl9.jpg"" />"
+"eventtime","2008-01-15 08:53:00"
+"current_moodid","49"
+"url","http://nethunter.livejournal.com/12790.html"
+"userid","10885"
+"itemid","48"
+"event","<lj-embed id=""1"" />"
+"eventtime","2007-08-27 23:37:00"
+"current_moodid","44"
+"url","http://nethunter.livejournal.com/12402.html"
+"userid","10885"
+"itemid","47"
+"event","0JjQvdC+0LPQtNCwINCvINGB0LXQsdGPINGH0YPQstGB0YLQstGD0Y4g0LrQsNC6INC80LDQu9C10L3RjNC60LjQuSDQvNCw0LvRjNGH0LjQuiwg0LrQvtGC0L7RgNGL0Lkg0YHQu9GD0YfQsNC50L3QviDQt9Cw0LHRgNGR0Lsg0LIg0LzQuNGAINCx0L7Qu9GM0YjQuNGFLCDQuCDRgdC/0YDQsNGI0LjQstCw0LXRgiDRgdC10LHRjywgItCYINGN0YLQviDQstGB0LU/INCQINGH0YLQviDQtNCw0LvRjNGI0LU/Ig=="
+"eventtime","2007-08-06 09:32:00"
+"current_moodid","114"
+"url","http://nethunter.livejournal.com/12232.html"
+"userid","10885"
+"itemid","45"
+"event","0JLQvtGCINGC0LDQuiDQstC+0YIg0L/QvtC70YPRh9C40LvQvtGB0YwsINGH0YLQviDRjyDRg9C20LUg0L3QtdC00LXQu9GOINGA0LDQsdC+0YLQsNGOINCyIDxhIGhyZWY9Imh0dHA6Ly93d3cubWV0YWNhZmUuY29tIj5NZXRhY2FmZTwvYT4g0LLQvNC10YHRgtC1INGBIDxsaiB1c2VyPSJ6YW51ZGthIj4g0LggPGxqIHVzZXI9Im15LWVzYyI+LiDQmCDQstC+0YIsINCy0YfQtdGA0LAsINC/0YDQuNC60LvRjtGH0LjQu9Cw0YHRjCDRgtCw0LrQsNGPINCy0L7RgiDQuNGB0YLQvtGA0LjRjzoNCtCjINC80LXQvdGPINC10YHRgtGMINCy0L7RgiDRgtCw0LrQvtC5INCy0L7RgiDRgtC10LvQtdGE0L7QvToNCjxkaXYgY2xhc3M9ImxqY3V0Ij48YSBocmVmPSJodHRwOi8vaW1nLmlua2Zyb2cuY29tL3BpeC9NYXJ0aGsxMjMvQnV6cGhvbmVfYWxsLmpwZyI+PGltZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgYm9yZGVyPSIwIiBzcmM9Imh0dHA6Ly9pbWcuaW5rZnJvZy5jb20vcGl4L01hcnRoazEyMy9CdXpwaG9uZV9hbGwuanBnIiBhbHQ9IiIgLz48L2E+PC9kaXY+DQrQmCDQvtC9INGDINC80LXQvdGPINGB0YLQvtC40YIg0L3QsCDRgNCw0LHQvtGC0LUuINCS0YfQtdGA0LAg0LLQtdGH0LXRgNC+0LwsINC/0YDQuNGF0L7QtNC40YIg0L3QvtCy0YvQuSDRgNC+0Ygg0YbQtdCy0LXRgiAo0LrQsNC6INGN0YLQviDQsdGD0LTQtdGCINC/0L4g0YDRg9GB0YHQutC4PyksINC4INC90LDRh9C40L3QsNC10YIg0LPQvtCy0L7RgNC40YLRjCDQviDRgNCw0LHQvtGC0LUuINCf0L4g0YHQtdGA0LXQtNC40L3QtSDRgNCw0LfQs9C+0LLQvtGA0LAsINC+0L0g0LLQtNGA0YPQsyDQvtGB0YLQsNC90LDQstC70LjQstCw0LXRgtGB0Y8sINGB0LzQvtGC0YDQuNGCINC90LAg0Y3RgtGDINCx0YPRgtGL0LvQutGDL9GC0LXQu9C10YTQvtC9LCDQuCDRgdC/0YDQsNGI0LjQstCw0LXRgiwgItCi0Ysg0L/RjNGR0YjRjCDQvdCwINGA0LDQsdC+0YLQtT8iLg0K0J3QviDQvtC9INGN0YLQviDRgdC60LDQt9Cw0Lsg0YLQsNC60LjQvCDRgtC+0L3QvtC8LCDQtNCw0LbQtSDQvdC1INCx0YPQtNGC0L4g0L7QvSDRg9C00LjQstC70ZHQvSwg0LAg0LHRg9C00YLQviDQvtC9INGC0L7QttC1INGF0L7Rh9C10YIuLi4="
+"eventtime","2006-12-05 09:39:00"
+"current_moodid","125"
+"url","http://nethunter.livejournal.com/11577.html"
+"userid","10885"
+"itemid","44"
+"event","0JLRgNC10LzQtdC90Lgg0L3QtdGCINGC0L7Qu9GM0LrQviDRgyDRgtC10YUsINC60L7QvNGDINC+0L3QviDQvdC1INC90YPQttC90L4u"
+"eventtime","2006-11-20 15:00:00"
+"current_moodid","88"
+"url","http://nethunter.livejournal.com/11300.html"
+"userid","10885"
+"itemid","43"
+"event","0J7Rh9C10L3RjCDRh9Cw0YHRgtC+INCx0YvQstCw0LXRgiwg0YfRgtC+INGF0L7Rh9C10YjRjCDQv9C+0YHRgtC90YPRgtGMINGH0YLQvi3QvdC40LHRg9C00Ywg0LIg0JbQliwg0L3QviDQvdC10YLRgyDRgNGP0LTQvtC8INC60L7QvNC/0YzRjtGC0LXRgNCwLCDQsCDQutC+0LPQtNCwINC10YHRgtGMINGA0Y/QtNC+0Lwg0LrQvtC80L/RjNGO0YLQtdGALCDRgtC+INGD0LbQtSDQvdC1INC/0L7QvNC90LjRiNGMINGC0LXRhSDQvNGL0YHQu9C10LkuLi4g0JjQu9C4INC10YnRkSDRhdGD0LbQtSwg0YPQttC1INC90LUg0L/QvtC70YPRh9Cw0LXRgtGB0Y8g0YLQsNC6INC40LfQu9C+0LbQuNGC0Ywg0LzRi9GB0LvQuC4NCg0K0JjQu9C4INC/0YDQuNC00YPQvNGL0LLQsNC10YjRjCDRh9GC0L4g0L3QsNC/0LjRgdCw0YLRjCwg0LAg0L/QvtGC0L7QvCDQtNGD0LzQsNC10YjRjCwgItCd0YMg0LrQvtCz0L4g0LHRg9C00LXRgiDQuNC90YLQtdGA0LXRgdC+0LLQsNGC0Ywg0YfRgtC+INGDINC80LXQvdGPINCy0YHRkSDRhdC+0YDQvtGI0L4/Ig0KDQrQktC+0YIg0Lgg0L/QvtC70YPRh9Cw0YLRjNGB0Y8u"
+"eventtime","2006-11-17 19:28:00"
+"current_moodid","30"
+"url","http://nethunter.livejournal.com/11117.html"
+"userid","10885"
+"itemid","42"
+"event","<i>Woman begins by resisting a man's advances and ends by blocking his retreat. <br /><br />A man can be happy with any woman, as long as he does not love her.</i><br /><i>-- Oscar Wilde<br /><br /></i>It keeps amazing me, how some people can care only for whatever they don't have. Most people do. Why do we have to stop caring, in order to gain respect?"
+"eventtime","2006-10-07 16:01:00"
+"current_moodid","81"
+"url","http://nethunter.livejournal.com/10829.html"
+"userid","10885"
+"itemid","41"
+"event","<img src=""http://www.facade.com/biorhythm/biogif.fac?2+14+10+5+2006+4+29+2006+0+0+0"" alt="""" />"
+"eventtime","2006-10-06 04:02:00"
+"current_moodid","68"
+"url","http://nethunter.livejournal.com/10632.html"
+"userid","10885"
+"itemid","40"
+"event","<img src=""http://studiosh.com/lj/PantsHouse_Thumb.jpg"" alt="""" /><br /><br />
+<div text=""See it bigger"" class=""ljcut""><img src=""http://studiosh.com/lj/PantsHouse.jpg"" alt="""" /><br /></div>"
+"eventtime","2006-09-26 02:40:00"
+"current_moodid","118"
+"url","http://nethunter.livejournal.com/10444.html"
+"userid","10885"
+"itemid","39"
+"event","<img border=""0"" src=""http://studiosh.com/lj/IFoundNow_Thumb.jpg"" alt="""" /><br /><br />
+<div text=""See it bigger."" class=""ljcut""><img src=""http://studiosh.com/lj/IFoundNow.jpg"" alt="""" /><br /></div>"
+"eventtime","2006-09-26 02:18:00"
+"current_moodid","78"
+"url","http://nethunter.livejournal.com/10003.html"
+"userid","10885"
+"itemid","38"
+"event","You know those amazing images that you sometimes see in movies, or nano-sized robots, or all kinds of microbes?<br />
+<div class=""ljcut""><img src=""http://www.tescan.com/gallery/mira/vk_01.jpg"" alt="""" /><br /><br />Tescam is the leading company of those microscopes. Take a look at their <a href=""http://www.tescan.com/an/an_gal.html"">image gallery</a>.</div>"
+"eventtime","2006-09-21 00:08:00"
+"current_moodid","29"
+"url","http://nethunter.livejournal.com/9788.html"
+"userid","10885"
+"itemid","37"
+"event","I want to live, I want to love, but it's a long dark road, out of hell."
+"eventtime","2006-09-18 04:05:00"
+"current_moodid","61"
+"url","http://nethunter.livejournal.com/9582.html"
+"userid","10885"
+"itemid","36"
+"event","There are those times, when you enter a situation, knowing everything there is to know about it. You have it all figured out. You know where you want to go from here, and you know how you're going to get there. Everything is so obvious, and so correct, and it all goes so well... And then all of a sudden, something changes. A small parameter that you didn't take into account. A tiny boolean fragment of your reality, which changes white into black, good into evil, and your perfect situation and perfect path, into a perfect disaster. And the most unfortunate part of it all, is that you never know if it's really a disaster, because maybe, just maybe, what it morphed into, is what it was supposed to be in the first place?
+Or maybe, that change, that tiny little bit change, is a part of somebody elses perfect situation. Somebody's own internal force, in whos reality, the success of your situation, would clash.
+
+I want to call her, and ask her ""I worship you, for being THAT. But I don't want to be a part of it. Have you seen Cabaret?"""
+"eventtime","2006-09-16 13:34:00"
+"current_moodid","22"
+"url","http://nethunter.livejournal.com/9345.html"
+"userid","10885"
+"itemid","35"
+"event","I've been thinking about this idea for a while. I have noticed that anything I plan in my head, doesn't work out.
+Down to the point of out of 2 possible ways a single thing can work out, having 2 different plans for when they go wrong, what actually happens is a very very twisted mix of one of them, just so it won't make sense."
+"eventtime","2006-08-24 02:14:00"
+"current_moodid","15"
+"url","http://nethunter.livejournal.com/9125.html"
+"userid","10885"

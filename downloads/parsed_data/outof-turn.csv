@@ -1,0 +1,924 @@
+"names","values"
+"itemid","590"
+"event","SSdtIDEwMCUgc3VyZSBJJ20gZGVwcmVzc2VkLiANCg0KSSBmZWVsIGxpa2UgSeKAmW0gaW4gYSBib3ggd2l0aCBhIHBpbmhvbGUgdmlldyBvZiB0aGUgb3V0c2lkZSB3b3JsZC4gSSB3YXMgb2theSB3aXRoIGJlaW5nIGluIHRoZSBib3ggZm9yIGEgbGl0dGxlIHdoaWxlLiBCdXQgbm93IGl04oCZcyBnZXR0aW5nIGhhcmRlciB0byBicmVhdGhlLiBTbG93bHksIEkgZGlzY292ZXIsIHRoZSBhaXIgaXMgYmVpbmcgc3Vja2VkIG91dCBvZiB0aGUgYm94LiBSZXBsYWNpbmcgdGhlIHNwYWNlIHRoZSBhaXIgb25jZSB0b29rIHVwIGlzIGFuIGluY29uY2VpdmFibGUgYW1vdW50IG9mIHByZXNzdXJlLiBJdOKAmXMgbGlrZSBvbmUgbHVja3kgc3Vja2VyIHB1bmNoIHRoYXQga25vY2tzIHRoZSB3aW5kIG91dCBvZiB5b3UuIE5vLCBpdOKAmXMgbW9yZSBsaWtlIGEgcGVubnkgZmFsbGluZyBmcm9tIGEgdGFsbCBidWlsZGluZy4gQWN0dWFsbHksIGl04oCZcyB0aGUgZm9yY2Ugb2YgYXQgbGVhc3QgYSB0aG91c2FuZCBjYXIgY3Jhc2hlcy4gTWF5YmUgaXTigJlzIG1vcmUgbGlrZSBoaXR0aW5nIHRoZSBncm91bmQgYWZ0ZXIgYW4gaW5maW5pdGUgbmlnaHRtYXJlIGZyZWUgZmFsbD8gV2hhdGV2ZXIgaXQgaXMsIGl04oCZcyBhIHZhY3V1bSBvZiBjcnVzaGluZyBzYWRuZXNzLiANCg0KWW91IGNvdWxkIHNheSB0aGF0IEkgY3JlYXRlZCB0aGUgYm94LiBJIGNhcmVmdWxseSBsaW5lZCB1cCB0aGUgZWRnZXMgYW5kIGdsdWVkIHRoZW0gdG9nZXRoZXIganVzdCByaWdodC4gSSBtZXRpY3Vsb3VzbHkgY3V0IHRoZSBwZXJmZWN0IGNpcmN1bGFyIHBpbmhvbGUganVzdCBsYXJnZSBlbm91Z2ggZm9yIHRoZSBzbWFsbGVzdCBnbGltcHNlLiBJIGxvd2VyZWQgdGhlIGJveCBvdmVyIG15c2VsZiBhbmQgc2VhbGVkIG15IG93biBkYW1uIGZhdGUuIFlvdSBjb3VsZCBzYXkgSSB3YW50ZWQgdGhpcy4NCg0KQnVyIEkgZGlkbuKAmXQgd2FudCB0aGlzLiBJdOKAmXMgYSBwZXJzb24gaW4gZW1vdGlvbmFsIHBvdmVydHkgc2hpZWxkaW5nIHRoZW1zZWx2ZXMgZnJvbSB3YXZlcyBvZiBzZWxmLXJpZ2h0ZW91cyBtYXJ0eXJkb20gYW5kIG1hbmlwdWxhdGlvbi4gSXTigJlzIGFzc3VtaW5nIHRoZSB3b3JzdCBvZiBwZW9wbGUuIEl0IGlzIGtub3dpbmcgbm8gb25lIGlzIGNvbWluZyB0byB5b3VyIHJlc2N1ZS4gSXTigJlzIHNhdmluZyB5b3Vyc2VsZi4gSXTigJlzIGZsb2F0aW5nIGFsb25nIGluIHlvdXIgb3ZlcnR1cm5lZCBib3ggd2hlbiB0aGUgc3Rvcm0gaGl0cyBhbmQgc2hpcHMgc2luayBhcm91bmQgeW91LiBJdOKAmXMgc3F1ZWFraW5nIGJ5IHVubm90aWNlZCBpbiBhIHNlYSBvZiBkZWJyaXMuIEl04oCZcyBsaWtlIHRoaW5raW5nIG91dCBsb3VkLCDigJxJIGRvbuKAmXQgd2FudCB0byBkaWUgYW5kIGJ1dCBJIGhhdmUgbm8gaWRlYSBob3cgdG8gc3Vydml2ZSB0aGlzLuKAnQ0KDQpJIGhhdmUgYmVlbiBhdm9pZGluZyBteSBmYW1pbHkuIEkgaGF2ZSBiZWVuIGF2b2lkaW5nIG1vc3Qgb2YgbXkgZnJpZW5kcy4gSSdtIGEgY2FyZXRha2VyIGFuZCBtb3RoZXIgdG8gbXkgZmFtaWx5LiBNeSBmcmllbmRzIGp1c3QgZG9uJ3QgZ2V0IGl0IGFuZCBvZmZlciBwYXNzaW5nIGdsYW5jZXMgb2YgaG9wZWZ1bG5lc3MsIGJ1dCBub3RoaW5nIG1lYW5pbmdmdWwuIEkgYW0gYWxvbmUgYW5kIEkgaGF2ZSBubyBpZGVhIHdoZXJlIEkgYW0uIEkgc2NyZWFtIGF0IHRoZSB0b3Agb2YgbXkgbHVuZ3MgaW4gbXkgY2FyIG9uIGxvbmcgbmlnaHQgZHJpdmVzIGJlY2F1c2UgSSBkb24ndCB3YW50IGFueW9uZSB0byBzZWUgbWUgYXNrIGZvciBoZWxwIGFuZCBJIGRvbid0IGtub3cgaG93IHRvIG90aGVyd2lzZSBhbnltb3JlIHdoZW4gZXZlcnlvbmUgaWdub3JlcyB0aGUgcm9vdCBvZiBteSBuZWVkcy4gIA0KDQpJJ3ZlIGJlZW4gc3BlbmRpbmcgYSBsb3Qgb2YgdGltZSBsb29raW5nIGF0IG15c2VsZiBhbmQgd2lzaGluZyBJIGNvdWxkIGJyZWFrIG15IG1pcnJvciBvZiBzZWxmIHJlZmxlY3Rpb24uIEkgdGhpbmsgSSBoYXRlIG15c2VsZi4gSSBrbm93IEknbSBteSBvd24gd29yc3QgZW5lbXkuIE1vc3QgZGF5cyBJIGhlYXIgbXkgbW90aGVyJ3Mgdm9pY2UgaW4gbXkgaGVhZCBzd2F5aW5nIGJldHdlZW4gdGVsbGluZyBtZSBzaGUgbG92ZXMgbWUgYW5kIGlzIHByb3VkIG9mIG1lIGFuZCBzaGUgd2lzaGVzIHNoZSBjb3VsZCBiZSBoZXJlIGFuZCBob3cgaGF2ZSBJIGxldCBteXNlbGYgZ28gYW5kIHdoeSBhcmVuJ3QgSSB3b3JraW5nIGhhcmRlciBhbmQgd2h5IGFtIEkgd2l0aCBOZWlsIGFuZCBzaWxlbnRseSBnZXR0aW5nIHVwc2V0IEkgaGF2ZW4ndCBjYWxsZWQgaW4gYSB3aGlsZS4gSSBoZWFyIGZvb3RzdGVwcyBwYWNpbmcgdG8gdGhlIGhlYXRlciBhbmQgSSB0YWtlIHR3byBzdGVwcyBhdCBhIHRpbWUgdG8gZ2V0IHRvIG15IHJvb20gYXQgdGhlIHRvcCBvZiB0aGUgc3RhaXJzLiBJIGZlZWwgaGVyIGFyb3VuZCBtZSBhbGwgdGhlIHRpbWUgZm9yIGJldHRlciBhbmQgZm9yIHdvcnNlLiBJIGV4cGVjdCB0aGUgcmF0dGxlIG9mIG15IGJlZHJvb20gZG9vciB3aGVuIHRoZSB2YWN1dW0gYmF0cyBhZ2FpbnN0IGl0IG9uIGEgd2Vla2VuZCBtb3JuaW5nLCBlaWdodCB5ZWFycyBhbmQgYSB0aG91c2FuZCBtaWxlcyBhd2F5LiAgDQoNCkkgZmVlZCB0aGUgZGVtb25zIGluc2lkZSBtZSBhbGwgdGhlIHRpbWUuIEkgcGF5IGF0dGVudGlvbiB0byB0aGVpciBuZWVkcyBhbmQga2VlcCB0aGVtIG5lYXQgaW4gYSByb3cuIEkgYWNrbm93bGVkZ2UgdGhlbSBhbmQgdW5kZXJzdGFuZCB0aGVtLCBteSBtaXNiZWhhdmluZyBjaGlsZHJlbiwgdGhvdWdoIHRoZXkgbGluZ2VyIGxpa2UgdW53YW50ZWQgaG91c2VndWVzdHMuIFRoZXkgaGFuZyBhcm91bmQgbXkgc291bCBqdXN0IGdob3N0cyBpbiBhIGhhdW50ZWQgaG9tZS4gU29tZXRpbWVzIEkgYmVsaWV2ZSB0aGVtIGFuZCBzb21ldGltZXMgdGhleSdyZSBhIHBhcnQgb2YgbWUsIHNvIHNlcGFyYXRpb24gZG9lc24ndCBjb21lIGVhc3kuIFRoZXkgbGF1Z2ggYW5kIHNjcmVhbSBhbmQgdGVhc2UgYW5kIG1ha2UgbWUgZmVlbCBzb21ldGhpbmcuDQoNCk5laWwgdG9sZCBtZSBJIHNob3VsZCB3YW50IHRvIGZlZWwgZXZlbiBpZiBpdCdzIGFuZ2VyIG9yIHNhZG5lc3MgYmVjYXVzZSBJIGNhbid0IGFsd2F5cyBleHBlY3Qgc3Vuc2hpbmUgYW5kIGEgdGh1bmRlcnN0b3JtIGlzIGJldHRlciB0aGFuIGdyYXkgc2tpZXMuIEkgd291bGQgcmF0aGVyIG5vdCBmZWVsIGEgdGhpbmcuIEdldHRpbmcgdGhyb3VnaCB0aGUgZGF5IHRha2VzIHR3aWNlIHRoZSBlbmVyZ3kgaWYgSSBsZXQgbXlzZWxmIGZlZWwgYW5kIHRoZXNlIGZvdXJ0ZWVuIGhvdXIgZGF5cyBhcmVuJ3QgZ2V0dGluZyBhbnkgc2hvcnRlciBvciBsZXNzIHJlZ3VsYXIuIFdoZW4gSSB3b3JrLCB0aGUgcmVzdCBvZiB0aGUgd29ybGQgZmFsbHMgYXdheSBhbmQgSSBjYW4gaGF2ZSBmb2N1c2VkIHJlcGV0aXRpb24gYW5kIGNsb2NrIG91dCBvZiBldmVyeXRoaW5nIGVsc2UsIGxpbmluZyB1cCBjb2RlIGFuZCBrZWVwaW5nIHNwcmVhZHNoZWV0cy4gSSBvZnRlbiB3b25kZXIgd2hhdCBkYXlzIHdvdWxkIGJlIGxpa2UgaWYgeW91IGNvdWxkIHNwaWxsIGNvZmZlZSBpbnNpZGUgb2YgYSBjb21wdXRlciBzY3JlZW4uIEkgb2Z0ZW4gd29uZGVyIHdoYXQgZGF5cyB3b3VsZCBiZSBsaWtlIGlmIEkgY291bGQgcmVhY2ggb3V0IGFuZCB0b3VjaCBzb21ldGhpbmcgcmVhbCBpbiBmcm9udCBvZiBtZS4="
+"eventtime","2015-02-03 02:55:00"
+"url","http://outof-turn.livejournal.com/151192.html"
+"userid","11526"
+"itemid","588"
+"event","Since the end of March when she got sick for the last time, I was trying to figure out what I wanted to say. I can write anthologies about heart break, but faced with the seriously devastating, I have resorted to delusion, then distraction. I am now ready to challenge the trajectory of the last few months with counterbalanced strength. I'm ready to acknowledge the flaws of my family and my impartial role. Dad was ready to talk this trip. I am ready to talk about the truth, deceit, compassion, burden, and defeat that have accompanied unfortunate circumstance. Like the age-old phoenix from the ashes metaphor, I too can rise.
+
+My mother died April 9, 2014. I was returning to grad school from Spring Break, late March, when the news broke she had food poisoning; with the symptoms and severity lasting much longer than usual food poisoning spell, she was admitted to the hospital. By April 1st, my 25th birthday, her mental condition deteriorated and she screamed for my brother, who had been absent the last six months of her life. She couldn't remember my father or uncle being at the hospital. She wanted to die. She was off anti-depressants and anxiety medications, that threw her into a worse state. I smoked my last cigarette on that day, when she was put under a psych evaluation. The next few days there was improvement and she was moved out of ICU. I contemplated visiting, but she and my father told me not to come. I went to San Francisco to see friends. She was released and within 24 hours back in the hospital. By that 9th day, my father called me to fly down. I left class early, grabbing a good friend to take me to Portland, and getting on the first flight. Another friend arranged to pick me up in LA and take me out to Oxnard. If only I had known it was the last time I'd get to speak with her. 
+
+I only remember snippets of what we talked about. School, teaching, what treatments that had given her, how uncomfortable she was. I showed her pictures on my phone of my boyfriend and from my camping trip. She tried to smile. She was sedated and I sang to her while she passed in and out of consciousness. In the morning, we returned. She could only nod or shake her head and hemoglobin levels dropped rapidly. They had no choice but to change procedures, relying again on dialysis. My uncle, father, and I ate lunch while they induced her. Something, by The Beatles, came on in the sandwich shop. My Dad and I began to cry as we recalled it was the song playing when my parents had gotten married."
+"eventtime","2014-07-10 01:18:00"
+"url","http://outof-turn.livejournal.com/150629.html"
+"userid","11526"
+"itemid","586"
+"event","I had to break the code... go mad.
+I tried to make a soul from scratch.
+If I had dreamed you in meticulous detail, would you ever come alive? would you ever come alive?
+I hope that I kick my days and fourteen of my nights, will you ever come alive? will you ever come alive?
+
+I want this,
+a confusing happiness,
+never knowing what comes next.
+I want this, 
+all the agony and bliss,
+from confusing happiness.
+
+The dawn, no birds around.
+Reborn, without a sound.
+Oh no, the fire drowned.
+If I had dreamed you in meticulous detail, would you ever come alive? would you ever come alive?
+Since I've began, it's taken two years in this hell. will you ever come alive? will you ever come alive?
+
+I want this,
+a confusing happiness,
+never knowing what comes next.
+I want this, 
+all the agony and bliss,
+from confusing happiness.
+
+If I could dream you in meticulous detail, would you ever come alive? would you ever come alive?
+If I had a dream in my body and my conscious mind, will you ever come alive? will you ever come alive?
+
+I want this,
+a confusing happiness,
+never knowing what comes next.
+I want this, 
+all the agony and bliss,
+from confusing happiness."
+"eventtime","2014-03-02 12:28:00"
+"url","http://outof-turn.livejournal.com/150040.html"
+"userid","11526"
+"itemid","573"
+"event","I want to be somebody else.
+Sick of myself and how I feel.
+Don't recognize who I see in the morning.
+Used to be so clear.
+And now I'm waking up to strangers with their shadows on my face.
+So quickly I remember what it felt like to be in this place..."
+"eventtime","2013-11-12 23:14:00"
+"url","http://outof-turn.livejournal.com/146829.html"
+"userid","11526"
+"itemid","569"
+"event","Halloween. I rushed home from class and threw off my heels, lit candles and tidied up. I fixed my hair and make up and made a gin and tonic. Then Alex and Scott were here. We drank beers and chatted skiing and my dad's photographs on the walls. A picture with Alisa. Music he likes. Chugged our drinks and headed out. Boys were drunk running ahead to the party then stopping and waiting for me. Alex waited for me patiently in my heels and held my hand. We finally found the party. We drank some delicious Everclear apple drink Chris made and started a congo line. My sharknado danced with a shark and a couple dressed up as a ventriloquist and dummy. Alex and I danced together and Chris and I lead the Thriller dance. Alex headed out early because he had work in the morning. We kissed twice all night. He suggested hanging out sober sometime.
+
+Scott and I decided to blow off the party shortly after Alex left. Saying bye to Chris, we went back to his place and laid on an air mattress smoking bowls and listening to music all night. Talking music. Bands we like, shows we've been to, music each of us should check out, what music we like to play - he also plays guitar. Around 4:30 he walked me home. 
+
+Slept through Statistics, but made it in time for my GIS lab. Saw Scott, gave me the ""you're a terrible influence"" line. Got home from lab and scurried through some Stats homework due at midnight. Skyped with Tim, Elsa and Eric and got ready for the party with hydrophiles kids (the people i went rafting with). I show up and spot my buddy Lawrence, a guy from the fucking valley who likes to party as much as I do. Then Tyson. I had my eye on him since the first forestry party I saw him drinking whiskey out of a flask in the corner of the room, heading outside to split American Spirits with friends. He's 32 with a sick half-sleeve of a vintage Moby Dick cover, blue eyes and dark brown hair and perma scruff beard. He likes music and dresses well. He hasn't lived anywhere longer than a year or so in the last eight years...moving between austin, southeast alaska, DC, wyoming, albuquerque, portland...at least a couple other places. He's ten shades of fucked up though, i think. lack of commitment, enjoying his nomadic lifestyle into his thirties (will be 33 at the end of this month 0_o). I'm not interested in dating him...but hotdamn there's something instinctually attractive about him. In a bright eyes alcoholic type i'm actively trying to avoid. Though he invited me back to his place ""as to not walk home in the rain"" and he went down on me for what felt like hours. then we had sex. He apologized for being so nervous. HE WAS THE NERVOUS ONE? He has 8 years experience on me? What can I judge him against, honestly? I found it endearing and I woke up a few hours later to him going down on me again. then we tried again in the morning. He says he can't normally come with someone the first time. So I helped get him off. Then he brewed us coffee and offered me a ride home...so I did not have to walk of shame in my halloween costume. I left my keys at the party the night before from using them to open beers to shotgun. He took me to their house first and I snuck in their unlocked front door and took my keys, in a puddle of beer, and made the great escape in my costume before anyone could see me.
+
+I guess I'm getting into the no-strings-sex thing.
+
+But despite it all, I'm still most into Alex. Fuck."
+"eventtime","2013-11-03 13:29:00"
+"url","http://outof-turn.livejournal.com/145755.html"
+"userid","11526"
+"itemid","567"
+"event","On Thursday I got outta teaching and met up with some fellow grad students...our professor offered to take us drinking, but he and some of the older grad students were done before I was done teaching. So I met up with them when I finished teaching, and there were only a few classmates left.
+Alex, sweet guy in my program; Yana, Ukrainian exchange student; German Guy (his name starts with an F), German exchange student; my partner on a project, Austin. And myself.
+
+It's long island night at the bar, so Alex declares he's gonna take advantage of that - but not alone. We order some food for the table. Then everyone but Yana drinks long islands. We get drunk, Austin reveals he's deeply religious and we ask him to explain his perspective. We get drunker and sing along with the band that's playing and Alex asks me to dance. We end up making out in the hall between the bar and the band. I was laughing a lot. German guy and I also sort of hit it off. We text under the table. He also asks me to dance. We sing. I run into someone I know. I'm surprised to remember their face. I remember coming home and struggling with my backpack and getting the door open. I forgot to leave the light on. I remember getting the mail and sitting on the couch and falling over it and laughing. I remember making out in my bed, and him asking if I had protection. I remember being on top. I remember needing lube and doing doggy and him asking if he could cum in my mouth. I remember him asking if he should stay and me passing out and telling him to leave. 
+
+I woke up in the morning still drunk, to a condom on my floor, and my apartment in complete disarray. To being so sore, and no voice. To no one being there. To calling Elsa and trying to piece together my night. Everything spins. I don't get out of bed until after one. 
+
+I feel nothing at first. A little sad my apartment is so fucked up, a little annoyed he texted me. I little relieved - I feel as if I made a huge step in moving on from Daniel. I hurt physically but my mind is blurred. I text Alex as he's in bed dying too. I call Alisa. I make it to my 2 p.m. class. 
+
+It's been 48 hours or so and I am starting to feel again. I feel guilty. I feel liberated. I feel ashamed. I feel gross. I feel weird. I don't feel like myself. I have absurd dreams about Daniel and that's one reason I can't sleep. I feel disappointment. I feel empowered. I feel adult. I feel regret. I feel alone. I text Addison and he teases me for a change... it's been on and off since his birthday the other day. I think about texting Daniel, but I never do. Tonight I read my break up letter to him. I affirm I made the right decision. I also suspect that maybe he fell out of love with me long before I did him. I wonder if I'm still in love and decide I can't be. I wonder when the next time I'll date is. I wonder how much longer I'll be alone. I dread responding to German guy's text or seeing him and Alex in class every Tuesday and Thursday for the next seven weeks. I wonder if they think I'm easy. I wonder how I left the bar. I wonder if I embarrassed myself. I wonder if I belong here. I wonder if there's a reason I'm having these thoughts. I don't like that I don't trust my own judgement. I think I can't tell any of the girls I've met here. I feel alone again. I think I need to be alone. But I hate being here with my thoughts. Four a.m. and no relief from the self sabotage. I wish I had a room mate. I need to be in California. How can I survive more nights like this? So alone? So desperate? I hope Daniel and I could make it work again, like he's going to come riding in on some white horse and save me and promise to make all of this up to me. I realize that no one is coming to save me. That I can choose to save myself or lose who I want to be, lose direction. Be unhappy with my decisions. Or I can own up to it. Believe that this is what I want. Hold on to the idea of a love so real he won't care about the New Years I can't remember at Neil's, or hooking up with ex's long past due, or home wrecking someone else's relationship, then home wrecking my own, or the now two one-nighters I hardly remember that haunt me now. I feel like there's more to the story. My brain and my heart and the rest of my anatomy are all afraid of different things and until they agree I'll be unhappy. I crave stability. I crave sleep. I miss California. I haven't hugged someone since my parents left. I fill my days with coffee and schoolwork and TV show reruns and cooking for one. With online shopping and upgrading cable and being outside. The silence of the forest stifles my thoughts."
+"eventtime","2013-10-20 04:04:00"
+"url","http://outof-turn.livejournal.com/145271.html"
+"userid","11526"
+"itemid","548"
+"event","Today marks one month until I go back to Santa Cruz. There are a number of things I would still like to do with my remaining time at home, however working and carlessness don't make all these things easy. So from now until I move I am going to do one productive thing per day, however large or small, until my move date so that I have no remaining ties or regrets about my use of time or my belonging/needing to be here. However, I'm having some trouble coming up with some things that I can fit in on weekends as well as small tasks I'm sure that I'm forgetting. Any input is wonderful.
+<center>
+<i><b>30 Days of Change
+August
+9th - Make lists (like this one) of books and movies I want to finish, as well as chores I need to get done and things I want to do before I go back. This includes a budget.
+10th - Start daily calorie count of < 1700
+11th - Start daily 20 minute walk and 100 crunches
+12th - Clean out closet - organize and dump EVERYTHING
+13th - Go to IKEA for pots, pans, AND TINY CATCI(!) 
+14th - Get out of the house, bus somewhere on your list of places to go.
+15th - Build jewelry holders http://www.squidoo.com/earringholder
+16th - Sew old clothes I'm keeping from closet clean out
+17th - Clean out desk (yikes)
+18th - Work for dad (5 blogs at $7/blog = $35 easy bucks!)
+19th - Put together feather binder (I've been collecting feathers from birds at work and they're just sitting in paper bags in my room!
+20th - Meditate twice today
+21st - Dollar Tree shopping for school stuff
+22nd - Catch up day - catch up on any of these tasks I failed to complete
+23rd - Stop biting nails
+24th - Shoe glue & scotch guard my boots
+25th - Work for dad again (hey, I need the extra $$!)
+26th - Delete old emails and texts. File or throw away old mementos from friends and exes.
+27th - Call Grandma for her birthday/plan an extra-long talk
+28th - ???
+29th - ???
+30th - ???
+31st - ???
+September 
+1st - Dye hair
+2nd - Pick up recommendation letter from Wildworks
+3rd - ???
+4th - ???
+5th - Get appliances, extra blankets, guitar, other big items ready for moving
+6th - Do something nice for my brother on his birthday
+7th - Delete everyone from Facebook I don't really like or talk to
+8th - Goodbye affairs with Move and Appt with my lawyer to settle DMV suspension
+9th - MOVING DAY
+</i></b>
+</center>
+I work full time, so keep in mind weekdays need to be smaller chores, while weekends I'm open to bigger progress, decisions, etc. I have very little money I can spend in this time, too, but am open to the idea of buying versatile or practical clothing as a suggestion. Also, if you can think of another bad habit of mine, please suggest so I can stop. Thanks!
+(NOTE: right now I'm not smoking or drinking, in addition to not eating meat so no need to suggest any of that)"
+"eventtime","2010-08-09 13:59:00"
+"url","http://outof-turn.livejournal.com/140440.html"
+"userid","11526"
+"itemid","545"
+"event","Everything you've known.
+Everything you've seen.
+Everything you've loved.
+Everything you've been
+And everywhere you walk
+Every song you sing
+Everytime you wake
+it haunts you once again.
+Joshua James - FM Radio"
+"eventtime","2010-07-19 11:27:00"
+"current_moodid","114"
+"url","http://outof-turn.livejournal.com/139643.html"
+"userid","11526"
+"itemid","536"
+"event","SSBoYXRlIG15c2VsZiBtb3JlIHRoYW4gSSBldmVyIGxldCBvbi4NCknigJltIGJ1cm5lZCBvdXQgYXQgMjEuDQpJIGxpdmVkIHRvbyBmYXN0IGFuZCBJIGxvdmVkIHRvbyBtdWNoIGFuZCBJIG1pZ2h0IGRpZSB0b28geW91bmcsIA0KYnV0IEkgY2hvc2UgdGhpcyBjdXAgdGhhdCBJIGRyYW5rIGZyb20uDQpLbmV3IHdoYXQgSSB3YXMgZ2V0dGluZyBpbnRvLiANCkJ1dCBJIGNvdWxkbuKAmXQgbGV0IG91dCB3aGF0IEkgaGFkIHRvIGtlZXAgaW4uIA0KSeKAmW0gYXNoYW1lZCBvZiBteXNlbGYgYW5kIHVuc3BlYWthYmxlIHNpbnMgdGhhdCBJ4oCZdmUgY29tbWl0dGVkIGFuZOKApiANCg0KSeKAmXZlIG1hZGUgbWlzdGFrZXMgYnV0IEnigJlsbCBmaW5kIG15IHdheS4gDQpObyBleHBsYW5hdGlvbiBmb3IgDQp0aGUgdGhpbmdzIEnigJl2ZSBmYWlsZWQgYXQgYmVmb3JlLiANClRoZXkgY2Fu4oCZdCBob2xkIG15IGhhbmQu"
+"eventtime","2010-06-22 12:19:00"
+"url","http://outof-turn.livejournal.com/137375.html"
+"userid","11526"
+"itemid","533"
+"event","Every day I fall more and more in love with Daniel."
+"eventtime","2010-06-05 14:11:00"
+"url","http://outof-turn.livejournal.com/136665.html"
+"userid","11526"
+"itemid","512"
+"event","SSBhbSBnb2luZyB0byB3cml0ZSBvbiBteSBvYnNlcnZhdGlvbnMgZnJvbSB0aGUgVUMgU3RyaWtlIC0gbXkgYWN0dWFsbHkgYmVpbmcgdGhlcmUsIHVwZGF0ZXMgZnJvbSB0d2l0dGVyLCBodHRwOi8vb2NjdXB5Y2Eud29yZHByZXNzLmNvbSwgYW5kIHRleHQgZnJvbSBvdGhlciBzY2hvb2xzKS4gDQoNClRoaXMgaXMgYSBodWdlLCB3b3JsZCB3aWRlIHByb3Rlc3QuIFRoaXMgaXMgaGlzdG9yeS4gVGhlIHdheSBJIGZlZWwgbm93IGlzIHRoZSB3YXkgSSBmZWx0IHdoZW4gMzAgb2YgdXMgd2VyZSBjcm93ZGVkIGFyb3VuZCBvdXIgbmVpZ2hib3IncyBUViB3YXRjaGluZyB0aGUgc3RhdGlzdGljcyBzaG93IE9iYW1hIHdpbm5pbmcgdGhlIHByZXNpZGVudGlhbCBlbGVjdGlvbiBieSBhIHByZXR0eSBkZWNlbnQgZ2FwLiBUaGVuIHRoZSBub2lzZSBvZiB0aG91c2FuZHMgb2Ygc3R1ZGVudHMgcnVubmluZyBieSBvdXIgYXBhcnRtZW50cywgdGhyb3VnaCB0aGUgYWxsZXkgaW4gdGhlIHJhaW4uIFNvbWUgd2l0aCBzaGlydHMgb2ZmLCBzb21lIGRhbmNpbmcsIHNvbWUgd2l0aCBkcnVtcywgc2hvdXRpbmcgYWJvdXQgYSBuZXcgZXJhLiBPdXIgZnV0dXJlLg0KDQpPbiBUaHVyc2RheSBJIHdhcyBhdCB3b3JrLCBjaGVja2luZyBvbiB0aGUgS3Jlc2dlIFRvd24gSGFsbCBvY2N1cGF0aW9uIHZpYSBibG9nIGFuZCB0d2l0dGVyIHdpdGggbXkgYm9zc2VzLCBhbGwgb2Ygd2hvbSBhcmUgaW4gY29tcGxldGUgc3VwcG9ydC4gSSBqb2tpbmdseSB3cm90ZSBvbiBGYWNlYm9vayBhdCAxMSBhbSwgIlByb3Rlc3RvcnMhIENvbWUgdG8gS2VyciBIYWxsLCB3b3JrIGlzIHNsb3cuLmFtdXNlIG1lIGhhaCIgVGhlIEtlcnIgSGFsbCBhZG1pbmlzdHJhdGlvbiBoYWQgcHV0IHRoZSBidWlsZGluZyBvbiBsb2NrZG93biB0aGF0IG1vcm5pbmcsIG1lYW5pbmcgdGhlIG1haW4gZW50cmFuY2Ugd2FzIGd1YXJkZWQgYW5kIGV2ZXJ5IG90aGVyIGVudHJhbmNlIHJlcXVpcmVkIGEga2V5IHRvIGVudGVyLCBzbyBJIGhhZCBhIHByZXR0eSBnb29kIGh1bmNoIHRoYXQgb2NjdXBhdGlvbiB3YXMgcG9zc2libGUuIDI6MzAgdGhlcmUgd2FzIHdvcmQgdGhhdCB0aGV5IHdlcmUgaGVhZGluZyBvdXIgd2F5LiBUaGUgc3RhaXJ3ZWxscyB3ZXJlIHRoZW4gYWxzbyBsb2NrZWQuIFNvIGFwcGFyZW50bHksIHNvbWVvbmUgbGV0IHRoZW0gaW4gb24gbXkgZmxvb3IsIGFuZCBhIHN0YW1wZWRlIGhlYWRlZCB0b3dhcmQgbXkgb2ZmaWNlIGFzIEkgc3R1Y2sgbXkgaGVhZCBvdXQsIHdhdGNoaW5nIGFib3V0IDE1MCBraWRzIHdhbGsgYnkuIFJlYWxpemluZyB0aGUgc3RhaXJ3ZWxscyB3ZXJlIGxvY2tlZCwgdGhleSB0b29rIHRoZSBlbGV2YXRvcnMuIFJlYWxseSwgYWRtaW5pc3RyYXRpb24/IFlvdSBsb2NrIHRoZSBzdGFpcnMgYnV0IG5vdCB0aGUgZWxldmF0b3JzPyBUaGUga2lkcyBnb3Qgb24gbGlrZSAyMCBhdCBhIHRpbWUgYW5kIHNvb24gZW5vdWdoIG9jY3VwaWVkIHRoZSBmb3llci4gSSB3YXMgbGF1Z2hpbmcgYWJvdXQgYWxsIG9mIGl0IHdpdGggbXkgYm9zc2VzIGpva2luZyB0aGF0IG15IGZhY2Vib29rIHN0YXR1cyBpcyB3aGF0IG1vdGl2YXRlZCB0aGUgbW92ZS4gQSBtYW4gZnJvbSBzdHVkZW50IGFmZmFpcnMgY29tZXMgaW50byB0aGUgb2ZmaWNlLCB1cCB0byBteSBkZXNrIFt3aGVyZSBJJ20gcGVhY2VmdWxseSByZXBhaXJpbmcgYSBmdWNraW5nIGNhbWVyYV0gYW5kIGFjY3VzZXMgbWUgb2YgbGV0dGluZyB0aGVtIGluISAiWW91IHRvbGQgdGhlbSB0byBjb21lIGhlcmU/IFlvdSBsZXQgdGhlbSBpbj8gSWYgeW91IGRpZG4ndCBsZXQgdGhlbSBpbiwgd2hvIHRoZSBoZWxsIGRpZD8iIDEuIEknbSBub3QgdGhlIG9ubHkgc3R1ZGVudCB3aG8gd29ya3Mgb24gdGhlIGZpcnN0IGZsb29yLiAyLiBIb3cgc3Rva2VkIGRvIHlvdSB0aGluayB0aGUgbG93ZXIgYWRtaW4gW2xpa2UgbXkgZGVwdCBhbmQgc3VjaF0gd2VyZSB0byBoYXZlIGEgcGFpZCBkYXkgbGVhdmUgb24gRnJpZGF5IGR1ZSB0byB0aGUgb2NjdXBhdGlvbj8gV2Ugd2VyZSB0aGVuIHNob3J0bHkgZXZhY3VhdGVkLCB0aGFua2Z1bGx5IG9ubHkgMzAgbWludXRlcyBiZWZvcmUgbXkgc2hpZnQgZW5kZWQgW2FuZCBJIHN0aWxsIGdvdCBwYWlkIGZvciBpdCA6RF0gSG9wZWZ1bGx5IEknbGwgc3RpbGwgZ2V0IHBhaWQgZm9yIEZyaWRheSwgdG9vLg0KDQpUaGF0IG5pZ2h0IEkgZm9sbG93ZWQgYWN0aXZpdGllcyBhZ2FpbiB0aHJvdWdoIHR3aXR0ZXIuY29tICN1Y3N0cmlrZSBhbmQgdGhlIG9jY3VweUNBIGJsb2cuIEJvdGggV2VkbmVzZGF5IGFuZCBUaHVyc2RheSwgQ2FtcGJlbGwgaGFsbCB3YXMgb2NjdXBwaWVkIFtzdXJyZW5kZXJlZCBUaHVyc2RheSBuaWdodF0uLkkgZm91bmQgb3V0IDE0IHBlb3BsZSB3ZXJlIGFycmVzdGVkIGF0IFVDTEEsIDEgd2FzIHRhc2VyZWQsIGFuZCB0aG91c2FuZHMgcHJvdGVzdGVkIC0gb3V0c2lkZSB0aGUgYnVpbGRpbmcsIGluIHRoZSBwYXJraW5nIGxvdCB0aGV5IGJsb2NrZWQgaW4gdGhlIHJlZ2VudHMgY2FycywgZXRjLiA1MiBwZW9wbGUgd2VyZSBhcnJlc3RlZCBhdCBEYXZpcyBUaHVyc2RheSBuaWdodC4NCkJhY2sgaGVyZSBpbiBTYW50YSBDcnV6LCBJIHdhcyBhZHZpc2VkIG5vdCB0byBnbyB0byB3b3JrIEZyaWRheSBtb3JuaW5nLCBhcyBhIDMwMCBwZXJzb24gcmFsbHkgdG9vayBwbGFjZSBvdXRzaWRlIEtlcnIgYXQgbm9vbi4gSSBmb2xsb3dlZCBCZXJrZWxleSdzIHVwZGF0ZXMgZnJvbSBob21lLCBpbnN0ZWFkLiANCkhlcmUgYXJlIG15IHN1YnNlcXVlbnQgRmFjZWJvb2sgc3RhdHVzIHBvc3RzIFthbGwgcmVhbCB0aW1lIGluZm9ybWF0aW9uIGZyb20gc3R1ZGVudHMgYW5kIGpvdXJuYWxpc3RzIEAgdGhlIHByb3Rlc3QsIHZpYSBUd2l0dGVyXQ0KIEphY3F1ZWxpbmUgQnJlbm5lciAgQXQgQmVya2VsZXkgUklHSFQgTk9XOiBwcm9taXNpbmcgbm90IHRvIGFycmVzdCBhbnlvbmUsIHJlZnVzaW5nIHRvIGVuZ2FnZSBpbiBjb252ZXJzYXRpb24sIGJ1c3Rpbmcgb3V0IGJhdG9ucywgcnViYmVyIGJ1bGxldHMsIGFuZCB0aHJlYXRzIG9mIHRlYXIgZ2FzOyBub3cgYXJyZXN0aW5nIHN0dWRlbnRzIHRob3VnaCBwcm9taXNlZCBub3QgdG8uIExha29mZiB0byBwcm90ZXN0b3JzIHdpbmRvdyBlYXJseTogIkl0J3MgZ2V0dGluZyBkYXJrLCBhbmQgYmFkIHRoaW5ncyBoYXBwZW4gd2hlbiBpdCBnZXRzIGRhcmstd2UgYmVnIHlvdSB0byBhY2NlcHQgdGhlIGFncmVlbWVudCINCkZyaSBhdCA1OjI3cG0gwrcgQ29tbWVudCDCtyBMaWtlVW5saWtlIMK3IFZpZXcgRmVlZGJhY2sgKDExKUhpZGUgRmVlZGJhY2sgKDExKQ0KSmFjcXVlbGluZSBCcmVubmVyDQpVUFRFIGp1c3Qgc2hvd2VkIHVwIGluIEJlcmtlbGV5LiBTdHVkZW50IGFuZCBTdGFmZiBzb2xpZGFyaXR5IQ0KRnJpIGF0IDU6MzdwbSDCtyBEZWxldGUNCkphY3F1ZWxpbmUgQnJlbm5lcg0KcG9saWNlIHB1bGxpbmcgZG93biBibGluZHMgb24gd2luZG93cyBvZiBvY2N1cGllZCByb29tIGF0IEJlcmtlbGV5IFNIQURZDQpGcmkgYXQgNjowMHBtIMK3IERlbGV0ZQ0KSmFjcXVlbGluZSBCcmVubmVyDQpVQ1NDIENIQU5DRUxMT1IgT0ZGSUNFIEJST0tFTiBJTlRPIFVOREVSIEFOIEhPVVIgQUdPDQpGcmkgYXQgNjowMHBtIMK3IERlbGV0ZQ0KQW5kcmV3IEdhcmNpYQ0Kd2hlcmUgYXJlIHlvdSBnZXR0aW5nIHRoaXM/DQpGcmkgYXQgNjowOHBtIMK3IERlbGV0ZQ0KSmFjcXVlbGluZSBCcmVubmVyDQpUd2l0dGVyLiBTZWFyY2ggI3Vjc3RyaWtlDQpGcmkgYXQgNjowOXBtIMK3IERlbGV0ZQ0KSmFjcXVlbGluZSBCcmVubmVyDQpCZXJrZWxleSBzdHVkZW50cyB0cnkgdG8gdGFrZSBvdmVyIERvZSBhbmQgTW9mZml0DQpGcmkgYXQgNjoxOXBtIMK3IERlbGV0ZQ0KSmFjcXVlbGluZSBCcmVubmVyDQo0MSBQRU9QTEUgQCBCRVJLRUxFWSBBUlJFU1RFRA0KYmlvbG9neSBwcm9mIGluY2x1ZGVkIQ0KRnJpIGF0IDY6MTlwbSDCtyBEZWxldGUNCkVlaHdhIFVuZw0KVGhhbmtzIGZvciB0aGUgdXBkYXRlISA6KQ0KRnJpIGF0IDY6MjlwbSDCtyBEZWxldGUNCkphY3F1ZWxpbmUgQnJlbm5lcg0KcG9saWNlIHNldCB1cCBmbG9vZGxpZ2h0cyB0aGVuIHRvb2sgdGhlbSBkb3duLCBhbmQgcmFpbiBzdGFydGVkIGFuZCBzdG9wcGVkLiBUaGUgcGVvcGxlIHdobyB3ZXJlIGFycmVzdGVkIHdpbGwgYmUgcmVsZWFzZWQgaW4gdGhlIG5leHQgaG91ciwgY2hhcmdlZCB3aXRoIHRyZXBhc3NpbmcsIHRob3VnaA0KRnJpIGF0IDY6MzBwbSDCtyBEZWxldGUNCkphY3F1ZWxpbmUgQnJlbm5lcg0KMyBoZWxpY29wdGVycyBhdCBzY2VuZS4ucG9saWNlIGZyb20gQmVya2VsZXksIEFsYW1lZGEgQ291bnR5IGFuZCBPYWtsYW5kLg0KRnJpIGF0IDY6MzFwbSDCtyBEZWxldGUNCkFuZHJldyBHYXJjaWENCnN0dWRlbnRzIGFyZSBiZWluZyByZWxlYXNlZCwgY2hhcmdlZCB3aXRoIG1pc2RlbWVhbm9yIHRyZXNwYXNzaW5nLCBubyBjdWZmcyBhbnltb3JlLg0KRnJpIGF0IDg6MDRwbSDCtyBEZWxldGUNCg0KU2F0dXJkYXkgbW9ybmluZyB3ZSB3YWtlIHVwIHRvIGZpbmQgb3V0IEludGVybmV0IGFjY2VzcyBmcm9tIEtlcnIgSGFsbCBoYXMgYmVlbiBjdXQsIGJ1dCBhZG1pbmlzdHJhdG9ycyBhZ3JlZSB0byBuZWdvdGlhdGUsIGZyb20gMSAtIDUgdGhleSBob2xkIG1lZXRpbmdzLiBOZWdvdGlhdGlvbnMgaGF2ZSBub3QgYmVlbiBtYWRlIGFzIG9mIDYgbydjbG9jaywgd2UgaGVhZCB1cCB0byBLZXJyIGF0IDc6MzAgb3IgOC4gQWJvdXQgYW4gaG91ciBpbiwgc3R1ZGVudCBhZmZhaXJzIHJlcHMgdGVsbCB1cyB0aGVyZSBpcyBubyB3YXkgbmVnb3RpYXRpb25zIGNhbiBiZSBtYWRlLCBhbmQgdG8gbGVhdmUgb3IgY29wcyB3aWxsIGJlIGNhbGxlZC4gU3R1ZGVudHMgcHJlZGljdCBwb2xpY2UgYWN0aXZpdHkgYmVmb3JlIG1pZG5pZ2h0LiBTdHVkZW50cywgZmFjdWx0eSBhbmQgc3RhZmYgYW1hc3Mgb3V0c2lkZSBvZiBLZXJyLiBXZSBzaW5nLCBjaGFudCwgZGV2ZWxvcCBwb2xpY2UgcmVzaXN0YW5jZSBzdHJhdGVnaWVzIGFuZCBsZWFybiB0aGUgcmlza3Mgd2UgZmFjZS4gVGhpcyBnb2VzIG9uIGZvciBob3Vycywgd29yZCByZWFjaGVzIHVzIGJldHdlZW4gMTA6MzAgYW5kIDExLCB0aGF0IHBlb3BsZSBwbGFuIHRvIGNhbXAgb3V0LiBJdCdzIGZyZWV6aW5nLiBbZWFzaWx5IDQwc29tZXRoaW5nIGRlZ3JlZXNdLiBDb3BzIGhhdmUgTk9UIGJlZW4gY2FsbGVkIHlldC4gV2UgbGVhdmUsIHdpbGwgcmV0dXJuIGluIG1vcm5pbmcuDQoNClNsZXB0IHRocm91Z2ggOCBhLm0uIGFsYXJtIHRvIGZpbmQgb3V0IDMwMCBjb3BzIGNhbWUgYXQgNyBhLm0uIGluIHJpb3QgZ2VhciB0byBhIHRvdGFsIG9mIDcwIHByb3Rlc3RvcnMgdGhhdCB3aXRoc3Rvb2QgdGhlIGNvbGQgbmlnaHQuIFRoZSBjb3BzIGFyZSBpbnN0cnVjdGVkIHRvIGxldCBldmVyeW9uZSBnby4gRXZlcnlvbmUgbW92ZXMgdGhlaXIgb3BlcmF0aW9uIGJhY2sgdG8gS3Jlc2dlIFRvd24gSGFsbCwgc3RpbGwgb2NjdXBpZWQgW0tyZXNnZSdzIGJlZW4gb2NjdXBpZWQgc2luY2UgV2VkbmVzZGF5IHdoZW4gNTAwIGtpZHMgbWFyY2hlZCBmcm9tIHRoZSBlbnRyYW5jZXMgb2Ygc2Nob29sIHVwIHRoZXJlXS4gSSdtIGdvaW5nIGJhY2sgdG8gYSBmcmVlIHNob3cgdG9uaWdodDsgc3VwcG9ydCB0aGUgbW92ZW1lbnQgYW5kIG15IGZyaWVuZHMgYmFuZHMhDQoNCkFueWhvdywgaW4gYWRkaXRpb24gdG8gdGhlIGFjdGl2aXR5IGF0IFVDTEEsIEJlcmtlbGV5LCBEYXZpcyBhbmQgb2YgY291cnNlLCBnb29kIG9sJyBTYW50YSBDcnV6IFt0aGUgb25seSBVQyBzdGlsbCBvY2N1cHlpbmcgYnR3XSwgQ1NVIEZyZXNubyBhbmQgQ1NVIEZ1bGxlcnRvbiBib3RoIGhlbGQgb2NjdXBhdGlvbnMgRnJpZGF5IGFuZCBTYXR1cmRheSwgU2FuIERpZWdvIFN0YXRlIGhhZCBhIHdhbGsgb3V0LCBhbmQgU2FuIEZyYW5jaXNjbyBTdGF0ZSBhbHNvIGhlbGQgc2l0IGluLCBhbmQgU2FuIEZyYW5jaXNjbyBhbmQgTmFwYSBWYWxsZXkgY29tbXVuaXR5IGNvbGxlZ2VzLCBoYWQgY2FtcCBvdXRzIGFuZCBzaXQgaW5zIGFzIHdlbGwuIA0KDQpPdXRzaWRlIG9mIENhbGlmb3JuaWEsIHdlJ3ZlIGdvdHRlbiBzb2xpZGFyaXR5IGZyb20gc2Nob29scyBpbiBJbGxpbm9pcywgSW5kaWFuYSBhbmQgTmV3IFlvcmsuIFN0dWRlbnRzIGluIE5ZIHdlcmUgYmVhdGVuIGZvciB0aGVpciBwcm90ZXN0czsgdGhlcmUncyBldmVuIHlvdXR1YmUgZm9vdGFnZSB0byBib290LiBTb2xpZGFyaXR5IHZpYSBUd2l0dGVyIGhhcyBhbHNvIGNvbWUgZnJvbSBhIG51bWJlciBvZiBvdGhlciBzdGF0ZXMuIA0KDQpPdXRzaWRlIG9mIHRoZSBVLlMuLCAxMiBvdGhlciBjb3VudHJpZXMsIGFuZCA4NSBvdGhlciBzY2hvb2xzIHdlcmUvYXJlIG9jY3VweWluZyBhcyBvZiBOb3YuIDE3dGg6IEdlcm1hbnksIEF1c3RyaWEsIEl0YWx5LCBGcmFuY2UsIFN3aXR6ZXJsYW5kLCBDcm9hdGlhLCBTaWVycmEgTGVvbmUsIFJlcHVibGljIG9mIE1hY2Vkb25pYSwgUG9sYW5kLCBIdW5nYXJ5LCBJbmRvbmVzaWEgYW5kIEJhbmdsYWRlc2g6IGV2ZXJ5dGhpbmcgZnJvbSB0aG91c2FuZCBwZXJzb24gcHJvdGVzdHMgdG8gYXJ0IGdhbGxlcmllcyBkaXNwbGF5aW5nIHBpY3R1cmVzIG9mIHByb3Rlc3RvcnMgZnJvbSBhcm91bmQgdGhlIHdvcmxkLCB0byBmbGFzaG1vYnMsIGRlbW9uc3RyYXRpb25zLCBvcGVuIGRpc2N1c3Npb25zLCByYWxsaWVzLCBzaXQtaW5zLCBhbmQgd2FsayBvdXRzLiBJbiB0aGVzZSBjb3VudHJpZXMsIHRoZSBnb3Zlcm5tZW50IGlzIGFsc28gdHJ5aW5nIHRvIHByaXZhdGl6ZSBlZHVjYXRpb24sIGluIGVzc2Vuc2UgIkFtZXJpY2FuaXplIiB0aGVpciBlZHVjYXRpb24gc3lzdGVtcy4gV0hBVCBUSEUgRlVDSy4gVGhleSBzdGFuZCBpbiBzb2xpZGFyaXR5IHdpdGggdXMgLSBBdXN0cmlhbiBzdHVkZW50cyBldmVuIFNreXBlZCB3aXRoIFVDU0MgS2VyciBIYWxsIHByb3Rlc3RlcnMgb24gRnJpZGF5Lg0KDQpJIGhhdmUgcGljdHVyZXMgYW5kIHZpZGVvIGZyb20gU2F0dXJkYXkgbmlnaHQncyBLZXJyIEhhbGwgcmFsbHkvZmFsc2UgYWxhcm0gZm9yIHBvbGljZSBvbiBGYWNlYm9vay4="
+"eventtime","2009-11-22 14:42:00"
+"current_moodid","43"
+"url","http://outof-turn.livejournal.com/131121.html"
+"userid","11526"
+"itemid","466"
+"event","I need to do well. A ""best-case"" scenario for my grades would be:
+Phys 7B C+
+Phys Lab (1 credit) A-
+Intro to Film Pro A
+Bio 20B Physio B+
+= 3.23 GPA
+which would be awesome.
+
+More likely, 
+Phys 7B C
+Phys Lab (1 credit) B+
+Intro to Film Pro A-
+Bio 20B Physio B
+= 2.92 GPA
+(That's EXACTLY what I have cumulatively right now =/)
+
+I'm not even going to list the worst case...that shit is NOT happening. I won't let it. I just need to PUSH for those last couple grades [film and physics finals on Monday]. I have 2 review sessions, 1 rockstar, and 2 full days to figure my shit out. Physics is up in the air because I went from a D on the first midterm to a B on the second. I get straight A's on the homework. Go figure that one out. & Film I might be borderline A/A-/B because for whatever reason I got B+'s on three out of 7 projects, and idk what I got on my final project + the final is still Monday.  Ughh stresssss. I can do it, though! I got this! I am envisioning that 3.2. I have it. I WANT it. SO BADLY. 
+I have this quarter and fall to bring up my grades before I apply to study abroad again, since I got rejected last time [b/c you need a 3.0 - not 2.9, ugh]. COSTA RICA IM NOT GIVING UP."
+"eventtime","2009-06-06 01:48:00"
+"url","http://outof-turn.livejournal.com/119528.html"
+"userid","11526"
+"itemid","453"
+"event","Coping emotions:
+Shock.
+Sadness.
+Anger.
+Cynicism.
+Recovery.
+
+I'm in Anger now. I had a great 4/20 otherwise. ""Muchies for Charity"" was great. We made a lot of money for the Santa Cruz Teen Center, which is having trouble paying their rent. It was Tri Chi and Kappa Sigma. The meadow was fun, and Nigel and Eric cuddling with me in my bed. Even my missions with the pledges were fun. Work was good, and I skipped physics. I'm stoned, I was tipsy, and I'm about to drown my feelings in Norco or as many pain meds as I can find. This weather makes me at peace."
+"eventtime","2009-04-20 21:19:00"
+"current_moodid","44"
+"url","http://outof-turn.livejournal.com/116171.html"
+"userid","11526"
+"itemid","396"
+"event","I am really upset.
+My father has been working at 21st Century (which recently turned AIG) for 8 years now. On the weekend Friday - Monday shift. Even after they promised they'd let him work weekdays. The 3 days a week he doesn't work there, he manages a series of dotcom business services and often times only makes like $5,000 or so more than he's spent on running them. But he does because we need the money and no one will hire someone in their sixties. 
+
+Yesterday AIG laid him off. No warning or anything. He says he is fine but I have never heard my father try to fake happier than when I spoke with him this morning. He collects unemployment for 4 months. Four months from now  is going to be a very bleak time. He says he is going to work on his websites full time from home and that he can't wait for me to come home so we can spend the weekend together. For the first time in 8 years, my father and i will have more than a few hours to spend together. HE WORKED 7 DAYS A WEEK. FOR HIS RETIREMENT AND TO PUT ME THROUGH SCHOOL. it's not fair. we've already lost everything once and my parents worked their way from the bottom back up. what, just to lose it again? All they want to do is see their children prosper and retire together.
+How can the government give a company $85 billion dollars and they STILL HAVE TO LAY PEOPLE OFF?! I don't get it. I hate corporate america. I hate the thought of some asshole in a fancy office, in a cushy chair, putting away paper work at his 9-5 weekday job, driving home in his Mercedez to his spoiled children and trophy wife with a tiny rotten dog, taking vacations abroad in europe ALL WHILE MY FAMILY SUFFERS. 
+i hate it i hate it.
+
+In other swell news, my really good friend with cancer starts treatment in a couple of weeks. she has no health insurance, so i'm sure the health care system is going to fuck her in the ass with fees. she's going to be really physically ill over the holidays, but she said treatments will be over in 6 months or so and then she'll be in remission for a year.
+
+i can't even enjoy the C+/B- i'm receiving on my chem midterm. 
+fuck today."
+"eventtime","2008-10-22 12:52:00"
+"url","http://outof-turn.livejournal.com/101438.html"
+"userid","11526"
+"itemid","381"
+"event","<center>
+It's only been a year,
+ but I had already forgotten why I hated my old friends
+and didn't understand why my stomach turned knots 
+every time I flew home.
+Every passing month, every passing day, 
+every breath and every second made it a little easier, a little less painful.
+I counted down the days until I would leave the valley,
+ which i had nick named ""purgatory"" last summer.
+I'm two weeks from returning there for an entire 
+three months and three days.
+The only thing that had stopped me from wanting to leave was dating Dave, but we're not together now.
+Sure, I have a fistful of friends, but I still have ties to the people who made me feel so bad,
+that my mother wanted to put me on anti-depressants. my father wanted to ship me across the coast. my brother wanted to sucker punch each and every one of them. a family counselor suggested keeping me on suicide watch.
+THIS is why you're not invited. 
+THIS is why I can't talk to you without being fake. 
+THIS is why I keep myself so busy all the time. 
+<lj-cut text=""THIS is what I recovered from my inbox that reminded me."">
+From my Myspace inbox. Sent to me and dozens of other people. The account was a fake hatespace..
+all that's left of it, thankfully, is http://www.myspace.com/ihatejackiebrenner.
+<b>
+This was sent to Jackie, Enjoy. I'm sending it to everyone for fun.
+
+FIRST OFF, you're picture is just about the stupidest fucking thing I've ever seen in my entire life...HUGE NOSE coupled with a tacky bandana and the shit-eating smirk made famous by poedephiles. Then there it is! YOUR NAME proclaiming much of an obnoxious whore you are. Almost like you're proud of this. I know what you look like and I can assure you that the name ""Jackie long legs"" is NOT appropriate. A more suitable name would be ""Jackie cellulite legs"" has no one ever told you its probably a bad idea to wear short skirts???Dear jesus. I remember being at a party and you called someone to see what they were doing ( you probably knew they were at a party ). They told you they'd call you back. Said person asked if anyone liked Jackie (keep in mind these are your ""CLOSEST"" friends) everyone laughed and said no. You were not invited, you showed up anyway...You're not very smart, you pride yourself on being so but I promise you that is farr from the truth. I've had more engaging conversations with toast. LASTLY (I'm sure I've left lots out) people fuck you because you have [big]boobs, I've seen them...they're actually kinda crappy. If you were smart you would have figured out that most the peolple who've slept with you were either drunk or coked out of their minds(people who cry afterwards don't count). I decided to write all this because I'm sick of your annoying bitch-shit. Get a clue.</b>
+
+Then there were the responses. This was the awful part. 
+They even made a fake photobucket to upload these pictures.
+<img src=""http://i208.photobucket.com/albums/bb314/doogyh12/ronit.jpg"">
+<img src=""http://i208.photobucket.com/albums/bb314/doogyh12/raychill.jpg"">
+<img src=""http://i208.photobucket.com/albums/bb314/doogyh12/Natevincemark.jpg"">
+</lj-cut>
+
+If you're thinking ""God, Jackie, why are you torturing yourself by reading/posting this shit?"" The reason is because I CANNOT forgive them, get involved with them, or anything else. There have been numerous occasions over breaks and long weekends home I've found myself wanted to be friends with them again because people who weren't involved don't understand and want the tension gone. Hell, I WANT the tension gone. but as long as  I have no apology or explanation for treating me so badly (this was one of MANY examples), I can't let myself get hurt again. I need to find another group of people. A fresh start, but a valley fresh start. I have my new beginning here and I've kept my nose out of trouble and reputation pretty clean. Can't I do the same at home?"
+"eventtime","2008-05-29 17:53:00"
+"current_moodid","118"
+"url","http://outof-turn.livejournal.com/97539.html"
+"userid","11526"
+"itemid","358"
+"event","<b>I guess sometimes you have to sacrifice the things you want to be the person you want to be.</b><p>
+This is my last journal entry."
+"eventtime","2007-12-27 03:59:00"
+"current_moodid","3"
+"url","http://outof-turn.livejournal.com/91695.html"
+"userid","11526"
+"itemid","356"
+"event","this is the journal of a girl who hates herself.
+or at least used to, im not quite sure where i stand with myself now. 
+i just know, i need to keep my fucking mouth shut.
+or at least stop using the internet to vent.
+or communicate to my friends about drugs. 
+even when i was just doing a favor for someone.
+it's my fault that there's massive drama and feelings are hurt.
+and i was really, really insensitive, i know, and i feel awful.
+i feel so bad. i want to bury myself in a little hole.
+and i'm weirded out that <b>i</b> suck at communicating my feelings,
+it's so unlike me.
+i don't mean to be ungrateful or self absorbed or insensitive or rude or anything else. 
+help?
+
+[EDIT]: 4:01PM
+sleeping on all this has me realize that self absorbed is the adjective of the week.
+it's really not about me. it feels good to know that, but embarassed to have been exposed. so it makes my inner thoughts and anxieties about all this feel petty and fucking dumb. they <b>are</b> because i'm being assured i had no reason to feel that way. i mean, it was all written, thought, the ideas concieved in the middle of the night, in the heat of the moment, out of anger and confusion, self-loathing, and insecurity. i've had this journal for four years, and the journal i had prior i had for two. it makes me feel good to vent, i can always write, read, go back and delete. i write so i can analyze, read it later when i'm not fucking pissed or depressed, but rather in a decent state and reflect. yea, so it's online. i suppose i should privatize some of these entries. i could never keep up a written journal. this is easy for me. and sometimes, i like a little feedback from people who want to involve themselves. 
+
+my theme song right now is Fiona Apple - Criminal. 
+go to projectplaylist.com, search it and listen.
+goddamn. 
+
+oh && if anyone's trying to get a hold of me - my phone's off. text. i might check it later.
+right now i just need to be cut off from the world."
+"eventtime","2007-12-23 04:27:00"
+"current_moodid","4"
+"url","http://outof-turn.livejournal.com/91332.html"
+"userid","11526"
+"itemid","353"
+"event","<center>i am finally the good person,
+in comparison to those around me. 
+There are 5 people on my floor, including myself,
+who are in long distance relationships.
+I am the ONLY one who hasn't cheated on their significant other.
+Given this past weekend was a long, drunken weekend,
+and 2 of the others didn't intend on cheating,
+they were very drunk and not thinking.
+In some sick way I feel like a better person
+because I have no feelings for anyone except my boy,
+and have been responsible enough not to put myself in any stupid situations.
+
+At the same time, this makes me wonder:
+is it inevitable that i'm going to cheat?
+If not now, eventually? 
+One girl had been with her boyfriend for a year and a half,
+and slipped up this weekend for the first time.
+One boy has a relationship only a month or so shorter than mine,
+and did it.
+I can't imagine doing it. 
+Earlier this quarter I had a dream I hooked up with a hallmate,
+and that freaked me out enough.
+Maybe, I should just think of myself as a stronger person then that.
+</center>
+On another note, I'm making a list of things I want to do in NY when we go.
+I decided that watchng the ball drop in times square, hopefully in an apartment, is a given.
+I want to ice skate in Rockefellar Center, too.
+I want to go to Central Park.
+I want to go shopping, of course. 
+Any suggestions, livejournal people?
+<p>
+I've been initiated into my sorority, Tri Chi (XXX).
+I love my big sis, she's awesome. She's also the sorority president.
+I think I would like to be president eventually.
+I got awesome presents like shot glasses, blanket, chick flicks,
+homemade cookies, a necklace, etc.
+My favorite is the Tri Chi sweatshirt (it's baby pink with black writing and a silver outline)
+We had revealing on Friday where we ran around doing a treasure hunt, bobbed for rubber duckies, did crazy tasks (on film, oh god) were blind folded and kid napped, ate a plate of whipped cream and more. Then Saturday morning was initiation. All white +rain though is not fun.
+<p>
+life is good 9 days until break!"
+"eventtime","2007-12-03 12:16:00"
+"url","http://outof-turn.livejournal.com/90388.html"
+"userid","11526"
+"itemid","351"
+"event","i don't regret the things i've done, despite the connotations attached to them -
+too many drugs, some slutting around, tiptoeing behind turned backs.
+it reeks of a bad influence, a mean person, someone selfish.
+that's never the person i wanted to be.
+yea, i've done a lot of stupid things, but would anyone believe me if i said that's not what i want?
+i want to grow up...i don't want to crave drugs, fuck around, i don't want to lie to my parents and keep secrets from my friends.
+I think college is changing me:
+my drug use has severely decreased (surprise to many, i'm sure)
+and i have Dave, so I'm obviously not fucking around
+I've hidden two major things from my parents (Santa Barbara and drinking/drugs (well they know about weed)) but nothing else.
+I'm doing community service with my sorority, getting good grades, working as a part of financial aid, being a faithful girlfriend and trying to keep in touch with all my friends and family. I call my grandmother every week and uncle every two or three.
+I'm determined to change, despite my love for drunken nights and an acid day (only once so far here).
+can someone believe in me to change? should i change? i mean if i could balance a steady diet of coke and acid with a second job and constant sex and drunken fun with Dave I totally would. but i can't. He'd kill me if i started yay again, my parents wouldn't be too thrilled about a hidden job if they found out, and the intense combination would surely destroy me, my grades, activity in my sorority and my relationship with my parents.
+I guess sometimes you have to sacrifice the things you want to be the person you want to be."
+"eventtime","2007-11-18 17:48:00"
+"current_moodid","114"
+"url","http://outof-turn.livejournal.com/89948.html"
+"userid","11526"
+"itemid","350"
+"event","<center><b>Blink182 - Don't Leave Me</b>
+
+Don't leave me all alone
+Just drop me off at home
+I'll be fine, it's not the first
+Just like last time, but a little worse and 
+
+<s>S</s>he said that I'm not the one that <s>s</s>he thinks about and
+<s>S</s>he said it stopped being fun, (sometimes) I just bring <s>her</s>him down
+I said, ""Don't let your future be destroyed by my past""
+<s>S</s>he said, ""Don't let my door hit your ass""
+
+One more chance, I'll try this time
+I'll give you yours, I won't take mine
+I'll listen up, pretend to care
+Go on ahead, I'll meet you there and
+
+Let's try this one more time with feeling...
+</center>
+
+Life is getting pretty silly when you're dancing around listening to Blink thinking about all the little things.<p>"
+"eventtime","2007-11-14 14:58:00"
+"current_moodid","4"
+"url","http://outof-turn.livejournal.com/89713.html"
+"userid","11526"
+"itemid","349"
+"event","PGZvbnQgc2l6ZT01PkhlcmU8L2ZvbnQ+DQp0aGlzIHBsYWNlIGlzIGEgc2FuY3R1YXJ5LCBpIHN3ZWFyLg0KNzAncyBjb3VjaGVzLCB3aS1maSwgYSBwbGV0aG9yYSBvZiBib29rcyBhbmQgcXVpZXQuDQppIGV2ZW4gYnJvdWdodCBzb21lIGhvdCBjb2NvYSBmcm9tIGxhdGUgbmlnaHQgYXQgY29sbGVnZSA4Lg0KSSdtIHRyeWluZyB0byB0YWtlIHN0dWR5aW5nIHRvIGEgbW9yZSBzZXJpb3VzIGxldmVsIC0gDQpJIGRlY2lkZWQgbmFrZWQgaGFsbG1hdGVzLCBmaW5nZXIgcGFpbnRpbmcsIGNvbnRpbnVhbCBzbW9rZSBzZXNzaW9ucywgZGFuY2UgcGFydGllcw0KYW5kIGd1aXRhci1pbmcgd2VyZSBub3QgY29uZHVzaXZlIHRvIGEgZ29vZCBzdHVkeSBlbnZpcm9ubWVudC4gDQpVbmZvcnR1bmF0ZWx5LCBJIGhhdmUgd29yayBhdCA5IGEubS4sIHNvIEknbGwgb25seSBwdXNoIGl0IGFib3V0IGFub3RoZXIgaG91ciBiZWZvcmUgSSByZXRpcmUuDQoNCjxmb250IHNpemU9NT5GcmllbmRzPC9mb250Pg0KSSBmZWVsIGFzIHRob3VnaCBJJ20gYWxyZWFkeSBkcmlmdGluZyByZWFsbHkgZmFyIGZyb20gc29tZSBvZiBteSBoaWdoIHNjaG9vbCBmcmllbmRzLiBFdmVuIHRoZSBvbmVzIEkgdGhvdWdodCBJJ2QgYmUgZnJpZW5kcyB3aXRoIGZvciBhIHdoaWxlIGFmdGVyIGhpZ2ggc2Nob29sLiBJIGhhdmVuJ3QgdGFsa2VkIHRvIFBhaWdlIG9yIEplYW5pbGxpZSBzaW5jZSBJJ3ZlIGxlZnQgZm9yIHNjaG9vbCwgYW5kIEknbSBmYWlybHkgY2VydGFpbiBQYWlnZSBpcyB1bmhhcHB5IHdpdGggbWUsIG9yIGF0IGxlYXN0IG15IGZhbWlseSwgYmVjYXVzZSBiYXNpY2FsbHkgUGFpZ2UgcmFuIGludG8gbXkgbW90aGVyIGFuZCBteSBtb20gc2FpZCBoZXIgdmVnYW5pc20gaXMgd2FzaGluZyBvdXQgaGVyIGNvbXBsZXhpb24uIG91Y2guIGFuZCBKZWFuaWxsaWUuLkkgZG9uJ3Qga25vdywgc2hlIGp1c3QgaGFzbid0IGJlZW4gYXJvdW5kLiBXZSd2ZSBiZWVuIGJ1c3kuIEkgYmFyZWx5IHRhbGsgdG8gQWRhbSwgdG9vLiBIZSdzIGJ1c3ksIGFsd2F5cyBidXN5IHdpdGggc2Nob29sLiBIb3dldmVyLCBEYW5pLCBTaGFuYWUsIExhdXJlbiwgYW5kIEFsaXNhIEkgdGFsayB0byByZWd1bGFybHksIGFzIHdlbGwgYXMgbXkgVSBvZiBBIGNyZXcsIEp1bGlldHRlIGFuZCBTaGF1bi4gSXQncyB3ZWlyZCBiZWNhdXNlIEkgbmV2ZXIgcmVhbGx5IGV4cGVjdGVkIHRvIHRhbGsgdG8gdGhlIGJveXMgYWZ0ZXIgb3VyIGZhbGxpbmcgb3V0IGxhc3QgeWVhciwgYnV0IEkndmUgZ290dGVuIG1lc3NhZ2VzIGFuZCBjYWxscyB0aGF0IHNheSB0aGV5IG1pc3MgYW5kIHdhbnQgdG8gc2VlIG1lLiBXZWxsLCB0aHJlZSBvZiB0aGVtLCBhbnl3YXkuIFRoZSBvbmVzIHRoYXQgbWF0dGVyLCBJIHN1cHBvc2UuIE9uIHRoZSBjb250cmFyeSwgSSB0aG91Z2h0IEknZCBncm93IGNsb3NlciB3aXRoIE1hZ2dpZSwgRXJpY2EsIEthdGUsIGV0YyBhbmQgSSBmZWVsIGxpa2UgYSBzdHJhbmdlci4gSSBsZWF2ZSB0aGVtIG1lc3NhZ2VzIG9yIGNvbW1lbnRzIGZyb20gdGltZSB0byB0aW1lLCBidXQgcmFyZWx5IGdldCBhIHJlc3BvbnNlLiBJIGRvbid0IGtub3csIEkganVzdCB3YW50IHRvIGJlIG5pY2UuIGEgZnJpZW5kLg0KDQo8Y2VudGVyPjxiPkJyYW5kIE5ldyAtIEx1Y2ENCg0KWW91IGNvdWxkIG5ldmVyIHdvcmsgd2VsbCB3aXRoIG91ciBncm91cA0KTm90IHdpdGggdGhlIGZhdWx0cyB3ZSBmb3VuZA0KU28gd2UndmUgZml4ZWQgeW91IHdpdGggY2VtZW50IGdhbG9zaGVzDQpBbmQgbm8gb25lIGNhbiBzYXZlIHlvdSBub3cNClVubGVzcyB5b3UgaGF2ZSBmcmllbmRzIGFtb25nIGZpc2gNClRoZXJl4oCZbGwgc3RpbGwgYmUgbm8gYWlyIHRvIGJyZWF0aGUNCllvdSBjb3VsZCBkcmluayB1cCB0aGUgZW50aXJlIG9jZWFuDQpXZeKAmWxsIHN0aWxsIGZpbmQgc29tZW9uZSB0byBiZSBldmVyeXRoaW5nIHdlIGtub3cgdGhhdCB5b3XigJlsbCBuZXZlciBiZS48L2I+PC9jZW50ZXI+DQoNCjxpPkJyYW5kIE5ldywgRGVhdGggQ2FiIGZvciBDdXRpZSwgWWVhaCBZZWFoIFllYWhzLCBGZWlzdCBhbmQgU2lndXIgUm9zIGhhdmUgYmVlbiBteSBvdmVyd2hlbG1pbmcgbXVzaWMgb2YgY2hvaWNlIHNpbmNlIEkndmUgYmVlbiBoZXJlLiA8L2k+DQoNCjxmb250IHNpemU9NT5MU0Q8L2ZvbnQ+DQpUaGUgb3RoZXIgbmlnaHQsIEkgbGlzdGVuZWQgdG8gdGhlIFNtaXRocyBmb3IgMy41IGhvdXJzIGluIHRoZSBtaWRkbGUgb2YgdGhlIGdvZCBmb3JzYWtlbiBuaWdodCB3aGlsZSBjb21pbmcgb2ZmIGFuIGludGVuc2VseSBlbW90aW9uYWwsIHRob3VnaCB2aXN1YWxseSBsaW1pdGVkIGFjaWQgdHJpcC4gSSBkaWQgbm90IHNsZWVwIGF0IGFsbC4gTm8gb25lIHdhcyBhd2FrZSwgc28gSSBsaXN0ZW5lZCB0byB0aGUgc21pdGhzIGFuZCByZWFkIExlc3MgVGhhbiBaZXJvLiBJIGZpbmlzaGVkIGl0LiBJIHRoZW4gb3BlbmVkIHRoZSB3aW5kb3csIGxhaWQgaW4gbXkgYmVkLCBzbW9rZWQgYSBjaWdhcmV0dGUgYW5kIHdhdGNoZWQgdGhlIHN1bnJpc2UgcGVhayBvdmVyIHRoZSBmb3Jlc3QuIEkgY3JpZWQuIEkgaGFkIG9ubHkgZmVsdCBtb3JlIGFsb25lIG9ubHkgb25lIG9yIHR3byBvdGhlciBpbnN0YW5jZXMgaW4gbXkgbGlmZS4gSSBmZWx0IGVtcHR5IGFuZCBsb3N0LCBhcyB3ZWxsLiBJIGZlbHQgYXMgdGhvdWdoIG15IGZyaWVuZHMgaGVyZSB3ZXJlbid0IHJlYWwuIEFzIHRob3VnaCB0aG9zZSBiYWNrIGhvbWUgd2VyZSBtb3Zpbmcgb24gd2l0aG91dCBtZS4gQXMgdGhvdWdoIG15IGZhbWlseSB3b3VsZCBuZXZlciBiZSBwcm91ZCBvZiBtZS4gQXMgdGhvdWdoIEkgaGF2ZW4ndCBleHBlcmllbmNlZCBsb3ZlIHNpbmNlIG15IHVuY2xlIGxlZnQgZm9yIFRleGFzIHR3byB5ZWFycyBhZ28gYW5kIGNyaWVkIGJlY2F1c2UgaGUgd291bGQgbWlzcyBtZSwgYW5kIHdhcyB3b3JyaWVkIGFib3V0IG1lIGRyaW5raW5nLCBiZWluZyBhbiBhbGNvaG9saWMgaGltc2VsZiwgYmVmb3JlIG15IGJpZyBmdWNrIHVwIGxhc3QgT2N0b2JlciB3aGVuIEkgZ2F2ZSBoaW0gYSByZWFzb24gdG8gd29ycnkuIEFzIHRob3VnaCBJJ20gaW4gdGhlIHJlbGF0aW9uc2hpcHMgSSdtIGluIGJlY2F1c2UgdGhlcmUncyBub3RoaW5nIGJldHRlciBmb3IgZWl0aGVyIG9mIHVzIG91dCB0aGVyZSByaWdodCBub3cuIEFzIHRob3VnaCBJIGhhdmUgbW9yZSBoZWFydCBhbmQgcGFzc2lvbiBmb3IgdGhlIHRoaW5ncyBJIHdhbnQgdG8gc3R1ZHkgdGhlbiBhbnlvbmUgZWxzZSBpbiB0aGlzIGdvZGRhbW4gc2Nob29sLiBBcyB0aG91Z2ggSSB3aWxsIG5ldmVyIGJlIGN1bHR1cmVkIG9yIHdlbGwgdHJhdmVsbGVkIGJlY2F1c2UgSSB3b24ndCBldmVyIGJlIGFibGUgdG8gYWZmb3JkIHRvIGxlYXZlIHRoaXMgZnVja2luZyBjb3VudHJ5LiBBcyB0aG91Z2ggSSB3aWxsIGFsd2F5cyBiZSBsb3dlciBtaWRkbGUgY2xhc3MgYmVjYXVzZSBJIGNhbid0IHJpc2UgdG8gY2hhbmdlIGFuZCBtb3ZlIHVwLCBkZXNwaXRlIG15IHBhcmVudHMgcHJldGVuZCBmYW50YXN5IG9mIHRoZSBoaWdoIGNsYXNzIGxpZmVzdHlsZSB3ZSBvbmNlIGxlYWQuIA0KDQo8Zm9udCBzaXplPTU+TXkgdGhvdWdodHMgb24gaXQuLi48L2ZvbnQ+DQpXaGVuIHlvdSBjaG9vc2UgdG8gY29uc3VtZSBhIGRydWcsIHlvdSB0YWtlIHRoZSBjaGFuY2Ugb2YgY29taW5nIG91dCBvZiBpdCBhcyBhbm90aGVyIHBlcnNvbi4gWW91IGNhbiBoYXZlIGxpZmUgYWx0ZXJpbmcgZXhwZXJpZW5jZXMsIGZlZWxpbmdzIG9mIGhhcHBpbmVzcywgam95LCB3b25kZXIsIGxvdmUsIGJ1cnN0cyBvZiBzcG9udGFuaWV0eSBhbmQgY3JlYXRpdml0eSwgYW5kIHNlZSBvdGhlcnMgZm9yIHdobyB0aGV5IHJlYWxseSBhcmUsIGV4cGVyaWVuY2UgY29sb3IsIHNvdW5kLCBsaWdodCwgdGFzdGUgaW50ZW5zaXR5IGFuZCBhbHRlcmF0aW9uLiBTZWUgdGhpbmdzIHlvdSdkIG5ldmVyIGltYWdpbmUuIEl0IGNvdWxkIG1ha2UgeW91IGEgYmV0dGVyIHBlcnNvbiwgb3BlbiB5b3VyIG1pbmQgdG8gbmV3IHRoaW5ncywgbWFrZSB5b3UgbW9yZSBwZWFjZWZ1bCwgZXZlbiBhcHByZWNpYXRlIHRoaW5ncyB5b3UgbmV2ZXIgdGhvdWdodCB0byBnaXZlIGEgc2Vjb25kIGdsYW5jZSB0by4gIE9yIHlvdSBjb3VsZCBleHBlcmllbmNlIGljZSBjb2xkIGZlYXIsIGxvbmVsaW5lc3MsIGRlcHJlc3Npb24sIGRhcmtuZXNzLCBvdmVyd2hlbG1pbmcgc2FkbmVzcywgd2FudCBvZiBkZWF0aCwgY3VyaW9zaXR5IG9mIHRoZSBvdGhlcnNpZGUuIFRoYXQgd2FzIG15IHRyaXAuIFRoYXQgd2FzIHRoZSBmaXJzdCB0aW1lIChvdXQgb2YgZml2ZSkgdGhhdCBJIGhhZCBmZWx0IHNvIHVzZWxlc3MuIEkgd2FudGVkIG5vdGhpbmcgbW9yZSB0aGFuIHRvIGxpdGVyYWxseSBkaXNzYXBhdGUgaW50byB0aGUgZm9yZXN0LiANCg0KPGZvbnQgc2l6ZT01PkRyZWFtczwvZm9udD4NClRoZSBsYXN0IHRocmVlIG5pZ2h0cyBJJ3ZlIGhhZCB2aXZpZCBkcmVhbXMgYWJvdXQgdmFyaW91cyBib3lzIGluIG15IGxpZmUuIFRoZSBmaXJzdCB3YXMgaW5ub2NlbnQgcGxheSBhbmQgdGFsa2luZyB3aXRoIGFuIG9sZCBmcmllbmQsIHRoZSBzZWNvbmQsIGEgdmFndWVseSBzZXh1YWwgZXhwZXJpZW5jZSB3aXRoIHNvbWVvbmUgZnJvbSB1cCBoZXJlLCBhbmQgbGFzdCBuaWdodCdzIHdhcyBhIHJhbmRvbSBlbmNvdW50ZXIgd2l0aCBzb21lb25lIHdobyBJIGRvbid0IHBhcnRpY3VsYXJseSBsaWtlLCBhbmQgSSB0b2xkIGhpbSBvZmYgaW4gdGhlIGRyZWFtLiBJIGhhdmUgbm8gaWRlYSB3aGF0IHRoZXkgbWVhbiBvciB3aHkgdGhleSdyZSBoYXVudGluZyBtZS4gVGhleSdyZSBkcml2aW5nIG1lIG51dHMuIElmIEkgaGF2ZSBhbm90aGVyIHRvbmlnaHQsIEkgd2lsbCBzdXJlbHkgc2NyZWFtLiBJIGRvbid0IHdhbnQgdG8gdGVsbCBEYXZlIGJlY2F1c2UgSSBkb24ndCB3YW50IGhpbSB0byB3b3JyeS4NCg0KQW55IGlucHV0LCBhbnlvbmU/DQpCeSB0aGUgd2F5LCBJJ2xsIGJlIGhvbWUgdGhpcyB3ZWVrZW5kIDwz"
+"eventtime","2007-11-08 00:50:00"
+"current_moodid","90"
+"url","http://outof-turn.livejournal.com/89553.html"
+"userid","11526"
+"itemid","348"
+"event","Sometimes I feel like I can't do anything right.
+and today, is one of those days.
+I'm fucking failing math.
+34/100 on my midterm, laugh it up.
+I offend people with my sense of humor, or they just don't get it.
+I can't bring myself to fully study, but i can't bring myself to be entirely social, either.
+My mission with my sorority is to do something girlie with two of the sisters, Jenn and Jojo.
+The girliest thing I can do is window shop. hah.
+and the only thing I can afford to do XD
+I'm hung over. still. Halloween was really fun, though.
+Today I've felt kind of empty and lonely, despite talking to Dave and going to sorority.
+My aquatic toxicology teacher thinks I'm an idiot. 
+he almost always refuses to call on me, and when he does, he goes ""yeah, uhuh"" through my answer.
+I care about that class cos I kind of look up to him. 
+I can't stop sleeping through my English seminar, srsly, we do NOTHING in that class. 
+scratch what i previously stated, this WEEK has been an i-can't-do-anything-right week.
+The season finale of Californication was PERFECT. i applaud the show's writers.
+well, thank god it's almost the weekend. right now i'm just kindof sad and sick of being me,
+i can't really explain why. oh god. i'm losing my sanity, certainly."
+"eventtime","2007-11-02 01:04:00"
+"current_moodid","113"
+"url","http://outof-turn.livejournal.com/89220.html"
+"userid","11526"
+"itemid","347"
+"event","PGNlbnRlcj5KZXN1cyBDaHJpc3QsIHRoYXTigJlzIGEgcHJldHR5IGZhY2UsDQp0aGUga2luZCB5b3XigJlkIGZpbmQgb24gc29tZW9uZSB0aGF0IGNvdWxkIHNhdmUuDQo8Yj5JZiB0aGV5IGRvbuKAmXQgcHV0IG1lIGF3YXksDQp3ZWxsLCBpdOKAmWxsIGJlIGEgbWlyYWNsZS48L2I+DQoNCkRvIHlvdSBiZWxpZXZlIHlvdeKAmXJlIG1pc3Npbmcgb3V0Pw0KRXZlcnl0aGluZyBnb29kIGlzIGhhcHDigJluaW5nIHNvbWV3aGVyZSBlbHNlLg0KQnV0IHdpdGggbm9ib2R5IGluIHlvdXIgYmVkLA0KdGhlIG5pZ2h04oCZcyBoYXJkIHRvIGdldCB0aHJvdWdoLg0KDQpBbmQgSSwgd2lsbCBkaWUsIGFsbCBhbG9uZS4NCkFuZCB3aGVuIEksIGFycml2ZSwgSSB3b27igJl0IGtub3cgYW55b25lLg0KDQpXZWxsIEplc3VzIENocmlzdCBJ4oCZbSBhbG9uZSBhZ2FpbiwNCnNvIHdoYXQgZGlkIHlvdSBkbyB0aG9zZSB0aHJlZSBkYXlzIHlvdSB3ZXJlIGRlYWQ/DQo8Yj7igJhDdXogdGhpcyBwcm9ibGVt4oCZcyBnb25uYSBsYXN0LA0KbW9yZSB0aGFuIHRoZSB3ZWVrZW5kLjwvYj48L2NlbnRlcj4NCg0KDQppIGhhdGUgZmlnaHRpbmcgd2l0aCBoaW0uDQppIGd1ZXNzIGl0J3MgYSByb3VnaCBwYXRjaCwgd2UganVzdCBnb3R0YSB0b3VnaCBpdCBvdXQsIHJpZ2h0Pw0KaSBoYXRlIHRoZSBjaXR5IG9mIHNhbnRhIGJhcmJhcmEgYW5kIG8gZG9lcyBoZSwgYnV0IHdlIHdlbnQgZm9yIHRoZSBJViBIYWxsb3dlZW4gZmVzdGl2aXRpZXMsIHJlZ2FyZGxlc3MuDQp3ZSBzdGF5ZWQgaW4gYSBob3RlbCB3aGljaCB3YXMgaGVsbGEgbmljZSByYXRoZXIgdGhhbiBjcmFzaGluZyBvbiByYW5kb20gY291Y2hlcw0KJiYgRGVsIFBsYXlhIHdhcyBJTlNBTkUgLSB0aGVyZSB3ZXJlIG5ld3MgdGVhbXMsIGEgc2VhcmNoIGFuZCByZXNjdWUgc3RhdGlvbiwgY29wcyBvbiBmb290LCBiaWtlcyBhbmQgaG9yc2VzLg0Kc29tZXRoaW5nIGxpa2UsIDUwMGlzaCBwZW9wbGUgd2VyZSBhcnJlc3RlZCBzYXR1cmRheSBuaWdodCwgaGFoYWhhLg0KdGhlcmUgd2VyZSBhIGJhemlsbGlvbiBzcGFydGFucyAodGhlcmUgd2VyZSBydW1vcmVkIHRvIGhhdmUgYmVlbiBuZWFyIDMwMCBvZiB0aGVtLCBoYWhhKQ0KZGF2ZSAmIGkgd2VyZSB0aGUgd29sZiBhbmQgbGl0dGxlIHJlZCByaWRpbmcgaG9vZC4NCndlIHNhdyBiZWVyIGJvbmdzIGhhbmdpbmcgZnJvbSBiYW5pc3RlcnMsIHJhbmRvbSBnaXJscyBtYWtpbmcgb3V0LA0Kd2hpbGUgaSB3YXMgaG9sZGluZyBkYXZlJ3MgaGFuZCB0aGlzIG9uZSBkcnVuayBndXkgcHJvcG9zZWQgdG8gbWUuDQp0aGlzIG9uZSBnaXJsIGhhZCBzb21lb25lIE8uRC4gYXQgaGVyIGFwYXJ0bWVudA0KTlVUUy4NCmknbSBqdXN0IGdsYWQgaSBnb3QgdG8gc3BlbmQgdGltZSB3aXRoIGRhdmUNCmFuZCB0aGF0IGkgZ290IHRvIHdha2UgdXAgbmV4dCB0byBoaW0uDQp0aGF0IGFsd2F5cyBtYWtlcyBtZSBzbWlsZSwNCmRlc3BpdGUgYWxsIHRoZSBzdHVwaWQgc2hpdC4NCiYmIHRoZSBncmV5aG91bmQgPWhvdXJzIG9mIGxpa2UsIGNhYmluIGZldmVyLg0KaXQncyBub3QgYmFkIGlmIHlvdSBjYW4gc2xlZXAgdGhyb3VnaCBpdC4="
+"eventtime","2007-10-29 02:16:00"
+"current_moodid","9"
+"url","http://outof-turn.livejournal.com/88963.html"
+"userid","11526"
+"itemid","346"
+"event","Next fall I'll be a junior, holy shit.
+I just got word that all my credits from APs and Pierce transferred over,
+making me a sophomore this winter quarter.
+one summer school class will officially put me a full year ahead.
+
+In other news,
+I'm gonna be in the valley for like, thursday night thru friday afternoon.
+my first time going home from college and I'm not even going home (i'm staying with dave hha)
+thne SB for the weekend.
+I'm super intimidated of taking the greyhound, however it will give me a solid 8 hours either way to study for my math midterm monday. 
+
+I love tri chi, too. 
+we had our first philanthropy on sunday (beach clean up!)
+followed by coffee/lunch.
+today i got tea with my fellow pledge Caitlin on campus.
+super cuteeee.
+too bad i'm missing the obstacle course with one of the frats this weekend.
+
+The other night I couldn't sleep and I sat out on the porter squiggle, with my iPod on zepplin (particulrly rain song and going to california) at like 3 a.m. I saw shooting stars, it was incredible.
+
+&& now I'm sick. fabulous. & obviously not sleeping,
+okay nighttt LJ!"
+"eventtime","2007-10-24 03:31:00"
+"current_moodid","90"
+"url","http://outof-turn.livejournal.com/88746.html"
+"userid","11526"
+"itemid","345"
+"event","please tell me that wasn't just a fight.
+oh god it was."
+"eventtime","2007-10-21 22:35:00"
+"current_moodid","9"
+"url","http://outof-turn.livejournal.com/88438.html"
+"userid","11526"
+"itemid","344"
+"event","I had an awesome weekend.
+Dave (and Fink, ugh) came up to visit.
+There's nothing better than waking up next to someone you really care about.
+We got brunch at my favorite cafe in town, went costume shopping, found an ATM card and totally did a good deed and returned it to its respective bank.
+then that night we had an awesome dinner on the yacht harbor at Crow's Nest, right at sunset, it was perfect.
+We picked up some groceries afterward in Capitola, got way lost in Capitola, had the funniest arguement ever while getting more lost,
+got double scoops at Marini's and saw a late showing of The HeartBreak Kid. We sat and smoked cigarettes in the Porter Quad. We met up with Andy and Grey and smoked more cigarettes. 
+We went back to the room and talked for 3 straight hours. We fell asleep holding hands, with my head on his chest. We woke up in the same state.
+We dropped Fink and Jackie off to go surfing; we passed right by the Cold Water Classic surf competition. 
+Dave and I went to the boardwalk and ate lunch and funnel cake by the beach. We played minigolf and went bowling and took awful photobooth pictures. 
+He makes me laugh like no one else.
+
+On the other hand, some sad events have been hanging over my head. Brady passed away over the weekend, and though we weren't close or anything, it still hits hard. Especially Dani being so sad. Then Kate o.d.'d and Mandee's been really sad, too. My two best friends are hurting and there's nothing I can do. Plus, I knew both individuals as well, but we weren't that close. Just..wow. 
+I feel really numb."
+"eventtime","2007-10-16 22:19:00"
+"current_moodid","113"
+"url","http://outof-turn.livejournal.com/88230.html"
+"userid","11526"
+"itemid","342"
+"event","i'm so over it.
+hahah.
+
+people <b>in</b> the valley on my mind: dave <3, shanae, lauren, alisa (well, cam-town), jeanillie, alex santos, lauren mcgee (duh), jessica, adam, vivian, kathy, george, omer, ellie.
+everyone else has faded away.
+
+i love my friends here. my floor is awesome. in fact, i'm in my neighbor across the hall's room right now. he and i had a late night munch fest. i love everyone i've met through facebook. and other than sigma ae pi, i adore all he sorority girls i've met so far. most of my friends are boys, but they're so nice. and outdoorsy. and into music. and looking at stars. i love ittt.
+plus, you know, i still party with all the elco kids. haha.
+
+berkeley this weekend for DANI BASS' 18TH BIRTHDAY!
+and san francisco. :D
+
+hella stoked."
+"eventtime","2007-10-04 01:11:00"
+"current_moodid","44"
+"url","http://outof-turn.livejournal.com/87683.html"
+"userid","11526"
+"itemid","341"
+"event","i'm missing you again.
+fuck.
+this weekend was so good
+friday we drank went to the sex gameshow where i won a cocksicle
+and found lauren fucking mcgee and becky.
+then went to harrison's. then we left to play ping pong and drink brewskies.
+saturday we went to town with the intention of all getting pierced. ha. ha. that didnt happen
+we got way lost, looked at halloween costumes, there was an art car show we walked through that was really cool.
+we got some jager and headed over to the women's alliance for medical marijuana festival. ahahha only in santa cruz.
+back to campus to drink our jager and get ready for the night. we ran out in time and headed into town again to meet up with some friends who were getting more and go to a house party. we get to this awesome dance party with 80s and house and drum and bass nd electro-indie. we leave for cigarettes and realize we're all way kinda drunk. we bus it back to campus and lauren and becky pass out. i write my essay.
+today was chores chores chores. laundry. dishes. vacuuming. trash taking out. homework.
+
+chya brah."
+"eventtime","2007-09-30 21:11:00"
+"url","http://outof-turn.livejournal.com/87386.html"
+"userid","11526"
+"itemid","340"
+"event","yesterday was fall fest - signed up for sorority stuff, hiked like 3 miles in flip flops to get there cos we got lost,
+met way cool people. this girl eden and i CLICKED.
+then it was the ""boardwalk frolic"" $20 for unlimited rides, boardwalk bucks, and cheap-er food. even mini golf and lazer tag, fun stuff.
+then i was in a pissy mood cos bennett totally lied to me on the phone
+and i dont know why
+i know he was having a party.
+way to value beer more than familyyy
+shithead.
+jackie liu and i arent talking to him or drew for a little.
+fuck that.
+i could HEAR people in the bckground when i called.
+
+today i got breakfast with my floor mates, went to an interview for a work-study position checking out camera equipment and doing film and digital media related stuff. i'm stoked, i think i have a shot at actually getting it. then i walked to each of my classes and discussions. my math discussion is on the opposite end of campus, otherwise my classes/discussions are all near eachother. the science buildings here are way impressive. then when i got back it was PLAYTIME AT PORTER so in the quad outside my dorm there was a slipnslide, like a sockemboppers ring, arts and crafts, karaoke and funny as fuck watermelon eating and coke chugging contests.
+then we watched an hour and a hlaf of margaret cho (stand up comedian) after dinner
+and we have to eventually write a paper on it for my english (writing across the arts) class.
+how hilarious is that? 
+
+i have another interview friday with the art dept to work in the art store
+but i doubt i'll qualify. i mean, wtf do i know about art?
+AHAHAHAHAHAH
+i'm a SCIENCE MAJOR
+speaking of which i havnt met a single person with my major
+chya im hella awesomee"
+"eventtime","2007-09-27 01:07:00"
+"current_moodid","90"
+"url","http://outof-turn.livejournal.com/87243.html"
+"userid","11526"
+"itemid","339"
+"event","okay, sooo i'm a little homesick.
+but i'm going to dinner with my floormates in a few. It's weird not being online all the time, there's just so mu h to do. hah i bought an energy saving lightbulb for the desk lamp in my room, and i totally picked up a second lamp for free from the kresge give away this morning - just shit people left behind from last year. Some people left T.V.s, dvd players, a psp2, crazy shit...a lot of clothes and dishes...some board games. Bennett retrieved unused unopened ping pong balls, Drew got some dishes and stuff, everyone picked up posters and stuff except me..hah.
+I started smoking Marbolo Lights, gah prolly cos it reminds me of Dave.
+Speaking of which OCTOBER IS OING TO BE NUTS
+first weekend - Dani's birthday in Berkeley
+second weekend - Dave and Fink come up
+third - free
+fourth - SB for halloween...a hotel room for 2 nights for Dave and i. :D"
+"eventtime","2007-09-24 18:06:00"
+"url","http://outof-turn.livejournal.com/87024.html"
+"userid","11526"
+"itemid","338"
+"event","tecate and a couple bowls at drew's and bennett's place
+got a tour of jared's
+they have apartmentsss
+stumbled into a random get together of people outside 812 at kresge
+met a couple people on my floor.
+gotts get up early
+my room mate moves in the morning.
+i moved in early
+my room has white walls and a purple door
+my side of the room has two windows, a table of drawers, desk and wardrobe.
+cos i dont have a closet, i have a little more room, which is nice. 
+i also got the nicer bed.
+she got the ethernet jacks though, so my little 14ft wire is stretched across the room right now.
+my bed sheets are pink, orange, white and coral, i have a zepplin poster over my bed, these suction cup things on the wall im hanging clothes and costume jewelry necklaces from.
+four more people i know move in tomorrow, yesss.
+i miss dave.
+i talked to him forever today - i sat out on the wave statue in the meadow and watched the sunset over the ocean while on the phone with him.
+i went on a walk and saw deer galore and an owl
+i want cigarettes. mm.
+life is good so far :D
+some weird kids in my dorm though
+def the ""alternative"" type are attracted to it"
+"eventtime","2007-09-22 02:50:00"
+"current_moodid","90"
+"url","http://outof-turn.livejournal.com/86639.html"
+"userid","11526"
+"itemid","337"
+"event","we're not breaking up!
+i'm in SC, i move in, in the a.m.
+better update then"
+"eventtime","2007-09-20 18:08:00"
+"current_moodid","44"
+"url","http://outof-turn.livejournal.com/86452.html"
+"userid","11526"
+"itemid","336"
+"event","i don't want to break up.
+i'm more scared of that
+than i am of moving.
+i'm not ready for another broken heart.
+not now, not while i'm a mess:
+on the rag, moving, everything is changing, everyone is changing.
+scared shitless about failing out of my program.
+he jokes about runnng away together and god it sounds so good.
+hah. go to chicago
+and i'll be a jazz singer at a night club, or i could waitress, and he'll be the writer he always wanted to be.
+we'll live off my rich cousins who live there and his trust fund.
+it's a fairy tale.
+i mean, maybe, we could have some sort of open relationship, yea?
+see other people, but when i come home still retain some thing like a relationship.
+i don't want to give up on this yet.
+my <i>parents</i> like him.
+and if any of you know anything about my parents, you know that it's near impossible to please them.  
+he's a great person. 
+why does this have to be so hard."
+"eventtime","2007-09-19 11:10:00"
+"current_moodid","91"
+"url","http://outof-turn.livejournal.com/86019.html"
+"userid","11526"
+"itemid","334"
+"event","jackirex.livejournal.com
+
+i'm in love with the kooks, and that ^ is my writing journal.
+add if interested."
+"eventtime","2007-09-12 13:06:00"
+"url","http://outof-turn.livejournal.com/85662.html"
+"userid","11526"
+"itemid","333"
+"event","Lately I feel as though
+I listen to people talk and talk and talk
+but they don't have any inclination to hear me.
+I'm not an attention whore, I swear.
+But if you're going to tell me how you partied yourself stupid,
+don't you want to hear how I did the same? or how I did something a little different?
+Maybe ask me about the old friend I casually mention that has been calling me these days.
+Ask me anything at all. I mean, I want to know about you and your life,
+but would it kill you to stop assuming you've got me figured out and see what I'm actually about?
+
+As someone who's never had a stable group of friends for longer than a year or year and a half, 
+I guess I feel I don't have a lot of ties to my past. I like being asked about it. Even the bad times. 
+
+The Designer Drugs/Designer Jeans party, Pill Parties, Scenefests, my recent Mexifest, countless nights at The Summit, Neil's apartment, even my house. I spent some nights crashing parties. Hollywood parties with stuck up private school kids or scene fashion and music whores, prom parties, we even soemhow found ourselves invited to a Melrose fashion party, complete with strippers, runway, and live band/hot ass dj. I went to USC a number of nights for parties <333, Canoga parties, Lauren Vesio's parties, Sex Island at Adam's, when we used to crash at The Wash, or Knapp. Parties where we'd all get fucking naked and streak or swim. The million plus parties at Liz's. The after show parties and all the times I groupied or roadied or managed or helped in some way for bands Black Tie Conspiracy, Sy Devore, Chop 7, Eleven Penny Life, For Broken, The Exit Signs, Shot on Sight, Simply Lost, A Hint of Hope, Fall Over Tuesday, and various reincarnations of all of them. I roadied for Hello Goodbye once, too. I partied with Enblessin and Vegas Virgin. and of course, the many parties at Maggie's or Erica's.  
+
+I feel like people undermine me. ""Oh Jackie was just a druggie geek in high school. she hooked up with some guys, too. A lot of people hate her.""  
+
+You don't know me, you don't know shit. 
+You think you have so much more experience
+your experiences were so much cooler,
+stfu. 
+you've never taken a slew of drugs and drank away the nausea over it. 
+you've never had to grow up as fast as I did.
+you've never passed out in a vegas hotel room.
+you've never been to AA or NA or Alanon. 
+you've never partied so fucking hard you were high for 3 days.
+you've never danced on a table.
+Whatever, I'm done trying to prove that my high school experience was more fulfilling/exciting than yours. It's not worth proving.
+
+Isn't it enough that I'm jealous you've had friends that you've known since you were little?
+or that you've kept the same group of friends through high school?
+or that you had a normal high school experience?
+whatever."
+"eventtime","2007-09-11 12:37:00"
+"current_moodid","5"
+"url","http://outof-turn.livejournal.com/85386.html"
+"userid","11526"
+"itemid","332"
+"event","okay so it's been six weeks since i've been on the rag.
+i started taking birth control (again) about a week and a half ago.
+i haven't had unprotected sex, but there was this bullshit condom scare
+also about a week and a half ago.
+i'm really, really nervous.
+i mean, it could just be that the birth control is fucking up my schedule;
+i haven't been entirely regular since before the last time i got back on birth control.
+i guess i could go get an ept when i get my paycheck friday.
+i dont want to freak out my boy, though, if i don't need to.
+advice?"
+"eventtime","2007-09-10 18:43:00"
+"current_moodid","46"
+"url","http://outof-turn.livejournal.com/85109.html"
+"userid","11526"
+"itemid","331"
+"event","reasons my boyfriend is incredible:
+never misses an opportunity to pull a chair or open a door for me, will talk to me into the wee hours of the morning, who will kiss me even if we both have morning breath, who thinks my random science facts are cute, dresses well, loves shopping with me, tells his parents about me, writes really well, can be very creative, doesn't mind teaching me new things, loves going out, will discuss movies endlessly and know a lot about them, knows i'm more than a dumb blonde and treats me as so, is so valley with me, loves animals, and sports, my parents like him, has proper etiquette, insists on picking me up, challenges my wit, can feed me my own sarcasm, knows hollywood and the city just as well as i do, has ambition, doesn't think i'm completely bonkers, loves spontaniety, appreciates classic cars, sings along to classic rock and 80's, is willing to learn more about music from me, thinks he sounds like bruce springsteen making up words and strumming my guitar, likes the music i make, doesn't judge my family or friends, likes my friends and treats them well, and they like him, is willing to go through social sacrifice to be with me knowing some of his friends can't stand me, makes fun of and picks up on my odd sentence structure and SAT vocabulary, has finally gotten used to my silly yawn, likes adventures, can snowboard, likes the beach, doesn't mind PDA in the slightest, is proud to be with me, has self esteem, is secure with himself, funny, sweet, inherently good, a hot pompous asshole and an utter and complete consumer whore. ahahahaha. <3"
+"eventtime","2007-09-09 12:48:00"
+"current_moodid","44"
+"url","http://outof-turn.livejournal.com/84758.html"
+"userid","11526"
+"itemid","330"
+"event","i think i like him so much because he's so stable.
+he's got his feet on the ground,
+i've got my head in the clouds.
+i don't know what the fuck i'm doing to myself half the time.
+he knows who he is, and he's normal.
+i'm a split:
+a good girl, good grades, decent family, job, social, hates burning bridges, doesn't mind doing favors, sports liking, parent presentable, learner, listener.
+then the other side, a druggie, bitter, jealous, slightly insecure, angry, selfish, self absorbed, out of my head - risking my life and well being because i act like i don't give a shit and i'm not afraid of death.
+i wish i weren't fucking nuts.
+i mean, certain aspects of my alterego make me who i am, you know?
+give me life, and personality.
+but i enjoy being the good girl sometimes, too.
+
+there's times i'm driving, usually at night
+and all i can think about is driving into the center divider
+or down the nearest cliff.
+who would care? would people blame it on drugs? some friends of mine that are pretty shitty?
+my delinquent family? over protective parents? the fact i was adopted? that the ""fucked up"" gene is somewhere inside of me? god? or just bad luck?
+
+my mom called me self absorbed tonight.
+and i asked a third party their honest opinion of me,
+and they agreed. i'm not always that way, but i can be. a little bit.
+i mean, in a way, it's inside of all of us.
+it's part of the birage of demons we fight all the time.
+but i feel so, so awful. especially now.
+
+people want to see me before i leave because they care about me.
+and here i am, trying to hang out with everyone, have a good time
+and fucking focus on myself. doing what's convenient for me.
+
+i've got a million things running through my head. tasks i have to complete before i leave,
+people i want to see, things i want to do, things i should do. treating the people that deserve it
+well, mending the broken bridges between myself and people i don't want to leave on bad terms.
+forgetting those that have hurt me.
+
+i'm stopping drugs for a while. 
+and letting broken friendships go.
+i just want to be free.
+and keep my happiness."
+"eventtime","2007-09-08 02:22:00"
+"current_moodid","90"
+"url","http://outof-turn.livejournal.com/84651.html"
+"userid","11526"
+"itemid","329"
+"event","i can't believe
+<b>I</b> just apologized
+to the person who used to make me miserable.
+I really can't stand the thought, though,
+of never seeing them again after I move.
+I have never believed in burning bridges,
+I think that's a weakness.
+<P>
+on another note,
+I backed my Lancer
+into my Dad's Plymouth
+this morning.
+Only I could simotaneously damage two of my own cars.
+seriously."
+"eventtime","2007-09-05 12:49:00"
+"current_moodid","87"
+"url","http://outof-turn.livejournal.com/84362.html"
+"userid","11526"
+"itemid","328"
+"event","Sometimes
+I have the most fun just lying on his bed playing video games with him
+or watching a baseball game in our dodger hats and cuddling.
+
+Devon's kickback was awkward.
+I drank quite a bit, but I didn't get stupid. 
+I can't believe Lauren jumped in the pool with her clothes on
+Shanae, sober, had her own awkward-idities. 
+It was such a random assortment of people.
+I'm glad Dave came.
+I'm glad people took their drama elsewhere.
+
+Hung out with Alisa yesterday.
+Shopping, pigging out, Top of Topanga, Clueless, driving through box, the Wylies, then finally Cam-town.
+
+I want to go to Moscow on Wednesday, but I have no one to go with.
+
+Also everyone should get skype.
+I skype with Juliette now, and it seems to be one of my favorite things.
+
+I also looked at my friends, and who I've kept and how I've kept them.
+More than anything, I realize I value my friends' loyalty, followed a close second with honesty. It doesn't take a lot to impress me. I suppose it helps I believe in some sortof inherent goodness in people."
+"eventtime","2007-09-04 10:33:00"
+"current_moodid","114"
+"url","http://outof-turn.livejournal.com/84149.html"
+"userid","11526"
+"itemid","327"
+"event","i love the time i spend with him, i'm never disappointed."
+"eventtime","2007-09-02 15:52:00"
+"url","http://outof-turn.livejournal.com/83843.html"
+"userid","11526"
+"itemid","326"
+"event","Carpinteria.
+Boogie boarding, a welcoming family, playing catch with the nephews, laying with my boy,
+gossiping with the niece, making fun of each other, walking the kids to the candy store and testing unusual sodas, cooking competition and awesome food (I got to be a judge!), wine in the afternoon over a pot of creamy soup and the smell of an ocean breeze through an open window, a margarita to split with boy with a beautiful pinkpurpleorange sunset lit dinner on the beach, warm showers and a sundress in the rain, borrowing his jacket, cigarettes and loitering, walking with hot coffee and holding hands, drunkards laughing and singing down State Street, a midnight walk on the beach and lying on the dunes looking at the stars and moving clouds and full moon, pajamas and a blanket on the balcony while watching an electrical storm over the ocean and glasses of wine, sleeping in his arms on a bottom bunk, waking up to the smell of coffee and pancakes, fabulous breakfast with the family, reading the newspaper, saying goodbye and racing down the coast to Oasis.
+
+I cried today after lunch with my father. I told him I missed having a real family. A more normal one. I miss having events where there were like 30 or 40 of us, instead of 7, or 9. When we didn't talk shit behind each other's backs. When family wasn't forced to choose sides; when we put our differences aside and smiled to at least pretend to get along. Before everyone moved, before my cousins and family friends all went off to college (including myself). When we took trips together. When we went on walks around the neighborhood on holidays: after dinner, but just in time back for dessert. When my uncle was the black sheep of the family and everyone loved him for it. When we were seperated by just a few miles instead of hundreds or thousands.
+
+I want a real relationship with family that isn't fucking insane.
+I'm sorry, and ashamed, I never appreciated family when I was younger.
+I'm sorry everything turned to shit after my grandfather died
+and my aunt is mentally unstable. I'm sorry I can't maintain a healthy relationship with my closest cousin when she looks up to me.
+I want to have a one on one relationship with my brother,
+and have never been able to. I'm NERVOUS to talk to my own brother.
+I'm sorry I wasn't nicer to our family friends' kids.
+
+I think I'm going to get/keep in contact with Josh & my nephews, Amanda, Bennett, Brittany, Melissa, Chelsea and Kayla, Andrew, Tarya and my Uncle and his new wife."
+"eventtime","2007-08-30 15:22:00"
+"current_moodid","114"
+"url","http://outof-turn.livejournal.com/83630.html"
+"userid","11526"
+"itemid","323"
+"event","She don't like cocaine, baby, just likes how it smells 
+says, ""maybe you can drive me home if you want.""  
+Go out and have your fun tonight, 
+you might as well go out and raise your drinks to life, 'cause we're all going to Hell... 
+
+I'm definitely going to hell. ahahahahaahahahahaaha"
+"eventtime","2007-08-27 01:14:00"
+"current_moodid","44"
+"url","http://outof-turn.livejournal.com/82729.html"
+"userid","11526"
+"itemid","322"
+"event","why can't i have a normal sexual relationship?
+I'm fucking ridiculous.
+I give myself these imaginary rules that make me really prude.
+
+scratch that.
+ i defeatd my moral fiber and prude imaginary rules and psuedo restritions -
+i'm free to do as i please: at least this time around.
+i am not guilty, regretful, or anything.
+i feel oddly void of any of that.
+i didn't get hurt.
+it's almost empty.
+it's nice, it's a nice fucking vchange."
+"eventtime","2007-08-25 14:01:00"
+"url","http://outof-turn.livejournal.com/82545.html"
+"userid","11526"
+"itemid","321"
+"event","thanks for the memories, even though they weren't so great.
+
+jesus. get the fuck out of my headdd.
+can you have like a mental state relaspe?
+i swear that happens to me. 
+i'll be chillin, everything will be fine.
+actually, as of late, GREAT. :D
+then i'll think of something,
+something familiar.
+or see photographs (hiding under my bed)
+from last summer.
+and i'm brought back to this... 
+anger. want of revenge. 
+revenge, that is, best served cold.
+
+I have these mood swings where I go from the top of the world
+to this blazing descent. Something sort of like crashing.
+I don't think about it a lot...not at all lately, not even friday.
+but sometimes I reach a trigger, you know?
+it's like something is set off inside me.
+One time someone told me they could see themself 
+breaking shit with a baseball bat, in his head
+every time he saw this one person.
+I didn't tell him he wasn't alone in that mental image,
+but I've always been a bigger fan of throwing things
+to break them.
+it's really, too bad that I can't break you."
+"eventtime","2007-08-20 13:35:00"
+"current_moodid","110"
+"url","http://outof-turn.livejournal.com/82300.html"
+"userid","11526"
+"itemid","320"
+"event","i'm really happy right now.
+i would hate to say it's primarily because of him
+but god it feels so good to be liked.
+this weekend was pretty fun regardless.
+six flags on wednesday.
+&hearts;"
+"eventtime","2007-08-19 14:37:00"
+"current_moodid","44"
+"url","http://outof-turn.livejournal.com/81990.html"
+"userid","11526"
+"itemid","319"
+"event","there are two people who were loyal throughout highschool.
+neither of them will read this.
+
+i want to escape to college so badly.
+my new assignment at work right now is to find pictures of different san francisco/bay area/santa cruz/san jose events, cultural things, houses, buildings, skylines, suburbs, etc
+i'm basically being taunted by some unknown force to face the reality
+of 36 more days of the san fernando valley.
+maybe i'll escape to the city this weekend?
+i think i'm getting my macbook tonight. (for real this time)
+my speeding ticket hasn't been processed yet.
+
+i gave someone their first line the other night (at mexifest)
+and it makes me feel so guilty. i mean, she wanted it;
+i still feel responsible.
+
+my party (mexifest) turned out better than i anticipated.
+we went through over 100 beers, 4 handles of hard alcohol, 3 margarita/mojito/hard lemonade mixes, upwards of 3 litres of mexican and american soda, and 10 pounds of ice.
+what an eclectic group of people too...none of the norm came:
+and i'm so fucking glad.
+in the so cal versus nor cal flipcup game,
+nor cal owned (3 out of 6 of us were UCSCers)
+we had a 4ft tall corona bottle shaped pinata -
+it was fantastic and served as a great entertainment when jared started wearing it - it looked like it had grown legs ahahah.
+kings cup and beer pong sprung wild games, too
+and a fabulous dance along to the macarana.
+ 
+i helped juliette pack yesterday too
+it's fucking hard
+getting close to people and watching them leave.
+there's a possibility we'll never see each other again, you know?
+oh god i hope not.
+when dani left earlier this summer i bawled like a baby.
+robin leaves on saturday.
+ugh. why can't i leave, too?"
+"eventtime","2007-08-14 15:26:00"
+"current_moodid","1"
+"url","http://outof-turn.livejournal.com/81905.html"
+"userid","11526"
+"itemid","318"
+"event","i'm an idiot and i am weak.
+but i'm aware i am.
+and i only am because i'm afraid of things not working out the way i want them to. 
+i can smile and be civil.
+i leave so soon
+i dont care anymore
+43days-ish?"
+"eventtime","2007-08-09 12:34:00"
+"url","http://outof-turn.livejournal.com/81502.html"
+"userid","11526"
+"itemid","317"
+"event","<font size=5><b>NO MATTER WHAT I DO ITS NEVER GOOD ENOUGH.</font></b>"
+"eventtime","2007-08-09 11:43:00"
+"url","http://outof-turn.livejournal.com/81228.html"
+"userid","11526"
+"itemid","316"
+"event","last night was unexpected.
+Randomly wound up hanging out with Dave Rochman. I would just call him dave but he has one of those names i can't help but say the first and last name. aha. It was way fun, I haven't had a talk like that in a long time. Saw the most awful movie: the number 23. Don't rent it. I don't know what was worse: the contrasted dreamscape or the paper thin plot. Smoking cigs and looking out over the valley from my balcony is always fun, though. 
+
+I had dinner with Paige monday, I'm so stoked she's back from Spain. We drove around aimlessly (for a change), got some frozen yogurt, stopped by Juliettes and started planning mexifest.
+
+I hate to admit I'm freaking out. I really want Mexifest (mexican themed going away party for Juliette) to work out. First there's a matter of money: we're gonna need some bucks to pull this off. I only want to put in like $60 max. Hopefully Juliette and Paige can cover the rest...unless I get a few donations here and there. I'm worried too cos so many people are putting ""maybe"" for their RSVP. Oh & lack of boys. The guest list is majority female. I am one of those people who tries to plan things perfectly. I'm like, the Martha Stewart of party planning. Thankfully Paige is covering most of the food, and my mom will probably manage the rest, haha.
+
+I also need to locate someone 21+who can buy my alch on Saturday; they'll be invited, of course in return.
+
+I really need to get to work now...REALLY."
+"eventtime","2007-08-08 12:49:00"
+"current_moodid","4"
+"url","http://outof-turn.livejournal.com/81134.html"
+"userid","11526"

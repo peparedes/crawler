@@ -1,0 +1,519 @@
+"names","values"
+"itemid","23"
+"event","RXJpYyBCcm9kZXJzZW4NCk1ycy4gQW5nZWxpDQozcmQgaG91ciBDUCBFbmdsaXNoDQoyNSBNYXkgMjAwNA0KDQpMaWZlIGlzbuKAmXQgZmFpcuKApg0KDQoNCg0KCVRoZXJlIGlzIGEgYm9vayB0aGF0IEkgaGF2ZSByZWNlbnRseSByZWFkLCBhbmQgaXQgdGF1Z2h0IG1lIHNvIG11Y2guIEl0IGlzIGNhbGxlZCDigJxUaGUgZml2ZSBwZW9wbGUgeW91IG1lZXQgaW4gaGVhdmVu4oCdLiBPbmUgcXVvdGUgaW4gcGFydGljdWxhciwgc3Rvb2Qgb3V0LiDigJxMaWZlIGlzbuKAmXQgZmFpciwgaWYgaXQgd2FzIHNvIG1hbnkgZ29vZCBwZW9wbGUgd291bGRu4oCZdCBkaWUgeW91bmcu4oCdIE15IEV1bG9neSBpcyBiYXNlZCBvbiB0aGlzIHF1b3RlLg0KCUkgb25jZSBtZXQgYSBwZXJzb24sIHdobyB0b3VjaGVkIG15IGxpZmUgbGlrZSBub3RoaW5nIGVsc2UgZXZlciBoYXMuIEkgd2VudCB0byB0aGUgb3BlbiBtaWMgYXQgdGhlIGxvY2FsIGNvZmZlZSBzaG9wLiAyIGNvZmZlZXPigJkgbGF0ZXIgYW5kIG1hbnkgYmFkIGFjdHMsIGEgc2NydWZmeSBoYWlyZWQsIGJyb2FkIHNob3VsZGVyZWQgZ3V5IHdobyBsb29rZWQgbGlrZSBoZSBoYWRu4oCZdCBzaGF2ZWQgaW4gYSBmZXcgZGF5cyB0b29rIHRoZSBzdGFnZS4gSGUgc3RhcnRlZCB0byBzdHJ1bSBoaXMgZ3VpdGFyIGFuZCBzaW5nLiBJdCB3YXNu4oCZdCBncmVhdCBidXQgaXQgd2FzIGdvb2QuIEluIGZhY3QsIGNvbXBhcmVkIHRvIHRoZSBwYXN0IGFjdHMgb2YgdGhlIG5pZ2h0IGl0IHdhcyBhbWF6aW5nLg0KCUFmdGVyIHN0YW5kaW5nIGluIGFtYXplbWVudCBmb3IgaGlzIHdob2xlIHNldCwgSSBrbmV3IEkgaGFkIHRvIG1lZXQgdGhpcyBndXkuIEl0IHdhc27igJl0IHRoZSBjb21wbGljaXR5IG9mIGhpcyBtdXNpYzsgaXQgd2FzIHRoZSBwYXNzaW9uIGhlIHNob3dlZCBpbiBoaXMgYm9keSBsYW5ndWFnZSBhcyBoZSBwbGF5ZWQuIFRoZSB3YXkgaGUgY2xvc2VkIGhpcyBleWVzIGFuZCB3ZW50IHRvIGEgcGxhY2Ugd2hlcmUgbm90aGluZyBjb3VsZCB0b3VjaCBoaW0uIE5lcnZvdXNseSBJIGFwcHJvYWNoZWQgaGltIGFuZCBzYWlkIGhpLiBJIGhhZG7igJl0IGhhZCB2ZXJ5IG1hbnkgZnJpZW5kcyBzbyBpdCB3YXMgYSBuZXcgZXhwZXJpZW5jZSBmb3IgbWUuIFRoZW4ganVzdCBhcyBoZSB3YXMgc2luZ2luZyBpdCwgaGUgc2FpZCDigJx3aGF04oCZcyB1cOKAnSBJIGNvbXBsaW1lbnRlZCBoaW0gb24gaGlzIG11c2ljYWwgYWJpbGl0aWVzIGFuZCB3ZSB0YWxrZWQgZm9yIGEgd2hpbGUuIA0KCUhlIHNhaWQgaGUgd2FzIGdvaW5nIHRvIHN0ZW0gb3V0c2lkZSBmb3IgYSBzbW9rZSBhbmQgYXNrZWQgaWYgSSB3b3VsZCBsaWtlIHRvIGpvaW4gaGltLiBJIHNhaWQgSSBkaWRu4oCZdCBzbW9rZSwgYnV0IHRoYXQgSSB3b3VsZCBqb2luIGhpbSBhbnl3YXkuIE91dHNpZGUgaXQgd2FzIGNvbGQsIGFuZCBhbGwgeW91IHJlYWxseSBjb3VsZCBzZWUgd2FzIHRoZSBnbG93IG9mIGhpcyBjaWdhcmV0dGUgd2hpbGUgc2l0dGluZyBvbiB0aGUgYmVuY2guIOKAnFlvdSBmcm9tIGFyb3VuZCBoZXJlP+KAnSBoZSBzYWlkLg0K4oCcWWVhaCBJIGp1c3QgbW92ZWQgaGVyZeKAnSBJIHJlcGxpZWQuIFRoZSBjb252ZXJzYXRpb24gYmxvb21lZCBpbnRvIG1hbnkgdG9waWNzIGFuZCBJIGZvdW5kIHRoYXQgaGUgaGFkIGp1c3QgZ3JhZHVhdGVkIGZyb20gY29sbGVnZSBhbmQgd2FzIGxvb2tpbmcgZm9yIGEgam9iIGluIGhpcyBjYXJlZXIgZmllbGQuIEkgd2VudCBpbnNpZGUgdG8gZ2V0IGFub3RoZXIgY3VwIG9mIGNvZmZlZSwgYW5kIGFzIEkgc3Rvb2QgdXAgSSBmZWx0IGFzIGlmIEkgaGFkIGp1c3QgYmVlbiBzbWFja2VkIGluIHRoZSBoZWFkLiBJIHNhdyBzdGFyczsgSSBoYWQgbWFkZSBhIG5ldyBmcmllbmQuIA0KCSBCeSB0aGUgdGltZSBteSBjb2ZmZWUgd2FzIGZpbmlzaGVkLCBoZSBoYWQgbWFkZSBoaXMgd2F5IGluc2lkZSBhbmQgdGFwcGVkIG1lIG9uIHRoZSBiYWNrLCBtb3Rpb25pbmcgdG8gd2hlcmUgaGUgd2FzIHNpdHRpbmcuIEkgd2Fsa2VkIG92ZXIgaG9sZGluZyBteSBzdGVhbWluZyBjdXAuIEhlIGFza2VkIG1lIHdoYXQgSSB0aG91Z2h0IHdhcyBzbyBncmVhdCBhYm91dCBoaXMgbXVzaWMsIGFuZCBJIHRvbGQgaGltLiDigJwgSXQgd2FzIHRoZSBwYXNzaW9uIEkgc2F3IGluIHlvdSwgdGhlIHdheSB0aGUgbXVzaWMganVzdCBmbG93ZWQu4oCdIFdlIHRhbGtlZCBmb3IgdGhlIG5leHQgaG91ciBvciBzby4gVGhlbiBhdCBhYm91dCAyIGFtIGhlIGFubm91bmNlZCB0aGF0IGl0IHdhcyB0aW1lIGZvciBoaW0gdG8gbGVhdmUuIFdlIGV4Y2hhbmdlZCBlLW1haWxzIGFuZCBoZSB0b2xkIG1lIGhlIHdvdWxkIGxpa2UgdG8gZ2V0IHRvZ2V0aGVyIHRvIGphbSBhbmQgbWF5YmUgZ28gdG8gYSBwYXJ0eSB0aGF0IGhlIHdhcyBhdHRlbmRpbmcgbmV4dCB3ZWVrZW5kLg0KCSAgSWYgSSBoYWQga25vd24gdGhhdCBpdCB3YXMgdGhlIGxhc3QgdGltZSBJIHdvdWxkIHNlZSBoaW0gSSB3b3VsZCBoYXZlIHNhaWQgbW9yZSB0aGFuLCDigJwgc2VlIHlh4oCdLiBJIGxlYXJuZWQgdGhlIG5leHQgbW9ybmluZyB0aGF0IG15IG5ldyBmcmllbmQgd2FzIGludm9sdmVkIGluIGEgMi1jYXIgYWNjaWRlbnQgb24gaGlzIHdheSBob21lLiBTaW5jZSB0aGVuIHNvIG1hbnkgdGhpbmdzIGhhdmUgYmVlbiBydW5uaW5nIHRocm91Z2ggbXkgbWluZC4gTW9zdGx5IEkgd2FzIGluIHNob2NrLCBubyBvbmUgSSBldmVyIGtuZXcgaGFkIGRpZWQgZXhjZXB0IG15IGdyYW5kcGFyZW50cyBvciBvbGRlciBmYW1pbHksIGJ1dCBuZXZlciBhIGZyaWVuZC4gDQoJQSBmZXcgd2Vla3MgbGF0ZXIsIEkgd2FzIHJlYWRpbmcgYSBib29rOyBpdCB3YXMgY2FsbGVkIOKAnFRoZSBGaXZlIFBlb3BsZSBZb3UgTWVldCBJbiBIZWF2ZW7igJ0uIFRoZW4gdGhpcyB0aG91Z2h0IGNyb3NzZWQgbXkgbWluZC4gV2hvIGRpZCBteSBmcmllbmQgbWVldD8gQWZ0ZXIgcG9uZGVyaW5nLCBJIGNhbWUgYWNyb3NzIGEgcXVvdGUgdGhhdCBicm91Z2h0IHRlYXJzIHRvIG15IGV5ZXM7IGl0IHdhcyDigJxMaWZlIGlzbuKAmXQgZmFpciwgaWYgaXQgd2FzIHNvIG1hbnkgZ29vZCBwZW9wbGUgd291bGRu4oCZdCBkaWUgeW91bmcu4oCdIE15IG5ldyBmcmllbmQgd2FzIGRpZmZlcmVudCwgaGUgYmVmcmllbmRlZCBhIHN0cmFuZ2VyLCBnYXZlIHRoZW0gaG9wZSwgYnV0IHdoeSBkaWQgaGUgZGllIHNvIHlvdW5nLCBJIGd1ZXNzIGxpZmUgcmVhbGx5IGlzbuKAmXQgZmFpci4="
+"eventtime","2004-05-25 23:23:00"
+"url","http://ifeeluseless.livejournal.com/6000.html"
+"userid","6744"
+"itemid","22"
+"event","tomorrow is my last monday in high school ever!!! its so scary. im just making this entrie to say GEMMA I LOVE YOU!!!!!!!!!!!!!!!!!!!!!! sorry i just needed that, anyway more when i feel like it, ive been slacking on this thing lately........."
+"eventtime","2004-05-23 19:26:00"
+"current_moodid","86"
+"url","http://ifeeluseless.livejournal.com/5820.html"
+"userid","6744"
+"itemid","21"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.deskslave.org/viewmeme.pl?un=daydreamer8852&meme=1074636882' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>What stupid celebrity are you destined to kill? by daydreamer8852</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name' value='eric' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Birthdate</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Birthdate' value='1/14/86' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You killed</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><img src='http://pictures.greatestjournal.com/userimg/699149/283505'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>With a</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><img src='http://pictures.greatestjournal.com/userimg/699158/283505'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>On</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>February 25, 2009</span></td></tr><input type='hidden' name='un' value='daydreamer8852'><input type='hidden' name='meme' value='1074636882'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'>Created with the ORIGINAL <a href='http://memegen.deskslave.org/'><font color='#DDDD88'>MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-05-12 20:36:00"
+"current_moodid","130"
+"url","http://ifeeluseless.livejournal.com/5582.html"
+"userid","6744"
+"itemid","20"
+"event","If the voices of the youth were heard,
+the world would only hear what it wanted to.
+If the eyes of everyone else were opened,
+everything would change........
+
+I want you to see a new side of me,
+the person inside......"
+"eventtime","2004-05-10 20:25:00"
+"current_moodid","25"
+"url","http://ifeeluseless.livejournal.com/5201.html"
+"userid","6744"
+"itemid","19"
+"event","I really dont know what to write tonite, my weekend was great, I got to see gemma, eat corndogs, ""Pimp"" my car, and put in my two weeks at tommys!!!! anyway im speechless and dont know what to write peace!"
+"eventtime","2004-05-09 22:29:00"
+"current_moodid","106"
+"url","http://ifeeluseless.livejournal.com/4894.html"
+"userid","6744"
+"itemid","18"
+"event","VGhlcmXCtHMgYSBncmllZiB0aGF0IGNhbsK0dCBiZSBzcG9rZW4NClRoZXJlwrRzIGEgcGFpbiBnb2VzIG9uIGFuZCBvbg0KRW1wdHkgY2hhaXJzIGF0IGVtcHR5IHRhYmxlcw0KTm93IG15IGZyaWVuZHMgYXJlIGRlYWQgYW5kIGdvbmUuDQoNCkhlcmUgdGhleSB0YWxrZWQgb2YgcmV2b2x1dGlvbg0KSGVyZSBpdCB3YXMgdGhleSBsaXQgdGhlIGZsYW1lDQpIZXJlIHRoZXkgc2FuZyBhYm91dCB0b21vcnJvdw0KQW5kIHRvbW9ycm93IG5ldmVyIGNhbWUNCg0KPkZyb20gdGhlIHRhYmxlIGluIHRoZSBjb3JuZXINClRoZXkgY291bGQgc2VlIGEgd29ybGQgcmVib3JuDQpBbmQgdGhleSByb3NlIHdpdGggdm9pY2VzIHJpbmdpbmcNCkkgY2FuIGhlYXIgdGhlbSBub3cNClRoZSB2ZXJ5IHdvcmRzIHRoYXQgdGhleSBoYWQgc3VuZ3QNCkJlY2FtZSB0aGVpciBsYXN0IGNvbW11bmlvbg0KT24gdGhlIGxvbmVseSBiYXJyaWNhZGUgYXQgZGF3bg0KDQpPaCBteSBmcmllbmRzLCBteSBmcmllbmRzLCBmb3JnaXZlIG1lDQpUaGF0IEkgbGl2ZSBhbmQgeW91IGFyZSBnb25lDQpUaGVyZcK0cyBhIGdyaWVmIHRoYXQgY2FuwrR0IGJlIHNwb2tlbg0KVGhlcmXCtHMgYSBwYWluIGdvZXMgb24gYW5kIG9uDQoNClBoYW50b20gZmFjZXMgYXQgdGhlIHdpbmRvdw0KUGhhbnRvbSBzaGFkb3dzIG9uIHRoZSBmbG9vcg0KRW1wdHkgY2hhaXJzIGF0IGVtcHR5IHRhYmxlcw0KV2hlcmUgbXkgZnJpZW5kcyB3aWxsIG1lZXQgbm8gbW9yZQ0KT2ggbXkgZnJpZW5kcywgbXkgZnJpZW5kcywgZG9uwrR0IGFzayBtZQ0KV2hhdCB5b3VyIHNhY3JpZmljZSB3YXMgZm9yLg0KRW1wdHkgY2hhaXJzIGF0IGVtcHR5IHRhYmxlcywNCldoZXJlIG15IGZyaWVuZHMgd2lsbCBzaW5nIG5vIG1vcmUNCg0KDQp+IExFUyBNSVNFUkFCTEVT"
+"eventtime","2004-05-02 19:28:00"
+"current_moodid","56"
+"url","http://ifeeluseless.livejournal.com/4625.html"
+"userid","6744"
+"itemid","17"
+"event","V2FybSBzYW5kLCBjb29sIHdhdGVycywgYW5kIHRoZSBnZW50aWxlIHJheXMgb2Ygc3VuIHNoaW1tZXJpbmcgdGhyb3VnaCB0aGUgc2xlbmRlciBsYXllciBvZiBjbG91ZHMuIFRvIHNvbWUgdGhpcyBpcyBqdXN0IGFuIGltYWdlIG9uIGEgcG9zdGNhcmQsIGJ1dCB0byBtZSBpdCBpcyBhIGdhdGV3YXkgdG8gc2V2ZW50aCBoZWF2ZW4sIGFuZCBhIGp1bXBzdGFydCBmb3Igd2hlbiBsaWZlIG5lZWRzIGl0LiBTaW5jZSBJIHdhcyBvbGQgZW5vdWdoIHRvIHdhbGssIEkgaGF2ZSBiZWVuIGV4cGxvcmluZywgd2FuZGVyaW5nLCBhbmQgZGlzY292ZXJpbmcgbmV3IHRoaW5ncy4gTGlrZSBhIGZpc2ggdG8gd2F0ZXIsIEkgd2FzIGhvbWUsIGFuZCBhbGwgd2FzIGdvb2QuDQoJT25jZSByZWxheGVkLCBhbmQgYWxsIGlzIHN1cGVyaW9yIGFnYWluLCB0aGUgbmV4dCBncmVhdGVzdCB0aGluZyBJIGNhbiBkbyBpcyBzbmF0Y2ggYSBidWNrZXQgb2Ygd29ybXMsIGdyYW5kcGHigJlzIGFnZWQgZmlzaGluZyByb2QsIGFuZCBoZWFkIGRvd24gdG8gdGhlIGJvYXQuIFdpdGggYSBQdXNoLCBzcXVlZXplLCBwdWxsLCBhbmQgdHdpc3QsIEkgYW0gb2ZmIHRvIHNlYS4gVGhlbiB3aXRoIGFub3RoZXIgc3F1ZWV6ZSwgcHVsbCwgdHdpc3QsIHN3aW5nLCB0aGUgaG9vayBhbmQgd29ybSBzcGxhc2ggaW50byB0aGUgd2F0ZXIgYW5kIG5vdGhpbmcgY2FuIGRpc3RyYWN0IG1lLiBUaGF04oCZcyB0aGUgc2luZ2xlIHRoaW5nIEkgbG92ZSBhYm91dCBmaXNoaW5nLiBJdOKAmXMganVzdCB5b3UsIHRoZSBib2F0IGFuZCB0aGUgbGFrZS4gTm8gb25lIG9yIHRoaW5nIGNhbiBkaXN0cmFjdCB5b3UgZnJvbSB0aGUgbW9tZW50LiANCglUaGlzIHBvc3RjYXJkIHBhcmFkaXNlIGlzIG1vcmUgdGhhbiBhIHN3aWZ0IHZhY2F0aW9uIGdldGF3YXkgZnJvbSB0aGUgcmVhbCB3b3JsZCBhbmQgYWxsIG9mIGl0cyByZWFsaXRpZXMuIEl0IGhvbGRzIG1lbW9yaWVzIGFuZCBwZW9wbGUgdGhhdCBJIHdpbGwgbmV2ZXIgZm9yZ2V0LiBHcmFuZG1hIGFuZCBHcmFuZHBhIFJvYWNoLCBhbmQgdGhlIHdob2xlIGNyZXcgbmV4dCBkb29yLiBJIHRydWx5IGRvIG5vdCBrbm93IGhvdyBteSBsaWZlIHdvdWxkIGJlIHdpdGhvdXQgdGhlIGltcGFjdCB0aGVzZSBwZW9wbGUgaGF2ZSBtYWRlIGluIG15IGxpZmUuIEdyYW5kbWEgYW5kIEdyYW5kcGEgcm9hY2ggd2hvbSBoYXZlIGJvdGggcGFzc2VkIGF3YXkgcmVjZW50bHkgaGF2ZSBib3RoIHBsYXllZCBhIG1ham9yIHJvbGUgaW4gbXkgbGlmZSwgdGhleSB3ZXJlIHRoZSBncmFuZHBhcmVudHMgSSBuZXZlciBoYWQsIGFuZCBpZiBpdCB3ZXJlbuKAmXQgZm9yIG91ciBwb3N0Y2FyZCBwYXJhZGlzZSBJIGRyZWFkIHRoYXQgbXkgbGlmZSB3b3VsZCBiZSBkaWZmZXJlbnQuDQoJVGhlcmUgd2FzIGEgdGltZSB3aGVuIHRoZSBwcmVzZW50IHRlbi1taW51dGUgZHJpdmUgd2FzIGEgMi3CvSBkYXkgZHJpdmUsIHdoZW4gbXkgZmFtaWx5IGFuZCBJIGxpdmVkIGluIEthbnNhcy4gRXZlcnkgSnVuZSB3aGVuIHNjaG9vbCBsZXQgb3V0IGZvciB0aGUgc3VtbWVyLCB3ZSB3b3VsZCBzdGFja2VkIHRoZSBjYXIgaGlnaCB3aXRoIG91ciBsdWdnYWdlIGFuZCBkb2dzLCBhbmQgd291bGQgYWxsIHBpbGUgaW4gZm9yIHRoZSAyIMK9ICAgZGF5LCBmaXZlIHN0YXRlIHRyZWsgYWNyb3NzIEFtZXJpY2EgdG8gY2FtcCBpbiBNaWNoaWdhbi4gRm9yIHllYXJzIHdlIHdvdWxkIGRvIHRoaXMgYW5kIHN0YXkgZnJvbSBKdW5lIHRpbGwgQXVndXN0LiBUaGVuIHdlIHdvdWxkIGxlYXZlIHRvIGdvIGJhY2sgdG8gc2Nob29sIHdpdGggdGVhcnMgaW4gb3VyIGV5ZXMuIA0KCVdoZW4gd2UgZmxldyB1cCBmb3IgQ2hyaXN0bWFzIGluIDE5OTEsIEkgd2FzbuKAmXQgb25seSBleGNpdGVkIGJlY2F1c2UgSSBnb3QgdG8gZmx5IGluIGFuIGFpcnBsYW5lLCBidXQgZ290IHRvIHBsYXkgaW4gdGhlIE1pY2hpZ2FuIHNub3cuIFRoaXMgc25vdyB3YXMgZGlmZmVyZW50IGluIG1hbnkgd2F5cyBmcm9tIG91cnMgaW4gS2Fuc2FzLiBUaGUgc25vdyBhdCBob21lIHdvdWxkbuKAmXQgbGFzdCBtb3JlIHRoYW4gYSBkYXkgb3Igc28sIGJ1dCBNaWNoaWdhbiBzbm93IHdhcyB0aGVyZSBhbGwgd2ludGVyLCBhbmQgc3R1bm5pbmcuIFRoaXMgd2FzIGFsc28gYSBzYWRkZW5pbmcgdGltZSBiZWNhdXNlIGl0IHdhcyBvbmUgb2YgdGhlIGxhc3QgdGltZXMgSSB3b3VsZCBzZWUgbXkgZ3JhbmRtYSBMYUZvbmRlLg0KCUluIDE5OTUgd2UgZW5kZWQgdGhhdCAyLcK9IGRheSBkcml2ZSwgYW5kIGNoYW5nZWQgaXQgaW50byBhIHRlbiBtaW51dGUgbGVzcyBqYW0tcGFja2VkIGNhciByaWRlLiBOb3cgSSB3b3VsZCBnZXQgdG8gZXhwZXJpZW5jZSB0aGUgc25vdyBhbGwgd2ludGVyIGxvbmcgYW5kIG1ha2UgbmV3IGZyaWVuZHMuIFN1bW1lcnMgY2hhbmdlZCBmb3IgdGhlIGJlc3QsIG1vc3RseSBiZWNhdXNlIHdoZW4gc2Nob29sIHN0YXJ0ZWQgd2UgY291bGQgZ28gYmFjayBvbiB0aGUgd2Vla2VuZHMuDQoJICAgICAgICAgICAgQW5vdGhlciBuZXcgdGhpbmcgZm9yIG1lIHdhcyB0aGF0IEkgZ290IHRvIHNlZSBteSBjYW1wIGR1cmluZyBhbGwgb2YgdGhlIHNlYXNvbnMsIGFuZCBubyBtYXR0ZXIgd2hhdCB0aGUgc2Vhc29uIGl0IGlzLCBjYW1wIGlzIHN0aWxsIGNhbXAuIEVhY2ggc2Vhc29uIGhhcyBpdHMgb3duIHBlcnNvbmFsaXR5LiBUaGUgd2ludGVyIGl0IGlzIGJsYW5rZXRlZCBpbiBzbm93IGFuZCBzb21ldGltZXMgdGhlIG9ubHkgd2F5IGluIGlzIGJ5IHNub3dzaG9lIG9yIHNraWluZy4gVGhlIGJlc3QgdGhpbmcgaW4gdGhlIHdpbnRlciBpcyBnYXppbmcgYXJvdW5kIGFuZCBzZWVpbmcgdGhlIGdyb3VuZCBhbmQgdHJlZXMgYmxhbmtldGVkIGluIHdoaXRlIGRvd255IHNub3cuIFRoZSBmYWxsIGhhcyBtb3JlIG9mIGEgc3RyaXBwaW5nIGRvd24gYW5kIHJlc3RhcnRpbmcgZXZlcnl0aGluZy4gRXZlbiB0aGUgbW9vZCBpcyBkaWZmZXJlbnQgZnJvbSBvdGhlciBzZWFzb25zLiBXaGVuIHlvdSBzZWUgYWxsIHRoZSBsZWF2ZXMgb24gdGhlIGdyb3VuZCBvciBjaGFuZ2luZyBjb2xvcnMsIHRoZSB3YWxrcyBhcmUgZ2xvcmlvdXMuDQoJV2l0aCB0aGUgdHJhbnNmb3JtYXRpb24gZnJvbSB3aW50ZXIgdG8gc3VtbWVyIGlzIGNvbXBsZXRlIHRoZSBjeWNsZSBiZWdpbnMgYWdhaW4sIGFuZCB3aXRoIGFub3RoZXIgcHVzaCwgc3F1ZWV6ZSwgcHVsbCwgYW5kIHR3aXN0LCBJIGNhbiBiZSBmb3VuZCBvdXQgb24gdGhlIGxha2UgZmlzaGluZyBhd2F5IG15IHByb2JsZW1zIGFuZCBpZ25vcmluZyB0aGUgcmVhbGl0aWVzIG9mIGxpZmUuIE15IGNhbXAgaXMgbXkgcG9zdGNhcmQgcGFyYWRpc2UsIGFuZCBJIGRvbuKAmXQga25vdyB3aGF0IEnigJlkIGRvIHdpdGhvdXQgaXQu"
+"eventtime","2004-04-22 14:53:00"
+"current_moodid","40"
+"url","http://ifeeluseless.livejournal.com/4597.html"
+"userid","6744"
+"itemid","16"
+"event","VHJ1c3QgaXMgc29tZXRoaW5nIHRoYXQgaGFzIGJlY29tZSB2ZXJ5IGltcG9ydGFudCB0byBtZSByZWNlbnRseS4gSSBoYXZlIGJlZW4gdGhyb3VnaCBhIGxvdCBpbiB0aGUgcGFzdCB5ZWFyIHRoYXQgaGFzIG9wZW5lZCBteSBleWVzIHRvIHRoZSB3b3JsZC4gSSBoYXZlIHJlYWxpemVkIHRoYXQgSSB3YXNu4oCZdCBsaXZpbmcgdGhlIGxpa2UgSSB0cnVseSB3YW50ZWQgdG87IHNvIEkgY2hhbmdlZCBzb21lIHRoaW5ncy4gDQoJRmlyc3Qgb2ZmLCBJIGxvb2tlZCBhcm91bmQgYW5kIGZ1cnRoZXJtb3JlIGZvdW5kIG91dCB3aG8gbXkgcmVhbCBmcmllbmRzIHdlcmUsIGFuZCBsb29rZWQgYXQgaG93IEkgd2FzIHRyZWF0aW5nIHRoZW0uIEkgcmVhbGl6ZWQgdGhhdCBJIHdhc27igJl0IHRyZWF0aW5nIHRoZW0gdmVyeSB3ZWxsIGF0IGFsbC4gSSBjb25jbHVkZWQgdGhhdCB0aGF0IEkgd2FzIGdvaW5nIHRvIGNoYW5nZSB0aGluZ3MgZm9yIHRoZSBiZXN0LCBvbmUgbGFzdCB0aW1lLg0KCUJhZCBoYWJpdHMgYXJlIG9uZSBvZiB0aGUgb3RoZXIgdGhpbmdzIEkgZGVjaWRlZCBJIHdhcyBnb2luZyB0byBkcm9wLiBUaGVyZSB3ZXJlIHRoaW5ncyBJIG5lZWRlZCB0byBwdXQgdG8gcmVzdCBhbmQgdGhpbmdzIHRoYXQgbmVlZGVkIHRvIGJlIGJyb3VnaHQgdXAgYW5kIGZhY2VkLiBPbmUgdGhpbmcgSSBkaWQgZGVjaWRlIHRvIGtlZXAgaXMgc21va2luZywgeWVzIGl0IGlzIGJhZCBmb3IgeW91LCBidXQgaXTigJlzIGdvaW5nIHRvIGRpZSBvdXQgc29vbiBhbmQgSSB3aWxsIHF1aXQuDQoJRnJvbSB0aGlzIHBvaW50IG9uIG91dCBJIGFtIGdvaW5nIHRvIGJlIHRoZSBwZXJzb24gSSB3YW50IHRvIGJlLiBNeSBkZWNpc2lvbnMgYXJlIGdvaW5nIHRvIGJlIG1pbmUgYW5kIGluZmx1ZW5jZWQgdmVyeSBsaXR0bGUgYnkgd2hhdCBvdGhlcnMgc2F5LiBJIGd1ZXNzIEkgYW0gbW9zdGx5IHByZXBhcmluZyBmb3IgdGhlIG5leHQgc3RhZ2Ugb2YgbXkgbGlmZSwgd2hpY2ggYmVnaW5zIGF0IHRoZSBlbmQgb2YgdGhlIHN1bW1lci4NCgnigJxJIGRvbuKAmXQgd2lzaCB0byBiZSBldmVyeXRoaW5nIHRvIGV2ZXJ5b25lLCBidXQgSSB3b3VsZCBsaWtlIHRvIGJlIHNvbWV0aGluZyB0byBzb21lb25lLuKAnSBhIHF1b3RlIGZyb20gYSBwb2VtIGJvb2sgSSBvd24uIFRoaXMgaXMgb25lIHF1b3RlIHRoYXQgSSBpZGVhbGl6ZSwgaXQgbWVhbnMgc28gbXVjaCB0byBtZS4gSSBmZWVsIHRoYXQgaWYgSSBjYW4gdG91Y2ggb25lIHBlcnNvbiBJIGNhbiBkbyBzbyBtdWNoLiBJIGtub3cgdGhhdCBzb21lb25lIGlzIHNvbWV0aGluZyB0byBtZSwgYW5kIEkgd291bGRu4oCZdCBjaGFuZ2UgYSB0aGluZy4NCg0KSSBkb27igJl0IHdhbnQgdG8gZ2l2ZSBldmVyeXRoaW5nIA0KVG8gdGhlIHdvcmxkLCBidXQgaWYgSSBjYW4gZ2l2ZQ0KU29tZXRoaW5nIHRvIHNvbWVvbmUsIA0KVGhhdCBzb21ldGhpbmcgd291bGQgYmUgdGhlIHdvcmxkLg0KDQp+RXJpYyBCcm9kZXJzZW4gNC8yMC8wNA0KDQoJVmFsdWVzIHRoYXQgSSBpZGVhbGl6ZSBpbiBsaWZlIGFyZSB0cnVzdCwgYW5kIGxvdmUuIFRoZXNlIHZhbHVlcyBoYXZlIHBsYXllZCBhIGtleSByb2xlIGluIG15IGxpZmUuIFRydXRoZnVsbHkgSSB3b3VsZCBzdGlsbCBsaWtlIHRvIGNoYW5nZSBzb21lIHRoaW5ncywgYnV0IEkgYW0gb24gbXkgd2F5IHRvIHRoZSBsaWZlIEkgd2FudCB0byBsaXZlIGFuZCBvbmUgc3RlcCBjbG9zZXIgdG8gdGhlIHBlcnNvbiBJIHdhbnQgdG8gYmUuDQoJVGhlcmUgaXMgb25lIHBlcnNvbiBpbiBteSBsaWZlIHRoYXQgSSByZWFsbHkgb3dlIGEgbG90IHRvLiBTaGUgaXMgb25lIG9mIHRoZSBiaWdnZXN0IHJlYXNvbnMgSSBoYXZlIHJlZXZhbHVhdGVkIG15IHNwb3QgaW4gbGlmZS4gU2hlIGlzIG9uZSBvZiB0aGUgbW9zdCBpbXBvcnRhbnQgcGVvcGxlIHRvIG1lIGFuZCBJIGxvdmUgZXZlcnl0aGluZyBhYm91dCBoZXIuIEkgZGlkbuKAmXQgdGhpbmsgSSBjb3VsZCBjYXJlIGZvciBzb21lb25lIHRoZSB3YXkgdGhhdCBJIGNhcmUgZm9yIGhlci4gSWYgaXQgd2VyZW7igJl0IGZvciBoZXJlLCBJIGhvbmVzdGx5IGRvbuKAmXQga25vdyB3aGVyZSBJIHdvdWxkIGJlLiBJIHdvdWxkIHByb2JhYmx5IHN0aWxsIGJlIGxpdmluZyBhIGxpZmUgb2YgcGxhc3RpYyBzbWlsZXMgYW5kIGhpZGluZyBmcm9tIHRoZSByZWFsaXR5IG9mIHJpZ2h0IGFuZCB3cm9uZy4NCglTaW5jZSBEZWNlbWJlciBteSBsaWZlIGhhcyB0YWtlbiBhIGRyYXN0aWMgY2hhbmdlIGZvciB0aGUgYmV0dGVyLCBtb3N0bHkgYmVjYXVzZSBJIGhhdmUgaGFkIHNvbWV0aGluZyB0byBsb29rIGZvcndhcmQgdG8gZWFjaCBhbmQgZXZlcnkgZGF5LiBUaGlzIGlzIHRoZSBmaXJzdCBwZXJzb24gSSBoYXZlIHRydWx5IGNhcmVkIGFib3V0IGFuZCBnb3R0ZW4gdGhlIHNhbWUgZmVlbGluZyBpbiByZXR1cm4uIFRoYW5rIHlvdSBHZW1tYS4NCglUaGUgdGhvdWdodCBvZiBzdWljaWRlIGhhcyBjcm9zc2VkIG15IG1pbmQgaW4gcGFzdCB5ZWFycywgYnV0IEkgZGVjaWRlZCBhIGxvbmcgdGltZSBhZ28sIHRoYXQgdGhlIGlkZWEgb2Ygc3VpY2lkZSBkb2VzbuKAmXQgaGVscCBtZTsgaXQganVzdCBodXJ0cyB0aGUgcGVvcGxlIGFyb3VuZCBtZS4gVGhlIHBlb3BsZSBJIGxvdmUgYW5kIGNhcmUgYWJvdXQsIGFuZCBtZSBhbmQgd2F5IHRvbyBtdWNoIHRvIG1lIGFuZCBpZiB0aGV5IGFyZSByZWFkaW5nIHRoaXMgSSBkb27igJl0IGhhdmUgdG8gbmFtZSB0aGVtIGJlY2F1c2UgdGhleSBrbm93IHdobyB0aGV5IGFyZSwgbXkgZnJpZW5kcy4gDQoJQWZ0ZXIgcHV0dGluZyBteSBsaWZlIHVuZGVyIHRoZSBtaWNyb3Njb3BlLCBJIGNhbWUgdXAgd2l0aCB0aGUgZmFjdCB0aGF0IEkgYW0gbm93IGEgaGFwcHkgcGVyc29uLCBsaXZpbmcgYSBncmVhdCBsaWZlLiBCZWZvcmUgSSB3YXMgc2hhbGxvdywgZ3JlZWR5IGFuZCBzZWxmaXNoLCB2ZXJ5IHNlbGZpc2guIEkgdGhvdWdodCBvZiBubyBvbmUgZWxzZSBidXQgbXlzZWxmIGFuZCBkaWQgdGhpbmdzIG9ubHkgZm9yIG15c2VsZi4gSSBhbHNvIG9ubHkgc2F3IGJlYXV0eSBmb3Igd2hhdCBpdCB3YXMgb24gdGhlIG91dHNpZGUuIEkgbmV2ZXIgbG9va2VkIHBhc3QgdGhlIGhpcHMsIGJ1dHQsIGJvb2JzLCBhbmQgbGVncywgYnV0IG5vdyBJIHNlZSBiZWF1dHkgZm9yIHdoYXQgaXQgaXMgYm90aCBpbnNpZGUgYW5kIG91dCAoZ28gYWhlYWQgbGF1Z2ggSEFIQUhBIEZVQ0sgWU9VKS4gSWYgSSBoYWRu4oCZdCBvcGVuZWQgbXkgZXllcyBJIHdvdWxkIHN0aWxsIGJlIGEgc2hhbGxvdywgZ3JlZWR5LCBzZWxmLWFic29yYmVkIGJhc3RhcmQuDQoJSSB3b3VsZCBsaWtlIHRvIG5vdCBvbmx5IHRoYW5rIGdlbW1hIGJ1dCBhbGwgb2YgbXkgZnJpZW5kcyBmb3Igd2hhdCB0aGV5IGhhdmUgZG9uZSBmb3IgbWUsIHlvdSBtYXkgbm90IHJlYWxpemUgaXQgYnV0IHlvdSBoYXZlIGFsbCBtYWRlIGEgZGlmZmVyZW5jZSBpbiBteSBsaWZlLiBUaGFuayB5b3UgYWxsLiAgICAgICAgICANCg0KT3VyIHBhdGggaXMgYSBsaXR0bGUgY2xlYXJlcg0KT3VyIHN0ZXBzIGFyZSBhIGxpdHRsZSBsaWdodGVyDQpBbmQgd2UgYXBwZWFyIGEgbGl0dGxlIHRhbGxlcg0KV2hlbiB3ZSB3YWxrIGJlc2lkZQ0KU29tZW9uZSB3ZSBsb3ZlDQoNCn5KYXZhbg=="
+"eventtime","2004-04-20 18:43:00"
+"current_moodid","107"
+"url","http://ifeeluseless.livejournal.com/4294.html"
+"userid","6744"
+"itemid","15"
+"event","Basicly how i felt over the last couple of weeks, summed up into a Sugarcult song, I LOVE YOU GEMMA! 
+
+""Memory""
+
+
+This may never start.
+We could fall apart.
+And I'd be your memory.
+Lost your sense of fear. 
+Feelings insincere.
+Can I be your memory?
+
+So get back, back, back to where we lasted.
+Just like I imagine.
+I could never feel this way.
+So get back, back, back to the disaster.
+My heart's beating faster.
+Holding on to feel the same.
+
+This may never start.
+I'll tear us apart.
+Cannot be your enemy.
+Losing half a year.
+Waiting for you here
+I'd be your anything.
+
+So get back, back, back to where we lasted.
+Just like I imagine.
+I could never feel this way.
+So get back, back, back to the disaster.
+My heart's beating faster.
+Holding on to feel the same.
+
+This may never start.
+Tearing out my heart.
+I'd be your memory.
+Lost your sense of fear.
+(I'd be your memory)
+Feelings disappear.
+Can I be your memory?
+
+So get back, back, back to where we lasted.
+Just like I imagine.
+I could never feel this way.
+So get back, back, back to the disaster.
+My heart's beating faster.
+Holding on to feel the same.
+
+This may never start.
+We could fall apart 
+and I'd be your memory.
+Lost your sense of fear.
+Feelings insincere.
+Can I be your memory?"
+"eventtime","2004-04-18 20:18:00"
+"current_moodid","44"
+"url","http://ifeeluseless.livejournal.com/3930.html"
+"userid","6744"
+"itemid","14"
+"event","If i had to describe your beauty, i couldnt because words cant describe the beauty that you hold. If the world were to end tomorrow, i'd wish tonite would never end.... im in love ......................"
+"eventtime","2004-04-11 20:43:00"
+"current_moodid","86"
+"url","http://ifeeluseless.livejournal.com/3627.html"
+"userid","6744"
+"itemid","13"
+"event","im super happy today, gemma is comming back and im soo excited. i didnt think it would be that hard to go a week without her, but i found out that it was way hard. i miss her soo much. anyway im out more rocking goin on, ill catch yall later"
+"eventtime","2004-04-07 11:14:00"
+"current_moodid","106"
+"url","http://ifeeluseless.livejournal.com/3466.html"
+"userid","6744"
+"itemid","12"
+"event","OH YEA AND I NEED TO LEAVE ON SPRING BREAK, BUT MY MOTHER IS A FUCK AND WONT LET ME GO ANYWHERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!AAAAAAAAAAAAHHHHHHHHHHHHHHH"
+"eventtime","2004-03-29 17:13:00"
+"url","http://ifeeluseless.livejournal.com/3307.html"
+"userid","6744"
+"itemid","11"
+"event","i dont want to lose her, but it looks as if i might..... i know that i FUCKED up royaly, but would give anything to take it all back. i think its gonna end because of what her journal said. i wish i hadn't come to this. i really dont know what i want, but i want to change my habits. well more later ttfn ~ Tear............."
+"eventtime","2004-03-29 17:07:00"
+"current_moodid","7"
+"url","http://ifeeluseless.livejournal.com/2943.html"
+"userid","6744"
+"itemid","10"
+"event","Do you remember... 
+
+The Fresh Prince of Bel-Air?: still watch it!!
+
+Fraggle Rock?: no 
+
+Are you afraid of the dark?: YES
+
+The Secret World of Alex Mack?: Yep 
+
+The Nightmare before Christmas?: Yep 
+
+Welcome, Freshman?: yes
+
+The Muppet Show?: Yes
+
+Muppet Babies?: Yes 
+
+Disney Babies?: no
+Eureka's Castle?: no comment
+
+Salute your shorts?: yes
+
+Hey, Dude?: yes
+
+Double Dare?: yep 
+
+Rocko's Modern Life?: still watch it!
+
+All That?: Hell Yeah
+
+Ren and Stimpy?: yep
+
+Clarissa Explains It All?: yep 
+
+The Torkelsons?: nope!
+
+Adventures of Pete and Pete?:  yeah!
+
+Goodburger?: home of the good berger can i take your order?
+
+Ahh Real Monsters?: yes
+
+Tiny Toons?: yep! 
+
+Animaniacs?: yep
+
+Baby-sitters Club, the books?:im a guy....
+
+Baby-Sitters Club, the movie?: yep 
+
+Baby-Sitters Club, the tv show?:no
+
+Pinky and the Brain?: YES YES YES
+Kablam?: i little bit
+
+Gullah Gullah Island?: Gullah Gullah!!
+
+Dunkaroos?: no
+
+Snick?: saturday night nick
+
+The Mystery Files of Shelby Woo?: my bro used to make fun of her for being chinese
+
+Nickelodeon Magazines?: PLEASE.... yes
+
+Where in the World is Carmen Sandiego (the tv show?): i thought it was a GAME show!
+
+Nick Magazine?: yes
+
+The Goonies?: HEY YOU GUYS!!!!!!!!!
+
+Adventures in Wonderland?: no
+
+Homeward Bound?: yes
+
+Neverending Story?: Yep
+
+Who Framed Roger Rabbit?: yeah
+
+Pete's Dragon?: Have it
+
+Hocus Pocus?: yep 
+
+Land Before Time?: yea
+
+Fern Gully?: yes!
+
+Dinosaurs (the TV show?): YES!
+
+The Coneheads?: yes
+
+Secret of NIMH?: ugh...
+
+Care Bears?: Yea
+
+Transformers?: oh yes!
+
+My Little Pony?: yea
+
+Rainbow Brite?: nope
+
+Lite Brite?: yeah
+
+Lady Lovely Locks?: no 
+
+Candyland?: yep
+
+Sky Dancers?: no 
+
+Jellie Sandals?: indeed
+
+Tamagotchies?: YES, still got mine somewhere 
+
+GigaPets?: YES, still got mine somewhere
+
+Saved by the Bell?: yep 
+
+American Girl?: yes
+
+The Magic Attic?: yeah
+
+Pogs?: dont start
+Choose your Own Adventures?: no
+
+Step by Step?: cant say i do
+
+TGIF on ABC?: yes
+
+Clueless (the movie) ?: yea
+
+Clueless (the novels) ?: nope
+
+Clueless (the TV series)?: sorta
+
+Boy Meets World?: watch it every night
+
+Flipper?: yep
+
+Eerie Indiana?: no
+
+Third Rock from the Sun?: Yea
+
+Ghostwriter?: nope
+
+Growing Pains?: yup 
+
+Family Ties?: yeah
+
+Home Improvement?: yea
+
+Kenan and Kel?: yup 
+
+Hanson?: yea,saw um live in 6th grade
+
+Inspector Gadget?: go gadget go ~dodododo inspector gadget!!!
+
+Teenage Mutant Ninja Turtles?: yep
+
+Hot Wheels?: yea
+
+Power Rangers (the TV show) ?: yea
+
+Power Rangers (the movie) ?: .....
+
+Creepy Crawlers?: still have them someplace
+
+Easy Bake Ovens?: yea i broke one 
+
+Flower Making kits?: nope
+
+Wild and Crazy Kids?: YES
+
+Rainbow Fish?: yes 
+
+If you give a mouse a cookie?: yes
+
+If you give a moose a muffin?: yes
+
+Any other 'If you give' books?: if you give a pig a pancake......
+
+Bailey School Kids?: no
+Wayside School?: read em all
+
+Mrs. Piggle Wiggle (the book) ?: no 
+
+Mrs. Piggle Wiggle (the tv show) ?: no 
+
+Boxcar Kids?: nope
+
+Ramona Quimby?: hell yes i know ramona!!
+
+Amber Brown?: no
+
+Roald Dahl?: BOY is the best book
+
+3-2-1 Contact?: no 
+
+Wishbone?: whats the story wish bone whats this your thinking of...
+
+Allegra's Window?: yes
+
+Tea Time Bunnies?: no 
+
+the Littlest Pet Shop?: no
+
+Pound Puppies?: got one still
+
+Trollies (the songs/tapes) ?: no 
+
+Trolls (the dolls) ?: yes 
+
+Alvin and the Chipmunks?: yes 
+
+Strawberry Shortcake?: yes 
+
+Basic 
+name: Eric
+age: 18
+grade/school: 12 mshs
+hair: brown
+eyes: brown
+zodiac sign: fuck if i know
+birthday: jan 14
+best quality: im too nice
+worst quality: i lie sometimes
+born: in fresno california 
+currant residence: MQT 
+stereotype yourself: Punk rocker
+
+Family&Home Stuff 
+do you get along with your mom: kinda
+
+do you get along with your dad: same as mom
+have any brothers?: 1
+
+have any sisters?: 0
+
+live with your parent(s): yes'm 
+
+step parents: no 
+
+like spending time with your family: rarely
+
+pets: 2 doggies...and 2 cats
+
+favorite relative: GINA and TIMMY!!!
+
+least favorite relative:hmmmmm idk....
+
+one thing you'd say to your mom/dad/parents: FUCK OFF!
+
+who in your family do you trust: Gina
+
+Friends 
+bestfriend: Jason 
+close friend: Troy
+craziest: Steve
+shyest: logan 
+quietest: helen 
+tallest: brooke
+shortest: gemma ( sorry!)
+most-likely to end up in jail: Steve or myself
+most morals: brooke
+weirdest: alex
+sexiest: steve
+not-so-sexiest: Me
+one you respect: All
+one you could marry: gemma
+ever kissed a friend: no
+ever had sex with a friend: no 
+
+Drugs&Parties 
+smoke cigarettes: yupp
+alcohol: i plead the 5th
+go to many parties: so so
+perfer parties over chillen at a friends: or chillin w/ freinds while drinking and music playing!!
+
+ever had a party: im hatching a plan
+
+last party you went to: saturday
+
+Sex&Relationships 
+boyfriend:no but i have a girlfriend
+longest relationship: 11 months of hell
+shortest relationship: 2 days
+virign: .......
+ever been in love: once...... and i might be again but im not sure
+craziest thing ever done for love: jumped off a 4o foot cliff into water
+oldest person dated: 18
+youngest person dated: 14
+
+Favorites 
+band(s)(name atleast 5): Thrice, sum 41, alkaline trio, The minor league, Alucard
+person: GINA
+color: Blue/black
+food: pizza
+drink: Dr. Pepper
+movie: i am sam
+book: Heavier than heaven
+place to be: on the stage
+brand of shoes: skate shoes, currentsly DC's
+era: 80's snd now"
+"eventtime","2004-03-29 11:53:00"
+"current_moodid","68"
+"url","http://ifeeluseless.livejournal.com/2723.html"
+"userid","6744"
+"itemid","8"
+"event","Fuck this all, i wish i hadent fucked up cuz i just wanna go to my bed w/ gemma and lie around and talk........... im gonna go be by myself cuz i dont care and feel lost, alone and all that shit....."
+"eventtime","2004-03-28 13:20:00"
+"current_moodid","9"
+"url","http://ifeeluseless.livejournal.com/2215.html"
+"userid","6744"
+"itemid","6"
+"event","There once was a great fearless leadr named Kudo Mojoho. His father, the king and ruler of Liliphunto was sick and on his death bed. Liliphunto was a moderate sized kingdom, and very wealthy. The markets were some of the best in the land and people traveled from afar just to come and get their food. 
+      When Kudo's father died he was entitled to everything. He tought this was a quite larg resposibility. He sat in what was once his fathers chair and took on the task of being the king of the wealthiest kingdoms in the land. To be continued......."
+"eventtime","2004-03-22 12:34:00"
+"url","http://ifeeluseless.livejournal.com/1589.html"
+"userid","6744"
+"itemid","7"
+"event","I wish i hadent fucked up so bad. then i would be happy and so would the others involved. i wish i could fix it like you can fix a bike, just find that broken heart, take it out and replace it with a new one. if only it were that easy. My heart is broken and will not fly. I wish things hadn't changed. oh how i wish........"
+"eventtime","2004-03-22 01:29:00"
+"current_moodid","43"
+"url","http://ifeeluseless.livejournal.com/1969.html"
+"userid","6744"
+"itemid","5"
+"event","I was looking through my shit while cleaning and i came across this letter that i wrote on the 2nd of february 2003. It was a letter to my wx girlfriend Chelsea, whom was the first love of my life. This brought me to tears, because since her, i have not had a relationship that i didnt FUCK UP! Here's the letter that brought me to tears.
+
+     Dear Chelsea,
+            I'm sorry for not calling you, but time has passed us by, and i have thought things through. Knowing these things, i am still in love with you.
+I am sorry for not writing you but i have been confused. i will always love you and i have been true. For now lets keep it friends and cherish what we have, and maybe in the future we will once again walk the snowy beaches, Taste that tender kiss and think of what we miss. So till then it will seem like forever, but the wait will be worth it.
+
+               ~Eric       
+
+~Coz i am the man who will fight for your honor. ill be the hero that you're dreaming of... gonna live forever knowing together that we did it all for the glory of love.......
+
+     I just wish i knew when the wait will end. I'm lost and i need to learn to love someone right and respect others feelings.... well more later when i find more writings"
+"eventtime","2004-03-21 17:09:00"
+"current_moodid","22"
+"url","http://ifeeluseless.livejournal.com/1523.html"
+"userid","6744"
+"itemid","4"
+"event","Ill be blunt, i am pissed! im like out of it and have been thinking about a lot of things, most not important but relevant to my current status in life..... i dont really know where i want to go in my life. so ill just end this entrie. ill se you all later"
+"eventtime","2004-03-20 22:05:00"
+"current_moodid","127"
+"url","http://ifeeluseless.livejournal.com/1084.html"
+"userid","6744"
+"itemid","3"
+"event","Slice open my arms and cut out my heart since now i cannot hold, or love you. Release me from this masque of lies and fake smiles. After tonite, this mask is forever useless, and only a way to hide from the world. When will we finaly move on, not end up like them. Whether it is a preist, or your own fucking silence, my confession to god is as good as his. I have hidden things from myself for far to long, and i will now admit that i was wrong."
+"eventtime","2004-03-20 13:14:00"
+"current_moodid","56"
+"url","http://ifeeluseless.livejournal.com/901.html"
+"userid","6744"
+"itemid","2"
+"event","Recently I've been comming across the fact that I dont know who I am anymore. I have really let myself go, done things the real Eric wouldn't have and passed up things i wish i had done. Many of which i wish i could undo. The following are some of them...
+
+""I wish I had'nt/was'nt""
+Didn't smoke
+overweight
+weak
+caused pain
+broken hearts
+broken peoples trust in me
+made so many mistakes
+
+""I wish I had/would have""
+Tried harder
+learned my lessons
+taken my time
+been faithfull in life
+cared more
+
+There are a lot more things i wish i did or did not do. These are some of the major ones. I want to change things, but i have dug myself a hole so deep that i can bairly see the light of day, and my only chance to get out is to dig deeper to find out who i really am, then slowly dig my way back to the surface. Then maybe my life will make sense and i will be usefull again."
+"eventtime","2004-03-17 20:12:00"
+"current_moodid","7"
+"url","http://ifeeluseless.livejournal.com/610.html"
+"userid","6744"
+"itemid","1"
+"event","Recently there has been a lot going through my mind, and a lot going on in the world around me. I fucked up and i know it, i just wish everything would sum up. I also wish i understood myself. I have done a lot that i wish i hadent later. My life is surrounded by regret and what if. i need to get through all of this. i need someone here....."
+"eventtime","2004-03-16 20:09:00"
+"url","http://ifeeluseless.livejournal.com/505.html"
+"userid","6744"

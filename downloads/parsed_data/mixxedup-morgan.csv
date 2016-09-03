@@ -1,0 +1,680 @@
+"names","values"
+"itemid","165"
+"event","aG1tbS4uLnRvZGF5IGltIHN0YXlpbmcgaG9tZSBzbyBpJ20gZ29ubmEgZG8gdGhlc2UgbGlsIHdpZXJkIHRoaW5nZ3lzICEhISENCg0KPHRhYmxlIHN0eWxlPSJmb250LWZhbWlseTogc2Fucy1zZXJpZjsgY29sb3I6IGJsYWNrOyBmb250LXNpemU6IDExcHQ7IiB3aWR0aD0iMzUwIiBhbGlnbj1jZW50ZXIgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iOCIgY2VsbHBhZGRpbmc9IjUiPjx0cj48dGQgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0IxRjk4OSI+PGgzIHN0eWxlPSJtYXJnaW46IDA7IGJvcmRlcjogMDsiPlRoZSBUcnVlIFlvdTwvaDM+PC90ZD48L3RyPjx0cj48dGQgYmdjb2xvcj0iI0FCRjc5NSI+WW91IHdhbnQgeW91ciBnaXJsZnJpZW5kIG9yIGJveWZyaWVuZCB0byBiZSBtb3JlIHJlbGF4ZWQsIGNhbG0sIGFuZCBjb21wb3NlZC48L3RkPjwvdHI+PHRyPjx0ZCBiZ2NvbG9yPSIjQTVGNEEwIj5XaXRoIHJlc3BlY3QgdG8gbW9uZXksIHlvdSBzcGVuZCB3aGF0ZXZlciB5b3UgaGF2ZS48L3RkPjwvdHI+PHRyPjx0ZCBiZ2NvbG9yPSIjOUZGMkFDIj5Zb3UgdGhpbmsgZ29vZCBsdWNrIG1pZ2h0IGNvbWUgeW91ciB3YXksIGJ1dCBpZiBpdCBkb2VzIHlvdSdsbCBiZSBzbyBzdXJwcmlzZWQgeW91J2xsIGJ1cnN0IG91dCBsYXVnaGluZy48L3RkPjwvdHI+PHRyPjx0ZCBiZ2NvbG9yPSIjOThFRkI3Ij5UaGUgaGlkZGVuIHNpZGUgb2YgeW91ciBwZXJzb25hbGl0eSB0ZW5kcyB0byBiZSBzYXRpc2ZpZWQgdG8gY2FyZSBmb3IgdGhpbmdzIHdpdGggYSBtaW5pbWFsIGFtb3VudCBvZiBlZmZvcnQuPC90ZD48L3RyPjx0cj48dGQgYmdjb2xvcj0iIzkyRURDMyI+WW91IGFyZSB0ZW5kIHRvIHRoaW5rIGFib3V0IG90aGVycycgZmVlbGluZ3MgYSBsb3QsIHBlcmhhcHMgYmVjYXVzZSB5b3UgYXJlIHNvIGVhZ2VyIHRvIGJlIGxpa2VkLjwvdGQ+PC90cj48dHI+PHRkIGJnY29sb3I9IiM4Q0VBQ0UiPldoZW4gaXQgY29tZXMgdG8gZmluZGluZyBhIHJvbWFudGljIHBhcnRuZXIsIHlvdSB3aWxsIHNlYXJjaCBhbmQgc2VhcmNoIHVudGlsIHlvdSBmaW5kIHlvdXIgcGVyZmVjdCBtYXRjaC48L3RkPjwvdHI+PC90YWJsZT4NCjxkaXYgYWxpZ249ImNlbnRlciI+PGEgaHJlZj0iV2hvJ3MiPmh0dHA6Ly93d3cuYmxvZ3RoaW5ncy5jb20vd2hvc3RoZXRydWV5b3VxdWl6LyI+V2hvJ3MgdGhlIFRydWUgWW91PzwvYT48L2Rpdj4NCg0KPHRhYmxlIHdpZHRoPTQwMCBhbGlnbj1jZW50ZXIgYm9yZGVyPTEgYm9yZGVyY29sb3I9YmxhY2sgY2VsbHNwYWNpbmc9MCBjZWxscGFkZGluZz0yPg0KPHRyPjx0ZCBiZ2NvbG9yPSM2NkNDRkYgYWxpZ249Y2VudGVyPg0KPGZvbnQgZmFjZT0iR2VvcmdpYSwgVGltZXMgTmV3IFJvbWFuLCBUaW1lcywgc2VyaWYiIHN0eWxlPSdjb2xvcjpibGFjazsgZm9udC1zaXplOiAxNHB0Oyc+DQo8Yj5Zb3UgQXJlIGEgRGFyZSBEZXZpbDwvYj48L2ZvbnQ+PC90ZD48L3RyPg0KPHRyPjx0ZCBiZ2NvbG9yPSNGRkZGRkY+DQoNCjxjZW50ZXI+DQo8aW1nIHNyYz1odHRwOi8vd3d3LnF1aXpkaXZhLm5ldC9idC9kYXJlLWRldmlsLmpwZz4NCjwvY2VudGVyPg0KDQo8Zm9udCBjb2xvcj0iIzAwMDAwMCI+DQoNCg0KRm9yIHlvdSwgbGlmZSBpcyBvbmUgYmlnIGRhcmUuDQoNCkFuZCB5b3UncmUgYWxsIGluIGZvciBhbnkgYWR2ZW50dXJlLg0KDQpPdGhlcnMgZmluZCB5b3UgZXhjaXRpbmcsIGluc3BpcmluZywgYW5kIGEgYml0IGludGltaWRhdGluZy4NCg0KWW91J3JlIGJpZ2dlc3QgY2hhbGxlbmdlIGF0IHRoaXMgcG9pbnQgaXMgdHJ5aW5nIHRvIHRvcCB5b3Vyc2VsZiEgPC9mb250PjwvdGQ+PC90cj48L3RhYmxlPg0KDQo8ZGl2IGFsaWduPSJjZW50ZXIiPg0KPGEgaHJlZj0iaHR0cDovL3d3dy5ibG9ndGhpbmdzLmNvbS9ob3dkYXJpbmdhcmV5b3VxdWl6LyI+SG93IERhcmluZyBBcmUgWW91PzwvYT4NCjwvZGl2Pg0KDQoNCjx0YWJsZSB3aWR0aD00MDAgYWxpZ249Y2VudGVyIGJvcmRlcj0xIGJvcmRlcmNvbG9yPWJsYWNrIGNlbGxzcGFjaW5nPTAgY2VsbHBhZGRpbmc9Mj4NCjx0cj48dGQgYmdjb2xvcj0jNjZDQ0ZGIGFsaWduPWNlbnRlcj4NCjxmb250IGZhY2U9Ikdlb3JnaWEsIFRpbWVzIE5ldyBSb21hbiwgVGltZXMsIHNlcmlmIiBzdHlsZT0nY29sb3I6YmxhY2s7IGZvbnQtc2l6ZTogMTRwdDsnPg0KPGI+WW91IEFyZSAzMCUgTm9ybWFsDQoNCjxlbT4oT2NjYXNpb25hbGx5IE5vcm1hbCk8L2VtPg0KPC9iPjwvZm9udD48L3RkPjwvdHI+DQo8dHI+PHRkIGJnY29sb3I9I0ZGRkZGRj4NCg0KPGNlbnRlcj4NCjxpbWcgc3JjPWh0dHA6Ly93d3cucXVpemRpdmEubmV0L2J0L29jY2FzaW9uYWxseS1ub3JtYWwuanBnPg0KPC9jZW50ZXI+DQoNCjxmb250IGNvbG9yPSIjMDAwMDAwIj4NCg0KDQpZb3Ugc3VyZSBkbyBtYXJjaCB0byB5b3VyIG93biBiZWF0Li4uDQoNCkJ1dCB5b3UncmUgc28gd2VpcmQsIHBlb3BsZSB3b25kZXIgaWYgaXQncyBhIGJlYXQgYXQgYWxsDQoNCllvdSB0aGluayBvbiBhIHRvdGFsbHkgZGlmZmVyZW50IHdhdmVsZW5ndGgNCg0KQW5kIGl0J3Mgb2Z0ZW4gYSBjaG9yZSB0byBnZXQgcGVvcGxlIHRvIHVuZGVyc3RhbmQgeW91PC9mb250PjwvdGQ+PC90cj48L3RhYmxlPg0KDQo8ZGl2IGFsaWduPSJjZW50ZXIiPg0KPGEgaHJlZj0iaHR0cDovL3d3dy5ibG9ndGhpbmdzLmNvbS9ob3dub3JtYWxhcmV5b3VxdWl6LyI+SG93IE5vcm1hbCBBcmUgWW91PzwvYT4NCjwvZGl2Pg0KDQo8dGFibGUgd2lkdGg9NDAwIGFsaWduPWNlbnRlciBib3JkZXI9MSBib3JkZXJjb2xvcj1ibGFjayBjZWxsc3BhY2luZz0wIGNlbGxwYWRkaW5nPTI+DQo8dHI+PHRkIGJnY29sb3I9IzY2Q0NGRiBhbGlnbj1jZW50ZXI+DQo8Zm9udCBmYWNlPSJHZW9yZ2lhLCBUaW1lcyBOZXcgUm9tYW4sIFRpbWVzLCBzZXJpZiIgc3R5bGU9J2NvbG9yOmJsYWNrOyBmb250LXNpemU6IDE0cHQ7Jz4NCjxiPllvdSBBcmUgOCBZZWFycyBPbGQ8L2I+PC9mb250PjwvdGQ+PC90cj4NCjx0cj48dGQgYWxpZ249Y2VudGVyIGJnY29sb3I9I0ZGRkZGRj4NCjxjZW50ZXI+DQogIDxmb250IGNvbG9yPSIjMDAwMENDIiBzaXplPSIrNiI+DQogIDggIDwvZm9udD4NCg0KPC9jZW50ZXI+DQoNCjxmb250IGNvbG9yPSIjMDAwMDAwIj4NClVuZGVyIDEyOiBZb3UgYXJlIGEga2lkIGF0IGhlYXJ0LiBZb3Ugc3RpbGwgaGF2ZSBhbiBvcHRpbWlzdGljIGxpZmUgdmlldyAtIGFuZCB5b3UgbG9vayBhdCB0aGUgd29ybGQgd2l0aCBhd2UuDQoNCjEzLTE5OiBZb3UgYXJlIGEgdGVlbmFnZXIgYXQgaGVhcnQuIFlvdSBxdWVzdGlvbiBhdXRob3JpdHkgYW5kIGFyZSBzdGlsbCB0cnlpbmcgdG8gZmluZCB5b3VyIHBsYWNlIGluIHRoaXMgd29ybGQuDQoNCjIwLTI5OiBZb3UgYXJlIGEgdHdlbnR5c29tZXRoaW5nIGF0IGhlYXJ0LiBZb3UgZmVlbCBleGNpdGVkIGFib3V0IHdoYXQncyB0byBjb21lLi4uIGxvdmUsIHdvcmssIGFuZCBuZXcgZXhwZXJpZW5jZXMuDQoNCjMwLTM5OiBZb3UgYXJlIGEgdGhpcnR5c29tZXRoaW5nIGF0IGhlYXJ0LiBZb3UndmUgaGFkIGEgdGFzdGUgb2Ygc3VjY2VzcyBhbmQgdHJ1ZSBsb3ZlLCBidXQgeW91IHdhbnQgbW9yZSENCg0KNDArOiBZb3UgYXJlIGEgbWF0dXJlIGFkdWx0LiBZb3UndmUgYmVlbiB0aHJvdWdoIG1vc3Qgb2YgdGhlIHVwcyBhbmQgZG93bnMgb2YgbGlmZSBhbHJlYWR5LiBOb3cgeW91IGdldCB0byBzaXQgYmFjayBhbmQgcmVsYXguDQo8L2ZvbnQ+PC90ZD48L3RyPjwvdGFibGU+DQoNCjxkaXYgYWxpZ249ImNlbnRlciI+DQo8YSBocmVmPSJodHRwOi8vd3d3LmJsb2d0aGluZ3MuY29tL3doYXRhZ2VxdWl6LyI+V2hhdCBBZ2UgRG8gWW91IEFjdD88L2E+DQo8L2Rpdj4NCl5eXl5ed293IGkgYWN0IDggdGhhdHMga2luZGEgc2FkIA0KDQo8dGFibGUgd2lkdGg9NDAwIGFsaWduPWNlbnRlciBib3JkZXI9MSBib3JkZXJjb2xvcj1ibGFjayBjZWxsc3BhY2luZz0wIGNlbGxwYWRkaW5nPTI+DQo8dHI+PHRkIGJnY29sb3I9IzAwQ0NGRiBhbGlnbj1jZW50ZXI+DQo8Zm9udCBmYWNlPSJHZW9yZ2lhLCBUaW1lcyBOZXcgUm9tYW4sIFRpbWVzLCBzZXJpZiIgc3R5bGU9J2NvbG9yOmJsYWNrOyBmb250LXNpemU6IDE0cHQ7Jz4NCjxiPllvdXIgTWV4aWNhbiBOYW1lIElzLi4uPC9iPjwvZm9udD48L3RkPjwvdHI+DQo8dHI+PHRkIGJnY29sb3I9I0ZGRkZGRj4NCg0KPGNlbnRlcj4NCg0KPGltZyBzcmM9Imh0dHA6Ly93d3cucXVpemRpdmEubmV0L21leGljYW5uYW1lL2dpcmwuanBnIj4NCjwvY2VudGVyPg0KDQo8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPg0KDQo8Y2VudGVyPjxiPkRvw7FhIEF1cmE8L2I+PC9jZW50ZXI+DQo8L2ZvbnQ+PC90ZD48L3RyPjwvdGFibGU+DQoNCjxkaXYgYWxpZ249ImNlbnRlciI+DQo8YSBocmVmPSJXaGF0J3MiPmh0dHA6Ly93d3cuYmxvZ3RoaW5ncy5jb20vbWV4aWNhbm5hbWVnZW5lcmF0b3IvIj5XaGF0J3MgeW91ciBNZXhpY2FuIE5hbWU/PC9hPg0KPC9kaXY+DQoNCg0KPGNlbnRlcj4NCg0KPHRhYmxlIGJvcmRlcj0wIGNlbGxwYWRkaW5nPTQgYmdjb2xvcj0iIzAwMDAwMCI+DQoNCjx0cj4NCg0KPHRoIGNvbHNwYW49IjMiIGJnY29sb3I9IiNCQkZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPk1PUkdBTkxJTExJRUJST1dOPC9mb250PiA8L3RoPg0KDQo8L3RyPg0KDQo8dHI+DQoNCjx0ZCBiZ2NvbG9yPSIjQ0NGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5NPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0RERkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+aXMgZm9yPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0VFRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+TWFnbmlmaWNlbnQ8L2ZvbnQ+IDwvdGQ+DQoNCjwvdHI+DQoNCjx0cj4NCg0KPHRkIGJnY29sb3I9IiNDQ0ZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPk88L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRERGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5pcyBmb3I8L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRUVGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5PbGQ8L2ZvbnQ+IDwvdGQ+DQoNCjwvdHI+DQoNCjx0cj4NCg0KPHRkIGJnY29sb3I9IiNDQ0ZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPlI8L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRERGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5pcyBmb3I8L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRUVGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5SYWRpY2FsPC9mb250PiA8L3RkPg0KDQo8L3RyPg0KDQo8dHI+DQoNCjx0ZCBiZ2NvbG9yPSIjQ0NGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5HPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0RERkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+aXMgZm9yPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0VFRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+R2VudGxlPC9mb250PiA8L3RkPg0KDQo8L3RyPg0KDQo8dHI+DQoNCjx0ZCBiZ2NvbG9yPSIjQ0NGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5BPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0RERkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+aXMgZm9yPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0VFRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+QWN0aXZlPC9mb250PiA8L3RkPg0KDQo8L3RyPg0KDQo8dHI+DQoNCjx0ZCBiZ2NvbG9yPSIjQ0NGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5OPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0RERkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+aXMgZm9yPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0VFRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+TmF0dXJhbDwvZm9udD4gPC90ZD4NCg0KPC90cj4NCg0KPHRyPg0KDQo8dGQgYmdjb2xvcj0iI0NDRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+TDwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNEREZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPmlzIGZvcjwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNFRUZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPkx1eHVyaW91czwvZm9udD4gPC90ZD4NCg0KPC90cj4NCg0KPHRyPg0KDQo8dGQgYmdjb2xvcj0iI0NDRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+STwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNEREZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPmlzIGZvcjwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNFRUZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPkludGVuc2U8L2ZvbnQ+IDwvdGQ+DQoNCjwvdHI+DQoNCjx0cj4NCg0KPHRkIGJnY29sb3I9IiNDQ0ZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPkw8L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRERGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5pcyBmb3I8L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRUVGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5Mb3ZhYmxlPC9mb250PiA8L3RkPg0KDQo8L3RyPg0KDQo8dHI+DQoNCjx0ZCBiZ2NvbG9yPSIjQ0NGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5MPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0RERkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+aXMgZm9yPC9mb250PiA8L3RkPg0KDQo8dGQgYmdjb2xvcj0iI0VFRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+THVja3k8L2ZvbnQ+IDwvdGQ+DQoNCjwvdHI+DQoNCjx0cj4NCg0KPHRkIGJnY29sb3I9IiNDQ0ZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPkk8L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRERGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5pcyBmb3I8L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRUVGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5Jbm5vY2VudDwvZm9udD4gPC90ZD4NCg0KPC90cj4NCg0KPHRyPg0KDQo8dGQgYmdjb2xvcj0iI0NDRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+RTwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNEREZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPmlzIGZvcjwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNFRUZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPkVhcnRoeTwvZm9udD4gPC90ZD4NCg0KPC90cj4NCg0KPHRyPg0KDQo8dGQgYmdjb2xvcj0iI0NDRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+QjwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNEREZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPmlzIGZvcjwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNFRUZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPkJyYWlueTwvZm9udD4gPC90ZD4NCg0KPC90cj4NCg0KPHRyPg0KDQo8dGQgYmdjb2xvcj0iI0NDRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+UjwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNEREZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPmlzIGZvcjwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNFRUZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPlJhZGljYWw8L2ZvbnQ+IDwvdGQ+DQoNCjwvdHI+DQoNCjx0cj4NCg0KPHRkIGJnY29sb3I9IiNDQ0ZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPk88L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRERGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5pcyBmb3I8L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRUVGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5PdXRnb2luZzwvZm9udD4gPC90ZD4NCg0KPC90cj4NCg0KPHRyPg0KDQo8dGQgYmdjb2xvcj0iI0NDRkZGRiI+IDxmb250IGNvbG9yPSIjMDAwMDAwIiBzaXplPSIrMSI+VzwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNEREZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPmlzIGZvcjwvZm9udD4gPC90ZD4NCg0KPHRkIGJnY29sb3I9IiNFRUZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPldhcm08L2ZvbnQ+IDwvdGQ+DQoNCjwvdHI+DQoNCjx0cj4NCg0KPHRkIGJnY29sb3I9IiNDQ0ZGRkYiPiA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iKzEiPk48L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRERGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5pcyBmb3I8L2ZvbnQ+IDwvdGQ+DQoNCjx0ZCBiZ2NvbG9yPSIjRUVGRkZGIj4gPGZvbnQgY29sb3I9IiMwMDAwMDAiIHNpemU9IisxIj5OdXR0eTwvZm9udD4gPC90ZD4NCg0KPC90cj4NCg0KPC90YWJsZT4NCjwvY2VudGVyPg0KPGRpdiBhbGlnbj0iY2VudGVyIj4NCjxhIGhyZWY9Imh0dHA6Ly9ibG9ndGhpbmdzLmNvbS9hY3JvL2Fjcm9ueW1xdWl6LnBocCI+DQpXaGF0IERvZXMgWW91ciBOYW1lIE1lYW4/PC9hPg0KPC9kaXY+DQoNCg0KPHRhYmxlIHdpZHRoPTQwMCBhbGlnbj1jZW50ZXIgYm9yZGVyPTEgYm9yZGVyY29sb3I9YmxhY2sgY2VsbHNwYWNpbmc9MCBjZWxscGFkZGluZz0yPg0KPHRyPjx0ZCBiZ2NvbG9yPSM2NkNDRkYgYWxpZ249Y2VudGVyPg0KPGZvbnQgZmFjZT0iR2VvcmdpYSwgVGltZXMgTmV3IFJvbWFuLCBUaW1lcywgc2VyaWYiIHN0eWxlPSdjb2xvcjpibGFjazsgZm9udC1zaXplOiAxNHB0Oyc+DQo8Yj5XaGF0IFlvdXIgRHJlYW1zIE1lYW4uLi48L2I+PC9mb250PjwvdGQ+PC90cj4NCjx0cj48dGQgYmdjb2xvcj0jRkZGRkZGPg0KPGNlbnRlcj4NCjxpbWcgc3JjPSJodHRwOi8vd3d3LnF1aXpkaXZhLm5ldC9kcmVhbXMvb2theS5qcGciPg0KPC9jZW50ZXI+DQo8Zm9udCBjb2xvcj0iIzAwMDAwMCI+DQoNCllvdXIgZHJlYW1zIHNlZW0gdG8gc2hvdyB0aGF0IHlvdSdyZSBhIGJpdCBkaXN0dXJiZWQuLi4gYnV0IG5vdGhpbmcgc2VyaW91cy4NCg0KWW91IG1heSBoYXZlIGEgcHJvYmxlbSB5b3UncmUgdHJ5aW5nIHRvIHdvcmsgb3V0IGluIHlvdXIgc2xlZXAuDQoNCk92ZXJhbGwsIHlvdSBhcmUgdmVyeSBjb250ZW50IGluIHlvdXIgbGlmZS4NCg0KWW91ciBkcmVhbXMgdGVuZCB0byByZWZsZWN0IHlvdXIgaW5zZWN1cml0aWVzLg0KDQpZb3UgaGF2ZSBhIHZlcnkgdml2aWQgaW1hZ2luYXRpb24gYW5kIGEgcmljaCBjcmVhdGl2ZSBtaW5kLg0KDQo8L2ZvbnQ+PC90ZD48L3RyPjwvdGFibGU+DQoNCjxkaXYgYWxpZ249ImNlbnRlciI+DQo8YSBocmVmPSJodHRwOi8vd3d3LmJsb2d0aGluZ3MuY29tL3doYXRkb3lvdXJkcmVhbXNtZWFucXVpei8iPldoYXQgRG8gWW91ciBEcmVhbXMgTWVhbj88L2E+DQo8L2Rpdj4NCg0KDQo8dGFibGUgd2lkdGg9NDAwIGFsaWduPWNlbnRlciBib3JkZXI9MSBib3JkZXJjb2xvcj1ibGFjayBjZWxsc3BhY2luZz0wIGNlbGxwYWRkaW5nPTI+DQo8dHI+PHRkIGJnY29sb3I9IzY2Q0NGRiBhbGlnbj1jZW50ZXI+DQo8Zm9udCBmYWNlPSJHZW9yZ2lhLCBUaW1lcyBOZXcgUm9tYW4sIFRpbWVzLCBzZXJpZiIgc3R5bGU9J2NvbG9yOmJsYWNrOyBmb250LXNpemU6IDE0cHQ7Jz4NCjxiPllvdSBBcmUgU29tZXdoYXQgSG9uZXN0PC9iPjwvZm9udD48L3RkPjwvdHI+DQo8dHI+PHRkIGJnY29sb3I9I0ZGRkZGRj4NCg0KPGZvbnQgY29sb3I9IiMwMDAwMDAiPg0KDQoNCllvdSBkbyB0ZW5kIHRvIHRlbGwgdGhlIHRydXRoIGEgbG90DQoNCkJ1dCB5b3UgYWxzbyBzdHJldGNoIHRoZSB0cnV0aCBvbiBvY2Nhc2lvbg0KDQpZb3UgZmlndXJlIGEgbGl0dGxlIGxpZSBpc24ndCBhIGJpZyBkZWFsDQoNCkFzIGxvbmcgYXMgaXQgZG9lc24ndCBodXJ0IGFueW9uZSB0b28gbXVjaCE8L2ZvbnQ+PC90ZD48L3RyPjwvdGFibGU+DQoNCjxkaXYgYWxpZ249ImNlbnRlciI+DQo8YSBocmVmPSJodHRwOi8vd3d3LmJsb2d0aGluZ3MuY29tL2hvd2hvbmVzdGFyZXlvdXF1aXovIj5Ib3cgSG9uZXN0IEFyZSBZb3U/PC9hPg0KPC9kaXY+DQoNCg0KPHRhYmxlIHdpZHRoPTQwMCBhbGlnbj1jZW50ZXIgYm9yZGVyPTEgYm9yZGVyY29sb3I9YmxhY2sgY2VsbHNwYWNpbmc9MCBjZWxscGFkZGluZz0yPg0KPHRyPjx0ZCBiZ2NvbG9yPSM2NkNDRkYgYWxpZ249Y2VudGVyPg0KPGZvbnQgZmFjZT0iR2VvcmdpYSwgVGltZXMgTmV3IFJvbWFuLCBUaW1lcywgc2VyaWYiIHN0eWxlPSdjb2xvcjpibGFjazsgZm9udC1zaXplOiAxNHB0Oyc+DQo8Yj5Zb3UgQXJlIEluIGEgRmFudGFzdGljIE1vb2Q8L2I+PC9mb250PjwvdGQ+PC90cj4NCjx0cj48dGQgYmdjb2xvcj0jRkZGRkZGPg0KDQo8Y2VudGVyPg0KPGltZyBzcmM9aHR0cDovL3d3dy5xdWl6ZGl2YS5uZXQvYnQvZmFudGFzdGljLmdpZj4NCjwvY2VudGVyPg0KDQo8Zm9udCBjb2xvcj0iIzAwMDAwMCI+DQpZb3UncmUgY29uZmlkZW50LCBmb2N1c2VkLCBhbmQgb24gdG9wIG9mIHlvdXIgZ2FtZS4NCg0KUGVvcGxlIGFyZSBhdHRyYWN0ZWQgdG8geW91ciBlbmVyZ3kgcmlnaHQgbm93Lg0KDQpUaGlzIGlzIHRoZSB0aW1lIHRvIGdvIGZvciBpdCAtIHlvdSdyZSBsaWtlbHkgdG8gZ2V0IHdoYXQgeW91IHdhbnQhPC9mb250PjwvdGQ+PC90cj48L3RhYmxlPg0KDQo8ZGl2IGFsaWduPSJjZW50ZXIiPg0KPGEgaHJlZj0iaHR0cDovL3d3dy5ibG9ndGhpbmdzLmNvbS93aGF0bW9vZGFyZXlvdWlucXVpei8iPldoYXQgTW9vZCBBcmUgWW91IEluPzwvYT4NCjwvZGl2Pg0KDQoNCjx0YWJsZSB3aWR0aD00MDAgYWxpZ249Y2VudGVyIGJvcmRlcj0xIGJvcmRlcmNvbG9yPWJsYWNrIGNlbGxzcGFjaW5nPTAgY2VsbHBhZGRpbmc9Mj4NCjx0cj48dGQgYmdjb2xvcj0jNjZDQ0ZGIGFsaWduPWNlbnRlcj4NCjxmb250IGZhY2U9Ikdlb3JnaWEsIFRpbWVzIE5ldyBSb21hbiwgVGltZXMsIHNlcmlmIiBzdHlsZT0nY29sb3I6YmxhY2s7IGZvbnQtc2l6ZTogMTRwdDsnPg0KPGI+WW91IEFyZSBGcm9tIHRoZSBTdW48L2I+PC9mb250PjwvdGQ+PC90cj4NCjx0cj48dGQgYWxpZ249Y2VudGVyIGJnY29sb3I9I0ZGRkZGRj4NCjxpbWcgc3JjPSJodHRwOi8vd3d3LnF1aXpkaXZhLm5ldC9idC9zdW4uanBnIj48YnIgLz4NCjxmb250IGNvbG9yPSIjMDAwMDAwIj5PZiBhbGwgeW91ciBmcmllbmRzLCB5b3UncmUgdGhlIHNoaW5pbmcgc3Rhci4NCllvdSdyZSBkcmFtYXRpYyAtIGxvdmluZyBhdHRlbnRpb24gYW5kIHRoZSBzcG90bGlnaHQuDQpZb3UncmUgYSB0b3RhbGx5IGVudGVydGFpbmVyIGFuZCB0aGUgbGlmZSBvZiB0aGUgcGFydHkuDQpXYXRjaCBvdXQhIFRoZSBTdW4gY2FuIGJlIHN0dWJib3JuLCBkZW1hbmRpbmcsIGFuZCBmbGlydHkuDQpPdmVyYWxsLCB5b3UncmUgYSBncmVhdCBsZWFkZXIgYW5kIGdyZWF0IGZyaWVuZC4gVGhlIHZlcnkgYmVzdCE8L2ZvbnQ+DQo8L3RkPjwvdHI+PC90YWJsZT4NCjxkaXYgYWxpZ249ImNlbnRlciI+DQo8YSBocmVmPSJodHRwOi8vd3d3LmJsb2d0aGluZ3MuY29tL3BsYW5ldHF1aXouaHRtbCI+V2hhdCBQbGFuZXQgQXJlIFlvdSBGcm9tPzwvYT4NCjwvZGl2Pg0KDQoNCg0KYWxyaWdodCB0aGF0cyBlbm91Z2ggZm9yIG5vdyANCiAgICAgICAgIGVoIGltIHJlYWxsbGxsbGxseSB0aXJlZCBhbmQgYWNoZXkgYW5kIGkgZG9udCBmZWVsIGxpa2UgbW92aW5nLi4uLi5pbSBnb25uYSB0cnkgdG8gZ2V0IHVwIHRob3VnaC4uLk9XV1c="
+"eventtime","2005-06-06 12:41:00"
+"url","http://mixxedup-morgan.livejournal.com/42310.html"
+"userid","10226"
+"itemid","164"
+"event","i'm switching to <b> xanga</b>"
+"eventtime","2005-05-27 11:00:00"
+"url","http://mixxedup-morgan.livejournal.com/42105.html"
+"userid","10226"
+"itemid","163"
+"event","well...
+   a few of my friends
+   are official loosers >=O
+ godd!
+
+
+Life Is Messed Up"
+"eventtime","2005-03-30 16:51:00"
+"current_moodid","24"
+"url","http://mixxedup-morgan.livejournal.com/41939.html"
+"userid","10226"
+"itemid","162"
+"event","this update is for RACHEL HASTINGS cuz she told me to update!"
+"eventtime","2005-03-28 15:48:00"
+"url","http://mixxedup-morgan.livejournal.com/41629.html"
+"userid","10226"
+"itemid","161"
+"event","<table width=400 align=center border=1 bordercolor=black cellspacing=0 cellpadding=2>
+<tr><td bgcolor=#66CCFF align=center>
+<font face=""Georgia, Times New Roman, Times, serif"" style='color:black; font-size: 14pt;'>
+<b>You Are 30% Normal
+
+<em>(Occasionally Normal)</em>
+</b></font></td></tr>
+<tr><td bgcolor=#FFFFFF>
+
+<center>
+<img src=http://www.quizdiva.net/bt/occasionally-normal.jpg>
+</center>
+
+<font color=""#000000"">
+
+
+You sure do march to your own beat...
+
+But you're so weird, people wonder if it's a beat at all
+
+You think on a totally different wavelength
+
+And it's often a chore to get people to understand you</font></td></tr></table>
+
+<div align=""center"">
+<a href=""http://www.blogthings.com/hownormalareyouquiz/"">How Normal Are You?</a>
+</div>"
+"eventtime","2005-03-23 19:48:00"
+"current_moodid","96"
+"url","http://mixxedup-morgan.livejournal.com/41229.html"
+"userid","10226"
+"itemid","160"
+"event","heyy!
+i haven't updated in a LONG time! hehehehe i am cuz rachel told me too... =D amy elizabeth is here! YAY! she slept over and we are going to eastview mall to see savannah and taylor dance and go to BuIlD a BeAr! yayyyyyyyy!!!!!!!!!!!!!!!1 leave me comments"
+"eventtime","2005-03-06 11:38:00"
+"url","http://mixxedup-morgan.livejournal.com/41041.html"
+"userid","10226"
+"itemid","159"
+"event","anVzdCBzYXZpbmcgbXkgbmV3IHByb2ZpbGUuLi4NCg0KLi4qSSB0cnVzdCB0aGUgcGVvcGxlLi4gd2hvIHRydXN0IG1lKi4uDQotLUhhVmUgeW9PKiBldmVyICgoKndpc2hlZCopKSB0aGF0IHlvTyogY29VTGQgRm9SZ0V0ICgoLVJlQWxJdFktKSkgYW5kIGxpdmUgeW91ciAqLURyRWFNcy0qLS0NCnNlZSBndXlzIGFuZCBnaXJscyBib3RoIGhhdmUgc2Vuc2l0aXZlIGFyZWFzLi4uZm9yIGd1eXMgaXRzIHRoZWlyIGJhbGxzLi4uZm9yIGdpcmxzIGl0cyB0aGVpciBoZWFydHMNCkl0cyBOb3QgVGhlIFRlYXJzIFRoYXQgTWF0dGVyLi4qDQppVHMgd0hhdHMgYkVoaW5kIHRIZW0gdEhhdCBkT2VzLi4qDQotLVRoYW5rcyB0byBhbGwgdGhlIHBlb3BsZSB3aG8tLQ0KLS1hcmUgdGhlcmUgdGhyb3VnaCB0aGljayBhbmQtLQ0KLS10aGluLi4ud2hvIG1ha2UgbWUgZmVlbCBoYXBweS0tDQotLWFuZCBhcmUgbXkgcmVhc29uIGZvciBsaXZpbmctLQ0KICAgICAgICAgICAgICpbW015IEdpUkxzXV0qDQoNCg0KDQpUaEUgUGFTdCBpcyBCZUhpbmQgVXMuLioNClRoZSBGdVR1ckUgYUhlYUQuLioNClRoRSBQckVzYW5UcyBBIE5pZ2hUbUVhci4uKg0KLi4qYW5kIGEgUGFpTiBpbiBteSBIZUFkDQoNCg0KDQoNCg0KDQoteW91IGdvdGEgaHVydCBpbiBvcmRlciB0byBncm93LQ0KLWZhbGwgaW4gb3JkZXIgdG8ga25vLQ0KLWxvc2UgaW4gb3JkZXIgdG8gZ2Fpbi0NCi1jdXogbW9zdCBvZiBsaWZlcyBsZXNzb25zLQ0KLi5hUmUgbEVhUm5FZCBpTiBwQWlOLi4NCnlvdSB0aGlpbmsgeW91IHFvdCBhbiBbfCggaWlkZWEpfF0NCm9mIHd1dCBhICogYkVTdCBGcmlpZU5kKiB4MCcNCmNhbiBkby4uIGJ1dC4uICB1bnRpaWwgeW91IGhhdmUnDQptaU5lIC4uKiB5b3UgaGF2ZSDCuyBuMCBjbHVFLQ0KfnlvdSBrbm93IHdobyB5b3UgYXJlDQpQYXJ0eSBoYXJkLCBhbmQgcm9jayBhbmQgcm9sbCB3ZSdyZSB0aGUgY2xhc3MgeW91IGNhbnQgY29udHJvbC4gR3V5cyBhcmUgcGltcGluIGdpcmxzIGFyZSBmaW5lLCB3ZSdyZSBub3QgdGhlIGNsYXNzIG9mIDIwMDkhIFdoZW4gMjAwNyBpcyBncmFkdWF0ZWQgYW5kIGdvbmUgMjAwOCB3aWxsIHBhcnR5IG9uLi4uMjAwOSB3aWxsIHRoaW5rIHRoZXkgZ290IGNsYXNzLCBidXQgMjAxMSB3aWxsIGFsd2F5cyBraWNrIEAkJCEhIQ=="
+"eventtime","2005-02-19 19:52:00"
+"url","http://mixxedup-morgan.livejournal.com/40872.html"
+"userid","10226"
+"itemid","158"
+"event","If you love me tell me because life is hard when all i can think of is YoO because it just might be YoO
+--HaVe yoO* ever ((*wished*)) that yoO* coULd FoRgEt ((-ReAlItY-)) and live your *-DrEaMs-*--
+LiFe Is Like A Pen
+You Can Cross Out
+You're Mistakes
+But You Can't 
+ErAsE Them
+
+
+
+
+i hadda do that cuz that was my profile and i have to save it cuz im getting a new comp on TUESDAY!!! =D and it will delete it all"
+"eventtime","2005-02-18 16:57:00"
+"url","http://mixxedup-morgan.livejournal.com/40485.html"
+"userid","10226"
+"itemid","157"
+"event","c28uLmkgaGF2ZW50IHVwZGF0ZWQgaW4gYSB3aGlsZSEgbXkgc2lzdGVyIGlzIHNpY2suLi5hZ2Fpbi4uLmkgZ290IG92ZXIgdGhlIGZsdSBhbmQgbm93IGltIGJldHRlci4uLnRvZGF5IGlzIHRodXJzZGF5IHNvIGkgaGF2ZSBkYW5jZSEgaGFoYSBvdXIgdGFibGUgaGFzIGEgbmF0aW9uYWwgYW50aGVtISBpZiB1IHdhbm5hIGtub3cgd2hhdCBpdCBpcyBsZWF2ZSBhIGNvbW1lbnQgYW5kIGknbGwgZ2V0IGJhY2sgdG8geW9PKg0KDQotLUhhVmUgeW9PKiBldmVyICgoKndpc2hlZCopKSB0aGF0IHlvTyogY29VTGQg4oCiRm9SZ0V04oCiICgoLVJlQWxJdFktKSkgYW5kIGxpdmUgeW91ciAqLURyRWFNcy0qLS0="
+"eventtime","2005-02-17 16:07:00"
+"current_moodid","45"
+"url","http://mixxedup-morgan.livejournal.com/40219.html"
+"userid","10226"
+"itemid","156"
+"event","<table border='0' cellpadding='5' cellspacing='0' width='600'><tr><td><img src='http://images.quizfarm.com/1105247548jaynbob1.gif'></td><td> You scored as <b>Sadistic Humour</b>. Congratulations, you scored Sadistic Humour.  You find the little things in life to be funny, and have a great sense of humour, whether it's stupid or dark.  You're probably young, and older people don't understand why it's all so fucking hillarious.  Either way, check out:  Clerks, Mallrats, Napoleon Dynamite, Wayne's World.<br><br><table border='0' width='300' cellspacing='0' cellpadding='0'><tr><td><p><font face='Arial' size='1'>Sadistic Humour</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='80' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>80%</font></td></tr><tr><td><p><font face='Arial' size='1'>Mindless Action Flick</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='75' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>75%</font></td></tr><tr><td><p><font face='Arial' size='1'>Sci-Fi/Fantasy</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='55' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>55%</font></td></tr><tr><td><p><font face='Arial' size='1'>Romantic Comedy</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='55' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>55%</font></td></tr><tr><td><p><font face='Arial' size='1'>Mindfuck</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='50' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>50%</font></td></tr><tr><td><p><font face='Arial' size='1'>Drama/Suspense</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='45' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>45%</font></td></tr><tr><td><p><font face='Arial' size='1'>Artistic</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='15' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>15%</font></td></tr></td></tr></table><br><a href='http://quizfarm.com/test.php?q_id=1389'>Movie Recommendation.</a><br><font face='Arial' size='1'>created with <a href='http://quizfarm.com'>QuizFarm.com</a></font></table>"
+"eventtime","2005-02-11 16:25:00"
+"url","http://mixxedup-morgan.livejournal.com/40039.html"
+"userid","10226"
+"itemid","155"
+"event","SSB3aXNoIHRoYXQgd2hlbiB5b3UgYXNrZWQgbWUgaWYgZXZlcnl0aGluZyB3YXMgT0sgYW5kIEkgYW5zd2VyZWQgKmV2ZXJ5dGhpbmcncyBmaW5lKiBpIGRpZG50IGhhdmUgdG8gbGllIHRvIHlvdSA9Lw0KDQoNCg0KDQoNCmFuIMOEcHBsZSBhIGRheSBrZWVwcyB0aGUgZG9jdG9yIGF3YXkuLi5idXQgaWYgdGhlIGRvY3RvciBpcyBjdXRlIHRoZW4gc2NyZXcgdGhlIGZydWl0IQ=="
+"eventtime","2005-02-10 18:06:00"
+"url","http://mixxedup-morgan.livejournal.com/39700.html"
+"userid","10226"
+"itemid","154"
+"event","**********does anybody even read this anymore???? if you read this comment please or I might stop posting cuz if no one reads it there is really NO POINT WHAT-SO-EVER!!!!!! **********
+
+
+So I went home sick today GIRRR I have been sick since Sunday night ITS NOT FAIR!!! >:O GIR! ahhhhhh not fair please make me feel better someone!"
+"eventtime","2005-02-10 15:12:00"
+"current_moodid","82"
+"url","http://mixxedup-morgan.livejournal.com/39436.html"
+"userid","10226"
+"itemid","153"
+"event","i'm sick today! ahhh its not fair! i had a fever of 101.7 earlier! i hate being sick it stinks!"
+"eventtime","2005-02-07 16:50:00"
+"current_moodid","82"
+"url","http://mixxedup-morgan.livejournal.com/39324.html"
+"userid","10226"
+"itemid","152"
+"event","hii!      --->wutcha up 2?"
+"eventtime","2005-02-05 22:02:00"
+"current_moodid","5"
+"url","http://mixxedup-morgan.livejournal.com/38976.html"
+"userid","10226"
+"itemid","151"
+"event","<table border='0' cellpadding='5' cellspacing='0' width='600'><tr><td><img src='http://images.quizfarm.com/1104013662sbtb.jpg'></td><td> You scored as <b>Prep/Jock/Cheerleader</b>. <br><br><table border='0' width='300' cellspacing='0' cellpadding='0'><tr><td><p><font face='Arial' size='1'>Prep/Jock/Cheerleader</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='44' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>44%</font></td></tr><tr><td><p><font face='Arial' size='1'>Ghetto gangsta</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='38' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>38%</font></td></tr><tr><td><p><font face='Arial' size='1'>Drama nerd</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='38' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>38%</font></td></tr><tr><td><p><font face='Arial' size='1'>Geek</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='25' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>25%</font></td></tr><tr><td><p><font face='Arial' size='1'>Punk/Rebel</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='25' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>25%</font></td></tr><tr><td><p><font face='Arial' size='1'>Loner</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='19' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>19%</font></td></tr><tr><td><p><font face='Arial' size='1'>Goth</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='6' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>6%</font></td></tr><tr><td><p><font face='Arial' size='1'>Stoner</font></p></td><td><table border='1' cellpadding='0' cellspacing='0' width='0' bgcolor='#dddddd'><tr><td></td></tr></table></td><td><font face='Arial' size='1'>0%</font></td></tr></td></tr></table><br><a href='http://quizfarm.com/test.php?q_id=987'>What's Your High School Stereotype?</a><br><font face='Arial' size='1'>created with <a href='http://quizfarm.com'>QuizFarm.com</a></font></table>"
+"eventtime","2005-02-03 16:24:00"
+"current_moodid","5"
+"url","http://mixxedup-morgan.livejournal.com/38696.html"
+"userid","10226"
+"itemid","150"
+"event","My head says *(DoN'T LoVe hIM)*
+     BuT my heArT *(woNt LeT mE sTOp)*
+That *(feeling)* in my stomache
+     The *(dryness)* in my throat
+The *(fantisies)* of you and me
+     Just won't *(leave me alone)*
+
+
+
+Just when i got over you
+     When everything was allright
+I forgot about you
+     and I finaly stopped crying at night
+You looked at me and smiled
+     and started acting nice
+That ruined all my plans
+     and now i know its true
+I can never stop *( LoVeInG YoO )*
+
+
+
+Forget everything they said
+    Forget all of your friends
+Forget all of those silly jokes and rumors
+    Ignore it all
+Just tell me what you feel
+    And dont say you love me for real
+If when they start teasing you
+    You'll leave me
+
+By mE nO tAkEy"
+"eventtime","2005-01-30 16:18:00"
+"current_moodid","23"
+"url","http://mixxedup-morgan.livejournal.com/38489.html"
+"userid","10226"
+"itemid","149"
+"event","tha skating party waz AwEsoMeneSzZ!! omg i actualy got picked for hitchiker :-O lol i was like i dont even know you the whole time tho cuz i dont know him!!!! my friends pushed me so i hadda go!!! lol.--. and member that *kid* trishey? he kept pulling our shirts and we were lyk umm?* and he was like it works better with baggy shirts! that was funn I LOVE YOU GUYZ ALL OF YoO U ROCK"
+"eventtime","2005-01-29 13:57:00"
+"current_moodid","98"
+"url","http://mixxedup-morgan.livejournal.com/38206.html"
+"userid","10226"
+"itemid","148"
+"event","PFA+PFNUUk9ORz5oZXJlcyBzb21lIGt1dGUgc2F5aW5ncy4uLm9yIGF0IGxlYXN0IHRydWUuLi5vciBtYXliZSBub3QgaWRrLi4uPC9TVFJPTkc+IDwvUD4NCjxQPn5Cb1lzIOKAoi8vaHVydFxc4oCiIG15ICgtYnJhaW4tKX4gPC9QPg0KPFA+SSdtIGplYWxvdXMgb2YgZXZlcnkgZ2lybCB0aGF0IGh1Z2dlZCB5b3UuLi48QlI+YmVjYXVzZSBmb3IgdGhhdCBtb21lbnQgc2hlIHdhcyBob2xkaW5nIG15IDxCUj4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgRW5UaVJlIHdPckxkIDwvUD4NCjxQPkkgd2lsbCBzdG9wIGxvdmluZyB5b3Ugd2hlbiBteSBoZWFydCBzdG9wcHM8QlI+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IFsoYmVhdGluZyldPC9QPg0KPFA+TG9Pb0suLi53ZSByZWFsbHkgbmVlZCB0byBUYUxrLi4uPEJSPiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOy0qSSB0aGluayBJJm5ic3A7IGxvdmUgeW91Ki08L1A+DQo8UD4tSWYgSSB0b2xkIHlvdTxCUj4tLSpJIGxvdmUgeW91KjxCUj4tLS13b3VsZCBpdCBldmVuPEJSPi0tLS1NYVR0RXI/PC9QPg0KPFA+Jm5ic3A7IH4qSSBndWVzcyBJJ2xsIE5lVmVSKn48QlI+fipHZXQgVG8gQ2FsbCBZb3UgTWluZSp+PC9QPg0KPFA+THlGZV9Jc19MaWtlX0FfUGVuPEJSPl9Zb3UgQ2FuIENyb3NzIE91dF88QlI+Jm5ic3A7Jm5ic3A7Jm5ic3A7IFlvdSdyZV9NaXN0YWtlczxCUj4mbmJzcDsmbmJzcDsmbmJzcDsgX0J1dCBZb3UgQ2FuJ3RfPEJSPiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyBFckFzRV9UaGVtPC9QPg0KPFA+VGhlIFNlWGlpRXNUIHRoaW5nPEJSPiZuYnNwO0EgR3V5IENhbiBIYXZlPEJSPiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyBJcyBIaXM8QlI+Jm5ic3A7Jm5ic3A7Jm5ic3A7IF8tU01JTEUtXzwvUD4NCjxQPsKw4oCiRXZFclkgVGlNZSBZb1Ugc1RhUnQgVG8gTGlLZSBNZeKAosKwPEJSPiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyAmbmJzcDsmbmJzcDsmbmJzcDsg4oCiU0hFIHNob3dzIHVw4oCiPC9QPg=="
+"eventtime","2005-01-28 17:21:00"
+"current_moodid","23"
+"url","http://mixxedup-morgan.livejournal.com/38053.html"
+"userid","10226"
+"itemid","147"
+"event","hey! im at the ymca in the teen room righ tnow! im supposed to be studdying for a big ss test tommarow but that got boring and my moms working out so she cant bug me bout not doing it... =D lol im a good girl...kinda!!! haha well american idol is on and i wanna watch it cuz its awesome byeeee
+
+
+COMMENT LOTS"
+"eventtime","2005-01-19 20:27:00"
+"url","http://mixxedup-morgan.livejournal.com/37876.html"
+"userid","10226"
+"itemid","146"
+"event","AFRIAD 
+u dont understand how much i love you 
+i cant express how i feel 
+but please dont break my heart 
+im afriad it might not heal. 
+
+PRETEND 
+Sometimes i pretend you mine, 
+and that you will never leave me, 
+and that everything is fine, 
+but i know thats just me dreaming. 
+
+trishey made those they ROCK!
+
+do not take"
+"eventtime","2005-01-17 15:43:00"
+"current_moodid","98"
+"url","http://mixxedup-morgan.livejournal.com/37435.html"
+"userid","10226"
+"itemid","145"
+"event","EvErYoNe tHiNkS i'M aLwAyS hApPy..weLL tHaTs A LiE...
+i have problems too-im just supposed 2 be tha one who
+never is sad and smiles all the time...yEAh righT"
+"eventtime","2005-01-17 14:31:00"
+"current_moodid","92"
+"url","http://mixxedup-morgan.livejournal.com/37172.html"
+"userid","10226"
+"itemid","144"
+"event","so me n trishey went to tha ymca it was funnnnnn     =D
+im gonna sleepover at savannahs house! that will rock"
+"eventtime","2005-01-16 17:57:00"
+"current_moodid","66"
+"url","http://mixxedup-morgan.livejournal.com/36921.html"
+"userid","10226"
+"itemid","143"
+"event","UHHHHHHH...now rachel is mad at me =(...RACHELY IM SORRY I DIDNT MEAN TO MAKE YOU MAD I WAS JUST TRYING DIFFERENT FONTS! IM REALLY REALLY REALLY SORRY...PLEASE 4GIVE ME"
+"eventtime","2005-01-16 11:30:00"
+"current_moodid","25"
+"url","http://mixxedup-morgan.livejournal.com/36833.html"
+"userid","10226"
+"itemid","142"
+"event","<P>IM GETTING MY BRACES OFF ON <FONT size=6>FEBUARY 3rd!!!</FONT><FONT size=3> isn't that AWESOME!?!?!?!?!!! well idc if u dont think its awesome cuz i think it is!!! IM SO EXCITED SO EXCITED SO EXCITED SO EXCITED!!!!!! well anyways...im goin to tha ymca at like 1 or 130ish and im bringing trishey! =D!!! YAY! <BR>which smile do you like better?<BR>1.&nbsp;&nbsp;&nbsp; :)<BR>2.&nbsp;&nbsp;&nbsp; :D<BR>3.&nbsp;&nbsp;&nbsp; :-)<BR>4.&nbsp;&nbsp; :-D<BR>5.&nbsp; &nbsp; =)<BR>6.&nbsp;&nbsp; =D<BR>7.&nbsp;&nbsp; =-)<BR>8.&nbsp;&nbsp;=-D<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ChOoSe A NuMbEr!<BR>what should my new sn be? give me ideas please!...lolz i dont have enough yet!<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LeAvE a CoMmEnT!</FONT></P>"
+"eventtime","2005-01-16 11:11:00"
+"current_moodid","44"
+"url","http://mixxedup-morgan.livejournal.com/36544.html"
+"userid","10226"
+"itemid","141"
+"event","nO MaTtEr WhErE wE gO                    We BeSt FrIeNdS fOr EvEr
+No MaTtEr WhAt We dO                      [  BaSiCaLly UnStOpAbLe ]
+fOrEvEr & EvEr wE WiLl bE                      TeAr Us ApArT? hA...
+ThE  I n S e P e R a B l E   2                      [ mIsSiOn iMpOsSibLe ]
+
+        OuR fRiEnDsHiP bRiNgS OnLy *OnE* tRuE gUaRaNtEe
+           No MaTteR wHaT hApPeNs u'LL aLwAyS hAvE mE"
+"eventtime","2005-01-13 20:46:00"
+"current_moodid","113"
+"url","http://mixxedup-morgan.livejournal.com/36305.html"
+"userid","10226"
+"itemid","140"
+"event","its 8:06am! YAY lol i am goin 2 school late bcuz i have an ortho app. WISH ME LUCK im prolly gonna find out wen i get them off...((my braches)) i'll tell u l8r!
+LeAvE a CoMmEnT"
+"eventtime","2005-01-13 08:06:00"
+"current_moodid","41"
+"url","http://mixxedup-morgan.livejournal.com/35861.html"
+"userid","10226"
+"itemid","139"
+"event","On the bus today brittany was being weird...she goes...i'm sad, while she is smiling REALLY wide! and laughing i was like woh britt...lolz gotta luv her!
+Shantelly told us some AWesOMe joke like rhyme like thinggys! they are soooo cool...ask if u wanna hear them!
+
+       WHY?
+Why do I even Bother
+Why do I even Try
+There is no point in loving you
+Even though time will go by
+You will never love me back
+You will never care
+But all i really want
+Is for you to be there
+
+     by morgan
+        brown
+
+NO TAKEY
+
+
+
+
+
+
+
+so today we had to take this rilly stupid test...it was like common sence...it was a bubble in one! yuck
+
+~LeAvE a CoMmENT"
+"eventtime","2005-01-12 15:33:00"
+"current_moodid","92"
+"url","http://mixxedup-morgan.livejournal.com/35759.html"
+"userid","10226"
+"itemid","138"
+"event","Well i feel a little bit better now! i guess... well thats ok! leave lotsa comments idc about what just leave em"
+"eventtime","2005-01-10 19:20:00"
+"current_moodid","92"
+"url","http://mixxedup-morgan.livejournal.com/35391.html"
+"userid","10226"
+"itemid","137"
+"event","Do you think you have an idea how i feel? how everything just gets more complicated the longer i live? as each second goes by...everything gets more confusing and mixed up. Do you think you have an idea what goes on in my head? nobody will *e v e r* understand me!"
+"eventtime","2005-01-07 22:33:00"
+"current_moodid","9"
+"url","http://mixxedup-morgan.livejournal.com/35159.html"
+"userid","10226"
+"itemid","135"
+"event","ohmygosh!! ahhhhhhhhhh its notttt working i cant stop lyking him! girr this is making me mad! every time i see him it just makes me lyk him more! and i have to see him EvErY dAy! geesh! this is not fair cuz he doesnt lyk me so y cant i stop lyking him? gir!!!
+
+leave one if yah love me"
+"eventtime","2005-01-06 15:37:00"
+"current_moodid","3"
+"url","http://mixxedup-morgan.livejournal.com/34757.html"
+"userid","10226"
+"itemid","134"
+"event","well...im rethinking this whole ""having a crush"" thing cuz it just makes me upset...i think im gonna try n not lyk him cuz he is rilly bugging me...well kinda...its bugging me that he dont lyk me and making me sad...so im gonna try to get over it...if u dont kno who it is...dont ask im not gonna tell u"
+"eventtime","2005-01-04 15:36:00"
+"current_moodid","25"
+"url","http://mixxedup-morgan.livejournal.com/34487.html"
+"userid","10226"
+"itemid","132"
+"event","You have just entered room ""funeral for sum spilled sugar.""
+TwiZlerGurl9253 has entered the room.
+
+la1a1aa: better?
+TwiZlerGurl9253: yes
+la1a1aa: lol
+BlaH 2YaAll27 has entered the room.
+la1a1aa: hey
+la1a1aa: this is tha funeral for sum spilled sugar...
+TwiZlerGurl9253: thank u
+la1a1aa: ok...
+BlaH 2YaAll27: oooook
+la1a1aa: now lets start tha cerimony...
+TwiZlerGurl9253: ok
+la1a1aa: i gather you today to have you part from some sugar
+la1a1aa: it was good sugar
+TwiZlerGurl9253: tastey sugar
+lilshortie2693 has entered the room.
+la1a1aa: it never lied....and it never ever cursed
+lilshortie2693: hello
+la1a1aa: shhhhh its a cerimony
+lilshortie2693: woa ok weird convo!
+TwiZlerGurl9253: rainbow sherbert flavored
+la1a1aa: it didnt deserve to die so early in life
+la1a1aa: it never had time to be eaten
+BlaH 2YaAll27: haha
+BlaH 2YaAll27: ok
+BlaH 2YaAll27: this is freaky
+la1a1aa: SHHHHHHHHHH
+TwiZlerGurl9253: it fell into the keyboard
+TwiZlerGurl9253: yes sssssssssshhhhhhhhhhhhh
+la1a1aa: do you guys have any last words to say to shugar?
+TwiZlerGurl9253: it waz nice noing u and ill think of u every time i eat candy
+la1a1aa: me too////
+la1a1aa: i will miss you....
+TwiZlerGurl9253: me 2
+lilshortie2693: NICE EATIN YA
+TwiZlerGurl9253: :'(:'(:'(:'(:'(:'(:'(:'(:'(:'(:'(:'(:'(:'(:'(
+la1a1aa: every time i see sum sugar i will think of you...
+la1a1aa: you will always remain in my heart...
+la1a1aa: good bye
+lilshortie2693: yea me 2 then i'll go YUM
+TwiZlerGurl9253: every time i type
+la1a1aa: AMY!
+lilshortie2693: nope not me
+lilshortie2693: who me?
+lilshortie2693: or me?
+lilshortie2693: was it me?
+TwiZlerGurl9253: UR BING MEAN 2 SUGAR!!!!!!!!!1
+lilshortie2693: i bet it was me!
+la1a1aa: IK POOOOOR SUGARY
+TwiZlerGurl9253: waaaaaaaaaaaaaaahhhhhhhhhhhh
+lilshortie2693: what about pooooor me?
+lilshortie2693: my cat just died@
+lilshortie2693: !
+la1a1aa: ooohhh no
+TwiZlerGurl9253: oOoO how sad!
+TwiZlerGurl9253: :'(
+lilshortie2693: Guiness:-(
+la1a1aa: wait are you lyeing?
+TwiZlerGurl9253: yea?
+lilshortie2693: oh well.... good well he was alive!
+lilshortie2693: :-D:-D:-D:-D*:-D:-D:-D:-D
+TwiZlerGurl9253: wat happened 2 the blah person?
+la1a1aa: la1a1aa: ames did he rilly die?lilshortie2693: nope:-D
+lilshortie2693: :-D:-D:-D:-D:-D:-D
+la1a1aa: idk katies not here?
+lilshortie2693: :-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D:-D
+BlaH 2YaAll27: im here
+TwiZlerGurl9253: ?????????????????????????????????????????
+TwiZlerGurl9253: o
+lilshortie2693: i'm not here i swear!!!
+BlaH 2YaAll27: hahah lol
+TwiZlerGurl9253: yes u r!!!!!!!!!!!!
+BlaH 2YaAll27: ok amy
+lilshortie2693: my lips are sealed of where i went:-!
+lilshortie2693: ooops wrong smiley
+la1a1aa: ames u r insane
+TwiZlerGurl9253: yea
+lilshortie2693: :-X
+lilshortie2693: theere thats better
+TwiZlerGurl9253: kara missed the funeral
+BlaH 2YaAll27: to bad
+lilshortie2693: I'm outieLICIOUS!
+la1a1aa: look at my pro
+la1a1aa: lol
+lilshortie2693: later looney toons
+TwiZlerGurl9253: g2g
+TwiZlerGurl9253 has left the room.
+lilshortie2693: lalalalalalalala
+la1a1aa: DO YOU LYK THA BOTTEM?
+la1a1aa: u coppyer
+lilshortie2693: no i ate him
+la1a1aa: THAT IS SOOO MEAN
+lilshortie2693: he tasted goooooooD
+BlaH 2YaAll27 has left the room.
+la1a1aa: yellowprincibal: i hjave an ideala1a1aa: wut?yellowprincibal: the crashed vroom car\
+lilshortie2693: i'm outiee
+lilshortie2693 has left the room."
+"eventtime","2004-12-31 11:46:00"
+"url","http://mixxedup-morgan.livejournal.com/33943.html"
+"userid","10226"
+"itemid","131"
+"event","<FONT color=#ff0000>2 MoRe DaYs TiLl ThA nEw YeAr!!!<BR>What's y0ur New Year's ResOlUti0n? Tell Me Tw0 in a c0mment!!!<BR></FONT><FONT color=#ffffff>Here g0es myne...<BR>1) t0 get a boyfriend<BR>2) t0 n0t fight with my sister so much</FONT>"
+"eventtime","2004-12-30 09:55:00"
+"current_moodid","92"
+"url","http://mixxedup-morgan.livejournal.com/33640.html"
+"userid","10226"
+"itemid","130"
+"event","<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; THE FRIEND ALPHABET<BR>{A}lways sticking by u<BR>{B}elieving in u<BR>{C}omferting u wen u need it most<BR>{D}eservs ur friendship<BR>{E}xited wen not really<BR>{F}ollows u to places u dont want to go to<BR>{G}ives u R-E-S-P-E-C-T<BR>{H}elps u through tough situations<BR>{I}nvites u over<BR>{J}okes around with u<BR>{K}nows u 4ever {once u meet}<BR>{L}oves u 4 who u r<BR>{M}akes you laugh<BR>{N}ever makes fun of u<BR>{O}ffers support<BR>{P}leases u with the stupidest things<BR>{Q}uites ur fears<BR>{R}eally kool<BR>{S}ongs by USHER!!!!! {likes them to}<BR>{T}ells u the truth wen u need to hear it<BR>{U}nderstands u<BR>{V}ilonce never happens<BR>{W}orries bout u<BR>{X}-elent friend<BR>{Y}ells at u and doesnt meen it<BR>{Z}aps u back!!!!</P>
+<P>to my fRiendZ...heres a few of them...ar..to..le..sr..bn..rh..cm..mg..md..lr..cq..db..dc..v((dont know your last name))..nb..kk..at..aw..so................and moooreee of you sorry if i didnt type you my hands are tired!</P>"
+"eventtime","2004-12-29 09:50:00"
+"current_moodid","31"
+"url","http://mixxedup-morgan.livejournal.com/33335.html"
+"userid","10226"
+"itemid","129"
+"event","its 8:40 now, i've been awake since 5:30,15 hours and 10 minutes ive been awake, im tired...yawnnnnnnnnnn......
+
+well i gotta go now im gonna fall asle"
+"eventtime","2004-12-25 20:40:00"
+"url","http://mixxedup-morgan.livejournal.com/33246.html"
+"userid","10226"
+"itemid","128"
+"event","<P>well today was Christmas, it still is! but i already opened my presants and had dinner! GUESS WHAT TIME I WOKE UP AT!!!!!.......5:30.....and i didnt open my presants till 8:30 it was a LONGGG time 2 wait, i got bored<BR><BR><BR>MERRY CHRISTMAS</P>"
+"eventtime","2004-12-25 20:24:00"
+"url","http://mixxedup-morgan.livejournal.com/33017.html"
+"userid","10226"
+"itemid","127"
+"event","here's a really k-ute quote!!!!
+
+Explaining my //-love-\\ for Y*o*U is like (( trying )) to explain colors to a ~BLiNd PeRsOn~
+
+**i lyk so totaly like you, do you like me back?**"
+"eventtime","2004-12-25 17:49:00"
+"current_moodid","67"
+"url","http://mixxedup-morgan.livejournal.com/32532.html"
+"userid","10226"
+"itemid","126"
+"event","1. YOUR PORN STAR NAME: (Name of First Pet + Street You Grew Up on)
+Samantha Loyalist
+2. YOUR MOVIE STAR NAME: (Name Of Your Favorite Snack Food + 
+Grandfather's First Name)
+Candy Bob
+3. YOUR FASHION DESIGNER NAME: (First Word You See On Your Left + Favorite Restaurant)
+Talk China Garden
+4. YOUR EXOTIC FOREIGNER ALIAS: (Favorite Spice or Herb + Last Foreign Vacation Spot)
+Salt Canada
+5. YOUR SOCIALITE ALIAS: (Silliest Childhood Nickname + Town Where You First Partied)
+Arney Rochester
+6. YOUR FLY GIRL ALIAS (a la J. Lo): (First Initial + First Two or Three Letters of your Last Name)
+M. Bro
+7. YOUR ICON ALIAS:(Something Sweet Within Sight + Any Liquid in Kitchen)
+Gumdrop Coca-Cola 
+8. YOUR DETECTIVE ALIAS:(Favorite Baby Animal + Where You Went/will go to High School)
+FROGGIE Gates-Chili
+9. YOUR SOAP OPERA ALIAS: (Middle Name + Street Where You First Lived)
+Lillie Arnold Park
+10. YOUR JEDI NAME: (First 2-3 letters of your first name + First 2-3 letters of your last name + First 2-3 
+letters of your mother's maiden name + First 2-3 letters of your birthplace)
+Mobrosmiro
+
+that was kinda fun!!!!"
+"eventtime","2004-12-24 16:15:00"
+"current_moodid","59"
+"url","http://mixxedup-morgan.livejournal.com/32259.html"
+"userid","10226"
+"itemid","125"
+"event","My papa's here!!!!! it's soooo exciting! i told just about everyone online and they are getting annoyed with me =/ lolz
+
+
+
+
+
+
+today at skool was tha bestttt!!!
+Nick's nickname is Santa Claus     He said santa isn't real     I said YES HE IS!     and he said no he isnt and so on     Thennnnn i said if you think santa claus is real raise your hand and everyone except nick in tha class raised their hand!!! haha that was halarious!!!!!!!
+
+**You would never guess how many things you can do with ShOeLaCeS here is a few things**
+                1. Wear them on your shoes (( very boring ))
+                2. Wear them as a tie!!! (( AWESOMENESS ))
+                3. Wear them as an anklet... (( also soo totaly awesome ))
+                4. wear them as a headband   (( coOol ))
+                5. MANY OTHER THINGS
+
+
+
+haha gr8 day!!!!!
+
+Leave a comment"
+"eventtime","2004-12-23 22:10:00"
+"current_moodid","116"
+"url","http://mixxedup-morgan.livejournal.com/32051.html"
+"userid","10226"
+"itemid","124"
+"event","eDMgRG9udCB3YXN0ZSB5b3VyIHRpbWUgb24gbWUgeW91ciBhbHJlYWR5IGEgdm9pY2UgaW5zaWRlIG15IGhlYWQuLi4uIHgzIHhveG94bzxicj4NCjxicj4NCldoYXQgaGFwcGVucyB3aGVuIGhlJ3MgeW91ciBQUklOQ0UgQ0hBUk1JTkcsYnV0IHlvdXIgbm90IGhpcyBDSU5ERVJFTExBPGJyPg0KPGJyPg0KeC0tLS0tLS0tLS3CuyB8fExvVmUgfHwgwqstLS0tLS0tLS0tLXggPGJyPg0Kb37CuyBsMHZlIGlzIHdoZW4geTB1IGthbip0IMKrfm8gPGJyPg0KeH7CuyBwYXkgYXR0ZW50aTBuIGluIGNsYXNzIMKrfnggPGJyPg0Kb37CuyBDYXVzZSB5MHVyIHQwMCBidXp5IHdyaXRpbmcgwqt+byA8YnI+DQp4fsK7IHkwdXIgZmlyc3QgbmFtZSB3aXRoIGhpeiBsYXN0IMKrfnggPGJyPg0KeC0tLS0tLS0tLS3CuyB8fCBMb1ZlIHx8IMKrLS0tLS0tLS0tLXggJm5ic3A7PGJyPg0KPGJyPg0KQWxsIEkgd2FudCBpcyBmb3IgaGltIHRvIHNheSAiWWVhaCBzaGUncyBteSBnaXJsISIgeDMgeG94bzxicj4NCiZuYnNwOzxicj4NCjxicj4="
+"eventtime","2004-12-22 19:01:00"
+"current_moodid","67"
+"url","http://mixxedup-morgan.livejournal.com/31753.html"
+"userid","10226"
+"itemid","123"
+"event","Nickname::  Mogo : Morgany Shortcakes : Morgy Porgee...junk lyk that
+Location::  Rochester New York
+Gender::  Gurl
+Birthplace::  Rochester...Strong Hospital
+Birthstone::  Pearl
+Birthday::  June 8th 1993
+Sign::  Zodiac
+Righty or Lefty::  RiGhTy!
+Screenname::  i gots a lot...2 are...lildogy79...anddd...aLITTLEbitCrAZii
+** your looks ** 
+Height::  about 5' 4""
+Shoe size:: good question
+Hair Color::  Dirty Blonde
+Hair Length::  umm little bit past my shoulders...or maybe longer...idk
+Eye Color::  Blue
+Glasses::  umm...contacts
+Braces::  yeah...unfortanuntly
+Piercings::  yeah 2 on each ear
+Tattoos::  temporary ones that you use water with
+** fashion ** 
+Where do you shop::  where dont i shop?
+What do you usually wear::  jeans and a shirt.......
+What kind of shoes do you wear::  umm...sneakers and sum brand
+Do you wear a watch:: no..........i draw one w/ pen =D
+Color you never wear::  umm....BROWN
+Color you wear at least once a week::  BLUE
+Something you wear everyday:: underwear...
+Do you wear make up everyday::  nooo never
+Make up essential::  huh?
+Most cherished piece of clothing::  umm......MY JEANS the brand is one tuff babe
+You wouldn't be caught dead wearing:: a shall thinggy or w/e its called...
+Do you wear belts::  nope
+Do you wear hats::  nope
+How many pairs of shoes do you have::  a lot
+** music ** 
+Favorite kind of music::  all except country
+How many CD's do you have:: lyk 62 or sumthing
+Last CD you bought:: umm...the one that i just bought?
+Whats in your CD player right now:: good charlotte
+Do you download music:: nope...its IlLeAgAl
+** Favorites ** 
+Color:: Blue and Green
+Number:: 79
+Season:: Spring
+Ice cream:: Panda PaWs
+Website:: iconator.com and livejournal.com
+Quote:: --You only have [OnE LiFe]-(( live it ))--
+Store:: all of em!
+Bands:: GC...Simple Plan...other junk
+Singer:: Usher...Avril Lavenge...JoJo...other junk
+Rapper:: umm idk
+Song:: umm idk i think she will be loved or wait no idk the name of it!
+Movie:: hmm...A Cinderella Story or Sleepover
+Actor:: idk
+Actress:: idk
+Kind of movies:: idk!
+Place to be:: ocean or around water...beaches sumtimes...quiet ones
+Time of day:: middle
+Clothing Brand:: one tuff babe andddd sumthing else
+Animal:: FROGGIES
+Food:: strawberries and pasta bake
+Holiday:: my birthday or christmas...
+Shape:: DIMOND ALL THA WAY
+Restaraunt:: idk
+Fast food place:: YUCK
+Boy's name:: idk...
+Girl's name:: lillie
+Word:: mannnnnnnn
+Month:: June
+candy: plain chocolate!
+** love and relationships ** 
+Boyfriend or Girlfriend:: boyfriend
+Crush:: ...
+Do you believe in love at first sight:: yeah
+What do you look for in a guy/girl:: funny nice...
+Best physical feature:: idk
+Best hair color:: brownish black
+Best eye color:: brown
+** randoms ** 
+Do you paint your nails:: yeah
+What color is your tooth brush:: orange
+Do you do drugs:: nope
+Do you have any pets:: nope
+What time do you go to sleep:: 10ish"
+"eventtime","2004-12-20 18:51:00"
+"url","http://mixxedup-morgan.livejournal.com/31560.html"
+"userid","10226"
+"itemid","121"
+"event","I'm listening to GOOD CHARLOttE...hahaha rachel GOOD that means they rockkkk and u know it mannnnnnn!!!!! Haha this stinks nobody's online! This rilly stinks...well now emily from my camp is on!!! thats good! hehe my mommy dont know how to work the tv...i have to show her...i find that amusing!...OH so AMMUSING...well i get amused easily, at bill grays i was ammused by the celing fan! haha =D I'm rilly bored but gOoOd charloTTe is on so thats ok! but i wishhhhhhh *sOmEbOdY* was on that wood be AWESOMEEEEEEEEE! but...he/she's not..."
+"eventtime","2004-12-19 15:52:00"
+"current_moodid","92"
+"url","http://mixxedup-morgan.livejournal.com/31142.html"
+"userid","10226"
+"itemid","120"
+"event","DoN't TrY wIsHiNg On StArS It DoEsN'T wOrK..."
+"eventtime","2004-12-18 19:21:00"
+"current_moodid","25"
+"url","http://mixxedup-morgan.livejournal.com/30791.html"
+"userid","10226"
+"itemid","119"
+"event","<P>heyy</P>
+<P><BR>well i just figured out that the time on this thinggy is in milatary time... lyk thers 10 o'clock...at first i thought it was just messed up in da head but now i know the REAL reason...and i've had my lj for lyk a year! wow im very not slow...HAHA no...well yesterday was friday...OUR GYM GOT CODED SO THAT THE WALLS AND FLOORS WE CAN RUN IN2 AND FALL ON W/O GETTING HURT!!!!! THER R MATTS ON EM!!! ITS SOOOO EXCITING MANNN I MEAN ITS AWESOME!!!!! haha my kick thinggy was funnnnn well anyways that day we had this really weird elizabeth blackwell presentation by sum crazy lady who acted her out...it was verryyy strange!...lolz trishey!! i wish i had a desk to sleep on! that wood amade it a LOT better! well i had ScIeNcE that day...ewe...mr caudle just stands and talks...and talks...and talks some more it is SOOOOO boring. i wish we could have art every day all year that wood rock! but anyways we had lunch...that was kinda fun...wanna buy a duck? a what? a duck! does it quack? of course it quacks its a duck...and so on! then we made up a cow one! it was awesome!!!!!! then lunch was over...tear...we had more science wich was boring AGAIN! after that we had math...trishey asked steve if he liked me...and thank the lord he sayd no! lol...mr caudle's lesson was boring in math...yuck! then i had flex...we had reading time...i didnt read...then we cood do our homework...haha i went up 2 mr caudle 4 every question on this one page so i just stayed up ther wile i did it...i did it on james desk cuz i didnt feel like moving...i was on my nees...he just coppied my answers...ahhh annoying but it was fun then i hadda go back 2 my desk cuz busses wer getting called...i stayd after for care team cuz they care and they'll be there! that was kinda boring! then yeah boring nite at home!</P>
+<P>haha now u can hear about TODAY!</P>
+<P>FIRST amy slept over! that was fun but i woke up earlier than her so i cood take a shower...then i tryed 2 wake her up...that took about a half an hour cuz she dont move. finaly she came upstairs w/ me ((we were in my basement)) we ate breakfast and did other stuff...then she left and i went to art class. i painted stuff there. after art i came back home. i was bored all day i just sat on the computer most of the day! funnnnnnn,,,,,,then i decided 2 do my h/w wich i did! after my h/w i decorated my agenda w/ sharpys! that was rilly fun! its perty now! rachel i drew u a froggie! hahaha well i also made a pocket outa duck tape in tha back so i dont have 2 use paperclips! haha well now i bet it is the PRETTYEST one EVERR! after i did that i retyped my schedual and that took a wile...i looked at trishey's livejournal...her lj username is <lj user=""thisismylife2"" /> 7 check it out! now im talking 2 amy online and yeah! </P>
+<P>that was fun 2 type and hurt my fingers<BR>they are cramped now...it hurts!!! mannn i typed a LOT! well comment peepz i wanna get 50 comments on this! hahahahahahha no</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>~i need a boyfriend...<BR>...i got a cruch on sumone~<BR>~tell me if you like me cuz u just mite be the one...<BR>...it mite be worth your time 2 tell me~<BR>~think about it...</P>
+<P>&nbsp;</P>
+<P><BR>my therapist says im special</P>
+<P>haha j/p!!!</P>
+<P>or am i?</P>
+<P>&nbsp;</P>
+<P>hahaha</P>
+<P><BR>How come dreams never come true but nightmears do?<BR><BR>just so you know it has been an hour...it is now 7:16 or as the lj wood say 20:16</P>"
+"eventtime","2004-12-18 19:15:00"
+"current_moodid","5"
+"url","http://mixxedup-morgan.livejournal.com/30568.html"
+"userid","10226"
+"itemid","118"
+"event","rachely hastings how could you do that! it was sooo mean ur just oh yeah! and u lyeeeeed just cuz u wer BoReD =( it was meannnn thing 2 do! girrr lolz i 4give u and i lyk was sooo listening wen mr caudle sayd 2 rite down that assignment...thats y i called u and asked 4 it! lolz =D"
+"eventtime","2004-12-14 19:00:00"
+"current_moodid","112"
+"url","http://mixxedup-morgan.livejournal.com/30445.html"
+"userid","10226"
+"itemid","117"
+"event","Life is so complicated
+
+i'm only 11 y cant life still just be all rainbows and butterflys? it was so much easier! i hate it! its so annoying...i dont know who my tru friends are!"
+"eventtime","2004-12-14 16:57:00"
+"url","http://mixxedup-morgan.livejournal.com/30037.html"
+"userid","10226"
+"itemid","116"
+"event","Froggies are the best animal in the world...even though that is only my opinion it is other pplz opinion too because i say so! Froggies are so cute...they are green, which is the third best color ever, they can HOP rilly high, wich is AWESOME, aaaaaannnnnnndddddd, THEY ARE FROGGIES!!!!! i mean how can anybody NOT like them the rock the world! you all know that froggies rock your sox off! I LOVE FROGGIES
+
+~Morgan"
+"eventtime","2004-12-14 16:53:00"
+"current_moodid","125"
+"url","http://mixxedup-morgan.livejournal.com/29849.html"
+"userid","10226"
+"itemid","115"
+"event","today was boring cuz i was still kinda sick and i didn't really do anything. i watched elf with my mommy...that was fun!!! Also tonight was the 6th nite of hanukkah! i'm sad, tomarrow is the last night of hanukkah =( I needa get *his* sn so i can talk to him, i think he has one!!!!! That would rock! lolz now im in a chat room iwht amy drew and trishey! YAY"
+"eventtime","2004-12-12 20:16:00"
+"current_moodid","92"
+"url","http://mixxedup-morgan.livejournal.com/29605.html"
+"userid","10226"
+"itemid","114"
+"event","HIIIIIIIIIIIIIII!!!!!!!"
+"eventtime","2004-12-12 15:37:00"
+"current_moodid","96"
+"url","http://mixxedup-morgan.livejournal.com/29367.html"
+"userid","10226"
+"itemid","113"
+"event","*If Only he knew how much he means to me...if only i could tell him*
+
+in my dreams is the only place we will ever be together =(
+
+If only life could be like a movie...it always ends happy and they always end up together...
+that will never happen
+
+The best we'll ever be is *Friends*
+
+
+I never knew life could be so complicated..."
+"eventtime","2004-12-11 17:40:00"
+"current_moodid","22"
+"url","http://mixxedup-morgan.livejournal.com/29034.html"
+"userid","10226"

@@ -1,0 +1,730 @@
+"names","values"
+"itemid","76"
+"event","R2lzZWxhIHdva2UgdXAgbmljZSBhbmQgZWFybHkuIFNsZWVwaW5nIGluIHRoZSBpbmZpcm1hcnkgd2FzIG5ldmVyIHZlcnkgY29tZm9ydGFibGUsIGFuZCBzaGUgaGFkIHRvIGdldCB1cCBhIGZldyB0aW1lcyB0byBjaGVjayBvbiBwYXRpZW50cywgYnV0IHNoZSBmZWx0IGF3YWtlIGFuZCByZWFkeSBmb3IgdGhlIGRheSByZWdhcmRsZXNzLiBUaGUgb3RoZXIgaGVhbGVycyB3YW5kZXJlZCBpbiBhcm91bmQgbWlkLW1vcm5pbmcsIGFuZCBmZXcgdmlsbGFnZXJzIGNhbWUgYW5kIHdlbnQuIE5vdyB0aGUgbnVyc2VzIHdlcmUgcGxheWluZyBjYXJkcyB3aXRoIG9uZSBvZiB0aGUgcmVndWxhcnMsIGFuZCBzaGUgc29vbiByYW4gb3V0IG9mIGJ1c3kgd29yay4gVGhpcyB3YXMgZ29pbmcgdG8gYmUgYSBsb25nIGJvcmluZy4uLmhvdyBtYW55IGRheXM/IERhbW4uIFNoZSBzaG91bGQgaGF2ZSBhc2tlZCBHd2VuZGFsIGlmIHRoZXJlIHdhcyBhIHRpbWVsaW5lLg0KDQpBIHdhbGsgdG8gc3RyZXRjaCB0aGUgbXVzY2xlcyBhbmQga2VlcCBoZXJzZWxmIGZyb20gZG96aW5nIG9mZiBvbiBvbmUgb2YgdGhlIHNpY2tiZWRzIHdhcyBpbiBvcmRlci4gU2hlIHdhdGNoZWQgPGEgaHJlZj1odHRwOi8va2luZy1vZi13b2x2ZXMubGl2ZWpvdXJuYWwuY29tLzU1NjYuaHRtbD5CZWxhbOKAmXMgYXJyaXZhbDwvYT4gZnJvbSBhIHNlY29uZC1zdG9yZXkgd2luZG93LiBBdCBsZWFzdOKApnNoZSB0aG91Z2h0IGl0IHdhcyBCZWxhbC4gV2hhdGV2ZXIgaGFwcGVuZWQgdG8gaGlt4oCmVWdoLiBTaGUgZGlkbuKAmXQgd2FudCB0byBrbm93LiBTaGUgYWxtb3N0IGZlbHQgc3ltcGF0aHkgZm9yIGhpbS4gSGVpa2EgdG9vayBoaW0gYW5kIGhpcyBlbnRvdXJhZ2UgaW50byB0aGUgY2FzdGxlIGFuZCBvdXQgb2Ygc2lnaHQsIGJ1dCBzaGUgbGluZ2VyZWQgYSB3aGlsZSBsb25nZXIsIHdhdGNoaW5nIGFzIHRoZSBjcm93ZCB0aGF0IGhhZCBnYXRoZXJlZCBzbG93bHkgZGlzcGVyc2VkLiANCg0KVGhlIGluZmlybWFyeSBjb3VsZCB1c2Ugc29tZSBjb2xvciwgc2hlIGRlY2lkZWQuIFNoZSB0dXJuZWQgYXdheSBmcm9tIHRoZSB3aW5kb3cgYW5kIHN0YXJ0ZWQgdG93YXJkIHRoZSBnYXJkZW4uDQoNCg0KPEk+KChPcGVuKSk8L0k+"
+"eventtime","2007-06-09 23:59:00"
+"url","http://sexy-nurse.livejournal.com/19690.html"
+"userid","13567"
+"itemid","75"
+"event","SXTigJlzIGEgZ29vZCBkYXkuIE5vdCB0b28gYnVzeSwgbm8gZHJhbWF0aWNzIG9yIGV4cGxvc2lvbnMsIG5vIGVwaWRlbWljcywgbm8gbWFzcyBmYXJtIGNyaXNpcy4gSSBoYXZlbuKAmXQgZmluaXNoZWQgaW52ZW50b3J5IHlldCwgYnV0IGl0IHdpbGwgc3RpbGwgYmUgdGhlcmUgd2hlbiBJIGdvIGJhY2suIFNvIHdpbGwgdGhlIHBhcGVyd29yaywgdGhvdWdoIEkgcHJvYmFibHkgc2hvdWxkIGhhdmUgdHVybmVkIHRoYXQgb3ZlciB0byBHd2VuZGFsIHllc3RlcmRheS4gSXTigJlzIGJlZW4gYSBtb250aC4gVGhlIHdhciBpcyBvdmVyLCBldmVyeW9uZSBpcyBob21lLCB0aGUgZGVhZCBhcmUgYnVyaWVkOyBJIGhhdmUgbm8gZXhjdXNlIGZvciBmYWxsaW5nIGJlaGluZC4gSSBzaG91bGRu4oCZdCBsZXQgbXlzZWxmIGdldCBzbyBkaXN0cmFjdGVkLiBXaGVyZSBpcyBBbmlzc2luYSwgYW55d2F5Pw0KDQpTdG9wIGl0LiANCg0KV2hhdCBhcmUgc3VwcG9zZWQgdG8gYmUgZG9pbmcgcmlnaHQgbm93PyBIb3JzZXMuIFllcy4gVGhlIGhvcnNlcyBuZWVkIHRvIGJlIGNoZWNrZWQuIEkga25vdywgSSBrbm93LiBJIGZpbmlzaCBhbGwgb2YgdGhlIGFuaW1hbCBjaGVjay11cHMgdHdvIHdlZWtzIGFnbywgYnV0IGl0IHdvbuKAmXQgaHVydCB0byBkbyBpdCBhZ2Fpbi4NCg0KVGhlIHRydXRoIGlzLCBJIGNhbuKAmXQgcXVpdGUgY29uY2VudHJhdGUgb24gbXkgd29yayBpbiB0aGUgaW5maXJtYXJ5IHdpdGggWmFuIHRoZXJlLiBJ4oCZbSBzdXJlIEnigJlsbCBnZXQgdXNlZCB0byBpdCB3aXRoIGEgYml0IG9mIHRpbWUsIGJ1dCByaWdodCBub3cgaXTigJlzIGp1c3Qgc28gZGlzdHJhY3RpbmcuIFNoZeKAmXMgbm90IG15IEp1bGlhLCBidXQgdGhleSBsb29rIHRoZSBzYW1lLCBhbmQgaWYgSSBkb27igJl0IGxvb2sgdG9vIGNsb3NlIGFuZCBsaXN0ZW4gdG9vIGhhcmQsIGl04oCZcyBhbG1vc3QgbGlrZSB3b3JraW5nIHdpdGggSnVsaWEgYWdhaW4uIEl0J3Mgc3VycmVhbC4gDQoNCldoaWNoIGlzIHdoYXQgYWxzbyBtYWtlcyBpdCBkaWZmaWN1bHQuIFllcywgSSBrbm93LCBubyBwb2ludCBpbiBnb2luZyBvdmVyIHRoaXMgb2xkIHByYXR0bGUgYWdhaW4sIGhtPyBJIGp1c3QgZG9u4oCZdCB3YW50IHRvIGlycml0YXRlIGhlciBvciBtYWtlIGhlciBmZWVsIHVud2VsY29tZSB3aGlsZSBzaGUgYWRqdXN0cyB0byBoZXIgbmV3IGhvbWXigJR3aG8ga25vd3MgaG93IGxvbmcgc2hlIHdpbGwgcmVtYWluIGhlcmU/DQoNCkFuZCBJ4oCZbGwgYWRtaXQgSSdtIGEgYml04oCmd2VsbC4gSeKAmW0gamVhbG91cy4gSeKAmXZlIGdvdHRlbiB1c2VkIHRvIGJlaW5nIHRoZSBtb3N0IGltcG9ydGFudCBwZXJzb24gaW4gdGhlIGluZmlybWFyeS4gSXNu4oCZdCBpdCBhYm91dCB0aW1lIGV2ZXJ5b25lIGdldHMgb3ZlciB0aGUgb29vaGluZyBhbmQgYWFhaGluZyBvZiA8ST5KdWxpYTwvST4/IEnigJlNIFNUSUxMIElOIENIQVJHRSBIRVJFISANCg0KV2hpY2ggaXMgd2h5IEkgYW0gZ2l2aW5nIGNoZWNrLXVwcyB0byBob3JzZXMuDQoNCjxJPihPcGVuKTwvST4="
+"eventtime","2007-05-11 17:34:00"
+"url","http://sexy-nurse.livejournal.com/19418.html"
+"userid","13567"
+"itemid","74"
+"event","U2hlIHdhcyBsb29raW5nIGZvciBhIHBsYWNlIHRvIGhpZGUuIFdlbGwsIG5vdCByZWFsbHkgaGlkZS4gTW9yZSBsaWtl4oCmZ2V0IGF3YXkuIEhlciBiZWRyb29tIHNob3VsZCBoYXZlIGJlZW4gdGhlIG9idmlvdXMgY2hvaWNlLCBidXQgaXQgc2VlbWVkIHNvIGZhciBhd2F5IGF0IHRoZSB0aW1lLiBJdCB3YXNu4oCZdCBvZnRlbiwgb3IgZXZlciwgdGhhdCBvbmUgY291bGQgY2F0Y2ggR2lzZWxhIHZvbiBDaHJpc3QgaW5jaGluZyBkb3duIHRoZSBoYWxsIHdpdGggYSBsb25nc3dvcmQgaW4gaGVyIGhhbmRzLCBhbmQgc2hlIHdhcyBpbiBmYXZvciBvZiBhdm9pZGluZyBhbnkgcXVlc3Rpb25zIHRoYXQgbWlnaHQgY29tZSBoZXIgd2F5IHNob3VsZCBzaGUgYmUgY2F1Z2h0LiBEb3JjYXMgd2FzIHN1cmUgdG8gZ28gaW5zYW5lIG9uY2UgaGUgZm91bmQgaGlzIHdlYXBvbiBtaXNzaW5nLCBidXQgaXTigJlzIG5vdCBsaWtlIGhlIHJlYWxseSB1c2VkIGl0IGFueXdheeKApiANCg0KSXQgZGlkbuKAmXQgb2NjdXIgdG8gaGVyIHVudGlsIGFmdGVyIHNoZSBkdWNrZWQgaW50byB0aGUgPGEgaHJlZj3igJ1odHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vOTE5NC5odG1sP3RocmVhZD0xODc2MjbigJw+c21hbGwgc2l0dGluZyByb29tIG5lYXIgdGhlIGluZmlybWFyeTwvYT4gdGhhdCB0aGlzIHdhcyB0aGUgcGxhY2Ugd2hlcmUgc2hlIGFuZCBBbmlzc2luYSBoYWQgZXNjYXBlZCB0byBzbyBsb25nIGFnbywganVzdCBhZnRlciBZdXVyaeKAmXMgZGVhdGgsIGp1c3QgYmVmb3JlIHRoZSB3YXIuIFNoZSBwdXNoZWQgdGhlIGRvb3Igc2h1dCwgYnV0IGRpZG7igJl0IG5vdGljZSB0aGF0IGl0IGJvdW5jZWQgb2ZmIHRoZSBmcmFtZSBhbmQgY3JlcHQgb3BlbiBhZ2FpbiBiZWhpbmQgaGVyLiBOb3RoaW5nIGluIHRoZSByb29tIGhhZCBiZWVuIG11Y2ggY2hhbmdlZCBpbiB0aGUgbGFzdCBtb250aC4gTWF5YmUgdGhlIGJsYW5rZXQgb3ZlciB0aGUgYmFjayBvZiB0aGUgY291Y2ggd2FzIG5ldy4gQW5kIHNoZSB3YXMgc3VyZSB0aGUgY2xvY2sgaGFkbuKAmXQgYmVlbiB0aGVyZS4NCg0KU2hlIHNhdCBvbiB0aGUgY291Y2ggYW5kIGNhcmVmdWxseSBzZXQgdGhlIHN3b3JkIGRvd24gb24gdGhlIGxvdyB0YWJsZSBiZWZvcmUgaXQuIFdoZW4gc2hlIHdlbnQgb3V0IHRvIDxzPm5vdCBsb29rIGZvciBBbmlzc2luYTwvcz4gd2F0Y2ggdGhlIHNvbGRpZXJzIHByYWN0aWNlLCBzaGUgaGFkbuKAmXQgYWN0dWFsbHkgcGxhbm5lZCBvbiB0YWtpbmcgYSBzb3V2ZW5pci4gQXQgdGhlIHRpbWUsIGl0IGp1c3Qgc2VlbWVkIGxpa2UgdGhlIHJpZ2h0IHRoaW5nIHRvIGRvLiBNYXliZeKApm1heWJlIGl0IHdvdWxkIGhlbHA/IFdpdGggd2hhdCwgc2hlIHdhc27igJl0IHN1cmUgeWV0LiBTaGUgaGFkIGhlYWxlZCBtYW55LCBtYW55IHNvbGRpZXJzLCB3YXRjaGVkIHRoZW0gcmVjb3ZlciBmcm9tIGJhdHRsZXMgYW5kIHdhciwgd2F0Y2hlZCB0aGVtIHN1ZmZlciBhbmQgZGllLiBCdXQgc2hlIGRpZG7igJl0IHVuZGVyc3RhbmQgdGhlbS4gU3VyZWx5IHNvbWUgZm9ybSBvZiB1bmRlcnN0YW5kaW5nIGNvdWxkIGJlIGdsZWFuZWQgZnJvbSB0aGlzIHNoYXJwIG1ldGFsIHBvaW50eSBzdGljay4NCg0KU2hlIHJhbiBhIGZpbmdlciBkb3duIHRoZSBibGFkZSwgcGF1c2luZyBhdCBldmVyeSBkZW50IGFuZCBzY3JhdGNoLiBTaGUgaGVhcmQgc29tZXRoaW5nIG91dCBpbiB0aGUgaGFsbCwgYW5kIGxvb2tlZCB1cC4gVGhlIGRvb3Igd2FzIHdpZGUgb3BlbiwgYnV0IHNoZSBmaWd1cmVkIGlmIHNoZSB3ZXJlIHF1aWV0LCB3aG9ldmVyIHdhcyBvdXQgdGhlcmUgd291bGQgcGFzcyBieSB3aXRob3V0IGV2ZW4gbG9va2luZy4gU2hlIHByb2JhYmx5IHNob3VsZCBoYXZlIHRha2VuIGhlciBmaW5nZXIgb2ZmIHRoZSBibGFkZSwgdGhvdWdoLiBUaGUgc2hhcnAgbWV0YWwgYml0IGludG8gaGVyIGZpbmdlciwgbWFraW5nIGhlciBjcnkgb3V0IHN1ZGRlbmx5IGFuZCBraWNrIHRoZSB0YWJsZSBhdCB0aGUgc2FtZSB0aW1lLiBUaGUgc3dvcmQgZmVsbCB0byB0aGUgZmxvb3Igd2l0aCBhIHJlc291bmRpbmcgY2xhdHRlci4gR3JhYmJpbmcgYXQgaGVyIG5vdyB2ZXJ5IGJsb29keSBmaW5nZXIsIHNoZSBzdG9tcGVkIG9uIHRoZSBzd29yZCB0byBzdG9wIHRoZSBub2lzZSBhbmQgdGhvdWdodCwgbWF5YmUgbm8gb25lIGhlYXJkIHRoYXQ/DQoNCjxzbWFsbD48ST5PT0M6IExldCBtZSBrbm93IGlmIGl0IG5lZWRzIGNoYW5naW5nLiBeX148L2k+DQpJZiB0aGUgbGluayBpbiB0aGUgdGV4dCBkb2Vzbid0IHdvcmssIGl0IGdvZXMgaGVyZTogaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzkxOTQuaHRtbD90aHJlYWQ9MTg3NjI2PC9zbWFsbD4="
+"eventtime","2007-04-05 21:22:00"
+"url","http://sexy-nurse.livejournal.com/18952.html"
+"userid","13567"
+"itemid","73"
+"event","SXQgd2FzbuKAmXQgb2Z0ZW4gc2hlIGhhZCB0byBjdXQgb3BlbiBhIHBhdGllbnQgYmVmb3JlIGhlYWxpbmcgdGhlbS4gSW4gdGhpcyBjYXNlLCBpdCBoYWQgYmVlbiBhIGZhcm1lciB3aXRoIHBhcnQgb2YgaGlzIGhheWZvcmsgYnJva2VuIG9mZiBpbiBoaXMgc2hvdWxkZXIuIFNoZSBoYWQgcmVtb3ZlZCBoZXIgbG9uZy1zbGVldmUgb3ZlcnNoaXJ0ICh3aG9zZSBicmlnaHQgaWRlYSB3YXMgaXQgdG8gZ2l2ZSB0aGUgbWVkaWNzIHdoaXRlIHVuaWZvcm1zIGFueXdheT8pIGFuZCBkaWQgdGhlIG9wZXJhdGlvbiBpbiBhIHNsZWV2ZWxlc3MgdW5kZXJzaGlydC4gVGhlIGZhcm1lcuKAmXMgd2lmZSBoYWQgYSBmZXcgd29yZHMgYWJvdXQgZGVjZW5jeSBhbmQgZGVjb3J1bSwgYnV0IGdvdCB0byB0YWtlIGhlciBodXNiYW5kIGhvbWUuIA0KDQpHaXNlbGEgd2FzaGVkIHRoZSBibG9vZCBmcm9tIGhlciBoYW5kcyBhbmQgcmVmaWxsZWQgdGhlIGJhc2luIHdpdGggZnJlc2ggd2F0ZXIgYmVmb3JlIHRocm93aW5nIG9uIGhlciBvZmZpY2lhbCBtaWxpdGFyeS1pc3N1ZSwgc3R1cGlkbHkgd2hpdGUsIGxvbmctc2xlZXZlIHdpdGggcHVycGxlIHRyaW0gbWVkaWMgc2hpcnQuIFNoZSBkaWRu4oCZdCBib3RoZXIgd2l0aCBidXR0b25pbmcgaXQgdXAuIA0KDQpTaGUgaGFkIGJlZW4gd29ycnlpbmcgb3ZlciB0aGUgZXZlbnRzIGZyb20gPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzE4NDM4Lmh0bWwiPnllc3RlcmRheTwvYT4gYWxsIG5pZ2h0IGFuZCBtb3N0IG9mIHRoZSBtb3JuaW5nLiBTaGUgY291bGRu4oCZdCBzdGF5IGJ1c3kgZW5vdWdoLCBhbmQgaGVyIGV5ZXMgc25hcHBlZCB0byB0aGUgZG9vciBldmVyeSB0aW1lIHNoZSBoZWFyZCBzb21lb25lIGVudGVyIHRoZSBpbmZpcm1hcnksIGFmcmFpZCBpdCB3b3VsZCBiZSBhIGZpZXJ5IHJlZGhlYWQgd2FudGluZyB0byB0YWxrLCBvciB3b3JzZS4gU2hlIGhhZCBtYWRlIGEgbWlzdGFrZS4gQSB2ZXJ5IGJpZyBvbmUuIEFuZCBzaGUgd2FzIGNlcnRhaW4gc2hlIGhhZCBsb3N0IG9uZSBvZiBoZXIgYmV0dGVyIGZyaWVuZHMuIA0KDQpTaGUgY291bGRu4oCZdCB0YWxrIHRvIGhlciBmYXRoZXIgYWJvdXQgdGhpcy4gSGUgd291bGQgcHJvYmFibHkgcGFuaWMgb3Igc3RhbW1lciBhIGxvdCBhbmQgdGhlbiBwYXQgaGVyIG9uIHRoZSBoZWFkIGFuZCBwcmV0ZW5kIHNoZSB3YXMgaW4gaGVyIDQwcy4gIFNoZSByYW4gdGhyb3VnaCBhIGxpc3Qgb2YgcG9zc2libGUgcGVvcGxlIHNoZSBjb3VsZCB0YWxrIHRvLCBhbmQgb25seSBvbmUgc3Rvb2Qgb3V0Lg0KDQpTaGUgcmVsZWFzZWQgaGVyIGhhaXIgZnJvbSBpdHMgY29pbCBhbmQgbGV0IHRoZSBoZWF2eSBicmFpZCBkcm9wIGRvd24gaGVyIGJhY2sgYXMgc2hlIHdhbGtlZCBkb3duIHRoZSBoYWxsIHRvIGhlciBkZXN0aW5hdGlvbi4gTWF5YmUgdGhpcyB3b3JsZOKAmXMgQW5pc3NpbmEgd291bGQgaGF2ZSBhIGZldyBpbnNpZ2h0cyBvbiBoZXIgZG91YmxlPyANCg0KV2hlbiBzaGUgcmVhY2hlZCBBbmlzc2luYeKAmXMgbGFiLCBzaGUgcmFwcGVkIG9uIHRoZSBkb29yIGFuZCB3YWl0ZWQu"
+"eventtime","2007-03-13 22:13:00"
+"url","http://sexy-nurse.livejournal.com/18748.html"
+"userid","13567"
+"itemid","72"
+"event","She didn't get to do any of her baking and making yesterday with all the hustle and bustle in the kitchen. She barely made it out alive with an apple. But now that the party was over and dishes were clean, the kitchen was blessedly empty. 
+
+She set a covered basket full of her most ""special"" herbs and oils on the counter, tied <a href=""http://static.flickr.com/54/138660091_1d986b869a.jpg"">an apron</a> over her clothes, and set about gathering everything she would need for cookie making. 
+
+And hey, no one was here, so a little light singing didn't hurt either."
+"eventtime","2007-02-16 20:07:00"
+"url","http://sexy-nurse.livejournal.com/18438.html"
+"userid","13567"
+"itemid","71"
+"event","Gisela rolled out of bed bright and...somewhat earlyish. It was a new day, and she was determined to make it a better one than yesterday. No more silly mistakes. No more drinking. 
+
+...Well. No more getting drunk anyway. 
+
+She had a few errands to run later. The <a href=""http://genius-anissina.livejournal.com/10131.html?thread=144019"">new lovebirds</a> would need a congratulatory gift, and she had some new herbs and oils to tinker with. She was sure she could mix up something special for them. And she had a very strong calling to make a gift basket with sandwiches and cookies for the visiting Anissina... It might be too bold to give her special oils as well. She wasn't able to greet Yozak and Conrad upon their return, and she didn't want to intrude on them so soon. But they might also like some treats. 
+
+Right now, she needed a soak. A nice, long, relaxing soak in a hot, steamy pool of water. She gathered up her clothes and towels and soaps, tied a robe over her nightdress, and made her way to the baths. Seconds later, she was stripped and submerged with her head tipped back and a rag folded over her eyes."
+"eventtime","2007-01-26 21:36:00"
+"url","http://sexy-nurse.livejournal.com/18322.html"
+"userid","13567"
+"itemid","70"
+"event","<center><B>Gisela's Master Timeline</b>
+(will be updated regularly)</center>
+
+<lj-cut text=""TIMELINE"">
+
+<B>DAY 50</B>
+Gisela has a crush. (<a href=""http://sexy-nurse.livejournal.com/17861.html"">**</a>)
+
+Gisela, Ani, Cheri (Spying on Gwendal and Anissina) (<a href=""http://cheri-blossom.livejournal.com/15151.html"">**</a>)
+
+
+</lj-cut>"
+"eventtime","2007-01-01 13:56:00"
+"url","http://sexy-nurse.livejournal.com/17938.html"
+"userid","13567"
+"itemid","69"
+"event","Things were slow for Gisela. And that was good. She finally had the infirmary back in shape and restocked. She was able to leave the castle and visit the neighboring villages that had no healers of their own. She'd been able to spend a bit more time with Gunter here and there.
+
+Jose's leaving had hurt, but when she thought about it, it was for the best. She had only been using him as a distraction from everything else that had happened. With him gone, she had been forced to deal with Yuuri's death, rather than push every thought and emotion for him farther and farther back. That wound was healing quite well.
+
+So well, that her heart was rushing off ahead of her again, despite her mind's very adamant protests. 
+
+She just couldn't help getting a little giddy every time Hokka Anissina invited her out for shopping or drinks. She made excuses to swing by the library when she knew the red haired warrior would be there. She failed again and again to convince herself that Anissina was a bad idea. She didn't need another doomed relationship. Anissina was a double, and eventually doubles leave.
+
+Besides, it was pretty clear that Hokka Anissina wasn't interested. Aside from a bit of friendly flirting from time to time, the other woman never gave her any sign that feelings were mutual. And it was apparent Anissina had her eyes on someone else. Why else would she time all of their outings around Dorcas' guard duty?"
+"eventtime","2006-12-31 17:36:00"
+"url","http://sexy-nurse.livejournal.com/17861.html"
+"userid","13567"
+"itemid","68"
+"event","Jose was gone. 
+
+After all that trouble, everything she went through just to help him, and he up and left. The nurses she asked to attend him said they hadn't seen in him three days. He didn't even wait for her to come back so he could say good-bye. The <a href=""http://jose-caliente.livejournal.com/2941.html"">note he left</a> was not good enough. She almost tore it to shreds when she read it, but stopped herself. Instead she crumpled it into a little ball and threw it across the room.
+
+She still wanted to destroy it, and every last trace of the man that still lingered in the room. But she couldn't find it under all the books. The books had fallen off the shelf when she threw a broken candlestick at them. The candlestick broke when it fell off the table. The table shooke hard enough to knock two candlesticks and a metal bowl of fruit on the floor when she kicked it. She kicked the table because the first thing she kicked -- her nightstand -- broke and dumped its contents (a candle, two books, and a bottle of perfume) on the floor. The perfume bottle shattered and the scented oil, her favorite blend of sandalwood and roses, soaked into the rug and ruined one of the books.
+
+She tore the blankets and sheets from the bed and hauled them down to the laundry room to be washed. She grabbed clean linens and, on her way back into the room, snatched the note still pinned to the door and tossed it carelessly on the floor. She didn't feel like making the bed just yet, so she tossed the linens on the end of her bed and spread a quilt over the matress. 
+
+With a great sigh, she flopped onto her bed, limbs sprawled toward each corner, and stared at the ceiling, consciously thinking of nothing at all."
+"eventtime","2006-09-18 14:25:00"
+"url","http://sexy-nurse.livejournal.com/17639.html"
+"userid","13567"
+"itemid","67"
+"event","<B>Salzburg</B>.
+
+Gwendal said they would be home before sunrise, but they hadn't counted on a young woman approaching them as they were getting ready to leave and asking Gisela to have a look at her husband. Though she was eager to get home, the healer couldn't very well leave when someone needed her help. She followed the woman to her home on the other side of town, where she met a very ill man. One touch and she knew she would not be leaving that night. 
+
+She went back to the inn and told Gwendal to go ahead without her. She gave him the herbs and the book with the potion's recipe. ""Give this to either of the healers wearing a white uniform. They'll know what to do.""
+
+She spent the remainder of the night at the strangers' home, healing and watching over the man. She grabbed an hour of sleep here and there, until his fever finally broke. She left medicine and instructions with his wife and walked back to the inn. Dawn was just breaking the horizon. 
+
+Trusting that Gwendal would do as she had asked, she no longer felt the urgency she had before. Yes, she wanted to get back to Jose, but taking a few more hours to rest up and get some breakfast wasn't going to make much difference in the long run.
+
+But she couldn't sleep when she tried. After an hour of tossing and turning, she gave up and went to the inn's bath area to wash off the last couple days of travel. She was soon clean and ready to go. She wandered into the front room and found a small table near the window where she could eat her breakfast in the sunlight."
+"eventtime","2006-08-27 16:32:00"
+"url","http://sexy-nurse.livejournal.com/17375.html"
+"userid","13567"
+"itemid","66"
+"event","<lj-cut text=""Timeline"">
+So much for a break in the excitement. 
+
+First <a href=""http://sexy-nurse.livejournal.com/15626.html"">Julia returned from the dead, and a new Cheri-sama arrived</a>, <a href=""http://grumpygwen.livejournal.com/10320.html"">Gwendal wasn't much help at all</a>, <a href=""http://yuri-maou.livejournal.com/857.html"">but Cheri-sama was hospitable as ever</a>.
+
+<a href=""http://kohi-clack-clak.livejournal.com/7575.html"">The wounded returned from battlefield</a>, <a href=""http://sexy-nurse.livejournal.com/15872.html"">Jose fell ill</a>, <a href=""http://sexy-nurse.livejournal.com/16286.html"">Daddy had to find another place to sleep</a>. She spent all day tending the wounded and <a href=""http://sexy-nurse.livejournal.com/16552.html"">all night researching Jose's illness</a>. She found a herb that promised a cure, but she would have to find it. She didn't expect <a href=""http://sexy-nurse.livejournal.com/16552.html"">Gwendal would want to come along</a>. 
+
+<a href=""http://sexy-nurse.livejournal.com/16871.html"">But that was yesterday.</a>
+</lj-cut>
+ 
+Gisela groaned as she woke. She hated mornings. She hated them more when she was up before the sun. She especially hated them when her throat was soar. She sat up and reached for the water on the bedside table. The first sip hurt going down, but it was cold and brought some relief. She pressed the cold glass to her cheeks, thankful that the fever was not very high. She would have to remember to take medicine before bed tonight.
+
+She slid out of bed and right to the floor, where she dragged one of her bags out from under the bed. A bit of digging through her jostled belongings and she found one of the red potions she had packed. She pulled the stopper and drank it down quickly, trying not to gag over the foul taste. 
+
+She thought she could hear movement next door, meaning Gwendal was awake. By the time she washed and changed out of her pajamas, the potion was doing its job and she felt she could face Gwendal without him noticing anything out of the ordinary. Hefting her bags over her shoulders, she left her room and knocked on his door."
+"eventtime","2006-07-29 12:43:00"
+"url","http://sexy-nurse.livejournal.com/16989.html"
+"userid","13567"
+"itemid","65"
+"event","After <a href=""http://grumpygwen.livejournal.com/10870.html"">saying good-bye to Gunter</a>, Gisela returned to her room to check on Jose and gather a few of her things. She lingered longer than she should have, and then had to run to the infirmary to find a couple of healers to rotate around him. She grabbed a few bottles full of red liquid and a healing salve and a bag of medical supplies, just in case.
+
+Half an hour later, she left the castle with her bags slung over her shoulders. She reached the stables and found Gwendal there waiting. Raising a hand in greeting, she hurried toward him."
+"eventtime","2006-07-21 20:11:00"
+"url","http://sexy-nurse.livejournal.com/16871.html"
+"userid","13567"
+"itemid","64"
+"event","Gisela grumbled under her breath as she grabbed book after book from the library shelf and tossed it onto a small table. 
+
+The infirmary was mostly quiet. Many of the patients were sleeping, on their own or under the influences of medicine or magic. The chaos had settled and the nurses were able to relax and fall into a routine. That was when four of her healers insisted--no, demanded--that she stop working and get some sleep. She put up a good fight, she thought, but one of them was a man three times her size and, oddly, not afraid of her shaking fist of fury.
+
+<lj-cut>
+She promised to leave after one more walk around the infirmary and connecting rooms. And during that walk, she found no one that needed her. The most she managed was to find and drape a blanket over <a href=""http://human-hero.livejournal.com/6197.html"">Hokka Alford</A> as he slept next to his double.
+
+She left, but she was not sleeping. She still had to figure out what was wrong with Jose. Which was what led her to the library, where she grabbed any and every book on medicine and herbs and healing and magic and diseases and even witchcraft she could find. In the end, the stack was too heavy to carry. She selected what she could lift and made note to return for the rest the next time she came through.
+
+She had to wrestle with her door while balancing the books, but did manage to twist the handle enough to shove it open, stumble inside, and slam it shut again. The note she left for Gunter was still stuck there, and he was not in the room. Good. She hoped he found a decent place to sleep. She would have to make up for the inconvenience when she had a little more time.
+
+Jose was little more than a dark lump on her bed. She set her books on the bedside table and lit a few candles before settling on her side of the bed and caressing his cheek with her fingers, pulling at the fever that had returned in her absence. 
+
+Her hand lingered a moment longer than needed, the pad of her thumb carefully brushing over dark lashes. She bent to press her lips to the top of his head and breathed deeply, her eyes closing.
+
+She could stay like this. All she had to do was shift a few inches in any direction and she wouldn't be able to get back up. 
+
+But that wouldn't do him any good, would it? She reluctantly pulled away, her body making itself heavy and slow in protest. She yawned as she reached for the first book on the pile and settled back on her pillow to read.
+</lj-cut>"
+"eventtime","2006-07-20 11:19:00"
+"url","http://sexy-nurse.livejournal.com/16552.html"
+"userid","13567"
+"itemid","63"
+"event","Gisela quietly left her room and pinned a note to the door...
+
+<lj-cut text=""Daddy"">
+<I>Daddy,
+
+Jose is sick and needs his rest. Please don't kick him out or threaten him. I had nowhere else to bring him.
+
+PS: For your own safety, you might want to sleep somewhere else tonight. I don't know if he's contagious.
+
+I love you!
+
+XOXOX
+
+Gisela</I>
+</lj-cut>
+
+...and then hurried back to the infirmary."
+"eventtime","2006-07-06 21:49:00"
+"url","http://sexy-nurse.livejournal.com/16286.html"
+"userid","13567"
+"itemid","62"
+"event","<B>...and the soul of the wounded crieth out...</B>
+
+<a href=""http://kohi-clack-clak.livejournal.com/7575.html"">The convoy</a> arrives and Gisela wonders belatedly if they are ready. How many wounded are there? Do they have enough beds, supplies, medicine, help? Every able patient has been sent home. Those she didn't feel comfortable with discharging were relocated to private chambers, four to a room. Even Yuuri's body has been moved to a cot and shoved into a corner, a single curtain spared to keep him from view of those who would share his space. Three large medical tents have been erected in the courtyard, each housing their own beds, supplies, and staff. 
+
+When the line of wagons and carts rolls into the courtyard, she stops worrying. There is no time for it. She works her way <a href=""http://kohi-clack-clak.livejournal.com/7575.html?thread=35223#t35223"">down the line</a>, assessing each wounded soldier, dividing them up as those who need help now, and those who can wait. Nurses, servants, the unwounded, and a few remaining kohi sort the men out as directed, carrying them off to beds. And when there are no more beds, mats rolled out on the floor. And then piles of blankets.
+
+The sun is long gone by the time every soldier is settled and the wagons and horses are lead away from the area. Gisela takes a moment to overlook the nurses and healers at work, a handful of servants and maids running from here to there with requested medicines, wraps, water, whatever is needed. She enters the infirmary, where the worst of the injured were brought, and makes herself useful.
+
+((OOC: Open to any and all)"
+"eventtime","2006-06-27 13:37:00"
+"url","http://sexy-nurse.livejournal.com/15872.html"
+"userid","13567"
+"itemid","61"
+"event","Jose had seemed like such a great guy! She really did enjoy spending <a href=""http://jose-caliente.livejournal.com/1904.html"">quality time</a> with him. She certainly <a href=""http://sexy-nurse.livejournal.com/14937.html"">slept better</a> now that he was around, though a part of her was doing its part to try and <a href=""http://www.livejournal.com/users/sexy_nurse/14492.html#cutid1"">remind her</a> that this probably isn't her brightest idea, and eventually, someone is bound to get hurt. But Jose is like chocolate. Dark, sweet, and very <a href=""http://sexy-nurse.livejournal.com/15585.html"">tempting</a>. <a href=""http://jose-caliente.livejournal.com/2137.html"">Yes, very temping indeed</a>. 
+
+Too bad he's also a <a href=""http://lilac-seneschal.livejournal.com/1780.html"">coward</a>.
+
+No matter. Gisela is too happy to let her lover's disappearing act get to her. She hums quietly to herself as she bounces from one patient to the next, her spirits lifted by her father's safe return with the princess. Though there is still much to worry about--the war, the rescue mission, Conrad--she can't help smiling at everyone she meets and feeling overly optimistic that, soon, everything will be fine."
+"eventtime","2006-03-27 14:12:00"
+"url","http://sexy-nurse.livejournal.com/15626.html"
+"userid","13567"
+"itemid","60"
+"event","The day began <a href=""http://jose-caliente.livejournal.com/1904.html"">amazingly well</a>. So well, she had to <a href=""http://sexy-nurse.livejournal.com/14937.html"">take a nap</a>. <a href=""http://sexy-nurse.livejournal.com/14492.html"">The dream</a> was unnerving, but the more she thought about it, the more she wanted to forget. So she sought out her newest and favorite distraction, and found him working away in the infirmary. She smiled when she greeted him and got right to work. 
+
+---
+
+Gisela shoves her annoyingly short hair back carries an armful of bandages and potions back to the storage closet, knocking her hip against Jose's as she passes. The relief healers have arrived, and her last patient has been tended to. It will be time for them to leave soon."
+"eventtime","2006-02-23 22:55:00"
+"url","http://sexy-nurse.livejournal.com/15585.html"
+"userid","13567"
+"itemid","58"
+"event","<a href=""http://www.livejournal.com/users/jose_caliente/1904.html"">The bath</a> was...enjoyable, though it took a while to finally get clean from all the dirty. Getting dressed was something of a challenge, with the clothes coming off as quickly as they were put on. Breakfast proved to be an interesting activity, and required a return to the bath.
+
+She finally managed to get into a pair of pants without distraction and collapsed on the rumpled bed. Jose was doing something somewhere; she could hear him, but she had lost the ability to focus some time between the pears and the strawberries. Or maybe it was the banana? 
+
+There were things to do, but right now she felt she deserved a nap.
+
+(<a href=""http://sexy-nurse.livejournal.com/14492.html"">Continues here</a>)"
+"eventtime","2006-01-13 16:50:00"
+"url","http://sexy-nurse.livejournal.com/14937.html"
+"userid","13567"
+"itemid","57"
+"event","Dinner was pleasant. Gisela finds Jose interesting, and likes talking with him. Earth sounds like a fascinating place, and she would like to go there someday, if such a thing is possible. 
+
+She smiles as she takes his arm and walks with him over the castle grounds. When their conversation lulls she has a moment to look back on the day...<a href=""http://www.livejournal.com/users/sexy_nurse/14228.html"">waking Jose</a>...<a href=""http://www.livejournal.com/users/big_bad_sheep/5261.html"">healing T-Zhou</a>...<a href=""http://www.livejournal.com/users/princessotennis/8641.html"">watching the dance lessons</a>...<a href=""http://www.livejournal.com/users/jose_caliente/1786.html"">and meeting up with Jose again</a>.
+
+She clears her head and glances up at him, hoping he isn't annoyed or insulted that she had stopped talking. 
+
+""It's a lovely night, don't you think?"" ^_^"
+"eventtime","2006-01-07 10:54:00"
+"url","http://sexy-nurse.livejournal.com/14819.html"
+"userid","13567"
+"itemid","56"
+"event","<lj-cut text=""His hands are warm..."">
+<I>His hands are warm. He holds her, touches her. He kisses her lips and breathes in her ear. He's saying something but she can't make out the words. It doesn't matter. She feels safe and happy and wanted. Her fingers move down his back over sweat-slick skin, but come back coated in something sticky and...purple.
+
+She sits up and Jose vanishes. A chunk of white cake with purple frosting rests at her feet. A trail of crumbs draws her eyes to another piece of cake...and another. She twists and follows the trail with her eyes. 
+
+The other side of the room is dark, but she can see him clearly, standing ankle-deep on a mountain of cake, his maid's costume spattered with purple frosting, featherduster pointed accusingly. Lines of red roll down his face, over his shoulders, down his arms and legs, and soak into the cake.</I>
+
+Gisela's body jerks and her eyes fly open. The room is bright and warm and smells like fruit and sex. More, the blankets under her head smell like Jose. She breathes in, to remind herself of him and last night and this morning and everything he has done for her. Instead, her stomanch twists and she shoves herself away and plugs her nose to keep from gagging.
+
+<I>Just a dream...It was just a dream...</I> 
+
+It takes a few minutes to calm her breathing and scoot to the edge of the bed. A chill runs down her spine and she is acutely aware that she is not wearing a top. She grabs one from her wardrobe and throws it on. 
+
+The room is a mess. She tugs on the blankets, half-heartedly tucking them into place. She lights a few candles to burn away the scent lingering in the room and tries to distract herself with picking up. But her mind wanders back to the dream, back to those accusing eyes, back to Jose, who has been nothing but wonderful from the start.
+
+<I>It's been five days.
+
+It's </I>only<I> been five days.</I>
+
+It feels like much longer. So much has happened. It was easy to get distracted, to keep herself so busy that he was the last thing on her mind, if he entered her mind at all. She almost wishes that she had not been so quick to rid herself of her possessor. The days were much quicker when she was not present to experience them. And he gave her something else to worry over, to be distracted with.
+
+She wishes for more patients, so she can bury herself in work and make other people feel better, maybe save a life so someone else won't have to feel the pain of loss. With so little to do, it's too easy to look across the room and know his body is laying just a few feet away, behind a simple wooden door.
+
+She hasn't seen it. Him.
+
+She has tried. The other day, her hand was on the door. But she couldn't open it. She didn't want to see what was on the other side. While she has accepted his death, a part of her still denies it. She does not want to kill that tiny shred of hope just yet. 
+
+This is the first time she has really thought about him. She has been trying not to. She misses him. She still loves him. She feels guilty. She forgot about him at every opportunity, distracted herself with work and research and Jose. 
+</lj-cut>
+
+Gisela releases a breath and lets go of her thoughts. There must be something to do that will distract her for the rest of the day. She leaves her room and wanders through the castle, stopping when her eyes fall on <a href=""http://sinful-maou.livejournal.com/10789.html"">sign stuck to a door.</a> 
+
+Curious, she knocks on the door and peeks in."
+"eventtime","2005-12-14 20:00:00"
+"url","http://sexy-nurse.livejournal.com/14492.html"
+"userid","13567"
+"itemid","55"
+"event","Gisela was getting worried. When she went bed the night before, she saw that not only was the food she brought untouched, but Jose was <a href=""http://www.livejournal.com/users/jose_caliente/859.html"">still in bed</a>. This morning, she woke later than usual, and still the man was fast asleep.
+
+She got up and adjusted her gown as she moved to the side of his bed. She lay a hand on his shoulder and gave it a gentle shake.
+
+""Jose? Can you wake up for a second?"""
+"eventtime","2005-11-29 16:01:00"
+"url","http://sexy-nurse.livejournal.com/14228.html"
+"userid","13567"
+"itemid","54"
+"event","7:00 AM: Gisela woke with a stretch and a yawn, blinking at the sunlight as she rolled onto her back with a sigh. The state of her room was greatly improved. It wouldn't take long to tidy up the rest of it. She sat up and looked around. <a href=""http://www.livejournal.com/users/jose_caliente/663.html"">Jose was asleep</a> on Gunter's bed, on top of the covers.<BR>
+She quietly got up and dragged her blanket across the room to lay over him before slipping into the bathroom to wash her face, brush her hair, and put on a pair of slippers and a bathrobe. She figured he would be hungry when he got up, and the least she could do was bring him breakfast.<BR>
+She slipped out of the room and headed for the kitchen. There, she gathered some bread, cheese, a bowl of fruit and berries, and a glass of juice on a tray and brought it back to the room. She left the food on a table near Jose with a quick note:<BR>
+<I>""Thank you for your help. I hope you like the food. I will be in the infirmary if you need me.<BR>
+&hearts;<BR>
+-Gisela""</I><BR>
+7:30 AM: She took a nice long bath and found she could just get her hair into two tiny ponytails. She didn't like it, but it was better than having strands of uneven hair falling in her eyes.<BR>
+8:30 AM: Refreshed and changed, she hurried off to the infirmary.<BR>
+6:00 PM: The day passed quickly and much work was accomplished.<BR>
+7:00 PM: Wanting to spend the rest of her evening alone to reflect on the last few days, she found a nice secluded spot in the garden.<BR>
+9:00 PM: She went to bed."
+"eventtime","2005-11-22 10:57:00"
+"url","http://sexy-nurse.livejournal.com/13942.html"
+"userid","13567"
+"itemid","53"
+"event","<a href=""http://www.livejournal.com/users/sexy_nurse/13550.html"">8:00 AM</a>: I woke up this morning to discover my inner demon has a bad temper. He apparently didn't like being locked up. While trying to sort out the mess he made of my room, Kagey returned with a charming man who said he could get rid of my unwelcome guest.
+
+<a href=""http://www.livejournal.com/users/jose_caliente/663.html"">9:33 AM</a>: Jose and I went out to look for Alford, who was a key component to this ""voodoo"" thing the doctor wanted to attempt. Unfortunately, the spirit took over before we got very far.
+
+I woke up on the floor of Anissina's lab, and the spirit was gone! I was so happy! I'm sorry Alford did not feel the same. I guess he and the spirit bonded, and we took that from him. After he left, I showed Jose the infirmary, and then my room...."
+"eventtime","2005-11-20 21:59:00"
+"url","http://sexy-nurse.livejournal.com/13569.html"
+"userid","13567"
+"itemid","52"
+"event","<I>Stupid sun.</I>
+
+Gisela rolls over and tugs her blanket over her head to hide from the bright light streaming in through the window. Her leg brushes something hard and she grumbles, kicking it away. Only her foot hits something else, somthing that clatters. 
+
+Blinking, she sits up, her body sore and stiff.
+
+First, she realizes she's been sleeping on the floor. Then she notices the room. It has been completely destroyed. The shelves, tables, even the beds, have been overturned. Dishes, and papers, books, linens, clothes, every single little thing is scattered over the floor. Even the drapes and pictures have been torn from the walls. 
+
+""I guess he doesn't like the room,"" she sighs. 
+
+She finds a change of clothes, a pair of pants one of Gunter's shirts, and quickly washes up and changes in the connecting restroom. Drawing a breath, she starts cleaning up the room and hopes the guards remember to feed her."
+"eventtime","2005-11-14 20:05:00"
+"url","http://sexy-nurse.livejournal.com/13550.html"
+"userid","13567"
+"itemid","51"
+"event","Gisela wakes up with Alford, but does not blame him for what happened. Instead, she asks him to stay away from her, for his own protection. (<a href=""http://www.livejournal.com/users/mr_feel_good/3341.html"">**</a>)<BR>
+While searching for her father, she meets OOC Anissina in the stables as she is preparing to leave. (<a href=""http://www.livejournal.com/users/missbiceps/17377.html?thread=278241#t278241"">**</a>)<BR>
+2:00 PM: On his way to the kitchen to make a new batch of cookies, Fred meets Wolfy. (<a href=""http://www.livejournal.com/users/wolfy__chan/6270.html"">**</a>)<BR>
+2:15 PM: Apparently, a good knock to the head is enough to dislodge Fred, and Gunter finds Gisela in the kitchen. After some discussion, they agree that keeping her locked in her room is the best way to deal with Fred right now. (<a href=""http://www.livejournal.com/users/sexy_nurse/12768.html"">**</a>)<BR>
+2:20 PM: Kagey makes a appearance, breaking Gisela's door and knocking out her guard. They (somehow) get the guard to the infirmary, but Kagey runs off with a piece of the kitchen while Gisela tries to find a snack for him. (<a href=""http://www.livejournal.com/users/sexy_nurse/12827.html"">**</a>)<BR>
+3:00 PM: After a quick snack, Gisela leaves the kitchen and locates Shay. She shows her broken door to the captain, and a replacement is brought and bolted into place. A new guard is assigned to watch the room, and Gisela shuts the door and flops down on her bed. After an eternity (three minutes) she locates a book on Gunter's shelf and reads.<BR>
+And reads. <BR>
+And reads. <BR>
+Until she falls asleep."
+"eventtime","2005-11-11 09:33:00"
+"url","http://sexy-nurse.livejournal.com/13282.html"
+"userid","13567"
+"itemid","50"
+"event","((OOC: About five minutes after <a href=""http://www.livejournal.com/users/sexy_nurse/12768.html?view=318432#t318432"">this thread</a>.))<BR>
+I'm bored.<BR>
+Bored bored bored.<BR>
+Bored bored bored bored bored bored.<BR>
+Very very bored.<BR>
+Bored bored bored<BR>
+Bored bored bored<BR>
+Bored bored bored<BR>
+Bored bored bored<BR>
+Boredbored boredbored<BR>
+Bored boredbored bored bored bored<BR>
+Boooooooooooooored.<BR><BR>
+Bored.<BR>
+Boredboredboredboredboredboredboredboredboredboredboredboredbored
+boredboredboredboredboredboredboredboredboredboredboredboredbored
+boredboredboredboredboredboredboredboredboredboredboredboredbored
+boredboredboredboredboredboredboredboredboredboredboredboredbored"
+"eventtime","2005-11-05 22:57:00"
+"url","http://sexy-nurse.livejournal.com/12827.html"
+"userid","13567"
+"itemid","49"
+"event","<font color=""green"">
+Fred leaves <a href=""http://www.livejournal.com/users/wolfy__chan/6270.html"">Wolfy</a> behind him and hurries to the kitchen before he encounters any one else. The day is half over, and he hasn't gotten anything done! Fortunately, most of the more bothersome people are leaving. Even Daddy. The girl wasn't able to find him, so he is fairly certain he has already gone.<BR>
+He turns to enter the kitchen, and his foot catches on a bit of stone. He flies forward and hits the floor.<BR>
+</font>
+<center>~o.O.o~</center><BR>
+""Oooowwwww..."" Gisela sits up, holding the side of her head. She finds herself in the kitchen. Groaning, she stands and leaves the room, trying to remember what she was doing before the thing took over."
+"eventtime","2005-11-03 16:32:00"
+"url","http://sexy-nurse.livejournal.com/12768.html"
+"userid","13567"
+"itemid","46"
+"event","PGxqLWN1dCB0ZXh0PSJHaXNlbGEgUHJvZmlsZSI+DQo8Y2VudGVyPjxiPkNIQVJBQ1RFUiBDSEFSVDwvYj48L2NlbnRlcj4NCg0KPEI+Q2hhcmFjdGVyJ3MgRnVsbCBOYW1lOjwvQj4gR2lzZWxhIHZvbiBDaHJpc3QgKGZvcm1lcmx5IFRyZW5uZW4pDQo8Qj5SZWFzb24gb3IgbWVhbmluZyBvZiBuYW1lOjwvQj4gUGxlZGdlLCBob3N0YWdlLCBhIGdpcmwgaGVsZCBob3N0YWdlIGR1cmluZyB3YXIgbmVnb3RpYXRpb25zDQo8Qj5OaWNrbmFtZTo8L0I+IEdpc2VsYSwgR2lzaWUgKHdoZW4gYSBjaGlsZCkNCg0KPGhyPg0KDQo8Y2VudGVyPlBIWVNJQ0FMIEFQUEVBUkFOQ0U6PC9jZW50ZXI+DQoNCjxCPkFnZTo8L0I+IDk1DQo8Qj5Ib3cgb2xkIGRvZXMgcy9oZSBhcHBlYXI/PC9CPiBBcm91bmQgMjANCg0KPEI+RXllIENvbG9yOjwvQj4gR3JlZW4NCg0KPEI+SGFpciBDb2xvcjo8L0I+IEdyZWVuIChmb3JtZXJseSBibHVlKQ0KPEI+U3R5bGUvQ3V0OjwvQj4gTG9uZywgdGhpY2ssIHVzdWFsbHkgYnJhaWRlZCAoY3VycmVudGx5IHNob3J0LCBjaG9wcHkpDQoNCjxCPldlaWdodDo8L0I+IDExMA0KPEI+SGVpZ2h0OjwvQj4gNeKAmTPigJ0NCjxCPlR5cGUgb2YgYm9keS9idWlsZDo8L0I+IFNtYWxsLCBzaG9ydCwgYnVzdHkNCjxCPlNraW4gdG9uZTo8L0I+IExpZ2h0IGJlaWdlDQo8Qj5TaGFwZSBvZiBmYWNlOjwvQj4gUm91bmQsIGhlYXJ0LXNoYXBlDQo8Qj5EaXN0aW5ndWlzaGluZyBNYXJrczo8L0I+IE5vbmUNCjxCPlByZWRvbWluYW50IGZlYXR1cmU6PC9CPiBIZXIgaGFpciwgdW51c3VhbCBjb2xvcg0KPEI+SXMgcy9oZSBoZWFsdGh5PzwvQj4gWWVzDQo8Qj5JZiBubywgd2h5IG5vdD88L0I+IEluIGEgY3JpdGljYWwgc2l0dWF0aW9uLCBzaGUgaXMgbGlrZWx5IHRvIHB1dCBtb3JlIGVuZXJneSBpbnRvIGhlbHBpbmcgb3RoZXJzLCBhbmQgbm90IHRha2luZyBjYXJlIG9mIGhlcnNlbGYuDQoNCjxocj4NCg0KPGNlbnRlcj5PVEhFUiBUUkFJVFMvUFJFRkVSRU5DRVM6PC9jZW50ZXI+DQoNCjxCPlNtZWxscyBsaWtlOjwvYj4gVmFuaWxsYSwgc2FuZGFsd29vZCwgdmFyaW91cyBoZXJicw0KPEI+VGFzdGVzIGxpa2U6PC9CPiBWYW5pbGxhLCBoZXJicw0KDQo8Qj5TbGVlcGluZyBhcHBhcmVsOjwvQj4gQSBuaWdodGRyZXNzLCBsb25nIHRvIGhlciBhbmtsZXMgaW4gdGhlIGNvbGRlciBzZWFzb25zLCBzaG9ydCBpbiB3YXJtZXIgc2Vhc29ucw0KPEI+RmF2b3JpdGUgc2xlZXBpbmcgcG9zaXRpb246PC9CPiBDdXJsZWQgb24gaGVyIHNpZGUsIGh1Z2dpbmcgYSBwaWxsb3csIGFuZCB1c3VhbGx5IGZhY2luZyB0aGUgd2FsbC9mYWNpbmcgYXdheSBmcm9tIHRoZSB3aW5kb3cuIElmIHNoZSBpcyB3aXRoIHNvbWVvbmUsIHNoZSBsaWtlcyB0byBjdWRkbGUNCg0KPEhSPg0KDQo8Y2VudGVyPkZBVk9SSVRFUzo8L2NlbnRlcj4NCg0KPEI+Q2hhcmFjdGVyJ3MgZmF2b3JpdGUgY29sb3I6PC9CPiBHcmVlbg0KPEI+TXVzaWM6PC9CPiBMaXZlbHksIG11c2ljIHNoZSBjYW4gZGFuY2UgdG8NCjxCPkZvb2Q6PC9CPiBTd2VldHMsIGNob2NvbGF0ZSwgaG9uZXkNCjxCPkxpdGVyYXR1cmU6PC9CPiBGYW50YXN5LCBoaXN0b3J5DQo8Qj5FeHByZXNzaW9uczo8L0I+ICJPaCBteSBTaGlub3UiLCAiSSdtIGZpbmUiLCAiWW91J2xsIGJlIGZpbmUiDQo8Qj5FeHBsZXRpdmVzOjwvQj4gRGFtbiBpcyBtb3N0IG9mdGVuIHVzZWQsIGJ1dCBkZXBlbmRpbmcgb24gaGVyIG1vb2QsIG5vdGhpbmcgaXMgc2FjcmVkDQoNCjxocj4NCg0KPGNlbnRlcj5IQUJJVFM6PC9jZW50ZXI+DQoNCjxCPlNtb2tlczo8L0I+IE5vDQoNCjxCPkRyaW5rczo8L0I+IFllcw0KPEI+V2hhdD88L0I+IFVzdWFsbHkgd2luZSBvciBiZWVyLCBidXQgd2lsbCBkcmluayBqdXN0IGFib3V0IGFueXRoaW5nDQo8Qj5XaGVuIGFuZCBob3cgbXVjaD88L0I+IERlcGVuZGluZyBvbiB0aGUgb2NjYXNzaW9uLCBsaXR0bGUgdG8gdG9vIG11Y2guIA0KDQo8Qj5Ib2JiaWVzOjwvQj4gQ29va2luZw0KDQo8aHI+DQoNCjxjZW50ZXI+QkFDS0dST1VORDo8L2NlbnRlcj4NCg0KPEI+SG9tZXRvd246PC9CPiBXYXMgbW9zdGx5IHJhaXNlZCBpbiBTaGluIE1ha29rdQ0KDQo8Qj5UeXBlIG9mIGNoaWxkaG9vZDo8L0I+IEhlciBjaGlsZGhvb2QgYmVnYW4gd2VsbCwgd2l0aCB0d28gbG92aW5nIHBhcmVudHMsIGEgbmljZSBob21lLCBhbmQgZW5vdWdoIG1vbmV5IHRvIGtlZXAgdGhlbSBmZWQsIGhlYWx0aHksIGFuZCBoYXBweS4gVW5mb3J0dW5hdGVseSwgd2hlbiBoZXIgZmF0aGVyIGRpZWQsIHNvIGRpZCB0aGVpciBpbmNvbWUuIEhlciBtb3RoZXIgd2FzIHVuYWJsZSB0byBtYWtlIGFzIG11Y2ggYXMgaGUgZGlkIGFuZCB0aGV5IHNvbGQgbWFueSBvZiB0aGVpciBiZWxvbmdpbmdzIHRvIG1ha2UgdXAgZm9yIGl0LiBJdCB3YXNuJ3QgbG9uZyBiZWZvcmUgaGVyIG1vdGhlciBiZWNhbWUgaWxsLiBXaXRob3V0IHByb3BlciBjYXJlIG9yIG1lZGljaW5lLCBoZXIgY29uZGl0aW9uZWQgd29yc2VuZWQsIHVudGlsIHNoZSB3YXMgbm8gbG9uZ2VyIGFibGUgdG8gZ2V0IG91dCBvZiBiZWQuIERlc3BlcmF0ZSwgR2lzZWxhIGJlZ2dlZCBvbiB0aGUgc3RyZWV0IGFuZCB0b29rIG9kZCBqb2JzLCB0cnlpbmcgdG8gc2NyYXBlIHRvZ2V0aGVyIGVub3VnaCBtb25leSB0byBnZXQgaGVyIG1vdGhlciB0aGUgbWVkaWNpbmUgc2hlIG5lZWRlZC4gU2hlIHF1aWNrbHkgbGVhcm5lZCB0aGF0IHBlb3BsZSBkaWQgbm90IHRha2Ugc21hbGwgY2hpbGRyZW4gc2VyaW91c2x5LCBhbmQgbm8gbWF0dGVyIHdoYXQgc2hlIGRpZCBvciBob3cgbG9uZyBzaGUgd29ya2VkLCBpdCB3YXMgbmV2ZXIgZW5vdWdoLiBTaGUgdHVybmVkIHRvIHN0ZWFsaW5nIHdoYXQgc2hlIGNvdWxkIG5vdCBvYnRhaW4gbGVnYWxseS4gRGVzcGl0ZSBoZXIgZWZmb3J0cywgaGVyIG1vdGhlciBzdGlsbCBkaWVkLiBTaGUgd2FzIHRoZW4gYWRvcHRlZCBieSBHdW50ZXIgdm9uIENocmlzdCwgd2hvIHRvb2sgaGVyIHdpdGggaGltIHRvIFNoaW4gTWFrb2t1Lg0KDQo8Qj5GaXJzdCBtZW1vcnk6IDwvQj4gUGxheWluZyBieSBhIGZpcmUgd2l0aCBoZXIgcmVhbCBmYXRoZXIgd2hpbGUgaGVyIG1vdGhlciByZWFkIGZyb20gYSBzdG9yeWJvb2suDQoNCjxCPk1vc3QgaW1wb3J0YW50IGNoaWxkaG9vZCBldmVudCB0aGF0IHN0aWxsIGFmZmVjdHMgaGltL2hlcjo8L0I+IEhlciBtb3RoZXIncyBkZWF0aA0KDQo8Qj5XaHk/PC9CPiBHaXNlbGEgd2FzIGRlc3BlcmF0ZSB0byBzYXZlIGhlciBtb3RoZXIsIGJ1dCB3YXMgbm90IGFibGUgdG8uIFNoZSBzZWVzIHRoaXMgYXMgYSBmYWlsdXJlIG9uIGhlciBwYXJ0LCBmb3Igbm90IHlldCBiZWluZyBhYmxlIHRvIGhlYWwgd2l0aCBoZXIgb3duIHBvd2VyLCBhbmQgZm9yIG5vdCBiZWluZyBhYmxlIHRvIGdldCBlbm91Z2ggbWVkaWNpbmUgdG8gbWFrZSBoZXIgd2VsbC4gSXQgaGFzIGFmZmVjdGVkIGhvdyBzaGUgZGVhbHMgd2l0aCBwYXRpZW50cyBub3csIGdpdmluZyBldmVyeXRoaW5nIHNoZSBoYXMsIGFuZCB0YWtpbmcgdGhlIGJsYW1lIHdoZW4gc2hlIGZhaWxzLg0KDQo8Qj5FZHVjYXRpb246PC9CPiBHdW50ZXIgcHJvdmlkZWQgaGVyIHdpdGggYSBnb29kIGVkdWNhdGlvbjsgd2FzIGFsc28gdHJhaW5lZCBhcyBhIG1pbGl0YXJ5IG1lZGljIGFuZCBoZWFsZXINCg0KPEI+UmVsaWdpb246PC9CPiBGYWl0aGZ1bCB0byB0aGUgU2hpbm91DQoNCjxCPkZpbmFuY2VzOjwvQj4gU2hlIG1ha2VzIG1vcmUgdGhhbiBlbm91Z2ggYXMgYSBtZWRpYyB0byBzZWUgdG8gaGVyIG5lZWRzIGFuZCB3YW50cy4NCg0KPGhyPg0KDQo8Y2VudGVyPkZBTUlMWTo8L2NlbnRlcj4NCg0KPEI+RmF0aGVyOjwvQj4gSmFrb2IgVHJlbm5lbiAoZGVhZCkNCjxCPlJlbGF0aW9uc2hpcCB3aXRoIGhpbTo8L0I+IFNoZSBkb2VzIG5vdCByZW1lbWJlciBoaW0gd2VsbCwgYnV0IHJlY2FsbHMgdGhhdCBoZSB3YXMgYmlnIGFuZCBzdHJvbmcgYW5kIHZlcnkgd2FybS4NCg0KPEI+TW90aGVyOjwvQj4gSWx5c2EgVHJlbm5lbiAoZGVhZCkNCjxCPlJlbGF0aW9uc2hpcCB3aXRoIGhlcjo8L0I+IEFmdGVyIEpha29iIGRpZWQsIHNoZSB3YXMgbW9yZSBhdHRhY2hlZCB0byBoZXIgbW90aGVyIHRoYW4gZXZlciBiZWZvcmUuIFRoZXkgaGFkIGEgc3Ryb25nIGJvbmQsIHZlcnkgbG92aW5nLiBTaGUgd2FzIGRldm90ZWQgdG8gaGVyIG1vdGhlciBhbmQgd2FzIGRldmFzdGF0ZWQgd2hlbiBzaGUgZGllZC4NCg0KPEI+RmF0aGVyIElJOjwvQj4gR3VudGVyDQo8Qj5SZWxhdGlvbnNoaXAgd2l0aCBoaW06PC9CPiBMb3ZpbmcuIFNoZSBsb3ZlcyBHdW50ZXIgYXMgdGhvdWdoIGhlIHdlcmUgaGVyIHJlYWwgZmF0aGVyIGFuZCB3b3VsZCBkbyBhbnl0aGluZyBmb3IgaGltIChhcyBsb25nIGFzIGl0IGRvZXNu4oCZdCBpbnRlcmZlcmUgd2l0aCB3aGF0IHNoZSB3YW50cykuIFNoZSB0cnVzdHMgaGltIHVuY29uZGl0aW9uYWxseSBhbmQgZmVlbHMgdGhlcmUgaXMgbm90aGluZyBoZSBjYW7igJl0IGRvLiBTaGUgYWRtaXJlcyBoaW0uDQoNCjxCPlNpYmxpbmdzOjwvQj4gTm9uZQ0KDQo8aHI+DQoNCjxjZW50ZXI+QVRUSVRVREU6PC9jZW50ZXI+DQoNCjxCPk1vc3QgYXQgZWFzZSB3aGVuOjwvQj4gUGVvcGxlIGFyZSBoYXBweSBhbmQgd2VsbCBhbmQgZ2V0dGluZyBhbG9uZywgYW5kIHRoZXJlIGFyZSBubyBtYWpvciBvciBsaW5nZXJpbmcgcHJvYmxlbXMgcGxhZ3VpbmcgaGVyc2VsZiBvciB0aG9zZSBzaGUgaXMgY2xvc2VzdCB0by4NCg0KPEI+SWxsIGF0IGVhc2Ugd2hlbjo8L0I+IFRoZXJlIGlzIHN1ZmZlcmluZywgc2hlIGlzIHVuYWJsZSB0byBoZWxwIHdpdGggYSBzaXR1YXRpb24sIHNoZSBpcyBsaWVkIHRvDQoNCjxCPlByaW9yaXRpZXM6PC9CPiBIZXIgZmlyc3QgcHJpb3JpdHkgaXMgdG8gaGVyIHBhdGllbnRzIGFuZCB0aG9zZSBzaGUgbG92ZXMvY2FyZXMgZm9yLiBTaGUgZmVlbHMgc2hlIG11c3Qgc2VlIHRvIGV2ZXJ5b25l4oCZcyBoZWFsdGggYW5kIGhhcHBpbmVzcyBiZWZvcmUgaGVyIG93bi4NCg0KPEI+UGhpbG9zb3BoeTo8L0I+IERvIHVudG8gb3RoZXJz4oCmDQoNCjxCPkhvdyBzL2hlIGZlZWxzIGFib3V0IHNlbGY6PC9CPiBTaGUgaXMgY29uZmlkZW50IGluIGhlciBhYmlsaXRpZXMgYW5kIGFwcGVhcmFuY2UgYW5kIGlzIHVzdWFsbHkgdmVyeSBvcHRpbWlzdGljIGFib3V0IGhlcnNlbGYuIEhvd2V2ZXIsIGl0IGlzIHZlcnkgZWFzeSB0byBidXJzdCBoZXIgYnViYmxlLg0KDQo8Qj5QYXN0IGZhaWx1cmUgcy9oZSB3b3VsZCBiZSBlbWJhcnJhc3NlZCB0byBoYXZlIHBlb3BsZSBrbm93IGFib3V0OjwvQj4gVGhlIGRlYXRocyBvZiBoZXIgbW90aGVyIGFuZCBKdWxpYS4NCjxCPldoeT88L0I+IFNoZSBiZWxpZXZlcyBjb3VsZCBoYXZlIHByZXZlbnRlZCB0aGVpciBkZWF0aHMgaWYgb25seSBzaGUgd2VyZSBzdHJvbmdlci4NCg0KPEI+SWYgZ3JhbnRlZCBvbmUgd2lzaCwgd2hhdCB3b3VsZCBpdCBiZT88L0I+IFRvIGJlIGdpdmVuIGEgc2Vjb25kIGNoYW5jZSB0byBzYXZlIHRob3NlIHNoZSBjb3VsZG7igJl0Lg0KPEI+V2h5PyA8L0I+IFBhcnQgb2YgaGVyIHdpbGwgYWx3YXlzIHRha2UgcmVzcG9uc2liaWxpdHkgZm9yIGEgZGVhdGggb3IgaW5qdXJ5IHRoYXQgc2hlIGZlZWxzIHNoZSBjb3VsZCBoYXZlIHByZXZlbnRlZCwgZXZlbiBpZiB0aGUgc2l0dWF0aW9uIHdhcyBvdXQgb2YgaGVyIGNvbnRyb2wgb3IgYmV5b25kIGhlciBhYmlsaXRpZXMuDQoNCjxocj4NCg0KPGNlbnRlcj5QRVJTT05BTElUWTo8L2NlbnRlcj4NCg0KPEI+R3JlYXRlc3Qgc291cmNlIG9mIHN0cmVuZ3RoIGluIGNoYXJhY3RlcidzIHBlcnNvbmFsaXR5ICh3aGV0aGVyIHMvaGUgc2VlcyBpdCBhcw0Kc3VjaCBvciBub3QpOjwvQj4gUGVvcGxlIGNhbiB0cnVzdCBoZXIgYW5kIHJlbHkgb24gaGVyIGZvciBhbnkga2luZCBvZiBoZWxwLiBTaGUgaGFzIGEgdHJlbWVuZG91cyB3aWxsaW5nbmVzcyB0byBoZWxwIG90aGVyIHBlb3BsZSBhdCBhbnkgY29zdCwgd2hldGhlciB0aGV5IGJlIGZyaWVuZCBvciBmb2UuDQoNCjxCPkdyZWF0ZXN0IHNvdXJjZSBvZiB3ZWFrbmVzcyBpbiBjaGFyYWN0ZXIncyBwZXJzb25hbGl0eSAod2hldGhlciBzL2hlIHNlZXMgaXQgYXMNCnN1Y2ggb3Igbm90KTo8L0I+IEhlciB0cnVzdCBhbmQga2luZG5lc3MuIFNoZSBpcyB3aWxsaW5nIHRvIGdpdmUgZXZlcnlvbmUgdGhlIGJlbmVmaXQgb2YgdGhlIGRvdWJ0IGFuZCB3aWxsIGJlbGlldmUgYW55IHBlcnNvbiBzaGUgZW5jb3VudGVycyBpcyBnb29kIHVudGlsIHByb3ZlbiBvdGhlcndpc2UuIEhlciBwcmlkZSBpcyBhbHNvIGEgd2Vha25lc3MsIGluIHRoYXQgc2hlIGlzIHVud2lsbGluZyB0byBnaXZlIHVwIG9yIGxldCBvdGhlcnMgdGFrZSBvdmVyIGZvciBoZXIuIFNoZSBjYW4gYmUgdmVyeSBzdHViYm9ybi4NCg0KPEI+Q2hhcmFjdGVyJ3Mgc29mdCBzcG90OiA8L0I+IFByZXR0eSB3b3JkcyBhbmQgY29tcGxpbWVudHMgd2lsbCBtZWx0IGhlci4gQWZmZWN0aW9uLg0KPEI+SXMgdGhpcyBzb2Z0IHNwb3Qgb2J2aW91cyB0byBvdGhlcnM/IDwvQj4gWWVzLiBTaGUgZG9lc27igJl0IGJvdGhlciB0byBoaWRlIGl0Lg0KDQo8Qj5CaWdnZXN0IHZ1bG5lcmFiaWxpdHk6PC9CPiBQcmlkZSBhbmQgc3R1YmJvcm5uZXNzLiBTaGUgYmVsaWV2ZXMgc2hlIGlzIHRoZSBvbmx5IG9uZSB3aG8gY2FuIGRvIGEgam9iIHByb3Blcmx5IGFuZCB3aWxsIGdvIHRvIGdyZWF0IGxlbmd0aHMgdG8gc2VlIHRoYXQgZXZlcnl0aGluZyBpcyB1cCB0byBoZXIgc3RhbmRhcmRzLiBTaGUgaXMgbW9yZSBsaWtlbHkgdG8gcnVuIGhlcnNlbGYgcmFnZ2VkIGFuZCBlbmRhbmdlciBoZXIgb3duIGhlYWx0aCBiZWZvcmUgZ2l2aW5nIHVwIG9uIGEgdGFzaywgZXNwZWNpYWxseSBpbiBhIGNyaXRpY2FsIG9yIGVtZXJnZW5jeSBzaXR1YXRpb24uDQoNCjxocj4NCg0KPGNlbnRlcj5UUkFJVFM6PC9jZW50ZXI+DQoNCjxCPk9wdGltaXN0IG9yIHBlc3NpbWlzdDo8L0I+IE9wdGltaXN0DQo8Qj5XaHk/PC9CPiBTaGUgYmVsaWV2ZXMgdGhhdCBhbnl0aGluZyBjYW4gYmUgb3ZlcmNvbWUgd2l0aCB0aW1lLCBoYXJkIHdvcmssIGxvdmUsIGFuZC9vciBzdXBwb3J0LiBTaGUgaGFzIGFsd2F5cyBiZWVuIHRoaXMgd2F5Lg0KDQo8Qj5JbnRyb3ZlcnQgb3IgZXh0cm92ZXJ0OjwvQj4gRXh0cm92ZXJ0DQo8Qj5XaHk/PC9CPiBTaGUgbG92ZXMgYmVpbmcgYXJvdW5kIHBlb3BsZSwgd2hldGhlciBpdCBiZSBoZWxwaW5nLCBib3NzaW5nIGFyb3VuZCwgb3IganVzdCBoYXZpbmcgZnVuLg0KDQo8Qj5Ecml2ZXMgYW5kIG1vdGl2YXRpb25zOjwvQj4gSGVyIG5lZWQgdG8gaGVscCBwZW9wbGUgc3RlbXMgZnJvbSBoZXIgcGFyZW50c+KAmSBkZWF0aHMgYW5kIGhlciBpbmFiaWxpdHkgdG8gc2F2ZSB0aGVtIChzaGUgd2FzIGp1c3QgYSBjaGlsZCkuIFNoZSB3YXMgaW5zcGlyZWQgYnkgSnVsaWEsIGFuZCBmdXJ0aGVyIG1vdGl2YXRlZCBieSBoZXIgZGVhdGggKHNoZSBmZWVscyBzaGUgc2hvdWxkIGhhdmUgYmVlbiBhYmxlIHRvIHByZXZlbnQgaXQpLiBIZXIgc2VsZiBwcmlkZSBhbmQgaGVyIGRlc2lyZSB0byBtYWtlIEd1bnRlciBwcm91ZCBvZiBoZXIgYWxzbyBpbmZsdWVuY2UgaGVyIGFjdGlvbnMuDQoNCjxCPlRhbGVudHM6PC9CPiBGaXJzdCBhbmQgZm9yZW1vc3QsIHNoZSBpcyBhIGhlYWxlciBhbmQgYSBtZWRpYywgYW5kIGFzIHN1Y2ggaXMgc2tpbGxlZCBhdCBwb3Rpb25zIGFuZCBtZWRpY2luZSBtYWtpbmcuIFNoZSBhbHNvIGhhcyBhIGtuYWNrIGZvciBjb29raW5nIGFuZCBkZXNpZ25pbmcvc2hvcHBpbmcgZm9yIGNsb3RoZXMuDQoNCjxCPkV4dHJlbWVseSB1bnNraWxsZWQgYXQ6PC9CPiBXZWFwb25zLiBUaG91Z2ggc2hlIGNhbiBwdXQgdXAgYSBnb29kIGZpZ2h0IGFuZCBidWxseSBtb3N0IHBlb3BsZSBpbnRvIGRvaW5nIGhlciBiaWRkaW5nLCBzaGUgaXMgbm8gZ29vZCBhdCB3aWVsZGluZyBhbnkga2luZCBvZiB3ZWFwb24uIFNoZSBhbHNvIGhhcyBubyBkZXNpcmUgdG8gZXZlciBsZWFybiwgYXMgc2hlIGlzIHZlcnkgb3Bwb3NlZCB0byBoYXJtaW5nIG90aGVyIHVubGVzcyBhYnNvbHV0ZWx5IG5lY2Vzc2FyeS4NCg0KPEI+R29vZCBjaGFyYWN0ZXJpc3RpY3M6PC9CPiBLaW5kLCB0cnVzdGluZyBhbmQgdHJ1c3R3b3J0aHksIGxveWFsLCBkZWRpY2F0ZWQsIGhhcmQgd29ya2VyLCBvcHRpbWlzdGljLCBsZWFkZXINCg0KPEI+Q2hhcmFjdGVyIGZsYXdzOjwvQj4gU3R1YmJvcm4sIHVuc3VzcGVjdGluZywgcHVzaGVzIGhlcnNlbGYgdG9vIGhhcmQsIHB1dHMgdG9vIG11Y2ggZmFpdGggaW4gb3RoZXJzLCBidWxseQ0KDQo8Qj5NYW5uZXJpc21zOjwvQj4gU2hlIHdpbGwgb3BlbiBoZXIgaGFuZHMsIHN0cmV0Y2ggb3V0IGhlciBmaW5nZXJzLCB3aGVuIHNoZSB3YW50cyB0byBoZWxwLCBhbmQgbWFrZSBhIGZpc3Qgd2hlbiBzaGUgaXMgdXBzZXQuIA0KDQo8Qj5QZWN1bGlhcml0aWVzOjwvQj4gVmVyeSBhZmZlY3Rpb25hdGUgYW5kIHdpbGwgaHVnL2NsaW5nIHRvL2hvbGQvdG91Y2ggYW55b25lIHNoZSBmZWVscyBjb21mb3J0YWJsZSB3aXRoLiANCg0KPEI+QmlnZ2VzdCByZWdyZXQ6PC9CPiBJbiB0aGUgcGFzdCwgbm90IHNhdmluZyBoZXIgcGFyZW50cyBvciBKdWxpYTsgcmVjZW50bHksIG5vdCBzYXZpbmcgSG9rYS1ZdXVyaQ0KDQo8Qj5NaW5vciByZWdyZXRzOjwvQj4gRmFsbGluZyBhc2xlZXAgd2hlbiB0aGVyZSB3YXMgd29yayB0byBkbyAoZXZlbiB0aG91Z2ggc2hlIHBhc3NlZCBvdXQpLCBub3Qgc2F5aW5nIHRoZSB0aGluZ3Mgc2hlIHdhbnRlZCB0byB0aGUgcGVvcGxlIHNoZSB3YW50ZWQgYmVmb3JlIGl0IHdhcyB0b28gbGF0ZQ0KDQo8Qj5CaWdnZXN0IGFjY29tcGxpc2htZW50OjwvQj4gTWFzdGVyaW5nIGhlciBoZWFsaW5nIHBvd2VycyBhbmQgYmVjb21pbmcgYSBtZWRpYywgaGVscGluZyBpbiBDYWxvcmlhDQoNCjxCPk1pbm9yIGFjY29tcGxpc2htZW50czo8L0I+IE51bWVyb3VzLCBtb3N0bHkgaW52b2x2aW5nIGhlbHBpbmcgcGVvcGxlDQoNCjxCPkNoYXJhY3RlcidzIGRhcmtlc3Qgc2VjcmV0OjwvQj4gU2hlIGlzIHVzaW5nIEpvc2UgYXMgYSBtZWFucyBvZiBlc2NhcGUNCjxCPkRvZXMgYW55b25lIGVsc2Uga25vdz88L0I+IEpvc2UgaXMgYmVnaW5uaW5nIHRvIHN1c3BlY3QuLi4gDQo8Qj5JZiB5ZXMsIGRpZCBjaGFyYWN0ZXIgdGVsbCB0aGVtPzwvQj4gU29ydCBvZi4uLg0KPEI+SWYgbm8sIGhvdyBkaWQgdGhleSBmaW5kIG91dD88L0I+IEhlIGlzIHBlcmNlcHRpdmUNCg0KPGhyPg0KDQo8Y2VudGVyPlNFTEYtUEVSQ0VQVElPTjo8L2NlbnRlcj4NCg0KPEI+T25lIHdvcmQgQ0hBUkFDVEVSIHdvdWxkIHVzZSB0byBkZXNjcmliZSBzZWxmOjwvQj4gTmVjZXNzYXJ5DQoNCjxCPk9uZSBwYXJhZ3JhcGggZGVzY3JpcHRpb24gb2YgaG93IENIQVJBQ1RFUiB3b3VsZCBkZXNjcmliZSBzZWxmOjwvQj4gSSBsaWtlIG1lLiBJ4oCZbSBub3QgcGVyZmVjdCwgYnV0IEkgYW0gYSBnb29kIHBlcnNvbi4gSSBkbyBteSBiZXN0IGFuZCB0cnkgdG8gaGVscCBvdGhlcnMgZG8gdGhlaXIgYmVzdC4gSSB3YW50IHRvIHNlZSBwZW9wbGUgaGFwcHkgYW5kIGhlYWx0aHkgYW5kIGVuam95aW5nIHRoZWlyIGxpdmVzLiBCdXQgdGhlcmUgYXJlIHRpbWVzIHdoZW4geW91IGhhdmUgdG8gYmUgdG91Z2ggYW5kIGxldCBwZW9wbGUga25vdyB5b3UgbWVhbiBidXNpbmVzcy4gVG9vIG1hbnkgcGVvcGxlIGFzIGp1c3QgdG9vIHN0dWJib3JuIHRvIGtub3cgd2hhdOKAmXMgZ29vZCBmb3IgdGhlbSEgDQoNCjxCPldoYXQgZG9lcyBDSEFSQUNURVIgY29uc2lkZXIgYmVzdCBwaHlzaWNhbCBjaGFyYWN0ZXJpc3RpYz88L0I+IEhlciBicmVhc3RzLiBeX14gQW5kIGhlciBoYWlyLg0KDQo8Qj5XaGF0IGRvZXMgQ0hBUkFDVEVSIGNvbnNpZGVyIHdvcnN0IHBoeXNpY2FsIGNoYXJhY3RlcmlzdGljPzwvQj4gU2hlIGRvZXNu4oCZdCB0aGluayBzaGXigJlzIGFsbCB0aGF0IGF0dHJhY3RpdmUsIGRlc3BpdGUgZXZpZGVuY2UgdG8gdGhlIGNvbnRyYXJ5Lg0KPEI+QXJlIHRoZXNlIHJlYWxpc3RpYyBhc3Nlc3NtZW50cz88L0I+IE5vLg0KPEI+SWYgbm90LCB3aHkgbm90PzwvQj4gU2hlIGlzIHByZXR0eSBhbmQgY3V0ZSBhbmQgcGVvcGxlIHRlbGwgaGVyIHNvDQoNCjxCPkhvdyBDSEFSQUNURVIgdGhpbmtzIG90aGVycyBwZXJjZWl2ZSBoaW0vaGVyOjwvQj4gU2hlIGxpa2VzIHRvIHRoaW5rIHRoYXQgb3RoZXJzIHNlZSBoZXIgYXMgYSBmaWd1cmUgb2YgYXV0aG9yaXR5IGFuZCBleHBlY3RzIHRvIGJlIG9iZXllZC4gU2hlIHdhbnRzIHRvIGJlIGZyaWVuZHMgd2l0aCBldmVyeW9uZSwgc28gc2hlIHRlbmRzIHRvIGV4cGVjdCB0aGVtIHRvIHdhbnQgdG8gYmUgZnJpZW5kcyB3aXRoIGhlci4gT24gdGhlIG90aGVyIGhhbmQsIGNlcnRhaW4gaW5kaXZpZHVhbHMgaGF2ZSBhIGtuYWNrIGZvciBnb2luZyBhZ2FpbnN0IGhlciBvcmRlcnMsIGFuZCB0aGlzIG1ha2VzIGhlciBmZWVsIHRoYXQgdGhleSBkb27igJl0IHJlc3BlY3QgaGVyIGp1ZGdtZW50IG9yIGhlciwgYW5kIHRoYXQgdGhleSBleHBlY3QgaGVyIHRvIHJ1biBhbmQgaGVscCB0aGVtIHdoZW4gdGhleSBuZWVkIGhlbHAsIGJ1dCBkb27igJl0IGhlZWQgaGVyIGFkdmljZSBvciB3aXNoIHRvIGtub3cgaGVyIGZvciBhbnkgb3RoZXIgcmVhc29uLg0KDQo8aHI+DQoNCjxDZW50ZXI+UkVMQVRJT05TOg0KKHBlbmRpbmcpPC9jZW50ZXI+IA0KDQo8Qj5SZWxhdGlvbnNoaXBzPC9CPg0KDQo8VT5JQyBBbGZvcmQ8L1U+ICg8bGogdXNlcj0iaHVtYW5faGVybyI+KSANCltuZXV0cmFsXSAoPGEgaHJlZj0iaHR0cDovL2NvbnJhZC10aGUtZXZpbC5saXZlam91cm5hbC5jb20vMjY3MS5odG1sIj5IZWFkYWNoZTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS85MjUwLmh0bWwiPkRvb21zIERheTogSW5maXJtYXJ5PC9hPikNCg0KPFU+SUMgQW5pc3NpbmE8L1U+ICg8bGogdXNlcj0iaW52ZW50b3Jfc2FtYSI+OyA8bGogdXNlcj0iZ2VuaXVzX2FuaXNzaW5hIj4pIA0KW2ZyaWVuZF0gKDxhIGhyZWY9Imh0dHA6Ly9zdHJlc3NlZHlvemFrLmxpdmVqb3VybmFsLmNvbS8zODc1Lmh0bWwiPlBhcnR5OiBIZWFsaW5nIHRoZSBIZWFsZXI8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vOTI1MC5odG1sIj5Eb29tcyBEYXk6IEluZmlybWFyeTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9nZW5pdXMtYW5pc3NpbmEubGl2ZWpvdXJuYWwuY29tLzMwODIuaHRtbCI+RG9vbXMgRGF5OiBUZWxlcGF0aHkgU3Vja3M8L2E+OyA8YSBocmVmPSJodHRwOi8vZ2VuaXVzLWFuaXNzaW5hLmxpdmVqb3VybmFsLmNvbS8zMzg1Lmh0bWwiPkRvb21zIERheTogQmFjayB0byBCZWQ8L2E+OyA8YSBocmVmPSJodHRwOi8vbWlzc2JpY2Vwcy5saXZlam91cm5hbC5jb20vMTE0NDMuaHRtbCI+RG9vbXMgRGF5OiBZb3phaydzIEJsZWVkaW5nPC9hPikNCg0KPFU+SUMgQ2VjaWxpZTwvVT4gKDxsaiB1c2VyPSJjaGVyaV9ibG9zc29tIj4pIA0KW2ZyaWVuZCwgcmVzcGVjdF0gKDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS82MTMuaHRtbCI+SGVsbG88L2E+OyA8YSBocmVmPSJodHRwOi8vY29tbXVuaXR5LmxpdmVqb3VybmFsLmNvbS9vbWdfbWFvdS8xMzA4NS5odG1sP3RocmVhZD0xOTg2ODUiPkFycml2aW5nIGF0IHRoZSBQYXJ0eTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9jb21tdW5pdHkubGl2ZWpvdXJuYWwuY29tL29tZ19tYW91LzEzNzg2Lmh0bWwiPlBhcnR5OiBTSCB2cy4gU2hvcmk8L2E+OyA8YSBocmVmPSJodHRwOi8vcHJpbmNlc3NvdGVubmlzLmxpdmVqb3VybmFsLmNvbS84NjQxLmh0bWwiPkRhbmNlIExlc3NvbnM8L2E+OyA8YSBocmVmPSJodHRwOi8veXVyaS1tYW91LmxpdmVqb3VybmFsLmNvbS84NTcuaHRtbCI+RHVtcGluZyBEb3VibGVzPC9hPikNCg0KPFU+SUMgQ29ucmFkPC9VPiAoPGxqIHVzZXI9InNla2luaW4iPikgDQpbZnJpZW5kLCByZXNwZWN0XSAoPGEgaHJlZj0iaHR0cDovL2NvbnJhZC10aGUtZXZpbC5saXZlam91cm5hbC5jb20vMjY3MS5odG1sIj5IZWFkYWNoZTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9jb21tdW5pdHkubGl2ZWpvdXJuYWwuY29tL29tZ19tYW91LzE0Nzg0Lmh0bWw/dGhyZWFkPTI4NzY4MCI+UGFydHk6IENvbnJhZDxhPjsgPGEgaHJlZj0iaHR0cDovL2NvbW11bml0eS5saXZlam91cm5hbC5jb20vb21nX21hb3UvMTQ3ODQuaHRtbD90aHJlYWQ9Mjk1ODcyIj5QYXJ0eTogQ29ucmFkIElJPC9BPjsgPGEgaHJlZj0iaHR0cDovL2NvbW11bml0eS5saXZlam91cm5hbC5jb20vb21nX21hb3UvMTQ1NDcuaHRtbD90aHJlYWQ9MzgwODgzIj5QYXJ0eTogQ29ucmFkIElJSTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9jb21tdW5pdHkubGl2ZWpvdXJuYWwuY29tL29tZ19tYW91LzE0NTQ3Lmh0bWw/dGhyZWFkPTM5NzI2NyI+UGFydHk6IEZpbmRpbmcgU0g8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vOTI1MC5odG1sIj5Eb29tcyBEYXk6IEluZmlybWFyeTwvYT4pDQoNCjxVPklDIEdyZXRhPC9VPiAoPGxqIHVzZXI9ImdyZXRhX2NoYW4iPikgDQpbXl9eXSAoPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzYxMy5odG1sIj4qPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzE5NjcuaHRtbCI+SGFwcHkgRGF5PC9hPjsgPGEgaHJlZj0iaHR0cDovL2NvbW11bml0eS5saXZlam91cm5hbC5jb20vb21nX21hb3UvMTk2MTkuaHRtbCI+UGFydHk6IExpdHRsZSBEcnVuazwvYT4pDQoNCjxVPklDIEd1bnRlcjwvVT4gKDxsaiB1c2VyPSJtYW91X2ZhbmJveSI+OyA8bGogdXNlcj0ic29tZXdoYXRhc2FpbnQiPjsgPGxqIHVzZXI9ImxpbGFjX3NlbmVzY2hhbCI+KSANCltwYXJlbnQsIGxvdmVdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNjEzLmh0bWwiPkhlbGxvPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzg2OS5odG1sIj5XYXJuaW5nPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzgyNTUuaHRtbCI+RG9vbXMgRGF5OiBNZWV0aW5nIEFuaTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zb21ld2hhdGFzYWludC5saXZlam91cm5hbC5jb20vMTA4MC5odG1sIj5Eb29tcyBEYXk6IERhZGR5PC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzg3NjguaHRtbCI+RG9vbXMgRGF5OiBTSCBpcyBEZWFkPC9BPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzkyNTAuaHRtbCI+RG9vbXMgRGF5OiBJbmZpcm1hcnk8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMTAwMzEuaHRtbCI+RG9vbXMgRGF5OiBGcmVkPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NvbWV3aGF0YXNhaW50LmxpdmVqb3VybmFsLmNvbS8yNjExLmh0bWwiPkdvb2RieWUgR3VudGVyPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzEyNzY4Lmh0bWwiPlByaXNvbmVyPC9hPikNCg0KPFU+SUMgR3dlbmRhbDwvVT4gKDxsaiB1c2VyPSJncnVtcHlnd2VuIj4pIA0KW3Jlc3BlY3RdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMjI3NS5odG1sIj5MaXN0ZW4gdXAhPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NpbmZ1bC1tYW91LmxpdmVqb3VybmFsLmNvbS80MDkzLmh0bWwiPlNIJ3MgU2V4eSBDbGFzczwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS85MjUwLmh0bWwiPkRvb21zIERheTogSW5maXJtYXJ5PC9hPjsgPGEgaHJlZj0iaHR0cDovL2dydW1weWd3ZW4ubGl2ZWpvdXJuYWwuY29tLzEwMzIwLmh0bWwiPlNlZWtpbmcgSGVscDwvYT4pDQoNCjxVPklDIEh1YmVyPC9VPiAoPGxqIHVzZXI9ImNyZXN0ZmFsbGVubW9vbiI+KSAqKiANCltuZXV0cmFsXSAoPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzIyNzUuaHRtbCI+TGlzdGVuIHVwITwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS85MjUwLmh0bWwiPkRvb21zIERheTogSW5maXJtYXJ5PC9hPikNCg0KPFU+SUMgSmVubmlmZXI8L1U+ICg8bGogdXNlcj0icHJpbmNlc3NvdGVubmlzIj4pIA0KW25ldXRyYWwsIHJlc3BlY3RdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNjEzLmh0bWwiPkhlbGxvPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NpbmZ1bC1tYW91LmxpdmVqb3VybmFsLmNvbS80MDkzLmh0bWwiPlNIJ3MgU2V4eSBDbGFzczwvYT47IDxhIGhyZWY9Imh0dHA6Ly9jb21tdW5pdHkubGl2ZWpvdXJuYWwuY29tL29tZ19tYW91LzE5NjE5Lmh0bWwiPlBhcnR5OiBMaXR0bGUgRHJ1bms8L2E+OyA8YSBocmVmPSJodHRwOi8vcHJpbmNlc3NvdGVubmlzLmxpdmVqb3VybmFsLmNvbS84NjQxLmh0bWwiPkRhbmNlIExlc3NvbnM8L2E+KQ0KDQo8VT5JQyBKb3NlPC9VPiAoPGxqIHVzZXI9Impvc2VfY2FsaWVudGUiPikgDQpbbG92ZXIsIGZyaWVuZF0gKDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS8xMzU1MC5odG1sIj5NZWV0aW5nIEpvc2U8L2E+OyA8YSBocmVmPSJodHRwOi8vam9zZS1jYWxpZW50ZS5saXZlam91cm5hbC5jb20vNjYzLmh0bWwiPkdvb2RieWUsIEZyZWQ8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMTQyMjguaHRtbCI+V2FraW5nIE1yLiBTbGVlcHloZWFkPC9hPjsgPGEgaHJlZj0iaHR0cDovL2pvc2UtY2FsaWVudGUubGl2ZWpvdXJuYWwuY29tLzE3ODYuaHRtbCI+R29pbmcgdG8gRGlubmVyPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzE0ODE5Lmh0bWwiPlRyZWVzIGFuZCBhIE5ldyBMb3ZlcjwvYT47IDxhIGhyZWY9Imh0dHA6Ly9qb3NlLWNhbGllbnRlLmxpdmVqb3VybmFsLmNvbS8xOTA0Lmh0bWwiPlRoZSBNb3JuaW5nIEFmdGVyPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzE0OTM3Lmh0bWwiPk5hcHRpbWU8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMTU1ODUuaHRtbCI+TW9yZSBKb3NlPC9hPjsgPGEgaHJlZj0iaHR0cDovL2pvc2UtY2FsaWVudGUubGl2ZWpvdXJuYWwuY29tLzIxMzcuaHRtbCI+U291cCBhbmQgSm9zZTwvYT4pDQoNCjxVPklDIEp1bGlhPC9VPiAoPGxqIHVzZXI9ImdsYXNzX21lbW9yeSI+KSANCltmcmllbmQsIG1lbnRvciwgcmVzcGVjdF0gKDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS8xNTYyNi5odG1sIj5BbiBPbGQgRnJpZW5kIGFuZCBhIE5ldyBFbmVteTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9ncnVtcHlnd2VuLmxpdmVqb3VybmFsLmNvbS8xMDMyMC5odG1sIj5TZWVraW5nIEhlbHA8L2E+KQ0KDQo8VT5JQyBNdXJhdGE8L1U+ICg8bGogdXNlcj0idGhlX2dyZWF0X3NhZ2UiPikgDQpbcmVzcGVjdF0gKDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS85MjUwLmh0bWwiPkRvb21zIERheTogSW5maXJtYXJ5PC9hPikNCg0KPFU+SUMgTmljb2xhIGFuZCBFcnU8L1U+ICg8bGogdXNlcj0iZXJ1bmljb2xhIj4pIA0KW2ZyaWVuZF0gKDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS85MjUwLmh0bWwiPkRvb21zIERheTogSW5maXJtYXJ5PC9hPikNCg0KPFU+SUMgUmF2ZW48L1U+ICg8bGogdXNlcj0ic291bGZpbGxlZF9leWVzIj4pIA0KW3Jlc3BlY3RdICg8YSBocmVmPSJodHRwOi8vY29ucmFkLXRoZS1ldmlsLmxpdmVqb3VybmFsLmNvbS8yNjcxLmh0bWwiPkhlYWRhY2hlPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NvdWxmaWxsZWQtZXllcy5saXZlam91cm5hbC5jb20vMjQ3NC5odG1sIj5Eb29tcyBEYXk6IFJhdmVuIGFuZCBDaGVyaTwvYT4pDQoNCjxVPklDIFNoaW5vdTwvVT4gKDxsaiB1c2VyPSJ5ZXN0eWViZWp1ZGdlZCI+OyA8bGogdXNlcj0ic2hpbm91X2hlaWthIj4pIFt3b3JzaGlwXQ0KDQo8VT5JQyBTaG9yaTwvVT4gKDxsaiB1c2VyPSJfb25paWNoYW4iPjsgPGxqIHVzZXI9InNoaWJ1eWFfc2hvcmkiPikgDQpbZnJpZW5kLCBzbGlnaHQgY3J1c2hdICg8YSBocmVmPSJodHRwOi8vdXNlcnMubGl2ZWpvdXJuYWwuY29tL19vbmlpY2hhbi80MDcuaHRtbCI+TWVldGluZyBTaG9yaTwvYT47IDxhIGhyZWY9Imh0dHA6Ly91c2Vycy5saXZlam91cm5hbC5jb20vX29uaWljaGFuLzEwOTAuaHRtbCI+SnVzdCBGcmllbmRzPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzYwNTAuaHRtbCI+U2hvcHBpbmcgd2l0aCBTaG9yaTwvYT47IDxhIGhyZWY9Imh0dHA6Ly91c2Vycy5saXZlam91cm5hbC5jb20vX29uaWljaGFuLzIyMjkuaHRtbCI+R29pbmcgdG8gdGhlIFBhcnR5PC9hPjsgPGEgaHJlZj0iaHR0cDovL2NvbW11bml0eS5saXZlam91cm5hbC5jb20vb21nX21hb3UvMTMwODUuaHRtbD90aHJlYWQ9MTk4Njg1Ij5BcnJpdmluZyBhdCB0aGUgUGFydHk8L2E+OyA8YSBocmVmPSJodHRwOi8vY29tbXVuaXR5LmxpdmVqb3VybmFsLmNvbS9vbWdfbWFvdS8xMzc4Ni5odG1sIj5QYXJ0eTogU0ggdnMuIFNob3JpPC9hPikNCg0KPFU+SUMgVWxyaWtlPC9VPiAoPGxqIHVzZXI9Im9yaWdpbmFsbWFpZGVuIj4pIFtyZXNwZWN0XQ0KDQo8VT5JQyBXb2xmcmFtPC9VPiAoPGxqIHVzZXI9ImdvbGRlbmJpc2hvdW5lbiI+KSANCltmcmllbmQsIHJlc3BlY3RdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNjEzLmh0bWwiPkhlbGxvPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzUzODguaHRtbCI+QnVybiBWaWN0aW1zPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzkyNTAuaHRtbCI+RG9vbXMgRGF5OiBJbmZpcm1hcnk8L2E+KQ0KDQo8VT5JQyBZb3phazwvVT4gKDxsaiB1c2VyPSJtaXNzYmljZXBzIj4pIA0KW2ZyaWVuZF0gKDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS82MTMuaHRtbCI+SGVsbG88L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMTk2Ny5odG1sIj5IYXBweSBEYXk8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMjQwMC5odG1sIj5OZWVkcyB0byBzaG9wPC9hPjsgYSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMjYwNy5odG1sIj5TaG9wcGluZzwvYT47IDxhIGhyZWY9Imh0dHA6Ly9jb25yYWQtdGhlLWV2aWwubGl2ZWpvdXJuYWwuY29tLzI2NzEuaHRtbCI+SGVhZGFjaGU8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNTM4OC5odG1sIj5CdXJuIFZpY3RpbXM8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNTgxMC5odG1sIj5JbnZpdGU8L2E+OyA8YSBocmVmPSJodHRwOi8vY29tbXVuaXR5LmxpdmVqb3VybmFsLmNvbS9vbWdfbWFvdS8xNDU0Ny5odG1sP3RocmVhZD0zMTEyNTEiPlBhcnR5OiBTbWFzaGVkPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzY5ODYuaHRtbCI+UGFydHk6IFlvemFrJ3MgSGVhZGFjaGU8L2E+OyA8YSBocmVmPSJodHRwOi8vbWlzc2JpY2Vwcy5saXZlam91cm5hbC5jb20vNzYwOS5odG1sP3RocmVhZD0xMjM1NzciPlBhcnR5OiBNZWV0aW5nIE9PQyBTaG9yaTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS85MjUwLmh0bWwiPkRvb21zIERheTogSW5maXJtYXJ5PC9hPjsgPGEgaHJlZj0iaHR0cDovL21pc3NiaWNlcHMubGl2ZWpvdXJuYWwuY29tLzExNDQzLmh0bWwiPkRvb21zIERheTogWW96YWsncyBCbGVlZGluZzwvYT47IDxhIGhyZWY9Imh0dHA6Ly9taXNzYmljZXBzLmxpdmVqb3VybmFsLmNvbS8xMTUzNi5odG1sP3RocmVhZD0yMDUzMjgiPkRvb21zIERheTogWW96YWsncyBCbGVlZGluZyBTb21lIE1vcmU8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMTEwODkuaHRtbCI+Q29va2llczwvYT4pDQoNCjxVPklDIFl1dXJpPC9VPiAoPGxqIHVzZXI9Inl1dXJpX21hb3UiPikgDQpbZnJpZW5kLCByZXNwZWN0XSAoPGEgaHJlZj0iaHR0cDovL3VzZXJzLmxpdmVqb3VybmFsLmNvbS9fb25paWNoYW4vMTA5MC5odG1sIj5KdXN0IEZyaWVuZHM8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vOTI1MC5odG1sIj5Eb29tcyBEYXk6IEluZmlybWFyeTwvYT47IDxhIGhyZWY9Imh0dHA6Ly95dXVyaS1tYW91LmxpdmVqb3VybmFsLmNvbS80MjgyLmh0bWw/dGhyZWFkPTEzMzMwNiI+TWVldGluZzwvQT4pDQoNCjxVPk9PQyBBbGZvcmQ8L1U+ICg8bGogdXNlcj0ibXJfZmVlbF9nb29kIj4pIA0KW2F3a3dhcmRdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vOTI1MC5odG1sIj5Eb29tcyBEYXk6IEluZmlybWFyeTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS8xMDUyOC5odG1sIj5GcmVkOiBPT0MgQUxmb3JkIFNtdXQ8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMTE2MTkuaHRtbCI+RnJlZDogQWxmb3JkIFNtdXQgSUk8L2E+OyA8YSBocmVmPSJodHRwOi8vbXItZmVlbC1nb29kLmxpdmVqb3VybmFsLmNvbS8zMzQxLmh0bWwiPldha2luZyB3aXRoIEFsZm9yZDwvYT47IDxhIGhyZWY9Imh0dHA6Ly9qb3NlLWNhbGllbnRlLmxpdmVqb3VybmFsLmNvbS82NjMuaHRtbCI+R29vZGJ5ZSwgRnJlZDwvYT4pDQoNCjxVPk9PQyBBbmlzc2luYTwvVT4gKDxsaiB1c2VyPSJyZWRoZWFkX3dhcnJpb3IiPikgDQpbZnJpZW5kLCBzYXZpb3JdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vODI1NS5odG1sIj5Eb29tcyBEYXk6IE1lZXRpbmcgQW5pPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzkxOTQuaHRtbD90aHJlYWQ9MTg3NjI2Ij5Eb29tcyBEYXk6IEVzY2FwZTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9yZWRoZWFkLXdhcnJpb3IubGl2ZWpvdXJuYWwuY29tLzE4NTkuaHRtbCI+RG9vbXMgRGF5OiBNYXJ5b2t1IFdhdmU8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vOTI1MC5odG1sIj5Eb29tcyBEYXk6IEluZmlybWFyeTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9yZWRoZWFkLXdhcnJpb3IubGl2ZWpvdXJuYWwuY29tLzI5NzUuaHRtbCI+RG9vbXMgRGF5OiBEdW5nZW9uPC9hPjsgPGEgaHJlZj0iaHR0cDovL3JlZGhlYWQtd2Fycmlvci5saXZlam91cm5hbC5jb20vNDM4Ny5odG1sIj5Db29raWVzLCBDYWtlLCBhbmQgU2FuZHdpY2hlczwvYT47IDxhIGhyZWY9Imh0dHA6Ly9taXNzYmljZXBzLmxpdmVqb3VybmFsLmNvbS8xNzM3Ny5odG1sP3RocmVhZD0yNzgyNDEiPkdvb2QtYnllLCBBbmk8L2E+KQ0KDQo8VT5PT0MgQ2VjaWxpZSAjMTwvVT4gKDxsaiB1c2VyPSJvbmNlYW1hb3UiPikgKioNCltuZXV0cmFsLCByZXNwZWN0XSAoPGEgaHJlZj0iaHR0cDovL29uY2VhbWFvdS5saXZlam91cm5hbC5jb20vMTg2NS5odG1sIj5Eb29tcyBEYXk6IE5pbmphPzwvYT47IDxhIGhyZWY9Imh0dHA6Ly9wcmluY2Vzc290ZW5uaXMubGl2ZWpvdXJuYWwuY29tLzg2NDEuaHRtbCI+RGFuY2UgTGVzc29uczwvYT4pDQoNCjxVPk9PQyBDZWNpbGllICMyPC9VPiAoPGxqIHVzZXI9Inl1cmlfbWFvdSI+KSANClthbm5veWVkXSAoPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzE1NjI2Lmh0bWwiPkFuIE9sZCBGcmllbmQgYW5kIGEgTmV3IEVuZW15PC9hPjsgPGEgaHJlZj0iaHR0cDovL2dydW1weWd3ZW4ubGl2ZWpvdXJuYWwuY29tLzEwMzIwLmh0bWwiPlNlZWtpbmcgSGVscDwvYT47IDxhIGhyZWY9Imh0dHA6Ly95dXJpLW1hb3UubGl2ZWpvdXJuYWwuY29tLzg1Ny5odG1sIj5EdW1waW5nIERvdWJsZXM8L2E+KQ0KDQo8VT5PT0MgQ29ucmFkPC9VPiAoPGxqIHVzZXI9ImNvbnJhZF90aGVfZXZpbCI+KSANCltuZXV0cmFsXSAoPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzYxMy5odG1sIj5IZWxsbzwvYT47IDxhIGhyZWY9Imh0dHA6Ly9jb25yYWQtdGhlLWV2aWwubGl2ZWpvdXJuYWwuY29tLzI2NzEuaHRtbCI+SGVhZGFjaGU8L2E+KQ0KDQo8VT5PT0MgRWxpemFiZXRoPC9VPiAoPGxqIHVzZXI9ImJldGhfdGhlX2dyZWF0Ij4pIFtuZXV0cmFsXQ0KDQo8VT5PT0MgR3JldGE8L1U+ICg8bGogdXNlcj0icXVlZW5zcHJrbGUiPikgDQpbXl9eXSAoPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzYxMy5odG1sIj5IZWxsbzwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zaW5mdWwtbWFvdS5saXZlam91cm5hbC5jb20vNTY3MS5odG1sIj5IaWRlIGFuZCBTZWVrIDE8L2E+OyA8YSBocmVmPSJodHRwOi8vc2luZnVsLW1hb3UubGl2ZWpvdXJuYWwuY29tLzU4OTYuaHRtbCI+SGlkZSBhbmQgU2VlayAyPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzIyNzUuaHRtbCI+TGlzdGVuIHVwITwvYT47IDxhIGhyZWY9Imh0dHA6Ly9jb21tdW5pdHkubGl2ZWpvdXJuYWwuY29tL29tZ19tYW91LzEzNzg2Lmh0bWwiPlBhcnR5OiBTSCB2cy4gU2hvcmk8L2E+KQ0KDQo8VT5PT0MgR3dlbmRhbDwvVT4gKDxsaiB1c2VyPSJzdXBlcl9zZW1lIj4pIA0KW25ldXRyYWxdICg8YSBocmVmPSJodHRwOi8vcmVkaGVhZC13YXJyaW9yLmxpdmVqb3VybmFsLmNvbS8xODU5Lmh0bWwiPkRvb21zIERheTogTWFyeW9rdSBXYXZlPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzkyNTAuaHRtbCI+RG9vbXMgRGF5OiBJbmZpcm1hcnk8L2E+KQ0KDQo8VT5PT0MgSnVsaWE8L1U+ICg8bGogdXNlcj0id2luY290dF9wb2lzb24iPikgDQpbZnJpZW5kXSAoPGEgaHJlZj0iaHR0cDovL2NvbW11bml0eS5saXZlam91cm5hbC5jb20vb21nX21hb3UvMTQ1NDcuaHRtbD90aHJlYWQ9NDA2MjI3Ij5QYXJ0eTogSGVhcnRicmVhazwvYT4pDQoNCjxVPk9PQyBLRyAoS2FnZXkpPC9VPiAoPGxqIHVzZXI9InBhbmRhbW9uaWFfNGV2YSI+KSANCltuL2FdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMTI4MjcuaHRtbCI+RXNjYXBlITwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS8xMzU1MC5odG1sIj5NZWV0aW5nIEpvc2U8L2E+KQ0KDQo8VT5PT0MgTXVyYXRhPC9VPiAoPGxqIHVzZXI9InRvdGFsa25vd2l0YWxsIj4pIA0KW3Jlc3BlY3RdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNjEzLmh0bWwiPkhlbGxvPC9hPikNCg0KPFU+T09DIFNoaW5vdTwvVT4gKDxsaiB1c2VyPSJtYW91X2N1cGlkIj4pIA0KW3Jlc3BlY3QsIHdvcnNoaXBdICg8YSBocmVmPSJodHRwOi8vY29tbXVuaXR5LmxpdmVqb3VybmFsLmNvbS9vbWdfbWFvdS8xNDU0Ny5odG1sP3RocmVhZD00MDYyMjciPlBhcnR5OiBIZWFydGJyZWFrPC9hPjsgPGEgaHJlZj0iaHR0cDovL3N0cmVzc2VkeW96YWsubGl2ZWpvdXJuYWwuY29tLzM4NzUuaHRtbCI+UGFydHk6IEhlYWxpbmcgdGhlIEhlYWxlcjwvYT4pDQoNCjxVPk9PQyBTaG9yaTwvVT4gKDxsaiB1c2VyPSJjb2xkaW50ZWxsZWN0Ij4pIA0KW25ldXRyYWxdICg8YSBocmVmPSJodHRwOi8vbWlzc2JpY2Vwcy5saXZlam91cm5hbC5jb20vNzYwOS5odG1sP3RocmVhZD0xMjM1NzciPlBhcnR5OiBNZWV0aW5nIE9PQyBTaG9yaTwvYT4pDQoNCjxVPk9PQyBULVpob3U8L1U+ICg8bGogdXNlcj0iYmlnX2JhZF9zaGVlcCI+KSANCltuZXV0cmFsXSAoPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzkyNTAuaHRtbCI+RG9vbXMgRGF5OiBJbmZpcm1hcnk8L2E+OyA8YSBocmVmPSJodHRwOi8vYmlnLWJhZC1zaGVlcC5saXZlam91cm5hbC5jb20vNTI2MS5odG1sIj5Eb24ndCBFYXQgVGhlIFBpbGxvd3M8L2E+KQ0KDQo8VT5PT0MgV29sZnJhbTwvVT4gKDxsaiB1c2VyPSJ3b2xmeV9fY2hhbiI+KSANCltmcmllbmQsIGplYWxvdXNdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNjEzLmh0bWwiPkhlbGxvPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NpbmZ1bC1tYW91LmxpdmVqb3VybmFsLmNvbS81NjcxLmh0bWwiPkhpZGUgYW5kIFNlZWsgMTwvYT47IDxhIGhyZWY9Imh0dHA6Ly93b2xmeS0tY2hhbi5saXZlam91cm5hbC5jb20vMjA5MS5odG1sIj5BIGxpdHRsZSBjaGF0PC9hPjsgPGEgaHJlZj0iaHR0cDovL3dvbGZ5LS1jaGFuLmxpdmVqb3VybmFsLmNvbS82MjcwLmh0bWwiPkZyZWQ6IENoaXQtY2hhdDwvYT4pDQoNCjxVPk9PQyBZb3phazwvVT4gKDxsaiB1c2VyPSJzdHJlc3NlZHlvemFrIj4pIA0KW25ldXRyYWxdICg8YSBocmVmPSJodHRwOi8vc2luZnVsLW1hb3UubGl2ZWpvdXJuYWwuY29tLzU2NzEuaHRtbCI+SGlkZSBhbmQgU2VlayAxPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzIyNzUuaHRtbCI+TGlzdGVuIHVwITwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zZXh5LW51cnNlLmxpdmVqb3VybmFsLmNvbS8zMjY1Lmh0bWwiPk5ldyBEcmVzczwvQT47IDxhIGhyZWY9Imh0dHA6Ly9jb21tdW5pdHkubGl2ZWpvdXJuYWwuY29tL29tZ19tYW91LzE0NTQ3Lmh0bWw/dGhyZWFkPTM2NDI0MyI+UGFydHk6IEtpdHR5IFNIPC9hPjsgPGEgaHJlZj0iaHR0cDovL3N0cmVzc2VkeW96YWsubGl2ZWpvdXJuYWwuY29tLzM4NzUuaHRtbCI+UGFydHk6IEhlYWxpbmcgdGhlIEhlYWxlcjwvYT4pDQoNCjxVPk9PQyBZdXVyaTwvVT4gKDxsaiB1c2VyPSJzaW5mdWxfbWFvdSI+KSANCltsb3ZlciwgbG92ZXNdICg8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNjEzLmh0bWwiPkhlbGxvPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzE0OTMuaHRtbCI+QmF0aCBTbXV0PC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzE5NjcuaHRtbCI+SGFwcHkgRGF5PC9hPjsgPGEgaHJlZj0iaHR0cDovL3NpbmZ1bC1tYW91LmxpdmVqb3VybmFsLmNvbS81NjcxLmh0bWwiPkhpZGUgYW5kIFNlZWsgMTwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zaW5mdWwtbWFvdS5saXZlam91cm5hbC5jb20vNTg5Ni5odG1sIj5IaWRlIGFuZCBTZWVrIDI8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNDY4Ny5odG1sIj5IaWRlIGFuZCBTZWVrIDQgKHNtdXQpPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzIyNzUuaHRtbCI+TGlzdGVuIHVwITwvYT47IDxhIGhyZWY9Imh0dHA6Ly9zaW5mdWwtbWFvdS5saXZlam91cm5hbC5jb20vNDA5My5odG1sIj5TSCdzIFNleHkgQ2xhc3M8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vMjQwMC5odG1sIj5OZWVkcyB0byBzaG9wPC9hPjsgPGEgaHJlZj0iaHR0cDovL3NleHktbnVyc2UubGl2ZWpvdXJuYWwuY29tLzMyNjUuaHRtbCI+TmV3IERyZXNzPC9BPjsgPGEgaHJlZj0iaHR0cDovL3NpbmZ1bC1tYW91LmxpdmVqb3VybmFsLmNvbS80NDc1Lmh0bWwiPkRyaW5raW5nIFNtdXQ8L2E+OyA8YSBocmVmPSJodHRwOi8vY29tbXVuaXR5LmxpdmVqb3VybmFsLmNvbS9vbWdfbWFvdS8xMzc4Ni5odG1sIj5QYXJ0eTogU0ggdnMuIFNob3JpPC9hPjsgPGEgaHJlZj0iaHR0cDovL2NvbW11bml0eS5saXZlam91cm5hbC5jb20vb21nX21hb3UvMTQ3ODQuaHRtbD90aHJlYWQ9Mjg3NjgwIj5QYXJ0eTogQ29ucmFkPGE+OyA8YSBocmVmPSJodHRwOi8vY29tbXVuaXR5LmxpdmVqb3VybmFsLmNvbS9vbWdfbWFvdS8xNDc4NC5odG1sP3RocmVhZD0yOTU4NzIiPlBhcnR5OiBDb25yYWQgSUk8L0E+OyA8YSBocmVmPSJodHRwOi8vY29tbXVuaXR5LmxpdmVqb3VybmFsLmNvbS9vbWdfbWFvdS8xNDU0Ny5odG1sP3RocmVhZD0zMTEyNTEiPlBhcnR5OiBTbWFzaGVkPC9hPjsgPGEgaHJlZj0iaHR0cDovL2NvbW11bml0eS5saXZlam91cm5hbC5jb20vb21nX21hb3UvMTQ1NDcuaHRtbD90aHJlYWQ9MzQ1MDQzIj5QYXJ0eTogQ2hhdCB3aXRoIFNIPC9hPjsgPGEgaHJlZj0iaHR0cDovL2NvbW11bml0eS5saXZlam91cm5hbC5jb20vb21nX21hb3UvMTQ1NDcuaHRtbD90aHJlYWQ9MzY0MjQzIj5QYXJ0eTogS2l0dHkgU0g8L2E+OyA8YSBocmVmPSJodHRwOi8vY29tbXVuaXR5LmxpdmVqb3VybmFsLmNvbS9vbWdfbWFvdS8xNDU0Ny5odG1sP3RocmVhZD0zOTcyNjciPlBhcnR5OiBGaW5kaW5nIFNIPC9hPjsgPGEgaHJlZj0iaHR0cDovL2NvbW11bml0eS5saXZlam91cm5hbC5jb20vb21nX21hb3UvMTgzNzcuaHRtbD90aHJlYWQ9NDc4NjY1Ij5QYXJ0eTogTWFnaWMgVHJpY2s8L2E+OyA8YSBocmVmPSJodHRwOi8vc2V4eS1udXJzZS5saXZlam91cm5hbC5jb20vNjkwNS5odG1sIj5QYXJ0eTogTWFraW5nIFVwIFNtdXQ8L2E+OyA8YSBocmVmPSJodHRwOi8vc2luZnVsLW1hb3UubGl2ZWpvdXJuYWwuY29tLzEwNzg5Lmh0bWwiPkRldmluOiBQbGF5PC9hPikNCg0KDQo8aHI+DQoNCjxjZW50ZXI+R09BTFM6PC9jZW50ZXI+DQoNCjxCPkltbWVkaWF0ZSBnb2Fsczo8L0I+IE1ha2Ugc3VyZSBldmVyeXRoaW5nIGlzIHJlYWR5IGFuZCBpbiBvcmRlciB3aGVuIHRob3NlIHdobyBoYXZlIGxlZnQgcmV0dXJuLg0KPEI+TG9uZyByYW5nZSBnb2Fsczo8L0I+IFRvIGJlIGhhcHB5IGFuZCB0byBtYWtlIG90aGVycyBoYXBweS4gU2ltcGxlLiBeX14NCjxCPkhvdyBkb2VzIGNoYXJhY3RlciBwbGFuIHRvIGFjY29tcGxpc2ggdGhlc2UgZ29hbHM/PC9CPiBXb3JraW5nIGhhcmQgYW5kIGJlaW5nIGEgZnJpZW5kIHRvIGFueW9uZSB3aG8gbmVlZHMgb25lLg0KDQo8aHI+DQoNCjxjZW50ZXI+UFJPQkxFTVMvQ1JJU0lTOjwvY2VudGVyPg0KDQo8Qj5Ib3cgY2hhcmFjdGVyIHJlYWN0cyBpbiBhIGNyaXNpczo8L0I+IFRha2VzIGNoYXJnZSBhbmQgc2V0cyBvdXQgdG8gbWFrZSBzdXJlIGV2ZXJ5b25lIGlzIGJlaW5nIHRha2VuIGNhcmUgb2Ygb3IgaGVscGluZy4gV2lsbCB3b3JrIHRpcmVsZXNzbHkgdW50aWwgdGhlIGNyaXNpcyBpcyBvdmVyLg0KDQo8Qj5Ib3cgY2hhcmFjdGVyIGZhY2VzIHByb2JsZW1zOiA8L0I+IE91dHdhcmQgcHJvYmxlbXMsIHNoZSB3aWxsIHRyeSB0byBoZWxwIGluIGFueSB3YXkgc2hlIGNhbiwgc2hlIGZlZWxzIG9ibGlnYXRlZCB0byBoZWxwIHBlb3BsZS4gUGVyc29uYWwgcHJvYmxlbXMsIGRlcGVuZGluZyBvbiB3aGF0IHRoZXkgYXJlLCB3aWxsIGVpdGhlciBrZWVwIHRoZW0gdG8gaGVyc2VsZiBhbmQgdHJ5IHRvIGRlYWwgd2l0aCB0aGVtIGFsb25lLCBvciB3aWxsIHNlZWsgaGVscCBmcm9tIHRob3NlIGNsb3Nlc3QgdG8gaGVyICh1c3VhbGx5IEd1bnRlcikuDQoNCjxCPktpbmRzIG9mIHByb2JsZW1zIGNoYXJhY3RlciB1c3VhbGx5IHJ1bnMgaW50bzo8L0I+IEV2ZXJ5b25lIGVsc2XigJlzLCB1c3VhbGx5IG1lZGljYWwvcGh5c2ljYWwgcHJvYmxlbXMgdGhhdCBoYXZlIG5vdGhpbmcgdG8gZG8gd2l0aCBoZXIuIEhlciBwZXJzb25hbCBwcm9ibGVtcyB0ZW5kIHRvIGJlIHRob3NlIG9mIHRoZSBoZWFydC4NCg0KPEI+SG93IGNoYXJhY3RlciByZWFjdHMgdG8gTkVXIHByb2JsZW1zOjwvQj4gVGhlIHNhbWUgd2F5IHNoZSByZWFjdHMgdG8gYWxsIHByb2JsZW1zLg0KDQo8Qj5Ib3cgY2hhcmFjdGVyIHJlYWN0cyB0byBjaGFuZ2U6PC9CPiBTaGUgaXMgb3BlbiB0byBjaGFuZ2UgYW5kIGNhbiBhZGFwdCBlYXNpbHkuDQoNCjxocj4NCg0KPGNlbnRlcj5HRU5FUkFMOjwvY2VudGVyPg0KDQo8Qj5GYXZvcml0ZSBjbG90aGluZzo8L0I+IEN1dGUsIHNob3J0IGRyZXNzZXMvc2tpcnRzDQo8Qj5XaHk/PC9CPiBCZWNhdXNlIHRoZXkgYXJlIGN1dGUgYW5kIHNoZSBpcyBjdXRlIGFuZCBldmVyeXRoaW5nIGlzIGN1dGUuDQoNCjxCPkxlYXN0IGZhdm9yaXRlIGNsb3RoaW5nOjwvQj4gSGVyIG1pbGl0YXJ5IHVuaWZvcm0NCjxCPldoeT88L0I+IFNoZSBkb2VzbuKAmXQgbGlrZSB0byBmZWVsIHN0aWZsZWQNCg0KPEI+SmV3ZWxyeTo8L0I+IFBpbmsgZWFycmluZ3MuDQoNCjxCPldoZXJlIGRvZXMgY2hhcmFjdGVyIGxpdmU/PC9CPiBCbG9vZCBQbGVkZ2UgQ2FzdGxlLCBjdXJyZW50bHkgcm9vbXMgd2l0aCBHdW50ZXIgYW5kIEpvc2UNCjxCPldoZXJlIGRvZXMgY2hhcmFjdGVyIHdhbnQgdG8gbGl2ZT88L0I+IEluIGhlciBvd24gcm9vbS4NCg0KPEI+U3BlbmRpbmcgaGFiaXRzIChmcnVnYWwsIHNwZW5kdGhyaWZ0LCBldGMpOjwvQj4gU2hlIGRvZXNu4oCZdCBsaWtlIHRvIG92ZXJzcGVuZCwgYnV0IHNoZSBkb2VzIGxpa2UgdG8gc2hvcA0KDQo8Qj5XaGF0IGRvZXMgcy9oZSBkbyB0b28gbXVjaCBvZj88L0I+IExhdGNoIG9uIHRvIG90aGVyIHBlb3BsZS4gU2hlIGNhbiBiZSBvdmVybHkgYWZmZWN0aW9uYXRlIHdpdGggcGVvcGxlIHNoZSBmZWVscyBjbG9zZSB0bywgd2hpY2ggY291bGQgY2F1c2Ugb3RoZXJzIGRpc2NvbWZvcnQuDQo8Qj5Ub28gbGl0dGxlIG9mPzwvQj4gVGFraW5nIGNhcmUgb2YgaGVyc2VsZiwgcHJhY3RpY2luZyByZXN0cmFpbnQsIHBhcnRpY3VsYXJseSB3aXRoIGhlciBtYWdpYyBpbiBjcmlzaXMgc2l0dWF0aW9ucy4gQWxzbywgc2hlIHNob3VsZCBiZSBtb3JlIHN1c3BpY2lvdXMgb2Ygb3RoZXIgcGVvcGxlLg0KDQo8Qj5Nb3N0IHByaXplZCBwb3NzZXNzaW9uOjwvQj4gQSBidXR0b24gZnJvbSBhIGphY2tldCB0aGF0IGJlbG9uZ2VkIHRvIEpha29iLCBhbmQgYSBrbml0dGVkIGJyYWNlbGV0IElseXNhIG1hZGUgZm9yIGhlci4NCjxCPldoeT88L0I+IFRoZXkgYXJlIGFsbCBzaGUgaGFzIGxlZnQgb2YgaGVyIHBhcmVudHMuDQoNCjxocj4NCg0KPGNlbnRlcj5VTkNBVEVHT1JJWkVEOjwvY2VudGVyPg0KDQo8Qj5QZXJzb24gY2hhcmFjdGVyIHNlY3JldGx5IGFkbWlyZXM6PC9CPiBObyBzZWNyZXQgdGhhdCBzaGUgYWRtaXJlcyBHdW50ZXIgYW5kIHRoaW5rcyB0aGUgd29ybGQgb2YgaGltLg0KPEI+V2h5PzwvQj4gU2luY2Ugc2hlIG1ldCBoaW0sIHNoZSBoYXMgYWx3YXlzIHNlZW4gaGltIGFzIGEgcGlsbGFyIG9mIHN0cmVuZ3RoIGFuZCBkZXZvdGlvbi4gDQoNCjxCPlBlcnNvbiBjaGFyYWN0ZXIgd2FzIG1vc3QgaW5mbHVlbmNlZCBieTo8L0I+IEp1bGlhDQo8Qj5XaHk/PC9CPiBTaGUgd2FzIGluc3BpcmVkIGJ5IEp1bGlh4oCZcyBraW5kbmVzcyBhbmQgc3RyZW5ndGggYW5kIGRldm90aW9uIHRvIGhlbHBpbmcgb3RoZXJzLCBhbmQgdWx0aW1hdGVseSBoZXIgc2FjcmlmaWNlLiBTaGUgbG9uZ3MgdG8gYmUgdGhlIGtpbmQgb2YgcGVyc29uIEp1bGlhIHdhcy4NCg0KPEI+TW9zdCBpbXBvcnRhbnQgcGVyc29uIGluIGNoYXJhY3RlcidzIGxpZmUgYmVmb3JlIHN0b3J5IHN0YXJ0czo8L0I+IEd1bnRlcg0KPEI+V2h5PzwvQj4gQXQgdGhhdCBwb2ludCwgaGUgd2FzIHRoZSBvbmx5IHBlcnNvbiBzaGUgdHJ1bHkgbG92ZWQuDQoNCjxCPkhvdyBkb2VzIGNoYXJhY3RlciBzcGVuZCB0aGUgd2VlayBiZWZvcmUgdGhlIHN0b3J5IHN0YXJ0cz88L0I+IFdvcmtpbmcgaW4gdGhlIGluZmlybWFyeSwgc3BlbmRpbmcgaGVyIHRpbWUgb2ZmIGhhbmdpbmcgb3V0IGF0IHRoZSB0YXZlcm4gKGRyaW5raW5nLCBkYW5jaW5nKSwgb3IgcmVhZGluZy4gTG92ZXMgdG8gc29jaWFsaXplLg0KDQo8aHI+DQoNCjxjZW50ZXI+SU5URVJSRUxBVElPTiBXSVRIIE9USEVSUzo8L2NlbnRlcj4NCg0KPEI+SG93IGRvZXMgY2hhcmFjdGVyIHJlbGF0ZSB0byBvdGhlcnM/PC9CPiBTaGUgdGVuZHMgdG8gZ2V0IGFsb25nIHdpdGggbW9zdCBwZW9wbGUgYW5kIHByb2JhYmx5IGlycml0YXRlcyBldmVyeW9uZSBlbHNlLiBeX14NCg0KPEI+SG93IGlzIHMvaGUgcGVyY2VpdmVkIGJ5Li4uPC9CPg0KPEI+U3RyYW5nZXJzPzwvQj4gQ3V0ZSwgaGVscGZ1bCwga2luZCwgc3dlZXQsIGJvc3N5IF5fXg0KPEI+RnJpZW5kcz88L0I+IEN1dGUsIGhlbHBmdWwsIGtpbmQsIHN3ZWV0LCBib3NzeSwgc3BvaWxlZCwgc3R1YmJvcm4gXl9eDQo8Qj5XaWZlL0h1c2JhbmQvTG92ZXI/PC9CPiBDdXRlLCBoZWxwZnVsLCBraW5kLCBzd2VldCwgYm9zc3ksIHN0dWJib3JuLCBzcG9pbGVkLCBjdWRkbHkgXl9eDQoNCjxCPldoYXQgZG8gZmFtaWx5L2ZyaWVuZHMgbGlrZSBtb3N0IGFib3V0IGNoYXJhY3Rlcj88L0I+IEhlciBpcnJpc2lzdGFibGUgY3V0ZW5lc3MsIGhlciBraW5kbmVzcywgaGVyIGRldGVybWluYXRpb24NCjxCPldoYXQgZG8gZmFtaWx5L2ZyaWVuZHMgbGlrZSBsZWFzdCBhYm91dCBjaGFyYWN0ZXI/PC9CPiBTaGUgaXMgc3BvaWxlZCwgc3R1YmJvcm4sIGEgaHlwb2NyaXRlLCBhbmQgY2FuIGJlIHJlYWxseSBjaGlsZGlzaA0KDQo8L2xqLWN1dD4="
+"eventtime","2005-10-23 20:02:00"
+"url","http://sexy-nurse.livejournal.com/11975.html"
+"userid","13567"
+"itemid","45"
+"event","It's late. Gisela rubs her eyes and looks across the library at the grandfather clock, but her eyes won't focus on the numbers or arms. It's been at least two hours since <a href=""http://www.livejournal.com/users/somewhatasaint/2611.html"">Gunter left her here</a>. She sighs and looks at the notes she has been taking. Her hands are smudged with ink, her back and neck hurt. She stands to stretch, but pauses when the familiar falling feeling washes over her. She knows what it is now, but she doesn't know how to stop it. She grabs a handful of her notes and crams them in a drawer before she loses hold of her body.<BR>
+<center>~o.O.o.~</center><BR>
+<font color=""green"">
+Fred sneers at the piles of books and notes on the desk. Damn them. He shoves the books onto the floor. His eyes light on the fireplace across the room. But no fire. There is an oil lamp on the desk. He thinks about setting the whole room on fire. But that could backfire if anyone knew he was here or saw him leaving. No, best to play it safe. He takes the lamp and throws it into the deep pit, shattering the glass and spilling oil over the logs. The fire flares up quickly. He feeds it with the books and notes, waiting until the last page dissolves before skipping out into the hall and heading for the kitchen. He has some more baking to do.<BR></font>
+<B>WARNING:</B> Smut in the comments."
+"eventtime","2005-10-15 16:19:00"
+"url","http://sexy-nurse.livejournal.com/11619.html"
+"userid","13567"
+"itemid","44"
+"event","<font color=""green"">
+Dear Diary,<BR>
+Today was interesting. I  managed to get control of the girl's body first thing this morning, after letting her see the improvements I made on her appearance. (<a href=""http://www.livejournal.com/users/sexy_nurse/10528.html"">*</a>)<BR>
+I made contact with a young man who seemed to recognize the girl. I played a woman's part and let him do what he pleased with this body. It was ... enjoyable. I may have to find this young man again, or perhaps sample other males in the castle. (<a href=""http://www.livejournal.com/users/sexy_nurse/10528.html?thread=277792#t277792"">*</a>)<BR>
+A meeting of some sort was called, so I hid outside the meeting hall to listen in on the big news. (<a href=""http://www.livejournal.com/users/yuuri_maou/4282.html?thread=133306#t133306"">*</a>)<BR>
+But it was booooring, so I left to make special gift baskets for everyone! (<a href=""http://www.livejournal.com/users/sexy_nurse/10828.html"">*</a>)<BR>
+I left a basket at every door! And after a full day of possession, I let the girl have her body back. (<a href=""http://www.livejournal.com/users/sexy_nurse/11089.html"">*</a>)</font><BR>
+<center>~o.O.o~</center><BR>
+The last thing I remember before waking up this morning was leaving Yozak's room. I didn't know how I got to the <a href=""http://www.livejournal.com/users/sexy_nurse/10528.html"">storage room</a> or who had cut off all my hair. I remember trying to leave the room, and then...<BR>
+And then I was <a href=""http://www.livejournal.com/users/sexy_nurse/11089.html"">in a closet</a>, several hours later, holding a basket full of cookies. I didn't want anyone to see me with my hair chopped off, so I covered myself with a sheet.<BR>
+<a href=""http://www.livejournal.com/users/sexy_nurse/11089.html?thread=288337#t288337"">Yozak didn't recognize me</a> at first. We shared some of the cookies and ... well ... I don't know how to describe it. We were both bursting with energy and were talking and dancing ... I think he said Conrad was captured. He is leaving tomorrow to get him back.<BR>
+I <a href=""http://www.livejournal.com/users/redhead_warrior/4387.html"">ran into Hoka-Anissina</a> shortly after Yozak left. It seems she also found some cookies. Everything is a blur, but I know we laughed, and I made her sandwiches, and something about a cake. She is also leaving to get Conrad back. I hope she will be safe.<BR>
+I was wandering the halls when I <a href=""http://www.livejournal.com/users/somewhatasaint/2611.html"">came upon my father</a>. He told me that I have been possessed by another spirit. A bad spirit. I have looked through his notes and a flipped through a few of the books. It explains my loss of memory, my finding myself in strange places. I wonder what this creature is up to, and I hope I can find a way to stop it.<BR>
+Father is also leaving, to negotiate Greta's release. I am afraid for him. Afraid for all of them. <BR>
+I'm useless as I am, and possibly a danger to others. For now, I'll stay here in the library and pick up where my father left off.<BR>
+<center>~o.O.o~</center><BR>
+<font color=""green"">
+I got the girl's body back and decided to go and try my hand at baking again, since the last batch of poisoned cookies didn't have a favorable outcome. But I got distracted along the way by that man. Alford. (<a href=""http://www.livejournal.com/users/sexy_nurse/11619.html"">*</a>)"
+"eventtime","2005-10-09 12:57:00"
+"url","http://sexy-nurse.livejournal.com/11453.html"
+"userid","13567"
+"itemid","43"
+"event","<font color=""green"">
+Fred is peeved. His <a href=""http://images.google.com/imgres?imgurl=http://www.aftonbaskets.com/baskets/cookies.jpg&imgrefurl=http://www.aftonbaskets.com/cookie-basket.htm&h=400&w=320&sz=42&tbnid=3wYAUjFy_HIJ:&tbnh=120&tbnw=96&hl=en&start=17&prev=/images%3Fq%3Dgift%2Bbasket%2Bcookies%26svnum%3D10%26hl%3Den%26lr%3D"">gift baskets</a> all look very nice, but he fears the special cookies he had baked will not be as special as he planned. He was missing a vital ingredient to his Super Secret Ultimate Poison, and, well, they probably aren't as poison-y as they could be. Really, there is only one way to find out.<BR>
+He places a basket before every door in the main sleeping wing, and has one left over. He is about to head off to the kitchen and just leave it there for the maids to find when he hears voices down the hall. He slips through the nearest door and...<BR>
+</font>
+~o.O.o~<BR>
+*blink*<BR>
+...<BR>
+<I>Door.<BR>
+I'm starting at ... a door. In a closet. <BR>
+Why am I in a closet?<BR>
+With a basket full of cookies?</I><BR>
+Confused, Gisela steps out into the hall and brushes a hand through her hair. <I>Crap! My hair!</I> She darts back into the closet and grabs a sheet. She fashions it like a cape and hides her chopped hair under the ""hood"". Taking the basket in hand, she starts off down the hall.<BR>
+((OOC: The cookies are Energy Cookies. No one will get sick or die if they eat them. Thread is open to everyone, except those who are determined to ruin Fred's fun.))"
+"eventtime","2005-10-02 15:41:00"
+"url","http://sexy-nurse.livejournal.com/11089.html"
+"userid","13567"
+"itemid","42"
+"event","<font color=""green"">
+*<a href=""http://www.livejournal.com/users/yuuri_maou/4282.html?thread=133306#t133306"">Still hidden</a>*<BR>
+Blah blah blah ... How long is this going to take?<BR>
+...<BR>
+...<BR>
+*sigh*<BR>
+Forget it. It's nothing that concerns me anyway.<BR>
+Besides, if everyone is in here, they aren't out there.<BR>
+I know! ^_^ I'll make gift baskets! <BR>
+After such a long and boring meeting, I'm sure they'll appreciate the gesture!<BR>
+*skips away sneakily*
+</font>"
+"eventtime","2005-09-28 14:35:00"
+"url","http://sexy-nurse.livejournal.com/10828.html"
+"userid","13567"
+"itemid","41"
+"event","<a href=""http://www.livejournal.com/users/missbiceps/11536.html?thread=208400#t208400"">Yozak's words</a> do little to ease her confusion or her fear. She finds herself shying from his touch and wincing at even his softest voice. The door closes behind her and she stands motionless in the hall. She can't process all of the information that has been given to her. Greta missing, Hoka-Anissina accused, war, the castle, the town, the Maou defenseless, people still suffering in the infirmary, not enough people to help. She can't even remember when this day started. Morning feels like weeks ago. She wants to scream or cry, but she feels overwhelmed, tired, numb.<BR>
+On the other side of the door, he screams. It's loud and angry and it jolts her back to the present. She turns wide eyes on the door. Part of her wants to go back in there and make sure he is alright. But another part is afraid that she is to blame for his anger, and if he sees her, he'll turn on her. She doesn't know him like she thought she did. She doesn't even know herself. She woke up this morning and the world shattered, and when she tries to put it back together, someone comes along and steps on the pieces, grinds them up to worthless dust.<BR>
+She feels light and sick and the world starts to fade. She thinks, <I>I'm going to faint,</I> but her body doesn't fall. Just her soul.<BR>
+<center>~o.O.o~</center><BR>
+<lj-cut text=""Fred opens green eyes...""><BR>
+<font color=""green"">
+Fred opens green eyes and checks his surroundings. No one shares the hall with him. He smiles. The castle is in chaos. It's a perfect playground!<BR>
+But first thing's first. He can't sneak through the castle in this ridiculous apparel. And the hair ... how can anyone live with so much of it? Even bound it gets in the way!<BR>
+He keeps to the shadows and makes his way to a closet he had found during his last exploration. They keep spare clothes for the staff in here: tunics and pants and nothing revealing or skimpy or cute. <BR>
+First, he finds a pair of scissors with a sewing kit and lops off the annoying braid. Chunks of green hair fall to the floor as he chops away the length. He doesn't care how it looks. All that matters is that it is out of his way. <BR>
+He discards the nurse uniform, now covered in hair, and changes into a long-sleeved tunic with buttons up to the neck that hangs almost to her knees, and pants that are a bit tight, but not as offensive as bare legs, and boots.<BR>
+Satisfied, he creeps back out into the hall. It is getting late, and this body will need a good night's sleep if he hopes to accomplish anything in the morning. He can't return her to her room, even if he knew where it was. Daddy-kins will be looking for her. He regrets not killing the man.<BR>
+He finds a stairway leading up and follows it to the top. There are a few doors here. Checking all three, he finds nothing more than storage rooms full of junk. He picks one and bars the door. A ratty, smelly blanket is the best he can find. It will have to do. This body is so tired, it will not notice. He lays down on a long crate and lets the body fall to sleep.</font><BR>
+</lj-cut>
+<center>~o.O.o~</center><BR>
+<lj-cut text=""Gisela groans...""><BR>
+Gisela groans as sunlight slants in from the window. She rolls over ... and falls right off her bed onto the hard floor. Dust puffs up under her and she coughs and sneezes as she gets to her feet, wondering why her room is so dirty. But then ... she isn't in her room. She blinks and looks around her, completely baffled.<BR>
+""How...?"" She turns a full circle, eyes growing wider and wider. She knows she is in a storage room, but where, and how she got here, she has no idea. She thinks, and thinks, and thinks, and she just can't remember! Her clothes have been changed as well. Where was her dress? Who changed her into <I>this</I>? She reaches up to rub at her stiff neck and freezes. Something else was missing.<BR>
+Her heart is pounding and her breath comes fast as she digs through chests and boxes and pulls free a small mirror. Her hand shakes as she runs it through the brutally shorn strands and tears prick her eyes. Who did this? Why?<BR>
+She gets to her feet and storms to the door, but before her hand touches the plank locking her in, she feels it again, that dual sensation of falling but standing upright. And then nothing.<BR>
+</lj-cut>
+<center>~o.O.o~</center><BR>
+<font color=""green"">
+Fred swipes at his clothes, runs a hand through newly shortened hair, and exits the room. It's time to play.
+</font>
+
+<B>Beware!</B> Smut lies within."
+"eventtime","2005-09-19 13:27:00"
+"url","http://sexy-nurse.livejournal.com/10528.html"
+"userid","13567"
+"itemid","40"
+"event","<center>""How Many Times Can You Fall Asleep In One Day?""</center><BR>
+<lj-cut text=""Good morning, Gisela, and welcome to the Longest Day of Your Life.""><BR>
+Your day begins with a myserious wake-up call that ends with you unconscious in the courtyard behind some bushes, <I>in your jammies</I>. Your heart stops, but fear not! Hoka-Anissina arrives to save you, and your daddy also shows up to bring you to the infirmary. You fall asleep (1). [<a href=""http://www.livejournal.com/users/sexy_nurse/8255.html#cutid1"">Link</a>]
+
+You have a strange dream and wake to find Gunter by your side. The realization that you almost died and have no idea why sinks in and you will have a good cry. You fall asleep (2). [<a href=""http://www.livejournal.com/users/somewhatasaint/1080.html"">Link</a>]
+
+You have another strange dream and begin making a log, feeling that these dreams are somehow connected to what had happened to you earlier that morning. [<a href=""http://www.livejournal.com/users/sexy_nurse/8768.html"">Link</a>]
+
+Rumors start circulating through the infirmary that Yuuri-sama has died. Gunter comes to confirm this and offer comfort. You have another good cry, during which you discover that your father has breasts. You discuss your mother's death. <I>You fall asleep</I> (3). [<a href=""http://www.livejournal.com/users/sexy_nurse/8768.html?thread=178752#t178752"">Link</a>]
+
+Hoka-Anissina returns, a bit panicked, and you both escape to a nearby study, where you chat about silly things. <I>You fall asleep</I> (4). [<a href=""http://www.livejournal.com/users/sexy_nurse/9194.html?thread=187626#t187626"">Link</a>]
+
+You wake to the sound of Hoka-Anissina and Hoka-Gwendal (now a woman) talking ... and cookies. You just want to go back to sleep, so Hoka-Anissina and Hoka-Gwendal leave you there ... for, like, a few seconds. Then the maryoku wave hits and Gwendal drags Hoka-Anissina back into the room. [<a href=""http://www.livejournal.com/users/redhead_warrior/1859.html"">Link</a>]
+
+The wave drains you, but you're a stubborn butt, so you make sure Hoka-Anissina is alright before you send her off to the infirmary. You then change out of your jammies and get to work. [<a href=""http://www.livejournal.com/users/sexy_nurse/9250.html"">Link</a>]
+
+Hoka-Anissina wakes up, and you have a Stubborn Party with her. She is revived by unconscious Aki, but you are not. You ... <I>fall asleep</I> (5). [<a href=""http://www.livejournal.com/users/sexy_nurse/9250.html?thread=203810#t203810
+"">Link</a>]
+
+You wake up after a very short nap and start helping people:
+* The Als arrive with Anissina. [<a href=""http://www.livejournal.com/users/sexy_nurse/9250.html?thread=210722#t210722"">Link</a>]
+* T-Zhou arrives with Pochi. [<a href=""http://www.livejournal.com/users/sexy_nurse/9250.html?thread=223778#t223778"">Link</a>]
+
+Fearing that others may be injured our unconscious and unable to come to the infirmary, you leave the infirmary.<BR>
+* You find Hoka-Cheri-sama in the hall. She thinks you are a little ninja and kind of pisses you off. She will leave on her own. [<a href=""http://www.livejournal.com/users/onceamaou/1865.html"">Link</a>]
+* You find Raven and Cheri-sama in another hall and help them to the infirmary. [<a href=""http://www.livejournal.com/users/painlessecplise/2474.html"">Link</a>]
+* And you meet Nicola and show her to the infirmary, where she and Eru are reunited with her husband. [<a href=""http://www.livejournal.com/users/painlessecplise/2474.html"">Link</a>]
+
+Anissina wakes up and tries to sneak away, but you want her to rest. She is also revived by Aki. You accompany her to her lab. You dicuss the differences between men and women, and Anissina discovers that someone has been using her lab.[<a href=""http://www.livejournal.com/users/sexy_nurse/9250.html?thread=213794#t213794"">Link</a>]
+
+Anissina starts poking around in her lab and sets off a device that gives her the ability to read minds. You can't fool her into believing you are well and good, so she tricks you! <I>You <B>fall asleep</B></I> (6). [<a href=""http://www.livejournal.com/users/genius_anissina/3082.html"">Link</a>]
+
+You are hauled back to the infirmary. [<a href=""http://www.livejournal.com/users/genius_anissina/3385.html"">Link</a>]
+
+And you wake up again! Only it's not you. It's Fred, and he wants to explore! Unfortunately, Daddy isn't fooled by the pillows and potted plot Fred left in your bed and comes looking for you. They chat a bit. Fred likes feeling you up. Fred slams a table into Daddy, messing him up pretty bad, and runs away. [<a href=""http://www.livejournal.com/users/sexy_nurse/10031.html"">Link</a>]
+
+Fred's escape brings him face-to-face with Adelbert, where he attempts to make an ally. Only his time runs out and you get your body back. Surprise! [<a href=""http://www.livejournal.com/users/von_grantz/305.html"">Link</a>]
+
+Huber and Nicola arrive and you make your escape. [<a href=""http://www.livejournal.com/users/von_grantz/528.html"">Link</a>]
+
+Yozak, looking like shit, comes to tell you that there is an injured woman in the dungeon. Off you go! [<a href=""http://www.livejournal.com/users/missbiceps/11443.html?#cutid2"">Link</a>]
+
+And who should you find? Hoka-Anissina! What the hell? So you heal her up and ask her a lot of questions. Convinced that she is innocent, you set out to have a little chat with Yozak. [<a href=""http://www.livejournal.com/users/redhead_warrior/2975.html"">Link</a>]
+
+Problem. Yozak was attacked. You find him alone in his room with a surgical knife stuck in his side. After healing him, you confront him about Hoka-Anissina, and he rants and scares the love of tacos out of you. But he has agreed to at least talk to her, so you don't complain. [<a href=""http://www.livejournal.com/users/missbiceps/11536.html?thread=205328#t205328"">Link</a>]
+</lj-cut>"
+"eventtime","2005-09-16 21:20:00"
+"url","http://sexy-nurse.livejournal.com/10388.html"
+"userid","13567"
+"itemid","39"
+"event","((OOC: Gisela is now possessed by Fred. From time to time, Fred will have control of her body. When this happens, the text will be <font color=""#114906"">green</font>, because I like green and it goes with my background. Also, long post.))<BR>
+<font color=""#114906"">How long has it been? One hundred years? Two? Do they remember him? Do they tell stories of him to their children to make them behave? Do they remember the things he did, the people whose lives he cut short, the day they arrested him and executed him, hanged him before he could complete his goal?<BR>
+He could not leave this plane of existence until his goal was complete. It had taken decades to learn the art of possession, to perfect it, to gather the strength he would need to invade and take control of a body. The healer had seemed like a good choice at the time. People trusted her, she had access to the castle, to the people in the castle, to unassuming patients, to chemicals and potions...<BR>
+The plan was simple: Trick the girl into letting down her defenses and ride the current of her magic into her body. Ideally, it should have only taken a few hours for her body to recover from the initial shock, then he would have been able to push her soul back and begin the process of gradually taking control.<BR>
+But then <I>things</I> kept <I>happening</I> and the damned fool wouldn't rest! What was he supposed to do with an exhausted body?<BR>
+<lj-cut text=""He isn't surprised...""><BR>
+He isn't surprised to find himself once more in the infirmary, only this time, he is in control. Her soul was too weary to put up much of a fight when he pushed forward.<BR>
+He keeps her eyes closed and just listens. It is still busy, but it sounds like things are settling down. He feels a woman's fingers close around Gisela's wrist, and then brush against her forehead. A moment passes, and the woman, a healer, leaves.<BR>
+Green eyes open and he takes a look around. Patients are fast asleep to his left and right. The nearest healer is a few beds away. <a href=""http://www.livejournal.com/users/big_bad_sheep/3917.html"">a sheep wanders by</a> and her bothersome daddy and friend are <a href=""http://www.livejournal.com/users/sexy_nurse/9250.html?thread=240418#t240418"">occupied</a>. It shouldn't be too hard to slip away. She's been doing it all day. The trick is avoiding everyone who might drag her back to the infirmary.<BR>
+He moves slowly to avoid drawing anyone's attention, stretching his arm under the bed and carefully pulling out a spare pillow. He keeps it under the blanket as he draws it up onto the bed and very slowly pushes it until it lies parallel to the girl's legs. He repeats the process with a second pillow, arranging it along her side, thankful that the body he chose is small. He checks his surroundings, waiting  until a pair of healers wanders by and Daddy-dearest has looked away.<BR>
+He slips out of the bed and crouches low. The pillows do a good impersonation of her sleeping body, but he worries that if anyone sees that her head is missing, they will come to investigate. His eyes roam the immediate vicinity, lighting on a <a href=""http://www.plantastic1.com/spider2.jpg"">spider plant</a> conveniently placed on the table beside her bed. He removes a handful of the plant from the back and tucks it under the blanket. That should fool them!<BR>
+Her bed is only a few removed from the door, and the door has been propped open to let air into the stuffy, crowded room. Keeping low, he ducks from bed to bed until he reaches the door. One last glance to make sure he has not been noticed, and out the door he goes, sprinting down the hall and ducking into the first doorway to make sure he was not followed. When several seconds pass and no one comes, he hurries away.<BR>
+Though he has merged with her body, he has not yet gained access to her mind. The castle is unfamiliar and he has little knowledge of the people within it, their strengths and weaknesses. He will have to learn these things before he begins.<BR>
+The girl's body is stronger now. Her powers are steadily returning to normal. If he can keep her out of trouble from now on, there won't be any more setbacks to his plan.<BR>
+He wanders the halls aimlessly, not really sure of where he is or where he is going. It will take a while to learn the layout. He wonders if there are floor plans hidden away somewhere, and makes a mental note to find the library the next time he has control. For now, he is content to wander and get used to the body he has come to inhabit.<BR>
+</font>
+((OOC: Open to anyone who wants to play with Fredgisie. ^_^))
+</lj-cut>"
+"eventtime","2005-09-12 15:14:00"
+"url","http://sexy-nurse.livejournal.com/10031.html"
+"userid","13567"
+"itemid","38"
+"event","Yeah, yeah, yeah. I'm a sheep. Just call me T-Zhou the Third. Ask and you shall recieve. ^_^ 
+
+(IC Gisela and IC Kohi, BTW. And you can ask me something, too, but I'm not as interesting. :P)"
+"eventtime","2005-09-10 14:08:00"
+"url","http://sexy-nurse.livejournal.com/9977.html"
+"userid","13567"
+"itemid","36"
+"event","((<a href=""http://www.livejournal.com/users/redhead_warrior/1859.html"">From here</a>))<BR>
+[[She is in the middle of trying to convince the nurse that she does <I>not</I> need to go back to the infirmary when the <a href=""http://www.livejournal.com/users/the_great_sage/3666.html?thread=51794#t51794"">maryoku wave</a> rolls over them. The nurse staggers and drops to her knees. Gisela doubles over from where she sits, her already weak body sliding off the couch and crumpling on the floor.<BR>
+Her whole body is trembling when she pushes herself up. She reaches for the nurse, sending a small thread of magic out to make sure the other woman is alright. Aside from a mess of pain, she is unharmed.<BR>
+That's when <a href=""http://www.livejournal.com/users/redhead_warrior/1859.html?thread=29507#t29507"">Gwendal returns</a>, dragging Anissina in with him.]]<BR>
+<I>Help her!</I><BR>
+[[Seeing her new friend in such a state lends her the strength to get up on her knees and stare wide-eyed at Gwendal as he drops Anissina on the couch and directs his anger at them.]]<BR>
+<I>I need you to </I>help<I> her!</I><BR>
+[[She feels dizzy and sick, but manages to shuffle on her knees to where Anissina's head rests on the couch. She presses shaking fingers against Anissina's throat and forehead, checking for a pulse, for breath, and sending weak tendrils of magic through the limp body. By the time she is satisfied with the results, she wants to throw up or pass out. She slumps against the couch and looks up at Gwendal.]]<BR>
+She's fine. She just needs to rest.<BR>
+[[She shifts her gaze to the nurse, who is now standing off to the side with a pained expression.]]<BR>
+Get help. We'll keep her in the infirmary until she wakes. I want to know who else was affected by this, and if anyone knows the cause. Any other serious side effects should be brought to my attention.<BR>
+[[The nurse nods and hurries away. Gisela looks at Gwendal.]]<BR>
+Are you alright?"
+"eventtime","2005-08-29 10:53:00"
+"url","http://sexy-nurse.livejournal.com/9250.html"
+"userid","13567"
+"itemid","35"
+"event","Let's see...<BR>
+I woke up this morning ... and <a href=""http://www.livejournal.com/users/sexy_nurse/8255.html""><I>died</I></a>. Good news is, Hoka-Anissina brought me back. But now I'm having weird dreams and can't fucking move.<BR>
+Woke up later in the morning and had a nice little <a href=""http://www.livejournal.com/users/somewhatasaint/1080.html"">breakdown</a> with Daddy.<BR>
+Then I woke up again to news of my lover's <a href=""http://www.livejournal.com/users/sexy_nurse/8768.html?thread=178752#t178752"">death</a>. That warranted another breakdown. Two in one day, for two different reasons ... I believe I've outdone myself.<BR>
+And now I'm waking up to rumors of involuntary <a href=""http://www.livejournal.com/users/missbiceps/9189.html"">sex changes</a>?<BR>
+I thought Daddy felt a little ... <a href=""http://www.livejournal.com/users/sexy_nurse/8768.html?thread=180544#t180544"">squishy</a>. -_-<BR>
+Either I need to stop waking up, or I need to not fall asleep at all."
+"eventtime","2005-08-17 08:31:00"
+"url","http://sexy-nurse.livejournal.com/9194.html"
+"userid","13567"
+"itemid","34"
+"event","((OOC: This takes place around the afternoon of <a href=""http://www.livejournal.com/users/sexy_nurse/8255.html"">this day</a> (the day after the party).))<BR><BR>
+[[Gisela wakes from another dream, this time slowly, the ghost-like images blurring as her eyes focus on the ceiling. The sounds of a busy infirmary reach her second and she turns her head to see what all the commotion is about. Her nurses look harried and there are men and women scattered everywhere, moaning, groaning, and complaining about headaches and hangovers and mysterious injuries incurred at some point during or after the party.<BR>
+She wants to help, but by the time she gets her back propped up on the pillows she feels as though she's run the length of the castle. Twice. Gunter is not there with her, and she feels a pang of disappointment and loneliness. And boredom. Watching the girls run around trying to tend to their overindulgent patients gets tiresome after a while. <BR>
+The nurses have left a patient record beside her bed. She picks up the stack of papers and looks them over. Her name is on the top, and there are scribbled notes on the first page. She doesn't bother to read them. Instead, she locates a piece of lead left of the bedside table and turns the papers over. Until Gunter returns with a journal, this will have to do.]]<BR><BR>
+<lj-cut text=""Dreams"">
+.o.O.o.<BR>
+<I>This is a record of all dreams occurring after the...<a href=""http://www.livejournal.com/users/sexy_nurse/8255.html#cutid1"">incident</a> in the courtyard.<BR>
+<U>Dream #1 : Morning of the Incident</U><BR>
+Peaceful village. Nothing unusual. A woman and son. I felt love for them. Strong, powerful. As though they belonged to me.<BR>
+.o.O.o.<BR>
+<U>Dream #2 : Afternoon of the Incident</U><BR>
+The woman's name is Bridget. We were in a small house. Fields, trees blooming. The boy was outside. She was sewing something, and she looked up and smiled at me.</I>
+</lj-cut>"
+"eventtime","2005-08-15 09:45:00"
+"url","http://sexy-nurse.livejournal.com/8768.html"
+"userid","13567"
+"itemid","32"
+"event","[[Something pulls Gisela from her dreamless sleep. Something loud and bright and disturbing.<BR>
+
+<lj-cut text=""She groans and stares at the ceiling."">
+She groans and stares the ceiling. It is just barely morning; the sun has yet to break the horizon. She waits patiently for the disturbance to repeat itself so she can identify it. She counts the seconds, and her eyes drift shut.<BR>
+It happens again. Louder. Someone is banging on her door.<BR>
+She kicks off her blankets and marches across the room, her hand twisting the handle before she reaches the door. The door swings open and she opens her mouth to address...<BR>
+Nothing.<BR>
+The hallway is empty.<BR>
+Muttering under her breath, she slams the door shut and turns her back on it. She is almost to her bed when the banging starts up again. She whirls around and glares at the door.]]<BR>
+<I>BANG ... BANG ... BANG</I><BR>
+I'm not in the mood for pranks!<BR>
+[[She waits. The silence lasts five seconds.]]<BR>
+<I>BANG ... BANG ... BANG</I><BR>
+[[It is louder this time. She upgrades her prankster from child to adult and tries to think of who would want to play around at this time of the morning.]]<BR>
+Go bother someone else. Some of us are still trying to sleep!<BR>
+[[She drops down on her bed and curls up with her pillow over her head. A growl escapes her throat when the banging resumes. It is steady, a beat. Bang, one, two, three. Bang, one, two, three. Bang, one, two, three, four, five. Repeat.<BR>
+She draws her legs up and tightens her grip on her pillow. The beat repeats. <I>Who the hell is doing this?</I> Probably some drunk left over from the party. Surely there was a clean-up crew to manhandle these people out of the castle?<BR>
+Again, it repeats, only louder. The pictures on the wall rattle. She sits up and looks at the door. Were they using a  
+battering ram now?]]<BR>
+Damn it...<BR>
+[[She throws her pillow across the room and storms to the door, her bare feet slapping against the stone floor, throwing it open and screaming,]] Go away already!<BR>
+[[But the hall is still empty. She looks left. No one. To the right is a large potted plant. She walks to it slowly, then thrusts her arms through the broad leaves and shoves them apart. She is greeted with nothing.<BR>
+Shoving her hair back with one hand, she turns to go back to her room and bed. Her foot lands in something wet and cold and she lurches forward with a cry and catches herself against the wall. She looks to where she had slipped and sees a smear of red.<BR>
+She bends her foot back and examines it. She wipes a bit of the red with her fingers and brings it to her nose. Blood. But not hers.<BR>
+She checks the hall again, this time in search of an injured body. What she finds is a trail of blood leading away from her door. She wonders briefly how she had missed it before and follows it at a run.<BR>
+The trail brings her to the courtyard, where it dots the stairs and disappears behind a line of thick bushes. She crawls behind the bushes and finds her target.<BR>
+A young boy is huddled on the ground, bent double over his knees and hugging his stomach. He looks up at her with sunken gray eyes.<BR>
+She gasps and falls beside him, gathering him up in her arms and urging him to relax. She coaxes his arms away from his midsection and immediately presses her hand over the bloody hole she finds there.]]<BR>
+You're going to be fine. I won't let anything happen. Just hold on and you'll be fine.<BR>
+[[She rocks him and speaks softly as she threads her magic through his small body. He tenses and she shifts so she can look him in the eye. She is not prepared for what she sees. He is smiling, a sick, twisted smile that sends an ill feeling through her veins. She feels a tug on her powers, and in the same instant brushes against something dark and...inhuman.<BR>
+She cuts off the flow of magic and jerks her hands back, but the darkness she sensed has already been released. It rises like black smoke from the boy's wound. Wispy tendrils are already dancing over her fingers, hands, arms; it feels like heavy rope burning into her flesh. It coils and tightens, and tightens more, until it sinks under her skin. <BR>
+It feels like ice racing through her veins and fusing to her bones. She opens her mouth to call for help, to scream, but her voice is choked off by a sudden and blinding pain in her chest. She claws at her nightshirt with both hands and crumples to the ground. <BR>
+The boy bends down to smile at her before vanishing in thin air. She is distantly aware that her heart has stopped. Then darkness claims her.
+</lj-cut>"
+"eventtime","2005-08-05 22:00:00"
+"url","http://sexy-nurse.livejournal.com/8255.html"
+"userid","13567"
+"itemid","31"
+"event","[[Gisela watches <a href=""http://www.livejournal.com/users/stressedyozak/3875.html"">Aki</a> disappear among the guests before heaving a great sigh and getting to her feet. She says farewell to Anissina, and thanks the woman for her concern. Her feet carry her quickly to the exit she had not the energy to reach before.<BR>
+At the doorway she pauses to look back. Her eyes search the twirling, happy bodies, but she doesn't recognize any of them. She doesn't see him, can't think where he's gone, and wonders if she's just another thing he's forgotten. She pushes the thought away and leaves.<BR>
+Much to her relief, the room is empty. She locks the door and yanks the dress off, and pauses just long enough to debate between throwing it in the corner or throwing it in the fireplace. There's enough material in her hands to clothe five small orphans, so in the corner it goes, soundly kicked, lace and fluff flying and settling in a big puffy heap. The mask, useless after tonight, lands among the ashes of the fireplace and stares at her with gold-encircled eyes.<BR>
+She pulls on a nightshirt, braids her hair, and washes the makeup from her face. She unlocks the door, douses the light, and crawls into bed. Despite the boost Aki had given her, she has no trouble closing her eyes and falling into a much needed sleep.]]"
+"eventtime","2005-08-01 20:12:00"
+"url","http://sexy-nurse.livejournal.com/8170.html"
+"userid","13567"
+"itemid","29"
+"event","[[Gisela leaves the <a href=""http://www.livejournal.com/users/missbiceps/7609.html?thread=123577#t123577"">new Shori</a> to his bath and sets out find a few essential items. First, two guards to watch after him. She hates to think that he could be a bad person, but she can't take chances. Besides, even a good person would need to be looked after, should he unintentionally upset the wrong person. She gives instructions to the guards and leaves them at the door of the bath chamber.]]<BR>
+<lj-cut text=""She then heads off...""><BR>
+She then heads off to the laundry room, where she finds a pair of pants and couple of shirts that look like they might fit him. She folds them and holds them under one arm as she goes in search of her third item.<BR>
+The broom closet by the kitchen does not have what she is looking for. Neither does the storage room. Nor the linen closet. She finally finds what she needs huddled up in the corner of a coat closet, covered in a leopard-print jacket and snoring softly. She crouches down and tickles his cheek with her fingers. He snorts and swats her away. Gisela sighs and grabs the young man's ear, giving it a brutal twist. He yelps and jumps up, one hand automatically going to his ear.]]<BR>
+Good evening, Edward. ^_^ Did you forget that there was a big party tonight? The staff could have used your help.<BR>
+[[She stands and claps her hands.]]<BR>
+Come on! I have a job for you.<BR>
+[[Edward grumbles and groans, but climbs to his feet and staggers out of the closet. She shoves the clothes at the man and pushes him ahead of her. She explains the situation to him as they walk.<BR>
+When they arrive at the baths, she taps on the wooden bench just inside the room.]]<BR>
+Shor...Um...Shibuya-san, I have to be somewhere else, but I've left a servant for you. If you need anything, just ask him. I think you should get some food and then some rest. You can use one of the private rooms in the hospital until other arrangements can be made. I'll come to see you in the morning. Good night! ^_^<BR>
+</lj-cut>
+[[She bids the guards and Edward good night before making her way back to the party. She sighs in disappointment seeing that the toasts have already been made and takes her seat at discretely as possible.]]"
+"eventtime","2005-07-29 11:19:00"
+"url","http://sexy-nurse.livejournal.com/7564.html"
+"userid","13567"
+"itemid","28"
+"event","<lj-cut text=""So far...""><BR>
+Tonight has been...interesting. I feel like one of those...what did Heika call them? Yo-yos? Up and down, up and down. From now on, I think I'll keep my partying to the taverns, where no one cares about me and I don't have to care about them. It's so much easier that way.<BR>
+I came to the party with <a href=""http://www.livejournal.com/community/omg_maou/13085.html?thread=198685#t198685"">Shori</a>, just as friends. I enjoy his company and was expecting a pleasant evening of getting to know him better. Unfortunately, our night together ended five whole minutes after it started, due to Yuuri's <a href=""http://www.livejournal.com/community/omg_maou/13786.html"">sudden appearance</a>. I didn't know he could be so...possessive. It was flattering, for a moment.<BR>
+Yuuri had been drugged, and he wasn't looking so good. <a href=""http://www.livejournal.com/community/omg_maou/13786.html?thread=223962#t223962"">I agreed to watch after him</a>, and Shori left. I must have already been well on my way to Drunkland, because it didn't even occur to me to heal him. One of a million mistakes I've made tonight.<BR>
+He dragged me along after him for a bit, and despite my worry, I was happy to be with him. Until we ran into <a href=""http://www.livejournal.com/community/omg_maou/14784.html?thread=287680#t287680"">Conrad</a>. Looking back, it was foolish of me to think badly of him, but my fogged up mind just didn't register that something was wrong. When Conrad <a href=""http://www.livejournal.com/community/omg_maou/14784.html?thread=295872#t295872"">took Yuuri away</a>, I felt...anger. And hate. And...stupidity. Because really, what does Yuuri care? He can do whatever and whomever he pleases. In that regard, I'm nothing to him.<BR>
+Seeing a nice, long, lonely night ahead of me, I decided that <a href=""http://www.livejournal.com/community/omg_maou/14547.html?thread=311251#t311251?"">smashed beyond repair</a> was the way to go.<BR>
+And then Yuuri <a href=""http://www.livejournal.com/community/omg_maou/14547.html?thread=319955#t319955"">reappeared</a>. He said he didn't remember his fighting with Shori or running off with Conrad. And I believed him. I wanted to. And he was back with me again, so...it was alright. My stupid heart was willing to forgive anything.<BR>
+We <a href=""http://www.livejournal.com/community/omg_maou/14547.html?thread=345043#t345043"">talked<a> for a bit. I wanted to tell him what was really wrong, what I was really feeling, but...He wouldn't understand. Or it would scare him away. And I was just not ready to deal with that yet, no matter how much the alternative hurt.<BR>
+There was an <a href=""http://www.livejournal.com/community/omg_maou/14547.html?thread=364243#t364243"">accident</a>, entirely my fault, that resulted in Yuuri's believing he was cat. When I tried to heal the bump on his head, he ran away. I searched everywhere for him, but it was <a href=""http://www.livejournal.com/community/omg_maou/14547.html?thread=380883#t380883"">Conrad who found me</a> and brought me to him. I'm embrrassed to say that I was <a href=""http://www.livejournal.com/community/omg_maou/14547.html?thread=397267#t397267"">too drunk</a> to heal him.<BR>
+But Aki soon arrived to heal Yuuri and, regretfully, <a href=""http://www.livejournal.com/community/omg_maou/14547.html?thread=406227#t406227"">me</a>. My head cleared up just in time to witness <a href=""http://www.livejournal.com/community/omg_maou/14547.html?thread=404691#t404691"">Yuuri grabbing onto and holding Wolfy</a>, with a paifully familiar possessiveness.<BR>
+<a href=""http://www.livejournal.com/community/omg_maou/14547.html?thread=409299#t409299"">I ran</a>. Right into Julia's double. She was so kind to offer her help, and I fear I may have embarrassed myself telling her everything that had been trapped inside me. I pray her soul is as understanding as my Julia's was.<BR>
+While taking my seat and waiting for dinner to begin, <a href=""http://www.livejournal.com/community/omg_maou/18377.html?thread=478665#t478665"">Yuuri came to see me</a>. I feel like a foolish little girl when I'm with him, letting his little tricks get between me and my anger.<BR>
+I was almost ready to accept the night for what it was (a disaster) and, not for the first time, seriously entertained thoughts of running away to my favorite tavern and drinking a few heavyweights under the table. That is, until <a href=""http://www.livejournal.com/users/sexy_nurse/6905.html"">Yuuri appeared</a> <I>again</I>. I told him that he was the cause of my grief, though really, shouldn't he have already known that? No one else could make me feel so much joy and anger and worry and sadness and frustration as he does.<BR>
+So we talked. And...I believed him. Again. My heart will accept nothing besides.<BR>
+And we...<a href=""http://www.livejournal.com/users/sexy_nurse/6905.html?thread=157945#t157945"">made up</a>. But that only resulted in a <a href=""http://www.livejournal.com/users/sexy_nurse/6905.html?thread=163321#t163321"">new worry</a>. I wonder if he can really be so oblvious. I admit, this playful, childish nature of his is one of the reason I find him so attractive. But...I wonder if it might, in part, be an act. I want to help him, but I can't if he just avoids the issue. <BR>
+Regardless, I wanted to have a good time with what was left of the night, so I returned to dinner and had a <a href=""http://www.livejournal.com/users/sexy_nurse/6986.html"">nice chat with Yozak</a>. The poor thing had a bit of headache, but that is easy enough to fix. I think he and I should hit the town sometime soon. He might make a good drinking partner. ^_^<BR>
+Of course, then Jennifer <a href=""http://www.livejournal.com/community/omg_maou/19619.html"">came and asked me to follow her</a>. Fearing the worst, because nothing less than horrible is acceptable on a night like this, I went without question. Thankfully, Greta-chan is safe and well, and I do not have to worry about the other Greta.<BR>
+</lj-cut>
+___________________________<BR>
+[[Gisela leaves <lj user=""greta_chan""> with <lj user=""princessotennis"">, and hurries to the powder room to freshen up before heading back to dinner. Several glasses of wine and/or punch will do horrible, uncomfortable things to one's bladder.<BR>
+As she emerges from the room, fluffing her skirt and adjusting her mask, she hears the sound of pounding feet up the hall. She steps back just in time to avoid being run over by one of Conrad's soldiers, though she can't quite place his name. He glances at her, but does not stop. She watches him pause at a couple stumbling down the hall before he hurries off again. Obviously, he's looking for something. Or someone. So, her mind supplies, the problem must lie in the opposite direction. Gathering up the annoying fluff that is her dress, she <a href=""http://www.livejournal.com/users/missbiceps/7609.html"">hurries back the way he had come.</a>]]"
+"eventtime","2005-07-25 09:32:00"
+"url","http://sexy-nurse.livejournal.com/7199.html"
+"userid","13567"
+"itemid","27"
+"event","<B>Edited</B><BR><BR>
+[[Her talk with <lj user=""sinful_maou""> leaves Gisela both <a href=""http://www.livejournal.com/users/sexy_nurse/6905.html?thread=151801#t151801"">immensly happy</a> and <a href=""http://www.livejournal.com/users/sexy_nurse/6905.html?thread=163321#t163321"">deeply troubled</a>. She reminds herself to make time for Yuuri later, and to perhaps talk to Conrad. Yuuri, it would seem, is not as upset as she feels, so she pushes her worries to the side to be dealt with another time. She made a promise, and she intends to keep it.<BR>
+Recalling the taste of his mouth, the feel of his hands, the heat of his breath, Gisela smiles and returns to the table, happy, if a bit disheveled. She slides her wine glass to the center of the table and requests a glass of water instead. Her stomach growls painfully when the food arrives and she has to force herself to keep from wolfing it down. Even so, she finishes her first plate before anyone else around her.]]"
+"eventtime","2005-07-21 21:29:00"
+"url","http://sexy-nurse.livejournal.com/6986.html"
+"userid","13567"
+"itemid","26"
+"event","[[Gisela is thinking:<BR>
+<I>Is this night ever going to </I>end<I>?<BR>
+It's just been one disaster after another. Why am I even here? I'm sure no one will notice or care if I sneak away. This dress is suddenly too hot and too heavy. I should have found something lighter. <BR>
+I should have stayed in bed. Or gone to work. Why did I come again?<BR>
+Oh, yeah. Shori. Where did he go, anyway? I didn't promise him a dance, did I? Did I? I don't remember. Damn. What if I did? It would be rude to leave then, if I did. Maybe I didn't....But what if I did? Maybe he won't care. Maybe he found someone else. <BR>
+*sigh* Like everyone else.<BR>
+<a href=""http://www.livejournal.com/community/omg_maou/18377.html?thread=505033#t505033"">Stupid Conrad.</a><BR>
+And Wolfy. No, no. Can't hate Wolfy. He's too cute.<BR>
+Stupid...stupid Yuuri. And his stupid hearts that make me feel...not mad...and warm and squishy and...<BR>
+Who gave me wine? Wait, no, who keeps filling my glass? I swear it was empty a minute ago. Oh, well. Down the hatch!<BR>
+....Did I leave my underwear on the balcony? Were they the pair with my name embroidered on them? Do I care?<BR>
+It's full again! *looks around* Who's doing that?!</I><BR>
+<B>Beware! Smut lies within!</B>"
+"eventtime","2005-07-19 08:16:00"
+"url","http://sexy-nurse.livejournal.com/6905.html"
+"userid","13567"
+"itemid","24"
+"event","I'm going to the party with Shori. <I>Shori</I>. And we bought constumes that...match. I even spelled my hair black.<BR>
+He looked good. Really good. I'm kind of...excited about this. Which feels kind of wrong. But it's not like Yuur...Nevermind. It doesn't matter. Barring a catastrophy, I'm going to have fun tonight, no matter what. And if it all goes wrong, I'll just get drunk.<BR><BR>
+<B>EDIT: Removed artwork</B>"
+"eventtime","2005-07-08 18:12:00"
+"url","http://sexy-nurse.livejournal.com/6267.html"
+"userid","13567"
+"itemid","23"
+"event","[[After checking on the patients in the hospital and leaving instructions with the nurses, Gisela goes in search of her two missing charges. She learns from a couple of maids that Shori, at least, is in his room, so she goes there first. She knocks three times and waits for a response.]]"
+"eventtime","2005-07-07 06:29:00"
+"url","http://sexy-nurse.livejournal.com/6050.html"
+"userid","13567"
+"itemid","22"
+"event","<a href=""http://pics.livejournal.com/emmerly/pic/0001a301"">What?</a> On such short notice? I don't think I have time to design a costume for such a thing! Though...it is a pretty big event, seeing as it's for Heika and Wolfram-sama...<BR>
+I wonder if I'll have time. There are still a few soldiers in the hospital that need care, minus <a href=""http://www.livejournal.com/users/_oniichan/1528.html"">Certain</a> <a href=""http://www.livejournal.com/users/goldenbishounen/3543.html"">Someones</a> who can't stay put and will have to be checked on by a Certain Irate Healer who is <I>not</I> in the mood for house calls.<BR>
+I guess I should get to town and check out materials if I want to be presentable in time.<BR>"
+"eventtime","2005-07-06 17:00:00"
+"url","http://sexy-nurse.livejournal.com/5810.html"
+"userid","13567"
+"itemid","21"
+"event","[[Gisela runs through the castle as fast as she can. When one of her nurses came pounding on her door and shouting about an emergency, she didn't hesitate. In her nightgown and barefoot she hurried to the medical wing, leaving the nurse far behind. She can smell smoke and fears the worst.<BR>
+She skids to a halt as soon as she enters the hospital. Only a few of the beds are occupied, but its who's in them that makes her heart stop. A few soldiers, Wolfram, Shori. The Shinou is there as well, but judging from the look on his face, he isn't here to help.]]<BR>
+What the hell happened?"
+"eventtime","2005-07-01 08:23:00"
+"url","http://sexy-nurse.livejournal.com/5388.html"
+"userid","13567"
+"itemid","20"
+"event","((OOC: <a href=""http://www.livejournal.com/users/sexy_nurse/4687.html"">It will never end!!!</a>))<BR>
+[[Gisela curls up around her pillow and yanks the blankets over her head. She is aware that it is late morning, but she doesn't want to get up. She doesn't want to see anyone. Her stomach is twisting; she tells herself that it is just hunger.]]<BR>
+<lj-cut text=""Private"">
+<a href=""http://www.livejournal.com/users/_oniichan/407.html"">I don't understand.</a> I don't understand what happened. I don't understand him. I don't understand myself.
+
+I would be lying if I said he wasn't attractive. And I liked being with him. And he <I>did</I> ask <I>me</I>. I didn't have to accept. But I did. I wanted to. <I>No you didn't.</I> Yes I did. Why wouldn't I? To pass up a chance to be with a handsome, smart man like that...<I>That's not why you did it.</I>
+
+Why did he leave? Was it me? No. He was probably embarrassed about the maid...The maid! Oh, God! Everyone in the castle is going know that...Well, nothing actually happened...but if she <I>thinks</I> it did then...Then what? <I>Yuuri will hear about it.</I>
+
+I don't care if Yuuri finds out about it. I didn't do anything wrong! I just wanted...I wanted to... <I>You want to prove that you don't love him.</I> I don't. That would be stupid.
+
+<I>Why are you crying?</I> 
+
+Shut up.
+</lj-cut>"
+"eventtime","2005-06-30 11:42:00"
+"url","http://sexy-nurse.livejournal.com/5181.html"
+"userid","13567"

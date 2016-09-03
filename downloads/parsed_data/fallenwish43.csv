@@ -1,0 +1,960 @@
+"names","values"
+"itemid","59"
+"event","T25lIG9mIG15IGZhdm9yaXRlIHNpbmdlcnMgKG90aGVyIHRoYW4gSm9uaSBNaXRjaGVsbCkgaXMgU2hhd24gQ29sdmluLiBJIG9ubHkgYnJpbmcgaGVyIHVwIG5vdyBhcyBJIGp1c3QgZm91bmQgaGVyIG5ldyBBbGJ1bSwgd2hpY2ggSSBsaWtlZCBidXQgb25seSBhY3R1YWxseSBkb3dubG9hZGVkIHR3byBzb25ncy4gVG8gYmUgaG9uZXN0LCBJIGFjdHVhbGx5IGxpa2VkIGhlciA8ZW0+YmVmb3JlPC9lbT4gSSBsaWtlZCBKb25pIE1pdGNoZWxsLiBJIHJlbWVtYmVyIHRoYXQgc3VtbWVyIHdlbGwuIEkgd2FzIDEyIGFuZCB2aXNpdGluZyBteSBtb3RoZXIgaW4gV2FzaGluZ3RvbiBTdGF0ZS4gSSBoYWQgc2l4IHdlZWtzLCA2NCBkb2xsYXJzLCBhbmQgYSB0YXBlIHBsYXllci4gQW5kIEkgaGFkIGEgZmV3IHRhcGVkIG15IGZhdGhlciBoYWQgbWFkZSBmb3IgbWUgYmVmb3JlIHRoZSB0cmlwIC0gSmFtZXMgVGF5bG9yLCBzb21lIG9sZCBjb3VudHJ5IHR1bmVzLCBhbmQgU2hhd24gQ29sdmluLiBBbmQgSSByZWFsbHkgbG92ZWQgaGVyIGZyb20gdGhlIGZpcnN0IG1vbWVudCBJIGhlYXJkIGhlciBmaXJzdCBzb25nICJTdGVhZHkgT24iLiBJdCB3YXMgc28gc2ltcGxlIGFuZCByaWNoIGFuZCBJIHJlYWxseSBmZWx0IGxpa2UgSSB3YXMgaW4gdGhlIHdhdGVyIHNvbWV3aGVyZSAtIGl0IGhhcyBzdWNoIGEgd2F0ZXJ5IGZlZWxpbmcgdG8gaXQuJm5ic3A7PGJyIC8+PGJyIC8+VGhhdCBzdW1tZXIgd2FzIHJlYWxseSBoYXJkLiBJIHdhcyBpbiBsb3ZlIHdpdGggQWRyaWFuIE5vcmllZ2EsIGEgdG90YWxseSBiaS1zZXh1YWwgdGhlYXRlciBndXkgd2l0aCB0aGUgZmVhdHVyZXMgbGlrZSBhbiBpdGFsaWFuIEdvZCBhbmQgYSBzb3VsIHRoYXQgdXNlZCBtaW5lIHRvIGdldCBieS4gSSB3b3JzaGlwZWQgaGltIGZvciBhIHllYXIgYW5kIGEgaGFsZiBiZWZvcmUgd2lzaW5nIHVwIHRvIHJlYWxpdHksIGJ1dCB0aGF0IHN1bW1lciBJIHJlbWVtYmVyIGJlaW5nIHRvdGFsbHkgZW5hbW9yZWQgYW5kIGZhciwgZmFyIGF3YXkuIEkgZGlkbid0IGtub3cgYW55b25lIHRoZXJlLCBteSBNb3RoZXIgaGFkbid0IG1ldCBhbnlvbmUgZWl0aGVyLCBzbyBpdCB3YXMganVzdCB0aGUgdHdvIG9mIHVzLiBUaGF0IGRpZG4ndCBnbyBzbyB3ZWxsIGVpdGhlciwgYmVjYXVzZSB3ZSBoYWQgdHdvIGh1Z2UgZmlnaHRzIGFuZCBJIHJlYWxseSBsZXQgaGVyIGhhdmUgaXQgZm9yIGxlYXZpbmcgbWUgYWxvbmUgaW4gdGhlIGZpcnN0IHBsYWNlLiBTbyB3aGlsZSBteSBtb3RoZXIgd2FzIGF0IHdvcmssIEkgd291bGQgd2F0Y2ggbW92aWVzLCBJIHdvdWxkIGVhdCBtYWNkb25hbGQncyBhbmQgSSB3b3VsZCBsaXN0ZW4gdG8gdGhlIHRhcGVzIG15IGRhZGR5IG1hZGUgbWUuIEFuZCBpIHdvdWxkIHdyaXRlIGRvd24gdGhlIGx5cmljcyBzbyBJIGNvdWxkIHRyeSB0byBtYWtlIHNpbWlsYXIgcG9ldHJ5LiBJIHdvdWxkIHNpbmcgaGVyIHNvbmdzIGFuZCBwcmV0ZW5kIEkgd2FzIGZhbW91cyBhbmQgc2luZ2luZyBmb3IgbXkgQWRyaWFuIGFuZCB0aGF0IGhlIGxvdmVkIG1lIGFuZCBub3QgQW5nZWxhIEhvb2Jlbi4gSXQgZGlkbid0IHdvcmssIGJ1dCBpdCBtYWRlIHRoZSB0aW1lIGdvIGJ5LjxiciAvPjxiciAvPkFueXdheSwgSSB3YXMgYWN0dWFsbHkgaW4gQmlsbGluZ3MgTW9udGFuYSB0d28gZGF5cyBiZWZvcmUgc2hlIHBsYXllZCB0aGVyZSwgYnV0IHRoYXQncyBhcyBjbG9zZSBhcyBJIGV2ZXIgaGF2ZSBnb3R0ZW4uIFNoZSdzIG9uZSBvZiB0aGUgdG9wIGZpdmUgcGVvcGxlIEkgd291bGQgbGlrZSB0byBzZWUgcGxheSBiZWZvcmUgSSBkaWUuIFNoZSdzIGRvbmUgc28gbXVjaCBzaW5jZSB0aGF0IGZpcnN0IGFsYnVtLCBhbmQgaXQncyByZWFsbHkgY2hhbmdlZCBteSBsaWZlIGluIGEgbG90IG9mIHdheXMuIEkgZmVsdCBsaWtlIHNoZSB3YXMgdGhlIG9ubHkgb25lIHdobyBoYWQgZXZlciBmZWx0IHN1aWNpZGFsIGZvciBzb21lIGd1eSB3aG8gZGlkbid0IHVuZGVyc3RhbmQgaGVyLCBhbmQgYXMgc2hlIGdyZXcgc3Ryb25nIHNvIGRpZCBJLiBJIGNhbid0IGhlYXIgaGVyIHNvbmcgInJvdW5kIG9mIGJsdWVzIiB3aXRob3V0IHRoaW5raW5nIG9mIE1vbnRhbmEgYW5kIGRyaXZpbmcgdGhyb3VnaCB0aGUgbW91bnRhaW5zLiZuYnNwOzxiciAvPjxiciAvPlNoZSB3cm90ZSBteSBmYXZvcml0ZSAiZGl2b3JjZSIgc29uZywgY2FsbGVkICJJJ2xsIHNheSBJJ20gc29ycnkgbm93Ii4gSXQncyByZWFsbHkgZ3JlYXQgYW5kLCBpZiBJIGNvdWxkIGV2ZXIgZ2l2ZSBCZW4gYSBzb25nLCBJIHRoaW5rIGl0IHdvdWxkIGhhdmUgdG8gYmUgdGhhdCBvbmUuIFNhZCBhcyBpdCBpcywgSSB0aGluayBzaGUgd3JvdGUgaXQgZm9yIHNvbWVvbmUgc2hlIGh1cnQgb25jZSwgYW5kIHRob3VnaCBJIGFtIHN1cmUgc2hlJ3MgaGFwcHkgd2hlcmUgc2hlIGlzIGluIGxpZmUsIHNoZSdzIHNvcnJ5IHRoYXQgaXQgdG9vayB0aGF0IGh1cnQgdG8gZ2V0IGhlciB0aGVyZS4mbmJzcDs8YnIgLz48YnIgLz5TaGUgd3JvdGUgInRoZSBUcnV0aCBhYm91dCBKaW1teSIsIGEgZ3JlYXQgc29uZyBhYm91dCBhIG1hbiB3aG8gZXZlcnlvbmUgZmFsbHMgaW4gbG92ZSB3aXRoLiBJdCByZW1pbmRzIG1lIG9mIG15IG93biBwZXJzb25hbCBCcmFkIFBpdHQgYW5kIHRoZSBkYXJrbmVzcyBvZiB3aGF0IGxpZXMgYmVoaW5kIHRoZSBmZWVsaW5ncyB0aGF0IEkgdXNlZCB0byBoYXZlIGFib3V0IGhpbS4mbmJzcDs8YnIgLz48YnIgLz5TaGUgd3JvdGUgIk5vdGhpbmcgbGlrZSB5b3UiLCB3aGljaCwgYWx0aG91Z2ggcmF0aGVyIG5ldywgZmVlbHMgbGlrZSBJIGhhdmUgYWx3YXlzIGhlYXJkIGluIG15IGhlYWQuIEl0J3MgYSBncmVhdCBkcnVua2VuIGtpbmQgb2Ygc29uZyB3aGVyZSB5b3UgZG9uJ3QgcmVhbGx5IGtub3cgd2hvIHlvdSBhcmUgdGFsa2luZyB0bywgYnV0IHlvdSBrbm93IHRoYXQgeW91IGxvdmUgdGhlbS4mbmJzcDs8YnIgLz48YnIgLz48YnIgLz5UaGVyZSBhcmUgc28gbWFueSBvdGhlcnMgdGhhdCBqdXN0IG1ha2UgbXkgbGlmZSB3b3J0aCBsaXZpbmcuIFRIQVQncyB3aHkgcGVvcGxlIGdldCB1cCBpbiB0aGUgbW9ybmluZy4gRm9yIHRoZSB0aGluZ3MgdGhleSBsb3ZlLCB0aGUgdGhpbmdzIHRoYXQgbWFrZSB0aGVpciBsaWZlIGEgam95IHJhdGhlciB0aGFuIGEgc29ycm93LiBJIHJlYWxseSBsb3ZlIGhlciBtdXNpYy4gSXQgbWFrZXMgbWUgZmVlbCBzbyBmcmVlLCBkcml2aW5nIGluIG15IGNhciB3aXRoIHRoZSB0b3AgZG93biBhbmQgdGhlIHdpbmQgaW4gbXkgaGFpciBhbmQgdGhlIHNvbmdzIGluIG15IGVhcnMuIEl0J3MgdGhlIHBlcmZlY3QgdGltZSB0byBiZSB3aXRoIEdvZCBhbmQganVzdCBiZSB3aG8geW91IGFyZSwgd2l0aCBubyBvbmUgd2F0Y2hpbmcuJm5ic3A7PGJyIC8+PGJyIC8+SGVyZSBpcyBTaGF3bidzIExhdGVzdCBhd2Vzb21lIHNvbmcuIEl0IGlzIHNpbXBseSBzcGxlbmRpZCwgYnV0IHlvdSBrbmV3IGl0IHdvdWxkIGJlLiBJdCB0b3RhbGx5IGZlZWxzIGxpa2UgbWUgcmlnaHQgbm93LCBvbiBhIGpvdXJuZXksIGZpbmRpbmcgd2hhdCBJIG5lZWRlZCBhbGwgYWxvbmcgd2FzIHdoZXJlIEkgd2FzIGhlYWRpbmcsIHdpdGggc29tZW9uZSB0byBtYWtlIG1lIHNtaWxlIGFuZCBhIGxvdmUgbGlrZSBpbiB0aGUgbW92aWVzLiA8YnIgLz48YnIgLz48ZW0+RmlsbCBtZSB1cCAsIGZpbGwgbWUgdXAgSeKAmW0gYSBsb25nIHdheSBmcm9tIGhvbWUgYW5kIEkgZG9u4oCZdCBoYXZlIGEgbG90IHRvIHNheSA8YnIgLz5GaWxsIG1lIHVwICwgZmlsbCBtZSB1cCBjYXVzZSB5b3XigJlyZSBhbGwgdGhhdCBJ4oCZdmUgZ290IGFuZCBJIHRyYXZlbGVkIGEgbG9uZywgbG9uZyB3YXkgPGJyIC8+PGJyIC8+Q2hlZXIgbWUgdXAsIGNoZWVyIG1lIHVwIGNhdXNlIEnigJltIGFsbCBhbG9uZSBhbmQgSeKAmW0gdGFraW4gaXQgZGF5IGJ5IGRheSA8YnIgLz5DaGVlciBtZSB1cCwgY2hlZXIgbWUgdXAgY2F1c2UgeW914oCZcmUgYWxsIHRoYXQgSeKAmXZlIGdvdCBhbmQgSSB0cmF2ZWxlZCBhIGxvbmcsIGxvbmcgd2F5IDxiciAvPjxiciAvPknigJltIGEgYmVsbCwgaG9wIGFuIGVsIG9uIGEgYnVzeSBkYXkgYW5kIEnigJltIHN0YXJ0aW5nIGF0IHN1bnJpc2UgPGJyIC8+QW5kIHRoZSBjb2xvciBvZiBkYXduIGZyb20gdGhpcyBwbGFuZSB0aGF0IEnigJltIG9uIGlzIHRoZSBkYXkgYnJlYWtpbmcgaW4geW91ciBleWVzIDxiciAvPjxiciAvPknigJltIGEgc3RpbGwgbGlmZSBmcm9tIGhlbGwgb24gYSB0YWJsZXRvcCBJ4oCZbSBhIGNhc2Ugc3R1ZHkgaW4gRnJlbmNoIGJsdWUgPGJyIC8+QW5kIGl04oCZcyBjbGVhciB0byBtZSBub3cgdGhhdCB0aGUgd2hvbGUgb2YgbXkgbGlmZSBJ4oCZdmUgYmVlbiBtYWtpbmcgbXkgd2F5IHRvIHlvdSA8YnIgLz48YnIgLz5BbmQgSSBrbm93IHdoZXJlIHlvdSBsaXZlIGFuZCBJIGtub3cgd2hvIHlvdSBhcmUgPGJyIC8+RG9u4oCZdCBnZXQgdG9vIGNsb3NlIGFuZCBkb27igJl0IGdvIHRvbyBmYXIgPGJyIC8+PGJyIC8+V2VsbCBJIG1pZ2h0IGJlIGFscmlnaHQgaWYgSSBqdXN0IHNlZSB0aGUgbGlnaHQsIEkgZG9u4oCZdCBjYXJlIGlmIHRoZSBwaG9uZSBkb27igJl0IHJpbmcgPGJyIC8+QW5kIEkga25vdyB3aGVuIGl04oCZcyByaWdodCBieSBhIHZvaWNlIGluIHRoZSBuaWdodCBhbmQgdGhlIHJpZ2h0IHNoYWRlIG9mIHRhbmdlcmluZSA8YnIgLz48YnIgLz5GaWxsIG1lIHVwICwgZmlsbCBtZSB1cCBJ4oCZbSBhIGxvbmcgd2F5IGZyb20gaG9tZSBhbmQgSSBkb27igJl0IGhhdmUgYSBsb3QgdG8gc2F5IDxiciAvPkNoZWVyIG1lIHVwLCBjaGVlciBtZSB1cCBjYXVzZSB5b3XigJlyZSBhbGwgdGhhdCBJ4oCZdmUgZ290IGFuZCBJIHRyYXZlbGVkIGEgbG9uZywgbG9uZyB3YXkgPGJyIC8+PGJyIC8+QW5kIEkga25vdyB3aGVyZSB5b3UgbGl2ZSBhbmQgSSBrbm93IHdobyB5b3UgYXJlIDxiciAvPlNvIGRvbuKAmXQgZ2V0IHRvbyBjbG9zZSBhbmQgZG9u4oCZdCBnbyB0b28gZmFyIDxiciAvPkRvbuKAmXQgZ2V0IHRvbyBjbG9zZSBhbmQgcHJvbWlzZSBtZSB0aGF0IHlvdeKAmWxsIG5ldmVyIGdvIHRvbyBmYXIgPGJyIC8+TmV2ZXIgZ28gdG9vIGZhciA8YnIgLz48YnIgLz5GaWxsIG1lIHVwICwgZmlsbCBtZSB1cCBJ4oCZbSBhIGxvbmcgd2F5IGZyb20gaG9tZSBhbmQgSSBkb27igJl0IGhhdmUgYSBsb3QgdG8gc2F5IDxiciAvPkZpbGwgbWUgdXAsIGZpbGwgbWUgdXAgY2F1c2UgeW914oCZcmUgYWxsIHRoYXQgSSBnb3QgYW5kIEkgdHJhdmVsZWQgYSBsb25nLCBsb25nIHdheSA8YnIgLz48YnIgLz5DaGVlciBtZSB1cCwgY2hlZXIgbWUgdXAgY2F1c2UgSeKAmW0gYWxsIGFsb25lIGFuZCBJ4oCZbSB0YWtpbiBpdCBkYXkgYnkgZGF5IDxiciAvPkZpbGwgbWUgdXAsIGZpbGwgbWUgdXAgY2F1c2UgeW914oCZcmUgYWxsIHRoYXQgSeKAmXZlIGdvdCBhbmQgSeKAmXZlIHRyYXZlbGVkIGEgbG9uZywgbG9uZyB3YXkgPGJyIC8+QnV0IEnigJl2ZSB0cmF2ZWxlZCBhIGxvbmcsIGxvbmcgd2F5IDxiciAvPlllYWggSSB0cmF2ZWxlZCBhIGxvbmcsIGxvbmcgd2F5IDwvZW0+"
+"eventtime","2007-01-11 21:57:00"
+"current_moodid","120"
+"url","http://fallenwish43.livejournal.com/15185.html"
+"userid","4919"
+"itemid","58"
+"event","I just got done eating a Monster Cheeseburger from Jack in the Box, and I feel great. Infact, I have had two this week, and it doesn't bother me one bit. That is, until I look in the mirror. Yikes, I really need to cut twenty pounds off of my body, I think, as I walk back to my desk. But I feel fine. I feel good. And then I begin to think about me as a little girl, about being the fat kid no one liked, and I try to pinpoint it to one moment where it was decided by the world that I was fat. And now I remember. I was five years old, and it was circus day in my Day Care. It was in Montana, my parents were still married, and still happy (kinda). Yvonne, I think her name was, got to be the tight rope walker. She wore a lovely white frilly dress and ballet shoes and got to hold a magic wand. There were tigers and a ringmaster, and it was supposed to be fun. Until they told me I had to be the fat lady. I cried for a long time and I remember my mom trying to make the best of it by getting me a pretty red grown up dress and cutting it so it was short enough for me to wear. She found a lovely red hat to match and gave me long dangly earrings and rings to cover my fingers. But I was still upset when it came time to play, the counselers decided to just call me the pretty lady instead of the fat lady. I remember walking out into the clearing of people and, though I smiled and waved about, I felt to stupid, so ugly, so <em>fat</em>. And I was five years old. That moment changed it all for me. And perhaps my parent's divorce helped me to hide away in double chocolate ice cream cones and melted cheese, but when I think of the moment that really defined me as a fat girl, a fat person, it is the day my Day Care Center, run by adults, chose to make me the fat lady in their pretend game. Adults, who, now, wouldn't dare give that title to anyone, becuase it might hurt their feelings, didn't even think twice about the fact that I was so upset by being called something that everyone knows is a negative. No one ever says ""wow, George, he's such a nice guy, He's so fat and I really like that about him"".&nbsp;<br /><br />I have come to terms with the fact that I will never be a size 6. I think the smallest I have ever been was an 8 as an adult. I am larger now, probably somewhere between a 12 and 14, and there are days when I just want to run to a plastic surgeon or run fifty miles in hopes of getting the old ""me"" back. But then I remember, this is the me that I have always been, this is the me who has danced, who has camped, who has hiked and biked and has been deeply loved by so many. I've had passionate moments where I didn't once think of myself as anything other than devilishly sexy. This is the body I was given, and even though it's not a size 6, it's still one hell of a great body to have. I might stil be the fat lady, but my heart is fat to, and at least, at <em>least, </em>there is more of me to love!<br />"
+"eventtime","2007-01-10 12:45:00"
+"current_moodid","101"
+"url","http://fallenwish43.livejournal.com/14993.html"
+"userid","4919"
+"itemid","57"
+"event","8:39 am. Monday, January 1st. I'm waiting for the new year to begin happily, but it won't. To be honest, this new year has really sucked so far compared to last year. 8:40 am. I wonder if I should have a bath. I didn't drink last night but I feel dirty. I cna't find my keyds to get out of this place. I spent twenty minutes looking for them but to no avail. Wicket is fine - albeit a little cold. He has no hair now and it's in the forties outside. I wish it were snowing. I wish I had a river I could skate away on. I think Jonit Mitchell wrote that song after a night like last night, when everything went from lovely to terrible in less than tweny minutes. I bet she woke up alone like me and didn't know what to say about it, so she just picked up her guitar and wrote a song. I wish I could play guitar. 8:43 am the day will not move along. I have no idea where my keys are - escape is futile. I just want to be away from here, from this place of sadness and denial. It's a never ending story, right? Nothing ever ends, not really. 8:44 am. I shouldn't feel so bad. Some people go through their entire lives not having experienced the love that I have. I am stronger than I give myself credit for. I will be fine. I will not have fantasies about dying in this apartment, only to be discovered by wild boars. Bridget Jones wouldn't cry over something so silly as this, why should I? I wasn't that good in bed, anyway. Yes, that's it, let's be angry about it rather than depressed. 8:47. I should take a bath. It's cold in here and water is warm. water is warm. And my blood is cold, this world is cold, my poor dog is cold. On the edge of insanity, the view is lovely."
+"eventtime","2007-01-01 14:48:00"
+"current_moodid","129"
+"url","http://fallenwish43.livejournal.com/14805.html"
+"userid","4919"
+"itemid","56"
+"event","Today is Christmas, and I always feel a little listless and sad. I'm not sure why, but after the hoarding of gifts and the frenzy of unwrapping and thanking and re-examining gifts, I always want to just crawl back into bed and sleep. Luckily I am at my parents house - the sanctuary to do that kind of thing. James Taylor's new Christmas album fills the living room and the smell of stuffing and turkey and gravy fill the kitchen, and everyone is ripe with new books, CDs and DVDs. The cats outside are howling at Wicket, and Daddy is somewhere smoking a cigar.&nbsp; It's almost noon, but it's like I have been awake forever.&nbsp;
+
+I didn't sleep much last night - not because of my excitement that Santa is coming, but because I'm troubled with the uncertainty of my future. Which is odd, considering I have always been uncertain of my future, but now that I'm older (I will laugh at this when I'm 40) I just feel like I can't make too many more mistakes or take to many&nbsp; chances. And I miss Robert. The night before last, I watched The Sound of Music with Daddy and Patti, and I couldn't stop thinking of him. But when he called, there was no time to really talk. He's in Boston and very very busy seeing everyone and doesn't have the time to really catch up on much. Part of me feels foolish that I am expecting to much - I'm just bummed he can't be here, that we can't be together. I suppose it's not such a big deal, he told me last night that I was fretting over nothing. ""People have to deal with this all the time...sorry I'm not as bummed about it as you""&nbsp; I""m sorry too.&nbsp;
+
+I called my mother, who is alone on Christmas. She spent a lot of time putting together a box for me this year, with lots of sweet things like shirts and jewelery. She even remembered Robert - I am sure he will be touched by that. She's going to see Betty, my late Grandfather's lady friend, today in the hospital, and they are going to have Christmas dinner with her. I never quiet understood the whole Christmas Dinner thing. I am just not that big of a fan of Turkey and dressing, but every year, it's always really good. My favorites are all the sides, like mashed potatoes and green bean cassarole. Robert says he makes a great Turkey. I'm sure he is enjoying one now, wherever he is. Or maybe he's at Mass with his Daughter and the rest of his family. Not having a big family it's hard to imagine. Ben had a huge family, but they were always so noisy and wild. There were over 20 kids and of course, Ben and I were there to babysit while the adults got to relax. That got pretty old, even though I really love kids. Not only that, but there was always some drama going on with either Rick, or his Wife, or with Grandmother and someone. I'm so glad I never have to deal with that again. I am actually very blessed.
+
+So this year I got a chance at a new life - and that has been the greatest gift of all. I have a family (however scattered and small) that loves me very much, I have friends that I can laugh and cry with, and I have the kind of love that I never thought possible, even better than in the movies. And I have the cutest dog on the face of this planet. What more can a girl ask for?&nbsp;
+
+My wishes for everyone else is that they get their Christmas Miracle today. I hope your year is filled with lots of laughter and love. And cheese, can't have too much of that! Merry Christmas, and may God Bless us, Everyone!
+
+Michaela"
+"eventtime","2006-12-25 18:10:00"
+"current_moodid","131"
+"url","http://fallenwish43.livejournal.com/14450.html"
+"userid","4919"
+"itemid","55"
+"event","SXTigJlzIGNvbWluZyBvbiBjaHJpc3RtYXMNClRoZXnigJlyZSBjdXR0aW5nIGRvd24gdHJlZXMNClRoZXnigJlyZSBwdXR0aW5nIHVwIHJlaW5kZWVyDQpBbmQgc2luZ2luZyBzb25ncyBvZiBqb3kgYW5kIHBlYWNlDQpPaCBJIHdpc2ggSSBoYWQgYSByaXZlcg0KSSBjb3VsZCBza2F0ZSBhd2F5IG9uDQpCdXQgaXQgZG9u4oCZdCBzbm93IGhlcmUNCkl0IHN0YXlzIHByZXR0eSBncmVlbg0KSeKAmW0gZ29pbmcgdG8gbWFrZSBhIGxvdCBvZiBtb25leQ0KVGhlbiBJ4oCZbSBnb2luZyB0byBxdWl0IHRoaXMgY3Jhenkgc2NlbmUNCkkgd2lzaCBJIGhhZCBhIHJpdmVyDQpJIGNvdWxkIHNrYXRlIGF3YXkgb24NCkkgd2lzaCBJIGhhZCBhIHJpdmVyIHNvIGxvbmcNCkkgd291bGQgdGVhY2ggbXkgZmVldCB0byBmbHkNCk9oIEkgd2lzaCBJIGhhZCBhIHJpdmVyDQpJIGNvdWxkIHNrYXRlIGF3YXkgb24NCkkgbWFkZSBteSBiYWJ5IGNyeQ0KDQpIZSB0cmllZCBoYXJkIHRvIGhlbHAgbWUNCllvdSBrbm93LCBoZSBwdXQgbWUgYXQgZWFzZQ0KQW5kIGhlIGxvdmVkIG1lIHNvIG5hdWdodHkNCk1hZGUgbWUgd2VhayBpbiB0aGUga25lZXMNCk9oIEkgd2lzaCBJIGhhZCBhIHJpdmVyDQpJIGNvdWxkIHNrYXRlIGF3YXkgb24NCknigJltIHNvIGhhcmQgdG8gaGFuZGxlDQpJ4oCZbSBzZWxmaXNoIGFuZCBJ4oCZbSBzYWQNCk5vdyBJ4oCZdmUgZ29uZSBhbmQgbG9zdCB0aGUgYmVzdCBiYWJ5DQpUaGF0IEkgZXZlciBoYWQNCk9oIEkgd2lzaCBJIGhhZCBhIHJpdmVyDQpJIGNvdWxkIHNrYXRlIGF3YXkgb24NCkkgd2lzaCBJIGhhZCBhIHJpdmVyIHNvIGxvbmcNCkkgd291bGQgdGVhY2ggbXkgZmVldCB0byBmbHkNCk9oIEkgd2lzaCBJIGhhZCBhIHJpdmVyDQpJIG1hZGUgbXkgYmFieSBzYXkgZ29vZGJ5ZQ0KDQpJdOKAmXMgY29taW5nIG9uIGNocmlzdG1hcw0KVGhleeKAmXJlIGN1dHRpbmcgZG93biB0cmVlcw0KVGhleeKAmXJlIHB1dHRpbmcgdXAgcmVpbmRlZXINCkFuZCBzaW5naW5nIHNvbmdzIG9mIGpveSBhbmQgcGVhY2UNCkkgd2lzaCBJIGhhZCBhIHJpdmVyDQpJIGNvdWxkIHNrYXRlIGF3YXkgb24gDQoNClRoaXMgaXMgbXkgZmF2b3JpdGUgbm9uLUNoaXN0bWFzLCBDaHJpc3RtYXMgc29uZy4gSXQncyBieSBKb25pIE1pdGNoZWxsLCBvbmUgb2YgdGhlIGdyZWF0ZXN0IHNvbmd3cml0ZXJzIG9mIGFsbCB0aW1lLiBUb2RheSBJIGp1c3Qgd2FudCB0byBza2F0ZSBhd2F5IHRvbywgYWx0aG91Z2ggYmVpbmcgaW4gVGV4YXMsIGl0J3MgaGFyZC4gSXQgZG9lc24ndCBmZWVsIHZlcnkgQ2hyaXN0bWFzc3kgdGhpcyB5ZWFyLCB3aGljaCBpcyBzdXJwcmlzaW5nIGJlY2F1c2UgSSB3YXMgbG9va2luZyBmb3J3YXJkIHRvIGl0LiBJIGRpZCBnZXQgYSB0cmVlIHRoaXMgdGltZSAtIFJvYmVydCBhbmQgSSBkZWNvcmF0ZWQgaXQgdG9nZXRoZXIgYW5kIGl0J3MgbG92ZWx5LiBJIGhhdmUgbmV2ZXIgc2hhcmVkIGEgdHJlZSB3aXRoIGFueW9uZSBiZWZvcmUsIGFub3RoZXIgZmlyc3QgZm9yIHVzLiBJdCB3YXMgdmVyeSBzcGVjaWFsLiBUaGluZ3Mgc2VlbSB0byBiZSBnb2luZyBzbW9vdGhseSBldmVyeXdoZXJlIC0gdGhlIGRheXMgYXJlIHBsb2RkaW5nIGFsb25nIGFuZCBhbHRob3VnaCBpdCdzIG5vdCBpY3ksIEkgY2FuIGxpdmUgd2l0aG91dCBhaXIgY29uZGl0aW9uaW5nLiZuYnNwOw0KDQpJIGFtIGdvaW5nIGhvbWUgZm9yIENocmlzdG1hcyAtIGFsb25lLCBmb3IgdGhlIGZpcnN0IHRpbWUgaW4gYSB3aGlsZS4gSSBsaWtlIGJlaW5nIGhvbWUgZm9yIENocmlzdG1hcy4gVGhpbmdzIHdlcmUgYWx3YXlzIHNvIGxvdWQgYXQgQmVuJ3MgZ3JhbmRwYXJlbnRzIGhvdXNlLCBhbmQgSSBhbHdheXMgZmVsdCBsaWtlIHN1Y2ggYW4gb3V0c2lkZXIuIEkgYW0gbG9va2luZyBmb3J3YXJkIHRvIGJlaW5nIGFyb3VuZCBhbGwgdGhlIGxpZ2h0cy0gbXkgZGFkIGFuZCBzdGVwIG1vbSByZWFsbHkgZGVjb3JhdGUgdGhlaXIgeWFyZCwgc28gaXQncyB2ZXJ5IGZlc3RpdmUuJm5ic3A7DQoNCk5vdCBtdWNoIGVsc2UgdG8gc2F5IG5vdywgc28gSSdsbCBjbG9zZS4gTW9yZSBzb29uIQ=="
+"eventtime","2006-12-19 23:02:00"
+"url","http://fallenwish43.livejournal.com/14172.html"
+"userid","4919"
+"itemid","54"
+"event","I am now, officially, 25 years old. While these seems to me to be kinda the last BIG birthday for a while, I am a bit bewildered as to how I got here. I remember being 16, dancing like a crazy person in the little house at my Dad and Patti's, eating barbeque from Rudy's and ice cream double chocolate cake. I remember getting the first Matchbox Twenty CD and how the first chords told me it was going to be my soundtrack for a while. I remember Singing to Eddie and everyone else in the room, and how it should have been clear to me that he liked me even then.&nbsp;<br /><br />Ah, but then I also remember my 21st birthday, held at the club house of my first apartment with Ben. Big John had made an appearance - and gave me my very first shot of tequila. Allison even was there, with Craigers and all the trimmings. There was no dancing, but I remember it being a pretty fantastic time.&nbsp;<br /><br />And I remember the ones in between then and now, some at club houses, some at the indoor pool in Billings. I even remember one (I think it was my 5th) at a farm in Montana. I got to milk a cow and drive a hay bale filled truck.&nbsp;<br /><br />What puzzles me most, however, is how I got to <em>this</em> birthday. I mean, it's been an interesting year. Let's Recap for the home audiance:<br /><br />1) Last year, I was married to a guy named Ben. We were almost debt free, and while everything seemed ok on the outside, I was miserable in a lot of ways.&nbsp;<em>Where is he now?</em>&nbsp; I hear he's still going to school and living with his chick - who he had been seeing the last few months of our marriage. I think he's a lot happier now, and I know I am. So that's a big step in the right direction.<br /><br />2) I lived with three men: Ben, Kenneth, and Steve. Kenneth and Steve were like my family brothers who loved to watch me in short skirts. A little perverse, yes, but they were my close friends, and I trusted them. <em>Where are they now?</em> After Ben and I explained we were going to be moving closer to Houston, they moved out and left us with a house full of needed repairs and two months left of rent to pay. I haven't spoken to them since the day I left Ben for good. And while I am still pretty crushed by their actions, I miss the way they made me laugh.&nbsp;I live in an apartment now, although I am probably going to move again soon to something bigger.<br /><br />3) I was not a mommy last year. This year, I am proud to be a mom to an adorable ball of furr and poopie named Wicket. He's my pride and&nbsp;joy - a Christmas gift from Ben (although, I&nbsp;ended up paying for it...go figure). He's doing well, trying to be good but sometimes failing. Robert and I are taking care to train him well.&nbsp;<br /><br />4) Oh yeah...I didn't have a soulmate last year. Or I did, but I didn't know who he was. But I do now :) His name is Robert and he's amazing. We started seeing each other in April and havent stopped since. And it's funny, because I am completely comfortable with him in a way I have never been before.&nbsp; He is so good to me. And he's throwing me my 25th birthday party - can you believe it, someone is throwing ME a party instead of me throwing one myself? Tee hee!&nbsp;I just love him!<br /><br />These are the changes, just to name a few. And they are vast. My life is completely different. And I love it. But again, I wonder how I got here, and how I got to the place where I am 5 years away from 30. I never thought I would get there! Never! They tell you that you will, and then they tell you that you will not believe it, but they are right! Them! Those adults! And now, I am one of THEM! AHHhh!<br /><br />This year, I am going to be singing at a Karaoke Bar all night long and drinking rather heavily with friends. And I'm not going to worry about the past, or even about my future really. I think that this past year has shown me how fragile life can be, and how things change in an instant, and that there are no gurantees. But there is LOVE, and with that, there is no limit to what can be done in life.&nbsp;<br /><br />Love, and chocolate.&nbsp;<br /><br />I love you all - thank you for making my 25 years an amazing jouney.&nbsp;<br /><br />Love, your angel,<br /><br />Michaela"
+"eventtime","2006-11-01 16:52:00"
+"current_moodid","98"
+"url","http://fallenwish43.livejournal.com/13863.html"
+"userid","4919"
+"itemid","53"
+"event","And it's lovely! Well, it's raining and foggy out, but it's in the low 80's, which makes me and my warm-natured self pretty darn excited! Let's see, I should update on a few things.... 
+
+I am no longer eating cheese. I am trying to go one full week without my favorite ingredient, and so far, it's not been a problem. I am on hour 14.5 and doing good. I have a feeling that it will be a long, hard road, however, when I get the craving. Luckily, this is only for a week. 
+
+I spent the weekend in Corpus with Robert. We walked along the beach and had a blast just doing nothing. And there is a great place there that serves the most wonderful Chocolate Cake - it's called the Black Diamond. We ate their seafood, which we didn't like much, but their cake is AWESOME. We brought back 2 slices! Yummy! 
+
+I haven't been dancing in two weeks and I miss it lots. This weekend we are going to ren fest with Wilber and some friends so I am excited about that - it's a tradition that Wilber and I have some funnel cake together, and that's no cheese, so I'm happy! I love Ren fest - it's a really nice time and I always get to dress up in something fun. 
+
+I am very excited about my birthday party this year. It's going to be huge - and I'm letting Robert handle everything. And that's a big step for me, usually I handle anything that important to me, because I know I will not screw it up. And I never minded - could you have imagined if Ben had tried to plan a party? We would have gothic dyke strippers and magic cards with sides of milk and cheetoes. Anyway, it's a very big step for me to let someone else handle all the details - it's a lot of trust that I have never placed in anyone. And, oddly enough, it doesn't feel bad. I have a feeling it's going to be even better than if I had planned it myself. 
+
+I saw The Departed last night - great, great film. It was so nice to not be dissapointed by a movie for once. Then I went home and crashed - it was a three hour long film, but it was excellent. I loved Leonardo DiCaprio, I really think he's talented. And Matt Damon plays a good/bad guy pretty well. Of course, the cake topper was Jack Nicholson, who will probably again get nominated - or even will take home the award for best actor by the academy. 
+
+Quincy just sent me an email - he wants to get together this weekend - I am SOO excited! I haven't seen him in five years. I bet he is doing wonderfully. He was in engineering school and he's a freakin genius, so I bet he's doing well. It's been such a long time that I wonder how we will get along now, after so much time had gone by. I mean, we dabated a lot, especially about love. But now that we are older, I wonder what we will talk about other than what's been going on in our lives. I hope he found love. I hope his family is well. It's so nice that he remembered me-I worry sometimes that when I die, I will be forgotten forever and that my actions or words will not have done any good to anyone. 
+
+I just had a very interesting conversation with an old friend I used to know well. I don't know them so well now, and I am not really worried about it. For some reason, I do not feel like I have failed them, even though I had to let them go. It was a hard thing to do, but it was for the better, and they seem much happier on their own, without their crutch, without an angel. watching over them. Perhaps there are people who thrive when no one watches over them. Or maybe I'm just silly. I don't really feel like anyone has watched out for me in that way, and I think I turned out ok. When you are a mess, and I have often been a mess, you don't want the world to know. And this person was a mess for a long time. But they feel like, for the first time, maybe things are coming together for them, and it has to do a lot with Chance and Faith and Hope. And I'm happier for them than I thought I would be. Because I have my own miracles to look at everyday. I have love that I don't think many people have ever experienced, and I let it in and it washes me clean of my fears and failings. 
+
+My life is brilliant."
+"eventtime","2006-10-17 16:19:00"
+"current_moodid","15"
+"url","http://fallenwish43.livejournal.com/13740.html"
+"userid","4919"
+"itemid","52"
+"event","I am SOOO happy today! I have finally finished with the final proceedings of my divorce, and I am once again SINGLE!!!! Yay!!!! ::does the happy Single girl dance::::<br /><br />It truly is a freeing experience. I have my name back, I have my life to myself again, and I never have to deal with Ben ever, ever again. It wasn't as bad as it could have been, but I am grateful it's over and that I can live my life in peace. Thank you GOD!<br /><br />So, um...yeah, I'm gonna celebrate today by drinking lots and eating lots and having lots of fun with my single self! Tee hee! And the newest song by Anna Nalick keeps running in my head...<br /><br /><br /><font face=""Verdana"" size=""2"">Well, it's been almost a year to the moment<br />When I finally realized it was over<br />And I knew that love wasn't good enough<br />Of a reason for me to stay<br />Well, I saw you yesterday; you were drivin'<br />And I tried so hard to forget<br />You were alive, and as you passed by I began to cry<br />Over things that I did not say<br /><br />And hide underneath my blankets and sheets<br />I'm finally free<br />I'm killin' the ghost of you, and I'm close to<br />Awakening me<br /><br />Yeah, yeah<br />So I'm takin' my heart and I'm gettin' me out<br />And love's something that I wouldn't wanna live without<br />So I'm takin' my heart and I'm gettin' me out<br />On my own, my own, my own<br /><br />Well, it takes all of my strength to be stable<br />And I force your insults under the table<br />And if you were wise you would compromise<br />And allow me to live my way<br />'Cause I am not a force to be reckoned with<br />And you don't have a clue what you're messin' with<br />And you can't see to the best in me<br />'Cause it's more than your heart can take<br /><br />And hide underneath my blankets and sheets<br />I'm finally free<br />I'm killin' the ghost of you, and I'm close to<br />Awakening me<br /><br />I'm awakening me<br /><br />I'm awakening me, yeah<br /><br />I'm awakening me<br /><br />So I'm takin' my heart and I'm gettin' me out<br />And love's something that I wouldn't wanna live without<br />So I'm takin' my heart and I'm gettin' me out<br />On my own, my own, my own<br /><br />I'm takin' my heart and I'm settin' you free<br />And, baby, now you're just another song to me<br />And the edge of your sword isn't sharp enough for me<br />To bleed<br /><br />Na na na na...</font><br />"
+"eventtime","2006-09-26 12:01:00"
+"current_moodid","98"
+"url","http://fallenwish43.livejournal.com/13373.html"
+"userid","4919"
+"itemid","51"
+"event","Do you remember the 21st night of september?
+Love was changing the minds of pretenders
+While chasing the clouds away
+
+Our hearts were ringing
+In the key that our souls were singing.
+As we danced in the night,
+Remember how the stars stole the night away
+
+Ba de ya - say do you remember
+Ba de ya - dancing in september
+Ba de ya - never was a cloudy day
+
+My thoughts are with you
+Holding hands with your heart to see you
+
+
+Only blue talk and love,
+Remember how we knew love was here to stay
+
+Now december found the love that we shared in september.
+Only blue talk and love,
+Remember the true love we share today
+
+Ba de ya - say do you remember
+Ba de ya - dancing in september
+Ba de ya - never was a cloudy day
+
+Ba de ya - say do you remember
+Ba de ya - dancing in september
+Ba de ya - golden dreams were shiny days"
+"eventtime","2006-09-21 11:47:00"
+"current_moodid","15"
+"url","http://fallenwish43.livejournal.com/13070.html"
+"userid","4919"
+"itemid","50"
+"event","<p>Is there something that your trying to say?</p>
+<p>Don't hold back now <br />It's been a long time since I felt this way <br />So don't hold back now <br />I purposely forgot about <br />Loving anyone <br />'Cause I'm the only one who has <br />Who has been stepped upon <br /><br />Is there something that you're trying to say? <br />'Cause I can take it <br />'Cause I grew up a man this way <br />If I'm hurt I'll shake it <br />I'll crawl back into my cave <br />That's how I'll make it <br />Cause out of all this hurt we have <br />Beauty thus become <br />Beauty thus become <br /><br />Chorus <br />In the mourning I can see the signs <br />No wonder I could never keep you satisfied <br />In the mourning I can see inside <br />Myself and all the things that you were trying to hide <br />In the mourning I can see the signs <br />No wonder I could never keep you satisfied <br />In the mourning I can see inside <br />Myself and all the things that you were trying to hide <br /><br />Wishing all the best for you <br />And now I'll say goodbye <br />'Cause all the shit that we've been through <br />Put wisdom in my eyes <br />So walk away don't turn around <br />'Cause I won't be standing here <br />'Cause all the lies I've been living through <br />Are becoming very clear <br />And beauty thus become <br /><br />In the mourning I can see the signs <br />No wonder I could never keep you satisfied <br />In the mourning I can see inside <br />Myself and all the things that you were trying to hide <br />In the mourning I can see the signs <br />No wonder I could never keep you satisfied <br />In the mourning I can see inside <br />Myself and all the things that you were trying to hide <br /><br />Then you conned me into thinking <br />That all I had was you <br />The small insinuations <br />Were cutting me through were cutting me through <br />And now I stand alone here <br />Stronger then before <br />And I'll never go back never go back never go <br /><br />In the mourning I can see the signs <br />No wonder I could never keep you satisfied <br />In the mourning I can see inside <br />Myself and all the things that you were trying to hide <br />In the mourning I can see the signs <br />No wonder I could never keep you satisfied <br />In the mourning I can see inside <br />Myself and all the things that you were trying to hide <br />In the mourning I can see the signs <br />No wonder I could never keep you satisfied <br />In the mourning I can see inside <br />Myself and all the things that you were trying to hide <br />In the mourning I can see the signs <br />No wonder I could never keep you satisfied <br />In the mourning I can see inside <br />Myself and all the things that you were trying to hide <br /><br /><br />At the end of the day, the truth is very simple. And sometimes it's simply saddening. But we move on, we walk one foot in front of another down the road and we breathe in and out, even when things end. Even when the world has passed us by. It was fun while it lasted, and even I should know at this point, that nothing lasts forever.</p>"
+"eventtime","2006-09-19 09:59:00"
+"current_moodid","40"
+"url","http://fallenwish43.livejournal.com/12998.html"
+"userid","4919"
+"itemid","49"
+"event","And everything looks different somehow. I know my immidiate future, but somehow I don't feel much better. Maybe it's because&nbsp;I haven't slept much.&nbsp;
+
+It's been a busy week. I went to the Counting Crows/Goo Goo Dolls concert last night, so I was out pretty late. It was neat - I didn't get to hear ""accidentally in love"" but I did hear the most amazing version of ""Round Here"" that I had ever - and will ever - hear. It almost made up for it.&nbsp; My favorite part was The goo goo dolls singing ""better days"" - it was truly awesome.&nbsp;
+
+Anyway, things are looking up - or, they should be. The divorce stuff is all but over - thank God. My parents are coming to visit soon and there is an Awesome dance next weekend in college station that should be fun. AND tonight I am going to see Jack's Mannequin - that's right, whose lead singer is the one who penned ""Konstantine"" which always reminds me of a really sad night in September.&nbsp;
+
+With all the whirlwind of things, I should be happier and more excited, but I think I'm just overwhelmed into feeling nothing.&nbsp;
+
+That, or it's the steroids."
+"eventtime","2006-09-08 08:54:00"
+"current_moodid","25"
+"url","http://fallenwish43.livejournal.com/12794.html"
+"userid","4919"
+"itemid","48"
+"event","<p><br /><font face=""Verdana"" size=""2"">And you ask me what I want this year<br />And I try to make this kind and clear<br />Just a chance that maybe we'll find better days<br />Cuz I don't need boxes wrapped in strings<br />And desire and love and empty things<br />Just a chance that maybe we'll find better days<br /><br />So take these words<br />And sing out loud<br />Cuz everyone is forgiven now<br />Cuz tonight's the night the world begins again<br /><br />And it's someplace simple where we could live<br />And something only you can give<br />And thats faith and trust and peace while we're alive<br />And the one poor child that saved this world<br />And there's 10 million more who probably could<br />If we all just stopped and said a prayer for them<br /><br />So take these words<br />And sing out loud<br />Cuz everyone is forgiven now<br />Cuz tonight's the night the world begins again<br /><br />I wish everyone was loved tonight<br />And somehow stop this endless fight<br />Just a chance that maybe we'll find better days<br /><br />So take these words<br />And sing out loud<br />Cuz everyone is forgiven now<br />Cuz tonight's the night the world begins again<br />Cuz tonight's the night the world begins again</font><br /></p>
+<p>&nbsp;</p>
+<p>Me. A bottle of wine. Lots and lots of prayers for my friends and family. I'm falling, I'm floating, I'm so sorry for all the damage I have done to this world. I didn't mean it. I want this song played at my funeral. I want a lavender coffin there. I want to be remembered the way Jason remembers - only the stuff that's important. And I hope it's enough. I hope it's enough. I wish everyone was loved tonight. I wish they knew that they were loved. Being alone is such a sad, sad place. Everyone is forgiven now - the world begins again. Ah, yes, my love, my life will begin again.<br /><br />I love you all.</p>"
+"eventtime","2006-08-08 22:26:00"
+"current_moodid","25"
+"url","http://fallenwish43.livejournal.com/12518.html"
+"userid","4919"
+"itemid","47"
+"event","Ah, the craziness has resumed. It's summer. It's hot as hell. My electric bill is rivaling my car payment. I need to get my ass to a gym. But then I would just sweat more than I already am. Not cool, man, not cool.
+
+I haven't heard from Tim in a while, but as far as the rest of my life, everyone else seems to be fantastic. Well, everyone but my mom. She's having a lot of pain and back&nbsp;issues. And to top that off, she has two occlusions in her eyes and that could mean anything from Lupos to Luekemia to nothing at all. She could go blind any minute or she could be just fine. My poor mother. She never gets a break. And if that wasn't bad enough, my brother got violent with her and she doesn't know what to do. On the upside, she now realises what a headcase he is and that he really needs help, but now she's just at a loss as to what to do. And I don't know if, when the time comes again, she will do what she needs to do - which is call the cops and arrest him.&nbsp;&nbsp;
+
+Let's see. What else. Wilber, my lovely Wilber, seems to have found his match - at last. And she seems to like him back, and I'm so very excited about this! He met her on the dance floor - something he always said would happen - and she likes punk music, but has a moral compass. All good things for my Wilber. She's younger than him by a few years, but she seems very nice - and more importantly, Wilber and her seem to be getting along beautifully. YAY!!!
+
+And Byron seems to have himself a girlie as well. Everyone is hooking up these days. And while I am so very excited about these things, I am bittersweetened as well. As an angel, I have to let go of ""my boys"" when it's time to let them go. Some boys are harder to let go than others. Sometimes it takes me pushing them away; sometimes, I just need to disappear for a few months. Sometimes, it happens before they even realize I was ever there. It's part of the job, and it's silly for me to think that it won't happen. But I'm happy for them. It's a very exciting thing, to like someone and have them like you back. It's lovely. And it's summer, so it matched the season.It's hard to let go of people you care so much about, and let them out into the wild of this world. But everything is inevitable.
+
+I love my life. I do. It's broke and it's hard to make it through the day sometimes, but I love it. I have so much love in my life, so many things to be greatful for. Everyday I thank God for the gifts of my life - there are too many to count. And I am so, so grateful to have people who love me so, who will always be there for me, people who understand me but love me anyway. That is all people really want, in life. To be understood, and despite of that, be loved. That's why Jesus is such a popular guy.&nbsp;"
+"eventtime","2006-08-02 10:23:00"
+"current_moodid","101"
+"url","http://fallenwish43.livejournal.com/12062.html"
+"userid","4919"
+"itemid","46"
+"event","I just read this article about this over 50 yr old woman in a black bikini. Her mother, noting that she no longer had the 20 something figure that normally goes with that style of bathing suit, criticized her and told her not to wear anything like that again.&nbsp;
+
+And you know what? She went right on ahead and wore what she wanted. Because she was comfortable with what her body was.&nbsp;
+
+Women are always in competition. Seriously, I don't know of any women who hasn't felt a twinge of jealousy when someone smaller/cuter/younger was in the room asking for an opinion. That jealousy is the reason why I never ask my Stepmother, Patti, for advice on what color dress to buy, or how long my skirt should be. Because she would say ""black, and the longer the better"", rather than the truth. We have never agreed on what made me look good growing up, and when I think back on how she would reason with me that I really needed to stay away from reds and not show off what legs I have got, it used to hurt me a lot.&nbsp; But I know she loves me.&nbsp;The jealousy that women have isn't rational and it has nothing to do with your feelings about a person.&nbsp;
+
+Personally, I have been on a long journey to be ok with the body I was given. I was not meant to ever be a size 4. And you know what? I am not really as small as I have been in the past, but I feel better about where I am and who I am - and people lately have just piled on the compliments. I don't have much to say when they ask what I have done - I simply like my body more now. I have small feet with pink toes (who all have names, by the way). I have shapely legs that allow me to dance with people I love. I have a tummy that reminds me of those reniassance paintings (minus the belly ring I got with my mother In February to celebrate my curviness). I have arms and hands that allow me to give great massages. I have my mother's golden crown of hair, and blue eyes. I was given this body for a reason. And I love it. I love it even though it's bigger than the emaciated models tripping down the runways. I love it becasue it's mine - it's the greatest intrument I will ever own.&nbsp;
+
+I have a two piece bathing suite. I wear it whenever I can. It's not a bikini, but rather a ""tankini"" that gives me more coverage on top (which I need, thanks to the Augustine genes). But it shows the belly I used to hate, and the nonextistent hips I used to try to compensate for. Not anymore. I wear red every chance I can, and I show off the skin I love (although tasefully). And I am loved. People love me because of who I am, not because of a number size I wear. Why do we as girls have to care so much about what people think? And why can't we be celebrated for being mothers and sisters and daughters and lovers - yes, even at size 14 and up?
+
+We can, and we will. And I'm going to start - right now."
+"eventtime","2006-07-21 10:44:00"
+"current_moodid","70"
+"url","http://fallenwish43.livejournal.com/11828.html"
+"userid","4919"
+"itemid","45"
+"event","<p>I am having some issues with my emails. I love emails. I think it's great people remember to add me to their list of friends when they want to send crap out. However, lately I have been riddled with emails focusing on sending more of my friends crap out to my friends, and so on. Do I really think that by sending this email to everyone I know that a check for a million dollors will come in the mail? Do I really think God will be offended if I do not send ""I'm a Christian and you're going to hell"" out to everyone I know? I have no problem sending things along that are original or halarious, but the fift stroy of the man who stood up to god and some peice of chalk NOT breaking when it hit the ground is JUST SO OLD. I think God wants better material.<br /><br />This week was long. I hurt my wrist so I haven't been typing much, forgive me for not updating my journal more often. I have re-emerged amongst many of my friends lives, just in time to feel guilty about being away from them. I saw Katia and Wilber this week, which was nice. I am seeing more of Tricia and Jim, which is always a good thing. And Robert, I am seeing a lot of him as well. I should call Tim soon - I miss him lots.&nbsp;<br /><br />Let's see, what else is going on. Just hanging on for the next big thing to come around - which it will, it's only a matter of time. As soon as I turn my head, I will miss the giant boulder headed my way. It's an inevitability.&nbsp;<br /><br />I am reading more of the short stories that Tim gave me from the author of the ice storm. I like his style, although I cannot be tired or I will lose my concentration and fall asleep. It's very left brained, stream of conscience, which I think is very hard to write in. I think I tried to do it once and failed miserably.&nbsp;<br /><br />I got the dates for Harvest Moon Ball - Sept 16th. Yes, that would be the same weekend as Showdown, so no one with any national notoriety will be at the ball, but Byron and Matt and Wilber will be there, so&nbsp;it will be perfect for me.<br /><br />I dreamed about lindyfest last night. Matt and Byron were there, and I was dancing to some song that I cannot remember now. It was so vivid in my mind, I remember singing it when I woke up. But now it's just out of my head. Anyway, I was there with all my boys, and some strange man trying to get my attention. I even saw Jason there, but that was unpleasant. I think he made me cry.&nbsp;<br /><br />I saw a boy in the book store on Monday. I was there waiting to go to the HSDS board meeting (a meeting that was only half way finished after two hours), reading In Cold Blood by Truman Capote. I was reading the first chapter and noticed him sitting to my left, writing tiny tiny letters in a spiral notebook. I also noticed that his day planner was open and that each page had been completely covered with blue ink, with tiny blue letters. It was fascinating, although it did remind me a bit too much of Seven. He would sit and look around for a while, and then carefully write a few lines, and start all over again. I tried not to make eye contact, but he was lovely to watch. Very beach boy looking, with light blue eyes (not like Byrons - they were very empty) and sandy brown hair, cut short as if a surfer. His hands were regular looking, tanned, short nails, not bitten. I will never see him again but I wonder what he wrote on those pages, if maybe he was writing about this chubby girl to his right that was reading a Capote novel and stealing glances at him.&nbsp;<br /><br /><br /><br /><br /></p>"
+"eventtime","2006-07-21 09:54:00"
+"current_moodid","99"
+"url","http://fallenwish43.livejournal.com/11575.html"
+"userid","4919"
+"itemid","44"
+"event","PHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+SSBoYWQgbXkgZW50aXJlIGpvdXJuYWwgd3JpdHRlbiBvdXQgTW9uZGF5LCBvbmx5IHRvIGhhdmUgaXQgZGFzaGVkIGF3YXkgYnkgbXkgc3R1cGlkIGNvbXB1dGVyLiBPaCB3ZWxsLCBJIHdpbGwganVzdCBoYXZlIHJlLXdyaXRlIGV2ZXJ5dGhpbmcuIEhlcmUgZ29lc+KApi48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxvOnA+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj4mbmJzcDs8L2ZvbnQ+PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxvOnA+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj48L2ZvbnQ+PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+SSBzcGVudCB0aGUgd2Vla2VuZCBpbiA8c3QxOmNpdHkgdzpzdD0ib24iPjxzdDE6cGxhY2UgdzpzdD0ib24iPkF1c3Rpbjwvc3QxOnBsYWNlPjwvc3QxOmNpdHk+LiBJIHdlbnQgd2l0aCBSb2JlcnQgdG8gaGlzIHR3byB5ZWFyIG9sZCBuZXBoZXfigJlzIGJpcnRoZGF5IHBhcnR5LiBJdCB3YXMgYWN0dWFsbHkgaW50ZXJlc3Rpbmcg4oCTIHRoZXJlIHdlcmUgbm8gb3RoZXIga2lkcyB0aGVyZS4gSW4gZmFjdCwgdGhlcmUgd2VyZW7igJl0IGFueSBvdGhlciBhZHVsdHMgdGhlcmUgZWl0aGVyIOKAkyBqdXN0IG1lLCBSb2JlcnQgYW5kIGhpcyBicm90aGVyIEpvbmF0aG9uLiBPZiBjb3Vyc2UsIGxpdHRsZSBDaHJpc3RpYW4gd2FzIGFkb3JhYmxlIOKAkyBzbyBpbmNyZWRpYmx5IGN1dGUg4oCTIGFuZCB3ZSBnb3QgYWxvbmcgcmVhbGx5IHdlbGwuIFdlIGVuZGVkIHVwIHNwZW5kaW5nIHRoZSBlbnRpcmUgZGF5IGF0IEpvbmF0aGFu4oCZcyBob3VzZSwgaW50byB0aGUgbmlnaHQuIEFuZCBsbywgd2hlbiB0aGUgYmFieSB3ZW50IHRvIHNsZWVwLCB0aGluZ3MgZ290IHZlcnksIHZlcnkgc3RyYW5nZS48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxvOnA+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj4mbmJzcDs8L2ZvbnQ+PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+QW5kIHRoZW4gd2Ugc3RhcnRlZCB0aGUgbW92aWUgZW50aXRsZWQg4oCcU3ltcGF0aHkgZm9yIE1yLiBWZW5nZWFuY2XigJ0sIGFuZCB0aGUgZXZlbmluZyB0b29rIGEgZGFya2VyIHRvbGwgZnJvbSB0aGVyZS4gVGhlIG1vdmllIGlzIGFuIEFzaWFuIHRocmlsbGVyIChJIHRoaW5rIGl04oCZcyBpbiBLb3JlYW4sIGJ1dCBub3QgYmVpbmcgYWJsZSB0byBzcGVhayBhbnkgb2YgdGhvc2UgbGFuZ3VhZ2VzIG1lYW5zIHRoZXkgYWxsIHNvdW5kIHRoZSBzYW1lIHRvIG1lKS4gSXTigJlzIGFib3V0IGEgYm95IHdobyBpcyBkZWFmIGFuZCBkdW1iIGFuZCBoYXMgdmVyeSB2ZXJ5IGJsdWUgaGFpci4gSGUgaGFzIGEgc2lzdGVyIHdobyBpcyBkeWluZyBvZiBjYW5jZXIgYW5kIG5lZWRzIGEgbmV3IGtpZG5leSwgYW5kIHVuZm9ydHVuYXRlbHkgaGUgZG9lc27igJl0IG1hdGNoIGFzIGEgZG9ub3IuIEhlIGhhcyBzYXZlZCAxMCBtaWxsaW9uIHllbiBieSB3b3JraW5nIGluIHRoaXMgYXdmdWwgbWV0YWwgZmFjdG9yeSAoaGUgZG9lc27igJl0IGhhdmUgdG8gd2VhciBoZWFkcGhvbmVzIGJlY2F1c2UgaGXigJlzIGFscmVhZHkgZGVhZikgYnV0IHRoZXJlIGlzbuKAmXQgYSBkb25vciBpbiBzaWdodCwgYW5kIGhpcyBzaXN0ZXIgaXMgZmFkaW5nIGZhc3QuIFNvIGJsdWUgaGFpcmVkIGJveSwgaW4gYW4gaW5jcmVkaWJseSBzdHVwaWQgeWV0IHRvdWNoaW5nIGVmZm9ydCB0byBzYXZlIGhpcyBzaXN0ZXLigJlzIGxpZmUsIGVudGVycyB0aGUgYmxhY2sgbWFya2V0IGZvciBhIGtpZG5leS4gSGUgYWdyZWVzIHRvIHRyYWRlIG9uZSBvZiBoaXMgb3duIGtpZG5leXMgYW5kIGFsbCBoaXMgY2FzaCBmb3Igb25lIHRoYXQgd2lsbCBtYXRjaCBoaXMgc2lzdGVyLiBVbmZvcnR1bmF0ZWx5LCBoZSB3YWtlcyB1cCBpbiBsb3RzIG9mIHBhaW4gd2l0aCBhIG1pc3Npbmcga2lkbmV5IGluIGFuIGFiYW5kb25lZCB3YXJlaG91c2UsIGFuZCBubyBraWRuZXkgZm9yIGhpcyBzaXN0ZXIuIDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PG86cD48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPiZuYnNwOzwvZm9udD48L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5Zb3Ugd291bGQgdGhpbmsgdGhpcyB3b3VsZCBiZSBhIGJhZCBiZWdpbm5pbmcsIGJ1dCBteSBmcmllbmRzLCBpdCBnZXRzIG11Y2gsIG11Y2ggd29yc2UuIEJ5IHRoZSBlbmQgb2YgdGhlIGZpbG0gSSBjb3VsZG7igJl0IGRlY2lkZSB3aGV0aGVyIEkgc2hvdWxkIHNsaXQgbXkgd3Jpc3RzIG9yIGp1bXAgb3V0IG9mIHRoZSBhcGFydG1lbnTigJlzIHNlY29uZCBzdG9yeSB3aW5kb3cuIEFuZCBpdCBkaWRu4oCZdCBoZWxwIHRoYXQgYWZ0ZXJ3YXJkcywgSSBoZWFyIGl0IHdhcyBkaXJlY3RlZCBieSB0aGUgc2FtZSBndXkgd2hvIGRpZCDigJxPbGRib3nigJ0sIHdoaWNoIEkgaGVhciBpcyBsZXNzIGdydWVzb21lIGJ1dCBtdWNoIGhhcmRlciB0byB3YXRjaC4gQW55d2F5LCBpdCBmcmVha2VkIG1lIG91dCBwcmV0dHkgZ29vZCBmb3IgdGhlIGVudGlyZSB3ZWVrZW5kLiBCbGFoIGJsYWguPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48bzpwPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+Jm5ic3A7PC9mb250PjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPkkgaGFkIHdhbnRlZCB0byBnbyBzZWUgbXkgVGltIGZvciBoaXMgcGFydHksIGJ1dCBJIG5ldmVyIG1hZGUgaXQgb3V0IHRoZXJlLiBXaGVyZSB3ZSB3ZXJlIHN0YXlpbmcgd2FzIHdheSBzb3V0aCBvZiA8c3QxOmNpdHkgdzpzdD0ib24iPjxzdDE6cGxhY2UgdzpzdD0ib24iPkF1c3Rpbjwvc3QxOnBsYWNlPjwvc3QxOmNpdHk+LiBBbmQgYmVzaWRlcywgSSBhbSBub3Qgc3VyZSBJIHdvdWxkIGhhdmUgYmVlbiBhYmxlIHRvIHRha2UgdGhlIOKAnE1pY2hhZWwgSmFja3NvbuKAmXMgc2x1bWJlciBwYXJ0eeKAnSB0aGVtZSBhZnRlciBzZWVpbmcgc29tZSBjaGljIGdldCBlbGVjdHJvY3V0ZWQgYnkgYSBjYXIgYmF0dGVyeS4gQnV0IEkgZmVsdCBiYWQgYmVjYXVzZSBJIHRoaW5rIGhlIHJlYWxseSB3YW50ZWQgbWUgdG8gYmUgdGhlcmUuIEkgbmVlZCB0byBjYWxsIGhpbSDigJMgVGltLCBpZiB5b3XigJlyZSByZWFkaW5nIHRoaXMgSSBsb3ZlIHlvdSBhbmQgSSB3aWxsIGNvbWUgdmlzaXQgc29vbiEgPC9mb250PjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48bzpwPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+Jm5ic3A7PC9mb250PjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJNQVJHSU46IDBpbiAwaW4gMHB0Ij48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPlN1bmRheSBtb3JuaW5nIHdhcyBtb3JlIG9mIHRoZSBzYW1lLiBJIGhhZCBEaW0gU3VtIHdpdGggUm9iZXJ04oCZcyBCcm90aGVyIGFuZCBOZXBoZXcsIGFuZCB0aGVuIHdlIHB1dCBDaHJpc3RpYW4gZG93biBmb3IgYSBuYXAgYW5kIHBsYXllZCBzb21lIGJvYXJkIGdhbWVzIHVudGlsIGl0IHdhcyB0aW1lIHRvIGdvLiBUaGVuIEkgY2FtZSBob21lIGFuZCBjcmFzaGVkLiBJdCB3YXMgYSBncmVhdCB3ZWVrZW5kIGJ1dCBJIHdhcyBzb29vbyBzbGVlcHkuIEkgbGlrZSBteSBvd24gYmVkIOKAkyBpdOKAmXMgc28gbXVjaCBtb3JlIGNvbWZvcnRhYmxlIHRoYW4gYW55IG90aGVyIGJlZCBJIGhhdmUgZXZlciBiZWVuIGluLiBBbmQgbWF5YmUgdGhhdOKAmXMganVzdCBjYXVzZSBpdOKAmXMgbWluZSwgYnV0IEkgcHV0IGEgbG90IG9mIGVmZm9ydCBpbnRvIG1ha2luZyBpdCBjb21meS48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxvOnA+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj4mbmJzcDs8L2ZvbnQ+PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+TW9uZGF5IHdhcyBwcmV0dHkgbXVuZGFuZS4gSSB3b3JrZWQsIEkgd2VudCBob21lLCBJIHdhdGNoZWQgYSBtb3ZpZS4gTGFzdCBuaWdodCB3YXMgbXVjaCB0aGUgc2FtZS4gSSB3b3JrZWQsIEkgd2VudCBob21lLiBJIGRpZCBoYXZlIHBpenphIHByZXR0eSBsYXRlIGJlZm9yZSBzZWVpbmcg4oCcdGhlIHNrZWxldG9uIGtleeKAnSDigJMgc3Bvb2t5IHN0dWZmLiBJdCB3YXMgbmljZSB0aG91Z2gg4oCTIG5vdCBzbyBzY2FyeSBJIGNvdWxkbuKAmXQgZmFsbCBhc2xlZXAuIEkgbGlrZSB0aG9zZSBraW5kcyBvZiBzY2FyeSBtb3ZpZXMuIDwvZm9udD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PG86cD48Zm9udCBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iIHNpemU9IjMiPiZuYnNwOzwvZm9udD48L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0iTUFSR0lOOiAwaW4gMGluIDBwdCI+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj5TbyBub3cgaXTigJlzIFdlZG5lc2RheSBhbmQgSeKAmW0gaGF2aW5nIHRoZSBib2R5IG92ZXJoYXVsIGNvbnZlcnNhdGlvbiBpbiBteSBoZWFkLiBJIHJlYWxseSBuZWVkIHRvIGVhdCBsZXNzLCBJIHRlbGwgbXlzZWxmLiBJIHJlYWxseSBzaG91bGQgZXhlcmNpc2UgbW9yZS4gSSByZWFsbHkgdGhpbmsgaWYgSSB3b2tlIHVwIGF0IDYgYW0gZXZlcnkgbW9ybmluZyBhbmQgd29ya2VkIG91dCBmb3IgYW4gaG91ciBteSBsaWZlIHdvdWxkIGJlIGJldHRlci4gQWgsIHllcy4gSSByZW1lbWJlciBnaXZpbmcgbXlzZWxmIHRoaXMgbGVjdHVyZSBiZWZvcmUuIEl0IHNvb24gc2hhbGwgcGFzcy48L2ZvbnQ+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxvOnA+PGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSIzIj4mbmJzcDs8L2ZvbnQ+PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Ik1BUkdJTjogMGluIDBpbiAwcHQiPjxmb250IGZhY2U9IlRpbWVzIE5ldyBSb21hbiIgc2l6ZT0iMyI+RXZlcnl0aGluZyB3aWxsIGJlIG9rIGluIHRoZSBlbmQuIE9oLCBpdCB3aWxsLCBpdCBhbHdheXMgZG9lcy4gRXZlcnl0aGluZyBpcyBpbmV2aXRhYmxlLiBZZXMsIGV2ZW4gam9jayBpdGNoLiBZZXMsIEkgc2hvdWxkIHN0b3Agd29ycnlpbmcgYWJvdXQgdGhpbmdzIEkgY2Fubm90IGNvbnRyb2wuIEV2ZXJ5dGhpbmcgd2lsbCBiZSBhbHJpZ2h0LiA8L2ZvbnQ+PC9wPg0KPHA+Jm5ic3A7PC9wPg=="
+"eventtime","2006-07-12 15:27:00"
+"url","http://fallenwish43.livejournal.com/11297.html"
+"userid","4919"
+"itemid","42"
+"event","So last night I had the strangest dream. I dreamt that a bunch of swing dancing friends were at my new apartment (okay, not so new, but whatever) and they were all helping me paint it up and make it pretty since they all found out about Ben and that we are separating. And these people, although they were my friends at the time, I have no idea who they were - I didn't recognize any of them. And there was this awful wallpaper on my walls (not the case in reality) and they were stripping it off and painting my room this lovely sky blue. And I think my dad was there for a while, just being supportive and all. And then, Ben showed up. And he was the Ben I remember liking, all nice and wanting to talk about things. And I was angry because he just expected to go back to living in my house and being the way we used to be, and I just couldn't ever do that again. And I remember asking him about Corrin, if something fell apart there, and then he turned into the Ben I remember most, and then things got ugly. He finally left me and all my friends, and we exchanged some horrible things that would not be fair to mention here. But then, as I had slammed the door, my friends and I went into my bed room to watch him from the window, and he was running around with a knife. Very Strange.&nbsp;
+
+Today has been pretty lovely. I am going to Austin this weekend and I can't wait. I'm going to go see Robert's nephew for his 2nd birthday party - a very big deal since I've never been to a child's birthday party before - and just hang out around Austin. Maybe I will get a tattoo - tee hee! Ok, maybe not yet, but I have been thinking about it....although, I don't know where I would put it on my body that I wouldn't regret later. That's the only thing about tatoos - you don't want to get one you are going to tire of or have to cover up sometime. Still thinking about where I would put one and exactly what I would get.&nbsp;
+
+The day has gone by rather quickly. Becky, my boss, took me and the girls (Laura and Cinthya) out for a lovely lunch at the Striphouse Steak joint down town - very very nice. I ate way too much but it was worth it - soo good!&nbsp;
+
+Now, however, I am fighting to stay awake and finish out my day. And then it's off to Austin for a long weekend of relaxation and birthday cake.
+
+And tattoos."
+"eventtime","2006-07-07 11:01:00"
+"current_moodid","4"
+"url","http://fallenwish43.livejournal.com/10903.html"
+"userid","4919"
+"itemid","43"
+"event","So last night I had the strangest dream. I dreamt that a bunch of swing dancing friends were at my new apartment (okay, not so new, but whatever) and they were all helping me paint it up and make it pretty since they all found out about Ben and that we are separating. And these people, although they were my friends at the time, I have no idea who they were - I didn't recognize any of them. And there was this awful wallpaper on my walls (not the case in reality) and they were stripping it off and painting my room this lovely sky blue. And I think my dad was there for a while, just being supportive and all. And then, Ben showed up. And he was the Ben I remember liking, all nice and wanting to talk about things. And I was angry because he just expected to go back to living in my house and being the way we used to be, and I just couldn't ever do that again. And I remember asking him about Corrin, if something fell apart there, and then he turned into the Ben I remember most, and then things got ugly. He finally left me and all my friends, and we exchanged some horrible things that would not be fair to mention here. But then, as I had slammed the door, my friends and I went into my bed room to watch him from the window, and he was running around with a knife. Very Strange.&nbsp;
+
+Today has been pretty lovely. I am going to Austin this weekend and I can't wait. I'm going to go see Robert's nephew for his 2nd birthday party - a very big deal since I've never been to a child's birthday party before - and just hang out around Austin. Maybe I will get a tattoo - tee hee! Ok, maybe not yet, but I have been thinking about it....although, I don't know where I would put it on my body that I wouldn't regret later. That's the only thing about tatoos - you don't want to get one you are going to tire of or have to cover up sometime. Still thinking about where I would put one and exactly what I would get.&nbsp;
+
+The day has gone by rather quickly. Becky, my boss, took me and the girls (Laura and Cinthya) out for a lovely lunch at the Striphouse Steak joint down town - very very nice. I ate way too much but it was worth it - soo good!&nbsp;
+
+Now, however, I am fighting to stay awake and finish out my day. And then it's off to Austin for a long weekend of relaxation and birthday cake.
+
+And tattoos."
+"eventtime","2006-07-07 11:01:00"
+"current_moodid","4"
+"url","http://fallenwish43.livejournal.com/11149.html"
+"userid","4919"
+"itemid","41"
+"event","It's good to be back where I know my life. It's nice to see a familiar face and not feel like I've been walking around in a trance. This weekend was long. Sunday night, things got a little sober. My parents, who love me dearly, can't seem to make up their mind on what I should do with my life. three months ago they didn't want me to date anyone....for a year. Now, they want me to...ehem...date lots and lots of people for a year before settling down again. Now, by this year, I mean a year from when my divorce is final, which could be months and months from now. I am told by Patti that I will feel freeer and more liberated than I do now, just because a paper that I didn't really agree with in the first place will be signed, sealed and delivered to go rest on some library shelf. I mean, she was talking to the girl who didn't want to get legally married in the first place - THAT's how much I value a peice of paper. And I could be wrong, but I don't think she had any place to talk, given what she did during her 20 or so years of being techinically married to someone. That didn't stop her from having very nice, long lasting relationships with others. And then I realised that I need to quit trying to get approval from people who simply will not give it - not on my terms, anyway. It was a sad day, because I had these hopes of someday getting it right for all of us. Oh well. I know&nbsp;they love me. Sometimes they just don't make the best choices when it comes to communicating their feelings on a given subject.&nbsp;
+
+ Monday dad and I went out to play pool - and that was fun. We drank a lot, I got lots of free drinks from a guy named Bill who used to substitute teach at my high school (strange? yeah, a bit...but the drinks were nice). Tuesday I left as early as I could, which ended up being around noon, to go to Austin to see Tim. Tim, who was nice enough to listen to me blab on and on about parents and relationships and such. He's the best. We ate at Carraba's and then it started to get kinda stormy so I went back to houston, where I met up with Tricia and Jim at my place. We watched Tap, which was neat because Tricia never had seen it, and we ate lots of ice cream and snackies. Yummy.&nbsp;
+
+Yesterday, my world came back into focus. And while it was a long day, it ended beautifully, with me billowing in my bed and reading and lounging and loving the world, loving my life, once again.&nbsp;
+
+And now I just want to get out of her, drive home and be there again, be me again, be in my life. It's getting gloomy, I better head out before it pours."
+"eventtime","2006-07-06 15:30:00"
+"current_moodid","4"
+"url","http://fallenwish43.livejournal.com/10555.html"
+"userid","4919"
+"itemid","40"
+"event","<p>Here I am - at my parents house just to the left of the middle of nowhere. I arrived yesterday&nbsp;- later than I had originally hoped, but&nbsp;had soem trouble getting out of bed. The drive over was rather uneventfull - lots of clouds but very little rain and Wicket was an angel. I really think he knows that he's going to see his grandparents, and that he will eat better this weekend than he has since the last time we visited.&nbsp;<br /><br />It was a quiet day - we didn't leave the house. I promptly changed into my jammies and lazed around for the afternoon, catching glimpes of my parents watching the humming birds, playing with their cats, watching Wicket get chased around by a toy poodle named Roxy (who is visiting my parents for a few days). I eventually found myself upstairs sleeping until 8, and then Patti started on the best dinner in the world. She does that - she has this amazing shrimp and mushroom pasta served over linguini that she makes every time I come to visit. And this time, it was fabulous! My dad even said it was the greatest pasta she'd ever made - and that's pretty awesome. We had the wine that Robert got for them, and although my dad said it was a younger wine than he'd like, he drank a glass or two. Then Patti served us chilled jello with a whipped cream topping and we had some of Dad's famous coffee. Patti went off to bed and Daddy and I watched The Dance (a 1997 reunion concert of fleetwood mac - the greatest concert of all time, in my humble opinion). We figured out a way to record an mp3 from the dvd, so now I can have my two favorite songs on my IPOD - super nifty!&nbsp;<br /><br />I was exhausted by the time I reached my bed - but had the strangest dream. I dreamed a friend of mine, named Leon, told me how he had been in love with me for a long, long time. It was really strange because, like most people, I don't know how to react when something like that presents itself. So it was an awkward dream, one I was glad to awake from. And I awoke to a call from Robert letting me know he was about to board his flight. We talked for a few minutes and discovered that on planes, we both will ONLY drink Ginger ale. I would say that this would surprise me - the fact that we do something so quirky exactly the same - but it's happened so many times it seems like old news.&nbsp;<br /><br />I awoke this morning to a familiar scene - Patti at her computer, my dad smoking a cigar on the porch, my coffee still warm and waiting for me in the kitchen with my name on a card, covering the cup. Of course, it was perfect. Dad made a fully fantastic breakfast - typical fair for when I'm visiting - Sourdough bread (my dad's burnt) eggs, bacon, and hashbrowns. It looks like we will be going ""into town"" today to do some shopping and maybe play some pool. I am excited.&nbsp;<br /><br />I should go get ready. Patti takes an hour in the shower and she's just started, so I have some time. But&nbsp;I need to figure out what to wear and maybe read a bit - just to complete the feeling of luxury :)&nbsp;<br /><br /></p>"
+"eventtime","2006-07-02 12:24:00"
+"current_moodid","64"
+"url","http://fallenwish43.livejournal.com/10484.html"
+"userid","4919"
+"itemid","39"
+"event","T2ssIHNvIHRoZXJlIGlzIHRoaXMgZ3JlYXQsIGFtYXppbmcsIHdvbmRlcmZ1bCBzb25nIG91dC4gSXQncyBiZWVuIG91dCBmb3JldmVyLCBidXQgaXQncyBqdXN0IGxvdmVseS4gQW5kIEkgd2FzIHJlYWRpbmcgYW4gb3J0aWNsZSBhYm91dCB0aGUgbmV3IHN1cGVybWFuIG1vdmllIGFuZCB0aGUgZGlyZWN0b3Igd2FzIHRhbGtpbmcgYWJvdXQgaG93IGhlIGxlZnQgdGhlIFgtTWVuIGNyZXcgdG8gZ28gbWFrZSB0aGUgU3VwZXJtYW4gZmlsbSwgYW5kIGhvdyB0aGUgZGF5IGhlIGRlY2lkZWQgdG8gZG8gaXQgaGUgbGlzdGVuZWQgdG8gdGhpcyBzb25nIGFuZCBzb21laG93IGl0IGtlcHQgaGltIGZyb20gaGF2aW5nIGEgbmVydm91cyBicmVha2Rvd24vcGFuaWMgYXR0YWNrLiBBbmQgeW91IGtub3c/IEkgbG92ZSB0aGlzIHNvbmcgZm9yIGl0J3MgYWJpbGl0eSB0byBkbyB0aGF0LiBTb25ncywgZ29vZCBvbmVzLCBoYXZlIGEgd2F5IG9mIGNoYW5naW5nIHBlb3BsZSBtaWQtdGhvdWdodCBhbmQgZW5yYWdpbmcgdGhlbSwgY2FsbWluZyB0aGVtLCB0dXJuaW5nIHRoZW0gb24uIFRoZXkgPGVtPm1ha2U8L2VtPiBwZW9wbGUgZmVlbCB0aGluZ3MgdGhleSB3b3VsZCd0IG90aGVyd2lzZSBiZSBmZWVsaW5nLiBJdCdzIHN1Y2ggYW4gYW1hemluZyB0aGluZy48YnIgLz48YnIgLz5UaGUgZmlyc3QgdGltZSBJIGhlYXJkIHRoaXMgc29uZyB3YXMgaW4gdGhlIGhvcnJpYmx5IHJlY2lldmVkIDxlbT5WYW5pbGxhIFNreTwvZW0+LiBJIGhhcHBlbmVkIHRvIHRoaW5rIGl0IHdhcyBhbiBvayBmaWxtLCBJIGV2ZW4gb3duIGl0IChhbHRob3VnaCBJIHRoaW5rIGl0IHdhcyBvbmUgb2YgdGhvc2UgIkkgcmVtZW1iZXIgeW91IHNlZWluZyB0aGlzIGFuZCBJIG9ubHkgaGF2ZSAxMCBidWNrcyBsZWZ0IiBDaHJpc3RtYXMgZ2lmdHMgZnJvbSBCZW4pLCBidXQgdGhlcmUgaXMgb25lIHNjZW5lIEkgY291bGQgd2F0Y2ggb3ZlciBhbmQgb3Zlci4gV2hlbiBUb20gQ3J1aXNlIHRha2VzIFBlbmVsb3BlIGhvbWUgYW5kIHRoZXkganVzdCB0YWxrIGFsbCBuaWdodC4gVGhlbiB0aGV5IGFyZSBkcmF3aW5nIGVhY2ggb3RoZXIsIGFuZCBzaGUgaXMgZHJhd2luZyBhIGNoYXJhY2F0dXJlIG9mJm5ic3A7aGltIHdpdGggbG90cyBvZiBtb25leSwgd29tZW4gYW5kIGRyaW5rcyBpbiBoaXMgaGFuZCwgYW5kIGhlJ3MgZ290IGhlciBwZXJmZWN0bHkgc2tldGNoZWQsIGhlciBoYWlyIGZhbGxpbmcgb3ZlciBoZXIgZXllcy4gQW5kIHNoZSBzYXlzICJJIGRpZG4ndCBrbm93IHdlIHdlcmUgcmVhbGx5IGRyYXdpbmcgZWFjaCBvdGhlciAtIEkgdGhvdWdodCB3ZSB3ZXJlIGRvaW5nIGNoYXJhY2F0dXJlcyIgYW5kIGhlIHNheXMgcXVldGx5LCBsb29raW5nIHJpZ2h0IGF0IGhlciAid2VsbCwgSSBoYWQgdG8gZHJhdyB5b3UgdGhpcyB3YXkiIGFuZCB0aGVuIGluIHRoZSBiYWNrZ3JvdW5kIEkgaGVhciAiTXkgaGVhcnQgZ29pbmcgYm9vbSBib29tIGJvb20uLi4uIjxiciAvPjxiciAvPkknbSB0ZWxsaW5nIHlvdSwgaXQncyBhbiBhd2Vzb21lIHNvbmcuIDxiciAvPjxiciAvPkNsaW1iaW5nIHVwIG9uIHNvbHNidXJ5IGhpbGw8YnIgLz5JIGNvdWxkIHNlZSB0aGUgY2l0eSBsaWdodDxiciAvPldpbmQgd2FzIGJsb3dpbmcsIHRpbWUgc3Rvb2Qgc3RpbGw8YnIgLz5FYWdsZSBmbGV3IG91dCBvZiB0aGUgbmlnaHQ8YnIgLz48YnIgLz5IZSB3YXMgc29tZXRoaW5nIHRvIG9ic2VydmU8YnIgLz5DYW1lIGluIGNsb3NlLCBJIGhlYXJkIGEgdm9pY2U8YnIgLz5TdGFuZGluZyBzdHJldGNoaW5nIGV2ZXJ5IG5lcnZlPGJyIC8+SSBoYWQgdG8gbGlzdGVuIGhhZCBubyBjaG9pY2U8YnIgLz48YnIgLz5JIGRpZCBub3QgYmVsaWV2ZSB0aGUgaW5mb3JtYXRpb248YnIgLz5KdXN0IGhhZCB0byB0cnVzdCBpbWFnaW5hdGlvbjxiciAvPk15IGhlYXJ0IHdhcyBnb2luZyBib29tIGJvb20sIGJvb208YnIgLz5Tb24sIGhlIHNhaWQsIGdyYWIgeW91ciB0aGluZ3MsIEnigJl2ZSBjb21lIHRvIHRha2UgeW91IGhvbWUuPGJyIC8+PGJyIC8+VG8ga2VlcGluZyBzaWxlbmNlIEkgcmVzaWduZWQ8YnIgLz5NeSBmcmllbmRzIHdvdWxkIHRoaW5rIEkgd2FzIGEgbnV0PGJyIC8+VHVybmluZyB3YXRlciBpbnRvIHdpbmU8YnIgLz5PcGVuIGRvb3JzIHdvdWxkIHNvb24gYmUgc2h1dDxiciAvPjxiciAvPlNvIEkgd2VudCBmcm9tIGRheSB0byBkYXk8YnIgLz5UaG/igJkgbXkgbGlmZSB3YXMgaW4gYSBydXQ8YnIgLz7igJl0aWxsIEkgdGhvdWdodCBvZiB3aGF0IEnigJlkIHNheTxiciAvPldoaWNoIGNvbm5lY3Rpb24gSSBzaG91bGQgY3V0PGJyIC8+PGJyIC8+SSB3YXMgZmVlbGluZyBwYXJ0IG9mIHRoZSBzY2VuZXJ5PGJyIC8+SSB3YWxrZWQgcmlnaHQgb3V0IG9mIHRoZSBtYWNoaW5lcnk8YnIgLz5NeSBoZWFydCB3YXMgZ29pbmcgYm9vbSBib29tIGJvb208YnIgLz5IZXksIGhlIHNhaWQsIGdyYWIgeW91ciB0aGluZ3MsIEnigJl2ZSBjb21lIHRvIHRha2UgeW91IGhvbWUuPGJyIC8+WWVhaCBiYWNrIGhvbWU8YnIgLz48YnIgLz5XaGVuIGlsbHVzaW9uIHNwaW4gaGVyIG5ldDxiciAvPknigJltIG5ldmVyIHdoZXJlIEkgd2FudCB0byBiZTxiciAvPkFuZCBsaWJlcnR5IHNoZSBwaXJvdWV0dGU8YnIgLz5XaGVuIEkgdGhpbmsgdGhhdCBJIGFtIGZyZWU8YnIgLz48YnIgLz5XYXRjaGVkIGJ5IGVtcHR5IHNpbGhvdWV0dGVzPGJyIC8+V2hvIGNsb3NlIHRoZWlyIGV5ZXMsIGJ1dCBzdGlsbCBjYW4gc2VlPGJyIC8+Tm8gb25lIHRhdWdodCB0aGVtIGV0aXF1ZXR0ZTxiciAvPkkgd2lsbCBzaG93IGFub3RoZXIgbWU8YnIgLz48YnIgLz5Ub2RheSBJIGRvbuKAmXQgbmVlZCBhIHJlcGxhY2VtZW50PGJyIC8+SeKAmWxsIHRlbGwgdGhlbSB3aGF0IHRoZSBzbWlsZSBvbiBteSBmYWNlIG1lYW50PGJyIC8+TXkgaGVhcnQgd2FzIGdvaW5nIGJvb20gYm9vbSBib29tPGJyIC8+SGV5LCBJIHNhaWQsIHlvdSBjYW4ga2VlcCBteSB0aGluZ3MsIHRoZXnigJl2ZSBjb21lIHRvIHRha2UgbWUgaG9tZS4mbmJzcDs8YnIgLz48YnIgLz5BbmQgYXBwYXJhbnRseSB0aGlzIHNvbmcgaXMgYWJvdXQgUGV0ZXIgR3JhYmllbCdzIGRlY2lzaW9uIHRvIGxlYXZlIEdlbmVzaXMgYW5kIHdvcmsgb3V0IG9uIGhpcyBvd24uIEkgYWx3YXlzIHRob3VnaHQgaXQgd2FzIGFib3V0IEdvZCBhbmQgaG93IHdlIHRha2Ugb3VyIHN3ZWV0IHRpbWUgdG8gbGlzdGVuIHRvIHdoYXQgSGUgc2F5cyBzb21ldGltZXMsIGFuZCBob3cgd2UgbGVhcm4gdGhlIHNhbWUgbGVzc29ucyBvdmVyIGFuZCBvdmVyIHVudGlsIHdlIHJlYWxseSBkbyBsZWFybiB0aGVtLiBFaXRoZXIgd2F5LCBpdCdzIGxvdmVseSBhbmQgSSBob3BlIHlvdSBoZWFyIGl0IGFuZCBpdCBjaGFuZ2VzIHlvdSB0aGUgd2F5IGl0IGhhcyBjaGFuZ2VkIG1lLg=="
+"eventtime","2006-06-30 14:11:00"
+"current_moodid","98"
+"url","http://fallenwish43.livejournal.com/10095.html"
+"userid","4919"
+"itemid","38"
+"event","Last night I saw Cars with Robert and Wilber. I have to apologize to Tim, because he really wanted the next movie that I see be Tokyo Drift - and I just don't think I can bring myself to watch that one. We had a blast - I thought it was one of the best films Pixar has done in a while. I mean, they are all fantastic, but this one just melted me away - it was really hilarious. And there was this older car, Mater, that seriously stole half of Robert's lines. It was so funny to watch - we laughed and laughed. It was great for WIlber to meet Robert finally - we had dinner at Logans and it was pretty yummy.&nbsp; I got to see Wilber's fish tank - it's pretty cool. I don't know much about&nbsp; brackish water (like the spelling, for example) but the fish looked happy and of course Kitty was always happy to see me.&nbsp;
+
+Things are looking up all the time - I have so much to be grateful for. I'm going away for the long holiday weekend. I can't wait to see my parents - I have missed them so much. We are going to celebrate father's day and play some pool - ah yes, the wonder's of pool. I really love playing, my daddy taught me how when I was around 11 or 12 and we've been playing ever since. I was one a league for a year and a half with ""the boys"" (Kenneth and Steve) and we always had such a good time.&nbsp; I think of them all the time.
+
+My parent's house, as I have said before, is like my home away from home - it really is an oasis of books, music, and really awesome Coffee. I plan on doing as little as possible when I get there - and it's going to be lovely. And it's not such a bad drive, even though it can be long. When Rita hit, that was the longest drive of my life. But it's always worth it - waking up in the morning, padding down the stairs to see my dad's famous coffee sitting in a mug with a piece of paper over it with my name inscribed. When I was growing up, my daddy would leave me little notes in the morning saying ""Good morning! I love you!"" because he would leave long before I got up for school.&nbsp;
+
+I often wonder about being a parent. I wonder if I wil be any good at it. People call me a natural mother, but I don't know - I can be so selfish sometimes. And you know, I'm older than a lot of people who have kids. And I know now I'm not ready. I mean, sometimes you aren't given a choice, but I hope and pray that I'm as good as my daddy was. I mean, I never knew anything about what was going on in his life, if he had problems at work, if he and my mother were screaming at each other in a lawyer's office. I never knew hw it all happened. And we talked all the time - but it was always about me and what my plans were with me life and what I wanted and how I felt. And he drew me pictures in the morning and flew kites with me and taught me to play pool and to spell and to drive. And I turned out ok, I think. I mean, I never made any huge mistakes that weren't repairable and fairly normal. I did some stupid stuff, and I got really lucky, but I don't know if that's different than most people's stories.&nbsp;
+
+Maybe I will Allison this weekend - that would be lovely - I have missed her so. I am not sure where she is living now, I think she's still in Arlington, so maybe she will not make it back for the holiday. I think of her all the time, and although neither one of us stays in touch as much as we like, I hope she knows that i'm always here for her and that I love her lots and lots.&nbsp;
+
+So much love today - must be because I have had the best two days in a while. Ah, I love...I love so much. And although it's not ""normal"", I wouldn't change it for the world."
+"eventtime","2006-06-30 10:04:00"
+"current_moodid","120"
+"url","http://fallenwish43.livejournal.com/9969.html"
+"userid","4919"
+"itemid","37"
+"event","Nothing in particular, and everything in between. After an evening of just doing nothing - ok, not nothing, I did manage to watch The Closer on TNT which I had recorded - I love that show. I'm not really sure why either, because sometimes it just doesn't make any sense. But I like the woman Brenda Leigh, played by Kyra Sedgwick. I think she's a pretty good actress, and she's in a league of her own being married (for a really, really long time) to Kevin Bacon. Anyway, she's very powerful and kicks some serious ass. And i would have liked to have been that cool, calm, and collected. She must be so much fun to play with.&nbsp;
+
+God smiled on me last night. I was feeling icky and unsure and over all NOT good but I'm all better now. I like&nbsp;being able to be so honest about how I feel and have that be ok - no matter what it is that I am feeling. I have always been a big talker, a big communication person, but sometimes the rules in communication are hard to follow. That makes it tough to work things through. Anyway, I'm glad that everything is better now - it's the scariest feeling in the world when you think that you've become the one thing you didn't want to be.&nbsp;
+
+Today is Bob's Birthday. Bob is a laywer at my office. We are taking him out to some vietnamese restaurant for lunch. I am excited but I'm worried too - I like to try new things, but there is definitely a cap on my adventuresomenes. Is that even a real word? What I mean is that some days I am not ready to venture in to the unknown, and other days I am all for it. I'm very strange that way. This weekend, for example, I did nothing ""normal"" on Saturday. Everything was a new adventure, a new dish to eat, a new group of people to hang out with and talk to. And it was lovely. I cannot say that I would have liked to have had that adventer again on Sunday. Being fearless and trying new things can be exhausting.
+
+The day is clear and bright, but there isn't much more to say now. I will write more later."
+"eventtime","2006-06-28 09:49:00"
+"current_moodid","43"
+"url","http://fallenwish43.livejournal.com/9478.html"
+"userid","4919"
+"itemid","36"
+"event","So how does one go from being completely happy and wanting nothing more than to love out your days just the way things are to completey doubting yourself and everything around you? How does that happen within a matter of days, and for no reason? I think sometimes that I cannot just blame these times on being a woman. Sometimes I think I am just crazy.&nbsp;<br /><br />I worked yesterday, I came home and vegged. I worked out for half an hour and watched the rest of Willy Wonka and cried. I just love that movie&nbsp;- it's so delicious.&nbsp;<br /><br />And last night, I didn't want to talk to anyone. I just wanted to be alone to these awful thoughts in my head that resounded with perpetual dome and self doubt. Very strange. And then this morning, I woke up to warm amber and it was good again. I wasn't so bothered by my own mistakes. I can't beat myself up for things I have no control over.&nbsp;<br /><br />I have this awesome song stuck in my head. It's sad because now that I have an IPOD attached to my car, I miss a lot of new songs on the radio. But a few days ago, early in the morning, I woke up and saw this song on VH1 and fell in love with it. It really reminds me of everything that has transpired the past couple months, and that feeling you get everynow and then of being overwhelmed. It's an amazing song and I remember hearing it in the car with Robert and telling him it was going to change lives.&nbsp;<br /><br />It's called Over my head and it's by The Fray.<br /><br />
+<table>
+    <tbody>
+        <tr>
+            <td class=""song"">I never knew<br />I never knew that everything was falling through<br />That everyone I knew was waiting on a queue<br />To turn and run when all I needed was the truth<br />But that's how it's got to be<br />It's coming down to nothing more than apathy<br />I'd rather run the other way than stay and see<br />The smoke and who's still standing when it clears<br /><br />Everyone knows I'm in<br />Over my head<br />With eight seconds left in overtime<br />She's on your mind<br /><br />Let's rearrange<br />I wish you were a stranger I could disengage<br />Say that we agree and then never change<br />Soften a bit until we all just get along<br />But that's disregard<br />Find another friend and you discard<br />As you lose the argument in a cable car<br />Hanging above as the canyon comes between<br /><br />Everyone knows I'm in<br />Over my head<br />With eight seconds left in overtime<br />She's on your mind<br /><br />And suddenly I become a part of your past<br />I'm becoming the part that don't last<br />I'm losing you and its effortless<br />Without a sound we lose sight of the ground<br />In the throw around<br />Never thought that you wanted to bring it down<br />I won't let it go down till we torch it ourselves<br /><br />Everyone knows I'm in<br />Over my head<br />With eight seconds left in overtime<br />She's on your mind<br /></td>
+        </tr>
+    </tbody>
+</table>
+It's one of the best songs of the year - I'm telling you, this song will change the world!<br /><br /><br />"
+"eventtime","2006-06-27 10:17:00"
+"current_moodid","68"
+"url","http://fallenwish43.livejournal.com/9271.html"
+"userid","4919"
+"itemid","35"
+"event","This weekend was long and yet not long enough - but I am sure that's nothing new to anyone. A brief synopsis follows.
+
+
+Friday I did a whole lot of nothing. I worked out and started the movie ""Angel Heart"" - a 1980's thriller staring Mickey Rourke and the older daughter from the Cosby Show&nbsp; and Robert Dinero. It was the last movie Cosby show girl did before getting kicked off the Cosby show. It could have been because there is this very graphic sene where blood is pouring down the walls, but whatever. It was interesting and the last 10 seconds scared me enough to make it hard for me to sleep.&nbsp;
+
+Saturday was all new for me. I went to midnight comics and played Hackmaster (a D&amp;D kind of game) with Robert and his gaming friends. It was supposed to run from noon to four, but of course, being gamers, no one showed up until one. So it lasted untill 5:30 and then Robert and I went to dinner with a friend of his at work. We ate down in China town at some little bistro - it was really good. Noodles and chicken and coffee milk tea - I hadn't had anything we ordered before. We stayed there talking until almost midnight, and then I went home and finished Angelheart and not sleep.&nbsp;
+
+Sunday was nice - I rearranged my kitchen some and came up with some neat ideas of how to use my new appliances and maximize counter space. Then I went to lunch with Tim. He was in town for the weekend and so I got to spend a few hours with him. We went to lunch and then went for Milk Tea - a tradition since our days in Austin. Tim keeps asking me to move there, which I wouldn't really mind doing except for the fact that my LIFE is here. We talked a bit about Ben - Tim hasn't spoken to him in a long time, but was surprised that the divorce wasn't final yet. Why? Because he's already living with another woman. Yes, THAT woman. And poor Tim was like ""I thought you knew, I'm so sorry."" It was kind of funny because I am supposed to be the one who ran off with another man and yet he's telling everyone he can about the great sex he's having and how he's so much happier. And I do hope he's happy. I hope he's so happy he gets over trying to keep me from divorcing him&nbsp; - because his actions are rather paraoxical. He's so happy to be away from me, but he's making it harder for me to sever myself from him. Makes so sense to me, but then, as Tim said ""he's really a kid most of the time.""
+
+Sunday night, the boys from College Station (er, Waco/Dallas now that it's summer) came into town, so I danced with them for an hour. It was SO great to see Matt and Byron again - they are just the nicest guys ever! And I got to see Daniel and Woody and Richard and Mark - I wore Mark's belt again because my pants kept falling down. I'm getting smaller all the time, which is great, except that I forget to wear a belt when I go dancing and they are so loose they fall. Thank GOD for Mark and his belt - he's saved me numerous times!~
+
+Last night, I had a dream about working in a Law Office. It was strange. I was there for about half the day when I realised I hadn't quit my old job at Myron Steves, so it was a messy situation. Those dreams are hard for me, I used to dream them about Ben, now just about my job. Strange strange stuff man.&nbsp;
+
+So that's all for now - will write more later."
+"eventtime","2006-06-26 09:57:00"
+"current_moodid","31"
+"url","http://fallenwish43.livejournal.com/9092.html"
+"userid","4919"
+"itemid","34"
+"event","I am a totally bad person for not keeping up with my journal, but things have been super crazy here. There is so much to say, to catch up on, I don't know where to begin. <br /><br />Let's see. I'm not yet divorced, although I was gonna be two weeks ago. Things are getting rather ugly. Now I am accused of commiting adultary, which is interesting because I don't know how you can prove something that <strong><em>never</em></strong> (let me repeat, <strong><em>NEVER</em></strong>) happened. And I would also like to point out that I was not the one on racy websites looking to hook up with someone even back in September. Crazy stuff, I am telling you. I just want that all to be over and to have my name back.<br /><br />Work is going well. I am pretty busy most days now, running around with five different hats trying to please everyone. The girls are doing alright - Laura just got back from a cruise and had a great time.&nbsp;<br /><br />Dancing is alright. I'm not teaching with Brian anymore, since it's his last summer before leaving for college (tear!) and he wanted to just hang out and dance. However, Robert is taking privates from him, so we still get to teach a bit. I haven't done much other than going to dance on Sundays, which only takes about an hour now to dance with everyone since it's the summer.&nbsp;<br /><br />Wilber just got an aquarium - he's wanted one for a long, long time, so it's a big deal. Things were kinda distant for a while, but everything is back to normal, although I don't see him as much anymore.&nbsp;<br /><br />My dad and Patti came down to visit for a weekend - that was pretty fun. I took them to the galleria and they went to see me dance. Of course, Ben showed up, so that was kind of awkward. But neither one said anything to each other, so that was nice.&nbsp;<br /><br />You know, the thing about ending a marriage is this - you never quiet&nbsp;get back to being&nbsp;friends. I mean, even in the most amicable ending of&nbsp;marriages, there is always that underlying tension and hurt and anger. It was sad because I spend a long time being upset about it,&nbsp;many nights not doing anything but praying that I was making the right choice, and all the while hoping that somewhere down the line, I would see Ben and the melody and we would just kinda&nbsp;exist without him hating me or me wishing&nbsp;he would grow up. And you know, It probably would have&nbsp;gotten there. Then the&nbsp;day before it was all going to be finalized and over, it just implodes. I'm not really worried about it,&nbsp;the truth of everything is pain&nbsp;for everyone to see, but it still hurts.&nbsp;And now I realise that we will never be able to even be&nbsp;civil to each other, which is a tragedy because we were always really good friends. Ah well. Everything is inevitable.<br /><br />I got a call from Tim&nbsp;last night - I am so glad to know he's ok. His journal has been updated a bit lately, and that's&nbsp;been pretty freakin&nbsp;hilarious to read - he's so&nbsp;talented! I just love that guy!<br /><br />Wicket is&nbsp;having surgery today. I worry about him, but know it's going to be just fine. I just don't want him to hurt, which is inevitable when they are cutting you open, but&nbsp;it makes me crazy to think of my baby in pain. I really love that little dog - he's been my friend through a lot of crappy and wonderful times.&nbsp;<br /><br />Let's see. I've seen a bunch of good movies - the best of late has been BRICK.&nbsp;Seriously, you should go see it if you get the chance. The main character, Brenden, is TIm. Well, not really. He's not chinese and he's&nbsp;thin as a rail, but if TIm had an alter ego, it would be the main character of that movie.&nbsp;And you know why? Because he's basically a bad-ass&nbsp;geek with glasses and a propensity for eating lunch alone and speaking like a freakin genius. The writer of the&nbsp;movie, whoever he was, needs to be given a freaking award because it was the coolest script&nbsp;I have read in years. It was amazing - just&nbsp; like Tim. So I hope he watches it and loves it as much as I&nbsp;did.&nbsp;Sweet,&nbsp;man!<br /><br />Brad Pitt and Angelina had their baby - and what a cutie too! My own personal Brad Pitt has faded away - that happens when they are meanies. It's too bad - I really cared about him for a long, long time. Ah well - say it with me now - Everything is inevitable.<br /><br />The past three months have been a whirlwind. So much has&nbsp;happened.&nbsp;It's crazy that I haven't written in so long. But it's been a great time too. I am happier than I've ever been, even with the occasional sadness that occurs. It's so nice to have such a great family and friends - to know what it means to love and be loved is such a great gift. It's such a blessing.<br /><br />"
+"eventtime","2006-06-21 10:44:00"
+"current_moodid","15"
+"url","http://fallenwish43.livejournal.com/8739.html"
+"userid","4919"
+"itemid","33"
+"event","For some reason, this song is filling my head today. The first time I heard it I was riding in the car with Kelly, and she mentioned that she kept hearing this song in airports as she traveled. I thought it was a striking song at the time. And then, a few months ago, I saw ""Closer"" with Julia Roberts, Clive Owen, Jude Law and Natalie Portman. The song was the signature of the film, which is interesting because it dealt with two couples who fall in love with other people. The video was strange - a guy looking at a girl looking into the sea. It's a strange video but it's a really pretty song. 
+
+
+
+
+And so it is
+Just like you said it would be
+Life goes easy on me
+Most of the time
+And so it is
+The shorter story
+No love, no glory
+No hero in her sky
+
+I can't take my eyes off of you
+I can't take my eyes off you
+I can't take my eyes off of you
+I can't take my eyes off you
+I can't take my eyes off you
+I can't take my eyes...
+
+And so it is
+Just like you said it should be
+We'll both forget the breeze
+Most of the time
+And so it is
+The colder water
+The blower's daughter
+The pupil in denial
+
+I can't take my eyes off of you
+I can't take my eyes off you
+I can't take my eyes off of you
+I can't take my eyes off you
+I can't take my eyes off you
+I can't take my eyes...
+
+Did I say that I loathe you?
+Did I say that I want to
+Leave it all behind?
+
+I can't take my mind off of you
+I can't take my mind off you
+I can't take my mind off of you
+I can't take my mind off you
+I can't take my mind off you
+I can't take my mind...
+My mind...my mind...
+'Til I find somebody new"
+"eventtime","2006-04-19 13:00:00"
+"current_moodid","68"
+"url","http://fallenwish43.livejournal.com/8534.html"
+"userid","4919"
+"itemid","32"
+"event","I'm going to a baseball game tonight. I'm excited, but I am nervous too. I don't know what to do or where my life is going. I'm scared. I was so happy this morning, what happened since then? Not much, just more time to think myself into a dull and dreary existance. Maybe all the happiness finally took it's toll on my head. I hope I'm cared about, but I'm worried about being hurt and giving too much. I don't want to jump into something - I never kiss somebody so that they will break my heart. That's not what I want. 
+
+And I don't know why I am so filled with emptiness and doubt now. Things are going well. Better than I had thought. So why am I so scared that this is all going to fall apart in my face? Be calm, be calm. Everything is inevitable. Everything will be alright. There is a plan...."
+"eventtime","2006-04-18 14:22:00"
+"current_moodid","85"
+"url","http://fallenwish43.livejournal.com/8343.html"
+"userid","4919"
+"itemid","31"
+"event","I saw my friends Patricia and Jim (the newly married couple :) last night. They were so nice, they took me to dinner and let me gush about how happy I am - although I could only say so much. I want to be able to tell the whole world, but things are just too complicated now. And I want to be very careful and not lose this feeling, not lose this dear person. 
+
+So I talked to Robert on the phone last night, and then he called again just to say goodnight and hear my voice one more time - isn't that sweet? He's just the best guy ever. So lovely.
+
+I have to be very careful not to get in too deep about this one. I don't want to get hurt again and I don't want to lose the feeeling of waking up every morning happy just to be alive and feel alive again. To have a purpose and have someone else be that purpose.
+
+Thank You God for today. Thanks for making my heart beat fast and free again. Thank you for the Gift. I don't deserve it, but I promise to take good care of it. Thank You thank You thank You."
+"eventtime","2006-04-18 08:42:00"
+"current_moodid","98"
+"url","http://fallenwish43.livejournal.com/8037.html"
+"userid","4919"
+"itemid","30"
+"event","For example, the sign ""to connect"" a simple sign  - but it means so much more when it is moved between us like this. Now it means to be joined in a shared relationship, to be individual yet as one. A whole concept, just like that. Well, I want to be joined to other people, but for all my life people have spoken for me: she says; she means; she wants. As if there was no I. As If there was no one in here who could understand. Until you let me be an individual, an I, just as you are, you will never truly be able to come into my silence and know me. And Until you cal do that, I will never let myself know you. Until that time, we cannot be...joined. 
+
+
+That's from one of my favorite plays, movies, love stories of all time. It's called Children Of a Lesser God and it's continually educating me on the quirks of the human heart. There is something new to learn from each character, from each line of dialogue I read, from each line of dialogue I read, from each scope of film. I love movies and stories that change me, that make me see the world differently. 
+
+I love this story because it shows how two people, two very different people, can come together in a way where there is no silence, there is no sound, there is nothing but love and mututal understanding of one another. And the girl, Sarah, is so enchanting, so smartly played and created. The two lovers really are one of my favorite couples in the land of makebelieve."
+"eventtime","2006-04-18 08:41:00"
+"current_moodid","101"
+"url","http://fallenwish43.livejournal.com/7718.html"
+"userid","4919"
+"itemid","29"
+"event","After the best five days I might have ever had, I am floating on air. I slept better last night that I remember sleeping since I was five. Seriously, I went right to bed (It was almost 1 am) and slept the whole night. THE WHOLE NIGHT!!! And I dreamed - oh I dreamed like it was never going to end. So lovely. Just lovely.
+
+And today I went to go drop off my car at the shop and every song on the radio was amazing and perfect and I keep thinking of the color of glowing amber and the sound of a fast moving train rushing by. I have to tell myself to keep breathing. 
+
+I'm so happy, and yet it's scary too. I don't want to go this one alone. I know I am being vague but if I mention every detail it might convery just how wrapped up I am in this emotional rollercoaster, how much I am already in over my head. He's amazing to me. He's so easy to talk to. And Richard coined the phrase best by asking ""does he make you laugh more than he makes cry?"" and I haven't laughed like I do with him anywhere else. It's so easy and it's old and it's new and it's very very wonderful and completely enveloping. And I want to put on the breaks but I also want to dive in and drown. 
+
+My mother and I talked Sunday on my drive home, and I heard the most wonderful things. She told me about her and my father before it all went to hell. About how they would dance in the living room after my brother and I had gone to bed - about how he got down on one knee and had some earings to give her instead of a ring - about how when they got married, he said he was sorry for taking too long to sweep her off her feet. And my mother, MY MOTHER, the one who always is weary of men and their sweet promises and kisses, opened up like never before and gave me the best advise - when you fall in love like that, hold on to it for dear life and try not to lose it. And when she described it to me - ""it was like being in heaven everyday of your life, you wake up everyday with the most wonderful person you know sleeping next to you"" and I thought - wow, I wonder what that's like. And then I went home and had the best evening I could have imagined. It was an evening where the minutes just froze on the clock and the world couldn't get in. There was no doubt, or worries, no fear. It was so simple, nothing extravegant, and it was just like in the movies. It was just like in the movies - thank you God. Thank You. 
+
+I'm in heaven. Heaven!"
+"eventtime","2006-04-17 10:41:00"
+"current_moodid","132"
+"url","http://fallenwish43.livejournal.com/7542.html"
+"userid","4919"
+"itemid","28"
+"event","I normally do not write anything on the weekend, but I just had to get some of this out in the open while I had the chance. So much has happened in the past three days, it feels like Wednesday was a century ago!
+
+Let's see - Thursday I worked longer than I had wanted to, but it worked out perfectly. When I was done, I went to the bookstore near my house to see about getting Robert a version of Sati by Christopher Pike  (more on that later) and I ran - almost literally - into Katia. We went back to my apartment and I spilled a little bit about what was to happen later in the evening - we giggled and she was so nice to listen to me. She's so lovely - and so very tiny! Next time, Lord. I'm tellin ya...
+
+So then I get all cute - skirt (or course) and heels, and off to have one of the best evenings in my life. It would have been short of wonderful if I could have said just how great it was - but I will say this: I have been reeling ever since. Every ten minutes looking at the phone and still shivering. Trying not to worry, trying not to let it in too deep, trying to keep everything as light and normal and incapable of being hurt at possible. But I'm happy - just thinking about it makes me smile so.
+
+Friday I drive to my parents house. I love that house - it's my home. It's funny, because I never really saw it that way until this weekend. Dad and I went into town for lunch, played some pool (he creamed me, of course!) and then back home for dinner (Patti's famous shimp pasta) and then onto the computer to convert more music to MP3's. I tried to sleep but thoughts kept creeping in, and then there was a chat in the late hours that I am sure couldn't have taken place - but then, maybe it did :) 
+
+Got some weird email from Wilber - I don't think we'll be seeing much of each other for a while. I'm sad but I knew it was going to have to come to this - I'll miss him lots and lots. 
+
+Saturday evening and I have yet to change out of my jammis - and I'm not gonna! I watched the big chill (great music!) and listened to Jimi Hendrix with my dad and have been doing as little as possible. Day dreaming a lot - I can't wait to get home, but I'm having such a great time too. My parents house is like an oasis of luxory - this huge cataclysm of books, records, and movies. And time, nothing but time and no one to bother you much. Robert mentioned how he misses the act of going home and having things revolve around him for a while - I think of him as ""Whiter Shade of Pale"" comes on in the background and I smile. I just love that guy. 
+
+Dad is his usual self - and Patti always shopping for more to make the weekend complete. These are the people who I grew up living with. They aren't just my parents, they are my friends and I love them both so very much. It's a great thing when you are able to come to an understanding at last in your adult life with your parents. I wonder if it's normal or if it's because I am so strange. I guess I'll never know the answer to that one :) 
+
+Tim called today - he's in Houston and wanted to see me. Maybe I will catch him when I get home. I'm still checking the clock, still day dreaming, still reliving moments that went by too fast. I wonder if I'm out there alone in this. I wonder where everything will fall after this.
+
+Dinner time - gotta go serve ziti in my jammies. That's a beautiful thing."
+"eventtime","2006-04-15 19:29:00"
+"current_moodid","15"
+"url","http://fallenwish43.livejournal.com/7331.html"
+"userid","4919"
+"itemid","27"
+"event","I wanted to find a story I wrote, one that I had sent to Brad Pitt long ago. So I went and I searched and along the way I found all the other emails that I have, and I have almost every one - still. I read a few, skipped many. I was amazed at how uncomfortable I was with some things, and how easily I weilded him with others. I wonder if he misses me. I wonder if what I am doing now is missing him. It doesn't hurt, not really, I don't have that catch up in my throat the way I used to. But then again, this has been a very, very good week. I am constantly looking for diversions to missing him, to thinking of him. I am trying to let it go, trying to get to apathy. Apathy is the goal. And it just seems so far away, those months when we spoke everyday, when my world kind of revolved around his interests and his ways. I hope this distancing thing lasts - I am tired of living without him and I'm tired of hurting over it. Love, unfortunately, has never been about what people deserve. Thank the Lord for that."
+"eventtime","2006-04-13 09:20:00"
+"current_moodid","114"
+"url","http://fallenwish43.livejournal.com/7007.html"
+"userid","4919"
+"itemid","26"
+"event","T25lIGRheSwgYSBsb25nIHRpbWUgYWdvLCB3aGVuIHRoZSB3b3JsZCB3YXMganVzdCBvbmUgYmlnIHBsYWNlLCB0aGVyZSBsaXZlZCBhIGJveSBpbiBhIHNtYWxsIHZpbGxhZ2UuIEhpcyBuYW1lIHdhcyBaZXJ1YiBhbmQgaGUgbG92ZWQgdGhlIHdhdGVyLiBXaGVuIGhpcyBtb3RoZXIgd291bGQgdGFrZSB0aGUgbGluZW5zIG91dCBpbnRvIHRoZSByaXZlciB0byB3YXNoLCBaZXJ1YiB3b3VsZCBmb2xsb3cgYW5kIGxvdmVkIHRvIHBsYXkgbmVhcmJ5IGluIHRoZSBzYW5keSBvYXNpcy4gSGUgd291bGQgZHJhdyBzaGFwZXMgYWdhaW5zdCB0aGUgcm9ja3MgYW5kIHVzZSBzdGlja3MgdG8gd3JpdGUgaW4gdGhlIHNhbmQuIEhlIHdvdWxkIHNwZWFrIHRvIHRoZSByaXZlciBhcyB0aGUgd2F0ZXIgbGF1Z2hlZCBhbG9uZyBhbmQgdG9sZCB0aGUgcml2ZXIgbWFueSBzZWNyZXRzLCBtYW55IGRyZWFtcyBvZiBoaXMgaGVhcnQuIEFzIHRoZSB5ZWFycyB3ZW50IGJ5LCB0aGUgWmVydWIgYmVjYW1lIHRhbGwgYW5kIHN0cm9uZy4gTWFueSBnaXJscyBmcm9tIHRoZSB2aWxsYWdlIHdvdWxkIHdoaXNwZXIgd2hlbiBoZSBwYXNzZWQgb24gaGlzIHdheSB0byB0aGUgcml2ZXIsIGJ1dCBoZSBuZXZlciBwYWlkIHRoZW0gYW55IGF0dGVudGlvbi4gSGUgc3BlbnQgaGlzIGRheXMgYnkgdGhlIHdhdGVyLCBmaXNoaW5nIG9yIHNlYXJjaGluZyBmb3Igd29vZC4gSGUgd2FzIG9mdGVuIGxhdWdoZWQgYXQgYnkgdGhlIG90aGVyIG1lbiwgZm9yIGhlIGRpZCBub3QgbGlrZSB0byBodW50IG9yIHBsYXkgYXQgd2VhcG9ucnkg4oCTIGhlIGhhZCBubyBjYXJlIGZvciBvdGhlcidzIHBsZWFzdXJlLiBPbmx5IHRoZSByaXZlci4gVGhlIHJpdmVyIGhhZCBubyBuYW1lLCBidXQgaGUgbWFkZSBvbmUgdXAgYW5kIHNhbmcgdG8gaXQgd2hpbGUgd29ya2luZy4gVGhlIHJpdmVyIHdvdWxkIGFsd2F5cyBzcGVhayBiYWNrIHRvIGhpbSwgc2hhcmluZyB0aGUgam95cyBvZiB0aGUgZWFydGgsIHRoZSBxdWlldCBvZiB0aGUgd29ybGQgd2l0aCBoaW0uIEhlIGxvdmVkIHRoZSByaXZlciBtb3JlIHRoYW4gaGlzIG93biBza2luLCBhbmQgaGUga25ldyB0aGUgcml2ZXIgbGlrZSBubyBvbmUgZWxzZS4NCg0KIA0KT25lIGRheSB0aGVyZSB3YXMgbm8gcmFpbi4gVGhlIHJpdmVyIGJlY2FtZSB0aGluIGFuZCB3ZWFrLCBhbmQgdGhlIGJveSB3aG8gaGFkIGJlY29tZSBhIG1hbiBiZWNhbWUgZnJpZ2h0ZW5lZCB0aGF0IGhpcyByaXZlciBtaWdodCBzb21lZGF5IHdhbmUgYW5kIGRyeSBvdXQuIEhlIHNwZW50IGhvdXJzIHByYXlpbmcgdG8gdGhlIEdvZHMgdG8gYnJpbmcgdGhlIHJhaW4sIHRvIG1ha2UgaGlzIHJpdmVyIHN0cm9uZyBhZ2FpbiwgYnV0IHRoZSByYWluIGRpZCBub3QgY29tZS4gVGhlIHJpdmVyIHRyZW1ibGVkIGJlbmVhdGggaGlzIHdvcmRzIHdoZW4gaGUgd2hpc3BlcmVkIHRvIGl0LiBIZSBkaXBwZWQgaGlzIGhhbmRzIGludG8gdGhlIHdhdGVyIGFuZCBjcmllZCBmb3IgaGlzIGJlbG92ZWQgcml2ZXIsIGhpcyBvbmx5IGZyaWVuZC4gVGhlbiBzb21ldGhpbmcgb2RkIGhhcHBlbmVkLiBUaGUgc2FuZCBmZWxsIGFyb3VuZCBoaW0sIHRoZSB3YXRlciByb3NlIGhpZ2hlciBhbmQgaGlnaGVyLiBaZXJ1YiBsb29rZWQgYXJvdW5kIGJ1dCB0aGVyZSB3ZXJlIG5vIGNsb3VkcyDigJMgbm8gcmFpbiB3YXMgZmFsbGluZyBhbnl3aGVyZS4gVGhlIHNhbmQgcm9zZSBhcm91bmQgaGltLCBhbmQgZm9yIGEgbW9tZW50IGhlIHBhbmlja2VkLiBIZSBjb3VsZCBub3QgbGVhdmUgdGhlIHJpdmVyIGJhbmsgYW5kIHJ1biB0byB0aGUgdmlsbGFnZS4gSGUgdHJpZWQgdG8gY2FsbCBmb3IgaGVscCwgYnV0IHRoZSB3YXRlciB3YXMgYmVnaW5uaW5nIHRvIHJ1c2ggYXJvdW5kIGhpbSBhbmQgaGUga25ldyBubyBvbmUgd291bGQgaGVhciBoaXMgY3JpZXMuIFRoZSB3YXRlciB3YXMgd2FybSBhbmQgY3Jpc3AgYW5kIGNsZWFuLiBaZXJ1YiBmaW5hbGx5IHVuZGVyc3Rvb2QgaGlzIHJpdmVyLCBhbmQgbGV0IGl0IHRha2UgaGltIGF3YXkgZG93bnN0cmVhbS4gDQoNCiAgICAgICAgICAgIEhlIHdhcyBuZXZlciBzZWVuIGFnYWluLiBCdXQgaXQgaXMgc2FpZCB0aGF0IGlmIHlvdSB2aXNpdCB0aGUgcml2ZXIsIHdoaWNoIGlzIG5vdyBwbGVudGlmdWwgYW5kIGdyZWVuLCB5b3UgY2FuIGhlYXIgWmVydWIgYW5kIGhpcyBiZWxvdmVkIHJpdmVyIGxhdWdoaW5nIHRvZ2V0aGVyIOKAkyBsYXVnaGluZyBhbmQgcGxheWluZyBhZ2FpbnN0IHRoZSBzbW9vdGggYmFua3Mu"
+"eventtime","2006-04-13 09:15:00"
+"current_moodid","27"
+"url","http://fallenwish43.livejournal.com/6826.html"
+"userid","4919"
+"itemid","25"
+"event","Ok, so Mar Mar is frustrated because she can quite keep track of all my boys. So here is a brief synopsis of who everyone is....
+
+Quincy - my first boy. I can't really say anything about him now except that I love him more than I love breathing. He was my best friend for a long long time, and I am blessed to know him. I haven't seen him in about three years or more, but I know he's out there, still out there. I know he's ok because I would feel it if he wasn't. I would just know. He is beautiful and he can look down at the sky.
+
+Tim - Tim is Ben's oldest and best friend. He lives in Austin and went to UT. He's an amazing writer and he's always been there for me. I love him to death. He is the one who told me about live journal, so I guess I should thank him for that, because now I get to write everything I ever wanted anyone to know about me here :) He's amazing.
+
+Byron - Byron is my friend from college station who I love to dance with. LOVE TO DANCE WITH. Seriously, I get high just thinking about it. He's graduating from A&M this May and is waiting to hear back from grad schools and stuff - I hope he stays in Texas cause I will miss him if he leaves.
+
+Brian - Brian is who I teach swing dancing with. He's graduating from High School this year and is going to school in Minnesota for education, where he's going to go on to become the greatest english teacher ever. He's also a world champion swing dancer and one of the most amazing kids I have ever met. I totally love this guy - I could hug him forever. 
+
+Wilber - Wilber is my friend. He doesn't like being in the friend box, because when you are put in the friend box, you don't get out. He's been around me for years and has been pretty awesome since things have changed in my life. 
+
+Steve - Steve is an old friend whom I have known for about ten years. He wanted to go to Hawaii with me but things didn't work out that way. He lives in Dallas and works for American Airlines. 
+
+Joey - Ah, my Joey. Joey lives in New York, and he writes online articles and sells stone ware for clocks and chess sets and things like that. He was the first person who ever had me completely vulnerable, who could just level me with a few words, and he's nice enough to find me every now and then. I love this kid and sometimes when I hear Third Eye blind I can't help but think of him. He's my Dragon Teers, he's aweseom.
+
+Matt - Matt Posey is a guy I dance with. He's a student at A&M and friends with Byron. He's been dating Gracie, the cutest girl in the world - I am crazy about both of them! He's going to be an aerospace engineer and own a skating rink/swing dance venue with Byron when he grows up.
+
+Trevor - Trevor is a guy I dance with who leaves for three weeks at a time to go and be a pretroleum engineer off shore. He's tall, dark, and handsome, and I like him alot. I don't write about him much when he's gone. 
+
+Mykal - again, not sure if I've written about him, but I might soon. Mykal is a guy I have known for about 7 years, he lives in Austin now. He wants me to go see him, but I just know he's asking for trouble so I'm not sure what to do about that. We'll see.
+
+Jeffe - Jeffe lives in San Antonio and I've known him since high school. He's a big flirt and he likes it that way. I think I will be seeing him the next few weeks. He's always wanted things he can't have :) but that's part of the fun of it all for him!
+
+Brad Pitt - Brad Pitt is a guy who doesn't exist. His girlfriend, Jennifer Aniston, however, is very real. Everyday I don't talk to him I feel better and better. What do you think that means?? 
+
+Jonathan - I worked at Starbucks with Jonathan for a while. He's one of my favorite people in the world. I can still feel he is out there somewhere, and I recently wrote lots about him. He's the reason why I think White Toyota Tacomas are the hottest trucks in the world. I would have loved to be in love with him, but alas I just had to be his angel. These things happen.
+
+Damien - I also worked with Damien, who was Jonathan's best friend for a long time. Had a huge crush on him too - he has the most beautiful face, just so amazing to watch. He married Devon, a fellow co-worker and is very very happy. 
+
+Jeff - I have known Jeff since College, when he was in grad school and I was an undergrad. I remember the first time I met him I was completely humbled - it was so easy to like him. He's agnostic, but everytime I talk to him it's like I have been near love. And that's the way it aughtta be, you know? I went out with him last night and he was amazing. This could get me into trouble...
+
+Robert - MY ROBERT!!!! I talk to Robert as much and as often as I can. I am crazy about him - he makes me cry with laughter, I really think she should go on the road and be a comic. He cracks me up so much. He's got a lovely 13 year old daughter and he adores her and works hard, but he's a gamer too so I have someone to be totally geeky with. He makes me smile, he makes me laugh, we talk about everything. Love him, just love him!
+
+Matt Hardison - Matt is one of my oldest friends, I have known him since 7th grade. Not sure if I've written about him yet, but I will probably. He is a theatre student majoring in playwriting and is amazing. He's won awards from all over - and I was in his first play ever. We held hands once under the stairs and have had a very....interesting relationship when we were kids. But he's always been the bestest friend to me and I think of him whenever I hear ""Help"" by the Beatles.
+
+Henry - I went to High School with Henry, and just recently found him on my space. He had a crush on Daniel Jackson (and so did I, actually) for a while, but he got to date him and I didn't :( poor me. Anyway, he's awesome and I love him to death.
+
+Robert Duong - Robert is one of my friends from A&M. He was in my wedding and he's amazing. He's dating Nancy who is in dental school and they will probably get married someday. He drives a motercycle so whenever I see one I think of him.
+
+Richard R - Richard works with me, but we do nothing but laugh. I remember the first time I saw him - I could hardly talk because he was just so good looking. Luckily, that wore off and now we talk all the time. He's got a lovely wife named Jessica (who got me into Mary Kay) and the most beautiful baby girl in the world, Amanda. He's very cool and I love him lots and lots. 
+
+Eric - Eric is one of the most awesome people you would ever meet if you met him. He's married to Katia and they have the cutest son, little Aidan. He makes Katia so happy and he's so laid back - he's just super cool. He dances, DJs, and teaches swing stuff with me and Katia.
+
+
+Ok, that's like 21 people. Hopefully that will clear everything up. I am narrowing this down to people I have recently written about or will probably write about in the near future. These are ""my boys"" who have shown open adoration and whom I love more than anything. I can always count on them to make my day, and I love them alll SOOOO much."
+"eventtime","2006-04-12 11:58:00"
+"current_moodid","68"
+"url","http://fallenwish43.livejournal.com/6444.html"
+"userid","4919"
+"itemid","24"
+"event","Yesterday was a great day. Everything that could have been good was better than good. I went to work, the day passed by super fast. I remembered my lunch and the girls and I ate in the lunch break room, which is always fun because we have a great time talking and just laughing about silly things. 
+
+The day passed by pretty fast, which is always good. I didn't get to meet with my Mary Kay Momma but that meant I got to go home and see my doggie and love him up while checking on my myspace for updates. I went to my work out at 6pm, and it totally kicked my ass. We doubled everything, which was great, but it hurt like crazy. I felt like a champion when I was through though. And I won against the stair master. It was awesome. Can't wait to do it again tonight!
+
+Then I went home and talked to Robert. I just love that guy. He makes me so happy when I talk to him, and it's so easy to find something to talk about. He asks me questions I have always wanted to be asked like - what kind of deoderant do I use, or what movie stars can I not stand. We talk about books and games and movies and relationships and I always have the best time. I like him lots.
+
+Then I went out to have drinks with Jeff. I met all his coworker friends and they all seemed to like me, which was good. It was awesome to see him, I had such a crush on him in school. He's freaking smart too, and always has something witty to say. The bar we were ate was called the Marquee too. It's a big building with two rooms, a bar and a pool area. We never left the table. On Tuesdays they have half off long island iced teas that are a quart a peice - HUGE. I mean, those things are deadly. So it was getting late when I decided I should head home since I had to be at work at the crack of dawn. And Jeff was sad, and he hugged me, and then I went to g pay my tab and he went up to me while I was waiting at the bar and he was like ""hey, I really don't want you to go"" and I said ""We need to hang out more often' and he was like ""yeah, too bad you're not gonna be here on Saturday"" and I said ""you know I would stay if you wanted me to stay"" and then he was all ""nah, you gotta stay if you wanna, I don't want to make you not go visit your parents. It's gotta be your choice"" and we were hanging onto each other and all. It was nice but I worry that he was just drunk. Boys say and do things they don't really think about when they're drunk. Usually they mean what they say, but it's hard to be that brave without some seriousl alcohol involved. And then the next morning it's like it never happened. Grrr... So I went home and I texted him a thanks for inviting me and I went to bed.
+
+I woke up late again this morning. I just need to get more sleep. On the way to work a song came on my IPOD- like always- that I just love. I remember the first time I heard this song it reminded me of Byron, because it talks about moving on and getting out there in the world, and he's nervous about the possibilities that lay ahead. The song is called ""The world Ain't slowing down"" and it's by Ellis Paul.
+
+
+
+I found you sitting on a suitcase crying
+Beneath my feet I feel the rumble of a subway train
+And I laugh out loud
+cause it's the one thing I hadn't been trying
+The train came in breathless
+The passenger's restless
+You say, ""baby, you'll never change""
+
+You gotta get gone
+You gotta get going
+Hey, the world ain't slowin' down
+For no one
+
+It's a carnival calling out to you
+And it sounds like a song
+It hits you like scripture
+You paint the picture
+With colors squeezed from your hand
+Weren't you the kid
+Who just climbed on a merry-go-round
+Hey, look, the world ain't slowin' down
+
+
+Out on the sidewalk
+The pigeons do the moonwalk
+
+I'll be dancing like fred astaire
+The lampposts are rockin'
+The whole town is talking
+Like a fool in a barber's chair
+And i get the sensation
+It's joy and frustration
+Like getting caught by a drop of cold rain
+Freedom can numb you
+When there's no place to run to
+It feels just like novocain
+
+You gotta get gone
+You gotta get going
+Hey, the world ain't slowin' down
+For no one
+
+It's a carnival calling out to you
+And it sounds like a song
+It hits you like scripture
+You paint the picture
+With colors squeezed from your hand
+Weren't you the kid
+Who just climbed on a merry-go-round
+Hey, look, the world ain't slowin' down
+
+You packed up all your handbags
+You're throwing off the sandbags
+I let go when you stepped free
+I didn't want to lose you
+You said, ""you didn't choose to --
+It's just how your karma came""
+But thanks for the vision,
+And the twenty-twenty wisdom
+It hit me like a south-bound train
+ 
+You gotta get gone
+You gotta get going
+Hey, the world ain't slowin' down
+For no one
+
+It's a carnival calling out to you
+And it sounds like a song
+It hits you like scripture
+You paint the picture
+With colors squeezed from your hand
+Weren't you the kid
+Who just climbed on a merry-go-round
+Hey, look, the world ain't slowin' down
+
+I played this song this morning a few times on my way, just to learn the words and stuff. I thought about Jeff, I thought about Brad Pitt, I thought about getting on and getting going. And it was lovely. I was happy. 
+
+I love days like today."
+"eventtime","2006-04-12 08:59:00"
+"current_moodid","11"
+"url","http://fallenwish43.livejournal.com/6222.html"
+"userid","4919"
+"itemid","23"
+"event","I am so excited about tonight - I can't hardly wait! I am gonna go home, see my doggie, work out, get all cute, go see Jeff - AND, Brian came by my desk today (a totally awesomely wonderful surprise!) to say he kicked but on his economics project and he got second in his own division. I was so proud, and I was so happy to see him. He makes me so happy. I could just hug that kid forever and a day. 
+
+So today has been a wonderful day so far - I only hope it continues this way... :) More details later- tee hee!"
+"eventtime","2006-04-11 16:10:00"
+"current_moodid","120"
+"url","http://fallenwish43.livejournal.com/6102.html"
+"userid","4919"
+"itemid","22"
+"event","Yesterday was the best monday I've had in weeks. The morning started off kind of crappy, but it went by so fast I hardly had time to notice. I ate lunch at Chuy's with the girls (Cinthya and Mar Mar) and then went back for a super fast afternoon. I went home, saw my doggie, and went to my Mary Kay meeting, which was awesome. I seriously needed to be inspired and cheered up and it was awesome! I got some really great ideas and I can't wait to try them out.
+
+Afterwards I talked to Robert a little bit, and that was lovely as always. I just love that guy. I told him about me getting sick, and I felt a little wierd about it because I didn't want him to think I get sick often or that I am some kind of lush, but I wanted him to know about it at the same time. He's so easy to talk to about things. 
+
+I also talked to Jeff on the phone for an hour or so. Jeff is a friend from college who is a math genius and he's working at a geotechnical research lab and loving it. He dated a girl for a while who is now one of my dancing buddies, so it's a tricky situation because I love both of them to death. I don't her to think I am not loyal to her feelings, but he's still my friend. Tough stuff. Anyway, he asked me if I wanted to meet up with him tonight for drink with his buddies from work, so I think I'll go and see how he is. I'm pretty excited because he's one of my favorite people. I remember meeting him and feeling like I was meeting someone special, like we instantly understood each other. So it's cool that I'll get to see him again. 
+
+I also talked to Steve. And although things are quite resolved, he still wants to see me and be just friends. I am not sure how that's going to work - I certainly would not be strong enough to deal with being around someone and having them only want to be friends if I am crazy about them - hello Brad Pitt!! - but whatever. Maybe I'm just weak. We will see how that whole thing goes. I'm not gonna worry about it.
+
+I am totally addicted to myspace. It's the coolest thing ever - it's seriously what the chat room was ten years ago. It is THE place to meet around and retain some form of annonymity. But there are still the same old jerks, the same people who want everything from you yesterday. Very interesting but at least I am catching up with people from all over again. I like it when I can see how people are. 
+
+And now we get to the storybook part of the day. One December evening, after Jason and I came back from a hepcats performance, I met his roomate, Nathan. He was sitting in Jason's livingroom playing guitar, and we talked for a little bit. He played me some songs and we talked about everything, and Jason left for practice (a bit perturbed, I believe) and we talked some more. Then he played me some more songs and walked me to my car. Later that night, Jason called and said it was creepy that I was ""serenaded and walked to my car"" and that he didn't like the way Nathan was looking at me. I tried to assure him that it was nothing, really, but he has mentioned it a few times since then. 
+
+I remember telling Nathan that I hoped it wouldn't be too long before I saw him again, and he said he felt the same way. I liked the way he said my name, like he really knew what he way saying, like he wasn't afraid of it. As I drove home that night, I put the top down and heard the song ""Burn"" by Mad at Gravity. The lyrics are as follows:
+
+These ambers burn down low
+and with my face aglow
+You are all I know
+
+Set this place on fire
+Let the flames rise higher
+as they reach the ceiling
+at your feet I am kneeling
+
+Drawing ever near
+My cause revealed as clear
+Yes I burn for you here
+
+Set this place on fire
+Let the flames rise higher
+as they reach the ceiling
+at your feet I am kneeling
+With every tailing plume
+know it bears me home
+Let it burn
+
+I would give it all
+Yes I would give it all
+
+Set this place on fire
+Watch the flames rise higher
+as they reach the ceiling
+at your feet I am kneeling
+With every tailing plume
+know it bears me home
+Let it burn
+
+
+What Jason never realised was that it wasn't creepy to me - it was refreshing. I remember thinking how nice it was just to be talked to and to be let in instead of having to hammer away until a person cracked. But not with Nathan - he was open. He was beautiful and I know I probably won't see him ever again, but I think of him every time I hear that song. I heard it this morning and I said a prayer for him, my wonderful Nathan. For about two hours, we were truly on the same page, in the same room, we were connected. And they can't take that away from me :)"
+"eventtime","2006-04-11 10:10:00"
+"current_moodid","59"
+"url","http://fallenwish43.livejournal.com/5773.html"
+"userid","4919"
+"itemid","21"
+"event","This weekend began Friday night, with a four hour drive to San Antonio. Wilber and I listened to music and talked most of the time. It was pretty fun, pretty laid back. But at the same time this nagging feeling began, an omen I should have headed. We arrived late to my Parent's house in Helotes, a small town located just outside San Antonio. Now the area has been well populated and it's easy to get to where you want, but when I was in high school It was like living in the middle of nowhere. It took forever to get to school and work - even to go grocery shopping. 
+
+Nothing much happened friday night. My parents had a room for him all fixed up - and separate from mine, which was a good thing. After last week's incident, it was good not to confuse him. Saturday we woke up early and went to the Strawberry Festival. The weather was lovely - I was so afraid it was going to be too warm but it was just perfect. We rode the ferris wheel and some other ride that left Wilber sick. But then of course, we ate everything in sight. We had chocolate covered strawberries, strawberry shortcake, strawberry preserves, strawberry wine - you name it, we tried it. Then we left, and while I kinda wanted to call my parents to have them meet us in town for fun, Wilber really wanted to just spend time with me (Not a good sign) so we went to my old starbucks. 
+
+A bit of background - I worked at Starbucks for three years. It was the best job I ever had. I got to make people coffee, clean bathrooms, and listen to music. At the time, I worked in every store San Antonio had (there were 12 locations). MY favorite and the one that was my ""home store"" wa Beorne Stage Road, located on i-10 just before Beorne. 
+
+When I took Wilber there, we walked in and I saw Damien. I couldn't believe he was still there after 6 years. He finally got married to Devon (who also worked at Starbucks) and he seemed very happy. And then we sat down and had coffee and Damien came over and we talked a bit about who we knew and where they were. I asked about Jonothan, who I still think of all the time. Everytime I see a white toyota tacoma I think of him. He got a job in graphic design at USAA and is still with his girlfriend Jenn. And Lene and Roger aren't married anymore, but Lene is still alive and living in Vermont so that makes me happy. I hope they are both alright. 
+
+I drove back to my parents house and we had dinner. We opened a bottle of wine (really awesome stuff) and then Wilber broke out with Rum and Coke and Dad had some whiskey and I had vodka and we all got very, very drunk. I at least was aware enough to go make myself sick in the bathroom. Wilber of course held my hair and all that - very sweet but I was too drunk to really understand the words he was saying until the next day. Nothing changed, but I think he thinks they did. I don't really know what to do about that other than dissapear for a while.
+
+We drove hom Sunday. Well, I drove, Wilber slept and then listened to a CD of his. I didn't know the words to the songs so I didn't sing along and he thought I was mad, but really I was just trying to stay awake and not drive us off the side of the road. 
+
+At the dance, I got to see Trevor and Byron, which was nice. I didn't get to teach with Brian because he had a school event, but I got to teach with Larry so that was good. And I got to dance with Brian and we talked a lot about things. It was neat to see him. 
+
+Ben showed up with his girl agian. It was kinda strange because I didn't really make any effort to avoid them, and actually talked to Corrin once. She seemed pretty surprised. It was interesting to watch them, and then I kinda felt bad that I had been so considerate when it came to public dealings with him, and he was pretty blatant about what he was doing. It made me happy to know that he seemed good, that he seemed happy. 
+
+So I went home and cuddled with Wicket for a while and slept until this morning when I had hoped the building had gone up in flames so I didn't have to wake up. Blah....
+
+The drive to work was awesome - I heard this great song ""whatever I fear"" by Toad the Wet Sprocket. The lyrics are as follows:
+
+There's almost nothing left
+you eat my kind for breakfast
+what did I expect to come here and find anyone?
+Find open arms to greet me and 
+friends to feed me
+I sicken myself so much
+And you eat my kind for breakfast
+you eat my kind
+
+Whatever I fear the most is
+whatever I see before me
+whenever I let my guard down
+whatever I was ignoring
+whatever I fear the most is
+wahtever I see before me
+whatever I have been given
+whatever I have been
+
+Seeing myself this way
+I am a monster I believe
+Seeing is believing
+Is there no doubt left?
+When I wake up
+I poison myself
+And Poison gives no appetite
+I sicken myself so much
+Sicken myself so much
+
+Whatever I fear the most is
+whatever I see before me
+whenever I let my guard down
+whatever I was ignoring
+whatever I fear the most is
+wahtever I see before me
+whatever I have been given
+whatever I have been
+
+Do we expect these things to change by
+waking up and suddenly there they are
+and all I need's a starting place
+then nothing ever seems to hard
+
+Whatever I fear the most is
+whatever I see before me
+whenever I let my guard down
+whatever I was ignoring
+whatever I fear the most is
+wahtever I see before me
+whatever I have been given
+whatever I have been
+
+I sang it like 20 times on the way to work, thinking of Brian. He would have liked the guitar part. It's also angry and yet sensitive, just like him. 
+
+And then I got an email from my friend Matt saying that he was pretty sure Byron didn't like me, which is good to know. Now I can move on to another unknowing suspect. Er...now I can concentrate on dying alone. Er...now I don't have to wait and see. Yes, I like that one better.
+
+Tim - I haven't heard from him in a while. Things are running together so fast, I can't ever catch my breath. 
+
+That was my adventure this weekend."
+"eventtime","2006-04-10 08:41:00"
+"current_moodid","49"
+"url","http://fallenwish43.livejournal.com/5497.html"
+"userid","4919"
+"itemid","20"
+"event","So leaving for lunch today I saw something that made me very sad. And the thing is, I shouldn't care one way or another about any of this anymore. I should so be over it. And I was earlier this week, earlier today. I was even joyous about it, I told Mar Mar and we had a good laugh over how I was winning the battle. And then I saw something and I really had to stop myself from falling to peices all in front of Cinthya in her car. I should be happy things are going well for others. I should be happy that others are happy, even if I don't see them anymore or talk to them anymore. I should be happy and not care that I'm forgotten - that I am easily replaced. But I'm not. I'm selfish and I wanted to be missed. I wanted to be spoken to and thought of and I wasn't and it makes me so sad now. I wish I didn't care so much about people, about that person. I wish I was just stronger, meaner, I wish I hadn't let anyone in so deep. It's like a second in time, a glance in the wrong direction in the wrong milisecond and I see something and I'm lost again. I just want to dissapear now into the floor.
+
+I shouldn't be this sad over something as stupid as lunch."
+"eventtime","2006-04-07 12:51:00"
+"current_moodid","129"
+"url","http://fallenwish43.livejournal.com/5225.html"
+"userid","4919"
+"itemid","19"
+"event","I was driving to work today and the greatest song came on the radio. It's not new or anything, but I listen to it all the time. It's so amazing. I remember the first time I heard it. It was an evening my freshman year, before I met Ben. I was with my friend John Brannen, whom I miss terribly, and we had gone to the mall. We were on our way back when this song came on the radio and I was mesmorized. I loved the lyrics and it's simplicity. It's angry and it's loving and it's red. Everytime I hear it I think of deep red streams of color. Here are the Lyrics...
+
+You could be the devil in my bed
+You could be the angel in my head
+You could be the voices that I hear
+singing along because
+it sounds just like you're near
+
+Cause you're so beautiful
+Beautiful today
+You're so beautiful
+Beautiful in every little way
+Cause when you're coming around
+I'm off the ground
+I gotta Say
+You're so beautiful
+Beautiful today
+
+I could be the drug you can't resist
+I could be the antidote you missed
+I could be the love you hate to fear
+You're filling the hole inside your heart
+with feeling near to me
+
+Cause you're so beautiful
+Beautiful today
+You're so beautiful
+Beautiful in every little way
+Cause when you're coming around
+I'm off the ground
+I gotta Say
+You're so beautiful
+Beautiful today
+
+Can we make it through together?
+We got to fly
+Don't you know
+I got to fly
+Cause when you're coming around
+I got to fly
+
+And I know
+And I feel
+That I could learn to hate just like you
+And I know And I feel
+That you could learn to love
+Just like me
+And I know
+And I feel
+That I could learn to hate just like you
+And I know And I feel
+That you could learn to love
+
+You're so beautiful
+Beautiful today
+You're so beautiful
+Beautiful in every little way
+Cause when you're coming around
+I'm off the ground
+I gotta Say
+You're so beautiful
+Beautiful today
+
+Can we make it through together?
+
+
+I freaking LOVE this song. Have you ever met someone what was just so darn beautiful that you just were high everytime you looked at em'? I mean, I loved this song before I met someone what had that effect on me, but now, now I just hear it and remember just being so alive when being around this person, because they were the most beautiful thing I ever saw. It was amazing. And every time I hear this song I am back there, watching them. :)
+
+It's a lovely day."
+"eventtime","2006-04-07 08:36:00"
+"current_moodid","15"
+"url","http://fallenwish43.livejournal.com/5055.html"
+"userid","4919"
+"itemid","18"
+"event","It just occured to me how much things have changed in the past 10 yrs.
+
+Ten years ago, when I was 14, the cool thing to do was be on chat rooms. That's how I met most people from all over the world. You didn't get their picture until they emailed it to you. Nowadays, the cool thing to do is joing myspace or facebook or something like that and get noticed by your awesome looks and your witty blog. And everyone has a picture of you or someone that you say is you. 
+
+
+Ten years ago everyone was older than me. Now I feel like no matter where I go everyone is younger. I went to Denny's last night with Wilber for dinner and our waiter was TOTALLY hot - my friend Laura would have absolutely loved his eyes. He was seriosly beautiful - and he was like 18. So sad. Nothing lasts.
+
+Today I have another meeting with my personal trainer - he better whip me into shape! I need it. 
+
+A funny thing happened as I was checking my email. I get these great notes from ticketmaster to let me know who is coming to town, and guess who is going to be here in June? John Haitt. Who is John Haitt, you ask? He's the guy who sang the best, the absolutely BEST version of ""Have a little faith in me"", a song that will always remind me of Brad Pitt. I would totally send him the email, but he probably wouldn't even remember where the song came from. He doesn't have the best memory. Correction, he has the worst memory I have ever known. He doesn't remember things he says, he's done, he's seen. It's sad because I could make up some crazy ass shit and he would be like ""really? I took a dump in your tuba? oh, man, I'm sorry..."". He used to trust me completely, but I don't think so anymore. Especially not after that day when he called and wanted things to get back to where they were and I tried to remind him of the crap he had said previously. He was like ""I said we were soulmates??? Nah...I wouldn't have said that."" Grrrr....seriously, why would I make something that stupid up? Who the hell says that to anyone anyway? I mean other than him, cause he said it to me. Whatever. I think his bad memory makes his life easier in some ways because he can't be held accountable for anything he says or does, because when it all goes down, he's like ""I don't remember saying that....sorry."" All the more reason I am no longer speaking with him. Being his friend meant taking everything and forgetting it as fast as he was, so he couldn't ever get himself into trouble. Silly Brad Pitt. 
+
+Don't it always seem to go, that you don't what you got till it's gone? They paved paradise and put up a parking lot...shoooo bop bop bop.
+
+I had a very interesting conversation with Mar Mar and my friend Speedy (I told them I would write about this) today. We were talking about kid shows, and I remarked how I had like almost every childhood show that impacted my life, just in case I ever have a kiddo. I have the carebear movies and series, I have all the songs on my IPOD, I have Jem (showtime Syngery!) and I had all the GI joes and He man on VHS. I also have the entire collection of Fairy Tale theater - where some of the greatest actors ever are our favorite fairy tale characters. I have all 18 on DVD - it's very very cool. And I love all that stuff, it's very near and dear to me and so I had to have them all. I mean, not just series, I have my favorite cartoons too - the Last Unicorn, Rainbow Bright and the Star Stealer, The Secret of Nimh, American Tail, Willow - all the movies that inspired me as a kid. Movies you see when you are young impact your life like no other movies you will ever see when you're older because they become part of you in a way that is completely special. I am babbling about movies again.
+
+My friend Laura told me about how her gerbil crawled into her big screen TV last night and scared her to death. Can you imagine a giant shadow of a rat looking thing coming on your screen when you're watching american idol??? And you thought Paula looked bad....
+
+It's getting grey again outside. I don't like it when it's so hot but I would like some sun. I hope Robert calls me tonight - he always makes me laugh so hard. I love him to death - he's one of my favorites!
+
+
+Ah, movies. I love film. I love movies more than I love any other unliving thing. Movies and then music. Seriously, I don't know where I would be today without the art and the insight of the human experience that movies offer. I have learned everything important, everything meaningful, from movies. Seriously....here's an example:
+
+Physics - everything you need to know about physics, you can learn from IQ staying Tim Robbins, Meg Ryan and Walter Matthau. You learn about gravity, attraction, and you even learn Einstine's theory of relativity - in short ""everything is relative"". The most important thing to Einstine wasn't his theories or his musings, it was love. Love, and butter pecan ice cream. THAT's all the physics you need. 
+
+See what I mean? I studied Physics for a whole 16 weeks in college. I am a math person, but I just hated that class. I got a 96 on the first test, a 65 on the second, a 38 on the third, but I aced the labs because I worked my butt off and I got the highest grade on the final so I got an A. I had the opportunity to take the second semester buy opted out and instead took Oceanography, the BEST class ever! I learned SO Much about stuff and it was SUPER SUPER easy if you paid any attention. Dr. Guess was my professor and every morning he would say...""Good afternoon, Class. I hope you are all....Well today. Before we begin do you have any questions or comments?"" and it was so cute the way he clapsed his hands together and said the words. Such Vigor! Anyway, I got like a 120 on the first test, but the second I totally didn't know what I was doing so I answered 2 out of the 5 problems. I don't know how it happened, but I still got an 80 on that test. God bless that class! I still know about waved and Tsunamis and all that too! Dr. Guess would be proud.
+
+You know, it's hard to believe it, but Ben was there the whole time. There were only about two months in college when I didn't know him, when I wasn't attached to his hip. He was there through it all, and yet, looking back, I can't place him. I remember the lunches at quizno's and the endless hours in the math loungue, but Ben's not there. I mean, he's at my house, he's in our apartment playing his video game or sorting his magic cards, but I don't remember much of me and him during school. Strange. 
+
+Maybe I'm getting Brad Pitt's memory."
+"eventtime","2006-04-06 10:17:00"
+"current_moodid","101"
+"url","http://fallenwish43.livejournal.com/4843.html"
+"userid","4919"
+"itemid","17"
+"event","So my friend Margaret (who I affectionately call Mar Mar) spent the WHOLE night last night reading my journal - and she didn't hate it :) Very promising, since I was almost certain that no one in the world would care about what little ole me had to say about anything. Anyway, it was sweet of her to let me know she read it. I like writing things that people will read, even if they ARE deeply personal. There is something Very Theraputic about letting things go and knowing that someone out there at least knows how you feel. 
+
+Yesterday was interesting. I went to work - I actually had lots to do, which is why I didn't write anything in my journal yesterday - sorry! I looked at my cingular wireless bill and almost had a heart attack, and then got into a huge panic over my Mary Kay stuff because I need to start selling again. 
+
+I went to the appraiser again for my car, because now I have contacted the insurance company and the whole process can begin. Then I went to my Mary Kay Telathon, which didn't even start until almost 7 and then didn't last  much past 7:40. I got Kristina to book a party, which was cool. I also bothered pretty much ever female I know, something I am not a big fan of. I don't like being pushy. 
+
+I made it home just in time to take care of my puppy and see Wilber come in from Australia. He had been up for 30 hours and told me all about his trip and stuff. He invited himself to sleep at my house so this morning, when I woke up late, I felt kinda bad. My dog was not very happy to have a visitor, I think Wicket likes me all to himself. He had a good time, but he's glad to be back. Apparantly his dad had some very uncool moments while they were in Australia. He gave me a sweet gift though - a pink wool hat. It was pretty darn cute.
+
+This morning I didn't really pay much attention to the music on my IPOD, until the song Adrenaline by Bush. I freaking LOVE that song. I don't know why, but everytime I hear it I get all giddy and fast in my car and angry and happy too. It reminds me of James Frey, the author of A Million Little Peices. Because I think adrenaline is the closest thing anyone can get to being high without actually tokin' the reefer. I could be wrong, I don't have much tokin' experience, but I always get such a rush when the adrenaline kicks in. 
+
+So now that Wilber is back my life will return to normal. If my life is normal, which we all know it isn't. I am supposed to go to the Stawberry Festival this weekend, that should be fun. I haven't been since high school. I am definitely going to have some serious funnel cake!
+
+OH! I almost forgot to mention. I have now updated my life on myspace.com. And you know what? SO many people have found me - my old friend Tina (who now is called Crissy) and Tiffany (who still can't spell to save her leif) and some old theatre friends Henry and Delaina. Henry - he was one of my favorite people EVER. I remember hanging out with him in his garage - which he had transformed to his own little apartment in his parents house so he didn't have to really be near them. He had lots of lights and lamps and all sorts of cool stuff. I remember him having a huge crush on someone, and no one could guess who but me. It was to obvious, but I kept his secret until he was ready to come all out with it. Too bad the guy turned out to be a total ho. A hot one, but a ho even so. 
+
+Anyway, Henry was a huge fan of Tory Amos - isn't every angry and lost teenager? I know I was! And it was his birthday a few days ago so it was nice to be able to wish him a good one. 
+
+There are so many people in my life who I just love. And it's nice to know they are doing well out there in the world, even if I don't see them or know them anymore. I like knowing that everyone is ok. 
+
+I think I found my old friend Jonathan too. He was the best guy ever - totally the most amazing person in the world. He worked at Starbucks when I started there and I would have totally fallen in love with him if I hadn't kept some distance. But he was awesome and I can't see a white toyota tacoma withouth thinking of him and smiling. He was beautiful, a beautiful person and the world is a better place because of him. I sent him a note, maybe he will write back.
+
+So it's Thursday and there is so much to be done, but the sun is shining for the first time in two weeks so I have hope. I have hope that everything will be alright."
+"eventtime","2006-04-06 08:51:00"
+"current_moodid","15"
+"url","http://fallenwish43.livejournal.com/4436.html"
+"userid","4919"
+"itemid","16"
+"event","I always wondered what that U2 song, ""I still haven't found what I'm looking for"" is about. I mean, the reasonable answer would be love, but I am not so sure that's it. And then, this morning, I was thinking about it myself. What am I looking for? Love? sure, but when you get it things get complicated. I mean, when you find love, what then? Some people can't handle the aftermath of it all. The making it stand and last and all that. So I'm not sure that is ultimately what I am looking for either. But I don't know what it is. And then it occured to me that THAT might be why no one knows what they are talking about - because they didn't even know it themselves. Interesting theory.... <br /><br />I know that I talked about vanishing off the face of the earth, but it looks like there is a kid out there that managed to actually do it. Joe Pilcher, that child actor from Varsity Blues, has been missing since January 3. His family is weary and sad. His friends keep writing him comments on myspace saying ""come home, this isn't funny...me miss you"". It's heartbreaking because anyone who would be alright with just walking away from a life without any explanation or goodbye wouldn't have left myspace up to eat away at him. Either that or something horrible happened to him. One way or the other, it's hard to read his page, it's hard to think he might be out there to read it, even harder to think he's not. I don't know what I would have done if one of my friends had just vanished like that. I was once told by someone that I wouldn't get away with that either, that they would follow me to the end of the world if that's what it took to keep me from getting away. It's a romantic thought but there is some truth to that. No one better dissapear on me if they don't want to wake up one morning with me there. I will find you...hey, that's a great line...&nbsp;<br /><br /><font size=""2""><em>You stay alive, no matter what occurs! I will find you. No matter how long it takes, no matter how far. I will find you.<br /></em></font><br />It's kind of romantic there too, because they are inside a waterfall and everything is very dramatic.&nbsp;<br /><br />It always is the way of things that people come into my life, are part of it for a while, and when they are ready, I let them go. Sometimes they need a firm push or two, but they always understand why in the end. It's painful really, to love so many people and have to let them all grow up and away. Like in Mary Poppins (glances at the one who I lent it to, who should bring it back) when the kids have forgotten all about her because they are so happy to be with their Dad, and Mary Poppins is at the top of the stairwell and she's talking to her umbrella bird and the bird is saying ""you don't fool me a bit, miss mary poppins. I know hoe much you love those children, and they didn't even say goodbye"" and she smiles and shakes her head and says ""no they didn't...but that's how it should be""&nbsp;<br /><br />Eventually everyone goes away. And it's sad, but it doesn't have to be so. People weave in and out of other's lives like jelly fish tentacles, only instead of it stinging it can be very pleasant. Everyone I have known I was meant to know, for one reason or another. Call it whatever name you want, but there can only be so much chaos without order, only so much dark without light, only so much knowledge without uncertainty. It's all part of the Trip, the Journey, the Maya, the Way. And we are all going to the same place.<br /><br /><br /><br />"
+"eventtime","2006-04-04 08:36:00"
+"current_moodid","101"
+"url","http://fallenwish43.livejournal.com/4154.html"
+"userid","4919"
+"itemid","15"
+"event","A word about my love for the amazing Joni Mitchell. It's not just enough to say she rocks the freakin house, because most of my friends ::glances at Ben:: thinks that she sounds like a dying cat. And I have to admit, even growing up I didn't like much of her stuff. But now, now I cannot get enough of her anti-war, free love banter that makes me feel more like a person than most music I hear today. So I feel I should explain myself so that anyone who might be interesting in taking me down peice by peice can have adequate aim.
+
+I love Joni's songs because I think she's screwed up somewhere in the neighborhood of where I am also screwed up. She always had a man on her shoulder, always wrote about the ones she loved and lost because she was a fool or they didn't want her. Sound familiar to anyone in this room? Well it should. I don't write songs, I write live journals. It's because I have tiny hands and cannot make the same chords Joni can. She could reach the most amazing chords, not many (none that I recall, actually) can make her songs the way she does. 
+
+I love the way she ages into wiseness, how her newest version of ""Both sides now"" is so perfectly worn and honest, how her voice is cracked and weathered and still beautiful. She's a poet and musician and she helps me make it one rainy nights or grey monday's when I'm falling away into someone I don't want to become. And she's happy too. Her happiest songs have made other singers famous and rich - it was her, mind you, that penned ""Big Yellow Taxi"" - not Amy Grant (BLAH!!) or The Counting Crows (they did a much more realistic job). It was her who wrote the Circle Game, who had the words to woodstock before Eva Cassidy. It was her who most of the great contemporary artists (Shawn Colvin, Annie Lennox, Elton John, James Taylor, even Carly Simon) have credited with being the greatest most unknown artist there ever was. Do you know her ONLY chart topping song she did herself was ""Help me""? And that was crap compared to so many other ballads. CRAP, I tell you!
+
+It was my 24th birthday party and I was playing songs from my IPOD, and a song by Joni Mitchell came on, and I immediately went to change it. And then my friend Jason tried to stop me, saying, ""but you love Joni Mitchell"" and I smiled tightly and nodded, saying ""but Ben doesn't like her"". And he just shook his head. It was pretty symbolic for the way I was (or wasn't) understood by those around me. You don't have to like Joni Mitchell, but do not tell me she sounds awful or that her music doesn't matter. She's done more in her quiet lifetime and had a bigger impact on this world than I will ever have. 
+
+She's my hero, and I will miss her when she's gone."
+"eventtime","2006-04-03 15:47:00"
+"current_moodid","57"
+"url","http://fallenwish43.livejournal.com/3849.html"
+"userid","4919"
+"itemid","14"
+"event","It's monday and it's the first day of baseball season. And it's hot already here in Houston and it's grey out like it's been for what seems like forever and it's morning and I'm back to wishing I were anywhere but right here. Spain. I could go for Spain or Brazil or France. Paris. Or Rome. Yeah, definately Rome. Or China. Somewhere where they don't even know what baseball is. Some place where I can forget about the rules, the positions, the smell of the field. Somewhere where I can hide from the game.
+
+I just want to dissapear. I just want to be invisible. I want to go home and sleep. I want to walk away from this place. I want to get in the car and keep on driving till I run out of gas, then get out of the car and walk until I can't stand up. And then I want to lay down and dream about something that has nothing to do with eyes or boys or love or death or anything emotional. I want to dream about jepardy or the price is right. And I want to wake up to a world where I don't have to do anything but be an angel and see that things are done according to plan. 
+
+I don't want to see him again, and yet I really want nothing more than to see him again. I am lost here, I would be lost anywhere. I'm broken again. Broken again."
+"eventtime","2006-04-03 10:07:00"
+"current_moodid","129"
+"url","http://fallenwish43.livejournal.com/3669.html"
+"userid","4919"
+"itemid","13"
+"event","I had the strangest dream last night. It was lovely and horrible and perfect and tragic. And the strangest people were there. I dreamed about a boy. A boy I knew but didn't recognize, and I don't know how I knew him. He was attractive, he had the most amazing blue eyes I have ever seen. And he was fair, he was broad and stong and he was amazing. In my dream, his name was Michael. And in my dream we were sitting in a car and he and I were close and he said something about kissing and then he kissed me and it was lovely. And I knew, I knew right then and there, that we were in love. Being in love in a dream is just about the best feeling I've ever had. Because in a dream, you can love with your whole self and no one gets offended or put out or is shocked. It was so great that I blanked out a bit, only to wake up by myself in the car as my friend Cinthya from work and her fiancee Jason were searching for Michael. And then I realised the car was just outside a gas station and had been parked there all night, and everyone was looking for Michael and no one could find him. Then there were rumors that he had died, that he'd commited suicide or had been in an accident, but I didn't panic because I was sure they were rumors. Then I called him on my cell phone and got the message from the operator that he had in fact died, and the last person to see him alive was the gas station clerk. And that's when things begin to really fall apart. Michael apparantly knew he was going to die so he made a little documentary about it for his friends and family. And towards the end of it he talked about me and us and said that he had fallen in love and it was good enough to have just a moment of it before leaving the earth. And then I was broken and woke up sobbing. Strange, strange dream.
+
+This weekend was pretty productive. I bought my computer and set it up. I restored my music to it and installed my printer. I took Wicket to get his very first haircut - he is so darn cute now I just can't believe it. I helped Katia and Eric pack up some stuff and move it into their storage unit, then sat out with Katia and drank in her hot tub. That was fun.
+
+Sunday I opened the package from my mother, she gave me some shoes and some swimming stuff. It was cool. I did some laundry, got some groceries, did very adult things. I talked to Robert for a spell, that was nice. He always worries about talking to much to me, but I just love to hear how he thinks. He's a great story teller. And he's so funny - I keep telling him he should go on the road doing stand up. Seriously, he cracks me up.
+
+I feel bad cause I totally did't go to my friend Margaret's Arbonne meeting - sorry girlie! 
+
+Not much else is going on. Dancing last night was lots of fun. Brian and I taught, this will be our last month teaching I think, so I'm out of ideas of who to teach with. Byron came with a group of College Station people - by a group I mean him and Paul. But hey, he came, and that always makes me evening. He's my favorite :) He is supposed to find out this week about school and stuff for the fall, and I am hoping for him every day. 
+
+Wilber comes back on Wednesday. His plan ride is going to be like 14 hours or something. That's a lot of time to be dangling in the air by a string. Scary. 
+
+Anyway, I think that's all for now. Don't worry, it's Monday and there should be lots of drama later. Especially if I meet a blue eyed boy named Michael."
+"eventtime","2006-04-03 08:07:00"
+"current_moodid","51"
+"url","http://fallenwish43.livejournal.com/3422.html"
+"userid","4919"
+"itemid","12"
+"event","Ok, man. This is it. I have reached the cresendo of emotional drama. My Friend Shelly, whom I work with and love lots and lots, is moving away. I went to her desk and told her we had to hang out some, because I had always been meaning to hang out with her and get to know her more, and she was like ""well, I'm moving in 6 weeks to South Carolina"" and I was like ""wow...really?"" and my eyes started to well up and she was like ""don't...don't do that"" and I just couldn't NOT cry, so I went into the bathroom and balled for a little while. Crazy. 
+
+I hate it when things go badly and then you hold on for dear life (hello James Frey)and you hold on and hold on and everything gets bad and worse and your still holding and then something happens and it's tiny and huge and your teetering becomes falling over the edge and I become WAY too emotional. I need to be saved but there is no one. There is no one here that can save me. 
+
+There are two types of people in this world. People that depend on things to save them (a drink, a ride, a baseball game)and then there are people to depend on people to save them (a friend, a lover, a parent). I don't think either really works for me, but I always wanted someone to save me. A person, someone who really wanted to save me in the first place, and be there for me, you know? Anyway, I'll keep dreaming, and Jesus will be the one who saves me till then.
+
+And you know, that is really what it boils down to. Is that while I am waiting for something else, God is just waiting in the wings. And I don't need anything else. Angels aren't supposed to need anything else. 
+
+Sometimes, I hate being an angel."
+"eventtime","2006-03-31 11:23:00"
+"current_moodid","129"
+"url","http://fallenwish43.livejournal.com/3139.html"
+"userid","4919"
+"itemid","11"
+"event","It's still grey outside. Blah. I hate it when it's too grey to put the top down. On the way home from work, almost every day, I drive down Westheimer (my favorite city road in Houston) with the top down, the system up, and I sing/shout all the way home. It's my big release during the day. And I pretend that someone is watching and seeing me at (what I feel is) my most beautiful. And it's not that great, but it feels pretty beautiful, even for me.
+
+I sing and shout at God for His great way, even though I don't understand it. I sing for my boys who have dwindled considerably in the past few months. I sing so Brad Pitt will know that he didn't completely kill me. I sing so that I can at least give a good show to the world that I'm ok, that I am making it, that everything will be alright and (say it with me now) - Everything is inevitable. 
+
+Last night I went and got my teeth cleaned - NO cavities! Not even after missing my last semi-annual appointment. Nifty!
+
+I was way up in the Woodlands so I called my ex-landlord and she let me know that not only did Ben not clean anything in the house that he lived in, but he also left a bunch of furniture in the garage that needs to be picked up. Just one more thing I have to deal with -bleh. 
+
+I went to Fry's last night with Jim and we got me a computer. Of course, when I brought it home to try and turn it one it didn't work. I was one the phone with tech support for like 2 hours last night to no avail. So now I have to return it - yucky. Just one more thing I didn't want to deal with.
+
+Robert called last night, but I was busy wrestling with my computer and didn't hear the phone ring. I hope he calls again soon - he's my favorite :)
+
+I also made an appointment for Wicket to get groomed - he needs it so badly. I need to see about getting him to training too. So much to do!!!!
+
+Even though I am feeling pretty darn overwhelemed right now, I am sure something else will come up that will make it all better. I am thinking ice cream, pizza, and vodka are those things. Yes, and maybe some trashy romance novel."
+"eventtime","2006-03-31 08:46:00"
+"current_moodid","40"
+"url","http://fallenwish43.livejournal.com/2878.html"
+"userid","4919"
+"itemid","10"
+"event","So I just found out that Jennifer Anniston's favorite band is coming to town. I informed Brad Pitt. Of course he had no idea who the band even was. But anyway, her birthday is in the next few months I think (I don't know, I don't talk to her anymore) so it would be a nice thing to do. I congratulated myself for doing this. Perhaps that was not the right thing to do. 
+
+Tonight I am going to the dentist and then I am going to go and get a computer quote from somewhere. Hopefully I can get something nifty. Then I will spend this weekend setting it up and getting all my crap together. Maybe I'll even clean my desk. Let's shoot the moon while we're at it. 
+
+I spent my lunch period talking about the intimate relations of people - you know the big S word - and it was kind of funny to get other people's opinion on things. Brought back some great memories, things I am working on forgetting every day. It's hard forgetting the best time of your life. The girls didn't understand my marriage, but hell, I didn't even get it half the time. Just keep on walking, keep moving, don't let the silence catch you down.
+
+So here I am. Feeling rather unloved and pretty damn alone. And you know, it's not as bad as it could be. I have the big G man and I have my music and I have the sun. Just waiting for my rocket to come, like Jason Mraz. Just waiting to be discovered and have my life start again. Just waiting.
+
+Tick, tick, tick."
+"eventtime","2006-03-30 14:41:00"
+"current_moodid","22"
+"url","http://fallenwish43.livejournal.com/2568.html"
+"userid","4919"

@@ -1,0 +1,739 @@
+"names","values"
+"itemid","34"
+"event","<form action='http://www.kwiz.biz/simplesurveys/do-survey.php' method='post' target='_new'><table border=1 bordercolor=#efefef cellspacing=0><tr><td valign=top align=center colspan=2><b><i>TELL ME ABOUT YOU! :)</i></b><input type='hidden' name='question1' value='TELL+ME+ABOUT+YOU%21+%3A%29'><input type='hidden' name='type1' value='2'></td></tr><tr><td valign=top align=right>name</td><td align=left><b>Stormie Danielle Williamson</b><input type='hidden' name='question2' value='name'><input type='hidden' name='type2' value='1'></td></tr><tr><td valign=top align=right>birthday</td><td align=left><b>August 8, 1988   (8.8.88)</b><input type='hidden' name='question3' value='birthday'><input type='hidden' name='type3' value='1'></td></tr><tr><td valign=top align=right>hometown</td><td align=left><b>Baton Rouge</b><input type='hidden' name='question4' value='hometown'><input type='hidden' name='type4' value='1'></td></tr><tr><td valign=top align=right>sign</td><td align=left><b>Leo</b><input type='hidden' name='question5' value='sign'><input type='hidden' name='type5' value='1'></td></tr><tr><td valign=top align=right>favorite food</td><td align=left><b>chinese!</b><input type='hidden' name='question6' value='favorite+food'><input type='hidden' name='type6' value='1'></td></tr><tr><td valign=top align=right>favorite movie</td><td align=left><b>very many, but the best will have to be The Little Mermaid</b><input type='hidden' name='question7' value='favorite+movie'><input type='hidden' name='type7' value='1'></td></tr><tr><td valign=top align=right>favorite tv show</td><td align=left><b>hmmm...this is a tuffy...  the OC!! duh!</b><input type='hidden' name='question8' value='favorite+tv+show'><input type='hidden' name='type8' value='1'></td></tr><tr><td valign=top align=right>where do you want to live when you grow up?</td><td align=left><b>where ever my future will lead me</b><input type='hidden' name='question9' value='where+do+you+want+to+live+when+you+grow+up%3F'><input type='hidden' name='type9' value='1'></td></tr><tr><td valign=top align=right>what's your biggest fear?</td><td align=left><b>gorillas and death</b><input type='hidden' name='question10' value='what%5C%27s+your+biggest+fear%3F'><input type='hidden' name='type10' value='1'></td></tr><tr><td valign=top align=right>what's your worst habit?</td><td align=left><b>laziness</b><input type='hidden' name='question11' value='what%5C%27s+your+worst+habit%3F'><input type='hidden' name='type11' value='1'></td></tr><tr><td valign=top align=right>what is your expertise? </td><td align=left><b>sports</b><input type='hidden' name='question12' value='what+is+your+expertise%3F+'><input type='hidden' name='type12' value='1'></td></tr><tr><td valign=top align=right>what do you hate about yourself?</td><td align=left><b>need to be more outspoken</b><input type='hidden' name='question13' value='what+do+you+hate+about+yourself%3F'><input type='hidden' name='type13' value='1'></td></tr><tr><td valign=top align=right>what do you like about yourself</td><td align=left><b>i am who i am</b><input type='hidden' name='question14' value='what+do+you+like+about+yourself'><input type='hidden' name='type14' value='1'></td></tr><tr><td valign=top align=right>who is your idol?</td><td align=left><b>God</b><input type='hidden' name='question15' value='who+is+your+idol%3F'><input type='hidden' name='type15' value='1'></td></tr><tr><td valign=top align=right>who can you tell everything to?</td><td align=left><b>my best friends and my mom</b><input type='hidden' name='question16' value='who+can+you+tell+everything+to%3F'><input type='hidden' name='type16' value='1'></td></tr><tr><td valign=top align=right>what's your favorite genre of music?</td><td align=left><b>other</b><input type='hidden' name='question17' value='what%5C%27s+your+favorite+genre+of+music%3F'><input type='hidden' name='type17' value='1'></td></tr><tr><td valign=top align=right>who's your favorite band?</td><td align=left><b>kelly clarkson, the killers, maroon 5, destiny's child</b><input type='hidden' name='question18' value='who%5C%27s+your+favorite+band%3F'><input type='hidden' name='type18' value='1'></td></tr><tr><td valign=top align=right>who's your least favorite band?</td><td align=left><b>britney, simple plan, clay aikon(spl?)</b><input type='hidden' name='question19' value='who%5C%27s+your+least+favorite+band%3F'><input type='hidden' name='type19' value='1'></td></tr><tr><td valign=top align=right>have you ever done any type of drugs(don't worry i won't tell hehe)</td><td align=left><b>nope</b><input type='hidden' name='question20' value='have+you+ever+done+any+type+of+drugs%28don%5C%27t+worry+i+won%5C%27t+tell+hehe%29'><input type='hidden' name='type20' value='1'></td></tr><tr><td valign=top align=right>how would you like the weather to be every day?</td><td align=left><b>springyishness</b><input type='hidden' name='question21' value='how+would+you+like+the+weather+to+be+every+day%3F'><input type='hidden' name='type21' value='1'></td></tr><tr><td valign=top align=right>what is your favorite season?</td><td align=left><b>winter</b><input type='hidden' name='question22' value='what+is+your+favorite+season%3F'><input type='hidden' name='type22' value='1'></td></tr><tr><td valign=top align=right>are you usually outside or inside?</td><td align=left><b>both</b><input type='hidden' name='question23' value='are+you+usually+outside+or+inside%3F'><input type='hidden' name='type23' value='1'></td></tr><tr><td valign=top align=right>what kind of house do you live in?</td><td align=left><b>2 story</b><input type='hidden' name='question24' value='what+kind+of+house+do+you+live+in%3F'><input type='hidden' name='type24' value='1'></td></tr><tr><td valign=top align=right>do you carry one thing with you all the time?</td><td align=left><b>yes</b><input type='hidden' name='question25' value='do+you+carry+one+thing+with+you+all+the+time%3F'><input type='hidden' name='type25' value='1'></td></tr><tr><td valign=top align=right>if you do what is it?</td><td align=left><b>my cell phone, cash..pretty much everything in my purse</b><input type='hidden' name='question26' value='if+you+do+what+is+it%3F'><input type='hidden' name='type26' value='1'></td></tr><tr><td valign=top align=right>where do you buy your clothes?</td><td align=left><b>AE, the mall</b><input type='hidden' name='question27' value='where+do+you+buy+your+clothes%3F'><input type='hidden' name='type27' value='1'></td></tr><tr><td valign=top align=right>what kind of shoes do you wear most of the time?</td><td align=left><b>tennis shoes or flip flops</b><input type='hidden' name='question28' value='what+kind+of+shoes+do+you+wear+most+of+the+time%3F'><input type='hidden' name='type28' value='1'></td></tr><tr><td valign=top align=right>what makes you special?</td><td align=left><b>my name</b><input type='hidden' name='question29' value='what+makes+you+special%3F'><input type='hidden' name='type29' value='1'></td></tr><tr><td valign=top align=right>what were you doing when you were taking this survey?</td><td align=left><b>chatting online</b><input type='hidden' name='question30' value='what+were+you+doing+when+you+were+taking+this+survey%3F'><input type='hidden' name='type30' value='1'></td></tr><tr><td colspan=2 align=center><input type='submit' value='Take This Survey'><BR><a href='http://www.kwiz.biz/simplesurveys/create-survey.php'>CREATE YOUR OWN!</a> - or - <a href='http://www.kwiz.biz/simplesurveys/paid-surveys.php'>GET PAID TO TAKE SURVEYS!</a></td></tr></form></table>"
+"eventtime","2005-06-02 23:07:00"
+"url","http://stromamama2.livejournal.com/8723.html"
+"userid","14809"
+"itemid","33"
+"event","<div align=center><form name=""quizform"" target=""_new"" action=""http://www.kwiz.biz/showquiz.php?quizid=6147"" method=""post"">
+<table border=1 bordercolor=#000000 bgcolor=""#FB6A6A"" cellspacing=0 cellpadding=2>
+<tr><td colspan=2 align=center bgcolor='681200'><a href='http://www.kwiz.biz/showquiz.php?quizid=6147' target='_new' style='text-decoration: none;'><font style='color : #ffffff; font-family : Arial, Helvetica, sans-serif;' color= '#ffffff'><b>How Good are you at Certain Things?</b></a></font></td></tr>
+<tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Name </td><td bgcolor='#FFCCDC'><input type='text' name='in0' size='32' maxlength='64' value='Stormie'></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Age </td><td bgcolor='#FFCCDC'><input type='text' name='in1' size='4' maxlength='4' value='16'></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Favorite Color </td><td bgcolor='#FFCCDC'><input type='text' name='in2' size='32' maxlength='64' value='green'></td></tr><tr><td><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Nickname </td><td bgcolor='#FFCCDC'><input type='text' name='in3' size='32' maxlength='64' value='stroma mama'></td></tr><tr><td bgcolor=FFCCDC colspan=2 align=center><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Sex - <b>56%</b></font><br><table align='center' width='250px' cellspacing='0' cellpadding='0' border='0'><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr><tr><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=#ffcc00></td><td height='10px' bgcolor=#ff9900></td><td height='10px' bgcolor=#ff6600></td><td height='10px' bgcolor=#ff3300></td></tr><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr></table></td></tr><tr><td bgcolor=FFCCDC colspan=2 align=center><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Romance - <b>66%</b></font><br><table align='center' width='250px' cellspacing='0' cellpadding='0' border='0'><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr><tr><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=#ff9900></td><td height='10px' bgcolor=#ff6600></td><td height='10px' bgcolor=#ff3300></td></tr><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr></table></td></tr><tr><td bgcolor=FFCCDC colspan=2 align=center><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Self - Control - <b>72%</b></font><br><table align='center' width='250px' cellspacing='0' cellpadding='0' border='0'><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr><tr><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=#ff6600></td><td height='10px' bgcolor=#ff3300></td></tr><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr></table></td></tr><tr><td bgcolor=FFCCDC colspan=2 align=center><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Kissing - <b>84%</b></font><br><table align='center' width='250px' cellspacing='0' cellpadding='0' border='0'><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr><tr><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=#ff3300></td></tr><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr></table></td></tr><tr><td bgcolor=FFCCDC colspan=2 align=center><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Cuddling - <b>63%</b></font><br><table align='center' width='250px' cellspacing='0' cellpadding='0' border='0'><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr><tr><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=#ff9900></td><td height='10px' bgcolor=#ff6600></td><td height='10px' bgcolor=#ff3300></td></tr><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr></table></td></tr><tr><td bgcolor=FFCCDC colspan=2 align=center><font style='color : #000000; font-family : Arial, Helvetica, sans-serif;'>Kinkiness - <b>69%</b></font><br><table align='center' width='250px' cellspacing='0' cellpadding='0' border='0'><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr><tr><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=black></td><td height='10px' bgcolor=#ff9900></td><td height='10px' bgcolor=#ff6600></td><td height='10px' bgcolor=#ff3300></td></tr><tr><td height='5px' bgcolor=#006600></td><td height='5px' bgcolor=#00cc00></td><td height='5px' bgcolor=Lime></td><td height='5px' bgcolor=#99ff66></td><td height='5px' bgcolor=#ccff99></td><td height='5px' bgcolor=#ffff33></td><td height='5px' bgcolor=#ffcc00></td><td height='5px' bgcolor=#ff9900></td><td height='5px' bgcolor=#ff6600></td><td height='5px' bgcolor=#ff3300></td></tr></table></td></tr><tr><td colspan=2 align=center bgcolor=#681200><input type=""submit"" name=""submit"" value=""Try Your Answers!""></td></tr>
+<tr><td colspan=2 align=center><font size=-1 style='color : #000000; font-family : Arial, Helvetica, sans-serif;'><B>This <A href=""http://www.kwiz.biz/"" style='color : #000000;'><font style='color : #000000;' color=black>cool quiz</font></a> by <a href='http://www.kwiz.biz/userprofile.php?userid=10799'><font style='color : #000000;' color='#000000'>KillianO</font></a> - Taken 1402404 Times.<img src=""http://images.kwiz.biz/kwizcount.gif"" width=""1"" height=""1"" border=0>
+</font></a></b></font></td></tr></table><font style='font-family : Arial, Helvetica, sans-serif; font-size: 9pt;'>New - COOL Dating Tips and <A href='http://www.datingtips.ws/' style='text-decoration: none;'>Romance Advice!</a></font></div>
+</form>"
+"eventtime","2005-06-01 22:49:00"
+"url","http://stromamama2.livejournal.com/8448.html"
+"userid","14809"
+"itemid","32"
+"event","well guys, summer is finally here...
+Im so excited. But! my summer scedule is so busy. Everyday of the week im busy. Whether it be work, volleyball, basketball, or conditioning. Sorry i havent updated in a while. I just kind of find these things to be pointless because no body even comments on them that much (on my lj at least). Since everynight i lay on the couch and watch TV, ive found two new favorite shows. On channel 107 Noggin...they are Degrassi and Radio Free Roscoe(RFR). Im like obsessed with them now. But not more than the OC. I need to watch the 1st season soon...i havent finished it. Im so glad that the 2nd season is re-playing over the summer! Now i can see the episodes that i missed. I cant believe im saying this, but i missed the finale!!! UGHHH!!  but its okay, i missed it because it was my sisters graduation. ahh! its so weird that shes graduating! i wont see her at school anymore... oh well. I want to make this summer the best summer ive had in a long time. Its gonna be hard though, considering that my two close friends have both left town for the WHOLE summer. blah. its okay, me and hollie are hangin out quite a bit almost every weekend. YESSSSS. boy scoping..what else. we've decided that boys are immature, and that they have cooties and that they need to grow some balls...or somethin like it. but yeah, so this is all on my mind...if i have anything else ill post summore...bye!
+
+~stroma"
+"eventtime","2005-06-01 21:56:00"
+"url","http://stromamama2.livejournal.com/8401.html"
+"userid","14809"
+"itemid","31"
+"event","hey guys..havent updated in a while i should say.ANyway, i think im gonna stop this lj thing..its kinda boring i guess. coment what you think"
+"eventtime","2005-05-06 18:07:00"
+"url","http://stromamama2.livejournal.com/8114.html"
+"userid","14809"
+"itemid","30"
+"event","um...we lost the regional game...enough said.it was a good game, ashley im really sry that we lost because I knew that you wanted it so bad, and most of us did, I just wish had it to do over again. but besides that, nothing really has been going on. I can't wait until school lets out. Im really tired and exhausted. Now that sottball is over, I have to pipe down and try harder on getting strait A's. Let's see, today at school felt like it was really short. I checked out after 1st hour because I wasn't feeling very well, then I came back to school during lunch because I couldn't miss half a day of school or I wouldnt be allowed to play in the game. When I came back, it was field day from then on until school was over. It was pretty boring. Nothing major. Then after the softball game me and my mom went riding everywhere. We figured out where Michelle lives...so BAM. We are all comin for you Michelle and rolling your house. You can count on it. 
+       My little poodle, Lady, was limping Sunday night and we took her to the vet the next day. She was walking crooked and stumbled a lot. Then we found out that she either has a brain tumour or she had a stroke, which is really sad for me, because I've had this dog since I was a little girl. I can't remember when i DIDNT have her. They gave us some medicine to give her and she seems a lot better. Everyone please pray for her! Tomorrow im going to watch Starkey's regional game. Good luck ladies. After that me and Hollie and maybe Alyssa are gonna go hang out. Then, out comes the goods for a lonnnnnng night of fun! Heads up Michelle... ;-) Anyways, i just found out that im going on a cruise this summer for our vacation. It's gonna be sweet. 
+
+heres a survey ya'll can do...
+
+How well do you remember the 90's and 80s and past decades. Bold what you know
+
+
+Fresh Prince of Bel-Air
+Fraggle Rock
+G.I. Joe 
+Are You Afraid of the Dark? 
+Secret World of Alex Mack
+Nightmare Before Christmas
+ Welcome Freshman
+Space Cases 
+Roundhouse
+The Muppet Show
+Muppet Babies 
+Eureka's Castle 
+Under the Umbrella Tree
+Salute Your Shorts 
+Legends of the Hidden Temple
+You Can't Do That On Television
+G.U.T.S.
+What Would You Do? 
+Double Dare
+Rocko's Modern Life
+All That
+Ren and Stimpy 
+Clarissa Explains It All 
+The Torklesons 
+Pete and Pete
+Stick Stickley Write to me, Stick Stickley, PO Box 963, NYC, NY State, 10108- 
+Goodburger
+Angry Beavers
+Sponge Bob
+Hey Arnold!
+AAH! Real Monsters
+Tiny Toons
+Animaniacs
+Pinky and the Brain
+The Babysitter's Club 
+Underdog
+Kablam!
+Gullah Gullah Island 
+Richard Scarry Dumbo's Circus
+Ocean Girl 
+Mystery Files of Shelby Woo
+Snick Snacks
+Dunkaroos
+SNICK Koala Yummies 
+Where In The World Is Carmen Sandiego?
+Nick Magazine
+The Goonies
+Ernest Movies
+Radio Flyer 
+Disney Watchers
+Adventures in Wonderland 
+Homeward Bound 
+The Adventures of Yellow Dog
+Milo and Otis 
+Neverending Story 
+Who Framed Roger Rabbit? 
+The Lion King 
+Labyrinth 
+101 Dalmations
+The Secret Garden
+Pete's Dragon 
+Hocus Pocus 
+Secret of Roan Inish
+Land Before Time
+Dinosaurs 
+Fern Gully 
+Secret of NIMH 
+Gummi Bears 
+Care Bears
+A Little Princess
+My Little Pony 
+Black Beauty
+Rainbow Brite 
+Lady Lovely Locks
+Candyland
+Sorry!
+Trouble
+Don't Wake Daddy! 
+Mousetrap
+Jenga
+Don't Break the Ice
+Hungry Hungry Hippos
+Cooties 
+Tinker Toys 
+The castles that made tea sets 
+Sky Dancers 
+Polly Pocket (back when she was pocket-sized)Hypercolor T-Shirts
+Lite Brite
+Scrunchies
+Side Ponytails 
+Stirrup Pants
+Jellies
+Saddle Shoes
+Barbies 
+Beanie Babies 
+Tamagotchies 
+Yo-Yos
+duncansChoose Your Own Adventure 
+Pogs 
+Goosebumps
+Magic Attic Club 
+American Girl
+Saved By the Bell
+Island of the Blue Dolphin
+Full House 
+Step By Step 
+TGIF on ABC 
+Sabrina, the Teenage Witch 
+Boy Meets World 
+Clueless 
+Mork and Mindy
+Simpsons
+Flipper
+Eerie Indiana
+Third Rock From The Sun
+Tracey Ullman Show
+Ghostwriter
+Growing Pains 
+Family Ties
+Titanic
+Felix The Cat: The Movie
+Jonathan Taylor Thomas 
+Home Improvement
+Tom and Huck
+My Brother and Me
+Kenan and Kel
+Hanson 
+Inspector Gadget
+Teenage Mutant Ninja Turtles 
+Power Rangers 
+Creepy Crawlers
+Easy Bake Oven 
+Weinerville
+Wild and Crazy Kids
+Playdough McDonald's Sets 
+Animorphs 
+Rainbow Fish 
+If You Give A Mouse A Cookie/Bailey School Kids
+Wayside School
+Mrs. Piggle Wiggle
+Boxcar Kids
+Ramona Quimby/Amber Brown 
+
+
+the one's in bold are the ones i know...hopefully they turned out bold...if not...here are the ones i know separate from the list.
+
+Fresh Prince of Bel-Air
+Fraggle Rock
+G.I. Joe 
+Are You Afraid of the Dark? 
+Secret World of Alex Mack
+Nightmare Before Christmas
+Space Cases 
+
+The Muppet Show
+Muppet Babies 
+Eureka's Castle 
+Under the Umbrella Tree
+Salute Your Shorts 
+Legends of the Hidden Temple
+G.U.T.S.
+What Would You Do? 
+Double Dare
+Rocko's Modern Life
+All That
+Ren and Stimpy 
+Clarissa Explains It All 
+Pete and Pete
+Stick Stickley Write to me, Stick Stickley, PO Box 963, NYC, NY State, 10108- 
+Goodburger
+Angry Beavers
+Sponge Bob
+Hey Arnold!
+AAH! Real Monsters
+Tiny Toons
+Animaniacs
+Pinky and the Brain
+The Babysitter's Club 
+Underdog
+Kablam!
+Gullah Gullah Island 
+The Busy World of Richard Scarry 
+Dumbo's Circus
+Mystery Files of Shelby Woo
+Snick Snacks
+Dunkaroos
+SNICK 
+Where In The World Is Carmen Sandiego?
+Nick Magazine
+The Goonies
+Ernest Movies
+Adventures in Wonderland 
+Homeward Bound 
+The Adventures of Yellow Dog
+Milo and Otis 
+Neverending Story 
+Who Framed Roger Rabbit? 
+The Lion King 
+Labyrinth 
+101 Dalmations
+The Secret Garden
+Pete's Dragon 
+Hocus Pocus 
+Land Before Time
+Dinosaurs 
+Fern Gully 
+Secret of NIMH 
+Gummi Bears 
+Care Bears
+A Little Princess
+My Little Pony 
+Black Beauty
+Rainbow Brite 
+Candyland
+Sorry!
+Trouble
+Mousetrap
+Jenga
+Hungry Hungry Hippos
+Cooties 
+Tinker Toys 
+Sky Dancers 
+Polly Pocket (back when she was pocket-sized)Hypercolor T-Shirts
+Lite Brite
+Scrunchies
+Jellies
+Barbies 
+Beanie Babies 
+Tamagotchies 
+Yo-Yos
+Pogs 
+Goosebumps
+Magic Attic Club 
+American Girl
+Saved By the Bell
+Island of the Blue Dolphin
+Full House 
+Step By Step 
+TGIF on ABC 
+Sabrina, the Teenage Witch 
+Boy Meets World 
+Clueless 
+Simpsons
+Flipper
+Third Rock From The Sun
+Growing Pains 
+Family Ties
+Titanic
+Felix The Cat: The Movie
+Jonathan Taylor Thomas 
+Home Improvement
+Tom and Huck
+My Brother and Me
+Kenan and Kel
+Hanson 
+Inspector Gadget
+Teenage Mutant Ninja Turtles 
+Power Rangers 
+Easy Bake Oven 
+Weinerville
+Wild and Crazy Kids
+Playdough McDonald's Sets 
+Animorphs 
+Rainbow Fish 
+If You Give A Mouse A Cookie/Bailey School Kids
+Wayside School
+Boxcar Kids
+Ramona Quimby/Amber Brown 
+
+
+well thats it   take the survey and post it!
+~stroma"
+"eventtime","2005-04-22 21:51:00"
+"url","http://stromamama2.livejournal.com/7822.html"
+"userid","14809"
+"itemid","29"
+"event","WHAT WOULD YOU DO IF: 
+I said I liked you?
+I kissed you? 
+I lived next door to you? 
+I felt lonley? 
+I was sick? 
+I fell for you? 
+We got in a fight? 
+
+WHAT DO YOU THINK ABOUT MY: 
+Personality? 
+Eyes? 
+Face? 
+Hair? 
+Clothes? 
+Manners? 
+Family? 
+Sense of Humor?
+
+WOULD YOU: 
+Be my friend? 
+Have sex with me? 
+Lie to make me feel better? 
+Spread rumors about me? 
+Keep a secret if I told you one? 
+Hold my hand?
+Take a bullet for me?
+Keep in touch? 
+Try and solve my problems? 
+Love me? 
+Date me?
+
+put an x in the () for each you would do for me. 
+() go out with me? 
+() give me your number? 
+() have sex with me? 
+() let me kiss you? 
+() let me take you out to dinner? 
+() take a shower with me? 
+() be my bf/gf? 
+() Listen to me if I called you crying even if you were out with all of your friends? 
+() buy me a drink like a sobe or soda? 
+() take me home for the night? 
+() Would you let me sleep in your bed? 
+() re-post this for me to answer your questions? 
+() Let me give you a piggyback ride? 
+() Come pick me up at 3 am because my car ran out of gas in the middle of nowhere?     
+
+
+
+
+anyways...answer these pweezzzz"
+"eventtime","2005-04-04 22:32:00"
+"current_moodid","56"
+"url","http://stromamama2.livejournal.com/7662.html"
+"userid","14809"
+"itemid","28"
+"event","well youz guys, i went to disney world for spring break! It was so mich fun! We arrived late Monday and did whatever at the hotel. Then the rest of the week everybody went to bed around 1:30-2 every mornin, then we had to get up around 7:30 that same morning. This was everyday may I add. Im so tired right now. (im in online) But anyways, I met Mickey Mouse and a bunch of other characters, and i road tower of terror with Yagini, my dad, and Alyssa. I bought the picture. It was priceless. I also road rockin roller coaster with Katie, Alyssa, and Mr. Greg. That was so much fun. On Friday, me, Michelle, ALyssa, coach, Hollay!, and Bethany all went to three parks in 7 hrs. because that was the last day we were there. We went to animal kingdom first. They forced me to ride the dinosaur ride (may i mention that i do not like dinosaurs) and i was attached to Michelle the whole time. She bought the picture. Ill see if i can get a copy and post it...its hilarious. We also played some games in a tournament. We won 2 and lost 2. We should have won all of them but the umpires were pretty bad. We also got to take pictures with the atlanta Braves while they were practicing. Their practice fields were right next to our tournament fields. It was awesome. On the way back to Baton Rouge, me and hollay! watched a bunch of movies and listened to a lot of music. It was fun. That was a long drive...12 hrs..dang. Next year we better fly! Well, that's all of my spring break for youz guys... sorry i havent posted in a while! talk to youz guys later! comment on what yall did for the break...i havent talked to anyone yet since ive gotten back. :-)
+
+~stroma"
+"eventtime","2005-04-04 10:50:00"
+"current_moodid","106"
+"url","http://stromamama2.livejournal.com/7335.html"
+"userid","14809"
+"itemid","27"
+"event","<img src=""http://images.quizilla.com/P/pacosmotorbike/1056345190_esClarissa.gif"" border=""0"" alt=""HASH(0x8a49cc0)""><br>You are CLARISSA EXPLAINS IT ALL.  She is a rad<br>chick with absolutely no fashion sense.  If you<br>are a guy and chose this... you are gay.  
+<br><br><a href=""http://quizilla.com/users/pacosmotorbike/quizzes/Which%20old%20school%20Nickelodeon%20show%20are%20you%3F/""> <font size=""-1"">Which old school Nickelodeon show are you?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+
+
+
+
+
+what was your favorite show??"
+"eventtime","2005-03-14 22:14:00"
+"current_moodid","56"
+"url","http://stromamama2.livejournal.com/7060.html"
+"userid","14809"
+"itemid","26"
+"event","hey youz guys...
+
+sadies this weekennddddddd...i hope a lot of people show up...hm...oh well. oh! and guess who im bringin???? you'll just have to find out there!
+
+today we played french settlement and we lost by one point 7-6 UGGHHHH, i felt horrible too during the game cause im still sick from yesterday...thats why i wasnt at school and i keep having sneeze attacks over and over. im still wishin it were basketball season still..ahhh its my favorite and i cant explain it!
+
+friday's steve's birthday!!!!!  WOOHOOOO!!! party at steves...hehe. it was misha's birthday on monday!! she turned 22! it was my moms birthday last friday! man..all the birthdays!
+
+talent show tryouts were sunday...and boy oh boy....were they interesting...YAGINI'S was sooo cool!!! me and sam just made it up the day of the tryouts...what talent! anyways...my phone rings...ttyl!
+
+stroma"
+"eventtime","2005-03-09 19:22:00"
+"current_moodid","31"
+"url","http://stromamama2.livejournal.com/6908.html"
+"userid","14809"
+"itemid","25"
+"event","Helloooooo...its been a while. 
+well lets see whats goin on in my life...hmmmmm....softball...uuummm...softball...and uh..softball? YES softball. Sooooo much of it its almost making me sick. It's not my favorite sport either. My fav is basketball. But anways...we came in second in our tournament, which is cool i guess. We have a game friday against flase river, but our guys basketball team has a state playoff game that same day, so im pretty upset about that cause i want to see them play...AND its at our gym too. but coach moved our game up 30 minutes, which im sure that wouldnt do anything but he tryed...anyways, my mom just told me that if i dont get my math grade pulled up from a C, then i have to quit softball. sorry if i keep mentioning softball, but its just taking up too much of my time. and nothing else is really going on in my life, considering i have softball everyday of the week after school until 7 at the latest, and a couple of tournaments on the weekends, which puts us in the position of almost NO social time what so ever. well   thats all i have for now. ttyl
+
+storm"
+"eventtime","2005-02-22 10:52:00"
+"current_moodid","8"
+"url","http://stromamama2.livejournal.com/6449.html"
+"userid","14809"
+"itemid","24"
+"event","well last night was the super bowl!  i went to a party with bryan at one his his dad's friends house...it was fun!!! steve was there too. we had a blast ;-)  the house the lot sat on was HUGE. well, it was fun anyways. did i already say that? but anywho...we play hosanna tomorrow. and i just found out that i have a minor case of shin splints. NO FUN. oh bummer!  i just remebered that 7th heaven came on tonight...did anyone watch it? well...i think thats all the news and update i have i think...sooooo im gonna go to bed!
++stroma+"
+"eventtime","2005-02-07 22:38:00"
+"current_moodid","31"
+"url","http://stromamama2.livejournal.com/6357.html"
+"userid","14809"
+"itemid","23"
+"event","AHHHHH! i forgot to mention the OC!!! that episode was SO messed up... marissa!?!?! a lesbian!!?!!?!? eeeeewwwwwwwwwww thats crazy...and then sandy is in BIG trouble next week when he finds out that kirsten found rebecca camping out in his office..! well if yall wanna discuss the OC, post some comments! IM OBSESSED WITH THE SHOWWWW AH!
+
++stroma+"
+"eventtime","2005-02-05 16:50:00"
+"current_moodid","59"
+"url","http://stromamama2.livejournal.com/6138.html"
+"userid","14809"
+"itemid","22"
+"event","helloooooooo so today was an okay day...it was our last day of school before the mardi gras holidays! yay! tonight we played bethany and we lost...:'(  thats okay, we have had a fun season and we have two games left. hosanna and STARKEY..blah   i dont care for them, but anywho... im getting my hair cut tomorrow and visitin mr dillon...hes the coolest old guy EVER  hes in the hospital because he has a HORRIBLE case of diabetes and he had to have his leg amputated below the knee...:'( keep him in yalls prayers! 
+
+i got the grudge yesterday..its sooo scary...but i havent watched it yet cause i dont wanna watch it by myself....hollie left today to go see her brother!!! hes coming back home from iraq! thats sooo awesome..I LOVE HOLLAY!!!  monday is stephanie's birthday..happy early birthday! well...thats all the news for now..ill talk to you guys later.. bye!
+
++stroma+"
+"eventtime","2005-02-05 16:37:00"
+"current_moodid","126"
+"url","http://stromamama2.livejournal.com/5811.html"
+"userid","14809"
+"itemid","21"
+"event","<table width='400' height='257' bgcolor='000000' border='2' cellpadding='4' cellspacing='0' bordercolor='EE0000'><tr bordercolor='EE0000'><td colspan='3'><div align='center'><font color='#FFFFFF'>What kind of disease <i>are</i> you?<br><br>Stormie:</font></div></td></tr><tr bordercolor='EE0000'><td><p><font color='#FFFFFF'>Stormie is caused by monkeys.</font><br><br><img src='http://mushoo.net/redgifs/monkey.gif' width='141' height='185'></p><p></p></td><td valign='top'><br><br><br><font color='#FFFFFF'><div align='center'>An infection of Stormie causes victims to write bad goth poetry.<br>To cure Stormie, crossdress badly.</div></font></td></tr><tr bordercolor='EE0000'><td colspan='3' valign='middle'><form action='http://www.mushoo.net/disease.php' method='GET'><div align='center'><font color='#FFFFFF'>Name?</font><input type='text' name='name'><input type='submit' name='Search'></div></form></td></tr></table>"
+"eventtime","2005-01-28 10:55:00"
+"current_moodid","61"
+"url","http://stromamama2.livejournal.com/5400.html"
+"userid","14809"
+"itemid","20"
+"event","hey guys
+
+well  tuesday we played bethany...and guess what?  WE WON!!!  we beat them 43, 36   the guys won too!! WOOO! GO RAIDERS!! their score was 42, 36...which is really weird cause they scored ONE less than we did...but anywho, tomorrow we play hosanna which we are gonna woop their asses! today we had a math test...and i dont think i did very well on it. yesterday we went to this soup and kitchen place where we serve food to the less unfortunate peeps and the food is free to them!  we all had to wear hair nets and aprons and plastic gloves..it was okay i guess. but afterwards we smelt like gumbo and body odor...oh well, we got out of school for half a day so that good...oh yeah, in english mrs. rogillio is letting us watch napoleon dynamite!  thats soooo fun. BUT now i have to go because the OC IS ON!!!!! and then im going to sleep because i have a mjor headache and my knee hurts major...later
+
+stormie"
+"eventtime","2005-01-27 19:05:00"
+"current_moodid","68"
+"url","http://stromamama2.livejournal.com/5326.html"
+"userid","14809"
+"itemid","19"
+"event","i would currently like to thank SAMANTHA JO for always commenting on my entries!! 
+right on sam"
+"eventtime","2005-01-12 21:24:00"
+"url","http://stromamama2.livejournal.com/5018.html"
+"userid","14809"
+"itemid","18"
+"event","well   last night was the cotillion dance. it was so much fun!  me and yagini had a blast. me and michael did too!!  we are dancing buddies for now on. we rock the dance floor! ;-)  anywho, we had the greatest time...i cant WAIT till the next dance. KAREN, YOU BETTER GET THERE SOME WAY, SOME HOW. it was a PARATY with karen there. but yes, tomorrow is school, and then softball, and then basketball, as usual. well, now im gonna take a survey...so here it is...
+
+[X] WhO [X]
+
+01) makes you laugh? all my friends and family
+02) makes you cry? sad movies, lose someone you love
+
+03) is a true friend? everyone of them
+04) is weird? ummm...hehe
+05) is a bhama? ummmm pass?
+06) likes you? hmm...somebody!! hehe 
+
+[X] RaNdOm [X]
+
+01) favorite song? i have a lot!
+02) favorite word? awww
+03) place want to be? with my best friends
+04) are you open-minded? sometimes
+05) rain or sun? windy
+06) winter or summer? winter
+07) love or hate? love
+08) one moment you'll never forget? first love
+09) future career? im not too sure yet...
+10) Kids or no kids? kids
+11) Cat or dog? dogS
+
+12) Half empty or half full? half full
+13) Mustard or ketchup? ketchup
+14) Hard cover books or soft cover books? hard
+16) Sandals or sneakers? sneakers
+17) Wonder or amazement? both
+18) Red car or white car? red
+19) Happy & poor or sad & rich? happy and poor
+20) Singing or dancing? dancin
+21) Hugging or kissing? hmmm...both
+
+22) Corduroy or plain? both
+23) Happy or sad? happy!!
+24) Blondes, brunettes? brunettes
+25) 2 doors or 4 (on a car): 2
+26) Coffee or ice cream: ICE CREAM!!!!!! hhehe  karen
+27) Shampoo or conditioner: both
+28) Bridges or tunnels: tunnels
+29) One pillow or two: 2
+30) Pierce your nose or tongue? IF i had to choose...nose(a small stud)
+31) Be serious or be funny? funny and serious
+32) Drink whole or skim milk? skim
+33) Simple or complicated? little bit of both
+34) Flowers or angels? both
+35) Grey or gray? haha umm..
+36) Color or black-&-white photos? black and white
+
+37) Lust or love: love
+
+38) Sunrise or sunset? sunset
+39) M&Ms or Skittles? skittles!
+40) Rap or rock? both...i like both of them
+41) Staying up late or waking up early? staying up late
+42) TV or radio? mostly tv
+43) what the hell is this? a survey
+44) Eating apples or oranges? oranges
+45) Being hot or cold? cold 
+46) Tall members of the opposite sex? as long as they are taller than me
+47) Sun or moon? moon
+48) Emeralds or rubies? i dont care
+49) Left or right?... liquid or ice? right, liquid
+50) Having 10 acquaintances or 1 best friend? hmmm...thats a tuffy
+51) Sun or rain? windy
+52) Vanilla ice cream or chocolate ice cream? vanilla 
+53) Boys or girls? hmmm..LETS THINk PPL
+54) Green beans or carrots? carrots i dont like green beans
+55) Low fat or fat free? hmm depends on what food
+
+[X] WhIcH iS bEtTeR w/ ThE oPpOsItE sEx [X]
+
+56) cute or sexy? sexy
+57) lips or eyes? lips
+58) short or tall? medium
+59) fatty or skinny? don't matter
+60) sweet or caring? both
+61) romantic or spontaneous? both
+62) sensitive or loud? both
+
+[X] AnSwEr TrUtHfUlLy [X]
+
+63) Do you have a crush? some what
+64) Who is it? ...?
+65) Are you guys together? not at the moment
+66) If so, how long has it been? ...
+67) What is it that attracts you to him? lovely
+68) Is he everything you mentioned above? ...
+69) Where do you want to live? not here
+70) What kind of job do you want? not too sure...something with a lot of money
+71) Do you want to get married? yep
+
+[X] OnE [X]
+
+72) 1 second ago: typing
+73) 1 minute ago: typing
+74) 1 hour ago: eating
+75) 1 day ago: dancing!!
+76) 1 week ago: school
+77) 1 month ago: ummm...?
+78) 1 year ago: a LOT
+
+[X] I [X]
+
+
+79) I hurt: when i lose someone i love
+80) I like: everyone
+81) I love: family, and friends
+82) I hate: no one 
+83) I feel: happy
+84) I hide: dirty little secrets!
+85) I drive: an o.k. car
+86) I learn: from my mistakes
+87) I wait: for the moment
+88) I will: be successful
+89) I miss: mee mee maw
+90) I want: ...not sure
+91) I fear: gorillas, bees, drowning
+92) I am: talking to michael and bryan
+
+[X] CuRrEnT [X]
+
+93)Current Clothes: pants, american eagle hoody, and new balances
+94)Current Mood: happy
+95)Current Music: hmmm  knuck if you buck boy
+96)Current Desktop Picture: basketball
+97)Current Favorite Show: the OC
+98)Current Refreshment: applejuice
+99)Current Food: none
+100)Current Boyfriend:none"
+"eventtime","2005-01-09 19:25:00"
+"current_moodid","125"
+"url","http://stromamama2.livejournal.com/4679.html"
+"userid","14809"
+"itemid","17"
+"event","OhNoitsSammieJo: STORMIE I LOVE YOUR HAIR. THE WAY YOU FLOAT ACROSS THE AIR. STORMIE I LOVE YOUR BEAUTIFUL EYES AND NOT TO MENTION THOSE BANGIN THIGHS. I LOVE THE WAY YOU SAY SHE BANGS, AND I WOULD LOVE FOR YOU O BITE ME WITH THOSE STORMIE FANGS. WELL I THINK THE MESSAGE I LOVE YOU IS CLEAR...I LOVE YOU STORMIE...AND YOUR REAR
+
+woah karens on: stormie. theres a problem u see i would leave u a message expressing how much i love u. BUT the problem is that words can never express my love for you. therefore, i cannot tell you. but i CAN show u.;-). hehe. BUT you are my favorite!
+
+Garage Bnd Kng: i kno a girl
+her name is stormie
+shes the only girl for me
+i havent ever called her for tea
+
+she is so crazy cool
+she might like playin pool
+on the game ddr, she and i r gonne duel
+in her car she puts fuel
+
+
+
+
+
+
+feel the love"
+"eventtime","2005-01-09 18:03:00"
+"current_moodid","67"
+"url","http://stromamama2.livejournal.com/4553.html"
+"userid","14809"
+"itemid","16"
+"event","SORRY GUYS FOR NOT UPDATING! 
+well  the first week of back to school from the holidays is over. FINALLY. did it go by really slow to anyone else? anywho,  i got an XBOX!! with dance dance revolution! and summore games too. i also got a new radio for my car. it sounds so much better than what i had. i got sum jewlry, clothes, and sum lipglosses, and all that jazz....now for a recent update...
+well  tomorrow is the snowball for cottillion!  me and yagini are gonna grind that michael! well  anywho, we lost our basketball game today against french settlement...and i pulled a lower back muscle...it hurts really bad. damn softball. anyways i could barely walk to my car after the game. but oh well... it aint gonna stop me from dancin the night away tomorrow night! well...theres not too much to say really...  i have a somewhat boring life. well  ill TRY my hardest to update more. but for now, im going to bed. NIGHT!
+
+~stroma"
+"eventtime","2005-01-07 23:03:00"
+"current_moodid","27"
+"url","http://stromamama2.livejournal.com/4198.html"
+"userid","14809"
+"itemid","15"
+"event","well, today was a rough day...i had to go to the orthodontest(i guess thats how you spell it...) and my teeth hurt horribly, but it will be worth it... also, we had a BEASTLY math test today, and of course i didnt finish because i actually take my time to take tests and MATH CLASSES NEED TO BE LONGER FOR THESE REASONS...oh well  ill just do extra credit. today we didnt have any basketball pratice so it was nice to have a day off. i got my haircut today. its dark underneath and it rests on my shoulders. i like it WAY better than what i had. but, anywho, check out the quizzes i took and take 'em. they're pretty neat.well, i gots to go..ttfn!
+
+~stroma"
+"eventtime","2004-12-07 20:27:00"
+"current_moodid","15"
+"url","http://stromamama2.livejournal.com/4032.html"
+"userid","14809"
+"itemid","14"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074627156' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your South Park Quote: by <a href='http://www.livejournal.com/users/melraad/'><font color='#DDDD88'>Melraad</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name:' value='Stormie Williamson' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Lucky Number:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Lucky Number:' value='8' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Favourite Colour:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Favourite Colour:' value='green' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Yer South Park Quote:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>""I'm not fat I'm festively plump.""- Cartman</span></td></tr><input type='hidden' name='un' value='Melraad'><input type='hidden' name='meme' value='1074627156'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 17:25:00"
+"url","http://stromamama2.livejournal.com/3802.html"
+"userid","14809"
+"itemid","13"
+"event","HHHAHAHAHAAHA IM AN EMO FREAK!!
+
+<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1069572447' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>What is your EMO nickname?
+ by ImThePerfectDrug</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name:' value='Stormie ' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Fave Color:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Fave Color:' value='green' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your nickname:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Call me &#39;Emo&#39;</span></td></tr><input type='hidden' name='un' value='ImThePerfectDrug'><input type='hidden' name='meme' value='1069572447'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 17:20:00"
+"url","http://stromamama2.livejournal.com/3412.html"
+"userid","14809"
+"itemid","12"
+"event","I LOVE THE LITTLE MERMAID!  I GET TO MARRY FLOUNDER
+
+<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1060647565' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Who Is Your Ideal Disney Love Match?
+ by anonymity</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name:' value='Stormie Williamson' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Favorite color:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Favorite color:' value='green' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Match:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Flounder</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Reason:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Political similarities</span></td></tr><input type='hidden' name='un' value='anonymity'><input type='hidden' name='meme' value='1060647565'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 17:18:00"
+"url","http://stromamama2.livejournal.com/3183.html"
+"userid","14809"
+"itemid","11"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074627679' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>The Theme Song To Your Life by <a href='http://www.livejournal.com/users/hoodedturtle'><font color='#DDDD88'>hoodedturtle</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name:' value='Stormie Danielle' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Theme Song:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Kiss - Beth</span></td></tr><input type='hidden' name='un' value='hoodedturtle'><input type='hidden' name='meme' value='1074627679'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 17:15:00"
+"url","http://stromamama2.livejournal.com/2836.html"
+"userid","14809"
+"itemid","10"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074650063' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>If you were on South Park, what would you look like and who would your friends be?  (for girls) by <a href='http://www.deadjournal.com/users/sekshun8phoenix'><font color='#DDDD88'>vexedfusion</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Username</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='armored_username' value='stromamama2' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You are a WHORE!</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><select name='You are a WHORE!'><option>No!<option>Yes, you caught me.<option>I only work the corner to feed my family!<option>Last time I checked<option>What is your obsession with whores?<option SELECTED>Yo momma is a gypsy<option>Shut up hippie!<option>I give the best head this side of the Atlantic<option>I got the skills to pay the bills<option>I like cheese<option>I don't like cheese<option>What's your obsession with cheese?<option>What the fuck...</select></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Dun dun dun, this is you...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><img src='http://img11.photobucket.com/albums/v34/sekshun8phoenix/spf30.jpg'></span></td></tr><tr><td colspan='2' bgcolor='#333333' style='border: 1px solid black; text-align: center;' align='center'><table width='100%' cellpadding=0 cellspacing=0 width='300'><caption><span style='color: #FFFFFF;'>Percentage of people who like this character..: 77%</span></caption><tr><td bgcolor='#000000' height='5'></td><td bgcolor='#000000' height='5'></td><td bgcolor='#111100' height='5'></td><td bgcolor='#222200' height='5'></td><td bgcolor='#444400' height='5'></td><td bgcolor='#666600' height='5'></td><td bgcolor='#888800' height='5'></td><td bgcolor='#AAAA00' height='5'></td><td bgcolor='#CCCC00' height='5'></td><td bgcolor='#EEEE00' height='5'></td><td bgcolor='#FFFF00' height='5'></td><td bgcolor='#FFFF00' height='5'></td></tr><tr><td bgcolor='#000000' height='5'></td><td bgcolor='#FF00FF' height='10'></td><td bgcolor='#FF00FF' height='10'></td><td bgcolor='#FF00FF' height='10'></td><td bgcolor='#FF00FF' height='10'></td><td bgcolor='#FF00FF' height='10'></td><td bgcolor='#FF00FF' height='10'></td><td bgcolor='#FF00FF' height='10'></td><td bgcolor='#FF00FF' height='10'></td><td bgcolor='#EEEE00' height='5'></td><td bgcolor='#FFFF00' height='5'></td><td bgcolor='#FFFF00' height='5'></td></tr><tr><td bgcolor='#000000' height='5'></td><td bgcolor='#000000' height='5'></td><td bgcolor='#111100' height='5'></td><td bgcolor='#222200' height='5'></td><td bgcolor='#444400' height='5'></td><td bgcolor='#666600' height='5'></td><td bgcolor='#888800' height='5'></td><td bgcolor='#AAAA00' height='5'></td><td bgcolor='#CCCC00' height='5'></td><td bgcolor='#EEEE00' height='5'></td><td bgcolor='#FFFF00' height='5'></td><td bgcolor='#FFFF00' height='5'></td></tr></table></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>The Jew</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>thinkpink720</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>The Fat One</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>thebhssausage</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>The Lover</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>pinkflamingo101</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>The Poor One</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>samanthajo000</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>The Gay Teacher</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>urlilmama07</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Kyle's Bitchy Mom</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>hohohollay69</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Go here if you are a guy</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><a href='http://memegen.deskslave.org/viewmeme.pl?un=vexedfusion&meme=1074650061' target='_blank'> South Park character memegen for guys</a></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>All imgs made here....</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><a href='http://images.southparkstudios.com/games/create/index.html' target='_blank'> The Southpark Character Site</a></span></td></tr><input type='hidden' name='un' value='vexedfusion'><input type='hidden' name='meme' value='1074650063'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 17:12:00"
+"url","http://stromamama2.livejournal.com/2681.html"
+"userid","14809"
+"itemid","9"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074628287' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Are you hott? by evildj23</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>First Name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='First Name' value='Stormie Danielle' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Age</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Age' value='16' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Guy or Gal</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Guy or Gal' value='gal' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your hottness is</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>9...a gift from god....</span></td></tr><input type='hidden' name='un' value='evildj23'><input type='hidden' name='meme' value='1074628287'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 16:47:00"
+"url","http://stromamama2.livejournal.com/2369.html"
+"userid","14809"
+"itemid","8"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1072669325' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>At your ten year high school reunion... by <a href='http://robynschneider.com'><font color='#DDDD88'>robbiewriter</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your school name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your school name' value='Runnels' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your name' value='Stormie Danielle' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your job will be</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>High school PE teacher</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You will be worth</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>$427,793</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Everyone will think you</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>are a snob</span></td></tr><input type='hidden' name='un' value='robbiewriter'><input type='hidden' name='meme' value='1072669325'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 16:45:00"
+"url","http://stromamama2.livejournal.com/2192.html"
+"userid","14809"
+"itemid","7"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074662660' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your love is... by <a href='http://www.hometown.aol.com/yoyogirl8910/'><font color='#DDDD88'>ChibiMarronchan</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your name is...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your name is...' value='Stormie ' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your kiss is...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>delicious</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your hugs are...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>to die for</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your eyes...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>light up a day</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your touch is...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>irresistable</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your smell is...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>refreshing</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your smile is...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>hypnotising</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your love is...</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>eternal</span></td></tr><input type='hidden' name='un' value='ChibiMarronchan'><input type='hidden' name='meme' value='1074662660'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 16:41:00"
+"current_moodid","125"
+"url","http://stromamama2.livejournal.com/2018.html"
+"userid","14809"
+"itemid","6"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1068769446' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your Dark Secret
+ by <a href='http://www.fordocumentationonly.com'><font color='#DDDD88'>tinyman</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your LiveJournal name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Your LiveJournal name' value='stromamama2' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your dark secret</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>You rape little boys</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>How many times you have done this</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>10</span></td></tr><input type='hidden' name='un' value='tinyman'><input type='hidden' name='meme' value='1068769446'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 16:31:00"
+"url","http://stromamama2.livejournal.com/1632.html"
+"userid","14809"
+"itemid","5"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1060343392' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Who Will You Marry?
+ by Sari</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name' value='Stormie Danielle' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Date</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>August 9, 2045</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Spouse</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>Tom Cruise
+</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Price of Wedding</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>$639,540</span></td></tr><input type='hidden' name='un' value='Sari'><input type='hidden' name='meme' value='1060343392'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 16:29:00"
+"current_moodid","15"
+"url","http://stromamama2.livejournal.com/1399.html"
+"userid","14809"
+"itemid","4"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074669322' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Would anyone want to bang you? by phobia</font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name:' value='stormie danielle' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Favorite Food:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Favorite Food:' value='chinese' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Wants to Bang you:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><img src='http://www.facade.com/celebrity/photo/Brad_Pitt.jpg'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>This many times:</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>73</span></td></tr><input type='hidden' name='un' value='phobia'><input type='hidden' name='meme' value='1074669322'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 16:24:00"
+"current_moodid","125"
+"url","http://stromamama2.livejournal.com/1030.html"
+"userid","14809"
+"itemid","3"
+"event","<table style='font-family : Arial, Verdana, Helvetica, sans-serif; border-collapse: collapse; border: 1px solid black;' cellspacing='0' cellpadding='2' align='center'><form action='http://memegen.net/viewmeme.pl?meme=1074653235' method='POST'><tr><th colspan=2  bgcolor='#000000'><font color='#DDDD88'>Your Husband Generator by <a href='http://www.livejournal.com/~ovrtheedgexx'><font color='#DDDD88'>Lady_Galadriel</font></a></font></th></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Name</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><input type='text' name='Name' value='Stormie Danielle Williamson' size='20'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>Your Husband Is</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'><img src='http://img16.imageshack.us/img16/9973/gera.jpg'></span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You Met</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>pool party</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You Have</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>6 children</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You Live</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>sweden</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>In</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>a basement</span></td></tr><tr><td bgcolor='#333333' style='border: 1px solid black;'><span style='color: #FFFFFF;'>You And Your Partner Are Best Known For</span></td><td bgcolor='#DDDDAA' style='border: 1px solid black;'><span style='color: #000000;'>wearing matching clothes</span></td></tr><input type='hidden' name='un' value='Lady_Galadriel'><input type='hidden' name='meme' value='1074653235'><tr><td colspan=2 align='center' bgcolor='#000000'><input type='submit' value='Fill Out Your Answers and Try it!'></td></tr><tr><td colspan=2 align='center' bgcolor='#000000'><font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font></td></tr></form></table>"
+"eventtime","2004-12-07 16:20:00"
+"current_moodid","4"
+"url","http://stromamama2.livejournal.com/901.html"
+"userid","14809"
+"itemid","2"
+"event","<br clear=""all"">
+<img src=""http://www.toxin.org/cgi-bin/count_hugs.cgi?hug=stromamama2"" height=""40"" width=""240"" title=""HUGS"">
+<br clear=""all"">
+*HUGS* TOTAL!
+<a href=""http://www.toxin.org/cgi-bin/hugs.cgi?&HUGS=yes&hug=stromamama2"">give stromamama2 more *HUGS*</a>
+<br><small><a href=""http://www.toxin.org/cgi-bin/gethugs.cgi"">Get hugs of your own</a></small><br clear=""all"">
+  
+im tryin this new hug thing...i need a hug"
+"eventtime","2004-12-07 15:56:00"
+"current_moodid","86"
+"url","http://stromamama2.livejournal.com/714.html"
+"userid","14809"
+"itemid","1"
+"event","<P><FONT color=#cc33cc size=2>well guys, this is my first entry...so here it goes... well, today at school, me stephanie and yagini seems to have a butt slapping contest...i dont know why...but anyways, i was discussing with caitlin that WHEN i get my xbox and receive my Dance Dance Revolution game with it, that we need to have a dance dance revolution party. everyones invited! man, its gonna be awesome. im excited... anywho, today at lunch yagini decides that she can walk off to go to the bathroom and leave all of her very appetizing lunch in front of me and stephanie, so, we decide to take it. Yagini has this thermus that has minnie mouse or somethin on it that shes had since kindergarden and she brings it with soup 'n stuff in it, well me and steph decide to take it, well, actually I decide to take it, but who cares? i hid it behind steph's back and yagini walks back in and starts freaking out cause she cant find her thermus. so i stand up so he can see it behind stephanie's back and i walk off and yagini starts yelling stephanie and starts beating her...yep..thats my story. oh and the santa grams stephanie drew...WOAH NELLY! they can be seen as a LITTLE perverted...oh well... well..i still gotta study for a math test tomorrow..ttfn!</FONT></P>
+<P><FONT color=#cc33cc size=2>&nbsp;~stroma </FONT></P>
+<P><FONT color=#cc33cc size=2>P.S.~ i like little brown girls who like to pretend they are white and are little brown nosers and jason wishes they he had a little pudgy nose like YAGINI so he can slap yagini with a notebook. hahaha *studyhall*</FONT></P>"
+"eventtime","2004-12-06 20:40:00"
+"current_moodid","36"
+"url","http://stromamama2.livejournal.com/342.html"
+"userid","14809"

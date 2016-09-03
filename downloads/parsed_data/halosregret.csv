@@ -1,0 +1,654 @@
+"names","values"
+"itemid","152"
+"event","SW4gaG9ub3Igb2YgdGhlIHJpdHVhbCBhbmltYWwgc2xhdWdodGVyIHRoYXQgaGFzIHRha2VuIHBsYWNlLCBhbmQgaXMgYmVpbmcgY2VsZWJyYXRlZCB0b21vcnJvdywgSSBwcmVzZW50IHRvIHlvdSBhIGxpdHRsZSBzdG9yeSBzcHVuIGJ5IG5vbmUgb3RoZXIgdGhhbiBNci4gTmVpbCBHYWltYW4uICBFbmpveSBhbmQgIkhhcHB5IiBUaGFua3NnaXZpbmcuDQoNCg0KPGk+QmFieWNha2VzIDwvaT4NCk5laWwgR2FpbWFuDQoNCglBIGZldyB5ZWFycyBiYWNrIGFsbCB0aGUgYW5pbWFscyB3ZW50IGF3YXkuCQ0KCVdlIHdva2UgdXAgb25lIG1vcm5pbmcsIGFuZCB0aGV5IGp1c3Qgd2VyZW7igJl0IHRoZXJlIGFueW1vcmUuIFRoZXkgZGlkbuKAmXQgZXZlbiBsZWF2ZSB1cyBhIG5vdGUsIG9yIHNheSBnb29kYnllLiBXZSBuZXZlciBmaWd1cmVkIG91dCBxdWl0ZSB3aGVyZSB0aGV54oCZZCBnb25lLg0KCVdlIG1pc3NlZCB0aGVtLg0KCVNvbWUgb2YgdXMgdGhvdWdodCB0aGF0IHRoZSB3b3JsZCBoYWQgZW5kZWQsIGJ1dCBpdCBoYWRu4oCZdC4gIFRoZXJlIGp1c3Qgd2VyZW7igJl0IGFueSBtb3JlIGFuaW1hbHMuIE5vIGNhdHMgb3IgcmFiYml0cywgbm8gZG9ncyBvciB3aGFsZXMsIG5vIGZpc2ggaW4gdGhlIHNlYXMsIG5vIGJpcmRzIGluIHRoZSBza2llcy4NCglXZSB3ZXJlIGFsbCBhbG9uZS4NCglXZSBkaWRu4oCZdCBrbm93IHdoYXQgdG8gZG8uDQoJV2Ugd2FuZGVyZWQgYXJvdW5kIGxvc3QsIGZvciBhIHRpbWUsIGFuZCB0aGVuIHNvbWVvbmUgcG9pbnRlZCBvdXQgdGhhdCBqdXN0IGJlY2F1c2Ugd2UgZGlkbuKAmXQgaGF2ZSBhbmltYWxzIGFueW1vcmUsIHRoYXQgd2FzIG5vIHJlYXNvbiB0byBjaGFuZ2Ugb3VyIGxpdmVzLiAgTm8gcmVhc29uIHRvIGNoYW5nZSBvdXIgZGlldHMgb3IgdG8gY2Vhc2UgdGVzdGluZyBwcm9kdWN0cyB0aGF0IG1pZ2h0IGNhdXNlIHVzIGhhcm0uDQoJQWZ0ZXIgYWxsLCB0aGVyZSB3ZXJlIHN0aWxsIGJhYmllcy4NCglCYWJpZXMgY2Fu4oCZdCB0YWxrLiBUaGV5IGNhbiBoYXJkbHkgbW92ZS4gQSBiYWJ5IGlzIG5vdCBhIHJhdGlvbmFsLCB0aGlua2luZyBjcmVhdHVyZS4NCglXZSBtYWRlIGJhYmllcy4NCglBbmQgd2UgdXNlZCB0aGVtLg0KCVNvbWUgb2YgdGhlbSB3ZSBhdGUuIEJhYnkgZmxlc2ggaXMgdGVuZGVyIGFuZCBzdWNjdWxlbnQuDQoJV2UgZmxheWVkIHRoZWlyIHNraW4gYW5kIGRlY29yYXRlZCBvdXJzZWx2ZXMgaW4gaXQuICBCYWJ5IGxlYXRoZXIgaXMgc29mdCBhbmQgY29tZm9ydGFibGUuDQoJU29tZSBvZiB0aGVtIHdlIHRlc3RlZCwNCglXZSB0YXBlZCBvcGVuIHRoZWlyIGV5ZXMsIGRyaXBwZWQgZGV0ZXJnZW50cyBhbmQgc2hhbXBvb3MgaW4sIGEgZHJvcCBhdCBhIHRpbWUuDQoJV2Ugc2NhcnJlZCB0aGVtIGFuZCBzY2FsZGVkIHRoZW0uICBXZSBidXJudCB0aGVtLiBXZSBjbGFtcGVkIHRoZW0gYW5kIHBsYW50ZWQgZWxlY3Ryb2RlcyBpbnRvIHRoZWlyIGJyYWlucy4gIFdlIGdyYWZ0ZWQsIGFuZCB3ZSBmcm96ZSwgYW5kIHdlIGlycmFkaWF0ZWQuDQoJVGhlIGJhYmllcyBicmVhdGhlZCBvdXIgc21va2UsIGFuZCB0aGUgYmFiaWVz4oCZIHZlaW5zIGZsb3dlZCB3aXRoIG91ciBtZWRpY2luZXMgYW5kIGRydWdzLCB1bnRpbCB0aGV5IHN0b3BwZWQgYnJlYXRoaW5nIG9yIHVudGlsIHRoZWlyIGJsb29kIGNlYXNlZCB0byBmbG93Lg0KCUl0IHdhcyBoYXJkLCBvZiBjb3Vyc2UsIGJ1dCBpdCB3YXMgbmVjZXNzYXJ5Lg0KCU5vIG9uZSBjb3VsZCBkZW55IHRoYXQuDQoJV2l0aCB0aGUgYW5pbWFscyBnb25lLCB3aGF0IGVsc2UgY291bGQgd2UgZG8/DQoJU29tZSBwZW9wbGUgY29tcGxhaW5lZCwgb2YgY291cnNlLiAgQnV0IHRoZW4sIHRoZXkgYWx3YXlzIGRvLg0KCUFuZCBldmVyeXRoaW5nIHdlbnQgYmFjayB0byBub3JtYWwuDQoJT25seS4uLg0KCVllc3RlcmRheSwgYWxsIHRoZSBiYWJpZXMgd2VyZSBnb25lLg0KCVdlIGRvbuKAmXQga25vdyB3aGVyZSB0aGV5IHdlbnQuICBXZSBkaWRu4oCZdCBldmVuIHNlZSB0aGVtIGdvLg0KCVdlIGRvbuKAmXQga25vdyB3aGF0IHdl4oCZcmUgZ29pbmcgdG8gZG8gd2l0aG91dCB0aGVtLg0KCUJ1dCB3ZeKAmWxsIHRoaW5rIG9mIHNvbWV0aGluZy4gIEh1bWFucyBhcmUgc21hcnQuIEl04oCZcyB3aGF0IG1ha2VzIHVzIHN1cGVyaW9yIHRvIHRoZSBhbmltYWxzIGFuZCB0aGUgYmFiaWVzLiANCglXZeKAmWxsIGZpZ3VyZSBzb21ldGhpbmcgb3V0Lg=="
+"eventtime","2006-11-22 23:20:00"
+"current_moodid","25"
+"url","http://halosregret.livejournal.com/39032.html"
+"userid","6029"
+"itemid","151"
+"event","<i>nin.com has updated with European tour dates for 2007. The tour starts in Lisbon, Portugal on the 10th of February. All sale dates and supporting acts are currently TBA.</i>
+
+jesus h. christ on a bicycle...
+
+so, who has money to send me to europe?
+
+please, pretty please.  i'll make it worth your while...
+ 
+;)"
+"eventtime","2006-10-26 23:36:00"
+"current_moodid","6"
+"url","http://halosregret.livejournal.com/38871.html"
+"userid","6029"
+"itemid","150"
+"event","power is wonderful and i love national grid and nyseg for giving it back to me after a week with out it. thanks :)
+
+i feel like death. i am so quesy and just plain icky feeling."
+"eventtime","2006-10-21 11:51:00"
+"current_moodid","97"
+"url","http://halosregret.livejournal.com/38531.html"
+"userid","6029"
+"itemid","148"
+"event","since it was too damn hot yesterday bliss and i said ""fuck it"" to all of our plans (the 2 things we do every tuesday night) and stayed in the bedroom where the ac is.  so, since we were pretty much closed in a room all night long with nothing but dvd's we have already watched 8,000,000,000,001 times, we decided to play the word association game.  we made 3 lists of like 27 words each and then took turns. first i'd answer, then using the words i gave, she'd answer, etc... until we were at the end of the notebook page.  it was fun and what was even funnier were the ""sentences"" that evolved from it.  These are the best of the worst, if you will:
+
+<i>level oil body shots needles drugs bad night
+engage loot booty matey aarrgh... grrrr.. monster house
+old thing bought stole internet porn butts
+some fuck yes saints sinners candle wax
+nose cheese sandwich boys bad mama-jamma
+rose thorns needles rough sex bondage pain
+blog life dead fish what huh what
+lick nipple piercing lip lick whip cream
+dry hump you flower blossom open me please
+guitar hero worship everyone  but ass ram lamb
+finger vibrator sex wet penis condom thrown bed</i>
+
+oh, then there is the fucked up dr. seuss line:
+
+<i>dress blue fish two many fingers sex</i>
+
+okay and you know nin had to show up in some way in what obviously turned out to be the dirty version of the word association game:
+
+<i>rabbit food physical trent hoooot boy aaron
+halo nothing bong hit bite yum trent
+chair angry man whore jeordie yuck moan
+photo booth cute aaron sex ooohhh... nice
+frames glasses lost girl guitar god trent
+jerome body heat gun ray iron fist</i>
+
+yeah, it started off all innocent  like <i>paper cup star light febreeze stinky cabbage</i> and the longer we played the more dirty it became.  haha  god we are such freaks. see, this is why we can't stay at home when we normally do things, we get stupid(er). lol it was a lot of fun though, i tell you what.  hehe  (i always wanted to write or say that)
+
+yeah, i'm gonna post this now before i change my mind.  lol"
+"eventtime","2006-08-02 14:29:00"
+"current_moodid","8"
+"url","http://halosregret.livejournal.com/37995.html"
+"userid","6029"
+"itemid","147"
+"event","<lj-cut text=""China Massacres 50,000 Dogs in Anti-Rabies Campaign"">
+Dogs Being Walked Seized From Their Owners and Beaten to Death on the Spot
+By CHRISTOPHER BODEEN, AP
+
+SHANGHAI, China (Aug. 2) - China slaughtered 50,000 dogs in a government-ordered crackdown after three people died of rabies, sparking unusually pointed criticism in state media Tuesday and an outcry from animal rights activists.  
+
+Health experts said the brutal policy pointed to deep weaknesses in the health care infrastructure in China, where only 3 percent of dogs are vaccinated against rabies and more than 2,000 people die of the disease each year.  
+The five-day slaughter in Mouding county in Yunnan province in southwestern China ended Sunday and spared only military guard dogs and police canine units, state media reported.  
+
+Dogs being walked were seized from their owners and beaten to death on the spot, the Shanghai Daily newspaper reported. Led by the county police chief, killing teams entered villages at night creating noise to get dogs barking, then beat the animals to death, the reports said.  
+
+Owners were offered 63 cents per animal to kill their own dogs before the teams were sent in, they said.  
+
+The killings were widely discussed on the Internet, with both legal scholars and animal rights activists criticizing them as crude and cold-blooded. The World Health Organization said more emphasis needed to be placed on rabies prevention.  
+
+The official newspaper Legal Daily blasted the killings as an ""extraordinarily crude, cold-blooded and lazy way for the government to deal with epidemic disease.""  
+
+""Wiping out the dogs shows these government officials didn't do their jobs right in protecting people from rabies in the first place,"" the newspaper, published by the central government's Politics and Law Committee, said in an editorial in its online edition.  
+
+In an editorial, the official Xinhua News Agency said the killings wouldn't have been necessary if the local government had been more attentive, but called the slaughter ""the only way out of a bad situation.""  
+
+""If they'd discovered this earlier, they could have vaccinated the dogs and ... controlled the outbreak,"" the editorial said.  
+The killings prompted calls for a boycott of Chinese products from the activist group People For the Ethical Treatment of Animals.  
+
+""We are urging everyone to actively boycott - not a word we use lightly - anything from China given the bludgeoning killing of thousands of dogs,"" PETA President Ingrid Newkirk said.  
+
+She said the group had canceled all orders of merchandise it sells that are made in China. Will Wright, at PETA's European office in London, said the orders were worth about $300,000.  
+
+""We believe other groups will join us in expressing outrage over the blatant cruelty to animals the world is witnessing,"" Wright said.  
+
+Mouding County officials defended the slaughter in a region where about 360 of the 200,000 residents suffered dog bites this year, with three people reportedly dying of rabies, including a 4-year-old girl.  
+
+""With the aim to keep this horrible disease from people, we decided to kill the dogs,"" Li Haibo, a spokesman for the county government, was quoted as saying by Xinhua.  
+
+Calls to county government offices went unanswered Tuesday. Located in mountains about 1,240 miles southwest of Shanghai, Mouding is famed for its Buddhist shrines.  
+
+Unlike in the West, where dogs have long been cherished as companions or helpmates, dogs have rarely had an easy time in China. Dog meat is eaten throughout the country, revered as a tonic in winter and a restorer of virility in men.  
+
+Following the communist seizure of power in 1949, dog ownership was condemned as a bourgeois affectation and canines were hunted as pests. Attitudes have softened in recent years, although urban Chinese are still subject to strict rules on the size of their pets and must pay steep registration fees.  
+
+About 70 percent of rural households now keep dogs, according to the Chinese Center of Disease Control and Prevention, and increased rates of dog ownership have been tied to a surge in the number of rabies cases in recent years. It said there were 2,651 reported deaths from the disease in 2004, the last year for which data was available.  
+
+Access to rabies treatment is also highly limited, especially in the countryside, said Dr. Francette Dusan, a World Health Organization expert.  
+
+Effective rabies control requires coordinated efforts between human health, animal health and municipal agencies and authorities, Dusan said.  
+
+""This has not been pursued adequately to date in China, with most control efforts consisting of purely reactive dog culls,"" she said.  
+
+08-02-06 01:45 EDT</lj-cut text=""China Massacres 50,000 Dogs in Anti-Rabies Campaign"">
+
+this is why i fucking hate the human race so much.  i mean wtf?? who says that this is acceptable.  you know what? i hope that someone runs up to those motherfuckers who ordered this while they are out with their families and fucking grabs and pummels their children to death right there on the streets.  seriously. i wish for this.  stupid fucking humans."
+"eventtime","2006-08-02 13:39:00"
+"current_moodid","19"
+"url","http://halosregret.livejournal.com/37818.html"
+"userid","6029"
+"itemid","146"
+"event","i should be working on stuff but now i'm just bored.
+
+
+uuuuuuuuuuuuuggggggggggggggggggggggggghhhhhhhhhhhhhhhhh!!!!"
+"eventtime","2006-07-22 19:26:00"
+"current_moodid","37"
+"url","http://halosregret.livejournal.com/37509.html"
+"userid","6029"
+"itemid","145"
+"event","G. Dubya on backing an amendment to ban gay marriage:
+
+<i>""As this debate goes forward, we must remember that every American deserves to be treated with tolerance, respect and dignity,"" he said. ""All of us have a duty to conduct this discussion with civility and decency toward one another, and all people deserve to have their voices heard.""</i>
+
+What I think he actually meant was:
+
+<i>""As this debate goes forward, we must remember that <b>almost</b> every American deserves to be treated with tolerance, respect and dignity,"" he said. ""All of us have a duty to conduct this discussion with civility and decency toward one another, and all people deserve to have their voices heard <b>unless you are gay/lesbian or for gay/lesbian rights, then we just don't care and wish all you faggots would die</b>.""</i>
+
+happy pride everyone.
+
+thank you and good night."
+"eventtime","2006-06-04 16:10:00"
+"current_moodid","8"
+"url","http://halosregret.livejournal.com/37368.html"
+"userid","6029"
+"itemid","144"
+"event","mia is gone.  we put her to sleep this morning at 9:15. she won't hurt, or be scared of everything anymore.  we love you cha.
+
+i want my kitty."
+"eventtime","2006-05-19 15:48:00"
+"current_moodid","129"
+"url","http://halosregret.livejournal.com/36891.html"
+"userid","6029"
+"itemid","143"
+"event","mia mia's staying at the vets for a few days for observation and an attempt to ""get her back on track"".  not looking too good for the poor baby.  sending her lots of good thoughts and positive energy.  i want my kitty :("
+"eventtime","2006-05-15 20:15:00"
+"url","http://halosregret.livejournal.com/36695.html"
+"userid","6029"
+"itemid","142"
+"event","okay, this is just funny to me for some reason.  this is the 5th different kinsey scale quiz that i have taken today. i was trying to figure out what my average score on the kinsey scale would be and it always turns up as a 3 or 3.05. so, guess i'm bi huh? haha  don't ask why i was doing this, i don't know. i guess bliss' current fasination with jung is making me think of other researchers/psycologists and this just popped up first.  so...
+
+off to lancaster. ttyl
+
+
+<h2>Klein Sexual Orientation Grid</h2><br>I scored an average of <b>3.05</b><br><br><table bgcolor=""black"" border=""0"" cellpadding=""0"" cellspacing=""1""><tbody><tr><td bgcolor=""#CCFFCC"" height=""20"" width=""192""></td><td bgcolor=""white"" width=""186""></td></tr></tbody></table><table width=""436"" border=""0"" cellspacing=""0"" cellpadding=""0""><tr><td>0</td><td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> </tr></table><table width=""382"" border=""0"" cellspacing=""0"" cellpadding=""0""><tr><td>Heterosexual</td><td style=""text-align:center;"">Bisexual</td><td style=""text-align:right;"">Homosexual</td></tr></table><br><a href='http://www.youthnetsouthampton.org.uk/breakout/kleingrid.php' target='_blank'>Take the quiz</a>"
+"eventtime","2006-05-11 10:59:00"
+"url","http://halosregret.livejournal.com/36547.html"
+"userid","6029"
+"itemid","141"
+"event","kim, check your journal i left you a message. sleep now i must."
+"eventtime","2006-04-05 19:37:00"
+"url","http://halosregret.livejournal.com/36134.html"
+"userid","6029"
+"itemid","140"
+"event","uuuuuggggg..... okay. still stuck at the damn airport.  2nd day.  they are setting us up in yet another hotel.  i still have no luggage and am therefore filthy. hopefully i can get home tomorrow sometime.  i hope everyone back home got my messages b/c my phone died last night.  well, this use the internet at the airport thing is expensive so this is all. i'll let everyone know when i get home.  
+
+kim, i especially hope that you got my message.  you'll be the first to know when i get back to buffalo from this airport hell."
+"eventtime","2006-04-03 19:50:00"
+"current_moodid","3"
+"url","http://halosregret.livejournal.com/36031.html"
+"userid","6029"
+"itemid","139"
+"event","here home here now. tired. have to go to cali again 30th-2nd.  that should be all then for awhile.  lots to tell but so tired. 
+
+later"
+"eventtime","2006-03-13 12:02:00"
+"current_moodid","68"
+"url","http://halosregret.livejournal.com/35806.html"
+"userid","6029"
+"itemid","138"
+"event","<i>The Wall Street Journal recently reported how Danvers (Mass.) State Hospital, a giant, ornate facility north of Boston, is becoming condos. Only a third of the main building will survive. Columbia, S.C., also is tearing down most of its century-old mental hospital complex. </i>
+
+There are no words to describe the horrificness of the upcoming demolition of Danvers. no words....   ::sigh:: 
+
+why must we destroy everything that is beautiful?"
+"eventtime","2006-02-01 22:46:00"
+"current_moodid","92"
+"url","http://halosregret.livejournal.com/35522.html"
+"userid","6029"
+"itemid","137"
+"event","RmluZGluZyBwZW9wbGUgSSB3ZW50IHRvIGhpZ2ggc2Nob29sIHdpdGggb24gbXlzcGFjZSBkZXByZXNzZXMgbWUsIGVzcGVjaWFsbHkgd2hlbiBJIHNlZSB3aGVyZSB0aGV5IGFyZSBsaXZpbmcsIGhvdyBtdWNoIHRoZXkgYXJlIG1ha2luZyAod2l0aG91dCBncmFkdWF0aW5nIGZyb20gb3IgZXZlbiBnb2luZyB0byBjb2xsZWdlKSwgYW5kIGhvdyDigJxoYXBweeKAnSB0aGV5IGFsbCBzZWVtIHRvIGJlLiAgDQoNCk15IG9ubHkgc29sYWNlIGlzIGtub3dpbmcgdGhhdCB0aGV5IHRvbyBhcmUgbWlzZXJhYmxlIGp1c3QgbGlrZSBldmVyeW9uZSBlbHNlIGFuZCBpZiBJIGhhZCB0aGUgY2hhbmNlIHRvIGhpdCB0aGVtIHdpdGggbXkgY2FyIChhY2NpZGVudGFsbHkgb2YgY291cnNlKSBhbmQgdGhlbiBiYWNrIG92ZXIgdGhlbSBzZXZlcmFsIHRpbWVzIChvb3BzLCBkaWQgSSBkbyB0aGF0Pz8gSSB3YXMganVzdCB0cnlpbmcgdG8ga2lsbCwgSSBtZWFuIGhlbHAgdGhlbSkgSSB3b3VsZCBkbyBzbyBpbiBhIGhlYXJ0IGJlYXQuICANCg0KV2hpY2ggcmVtaW5kcyBtZS4uLiB3aGVyZSA8aT5kaWQ8L2k+IEkgcHV0IG15IGtleXM/Pz8gIDsp"
+"eventtime","2006-01-15 12:11:00"
+"url","http://halosregret.livejournal.com/35303.html"
+"userid","6029"
+"itemid","136"
+"event","home again home again.... soooooooo tired. off to bed to be at work at 7:30 to be out of work at 9:30 to be uber-busy all day starting at 9:45. aaaaahhhhhhhh!!! it never stops. lol  write more later.  ::yawn::"
+"eventtime","2005-12-14 23:32:00"
+"current_moodid","84"
+"url","http://halosregret.livejournal.com/35023.html"
+"userid","6029"
+"itemid","135"
+"event","just a few quick things to say about the ""tour"":
+
+1) oh my fucking god (hallowed is my trent)
+2)see above comment
+3)aaron is amazing
+4)trent
+5)asshole rugby players asked me to truce with them at the barrier calling me a ""tough bitch"" (one of their highest compliments for a girl apparently).
+6)soundcheck, soundcheck, soundcheck
+7)trent reznor is the hottest man in the world
+8) trent bounce is sooo hot
+9)sara and i have been to so many shows that we now look choreographed... nice
+10)queens of the stone age make bliss and i physically ill and just might be the worst band in the world and i want to kick the lead singer josh until he's dead
+11)did i mention trent??
+12)met many many cool people while waiting for hours in many different cities
+13)miles put on car: 2454.8 
+
+and last but certainly not least... 
+
+14)FUCKING BURN!!!!!
+
+it was just an amazing experience. 
+
+which brings me to my new news... (totally not nin related but i thought i had to at least say something about the tour we took. lol)
+
+i have been asked to take part in a crj/juvenile justice inititive in california. this could lead to an honest to goodness real job in the field in which i have a degree (plus maybe moving out to cali isn't bad either). i have to decide if i can go soon. it is a 6 day trial run in which i will work on the project and they will see if they like me and i will see if i like them and what they are doing.  i have to send in a resume and references together (which reminds me, i have to talk to you baroness :)haha) this could be something so great!!  i am excited! it would be in the first weeks of december (exact dates have changed 2x already so... i'll keep everyone informed)
+
+ keep your fingers crossed for me though!!"
+"eventtime","2005-11-14 13:10:00"
+"current_moodid","41"
+"url","http://halosregret.livejournal.com/34711.html"
+"userid","6029"
+"itemid","134"
+"event","i hate funerals. and wakes.  that is what i have been doing all week.  coughing and sneezing and sniffling at a wake and this morning a funeral.  this sucks."
+"eventtime","2005-10-28 12:47:00"
+"url","http://halosregret.livejournal.com/34531.html"
+"userid","6029"
+"itemid","132"
+"event","aaa!! new trent song. trent on piano all by himself! so amazing. aaaaaaahhhh!  great new song. this is gonna be a good day now!"
+"eventtime","2005-09-11 07:15:00"
+"current_moodid","99"
+"url","http://halosregret.livejournal.com/33871.html"
+"userid","6029"
+"itemid","131"
+"event","oh yeah, and i can't find my damn phone so if anyone has tried to call me since yesterday afternoon i didn't get it (obviously if you tried to call and didn't get me) but if you left a message or text message i haven't received it yet.  its probably at dancing.  fun.  so, if you had to tell me something you're gonna have to tell me again either 1)in person when and if i see you 2) as a comment on here or 3)send an e-mail.  sorry about that."
+"eventtime","2005-09-08 10:25:00"
+"url","http://halosregret.livejournal.com/33569.html"
+"userid","6029"
+"itemid","130"
+"event","oh great... now its raining. well at least no one will try to talk to me as i ride.  haha"
+"eventtime","2005-09-08 10:24:00"
+"url","http://halosregret.livejournal.com/33376.html"
+"userid","6029"
+"itemid","129"
+"event","bitch bitch bitch.   wah wah wah.   ::rolls eyes::  
+
+aunts surgery is on the 12th. she's scared (and she should be). going to see her and (on the way there stopping to see my pregnant ""friend"" as well) next week.  not gonna be fun. hope she'll be okay.  
+
+was trying to figure out a way to go into the store for an hour today (all i could possibly spare before going to dancing). but i can't.  it's just not feasible without me killing myself trying to get to the other 2 jobs that are desperately needed to make ends meet. sorry. just can't be in 3 places at once.  i already bailed on other plans i had today so everyone is just gonna have to deal. i cannot be in 3 places at once no matter how hard i try.  doesn't matter anyway. no matter what i do it isn't enough so.  ::shrugs::   i'll just keep on keeping on. trying to get and keep my life in some kind of order.  so if anyone has a problem with that... bite me (or give me money and lots of it)   :)  haha
+
+going to try to stop by my parents' today while out in lancaster to look at a new bike my dad has b/c mine is dying a quick death with all the riding i've been doing the past few days since taking my car off the road.  hell, the damn thing will probably die today on me and i'll have to beg a ride home from someone. haha  ahhh the biking.... while it takes me longer to get places i feel better, am getting exercise, and having fun.  between the riding and all the dancing i'm just gonna be one toned and lean girl in no time. (great just what i need stronger legs, as if dancing hadn't made my legs uber-strong as it is) haha
+
+okay i so didn't have the time to do this and now i'm gonna be late. aaaahhhhh!!! good thing i found someone to watch the pets (sitting business) next week while going to my aunts and while cramming my 40 hours into a few days.  christ.  this just sucks. next week is gonna be hell."
+"eventtime","2005-09-08 10:01:00"
+"url","http://halosregret.livejournal.com/33210.html"
+"userid","6029"
+"itemid","128"
+"event","Qmxpc3MgYW5kIEkgd2VudCB0byBDbGV2ZWxhbmQgZm9yIHRoZSBUb3JpIHNob3cgbGFzdCBuaWdodC4gIEl0IHdhcyBhIHJlYWxseSBncmVhdCBzaG93LCBtdWNoIGJldHRlciB0aGFuIHRoZSBUb3JvbnRvIHNob3csIGluIG15IG9waW5pb24uICBTaGUgcGxheWVkIGFuIGFtYXppbmcgc2V0LCBoYWQgYSB0b24gb2YgZW5lcmd5LCBhbmQgd2FzIGp1c3QgY29tcGxldGVseSBPTi4gIEl0IHdhcyBncmVhdC4gIEJ1dCB3aG8gY2FyZXMgYWJvdXQgdGhhdCBoYSBoYS4gIA0KDQogSSB3YXMgYSB0YWQgYml0IHdvcnJpZWQgd2hlbiB3ZSBsZWZ0IGVhcmx5IGluIHRoZSBkYXkgdGhhdCB3ZeKAmWQgaGF2ZSBhIGhhcmQgdGltZSBnZXR0aW5nIGhvbWUgdGhhbmtzIHRvIHRoZSByZW1uYW50cyBvZiBLYXRyaW5hLiAgSSB0aG91Z2h0IHRoYXQgdGhlIHN0b3JtIHdhcyBnb2luZyB0byBiZSBob3JyZW5kb3VzLCB3aXRoIGxpZ2h0bmluZywgdGh1bmRlciwgYW5kIHRvcnJlbnRpYWwgZG93bnBvdXJzIHVubGlrZSBhbnl0aGluZyBJIGhhdmUgc2Vlbi4gIEkgZXhwZWN0ZWQgdGhlIHRyaXAgaG9tZSB0byB0YWtlIDYgb3IgNyBob3VycyAoaXQgbm9ybWFsbHkgdGFrZXMgYWJvdXQgMiBob3VycyA0NSBtaW51dGVzIHRvIGdldCB0byBDbGV2ZWxhbmQgZnJvbSBidWZmYWxvKS4gIFdlbGwsIEkgbmVlZG7igJl0IGhhdmUgd29ycmllZC4gIFdlIGdvdCBob21lIGluIHRoZSBzYW1lIGFtb3VudCBvZiB0aW1lIGl0IHRvb2sgdG8gZ2V0IHRoZXJlOyBhYm91dCAzIGhvdXJzIGFuZCB0aGF0IGluY2x1ZGVkIHVzIHN0b3BwaW5nIGF0IHRoZSBzdG9yZS4gIEl0IHJhaW5lZCBmcm9tIHRoZSBtb21lbnQgd2UgZ290IHRvIHRoZSB2ZW51ZSB0byB0aGUgbW9tZW50IHdlIGxlZnQgYW5kIHJlbWFpbmVkIHJhaW5pbmcgc3RlYWRpbHkgdGhlIGVudGlyZSByaWRlIGhvbWUuICBIZWxsLCB3ZSBkcm92ZSB0aHJvdWdoIGEgd29yc2Ugc3Rvcm0gYSBmZXcgd2Vla3MgYWdvIGJyaW5naW5nIHN5ZCB0byBidWZmYWxvIGZyb20gUGl0dHNidXJnaC4gIExpZ2h0bmluZyBoaXQgdGhlIG1lZGlhbiwgYW5kIHRoZSBwYXZlbWVudCByaWdodCBuZXh0IHRvIG1lLCBldmVyeW9uZSBlbmRlZCB1cCBzdG9wcGluZyByaWdodCB3aGVyZSB0aGV5IHdlcmUgaW4gdGhlaXIgbGFuZXMgYmVjYXVzZSB5b3UgY291bGRu4oCZdCBldmVuIHNlZSB0byB0aGUgZW5kIG9mIHlvdXIgb3duIGNhcuKAmXMgaG9vZC4gIE5vdyA8aT50aGF0PC9pPiB3YXMgYSByYWluIHN0b3JtLiBIYWhhICANCg0KRHJpdmluZyBpbiB0aGUgcmFpbiBpc27igJl0IG5lYXJseSBhcyBiYWQgYXMgbW9zdCBwZW9wbGUgbWFrZSBpdCBvdXQgdG8gYmUuICBUaG9zZSBhcmUgdGhlIHBlb3BsZSB3aG8gbWFrZSBpdCBkYW5nZXJvdXMgZm9yIHRoZSBtb3JlIGV4cGVyaWVuY2VkIGRyaXZlcnMuICBJZiB5b3UgYXJlIG5lcnZvdXMgaW4gdGhlIHJhaW4sIGZ1Y2tpbmcgZ2V0IG9mZiB0aGUgcm9hZCBhbmQgbGV0IHVzIGRyaXZlIGJ5IHlvdS4gUHV0IHlvdXIgZmxhc2hlcnMgb24gYW5kIGp1c3Qgd2FpdC4gIFRoYW5rcy4gIDspICBJ4oCZbGwgc3RvcCBub3cuICBTb3JyeSBhYm91dCB0aGF0LiAgICANCg0KT2ggeWVhaCwgbXkgcGFyZW50cyBjYW1lIGhvbWUgZnJvbSBGbG9yaWRhIHRvbmlnaHQgYW5kIGJyb3VnaHQgbWUgdGhlIG1vc3QgZmFidWxvdXMgR29vZnkgYWxhcm0gY2xvY2suICBJdHMgZ3JlYXQuIGhhaGEgIA0KDQpPaCB5ZWFoIHBhcnQgMjogSSB3YXRjaGVkIGEgZmV3IG1pbnV0ZXMgb2YgVFYgd2l0aCBteSBwYXJlbnRzIGFuZCBldmVyeSBjaGFubmVsIHdhcyBzaG93aW5nIHRoZSBkZXZhc3RhdGlvbiBjYXVzZWQgYnkgS2F0cmluYSBhbmQgbXkgbW9tIGxvb2tlZCBhdCBtZSBhbmQgc2FpZCBhbGwgd2lkZSBleWVkIGFuZCBjb25jZXJuZWQgIkhvdyBpcyBUcmVudD8/IiAgSXQgd2FzIGZhbi10YXN0aWMhISAgSSBndWVzcyBJIGZvcmdvdCB0byB0ZWxsIGhlciBoZSBtb3ZlZC4gaGFoYS4gIFRoYXQncyBhd2Vzb21lIHRoYXQgbXkgbW9tIHRob3VnaHQgYWJvdXQgdGhhdC4gIEtub3cgd2hhdCB0aGF0IG1lYW5zPz8gSXQgbWVhbnMgSSBhbSB3YWFhYWF5eXl5eSB0b28gb2JzZXNzZWQgd2l0aCB0aGF0IG1hbi4gbG9sDQoNCmRvbmUgbm93Lg=="
+"eventtime","2005-08-31 23:05:00"
+"url","http://halosregret.livejournal.com/32812.html"
+"userid","6029"
+"itemid","127"
+"event","all i want to do right now is go to concerts/shows (some bands are too ""small"" to have ""concerts"", just shows lol) and be at home. 
+
+anyway, all my money now belongs to the following people: tori, the dolls, rasputina, and, of course, trent and lets not forget all the money being siphoned out of me by the 38,000 people who's weddings i have to go to this fall, both in state and out, oh and those ""friends"" who are having kids which are due this fall.  stupid people and their happily ever afters with the marriage and the kids messing with my time and money.  grrr.... ;)   
+
+anyway, this fall should have me ridiculously busy what with the classes, dancing, pet sitting, shows/concerts, weddings, baby things, traveling, and whatever else is going to be thrown at me on a daily/weekly basis.  well, at least being that busy will make me forget how miserable i am/can be ;)  it's gonna be a fun autumn.  
+
+gotta go to registration at dancing now.  yay, its fun being screeched at by youngin's and their parents who are ""so glad to see you!! how was your summer!!! i miss your purple hair are you going to dye it back again?  you're dancing right?""  ::shudder:: lol  gotta go.
+
+
+
+this entry was utterly pointless. lol  wait, so are all of my entries (which is why i don't update often) hehe"
+"eventtime","2005-08-25 11:57:00"
+"current_moodid","45"
+"url","http://halosregret.livejournal.com/32617.html"
+"userid","6029"
+"itemid","126"
+"event","We are home from Wantagh.  The show was basically perfect.  I always forget what an amazing voice Tori has until I see her live.  The mood was totally set as well: perfect clear sky, nearly full moon shining over head, gentle breeze blowing in from the ocean.  aaaahhh... it was so relaxing and beautiful.  
+
+Other than the concert the whole in Long Island/Wantagh blew.  I always forget how much I hate NYC and all that surrounds it. I get grumpy and uber-complainie (yes, i know that isn't a word, but it is now cause i said so).  First, when we finally got to the correct area of the island we couldn't find anywhere to grab some lunch. So, I thought hey, if we can find a health food store, they might have 1)some food or 2) know of a place where 2 vegans can grab some grub.  Wel, we found 2 ""health food"" stores. hehehe  The first was being operated by a very large and sweaty, stereotypical long island italian man.  The store was dark, very very tiny, and pretty dirty.  Along the shelves were tons of chips and cheese crackers, a meger selection of vitamins, and some breakfast bars.  I asked him if he knew where we could find some food, even though I knew I was wasting my breath.  Sure enough, his eyes kinda glazed over as he looked at me and said ""Zen Garden over on... ummmm... somewhere on ummm... Well, they might have some vegetables over at the Zen Garden on ummm....."" Yeah, dude. Got it ummmm... you have no idea.  We left there to go to another one.  This one looked hopeful.  It was a little bigger well lit and as soon as I walked in I was faced with a whole wall of supplements, no food even though the sign outside said ""HEALTH FOOD!!"" (just like that too all caps and everything haha). I asked the lady behind the counter where a vegan/vegetarian friendly resturant was and she told me the few that were around had closed and there had in fact been another lady in earlier who had inquired about the same thing.  Then she proceeded to tell me the pizza place next door could make me a cheese pizza with nothing on it.  I told her again, that I was vegan and didn't eat animal products of any kind.  She looked confused and said ""you don't eat cheese? What do you eat? That can't be very healthy can it?"" I bid her farewell and left.  We ended up finding some hummus and pita bread at a grocery store on Wantagh Ave (its just fun to type Wantagh, don't ask).  It was really a quite entertaining trip.  
+
+Now I want to go to the beach, like Clearwater in Florida or something.  I just want to spend some time relaxing on a cabana looking out at the ocean.  ::sigh:: stupid poorness."
+"eventtime","2005-08-19 12:57:00"
+"current_moodid","56"
+"url","http://halosregret.livejournal.com/32258.html"
+"userid","6029"
+"itemid","125"
+"event","When I was 9 I met a psychic who told me that I'd die on my birthday (August 14th) and each year since then I have been disappointed when it became August 15th.  Yes, I am that disturbed.  ;)"
+"eventtime","2005-08-15 01:37:00"
+"current_moodid","55"
+"url","http://halosregret.livejournal.com/32103.html"
+"userid","6029"
+"itemid","124"
+"event","i'm home. much fun was had.  only one person knows what the fuck i am talking about and she is probably all huh? right now and i am okay with leaving people feeling like that. haha (totally kidding of course)
+
+sara, we should do something next week.  what do you say?  movie...spot coffee(hehehe)... something.  anyway.
+
+umm, so yeah. i have another obsession and bliss is actually on board for this one. haha weird.  
+
+this is the weirdest entry so far.  and now i'm done with this."
+"eventtime","2005-08-04 22:47:00"
+"current_moodid","130"
+"url","http://halosregret.livejournal.com/31766.html"
+"userid","6029"
+"itemid","123"
+"event","T2theSwgc28gSSBjb3VsZG7igJl0IGZpbmQgYW55b25lIHRvIHRha2UgdGhlIG11ZHZheW5lIHRpeCBmb3IgdGhlIHNob3cgaW4gVG9yb250byB0b25pZ2h0LCBzbyBJIGp1c3QgZnVja2luZyB3ZW50IGJ5IG15c2VsZi4gQW5kIHlvdSBrbm93IHdoYXTigKY/IEl0IHdhcyBmdWNraW5nIGFtYXppbmchICBOb3Qgb25seSB3YXMgdGhlIHNob3cgZnVja2luZyBncmVhdCwgYnV0IEkgbWV0IHRoZW0uIEkgZnVja2luZyBtZXQgY2hhZCAoaGVoZWhlIGNoYWQpISEhICBBbWF6aW5nLiAgVGhlIHNob3cgd2FzIHBoZW5vbWVuYWwuICBJIGFsd2F5cyB3b25kZXJlZCBob3cgaW4gdGhlIGhlbGwgaGUgY291bGQgYmUgYWxsIG1lbG9kaWMgb25lIG1pbnV0ZSBhbmQgdGhlbiBiZSBzY3JlYW1pbmcgaW4gdGhhdCB3b25kZXJmdWwgd2F5IG9mIGhpcyB0aGUgbmV4dCBhbmQgZGVjaWRlZCB0aGF0IGl0IGhhZCB0byBiZSBzdHVkaW8gbWFnaWMuICBXZWxsLCBpdCBkZWZpbml0ZWx5IGlzIG5vdCBzdHVkaW8gbWFnaWMuICBIaXMgdm9pY2UgaXMgYXN0b3VuZGluZy4gIEl0IGlzIHNv4oCmcGVyZmVjdCBhbmQgdGhlbiBhbGwgb2YgYSBzdWRkZW4gaGUgYnJlYWtzIGludG8gdGhpcyBzb3VsLXdyZW5jaGluZyBzY3JlYW0uICBPdXRzdGFuZGluZy4gIFNvLCB5ZWFoLiBJIG11c3QgZ28gZHJpdmUgYnkgZGFyaWVuIGxha2UgdG9tb3Jyb3cgd2hlbiB0aGV5IGdvIG9uIHNvIEkgY2FuIGhlYXIgdGhlbSBjYXVzZSBubyB3YXkgYW0gSSBwYXlpbmcgdG8gZ28gc3RhbmQgaW4gdGhlIGhvdCBzdW4gYWxsIGRheSBqdXN0IHRvIGdldCBhbGwgZ3J1bXB5IGFuZCByYWdlZnVsLiAgSGVoZSAgc28gYW55d2F5LCBJIGFtIHNvIGdvaW5nIHRvIHNlZSB0aGVtIGluIENsZXZlbGFuZCB0b28uICBBd2Vzb21lLiAgQmxpc3MgeW91IGFyZSBnb2luZy4gUGVyaW9kLiA7KSAgDQoNCk9oLCBpbiBvdGhlciBuZXdzOg0KaHR0cDovL25ld3MueWFob28uY29tL3MvZW8vMTY5NzI7X3lsdD1BbVRzUExoWUkzWHFVclBtQ3kuSVBqLnMwTlVFO195bHU9WDNvRE1UQTNPRGR4ZEhCaEJITmxZd001TmpRLQ0KIA0Kb2ggZGVhciBnb2Qgbm8uICB0aGUgaG9ycm9yIHRoZSBob3Jyb3IgdGhlIGhvcnJvci4gIA0KDQpFbm91Z2ggZm9yIG5vdy4gT2ZmIHRvIGdvIHNtaWxlIGxpa2UgYSBkb3JrIGZvciB0aGUgcmVtYWluZGVyIG9mIHRoZSBldmVuaW5nLiBoYWhh"
+"eventtime","2005-07-21 01:15:00"
+"current_moodid","125"
+"url","http://halosregret.livejournal.com/31544.html"
+"userid","6029"
+"itemid","122"
+"event","okay, i had plans for an entry last night prior to watching a movie but since then, due to my amazing memory lately, i have completely forgotton what it was i wanted to write for the online world to read.  oh well.  must not have been very important. HAHA like anything i friggen write in here is important. so, watched the movie <i>wonderland</i>. it was very good.  the special features include the actual LAPD crime scene video. holy fuck! that is all that is needed to be said.  they weren't fucking kidding when they said that the wonderland murders were as gruesome as the tate murders. 
+
+so, i have had some weird stomach plague the past few days.  not fun.  i think i might be better now. a little skittish though.  i am so fucking tired of stomach problems.  stupid body.
+
+so, bliss downloaded the movie haute tension and has been trying to burn it to dvd.  this has been going on for a week and something is always wrong with the dvd she makes; either there is subtitles lacking sound, or sound lacking subtitles, or sound lacking picture, or everything but won't play on dvd player in bedroom (meaning only will play on the comp). so this is very very irritating to her but it is kinda funny for me. let me explain why. she says i obsess way to much about a variety of things, but i have never obsessed for over a week about something on the computer. hehehehe so, this is funny watching her go to the computer and mess around with this stupid movie for hours. NOW who's obsessed bliss? huh? huh? huh? huh? huh? yeah, that's what i thought you said. ;) hehehe
+
+so, syd, i hear you want to come down. correct? when? call your sis or be online tonight so you 2 can chat about it.  
+
+oh yeah, its the 4th of july! i forgot.  yay, fireworks tonight! i love me some fireworks. haha
+
+wonka in 11 days!! woo hoo!"
+"eventtime","2005-07-04 11:51:00"
+"current_moodid","77"
+"url","http://halosregret.livejournal.com/31277.html"
+"userid","6029"
+"itemid","121"
+"event","http://www.chilloutzone.de/files/05062202.html
+
+this is just sick, but it makes me laugh for some reason."
+"eventtime","2005-06-30 12:18:00"
+"current_moodid","7"
+"url","http://halosregret.livejournal.com/31200.html"
+"userid","6029"
+"itemid","120"
+"event","Leave a one-word comment that you think best describes me. It can only be one word. No more. Then copy & paste this in your journal so that I may leave a word about you."
+"eventtime","2005-06-28 12:09:00"
+"current_moodid","113"
+"url","http://halosregret.livejournal.com/30892.html"
+"userid","6029"
+"itemid","119"
+"event","PGxqLWN1dCB0ZXh0PSJob2x5IGNyYXAgdGhpcyBpcyBmdWNraW5nIGxvbmchISEhIj4gDQpPa2F5LCBzbyB3aGF0IGlzIGluIGJvbGQgaXMgd2hhdCBpcyB0cnVlLiB0aGlzIGNvbmZ1c2VzIG1lLCBraW5kYS4gZXhwZWN0IGVkaXRzIGxvbCENCg0KDQpJJ3ZlIE5ldmVyIFNtb2tlZCBQb3QNCkkndmUgTmV2ZXIgS2lzc2VkIEEgTWVtYmVyIE9mIFRoZSBPcHBvc2l0ZSBTZXgNCkkndmUgTmV2ZXIgS2lzc2VkIEEgTWVtYmVyIE9mIFRoZSBTYW1lIFNleA0KPGI+SSd2ZSBOZXZlciBDcmFzaGVkIEEgRnJpZW5kJ3MgQ2FyPC9iPg0KPGI+SSd2ZSBOZXZlciBCZWVuIFRvIEphcGFuPC9iPg0KSSd2ZSBOZXZlciBCZWVuIEluIEEgVGF4aQ0KSSd2ZSBOZXZlciBCZWVuIEluIExvdmUNCkkndmUgTmV2ZXIgSGFkIFNleCBJbiBQdWJsaWMNCjxiPkkndmUgTmV2ZXIgQmVlbiBEdW1wZWQ8L2I+IDxpPmNhbid0IGJlIGR1bXBlZCB3aGVuIHlvdSBkb24ndCBsZXQgcGVvcGxlIGluIHRoYXQgY2xvc2UuPC9pPg0KSSd2ZSBOZXZlciBEb25lIENvY2FpbmUNCkkndmUgTmV2ZXIgU2hvcGxpZnRlZA0KSSd2ZSBOZXZlciBCZWVuIEZpcmVkDQpJJ3ZlIE5ldmVyIEJlZW4gSW4gQSBGaXN0IEZpZ2h0DQpJJ3ZlIE5ldmVyIEhhZCBHcm91cCBJbnRlcmNvdXJzZQ0KSSd2ZSBOZXZlciBTbnVjayBPdXQgT2YgTXkgUGFyZW50J3MgSG91c2UNCkkndmUgTmV2ZXIgQmVlbiBUaWVkIFVwDQpJJ3ZlIE5ldmVyIFJlZ3JldHRlZCBIYXZpbmcgU2V4IFdpdGggU29tZW9uZQ0KSSd2ZSBOZXZlciBCZWVuIEFycmVzdGVkDQpJJ3ZlIE5ldmVyIE1hZGUgT3V0IFdpdGggQSBTdHJhbmdlcg0KSSd2ZSBOZXZlciBTdG9sZW4gU29tZXRoaW5nIEZyb20gTXkgSm9iIDxpPmhleSwgaSBuZWVkZWQgY29tcHV0ZXIgcGFwZXIuIGkgZmVlbCBiYWQuPC9JPg0KSSd2ZSBOZXZlciBDZWxlYnJhdGVkIE5ldyBZZWFycyBJbiBUaW1lcyBTcXVhcmUNCjxiPkkndmUgTmV2ZXIgR29uZSBPbiBBIEJsaW5kIERhdGU8L2I+DQpJJ3ZlIE5ldmVyIExpZWQgVG8gQSBGcmllbmQNCkkndmUgTmV2ZXIgSGFkIEEgQ3J1c2ggT24gQSBUZWFjaGVyDQo8Yj5JJ3ZlIE5ldmVyIENlbGVicmF0ZWQgTWFyZGkgR3JhcyBJbiBOZXcgT3JsZWFuczwvYj4NCjxiPkkndmUgTmV2ZXIgQmVlbiBUbyBFdXJvcGU8L2I+DQpJJ3ZlIE5ldmVyIFNraXBwZWQgU2Nob29sDQpJJ3ZlIE5ldmVyIFNsZXB0IFdpdGggQSBDby1Xb3JrZXINCkkndmUgTmV2ZXIgQ3V0IE15c2VsZiBPbiBQdXJwb3NlDQo8Yj5JJ3ZlIE5ldmVyIEhhZCBTZXggQXQgVGhlIE9mZmljZTwvYj4NCjxiPkkndmUgTmV2ZXIgQmVlbiBNYXJyaWVkIChsZWdhbGx5KTwvYj4NCjxiPkkndmUgTmV2ZXIgQmVlbiBEaXZvcmNlZDwvYj4NCkkndmUgTmV2ZXIgSGFkIFNleCBXaXRoIE1vcmUgVGhhbiBPbmUgUGVyc29uIFdpdGhpbiBUaGUgU2FtZSBXZWVrDQpJJ3ZlIE5ldmVyIFBvc2VkIE51ZGUNCjxiPkkndmUgTmV2ZXIgR290dGVuIFNvbWVvbmUgRHJ1bmsgSnVzdCBUbyBIYXZlIFNleCBXaXRoIFRoZW08L2I+DQo8Yj5JJ3ZlIE5ldmVyIEtpbGxlZCBBbnlvbmU8L2I+DQpJJ3ZlIE5ldmVyIFJlY2VpdmVkIFNjYXJzIEZyb20gTXkgU2V4IFBhcnRuZXINCjxiPkkndmUgTmV2ZXIgVGhyb3duIFVwIEluIEEgQmFyPC9iPg0KPGI+SSd2ZSBOZXZlciBQdXJwb3NlbHkgU2V0IEEgUGFydCBPZiBNeXNlbGYgT24gRmlyZTwvYj4NCjxiPkkndmUgTmV2ZXIgRWF0ZW4gU3VzaGk8L2I+DQo8Yj5JJ3ZlIE5ldmVyIEJlZW4gU25vd2JvYXJkaW5nPC9iPg0KSSd2ZSBOZXZlciBIYWQgU2V4IEF0IEEgRnJpZW5kJ3MgSG91c2UgV2hpbGUgVGhleSBXZXJlIFRocm93aW5nIEEgUGFydHkNCjxiPkkndmUgTmV2ZXIgSGFkIFNleCBJbiBBIERyZXNzaW5nIFJvb208L2I+DQo8Yj5JJ3ZlIE5ldmVyIEZsYXNoZWQgQW55b25lPC9iPg0KSSd2ZSBOZXZlciBNZXQgQW55b25lIGZyb20gT25saW5lDQo8Yj5JJ3ZlIE5ldmVyIEJlZW4gUHJlZ25hbnQ8L2I+DQo8Yj5JJ3ZlIE5ldmVyIFN1bmcgS2FyYW9rZTwvYj4gPGk+SSByZWZ1c2U8L2k+DQpJJ3ZlIE5ldmVyIEJlZW4gU2tpbm55IERpcHBpbmcNCknigJl2ZSBOZXZlciBGbG93biBpbiBhbiBhaXJwbGFuZQ0KPGI+SSd2ZSBOZXZlciBCZWVuIFNreWRpdmluZzwvYj4gPGk+TGV0J3MgZ28gbm93ISEhPC9pPg0KSSd2ZSBOZXZlciBTdW5nIEJyb2Fkd2F5IFNob3d0dW5lcyBpbiB0aGUgcmFpbg0KSSd2ZSBOZXZlciBTbW9rZWQgQ2lnYXJyZXR0ZXMNCjxiPkkndmUgbmV2ZXIgYmVlbiBhcnJlc3RlZCBmb3IgYSBmZWxvbnk8L2I+DQo8Yj5JIGFtIG5vdCAgYSBjb2xsZWdlIHN0dWRlbnQuIDwvYj4NCjxiPkkgYW0gbm90IGEgY3VkZGxlci48L2I+DQpJIGFtIG5vdCBhIGdvb2QgZGFuY2VyLiA8aT5JIGNhbm5vdCBkYW5jZSBsaWtlIGhvdyB0aGV5IGRvIGluIGNsdWJzLjwvaT4NCkkgYW0gYSBodWdlIGZhbiBvZiBsaXN0cy4NCkkgYW0gYSBtb3JuaW5nIHBlcnNvbi4gDQo8Yj5JIGFtIGEgcGVyZmVjdGlvbmlzdC48L2I+DQpJIGFtIGEgUmVwdWJsaWNhbi4NCkkgYW0gYWxsZXJnaWMgdG8gc29tZXRoaW5nIGRlYWRseS4NCjxiPkkgYW0gYW4gb25seSBjaGlsZC48L2I+DQpJIGFtIENhdGhvbGljLg0KSSBhbSBjb250ZW50IGFzIG9mIHRoaXMgbW9tZW50Lg0KSSBhbSBjdXJyZW50bHkgaW4gbXkgcGFqYW1hcy4gDQpJIGFtIGN1cnJlbnRseSBzaW5nbGUuDQpJIGFtIGN1cnJlbnRseSBzdWZmZXJpbmcgZnJvbSBhIGJyb2tlbiBoZWFydC4NCkkgYW0gZW1iYXJyYXNzZWQgdG8gYmUgc2VlbiB3aXRoIG15IG1vdGhlciBvciBmYXRoZXIuDQpJIGFtIGdvb2QgYXQgc3R5bGluZyBvdGhlciBwZW9wbGUncyBoYWlyLg0KSSBhbSBsZWZ0IGhhbmRlZC4NCkkgYW0gbWFycmllZC4NCkkgYW0gb2JzZXNzZWQgd2l0aCBteSBMSi4gDQpJIGFtIG9ubGluZSAyNC83LCBldmVuIGFzIGFuIGF3YXkgbWVzc2FnZS4NCkkgYW0gcHJvY3Jhc3RpbmF0aW5nIGJ5IGZpbGxpbmcgb3V0IHRoaXMgbGlzdC4NCjxiPkkgYW0gcmVzZW50ZnVsIHRoYXQgSSBoYXZlIHRvIGdyb3cgdXAuPC9iPg0KSSBhbSB2ZXJ5IHNoeSBhcm91bmQgdGhlIG9wcG9zaXRlIHNleC4gDQpJIGFtLCBvciB3YXMsIHBpZ2Vvbi10b2VkLg0KPGI+SSBiaXRlIG15IG5haWxzLjwvYj4NCjxiPkkgY2FuIGJlIHBhcmFub2lkIGF0IHRpbWVzLjwvYj4NCkkgY2FycnkgYSB3ZWFwb24gd2l0aCBtZSBldmVyeXdoZXJlIEkgZ28uIA0KSSBjb2xsZWN0IHBpY3R1cmUgZnJhbWVzLg0KSSBjb25zaWRlciBteXNlbGYgdG8gYmUgYSAibmVyZCIuDQpJIGN1cnJlbnRseSBoYXZlIGEgY3J1c2ggb24gc29tZW9uZS4NCjxiPkkgY3VycmVudGx5IHJlZ3JldCBzb21ldGhpbmcgdGhhdCBJIGhhdmUgZG9uZS48L2I+DQo8Yj5JIGN1cnNlIGZyZXF1ZW50bHkuPC9iPg0KPGI+SSBkbyBub3QgYmVsaWV2ZSBwZW9wbGUgYXJlIGluaGVyZW50bHkgZ29vZCBvciBldmlsLCByYXRoZXIgdGhleSBhcmUgaW5oZXJlbnRseSBsYXp5LjwvYj4NCkkgZG9uJ3QgaGF0ZSBhbnlvbmUuIDxpPmhhaGFoYWhhaGFoYS4gaSBkb24ndCB0aGluayBpIGhhdmUgZXZlciBub3QgaGF0ZWQgYW55b25lLiBsb2wgPC9pPg0KSSBlbmpveSBjb3VudHJ5IG11c2ljLg0KPGI+SSBlbmpveSBqYXp6IG11c2ljLjwvYj48aT5zb21ldGltZXM8L2k+DQo8Yj5JIGVuam95IHNtb290aGllcy48L2I+IDxpPm9ubHkgaWYgaSBtYWtlIHRoZW0gdGhvdWdoPC9pPg0KSSBlbmpveSB0YWxraW5nIG9uIHRoZSBwaG9uZS4NCjxiPkkgaGF2ZSBhIGNhci48L2I+DQo8Yj5JIGhhdmUgYSBjZWxsIHBob25lLjwvYj4NCkkgaGF2ZSBhIGhhcmQgdGltZSBwYXlpbmcgYXR0ZW50aW9uIGF0IHNjaG9vbC4NCkkgaGF2ZSBhIGhpZGRlbiB0YWxlbnQuDQo8Yj5JIGhhdmUgYSBob2JieS48L2I+DQo8Yj5JIGhhdmUgYSBsb3QgdG8gbGVhcm4uPC9iPg0KPGI+SSBoYXZlIGEgcGV0LjwvYj4NCjxiPkkgaGF2ZSBhIHNlY3JldCB0aGF0IEkgYW0gYXNoYW1lZCB0byByZXZlYWwuPC9iPg0KSSBoYXZlIGEgdGVuZGVuY3kgdG8gZmFsbCBmb3IgdGhlICJ3cm9uZyIgZ2lybC9ndXkuDQpJIGhhdmUgYWxsIG15IGdyYW5kcGFyZW50cywgbm9uZSBvZiB0aGVtIGhhdmUgZGllZC4NCkkgaGF2ZSBhdCBsZWFzdCBvbmUgYnJvdGhlciBhbmQvb3Igc2lzdGVyLg0KSSBoYXZlIGF2b2lkZWQgd29yayB0byBwbGF5IHdpdGggbXkgbGl2ZWpvdXJuYWwuDQo8Yj5JIGhhdmUgYmVlbiBpbiBhIHJlYWwgcmVsYXRpb25zaGlwLjwvYj4NCjxiPkkgaGF2ZSBiZWVuIGluIGEgdGhyZWVzb21lLjwvYj4NCkkgaGF2ZSBiZWVuIHJlamVjdGVkIGJ5IHNvbWVvbmUuIDxpPnlvdSBjYW4ndCBiZSByZWplY3RlZCBieSBzb21lb25lIHdoZW4geW91IG5ldmVyIHdhbnQgYW55b25lLi4uZm9yIGxvbmdlciB0aGFuIGEgaGFsZiBhbiBob3VyLCB0aGF0IGlzLiBoZWhlPC9pPg0KSSBoYXZlIGJlZW4gdGhlICJwc3ljaG8gZXgiIGluIGEgcGFzdCByZWxhdGlvbnNoaXAuIA0KSSBoYXZlIGJlZW4gdG8gYW4gYW5pbWUgY29udmVudGlvbi4NCjxiPkkgaGF2ZSBiZWVuIHRvIGFub3RoZXIgY291bnRyeS4gPC9iPjxpPmkgc2hvdWxkIHNheSBubyB0byB0aGlzIGFzIGNhbmFkYSBkb2Vzbid0IHJlYWxseSBjb3VudCwgYnV0IG9oIHdlbGwuIDwvaT4NCjxiPkkgaGF2ZSBiZWVuIHRvIExhcyBWZWdhcy48L2I+DQo8Yj5JIGhhdmUgYmVlbiB0b2xkIHRoYXQgSSBhbSB2ZXJ5IHNtYXJ0LjwvYj4NCjxiPkkgaGF2ZSBiZWVuIHRvbGQgdGhhdCBJIGhhdmUgYW4gdW51c3VhbCBzZW5zZSBvZiBodW1vci48L2I+DQo8Yj5JIGhhdmUgYnJva2VuIGEgYm9uZS48L2I+DQpJIGhhdmUgQ2FsbGVyIEkuRC4gb24gbXkgcGhvbmUuDQo8Yj5JIGhhdmUgY2hhbmdlZCBhIGRpYXBlci48L2I+DQpJIGhhdmUgY2hhbmdlZCBhIGxvdCBvdmVyIHRoZSBwYXN0IHllYXIuDQpJIGhhdmUgY2hlYXRlZCBvbiBhIHNpZ25pZmljYW50IG90aGVyLg0KPGI+SSBoYXZlIGNvdW50ZWQgZG93biB0aGUgZGF5cyB1bnRpbCBzdW1tZXIgdmFjYXRpb24uPC9iPg0KSSBoYXZlIGRhdGVkIGEgY2xvc2UgZnJpZW5kJ3MgZXguIA0KSSBoYXZlIGRhdGVkIHNvbWVvbmUgMTAgeWVhcnMgKG9yIG1vcmUpIG9sZGVyIG9yIHlvdW5nZXIgdGhhbiBtZS4NCjxiPkkgaGF2ZSBkb25lIHNvbWV0aGluZyBpbGxlZ2FsLjwvYj4NCjxiPkkgaGF2ZSBmcmllbmRzIHdobyBoYXZlIG5ldmVyIHNlZW4gbXkgbmF0dXJhbCBoYWlyIGNvbG9yLjwvYj4NCkkgaGF2ZSBnb25lIHNjdWJhIGRpdmluZy4NCkkgaGF2ZSBoYWQgbWFqb3Igc3VyZ2VyeS4NCkkgaGF2ZSBoYWQgbXkgaGFpciBjdXQgd2l0aGluIHRoZSBsYXN0IHdlZWsuDQo8Yj5JIGhhdmUgaGFkIHNleCB3aXRoIHNvbWVvbmUgSSB3YXMgbm90IGluIGEgcmVsYXRpb25zaGlwIHdpdGguPC9iPg0KPGI+SSBoYXZlIGhhZCB0aGUgY29wcyBjYWxsZWQgb24gbWUuPC9iPg0KSSBoYXZlIGtpc3NlZCBzb21lb25lIEkga25ldyBJIHNob3VsZG4ndC4NCjxiPkkgaGF2ZSBraXNzZWQgc29tZW9uZSBvZiB0aGUgc2FtZSBzZXguPC9iPg0KSSBoYXZlIG1hZGUgYSBtb3ZlIG9uIGEgZnJpZW5kJ3Mgc2lnbmlmaWNhbnQgb3RoZXIgaW4gdGhlIHBhc3QuDQo8Yj5JIGhhdmUgbW9vZCBzd2luZ3MuPC9iPg0KPGI+SSBoYXZlIG5vIGlkZWEgd2hhdCBJIHdhbnQgdG8gZG8gZm9yIHRoZSByZXN0IG9mIG15IGxpZmUuPC9iPg0KSSBoYXZlIHBhc3NlZCBvdXQgZHJ1bmsgYXQgbGVhc3Qgb25jZSBpbiB0aGUgcGFzdCA2IG1vbnRocy4NCjxiPkkgaGF2ZSByZWplY3RlZCBzb21lb25lIGJlZm9yZS48L2I+DQo8Yj5JIGhhdmUgc2VlbiAiVGhlIExvcmQgb2YgdGhlIFJpbmdzIiB0cmlsb2d5LjwvYj4NCkkgaGF2ZSBzZWVuIHRoZSB0ZWxldmlzaW9uIHNob3cgIlRoZSBPLkMuIg0KPGI+SSBoYXZlIHN3dW0gaW4gdGhlIG9jZWFuLjwvYj4NCjxiPkkgaGF2ZSB0cmllZCBhIGRydWcgdGhhdCBpcyBpbGxlZ2FsLjwvYj4NCjxiPkkgaGF2ZSB3YXRjaGVkICJTZXggYW5kIHRoZSBDaXR5Ii4gPC9iPg0KPGI+SSBoYXZlIHdhdGNoZWQgcG9ybiBtb3ZpZXMuPC9iPg0KPGI+SSBoYXZlIHdhdGNoZWQgdGhlIHRlbGV2aXNpb24gc2hvdyAiU3BvbmdlYm9iIFNxdWFyZXBhbnRzIi48L2I+DQpJIGtub3cgaG93IHRvIHNob290IGEgZ3VuLg0KSSBsaWtlIGJlaW5nIHRoZSBjZW50ZXIgb2YgYXR0ZW50aW9uLg0KSSBsaWtlIGVhdGluZyBSYW1lbiBub29kbGVzLg0KSSBsaWtlIG15IGhhbmR3cml0aW5nLg0KSSBsaWtlIFNoYWtlc3BlYXJlLg0KPGI+SSBsaWtlIHRoZSB0YXN0ZSBvZiBibG9vZC48L2I+DQo8Yj5JIGxpa2UgdG8gY29vay4gPC9iPg0KPGI+SSBsaWtlIHRvIHNpbmcuPC9iPg0KSSBsaWtlIHRvIHZhY3V1bS4NCkkgbG92ZSBsZWFybmluZyBmb3JlaWduIGxhbmd1YWdlcy4NCkkgbG92ZSBNaWNoYWVsIEphY2tzb24uDQpJIGxvdmUgbXkgZnJpZW5kcy4gPGk+aSBsb3ZlIDIgb2YgbXkgZmlyZW5kczwvaT4NCkkgbG92ZSBvbGl2ZXMuDQpJIGxvdmUgcmFpbi4NCkkgbG92ZSBzbGVlcGluZy4NCjxiPkkgbG92ZSB0byBwbGF5IGNvbXB1dGVyIGdhbWVzLjwvYj4NCkkgbG92ZSB0byBzaG9wLg0KPGI+SSBtaXNzIHNvbWVvbmUgcmlnaHQgbm93LjwvYj4NCjxiPkkgb3duIDEwMCBDRHMgb3IgbW9yZS48L2I+DQpJIG93biBhIGhvbWUuDQo8Yj5JIG93biBhbmQgdXNlIGEgbGlicmFyeSBjYXJkLjwvYj4NCkkgcGxheSBhIG11c2ljYWwgaW5zdHJ1bWVudC4gDQpJIHByYWN0aWNlIGEgcmVsaWdpb24gdGhhdCBpcyBub3QgY29uc2lkZXJlZCAibWFpbnN0cmVhbSIuDQo8Yj5JIHJlYWQgYm9va3MgZm9yIHBsZWFzdXJlLiA8L2I+DQo8Yj5JIHNoYXZlIG15IGxlZ3MuPC9iPg0KSSBzbGVlcCBhIGxvdCBkdXJpbmcgdGhlIGRheS4gV2hlbiBJIGNhbi4gRGVmaW5lICJkdXJpbmcgdGhlIGRheS4iDQo8Yj5JIHN0cm9uZ2x5IGRpc2xpa2UgbWF0aC48L2I+DQpJIHRoaW5rIEJyaXRuZXkgU3BlYXJzIGlzIHByZXR0eS4NCkkgdGhpbmsgbG9uZyBzdHJpbmdzIG9mIGh0bWwgY29kZSBsb29rIGNvb2wuDQo8Yj5JIHRoaW5rIHByb3N0aXR1dGlvbiBzaG91bGQgYmUgbGVnYWxpemVkLjwvYj4NCkkgdGhpbmsgdGhhdCBQaXp6YSBIdXQgbWFrZXMgdGhlIGJlc3QgcGl6emEuDQpJIHRoaW5rIHRoZSB3b3JsZCB3b3VsZCBiZSBhIGJldHRlciBwbGFjZSBpZiBwZW9wbGUganVzdCBzbWlsZWQgbW9yZSBvZnRlbi4NCkkgd2FzIGJvcm4gaW4gYSBjb3VudHJ5IG90aGVyIHRoYW4gdGhlIFVTQS4NCkkgd2F0Y2ggbW9yZSBUViB0aGlzIHllYXIgdGhhbiBsYXN0IHllYXIuDQpJIHdhdGNoIE1UViBvbiBhIGRhaWx5IGJhc2lzLg0KSSB3YXRjaCBzb2FwIG9wZXJhcyBvbiBhIHJlZ3VsYXIgYmFzaXMuDQo8Yj5JIHdlYXIgZ2xhc3NlcyBvciBjb250YWN0IGxlbnNlcy48L2I+DQo8Yj5JIHdpbGwgdHJ5IGFueXRoaW5nIG9uY2UuPC9iPg0KPGI+SSB3b3JrIGF0IGEgam9iIHRoYXQgSSBlbmpveS48L2I+DQpJIHdvdWxkIGNsYXNzaWZ5IG15c2VsZiBhcyAiZ2hldHRvIi4NCjxiPkkgd291bGQgZ2V0IHBsYXN0aWMgc3VyZ2VyeSBpZiBpdCB3ZXJlIDEwMCUgc2FmZSwgZnJlZSBvZiBjb3N0LCBhbmQgc2Nhci1mcmVlLjwvYj4NCkkgbGlrZSBvcmFuZ2Uga29vbCBhaWQuDQo8Yj5JIGNhbiBuYW1lIGFsbCA3IG9mIHRoZSBkd2FyZnMgZnJvbSAnU25vdyBXaGl0ZSBhbmQgdGhlIFNldmVuIER3YXJmcycuIDwvYj4NCkkgbGlrZSBiZWluZyBhdCBzY2hvb2wuDQpJIGFsd2F5cyBsb3ZlIHdlYXJpbmcgc3dlYXRlcnMuDQpJIGxvdmUgd2F0ZXIgcG9sby4NCkkgYW0gY3VycmVudGx5IHdlYXJpbmcgc29ja3MuDQpJIGFtIGJlaW5nIG5vc3RhbGdpYyByaWdodCBub3cuIA0KPGI+SSBoYXRlIHN1bW1hdGl2ZSBzZWFzb24uPC9iPiANCkkgYW0gdGlyZWQuDQpJIGxvdmUgdG8gcGFpbnQuIEFjdHVhbGx5LCBldmVuIGxpa2UsIHdhbGwgcGFpbnRpbmcgaGFzIGl0cyBhcHBlYWwuIDwvbGotY3V0IHRleHQ+"
+"eventtime","2005-06-28 00:23:00"
+"current_moodid","116"
+"url","http://halosregret.livejournal.com/30609.html"
+"userid","6029"
+"itemid","118"
+"event","the ones i'm considering are in bold now cause i made them like that.  yes, i did.
+
+9_16_05 san diego_ca 
+
+9_17_05 tucson_az 
+
+9_19_05 phoenix_az
+
+9_20_05 fresno_ca 
+
+9_23_05 seattle_wa 
+
+9_24_05 portland_or 
+
+9_26_05 vancouver_bc 
+
+9_28_05 sacramento_ca 
+
+9_30_05 oakland_ca
+
+10_01_05 los angeles_ca 
+
+10_04_05 colorado springs_co 
+
+10_05_05 denver_co
+
+<b>10_07_05 chicago_il</b>
+
+10_08_05 detroit_mi
+
+<b>10_09_05 cleveland_oh</b>
+
+10_11_05 st paul_mn
+
+10_13_05 madison_wi
+
+10_14_05 st louis_mo
+
+10_16_05 san antonio_tx
+
+10_17_05 dallas_tx
+
+10_19_05 houston_tx
+
+10_21_05 jacksonville_fl
+
+10_22_05 tampa_fl
+
+10_24_05 ft lauderdale_fl
+
+10_25_05 orlando_fl
+
+10_27_05 atlanta_ga
+
+<b>10_29_05 new orleans_la voodoo festival</b>
+
+10_31_05 nashville_tn
+
+<b>11_02_05 washington_dc</b>
+
+<b>11_03_05 new york_ny</b>
+
+<b>11_05_05 philly_pa</b>
+
+<b>11_07_05 albany_ny</b>
+
+<b>11_08_05 boston_ma</b>
+
+11_10_05 montreal_qc
+
+<b>11_11_05 toronto_on</b> this just just a big obvious one here! ;) 
+
+11_19_05 salt lake city_ut
+
+okay... what dates are you thinking (sara, bliss, anyone)?? any dates we don't go to are the dates where <i>and all that could have been</i> will be played.  of course ;) hehe
+
+i would looooove to do the whole west coast thing.  i'm thinking about how we could work that out. i have always wanted to drive up the west coast into canada and everything. that would just be an amazing trip. actually, it always played out in my mind as driving cross country to san diego and then up the coast to vancouver then taking the 1 all the way across canada to get home. nin optional. lol  someday. hehe
+
+<b>edit</b> hey bliss?! if we go to san diego on sept 14 we can see tori and then on the 16th see trent! hehe"
+"eventtime","2005-06-26 11:53:00"
+"current_moodid","107"
+"url","http://halosregret.livejournal.com/30274.html"
+"userid","6029"
+"itemid","117"
+"event","besides taking an axe to my own head, how do i get my thoughts to fucking shut up????  damn. how can i go to sleep when my mind won't stop for 2 fucking minutes????? i am getting so pissed off it's not even funny."
+"eventtime","2005-06-26 01:49:00"
+"url","http://halosregret.livejournal.com/30039.html"
+"userid","6029"
+"itemid","116"
+"event","ummm... so yeah, trent said that it wasn't out of the question for him to play and all that could have been live.  yeah, ummmm i'd die.  so would sara i think.  there is really nothing more to say about that.  
+
+i like my new job alot. i am actually not miserable going, or coming home from there.  wow!! shocker! lol  i am writing like a reject right now.  good lord. you'd never think that i am actually quite edumacted with the entries i have been coming up with lately. go figure. 
+
+so, tori is going to be in toronto in august. fun should be had by all.  so, lets see... tori in long island on the 17th of august, then in toronto on the 27th (?) and then trent in (enter city), (enter city), (enter city), (enter city), (enter city), (enter city), (enter city), (enter city), (enter city) and in (enter city) throughout the fall.  interesting. i have no life.  
+
+god, jennifer's horrific wedding is in october.  i really need someone to go with me.  preferably a guy with tats and/or piercings, cool hair (ie mohawk, etc), not afraid to wear make up, who likes to scare people, not afraid to be the center of attention (cause we will be. lol)  any ideas? anyone? lol  god, that would so teach jenn.  i'm going to be my ""normal"" weird self at the wedding anyway and that will freak her out (as normal) but having another fellow freak along for the ride would be totally enjoyable (just to see her face).  ::sigh:: 
+
+okay, this movie (leolo??) bliss is watching sounds interesting. i should go check it out. nite all.
+
+sorry about the horrific grammar in this entry.  yikes."
+"eventtime","2005-06-26 01:08:00"
+"current_moodid","23"
+"url","http://halosregret.livejournal.com/29745.html"
+"userid","6029"
+"itemid","115"
+"event","i was supposed to do something but i can't remember what the fuck it was. grrr..... i hate when that happens. must not have been..... oh!! i have to go to the bank before i go to work.  hehehe money = good.
+
+i was going to write more, but now with the knowledge that i have to head over to the bank i suppose i should get ready now and go do that.  yeah, that'd be good. 
+
+syd, when are you coming here??  let me/us know so we can come get your ass ;)  
+
+sara and i are gonna be chicken zombies.  gotta love troma films.  (seriously, we should so do it. talk about a story to tell when we are old and bed ridden) lol
+
+what a weird entry this is. jeezy-crizzy"
+"eventtime","2005-06-20 12:08:00"
+"current_moodid","106"
+"url","http://halosregret.livejournal.com/29582.html"
+"userid","6029"
+"itemid","114"
+"event","bored now.  bliss went to bed at like 9:15. she's been a little weird today because she's tired and i pissed her off (lets not forget that).  i've been doing that alot lately.  ::sigh::
+
+nothing to do.
+
+nothing to do.
+
+blech....."
+"eventtime","2005-06-16 21:29:00"
+"current_moodid","5"
+"url","http://halosregret.livejournal.com/29336.html"
+"userid","6029"
+"itemid","113"
+"event","okay, sooo excited. new nin dates posted. you'd think i hadn't seen them in forever. 
+
+i am going to kill my girlfriend.  she is a smart ass.  and i'm gonna kick her ass.  ;)  
+
+HAPPY 18th BIRTHDAY SYD!!  Woo hoo! welcome to the ""adult"" world where you can do what i do.. watch cartoons, go crazy over bands like some kooky teenager, talk about hot people/guys.... ummm... wait. that's not really being an adult then is it? oh well. who cares? happy birthday anyways :)  
+
+sara, lets talk about the fall tour. lol :)"
+"eventtime","2005-06-14 00:40:00"
+"current_moodid","52"
+"url","http://halosregret.livejournal.com/28948.html"
+"userid","6029"
+"itemid","112"
+"event","okay, the psych center wasn't burned down. sara and i went there on the way to cleveland yesterday to see what the damage was and it turned out to only be what is known as the nurses quarters (even though it wasn't a nurses quarters).  i spoke to a security guard who said that the news grossly misrepresented the fire.  thank goodness.  ::big sigh of relief::
+
+so went to see orgy with sara. great show. very hot. had lots of fun. went to the rock n roll hall of fame... awesome! they were having a Tommy exhibit!!  excited!!  woo hoo (i'm such a dork) found out that mudvayne is playing in cleveland on august 3rd so i went to check on tix this morning (have to go see mudvayne!!) and saw that there were now also dates for a show in toronto!!! yeah!!! that show is on wednesday july 30. soooo, excited!  might just go to cleveland too...wait $25 tix, maybe not. lol
+
+okay. what a weirdly written entry and i have to go now.  so much more to say about the show and stuff but  ::shrugs:: i don't like the computer right now for some reason!  lol  tyl"
+"eventtime","2005-06-11 12:21:00"
+"current_moodid","59"
+"url","http://halosregret.livejournal.com/28846.html"
+"userid","6029"
+"itemid","111"
+"event","it's really weird. i feel sick and it feels like someone just died.  bliss and i are going to go into mourning."
+"eventtime","2005-06-10 10:55:00"
+"current_moodid","129"
+"url","http://halosregret.livejournal.com/28423.html"
+"userid","6029"
+"itemid","110"
+"event","oh dear god no....
+
+text from sara... the psych center burned down last night....
+
+holy crap.
+
+not the psych center. the most beautiful building in buffalo.  on our way to cleveland we are gonna stop by and see what's going on.  
+
+i am going to cry."
+"eventtime","2005-06-10 10:42:00"
+"current_moodid","129"
+"url","http://halosregret.livejournal.com/28263.html"
+"userid","6029"
+"itemid","109"
+"event","weirdest dream...
+
+sara and i went somewhere (some random city to see a band and it wasn't nin). well, we are in a parking lot (come to think of it the scenery looked very countryside british) of some building and we see a van parked by the curb and then we see aaron come out of the building and head toward the van. we immediately start running to the van. sara jumps to the side door and says ""do you want me to give you a manicure?"" and the guys say no thanks but trent says ""no thanks. i'll give you a bite of my sandwich though"" and he hands it out to sara (who takes a giant bite) and then hands it out to me and i see that it is a veggie burger (amy's style, neat), i take a small tooth scraping ""bite"" of the bread and we get in the van.  the driver takes off, the side door is open.  now, there are 2 people in the front (driver and some roadie), and 2 guys next to trent (trent in the middle) whom both look like roadies (b/c aaron somehow turned into a roadie. hehe).  i ask if i can close the door and trent grins and says ""only if you promise to open it back up again"". laughingly, i tell him i can't promise him that. then sara starts talking about monkey's to one of the roadies, and i start talking about motorcycles with one of the roadies.  (best line from the dream complements of sara ""i think monkey's are the most underrated people in the world. they have the nicest legs."") then trent went, ""oh no!"" we immediately turn around (leaving our roadie friends hi and dry regarding our scintillating conversations). trent grins, says nice to have met you both and then exploded into a million shards of glass piercing everyone in the eyes, face, neck, you name it.  the driver immediately tried to stop, but managed to crash us into a pole. when the cops came they looked at the scene and the trent shards and determined that we had committed a crime. we were all arrested for breaking a celebrity, which is punishable by death....
+
+yikes. strangest fucking dream. so wish you could have seen it for yourselves.  yikes.  monkeys. hehehehehe"
+"eventtime","2005-06-09 09:50:00"
+"current_moodid","8"
+"url","http://halosregret.livejournal.com/27994.html"
+"userid","6029"
+"itemid","108"
+"event","yeah, had i known about this so would have stayed in phoenix until friday!!  
+
+<i>Mark Ryden
+One man show: 
+Friday June 3rd 
+Perihelion Arts, Gallery, & Bookstore 
+1500 NW Grand Ave. 
+Phoenix, AZ. 85007 
+call 602-462-9120 for info 
+ 
+This just in!
+KRK Ryden will be performing with his Theramin at [the] exhibitions listed above!</i>
+
+yeah, favorite artist having a showing in phoenix where he was going to play his theramin. dammit!!! dammit to hell."
+"eventtime","2005-06-04 11:14:00"
+"current_moodid","112"
+"url","http://halosregret.livejournal.com/27826.html"
+"userid","6029"
+"itemid","107"
+"event","cGhvZW5peA0KbmluZSBpbmNoIG5haWxzDQpmdWNraW5nIGFtYXppbmchISENCg0KaGVyZSBjb21lcyByYW1ibGluZy4uLi4NCg0Kb2theSwgdGhpcyB3YXMgZ3JlYXQuIHRoZSB2ZW51ZSB3YXMgdGhlIHNtYWxsZXN0IGnigJl2ZSBiZWVuIGluIHlldC4gdGhlIHNvdW5kIHdhcyBmdWNraW5nIGFtYXppbmcuICB0aGUgY3Jvd2Qgd2FzIHNvIGNhbG0gKG11c3QgYmUgdGhlIGhlbGxpc2ggMTAwKyB0ZW1wcyBvdXRzaWRlKSB0aGF0IGkgd2FzIGFibGUgdG8gbW92ZSBjbG9zZXIgdG8gdGhlIHN0YWdlIGFuZCBmYXJ0aGVyIGF3YXkgZnJvbSB0aGUgc3RhZ2UgYW5kIGJhY2sgYWdhaW4gYSBmZXcgZGlmZmVyZW50IHRpbWVzLiAgDQoNCmhpZ2hsaWdodHMgb2YgdGhlIHNob3dzIHRoZW1zZWx2ZXM6DQoNCiAgICAgMS4JZHVyaW5nIHRoZSBmaXJzdCBzaG93LCB3aGlsZSBpIHdhcyB1cCBmcm9udCAoaG9waW5nIHRvIGNhdGNoIGEgY2xvc2VyIGxvb2sgYXQgYSBwb3NzaWJsZSByZXBlYXQga2lzcyBiZXR3ZWVuIGplcm9tZSBhbmQgYnJpYW4pIHdoZW4gdGhlIGRvbGxzIGhhZCBqZXJvbWUgcGxheSBrYXJtYSBwb2xpY2Ugd2l0aCB0aGVtLCBhcyBoZSB3YXMgbGVhdmluZyB0aGUgc3RhZ2UgaGUgbG9va2VkIGF0IG1lIHBvaW50ZWQgdG8gc21pbGVkIGFuZCBzYWlkIOKAnGkga25vdyB5b3XigJ0uICB3aGljaCB3YXMgc28gZnVja2luZyBjb29sIGIvYyBpIHRob3VnaHQgaGUgbG9va2VkIGF0IG1lIGF0IHRoZSB0b3JvbnRvIHNob3dzLCBidXQgaSBuZXZlciBzYWlkIGFueXRoaW5nIGIvYyB5ZWFoLCByaWdodCBoYSwgamVyb21lIGxvb2tpbmcgYXQgbWUhPyEgcmlnaHQuIHRoZSBuZXh0IGNvb2xlc3QgdGhpbmcgd2FzIGV2ZXJ5b25lIGFyb3VuZCBtZSBhc2tpbmcgaWYgaSBjb3VsZCBnZXQgdGhlbSBiYWNrc3RhZ2Ugd2l0aCBtZS4gKHVtbW0sIG5vIGIvYyBpIGNvdWxkbuKAmXQgZ2V0IGJhY2sgbXlzZWxmIGhlaGUpDQoNCiAgICAgMi4JZnVja2luZyB0cmVudCBmdWNraW5nIHJlem5vciA7KQ0KDQogICAgIDMuCWZpcnN0IHNob3cgKD8pOiB0cmVudCBtZXNzaW5nIHVwIGR1cmluZyBtYXJjaCBvZiB0aGUgcGlncyBhbmQgYXNraW5nIOKAnGRpZCBpIGZ1Y2sgaXQgdXA/4oCdDQoNCiAgICAgNC4JZmlyc3Qgc2hvdzogbWljcm9waG9uZSBzbmFmdeKAmXMgKGFnYWluKSBkdXJpbmcgZ2F2ZSB1cC4gdHJlbnQgZGlkbuKAmXQgc2luZyBpdCwgdGhlIGZhbnMgYW5kIGFhcm9uIGFuZCB0d2lnZ3kgZGlkLiBsb2wgdGhlbiB0cmVudCBjYW1lIGFuZCBzYWlkIOKAnGkgd2FzIGhhdmluZyBhIGdvb2QgZnVja2luZyBkYXkgdW50aWwgdGhhdCBzb25n4oCdLiBhd2Vzb21lLiAgaGUgYWxzbyB0b2xkIHVzIHRvIHdhaXQgYSBmZXcgbWludXRlcyBiL2MgaGUgaGFkIHRvIGdvIGJlYXQgdGhlIHNoaXQgb3V0IG9mIHNvbWVvbmUuIGl0IHdhcyBjbGFzc2ljLiAgaGUgdGhlbiBwcm9jZWVkZWQgdG8gYmUgYWxsIHNhcmNhc3RpYyBhbmQgc21hcnQgYXNzLWlzaCB3aXRoIHRoZSB0ZWNocyBnb2luZywg4oCcZG8gdGhlIG1pY+KAmXMgd29yaz8sIGhvdyBhYm91dCB0aGUgZ3VpdGFycz8sIGdyZWF04oCm4oCdIHRoZW4gaW50byBhIHNvbmcuIGtpbGxlciAgOi0gKSBlZWVlIQ0KDQogICAgIDUuCWZpcnN0IHNob3c6IGR1cmluZyBjbG9zZXIgc29tZSBjaGljayBpbiBmcm9udCBvZiB0d2lnZ3kgZ290IG9uIHRvcCBvZiBzb21lb25l4oCZcyBzaG91bGRlcnMsICB0b29rIG9mZiBoZXIgc2hpcnQgYW5kIHNob3dlZCBoZXIgaHVnZSAoc2NhcnkgbG9va2luZykgZmFrZSBib29icyBhdCB3aGljaCB0d2lnZ3kgc3RhcnRlZCB0byBjcmFjayB0aGUgZnVjayB1cC4gIGhlIHdhcyBsYXVnaGluZyBzbyBoYXJkIGluIGZhY3QgdGhhdCBsaWtlIDIgbWludXRlcyBsYXRlciB3aGVuIGhlIGhhZCB0byBzaW5nIGludG8gdGhlIG1pYywgaGUgY291bGQgb25seSBsYXVnaCBpbnRvIGl0LiAgDQoNCiAgICAgNi4JZmlyc3Qgc2hvdzogc2luLCBzb21ldGhpbmcgaSBjYW4gbmV2ZXIgaGF2ZSwgZXZlbiBkZWVwZXIsIHJlcHRpbGUgYW5kIGJ1cm4gd2VyZSBqdXN0IGFtYXppbmcgYW5kIGkgY3JpZWQgZHVyaW5nIDIgc29uZ3MuIEhvdyBmdWNraW5nIGxhbWUuDQoNCiAgICAgNy4JamVyb21lIHRvb2sgb2ZmIChhY3R1YWxseSBtb3JlIGxpa2UgcmlwcGVkIG9mZikgaGlzIHNoaXJ0IGFzIHNvb24gYXMgaGVhZCBsaWtlIGEgaG9sZeKAmXMgbGFzdCBkcnVtIGJlYXQgd2FzIGRvbmUgYW5kIGhlIHdhcyBsZWF2aW5nIHRoZSBzdGFnZS4gIHNvb29vb28gaG90ISEhDQoNCiAgICAgOC4Jcm9iIHNoZXJpZGFuIHdhcyByaWdodCBuZXh0IHRvIG1lIGZvciBzaG93IG9uZS4gaSB0YWxrZWQgdG8gaGltIGFuZCBhc2tlZCBmb3IgYSBqb2IuICBsb2wgaGVoZQ0KDQogICAgIDkuCXJvYiBzaGVyaWRhbiB3YXMgcmlnaHQgYmVoaW5kIG1lIGZvciBzaG93IDIgYW5kIGkgd2FzIHRlYXNpbmcgaGltIGFuZCBhc2tlZCBmb3IgYSBwaWMgYW5kIGhlIHdhcyBhbGwgZ3JpbnMgYW5kIG9rYXksIHVudGlsIGkgbGlmdGVkIHRoZSBjYW1lcmEuICBpIGFza2VkIOKAnHlvdSBnb25uYSBzbWlsZeKAnSBhbmQgaGUgc2FpZCwgbm8gYW5kIGdyaW5uZWQuIFN0dXBpZCBjYW1lcmEgZm9yIG5vdCBiZWluZyBmYXN0IGVub3VnaCB0byBjYXRjaCBpdC4NCg0KICAgIDEwLglCSUcgSElHSExJR0hUIE5VTUJFUiAxOiBhZnRlciB0aGUgZmlyc3Qgc2hvdywgd2FpdGluZyBpbiBsb2JieSBicmlhbiBmcm9tIHRoZSBkb2xscyBjb21lcyB1cCB0byBtZSwgd2UgY2hhdCwgaGUgc2hvb2sgbXkgaGFuZCwgdGhlbiBwdXQgaGlzIGFybSBhcm91bmQgbWUgaW4gYSBzaG91bGRlciBodWcgdHlwZSB0aGluZyBhbmQgd2Fsa2VkIG1lIG92ZXIgdG8gd2hlcmUgdGhleSB3ZXJlIHNpZ25pbmcgc3R1ZmYuICBoZSBnYXZlIG1lIGEgY2QsIGhhZCBhbWFuZGEgYW5kIGhpbXNlbGYgc2lnbiBpdC4gaSBjaGF0dGVkIHdpdGggdGhlbSBib3RoLCB0aGV5IGFza2VkIGlmIGkgd2FzIGdvaW5nIHRvIHRoZSBuZXh0IHNob3cgYW5kIHRoZSBzaG93IHRoZXkgd2VyZSBwbGF5aW5nIG9uIFN1bmRheS4gZXZlbiBhc2tlZCBpZiBpIHdhcyBnb2luZyB0byBzYW4gZGllZ28uICBzYWlkIHRoZXkgd291bGQgc2VlIG1lIHRvbW9ycm93ICh3aGljaCB0aGV5IGRpZCBhbmQgd2VyZSByZWFsbHkgY29vbCkuICBzb29vLCBicmlhbiwgcmVhbGx5IHJlYWxseSByZWFsbHkgZnVja2luZyBob3QuIGhvdHRlciB0aGFuIGkgdGhvdWdodCBoZSB3YXMgYW5kIGkgZ290IGEgZnVja2luZyBodWcgZnJvbSBoaW0hICBoZWhlaGUNCg0KICAgIDExLglIVUdFIEZVQ0tJTkcgSElHSExJR0hUISBhZnRlciBmaXJzdCBzaG93OiB3YWl0aW5nIG9uIHRoZSBjb3JuZXIgZm9yIG15IGF1bnQgdG8gY29tZSBwaWNrIG1lIHVwLiBpIHNlZSBsaW1vcyBhbmQgYnVzc2VzIGxlYXZpbmcgYW5kIG9kZGx5IGVub3VnaCBjb21pbmcgbXkgd2F5IChubyBvbmUgZWxzZSB3YXMgd2FpdGluZyBvbiB0aGlzIGNvcm5lciBhcyBpdCB3YXMgYSBkZWFkIGNvcm5lciwgc28gaSB3YXMgbGl0ZXJhbGx5IHRoZSBvbmx5IHBlcnNvbiBhcm91bmQpLiAgd2VsbCwgaeKAmW0gb24gdGhlIHBob25lIGd1c2hpbmcgdG8gYmxpc3MgYWJvdXQgdGhlIHNob3cgYW5kIGFib3V0IG1lZXRpbmcgYW5kIGh1Z2dpbmcgYnJpYW4gZnJvbSB0aGUgZG9sbHMgYW5kIGkgc2VlIHRoaXMgbGltbyBwdWxsIHVwIHdpdGggaXRzIHdpbmRvdyByb2xsZWQgZG93bi4gaSBzZWUgdGhpcyByZWFsbHkgaG90IGd1eSBsb29raW5nIG91dCBhdCBtZS4gc28gaSB3YWxrIGEgbGl0dGxlIGFuZCB0aGUgZ3V5IGlzIHN0aWxsIGxvb2tpbmcgc28gaSBrbm93IGhlIHNlZXMgbWUgYW5kIGkgcmVhbGl6ZSBpdCBpcyBGVUNLSU5HIFRSRU5UISEhISEhISBhdCB0aGlzIHBvaW50IGkgY2Fu4oCZdCBiZWxpZXZlIGl0IHNvIGkgd2FsayBhIGxpdHRsZSBtb3JlLCBraW5kYSBzdGFyaW5nIGF0IGhpbSBhbmQgaGUgZnVja2luZyB3YXZlcyBhdCBtZSBhbmQgZ3JpbnMgYXMgdGhlIGNhciBwdWxscyBhd2F5ISEhISEhICBBQUFBQUFBQUFISEhISEhISCEhISEgZnJlYWsgb3V0IGJpZyB0aW1lLiAgKHBvb3IgYmxpc3MgaGF2aW5nIHRvIGxpc3RlbiB0byBtZSBuZWFybHkgaHlwZXJ2ZW50aWxhdGUgb24gdGhlIHBob25lKS4gdGhlbiBpIHNhdyB0aGUgcmVzdCBvZiB0aGUgZ3V5cyBsZWF2ZSBvbiB0aGUgYnVzICh0aGV5IHJlYWxseSBuZWVkIHRvIGxlYXJuIGhvdyB0byBjbG9zZSB0aGUgYmxpbmRzLCBlc3BlY2lhbGx5IHdoZW4gdGhleSBoYXZlIGxpdHRsZSBibG9uZGUgY2hpcHBpZXMgb24gYm9hcmQgd2l0aCB0aGVtLiBoZWhlaGUpDQoNCnNvLCB5ZWFoLCB0aG9zZSBhcmUgdGhlIGJpZyBoaWdobGlnaHRzLiAgaSB3YXMgYWxsIHJlYWR5IHRvIHRyYXZlbCB0aGUgNSAxLzIgaG91cnMgdG8gc2FuIGRpZWdvLiBoYWQgbXkgKGFpciBjb25kaXRpb25lZCkgcmVudGFsIGNhciBhbmQgZXZlcnl0aGluZywgYnV0IGNhbWUgaG9tZSBpbnN0ZWFkLiAgaSB3YXMgYWxsIHNldCB3aXRoIGRpcmVjdGlvbnMgYW5kIHdhcyBnb2luZyB0byBzdXJwcmlzZSBteSBmcmllbmQgbG92ZXR0ZSwgYnV0IGl0IHdhcyB3YXkgdG8gZnVja2luZyBob3QgdGhlcmUgYW5kIGkgZmlndXJlIHRoZXJlIGlzIGFsd2F5cyB0aGUgZmFsbC4gIGdldCByZWFkeSB0byBnbyBzYXJhIGFuZCBibGlzcyEhICB3ZeKAmXJlIGdvaW5nIG9uIGEgcm9hZCB0cmlwIGJpZyB0aW1lISEhISEhIHlvdSBib3RoIGFyZSBnb25uYSBiZSBzbyBmdWNraW5nIHRpcmVkIG9mIG1lIGl04oCZcyBub3QgZ29ubmEgZXZlbiBiZSBmdW5ueS4NCg0KcGhvZW5peCBpcyB3YXkgdG9vIGZ1Y2tpbmcgaG90LiBpdCB3YXMgbmljZSB0byBzZWUgbXkgY291c2lucyBhbmQgbXkgYXVudC4gbXkgdW5jbGUgaXMgZ29pbmcgdG8gdHJ5IGFuZCBmaW5kIG1lIGEgc3RhZ2VoYW5kL3JvYWRpZSBjb21wYW55IGluIGJ1ZmZhbG8gdG8gd29yayBmb3IgKHRoYXTigJlzIHdoYXQgaGUgZG9lcyBmb3IgYSBsaXZpbmcpLiAgaGUgYWxzbyB0b2xkIG1lIHRoYXQgaW4gdGhlIGZhbGwgaGUgaXMgZ29pbmcgdG8gdHJ5IGFuZCBnZXQgdGhlIGNvbnRyYWN0IHRvIHdvcmsgdGhlIG5pbiBzaG93LCBldmVuIGlmIGl0IG1lYW5zIGEgbG93ZXIgZmVlIHRoYW4gbm9ybWFsLCBqdXN0IHNvIGhlIGNhbiBoYXZlIG1lIGNvbWUgYW5kIOKAnHdvcmsgdGhlIHNob3figJ0uIGhlaGVoZSBpIGxvdmUgbXkgdW5jbGUgc29tZXRpbWVzLiBhcyBhIHdob2xlIHRob3VnaCwgdGhlIG9ubHkgZ29vZCB0aGluZyBhYm91dCB0aGUgdHJpcCB3ZXJlIHRoZSBzaG93cy4gb3RoZXJ3aXNlLi4uIGVlZWVoaCA6OnNocnVnczo6IGkgd2FzIG1pc2VyYWJsZSwgYnV0IHdoYXQgZWxzZSBpcyBuZXcuICBoZWhlDQoNCm9oIHllYWgsIGkgZ290IGEgdGF0dG9vLiBsb2wgdG90YWxseSBzcHVyIG9mIHRoZSBtb21lbnQuIGl0IGlzIGZhbnRhc3RpYyBhbmQgaSBsb3ZlIGl0LiAgDQoNCmkgbmVlZCBhbm90aGVyIHJvYWQgdHJpcC4gIGxldCdzIGdvIGJsaXNzPyBzYXJhPyBhbnlvbmU/ICA6KQ0KDQpPSCwgaSBtZXQgYSBndXkgbmFtZWQgd2hpc2tleSB3aG8gd2FzIHJlYWxseSByZWFsbHkgY29vbCBhbmQgZnVubnkuIHdoYXQgYSBwb3QgaGVhZC4gaGUgd2FzIGdyZWF0Lg0KDQp3aGF0IGVsc2XigKYuPz8gIGhtbW1t4oCmIGkga25vdyB0aGVyZSBpcyBtb3JlIHRoYXQgaSBhbSBmb3JnZXR0aW5nLCBidXQgdGhhdOKAmXMgYWxsIGZvciBub3cgaSBndWVzcy4gIHR0eWwNCg0KOjplZGl0Ojogb2ggeWVhaCwgaSBmb3Jnb3QgYSBiaWcgdGhpbmdlZS4gYXMgYnJpYW4gYW5kIGkgd2VyZSB3YWxraW5nIG92ZXIgdG8gdGhlIHNpZ25pbmcgdGFibGUgaSB3aGlzcGVyZWQgaW4gaGlzIGVhciB0aGF0IGkgc2F3IHRoZSBraXNzIGJldHdlZW4gaGltIGFuZCBqZXJvbWUgYW5kIHRoYXQgaXQgd2FzIHRoZSBmdWNraW5nIGhvdHRlc3QgdGhpbmcgZXZlciBhbmQgaGUgZnVja2luZyBibHVzaGVkLiBpdCB3YXMgc28gYWRvcmFibGUuICA6OmF3d3d3OjoNCg0KaSBmb3Jnb3QgdG8gbWVudGlvbiB3aGF0IG15IHRhdHQgaXMuLi4gaXQgaXMgdGhlIG5pbiBsb2dvIHRoYXQgaXMgb24gdGhlIGJhY2sgY292ZXIgb2YgaGFsbyA0ICh0aGUgInNpbiIgc2luZ2xlIHdpdGggImdldCBkb3duIG1ha2UgbG92ZSIpLiBpdCBpcyBncmVhdCA6KQ=="
+"eventtime","2005-06-01 14:31:00"
+"current_moodid","29"
+"url","http://halosregret.livejournal.com/27461.html"
+"userid","6029"
+"itemid","106"
+"event","off to phoenix to see god and his band... again!  woo hoo 
+
+i'm really wanting to go to san diego too but....
+
+excited to see my family...kinda
+
+i sent flowers to my ""friend"" and her husband for their anniversary/her birthday and have heard not a word from her... bite me
+
+sara is uber cool to get up at this ungodly hour to take me to the stupid airport :)
+
+i'm gonna miss my bliss :( and my kitties :(
+
+if i get offered a job with the tour i'll <i>(die)</i> talk to you all in a few months ;)  
+
+phoenix here i come :)"
+"eventtime","2005-05-27 07:04:00"
+"current_moodid","87"
+"url","http://halosregret.livejournal.com/27170.html"
+"userid","6029"
+"itemid","105"
+"event","d2h5IGlzIGl0IHRoYXQgdGhlIG9ubHkgdGhpbmcgaSBjYW4gbWFrZSBteXNlbGYgY2FyZSBhYm91dCByaWdodCBub3cgaXMgYSBiYW5kPyBpIGFtIHN1Y2ggYSBsb3Nlci4gc2VyaW91c2x5LiBpIG5lZWQgdGhlcmFweS4gbGlrZSBub3cuICANCg0KDQo8aT5XaGF0IGlmIGV2ZXJ5dGhpbmcgYXJvdW5kIHlvdQ0KSXNu4oCZdCBxdWl0ZSBhcyBpdCBzZWVtcw0KV2hhdCBpZiBhbGwgdGhlIHdvcmxkIHlvdSB0aGluayB5b3Uga25vdw0KSXMgYW4gZWxhYm9yYXRlIGRyZWFtPzwvaT4="
+"eventtime","2005-05-26 00:18:00"
+"current_moodid","6"
+"url","http://halosregret.livejournal.com/27003.html"
+"userid","6029"
+"itemid","104"
+"event","I have officially lost my damn mind.  I am travelling to Phoenix on Friday morning to go see..... yes here it comes.... nine inch nails!  what in the hell is wrong with me? am i this desperate to have some contact with this wonderful man and his music that I will travel across the country with only 2 day's notice just to see him perform with his wonderful band???  Wait, yes, yes i am that desperate and insane and can we all repeat together... obsessed.  go ahead, say it with me... obsessed.  Yikes. 
+
+oh, yeah... one last thing....
+
+
+<b><center>I AM SO FUCKING EXCITED!!!!!!! </b></center>"
+"eventtime","2005-05-25 16:29:00"
+"url","http://halosregret.livejournal.com/26839.html"
+"userid","6029"
+"itemid","103"
+"event","PFRBQkxFIGNlbGxQYWRkaW5nPTIwIGFsaWduPWNlbnRlcj4NCjxUQk9EWT4NCjxUUj4NCjxURCBhbGlnbj1taWRkbGU+PEZPTlQgc2l6ZT01PjxCPkFyaWVsPC9CPjwvRk9OVD48QlI+U28geW91IG5lZWQgSGVhbGluZyAoNTAlKSwgS25vd2xlZGdlICgzMCUpLCBJbnNwaXJhdGlvbiAoNzAlKSwgYW5kIFN0cmVuZ3RoICg3NSUpPyA8L1REPjwvVFI+DQo8VFI+DQo8VEQ+QXJjaGFuZ2VsIDxCPkFyaWVsPC9CPiBpcyBoZSBBbmdlbCBvZiBjb3VyYWdlLCBuYXR1cmUsIGFuZCB3aWxkIGJlYXN0cy4gSGUgaW5zcGlyZXMgdXMgdG8gbGl2ZSBvdXIgbGlmZSB0byB0aGUgZnVsbGVzdCBhbmQgd2l0aG91dCBmZWFyLCBhbmQgdG8gbGV0IGdvIG9mIHdoYXQgaXMgaHVydGluZyBvciBjb250cm9sbGluZyB1cy4gSGUgYXNzdXJlcyB1cyB0aGF0IHdlIGFyZSBuZXZlciBhbG9uZSwgZXZlbiBpbiB0aGUgZGFya2VzdCB0aW1lcy4gTW9zdCBpbXBvcnRhbnRseSwgaGUgYWR2aWNlcyB1cyB0byBmYWNlIG91ciBmZWFycyBhbmQgZmlnaHQgdGhlbSBzbyB0aGF0IG91ciBicmF2ZSBhY3Rpb25zIG1heSBzZXQgdXMgZnJlZSBvZiB0aGUgYm91bmRhcmllcyB0aGF0IGtlZXAgdXMgZnJvbSBiZWNvbWluZyB3aG8gd2UgYXJlIG1lYW50IHRvIGJlLiANCjxQPkFyaWVsIGJlc3Rvd3MgdGhvc2UgdGhhdCBoYXZlIHRvIGRvIGJhdHRsZSBpbiB0aGVpciBkYXkgdG8gZGF5IGxpZmUgd2l0aCB0aGUgYXJtb3VyIG9mIHVuc2hha2VhYmxlIGZhaXRoIGFuZCBjb25maWRlbmNlLiBUaG9zZSDigJxiYXR0bGVz4oCdIG1heSB0YWtlIHBsYWNlIGluIGNvdXJ0LCBpbiB0aGUgZm9ybSBvZiBjb21wZXRpdGlvbiBhbW9uZyBhdGhsZXRlcywgb24gdGhlIHNjaG9vbHlhcmQsIG9yIGluIHRoZSBhdHRlbXB0IG9mIHByb3RlY3Rpbmcgb25l4oCZcyBjaGlsZHJlbiBhbmQgbG92ZWQgb25lcy4gQWxzbywgaGUgaXMgcHJvYmFibHkgdGhlIGJlc3Qgc291cmNlIG9mIGluc3BpcmF0aW9uIGFuZCBpbm5lciBzdHJlbmd0aCBmb3IgdGhvc2Ugc3RyaXZpbmcgdG8gcHJvdGVjdCBhbmQgaGVhbCBpbmp1cmVkIGFuaW1hbHMgYW5kIHBsYW50cy4gDQo8UD5BcmllbCBpcyBrbm93biBhcyB0aGUgQXJjaGFuZ2VsIG9mIHRoZSBFYXJ0aCBiZWNhdXNlIGhlIHdvcmtzIHRpcmVsZXNzbHkgb24gYmVoYWxmIG9mIG91ciBwbGFuZXQuIEhlIGlzIGluIGNoYXJnZSBvZiBzdXBlcnZpc2luZyB0aGUgcmVhbG0gb2YgRWFydGggQW5nZWxzIHRoYXQgYXJlIHNvbWV0aW1lcyByZWZlcnJlZCB0byBhcyB0aGUgbXl0aGljYWwgY3JlYXRlcyB3ZSBjYWxsIGZhaXJpZXMsIGVsdmVzLCBldGMuIEhlIGFzc2lzdHMgdGhlIGh1bWFuIHJlYWxtIGluIGNvbm5lY3Rpbmcgd2l0aCB0aGUgcmVhbG0gb2YgRWFydGggQW5nZWxzIGFuZCB0byBidWlsZCBhIHJlbGF0aW9uc2hpcCBvZiBoYXJtb255IGFuZCBiYWxhbmNlLiBCeSBkb2luZyBzbywgQXJpZWwgYW5kIGhpcyBsZWdpb24gb2YgRWFydGggQW5nZWxzIGNhbiBoZWxwIHVzIHRvIHVuZGVyc3RhbmQgdGhlIG5hdHVyYWwgcmh5dGhtcyBvZiB0aGUgZWFydGggYW5kIGV4cGVyaWVuY2UgdGhlIG1hZ2ljIGFuZCBoZWFsaW5nIHByb3BlcnRpZXMgb2YgdGhlIHRyZWVzLCBmbG93ZXJzLCByb2NrcyBhbmQgc29pbC4gQXJpZWwgbG92ZXMgdGhvc2Ugd2hvIGFwcHJlY2lhdGUgbmF0dXJlIGFuZCBpdHMgYmVhdXR5LCBhbmQgcmV3YXJkcyB0aGVtIGJ5IGJlY29taW5nIHRoZWlyIGluZmluaXRlIHNvdXJjZSBvZiBqb3kgYW5kIGluc3BpcmF0aW9uLiANCjxQPjxCPkEgQml0IG9mIFRyaXZpYTo8L0I+IA0KPFA+QXJpZWwgaXMgYXNzb2NpYXRlZCB3aXRoIGxpb25zIGFuZCBvdGhlciBhbmltYWxzIG9mIHRoZSBub24tZG9tZXN0aWNhdGVkIGtpbmQuIEhlIGlzIHRoZSBydWxlciBvZiB0aGUgZWxlbWVudGFsIGtpbmdkb20sIGFuZCBhcyBzdWNoIG92ZXJzZWVzIHRoZSBzeWxwaHMsIG55bXBocywgc2FsYW1hbmRlcnMgYW5kIGdub21lcywgdGhlIHNwaXJpdHMgb2YgdGhlIGZvdXIgZWxlbWVudHMuIEp1c3QgbGlrZSA8Qj5HYWJyaWVsPC9CPiBhbmQgPEI+Sm9waGllbDwvQj4sIEFyaWVsIGlzIHNvbWV0aW1lcyByZWZlcnJlZCB0byBhcyBhIGZlbWFsZS4gSGUgaXMgc29tZXRpbWVzIGNvbmZ1c2VkIHdpdGggdGhlIEFyY2hhbmdlbCA8Qj5VcmllbDwvQj4uIA0KPFA+PEEgaHJlZj0iaHR0cDovL3d3dy5va2N1cGlkLmNvbS90ZXN0cy9kZXNjcmliZXNjb3JlP3Rlc3RpZD0yNTM3ODAwNDg4NzUwMjg0MzAxJmNhdGVnb3J5PTAiPkpvcGhpZWw8L0E+IC0gPEEgaHJlZj0iaHR0cDovL3d3dy5va2N1cGlkLmNvbS90ZXN0cy9kZXNjcmliZXNjb3JlP3Rlc3RpZD0yNTM3ODAwNDg4NzUwMjg0MzAxJmNhdGVnb3J5PTEiPk1pY2hhZWw8L0E+IC0gPEEgaHJlZj0iaHR0cDovL3d3dy5va2N1cGlkLmNvbS90ZXN0cy9kZXNjcmliZXNjb3JlP3Rlc3RpZD0yNTM3ODAwNDg4NzUwMjg0MzAxJmNhdGVnb3J5PTIiPklzcmFmZWw8L0E+IC0gPEEgaHJlZj0iaHR0cDovL3d3dy5va2N1cGlkLmNvbS90ZXN0cy9kZXNjcmliZXNjb3JlP3Rlc3RpZD0yNTM3ODAwNDg4NzUwMjg0MzAxJmNhdGVnb3J5PTQiPlJhemllbDwvQT4gLSA8QSBocmVmPSJodHRwOi8vd3d3Lm9rY3VwaWQuY29tL3Rlc3RzL2Rlc2NyaWJlc2NvcmU/dGVzdGlkPTI1Mzc4MDA0ODg3NTAyODQzMDEmY2F0ZWdvcnk9MyI+QXJpZWw8L0E+IC0gPEEgaHJlZj0iaHR0cDovL3d3dy5va2N1cGlkLmNvbS90ZXN0cy9kZXNjcmliZXNjb3JlP3Rlc3RpZD0yNTM3ODAwNDg4NzUwMjg0MzAxJmNhdGVnb3J5PTYiPlVyaWVsPC9BPiAtIDxBIGhyZWY9Imh0dHA6Ly93d3cub2tjdXBpZC5jb20vdGVzdHMvZGVzY3JpYmVzY29yZT90ZXN0aWQ9MjUzNzgwMDQ4ODc1MDI4NDMwMSZjYXRlZ29yeT05Ij5HYWJyaWVsPC9BPiAtIDxBIGhyZWY9Imh0dHA6Ly93d3cub2tjdXBpZC5jb20vdGVzdHMvZGVzY3JpYmVzY29yZT90ZXN0aWQ9MjUzNzgwMDQ4ODc1MDI4NDMwMSZjYXRlZ29yeT03Ij5SYXBoYWVsPC9BPiAtIDxBIGhyZWY9Imh0dHA6Ly93d3cub2tjdXBpZC5jb20vdGVzdHMvZGVzY3JpYmVzY29yZT90ZXN0aWQ9MjUzNzgwMDQ4ODc1MDI4NDMwMSZjYXRlZ29yeT04Ij5aYWRraWVsPC9BPiAtIDxBIGhyZWY9Imh0dHA6Ly93d3cub2tjdXBpZC5jb20vdGVzdHMvZGVzY3JpYmVzY29yZT90ZXN0aWQ9MjUzNzgwMDQ4ODc1MDI4NDMwMSZjYXRlZ29yeT0xMiI+SmVyZW1pZWw8L0E+IDwvUD48L1REPjwvVFI+DQo8VFI+DQo8VEQgYWxpZ249bWlkZGxlPjxJTUcgc3JjPSJodHRwOi8vaXMzLm9rY3VwaWQuY29tL3VzZXJzLzExMi8yNTAvMTEyMjUxNDAwOTgzMjE4NDIzODkvbXQxMTE0MjI4MzQ5LmpwZyI+IDwvVEQ+PC9UUj48L1RCT0RZPjwvVEFCTEU+PEJSPjxCUj48QlI+DQo8VEFCTEUgY2VsbFBhZGRpbmc9MjA+DQo8VEJPRFk+DQo8VFI+DQo8VEQ+PFNQQU4gaWQ9Y29tcGFyaXNvbmFyZWE+TXkgdGVzdCB0cmFja2VkIDQgdmFyaWFibGVzIEhvdyB5b3UgY29tcGFyZWQgdG8gb3RoZXIgcGVvcGxlIDxJPnlvdXIgYWdlIGFuZCBnZW5kZXI8L0k+Og0KPEJMT0NLUVVPVEU+DQo8VEFCTEUgY2VsbFNwYWNpbmc9NCBjZWxsUGFkZGluZz0wIGJvcmRlcj0wPg0KPFRCT0RZPg0KPFRSPg0KPFREIHZBbGlnbj1jZW50ZXI+DQo8VEFCTEUgY2VsbFNwYWNpbmc9MSBjZWxsUGFkZGluZz0wIGJnQ29sb3I9YmxhY2sgYm9yZGVyPTA+DQo8VEJPRFk+DQo8VFI+DQo8VEQgd2lkdGg9NzUgYmdDb2xvcj0jYjJjZmZmIGhlaWdodD0yMD48QSBocmVmPSJodHRwOi8vd3d3Lm9rY3VwaWQuY29tLyI+PElNRyBhbHQ9ImZyZWUgb25saW5lIGRhdGluZyIgc3JjPSJodHRwOi8vaXMxLm9rY3VwaWQuY29tL2dyYXBoaWNzLzAuZ2lmIiBib3JkZXI9MD48L0E+PC9URD4NCjxURCB3aWR0aD03NSBiZ0NvbG9yPXdoaXRlPjxBIGhyZWY9Imh0dHA6Ly93d3cub2tjdXBpZC5jb20vIj48SU1HIGFsdD0iZnJlZSBvbmxpbmUgZGF0aW5nIiBzcmM9Imh0dHA6Ly9pczEub2tjdXBpZC5jb20vZ3JhcGhpY3MvMC5naWYiIGJvcmRlcj0wPjwvQT48L1REPjwvVFI+PC9UQk9EWT48L1RBQkxFPjwvVEQ+DQo8VEQgdkFsaWduPWNlbnRlcj5Zb3Ugc2NvcmVkIGhpZ2hlciB0aGFuIDxCPjUwJTwvQj4gb24gPEI+SGVhbGluZzwvQj48L1REPjwvVFI+DQo8VFI+DQo8VEQgdkFsaWduPWNlbnRlcj4NCjxUQUJMRSBjZWxsU3BhY2luZz0xIGNlbGxQYWRkaW5nPTAgYmdDb2xvcj1ibGFjayBib3JkZXI9MD4NCjxUQk9EWT4NCjxUUj4NCjxURCB3aWR0aD0yNCBiZ0NvbG9yPSNiMmNmZmYgaGVpZ2h0PTIwPjxBIGhyZWY9Imh0dHA6Ly93d3cub2tjdXBpZC5jb20vIj48SU1HIGFsdD0iZnJlZSBvbmxpbmUgZGF0aW5nIiBzcmM9Imh0dHA6Ly9pczEub2tjdXBpZC5jb20vZ3JhcGhpY3MvMC5naWYiIGJvcmRlcj0wPjwvQT48L1REPg0KPFREIHdpZHRoPTEyNiBiZ0NvbG9yPXdoaXRlPjxBIGhyZWY9Imh0dHA6Ly93d3cub2tjdXBpZC5jb20vIj48SU1HIGFsdD0iZnJlZSBvbmxpbmUgZGF0aW5nIiBzcmM9Imh0dHA6Ly9pczEub2tjdXBpZC5jb20vZ3JhcGhpY3MvMC5naWYiIGJvcmRlcj0wPjwvQT48L1REPjwvVFI+PC9UQk9EWT48L1RBQkxFPjwvVEQ+DQo8VEQgdkFsaWduPWNlbnRlcj5Zb3Ugc2NvcmVkIGhpZ2hlciB0aGFuIDxCPjE2JTwvQj4gb24gPEI+S25vd2xlZGdlPC9CPjwvVEQ+PC9UUj4NCjxUUj4NCjxURCB2QWxpZ249Y2VudGVyPg0KPFRBQkxFIGNlbGxTcGFjaW5nPTEgY2VsbFBhZGRpbmc9MCBiZ0NvbG9yPWJsYWNrIGJvcmRlcj0wPg0KPFRCT0RZPg0KPFRSPg0KPFREIHdpZHRoPTEyMCBiZ0NvbG9yPSNiMmNmZmYgaGVpZ2h0PTIwPjxBIGhyZWY9Imh0dHA6Ly93d3cub2tjdXBpZC5jb20vIj48SU1HIGFsdD0iZnJlZSBvbmxpbmUgZGF0aW5nIiBzcmM9Imh0dHA6Ly9pczEub2tjdXBpZC5jb20vZ3JhcGhpY3MvMC5naWYiIGJvcmRlcj0wPjwvQT48L1REPg0KPFREIHdpZHRoPTMwIGJnQ29sb3I9d2hpdGU+PEEgaHJlZj0iaHR0cDovL3d3dy5va2N1cGlkLmNvbS8iPjxJTUcgYWx0PSJmcmVlIG9ubGluZSBkYXRpbmciIHNyYz0iaHR0cDovL2lzMS5va2N1cGlkLmNvbS9ncmFwaGljcy8wLmdpZiIgYm9yZGVyPTA+PC9BPjwvVEQ+PC9UUj48L1RCT0RZPjwvVEFCTEU+PC9URD4NCjxURCB2QWxpZ249Y2VudGVyPllvdSBzY29yZWQgaGlnaGVyIHRoYW4gPEI+ODAlPC9CPiBvbiA8Qj5JbnNwaXJhdGlvbjwvQj48L1REPjwvVFI+DQo8VFI+DQo8VEQgdkFsaWduPWNlbnRlcj4NCjxUQUJMRSBjZWxsU3BhY2luZz0xIGNlbGxQYWRkaW5nPTAgYmdDb2xvcj1ibGFjayBib3JkZXI9MD4NCjxUQk9EWT4NCjxUUj4NCjxURCB3aWR0aD0xMTkgYmdDb2xvcj0jYjJjZmZmIGhlaWdodD0yMD48QSBocmVmPSJodHRwOi8vd3d3Lm9rY3VwaWQuY29tLyI+PElNRyBhbHQ9ImZyZWUgb25saW5lIGRhdGluZyIgc3JjPSJodHRwOi8vaXMxLm9rY3VwaWQuY29tL2dyYXBoaWNzLzAuZ2lmIiBib3JkZXI9MD48L0E+PC9URD4NCjxURCB3aWR0aD0zMSBiZ0NvbG9yPXdoaXRlPjxBIGhyZWY9Imh0dHA6Ly93d3cub2tjdXBpZC5jb20vIj48SU1HIGFsdD0iZnJlZSBvbmxpbmUgZGF0aW5nIiBzcmM9Imh0dHA6Ly9pczEub2tjdXBpZC5jb20vZ3JhcGhpY3MvMC5naWYiIGJvcmRlcj0wPjwvQT48L1REPjwvVFI+PC9UQk9EWT48L1RBQkxFPjwvVEQ+DQo8VEQgdkFsaWduPWNlbnRlcj5Zb3Ugc2NvcmVkIGhpZ2hlciB0aGFuIDxCPjc5JTwvQj4gb24gPEI+U3RyZW5ndGg8L0I+PC9URD48L1RSPjwvVEJPRFk+PC9UQUJMRT48L0JMT0NLUVVPVEU+PC9TUEFOPjwvVEQ+PC9UUj48L1RCT0RZPjwvVEFCTEU+PHRhYmxlIGNlbGxwYWRkaW5nPTIwPjx0cj48dGQ+TGluazogPGEgaHJlZj0naHR0cDovL3d3dy5va2N1cGlkLmNvbS90ZXN0cy90YWtlP3Rlc3RpZD0yNTM3ODAwNDg4NzUwMjg0MzAxJz5UaGUgQW5nZWwgVGVzdDwvYT4gd3JpdHRlbiBieSA8YSBocmVmPSdodHRwOi8vd3d3Lm9rY3VwaWQuY29tL3Byb2ZpbGU/dHVpZD0xMTIyNTE0MDA5ODMyMTg0MjM4OSc+Tml0c3VraTwvYT4gb24gPGEgIGhyZWY9J2h0dHA6Ly93d3cub2tjdXBpZC5jb20nPk9rIEN1cGlkPC9hPjwvdGQ+PC90cj48L3RhYmxlPg=="
+"eventtime","2005-05-25 10:18:00"
+"current_moodid","8"
+"url","http://halosregret.livejournal.com/26557.html"
+"userid","6029"
+"itemid","102"
+"event","nine inch nails in philadelphia..... FANTASTIC!!! holy crap so worth it. 
+
+jerome kissed brian (from dresden dolls) last night and it was so fucking hot.  (sara: ""Am I gonna need to hose you off?"" lol)
+
+eastern state penn.  gorgeous. enough said.
+
+i hate philly. a lot. but i have to go back to see the mummers museum b/c it will just be fantastic. then i will never have to go back to that hell again (until the next leg of the tour). hehe
+
+there are exactly 2 fucking hotels in philly b/c the place sucks.  we had to drive around forever after the show on wednesday before we found any hotels which, of course, since there are only like 2 in philly, all of them were sold out. took a fucking year to find a place to sleep for the night.
+
+oh, last thing (b/c i am so not going to do the whole obsessed fan show thing b/c i don't want to type that much hehehe. although sara and i will be touring in the fall with the band. where ever they go we will follow. hehe)  oh yeah, so one last thing....
+
+""ggrrrrr...... FUCKING BROKE""
+ ::stomp::
+ ::crash::
+ ::throws mike stand::
+ ::jerome ducks w/o missing a beat::
+
+trent must have really not liked star wars.  lol
+
+fucking amazing!!"
+"eventtime","2005-05-20 15:58:00"
+"current_moodid","15"
+"url","http://halosregret.livejournal.com/26296.html"
+"userid","6029"
+"itemid","101"
+"event","<br><center><i>I gave up, it was just too physical.
+I had to go deep into the downward spiral
+to the great below,
+which is right where you belong.</center></i> 
+
+hehehehe   ;)"
+"eventtime","2005-05-12 12:40:00"
+"current_moodid","44"
+"url","http://halosregret.livejournal.com/26038.html"
+"userid","6029"

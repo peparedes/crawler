@@ -1,0 +1,838 @@
+"names","values"
+"itemid","138"
+"event","VGhyZWUgdGhpbmdzIGNhdWdodCBteSBhdHRlbnRpb24gdG9kYXkgd2hpbGUgb24gbXkgbHVuY2ggYnJlYWsuIE5vbmUgb2YgdGhlc2UgdGhpbmdzIGFyZSBvdmVybHkgaW50ZXJlc3RpbmcsIGJ1dCBpdCdzIHRoZSBsaXR0bGUgdGhpbmdzIHRoYXQgbWFrZSB1cyBzdG9wIGFuZCByZWZsZWN0LiBBbmQgdGhlbiBjb21wbGFpbi4gSW4gdGhhdCBvcmRlci4NCg0KPGI+IzE6IERlYml0IENhcmQ8L2I+DQpJJ20gbm90b3Jpb3VzbHkgYmFkIGFib3V0IGZpbGxpbmcgbXkgZ2FzIHRhbmsgdXAuIEkgcHJlZmVyIHRvIGxldCB0aGUgbmVlZGxlIG9uIG15IGdhcyBnYXVnZSBkaXAgYXMgZmFyIGFzIHBvc3NpYmxlIGJlZm9yZSBhY3F1aWVzY2luZywgYXMgdGhlcmUncyBub3RoaW5nIG1vcmUgaXJyaXRhdGluZyB0aGFuIHN0YW5kaW5nIGF0IHRoZSBwdW1wIHdhdGNoaW5nIHRoZSBkb2xsYXJzIGNoYS1jaGluZyB0aGVpciB3YXkgb3V0IG9mIG15IHBvY2tldC4gVG9kYXkgd2FzIHN1Y2ggYSBkYXkuIEFzIEkgc3Rvb2QgYnkgdGhlIHB1bXAgZW5qb3lpbmcgdGhlIHRhbnRhbGl6aW5nIHNjZW50IG9mIGdhc29saW5lLCBJIG5vdGljZWQgYSBkZWJpdCBjYXJkIGx5aW5nIG9uIHRoZSB3ZXQgcGF2ZW1lbnQuIEkgd2lwZWQgaXQgb2ZmIGFuZCBkZWxpdmVyZWQgaXQgdG8gdGhlIGF0dGVuZGFudCwgd2hvIHByb21wdGx5IGd1c2hlZCBoaXMgdGhhbmtzIGF0IG15ICJob25lc3R5LiIgSXQgbmV2ZXIgb2NjdXJyZWQgdG8gbWUgdG8gZG8gYW55dGhpbmcgYnV0IHJldHVybiB0aGUgY2FyZCwgc28gSSB3YXMgc3VycHJpc2VkIGJ5IHRoZSBwcmFpc2UuIElzIGl0IHJlYWxseSB0aGF0IHN1cnByaXNpbmcgd2hlbiBzb21lb25lIGRvZXMgInRoZSByaWdodCB0aGluZz8iIFBlcmhhcHMgc28uIEEgY291cGxlIHllYXJzIGFnbywgSSBhY2NpZGVudGFsbHkgbGVmdCBteSBkZWJpdCBjYXJkIGluIGFuIEFUTSBtYWNoaW5lLiBUaGUgdmVyeSBuZXh0IHBlcnNvbiB0byB1c2UgdGhlIEFUTSwgaW5zdGVhZCBvZiByZXR1cm5pbmcgbXkgY2FyZCB0byB0aGUgYmFuaywgamFja2VkICQ0MDAgZnJvbSBteSBhY2NvdW50LiBUaGUgYmFuayByZXR1cm5lZCB0aGUgc3RvbGVuIG1vbmV5IHRvIG1lOyB5ZXQgdGhleSBjb3VsZG4ndCBmaXggbXkgc3dlZXBpbmcgZGlzYXBwb2ludG1lbnQgaW4gbXkgZmVsbG93IG1hbi4gSSdkIGxpa2UgdG8gdGhpbmsgSSByYW5kb21seSByYW4gYWNyb3NzIHRoZSBvbmUgZGlzaG9uZXN0IHBlcnNvbiBpbiBteSB6aXAgY29kZSB0aGF0IGRheS4gSSB3YW50IHRvIGJlbGlldmUgdGhhdCB3ZSBhbGwgd2FudCB0byBoZWxwIGVhY2ggb3RoZXIgb3V0LiBJIHdhbnQgdG8gYmVsaWV2ZSB0aGF0IGlmIG15IGRlYml0IGNhcmQgd2luZHMgdXAgb24gdGhlIGRpcnR5IHBhdmVtZW50IG9mIHNvbWUgZ2FzIHN0YXRpb24sIHNvbWUga2luZCBwZXJzb24gd2lsbCB0dXJuIGl0IGluIHdpdGhvdXQgYSBzZWNvbmQgdGhvdWdodC4NCg0KPGI+IzI6IElkaW9tcyBvZiBCbG9uZGUgQmFyaXN0YXMgKHRoZSBwZXJreSBraW5kKTo8L2I+DQpJIGVuam95IG15IGNvZmZlZS4gTW9jaGFzLCB0byBiZSBzcGVjaWZpYy4gRHVtcCBpbiAzIHB1bXBzIG9mIGNob2NvbGF0ZSBhbmQgYSBoZWFwIG9mIGljZSwgYW5kIHlvdSBoYXZlIGEgbGl0dGxlIGJpdCBvZiBoZWF2ZW4gb24gZWFydGgsIG5ldmVyIG1pbmQgdGhlIGRhbWFnZSB0byBteSB0ZWV0aC4gSSBwYWlkIHRoZSBzbWFsbCBmb3J0dW5lIGZvciBteSBiZXZlcmFnZSBhbmQgc3Rvb2QgYnkgdGhlIGJhciB0byBjb2xsZWN0LiBUaGUgeW91bmcsIHBlcmt5IGJsb25kZSBiZWhpbmQgdGhlIGJhciBzbWlsZWQgYXQgbWUgYXMgc2hlIGhhbmRlZCBteSBkcmluayBvdmVyLiAiQWN0dWFsbHksIEknbGwgdGFrZSBhIGxpdHRsZSBtb3JlIGljZSwiIEkgc2FpZC4gQWxsIHdobyBrbm93IG1lIHdlbGwgY2FuIGF0dGVzdCB0byBteSBmaXJtIGJlbGllZiBpbiB0aGlzLCBlc3BlY2lhbGx5IGlmIHRoZXkndmUgZ29uZSB0byBhIHJlc3RhdXJhbnQgd2l0aCBtZSBhbmQgd2F0Y2hlZCBhcyBJIHNjb29wIHRoZSBpY2UgZnJvbSB0aGVpciBmaW5pc2hlZCBjb2tlcy4gQmxvbmRlIEJhcmlzdGEgc21pbGVkIChwZXJraWx5KSBhbmQgc2FpZCAocGVya2lseSksICJObyBwcm9ibGVtLCBzd2VldGllLiIgU3dlZXRpZT8gVGhlIG9ubHkgcGVyc29uIHdobyBjYWxscyBtZSBzd2VldGllIGlzIG15IDc4LXllYXItb2xkIGdyYW5kbW90aGVyLiBJIGRldGVzdCBpdCB3aGVuIHBlb3BsZSAtIGVzcGVjaWFsbHkgZ2lybHMsIGVzcGVjaWFsbHkgZ2lybHMgeW91bmdlciB0aGFuIG1lIOKAkyBjYWxsIG1lICJzd2VldGllLiIgSXQgc291bmRzIGNvbmRlc2NlbmRpbmcgYW5kIHNub290eSwgZXZlbiBpZiBpdCBpc24ndCBtZWFudCB0aGF0IHdheS4gVGhyb3cgaW4gYSB2YWxsZXkgZ2lybCBhY2NlbnQsIGFuZCB0aGF0IGxpdHRsZSB3b3JkIGNhbiBtYWtlIG15IGJsb29kIGJvaWwgaW4gYSBzZWNvbmQgZmxhdC4gSSBjaGFsa2VkIHRoZSAic3dlZXRpZSIgdXAgdG8gYSBsb25nIGRheSBvZiBtYWtpbmcgc2luZ2xlIHRhbGwtbm9uZmF0LWV4dHJhIGZvYW0tbWVkaXVtIGNob2NvbGF0ZS1leHRyYSBob3QtdmFuaWxsYSByYXNwYmVycnkgd2l0aCBuZXcgY2FyIHNtZWxsIGxhdHRlcyBhbmQgYWxsb3dlZCBoZXIgdG8gbWFrZSBzbWFsbCB0YWxrIGFib3V0IGluc2VydCBiYW5hbCB0b3BpYyBoZXJlLiBBZnRlciBmaWxsaW5nIG15IGN1cCB3aXRoIHRoZSBhY2NlcHRhYmxlIGFtb3VudCBvZiBpY2UsIHNoZSB0dXJuZWQgYmFjayB0byBtZSwgc21pbGUgcGVya2llciB0aGFuIGV2ZXIsIGFuZCBzYWlkLCAiSGVyZSB5b3UgZ28sIHN3ZWV0aWUhIiBEbyB5b3UgdGhpbmsgc2hlIGdvdCBhIHRpcD8gSSBkb24ndCB0aGluayBzby4NCg0KPGI+IzM6IEFuZCB0aGVuIG15IGRhZGR5IGJvdWdodCBtZSBhIEJNVyAuIC4gLiBsaWtlLCBvaG1pZ29zaCE8L2I+DQpUaGUgcGFya2luZyBsb3QgYXQgU3RhcmJ1Y2tzIGxvb2tzIG11Y2ggbGlrZSB0aGUgbG90IG9mIGEgbHV4dXJ5IGNhciBkZWFsZXJzaGlwLiBCbGVhY2hlZCBCbG9uZGVzIGFuZCBBcm1hbmkgU3VpdHMgZXhpdCB0aGVpciBzaGlueSBNZXJjZWRlcy9MZXh1cy9BdWRpL0JNVyB0byByZWZ1ZWwgdGhlaXIgZGF5IG9mIHNob3BwaW5nL2RlYWwgbWFraW5nIHdpdGggYSAkNCBkb2xsYXIgbGF0dGUuIEkgZG9uJ3QgZml0IGluLiBPdXQgb2YgdGhlIGNvcm5lciBvZiBteSBleWUsIEkgc2VlIGEgZmxhc2h5IGJsdWUtZ3JheSBwYWludCBqb2IgcHVsbCBpbnRvIGEgc3BvdCBuZWFyYnksIHNoaW55IGNocm9tZSB3aGVlbHMgYW5kIHRpbnRlZCB3aW5kb3dzLCB0aGUgc2lnbmF0dXJlIGJsdWUgYW5kIHdoaXRlIGNoZWNrcyBkaXNwbGF5ZWQgb24gdGhlIGJ1bXBlci4gIll1bWVlLCIgSSBzYXkgcXVpZXRseSwgd2FpdGluZyBmb3Igc29tZSBzbGljayBleGVjdXRpdmUgdG8gZXhpdCB0aGUgY2FyIGFuZCB0aHJvdyBodW5kcmVkIGRvbGxhciBiaWxscyB0byB0aGUgbG93bHkgbWFzc2VzLiBBIDE2LXllYXIgb2xkIGRyZXNzZWQgdG8ga2lsbCBzbGlkZXMgb3V0IG9mIHRoZSBkcml2ZXIncyBzZWF0LCBhIGdhZ2dsZSBvZiB0ZWVuYWdlIGdpcmxzIHNwaWxsaW5nIG91dCBmcm9tIHRoZSBsZWF0aGVyIHNlYXRzIGJlaGluZCBoZXIgb2htaWdvb29zaCwgbm8gd2F5LWluZyB0aGVpciB3YXkgaW50byB0aGUgc3RvcmUuIEh1aD8gRm9yZ2V0IGZvciBhIG1vbWVudCB0aGF0IEknbSBpbiBSb3NldmlsbGUsIGxhbmQgb2Ygb3Zlci1wcml2aWxlZ2VkIHNwYXduLCBhbmQgcmV2ZXJ0IGJhY2sgdG8geW91ciB0ZWVuYWdlIHllYXJzIG9mIGxvbmdpbmcgZm9yIGEgY2FyLCBhbnkgY2FyLCB0byBjYWxsIHlvdXIgdmVyeSBvd24u"
+"eventtime","2008-09-10 23:22:00"
+"current_moodid","68"
+"url","http://krystiana.livejournal.com/35433.html"
+"userid","8342"
+"itemid","136"
+"event","I have it.
+
+We all have it.
+
+Shit you do when you're alone that you don't really want anyone else seeing you do. They did an episode about this on Sex and the City.
+
+I do things like...Read Cosmopolitan in nothing but a bra, pj pants and slippers while eating wheat thins.
+
+My other super secret single behavior is pretty much the same as Charolette's.
+
+I get one of the mirrors that magnify x5. Then I study my pores. See if there are any stray eyebrow hairs that I need to pluck, make sure there is not one flake of dry skin on my face. Stuff like that.
+
+I usually do this when Greg is at work or off doing something else.
+
+I've done it in front of Ean quite a few times but just recently I was at my Mothers house in her bathroom that's pretty much the size of my bedroom. Ean was playing in her bathtub that's pretty much the size of a small swimming pool. I sat up on the counter and grabbed that mirror and went to town with tweezers until I heard.
+
+""MOM what the HECK are you doing""
+
+I have now realized super secret single behavior cannot be done when my son is around anymore."
+"eventtime","2007-01-10 09:38:00"
+"current_moodid","59"
+"url","http://krystiana.livejournal.com/34873.html"
+"userid","8342"
+"itemid","135"
+"event","This morning I hopped on the elevator.
+
+I really dislike elevator rides with certain people that work in this building.
+
+There's the annoying salesmen on the 2nd floor, the sluts that work at the dating service and the stuck up attorneys from the other law firms.
+
+As I walked into our building this morning I saw the slut brigade coming my way. I walked REALLY fast to the elevator...pushed the button...hopped on...pushed my floor and then sat there and in a panic pushed ""close door"" so I didnt have to listen to them cackle all the way up to my floor.
+
+Have you ever seen those movies where people are trying to run from the bad guy and run on an elevator and they push the button to close the door rather frantically and it won't close?
+
+That's how I felt this morning.
+
+I had to ride all the way up with those whore mongers this morning.
+
+Ugh!"
+"eventtime","2007-01-10 09:36:00"
+"current_moodid","44"
+"url","http://krystiana.livejournal.com/34669.html"
+"userid","8342"
+"itemid","130"
+"event","New Rule: Stop giving me that pop-up ad for Classmates.com! There's a reason you don't talk to people for 25 years. Because you don't particularly like them! Besides, I already know what the captain of the football team is doing these days: mowing my grandpa's lawn.
+
+New Rule: Don't eat anything that's served to you out a window unless
+you're a seagull. People are acting all shocked that a human finger was found in a bowl of Wendy's chili. Hey, it cost less than a dollar. What did you expect it to contain? Trout?
+
+New Rule: Stop saying that teenage boys who have sex with their hot, blonde teachers are permanently damaged. I have a better description for these kids: lucky bastards!
+
+New Rule: Ladies, leave your eyebrows alone. Here's how much men care about your eyebrows: do you have two of them? Okay, we're done.
+
+New Rule: There's no such thing as flavored water. There's a whole aisle of this crap at the supermarket ? water, but without that watery taste. Sorry, but flavored water is called a soft drink. You want flavored water? Pour some scotch over ice and let it melt. That's your flavored water.
+
+New Rule: Stop f***ing with old people. Target is introducing a redesigned pill bottle that's square, with a bigger label. And the top is now the bottom. And by the time grandpa figures out how to open it, his ass will be in the morgue. Congratulations, Target, you just solved the Social Security crisis.
+
+New Rule: The more complicated the Starbucks order, the bigger the asshole. If you walk into a Starbucks and order a ""decaf grande half-soy, half-low fat, iced vanilla, double-shot, gingerbread cappuccino, extra dry, light ice, with one Sweet-n'-Low and one NutraSweet,"" ooh, you're a huge asshole.
+
+New Rule: I'm not the cashier! By the time I look up from sliding my card, entering my PIN number, pressing ""Enter,"" verifying the amount, deciding, no, I don't want cash back, and pressing ""Enter"" again, the kid who is supposed to be ringing me up is standing there eating my Almond Joy.
+
+New Rule: Competitive eating isn't a sport. It's one of the seven deadly sins. ESPN recently televised the US Open of Competitive Eating, because watching those athletes at the poker table was just too damned exciting. What's next, competitive farting? Oh wait. They're already doing that. It's called ""The Howard Stern Show.""
+
+New Rule: I don't need a bigger mega M&M. If I'm extra hungry for M&Ms, I'll go nuts and eat two.
+
+New Rule: If you're going to insist on making movies based on crappy, old television shows, then you have to give everyone in the Cineplex a remote so we can see what's playing on the other screens. Let's remember the reason something was a television show in the first place is that the idea
+wasn't good enough to be a movie.
+
+New Rule: No more gift registries. You know, it used to be just for
+weddings. Now it's for babies and new homes and graduations from rehab. Picking out the stuff you want and having other people buy it for you isn't gift giving, it's the white people version of looting.
+
+New Rule: and this one is long overdue: No more bathroom attendants. After I zip up, some guy is offering me a towel and a mint like I just had sex with George Michael. I can't even tell if he's supposed to be there, or just some freak with a fetish. don't want to be on your webcam, dude. I just want to wash my hands.
+
+New Rule: When I ask how old your toddler is, I don't need to know in months. Months."" ""He's two,"" will do just fine. He's not a cheese. And I didn't really care in the first place"
+"eventtime","2006-01-28 17:29:00"
+"current_moodid","98"
+"url","http://krystiana.livejournal.com/33341.html"
+"userid","8342"
+"itemid","129"
+"event","You create your feelings and you are responsible for them. By controlling those feelings in a positive and purposeful way, you can profoundly change your life for the better.
+If you blame another person for your feelings, what you're really doing is giving that person control over an important part of your life. If you avoid taking responsibility for your feelings, those feelings can quickly overwhelm you and leave you powerless.
+
+The way you feel can affect every corner of your life. By taking positive control of your feelings, you put yourself in a powerful and influential position in your world.
+
+Keep in mind that every feeling you experience is a feeling you have chosen. Though much of what comes your way is beyond your control, the way you feel about it all is completely up to you.
+
+If your life seems to be stuck, that's a sure sign that you're holding on to feelings that are no longer appropriate. Know that you can let those feelings go and be gloriously free to move quickly ahead.
+
+Feelings are powerful and can bring much richness to life, and the power they have is the power you choose to give them. Choose your feelings wisely, and life will be rich indeed.
+
+-- Ralph Marston"
+"eventtime","2006-01-23 10:55:00"
+"current_moodid","56"
+"url","http://krystiana.livejournal.com/33149.html"
+"userid","8342"
+"itemid","128"
+"event","Of some of the things I've heard lately that have stayed in my mind for one reason or another.  Things that have either touched my heart or made me smile.
+
+
+
+""I love you without knowing how, or when, or from where. I love you straightforwardly without complexities or pride. I love you because I know no other way then this. So close that your hand, on my chest, is my hand. So close, that when you close your eyes, I fall asleep."" - From the movie Patch Adams
+
+ ""I have one thing that counts, and that is my heart; it burns in my soul, it aches in my flesh, and it ignites my nerves: that is my love for you"" 
+
+""...and then one day it all makes sense and the stuff that still doesn't, doesn't need to anymore...""
+
+""For one human being to love another: that is perhaps the most difficult of our tasks; the ultimate, the last test and proof, the work for which all other work is but preparation.""
+
+""Janice, I apologize to you if I don't seem real eager to jump into a forced awkward intimate situation that people like to call dating. I don't like the feeling. You're sitting there, you're wondering do I have food on my face, am I eating, am I talking too much, are they talking enough, am I interested I'm not really interested, should I play like I'm interested but I'm not that interested but I think she might be interested but do I want to be interested but now she's not interested? So all of the sudden I'm getting, I'm starting to get interested... And when am I supposed to kiss her? Do I have to wait for the door cause then it's awkward, it's like well goodnight. Do you do like that ass-out hug? Where you like, you hug each other like this and your ass sticks out cause you're trying not to get too close or do you just go right in and kiss them on the lips or don't kiss them at all? It's very difficult trying to read the situation. And all the while you're just really wondering are we gonna get hopped up enough to make some bad decisions? Perhaps play a little game called ""just the tip"". Just for a second, just to see how it feels. Or, ouch, ouch you're on my hair."" - Vince Vaughn in Wedding Crashers
+
+""I am nothing special; just a common man with common thoughts, and I've led a common life. There are no monuments dedicated to me and my name will soon be forgotten. But in one respect I have succeeded as gloriously as anyone who's ever lived: I've loved another with all my heart and soul; and to me, this has always been enough."" - The Notebook
+
+""I don't want you to be the guy in the PG-13 movie everyone's *really* hoping makes it happen. I want you to be like the guy in the rated R movie, you know, the guy you're not sure whether or not you like yet. You're not sure where he's coming from. Okay? You're a bad man. You're a bad man, Mikey. You're a bad man, bad man."" -Swingers"
+"eventtime","2006-01-23 01:13:00"
+"current_moodid","102"
+"url","http://krystiana.livejournal.com/32843.html"
+"userid","8342"
+"itemid","127"
+"event","As I was walking along in your store this evening with my 2 year old son I passed a display of Goldfish crackers. (By the way, I hate you for putting up displays of Goldfish...my 2 year old cannot resist them) As soon as he saw your display of the delicious little snack that smiles back he put on ""the face"" and said every so sweetly ""Mommy can I haf golfisssh cackers""
+
+Since he was such a good little guy today I gave in. Only he did not want to wait until he got home to eat his delicious treat. Nooooo. He wanted to eat them in the store. So I did what I used to watch other people do before I had a child that I despised and opened up that little bag of crackers for him. He munched away telling me every color of the goldfish before he put one in his mouth (I got him the rainbow ones).
+
+I made my way up to the checkstand and put all my items on the belt. My Cosmopolitan magazine, toilet paper, a few un-mentionables and some of that nifty stuff you have in the $1 area. As the extremely unfriendly checker rang my items up I paid for them with my Bank of America check card and left. I put my bags in the trunk of my car...son in his carseat still holding onto that bag of goldfish for dear life.
+
+As I was driving home it occured to me. ""OH SHIT!"" I forgot to pay for the goldfish. I didn't think anything of it when I was at the checkstand. Honest.
+
+So to make up for that time you were out of my favorite lotion I guess we can call it even since I walked out with a bag of Goldfish crackers that cost $1.33.
+
+You forgive me don't you?
+
+Please? I don't want to be a criminal. What kind of role model would I be?
+
+Besides. I'm cute. If I went to prison I'd get made someones bitch for sure and my son would have to live with his Dad and his crazy parents.
+
+**Update** I felt bad and gave the girl who works there that lives down the street $2 to take to work with her and ring up a bag of Goldfish...damn me and my conscience."
+"eventtime","2006-01-20 20:12:00"
+"current_moodid","35"
+"url","http://krystiana.livejournal.com/32615.html"
+"userid","8342"
+"itemid","125"
+"event","PEI+VGhlIFBsYXllciA8L2I+DQpUaGlzIGd1eSBqdXN0IHNlbmRzIG91dCBtZXNzYWdlcyAmIGNoYXRzIG9ubGluZSBwcmFjdGljYWxseSBmdWxsIHRpbWUuIEFzIHNvb24gYXMgaGUgZ2V0cyB5b3UgaW4gdGhlIHNhY2ssIGhl4oCZcyBvbiB0byBoaXMgbmV4dCBjb25xdWVzdC4gSGXigJlzIHNsaWNrLCBJIGhvcGUgeW91IHJlY29nbml6ZSBoaW0uIEluIHJldHJvc3BlY3QgeW91IGFyZSBxdWl0ZSByZWxpZXZlZCB5b3UgaW5zaXN0ZWQgb24gYSBjb25kb20gZGVzcGl0ZSB0aGUgaW50ZW5zZSBwcmVzc3VyZSBhbmQgcXVlc3Rpb25hYmxlIOKAnGxhdGV4IGFsbGVyZ3nigJ0gZXhjdXNlLiANCg0KPGI+VGhlIEluc3RhbnQgUmVsYXRpb25zaGlwIEd1eSA8L2I+DQpUaGlzIGd1eSB0ZWxscyB5b3UgYWxsIHNvcnRzIG9mIGJzOiDigJxJIG1ldCB5b3UgJiBwdWxsZWQgbXkgcHJvZmlsZeKAnSDigJxXaGVyZSBoYXZlIHlvdSBiZWVuIGFsbCBteSBsaWZl4oCdIOKAnEkgd2FudCB0byB0YWtlIHlvdSBteSBidXNpbmVzcyB0cmlwIHRvIEV1cm9wZSB3aXRoIG1l4oCdIOKAnEnigJltIGZhbGxpbmcgZm9yIHlvdeKAnSDigJxJIHRoaW5rIHlvdeKAmXJlIGdvaW5nIHRvIG1hcnJ5IG1l4oCdIOKAnFlvdeKAmXJlIHNvIGFtYXppbmfigJ0sIGV0YyBldGMuIFdlYXIgaGlwIHdhZGVycywgdGhlIHNoaXQgaXMgZGVlcC4gDQoNCjxiPlRoZSBMaWFyIDwvYj4NClNpbWlsYXIgdG8gdGhlIGFib3ZlIGd1eSwgYnV0IHRoZXNlIHR5cGVzIGFyZSBtb3JlIGNyZWF0aXZlLCB3aXRoIGEgd2lkZXIgcmFuZ2Ugb2YgbGllczogdGhleSB3aWxsIGxpZSBhYm91dCB0aGVpciBhZ2UsIGhlaWdodCAobGlrZSBJIHdvdWxkbuKAmXQgbm90aWNlPz8pLCB3aGVyZSB0aGV5IGxpdmUsIG1hcml0YWwgc3RhdHVzLCBqb2IsIHdoZXRoZXIgdGhleSBzbW9rZSBvciBub3QsIHdoZXRoZXIgdGhleSBoYXZlIGtpZHMgb3Igbm90LCBpZiB0aGV5IGFyZSBkYXRpbmcgc29tZW9uZSBlbHNlLCBldGMuIERvbuKAmXQgZm9yZ2V0IHRoZSBjbGFzc2ljOiDigJxJ4oCZbGwgY2FsbCB5b3XigJ0uIEJhc2ljYWxseSwgeW91IGNhbiB0ZWxsIGlmIHRoZXkgYXJlIGx5aW5nIOKAkyB0aGVpciBsaXBzIGFyZSBtb3ZpbmcuIFRoZXkgYXJlIHRoZSBtb3N0IGNvbW1vbiB0eXBlIGZvdW5kIG9ubGluZS4gDQoNCjxiPlRoZSBEdW1iIEd1eSA8L2I+DQpQb29yIGJhc3RhcmQgY291bGRu4oCZdCBzcGVsbCBpZiBoaXMgbGlmZSBkZXBlbmRlZCBvbiBpdC4gVG9vIGNsdWVsZXNzIHRvIHJ1biBzcGVsbCBjaGVjayBvbiBoaXMgNSBzZW50ZW5jZSBwcm9maWxlLiDigJxJIGxpa2UgcHVydHkgZ3VybHMu4oCdIE5vIHB1bmN0dWF0aW9uLiBFdmVuIG1pc3NwZWxscyBoaXMgcHJvZmVzc2lvbiDigJMgaG93IHNjYXJ5IGlzIHRoYXQ/IA0KDQo8Yj5UaGUgT25lIEdvb2QgUGljdHVyZSBHdXkgPC9iPg0KSnVzdCBoYXMgb25lIGdvb2QgcGljdHVyZSBmcm9tIHRoZSByaWdodCBhbmdsZSB0aGF0IG1ha2VzIGhpbSBsb29rIGFjY2VwdGFibHkgY3V0ZS4gRG9lcyBub3QgbG9vayBsaWtlIHRoYXQgYXQgYWxsIGluIHBlcnNvbi4gRnJ1c3RyYXRpbmcgd2hlbiB5b3UgaGFkIGFncmVlZCB0byBtZWV0IGhpbSBmb3IgZGlubmVyICYgaXQgZW5kcyB1cCBEdXRjaC4gSGUgc2hvdWxkIHBheSBqdXN0IGZvciB0aGUgaW5jb252ZW5pZW5jZSBvZiBoaXMgbWlzcmVwcmVzZW50YXRpb24uIA0KDQo8Yj5UaGUgVWdseSBHdXkgVGhhdCBXYW50cyBhIFN1cGVybW9kZWwgPC9iPg0KQW5ub3lpbmfigKYgdGhlIGd1eSBzb21laG93IHJlYWNoZWQgMzUgbm90IGtub3dpbmcgdGhhdCBoZSBpcyBhIDQgb3V0IG9mIDEwLiBDb25zdGFudGx5IHNlbmRzIGVtYWlscyBhbmQgaW5zdGFudCBtZXNzYWdlcyB0aGUgaG90IGNoaWNrcywgdGhlIDcgdG8gMTDigJlzIG91dCBvZiAxMC4gV291bGQgbmV2ZXIgaGF2ZSB0aGUgY291cmFnZSB0byBhcHByb2FjaCB0aGVtIG91dCBpbiBwdWJsaWMsIHN1YmNvbnNjaW91c2x5IGtub3dzIHRoZXkgYXJlIG91dCBvZiBoaXMgbGVhZ3VlLiBXSFkgZG9u4oCZdCB5b3Ugd2FudCB0byBkYXRlIG1lPyBTb3JyeSwgeW914oCZcmUgbm90IG15IHR5cGUuIFdoYXTigJlzIHlvdXIgdHlwZT8gZXRjIGV0Yy4gSW52YXJpYWJseSBmcm9tIFN0aWNrc3ZpbGxlLiANCg0KPGI+VGhlIEludG9sZXJhbnQgR3V5IDwvYj4NClRoaXMgZ3V5IGlzIGFidXNpdmUgaWYgeW91IGRvbuKAmXQgYWdyZWUgd2l0aCBoaXMgcmVsaWdpb3VzIGJlbGllZnMsIGV0Yy4gb3Igd2lsbCB0ZWxsIHlvdSB0aGF0IHlvdSBhcmUgd2VpcmQgaWYgdGhlcmUgaXMgc29tZXRoaW5nIGFib3V0IHlvdSB0aGF0IGhlIGRvZXNu4oCZdCB1bmRlcnN0YW5kLiBBbiBpbnNlbnNpdGl2ZSBwcmljay4gRG9lc27igJl0IHJlYWxseSBsaWtlIHdvbWVuIHRoYXQgaGF2ZSBvcGluaW9ucyDigJMgb24gYW55dGhpbmcuIA0KDQo8Yj5UaGUgU2tldGNoeSBHdXkgPC9iPg0KVGhlIG9ubHkgdGhpbmcgeW91IGZpbmQgb3V0IGFib3V0IHRoaXMgZ3V5IGlzIGhpcyBsaWNlbmNlIHBsYXRlIG51bWJlciAmIGNlbCBudW1iZXIuIFlvdSB3aWxsIGRhdGUgdGhpcyBndXkgcXVpdGUgYSBmZXcgdGltZXMgYnV0IHdpbGwgbmV2ZXIgZmluZCBvdXQgYW55IHBlcnNvbmFsIGluZm9ybWF0aW9uIGFib3V0IHRoZSBlbHVzaXZlIHNrZXRjaHkgZ3V5LiBZb3XigJlsbCBuZXZlciBrbm93IGhpcyBsYXN0IG5hbWUsIHNlZSB3aGVyZSBoZSBsaXZlcywgb3Iga25vdyB3aGVyZSBoZSB3b3Jrcy4gWW914oCZbGwgbmV2ZXIgbWVldCBhbnkgb2YgaGlzIGZyaWVuZHMsIGNvd29ya2VycyBvciBmYW1pbHkuIE5vdGhpbmcsIG5hZGEsIHppbGNoLCB6aXBwby4gWW914oCZbGwgd29uZGVyIGlmIGhlIGRpZCBleGlzdCBhdCBhbGwuIA0KDQo8Yj5UaGUgUmV0cm8gSW4gQSBCYWQgV2F5IEd1eSA8L2I+DQpJIHRoaW5rIGl04oCZcyB0aGUgbW91c3RhY2hlIGZyb20gaGVsbCEhIFRoaXMgZ3V5IGRlc3BlcmF0ZWx5IG5lZWRzIGEgUXVlZXIgRXllIG1ha2VvdmVyLiBIYXNu4oCZdCBzaG9wcGVkIGZvciBuZXcgY2xvdGhlcyBpbiBzbyBsb25nIHRoYXQgaGXigJlzIGEgc2FkIGNhc2UuIEhhcyBwb3RlbnRpYWwsIGlmIHlvdSBoYXZlIHRoZSBwYXRpZW5jZS4gSSBkb27igJl0LiBCZWVuIHRoZXJlLCBkb25lIHRoYXQuIEJvdWdodCB0aGUgdC1zaGlydC4gKHdlbGwsIG1hZGUgaGltIGJ1eSBpdC4pIA0KDQo8Yj5UaGUgQml0dGVyIERpdm9yY2VkIEd1eSA8L2I+DQpUaGlzIGd1eSBiaXRjaGVzIGFib3V0IGhpcyBleCwgaG93IHNoZSBzcGVudCBhbGwgaGlzIG1vbmV5LCBoZSBuZXZlciBnZXRzIHRvIHNlZSBoaXMga2lkcywgc2hlIGNoZWF0ZWQsIHNoZSB3YXMgc3VjaCBhIGNvdywgbmV2ZXIgZ2F2ZSBoaW0gYSBibG93IGpvYiwgZXRjIGV0Yy4gV2FpdGVyLCBidWNrZXQgZnVsbCBv4oCZIGJpdHRlciwgcGxlYXNlLiBUaGlzIGd1eSBpcyBkZXZvaWQgb2YgYW55IHBvc2l0aXZlIHRob3VnaHRzLCBhbmQgZW1vdGlvbmFsbHkgdW5hdmFpbGFibGUuIFN1aXRhYmxlIGZvciBkYXRpbmcgcm9ib3RzLiANCg0KPGI+VGhlIERhZCA8L2I+DQpVbmZvcnR1bmF0ZWx5IHRoZSBvbmx5IHRpbWUgdGhpcyBndXkgZ2V0cyB0byBzZWUgaGlzIGtpZHMgaXMgb24gdGhlIHdlZWtlbmRzLCB3aGljaCBjb2luY2lkZXMgd2l0aCB3aGVuIHlvdSB3YW50IHRvIGdvIG91dCBhbmQgaGF2ZSBhIGZ1biBkYXRlIHdpdGggaGltLiBBbHdheXMgc2F5cyDigJxteSBiZWF1dGlmdWwgNCB5ciBvbGTigJ0sIGV0Yy4gV2h5IGRvZXNu4oCZdCBhbnlvbmUgZXZlciBzYXksIOKAnG15IHVnbHkgbGl0dGxlIGJyYXQgd2l0aCBiZWhhdmlvdXJhbCBwcm9ibGVtc+KAnS4gSW5kdWxnZXMgaGlzIGNoaWxkcmVu4oCZcyBldmVyeSB3aGltIGJlY2F1c2Ugb2YgZGl2b3JjZSBndWlsdC4gVW5mb3J0dW5hdGVseSB0aGUgZXggZG9lcyB0b28sIGFuZCBKdW5pb3IgcGF5cyB0aGUgcHJpY2UuIA0KDQo8Yj5UaGUgTm8gU2V4IERyaXZlIEd1eSA8L2I+DQpHb29kIHNleCBhdCBmaXJzdCBidXQgdGhlbiBsb3NlcyBpbnRlcmVzdC4gRm9yZ2V0cyB0byBtZW50aW9uIHRoYXQgaGUgaXMgbm93IG9uIGFudGkgZGVwcmVzc2FudHMsIHdoaWNoIGhhcyBraWxsZWQgaGlzIHNleCBkcml2ZSBjb21wbGV0ZWx5LiBEb27igJl0IHRha2UgaXQgcGVyc29uYWxseSAtIHRoZSBMaW1wIE5vb2RsZSBpcyBub3QgYmVjYXVzZSBvZiB5b3UuIEdvb2QgdGhpbmcgeW91IHN0dW1ibGVkIHVwb24gdGhlbSBpbiB0aGUgYmF0aHJvb20gY2FiaW5ldCB3aGVuIHlvdSB3ZXJlIGxvb2tpbmcgZm9yIGEgUS10aXAuIA0KDQo8Yj5UaGUgQ2VsbCBQaG9uZS9CbGFja2JlcnJ5IEd1eSA8L2I+DQpTbyBhdHRhY2hlZCB0byBoaXMgZGV2aWNlIGhlIGRvZXNu4oCZdCBldmVuIGtub3cgaG93IHRvIHR1cm4gaXQgb2ZmLiBGYWNlIGhhcyBvZGQgZ3JlZW4gZ2xvdyBmcm9tIHBlZXJpbmcgb3ZlciB0aGF0IGxpdHRsZSBzY3JlZW4gZXZlcnkgdGltZSB5b3UgYXJlbuKAmXQgbG9va2luZywgZ28gdG8gdGhlIHdhc2hyb29tLCBldGMuIFRoaXMgc2hpZnR5IGV5ZWQgdGVjaG5vIGFkZGljdCBoYXMgdGhlIGF0dGVudGlvbiBzcGFuIG9mIGEgbW9zcXVpdG8uIFVzdWFsbHkganVtcHkgYW5kIGhvcHBlZCB1cCBvbiBjb2ZmZWUgdG9vLiANCg0KPGI+VGhlIEhvcm55IFdlYmNhbSBHdXkgPC9iPg0KVmVyeSBzb29uIGludG8geW91ciBjaGF0IHdpdGggaG9ybnkgZ3V5LCBoZeKAmWxsIHN1Z2dlc3QgdGhhdCB5b3UgY2hhdCBvbiBjYW1lcmEsIHNob3cgeW91IGhpcyBhYnMsIGFuZCBhc2sgaWYgeW91IGhhdmUgYSBjYW1lcmEuIE5ldmVyIHNlZW1zIHRvIGFjdHVhbGx5IGRhdGUsIGFsd2F5cyBvbmxpbmUgbG9va2luZyBmb3IgZnJlc2ggZmFudGFzeSBtYXRlcmlhbC4gDQoNCjxiPlRoZSBGcmVha3kgRm9vdCBGZXRpc2ggR3V5IDwvYj4NCjIgc2Vjb25kcyBpbnRvIGNoYXR0aW5nIGhlIHdpbGwgYXNrIHlvdSB3aGF0IHlvdXIgZmVldCBsb29rIGxpa2UuIEFmdGVyIDIgcG9saXRlIHF1ZXN0aW9ucyBmZWlnbmluZyBpbnRlcmVzdCBpbiB5b3VyIHByb2Zlc3Npb24vcGVyc29uYWxpdHkvcGljdHVyZSwgYXNrcyBpZiB5b3UgbGlrZSB5b3VyIGZlZXQgd29yc2hpcHBlZCwgbGlja2VkLCBvciBjb3ZlcmVkIHdpdGggY3VtLiBBIHRhZCB0b28gaW50aW1hdGUgdG9vIHNvb24uIA0KDQpSZWNvZ25pemUgeW91cnNlbGYsIGd1eXM/"
+"eventtime","2005-11-22 16:01:00"
+"current_moodid","85"
+"url","http://krystiana.livejournal.com/32071.html"
+"userid","8342"
+"itemid","124"
+"event","Love is everything it's cracked up to be. That's why people are so cynical about it. It really is worth fighting for, being brave for, risking everything for. And the trouble is, if you don't risk anything, you risk even more."
+"eventtime","2005-10-23 00:31:00"
+"current_moodid","7"
+"url","http://krystiana.livejournal.com/31802.html"
+"userid","8342"
+"itemid","122"
+"event","(Originally written on 8/12/05 I just haven't entered it on here from my hard drive until now)
+
+In the last 24 and almost half years, I've experienced quite a bit out of life. Some lessons were easier than others to learn while others involved a bit of pain.
+
+The most important lesson I learned is that a real relationship that it's easy to be superficial and just go straight for a physical relationship, while a real relationship built on love and trust is a challenge to find but much more rewarding to have. The word love these days is used too easily and without much conviction. Some people will use it while the relationship is going good and as soon as things become a challenge, they cut and run, leaving people to feel hurt and a loss of their belief that love is real. I learned that one after all the relationships and booty calls in my past left me feeling empty and alone, and when I tried to work on a relationship that wasn't purely physical I failed every single time.
+
+Sex is fucking great but sometimes can become meaningless if that's all you share with someone. A relationship must be built on more than a physical attraction. I've had too many that were physical too fast and well now I'm single and writing this blog. Sex is the most personal thing you can share with someone, make it meaningful besides if you end up with a child you want to at the very least get along with the person you created that life with, nothing more annoying than someone fighting with their baby's momma or daddy.
+
+
+Sometimes it's best to end things when a relationship becomes more work than fun. I'm not talking about the hardships that we all face in life. I'm not talking about cutting and running on someone when they need you most. I'm talking about when normal everyday things that used to be enjoyable, like a night out or even time together feels like an ordeal or just like you're walking on eggshells to avoid a fight, or worse yet when someone may inflict pain physical or emotional just because they can. 
+
+It's important to keep the little promises because if you can't keep those, how is anyone going to believe you when you make the big ones like you promise to love them forever, but at the same time make sure that the person you're making promises to is keeping theirs. 
+
+Remember important dates and things. A birthday and an anniversary is an important thing. Nothing worse than having someone forget a special day like that, but be sure they remember the important days for you too. Most of the exs in my life probably would have had a hard time remembering what day or even what month I was born (the year would be easy all of them were at least able to perform simple math).  
+
+Money does not equal love, you can spend a lot of money on someone, but when it comes down to things the important things are the little things you do that make a person feel special. I prefer to get gifts that show that someone actually pays attention to what I like or that reminds them of me, it's the same way i shop for others. Plus it shows that the person you're buying for matters to you.
+
+At this point and with all the relationships that have taught me my lessons, I always seem to cry over a failed relationship, all I ever hope is that we each find happiness in our lives. I may never find it but at least I know that I am capable of love."
+"eventtime","2005-10-02 22:21:00"
+"current_moodid","58"
+"url","http://krystiana.livejournal.com/31467.html"
+"userid","8342"
+"itemid","121"
+"event","So about a month ago Brett was in Hollister and saw a shirt that said ""Team Kristin"" on it and bought it for me.  Needless to say I was ecstatic because I can never find cool shit with my name on it.  Especially with my name spelled correctly.
+
+On my way home from Los Angeles a few weeks ago I stopped at Starbucks to get some coffee and decide the shirt I'm wearing is making me hot so I need to change it. I get in the trunk of my car and grab my ""Team Kristin"" shirt and a pair of shorts so I can change in the bathroom.  Somewhere along the way I dropped the shirt. I back tracked 3 or 4 times and the shirt just disappeared.  I have NO clue where it went.  That really pissed me off.
+
+So I went back to Hollister to replace the shirt the other day.  I figured there would be a huge table with tons and tons of girls names on the shirts but I was wrong.  There was only 1 stack with Team Kristin and one stack with Team LC on them.  I thought that was a little odd but I shrugged it off and grabbed my shirt, paid and left.
+
+I found myself in the store today facing a girl who couldn't be more than 15 wearing a ""Team LC"" shirt.  She made a B-line for me as soon as she saw me wearing the ""Team Kristin"" shirt.  She then proceeds to tell me that she can't believe I'm on Kristin's side and Kristin is such a bitch.  I kind of gave her one of those blank stares and just blinked my eyes.  I had absolutely no clue what the hell she was talking about.  I almost didn't want to ask.  But I did, and boy was I sorry.  
+
+She then laid into me about how dare I wear a shirt that I know nothing about.  Turns out ""Kristin"" is a character on Laguna Beach"" The Real OC.  I wanted to die right then and there.  I make it a point to not watch that show.  Because anyone knows that Laguna Beach is NOT the real OC.  You want real OC?  Go to Huntington or Newport...hell go to Santa Ana...lol.  
+
+I explained to the girl that the only reason I thought the shirt ruled is because Kristin, is in fact my name.  I don't think she was amused.  She takes her show very seriously.
+
+I'm just mad that my name has been shamed by some ""bitch"" on some lame TV show.  UGGGH!
+
+<img src=""http://img.photobucket.com/albums/v42/eansmommy/teamkristin2.jpg"">"
+"eventtime","2005-09-29 14:00:00"
+"current_moodid","66"
+"url","http://krystiana.livejournal.com/31224.html"
+"userid","8342"
+"itemid","120"
+"event","The other day Brett commented on the fact that he was surprised that I hadn't blogged about this yet because it was so funny.  Well considering that today I was harassed by the cops about it I guess a bulletin of some sort is due.
+
+The day is Thursday September 15, 2005 and Brett and I decide to catch a Giants game at good ol' SBC Park.  We score some club box seats and we're having a good ol' time.  Brett drank I believe 3 ciders on the way to the game (it's always nice to catch a buzz before you get in the gates...alcohol is expensive at the games) and I had A LOT of Raspberry vodka and Red Bull.  
+
+We get inside the game grab a few beers and head to our seats.  Then we realize that since we are in club box seats people that work at SBC park will bring beers TO YOU! Brilliant!  We order a few more.  
+
+Now, before I go any further you need to understand how hard it is to get Brett intoxicated.  I mean before this night the last time I saw him drunk was on New Years Eve after a half a bottle of Jager. 
+
+BUT!  On this particular night I'm starting to see signs of definite intoxication from Brett.  He's getting more and more perverted with the comments that he makes.
+
+Example: I'd bang that chick harder than Barry Bonds hits a baseball.
+
+The girls in front of us didn't look amused...but you could totally tell that they were. Hell, we were so bad with our comments that night this couple sitting a few seats away from us moved.  The Giants were losing so screw it.
+
+Here we are around that time....
+
+<img src=""http://img.photobucket.com/albums/v42/eansmommy/giantsgame.jpg"">
+
+So I'm sitting there and I'm pretty effing proud of myself that I have once again been able to witness Brett intoxicated.  When the game ends we begin the 1/2 mile trek back to the parking garage on Federal that we were in.  By the time we get to the car Brett is in this crazy mood.  I'm dying I'm laughing so hard.  After we ask the attendant in the garage if we could take one of the BMW's instead (he said go for it..just for the record) we hop in my car and I go up to the top of the garage.....
+
+Suddenly Brett jumps out of my car and grabs the traffic cone thats sitting on the street and throws it in my back seat.  Then jumps in and says ""lets go lets go lets go""
+
+Oddly enough, I felt like a bank robber.  It was kind of exhilirating so I squeal my tires and we get the fuck outta there.  You would think we would have just stolen the Hope Diamond.  For fucks sake.    Anyway, we go to The Chieftan and have a few more drinks.  By 1am I'm sober and Brett is even more drunk than before.  So drunk in fact that when our new friend from Australia bought him a shot of jager he pretended to drink it but spit it out in the bathroom because he knows his limits.
+
+Today I'm outside of my house and a cop comes screaming into my driveway like I'm some wanted criminal.  He says to me ""HEY WHERE'D YOU GET THAT TRAFFIC CONE""
+
+I look over and remember that I set the cone in my driveway the other day when Brett was looking at my car...
+
+Man, I was thinking I was some hardened criminal by the way he was talking to me.  I was scrambling for an answer.  I could have just gone the smart ass route or been the good little citizen I am.  
+
+I simply replied 
+
+""I don't know...it just showed up there one night...darn kids""
+
+He just drove away...I'm surprised he didn't take it away from me.  Now it is safely tucked away in my backyard.
+
+Man...I'm a pussy.
+
+<img src=""http://img.photobucket.com/albums/v42/eansmommy/trafficcone.jpg"">
+
+
+
+
+
+
+
+<embed allowScriptAccess=""never""src=""http://soundamerica.com/sounds/themes/Television/C-E/cops.wav"" autostart=""true"" loop=""false"" width=""0"" height=""0""></embed>"
+"eventtime","2005-09-28 22:20:00"
+"current_moodid","44"
+"url","http://krystiana.livejournal.com/30925.html"
+"userid","8342"
+"itemid","118"
+"event","It doesnt interest me what you do for a living.
+
+I want to know what you ache for ,and if you dare to dream of meeting your hearts longing.
+
+It doesnt interest me how old you are.
+
+I want to know if you will risk looking like a fool, for love, for your dream, for the adventure of being alive.
+
+It doesnt interest me what planets are squaring your moon...
+
+I want to know if you have touched the centre of your own sorrow, if you have been opened by lifes betrayals, or have become shrivelled, and closed, from fear of further pain.
+
+I want to know if you can sit with pain, mine, or your own, without moving to hide it or fade it, or fix it.
+
+I want to know if you can be with joy, mine, or your own, if you can dance with wildness and let the ecstasy fill you to the tips of your fingers and toes, without cautioning us to be careful, be realistic, remember the limitations of being human.
+
+It doesnt interest me if the story you are telling me is true.
+
+I want to know if you can disappoint another, to be true to yourself.
+
+If you can bear the accusation of betrayal and not betray your own soul.
+
+If you can be faithless, and therefore trustworthy.
+
+I want to know if you can see Beauty, even when it is not pretty every day.
+
+And if you can source your own life from its presence.
+
+I want to know if you can live with failure, yours, and mine, and still stand at the edge of the lake, and shout to the silver of the full moon, Yes!
+
+It doesnt interest me to know where you live, or how much money you have.
+
+I want to know if you can get up after the night of grief, and despair, weary, and bruised, to the bone, and do what needs to be done to feed the children.
+
+It doesnt interest me who you know, or how you came to be here.
+
+I want to know if you will stand in the centre of the fire with me, and not shrink back.
+
+It doesnt interest me where, or what, or with whom, you have studied.
+
+I want to know what sustains you from the inside when all else falls away.
+
+I want to know if you can be alone with yourself, and if you truly like the company you keep in the empty moments.
+
+-Oriah"
+"eventtime","2005-09-06 09:58:00"
+"current_moodid","49"
+"url","http://krystiana.livejournal.com/30418.html"
+"userid","8342"
+"itemid","115"
+"event","SSB3aXNoIHNvbWVvbmUgd291bGQgYmFuIHRoZSBmb250ICJUaW1lcyBOZXcgUm9tYW4iDQoNCkkgb25jZSB3YXMgaW4gYSBwdWJsaWMgcmVzdHJvb20gd2l0aCBhbiBlbm9ybW91cyBsaW5lIGF0IGEgc2hvdyBpbiBXYXNoaW5ndG9uIEQuQy4gSXQgd2FzIGEgaGlwLWhvcCBzaG93IChUaGlzIHdpbGwgbWF0dGVyIGluIGEgc2Vjb25kKS4gV2hlbiBJIGZpbmFsbHkgZ290IG15IHR1cm4sIEkgc2hvdXRlZCwg4oCcUGVlIGF0IGxhc3QsIHBlZSBhdCBsYXN0LCB0aGFuayBHb2QgYWxtaWdodHksIEkgY2FuIHBlZSBhdCBsYXN04oCdIEl04oCZcyBhIHNtYWxsIG1pcmFjbGUgbXkgSSBkaWRu4oCZdCBnZXQgc2hvdCBvbiB0aGUgd2F5IG91dC4NCg0KSWYgeW91IGhhdmUgbm8gaWRlYSB3aGF0IHRoYXQgd2FzIGEgcmVmZXJlbmNlIHRvLCBzdG9wIHJlYWRpbmcuIE11Y2ggb2YgdGhlIGZvbGxvd2luZyB3aWxsIGdvIG92ZXIgeW91ciBoZWFkLg0KDQpJIHVzZWQgdG8gcGFnZSBwZW9wbGUgd2hvIGRvbuKAmXQgZXhpc3Qgb3ZlciB0aGUgaW50ZXJjb20gYXQgdGhlIGdyb2Nlcnkgc3RvcmUgSSB3b3JrZWQgYXQgd2hlbiBJIHdhcyAxNi4gTm90IGp1c3QgYW55IG5hbWUgdGhvdWdoLi4uLml04oCZcyBnb3QgdG8gYmUgc29tZXRoaW5nIHRoYXQgbWF5YmUgYSBmZXcgcGVvcGxlIGdldC4gU29tZXRpbWVzIEkgd2lsbCBwYWdlIEFsaWNpYSBLZXllcywgTGVlIE9zd2FsZCwgSmltIEJha2VyIGFuZCBzbyBvbi4gSXQga2lsbHMgdGltZSwgd2hhdCBjYW4gSSBzYXkuDQoNCkkgY2FuIGNvb2sgYnV0IGZvciBzb21lIHJlYXNvbiBvbmx5IGZvciB0aHJlZSBvciBtb3JlIHBlb3BsZS4gSSBjYW50IHNlZW0gdG8gbWFrZSAianVzdCBlbm91Z2giIGZvciB0d28uIEkndmUgeWV0IHRvIGZpZ3VyZSB0aGlzIG91dC4NCg0KV2hhdCBpZiB5b3UgdHJpZWQgdG8gc2VuZCBhbiBBbnRocmF4IENEIGluIHRoZSBtYWlsLCB3aXRob3V0IGFueSB3cmFwcGluZz8gSnVzdCBwdXQgdGhlIGFkZHJlc3Mgb24gaXQgYW5kIHNlbmQgaXQgYXdheeKApi5kbyB5b3UgdGhpbmsgaXQgd291bGQgcmFpc2UgYW55IHJlZCBmbGFncy4NCg0KVGhlIG5leHQgcGVyc29uIEkgc2VlIHdlYXJpbmcgb25lIG9mIHRob3NlIGZ1Y2tpbmcgU3RhciBUcmVrIGJsdWUgdG9vdGggZWFyIHNldHMgZm9yIHRoZWlyIHBob25lIGlzIGdldHRpbmcgYW4gb3BlbiBoYW5kZWQgc2xhcCB0byB0aGUgc2lkZSBvZiB0aGUgaGVhZC4gWW91IGxvb2sgbGlrZSBhIEJhYnlsb24gNSBleHRyYSB5b3UgdGFyZCBiYWcsIGdvIGJhY2sgdG8geW914oCZcmUgc3RhcnNoaXAgYW5kIGdldCBzb21lIGRpZ25pdHkgd2hpbGUgeW914oCZcmUgYXQgaXQuDQoNCldlIHNob3VsZCBqdXN0IGRyb3AgdGhlICJQIiBmcm9tIFJhc3BiZXJyeS4gTm9ib2R5IHVzZXMgaXQgYW55d2F5LiBGcm9tIG5vdyBvbiBpdHMgUmFzYmVycnkuIEdvdCBpdD8NCg0KSSBrbm93IGEgZ3V5IHdobyBlYXRzIG9yYW5nZXMgbGlrZSBhcHBsZXMuIEluY2x1ZGluZyB0aGUgcmluZC4NCg0KT2RkbHkgZW5vdWdoLCB0aGUgZmFzdCBmb29kIGpvaW50IEkgaGF0ZSB0aGUgbW9zdCAoTWNEb25hbGRzKSBpcyB0aGUgb25seSBvbmUgSSBoYXZlbuKAmXQgZ290dGVuIGZvb2QgcG9pc29uaW5nIGZyb20uDQoNCkkgdXNlIHRvIHRoaW5rIHRoYXQgdGhlIEhhbmRpY2FwcGVkIHNpZ25zIGluIHBhcmtpbmcgbG90cyB3ZXJlIGZvciBwZW9wbGUgd2l0aCBodWdlIGFzc2VzLiBJZiB5b3UgbG9vayBhdCB0aGVtLCBpdCBkb2VzbuKAmXQgbG9vayBsaWtlIHRoZXkgYXJlIHNpdHRpbmcgaW4gYSBjaGFpciBvZiBhbnkga2luZCwgaXQganVzdCBsb29rcyBsaWtlIHRoZXkgaGF2ZSBodWdlIGFzc2VzLiBUaGUgZmFjdCB0aGF0IG1vc3QgaGFuZGljYXBwZWQgcGVvcGxlIEkgc2F3IHdlcmUgb3ZlcndlaWdodCBvbmx5IGFkZGVkIGZ1ZWwgdG8gdGhpcyBmaXJlLiBJIGZlZWwga2luZGEgYmFkIGFib3V0IHRoaXMgbm93Lg0KDQoNCkhtbW1tLi4uV2hhdCBjb3VsZCB3ZSBkbyB0byBtYWtlIGNlbGwgcGhvbmVzIG1vcmUgYW5ub3lpbmc/IEhleSEgSSBnb3QgaXQhIE1ha2UgdGhlbSB3b3JrIGxpa2Ugd2Fsa2llIHRhbGtpZXMuLnNvIHdlIGNhbiBoZWFyIEJPVEggc2lkZXMgb2YgdGhlIGZ1Y2tpbmcgY29udmVyc2F0aW9uISBHZW5pdXMhDQoNCkZ1biBmYWN0OiBUYXR0b29zIGRvbuKAmXQgaHVydCBhcyBtdWNoIGFzIGhlYXJ0YnJlYWsNCg0KRG8gZmx54oCZcyBzcGVlZCB1cCB3aGVuIHRoZXkgZmFydD8NCg0KV2hhdCBrZXkgYXJlIG1vc3QgY2FyIGhvcm5zIGluPyBJdCBzb3VuZHMgbGlrZSBhbiBGIGJ1dCBJIGNhbnQgYmUgc3VyZeKApi4NCg0KSGVyZXMgYSBzZWNyZXQ6IE15IGRvZyBoYXMgYWJvdXQgODYgbmlja25hbWVzDQoNCkZvciBzb21lIHJlYXNvbiwgbXkgc2tpbiB0YXN0ZXMgbGlrZSBvcmFuZ2VzIHJpZ2h0IG5vdy4gSSBoYXZlIHlldCB0byBkZXRlcm1pbmUgd2h5Lg0KDQpUaGUgbmFtZSBIb3JhdGlvIEhvcm5ibG93ZXIgbWFrZXMgbWUgZ2lnZ2xlIGV2ZXJ5dGltZS4NCg0KRnVuIEZhY3Q6IEl0IGNvc3QgdGhlIGF2ZXJhZ2UgZmFzdCBmb29kIHJlc3RhdXJhbnQgMTIgY2VudHMgZm9yIHlvdXIgJDEuMzUgbGFyZ2Ugc29kYS4gVGhlIGN1cCBpcyBhY3R1YWxseSB0aGUgbW9zdCBleHBlbnNpdmUgcGFydC4gTmV4dCB0aW1lLCB0ZWxsIGVtJyBubyBjdXAhDQoNCkkgd2lzaCB0aGV5J2Qgc3RvcCBhc2tpbmcgaWYgSSdkIGxpa2UgdG8gIlVwc2l6ZSBteSBvcmRlciIuIENhbiBJIHVwc2l6ZSBteSBiYW5rIGFjY291bnQ/IEhvdyBhYm91dCBteSBjbG9zZXQ/IENhbiBJIHVwc2l6ZSB0aGUgdGl0cyBvbiB0aGF0IGhvdHRpZSB3b3JraW5nIGluIHRoZSBiYWNrPw0KDQoNClRoZXJlIHdhcyBhIGd1eSBhdCBteSBvbGQgd29yayB0aGF0IG5lZWRlZCBhIHRhdHRvbyBhcm91bmQgaGlzIGxpcHMgdGhhdCBzYXkgIkNhdXRpb24sIHBvc3NpYmx5IHRoZSB3b3JsZHMgd29yc3QgYnJlYXRoIiwgaXRzIHRoZSBraW5kIHRoYXQgYnVybnMgeW91ciBub3NlLg0KDQpJIGtub3cgdGhlIHdvcmRzIHRvIHRoZSBvbGQgIm15IGxpdHRsZSBwb255IiBjb21tZXJjaWFsIG9mIHRoZSA4MCdzDQoNCkkgYWxzbyBjYW4gcmF0dGxlIG9mZiBhIDEzIGRpZ2l0IHNlcmlhbCBudW1iZXIgZnJvbSBhIHBpZWNlIG9mIHNvZnR3YXJlIEkgaGF2ZW7igJl0IHVzZWQgaW4geWVhcnMgYnV0IEkgY2FudCByZW1lbWJlciB3aGljaCBzb2Z0d2FyZSBpdCB3YXMgZm9yLg0KDQpJIHVzZWQgdG8gdGhpbmsgdGhlcmUgd2FzIGFub3RoZXIgd29yZCBmb3Igc2hvdmVsIGJlc2lkZXMgc2hvdmVsLiBJIHN0aWxsIGRvIGFjdHVhbGx5LCBJIHRoaW5rIGl0cyBiZWluZyBrZXB0IHNlY3JldCBmcm9tIG1lLg0KDQpEb2dzIG1ha2UgbWUgbGF1Z2guDQoNCkNhdHMgbWFrZSBtZSBzbmVlemUuDQoNCkdyaXp6bHkgYmVhcnMgbWFrZSBtZSBydW4uDQoNCkkgc21lbGwgZ29vZC4NCg0KTXkgZXllcyBjaGFuZ2UgY29sb3IgaW4gdGhlIHN1bmxpZ2h0Lg0KDQpXaGVuIEkgd2FzIGEga2lkLCBJIHRob3VnaHQgbGl0dGxlIHBlbmd1aW5zIGxpdmVkIGluIHRoZSBmcmVlemVyIGJ1dCBvbmx5IGNhbWUgb3V0IHdoZW4gdGhlIGRvb3Igd2FzIGNsb3NlZC4gVGhlIGhhZCBsaXR0bGUgZ3JlZW4gYW5kIHB1cnBsZSBvdXRmaXRzIGFuZCB3b3JlIG1pdHRlbnMuDQoNCldoZW4gSSB3YXMgYSBraWQgYW5kIHdvdWxkIGdvIHN3aW1taW5nIGF0IG5pZ2h0IHdpdGggbXkgcGFyZW50cyBvciBteSBicm90aGVyIG9yIHdoYXRldmVy4oCmdGhpcyBpcyB3aGF0IHRoZXkgd291bGQgZG8uIFRoZXkgd291bGQgZ2V0IGEgdGVycmlmaWVkIGxvb2sgb24gdGhlaXIgZmFjZSwgc3dpbSBxdWlja2x5IG91dCBvZiB0aGUgcG9vbCBzY3JlYW1pbmcg4oCcU2hhcmvigKYuc2hhcmsh4oCdLCBydW4gaW5zaWRlIGFuZCB0dXJuIG9mZiB0aGUgcG9vbCBsaWdodC4gSSB3YXMgbGlrZSA2IG9yIDcsIHRoYXTigJlzIHNvbWUgc2Nhcnkgc2hpdCBhdCB0aGF0IGFnZS4NCg0KRWxldmF0b3JzIHNtZWxsIGRpZmZlcmVudCB0byBtaWRnZXRzLg0KDQpFbGV2YXRvcnMgVEVSUklGWSBtZS4gSSB3aWxsIHJhcmVseSBnbyBpbiBvbmUgYWxvbmUuDQoNCkkgdXNlZCB0byB0aGluayB0aGF0IGEgZmFybWVycyBtYXJrZXQgd2FzIHdoZXJlIHRoZSBmYXJtZXJzIHdlbnQgdG8gYnV5IHRoZSBzdHVmZiB0aGF0IHRoZXkgc2VsbCB0byB1cy4gSSB0aG91Z2h0IGl0IHdhcyBzb21lIGJpZyB3aG9sZXNhbGUgY29uc3BpcmFjeSBhbmQgb2Z0ZW4gd29uZGVyZWQgaWYgd2UgY291bGQganVzdCBzbmVhayBpbiBhbmQgZ2V0IGNhcnJvdHMgYXQgY29zdC4gUGVyaGFwcyB3ZSBjb3VsZCBmb3JnZSDigJxGYXJtZXJzIENhcmRz4oCdLiBJIHdhcyBsaWtlIHNldmVuIHNvIGN1dCBtZSBzb21lIHNsYWNrLg0KDQpJIHRoaW5rIHRoZSBnZW5lIHBvb2wgbmVlZHMgc29tZSBjaGxvcmluZS4NCg0KSSBvZnRlbiB3b25kZXIgaWYgbXkgZGVjZWFzZWQgcmVsYXRpdmVzIGFyZSBsb29raW5nIGRvd24gb24gbWUgYXQgdGltZXMgd2hlbiBJIHdvdWxkIHJlYWxseSBwcmVmZXIgdGhhdCB0aGV5IHdlcmVu4oCZdC4gSSBvbmx5IGhvcGUgSSBkb27igJl0IGhhdmUgdG8gZXhwbGFpbiBteXNlbGYgZm9yIGFsbCBldGVybml0eS4NCg0KSeKAmWQgbGlrZSB0byB0ZWFjaCB0aGUgd29ybGQgdG8gc2luZywgaW4gcGVyZmVjdCBoYXJtb255LiBCdXQgbm90IHJlYWxseS4gSSB3YXMgYWN0dWFsbHkgaG9waW5nIHRoZXkgY291bGQga2VlcCBxdWlldC4NCg0KRXZlcnkgdGltZSBJIGdvIG1pbmlhdHVyZSBnb2xmaW5nICh3aGljaCBpc27igJl0IG9mdGVuKSBJIGhlYXIgQmFuYXJhbWEncyAiQ3J1ZWwgU3VtbWVyIiBwbGF5aW5nIGluIG15IGhlYWQgd2hlbiBJ4oCZbSBpbiB0aGUgcGFya2luZyBsb3QuIEkgYmxhbWUgdGhpcyBvbiB0aGUgS2FyYXRlIEtpZC4NCg0KQW0gSSB0aGUgb25seSBvbmUgdGhhdCBtaXNzZXMgQmFydGxlcyBhbmQgSmFtZXM/IEkgZG9u4oCZdCBtZWFuIHRoZSBkcmlua+KApkkgbWVhbiB0aGUgZ3V5cy4gV2hhdCBoYXBwZW5lZCB0byB0aGVtPyBJIGltYWdpbmUgdGhleSBoYWQgYSBmYWxsaW5nIG91dCBpbnZvbHZpbmcgRWQgKEJhcnRsZXMpIG5pcHBpbmcgYXQgdGhlIHN0cmF3YmVycnkgc3ByaXR6ZXIgYSBsaXR0bGUgdG9vIGhhcmQgb25lIGRheSBhbmQgbWFraW5nIHNvbWUgY29tbWVudHMgcmVnYXJkaW5nIE1yLiBKYW1lc+KAmSB3ZWlnaHQuIEhlIHdhcyBhIHRhZCBjaHViYnkgdGhvdWdoLiBBbnl3YXksIEkgaG9wZSB5b3UgZ3V5cyBhcmVu4oCZdCBkZWFkLg0KDQpTb21ldGltZXMgSSB3b25kZXI6IElmIEkgZGlkIGluZGVlZCBoYXZlIGEgbWlsa3NoYWtlLCB3b3VsZCBpdCBicmluZyBhbGwgdGhlIGJveXMgdG8gdGhlIHlhcmQ/IFdvdWxkIGl0IGJyaW5nIGEgZmV3PyBXaGF0IHdvdWxkIGJyaW5nIGFsbCB0aGUgZ2lybHMgdG8gdGhlIHlhcmQ/IE15IGZlYXIgaXMgdGhhdCBpdCB3b3VsZCBvbmx5IGJyaW5nIHRoZSBhbnRzIHRvIGhlIHlhcmQuIEFuZCBhbnRzIG1ha2UgbWUgY3JhenkhDQoNCllvdSBkb27igJl0IGhlYXIgbXVjaCBmcm9tIE1vbmdvbGlhLiBJdOKAmXMgYSBiaWcgcGxhY2UsIHdoYXQgdGhlIGZ1Y2sgYXJlIHRoZXkgZG9pbmcgb3ZlciB0aGVyZT8gSSBmb3Igb25lIGhhdmUgbGl0dGxlIHRydXN0IGZvciB0aGUgTW9uZ29saWFucywgdGhleSBhcmUganVzdCB0b28gcXVpZXQuIEdvb2QgYmFyLWItcXVlIHRob3VnaC4NCg0KSeKAmW0gdG9vIHNleHkgZm9yIG15IHNoaXJ0LiBCdXQgbm90IHNvIHNleHkgaXQgaHVydHMuDQoNCkhvdyBjb21lIHdoZW4geW914oCZcmUgdGFsbCBwZW9wbGUgYXNrIGlmIHlvdSBwbGF5IGJhc2tldGJhbGw/IERvIG1pZGdldHMgZ2V0IGFza2VkIGlmIHRoZXnigJlyZSBhbnkgZ29vZCBhdCBsaW1ibz8NCg0KSSBjYW7igJl0IGNsYWltIHRvIGJlIHRoZSDigJxiZXN0IHNjcmV3IGV2ZXLigJ3igKZidXQgSeKAmWxsIHRha2UgdGhlIFBlcHNpIGNoYWxsZW5nZSBpbiB0aGUga2lzc2luZyBkZXBhcnRtZW50IGFueSBkYXkgb2YgdGhlIHdlZWsuIEV2ZXJ5IHBhcnQgb2YgbWUga25vd3MgZXhhY3RseSB3aGF0IHRvIGRv4oCmSSB0aGluayBpdCB3YXMgcHJlcHJvZ3JhbW1lZCBhdCBiaXJ0aC4NCg0KSSBtaXNzIG15IFNwZWFrIG4nIFNwZWxsLg0KDQpFdmVyeSB0aW1lIHRoaW5ncyBnZXQgcmVhbGx5IHF1aWV0LCBJIGV4cGVjdCBhbiBlYXJ0aHF1YWtlLg0KDQpTb21ldGltZXMgSWxsIHJlYWQgdGhlIE1pc3NlZCBDb25uZWN0aW9ucyBzZWN0aW9uIGluIHRoZSBwYXBlciBhbmQgc2VlIHNvbWUgc2hpdCB0aGF0IG1ha2VzIG1lIHNhZC4gVGhlbiBJIG1ha2UgZnVuIG9mIHNvbWVvbmUgYW5kIGZlZWwgYmV0dGVyLg0KDQpJIHJlYWxseSBsb3ZlIGtpZHMgYnV0IEnigJltIG5vdCBhYm92ZSB0cmlwcGluZyB0aGUgcmVhbGx5IG91dCBvZiBjb250cm9sIG9uZXMgaW4gdGhlIHN1cGVybWFya2V0Lg0KDQoNCkkgdXNlZCB0byBzbmVhayBpbnRvIG15IGRhZOKAmXMgb2ZmaWNlIGFuZCBwbGF5IExlaXN1cmUgU3VpdCBMYXJyeSBvbiBoaXMgQW1pZ2EgaW4gbGlrZSAxOTg3LiBJIGRvbuKAmXQgZXZlbiByZW1lbWJlciB0aGUgcG9pbnQgb2YgdGhlIGdhbWUgYnV0IEkgaGVhcmQgdGhlcmUgd2VyZSB0aXRzIGludm9sdmVkDQoNCkkgdGhpbmsgdGhlIOKAnEJ1c2ggQWRtaW5pc3RyYXRpb27igJ0gd291bGQgYmUgYSBnb29kIG5hbWUgZm9yIGEgZ2FyZGVuaW5nL2xhbmRzY2FwaW5nIHNlcnZpY2Uu"
+"eventtime","2005-08-17 12:20:00"
+"current_moodid","99"
+"url","http://krystiana.livejournal.com/29533.html"
+"userid","8342"
+"itemid","114"
+"event","It hurts to love someone and not be loved in return, but what is more painful is to love someone and never find the courage to let that person know how you feel. Maybe God wants us to meet a few wrong people before meeting the right one so that when we finally meet the right person, we will know how to be grateful for that gift. Love is when you take away the feeling, the passion, and the romance in a relationship and find out you still care for that person. A sad thing in life is when you meet someone who means a lot to you, only to find out in the end that it was never meant to be and you just have to let go.
+
+The best kind of friend is the kind you can sit on a porch and swing with, never say a word, and then walk away feeling like it was the best conversation you've ever had. It's true that we don't know what we've got until we lose it, but it's also true that we don't know what we've been missing until it arrives. Giving someone all your love is never assurance that they'll love you back! Don't expect love in return; just wait for it to grow in their heart but if it doesn't, be content it grew in yours. There are things you'd love to hear that you would never hear from the person whom you would like to hear them from, but don't be so deaf as not to hear it from the one who says it from his heart.
+
+Never say good-bye if you still want to try - never give up if you still feel you can go on - never say you don't love a person anymore if you can't let go. Love comes to those who still hope although they've been disappointed, to those who still believe although they've been betrayed, to those who still need to love although they've been hurt before, and to those who have the courage and faith to build trust again. It takes only a minute to get a crush on someone, an hour to like someone, and a day to love someone-but it takes a lifetime to forget someone. Don't go for looks; they can deceive. Don't go for wealth; even that fades away. Go for someone who makes you smile because it takes only a smile to make a dark day seem bright. There are moments in life when you miss someone so much that you just want to pick them from your dreams and hug them for real!
+
+Always put yourself in others' shoes. If you feel that it hurts you, it probably hurts the person too. A careless word may kindle strife; a cruel word may wreck a life; a timely word may level stress; a loving word may heal and bless. The happiest of people don't necessarily have the best of everything; they just make the most of everything that comes along their way. Happiness lies for those who cry, those who hurt, those who have searched, and those who have tried, for only they can appreciate the importance of people who have touched their lives.
+
+Love begins with a smile, grows with a kiss, and ends with a tear. The brightest future will always be based on a forgotten past, you can't go on well in life until you let go of your past failures and heartaches. Hope you dream of that special someone. Dream what you want to dream; go where you want to go; be what you want to be, because you have only one life and one chance to do all the things you want to do.... 
+
+written by
+Lorena B page - 12/16/2003"
+"eventtime","2005-08-11 11:21:00"
+"current_moodid","92"
+"url","http://krystiana.livejournal.com/29186.html"
+"userid","8342"
+"itemid","113"
+"event","Several hundred years ago when the Americas were known as the new world and still being explored and conquered by the Europeans, a legend spread about a lost city of gold. People spent their lives searching for it, and in some cases lost their lives in the pursuit of it. Some gave up after failing to find it. Even famous explorer Sir Walter Raleigh was let out of his prison in the Tower of London to search for it and when he returned a year later, he was beheaded after failing to locate it.
+
+The reason I mention that legend is that in some way it reminds me of love. Not in the way that most of those explorers were greedy and obsessed with increasing their wealth, but in the sense that some people search so hard and far to find love that like but give up when they can't find it and settle instead of continuing the search for the one person that they can't live without.
+
+At this point I have stopped going out of my way to search, no I am not settling for anything, I figure that if he's out there instead of me moving around and making it hard to find me, I'll take the approach that resulted in the gold rush in California where pretty much by accident gold was discovered here when someone building a saw-mill gold was discovered. Figure if it happens it'll happen when it's supposed to and not by me chasing a myth.
+
+In the past I've gone out of my way to try to make the myth reality. In one case the feelings were onesided and I saw the feelings where they weren't shared by him. 
+
+The kind of love I'd seek isn't the feeling that we call love where you are attracted to someone and when the going get's tough both people give up and divorce. I'm looking for that deeper love that isn't common these days where when you are apart a piece of you is missing. When you love someone and you love them more each day simply because the love you share grows together with the both of you. A love so strong that when the time comes and if your spouse dies before you, that you almost feel lost simply because that person is your world. I'd want to look into someone's eyes and see my future in them, to see all the joys and the pain in that instant and no that there is no greater love.
+
+If I die without ever finding that I'd still die a happy girl, although not quite as happy as if I did find it, simply becasue I rather do without than settle for less than the real thing."
+"eventtime","2005-08-03 10:40:00"
+"current_moodid","101"
+"url","http://krystiana.livejournal.com/29021.html"
+"userid","8342"
+"itemid","112"
+"event","Dear Neighbor:
+
+I must admit, today has been a pretty uneventful day. I kinda wanted it that way, as I haven't had a day off in a while, and really just needed to chill out. But I want to thank you for changing all that.
+
+No worries, but you DID catch me by surprise when I looked up from washing dishes, to see you standing right in front of your window, directly in front of mine, stroking it like gold was about to come out. I'm kinda sorry that I stared. I mean, it HAS been an uneventful day, and you DID kind of catch me by surprise.
+
+However, I'm a little creeped out. What did it? Was it the fact that I was wearing only a bra and shorts that did it? I know I streak across my house from time to time during the daylight when the shades are up - but I really didn't think you could see me. However, now I know differently since you were in such plain view. I just wonder how many times you have done this and I HAVEN'T noticed. Hell, I could have given you a better show if you wanted. (BTW - I Have seen your wife, so I do kind of understand...but having kids will do that to you so be nice!).
+
+Let's make an agreement. I'll stop streaking across my apartment, if you stop standing in front of your windows jerking off while you're watching me do dishes. I just don't think it's right since you're married and all. Plus, I haven't gotten laid in a while, so I am having difficulty getting the image out of my head of you jerking off, and sadly, it's kind of a turn on.
+
+Oh well."
+"eventtime","2005-08-02 23:14:00"
+"current_moodid","44"
+"url","http://krystiana.livejournal.com/28747.html"
+"userid","8342"
+"itemid","111"
+"event","There are many forms of saying goodbye.
+
+We wave our hands and smile to our friends whenever we are done for the day and are eager to get home. It is just a word to us. We never think more of it because it has just become a habit. To kiss their cheeks, hold their hands then wave goodbye. We are safe with the fact that we would be able to see each other the next day. It was just goodbye for the day. Not forever.
+
+Then there are times when we don't even get to say goodbye to the people we love. Our loved one returns to our Maker without us getting to tell them how much we love them, that we forgive them for whatever they have done to us in the past that have hurt us and that we'd do anything to make them stay with us but we understand that it cannot be. We must let go because it is their time.
+
+We grieve over their passings for the longest time but we eventually move on with their lives. They wouldn't want us to dwell with memories of the past and forget that we are still alive. Just because they died doesn't mean that we have to die with them. Even if when they died a little fragment of our soul died with them, we have to remember to live our own lives when they're gone. We are not buried six feet under. We are not worm food yet. We have to live in the present because whatever happens in the past makes us what we are today. The experiences we go through, most especially the painful ones, mold our whole beings.
+
+""Now, for me the most painful is when you have to say goodbye to someone you love, not because they are going away, not because they are dying but because they have found somebody else and they have to walk away from you to avoid hurting you even more. Or maybe they haven't found somebody else but when the love has died down and there is nothing more you can do to rekindle it.
+
+You let them walk away because you love them too much to keep on holding on because it would just cause a lot more pain and unhappiness for the both of you. You want them to be happy even if giving them their happiness means giving up your own. ""
+This was it for Jonathan and I
+
+No matter how much you still love them and you squeeze their hands one last time, you hold them close one last time, you kiss them with your whole heart, you can never let go of the memories.
+
+These people have changed your life and you wouldn't want it any other way. Neither would them. You are glad that even for a short time, the two of you shared a part of your lives together.
+
+You will always have fond memories of each other but there would always be something missing in your heart. Like there's a hole that can never be filled in your heart. That means that there would always be a place in your heart for them. No one could ever take their place because they are unique from everyone else and that was what made you love them. Their own differences, their idiosyncrasies, you loved everything about them and never judged them because they are not like other people. And they loved you because you never desired to change them.
+
+And through all the pain and sadness, you come out stronger. You are a better person for it.
+
+Saying Goodbye is something that we tend to take for granted. We think that just because one person loves us so much that when they say goodbye, they would always come back. But they don't. And then after that, we cry ourselves to sleep. Why? Didn't we love them enough? Did I hold them too close? Was I too demanding? Did I do something wrong? Most of the time, the answer is no. The flame just flickers and dies. Then there are times when we become too comfortable with each other because you agree on everything that you tend to look for excitement elsewhere.
+
+A piece of advice, never wait until the last moment to tell certain people that you love them. Never wait until it's time to say goodbye. By then, you'd never be able to tell them how much you value their presence in your life.
+
+Don't take it for granted that they are always around. Don't take it for granted that they would always be there for you when you need them. You never know when they might just walk away from your life...
+
+And then you might never see them again...
+
+This is just how much we take ""goodbyes"" for granted."
+"eventtime","2005-08-01 13:34:00"
+"current_moodid","70"
+"url","http://krystiana.livejournal.com/28479.html"
+"userid","8342"
+"itemid","110"
+"event","To the man this afternoon who so romantically opened his car window, put his fingers up to his mouth, and tantalized me by sticking out his tongue and making licking motions between his fingers:
+
+I am so sorry that the light turned green and you had to drive off.
+
+In a perfect world, the light, sensing the intense chemistry between us, would have remained red forever so I could gaze at your amorous gesture all night long.
+
+But, alas, the traffic here waits for no one, not even two soulmates (as I truly believe we are) greeting one another for the first time.
+
+You must have thought I was really beautiful, because you were too sweet and shy to say anything more to me than ""pussy"" as you licked in my direction. While we both know that every girl loves to hear this sweet word whispered in her ear (or in our case, shouted to her from a mid-80's El Camino), why not throw in a phone number next time? That way I don't have to send you this open love letter in front of all these strangers. Just the thought of sharing our moment of passion with them makes me blush!
+
+Whoever you are, your mother obviously taught you how to treat a lady. Please pass on my congratulations to her for raising a true gentleman. Believe me, men like you are few and far between!
+
+Love,
+
+The Girl Who You Said ""Pussy"" to this afternoon
+
+P.S. I hope you don't do this to ALL the girls in the neighborhood! Please don't...you'll drive me mad with jealousy.
+
+
+FUCKBAG"
+"eventtime","2005-07-31 23:08:00"
+"current_moodid","31"
+"url","http://krystiana.livejournal.com/28407.html"
+"userid","8342"
+"itemid","109"
+"event","Sometimes your world takes a turn for the surreal...
+
+As we stood in the middle of the Trader Joe's produce section, trying to decide whether $4 was a good deal for 3 undersized sweet vidalia onions, he came around the corner. 8 years old, going on 28. He'd left his Mom at the end of the snack aisle talking on her cell phone with a cart full of overpriced junk food alternatives. Before I could flash my default ""what a cute kid"" smile, his hand was on my ass as he proclaimed to the world, ""I LIKE GIRLS!""
+
+And then he was gone.
+
+Turning to me in disbelief, my friend Adam asked, ""did you just get felt up by a preschooler?""
+
+Still reeling a little from the incident, I decided to shake off the trauma and we headed to the dairy section for the $5 cage-free eggs. I almost dropped them when i saw his Mom again. Still on the phone. There he was, coming in for a second pass. I couldn't let it happen again. With nowhere else to go, i took refuge behind Marc. Thankfully that was enough, the kid bailed on the attempt and veered off toward the free samples of chocolate covered almonds leaving me shamed, bewildered, and cowering behind my 5'6"" tall gay boyfriend/bodyguard.
+
+As we warily made our way to the register, I could only think to myself ""His Mom is really going to pay for that phone call someday.""
+
+From now on, I'm going to Whole Foods. At least I can outrun the 70 year old men. I did it once at In N Out Burger and I can do it again too."
+"eventtime","2005-07-25 19:37:00"
+"current_moodid","18"
+"url","http://krystiana.livejournal.com/28110.html"
+"userid","8342"
+"itemid","108"
+"event","A lot of my friends say it's sad that I'm single because I'm ""a great girl""
+
+But when you send me sites like www.momsmeetdads.com I have to draw the line.
+
+I mean have you seen some of the guys on there? Blech. I even tried my Nor Cal zip code and So Cal zipcode. Equal groups of icky guys on both ends.
+
+When you make plans with me to go out and you just happen to bring your ""friend"" along.
+
+I know you're trying to set me up with him. You're insulting my intelligence. Besides, it's really a slap in the face when you bring someone who isn't anything close to my type.
+
+I once had a girl actually tell my best friend Brett that she knows a guy who wants a sugar mama and a girl that would make his life miserable and I should meet him.
+
+WTF is that supposed to mean?
+
+A. I can't be your sugar mama. I'd hate to see my money wasted on some guy I don't like very much.
+B. I sure as hell wouldn't make anyones life miserable
+
+I think it's sweet that you're concerned but I can handle that part of my life from this end :)
+
+/end rant"
+"eventtime","2005-07-20 23:37:00"
+"current_moodid","3"
+"url","http://krystiana.livejournal.com/27881.html"
+"userid","8342"
+"itemid","107"
+"event","WW91IGtub3cgaG93IGdpcmxzIGxpa2UgdG8gY29tcGFyZSB0aGVtc2VsdmVzIHRvIFNleCBpbiB0aGUgQ2l0eT8gTGlrZSBob3cgaXQgaXMgc3VwZXIgYW5ub3lpbmcgd2hlbiB5b3Ugb3ZlcmhlYXIgc29tZSBjaGljayBzYXkgc29tZXRoaW5nIGxpa2UgIk9obWlnb2QtdGhhdCBpcyBzbyBTYW1hbnRoYSBvZiB5b3UiIG9yICJZb3UncmUgdGFraW5nIHRhcCBsZXNzb25zPyBIZWxsbyBDaGFybG90dGUuLi4iDQpZZWFoLCB3ZWxsIEknbSBvbmUgb2YgdGhvc2UgZ2lybHMsIGFsdGhvdWdoIHRydXN0IG1lLUkga2VlcCBpdCB1bmRlciB3cmFwcy4NCg0KSSdtIHN1cmUgdGhlcmUgYXJlIGxvdHMgb2YgaGVhbHRoeSB3ZWxsLWJhbGFuY2VkIGZlbWFsZXMgb3V0IHRoZXJlIHRoYXQgZG9uJ3QgZXF1YXRlIHRoZWlyIGxpdmVzIHRvIGFuIG92ZXIgdGhlIHRvcCBIQk8gc2l0Y29tLCBidXQgbGlrZSBJIHNhaWQsIEknbSBvbmUgb2YgdGhlbS4NCg0KU28gd2hlbiB0aHJlZSBmcmllbmRzIGFuZCBJIGdvdCB0b2dldGhlciBmb3IgYSBzY2htYW5jeSBsaXR0bGUgbHVuY2ggb2YgaG9uZXkgZGlqb24gc3BpbmFjaCBzYWxhZHMgYW5kIGdyaWxsZWQgc2FsbW9uIGF0IGEgbG9jYWwgcmVzdGF1cmFudCwgd2UgY291bGRuJ3QgaGVscCBidXQgdG8gZGl2dnkgdXAgdGhlIGNoYXJhY3RlcnMuIEFuZCB3b28taG9vLUkgZ290IGR1YmJlZCBDYXJyaWUuIChJJ2xsIGxldCB5b3UgaW4gYSBsaXR0bGUgc2VjcmV0LW1vc3QgZ2lybHMgc2lsbHkgZW5vdWdoIHRvIGNvbXBhcmUgdGhlbXNlbHZlcyB0byB0aGUgc2hvdyB0aGluayB0aGV5IGFyZSBDYXJyaWUgYW5kIGJlY29tZSBzdXBlciBvZmZlbmRlZCB3aGVuIHRvbGQgdGhleSByZXNlbWJsZSB0aGUgYmFsbCBicmVha2luZyBNaXJhbmRhIG9yIHNleC1jcmF6ZWQgU2FtYW50aGEuIFRoZXkgd2lsbCBnbyB0byBncmVhdCBsZW5ndGhzIHRvIHByb3ZlIGhvdyBDYXJyaWUgdGhleSBhcmUuIExpa2Ugc2hvd2luZyB1cCB3aXRoIGEgaGFuZGtlcmNoaWVmIGFyb3VuZCB0aGVpciB1cHBlciBhcm0gYW5kIGEgZ2lhbnQgc3BhcmtsaW5nIGFwcGxlIG5lY2tsYWNlIHRoZSBuZXh0IHRpbWUgeW91IHNlZSB0aGVtLiBMdWNraWx5LW15IGZyaWVuZHMgYW5kIEkgaGF2ZSBzdG9wcGVkIGp1c3QgYSB0aGUgdGhyZXNob2xkIG9mIGZ1bGwgb24gaW5zYW5pdHkgYW5kIGRvbid0IGRvIHRoaXMuIEkgdGhpbmsuKQ0KDQpOb3cgSSB3b3VsZCBzYXkgbXkgcmVpZ24gYXMgJ0NhcnJpZScgaXMgdGVudW91cyBhdCBiZXN0LUkgaGF2ZSBkYXJuIGN1dGUgYW5kIGZ1bm55IGZyaWVuZHMuIEJ1dCBhZnRlciBhIG1hcmF0aG9uIDggZXBpc29kZSwgdHdvIGJvdHRsZSBvZiB3aW5lIGFuZCB0b28gbWFueSBjaWdhcmV0dGVzIFNleCBpbiB0aGUgQ2l0eSBldmVuaW5nIHdpdGggbXkgJ1NhbWFudGhhLCAnIGEgbGl0dGxlIENhcnJpZSBvc21vc2lzIG11c3QgaGF2ZSB0YWtlbiBwbGFjZS4NCg0KTXkgb3V0Zml0IG9uIHRoZSBkYXkgYWZ0ZXIgaXMgYWNjaWRlbnRseSBidXQgdW5taXN0YWthYmx5IENhcnJpZS1lc3F1ZSwgaWYgbGFja2luZyB0aGUgcGVyZmVjdCBib2R5IGFuZCBvdmVyYWxsIGV4cGVuc2UgZmFjdG9yLiBDb21wbGV0ZSB3aXRoIGRlc2lnbmVyIHBvb2Z5IHNraXJ0IChib3VnaHQgYXQgYWJvdXQgOTklIG9mZiBvcmlnaW5hbCBwcmljZSksIHN0aWxldHRvIHNhbmRhbHMgYW5kIGJsYWNrIGJyYSB0aGF0IGNsZWFybHkgc2hvd3MgdGhyb3VnaCBteSB0aGluIHNoaXJ0LiBJJ3ZlIGV2ZW4gZ290IHRoZSAnQ2FycmllJyBzaWx2ZXIgbmVja2xhY2Ugb25seSBtaW5lIHNheXMgJ0tyaXN0aW4nLi4uZ28gZmlndXJlLg0KDQpXaGF0IGlzIHRoZSBwb2ludCBvZiBkZXNjcmliaW5nIHRoaXMgb3V0Zml0IHRvIHlvdT8gVG8gbWFrZSBteXNlbGYgc291bmQgc3VwZXIgc3R5bGlzaCwgeW91IGFzaz8gVG8gcGFyYWRlIGFyb3VuZCBsaWtlIGEgcHJldGVudGlvdXMgZnJlYWs/IFRvIHNvdW5kIGxpa2UgYSB0b3RhbCBjaGVlc2Ugd2hvIGNvbXBhcmVzIGhlciBsaXR0bGUgbGlmZSB0byB0aGF0IG9mIGEgZmljdGlvbmFsIEhCTyBzaG93Pw0KDQpOb25lIG9mIHRoZSBhYm92ZSENCg0KSW5zdGVhZCB0byBkZXNjcmliZSB0aGUgc3RhdGUgb2YgcnVpbiBzYWlkIG91dGZpdCBpcyBub3cgaW4uIEJlY2F1c2UgSSBnb3Qgc3ByYXllZCBieSBhIGJ1cyBtb250aHMgYWdvLiBOb3QgYSBsaXR0bGUgc3ByYXktYnV0IGEgaGVhZCB0byB0b2UgKHNhbmRhbHMhIHdoaXRlIHNoaXJ0ISBzaWxrISkgZnJvbSB0aGUgYnVzIHRoYXQgcm9sbGVkIHRocm91Z2ggYSBwdWRkbGUgb24gTWFya2V0IFN0LiBBbmQgSSB3YXNuJ3QgZXZlbiB3YWxraW5nIGNsb3NlIHRvIHRoZSBjdXJiIQ0KDQpTbyB5b3Ugc2VlLi4uLi50aGF0IGNsaW5jaGVzLiBJIGdldCB0byBiZSBDYXJyaWUuIEkgZnVja2luZyBlYXJuZWQgaXQuIEkgc3dlYXIgSSBjb3VsZCBoZWFyIHRoZSBnb2RkYW1uIOKAnGRvIGRvb3QgZGUgZG/igJ0gbXVzaWMgcGxheWluZy4NCg0KQXQgbGVhc3QgaXQgZGlkbid0IHB1dCBteSBjaWdhcmV0dGUgb3V0IChIZXkgc2luY2UgdGhpcyBoYXBwZW5kIEkgcXVpdCBzbW9raW5nIHRob3VnaCEpDQoNCkFuZCB3aGlsZSBJIGhhdmUgeWV0IHRvIGJlIGR1bXBlZCBieSBhIHBvc3QtaXQsIEkgZGlkIGp1c3QgZ2V0IGJydXNoZWQgYXNpZGUgaW4gdGV4dCBtZXNzYWdlLiBJJ20gdGVsbGluZyB5b3UuLi4="
+"eventtime","2005-07-12 14:13:00"
+"current_moodid","5"
+"url","http://krystiana.livejournal.com/27478.html"
+"userid","8342"
+"itemid","105"
+"event","I am a girl that will love you for who you are not what you are, i am a girl who will want to do the things you want to and enjoy it, i am a girl who would fix you your favorite meal just to see you smile, i am a girl who would hold you to keep you close, i am a girl who would tickle you to hear you laugh, i am a girl that likes to shop for you when i go shopping, i am a girl who doesn't care how much money you have or what kind of car you drive, i am a girl that thinks you are hot even when you are hot and sweaty, i am a girl that does not want gifts just the love and respect in return, i am a girl that would call you in the morning just to say have a great day, i am a girl that would bring you lunch when you are to busy to get your own, i am a girl that doesn't care what other people think about you, i am a girl that will always trust you until that trust is violated, i am a girl who wants to be loved the same in return...
+
+
+
+
+....This is to the nice girls who are overlooked, who become friends and nothing more, who spend hours fixating upon their looks and their personalities and their actions because it must be they that are doing something wrong. This is for the girls who don't give it up on the first date, who don't want to play mind games, who provide a comforting hug and a supportive audience for a story they've heard a thousand times. This is for the girls who understand that they aren't perfect and that the guys they're interested in aren't either, for the girls who flirt and laugh and worry and obsess over the slightest glance, whisper, touch, because somehow they are able to keep alive that hope that maybe... maybe this time he'll have understood. This is homage to the girls who laugh loud and often, who are comfortable in skirts and sweats and combat boots, who care more than they should for guys who don't deserve their attention. This is for those girls who have been in the trenches, who have watched other girls time and time again fake up and make up and fuck up the guys in their lives without saying a word. This is for the girls who have been there from the beginning and have heard the trite words of advice, from ""there are plenty of fish in the sea,"" to ""time heals all wounds."" This is to honor those girls who know that guys are just as scared as they are, who know that they deserve better and are seeking to find it.
+
+...This is for the girls who have never been in love, but know that it's an experience that they don't want to miss out on. For the girls who have sought a night with friends and been greeted by a night of catcalling, rude comments and explicit invitations that they'd rather not have experienced. This is for the girls who have spent their weekends sitting on the sidelines of a beer pong tournament or a case race, or playing Florence Nightingale for a vomiting guy friend or a comatose crush, who have received a drunk phone call just before dawn from someone who doesn't care enough to invite them over but is still willing to pass out in their bed. This is for the girls who have left sad song lyrics in their away messages, who have tried to make someone understand through a subliminally appealing profile, who have time and time again dropped their male friend hint after hint after hint only to watch him chase after the first blonde girl in a skirt.
+
+...This is for the girls who have been told that they're too good or too smart or too pretty, who have been given compliments as a way of breaking off a relationship, who have ever been told they are only wanted as a friend.
+
+
+...This one's for the girls who you can take home to mom, but won't because it's easier to sleep with a whore than foster a relationship; this is for the girls who have been led on by words and kisses and touches, all of which were either only true for the moment, or never real to begin with. This is for the girls who have allowed a guy into their head and heart and bed, only to discover that he's just not ready, he's just not over her, he's just not looking to be tied down; this is for the girls who believe the excuses because it's easier to believe that it's not that they don't want you, it's that they don't want anyone. This is for the girls who have had their hearts broken and their hopes dashed by someone too cavalier to have cared in the first place; this is for the nights spent dissecting every word and syllable and inflection in his speech.
+
+...This is for the ""I really like you, so let's still be friends"" comment after you read more into a situation than he ever intended; this is for never realizing that when you choose friends, you seldom choose those which make you cry yourself to sleep. This is for the hugs you've received from your female friends, for the nights they've reassured you that you are beautiful and intelligent and amazing and loyal and truly worthy of a great guy;
+
+... This is for the despair you all felt as you sat in the aftermath of your tears, knowing that that night the only companionship you'd have was with a pillow and your teddy bear. This is for the girls who have been used and abused, who have endured what he was giving because at least he was giving something; this is for the stupidity of the nights we've believed that something was better than nothing, though his something was nothing we'd have ever wanted. This is for the girls who have been satisfied with too little and who have learned never to expect anything more: for the girls who don't think that they deserve more, because they've been conditioned for so long to accept the scraps thrown to them by guys."
+"eventtime","2005-07-11 14:43:00"
+"current_moodid","49"
+"url","http://krystiana.livejournal.com/27104.html"
+"userid","8342"
+"itemid","104"
+"event","VG8gU3dhbGxvdyBvciBub3QgdG8gU3dhbGxvdz8NCg0KVGhlcmUgYXJlIG1hbnkgbWlzY29uY2VwdGlvbnMgYXMgdG8gd2h5IHdvbWVuIHNob3VsZCBub3QgaW5nZXN0IG1hbGUgZWphY3VsYXRpb24uIFRoZSBtb3N0IGNvbW1vbiBjb21wbGFpbnRzIC8gY29uY2VybnMgYWJvdXQgc3dhbGxvd2luZyBtYWxlIGVqYWN1bGF0ZSBhcmU6DQoxKSBJdCB0YXN0ZXMgYmFkDQoyKSBJdOKAmXMgZGVncmFkaW5nDQozKSBJdOKAmXMgaW5kaWdlc3RpYmxlDQo0KSBJdOKAmXMgYmFkIGZvciB5b3UNCjUpIFlvdeKAmXJlIGF0IGEgaGlnaGVyIHJpc2sgZm9yIFNURHMNCg0KV2l0aG91dCBwUm9wZXIgZWR1Y2F0aW9uIHRoZXNlIGNvbmNlcm5zIGFyZSB1bmRlcnN0YW5kYWJsZSwgaG93ZXZlciB1bnJlYXNvbmFibGUuIFRoZSBwdXJwb3NlIG9mIHRoaXMgYXJ0aWNsZSBpcyB0byBlZHVjYXRlIHdvbWVuIEFORCBtZW4gdGhhdCBzd2FsbG93aW5nIG1hbGUgZWphY3VsYXRlIGlzIG5vdCBvbmx5IHNhZmUsIGJ1dCBnb29kIGZvciB5b3UuDQoNCk1hbnkgb2YgeW91IG1heSBiZSBhc2tpbmcgd2h5IGJvdGhlciBzd2FsbG93aW5nPyBXaGF0IGlzIHRoZSBwb2ludD8gVGhlcmUgYXJlIG1hbnkgbW9yZSByZWFzb25zIHRvIHN3YWxsb3cgdGhhbiB0byBzcGl0Og0KRmlyc3QsIHN3YWxsb3dpbmcgaXMgVGlkeS4gU2ltcGx5IHB1dCwgc3BpdHRpbmcgaXMgbWVzc3kgKGFzIG1hbnkgb2YgeW91IHdvbWVuIGtub3cpLiBTcGl0dGluZyBvciBlamFjdWxhdGluZyBpbiBhIHRvd2VsIGNyZWF0ZXMgYW4gdW5uZWNlc3NhcnkgbWVzc3kgb2JqZWN0IHRvIGRpc3Bvc2Ugb2YuIEVqYWN1bGF0aW5nIG9uIHRoZSBib2R5IHBvc2VzIGFuIGV2ZW4gZ3JlYXQgcHJvYmxlbSBieSBoYXZpbmcgdG8gd2lwZSBvZmYgdGhlIGVqYWN1bGF0ZSBhbmQgZnVydGhlciBzaG93ZXIuIEluIGFkZGl0aW9uLCBpZiB0aGUgbWFsZSBjdW1zIG9uIHRoZSBzdG9tYWNoIG9mIHRoZSBmZW1hbGUsIHlvdSBwb3NlIHRoZSBzbGlnaHQgdGhyZWF0IG9mIHByZWduYW5jeSBieSB0aGUgZWphY3VsYXRlIGRyaXBwaW5nIGludG8gdGhlIHZhZ2luYS4NClNlY29uZCwgc3dhbGxvd2luZyBpcyBtdWNoIG1vcmUgZXJvdGljIGFuZCBhbGxvd3MgbGVzcyB0ZW5zaW9uLiBTd2FsbG93aW5nIGFsbG93cyB0aGUgbWFuIHRvIHJlbGF4IGFuZCBub3QgaGF2ZSB0byB3b3JyeSBhYm91dCB3aGVyZSB0byBlamFjdWxhdGUuIFRoaXMgcG9zZXMgdHdvIGFkdmFudGFnZXM6IGhlIGRvZXNu4oCZdCBoYXZlIHRvIHdvcnJ5LCB3aGljaCBpbiB0dXJuIHdpbGwgcHJvbG9uZyB0aGUgb3JnYXNtLCBhbmQgdHdvLCBpcyBtb3JlIGVyb3RpYyB0aGFuIHNwaXR0aW5nIHdoaWNoIHdpbGwgZW5jb3VyYWdlIGhpbSB0byBjdW0gcXVpY2tlciENClRoaXJkLCBTd2FsbG93aW5nIGlzIHBvbGl0ZSEgQmVjYXVzZSBvZiBwb3JuIGFuZCBvdGhlciBzb2NpYWwgZm9ybXMgb2YgZmVtYWxlIGRlZ3JhZGF0aW9uLCB3b21lbiBiZWxpZXZlIHRoYXQgc3dhbGxvd2luZyBoYXMgYmVjb21lIGEgZm9ybSBvZiBkaXNncmFjZS4gTm90aGluZyBjYW4gYmUgZnVydGhlciBmcm9tIHRoZSB0cnV0aC4gVG8gcXVvdGUgb25lIHdvbWFuOiAiV2hhdCBzb3J0IG9mIG1lc3NhZ2UgZG9lcyB0aGF0IGNvbnZleSB0byBpbW1lZGlhdGVseSBydW4gdG8gdGhlIG5lYXJlc3Qgc2luayB0byBzcGl0PyBJ4oCZbSBjb21mb3J0YWJsZSBlbm91Z2ggdG8gZ2V0IGRvd24gb24gbXkga25lZXMgYW5kIHdyYXAgbXkgbGlwcyBhcm91bmQgeW91ciBjb2NrLCBidXQgbm90IGNvbWZvcnRhYmxlIGVub3VnaCB0byBzd2FsbG93IHRoZSBmcnVpdHMgb2YgbXkgbGFib3I/IEkga25vdyBJ4oCZZCBiZSBvZmZlbmRlZCBpZiBteSBib3lmcmllbmQgcmFuIHRvIHRoZSBiYXRocm9vbSB0byBnYXJnbGUgd2l0aCBtb3V0aHdhc2ggYWZ0ZXIgZ29pbmcgZG93biBvbiBtZS4gU28sIHN1cmUgSSBzd2FsbG93LiBJdOKAmXMgYWxtb3N0IGltcG9saXRlIG5vdCB0by4iDQpGb3VydGgsIHN3YWxsb3dpbmcgaXMgZW52aXJvbm1lbnRhbGx5IGNvbnNpZGVyYXRlLiBPcmFsIHNleCBkb2VzbuKAmXQgb25seSB0YWtlIHBsYWNlIGluIHRoZSBob21lLiBNYW55IGNvdXBsZXMgZW5qb3kgb3JhbCBzZXggaW4gcHVibGljIGFyZWFzIHN1Y2ggYXMgY2FycywgbW92aWUgdGhlYXRyZXMsIHNhdW5hcywgcHVibGljIHBvb2xzLCBiYXRocm9vbXMgZXRjLiBTcGl0dGluZyBqdXN0IGNyZWF0ZXMgYW4gZW52aXJvbm1lbnRhbCBoYXphcmQgZm9yIHRoZSBwZW9wbGUgdG8gdXNlIHRoYXQgZmFjaWxpdHkgZm9sbG93aW5nIHRoZSBhY3Qgb2Ygb3JhbCBzZXguDQoNCk9uZSBvZiB0aGUgbW9zdCBwcm9taW5lbnQgY29uY2VybnMgcmVnYXJkaW5nIG9yYWwgc2V4IGlzIHNhZmV0eS4gVGhlcmUgZXhpc3RzIG1hbnkgbXl0aHMgYW5kIHVyYmFuIGxlZ2VuZHMgb2YgZGlzZWFzZXMsIGRpZ2VzdGlvbiBwcm9ibGVtcyBhbmQgc3RvbWFjaCBwdW1wcyBhZnRlciBvcmFsIHNleC4gVGhlIGZvbGxvd2luZyB3aWxsIGRlbXlzdGlmeSBhbnkgb2YgdGhlc2UgY29uY2VybnMgcmVnYXJkaW5nIG9yYWwgc2V4Lg0KDQpDdW0gaXMgYW4gYWxsLW5hdHVyYWwgYm9kaWx5IGZsdWlkIHRoYXQgZG9lc24ndCBoYXJib3IgYW55IGRpc2Vhc2VzIG9yIGhhcm1mdWwgYmFjdGVyaWEgaW4gYSBoZWFsdGh5IHBlcnNvbi4gVGhlIHB1cnBvc2Ugb2Ygc2VtZW4gaXMgdG8gdHJhbnNwb3J0IHNwZXJtIHRvIHRoZSBmZW1hbGUgb3ZhLCBhbmQgaXQgaXMgYSBoaWdoLXByb3RlaW4sIG51dHJpZW50LXJpY2ggbWVkaXVtIGRlc2lnbmVkIHRvIHN1cHBvcnQgYW5kIHN1c3RhaW4gdGhlIHNwZXJtYXRhem9hIGR1cmluZyB0aGVpciByZWxhdGl2ZWx5IGJyaWVmIGpvdXJuZXkuIFRoZSBzcGVybSB0aGVtc2VsdmVzIGFsc28gcHJlc2VudCBubyB0aHJlYXQgaW4gdGhlIGRpZ2VzdGl2ZSB0cmFjdCwgYW5kIGFyZSBuZXV0cmFsaXplZCBieSBnYXN0cmljIGZsdWlkcyBieSB0aGUgdGltZSB0aGV5IHJlYWNoIHRoZSBzdG9tYWNoLg0KDQpIZWFsdGh5IHNlbWluYWwgZmx1aWQgaXMgbW9zdGx5IGZydWN0b3NlIGFuZCBwcm90ZWlucywgYW5kIGRvZXNuJ3QgY29udGFpbiBhbnkgaGFybWZ1bCBjaGVtaWNhbHMuIFRoZSBzbGlnaHRseSBibGVhY2h5IHNtZWxsIG9mIHNlbWVuIGNvbWVzIGZyb20gaXRzIGFsa2FsaW5lIHBIIGFuZCBtaW51dGUgdHJhY2VzIG9mIGNobG9yaW5lLCBidXQgaWYgaXQncyBtaWxkIGVub3VnaCBmb3IgYSB2YWdpbmEsIGl0J3Mgbm90IGdvaW5nIHRvIGJlIGFueSBoYXJzaGVyIG9uIHlvdXIgbW91dGggb3IgdGhyb2F0Lg0KDQpUaGUgc29ydCBvZiBnb29kIG5ld3MgaXMgdGhhdCBzd2FsbG93aW5nIHlvdXIgcGFydG5lcidzIGN1bSB3aWxsIG5vdCBwdXQgeW91IGF0IGFueSBncmVhdGVyIHJpc2sgZm9yIGNhdGNoaW5nIGFuIFNURC4gVGhlIGRpY2hvdG9teSBsaWVzIGluIHRoZSBmYWN0IHRoYXQgaWYgeW91ciBwYXJ0bmVyIGRvZXMgaGF2ZSBhbiBTVEQsIGJ5IHRoZSB0aW1lIHlvdSd2ZSBoYWQgdW5wcm90ZWN0ZWQgb3JhbCBzZXggd2l0aCB0aGVtLCB3aGV0aGVyIHlvdSBzd2FsbG93IG9yIG5vdCwgeW91J3ZlIGJlZW4gZXhwb3NlZCB0byB3aGF0ZXZlciB0aGV5J3JlIGNhcnJ5aW5nLg0KDQpIYXZpbmcgdW5wcm90ZWN0ZWQgb3JhbCBzZXggKGdpdmluZyBoZWFkIHdpdGhvdXQgYSBjb25kb20pIGlzIHJpc2t5LiBTb21lIG9mIHRoZSBkaXNlYXNlcyB0aGF0IGNhbiBiZSB0cmFuc21pdHRlZCB0aHJvdWdoIG9yYWwgc2V4IGlmIHlvdXIgcGFydG5lciBpcyBpbmZlY3RlZCBpbmNsdWRlIGhlcnBlcywgZ2VuaXRhbCB3YXJ0cywgZ29ub3JyaGVhLCBjaGxhbXlkaWEsIGFuZCBzeXBoaWxpcy4gVGhlIHJpc2sgb2YgSElWIHRyYW5zbWlzc2lvbiB0aHJvdWdoIG9yYWwgc2V4IGlzIHN0aWxsIHVuZGV0ZXJtaW5lZC4gU29tZSBleHBlcnRzIHNheSB0aGVyZSBpcyBsaXR0bGUgdG8gbm8gcmlzayBvZiBnZXR0aW5nIEhJViB0aHJvdWdoIGZlbGxhdGlvLCB3aGlsZSBzb21lIHNheSB0aGVyZSBpcyBwb3NzaWJsZSByaXNrLCBlc3BlY2lhbGx5IGlmIHRoZXJlIGFyZSBjdXRzIG9yIHNvcmVzIGluIHRoZSBtb3V0aCBvZiB0aGUgcGVyc29uIHBlcmZvcm1pbmcgb3JhbCBzZXguDQoNCkhvd2V2ZXIsIGlmIHlvdSd2ZSBhbHJlYWR5IGdvbmUgdGhhdCBmYXIsIHN3YWxsb3dpbmcgdGhlIHNlbWVuIGlzbid0IGdvaW5nIHRvIHB1dCB5b3UgYXQgbXVjaCBhZGRpdGlvbmFsIHJpc2suIElmIGFueXRoaW5nLCBvbmNlIHRoZSBjdW0gaXMgaW4geW91ciBtb3V0aCwgc3dhbGxvd2luZyBtYXkgYmUgdGhlIHF1aWNrZXN0IHdheSB0byBnZXQgcmlkIG9mIGl0LiBPbmNlIHlvdSd2ZSBzd2FsbG93ZWQsIHlvdXIgZGlnZXN0aXZlIGVuenltZXMgYW5kIGFjaWRzIHdpbGwgcHJvYmFibHkgZGVzdHJveSBhbnkgZ2VybXMgaW4gdGhlIHNlbWVuLCBhbmQgeW91ciBzdG9tYWNoIGFuZCBpbnRlc3RpbmVzIGFyZSBub3QgdnVsbmVyYWJsZSB0byBpbmZlY3Rpb24gYnkgU1REcy4NCg0KU2VtZW4gaXMgYW4gYWNxdWlyZWQgdGFzdGUgKGxpa2UgYmVlcikuIFdoaWxlIHNvbWUgcGVvcGxlIHByb2Zlc3MgdG8gZW5qb3kgdGhlIGZsYXZvciBvZiBlamFjdWxhdGUsIG1vc3QgcmVwb3J0IGl0IHRvIGJlIHNhbGluZSwgYml0dGVyLCBvciBhY3JpZCwgY29tcGFyaW5nIHRoZSB0YXN0ZSB0byBzYWx0eSBibGVhY2guIEJlY2F1c2UgdGhlIHRhc3RlIGlzIGFuIG9ic3RhY2xlIHRvIGhhdmluZyB0aGVpciBwYXJ0bmVyIHN3YWxsb3csIG1hbnkgbWVuIHdvbmRlciB3aGF0IHRoZXkgY2FuIGRvIHRvIG1ha2UgdGhlaXIgY3VtIHRhc3RlIGJldHRlci4gTWVuIC4gLiAuIHBsZWFzZSByZWFkIHRoZSBmb2xsb3dpbmcgY2FyZWZ1bGx5LiBMaWtlIHN3ZWF0LCBzYWxpdmEsIHVyaW5lLCBhbmQgYWxsIG9mIHlvdXIgYm9keSdzIG90aGVyIHNlY3JldGlvbnMgYW5kIGV4Y3JldGlvbnMsIHlvdXIgZWphY3VsYXRlJ3Mgc21lbGwgYW5kIGZsYXZvciBhcmUgYWZmZWN0ZWQgYnkgd2hhdCB5b3UgY29uc3VtZS4gKExpa2V3aXNlLCB5b3UgbWF5IG5vdGljZSB3aGVuIHlvdSBnbyBkb3duIG9uIHlvdXIgZmVtYWxlIHBhcnRuZXIsIGhlciB2YWdpbmEgZmxhdm9yIGlzIGFmZmVjdGVkIGJ5IGhlciBkaWV0KS4NCg0KV2hhdCBnb2VzIGluLCBjb21lcyBvdXQsIGxpdGVyYWxseS4gRXZlciBub3RpY2UgaG93IHdoZW4geW91IGVhdCBhIG1lYWwgd2l0aCBhIGxvdCBvZiBvbmlvbnMgYW5kIGdhcmxpYywgdGhlIHNtZWxsIHNlZW1zIHRvIG9vemUgb3V0IG9mIHlvdXIgcG9yZXMgdGhlIG5leHQgZGF5PyBJdCdzIGluIHlvdXIgc2VtZW4gYXMgd2VsbCwgYW5kIGFsdGhvdWdoIHRoZSBzcGVjaWZpYyB0YXN0ZSBvciBvZG9yIG1heSBiZSBkaWZmaWN1bHQgdG8gZGV0ZWN0LCBpdCBkb2VzIGhhdmUgYW4gaW5mbHVlbmNlIG9uIHRoZSBvdmVyYWxsIHRhc3RlLg0KDQpJdCB3aWxsIGNvbWUgYXMgYSBkaXNhcHBvaW50bWVudCB0byBhbGwgeW91IHBhcnR5IHBlb3BsZSwgYnV0IHRoZSBzdXJlc3Qgd2F5IHRvIG5pY2VyIHRhc3RpbmcgY3VtIGlzIGNsZWFuIGxpdmluZy4gQ3V0IGJhY2sgb24geW91ciB2aWNlcyAtIGFsY29ob2wsIGNpZ2FyZXR0ZXMsIGRydWdzIChleGNlcHQgbWF5YmUgZm9yIFZpYWdyYSksIGFuZCBqdW5rIGZvb2QuIFdvcmQgaXMgdGhhdCB2ZWdldGFyaWFucywgYm90aCBtZW4gYW5kIHdvbWVuLCB0YXN0ZSBiZXR0ZXIsIHNvIHlvdSBtYXkgd2FudCB0byBzdGVlciBjbGVhciBvZiByZWQgbWVhdCwgZmlzaCwgYW5kIGRhaXJ5LiBJbmR1bGdlIGluIGxvdHMgb2YgZnJlc2ggZnJ1aXRzIGFuZCB2ZWdnaWVzLCBhbmQgZHJpbmsgbG90cyBvZiBqdWljZSBhbmQgd2F0ZXIuDQoNCkxhc3RseSwgc3BlYWtpbmcgb2YgZGlldHMsIG1hbnkgYXJlIGN1cmlvdXMgYWJvdXQgdGhlIG51dHJpdGlvbmFsIGluZ3JlZGllbnRzIGluIG1hbGUgZWphY3VsYXRlLiBPYnZpb3VzbHksIHNlbWVuIGNvbnRhaW5zIHNwZXJtYXRvem9hLCBidXQgc3Blcm0gYWNjb3VudHMgZm9yIG9ubHkgYSBzbWFsbCBwZXJjZW50YWdlIG9mIHNwdW5rLiBDdW0gaXMgOTAgcGVyY2VudCBzZW1pbmFsIGZsdWlkLCB3aGljaCBpcyBjb21wb3NlZCBvZiBkb3plbnMgb2YgY2hlbWljYWwgY29tcG9uZW50cy4gVGhlIGJhc2Ugb2Ygc2VtaW5hbCBmbHVpZCBpcyBwcmltYXJpbHkgZnJ1Y3Rvc2UgKHN1Z2FyKSBhbmQgcHJvdGVpbnMsIHdpdGggbWFueSBvdGhlciB0cmFjZSBtaW5lcmFscyBhbmQgc3Vic3RhbmNlcy4gSGVyZSdzIGEgbGlzdGluZyBvZiBzb21lIG9mIHNlbWVuJ3MgaW5ncmVkaWVudHM6DQpTdWdhcnM6IEZydWN0b3NlLCBzb3JiaXRvbCwgaW5vc2l0b2wNClByb3RlaW5zIGFuZCBhbWlubyBhY2lkczogZ2x1dGF0aGlvbmUsIGRlb3h5cmlib251Y2xlaWMgYWNpZCAoRE5BKSwgY3JlYXRpbmUNCk1pbmVyYWxzOiBQaG9zcGhvcnVzLCB6aW5jLCBtYWduZXNpdW0sIGNhbGNpdW0sIHBvdGFzc2l1bQ0KVml0YW1pbnM6IEFzY29yYmljIGFjaWQgKHZpdGFtaW4gQyksIHZpdGFtaW4gQjEyLCBjaG9saW5lDQpIb3Jtb25lczogVGVzdG9zdGVyb25lLCBwcm9zdGFnbGFuZGlucw0KQm9keSBieXByb2R1Y3RzOiBMYWN0aWMgYWNpZCwgdXJlYSwgdXJpYyBhY2lkLCBuaXRyb2dlbg0KDQpDdW0gbWF5IGluIGZhY3QgYmUgbm90IG9ubHkgc2FmZSB0byBlYXQsIGJ1dCBhY3R1YWxseSBnb29kIGZvciB5b3UuIFNlbWluYWwgZmx1aWQsIHRoZSBiYXNlIG9mIGN1bSwgaXMgYSB2ZXJpdGFibGUgbnV0cmllbnQtcmljaCBzb3VwLiBTZW1lbiBpcyBhIHNvdXJjZSBvZiBoaWdobHkgY29uY2VudHJhdGVkLCBoaWdoLXF1YWxpdHkgcHJvdGVpbi4gSW4gZGlldGFyeSB0ZXJtcywgaXQncyBjb21wYXJhYmxlIHRvIGVnZyB3aGl0ZXMgb3IgZ2VsYXRpbi4NCg0KQmVzaWRlcyBwcm90ZWluLCBzZW1lbiBjb250YWlucyBoaWdoIGNvbmNlbnRyYXRpb25zIG9mIHNvbWUgbWluZXJhbHMsIHN1Y2ggYXMgemluYywgYW5kIHRyYWNlIGFtb3VudHMgb2Ygb3RoZXIgaW1wb3J0YW50IG51dHJpZW50cywgbGlrZSBjYWxjaXVtIGFuZCBtYWduZXNpdW0uIFdoaWxlIHlvdSBzaG91bGRuJ3QgZGVwZW5kIG9uIGEgc2hvdCBvZiBjdW0gdG8gZ2V0IHlvdXIgcmVjb21tZW5kZWQgZGFpbHkgYWxsb3dhbmNlcyBvZiB2aXRhbWlucyBhbmQgbWluZXJhbHMsIHN3YWxsb3dpbmcgc2VtZW4gb24gYSByZWd1bGFyIGJhc2lzIGNhbid0IGh1cnQgYXMgYSBkaWV0YXJ5IHN1cHBsZW1lbnQuDQoNCkFsdGhvdWdoIGN1bSBtYXkgbG9vayBjcmVhbXkgYW5kIG9wYXF1ZSwgaXQgY29udGFpbnMgdmVyeSBsaXR0bGUgZmF0LCBhbmQgZmV3IGNhbG9yaWVzLiBUaGUgYXZlcmFnZSBlamFjdWxhdGlvbiBwcm9kdWNlcyBhYm91dCBhIHRhYmxlc3Bvb24gb2Ygc2VtZW4sIGZvciBhIHRvdGFsIG9mIDE1IGNhbG9yaWVzLiBHaXZlbiB0aGF0IGN1bSBpcyBhIGhpZ2gtcHJvdGVpbiwgbG93LWNhcmIgc25hY2ssIHlvdSdkIHRoaW5rIHRoZSBBdGtpbnMgRGlldCBwZW9wbGUgd291bGQgYmUgYWxsIG92ZXIgaXQgYnkgbm93LiBQbHVzLCB3aGVuIHlvdSBmYWN0b3IgaW4gdGhlIGNhbG9yaWVzIGV4cGVuZGVkIGluIHBlcmZvcm1pbmcgb3JhbCBzZXgsIGNoYW5jZXMgYXJlIHlvdSdyZSBidXJuaW5nIG9mZiBtdWNoIG1vcmUgdGhhbiB5b3UncmUgY29uc3VtaW5nLg0KDQpTbyBsYWRpZXMsIGdldCBiYWNrIG91dCB0aGVyZSBhbmQgc3RhcnQgc3Vja2luZyBtb3JlIGRpY2su"
+"eventtime","2005-07-09 14:07:00"
+"current_moodid","90"
+"url","http://krystiana.livejournal.com/26743.html"
+"userid","8342"
+"itemid","103"
+"event","It has come to my attention that the inner workings of the 21st century man are defunct. In the age we live in, you'd like to think this is a problem easily solved by the IT department. Unfortunately, however, men do not work like computers. Running a debugging program does absolutely nothing to cure their ills.
+
+I've had plenty of time to ponder this growing deficiency in my fellow huMAN. Sometimes, after receiving late-night drunken phone calls from previous ""suitors,"" I lie awake wondering where God went wrong. For the record, I usually do not sleep with someone that that I profess to like ""heaps and heaps"" and then lose their phone number the following day. Frankly, I'm unsure why men seem particularly susceptible to this disease. I'd love to find a cure for it, but it seems like total anhiliation is the only thing that works. *sigh*
+
+My personal favorite male dating tactical is what I like to call the ""unreachable reachables"" manuever. When you first meet/date a new fellow, he's typically easy to reach by email or phone. But once you give up the all powerful punani, suddenly the gentleman in question can no longer seem to pick up his phone or answer his email. I used to think that this only happened when I slept with a man early on. After plenty of dating experience, however, I realized that men are just as happy to perform the post-sex disappearing act at any point in time. I also realized that men think you're frigid if you refuse to sleep with them right away and slutty if you do. I call this a classic ""lose/lose"" situation: If you sleep with him, you lose. If you don't, you still lose. DING DING DING. YOU LOSE!
+
+Now, forgive me, dear audience, if you fail to see the point in all of this. Frankly, there isn't one. I have no solutions to offer and no advice to give. For the record, though, I'm not ranting because I'm angry or make a career out of dating the wrong men. Far from it, actually. I'm simply sharing a little thoughtful and sarcastic satire with you all. Why? Because this is my blog and I can."
+"eventtime","2005-07-08 18:52:00"
+"current_moodid","3"
+"url","http://krystiana.livejournal.com/26378.html"
+"userid","8342"
+"itemid","102"
+"event","It was a beautiful night - the moon was almost full and there was a gentle breeze blowing as I drove over to In N Out Burger for a late dinner. It was there where you made that first indelible impression on me, as your incessant bitching about the quality of your burger shattered my mealtime reverie. It was as if some irresistable, magnetic force drew me out of my seat, over towards you. As if it was meant to be, I interrupted your hideous abuse of the In N Out staff, redirecting your full attention as well as the full force of your wrath onto myself.
+
+Until yesterday, no one had ever chased after me with a cane before. I had never heard the words ""I want your blood!"" uttered by a man over 70. In fact, I had never received a face-to-face death threat before, period - by anyone, ambulatory or otherwise.
+
+I've learned so much from you.
+
+
+My only regret: Not slamming the back of my In N Out tray on your fucking face."
+"eventtime","2005-07-08 11:32:00"
+"current_moodid","44"
+"url","http://krystiana.livejournal.com/26275.html"
+"userid","8342"
+"itemid","106"
+"event","So many people have asked me this question. I mean most chicks dig on guys like Vin Diesel or Brad Pitt. But, you know me...I have to be different. I love the dorks. So I just got done watching Entourage and I sat down and I thought about it and this would be why....I'm totally in love with Jeremy Piven. Like, I want to have a million of his babies. If I were still in middle school, I'd put his pictures up all over the inside of my locker and wile away my hours in study hall writing my first name and his last name over and over again while sighing heavily to myself as I dream of the day we meet and I die instantly of mortified hysterical insanity.
+
+No but really.
+
+I first remember actively knowing Jeremy Piven's name after seeing ""Say Anything"" and deciding that it was, and possibly still is, the best coming of age romantic comedy ever made. He's the ""You must chill!"" guy. What I didn't know at the time, of course, is that Jeremy Piven has been acting since he was 8. His parents run a highly respected theater company in Chicago and he's been good friends with John Cusack since they were kids.
+
+
+
+More than that, as he would go on to prove to me countless times, he's one of the best actors working in movies today but for some god forsaken reason he hasn't found material yet that really showcases what he's capable of. He's appeared in 53 movies and has been on a pile of TV shows (including the short-lived, extremely underrated series he also produced called ""Cupid"") since 1986. More often than not, he's cast as the affable best friend of the leading man (and many times, John Cusack has played that leading man) or he's been relegated to bit parts or put in charge of the arch of a film's sub-plot or secondary story line.
+
+At this point, I've gone from being disappointed for him to being pissed that no one's been smart enough to write a script with him in mind as the lead. He can do broad, wacky, physical comedy. He can play sleaze bag jerkweeds. He can steal scenes from actors who have been around a lot longer than he has. He can do action adventure stuff that requires a strong physical presence And he can do serious, subtle, fully controlled dramatic stuff. Put all that together and the fact of the matter is that he has huge range, huge talent and huge box office potential. In reality though, unless something changes soon, his blip in the Hollywood history books is going to most likely dwell in ""wacky neighbor"" land. Which sincerely saddens me.
+
+Not that he's never done anything that I hated. I'm still really unhappy that he showed up in ""Rush Hour 2"" playing the worst mocking parody of an effeminate gay man I've seen in decades. In this day and age, and for a guy who has as much raw talent as he does, lowering yourself to that level of hateful crap is almost unforgivable. And while we're talking about hateful crap, Very Bad Things squandered oodles of amazing talent not the least of which was Piven's. I won't devote another line to ""Very Bad Things."" The long and short of it is that it was horrible and he should have done everything in his power to avoid having his name associated with it in any capacity.
+
+Back to my happy place. Like all of the other actors I've written drooling love letters to on this site, Jeremy Piven is unconventionally handsome. But for my money, he's insanely good looking. And is only made more attractive by the fact that he's also extremely charismatic, quick witted, talented and hilarious. If I were queen of all things, I'd levy a tax on everyone in the world that would pay for an annual supply of scripts for Jeremy Piven to peruse and participate in at his leisure. Ben Affleck would be made to fetch him coffee and rub his feet. Vin Diesel would scramble around collecting his dry cleaning and taking his phone messages. And he would of course come over to my house (ok, if I were queen it'd be my castle) and hang out and play Trivial Pursuit and drink beer with me any time I wanted him to. Oh, and let me have a million of his babies. Hell, I dont even need his babies...but we can sure have fun practicing making them.
+
+<img src=""http://www.hosking-online.com/jeremypiven/piven15.jpg"">"
+"eventtime","2005-07-01 23:15:00"
+"current_moodid","120"
+"url","http://krystiana.livejournal.com/27250.html"
+"userid","8342"
+"itemid","101"
+"event","I usually wear minimizer bras to work. They aren't the sexiest undergarments out there, but the support they give my girls is outstanding during a work day.
+
+I was attracted to the one I am wearing today because it is a deep red satin, and it's what they call a ""Plunge"" bra. The support comes from the underwire and from some gentle padding on the sides that also push the breasts together for a little cleavage action. However, with my DD's, this means some MAJOR cleavage action.
+
+I look like Jessica Rabbit. This is why I usually wear a minimizer, nobody has looked me in the eye once today. Half of me is mortified and the other half of me is sashaying around like a Russ Meyer's Supervixen.
+
+I flashed back this afternoon to an experience I had in high school and perhaps the root of my breast-shame. I was wearing a cardigan with a low V and nothing underneath except my bra and was intently reading a book at my lunchtable. I suddenly was struck with something that then went down my shirt. Stuck between my full breasts was a french fry. I looked up to see who threw it at me and saw it was Eddie, the class prankster, and a friend of mine.
+
+""What the hell, Eddie?"" I said and he threw another french fry.
+
+""Hey, you're a fuckin' Happy Meal!"" he said, as both french fries were now sticking up from my cleavage. ""All you need is the burger and coke because you got the fries and the toys!!!"" I was crimson, but laughed it off because I didn't want to be uncool. I never wore a low v-neck again.
+
+Today I am, though. And for the sake of science, I have placed the following items between my breasts here at my desk, to see if my cleavage could support them.
+
+Letter opener, highlighter, white out, nail file, sunglasses.
+
+Just thought I'd share."
+"eventtime","2005-06-27 17:33:00"
+"current_moodid","18"
+"url","http://krystiana.livejournal.com/25992.html"
+"userid","8342"
+"itemid","99"
+"event","Ok so last night I'm heading home from Dulcy's house around 11pm and I call up my friend Robert from High School and they are all at this bar so I decide to go down and say hi.
+
+I get there and it's pretty much like a High School reunion which is funny. So every 10 minutes are so we go out to my car and have a beer because we are cheap bastards and I have beer in my car. Then we go back in the bar...drink some more...Robert smuggles beer from my car down his pants...(lol)...then around 1 or so we decide to leave.
+
+So I'm not drunk...not really that buzzed...but I bet I could get a DUI if I get pulled over. I'm driving and I get to this stop sign which I SWEAR I made a complete stop at. Mind you, I had been cracking jokes all night about getting pulled over. I jinxed myself because as soon as I get through that stoplight all I see is red and blue flashes of light. I'm thinking ""FUCK YOU HAVE GOT TO BE KIDDING ME"" and my heart sinks and all I can do is imagine myself in jail overnight and my car in the impound.
+
+The cop walks up flashes his flashlight in my eyes and lucky for me I am the worlds greatest at not acting like Ive been drinking when I really have. So as he asks for my license and registration and insurance which takes me like 3 minutes to find there is this OPEN 12 pack of beer on my back seat! WIDE OPEN. I could only find my license and registration my insurance was nowhere to be found. So the cop walks back to his car and I'm laughing because I realize he had been looking down my shirt the whole time.
+
+He comes back to my car and tells me to start making complete stops and he's letting me go with a warning. As I drive off I'm laughing because he could have BUSTED me for that beer AND not having proof of my insurance.
+
+All Robert had to say was ""Man...I wish I had tits like yours""
+
+I RULE.
+
+The end."
+"eventtime","2005-05-29 12:21:00"
+"current_moodid","44"
+"url","http://krystiana.livejournal.com/25382.html"
+"userid","8342"
+"itemid","98"
+"event","Sometimes I sit back and wonder why things happen why we experience good things and bad things. Sometimes I have a feeling that we need good and bad so we can realize how special the good really is. Imagine how boring a world we would be in if everything always worked out perfectly. We would never appreciate anything life would always be bland. Sure getting your heart broken or feeling disappointment sucks but the reason we feel that after is that we had many good times before when everything was perfect and we were overjoyed. Love is a great thing and losing it definitely sucks, but imagine if you never had anything that told you that the one you ended up with was the special one. We need the setbacks to let us know when we experience pure joy since we will feel like we can't see how we lived our lives before. Imagine looking back after finding true love and not seeing anything that sets that true love apart from the pack. That pain is a way of telling us that something isn't right, we use it to learn and to feel that there is something better for us. The sadness is temporary, but hopefully the less is lasting where we figure out that we need to fix what is wrong and cleanse our souls of the pain. Once we spend enough time learning from the pain, we can appreciate and work to keep that new found joy. Hopefully when we find the joy, we've learned that all the pain was worth the past hurt, and hopefully the love that new joy will be lasting.
+
+My heart is broken this week.  I feel terrible.  All I want to do is be with him again. But I know that in the not too distant future I'm going to look back on this and realize it just wasn't mean to be.  And when I am with someone that I truly love and be happy I will appreciate it a lot more knowing I had to go through some bad times to be as happy as I am with him.  If I had nothing to compare it to I just wouldn't appreciate it as much.  So in a way this heartbreak will help me appreciate my happiness more."
+"eventtime","2005-05-26 23:07:00"
+"current_moodid","101"
+"url","http://krystiana.livejournal.com/25174.html"
+"userid","8342"
+"itemid","97"
+"event","As we grow up, we learn that even the one person that wasn't supposed to ever let you down probably will. 
+
+You will have your heart broken probably more than once and it's harder every time. 
+
+You'll break hearts too, so remember how it felt when yours was broken. 
+
+You'll fight with your best friend. 
+
+You'll blame a new love for things an old one did. 
+
+You'll cry because time is passing too fast, and you'll eventually lose someone you love. 
+
+So take too many pictures, laugh too much, and love like you've never been hurt because every sixty seconds you spend upset is a minute of happiness you'll never get back."
+"eventtime","2005-05-24 16:10:00"
+"current_moodid","9"
+"url","http://krystiana.livejournal.com/24859.html"
+"userid","8342"
+"itemid","95"
+"event","And I want it to match"
+"eventtime","2005-05-20 19:47:00"
+"current_moodid","83"
+"url","http://krystiana.livejournal.com/24325.html"
+"userid","8342"
+"itemid","93"
+"event","Ikea,
+
+Hi. My name is Kristin and a friend of mine introduced me to you a few years ago. I had never met you before, But I heard alot about you. As I walked through you, I was shocked at how inexpensive you were. Cheaply made, But Good looking cheap stuff.
+
+A week later, I decided to purchase some things from you.
+I invested a large sum of money with you.
+
+I bought a Coffee Table, A Dining Room table, A Couch, a Foot Rest, and a few chairs.
+
+Your instructions seemed simple. No words. Just bubble pictures.
+Fantastic Artist, you have, By the way!
+
+By the time I got to the table, I had spare parts, and it still seemed fine. I just hope noone put their feet on the bottom, foot bars! I'll get glue later.
+
+Now, It took me till tonight to trust myself putting together my table......
+
+Four Hours, IKEA. 4 HOURS!
+
+It was built by me perfectly, however I had to take it apart again and again, and redo it again and again.
+
+You see, Ikea, I don't build things. I said at the begginning, My name is Kristin. NOT Jesus.
+
+The hardest things to build on that table, were the ones I could have been fine without.
+
+Anyways, The purpose of this letter is to say FUCK you and Your fuckin Instructions! They SUCK you SWEDISH piece of Shit!
+I hope your WOOD factory burns the hell down and all the Swedishins Run Screaming into Italy from the Asbestos chemicals coming from your cheap ass wood factory that I torched by rubbing two of your building blocks together even though it took me 9 hours cuz its not wood! Hell Its even cheaper than the stuff they use to make the No. 3 pencil! And speaking of pencils.
+I stole your little short pencil! thats right, IKEA, What ya gonna do, mother fucker!? I took one! I put it in my ear, and I left with it Still there!!!!!! HAHA FUCK YOU IKEA!!!!!!!!
+
+Yours Truly,
+
+Kristin"
+"eventtime","2005-05-19 15:56:00"
+"current_moodid","66"
+"url","http://krystiana.livejournal.com/23920.html"
+"userid","8342"
+"itemid","90"
+"event","As we go through our lives we see that many great people that come into our lives are not with us as long as we'd like them to be. Unfortunately the time we spend here is far from certain. One thing is possible which many people fail to realize is that although the body may die, we can still achieve a sort of immortality that goes beyond the living body and soul. Yes I may sound crazy, but If I mentioned these names their teachings would immediately strike a cord with most people, Jesus Christ, Buddha, Socrates, and Shakesphere. All these men have been dead for quite some time yet their teachings and writings are still studied and debated in our age. Am I saying you have to be a major philosopher, or a writer to achieve immortality? No, what I'm saying is that if you make a mark on other people's lives you will not be forgotten. it may be as simple as being good to the people around you and treating others with love and respect. As long as we remember someone with love in our hearts, they are not dead and not forgotten. We can do the world a lot of good in this world by taking the teachings of the good people that have touched our lives in some way and passing on them on to others. i may or may not end up being one of the great people in our modern age, but I am going to pass on the teaching of my grandparents which taught me to see the value of people beyond what you see on the surface. I'm going to pass on the values of others that have touched my life for the good and the bad because we can learn from everyone even if the only lesson we gain is that they were a bad example. If I'm blessed enough to be a daddy someday I'm going to try to imortalize so many of the people that have touched my life by passing on all that I've learned and experienced from them because through love and teachings that I will pass on, my kids may never meet their great grandparents but they will learn enough about them to gain a bit of love and respect for them."
+"eventtime","2005-05-18 08:54:00"
+"current_moodid","49"
+"url","http://krystiana.livejournal.com/23098.html"
+"userid","8342"
+"itemid","89"
+"event","SXQgaXMgYSBGcmlkYXkgbmlnaHQuIEkgc2l0IG9uIG15IGNvdWNoLCBjYXQgaW4gbGFwLCBtdW5jaGluZyBvbiBhIGNvb2tpZS4gVGVuIGNvb2tpZXMgdG8gYmUgZXhhY3QuIE9rYXksIHR3ZW50eS4gVGhlIHJvb20gaXMgc2lsZW50OyBtb3JlIGltcG9ydGFudGx5LCBzbyBpcyB0aGUgdGVsZXBob25lLiBOb3QgZXZlbiBhIHRlbGVtYXJrZXRlciBoYXMgY2FsbGVkLiBOZWl0aGVyIGlzIHRoZSBtYW4gSSBqdXN0IGJlZ2FuIHNlZWluZy4gR3JhbnRlZCB3ZSBoYXZlIG9ubHkgaGFkIHRocmVlIGRhdGVzLCBidXQgd2UgaGF2ZSBwbGFucyBpbiBhIGZldyBkYXlzIGFuZCBoZSBoYXNu4oCZdCBjYWxsZWQgdG8gY29uZmlybS4gTXkgaGVhcnQgc2lua3MgYXQgdGhlIHJlYWxpemF0aW9uIHRoYXQgaGUgbWF5IG5vdCBjYWxsIGV2ZXIuIERlcHJlc3Npb24gc2V0cyBpbi4NCg0KVG8gc3VmZmljaWVudGx5IHdhbGxvdyBpbiBteSBhZ29ueSB3aXRob3V0IGxlYXZpbmcgdGhlIGNvdWNoLCBJIHB1dCBpbiBhIHNhcHB5IGNoaWNrIGZsaWNrLiBUaGUgbW92aWUgSSBjaG9vc2UgZm9sbG93cyB0aGUgc3Rvcnkgb2YgYSB3b21hbiB3aG8gaXMgd291bmRlZCBieSBsb3ZlLiBTaGUgdGhyb3dzIGNhdXRpb24gYXNpZGUgYW5kIGFkdmVudHVyZXMgdG8gYSBmb3JlaWduIGNvdW50cnkgd2hlcmUgc2hlIGZpbmRzIGxvdmUgYW5kIHJlZ2VuZXJhdGlvbiB0aHJvdWdoIHJlbm92YXRpbmcgYSB2aWxsYSBpbiBUdXNjYW55LiBObyBtYXR0ZXIgdGhhdCBJIHNwZW5kIHRoZSBlbnRpcmUgbW92aWUgd29uZGVyaW5nIGhvdyB0aGUgaGVyb2luZSBjb3VsZCBhZmZvcmQgc3VjaCBhIGZhYnVsb3VzIHBsYWNlIG9uIGEgd3JpdGVy4oCZcyBzYWxhcnk7IHRoZSBwb2ludCB0aGUgbW92aWUgbWFkZSB3YXMgc2ltcGxlLiBBOiBFdmVyeW9uZSBsb3NlcyBpbiBsb3ZlIG9jY2FzaW9uYWxseS4gQjogWW91ciBmcmllbmRzIHdpbGwgcGF0aWVudGx5IGxpc3RlbiBmb3IgYWJvdXQgYSBkYXksIHRoZW4gcGFjayB5b3VyIGFzcyBvZmYgdG8gYW5vdGhlciBjb3VudHJ5LiBDOiBJdCBpcyBhZmZvcmRhYmxlIGFuZCBtYWdpY2FsIHRvIG1vdmUgdG8gYSBmb3JlaWduIGNvdW50cnkuIEQ6IElmIHlvdSBkbywgeW91IHdpbGwgYnV5IGEgdmlsbGEgYW5kLCBhZnRlciBhIGZldyBzaXQtY29tIGFudGlkb3RhbCBzaXR1YXRpb25zLCB5b3Ugd2lsbCBwcm9zcGVyIGFuZCBmaW5kIGxvdmUuIENvbmNsdXNpb246IEluIGxpZmUsIHRoZXJlIHdpbGwgYmUgYSBmZXcgdGVhcnMgZm9sbG93ZWQgdXAgYnkgaGFwcHkgZW5kaW5ncywgZmFidWxvdXMgc2NlbmVyeSBhbmQgZ29yZ2VvdXMgbWVuIGZvciBhbGwuDQoNClRoZXJlIGlzIGp1c3Qgb25lLCB0aW55IHByb2JsZW0gd2l0aCB0aGlzIHRoZW9yeS4gSXTigJlzIHRvdGFsIGJ1bGxzaGl0LiBJIGNhbiB0aGluayBvZiAxLDI5NywzNDYgdGltZXMgdGhhdCBJIGhhdmUgc2F0IG9uIG15IGNvdWNoIHdhaXRpbmcgZm9yIOKAnHRoYXQgbWFu4oCdIHRvIGNhbGwsIGNvbWUgaG9tZSwgcHV0IG91dCBtb3JlIGVmZm9ydCwgbm90IGNoZWF0IG9uIG1lIHdpdGggdGhlIEhvb3RlcnMgZ2lybCwgZXRjLiBNb3Jlb3ZlciwgdGhlIDEsMjk3LDM0NiB0aW1lcyBoZSBoYXMgZGlzYXBwb2ludGVkIG1lLCBub3RoaW5nIGZhYnVsb3VzIGhhcyBoYXBwZW5lZCBhcyBhIHJlc3VsdCBvZiBteSBzdWZmZXJpbmcuIFN1cmUsIEnigJl2ZSBtb3ZlZCBvbiwgbWV0IG90aGVyIG1lbiwgaGFkIG1hbnkgZGF0ZXMgYW5kIG15IHBob25lIHJpbmdzIG5vdyBhbmQgdGhlbi4gQnV0IHdoZXJlIGlzIG15IGZpbmFsIGFuZCBhYnNvbHV0ZSBoYXBweSBlbmRpbmcgdGhhdCBpcyBzZWVtaW5nbHkgZ3VhcmFudGVlZCwgYXQgbGVhc3QgYnkgYSBtaWRkbGluZyBEaXJlY3RvciBvbiBsb2NhdGlvbiB3aXRoIEhvbGx5d29vZCBBLWxpc3RlcnM/DQoNCkluIGFsbCB0aGUgdGltZXMgbXkgaGVhcnQgaGFzIGJlZW4gZW1vdGlvbmFsbHkgY29tcHJvbWlzZWQsIEkgaGF2ZSBsb29rZWQgZm9yIOKAnFRoZSBQcm9taXNlLuKAnSBUaGUgcHJvbWlzZSBpcyB3aGF0IGxpdHRsZSBnaXJscyBhcmUgdG9sZCB0aHJvdWdob3V0IGNoaWxkaG9vZCwgdmlhIG1hbnkgbWlzZ3VpZGVkIGF2ZW51ZXMsIGVhY2ggdGltZSB3ZSBwdXQgb24gZHJlc3MtdXAgY2xvdGhlcyBhbmQgZGFuY2UgZ2xlZWZ1bGx5IHdpdGggaW1hZ2luYXJ5IHN1aXRvcnMuIE5hbWVseSwgdGhhdCBQcmluY2UgQ2hhcm1pbmcgd2lsbCBhcnJpdmUsIHdpc2sgeW91IGludG8gaGlzIHBvcnNjaGUsIGFuZCBzcGlyaXQgeW91IGF3YXkgdG8gYSBmYW50YXN0aWMgZHdlbGxpbmcgd2hlcmUgeW91IHdpbGwgcmVzaWRlIHRvZ2V0aGVyIGluIGdyZWF0IGpveSBmb3IgYWx3YXlzLiBPaCwgYW5kIHlvdSB3aWxsIGFsc28gaGF2ZSBhIG1haWQgYW5kIHRha2Ugb3ZlciB0aGUgd29ybGQuIEhvcGVmdWxseSB0aGlzIHdpbGwgaGFwcGVuIGJlZm9yZSB5b3UgcmFjayB1cCBlbm9ybW91cyBjcmVkaXQgY2FyZCBkZWJ0IG9uIGZpcnN0LWRhdGUgb3V0Zml0cywgZHV0Y2gtb3V0aW5ncywgYW5kIHBob25lIGNhbGxzIHRvIE1pc3MgQ2xlby4gTmV2ZXJ0aGVsZXNzLCBpdCB3aWxsIGhhcHBlbi4gUmlnaHQ/DQoNCk1heWJlIG5vdC4gVGhlIGZhaXJ5IHRhbGUgd291bGQgaGF2ZSB1cyBiZWxpZXZlIHNvLCBidXQgc3RhdGlzdGljYWxseSB3b21lbiBhcmUgc3RheWluZyBzaW5nbGUgbG9uZ2VyIGFuZCBtYXJyeWluZyBsYXRlciBpbiBsaWZlLCBhbmQgZGl2b3JjZSByYXRlIGlzIHJpc2luZyBmYXN0ZXIgdGhhbiBsYXN0IG5pZ2h04oCZcyBvdmVyLWVhZ2VyIGRhdGUuIEkgcGVyc29uYWxseSBiZWxpZXZlIHRoYXQgdGhpcyBpcyBhIHJlc3VsdCBvZiBjaG9pY2UgLS0gbGFjayBvZiBjaG9pY2UgdG8gYmUgc3BlY2lmaWMuIElmIG1vcmUgZmFidWxvdXMgbWVuIHdlcmUga25vY2tpbmcgZG93biBvdXIgZG9vcnMgd2l0aCBwcm9taXNlcyBvZiBhZG9yYXRpb24sIHN0YWJpbGl0eSBhbmQgY2hvY29sYXRlLCB0aGUgbWFqb3JpdHkgb2YgdXMgc2luZ2xlIGxhZGllcyB3b3VsZCBub3QgYmUgcHVycG9zZWx5IHN0YXlpbmcgc2luZ2xlLiBCdXQgc2luY2Ugd2UgbGl2ZSBpbiBhIHdvcmxkIHdoZXJlIG1lbiBjYW7igJl0IGV2ZW4gbXVzdGVyIHRoZSBzdHJlbmd0aCB0byBwaWNrIHVwIGEgdGVsZXBob25lLCBpcyBpdCBhbnkgd29uZGVyIHRoYXQgdXMgZ2lybHMgZmluZCBvdXJzZWx2ZXMgYWxvbmUgeWVhci1hZnRlci15ZWFyIGFzIGJpcnRoZGF5cyBmbHkgYnkgaW4gYSBoYXplIG9mIGFsY29ob2wgYW5kIGNha2U/DQoNCkkgdXNlZCB0byBhdHRlbXB0IHRvIGFzc2lnbiBibGFtZSwgbW9zdCBvZnRlbiBmb2lzdGluZyBpdCBvbiB0aGUgcGFyZW50cy4gVGhhdCB0aGVvcnkgZG9lc27igJl0IGFsd2F5cyBob2xkIHVwLCBob3dldmVyLCBhcyBJIGhhdmUgbWV0IG15IHNoYXJlIG9mIGxvdmVseSBwYXJlbnRzLiBUaGlzIGxlYXZlcyBtZSB0byBwb25kZXIgd2hvc2UgZmF1bHQgdGhlIHV0dGVyIGxhY2sgb2YgcmVzcGVjdCwgY29tbWl0bWVudCwgc3RhYmlsaXR5IGFuZCBtYXR1cml0eSBvbiB0aGUgcGFydCBvZiBtZW4gaXMuIEFmdGVyIG11Y2ggdHJhZ2ljIGRhdGluZyBleHBlcmllbmNlIGFuZCB6ZW4tbGlrZSBjb250ZW1wbGF0aW9uLCBJJ3ZlIHNldHRsZWQgb24gcG9pbnRpbmcgdGhlIGZpbmdlciB0b3dhcmRzIHNldmVyYWwgbWVkaXVtcy4gVGhleSBpbmNsdWRlOiB0aGUgdGVsZXZpc2lvbiBhbmQgaXRzIGludGVycHJldGF0aW9uIG9mIG1hbGUtZmVtYWxlIHJlbGF0aW9uc2hpcHMsIHBlcm1pc3NpdmUgaGlnaC1zY2hvb2wgZ2lybGZyaWVuZHMsIG92ZXItYXR0ZW50aXZlIG1vdGhlcnMsIHRoZSB1bm1vdGl2YXRlZCBiZWVyLWJvbmcgY29sbGVnZSB5ZWFycywgbWVu4oCZcyBtYWdhemluZXMgdGhhdCB0b3V0IGdvb2QgYXJ0aWNsZXMgd2hpbGUgcHJpbnRpbmcgcGhvdG9zIG9mIGFpcmJydXNoZWQgYmltYm9zLCBhbmQgSHVnaCBIZWZuZXIgZm9yIHRlbGxpbmcgbWVuIGl04oCZcyBva2F5IHRvIHN0YXkgaW4gcGFqYW1hcyBhbGwgZGF5IHdoaWxlIHNtb2tpbmcgY2lnYXJzIGFuZCBjb3B1bGF0aW5nIHdpdGggbXVsdGlwbGUgd29tZW4uDQoNCkkgY2Fu4oCZdCB2b3VjaCBmb3IgYWxsIG15IGdpcmxzIG91dCB0aGVyZSwgYnV0IEkgc2ltcGx5IGNhbm5vdCBzdGFuZCBhbm90aGVyIG1pbnV0ZSBvZiBtYWxlIGluY29uc2lzdGVuY3ksIGxldCBhbG9uZSBsaXZlIG15IGxpZmUgMTAgZmVldCBmcm9tIHRoZSB0ZWxlcGhvbmUuIFRoZXJlIGlzIG5vIHJ1bGUgdGhhdCBzdGF0ZXMgd2UgbGFkaWVzIG11c3Qgc2l0IGJ5IHRoZSBwaG9uZSB3aWxsaW5nIGl0IHRvIHJpbmcsIGFuZCB0aGVyZSBpcyBubyBjbGF1c2UgaW4gb3VyIHdvbWFubHkgY29udHJhY3QgdGhhdCByZXF1aXJlcyB1cyB0byBkYXRlIGxvc2VycywgZGF0ZSBtZW4sIG9yIGRhdGUgYXQgYWxsIQ0KDQpJdCBpcyBub3cgU2F0dXJkYXkuIFRoZSBtYW4gSSBhbSBpbmZhdHVhdGVkIHdpdGggc3RpbGwgaGFzIG5vdCBhdHRlbXB0ZWQgdG8gcmVhY2ggbWUuIE5laXRoZXIgaGF2ZSBJIHNlZW4gaGlzIGNhciBkYW5nbGluZyBwcmVjYXJpb3VzbHkgZnJvbSBhIGNsaWZmOyB0aGUgb25seSBhY2NlcHRhYmxlIGV4Y3VzZSBmb3IgaGlzIG5vbi1kaWFsaW5nLiBJIGFtIGluIGRhdGluZyBsaW1ibyBhbmQgaXQgaXMgcHJvYmFibHkgbXVjaCBha2luIHRvIHdoYXQgYSBicmF6aWxsaWFuIGJpa2luaSB3YXggaXMgbGlrZS4gSG93ZXZlciwgdGhpcyB0aW1lIEkgdGhpbmsgSSB3aWxsIGxlYXZlIHRoZSBwaG9uZSBhbG9uZS4gSWYgaGUgY2FsbHMsIEkgd2lsbCB0dXJuIHVwIHRoZSB2b2x1bWUgb24gbXkgYnVzeSBsaWZlIGFuZCBpZ25vcmUgdGhlIHJpbmdpbmcuIFlvdSBzZWUsIEkgY2hvb3NlIHRvIHNoYXBlIG15IG93biBkZXN0aW55IGFuZCB0aGF0IG1lYW5zIGV4dHJpY2F0aW5nIG15c2VsZiBmcm9tIGEgc2l0dWF0aW9uIHdoZXJlIEkgYW0gbm90IGhhcHB5LCBzYXRpc2ZpZWQsIG9yIHRlbGVwaG9uZWQgcmVndWxhcmx5Lg=="
+"eventtime","2005-05-14 00:52:00"
+"current_moodid","48"
+"url","http://krystiana.livejournal.com/22940.html"
+"userid","8342"
+"itemid","88"
+"event","When Ean turned 1 last September I wrote him a letter so that he can keep it all his life and always have something to remember me by. Today I came across it and I thought I'd share it :)
+
+It goes a little something like this.....
+
+
+
+
+
+
+
+Dearest Ean,
+
+Over the past 23 years I have often been asked ""Do you know the meaning of love?"" or heard people say I don't know what love is. I have often felt like I have no idea what love is, and I have also felt like I could know no stronger love.
+
+Well, at the age of 23, I can honestly say I know what love is, I know what it means and I had NO idea how big it could be. The day I gave birth to you I instantly felt the most amazing love I have ever known. This gift from God was a human being that came from me and depended on me for everything. He had never seen my face but he came into the world as he lie on my chest heart to heart, he knew who I was. He was in love with me and I with him and it was the real meaning of love at first sight. A love that could never be taken away. For the next 365 days of my life that love would grow into something unimaginable and would never stop growing.
+
+As I sat at my desk writing this for you I heard a rattling at my feet and looked down to find the meaning of love. There it was right in front of me. The most amazing smile. It was a smile of only two teeth but it was the most perfect smile ever. The amazing blue eyes that looked into mine. But, the most amazing part of love? The giggle that followed. The pure joy that beamed from this amazing little boy just because his Mommy looked at him. That IS love. A love that inspires me to do my best, be my best and treat others with love and care. A love that makes me a better person and makes me strive to be better. A love like any other I have known or will know. A love that will never be measured by numbers and will never cease to grow."
+"eventtime","2005-05-12 00:49:00"
+"current_moodid","86"
+"url","http://krystiana.livejournal.com/22716.html"
+"userid","8342"
+"itemid","87"
+"event","Many people these days don't look beyond the superficial. We've all witnessed it or been a part of it, people looking only at the surface to judge people. I have friends who are valued only for their looks and are treated as though all they are good for is looking good and being seen and not heard, and other friends who are good people but are not treated well simply because they were not blessed with looks or money. You can learn some amazing things about people just by going past the surface and finding out their thoughts, feelings, hopes, and desires. I've made many new friends over the time I've been on My Space, and fortunately I've been able to talk to people here and learn about more about them than just how hot their picture looks. There are still many great people in this world all you have to do is treat them like you want to be treated and the world will open up to you. Remember that on the otherside of the computer when you interact with others over the internet that there are other people like you looking for friends and hoping to be accepted by others. Life isn't about how great your friends look, how many people you know, nor is it about what you have. It's about how many people's lives you can affect, and how you treat others. One act of kindness, even if it's words of encouragement may change someone's life for the better. We all have the power to make someone's pain easier, it's just that we get caught up in so many things that we forget to go deeper to see what makes each of us unique, and how we can all help each other live happier lives. In the immortal words of Bill and Ted ""Be excellent to each other."""
+"eventtime","2005-05-03 19:51:00"
+"current_moodid","4"
+"url","http://krystiana.livejournal.com/22445.html"
+"userid","8342"
+"itemid","83"
+"event","I touched your soul.. I'm part of you now.. never let me slip away... to a distant place you will regret sending me... this is such a sad moment.. a confession to myself.. you may never read.. the words drift in circles...  I will hold a place for you if you ever want to return..."
+"eventtime","2005-03-11 00:09:00"
+"current_moodid","113"
+"url","http://krystiana.livejournal.com/21386.html"
+"userid","8342"
+"itemid","82"
+"event","Rule ..1: If you say you're going to call...do it. I'm a worrier. I can't help it...it's my nature. I am more inclined to think something is wrong with you or something has happend before I think you're a dick for not calling. 
+
+ Rule ..2: I will give what I am given. If I get an email telling me you're thinking of me then you better believe you'll get one back. And, if I send you one first.. nothing would make my day more than to get one back from you. 
+
+ Rule ..3: I want to be told at least once a day that you are thinking of me or that you miss me. It's not that I am an attention whore...Im just a very affectionate person and I don't ask a whole lot...but if I feel like you can't handle it I lose interest incredibly fast.
+The thing I hate about most relationships is when you start talking you talk ALL THE TIME and then it fades really fast to where you don't talk much at all and that makes me sad.
+
+ Rule ..4: If I am with someone the whole world knows it. I expect you to be the same way. 
+
+ Rule ..5: I believe in time alone with ""the guys"" heck, I need time alone with ""the girls"" but do not forget there also needs to be ""us"" time as well.
+
+ Rule ..6: I don't need gifts and jewelry from you. I just need a hug and a kiss when you see me. I have all the love in the world to give and trust me I'm more heaven than a heart can hold if I'm just treated right. 
+
+ Rule ..7: It doesn't happen often. But, when I'm not in the mood...please respect that and don't get upset with me. It's not you...I just don't feel like it. Trust me with as big of a nympho that I am when I say no its not very often.
+
+ Rule ..8: Don't feel like you need to buy my kid presents....He's 1 and a half years old...you can't buy his love...it's nice every once in a while but he wouldn't know the difference if you did it all the time or not. If he's around just give him attention and be cool and everything will be fine. He already has a Dad...Im not looking to replace him...just be his friend.
+
+ Rule ..9: If I do something that you don't like or you don't agree with...please tell me. Don't get mad and then keep me guessing as to why you're mad. Communication is key. If you don't tell me I will never know and that is how relationships fail.
+
+ Rule ..10: Treat me with respect. Because you better believe I will always do the same to you. I am all for joking and kidding around but every once in a while I need to have a serious conversation. If I start to ask questions about what we're doing with our relationship most of the time it's because Im confused...not because Im trying to get you to marry me. If you are freaked out by that maybe we shouldn't be dating at all."
+"eventtime","2005-03-08 23:37:00"
+"current_moodid","92"
+"url","http://krystiana.livejournal.com/21097.html"
+"userid","8342"
+"itemid","77"
+"event","I used too many minutes this past month now I want to die at the thought of having to pay my next bill.  And the saddest part is...the person I talked to the most wasn't even worth it. $900 what a crock."
+"eventtime","2004-12-04 16:50:00"
+"current_moodid","24"
+"url","http://krystiana.livejournal.com/19789.html"
+"userid","8342"
+"itemid","75"
+"event","So my Mom called me today, to make sure I was still going to go to my Great Uncles house in Sacramento for Thanksgiving this year.  Honestly, the only reason I am going is because I know people want to see Ean and my cousin Terese is going.  Funny thing about Terese and I.  We are a lot alike.  The 2 of us were the younger of all the kids in the family.  I am the youngest she is about 5 years older than me.  Everyone in our family had high hopes for us.  We both were in beauty pageants when we were younger, we won a few.  We were dancers, cheerleaders, lets be honest all around we were HOT.  Then we met our ex's, had our children and suddenly we aren't so much anymore.  I swear its almost like our family is disappointed in us.  Don't get me wrong I mean they love us no matter what but when you hear things like ""You USED to be so beautiful"" it kind of makes you feel bad.  My friends still think I am.  Why is family so harsh.  
+
+Honestly, I don't feel like I can offer anything to this world anymore.  Before I had Ean my whole world was based around my looks and my body and the world loved that.  Now I don't even have those.  I don't do anything well, I mean I have a good career but big deal.  I almost feel like a failure.  
+
+On top of all of this Steve hates me over a misunderstanding...or so I think. My friend says he's probably just doing this to try and get rid of me.  If that is the case I wish he'd tell me.  Who knows, he won't talk to me and its killing me.  I don't know what it is he wants from me I am so confused I would say I want to cry but I already have been.  
+
+I hate myself right now."
+"eventtime","2004-11-23 21:25:00"
+"current_moodid","9"
+"url","http://krystiana.livejournal.com/19432.html"
+"userid","8342"
+"itemid","74"
+"event","Text messages are the devil.  My friends text me all the time.  Some stay in my sent files, some dont.  Some stay in my inbox, some don't.  When you're not me and you're reading them it is easy to get them confused.  If you read this...I don't ever want you to think that I would text someone and say I was done with you and not actually say it to your face."
+"eventtime","2004-11-23 00:42:00"
+"current_moodid","25"
+"url","http://krystiana.livejournal.com/19105.html"
+"userid","8342"
+"itemid","73"
+"event","I am very bad at returning phone calls. (Sorry)
+Music is the center of my universe and the one thing that always grounds me, or sets me free.
+I believe in judging everyone as an individual. I try not to make generalizations and assumptions.
+My friends are my family.
+I have a pretty good job but, I think who you are defines you much more than what you do.
+Intelligence and sense of humor over looks any day
+I deem the seeming inablity to understand men as one of my greatest failures in life.
+Laughing so hard that I cry is my favorite thing to do.
+I have a song lyric for everything that goes on in my head.
+There are three sides to every story.
+I love broccoli. Really.
+I will always fight for what I believe in. I'm not a quitter. 
+My favorite piece of clothing is my boots.
+I'd like to travel more.
+I'm an excellent judge of charater, but don't always follow my own advice.
+I love Pop Rocks
+Most of the time, I don't care what people think of me. But, if I really like you...I do
+Sarcasm is the new black
+I recently started wearing the color pink again, for the first time since I was 10.
+People really can change.
+I am a hugger, a cuddler, and generally a very touchy person.
+Sometimes, I think I have too much faith in people and then when they disappoint me it's an even bigger let down.
+I love big words.
+I like to try new things, especially if they scare me.
+I am lucky enough to have been really, truly, and completely loved by a handful of amazing people through out my life.
+Clowns scare me. I blame Stephen King.
+Animals are great.
+Most girls don't like me.
+I don't like most girls.
+I have the tendancy not to say what is on my mind.  Eventhough a lot of times I should.
+The ocean makes me happy. 
+Sometimes I'm nice to people I don't like, if it makes my day easier.
+I don't fit in with the rest of my family, but they love me anyway.
+I have the best mom ever. Excpet for that pony thing. It wasn't a phase. I'm still waiting...
+I can be a loner. Call it 'only child syndrome' except that I'm not really an only child...just grew up that way, but I need time to myself.
+I listen to sad songs when I am depressed, only to make myself even more depressed but somehow it makes me feel better."
+"eventtime","2004-11-16 15:03:00"
+"current_moodid","23"
+"url","http://krystiana.livejournal.com/18930.html"
+"userid","8342"
+"itemid","72"
+"event","I couldn't sleep and I had this song in my head.  Sometimes songs remind me of people then I can't get them out of my head."
+"eventtime","2004-11-08 00:42:00"
+"current_moodid","49"
+"url","http://krystiana.livejournal.com/18474.html"
+"userid","8342"
+"itemid","71"
+"event","So I'm sitting on an airplane right now to go home.  I so badly wanted to see Steve before I left but I know it would kill me because I'd want to spend so much more time with him.  I hate airports.  They made me practically strip to get through those gates.  Then for some reason my phone would not work and OMG I'm so annoyed.  Anyway I get up there and they announce that they have overbooked the 12 noon flight (that's Southwest for ya) and if anyone would mind taking the one at 11am.  I volunteered I figured I had nothing else to do.  I can say this much...if I didn't HAVE to go home today I would have spent as much time with Steve as I could.  Seriously, I think I'm still cold from last night...lol.  Ive been cold all morning.  I was just looking back at my archives.  Some enteries I had back in December of 2000.  I came across this one:
+
+My favorite quote....
+I was looking in my old closet at my mom's house and I found this quote from ""Never Been Kissed"" that I totally loved and I wrote it down. So I thought I'd put it in here so everyone can see it :o)
+
+""There is a moment in a persons life when you kiss someone and everything around you is hazy. There is nothing else in focus but you and that person. And you realize this person is the only person that you're supposed to kiss for the rest of your life. In that very moment you want to laugh and you want to cry because you're so happy that you've found it and so scared that it might go away all at the same time.""
+
+
+You know, I realized I still haven't had that.  I thought for sure it would have happend by now but nope.  I always told myself I would marry the man that did that to me.  But yet, I married a man that didn't which would explain why we are no longer together. Its so funny all my friends and I talk and even the guys...they tell me they want that exact same thing so I know I'm not crazy.  But at the same time it doesnt seem like any of my friends have found it either so I almost wonder if it exists for anyone.  Look at me gettin sappy on a airplane.  I'm such a dork.  So I need to put my things away now because we're supposed to land at 12:15."
+"eventtime","2004-11-05 11:46:00"
+"current_moodid","22"
+"url","http://krystiana.livejournal.com/18379.html"
+"userid","8342"
+"itemid","70"
+"event","So my best friend picked me up today and I went back to her house in Orange and we watched The OC tonight thats my favorite show.  Anyway, there were a few scenes where the girl was at the beach and oh man....I died I forgot how much I missed the beach.  So after it was over I went to Newport by myself and just walked.  I used to do that all the time when I lived down here and just walk and think about things and I remember how I used to feel so much better after I left but this time I didn't feel as good maybe because I wished someone was with me.  So anyway, I was there for like 3 hours which would probably explain why I'm freezing right now.  Seriously, 3 hours of nothing but sitting there thinking. I was thinking about how much I miss it here...I want to move back for more reasons than one.  Maybe it's because of Steve because I feel like I want to be near him.  Actually, I know that's one of the reasons for sure. Something is telling me it wouldn't be a bad decision if I came back.  I mean my brother and my neice and nephew are here, my best friend is here and shes 9 months pregnant and I'm the baby's godmother, I have so many friends here not to mention the fact that I love it here and now I have my new reason.  I mean my Mom is up north but I don't see her much because she's always worrying about her a-hole husband. So I guess I should go with what my heart tells me to do.  Oh, and what my Brother and April tell me to do and that's to get my butt back to OC. Have I mentioned I love the beach?"
+"eventtime","2004-11-05 01:37:00"
+"current_moodid","43"
+"url","http://krystiana.livejournal.com/17943.html"
+"userid","8342"
+"itemid","69"
+"event","You now have the website address to my journal.  Not many people have it that I know...strangers come across it on accident but I gave it to you so you could get to know me a little better, because I want you to.  You are unlike any other I've ever met, you're amazing and I love that fact that you understand me and want to know me better.  I heard this song on the radio today and this part in the song where it says ""Once in your life you find someone wo will turn your world around pick you up when you're feeling down"" and it made me think of you.  You give me hope again and I'm sure you know what I mean by that."
+"eventtime","2004-11-04 17:48:00"
+"url","http://krystiana.livejournal.com/17699.html"
+"userid","8342"
+"itemid","68"
+"event","So I'm sitting in my hotel room right now waiting for my brother to get here.  Should be a few more minutes.  I had to come for a conference and my boss came also which should have told me to not try and make any plans for myself while I am here.  Anyway, last night I was supposed to meet this completely wonderful guy and my idiot boss decided he wanted to have a meeting at the last minute.  I was crushed.  I didn't even pay attention to the meeting because my mind was wandering thinking about him.  I would have given anything to see him last night.  No one has put a smile on my face like this in a long time or even made me genuinely happy for that matter. So we had a long talk today that made me feel a lot better and it did the same for him also so we basically know where each of us is coming from.  So when I come back down here later this month I really hope I get to see him. Honestly if I had it my way I would not even mention to my family that I was in town and spend all my time with him but its just too bad I'm too honest...lol. So anyway I have more I could write except my Brother is finally here so I have to go for now."
+"eventtime","2004-11-03 20:55:00"
+"current_moodid","32"
+"url","http://krystiana.livejournal.com/17452.html"
+"userid","8342"
+"itemid","66"
+"event","I'm bored.  Nothing to do.  I guess I'll go to the mall. When I got home Ean of course wanted to play so I didn't get to sleep till like 9:30am.  Then of course at 5:45am there as a rush of patients that kept me there till 7:30.  Figures.  Then I got to sleep till now.  Yay!  That's actually good for me.  5 1/2 hours...I'm usually lucky to get 3 after I've worked all night.  I need to get out of the house...."
+"eventtime","2004-08-21 14:50:00"
+"current_moodid","5"
+"url","http://krystiana.livejournal.com/16975.html"
+"userid","8342"
+"itemid","65"
+"event","Making me feel sad all night.  At least Doug stayed up till 4am and talked to me on here while I was at work.  It was painfully slow tonight.  He cheered me up though!  Thanks Dougie!"
+"eventtime","2004-08-21 05:10:00"
+"current_moodid","40"
+"url","http://krystiana.livejournal.com/16763.html"
+"userid","8342"

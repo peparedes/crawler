@@ -1,0 +1,1042 @@
+"names","values"
+"itemid","47"
+"event","PGEgaHJlZj0iPGRpdiBhbGlnbj0iY2VudGVyIiBzdHlsZT0iZm9udC1mYW1pbHk6IFRhaG9tYSwgVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxMHB0OyI+PGZvcm0gYWN0aW9uPSJodHRwOi8vd3d3LmJsb2dxdWl6Lm5ldC9xdWl6emVzL0xpdmVKb3VybmFsLU1lbWVzLzIxMjQvWW91ci1MSi1Ib3Jyb3ItbW92aWUiIG1ldGhvZD0icG9zdCIgbmFtZT0icXVpejIxMjQiPjx0YWJsZSBib3JkZXI9IjEiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCI+PHRyPjx0ZD48dGFibGUgc3R5bGU9ImZvbnQtZmFtaWx5OiBUYWhvbWEsIFZlcmRhbmEsIEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTBwdDsiIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIzIj48dHIgYmdjb2xvcj0iIzAwMzM2NiI+PHRkIGNvbHNwYW49IjIiIGFsaWduPSJjZW50ZXIiIHZhbGlnbj0ibWlkZGxlIj48ZGl2IGFsaWduPSJjZW50ZXIiIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsgZm9udC13ZWlnaHQ6IGJvbGQ7Ij48YSBocmVmPSJodHRwOi8vd3d3LmJsb2dxdWl6Lm5ldC9xdWl6emVzL0xpdmVKb3VybmFsLU1lbWVzLzIxMjQvWW91ci1MSi1Ib3Jyb3ItbW92aWUiIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyI+WW91ciBMSiBIb3Jyb3IgbW92aWU8L2E+PC9kaXY+PC90ZD48L3RyPjx0ciBiZ2NvbG9yPSIjNjY5OUNDIj48dGQgYWxpZ249ImxlZnQiIHZhbGlnbj0ibWlkZGxlIiBzdHlsZT0iY29sb3I6ICNGRkZGRkY7Ij5MaXZlSm91cm5hbCBVc2VybmFtZTwvdGQ+PHRkIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSI+PGlucHV0IHR5cGU9InRleHRib3giIG5hbWU9ImxqdXNlcm5hbWUiIHZhbHVlPSJwaW5rcGVuZ3VpbjM1NzkiIHNpemU9IjIwIiBtYXhsZW5ndGg9IjY0Ij48L3RkPjwvdHI+PHRyIGJnY29sb3I9IiM2Njk5Q0MiPjx0ZCBhbGlnbj0ibGVmdCIgdmFsaWduPSJtaWRkbGUiIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsiPkZhdm9yaXRlIHN1ZmZpeDwvdGQ+PHRkIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSI+PGlucHV0IHR5cGU9InRleHRib3giIG5hbWU9ImlucHV0OjAiIHZhbHVlPSJpbmciIHNpemU9IjIwIiBtYXhsZW5ndGg9IjY0Ij48L3RkPjwvdHI+PHRyIGJnY29sb3I9IiM2Njk5Q0MiPjx0ZCBhbGlnbj0ibGVmdCIgdmFsaWduPSJtaWRkbGUiIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsiPkZhdm9yaXRlIHByZWZpeDwvdGQ+PHRkIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSI+PGlucHV0IHR5cGU9InRleHRib3giIG5hbWU9ImlucHV0OjEiIHZhbHVlPSJob3AiIHNpemU9IjIwIiBtYXhsZW5ndGg9IjY0Ij48L3RkPjwvdHI+PHRyIGJnY29sb3I9IiM2Njk5Q0MiPjx0ZCBhbGlnbj0ibGVmdCIgdmFsaWduPSJtaWRkbGUiIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsiPlNxdWFzaD88L3RkPjx0ZCBhbGlnbj0ibGVmdCIgdmFsaWduPSJtaWRkbGUiPjxzZWxlY3QgbmFtZT0iaW5wdXQ6MiI+PG9wdGlvbiB2YWx1ZT0iMCIgPkEgdmVnZXRhYmxlPC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0iMSIgPkEgdmVyYjwvb3B0aW9uPjxvcHRpb24gdmFsdWU9IjIiID5BIHNwb3J0PC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0iMyIgc2VsZWN0ZWQ+V0hFUkU/IT8hPyE/PC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0iNCIgPlVtLi4uTy5vPC9vcHRpb24+PC9zZWxlY3Q+PC90ZD48L3RyPjx0ciBiZ2NvbG9yPSIjNjY5OUNDIiBoZWlnaHQ9IjUiPjx0ZCBjb2xzcGFuPSIyIj48L3RkPjwvdHI+PHRyIGJnY29sb3I9IiMzMzY2OTkiPjx0ZCBhbGlnbj0ibGVmdCIgdmFsaWduPSJtaWRkbGUiIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsiPlRoZSBkaXR6eSBoZXJvaW5lIHdobyBzeXN0ZW1hdGljYWxseSBsb29zZXMgaGVyIGNsb3RoZXMgdGhyb3VnaG91dCB0aGUgbW92aWU8L3RkPjx0ZCBzdHlsZT0iY29sb3I6ICNGRkZGRkY7IGZvbnQtd2VpZ2h0OmJvbGQ7IiBhbGlnbj0ibGVmdCIgdmFsaWduPSJtaWRkbGUiPmNoaXBwZXJldmVyeWRheTwvdGQ+PC90cj48dHIgYmdjb2xvcj0iIzMzNjY5OSI+PHRkIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSIgc3R5bGU9ImNvbG9yOiAjRkZGRkZGOyI+VGhlIGV2aWwgdmlsbGFpbjwvdGQ+PHRkIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsgZm9udC13ZWlnaHQ6Ym9sZDsiIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSI+Y2hpcHBlcmV2ZXJ5ZGF5PC90ZD48L3RyPjx0ciBiZ2NvbG9yPSIjMzM2Njk5Ij48dGQgYWxpZ249ImxlZnQiIHZhbGlnbj0ibWlkZGxlIiBzdHlsZT0iY29sb3I6ICNGRkZGRkY7Ij53aG8gaXMgYTwvdGQ+PHRkIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsgZm9udC13ZWlnaHQ6Ym9sZDsiIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSI+YWxpZW4gd2hvIGxvb2tzIHN0cmFuZ2x5IGxpa2UgYSBjZXJ0YWluIGNlbGVicml0eS4uLjwvdGQ+PC90cj48dHIgYmdjb2xvcj0iIzMzNjY5OSI+PHRkIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSIgc3R5bGU9ImNvbG9yOiAjRkZGRkZGOyI+VHJhZGVtYXJrIGNyZWVweSBwaHJhc2U8L3RkPjx0ZCBzdHlsZT0iY29sb3I6ICNGRkZGRkY7IGZvbnQtd2VpZ2h0OmJvbGQ7IiBhbGlnbj0ibGVmdCIgdmFsaWduPSJtaWRkbGUiPiJJIHNlZSBkZWFkIHBlb3BsZS4iPC90ZD48L3RyPjx0ciBiZ2NvbG9yPSIjMzM2Njk5Ij48dGQgYWxpZ249ImxlZnQiIHZhbGlnbj0ibWlkZGxlIiBzdHlsZT0iY29sb3I6ICNGRkZGRkY7Ij5UaGUgYmxhY2sgaGFpcmVkLCBlbW90aW9ubGVzcywgcHN5Y2hpYyBjaGlsZDwvdGQ+PHRkIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsgZm9udC13ZWlnaHQ6Ym9sZDsiIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSI+bGl2eXNtaXR0eTM8L3RkPjwvdHI+PHRyIGJnY29sb3I9IiMzMzY2OTkiPjx0ZCBhbGlnbj0ibGVmdCIgdmFsaWduPSJtaWRkbGUiIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsiPlZpbGxhaW4ncyB3ZWFwb24gb2YgY2hvaWNlPC90ZD48dGQgc3R5bGU9ImNvbG9yOiAjRkZGRkZGOyBmb250LXdlaWdodDpib2xkOyIgYWxpZ249ImxlZnQiIHZhbGlnbj0ibWlkZGxlIj5wcmFuayBwaG9uZSBjYWxsczwvdGQ+PC90cj48dHIgYmdjb2xvcj0iIzMzNjY5OSI+PHRkIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSIgc3R5bGU9ImNvbG9yOiAjRkZGRkZGOyI+WW91ciB3ZWFwb24gb2YgY2hvaWNlPC90ZD48dGQgc3R5bGU9ImNvbG9yOiAjRkZGRkZGOyBmb250LXdlaWdodDpib2xkOyIgYWxpZ249ImxlZnQiIHZhbGlnbj0ibWlkZGxlIj5pbnNlY3RpY2lkZTwvdGQ+PC90cj48dHIgYmdjb2xvcj0iIzMzNjY5OSI+PHRkIGFsaWduPSJjZW50ZXIiIHZhbGlnbj0ibWlkZGxlIiBzdHlsZT0iY29sb3I6ICNGRkZGRkY7IiBjb2xzcGFuPSIyIj5DaGFuY2VzIG9mIHlvdSBzdXJ2aXZpbmc8YnI+PHRhYmxlIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIj48dHI+PHRkIGFsaWduPSJjZW50ZXIiIHZhbGlnbj0ibWlkZGxlIj48dGFibGUgd2lkdGg9IjI1MCIgaGVpZ2h0PSIyMCIgYmFja2dyb3VuZD0iaHR0cDovL2ltYWdlcy5ibG9ncXVpei5uZXQvcGVyY2VudGJhci5naWYiIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIj48dHI+PHRkIGFsaWduPSJsZWZ0IiB2YWxpZ249Im1pZGRsZSIgd2lkdGg9IjQ3JSIgaGVpZ2h0PSIyMCI+PHRhYmxlIGhlaWdodD0iMTAiIHdpZHRoPSIxMDAlIiBiZ2NvbG9yPSIjMDAwMDAwIj48dHI+PHRkPjwvdGQ+PC90cj48L3RhYmxlPjwvdGQ+PHRkPsKgPC90ZD48L3RyPjwvdGFibGU+PC90ZD48dGQgc3R5bGU9ImNvbG9yOiAjRkZGRkZGOyI+PHN0cm9uZz40NyU8L3N0cm9uZz48L3RkPjwvdHI+PC90YWJsZT48L3RkPjwvdHI+PHRyIGJnY29sb3I9IiMwMDMzNjYiIGhlaWdodD0iNSI+PHRkIGNvbHNwYW49IjIiPjwvdGQ+PC90cj48dHIgYmdjb2xvcj0iIzAwMzM2NiI+PHRkIGNvbHNwYW49IjIiIGFsaWduPSJjZW50ZXIiIHZhbGlnbj0ibWlkZGxlIj48ZGl2IGFsaWduPSJjZW50ZXIiPjxpbnB1dCB0eXBlPSJzdWJtaXQiIG5hbWU9InN1Ym1pdCIgdmFsdWU9IkZpbGwgaW4geW91ciBhbnN3ZXJzIGFuZCBjbGljayBoZXJlISIgc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+PC9kaXY+PC90ZD48L3RyPjx0ciBiZ2NvbG9yPSIjMDAzMzY2Ij48dGQgY29sc3Bhbj0iMiIgYWxpZ249ImNlbnRlciIgdmFsaWduPSJtaWRkbGUiPjxkaXYgc3R5bGU9ImNvbG9yOiAjRkZGRkZGOyIgYWxpZ249ImNlbnRlciI+VGhpcyA8YSBocmVmPSJodHRwOi8vd3d3LmJsb2dxdWl6Lm5ldC8iIHN0eWxlPSJjb2xvcjogI0ZGRkZGRjsiPkZ1biBRdWl6PC9hPiBjcmVhdGVkIGJ5IDxhIGhyZWY9Imh0dHA6Ly93d3cuYmxvZ3F1aXoubmV0L3VzZXJzL2tlZXNoeV9rZWVuIiBzdHlsZT0iY29sb3I6ICNGRkZGRkY7Ij5LYXRpZTwvYT4gYXQgPHN0cm9uZz5CbG9nUXVpei5OZXQ8L3N0cm9uZz48aW1nIHNyYz0iaHR0cDovLzcwLjg0LjEwMi45MS94L2Jsb2dxdWl6Lm5ldC1ibG9nLzkiIGJvcmRlcj0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSI+PC9kaXY+PC90ZD48L3RyPjwvdGFibGU+PC90ZD48L3RyPjwvdGFibGU+PGEgaHJlZj0iaHR0cDovL3d3dy5kYWlseWhvcm9zY29wZXMuYml6L3Njb3JwaW8vdG9kYXkvIj5TY29ycGlvIEhvcm9zY29wZTwvYT4gYXQgRGFpbHlIb3Jvc2NvcGVzLkJpejwvZm9ybT48YnI+PC9kaXY+Ij5IZXkgSGV5IEhleSE8L2E+"
+"eventtime","2005-06-24 15:38:00"
+"url","http://pinkpenguin3579.livejournal.com/12129.html"
+"userid","11936"
+"itemid","46"
+"event","I am CRAZY~*!  I am HOTT! lol wow i am hyper! I am bored. I just screamed! I am like WHOA! lol I dont no what to type! Austrailia! I am every color crayon in the box! woop! wow i am dumb completely disregard that lol.
+
+I dont no how many ppl read this nemore but i just decided mayb i dont wanna give p on the lj and crap. may b life realy is spiced up when i right about it. hmm give me input yo!~*
+
+Hollah back young'n W00T W00T!
+
+Cambria"
+"eventtime","2005-06-24 15:33:00"
+"current_moodid","106"
+"url","http://pinkpenguin3579.livejournal.com/11776.html"
+"userid","11936"
+"itemid","45"
+"event","OMG ikm talkin to nicoleq and we r like bein hyper yesterday and its taken 15 mintues to just type wut i did cuz i am a slacker.  But im sexy so that makes up for it. i am sooo obred so if u read this call me at 798-8742 or 755-2040 and pleez do it!!! luv ya bunces bye
+
+
+<3 ya all comment if u want me lol or
+ if ur bored
+
+
+Cambria"
+"eventtime","2005-06-10 11:54:00"
+"current_moodid","52"
+"url","http://pinkpenguin3579.livejournal.com/11712.html"
+"userid","11936"
+"itemid","44"
+"event","I am so sad. I miss courtney and Rodney already. Me and Kaley and Whit bawled like forever after school cuz we were sad that they were leaving and now i am just sad schools over.  Why did it have to end like this. the best school year of my life all my friends that r guys are like leaving. they were like brothers to me. Its just my luck.  
+
+I am depressed and alone and until school starts that is all ill ever be.
+
+<3 ya all 
+
+Cambria"
+"eventtime","2005-06-09 13:37:00"
+"current_moodid","9"
+"url","http://pinkpenguin3579.livejournal.com/11346.html"
+"userid","11936"
+"itemid","43"
+"event","lol i just went shopping and 
+
+I <3 Shopping!!!
+
+it is soo fun!  I got shorts and capris and flip flops and another pair of shorts for v-ball camp!
+
+and my bro got a fish before and i ate at Fazolis and for lunch i ate Red Lobster tho i hate fish lol. so basically we ate fish(i didnt) and bout fish! Then we wnt into tanners room and the fish was taking a crap! lol i was like either the fish is a boy or its taken a crap, but it fell off so i hope its not a guy! lol  that would suck!
+
+I ate lots of food today and my brothers got comfy new pillows and they r nice and im gonna have to steal one from them! 
+
+Lot of LOVE!
+
+Cambria"
+"eventtime","2005-06-04 19:58:00"
+"current_moodid","59"
+"url","http://pinkpenguin3579.livejournal.com/11021.html"
+"userid","11936"
+"itemid","42"
+"event","lol caitlins cut lil brother got online and told me all that other crap but its true says cailtin and i was like ok i dont care lol i really dont cuz i am bored i jsut went shopping and snapped at my dad and got in trouble and we got another fish lol then we picked up my sister now i am gonna go to the itunes music stiore and get number 1 spot
+
+tata
+
+Comment 
+
+Cambria"
+"eventtime","2005-06-04 15:28:00"
+"current_moodid","83"
+"url","http://pinkpenguin3579.livejournal.com/10839.html"
+"userid","11936"
+"itemid","41"
+"event","i am bored
+
+and i am gonna go shopping bye!"
+"eventtime","2005-06-04 12:04:00"
+"current_moodid","4"
+"url","http://pinkpenguin3579.livejournal.com/10684.html"
+"userid","11936"
+"itemid","40"
+"event","lol i am cheerful!
+<marquee>Caitlins brother is sooooo cute! 
+
+he was like hiding under the seat in the car cuz he didnt want to talk to me, and he was cute i was like aww its ok but he never said hi only bye lol he loves me jkjk no im not scary like caitlin. lol caitlins mom is cool too! lol wow and caitlins vocabulary was very obese and umm violent it was definantly iffie!
+
+U no u love me so y dont u tell me! COMMENT!
+
+
+<3 ya bunches cambria"
+"eventtime","2005-06-03 21:22:00"
+"current_moodid","125"
+"url","http://pinkpenguin3579.livejournal.com/10412.html"
+"userid","11936"
+"itemid","39"
+"event","hey caitlin is over and she attacked me with a squirt gun.  caitlin won it at michigans adventures lol that was fun the ted duck sso theres ted tedjr.sr. and ted jr and that is a mouthfull. lol i won the squirtgun fight tho so yeah she onl had it for like two seconds and i stole it and her mom was watching it in her car. lol caitlin is deniying it but dont listen to her lol she just cailtin lol ill  let caitlin talk for a moment cuz i am at a loss for words.
+
+
+I'm not really talking, but oh well. haha i can so spell better than cambria!! haha whut now? lol i'm cool....like that....
+
+
+o yes caitlin is a super speller just cuz she takes time to proofread lol o well so im gonna go show caitlin my house since all hse saw is my basement and my slideshow lol 
+
+
+ttyl
+
+bye biotches!!
+
+
+<3 cambria and caitlin"
+"eventtime","2005-06-03 16:48:00"
+"current_moodid","99"
+"url","http://pinkpenguin3579.livejournal.com/10225.html"
+"userid","11936"
+"itemid","38"
+"event","Thinks You Suck!!	chippereveryday
+wants to rob you wile you sleep....	garber1025
+Loves you!! ( how cute )	chippereveryday
+Had sex with your mom	livysmitty3
+Is actually related to you	frencho_lives
+Has hidden cameras all over you house	brutalromance91
+Chance you will kill your freinds
+ 
+81%
+Chance one of your freinds will kill you.
+ 
+59% u will kill one of ur friends"
+"eventtime","2005-06-02 20:55:00"
+"current_moodid","3"
+"url","http://pinkpenguin3579.livejournal.com/9975.html"
+"userid","11936"
+"itemid","37"
+"event","You are...(looks) >
+[] tall 
+[ ] short
+[x ] in between 
+[ x] blonde 
+[ ] redhead 
+[] brunette
+[ x] blue-eyed 
+[] brown-eyed 
+[ ] green-eyed 
+[ ] hazel eyed 
+[ ] gold/gray eyed 
+[] glasses 
+[ ] contacts 
+[x] freckles 
+[x] peircings 
+[ ] tatoos 
+[] long hair 
+[ ] short hair 
+[ x] med hair 
+[ ] braces 
+
+Your favorite color(s) 
+[ x] red 
+[x] pink 
+[x ] yellow 
+[x] black 
+[x ] green 
+[x] blue 
+[ x] white 
+[x ] purple 
+[x ] brown 
+[x ] orange v I LOVE THEM ALL!!!!
+
+Some sports/physical things you LIKE
+[ ] soccer 
+[] cheerleading 
+[x] dancing (durty) lol jk
+[ ] lacrosse 
+[ ] field hockey 
+[ x] hockey 
+[ ] football 
+[] softball 
+[x] swimming
+[ x] volleyball 
+[ ] gymnastics 
+[ x] track/cross country 
+
+Your personality is sometimes... 
+[] annyoing 
+[x] talktive 
+[] shyNEVER!
+[x] funny 
+[] serious 
+[ x] bubbly 
+[x] spazzy 
+[x] fun loving 
+[x] laid back 
+[ ] strict 
+[x] hyper 
+[] weird NEVER! 
+
+The music you like is
+[ x] rap
+[x] rock 
+[x] pop 
+[] country 
+[x ] hiphop 
+[x ] r&b 
+[ x] Christian 
+[ ] classical 
+[x ] techno 
+
+The pets you have are
+[] cat 
+[x] dog 
+[ ] lizard 
+[ ] rat 
+[ ] ferret
+[] rabbit 
+[ x] fish 
+
+Clothes you like to wear are 
+[ ] plain tshirts 
+[x] sweatshirts 
+[ ] stockings 
+[x ] high heels 
+[x] sneakers 
+[x] jeans 
+[x] pj pants 
+[ ] boxers 
+[ ] dresses 
+[x ] mini skirts 
+[ ] long skirts 
+[] watches
+[x] necklace 
+[x] hoop earrings 
+[ ] toe socks 
+[x] flip flops 
+[x] halter tops 
+[x ] stilletos 
+[ ] shorts
+
+How do you like to wear your hair? 
+[x] down 
+[x] ponytail
+[x] pigtails 
+[x] messy bun 
+[ ] half ponytail 
+[ x] scrunched 
+[ ] bun 
+[ ] crimped 
+[ ] with a bandana 
+[ ] French braid 
+[ ] lots of little braids 
+
+Your mostly labeled as
+[ xxxxxxxxxxx] I don't have a clue what i'm labeled as!!!
+[ ] goth
+[ ] emo 
+[] prep 
+[ ] punk 
+[ ] hippie 
+[] nerd 
+
+You eat
+[] dessert every night 
+[ ] no meat 
+[ ] diet stuff 
+[x] healthy foods 
+[x] junk foods 
+[ ] food off the floor 
+
+What do you have in your purse? 
+[ ] I don`t have a purse. 
+[x] gum
+[x] cell phone 
+[x] mints
+[x] hairbrush 
+[x] makeup
+[x] lipgloss 
+[x] chap stick
+[x] cash 
+[x ] credit card 
+[ x] a little dog  lol yeah cuz im fricken like paris hilton ya no
+
+A typical friday night .. 
+[x] mall with your friends 
+[x] partyin!! 
+[x] watching movies 
+[ x] going to the club 
+[ ] staying home alone 
+[ ] babysitting and getting $$ 
+[x] chillin w/ the homies
+
+Currently you are... 
+[ ] in a relationship 
+[ ] single and lovin it 
+[x] crushing 
+[x] single and looking 
+[x ] just broke up lol yeah right i never brok down
+
+Online, you use: 
+[x] lol 
+[ ] sup 
+[ ] =D 
+[x] lmao 
+[ ] stfu 
+[ ] ty 
+[x] jk 
+[x] ttyl 
+[x] lylas 
+[x] g2g 
+[ ] ^.^ 
+[] T_T WUT THE FRICK IS THAT??!?!?!?!
+
+Did you like this survey? 
+[ ] yeah 
+[] no! (it was crunkin' long!)<- -----  caitlin wrote that but here i am to correct her it was frunken long
+[x ] it was ok
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+Lol you all no u love me leave me comments to tell me what i am labeled as lol PLEEEEZ and just tell me something you have never told me before and i will leave you 
+
+1) one thing i love about you
+2) one thing i dislike about you
+3) a song that reminds me of you
+
+
+
+there is that good enough????
+
+
+Lol now heres my faveorite song
+
+
+dont ou wish ur gurlfriend was hott like me?
+dont you wish ur gurlfriend was a freak like me?
+
+
+lol and so on and so forth
+
+If u love me tell me,
+
+
+Cambria the sexiest bitch alive"
+"eventtime","2005-06-02 15:49:00"
+"url","http://pinkpenguin3579.livejournal.com/9653.html"
+"userid","11936"
+"itemid","36"
+"event","omg my computer makes everything seem weird cuz it makes a weird noise. lol i cant spell worth a crap and no one comments in my ljs nemore. thats depressing.  I think im gonna call caitlin and kyle now lol i love those two lol. omg that one show was sooo scary. we were watchin this one show and it was scary and i was like hiding under a blanket in a empty houseoooooo it was scary. but now i m gonna call her so yea bye
+
+
+COMMENT!
+
+
+
+<3 cambria is sooooooo hott!"
+"eventtime","2005-05-26 15:39:00"
+"current_moodid","44"
+"url","http://pinkpenguin3579.livejournal.com/9455.html"
+"userid","11936"
+"itemid","35"
+"event","Hey
+
+
+I am not gonna get to the computer till thursday cuz im gin back to mah moms. Lol i went to open skate and saw jake waalkes and eric block and it was fun lol there were only like 9 ppl there. then wen we were driving hoem me wsaw them g2g bye"
+"eventtime","2005-05-22 18:37:00"
+"current_moodid","3"
+"url","http://pinkpenguin3579.livejournal.com/9090.html"
+"userid","11936"
+"itemid","34"
+"event","Y do my parents always do crap to make me mad????
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fricken insecurities does it seem like i have insecurities?
+
+
+Maybe im not the same that i havealways been but i dont like ppl showing me off so i dont wanna shine.  Well i shine in my own way but just cuz i have sourage and can get up in front of thousands of ppl talk in a southern accent and sing and dance and now my family like brags, makes me wanna b liike no i wont do athat ever again ya no?
+
+
+
+Do i have insecurities?
+
+Be HOnest with the comments!
+
+
+Jesus Loves u (insider)
+
+The insecure,
+
+                                     Cambria"
+"eventtime","2005-05-21 17:40:00"
+"current_moodid","29"
+"url","http://pinkpenguin3579.livejournal.com/8792.html"
+"userid","11936"
+"itemid","33"
+"event","Name a friend for each letter:
+Ali! 
+Bailea
+Caitlin
+DJ
+Erica
+Fred Flinstone
+Gabbie
+Hannah
+I dont no
+John Farrell
+Katrin and Kali
+Livy
+Molly
+Nathan
+Olivia lol sry livy i put u up for L too!
+Patrick
+Q
+Rashard
+Scot
+Tanner
+Ur MOM
+Vincent (lol no clue)
+Whitney
+X to the second power
+your mom
+Zach!"
+"eventtime","2005-05-21 14:52:00"
+"current_moodid","5"
+"url","http://pinkpenguin3579.livejournal.com/8478.html"
+"userid","11936"
+"itemid","32"
+"event","Have you ever ..
+
+[ ]Been kissed
+[*]Lyed to your best friend
+[ ]Dyed your hair
+[ ]Kissed a guy
+[ ]Saw someone naked
+[ ]Picked your nose
+[ ]Sucked on your toes
+[* ]Danced in the rain
+[*]Lyed to your parents
+[ *]Cryed in front of lots of people
+[*]Went barefoot in the snow
+[*]Played hockey
+[ ]Made your own clothes
+[ ]Peed your pants
+
+In the last 24 hours you ..
+
+[ ]Got in a fight
+[*]Took a shower
+[*]Gave someone a dirty look
+[ ]Cried
+[ ]Farted
+[ ]Did a cartwheel
+[ ]Went to school
+[*]Shopped
+[ *]Danced
+[ ]Got sick
+[ ]Did something you regret
+[ ]Ate something gross
+[*]Discovered something new
+
+Right now you are ..
+
+[]In your pj's
+[ ]Drinking
+[*]Listening to music
+[*]Watching a movie
+[*]Im'ing someone
+[ ]Talking on the phone
+[*]Eating"
+"eventtime","2005-05-21 14:35:00"
+"url","http://pinkpenguin3579.livejournal.com/8256.html"
+"userid","11936"
+"itemid","31"
+"event","Hey evryone u need to go to these ones mkay mah friends list is kinda gay right now
+
+www.livejournal.com/users/chippereveryday
+
+www.livejournal.com/users/brutalromance91
+
+mkay byes~
+
+Tayler i already put u under friends i think u all r so i made this cuz i was bored so ya"
+"eventtime","2005-05-20 17:51:00"
+"url","http://pinkpenguin3579.livejournal.com/8160.html"
+"userid","11936"
+"itemid","30"
+"event","OMG lunch was SO the worst! i hated it  lol i was like ""LETS go!"" and u (caitlin) were like okay! because ppl that were like dumb were like scaring me and almost injuring e and being gay and hurting my bestest buddie caitlin and after school Ted pushed her and like swore at her so i am gonna kick him in the balls tomorrow (yeah right but i can dream cant i?) omg he makes me mad and then i cant flirt cuz hes just gross so tomorrow i am gonna sit by kaley so i can flirt lol wow i am bored fer rizzley and i am going to pops in 1 hour 44 minutes and some seconds lol wow
+
+
+Comment about whatever im feeling random!
+
+
+<3 Cambria"
+"eventtime","2005-05-20 17:46:00"
+"current_moodid","67"
+"url","http://pinkpenguin3579.livejournal.com/7707.html"
+"userid","11936"
+"itemid","29"
+"event","I dont like hii no more nope uh uh! so i am happie and i am hapie so that is good!
+
+Me and kaley mah best buddie r gonna go to a v-ball camp probly at ferris lol bulldogs woof woof!!! lol wow i decided ferris cuz its cool lol we'll be dorm buddies!!
+
+OMG i love my friends lol i dont talk about u (that much) lol jkjk only when neccesary
+
+List of current at the top of my head friends:
+
+Bailea
+
+Kaley
+
+Whit
+
+Erin kelly
+
+Abbey
+
+Jessi
+
+Kali
+
+Courtney
+
+Caley
+
+Stacy
+
+Haley 
+
+Mariah (not the one u no)
+
+Caitlin 
+
+Ellen
+
+Kaylee
+
+OMG ALI PAMPA!!!
+
+Mel
+
+Livy 
+
+Kathleen
+
+Erica (Seifert)
+
+Katrin
+
+now these are no specific order just how i put them lol
+
+o and corrinne if u think i hate u i dont lol i am just kinda dumb so everyone thinks that sometimes!  
+
+
+
+
+Leave a comment!!!! (bitches)
+
+
+
+
+<3 ya bunches!!!
+
+
+
+Cambria"
+"eventtime","2005-05-17 16:15:00"
+"current_moodid","120"
+"url","http://pinkpenguin3579.livejournal.com/7627.html"
+"userid","11936"
+"itemid","28"
+"event","<strong><center>Leave me an anonymous comment with:
+
+One secret.
+
+One compliment.
+
+One complaint.
+
+One thing you just wanted to tell me but couldn't.
+
+One quote that reminds you of me.
+
+How long we've been friends.
+
+And a hint to who you are.</center></strong>"
+"eventtime","2005-05-15 15:48:00"
+"url","http://pinkpenguin3579.livejournal.com/7219.html"
+"userid","11936"
+"itemid","27"
+"event","sry that kinda gave off the inpression i was gonna hurt myself well im not im just md ya no o well"
+"eventtime","2005-05-15 14:55:00"
+"url","http://pinkpenguin3579.livejournal.com/7079.html"
+"userid","11936"
+"itemid","26"
+"event","I like him and now i cant have him.  My hole trip was ruined cuz of that and that is no fun at all. i lost my science packet which is crap too. I like him so much but shes got him and he hates me now.  Y id di have to ruin it??? i am really dumb and a dumb blo nde caitlin u r right.  ur luckie caitlin u got al u wanted (i think) i just didnt care that ppl were picking on me in the beginning but then i got nervous like i owuld loose all of my friends and i screwed it up bad. i like him so much now and i dont care wut neone thinks. i cried half the way home from florida but ppl didnt no they just thought i was asleep. i hate me, y do i always have to ruing everything.
+
+be happie w/ him hun.
+
+
+Cambria
+
+
+I cnat tell him tho i dont have guts, i ruined them."
+"eventtime","2005-05-14 20:24:00"
+"current_moodid","9"
+"url","http://pinkpenguin3579.livejournal.com/6875.html"
+"userid","11936"
+"itemid","25"
+"event","Hey sexies!!!! <3
+
+Caitlin is gonna go out with Ted probly lol o well. He hates me. Cool. I am leaving to tomorrow for Florida Heallo yes no more school for a while and i am gonna b cited!!!!!  I am at my g'mas house and listening to my ipod adn it is currently playin give me novacaine by green day but i am gonna change it in a second cuz this one is kinda wierd and i have listened to it szillions of times and i reatared to and i overecxited lol i <3 Green Day! Kaley guess what??... I SKIN!!!!! lol wow i am kinda hyper. lol last track meet we beat them bad... 123 to 22 i think someone told me. lol i felt like crap. we were the retards the ppl in our club are potter(lindsey) and steven (rich) and me lol we r the sexiest beings nown to man and woman for steven lol  but ya no i think i am gon na put this on there and mess iwth my livejournal settings again lol. And i will remember Abbey sigantures and smooshed pennies and ellen wants a postcard lol u only get something if u ask i thikn cuz if i buy all of my friends nething i will have no money for me not like i havent went there zillions of times lol but ya no i told u i was gonna go so bye sexies and retards
+
+Regards,
+
+
+
+<3 Cambria Sobolewski
+
+
+Im not reallyl fo shizzlie crushed
+
+o and i heard that u were talking sh** and u diodnt think that i would here it but i did lol i love that song 
+
+
+THis sh** its bananas B-A-N-A-N-A-S Hey i can spell"
+"eventtime","2005-05-05 18:34:00"
+"current_moodid","129"
+"url","http://pinkpenguin3579.livejournal.com/6438.html"
+"userid","11936"
+"itemid","24"
+"event","IMG_4707.JPG
+IMG_4709.JPG
+IMG_4721.JPG
+IMG_4757.JPG
+IMG_4735.JPG
+IMG_4728.JPG
+IMG_4727.JPG
+IMG_4746.JPG
+IMG_4734.JPG
+IMG_4741.JPG
+IMG_4739.JPG
+IMG_4755.JPG
+IMG_4712.JPG
+IMG_4708.JPG
+IMG_4756.JPG
+IMG_4736.JPG
+IMG_4748.JPG
+IMG_4743.JPG
+IMG_4744.JPG
+IMG_4758.JPG
+IMG_4725.JPG
+IMG_4752.JPG
+IMG_4724.JPG
+IMG_4740.JPG
+IMG_4731.JPG
+IMG_4710.JPG
+IMG_4716.JPG
+IMG_4718.JPG
+IMG_4729.JPG
+IMG_4753.JPG
+IMG_4732.JPG
+IMG_4747.JPG
+IMG_4730.JPG
+IMG_4733.JPG
+IMG_4738.JPG"
+"eventtime","2005-05-04 19:26:00"
+"current_moodid","6"
+"url","http://pinkpenguin3579.livejournal.com/6345.html"
+"userid","11936"
+"itemid","23"
+"event","Lol i wonder what artistic feels like.....
+
+
+I am hyper i only have one day left of school!!!! 
+
+FLorida and i am sooooo excited to go again lol the only thing im worried about is that science project lol oops i just started, but ya no thats mkay
+ 
+I changed my user pic i think lol brb  nvm i cant change it right now, omg i can flirt!!!!! lol i am happie, wow that was random,  Momo and Alex we got a lil joke going on rite now dont we? lol wow we have some good times on the track bus lol.  Today at track someguy was like CAMBRIA and i turnedaround (i was running) and he was like I BELIEVE IN YOU! i was like thanx! and i dont no who it was but it was fun, track was fun today specially singing the barney song lol wow.
+
+I am still laffing momo and alex lol 
+
+
+Is throwing a spit ball at someones but sexual harasment?
+
+Comment
+
+
+<3 cambria"
+"eventtime","2005-05-04 19:08:00"
+"current_moodid","108"
+"url","http://pinkpenguin3579.livejournal.com/6050.html"
+"userid","11936"
+"itemid","22"
+"event","I feel really crappy cuz i read caitlins blog and  that is just depressing. now i am sorry but i just feel like crap and now i am like mad tho and i dot really no wut to do so i am like crying with like 1 hour till my lil b-day party with family and that is not good so have fun while i am trying not to cry
+
+
+<3 u all ; )  Cambria 
+
+
+Comment u no u want to"
+"eventtime","2005-04-24 12:45:00"
+"current_moodid","7"
+"url","http://pinkpenguin3579.livejournal.com/5701.html"
+"userid","11936"
+"itemid","21"
+"event","Im talkin to my homedog cait to the lin as she calls herself and i am bored"
+"eventtime","2005-04-23 20:57:00"
+"url","http://pinkpenguin3579.livejournal.com/5407.html"
+"userid","11936"
+"itemid","20"
+"event","Caitlins not mad at me nemore!!!!"
+"eventtime","2005-04-23 15:18:00"
+"current_moodid","125"
+"url","http://pinkpenguin3579.livejournal.com/5269.html"
+"userid","11936"
+"itemid","19"
+"event","i am trying to do something so i have to write an entry so there"
+"eventtime","2005-04-23 13:31:00"
+"current_moodid","3"
+"url","http://pinkpenguin3579.livejournal.com/4887.html"
+"userid","11936"
+"itemid","18"
+"event","Caitlins pissed at me i now have basically no point in life.  im sry caitlin if i treated u bad and if ur mad at me cuz of my choices or cuz of how blondly dumb i am or if i ever said nething u didnt agree with i am just sry.  i cant change my whole point of living for u though caitlin that is the one thing i wont do for a friend.  SRY.
+
+Mariner Mania was fun. yeah i got down with my bad self but then i have to pull myself back up lol (insider).  and i wouldnt cheat on neone and i wouldnt go out iwth neone i didnt like so thats about it lol 
+
+
+Comment pleez 
+
+<3 CAmbria 
+
+p.s. livy i did put u as friend lol"
+"eventtime","2005-04-23 13:12:00"
+"current_moodid","92"
+"url","http://pinkpenguin3579.livejournal.com/4835.html"
+"userid","11936"
+"itemid","17"
+"event","my love is serious, 
+
+
+u got me seriously out of my mind.
+
+
+
+ this love is serious
+
+
+
+ its got me seriously out of my mind.
+
+
+<3<3<3<3<3<3<3<3<3<3<3<strong>c</strong><3<strong>o</strong><3<strong>m</strong><3<strong>m</strong><3<strong>e</strong><3<strong>n</strong><3<strong>t</strong><3<3<3<3<3<3<3<3<3<3<3<3<3"
+"eventtime","2005-04-10 17:16:00"
+"url","http://pinkpenguin3579.livejournal.com/4465.html"
+"userid","11936"
+"itemid","16"
+"event","I am sooo depressed and it isnt fun
+
+I just decided that i hate sundays cuz they suk and they make me mad. and everything else sux now
+
+bye lovers<3"
+"eventtime","2005-04-10 16:37:00"
+"current_moodid","9"
+"url","http://pinkpenguin3579.livejournal.com/4207.html"
+"userid","11936"
+"itemid","15"
+"event","hey whitney is over and i am gonna let her say a few words
+
+
+
+
+hey ya'll!!! j/k  i'm really bored. we're eating cheeze-its and its a hoot. p.s. greg- ur a fricken gay faggit that wears more girl-type clothes than i do!!!! kiss off!
+
+
+We r having fun,
+
+Luv,
+
+cam and whit
+
+
+comment biotches"
+"eventtime","2005-04-09 15:50:00"
+"current_moodid","67"
+"url","http://pinkpenguin3579.livejournal.com/4026.html"
+"userid","11936"
+"itemid","14"
+"event","hey,                                
+                    hi.  i am like full which never happens.  lol i went to Mangos!  it was realy yummie!!! i had cherrie pepsi and tacos and fries. and it was good. cuz tacos are my favorite food so they r good. i also like beef jerky and pickles but that realy has nothing to do with nething. but here i am talking just cuz i am bored and here you are reading about basically nothing, , because either u r a stalker u r bored or u want to get something against me. No on eis just reading it bcuz they r my firend or actually care they r just there to like not like me or get on my nerves when u get down to the bottom of it i really dont have friends lol 
+
+
+
+comment if u actually care............
+
+
+
+
+
+
+Cambria"
+"eventtime","2005-04-08 18:02:00"
+"current_moodid","59"
+"url","http://pinkpenguin3579.livejournal.com/3799.html"
+"userid","11936"
+"itemid","13"
+"event","U-G-L-Y  whos lj is as ugly as I's (lol how dumb am i?)
+
+My Lj is soooooo ugly if neone nos how to do like cool layouts and not ugly crap then like seriously telll me!!!!!!!!  
+
+
+Comment!!!!! (PLEEZ)
+
+
+
+
+<3<3<3<3<3<3<3<3<3 Cambria"
+"eventtime","2005-04-07 12:54:00"
+"url","http://pinkpenguin3579.livejournal.com/3365.html"
+"userid","11936"
+"itemid","12"
+"event","SEVZISA8Mw0KDQoNCg0KCUkganVzdCBnb3Qgb2ZmIHRoZSBmb25lIHdpdGggV2hpdCAod2hpdG5leSBIb3dlbGwpLiAgT01HIHNoZSBpcyBzb29vbyBhd2Vzb21lIS4gaSB3YXMgcGxheWluZyB0aGUgKnR1cnRsZSBnYW1lKiBvbiBNYXJpbywgYW5kIHNoZSB3YXMgcGxhaW5nIGl3dGggaGVyIHR1cnRsZXMuIGxvbCAgQ0VBUlJlQUxMWSEgR28gcGxheSB1ciB0dXJ0bGUgZ2FtZS4gbG9sIGl0cyBvayB0dXJ0bGVzIGltIGp1c3QgdGFsa2luZyB0byBjYW1icmlhLi4uIFVISCBJIE1FQU4gSU0gTk9UIFRBTEtJTkcgVE8gSEVSISBsb2wgaGF2ZSBmdW4gZWF0aW5nIGEgdG9lIGFuZCB3YXRjaGluZyBhIG1vdmllIGd1cmxmcmllbmQhIGxvbCAgSWYgdSBkb250IGNhbGwgbWUgYnkgMjozMCBpIGFtIGdvbm5hIGNyeS4gbG9sIA0KDQoNClRoZSBMaXN0IE9mIFRoZSBNaXNzZWQNCg0K4oCiCUthTGVZICggdGhlIG1vc3QpDQrigKIJS29yYWwNCuKAoglDYWxleQ0K4oCiCVdoaXRuZXkgKHRob3VnaCBzaGVzIGhlcmUpIGxvbA0K4oCiCVN0YWN5DQrigKIJQWJiZXkgKHNoZSB3b250IHBpY2sgdXAgaGVyIGZvbmUpDQrigKIJRXZlcnlvbmUgZWxzZSBvdXQgdGhlcmUganVzdCBub3QgYXMgbXVjaCENCg0KPDMgTVVDSCEhISEhISBDYW1icmlhPDM="
+"eventtime","2005-04-07 12:52:00"
+"current_moodid","115"
+"url","http://pinkpenguin3579.livejournal.com/3114.html"
+"userid","11936"
+"itemid","11"
+"event","Hey Gurlfriends!
+
+	OMG! i am so fricken hyper and i have nuthing to do. I have benn contained in this house all fricken day! And i wanna do something but i cant. my mom is gonna go balistic when i go to her house cuz i got a c+ lol im gonna like try hard not to laff. my update for the week.  It was actualy quite nice lol.  
+
+
+Monday!: school then after Kaley one of my bestest gurls came over and we were sposed to work on our math prolects but we didnt we just like ate and drove my brother insane.
+
+Tuesday!: nuthing just school yeah thats about it.
+
+Wednesday: late start lol fun but really boring at the same time.
+
+Thursday: Half day party in health lol after me kaley and whit went to arbys met up with keontre and a whole bunch of people and started a food fight. the wierd thing is we started it and we are like the only people that cna come back lol yeah like thats gonna happen. then we went to whits house which explains my last entry lol.
+
+Friday!: kinda boring until fifth hour when i decided that no one would stop me from having kaley over. i took mrs. cargills fone and asked my daddy and talked him into it. we walked to 7-11 first then we walked home which if u no where my dads house is is the opposite of that is is a lil bit past St. Francis. lol we r soooo smart. i luv her lol (like a sister im not a lesbo).  Then she went home lol and i was bored talked to keontre and then i went to bed lol.
+
+Saturday (today) : my bros b-day party!  i even got a present. but it was still boring now my parents went out to eat and im alone ands i wanna do somthing.
+
+
+Happy Easter! i luv you!
+
+
+comment biotches!
+
+
+<3 Cambria"
+"eventtime","2005-03-26 18:51:00"
+"current_moodid","67"
+"url","http://pinkpenguin3579.livejournal.com/2934.html"
+"userid","11936"
+"itemid","10"
+"event","hey 
+
+i havent written forever except i dont have nething to say cept 
+
+solsen is SOOOOOO cute! i luv him but he drools too much! lol im andrea and so r kaley and whit! but wait whos whit? hunting squirrels lol laffing over randomly nuthing tripping over an orange. arbys. we didnt start the food fight. lol keontre caught it! the hair lol i always mix kaley and oreo up cuz oreo likes to hump things.  u have purple on ur boob! lol i luv u girlfriends sooo much lol"
+"eventtime","2005-03-24 19:23:00"
+"url","http://pinkpenguin3579.livejournal.com/2645.html"
+"userid","11936"
+"itemid","9"
+"event","lol i need some friends here is my list for valentines
+
+
+caley
+kaley
+kaleigh
+whit
+courtney
+umm and a little more lol 
+
+tell me if u need a valentine"
+"eventtime","2005-02-12 21:33:00"
+"url","http://pinkpenguin3579.livejournal.com/2387.html"
+"userid","11936"
+"itemid","8"
+"event","wut the heck duz apathetic mean!?
+
+
+mkay my week
+
+Monday no school- stix and pux went shopping
+
+tuesday- school not very much fun abby wasnt there in science and then hunter left and then kristine left and so in science it was 2 empty seats on each side. fun
+
+Wednesday- SNOW DAY! i got 26 bucks lol 26 not 25 26 lol.   i went outside and like froze 2 death. then i went inside and had like four thingies fo hot chocolate.
+
+thursday- School. lol 1st hour we presented our book reports. now how many people think mia hamms cute? (silence) jordan must be asleep today. lol 
+2nd hour- band wut can i say o yeah IT SUCKED! like it always duz ya no from now on im not even gonna include second hour and if i do yell at me PLEEZ!\
+3rd. Choir o yeah i get to learn songs i dont even understand now THATS fun!
+4th hour- Social studies we too a test lol norkus hey if u move ur arm every once in a while can i just galnce over? lol yeah as long as u dont cheat. lol i got the last 2 wrong. wuts up with that!
+5th hour- Math Now this is a bit challenging so ya no. you mite wanna b quiet.
+6fh hour ABBY WAS BACK! but unfortunately hunter was too. but lol the uniboob was funny! i got a SNOWFLAKE!
+
+Homeroom- marc bugging me as usual GOSH! wuts rong with him!>?
+
+
+Now im gonna stay home and b bored!
+
+
+Leave comments! ill give u a dollar!
+
+<3 Cambria!"
+"eventtime","2005-01-20 16:15:00"
+"current_moodid","114"
+"url","http://pinkpenguin3579.livejournal.com/2111.html"
+"userid","11936"
+"itemid","7"
+"event","Im back!
+
+
+OMG Casey that was the BEST concert ever! Im so glad u decided to go! Pastor steve the human beat box! ill give u a dollar! we screamed soooo hard that r throats were raw. Forget toby just SCREW HIM! man he lied and thats not cool. But rachel lampa waved at me and that was awesome her signature is the cutest little thing!  We waited exactly an hour and 4 minutes to get the signature of 5 guys we didnt like no. HE PINCHED UR CHEEKS! lol i eat my weeties, i drink my milk. WE DONT CARE WUT YOU DRINK WE JUST CARE BOUT WUT HE EATS! lol ur the best!
+
+
+Nolan- u win. NOT i so won that one. i am but im not. that was too serious for me i was like bout to cry. too bad lol i could of made u cry but im too nice to do that lol u rock ! we gotta stop talkin sad. :(
+
+
+
+Luv ya <3
+
+
+-Cambria 798-8742 cells off"
+"eventtime","2005-01-17 15:30:00"
+"current_moodid","87"
+"url","http://pinkpenguin3579.livejournal.com/1822.html"
+"userid","11936"
+"itemid","6"
+"event","Lol feeling awake FINALLY!
+
+yesterday  i went to CASEYS we talked about  it forever erica Long was there and lauren called and we were all COME OVER!!! then we called nick l lol nicholas henry! then we watched napolean dynomite when lauren got there we felt like we were wasting our lives lol. GOD! Vote for me and ur wildest dreams will come true! Why dont u just go away and shut up! lol wow we couldnt even watch the whole thing then we washed ericas hair and lauren messed w/ it lol it was fun! then we called greag and it was fun. he doesnt no who i am lol!  Casey u guyz are gonna b SOOOOO cute lol. I new u wanted to go out w/ him i have ESPN! Look Lauren im being NEMO! its emo there casey. lol The best time EVER!
+
+
+
+
+HaPpIe NeW yEaRs!!!!!!!!!!!!!!!  2005"
+"eventtime","2004-12-31 18:36:00"
+"current_moodid","87"
+"url","http://pinkpenguin3579.livejournal.com/1697.html"
+"userid","11936"
+"itemid","5"
+"event","hey!
+
+
+             <strong> saturday-</strong>Christmas!!!! got lots of junk lol ask me at school
+             <strong>sunday-</strong> Chilled hung out not much went on lol SHOPPING!
+              <strong>Monday</strong>- Boring day went to my like 5oth grandma opened presents
+              <strong>tuesday</strong>- stayed home ALONE there was no one on and no one at my house but me i practicaly DIED of boredom
+              <strong>Wednesday</strong>- My DADDIES!  Stix and pux lol fun junk people kept running into me maybe cuz i couldnt stop  casey was supposed to go with me but i couldnt get ahold of her lol talked to erica long and casey lol Erica- ""We r gonna b buddies and hang out maybe TOMORROW! ""  lol didnt casey tell u the plan??? guess not. lol
+                             <strong> thursday</strong>- went to stix and pux ate at fazolis went to the shores championship hockey game they lost 0-3 OUCH! too bad! lol my sisters boyfriend was on that team he got a lil bit mad and the other team was like  ""that will be enough of that! and i was mocking them lol i was like ""WE GOT PLENTY OF TOWELS OVER HEAR FOR U TO WIPE UR EYES ON U WHINERS!!!!!"" LOL it was funnie crap lol now im home i just ate pizza hut and i am ALMOST THERE CASEY!!!! Casey and erica and me r havin a SLEEPOVER lol fun fun fun fun fun.  ERICA IS MY PARENTAL ADVISOR lol she always tells me when i can do stuff but i love her for it lol hahahahaha <3 luv ya erica and casey!!!"
+"eventtime","2004-12-30 17:40:00"
+"current_moodid","4"
+"url","http://pinkpenguin3579.livejournal.com/1340.html"
+"userid","11936"
+"itemid","4"
+"event","Thats lindsey Lohan my Lj is being dumb lol bored....
+
+
+
+
+You're Cady. (pronounce Katie) You are very smart and very trusting. You want nothing more than people to accept you and like you. And as a result you happen to get caught up in a lot of 'mind games' You're very creative and funny. And your job within the clique is comic releif. Be Nice, and Watch Your Back!"
+"eventtime","2004-12-23 16:30:00"
+"current_moodid","35"
+"url","http://pinkpenguin3579.livejournal.com/1079.html"
+"userid","11936"
+"itemid","3"
+"event","hey-
+               Im looking at the presents my dad got for my mom.... Pretty nice lol...
+
+They smell really good too! 
+
+my week..:
+ 
+
+Monday: School School i got to skip Homeroom though (choir practice)
+
+Tuesday: School then I got to skip half of fourth hour and all of fifth and sixth hour! thats SS.   MATH and SCIENCE! lol i kept laughing at the end when people would try to stick the music to my shirt cuz they didn't have it memorized lol.
+
+Wednesday: Mr. L read to us lol HEY ! SRY IF I TALK TOO FAST CUZ I HAD & SHOTS OF PURE CAFFEINE and HE WORKS AT A DINER ITS FUNNY!!! lol wow 4th fifth and part of 6th hour i watched x-mas carol. 6th hour My secret santa was Chris Norkus lol i got a scarf. lol too bad i Eric didn't get me i would of got fuzzie slippers...DARN! lol (insider)
+
+Thursday: TODAY! i woke up and then turned on a dvd on my computer and the weather channel on my tv and went back to bed.  I woke up my mom came home. She was sick and mad lol had to clean the house she left came back told me to take a shower then left again and my dad picked me up we went to the health hut and then home he stayed for like 2 minutes then i had to watch my brother he will be nice to u if u tell him to or give him candie but it works better if u tell him to because if u give him candy he wont because hes hopped up on caffeine like Mr. L lol.  Now on the computer lol bored wanna go shopping but it will be busy and i will like it but then i wont cuz ill get a headache then i will need medicine and bedrest lol  im too amused with the computer to do that  lol .
+
+Friday: CHRISTMAS EVE!!!!!  I will wakee up at my dads then be really quiet so my brother duznt wake up so i dont have to watch him my step mommie will come home at noon and take me to my granmas house and its like pimped up in their basement so we r havin a party down there and opening presents and watching dodgeball and like 7 other movies.....    then i will go home and turn on a christmas movie and another one on my computer and D      R       I      F     T.......
+
+
+Saturday:  CHRISTMAS!!!!!!!!!!!!!!!! AAAAAAAAAAAAAAAAAHHHHHHHHHHHHHH!!!!!!!!!!      
+Presents candie toys CLOTHES no really i like clothes MY FLIPFLOP CHARM SIMS BUSTIN OUT! i only and guessing cuz my presents are under the tree lol...... i cant guess what else though lol cuz i dunno heeheehee that didnt make sense then we will have like this HUGE bash thing at my house when all my family comes (perfect opportunity to get fat) then its over and i go to my dads and open presents then the next day i go to jims moms house and open presents then i go sledding lol  like the rest of the time lol and sleep lol CHRISTMAS...
+
+
+
+
+I love the holidays...
+
+
+Cambria"
+"eventtime","2004-12-23 15:54:00"
+"current_moodid","44"
+"url","http://pinkpenguin3579.livejournal.com/789.html"
+"userid","11936"
+"itemid","2"
+"event","bored lol STACY STACY CAMBRIA CAMBRAI lol REALLY HYPER TOO HAHAHAHAHAHAHAHAH lol bye hi cori!"
+"eventtime","2004-11-04 16:22:00"
+"current_moodid","130"
+"url","http://pinkpenguin3579.livejournal.com/761.html"
+"userid","11936"
+"itemid","1"
+"event","lol i just made this.  HAppy halloween! tommorrow im dressing up as drum roll pLEES......
+
+
+
+
+
+
+Britney spearslol boredand itred lol
+
+
+
+
+
+
+member when being britney spears was cool? lol"
+"eventtime","2004-10-28 17:18:00"
+"current_moodid","99"
+"url","http://pinkpenguin3579.livejournal.com/436.html"
+"userid","11936"

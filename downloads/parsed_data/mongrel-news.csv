@@ -1,0 +1,208 @@
+"names","values"
+"itemid","9"
+"event","again there are some more new exe's in the link previously posted.
+
+the three new ones are debug versions from today 7-5-04
+at 15:25 and 16:30 and an up-to-date release build from 16:30.
+
+16:30r has the following properties:
+
+
+cheat option added: paralye all/none of the enemies
+cheat option added: allow/disallow enemy attacks
+
+game feature added: wear armor - but strength is not yet calculated into it, and armor is yet to be a factor
+game feature added: ready weapon - but agility is not calculated into it yet
+game feature added: ready spell - but spells are not yet in the game
+game feature added: yell
+game feature added: ""old school"" directionals to mimic the C64 if desired  NESW ['/; or :{""?
+game feature added: quit game in in-game menus actually quits now, either to quit menu or to main menu depending on safe quit mode state
+game feature added: safe quit mode on/off options added to game menus"
+"eventtime","2004-07-05 16:36:00"
+"current_moodid","90"
+"url","http://mongrel-news.livejournal.com/2318.html"
+"userid","10306"
+"itemid","8"
+"event","http://www.mangcentral.com/Adam/Mongrel/NewerExecutables/
+
+New Mongrel files available above.
+thanks."
+"eventtime","2004-07-05 01:37:00"
+"current_moodid","90"
+"url","http://mongrel-news.livejournal.com/2102.html"
+"userid","10306"
+"itemid","7"
+"event","Update in progress! I actually remembered my password. First try.
+
+Rock out with your cock out.
+
+Ok mates, there've been some changes in this game. Or maybe not so much changes as general additions. What all?
+
+1) A cheat option has been added to toggle between allowing and disallowing the generation of Enemies. This is more of a debug thing, maybe, but it's wicked awesome all the same.
+
+2) When you attack an enemy the red damage X shows up on them like it ought to. (Awesome)
+
+3) The Race Gender Level Class and Name strings appear in the character generator and in the game play again. (Finally)
+
+4) Wear Armor, Ready Weapon, and Ready Magic Spell are well into development now, which is good.
+
+Not bad for an hour and a half's work.
+
+Ehh... the down side to this is that the code is a little bit fishy. Not particularly what I worked on yesterday, but more the way I have sort of Ad-hoc'd my way through from a few months into this project. The class structures are strange, and there's sort of an all-powerful main program running the show. Well... To my credit, I've been doing this whole thing alone, and The program is far more complicated than you might think if you just simply play it (or its predecessor Ultima ][ even). There's all the functionality of Ultima 2 that I've got to worry about, plus I've got the module ability to think of, and with all that I've gotta think about file structures aplenty. I'm actually quite surprised I haven't sussed it all up again yet.
+
+Recommendations for the future, or for those who wish to remake something like this again: Plan... Plan... Plan! I did a fair amount of planning, and things are still messy. I blame a lot of this on not being able to work on it as much as I should've. That goes back about a year and a half now. I started slacking around January `O3. Ehhh.
+
+I'd say that's about enough for this bloody update.
+
+I hope I'm keeping you fans salivating.
+
+I'll upload the new versions of stuff when I get some time and have finished the wear/ready functions and added a couple other things.
+
+Ciao"
+"eventtime","2004-07-04 12:04:00"
+"current_moodid","15"
+"url","http://mongrel-news.livejournal.com/2020.html"
+"userid","10306"
+"itemid","6"
+"event","That's right, kids.
+The new version of Mongrel should be around soon.
+
+<b>changes in the new one will include:</b>
+<ul>
+<li>Mongrel will now use TileSet (.tset) files rather than scores of little .mtl files
+<li>Custom Modules will be allowed in addition to the default (which doesn't exactly mean anything yet)
+<li>The Mongrel program will start to a title screen, rather than right into the game (It'll make sense, I promise)
+<li>There'll be title screens and a credits screen (or animation)
+<li>There MIGHT be an intro.
+</ul>
+
+Now we're also thinking that we'll have a way to user-specify the title and credits screen, as well as a user specified
+intro animation.This isn't going to be happening for the upcoming release, but it might be in the one right after that.
+we don't know, and we're certainly not promising anything. It'd be so damn cool if we did it that way though.
+
+So Yeah!"
+"eventtime","2004-01-03 02:06:00"
+"current_moodid","59"
+"url","http://mongrel-news.livejournal.com/1727.html"
+"userid","10306"
+"itemid","5"
+"event","<a href=""http://mongrel.mangcentral.com/"" title=""holy heck!""  target=""_blank"">MONGREL homesite</a>
+
+Whoop! There it is."
+"eventtime","2003-12-31 02:22:00"
+"current_moodid","31"
+"url","http://mongrel-news.livejournal.com/1283.html"
+"userid","10306"
+"itemid","4"
+"event","Yeah.
+
+I uploaded a couple of the utilities, along with their source code.
+No, I didn't bother making them all swank by giving them icons or anything.
+In fact, the Backward Compatibility Decryptor/Set Builder tool is a DOS commandline program.
+
+What's there:
+
+<b>Tile Editor</b><blockquote>
+This program creates and modifies Mongrel TileSet (*.tset) files for use in later versions of Mongrel.
+A slick little selection dialog (thanks, Windows API) provides the user with easy file creation and selection methods.
+Much of the rest is self-explanatory, or can be read about in the program's About Message Box (in the Help menu).
+
+But I guess I better explain the menu commands a little here.
+<i>SET MENU</i>
+<b>Open</b> - opens a tileset file in pretty much any directory to which the user may navigate.
+<b>Save All</b> - writes over the current file with the TileSet structure behind the application.
+<b>Revert All</b> - restores all the data from the current file into the TileSet structure, back to the most recent Save All call.
+<b>Exit</b> - if you need this explained, you might also consider having your head examined.
+
+<i>TILE MENU</i>
+<b>Save</b> - writes the currently open individual tile data into the TileSet structure, replacing the proper tile in the set.
+<b>Revert</b> - restores the current tile data from the TileSet structure, back to the last Save or Save All call.
+<b>(blank)</b> - only a separator to make things more aesthetically pleasing.
+<b>Items in Numbered Popup Menus</b> - Switch the current tile data to a new tile, without saving first.
+
+<i>HELP MENU</i>
+<b>About...</b> - provides some potentially useful information about Mongrel Tile Editor v2.0  (MongSet v1.0), 
+which is basically this description but condensed.</blockquote>
+<b>Decryptor/Set Builder</b><blockquote>
+In the end, this program takes whole directories of .mtl files which the old tile editors generate and makes a .tset file out of them.
+Before any conversion of this sort can be done, however, the existing files are decoded into numeric-only form, so if you had
+67 encrypted files, you'll now have 67 numeric-olny files, which will take up 4 to 6 times the space, and a .tset file which may be
+manipulated by the new TileSet editor.</blockquote>
+<br>
+That was enlightening. Eventually, I plan to make a program that will convert .tset files into separate .mtl files also. It'll be nice for
+use until I get my crap together and rebuild Mongrel's source code to accept the TileSet files rather than the far more cumbersome
+.mtl files.
+<br>
+I think that Noah may actually be able to handle the acceptance of .tset files, so I may give him that task, but then I'll probably
+have to brain storm as to what can be done to Mongrel and when. The code has gotten somewhat contrived as I've been
+programming it on the fly when I've had both the time and motivation. It needs to be cleaned up a bit. Some global data needs
+to either be made local, be eliminated, or be grouped into some sort of helper/wrapper class.
+<br>
+I also need to rewrite the so-called map editor that none of you Sods has probably seen, because I lost the code for it.
+Pretty soon, I guess I'll put up the executables for the old versions of the (single .mtl) tile editor and the map editor.
+My work may take a while, but I refuse to say that it'll never be done.
+<br>
+Weeeeeeeeee. With all that in mind, anyone want to beta-test?
+<br>
+<br>
+nighty-bitey. smootchie bootches,<br>
+Adam"
+"eventtime","2003-12-31 02:20:00"
+"url","http://mongrel-news.livejournal.com/1080.html"
+"userid","10306"
+"itemid","3"
+"event","So I got the password this journal, so now I can wreak havoc, and maybe post some usefull stuff about Mongrel as well. I started looking through the code the tile editor today. Maybe I'll be able to do some coding soon. Hopefully things don't get too nuts when class starts. 
+
+Anyway, Mongrel is about to rock!
+
+
+Nerdfully yours,
+Noah"
+"eventtime","2003-12-30 15:05:00"
+"current_moodid","10"
+"url","http://mongrel-news.livejournal.com/840.html"
+"userid","10306"
+"itemid","2"
+"event","Ok, so I gave monsieur noah the password to this journal.
+
+Well you know that church song, ""They'll know we are Christians by our love""?
+It sounds like an American Indian song or something. Well you will know us by
+our pictures. So if you see a Noah, then it's him, and if you see a Me, then it's
+me. And if we don't want to you, then we'll use a mace like I did the first time I
+posted. Get it? Ok then. We look forward to serious productivity.
+
+Crapfully yours,
+
+Adam"
+"eventtime","2003-12-29 15:10:00"
+"current_moodid","5"
+"url","http://mongrel-news.livejournal.com/623.html"
+"userid","10306"
+"itemid","1"
+"event","Something like that.
+
+This weekend I re-wrote the tile editor. It still needs work, but I'm sure it'll be wonderful soon.
+The file selection thing goes apeshit sometimes though. I'm starting think maybe I should just write
+my own file selection dialog like we have for STAFFS out at Wright Patt.
+
+I think maybe some of the stuff I've got for copying arrays (and therefore tiles on the whole) might
+be a bit contrived. At least the save function is jacked up, and I need to add menu items for all of
+the available tiles. At the present, there's only a switch option for three of the 67 (soon to be 70)
+available tile types, so obviously, that's the suck.
+
+I expect I'll probably have most of the Tile Editor stuff completed and available on the net by 
+Wednesday. Map Editor stuff will follow soon after (It'll be based off the same code, at first). Then
+a little while down the road, once I've got all of the Transaction types finished and the program is
+modified to use the new tile and map collection files, I'll post a new version of mongrel.
+
+Tonight, I'll post the old versions of the tile and map editors. They still work with the old versions
+of Mongrel avaialable at http://mongrel.mangcentral.com/
+
+Hey, also... Add me as a friend if you want to. As always, if you want to join in on Beta testing or
+if you want to join me in coding, give me a shout. Thanks to Noah for asking to do both. Rock power.
+
+End communication."
+"eventtime","2003-12-29 09:14:00"
+"current_moodid","90"
+"url","http://mongrel-news.livejournal.com/500.html"
+"userid","10306"

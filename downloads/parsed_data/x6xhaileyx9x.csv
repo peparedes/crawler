@@ -1,0 +1,2506 @@
+"names","values"
+"itemid","44"
+"event","PFA+PFNUUk9ORz48Rk9OVCBjb2xvcj0jZmZmZmZmIHNpemU9MT5XaHknZCB5b3UgaGF2ZSB0byBnbyBhbmQgbGVhdmUgbWUgbGlrZSB0aGF0Li48L0ZPTlQ+PC9TVFJPTkc+PC9QPg0KPFA+PEZPTlQgY29sb3I9IzMzMzNmZj48Rk9OVCBzaXplPTE+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7PC9GT05UPjxTVFJPTkc+PEZPTlQgc2l6ZT0xPkxlYXZlIG1lIGhlcmUgd2FpdGluZyBmb3IgeW91IHRvIGNvbWUgYmFjay4uPC9GT05UPiA8L1NUUk9ORz48L0ZPTlQ+PC9QPg0KPFA+PFNUUk9ORz48Rk9OVCBjb2xvcj0jZmZmZmZmPjwvRk9OVD48L1NUUk9ORz4mbmJzcDs8L1A+DQo8UD48U1RST05HPjxGT05UIGNvbG9yPSNmZmZmZmY+PC9GT05UPjwvU1RST05HPiZuYnNwOzwvUD4NCjxQPjxBIGNsYXNzPU5vVW5kZXIgb25tb3VzZW92ZXI9IndpbmRvdy5zdGF0dXM9JyAnOyByZXR1cm4gdHJ1ZSIgb25tb3VzZW91dD0id2luZG93LnN0YXR1cz0nICc7IHJldHVybiB0cnVlIiBocmVmPSJodHRwOi8vd3d3Lmx5cmljc29uZGVtYW5kLmNvbS9nL2dyZWVuZGF5bHlyaWNzL2luZGV4Lmh0bWwiPjxGT05UIGNvbG9yPSNmZmZmZmYgc2l6ZT02PkdyZWVuIERheSBMeXJpY3M8L0ZPTlQ+PC9BPjwvUD4NCjxQPjxGT05UIGZhY2U9VmVyZGFuYSBzaXplPTQ+PEEgY2xhc3M9Tm9VbmRlclBsYWluIG9ubW91c2VvdmVyPSJ3aW5kb3cuc3RhdHVzPScgJzsgcmV0dXJuIHRydWUiIG9ubW91c2VvdXQ9IndpbmRvdy5zdGF0dXM9JyAnOyByZXR1cm4gdHJ1ZSIgaHJlZj0iaHR0cDovL3d3dy5seXJpY3NvbmRlbWFuZC5jb20vZy9ncmVlbmRheWx5cmljcy9jbG9zaW5ndGltZWx5cmljcy5odG1sIj48Rk9OVCBjb2xvcj0jMzMzM2ZmPkNsb3NpbmcgVGltZSBMeXJpY3M8L0ZPTlQ+PC9BPjxCUj48L0ZPTlQ+PC9QPjxGT05UIGZhY2U9VmVyZGFuYSBzaXplPTI+DQo8UD48QlI+PFNUUk9ORz48Rk9OVCBjb2xvcj0jZmZmZmZmPkNsb3NpbmcgdGltZS4uPEJSPk9wZW4gYWxsIHRoZSBkb29ycyBhbmQgbGV0IHlvdSBvdXQgaW50byB0aGUgd29ybGQuLjxCUj5DbG9zaW5nIHRpbWUuLjxCUj5UdXJuIGFsbCBvZiB0aGUgbGlnaHRzIG9uIG92ZXIgZXZlcnkgYm95IGFuZCBldmVyeSBnaXJsLi48QlI+Q2xvc2luZyB0aW1lLi48QlI+T25lIGxhc3QgY2FsbCBmb3IgYWxjb2hvbCBzbyBmaW5pc2ggeW91ciB3aGlza3kgb3IgYmVlci4uPEJSPkNsb3NpbmcgdGltZS4uPEJSPllvdSBkb27igJl0IGhhdmUgdG8gZ28gaG9tZSBidXQgeW91IGNhbuKAmXQgc3RheSBoZXJlLi48QlI+PC9GT05UPjxCUj48L1NUUk9ORz48U1RST05HPjxGT05UIGNvbG9yPSMzMzMzZmY+SSBrbm93IHdobyBJIHdhbnQgdG8gdGFrZSBtZSBob21lLi4gKDN4KTxCUj5UYWtlIG1lIGhvbWUuLjxCUj48L0ZPTlQ+PEJSPjwvU1RST05HPjxTVFJPTkc+PEZPTlQgY29sb3I9I2ZmZmZmZj5DbG9zaW5nIHRpbWUuLiA8QlI+VGltZSBmb3IgeW91IHRvIGdvIG91dCB0byB0aGUgcGxhY2VzIHlvdSB3aWxsIGJlIGZyb20uLjxCUj5DbG9zaW5nIHRpbWUuLjxCUj5UaGlzIHJvb20gd29u4oCZdCBiZSBvcGVuIHRpbGwgeW91ciBicm90aGVycyBvciB5b3VyIHNpc3RlcnMgY29tZS4uPEJSPlNvIGdhdGhlciB1cCB5b3VyIGphY2tldHMuLjxCUj5Nb3ZlIGluIHRvIHRoZSBleGl0cy4uPEJSPkkgaG9wZSB5b3UgaGF2ZSBmb3VuZCBhIGZyaWVuZC4uPEJSPkNsb3NpbmcgdGltZS4uPEJSPkV2ZXJ5IG5ldyBiZWdpbm5pbmcgY29tZXMgZnJvbSBzb21lIG90aGVyIGJlZ2lubmluZ3MgZW5kLi48L0ZPTlQ+PEJSPjxCUj48L1NUUk9ORz48U1RST05HPjxGT05UIGNvbG9yPSMzMzMzZmY+SSBrbm93IHdobyBJIHdhbnQgdG8gdGFrZSBtZSBob21lLi4gKDN4KTxCUj5UYWtlIG1lIGhvbWUuLjwvRk9OVD48QlI+PEJSPjwvU1RST05HPjxTVFJPTkc+PEZPTlQgY29sb3I9I2ZmZmZmZj5DbG9zaW5nIHRpbWUuLjxCUj5UaW1lIGZvciB5b3UgdG8gZ28gb3V0IHRvIHRoZSBwbGFjZXMgeW91IHdpbGwgYmUgZnJvbS4uPC9GT05UPjxCUj48QlI+PC9TVFJPTkc+PFNUUk9ORz48Rk9OVCBjb2xvcj0jMzMzM2ZmPkkga25vdyB3aG8gSSB3YW50IHRvIHRha2UgbWUgaG9tZS4uICgzeCk8QlI+VGFrZSBtZSBob21lLi48L0ZPTlQ+PEJSPjxCUj48L1NUUk9ORz48U1RST05HPjxGT05UIGNvbG9yPSNmZmZmZmY+SSBrbm93IHdobyBJIHdhbnQgdG8gdGFrZSBtZSBob21lLi4gKDN4KTxCUj5UYWtlIG1lIGhvbWUuLjwvRk9OVD48QlI+PEJSPjwvU1RST05HPjxGT05UIGNvbG9yPSMzMzMzZmY+PFNUUk9ORz5DbG9zaW5nIHRpbWUuLjxCUj5FdmVyeSBuZXcgYmVnaW5uaW5nIGNvbWVzIGZyb20gc29tZSBvdGhlciBiZWdpbm5pbmdzIGVuZC4uIDwvU1RST05HPjwvRk9OVD48L1A+DQo8UD48Rk9OVCBjb2xvcj0jMzMzM2ZmPjwvRk9OVD4mbmJzcDs8L1A+DQo8UD48Rk9OVCBjb2xvcj0jMzMzM2ZmPjwvRk9OVD4mbmJzcDs8L1A+DQo8UD48Rk9OVCBjb2xvcj0jMzMzM2ZmPjwvRk9OVD4mbmJzcDs8L1A+DQo8UD4mbmJzcDs8L1A+DQo8UD48Rk9OVCBjb2xvcj0jZmZmZmZmIHNpemU9Nz4mbHQ7PEZPTlQgY29sb3I9IzMzMzNmZj4vPC9GT05UPjM8L0ZPTlQ+PC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+PEZPTlQgc2l6ZT0xPjxVPjxGT05UIGNvbG9yPSNmZmZmZmY+TG92ZSwgPC9GT05UPjxGT05UIGNvbG9yPSMzMzMzZmY+SGFpbGVuY2U8L0ZPTlQ+PC9VPjwvRk9OVD48L1A+DQo8UD48QlI+PC9QPjwvRk9OVD4="
+"eventtime","2005-01-27 16:12:00"
+"current_moodid","7"
+"url","http://x6xhaileyx9x.livejournal.com/11500.html"
+"userid","17093"
+"itemid","43"
+"event","<P><EM><FONT color=#cc33cc size=4>Grounded.. Fer the whole Nicole thing.. Then signing my report card.. Haveing one bad grade.. Haveing whitie over.. Fighting with my mom.. Throughing something at her.. and prolly more..&nbsp;Parents are Gay! </FONT></EM></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P><FONT color=#cc33cc size=4>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt; TEXT-ALIGN: center"" align=center><B><SPAN style=""FONT-SIZE: 18pt; COLOR: black; FONT-FAMILY: Verdana""><A href=""http://www.lyricsondemand.com/a/ashleesimpsonlyrics/index.html""><SPAN style=""COLOR: #a6b4e8; TEXT-DECORATION: none; mso-bidi-font-size: 12.0pt; text-underline: none""><FONT color=#c0c0c0><EM>Ashlee Simpson Lyrics</EM></FONT></SPAN></A></SPAN></B><SPAN style=""FONT-SIZE: 18pt; COLOR: black; FONT-FAMILY: Verdana""><?xml:namespace prefix = o ns = ""urn:schemas-microsoft-com:office:office"" /><o:p></o:p></SPAN></P>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt; TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"" align=center><SPAN style=""FONT-SIZE: 13.5pt; COLOR: black; FONT-FAMILY: Verdana""><A href=""http://www.lyricsondemand.com/a/ashleesimpsonlyrics/lalalyrics.html""><B><SPAN style=""COLOR: black; TEXT-DECORATION: none; mso-bidi-font-size: 12.0pt; text-underline: none""><FONT color=#cc33cc><EM>La La Lyrics</EM></FONT></SPAN></B></A></SPAN><SPAN style=""FONT-SIZE: 18pt; COLOR: black; FONT-FAMILY: Verdana""><o:p></o:p></SPAN></P>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt; TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"" align=center><SPAN style=""FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana""><BR><EM><FONT color=#c0c0c0>You can dress me up diamonds..<BR>You can dress me up in dirt..<BR>You can throw me like a line-man..<BR>I like it better when it hurts..<BR></FONT><BR></EM><EM><FONT color=#cc33cc>Oh, I have waited here for you..<BR>I have waited..</FONT><BR><BR></EM><EM><FONT color=#c0c0c0>You make me wanna la la..<BR>in the kitchen on the floor..<BR>I'll be a french maid..<BR>When I meet you at the door..<BR>I'm like an alley cat..<BR>Drink the milk up, I want more..<BR>You make me wanna..<BR>You make me wanna scream..</FONT><BR><BR></EM><EM><FONT color=#cc33cc>You can meet me on an aero-plane..<BR>Or in the back of the bus..<BR>You can throw me like a boomerang..<BR>I'll come back and beat you up..</FONT><BR><BR></EM><EM><FONT color=#c0c0c0>Oh, I have waited here for you..<BR>Dont, keep me waiting..<BR></FONT><BR></EM><EM><FONT color=#cc33cc>You make me wanna la la..<BR>in the kitchen on the floor..<BR>I'll be a french maid..<BR>When I meet you at the door..<BR>I'm like an alley cat..<BR>Drink the milk up, I want more..<BR>You make me wanna..<BR></FONT><BR></EM><EM><FONT color=#c0c0c0>You make me wanna la la..<BR>in the kitchen on the floor..<BR>I'll be a french maid.. <BR>When I meet you at the door..<BR>I'm like an alley cat..<BR>Drink the milk up, I want more..<BR>You make me wanna..<BR>You make me wanna scream..<BR></FONT><BR></EM><EM><FONT color=#cc33cc>I feel safe with you..<BR>I can be myself tonight.. <BR>It's alright, with you..<BR>Cuz you hold, my secrets tight.. <BR>You do, You do..</FONT><BR><BR></EM><EM><FONT color=#c0c0c0>You make me wanna la la, la la la, la la, la la la la la la la la la..<BR>You make me wana la la, la la la la..</FONT><BR><BR></EM><EM><FONT color=#cc33cc>You make me wanna la la..<BR>in the kitchen on the floor..<BR>I'll be a french maid..<BR>When I meet you at the door..<BR>I'm like an alley cat..<BR>Drink the milk up, I want more..<BR>You make me wanna..<BR>You make me wanna la la..<BR>in the kitchen on the floor..<BR>I'll be a french maid.. <BR>When I meet you at the door..<BR>I'm like an alley cat..<BR>Drink the milk up, I want more..<BR>You make me wanna..<BR>You make me wanna scream..<BR></FONT><BR></EM><FONT color=#c0c0c0><EM>You make me wanna la la, la la la, la la, la la la la la la la la la..<BR>You make me wana la la, la la la la..<BR>You make me wanna la la, la la la, la la, la la la la la la la la la..<BR>You make me wana la la, la la la la..<BR>You make me wanna la la, la la la, la la, la la la la la la la la la..<BR>You make me wana la la, la la la la..</EM></FONT></SPAN><SPAN style=""FONT-SIZE: 18pt; COLOR: black; FONT-FAMILY: Verdana""><o:p></o:p></SPAN></P>
+<P></FONT>&nbsp;</P>
+<P><EM><FONT color=#cc33cc size=4></FONT></EM>&nbsp;</P>
+<P><EM><FONT color=#cc33cc size=4></FONT></EM>&nbsp;</P>
+<P><EM><FONT color=#cc33cc size=4></FONT></EM>&nbsp;</P>
+<P><EM><FONT color=#cc33cc size=4></FONT></EM>&nbsp;</P>
+<P><EM><FONT color=#cc33cc size=4></FONT></EM>&nbsp;</P>
+<P><EM><FONT color=#cc33cc size=4>I hate it when you say sweet things.. That make me wanna stay with you forever.. </FONT></EM></P>
+<P><EM><FONT color=#cc33cc size=4></FONT></EM>&nbsp;</P>
+<P><EM><FONT color=#999999 size=4>Picking fights with you.. Is just another way fer me to make sure your<FONT color=#999999> mine.. </FONT></FONT></EM></P>
+<P><EM><FONT color=#999999 size=4></FONT></EM>&nbsp;</P>
+<P><EM><FONT color=#cc33cc size=4>Just once I want to fall in love and not have it hurt so bad in the end..</FONT></EM></P><EM><FONT color=#cc33cc size=4></FONT></EM><EM><FONT color=#c0c0c0 size=7>
+<P><BR>&lt;<FONT color=#cc33cc>3</FONT>3 <FONT color=#cc33cc>M</FONT>a<FONT color=#cc33cc>d</FONT>i<FONT color=#cc33cc>s</FONT>o<FONT color=#cc33cc>n</FONT></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><FONT color=#999999 size=2><STRONG>love&lt;/3 </STRONG></FONT></P>
+<P><FONT color=#999999 size=2><STRONG>Hailence</STRONG></FONT><BR></P></FONT></EM>
+<P><EM><FONT color=#cc33cc size=4></FONT></EM>&nbsp;</P>
+<P><EM><FONT color=#cc33cc size=4></FONT></EM>&nbsp;</P>"
+"eventtime","2005-01-14 13:55:00"
+"current_moodid","117"
+"url","http://x6xhaileyx9x.livejournal.com/11251.html"
+"userid","17093"
+"itemid","42"
+"event","<P><FONT color=#33ccff size=7>I hate you!</FONT></P>
+<P><FONT color=#33ccff size=7></FONT>&nbsp;</P>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt; TEXT-ALIGN: center"" align=center><B><SPAN style=""FONT-SIZE: 18pt; COLOR: black; FONT-FAMILY: Verdana""><A href=""http://www.lyricsondemand.com/p/paparoachlyrics/index.html""><SPAN style=""COLOR: #a6b4e8; TEXT-DECORATION: none; mso-bidi-font-size: 12.0pt; text-underline: none""><FONT color=#ffcccc>Papa Roach Lyrics</FONT></SPAN></A></SPAN></B><SPAN style=""FONT-SIZE: 18pt; COLOR: black; FONT-FAMILY: Verdana""><?xml:namespace prefix = o ns = ""urn:schemas-microsoft-com:office:office"" /><o:p></o:p></SPAN></P>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt; TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"" align=center><SPAN style=""FONT-SIZE: 13.5pt; COLOR: black; FONT-FAMILY: Verdana""><A href=""http://www.lyricsondemand.com/p/paparoachlyrics/scarslyrics.html""><B><SPAN style=""COLOR: black; TEXT-DECORATION: none; mso-bidi-font-size: 12.0pt; text-underline: none""><FONT color=#33ccff>Scars Lyrics</FONT></SPAN></B></A></SPAN><SPAN style=""FONT-SIZE: 18pt; COLOR: black; FONT-FAMILY: Verdana""><o:p></o:p></SPAN></P><SPAN style=""FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana"">
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt; TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"" align=center><BR><FONT color=#ffcccc><STRONG><I>[Chorus:]</I><BR>I tear my heart open, I sow myself shut.. <BR>My weakness is that I care too much.. <BR>My scars remind me that the past is real.. <BR>I tear my heart open just to feel.. <BR></STRONG></FONT><BR><FONT color=#33ccff><STRONG>Drunk and I'm feeling down.. <BR>And I just wanna be alone.. <BR>I'm pissed cause you came around.. <BR>Why don't you just go home.. <BR>Cause you channel all your pain..<BR>And I can't help to fix myself.. <BR>Your making me insane.. <BR>All I can say is.. <BR><BR><I>[Chorus]</I><BR></STRONG></FONT><BR><FONT color=#ffcccc><STRONG>I tried to help you once.. <BR>A kiss will only vise.. <BR>I saw you going down.. <BR>But you never realized.. <BR>That your drowning in the water.. <BR>So I offered you my hand.. <BR>Compassions in my nature.. <BR>Tonight is our last dance.. <BR><BR><I>[Chorus]</I><BR></STRONG></FONT><BR><FONT color=#33ccff><STRONG>I'm drunk and I'm feeling down..<BR>And I just wanna be alone.. <BR>You shouldn't ever came around.. <BR>Why don't you just go home? <BR>Cause your drowning in the water.. <BR>And I tried to grab your hand.. <BR>And I left my heart open.. <BR>But you didn't understand.. <BR>But you didn't understand.. <BR>You fix yourself.. <BR></STRONG></FONT><BR><FONT color=#ffcccc><STRONG>I can't help you fix yourself.. <BR>But at least I can say I tried.. <BR>I'm sorry but I gotta move on with my own life.. <BR>I can't help you fix yourself.. <BR>But at least I can say I tried.. <BR>I'm sorry but I gotta move on with my own life.. <BR><BR><I>[Chorus x2]</I></STRONG></FONT></P>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt; TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"" align=center><STRONG><EM><FONT color=#ffcccc></FONT></EM></STRONG>&nbsp;</P>
+<P class=MsoNormal style=""MARGIN: 0in 0in 0pt; TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"" align=center></SPAN><SPAN style=""FONT-SIZE: 18pt; COLOR: black; FONT-FAMILY: Verdana""><o:p></o:p></SPAN>&nbsp;</P>
+<P><STRONG><FONT color=#33ccff>It seems as though you've forgotten about everything that has happend.. </FONT></STRONG></P>
+<P><STRONG><FONT color=#33ccff>And what happend between us.. </FONT></STRONG></P>
+<P><STRONG><FONT color=#33ccff>Even though you've forgotten..</FONT></STRONG></P>
+<P><STRONG><FONT color=#33ccff>I'll wait here till you remember..&nbsp;&nbsp;</FONT></STRONG></P>
+<P><STRONG><FONT color=#33ccff>&nbsp;<FONT size=7>&lt;<FONT color=#ffcccc>3</FONT>3 <FONT color=#ffcccc>M</FONT>a<FONT color=#ffcccc>d</FONT>i<FONT color=#ffcccc>s</FONT>o<FONT color=#ffcccc>n</FONT></FONT></FONT></STRONG></P>
+<P><STRONG><FONT color=#ffcccc size=7></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT color=#ffcccc size=7></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT color=#ffcccc size=7></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT color=#666666 size=5>Love&lt;/33</FONT></STRONG></P>
+<P><STRONG><FONT color=#666666 size=5>Hailence</FONT></STRONG></P>"
+"eventtime","2005-01-13 20:35:00"
+"current_moodid","7"
+"url","http://x6xhaileyx9x.livejournal.com/10860.html"
+"userid","17093"
+"itemid","41"
+"event","<P><FONT color=#3366ff size=5><FONT size=3><STRONG>Today.. I stayed after skewl for the BBall game! Damien and Giger came to the skewl.. Both of them are so Hott! lol.. Love ya guys! Then Justin and Justin came and I hungout with them.. Not really hungout because they kept beating me up.. =( Those two are so fun! went and smoked a lil with Heyley and Stef! YaY! Those would be my homies! lol. Hungout with Janelle, Molly, Tyrique, Justin MCelroy, Tj, Sammy, Derrek.. And more.. It was so gay.. Brad promised and swore and a 1/2 he would come to the BBall game.. And hangout with me.. =( but then he gots himself in trouble with the parentals.. =( &lt;33 Ya!</STRONG></FONT> </FONT></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><FONT color=#ff0000 size=5><FONT size=4>Nicole is so fuckin gay.. Im in trouble because fuckin Nicole started shit and I didnt back down.. Thats Bullshit! Nicole your fuckin dumb.. You lied about the whole thing you fat whore.. Your the one who started shit with me.. And Your the one who hit me an ran.. The next time you see me out of skewl Im going to fuckin beat your ass! I fuckin hate you!</FONT> </FONT></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><FONT color=#999999 size=5><FONT size=7>Trapt-Headstrong</FONT> </FONT></P>
+<P><FONT color=#999999 size=5></FONT>&nbsp;</P>
+<P><FONT color=#999999 size=5>Circling, you're circling, you're circlin you're head.. </FONT></P>
+<P><FONT color=#999999 size=5>comtemplating everything you ever said, now I see the truth I got a doubt.. </FONT></P>
+<P><FONT color=#999999 size=5>a different motive in your eyes and now I'm out, see you later.. </FONT></P>
+<P><FONT color=#999999 size=5>I see your fantasy, you wanna make it a reality paved in gold.. </FONT></P>
+<P><FONT color=#999999 size=5>see inside, inside of our heads yea, well now that's over.. </FONT></P>
+<P><FONT color=#999999 size=5>I see your motives inside, decisions to hide.. </FONT></P>
+<P><FONT color=#999999 size=5>(Chorus)</FONT></P>
+<P><FONT color=#999999 size=5>&nbsp;AWWWWWWWWWWWWW!!!!!!!!!! </FONT></P>
+<P><FONT color=#999999 size=5>Back off I'll take you on.. headstrong to take on anyone.. </FONT></P>
+<P><FONT color=#999999 size=5>I know that you are wrong, headstrong, we're headstrong.. </FONT></P>
+<P><FONT color=#999999 size=5>Back off I'll take you on.. headstrong to take on anyone.. I</FONT></P>
+<P><FONT color=#999999 size=5>&nbsp;know that you are wrong, and this is not where you belong.. </FONT></P>
+<P><FONT color=#999999 size=5>I can't give everything away.. </FONT></P>
+<P><FONT color=#999999 size=5>I won't give everything away.. Conclusions manifest.. </FONT></P>
+<P><FONT color=#999999 size=5>your first impression's got to be your very best.. I</FONT></P>
+<P><FONT color=#999999 size=5>see you're full of shit and that's alright.. that's how you play I guess you get through every night..</FONT></P>
+<P><FONT color=#999999 size=5>&nbsp;well now that's over.. </FONT></P>
+<P><FONT color=#999999 size=5>I see your fantasy, you wanna make it a reality paved in gold.. </FONT></P>
+<P><FONT color=#999999 size=5>see inside, inside of our heads yea, well now that's over..</FONT></P>
+<P><FONT color=#999999 size=5>&nbsp;I see your motives inside, decisions to hide.. </FONT></P>
+<P><FONT color=#999999 size=5>(Chorus) </FONT></P>
+<P><FONT color=#999999 size=5>AWWWWWWWWWWWWWWW!!!!!!!!! </FONT></P>
+<P><FONT color=#999999 size=5>Back off I'll take you on.. headstrong to take on anyone.. </FONT></P>
+<P><FONT color=#999999 size=5>I know that you are wrong.. headstrong, we're headstrong.. </FONT></P>
+<P><FONT color=#999999 size=5>Back off I'll take you on.. headstrong to take on anyone.. </FONT></P>
+<P><FONT color=#999999 size=5>I know that you are wrong.. </FONT></P>
+<P><FONT color=#999999 size=5>and this is not where you belong.. (where you belong)</FONT></P>
+<P><FONT color=#999999 size=5>I can't give everything away.. I won't give everything away.. </FONT></P>
+<P><FONT color=#999999 size=5>I know.. </FONT></P>
+<P><FONT color=#999999 size=5>I know all about.. </FONT></P>
+<P><FONT color=#999999 size=5>I know.. </FONT></P>
+<P><FONT color=#999999 size=5>I know all about.. </FONT></P>
+<P><FONT color=#999999 size=5>I know all about your motives inside.. </FONT></P>
+<P><FONT color=#999999 size=5>and your decision to hide.. </FONT></P>
+<P><FONT color=#999999 size=5>(Chorus) </FONT></P>
+<P><FONT color=#999999 size=5>AWWWWWWWWWWWWW!!!!!!!!!!! </FONT></P>
+<P><FONT color=#999999 size=5>Back off I'll take you on.. </FONT></P>
+<P><FONT color=#999999 size=5>headstrong to take on anyone.. </FONT></P>
+<P><FONT color=#999999 size=5>I know that you are wrong, headstrong.. </FONT></P>
+<P><FONT color=#999999 size=5>we're headstrong.. </FONT></P>
+<P><FONT color=#999999 size=5>Back off I'll take you on.. </FONT></P>
+<P><FONT color=#999999 size=5>headstrong to take on anyone.. </FONT></P>
+<P><FONT color=#999999 size=5>I know that you are wrong and this is not where you belong.. where you belong.. (this is not where you belong) </FONT></P>
+<P><FONT color=#999999 size=5>I can't give everything away.. (this is not where you belong) </FONT></P>
+<P><FONT color=#999999 size=5>I won't give everything away.. (this is not where you belong) </FONT></P>
+<P><FONT color=#999999 size=5>This is not where you belong.. </FONT></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><FONT color=#cc33cc><STRONG>Reagan&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Reach&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Molly&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Janelle&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Heyley&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Stefanie&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Rachel&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Alex&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Tawni&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Taylor&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Britt&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Bradly&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Tyrique&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Justin Mcelory&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Justin Bryant&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Justin Martinez&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Tj&lt;3 </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>Tyler&lt;3</STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG>&nbsp;yah.. and who ever else.. </STRONG></FONT></P>
+<P><FONT color=#cc33cc><STRONG></STRONG></FONT>&nbsp;</P>
+<P>&nbsp;</P>
+<P><STRONG><FONT color=#33ffff size=2>It seems as though you've forgotten about everything that has happend.. </FONT></STRONG></P>
+<P><STRONG><FONT color=#33ffff size=2>And what happend between us.. </FONT></STRONG></P>
+<P><FONT color=#33ffff><STRONG><FONT size=2>Even though you've forgotten I'll wait here till you remember.. </FONT><FONT size=7>&lt;33 Madison</FONT></STRONG> </FONT></P>
+<P>&nbsp;</P>
+<P><FONT color=#ffff00 size=5>Love&lt;/3</FONT></P>
+<P><FONT color=#ffff00 size=2><STRONG>Hailence</STRONG></FONT></P>"
+"eventtime","2005-01-12 18:37:00"
+"current_moodid","127"
+"url","http://x6xhaileyx9x.livejournal.com/10661.html"
+"userid","17093"
+"itemid","40"
+"event","<STRONG><FONT color=#ff0000 size=7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Im Done!</FONT></STRONG>"
+"eventtime","2005-01-09 17:37:00"
+"current_moodid","24"
+"url","http://x6xhaileyx9x.livejournal.com/10347.html"
+"userid","17093"
+"itemid","37"
+"event","Okay toninght I went to the movies with Laura.. We saw White Noise! it was so scary we were holding arms and plugging are ears..! Laura kept screaming! lol. Then at the end of the movie I screamed on the top of my lungs.. And if you havent heard me scream thats really LOUD! haha! Im gifted I can scream with my mouth shut! Then after the movies we ran into Tyler Dolittle! He hasnt changed a bit! Still a cutie since I met him for the first time at the hotel party! Then we ran into.. Reagan, Janelle, Claire, Amanda, Kelsey, Erica, Tawni and some girl.. and we hungout with them.. Then went outside just me and Laura.. Ran into Lars, Brocks lil brother! OMG this kid is so adorable! he looks exactly like his older brother Brock! <3 Then these three girls came up to us..Yah and then they asked werent you with Kyle? and I was all yah.. And she's like yah I remeber you guys always going to the movies and football games and holding hands and kissing.. and I was like OKAY? and shes all yah Now Im with HIM? WTF who in there right mind walks up to some one and tells them there going out with there ex-boyfriend! Right when she said that I couldnt reply.. It felt like some one riped out my lungs cuz I couldnt say anything and couldnt breath.. Yah well that hurts when your not exactly over that person.. BITCH! well Laura saw that I was hurt and we walked off.. Then Big-O-Tuff Hailey started to show emotion! God Damn I hate Crying! Freakin A! WHAT A BITCH! and shes not even pretty! Gurrr..! Yah well after that we hungout with Reagan and Janelle tell they left.. Then went back with Lars, Claire, Amanda, and Kelsey..! and Me and Claire were talking about all the dumb things we've done to get high.. and Me and Amanda were talking about if we yelled out WHO ALL HAS GONE OUT WITH KYLE? and everyone would raise there hands.. lol. cuz he goes around.. lol. Then Claire was going to go up to this girl and tell her that strings were hanging off her but.. to start a fight.. lol.. Me, Claire and Amanda need to jump fatty soon.. Fatty as in Nicole! whose a pussy and hits me in the side and runs! Gurr..  
+
+Thanks guys fer the best night eva!
+
+
+
+
+Papa Roach-Last Resort
+
+
+Cut my life into pieces..
+I've reached my last resort, suffocation, no breathing..
+Don't give a fuck if I cut my arms bleeding..
+Do you even care if I die bleeding..
+Would it be wrong, would it be right..
+If I took my life tonight, chance are that I might..
+Mutilation out of sight and I'm contemplating suicide..
+Cause I'm losing my sight, losing my mind..
+Wish somebody would tell me I'm fine..
+Nothing's alright, nothing is fine..
+I'm running and I'm crying..
+I never realized I was spread too thin..
+Till it was too late and I was empty within..
+Hungry, feeding on chaos and living in sin..
+Downward spiral, where do I begin..
+It all started when I lost my mother..
+No love for myself and no love for another..
+Searching to find a love upon a higher level..
+Finding nothing but questions and devils..
+Cause I'm losing my sight, losing my mind..
+Wish somebody would tell me I'm fine..
+Nothing's alright, nothing is fine..
+I'm running and I'm crying..
+I can't go on living this way..
+
+
+
+True Friends<33
+
+Reagan<33
+Janelle<3
+Rachel<3
+Claire<3
+Amanda<3
+Kelsey<3
+Laura<3
+Erica<3
+and more.. 
+
+Look who isnt #1.. Yah thats right were not BFFLS no more..
+
+
+
+Fellas<3
+
+Lars<3
+Brock<3
+Tyler<3
+Brad<3
+Justin<3
+Whitie<3
+ 
+****And you to.. you fuckin asshole! Me and Amanda hate you for everything you've done to both of us! 
+And what your friend has done to claire! Fuck yourself up the Anal-haha claire
+Im sorry I have more Self respect than to have sex with you like all those other sluts you Do..!
+
+
+
+
+
+Madison<3333 Thanks for always being a sweetheart! Even when I bitch at you for no reason! I kno you dont think I like you.. But I do alot! And I miss you so much.. And I wish you were here.. I like you cuz your not like the guys here.. You dont go around and you dont want pussy.. You want a relationship.. Your Right Your Irresistible To Me!!!!!!!!! <333
+
+
+
+
+
+
+
+
+
+
+
+
+
+Love</33
+
+Hailence"
+"eventtime","2005-01-08 00:06:00"
+"current_moodid","6"
+"url","http://x6xhaileyx9x.livejournal.com/9694.html"
+"userid","17093"
+"itemid","35"
+"event","Hmm.. I really donno what to right.. Nothings really happend.. I got a frog 2 days ago.. His name is Mark.. Becuz they really hot worker guy that was getting him.. lol.. I kept asking him really stupid questions.. and I asked him if the Frog was a girl or a guy.. and he said guy.. and I asked him what the Frogs name was... and he said Mark.. and I was all really? and he said no.. Then the worker was all my name is Mark and Im a guy.. lol.. Then I asked him if the Frog had a number.. lol. and he gave it to me..! =) lol. So I named my Frog Mark.. 
+
+Also Jayson works at PetCo with Mark.. Jayson is the really hot guy who worked at the nut place at the mall.. =) 
+
+PetCo is my new hangout now.. lol.. JK.. I think Im going to go back and get more Frogs this weekend tho..
+
+
+
+Papa Roach-Last Resort
+
+
+Cut my life into pieces..
+I've reached my last resort, suffocation, no breathing..
+Don't give a fuck if I cut my arms bleeding..
+Do you even care if I die bleeding..
+Would it be wrong, would it be right..
+If I took my life tonight, chance are that I might..
+Mutilation out of sight and I'm contemplating suicide..
+Cause I'm losing my sight, losing my mind..
+Wish somebody would tell me I'm fine..
+Nothing's alright, nothing is fine..
+I'm running and I'm crying..
+I never realized I was spread too thin..
+Till it was too late and I was empty within..
+Hungry, feeding on chaos and living in sin..
+Downward spiral, where do I begin..
+It all started when I lost my mother..
+No love for myself and no love for another..
+Searching to find a love upon a higher level..
+Finding nothing but questions and devils..
+Cause I'm losing my sight, losing my mind..
+Wish somebody would tell me I'm fine..
+Nothing's alright, nothing is fine..
+I'm running and I'm crying..
+I can't go on living this way..
+
+
+
+Tori<3
+Reagan<3
+Jordan<3
+Heyley<3
+Janelle<3
+Reachel<3
+Rachel<3
+Britt<3
+Morgan<3
+Kelsey<3
+
+Yah.. and more.. 
+
+
+Madison<33
+
+
+
+
+
+
+
+Love</3
+
+Hailence"
+"eventtime","2005-01-06 22:02:00"
+"current_moodid","42"
+"url","http://x6xhaileyx9x.livejournal.com/9028.html"
+"userid","17093"
+"itemid","34"
+"event","OKay Im rewriting what I wrote before.. because what I wrote before was a load of bullshit.. and if you read that Im sorry for you.. Ummm.. the truth is I found something better than I had before.. so yah Im happier now more than before.. 
+
+
+
+Madison:I think this is the first time I liked some more than they liked me
+
+awwww.. hes so cute.. Love ya babe..!
+
+
+
+
+Brandy-Have you ever..
+
+
+Have you ever loved somebody so much..
+It makes you cry..
+Have you ever needed something so bad..
+You can't sleep at night..
+Have you ever tried to find the words..
+But they don't come out right..
+Have you ever, have you ever..
+
+Have you ever been in love..
+Been in love so bad..
+You'd do anything to make them understand..
+Have you ever had someone steal your heart away..
+You'd give anything to make them feel the same..
+Have you ever searched for words to get you in their heart..
+But you don't know what to say.. 
+And you don't know where to start..
+
+Have you ever found the one..
+You've dreamed of all of your life..
+You'd do just anything to look into their eyes..
+Have you finally found the one you've given your heart to..
+Only to find that one won't give their heart to you..
+Have you ever closed your eyes and..
+Dreamed that they were there..
+And all you can do is wait for the day when they will care..
+
+What do I gotta do to get you in my arms baby..
+What do I gotta say to get to your heart.. 
+To make you understand how I need you next to me..
+Gotta get you into my world..
+'Cuz baby I can't sleep..
+
+
+
+
+
+Reagan<3
+Molly<3
+Janelle<3
+Jordan Urban<3
+Alex<3
+Heyley<3
+Britt<3
+Rachel<3
+Morgan<3
+Reachel<3
+Lexi<3
+Lauren<3
+
+
+
+
+
+
+
+
+Madison<33 
+
+
+
+
+
+
+
+Love</3 
+
+Hailey"
+"eventtime","2005-01-04 17:01:00"
+"current_moodid","9"
+"url","http://x6xhaileyx9x.livejournal.com/8840.html"
+"userid","17093"
+"itemid","33"
+"event","I spranged my arm.. **Son of a bitch**
+
+
+
+
+
+
+
+Your Right.. Your Irresistible  To Me..
+
+
+
+
+
+My New Years Resolution.. 
+
+*
+ *
+  * 
+ *
+* 
+ * 
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ * 
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*To Get Over You.. =/  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+ *
+*You've become the person
+*You promised you wouldnt' be.
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+*
+  *
+ *
+*
+ *
+  *
+ *
+* 
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*"
+"eventtime","2005-01-03 16:10:00"
+"current_moodid","6"
+"url","http://x6xhaileyx9x.livejournal.com/8545.html"
+"userid","17093"
+"itemid","31"
+"event","Gone.. To New Mexico for a couple days with both sides of my family.. Then Eagles Nest hangout with Moe..<<couzin>> Then PineTop.. With the sweetest guy in the world! **Madison** I'll be home later in January.. =)
+
+
+Miss You Guys<3
+
+
+
+I wanna be kissed in the snow! ** << thats my snow. lol.>>
+
+
+
+
+You can dress me up diamonds..
+You can dress me up in dirt..
+You can throw me like a line-man..
+I like it better when it hurts..
+
+Oh, I have waited here for you..
+I have waited..
+
+You make me wanna la la..
+in the kitchen on the floor..
+I'll be a french maid.. 
+When I meet you at the door..
+I'm like an alley cat..
+Drink the milk up, I want more..
+You make me wanna..
+You make me wanna scream..
+
+
+
+
+
+LoVe</33
+
+HailEnCe"
+"eventtime","2004-12-22 12:54:00"
+"url","http://x6xhaileyx9x.livejournal.com/8040.html"
+"userid","17093"
+"itemid","30"
+"event","Omg.. I Cant Wait To Leave To New Mexico! I Wish I Could Move There.. Theres So Much Fuckin Drama Here.. Even On Fuckin Break! God Damn! I Hate Fuckin Fake Ppl And Ppl Who Cause All The Drama.. Gurr..!
+
+
+If You Dont Like What I Say.. Or Do.. Go Fuck You Self Because I Dont Change For Anyone.. 
+
+
+Reagan Thank You So Very Much For Being There.. When I Needed Some One The Most! I Love Ya So Freakin Much! Im Always Here For You! <33
+
+
+Couple More Days.. And Ill Be Back In His Arms Like We Were Never Apart..<33
+
+
+
+
+LoVe </33
+
+Hailey Rhae"
+"eventtime","2004-12-21 14:48:00"
+"current_moodid","1"
+"url","http://x6xhaileyx9x.livejournal.com/7897.html"
+"userid","17093"
+"itemid","29"
+"event","Friday- Claire's moms buisness worker picked us up.. hes 20 and drove us to taco bell.. hes a crazy driver! we picked up food.. and then went to pick up her lil brother.. we got droped off at claires house.. and we were all excited cuz we were home alone.. then her brother Chris came down.. and we telling him to leave.. so he did.. We called Brett and Kyle.. and they came over.. then we went over to Adams.. and Pat, Zack, Cory, and other kids were there.. Claire and Adam got into a huge fight! they started hiting eachother.. and claire poured coke on Adam so he poured coke on her.. then it was over and they were fine.. then I was skateing and Pat thought it would be funny if I fell so he ran up behind me and pulled the skate board from underneath me and I fell on my ass.. and then I had to get back.. so I kicked him in the face.. I was a lil mad.. Then we went to claires.. and Justin, Tyrique (tarance) and Tj joind the group.. and we hungout all night.. and freakin Tj ripped my pj pants.. and all of them were trying to rape me.. so I hid behind Brett the whole time because I felt safe with him because hes not like that.. <33 Then me and claire went to my house.. for my parents Keg party.. it was fun.. Kenny, Devon, and Johnny Nox are soo... hot to bad there 20.. GAY! I talked to **Madison** on the phone fer like 20 hours and everyone was getting mad at me.. but it was way worth it!<33
+
+Saturday- Me and Claire slept the whole day.. we kept takeing night quil so we would sleep more.. claire went home fer like an hour.. and We missed eachother so I went over to her house.. we walked to block buster then to MCDONALDS BITCH! and safe way.. then we didnt want to go home so we went to her moms friends party... then about like 9 or 10 all the older ppl wanted to go to a bar called Charle's and made me n claire watch 10 kids for $30 bucks each! OMG im never watching kids again.. I freakin hate them.. they were so crazy.. I talked to **Madison** fer a while.. then he had to go so we only text.. <33 
+
+Sunday- Me and claire.. dyed eachothers hair brown.. I put brown high lights.. then we got ready fer the mall! we both got shirts! and the really hot guy that works at a calander place was there ""Boneable"" will and Conrad were there..Conrad ""Boneable"" lol.. jk.. sorta.. then we went to walgreens and got SQUEEZE POPS! fuck yeS! I love those! and now Im at claires and BRETT is supose to come over! Brett ""Boneable"" then were going to my dads later on in the night and prolly haveing ppl over or going to the skate park.. Then in the morning were going to my moms so.. Justin n Justin can come over.. and then maybe Billy boy might..  Big ""Boneable"" party! 
+
+""Boneable"" is mine and claires new word for hot.. err.. sexi..
+
+
+I shake it like jello.. Make the boys say hello.. Cuz they kno Im rockin the beat.. 
+
+
+Claire<33
+
+Brett
+Brad
+Kenny
+Jonny Nox (really thats his name)
+Devon
+Justin Bryant
+Justin Martinez
+Michael J.
+Tyrique
+Justin 
+Tj
+Kyle
+Cory
+Adam
+Zackary Binks 
+Patrick
+
+
+
+
+
+I miss you! but only a couple more days and were back together.. like we were never apart<33 
+
+
+
+
+
+LoVe, Hailence"
+"eventtime","2004-12-19 11:07:00"
+"current_moodid","98"
+"url","http://x6xhaileyx9x.livejournal.com/7571.html"
+"userid","17093"
+"itemid","28"
+"event","Today was so gay.. But anyways.. Bradly is super mean to me fer no reason.. lol. jk.. and he loves my ass.. << thats what he told me>> lol.. Jordan Urban we need to hangout more! I love you so much! lol.. Its like throwing a hot dog down a hall way.. lol.. Justin Penner Im so glad you want a real relationship fer the first time.. love ya hun Im always here fer you no matter what! 
+
+
+
+
+
+
+
+Jordan<33
+Linds<33
+Brad<33
+Justin Penner<33
+
+
+
+
+
+I miss you</33 cant wait fer the end of this month..
+
+
+
+
+LoVe</33
+
+Hailence"
+"eventtime","2004-12-16 21:16:00"
+"current_moodid","44"
+"url","http://x6xhaileyx9x.livejournal.com/7382.html"
+"userid","17093"
+"itemid","27"
+"event","Today was so gay.. But anyways.. Bradly is super mean to me fer no reason.. lol. jk.. and he loves my ass.. << thats what he told me>> lol.. Jordan Urban we need to hangout more! I love you so much! lol.. Its like throwing a hot dog down a hall way.. lol.. Justin Penner Im so glad you want a real relationship fer the first time.. love ya hun Im always here fer you no matter what! 
+
+
+
+
+
+
+
+Jordan<33
+Linds<33
+Brad<33
+Justin Penner<33"
+"eventtime","2004-12-16 21:04:00"
+"current_moodid","44"
+"url","http://x6xhaileyx9x.livejournal.com/6969.html"
+"userid","17093"
+"itemid","26"
+"event","Earlyer Today.. 
+
+Right now Im in 6th hour S.S.  with hottie Richard.. lol.. Matthew David Bickman, Kris, and Garret came to 2nd lunch and we hungout with ther fer a lil bit then the gay ass teachers finally realized that they didnt go to our skewl and that they were in high skewl.. and they started to walk towards them and Matthew ran off.. and the rest of the guys followed.. then the cop chased after them.. but didnt catch them.. and then the whole fuckin skewl was like freaking out over nothing.. lol..  I was so fuckin bitchy today.. Sorry if  I went off on any one..welll theres nothing else to say.. so ill write more when I get home.. 
+
+
+Later today..
+
+Guys are Fuckin  assholes.. I fuckin hate them all! And I hate it when your already haveing a bad time.. and ppl kno that and they sit there and make it 20 time worse.. GOD I FUCKIN HATE YOU PPL! gurr.. 
+
+
+
+Lexi.. Im sorry she just gay !
+
+Kelsey I missed you we need to hangout this weekend!
+
+Cody Im so excited that you got a gf! love you bro! 
+
+*Richie*
+
+Matthew David BickMan.. lylab
+
+
+
+
+
+Love really does hurt.. 
+
+
+
+
+
+LoVe</33
+
+HailEnCe"
+"eventtime","2004-12-15 14:20:00"
+"current_moodid","110"
+"url","http://x6xhaileyx9x.livejournal.com/6823.html"
+"userid","17093"
+"itemid","25"
+"event","ODpvbyBtb25kYXkgbml0ZSBhbmQgSSdtIHdhaXRpbmcgLi4NClRvIGZpbidsbHkgdGFsayB0byBhIGdpcmwgYSBsaWwgY29vbGVyIHRoYW4gbWUuLg0KSGVyIG5hbWUgaXMgbm9sYS4uDQpTaGVzIGEgcm9ja2VyIHdpdGggYSBub3NlIHJpbmcuLg0KU2hlIHdlYXJzIGEgdHdvLXdheS4uDQpCdXQgSW0gbm90IHF1aXRlIHN1cmUgd2hhdCB0aGF0IG1lYW5zLi4NCkFuZCB3aGVuIHNoZSB3YWxrcyBhbGwgdGhlIHdpbmQgYmxvd3MgYW5kIHRoZSBhbmdlbHMgc2luZy4uDQpCdXQgc2hlIGRvZXNudCBub3RpY2UgbWUuLg0KDQpDYXVzZSBzaGVzIHdhdGNoaW5nIHdyZXN0bGluLCBjcmVhbWluIG92ZXIgdHVmZiBndXlzLi4gDQpMaXN0ZW5pbiB0byByYXAgbWV0YWwsIHR1cm4gdGFibGVzIGluIGhlciBleWVzLi4NCkl0cyBsaWtlIGEgYmFkIG1vdmllIHNoZXMgbG9va2luIHRocnUgbWUuLg0KSWYgeW91IHdlcmUgbWUgdGhhbiB5b3VkIGJlIHNjcmVhbWluIHNvbWVvbmUgc2hvb3QgbWUuLg0KQXMgSSBmYWxsIG1pc2VyYWJseSB0cnlpbiB0byBnZXQgdGhlIGdpcmwgYWxsIHRoZSBiYWQgZ3V5cyB3YW50Li4NCkN1eiBzaGVzIHRoZSBnaXJsIGFsbCB0aGUgYmFkIGd1eXMgd2FudC4uDQoNClNoZSBsaWtlcyB0aGUgZ29kc21hY2sgYW5kIEkgbGlrZSBhbmNpZW50IG9yYW5nZS4uDQpIZXIgY2QgY2hhbmdlcyBmdWxsIG9mIHNpbmdlcnMgdGhhdCBhcmUgbWFkIGF0IHRoZWlyIGRhZHMuLg0KU2hlIHNheXMgc2hlZCBsaWtlIHRvIHNjb3JlIHNvbWUgcmVlZmVyIGFuZCBhIGZvcnR5Li4gDQpTaGUnbGwgbmV2ZXIga25vdyB0aGF0IEknbSB0aGUgYmVzdCB0aGF0IHNoZSdsbCBldmVyIGhhdmUuLg0KQW5kIHdoZW4gc2hlIHdhbGtzIGFsbCB0aGUgd2luZCBibG93cyBhbmQgdGhlIGFuZ2VscyBzaW5nLi4NCkJ1dCBzaGUnbGwgbmV2ZXIgbm90aWNlIG1lLi4NCg0KQ3V6IHNoZXMgd2F0Y2hpbmcgd3Jlc3RsaW4sIGNyZWFtaW4gb3ZlciB0dWZmIGd1eXMsIA0KTGlzdGVuaW4gdG8gcmFwIG1ldGFsLCB0dXJudGFibGVzIGluIGhlciBleWVzLCBzaGUgbGlrZXMgJ2VtLi4gDQpXaXRoIGEgbXVzdGFjaGUsIHJhY2UgdHJhY2sgc2Vhc29uIHBhc3MuLiANCkRyaXZpbmcgaW4gYSB0cmFueiBhbSwgZG9lcyBhIG1vbGxldCBtYWtlIGEgbWFuLi4NCkl0J3MgbGlrZSBhIGJhZCBtb3ZpZSBzaGUncyBsb29raW4gdGhydSBtZS4uDQpJZiB5b3Ugd2VyZSBtZSB0aGFuIHlvdWQgYmUgc2NyZWFtaW4gc29tZW9uZSBzaG9vdCBtZS4uIA0KQXMgSSBmZWxsIG1pc2VyYWJseS4uIA0KVHJ5aW5nIHRvIGdldCB0aGUgZ2lybCBhbGwgdGhlIGJhZCBndXlzIHdhbnQuLg0KQ3V6IHNoZXMgdGhlIGdpcmwgYWxsIHRoZSBiYWQgZ3V5cyB3YW50Li4NCg0KVGhlcmUgc2hlIGdvZXMgYWdhaW4gd2l0aCBmaXNoIG5ldHMgb24uLg0KQW5kIGRyZWFkIGxveCBpbiBoZXIgaGFpci4uDQpTaGUgYnJva2UgbXkgaGVhcnQsIEkgd2FubmEgYmUgc3VkYXRlZC4uIA0KQWxsIEkgd2FudGVkIHdhcyB0byBzZWUgaGVyIG5ha2VkLi4NCg0KTm93IEknbSB3YXRjaGluIHdyZXN0bGluLCBUcnlpbmcgdG8gYmUgYSB0dWZmIGd1eS4ubGlzdGVuaW5nIHRvIHJhcCBtZXRhbC4uDQpUdXJuIHRhYmxlcyBpbiBteSBleWVzLCBJIGNhbnQgZ3JvdyBhIG11c3RhY2hlLi4gDQpJIGFpbnQgZ290IG5vIHNlYXNvbiBwYXNzLCBhbGwgSSBnb3RzIGEgbW9wZWQsIG1vcGVkLCBtb3BlZC4uDQpJdCdzIGxpa2UgYSBiYWQgbW92aWUgc2hlcyBsb29raW5nIHRocnUgbWUuLiANCklmIHlvdSB3ZXJlIG1lIHRoYW4geW91ZCBiZSBzY3JlYW1pbiBzb21lb25lIHNob290IG1lLi4NCkFzIEkgZmVsbCBtaXNlcmFibHkuLg0KVHJ5aW5nIHRvIGdldCB0aGUgZ2lybCBhbGwgdGhlIGJhZCBndXlzIHdhbnQuLg0KQ3V6IHNoZXMgdGhlIGdpcmwgYWxsIHRoZSBiYWQgZ3V5cyB3YW50Li4NCg0KDQpJIEx1dnZlIHRoYXQgc29uZy4uIQ0KDQoNCiAuLMKhaXzCuWnCocKhacK5fGnCoSwuICANCiAgYCfCuWxpwqF8wqF8wqFpbMK5J2ANCiANCiAqOi4gLjoqICAgLjoqICo6LiAgKjouIC46KiAgIC46KiAqOi4gDQouOiogKjouICAgKjouIC46KiAgLjoqICo6LiAgICo6LiAuOioNCg0KDQoNCg0KVG9yQW5DZTwzMw0KSm9yZGFuIFVyYmFuPDMzDQpSYWNoZWw8Mw0KTW9sbHk8Mw0KUmVhZ2FuPDMNCkphbmVsbGU8Mw0KU3RlZmZlcmVzPDMNClRhd25pPDMNCllhaCBuIFdobyBldmVyIGVsc2UuLiANCg0KPDMzMzMzMzMNCg0KTWFkaXNvbjwzMw0KDQo8MzMzMzMzMw0KDQoNCg0KDQpMb1ZlPC8zMyANCg0KSGFpbEVuQ2U="
+"eventtime","2004-12-12 16:08:00"
+"current_moodid","92"
+"url","http://x6xhaileyx9x.livejournal.com/6557.html"
+"userid","17093"
+"itemid","24"
+"event","Today.. I went to Ryan Byerrums house.. N hungout with all them fer a while.. Then I went shoping with my mom fer all my friends.. And then TorAnCe called me n I went over to her house.. And we had to watch her lil brother Ethan.. n we walked to McDonadls.. and ppl kept giving us dirty looks cuz they thought it was are kid.. n Tori yelled at some person.. haha it was great.. then when we finally got to McDonalds we walked in and everyone was there.. and Ethan kept calling TorAnCe mommy.. lol.. Matthew David BickMan, Kris, Brent,Chase, Kyle, and Ryan were all there.. Then we went home.. and Watched Americas Next Top Model.. for like 4 hours straight.. N Gay ass Justin Morgan and Kyle kept calling me.. n I asked why dont you hangout with your gf? n Kyles all shes in Flagstaff.. Im so glad Im not with him.. Now I wanna kno what he was doing behind my back.. Like hes doing to one of his new Gfs.. But W.E. 
+
+
+TorAnCe<33 Im so glad were not fighting anymore.. We talked everything through.. Im so sorry about Billy.. Hes just a guy and as much as you want him to change hes never going to.. But what fuckin sux is I cant call you PG anymore.. I missed hanging out with you so Fuckin much! Best Friend and Sisters fer life.. Love you!
+
+
+
+
+BOY: I saw her today.
+GIRL: I saw him today.
+BOY: It seems like it's been forever.
+GIRL: I wonder if he still cares.
+BOY: She looks better than before.
+GIRL: I couldn't stop staring at him.
+BOY: I asked her how things were going.
+GIRL: I asked about his new girlfriend.
+BOY: I'd choose her over any girl I'm with.
+GIRL: He's probably really happy now.
+BOY: I couldn't look at her without starting to cry.
+GIRL: He couldn't even look at me.
+BOY: I told her I miss her.
+GIRL: He doesn't mean it.
+BOY: I meant it.
+GIRL: He didn't mean it.
+BOY: I love her.
+GIRL: He loves his new girlfriend.
+BOY: I held her for the last time.
+GIRL: He gave me a friendly hug.
+BOY: Then I went home and cried.
+GIRL: Then I went home and cried.
+BOY: I lost her.
+GIRL: I still love him.
+
+
+I took this from Reagan! who took it from ashley! Its so sad.. 
+
+
+
+
+TorAnCe<33
+Rachel<3
+Molly<3
+Reagan<3
+Janelle<3
+Heyley<3
+Steffers<3
+Tawni<3
+
+<3333333
+
+Madison<33
+
+<3333333
+
+Matthew David BickMan<33
+Justin Penner<3
+Tyler<3
+Brad
+Justin 
+
+
+
+What would you say if I told you I Loved you?
+
+
+
+
+
+LoVe</33
+
+Hailence"
+"eventtime","2004-12-11 14:11:00"
+"current_moodid","48"
+"url","http://x6xhaileyx9x.livejournal.com/6288.html"
+"userid","17093"
+"itemid","23"
+"event","Tonight I went to a party.. umm.. as soon as you walked through the door you could smell smoke.. Im not into the whole lets smoke cuz were kewl thing.. so I didnt.. I mean I smoke just not like everyday like these ppl.. Just like every once and a while.. I think its really grose when girls dress really revieling.. and smoke all the time like that.. and guys like them for some reason? prolly cuz they can get some..<< claire>>  but who knos what goes on in guyz heads.. ""their dumb"" Justin Penner n Billy were there.. and other guyz.. Justin your still a hottie.. ly kid.. umm.. kyle kept calling me fer directions to the party.. but kno one wanted to give him directions.. and Im a bitch so I didnt want to.. prolly cuz I havent exactly gotten over him.. but Im better off without him.. hmmm.. I was only there fer an hour.. Im glad I left tho.. I dont want to be part of that crowd again.. Idk maybe I have alot more growing up to do then I thought I did.. 
+
+
+
+
+
+
+
+Madison<33 Idk what it is about you that I like.. but I do alot! Your so different from the guys here.. and I love talking to you.. its like I can tell you anything.. and you'll understand.. maybe its just the impression you give me.. I miss you.. n I cant wait till New Years when we get to see eachother again! Your the best maker outter, upside down and right side up.. lol.. :-* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+LoVe </33
+
+Hailence"
+"eventtime","2004-12-10 21:34:00"
+"current_moodid","6"
+"url","http://x6xhaileyx9x.livejournal.com/5963.html"
+"userid","17093"
+"itemid","22"
+"event","I miss you so much..! 
+Talking on AIM isnt enough.. 
+I miss seeing your face..
+I miss seeing that look in your eyes when we joke around.. 
+And when you really kiss me like you mean it.. 
+I miss kissing you upside down.. 
+Every day it gets harder n harder knowing im not going to see you fer a while.. 
+
+
+
+<33333333"
+"eventtime","2004-12-09 21:10:00"
+"current_moodid","25"
+"url","http://x6xhaileyx9x.livejournal.com/5740.html"
+"userid","17093"
+"itemid","21"
+"event","Today was a 1/2 Day!!!!!!!!! this morning was so funny.. Everyone was sitting at a table n Nicole walked by and everyone started mooing! lol.. it was great! then she turned around n glared at me.. haha.. your a fag Nicole.. And your kalling Heyley a hipo.. Have you looked in the mirror lately? your 2 her size.. And stop talking shit about me, Lauren, and Heyley.. and actually do something..! After skewl Rachel n Chris came over! Then I went to the bball game and met claire n breann there! Wow.. everyone was there! I hungout with breann, will, conrad, austin n jeff most of the time.. Justin Penner was there but he was being a hoe! I missed you Fatty Matty! 
+
+
+TrentOn you kno you cant be mad at me.. You've tried that before n it didnt work.. lol ly!
+
+
+
+Matthew David BickMan.. I hope your doing better! we got to hangout soon..! LYLAB! 
+
+
+
+TorAnCe<33
+Rachel<3
+Molly<3
+Kelsey<3
+Claire Marie Anderson<3
+Breann<3
+Heyley<3
+Reagan<3
+Janelle<3
+Lauren<3
+Reachel<3
+
+<3333333
+
+Madison<33
+
+<3333333
+
+Matthew David BickMan<3 
+TrentOn<3
+Tyler-lylab
+Jordan Dee! 
+
+
+
+** i MiSs KiSsInG yOu UpSiDeDoWn! **
+
+
+
+LoVe</33
+
+HailEnCe"
+"eventtime","2004-12-08 13:45:00"
+"current_moodid","52"
+"url","http://x6xhaileyx9x.livejournal.com/5467.html"
+"userid","17093"
+"itemid","20"
+"event","Today was borring once again.. Molly your so funny... that was hillarious when me n you were pushing eachother n you went to push me n you ran into the wall.. LmAo.. Trent.. I wanna rape you.. lol.. sorry fer hitting you in the penis so hard.. =) Lol.. alex your so cute.. You n Conrad need to hook up.. You guys are so cute! Gurrrrrrrrrrrr.. PPL shut up about Brock!!!!!!!!!! 
+
+
+
+
+Reagan Im so glad your comeing back around.. I love you!!!!
+
+
+
+
+Matthew David BickMan.. Im so sorry that you got hurt.. I hope you get better.. Omfg.. Idk what I would have done if something really bad happend to you.. I love you so much! Your my best guy friend.. and Im always here for you.. Ly! 
+
+You guys who fucked with Matt are fuckin Pussys! 
+
+
+
+x6xHaileyx9x: If you were the new item at McDonalds you'd be called McGorgious!
+BrkenXXHearted: aww 
+x6xHaileyx9x: lol.. 
+BrkenXXHearted: thats so sweet 
+x6xHaileyx9x: lol.. what can i say?
+BrkenXXHearted: haha 
+BrkenXXHearted: who else did u say that too 
+x6xHaileyx9x: just u 
+BrkenXXHearted: aww 
+BrkenXXHearted: i love u hailey 
+x6xHaileyx9x: lol.. I love you too!
+BrkenXXHearted: teehee :-) your the reason i smile
+
+Then I said something Inapproperiate.. (How Ever you spell it)
+
+
+
+
+i MiSs KiSsInG yOu UpSiDeDoWn..! 
+
+
+
+
+TorAnCe<33
+Rachel<3 your so fun! Im so glad u live behind me.. Ly~!
+Molly<3
+Reagan<3
+Janelle<3
+Alex<3
+Steffers<3
+Tawni<3
+
+<33333333
+
+Matthew David BickMan<33 LYLAB
+Trent<3
+Tyler<3
+Gurrr.. Brock..
+
+
+
+**Ever Since I Left You Theres Not On Night That I Dont Dream About You**
+
+
+
+LoVe</3
+
+HaIlEnCe"
+"eventtime","2004-12-07 15:31:00"
+"current_moodid","85"
+"url","http://x6xhaileyx9x.livejournal.com/5362.html"
+"userid","17093"
+"itemid","19"
+"event","I didnt go to skewl today.. 
+
+
+
+Some one is going to hurt you at one point of your life.. Its up to you to decide who is and who isnt worth it.. 
+
+Love is when you dont see him every night.. And you wish he was with you.. 
+
+Meeting you was a coincidence.. Becomeing your friend was a choice.. Falling fer you I had no control over.. 
+
+If you really love some one, time, distance, nothing can stand in the way.. 
+
+SomeTimes I wish I never met you.. Because then I could go to sleep at night not knowing that theres some one like you out there..
+
+Does he really love me.. Or am I just a replacement of what he cant have?
+
+I love it when you look at me.. Because I know for at least on second I crossed your mind.. Even if I try to tell you to stop.. 
+
+The spaces between your fingers were meant to be filled with mine.. 
+
+
+Sorry I got a lil bored.. 
+
+      Convo 1
+
+x6xHaileyx9x:What are you doing? 
+BrkenXXHearted:nm u?
+x6xHaileyx9x: I just stuck screws in my ears..!
+BrkenXXHearted: What??
+x6xHaileyx9x: It looks like this (|-----~~~  lol..
+BrkenXXHearted: Your so weird. lol. 
+
+      Convo 2
+
+x6xHaileyx9x: Baby your like Mcdonalds Im Lovin It!!!!
+BrkenXXHearted: haha ur so cute 
+x6xHaileyx9x: lol.. 
+
+
+HAPPY BIRTHDAY HEYLEY BUCKLIN! I LOVE YOU! Tag-Teamers Fer Life.. 
+
+
+Molly<33
+Rachel<33
+Reagan<33
+Janelle<33
+Heyley<33
+
+<33333333 
+
+Tyler-Lylab
+Brocklie</3 lol..
+Kyle M.
+Trents a []D-[]-[]v[]-[]D!
+
+
+
+LoVe</3
+
+HaIlEnCe"
+"eventtime","2004-12-06 13:05:00"
+"current_moodid","5"
+"url","http://x6xhaileyx9x.livejournal.com/4891.html"
+"userid","17093"
+"itemid","18"
+"event","Firday- I hungout with *Molly* at *Mollys* House.. N I watched a movie with *Molly* n we ate candy cuz we were both deprest.. 
+
+Saturday- Rachel came over n we were thinking of ways we could hop the fense to eachothers house without hurting are selves.. Then I went shopping with my mom.. Then *Molly* came over.. and *Molly* spent the night n we ate *McDonalds* best fuckin place in the world! Then I watched movies with *Molly* and we ate more candy like the night before.. *Big Fatties Over Here* then some crazy MoFo was looking through the window n scared the shit out of us.. And then *Maddison* was being mean.. n Bock was telling me he made out with some WHORE! n Zack was being mean to *Molly*.. and then *Molly* n me talked.. n *Molly* fell asleep on me.. On me.. lol.. 
+
+Sunday- Woke up with *Molly* then my mom came in and was danceing trying to get us to go eat breakfast with her.. so we did.. we were so freaking tired.. Then *Molly* went home n I went to my dads.. I Miss *Molly* =(
+
+
+I was seeing how many times I could say *Molly*- 14 times biotch! 
+
+
+
+*Molly* <3
+Rachel<3
+McDonalds<3 
+
+Madison<33
+
+
+Tyler<3 lylab
+
+Brock.. is an asshole..
+
+
+
+
+
+
+LoVe</3
+
+HailEnCe"
+"eventtime","2004-12-05 10:44:00"
+"current_moodid","41"
+"url","http://x6xhaileyx9x.livejournal.com/4772.html"
+"userid","17093"
+"itemid","17"
+"event","Today was full of Drama.. god I fuckin hate it.. Molly I had so much fun with you..! cant wait till tomarrow! Thanks fer being there for me! yah.. well I dont have anything else to say.. 
+
+
+
+
+I can feel it again feel it again,
+This isnt the first time,
+That you left me waiting,
+Sad excuses n false of time,
+I saw this coming still I dont kno why I let you in, 
+I knew it all aline,
+So predictable,
+I knew something would go wrong,
+So you dont have to go,
+Or say anything at all,
+So predictable,
+
+So take *him* if you want,
+Your broken promises,
+And all the time you stole,
+Cuz I am done with this, 
+I can give it away, give it away,
+Im doing everything I should've,
+Now Im makeing a change, 
+Im liveing the day,
+Im giveing back what you gave me,
+I dont need anything.. 
+
+
+Thx for calling me all the time</3 
+
+
+Molly<3
+Rachel<3
+Reachel<3
+Heyley<3
+Reagan<3
+Jordan Urban<3
+Thanks fer being there guys!
+
+Trent<3
+Tyler<3
+Kyle M.<3
+Matthew Jacop Meralda<3
+Ryan<3
+
+
+
+
+
+LoVe </3 
+HailEnCe"
+"eventtime","2004-12-03 19:00:00"
+"current_moodid","110"
+"url","http://x6xhaileyx9x.livejournal.com/4574.html"
+"userid","17093"
+"itemid","16"
+"event","This is how my day went.. I woke up.. Got ready.. Then my mommy took me to McDonalds.. The best fuckin place in the Universe.. I got to skewl really early hungout with all my Fellas..! Then in art me n molly were on top of the tables n we were talking about striping! lol.. n I had my striper boots on.. Hehehe! Then in PE dumb molly kept falling on her scooter! haha it was so funny we kept pushing her! Then at lunch Fuckin Trent was steping on my boots! Gurr.. it made me so mad! but its okay his hottness makes up fer it! God hes so hott! Then on the buss ride me Chris n Rachel were talking about Penis's! lol.. And when Rachel gives me head my penis is so long it comes out her but.. lol.. n Chris's pokes him in the eye.. n he cant see..! lol.. had to be there! Then I came home n talked on the phone with TorAnCe! love her to death! n BrockLie kalled me! and then I got on the net n a FAT COW Imed me asking what my problem is..! and she wants to fight..! haha! If you didn't kno who the FAT COW is that would be Nicole.. She keeps saying she wants so fight fer the past 2 months but hasnt done JACK SHIT! cuz shes Pussy! N she could sit on me n break me in 2! Nicole u just go get fucked by joe again you slut bag! and leave Lauren the fuck alone because your 20 times her size.. actually like 40 times her size! so Fuck Off! LMAO! hehe! 
+
+
+Reagan<3
+TorAnCe<3
+Lauren<3
+My Partener in Crime.. Tag-Teamer Heyley<3
+Molly<3
+Rachel<3"
+"eventtime","2004-12-02 18:07:00"
+"current_moodid","96"
+"url","http://x6xhaileyx9x.livejournal.com/4321.html"
+"userid","17093"
+"itemid","15"
+"event","PPL ARE SO FUCKING GAY! omg! Gurrrrrrrrrrrrrrr... Amanda I fucking hate you! Continue talking shit all you want you cant back it up so it doesnt matter! The only reason guys hook up with you is cuz yor easy! Im sorry that I have more respect fer myself! and yah I found out that Kyle's an asshole.. but I didnt give myself away to him like you did! And dont even bring Nicole into this she has nothing to do with this.. Your so dumb you try to turn Claire against me.. haha.. did u ferget that were like best friends? ""dumbass"" 
+
+If u wanna see the convo IM me.. lol.. 
+
+
+
+
+Anyways on to things that actually MATTER..
+
+Reagan.. I am so deeply sorry that Ryan past away.. I dont like seeing you upsett and not happy.. I love you so much! I hope everything turns out okay..!
+
+Claire I love you! 
+
+
+Trent is a []D-[]-[]v[]-[]D!!!!!  I wanna do you like Alex wants to do Conrad.. lol.. jk
+
+
+
+
+WAIT AND BLEED... 
+
+I've felt the hate rise up in me...
+Kneel down and clear the stone of leaves...
+I wander out where you can't see...
+Inside my shell, I wait and bleed...
+
+Goodbye!
+
+I wipe it off on tile, the light is brighter this time
+Everything is 3D blasphemy
+My eyes are red and gold, the hair is standing straight up
+This is not the way I pictured me
+I CAN'T CONTROL MY SHAKES!
+How the hell did I get here?
+Something about this, so very wrong...
+I have to laugh out loud, I wish I didn't like this
+Is it a dream or a memory?
+
+GET OUTTA MY HEAD CUZ I DON'T NEED THIS!
+Why I didn't I see this?
+I'm a victim - Manchurian Candidate
+I - HAVE - SINNED - BY - JUST
+Makin' my mind up and takin' your breath away
+
+GOODBYE!
+
+You haven't learned a thing
+I haven't changed a thing
+My flesh was in my bones
+The pain was always free
+
+I've felt the hate rise up in me...
+Kneel down and clear the stone of leaves...
+I wander out where you can't see...
+Inside my shell..
+
+
+
+FUCK ALL OF YOU!!!!!!!!!!!!!!!!!!!!!
+
+
+</33 HailEnCe"
+"eventtime","2004-11-30 15:58:00"
+"current_moodid","24"
+"url","http://x6xhaileyx9x.livejournal.com/3991.html"
+"userid","17093"
+"itemid","14"
+"event","U2tld2wgd2FzIGJvcnJpbmcgb25jZSBhZ2Fpbi4uIGFuZCB0aGVyZXMgbm8gaG90IGd1eXMgYXQgc2tld2wgZWl0aGVyLi4hIGFuZCBpdHMgZnVja2luIGZyZWV6aW5nIGluIG15IGhvdXNlLi4gSSBhbHJlYWR5IG1pc3MgdGhlIGR1bmVzISBhbmQgaG90dCAqKk1hZGlzb24qKiEgQ2FudCB3YWl0IHRvIHNlZSBoaW0gYWdhaW4hIEd1cnIuLiB3aHkgZG8gdSBoYWxmIHRvIGxpdmUgaW4gQkZFP8K/PyAiT25seSBUb3JBbkNlIHdvdWxkIGdldCB0aGF0IiBGcmlja2VuIEEhICANCg0KVG9yQW5DZSBJdmUgbWlzc2VkIGhhbmdpbmdvdXQgd2l0aCB5b3UhIENhbnQgd2FpdCB0aWxsIHdlIGhhbmdvdXQgdGhpcyB3ZWVrZW5kISBQQVJUWSEgbG9sLi4gSWYgeW91IGRvbnQgZnVja2luIGRpdGNoIG1lIGZlciB0aGF0IG9uZSBjaGljLi4hICJJbGwgdHJlYXQgeW91IGxpa2UgbWlsayBJJ2xsIGRvIG5vdGhpbmcgYnV0IHNwb2lsIHlvdS4uIiBsb2wuIExZISBJdHMgc28gZnVubnkgd2VyZSBvYmVzc2VkIHdpdGggdGhlIGR1bWJlc3QgZ3V5cy4uIG4gdGhlcmUgbGlrZSBiZXN0IGZyaWVuZHMuLiBoYWhhISANCg0KDQpSZWFnYW4gSW0gc29ycnkgdGhhdCB5b3UgcmVsYXRpdmUgZGllZC4uIEltIGFsd2F5cyBoZXJlIGZlciB5b3UgaHVuISBseSENCg0KDQoNCllvdXIgUG9ybiBTdGFyIE5hbWUgaXM6IENhbmR5IENveHgNCmh0dHA6Ly93d3cuYmxvZ3RoaW5ncy5jb20vcG9ybm5hbWUuaHRtbA0KDQotSG93IGRvIHRoZXkgZ2V0IENhbmR5IENveHggb3V0IG9mIEhhaWxleT8gdGhleSBtdXN0IG9mIHB1bGxlZCB0aGF0IG9uZSBvdXQgb2YgdGhlcmUgYXNzLSBsb2wuLiANCg0KDQoNCg0KKCwuOipUb3JuIEJldHdlZW4gVHdvDQogICAoLC46KldobyB3b3VsZCB1IGNob29zZT8NCiAgICAgICgsLjoqVGhlIG9uZSB0aGF0IHlvdSBsb3ZlPw0KICAgICAgICAoLC46Kk9yIHRoZSBvbmUgdGhhdCBsb3ZlcyB5b3U/DQoNCg0KDQoNCg0KDQoNCk1hZGlzb248MzMNCg0KVG9yQW5DZTwzDQpSZWFnYW48Mw0KDQoNCg0KTG92ZTwvMyBIYWlsZW5jZQ=="
+"eventtime","2004-11-29 21:01:00"
+"current_moodid","22"
+"url","http://x6xhaileyx9x.livejournal.com/3617.html"
+"userid","17093"
+"itemid","13"
+"event","V2gwYSEhISEhIFRoZSBEdW5lcyB3YXMgZnVja2luIGF3czBtZSBtMHN0IDBmIHRoZSB0aW1lISBJIGcwdCBpbiBzMCBtdWNoIHRyMHVibGUgdGhlIHdoMGxlIHRpbWUuLiBNeSBnYXkgYXNzIGRhZCB3MHVsZCBnZXQgbWFkIGJlY2F1c2UgSSB3YXMgd2l0aCAqKk1hZGlzMG4qKiB0aGUgd2gwbGUgdGltZSwgV2hlbiBoZSB3YXMgdGhlcmUuLiBsMGwuIG4gaGUgdGgwdWdodCBJIHdhcyBiZWluZyBiYWQgIndoMCB3MHVsZCBldmVyIHRoaW5rIHRoYXQ/wr8/IiA9KSAqKk1hZGlzMG4qKiB5MHVyIHN1Y2ggYSBjdXRpZSEgMG1mZyB5b3VyIHMwIGZ1biB0MCBiZSB3aXRoLi4gZXhjZXB0IHdoZW4geTB1ciBtZWFuLCB3aGVuIHkwdXIgZHVuayBvciB3aGVuIHkwdSBjaGVhdCAwbiBtZSB3aXRoIHRoZSBtYW4vZ2lybC4gPSggWTB1IGFsbTBzdCBraWxsZWQgbWUgbGlrZSAyMCBmcmVha2luIHRpbWVzLi4gbDBsLiBUaGF0IHdhcyBzMC4uIGZ1bm55IHdoZW4gSSBsaXQgeTB1ciBoYWlyIDBuIGZpcmUgMG4gYWNjaWRlbnQuLj0vIGhhaGFoYS4udGhlbiB5MHUgbGl0IG1pbmUgMG4gZmlyZS4uIGFuZCBDMGR5IGZlbGwgYXNsZWVwIHQwICJzbHVycGluZyIuLm4geTB1IGJyMGtlIG15IGhhbmQgY3VmZnMuLmwwbCBXaGF0IEV2ZXIgSGFwcGVucyBJbiBEYSBEdW5lcyBTdGF5cyBJbiBUaGUgRHVuZXMuLiA9KSBDYW50IHdhaXQgdG8gc2VlIHkwdSAwbiBOZXcgWWVhcnMuLiEgIA0KDQpLZW5ueSB5MHUga2ljayBhc3MgSSBjYW50IGJlbGlldmUgeTB1IHdlcmUgZnVja2luIGp1bXBpbmcgeTB1ciA1MCAwdmVyIHRoZSBmaXJlLi4gbDBsLi4gdGhhdHMgYXdzMG1lLi4gdGhlbiB0aGF0IGd1eSBjYXVnaHQgMG4gZmlyZS4uIGwwbC4gdGhhdHMgc3dlZXQuLiBzZWUgeTB1IG5leHQgdGltZSB5MHUgYzBtZSAwdmVyIHQwIG15IGgwdXNlLi4gbHlsYWIhDQoNCkkgbWlzc2VkIGFsbCB5MHUgZ3V5eiEgRXhjZXB0IGEgYzB1cGxlIG9mIHkwdS4uDQogDQoNCkkgbG92ZSB3aGVuIHlvdSBsb29rIGF0IG1lLi4NCiAgIEJlY2F1c2UgSSBrbm8gZm9yIGF0IGxlYXN0IG9uZSBzY29uZC4uDQogICAgICBJIGNyb3NzZWQgeW91ciBtaW5kLi4gDQoNCg0KDQoNCkV2ZW4gaWYgSSB0cnkgdG8gdGVsbCB5b3UgdG8gc3RvcC4uIGxvbC4uDQoNCg0KTWFkaXNvbjwzMyAgDQpLZW4NCg0KDQoNCg0KDQoNCkxvdmUsIEhhaWxlbmNl"
+"eventtime","2004-11-28 20:45:00"
+"current_moodid","67"
+"url","http://x6xhaileyx9x.livejournal.com/3371.html"
+"userid","17093"
+"itemid","12"
+"event","This is the weirdest website ever.. www.forumhell.com go there.. this is what mine said
+ What I wrote down- What the quiz said.. (what i think)                                
+1. 6                                  
+2. 9                    
+3. Justin Penner-The guy I LOve! (I hope not.. can we say *PLAYER*)   
+4. Reagan-Care Most About.. 
+5. Tori-Knows Me More Than Anyone..
+6. Janelle-My Lucky Star
+7. Kyle-I Only Like Him And It Isn't Going To Work Out.. (haha thats funny thats what happend!)
+8. Lets Go-TrickDaddy-The Song That Reminds Me Of #3 
+9. Over n Over again-Nelly-The Song that describes #7
+10. Its Over-Mest-The Stuff Thats On My Mind..
+11. Duality- Slipknot-How I feel about Life.. (basicly FUCK YOU) 
+
+ugh.. part of its true.. i guess.. you could say that.."
+"eventtime","2004-11-23 20:26:00"
+"current_moodid","56"
+"url","http://x6xhaileyx9x.livejournal.com/3198.html"
+"userid","17093"
+"itemid","11"
+"event","First best friend: Ashley Nicole Stap
+
+First car: 250 Ford
+
+First real kiss: hm... do you really wanna kno?
+
+First break-up: I dont wanna mention his name because I still havent gotten over him.. =/
+
+First screen name: quadchick365
+
+First funeral: my great grampas
+
+First pets: Boxer named Trina
+
+First piercing: My Ears.. 
+
+First credit card: Visa
+
+First true love: Havent Had It Yet.. =(
+
+First musicians you remember hearing in your house: Who gives a shit.. 
+
+LASTS
+
+Last cigarette: a couple days ago..
+
+Last car ride: Earlyer today.. 
+
+Last kiss: KYLE =/ 
+
+Last good cry: When I found out Kyle was doing things with other girls.. =( but w.e. hes gay!
+
+Last library book checked out: I dont like to read.. so like 3 years ago.. 
+
+Last movie seen: The Saw.. with my sexi Reagan.. n then Kyle was getting into fights with Brock n Justin Bryant =/
+
+Last phone call: Justin Morgan
+
+Last time showered: Today!
+
+Last shoes worn: My kick ass skull laced Globes!
+
+Last cd played: My burned Cd..
+
+Last item bought: Thongs..lol..! n No one is going to see them.. Inless your lucky..!
+
+Last annoyance: Ppl.. at skewl
+
+Last disappointment: Kyle.. haha..lol..
+
+Last time wanting to die: EveryDay.. 
+
+Last shirt worn: Holister.. Pink n White Stripped shirt
+
+Last website visited: www.Livejournal.com
+
+Last words you said: Love You Bye..
+
+Last song you sang: AfroMan Colt 45
+
+What is in your cd player?: My burnt Cd
+
+What color socks are you wearing?: White n Black
+
+What Color underwear are you wearing?: Blue with Sparkles..!
+
+What's under your bed?: A peice of wood from it breaking from ppl doin stuff in it.. =) lol. 
+
+What time did you wake up today?: 6:00
+
+Currents:
+
+Current mood: Kinda Sad
+
+Current music: Lil John
+
+Current hair: Curled 
+
+Current clothes: Holister Shirt with Pink Towel Pants
+
+Current annoyance(s): Ppl talking about there problems to me.. n Justin Morgan not getting his ass Over here!
+
+Current desktop picture: a Pink Broken Heart
+
+Current book(s): Im not a Fucking Nerd.. sorry!
+
+Current color of toenails: Pink
+
+Current time-wasting wish: Being with the guy I like.. 
+
+Current hate: The World, PPl.. and Most Of All AMANDA n KAYLA! 
+
+One or the Other:
+
+1. Black or white?: Black
+
+2. Boxers or briefs: Boxers
+
+3. Coke or Pepsi?: Coke
+
+4. Salt or pepper?: Salt
+
+5. Sweet or sour?: Sour
+
+6. Vanilla or chocolate?: Vanilla
+
+7. Short or long?: LOnG.. =)
+
+8. Cheap or expensive?: Expendive
+
+9. Firm or soft? wouldnt you like to kno.. 
+
+10. Hot or cold?: Cold
+
+My favorite...
+
+1. Color is: Black n Pink
+
+2. Song is: Its over-Mest.. Lets Go-TrickDaddy
+
+3. Scent is: Escadda-Beach kiss.. N Hollywood
+
+4. Alcoholic beverage is: Tequila Bitches!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+5. Food is: Sushi, Steak, and fucking french fries!
+
+5 things you are wearing right now: holister shirt and pink towel pants
+
+
+
+
+5 things you did so far today
+
+Woke up
+Went to McDonalds
+Skewl
+Talked On The Phone
+Aim
+
+5 things you can hear right now
+
+Music
+A Cow.. ""aim"" 
+the phone ringing
+my dogs barking
+the desk vibrateing from the speakers on my computer
+
+5 things you do when your bored
+
+Call ppl
+talk on aim
+go driveing
+have sex
+listen to music
+
+5 people that never fail to cheer you up
+
+TorAnCe
+Reagan
+Janelle
+Justin Penner
+Kyle
+Matt
+Cody
+Tyler
+thats a lil more than 5
+
+
+5 things you can't live without
+
+My Friends
+Music
+My Celliur Device
+Internet
+The guy I Like..!"
+"eventtime","2004-11-23 15:38:00"
+"current_moodid","44"
+"url","http://x6xhaileyx9x.livejournal.com/2872.html"
+"userid","17093"
+"itemid","10"
+"event","Wow.. I havent written in this fer ever.. well Ill just update everyone on whats going on now.. I met this great guy named KYLE! and I totally fell fer him.. I *THOUGHT* he was the first guy.. that I actually *LIKED* alot..He has brown hair that is usually spiked.. with dark brown eyes.. He has his eyebrow, tongue, and ears pirced.. *guys with pirceing are so F-in hott* but anyways... He *HAD* the best personality ever.. Yah well things worked out fer us fer a lil bit then it all came crashing down.. and when we hangout he acts like nothings changed but I kno and he knos it has and theres never going to be an *US* ever again.. =( *TorAnCe* is still my best friend in the whole entire world.. n *Reagan n Janelle* I love you guys u both are always there fer me n we always have a great time together.. you guys are so much fun.. =) On wednesday Im going to be partying it up with my sexi guy **Madison** ""were just friends fer now"" =P I cant wait..! OMG i fucking hate skewl.. theres so much fucking DRAMA! I swear they should fucking rename the skewl ""DRAMAcrest Deer Valley Middle Skewl"" lol. well I donno what else to write..
+
+
+i wanna tell yOu what im [feeling] 
+--"" but i dOn`t knOw where to start 
+*i wanna tell yOu that *i.L0ve.y0u*
+(,.:but im afrAid yOu`ll 
+::break my heart:: </3 
+
+Kyle- turned out to be an asshole! =)  
+TorAnCe<3
+Reagan<3
+Janelle<3
+ 
+
+
+                                                                                                     </3 Love 
+                                                                                                      HailEnEc"
+"eventtime","2004-11-22 20:23:00"
+"current_moodid","15"
+"url","http://x6xhaileyx9x.livejournal.com/2736.html"
+"userid","17093"
+"itemid","9"
+"event","SGV5IEd1eXouLi4gVG9kYXkgd2FzIHRoZSB0eXBpY2FsIGRheS4uISA6LS8gQ09OR1JBVFMgU0VBTiBOIFJFQUdBTiEhISEgb2ggYW5kIENPTkdSQVRTIEhFWUxFWSBOIENBUkwhISEgd293Li4uIHRoaXMgaXMgc28gZ2F5IGV2ZXJ5b25lIGlzIGhvb2tpbmcgdXAuLi4uIDotKCBCVU1NRVIuLi4gaSB3YW5uYSBhIGJmISEhISBidXQgbGlrZSB0aGUgcGVyZmFjdCBvbmUuLi4gSW0gc28gc2NlcmQgdGhhdCBpIGZ1Y2tlZCB1cCBteSBpbm5lciBvdXRlciB5b3UgcHJvamVjdCEgdGhhdCB3b3VsZCBzdXggYXNzISBsaWtlIGJpZyB0aW1lISBidXQgb2ggd2VsbC4uIGkgZ3Vlc3MgaWxsIHNlZS4gaSBnb3R0YSBwZXJzZW50IGl0IHRvbWFycm93Li4uIFRyZW50IG4gTWF0dGhldyBtZXQgdG9kYXkhIGxvbC4gdGhleSBkb250IHRoaW5rIHRoZXkgbG9vayBhbGlrZS4uLsK/PyBpIHRoaW5rIHRoZXkgZG8uLiBidXQgb2ggd2VsbCEgd2VsbCBsYXRhIQ0KDQpTb21ldGltZXMgdGhlIHBlcnNvbiB5b3UgZmFsbCBmb3IgaXNudCByZWFkeSB0byBjYXRjaCB5b3UuLi4gDQoNCg0KDQpIZXlsZXk8Mw0KUmVhZ2FuPDMNCipUcmVudCoNCk1hdHRoZXcNCiAgIA0KDQoNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTG92ZTwzIEhhaWxlbmNl"
+"eventtime","2004-09-28 17:12:00"
+"current_moodid","48"
+"url","http://x6xhaileyx9x.livejournal.com/2336.html"
+"userid","17093"
+"itemid","8"
+"event","hey ppl... Friday was okay.. nolens party wasnt all that great. there was only a lil bit of achol... (idk how to spell it) but there was alot of ppl there n it was fun hanging out with them.. Matt is PRUDE... lmao just kidding hun.. after the party me stef, ashley, tawni, and jordan went back to stefs n hungout.. right when we got there jordan triped n hit the floor face first.. shes so blonde..  lol. then everyong was makeing fun of me because i was makeing weird sounds.. lol. and i tackled stef n we went rolling of the bed to the floor.. haha! then brent n bryson kame over fer a while.. n bryson was talking about prepostions.. lol. he wouldnt shut up about them.. then stefs sis picked all of us up.. n we were piled on top of eachother.. tawni was sitting on my lap n we couldnt stop laughing.. haha she kept hitting her head on the window.. then we were laughing because she elbowed me in the boob..! ""OWW"" then both her n bryson elbowed me at the same time n we were laughing then tawni spit on my while she was laughing.. god ive never laughed so hard! haha.. we gotta do this again thiss weekend.. then saturday i went to my bros football game.. n they suck ass.. lol. jk but they losed for the second time.. lol. kevin u looked so.. cute when you were all mad.. hehe.. then jayson, tori,n taylor picked me up n we went driveing around for a long time.. we went to micdonals n picked up derrek then went to the mall n later to AMC 30.. sorry Jayson that your so upsett.. ly WOW... today was so borring.. lol. but it was funny when me n Adam got in trouble for SEXUAL MISCONDUCT.. lol. r teachers are such dumbasses! heyley im so excited your gonna be SINGLE again with me.. hehe i missed you being single.. but it sux being single... :-\ but oh wel.. 
+
+
+Tawni<3
+Steffers<3
+Ashley<3
+Jordan<3
+Heyley<3
+Tori<3
+*Trent* 
+Matthew BickMan<3
+
+
+
+                        Love<3 Hailence"
+"eventtime","2004-09-27 15:56:00"
+"current_moodid","35"
+"url","http://x6xhaileyx9x.livejournal.com/2267.html"
+"userid","17093"
+"itemid","7"
+"event","Hey GuyZ! okay yesturday which was thursday the 23... i stayed after skewl n watched the lil 7ies try out for cheer... n we watched the 8th grade volley ball team... n i screamed so fuckin loud that i gave myslef a headache! lol. then Matthew BickMAN lol. kame to hillcrest to hangout with us.. and he was makeing fun of me the whole time... and he's a cheta head! lol. we went over to breanns house fer a while.. OH wow... today was so.. gay! ugh.. I HATE IT WHEN FUCKIN PPL ASK YOU WHO YOU LIKE N THEY ONLY ASK BECAUSE THEY LIKE THE SAME PERSON N THEY WANNA BE BITCHY ABOUT IT... gay! Tonight is gonna so kick ass...! im so stoked! hehe im gonna get so shit faced... YAY! Trent i want you to go so bad!!!!! plz...! lol. well i gotta go get ready ill type about the party lata... 
+
+Trent<3
+
+
+
+
+
+
+
+
+
+
+                                   Love<3 Hailence"
+"eventtime","2004-09-24 15:34:00"
+"current_moodid","134"
+"url","http://x6xhaileyx9x.livejournal.com/2038.html"
+"userid","17093"
+"itemid","6"
+"event","Heya! I was so hyper today geeze! lol. this morning i went over to Heyley's n i was bouncing off the walls... i got to pick out her clothes! it was like playing barbie! hehhe then when i got to skewl me n claire were talking but it didnt make sense n we couldnt stop laughing...! n we were hanging out with!~PIMP~! And then in P.E. me, Tawni, N Steffers were all messing around n walking all weird... lol. we get easily amuzed... hehe... I got Brad mad at lunch it was so fuckin hilarious! He got mad because i was flirting with PIMP.. hehe what a fag! GOD DAMN YOU PIMP! you got me soaking wet again... im never drinking water by you ever again!lmao! Your So HOT!CONGRATS JORDAN N BRENT! THREE MONTHS THATS A FUCKIN LONG ASS TIME! happy birthday Tyler Ermish! i hope you liked the card i got you! 
+
+
+I wanna be the girl you
+         [dream] of at night.. i
+         wanna be the girl  that
+         you [hold] so tight.. i
+         wanna be the girl, whos
+         [queen] of your world..
+         but most of all, i want
+         to be [ YoUr GiRl ]  
+
+if i told you that i cant stop thinking about you, or that just the thought of you makes me smile, or that i get butterflies when i hear your name, and that i want to be held so tightly in your arms, would you think that im [ C r A Zi ] 
+
+
+
+Heyley<3
+Tawni<3
+Steffers<3
+PIMP-Trent<3
+Jordan n Brent<3
+Tyler<3
+
+
+
+
+                                          Love<3 Hailence!"
+"eventtime","2004-09-22 15:51:00"
+"current_moodid","72"
+"url","http://x6xhaileyx9x.livejournal.com/1536.html"
+"userid","17093"
+"itemid","5"
+"event","What Up Gangsta?! lol. Dude im a fuckin dumbass to wear tight white pants to skewl! I should have known that my guy friends would try to get me wet! lol. oh well... Lol. Trent got me soaking wet like 3 times today! after getting me all wet hes all i can see through your pants now...! lmao! HES SUCH A CUTIE! lol. but he hardly talks hes like SUPER DUPER shy! lol. I can change that tho... lol. Wow... I was so hyper in P.E. and at lunch with Tawni n Steffers! lol. i was talking about boners n orgasims n shit... lol. Richards all like your so sick.. hehe that was funny...! n he told me im the like the loudest person... lol. everyone seems to think that... :-/ oh well... i prolly am! HAPPY BIRTHDAY TYLER ERMISH! I Love Ya Like A Brother! hehe... I cant wait for nolens party! yay! 
+
+
+
+
+
+ ___
+/`  `.__              
+\_ _.,  `'-._ _.--. 
+ _`_  ) |     /  _ \ 
+/   `/ /'---./  / \ \--.___
+\__./ /--..    /``-\ '-.___`\  Thats Kinda KINKY! hehe 
+ **Get DIRTY!**
+
+Steffers<3
+Tawni<3
+PIMP<3 YOUR SO HOTT!
+Ermish<3 HAPPY B-day...!
+
+                      
+                   
+
+                        Love<3 Hailence!"
+"eventtime","2004-09-21 16:05:00"
+"current_moodid","96"
+"url","http://x6xhaileyx9x.livejournal.com/1501.html"
+"userid","17093"
+"itemid","4"
+"event","hey babeZ! I FUCKIN HATE HILLCREST N EVERYONE IN IT! execpt like a couple ppl! steffers n heyley i almost broke our pac...! lol. if i werent so ****T then i would of! lmao! hehe Me Steffers n Tawni are gonna party fuckin hard this weekend and next n get shit faced! but anywayz today was sucky! Kevin im sorry for being really bitchy to you! but i ly a ton even tho ur a big DICK to me... but its all good! lol. Dude... Matthew Bickmen n PIMP aka Trent Are like fuckin twins i swear! lol. Pimp me n heyley are gonna tag-team u! Your Fuckin Sexi As Hell! lol. but you need to talk more!! LIke BIG TIME! John kame to our skewl! hes so cute! lol. but me n heyley are the only ones who think that! prolly cuz im use to being with him! man i use to love that kid alot! Jesus I fuckin hate it when ppl tell other ppl shit that i didnt say! Gurr... I lOVE YOU TORI! hehehe! God like 20 fuckin ppl asked me if i dyed my hair because of me being upset about bradly! yah right that kid is queer! he cant fuckin think for himself he has to have other ppl do it for him... GAY! even tho i was alil upset! but oh well...  PIMP YOUR SO HOTT!!!
+
+Heyley<3
+Tori<3
+Steffers<3
+Tawni<3
+PIMP<3
+John<3         
+ 
+                    Love<3 Heyley!"
+"eventtime","2004-09-20 16:38:00"
+"current_moodid","92"
+"url","http://x6xhaileyx9x.livejournal.com/1110.html"
+"userid","17093"
+"itemid","2"
+"event","Hey Guyz! On Saturday i hungout with TorAnCe n we stayed home all night n gay ass zack n matt didnt cum over! lol. zackary n Mattew I love ya guyz still... I DYED MY HAIR BLACK! N I LOOKS KICK ASS! n i got n a fight with heyley but we made up cuz we love eachother! hehe that was our first fight n it lasted for 10 minutes... lol. i love you heyley! hehe n then today which is sunday! i went to the mall with TorAnCe N Brocklie n i fought with brock... lmao we always fight... Den I Went To Ryan Byerrums... n we went rideing in the golfie... and Ryan got me all MUDDY n WET... lamo hehe i love that kid! n then i played football with him, his sister, n his siters friends, in the rain... it was FUN... even tho i cant catch worth shit... well i got nothing else to say so later player.. 
+
+Tori<3
+Heyley<3
+Zackary<3
+Ryan<3
+Mattew<3
+Brock<3
+
+
+                  LoVe <3 Hailence!"
+"eventtime","2004-09-19 21:34:00"
+"current_moodid","17"
+"url","http://x6xhaileyx9x.livejournal.com/596.html"
+"userid","17093"
+"itemid","1"
+"event","Hey Guyz I Just Got Up... Last Night I Went To The Ridge Game With Tori...! N We Hungout With Matt Bickmen N Sexi Zack Johnson And Others...! I was In A Pissy Mood So Everyone Was Getting Me Mad... Like Brock, Bradly, N Heyley... N BRADLY IS A FUCKIN ASSHOLE WHO CANT FUCKIN THINK FOR HIMSELF HE HAS TO HAVE FUCK GAY ASS KEVIN DO IT FOR HIM... GURR>>>> jesus! kevin i hope you kno your fuckin gay as hell n i hate you more then ever... n dont even try to say sorry anymore because your full of shit! But W.E. After The Game We Went To DQ In EveryOne Was There...! I Got To Meet A Bunch Of Ppl. But I Cant Remember There Names Anymore. Opps! Lol. There Was Even A Bf= Bitch Fit lol. Me Zack Are Supose To Take A Shower Together... That'll Be Awsome...! N Today Im Gonna HangOut With Tori, Kayla, Zack, N Others. And Were Partying ToNighT Since Both Mine And Tori's Parents Are Gonna Be Gone All Night! Yay! Well I'll Write More Later!
+
+Tori<3
+Zack<3
+
+Love Hailence!"
+"eventtime","2004-09-18 09:22:00"
+"current_moodid","9"
+"url","http://x6xhaileyx9x.livejournal.com/376.html"
+"userid","17093"

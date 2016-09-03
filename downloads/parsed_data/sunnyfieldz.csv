@@ -1,0 +1,711 @@
+"names","values"
+"itemid","87"
+"event","SSBzdXBwb3NlIGl04oCZcyBmaW5hbGx5IGdvbmUgdG9vIGZhciB3aXRoIHNvbWVvbmUgaW4gcGFydGljdWxhciBhcyBpdCBvZnRlbiBkb2VzIHdpdGggaW5kaXZpZHVhbHMgSSBhbGxvdyDigJxpbnNpZGUu4oCdICBUaGV5IGRvIHNvbWV0aGluZyB0aGF0IGRpc2FwcG9pbnRzIG1lIG9yIG1vcmUgb2Z0ZW4gdGhhbiBub3QsIGh1cnRzIG15IGZlZWxpbmdzIGFuZCBJIHNxdWVlemUgdGhlbSBvdXQgYW5kIHNodXQgdGhlIGRvb3IgaW4gdGhlaXIgZmFjZS4gICBHcmFudGVkLCBJIGFsd2F5cyBrZWVwIGluZGl2aWR1YWxzIGF0IGFybXMgbGVuZ3RoIGJ1dCBmb3IgYSBzZWxlY3QgZmV3IEkgc2hvcnRlbiBteSBhcm1zIGEgYml0LiAgYW5kIHRoZW4gYXQgc29tZSBwb2ludCwgSSAgZGVlcGx5IHJlZ3JldCBpdC4gIA0KDQpJdCBzZWVtcyBqdXN0IGFib3V0IGV2ZXJ5b25lLCBtaW51cyBteSBwYXJlbnRzLCBzaWJsaW5ncywgaHVzYmFuZCBhbmQgY2hpbGQsIHRoYXQgSeKAmXZlIGxldCBjcm9zcyBpbnRvIG15IGJ1YmJsZSBoYXMgZW5kZWQgdXAgYmVpbmcgc2hvdmVkIGJhY2sgb3V0IGFnYWluLiAgSeKAmW0gZ2V0dGluZyB3b3JzZSBhYm91dCBpdCBpbnN0ZWFkIG9mIGJldHRlci4gIEFuZCBzb21ldGltZXMgSSBkb27igJl0IHJpZ2h0bHkga25vdyBpZiBJ4oCZbSByZWFsbHkgYmVpbmcgdHJlYXRlZCBhcyBiYWRseSBhcyBJIHRoaW5rIG9yIGlmIEnigJltIHBhcmFub2lkLiAgICBzYWRseSwgdGhlIHRydXRoIHVzdWFsbHkgc3VyZmFjZXMgYXQgc29tZSBwb2ludCBhbmQgSSByZWFsaXplIG15IHBhcmFub2lhIHdhcyBhY3R1YWxseSBpbnR1dGlvbiBhYm91dCB3aGF0IHdhcyByZWFsbHkgZ29pbmcgb24gaW4gdGhlIGZyaWVuZHNoaXAuICANCg0KSSBjYW7igJl0IHJlbGF0ZSB0byBzb21lb25lIEkgdXNlZCB0byBjb25zaWRlciBteSBiZXN0IGZyaWVuZC4gIEkgd2FzIGRlZXBseSBkZXByZXNzZWQgZm9yIHR3byBkYXlzIHdoZW4gSSByZWFsaXplZCBhdCBhIHJlY2VudCBvdXRpbmcgd2l0aCBoZXIsICBJIG5vIGxvbmdlciBmb3VuZCBoZXIgY29tcGFueSB0byBiZSBhcyBzdHJlc3MtZnJlZSBhcyBJIG9uY2UgZGlkLiAgc29tZXRpbWVzIG91ciBjb252ZXJzYXRpb25zIGhhZCB1bmNvbWZvcnRhYmxlIHNpbGVuY2VzIGFzIHdlIHJvZGUuICAgSSBmZWVsIG15c2VsZiBkcmlmdGluZyBhd2F5IGZyb20gaGVyIG1lbnRhbGx5LiAgb3IgbWF5YmUgc2hl4oCZcyBkcmlmdGluZyBhd2F5IGZyb20gbWUuICBJIGRvbuKAmXQga25vdy4gIHNvbWV0aW1lcyBJIHdvbmRlciBpZiBJ4oCZbSByZWFsbHkganVzdCBpbnNhbmUgYW5kIHRoaXMgc2ltcGxlIGZhY3QgbWFrZXMgbWUgaW5jYXBhYmxlIG9mIHJlbGF0aW9uc2hpcHMuICANCg0KU29tZXRpbWVzIEkgZmVlbCBsaWtlIG1haW50YWluaW5nIGEgZnJpZW5kc2hpcCBpcyBpbXBvc3NpYmxlIGZvciBtZS4gSSBmZWVsIGxpa2UgSSBjYW7igJl0IHVwaG9sZCB0aGUgb3RoZXIgcGVyc29u4oCZcyBleHBlY3RhdGlvbnMgb2YgbWUuICAgV2hhdCBpZiBJIGRvbuKAmXQgY2FsbCB0aGVtIHdoZW4gdGhleSB0aGluayBJIHNob3VsZCwgZXRjLiBhbmQgc28gb24uICBJdCBtYWtlcyBpdCB3b3JzZSBiZWNhdXNlIG15IGJlaGF2aW9yIHRlbmRzIHRvIHNoaWZ0IGJldHdlZW4gYSBzdWRkZW5uZXNzIHRvIGJlIGNoYXR0eSBmb2xsb3dlZCBieSBhIGxvbmcgd2l0aGRyYXdhbCBwZXJpb2Qgd2hlcmUgSSBjYW7igJl0IHNlZW0gdG8gZmluZCBhbnl0aGluZyB0byB0YWxrIGFib3V0IHdpdGggdGhlbS4gICBJIGZlZWwgZGV0YWNoZWQgYW5kIHdpdGhkcmF3bi4gIA0KDQpvciB0aGV5IHdpbGwgZHJvcCBzb21lIGtpbmQgb2YgZW1vdGlvbmFsIGJvbWIgb24gbWUsIChsaWtlIGEgcmVxdWVzdCBmb3IgYSB0aHJlZXNvbWUsICphaGVtKikgYW5kIEkgYm9sdCBhbmQgcnVuIGxpa2UgYSBzY2FsZGVkIGRvZy4gIA0KDQpJIGtub3cgSSBoYXZlIGF2b2lkYW50IHBlcnNvbmFsaXR5IHRlbmRlbmNpZXMsIGhlbGwsIEkgcHJvYmFibHkgY291bGQgYmUgZGlhZ25vc2VkIHdpdGggdGhlIGRpc29yZGVyLiAgIGFuZCBpdCBzY2FyZXMgbWUgdGhhdCBJ4oCZbSBnZXR0aW5nIHdvcnNlIGFib3V0IGZyaWVuZHNoaXBzIGluc3RlYWQgb2YgYmV0dGVyLiAgQmVjb21pbmcgbW9yZSBjbG9zZWQgYW5kIGd1YXJkZWQgb2YgbXlzZWxmLiAgIA0KDQpBcyBhIGNoaWxkLCBJIGZvdW5kIGl0IGVhc2llciB0byBsaXZlIGluIGEgZmFudGFzeSB3b3JsZCBhbmQgaGF2ZSAgYSBkb2cgYXMgYSBiZXN0IGZyaWVuZC4gIEkndmUgbmV2ZXIgYWJhbmRvbmVkIHRoYXQgcGhpbG9zcGh5IGF0IGFnZSAzMC4gIEkgdXNlZCB0byB0aGluayBJJ2QgZ3JvdyB1cCBvbmUgZGF5LiAgSSdtIHN1cmUgSSBsb29rIGdyb3duIHVwIGFuZCBzb21ldGltZXMgYWN0IGl0LCBidXQgdGhhdCBsaXR0bGUgZ2lybCB3aG8gbGl2ZXMgaW4gaGVyIG93biBtYWtlYmVsaWV2ZSBsYW5kIHdpdGggaGVyIGRvZyBidWRkaWVzIGlzIG5ldmVyIGZhciBiZW5lYXRoIHRoZSBzdXJmYWNlLg=="
+"eventtime","2003-06-17 15:40:00"
+"current_moodid","96"
+"url","http://sunnyfieldz.livejournal.com/22297.html"
+"userid","14923"
+"itemid","86"
+"event","I think my manager has lost his mind.  or maybe its just my mind that has flown out the window.  Either way, we had a serious misunderstanding of just what I was supposed to get done this week.  so all that anxiety and work for nothing.  but, since I procrastinate so bad, at least it forced me to do something I'd put off another two or four weeks otherwise, so its all good. 
+
+so last night I watched The Real World.  I think its sad they call the stupid show the real world because quite frankly noone is EVER  living in the real world on that show.  They have their head in the clouds or firmly placed up their buttocks.  I just think this season is  going to be so sad and tragic and filled with angsty unrequited love.  I know that chic is going to hook up with Ace only to get her heart ripped out.  the foreshadowing is spray painted all over the walls.  and then Ace is so idiotic he makes me want to scream.  if he doesn't like Paris he should take his backwoods Georgia ass back to the sticks and I can say that because my ass is located in close proximity to those said sticks.  
+
+I'm happy all of the cast aren't american.  I really like Simon.  Maybe its because he's Irish AND gay.  at least he appreciates the Parisian culture because he commented on how rude he thought it was that noone was even halfway attempting to speak the language.  I bet Simon will end up being the one and only reason I watch the show this season. and he'll probably end up like Brynn of Las Vegas group virtually invisible and getting zero air time because he isn't weird or horny or whathaveyou enough. 
+
+anyway, I think The Real World is a sad shell compared to what it used to be.  or maybe I'm just getting old.  I can't imagine I was that stupid when I was nineteen and then I remember some of the things or should I say people I did and I realize I have selective amnesia.  I WAS AS stupid as those Real Worlders.  
+
+Strange how your definition of what the real world is changes as you age.  now my real world consists of Spongebob reruns, attempting to avoid dog shoestring slobber on my workpants and trying to convince a three year old he can eat something besides Poptarts & bologna."
+"eventtime","2003-06-11 12:51:00"
+"url","http://sunnyfieldz.livejournal.com/22211.html"
+"userid","14923"
+"itemid","82"
+"event","<a href=""http://quizilla.com/users/shanachie/quizzes/What's%20your%20Inner%20European%3F/""><img src=""http://images.quizilla.com/S/shanachie/1038972908_topirisher.jpg"" border=""0"" alt=""You%20are%20Irish""><br> <font size=""-1"">What's your Inner European?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+
+
+I think I may have tweeked my results a bit.  but yeah, kiss me, I'm irish.             and I really am, among other things. 
+
+so, this sinus infection is starting to annoy me.  *achoo*   *sniff*
+
+
+I won't be like my cubicle neighbor across the wall and blow my nose like a honking canadian goose for all of the office to enjoy."
+"eventtime","2003-01-17 09:33:00"
+"url","http://sunnyfieldz.livejournal.com/21225.html"
+"userid","14923"
+"itemid","80"
+"event","tonight, I let the dogs out to the fenced back yard before I left to walk.  an unusual sound followed.....something or someone slamming against the fence...... and then growling and some other vocalization I couldn't place.   for a moment I was convinced a person was back there and my dogs were attacking them.
+
+I ran to the door to see two boxers madly chasing a black streak.  It was a cat and in its blind panic it forgot just how to get out of the enclosure.  It tried to squeeze through the hole between the fence and the building......but it wouldn't fit........so it backtracked which sent it straight into Lucas, the seventy pound boxer.  Lucas grabbed it by its stomach and shook it lightly.  I don't know how he managed to grab it this way.....maybe it was turning to attack him.  
+
+Meanwhile I was screaming NO! NO! LUCAS!  NO LET IT GO, DROP IT, LUCAS!!  and he looked at me with a expression of sheer bliss.  
+
+The cat had all four feet firmly dug into Lucas's neck.  It looked like it had attacked his face as opposed to him attacking it.  For a moment I wasn't sure what to do.  Should I grab the dog?  Will he bite me in the frenzy?  and what if he doesn't kill the cat and it is maimed to the point I have to finish it? (that was my worst fear as I'm skemish in the matter of blood and gore....)    Should I just not do anything?   I was in a blind panic. 
+
+somewhere during this mental monologue....Lucas released the cat.....and all three went galloping past me.  The cat made a loop around hte fence after it slammed into the other side.  It made it back to the middle of the yard before Lucas caught it again.  This time I grabbed his collar and he let it go........but he backed up and slipped his collar.  This  gave the cat enough time to run under the steps.
+
+I wasn't sure what to do.......and the concrete steps were heavy as fuck.  Neither dog would pee while the cat was there.  They spent their time circling the steps and whining for me to get the cat out.  
+
+So I decided to ask my neighbor's if it was their cat.  Because if so, I knew the guy could help me move the steps and we could attempted retrieval and then we would know the extent of the damage.  
+
+Their cat is a strickly inside cat.......and was peering out at me from behind the woman.  So I returned to move the steps myself.  I figured this cat was one of the strays I see periodically.  
+
+I used a leashed Lucas to flush the cat out from behind the steps.  It had regained enough composure to remember how to exit the fence.....and there was no blood, so as best as I can figure, he didn't hurt it too much.  
+
+Now that I think back on the matter it is comical.  The cat appeared to be stuck to the dogs face.  and Lucas was so happy.  I could read his mind and his mind thought, ""OH BOY!  CHEW TOY!""       
+
+I hope the cat wasn't seriously injured  but all in all I think it was just roughed up a bit."
+"eventtime","2003-01-01 22:57:00"
+"url","http://sunnyfieldz.livejournal.com/20556.html"
+"userid","14923"
+"itemid","77"
+"event","I don't really have much to say today except reading the news is <a href=""http://news.yahoo.com/fc?tmpl=fc&cid=34&in=us&cat=immigration"">depressing.</a>
+
+this just makes me nervous.  
+
+I'm afraid things are  escalating."
+"eventtime","2002-12-19 19:09:00"
+"url","http://sunnyfieldz.livejournal.com/19755.html"
+"userid","14923"
+"itemid","76"
+"event","*ROFLMAO!!*
+
+ Alec Baldwin's Schwetty Balls sketch.     
+
+OMG!  I haven't laughed so hard in a long time......
+
+I'm going to have to download that....
+
+=====
+
+
+Damn.  I still need to vacuum.
+
+the floor and the dog."
+"eventtime","2002-12-17 20:33:00"
+"url","http://sunnyfieldz.livejournal.com/19518.html"
+"userid","14923"
+"itemid","75"
+"event","um.  yeah.
+
+<a href=""http://quizilla.com/users/atotalblamblam/quizzes/Which%20Sesame%20Street%20Muppet's%20Dark%20Secret%20Are%20You%3F/""><img src=""http://images.quizilla.com/A/atotalblamblam/1038623643_ult_grover.jpg"" border=""0"" alt=""Grover%20on%20E""><br> <font size=""-1"">Which Sesame Street Muppet's Dark Secret Are You?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+
+
+I'm probably really more The Count.
+
+but   the possiblities are pretty funny.
+
+oOo.  I think the SNL xmas special comes on tonight.   I hope it does....."
+"eventtime","2002-12-17 19:02:00"
+"url","http://sunnyfieldz.livejournal.com/19252.html"
+"userid","14923"
+"itemid","74"
+"event","er,  um.   yeah.  
+
+
+
+<a href=""http://quizilla.com/users/sirenboi658/quizzes/Which%20Absolutely%20Fabulous%20Character%20are%20You%3F/""><img src=""http://images.quizilla.com/S/sirenboi658/1039589719_spatsy_lrg.jpg"" border=""0"" alt=""Patsy""><br>
+<font size=""-1"">Which Absolutely Fabulous Character are You?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+You are totally Patsy, sweetie! Eddy's best friend, and Bolly-Stoli swigging, drug induced, ex-model counterpart, Patsy Stone. Cheers darling! Thanks a lot! That bitch daughter of yours must be some sort of company.
+
+
+
+on a completely unrelated note, I love <a href=""http://www.u2pop.de/pics/adampics/adam022.jpg"">this photo</a> of Adam.  
+
+and, does anyone know where I can a better copy of the one <a href=""http://www.rsoc.freeservers.com/photo.html"">found here</a> entitled Moonman? (as well as other photos in that particular shoot?)
+
+cheers.  thanks alot!"
+"eventtime","2002-12-15 21:33:00"
+"current_moodid","44"
+"url","http://sunnyfieldz.livejournal.com/19143.html"
+"userid","14923"
+"itemid","71"
+"event","my dog has this thing for plastic and paper products.  Tonight, I took away a plastic thing this christmas pin came on and it is laying on my computer desk.  
+
+So I've been busy cooking soup in between surfing and he comes up when I sit down and begins to let out a series of whines, growls, woo-woos and yips.   I started laughing.  He would quit everytime I looked at him......so I started cutting my eyes to see his expression.  I realized then, he's whining for this damn plastic thing.  I swear.  that dog.    anyway, I wish I could have recorded his ""talking.""  it was hilarious.  
+
+So later, I let them out and come back to the computer and I hear them yelling at each other.....only it escalates into a real fight...not just their usual bullshitting with each other.  I grab a full glass coffee pitcher of water and start walking to the back door.  I stub my toe tripping over something in the hallway and dance across to the door as I try to regain my footing,  almost running smack into it pitcher and all.  I'm laughing during all of this because I find my clutziness humorous.  
+
+But all the noise made them stop, so I didn't get to dump the water on them:o/  
+
+My toe hurts.  
+
+Now wait a damn minute.  this silent night I downloaded is supposed to be stevie nicks.  It sounds like Mariah Carey.  WTF?
+
+feh.  dammit to hell.
+
+shit.  its christina aguilera."
+"eventtime","2002-12-12 22:07:00"
+"current_moodid","44"
+"url","http://sunnyfieldz.livejournal.com/18216.html"
+"userid","14923"
+"itemid","69"
+"event","I need to feed ms. snakeysnake.  she's very active tonight for some reason.  she's getting long too.  pretty soon her crib will have to be upgraded.    
+
+tonight I gave my rugrat a big hug while he was eating supper and he grinned a sweet little smile and replied, ""I want my daddy."" 
+
+
+:-/
+
+I think I'm getting a complex.  I wonder if he asks for me when I'm not around....."
+"eventtime","2002-12-09 21:50:00"
+"current_moodid","44"
+"url","http://sunnyfieldz.livejournal.com/17859.html"
+"userid","14923"
+"itemid","68"
+"event","<a href=""http://quizilla.com/users/jamjar273/quizzes/Which%20random%20U2%20object%20are%20you%3F/""><img src=""http://images.quizilla.com/J/jamjar273/1038956352_damfroquiz.jpg"" border=""0"" alt=""Adam's%20Fro!%20""><br> <font size=""-1"">Which random U2 object are you?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+
+
+bwahahahahaaha!
+
+
+anyway, 
+
+if I never go shopping again it will be too damn soon.  I did some xmas shopping yesterday and what I assumed would only take three hours, took me all day.  
+
+I spent a good portion of this afternoon sleeping on the loveseat.  I think in a bit I'll go take a walk and freeze my ass off."
+"eventtime","2002-12-08 14:51:00"
+"url","http://sunnyfieldz.livejournal.com/17469.html"
+"userid","14923"
+"itemid","67"
+"event","ya know, if I didn't know better, I'd think that I have morning sickness.....because my morning sickness never happened in the morning.  and every evening just like when I first got pregnant, I'm getting this queasy yuck feeling in the pit of my stomach.  
+
+except I don't feel dead tired like I did then......so I know it is  just something with my stomach and not with my uterus.   at least I hope so anyway.
+
+currently, my first and only is driving me batty with a stupid ornament that I curse the day I purchased from avon.  It is this globe looking thing with santa and the reindeer inside it.  when you turn it on it plays an annoying array of electronic  eeeeeing that mimics famous carols while santa and the deer run in alittle circle around a castle/house.    
+
+DEAR GOD MAKE IT STOP!!!!!!  IT IS DRIVING ME INSANE!!!!!!!!
+
+now where did I put that hammer?"
+"eventtime","2002-12-02 19:10:00"
+"url","http://sunnyfieldz.livejournal.com/17179.html"
+"userid","14923"
+"itemid","66"
+"event","<a href=""http://quizilla.com/users/jamjar273/quizzes/Which%20U2%20are%20you%3F/""><img src=""http://images.quizilla.com/J/jamjar273/1038092607_quizresult.jpg"" border=""0"" alt=""rattle%20and%20hum%20u2""><br> <font size=""-1"">Which U2 are you?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+
+
+it is my antibotic that is making me have a unsettled stomach.  I'm so glad today is my last day......unless I don't continue to improve....and then I'll refill it and suffer again. I'm smoking again.......so I'll probably be worse tomorrow.  when will I learn?  
+
+
+
+Luckily that hunter in a tree stand did not mistake me and two leashed large brown dogs for deer.  
+
+note to self:  stay the fuck away from the woods until well after hunting season. 
+
+bah."
+"eventtime","2002-12-02 00:08:00"
+"url","http://sunnyfieldz.livejournal.com/17148.html"
+"userid","14923"
+"itemid","64"
+"event","<p align=""center""><img border=""0"" src=""http://www.rebelsnail.net/insult/mother.gif"" width=""140"" height=""157""></p>
+
+<i>you really WANT to offend someone, but you're just too censored. too censored for your own good. you motherf*er, you.</i>
+
+<p align=""center""><a href=""http://www.rebelsnail.net/insult/test.html"" target=""_blank"">Take the test</a>, by <a href=""http://www.livejournal.com/users/burningupthesky"" target=""_blank"">Emily</a>.</p>
+
+
+
+
+
+oh yeah!  well, f*ck you!"
+"eventtime","2002-11-26 12:17:00"
+"current_moodid","5"
+"url","http://sunnyfieldz.livejournal.com/16627.html"
+"userid","14923"
+"itemid","62"
+"event","the 18th of this month marks a year I've had my ferret.  He came to me almost two months after my beloved Yoda was put to sleep.    I had such a difficult time with that decision and much guilt.  I felt like a horrible ferret owner. 
+
+and then on November the 18th I recieved a phone call that convinced me nothing is random.  A couple had found a scrawny ferret running along the rural road to their house.  He ran along side their car and they stopped to get a closer look.  Below is an excerpt from my writings on that day: 
+
+<i>When the ppl drove up, they had him in a large cat carrier. I had told her to feed him cat food, and he had an almost empty bowl there. They were afraid to touch him but spoke as if he was very gentle. I reached my fingers through the opening and he only moved his head so I could pet him. I decided to open the carrier and get him out. Their discriptions of his actions only told me he was extremely friendly and probably wouldn't bite. I gently scooped him up and he loved the petting and attention. As I chatted with them, I ran my fingers over his body and head to check for anything strange. and then I checked to see the sex....and then looked at his teeth. The couple asked me if I knew how old he might be and I surprised myself with a quick guess which I imagine is right on the money. Close to fully grown... within its first year. ferret boy rode with me to two walmarts while I tried to find accepable food. I had to get kitten purina one.....not my best choice, but it will do until I can to a pet store. The choices of pet food around here irritates me, but I'll save that rant for another day. Ferret boy rode home in my lap snoozing the whole way. A gut full of food, a warm comfortable lap and a nice rub...and he was in heaven. </i>
+
+he cuddled with me all day that day.  the only emotion I felt from him was emmense graditude.    he would melt into me as I sat stroking his soft fur.  I could feel him soaking up my love and attention.   my energy was flowing ........ filling a void in him.    
+
+I know Yoda brought him to me.  Its so cheesy.  but I know for a fact it was him that guided Binks my way.  And Binks has been the best pet anyone could ask for.  
+
+I love that little weasel.   He'll still let me cuddle him for a bit.......but then he wants to get down and steal my socks. He will soak up my love for short spans of time.....but I've never felt that deep drawing of energy like I did on that day.   
+
+thank you Yoda.  and bless your little weasel heart for saving Binks.  I know it was you behind it all and both of us are eternally greatful."
+"eventtime","2002-11-24 23:54:00"
+"url","http://sunnyfieldz.livejournal.com/15876.html"
+"userid","14923"
+"itemid","60"
+"event","I've just ordered two videos.........one is basic moves bellydancing and the other is a belly dancing excerise tape by the same ladies. I hope I don't regret ordering both of them.  But they had great reviews on amazon so it won me over.
+
+Let me say I can't dance.  I can't dance at all.  It is  sad, really just how bad it is.   and I hope this changes that.  because after all, my ribcage and hips are not fused........even if i dance like they are.
+
+so.  we'll see.  granted I have to actually do the said tapes in order for it to help.  I also have some pudginess around my middle I need to get rid of.  I can order excerise tapes better than I can do them.  I have a whole closet full of the bastards.  but what can I say?  I get bored. 
+
+anyway, I hope I still have enough left on my credit card so I can order the best of dvd in December.  man, I'll be pissed if I screwed that up.  There's always a chance a record store around here would have it though.  yeah, right.  but, I'm sure it will be fine.   
+
+welp, time for lunch."
+"eventtime","2002-11-19 11:02:00"
+"url","http://sunnyfieldz.livejournal.com/15532.html"
+"userid","14923"
+"itemid","59"
+"event","<font size=""-2""><i>
+our days are running thin 
+our hopes will start to fall 
+I can feel the world collapse around me 
+from within 
+and the letters keep coming by 
+to let us know when time will die 
+and please god will you forgive us 
+and give us one more try 
+
+if you will then we'll go 
+as fast as we go far 
+maybe we'll be forgotten 
+when the world is torn apart 
+
+I've been up all night long 
+counting days that all went wrong 
+I opened my bedroom window 
+I wish this pain was gone 
+there are no useful drugs 
+to escape from feeling numb 
+I remember an amazing birthday 
+I remember when I was young 
+
+if you will then we'll go 
+as fast as we go far 
+maybe we'll be forgotten 
+when the world is torn apart 
+cuz' then sun won't be so blinding 
+and the rains will finally come 
+the ashes will slowly pile up 
+just to prove we're finally done
+ 
+</i></font>"
+"eventtime","2002-11-16 23:09:00"
+"url","http://sunnyfieldz.livejournal.com/15121.html"
+"userid","14923"
+"itemid","56"
+"event","*hysterical    laughter*
+
+
+
+you gotta love a man  who will   mop your vomit  out of the floor. 
+
+drunk.     hurray for vodka and sprite.
+
+
+
+oha yeah......I got my u2 dvd/cd today.
+
+
+
+
+Yay!
+
+closing now cuz well I'm just too fukd to type."
+"eventtime","2002-11-08 22:23:00"
+"url","http://sunnyfieldz.livejournal.com/14554.html"
+"userid","14923"
+"itemid","55"
+"event","what the bloody hell?
+
+youtwo.net has a transcript of the chat and they dont' even have ADAM listed?
+ and the part where Larry was talking about doing the ES video isn't there..... I'm sure alot of shit is missing. 
+
+
+http://www.youtwo.net/news_archives.adp?newsid=22169
+
+wankers."
+"eventtime","2002-11-06 09:39:00"
+"url","http://sunnyfieldz.livejournal.com/14183.html"
+"userid","14923"
+"itemid","50"
+"event","I can't carry a tune in a bucket.  I know.........my singing makes dogs howl within a two mile radius.  but I know I can't sing......so its all good.  I can't write either.  I'm trying......but for some reason my mind doesn't work in that circle.  Reading more would certainly help.  when I was in college I could write fairly well.  I know lack of use has caused my dimwit condition.      anyway, 
+
+maybe, since I have no talent I shouldn't comment on this.......but as a consumer of music I think I have a right to bitch.   I'm so fucking tired of this American Idol or let's make a band crap. Plastic mold manufactured pop.  
+
+ I think if you can't write your own music then you don't deserve to make it big. and if you base your career as a copycat of someone else, then you suck.  period. For example.   we already have NSync and Backdoor boys.  Do we really need Otown?  
+
+ Talent isn't about getting up there and belting out lyrics. or lip syncing and dancing.......its about writing from your heart and being able to express that in song.  
+
+Anybody can karoke.  well, not anybody.  I can't sing for shit.  but my point is its alot easier to karoke than to create a song from scratch.  and there is too much of this fake plastic pop going on.  
+
+I just wanted to scream when I saw there will be an American Idol two.  I mean I did watch the first one I have to admit.  But after I had to hear Kellie's song blared over the radio 265 times a day and all she says is the same goddamn thing over and over again, it makes me want to slit my wrists with the steak knife I have hidden in my desk drawer.   my question goes back to.....okay the girl can sing..........but can she write good lyrics?     or is she just a robot? 
+
+and now i see <a href=""http://www.reuters.com/news_article.jhtml?type=entertainmentnews&StoryID=1666770"">this </a> and it makes me want to vomit.  They had their chance and if they can't make it without being on some idiotic show then they don't deserve to make it.  
+
+On a side note, <a href=""http://www.reuters.com/news_article.jhtml?type=entertainmentnews&StoryID=1665352"">Dammit Winona</a>.....just fucking admit your a goddamn shoplifter for Chrissakes.  If your gonna have the balls to steal, then fess up when you get caught.  Plain and simple."
+"eventtime","2002-11-01 09:38:00"
+"current_moodid","110"
+"url","http://sunnyfieldz.livejournal.com/12880.html"
+"userid","14923"
+"itemid","49"
+"event","yay!  I have a new keyboard!    it will definately take some getting used to though.  somehow I'm managing to hit the wrong keys.
+
+anyway, my old one died in a drowning of iced tea.  when I got home today the computer was beeping like a time bomb. I rushed to save all my photos since it has been known to crash.  At 8pm, I realized it was beeping because the keyboard was offically fucked.
+so I put the tot in the car and made a mad dash to walmart to remedy the situation.  I'm so pathetic I can't go without computer access for long.  
+
+anyway, I'm glad to have it.  time to feed miss snakey and get to bed.  tomorrow will be a fun  afternoon of trick or treating which translates to visiting inlaw relatives who hold you hostage for two hours at a time..and then trying to put a two year old hyped out on sugar to bed.  
+
+we were watching urban legend today.  the noxema girl said her ex boyfriends name was David Evans.  why do I find that so amusing? :-)
+
+
+oh yeah....and although it isn't quite midnight yet.
+
+HAPPY BIRTHDAY LARRY!
+
+<font size=""-2"">not that he'll ever see this........</font>"
+"eventtime","2002-10-30 23:15:00"
+"url","http://sunnyfieldz.livejournal.com/12748.html"
+"userid","14923"
+"itemid","48"
+"event","<a href=""http://www.quinnarama.com/fplpu2.html""> U2 Little People</a>
+
+
+
+<a href=""http://www.quinnarama.com""> site's homepage. </a>"
+"eventtime","2002-10-29 13:05:00"
+"url","http://sunnyfieldz.livejournal.com/12536.html"
+"userid","14923"
+"itemid","47"
+"event","today at lunch when I was getting my salad from the small bar, I noticed the 1000 island dressing had  a new ingredient. A dead fly reclining on its back. 
+
+I don't like 1000 island dressing so I just got my ranch and tried to forget about fly germs that might be on my food.  
+
+It didn't help any that I watched a Halloween special on National Geographic (yes, I'm a nerd so sue me) about flies, termites, large rats, bed bugs, roaches etc. and they told numerous facts on how nasty flies are.  as if I didn't already know.  
+
+anyway, I was able to eat my food.   I'm sure I've had worse.  
+
+<a href=""http://pbskids.org/zoboo/kratts.html"">The Kratt brothers </a>were introducing the segments and I didn't even reconize them.  After about two commericals I said, ""Hey Ben!!  that's Martin and Chris!!""  he looked so confused because they weren't acting goofy and talking in high pitched voices like they do on the show.
+
+I said, ""wait,    is it them?   what do you think?""   okay so I'm asking a three year old his  opinion.    I don't know.....  I figured he's the expert.  
+
+Finally, he laughed and said, ""it IS Martin and Chris."" He was so happy to see them.  Reminds me of myself when a U2 video comes on or something.  
+
+on a side note, I think I need an alka seltzer."
+"eventtime","2002-10-29 12:25:00"
+"url","http://sunnyfieldz.livejournal.com/12050.html"
+"userid","14923"
+"itemid","43"
+"event","mmmmm, interesting.
+
+<a href=""http://gurlondamoon.com/u2quiz.html"" target=new><img src=""http://gurlondamoon.com/imadam.gif"" border=""0""></a><br>
+Take the quiz <a href=""http://gurlondamoon.com/u2quiz.html"" target=new>here!</a>
+
+
+
+I guess if I had a guitar. I'd love it.  I love M's in a detached sortof way.  I enjoy it when his friends come over and talk music.....although I wished they'd talk about some still I really like.   not that I dont' like what they talk about........but i wish they could branch out a bit, ya know?
+
+its late for me to be here..........and awake.  
+
+i wish i could write all the stuff bouncing in my head.  i have some very good stories in there.  but theres a shortage in my hand to brain coordination. 
+
+damn, I didnt download the lj thing with the spell checker."
+"eventtime","2002-10-27 04:10:00"
+"url","http://sunnyfieldz.livejournal.com/11071.html"
+"userid","14923"
+"itemid","42"
+"event","The one reason I don't watch sappy true life movies.
+
+They make me cry.  case in point.   I watched this Laura Ingalls Wilder movie based on her books..... and I cried for the last thirty minutes of the stupid movie.  It all started when her baby died............it was all down hill from there.
+
+
+PMS?    yes, I believe it is to blame.  damn hormones.  
+
+in other news, some lady I don't even know sent me an email that had the bugbear virus embedded in it.  WTF?     anyway, I did a virus scan cuz it was suspicious........and I'm paranoid.  good thing too.   at least I didn't click like some dumbass.  yes, I've done that before.  reeked havoc on the home pc.  it was a mess to clean up. thankfully, that particular virus wasn't as ugly as some.  
+
+ anyway, lesson learned about clicking attachments and watching sappy movies.
+
+my stomach has declared mutiny.  M. said something about the dog food being low in record time and he added, ""youve been eating it again haven't  you?""   
+
+of course.  I need my protein.  hell, if I thought eating df would calm my stomach I'd do it. 
+
+Our neighbors are moving three houses down.  I'm alittle nervous as to who will end up beside us now.  those ppl are going to regret their relocating.   that house is cold as fuck in the winter."
+"eventtime","2002-10-25 23:40:00"
+"url","http://sunnyfieldz.livejournal.com/11000.html"
+"userid","14923"
+"itemid","41"
+"event","<a href=""http://quizilla.com/users/vizz/quizzes/Why%20Will%20You%20Go%20To%20Hell%3F/""><img src=""http://images.quizilla.com/V/vizz/1035282399_CWINDOWSDesktopslash.jpg"" border=""0"" alt=""I'm%20going%20to%20Hell%20because%20I%20write%20slash%20fanfiction!""><br> <font size=""-1"">Why Will You Go To Hell?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+
+<i>You write awful slash fanfiction and bring shame upon your family. <b>(Or you read it and have thought about writing your own, and that's bad enough.)</b>
+
+The shadow of your evil will remain on this earth for as long as the Web lasts.
+
+You should be hanged in front of angry villagers on Christmas Day, you sick fiend!</i>
+
+
+*evil laughter*
+
+I always knew I'd go somewhere."
+"eventtime","2002-10-25 15:44:00"
+"url","http://sunnyfieldz.livejournal.com/10742.html"
+"userid","14923"
+"itemid","39"
+"event","I've been a less than stellar parent today.  I know my drained mood did not help matters.  I read once that virgos tend to be inconsistant parents.  one day something that won't even make them bat an eyelash, will really get under their skin the next.  It cautioned virgos must really work on being consistant with it because their emotions effect their behavior so much.  I don't know about all virgos but I can say this certainly applies to me.
+
+The child was having one of his days where he's just defiant.  and combined with my mood it is a combustable situation.  
+
+My mother isn't helping matters.  I'm thinking I need to sit down with her and have a discussion but I've tried it before and it only works for a few weeks and then it is back to square one.  
+
+First of all, she let him drink a cow's worth of milk because she asked him if he wanted a chicken finger and he said no.  She said, ""oh I figured he was hungry but he said no so I let him have two cups of milk.""  *slaps forehead*
+
+he will drink all day before he'll eat.  she knows this.
+
+
+another thing she does which seriously makes me want to tear into her:  she tries the distraction tactic immediately after I tell Ben to do something.  For example:  I say, ""get in this chair RIGHT NOW and eat!""  for about the fifth time and she says, ""ooooo, look at the horse on televison.""  she says it after every order I say.  and finally tonight the combination of her tactics and his defiantness blew a fuse in my fragile mind and I sternly said, GET IN YOUR CHAIR THIS INSTANT!!""  he burst into a fit of hysterics on cue.  she had just finished babying him because he cried when I ate a piece of chicken off his plate.  I was trying reverse psycology.  so then I replaced the chicken I took and it still didn't work.  I've been as vocal with him at home and he never cries about it.
+
+anyway, before we left my outburst was more than her grandmother heart could take.  He had been asking for tootsie rolls throughout the whole meal.  He finally ate one chicken finger so I went and picked up three trs and then gave him one.  She went behind me and picked four of the bastards and gave to him as he went out the door. I threw the two I had on the table and whispers profanity all the way to my car.  
+
+This ladies and gentlemen is my own grandmother made over.  It is a delibrate sabotoge of my parenting.  She is saying, ""alright.......your  mother was mean to you.... you deserve this candy and you'll get as much as you can eat.""  
+
+I've been irritable ever since. I want to know what the fuck happened to the woman who raised me?    its invasion of the body snatchers I tell you!!    she wouldn't have hesitated to swat my ass when I was little.  My own child gets to walk all over her and me and it is just fine and dandy.
+
+anyway, I feel bad that I didn't read him a story tonight.  I just took the book away and shooed him downstairs.  I know it is his nightly duty to find every conceivable way to stall bedtime......but it wouldn't have killed me to read the damn book.  
+
+I was just so tired today.  I even fell asleep while Jay jay the butt faced jet plane was on.  It was an accident.  I never intended to go to sleep.  Napping in the evenings turns me into a grumpy old bear.  I should go to bed, but I have to let the ferret run around and occasionally attack my ankles.  speaking of the little weasel freak....I need to go see what he's up to.  he's been awfully quiet the last few minutes....."
+"eventtime","2002-10-24 21:36:00"
+"url","http://sunnyfieldz.livejournal.com/10031.html"
+"userid","14923"
+"itemid","38"
+"event","I locked my keys in my car yesterday when I went to the pet store.  Yes, I'm stupid.  Lucky for me right next door was a locksmith.  I did try the police first but they do not  unlock cars anymore (at least in that city they don't.)  In the immortal words of the unkempt pet store worker, ""what DO they do anymore?""   well, I'm sure they in fact have alot to do.  like giving out speeding tickets and flirting with the staff of fast food resturants. Nevertheless, without the uniforms I got my car unlocked and it was only $5. the five dollars was worth it too.  
+
+then I went allover goddamn creation trying to find a Q magazine.  I can't remember if they sell it here or not.  it isn't at any store I visited but that isn't saying much for around here. I need to do an online search later.  
+
+Last night I had a disturbing Bono dream.  I was not a character in the dream but somehow I knew what was going on and I felt everyone's emotions.  (I guess like a fly on the wall or angel if you prefer something more spiritual.)  
+
+so anyway, Bono and Ali had divorced.  I was upset by this.  I can't remember why it happened, but I for some reason I think a third party helped things along.   I could feel the saddness surrounding everyone and the situation.  It was shocking to get such an empathetic view of a dream.  I felt Ali's feelings the strongest.  although she was very strong and held everything together I knew she was dying inside.  Smiling on the outside, writhing in agony on the inside. It was heartbreaking.
+
+ When I woke up I was thinking Bono, your  such a bastard and then I realized I was dreaming.  
+
+I think if that really did happen it was shatter my views of long term marriage.  I like to focus on the positive long term relationships I see in celebrity and noncelebrity lives and every time one fails it eats away at me.  Because deep down I know  a lifetime is a long time to put up with with someone else's shit and I wonder if my day will come when my own relationship will fail.  But at the same time I know a lifetime isn't long enough to spend with someone.     I know.  Its a contridiction. I'm rambling like a moron.  
+
+ I'm procrastinating.  I hate working on this stupid safety newsletter.  It's so lame.  and I'm so uncreative.  well, today I'm uncreative.  I want to go to bed.  
+
+so anyway..... 
+<lj-cut text=""on with the quiz"">
+<a href=""http://quizilla.com/users/andrewtma/quizzes/What%20guitar%20are%20you%3F/""><img src=""http://images.quizilla.com/1033608720_turestele1.jpg"" border=""0"" alt=""""><br> <font size=""-1"">What guitar are you?</font></a><BR> <font size=""-3"">brought to you by <a href=""http://quizilla.com"">Quizilla</a></font>
+
+M. has a fender.  but its a strat.   I think he likes them better.  I should pay more attention when he rambles about guitars."
+"eventtime","2002-10-23 09:06:00"
+"current_moodid","5"
+"url","http://sunnyfieldz.livejournal.com/9913.html"
+"userid","14923"
+"itemid","34"
+"event","Up  until recently, I've viewed reality television as a great crapfest.  Well, I lie really considering I watched that show.....with the couples who were separated?  what was it called?  Temptation Island.  Yeah.  I got sucked into that one big time.  
+
+Lately, I'm morbidly curious about The Bachleor.  I have alot of inner tormoil occuring while I watch.  I almost feel sorry for these women and I feel my own self esteem dip just  a bit. I can't fathom being so into a guy like that.  well, okay.  I lie again.  It depends on the guy I guess (if it was Adam, I'd certainly be acting more like those women)  but, not when its that guy on the show.  and some of those women have no game whatsoever.  Do they think he wants a sniffling little crygirl who can't get along with anyone there?   or that one chic that has some sort of borderline obsession with him.  what is up with that?   and they all get mad when he kisses someone else.  My God.  isn't that the point?  he'll probably fuck someone before its over too.  I wonder if they've thought about that.  hell, he might find two or more to shag at the same time.  I guess that wouldn't  be available for our viewing pleasure. 
+
+I always flip around the channels and then bounce back ever so often to my reality crap show to see what was up.  I guess I might miss a bit of the details, but *shrug*  I drive my husband crazy with my channel surfing.  I surf on the radio too.  I have a short attention span.  
+
+I wonder if <a href=""http://www.rottentomatoes.com/m/TheRing-1116705/about.php"">this movie</a> will be worth anything.  It sounds like it might be.  I always crave horror around Halloween.  Perhaps we should go to see it."
+"eventtime","2002-10-18 15:42:00"
+"url","http://sunnyfieldz.livejournal.com/8733.html"
+"userid","14923"
+"itemid","33"
+"event","I've just overheard (on cnn headline news.....apparently they have nothing better to discuss) that Hank Williams Jr. says that  Kid Rock is ""like a son"" to him.   
+
+well, that settles it.  I've always thought Kid Rock was a redneck dipshit.  and now he has his airheaded big-tittied plastic surgeried-up moron of a wife.  Too bad they don't offer BRAIN cosmetic surgery.   Pam could use one. 
+
+ I just sat there slack jawed when I saw his video with him mowing grass and Pam looking all stupid. Hell, I was embarassed for her and him.  
+
+anyway, enough of my bitching about Bimbos and Rednecks. I guess its obvious I'm in a foul mood.  (cluck cluck.)
+
+I really would like to kick someone's ass.  I don't care who.  just someone.  anyone will do. ( I could make a song about that. )
+
+
+I don't know what happened.  All of a sudden I hate everything.  I think it is my sinus/cold pills.  
+
+Perhaps I should post later when I'm in a better mood.  (or maybe I should say IF and not when.  )
+
+I do like my halloween icon.  it's positively evil.  Mwhahahahahahaha   *cough* *hack*   *cough*
+
+
+oOoo.  I hear Mysterious Ways on the radio."
+"eventtime","2002-10-16 14:45:00"
+"url","http://sunnyfieldz.livejournal.com/8538.html"
+"userid","14923"
+"itemid","32"
+"event","I have a strong desire to watch cheesy B horror movies.  It always happens at Halloween.  Saturday night, I packed up some dvds and a shitload of wine based drinks (ie wine coolers......yeah, I was in a ""girlie drink"" kinda mood) and went to my cousin's house to hang out.  
+
+we laughed at her neighbor's who were clearly having a fuck fest.  B. said they fucked all the time.  at one point I mistook a cry of passion from the wall for a moan from the horror movie, lol!  anyway, we watched Evil Dead.......one my fav cult classics.  I think Ash is cute.  what can I say.
+
+anyway, my stomach is being a pain right now. I'm not sure what is going on.......but I'm tired of it.  hopefully, it will settle down by tomorrow.  
+
+someone sent me a notice to visit this <a href=""http://u2now.cjb.net/"">U2 site.</a>   It has a kick ass photo collection.  I have to admit I haven't gotten much farther than drooling over the photos......but it appears to be a great site. 
+
+well, I think me and my stomach are going to turn in...  I hope all is better by tomorrow."
+"eventtime","2002-10-14 23:28:00"
+"current_moodid","27"
+"url","http://sunnyfieldz.livejournal.com/8264.html"
+"userid","14923"
+"itemid","31"
+"event","I think it is time for me to go to bed. 
+
+ I can't even focus on U2 slash.  
+
+besides I keep thinking about muscular woman ass.
+
+
+I think I'll have to buy that dvd."
+"eventtime","2002-10-06 01:59:00"
+"url","http://sunnyfieldz.livejournal.com/8131.html"
+"userid","14923"
+"itemid","29"
+"event","I hate being domestic.  I hate the ""housewife"" part of life. I think I was a man in my past life.   I really  need a maid.   I also really hate grocery store shopping.  
+
+Today wasn't any exception.  and wouldn't you know it.....I get behind one of those ppl that use grocery store shopping as a mediation and read every label, stare at every item and price and stand right in my mothafuckin way.  This lady was worse than any I've seen ever.  
+
+It all started at the beginning of my forced trek, at the bananas. She was blocking them with her body and cart completely oblivious to the fact she was not the only soul who needed groceries today.  I could see myself in the mirror behind the nanners. and I wondered why it was taking her so long.......and then my mind began to drift.  <i> why do you need a mirror behind  bananas? Do bananas need to look at themselves. Does it help them ripen?  Are they really a vain fruit? Do they  need to put on their makeup?  I don't know. </I> but I get to ponder this and many other questions about banana displays and banana behavior while the mediation lady stares at the yellow/green clusters.  
+
+<i>what is she staring at?  they all look the same to me. Is she planning to make one of those cool fruit hats?  Is she picking the perfect one out for her phallic fruit love fest tonight?  </i>  I get to drift on for what seems like an eternity.   
+
+Finally, she acknowledges there are others on this planet besides her fantasy world in the mirrored banana corner.  She moves slightly.....and I go forward and claim my prize.  They still look the same to me.......all of them........so I pick the closest ones......separate three from the cluster....and plop the rest back.  
+
+Miss shopper has moved on slowly to the grapes.......which just happens to be what my two year old has been asking for the past three days.    <i>Fuck. </i>  finally she slowly passes.......inching........and stops in front of the apples which still doesn't leave me room even without my stupid buggy to squeeze in.  I sigh.....and move to the cracker aisle.  I pretend to look over the shelves.  I'm really searching for Oreos.  I glance back........she's still there.  I get my claim.......and then still have time to ponder the   upsergeance of new cookie type products.  Oreos with double stuff, peanut butter, mint I think.....and then all the chips ahoy..chookies with fudge, cookies with m&m things.....  all the types of graham crackers........you get the idea.
+
+Finally I get my fruit (grapes and those kick ass Gala apples) and thank the powers that be I don't need any vegetables.   She manages to get ahead of me as I search for those damn potato chips my husband eats.  He's so picky.
+
+I  manage to outrun Miss Shopper on the next aisle since I don't need anything down that one.  
+
+I get all my shit.......$50 worth and stand at the counter to pay.  I see Miss Thing on aisle Five.  I think she better be glad this grocery store only has ten isles.  How could she handle a Winn Dixie or a Food World?  
+
+anyway, as I'm putting my groceries in the car, I realize sometimes I blankly stare at a shelf at the grocery store.  But I'm not pondering the ingredients or the calories or the price.  I'm spacing out.  My mind drifts out the store and into the great beyond. I ponder important stuff like the meaning of the universe, <i>why do I love chocolate so much?, what is that damn stickiness on my shoe?, why does my car smell funky lately?, how much hair does The Edge really have left?..why does  my dog love to chew on paper?  will someone ever post an Edge/Larry love fest on LIB?  how many licks does it really take to get to the center of a toosie pop?</i>....and at some point I'm snapped back to the moment and I realize I'm supposed to be picking out which poptart flavors I can stomach eating this week......not becoming a space cadet.  
+
+I don't do it on every aisle.....just an occasional mind slip.....and then I think.......<i>God what was I doing?......oh yeah. poptarts. </i>  
+
+I also forget to pick up things...even with a list....like today I almost forgot Milk.  Of all things Milk is not a forgetable item at our house.  My son really should be just attached to a milk cow.  but I past it.....and then thought......... I need milk dammit.  so I have to circle back.
+
+My grandmother claims it happens to her in Walmart.  Maybe its sensory overload.  I dunno.   But I do space out at every grocery store visit.   I am courteous though and I move my ass when I'm in the way...
+
+I'm just glad my grocery store shopping is over this week for the most part.  At some point tonight I have to cook tacos for lunch tomorrow.  Did I mention I hate cooking?      I space out then too.
+
+I need a chef.  a maid and a chef.  too bad I'm not rich."
+"eventtime","2002-09-30 22:01:00"
+"url","http://sunnyfieldz.livejournal.com/7620.html"
+"userid","14923"
+"itemid","26"
+"event","hummmm,
+
+a real pic of the elusive Susie....
+
+http://www.rexfeatures.com/cgi-bin/rppshimg0?i=390545D
+
+
+  This picture is definately  more flattering than the one that appeared in Edge's wedding feature.
+
+btw, it originally come from a lovely someone on the Adam Clayton Yahoo group."
+"eventtime","2002-09-28 23:05:00"
+"url","http://sunnyfieldz.livejournal.com/6885.html"
+"userid","14923"
+"itemid","25"
+"event","I've felt amazingly good today for someone who downed two bottles of wine last night......and followed that with two beers.  
+
+I FINALLY was able to watch my R&H dvd in full.  I still love the part where Larry gets all misty eyed at Graceland.  
+
+I went outside at 6:30am to smoke.  I lied on the dampened cement and watched the clouds move swiftly past.......and then I went to bed.   slept like a damn rock until a boxer nose woke me up, following that was a full body slam as the dog decided sniffing we wasn't enough......and all of his 65 pounds landed on me.  It was 1:30pm.  
+
+I ate breakfast........and then ate two pickles.....which was a very bad idea.   not the breakfast......just the pickles.  
+
+I actually excerised afterwards.........but after the pickles decided to avenge their death by almost coming back up, I had to quit.  I've been alittle dizzy sometimes today.  I almost busted my ass a couple of times.    that always happens after I pitch a good drunk.
+
+anyway, it felt good to stay up all night.  
+
+damn ferret keeps attacking my ankles......and he almost made off with the cell phone.  I've told him about those late night calls to his girlfriend.      
+
+anyway, I've decided to go to bed around 1am.  maybe.  I kissed my SO after he had took a sip of beer and it made my stomach churn.  I'll probably be avoiding alcohol for a while....
+
+I still taste  pickles.  (*ew*)"
+"eventtime","2002-09-27 22:15:00"
+"url","http://sunnyfieldz.livejournal.com/6572.html"
+"userid","14923"
+"itemid","22"
+"event","Shit.  I'm laughing  cuz I spilt some wine on my pillow......and my fat ass boxer has taken over it.    he's licking up the wine I just dripped on it.  
+
+My pillow is gonna smell like dog funk and I don't even give a shit. He's maxing all out over my pillow.  ROFL!!
+
+
+ 
+
+pitching a good drunk is such fun... I should do it more often."
+"eventtime","2002-09-27 02:31:00"
+"url","http://sunnyfieldz.livejournal.com/5839.html"
+"userid","14923"
+"itemid","21"
+"event","I just want to say those of you who submit your writings to loveisblindness.net please do more R and Nc17 stuff.
+
+I have a gutter mind and I swear........I love that shit.
+
+so please.......dont' keep me waiting........"
+"eventtime","2002-09-27 02:22:00"
+"url","http://sunnyfieldz.livejournal.com/5485.html"
+"userid","14923"
+"itemid","9"
+"event","furthermore, I'd like to know who the hell Uncle Bubbles is.  S/he has just joined Adam Clayton list and I just don't know about them.  I tend to be alittle sceptical of ppl who don't use their real name and then dis several albums, yet claim to love Adam.  Also, they randomly post annoying invites to their site.  
+
+I mean invite me once and then shut the fuck up.  Add a link to your signature if you must, but don't keep cramming your site down my gullet."
+"eventtime","2002-05-06 14:00:00"
+"url","http://sunnyfieldz.livejournal.com/2429.html"
+"userid","14923"
+"itemid","8"
+"event","While driving home saturday from buying my new portable CD player, I put in Zooropa.   While it was playing Lemon, we drove by this house that had like thirty guineas in their yard.  (guineas are like chickens...only uglier (and stupider if that's possible.)         well, I commented on how close to the highway they were..... and we talked about other assorted topics...
+
+And then out of the blue, M. just started singing , ""she had chick--ins"" ""innnnnn...her yard.""   to the tune of ""she wore le-mon...."" etc.      I started laughing.........so all weekend he's been singing his chicken song.      At one point he added a 'bock bock cluck cluck' to the melody and it was hilarious.  
+
+You know.  I think this is a sign I  really need to get a life."
+"eventtime","2002-05-06 13:45:00"
+"current_moodid","92"
+"url","http://sunnyfieldz.livejournal.com/2129.html"
+"userid","14923"
+"itemid","7"
+"event","<img src=""http://www.planetag.de/quiz/cdiaz1.jpg"" width=""220"" height=""200""><br>
+        You are <a href=""http://us.imdb.com/Name?Diaz,+Cameron"" target=""_blank""><b>Cameron 
+        Diaz</b></a>!<br>
+        You acted in cool movies like:<br>
+        Charlie's Angels, Vanilla Sky, Being John Malkovich, <br>
+        Very Bad Things, Life Less Ordinary <br>
+        and There's Something About Mary.<br><br>
+<a href=""http://www.planetag.de/quiz/holyprincess_quiz1.htm"">Take the ""Which Hollywood Princess are you?""<br> quiz @ planetag.de</a>
+
+
+aw, shit.   I was hoping to be Drew or Reese.    I'm kinda tired of hearing the SO talk about how ugly he thinks Cameron is and how he can't figure out why the whole world likes her.  
+I mean really, do I have to hear that same damn arguement every time he sees a blip on her in the news, magizines, commericals etc.    God forbid trying to actually watch a movie of hers.  He hates Julia Roberts too.   I do not understand that man."
+"eventtime","2002-05-06 10:52:00"
+"url","http://sunnyfieldz.livejournal.com/1940.html"
+"userid","14923"
+"itemid","6"
+"event","i think my home computer is about to go down.  it's acting very strangely.
+
+i'm alittle worried about bills this month.  car insurance always seems to rip us a new one.  i suppose it has its place......but it just seems to fall on a bad month.  maybe any month you have to pay out any more money than usual is a bad one. i'd like to get a new computer, but i can't figure out how to work that into our budget.  if M would give up that guitar he wants so bad that could be our answer.  but, i can't ask him to do that.  *sigh*     maybe if he would'nt but all those goddamn mp3s on teh computer it would act better.  
+
+my son likes to wear Mr. Potato head's glasses.    they are like five times to small for his head......  it is so amusing.  
+
+bad storms moved through yesterday.  you could have floated a raft in our back yard.  they seem to be gone now.  
+
+well, hummm.  noone has befriended me.  .........  ??      i wonder what's up with that. 
+
+gotta go do some work.  *sigh*"
+"eventtime","2002-05-01 09:49:00"
+"url","http://sunnyfieldz.livejournal.com/1655.html"
+"userid","14923"
+"itemid","5"
+"event","damn, this computer is being a freaking asstard!
+
+gah!"
+"eventtime","2002-04-29 20:35:00"
+"url","http://sunnyfieldz.livejournal.com/1373.html"
+"userid","14923"
+"itemid","3"
+"event","it seems yahoo has deleted my sunnyfieldz journal for remaing idol too long.  no telling what all has been bouncing left and right.  probably not much. *shrug*  who cares anyway.  I reactived it so we'll see if anyone sends me hate mail for fucking with their mailboxes.  
+
+i have smoked too  many cigerettes tonight.  my lungs are gonna kill me.  *chuckle*  
+
+I need to go to freakin bed..."
+"eventtime","2001-10-12 00:40:00"
+"current_moodid","1"
+"url","http://sunnyfieldz.livejournal.com/808.html"
+"userid","14923"
+"itemid","1"
+"event","Bored.  sitting around doing nothing.  Found a nice website with free porn pics....
+
+not that I sit around looking at porn all the time...but I find myself doing it if I am really bored.  Like now.
+
+I wonder how many women in the world have dildos.  I know of one  *grin*  but it isn't something I discuss with my friends...so I don't know about anyone else.  I do know this one lady who has one.  It is the one with a rabbit head on it.  I have seen it in those sex mags they send in the mail.  ...  but anyway, this lady that has retired from work..she told once that she had to buy a new one because she had used hers so much the ears fell off.  I am not sure if she was kidding or not...but either way she crossed into too damn much information.  That paints a rather scarring mental picture.
+
+I have a couple of pics I consider nice for naked parts...but one of them is more naked than I feel comfortable doing.  maybe one day I will."
+"eventtime","2001-07-05 13:27:00"
+"url","http://sunnyfieldz.livejournal.com/434.html"
+"userid","14923"
