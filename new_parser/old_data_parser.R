@@ -48,9 +48,6 @@ parse_post<- function (post) {
     if (is.na(moodID)) {
         moodID=""
     }
-    if (is.null(moodID)) {
-        moodID=""
-    }
     
     return (list(userID=userID, moodID=moodID, postID=postID,postDateID=postDate, postContent=postContent))
 }
