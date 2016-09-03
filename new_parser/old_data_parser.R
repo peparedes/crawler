@@ -9,7 +9,7 @@ file_list<-list.files()
 
 # returns a list of dataframes each of which contains info about 1 post of the particular user
 parse_xml <- function(fileName, file_list) {
-    print(fileName)
+    #print(fileName)
     
     doc = tryCatch({
         xmlParse(fileName)
@@ -25,27 +25,36 @@ parse_xml <- function(fileName, file_list) {
         return (NA)
     }
     
-    userID = getNodeSet(doc,"//post/user")
-    moodID = getNodeSet(doc,"//post/current_moodid")
-    postID = getNodeSet(doc,"//post/ditemid/int")
-    postDate = getNodeSet(doc,"//post/eventtime/string")
-    postContent = getNodeSet(doc,"//post/event/string")
-    return (c(userID, moodID, postID, postDate, psitContent))
-}
-
-#create a folder within downloads to put the parsed data
-if(!dir.exists("parsed_data")) {
-    dir.create("parsed_data")
-}
-
-for (i in 1:length(file_list)) {
-    parsed_info <- parse_xml(file_list[i], sort(file_list))
-    if (is.na(parsed_info)) {
-    } else {
-        #df of all assembled dfs to write in file
-        super_df<-ldply(parsed_info, rbind)
-        super_df<-super_df[ , !(names(super_df) %in% c(".id"))]
-        username<-substr(file_list[i], 1, nchar(file_list[i])-4)
-        write.csv(super_df, paste("parsed_data/",username, ".csv", sep=""), row.names = FALSE)
+    # collect all the posts in a list
+    posts <- getNodeSet(doc,"//post")
+    
+    x<-c()
+    
+    for (post in posts) {
+        x<-rbind(x, parse_post(post))
     }
+    
+    return (data.frame(x))
 }
+
+#function that takes in a post and returns a data frame with all the info
+parse_post<- function (post) {
+    userID <- xmlValue(post[['user']][[1]])
+    moodID <- xmlValue(post[['props']][['current_moodid']][['int']][[1]])
+    postID = xmlValue(post[['ditemid']][['int']][[1]])
+    postDate = xmlValue(post[['eventtime']][['string']][[1]])
+    postContent = xmlValue(post[['event']][['string']][[1]])
+    
+    if (is.na(moodID)) {
+        moodID=""
+    }
+    if (is.null(moodID)) {
+        moodID=""
+    }
+    
+    return (list(userID=userID, moodID=moodID, postID=postID,postDateID=postDate, postContent=postContent))
+}
+
+parsed_info <- parse_xml("zzzzzzzzzzzzzzz.xml", sort(file_list))
+View(parsed_info)
+

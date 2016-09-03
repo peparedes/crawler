@@ -10,7 +10,7 @@ file_list<-list.files()
 
 # returns a list of dataframes each of which contains info about 1 post of the particular user
 parse_xml <- function(fileName, file_list) {
-    print(fileName)
+    #print(fileName)
     
     doc = tryCatch({
         xmlParse(fileName)
