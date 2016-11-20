@@ -9,10 +9,14 @@ from lxml import etree
 from time import sleep
 from xmltest import get_posts
 from xmltest import to_file
+import sys
 
 username = 'bidbt'#'kenghao'#
 password = 'bid35460'#'smallcat1003'#
 
+#set a timeout for an hour after I start downloading data
+timeout = time.time() + 60*60
+total_content = []
 
 def startXMLStr():
     return '<?xml version=\\"1.0\\"?><methodCall>'
@@ -40,18 +44,20 @@ def lj_getevents(target_user, index, beforedate):
     curl = 'curl -d "'+xml+'" http://www.livejournal.com/interface/xmlrpc'
     pp = subprocess.Popen(shlex.split(curl),stdout=subprocess.PIPE)
     content = pp.communicate()[0]
-    print(len(content))
+    #print(len(content))
     # Checks that the downloaded file is not an error message
     if len(content) > 404:
-	    f = open("../downloads/" + target_user + ".xml", 'wb')
-	    f.write(content)
-	    f.close()
-	
-	# * files with the error message that the posting limit has been 
-	# * exceeded are 371 bytes long
-	# * The program sleeps for an hour after it gets such a file
+        f = open("../downloads/" + target_user + ".xml", 'wb')
+        total_content.append(len(content))
+        f.write(content)
+        f.close()
+    
+    # * files with the error message that the posting limit has been 
+    # * exceeded are 371 bytes long
+    # * The program sleeps for 1 minute after it gets such a file
     elif len(content) == 371:
-         sleep(3600)
+         print("Timeout - Sleeping for 5 minutes")
+         sleep(60*5)
     docName =  str(target_user)
     return docName
 
@@ -61,27 +67,30 @@ namedict = {};
 namecrawltime = {};
 
 iters = 0;
-# load the name2id file
+#load the name2id file
 f = open("../data/names/name2id_0")
 for line in f:
-	items = line.strip().split('|')
-	namedict[items[1]] = items[0]
+    items = line.strip().split('|')
+    namedict[items[1]] = items[0]
 
 
 userind = 1
 for key in namedict.keys():
-	print (key, namedict[key])
+    #print (key, namedict[key])
 
-	#puts all the files it downloads in the downloads folder
-	outpath = "./downloads"
-	# start a fresh crawl
-	f = open(outpath, "a")	
-	tic = time.clock()	
-	eventtime = lj_getevents(key, "", f)
-	toc = time.clock()
-	if toc-tic < 0.2:
-		sleep(0.2-toc+tic)
-	f.close()
+    #puts all the files it downloads in the downloads folder
+    outpath = "./downloads"
+    # start a fresh crawl
+    f = open(outpath, "a")  
+    #tic = time.clock() 
+    eventtime = lj_getevents(key, "", f)
+    if (time.time()>=timeout):
+        print("Number of files:",str(len(total_content))," File size:",str(sum(total_content)/10**6)," MB ", "Time: 1 hour")
+        sys.exit()
+    #toc = time.clock()
+    #if toc-tic < 0.2:
+    sleep(0.5)#-toc+tic)
+    f.close()
 
 # def get_usernames():
 #     i = 0
