@@ -23,14 +23,19 @@ searched_files = [] # this is another file that keeps track of the explored file
 with open('searched_files.txt', 'r') as sf:
 	searched_files.extend(sf.read().splitlines()) #import all the already explored files
 
+tmp = []
+with open('new_usernames.txt', 'r') as sf:
+	tmp.extend(sf.read().splitlines()) #import all the already explored files
+print(tmp)
 #set that keeps usernames so that they are not repeated in the file
-usernames = set()
+usernames = set(tmp)
+print(usernames)
 
 #extract urls from all the files
 for n in range(len(files)):
 	# every 5 files you look at save the usernames to the new_usernames  file
 	if not n%5:
-		new_file = open('new_usernames.txt', 'a')
+		new_file = open('new_usernames.txt', 'w')
 		sf = open('searched_files.txt', 'a')
 		for item in usernames:
   			print>>new_file, item
