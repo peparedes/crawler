@@ -2,6 +2,8 @@ import urllib2
 import numpy as np
 import os
 import re
+import time
+import random
 
 folders = os.listdir("./downloads")
 
@@ -32,14 +34,26 @@ for f in folders:
 	print(f)
 	try:
 		for fi in os.listdir("./downloads/"+f):
-			urls.extend(get_urls("./downloads/"+f+"/"+fi))
+			new_urls = get_urls("./downloads/"+f+"/"+fi)
+			if new_urls is not None:
+				urls.extend(new_urls)
 	except OSError:
 		pass
 
-thefile = open('new_usernames.txt', 'w')
+thefile = open('new_usernames.txt', 'a')
 new_usernames = []
+print(len(urls))
 for u in urls:
-	for item in list(extract_username("http://"+u)):
-		if item not in new_usernames:
-			new_usernames.append(item)
-			thefile.write("%s\n" % item)
+	try:	
+		usernames = extract_username("http://"+u)
+	except urllib2.HTTPError:
+		usernames=None
+		time.sleep(60)
+		pass
+	time.sleep(1+random.random())
+	if usernames is not None:
+		for item in list(usernames):
+			if item not in new_usernames:
+				print("Added new username")
+				new_usernames.append(item)
+				thefile.write("%s\n" % item)
